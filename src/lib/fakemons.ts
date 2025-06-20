@@ -1,0 +1,186 @@
+export interface Fakemon {
+  id: string;
+  name: string;
+  types: string[];
+  sprite: string;
+  description: string;
+  stats: {
+    hp: number;
+    attack: number;
+    defense: number;
+    spAttack: number;
+    spDefense: number;
+    speed: number;
+  };
+  height: string;
+  weight: string;
+  abilities: string[];
+  category: string;
+}
+
+export const fakemons: Fakemon[] = [
+  {
+    id: "1",
+    name: "Crystaleon",
+    types: ["Crystal", "Psychic"],
+    sprite: "/placeholder.svg?height=200&width=200",
+    description:
+      "A mystical Pokémon that can manipulate crystal formations. Its body is partially crystallized, allowing it to refract light and create dazzling displays.",
+    stats: {
+      hp: 85,
+      attack: 60,
+      defense: 110,
+      spAttack: 130,
+      spDefense: 95,
+      speed: 70,
+    },
+    height: "1.2 m",
+    weight: "45.5 kg",
+    abilities: ["Crystal Body", "Magic Guard"],
+    category: "Crystal Pokémon",
+  },
+  {
+    id: "2",
+    name: "Shadowmane",
+    types: ["Dark", "Ghost"],
+    sprite: "/placeholder.svg?height=200&width=200",
+    description:
+      "This elusive Pokémon dwells in the deepest shadows. Its mane seems to absorb light, making it nearly invisible in darkness.",
+    stats: {
+      hp: 90,
+      attack: 120,
+      defense: 70,
+      spAttack: 85,
+      spDefense: 80,
+      speed: 105,
+    },
+    height: "1.8 m",
+    weight: "62.3 kg",
+    abilities: ["Shadow Cloak", "Intimidate"],
+    category: "Shadow Pokémon",
+  },
+  {
+    id: "3",
+    name: "Volthorn",
+    types: ["Electric", "Steel"],
+    sprite: "/placeholder.svg?height=200&width=200",
+    description:
+      "Its metallic horns can generate powerful electrical charges. Volthorn is often found near power plants, feeding on electrical energy.",
+    stats: {
+      hp: 75,
+      attack: 95,
+      defense: 120,
+      spAttack: 110,
+      spDefense: 85,
+      speed: 65,
+    },
+    height: "1.5 m",
+    weight: "78.9 kg",
+    abilities: ["Lightning Rod", "Sturdy"],
+    category: "Thunder Pokémon",
+  },
+  {
+    id: "4",
+    name: "Floraspirit",
+    types: ["Grass", "Fairy"],
+    sprite: "/placeholder.svg?height=200&width=200",
+    description:
+      "A gentle Pokémon that brings life to withered plants. Its presence causes flowers to bloom and trees to flourish.",
+    stats: {
+      hp: 100,
+      attack: 70,
+      defense: 85,
+      spAttack: 120,
+      spDefense: 110,
+      speed: 65,
+    },
+    height: "0.9 m",
+    weight: "28.4 kg",
+    abilities: ["Flower Veil", "Natural Cure"],
+    category: "Nature Pokémon",
+  },
+  {
+    id: "5",
+    name: "Frostbite",
+    types: ["Ice", "Dragon"],
+    sprite: "/placeholder.svg?height=200&width=200",
+    description:
+      "This ancient dragon Pokémon was frozen in ice for millennia. Its breath can instantly freeze anything it touches.",
+    stats: {
+      hp: 95,
+      attack: 130,
+      defense: 90,
+      spAttack: 105,
+      spDefense: 100,
+      speed: 80,
+    },
+    height: "2.1 m",
+    weight: "95.7 kg",
+    abilities: ["Snow Warning", "Ice Body"],
+    category: "Frost Dragon Pokémon",
+  },
+  {
+    id: "6",
+    name: "Blazeclaw",
+    types: ["Fire", "Fighting"],
+    sprite: "/placeholder.svg?height=200&width=200",
+    description:
+      "A fierce warrior Pokémon with claws that burn hotter than lava. It never backs down from a challenge.",
+    stats: {
+      hp: 80,
+      attack: 140,
+      defense: 75,
+      spAttack: 90,
+      spDefense: 70,
+      speed: 95,
+    },
+    height: "1.7 m",
+    weight: "68.2 kg",
+    abilities: ["Blaze", "Iron Fist"],
+    category: "Flame Warrior Pokémon",
+  },
+  {
+    id: "7",
+    name: "Aquamyst",
+    types: ["Water", "Psychic"],
+    sprite: "/placeholder.svg?height=200&width=200",
+    description:
+      "This mysterious Pokémon can control water with its mind. It's said to appear only during full moons near sacred springs.",
+    stats: {
+      hp: 85,
+      attack: 65,
+      defense: 80,
+      spAttack: 125,
+      spDefense: 115,
+      speed: 80,
+    },
+    height: "1.3 m",
+    weight: "41.8 kg",
+    abilities: ["Telepathy", "Water Absorb"],
+    category: "Mystic Pokémon",
+  },
+  {
+    id: "8",
+    name: "Rockslide",
+    types: ["Rock", "Ground"],
+    sprite: "/placeholder.svg?height=200&width=200",
+    description:
+      "A massive Pokémon that can cause avalanches with its movements. Its body is composed of various minerals and gems.",
+    stats: {
+      hp: 110,
+      attack: 125,
+      defense: 140,
+      spAttack: 60,
+      spDefense: 90,
+      speed: 25,
+    },
+    height: "2.5 m",
+    weight: "180.5 kg",
+    abilities: ["Rock Head", "Solid Rock"],
+    category: "Boulder Pokémon",
+  },
+];
+
+export function getFakemonById(id: string): Fakemon | undefined {
+  return fakemons.find((fakemon) => fakemon.id === id);
+}
