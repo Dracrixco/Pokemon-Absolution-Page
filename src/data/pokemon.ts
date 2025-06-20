@@ -20,6 +20,7 @@ export const fakemons: Fakemon[] = [
     height: "0.4",
     weight: "50.0",
     abilities: ["OVERGROW"],
+    hiddenAbilities: ["JUNGLEPROTECTOR"],
     category: "???",
   },
   {
@@ -41,6 +42,7 @@ export const fakemons: Fakemon[] = [
     height: "2.1",
     weight: "200.0",
     abilities: ["OVERGROW"],
+    hiddenAbilities: ["JUNGLEPROTECTOR"],
     category: "???",
   },
   {
@@ -62,6 +64,7 @@ export const fakemons: Fakemon[] = [
     height: "5.0",
     weight: "300.0",
     abilities: ["OVERGROW"],
+    hiddenAbilities: ["JUNGLEPROTECTOR"],
     category: "???",
   },
   {
@@ -83,6 +86,7 @@ export const fakemons: Fakemon[] = [
     height: "0.4",
     weight: "2.5",
     abilities: ["BLAZE"],
+    hiddenAbilities: ["TOTHELIMIT"],
     category: "???",
   },
   {
@@ -104,6 +108,7 @@ export const fakemons: Fakemon[] = [
     height: "1.2",
     weight: "100.0",
     abilities: ["BLAZE"],
+    hiddenAbilities: ["TOTHELIMIT"],
     category: "???",
   },
   {
@@ -125,6 +130,7 @@ export const fakemons: Fakemon[] = [
     height: "3.0",
     weight: "155.0",
     abilities: ["BLAZE"],
+    hiddenAbilities: ["TOTHELIMIT"],
     category: "???",
   },
   {
@@ -146,6 +152,7 @@ export const fakemons: Fakemon[] = [
     height: "0.5",
     weight: "20.0",
     abilities: ["TORRENT"],
+    hiddenAbilities: ["NEUROTOXIN"],
     category: "???",
   },
   {
@@ -167,6 +174,7 @@ export const fakemons: Fakemon[] = [
     height: "1.5",
     weight: "78.0",
     abilities: ["TORRENT"],
+    hiddenAbilities: ["NEUROTOXIN"],
     category: "???",
   },
   {
@@ -188,6 +196,7 @@ export const fakemons: Fakemon[] = [
     height: "3.0",
     weight: "123.0",
     abilities: ["TORRENT"],
+    hiddenAbilities: ["NEUROTOXIN"],
     category: "???",
   },
   {
@@ -209,6 +218,7 @@ export const fakemons: Fakemon[] = [
     height: "1.8",
     weight: "6.9",
     abilities: ["CUTECHARM"],
+    hiddenAbilities: ["VAMP"],
     category: "Cat",
   },
   {
@@ -230,6 +240,7 @@ export const fakemons: Fakemon[] = [
     height: "0.2",
     weight: "1.0",
     abilities: ["KEENEYE", "BIGPECKS"],
+    hiddenAbilities: ["TAILWINDBLESS"],
     category: "Bald Bird",
   },
   {
@@ -251,6 +262,7 @@ export const fakemons: Fakemon[] = [
     height: "1.1",
     weight: "50.0",
     abilities: ["KEENEYE", "BIGPECKS"],
+    hiddenAbilities: ["TAILWINDBLESS"],
     category: "Shaman",
   },
   {
@@ -272,6 +284,7 @@ export const fakemons: Fakemon[] = [
     height: "2.0",
     weight: "125.5",
     abilities: ["KEENEYE", "BIGPECKS"],
+    hiddenAbilities: ["TAILWINDBLESS"],
     category: "Shaman",
   },
   {
@@ -293,6 +306,7 @@ export const fakemons: Fakemon[] = [
     height: "0.1",
     weight: "0.1",
     abilities: ["SHIELDDUST", "LIKESILK"],
+    hiddenAbilities: [],
     category: "???",
   },
   {
@@ -314,6 +328,7 @@ export const fakemons: Fakemon[] = [
     height: "0.3",
     weight: "10.7",
     abilities: ["SHIELDDUST", "LIKESILK"],
+    hiddenAbilities: [],
     category: "???",
   },
   {
@@ -335,6 +350,7 @@ export const fakemons: Fakemon[] = [
     height: "1.0",
     weight: "30.7",
     abilities: ["SHIELDDUST", "LIKESILK"],
+    hiddenAbilities: [],
     category: "???",
   },
   {
@@ -356,6 +372,7 @@ export const fakemons: Fakemon[] = [
     height: "0.5",
     weight: "13.6",
     abilities: ["RUNAWAY", "INTIMIDATE"],
+    hiddenAbilities: ["STAMINA"],
     category: "Puppy",
   },
   {
@@ -377,6 +394,7 @@ export const fakemons: Fakemon[] = [
     height: "2.0",
     weight: "70.0",
     abilities: ["INTIMIDATE", "MOXIE"],
+    hiddenAbilities: ["IRONFIST"],
     category: "Puppy",
   },
   {
@@ -397,6 +415,7 @@ export const fakemons: Fakemon[] = [
     height: "0.1",
     weight: "0.1",
     abilities: ["INTIMIDATE", "INNERFOCUS"],
+    hiddenAbilities: ["JUSTIFIED"],
     category: "???",
   },
   {
@@ -417,6 +436,7 @@ export const fakemons: Fakemon[] = [
     height: "0.1",
     weight: "0.1",
     abilities: ["INTIMIDATE", "INNERFOCUS"],
+    hiddenAbilities: ["JUSTIFIED"],
     category: "???",
   },
   {
@@ -437,6 +457,7 @@ export const fakemons: Fakemon[] = [
     height: "0.1",
     weight: "0.1",
     abilities: ["SWARM"],
+    hiddenAbilities: ["OVERCOAT"],
     category: "???",
   },
   {
@@ -457,6 +478,7 @@ export const fakemons: Fakemon[] = [
     height: "0.1",
     weight: "0.1",
     abilities: ["SWARM", "TYRANNY"],
+    hiddenAbilities: ["OVERCOAT"],
     category: "???",
   },
   {
@@ -477,6 +499,7 @@ export const fakemons: Fakemon[] = [
     height: "0.1",
     weight: "0.1",
     abilities: ["TORRENT"],
+    hiddenAbilities: ["SNIPER"],
     category: "???",
   },
   {
@@ -497,6 +520,7 @@ export const fakemons: Fakemon[] = [
     height: "0.1",
     weight: "0.1",
     abilities: ["TORRENT"],
+    hiddenAbilities: ["SNIPER"],
     category: "???",
   },
   {
@@ -517,6 +541,7 @@ export const fakemons: Fakemon[] = [
     height: "0.1",
     weight: "0.1",
     abilities: [],
+    hiddenAbilities: [],
     category: "???",
   },
   {
@@ -537,6 +562,7 @@ export const fakemons: Fakemon[] = [
     height: "0.1",
     weight: "0.1",
     abilities: [],
+    hiddenAbilities: [],
     category: "???",
   },
   {
@@ -557,6 +583,7 @@ export const fakemons: Fakemon[] = [
     height: "0.1",
     weight: "0.1",
     abilities: [],
+    hiddenAbilities: [],
     category: "???",
   },
   {
@@ -577,6 +604,7 @@ export const fakemons: Fakemon[] = [
     height: "0.1",
     weight: "0.1",
     abilities: ["RUNAWAY", "INTIMIDATE"],
+    hiddenAbilities: ["PREDATORTRACKING", "ETERNALHUNGER"],
     category: "???",
   },
   {
@@ -597,6 +625,7 @@ export const fakemons: Fakemon[] = [
     height: "0.1",
     weight: "0.1",
     abilities: ["RUNAWAY", "INTIMIDATE"],
+    hiddenAbilities: ["PREDATORTRACKING", "ETERNALHUNGER"],
     category: "???",
   },
   {
@@ -617,6 +646,7 @@ export const fakemons: Fakemon[] = [
     height: "0.1",
     weight: "0.1",
     abilities: ["RUNAWAY", "INTIMIDATE"],
+    hiddenAbilities: ["PREDATORTRACKING", "ETERNALHUNGER"],
     category: "???",
   },
   {
@@ -637,6 +667,7 @@ export const fakemons: Fakemon[] = [
     height: "0.7",
     weight: "21.2",
     abilities: ["REFRIGERATE"],
+    hiddenAbilities: ["ICEKING"],
     category: "Owl",
   },
   {
@@ -657,6 +688,7 @@ export const fakemons: Fakemon[] = [
     height: "1.3",
     weight: "50.7",
     abilities: ["INSOMNIA", "SNOWWARNING"],
+    hiddenAbilities: ["ICEKING"],
     category: "Owl",
   },
 ];

@@ -33,7 +33,7 @@ export const FakemonDetailPage = () => {
     );
   }
 
-  const maxStat = Math.max(...Object.values(fakemon.stats));
+  const maxStat = 130; // Math.max(...Object.values(fakemon.stats));
   const totalStats = Object.values(fakemon.stats).reduce(
     (sum, stat) => sum + stat,
     0
@@ -118,6 +118,13 @@ export const FakemonDetailPage = () => {
                   <div key={index} className="bg-purple-900/50 rounded-lg p-3">
                     <span className="text-purple-200 font-medium">
                       {ability}
+                    </span>
+                  </div>
+                ))}
+                {fakemon.hiddenAbilities.map((ability, index) => (
+                  <div key={index} className="bg-purple-900/50 rounded-lg p-3">
+                    <span className="text-purple-200 font-medium">
+                      {ability} (H)
                     </span>
                   </div>
                 ))}

@@ -16,5 +16,6 @@ export interface Fakemon {
   height: string;
   weight: string;
   abilities: string[];
+  hiddenAbilities: string[];
   category: string;
 }

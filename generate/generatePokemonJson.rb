@@ -30,6 +30,7 @@ File.readlines(INPUT_FILE).each do |line|
       height: '',
       weight: '',
       abilities: [],
+      hiddenAbilities: [],
       category: ''
     }
   elsif current
@@ -56,6 +57,8 @@ File.readlines(INPUT_FILE).each do |line|
       current[:weight] = value
     when 'Abilities'
       current[:abilities] = value.split(',')
+    when 'HiddenAbilities'
+      current[:hiddenAbilities] = value.split(',')
     when 'Category'
       current[:category] = value
     when 'Pokedex'
