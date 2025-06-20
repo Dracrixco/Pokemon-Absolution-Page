@@ -13,13 +13,13 @@ export const GameFeatures = () => {
       icon: <Users className="h-8 w-8 text-purple-400" />,
       title: "Original Fakemon",
       description:
-        "Discover over 100 custom-designed Pokémon with unique typings and movesets",
+        "Discover over +50 custom-designed Pokémon with unique typings and movesets",
     },
     {
       icon: <Map className="h-8 w-8 text-purple-400" />,
       title: "Expansive Region",
       description:
-        "Explore the vast Absolution region with multiple cities, routes, and hidden secrets",
+        "Explore the vast Nazan Region with multiple cities, routes, and hidden secrets",
     },
   ];
 
