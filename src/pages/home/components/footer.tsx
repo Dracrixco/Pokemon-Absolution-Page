@@ -1,6 +1,7 @@
 "use client";
 import { MessageCircle, Twitter } from "lucide-react";
 import { Link } from "react-router-dom";
+import { RandomLogo } from "@/components/absolution/logos";
 
 export const HomeFooter = () => {
   return (
@@ -8,9 +9,7 @@ export const HomeFooter = () => {
       <div className="container mx-auto">
         <div className="flex flex-col md:flex-row items-center justify-between">
           <div className="flex items-center space-x-2 mb-4 md:mb-0">
-            <div className="w-8 h-8 bg-gradient-to-br from-purple-400 to-purple-600 rounded-full flex items-center justify-center">
-              <span className="text-white font-bold text-sm">PA</span>
-            </div>
+            <RandomLogo size={50} />
             <span className="text-white font-semibold">Pokémon Absolution</span>
           </div>
 
