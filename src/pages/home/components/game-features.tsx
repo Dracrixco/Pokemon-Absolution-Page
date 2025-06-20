@@ -1,0 +1,51 @@
+import { Card, CardContent } from "@/components/ui/card";
+import { Zap, Users, Map } from "lucide-react";
+
+export const GameFeatures = () => {
+  const gameFeatures = [
+    {
+      icon: <Zap className="h-8 w-8 text-purple-400" />,
+      title: "New Battle Mechanics",
+      description:
+        "Experience enhanced battle systems with unique abilities and strategic depth",
+    },
+    {
+      icon: <Users className="h-8 w-8 text-purple-400" />,
+      title: "Original Fakemon",
+      description:
+        "Discover over 100 custom-designed Pokémon with unique typings and movesets",
+    },
+    {
+      icon: <Map className="h-8 w-8 text-purple-400" />,
+      title: "Expansive Region",
+      description:
+        "Explore the vast Absolution region with multiple cities, routes, and hidden secrets",
+    },
+  ];
+
+  return (
+    <section className="py-16 px-4 bg-purple-900/30">
+      <div className="container mx-auto">
+        <h2 className="text-3xl md:text-4xl font-bold text-white text-center mb-12">
+          Game Features
+        </h2>
+        <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
+          {gameFeatures.map((feature, index) => (
+            <Card
+              key={index}
+              className="bg-purple-800/50 border-purple-600 hover:bg-purple-800/70 transition-all duration-300"
+            >
+              <CardContent className="p-6 text-center">
+                <div className="flex justify-center mb-4">{feature.icon}</div>
+                <h3 className="text-xl font-bold text-white mb-3">
+                  {feature.title}
+                </h3>
+                <p className="text-purple-200">{feature.description}</p>
+              </CardContent>
+            </Card>
+          ))}
+        </div>
+      </div>
+    </section>
+  );
+};
