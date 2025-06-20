@@ -1,6 +1,6 @@
 "use client";
 
-import type { Fakemon } from "@/lib/fakemons";
+import type { Fakemon } from "@/types/fakemon";
 import { getTypeColor } from "@/lib/type-colors";
 import { Link } from "react-router-dom";
 import { useState } from "react";
@@ -54,7 +54,7 @@ export default function FakemonCardPokemon({
               <div className="flex-1 flex items-center justify-center p-4 bg-gradient-to-br from-purple-700/30 to-purple-800/30">
                 <div className="relative w-48 h-48 rounded-full bg-gradient-to-br from-purple-400/20 to-purple-600/20 border-2 border-purple-400/30 flex items-center justify-center">
                   <img
-                    src={fakemon.sprite || "/placeholder.svg"}
+                    src={fakemon.artwork || "/placeholder.svg"}
                     alt={`${fakemon.name} artwork`}
                     width={160}
                     height={160}

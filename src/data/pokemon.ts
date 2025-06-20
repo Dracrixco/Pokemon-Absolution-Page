@@ -6,7 +6,7 @@ export const fakemons: Fakemon[] = [
     name: "Behbidar",
     types: ["GRASS"],
     sprite: "/sprites/BEHBIDAR.png",
-    artwork: "/artwork/BEHBIDAR.png",
+    artwork: "/artwork/behbidar.png",
     description:
       "It tends to try to look intimidating to keep Pokemon away, but the truth is that it is a super calm Pokemon that tends to avoid conflict.",
     stats: {
@@ -27,7 +27,7 @@ export const fakemons: Fakemon[] = [
     name: "Behcedro",
     types: ["GRASS"],
     sprite: "/sprites/BEHCEDRO.png",
-    artwork: "/artwork/BEHCEDRO.png",
+    artwork: "/artwork/behcedro.png",
     description:
       "They tend to avoid groups with other Pokemon that are not of the same species, they avoid any type of conflict but will not hesitate to defend themselves.",
     stats: {
@@ -48,7 +48,7 @@ export const fakemons: Fakemon[] = [
     name: "Behdarex",
     types: ["GRASS", "GROUND"],
     sprite: "/sprites/BEHDAREX.png",
-    artwork: "/artwork/BEHDAREX.png",
+    artwork: "/artwork/behdarex.png",
     description:
       "It takes advantage of its enormous size and appearance to scare away Pokemon, despite this, it is usually a very quiet Pokemon.",
     stats: {
@@ -69,7 +69,7 @@ export const fakemons: Fakemon[] = [
     name: "Zisinge",
     types: ["FIRE"],
     sprite: "/sprites/ZISINGE.png",
-    artwork: "/artwork/ZISINGE.png",
+    artwork: "/artwork/zisinge.png",
     description:
       "They usually practice all day long to control their flames, and can throw their explosive feathers to defend themselves.",
     stats: {
@@ -90,7 +90,7 @@ export const fakemons: Fakemon[] = [
     name: "Zissun",
     types: ["FIRE"],
     sprite: "/sprites/ZISSUN.png",
-    artwork: "/artwork/ZISSUN.png",
+    artwork: "/artwork/zissun.png",
     description:
       "They face any Pokemon they come across, they have a great control over their explosive feathers, managing to launch them at a high speed.",
     stats: {
@@ -111,7 +111,7 @@ export const fakemons: Fakemon[] = [
     name: "Zizzenit",
     types: ["FIRE", "FLYING"],
     sprite: "/sprites/ZIZZENIT.png",
-    artwork: "/artwork/ZIZZENIT.png",
+    artwork: "/artwork/zizzenit.png",
     description:
       "It flies high in the air looking for Pokemon to face, its fiery flames simulating the sun when it flies.",
     stats: {
@@ -132,7 +132,7 @@ export const fakemons: Fakemon[] = [
     name: "Leviatiny",
     types: ["WATER"],
     sprite: "/sprites/LEVIATINY.png",
-    artwork: "/artwork/LEVIATINY.png",
+    artwork: "/artwork/leviatiny.png",
     description:
       "It generates a thick and toxic foam on contact, it is not immune to its own poison...",
     stats: {
@@ -153,7 +153,7 @@ export const fakemons: Fakemon[] = [
     name: "Leviateen",
     types: ["WATER"],
     sprite: "/sprites/LEVIATEEN.png",
-    artwork: "/artwork/LEVIATEEN.png",
+    artwork: "/artwork/leviateen.png",
     description:
       "Its dense foam is used for antidotes and cedants, if it feels in danger it can expel industrial quantities of this poison.",
     stats: {
@@ -174,7 +174,7 @@ export const fakemons: Fakemon[] = [
     name: "Leviatitan",
     types: ["WATER", "POISON"],
     sprite: "/sprites/LEVIATITAN.png",
-    artwork: "/artwork/LEVIATITAN.png",
+    artwork: "/artwork/leviatitan.png",
     description:
       "It hunts large Pokemon to feed, uses their venom to immobilize and weaken them, and if the hunt gets complicated, it floods its target with large quantities of toxic foam.",
     stats: {
@@ -195,7 +195,7 @@ export const fakemons: Fakemon[] = [
     name: "Fataltty",
     types: ["DARK", "GHOST"],
     sprite: "/sprites/FATALTTY.png",
-    artwork: "/artwork/FATALTTY.png",
+    artwork: "/artwork/fataltty.png",
     description:
       "Many Pokémon tend to be quite attracted to this Pokémon, which it uses to its advantage to control them and get food, although it does not enjoy this.",
     stats: {
@@ -216,7 +216,7 @@ export const fakemons: Fakemon[] = [
     name: "Condling",
     types: ["FLYING"],
     sprite: "/sprites/CONDLING.png",
-    artwork: "/artwork/CONDLING.png",
+    artwork: "/artwork/condling.png",
     description:
       "They are often seen collecting bones of Dragon-type Pokemon, despite not possessing feathers, they are believed to be able to fly.",
     stats: {
@@ -237,7 +237,7 @@ export const fakemons: Fakemon[] = [
     name: "Boneveil",
     types: ["FLYING", "FAIRY"],
     sprite: "/sprites/BONEVEIL.png",
-    artwork: "/artwork/BONEVEIL.png",
+    artwork: "/artwork/boneveil.png",
     description:
       "It lives high in the mountains, humans and Pokemon come to this Pokemon to cure curses and minor illnesses.",
     stats: {
@@ -258,7 +258,7 @@ export const fakemons: Fakemon[] = [
     name: "Condemna",
     types: ["FLYING", "FAIRY"],
     sprite: "/sprites/CONDEMNA.png",
-    artwork: "/artwork/CONDEMNA.png",
+    artwork: "/artwork/condemna.png",
     description:
       "They have an inner hatred of dragon-type Pokemon, and are often very aggressive towards them. Their feathers are said to have enormous healing effects.",
     stats: {
@@ -279,7 +279,7 @@ export const fakemons: Fakemon[] = [
     name: "Woolarva",
     types: ["BUG"],
     sprite: "/sprites/WOOLARVA.png",
-    artwork: "/artwork/WOOLARVA.png",
+    artwork: "/artwork/woolarva.png",
     description:
       "Its silk is very resistant, so it is often used for various garments.",
     stats: {
@@ -300,7 +300,7 @@ export const fakemons: Fakemon[] = [
     name: "Woobacoon",
     types: ["BUG"],
     sprite: "/sprites/WOOBACOON.png",
-    artwork: "/artwork/WOOBACOON.png",
+    artwork: "/artwork/woobacoon.png",
     description:
       "It does not usually move much, it uses its silk to defend itself from predators.",
     stats: {
@@ -321,7 +321,7 @@ export const fakemons: Fakemon[] = [
     name: "Weamoth",
     types: ["BUG", "FAIRY"],
     sprite: "/sprites/WEAMOTH.png",
-    artwork: "/artwork/WEAMOTH.png",
+    artwork: "/artwork/weamoth.png",
     description:
       "Its beautiful silk is used to create high-quality garments, making it a very attractive Pokemon for designers and stylists.",
     stats: {
@@ -342,7 +342,7 @@ export const fakemons: Fakemon[] = [
     name: "Sorrowoof",
     types: ["NORMAL"],
     sprite: "/sprites/SORROWOOF.png",
-    artwork: "/artwork/SORROWOOF.png",
+    artwork: "/artwork/sorrowoof.png",
     description:
       "They tend to forage in dumpsters, are quite fearful and tend to avoid unnecessary conflict at all costs, which makes them victims of abusive Pokémon.",
     stats: {
@@ -363,7 +363,7 @@ export const fakemons: Fakemon[] = [
     name: "Woofighter",
     types: ["NORMAL", "FIGHTING"],
     sprite: "/sprites/WOOFIGHTER.png",
-    artwork: "/artwork/WOOFIGHTER.png",
+    artwork: "/artwork/woofighter.png",
     description:
       "They tend to avoid combat, but when it comes to defending their trainer, they won't hesitate for a second to fight and defeat anything that comes their way.",
     stats: {
@@ -384,7 +384,7 @@ export const fakemons: Fakemon[] = [
     name: "Growrage",
     types: ["NORMAL"],
     sprite: "/sprites/GROWRAGE.png",
-    artwork: "/artwork/GROWRAGE.png",
+    artwork: "/artwork/growrage.png",
     description: "???",
     stats: {
       hp: 60,
@@ -404,7 +404,7 @@ export const fakemons: Fakemon[] = [
     name: "Twylican",
     types: ["FIGHTING", "STEEL"],
     sprite: "/sprites/TWYLICAN.png",
-    artwork: "/artwork/TWYLICAN.png",
+    artwork: "/artwork/twylican.png",
     description: "???",
     stats: {
       hp: 90,
@@ -424,7 +424,7 @@ export const fakemons: Fakemon[] = [
     name: "Spibby",
     types: ["BUG", "DARK"],
     sprite: "/sprites/SPIBBY.png",
-    artwork: "/artwork/SPIBBY.png",
+    artwork: "/artwork/spibby.png",
     description: "???",
     stats: {
       hp: 35,
@@ -444,7 +444,7 @@ export const fakemons: Fakemon[] = [
     name: "Kingder",
     types: ["BUG", "DARK"],
     sprite: "/sprites/KINGDER.png",
-    artwork: "/artwork/KINGDER.png",
+    artwork: "/artwork/kingder.png",
     description: "???",
     stats: {
       hp: 70,
@@ -464,7 +464,7 @@ export const fakemons: Fakemon[] = [
     name: "Yuntter",
     types: ["WATER"],
     sprite: "/sprites/YUNTTER.png",
-    artwork: "/artwork/YUNTTER.png",
+    artwork: "/artwork/yuntter.png",
     description: "???",
     stats: {
       hp: 38,
@@ -484,7 +484,7 @@ export const fakemons: Fakemon[] = [
     name: "Gumstter",
     types: ["WATER", "GROUND"],
     sprite: "/sprites/GUMSTTER.png",
-    artwork: "/artwork/GUMSTTER.png",
+    artwork: "/artwork/gumstter.png",
     description: "???",
     stats: {
       hp: 63,
@@ -504,7 +504,7 @@ export const fakemons: Fakemon[] = [
     name: "Lizarobos",
     types: ["NORMAL"],
     sprite: "/sprites/LIZAROBOS.png",
-    artwork: "/artwork/LIZAROBOS.png",
+    artwork: "/artwork/lizarobos.png",
     description: "???",
     stats: {
       hp: 1,
@@ -524,7 +524,7 @@ export const fakemons: Fakemon[] = [
     name: "Komoboros",
     types: ["NORMAL"],
     sprite: "/sprites/KOMOBOROS.png",
-    artwork: "/artwork/KOMOBOROS.png",
+    artwork: "/artwork/komoboros.png",
     description: "???",
     stats: {
       hp: 1,
@@ -544,7 +544,7 @@ export const fakemons: Fakemon[] = [
     name: "Ryuroboros",
     types: ["NORMAL"],
     sprite: "/sprites/RYUROBOROS.png",
-    artwork: "/artwork/RYUROBOROS.png",
+    artwork: "/artwork/ryuroboros.png",
     description: "???",
     stats: {
       hp: 1,
@@ -564,7 +564,7 @@ export const fakemons: Fakemon[] = [
     name: "Puprout",
     types: ["GRASS", "DARK"],
     sprite: "/sprites/PUPROUT.png",
-    artwork: "/artwork/PUPROUT.png",
+    artwork: "/artwork/puprout.png",
     description: "???",
     stats: {
       hp: 46,
@@ -584,7 +584,7 @@ export const fakemons: Fakemon[] = [
     name: "Bushiera",
     types: ["GRASS", "DARK"],
     sprite: "/sprites/BUSHIERA.png",
-    artwork: "/artwork/BUSHIERA.png",
+    artwork: "/artwork/bushiera.png",
     description: "???",
     stats: {
       hp: 58,
@@ -604,7 +604,7 @@ export const fakemons: Fakemon[] = [
     name: "Werewoods",
     types: ["GRASS", "DARK"],
     sprite: "/sprites/WEREWOODS.png",
-    artwork: "/artwork/WEREWOODS.png",
+    artwork: "/artwork/werewoods.png",
     description: "???",
     stats: {
       hp: 80,
@@ -624,7 +624,7 @@ export const fakemons: Fakemon[] = [
     name: "Cryowl",
     types: ["ICE", "FLYING"],
     sprite: "/sprites/CRYOWL.png",
-    artwork: "/artwork/CRYOWL.png",
+    artwork: "/artwork/cryowl.png",
     description: "???",
     stats: {
       hp: 60,
@@ -644,7 +644,7 @@ export const fakemons: Fakemon[] = [
     name: "Cryocrown",
     types: ["ICE", "FLYING"],
     sprite: "/sprites/CRYOCROWN.png",
-    artwork: "/artwork/CRYOCROWN.png",
+    artwork: "/artwork/cryocrown.png",
     description: "???",
     stats: {
       hp: 101,

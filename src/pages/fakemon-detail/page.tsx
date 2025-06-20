@@ -59,7 +59,7 @@ export const FakemonDetailPage = () => {
               <div className="flex justify-center mb-6">
                 <div className="relative w-64 h-64 rounded-full bg-gradient-to-br from-purple-400/20 to-purple-600/20 border-2 border-purple-400/30 flex items-center justify-center">
                   <img
-                    src={fakemon.sprite || "/placeholder.svg"}
+                    src={fakemon.artwork || "/placeholder.svg"}
                     alt={fakemon.name}
                     width={200}
                     height={200}
