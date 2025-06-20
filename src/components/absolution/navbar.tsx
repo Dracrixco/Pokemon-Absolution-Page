@@ -27,7 +27,7 @@ export const Navbar = () => {
               Home
             </Link>
             <Link
-              to="/fakemons-list"
+              to="/fakemons"
               className="text-purple-200 hover:text-white transition-colors"
             >
               Fakemons

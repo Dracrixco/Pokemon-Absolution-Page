@@ -1,6 +1,6 @@
 "use client";
 import FakemonCardPokemon from "@/components/absolution/fakemon-card";
-import { fakemons } from "@/lib/fakemons";
+import { fakemons } from "@/data/pokemon";
 
 export const FakemonsList = () => {
   return (
