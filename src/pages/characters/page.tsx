@@ -12,7 +12,7 @@ export const CharactersPage = () => {
           </h1>
           <p className="text-xl text-purple-200 mb-8 max-w-2xl mx-auto">
             Discover the fascinating people you'll encounter on your journey
-            through the Absolution region
+            through the Nazan region
           </p>
           <div className="text-purple-300 text-sm">
             Hover over cards to learn more about each character

@@ -66,12 +66,12 @@ export const characters: Character[] = [
     role: "Gym Leader",
     favorite: "Forest",
   },
-  {
-    name: "Calendula",
-    artwork: "/character/Calendula.png",
-    description:
-      "Calendula is a cheerful Gym Leader with a sweet tooth, known for her kindness and love of candies.",
-    role: "Gym Leader",
-    favorite: "Candies",
-  },
+  // {
+  //   name: "Calendula",
+  //   artwork: "/character/Calendula.png",
+  //   description:
+  //     "Calendula is a cheerful Gym Leader with a sweet tooth, known for her kindness and love of candies.",
+  //   role: "Gym Leader",
+  //   favorite: "Candies",
+  // },
 ];

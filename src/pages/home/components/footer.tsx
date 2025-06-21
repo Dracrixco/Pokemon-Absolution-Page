@@ -1,5 +1,5 @@
 "use client";
-import { MessageCircle, Twitter } from "lucide-react";
+import { Twitter } from "lucide-react";
 import { Link } from "react-router-dom";
 import { RandomLogo } from "@/components/absolution/logos";
 
@@ -15,14 +15,7 @@ export const HomeFooter = () => {
 
           <div className="flex space-x-6">
             <Link
-              to="#"
-              className="text-purple-200 hover:text-white transition-colors flex items-center space-x-2"
-            >
-              <MessageCircle className="h-5 w-5" />
-              <span>Discord</span>
-            </Link>
-            <Link
-              to="#"
+              to="https://x.com/dracrixco"
               className="text-purple-200 hover:text-white transition-colors flex items-center space-x-2"
             >
               <Twitter className="h-5 w-5" />

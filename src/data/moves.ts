@@ -1,6 +1,7 @@
-import type { Move } from "@/types/moves";
+import type { Move } from "@/types/move";
 
-export const moves: Move[] = [
+export const moves: Move[] = 
+[
   {
     id: "MEGAHORN",
     name: "Megahorn",
@@ -10,8 +11,7 @@ export const moves: Move[] = [
     accuracy: 85,
     totalPP: 10,
     target: "NearOther",
-    description:
-      "Using its tough and impressive horn, the user rams into the target with no letup.",
+    description: "Using its tough and impressive horn, the user rams into the target with no letup."
   },
   {
     id: "ATTACKORDER",
@@ -22,8 +22,7 @@ export const moves: Move[] = [
     accuracy: 100,
     totalPP: 15,
     target: "NearOther",
-    description:
-      "The user calls out its underlings to pummel the target. Critical hits land more easily.",
+    description: "The user calls out its underlings to pummel the target. Critical hits land more easily."
   },
   {
     id: "BUGBUZZ",
@@ -34,8 +33,7 @@ export const moves: Move[] = [
     accuracy: 100,
     totalPP: 10,
     target: "NearOther",
-    description:
-      "The user vibrates its wings to generate a damaging sound wave. It may also lower the target's Sp. Def stat.",
+    description: "The user vibrates its wings to generate a damaging sound wave. It may also lower the target's Sp. Def stat."
   },
   {
     id: "FIRSTIMPRESSION",
@@ -46,8 +44,7 @@ export const moves: Move[] = [
     accuracy: 100,
     totalPP: 10,
     target: "NearOther",
-    description:
-      "Although this move has great power, it only works the first turn the user is in battle.",
+    description: "Although this move has great power, it only works the first turn the user is in battle."
   },
   {
     id: "POLLENPUFF",
@@ -58,8 +55,7 @@ export const moves: Move[] = [
     accuracy: 100,
     totalPP: 15,
     target: "NearOther",
-    description:
-      "Fires an exploding pollen puff at enemies, or a HP-restoring one at allies.",
+    description: "Fires an exploding pollen puff at enemies, or a HP-restoring one at allies."
   },
   {
     id: "LEECHLIFE",
@@ -70,8 +66,7 @@ export const moves: Move[] = [
     accuracy: 100,
     totalPP: 10,
     target: "NearOther",
-    description:
-      "The user drains the target's blood. The user's HP is restored by half the damage taken by the target.",
+    description: "The user drains the target's blood. The user's HP is restored by half the damage taken by the target."
   },
   {
     id: "LUNGE",
@@ -82,8 +77,7 @@ export const moves: Move[] = [
     accuracy: 100,
     totalPP: 15,
     target: "NearOther",
-    description:
-      "The user makes a lunge at the target, attacking with full force. This lowers the target's Attack stat.",
+    description: "The user makes a lunge at the target, attacking with full force. This lowers the target's Attack stat."
   },
   {
     id: "XSCISSOR",
@@ -94,8 +88,7 @@ export const moves: Move[] = [
     accuracy: 100,
     totalPP: 15,
     target: "NearOther",
-    description:
-      "The user slashes at the foe by crossing its scythes or claws as if they were a pair of scissors.",
+    description: "The user slashes at the foe by crossing its scythes or claws as if they were a pair of scissors."
   },
   {
     id: "SIGNALBEAM",
@@ -106,8 +99,7 @@ export const moves: Move[] = [
     accuracy: 100,
     totalPP: 15,
     target: "NearOther",
-    description:
-      "The user attacks with a sinister beam of light. It may also confuse the target.",
+    description: "The user attacks with a sinister beam of light. It may also confuse the target."
   },
   {
     id: "SKITTERSMACK",
@@ -118,8 +110,7 @@ export const moves: Move[] = [
     accuracy: 90,
     totalPP: 10,
     target: "NearOther",
-    description:
-      "The user skitters behind the target to attack. This also lowers the target's Sp. Atk stat.",
+    description: "The user skitters behind the target to attack. This also lowers the target's Sp. Atk stat."
   },
   {
     id: "UTURN",
@@ -130,8 +121,7 @@ export const moves: Move[] = [
     accuracy: 100,
     totalPP: 20,
     target: "NearOther",
-    description:
-      "After making its attack, the user rushes back to switch places with a party Pokémon in waiting.",
+    description: "After making its attack, the user rushes back to switch places with a party Pokémon in waiting."
   },
   {
     id: "STEAMROLLER",
@@ -142,8 +132,7 @@ export const moves: Move[] = [
     accuracy: 100,
     totalPP: 20,
     target: "NearOther",
-    description:
-      "The user crushes its foes by rolling over them. This attack may make the target flinch.",
+    description: "The user crushes its foes by rolling over them. This attack may make the target flinch."
   },
   {
     id: "BUGBITE",
@@ -154,8 +143,7 @@ export const moves: Move[] = [
     accuracy: 100,
     totalPP: 20,
     target: "NearOther",
-    description:
-      "The user bites the target. If the target is holding a Berry, the user eats it and gains its effect.",
+    description: "The user bites the target. If the target is holding a Berry, the user eats it and gains its effect."
   },
   {
     id: "SILVERWIND",
@@ -166,8 +154,7 @@ export const moves: Move[] = [
     accuracy: 100,
     totalPP: 5,
     target: "NearOther",
-    description:
-      "The foe is attacked with powdery scales blown by wind. It may also raise all the user's stats.",
+    description: "The foe is attacked with powdery scales blown by wind. It may also raise all the user's stats."
   },
   {
     id: "FELLSTINGER",
@@ -178,8 +165,7 @@ export const moves: Move[] = [
     accuracy: 100,
     totalPP: 25,
     target: "NearOther",
-    description:
-      "When the user knocks out a target with this move, the user's Attack stat rises drastically.",
+    description: "When the user knocks out a target with this move, the user's Attack stat rises drastically."
   },
   {
     id: "POUNCE",
@@ -190,8 +176,7 @@ export const moves: Move[] = [
     accuracy: 100,
     totalPP: 20,
     target: "NearOther",
-    description:
-      "The user attacks by pouncing on the target. This also lowers the target's Speed stat.",
+    description: "The user attacks by pouncing on the target. This also lowers the target's Speed stat."
   },
   {
     id: "STRUGGLEBUG",
@@ -202,8 +187,7 @@ export const moves: Move[] = [
     accuracy: 100,
     totalPP: 20,
     target: "AllNearFoes",
-    description:
-      "While resisting, the user attacks the opposing Pokémon. The targets' Sp. Atk stat is reduced.",
+    description: "While resisting, the user attacks the opposing Pokémon. The targets' Sp. Atk stat is reduced."
   },
   {
     id: "FURYCUTTER",
@@ -214,8 +198,7 @@ export const moves: Move[] = [
     accuracy: 95,
     totalPP: 20,
     target: "NearOther",
-    description:
-      "The target is slashed with scythes or claws. Its power increases if it hits in succession.",
+    description: "The target is slashed with scythes or claws. Its power increases if it hits in succession."
   },
   {
     id: "PINMISSILE",
@@ -226,8 +209,7 @@ export const moves: Move[] = [
     accuracy: 95,
     totalPP: 20,
     target: "NearOther",
-    description:
-      "Sharp spikes are shot at the target in rapid succession. They hit two to five times in a row.",
+    description: "Sharp spikes are shot at the target in rapid succession. They hit two to five times in a row."
   },
   {
     id: "TWINEEDLE",
@@ -238,8 +220,7 @@ export const moves: Move[] = [
     accuracy: 100,
     totalPP: 20,
     target: "NearOther",
-    description:
-      "The foe is stabbed twice by a pair of stingers. It may also poison the target.",
+    description: "The foe is stabbed twice by a pair of stingers. It may also poison the target."
   },
   {
     id: "INFESTATION",
@@ -250,8 +231,7 @@ export const moves: Move[] = [
     accuracy: 100,
     totalPP: 20,
     target: "NearOther",
-    description:
-      "The target is infested and unable to flee for four to five turns.",
+    description: "The target is infested and unable to flee for four to five turns."
   },
   {
     id: "DEFENDORDER",
@@ -262,8 +242,7 @@ export const moves: Move[] = [
     accuracy: null,
     totalPP: 10,
     target: "User",
-    description:
-      "The user calls out its underlings to shield its body, raising its Defense and Sp. Def stats.",
+    description: "The user calls out its underlings to shield its body, raising its Defense and Sp. Def stats."
   },
   {
     id: "HEALORDER",
@@ -274,8 +253,7 @@ export const moves: Move[] = [
     accuracy: null,
     totalPP: 10,
     target: "User",
-    description:
-      "The user calls out its underlings to heal it. The user regains up to half of its max HP.",
+    description: "The user calls out its underlings to heal it. The user regains up to half of its max HP."
   },
   {
     id: "POWDER",
@@ -286,8 +264,7 @@ export const moves: Move[] = [
     accuracy: 100,
     totalPP: 20,
     target: "NearOther",
-    description:
-      "The target is covered in a powder that explodes and damages it if it uses a Fire-type move.",
+    description: "The target is covered in a powder that explodes and damages it if it uses a Fire-type move."
   },
   {
     id: "QUIVERDANCE",
@@ -298,8 +275,7 @@ export const moves: Move[] = [
     accuracy: null,
     totalPP: 20,
     target: "User",
-    description:
-      "The user performs a beautiful dance. It boosts the user's Sp. Atk, Sp. Def, and Speed stats.",
+    description: "The user performs a beautiful dance. It boosts the user's Sp. Atk, Sp. Def, and Speed stats."
   },
   {
     id: "RAGEPOWDER",
@@ -310,8 +286,7 @@ export const moves: Move[] = [
     accuracy: null,
     totalPP: 20,
     target: "User",
-    description:
-      "The user scatters irritating powder to draw attention to itself. Opponents aim only at the user.",
+    description: "The user scatters irritating powder to draw attention to itself. Opponents aim only at the user."
   },
   {
     id: "SILKTRAP",
@@ -322,8 +297,7 @@ export const moves: Move[] = [
     accuracy: null,
     totalPP: 10,
     target: "User",
-    description:
-      "The user spins a silken trap to protect itself from damage. Contact with it lowers the attacker's Speed.",
+    description: "The user spins a silken trap to protect itself from damage. Contact with it lowers the attacker's Speed."
   },
   {
     id: "SPIDERWEB",
@@ -334,8 +308,7 @@ export const moves: Move[] = [
     accuracy: null,
     totalPP: 10,
     target: "NearOther",
-    description:
-      "The user ensnares the target with thin, gooey silk so it can't flee from battle.",
+    description: "The user ensnares the target with thin, gooey silk so it can't flee from battle."
   },
   {
     id: "STICKYWEB",
@@ -346,8 +319,7 @@ export const moves: Move[] = [
     accuracy: null,
     totalPP: 20,
     target: "FoeSide",
-    description:
-      "Weaves a sticky net around the opposing team, which lowers their Speed stats upon switching in.",
+    description: "Weaves a sticky net around the opposing team, which lowers their Speed stats upon switching in."
   },
   {
     id: "STRINGSHOT",
@@ -358,8 +330,7 @@ export const moves: Move[] = [
     accuracy: 95,
     totalPP: 40,
     target: "AllNearFoes",
-    description:
-      "The foe is bound with silk blown from the user's mouth. This silk reduces the target's Speed.",
+    description: "The foe is bound with silk blown from the user's mouth. This silk reduces the target's Speed."
   },
   {
     id: "TAILGLOW",
@@ -370,8 +341,7 @@ export const moves: Move[] = [
     accuracy: null,
     totalPP: 20,
     target: "User",
-    description:
-      "The user stares at flashing lights to focus its mind, drastically raising its Sp. Atk stat.",
+    description: "The user stares at flashing lights to focus its mind, drastically raising its Sp. Atk stat."
   },
   {
     id: "HYPERSPACEFURY",
@@ -382,8 +352,7 @@ export const moves: Move[] = [
     accuracy: null,
     totalPP: 5,
     target: "NearOther",
-    description:
-      "Unleashes a barrage of multi-arm attacks, skipping protections. The user's Defense stat falls.",
+    description: "Unleashes a barrage of multi-arm attacks, skipping protections. The user's Defense stat falls."
   },
   {
     id: "FOULPLAY",
@@ -394,8 +363,7 @@ export const moves: Move[] = [
     accuracy: 100,
     totalPP: 15,
     target: "NearOther",
-    description:
-      "The user turns the foe's power against it. It does more damage the higher the target's Attack stat.",
+    description: "The user turns the foe's power against it. It does more damage the higher the target's Attack stat."
   },
   {
     id: "FIERYWRATH",
@@ -406,8 +374,7 @@ export const moves: Move[] = [
     accuracy: 100,
     totalPP: 10,
     target: "AllNearFoes",
-    description:
-      "The user transforms its wrath into a fire-like aura to attack. This may also make foes flinch.",
+    description: "The user transforms its wrath into a fire-like aura to attack. This may also make foes flinch."
   },
   {
     id: "DARKESTLARIAT",
@@ -418,8 +385,7 @@ export const moves: Move[] = [
     accuracy: 100,
     totalPP: 10,
     target: "NearOther",
-    description:
-      "The user swings both arms and hits the target. Ignores the target's stat changes.",
+    description: "The user swings both arms and hits the target. Ignores the target's stat changes."
   },
   {
     id: "KOWTOWCLEAVE",
@@ -430,8 +396,7 @@ export const moves: Move[] = [
     accuracy: null,
     totalPP: 10,
     target: "NearOther",
-    description:
-      "The user slashes at the target after kowtowing to make it drop its guard. This attack never misses.",
+    description: "The user slashes at the target after kowtowing to make it drop its guard. This attack never misses."
   },
   {
     id: "NIGHTDAZE",
@@ -442,8 +407,7 @@ export const moves: Move[] = [
     accuracy: 95,
     totalPP: 10,
     target: "NearOther",
-    description:
-      "The user lets loose a pitch-black shock wave at its target. It may also lower the target's accuracy.",
+    description: "The user lets loose a pitch-black shock wave at its target. It may also lower the target's accuracy."
   },
   {
     id: "CRUNCH",
@@ -454,8 +418,7 @@ export const moves: Move[] = [
     accuracy: 100,
     totalPP: 15,
     target: "NearOther",
-    description:
-      "The user crunches up the target with sharp fangs. It may also lower the target's Defense stat.",
+    description: "The user crunches up the target with sharp fangs. It may also lower the target's Defense stat."
   },
   {
     id: "DARKPULSE",
@@ -466,8 +429,7 @@ export const moves: Move[] = [
     accuracy: 100,
     totalPP: 15,
     target: "Other",
-    description:
-      "The user releases a horrible aura imbued with dark thoughts. It may also make the target flinch.",
+    description: "The user releases a horrible aura imbued with dark thoughts. It may also make the target flinch."
   },
   {
     id: "FALSESURRENDER",
@@ -478,8 +440,7 @@ export const moves: Move[] = [
     accuracy: null,
     totalPP: 10,
     target: "NearOther",
-    description:
-      "The user pretends to bow its head, but then it stabs the target with its disheveled hair. Never misses.",
+    description: "The user pretends to bow its head, but then it stabs the target with its disheveled hair. Never misses."
   },
   {
     id: "JAWLOCK",
@@ -490,8 +451,7 @@ export const moves: Move[] = [
     accuracy: 100,
     totalPP: 10,
     target: "NearOther",
-    description:
-      "This move prevents the user and the target from switching out until either of them faints.",
+    description: "This move prevents the user and the target from switching out until either of them faints."
   },
   {
     id: "THROATCHOP",
@@ -502,8 +462,7 @@ export const moves: Move[] = [
     accuracy: 100,
     totalPP: 15,
     target: "NearOther",
-    description:
-      "The user attacks the target's throat. The target cannot use sound-based moves for two turns.",
+    description: "The user attacks the target's throat. The target cannot use sound-based moves for two turns."
   },
   {
     id: "WICKEDBLOW",
@@ -514,8 +473,7 @@ export const moves: Move[] = [
     accuracy: 100,
     totalPP: 5,
     target: "NearOther",
-    description:
-      "Strikes with a fierce blow through mastery of the Dark style. Always results in a critical hit.",
+    description: "Strikes with a fierce blow through mastery of the Dark style. Always results in a critical hit."
   },
   {
     id: "LASHOUT",
@@ -526,8 +484,7 @@ export const moves: Move[] = [
     accuracy: 100,
     totalPP: 5,
     target: "NearOther",
-    description:
-      "The user lashes out to vent its frustration. Power is doubled if its stats dropped this turn.",
+    description: "The user lashes out to vent its frustration. Power is doubled if its stats dropped this turn."
   },
   {
     id: "NIGHTSLASH",
@@ -538,8 +495,7 @@ export const moves: Move[] = [
     accuracy: 100,
     totalPP: 15,
     target: "NearOther",
-    description:
-      "The user slashes the target the instant an opportunity arises. Critical hits land more easily.",
+    description: "The user slashes the target the instant an opportunity arises. Critical hits land more easily."
   },
   {
     id: "SUCKERPUNCH",
@@ -550,8 +506,7 @@ export const moves: Move[] = [
     accuracy: 100,
     totalPP: 5,
     target: "NearOther",
-    description:
-      "This move enables the user to attack first. It fails if the target is not readying an attack, however.",
+    description: "This move enables the user to attack first. It fails if the target is not readying an attack, however."
   },
   {
     id: "CEASELESSEDGE",
@@ -562,8 +517,7 @@ export const moves: Move[] = [
     accuracy: 90,
     totalPP: 15,
     target: "NearOther",
-    description:
-      "The user slashes its shell blade at the target. This leaves shell splinters under the target as spikes.",
+    description: "The user slashes its shell blade at the target. This leaves shell splinters under the target as spikes."
   },
   {
     id: "KNOCKOFF",
@@ -574,8 +528,7 @@ export const moves: Move[] = [
     accuracy: 100,
     totalPP: 20,
     target: "NearOther",
-    description:
-      "The user slaps down the target's held item, preventing that item from being used in the battle.",
+    description: "The user slaps down the target's held item, preventing that item from being used in the battle."
   },
   {
     id: "ASSURANCE",
@@ -586,8 +539,7 @@ export const moves: Move[] = [
     accuracy: 100,
     totalPP: 10,
     target: "NearOther",
-    description:
-      "If the target has already taken some damage in the same turn, this attack's power is doubled.",
+    description: "If the target has already taken some damage in the same turn, this attack's power is doubled."
   },
   {
     id: "BITE",
@@ -598,8 +550,7 @@ export const moves: Move[] = [
     accuracy: 100,
     totalPP: 25,
     target: "NearOther",
-    description:
-      "The target is bitten with viciously sharp fangs. It may make the target flinch.",
+    description: "The target is bitten with viciously sharp fangs. It may make the target flinch."
   },
   {
     id: "BRUTALSWING",
@@ -610,8 +561,7 @@ export const moves: Move[] = [
     accuracy: 100,
     totalPP: 20,
     target: "AllNearOthers",
-    description:
-      "The user swings its body around violently to inflict damage on everything in its vicinity.",
+    description: "The user swings its body around violently to inflict damage on everything in its vicinity."
   },
   {
     id: "FEINTATTACK",
@@ -622,8 +572,7 @@ export const moves: Move[] = [
     accuracy: null,
     totalPP: 20,
     target: "NearOther",
-    description:
-      "The user draws up to the foe disarmingly, then throws a sucker punch. It hits without fail.",
+    description: "The user draws up to the foe disarmingly, then throws a sucker punch. It hits without fail."
   },
   {
     id: "THIEF",
@@ -634,8 +583,7 @@ export const moves: Move[] = [
     accuracy: 100,
     totalPP: 25,
     target: "NearOther",
-    description:
-      "The user attacks and steals the foe's held item simultaneously. It can't steal if the user holds an item.",
+    description: "The user attacks and steals the foe's held item simultaneously. It can't steal if the user holds an item."
   },
   {
     id: "SNARL",
@@ -646,8 +594,7 @@ export const moves: Move[] = [
     accuracy: 95,
     totalPP: 15,
     target: "AllNearFoes",
-    description:
-      "The user yells as if it is ranting about something, making the target's Sp. Atk stat decrease.",
+    description: "The user yells as if it is ranting about something, making the target's Sp. Atk stat decrease."
   },
   {
     id: "PAYBACK",
@@ -658,8 +605,7 @@ export const moves: Move[] = [
     accuracy: 100,
     totalPP: 10,
     target: "NearOther",
-    description:
-      "If the user moves after the target, this attack's power will be doubled.",
+    description: "If the user moves after the target, this attack's power will be doubled."
   },
   {
     id: "PURSUIT",
@@ -670,8 +616,7 @@ export const moves: Move[] = [
     accuracy: 100,
     totalPP: 20,
     target: "NearOther",
-    description:
-      "An attack move that inflicts double damage if used on a target that is switching out of battle.",
+    description: "An attack move that inflicts double damage if used on a target that is switching out of battle."
   },
   {
     id: "BEATUP",
@@ -682,8 +627,7 @@ export const moves: Move[] = [
     accuracy: 100,
     totalPP: 10,
     target: "NearOther",
-    description:
-      "The user gets all the party Pokémon to attack the foe. The more party Pokémon, the more damage.",
+    description: "The user gets all the party Pokémon to attack the foe. The more party Pokémon, the more damage."
   },
   {
     id: "COMEUPPANCE",
@@ -694,8 +638,7 @@ export const moves: Move[] = [
     accuracy: 100,
     totalPP: 10,
     target: "None",
-    description:
-      "The user retaliates with much greater force against the opponent that last inflicted damage on it.",
+    description: "The user retaliates with much greater force against the opponent that last inflicted damage on it."
   },
   {
     id: "FLING",
@@ -706,8 +649,7 @@ export const moves: Move[] = [
     accuracy: 100,
     totalPP: 10,
     target: "NearOther",
-    description:
-      "The user flings its held item at the target to attack. Its power and effects depend on the item.",
+    description: "The user flings its held item at the target to attack. Its power and effects depend on the item."
   },
   {
     id: "POWERTRIP",
@@ -718,8 +660,7 @@ export const moves: Move[] = [
     accuracy: 100,
     totalPP: 10,
     target: "NearOther",
-    description:
-      "The user boasts of its strength. Power increases the more the user's stats are raised.",
+    description: "The user boasts of its strength. Power increases the more the user's stats are raised."
   },
   {
     id: "PUNISHMENT",
@@ -730,8 +671,7 @@ export const moves: Move[] = [
     accuracy: 100,
     totalPP: 5,
     target: "NearOther",
-    description:
-      "This attack's power increases the more the target has powered up with stat changes.",
+    description: "This attack's power increases the more the target has powered up with stat changes."
   },
   {
     id: "RUINATION",
@@ -742,8 +682,7 @@ export const moves: Move[] = [
     accuracy: 90,
     totalPP: 10,
     target: "NearOther",
-    description:
-      "The user summons a ruinous disaster. This cuts the target's HP in half.",
+    description: "The user summons a ruinous disaster. This cuts the target's HP in half."
   },
   {
     id: "DARKVOID",
@@ -754,8 +693,7 @@ export const moves: Move[] = [
     accuracy: 50,
     totalPP: 10,
     target: "AllNearFoes",
-    description:
-      "Opposing Pokémon are dragged into a world of total darkness that makes them sleep.",
+    description: "Opposing Pokémon are dragged into a world of total darkness that makes them sleep."
   },
   {
     id: "EMBARGO",
@@ -766,8 +704,7 @@ export const moves: Move[] = [
     accuracy: 100,
     totalPP: 15,
     target: "NearOther",
-    description:
-      "It prevents the target from using its held item. Its Trainer is also prevented from using items on it.",
+    description: "It prevents the target from using its held item. Its Trainer is also prevented from using items on it."
   },
   {
     id: "FAKETEARS",
@@ -778,8 +715,7 @@ export const moves: Move[] = [
     accuracy: 100,
     totalPP: 20,
     target: "NearOther",
-    description:
-      "The user feigns crying to fluster the target, harshly lowering its Sp. Def stat.",
+    description: "The user feigns crying to fluster the target, harshly lowering its Sp. Def stat."
   },
   {
     id: "FLATTER",
@@ -790,8 +726,7 @@ export const moves: Move[] = [
     accuracy: 100,
     totalPP: 15,
     target: "NearOther",
-    description:
-      "Flattery is used to confuse the target. However, it also raises the target's Sp. Atk stat.",
+    description: "Flattery is used to confuse the target. However, it also raises the target's Sp. Atk stat."
   },
   {
     id: "HONECLAWS",
@@ -802,8 +737,7 @@ export const moves: Move[] = [
     accuracy: null,
     totalPP: 15,
     target: "User",
-    description:
-      "The user sharpens its claws to boost its Attack stat and accuracy.",
+    description: "The user sharpens its claws to boost its Attack stat and accuracy."
   },
   {
     id: "MEMENTO",
@@ -814,8 +748,7 @@ export const moves: Move[] = [
     accuracy: 100,
     totalPP: 10,
     target: "NearOther",
-    description:
-      "The user faints when using this move. In return, it harshly lowers the target's Attack and Sp. Atk.",
+    description: "The user faints when using this move. In return, it harshly lowers the target's Attack and Sp. Atk."
   },
   {
     id: "NASTYPLOT",
@@ -826,8 +759,7 @@ export const moves: Move[] = [
     accuracy: null,
     totalPP: 20,
     target: "User",
-    description:
-      "The user stimulates its brain by thinking bad thoughts. It sharply raises the user's Sp. Atk.",
+    description: "The user stimulates its brain by thinking bad thoughts. It sharply raises the user's Sp. Atk."
   },
   {
     id: "OBSTRUCT",
@@ -838,8 +770,7 @@ export const moves: Move[] = [
     accuracy: null,
     totalPP: 10,
     target: "User",
-    description:
-      "The user protects itself from all attacks. Direct contact lowers the attacker's Defense.",
+    description: "The user protects itself from all attacks. Direct contact lowers the attacker's Defense."
   },
   {
     id: "PARTINGSHOT",
@@ -850,8 +781,7 @@ export const moves: Move[] = [
     accuracy: 100,
     totalPP: 20,
     target: "NearOther",
-    description:
-      "With a parting threat, the user lowers the target's Attack and Sp. Atk stats. Then it switches out.",
+    description: "With a parting threat, the user lowers the target's Attack and Sp. Atk stats. Then it switches out."
   },
   {
     id: "QUASH",
@@ -862,7 +792,7 @@ export const moves: Move[] = [
     accuracy: 100,
     totalPP: 15,
     target: "NearOther",
-    description: "The user suppresses the target and makes its move go last.",
+    description: "The user suppresses the target and makes its move go last."
   },
   {
     id: "SNATCH",
@@ -873,8 +803,7 @@ export const moves: Move[] = [
     accuracy: null,
     totalPP: 10,
     target: "User",
-    description:
-      "The user steals the effects of any healing or stat-changing move the foe attempts to use.",
+    description: "The user steals the effects of any healing or stat-changing move the foe attempts to use."
   },
   {
     id: "SWITCHEROO",
@@ -885,8 +814,7 @@ export const moves: Move[] = [
     accuracy: 100,
     totalPP: 10,
     target: "NearOther",
-    description:
-      "The user trades held items with the target faster than the eye can follow.",
+    description: "The user trades held items with the target faster than the eye can follow."
   },
   {
     id: "TAUNT",
@@ -897,8 +825,7 @@ export const moves: Move[] = [
     accuracy: 100,
     totalPP: 20,
     target: "NearOther",
-    description:
-      "The target is taunted into a rage that allows it to use only attack moves for three turns.",
+    description: "The target is taunted into a rage that allows it to use only attack moves for three turns."
   },
   {
     id: "TOPSYTURVY",
@@ -909,8 +836,7 @@ export const moves: Move[] = [
     accuracy: null,
     totalPP: 20,
     target: "NearOther",
-    description:
-      "All stat changes affecting the target turn topsy-turvy and become the opposite of what they were.",
+    description: "All stat changes affecting the target turn topsy-turvy and become the opposite of what they were."
   },
   {
     id: "TORMENT",
@@ -921,8 +847,7 @@ export const moves: Move[] = [
     accuracy: 100,
     totalPP: 15,
     target: "NearOther",
-    description:
-      "The user torments and enrages the foe, making it incapable of using the same move twice in a row.",
+    description: "The user torments and enrages the foe, making it incapable of using the same move twice in a row."
   },
   {
     id: "ETERNABEAM",
@@ -933,8 +858,7 @@ export const moves: Move[] = [
     accuracy: 90,
     totalPP: 5,
     target: "NearOther",
-    description:
-      "This is Eternatus's most powerful attack in its original form. The user can't move on the next turn.",
+    description: "This is Eternatus's most powerful attack in its original form. The user can't move on the next turn."
   },
   {
     id: "DRAGONENERGY",
@@ -945,8 +869,7 @@ export const moves: Move[] = [
     accuracy: 100,
     totalPP: 5,
     target: "AllNearFoes",
-    description:
-      "Converts life-force into power to attack. The lower the user's HP, the lower the move's power.",
+    description: "Converts life-force into power to attack. The lower the user's HP, the lower the move's power."
   },
   {
     id: "ROAROFTIME",
@@ -957,8 +880,7 @@ export const moves: Move[] = [
     accuracy: 90,
     totalPP: 5,
     target: "NearOther",
-    description:
-      "The user blasts the target with power that distorts even time. The user must rest on the next turn.",
+    description: "The user blasts the target with power that distorts even time. The user must rest on the next turn."
   },
   {
     id: "DRACOMETEOR",
@@ -969,8 +891,7 @@ export const moves: Move[] = [
     accuracy: 90,
     totalPP: 5,
     target: "NearOther",
-    description:
-      "Comets are summoned down from the sky. The attack's recoil harshly reduces the user's Sp. Atk stat.",
+    description: "Comets are summoned down from the sky. The attack's recoil harshly reduces the user's Sp. Atk stat."
   },
   {
     id: "GLAIVERUSH",
@@ -981,8 +902,7 @@ export const moves: Move[] = [
     accuracy: 100,
     totalPP: 5,
     target: "NearOther",
-    description:
-      "The user recklessly charges. Until its next turn, attacks on the user cannot miss and do double damage.",
+    description: "The user recklessly charges. Until its next turn, attacks on the user cannot miss and do double damage."
   },
   {
     id: "OUTRAGE",
@@ -993,8 +913,7 @@ export const moves: Move[] = [
     accuracy: 100,
     totalPP: 10,
     target: "RandomNearFoe",
-    description:
-      "The user rampages and attacks for two to three turns. It then becomes confused, however.",
+    description: "The user rampages and attacks for two to three turns. It then becomes confused, however."
   },
   {
     id: "CLANGINGSCALES",
@@ -1005,8 +924,7 @@ export const moves: Move[] = [
     accuracy: 100,
     totalPP: 5,
     target: "AllNearFoes",
-    description:
-      "The user rubs its scales and makes a huge noise. Also lowers the user's Defense stat.",
+    description: "The user rubs its scales and makes a huge noise. Also lowers the user's Defense stat."
   },
   {
     id: "COREENFORCER",
@@ -1017,8 +935,7 @@ export const moves: Move[] = [
     accuracy: 100,
     totalPP: 10,
     target: "AllNearFoes",
-    description:
-      "If the target has already moved this turn, the effect of its Ability is negated.",
+    description: "If the target has already moved this turn, the effect of its Ability is negated."
   },
   {
     id: "DRAGONRUSH",
@@ -1029,8 +946,7 @@ export const moves: Move[] = [
     accuracy: 75,
     totalPP: 10,
     target: "NearOther",
-    description:
-      "The user tackles the foe while exhibiting overwhelming menace. It may also make the target flinch.",
+    description: "The user tackles the foe while exhibiting overwhelming menace. It may also make the target flinch."
   },
   {
     id: "DYNAMAXCANNON",
@@ -1041,7 +957,7 @@ export const moves: Move[] = [
     accuracy: 100,
     totalPP: 5,
     target: "NearOther",
-    description: "The user unleashes a strong beam from its core.",
+    description: "The user unleashes a strong beam from its core."
   },
   {
     id: "SPACIALREND",
@@ -1052,8 +968,7 @@ export const moves: Move[] = [
     accuracy: 95,
     totalPP: 5,
     target: "NearOther",
-    description:
-      "The user tears the target along with the space around it. Critical hits land more easily.",
+    description: "The user tears the target along with the space around it. Critical hits land more easily."
   },
   {
     id: "DRAGONHAMMER",
@@ -1064,8 +979,7 @@ export const moves: Move[] = [
     accuracy: 100,
     totalPP: 15,
     target: "NearOther",
-    description:
-      "The user uses its body like a hammer to attack the target and inflict damage.",
+    description: "The user uses its body like a hammer to attack the target and inflict damage."
   },
   {
     id: "DRAGONPULSE",
@@ -1076,8 +990,7 @@ export const moves: Move[] = [
     accuracy: 100,
     totalPP: 10,
     target: "Other",
-    description:
-      "The target is attacked with a shock wave generated by the user's gaping mouth.",
+    description: "The target is attacked with a shock wave generated by the user's gaping mouth."
   },
   {
     id: "DRAGONCLAW",
@@ -1088,7 +1001,7 @@ export const moves: Move[] = [
     accuracy: 100,
     totalPP: 15,
     target: "NearOther",
-    description: "The user slashes the target with huge, sharp claws.",
+    description: "The user slashes the target with huge, sharp claws."
   },
   {
     id: "ORDERUP",
@@ -1099,8 +1012,7 @@ export const moves: Move[] = [
     accuracy: 100,
     totalPP: 10,
     target: "NearOther",
-    description:
-      "The user attacks with elegant poise. One of the user's stats is raised based on the Tatsugiri in its mouth.",
+    description: "The user attacks with elegant poise. One of the user's stats is raised based on the Tatsugiri in its mouth."
   },
   {
     id: "FICKLEBEAM",
@@ -1111,8 +1023,7 @@ export const moves: Move[] = [
     accuracy: 100,
     totalPP: 5,
     target: "NearOther",
-    description:
-      "The user shoots a beam of light to inflict damage. Sometimes the move's power is doubled.",
+    description: "The user shoots a beam of light to inflict damage. Sometimes the move's power is doubled."
   },
   {
     id: "BREAKINGSWIPE",
@@ -1123,8 +1034,7 @@ export const moves: Move[] = [
     accuracy: 100,
     totalPP: 15,
     target: "AllNearFoes",
-    description:
-      "The user swings its tough tail wildly and attacks all foes. This also lowers their Attack stats.",
+    description: "The user swings its tough tail wildly and attacks all foes. This also lowers their Attack stats."
   },
   {
     id: "DRAGONBREATH",
@@ -1135,8 +1045,7 @@ export const moves: Move[] = [
     accuracy: 100,
     totalPP: 20,
     target: "NearOther",
-    description:
-      "The user exhales a mighty gust that inflicts damage. It may also leave the target with paralysis.",
+    description: "The user exhales a mighty gust that inflicts damage. It may also leave the target with paralysis."
   },
   {
     id: "DRAGONTAIL",
@@ -1147,8 +1056,7 @@ export const moves: Move[] = [
     accuracy: 90,
     totalPP: 10,
     target: "NearOther",
-    description:
-      "The user knocks away the target and drags out another Pokémon in its party. In the wild, the battle ends.",
+    description: "The user knocks away the target and drags out another Pokémon in its party. In the wild, the battle ends."
   },
   {
     id: "DRAGONDARTS",
@@ -1159,8 +1067,7 @@ export const moves: Move[] = [
     accuracy: 100,
     totalPP: 10,
     target: "NearOther",
-    description:
-      "The user attacks twice using Dreepy. If there are two targets, this move hits each one once.",
+    description: "The user attacks twice using Dreepy. If there are two targets, this move hits each one once."
   },
   {
     id: "DUALCHOP",
@@ -1171,8 +1078,7 @@ export const moves: Move[] = [
     accuracy: 90,
     totalPP: 15,
     target: "NearOther",
-    description:
-      "The user attacks its target by hitting it with brutal strikes. The target is hit twice in a row.",
+    description: "The user attacks its target by hitting it with brutal strikes. The target is hit twice in a row."
   },
   {
     id: "TWISTER",
@@ -1183,8 +1089,7 @@ export const moves: Move[] = [
     accuracy: 100,
     totalPP: 20,
     target: "AllNearFoes",
-    description:
-      "The user whips up a vicious tornado to tear at the opposing team. It may also make targets flinch.",
+    description: "The user whips up a vicious tornado to tear at the opposing team. It may also make targets flinch."
   },
   {
     id: "SCALESHOT",
@@ -1195,8 +1100,7 @@ export const moves: Move[] = [
     accuracy: 90,
     totalPP: 20,
     target: "NearOther",
-    description:
-      "Attacks by shooting scales two to five times in a row. Boosts the user's Speed but lowers its Defense.",
+    description: "Attacks by shooting scales two to five times in a row. Boosts the user's Speed but lowers its Defense."
   },
   {
     id: "DRAGONRAGE",
@@ -1207,8 +1111,7 @@ export const moves: Move[] = [
     accuracy: 100,
     totalPP: 10,
     target: "NearOther",
-    description:
-      "This attack hits the target with a shock wave of pure rage. This attack always inflicts 40 HP damage.",
+    description: "This attack hits the target with a shock wave of pure rage. This attack always inflicts 40 HP damage."
   },
   {
     id: "CLANGOROUSSOUL",
@@ -1219,7 +1122,7 @@ export const moves: Move[] = [
     accuracy: null,
     totalPP: 5,
     target: "User",
-    description: "The user raises all its stats by using some of its HP.",
+    description: "The user raises all its stats by using some of its HP."
   },
   {
     id: "DRAGONCHEER",
@@ -1230,8 +1133,7 @@ export const moves: Move[] = [
     accuracy: null,
     totalPP: 15,
     target: "AllAllies",
-    description:
-      "The user raises its allies' morale with a draconic cry. This raises their chance of landing critical hits.",
+    description: "The user raises its allies' morale with a draconic cry. This raises their chance of landing critical hits."
   },
   {
     id: "DRAGONDANCE",
@@ -1242,8 +1144,7 @@ export const moves: Move[] = [
     accuracy: null,
     totalPP: 20,
     target: "User",
-    description:
-      "The user vigorously performs a mystic, powerful dance that boosts its Attack and Speed stats.",
+    description: "The user vigorously performs a mystic, powerful dance that boosts its Attack and Speed stats."
   },
   {
     id: "BOLTSTRIKE",
@@ -1254,8 +1155,7 @@ export const moves: Move[] = [
     accuracy: 85,
     totalPP: 5,
     target: "NearOther",
-    description:
-      "The user charges at its foe, surrounding itself with lightning. It may also leave the target paralyzed.",
+    description: "The user charges at its foe, surrounding itself with lightning. It may also leave the target paralyzed."
   },
   {
     id: "ELECTROSHOT",
@@ -1266,8 +1166,7 @@ export const moves: Move[] = [
     accuracy: 100,
     totalPP: 10,
     target: "NearOther",
-    description:
-      "The user gathers electricity and boosts its Sp. Atk stat, then attacks on the next turn.",
+    description: "The user gathers electricity and boosts its Sp. Atk stat, then attacks on the next turn."
   },
   {
     id: "DOUBLESHOCK",
@@ -1278,8 +1177,7 @@ export const moves: Move[] = [
     accuracy: 100,
     totalPP: 5,
     target: "NearOther",
-    description:
-      "The user discharges all the electricity from its body. The user will no longer be Electric type.",
+    description: "The user discharges all the electricity from its body. The user will no longer be Electric type."
   },
   {
     id: "VOLTTACKLE",
@@ -1290,8 +1188,7 @@ export const moves: Move[] = [
     accuracy: 100,
     totalPP: 15,
     target: "NearOther",
-    description:
-      "The user electrifies itself, then charges at the foe. It causes considerable damage to the user as well.",
+    description: "The user electrifies itself, then charges at the foe. It causes considerable damage to the user as well."
   },
   {
     id: "ZAPCANNON",
@@ -1302,8 +1199,7 @@ export const moves: Move[] = [
     accuracy: 50,
     totalPP: 5,
     target: "NearOther",
-    description:
-      "The user fires an electric blast like a cannon to inflict damage and cause paralysis.",
+    description: "The user fires an electric blast like a cannon to inflict damage and cause paralysis."
   },
   {
     id: "AURAWHEEL",
@@ -1314,8 +1210,7 @@ export const moves: Move[] = [
     accuracy: 100,
     totalPP: 10,
     target: "NearOther",
-    description:
-      "Morpeko attacks and raises its Speed with energy stored in its cheeks. Type changes with the user's form.",
+    description: "Morpeko attacks and raises its Speed with energy stored in its cheeks. Type changes with the user's form."
   },
   {
     id: "THUNDER",
@@ -1326,8 +1221,7 @@ export const moves: Move[] = [
     accuracy: 70,
     totalPP: 10,
     target: "NearOther",
-    description:
-      "A wicked thunderbolt is dropped on the foe to inflict damage. It may also leave the target paralyzed.",
+    description: "A wicked thunderbolt is dropped on the foe to inflict damage. It may also leave the target paralyzed."
   },
   {
     id: "ELECTRODRIFT",
@@ -1338,8 +1232,7 @@ export const moves: Move[] = [
     accuracy: 100,
     totalPP: 5,
     target: "NearOther",
-    description:
-      "The user races forward, piercing with futuristic electricity. A supereffective hit deals more damage.",
+    description: "The user races forward, piercing with futuristic electricity. A supereffective hit deals more damage."
   },
   {
     id: "FUSIONBOLT",
@@ -1350,8 +1243,7 @@ export const moves: Move[] = [
     accuracy: 100,
     totalPP: 5,
     target: "NearOther",
-    description:
-      "The user throws down a giant thunderbolt. It does more damage if influenced by an enormous flame.",
+    description: "The user throws down a giant thunderbolt. It does more damage if influenced by an enormous flame."
   },
   {
     id: "PLASMAFISTS",
@@ -1362,8 +1254,7 @@ export const moves: Move[] = [
     accuracy: 100,
     totalPP: 15,
     target: "NearOther",
-    description:
-      "The user attacks with electrically charged fists. Normal-type moves become Electric-type.",
+    description: "The user attacks with electrically charged fists. Normal-type moves become Electric-type."
   },
   {
     id: "SUPERCELLSLAM",
@@ -1374,8 +1265,7 @@ export const moves: Move[] = [
     accuracy: 95,
     totalPP: 15,
     target: "NearOther",
-    description:
-      "The user electrifies itself and drops onto the target. If this move misses, the user takes damage instead.",
+    description: "The user electrifies itself and drops onto the target. If this move misses, the user takes damage instead."
   },
   {
     id: "WILDBOLTSTORM",
@@ -1386,8 +1276,7 @@ export const moves: Move[] = [
     accuracy: 80,
     totalPP: 10,
     target: "AllNearFoes",
-    description:
-      "The user savagely attacks with lightning and wind. This may also leave the opponents with paralysis.",
+    description: "The user savagely attacks with lightning and wind. This may also leave the opponents with paralysis."
   },
   {
     id: "THUNDERBOLT",
@@ -1398,8 +1287,7 @@ export const moves: Move[] = [
     accuracy: 100,
     totalPP: 15,
     target: "NearOther",
-    description:
-      "A strong electric blast is loosed at the target. It may also leave the target with paralysis.",
+    description: "A strong electric blast is loosed at the target. It may also leave the target with paralysis."
   },
   {
     id: "WILDCHARGE",
@@ -1410,8 +1298,7 @@ export const moves: Move[] = [
     accuracy: 100,
     totalPP: 15,
     target: "NearOther",
-    description:
-      "The user shrouds itself in electricity and smashes into its foe. It also damages the user a little.",
+    description: "The user shrouds itself in electricity and smashes into its foe. It also damages the user a little."
   },
   {
     id: "BOLTBEAK",
@@ -1422,8 +1309,7 @@ export const moves: Move[] = [
     accuracy: 100,
     totalPP: 10,
     target: "NearOther",
-    description:
-      "Stabs the target with an electrified beak. Power is doubled if the user attacks first.",
+    description: "Stabs the target with an electrified beak. Power is doubled if the user attacks first."
   },
   {
     id: "DISCHARGE",
@@ -1434,8 +1320,7 @@ export const moves: Move[] = [
     accuracy: 100,
     totalPP: 15,
     target: "AllNearOthers",
-    description:
-      "A flare of electricity is loosed to strike the area around the user. It may also cause paralysis.",
+    description: "A flare of electricity is loosed to strike the area around the user. It may also cause paralysis."
   },
   {
     id: "OVERDRIVE",
@@ -1446,8 +1331,7 @@ export const moves: Move[] = [
     accuracy: 100,
     totalPP: 10,
     target: "AllNearFoes",
-    description:
-      "The user attacks all foes by twanging a guitar or bass guitar, causing a huge echo and strong vibration.",
+    description: "The user attacks all foes by twanging a guitar or bass guitar, causing a huge echo and strong vibration."
   },
   {
     id: "THUNDERCAGE",
@@ -1458,8 +1342,7 @@ export const moves: Move[] = [
     accuracy: 90,
     totalPP: 15,
     target: "NearOther",
-    description:
-      "The user traps the target in a cage of sparking electricity for four to five turns.",
+    description: "The user traps the target in a cage of sparking electricity for four to five turns."
   },
   {
     id: "ZINGZAP",
@@ -1470,8 +1353,7 @@ export const moves: Move[] = [
     accuracy: 100,
     totalPP: 10,
     target: "NearOther",
-    description:
-      "A strong electric blast crashes down on the target. This may also make the target flinch.",
+    description: "A strong electric blast crashes down on the target. This may also make the target flinch."
   },
   {
     id: "THUNDERPUNCH",
@@ -1482,8 +1364,7 @@ export const moves: Move[] = [
     accuracy: 100,
     totalPP: 15,
     target: "NearOther",
-    description:
-      "The target is punched with an electrified fist. It may also leave the target with paralysis.",
+    description: "The target is punched with an electrified fist. It may also leave the target with paralysis."
   },
   {
     id: "RISINGVOLTAGE",
@@ -1494,8 +1375,7 @@ export const moves: Move[] = [
     accuracy: 100,
     totalPP: 20,
     target: "NearOther",
-    description:
-      "The user attacks with electric voltage rising from the ground. Power is doubled on Electric Terrain.",
+    description: "The user attacks with electric voltage rising from the ground. Power is doubled on Electric Terrain."
   },
   {
     id: "THUNDERCLAP",
@@ -1506,8 +1386,7 @@ export const moves: Move[] = [
     accuracy: 100,
     totalPP: 5,
     target: "NearOther",
-    description:
-      "The user attacks first with a jolt of electricity. It fails if the target is not readying an attack.",
+    description: "The user attacks first with a jolt of electricity. It fails if the target is not readying an attack."
   },
   {
     id: "VOLTSWITCH",
@@ -1518,8 +1397,7 @@ export const moves: Move[] = [
     accuracy: 100,
     totalPP: 20,
     target: "NearOther",
-    description:
-      "After making its attack, the user rushes back to switch places with a party Pokémon in waiting.",
+    description: "After making its attack, the user rushes back to switch places with a party Pokémon in waiting."
   },
   {
     id: "PARABOLICCHARGE",
@@ -1530,8 +1408,7 @@ export const moves: Move[] = [
     accuracy: 100,
     totalPP: 20,
     target: "AllNearOthers",
-    description:
-      "The user attacks everything around it. The user's HP is restored by half the damage dealt.",
+    description: "The user attacks everything around it. The user's HP is restored by half the damage dealt."
   },
   {
     id: "SPARK",
@@ -1542,8 +1419,7 @@ export const moves: Move[] = [
     accuracy: 100,
     totalPP: 20,
     target: "NearOther",
-    description:
-      "The user throws an electrically charged tackle at the target. It may also leave the target with paralysis.",
+    description: "The user throws an electrically charged tackle at the target. It may also leave the target with paralysis."
   },
   {
     id: "THUNDERFANG",
@@ -1554,8 +1430,7 @@ export const moves: Move[] = [
     accuracy: 95,
     totalPP: 15,
     target: "NearOther",
-    description:
-      "The user bites with electrified fangs. It may also make the target flinch or leave it with paralysis.",
+    description: "The user bites with electrified fangs. It may also make the target flinch or leave it with paralysis."
   },
   {
     id: "SHOCKWAVE",
@@ -1566,8 +1441,7 @@ export const moves: Move[] = [
     accuracy: null,
     totalPP: 20,
     target: "NearOther",
-    description:
-      "The user strikes the target with a quick jolt of electricity. This attack cannot be evaded.",
+    description: "The user strikes the target with a quick jolt of electricity. This attack cannot be evaded."
   },
   {
     id: "ELECTROWEB",
@@ -1578,8 +1452,7 @@ export const moves: Move[] = [
     accuracy: 95,
     totalPP: 15,
     target: "AllNearFoes",
-    description:
-      "The user captures and attacks foes by using an electric net, which lowers their Speed stat.",
+    description: "The user captures and attacks foes by using an electric net, which lowers their Speed stat."
   },
   {
     id: "CHARGEBEAM",
@@ -1590,8 +1463,7 @@ export const moves: Move[] = [
     accuracy: 90,
     totalPP: 10,
     target: "NearOther",
-    description:
-      "The user fires a concentrated bundle of electricity. It may also raise the user's Sp. Atk stat.",
+    description: "The user fires a concentrated bundle of electricity. It may also raise the user's Sp. Atk stat."
   },
   {
     id: "THUNDERSHOCK",
@@ -1602,8 +1474,7 @@ export const moves: Move[] = [
     accuracy: 100,
     totalPP: 30,
     target: "NearOther",
-    description:
-      "A jolt of electricity is hurled at the foe to inflict damage. It may also leave the target with paralysis.",
+    description: "A jolt of electricity is hurled at the foe to inflict damage. It may also leave the target with paralysis."
   },
   {
     id: "NUZZLE",
@@ -1614,8 +1485,7 @@ export const moves: Move[] = [
     accuracy: 100,
     totalPP: 20,
     target: "NearOther",
-    description:
-      "The user nuzzles its electrified cheeks against the target. This also leaves the target with paralysis.",
+    description: "The user nuzzles its electrified cheeks against the target. This also leaves the target with paralysis."
   },
   {
     id: "ELECTROBALL",
@@ -1626,8 +1496,7 @@ export const moves: Move[] = [
     accuracy: 100,
     totalPP: 10,
     target: "NearOther",
-    description:
-      "The user hurls an electric orb at the foe. It does more damage the faster the user is.",
+    description: "The user hurls an electric orb at the foe. It does more damage the faster the user is."
   },
   {
     id: "CHARGE",
@@ -1638,8 +1507,7 @@ export const moves: Move[] = [
     accuracy: null,
     totalPP: 20,
     target: "User",
-    description:
-      "The user boosts the power of the Electric move it uses next. It also raises the user's Sp. Def stat.",
+    description: "The user boosts the power of the Electric move it uses next. It also raises the user's Sp. Def stat."
   },
   {
     id: "EERIEIMPULSE",
@@ -1650,8 +1518,7 @@ export const moves: Move[] = [
     accuracy: 100,
     totalPP: 15,
     target: "NearOther",
-    description:
-      "The user's body generates an eerie impulse. Harshly lowers the target's Sp. Atk stat.",
+    description: "The user's body generates an eerie impulse. Harshly lowers the target's Sp. Atk stat."
   },
   {
     id: "ELECTRICTERRAIN",
@@ -1662,8 +1529,7 @@ export const moves: Move[] = [
     accuracy: null,
     totalPP: 10,
     target: "BothSides",
-    description:
-      "The user electrifies the ground for five turns. Pokémon on the ground no longer fall asleep.",
+    description: "The user electrifies the ground for five turns. Pokémon on the ground no longer fall asleep."
   },
   {
     id: "ELECTRIFY",
@@ -1674,8 +1540,7 @@ export const moves: Move[] = [
     accuracy: null,
     totalPP: 20,
     target: "NearOther",
-    description:
-      "If the target uses a move after being electrified, that move becomes Electric-type.",
+    description: "If the target uses a move after being electrified, that move becomes Electric-type."
   },
   {
     id: "IONDELUGE",
@@ -1686,8 +1551,7 @@ export const moves: Move[] = [
     accuracy: null,
     totalPP: 25,
     target: "BothSides",
-    description:
-      "The user disperses electrically charged particles. Normal-type moves become Electric-type.",
+    description: "The user disperses electrically charged particles. Normal-type moves become Electric-type."
   },
   {
     id: "MAGNETRISE",
@@ -1698,8 +1562,7 @@ export const moves: Move[] = [
     accuracy: null,
     totalPP: 10,
     target: "User",
-    description:
-      "The user levitates using electrically generated magnetism for five turns.",
+    description: "The user levitates using electrically generated magnetism for five turns."
   },
   {
     id: "MAGNETICFLUX",
@@ -1710,8 +1573,7 @@ export const moves: Move[] = [
     accuracy: null,
     totalPP: 20,
     target: "UserAndAllies",
-    description:
-      "Manipulates magnetic fields to raise the Defense and Sp. Def stats of allies with Plus or Minus Abilities.",
+    description: "Manipulates magnetic fields to raise the Defense and Sp. Def stats of allies with Plus or Minus Abilities."
   },
   {
     id: "THUNDERWAVE",
@@ -1722,8 +1584,7 @@ export const moves: Move[] = [
     accuracy: 90,
     totalPP: 20,
     target: "NearOther",
-    description:
-      "A weak electric charge is launched at the target. It causes paralysis if it hits.",
+    description: "A weak electric charge is launched at the target. It causes paralysis if it hits."
   },
   {
     id: "LIGHTOFRUIN",
@@ -1734,8 +1595,7 @@ export const moves: Move[] = [
     accuracy: 90,
     totalPP: 5,
     target: "NearOther",
-    description:
-      "Fires a powerful beam of light drawn from the Eternal Flower. It also damages the user a lot.",
+    description: "Fires a powerful beam of light drawn from the Eternal Flower. It also damages the user a lot."
   },
   {
     id: "FLEURCANNON",
@@ -1746,8 +1606,7 @@ export const moves: Move[] = [
     accuracy: 90,
     totalPP: 5,
     target: "NearOther",
-    description:
-      "The user unleashes a strong beam. The attack's recoil harshly lowers the user's Sp. Atk stat.",
+    description: "The user unleashes a strong beam. The attack's recoil harshly lowers the user's Sp. Atk stat."
   },
   {
     id: "MISTYEXPLOSION",
@@ -1758,8 +1617,7 @@ export const moves: Move[] = [
     accuracy: 100,
     totalPP: 5,
     target: "AllNearOthers",
-    description:
-      "The user attacks everything around and faints upon using this move. Power increases on Misty Terrain.",
+    description: "The user attacks everything around and faints upon using this move. Power increases on Misty Terrain."
   },
   {
     id: "SPRINGTIDESTORM",
@@ -1770,8 +1628,7 @@ export const moves: Move[] = [
     accuracy: 80,
     totalPP: 5,
     target: "AllNearFoes",
-    description:
-      "The user attacks with fierce winds brimming with love and hate. This may also lower foes' Attack stats.",
+    description: "The user attacks with fierce winds brimming with love and hate. This may also lower foes' Attack stats."
   },
   {
     id: "MOONBLAST",
@@ -1782,8 +1639,7 @@ export const moves: Move[] = [
     accuracy: 100,
     totalPP: 15,
     target: "NearOther",
-    description:
-      "The user attacks by borrowing the power of the moon. This may also lower the target's Sp. Atk stat.",
+    description: "The user attacks by borrowing the power of the moon. This may also lower the target's Sp. Atk stat."
   },
   {
     id: "PLAYROUGH",
@@ -1794,8 +1650,7 @@ export const moves: Move[] = [
     accuracy: 90,
     totalPP: 10,
     target: "NearOther",
-    description:
-      "The user plays rough with the target and attacks it. This may also lower the target's Attack stat.",
+    description: "The user plays rough with the target and attacks it. This may also lower the target's Attack stat."
   },
   {
     id: "STRANGESTEAM",
@@ -1806,8 +1661,7 @@ export const moves: Move[] = [
     accuracy: 95,
     totalPP: 10,
     target: "NearOther",
-    description:
-      "The user attacks the target by emitting steam. This may also confuse the target.",
+    description: "The user attacks the target by emitting steam. This may also confuse the target."
   },
   {
     id: "ALLURINGVOICE",
@@ -1818,8 +1672,7 @@ export const moves: Move[] = [
     accuracy: 100,
     totalPP: 10,
     target: "NearOther",
-    description:
-      "The user attacks with its angelic voice. This also confuses the target if its stats were raised this turn.",
+    description: "The user attacks with its angelic voice. This also confuses the target if its stats were raised this turn."
   },
   {
     id: "DAZZLINGGLEAM",
@@ -1830,8 +1683,7 @@ export const moves: Move[] = [
     accuracy: 100,
     totalPP: 10,
     target: "AllNearFoes",
-    description:
-      "The user damages opposing Pokémon by emitting a powerful flash.",
+    description: "The user damages opposing Pokémon by emitting a powerful flash."
   },
   {
     id: "SPIRITBREAK",
@@ -1842,8 +1694,7 @@ export const moves: Move[] = [
     accuracy: 100,
     totalPP: 15,
     target: "NearOther",
-    description:
-      "The user attacks the target with immense force. This also lowers the target's Sp. Atk stat.",
+    description: "The user attacks the target with immense force. This also lowers the target's Sp. Atk stat."
   },
   {
     id: "DRAININGKISS",
@@ -1854,8 +1705,7 @@ export const moves: Move[] = [
     accuracy: 100,
     totalPP: 10,
     target: "NearOther",
-    description:
-      "The user steals the target's HP with a kiss. The user's HP is restored by over half of the damage dealt.",
+    description: "The user steals the target's HP with a kiss. The user's HP is restored by over half of the damage dealt."
   },
   {
     id: "DISARMINGVOICE",
@@ -1866,8 +1716,7 @@ export const moves: Move[] = [
     accuracy: null,
     totalPP: 15,
     target: "AllNearFoes",
-    description:
-      "Letting out a charming cry, the user does emotional damage to foes. This attack never misses.",
+    description: "Letting out a charming cry, the user does emotional damage to foes. This attack never misses."
   },
   {
     id: "FAIRYWIND",
@@ -1878,8 +1727,7 @@ export const moves: Move[] = [
     accuracy: 100,
     totalPP: 30,
     target: "NearOther",
-    description:
-      "The user stirs up a fairy wind and strikes the target with it.",
+    description: "The user stirs up a fairy wind and strikes the target with it."
   },
   {
     id: "NATURESMADNESS",
@@ -1890,8 +1738,7 @@ export const moves: Move[] = [
     accuracy: 90,
     totalPP: 10,
     target: "NearOther",
-    description:
-      "The user hits the target with the force of nature. It halves the target's HP.",
+    description: "The user hits the target with the force of nature. It halves the target's HP."
   },
   {
     id: "AROMATICMIST",
@@ -1902,8 +1749,7 @@ export const moves: Move[] = [
     accuracy: null,
     totalPP: 20,
     target: "NearAlly",
-    description:
-      "The user raises the Sp. Def stat of an ally Pokémon by using a mysterious aroma.",
+    description: "The user raises the Sp. Def stat of an ally Pokémon by using a mysterious aroma."
   },
   {
     id: "BABYDOLLEYES",
@@ -1914,8 +1760,7 @@ export const moves: Move[] = [
     accuracy: 100,
     totalPP: 30,
     target: "NearOther",
-    description:
-      "The user stares with its baby-doll eyes, which lowers the target's Attack stat. Always goes first.",
+    description: "The user stares with its baby-doll eyes, which lowers the target's Attack stat. Always goes first."
   },
   {
     id: "CHARM",
@@ -1926,8 +1771,7 @@ export const moves: Move[] = [
     accuracy: 100,
     totalPP: 20,
     target: "NearOther",
-    description:
-      "The user charmingly gazes at the foe, making it less wary. The target's Attack is harshly lowered.",
+    description: "The user charmingly gazes at the foe, making it less wary. The target's Attack is harshly lowered."
   },
   {
     id: "CRAFTYSHIELD",
@@ -1938,8 +1782,7 @@ export const moves: Move[] = [
     accuracy: null,
     totalPP: 10,
     target: "UserSide",
-    description:
-      "The user protects itself and its allies from status moves with a mysterious power.",
+    description: "The user protects itself and its allies from status moves with a mysterious power."
   },
   {
     id: "DECORATE",
@@ -1950,8 +1793,7 @@ export const moves: Move[] = [
     accuracy: null,
     totalPP: 15,
     target: "NearOther",
-    description:
-      "The user sharply raises the target's Attack and Sp. Atk stats by decorating the target.",
+    description: "The user sharply raises the target's Attack and Sp. Atk stats by decorating the target."
   },
   {
     id: "FAIRYLOCK",
@@ -1962,8 +1804,7 @@ export const moves: Move[] = [
     accuracy: null,
     totalPP: 10,
     target: "BothSides",
-    description:
-      "By locking down the battlefield, the user keeps all Pokémon from fleeing during the next turn.",
+    description: "By locking down the battlefield, the user keeps all Pokémon from fleeing during the next turn."
   },
   {
     id: "FLORALHEALING",
@@ -1974,8 +1815,7 @@ export const moves: Move[] = [
     accuracy: null,
     totalPP: 10,
     target: "NearOther",
-    description:
-      "The user restores the target's HP by up to half of its max HP. It restores more HP when the terrain is grass.",
+    description: "The user restores the target's HP by up to half of its max HP. It restores more HP when the terrain is grass."
   },
   {
     id: "FLOWERSHIELD",
@@ -1986,8 +1826,7 @@ export const moves: Move[] = [
     accuracy: null,
     totalPP: 10,
     target: "AllBattlers",
-    description:
-      "The user raises the Defense stats of all Grass-type Pokémon in battle with a mysterious power.",
+    description: "The user raises the Defense stats of all Grass-type Pokémon in battle with a mysterious power."
   },
   {
     id: "GEOMANCY",
@@ -1998,8 +1837,7 @@ export const moves: Move[] = [
     accuracy: null,
     totalPP: 10,
     target: "User",
-    description:
-      "The user absorbs energy and sharply raises its Sp. Atk, Sp. Def, and Speed stats on the next turn.",
+    description: "The user absorbs energy and sharply raises its Sp. Atk, Sp. Def, and Speed stats on the next turn."
   },
   {
     id: "MISTYTERRAIN",
@@ -2010,8 +1848,7 @@ export const moves: Move[] = [
     accuracy: null,
     totalPP: 10,
     target: "BothSides",
-    description:
-      "The user covers the ground with mist for five turns. Grounded Pokémon can't gain status conditions.",
+    description: "The user covers the ground with mist for five turns. Grounded Pokémon can't gain status conditions."
   },
   {
     id: "MOONLIGHT",
@@ -2022,8 +1859,7 @@ export const moves: Move[] = [
     accuracy: null,
     totalPP: 5,
     target: "User",
-    description:
-      "The user restores its own HP. The amount of HP regained varies with the weather.",
+    description: "The user restores its own HP. The amount of HP regained varies with the weather."
   },
   {
     id: "SWEETKISS",
@@ -2034,8 +1870,7 @@ export const moves: Move[] = [
     accuracy: 75,
     totalPP: 10,
     target: "NearOther",
-    description:
-      "The user kisses the target with a sweet, angelic cuteness that causes confusion.",
+    description: "The user kisses the target with a sweet, angelic cuteness that causes confusion."
   },
   {
     id: "FOCUSPUNCH",
@@ -2046,8 +1881,7 @@ export const moves: Move[] = [
     accuracy: 100,
     totalPP: 20,
     target: "NearOther",
-    description:
-      "The user focuses its mind before launching a punch. It will fail if the user is hit before it is used.",
+    description: "The user focuses its mind before launching a punch. It will fail if the user is hit before it is used."
   },
   {
     id: "METEORASSAULT",
@@ -2058,8 +1892,7 @@ export const moves: Move[] = [
     accuracy: 100,
     totalPP: 5,
     target: "NearOther",
-    description:
-      "The user attacks wildly with its thick leek. The user can't move on the next turn.",
+    description: "The user attacks wildly with its thick leek. The user can't move on the next turn."
   },
   {
     id: "HIGHJUMPKICK",
@@ -2070,8 +1903,7 @@ export const moves: Move[] = [
     accuracy: 90,
     totalPP: 10,
     target: "NearOther",
-    description:
-      "The target is attacked with a knee kick from a jump. If it misses, the user is hurt instead.",
+    description: "The target is attacked with a knee kick from a jump. If it misses, the user is hurt instead."
   },
   {
     id: "AXEKICK",
@@ -2082,8 +1914,7 @@ export const moves: Move[] = [
     accuracy: 90,
     totalPP: 10,
     target: "NearOther",
-    description:
-      "The user kicks up and slams its heel down. This may confuse the target. Missing will damage the user.",
+    description: "The user kicks up and slams its heel down. This may confuse the target. Missing will damage the user."
   },
   {
     id: "CLOSECOMBAT",
@@ -2094,8 +1925,7 @@ export const moves: Move[] = [
     accuracy: 100,
     totalPP: 5,
     target: "NearOther",
-    description:
-      "The user fights the foe up close without guarding itself. It also cuts the user's Defense and Sp. Def.",
+    description: "The user fights the foe up close without guarding itself. It also cuts the user's Defense and Sp. Def."
   },
   {
     id: "FOCUSBLAST",
@@ -2106,8 +1936,7 @@ export const moves: Move[] = [
     accuracy: 70,
     totalPP: 5,
     target: "NearOther",
-    description:
-      "The user heightens its mental focus and unleashes its power. It may also lower the target's Sp. Def.",
+    description: "The user heightens its mental focus and unleashes its power. It may also lower the target's Sp. Def."
   },
   {
     id: "SUPERPOWER",
@@ -2118,8 +1947,7 @@ export const moves: Move[] = [
     accuracy: 100,
     totalPP: 5,
     target: "NearOther",
-    description:
-      "The user attacks the target with great power. However, it also lowers the user's Attack and Defense.",
+    description: "The user attacks the target with great power. However, it also lowers the user's Attack and Defense."
   },
   {
     id: "COLLISIONCOURSE",
@@ -2130,8 +1958,7 @@ export const moves: Move[] = [
     accuracy: 100,
     totalPP: 5,
     target: "NearOther",
-    description:
-      "The user crashes and causes a massive prehistoric explosion. A supereffective hit deals more damage.",
+    description: "The user crashes and causes a massive prehistoric explosion. A supereffective hit deals more damage."
   },
   {
     id: "CROSSCHOP",
@@ -2142,8 +1969,7 @@ export const moves: Move[] = [
     accuracy: 80,
     totalPP: 5,
     target: "NearOther",
-    description:
-      "The user delivers a double chop with its forearms crossed. Critical hits land more easily.",
+    description: "The user delivers a double chop with its forearms crossed. Critical hits land more easily."
   },
   {
     id: "DYNAMICPUNCH",
@@ -2154,8 +1980,7 @@ export const moves: Move[] = [
     accuracy: 50,
     totalPP: 5,
     target: "NearOther",
-    description:
-      "The user punches the target with full, concentrated power. It confuses the target if it hits.",
+    description: "The user punches the target with full, concentrated power. It confuses the target if it hits."
   },
   {
     id: "FLYINGPRESS",
@@ -2166,8 +1991,7 @@ export const moves: Move[] = [
     accuracy: 95,
     totalPP: 10,
     target: "Other",
-    description:
-      "The user dives down onto the target from the sky. This move is Fighting and Flying type simultaneously.",
+    description: "The user dives down onto the target from the sky. This move is Fighting and Flying type simultaneously."
   },
   {
     id: "HAMMERARM",
@@ -2178,8 +2002,7 @@ export const moves: Move[] = [
     accuracy: 90,
     totalPP: 10,
     target: "NearOther",
-    description:
-      "The user swings and hits with its strong and heavy fist. It lowers the user's Speed, however.",
+    description: "The user swings and hits with its strong and heavy fist. It lowers the user's Speed, however."
   },
   {
     id: "JUMPKICK",
@@ -2190,8 +2013,7 @@ export const moves: Move[] = [
     accuracy: 95,
     totalPP: 10,
     target: "NearOther",
-    description:
-      "The user jumps up high, then strikes with a kick. If the kick misses, the user hurts itself.",
+    description: "The user jumps up high, then strikes with a kick. If the kick misses, the user hurts itself."
   },
   {
     id: "SACREDSWORD",
@@ -2202,8 +2024,7 @@ export const moves: Move[] = [
     accuracy: 100,
     totalPP: 15,
     target: "NearOther",
-    description:
-      "The user attacks by slicing with its long horns. The target's stat changes don't affect the damage.",
+    description: "The user attacks by slicing with its long horns. The target's stat changes don't affect the damage."
   },
   {
     id: "THUNDEROUSKICK",
@@ -2214,8 +2035,7 @@ export const moves: Move[] = [
     accuracy: 100,
     totalPP: 10,
     target: "NearOther",
-    description:
-      "Overwhelms the target with lightning-like movement, then kicks. Lowers the target's Defense stat.",
+    description: "Overwhelms the target with lightning-like movement, then kicks. Lowers the target's Defense stat."
   },
   {
     id: "TRIPLEARROWS",
@@ -2226,8 +2046,7 @@ export const moves: Move[] = [
     accuracy: 100,
     totalPP: 10,
     target: "NearOther",
-    description:
-      "This move is more likely to be a critical hit, and may also lower the target's Defense stat or make it flinch.",
+    description: "This move is more likely to be a critical hit, and may also lower the target's Defense stat or make it flinch."
   },
   {
     id: "SECRETSWORD",
@@ -2238,8 +2057,7 @@ export const moves: Move[] = [
     accuracy: 100,
     totalPP: 10,
     target: "NearOther",
-    description:
-      "The user cuts with its long horn. The odd power contained in it does physical damage to the foe.",
+    description: "The user cuts with its long horn. The odd power contained in it does physical damage to the foe."
   },
   {
     id: "SKYUPPERCUT",
@@ -2250,8 +2068,7 @@ export const moves: Move[] = [
     accuracy: 90,
     totalPP: 15,
     target: "NearOther",
-    description:
-      "The user attacks the target with an uppercut thrown skyward with force.",
+    description: "The user attacks the target with an uppercut thrown skyward with force."
   },
   {
     id: "AURASPHERE",
@@ -2262,8 +2079,7 @@ export const moves: Move[] = [
     accuracy: null,
     totalPP: 20,
     target: "Other",
-    description:
-      "The user looses a blast of aura power from deep within its body. This move is certain to hit.",
+    description: "The user looses a blast of aura power from deep within its body. This move is certain to hit."
   },
   {
     id: "BODYPRESS",
@@ -2274,8 +2090,7 @@ export const moves: Move[] = [
     accuracy: 100,
     totalPP: 10,
     target: "NearOther",
-    description:
-      "The user attacks by slamming its body into the target. Power increases the higher the user's Defense is.",
+    description: "The user attacks by slamming its body into the target. Power increases the higher the user's Defense is."
   },
   {
     id: "SUBMISSION",
@@ -2286,8 +2101,7 @@ export const moves: Move[] = [
     accuracy: 80,
     totalPP: 20,
     target: "NearOther",
-    description:
-      "The user grabs the target and recklessly dives for the ground. It also hurts the user slightly.",
+    description: "The user grabs the target and recklessly dives for the ground. It also hurts the user slightly."
   },
   {
     id: "BRICKBREAK",
@@ -2298,8 +2112,7 @@ export const moves: Move[] = [
     accuracy: 100,
     totalPP: 15,
     target: "NearOther",
-    description:
-      "The user attacks with a swift chop. It can also break any barrier such as Light Screen and Reflect.",
+    description: "The user attacks with a swift chop. It can also break any barrier such as Light Screen and Reflect."
   },
   {
     id: "DRAINPUNCH",
@@ -2310,8 +2123,7 @@ export const moves: Move[] = [
     accuracy: 100,
     totalPP: 10,
     target: "NearOther",
-    description:
-      "An energy-draining punch. The user's HP is restored by half the damage taken by the target.",
+    description: "An energy-draining punch. The user's HP is restored by half the damage taken by the target."
   },
   {
     id: "VITALTHROW",
@@ -2322,8 +2134,7 @@ export const moves: Move[] = [
     accuracy: null,
     totalPP: 10,
     target: "NearOther",
-    description:
-      "The user attacks last. In return, this throw move is guaranteed not to miss.",
+    description: "The user attacks last. In return, this throw move is guaranteed not to miss."
   },
   {
     id: "WAKEUPSLAP",
@@ -2334,8 +2145,7 @@ export const moves: Move[] = [
     accuracy: 100,
     totalPP: 10,
     target: "NearOther",
-    description:
-      "This attack inflicts big damage on a sleeping target. It also wakes the target up, however.",
+    description: "This attack inflicts big damage on a sleeping target. It also wakes the target up, however."
   },
   {
     id: "LOWSWEEP",
@@ -2346,8 +2156,7 @@ export const moves: Move[] = [
     accuracy: 100,
     totalPP: 20,
     target: "NearOther",
-    description:
-      "The user attacks the target's legs swiftly, reducing the target's Speed stat.",
+    description: "The user attacks the target's legs swiftly, reducing the target's Speed stat."
   },
   {
     id: "UPPERHAND",
@@ -2358,8 +2167,7 @@ export const moves: Move[] = [
     accuracy: 100,
     totalPP: 15,
     target: "NearOther",
-    description:
-      "The user strikes with its palm, making the target flinch. It fails if the target will not use a priority move.",
+    description: "The user strikes with its palm, making the target flinch. It fails if the target will not use a priority move."
   },
   {
     id: "CIRCLETHROW",
@@ -2370,8 +2178,7 @@ export const moves: Move[] = [
     accuracy: 90,
     totalPP: 10,
     target: "NearOther",
-    description:
-      "The user throws the target and drags out another Pokémon in its party. In the wild, the battle ends.",
+    description: "The user throws the target and drags out another Pokémon in its party. In the wild, the battle ends."
   },
   {
     id: "FORCEPALM",
@@ -2382,8 +2189,7 @@ export const moves: Move[] = [
     accuracy: 100,
     totalPP: 10,
     target: "NearOther",
-    description:
-      "The target is attacked with a shock wave. It may also leave the target with paralysis.",
+    description: "The target is attacked with a shock wave. It may also leave the target with paralysis."
   },
   {
     id: "REVENGE",
@@ -2394,8 +2200,7 @@ export const moves: Move[] = [
     accuracy: 100,
     totalPP: 10,
     target: "NearOther",
-    description:
-      "An attack move that inflicts double the damage if the user has been hurt by the foe in the same turn.",
+    description: "An attack move that inflicts double the damage if the user has been hurt by the foe in the same turn."
   },
   {
     id: "ROLLINGKICK",
@@ -2406,8 +2211,7 @@ export const moves: Move[] = [
     accuracy: 85,
     totalPP: 15,
     target: "NearOther",
-    description:
-      "The user lashes out with a quick, spinning kick. It may also make the target flinch.",
+    description: "The user lashes out with a quick, spinning kick. It may also make the target flinch."
   },
   {
     id: "STORMTHROW",
@@ -2418,8 +2222,7 @@ export const moves: Move[] = [
     accuracy: 100,
     totalPP: 10,
     target: "NearOther",
-    description:
-      "The user strikes the target with a fierce blow. This attack always results in a critical hit.",
+    description: "The user strikes the target with a fierce blow. This attack always results in a critical hit."
   },
   {
     id: "KARATECHOP",
@@ -2430,8 +2233,7 @@ export const moves: Move[] = [
     accuracy: 100,
     totalPP: 25,
     target: "NearOther",
-    description:
-      "The target is attacked with a sharp chop. Critical hits land more easily.",
+    description: "The target is attacked with a sharp chop. Critical hits land more easily."
   },
   {
     id: "MACHPUNCH",
@@ -2442,8 +2244,7 @@ export const moves: Move[] = [
     accuracy: 100,
     totalPP: 30,
     target: "NearOther",
-    description:
-      "The user throws a punch at blinding speed. It is certain to strike first.",
+    description: "The user throws a punch at blinding speed. It is certain to strike first."
   },
   {
     id: "POWERUPPUNCH",
@@ -2454,8 +2255,7 @@ export const moves: Move[] = [
     accuracy: 100,
     totalPP: 20,
     target: "NearOther",
-    description:
-      "Striking opponents repeatedly makes the user's fists harder, raising the user's Attack stat.",
+    description: "Striking opponents repeatedly makes the user's fists harder, raising the user's Attack stat."
   },
   {
     id: "ROCKSMASH",
@@ -2466,8 +2266,7 @@ export const moves: Move[] = [
     accuracy: 100,
     totalPP: 15,
     target: "NearOther",
-    description:
-      "The user attacks with a punch that can shatter a rock. It may also lower the foe's Defense stat.",
+    description: "The user attacks with a punch that can shatter a rock. It may also lower the foe's Defense stat."
   },
   {
     id: "VACUUMWAVE",
@@ -2478,8 +2277,7 @@ export const moves: Move[] = [
     accuracy: 100,
     totalPP: 30,
     target: "NearOther",
-    description:
-      "The user whirls its fists to send a wave of pure vacuum at the target. This move always goes first.",
+    description: "The user whirls its fists to send a wave of pure vacuum at the target. This move always goes first."
   },
   {
     id: "DOUBLEKICK",
@@ -2490,8 +2288,7 @@ export const moves: Move[] = [
     accuracy: 100,
     totalPP: 30,
     target: "NearOther",
-    description:
-      "The target is quickly kicked twice in succession using both feet.",
+    description: "The target is quickly kicked twice in succession using both feet."
   },
   {
     id: "ARMTHRUST",
@@ -2502,8 +2299,7 @@ export const moves: Move[] = [
     accuracy: 100,
     totalPP: 20,
     target: "NearOther",
-    description:
-      "The user looses a flurry of open-palmed arm thrusts that hit two to five times in a row.",
+    description: "The user looses a flurry of open-palmed arm thrusts that hit two to five times in a row."
   },
   {
     id: "TRIPLEKICK",
@@ -2514,8 +2310,7 @@ export const moves: Move[] = [
     accuracy: 90,
     totalPP: 10,
     target: "NearOther",
-    description:
-      "A consecutive three-kick attack that becomes more powerful with each successive hit.",
+    description: "A consecutive three-kick attack that becomes more powerful with each successive hit."
   },
   {
     id: "COUNTER",
@@ -2526,8 +2321,7 @@ export const moves: Move[] = [
     accuracy: 100,
     totalPP: 20,
     target: "None",
-    description:
-      "A retaliation move that counters any physical attack, inflicting double the damage taken.",
+    description: "A retaliation move that counters any physical attack, inflicting double the damage taken."
   },
   {
     id: "FINALGAMBIT",
@@ -2538,8 +2332,7 @@ export const moves: Move[] = [
     accuracy: 100,
     totalPP: 5,
     target: "NearOther",
-    description:
-      "The user risks all to attack the foe. The user faints but does damage equal to its HP.",
+    description: "The user risks all to attack the foe. The user faints but does damage equal to its HP."
   },
   {
     id: "LOWKICK",
@@ -2550,8 +2343,7 @@ export const moves: Move[] = [
     accuracy: 100,
     totalPP: 20,
     target: "NearOther",
-    description:
-      "A powerful low kick that makes the foe fall over. It inflicts greater damage on heavier foes.",
+    description: "A powerful low kick that makes the foe fall over. It inflicts greater damage on heavier foes."
   },
   {
     id: "REVERSAL",
@@ -2562,8 +2354,7 @@ export const moves: Move[] = [
     accuracy: 100,
     totalPP: 15,
     target: "NearOther",
-    description:
-      "An all-out attack that becomes more powerful the less HP the user has.",
+    description: "An all-out attack that becomes more powerful the less HP the user has."
   },
   {
     id: "SEISMICTOSS",
@@ -2574,8 +2365,7 @@ export const moves: Move[] = [
     accuracy: 100,
     totalPP: 20,
     target: "NearOther",
-    description:
-      "The target is thrown using the power of gravity. It inflicts damage equal to the user's level.",
+    description: "The target is thrown using the power of gravity. It inflicts damage equal to the user's level."
   },
   {
     id: "BULKUP",
@@ -2586,8 +2376,7 @@ export const moves: Move[] = [
     accuracy: null,
     totalPP: 20,
     target: "User",
-    description:
-      "The user tenses its muscles to bulk up its body, boosting both its Attack and Defense stats.",
+    description: "The user tenses its muscles to bulk up its body, boosting both its Attack and Defense stats."
   },
   {
     id: "COACHING",
@@ -2598,8 +2387,7 @@ export const moves: Move[] = [
     accuracy: null,
     totalPP: 10,
     target: "AllAllies",
-    description:
-      "The user properly coaches its ally Pokémon, boosting their Attack and Defense stats.",
+    description: "The user properly coaches its ally Pokémon, boosting their Attack and Defense stats."
   },
   {
     id: "DETECT",
@@ -2610,8 +2398,7 @@ export const moves: Move[] = [
     accuracy: null,
     totalPP: 5,
     target: "User",
-    description:
-      "It enables the user to evade all attacks. Its chance of failing rises if it is used in succession.",
+    description: "It enables the user to evade all attacks. Its chance of failing rises if it is used in succession."
   },
   {
     id: "MATBLOCK",
@@ -2622,8 +2409,7 @@ export const moves: Move[] = [
     accuracy: null,
     totalPP: 10,
     target: "UserSide",
-    description:
-      "Using a pulled-up mat as a shield, the user protects itself and its allies from damaging moves.",
+    description: "Using a pulled-up mat as a shield, the user protects itself and its allies from damaging moves."
   },
   {
     id: "NORETREAT",
@@ -2634,8 +2420,7 @@ export const moves: Move[] = [
     accuracy: null,
     totalPP: 5,
     target: "User",
-    description:
-      "This move raises all the user's stats but prevents the user from switching out or fleeing.",
+    description: "This move raises all the user's stats but prevents the user from switching out or fleeing."
   },
   {
     id: "OCTOLOCK",
@@ -2646,8 +2431,7 @@ export const moves: Move[] = [
     accuracy: 100,
     totalPP: 15,
     target: "NearOther",
-    description:
-      "Locks the target in and prevents it from fleeing. Also lowers the target's Defense and Sp. Def each turn.",
+    description: "Locks the target in and prevents it from fleeing. Also lowers the target's Defense and Sp. Def each turn."
   },
   {
     id: "QUICKGUARD",
@@ -2658,8 +2442,7 @@ export const moves: Move[] = [
     accuracy: null,
     totalPP: 15,
     target: "UserSide",
-    description:
-      "The user protects itself and its allies from priority moves. If may fail if used in succession.",
+    description: "The user protects itself and its allies from priority moves. If may fail if used in succession."
   },
   {
     id: "VICTORYDANCE",
@@ -2670,8 +2453,7 @@ export const moves: Move[] = [
     accuracy: null,
     totalPP: 10,
     target: "User",
-    description:
-      "The user dances intensely to usher in victory, boosting its Attack, Defense and Speed stats.",
+    description: "The user dances intensely to usher in victory, boosting its Attack, Defense and Speed stats."
   },
   {
     id: "VCREATE",
@@ -2682,8 +2464,7 @@ export const moves: Move[] = [
     accuracy: 95,
     totalPP: 5,
     target: "NearOther",
-    description:
-      "With a fiery forehead, the user hurls itself at the foe. It lowers the user's Defense, Sp. Def, and Speed.",
+    description: "With a fiery forehead, the user hurls itself at the foe. It lowers the user's Defense, Sp. Def, and Speed."
   },
   {
     id: "BLASTBURN",
@@ -2694,8 +2475,7 @@ export const moves: Move[] = [
     accuracy: 90,
     totalPP: 5,
     target: "NearOther",
-    description:
-      "The target is razed by a fiery explosion. The user must rest on the next turn, however.",
+    description: "The target is razed by a fiery explosion. The user must rest on the next turn, however."
   },
   {
     id: "ERUPTION",
@@ -2706,8 +2486,7 @@ export const moves: Move[] = [
     accuracy: 100,
     totalPP: 5,
     target: "AllNearFoes",
-    description:
-      "The user attacks in an explosive fury. The lower the user's HP, the less powerful this attack becomes.",
+    description: "The user attacks in an explosive fury. The lower the user's HP, the less powerful this attack becomes."
   },
   {
     id: "MINDBLOWN",
@@ -2718,8 +2497,7 @@ export const moves: Move[] = [
     accuracy: 100,
     totalPP: 5,
     target: "AllNearOthers",
-    description:
-      "The user attacks everything by causing its own head to explode. This also damages the user.",
+    description: "The user attacks everything by causing its own head to explode. This also damages the user."
   },
   {
     id: "SHELLTRAP",
@@ -2730,8 +2508,7 @@ export const moves: Move[] = [
     accuracy: 100,
     totalPP: 5,
     target: "AllNearFoes",
-    description:
-      "The user sets a shell trap. If it is hit by a physical move, the trap explodes and hurt the attacker.",
+    description: "The user sets a shell trap. If it is hit by a physical move, the trap explodes and hurt the attacker."
   },
   {
     id: "BLUEFLARE",
@@ -2742,8 +2519,7 @@ export const moves: Move[] = [
     accuracy: 85,
     totalPP: 5,
     target: "NearOther",
-    description:
-      "The user attacks by engulfing the foe in a beautiful, yet intense, blue flame. It may also burn the foe.",
+    description: "The user attacks by engulfing the foe in a beautiful, yet intense, blue flame. It may also burn the foe."
   },
   {
     id: "BURNUP",
@@ -2754,8 +2530,7 @@ export const moves: Move[] = [
     accuracy: 100,
     totalPP: 5,
     target: "NearOther",
-    description:
-      "To inflict massive damage, the user burns itself out. The user will no longer be Fire type.",
+    description: "To inflict massive damage, the user burns itself out. The user will no longer be Fire type."
   },
   {
     id: "OVERHEAT",
@@ -2766,8 +2541,7 @@ export const moves: Move[] = [
     accuracy: 90,
     totalPP: 5,
     target: "NearOther",
-    description:
-      "The user attacks the target at full power. The attack's recoil sharply reduces the user's Sp. Atk stat.",
+    description: "The user attacks the target at full power. The attack's recoil sharply reduces the user's Sp. Atk stat."
   },
   {
     id: "ARMORCANNON",
@@ -2778,8 +2552,7 @@ export const moves: Move[] = [
     accuracy: 100,
     totalPP: 5,
     target: "NearOther",
-    description:
-      "The user shoots its own armor as blazing projectiles. This also lowers the user's Defense and Sp. Def.",
+    description: "The user shoots its own armor as blazing projectiles. This also lowers the user's Defense and Sp. Def."
   },
   {
     id: "FLAREBLITZ",
@@ -2790,8 +2563,7 @@ export const moves: Move[] = [
     accuracy: 100,
     totalPP: 15,
     target: "NearOther",
-    description:
-      "The user cloaks itself in fire and charges at the foe. The user also takes damage and may burn the target.",
+    description: "The user cloaks itself in fire and charges at the foe. The user also takes damage and may burn the target."
   },
   {
     id: "PYROBALL",
@@ -2802,8 +2574,7 @@ export const moves: Move[] = [
     accuracy: 90,
     totalPP: 5,
     target: "NearOther",
-    description:
-      "Attacks by igniting a small stone and launching it as a fiery ball. May also burn the target.",
+    description: "Attacks by igniting a small stone and launching it as a fiery ball. May also burn the target."
   },
   {
     id: "RAGINGFURY",
@@ -2814,8 +2585,7 @@ export const moves: Move[] = [
     accuracy: 100,
     totalPP: 10,
     target: "RandomNearFoe",
-    description:
-      "The user rampages around spewing flames for two to three turns. The user then becomes confused.",
+    description: "The user rampages around spewing flames for two to three turns. The user then becomes confused."
   },
   {
     id: "FIREBLAST",
@@ -2826,8 +2596,7 @@ export const moves: Move[] = [
     accuracy: 85,
     totalPP: 5,
     target: "NearOther",
-    description:
-      "The foe is attacked with an intense blast of all-consuming fire. It may also leave the target with a burn.",
+    description: "The foe is attacked with an intense blast of all-consuming fire. It may also leave the target with a burn."
   },
   {
     id: "FUSIONFLARE",
@@ -2838,8 +2607,7 @@ export const moves: Move[] = [
     accuracy: 100,
     totalPP: 5,
     target: "NearOther",
-    description:
-      "The user brings down a giant flame. It does more damage if influenced by an enormous thunderbolt.",
+    description: "The user brings down a giant flame. It does more damage if influenced by an enormous thunderbolt."
   },
   {
     id: "INFERNO",
@@ -2850,8 +2618,7 @@ export const moves: Move[] = [
     accuracy: 50,
     totalPP: 5,
     target: "NearOther",
-    description:
-      "The user attacks by engulfing the target in an intense fire. It leaves the target with a burn.",
+    description: "The user attacks by engulfing the target in an intense fire. It leaves the target with a burn."
   },
   {
     id: "MAGMASTORM",
@@ -2862,8 +2629,7 @@ export const moves: Move[] = [
     accuracy: 75,
     totalPP: 5,
     target: "NearOther",
-    description:
-      "The target becomes trapped within a maelstrom of fire that rages for four to five turns.",
+    description: "The target becomes trapped within a maelstrom of fire that rages for four to five turns."
   },
   {
     id: "SACREDFIRE",
@@ -2874,8 +2640,7 @@ export const moves: Move[] = [
     accuracy: 95,
     totalPP: 5,
     target: "NearOther",
-    description:
-      "The target is razed with a mystical fire of great intensity. It may also leave the target with a burn.",
+    description: "The target is razed with a mystical fire of great intensity. It may also leave the target with a burn."
   },
   {
     id: "SEARINGSHOT",
@@ -2886,8 +2651,7 @@ export const moves: Move[] = [
     accuracy: 100,
     totalPP: 5,
     target: "AllNearOthers",
-    description:
-      "An inferno of scarlet flames torches everything around the user. It may leave the foe with a burn.",
+    description: "An inferno of scarlet flames torches everything around the user. It may leave the foe with a burn."
   },
   {
     id: "HEATWAVE",
@@ -2898,8 +2662,7 @@ export const moves: Move[] = [
     accuracy: 90,
     totalPP: 10,
     target: "AllNearFoes",
-    description:
-      "The user attacks by exhaling hot breath on the opposing team. It may also leave targets with a burn.",
+    description: "The user attacks by exhaling hot breath on the opposing team. It may also leave targets with a burn."
   },
   {
     id: "BITTERBLADE",
@@ -2910,8 +2673,7 @@ export const moves: Move[] = [
     accuracy: 100,
     totalPP: 10,
     target: "NearOther",
-    description:
-      "The user slashes with bitter feelings toward the living. The user heals by half the damage dealt.",
+    description: "The user slashes with bitter feelings toward the living. The user heals by half the damage dealt."
   },
   {
     id: "FLAMETHROWER",
@@ -2922,8 +2684,7 @@ export const moves: Move[] = [
     accuracy: 100,
     totalPP: 15,
     target: "NearOther",
-    description:
-      "The target is scorched with an intense blast of fire. It may also leave the target with a burn.",
+    description: "The target is scorched with an intense blast of fire. It may also leave the target with a burn."
   },
   {
     id: "BLAZEKICK",
@@ -2934,8 +2695,7 @@ export const moves: Move[] = [
     accuracy: 90,
     totalPP: 10,
     target: "NearOther",
-    description:
-      "The user launches a kick with a high critical-hit ratio. It may also leave the target with a burn.",
+    description: "The user launches a kick with a high critical-hit ratio. It may also leave the target with a burn."
   },
   {
     id: "FIERYDANCE",
@@ -2946,8 +2706,7 @@ export const moves: Move[] = [
     accuracy: 100,
     totalPP: 10,
     target: "NearOther",
-    description:
-      "Cloaked in flames, the user dances and flaps its wings. It may also raise the user's Sp. Atk stat.",
+    description: "Cloaked in flames, the user dances and flaps its wings. It may also raise the user's Sp. Atk stat."
   },
   {
     id: "FIRELASH",
@@ -2958,8 +2717,7 @@ export const moves: Move[] = [
     accuracy: 100,
     totalPP: 15,
     target: "NearOther",
-    description:
-      "The user strikes the target with a burning lash. This also lowers the target's Defense stat.",
+    description: "The user strikes the target with a burning lash. This also lowers the target's Defense stat."
   },
   {
     id: "FIREPLEDGE",
@@ -2970,8 +2728,7 @@ export const moves: Move[] = [
     accuracy: 100,
     totalPP: 10,
     target: "NearOther",
-    description:
-      "A column of fire hits opposing Pokémon. When used with its Grass equivalent, it makes a sea of fire.",
+    description: "A column of fire hits opposing Pokémon. When used with its Grass equivalent, it makes a sea of fire."
   },
   {
     id: "LAVAPLUME",
@@ -2982,8 +2739,7 @@ export const moves: Move[] = [
     accuracy: 100,
     totalPP: 15,
     target: "AllNearOthers",
-    description:
-      "An inferno of scarlet flames torches everything around the user. It may leave targets with a burn.",
+    description: "An inferno of scarlet flames torches everything around the user. It may leave targets with a burn."
   },
   {
     id: "TORCHSONG",
@@ -2994,8 +2750,7 @@ export const moves: Move[] = [
     accuracy: 100,
     totalPP: 10,
     target: "NearOther",
-    description:
-      "The user blows out raging flames as if singing a song. This also boosts the user's Sp. Atk stat.",
+    description: "The user blows out raging flames as if singing a song. This also boosts the user's Sp. Atk stat."
   },
   {
     id: "FIREPUNCH",
@@ -3006,8 +2761,7 @@ export const moves: Move[] = [
     accuracy: 100,
     totalPP: 15,
     target: "NearOther",
-    description:
-      "The target is punched with a fiery fist. It may leave the target with a burn.",
+    description: "The target is punched with a fiery fist. It may leave the target with a burn."
   },
   {
     id: "MYSTICALFIRE",
@@ -3018,8 +2772,7 @@ export const moves: Move[] = [
     accuracy: 100,
     totalPP: 10,
     target: "NearOther",
-    description:
-      "The user attacks by breathing a special, hot fire. This also lowers the target's Sp. Atk stat.",
+    description: "The user attacks by breathing a special, hot fire. This also lowers the target's Sp. Atk stat."
   },
   {
     id: "TEMPERFLARE",
@@ -3030,8 +2783,7 @@ export const moves: Move[] = [
     accuracy: 100,
     totalPP: 10,
     target: "NearOther",
-    description:
-      "The user attacks the target in desperation. This move's power is doubled if the user's previous move failed.",
+    description: "The user attacks the target in desperation. This move's power is doubled if the user's previous move failed."
   },
   {
     id: "BURNINGJEALOUSY",
@@ -3042,8 +2794,7 @@ export const moves: Move[] = [
     accuracy: 100,
     totalPP: 5,
     target: "AllNearFoes",
-    description:
-      "The user attacks with energy from jealousy. This burns all foes that had their stats boosted this turn.",
+    description: "The user attacks with energy from jealousy. This burns all foes that had their stats boosted this turn."
   },
   {
     id: "FLAMEBURST",
@@ -3054,8 +2805,7 @@ export const moves: Move[] = [
     accuracy: 100,
     totalPP: 15,
     target: "NearOther",
-    description:
-      "The user attacks the foe with a bursting flame. It also damages Pokémon next to the target.",
+    description: "The user attacks the foe with a bursting flame. It also damages Pokémon next to the target."
   },
   {
     id: "FIREFANG",
@@ -3066,8 +2816,7 @@ export const moves: Move[] = [
     accuracy: 95,
     totalPP: 15,
     target: "NearOther",
-    description:
-      "The user bites with flame-cloaked fangs. It may also make the target flinch or leave it burned.",
+    description: "The user bites with flame-cloaked fangs. It may also make the target flinch or leave it burned."
   },
   {
     id: "FLAMEWHEEL",
@@ -3078,8 +2827,7 @@ export const moves: Move[] = [
     accuracy: 100,
     totalPP: 25,
     target: "NearOther",
-    description:
-      "The user cloaks itself in fire and charges at the target. It may also leave the target with a burn.",
+    description: "The user cloaks itself in fire and charges at the target. It may also leave the target with a burn."
   },
   {
     id: "INCINERATE",
@@ -3090,8 +2838,7 @@ export const moves: Move[] = [
     accuracy: 100,
     totalPP: 15,
     target: "AllNearFoes",
-    description:
-      "The user attacks the foe with fire. The target's held Berry becomes burnt up and unusable.",
+    description: "The user attacks the foe with fire. The target's held Berry becomes burnt up and unusable."
   },
   {
     id: "FLAMECHARGE",
@@ -3102,8 +2849,7 @@ export const moves: Move[] = [
     accuracy: 100,
     totalPP: 20,
     target: "NearOther",
-    description:
-      "The user cloaks itself in flame and attacks. Building up more power, it raises the user's Speed stat.",
+    description: "The user cloaks itself in flame and attacks. Building up more power, it raises the user's Speed stat."
   },
   {
     id: "EMBER",
@@ -3114,8 +2860,7 @@ export const moves: Move[] = [
     accuracy: 100,
     totalPP: 25,
     target: "NearOther",
-    description:
-      "The target is attacked with small flames. It may also leave the target with a burn.",
+    description: "The target is attacked with small flames. It may also leave the target with a burn."
   },
   {
     id: "FIRESPIN",
@@ -3126,8 +2871,7 @@ export const moves: Move[] = [
     accuracy: 85,
     totalPP: 15,
     target: "NearOther",
-    description:
-      "The target becomes trapped within a fierce vortex of fire that rages for four to five turns.",
+    description: "The target becomes trapped within a fierce vortex of fire that rages for four to five turns."
   },
   {
     id: "HEATCRASH",
@@ -3138,8 +2882,7 @@ export const moves: Move[] = [
     accuracy: 100,
     totalPP: 10,
     target: "NearOther",
-    description:
-      "The user slams the foe with its flaming body. The heavier the user is, the greater the damage.",
+    description: "The user slams the foe with its flaming body. The heavier the user is, the greater the damage."
   },
   {
     id: "BURNINGBULWARK",
@@ -3150,8 +2893,7 @@ export const moves: Move[] = [
     accuracy: null,
     totalPP: 10,
     target: "User",
-    description:
-      "The user's intensely hot fur protects it from attacks and also burns any attacker that makes contact.",
+    description: "The user's intensely hot fur protects it from attacks and also burns any attacker that makes contact."
   },
   {
     id: "SUNNYDAY",
@@ -3162,8 +2904,7 @@ export const moves: Move[] = [
     accuracy: null,
     totalPP: 5,
     target: "BothSides",
-    description:
-      "The user intensifies the sun for five turns, powering up Fire-type moves.",
+    description: "The user intensifies the sun for five turns, powering up Fire-type moves."
   },
   {
     id: "WILLOWISP",
@@ -3174,8 +2915,7 @@ export const moves: Move[] = [
     accuracy: 85,
     totalPP: 15,
     target: "NearOther",
-    description:
-      "The user shoots a sinister, bluish-white flame at the target to inflict a burn.",
+    description: "The user shoots a sinister, bluish-white flame at the target to inflict a burn."
   },
   {
     id: "SKYATTACK",
@@ -3186,8 +2926,7 @@ export const moves: Move[] = [
     accuracy: 90,
     totalPP: 5,
     target: "Other",
-    description:
-      "A second-turn attack move where critical hits land more easily. It may also make the target flinch.",
+    description: "A second-turn attack move where critical hits land more easily. It may also make the target flinch."
   },
   {
     id: "BRAVEBIRD",
@@ -3198,8 +2937,7 @@ export const moves: Move[] = [
     accuracy: 100,
     totalPP: 15,
     target: "Other",
-    description:
-      "The user tucks in its wings and charges from a low altitude. The user also takes serious damage.",
+    description: "The user tucks in its wings and charges from a low altitude. The user also takes serious damage."
   },
   {
     id: "DRAGONASCENT",
@@ -3210,8 +2948,7 @@ export const moves: Move[] = [
     accuracy: 100,
     totalPP: 5,
     target: "NearOther",
-    description:
-      "The user soars upward and drops at high speeds. Its Defense and Sp. Def stats are lowered.",
+    description: "The user soars upward and drops at high speeds. Its Defense and Sp. Def stats are lowered."
   },
   {
     id: "HURRICANE",
@@ -3222,8 +2959,7 @@ export const moves: Move[] = [
     accuracy: 70,
     totalPP: 10,
     target: "Other",
-    description:
-      "The user wraps its foe in a fierce wind that flies up into the sky. It may also confuse the foe.",
+    description: "The user wraps its foe in a fierce wind that flies up into the sky. It may also confuse the foe."
   },
   {
     id: "AEROBLAST",
@@ -3234,8 +2970,7 @@ export const moves: Move[] = [
     accuracy: 95,
     totalPP: 5,
     target: "Other",
-    description:
-      "A vortex of air is shot at the target to inflict damage. Critical hits land more easily.",
+    description: "A vortex of air is shot at the target to inflict damage. Critical hits land more easily."
   },
   {
     id: "BEAKBLAST",
@@ -3246,8 +2981,7 @@ export const moves: Move[] = [
     accuracy: 100,
     totalPP: 15,
     target: "NearOther",
-    description:
-      "The user heats up its beak before attacking. Making contact in this time results in a burn.",
+    description: "The user heats up its beak before attacking. Making contact in this time results in a burn."
   },
   {
     id: "BLEAKWINDSTORM",
@@ -3258,8 +2992,7 @@ export const moves: Move[] = [
     accuracy: 80,
     totalPP: 10,
     target: "AllNearFoes",
-    description:
-      "The user attacks with savagely cold winds. This may also lower the Speed stats of opposing Pokémon.",
+    description: "The user attacks with savagely cold winds. This may also lower the Speed stats of opposing Pokémon."
   },
   {
     id: "FLY",
@@ -3270,8 +3003,7 @@ export const moves: Move[] = [
     accuracy: 95,
     totalPP: 15,
     target: "Other",
-    description:
-      "The user soars, then strikes on the second turn. It can also be used for flying to any familiar town.",
+    description: "The user soars, then strikes on the second turn. It can also be used for flying to any familiar town."
   },
   {
     id: "BOUNCE",
@@ -3282,8 +3014,7 @@ export const moves: Move[] = [
     accuracy: 85,
     totalPP: 5,
     target: "Other",
-    description:
-      "The user bounces up high, then drops on the foe on the second turn. It may also paralyze the foe.",
+    description: "The user bounces up high, then drops on the foe on the second turn. It may also paralyze the foe."
   },
   {
     id: "DRILLPECK",
@@ -3294,7 +3025,7 @@ export const moves: Move[] = [
     accuracy: 100,
     totalPP: 20,
     target: "Other",
-    description: "A corkscrewing attack with the sharp beak acting as a drill.",
+    description: "A corkscrewing attack with the sharp beak acting as a drill."
   },
   {
     id: "OBLIVIONWING",
@@ -3305,8 +3036,7 @@ export const moves: Move[] = [
     accuracy: 100,
     totalPP: 10,
     target: "Other",
-    description:
-      "The user absorbs its target's HP. The user's HP is restored by over half of the damage dealt.",
+    description: "The user absorbs its target's HP. The user's HP is restored by over half of the damage dealt."
   },
   {
     id: "AIRSLASH",
@@ -3317,8 +3047,7 @@ export const moves: Move[] = [
     accuracy: 95,
     totalPP: 15,
     target: "Other",
-    description:
-      "The user attacks with a blade of air that slices even the sky. It may also make the target flinch.",
+    description: "The user attacks with a blade of air that slices even the sky. It may also make the target flinch."
   },
   {
     id: "CHATTER",
@@ -3329,8 +3058,7 @@ export const moves: Move[] = [
     accuracy: 100,
     totalPP: 20,
     target: "Other",
-    description:
-      "The user attacks using a sound wave based on words it has learned. It may also confuse the target.",
+    description: "The user attacks using a sound wave based on words it has learned. It may also confuse the target."
   },
   {
     id: "AERIALACE",
@@ -3341,8 +3069,7 @@ export const moves: Move[] = [
     accuracy: null,
     totalPP: 20,
     target: "Other",
-    description:
-      "The user confounds the foe with speed, then slashes. The attack lands without fail.",
+    description: "The user confounds the foe with speed, then slashes. The attack lands without fail."
   },
   {
     id: "AIRCUTTER",
@@ -3353,8 +3080,7 @@ export const moves: Move[] = [
     accuracy: 95,
     totalPP: 25,
     target: "AllNearFoes",
-    description:
-      "The user launches razor-like wind to slash the opposing team. Critical hits land more easily.",
+    description: "The user launches razor-like wind to slash the opposing team. Critical hits land more easily."
   },
   {
     id: "PLUCK",
@@ -3365,8 +3091,7 @@ export const moves: Move[] = [
     accuracy: 100,
     totalPP: 20,
     target: "Other",
-    description:
-      "The user pecks the target. If the target is holding a Berry, the user eats it and gains its effect.",
+    description: "The user pecks the target. If the target is holding a Berry, the user eats it and gains its effect."
   },
   {
     id: "SKYDROP",
@@ -3377,8 +3102,7 @@ export const moves: Move[] = [
     accuracy: 100,
     totalPP: 10,
     target: "Other",
-    description:
-      "The user takes the foe into the sky, then drops it on the next turn. The foe cannot attack while airborne.",
+    description: "The user takes the foe into the sky, then drops it on the next turn. The foe cannot attack while airborne."
   },
   {
     id: "WINGATTACK",
@@ -3389,8 +3113,7 @@ export const moves: Move[] = [
     accuracy: 100,
     totalPP: 35,
     target: "Other",
-    description:
-      "The target is struck with large, imposing wings spread wide to inflict damage.",
+    description: "The target is struck with large, imposing wings spread wide to inflict damage."
   },
   {
     id: "ACROBATICS",
@@ -3401,8 +3124,7 @@ export const moves: Move[] = [
     accuracy: 100,
     totalPP: 15,
     target: "Other",
-    description:
-      "The user nimbly strikes the foe. This attack does more damage if the user is not holding an item.",
+    description: "The user nimbly strikes the foe. This attack does more damage if the user is not holding an item."
   },
   {
     id: "DUALWINGBEAT",
@@ -3413,8 +3135,7 @@ export const moves: Move[] = [
     accuracy: 90,
     totalPP: 10,
     target: "NearOther",
-    description:
-      "The user slams the target with its wings. The target is hit twice in a row.",
+    description: "The user slams the target with its wings. The target is hit twice in a row."
   },
   {
     id: "GUST",
@@ -3425,8 +3146,7 @@ export const moves: Move[] = [
     accuracy: 100,
     totalPP: 35,
     target: "Other",
-    description:
-      "A gust of wind is whipped up by wings and launched at the target to inflict damage.",
+    description: "A gust of wind is whipped up by wings and launched at the target to inflict damage."
   },
   {
     id: "PECK",
@@ -3437,7 +3157,7 @@ export const moves: Move[] = [
     accuracy: 100,
     totalPP: 35,
     target: "Other",
-    description: "The target is jabbed with a sharply pointed beak or horn.",
+    description: "The target is jabbed with a sharply pointed beak or horn."
   },
   {
     id: "DEFOG",
@@ -3448,8 +3168,7 @@ export const moves: Move[] = [
     accuracy: null,
     totalPP: 15,
     target: "NearOther",
-    description:
-      "A strong wind blows away the foe's obstacles such as Light Screen. It also lowers their evasion.",
+    description: "A strong wind blows away the foe's obstacles such as Light Screen. It also lowers their evasion."
   },
   {
     id: "FEATHERDANCE",
@@ -3460,8 +3179,7 @@ export const moves: Move[] = [
     accuracy: 100,
     totalPP: 15,
     target: "NearOther",
-    description:
-      "The user covers the target's body with a mass of down that harshly lowers its Attack stat.",
+    description: "The user covers the target's body with a mass of down that harshly lowers its Attack stat."
   },
   {
     id: "MIRRORMOVE",
@@ -3472,8 +3190,7 @@ export const moves: Move[] = [
     accuracy: null,
     totalPP: 20,
     target: "NearOther",
-    description:
-      "The user counters the target by mimicking the target's last move.",
+    description: "The user counters the target by mimicking the target's last move."
   },
   {
     id: "ROOST",
@@ -3484,8 +3201,7 @@ export const moves: Move[] = [
     accuracy: null,
     totalPP: 5,
     target: "User",
-    description:
-      "The user lands and rests its body. It restores the user's HP by up to half of its max HP.",
+    description: "The user lands and rests its body. It restores the user's HP by up to half of its max HP."
   },
   {
     id: "TAILWIND",
@@ -3496,8 +3212,7 @@ export const moves: Move[] = [
     accuracy: null,
     totalPP: 15,
     target: "UserSide",
-    description:
-      "The user whips up a turbulent whirlwind that ups the Speed of all party Pokémon for four turns.",
+    description: "The user whips up a turbulent whirlwind that ups the Speed of all party Pokémon for four turns."
   },
   {
     id: "ASTRALBARRAGE",
@@ -3508,8 +3223,7 @@ export const moves: Move[] = [
     accuracy: 100,
     totalPP: 5,
     target: "AllNearFoes",
-    description:
-      "The user attacks by sending a frightful amount of small ghosts at opposing Pokémon.",
+    description: "The user attacks by sending a frightful amount of small ghosts at opposing Pokémon."
   },
   {
     id: "SHADOWFORCE",
@@ -3520,8 +3234,7 @@ export const moves: Move[] = [
     accuracy: 100,
     totalPP: 5,
     target: "NearOther",
-    description:
-      "The user disappears, then strikes the foe on the second turn. It hits even if the foe protects itself.",
+    description: "The user disappears, then strikes the foe on the second turn. It hits even if the foe protects itself."
   },
   {
     id: "POLTERGEIST",
@@ -3532,8 +3245,7 @@ export const moves: Move[] = [
     accuracy: 90,
     totalPP: 5,
     target: "NearOther",
-    description:
-      "Attacks the target by controlling its item. The move fails if the target doesn't have an item.",
+    description: "Attacks the target by controlling its item. The move fails if the target doesn't have an item."
   },
   {
     id: "MOONGEISTBEAM",
@@ -3544,8 +3256,7 @@ export const moves: Move[] = [
     accuracy: 100,
     totalPP: 5,
     target: "NearOther",
-    description:
-      "The user emits a sinister ray. This move can be used on the target regardless of its Abilities.",
+    description: "The user emits a sinister ray. This move can be used on the target regardless of its Abilities."
   },
   {
     id: "PHANTOMFORCE",
@@ -3556,8 +3267,7 @@ export const moves: Move[] = [
     accuracy: 100,
     totalPP: 10,
     target: "NearOther",
-    description:
-      "The user vanishes somewhere, then strikes on the next turn. Hits through protections.",
+    description: "The user vanishes somewhere, then strikes on the next turn. Hits through protections."
   },
   {
     id: "SPECTRALTHIEF",
@@ -3568,8 +3278,7 @@ export const moves: Move[] = [
     accuracy: 100,
     totalPP: 10,
     target: "NearOther",
-    description:
-      "The user hides in the target's shadow, steals the target's stat boosts, and then attacks.",
+    description: "The user hides in the target's shadow, steals the target's stat boosts, and then attacks."
   },
   {
     id: "SHADOWBONE",
@@ -3580,8 +3289,7 @@ export const moves: Move[] = [
     accuracy: 100,
     totalPP: 10,
     target: "NearOther",
-    description:
-      "The user beats the target with a bone containing a spirit. May lower the target's Defense stat.",
+    description: "The user beats the target with a bone containing a spirit. May lower the target's Defense stat."
   },
   {
     id: "SHADOWBALL",
@@ -3592,8 +3300,7 @@ export const moves: Move[] = [
     accuracy: 100,
     totalPP: 15,
     target: "NearOther",
-    description:
-      "The user hurls a shadowy blob at the target. It may also lower the target's Sp. Def stat.",
+    description: "The user hurls a shadowy blob at the target. It may also lower the target's Sp. Def stat."
   },
   {
     id: "SPIRITSHACKLE",
@@ -3604,8 +3311,7 @@ export const moves: Move[] = [
     accuracy: 100,
     totalPP: 10,
     target: "NearOther",
-    description:
-      "The user attacks while also stitching the target's shadow to the ground to prevent it fleeing.",
+    description: "The user attacks while also stitching the target's shadow to the ground to prevent it fleeing."
   },
   {
     id: "BITTERMALICE",
@@ -3616,8 +3322,7 @@ export const moves: Move[] = [
     accuracy: 100,
     totalPP: 10,
     target: "NearOther",
-    description:
-      "The user attacks the target with spine-chilling resentment. This also lowers the target's Attack stat.",
+    description: "The user attacks the target with spine-chilling resentment. This also lowers the target's Attack stat."
   },
   {
     id: "SHADOWCLAW",
@@ -3628,8 +3333,7 @@ export const moves: Move[] = [
     accuracy: 100,
     totalPP: 15,
     target: "NearOther",
-    description:
-      "The user slashes with a sharp claw made from shadows. Critical hits land more easily.",
+    description: "The user slashes with a sharp claw made from shadows. Critical hits land more easily."
   },
   {
     id: "HEX",
@@ -3640,8 +3344,7 @@ export const moves: Move[] = [
     accuracy: 100,
     totalPP: 10,
     target: "NearOther",
-    description:
-      "This relentless attack does massive damage to a target affected by status problems.",
+    description: "This relentless attack does massive damage to a target affected by status problems."
   },
   {
     id: "INFERNALPARADE",
@@ -3652,8 +3355,7 @@ export const moves: Move[] = [
     accuracy: 100,
     totalPP: 15,
     target: "NearOther",
-    description:
-      "The user attacks with fireballs that may cause a burn. Power doubles if the target has a status problem.",
+    description: "The user attacks with fireballs that may cause a burn. Power doubles if the target has a status problem."
   },
   {
     id: "OMINOUSWIND",
@@ -3664,8 +3366,7 @@ export const moves: Move[] = [
     accuracy: 100,
     totalPP: 5,
     target: "NearOther",
-    description:
-      "The user blasts the target with a gust of repulsive wind. It may also raise all the user's stats at once.",
+    description: "The user blasts the target with a gust of repulsive wind. It may also raise all the user's stats at once."
   },
   {
     id: "SHADOWPUNCH",
@@ -3676,8 +3377,7 @@ export const moves: Move[] = [
     accuracy: null,
     totalPP: 20,
     target: "NearOther",
-    description:
-      "The user throws a punch from the shadows. The punch lands without fail.",
+    description: "The user throws a punch from the shadows. The punch lands without fail."
   },
   {
     id: "LASTRESPECTS",
@@ -3688,8 +3388,7 @@ export const moves: Move[] = [
     accuracy: 100,
     totalPP: 10,
     target: "NearOther",
-    description:
-      "The user attacks to avenge its allies. The move is stronger if the user has more defeated allies.",
+    description: "The user attacks to avenge its allies. The move is stronger if the user has more defeated allies."
   },
   {
     id: "RAGEFIST",
@@ -3700,8 +3399,7 @@ export const moves: Move[] = [
     accuracy: 100,
     totalPP: 10,
     target: "NearOther",
-    description:
-      "The user attacks with rage energy. The move is stronger the more times the user has been hit by attacks.",
+    description: "The user attacks with rage energy. The move is stronger the more times the user has been hit by attacks."
   },
   {
     id: "SHADOWSNEAK",
@@ -3712,8 +3410,7 @@ export const moves: Move[] = [
     accuracy: 100,
     totalPP: 30,
     target: "NearOther",
-    description:
-      "The user extends its shadow and attacks the target from behind. This move always goes first.",
+    description: "The user extends its shadow and attacks the target from behind. This move always goes first."
   },
   {
     id: "ASTONISH",
@@ -3724,8 +3421,7 @@ export const moves: Move[] = [
     accuracy: 100,
     totalPP: 15,
     target: "NearOther",
-    description:
-      "The user attacks the target while shouting in a startling fashion. It may also make the target flinch.",
+    description: "The user attacks the target while shouting in a startling fashion. It may also make the target flinch."
   },
   {
     id: "LICK",
@@ -3736,8 +3432,7 @@ export const moves: Move[] = [
     accuracy: 100,
     totalPP: 30,
     target: "NearOther",
-    description:
-      "The target is licked with a long tongue, causing damage. It may also leave the target with paralysis.",
+    description: "The target is licked with a long tongue, causing damage. It may also leave the target with paralysis."
   },
   {
     id: "NIGHTSHADE",
@@ -3748,8 +3443,7 @@ export const moves: Move[] = [
     accuracy: 100,
     totalPP: 15,
     target: "NearOther",
-    description:
-      "The user makes the foe see a frightening mirage. It inflicts damage matching the user's level.",
+    description: "The user makes the foe see a frightening mirage. It inflicts damage matching the user's level."
   },
   {
     id: "CONFUSERAY",
@@ -3760,8 +3454,7 @@ export const moves: Move[] = [
     accuracy: 100,
     totalPP: 10,
     target: "NearOther",
-    description:
-      "The target is exposed to a sinister ray that triggers confusion.",
+    description: "The target is exposed to a sinister ray that triggers confusion."
   },
   {
     id: "CURSE",
@@ -3772,8 +3465,7 @@ export const moves: Move[] = [
     accuracy: null,
     totalPP: 10,
     target: "User",
-    description:
-      "A move that works differently for the Ghost type than for all the other types.",
+    description: "A move that works differently for the Ghost type than for all the other types."
   },
   {
     id: "DESTINYBOND",
@@ -3784,8 +3476,7 @@ export const moves: Move[] = [
     accuracy: null,
     totalPP: 5,
     target: "User",
-    description:
-      "When this move is used, if the user faints, the foe that landed the knockout hit also faints.",
+    description: "When this move is used, if the user faints, the foe that landed the knockout hit also faints."
   },
   {
     id: "GRUDGE",
@@ -3796,8 +3487,7 @@ export const moves: Move[] = [
     accuracy: null,
     totalPP: 5,
     target: "User",
-    description:
-      "If the user faints, the user's grudge fully depletes the PP of the foe's move that knocked it out.",
+    description: "If the user faints, the user's grudge fully depletes the PP of the foe's move that knocked it out."
   },
   {
     id: "NIGHTMARE",
@@ -3808,8 +3498,7 @@ export const moves: Move[] = [
     accuracy: 100,
     totalPP: 15,
     target: "NearOther",
-    description:
-      "A sleeping target sees a nightmare that inflicts some damage every turn.",
+    description: "A sleeping target sees a nightmare that inflicts some damage every turn."
   },
   {
     id: "SPITE",
@@ -3820,8 +3509,7 @@ export const moves: Move[] = [
     accuracy: 100,
     totalPP: 10,
     target: "NearOther",
-    description:
-      "The user unleashes its grudge on the move last used by the target by cutting 4 PP from it.",
+    description: "The user unleashes its grudge on the move last used by the target by cutting 4 PP from it."
   },
   {
     id: "TRICKORTREAT",
@@ -3832,8 +3520,7 @@ export const moves: Move[] = [
     accuracy: 100,
     totalPP: 20,
     target: "NearOther",
-    description:
-      "The user takes the target trick-or-treating. This adds Ghost type to the target's type.",
+    description: "The user takes the target trick-or-treating. This adds Ghost type to the target's type."
   },
   {
     id: "CHLOROBLAST",
@@ -3844,8 +3531,7 @@ export const moves: Move[] = [
     accuracy: 95,
     totalPP: 5,
     target: "NearOther",
-    description:
-      "The user launches its amassed chlorophyll to inflict damage on the target. This also damages the user.",
+    description: "The user launches its amassed chlorophyll to inflict damage on the target. This also damages the user."
   },
   {
     id: "FRENZYPLANT",
@@ -3856,8 +3542,7 @@ export const moves: Move[] = [
     accuracy: 90,
     totalPP: 5,
     target: "NearOther",
-    description:
-      "The user slams the target with an enormous tree. The user can't move on the next turn.",
+    description: "The user slams the target with an enormous tree. The user can't move on the next turn."
   },
   {
     id: "LEAFSTORM",
@@ -3868,8 +3553,7 @@ export const moves: Move[] = [
     accuracy: 90,
     totalPP: 5,
     target: "NearOther",
-    description:
-      "A storm of sharp is whipped up. The attack's recoil harshly reduces the user's Sp. Atk stat.",
+    description: "A storm of sharp is whipped up. The attack's recoil harshly reduces the user's Sp. Atk stat."
   },
   {
     id: "SOLARBLADE",
@@ -3880,8 +3564,7 @@ export const moves: Move[] = [
     accuracy: 100,
     totalPP: 10,
     target: "NearOther",
-    description:
-      "The user gathers light energy into a blade, attacking the target on the next turn.",
+    description: "The user gathers light energy into a blade, attacking the target on the next turn."
   },
   {
     id: "PETALDANCE",
@@ -3892,8 +3575,7 @@ export const moves: Move[] = [
     accuracy: 100,
     totalPP: 10,
     target: "RandomNearFoe",
-    description:
-      "The user attacks by scattering petals for two to three turns. The user then becomes confused.",
+    description: "The user attacks by scattering petals for two to three turns. The user then becomes confused."
   },
   {
     id: "POWERWHIP",
@@ -3904,8 +3586,7 @@ export const moves: Move[] = [
     accuracy: 85,
     totalPP: 10,
     target: "NearOther",
-    description:
-      "The user violently whirls its vines or tentacles to harshly lash the target.",
+    description: "The user violently whirls its vines or tentacles to harshly lash the target."
   },
   {
     id: "SEEDFLARE",
@@ -3916,8 +3597,7 @@ export const moves: Move[] = [
     accuracy: 85,
     totalPP: 5,
     target: "NearOther",
-    description:
-      "The user generates a shock wave from within its body. It may harshly lower the target's Sp. Def.",
+    description: "The user generates a shock wave from within its body. It may harshly lower the target's Sp. Def."
   },
   {
     id: "SOLARBEAM",
@@ -3928,8 +3608,7 @@ export const moves: Move[] = [
     accuracy: 100,
     totalPP: 10,
     target: "NearOther",
-    description:
-      "A two-turn attack. The user gathers light, then blasts a bundled beam on the second turn.",
+    description: "A two-turn attack. The user gathers light, then blasts a bundled beam on the second turn."
   },
   {
     id: "WOODHAMMER",
@@ -3940,8 +3619,7 @@ export const moves: Move[] = [
     accuracy: 100,
     totalPP: 15,
     target: "NearOther",
-    description:
-      "The user slams its rugged body into the target to attack. The user also sustains serious damage.",
+    description: "The user slams its rugged body into the target to attack. The user also sustains serious damage."
   },
   {
     id: "IVYCUDGEL",
@@ -3952,8 +3630,7 @@ export const moves: Move[] = [
     accuracy: 100,
     totalPP: 10,
     target: "NearOther",
-    description:
-      "The user hits with an ivy-wrapped cudgel. The user's mask sets the move's type. High critical hit chance.",
+    description: "The user hits with an ivy-wrapped cudgel. The user's mask sets the move's type. High critical hit chance."
   },
   {
     id: "ENERGYBALL",
@@ -3964,8 +3641,7 @@ export const moves: Move[] = [
     accuracy: 100,
     totalPP: 10,
     target: "NearOther",
-    description:
-      "The user draws power from nature and fires it at the target. It may also lower the target's Sp. Def.",
+    description: "The user draws power from nature and fires it at the target. It may also lower the target's Sp. Def."
   },
   {
     id: "LEAFBLADE",
@@ -3976,8 +3652,7 @@ export const moves: Move[] = [
     accuracy: 100,
     totalPP: 15,
     target: "NearOther",
-    description:
-      "The user handles a sharp leaf like a sword and attacks by slashing. It has a high critical-hit ratio.",
+    description: "The user handles a sharp leaf like a sword and attacks by slashing. It has a high critical-hit ratio."
   },
   {
     id: "PETALBLIZZARD",
@@ -3988,8 +3663,7 @@ export const moves: Move[] = [
     accuracy: 100,
     totalPP: 15,
     target: "AllNearOthers",
-    description:
-      "The user stirs up a violent petal blizzard and attacks everything around it.",
+    description: "The user stirs up a violent petal blizzard and attacks everything around it."
   },
   {
     id: "APPLEACID",
@@ -4000,8 +3674,7 @@ export const moves: Move[] = [
     accuracy: 100,
     totalPP: 10,
     target: "NearOther",
-    description:
-      "Attacks with an acidic liquid created from tart apples. This also lowers the target's Sp. Def.",
+    description: "Attacks with an acidic liquid created from tart apples. This also lowers the target's Sp. Def."
   },
   {
     id: "DRUMBEATING",
@@ -4012,8 +3685,7 @@ export const moves: Move[] = [
     accuracy: 100,
     totalPP: 10,
     target: "NearOther",
-    description:
-      "The user plays its drum, controlling roots to attack. This also lowers the target's Speed stat.",
+    description: "The user plays its drum, controlling roots to attack. This also lowers the target's Speed stat."
   },
   {
     id: "GRASSPLEDGE",
@@ -4024,8 +3696,7 @@ export const moves: Move[] = [
     accuracy: 100,
     totalPP: 10,
     target: "NearOther",
-    description:
-      "A column of grass hits the foes. When used with its water equivalent, it creates a vast swamp.",
+    description: "A column of grass hits the foes. When used with its water equivalent, it creates a vast swamp."
   },
   {
     id: "GRAVAPPLE",
@@ -4036,8 +3707,7 @@ export const moves: Move[] = [
     accuracy: 100,
     totalPP: 10,
     target: "NearOther",
-    description:
-      "The user inflicts damage by dropping an apple from high above. This also lowers the target's Defense.",
+    description: "The user inflicts damage by dropping an apple from high above. This also lowers the target's Defense."
   },
   {
     id: "MATCHAGOTCHA",
@@ -4048,8 +3718,7 @@ export const moves: Move[] = [
     accuracy: 90,
     totalPP: 15,
     target: "AllNearFoes",
-    description:
-      "The user fires a blast of tea. The user heals by half the damage dealt. This may also burn the target.",
+    description: "The user fires a blast of tea. The user heals by half the damage dealt. This may also burn the target."
   },
   {
     id: "SEEDBOMB",
@@ -4060,8 +3729,7 @@ export const moves: Move[] = [
     accuracy: 100,
     totalPP: 15,
     target: "NearOther",
-    description:
-      "The user slams a barrage of hard-shelled seeds down on the target from above.",
+    description: "The user slams a barrage of hard-shelled seeds down on the target from above."
   },
   {
     id: "GIGADRAIN",
@@ -4072,8 +3740,7 @@ export const moves: Move[] = [
     accuracy: 100,
     totalPP: 10,
     target: "NearOther",
-    description:
-      "A nutrient-draining attack. The user's HP is restored by half the damage taken by the target.",
+    description: "A nutrient-draining attack. The user's HP is restored by half the damage taken by the target."
   },
   {
     id: "HORNLEECH",
@@ -4084,8 +3751,7 @@ export const moves: Move[] = [
     accuracy: 100,
     totalPP: 10,
     target: "NearOther",
-    description:
-      "The user drains the foe's energy with its horns. The user's HP is restored by half the damage inflicted.",
+    description: "The user drains the foe's energy with its horns. The user's HP is restored by half the damage inflicted."
   },
   {
     id: "FLOWERTRICK",
@@ -4096,8 +3762,7 @@ export const moves: Move[] = [
     accuracy: null,
     totalPP: 10,
     target: "NearOther",
-    description:
-      "The user throws a rigged bouquet of flowers. This attack never misses and is always a critical hit.",
+    description: "The user throws a rigged bouquet of flowers. This attack never misses and is always a critical hit."
   },
   {
     id: "GRASSYGLIDE",
@@ -4108,8 +3773,7 @@ export const moves: Move[] = [
     accuracy: 100,
     totalPP: 20,
     target: "NearOther",
-    description:
-      "Gliding on the ground, the user attacks the target. This move always goes first on Grassy Terrain.",
+    description: "Gliding on the ground, the user attacks the target. This move always goes first on Grassy Terrain."
   },
   {
     id: "TROPKICK",
@@ -4120,8 +3784,7 @@ export const moves: Move[] = [
     accuracy: 100,
     totalPP: 15,
     target: "NearOther",
-    description:
-      "The user lands an intense tropical kick on the target. This also lowers the target's Attack stat.",
+    description: "The user lands an intense tropical kick on the target. This also lowers the target's Attack stat."
   },
   {
     id: "LEAFTORNADO",
@@ -4132,8 +3795,7 @@ export const moves: Move[] = [
     accuracy: 90,
     totalPP: 10,
     target: "NearOther",
-    description:
-      "The user attacks its foe by encircling it in sharp leaves. This attack may also lower the foe's accuracy.",
+    description: "The user attacks its foe by encircling it in sharp leaves. This attack may also lower the foe's accuracy."
   },
   {
     id: "MAGICALLEAF",
@@ -4144,8 +3806,7 @@ export const moves: Move[] = [
     accuracy: null,
     totalPP: 20,
     target: "NearOther",
-    description:
-      "The user scatters curious leaves that chase the target. This attack will not miss.",
+    description: "The user scatters curious leaves that chase the target. This attack will not miss."
   },
   {
     id: "NEEDLEARM",
@@ -4156,8 +3817,7 @@ export const moves: Move[] = [
     accuracy: 100,
     totalPP: 15,
     target: "NearOther",
-    description:
-      "The user attacks by wildly swinging its thorny arms. It may also make the target flinch.",
+    description: "The user attacks by wildly swinging its thorny arms. It may also make the target flinch."
   },
   {
     id: "SYRUPBOMB",
@@ -4168,8 +3828,7 @@ export const moves: Move[] = [
     accuracy: 85,
     totalPP: 10,
     target: "NearOther",
-    description:
-      "The user sets off an explosion of sticky syrup. This lowers the target's Speed stat over three turns.",
+    description: "The user sets off an explosion of sticky syrup. This lowers the target's Speed stat over three turns."
   },
   {
     id: "RAZORLEAF",
@@ -4180,8 +3839,7 @@ export const moves: Move[] = [
     accuracy: 95,
     totalPP: 25,
     target: "AllNearFoes",
-    description:
-      "Sharp-edged leaves are launched to slash at the opposing team. Critical hits land more easily.",
+    description: "Sharp-edged leaves are launched to slash at the opposing team. Critical hits land more easily."
   },
   {
     id: "TRAILBLAZE",
@@ -4192,8 +3850,7 @@ export const moves: Move[] = [
     accuracy: 100,
     totalPP: 20,
     target: "NearOther",
-    description:
-      "The user attacks suddenly as if leaping out from tall grass. This also boosts the user's Speed stat.",
+    description: "The user attacks suddenly as if leaping out from tall grass. This also boosts the user's Speed stat."
   },
   {
     id: "VINEWHIP",
@@ -4204,8 +3861,7 @@ export const moves: Move[] = [
     accuracy: 100,
     totalPP: 25,
     target: "NearOther",
-    description:
-      "The target is struck with slender, whiplike vines to inflict damage.",
+    description: "The target is struck with slender, whiplike vines to inflict damage."
   },
   {
     id: "BRANCHPOKE",
@@ -4216,8 +3872,7 @@ export const moves: Move[] = [
     accuracy: 100,
     totalPP: 40,
     target: "NearOther",
-    description:
-      "The user attacks the target by poking it with a sharply pointed branch.",
+    description: "The user attacks the target by poking it with a sharply pointed branch."
   },
   {
     id: "LEAFAGE",
@@ -4228,7 +3883,7 @@ export const moves: Move[] = [
     accuracy: 100,
     totalPP: 40,
     target: "NearOther",
-    description: "The user attacks by pelting the target with leaves.",
+    description: "The user attacks by pelting the target with leaves."
   },
   {
     id: "MEGADRAIN",
@@ -4239,8 +3894,7 @@ export const moves: Move[] = [
     accuracy: 100,
     totalPP: 15,
     target: "NearOther",
-    description:
-      "A nutrient-draining attack. The user's HP is restored by half the damage taken by the target.",
+    description: "A nutrient-draining attack. The user's HP is restored by half the damage taken by the target."
   },
   {
     id: "SNAPTRAP",
@@ -4251,8 +3905,7 @@ export const moves: Move[] = [
     accuracy: 100,
     totalPP: 15,
     target: "NearOther",
-    description:
-      "The user snares the target in a snap trap for four to five turns.",
+    description: "The user snares the target in a snap trap for four to five turns."
   },
   {
     id: "BULLETSEED",
@@ -4263,8 +3916,7 @@ export const moves: Move[] = [
     accuracy: 100,
     totalPP: 30,
     target: "NearOther",
-    description:
-      "The user forcefully shoots seeds at the target. Two to five seeds are shot in rapid succession.",
+    description: "The user forcefully shoots seeds at the target. Two to five seeds are shot in rapid succession."
   },
   {
     id: "ABSORB",
@@ -4275,8 +3927,7 @@ export const moves: Move[] = [
     accuracy: 100,
     totalPP: 25,
     target: "NearOther",
-    description:
-      "A nutrient-draining attack. The user's HP is restored by half the damage taken by the target.",
+    description: "A nutrient-draining attack. The user's HP is restored by half the damage taken by the target."
   },
   {
     id: "GRASSKNOT",
@@ -4287,8 +3938,7 @@ export const moves: Move[] = [
     accuracy: 100,
     totalPP: 20,
     target: "NearOther",
-    description:
-      "The user snares the target with grass and trips it. The heavier the target, the greater the damage.",
+    description: "The user snares the target with grass and trips it. The heavier the target, the greater the damage."
   },
   {
     id: "AROMATHERAPY",
@@ -4299,8 +3949,7 @@ export const moves: Move[] = [
     accuracy: null,
     totalPP: 5,
     target: "UserAndAllies",
-    description:
-      "The user releases a soothing scent that heals all status problems affecting the user's party.",
+    description: "The user releases a soothing scent that heals all status problems affecting the user's party."
   },
   {
     id: "COTTONGUARD",
@@ -4311,8 +3960,7 @@ export const moves: Move[] = [
     accuracy: null,
     totalPP: 10,
     target: "User",
-    description:
-      "The user protects itself by wrapping its body in soft cotton, drastically raising its Defense stat.",
+    description: "The user protects itself by wrapping its body in soft cotton, drastically raising its Defense stat."
   },
   {
     id: "COTTONSPORE",
@@ -4323,8 +3971,7 @@ export const moves: Move[] = [
     accuracy: 100,
     totalPP: 40,
     target: "AllNearFoes",
-    description:
-      "The user releases cotton-like spores that cling to the foe, harshly reducing its Speed stat.",
+    description: "The user releases cotton-like spores that cling to the foe, harshly reducing its Speed stat."
   },
   {
     id: "FORESTSCURSE",
@@ -4335,8 +3982,7 @@ export const moves: Move[] = [
     accuracy: 100,
     totalPP: 20,
     target: "NearOther",
-    description:
-      "The user puts a forest curse on the target. The target is now Grass type as well.",
+    description: "The user puts a forest curse on the target. The target is now Grass type as well."
   },
   {
     id: "GRASSWHISTLE",
@@ -4347,8 +3993,7 @@ export const moves: Move[] = [
     accuracy: 55,
     totalPP: 15,
     target: "NearOther",
-    description:
-      "The user plays a pleasant melody that lulls the target into a deep sleep.",
+    description: "The user plays a pleasant melody that lulls the target into a deep sleep."
   },
   {
     id: "GRASSYTERRAIN",
@@ -4359,8 +4004,7 @@ export const moves: Move[] = [
     accuracy: null,
     totalPP: 10,
     target: "BothSides",
-    description:
-      "The user turns the ground to grass for five turns. Grounded Pokémon restore a little HP every turn.",
+    description: "The user turns the ground to grass for five turns. Grounded Pokémon restore a little HP every turn."
   },
   {
     id: "INGRAIN",
@@ -4371,8 +4015,7 @@ export const moves: Move[] = [
     accuracy: null,
     totalPP: 20,
     target: "User",
-    description:
-      "The user lays roots that restore its HP on every turn. Because it is rooted, it can't switch out.",
+    description: "The user lays roots that restore its HP on every turn. Because it is rooted, it can't switch out."
   },
   {
     id: "JUNGLEHEALING",
@@ -4383,8 +4026,7 @@ export const moves: Move[] = [
     accuracy: null,
     totalPP: 10,
     target: "UserAndAllies",
-    description:
-      "The user becomes one with the jungle, and restores HP and cures status conditions of itself and allies.",
+    description: "The user becomes one with the jungle, and restores HP and cures status conditions of itself and allies."
   },
   {
     id: "LEECHSEED",
@@ -4395,8 +4037,7 @@ export const moves: Move[] = [
     accuracy: 90,
     totalPP: 10,
     target: "NearOther",
-    description:
-      "A seed is planted on the target. It steals some HP from the target every turn.",
+    description: "A seed is planted on the target. It steals some HP from the target every turn."
   },
   {
     id: "SLEEPPOWDER",
@@ -4407,8 +4048,7 @@ export const moves: Move[] = [
     accuracy: 75,
     totalPP: 15,
     target: "NearOther",
-    description:
-      "The user scatters a big cloud of sleep-inducing dust around the target.",
+    description: "The user scatters a big cloud of sleep-inducing dust around the target."
   },
   {
     id: "SPICYEXTRACT",
@@ -4419,8 +4059,7 @@ export const moves: Move[] = [
     accuracy: null,
     totalPP: 15,
     target: "NearOther",
-    description:
-      "The user emits a very spicy extract, sharply raising the target's Attack and harshly lowering its Defense.",
+    description: "The user emits a very spicy extract, sharply raising the target's Attack and harshly lowering its Defense."
   },
   {
     id: "SPIKYSHIELD",
@@ -4431,8 +4070,7 @@ export const moves: Move[] = [
     accuracy: null,
     totalPP: 10,
     target: "User",
-    description:
-      "Protects the user from attacks. Also damages attackers that make contact with the user.",
+    description: "Protects the user from attacks. Also damages attackers that make contact with the user."
   },
   {
     id: "SPORE",
@@ -4443,7 +4081,7 @@ export const moves: Move[] = [
     accuracy: 100,
     totalPP: 15,
     target: "NearOther",
-    description: "The user scatters bursts of spores that induce sleep.",
+    description: "The user scatters bursts of spores that induce sleep."
   },
   {
     id: "STRENGTHSAP",
@@ -4454,8 +4092,7 @@ export const moves: Move[] = [
     accuracy: 100,
     totalPP: 10,
     target: "NearOther",
-    description:
-      "The user restores its HP by the target's Attack stat amount. Then lowers the target's Attack stat.",
+    description: "The user restores its HP by the target's Attack stat amount. Then lowers the target's Attack stat."
   },
   {
     id: "STUNSPORE",
@@ -4466,8 +4103,7 @@ export const moves: Move[] = [
     accuracy: 75,
     totalPP: 30,
     target: "NearOther",
-    description:
-      "The user scatters a cloud of paralyzing powder. It may leave the target with paralysis.",
+    description: "The user scatters a cloud of paralyzing powder. It may leave the target with paralysis."
   },
   {
     id: "SYNTHESIS",
@@ -4478,8 +4114,7 @@ export const moves: Move[] = [
     accuracy: null,
     totalPP: 5,
     target: "User",
-    description:
-      "The user restores its own HP. The amount of HP regained varies with the weather.",
+    description: "The user restores its own HP. The amount of HP regained varies with the weather."
   },
   {
     id: "WORRYSEED",
@@ -4490,8 +4125,7 @@ export const moves: Move[] = [
     accuracy: 100,
     totalPP: 10,
     target: "NearOther",
-    description:
-      "A seed that causes worry is planted on the foe. It prevents sleep by making its Ability Insomnia.",
+    description: "A seed that causes worry is planted on the foe. It prevents sleep by making its Ability Insomnia."
   },
   {
     id: "HEADLONGRUSH",
@@ -4502,8 +4136,7 @@ export const moves: Move[] = [
     accuracy: 100,
     totalPP: 5,
     target: "NearOther",
-    description:
-      "The user smashes into the target in a full-body tackle. This also lowers the user's Defense and Sp. Def.",
+    description: "The user smashes into the target in a full-body tackle. This also lowers the user's Defense and Sp. Def."
   },
   {
     id: "PRECIPICEBLADES",
@@ -4514,8 +4147,7 @@ export const moves: Move[] = [
     accuracy: 85,
     totalPP: 10,
     target: "AllNearFoes",
-    description:
-      "The user attacks its foes by manifesting the power of the land in fearsome blades of stone.",
+    description: "The user attacks its foes by manifesting the power of the land in fearsome blades of stone."
   },
   {
     id: "EARTHQUAKE",
@@ -4526,8 +4158,7 @@ export const moves: Move[] = [
     accuracy: 100,
     totalPP: 10,
     target: "AllNearOthers",
-    description:
-      "The user sets off an earthquake that strikes every Pokémon around it.",
+    description: "The user sets off an earthquake that strikes every Pokémon around it."
   },
   {
     id: "SANDSEARSTORM",
@@ -4538,8 +4169,7 @@ export const moves: Move[] = [
     accuracy: 80,
     totalPP: 10,
     target: "AllNearFoes",
-    description:
-      "The user wraps opposing Pokémon in searingly hot sand. This may also leave them with a burn.",
+    description: "The user wraps opposing Pokémon in searingly hot sand. This may also leave them with a burn."
   },
   {
     id: "HIGHHORSEPOWER",
@@ -4550,7 +4180,7 @@ export const moves: Move[] = [
     accuracy: 95,
     totalPP: 10,
     target: "NearOther",
-    description: "The user fiercely attacks the target using its entire body.",
+    description: "The user fiercely attacks the target using its entire body."
   },
   {
     id: "EARTHPOWER",
@@ -4561,8 +4191,7 @@ export const moves: Move[] = [
     accuracy: 100,
     totalPP: 10,
     target: "NearOther",
-    description:
-      "The user makes the ground under the foe erupt with power. It may also lower the target's Sp. Def.",
+    description: "The user makes the ground under the foe erupt with power. It may also lower the target's Sp. Def."
   },
   {
     id: "LANDSWRATH",
@@ -4573,8 +4202,7 @@ export const moves: Move[] = [
     accuracy: 100,
     totalPP: 10,
     target: "AllNearFoes",
-    description:
-      "The user gathers the energy of the land and focuses that power on foes to damage them.",
+    description: "The user gathers the energy of the land and focuses that power on foes to damage them."
   },
   {
     id: "THOUSANDARROWS",
@@ -4585,8 +4213,7 @@ export const moves: Move[] = [
     accuracy: 100,
     totalPP: 10,
     target: "AllNearFoes",
-    description:
-      "This move also hits Pokémon that are in the air. Those Pokémon are knocked down to the ground.",
+    description: "This move also hits Pokémon that are in the air. Those Pokémon are knocked down to the ground."
   },
   {
     id: "THOUSANDWAVES",
@@ -4597,8 +4224,7 @@ export const moves: Move[] = [
     accuracy: 100,
     totalPP: 10,
     target: "AllNearFoes",
-    description:
-      "The user attacks with a wave that crawls along the ground. Those it hits can't flee from battle.",
+    description: "The user attacks with a wave that crawls along the ground. Those it hits can't flee from battle."
   },
   {
     id: "DIG",
@@ -4609,8 +4235,7 @@ export const moves: Move[] = [
     accuracy: 100,
     totalPP: 10,
     target: "NearOther",
-    description:
-      "The user burrows, then attacks on the second turn. It can also be used to exit dungeons.",
+    description: "The user burrows, then attacks on the second turn. It can also be used to exit dungeons."
   },
   {
     id: "DRILLRUN",
@@ -4621,8 +4246,7 @@ export const moves: Move[] = [
     accuracy: 95,
     totalPP: 10,
     target: "NearOther",
-    description:
-      "The user crashes into its target while rotating its body like a drill. Critical hits land more easily.",
+    description: "The user crashes into its target while rotating its body like a drill. Critical hits land more easily."
   },
   {
     id: "STOMPINGTANTRUM",
@@ -4633,8 +4257,7 @@ export const moves: Move[] = [
     accuracy: 100,
     totalPP: 10,
     target: "NearOther",
-    description:
-      "The user attacks driven by frustration. Power increases if the user's previous move failed.",
+    description: "The user attacks driven by frustration. Power increases if the user's previous move failed."
   },
   {
     id: "SCORCHINGSANDS",
@@ -4645,8 +4268,7 @@ export const moves: Move[] = [
     accuracy: 100,
     totalPP: 10,
     target: "NearOther",
-    description:
-      "The user throws scorching sand at the target to attack. This may also burn the target.",
+    description: "The user throws scorching sand at the target to attack. This may also burn the target."
   },
   {
     id: "BONECLUB",
@@ -4657,8 +4279,7 @@ export const moves: Move[] = [
     accuracy: 85,
     totalPP: 20,
     target: "NearOther",
-    description:
-      "The user clubs the target with a bone. It may also make the target flinch.",
+    description: "The user clubs the target with a bone. It may also make the target flinch."
   },
   {
     id: "MUDBOMB",
@@ -4669,8 +4290,7 @@ export const moves: Move[] = [
     accuracy: 85,
     totalPP: 10,
     target: "NearOther",
-    description:
-      "The user launches a hard-packed mud ball to attack. It may also lower the target's accuracy.",
+    description: "The user launches a hard-packed mud ball to attack. It may also lower the target's accuracy."
   },
   {
     id: "BULLDOZE",
@@ -4681,8 +4301,7 @@ export const moves: Move[] = [
     accuracy: 100,
     totalPP: 20,
     target: "AllNearOthers",
-    description:
-      "The user strikes everything around it by stomping on the ground. It reduces hit Pokémon's Speed.",
+    description: "The user strikes everything around it by stomping on the ground. It reduces hit Pokémon's Speed."
   },
   {
     id: "MUDSHOT",
@@ -4693,8 +4312,7 @@ export const moves: Move[] = [
     accuracy: 95,
     totalPP: 15,
     target: "NearOther",
-    description:
-      "The user attacks by hurling a blob of mud at the target. It also reduces the target's Speed.",
+    description: "The user attacks by hurling a blob of mud at the target. It also reduces the target's Speed."
   },
   {
     id: "BONEMERANG",
@@ -4705,8 +4323,7 @@ export const moves: Move[] = [
     accuracy: 90,
     totalPP: 10,
     target: "NearOther",
-    description:
-      "The user throws the bone it holds. The bone loops to hit the target twice, coming and going.",
+    description: "The user throws the bone it holds. The bone loops to hit the target twice, coming and going."
   },
   {
     id: "SANDTOMB",
@@ -4717,8 +4334,7 @@ export const moves: Move[] = [
     accuracy: 85,
     totalPP: 15,
     target: "NearOther",
-    description:
-      "The user traps the target inside a harshly raging sandstorm for four to five turns.",
+    description: "The user traps the target inside a harshly raging sandstorm for four to five turns."
   },
   {
     id: "BONERUSH",
@@ -4729,8 +4345,7 @@ export const moves: Move[] = [
     accuracy: 90,
     totalPP: 10,
     target: "NearOther",
-    description:
-      "The user strikes the target with a hard bone two to five times in a row.",
+    description: "The user strikes the target with a hard bone two to five times in a row."
   },
   {
     id: "MUDSLAP",
@@ -4741,8 +4356,7 @@ export const moves: Move[] = [
     accuracy: 100,
     totalPP: 10,
     target: "NearOther",
-    description:
-      "The user hurls mud in the target's face to inflict damage and lower its accuracy.",
+    description: "The user hurls mud in the target's face to inflict damage and lower its accuracy."
   },
   {
     id: "FISSURE",
@@ -4753,8 +4367,7 @@ export const moves: Move[] = [
     accuracy: 30,
     totalPP: 5,
     target: "NearOther",
-    description:
-      "The user opens up a fissure in the ground and drops the foe in. The target instantly faints if it hits.",
+    description: "The user opens up a fissure in the ground and drops the foe in. The target instantly faints if it hits."
   },
   {
     id: "MAGNITUDE",
@@ -4765,8 +4378,7 @@ export const moves: Move[] = [
     accuracy: 100,
     totalPP: 30,
     target: "AllNearOthers",
-    description:
-      "The user looses a ground-shaking quake affecting everyone around the user. Its power varies.",
+    description: "The user looses a ground-shaking quake affecting everyone around the user. Its power varies."
   },
   {
     id: "MUDSPORT",
@@ -4777,8 +4389,7 @@ export const moves: Move[] = [
     accuracy: null,
     totalPP: 15,
     target: "BothSides",
-    description:
-      "The user covers itself with mud. It weakens Electric-type moves while the user is in the battle.",
+    description: "The user covers itself with mud. It weakens Electric-type moves while the user is in the battle."
   },
   {
     id: "ROTOTILLER",
@@ -4789,8 +4400,7 @@ export const moves: Move[] = [
     accuracy: null,
     totalPP: 10,
     target: "AllBattlers",
-    description:
-      "The user tills the soil to encourage plant growth. This raises the Attack and Sp. Atk of Grass types.",
+    description: "The user tills the soil to encourage plant growth. This raises the Attack and Sp. Atk of Grass types."
   },
   {
     id: "SANDATTACK",
@@ -4801,7 +4411,7 @@ export const moves: Move[] = [
     accuracy: 100,
     totalPP: 15,
     target: "NearOther",
-    description: "Sand is hurled in the target's face, reducing its accuracy.",
+    description: "Sand is hurled in the target's face, reducing its accuracy."
   },
   {
     id: "SHOREUP",
@@ -4812,8 +4422,7 @@ export const moves: Move[] = [
     accuracy: null,
     totalPP: 5,
     target: "User",
-    description:
-      "The user regains up to half of its max HP. It restores more HP in a sandstorm.",
+    description: "The user regains up to half of its max HP. It restores more HP in a sandstorm."
   },
   {
     id: "SPIKES",
@@ -4824,8 +4433,7 @@ export const moves: Move[] = [
     accuracy: null,
     totalPP: 20,
     target: "FoeSide",
-    description:
-      "The user lays a trap of spikes at the foe's feet. The trap hurts foes that switch into battle.",
+    description: "The user lays a trap of spikes at the foe's feet. The trap hurts foes that switch into battle."
   },
   {
     id: "FREEZESHOCK",
@@ -4836,8 +4444,7 @@ export const moves: Move[] = [
     accuracy: 90,
     totalPP: 5,
     target: "NearOther",
-    description:
-      "On the second turn, the user hits the foe with electrically charged ice. It may also paralyze the foe.",
+    description: "On the second turn, the user hits the foe with electrically charged ice. It may also paralyze the foe."
   },
   {
     id: "ICEBURN",
@@ -4848,8 +4455,7 @@ export const moves: Move[] = [
     accuracy: 90,
     totalPP: 5,
     target: "NearOther",
-    description:
-      "On the second turn, an ultracold, freezing wind surrounds the foe. This may leave it with a burn.",
+    description: "On the second turn, an ultracold, freezing wind surrounds the foe. This may leave it with a burn."
   },
   {
     id: "GLACIALLANCE",
@@ -4860,8 +4466,7 @@ export const moves: Move[] = [
     accuracy: 100,
     totalPP: 5,
     target: "AllNearFoes",
-    description:
-      "The user attacks by hurling a blizzard-cloaked icicle lance at opposing Pokémon.",
+    description: "The user attacks by hurling a blizzard-cloaked icicle lance at opposing Pokémon."
   },
   {
     id: "BLIZZARD",
@@ -4872,8 +4477,7 @@ export const moves: Move[] = [
     accuracy: 70,
     totalPP: 5,
     target: "AllNearFoes",
-    description:
-      "A howling blizzard is summoned to strike the opposing team. It may also freeze them solid.",
+    description: "A howling blizzard is summoned to strike the opposing team. It may also freeze them solid."
   },
   {
     id: "ICEHAMMER",
@@ -4884,8 +4488,7 @@ export const moves: Move[] = [
     accuracy: 90,
     totalPP: 10,
     target: "NearOther",
-    description:
-      "The user swings and hits with its strong, heavy fist. It lowers the user's Speed, however.",
+    description: "The user swings and hits with its strong, heavy fist. It lowers the user's Speed, however."
   },
   {
     id: "MOUNTAINGALE",
@@ -4896,8 +4499,7 @@ export const moves: Move[] = [
     accuracy: 85,
     totalPP: 10,
     target: "NearOther",
-    description:
-      "The user hurls giant chunks of ice at the target. This may also make the target flinch.",
+    description: "The user hurls giant chunks of ice at the target. This may also make the target flinch."
   },
   {
     id: "ICEBEAM",
@@ -4908,8 +4510,7 @@ export const moves: Move[] = [
     accuracy: 100,
     totalPP: 10,
     target: "NearOther",
-    description:
-      "The target is struck with an icy-cold beam of energy. It may also freeze the target solid.",
+    description: "The target is struck with an icy-cold beam of energy. It may also freeze the target solid."
   },
   {
     id: "ICICLECRASH",
@@ -4920,8 +4521,7 @@ export const moves: Move[] = [
     accuracy: 90,
     totalPP: 10,
     target: "NearOther",
-    description:
-      "The user attacks by harshly dropping an icicle onto the foe. It may also make the target flinch.",
+    description: "The user attacks by harshly dropping an icicle onto the foe. It may also make the target flinch."
   },
   {
     id: "ICESPINNER",
@@ -4932,8 +4532,7 @@ export const moves: Move[] = [
     accuracy: 100,
     totalPP: 15,
     target: "NearOther",
-    description:
-      "The user covers its feet in ice and twirls around, slamming into the target. This also destroys the terrain.",
+    description: "The user covers its feet in ice and twirls around, slamming into the target. This also destroys the terrain."
   },
   {
     id: "ICEPUNCH",
@@ -4944,8 +4543,7 @@ export const moves: Move[] = [
     accuracy: 100,
     totalPP: 15,
     target: "NearOther",
-    description:
-      "The target is punched with an icy fist. It may also leave the target frozen.",
+    description: "The target is punched with an icy fist. It may also leave the target frozen."
   },
   {
     id: "FREEZEDRY",
@@ -4956,8 +4554,7 @@ export const moves: Move[] = [
     accuracy: 100,
     totalPP: 20,
     target: "NearOther",
-    description:
-      "The user rapidly cools the target. This may freeze the target. Is super-effective on Water types.",
+    description: "The user rapidly cools the target. This may freeze the target. Is super-effective on Water types."
   },
   {
     id: "AURORABEAM",
@@ -4968,8 +4565,7 @@ export const moves: Move[] = [
     accuracy: 100,
     totalPP: 20,
     target: "NearOther",
-    description:
-      "The target is hit with a rainbow-colored beam. This may also lower the target's Attack stat.",
+    description: "The target is hit with a rainbow-colored beam. This may also lower the target's Attack stat."
   },
   {
     id: "GLACIATE",
@@ -4980,8 +4576,7 @@ export const moves: Move[] = [
     accuracy: 95,
     totalPP: 10,
     target: "AllNearFoes",
-    description:
-      "The user attacks by blowing freezing cold air at the foe. This attack reduces the targets' Speed stat.",
+    description: "The user attacks by blowing freezing cold air at the foe. This attack reduces the targets' Speed stat."
   },
   {
     id: "ICEFANG",
@@ -4992,8 +4587,7 @@ export const moves: Move[] = [
     accuracy: 95,
     totalPP: 15,
     target: "NearOther",
-    description:
-      "The user bites with cold-infused fangs. It may also make the target flinch or leave it frozen.",
+    description: "The user bites with cold-infused fangs. It may also make the target flinch or leave it frozen."
   },
   {
     id: "AVALANCHE",
@@ -5004,8 +4598,7 @@ export const moves: Move[] = [
     accuracy: 100,
     totalPP: 10,
     target: "NearOther",
-    description:
-      "An attack move that inflicts double the damage if the user has been hurt by the foe in the same turn.",
+    description: "An attack move that inflicts double the damage if the user has been hurt by the foe in the same turn."
   },
   {
     id: "FROSTBREATH",
@@ -5016,8 +4609,7 @@ export const moves: Move[] = [
     accuracy: 90,
     totalPP: 10,
     target: "NearOther",
-    description:
-      "The user blows a cold breath on the target. This attack always results in a critical hit.",
+    description: "The user blows a cold breath on the target. This attack always results in a critical hit."
   },
   {
     id: "ICYWIND",
@@ -5028,8 +4620,7 @@ export const moves: Move[] = [
     accuracy: 95,
     totalPP: 15,
     target: "AllNearFoes",
-    description:
-      "The user attacks with a gust of chilled air. It also lowers the targets' Speed stat.",
+    description: "The user attacks with a gust of chilled air. It also lowers the targets' Speed stat."
   },
   {
     id: "ICESHARD",
@@ -5040,8 +4631,7 @@ export const moves: Move[] = [
     accuracy: 100,
     totalPP: 30,
     target: "NearOther",
-    description:
-      "The user flash freezes chunks of ice and hurls them at the target. This move always goes first.",
+    description: "The user flash freezes chunks of ice and hurls them at the target. This move always goes first."
   },
   {
     id: "POWDERSNOW",
@@ -5052,8 +4642,7 @@ export const moves: Move[] = [
     accuracy: 100,
     totalPP: 25,
     target: "AllNearFoes",
-    description:
-      "The user attacks with a chilling gust of powdery snow. It may also freeze the targets.",
+    description: "The user attacks with a chilling gust of powdery snow. It may also freeze the targets."
   },
   {
     id: "ICEBALL",
@@ -5064,8 +4653,7 @@ export const moves: Move[] = [
     accuracy: 90,
     totalPP: 20,
     target: "NearOther",
-    description:
-      "The user continually rolls into the target over five turns. It becomes stronger each time it hits.",
+    description: "The user continually rolls into the target over five turns. It becomes stronger each time it hits."
   },
   {
     id: "ICICLESPEAR",
@@ -5076,8 +4664,7 @@ export const moves: Move[] = [
     accuracy: 100,
     totalPP: 30,
     target: "NearOther",
-    description:
-      "The user launches sharp icicles at the target. It strikes two to five times in a row.",
+    description: "The user launches sharp icicles at the target. It strikes two to five times in a row."
   },
   {
     id: "TRIPLEAXEL",
@@ -5088,8 +4675,7 @@ export const moves: Move[] = [
     accuracy: 90,
     totalPP: 10,
     target: "NearOther",
-    description:
-      "A consecutive three-kick attack that becomes more powerful with each successful hit.",
+    description: "A consecutive three-kick attack that becomes more powerful with each successful hit."
   },
   {
     id: "SHEERCOLD",
@@ -5100,8 +4686,7 @@ export const moves: Move[] = [
     accuracy: 30,
     totalPP: 5,
     target: "NearOther",
-    description:
-      "The foe is attacked with a blast of absolute-zero cold. The target instantly faints if it hits.",
+    description: "The foe is attacked with a blast of absolute-zero cold. The target instantly faints if it hits."
   },
   {
     id: "AURORAVEIL",
@@ -5112,8 +4697,7 @@ export const moves: Move[] = [
     accuracy: null,
     totalPP: 20,
     target: "UserSide",
-    description:
-      "This move reduces damage from attacks for five turns. This can be used only in a hailstorm.",
+    description: "This move reduces damage from attacks for five turns. This can be used only in a hailstorm."
   },
   {
     id: "CHILLYRECEPTION",
@@ -5124,8 +4708,7 @@ export const moves: Move[] = [
     accuracy: null,
     totalPP: 10,
     target: "BothSides",
-    description:
-      "The user tells a really bad joke before switching out. This summons a snowstorm lasting five turns.",
+    description: "The user tells a really bad joke before switching out. This summons a snowstorm lasting five turns."
   },
   {
     id: "HAIL",
@@ -5136,8 +4719,7 @@ export const moves: Move[] = [
     accuracy: null,
     totalPP: 10,
     target: "BothSides",
-    description:
-      "The user summons a hail storm lasting five turns. It damages all Pokémon except the Ice type.",
+    description: "The user summons a hail storm lasting five turns. It damages all Pokémon except the Ice type."
   },
   {
     id: "HAZE",
@@ -5148,8 +4730,7 @@ export const moves: Move[] = [
     accuracy: null,
     totalPP: 30,
     target: "BothSides",
-    description:
-      "The user creates a haze that eliminates every stat change among all the Pokémon engaged in battle.",
+    description: "The user creates a haze that eliminates every stat change among all the Pokémon engaged in battle."
   },
   {
     id: "MIST",
@@ -5160,8 +4741,7 @@ export const moves: Move[] = [
     accuracy: null,
     totalPP: 30,
     target: "UserSide",
-    description:
-      "The user cloaks its body with a white mist that prevents any of its stats from being cut for five turns.",
+    description: "The user cloaks its body with a white mist that prevents any of its stats from being cut for five turns."
   },
   {
     id: "SNOWSCAPE",
@@ -5172,8 +4752,7 @@ export const moves: Move[] = [
     accuracy: null,
     totalPP: 10,
     target: "BothSides",
-    description:
-      "The user summons a snowstorm lasting five turns. This boosts the Defense stats of Ice types.",
+    description: "The user summons a snowstorm lasting five turns. This boosts the Defense stats of Ice types."
   },
   {
     id: "EXPLOSION",
@@ -5184,8 +4763,7 @@ export const moves: Move[] = [
     accuracy: 100,
     totalPP: 5,
     target: "AllNearOthers",
-    description:
-      "The user explodes to inflict damage on those around it. The user faints upon using this move.",
+    description: "The user explodes to inflict damage on those around it. The user faints upon using this move."
   },
   {
     id: "SELFDESTRUCT",
@@ -5196,8 +4774,7 @@ export const moves: Move[] = [
     accuracy: 100,
     totalPP: 5,
     target: "AllNearOthers",
-    description:
-      "The user blows up to inflict damage on all Pokémon in battle. The user faints upon using this move.",
+    description: "The user blows up to inflict damage on all Pokémon in battle. The user faints upon using this move."
   },
   {
     id: "GIGAIMPACT",
@@ -5208,8 +4785,7 @@ export const moves: Move[] = [
     accuracy: 90,
     totalPP: 5,
     target: "NearOther",
-    description:
-      "The user charges at the target using every bit of its power. The user must rest on the next turn.",
+    description: "The user charges at the target using every bit of its power. The user must rest on the next turn."
   },
   {
     id: "HYPERBEAM",
@@ -5220,8 +4796,7 @@ export const moves: Move[] = [
     accuracy: 90,
     totalPP: 5,
     target: "NearOther",
-    description:
-      "The foe is attacked with a powerful beam. The user must rest on the next turn to regain its energy.",
+    description: "The foe is attacked with a powerful beam. The user must rest on the next turn to regain its energy."
   },
   {
     id: "BLOODMOON",
@@ -5232,8 +4807,7 @@ export const moves: Move[] = [
     accuracy: 100,
     totalPP: 5,
     target: "NearOther",
-    description:
-      "The user unleashes the full brunt of its spirit from a full red moon. This move can't be used twice in a row.",
+    description: "The user unleashes the full brunt of its spirit from a full red moon. This move can't be used twice in a row."
   },
   {
     id: "BOOMBURST",
@@ -5244,8 +4818,7 @@ export const moves: Move[] = [
     accuracy: 100,
     totalPP: 10,
     target: "AllNearOthers",
-    description:
-      "The user attacks everything around it with the destructive power of a terrible, explosive sound.",
+    description: "The user attacks everything around it with the destructive power of a terrible, explosive sound."
   },
   {
     id: "LASTRESORT",
@@ -5256,8 +4829,7 @@ export const moves: Move[] = [
     accuracy: 100,
     totalPP: 5,
     target: "NearOther",
-    description:
-      "This move can be used only after the user has used all the other moves it knows in the battle.",
+    description: "This move can be used only after the user has used all the other moves it knows in the battle."
   },
   {
     id: "SKULLBASH",
@@ -5268,8 +4840,7 @@ export const moves: Move[] = [
     accuracy: 100,
     totalPP: 10,
     target: "NearOther",
-    description:
-      "The user tucks in its head to raise its Defense in the first turn, then rams the foe on the next turn.",
+    description: "The user tucks in its head to raise its Defense in the first turn, then rams the foe on the next turn."
   },
   {
     id: "DOUBLEEDGE",
@@ -5280,8 +4851,7 @@ export const moves: Move[] = [
     accuracy: 100,
     totalPP: 15,
     target: "NearOther",
-    description:
-      "A reckless, life-risking tackle. It also damages the user by a fairly large amount, however.",
+    description: "A reckless, life-risking tackle. It also damages the user by a fairly large amount, however."
   },
   {
     id: "HEADCHARGE",
@@ -5292,8 +4862,7 @@ export const moves: Move[] = [
     accuracy: 100,
     totalPP: 15,
     target: "NearOther",
-    description:
-      "The user charges its head into the foe, using its powerful guard hair. The user also takes damage.",
+    description: "The user charges its head into the foe, using its powerful guard hair. The user also takes damage."
   },
   {
     id: "MEGAKICK",
@@ -5304,8 +4873,7 @@ export const moves: Move[] = [
     accuracy: 75,
     totalPP: 5,
     target: "NearOther",
-    description:
-      "The target is attacked by a kick launched with muscle-packed power.",
+    description: "The target is attacked by a kick launched with muscle-packed power."
   },
   {
     id: "MULTIATTACK",
@@ -5316,8 +4884,7 @@ export const moves: Move[] = [
     accuracy: 100,
     totalPP: 10,
     target: "NearOther",
-    description:
-      "Cloaking itself in high energy, the user slams into the target. This move's type depends on the held memory.",
+    description: "Cloaking itself in high energy, the user slams into the target. This move's type depends on the held memory."
   },
   {
     id: "TECHNOBLAST",
@@ -5328,8 +4895,7 @@ export const moves: Move[] = [
     accuracy: 100,
     totalPP: 5,
     target: "NearOther",
-    description:
-      "The user fires a beam of light at its target. The type changes depending on the Drive the user holds.",
+    description: "The user fires a beam of light at its target. The type changes depending on the Drive the user holds."
   },
   {
     id: "TERASTARSTORM",
@@ -5340,8 +4906,7 @@ export const moves: Move[] = [
     accuracy: 100,
     totalPP: 5,
     target: "NearOther",
-    description:
-      "With the power of its crystals, the user bombards and eliminates the target.",
+    description: "With the power of its crystals, the user bombards and eliminates the target."
   },
   {
     id: "THRASH",
@@ -5352,8 +4917,7 @@ export const moves: Move[] = [
     accuracy: 100,
     totalPP: 10,
     target: "RandomNearFoe",
-    description:
-      "The user rampages and attacks for two to three turns. It then becomes confused, however.",
+    description: "The user rampages and attacks for two to three turns. It then becomes confused, however."
   },
   {
     id: "EGGBOMB",
@@ -5364,8 +4928,7 @@ export const moves: Move[] = [
     accuracy: 75,
     totalPP: 10,
     target: "NearOther",
-    description:
-      "A large egg is hurled at the target with maximum force to inflict damage.",
+    description: "A large egg is hurled at the target with maximum force to inflict damage."
   },
   {
     id: "HYPERDRILL",
@@ -5376,8 +4939,7 @@ export const moves: Move[] = [
     accuracy: 100,
     totalPP: 5,
     target: "NearOther",
-    description:
-      "The user spins its drill at high speed to pierce the target. This can hit through protective moves.",
+    description: "The user spins its drill at high speed to pierce the target. This can hit through protective moves."
   },
   {
     id: "JUDGMENT",
@@ -5388,8 +4950,7 @@ export const moves: Move[] = [
     accuracy: 100,
     totalPP: 10,
     target: "NearOther",
-    description:
-      "The user releases countless shots of light. Its type varies with the kind of Plate the user is holding.",
+    description: "The user releases countless shots of light. Its type varies with the kind of Plate the user is holding."
   },
   {
     id: "HYPERVOICE",
@@ -5400,8 +4961,7 @@ export const moves: Move[] = [
     accuracy: 100,
     totalPP: 10,
     target: "AllNearFoes",
-    description:
-      "The user lets loose a horribly echoing shout with the power to inflict damage.",
+    description: "The user lets loose a horribly echoing shout with the power to inflict damage."
   },
   {
     id: "RAGINGBULL",
@@ -5412,8 +4972,7 @@ export const moves: Move[] = [
     accuracy: 100,
     totalPP: 10,
     target: "NearOther",
-    description:
-      "The user performs a raging tackle. This move's type depends on the user's form. It can break barriers.",
+    description: "The user performs a raging tackle. This move's type depends on the user's form. It can break barriers."
   },
   {
     id: "REVELATIONDANCE",
@@ -5424,8 +4983,7 @@ export const moves: Move[] = [
     accuracy: 100,
     totalPP: 15,
     target: "NearOther",
-    description:
-      "The user attacks the target by dancing very hard. The user's type determines the type of this move.",
+    description: "The user attacks the target by dancing very hard. The user's type determines the type of this move."
   },
   {
     id: "ROCKCLIMB",
@@ -5436,8 +4994,7 @@ export const moves: Move[] = [
     accuracy: 85,
     totalPP: 20,
     target: "NearOther",
-    description:
-      "The user attacks the target by smashing into it with incredible force. It may also confuse the target.",
+    description: "The user attacks the target by smashing into it with incredible force. It may also confuse the target."
   },
   {
     id: "TAKEDOWN",
@@ -5448,8 +5005,7 @@ export const moves: Move[] = [
     accuracy: 85,
     totalPP: 20,
     target: "NearOther",
-    description:
-      "A reckless, full-body charge attack for slamming into the foe. It also damages the user a little.",
+    description: "A reckless, full-body charge attack for slamming into the foe. It also damages the user a little."
   },
   {
     id: "UPROAR",
@@ -5460,8 +5016,7 @@ export const moves: Move[] = [
     accuracy: 100,
     totalPP: 10,
     target: "RandomNearFoe",
-    description:
-      "The user attacks in an uproar for three turns. Over that time, no one can fall asleep.",
+    description: "The user attacks in an uproar for three turns. Over that time, no one can fall asleep."
   },
   {
     id: "BODYSLAM",
@@ -5472,8 +5027,7 @@ export const moves: Move[] = [
     accuracy: 100,
     totalPP: 15,
     target: "NearOther",
-    description:
-      "The user drops onto the target with its full body weight. It may leave the target with paralysis.",
+    description: "The user drops onto the target with its full body weight. It may leave the target with paralysis."
   },
   {
     id: "EXTREMESPEED",
@@ -5484,8 +5038,7 @@ export const moves: Move[] = [
     accuracy: 100,
     totalPP: 5,
     target: "NearOther",
-    description:
-      "The user charges the target at blinding speed. This attack always goes before any other move.",
+    description: "The user charges the target at blinding speed. This attack always goes before any other move."
   },
   {
     id: "HYPERFANG",
@@ -5496,8 +5049,7 @@ export const moves: Move[] = [
     accuracy: 90,
     totalPP: 15,
     target: "NearOther",
-    description:
-      "The user bites hard on the target with its sharp front fangs. It may also make the target flinch.",
+    description: "The user bites hard on the target with its sharp front fangs. It may also make the target flinch."
   },
   {
     id: "MEGAPUNCH",
@@ -5508,8 +5060,7 @@ export const moves: Move[] = [
     accuracy: 85,
     totalPP: 20,
     target: "NearOther",
-    description:
-      "The target is slugged by a punch thrown with muscle-packed power.",
+    description: "The target is slugged by a punch thrown with muscle-packed power."
   },
   {
     id: "RAZORWIND",
@@ -5520,8 +5071,7 @@ export const moves: Move[] = [
     accuracy: 100,
     totalPP: 10,
     target: "AllNearFoes",
-    description:
-      "A two-turn attack. Blades of wind hit the foe on the second turn. Critical hits land more easily.",
+    description: "A two-turn attack. Blades of wind hit the foe on the second turn. Critical hits land more easily."
   },
   {
     id: "SLAM",
@@ -5532,8 +5082,7 @@ export const moves: Move[] = [
     accuracy: 75,
     totalPP: 20,
     target: "NearOther",
-    description:
-      "The target is slammed with a long tail, vines, etc., to inflict damage.",
+    description: "The target is slammed with a long tail, vines, etc., to inflict damage."
   },
   {
     id: "STRENGTH",
@@ -5544,8 +5093,7 @@ export const moves: Move[] = [
     accuracy: 100,
     totalPP: 15,
     target: "NearOther",
-    description:
-      "The target is slugged with a punch thrown at maximum power. It can also be used to move heavy boulders.",
+    description: "The target is slugged with a punch thrown at maximum power. It can also be used to move heavy boulders."
   },
   {
     id: "TERABLAST",
@@ -5556,8 +5104,7 @@ export const moves: Move[] = [
     accuracy: 100,
     totalPP: 10,
     target: "NearOther",
-    description:
-      "The user fires a beam of Tera energy at the target to inflict damage.",
+    description: "The user fires a beam of Tera energy at the target to inflict damage."
   },
   {
     id: "TRIATTACK",
@@ -5568,8 +5115,7 @@ export const moves: Move[] = [
     accuracy: 100,
     totalPP: 10,
     target: "NearOther",
-    description:
-      "The user strikes with a simultaneous three-beam attack. May also paralyze, burn, or freeze the target.",
+    description: "The user strikes with a simultaneous three-beam attack. May also paralyze, burn, or freeze the target."
   },
   {
     id: "CRUSHCLAW",
@@ -5580,8 +5126,7 @@ export const moves: Move[] = [
     accuracy: 95,
     totalPP: 10,
     target: "NearOther",
-    description:
-      "The user slashes the target with hard and sharp claws. It may also lower the target's Defense.",
+    description: "The user slashes the target with hard and sharp claws. It may also lower the target's Defense."
   },
   {
     id: "RELICSONG",
@@ -5592,8 +5137,7 @@ export const moves: Move[] = [
     accuracy: 100,
     totalPP: 10,
     target: "AllNearFoes",
-    description:
-      "An ancient song appeals to the hearts of those listening. It may also induce sleep.",
+    description: "An ancient song appeals to the hearts of those listening. It may also induce sleep."
   },
   {
     id: "CHIPAWAY",
@@ -5604,8 +5148,7 @@ export const moves: Move[] = [
     accuracy: 100,
     totalPP: 20,
     target: "NearOther",
-    description:
-      "Seeking an opening, the user strikes continually. The foe's stat changes don't affect the damage.",
+    description: "Seeking an opening, the user strikes continually. The foe's stat changes don't affect the damage."
   },
   {
     id: "DIZZYPUNCH",
@@ -5616,8 +5159,7 @@ export const moves: Move[] = [
     accuracy: 100,
     totalPP: 10,
     target: "NearOther",
-    description:
-      "The target is hit with rhythmically launched punches that may also leave it confused.",
+    description: "The target is hit with rhythmically launched punches that may also leave it confused."
   },
   {
     id: "FACADE",
@@ -5628,8 +5170,7 @@ export const moves: Move[] = [
     accuracy: 100,
     totalPP: 20,
     target: "NearOther",
-    description:
-      "An attack move that doubles its power if the user is poisoned, burned, or has paralysis.",
+    description: "An attack move that doubles its power if the user is poisoned, burned, or has paralysis."
   },
   {
     id: "HEADBUTT",
@@ -5640,8 +5181,7 @@ export const moves: Move[] = [
     accuracy: 100,
     totalPP: 15,
     target: "NearOther",
-    description:
-      "The user sticks out its head and attacks by charging into the foe. It may also make the target flinch.",
+    description: "The user sticks out its head and attacks by charging into the foe. It may also make the target flinch."
   },
   {
     id: "RETALIATE",
@@ -5652,8 +5192,7 @@ export const moves: Move[] = [
     accuracy: 100,
     totalPP: 5,
     target: "NearOther",
-    description:
-      "Gets revenge for a fainted ally. If an ally fainted in the last turn, this attack's damage increases.",
+    description: "Gets revenge for a fainted ally. If an ally fainted in the last turn, this attack's damage increases."
   },
   {
     id: "SECRETPOWER",
@@ -5664,8 +5203,7 @@ export const moves: Move[] = [
     accuracy: 100,
     totalPP: 20,
     target: "NearOther",
-    description:
-      "The user attacks with a secret power. Its added effects vary depending on the user's environment.",
+    description: "The user attacks with a secret power. Its added effects vary depending on the user's environment."
   },
   {
     id: "SLASH",
@@ -5676,8 +5214,7 @@ export const moves: Move[] = [
     accuracy: 100,
     totalPP: 20,
     target: "NearOther",
-    description:
-      "The target is attacked with a slash of claws or blades. Critical hits land more easily.",
+    description: "The target is attacked with a slash of claws or blades. Critical hits land more easily."
   },
   {
     id: "SMELLINGSALTS",
@@ -5688,8 +5225,7 @@ export const moves: Move[] = [
     accuracy: 100,
     totalPP: 10,
     target: "NearOther",
-    description:
-      "This attack inflicts double damage on a paralyzed foe. It also cures the target's paralysis, however.",
+    description: "This attack inflicts double damage on a paralyzed foe. It also cures the target's paralysis, however."
   },
   {
     id: "HORNATTACK",
@@ -5700,8 +5236,7 @@ export const moves: Move[] = [
     accuracy: 100,
     totalPP: 25,
     target: "NearOther",
-    description:
-      "The target is jabbed with a sharply pointed horn to inflict damage.",
+    description: "The target is jabbed with a sharply pointed horn to inflict damage."
   },
   {
     id: "STOMP",
@@ -5712,8 +5247,7 @@ export const moves: Move[] = [
     accuracy: 100,
     totalPP: 20,
     target: "NearOther",
-    description:
-      "The target is stomped with a big foot. It may also make the target flinch.",
+    description: "The target is stomped with a big foot. It may also make the target flinch."
   },
   {
     id: "COVET",
@@ -5724,8 +5258,7 @@ export const moves: Move[] = [
     accuracy: 100,
     totalPP: 25,
     target: "NearOther",
-    description:
-      "The user endearingly approaches the target, then steals the target's held item.",
+    description: "The user endearingly approaches the target, then steals the target's held item."
   },
   {
     id: "HIDDENPOWER",
@@ -5736,8 +5269,7 @@ export const moves: Move[] = [
     accuracy: 100,
     totalPP: 15,
     target: "NearOther",
-    description:
-      "A unique attack that varies in type and intensity depending on the Pokémon using it.",
+    description: "A unique attack that varies in type and intensity depending on the Pokémon using it."
   },
   {
     id: "ROUND",
@@ -5748,8 +5280,7 @@ export const moves: Move[] = [
     accuracy: 100,
     totalPP: 15,
     target: "NearOther",
-    description:
-      "The user attacks with a song. Others can join in the Round and make the attack do greater damage.",
+    description: "The user attacks with a song. Others can join in the Round and make the attack do greater damage."
   },
   {
     id: "SWIFT",
@@ -5760,8 +5291,7 @@ export const moves: Move[] = [
     accuracy: null,
     totalPP: 20,
     target: "AllNearFoes",
-    description:
-      "Star-shaped rays are shot at the opposing team. This attack never misses.",
+    description: "Star-shaped rays are shot at the opposing team. This attack never misses."
   },
   {
     id: "VISEGRIP",
@@ -5772,8 +5302,7 @@ export const moves: Move[] = [
     accuracy: 100,
     totalPP: 30,
     target: "NearOther",
-    description:
-      "The target is gripped and squeezed from both sides to inflict damage.",
+    description: "The target is gripped and squeezed from both sides to inflict damage."
   },
   {
     id: "CUT",
@@ -5784,8 +5313,7 @@ export const moves: Move[] = [
     accuracy: 95,
     totalPP: 30,
     target: "NearOther",
-    description:
-      "The target is cut with a scythe or a claw. It can also be used to cut down thin trees.",
+    description: "The target is cut with a scythe or a claw. It can also be used to cut down thin trees."
   },
   {
     id: "RAPIDSPIN",
@@ -5796,8 +5324,7 @@ export const moves: Move[] = [
     accuracy: 100,
     totalPP: 40,
     target: "NearOther",
-    description:
-      "A spin attack that raises the user's Speed and eliminates the effects of Bind, Spikes, etc.",
+    description: "A spin attack that raises the user's Speed and eliminates the effects of Bind, Spikes, etc."
   },
   {
     id: "SNORE",
@@ -5808,8 +5335,7 @@ export const moves: Move[] = [
     accuracy: 100,
     totalPP: 15,
     target: "NearOther",
-    description:
-      "An attack that can be used only if the user is asleep. The harsh noise may also make the target flinch.",
+    description: "An attack that can be used only if the user is asleep. The harsh noise may also make the target flinch."
   },
   {
     id: "TERRAINPULSE",
@@ -5820,8 +5346,7 @@ export const moves: Move[] = [
     accuracy: 100,
     totalPP: 10,
     target: "NearOther",
-    description:
-      "Utilizes the power of the terrain to attack. This move's type and power vary with the terrain.",
+    description: "Utilizes the power of the terrain to attack. This move's type and power vary with the terrain."
   },
   {
     id: "WEATHERBALL",
@@ -5832,8 +5357,7 @@ export const moves: Move[] = [
     accuracy: 100,
     totalPP: 10,
     target: "NearOther",
-    description:
-      "An attack move that varies in power and type depending on the weather.",
+    description: "An attack move that varies in power and type depending on the weather."
   },
   {
     id: "ECHOEDVOICE",
@@ -5844,8 +5368,7 @@ export const moves: Move[] = [
     accuracy: 100,
     totalPP: 15,
     target: "NearOther",
-    description:
-      "The user attacks the foe with an echoing voice. If this move is used every turn, it does greater damage.",
+    description: "The user attacks the foe with an echoing voice. If this move is used every turn, it does greater damage."
   },
   {
     id: "FAKEOUT",
@@ -5856,8 +5379,7 @@ export const moves: Move[] = [
     accuracy: 100,
     totalPP: 10,
     target: "NearOther",
-    description:
-      "An attack that hits first and makes the target flinch. It only works the first turn the user is in battle.",
+    description: "An attack that hits first and makes the target flinch. It only works the first turn the user is in battle."
   },
   {
     id: "FALSESWIPE",
@@ -5868,8 +5390,7 @@ export const moves: Move[] = [
     accuracy: 100,
     totalPP: 40,
     target: "NearOther",
-    description:
-      "A restrained attack that prevents the target from fainting. The target is left with at least 1 HP.",
+    description: "A restrained attack that prevents the target from fainting. The target is left with at least 1 HP."
   },
   {
     id: "HOLDBACK",
@@ -5880,8 +5401,7 @@ export const moves: Move[] = [
     accuracy: 100,
     totalPP: 40,
     target: "NearOther",
-    description:
-      "The user holds back when it attacks, and the target is left with at least 1 HP.",
+    description: "The user holds back when it attacks, and the target is left with at least 1 HP."
   },
   {
     id: "PAYDAY",
@@ -5892,8 +5412,7 @@ export const moves: Move[] = [
     accuracy: 100,
     totalPP: 20,
     target: "NearOther",
-    description:
-      "Numerous coins are hurled at the target to inflict damage. Money is earned after battle.",
+    description: "Numerous coins are hurled at the target to inflict damage. Money is earned after battle."
   },
   {
     id: "POUND",
@@ -5904,8 +5423,7 @@ export const moves: Move[] = [
     accuracy: 100,
     totalPP: 35,
     target: "NearOther",
-    description:
-      "The target is physically pounded with a long tail or a foreleg, etc.",
+    description: "The target is physically pounded with a long tail or a foreleg, etc."
   },
   {
     id: "QUICKATTACK",
@@ -5916,8 +5434,7 @@ export const moves: Move[] = [
     accuracy: 100,
     totalPP: 30,
     target: "NearOther",
-    description:
-      "The user lunges at the target at a speed that makes it almost invisible. It is sure to strike first.",
+    description: "The user lunges at the target at a speed that makes it almost invisible. It is sure to strike first."
   },
   {
     id: "SCRATCH",
@@ -5928,8 +5445,7 @@ export const moves: Move[] = [
     accuracy: 100,
     totalPP: 35,
     target: "NearOther",
-    description:
-      "Hard, pointed, and sharp claws rake the target to inflict damage.",
+    description: "Hard, pointed, and sharp claws rake the target to inflict damage."
   },
   {
     id: "TACKLE",
@@ -5940,8 +5456,7 @@ export const moves: Move[] = [
     accuracy: 100,
     totalPP: 35,
     target: "NearOther",
-    description:
-      "A physical attack in which the user charges and slams into the target with its whole body.",
+    description: "A physical attack in which the user charges and slams into the target with its whole body."
   },
   {
     id: "DOUBLEHIT",
@@ -5952,8 +5467,7 @@ export const moves: Move[] = [
     accuracy: 90,
     totalPP: 10,
     target: "NearOther",
-    description:
-      "The user slams the target with a long tail, vines, or tentacle. The target is hit twice in a row.",
+    description: "The user slams the target with a long tail, vines, or tentacle. The target is hit twice in a row."
   },
   {
     id: "FEINT",
@@ -5964,8 +5478,7 @@ export const moves: Move[] = [
     accuracy: 100,
     totalPP: 10,
     target: "NearOther",
-    description:
-      "An attack that hits a target using Protect or Detect. It also lifts the effects of those moves.",
+    description: "An attack that hits a target using Protect or Detect. It also lifts the effects of those moves."
   },
   {
     id: "TAILSLAP",
@@ -5976,8 +5489,7 @@ export const moves: Move[] = [
     accuracy: 85,
     totalPP: 10,
     target: "NearOther",
-    description:
-      "The user attacks by striking the target with its hard tail. It hits the Pokémon two to five times in a row.",
+    description: "The user attacks by striking the target with its hard tail. It hits the Pokémon two to five times in a row."
   },
   {
     id: "POPULATIONBOMB",
@@ -5988,8 +5500,7 @@ export const moves: Move[] = [
     accuracy: 90,
     totalPP: 10,
     target: "NearOther",
-    description:
-      "The user's fellows gather in droves to perform a combo attack that hits one to ten times in a row.",
+    description: "The user's fellows gather in droves to perform a combo attack that hits one to ten times in a row."
   },
   {
     id: "RAGE",
@@ -6000,8 +5511,7 @@ export const moves: Move[] = [
     accuracy: 100,
     totalPP: 20,
     target: "NearOther",
-    description:
-      "As long as this move is in use, the user's Attack rises each time the user is hit in battle.",
+    description: "As long as this move is in use, the user's Attack rises each time the user is hit in battle."
   },
   {
     id: "SPIKECANNON",
@@ -6012,8 +5522,7 @@ export const moves: Move[] = [
     accuracy: 100,
     totalPP: 15,
     target: "NearOther",
-    description:
-      "Sharp spikes are shot at the target in rapid succession. They hit two to five times in a row.",
+    description: "Sharp spikes are shot at the target in rapid succession. They hit two to five times in a row."
   },
   {
     id: "COMETPUNCH",
@@ -6024,8 +5533,7 @@ export const moves: Move[] = [
     accuracy: 85,
     totalPP: 15,
     target: "NearOther",
-    description:
-      "The target is hit with a flurry of punches that strike two to five times in a row.",
+    description: "The target is hit with a flurry of punches that strike two to five times in a row."
   },
   {
     id: "FURYSWIPES",
@@ -6036,8 +5544,7 @@ export const moves: Move[] = [
     accuracy: 80,
     totalPP: 15,
     target: "NearOther",
-    description:
-      "The target is raked with sharp claws or scythes for two to five times in quick succession.",
+    description: "The target is raked with sharp claws or scythes for two to five times in quick succession."
   },
   {
     id: "BARRAGE",
@@ -6048,8 +5555,7 @@ export const moves: Move[] = [
     accuracy: 85,
     totalPP: 20,
     target: "NearOther",
-    description:
-      "Round objects are hurled at the target to strike two to five times in a row.",
+    description: "Round objects are hurled at the target to strike two to five times in a row."
   },
   {
     id: "BIND",
@@ -6060,8 +5566,7 @@ export const moves: Move[] = [
     accuracy: 85,
     totalPP: 20,
     target: "NearOther",
-    description:
-      "Things such as long bodies or tentacles are used to bind and squeeze the foe for four to five turns.",
+    description: "Things such as long bodies or tentacles are used to bind and squeeze the foe for four to five turns."
   },
   {
     id: "DOUBLESLAP",
@@ -6072,8 +5577,7 @@ export const moves: Move[] = [
     accuracy: 85,
     totalPP: 10,
     target: "NearOther",
-    description:
-      "The target is slapped repeatedly, back and forth, two to five times in a row.",
+    description: "The target is slapped repeatedly, back and forth, two to five times in a row."
   },
   {
     id: "FURYATTACK",
@@ -6084,8 +5588,7 @@ export const moves: Move[] = [
     accuracy: 85,
     totalPP: 20,
     target: "NearOther",
-    description:
-      "The target is jabbed repeatedly with a horn or beak two to five times in a row.",
+    description: "The target is jabbed repeatedly with a horn or beak two to five times in a row."
   },
   {
     id: "WRAP",
@@ -6096,8 +5599,7 @@ export const moves: Move[] = [
     accuracy: 90,
     totalPP: 20,
     target: "NearOther",
-    description:
-      "A long body or vines are used to wrap and squeeze the target for four to five turns.",
+    description: "A long body or vines are used to wrap and squeeze the target for four to five turns."
   },
   {
     id: "CONSTRICT",
@@ -6108,8 +5610,7 @@ export const moves: Move[] = [
     accuracy: 100,
     totalPP: 35,
     target: "NearOther",
-    description:
-      "The foe is attacked with long, creeping tentacles or vines. It may also lower the target's Speed.",
+    description: "The foe is attacked with long, creeping tentacles or vines. It may also lower the target's Speed."
   },
   {
     id: "BIDE",
@@ -6120,8 +5621,7 @@ export const moves: Move[] = [
     accuracy: null,
     totalPP: 10,
     target: "None",
-    description:
-      "The user endures attacks for two turns, then strikes back to cause double the damage taken.",
+    description: "The user endures attacks for two turns, then strikes back to cause double the damage taken."
   },
   {
     id: "CRUSHGRIP",
@@ -6132,8 +5632,7 @@ export const moves: Move[] = [
     accuracy: 100,
     totalPP: 5,
     target: "NearOther",
-    description:
-      "The target is crushed with great force. The attack is more powerful the more HP the target has left.",
+    description: "The target is crushed with great force. The attack is more powerful the more HP the target has left."
   },
   {
     id: "ENDEAVOR",
@@ -6144,8 +5643,7 @@ export const moves: Move[] = [
     accuracy: 100,
     totalPP: 5,
     target: "NearOther",
-    description:
-      "An attack move that cuts down the target's HP to equal the user's HP.",
+    description: "An attack move that cuts down the target's HP to equal the user's HP."
   },
   {
     id: "FLAIL",
@@ -6156,8 +5654,7 @@ export const moves: Move[] = [
     accuracy: 100,
     totalPP: 15,
     target: "NearOther",
-    description:
-      "The user flails about aimlessly to attack. It becomes more powerful the less HP the user has.",
+    description: "The user flails about aimlessly to attack. It becomes more powerful the less HP the user has."
   },
   {
     id: "FRUSTRATION",
@@ -6168,8 +5665,7 @@ export const moves: Move[] = [
     accuracy: 100,
     totalPP: 20,
     target: "NearOther",
-    description:
-      "A full-power attack that grows more powerful the less the user likes its Trainer.",
+    description: "A full-power attack that grows more powerful the less the user likes its Trainer."
   },
   {
     id: "GUILLOTINE",
@@ -6180,8 +5676,7 @@ export const moves: Move[] = [
     accuracy: 30,
     totalPP: 5,
     target: "NearOther",
-    description:
-      "A vicious, tearing attack with big pincers. The target will faint instantly if this attack hits.",
+    description: "A vicious, tearing attack with big pincers. The target will faint instantly if this attack hits."
   },
   {
     id: "HORNDRILL",
@@ -6192,8 +5687,7 @@ export const moves: Move[] = [
     accuracy: 30,
     totalPP: 5,
     target: "NearOther",
-    description:
-      "The user stabs the foe with a horn that rotates like a drill. If it hits, the target faints instantly.",
+    description: "The user stabs the foe with a horn that rotates like a drill. If it hits, the target faints instantly."
   },
   {
     id: "NATURALGIFT",
@@ -6204,8 +5698,7 @@ export const moves: Move[] = [
     accuracy: 100,
     totalPP: 15,
     target: "NearOther",
-    description:
-      "The user draws power to attack by using its held Berry. The Berry determines its type and power.",
+    description: "The user draws power to attack by using its held Berry. The Berry determines its type and power."
   },
   {
     id: "PRESENT",
@@ -6216,8 +5709,7 @@ export const moves: Move[] = [
     accuracy: 90,
     totalPP: 15,
     target: "NearOther",
-    description:
-      "The user attacks by giving the target a gift with a hidden trap. It restores HP sometimes, however.",
+    description: "The user attacks by giving the target a gift with a hidden trap. It restores HP sometimes, however."
   },
   {
     id: "RETURN",
@@ -6228,8 +5720,7 @@ export const moves: Move[] = [
     accuracy: 100,
     totalPP: 20,
     target: "NearOther",
-    description:
-      "A full-power attack that grows more powerful the more the user likes its Trainer.",
+    description: "A full-power attack that grows more powerful the more the user likes its Trainer."
   },
   {
     id: "SONICBOOM",
@@ -6240,8 +5731,7 @@ export const moves: Move[] = [
     accuracy: 90,
     totalPP: 20,
     target: "NearOther",
-    description:
-      "The target is hit with a destructive shock wave that always inflicts 20 HP damage.",
+    description: "The target is hit with a destructive shock wave that always inflicts 20 HP damage."
   },
   {
     id: "SPITUP",
@@ -6252,8 +5742,7 @@ export const moves: Move[] = [
     accuracy: 100,
     totalPP: 10,
     target: "NearOther",
-    description:
-      "The power stored using the move Stockpile is released all at once in an attack.",
+    description: "The power stored using the move Stockpile is released all at once in an attack."
   },
   {
     id: "SUPERFANG",
@@ -6264,8 +5753,7 @@ export const moves: Move[] = [
     accuracy: 90,
     totalPP: 10,
     target: "NearOther",
-    description:
-      "The user chomps hard on the target with its sharp front fangs. It cuts the target's HP to half.",
+    description: "The user chomps hard on the target with its sharp front fangs. It cuts the target's HP to half."
   },
   {
     id: "TRUMPCARD",
@@ -6276,7 +5764,7 @@ export const moves: Move[] = [
     accuracy: null,
     totalPP: 5,
     target: "NearOther",
-    description: "The fewer PP this move has, the greater its attack power.",
+    description: "The fewer PP this move has, the greater its attack power."
   },
   {
     id: "WRINGOUT",
@@ -6287,8 +5775,7 @@ export const moves: Move[] = [
     accuracy: 100,
     totalPP: 5,
     target: "NearOther",
-    description:
-      "The user powerfully wrings the foe. The more HP the foe has, the greater this attack's power.",
+    description: "The user powerfully wrings the foe. The more HP the foe has, the greater this attack's power."
   },
   {
     id: "ACUPRESSURE",
@@ -6299,8 +5786,7 @@ export const moves: Move[] = [
     accuracy: null,
     totalPP: 30,
     target: "UserOrNearAlly",
-    description:
-      "The user applies pressure to stress points, sharply boosting one of its stats.",
+    description: "The user applies pressure to stress points, sharply boosting one of its stats."
   },
   {
     id: "AFTERYOU",
@@ -6311,8 +5797,7 @@ export const moves: Move[] = [
     accuracy: null,
     totalPP: 15,
     target: "NearOther",
-    description:
-      "The user helps the target and makes it use its move right after the user.",
+    description: "The user helps the target and makes it use its move right after the user."
   },
   {
     id: "ASSIST",
@@ -6323,8 +5808,7 @@ export const moves: Move[] = [
     accuracy: null,
     totalPP: 20,
     target: "User",
-    description:
-      "The user hurriedly and randomly uses a move among those known by other Pokémon in the party.",
+    description: "The user hurriedly and randomly uses a move among those known by other Pokémon in the party."
   },
   {
     id: "ATTRACT",
@@ -6335,8 +5819,7 @@ export const moves: Move[] = [
     accuracy: 100,
     totalPP: 15,
     target: "NearOther",
-    description:
-      "If it is the opposite gender of the user, the target becomes infatuated and less likely to attack.",
+    description: "If it is the opposite gender of the user, the target becomes infatuated and less likely to attack."
   },
   {
     id: "BATONPASS",
@@ -6347,8 +5830,7 @@ export const moves: Move[] = [
     accuracy: null,
     totalPP: 40,
     target: "User",
-    description:
-      "The user switches places with a party Pokémon in waiting, passing along any stat changes.",
+    description: "The user switches places with a party Pokémon in waiting, passing along any stat changes."
   },
   {
     id: "BELLYDRUM",
@@ -6359,8 +5841,7 @@ export const moves: Move[] = [
     accuracy: null,
     totalPP: 10,
     target: "User",
-    description:
-      "The user maximizes its Attack stat in exchange for HP equal to half its max HP.",
+    description: "The user maximizes its Attack stat in exchange for HP equal to half its max HP."
   },
   {
     id: "BESTOW",
@@ -6371,8 +5852,7 @@ export const moves: Move[] = [
     accuracy: null,
     totalPP: 15,
     target: "NearOther",
-    description:
-      "The user passes its held item to the target when the target isn't holding an item.",
+    description: "The user passes its held item to the target when the target isn't holding an item."
   },
   {
     id: "BLOCK",
@@ -6383,8 +5863,7 @@ export const moves: Move[] = [
     accuracy: null,
     totalPP: 5,
     target: "NearOther",
-    description:
-      "The user blocks the target's way with arms spread wide to prevent escape.",
+    description: "The user blocks the target's way with arms spread wide to prevent escape."
   },
   {
     id: "CAMOUFLAGE",
@@ -6395,8 +5874,7 @@ export const moves: Move[] = [
     accuracy: null,
     totalPP: 20,
     target: "User",
-    description:
-      "The user's type is changed depending on its environment, such as at water's edge, in grass, or in a cave.",
+    description: "The user's type is changed depending on its environment, such as at water's edge, in grass, or in a cave."
   },
   {
     id: "CAPTIVATE",
@@ -6407,8 +5885,7 @@ export const moves: Move[] = [
     accuracy: 100,
     totalPP: 20,
     target: "AllNearFoes",
-    description:
-      "If it is the opposite gender of the user, the target is charmed into harshly lowering its Sp. Atk stat.",
+    description: "If it is the opposite gender of the user, the target is charmed into harshly lowering its Sp. Atk stat."
   },
   {
     id: "CELEBRATE",
@@ -6419,7 +5896,7 @@ export const moves: Move[] = [
     accuracy: null,
     totalPP: 40,
     target: "User",
-    description: "The Pokémon congratulates you on your special day!",
+    description: "The Pokémon congratulates you on your special day!"
   },
   {
     id: "CONFIDE",
@@ -6430,8 +5907,7 @@ export const moves: Move[] = [
     accuracy: null,
     totalPP: 20,
     target: "NearOther",
-    description:
-      "The user tells the target a secret. The target loses focus and its Sp. Atk stat is lowered.",
+    description: "The user tells the target a secret. The target loses focus and its Sp. Atk stat is lowered."
   },
   {
     id: "CONVERSION",
@@ -6442,8 +5918,7 @@ export const moves: Move[] = [
     accuracy: null,
     totalPP: 30,
     target: "User",
-    description:
-      "The user changes its type to become the same type as one of its moves.",
+    description: "The user changes its type to become the same type as one of its moves."
   },
   {
     id: "CONVERSION2",
@@ -6454,8 +5929,7 @@ export const moves: Move[] = [
     accuracy: null,
     totalPP: 30,
     target: "NearOther",
-    description:
-      "The user changes its type to make itself resistant to the type of the attack the opponent used last.",
+    description: "The user changes its type to make itself resistant to the type of the attack the opponent used last."
   },
   {
     id: "COPYCAT",
@@ -6466,8 +5940,7 @@ export const moves: Move[] = [
     accuracy: null,
     totalPP: 20,
     target: "User",
-    description:
-      "The user mimics the move used immediately before it. The move fails if no other move has been used yet.",
+    description: "The user mimics the move used immediately before it. The move fails if no other move has been used yet."
   },
   {
     id: "COURTCHANGE",
@@ -6478,8 +5951,7 @@ export const moves: Move[] = [
     accuracy: null,
     totalPP: 10,
     target: "BothSides",
-    description:
-      "With its mysterious power, the user swaps the effects on either side of the field.",
+    description: "With its mysterious power, the user swaps the effects on either side of the field."
   },
   {
     id: "DEFENSECURL",
@@ -6490,8 +5962,7 @@ export const moves: Move[] = [
     accuracy: null,
     totalPP: 40,
     target: "User",
-    description:
-      "The user curls up to conceal weak spots and raise its Defense stat.",
+    description: "The user curls up to conceal weak spots and raise its Defense stat."
   },
   {
     id: "DISABLE",
@@ -6502,8 +5973,7 @@ export const moves: Move[] = [
     accuracy: 100,
     totalPP: 20,
     target: "NearOther",
-    description:
-      "For four turns, this move prevents the target from using the move it last used.",
+    description: "For four turns, this move prevents the target from using the move it last used."
   },
   {
     id: "DOODLE",
@@ -6514,8 +5984,7 @@ export const moves: Move[] = [
     accuracy: 100,
     totalPP: 10,
     target: "NearFoe",
-    description:
-      "The user captures the target's very essence in a sketch. The user and its allies copy the target's Ability.",
+    description: "The user captures the target's very essence in a sketch. The user and its allies copy the target's Ability."
   },
   {
     id: "DOUBLETEAM",
@@ -6526,8 +5995,7 @@ export const moves: Move[] = [
     accuracy: null,
     totalPP: 15,
     target: "User",
-    description:
-      "By moving rapidly, the user makes illusory copies of itself to raise its evasiveness.",
+    description: "By moving rapidly, the user makes illusory copies of itself to raise its evasiveness."
   },
   {
     id: "ENCORE",
@@ -6538,8 +6006,7 @@ export const moves: Move[] = [
     accuracy: 100,
     totalPP: 5,
     target: "NearOther",
-    description:
-      "The user compels the target to keep using only the move it last used for three turns.",
+    description: "The user compels the target to keep using only the move it last used for three turns."
   },
   {
     id: "ENDURE",
@@ -6550,8 +6017,7 @@ export const moves: Move[] = [
     accuracy: null,
     totalPP: 10,
     target: "User",
-    description:
-      "The user endures any attack with at least 1 HP. Its chance of failing rises if it is used in succession.",
+    description: "The user endures any attack with at least 1 HP. Its chance of failing rises if it is used in succession."
   },
   {
     id: "ENTRAINMENT",
@@ -6562,8 +6028,7 @@ export const moves: Move[] = [
     accuracy: 100,
     totalPP: 15,
     target: "NearOther",
-    description:
-      "The user dances to compel the target to mimic it, making the target's Ability the same as the user's.",
+    description: "The user dances to compel the target to mimic it, making the target's Ability the same as the user's."
   },
   {
     id: "FILLETAWAY",
@@ -6574,8 +6039,7 @@ export const moves: Move[] = [
     accuracy: null,
     totalPP: 10,
     target: "User",
-    description:
-      "The user sharply boosts its Attack, Sp. Atk, and Speed stats by using its own HP.",
+    description: "The user sharply boosts its Attack, Sp. Atk, and Speed stats by using its own HP."
   },
   {
     id: "FLASH",
@@ -6586,8 +6050,7 @@ export const moves: Move[] = [
     accuracy: 100,
     totalPP: 20,
     target: "NearOther",
-    description:
-      "The user flashes a light that cuts the target's accuracy. It can also be used to illuminate caves.",
+    description: "The user flashes a light that cuts the target's accuracy. It can also be used to illuminate caves."
   },
   {
     id: "FOCUSENERGY",
@@ -6598,8 +6061,7 @@ export const moves: Move[] = [
     accuracy: null,
     totalPP: 30,
     target: "User",
-    description:
-      "The user takes a deep breath and focuses so that critical hits land more easily.",
+    description: "The user takes a deep breath and focuses so that critical hits land more easily."
   },
   {
     id: "FOLLOWME",
@@ -6610,8 +6072,7 @@ export const moves: Move[] = [
     accuracy: null,
     totalPP: 20,
     target: "User",
-    description:
-      "The user draws attention to itself, making all targets take aim only at the user.",
+    description: "The user draws attention to itself, making all targets take aim only at the user."
   },
   {
     id: "FORESIGHT",
@@ -6622,8 +6083,7 @@ export const moves: Move[] = [
     accuracy: null,
     totalPP: 40,
     target: "NearOther",
-    description:
-      "Enables the user to hit a Ghost type with any kind of move. It also enables the user to hit an evasive foe.",
+    description: "Enables the user to hit a Ghost type with any kind of move. It also enables the user to hit an evasive foe."
   },
   {
     id: "GLARE",
@@ -6634,8 +6094,7 @@ export const moves: Move[] = [
     accuracy: 100,
     totalPP: 30,
     target: "NearOther",
-    description:
-      "The user intimidates the target with the pattern on its belly to cause paralysis.",
+    description: "The user intimidates the target with the pattern on its belly to cause paralysis."
   },
   {
     id: "GROWL",
@@ -6646,8 +6105,7 @@ export const moves: Move[] = [
     accuracy: 100,
     totalPP: 40,
     target: "AllNearFoes",
-    description:
-      "The user growls in an endearing way, making the foe less wary. The foe's Attack stat is lowered.",
+    description: "The user growls in an endearing way, making the foe less wary. The foe's Attack stat is lowered."
   },
   {
     id: "GROWTH",
@@ -6658,8 +6116,7 @@ export const moves: Move[] = [
     accuracy: null,
     totalPP: 20,
     target: "User",
-    description:
-      "The user's body grows all at once, raising the Atk and Sp. Atk stats.",
+    description: "The user's body grows all at once, raising the Atk and Sp. Atk stats."
   },
   {
     id: "HAPPYHOUR",
@@ -6670,8 +6127,7 @@ export const moves: Move[] = [
     accuracy: null,
     totalPP: 30,
     target: "UserSide",
-    description:
-      "Using Happy Hour doubles the amount of prize money received after battle.",
+    description: "Using Happy Hour doubles the amount of prize money received after battle."
   },
   {
     id: "HARDEN",
@@ -6682,8 +6138,7 @@ export const moves: Move[] = [
     accuracy: null,
     totalPP: 30,
     target: "User",
-    description:
-      "The user stiffens all the muscles in its body to raise its Defense stat.",
+    description: "The user stiffens all the muscles in its body to raise its Defense stat."
   },
   {
     id: "HEALBELL",
@@ -6694,8 +6149,7 @@ export const moves: Move[] = [
     accuracy: null,
     totalPP: 5,
     target: "UserAndAllies",
-    description:
-      "The user makes a soothing bell chime to heal the status problems of all the party Pokémon.",
+    description: "The user makes a soothing bell chime to heal the status problems of all the party Pokémon."
   },
   {
     id: "HELPINGHAND",
@@ -6706,8 +6160,7 @@ export const moves: Move[] = [
     accuracy: null,
     totalPP: 20,
     target: "NearAlly",
-    description:
-      "The user assists an ally by boosting the power of its attack.",
+    description: "The user assists an ally by boosting the power of its attack."
   },
   {
     id: "HOLDHANDS",
@@ -6718,7 +6171,7 @@ export const moves: Move[] = [
     accuracy: null,
     totalPP: 40,
     target: "NearAlly",
-    description: "The user and an ally hold hands. This makes them very happy.",
+    description: "The user and an ally hold hands. This makes them very happy."
   },
   {
     id: "HOWL",
@@ -6729,8 +6182,7 @@ export const moves: Move[] = [
     accuracy: null,
     totalPP: 40,
     target: "UserAndAllies",
-    description:
-      "The user howls loudly to raise the spirit of itself and allies, boosting their Attack stats.",
+    description: "The user howls loudly to raise the spirit of itself and allies, boosting their Attack stats."
   },
   {
     id: "LASERFOCUS",
@@ -6741,8 +6193,7 @@ export const moves: Move[] = [
     accuracy: null,
     totalPP: 30,
     target: "User",
-    description:
-      "The user focuses intensely. The attack on the next turn always results in a critical hit.",
+    description: "The user focuses intensely. The attack on the next turn always results in a critical hit."
   },
   {
     id: "LEER",
@@ -6753,8 +6204,7 @@ export const moves: Move[] = [
     accuracy: 100,
     totalPP: 30,
     target: "AllNearFoes",
-    description:
-      "The user gains an intimidating leer with sharp eyes. The target's Defense stat is reduced.",
+    description: "The user gains an intimidating leer with sharp eyes. The target's Defense stat is reduced."
   },
   {
     id: "LOCKON",
@@ -6765,8 +6215,7 @@ export const moves: Move[] = [
     accuracy: null,
     totalPP: 5,
     target: "NearOther",
-    description:
-      "The user takes sure aim at the target. It ensures the next attack does not fail to hit the target.",
+    description: "The user takes sure aim at the target. It ensures the next attack does not fail to hit the target."
   },
   {
     id: "LOVELYKISS",
@@ -6777,8 +6226,7 @@ export const moves: Move[] = [
     accuracy: 75,
     totalPP: 10,
     target: "NearOther",
-    description:
-      "With a scary face, the user tries to force a kiss on the target. If it suceeds, the target falls asleep.",
+    description: "With a scary face, the user tries to force a kiss on the target. If it suceeds, the target falls asleep."
   },
   {
     id: "LUCKYCHANT",
@@ -6789,8 +6237,7 @@ export const moves: Move[] = [
     accuracy: null,
     totalPP: 30,
     target: "UserSide",
-    description:
-      "The user chants an incantation toward the sky, preventing the foe from landing critical hits.",
+    description: "The user chants an incantation toward the sky, preventing the foe from landing critical hits."
   },
   {
     id: "MEFIRST",
@@ -6801,8 +6248,7 @@ export const moves: Move[] = [
     accuracy: null,
     totalPP: 20,
     target: "NearFoe",
-    description:
-      "The user tries to cut ahead of the foe to steal and use the foe's intended move with greater power.",
+    description: "The user tries to cut ahead of the foe to steal and use the foe's intended move with greater power."
   },
   {
     id: "MEANLOOK",
@@ -6813,8 +6259,7 @@ export const moves: Move[] = [
     accuracy: null,
     totalPP: 5,
     target: "NearOther",
-    description:
-      "The user pins the target with a dark, arresting look. The target becomes unable to flee.",
+    description: "The user pins the target with a dark, arresting look. The target becomes unable to flee."
   },
   {
     id: "METRONOME",
@@ -6825,8 +6270,7 @@ export const moves: Move[] = [
     accuracy: null,
     totalPP: 10,
     target: "User",
-    description:
-      "The user waggles a finger and stimulates its brain into randomly using nearly any move.",
+    description: "The user waggles a finger and stimulates its brain into randomly using nearly any move."
   },
   {
     id: "MILKDRINK",
@@ -6837,8 +6281,7 @@ export const moves: Move[] = [
     accuracy: null,
     totalPP: 5,
     target: "User",
-    description:
-      "The user restores its own HP by up to half of its maximum HP. May also be used in the field to heal HP.",
+    description: "The user restores its own HP by up to half of its maximum HP. May also be used in the field to heal HP."
   },
   {
     id: "MIMIC",
@@ -6849,8 +6292,7 @@ export const moves: Move[] = [
     accuracy: null,
     totalPP: 10,
     target: "NearOther",
-    description:
-      "The user copies the move last used by the foe. The move can be used until the user is switched out.",
+    description: "The user copies the move last used by the foe. The move can be used until the user is switched out."
   },
   {
     id: "MINDREADER",
@@ -6861,8 +6303,7 @@ export const moves: Move[] = [
     accuracy: null,
     totalPP: 5,
     target: "NearOther",
-    description:
-      "The user senses the foe's movements with its mind to ensure its next attack does not miss the foe.",
+    description: "The user senses the foe's movements with its mind to ensure its next attack does not miss the foe."
   },
   {
     id: "MINIMIZE",
@@ -6873,8 +6314,7 @@ export const moves: Move[] = [
     accuracy: null,
     totalPP: 10,
     target: "User",
-    description:
-      "The user compresses its body to make itself look smaller, which sharply raises its evasiveness.",
+    description: "The user compresses its body to make itself look smaller, which sharply raises its evasiveness."
   },
   {
     id: "MORNINGSUN",
@@ -6885,8 +6325,7 @@ export const moves: Move[] = [
     accuracy: null,
     totalPP: 5,
     target: "User",
-    description:
-      "The user restores its own HP. The amount of HP regained varies with the weather.",
+    description: "The user restores its own HP. The amount of HP regained varies with the weather."
   },
   {
     id: "NATUREPOWER",
@@ -6897,8 +6336,7 @@ export const moves: Move[] = [
     accuracy: null,
     totalPP: 20,
     target: "NearOther",
-    description:
-      "An attack that makes use of nature's power. Its effects vary depending on the user's environment.",
+    description: "An attack that makes use of nature's power. Its effects vary depending on the user's environment."
   },
   {
     id: "NOBLEROAR",
@@ -6909,8 +6347,7 @@ export const moves: Move[] = [
     accuracy: null,
     totalPP: 30,
     target: "NearOther",
-    description:
-      "Letting out a noble roar, the user intimidates the target and lowers its Attack and Sp. Atk.",
+    description: "Letting out a noble roar, the user intimidates the target and lowers its Attack and Sp. Atk."
   },
   {
     id: "ODORSLEUTH",
@@ -6921,8 +6358,7 @@ export const moves: Move[] = [
     accuracy: null,
     totalPP: 40,
     target: "NearOther",
-    description:
-      "Enables the user to hit a Ghost type with any type of move. It also enables the user to hit an evasive foe.",
+    description: "Enables the user to hit a Ghost type with any type of move. It also enables the user to hit an evasive foe."
   },
   {
     id: "PAINSPLIT",
@@ -6933,8 +6369,7 @@ export const moves: Move[] = [
     accuracy: null,
     totalPP: 20,
     target: "NearOther",
-    description:
-      "The user adds its HP to the target's HP, then equally shares the combined HP with the target.",
+    description: "The user adds its HP to the target's HP, then equally shares the combined HP with the target."
   },
   {
     id: "PERISHSONG",
@@ -6945,8 +6380,7 @@ export const moves: Move[] = [
     accuracy: null,
     totalPP: 5,
     target: "AllBattlers",
-    description:
-      "Any Pokémon that hears this song faints in three turns, unless it switches out of battle.",
+    description: "Any Pokémon that hears this song faints in three turns, unless it switches out of battle."
   },
   {
     id: "PLAYNICE",
@@ -6957,8 +6391,7 @@ export const moves: Move[] = [
     accuracy: null,
     totalPP: 20,
     target: "NearOther",
-    description:
-      "The user and target become friends. The target loses its will to fight, lowering its Attack stat.",
+    description: "The user and target become friends. The target loses its will to fight, lowering its Attack stat."
   },
   {
     id: "POWERSHIFT",
@@ -6969,7 +6402,7 @@ export const moves: Move[] = [
     accuracy: null,
     totalPP: 10,
     target: "User",
-    description: "The user swaps its Attack and Defense stats.",
+    description: "The user swaps its Attack and Defense stats."
   },
   {
     id: "PROTECT",
@@ -6980,8 +6413,7 @@ export const moves: Move[] = [
     accuracy: null,
     totalPP: 10,
     target: "User",
-    description:
-      "It enables the user to evade all attacks. Its chance of failing rises if it is used in succession.",
+    description: "It enables the user to evade all attacks. Its chance of failing rises if it is used in succession."
   },
   {
     id: "PSYCHUP",
@@ -6992,8 +6424,7 @@ export const moves: Move[] = [
     accuracy: null,
     totalPP: 10,
     target: "NearOther",
-    description:
-      "The user hypnotizes itself into copying any stat change made by the target.",
+    description: "The user hypnotizes itself into copying any stat change made by the target."
   },
   {
     id: "RECOVER",
@@ -7004,8 +6435,7 @@ export const moves: Move[] = [
     accuracy: null,
     totalPP: 5,
     target: "User",
-    description:
-      "Restoring its own cells, the user restores its own HP by half of its max HP.",
+    description: "Restoring its own cells, the user restores its own HP by half of its max HP."
   },
   {
     id: "RECYCLE",
@@ -7016,8 +6446,7 @@ export const moves: Move[] = [
     accuracy: null,
     totalPP: 10,
     target: "User",
-    description:
-      "The user recycles a held item that has been used in battle so it can be used again.",
+    description: "The user recycles a held item that has been used in battle so it can be used again."
   },
   {
     id: "REFLECTTYPE",
@@ -7028,8 +6457,7 @@ export const moves: Move[] = [
     accuracy: null,
     totalPP: 15,
     target: "NearOther",
-    description:
-      "The user reflects the target's type, making it the same type as the target.",
+    description: "The user reflects the target's type, making it the same type as the target."
   },
   {
     id: "REFRESH",
@@ -7040,8 +6468,7 @@ export const moves: Move[] = [
     accuracy: null,
     totalPP: 20,
     target: "User",
-    description:
-      "The user rests to cure itself of a poisoning, burn, or paralysis.",
+    description: "The user rests to cure itself of a poisoning, burn, or paralysis."
   },
   {
     id: "REVIVALBLESSING",
@@ -7052,8 +6479,7 @@ export const moves: Move[] = [
     accuracy: null,
     totalPP: 1,
     target: "User",
-    description:
-      "The user bestows a loving blessing, reviving a fainted party Pokémon to half of its max HP.",
+    description: "The user bestows a loving blessing, reviving a fainted party Pokémon to half of its max HP."
   },
   {
     id: "ROAR",
@@ -7064,8 +6490,7 @@ export const moves: Move[] = [
     accuracy: null,
     totalPP: 20,
     target: "NearOther",
-    description:
-      "The target is scared off and replaced by another Pokémon in its party. In the wild, the battle ends.",
+    description: "The target is scared off and replaced by another Pokémon in its party. In the wild, the battle ends."
   },
   {
     id: "SAFEGUARD",
@@ -7076,8 +6501,7 @@ export const moves: Move[] = [
     accuracy: null,
     totalPP: 25,
     target: "UserSide",
-    description:
-      "The user creates a protective field that prevents status problems for five turns.",
+    description: "The user creates a protective field that prevents status problems for five turns."
   },
   {
     id: "SCARYFACE",
@@ -7088,8 +6512,7 @@ export const moves: Move[] = [
     accuracy: 100,
     totalPP: 10,
     target: "NearOther",
-    description:
-      "The user frightens the target with a scary face to harshly reduce its Speed stat.",
+    description: "The user frightens the target with a scary face to harshly reduce its Speed stat."
   },
   {
     id: "SCREECH",
@@ -7100,8 +6523,7 @@ export const moves: Move[] = [
     accuracy: 85,
     totalPP: 40,
     target: "NearOther",
-    description:
-      "An earsplitting screech harshly reduces the target's Defense stat.",
+    description: "An earsplitting screech harshly reduces the target's Defense stat."
   },
   {
     id: "SHARPEN",
@@ -7112,8 +6534,7 @@ export const moves: Move[] = [
     accuracy: null,
     totalPP: 30,
     target: "User",
-    description:
-      "The user reduces its polygon count to make itself more jagged, raising the Attack stat.",
+    description: "The user reduces its polygon count to make itself more jagged, raising the Attack stat."
   },
   {
     id: "SHEDTAIL",
@@ -7124,8 +6545,7 @@ export const moves: Move[] = [
     accuracy: null,
     totalPP: 10,
     target: "User",
-    description:
-      "The user creates a substitute using its own HP and then switches places with a party Pokémon.",
+    description: "The user creates a substitute using its own HP and then switches places with a party Pokémon."
   },
   {
     id: "SHELLSMASH",
@@ -7136,8 +6556,7 @@ export const moves: Move[] = [
     accuracy: null,
     totalPP: 15,
     target: "User",
-    description:
-      "The user breaks its shell, lowering its defenses but sharply raising attacking and Speed stats.",
+    description: "The user breaks its shell, lowering its defenses but sharply raising attacking and Speed stats."
   },
   {
     id: "SIMPLEBEAM",
@@ -7148,8 +6567,7 @@ export const moves: Move[] = [
     accuracy: 100,
     totalPP: 15,
     target: "NearOther",
-    description:
-      "The user's mysterious psychic wave changes the target's Ability to Simple.",
+    description: "The user's mysterious psychic wave changes the target's Ability to Simple."
   },
   {
     id: "SING",
@@ -7160,8 +6578,7 @@ export const moves: Move[] = [
     accuracy: 55,
     totalPP: 15,
     target: "NearOther",
-    description:
-      "A soothing lullaby is sung in a calming voice that puts the target into a deep slumber.",
+    description: "A soothing lullaby is sung in a calming voice that puts the target into a deep slumber."
   },
   {
     id: "SKETCH",
@@ -7172,8 +6589,7 @@ export const moves: Move[] = [
     accuracy: null,
     totalPP: 1,
     target: "NearOther",
-    description:
-      "It enables the user to permanently learn the move last used by the foe. Once used, Sketch disappears.",
+    description: "It enables the user to permanently learn the move last used by the foe. Once used, Sketch disappears."
   },
   {
     id: "SLACKOFF",
@@ -7184,8 +6600,7 @@ export const moves: Move[] = [
     accuracy: null,
     totalPP: 5,
     target: "User",
-    description:
-      "The user slacks off, restoring its own HP by up to half of its maximum HP.",
+    description: "The user slacks off, restoring its own HP by up to half of its maximum HP."
   },
   {
     id: "SLEEPTALK",
@@ -7196,8 +6611,7 @@ export const moves: Move[] = [
     accuracy: null,
     totalPP: 10,
     target: "User",
-    description:
-      "While it is asleep, the user randomly uses one of the moves it knows.",
+    description: "While it is asleep, the user randomly uses one of the moves it knows."
   },
   {
     id: "SMOKESCREEN",
@@ -7208,8 +6622,7 @@ export const moves: Move[] = [
     accuracy: 100,
     totalPP: 20,
     target: "NearOther",
-    description:
-      "The user releases an obscuring cloud of smoke or ink. It reduces the target's accuracy.",
+    description: "The user releases an obscuring cloud of smoke or ink. It reduces the target's accuracy."
   },
   {
     id: "SOFTBOILED",
@@ -7220,8 +6633,7 @@ export const moves: Move[] = [
     accuracy: null,
     totalPP: 5,
     target: "User",
-    description:
-      "The user restores its own HP by up to half of its maximum HP. May also be used in the field to heal HP.",
+    description: "The user restores its own HP by up to half of its maximum HP. May also be used in the field to heal HP."
   },
   {
     id: "SPLASH",
@@ -7232,8 +6644,7 @@ export const moves: Move[] = [
     accuracy: null,
     totalPP: 40,
     target: "User",
-    description:
-      "The user just flops and splashes around to no effect at all...",
+    description: "The user just flops and splashes around to no effect at all..."
   },
   {
     id: "SPOTLIGHT",
@@ -7244,8 +6655,7 @@ export const moves: Move[] = [
     accuracy: null,
     totalPP: 15,
     target: "NearOther",
-    description:
-      "The user shines a spotlight on the target so that only it will be attacked during the turn.",
+    description: "The user shines a spotlight on the target so that only it will be attacked during the turn."
   },
   {
     id: "STOCKPILE",
@@ -7256,8 +6666,7 @@ export const moves: Move[] = [
     accuracy: null,
     totalPP: 20,
     target: "User",
-    description:
-      "The user charges up power and raises both its Defense and Sp. Def. The move can be used three times.",
+    description: "The user charges up power and raises both its Defense and Sp. Def. The move can be used three times."
   },
   {
     id: "STUFFCHEEKS",
@@ -7268,8 +6677,7 @@ export const moves: Move[] = [
     accuracy: null,
     totalPP: 10,
     target: "User",
-    description:
-      "The user eats its held Berry, then sharply raises its Defense stat.",
+    description: "The user eats its held Berry, then sharply raises its Defense stat."
   },
   {
     id: "SUBSTITUTE",
@@ -7280,8 +6688,7 @@ export const moves: Move[] = [
     accuracy: null,
     totalPP: 10,
     target: "User",
-    description:
-      "The user makes a copy of itself using some of its HP. The copy serves as the user's decoy.",
+    description: "The user makes a copy of itself using some of its HP. The copy serves as the user's decoy."
   },
   {
     id: "SUPERSONIC",
@@ -7292,8 +6699,7 @@ export const moves: Move[] = [
     accuracy: 55,
     totalPP: 20,
     target: "NearOther",
-    description:
-      "The user generates odd sound waves from its body. It may confuse the target.",
+    description: "The user generates odd sound waves from its body. It may confuse the target."
   },
   {
     id: "SWAGGER",
@@ -7304,8 +6710,7 @@ export const moves: Move[] = [
     accuracy: 85,
     totalPP: 15,
     target: "NearOther",
-    description:
-      "The user enrages and confuses the target. However, it also sharply raises the target's Attack stat.",
+    description: "The user enrages and confuses the target. However, it also sharply raises the target's Attack stat."
   },
   {
     id: "SWALLOW",
@@ -7316,8 +6721,7 @@ export const moves: Move[] = [
     accuracy: null,
     totalPP: 10,
     target: "User",
-    description:
-      "The power stored using the move Stockpile is absorbed by the user to heal its HP.",
+    description: "The power stored using the move Stockpile is absorbed by the user to heal its HP."
   },
   {
     id: "SWEETSCENT",
@@ -7328,8 +6732,7 @@ export const moves: Move[] = [
     accuracy: 100,
     totalPP: 20,
     target: "AllNearFoes",
-    description:
-      "A sweet scent that lowers the foe's evasiveness. It also lures wild Pokémon if used in grass, etc.",
+    description: "A sweet scent that lowers the foe's evasiveness. It also lures wild Pokémon if used in grass, etc."
   },
   {
     id: "SWORDSDANCE",
@@ -7340,8 +6743,7 @@ export const moves: Move[] = [
     accuracy: null,
     totalPP: 10,
     target: "User",
-    description:
-      "A frenetic dance to uplift the fighting spirit. It sharply raises the user's Attack stat.",
+    description: "A frenetic dance to uplift the fighting spirit. It sharply raises the user's Attack stat."
   },
   {
     id: "TAILWHIP",
@@ -7352,8 +6754,7 @@ export const moves: Move[] = [
     accuracy: 100,
     totalPP: 30,
     target: "AllNearFoes",
-    description:
-      "The user wags its tail cutely, making opposing Pokémon less wary and lowering their Defense stat.",
+    description: "The user wags its tail cutely, making opposing Pokémon less wary and lowering their Defense stat."
   },
   {
     id: "TEARFULLOOK",
@@ -7364,8 +6765,7 @@ export const moves: Move[] = [
     accuracy: null,
     totalPP: 20,
     target: "NearOther",
-    description:
-      "Gets teary eyed to make the target lose its will to fight. Lowers the target's Attack and Sp. Atk.",
+    description: "Gets teary eyed to make the target lose its will to fight. Lowers the target's Attack and Sp. Atk."
   },
   {
     id: "TEATIME",
@@ -7376,8 +6776,7 @@ export const moves: Move[] = [
     accuracy: null,
     totalPP: 10,
     target: "AllBattlers",
-    description:
-      "The user has teatime with all the Pokémon in the battle. Each Pokémon eats its held Berry.",
+    description: "The user has teatime with all the Pokémon in the battle. Each Pokémon eats its held Berry."
   },
   {
     id: "TEETERDANCE",
@@ -7388,8 +6787,7 @@ export const moves: Move[] = [
     accuracy: 100,
     totalPP: 20,
     target: "AllNearOthers",
-    description:
-      "The user performs a wobbly dance that confuses the Pokémon around it.",
+    description: "The user performs a wobbly dance that confuses the Pokémon around it."
   },
   {
     id: "TICKLE",
@@ -7400,8 +6798,7 @@ export const moves: Move[] = [
     accuracy: 100,
     totalPP: 20,
     target: "NearOther",
-    description:
-      "The user tickles the target into laughing, reducing its Attack and Defense stats.",
+    description: "The user tickles the target into laughing, reducing its Attack and Defense stats."
   },
   {
     id: "TIDYUP",
@@ -7412,8 +6809,7 @@ export const moves: Move[] = [
     accuracy: null,
     totalPP: 10,
     target: "User",
-    description:
-      "The user removes all entry hazards and Substitutes. This also boosts the user's Attack and Speed.",
+    description: "The user removes all entry hazards and Substitutes. This also boosts the user's Attack and Speed."
   },
   {
     id: "TRANSFORM",
@@ -7424,8 +6820,7 @@ export const moves: Move[] = [
     accuracy: null,
     totalPP: 10,
     target: "NearOther",
-    description:
-      "The user transforms into a copy of the target right down to having the same move set.",
+    description: "The user transforms into a copy of the target right down to having the same move set."
   },
   {
     id: "WHIRLWIND",
@@ -7436,8 +6831,7 @@ export const moves: Move[] = [
     accuracy: null,
     totalPP: 20,
     target: "NearOther",
-    description:
-      "The foe is blown away, to be replaced by another Pokémon in its party. In the wild, the battle ends.",
+    description: "The foe is blown away, to be replaced by another Pokémon in its party. In the wild, the battle ends."
   },
   {
     id: "WISH",
@@ -7448,8 +6842,7 @@ export const moves: Move[] = [
     accuracy: null,
     totalPP: 10,
     target: "User",
-    description:
-      "One turn after this move is used, the target's HP is restored by half the user's maximum HP.",
+    description: "One turn after this move is used, the target's HP is restored by half the user's maximum HP."
   },
   {
     id: "WORKUP",
@@ -7460,8 +6853,7 @@ export const moves: Move[] = [
     accuracy: null,
     totalPP: 30,
     target: "User",
-    description:
-      "The user is roused, and its Attack and Sp. Atk stats increase.",
+    description: "The user is roused, and its Attack and Sp. Atk stats increase."
   },
   {
     id: "YAWN",
@@ -7472,8 +6864,7 @@ export const moves: Move[] = [
     accuracy: null,
     totalPP: 10,
     target: "NearOther",
-    description:
-      "The user lets loose a huge yawn that lulls the target into falling asleep on the next turn.",
+    description: "The user lets loose a huge yawn that lulls the target into falling asleep on the next turn."
   },
   {
     id: "BELCH",
@@ -7484,8 +6875,7 @@ export const moves: Move[] = [
     accuracy: 90,
     totalPP: 10,
     target: "NearOther",
-    description:
-      "The user lets out a damaging belch at the target. The user must eat a held Berry to use this move.",
+    description: "The user lets out a damaging belch at the target. The user must eat a held Berry to use this move."
   },
   {
     id: "GUNKSHOT",
@@ -7496,8 +6886,7 @@ export const moves: Move[] = [
     accuracy: 80,
     totalPP: 5,
     target: "NearOther",
-    description:
-      "The user shoots filthy garbage at the target to attack. It may also poison the target.",
+    description: "The user shoots filthy garbage at the target to attack. It may also poison the target."
   },
   {
     id: "MALIGNANTCHAIN",
@@ -7508,8 +6897,7 @@ export const moves: Move[] = [
     accuracy: 100,
     totalPP: 5,
     target: "NearOther",
-    description:
-      "The user wraps the target in a toxic, corrosive chain. This may also badly poison the target.",
+    description: "The user wraps the target in a toxic, corrosive chain. This may also badly poison the target."
   },
   {
     id: "SLUDGEWAVE",
@@ -7520,8 +6908,7 @@ export const moves: Move[] = [
     accuracy: 100,
     totalPP: 10,
     target: "AllNearOthers",
-    description:
-      "It swamps the area around the user with a giant sludge wave. It may also poison those hit.",
+    description: "It swamps the area around the user with a giant sludge wave. It may also poison those hit."
   },
   {
     id: "SHELLSIDEARM",
@@ -7532,8 +6919,7 @@ export const moves: Move[] = [
     accuracy: 100,
     totalPP: 10,
     target: "NearOther",
-    description:
-      "Inflicts physical or special damage, whichever will be more effective. May also poison the target.",
+    description: "Inflicts physical or special damage, whichever will be more effective. May also poison the target."
   },
   {
     id: "SLUDGEBOMB",
@@ -7544,8 +6930,7 @@ export const moves: Move[] = [
     accuracy: 100,
     totalPP: 10,
     target: "NearOther",
-    description:
-      "Unsanitary sludge is hurled at the target. It may also poison the target.",
+    description: "Unsanitary sludge is hurled at the target. It may also poison the target."
   },
   {
     id: "DIRECLAW",
@@ -7556,8 +6941,7 @@ export const moves: Move[] = [
     accuracy: 100,
     totalPP: 15,
     target: "NearOther",
-    description:
-      "The user lashes out with ruinous claws. This may also leave the target poisoned, paralyzed or asleep.",
+    description: "The user lashes out with ruinous claws. This may also leave the target poisoned, paralyzed or asleep."
   },
   {
     id: "POISONJAB",
@@ -7568,8 +6952,7 @@ export const moves: Move[] = [
     accuracy: 100,
     totalPP: 20,
     target: "NearOther",
-    description:
-      "The target is stabbed with a tentacle or arm seeped with poison. It may also poison the target.",
+    description: "The target is stabbed with a tentacle or arm seeped with poison. It may also poison the target."
   },
   {
     id: "CROSSPOISON",
@@ -7580,8 +6963,7 @@ export const moves: Move[] = [
     accuracy: 100,
     totalPP: 20,
     target: "NearOther",
-    description:
-      "A slashing attack with a poisonous blade that may also poison the foe. Critical hits land more easily.",
+    description: "A slashing attack with a poisonous blade that may also poison the foe. Critical hits land more easily."
   },
   {
     id: "SLUDGE",
@@ -7592,8 +6974,7 @@ export const moves: Move[] = [
     accuracy: 100,
     totalPP: 20,
     target: "NearOther",
-    description:
-      "Unsanitary sludge is hurled at the target. It may also poison the target.",
+    description: "Unsanitary sludge is hurled at the target. It may also poison the target."
   },
   {
     id: "VENOSHOCK",
@@ -7604,8 +6985,7 @@ export const moves: Move[] = [
     accuracy: 100,
     totalPP: 10,
     target: "NearOther",
-    description:
-      "The user drenches the foe in a special poisonous liquid. Its power doubles if the target is poisoned.",
+    description: "The user drenches the foe in a special poisonous liquid. Its power doubles if the target is poisoned."
   },
   {
     id: "BARBBARRAGE",
@@ -7616,8 +6996,7 @@ export const moves: Move[] = [
     accuracy: 100,
     totalPP: 10,
     target: "NearOther",
-    description:
-      "The user fires toxic barbs that may poison the target. Power is doubled if the target is already poisoned.",
+    description: "The user fires toxic barbs that may poison the target. Power is doubled if the target is already poisoned."
   },
   {
     id: "CLEARSMOG",
@@ -7628,8 +7007,7 @@ export const moves: Move[] = [
     accuracy: null,
     totalPP: 15,
     target: "NearOther",
-    description:
-      "The user attacks by throwing a clump of special mud. All status changes are returned to normal.",
+    description: "The user attacks by throwing a clump of special mud. All status changes are returned to normal."
   },
   {
     id: "POISONFANG",
@@ -7640,8 +7018,7 @@ export const moves: Move[] = [
     accuracy: 100,
     totalPP: 15,
     target: "NearOther",
-    description:
-      "The user bites the target with toxic fangs. It may also leave the target badly poisoned.",
+    description: "The user bites the target with toxic fangs. It may also leave the target badly poisoned."
   },
   {
     id: "POISONTAIL",
@@ -7652,8 +7029,7 @@ export const moves: Move[] = [
     accuracy: 100,
     totalPP: 25,
     target: "NearOther",
-    description:
-      "The user hits the target with its tail. It may also poison the target. Critical hits land more easily.",
+    description: "The user hits the target with its tail. It may also poison the target. Critical hits land more easily."
   },
   {
     id: "ACID",
@@ -7664,8 +7040,7 @@ export const moves: Move[] = [
     accuracy: 100,
     totalPP: 30,
     target: "AllNearFoes",
-    description:
-      "The foe is attacked with a spray of harsh acid. It may also lower the target's Sp. Def stat.",
+    description: "The foe is attacked with a spray of harsh acid. It may also lower the target's Sp. Def stat."
   },
   {
     id: "ACIDSPRAY",
@@ -7676,8 +7051,7 @@ export const moves: Move[] = [
     accuracy: 100,
     totalPP: 20,
     target: "NearOther",
-    description:
-      "The user spits fluid that works to melt the target. This harshly reduces the target's Sp. Def stat.",
+    description: "The user spits fluid that works to melt the target. This harshly reduces the target's Sp. Def stat."
   },
   {
     id: "MORTALSPIN",
@@ -7688,8 +7062,7 @@ export const moves: Move[] = [
     accuracy: 100,
     totalPP: 15,
     target: "AllNearFoes",
-    description:
-      "Performs a spin that eliminates certain traps and hazards. This also poisons opposing Pokémon.",
+    description: "Performs a spin that eliminates certain traps and hazards. This also poisons opposing Pokémon."
   },
   {
     id: "SMOG",
@@ -7700,8 +7073,7 @@ export const moves: Move[] = [
     accuracy: 70,
     totalPP: 20,
     target: "NearOther",
-    description:
-      "The target is attacked with a discharge of filthy gases. It may also poison the target.",
+    description: "The target is attacked with a discharge of filthy gases. It may also poison the target."
   },
   {
     id: "POISONSTING",
@@ -7712,8 +7084,7 @@ export const moves: Move[] = [
     accuracy: 100,
     totalPP: 35,
     target: "NearOther",
-    description:
-      "The user stabs the target with a poisonous stinger. This may also poison the target.",
+    description: "The user stabs the target with a poisonous stinger. This may also poison the target."
   },
   {
     id: "ACIDARMOR",
@@ -7724,8 +7095,7 @@ export const moves: Move[] = [
     accuracy: null,
     totalPP: 20,
     target: "User",
-    description:
-      "The user alters its cellular structure to liquefy itself, sharply raising its Defense stat.",
+    description: "The user alters its cellular structure to liquefy itself, sharply raising its Defense stat."
   },
   {
     id: "BANEFULBUNKER",
@@ -7736,8 +7106,7 @@ export const moves: Move[] = [
     accuracy: null,
     totalPP: 10,
     target: "User",
-    description:
-      "Protects the user from attacks. Also poisons any attacker that makes contact with the user.",
+    description: "Protects the user from attacks. Also poisons any attacker that makes contact with the user."
   },
   {
     id: "COIL",
@@ -7748,8 +7117,7 @@ export const moves: Move[] = [
     accuracy: null,
     totalPP: 20,
     target: "User",
-    description:
-      "The user coils up and concentrates. This raises its Attack and Defense stats as well as its accuracy.",
+    description: "The user coils up and concentrates. This raises its Attack and Defense stats as well as its accuracy."
   },
   {
     id: "CORROSIVEGAS",
@@ -7760,8 +7128,7 @@ export const moves: Move[] = [
     accuracy: 100,
     totalPP: 40,
     target: "AllNearOthers",
-    description:
-      "The user surrounds everything around it with highly acidic gas and melts away items they hold.",
+    description: "The user surrounds everything around it with highly acidic gas and melts away items they hold."
   },
   {
     id: "GASTROACID",
@@ -7772,8 +7139,7 @@ export const moves: Move[] = [
     accuracy: 100,
     totalPP: 10,
     target: "NearOther",
-    description:
-      "The user hurls up its stomach acids on the foe. The fluid negates the effect of the target's Ability.",
+    description: "The user hurls up its stomach acids on the foe. The fluid negates the effect of the target's Ability."
   },
   {
     id: "POISONGAS",
@@ -7784,8 +7150,7 @@ export const moves: Move[] = [
     accuracy: 90,
     totalPP: 40,
     target: "AllNearFoes",
-    description:
-      "A cloud of poison gas is sprayed in the face of opposing Pokémon. It may poison those hit.",
+    description: "A cloud of poison gas is sprayed in the face of opposing Pokémon. It may poison those hit."
   },
   {
     id: "POISONPOWDER",
@@ -7796,8 +7161,7 @@ export const moves: Move[] = [
     accuracy: 75,
     totalPP: 35,
     target: "NearOther",
-    description:
-      "The user scatters a cloud of poisonous dust on the target. It may poison the target.",
+    description: "The user scatters a cloud of poisonous dust on the target. It may poison the target."
   },
   {
     id: "PURIFY",
@@ -7808,8 +7172,7 @@ export const moves: Move[] = [
     accuracy: null,
     totalPP: 20,
     target: "NearOther",
-    description:
-      "The user heals the target's status condition. If so, it also restores the user's own HP.",
+    description: "The user heals the target's status condition. If so, it also restores the user's own HP."
   },
   {
     id: "TOXIC",
@@ -7820,8 +7183,7 @@ export const moves: Move[] = [
     accuracy: 90,
     totalPP: 10,
     target: "NearOther",
-    description:
-      "A move that leaves the target badly poisoned. Its poison damage worsens every turn.",
+    description: "A move that leaves the target badly poisoned. Its poison damage worsens every turn."
   },
   {
     id: "TOXICSPIKES",
@@ -7832,8 +7194,7 @@ export const moves: Move[] = [
     accuracy: null,
     totalPP: 20,
     target: "FoeSide",
-    description:
-      "The user lays a trap of poison spikes at the foe's feet. They poison foes that switch into battle.",
+    description: "The user lays a trap of poison spikes at the foe's feet. They poison foes that switch into battle."
   },
   {
     id: "TOXICTHREAD",
@@ -7844,8 +7205,7 @@ export const moves: Move[] = [
     accuracy: 100,
     totalPP: 20,
     target: "NearOther",
-    description:
-      "The user shoots poisonous threads to poison the target and lower the target's Speed stat.",
+    description: "The user shoots poisonous threads to poison the target and lower the target's Speed stat."
   },
   {
     id: "VENOMDRENCH",
@@ -7856,8 +7216,7 @@ export const moves: Move[] = [
     accuracy: 100,
     totalPP: 20,
     target: "AllNearFoes",
-    description:
-      "Foes are drenched in an odd liquid that lowers the Attack, Sp. Atk, and Speed of poisoned Pokémon.",
+    description: "Foes are drenched in an odd liquid that lowers the Attack, Sp. Atk, and Speed of poisoned Pokémon."
   },
   {
     id: "PRISMATICLASER",
@@ -7868,8 +7227,7 @@ export const moves: Move[] = [
     accuracy: 100,
     totalPP: 10,
     target: "NearOther",
-    description:
-      "The user shoots powerful lasers using the power of a prism. The user can't move on the next turn.",
+    description: "The user shoots powerful lasers using the power of a prism. The user can't move on the next turn."
   },
   {
     id: "PSYCHOBOOST",
@@ -7880,8 +7238,7 @@ export const moves: Move[] = [
     accuracy: 90,
     totalPP: 5,
     target: "NearOther",
-    description:
-      "The user attacks the target at full power. The attack's recoil harshly reduces the user's Sp. Atk stat.",
+    description: "The user attacks the target at full power. The attack's recoil harshly reduces the user's Sp. Atk stat."
   },
   {
     id: "FUTURESIGHT",
@@ -7892,8 +7249,7 @@ export const moves: Move[] = [
     accuracy: 100,
     totalPP: 10,
     target: "NearOther",
-    description:
-      "Two turns after this move is used, a hunk of psychic energy attacks the target.",
+    description: "Two turns after this move is used, a hunk of psychic energy attacks the target."
   },
   {
     id: "SYNCHRONOISE",
@@ -7904,8 +7260,7 @@ export const moves: Move[] = [
     accuracy: 100,
     totalPP: 10,
     target: "AllNearOthers",
-    description:
-      "Using an odd shock wave, the user damages any Pokémon of the same type as the user.",
+    description: "Using an odd shock wave, the user damages any Pokémon of the same type as the user."
   },
   {
     id: "DREAMEATER",
@@ -7916,8 +7271,7 @@ export const moves: Move[] = [
     accuracy: 100,
     totalPP: 15,
     target: "NearOther",
-    description:
-      "The user eats the dreams of a sleeping foe. It absorbs half the damage caused to heal the user's HP.",
+    description: "The user eats the dreams of a sleeping foe. It absorbs half the damage caused to heal the user's HP."
   },
   {
     id: "PHOTONGEYSER",
@@ -7928,8 +7282,7 @@ export const moves: Move[] = [
     accuracy: 100,
     totalPP: 5,
     target: "NearOther",
-    description:
-      "The user attacks with a pillar of light. This move the higher of the user's Attack or Sp. Atk stat.",
+    description: "The user attacks with a pillar of light. This move the higher of the user's Attack or Sp. Atk stat."
   },
   {
     id: "PSYSTRIKE",
@@ -7940,8 +7293,7 @@ export const moves: Move[] = [
     accuracy: 100,
     totalPP: 10,
     target: "NearOther",
-    description:
-      "The user materializes an odd psychic wave to attack the target. This attack does physical damage.",
+    description: "The user materializes an odd psychic wave to attack the target. This attack does physical damage."
   },
   {
     id: "FREEZINGGLARE",
@@ -7952,8 +7304,7 @@ export const moves: Move[] = [
     accuracy: 100,
     totalPP: 10,
     target: "NearOther",
-    description:
-      "The user shoots its psychic power from its eyes to attack. This may also leave the target frozen.",
+    description: "The user shoots its psychic power from its eyes to attack. This may also leave the target frozen."
   },
   {
     id: "PSYCHIC",
@@ -7964,8 +7315,7 @@ export const moves: Move[] = [
     accuracy: 100,
     totalPP: 10,
     target: "NearOther",
-    description:
-      "The target is hit by a strong telekinetic force. It may also reduce the target's Sp. Def stat.",
+    description: "The target is hit by a strong telekinetic force. It may also reduce the target's Sp. Def stat."
   },
   {
     id: "PSYCHICFANGS",
@@ -7976,8 +7326,7 @@ export const moves: Move[] = [
     accuracy: 100,
     totalPP: 10,
     target: "NearOther",
-    description:
-      "The user bites the target using psychic capabilities. This can also destroy Light Screen and Reflect.",
+    description: "The user bites the target using psychic capabilities. This can also destroy Light Screen and Reflect."
   },
   {
     id: "EERIESPELL",
@@ -7988,8 +7337,7 @@ export const moves: Move[] = [
     accuracy: 100,
     totalPP: 5,
     target: "NearOther",
-    description:
-      "The user attacks with tremendous psychic power. This also removes 3 PP from the target's last move.",
+    description: "The user attacks with tremendous psychic power. This also removes 3 PP from the target's last move."
   },
   {
     id: "ESPERWING",
@@ -8000,8 +7348,7 @@ export const moves: Move[] = [
     accuracy: 100,
     totalPP: 10,
     target: "NearOther",
-    description:
-      "The user slashes with aura-enriched wings, and boosts the user's Speed stat. High critical hit chance.",
+    description: "The user slashes with aura-enriched wings, and boosts the user's Speed stat. High critical hit chance."
   },
   {
     id: "EXPANDINGFORCE",
@@ -8012,8 +7359,7 @@ export const moves: Move[] = [
     accuracy: 100,
     totalPP: 10,
     target: "NearOther",
-    description:
-      "The user attacks the target with psychic power. Powers up and hits all foes on Psychic Terrain.",
+    description: "The user attacks the target with psychic power. Powers up and hits all foes on Psychic Terrain."
   },
   {
     id: "EXTRASENSORY",
@@ -8024,8 +7370,7 @@ export const moves: Move[] = [
     accuracy: 100,
     totalPP: 20,
     target: "NearOther",
-    description:
-      "The user attacks with an odd, unseeable power. It may also make the target flinch.",
+    description: "The user attacks with an odd, unseeable power. It may also make the target flinch."
   },
   {
     id: "HYPERSPACEHOLE",
@@ -8036,8 +7381,7 @@ export const moves: Move[] = [
     accuracy: null,
     totalPP: 5,
     target: "NearOther",
-    description:
-      "Using a hyperspace hole, the user appears right next to the target and strikes. Skips protections.",
+    description: "Using a hyperspace hole, the user appears right next to the target and strikes. Skips protections."
   },
   {
     id: "LUMINACRASH",
@@ -8048,8 +7392,7 @@ export const moves: Move[] = [
     accuracy: 100,
     totalPP: 10,
     target: "NearOther",
-    description:
-      "The user attacks by unleashing mind-altering light. This also harshly lowers the target's Sp. Def.",
+    description: "The user attacks by unleashing mind-altering light. This also harshly lowers the target's Sp. Def."
   },
   {
     id: "PSYBLADE",
@@ -8060,8 +7403,7 @@ export const moves: Move[] = [
     accuracy: 100,
     totalPP: 15,
     target: "NearOther",
-    description:
-      "The user rends the target with an ethereal blade. This move is stronger on Electric Terrain.",
+    description: "The user rends the target with an ethereal blade. This move is stronger on Electric Terrain."
   },
   {
     id: "PSYSHOCK",
@@ -8072,8 +7414,7 @@ export const moves: Move[] = [
     accuracy: 100,
     totalPP: 10,
     target: "NearOther",
-    description:
-      "The user materializes an odd psychic wave to attack the target. This attack does physical damage.",
+    description: "The user materializes an odd psychic wave to attack the target. This attack does physical damage."
   },
   {
     id: "ZENHEADBUTT",
@@ -8084,8 +7425,7 @@ export const moves: Move[] = [
     accuracy: 90,
     totalPP: 15,
     target: "NearOther",
-    description:
-      "The user focuses its willpower to its head and attacks the foe. It may also make the target flinch.",
+    description: "The user focuses its willpower to its head and attacks the foe. It may also make the target flinch."
   },
   {
     id: "PSYCHICNOISE",
@@ -8096,8 +7436,7 @@ export const moves: Move[] = [
     accuracy: 100,
     totalPP: 10,
     target: "NearOther",
-    description:
-      "The user attacks with unpleasant sound waves. For two turns, the target cannot recover HP.",
+    description: "The user attacks with unpleasant sound waves. For two turns, the target cannot recover HP."
   },
   {
     id: "LUSTERPURGE",
@@ -8108,8 +7447,7 @@ export const moves: Move[] = [
     accuracy: 100,
     totalPP: 5,
     target: "NearOther",
-    description:
-      "The user lets loose a damaging burst of light. It may also reduce the target's Sp. Def stat.",
+    description: "The user lets loose a damaging burst of light. It may also reduce the target's Sp. Def stat."
   },
   {
     id: "MISTBALL",
@@ -8120,8 +7458,7 @@ export const moves: Move[] = [
     accuracy: 100,
     totalPP: 5,
     target: "NearOther",
-    description:
-      "A mistlike flurry of down envelops and damages the target. It may also lower the target's Sp. Atk.",
+    description: "A mistlike flurry of down envelops and damages the target. It may also lower the target's Sp. Atk."
   },
   {
     id: "MYSTICALPOWER",
@@ -8132,8 +7469,7 @@ export const moves: Move[] = [
     accuracy: 90,
     totalPP: 10,
     target: "NearOther",
-    description:
-      "The user attacks by emitting a mysterious power. This also boosts the user's Sp. Atk stat.",
+    description: "The user attacks by emitting a mysterious power. This also boosts the user's Sp. Atk stat."
   },
   {
     id: "PSYCHOCUT",
@@ -8144,8 +7480,7 @@ export const moves: Move[] = [
     accuracy: 100,
     totalPP: 20,
     target: "NearOther",
-    description:
-      "The user tears at the target with blades formed by psychic power. Critical hits land more easily.",
+    description: "The user tears at the target with blades formed by psychic power. Critical hits land more easily."
   },
   {
     id: "PSYSHIELDBASH",
@@ -8156,8 +7491,7 @@ export const moves: Move[] = [
     accuracy: 90,
     totalPP: 10,
     target: "NearOther",
-    description:
-      "The user slams into the target cloaked in psychic energy. This also boosts the user's Defense stat.",
+    description: "The user slams into the target cloaked in psychic energy. This also boosts the user's Defense stat."
   },
   {
     id: "PSYBEAM",
@@ -8168,8 +7502,7 @@ export const moves: Move[] = [
     accuracy: 100,
     totalPP: 20,
     target: "NearOther",
-    description:
-      "The target is attacked with a peculiar ray. It may also cause confusion.",
+    description: "The target is attacked with a peculiar ray. It may also cause confusion."
   },
   {
     id: "HEARTSTAMP",
@@ -8180,8 +7513,7 @@ export const moves: Move[] = [
     accuracy: 100,
     totalPP: 25,
     target: "NearOther",
-    description:
-      "The user unleashes a vicious blow after its cute act makes the foe less wary. It may also cause flinching.",
+    description: "The user unleashes a vicious blow after its cute act makes the foe less wary. It may also cause flinching."
   },
   {
     id: "CONFUSION",
@@ -8192,8 +7524,7 @@ export const moves: Move[] = [
     accuracy: 100,
     totalPP: 25,
     target: "NearOther",
-    description:
-      "The target is hit by a weak telekinetic force. It may also leave the target confused.",
+    description: "The target is hit by a weak telekinetic force. It may also leave the target confused."
   },
   {
     id: "TWINBEAM",
@@ -8204,8 +7535,7 @@ export const moves: Move[] = [
     accuracy: 100,
     totalPP: 10,
     target: "NearOther",
-    description:
-      "The user shoots mystical beams from its eyes to inflict damage. The target is hit twice in a row.",
+    description: "The user shoots mystical beams from its eyes to inflict damage. The target is hit twice in a row."
   },
   {
     id: "STOREDPOWER",
@@ -8216,8 +7546,7 @@ export const moves: Move[] = [
     accuracy: 100,
     totalPP: 10,
     target: "NearOther",
-    description:
-      "The user attacks with stored power. The more the user's stats are raised, the greater the damage.",
+    description: "The user attacks with stored power. The more the user's stats are raised, the greater the damage."
   },
   {
     id: "MIRRORCOAT",
@@ -8228,8 +7557,7 @@ export const moves: Move[] = [
     accuracy: 100,
     totalPP: 20,
     target: "None",
-    description:
-      "A retaliation move that counters any special attack, inflicting double the damage taken.",
+    description: "A retaliation move that counters any special attack, inflicting double the damage taken."
   },
   {
     id: "PSYWAVE",
@@ -8240,8 +7568,7 @@ export const moves: Move[] = [
     accuracy: 100,
     totalPP: 15,
     target: "NearOther",
-    description:
-      "The target is attacked with an odd psychic wave. The attack varies in intensity.",
+    description: "The target is attacked with an odd psychic wave. The attack varies in intensity."
   },
   {
     id: "AGILITY",
@@ -8252,8 +7579,7 @@ export const moves: Move[] = [
     accuracy: null,
     totalPP: 30,
     target: "User",
-    description:
-      "The user relaxes and lightens its body to move faster. It sharply boosts the Speed stat.",
+    description: "The user relaxes and lightens its body to move faster. It sharply boosts the Speed stat."
   },
   {
     id: "ALLYSWITCH",
@@ -8264,8 +7590,7 @@ export const moves: Move[] = [
     accuracy: null,
     totalPP: 15,
     target: "User",
-    description:
-      "The user uses a strange power to switch places with an ally. More likely to fail if used in succession.",
+    description: "The user uses a strange power to switch places with an ally. More likely to fail if used in succession."
   },
   {
     id: "AMNESIA",
@@ -8276,8 +7601,7 @@ export const moves: Move[] = [
     accuracy: null,
     totalPP: 20,
     target: "User",
-    description:
-      "The user temporarily empties its mind to forget its concerns. It sharply raises the user's Sp. Def stat.",
+    description: "The user temporarily empties its mind to forget its concerns. It sharply raises the user's Sp. Def stat."
   },
   {
     id: "BARRIER",
@@ -8288,8 +7612,7 @@ export const moves: Move[] = [
     accuracy: null,
     totalPP: 20,
     target: "User",
-    description:
-      "The user throws up a sturdy wall that sharply raises its Defense stat.",
+    description: "The user throws up a sturdy wall that sharply raises its Defense stat."
   },
   {
     id: "CALMMIND",
@@ -8300,8 +7623,7 @@ export const moves: Move[] = [
     accuracy: null,
     totalPP: 20,
     target: "User",
-    description:
-      "The user quietly focuses its mind and calms its spirit to raise its Sp. Atk and Sp. Def stats.",
+    description: "The user quietly focuses its mind and calms its spirit to raise its Sp. Atk and Sp. Def stats."
   },
   {
     id: "COSMICPOWER",
@@ -8312,8 +7634,7 @@ export const moves: Move[] = [
     accuracy: null,
     totalPP: 20,
     target: "User",
-    description:
-      "The user absorbs a mystical power from space to raise its Defense and Sp. Def stats.",
+    description: "The user absorbs a mystical power from space to raise its Defense and Sp. Def stats."
   },
   {
     id: "GRAVITY",
@@ -8324,8 +7645,7 @@ export const moves: Move[] = [
     accuracy: null,
     totalPP: 5,
     target: "BothSides",
-    description:
-      "Gravity is intensified for five turns, making moves involving flying unusable and negating Levitation.",
+    description: "Gravity is intensified for five turns, making moves involving flying unusable and negating Levitation."
   },
   {
     id: "GUARDSPLIT",
@@ -8336,8 +7656,7 @@ export const moves: Move[] = [
     accuracy: null,
     totalPP: 10,
     target: "NearOther",
-    description:
-      "The user employs its psychic power to average its Defense and Sp. Def stats with those of its target.",
+    description: "The user employs its psychic power to average its Defense and Sp. Def stats with those of its target."
   },
   {
     id: "GUARDSWAP",
@@ -8348,8 +7667,7 @@ export const moves: Move[] = [
     accuracy: null,
     totalPP: 10,
     target: "NearOther",
-    description:
-      "The user employs its psychic power to switch changes to its Defense and Sp. Def with the target.",
+    description: "The user employs its psychic power to switch changes to its Defense and Sp. Def with the target."
   },
   {
     id: "HEALBLOCK",
@@ -8360,8 +7678,7 @@ export const moves: Move[] = [
     accuracy: 100,
     totalPP: 15,
     target: "AllNearFoes",
-    description:
-      "For five turns, the foe is prevented from using any moves, Abilities, or held items that recover HP.",
+    description: "For five turns, the foe is prevented from using any moves, Abilities, or held items that recover HP."
   },
   {
     id: "HEALPULSE",
@@ -8372,8 +7689,7 @@ export const moves: Move[] = [
     accuracy: null,
     totalPP: 10,
     target: "Other",
-    description:
-      "The user emits a healing pulse which restores the target's HP by up to half of its max HP.",
+    description: "The user emits a healing pulse which restores the target's HP by up to half of its max HP."
   },
   {
     id: "HEALINGWISH",
@@ -8384,8 +7700,7 @@ export const moves: Move[] = [
     accuracy: null,
     totalPP: 10,
     target: "User",
-    description:
-      "The user faints. In return, the Pokémon taking its place will have its HP restored and status cured.",
+    description: "The user faints. In return, the Pokémon taking its place will have its HP restored and status cured."
   },
   {
     id: "HEARTSWAP",
@@ -8396,8 +7711,7 @@ export const moves: Move[] = [
     accuracy: null,
     totalPP: 10,
     target: "NearOther",
-    description:
-      "The user employs its psychic power to switch stat changes with the target.",
+    description: "The user employs its psychic power to switch stat changes with the target."
   },
   {
     id: "HYPNOSIS",
@@ -8408,8 +7722,7 @@ export const moves: Move[] = [
     accuracy: 60,
     totalPP: 20,
     target: "NearOther",
-    description:
-      "The user employs hypnotic suggestion to make the target fall into a deep sleep.",
+    description: "The user employs hypnotic suggestion to make the target fall into a deep sleep."
   },
   {
     id: "IMPRISON",
@@ -8420,8 +7733,7 @@ export const moves: Move[] = [
     accuracy: null,
     totalPP: 10,
     target: "User",
-    description:
-      "If the foe knows any move also known by the user, the foe is prevented from using it.",
+    description: "If the foe knows any move also known by the user, the foe is prevented from using it."
   },
   {
     id: "INSTRUCT",
@@ -8432,8 +7744,7 @@ export const moves: Move[] = [
     accuracy: null,
     totalPP: 15,
     target: "NearOther",
-    description:
-      "The user instructs the target to use the target's last move again.",
+    description: "The user instructs the target to use the target's last move again."
   },
   {
     id: "KINESIS",
@@ -8444,8 +7755,7 @@ export const moves: Move[] = [
     accuracy: 80,
     totalPP: 15,
     target: "NearOther",
-    description:
-      "The user distracts the target by bending a spoon. It lowers the target's accuracy.",
+    description: "The user distracts the target by bending a spoon. It lowers the target's accuracy."
   },
   {
     id: "LIGHTSCREEN",
@@ -8456,8 +7766,7 @@ export const moves: Move[] = [
     accuracy: null,
     totalPP: 30,
     target: "UserSide",
-    description:
-      "A wondrous wall of light is put up to suppress damage from special attacks for five turns.",
+    description: "A wondrous wall of light is put up to suppress damage from special attacks for five turns."
   },
   {
     id: "LUNARBLESSING",
@@ -8468,8 +7777,7 @@ export const moves: Move[] = [
     accuracy: null,
     totalPP: 5,
     target: "UserAndAllies",
-    description:
-      "The user receives a blessing from the moon, healing HP and status problems for itself and its allies.",
+    description: "The user receives a blessing from the moon, healing HP and status problems for itself and its allies."
   },
   {
     id: "LUNARDANCE",
@@ -8480,8 +7788,7 @@ export const moves: Move[] = [
     accuracy: null,
     totalPP: 10,
     target: "User",
-    description:
-      "The user faints. In return, the Pokémon taking its place will have its status and HP fully restored.",
+    description: "The user faints. In return, the Pokémon taking its place will have its status and HP fully restored."
   },
   {
     id: "MAGICCOAT",
@@ -8492,8 +7799,7 @@ export const moves: Move[] = [
     accuracy: null,
     totalPP: 15,
     target: "User",
-    description:
-      "A barrier reflects back to the target moves like Leech Seed and moves that damage status.",
+    description: "A barrier reflects back to the target moves like Leech Seed and moves that damage status."
   },
   {
     id: "MAGICPOWDER",
@@ -8504,8 +7810,7 @@ export const moves: Move[] = [
     accuracy: 100,
     totalPP: 20,
     target: "NearOther",
-    description:
-      "The user scatters a cloud of magic powder that changes the target to Psychic type.",
+    description: "The user scatters a cloud of magic powder that changes the target to Psychic type."
   },
   {
     id: "MAGICROOM",
@@ -8516,8 +7821,7 @@ export const moves: Move[] = [
     accuracy: null,
     totalPP: 10,
     target: "BothSides",
-    description:
-      "The user creates a bizarre area in which Pokémon's held items lose their effects for five turns.",
+    description: "The user creates a bizarre area in which Pokémon's held items lose their effects for five turns."
   },
   {
     id: "MEDITATE",
@@ -8528,8 +7832,7 @@ export const moves: Move[] = [
     accuracy: null,
     totalPP: 40,
     target: "User",
-    description:
-      "The user meditates to awaken the power deep within its body and raise its Attack stat.",
+    description: "The user meditates to awaken the power deep within its body and raise its Attack stat."
   },
   {
     id: "MIRACLEEYE",
@@ -8540,8 +7843,7 @@ export const moves: Move[] = [
     accuracy: null,
     totalPP: 40,
     target: "NearOther",
-    description:
-      "Enables the user to hit a Dark type with any type of move. It also enables the user to hit an evasive foe.",
+    description: "Enables the user to hit a Dark type with any type of move. It also enables the user to hit an evasive foe."
   },
   {
     id: "POWERSPLIT",
@@ -8552,8 +7854,7 @@ export const moves: Move[] = [
     accuracy: null,
     totalPP: 10,
     target: "NearOther",
-    description:
-      "The user employs its psychic power to average its Attack and Sp. Atk stats with those of the target.",
+    description: "The user employs its psychic power to average its Attack and Sp. Atk stats with those of the target."
   },
   {
     id: "POWERSWAP",
@@ -8564,8 +7865,7 @@ export const moves: Move[] = [
     accuracy: null,
     totalPP: 10,
     target: "NearOther",
-    description:
-      "The user employs its psychic power to switch changes to its Attack and Sp. Atk with the target.",
+    description: "The user employs its psychic power to switch changes to its Attack and Sp. Atk with the target."
   },
   {
     id: "POWERTRICK",
@@ -8576,8 +7876,7 @@ export const moves: Move[] = [
     accuracy: null,
     totalPP: 10,
     target: "User",
-    description:
-      "The user employs its psychic power to switch its Attack with its Defense stat.",
+    description: "The user employs its psychic power to switch its Attack with its Defense stat."
   },
   {
     id: "PSYCHICTERRAIN",
@@ -8588,8 +7887,7 @@ export const moves: Move[] = [
     accuracy: null,
     totalPP: 10,
     target: "BothSides",
-    description:
-      "Protects grounded Pokémon from priority moves and powers up Psychic-type moves for five turns.",
+    description: "Protects grounded Pokémon from priority moves and powers up Psychic-type moves for five turns."
   },
   {
     id: "PSYCHOSHIFT",
@@ -8600,8 +7898,7 @@ export const moves: Move[] = [
     accuracy: 100,
     totalPP: 10,
     target: "NearOther",
-    description:
-      "Using its psychic power of suggestion, the user transfers its status problems to the target.",
+    description: "Using its psychic power of suggestion, the user transfers its status problems to the target."
   },
   {
     id: "REFLECT",
@@ -8612,8 +7909,7 @@ export const moves: Move[] = [
     accuracy: null,
     totalPP: 20,
     target: "UserSide",
-    description:
-      "A wondrous wall of light is put up to suppress damage from physical attacks for five turns.",
+    description: "A wondrous wall of light is put up to suppress damage from physical attacks for five turns."
   },
   {
     id: "REST",
@@ -8624,8 +7920,7 @@ export const moves: Move[] = [
     accuracy: null,
     totalPP: 5,
     target: "User",
-    description:
-      "The user goes to sleep for two turns. It fully restores the user's HP and heals any status problem.",
+    description: "The user goes to sleep for two turns. It fully restores the user's HP and heals any status problem."
   },
   {
     id: "ROLEPLAY",
@@ -8636,8 +7931,7 @@ export const moves: Move[] = [
     accuracy: null,
     totalPP: 10,
     target: "NearOther",
-    description:
-      "The user mimics the target completely, copying the target's natural Ability.",
+    description: "The user mimics the target completely, copying the target's natural Ability."
   },
   {
     id: "SKILLSWAP",
@@ -8648,8 +7942,7 @@ export const moves: Move[] = [
     accuracy: null,
     totalPP: 10,
     target: "NearOther",
-    description:
-      "The user employs its psychic power to exchange Abilities with the target.",
+    description: "The user employs its psychic power to exchange Abilities with the target."
   },
   {
     id: "SPEEDSWAP",
@@ -8660,7 +7953,7 @@ export const moves: Move[] = [
     accuracy: null,
     totalPP: 10,
     target: "NearOther",
-    description: "The user exchanges Speed stats with the target.",
+    description: "The user exchanges Speed stats with the target."
   },
   {
     id: "TAKEHEART",
@@ -8671,8 +7964,7 @@ export const moves: Move[] = [
     accuracy: null,
     totalPP: 10,
     target: "User",
-    description:
-      "The user lifts its spirits, curing its own status conditions and boosting its Sp. Atk and Sp. Def stats.",
+    description: "The user lifts its spirits, curing its own status conditions and boosting its Sp. Atk and Sp. Def stats."
   },
   {
     id: "TELEKINESIS",
@@ -8683,8 +7975,7 @@ export const moves: Move[] = [
     accuracy: null,
     totalPP: 15,
     target: "NearOther",
-    description:
-      "The user makes the target float with its psychic power. The target is easier to hit for three turns.",
+    description: "The user makes the target float with its psychic power. The target is easier to hit for three turns."
   },
   {
     id: "TELEPORT",
@@ -8695,8 +7986,7 @@ export const moves: Move[] = [
     accuracy: null,
     totalPP: 20,
     target: "User",
-    description:
-      "The user switches place with a party Pokémon. Also warps to the last Pokémon Center visited.",
+    description: "The user switches place with a party Pokémon. Also warps to the last Pokémon Center visited."
   },
   {
     id: "TRICK",
@@ -8707,8 +7997,7 @@ export const moves: Move[] = [
     accuracy: 100,
     totalPP: 10,
     target: "NearOther",
-    description:
-      "The user catches the target off guard and swaps its held item with its own.",
+    description: "The user catches the target off guard and swaps its held item with its own."
   },
   {
     id: "TRICKROOM",
@@ -8719,8 +8008,7 @@ export const moves: Move[] = [
     accuracy: null,
     totalPP: 5,
     target: "BothSides",
-    description:
-      "The user creates a bizarre area in which slower Pokémon get to move first for five turns.",
+    description: "The user creates a bizarre area in which slower Pokémon get to move first for five turns."
   },
   {
     id: "WONDERROOM",
@@ -8731,8 +8019,7 @@ export const moves: Move[] = [
     accuracy: null,
     totalPP: 10,
     target: "BothSides",
-    description:
-      "The user creates a bizarre area in which Pokémon's Defense and Sp. Def stats are swapped for 5 turns.",
+    description: "The user creates a bizarre area in which Pokémon's Defense and Sp. Def stats are swapped for 5 turns."
   },
   {
     id: "HEADSMASH",
@@ -8743,8 +8030,7 @@ export const moves: Move[] = [
     accuracy: 80,
     totalPP: 5,
     target: "NearOther",
-    description:
-      "The user attacks the foe with a hazardous, full-power headbutt. The user also takes terrible damage.",
+    description: "The user attacks the foe with a hazardous, full-power headbutt. The user also takes terrible damage."
   },
   {
     id: "ROCKWRECKER",
@@ -8755,8 +8041,7 @@ export const moves: Move[] = [
     accuracy: 90,
     totalPP: 5,
     target: "NearOther",
-    description:
-      "The user launches a huge boulder at the target to attack. It must rest on the next turn, however.",
+    description: "The user launches a huge boulder at the target to attack. It must rest on the next turn, however."
   },
   {
     id: "METEORBEAM",
@@ -8767,8 +8052,7 @@ export const moves: Move[] = [
     accuracy: 90,
     totalPP: 10,
     target: "NearOther",
-    description:
-      "Gathers space power and boosts its Sp. Atk stat on the first turn, attacks on the next turn.",
+    description: "Gathers space power and boosts its Sp. Atk stat on the first turn, attacks on the next turn."
   },
   {
     id: "DIAMONDSTORM",
@@ -8779,8 +8063,7 @@ export const moves: Move[] = [
     accuracy: 95,
     totalPP: 5,
     target: "AllNearFoes",
-    description:
-      "The user whips up a storm of diamonds to damage foes. This may also sharply raise the user's Defense stat.",
+    description: "The user whips up a storm of diamonds to damage foes. This may also sharply raise the user's Defense stat."
   },
   {
     id: "STONEEDGE",
@@ -8791,8 +8074,7 @@ export const moves: Move[] = [
     accuracy: 80,
     totalPP: 5,
     target: "NearOther",
-    description:
-      "The user stabs the foe with sharpened stones from below. It has a high critical-hit ratio.",
+    description: "The user stabs the foe with sharpened stones from below. It has a high critical-hit ratio."
   },
   {
     id: "MIGHTYCLEAVE",
@@ -8803,8 +8085,7 @@ export const moves: Move[] = [
     accuracy: 100,
     totalPP: 5,
     target: "NearOther",
-    description:
-      "The user cleaves the target with the light accumulated atop its head. This move hits through protections.",
+    description: "The user cleaves the target with the light accumulated atop its head. This move hits through protections."
   },
   {
     id: "POWERGEM",
@@ -8815,8 +8096,7 @@ export const moves: Move[] = [
     accuracy: 100,
     totalPP: 20,
     target: "NearOther",
-    description:
-      "The user attacks with a ray of light that sparkles as if it were made of gemstones.",
+    description: "The user attacks with a ray of light that sparkles as if it were made of gemstones."
   },
   {
     id: "ROCKSLIDE",
@@ -8827,8 +8107,7 @@ export const moves: Move[] = [
     accuracy: 90,
     totalPP: 10,
     target: "AllNearFoes",
-    description:
-      "Large boulders are hurled at the foes to inflict damage. It may also make the targets flinch.",
+    description: "Large boulders are hurled at the foes to inflict damage. It may also make the targets flinch."
   },
   {
     id: "STONEAXE",
@@ -8839,8 +8118,7 @@ export const moves: Move[] = [
     accuracy: 90,
     totalPP: 15,
     target: "NearOther",
-    description:
-      "The user swings its stone axes at the target. It leaves stone splinters around the target.",
+    description: "The user swings its stone axes at the target. It leaves stone splinters around the target."
   },
   {
     id: "ANCIENTPOWER",
@@ -8851,8 +8129,7 @@ export const moves: Move[] = [
     accuracy: 100,
     totalPP: 5,
     target: "NearOther",
-    description:
-      "The user attacks with a prehistoric power. It may also raise all the user's stats at once.",
+    description: "The user attacks with a prehistoric power. It may also raise all the user's stats at once."
   },
   {
     id: "ROCKTOMB",
@@ -8863,8 +8140,7 @@ export const moves: Move[] = [
     accuracy: 95,
     totalPP: 15,
     target: "NearOther",
-    description:
-      "Boulders are hurled at the target. It also lowers the target's Speed by preventing its movement.",
+    description: "Boulders are hurled at the target. It also lowers the target's Speed by preventing its movement."
   },
   {
     id: "ROCKTHROW",
@@ -8875,8 +8151,7 @@ export const moves: Move[] = [
     accuracy: 90,
     totalPP: 15,
     target: "NearOther",
-    description:
-      "The user picks up and throws a small rock at the target to attack.",
+    description: "The user picks up and throws a small rock at the target to attack."
   },
   {
     id: "SMACKDOWN",
@@ -8887,8 +8162,7 @@ export const moves: Move[] = [
     accuracy: 100,
     totalPP: 15,
     target: "NearOther",
-    description:
-      "The user throws a stone or projectile to attack. A flying Pokémon will fall to the ground when hit.",
+    description: "The user throws a stone or projectile to attack. A flying Pokémon will fall to the ground when hit."
   },
   {
     id: "ACCELEROCK",
@@ -8899,8 +8173,7 @@ export const moves: Move[] = [
     accuracy: 100,
     totalPP: 20,
     target: "NearOther",
-    description:
-      "The user smashes into the target at high speed. This move always goes first.",
+    description: "The user smashes into the target at high speed. This move always goes first."
   },
   {
     id: "SALTCURE",
@@ -8911,8 +8184,7 @@ export const moves: Move[] = [
     accuracy: 100,
     totalPP: 15,
     target: "NearOther",
-    description:
-      "The user salt cures the target, inflicting damage every turn. Steel and Water types take more damage.",
+    description: "The user salt cures the target, inflicting damage every turn. Steel and Water types take more damage."
   },
   {
     id: "ROLLOUT",
@@ -8923,8 +8195,7 @@ export const moves: Move[] = [
     accuracy: 90,
     totalPP: 20,
     target: "NearOther",
-    description:
-      "The user continually rolls into the target over five turns. It becomes stronger each time it hits.",
+    description: "The user continually rolls into the target over five turns. It becomes stronger each time it hits."
   },
   {
     id: "ROCKBLAST",
@@ -8935,8 +8206,7 @@ export const moves: Move[] = [
     accuracy: 90,
     totalPP: 10,
     target: "NearOther",
-    description:
-      "The user hurls hard rocks at the target. Two to five rocks are launched in quick succession.",
+    description: "The user hurls hard rocks at the target. Two to five rocks are launched in quick succession."
   },
   {
     id: "ROCKPOLISH",
@@ -8947,8 +8217,7 @@ export const moves: Move[] = [
     accuracy: null,
     totalPP: 20,
     target: "User",
-    description:
-      "The user polishes its body to reduce drag. It can sharply raise the Speed stat.",
+    description: "The user polishes its body to reduce drag. It can sharply raise the Speed stat."
   },
   {
     id: "SANDSTORM",
@@ -8959,8 +8228,7 @@ export const moves: Move[] = [
     accuracy: null,
     totalPP: 10,
     target: "BothSides",
-    description:
-      "Summons a five-turn sandstorm to hurt all combatants except the Rock, Ground, and Steel types.",
+    description: "Summons a five-turn sandstorm to hurt all combatants except the Rock, Ground, and Steel types."
   },
   {
     id: "STEALTHROCK",
@@ -8971,8 +8239,7 @@ export const moves: Move[] = [
     accuracy: null,
     totalPP: 20,
     target: "FoeSide",
-    description:
-      "The user lays a trap of levitating stones around the foe. The trap hurts foes that switch into battle.",
+    description: "The user lays a trap of levitating stones around the foe. The trap hurts foes that switch into battle."
   },
   {
     id: "TARSHOT",
@@ -8983,8 +8250,7 @@ export const moves: Move[] = [
     accuracy: 100,
     totalPP: 15,
     target: "NearOther",
-    description:
-      "Pours sticky tar over the target, lowering its Speed and making it weaker to Fire-type moves.",
+    description: "Pours sticky tar over the target, lowering its Speed and making it weaker to Fire-type moves."
   },
   {
     id: "WIDEGUARD",
@@ -8995,8 +8261,7 @@ export const moves: Move[] = [
     accuracy: null,
     totalPP: 10,
     target: "UserSide",
-    description:
-      "The user and its allies are protected from wide-ranging attacks for a turn. May fail if used in succession.",
+    description: "The user and its allies are protected from wide-ranging attacks for a turn. May fail if used in succession."
   },
   {
     id: "GIGATONHAMMER",
@@ -9007,8 +8272,7 @@ export const moves: Move[] = [
     accuracy: 100,
     totalPP: 5,
     target: "NearOther",
-    description:
-      "The user swings its whole body around to attack with its huge hammer. Can't be used twice in a row.",
+    description: "The user swings its whole body around to attack with its huge hammer. Can't be used twice in a row."
   },
   {
     id: "DOOMDESIRE",
@@ -9019,8 +8283,7 @@ export const moves: Move[] = [
     accuracy: 100,
     totalPP: 5,
     target: "NearOther",
-    description:
-      "Two turns after this move is used, the user blasts the target with a concentrated bundle of light.",
+    description: "Two turns after this move is used, the user blasts the target with a concentrated bundle of light."
   },
   {
     id: "STEELBEAM",
@@ -9031,8 +8294,7 @@ export const moves: Move[] = [
     accuracy: 95,
     totalPP: 5,
     target: "NearOther",
-    description:
-      "The user fires a beam of steel that it collected from its entire body. This also damages the user.",
+    description: "The user fires a beam of steel that it collected from its entire body. This also damages the user."
   },
   {
     id: "STEELROLLER",
@@ -9043,8 +8305,7 @@ export const moves: Move[] = [
     accuracy: 100,
     totalPP: 5,
     target: "NearOther",
-    description:
-      "The user attacks while destroying the terrain. This move fails when the ground isn't a terrain.",
+    description: "The user attacks while destroying the terrain. This move fails when the ground isn't a terrain."
   },
   {
     id: "MAKEITRAIN",
@@ -9055,8 +8316,7 @@ export const moves: Move[] = [
     accuracy: 100,
     totalPP: 5,
     target: "AllNearFoes",
-    description:
-      "The user throws a mass of coins. This also lowers the user's Sp. Atk. The money is picked up afterwards.",
+    description: "The user throws a mass of coins. This also lowers the user's Sp. Atk. The money is picked up afterwards."
   },
   {
     id: "BEHEMOTHBASH",
@@ -9067,8 +8327,7 @@ export const moves: Move[] = [
     accuracy: 100,
     totalPP: 5,
     target: "NearOther",
-    description:
-      "The user becomes a gigantic shield and slams into the target.",
+    description: "The user becomes a gigantic shield and slams into the target."
   },
   {
     id: "BEHEMOTHBLADE",
@@ -9079,7 +8338,7 @@ export const moves: Move[] = [
     accuracy: 100,
     totalPP: 5,
     target: "NearOther",
-    description: "The user becomes a gigantic sword and cuts the target.",
+    description: "The user becomes a gigantic sword and cuts the target."
   },
   {
     id: "IRONTAIL",
@@ -9090,8 +8349,7 @@ export const moves: Move[] = [
     accuracy: 75,
     totalPP: 15,
     target: "NearOther",
-    description:
-      "The target is slammed with a steel-hard tail. It may also lower the target's Defense stat.",
+    description: "The target is slammed with a steel-hard tail. It may also lower the target's Defense stat."
   },
   {
     id: "SPINOUT",
@@ -9102,8 +8360,7 @@ export const moves: Move[] = [
     accuracy: 100,
     totalPP: 5,
     target: "NearOther",
-    description:
-      "The user spins furiously by straining its legs. This also harshly lowers the user's Speed stat.",
+    description: "The user spins furiously by straining its legs. This also harshly lowers the user's Speed stat."
   },
   {
     id: "SUNSTEELSTRIKE",
@@ -9114,8 +8371,7 @@ export const moves: Move[] = [
     accuracy: 100,
     totalPP: 5,
     target: "NearOther",
-    description:
-      "The user slams into the target with the force of a meteor. Can't be stopped by the target's Ability.",
+    description: "The user slams into the target with the force of a meteor. Can't be stopped by the target's Ability."
   },
   {
     id: "METEORMASH",
@@ -9126,8 +8382,7 @@ export const moves: Move[] = [
     accuracy: 90,
     totalPP: 10,
     target: "NearOther",
-    description:
-      "The target is hit with a hard punch fired like a meteor. It may also raise the user's Attack.",
+    description: "The target is hit with a hard punch fired like a meteor. It may also raise the user's Attack."
   },
   {
     id: "ANCHORSHOT",
@@ -9138,8 +8393,7 @@ export const moves: Move[] = [
     accuracy: 100,
     totalPP: 20,
     target: "NearOther",
-    description:
-      "The user entangles the target with its anchor chain. The target becomes unable to flee.",
+    description: "The user entangles the target with its anchor chain. The target becomes unable to flee."
   },
   {
     id: "FLASHCANNON",
@@ -9150,8 +8404,7 @@ export const moves: Move[] = [
     accuracy: 100,
     totalPP: 10,
     target: "NearOther",
-    description:
-      "The user gathers all its light energy and releases it at once. It may also lower the target's Sp. Def stat.",
+    description: "The user gathers all its light energy and releases it at once. It may also lower the target's Sp. Def stat."
   },
   {
     id: "IRONHEAD",
@@ -9162,8 +8415,7 @@ export const moves: Move[] = [
     accuracy: 100,
     totalPP: 15,
     target: "NearOther",
-    description:
-      "The foe slams the target with its steel-hard head. It may also make the target flinch.",
+    description: "The foe slams the target with its steel-hard head. It may also make the target flinch."
   },
   {
     id: "SMARTSTRIKE",
@@ -9174,8 +8426,7 @@ export const moves: Move[] = [
     accuracy: null,
     totalPP: 10,
     target: "NearOther",
-    description:
-      "The user stabs the target with a sharp horn. This attack never misses.",
+    description: "The user stabs the target with a sharp horn. This attack never misses."
   },
   {
     id: "STEELWING",
@@ -9186,8 +8437,7 @@ export const moves: Move[] = [
     accuracy: 90,
     totalPP: 25,
     target: "NearOther",
-    description:
-      "The target is hit with wings of steel. It may also raise the user's Defense stat.",
+    description: "The target is hit with wings of steel. It may also raise the user's Defense stat."
   },
   {
     id: "DOUBLEIRONBASH",
@@ -9198,8 +8448,7 @@ export const moves: Move[] = [
     accuracy: 100,
     totalPP: 5,
     target: "NearOther",
-    description:
-      "The user rotates, centering the hex nut in its chest, and then strikes twice. May cause flinching.",
+    description: "The user rotates, centering the hex nut in its chest, and then strikes twice. May cause flinching."
   },
   {
     id: "MIRRORSHOT",
@@ -9210,8 +8459,7 @@ export const moves: Move[] = [
     accuracy: 85,
     totalPP: 10,
     target: "NearOther",
-    description:
-      "The user looses a flash of energy from its polished body. It may also lower the target's accuracy.",
+    description: "The user looses a flash of energy from its polished body. It may also lower the target's accuracy."
   },
   {
     id: "MAGNETBOMB",
@@ -9222,8 +8470,7 @@ export const moves: Move[] = [
     accuracy: null,
     totalPP: 20,
     target: "NearOther",
-    description:
-      "The user launches steel bombs that stick to the target. This attack will not miss.",
+    description: "The user launches steel bombs that stick to the target. This attack will not miss."
   },
   {
     id: "GEARGRIND",
@@ -9234,7 +8481,7 @@ export const moves: Move[] = [
     accuracy: 85,
     totalPP: 15,
     target: "NearOther",
-    description: "The user attacks by throwing two steel gears at its target.",
+    description: "The user attacks by throwing two steel gears at its target."
   },
   {
     id: "METALCLAW",
@@ -9245,8 +8492,7 @@ export const moves: Move[] = [
     accuracy: 95,
     totalPP: 35,
     target: "NearOther",
-    description:
-      "The target is raked with steel claws. It may also raise the user's Attack stat.",
+    description: "The target is raked with steel claws. It may also raise the user's Attack stat."
   },
   {
     id: "TACHYONCUTTER",
@@ -9257,8 +8503,7 @@ export const moves: Move[] = [
     accuracy: null,
     totalPP: 10,
     target: "NearOther",
-    description:
-      "The user attacks by launching particle blades at the target twice in a row. This attack never misses.",
+    description: "The user attacks by launching particle blades at the target twice in a row. This attack never misses."
   },
   {
     id: "BULLETPUNCH",
@@ -9269,8 +8514,7 @@ export const moves: Move[] = [
     accuracy: 100,
     totalPP: 30,
     target: "NearOther",
-    description:
-      "The user strikes the target with tough punches as fast as bullets. This move always goes first.",
+    description: "The user strikes the target with tough punches as fast as bullets. This move always goes first."
   },
   {
     id: "GYROBALL",
@@ -9281,8 +8525,7 @@ export const moves: Move[] = [
     accuracy: 100,
     totalPP: 5,
     target: "NearOther",
-    description:
-      "The user tackles the target with a high-speed spin. The slower the user, the greater the damage.",
+    description: "The user tackles the target with a high-speed spin. The slower the user, the greater the damage."
   },
   {
     id: "HARDPRESS",
@@ -9293,8 +8536,7 @@ export const moves: Move[] = [
     accuracy: 100,
     totalPP: 10,
     target: "NearOther",
-    description:
-      "The target is crushed with great force. The attack is more powerful the more HP the target has left.",
+    description: "The target is crushed with great force. The attack is more powerful the more HP the target has left."
   },
   {
     id: "HEAVYSLAM",
@@ -9305,8 +8547,7 @@ export const moves: Move[] = [
     accuracy: 100,
     totalPP: 10,
     target: "NearOther",
-    description:
-      "The user slams into the foe with its heavy body. The heavier the user, the greater the damage.",
+    description: "The user slams into the foe with its heavy body. The heavier the user, the greater the damage."
   },
   {
     id: "METALBURST",
@@ -9317,8 +8558,7 @@ export const moves: Move[] = [
     accuracy: 100,
     totalPP: 10,
     target: "None",
-    description:
-      "The user retaliates with much greater power against the target that last inflicted damage on it.",
+    description: "The user retaliates with much greater power against the target that last inflicted damage on it."
   },
   {
     id: "AUTOTOMIZE",
@@ -9329,8 +8569,7 @@ export const moves: Move[] = [
     accuracy: null,
     totalPP: 15,
     target: "User",
-    description:
-      "The user sheds part of its body to make itself lighter and sharply raise its Speed stat.",
+    description: "The user sheds part of its body to make itself lighter and sharply raise its Speed stat."
   },
   {
     id: "GEARUP",
@@ -9341,8 +8580,7 @@ export const moves: Move[] = [
     accuracy: null,
     totalPP: 20,
     target: "UserAndAllies",
-    description:
-      "The user engages its gears to raise the Attack and Sp. Atk of allies with the Plus or Minus Ability.",
+    description: "The user engages its gears to raise the Attack and Sp. Atk of allies with the Plus or Minus Ability."
   },
   {
     id: "IRONDEFENSE",
@@ -9353,8 +8591,7 @@ export const moves: Move[] = [
     accuracy: null,
     totalPP: 15,
     target: "User",
-    description:
-      "The user hardens its body's surface like iron, sharply raising its Defense stat.",
+    description: "The user hardens its body's surface like iron, sharply raising its Defense stat."
   },
   {
     id: "KINGSSHIELD",
@@ -9365,8 +8602,7 @@ export const moves: Move[] = [
     accuracy: null,
     totalPP: 10,
     target: "User",
-    description:
-      "Protects itself from damage. It also harshly lowers the Attack of attackers that make contact.",
+    description: "Protects itself from damage. It also harshly lowers the Attack of attackers that make contact."
   },
   {
     id: "METALSOUND",
@@ -9377,8 +8613,7 @@ export const moves: Move[] = [
     accuracy: 85,
     totalPP: 40,
     target: "NearOther",
-    description:
-      "A horrible sound like scraping metal harshly reduces the target's Sp. Def stat.",
+    description: "A horrible sound like scraping metal harshly reduces the target's Sp. Def stat."
   },
   {
     id: "SHELTER",
@@ -9389,8 +8624,7 @@ export const moves: Move[] = [
     accuracy: null,
     totalPP: 10,
     target: "User",
-    description:
-      "The user makes its skin as hard as an iron shield, sharply boosting its Defense stat.",
+    description: "The user makes its skin as hard as an iron shield, sharply boosting its Defense stat."
   },
   {
     id: "SHIFTGEAR",
@@ -9401,8 +8635,7 @@ export const moves: Move[] = [
     accuracy: null,
     totalPP: 10,
     target: "User",
-    description:
-      "The user rotates its gears, raising its Attack and sharply raising its Speed.",
+    description: "The user rotates its gears, raising its Attack and sharply raising its Speed."
   },
   {
     id: "HYDROCANNON",
@@ -9413,8 +8646,7 @@ export const moves: Move[] = [
     accuracy: 90,
     totalPP: 5,
     target: "NearOther",
-    description:
-      "The target is hit with a watery blast. The user must rest on the next turn, however.",
+    description: "The target is hit with a watery blast. The user must rest on the next turn, however."
   },
   {
     id: "WATERSPOUT",
@@ -9425,8 +8657,7 @@ export const moves: Move[] = [
     accuracy: 100,
     totalPP: 5,
     target: "AllNearFoes",
-    description:
-      "The user spouts water to damage the foe. The lower the user's HP, the less powerful it becomes.",
+    description: "The user spouts water to damage the foe. The lower the user's HP, the less powerful it becomes."
   },
   {
     id: "WAVECRASH",
@@ -9437,8 +8668,7 @@ export const moves: Move[] = [
     accuracy: 100,
     totalPP: 10,
     target: "NearOther",
-    description:
-      "The user shrouds itself in water and slams with its whole body. This also hurts the user quite a lot.",
+    description: "The user shrouds itself in water and slams with its whole body. This also hurts the user quite a lot."
   },
   {
     id: "HYDROPUMP",
@@ -9449,8 +8679,7 @@ export const moves: Move[] = [
     accuracy: 80,
     totalPP: 5,
     target: "NearOther",
-    description:
-      "The target is blasted by a huge volume of water launched under great pressure.",
+    description: "The target is blasted by a huge volume of water launched under great pressure."
   },
   {
     id: "ORIGINPULSE",
@@ -9461,8 +8690,7 @@ export const moves: Move[] = [
     accuracy: 85,
     totalPP: 10,
     target: "AllNearFoes",
-    description:
-      "The user attacks opposing Pokémon with countless beams of light that glow a deep and brilliant blue.",
+    description: "The user attacks opposing Pokémon with countless beams of light that glow a deep and brilliant blue."
   },
   {
     id: "STEAMERUPTION",
@@ -9473,8 +8701,7 @@ export const moves: Move[] = [
     accuracy: 95,
     totalPP: 5,
     target: "NearOther",
-    description:
-      "The user immerses the target in superheated steam. This may also leave the target with a burn.",
+    description: "The user immerses the target in superheated steam. This may also leave the target with a burn."
   },
   {
     id: "CRABHAMMER",
@@ -9485,8 +8712,7 @@ export const moves: Move[] = [
     accuracy: 90,
     totalPP: 10,
     target: "NearOther",
-    description:
-      "The target is hammered with a large pincer. Critical hits land more easily.",
+    description: "The target is hammered with a large pincer. Critical hits land more easily."
   },
   {
     id: "AQUATAIL",
@@ -9497,8 +8723,7 @@ export const moves: Move[] = [
     accuracy: 90,
     totalPP: 10,
     target: "NearOther",
-    description:
-      "The user attacks by swinging its tail as if it were a vicious wave in a raging storm.",
+    description: "The user attacks by swinging its tail as if it were a vicious wave in a raging storm."
   },
   {
     id: "MUDDYWATER",
@@ -9509,8 +8734,7 @@ export const moves: Move[] = [
     accuracy: 85,
     totalPP: 10,
     target: "AllNearFoes",
-    description:
-      "The user attacks by shooting muddy water at the opposing team. It may also lower the target's accuracy.",
+    description: "The user attacks by shooting muddy water at the opposing team. It may also lower the target's accuracy."
   },
   {
     id: "SPARKLINGARIA",
@@ -9521,8 +8745,7 @@ export const moves: Move[] = [
     accuracy: 100,
     totalPP: 10,
     target: "AllNearOthers",
-    description:
-      "The user bursts into song, emitting many bubbles. Any burnt Pokémon will be healed by these bubbles.",
+    description: "The user bursts into song, emitting many bubbles. Any burnt Pokémon will be healed by these bubbles."
   },
   {
     id: "SURF",
@@ -9533,8 +8756,7 @@ export const moves: Move[] = [
     accuracy: 100,
     totalPP: 15,
     target: "AllNearOthers",
-    description:
-      "It swamps the area around the user with a giant wave. It can also be used for crossing water.",
+    description: "It swamps the area around the user with a giant wave. It can also be used for crossing water."
   },
   {
     id: "FISHIOUSREND",
@@ -9545,8 +8767,7 @@ export const moves: Move[] = [
     accuracy: 100,
     totalPP: 10,
     target: "NearOther",
-    description:
-      "The user rends the target with its hard gills. Power doubles if the user moves first.",
+    description: "The user rends the target with its hard gills. Power doubles if the user moves first."
   },
   {
     id: "LIQUIDATION",
@@ -9557,8 +8778,7 @@ export const moves: Move[] = [
     accuracy: 100,
     totalPP: 10,
     target: "NearOther",
-    description:
-      "The user slams into the target using a full-force blast of water. May lower the target's Defense.",
+    description: "The user slams into the target using a full-force blast of water. May lower the target's Defense."
   },
   {
     id: "AQUASTEP",
@@ -9569,8 +8789,7 @@ export const moves: Move[] = [
     accuracy: 100,
     totalPP: 10,
     target: "NearOther",
-    description:
-      "The user attacks the target using light and fluid dance steps. This also boosts the user's Speed stat.",
+    description: "The user attacks the target using light and fluid dance steps. This also boosts the user's Speed stat."
   },
   {
     id: "DIVE",
@@ -9581,8 +8800,7 @@ export const moves: Move[] = [
     accuracy: 100,
     totalPP: 10,
     target: "NearOther",
-    description:
-      "Diving on the first turn, the user rises and hits on the next turn. It can be used to dive in the ocean.",
+    description: "Diving on the first turn, the user rises and hits on the next turn. It can be used to dive in the ocean."
   },
   {
     id: "HYDROSTEAM",
@@ -9593,8 +8811,7 @@ export const moves: Move[] = [
     accuracy: 100,
     totalPP: 15,
     target: "NearOther",
-    description:
-      "The user blasts the target with boiling-hot water. This move is stronger in harsh sunlight.",
+    description: "The user blasts the target with boiling-hot water. This move is stronger in harsh sunlight."
   },
   {
     id: "SCALD",
@@ -9605,8 +8822,7 @@ export const moves: Move[] = [
     accuracy: 100,
     totalPP: 15,
     target: "NearOther",
-    description:
-      "The user shoots boiling hot water at its target. It may also leave the target with a burn.",
+    description: "The user shoots boiling hot water at its target. It may also leave the target with a burn."
   },
   {
     id: "SNIPESHOT",
@@ -9617,8 +8833,7 @@ export const moves: Move[] = [
     accuracy: 100,
     totalPP: 15,
     target: "NearOther",
-    description:
-      "The user ignores any effects that redirect moves, allowing this move to hit the chosen target.",
+    description: "The user ignores any effects that redirect moves, allowing this move to hit the chosen target."
   },
   {
     id: "WATERPLEDGE",
@@ -9629,8 +8844,7 @@ export const moves: Move[] = [
     accuracy: 100,
     totalPP: 10,
     target: "NearOther",
-    description:
-      "A column of water strikes the target. When combined with its fire equivalent, it makes a rainbow.",
+    description: "A column of water strikes the target. When combined with its fire equivalent, it makes a rainbow."
   },
   {
     id: "WATERFALL",
@@ -9641,8 +8855,7 @@ export const moves: Move[] = [
     accuracy: 100,
     totalPP: 15,
     target: "NearOther",
-    description:
-      "The user charges at the target and may make it flinch. It can also be used to climb a waterfall.",
+    description: "The user charges at the target and may make it flinch. It can also be used to climb a waterfall."
   },
   {
     id: "RAZORSHELL",
@@ -9653,8 +8866,7 @@ export const moves: Move[] = [
     accuracy: 95,
     totalPP: 10,
     target: "NearOther",
-    description:
-      "The user cuts the foe with sharp shells. It may also lower the target's Defense stat.",
+    description: "The user cuts the foe with sharp shells. It may also lower the target's Defense stat."
   },
   {
     id: "AQUACUTTER",
@@ -9665,8 +8877,7 @@ export const moves: Move[] = [
     accuracy: 100,
     totalPP: 20,
     target: "NearOther",
-    description:
-      "The user cuts with a blade of pressurized water. This move is more likely to be a critical hit.",
+    description: "The user cuts with a blade of pressurized water. This move is more likely to be a critical hit."
   },
   {
     id: "BRINE",
@@ -9677,8 +8888,7 @@ export const moves: Move[] = [
     accuracy: 100,
     totalPP: 10,
     target: "NearOther",
-    description:
-      "If the target's HP is down to about half, this attack will hit with double the power.",
+    description: "If the target's HP is down to about half, this attack will hit with double the power."
   },
   {
     id: "BUBBLEBEAM",
@@ -9689,8 +8899,7 @@ export const moves: Move[] = [
     accuracy: 100,
     totalPP: 20,
     target: "NearOther",
-    description:
-      "A spray of bubbles is forcefully ejected at the target. It may also lower its Speed stat.",
+    description: "A spray of bubbles is forcefully ejected at the target. It may also lower its Speed stat."
   },
   {
     id: "OCTAZOOKA",
@@ -9701,8 +8910,7 @@ export const moves: Move[] = [
     accuracy: 85,
     totalPP: 10,
     target: "NearOther",
-    description:
-      "The user attacks by spraying ink in the foe's face or eyes. It may also lower the target's accuracy.",
+    description: "The user attacks by spraying ink in the foe's face or eyes. It may also lower the target's accuracy."
   },
   {
     id: "FLIPTURN",
@@ -9713,8 +8921,7 @@ export const moves: Move[] = [
     accuracy: 100,
     totalPP: 20,
     target: "NearOther",
-    description:
-      "After making its attack, the user rushes back to switch places with a party Pokémon in waiting.",
+    description: "After making its attack, the user rushes back to switch places with a party Pokémon in waiting."
   },
   {
     id: "JETPUNCH",
@@ -9725,8 +8932,7 @@ export const moves: Move[] = [
     accuracy: 100,
     totalPP: 15,
     target: "NearOther",
-    description:
-      "The user summons a torrent around its fist and punches at blinding speed. This always goes first.",
+    description: "The user summons a torrent around its fist and punches at blinding speed. This always goes first."
   },
   {
     id: "WATERPULSE",
@@ -9737,8 +8943,7 @@ export const moves: Move[] = [
     accuracy: 100,
     totalPP: 20,
     target: "Other",
-    description:
-      "The user attacks the target with a pulsing blast of water. It may also confuse the target.",
+    description: "The user attacks the target with a pulsing blast of water. It may also confuse the target."
   },
   {
     id: "CHILLINGWATER",
@@ -9749,8 +8954,7 @@ export const moves: Move[] = [
     accuracy: 100,
     totalPP: 20,
     target: "NearOther",
-    description:
-      "The user showers the target with power-sapping cold water. This also lowers the target's Attack stat.",
+    description: "The user showers the target with power-sapping cold water. This also lowers the target's Attack stat."
   },
   {
     id: "AQUAJET",
@@ -9761,8 +8965,7 @@ export const moves: Move[] = [
     accuracy: 100,
     totalPP: 20,
     target: "NearOther",
-    description:
-      "The user lunges at the target at a speed that makes it almost invisible. It is sure to strike first.",
+    description: "The user lunges at the target at a speed that makes it almost invisible. It is sure to strike first."
   },
   {
     id: "BUBBLE",
@@ -9773,8 +8976,7 @@ export const moves: Move[] = [
     accuracy: 100,
     totalPP: 30,
     target: "AllNearFoes",
-    description:
-      "A spray of countless bubbles is jetted at the opposing team. It may also lower the targets' Speed stats.",
+    description: "A spray of countless bubbles is jetted at the opposing team. It may also lower the targets' Speed stats."
   },
   {
     id: "WATERGUN",
@@ -9785,7 +8987,7 @@ export const moves: Move[] = [
     accuracy: 100,
     totalPP: 25,
     target: "NearOther",
-    description: "The target is blasted with a forceful shot of water.",
+    description: "The target is blasted with a forceful shot of water."
   },
   {
     id: "CLAMP",
@@ -9796,8 +8998,7 @@ export const moves: Move[] = [
     accuracy: 85,
     totalPP: 15,
     target: "NearOther",
-    description:
-      "The target is clamped and squeezed by the user's very thick and sturdy shell for four to five turns.",
+    description: "The target is clamped and squeezed by the user's very thick and sturdy shell for four to five turns."
   },
   {
     id: "WHIRLPOOL",
@@ -9808,8 +9009,7 @@ export const moves: Move[] = [
     accuracy: 85,
     totalPP: 15,
     target: "NearOther",
-    description:
-      "Traps foes in a violent swirling whirlpool for four to five turns.",
+    description: "Traps foes in a violent swirling whirlpool for four to five turns."
   },
   {
     id: "TRIPLEDIVE",
@@ -9820,8 +9020,7 @@ export const moves: Move[] = [
     accuracy: 95,
     totalPP: 10,
     target: "NearOther",
-    description:
-      "The user performs a perfectly timed triple dive, splashing the target three times in a row.",
+    description: "The user performs a perfectly timed triple dive, splashing the target three times in a row."
   },
   {
     id: "SURGINGSTRIKES",
@@ -9832,8 +9031,7 @@ export const moves: Move[] = [
     accuracy: 100,
     totalPP: 5,
     target: "NearOther",
-    description:
-      "Hits three times in a row with mastery of the Water style. This attack always deals critical hits.",
+    description: "Hits three times in a row with mastery of the Water style. This attack always deals critical hits."
   },
   {
     id: "WATERSHURIKEN",
@@ -9844,8 +9042,7 @@ export const moves: Move[] = [
     accuracy: 100,
     totalPP: 20,
     target: "NearOther",
-    description:
-      "The user hits the target with throwing stars 2-5 times in a row. This move always goes first.",
+    description: "The user hits the target with throwing stars 2-5 times in a row. This move always goes first."
   },
   {
     id: "AQUARING",
@@ -9856,8 +9053,7 @@ export const moves: Move[] = [
     accuracy: null,
     totalPP: 20,
     target: "User",
-    description:
-      "The user envelops itself in a veil made of water. It regains some HP on every turn.",
+    description: "The user envelops itself in a veil made of water. It regains some HP on every turn."
   },
   {
     id: "LIFEDEW",
@@ -9868,8 +9064,7 @@ export const moves: Move[] = [
     accuracy: null,
     totalPP: 10,
     target: "UserAndAllies",
-    description:
-      "The user scatters mysterious water around and restores the HP of itself and its allies.",
+    description: "The user scatters mysterious water around and restores the HP of itself and its allies."
   },
   {
     id: "RAINDANCE",
@@ -9880,8 +9075,7 @@ export const moves: Move[] = [
     accuracy: null,
     totalPP: 5,
     target: "BothSides",
-    description:
-      "The user summons a heavy rain that falls for five turns, powering up Water-type moves.",
+    description: "The user summons a heavy rain that falls for five turns, powering up Water-type moves."
   },
   {
     id: "SOAK",
@@ -9892,8 +9086,7 @@ export const moves: Move[] = [
     accuracy: 100,
     totalPP: 20,
     target: "NearOther",
-    description:
-      "The user shoots a torrent of water at the target and changes the target's type to Water.",
+    description: "The user shoots a torrent of water at the target and changes the target's type to Water."
   },
   {
     id: "WATERSPORT",
@@ -9904,8 +9097,7 @@ export const moves: Move[] = [
     accuracy: null,
     totalPP: 15,
     target: "BothSides",
-    description:
-      "The user soaks itself with water. The move weakens Fire-type moves while the user is in the battle.",
+    description: "The user soaks itself with water. The move weakens Fire-type moves while the user is in the battle."
   },
   {
     id: "WITHDRAW",
@@ -9916,7 +9108,336 @@ export const moves: Move[] = [
     accuracy: null,
     totalPP: 40,
     target: "User",
-    description:
-      "The user withdraws its body into its hard shell, raising its Defense stat.",
+    description: "The user withdraws its body into its hard shell, raising its Defense stat."
   },
-];
+  {
+    id: "TOUCHTHELIMIT",
+    name: "Touch The Limit",
+    type: "FIGHTING",
+    category: "Status",
+    power: null,
+    accuracy: null,
+    totalPP: 20,
+    target: "User",
+    description: "Reduces his maximum hp a lot in exchange for improving all his stats by 1 level. The move fails if the user already has limited hp."
+  },
+  {
+    id: "EXPLOSIVEFEATHER",
+    name: "Explosive Feather",
+    type: "FLYING",
+    category: "Special",
+    power: 60,
+    accuracy: 100,
+    totalPP: 30,
+    target: "NearOther",
+    description: "The move is super effective against rock and steel types. Reduces the maximum hp of the user."
+  },
+  {
+    id: "BURNTHELIMIT",
+    name: "Burn The Limit",
+    type: "FIRE",
+    category: "Special",
+    power: 120,
+    accuracy: 100,
+    totalPP: 15,
+    target: "AllNearOthers",
+    description: "Causes damage according to the hp limit and removes the hp limiter. The move fails if the user hp is not limited."
+  },
+  {
+    id: "SOLARDESTRUCTION",
+    name: "Solar Destruction",
+    type: "FIRE",
+    category: "Special",
+    power: 120,
+    accuracy: 100,
+    totalPP: 5,
+    target: "AllNearOthers",
+    description: "Causes damage according to the hp limit and removes the hp limiter. The move fails if the user hp is not limited."
+  },
+  {
+    id: "PROTOSHIELD",
+    name: "Proto Shield",
+    type: "NORMAL",
+    category: "Status",
+    power: null,
+    accuracy: null,
+    totalPP: 20,
+    target: "User",
+    description: "Generate a tiny proto-shield for the user. The proto-shield can be accumulated."
+  },
+  {
+    id: "MARKINGTERRITORY",
+    name: "Marking Territory",
+    type: "GROUND",
+    category: "Status",
+    power: null,
+    accuracy: null,
+    totalPP: 30,
+    target: "AllFoes",
+    description: "Increases both defenses, but the user can no longer be changed."
+  },
+  {
+    id: "WILDPUNCH",
+    name: "Wild Punch",
+    type: "GRASS",
+    category: "Physical",
+    power: 90,
+    accuracy: 100,
+    totalPP: 25,
+    target: "NearOther",
+    description: "Causes more damage depending on the proto shield generated."
+  },
+  {
+    id: "NULLIFYINGSMOKE",
+    name: "Nullifying Smoke",
+    type: "DARK",
+    category: "Status",
+    power: null,
+    accuracy: 100,
+    totalPP: 30,
+    target: "AllNearOthers",
+    description: "A heavy smokes that removes the types of the target."
+  },
+  {
+    id: "DEBILITATINGTOXIN",
+    name: "Debilitating Toxin",
+    type: "POISON",
+    category: "Special",
+    power: 50,
+    accuracy: 100,
+    totalPP: 25,
+    target: "NearOther",
+    description: "Apply 3 weaknesses to the target."
+  },
+  {
+    id: "ABYSSALBITE",
+    name: "Abyssal Bite",
+    type: "WATER",
+    category: "Physical",
+    power: 100,
+    accuracy: 100,
+    totalPP: 25,
+    target: "NearOther",
+    description: "Causes more damage depending on the amount of extra weaknesses the target possesses."
+  },
+  {
+    id: "SHAMANBLESSING",
+    name: "Shaman Blessing",
+    type: "FAIRY",
+    category: "Status",
+    power: null,
+    accuracy: 100,
+    totalPP: 25,
+    target: "User",
+    description: "The user applies 3 random resistances to themself, which can be accumulated."
+  },
+  {
+    id: "DRAGONSLAYER",
+    name: "Dragon Slayer",
+    type: "DRAGON",
+    category: "Physical",
+    power: 80,
+    accuracy: 100,
+    totalPP: 15,
+    target: "NearOther",
+    description: "Applies double damage if the target is a dragon type."
+  },
+  {
+    id: "FLOWERFANG",
+    name: "Flower Fang",
+    type: "GRASS",
+    category: "Physical",
+    power: 60,
+    accuracy: 100,
+    totalPP: 25,
+    target: "NearOther",
+    description: "Bites the target with its large fangs, reduces the target evasion."
+  },
+  {
+    id: "PREDATORYGAME",
+    name: "Predatory Game",
+    type: "DARK",
+    category: "Physical",
+    power: 100,
+    accuracy: 100,
+    totalPP: 20,
+    target: "NearOther",
+    description: "Causes a lot of damage to the target but leaves it with at least 1 HP."
+  },
+  {
+    id: "SEDUCTION",
+    name: "Seduction",
+    type: "NORMAL",
+    category: "Status",
+    power: null,
+    accuracy: 100,
+    totalPP: 15,
+    target: "AllNearOthers",
+    description: "Attracts the attention of the targets, enamoring them and forcing them to attack the user who used the movement."
+  },
+  {
+    id: "ABUSE",
+    name: "Abuse",
+    type: "DARK",
+    category: "Physical",
+    power: 150,
+    accuracy: 100,
+    totalPP: 20,
+    target: "NearOther",
+    description: "Causes massive damage to the target and removes the effect of falling in love. The move fails if the target is not in love with the user."
+  },
+  {
+    id: "SUPPLICATION",
+    name: "Supplication",
+    type: "NORMAL",
+    category: "Status",
+    power: null,
+    accuracy: 100,
+    totalPP: 30,
+    target: "NearOther",
+    description: "The user begs for mercy, reducing the target's evasion."
+  },
+  {
+    id: "INTHESPOTLIGHT",
+    name: "In The Spotlight",
+    type: "DARK",
+    category: "Status",
+    power: null,
+    accuracy: 100,
+    totalPP: 20,
+    target: "NearOther",
+    description: "Prevents the target from escaping. The user cannot escape either."
+  },
+  {
+    id: "SHERIFFSHOT",
+    name: "Sheriff Shot",
+    type: "GROUND",
+    category: "Special",
+    power: 120,
+    accuracy: 80,
+    totalPP: 15,
+    target: "NearOther",
+    description: "The user ignores any effects that redirect moves. It has a high critical-hit ratio."
+  },
+  {
+    id: "TWILIGHTCUTTING",
+    name: "Twilight Cutting",
+    type: "DARK",
+    category: "Physical",
+    power: 60,
+    accuracy: 100,
+    totalPP: 15,
+    target: "NearOther",
+    description: "Causes more damage if it is at night, if the user in a dark area or have <b>Dark Hater</b>."
+  },
+  {
+    id: "TRIFORCE",
+    name: "Triforce",
+    type: "STEEL",
+    category: "Status",
+    power: null,
+    accuracy: 100,
+    totalPP: 25,
+    target: "User",
+    description: "Increases the attack, special attack and precision of the user."
+  },
+  {
+    id: "NIGHTFALL",
+    name: "Nightfall",
+    type: "DARK",
+    category: "Status",
+    power: null,
+    accuracy: 100,
+    totalPP: 5,
+    target: "BothSides",
+    description: "Turns the combat zone dark, as if it were at night or in a cave. Increases the evasion of all ghost and sinister Pokemon in the field. The move fails if it is already night."
+  },
+  {
+    id: "MARTIALFANG",
+    name: "Martial Fang",
+    type: "FIGHTING",
+    category: "Physical",
+    power: 60,
+    accuracy: 100,
+    totalPP: 30,
+    target: "NearOther",
+    description: "Bites the target by doing a martial technique. Can reduce the target's defense."
+  },
+  {
+    id: "TELATRAPO",
+    name: "Telatrapo",
+    type: "BUG",
+    category: "Status",
+    power: null,
+    accuracy: 100,
+    totalPP: 35,
+    target: "NearOther",
+    description: "Traps the enemy with a sticky cloth, preventing him from escaping for 3 turns."
+  },
+  {
+    id: "TORTUROUSGRAB",
+    name: "Torturous Grab",
+    type: "BUG",
+    category: "Physical",
+    power: 90,
+    accuracy: 90,
+    totalPP: 15,
+    target: "NearOther",
+    description: "Causes more damage the greater the evasion difference between the user and the target."
+  },
+  {
+    id: "SILKBOMB",
+    name: "Silk Bomb",
+    type: "BUG",
+    category: "Special",
+    power: 50,
+    accuracy: 100,
+    totalPP: 25,
+    target: "NearOther",
+    description: "This lowers the target's Evasion stat over three turns."
+  },
+  {
+    id: "SILKYCOCOON",
+    name: "Silky Cocoon",
+    type: "BUG",
+    category: "Status",
+    power: null,
+    accuracy: 100,
+    totalPP: 15,
+    target: "User",
+    description: "The user increases his defense and special defense."
+  },
+  {
+    id: "CRYOSWITCH",
+    name: "Cryo Switch",
+    type: "ICE",
+    category: "Physical",
+    power: 60,
+    accuracy: 100,
+    totalPP: 20,
+    target: "NearOther",
+    description: "After making its attack, the user rushes back to switch places with a party Pokémon in waiting."
+  },
+  {
+    id: "CRYOSPEED",
+    name: "Cryo Speed",
+    type: "ICE",
+    category: "Physical",
+    power: 80,
+    accuracy: 100,
+    totalPP: 20,
+    target: "NearOther",
+    description: "This move always goes first in a hailstorm or in a Snowstorm."
+  },
+  {
+    id: "ARCTICMALTREATMENT",
+    name: "Arctic Maltreatment",
+    type: "ICE",
+    category: "Physical",
+    power: 90,
+    accuracy: 100,
+    totalPP: 20,
+    target: "NearOther",
+    description: "After making the attack, the user switch place with a party member. If the user is in hailstorm, this move always go first."
+  }
+]
