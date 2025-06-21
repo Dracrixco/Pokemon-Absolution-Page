@@ -18,4 +18,7 @@ export interface Fakemon {
   abilities: string[];
   hiddenAbilities: string[];
   category: string;
+  moves?: string[];
+  tutorMoves?: string[];
+  eggMoves?: string[];
 }

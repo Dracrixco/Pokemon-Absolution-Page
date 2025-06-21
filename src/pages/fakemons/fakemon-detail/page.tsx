@@ -1,6 +1,15 @@
 import { getFakemonById } from "@/lib/fakemons";
+import { getCategoryColor } from "@/lib/move-colors";
+import { getMovesByIds } from "@/lib/moves";
 import { getTypeColor } from "@/lib/type-colors";
-import { ArrowLeft, Ruler, Weight } from "lucide-react";
+import {
+  ArrowLeft,
+  GraduationCap,
+  Heart,
+  Ruler,
+  Weight,
+  Zap,
+} from "lucide-react";
 import { useParams, Link, useNavigate } from "react-router-dom";
 
 export const FakemonDetailPage = () => {
@@ -14,6 +23,10 @@ export const FakemonDetailPage = () => {
     navigate("/fakemons", { replace: true });
     return null;
   }
+  const levelUpMoves = getMovesByIds(fakemon.moves || []);
+  const tutorMoves = getMovesByIds(fakemon.tutorMoves || []);
+  const eggMoves = getMovesByIds(fakemon.eggMoves || []);
+
   if (!fakemon) {
     return (
       <div className="min-h-screen flex items-center justify-center bg-gradient-to-br from-purple-900 via-purple-800 to-indigo-900">
@@ -59,7 +72,7 @@ export const FakemonDetailPage = () => {
               <div className="flex justify-center mb-6">
                 <div className="relative w-64 h-64 rounded-full bg-gradient-to-br from-purple-400/20 to-purple-600/20 border-2 border-purple-400/30 flex items-center justify-center">
                   <img
-                    src={fakemon.artwork || "/placeholder.svg"}
+                    src={fakemon.sprite || "/placeholder.svg"}
                     alt={fakemon.name}
                     width={200}
                     height={200}
@@ -121,13 +134,6 @@ export const FakemonDetailPage = () => {
                     </span>
                   </div>
                 ))}
-                {fakemon.hiddenAbilities.map((ability, index) => (
-                  <div key={index} className="bg-purple-900/50 rounded-lg p-3">
-                    <span className="text-purple-200 font-medium">
-                      {ability} (H)
-                    </span>
-                  </div>
-                ))}
               </div>
             </div>
           </div>
@@ -179,6 +185,134 @@ export const FakemonDetailPage = () => {
               </div>
             </div>
           </div>
+        </div>
+
+        {/* Moves Section */}
+        <div className="mt-12 space-y-8">
+          {/* Level Up Moves */}
+          <div className="bg-purple-800/50 rounded-xl border border-purple-600 p-6">
+            <h3 className="text-2xl font-bold text-white mb-6 flex items-center gap-2">
+              <Zap className="h-6 w-6" />
+              Level Up Moves
+            </h3>
+            <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4">
+              {levelUpMoves.map((move, idx) => (
+                <Link key={idx} to={`/moves/${move.id}`}>
+                  <div className="bg-purple-900/50 rounded-lg p-4 hover:bg-purple-900/70 transition-colors cursor-pointer">
+                    <div className="flex justify-between items-start mb-2">
+                      <h4 className="text-white font-semibold">{move.name}</h4>
+                      <span
+                        className={`px-2 py-1 rounded text-xs font-semibold text-white ${getTypeColor(
+                          move.type
+                        )}`}
+                      >
+                        {move.type}
+                      </span>
+                    </div>
+                    <div className="flex gap-2 mb-2">
+                      <span
+                        className={`px-2 py-1 rounded text-xs font-semibold text-white ${getCategoryColor(
+                          move.category
+                        )}`}
+                      >
+                        {move.category}
+                      </span>
+                    </div>
+                    <div className="flex justify-between text-purple-300 text-sm">
+                      <span>Power: {move.power || "—"}</span>
+                      <span>PP: {move.totalPP}</span>
+                    </div>
+                  </div>
+                </Link>
+              ))}
+            </div>
+          </div>
+
+          {/* Tutor Moves */}
+          {tutorMoves.length > 0 && (
+            <div className="bg-purple-800/50 rounded-xl border border-purple-600 p-6">
+              <h3 className="text-2xl font-bold text-white mb-6 flex items-center gap-2">
+                <GraduationCap className="h-6 w-6" />
+                Tutor Moves
+              </h3>
+              <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4">
+                {tutorMoves.map((move, idx) => (
+                  <Link key={idx} to={`/moves/${move.id}`}>
+                    <div className="bg-purple-900/50 rounded-lg p-4 hover:bg-purple-900/70 transition-colors cursor-pointer">
+                      <div className="flex justify-between items-start mb-2">
+                        <h4 className="text-white font-semibold">
+                          {move.name}
+                        </h4>
+                        <span
+                          className={`px-2 py-1 rounded text-xs font-semibold text-white ${getTypeColor(
+                            move.type
+                          )}`}
+                        >
+                          {move.type}
+                        </span>
+                      </div>
+                      <div className="flex gap-2 mb-2">
+                        <span
+                          className={`px-2 py-1 rounded text-xs font-semibold text-white ${getCategoryColor(
+                            move.category
+                          )}`}
+                        >
+                          {move.category}
+                        </span>
+                      </div>
+                      <div className="flex justify-between text-purple-300 text-sm">
+                        <span>Power: {move.power || "—"}</span>
+                        <span>PP: {move.totalPP}</span>
+                      </div>
+                    </div>
+                  </Link>
+                ))}
+              </div>
+            </div>
+          )}
+
+          {/* Egg Moves */}
+          {eggMoves.length > 0 && (
+            <div className="bg-purple-800/50 rounded-xl border border-purple-600 p-6">
+              <h3 className="text-2xl font-bold text-white mb-6 flex items-center gap-2">
+                <Heart className="h-6 w-6" />
+                Egg Moves
+              </h3>
+              <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4">
+                {eggMoves.map((move, idx) => (
+                  <Link key={idx} to={`/moves/${move.id}`}>
+                    <div className="bg-purple-900/50 rounded-lg p-4 hover:bg-purple-900/70 transition-colors cursor-pointer">
+                      <div className="flex justify-between items-start mb-2">
+                        <h4 className="text-white font-semibold">
+                          {move.name}
+                        </h4>
+                        <span
+                          className={`px-2 py-1 rounded text-xs font-semibold text-white ${getTypeColor(
+                            move.type
+                          )}`}
+                        >
+                          {move.type}
+                        </span>
+                      </div>
+                      <div className="flex gap-2 mb-2">
+                        <span
+                          className={`px-2 py-1 rounded text-xs font-semibold text-white ${getCategoryColor(
+                            move.category
+                          )}`}
+                        >
+                          {move.category}
+                        </span>
+                      </div>
+                      <div className="flex justify-between text-purple-300 text-sm">
+                        <span>Power: {move.power || "—"}</span>
+                        <span>PP: {move.totalPP}</span>
+                      </div>
+                    </div>
+                  </Link>
+                ))}
+              </div>
+            </div>
+          )}
         </div>
       </div>
     </div>

@@ -38,12 +38,6 @@ export const Navbar = () => {
               Characters
             </Link>
             <Link
-              to="/maps"
-              className="text-purple-200 hover:text-white transition-colors"
-            >
-              Maps
-            </Link>
-            <Link
               to="#"
               className="text-purple-200 hover:text-white transition-colors"
             >
