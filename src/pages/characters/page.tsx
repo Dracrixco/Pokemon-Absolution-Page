@@ -1,9 +1,10 @@
 import { CharacterCard } from "@/components/absolution/character-card";
+import { Footer } from "@/components/absolution/footer";
 import { characters } from "@/data/characters";
 
 export const CharactersPage = () => {
   return (
-    <div className="min-h-screen bg-gradient-to-br from-purple-900 via-purple-800 to-indigo-900">
+    <div className="min-h-screen bg-gradient-to-br from-purple-900 via-purple-800 to-indigo-100">
       {/* Hero Section */}
       <section className="py-16 px-4">
         <div className="container mx-auto text-center">
@@ -32,14 +33,7 @@ export const CharactersPage = () => {
       </section>
 
       {/* Footer */}
-      <footer className="bg-purple-900/90 border-t border-purple-700 py-8 px-4 mt-16">
-        <div className="container mx-auto text-center">
-          <p className="text-purple-300 text-sm">
-            © 2024 Pokémon Absolution. This is a fan-made project not affiliated
-            with Nintendo or Game Freak.
-          </p>
-        </div>
-      </footer>
+      <Footer />
     </div>
   );
 };

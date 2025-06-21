@@ -2,6 +2,7 @@
 import { Twitter } from "lucide-react";
 import { Link } from "react-router-dom";
 import { RandomLogo } from "@/components/absolution/logos";
+import { Footer } from "@/components/absolution/footer";
 
 export const HomeFooter = () => {
   return (
@@ -24,12 +25,7 @@ export const HomeFooter = () => {
           </div>
         </div>
 
-        <div className="mt-6 pt-6 border-t border-purple-700 text-center">
-          <p className="text-purple-300 text-sm">
-            © 2024 Pokémon Absolution. This is a fan-made project not affiliated
-            with Nintendo or Game Freak.
-          </p>
-        </div>
+        <Footer />
       </div>
     </footer>
   );

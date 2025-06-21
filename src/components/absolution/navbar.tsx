@@ -18,32 +18,7 @@ export const Navbar = () => {
           </div>
 
           {/* Desktop Navigation */}
-          <nav className="hidden md:flex space-x-8">
-            <Link
-              to="/"
-              className="text-purple-200 hover:text-white transition-colors"
-            >
-              Home
-            </Link>
-            <Link
-              to="/fakemons"
-              className="text-purple-200 hover:text-white transition-colors"
-            >
-              Fakemons
-            </Link>
-            <Link
-              to="/characters"
-              className="text-purple-200 hover:text-white transition-colors"
-            >
-              Characters
-            </Link>
-            <Link
-              to="#"
-              className="text-purple-200 hover:text-white transition-colors"
-            >
-              Download
-            </Link>
-          </nav>
+          <Navigation className="hidden md:flex space-x-8" />
 
           {/* Mobile Menu Button */}
           <button
@@ -61,41 +36,41 @@ export const Navbar = () => {
         {/* Mobile Navigation */}
         {isMenuOpen && (
           <div className="md:hidden py-4 border-t border-purple-700">
-            <nav className="flex flex-col space-y-4">
-              <Link
-                to="#"
-                className="text-purple-200 hover:text-white transition-colors"
-              >
-                Home
-              </Link>
-              <Link
-                to="#"
-                className="text-purple-200 hover:text-white transition-colors"
-              >
-                Fakemons
-              </Link>
-              <Link
-                to="#"
-                className="text-purple-200 hover:text-white transition-colors"
-              >
-                Characters
-              </Link>
-              <Link
-                to="#"
-                className="text-purple-200 hover:text-white transition-colors"
-              >
-                Download
-              </Link>
-              <Link
-                to="#"
-                className="text-purple-200 hover:text-white transition-colors"
-              >
-                Contact
-              </Link>
-            </nav>
+            <Navigation className="flex flex-col space-y-4" />
           </div>
         )}
       </div>
     </header>
+  );
+};
+// "hidden md:flex space-x-8"
+const Navigation = ({ className = "" }: { className: string }) => {
+  return (
+    <nav className={className}>
+      <Link
+        to="/"
+        className="text-purple-200 hover:text-white transition-colors"
+      >
+        Home
+      </Link>
+      <Link
+        to="/fakemons"
+        className="text-purple-200 hover:text-white transition-colors"
+      >
+        Fakemons
+      </Link>
+      <Link
+        to="/characters"
+        className="text-purple-200 hover:text-white transition-colors"
+      >
+        Characters
+      </Link>
+      <Link
+        to="#"
+        className="text-purple-200 hover:text-white transition-colors"
+      >
+        Download
+      </Link>
+    </nav>
   );
 };

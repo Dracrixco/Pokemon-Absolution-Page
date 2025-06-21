@@ -1,5 +1,6 @@
 "use client";
 import FakemonCardPokemon from "@/components/absolution/fakemon-card";
+import { Footer } from "@/components/absolution/footer";
 import { fakemons } from "@/data/pokemon";
 
 export const FakemonsList = () => {
@@ -33,14 +34,7 @@ export const FakemonsList = () => {
       </section>
 
       {/* Footer */}
-      <footer className="bg-purple-900/90 border-t border-purple-700 py-8 px-4 mt-16">
-        <div className="container mx-auto text-center">
-          <p className="text-purple-300 text-sm">
-            © 2024 Pokémon Absolution. This is a fan-made project not affiliated
-            with Nintendo or Game Freak.
-          </p>
-        </div>
-      </footer>
+      <Footer />
     </div>
   );
 };
