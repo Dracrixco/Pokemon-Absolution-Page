@@ -7,7 +7,8 @@ export const GameImages = () => {
     { id: 3, image: "[2025-06-20] 19_08_07.632", alt: "Pokémon Center" },
     { id: 4, image: "[2025-06-20] 19_08_48.183", alt: "Customization" },
     { id: 5, image: "[2025-06-20] 19_17_39.583", alt: "Gym Leader" },
-    { id: 6, image: "[2025-06-20] 19_16_50.417", alt: "Town View" },
+    { id: 6, image: "[2025-06-20] 19_16_50.417", alt: "Route 2" },
+    { id: 6, image: "[2025-06-20] 21_53_26.204", alt: "Team" },
   ];
 
   return (
