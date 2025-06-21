@@ -8,6 +8,6 @@ export interface Character {
   favorite?: string;
 }
 
-export function getCharacterById(name: string): Character | undefined {
+export function getCharacterByName(name: string): Character | undefined {
   return characters.find((character) => character.name === name);
 }

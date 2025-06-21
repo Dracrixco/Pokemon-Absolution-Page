@@ -24,8 +24,8 @@ export const CharactersPage = () => {
       <section className="py-8 px-4">
         <div className="container mx-auto">
           <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-8">
-            {characters.map((character) => (
-              <CharacterCard key={character.id} character={character} />
+            {characters.map((character, idx) => (
+              <CharacterCard key={idx} character={character} />
             ))}
           </div>
         </div>

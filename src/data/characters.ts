@@ -4,7 +4,8 @@ export const characters: Character[] = [
   {
     name: "Angela",
     artwork: "/character/Angela.png",
-    description: "",
+    description:
+      "Angela is the reigning Champion, known for her calm demeanor and strategic mind. She inspires trainers across the region.",
     role: "Champion",
     favorite: "Ice Cream",
   },
@@ -12,56 +13,64 @@ export const characters: Character[] = [
   {
     name: "Demian",
     artwork: "/character/Demian.png",
-    description: "",
+    description:
+      "Demian is a powerful Champion who never backs down from a challenge. His passion for battles is matched only by his love for pizza.",
     role: "Champion",
     favorite: "Pizza",
   },
   {
     name: "Kaoba",
     artwork: "/character/Kaoba.png",
-    description: "",
+    description:
+      "Professor Kaoba is a renowned Pokémon Professor, always eager to discover new species and help trainers on their journeys.",
     role: "Pokémon Professor",
     favorite: "Make Apps",
   },
   {
     name: "Ditto",
     artwork: "/character/Ditto.png",
-    description: "",
+    description:
+      "Ditto is a cunning rival trainer, always adapting to new situations and striving to be the best.",
     role: "Rival Trainer",
     favorite: "Money",
   },
   {
     name: "Cartamo",
     artwork: "/character/Cartamo.png",
-    description: "",
+    description:
+      "Cartamo is a friendly rival who values friendship and teamwork above all else, always ready to lend a helping hand.",
     role: "Rival Trainer",
     favorite: "Help friends",
   },
   {
     name: "Camelia",
     artwork: "/character/Camelia.png",
-    description: "",
+    description:
+      "Camelia is a passionate rival trainer who loves the thrill of Pokémon battles and is determined to become a Champion.",
     role: "Rival Trainer",
     favorite: "Pokemon Battles",
   },
   {
     name: "Hana",
     artwork: "/character/Hana.png",
-    description: "",
+    description:
+      "Hana is a mysterious villain with a sharp mind and a desire for wealth, always plotting her next move.",
     role: "Villain",
     favorite: "Money",
   },
   {
     name: "Rumex",
     artwork: "/character/Rumex.png",
-    description: "",
+    description:
+      "Rumex is a Gym Leader who draws strength from the forest, teaching trainers about the importance of nature.",
     role: "Gym Leader",
     favorite: "Forest",
   },
   {
     name: "Calendula",
     artwork: "/character/Calendula.png",
-    description: "",
+    description:
+      "Calendula is a cheerful Gym Leader with a sweet tooth, known for her kindness and love of candies.",
     role: "Gym Leader",
     favorite: "Candies",
   },
