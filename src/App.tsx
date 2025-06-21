@@ -4,7 +4,7 @@ import { Home } from "./pages/home/page";
 import { Routes, Route } from "react-router-dom";
 import { FakemonsList } from "./pages/fakemons/page";
 import { Maps } from "./pages/maps/page";
-import { Characters } from "./pages/characters/page";
+import { CharactersPage } from "./pages/characters/page";
 import { FakemonDetailPage } from "./pages/fakemon-detail/page";
 
 export default function PokemonAbsolutionWebsite() {
@@ -14,7 +14,7 @@ export default function PokemonAbsolutionWebsite() {
       <Routes>
         <Route path="/" element={<Home />} />
         <Route path="/maps" element={<Maps />} />
-        <Route path="/characters" element={<Characters />} />
+        <Route path="/characters" element={<CharactersPage />} />
         <Route path="/fakemons" element={<FakemonsList />} />
         <Route path="/fakemons/:id" element={<FakemonDetailPage />} />
       </Routes>
