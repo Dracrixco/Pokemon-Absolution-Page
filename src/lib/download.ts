@@ -1,12 +1,16 @@
+const GOOGLE_DRIVE_URL =
+  "https://drive.google.com/file/d/1cT0m04sBDGL6U8xqznVomvbMBKAiyI8q/view?usp=drive_link";
+
 export const handleDownload = async () => {
-  const res = await fetch(`${import.meta.env.VITE_BACKEND_URL}/download`);
-  const blob = await res.blob();
-  const url = window.URL.createObjectURL(blob);
+  try {
+    await fetch(`${import.meta.env.VITE_BACKEND_URL}/download`, {
+      method: "GET",
+      mode: "no-cors",
+    });
 
-  const a = document.createElement("a");
-  a.href = url;
-  a.download = "PokemonAbsolution.zip";
-  a.click();
-
-  window.URL.revokeObjectURL(url);
+    // Después de registrar, abrir Google Drive
+    window.open(GOOGLE_DRIVE_URL, "_blank"); // ✅ Siempre abre en nueva pestaña
+  } catch (err) {
+    console.error("Error registrando descarga:", err);
+  }
 };
