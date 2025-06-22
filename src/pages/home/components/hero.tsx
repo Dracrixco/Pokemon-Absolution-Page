@@ -1,4 +1,5 @@
 import { Button } from "@/components/ui/button";
+import { handleDownload } from "@/lib/download";
 import { Download } from "lucide-react";
 
 export const HeroSection = () => {
@@ -15,7 +16,12 @@ export const HeroSection = () => {
           innovative mechanics, new ways to play, and a simple yet engaging
           narrative.
         </p>
-        <Button className="bg-purple-600 hover:bg-purple-700 text-white px-8 py-3 text-lg rounded-full transition-all transform hover:scale-105">
+        <Button
+          onClick={() => {
+            handleDownload();
+          }}
+          className="bg-purple-600 hover:bg-purple-700 text-white px-8 py-3 text-lg rounded-full transition-all transform hover:scale-105"
+        >
           <Download className="mr-2 h-5 w-5" />
           Download Now
         </Button>
