@@ -1385,7 +1385,7 @@ export const fakemons: Fakemon[] = [
     id: "SKITTY",
     name: "Skitty",
     types: ["NORMAL"],
-    sprite: "/sprites/SKITTY.png",
+    sprite: "/sprites/SKITTY_1.png",
     artwork: "/artwork/skitty.png",
     description:
       "A Skitty's adorably cute behavior makes it highly popular. In battle, it makes its tail puff out. It threatens foes with a sharp growl.",
@@ -1520,7 +1520,7 @@ export const fakemons: Fakemon[] = [
     id: "DELCATTY",
     name: "Delcatty",
     types: ["NORMAL"],
-    sprite: "/sprites/DELCATTY.png",
+    sprite: "/sprites/DELCATTY_1.png",
     artwork: "/artwork/delcatty.png",
     description:
       "Rather than keeping a permanent lair, it habitually seeks comfortable spots and sleeps there. It is nocturnal and becomes active at dusk.",

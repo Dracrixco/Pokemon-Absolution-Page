@@ -3,7 +3,7 @@ import { getCategoryColor } from "@/lib/move-colors";
 import { getMovesByIds } from "@/lib/moves";
 import { getTypeColor } from "@/lib/type-colors";
 import type { Move } from "@/types/move";
-import React from "react";
+import React, { useState } from "react";
 import {
   ArrowLeft,
   GraduationCap,
@@ -256,21 +256,30 @@ const MovesSectionContainer = ({
   >;
   moves: Move[];
 }) => {
+  const [open, setOpen] = useState(false);
+
   if (moves.length === 0) {
     return null;
   }
 
   return (
     <div className="bg-purple-800/50 rounded-xl border border-purple-600 p-6">
-      <h3 className="text-2xl font-bold text-white mb-6 flex items-center gap-2">
+      <button
+        className="w-full flex items-center gap-2 text-left focus:outline-none"
+        onClick={() => setOpen((prev) => !prev)}
+        aria-expanded={open}
+      >
         <Icon className="h-6 w-6" />
-        {title}
-      </h3>
-      <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4">
-        {moves.map((move, idx) => (
-          <TinyMoveCard key={idx} move={move} />
-        ))}
-      </div>
+        <span className="text-2xl font-bold text-white flex-1">{title}</span>
+        <span className="text-purple-200 text-xl">{open ? "▲" : "▼"}</span>
+      </button>
+      {open && (
+        <div className="mt-6 grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4">
+          {moves.map((move, idx) => (
+            <TinyMoveCard key={idx} move={move} />
+          ))}
+        </div>
+      )}
     </div>
   );
 };

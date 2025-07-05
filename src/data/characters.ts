@@ -49,14 +49,14 @@ export const characters: Character[] = [
     role: "Rival Trainer",
     favorite: "Pokemon Battles",
   },
-  {
-    name: "Hana",
-    artwork: "/character/Hana.png",
-    description:
-      "Hana is a mysterious villain with a sharp mind and a desire for wealth, always plotting her next move.",
-    role: "Villain",
-    favorite: "Money",
-  },
+  // {
+  //   name: "Hana",
+  //   artwork: "/character/Hana.png",
+  //   description:
+  //     "Hana is a mysterious villain with a sharp mind and a desire for wealth, always plotting her next move.",
+  //   role: "Villain",
+  //   favorite: "Money",
+  // },
   {
     name: "Rumex",
     artwork: "/character/Rumex.png",

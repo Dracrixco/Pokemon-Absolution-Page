@@ -8,7 +8,8 @@ export const TrailerSection = () => {
             Watch the Trailer
           </h2>
           <p className="text-xl text-purple-200 max-w-2xl mx-auto">
-            Get a glimpse of the adventure that awaits in the Absolution region
+            Get a glimpse of the adventure that awaits in the{" "}
+            <b>Nazan Region</b>.
           </p>
         </div>
 

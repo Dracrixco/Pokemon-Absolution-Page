@@ -19,7 +19,7 @@ export default function FakemonCardPokemon({
   return (
     <Link to={`/fakemons/${fakemon.id}`}>
       <div
-        className="relative w-full h-80 cursor-pointer perspective-1000"
+        className="relative w-full h-96 cursor-pointer perspective-1000"
         onMouseEnter={() => setIsFlipped(true)}
         onMouseLeave={() => setIsFlipped(false)}
       >
