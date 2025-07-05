@@ -38,7 +38,12 @@ export const PixelMap: React.FC<PixelMapProps> = ({
   };
 
   return (
-    <div className="bg-gradient-to-br from-blue-50 to-indigo-100 p-6 rounded-xl shadow-lg">
+    <div
+      className={cn([
+        "bg-gradient-to-br from-blue-50 to-indigo-100 p-6 rounded-xl shadow-lg",
+        "w-full overflow-x-scroll",
+      ])}
+    >
       <div className="mb-4 flex items-center justify-between">
         <div className="flex items-center space-x-3">
           <div className="w-3 h-3 bg-blue-500 rounded-full animate-pulse"></div>
@@ -53,7 +58,13 @@ export const PixelMap: React.FC<PixelMapProps> = ({
         )}
       </div>
 
-      <div className="relative inline-block rounded-lg overflow-hidden shadow-xl border-2 border-white/50 bg-white/20 backdrop-blur-sm">
+      <div
+        className={cn([
+          "relative inline-block rounded-lg overflow-hidden",
+          "shadow-xl border-2 border-white/50 bg-white/20 backdrop-blur-sm",
+          "mx-auto",
+        ])}
+      >
         <div
           className="relative"
           style={{ width: width * TILE_SIZE, height: height * TILE_SIZE }}
@@ -79,8 +90,8 @@ export const PixelMap: React.FC<PixelMapProps> = ({
                     className={cn(
                       `w-[${TILE_SIZE}px] h-[${TILE_SIZE}px] border-[0.5px] transition-all duration-200`,
                       tile
-                        ? "cursor-pointer border-green-300/60 hover:bg-green-200/40 hover:border-green-400 hover:scale-105"
-                        : "cursor-not-allowed border-gray-300/40 bg-blue-100/30",
+                        ? "cursor-pointer border-red-300/60 hover:bg-red-200/40 hover:border-red-400 hover:scale-105"
+                        : "cursor-not-allowed border-gray-300/10 bg-blue-100/20",
                       isSelected
                         ? "bg-yellow-300/60 border-yellow-400 shadow-md scale-105 z-10"
                         : "",
@@ -108,8 +119,8 @@ export const PixelMap: React.FC<PixelMapProps> = ({
                 height: TILE_SIZE - 4,
               }}
             >
-              <div className="w-full h-full bg-gradient-to-br from-emerald-400/20 to-green-500/20 rounded-sm border border-emerald-300/40 flex items-center justify-center">
-                <div className="w-1 h-1 bg-emerald-400 rounded-full animate-pulse"></div>
+              <div className="w-full h-full bg-gradient-to-br from-red-400 to-red-500 rounded-sm border border-emerald-300/40 flex items-center justify-center">
+                <div className="w-1 h-1 bg-red-400 rounded-full animate-pulse"></div>
               </div>
             </div>
           ))}
