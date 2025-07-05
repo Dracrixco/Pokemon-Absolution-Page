@@ -1,10 +1,27 @@
 "use client";
-import { Twitter } from "lucide-react";
+import { Twitter, Badge } from "lucide-react";
 import { Link } from "react-router-dom";
 import { RandomLogo } from "@/components/absolution/logos";
 import { Footer } from "@/components/absolution/footer";
+import type { JSX } from "react";
 
 export const HomeFooter = () => {
+  const SOCIAL_MEDIA_LIST: {
+    name: string;
+    icon?: JSX.Element;
+    url: string;
+  }[] = [
+    {
+      name: "Twitter",
+      icon: <Twitter className="h-5 w-5" />,
+      url: "https://x.com/dracrixco",
+    },
+    {
+      name: "Discord",
+      icon: <Badge className="h-5 w-5" />,
+      url: "#",
+    },
+  ];
   return (
     <footer className="bg-purple-900/90 border-t border-purple-700 py-8 px-4">
       <div className="container mx-auto">
@@ -15,13 +32,16 @@ export const HomeFooter = () => {
           </div>
 
           <div className="flex space-x-6">
-            <Link
-              to="https://x.com/dracrixco"
-              className="text-purple-200 hover:text-white transition-colors flex items-center space-x-2"
-            >
-              <Twitter className="h-5 w-5" />
-              <span>Twitter</span>
-            </Link>
+            {SOCIAL_MEDIA_LIST.map((social, key) => (
+              <Link
+                key={key}
+                to={social.url}
+                className="text-purple-200 hover:text-white transition-colors flex items-center space-x-2"
+              >
+                {social.icon && social.icon}
+                <span>{social.name}</span>
+              </Link>
+            ))}
           </div>
         </div>
 
