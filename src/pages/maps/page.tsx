@@ -8,14 +8,12 @@ export const NazanRegionMap: React.FC = () => {
   const [selectedTile, setSelectedTile] = useState<TileData | null>(null);
 
   return (
-    <div className="min-h-screen bg-gradient-to-br from-indigo-50 via-white to-purple-50">
-      <div className="container mx-auto px-4 py-8">
+    <div className="min-h-screen bg-gradient-to-br from-purple-900 via-purple-800 to-white">
+      <div className="container mx-auto px-4 py-8 text-white">
         {/* Header */}
         <div className="text-center mb-8">
-          <h1 className="text-4xl font-bold text-gray-800 mb-2">
-            Nazan Region
-          </h1>
-          <p className="text-gray-600 text-lg">
+          <h1 className="text-4xl font-bold mb-2">Nazan Region</h1>
+          <p className="text-lg">
             Explore the vast and mysterious Nazan Region, home to diverse
             Pokémon and adventures waiting to unfold.
           </p>

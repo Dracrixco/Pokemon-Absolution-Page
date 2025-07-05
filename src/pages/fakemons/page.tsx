@@ -1,6 +1,5 @@
 "use client";
 import FakemonCardPokemon from "@/components/absolution/fakemon-card";
-import { Footer } from "@/components/absolution/footer";
 import { fakemons } from "@/data/pokemon";
 
 export const FakemonsList = () => {
@@ -32,9 +31,6 @@ export const FakemonsList = () => {
           </div>
         </div>
       </section>
-
-      {/* Footer */}
-      <Footer />
     </div>
   );
 };

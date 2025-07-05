@@ -1,10 +1,9 @@
 import { CharacterCard } from "@/components/absolution/character-card";
-import { Footer } from "@/components/absolution/footer";
 import { characters } from "@/data/characters";
 
 export const CharactersPage = () => {
   return (
-    <div className="min-h-screen bg-gradient-to-br from-purple-900 via-purple-800 to-indigo-100">
+    <div className="min-h-screen bg-gradient-to-br from-purple-900 via-purple-800 to-white">
       {/* Hero Section */}
       <section className="py-16 px-4">
         <div className="container mx-auto text-center">
@@ -31,9 +30,6 @@ export const CharactersPage = () => {
           </div>
         </div>
       </section>
-
-      {/* Footer */}
-      <Footer />
     </div>
   );
 };
