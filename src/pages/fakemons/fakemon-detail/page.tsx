@@ -88,9 +88,7 @@ export const FakemonDetailPage = () => {
                 <h1 className="text-4xl font-bold text-white mb-2">
                   {fakemon.name}
                 </h1>
-                <p className="text-purple-200 mb-4">
-                  #{fakemon.id.padStart(3, "0")} • {fakemon.category}
-                </p>
+                <p className="text-purple-200 mb-4">{fakemon.category}</p>
 
                 {/* Types */}
                 <div className="flex justify-center gap-3 mb-6">

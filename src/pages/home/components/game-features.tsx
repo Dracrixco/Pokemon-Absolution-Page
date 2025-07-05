@@ -1,5 +1,14 @@
 import { Card, CardContent } from "@/components/ui/card";
-import { Zap, Users, Map } from "lucide-react";
+import {
+  Zap,
+  Users,
+  Map,
+  // User,
+  // Sparkles,
+  Share2,
+  Settings,
+  Gamepad2,
+} from "lucide-react";
 import { fakemons } from "@/data/pokemon";
 
 export const GameFeatures = () => {
@@ -22,6 +31,35 @@ export const GameFeatures = () => {
       title: "Expansive Region",
       description:
         "Explore the vast Nazan Region with multiple cities, routes, and hidden secrets",
+    },
+    {
+      icon: <Share2 className="h-8 w-8 text-purple-400" />,
+      title: "Multiplayer",
+      description:
+        "Battle and trade with friends or players around the world in real time",
+    },
+    // {
+    //   icon: <User className="h-8 w-8 text-purple-400" />,
+    //   title: "Unique Characters",
+    //   description:
+    //     "Meet a cast of memorable characters, each with their own story and personality",
+    // },
+    // {
+    //   icon: <Sparkles className="h-8 w-8 text-purple-400" />,
+    //   title: "Amazing Moves & Abilities",
+    //   description:
+    //     "Unleash incredible moves and abilities never seen before in Pokémon games",
+    // },
+    {
+      icon: <Settings className="h-8 w-8 text-purple-400" />,
+      title: "Customization",
+      description:
+        "Personalize your character and experience with various customization options",
+    },
+    {
+      icon: <Gamepad2 className="h-8 w-8 text-purple-400" />,
+      title: "Minigames",
+      description: "Enjoy a variety of fun minigames throughout your adventure",
     },
   ];
 

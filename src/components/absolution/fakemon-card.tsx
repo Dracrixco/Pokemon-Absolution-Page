@@ -62,13 +62,6 @@ export default function FakemonCardPokemon({
                   />
                 </div>
               </div>
-
-              {/* Pokédex number */}
-              <div className="bg-purple-900/60 p-2 text-center">
-                <span className="text-purple-200 text-sm font-mono">
-                  #{fakemon.id.padStart(3, "0")}
-                </span>
-              </div>
             </div>
           </div>
 
