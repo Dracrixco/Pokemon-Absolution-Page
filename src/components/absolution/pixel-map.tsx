@@ -1,4 +1,3 @@
-// src/components/PixelMap.tsx
 import React, { useState } from "react";
 import { cn } from "@/lib/utils";
 import { tilesData, type TileData } from "@/lib/map";
