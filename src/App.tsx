@@ -3,7 +3,7 @@ import { Navbar } from "./components/absolution/navbar";
 import { Home } from "./pages/home/page";
 import { Routes, Route } from "react-router-dom";
 import { FakemonsList } from "./pages/fakemons/page";
-import { Maps } from "./pages/maps/page";
+import { MapEditorPage } from "./pages/maps/page";
 import { CharactersPage } from "./pages/characters/page";
 import { CharacterDetailPage } from "./pages/characters/character-detail/page";
 import { FakemonDetailPage } from "./pages/fakemons/fakemon-detail/page";
@@ -15,7 +15,7 @@ export default function PokemonAbsolutionWebsite() {
       <Navbar />
       <Routes>
         <Route path="/" element={<Home />} />
-        <Route path="/maps" element={<Maps />} />
+        <Route path="/maps" element={<MapEditorPage />} />
         <Route path="/characters" element={<CharactersPage />} />
         <Route path="/characters/:name" element={<CharacterDetailPage />} />
         <Route path="/fakemons" element={<FakemonsList />} />

@@ -44,7 +44,7 @@ export const Navbar = () => {
     </header>
   );
 };
-// "hidden md:flex space-x-8"
+
 const Navigation = ({ className = "" }: { className: string }) => {
   return (
     <nav className={className}>
@@ -65,6 +65,12 @@ const Navigation = ({ className = "" }: { className: string }) => {
         className="text-purple-200 hover:text-white transition-colors"
       >
         Characters
+      </Link>
+      <Link
+        to="/maps"
+        className="text-purple-200 hover:text-white transition-colors"
+      >
+        Maps
       </Link>
       <Link
         to="/"
