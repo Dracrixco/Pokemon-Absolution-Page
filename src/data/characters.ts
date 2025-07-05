@@ -5,17 +5,16 @@ export const characters: Character[] = [
     name: "Angela",
     artwork: "/character/Angela.png",
     description:
-      "Angela is the reigning Champion, known for her calm demeanor and strategic mind. She inspires trainers across the region.",
-    role: "Champion",
+      "The female character protagonist for Pokemon Absolution Game.",
+    role: "Protagonist",
     favorite: "Ice Cream",
   },
 
   {
     name: "Demian",
     artwork: "/character/Demian.png",
-    description:
-      "Demian is a powerful Champion who never backs down from a challenge. His passion for battles is matched only by his love for pizza.",
-    role: "Champion",
+    description: "The male character protagonist for Pokemon Absolution Game.",
+    role: "Protagonist",
     favorite: "Pizza",
   },
   {

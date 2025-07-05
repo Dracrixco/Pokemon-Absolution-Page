@@ -1,7 +1,10 @@
 import { Card, CardContent } from "@/components/ui/card";
 import { Zap, Users, Map } from "lucide-react";
+import { fakemons } from "@/data/pokemon";
 
 export const GameFeatures = () => {
+  const FakemonQty = fakemons.length - (fakemons.length % 10);
+
   const gameFeatures = [
     {
       icon: <Zap className="h-8 w-8 text-purple-400" />,
@@ -12,8 +15,7 @@ export const GameFeatures = () => {
     {
       icon: <Users className="h-8 w-8 text-purple-400" />,
       title: "Original Fakemon",
-      description:
-        "Discover over +50 custom-designed Pokémon with unique typings and movesets",
+      description: `Discover over +${FakemonQty} custom-designed Pokémon with unique typings and movesets`,
     },
     {
       icon: <Map className="h-8 w-8 text-purple-400" />,

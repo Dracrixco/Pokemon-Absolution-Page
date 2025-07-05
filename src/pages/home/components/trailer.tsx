@@ -1,3 +1,4 @@
+const TRAILER_LINK = "https://youtu.be/XkcEE-h3k9c";
 export const TrailerSection = () => {
   return (
     <section className="py-16 px-4 bg-purple-900/20">
@@ -15,7 +16,7 @@ export const TrailerSection = () => {
           <div className="relative bg-purple-800/50 rounded-xl border border-purple-600 p-4 shadow-2xl">
             <div className="aspect-video rounded-lg overflow-hidden bg-black">
               <iframe
-                src="https://www.youtube.com/embed/dQw4w9WgXcQ"
+                src={TRAILER_LINK}
                 title="Pokémon Absolution - Official Trailer"
                 allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
                 allowFullScreen

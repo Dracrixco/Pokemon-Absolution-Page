@@ -1,4 +1,5 @@
 export const roleColors: Record<string, string> = {
+  Protagonist: "bg-gray-600",
   "Pokémon Professor": "bg-blue-600",
   "Rival Trainer": "bg-red-600",
   "Gym Leader": "bg-yellow-600",

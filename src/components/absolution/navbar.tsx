@@ -67,7 +67,7 @@ const Navigation = ({ className = "" }: { className: string }) => {
         Characters
       </Link>
       <Link
-        to="#"
+        to="/"
         onClick={() => {
           handleDownload();
         }}
