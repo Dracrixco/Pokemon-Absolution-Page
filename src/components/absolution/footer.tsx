@@ -18,7 +18,7 @@ export const Footer = () => {
     {
       name: "Discord",
       icon: <Badge className="h-5 w-5" />,
-      url: "#",
+      url: "https://discord.gg/m9hCTZch",
     },
   ];
 
