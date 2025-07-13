@@ -1,5 +1,5 @@
 const GOOGLE_DRIVE_URL =
-  "https://drive.google.com/file/d/1DvDhTRnQyqcDEs5ny7P04aDHQWnz9UhW/view?usp=drive_link";
+  "https://drive.google.com/file/d/1UJEiGNSE2yMuoK5R5s1S7f5K9E16Btqg/view?usp=sharing";
 
 export const handleDownload = async () => {
   try {
