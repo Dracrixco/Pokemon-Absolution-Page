@@ -33,9 +33,9 @@ export const handleDownload = async () => {
     });
 
     const gameInfo = await getGameInfo();
-    console.log(gameInfo);
-    window.open(DEFAULT_DOWNLOAD_LINK, "_blank");
+    window.open(gameInfo.downloadLink, "_blank");
   } catch (err) {
+    window.open(DEFAULT_DOWNLOAD_LINK, "_blank");
     console.error("Error registrando descarga:", err);
   }
 };

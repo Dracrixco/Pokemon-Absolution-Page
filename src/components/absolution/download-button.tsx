@@ -32,7 +32,7 @@ const DownloadButton = ({
         setGameInfo({
           version: "0.1.2",
           downloadLink: DEFAULT_DOWNLOAD_LINK,
-          lastUpdated: "2025-01-12T10:30:00Z",
+          lastUpdated: "2025-06-15",
         });
       } finally {
         setLoading(false);
