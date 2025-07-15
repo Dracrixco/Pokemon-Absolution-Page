@@ -1,5 +1,29 @@
-const GOOGLE_DRIVE_URL =
-  "https://drive.google.com/file/d/11Z3resNmp-O7ew4xtO4-S5dPLvJdhavs/view?usp=drive_link";
+export const DEFAULT_DOWNLOAD_LINK =
+  "https://drive.google.com/file/d/19E1EovzWUB6OU4ydaUBqaHY0nYrOQjjx/view?usp=sharing";
+
+export const getGameInfo = async () => {
+  try {
+    const response = await fetch(
+      `${import.meta.env.VITE_BACKEND_URL}/game-info`,
+      {
+        method: "GET",
+        headers: {
+          "Content-Type": "application/json",
+        },
+      }
+    );
+
+    if (!response.ok) {
+      throw new Error(`Error: ${response.status}`);
+    }
+
+    const data = await response.json();
+    return data;
+  } catch (err) {
+    console.error("Error obteniendo información del juego:", err);
+    throw err;
+  }
+};
 
 export const handleDownload = async () => {
   try {
@@ -8,8 +32,9 @@ export const handleDownload = async () => {
       mode: "no-cors",
     });
 
-    // Después de registrar, abrir Google Drive
-    window.open(GOOGLE_DRIVE_URL, "_blank"); // ✅ Siempre abre en nueva pestaña
+    const gameInfo = await getGameInfo();
+    console.log(gameInfo);
+    window.open(gameInfo.downloadLink, "_blank");
   } catch (err) {
     console.error("Error registrando descarga:", err);
   }

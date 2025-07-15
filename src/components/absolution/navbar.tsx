@@ -2,7 +2,6 @@ import { Link } from "react-router-dom";
 import { Menu, X } from "lucide-react";
 import { useState } from "react";
 import { RandomLogo } from "./logos";
-import { handleDownload } from "@/lib/download";
 
 export const Navbar = () => {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
@@ -73,13 +72,10 @@ const Navigation = ({ className = "" }: { className: string }) => {
         Maps
       </Link>
       <Link
-        to="/"
-        onClick={() => {
-          handleDownload();
-        }}
+        to="/updates"
         className="text-purple-200 hover:text-white transition-colors"
       >
-        Download
+        Updates
       </Link>
     </nav>
   );
