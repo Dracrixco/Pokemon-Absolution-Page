@@ -34,7 +34,7 @@ export function UpdatesPage() {
               {latestUpdate.version}
             </h2>
             <p className="text-purple-200 mb-4">{latestUpdate.name}</p>
-            <DownloadButton />
+            <DownloadButton showVersion={false} />
           </div>
         </div>
       </section>

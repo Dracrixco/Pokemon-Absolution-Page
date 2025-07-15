@@ -13,7 +13,7 @@ export const updates: Update[] = [
     name: "Misspelling",
     description: "",
     version: "v0.1.2",
-    date: "2025-07-14",
+    date: "2025-07-15",
     changes: [
       "Fixed various spelling errors in dialogues and menus.",
       "Fixed a transition bug when starting a battle against a rival trainer.",
@@ -24,7 +24,7 @@ export const updates: Update[] = [
     name: "Multiplayer error fix",
     description: "",
     version: "v0.1.1",
-    date: "2025-07-13",
+    date: "2025-07-14",
     changes: [
       "Fixed an issue in multiplayer when both players had the same gender.",
       "Improved several Pokédex descriptions.",

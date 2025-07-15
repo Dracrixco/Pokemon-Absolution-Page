@@ -4,10 +4,19 @@ import { useState, useEffect } from "react";
 import { DEFAULT_DOWNLOAD_LINK } from "@/lib/download";
 import { Button } from "../ui/button";
 
-const DownloadButton = ({ className = "" }) => {
+interface DownloadButtonProps {
+  className?: string;
+  showVersion?: boolean;
+}
+
+const DownloadButton = ({
+  className,
+  showVersion = true,
+}: DownloadButtonProps) => {
   const [gameInfo, setGameInfo] = useState<{
     version: string;
     downloadLink: string;
+    lastUpdated: string;
   } | null>(null);
   const [loading, setLoading] = useState(true);
   const [error, setError] = useState(null);
@@ -23,6 +32,7 @@ const DownloadButton = ({ className = "" }) => {
         setGameInfo({
           version: "0.1.2",
           downloadLink: DEFAULT_DOWNLOAD_LINK,
+          lastUpdated: "2025-01-12T10:30:00Z",
         });
       } finally {
         setLoading(false);
@@ -36,6 +46,15 @@ const DownloadButton = ({ className = "" }) => {
     if (gameInfo && !loading) {
       handleDownload();
     }
+  };
+
+  const formatDate = (dateString: string) => {
+    const date = new Date(dateString);
+    return date.toLocaleDateString("en-US", {
+      year: "numeric",
+      month: "short",
+      day: "numeric",
+    });
   };
 
   return (
@@ -61,10 +80,17 @@ const DownloadButton = ({ className = "" }) => {
         ) : (
           <>
             <Download className="mr-2 h-5 w-5" />
-            Download Now {gameInfo && <>({gameInfo.version})</>}
+            Download Now
           </>
         )}
       </Button>
+
+      {showVersion && gameInfo && !loading && (
+        <div className="flex flex-col items-center gap-1 text-sm text-white">
+          <span>Version: {gameInfo.version}</span>
+          <span>Last updated: {formatDate(gameInfo.lastUpdated)}</span>
+        </div>
+      )}
 
       {error && (
         <span className="text-sm text-red-500">Using fallback data</span>
