@@ -1,5 +1,5 @@
 export const DEFAULT_DOWNLOAD_LINK =
-  "https://drive.google.com/file/d/19E1EovzWUB6OU4ydaUBqaHY0nYrOQjjx/view?usp=sharing";
+  "https://drive.google.com/file/d/19E1EovzWUB6OU4ydaUBqaHY0nYrOQjjx/view?usp=drive_link";
 
 export const getGameInfo = async () => {
   try {
@@ -34,7 +34,7 @@ export const handleDownload = async () => {
 
     const gameInfo = await getGameInfo();
     console.log(gameInfo);
-    window.open(gameInfo.downloadLink, "_blank");
+    window.open(DEFAULT_DOWNLOAD_LINK, "_blank");
   } catch (err) {
     console.error("Error registrando descarga:", err);
   }
