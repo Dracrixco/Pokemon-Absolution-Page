@@ -10,6 +10,7 @@ import { FakemonDetailPage } from "./pages/fakemons/fakemon-detail/page";
 import { MoveDetailPage } from "./pages/moves/moves-detail/page";
 import { Footer } from "./components/absolution/footer";
 import { UpdatesPage } from "./pages/updates/page";
+import { CountryDownloads } from "./pages/countries/page";
 
 export default function PokemonAbsolutionWebsite() {
   return (
@@ -24,6 +25,7 @@ export default function PokemonAbsolutionWebsite() {
         <Route path="/fakemons/:id" element={<FakemonDetailPage />} />
         <Route path="/moves/:id" element={<MoveDetailPage />} />
         <Route path="/updates" element={<UpdatesPage />} />
+        <Route path="/downloads-list" element={<CountryDownloads />} />
       </Routes>
       <Footer />
     </>

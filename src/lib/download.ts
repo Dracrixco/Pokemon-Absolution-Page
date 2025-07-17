@@ -39,3 +39,21 @@ export const handleDownload = async () => {
     console.error("Error registrando descarga:", err);
   }
 };
+
+export const getDownloadsData = async () => {
+  try {
+    const response = await fetch(
+      `${import.meta.env.VITE_BACKEND_URL}/countries`,
+      {
+        method: "GET",
+        headers: {
+          "Content-Type": "application/json",
+        },
+      }
+    );
+    const data = await response.json();
+    return data;
+  } catch (err) {
+    console.error("Error getting the data:", err);
+  }
+};
