@@ -46,7 +46,7 @@ export function UpdatesPage() {
             {updates.map((update, index) => (
               <div
                 key={update.id}
-                className="bg-purple-800/50 rounded-xl border border-purple-600 p-6 hover:bg-purple-800/60 transition-all duration-300"
+                className="text-white bg-purple-800/50 rounded-xl border border-purple-600 p-6 hover:bg-purple-800/60 transition-all duration-300"
               >
                 {/* Update Header */}
                 <div className="flex flex-col md:flex-row md:items-center md:justify-between mb-4">

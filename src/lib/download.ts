@@ -1,5 +1,5 @@
 export const DEFAULT_DOWNLOAD_LINK =
-  "https://drive.google.com/file/d/19E1EovzWUB6OU4ydaUBqaHY0nYrOQjjx/view?usp=drive_link";
+  "https://drive.google.com/file/d/1tXJWHUOU_iRogieah9w1ShQ05dMWMWWg/view?usp=sharing";
 
 export const getGameInfo = async () => {
   try {
