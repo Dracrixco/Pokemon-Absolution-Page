@@ -48,15 +48,6 @@ const DownloadButton = ({
     }
   };
 
-  const formatDate = (dateString: string) => {
-    const date = new Date(dateString);
-    return date.toLocaleDateString("en-US", {
-      year: "numeric",
-      month: "short",
-      day: "numeric",
-    });
-  };
-
   return (
     <div className="flex flex-col items-center gap-2">
       <Button
@@ -88,7 +79,7 @@ const DownloadButton = ({
       {showVersion && gameInfo && !loading && (
         <div className="flex flex-col items-center gap-1 text-sm text-white">
           <span>Version: {gameInfo.version}</span>
-          <span>Last updated: {formatDate(gameInfo.lastUpdated)}</span>
+          <span>Last updated: {gameInfo.lastUpdated}</span>
         </div>
       )}
 
