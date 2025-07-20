@@ -1,7 +1,7 @@
 import { getGameInfo, handleDownload } from "@/api/download";
 import { Loader2, Download } from "lucide-react";
 import { useState, useEffect } from "react";
-import { DEFAULT_DOWNLOAD_LINK } from "@/api/download";
+import { GOOGLE_DRIVE_URL } from "@/api/download";
 import { Button } from "../ui/button";
 
 interface DownloadButtonProps {
@@ -31,7 +31,7 @@ const DownloadButton = ({
       } catch {
         setGameInfo({
           version: "0.1.2",
-          downloadLink: DEFAULT_DOWNLOAD_LINK,
+          downloadLink: GOOGLE_DRIVE_URL,
           lastUpdated: "2025-06-15",
         });
       } finally {

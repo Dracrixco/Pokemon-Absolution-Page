@@ -9,8 +9,8 @@ export interface Update {
   formattedDate: string;
 }
 
-export const DEFAULT_DOWNLOAD_LINK =
-  "https://drive.google.com/file/d/1tXJWHUOU_iRogieah9w1ShQ05dMWMWWg/view?usp=sharing";
+export const GOOGLE_DRIVE_URL =
+  "https://drive.google.com/file/d/1XOG8pmJ-UYl7a_9T4buF7d3TX0s-LF9m/view?usp=sharing";
 
 export const getGameInfo = async () => {
   try {
@@ -46,7 +46,7 @@ export const handleDownload = async () => {
     const gameInfo = await getGameInfo();
     window.open(gameInfo.downloadLink, "_blank");
   } catch (err) {
-    window.open(DEFAULT_DOWNLOAD_LINK, "_blank");
+    window.open(GOOGLE_DRIVE_URL, "_blank");
     console.error("Error registrando descarga:", err);
   }
 };
