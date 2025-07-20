@@ -1,5 +1,5 @@
 import { useState, useEffect } from "react";
-import { getDownloadsData } from "@/lib/download";
+import { getDownloadsData } from "@/api/download";
 
 const countryNames: Record<string, string> = {
   US: "United States",

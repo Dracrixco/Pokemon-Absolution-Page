@@ -1,7 +1,7 @@
-import { getGameInfo, handleDownload } from "@/lib/download";
+import { getGameInfo, handleDownload } from "@/api/download";
 import { Loader2, Download } from "lucide-react";
 import { useState, useEffect } from "react";
-import { DEFAULT_DOWNLOAD_LINK } from "@/lib/download";
+import { DEFAULT_DOWNLOAD_LINK } from "@/api/download";
 import { Button } from "../ui/button";
 
 interface DownloadButtonProps {
