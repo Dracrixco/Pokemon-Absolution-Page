@@ -119,7 +119,7 @@ export const TeamBuilder = () => {
         <div className="bg-white rounded-lg shadow-lg p-6 mb-6">
           <div className="flex justify-between items-center mb-4">
             <h2 className="text-2xl font-bold text-gray-800">
-              Mi Equipo ({team.length}/6)
+              My Team ({team.length}/6)
             </h2>
             <div className="flex gap-2">
               <button
@@ -128,7 +128,7 @@ export const TeamBuilder = () => {
                 className="flex items-center gap-2 px-4 py-2 bg-blue-500 text-white rounded-lg hover:bg-blue-600 disabled:bg-gray-400 disabled:cursor-not-allowed"
               >
                 <Plus size={20} />
-                Agregar Pokémon
+                Add Pokémon
               </button>
               <button
                 onClick={exportTeam}
@@ -136,7 +136,7 @@ export const TeamBuilder = () => {
                 className="flex items-center gap-2 px-4 py-2 bg-green-500 text-white rounded-lg hover:bg-green-600 disabled:bg-gray-400 disabled:cursor-not-allowed"
               >
                 <Download size={20} />
-                Exportar
+                Export
               </button>
               <button
                 onClick={clearTeam}
@@ -144,7 +144,7 @@ export const TeamBuilder = () => {
                 className="flex items-center gap-2 px-4 py-2 bg-red-500 text-white rounded-lg hover:bg-red-600 disabled:bg-gray-400 disabled:cursor-not-allowed"
               >
                 <Trash2 size={20} />
-                Limpiar
+                Clear
               </button>
             </div>
           </div>
@@ -197,8 +197,8 @@ export const TeamBuilder = () => {
                         ))}
                       </div>
                       <div className="text-sm text-gray-600">
-                        <p>Nivel: {teamPokemon.level}</p>
-                        <p>Naturaleza: {teamPokemon.nature}</p>
+                        <p>Level: {teamPokemon.level}</p>
+                        <p>Nature: {teamPokemon.nature}</p>
                         <p className="text-xs mt-1">
                           EVs: {teamPokemon.evs.join("/")}
                         </p>
@@ -218,7 +218,7 @@ export const TeamBuilder = () => {
               >
                 <div className="text-center text-gray-500">
                   <Plus size={40} className="mx-auto mb-2 opacity-50" />
-                  <p>Slot vacío</p>
+                  <p>Empty slot</p>
                 </div>
               </div>
             ))}

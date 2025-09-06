@@ -91,7 +91,7 @@ const NATURES = Object.keys(NATURE_EFFECTS) as (keyof typeof NATURE_EFFECTS)[];
 type DIFFICULTY_LEVELS_TYPE = "easy" | "normal" | "hard" | "absolution";
 const DIFFICULTY_LEVELS = ["easy", "normal", "hard", "absolution"] as const;
 
-// Función para obtener las dificultades que deben ser actualizadas en cascada
+// Function to get difficulties that should be updated in cascade
 const getDifficultiesToUpdate = (
   currentDifficulty: DIFFICULTY_LEVELS_TYPE
 ): DIFFICULTY_LEVELS_TYPE[] => {
@@ -286,14 +286,7 @@ export const PokemonEditorModal: React.FC<PokemonEditorModalProps> = ({
     setEditedPokemon({ ...editedPokemon, evs: newEvs });
   };
 
-  const statNames = [
-    "HP",
-    "Ataque",
-    "Defensa",
-    "At. Esp",
-    "Def. Esp",
-    "Velocidad",
-  ];
+  const statNames = ["HP", "Attack", "Defense", "Sp. Atk", "Sp. Def", "Speed"];
   const availableMoves = pokemonData.moves || [];
 
   return (
@@ -308,7 +301,7 @@ export const PokemonEditorModal: React.FC<PokemonEditorModalProps> = ({
               className="w-16 h-16"
               onError={(e) => {
                 e.currentTarget.src =
-                  "data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iNjQiIGhlaWdodD0iNjQiIHZpZXdCb3g9IjAgMCA2NCA2NCIgZmlsbD0ibm9uZSIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj4KPHJlY3Qgd2lkdGg9IjY0IiBoZWlnaHQ9IjY0IiBmaWxsPSIjRjNGNEY2Ii8+CjxwYXRoIGQ9Ik0zMiAxNkMzOC42Mjc0IDE2IDQ0IDIxLjM3MjYgNDQgMjhDNDQgMzQuNjI3NCAzOC42Mjc0IDQwIDMyIDQwQzI1LjM3MjYgNDAgMjAgMzQuNjI3NCAyMCAyOEMyMCAyMS4zNzI2IDI1LjM3MjYgMTYgMzIgMTZaIiBmaWxsPSIjRDFENURCIi8+CjxjaXJjbGUgY3g9IjI4IiBjeT0iMjUuNiIgcj0iMi40IiBmaWxsPSIjNkI3MjgwIi8+CjxjaXJjbGUgY3g9IjM2IiBjeT0iMjUuNiIgcj0iMi40IiBmaWxsPSIjNkI3MjgwIi8+CjxwYXRoIGQ9Ik0yOCAzMkMyOCAzMi44ODM2IDI4Ljg5NTQgMzMuNiAzMCAzMy42SDM0QzM1LjEwNDYgMzMuNiAzNiAzMi44ODM2IDM2IDMyVjMxLjJIMjhWMzJaIiBmaWxsPSIjNkI3MjgwIi8+Cjwvc3ZnPg==";
+                  "data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iNjQiIGhlaWdodD0iNjQiIHZpZXdCb3g9IjAgMCA2NCA2NCIgZmlsbD0ibm9uZSIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj4KPHJlY3Qgd2lkdGg9IjY0IiBoZWlnaHQ9IjY0IiBmaWxsPSIjRjNGNEY2Ii8+CjxwYXRoIGQ9Ik0zMiAxNkMzOC42Mjc0IDE2IDQ0IDIxLjM3MjYgNDQgMjhDNDQgMzQuNjI3NCAzOC42Mjc0IDQwIDMyIDQwQzI1LjM3MjYgNDAgMjAgMzQuNjI3NCAyMCAyOCMyMCAyMS4zNzI2IDI1LjM3MjYgMTYgMzIgMTZaIiBmaWxsPSIjRDFENURCIi8+CjxjaXJjbGUgY3g9IjI4IiBjeT0iMjUuNiIgcj0iMi40IiBmaWxsPSIjNkI3MjgwIi8+CjxjaXJjbGUgY3g9IjM2IiBjeT0iMjUuNiIgcj0iMi40IiBmaWxsPSIjNkI3MjgwIi8+CjxwYXRoIGQ9Ik0yOCAzMkMyOCAzMi44ODM2IDI4Ljg5NTQgMzMuNiAzMCAzMy42SDM0QzM1LjEwNDYgMzMuNiAzNiAzMi44ODM2IDM2IDMyVjMxLjJIMjhWMzJaIiBmaWxsPSIjNkI3MjgwIi8+Cjwvc3ZnPg==";
               }}
             />
             <div>
@@ -333,7 +326,7 @@ export const PokemonEditorModal: React.FC<PokemonEditorModalProps> = ({
               className="flex items-center gap-2 px-4 py-2 bg-green-500 text-white rounded-lg hover:bg-green-600"
             >
               <Save size={20} />
-              Guardar
+              Save
             </button>
             <button
               onClick={onClose}
@@ -348,7 +341,7 @@ export const PokemonEditorModal: React.FC<PokemonEditorModalProps> = ({
           {/* Basic Info */}
           <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
             <div>
-              <label className="block text-sm font-medium mb-1">Nivel</label>
+              <label className="block text-sm font-medium mb-1">Level</label>
               <input
                 type="number"
                 min="1"
@@ -367,9 +360,7 @@ export const PokemonEditorModal: React.FC<PokemonEditorModalProps> = ({
               />
             </div>
             <div>
-              <label className="block text-sm font-medium mb-1">
-                Naturaleza
-              </label>
+              <label className="block text-sm font-medium mb-1">Nature</label>
               <div className="flex gap-2">
                 <select
                   value={editedPokemon.nature}
@@ -401,7 +392,7 @@ export const PokemonEditorModal: React.FC<PokemonEditorModalProps> = ({
                   }
                   className="px-3 py-2 bg-purple-500 text-white rounded-lg hover:bg-purple-600 text-sm"
                 >
-                  Aplicar Preset
+                  Apply Preset
                 </button>
               </div>
             </div>
@@ -410,7 +401,7 @@ export const PokemonEditorModal: React.FC<PokemonEditorModalProps> = ({
           {/* Difficulty Level Selector */}
           <div>
             <label className="block text-sm font-medium mb-2">
-              Configuración para Dificultad
+              Configuration for Difficulty
             </label>
             <div className="flex gap-2">
               {DIFFICULTY_LEVELS.map((level) => (
@@ -430,13 +421,13 @@ export const PokemonEditorModal: React.FC<PokemonEditorModalProps> = ({
 
             {/* Cascade Info */}
             <div className="mt-2 text-sm text-gray-600">
-              <span className="font-medium">Cascada:</span> Los cambios en{" "}
+              <span className="font-medium">Cascade:</span> Changes in{" "}
               <span className="font-semibold capitalize">
                 {selectedDifficulty === "absolution"
                   ? "Absolution"
                   : selectedDifficulty}
               </span>{" "}
-              se aplicarán a:{" "}
+              will apply to:{" "}
               <span className="text-blue-600">
                 {getDifficultiesToUpdate(selectedDifficulty)
                   .map((d) => (d === "absolution" ? "Absolution" : d))
@@ -448,7 +439,7 @@ export const PokemonEditorModal: React.FC<PokemonEditorModalProps> = ({
           {/* Current Difficulty Settings */}
           <div className="bg-gray-50 rounded-lg p-4">
             <h3 className="font-bold mb-4 capitalize">
-              Configuración -{" "}
+              Configuration -{" "}
               {selectedDifficulty === "absolution"
                 ? "Absolution"
                 : selectedDifficulty}
@@ -456,7 +447,7 @@ export const PokemonEditorModal: React.FC<PokemonEditorModalProps> = ({
 
             {/* Item */}
             <div className="mb-4">
-              <label className="block text-sm font-medium mb-1">Objeto</label>
+              <label className="block text-sm font-medium mb-1">Item</label>
               <ItemSelector
                 value={getCurrentItem()}
                 onChange={handleItemChange}
@@ -465,9 +456,7 @@ export const PokemonEditorModal: React.FC<PokemonEditorModalProps> = ({
 
             {/* Ability */}
             <div className="mb-4">
-              <label className="block text-sm font-medium mb-1">
-                Habilidad
-              </label>
+              <label className="block text-sm font-medium mb-1">Ability</label>
               <select
                 value={getCurrentAbilityIndex()}
                 onChange={(e) =>
@@ -490,7 +479,7 @@ export const PokemonEditorModal: React.FC<PokemonEditorModalProps> = ({
                       key={pokemonData.abilities.length + index}
                       value={pokemonData.abilities.length + index}
                     >
-                      {ability?.name || abilityId} (Oculta)
+                      {ability?.name || abilityId} (Hidden)
                     </option>
                   );
                 })}
@@ -500,13 +489,13 @@ export const PokemonEditorModal: React.FC<PokemonEditorModalProps> = ({
             {/* Moves */}
             <div>
               <label className="block text-sm font-medium mb-2">
-                Movimientos (4 slots)
+                Moves (4 slots)
               </label>
               <div className="grid grid-cols-1 md:grid-cols-2 gap-3">
                 {getCurrentMoves().map((moveId, index) => (
                   <div key={index}>
                     <label className="block text-xs font-medium text-gray-600 mb-1">
-                      Movimiento {index + 1}
+                      Move {index + 1}
                     </label>
                     <MoveSelector
                       value={moveId}
@@ -523,45 +512,43 @@ export const PokemonEditorModal: React.FC<PokemonEditorModalProps> = ({
 
           {/* EV Presets */}
           <div>
-            <label className="block text-sm font-medium mb-2">
-              Presets de EVs
-            </label>
+            <label className="block text-sm font-medium mb-2">EV Presets</label>
             <div className="flex gap-2 flex-wrap">
               <button
                 onClick={() => applyEVPreset("physical")}
                 className="px-3 py-1 bg-red-500 text-white rounded text-sm hover:bg-red-600"
               >
-                Físico (HP/Atk/Spe)
+                Physical (HP/Atk/Spe)
               </button>
               <button
                 onClick={() => applyEVPreset("special")}
                 className="px-3 py-1 bg-blue-500 text-white rounded text-sm hover:bg-blue-600"
               >
-                Especial (HP/SpA/Spe)
+                Special (HP/SpA/Spe)
               </button>
               <button
                 onClick={() => applyEVPreset("tank")}
                 className="px-3 py-1 bg-green-500 text-white rounded text-sm hover:bg-green-600"
               >
-                Tanque (HP/Def/SpD)
+                Tank (HP/Def/SpD)
               </button>
               <button
                 onClick={() => applyEVPreset("Physicalspeedy")}
                 className="px-3 py-1 bg-yellow-500 text-white rounded text-sm hover:bg-yellow-600"
               >
-                Rápido (Atk/Spe)
+                Fast (Atk/Spe)
               </button>
               <button
                 onClick={() => applyEVPreset("Specialspeedy")}
                 className="px-3 py-1 bg-orange-500 text-white rounded text-sm hover:bg-orange-600"
               >
-                Rápido (SpA/Spe)
+                Fast (SpA/Spe)
               </button>
               <button
                 onClick={() => applyEVPreset("mixed")}
                 className="px-3 py-1 bg-purple-500 text-white rounded text-sm hover:bg-purple-600"
               >
-                Mixto (HP/Atk/SpA)
+                Mixed (HP/Atk/SpA)
               </button>
             </div>
           </div>

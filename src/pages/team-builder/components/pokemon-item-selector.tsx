@@ -47,7 +47,7 @@ export const ItemSelector: React.FC<{
               <span className="truncate">{selectedItem.name}</span>
             </>
           ) : (
-            <span className="text-gray-500">Sin objeto</span>
+            <span className="text-gray-500">No item</span>
           )}
         </div>
         <ChevronDown
@@ -65,7 +65,7 @@ export const ItemSelector: React.FC<{
           <div className="p-2 border-b">
             <input
               type="text"
-              placeholder="Buscar objeto..."
+              placeholder="Search item..."
               value={searchTerm}
               onChange={(e) => setSearchTerm(e.target.value)}
               className="w-full px-2 py-1 border border-gray-300 rounded text-sm focus:ring-1 focus:ring-blue-500"
@@ -85,9 +85,9 @@ export const ItemSelector: React.FC<{
                 <X size={12} className="text-gray-500" />
               </div>
               <div className="min-w-0">
-                <div className="font-medium text-gray-600">Sin objeto</div>
+                <div className="font-medium text-gray-600">No item</div>
                 <div className="text-xs text-gray-400">
-                  No equipar ningún objeto
+                  Don't equip any item
                 </div>
               </div>
             </button>
@@ -124,7 +124,7 @@ export const ItemSelector: React.FC<{
 
             {filteredItems.length === 0 && searchTerm && (
               <div className="px-3 py-4 text-center text-gray-500 text-sm">
-                No se encontraron objetos que coincidan con "{searchTerm}"
+                No items found matching "{searchTerm}"
               </div>
             )}
           </div>

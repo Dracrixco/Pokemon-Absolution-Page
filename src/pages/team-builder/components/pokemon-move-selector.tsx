@@ -93,7 +93,7 @@ export const MoveSelector: React.FC<MoveSelectorProps> = ({
               )}
             </>
           ) : (
-            <span className="text-gray-500">Seleccionar movimiento</span>
+            <span className="text-gray-500">Select move</span>
           )}
         </div>
         <ChevronDown
@@ -111,7 +111,7 @@ export const MoveSelector: React.FC<MoveSelectorProps> = ({
           <div className="p-2 border-b">
             <input
               type="text"
-              placeholder="Buscar movimiento..."
+              placeholder="Search move..."
               value={searchTerm}
               onChange={(e) => setSearchTerm(e.target.value)}
               className="w-full px-2 py-1 border border-gray-300 rounded text-sm focus:ring-1 focus:ring-blue-500"
@@ -131,8 +131,8 @@ export const MoveSelector: React.FC<MoveSelectorProps> = ({
                 <X size={12} className="text-gray-500" />
               </div>
               <div className="min-w-0">
-                <div className="font-medium text-gray-600">Sin movimiento</div>
-                <div className="text-xs text-gray-400">Slot vacío</div>
+                <div className="font-medium text-gray-600">No move</div>
+                <div className="text-xs text-gray-400">Empty slot</div>
               </div>
             </button>
 
@@ -172,8 +172,8 @@ export const MoveSelector: React.FC<MoveSelectorProps> = ({
 
                   {/* Stats */}
                   <div className="flex items-center gap-3 text-xs text-gray-600 mb-1">
-                    <span>Poder: {move.power || "—"}</span>
-                    <span>Precisión: {move.accuracy || "—"}</span>
+                    <span>Power: {move.power || "—"}</span>
+                    <span>Accuracy: {move.accuracy || "—"}</span>
                     <span>PP: {move.totalPP}</span>
                   </div>
 
@@ -187,7 +187,7 @@ export const MoveSelector: React.FC<MoveSelectorProps> = ({
                   {/* Target */}
                   {move.target && (
                     <div className="text-xs text-gray-400 mt-1">
-                      Objetivo: {move.target}
+                      Target: {move.target}
                     </div>
                   )}
                 </div>
@@ -196,7 +196,7 @@ export const MoveSelector: React.FC<MoveSelectorProps> = ({
 
             {filteredMoves.length === 0 && searchTerm && (
               <div className="px-3 py-4 text-center text-gray-500 text-sm">
-                No se encontraron movimientos que coincidan con "{searchTerm}"
+                No moves found matching "{searchTerm}"
               </div>
             )}
           </div>

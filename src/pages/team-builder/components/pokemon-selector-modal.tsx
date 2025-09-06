@@ -96,7 +96,7 @@ export const PokemonSelectorModal: React.FC<PokemonSelectorModalProps> = ({
     <div className="fixed inset-0 bg-black bg-opacity-50 flex items-center justify-center z-50">
       <div className="bg-white rounded-lg p-6 w-full max-w-5xl max-h-[85vh] overflow-hidden flex flex-col">
         <div className="flex justify-between items-center mb-4">
-          <h2 className="text-2xl font-bold">Seleccionar Pokémon</h2>
+          <h2 className="text-2xl font-bold">Select Pokémon</h2>
           <button
             onClick={onClose}
             className="text-gray-500 hover:text-gray-700"
@@ -112,7 +112,7 @@ export const PokemonSelectorModal: React.FC<PokemonSelectorModalProps> = ({
             <Search className="absolute left-3 top-3 text-gray-400" size={20} />
             <input
               type="text"
-              placeholder="Buscar Pokémon..."
+              placeholder="Search Pokémon..."
               value={searchTerm}
               onChange={(e) => setSearchTerm(e.target.value)}
               className="w-full pl-10 pr-4 py-2 border border-gray-300 rounded-lg focus:ring-2 focus:ring-blue-500 focus:border-blue-500"
@@ -124,7 +124,7 @@ export const PokemonSelectorModal: React.FC<PokemonSelectorModalProps> = ({
             <div className="flex items-center gap-2 mb-3">
               <Tag size={16} className="text-gray-600" />
               <label className="font-semibold text-sm text-gray-700">
-                Filtrar por versión:
+                Filter by version:
               </label>
             </div>
             <div className="flex flex-wrap gap-2">
@@ -136,7 +136,7 @@ export const PokemonSelectorModal: React.FC<PokemonSelectorModalProps> = ({
                     : "bg-gray-200 text-gray-700 hover:bg-gray-300"
                 }`}
               >
-                Todos ({fakemons.length})
+                All ({fakemons.length})
               </button>
 
               {availableSuffixes.map((suffix) => {
@@ -171,7 +171,7 @@ export const PokemonSelectorModal: React.FC<PokemonSelectorModalProps> = ({
               className="flex items-center gap-2 px-3 py-2 bg-blue-100 text-blue-700 rounded-lg hover:bg-blue-200 transition-colors"
             >
               <Filter size={16} />
-              Filtrar por tipos
+              Filter by types
               {selectedTypes.length > 0 && (
                 <span className="bg-blue-500 text-white text-xs px-2 py-1 rounded-full">
                   {selectedTypes.length}
@@ -187,25 +187,24 @@ export const PokemonSelectorModal: React.FC<PokemonSelectorModalProps> = ({
                 onClick={clearAllFilters}
                 className="px-3 py-2 text-gray-600 hover:text-gray-800 text-sm"
               >
-                Limpiar filtros
+                Clear filters
               </button>
             )}
           </div>
 
-          {/* Filtros de tipo */}
           {showTypeFilters && (
             <div className="bg-gray-50 rounded-lg p-4 border">
               <div className="flex items-center justify-between mb-3">
                 <h3 className="font-semibold text-sm text-gray-700">
-                  Filtrar por tipos (
-                  {selectedTypes.length > 0 ? "Y" : "Cualquier tipo"})
+                  Filter by types (
+                  {selectedTypes.length > 0 ? "AND" : "Any type"})
                 </h3>
                 {selectedTypes.length > 0 && (
                   <button
                     onClick={clearTypeFilters}
                     className="text-xs text-gray-500 hover:text-gray-700"
                   >
-                    Limpiar tipos
+                    Clear types
                   </button>
                 )}
               </div>
@@ -232,7 +231,7 @@ export const PokemonSelectorModal: React.FC<PokemonSelectorModalProps> = ({
 
               {selectedTypes.length > 0 && (
                 <div className="mt-3 text-xs text-gray-600">
-                  <span className="font-medium">Tipos seleccionados:</span>
+                  <span className="font-medium">Selected types:</span>
                   <div className="flex flex-wrap gap-1 mt-1">
                     {selectedTypes.map((type) => (
                       <span
@@ -261,15 +260,15 @@ export const PokemonSelectorModal: React.FC<PokemonSelectorModalProps> = ({
         <div className="flex-1 overflow-y-auto">
           <div className="mb-3 text-sm text-gray-600">
             {filteredPokemon.length === fakemons.length
-              ? `Mostrando todos los ${filteredPokemon.length} Pokémon`
-              : `Mostrando ${filteredPokemon.length} de ${fakemons.length} Pokémon`}
+              ? `Showing all ${filteredPokemon.length} Pokémon`
+              : `Showing ${filteredPokemon.length} of ${fakemons.length} Pokémon`}
             {selectedSuffix !== "all" && (
               <span className="ml-2">
-                (versión {formatSuffixName(selectedSuffix)})
+                ({formatSuffixName(selectedSuffix)} version)
               </span>
             )}
             {selectedTypes.length > 0 && (
-              <span className="ml-2">(tipos: {selectedTypes.join(", ")})</span>
+              <span className="ml-2">(types: {selectedTypes.join(", ")})</span>
             )}
           </div>
 
@@ -288,7 +287,7 @@ export const PokemonSelectorModal: React.FC<PokemonSelectorModalProps> = ({
                     style={{ imageRendering: "pixelated" }}
                     onError={(e) => {
                       e.currentTarget.src =
-                        "data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iNjQiIGhlaWdodD0iNjQiIHZpZXdCb3g9IjAgMCA2NCA2NCIgZmlsbD0ibm9uZSIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj4KPHJlY3Qgd2lkdGg9IjY0IiBoZWlnaHQ9IjY0IiBmaWxsPSIjRjNGNEY2Ii8+CjxwYXRoIGQ9Ik0zMiAxNkMzOC42Mjc0IDE2IDQ0IDIxLjM3MjYgNDQgMjhDNDQgMzQuNjI3NCAzOC42Mjc0IDQwIDMyIDQwQzI1LjM3MjYgNDAgMjAgMzQuNjI3NCAyMCAyOEMyMCAyMS4zNzI2IDI1LjM3MjYgMTYgMzIgMTZaIiBmaWxsPSIjRDFENURCIi8+CjxjaXJjbGUgY3g9IjI4IiBjeT0iMjUuNiIgcj0iMi40IiBmaWxsPSIjNkI3MjgwIi8+CjxjaXJjbGUgY3g9IjM2IiBjeT0iMjUuNiIgcj0iMi40IiBmaWxsPSIjNkI3MjgwIi8+CjxwYXRoIGQ9Ik0yOCAzMkMyOCAzMi44ODM2IDI4Ljg5NTQgMzMuNiAzMCAzMy42SDM0QzM1LjEwNDYgMzMuNiAzNiAzMi44ODM2IDM2IDMyVjMxLjJIMjhWMzJaIiBmaWxsPSIjNkI3MjgwIi8+Cjwvc3ZnPg==";
+                        "data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iNjQiIGhlaWdodD0iNjQiIHZpZXdCb3g9IjAgMCA2NCA2NCIgZmlsbD0ibm9uZSIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj4KPHJlY3Qgd2lkdGg9IjY0IiBoZWlnaHQ9IjY0IiBmaWxsPSIjRjNGNEY2Ii8+CjxwYXRoIGQ9Ik0zMiAxNkMzOC42Mjc0IDE2IDQ0IDIxLjM3MjYgNDQgMjhDNDQgMzQuNjI3NCAzOC42Mjc0IDQwIDMyIDQwQzI1LjM3MjYgNDAgMjAgMzQuNjI3NCAyMCAyOCMyMCAyMS4zNzI2IDI1LjM3MjYgMTYgMzIgMTZaIiBmaWxsPSIjRDFENURCIi8+CjxjaXJjbGUgY3g9IjI4IiBjeT0iMjUuNiIgcj0iMi40IiBmaWxsPSIjNkI3MjgwIi8+CjxjaXJjbGUgY3g9IjM2IiBjeT0iMjUuNiIgcj0iMi40IiBmaWxsPSIjNkI3MjgwIi8+CjxwYXRoIGQ9Ik0yOCAzMkMyOCAzMi44ODM2IDI4Ljg5NTQgMzMuNiAzMCAzMy42SDM0QzM1LjEwNDYgMzMuNiAzNiAzMi44ODM2IDM2IDMyVjMxLjJIMjhWMzJaIiBmaWxsPSIjNkI3MjgwIi8+Cjwvc3ZnPg==";
                     }}
                   />
                   <h3
@@ -331,33 +330,33 @@ export const PokemonSelectorModal: React.FC<PokemonSelectorModalProps> = ({
               <div className="mb-4">
                 <Search className="mx-auto text-gray-300" size={48} />
               </div>
-              <p className="text-lg mb-2">No se encontraron Pokémon</p>
+              <p className="text-lg mb-2">No Pokémon found</p>
               <p className="text-sm">
                 {searchTerm &&
                 selectedTypes.length > 0 &&
                 selectedSuffix !== "all"
-                  ? `No hay Pokémon que coincidan con "${searchTerm}", tengan los tipos seleccionados y sean de la versión ${formatSuffixName(
+                  ? `No Pokémon match "${searchTerm}", have the selected types and are from the ${formatSuffixName(
                       selectedSuffix
-                    )}`
+                    )} version`
                   : searchTerm && selectedSuffix !== "all"
-                  ? `No hay Pokémon que coincidan con "${searchTerm}" en la versión ${formatSuffixName(
+                  ? `No Pokémon match "${searchTerm}" in the ${formatSuffixName(
                       selectedSuffix
-                    )}`
+                    )} version`
                   : searchTerm && selectedTypes.length > 0
-                  ? `No hay Pokémon que coincidan con "${searchTerm}" y tengan los tipos seleccionados`
+                  ? `No Pokémon match "${searchTerm}" and have the selected types`
                   : searchTerm
-                  ? `No hay Pokémon que coincidan con "${searchTerm}"`
+                  ? `No Pokémon match "${searchTerm}"`
                   : selectedTypes.length > 0 && selectedSuffix !== "all"
-                  ? `No hay Pokémon con los tipos seleccionados en la versión ${formatSuffixName(
+                  ? `No Pokémon with the selected types in the ${formatSuffixName(
                       selectedSuffix
-                    )}`
+                    )} version`
                   : selectedTypes.length > 0
-                  ? "No hay Pokémon con los tipos seleccionados"
+                  ? "No Pokémon with the selected types"
                   : selectedSuffix !== "all"
-                  ? `No hay Pokémon en la versión ${formatSuffixName(
+                  ? `No Pokémon in the ${formatSuffixName(
                       selectedSuffix
-                    )}`
-                  : "Intenta con diferentes filtros"}
+                    )} version`
+                  : "Try different filters"}
               </p>
               {(searchTerm ||
                 selectedTypes.length > 0 ||
@@ -366,7 +365,7 @@ export const PokemonSelectorModal: React.FC<PokemonSelectorModalProps> = ({
                   onClick={clearAllFilters}
                   className="mt-3 px-4 py-2 bg-blue-500 text-white rounded-lg hover:bg-blue-600 transition-colors"
                 >
-                  Limpiar todos los filtros
+                  Clear all filters
                 </button>
               )}
             </div>
