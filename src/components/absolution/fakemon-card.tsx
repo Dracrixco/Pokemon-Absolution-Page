@@ -58,7 +58,8 @@ export default function FakemonCardPokemon({
                     alt={`${fakemon.name} artwork`}
                     width={160}
                     height={160}
-                    className="object-contain"
+                    className="object-contain pixelated"
+                    style={{ imageRendering: "pixelated" }}
                   />
                 </div>
               </div>
@@ -97,7 +98,8 @@ export default function FakemonCardPokemon({
                       alt={`${fakemon.name} sprite`}
                       width={64}
                       height={64}
-                      className="object-contain"
+                      className="object-contain pixelated"
+                      style={{ imageRendering: "pixelated" }}
                     />
                   </div>
                 </div>

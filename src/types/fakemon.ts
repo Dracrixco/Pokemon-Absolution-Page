@@ -21,6 +21,7 @@ export interface Fakemon {
   moves?: string[];
   tutorMoves?: string[];
   eggMoves?: string[];
+  suffix: string;
 }
 
 export interface FakemonForTeam {

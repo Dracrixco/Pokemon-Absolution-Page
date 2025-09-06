@@ -10,7 +10,7 @@ export const fakemons: Fakemon[] =
       "POISON"
     ],
     sprite: "/sprites/BULBASAUR.png",
-    artwork: "/artwork/bulbasaur.png",
+    artwork: "/sprites/BULBASAUR.png",
     description: "Bulbasaur can be seen napping in bright sunlight. There is a seed on its back. By soaking up the sun's rays, the seed grows progressively larger.",
     stats: {
       hp: 45,
@@ -125,7 +125,8 @@ export const fakemons: Fakemon[] =
       "SKULLBASH",
       "SLUDGE",
       "TOXIC"
-    ]
+    ],
+    suffix: "normal"
   },
   {
     id: "IVYSAUR",
@@ -135,7 +136,7 @@ export const fakemons: Fakemon[] =
       "POISON"
     ],
     sprite: "/sprites/IVYSAUR.png",
-    artwork: "/artwork/ivysaur.png",
+    artwork: "/sprites/IVYSAUR.png",
     description: "To support its bulb, Ivysaur's legs grow sturdy. If it spends more time lying in the sunlight, the bud will soon bloom into a large flower.",
     stats: {
       hp: 60,
@@ -239,7 +240,8 @@ export const fakemons: Fakemon[] =
     ],
     eggMoves: [
 
-    ]
+    ],
+    suffix: "normal"
   },
   {
     id: "VENUSAUR",
@@ -249,7 +251,7 @@ export const fakemons: Fakemon[] =
       "POISON"
     ],
     sprite: "/sprites/VENUSAUR.png",
-    artwork: "/artwork/venusaur.png",
+    artwork: "/sprites/VENUSAUR.png",
     description: "Venusaur's flower is said to take on vivid colors if it gets plenty of nutrition and sunlight. The flower's aroma soothes the emotions of people.",
     stats: {
       hp: 80,
@@ -369,7 +371,8 @@ export const fakemons: Fakemon[] =
     ],
     eggMoves: [
 
-    ]
+    ],
+    suffix: "normal"
   },
   {
     id: "CHARMANDER",
@@ -378,7 +381,7 @@ export const fakemons: Fakemon[] =
       "FIRE"
     ],
     sprite: "/sprites/CHARMANDER.png",
-    artwork: "/artwork/charmander.png",
+    artwork: "/sprites/CHARMANDER.png",
     description: "The flame that burns at the tip of its tail is an indication of its emotions. The flame wavers when Charmander is happy, and blazes when it is enraged.",
     stats: {
       hp: 39,
@@ -506,7 +509,8 @@ export const fakemons: Fakemon[] =
       "METALCLAW",
       "OUTRAGE",
       "WINGATTACK"
-    ]
+    ],
+    suffix: "normal"
   },
   {
     id: "CHARMELEON",
@@ -515,7 +519,7 @@ export const fakemons: Fakemon[] =
       "FIRE"
     ],
     sprite: "/sprites/CHARMELEON.png",
-    artwork: "/artwork/charmeleon.png",
+    artwork: "/sprites/CHARMELEON.png",
     description: "Without pity, its sharp claws destroy foes. If it encounters a strong enemy, it becomes agitated, and the flame on its tail flares with a bluish white color.",
     stats: {
       hp: 58,
@@ -627,7 +631,8 @@ export const fakemons: Fakemon[] =
     ],
     eggMoves: [
 
-    ]
+    ],
+    suffix: "normal"
   },
   {
     id: "CHARIZARD",
@@ -637,7 +642,7 @@ export const fakemons: Fakemon[] =
       "FLYING"
     ],
     sprite: "/sprites/CHARIZARD.png",
-    artwork: "/artwork/charizard.png",
+    artwork: "/sprites/CHARIZARD.png",
     description: "A Charizard flies about in search of strong opponents. It breathes intense flames that can melt any material. However, it will never torch a weaker foe.",
     stats: {
       hp: 78,
@@ -777,7 +782,8 @@ export const fakemons: Fakemon[] =
     ],
     eggMoves: [
 
-    ]
+    ],
+    suffix: "normal"
   },
   {
     id: "SQUIRTLE",
@@ -786,7 +792,7 @@ export const fakemons: Fakemon[] =
       "WATER"
     ],
     sprite: "/sprites/SQUIRTLE.png",
-    artwork: "/artwork/squirtle.png",
+    artwork: "/sprites/SQUIRTLE.png",
     description: "Its shell is not just for protection. Its rounded shape and the grooves on its surface minimize resistance in water, enabling Squirtle to swim at high speeds.",
     stats: {
       hp: 44,
@@ -901,7 +907,8 @@ export const fakemons: Fakemon[] =
       "MUDDYWATER",
       "WATERSPOUT",
       "YAWN"
-    ]
+    ],
+    suffix: "normal"
   },
   {
     id: "WARTORTLE",
@@ -910,7 +917,7 @@ export const fakemons: Fakemon[] =
       "WATER"
     ],
     sprite: "/sprites/WARTORTLE.png",
-    artwork: "/artwork/wartortle.png",
+    artwork: "/sprites/WARTORTLE.png",
     description: "Its large tail is covered with rich, thick fur that deepens in color with age. The scratches on its shell are evidence of this Pokémon's toughness in battle.",
     stats: {
       hp: 59,
@@ -1014,7 +1021,8 @@ export const fakemons: Fakemon[] =
     ],
     eggMoves: [
 
-    ]
+    ],
+    suffix: "normal"
   },
   {
     id: "BLASTOISE",
@@ -1023,7 +1031,7 @@ export const fakemons: Fakemon[] =
       "WATER"
     ],
     sprite: "/sprites/BLASTOISE.png",
-    artwork: "/artwork/blastoise.png",
+    artwork: "/sprites/BLASTOISE.png",
     description: "The waterspouts that protrude from its shell are highly accurate. Their bullets of water can precisely nail tin cans from a distance of over 160 feet.",
     stats: {
       hp: 79,
@@ -1148,7 +1156,8 @@ export const fakemons: Fakemon[] =
     ],
     eggMoves: [
 
-    ]
+    ],
+    suffix: "normal"
   },
   {
     id: "CATERPIE",
@@ -1157,7 +1166,7 @@ export const fakemons: Fakemon[] =
       "BUG"
     ],
     sprite: "/sprites/CATERPIE.png",
-    artwork: "/artwork/caterpie.png",
+    artwork: "/sprites/CATERPIE.png",
     description: "Its voracious appetite compels it to devour leaves bigger than itself without hesitation. It releases a terribly strong odor from its antennae.",
     stats: {
       hp: 45,
@@ -1188,7 +1197,8 @@ export const fakemons: Fakemon[] =
     ],
     eggMoves: [
 
-    ]
+    ],
+    suffix: "normal"
   },
   {
     id: "METAPOD",
@@ -1197,7 +1207,7 @@ export const fakemons: Fakemon[] =
       "BUG"
     ],
     sprite: "/sprites/METAPOD.png",
-    artwork: "/artwork/metapod.png",
+    artwork: "/sprites/METAPOD.png",
     description: "Its shell is as hard as an iron slab. A Metapod does not move very much because it is preparing its soft innards for evolution inside the shell.",
     stats: {
       hp: 50,
@@ -1227,7 +1237,8 @@ export const fakemons: Fakemon[] =
     ],
     eggMoves: [
 
-    ]
+    ],
+    suffix: "normal"
   },
   {
     id: "BUTTERFREE",
@@ -1237,7 +1248,7 @@ export const fakemons: Fakemon[] =
       "FLYING"
     ],
     sprite: "/sprites/BUTTERFREE.png",
-    artwork: "/artwork/butterfree.png",
+    artwork: "/sprites/BUTTERFREE.png",
     description: "It has a superior ability to search for delicious honey from flowers. It can seek, extract, and carry honey from flowers blooming over six miles away.",
     stats: {
       hp: 60,
@@ -1341,7 +1352,8 @@ export const fakemons: Fakemon[] =
     ],
     eggMoves: [
 
-    ]
+    ],
+    suffix: "normal"
   },
   {
     id: "WEEDLE",
@@ -1351,7 +1363,7 @@ export const fakemons: Fakemon[] =
       "POISON"
     ],
     sprite: "/sprites/WEEDLE.png",
-    artwork: "/artwork/weedle.png",
+    artwork: "/sprites/WEEDLE.png",
     description: "A Weedle has an extremely acute sense of smell. It distinguishes its favorite kinds of leaves from those it dislikes by sniffing with its big red proboscis (nose).",
     stats: {
       hp: 40,
@@ -1382,7 +1394,8 @@ export const fakemons: Fakemon[] =
     ],
     eggMoves: [
 
-    ]
+    ],
+    suffix: "normal"
   },
   {
     id: "KAKUNA",
@@ -1392,7 +1405,7 @@ export const fakemons: Fakemon[] =
       "POISON"
     ],
     sprite: "/sprites/KAKUNA.png",
-    artwork: "/artwork/kakuna.png",
+    artwork: "/sprites/KAKUNA.png",
     description: "It remains virtually immobile while it clings to a tree. However, on the inside, it busily prepares for evolution. This is evident from how hot its shell becomes.",
     stats: {
       hp: 45,
@@ -1422,7 +1435,8 @@ export const fakemons: Fakemon[] =
     ],
     eggMoves: [
 
-    ]
+    ],
+    suffix: "normal"
   },
   {
     id: "BEEDRILL",
@@ -1432,7 +1446,7 @@ export const fakemons: Fakemon[] =
       "POISON"
     ],
     sprite: "/sprites/BEEDRILL.png",
-    artwork: "/artwork/beedrill.png",
+    artwork: "/sprites/BEEDRILL.png",
     description: "A Beedrill is extremely territorial. For safety reasons, no one should ever approach its nest. If angered, they will attack in a swarm.",
     stats: {
       hp: 65,
@@ -1533,7 +1547,8 @@ export const fakemons: Fakemon[] =
     ],
     eggMoves: [
 
-    ]
+    ],
+    suffix: "normal"
   },
   {
     id: "PIDGEY",
@@ -1543,7 +1558,7 @@ export const fakemons: Fakemon[] =
       "FLYING"
     ],
     sprite: "/sprites/PIDGEY.png",
-    artwork: "/artwork/pidgey.png",
+    artwork: "/sprites/PIDGEY.png",
     description: "It has an extremely sharp sense of direction. It can unerringly return home to its nest, however far it may be removed from its familiar surroundings.",
     stats: {
       hp: 40,
@@ -1626,7 +1641,8 @@ export const fakemons: Fakemon[] =
       "AIRSLASH",
       "BRAVEBIRD",
       "UPROAR"
-    ]
+    ],
+    suffix: "normal"
   },
   {
     id: "PIDGEOTTO",
@@ -1636,7 +1652,7 @@ export const fakemons: Fakemon[] =
       "FLYING"
     ],
     sprite: "/sprites/PIDGEOTTO.png",
-    artwork: "/artwork/pidgeotto.png",
+    artwork: "/sprites/PIDGEOTTO.png",
     description: "This Pokémon flies around, patrolling its large territory. If its living space is violated, it shows no mercy in thoroughly punishing the foe with its sharp claws.",
     stats: {
       hp: 63,
@@ -1718,7 +1734,8 @@ export const fakemons: Fakemon[] =
     ],
     eggMoves: [
 
-    ]
+    ],
+    suffix: "normal"
   },
   {
     id: "PIDGEOT",
@@ -1728,7 +1745,7 @@ export const fakemons: Fakemon[] =
       "FLYING"
     ],
     sprite: "/sprites/PIDGEOT.png",
-    artwork: "/artwork/pidgeot.png",
+    artwork: "/sprites/PIDGEOT.png",
     description: "Pidgeot has gorgeous, glossy feathers. Many trainers are so captivated by the beautiful feathers on its head that they choose Pidgeot as their Pokémon.",
     stats: {
       hp: 83,
@@ -1815,7 +1832,8 @@ export const fakemons: Fakemon[] =
     ],
     eggMoves: [
 
-    ]
+    ],
+    suffix: "normal"
   },
   {
     id: "RATTATA",
@@ -1824,7 +1842,7 @@ export const fakemons: Fakemon[] =
       "NORMAL"
     ],
     sprite: "/sprites/RATTATA.png",
-    artwork: "/artwork/rattata.png",
+    artwork: "/sprites/RATTATA.png",
     description: "A Rattata is cautious in the extreme. Even while it is asleep, it constantly moves its ears and listens for danger. It will make its nest anywhere.",
     stats: {
       hp: 30,
@@ -1929,7 +1947,8 @@ export const fakemons: Fakemon[] =
       "REVERSAL",
       "SCREECH",
       "UPROAR"
-    ]
+    ],
+    suffix: "normal"
   },
   {
     id: "RATICATE",
@@ -1938,7 +1957,7 @@ export const fakemons: Fakemon[] =
       "NORMAL"
     ],
     sprite: "/sprites/RATICATE.png",
-    artwork: "/artwork/raticate.png",
+    artwork: "/sprites/RATICATE.png",
     description: "A Raticate's sturdy fangs grow steadily. To keep them ground down, it gnaws on rocks and logs. It may even chew on the walls of houses.",
     stats: {
       hp: 55,
@@ -2044,7 +2063,8 @@ export const fakemons: Fakemon[] =
     ],
     eggMoves: [
 
-    ]
+    ],
+    suffix: "normal"
   },
   {
     id: "SPEAROW",
@@ -2054,7 +2074,7 @@ export const fakemons: Fakemon[] =
       "FLYING"
     ],
     sprite: "/sprites/SPEAROW.png",
-    artwork: "/artwork/spearow.png",
+    artwork: "/sprites/SPEAROW.png",
     description: "Its loud cry can be heard over half a mile away. If its high, keening cry is heard echoing all around, it is a sign that they are warning each other of danger.",
     stats: {
       hp: 40,
@@ -2141,7 +2161,8 @@ export const fakemons: Fakemon[] =
       "TRIATTACK",
       "UPROAR",
       "WHIRLWIND"
-    ]
+    ],
+    suffix: "normal"
   },
   {
     id: "FEAROW",
@@ -2151,7 +2172,7 @@ export const fakemons: Fakemon[] =
       "FLYING"
     ],
     sprite: "/sprites/FEAROW.png",
-    artwork: "/artwork/fearow.png",
+    artwork: "/sprites/FEAROW.png",
     description: "Its long neck and elongated beak are ideal for catching prey in soil or water. It deftly moves this extended and skinny beak to pluck prey.",
     stats: {
       hp: 65,
@@ -2239,7 +2260,8 @@ export const fakemons: Fakemon[] =
     ],
     eggMoves: [
 
-    ]
+    ],
+    suffix: "normal"
   },
   {
     id: "EKANS",
@@ -2248,7 +2270,7 @@ export const fakemons: Fakemon[] =
       "POISON"
     ],
     sprite: "/sprites/EKANS.png",
-    artwork: "/artwork/ekans.png",
+    artwork: "/sprites/EKANS.png",
     description: "An Ekans curls itself up in a spiral while it rests. This position allows it to quickly respond to an enemy from any direction with a threat from its upraised head.",
     stats: {
       hp: 35,
@@ -2366,7 +2388,8 @@ export const fakemons: Fakemon[] =
       "SPITE",
       "SUCKERPUNCH",
       "SWITCHEROO"
-    ]
+    ],
+    suffix: "normal"
   },
   {
     id: "ARBOK",
@@ -2375,7 +2398,7 @@ export const fakemons: Fakemon[] =
       "POISON"
     ],
     sprite: "/sprites/ARBOK.png",
-    artwork: "/artwork/arbok.png",
+    artwork: "/sprites/ARBOK.png",
     description: "This Pokémon has a terrifically strong constricting power. It can even flatten steel oil drums. Once it wraps its body around its foe, escaping is impossible.",
     stats: {
       hp: 60,
@@ -2500,7 +2523,8 @@ export const fakemons: Fakemon[] =
     ],
     eggMoves: [
 
-    ]
+    ],
+    suffix: "normal"
   },
   {
     id: "PIKACHU",
@@ -2509,7 +2533,7 @@ export const fakemons: Fakemon[] =
       "ELECTRIC"
     ],
     sprite: "/sprites/PIKACHU.png",
-    artwork: "/artwork/pikachu.png",
+    artwork: "/sprites/PIKACHU.png",
     description: "It stores electricity in the electric sacs on its cheeks. When it releases pent-up energy in a burst, the electric power is equal to a lightning bolt.",
     stats: {
       hp: 35,
@@ -2635,7 +2659,8 @@ export const fakemons: Fakemon[] =
     ],
     eggMoves: [
 
-    ]
+    ],
+    suffix: "normal"
   },
   {
     id: "RAICHU",
@@ -2644,7 +2669,7 @@ export const fakemons: Fakemon[] =
       "ELECTRIC"
     ],
     sprite: "/sprites/RAICHU.png",
-    artwork: "/artwork/raichu.png",
+    artwork: "/sprites/RAICHU.png",
     description: "If it stores too much electricity, its behavior turns aggressive. To avoid this, it occasionally discharges excess energy and calms itself down.",
     stats: {
       hp: 60,
@@ -2776,7 +2801,8 @@ export const fakemons: Fakemon[] =
     ],
     eggMoves: [
 
-    ]
+    ],
+    suffix: "normal"
   },
   {
     id: "SANDSHREW",
@@ -2785,7 +2811,7 @@ export const fakemons: Fakemon[] =
       "GROUND"
     ],
     sprite: "/sprites/SANDSHREW.png",
-    artwork: "/artwork/sandshrew.png",
+    artwork: "/sprites/SANDSHREW.png",
     description: "When it curls up in a ball, it can make any attack bounce off harmlessly. Its hide has turned tough and solid as a result of living in the desert.",
     stats: {
       hp: 50,
@@ -2915,7 +2941,8 @@ export const fakemons: Fakemon[] =
       "MUDSLAP",
       "NIGHTSLASH",
       "RAPIDSPIN"
-    ]
+    ],
+    suffix: "normal"
   },
   {
     id: "SANDSLASH",
@@ -2924,7 +2951,7 @@ export const fakemons: Fakemon[] =
       "GROUND"
     ],
     sprite: "/sprites/SANDSLASH.png",
-    artwork: "/artwork/sandslash.png",
+    artwork: "/sprites/SANDSLASH.png",
     description: "It curls up in a ball to protect itself from enemy attacks. It also curls up to prevent heatstroke during the daytime when temperatures rise sharply.",
     stats: {
       hp: 75,
@@ -3053,7 +3080,8 @@ export const fakemons: Fakemon[] =
     ],
     eggMoves: [
 
-    ]
+    ],
+    suffix: "normal"
   },
   {
     id: "NIDORANfE",
@@ -3062,7 +3090,7 @@ export const fakemons: Fakemon[] =
       "POISON"
     ],
     sprite: "/sprites/NIDORANFE.png",
-    artwork: "/artwork/nidoranfe.png",
+    artwork: "/sprites/NIDORANFE.png",
     description: "Its highly toxic barbs are thought to have developed as protection for this small-bodied Pokémon. When enraged, it releases a horrible toxin from its horn.",
     stats: {
       hp: 55,
@@ -3167,7 +3195,8 @@ export const fakemons: Fakemon[] =
       "SUPERSONIC",
       "TAKEDOWN",
       "VENOMDRENCH"
-    ]
+    ],
+    suffix: "normal"
   },
   {
     id: "NIDORINA",
@@ -3176,7 +3205,7 @@ export const fakemons: Fakemon[] =
       "POISON"
     ],
     sprite: "/sprites/NIDORINA.png",
-    artwork: "/artwork/nidorina.png",
+    artwork: "/sprites/NIDORINA.png",
     description: "When it is with its friends or family, its barbs are tucked away to prevent injury. It appears to become nervous if separated from the others.",
     stats: {
       hp: 70,
@@ -3272,7 +3301,8 @@ export const fakemons: Fakemon[] =
     ],
     eggMoves: [
 
-    ]
+    ],
+    suffix: "normal"
   },
   {
     id: "NIDOQUEEN",
@@ -3282,7 +3312,7 @@ export const fakemons: Fakemon[] =
       "GROUND"
     ],
     sprite: "/sprites/NIDOQUEEN.png",
-    artwork: "/artwork/nidoqueen.png",
+    artwork: "/sprites/NIDOQUEEN.png",
     description: "It is adept at sending foes flying with harsh tackles using its tough, scaly body. This Pokémon is at its strongest when it is defending its young.",
     stats: {
       hp: 90,
@@ -3433,7 +3463,8 @@ export const fakemons: Fakemon[] =
     ],
     eggMoves: [
 
-    ]
+    ],
+    suffix: "normal"
   },
   {
     id: "NIDORANmA",
@@ -3442,7 +3473,7 @@ export const fakemons: Fakemon[] =
       "POISON"
     ],
     sprite: "/sprites/NIDORANMA.png",
-    artwork: "/artwork/nidoranma.png",
+    artwork: "/sprites/NIDORANMA.png",
     description: "The male Nidoran has developed muscles that freely move its ears in any direction. Even the slightest sound does not escape this Pokémon's notice.",
     stats: {
       hp: 46,
@@ -3550,7 +3581,8 @@ export const fakemons: Fakemon[] =
       "TAKEDOWN",
       "THRASH",
       "VENOMDRENCH"
-    ]
+    ],
+    suffix: "normal"
   },
   {
     id: "NIDORINO",
@@ -3559,7 +3591,7 @@ export const fakemons: Fakemon[] =
       "POISON"
     ],
     sprite: "/sprites/NIDORINO.png",
-    artwork: "/artwork/nidorino.png",
+    artwork: "/sprites/NIDORINO.png",
     description: "Its horn is harder than a diamond. If it senses a hostile presence, all the barbs on its back bristle up at once, and it challenges the foe with all its might.",
     stats: {
       hp: 61,
@@ -3656,7 +3688,8 @@ export const fakemons: Fakemon[] =
     ],
     eggMoves: [
 
-    ]
+    ],
+    suffix: "normal"
   },
   {
     id: "NIDOKING",
@@ -3666,7 +3699,7 @@ export const fakemons: Fakemon[] =
       "GROUND"
     ],
     sprite: "/sprites/NIDOKING.png",
-    artwork: "/artwork/nidoking.png",
+    artwork: "/sprites/NIDOKING.png",
     description: "A Nidoking's thick tail packs enormously destructive power capable of toppling a metal transmission tower. Once it goes on a rampage, there is no stopping it.",
     stats: {
       hp: 81,
@@ -3818,7 +3851,8 @@ export const fakemons: Fakemon[] =
     ],
     eggMoves: [
 
-    ]
+    ],
+    suffix: "normal"
   },
   {
     id: "CLEFAIRY",
@@ -3827,7 +3861,7 @@ export const fakemons: Fakemon[] =
       "FAIRY"
     ],
     sprite: "/sprites/CLEFAIRY.png",
-    artwork: "/artwork/clefairy.png",
+    artwork: "/sprites/CLEFAIRY.png",
     description: "On every night of a full moon, they come out to play. When dawn arrives, the tired Clefairy go to sleep nestled up against each other in deep and quiet mountains.",
     stats: {
       hp: 70,
@@ -3996,7 +4030,8 @@ export const fakemons: Fakemon[] =
     ],
     eggMoves: [
 
-    ]
+    ],
+    suffix: "normal"
   },
   {
     id: "CLEFABLE",
@@ -4005,7 +4040,7 @@ export const fakemons: Fakemon[] =
       "FAIRY"
     ],
     sprite: "/sprites/CLEFABLE.png",
-    artwork: "/artwork/clefable.png",
+    artwork: "/sprites/CLEFABLE.png",
     description: "A Clefable uses its wings to skip lightly as if it were flying. Its bouncy step lets it even walk on water. On quiet, moonlit nights, it strolls on lakes.",
     stats: {
       hp: 95,
@@ -4179,7 +4214,8 @@ export const fakemons: Fakemon[] =
     ],
     eggMoves: [
 
-    ]
+    ],
+    suffix: "normal"
   },
   {
     id: "VULPIX",
@@ -4188,7 +4224,7 @@ export const fakemons: Fakemon[] =
       "FIRE"
     ],
     sprite: "/sprites/VULPIX.png",
-    artwork: "/artwork/vulpix.png",
+    artwork: "/sprites/VULPIX.png",
     description: "It can freely control fire, making fiery orbs fly like will-o'-the-wisps. Just before evolution, its six tails grow hot as if on fire.",
     stats: {
       hp: 38,
@@ -4307,7 +4343,8 @@ export const fakemons: Fakemon[] =
       "POWERSWAP",
       "ROAR",
       "SPITE"
-    ]
+    ],
+    suffix: "normal"
   },
   {
     id: "NINETALES",
@@ -4316,7 +4353,7 @@ export const fakemons: Fakemon[] =
       "FIRE"
     ],
     sprite: "/sprites/NINETALES.png",
-    artwork: "/artwork/ninetales.png",
+    artwork: "/sprites/NINETALES.png",
     description: "It has long been said that each of the nine tails embody an enchanted power. A long-lived Ninetales will have fur that shines like gold.",
     stats: {
       hp: 73,
@@ -4434,7 +4471,8 @@ export const fakemons: Fakemon[] =
     ],
     eggMoves: [
 
-    ]
+    ],
+    suffix: "normal"
   },
   {
     id: "JIGGLYPUFF",
@@ -4444,7 +4482,7 @@ export const fakemons: Fakemon[] =
       "FAIRY"
     ],
     sprite: "/sprites/JIGGLYPUFF.png",
-    artwork: "/artwork/jigglypuff.png",
+    artwork: "/sprites/JIGGLYPUFF.png",
     description: "Nothing can avoid falling asleep hearing a Jigglypuff's song. The sound waves of its singing voice match the brain waves of someone in a deep sleep.",
     stats: {
       hp: 115,
@@ -4612,7 +4650,8 @@ export const fakemons: Fakemon[] =
     ],
     eggMoves: [
 
-    ]
+    ],
+    suffix: "normal"
   },
   {
     id: "WIGGLYTUFF",
@@ -4622,7 +4661,7 @@ export const fakemons: Fakemon[] =
       "FAIRY"
     ],
     sprite: "/sprites/WIGGLYTUFF.png",
-    artwork: "/artwork/wigglytuff.png",
+    artwork: "/sprites/WIGGLYTUFF.png",
     description: "Its fur is the ultimate in luxuriousness. Sleeping alongside a Wigglytuff is simply divine. Its body expands seemingly without end when it inhales.",
     stats: {
       hp: 140,
@@ -4797,7 +4836,8 @@ export const fakemons: Fakemon[] =
     ],
     eggMoves: [
 
-    ]
+    ],
+    suffix: "normal"
   },
   {
     id: "ZUBAT",
@@ -4807,7 +4847,7 @@ export const fakemons: Fakemon[] =
       "FLYING"
     ],
     sprite: "/sprites/ZUBAT.png",
-    artwork: "/artwork/zubat.png",
+    artwork: "/sprites/ZUBAT.png",
     description: "While living in pitch-black caverns, their eyes gradually grew shut and deprived them of vision. They use ultrasonic waves to detect obstacles.",
     stats: {
       hp: 40,
@@ -4911,7 +4951,8 @@ export const fakemons: Fakemon[] =
       "WHIRLWIND",
       "WINGATTACK",
       "ZENHEADBUTT"
-    ]
+    ],
+    suffix: "normal"
   },
   {
     id: "GOLBAT",
@@ -4921,7 +4962,7 @@ export const fakemons: Fakemon[] =
       "FLYING"
     ],
     sprite: "/sprites/GOLBAT.png",
-    artwork: "/artwork/golbat.png",
+    artwork: "/sprites/GOLBAT.png",
     description: "Its fangs easily puncture even thick animal hide. It loves to feast on the blood of people and Pokémon. It flits about in darkness and strikes from behind.",
     stats: {
       hp: 75,
@@ -5020,7 +5061,8 @@ export const fakemons: Fakemon[] =
     ],
     eggMoves: [
 
-    ]
+    ],
+    suffix: "normal"
   },
   {
     id: "ODDISH",
@@ -5030,7 +5072,7 @@ export const fakemons: Fakemon[] =
       "POISON"
     ],
     sprite: "/sprites/ODDISH.png",
-    artwork: "/artwork/oddish.png",
+    artwork: "/sprites/ODDISH.png",
     description: "It grows by absorbing moonlight. During the daytime, it buries itself in the ground, leaving only its leaves exposed to avoid detection by its enemies.",
     stats: {
       hp: 45,
@@ -5126,7 +5168,8 @@ export const fakemons: Fakemon[] =
       "SYNTHESIS",
       "TEETERDANCE",
       "TICKLE"
-    ]
+    ],
+    suffix: "normal"
   },
   {
     id: "GLOOM",
@@ -5136,7 +5179,7 @@ export const fakemons: Fakemon[] =
       "POISON"
     ],
     sprite: "/sprites/GLOOM.png",
-    artwork: "/artwork/gloom.png",
+    artwork: "/sprites/GLOOM.png",
     description: "A horribly noxious honey drools from its mouth. One whiff of the honey can result in memory loss. Some fans are said to enjoy this overwhelming stink, however.",
     stats: {
       hp: 60,
@@ -5224,7 +5267,8 @@ export const fakemons: Fakemon[] =
     ],
     eggMoves: [
 
-    ]
+    ],
+    suffix: "normal"
   },
   {
     id: "VILEPLUME",
@@ -5234,7 +5278,7 @@ export const fakemons: Fakemon[] =
       "POISON"
     ],
     sprite: "/sprites/VILEPLUME.png",
-    artwork: "/artwork/vileplume.png",
+    artwork: "/sprites/VILEPLUME.png",
     description: "In seasons when it produces more pollen, the air around a Vileplume turns yellow with the powder as it walks. The pollen is highly toxic and causes paralysis.",
     stats: {
       hp: 75,
@@ -5333,7 +5377,8 @@ export const fakemons: Fakemon[] =
     ],
     eggMoves: [
 
-    ]
+    ],
+    suffix: "normal"
   },
   {
     id: "PARAS",
@@ -5343,7 +5388,7 @@ export const fakemons: Fakemon[] =
       "GRASS"
     ],
     sprite: "/sprites/PARAS.png",
-    artwork: "/artwork/paras.png",
+    artwork: "/sprites/PARAS.png",
     description: "A Paras has parasitic tochukaso mushrooms growing on its back. They grow by drawing nutrients from the host. They are valued as a medicine for long life.",
     stats: {
       hp: 35,
@@ -5445,7 +5490,8 @@ export const fakemons: Fakemon[] =
       "SCREECH",
       "SWEETSCENT",
       "WIDEGUARD"
-    ]
+    ],
+    suffix: "normal"
   },
   {
     id: "PARASECT",
@@ -5455,7 +5501,7 @@ export const fakemons: Fakemon[] =
       "GRASS"
     ],
     sprite: "/sprites/PARASECT.png",
-    artwork: "/artwork/parasect.png",
+    artwork: "/sprites/PARASECT.png",
     description: "Parasect are known to infest the roots of large trees en masse and drain nutrients. When an infested tree dies, they move onto another tree all at once.",
     stats: {
       hp: 60,
@@ -5553,7 +5599,8 @@ export const fakemons: Fakemon[] =
     ],
     eggMoves: [
 
-    ]
+    ],
+    suffix: "normal"
   },
   {
     id: "VENONAT",
@@ -5563,7 +5610,7 @@ export const fakemons: Fakemon[] =
       "POISON"
     ],
     sprite: "/sprites/VENONAT.png",
-    artwork: "/artwork/venonat.png",
+    artwork: "/sprites/VENONAT.png",
     description: "Its coat of thin, stiff hair that covers its entire body is said to have evolved for protection. Its large eyes never fail to spot even miniscule prey.",
     stats: {
       hp: 60,
@@ -5662,7 +5709,8 @@ export const fakemons: Fakemon[] =
       "SCREECH",
       "TOXICSPIKES",
       "VENOSHOCK"
-    ]
+    ],
+    suffix: "normal"
   },
   {
     id: "VENOMOTH",
@@ -5672,7 +5720,7 @@ export const fakemons: Fakemon[] =
       "POISON"
     ],
     sprite: "/sprites/VENOMOTH.png",
-    artwork: "/artwork/venomoth.png",
+    artwork: "/sprites/VENOMOTH.png",
     description: "Venomoth are nocturnal--they only are active at night. Their favorite prey are insects that gather around streetlights, attracted by the light in the darkness.",
     stats: {
       hp: 70,
@@ -5779,7 +5827,8 @@ export const fakemons: Fakemon[] =
     ],
     eggMoves: [
 
-    ]
+    ],
+    suffix: "normal"
   },
   {
     id: "DIGLETT",
@@ -5788,7 +5837,7 @@ export const fakemons: Fakemon[] =
       "GROUND"
     ],
     sprite: "/sprites/DIGLETT.png",
-    artwork: "/artwork/diglett.png",
+    artwork: "/sprites/DIGLETT.png",
     description: "Diglett are raised in most farms. The reason is simple--wherever they burrow, the soil is left perfectly tilled for growing delicious crops.",
     stats: {
       hp: 10,
@@ -5899,7 +5948,8 @@ export const fakemons: Fakemon[] =
       "REVERSAL",
       "SCREECH",
       "UPROAR"
-    ]
+    ],
+    suffix: "normal"
   },
   {
     id: "DUGTRIO",
@@ -5908,7 +5958,7 @@ export const fakemons: Fakemon[] =
       "GROUND"
     ],
     sprite: "/sprites/DUGTRIO.png",
-    artwork: "/artwork/dugtrio.png",
+    artwork: "/sprites/DUGTRIO.png",
     description: "Because the triplets originally split from one body, they think exactly alike. They work cooperatively to burrow endlessly through the ground.",
     stats: {
       hp: 35,
@@ -6017,7 +6067,8 @@ export const fakemons: Fakemon[] =
     ],
     eggMoves: [
 
-    ]
+    ],
+    suffix: "normal"
   },
   {
     id: "MEOWTH",
@@ -6026,7 +6077,7 @@ export const fakemons: Fakemon[] =
       "NORMAL"
     ],
     sprite: "/sprites/MEOWTH.png",
-    artwork: "/artwork/meowth.png",
+    artwork: "/sprites/MEOWTH.png",
     description: "Meowth withdraw their sharp claws into their paws to silently sneak about. For some reason, this Pokémon loves shiny coins that glitter with light.",
     stats: {
       hp: 40,
@@ -6154,7 +6205,8 @@ export const fakemons: Fakemon[] =
       "LASTRESORT",
       "SPITE",
       "TAILWHIP"
-    ]
+    ],
+    suffix: "normal"
   },
   {
     id: "PERSIAN",
@@ -6163,7 +6215,7 @@ export const fakemons: Fakemon[] =
       "NORMAL"
     ],
     sprite: "/sprites/PERSIAN.png",
-    artwork: "/artwork/persian.png",
+    artwork: "/sprites/PERSIAN.png",
     description: "A Persian's six bold whiskers sense air movements to determine what is in its vicinity. It becomes docile if grabbed by the whiskers.",
     stats: {
       hp: 65,
@@ -6290,7 +6342,8 @@ export const fakemons: Fakemon[] =
     ],
     eggMoves: [
 
-    ]
+    ],
+    suffix: "normal"
   },
   {
     id: "PSYDUCK",
@@ -6299,7 +6352,7 @@ export const fakemons: Fakemon[] =
       "WATER"
     ],
     sprite: "/sprites/PSYDUCK.png",
-    artwork: "/artwork/psyduck.png",
+    artwork: "/sprites/PSYDUCK.png",
     description: "When its headache intensifies, it starts using strange powers. However, it has no recollection of its powers, so it always looks befuddled and bewildered.",
     stats: {
       hp: 50,
@@ -6437,7 +6490,8 @@ export const fakemons: Fakemon[] =
       "PSYBEAM",
       "SIMPLEBEAM",
       "YAWN"
-    ]
+    ],
+    suffix: "normal"
   },
   {
     id: "GOLDUCK",
@@ -6446,7 +6500,7 @@ export const fakemons: Fakemon[] =
       "WATER"
     ],
     sprite: "/sprites/GOLDUCK.png",
-    artwork: "/artwork/golduck.png",
+    artwork: "/sprites/GOLDUCK.png",
     description: "A Golduck is an adept swimmer. It sometimes joins competitive swimmers in training. It uses psychic powers when its forehead shimmers with light.",
     stats: {
       hp: 80,
@@ -6587,7 +6641,8 @@ export const fakemons: Fakemon[] =
     ],
     eggMoves: [
 
-    ]
+    ],
+    suffix: "normal"
   },
   {
     id: "MANKEY",
@@ -6596,7 +6651,7 @@ export const fakemons: Fakemon[] =
       "FIGHTING"
     ],
     sprite: "/sprites/MANKEY.png",
-    artwork: "/artwork/mankey.png",
+    artwork: "/sprites/MANKEY.png",
     description: "When it starts shaking and its nasal breathing turns rough, it's a sure sign of anger. However, since this happens instantly, there is no time to flee.",
     stats: {
       hp: 40,
@@ -6732,7 +6787,8 @@ export const fakemons: Fakemon[] =
       "REVENGE",
       "REVERSAL",
       "SPITE"
-    ]
+    ],
+    suffix: "normal"
   },
   {
     id: "PRIMEAPE",
@@ -6741,7 +6797,7 @@ export const fakemons: Fakemon[] =
       "FIGHTING"
     ],
     sprite: "/sprites/PRIMEAPE.png",
-    artwork: "/artwork/primeape.png",
+    artwork: "/sprites/PRIMEAPE.png",
     description: "When it becomes furious, its blood circulation becomes more robust, and its muscles are made stronger. But it also becomes much less intelligent.",
     stats: {
       hp: 65,
@@ -6876,7 +6932,8 @@ export const fakemons: Fakemon[] =
     ],
     eggMoves: [
 
-    ]
+    ],
+    suffix: "normal"
   },
   {
     id: "GROWLITHE",
@@ -6885,7 +6942,7 @@ export const fakemons: Fakemon[] =
       "FIRE"
     ],
     sprite: "/sprites/GROWLITHE.png",
-    artwork: "/artwork/growlithe.png",
+    artwork: "/sprites/GROWLITHE.png",
     description: "Its superb sense of smell ensures that this Pokémon won't forget any scent, no matter what. It uses its sense of smell to detect the emotions of others.",
     stats: {
       hp: 55,
@@ -7000,7 +7057,8 @@ export const fakemons: Fakemon[] =
       "MORNINGSUN",
       "RAGINGFURY",
       "THRASH"
-    ]
+    ],
+    suffix: "normal"
   },
   {
     id: "ARCANINE",
@@ -7009,7 +7067,7 @@ export const fakemons: Fakemon[] =
       "FIRE"
     ],
     sprite: "/sprites/ARCANINE.png",
-    artwork: "/artwork/arcanine.png",
+    artwork: "/sprites/ARCANINE.png",
     description: "This fleet-footed Pokémon is said to run over 6,200 miles in a single day and night. The fire that blazes wildly within its body is its source of power.",
     stats: {
       hp: 90,
@@ -7124,7 +7182,8 @@ export const fakemons: Fakemon[] =
     ],
     eggMoves: [
 
-    ]
+    ],
+    suffix: "normal"
   },
   {
     id: "POLIWAG",
@@ -7133,7 +7192,7 @@ export const fakemons: Fakemon[] =
       "WATER"
     ],
     sprite: "/sprites/POLIWAG.png",
-    artwork: "/artwork/poliwag.png",
+    artwork: "/sprites/POLIWAG.png",
     description: "It is possible to see this Pokémon's spiral innards right through its thin skin. However, the skin is also very flexible. Even sharp fangs bounce right off it.",
     stats: {
       hp: 40,
@@ -7233,7 +7292,8 @@ export const fakemons: Fakemon[] =
       "MUDSHOT",
       "SPLASH",
       "WATERPULSE"
-    ]
+    ],
+    suffix: "normal"
   },
   {
     id: "POLIWHIRL",
@@ -7242,7 +7302,7 @@ export const fakemons: Fakemon[] =
       "WATER"
     ],
     sprite: "/sprites/POLIWHIRL.png",
-    artwork: "/artwork/poliwhirl.png",
+    artwork: "/sprites/POLIWHIRL.png",
     description: "Its body surface is always wet and slick with an oily fluid. Because of this greasy covering, it can easily slip and slide out of the clutches of any enemy in battle.",
     stats: {
       hp: 65,
@@ -7347,7 +7407,8 @@ export const fakemons: Fakemon[] =
     ],
     eggMoves: [
 
-    ]
+    ],
+    suffix: "normal"
   },
   {
     id: "POLIWRATH",
@@ -7357,7 +7418,7 @@ export const fakemons: Fakemon[] =
       "FIGHTING"
     ],
     sprite: "/sprites/POLIWRATH.png",
-    artwork: "/artwork/poliwrath.png",
+    artwork: "/sprites/POLIWRATH.png",
     description: "Its highly developed muscles never grow fatigued, however much it exercises. This Pokémon can swim back and forth across the Pacific Ocean without effort.",
     stats: {
       hp: 90,
@@ -7490,7 +7551,8 @@ export const fakemons: Fakemon[] =
     ],
     eggMoves: [
 
-    ]
+    ],
+    suffix: "normal"
   },
   {
     id: "ABRA",
@@ -7499,7 +7561,7 @@ export const fakemons: Fakemon[] =
       "PSYCHIC"
     ],
     sprite: "/sprites/ABRA.png",
-    artwork: "/artwork/abra.png",
+    artwork: "/sprites/ABRA.png",
     description: "A Pokémon that sleeps 18 hours a day. Observation revealed that it uses Teleport to change its location once every hour.",
     stats: {
       hp: 25,
@@ -7617,7 +7679,8 @@ export const fakemons: Fakemon[] =
       "POWERTRICK",
       "PSYCHOSHIFT",
       "THUNDERPUNCH"
-    ]
+    ],
+    suffix: "normal"
   },
   {
     id: "KADABRA",
@@ -7626,7 +7689,7 @@ export const fakemons: Fakemon[] =
       "PSYCHIC"
     ],
     sprite: "/sprites/KADABRA.png",
-    artwork: "/artwork/kadabra.png",
+    artwork: "/sprites/KADABRA.png",
     description: "It is rumored that a boy with psychic abilities suddenly transformed into Kadabra while he was assisting research into extrasensory powers.",
     stats: {
       hp: 40,
@@ -7749,7 +7812,8 @@ export const fakemons: Fakemon[] =
     ],
     eggMoves: [
 
-    ]
+    ],
+    suffix: "normal"
   },
   {
     id: "ALAKAZAM",
@@ -7758,7 +7822,7 @@ export const fakemons: Fakemon[] =
       "PSYCHIC"
     ],
     sprite: "/sprites/ALAKAZAM.png",
-    artwork: "/artwork/alakazam.png",
+    artwork: "/sprites/ALAKAZAM.png",
     description: "While it has strong psychic abilities and high intelligence, an Alakazam's muscles are very weak. It uses psychic power to move its body.",
     stats: {
       hp: 55,
@@ -7888,7 +7952,8 @@ export const fakemons: Fakemon[] =
     ],
     eggMoves: [
 
-    ]
+    ],
+    suffix: "normal"
   },
   {
     id: "MACHOP",
@@ -7897,7 +7962,7 @@ export const fakemons: Fakemon[] =
       "FIGHTING"
     ],
     sprite: "/sprites/MACHOP.png",
-    artwork: "/artwork/machop.png",
+    artwork: "/sprites/MACHOP.png",
     description: "It continually undertakes strenuous training to master all forms of martial arts. Its strength lets it easily hoist a sumo wrestler onto its shoulders.",
     stats: {
       hp: 70,
@@ -8024,7 +8089,8 @@ export const fakemons: Fakemon[] =
       "SUBMISSION",
       "THUNDERPUNCH",
       "TICKLE"
-    ]
+    ],
+    suffix: "normal"
   },
   {
     id: "MACHOKE",
@@ -8033,7 +8099,7 @@ export const fakemons: Fakemon[] =
       "FIGHTING"
     ],
     sprite: "/sprites/MACHOKE.png",
-    artwork: "/artwork/machoke.png",
+    artwork: "/sprites/MACHOKE.png",
     description: "A belt is worn by a Machoke to keep its overwhelming power under control. Because it is so dangerous, no one has ever removed the belt.",
     stats: {
       hp: 80,
@@ -8149,7 +8215,8 @@ export const fakemons: Fakemon[] =
     ],
     eggMoves: [
 
-    ]
+    ],
+    suffix: "normal"
   },
   {
     id: "MACHAMP",
@@ -8158,7 +8225,7 @@ export const fakemons: Fakemon[] =
       "FIGHTING"
     ],
     sprite: "/sprites/MACHAMP.png",
-    artwork: "/artwork/machamp.png",
+    artwork: "/sprites/MACHAMP.png",
     description: "It is impossible to defend against punches and chops doled out by its four arms. Its fighting spirit flares up when it faces a tough opponent.",
     stats: {
       hp: 90,
@@ -8284,7 +8351,8 @@ export const fakemons: Fakemon[] =
     ],
     eggMoves: [
 
-    ]
+    ],
+    suffix: "normal"
   },
   {
     id: "BELLSPROUT",
@@ -8294,7 +8362,7 @@ export const fakemons: Fakemon[] =
       "POISON"
     ],
     sprite: "/sprites/BELLSPROUT.png",
-    artwork: "/artwork/bellsprout.png",
+    artwork: "/sprites/BELLSPROUT.png",
     description: "A Bellsprout's thin and flexible body lets it bend and sway to avoid any attack, however strong it may be. From its mouth, it leaks a fluid that melts even iron.",
     stats: {
       hp: 50,
@@ -8402,7 +8470,8 @@ export const fakemons: Fakemon[] =
       "TICKLE",
       "WEATHERBALL",
       "WORRYSEED"
-    ]
+    ],
+    suffix: "normal"
   },
   {
     id: "WEEPINBELL",
@@ -8412,7 +8481,7 @@ export const fakemons: Fakemon[] =
       "POISON"
     ],
     sprite: "/sprites/WEEPINBELL.png",
-    artwork: "/artwork/weepinbell.png",
+    artwork: "/sprites/WEEPINBELL.png",
     description: "At night, a Weepinbell hangs on to a tree branch with its hooked rear and sleeps. If it moves around in its sleep, it may wake up to find itself on the ground.",
     stats: {
       hp: 65,
@@ -8510,7 +8579,8 @@ export const fakemons: Fakemon[] =
     ],
     eggMoves: [
 
-    ]
+    ],
+    suffix: "normal"
   },
   {
     id: "VICTREEBEL",
@@ -8520,7 +8590,7 @@ export const fakemons: Fakemon[] =
       "POISON"
     ],
     sprite: "/sprites/VICTREEBEL.png",
-    artwork: "/artwork/victreebel.png",
+    artwork: "/sprites/VICTREEBEL.png",
     description: "The long vine extending from its head is waved about as if it were a living thing to attract prey. When an unsuspecting victim approaches, it is swallowed whole.",
     stats: {
       hp: 80,
@@ -8618,7 +8688,8 @@ export const fakemons: Fakemon[] =
     ],
     eggMoves: [
 
-    ]
+    ],
+    suffix: "normal"
   },
   {
     id: "TENTACOOL",
@@ -8628,7 +8699,7 @@ export const fakemons: Fakemon[] =
       "POISON"
     ],
     sprite: "/sprites/TENTACOOL.png",
-    artwork: "/artwork/tentacool.png",
+    artwork: "/sprites/TENTACOOL.png",
     description: "Its body is almost entirely composed of water. It ensnares its foe with its two long tentacles, then stabs with the poison stingers at their tips.",
     stats: {
       hp: 40,
@@ -8740,7 +8811,8 @@ export const fakemons: Fakemon[] =
       "MUDDYWATER",
       "RAPIDSPIN",
       "TICKLE"
-    ]
+    ],
+    suffix: "normal"
   },
   {
     id: "TENTACRUEL",
@@ -8750,7 +8822,7 @@ export const fakemons: Fakemon[] =
       "POISON"
     ],
     sprite: "/sprites/TENTACRUEL.png",
-    artwork: "/artwork/tentacruel.png",
+    artwork: "/sprites/TENTACRUEL.png",
     description: "It lives in complex rock formations on the ocean floor and traps prey using its 80 tentacles. Its red orbs glow when it grows excited or agitated.",
     stats: {
       hp: 80,
@@ -8861,7 +8933,8 @@ export const fakemons: Fakemon[] =
     ],
     eggMoves: [
 
-    ]
+    ],
+    suffix: "normal"
   },
   {
     id: "GEODUDE",
@@ -8871,7 +8944,7 @@ export const fakemons: Fakemon[] =
       "GROUND"
     ],
     sprite: "/sprites/GEODUDE.png",
-    artwork: "/artwork/geodude.png",
+    artwork: "/sprites/GEODUDE.png",
     description: "It climbs mountain paths using only the power of its arms. Because they look just like boulders lining paths, hikers may step on them without noticing.",
     stats: {
       hp: 40,
@@ -8988,7 +9061,8 @@ export const fakemons: Fakemon[] =
       "HAMMERARM",
       "MEGAPUNCH",
       "WIDEGUARD"
-    ]
+    ],
+    suffix: "normal"
   },
   {
     id: "GRAVELER",
@@ -8998,7 +9072,7 @@ export const fakemons: Fakemon[] =
       "GROUND"
     ],
     sprite: "/sprites/GRAVELER.png",
-    artwork: "/artwork/graveler.png",
+    artwork: "/sprites/GRAVELER.png",
     description: "They descend from mountains by tumbling down steep slopes. They are so brutal, they smash aside obstructing trees and huge boulders with thunderous tackles.",
     stats: {
       hp: 55,
@@ -9123,7 +9197,8 @@ export const fakemons: Fakemon[] =
     ],
     eggMoves: [
 
-    ]
+    ],
+    suffix: "normal"
   },
   {
     id: "GOLEM",
@@ -9133,7 +9208,7 @@ export const fakemons: Fakemon[] =
       "GROUND"
     ],
     sprite: "/sprites/GOLEM.png",
-    artwork: "/artwork/golem.png",
+    artwork: "/sprites/GOLEM.png",
     description: "It is said to live in volcanic craters on mountain peaks. Once a year, it sheds its hide and grows larger. The shed hide crumbles and returns to the soil.",
     stats: {
       hp: 80,
@@ -9253,7 +9328,8 @@ export const fakemons: Fakemon[] =
     ],
     eggMoves: [
 
-    ]
+    ],
+    suffix: "normal"
   },
   {
     id: "PONYTA",
@@ -9262,7 +9338,7 @@ export const fakemons: Fakemon[] =
       "FIRE"
     ],
     sprite: "/sprites/PONYTA.png",
-    artwork: "/artwork/ponyta.png",
+    artwork: "/sprites/PONYTA.png",
     description: "A Ponyta is very weak at birth. It can barely stand up. Its legs become stronger as it stumbles and falls while trying to keep up with its parent.",
     stats: {
       hp: 50,
@@ -9359,7 +9435,8 @@ export const fakemons: Fakemon[] =
       "LOWKICK",
       "MORNINGSUN",
       "THRASH"
-    ]
+    ],
+    suffix: "normal"
   },
   {
     id: "RAPIDASH",
@@ -9368,7 +9445,7 @@ export const fakemons: Fakemon[] =
       "FIRE"
     ],
     sprite: "/sprites/RAPIDASH.png",
-    artwork: "/artwork/rapidash.png",
+    artwork: "/sprites/RAPIDASH.png",
     description: "It usually canters casually in the fields and plains. But once a Rapidash turns serious, its fiery manes flare and blaze as it gallops its way up to 150 mph.",
     stats: {
       hp: 65,
@@ -9469,7 +9546,8 @@ export const fakemons: Fakemon[] =
     ],
     eggMoves: [
 
-    ]
+    ],
+    suffix: "normal"
   },
   {
     id: "SLOWPOKE",
@@ -9479,7 +9557,7 @@ export const fakemons: Fakemon[] =
       "PSYCHIC"
     ],
     sprite: "/sprites/SLOWPOKE.png",
-    artwork: "/artwork/slowpoke.png",
+    artwork: "/sprites/SLOWPOKE.png",
     description: "It catches prey by dipping its tail in water at the side of a river. But it often forgets what it is doing and spends whole days just loafing at the water's edge.",
     stats: {
       hp: 90,
@@ -9615,7 +9693,8 @@ export const fakemons: Fakemon[] =
       "STOMP",
       "WONDERROOM",
       "ZENHEADBUTT"
-    ]
+    ],
+    suffix: "normal"
   },
   {
     id: "SLOWBRO",
@@ -9625,7 +9704,7 @@ export const fakemons: Fakemon[] =
       "PSYCHIC"
     ],
     sprite: "/sprites/SLOWBRO.png",
-    artwork: "/artwork/slowbro.png",
+    artwork: "/sprites/SLOWBRO.png",
     description: "Its tail has a Shellder firmly attached with a bite. As a result, the tail can't be used for fishing anymore. This forces it to reluctantly swim and catch prey.",
     stats: {
       hp: 95,
@@ -9780,7 +9859,8 @@ export const fakemons: Fakemon[] =
     ],
     eggMoves: [
 
-    ]
+    ],
+    suffix: "normal"
   },
   {
     id: "MAGNEMITE",
@@ -9790,7 +9870,7 @@ export const fakemons: Fakemon[] =
       "STEEL"
     ],
     sprite: "/sprites/MAGNEMITE.png",
-    artwork: "/artwork/magnemite.png",
+    artwork: "/sprites/MAGNEMITE.png",
     description: "The units at its sides are extremely powerful magnets. They generate enough magnetism to draw in iron objects from over 300 feet away.",
     stats: {
       hp: 25,
@@ -9888,7 +9968,8 @@ export const fakemons: Fakemon[] =
     eggMoves: [
       "ELECTROWEB",
       "EXPLOSION"
-    ]
+    ],
+    suffix: "normal"
   },
   {
     id: "MAGNETON",
@@ -9898,7 +9979,7 @@ export const fakemons: Fakemon[] =
       "STEEL"
     ],
     sprite: "/sprites/MAGNETON.png",
-    artwork: "/artwork/magneton.png",
+    artwork: "/sprites/MAGNETON.png",
     description: "It is actually three Magnemite linked by magnetism. It generates powerful radio waves that raise temperatures by 3.6 degrees F within a 3,300-foot radius.",
     stats: {
       hp: 50,
@@ -9999,7 +10080,8 @@ export const fakemons: Fakemon[] =
     ],
     eggMoves: [
 
-    ]
+    ],
+    suffix: "normal"
   },
   {
     id: "FARFETCHD",
@@ -10009,7 +10091,7 @@ export const fakemons: Fakemon[] =
       "FLYING"
     ],
     sprite: "/sprites/FARFETCHD.png",
-    artwork: "/artwork/farfetchd.png",
+    artwork: "/sprites/FARFETCHD.png",
     description: "It is always seen with a stick from a plant. Apparently, there are good sticks and bad sticks. This Pokémon occasionally fights with others over choice sticks.",
     stats: {
       hp: 52,
@@ -10132,7 +10214,8 @@ export const fakemons: Fakemon[] =
       "ROOST",
       "SIMPLEBEAM",
       "SKYATTACK"
-    ]
+    ],
+    suffix: "normal"
   },
   {
     id: "DODUO",
@@ -10142,7 +10225,7 @@ export const fakemons: Fakemon[] =
       "FLYING"
     ],
     sprite: "/sprites/DODUO.png",
-    artwork: "/artwork/doduo.png",
+    artwork: "/sprites/DODUO.png",
     description: "Even while eating or sleeping, one of the heads remains always vigilant for any sign of danger. When threatened, it flees at over 60 miles per hour.",
     stats: {
       hp: 35,
@@ -10237,7 +10320,8 @@ export const fakemons: Fakemon[] =
       "SKYATTACK",
       "SUPERSONIC",
       "WHIRLWIND"
-    ]
+    ],
+    suffix: "normal"
   },
   {
     id: "DODRIO",
@@ -10247,7 +10331,7 @@ export const fakemons: Fakemon[] =
       "FLYING"
     ],
     sprite: "/sprites/DODRIO.png",
-    artwork: "/artwork/dodrio.png",
+    artwork: "/sprites/DODRIO.png",
     description: "A peculiar Pokémon species with three heads. It vigorously races across grassy plains even in arid seasons with little rainfall.",
     stats: {
       hp: 60,
@@ -10347,7 +10431,8 @@ export const fakemons: Fakemon[] =
     ],
     eggMoves: [
 
-    ]
+    ],
+    suffix: "normal"
   },
   {
     id: "SEEL",
@@ -10356,7 +10441,7 @@ export const fakemons: Fakemon[] =
       "WATER"
     ],
     sprite: "/sprites/SEEL.png",
-    artwork: "/artwork/seel.png",
+    artwork: "/sprites/SEEL.png",
     description: "Seel hunt for prey in frigid, ice-covered seas. When it needs to breathe, it punches a hole through the ice with the sharply protruding section of its head.",
     stats: {
       hp: 65,
@@ -10471,7 +10556,8 @@ export const fakemons: Fakemon[] =
       "SPITUP",
       "STOCKPILE",
       "SWALLOW"
-    ]
+    ],
+    suffix: "normal"
   },
   {
     id: "DEWGONG",
@@ -10481,7 +10567,7 @@ export const fakemons: Fakemon[] =
       "ICE"
     ],
     sprite: "/sprites/DEWGONG.png",
-    artwork: "/artwork/dewgong.png",
+    artwork: "/sprites/DEWGONG.png",
     description: "It loves to snooze on bitterly cold ice. The sight of this Pokémon sleeping on a glacier was mistakenly thought to be a mermaid by a mariner long ago.",
     stats: {
       hp: 90,
@@ -10592,7 +10678,8 @@ export const fakemons: Fakemon[] =
     ],
     eggMoves: [
 
-    ]
+    ],
+    suffix: "normal"
   },
   {
     id: "GRIMER",
@@ -10601,7 +10688,7 @@ export const fakemons: Fakemon[] =
       "POISON"
     ],
     sprite: "/sprites/GRIMER.png",
-    artwork: "/artwork/grimer.png",
+    artwork: "/sprites/GRIMER.png",
     description: "Born from polluted sludge in the sea, Grimer's favorite food is anything filthy. They feed on wastewater pumped out from factories.",
     stats: {
       hp: 80,
@@ -10724,7 +10811,8 @@ export const fakemons: Fakemon[] =
       "SPITUP",
       "STOCKPILE",
       "SWALLOW"
-    ]
+    ],
+    suffix: "normal"
   },
   {
     id: "MUK",
@@ -10733,7 +10821,7 @@ export const fakemons: Fakemon[] =
       "POISON"
     ],
     sprite: "/sprites/MUK.png",
-    artwork: "/artwork/muk.png",
+    artwork: "/sprites/MUK.png",
     description: "It prefers warm and humid habitats. In the summertime, the toxic substances in its body intensify, making Muk reek like putrid kitchen garbage.",
     stats: {
       hp: 105,
@@ -10858,7 +10946,8 @@ export const fakemons: Fakemon[] =
     ],
     eggMoves: [
 
-    ]
+    ],
+    suffix: "normal"
   },
   {
     id: "SHELLDER",
@@ -10867,7 +10956,7 @@ export const fakemons: Fakemon[] =
       "WATER"
     ],
     sprite: "/sprites/SHELLDER.png",
-    artwork: "/artwork/shellder.png",
+    artwork: "/sprites/SHELLDER.png",
     description: "At night, it burrows a hole in the seafloor with its broad tongue to make a place to sleep. While asleep, it closes its shell, but leaves its tongue hanging out.",
     stats: {
       hp: 30,
@@ -10968,7 +11057,8 @@ export const fakemons: Fakemon[] =
       "SCREECH",
       "TAKEDOWN",
       "WATERPULSE"
-    ]
+    ],
+    suffix: "normal"
   },
   {
     id: "CLOYSTER",
@@ -10978,7 +11068,7 @@ export const fakemons: Fakemon[] =
       "ICE"
     ],
     sprite: "/sprites/CLOYSTER.png",
-    artwork: "/artwork/cloyster.png",
+    artwork: "/sprites/CLOYSTER.png",
     description: "It swims in the sea by swallowing water, then jetting it out toward the rear. The Cloyster shoots spikes from its shell using the same system.",
     stats: {
       hp: 50,
@@ -11088,7 +11178,8 @@ export const fakemons: Fakemon[] =
     ],
     eggMoves: [
 
-    ]
+    ],
+    suffix: "normal"
   },
   {
     id: "GASTLY",
@@ -11098,7 +11189,7 @@ export const fakemons: Fakemon[] =
       "POISON"
     ],
     sprite: "/sprites/GASTLY.png",
-    artwork: "/artwork/gastly.png",
+    artwork: "/sprites/GASTLY.png",
     description: "When exposed to a strong wind, a Gastly's gaseous body quickly dwindles away. They cluster under the eaves of houses to escape the ravages of wind.",
     stats: {
       hp: 30,
@@ -11224,7 +11315,8 @@ export const fakemons: Fakemon[] =
       "SMOG",
       "THUNDERPUNCH",
       "TOXIC"
-    ]
+    ],
+    suffix: "normal"
   },
   {
     id: "HAUNTER",
@@ -11234,7 +11326,7 @@ export const fakemons: Fakemon[] =
       "POISON"
     ],
     sprite: "/sprites/HAUNTER.png",
-    artwork: "/artwork/haunter.png",
+    artwork: "/sprites/HAUNTER.png",
     description: "If a Haunter beckons you while it is floating in darkness, don't approach it. This Pokémon will try to lick you with its tongue and steal your life away.",
     stats: {
       hp: 45,
@@ -11356,7 +11448,8 @@ export const fakemons: Fakemon[] =
     ],
     eggMoves: [
 
-    ]
+    ],
+    suffix: "normal"
   },
   {
     id: "GENGAR",
@@ -11366,7 +11459,7 @@ export const fakemons: Fakemon[] =
       "POISON"
     ],
     sprite: "/sprites/GENGAR.png",
-    artwork: "/artwork/gengar.png",
+    artwork: "/sprites/GENGAR.png",
     description: "Deep in the night, your shadow cast by a streetlight may suddenly overtake you. It is actually a Gengar running past you, pretending to be your shadow.",
     stats: {
       hp: 60,
@@ -11510,7 +11603,8 @@ export const fakemons: Fakemon[] =
     ],
     eggMoves: [
 
-    ]
+    ],
+    suffix: "normal"
   },
   {
     id: "ONIX",
@@ -11520,7 +11614,7 @@ export const fakemons: Fakemon[] =
       "GROUND"
     ],
     sprite: "/sprites/ONIX.png",
-    artwork: "/artwork/onix.png",
+    artwork: "/sprites/ONIX.png",
     description: "There is a magnet in its brain that prevents an Onix from losing direction while tunneling. As it grows older, its body becomes steadily rounder and smoother.",
     stats: {
       hp: 35,
@@ -11643,7 +11737,8 @@ export const fakemons: Fakemon[] =
       "ROCKBLAST",
       "ROLLOUT",
       "WIDEGUARD"
-    ]
+    ],
+    suffix: "normal"
   },
   {
     id: "DROWZEE",
@@ -11652,7 +11747,7 @@ export const fakemons: Fakemon[] =
       "PSYCHIC"
     ],
     sprite: "/sprites/DROWZEE.png",
-    artwork: "/artwork/drowzee.png",
+    artwork: "/sprites/DROWZEE.png",
     description: "If your nose becomes itchy while you are sleeping, it's a sure sign that a Drowzee is standing above your pillow and trying to eat your dream through your nostrils.",
     stats: {
       hp: 60,
@@ -11790,7 +11885,8 @@ export const fakemons: Fakemon[] =
       "PSYCHOCUT",
       "ROLEPLAY",
       "THUNDERPUNCH"
-    ]
+    ],
+    suffix: "normal"
   },
   {
     id: "HYPNO",
@@ -11799,7 +11895,7 @@ export const fakemons: Fakemon[] =
       "PSYCHIC"
     ],
     sprite: "/sprites/HYPNO.png",
-    artwork: "/artwork/hypno.png",
+    artwork: "/sprites/HYPNO.png",
     description: "The arcing movement and glitter of the pendulum in a Hypno's hand lull the foe into deep hypnosis. While searching for prey, it polishes the pendulum.",
     stats: {
       hp: 85,
@@ -11938,7 +12034,8 @@ export const fakemons: Fakemon[] =
     ],
     eggMoves: [
 
-    ]
+    ],
+    suffix: "normal"
   },
   {
     id: "KRABBY",
@@ -11947,7 +12044,7 @@ export const fakemons: Fakemon[] =
       "WATER"
     ],
     sprite: "/sprites/KRABBY.png",
-    artwork: "/artwork/krabby.png",
+    artwork: "/sprites/KRABBY.png",
     description: "Krabby live in holes dug into beaches. On sandy shores with little in the way of food, they can be seen squabbling with each other over territory.",
     stats: {
       hp: 30,
@@ -12055,7 +12152,8 @@ export const fakemons: Fakemon[] =
       "SLAM",
       "SLASH",
       "TICKLE"
-    ]
+    ],
+    suffix: "normal"
   },
   {
     id: "KINGLER",
@@ -12064,7 +12162,7 @@ export const fakemons: Fakemon[] =
       "WATER"
     ],
     sprite: "/sprites/KINGLER.png",
-    artwork: "/artwork/kingler.png",
+    artwork: "/sprites/KINGLER.png",
     description: "It waves its huge, oversized claw in the air to communicate with others. But since the claw is so heavy, this Pokémon quickly tires.",
     stats: {
       hp: 55,
@@ -12170,7 +12268,8 @@ export const fakemons: Fakemon[] =
     ],
     eggMoves: [
 
-    ]
+    ],
+    suffix: "normal"
   },
   {
     id: "VOLTORB",
@@ -12179,7 +12278,7 @@ export const fakemons: Fakemon[] =
       "ELECTRIC"
     ],
     sprite: "/sprites/VOLTORB.png",
-    artwork: "/artwork/voltorb.png",
+    artwork: "/sprites/VOLTORB.png",
     description: "It bears an uncanny and unexplained resemblance to a Poké Ball. Because it explodes at the slightest shock, even veteran trainers treat it with caution.",
     stats: {
       hp: 40,
@@ -12274,7 +12373,8 @@ export const fakemons: Fakemon[] =
     eggMoves: [
       "METALSOUND",
       "RECYCLE"
-    ]
+    ],
+    suffix: "normal"
   },
   {
     id: "ELECTRODE",
@@ -12283,7 +12383,7 @@ export const fakemons: Fakemon[] =
       "ELECTRIC"
     ],
     sprite: "/sprites/ELECTRODE.png",
-    artwork: "/artwork/electrode.png",
+    artwork: "/sprites/ELECTRODE.png",
     description: "They appear in great numbers at electric power plants. Because they feed on electricity, they cause massive and chaotic blackouts in nearby cities.",
     stats: {
       hp: 60,
@@ -12384,7 +12484,8 @@ export const fakemons: Fakemon[] =
     ],
     eggMoves: [
 
-    ]
+    ],
+    suffix: "normal"
   },
   {
     id: "EXEGGCUTE",
@@ -12394,7 +12495,7 @@ export const fakemons: Fakemon[] =
       "PSYCHIC"
     ],
     sprite: "/sprites/EXEGGCUTE.png",
-    artwork: "/artwork/exeggcute.png",
+    artwork: "/sprites/EXEGGCUTE.png",
     description: "It consists of six eggs that care for each other. The eggs attract each other and spin around. When cracks increasingly appear, it is close to evolution.",
     stats: {
       hp: 60,
@@ -12506,7 +12607,8 @@ export const fakemons: Fakemon[] =
       "SLEEPPOWDER",
       "STUNSPORE",
       "SYNTHESIS"
-    ]
+    ],
+    suffix: "normal"
   },
   {
     id: "EXEGGUTOR",
@@ -12516,7 +12618,7 @@ export const fakemons: Fakemon[] =
       "PSYCHIC"
     ],
     sprite: "/sprites/EXEGGUTOR.png",
-    artwork: "/artwork/exeggutor.png",
+    artwork: "/sprites/EXEGGUTOR.png",
     description: "Originally from the tropics, Exeggutor's heads grow larger with exposure to bright sunlight. It is said that when the heads fall, they group to form an Exeggcute.",
     stats: {
       hp: 95,
@@ -12641,7 +12743,8 @@ export const fakemons: Fakemon[] =
     ],
     eggMoves: [
 
-    ]
+    ],
+    suffix: "normal"
   },
   {
     id: "CUBONE",
@@ -12650,7 +12753,7 @@ export const fakemons: Fakemon[] =
       "GROUND"
     ],
     sprite: "/sprites/CUBONE.png",
-    artwork: "/artwork/cubone.png",
+    artwork: "/sprites/CUBONE.png",
     description: "It pines for the mother it will never see again. Seeing a likeness of its mother in the full moon, it cries. The stains on the skull it wears are from its tears.",
     stats: {
       hp: 50,
@@ -12772,7 +12875,8 @@ export const fakemons: Fakemon[] =
       "PERISHSONG",
       "SCREECH",
       "SKULLBASH"
-    ]
+    ],
+    suffix: "normal"
   },
   {
     id: "MAROWAK",
@@ -12781,7 +12885,7 @@ export const fakemons: Fakemon[] =
       "GROUND"
     ],
     sprite: "/sprites/MAROWAK.png",
-    artwork: "/artwork/marowak.png",
+    artwork: "/sprites/MAROWAK.png",
     description: "A Marowak is the evolved form of a Cubone that has grown tough by overcoming the grief of losing its mother. Its tempered and hardened spirit is not easily broken.",
     stats: {
       hp: 60,
@@ -12901,7 +13005,8 @@ export const fakemons: Fakemon[] =
     ],
     eggMoves: [
 
-    ]
+    ],
+    suffix: "normal"
   },
   {
     id: "HITMONLEE",
@@ -12910,7 +13015,7 @@ export const fakemons: Fakemon[] =
       "FIGHTING"
     ],
     sprite: "/sprites/HITMONLEE.png",
-    artwork: "/artwork/hitmonlee.png",
+    artwork: "/sprites/HITMONLEE.png",
     description: "Its legs freely stretch and contract. Using these springlike limbs, it bowls over foes with devastating kicks. After battle, it rubs down its tired legs.",
     stats: {
       hp: 50,
@@ -13034,7 +13139,8 @@ export const fakemons: Fakemon[] =
     ],
     eggMoves: [
 
-    ]
+    ],
+    suffix: "normal"
   },
   {
     id: "HITMONCHAN",
@@ -13043,7 +13149,7 @@ export const fakemons: Fakemon[] =
       "FIGHTING"
     ],
     sprite: "/sprites/HITMONCHAN.png",
-    artwork: "/artwork/hitmonchan.png",
+    artwork: "/sprites/HITMONCHAN.png",
     description: "A Hitmonchan is said to possess the spirit of a boxer who aimed to become the world champion. Having an indomitable spirit means that it will never give up.",
     stats: {
       hp: 50,
@@ -13170,7 +13276,8 @@ export const fakemons: Fakemon[] =
     ],
     eggMoves: [
 
-    ]
+    ],
+    suffix: "normal"
   },
   {
     id: "LICKITUNG",
@@ -13179,7 +13286,7 @@ export const fakemons: Fakemon[] =
       "NORMAL"
     ],
     sprite: "/sprites/LICKITUNG.png",
-    artwork: "/artwork/lickitung.png",
+    artwork: "/sprites/LICKITUNG.png",
     description: "Whenever it sees something unfamiliar, it always licks the object because it memorizes things by texture and taste. It is somewhat put off by sour things.",
     stats: {
       hp: 90,
@@ -13314,7 +13421,8 @@ export const fakemons: Fakemon[] =
       "SNORE",
       "THRASH",
       "ZENHEADBUTT"
-    ]
+    ],
+    suffix: "normal"
   },
   {
     id: "KOFFING",
@@ -13323,7 +13431,7 @@ export const fakemons: Fakemon[] =
       "POISON"
     ],
     sprite: "/sprites/KOFFING.png",
-    artwork: "/artwork/koffing.png",
+    artwork: "/sprites/KOFFING.png",
     description: "Getting up close to a Koffing will give you a chance to observe, through its thin skin, the toxic gases swirling inside. It blows up at the slightest stimulation.",
     stats: {
       hp: 40,
@@ -13435,7 +13543,8 @@ export const fakemons: Fakemon[] =
       "SWALLOW",
       "TOXICSPIKES",
       "VENOMDRENCH"
-    ]
+    ],
+    suffix: "normal"
   },
   {
     id: "WEEZING",
@@ -13444,7 +13553,7 @@ export const fakemons: Fakemon[] =
       "POISON"
     ],
     sprite: "/sprites/WEEZING.png",
-    artwork: "/artwork/weezing.png",
+    artwork: "/sprites/WEEZING.png",
     description: "By diluting its toxic gases with a special process, the highest grade of perfume can be made. To Weezing, gases emanating from garbage are the ultimate feast.",
     stats: {
       hp: 65,
@@ -13550,7 +13659,8 @@ export const fakemons: Fakemon[] =
     ],
     eggMoves: [
 
-    ]
+    ],
+    suffix: "normal"
   },
   {
     id: "RHYHORN",
@@ -13560,7 +13670,7 @@ export const fakemons: Fakemon[] =
       "ROCK"
     ],
     sprite: "/sprites/RHYHORN.png",
-    artwork: "/artwork/rhyhorn.png",
+    artwork: "/sprites/RHYHORN.png",
     description: "Once it starts running, it doesn't stop. Its tiny brain makes it so stupid that it can't remember why it started running in the first place.",
     stats: {
       hp: 80,
@@ -13694,7 +13804,8 @@ export const fakemons: Fakemon[] =
       "ROCKPOLISH",
       "SKULLBASH",
       "THUNDERFANG"
-    ]
+    ],
+    suffix: "normal"
   },
   {
     id: "RHYDON",
@@ -13704,7 +13815,7 @@ export const fakemons: Fakemon[] =
       "ROCK"
     ],
     sprite: "/sprites/RHYDON.png",
-    artwork: "/artwork/rhydon.png",
+    artwork: "/sprites/RHYDON.png",
     description: "Its horn, which rotates like a drill, destroys tall buildings with one strike. It stands on its hind legs, and its brain is well developed.",
     stats: {
       hp: 105,
@@ -13856,7 +13967,8 @@ export const fakemons: Fakemon[] =
     ],
     eggMoves: [
 
-    ]
+    ],
+    suffix: "normal"
   },
   {
     id: "CHANSEY",
@@ -13865,7 +13977,7 @@ export const fakemons: Fakemon[] =
       "NORMAL"
     ],
     sprite: "/sprites/CHANSEY.png",
-    artwork: "/artwork/chansey.png",
+    artwork: "/sprites/CHANSEY.png",
     description: "Chansey lay nutritionally excellent eggs every day. The eggs are so delicious, they are eagerly devoured by even those who have lost their appetite.",
     stats: {
       hp: 250,
@@ -14024,7 +14136,8 @@ export const fakemons: Fakemon[] =
       "METRONOME",
       "PRESENT",
       "SEISMICTOSS"
-    ]
+    ],
+    suffix: "normal"
   },
   {
     id: "TANGELA",
@@ -14033,7 +14146,7 @@ export const fakemons: Fakemon[] =
       "GRASS"
     ],
     sprite: "/sprites/TANGELA.png",
-    artwork: "/artwork/tangela.png",
+    artwork: "/sprites/TANGELA.png",
     description: "Its vines snap off easily and painlessly if they are grabbed, allowing it to make a quick getaway. The lost vines are replaced by new growth the very next day.",
     stats: {
       hp: 65,
@@ -14139,7 +14252,8 @@ export const fakemons: Fakemon[] =
       "NATUREPOWER",
       "POWERSWAP",
       "RAGEPOWDER"
-    ]
+    ],
+    suffix: "normal"
   },
   {
     id: "KANGASKHAN",
@@ -14148,7 +14262,7 @@ export const fakemons: Fakemon[] =
       "NORMAL"
     ],
     sprite: "/sprites/KANGASKHAN.png",
-    artwork: "/artwork/kangaskhan.png",
+    artwork: "/sprites/KANGASKHAN.png",
     description: "If you come across a young Kangaskhan playing by itself, never try to catch it. The baby's parent is sure to be in the area, and it will become violently enraged.",
     stats: {
       hp: 105,
@@ -14290,7 +14404,8 @@ export const fakemons: Fakemon[] =
       "HAMMERARM",
       "STOMP",
       "UPROAR"
-    ]
+    ],
+    suffix: "normal"
   },
   {
     id: "HORSEA",
@@ -14299,7 +14414,7 @@ export const fakemons: Fakemon[] =
       "WATER"
     ],
     sprite: "/sprites/HORSEA.png",
-    artwork: "/artwork/horsea.png",
+    artwork: "/sprites/HORSEA.png",
     description: "By cleverly flicking the fins on its back side to side, it moves in any direction while facing forward. It spits ink to escape if it senses danger.",
     stats: {
       hp: 30,
@@ -14395,7 +14510,8 @@ export const fakemons: Fakemon[] =
       "OUTRAGE",
       "SPLASH",
       "WATERPULSE"
-    ]
+    ],
+    suffix: "normal"
   },
   {
     id: "SEADRA",
@@ -14404,7 +14520,7 @@ export const fakemons: Fakemon[] =
       "WATER"
     ],
     sprite: "/sprites/SEADRA.png",
-    artwork: "/artwork/seadra.png",
+    artwork: "/sprites/SEADRA.png",
     description: "The poisonous barbs all over its body are highly valued as ingredients for making traditional herbal medicine. It shows no mercy to anything approaching its nest.",
     stats: {
       hp: 55,
@@ -14497,7 +14613,8 @@ export const fakemons: Fakemon[] =
     ],
     eggMoves: [
 
-    ]
+    ],
+    suffix: "normal"
   },
   {
     id: "GOLDEEN",
@@ -14506,7 +14623,7 @@ export const fakemons: Fakemon[] =
       "WATER"
     ],
     sprite: "/sprites/GOLDEEN.png",
-    artwork: "/artwork/goldeen.png",
+    artwork: "/sprites/GOLDEEN.png",
     description: "In the springtime, schools of Goldeen can be seen swimming up falls and rivers. It metes out staggering damage with its single horn.",
     stats: {
       hp: 45,
@@ -14603,7 +14720,8 @@ export const fakemons: Fakemon[] =
       "MUDSLAP",
       "PSYBEAM",
       "SKULLBASH"
-    ]
+    ],
+    suffix: "normal"
   },
   {
     id: "SEAKING",
@@ -14612,7 +14730,7 @@ export const fakemons: Fakemon[] =
       "WATER"
     ],
     sprite: "/sprites/SEAKING.png",
-    artwork: "/artwork/seaking.png",
+    artwork: "/sprites/SEAKING.png",
     description: "It punches holes in boulders on stream- beds. This is a clever innovation that prevents its eggs from being attacked or washed away by the current.",
     stats: {
       hp: 80,
@@ -14703,7 +14821,8 @@ export const fakemons: Fakemon[] =
     ],
     eggMoves: [
 
-    ]
+    ],
+    suffix: "normal"
   },
   {
     id: "STARYU",
@@ -14712,7 +14831,7 @@ export const fakemons: Fakemon[] =
       "WATER"
     ],
     sprite: "/sprites/STARYU.png",
-    artwork: "/artwork/staryu.png",
+    artwork: "/sprites/STARYU.png",
     description: "It gathers with others in the night and makes its red core glow on and off with the twinkling stars. It can regenerate limbs if they are severed from its body.",
     stats: {
       hp: 30,
@@ -14808,7 +14927,8 @@ export const fakemons: Fakemon[] =
     ],
     eggMoves: [
 
-    ]
+    ],
+    suffix: "normal"
   },
   {
     id: "STARMIE",
@@ -14818,7 +14938,7 @@ export const fakemons: Fakemon[] =
       "PSYCHIC"
     ],
     sprite: "/sprites/STARMIE.png",
-    artwork: "/artwork/starmie.png",
+    artwork: "/sprites/STARMIE.png",
     description: "People in ancient times imagined that Starmie were transformed from the reflections of stars that twinkled on gentle waves at night.",
     stats: {
       hp: 60,
@@ -14930,7 +15050,8 @@ export const fakemons: Fakemon[] =
     ],
     eggMoves: [
 
-    ]
+    ],
+    suffix: "normal"
   },
   {
     id: "MRMIME",
@@ -14940,7 +15061,7 @@ export const fakemons: Fakemon[] =
       "FAIRY"
     ],
     sprite: "/sprites/MRMIME.png",
-    artwork: "/artwork/mrmime.png",
+    artwork: "/sprites/MRMIME.png",
     description: "A Mr. Mime is a master of pantomime. It can convince others that something unseeable actually exists. Once believed, the imaginary object does become real.",
     stats: {
       hp: 40,
@@ -15097,7 +15218,8 @@ export const fakemons: Fakemon[] =
       "TEETERDANCE",
       "TICKLE",
       "TRICK"
-    ]
+    ],
+    suffix: "normal"
   },
   {
     id: "SCYTHER",
@@ -15107,7 +15229,7 @@ export const fakemons: Fakemon[] =
       "FLYING"
     ],
     sprite: "/sprites/SCYTHER.png",
-    artwork: "/artwork/scyther.png",
+    artwork: "/sprites/SCYTHER.png",
     description: "Its blindingly fast speed adds to the sharpness of its twin forearm scythes. The scythes can slice through thick logs in one wicked stroke.",
     stats: {
       hp: 70,
@@ -15222,7 +15344,8 @@ export const fakemons: Fakemon[] =
       "NIGHTSLASH",
       "QUICKGUARD",
       "REVERSAL"
-    ]
+    ],
+    suffix: "normal"
   },
   {
     id: "JYNX",
@@ -15232,7 +15355,7 @@ export const fakemons: Fakemon[] =
       "PSYCHIC"
     ],
     sprite: "/sprites/JYNX.png",
-    artwork: "/artwork/jynx.png",
+    artwork: "/sprites/JYNX.png",
     description: "A Jynx sashays rhythmically as if it were dancing. Its motions are so bouncingly alluring, people seeing it are compelled to shake their hips without noticing.",
     stats: {
       hp: 65,
@@ -15365,7 +15488,8 @@ export const fakemons: Fakemon[] =
     ],
     eggMoves: [
 
-    ]
+    ],
+    suffix: "normal"
   },
   {
     id: "ELECTABUZZ",
@@ -15374,7 +15498,7 @@ export const fakemons: Fakemon[] =
       "ELECTRIC"
     ],
     sprite: "/sprites/ELECTABUZZ.png",
-    artwork: "/artwork/electabuzz.png",
+    artwork: "/sprites/ELECTABUZZ.png",
     description: "When a storm approaches, it competes with others to scale heights that are likely to be stricken by lightning. Some towns use Electabuzz as lightning rods.",
     stats: {
       hp: 65,
@@ -15492,7 +15616,8 @@ export const fakemons: Fakemon[] =
     ],
     eggMoves: [
 
-    ]
+    ],
+    suffix: "normal"
   },
   {
     id: "MAGMAR",
@@ -15501,7 +15626,7 @@ export const fakemons: Fakemon[] =
       "FIRE"
     ],
     sprite: "/sprites/MAGMAR.png",
-    artwork: "/artwork/magmar.png",
+    artwork: "/sprites/MAGMAR.png",
     description: "In battle, it blows out intense flames from all over its body to intimidate its foe. These fiery bursts create heat waves that ignite grass and trees.",
     stats: {
       hp: 65,
@@ -15617,7 +15742,8 @@ export const fakemons: Fakemon[] =
     ],
     eggMoves: [
 
-    ]
+    ],
+    suffix: "normal"
   },
   {
     id: "PINSIR",
@@ -15626,7 +15752,7 @@ export const fakemons: Fakemon[] =
       "BUG"
     ],
     sprite: "/sprites/PINSIR.png",
-    artwork: "/artwork/pinsir.png",
+    artwork: "/sprites/PINSIR.png",
     description: "Their pincers are strong enough to shatter thick logs. Because they dislike cold, Pinsir burrow and sleep under the ground on chilly nights.",
     stats: {
       hp: 65,
@@ -15738,7 +15864,8 @@ export const fakemons: Fakemon[] =
       "QUICKATTACK",
       "SUPERPOWER",
       "THRASH"
-    ]
+    ],
+    suffix: "normal"
   },
   {
     id: "TAUROS",
@@ -15747,7 +15874,7 @@ export const fakemons: Fakemon[] =
       "NORMAL"
     ],
     sprite: "/sprites/TAUROS.png",
-    artwork: "/artwork/tauros.png",
+    artwork: "/sprites/TAUROS.png",
     description: "It is not satisfied unless it is rampaging at all times. If there is no opponent for Tauros to battle, it will charge at thick trees and knock them down to calm itself.",
     stats: {
       hp: 75,
@@ -15863,7 +15990,8 @@ export const fakemons: Fakemon[] =
     eggMoves: [
       "CURSE",
       "ENDEAVOR"
-    ]
+    ],
+    suffix: "normal"
   },
   {
     id: "MAGIKARP",
@@ -15872,7 +16000,7 @@ export const fakemons: Fakemon[] =
       "WATER"
     ],
     sprite: "/sprites/MAGIKARP.png",
-    artwork: "/artwork/magikarp.png",
+    artwork: "/sprites/MAGIKARP.png",
     description: "Its swimming muscles are weak, so it is easily washed away by currents. In places where water pools, you can see many Magikarp deposited there by the flow.",
     stats: {
       hp: 20,
@@ -15901,7 +16029,8 @@ export const fakemons: Fakemon[] =
     ],
     eggMoves: [
 
-    ]
+    ],
+    suffix: "normal"
   },
   {
     id: "GYARADOS",
@@ -15911,7 +16040,7 @@ export const fakemons: Fakemon[] =
       "FLYING"
     ],
     sprite: "/sprites/GYARADOS.png",
-    artwork: "/artwork/gyarados.png",
+    artwork: "/sprites/GYARADOS.png",
     description: "It is an extremely vicious and violent Pokémon. When humans begin to fight, it will appear and burn everything to the ground with intensely hot flames.",
     stats: {
       hp: 95,
@@ -16036,7 +16165,8 @@ export const fakemons: Fakemon[] =
     ],
     eggMoves: [
 
-    ]
+    ],
+    suffix: "normal"
   },
   {
     id: "LAPRAS",
@@ -16046,7 +16176,7 @@ export const fakemons: Fakemon[] =
       "ICE"
     ],
     sprite: "/sprites/LAPRAS.png",
-    artwork: "/artwork/lapras.png",
+    artwork: "/sprites/LAPRAS.png",
     description: "People have driven Lapras almost to the point of extinction. In the evenings, it is said to sing plaintively as it seeks what few others of its kind still remain.",
     stats: {
       hp: 130,
@@ -16179,7 +16309,8 @@ export const fakemons: Fakemon[] =
       "SPARKLINGARIA",
       "TICKLE",
       "WHIRLPOOL"
-    ]
+    ],
+    suffix: "normal"
   },
   {
     id: "DITTO",
@@ -16188,7 +16319,7 @@ export const fakemons: Fakemon[] =
       "NORMAL"
     ],
     sprite: "/sprites/DITTO.png",
-    artwork: "/artwork/ditto.png",
+    artwork: "/sprites/DITTO.png",
     description: "A Ditto rearranges its cell structure to transform itself. However, if it tries to change based on its memory, it will get details wrong.",
     stats: {
       hp: 48,
@@ -16215,7 +16346,8 @@ export const fakemons: Fakemon[] =
     ],
     eggMoves: [
 
-    ]
+    ],
+    suffix: "normal"
   },
   {
     id: "EEVEE",
@@ -16224,7 +16356,7 @@ export const fakemons: Fakemon[] =
       "NORMAL"
     ],
     sprite: "/sprites/EEVEE.png",
-    artwork: "/artwork/eevee.png",
+    artwork: "/sprites/EEVEE.png",
     description: "An Eevee has an unstable genetic makeup that suddenly mutates due to its environment. Radiation from various stones causes this Pokémon to evolve.",
     stats: {
       hp: 55,
@@ -16329,7 +16461,8 @@ export const fakemons: Fakemon[] =
       "TICKLE",
       "WISH",
       "YAWN"
-    ]
+    ],
+    suffix: "normal"
   },
   {
     id: "VAPOREON",
@@ -16338,7 +16471,7 @@ export const fakemons: Fakemon[] =
       "WATER"
     ],
     sprite: "/sprites/VAPOREON.png",
-    artwork: "/artwork/vaporeon.png",
+    artwork: "/sprites/VAPOREON.png",
     description: "Vaporeon underwent a spontaneous mutation and grew fins and gills that allow them to live underwater. They have the ability to freely control water.",
     stats: {
       hp: 130,
@@ -16461,7 +16594,8 @@ export const fakemons: Fakemon[] =
     ],
     eggMoves: [
 
-    ]
+    ],
+    suffix: "normal"
   },
   {
     id: "JOLTEON",
@@ -16470,7 +16604,7 @@ export const fakemons: Fakemon[] =
       "ELECTRIC"
     ],
     sprite: "/sprites/JOLTEON.png",
-    artwork: "/artwork/jolteon.png",
+    artwork: "/sprites/JOLTEON.png",
     description: "Its cells generate weak power that is amplified by its fur's static electricity to drop thunderbolts. The bristling fur is made of electrically charged needles.",
     stats: {
       hp: 65,
@@ -16596,7 +16730,8 @@ export const fakemons: Fakemon[] =
     ],
     eggMoves: [
 
-    ]
+    ],
+    suffix: "normal"
   },
   {
     id: "FLAREON",
@@ -16605,7 +16740,7 @@ export const fakemons: Fakemon[] =
       "FIRE"
     ],
     sprite: "/sprites/FLAREON.png",
-    artwork: "/artwork/flareon.png",
+    artwork: "/sprites/FLAREON.png",
     description: "Flareon's fluffy fur releases heat into the air so that its body does not get excessively hot. Its body temperature can rise to a maximum of 1,650 degrees F.",
     stats: {
       hp: 65,
@@ -16726,7 +16861,8 @@ export const fakemons: Fakemon[] =
     ],
     eggMoves: [
 
-    ]
+    ],
+    suffix: "normal"
   },
   {
     id: "PORYGON",
@@ -16735,7 +16871,7 @@ export const fakemons: Fakemon[] =
       "NORMAL"
     ],
     sprite: "/sprites/PORYGON.png",
-    artwork: "/artwork/porygon.png",
+    artwork: "/sprites/PORYGON.png",
     description: "It is capable of reverting itself entirely back to program data in order to enter cyberspace. A Porygon is copy-protected so it cannot be duplicated.",
     stats: {
       hp: 65,
@@ -16838,7 +16974,8 @@ export const fakemons: Fakemon[] =
     ],
     eggMoves: [
 
-    ]
+    ],
+    suffix: "normal"
   },
   {
     id: "OMANYTE",
@@ -16848,7 +16985,7 @@ export const fakemons: Fakemon[] =
       "WATER"
     ],
     sprite: "/sprites/OMANYTE.png",
-    artwork: "/artwork/omanyte.png",
+    artwork: "/sprites/OMANYTE.png",
     description: "One of the ancient and long-since-extinct Pokémon that have been regenerated from fossils by humans. If attacked, it withdraws into its hard shell.",
     stats: {
       hp: 35,
@@ -16957,7 +17094,8 @@ export const fakemons: Fakemon[] =
       "TOXICSPIKES",
       "WATERPULSE",
       "WHIRLPOOL"
-    ]
+    ],
+    suffix: "normal"
   },
   {
     id: "OMASTAR",
@@ -16967,7 +17105,7 @@ export const fakemons: Fakemon[] =
       "WATER"
     ],
     sprite: "/sprites/OMASTAR.png",
-    artwork: "/artwork/omastar.png",
+    artwork: "/sprites/OMASTAR.png",
     description: "An Omastar uses its tentacles to capture its prey. It is believed to have become extinct because its shell grew too large, making its movements slow and ponderous.",
     stats: {
       hp: 70,
@@ -17072,7 +17210,8 @@ export const fakemons: Fakemon[] =
     ],
     eggMoves: [
 
-    ]
+    ],
+    suffix: "normal"
   },
   {
     id: "KABUTO",
@@ -17082,7 +17221,7 @@ export const fakemons: Fakemon[] =
       "WATER"
     ],
     sprite: "/sprites/KABUTO.png",
-    artwork: "/artwork/kabuto.png",
+    artwork: "/sprites/KABUTO.png",
     description: "This Pokémon has been regenerated from a fossil. However, in rare cases, living examples have been discovered. Kabuto have not changed for 300 million years.",
     stats: {
       hp: 30,
@@ -17190,7 +17329,8 @@ export const fakemons: Fakemon[] =
       "RAPIDSPIN",
       "SCREECH",
       "TAKEDOWN"
-    ]
+    ],
+    suffix: "normal"
   },
   {
     id: "KABUTOPS",
@@ -17200,7 +17340,7 @@ export const fakemons: Fakemon[] =
       "WATER"
     ],
     sprite: "/sprites/KABUTOPS.png",
-    artwork: "/artwork/kabutops.png",
+    artwork: "/sprites/KABUTOPS.png",
     description: "Kabutops once swam underwater to hunt for prey. It was apparently evolving from being a water dweller to living on land as evident from changes in its gills and legs.",
     stats: {
       hp: 60,
@@ -17321,7 +17461,8 @@ export const fakemons: Fakemon[] =
     ],
     eggMoves: [
 
-    ]
+    ],
+    suffix: "normal"
   },
   {
     id: "AERODACTYL",
@@ -17331,7 +17472,7 @@ export const fakemons: Fakemon[] =
       "FLYING"
     ],
     sprite: "/sprites/AERODACTYL.png",
-    artwork: "/artwork/aerodactyl.png",
+    artwork: "/sprites/AERODACTYL.png",
     description: "Aerodactyl is a Pokémon from the age of dinosaurs. It was regenerated from DNA extracted from amber. It is imagined to have been the king of the skies.",
     stats: {
       hp: 80,
@@ -17457,7 +17598,8 @@ export const fakemons: Fakemon[] =
       "TAILWIND",
       "WHIRLWIND",
       "WIDEGUARD"
-    ]
+    ],
+    suffix: "normal"
   },
   {
     id: "SNORLAX",
@@ -17466,7 +17608,7 @@ export const fakemons: Fakemon[] =
       "NORMAL"
     ],
     sprite: "/sprites/SNORLAX.png",
-    artwork: "/artwork/snorlax.png",
+    artwork: "/sprites/SNORLAX.png",
     description: "Snorlax's typical day consists of nothing more than eating and sleeping. It is such a docile Pokémon that there are children who use its big belly as a place to play.",
     stats: {
       hp: 160,
@@ -17636,7 +17778,8 @@ export const fakemons: Fakemon[] =
       "SELFDESTRUCT",
       "WHIRLWIND",
       "ZENHEADBUTT"
-    ]
+    ],
+    suffix: "normal"
   },
   {
     id: "ARTICUNO",
@@ -17646,7 +17789,7 @@ export const fakemons: Fakemon[] =
       "FLYING"
     ],
     sprite: "/sprites/ARTICUNO.png",
-    artwork: "/artwork/articuno.png",
+    artwork: "/sprites/ARTICUNO.png",
     description: "Articuno is a legendary bird Pokémon that can control ice. The flapping of its wings chills the air. As a result, it is said that when this Pokémon flies, snow will fall.",
     stats: {
       hp: 90,
@@ -17754,7 +17897,8 @@ export const fakemons: Fakemon[] =
     ],
     eggMoves: [
 
-    ]
+    ],
+    suffix: "normal"
   },
   {
     id: "ZAPDOS",
@@ -17764,7 +17908,7 @@ export const fakemons: Fakemon[] =
       "FLYING"
     ],
     sprite: "/sprites/ZAPDOS.png",
-    artwork: "/artwork/zapdos.png",
+    artwork: "/sprites/ZAPDOS.png",
     description: "Zapdos is a legendary bird Pokémon that has the ability to control electricity. It usually lives in thunderclouds. It gains power if it is stricken by lightning bolts.",
     stats: {
       hp: 90,
@@ -17871,7 +18015,8 @@ export const fakemons: Fakemon[] =
     ],
     eggMoves: [
 
-    ]
+    ],
+    suffix: "normal"
   },
   {
     id: "MOLTRES",
@@ -17881,7 +18026,7 @@ export const fakemons: Fakemon[] =
       "FLYING"
     ],
     sprite: "/sprites/MOLTRES.png",
-    artwork: "/artwork/moltres.png",
+    artwork: "/sprites/MOLTRES.png",
     description: "Moltres is a legendary bird Pokémon that can control fire. If injured, it is said to dip its body in the molten magma of a volcano to burn and heal itself.",
     stats: {
       hp: 90,
@@ -17988,7 +18133,8 @@ export const fakemons: Fakemon[] =
     ],
     eggMoves: [
 
-    ]
+    ],
+    suffix: "normal"
   },
   {
     id: "DRATINI",
@@ -17997,7 +18143,7 @@ export const fakemons: Fakemon[] =
       "DRAGON"
     ],
     sprite: "/sprites/DRATINI.png",
-    artwork: "/artwork/dratini.png",
+    artwork: "/sprites/DRATINI.png",
     description: "A Dratini continually molts and sloughs off its old skin. It does so because the life energy within its body steadily builds to reach uncontrollable levels.",
     stats: {
       hp: 41,
@@ -18107,7 +18253,8 @@ export const fakemons: Fakemon[] =
       "MIST",
       "SUPERSONIC",
       "WATERPULSE"
-    ]
+    ],
+    suffix: "normal"
   },
   {
     id: "DRAGONAIR",
@@ -18116,7 +18263,7 @@ export const fakemons: Fakemon[] =
       "DRAGON"
     ],
     sprite: "/sprites/DRAGONAIR.png",
-    artwork: "/artwork/dragonair.png",
+    artwork: "/sprites/DRAGONAIR.png",
     description: "A Dragonair stores an enormous amount of energy inside its body. It is said to alter the weather around it by loosing energy from the crystals on its neck and tail.",
     stats: {
       hp: 61,
@@ -18219,7 +18366,8 @@ export const fakemons: Fakemon[] =
     ],
     eggMoves: [
 
-    ]
+    ],
+    suffix: "normal"
   },
   {
     id: "DRAGONITE",
@@ -18229,7 +18377,7 @@ export const fakemons: Fakemon[] =
       "FLYING"
     ],
     sprite: "/sprites/DRAGONITE.png",
-    artwork: "/artwork/dragonite.png",
+    artwork: "/sprites/DRAGONITE.png",
     description: "It can circle the globe in just 16 hours. It is a kindhearted Pokémon that leads lost and foundering ships in a storm to the safety of land.",
     stats: {
       hp: 91,
@@ -18385,7 +18533,8 @@ export const fakemons: Fakemon[] =
     ],
     eggMoves: [
 
-    ]
+    ],
+    suffix: "normal"
   },
   {
     id: "MEWTWO",
@@ -18394,7 +18543,7 @@ export const fakemons: Fakemon[] =
       "PSYCHIC"
     ],
     sprite: "/sprites/MEWTWO.png",
-    artwork: "/artwork/mewtwo.png",
+    artwork: "/sprites/MEWTWO.png",
     description: "A Pokémon that was created by genetic manipulation. However, even though the scientific power of humans made its body, they failed to give it a warm heart.",
     stats: {
       hp: 106,
@@ -18575,7 +18724,8 @@ export const fakemons: Fakemon[] =
     ],
     eggMoves: [
 
-    ]
+    ],
+    suffix: "normal"
   },
   {
     id: "MEW",
@@ -18584,7 +18734,7 @@ export const fakemons: Fakemon[] =
       "PSYCHIC"
     ],
     sprite: "/sprites/MEW.png",
-    artwork: "/artwork/mew.png",
+    artwork: "/sprites/MEW.png",
     description: "A Mew is said to possess the genes of all Pokémon. It is capable of making itself invisible at will, so it entirely avoids notice even if it approaches people.",
     stats: {
       hp: 100,
@@ -18966,7 +19116,8 @@ export const fakemons: Fakemon[] =
     ],
     eggMoves: [
 
-    ]
+    ],
+    suffix: "normal"
   },
   {
     id: "CHIKORITA",
@@ -18975,7 +19126,7 @@ export const fakemons: Fakemon[] =
       "GRASS"
     ],
     sprite: "/sprites/CHIKORITA.png",
-    artwork: "/artwork/chikorita.png",
+    artwork: "/sprites/CHIKORITA.png",
     description: "It waves its leaf around to keep foes at bay. However, a sweet fragrance also wafts from the leaf, creating a friendly atmosphere that becalms the battlers.",
     stats: {
       hp: 45,
@@ -19085,7 +19236,8 @@ export const fakemons: Fakemon[] =
       "LEECHSEED",
       "NATUREPOWER",
       "VINEWHIP"
-    ]
+    ],
+    suffix: "normal"
   },
   {
     id: "BAYLEEF",
@@ -19094,7 +19246,7 @@ export const fakemons: Fakemon[] =
       "GRASS"
     ],
     sprite: "/sprites/BAYLEEF.png",
-    artwork: "/artwork/bayleef.png",
+    artwork: "/sprites/BAYLEEF.png",
     description: "A Bayleef's neck is ringed by curled-up leaves. Inside each leaf is a small tree shoot. The fragrance of this shoot makes people peppy.",
     stats: {
       hp: 60,
@@ -19198,7 +19350,8 @@ export const fakemons: Fakemon[] =
     ],
     eggMoves: [
 
-    ]
+    ],
+    suffix: "normal"
   },
   {
     id: "MEGANIUM",
@@ -19207,7 +19360,7 @@ export const fakemons: Fakemon[] =
       "GRASS"
     ],
     sprite: "/sprites/MEGANIUM.png",
-    artwork: "/artwork/meganium.png",
+    artwork: "/sprites/MEGANIUM.png",
     description: "The fragrance of a Meganium's flower soothes and calms emotions. In battle, it gives off more of its becalming scent to blunt the foe's fighting spirit.",
     stats: {
       hp: 80,
@@ -19326,7 +19479,8 @@ export const fakemons: Fakemon[] =
     ],
     eggMoves: [
 
-    ]
+    ],
+    suffix: "normal"
   },
   {
     id: "CYNDAQUIL",
@@ -19335,7 +19489,7 @@ export const fakemons: Fakemon[] =
       "FIRE"
     ],
     sprite: "/sprites/CYNDAQUIL.png",
-    artwork: "/artwork/cyndaquil.png",
+    artwork: "/sprites/CYNDAQUIL.png",
     description: "It flares flames from its back to protect itself. The fire burns vigorously if the Pokémon is angry. When it is tired, it sputters with incomplete combustion.",
     stats: {
       hp: 39,
@@ -19442,7 +19596,8 @@ export const fakemons: Fakemon[] =
       "QUICKATTACK",
       "REVERSAL",
       "THRASH"
-    ]
+    ],
+    suffix: "normal"
   },
   {
     id: "QUILAVA",
@@ -19451,7 +19606,7 @@ export const fakemons: Fakemon[] =
       "FIRE"
     ],
     sprite: "/sprites/QUILAVA.png",
-    artwork: "/artwork/quilava.png",
+    artwork: "/sprites/QUILAVA.png",
     description: "It intimidates foes with intense gusts of flames and superheated air. Its quick nimbleness lets it dodge attacks even while scorching an enemy.",
     stats: {
       hp: 58,
@@ -19551,7 +19706,8 @@ export const fakemons: Fakemon[] =
     ],
     eggMoves: [
 
-    ]
+    ],
+    suffix: "normal"
   },
   {
     id: "TYPHLOSION",
@@ -19560,7 +19716,7 @@ export const fakemons: Fakemon[] =
       "FIRE"
     ],
     sprite: "/sprites/TYPHLOSION.png",
-    artwork: "/artwork/typhlosion.png",
+    artwork: "/sprites/TYPHLOSION.png",
     description: "It can hide behind a shimmering heat haze that it creates using its intense flames. Typhlosion create blazing explosive blasts that burn everything to cinders.",
     stats: {
       hp: 78,
@@ -19690,7 +19846,8 @@ export const fakemons: Fakemon[] =
     ],
     eggMoves: [
 
-    ]
+    ],
+    suffix: "normal"
   },
   {
     id: "TOTODILE",
@@ -19699,7 +19856,7 @@ export const fakemons: Fakemon[] =
       "WATER"
     ],
     sprite: "/sprites/TOTODILE.png",
-    artwork: "/artwork/totodile.png",
+    artwork: "/sprites/TOTODILE.png",
     description: "Despite its small body, Totodile's jaws are very powerful. While it may think it is just playfully nipping, its bite has enough strength to cause serious injury.",
     stats: {
       hp: 50,
@@ -19827,7 +19984,8 @@ export const fakemons: Fakemon[] =
       "ICEPUNCH",
       "METALCLAW",
       "THRASH"
-    ]
+    ],
+    suffix: "normal"
   },
   {
     id: "CROCONAW",
@@ -19836,7 +19994,7 @@ export const fakemons: Fakemon[] =
       "WATER"
     ],
     sprite: "/sprites/CROCONAW.png",
-    artwork: "/artwork/croconaw.png",
+    artwork: "/sprites/CROCONAW.png",
     description: "Once its jaws clamp down on its foe, it will absolutely not let go. Because the tips of its fangs are forked back like fishhooks, they become irremovably embedded.",
     stats: {
       hp: 65,
@@ -19958,7 +20116,8 @@ export const fakemons: Fakemon[] =
     ],
     eggMoves: [
 
-    ]
+    ],
+    suffix: "normal"
   },
   {
     id: "FERALIGATR",
@@ -19967,7 +20126,7 @@ export const fakemons: Fakemon[] =
       "WATER"
     ],
     sprite: "/sprites/FERALIGATR.png",
-    artwork: "/artwork/feraligatr.png",
+    artwork: "/sprites/FERALIGATR.png",
     description: "It opens its huge mouth to intimidate enemies. In battle, it runs using its thick and powerful hind legs to charge the foe with incredible speed.",
     stats: {
       hp: 85,
@@ -20107,7 +20266,8 @@ export const fakemons: Fakemon[] =
     ],
     eggMoves: [
 
-    ]
+    ],
+    suffix: "normal"
   },
   {
     id: "SENTRET",
@@ -20116,7 +20276,7 @@ export const fakemons: Fakemon[] =
       "NORMAL"
     ],
     sprite: "/sprites/SENTRET.png",
-    artwork: "/artwork/sentret.png",
+    artwork: "/sprites/SENTRET.png",
     description: "They take turns standing guard when it is time to sleep. The sentry awakens the others if it senses danger. If one gets separated, it turns sleepless with fear.",
     stats: {
       hp: 35,
@@ -20244,7 +20404,8 @@ export const fakemons: Fakemon[] =
       "SLASH",
       "TIDYUP",
       "TRICK"
-    ]
+    ],
+    suffix: "normal"
   },
   {
     id: "FURRET",
@@ -20253,7 +20414,7 @@ export const fakemons: Fakemon[] =
       "NORMAL"
     ],
     sprite: "/sprites/FURRET.png",
-    artwork: "/artwork/furret.png",
+    artwork: "/sprites/FURRET.png",
     description: "A Furret has a very slim build. When under attack, it can squirm through narrow spaces and get away. In spite of its short limbs, it is very nimble and fleet.",
     stats: {
       hp: 85,
@@ -20381,7 +20542,8 @@ export const fakemons: Fakemon[] =
     ],
     eggMoves: [
 
-    ]
+    ],
+    suffix: "normal"
   },
   {
     id: "HOOTHOOT",
@@ -20391,7 +20553,7 @@ export const fakemons: Fakemon[] =
       "FLYING"
     ],
     sprite: "/sprites/HOOTHOOT.png",
-    artwork: "/artwork/hoothoot.png",
+    artwork: "/sprites/HOOTHOOT.png",
     description: "It has an internal organ that senses the earth's rotation. Using this special organ, a Hoothoot begins hooting at precisely the same time every day.",
     stats: {
       hp: 60,
@@ -20510,7 +20672,8 @@ export const fakemons: Fakemon[] =
       "SUPERSONIC",
       "WHIRLWIND",
       "WINGATTACK"
-    ]
+    ],
+    suffix: "normal"
   },
   {
     id: "NOCTOWL",
@@ -20520,7 +20683,7 @@ export const fakemons: Fakemon[] =
       "FLYING"
     ],
     sprite: "/sprites/NOCTOWL.png",
-    artwork: "/artwork/noctowl.png",
+    artwork: "/sprites/NOCTOWL.png",
     description: "It unfailingly catches prey in darkness. Noctowl owe their success to superior vision that allows them to see in minimal light, and to their supple and silent wings.",
     stats: {
       hp: 100,
@@ -20640,7 +20803,8 @@ export const fakemons: Fakemon[] =
     ],
     eggMoves: [
 
-    ]
+    ],
+    suffix: "normal"
   },
   {
     id: "LEDYBA",
@@ -20650,7 +20814,7 @@ export const fakemons: Fakemon[] =
       "FLYING"
     ],
     sprite: "/sprites/LEDYBA.png",
-    artwork: "/artwork/ledyba.png",
+    artwork: "/sprites/LEDYBA.png",
     description: "Ledyba communicate using a fluid that they secrete from where the legs join the body. They are said to convey feelings to others by altering the fluid's scent.",
     stats: {
       hp: 40,
@@ -20753,7 +20917,8 @@ export const fakemons: Fakemon[] =
       "PSYBEAM",
       "SCREECH",
       "TAILWIND"
-    ]
+    ],
+    suffix: "normal"
   },
   {
     id: "LEDIAN",
@@ -20763,7 +20928,7 @@ export const fakemons: Fakemon[] =
       "FLYING"
     ],
     sprite: "/sprites/LEDIAN.png",
-    artwork: "/artwork/ledian.png",
+    artwork: "/sprites/LEDIAN.png",
     description: "It is said that in lands with clean air, where the stars fill the sky, there live many Ledian. For good reason, they use the light of the stars as energy.",
     stats: {
       hp: 55,
@@ -20867,7 +21032,8 @@ export const fakemons: Fakemon[] =
     ],
     eggMoves: [
 
-    ]
+    ],
+    suffix: "normal"
   },
   {
     id: "SPINARAK",
@@ -20877,7 +21043,7 @@ export const fakemons: Fakemon[] =
       "POISON"
     ],
     sprite: "/sprites/SPINARAK.png",
-    artwork: "/artwork/spinarak.png",
+    artwork: "/sprites/SPINARAK.png",
     description: "The web it spins can be considered its second nervous system. It is said that a Spinarak determines its prey by the tiny vibrations it feels through the web.",
     stats: {
       hp: 40,
@@ -20984,7 +21150,8 @@ export const fakemons: Fakemon[] =
       "PSYBEAM",
       "RAGEPOWDER",
       "TOXICSPIKES"
-    ]
+    ],
+    suffix: "normal"
   },
   {
     id: "ARIADOS",
@@ -20994,7 +21161,7 @@ export const fakemons: Fakemon[] =
       "POISON"
     ],
     sprite: "/sprites/ARIADOS.png",
-    artwork: "/artwork/ariados.png",
+    artwork: "/sprites/ARIADOS.png",
     description: "Its feet are tipped with tiny hooked claws that enable it to scuttle on ceilings and vertical walls. It constricts its foe with thin and strong silk webbing.",
     stats: {
       hp: 70,
@@ -21103,7 +21270,8 @@ export const fakemons: Fakemon[] =
     ],
     eggMoves: [
 
-    ]
+    ],
+    suffix: "normal"
   },
   {
     id: "CROBAT",
@@ -21113,7 +21281,7 @@ export const fakemons: Fakemon[] =
       "FLYING"
     ],
     sprite: "/sprites/CROBAT.png",
-    artwork: "/artwork/crobat.png",
+    artwork: "/sprites/CROBAT.png",
     description: "Over the course of evolution, its hind legs turned into wings. By alternately resting its front and rear wings, it can fly all day without having to stop.",
     stats: {
       hp: 85,
@@ -21222,7 +21390,8 @@ export const fakemons: Fakemon[] =
     ],
     eggMoves: [
 
-    ]
+    ],
+    suffix: "normal"
   },
   {
     id: "CHINCHOU",
@@ -21232,7 +21401,7 @@ export const fakemons: Fakemon[] =
       "ELECTRIC"
     ],
     sprite: "/sprites/CHINCHOU.png",
-    artwork: "/artwork/chinchou.png",
+    artwork: "/sprites/CHINCHOU.png",
     description: "When it senses danger, it discharges positive and negative electricity from its two antennae. It lives in depths beyond sunlight's reach.",
     stats: {
       hp: 75,
@@ -21343,7 +21512,8 @@ export const fakemons: Fakemon[] =
       "SUCKERPUNCH",
       "WATERPULSE",
       "WHIRLPOOL"
-    ]
+    ],
+    suffix: "normal"
   },
   {
     id: "LANTURN",
@@ -21353,7 +21523,7 @@ export const fakemons: Fakemon[] =
       "ELECTRIC"
     ],
     sprite: "/sprites/LANTURN.png",
-    artwork: "/artwork/lanturn.png",
+    artwork: "/sprites/LANTURN.png",
     description: "The light-emitting orbs on its back are very bright. They are formed from a part of its dorsal fin. This Pokémon illuminates the inky darkness of deep seas.",
     stats: {
       hp: 125,
@@ -21462,7 +21632,8 @@ export const fakemons: Fakemon[] =
     ],
     eggMoves: [
 
-    ]
+    ],
+    suffix: "normal"
   },
   {
     id: "PICHU",
@@ -21471,7 +21642,7 @@ export const fakemons: Fakemon[] =
       "ELECTRIC"
     ],
     sprite: "/sprites/PICHU.png",
-    artwork: "/artwork/pichu.png",
+    artwork: "/sprites/PICHU.png",
     description: "It is still inept at retaining electricity. When it is startled, it discharges power accidentally. It gets better at holding power as it grows older.",
     stats: {
       hp: 20,
@@ -21574,7 +21745,8 @@ export const fakemons: Fakemon[] =
       "THUNDERPUNCH",
       "TICKLE",
       "WISH"
-    ]
+    ],
+    suffix: "normal"
   },
   {
     id: "CLEFFA",
@@ -21583,7 +21755,7 @@ export const fakemons: Fakemon[] =
       "FAIRY"
     ],
     sprite: "/sprites/CLEFFA.png",
-    artwork: "/artwork/cleffa.png",
+    artwork: "/sprites/CLEFFA.png",
     description: "On nights with many shooting stars, Cleffa can be seen dancing in a ring. They dance until daybreak, when they quench their thirst with the morning dew.",
     stats: {
       hp: 50,
@@ -21716,7 +21888,8 @@ export const fakemons: Fakemon[] =
       "STOREDPOWER",
       "TICKLE",
       "WISH"
-    ]
+    ],
+    suffix: "normal"
   },
   {
     id: "IGGLYBUFF",
@@ -21726,7 +21899,7 @@ export const fakemons: Fakemon[] =
       "FAIRY"
     ],
     sprite: "/sprites/IGGLYBUFF.png",
-    artwork: "/artwork/igglybuff.png",
+    artwork: "/sprites/IGGLYBUFF.png",
     description: "Its soft and pliable body is very bouncy. When it sings continuously with all its might, its body steadily turns a deepening pink color.",
     stats: {
       hp: 90,
@@ -21846,7 +22019,8 @@ export const fakemons: Fakemon[] =
       "PRESENT",
       "ROLLOUT",
       "WISH"
-    ]
+    ],
+    suffix: "normal"
   },
   {
     id: "TOGEPI",
@@ -21855,7 +22029,7 @@ export const fakemons: Fakemon[] =
       "FAIRY"
     ],
     sprite: "/sprites/TOGEPI.png",
-    artwork: "/artwork/togepi.png",
+    artwork: "/sprites/TOGEPI.png",
     description: "As its energy, it uses the feelings of compassion and pleasure exuded by people and Pokémon. It stores up happy feelings in its shell, then shares them out.",
     stats: {
       hp: 35,
@@ -21983,7 +22157,8 @@ export const fakemons: Fakemon[] =
       "PRESENT",
       "PSYCHOSHIFT",
       "STOREDPOWER"
-    ]
+    ],
+    suffix: "normal"
   },
   {
     id: "TOGETIC",
@@ -21993,7 +22168,7 @@ export const fakemons: Fakemon[] =
       "FLYING"
     ],
     sprite: "/sprites/TOGETIC.png",
-    artwork: "/artwork/togetic.png",
+    artwork: "/sprites/TOGETIC.png",
     description: "It is said to be a Pokémon that brings good fortune. When it spots someone who is pure of heart, a Togetic appears and shares its happiness with that person.",
     stats: {
       hp: 55,
@@ -22136,7 +22311,8 @@ export const fakemons: Fakemon[] =
     ],
     eggMoves: [
 
-    ]
+    ],
+    suffix: "normal"
   },
   {
     id: "NATU",
@@ -22146,7 +22322,7 @@ export const fakemons: Fakemon[] =
       "FLYING"
     ],
     sprite: "/sprites/NATU.png",
-    artwork: "/artwork/natu.png",
+    artwork: "/sprites/NATU.png",
     description: "It runs up short trees that grow on the savanna to peck at new shoots. A Natu's eyes look as if they are always observing something.",
     stats: {
       hp: 40,
@@ -22263,7 +22439,8 @@ export const fakemons: Fakemon[] =
       "SIMPLEBEAM",
       "SUCKERPUNCH",
       "ZENHEADBUTT"
-    ]
+    ],
+    suffix: "normal"
   },
   {
     id: "XATU",
@@ -22273,7 +22450,7 @@ export const fakemons: Fakemon[] =
       "FLYING"
     ],
     sprite: "/sprites/XATU.png",
-    artwork: "/artwork/xatu.png",
+    artwork: "/sprites/XATU.png",
     description: "It has the enigmatic power of foreseeing the future. Some people in different lands have long believed that Xatu are emissaries from another world.",
     stats: {
       hp: 65,
@@ -22390,7 +22567,8 @@ export const fakemons: Fakemon[] =
     ],
     eggMoves: [
 
-    ]
+    ],
+    suffix: "normal"
   },
   {
     id: "MAREEP",
@@ -22399,7 +22577,7 @@ export const fakemons: Fakemon[] =
       "ELECTRIC"
     ],
     sprite: "/sprites/MAREEP.png",
-    artwork: "/artwork/mareep.png",
+    artwork: "/sprites/MAREEP.png",
     description: "Its fluffy wool rubs together and builds a static charge. The more energy is charged, the more brightly the lightbulb at the tip of its tail glows.",
     stats: {
       hp: 55,
@@ -22506,7 +22684,8 @@ export const fakemons: Fakemon[] =
       "SANDATTACK",
       "SCREECH",
       "TAKEDOWN"
-    ]
+    ],
+    suffix: "normal"
   },
   {
     id: "FLAAFFY",
@@ -22515,7 +22694,7 @@ export const fakemons: Fakemon[] =
       "ELECTRIC"
     ],
     sprite: "/sprites/FLAAFFY.png",
-    artwork: "/artwork/flaaffy.png",
+    artwork: "/sprites/FLAAFFY.png",
     description: "Its fleece quality changes to generate strong static electricity with a small amount of wool. The bare, slick parts of its hide are shielded against electricity.",
     stats: {
       hp: 70,
@@ -22629,7 +22808,8 @@ export const fakemons: Fakemon[] =
     ],
     eggMoves: [
 
-    ]
+    ],
+    suffix: "normal"
   },
   {
     id: "AMPHAROS",
@@ -22638,7 +22818,7 @@ export const fakemons: Fakemon[] =
       "ELECTRIC"
     ],
     sprite: "/sprites/AMPHAROS.png",
-    artwork: "/artwork/ampharos.png",
+    artwork: "/sprites/AMPHAROS.png",
     description: "It gives off so much light that it can be seen even from space. People in the old days used its light to send signals back and forth with others far away.",
     stats: {
       hp: 90,
@@ -22772,7 +22952,8 @@ export const fakemons: Fakemon[] =
     ],
     eggMoves: [
 
-    ]
+    ],
+    suffix: "normal"
   },
   {
     id: "BELLOSSOM",
@@ -22781,7 +22962,7 @@ export const fakemons: Fakemon[] =
       "GRASS"
     ],
     sprite: "/sprites/BELLOSSOM.png",
-    artwork: "/artwork/bellossom.png",
+    artwork: "/sprites/BELLOSSOM.png",
     description: "Its flower petals deepen in color through exposure to sunlight. When cloudy weather persists, it does a dance that is thought to be a sun-summoning ritual.",
     stats: {
       hp: 75,
@@ -22887,7 +23068,8 @@ export const fakemons: Fakemon[] =
     ],
     eggMoves: [
 
-    ]
+    ],
+    suffix: "normal"
   },
   {
     id: "MARILL",
@@ -22897,7 +23079,7 @@ export const fakemons: Fakemon[] =
       "FAIRY"
     ],
     sprite: "/sprites/MARILL.png",
-    artwork: "/artwork/marill.png",
+    artwork: "/sprites/MARILL.png",
     description: "Its body is covered with water-repellent fur. Because of the fur, it can swim through water at high speed without being slowed by the water's resistance.",
     stats: {
       hp: 70,
@@ -23023,7 +23205,8 @@ export const fakemons: Fakemon[] =
     ],
     eggMoves: [
 
-    ]
+    ],
+    suffix: "normal"
   },
   {
     id: "AZUMARILL",
@@ -23033,7 +23216,7 @@ export const fakemons: Fakemon[] =
       "FAIRY"
     ],
     sprite: "/sprites/AZUMARILL.png",
-    artwork: "/artwork/azumarill.png",
+    artwork: "/sprites/AZUMARILL.png",
     description: "It lives in water virtually all day long. Its body color and pattern act as camouflage that makes it tough for enemies to spot in water.",
     stats: {
       hp: 100,
@@ -23162,7 +23345,8 @@ export const fakemons: Fakemon[] =
     ],
     eggMoves: [
 
-    ]
+    ],
+    suffix: "normal"
   },
   {
     id: "SUDOWOODO",
@@ -23171,7 +23355,7 @@ export const fakemons: Fakemon[] =
       "ROCK"
     ],
     sprite: "/sprites/SUDOWOODO.png",
-    artwork: "/artwork/sudowoodo.png",
+    artwork: "/sprites/SUDOWOODO.png",
     description: "It mimics a tree to avoid being attacked by enemies. But since its forelegs remain green throughout the year, it is easily identified as a fake in the winter.",
     stats: {
       hp: 70,
@@ -23303,7 +23487,8 @@ export const fakemons: Fakemon[] =
     ],
     eggMoves: [
 
-    ]
+    ],
+    suffix: "normal"
   },
   {
     id: "POLITOED",
@@ -23312,7 +23497,7 @@ export const fakemons: Fakemon[] =
       "WATER"
     ],
     sprite: "/sprites/POLITOED.png",
-    artwork: "/artwork/politoed.png",
+    artwork: "/sprites/POLITOED.png",
     description: "The curled hair on its head proves its status as a king. It is said that the longer and curlier the hair, the more respect it earns from its peers.",
     stats: {
       hp: 90,
@@ -23430,7 +23615,8 @@ export const fakemons: Fakemon[] =
     ],
     eggMoves: [
 
-    ]
+    ],
+    suffix: "normal"
   },
   {
     id: "HOPPIP",
@@ -23440,7 +23626,7 @@ export const fakemons: Fakemon[] =
       "FLYING"
     ],
     sprite: "/sprites/HOPPIP.png",
-    artwork: "/artwork/hoppip.png",
+    artwork: "/sprites/HOPPIP.png",
     description: "This Pokémon drifts and floats with the wind. If it senses the approach of strong winds, a Hoppip links leaves with others to prepare against being blown away.",
     stats: {
       hp: 35,
@@ -23554,7 +23740,8 @@ export const fakemons: Fakemon[] =
       "STRENGTHSAP",
       "SWITCHEROO",
       "WORRYSEED"
-    ]
+    ],
+    suffix: "normal"
   },
   {
     id: "SKIPLOOM",
@@ -23564,7 +23751,7 @@ export const fakemons: Fakemon[] =
       "FLYING"
     ],
     sprite: "/sprites/SKIPLOOM.png",
-    artwork: "/artwork/skiploom.png",
+    artwork: "/sprites/SKIPLOOM.png",
     description: "It blossoms when the temperature rises above 64 degrees F. Because its flower's blooming changes with the temperature, it is sometimes used as a thermometer.",
     stats: {
       hp: 55,
@@ -23667,7 +23854,8 @@ export const fakemons: Fakemon[] =
     ],
     eggMoves: [
 
-    ]
+    ],
+    suffix: "normal"
   },
   {
     id: "JUMPLUFF",
@@ -23677,7 +23865,7 @@ export const fakemons: Fakemon[] =
       "FLYING"
     ],
     sprite: "/sprites/JUMPLUFF.png",
-    artwork: "/artwork/jumpluff.png",
+    artwork: "/sprites/JUMPLUFF.png",
     description: "Jumpluff ride warm southern winds to cross the sea and fly to foreign lands. This Pokémon lands when it encounters cold air while it is floating.",
     stats: {
       hp: 75,
@@ -23782,7 +23970,8 @@ export const fakemons: Fakemon[] =
     ],
     eggMoves: [
 
-    ]
+    ],
+    suffix: "normal"
   },
   {
     id: "AIPOM",
@@ -23791,7 +23980,7 @@ export const fakemons: Fakemon[] =
       "NORMAL"
     ],
     sprite: "/sprites/AIPOM.png",
-    artwork: "/artwork/aipom.png",
+    artwork: "/sprites/AIPOM.png",
     description: "Its tail ends with a dexterous, handlike appendage. However, because it uses the tail so much, Aipom's real hands have become rather clumsy.",
     stats: {
       hp: 55,
@@ -23932,7 +24121,8 @@ export const fakemons: Fakemon[] =
       "SLAM",
       "SPITE",
       "SWITCHEROO"
-    ]
+    ],
+    suffix: "normal"
   },
   {
     id: "SUNKERN",
@@ -23941,7 +24131,7 @@ export const fakemons: Fakemon[] =
       "GRASS"
     ],
     sprite: "/sprites/SUNKERN.png",
-    artwork: "/artwork/sunkern.png",
+    artwork: "/sprites/SUNKERN.png",
     description: "Sunkern try to minimize movement to conserve the nutrients they have stored in their bodies for evolution. They will not eat, subsisting only on morning dew.",
     stats: {
       hp: 30,
@@ -24036,7 +24226,8 @@ export const fakemons: Fakemon[] =
       "MORNINGSUN",
       "NATUREPOWER",
       "SWEETSCENT"
-    ]
+    ],
+    suffix: "normal"
   },
   {
     id: "SUNFLORA",
@@ -24045,7 +24236,7 @@ export const fakemons: Fakemon[] =
       "GRASS"
     ],
     sprite: "/sprites/SUNFLORA.png",
-    artwork: "/artwork/sunflora.png",
+    artwork: "/sprites/SUNFLORA.png",
     description: "Sunflora convert solar energy into nutrition. They are highly active in the warm daytime but suddenly stop moving as soon as the sun sets.",
     stats: {
       hp: 75,
@@ -24143,7 +24334,8 @@ export const fakemons: Fakemon[] =
     ],
     eggMoves: [
 
-    ]
+    ],
+    suffix: "normal"
   },
   {
     id: "YANMA",
@@ -24153,7 +24345,7 @@ export const fakemons: Fakemon[] =
       "FLYING"
     ],
     sprite: "/sprites/YANMA.png",
-    artwork: "/artwork/yanma.png",
+    artwork: "/sprites/YANMA.png",
     description: "It can see 360 degrees without moving its eyes. It is a great flier capable of making sudden stops and turning midair to quickly chase down targeted prey.",
     stats: {
       hp: 65,
@@ -24255,7 +24447,8 @@ export const fakemons: Fakemon[] =
       "LEECHLIFE",
       "REVERSAL",
       "WHIRLWIND"
-    ]
+    ],
+    suffix: "normal"
   },
   {
     id: "WOOPER",
@@ -24265,7 +24458,7 @@ export const fakemons: Fakemon[] =
       "GROUND"
     ],
     sprite: "/sprites/WOOPER.png",
-    artwork: "/artwork/wooper.png",
+    artwork: "/sprites/WOOPER.png",
     description: "Wooper usually live in water but come out onto land seeking food occasionally. On land, they coat their bodies with a gooey, toxic film.",
     stats: {
       hp: 55,
@@ -24393,7 +24586,8 @@ export const fakemons: Fakemon[] =
       "SPITUP",
       "STOCKPILE",
       "SWALLOW"
-    ]
+    ],
+    suffix: "normal"
   },
   {
     id: "QUAGSIRE",
@@ -24403,7 +24597,7 @@ export const fakemons: Fakemon[] =
       "GROUND"
     ],
     sprite: "/sprites/QUAGSIRE.png",
-    artwork: "/artwork/quagsire.png",
+    artwork: "/sprites/QUAGSIRE.png",
     description: "A Quagsire hunts by leaving its mouth wide open in water and waiting for its prey to blunder in. Because it doesn't move, it does not get very hungry.",
     stats: {
       hp: 95,
@@ -24536,7 +24730,8 @@ export const fakemons: Fakemon[] =
     ],
     eggMoves: [
 
-    ]
+    ],
+    suffix: "normal"
   },
   {
     id: "ESPEON",
@@ -24545,7 +24740,7 @@ export const fakemons: Fakemon[] =
       "PSYCHIC"
     ],
     sprite: "/sprites/ESPEON.png",
-    artwork: "/artwork/espeon.png",
+    artwork: "/sprites/ESPEON.png",
     description: "An Espeon is extremely loyal to any trainer it considers to be worthy. It is said to have developed precognitive powers to protect its trainer from harm.",
     stats: {
       hp: 65,
@@ -24680,7 +24875,8 @@ export const fakemons: Fakemon[] =
     ],
     eggMoves: [
 
-    ]
+    ],
+    suffix: "normal"
   },
   {
     id: "UMBREON",
@@ -24689,7 +24885,7 @@ export const fakemons: Fakemon[] =
       "DARK"
     ],
     sprite: "/sprites/UMBREON.png",
-    artwork: "/artwork/umbreon.png",
+    artwork: "/sprites/UMBREON.png",
     description: "Umbreon evolved from exposure to the moon's energy pulses. It lurks in darkness and waits for its foes to move. The rings on its body glow when it leaps to attack.",
     stats: {
       hp: 95,
@@ -24821,7 +25017,8 @@ export const fakemons: Fakemon[] =
     ],
     eggMoves: [
 
-    ]
+    ],
+    suffix: "normal"
   },
   {
     id: "MURKROW",
@@ -24831,7 +25028,7 @@ export const fakemons: Fakemon[] =
       "FLYING"
     ],
     sprite: "/sprites/MURKROW.png",
-    artwork: "/artwork/murkrow.png",
+    artwork: "/sprites/MURKROW.png",
     description: "Murkrow were feared as the alleged bearers of ill fortune. It shows strong interest in anything that sparkles. It will even try to steal rings from women.",
     stats: {
       hp: 60,
@@ -24955,7 +25152,8 @@ export const fakemons: Fakemon[] =
       "SKYATTACK",
       "WHIRLWIND",
       "WINGATTACK"
-    ]
+    ],
+    suffix: "normal"
   },
   {
     id: "SLOWKING",
@@ -24965,7 +25163,7 @@ export const fakemons: Fakemon[] =
       "PSYCHIC"
     ],
     sprite: "/sprites/SLOWKING.png",
-    artwork: "/artwork/slowking.png",
+    artwork: "/sprites/SLOWKING.png",
     description: "It undertakes research every day to solve the mysteries of the world. However, it apparently forgets everything if the Shellder on its head comes off.",
     stats: {
       hp: 95,
@@ -25130,7 +25328,8 @@ export const fakemons: Fakemon[] =
     ],
     eggMoves: [
 
-    ]
+    ],
+    suffix: "normal"
   },
   {
     id: "MISDREAVUS",
@@ -25139,7 +25338,7 @@ export const fakemons: Fakemon[] =
       "GHOST"
     ],
     sprite: "/sprites/MISDREAVUS.png",
-    artwork: "/artwork/misdreavus.png",
+    artwork: "/sprites/MISDREAVUS.png",
     description: "A Misdreavus frightens people with a creepy, sobbing cry. It apparently uses its red spheres to absorb the fear of foes as its nutrition.",
     stats: {
       hp: 60,
@@ -25273,7 +25472,8 @@ export const fakemons: Fakemon[] =
       "SPITE",
       "SUCKERPUNCH",
       "WONDERROOM"
-    ]
+    ],
+    suffix: "normal"
   },
   {
     id: "UNOWN",
@@ -25282,7 +25482,7 @@ export const fakemons: Fakemon[] =
       "PSYCHIC"
     ],
     sprite: "/sprites/UNOWN.png",
-    artwork: "/artwork/unown.png",
+    artwork: "/sprites/UNOWN.png",
     description: "This Pokémon is shaped like ancient text characters. Although research is ongoing, it is a mystery as to which came first, the ancient writings or the various Unown.",
     stats: {
       hp: 48,
@@ -25309,7 +25509,8 @@ export const fakemons: Fakemon[] =
     ],
     eggMoves: [
 
-    ]
+    ],
+    suffix: "normal"
   },
   {
     id: "WOBBUFFET",
@@ -25318,7 +25519,7 @@ export const fakemons: Fakemon[] =
       "PSYCHIC"
     ],
     sprite: "/sprites/WOBBUFFET.png",
-    artwork: "/artwork/wobbuffet.png",
+    artwork: "/sprites/WOBBUFFET.png",
     description: "Usually docile, a Wobbuffet strikes back ferociously if its black tail is attacked. It makes its lair in caves where it waits for nightfall.",
     stats: {
       hp: 190,
@@ -25359,7 +25560,8 @@ export const fakemons: Fakemon[] =
     ],
     eggMoves: [
 
-    ]
+    ],
+    suffix: "normal"
   },
   {
     id: "GIRAFARIG",
@@ -25369,7 +25571,7 @@ export const fakemons: Fakemon[] =
       "PSYCHIC"
     ],
     sprite: "/sprites/GIRAFARIG.png",
-    artwork: "/artwork/girafarig.png",
+    artwork: "/sprites/GIRAFARIG.png",
     description: "A Girafarig is an herbivore--it eats grass and tree shoots. While it is eating, its tail makes chewing and swallowing motions as if it were also eating.",
     stats: {
       hp: 70,
@@ -25510,7 +25712,8 @@ export const fakemons: Fakemon[] =
       "TAKEDOWN",
       "UPROAR",
       "WISH"
-    ]
+    ],
+    suffix: "normal"
   },
   {
     id: "PINECO",
@@ -25519,7 +25722,7 @@ export const fakemons: Fakemon[] =
       "BUG"
     ],
     sprite: "/sprites/PINECO.png",
-    artwork: "/artwork/pineco.png",
+    artwork: "/sprites/PINECO.png",
     description: "A Pineco hangs from a tree branch and waits for prey. While eating, if it is disturbed by someone shaking its tree, it falls on the ground and explodes.",
     stats: {
       hp: 50,
@@ -25632,7 +25835,8 @@ export const fakemons: Fakemon[] =
       "SANDTOMB",
       "SWIFT",
       "TOXICSPIKES"
-    ]
+    ],
+    suffix: "normal"
   },
   {
     id: "FORRETRESS",
@@ -25642,7 +25846,7 @@ export const fakemons: Fakemon[] =
       "STEEL"
     ],
     sprite: "/sprites/FORRETRESS.png",
-    artwork: "/artwork/forretress.png",
+    artwork: "/sprites/FORRETRESS.png",
     description: "It keeps itself inside its steel shell. The shell is opened when it is catching prey, but it is so quick that the shell's inside cannot be seen.",
     stats: {
       hp: 75,
@@ -25773,7 +25977,8 @@ export const fakemons: Fakemon[] =
     ],
     eggMoves: [
 
-    ]
+    ],
+    suffix: "normal"
   },
   {
     id: "DUNSPARCE",
@@ -25782,7 +25987,7 @@ export const fakemons: Fakemon[] =
       "NORMAL"
     ],
     sprite: "/sprites/DUNSPARCE.png",
-    artwork: "/artwork/dunsparce.png",
+    artwork: "/sprites/DUNSPARCE.png",
     description: "Its drill-tipped tail is used to burrow into the ground backwards. This Pokémon is known to make its nest in complex shapes deep under the ground.",
     stats: {
       hp: 100,
@@ -25931,7 +26136,8 @@ export const fakemons: Fakemon[] =
       "LASTRESORT",
       "MAGICCOAT",
       "SNORE"
-    ]
+    ],
+    suffix: "normal"
   },
   {
     id: "GLIGAR",
@@ -25941,7 +26147,7 @@ export const fakemons: Fakemon[] =
       "FLYING"
     ],
     sprite: "/sprites/GLIGAR.png",
-    artwork: "/artwork/gligar.png",
+    artwork: "/sprites/GLIGAR.png",
     description: "It glides without making a single sound. It grasps the face of its foe using its hind and large front claws, then stabs with its poison barb.",
     stats: {
       hp: 65,
@@ -26081,7 +26287,8 @@ export const fakemons: Fakemon[] =
       "POWERTRICK",
       "SANDTOMB",
       "WINGATTACK"
-    ]
+    ],
+    suffix: "normal"
   },
   {
     id: "STEELIX",
@@ -26091,7 +26298,7 @@ export const fakemons: Fakemon[] =
       "GROUND"
     ],
     sprite: "/sprites/STEELIX.png",
-    artwork: "/artwork/steelix.png",
+    artwork: "/sprites/STEELIX.png",
     description: "Steelix live even further underground than Onix. This Pokémon is known to dig toward the earth's core, reaching a depth of over six-tenths of a mile underground.",
     stats: {
       hp: 75,
@@ -26227,7 +26434,8 @@ export const fakemons: Fakemon[] =
     ],
     eggMoves: [
 
-    ]
+    ],
+    suffix: "normal"
   },
   {
     id: "SNUBBULL",
@@ -26236,7 +26444,7 @@ export const fakemons: Fakemon[] =
       "FAIRY"
     ],
     sprite: "/sprites/SNUBBULL.png",
-    artwork: "/artwork/snubbull.png",
+    artwork: "/sprites/SNUBBULL.png",
     description: "By baring its fangs and making a scary face, it sends smaller Pokémon scurrying in terror. The Snubbull does seem a little sad at making its foes flee.",
     stats: {
       hp: 60,
@@ -26388,7 +26596,8 @@ export const fakemons: Fakemon[] =
       "RETALIATE",
       "SNORE",
       "THUNDERFANG"
-    ]
+    ],
+    suffix: "normal"
   },
   {
     id: "GRANBULL",
@@ -26397,7 +26606,7 @@ export const fakemons: Fakemon[] =
       "FAIRY"
     ],
     sprite: "/sprites/GRANBULL.png",
-    artwork: "/artwork/granbull.png",
+    artwork: "/sprites/GRANBULL.png",
     description: "It has a particularly well-developed lower jaw. The huge fangs are heavy, causing it to tilt its head. Unless it is startled, it will not try to bite.",
     stats: {
       hp: 90,
@@ -26547,7 +26756,8 @@ export const fakemons: Fakemon[] =
     ],
     eggMoves: [
 
-    ]
+    ],
+    suffix: "normal"
   },
   {
     id: "QWILFISH",
@@ -26557,7 +26767,7 @@ export const fakemons: Fakemon[] =
       "POISON"
     ],
     sprite: "/sprites/QWILFISH.png",
-    artwork: "/artwork/qwilfish.png",
+    artwork: "/sprites/QWILFISH.png",
     description: "A Qwilfish uses the pressure of water it swallows to shoot toxic quills all at once from all over its body. It finds swimming to be somewhat challenging.",
     stats: {
       hp: 65,
@@ -26689,7 +26899,8 @@ export const fakemons: Fakemon[] =
       "SELFDESTRUCT",
       "SUPERSONIC",
       "WATERPULSE"
-    ]
+    ],
+    suffix: "normal"
   },
   {
     id: "SCIZOR",
@@ -26699,7 +26910,7 @@ export const fakemons: Fakemon[] =
       "STEEL"
     ],
     sprite: "/sprites/SCIZOR.png",
-    artwork: "/artwork/scizor.png",
+    artwork: "/sprites/SCIZOR.png",
     description: "A Scizor has a body with the hardness of steel. It is not easily fazed by ordinary sorts of attacks. It flaps its wings to regulate its body temperature.",
     stats: {
       hp: 70,
@@ -26825,7 +27036,8 @@ export const fakemons: Fakemon[] =
     ],
     eggMoves: [
 
-    ]
+    ],
+    suffix: "normal"
   },
   {
     id: "SHUCKLE",
@@ -26835,7 +27047,7 @@ export const fakemons: Fakemon[] =
       "ROCK"
     ],
     sprite: "/sprites/SHUCKLE.png",
-    artwork: "/artwork/shuckle.png",
+    artwork: "/sprites/SHUCKLE.png",
     description: "A Shuckle hides under rocks, keeping its body concealed inside its shell while eating stored berries. The berries mix with its body fluids to become a juice.",
     stats: {
       hp: 20,
@@ -26954,7 +27166,8 @@ export const fakemons: Fakemon[] =
       "SANDTOMB",
       "SWEETSCENT",
       "TOXIC"
-    ]
+    ],
+    suffix: "normal"
   },
   {
     id: "HERACROSS",
@@ -26964,7 +27177,7 @@ export const fakemons: Fakemon[] =
       "FIGHTING"
     ],
     sprite: "/sprites/HERACROSS.png",
-    artwork: "/artwork/heracross.png",
+    artwork: "/sprites/HERACROSS.png",
     description: "They gather in forests seeking the sweet sap of trees. It is completely clad in a steel-hard shell. It is proud of its horn, which it uses to fling foes.",
     stats: {
       hp: 80,
@@ -27096,7 +27309,8 @@ export const fakemons: Fakemon[] =
       "ROCKBLAST",
       "SEISMICTOSS",
       "TAKEDOWN"
-    ]
+    ],
+    suffix: "normal"
   },
   {
     id: "SNEASEL",
@@ -27106,7 +27320,7 @@ export const fakemons: Fakemon[] =
       "ICE"
     ],
     sprite: "/sprites/SNEASEL.png",
-    artwork: "/artwork/sneasel.png",
+    artwork: "/sprites/SNEASEL.png",
     description: "A Sneasel scales trees by punching its hooked claws into the bark. It seeks out unguarded nests and steals eggs for food while the parents are away.",
     stats: {
       hp: 55,
@@ -27245,7 +27459,8 @@ export const fakemons: Fakemon[] =
       "ICICLECRASH",
       "SPITE",
       "THROATCHOP"
-    ]
+    ],
+    suffix: "normal"
   },
   {
     id: "TEDDIURSA",
@@ -27254,7 +27469,7 @@ export const fakemons: Fakemon[] =
       "NORMAL"
     ],
     sprite: "/sprites/TEDDIURSA.png",
-    artwork: "/artwork/teddiursa.png",
+    artwork: "/sprites/TEDDIURSA.png",
     description: "It licks its palms that are sweetened by being soaked in honey. A Teddiursa makes its own honey by blending fruits and pollen collected by Beedrill.",
     stats: {
       hp: 60,
@@ -27388,7 +27603,8 @@ export const fakemons: Fakemon[] =
       "SEISMICTOSS",
       "TAKEDOWN",
       "YAWN"
-    ]
+    ],
+    suffix: "normal"
   },
   {
     id: "URSARING",
@@ -27397,7 +27613,7 @@ export const fakemons: Fakemon[] =
       "NORMAL"
     ],
     sprite: "/sprites/URSARING.png",
-    artwork: "/artwork/ursaring.png",
+    artwork: "/sprites/URSARING.png",
     description: "In forests, it is said that there are many streams and towering trees where an Ursaring gathers food. It walks through its forest collecting food every day.",
     stats: {
       hp: 90,
@@ -27529,7 +27745,8 @@ export const fakemons: Fakemon[] =
     ],
     eggMoves: [
 
-    ]
+    ],
+    suffix: "normal"
   },
   {
     id: "SLUGMA",
@@ -27538,7 +27755,7 @@ export const fakemons: Fakemon[] =
       "FIRE"
     ],
     sprite: "/sprites/SLUGMA.png",
-    artwork: "/artwork/slugma.png",
+    artwork: "/sprites/SLUGMA.png",
     description: "It is a species of Pokémon that lives in volcanic areas. If its body cools, its skin hardens and immobilizes it. To avoid that, it sleeps near magma.",
     stats: {
       hp: 40,
@@ -27650,7 +27867,8 @@ export const fakemons: Fakemon[] =
       "SPITUP",
       "STOCKPILE",
       "SWALLOW"
-    ]
+    ],
+    suffix: "normal"
   },
   {
     id: "MAGCARGO",
@@ -27660,7 +27878,7 @@ export const fakemons: Fakemon[] =
       "ROCK"
     ],
     sprite: "/sprites/MAGCARGO.png",
-    artwork: "/artwork/magcargo.png",
+    artwork: "/sprites/MAGCARGO.png",
     description: "The shell on its back is made of hardened magma. Tens of thousands of years spent living in volcanic craters have turned Magcargo's bodies into magma.",
     stats: {
       hp: 60,
@@ -27773,7 +27991,8 @@ export const fakemons: Fakemon[] =
     ],
     eggMoves: [
 
-    ]
+    ],
+    suffix: "normal"
   },
   {
     id: "SWINUB",
@@ -27783,7 +28002,7 @@ export const fakemons: Fakemon[] =
       "GROUND"
     ],
     sprite: "/sprites/SWINUB.png",
-    artwork: "/artwork/swinub.png",
+    artwork: "/sprites/SWINUB.png",
     description: "It roots for food by rubbing its snout against the ground. Its favorite food is a mushroom that grows under dried grass. It occasionally roots out hot springs.",
     stats: {
       hp: 50,
@@ -27893,7 +28112,8 @@ export const fakemons: Fakemon[] =
       "ICICLESPEAR",
       "MUDSHOT",
       "TAKEDOWN"
-    ]
+    ],
+    suffix: "normal"
   },
   {
     id: "PILOSWINE",
@@ -27903,7 +28123,7 @@ export const fakemons: Fakemon[] =
       "GROUND"
     ],
     sprite: "/sprites/PILOSWINE.png",
-    artwork: "/artwork/piloswine.png",
+    artwork: "/sprites/PILOSWINE.png",
     description: "A Piloswine is covered by a thick coat of long hair for enduring freezing cold. It uses its tusks to dig up food that has been buried under ice.",
     stats: {
       hp: 100,
@@ -28009,7 +28229,8 @@ export const fakemons: Fakemon[] =
     ],
     eggMoves: [
 
-    ]
+    ],
+    suffix: "normal"
   },
   {
     id: "CORSOLA",
@@ -28019,7 +28240,7 @@ export const fakemons: Fakemon[] =
       "ROCK"
     ],
     sprite: "/sprites/CORSOLA.png",
-    artwork: "/artwork/corsola.png",
+    artwork: "/sprites/CORSOLA.png",
     description: "Corsola live in warm southern seas. If the sea becomes polluted, the beautiful coral stalks become discolored and crumble away in tatters.",
     stats: {
       hp: 65,
@@ -28141,7 +28362,8 @@ export const fakemons: Fakemon[] =
       "NATUREPOWER",
       "SCREECH",
       "WATERPULSE"
-    ]
+    ],
+    suffix: "normal"
   },
   {
     id: "REMORAID",
@@ -28150,7 +28372,7 @@ export const fakemons: Fakemon[] =
       "WATER"
     ],
     sprite: "/sprites/REMORAID.png",
-    artwork: "/artwork/remoraid.png",
+    artwork: "/sprites/REMORAID.png",
     description: "A Remoraid uses its abdominal muscles to forcefully expel swallowed water, then shoot down flying prey. When evolution approaches, it travels down rivers.",
     stats: {
       hp: 35,
@@ -28258,7 +28480,8 @@ export const fakemons: Fakemon[] =
       "SUPERSONIC",
       "SWIFT",
       "WATERSPOUT"
-    ]
+    ],
+    suffix: "normal"
   },
   {
     id: "OCTILLERY",
@@ -28267,7 +28490,7 @@ export const fakemons: Fakemon[] =
       "WATER"
     ],
     sprite: "/sprites/OCTILLERY.png",
-    artwork: "/artwork/octillery.png",
+    artwork: "/sprites/OCTILLERY.png",
     description: "It ensnares its foe with its suction- cupped tentacles before delivering the finishing blow. If the foe turns out to be too strong, it spews ink to escape.",
     stats: {
       hp: 75,
@@ -28377,7 +28600,8 @@ export const fakemons: Fakemon[] =
     ],
     eggMoves: [
 
-    ]
+    ],
+    suffix: "normal"
   },
   {
     id: "DELIBIRD",
@@ -28387,7 +28611,7 @@ export const fakemons: Fakemon[] =
       "FLYING"
     ],
     sprite: "/sprites/DELIBIRD.png",
-    artwork: "/artwork/delibird.png",
+    artwork: "/sprites/DELIBIRD.png",
     description: "It carries food bundled up in its tail. There was a famous explorer who managed to scale Mt. Everest thanks to a Delibird sharing its food.",
     stats: {
       hp: 45,
@@ -28511,7 +28735,8 @@ export const fakemons: Fakemon[] =
       "RAPIDSPIN",
       "SPIKES",
       "SPLASH"
-    ]
+    ],
+    suffix: "normal"
   },
   {
     id: "MANTINE",
@@ -28521,7 +28746,7 @@ export const fakemons: Fakemon[] =
       "FLYING"
     ],
     sprite: "/sprites/MANTINE.png",
-    artwork: "/artwork/mantine.png",
+    artwork: "/sprites/MANTINE.png",
     description: "On sunny days, schools of Mantine can be seen elegantly leaping over the waves. It is not bothered by the Remoraid that hitches rides.",
     stats: {
       hp: 85,
@@ -28640,7 +28865,8 @@ export const fakemons: Fakemon[] =
       "TAILWIND",
       "TWISTER",
       "WIDEGUARD"
-    ]
+    ],
+    suffix: "normal"
   },
   {
     id: "SKARMORY",
@@ -28650,7 +28876,7 @@ export const fakemons: Fakemon[] =
       "FLYING"
     ],
     sprite: "/sprites/SKARMORY.png",
-    artwork: "/artwork/skarmory.png",
+    artwork: "/sprites/SKARMORY.png",
     description: "A Pokémon that has a body and wings of steel. People in the past used feathers fallen from Skarmory to make swords and knives.",
     stats: {
       hp: 65,
@@ -28775,7 +29001,8 @@ export const fakemons: Fakemon[] =
       "ROOST",
       "SKYATTACK",
       "WHIRLWIND"
-    ]
+    ],
+    suffix: "normal"
   },
   {
     id: "HOUNDOUR",
@@ -28785,7 +29012,7 @@ export const fakemons: Fakemon[] =
       "FIRE"
     ],
     sprite: "/sprites/HOUNDOUR.png",
-    artwork: "/artwork/houndour.png",
+    artwork: "/sprites/HOUNDOUR.png",
     description: "Houndour communicate with each other using a variety of cries to corner their prey. This Pokémon's remarkable teamwork is simply unparalleled.",
     stats: {
       hp: 45,
@@ -28910,7 +29137,8 @@ export const fakemons: Fakemon[] =
       "SPITE",
       "SUCKERPUNCH",
       "THUNDERFANG"
-    ]
+    ],
+    suffix: "normal"
   },
   {
     id: "HOUNDOOM",
@@ -28920,7 +29148,7 @@ export const fakemons: Fakemon[] =
       "FIRE"
     ],
     sprite: "/sprites/HOUNDOOM.png",
-    artwork: "/artwork/houndoom.png",
+    artwork: "/sprites/HOUNDOOM.png",
     description: "In a Houndoom pack, the one with its horns raked sharply back serves a leadership role. They choose their leader by fighting among themselves.",
     stats: {
       hp: 75,
@@ -29043,7 +29271,8 @@ export const fakemons: Fakemon[] =
     ],
     eggMoves: [
 
-    ]
+    ],
+    suffix: "normal"
   },
   {
     id: "KINGDRA",
@@ -29053,7 +29282,7 @@ export const fakemons: Fakemon[] =
       "DRAGON"
     ],
     sprite: "/sprites/KINGDRA.png",
-    artwork: "/artwork/kingdra.png",
+    artwork: "/sprites/KINGDRA.png",
     description: "It sleeps quietly, deep on the seafloor. When it comes up to the surface, it creates a huge whirlpool that can swallow even ships.",
     stats: {
       hp: 75,
@@ -29158,7 +29387,8 @@ export const fakemons: Fakemon[] =
     ],
     eggMoves: [
 
-    ]
+    ],
+    suffix: "normal"
   },
   {
     id: "PHANPY",
@@ -29167,7 +29397,7 @@ export const fakemons: Fakemon[] =
       "GROUND"
     ],
     sprite: "/sprites/PHANPY.png",
-    artwork: "/artwork/phanpy.png",
+    artwork: "/sprites/PHANPY.png",
     description: "Phanpy's big ears serve as broad fans. When it becomes hot, it flaps the ears busily to cool down. Even the young are very strong.",
     stats: {
       hp: 90,
@@ -29282,7 +29512,8 @@ export const fakemons: Fakemon[] =
       "MUDSLAP",
       "PLAYROUGH",
       "SNORE"
-    ]
+    ],
+    suffix: "normal"
   },
   {
     id: "DONPHAN",
@@ -29291,7 +29522,7 @@ export const fakemons: Fakemon[] =
       "GROUND"
     ],
     sprite: "/sprites/DONPHAN.png",
-    artwork: "/artwork/donphan.png",
+    artwork: "/sprites/DONPHAN.png",
     description: "A Donphan is so strong it can easily haul a dump truck. Its hide has toughened to a rock-hard state. An ordinary sort of attack won't even leave a scratch.",
     stats: {
       hp: 90,
@@ -29415,7 +29646,8 @@ export const fakemons: Fakemon[] =
     ],
     eggMoves: [
 
-    ]
+    ],
+    suffix: "normal"
   },
   {
     id: "PORYGON2",
@@ -29424,7 +29656,7 @@ export const fakemons: Fakemon[] =
       "NORMAL"
     ],
     sprite: "/sprites/PORYGON2.png",
-    artwork: "/artwork/porygon2.png",
+    artwork: "/sprites/PORYGON2.png",
     description: "It was created by humans using the power of science. It has been given artificial intelligence that enables it to learn new gestures and emotions on its own.",
     stats: {
       hp: 85,
@@ -29529,7 +29761,8 @@ export const fakemons: Fakemon[] =
     ],
     eggMoves: [
 
-    ]
+    ],
+    suffix: "normal"
   },
   {
     id: "STANTLER",
@@ -29538,7 +29771,7 @@ export const fakemons: Fakemon[] =
       "NORMAL"
     ],
     sprite: "/sprites/STANTLER.png",
-    artwork: "/artwork/stantler.png",
+    artwork: "/sprites/STANTLER.png",
     description: "Stantler's magnificent antlers were once traded at high prices as works of art. As a result, this Pokémon was hunted close to extinction.",
     stats: {
       hp: 73,
@@ -29665,7 +29898,8 @@ export const fakemons: Fakemon[] =
       "SPITE",
       "THRASH",
       "ZENHEADBUTT"
-    ]
+    ],
+    suffix: "normal"
   },
   {
     id: "SMEARGLE",
@@ -29674,7 +29908,7 @@ export const fakemons: Fakemon[] =
       "NORMAL"
     ],
     sprite: "/sprites/SMEARGLE.png",
-    artwork: "/artwork/smeargle.png",
+    artwork: "/sprites/SMEARGLE.png",
     description: "A Smeargle marks its territory using a fluid that leaks out from the tip of its tail. About 5,000 different marks left by this Pokémon have been found.",
     stats: {
       hp: 55,
@@ -29702,7 +29936,8 @@ export const fakemons: Fakemon[] =
     ],
     eggMoves: [
 
-    ]
+    ],
+    suffix: "normal"
   },
   {
     id: "TYROGUE",
@@ -29711,7 +29946,7 @@ export const fakemons: Fakemon[] =
       "FIGHTING"
     ],
     sprite: "/sprites/TYROGUE.png",
-    artwork: "/artwork/tyrogue.png",
+    artwork: "/sprites/TYROGUE.png",
     description: "Tyrogue become stressed out if they do not get to train every day. When raising this Pokémon, the trainer must establish a regular training schedule.",
     stats: {
       hp: 35,
@@ -29798,7 +30033,8 @@ export const fakemons: Fakemon[] =
       "MINDREADER",
       "RAPIDSPIN",
       "VACUUMWAVE"
-    ]
+    ],
+    suffix: "normal"
   },
   {
     id: "HITMONTOP",
@@ -29807,7 +30043,7 @@ export const fakemons: Fakemon[] =
       "FIGHTING"
     ],
     sprite: "/sprites/HITMONTOP.png",
-    artwork: "/artwork/hitmontop.png",
+    artwork: "/sprites/HITMONTOP.png",
     description: "Its technique of kicking while spinning is a remarkable mix of both offense and defense. Hitmontop travel faster spinning than they do walking.",
     stats: {
       hp: 50,
@@ -29923,7 +30159,8 @@ export const fakemons: Fakemon[] =
     ],
     eggMoves: [
 
-    ]
+    ],
+    suffix: "normal"
   },
   {
     id: "SMOOCHUM",
@@ -29933,7 +30170,7 @@ export const fakemons: Fakemon[] =
       "PSYCHIC"
     ],
     sprite: "/sprites/SMOOCHUM.png",
-    artwork: "/artwork/smoochum.png",
+    artwork: "/sprites/SMOOCHUM.png",
     description: "It actively runs about, but also falls often. Whenever it falls, it will check its reflection on a lake's surface to make sure its face hasn't become dirty.",
     stats: {
       hp: 45,
@@ -30048,7 +30285,8 @@ export const fakemons: Fakemon[] =
       "ICEPUNCH",
       "ROLEPLAY",
       "WISH"
-    ]
+    ],
+    suffix: "normal"
   },
   {
     id: "ELEKID",
@@ -30057,7 +30295,7 @@ export const fakemons: Fakemon[] =
       "ELECTRIC"
     ],
     sprite: "/sprites/ELEKID.png",
-    artwork: "/artwork/elekid.png",
+    artwork: "/sprites/ELEKID.png",
     description: "If it touches metal and discharges the electricity it has stored in its body, an Elekid begins swinging its arms in circles to recharge itself.",
     stats: {
       hp: 45,
@@ -30172,7 +30410,8 @@ export const fakemons: Fakemon[] =
       "FOLLOWME",
       "HAMMERARM",
       "ICEPUNCH"
-    ]
+    ],
+    suffix: "normal"
   },
   {
     id: "MAGBY",
@@ -30181,7 +30420,7 @@ export const fakemons: Fakemon[] =
       "FIRE"
     ],
     sprite: "/sprites/MAGBY.png",
-    artwork: "/artwork/magby.png",
+    artwork: "/sprites/MAGBY.png",
     description: "If a Magby is spouting yellow flames from its mouth, it is in good health. When it is fatigued, black smoke will be mixed in with the flames.",
     stats: {
       hp: 45,
@@ -30295,7 +30534,8 @@ export const fakemons: Fakemon[] =
       "POWERSWAP",
       "SCREECH",
       "THUNDERPUNCH"
-    ]
+    ],
+    suffix: "normal"
   },
   {
     id: "MILTANK",
@@ -30304,7 +30544,7 @@ export const fakemons: Fakemon[] =
       "NORMAL"
     ],
     sprite: "/sprites/MILTANK.png",
-    artwork: "/artwork/miltank.png",
+    artwork: "/sprites/MILTANK.png",
     description: "It gives over five gallons of milk daily. Its sweet milk is enjoyed by children and adults alike. People who can't drink milk turn it into yogurt and eat it instead.",
     stats: {
       hp: 95,
@@ -30434,7 +30674,8 @@ export const fakemons: Fakemon[] =
       "PRESENT",
       "REVERSAL",
       "SEISMICTOSS"
-    ]
+    ],
+    suffix: "normal"
   },
   {
     id: "BLISSEY",
@@ -30443,7 +30684,7 @@ export const fakemons: Fakemon[] =
       "NORMAL"
     ],
     sprite: "/sprites/BLISSEY.png",
-    artwork: "/artwork/blissey.png",
+    artwork: "/sprites/BLISSEY.png",
     description: "If it senses sadness with its fluffy fur, a Blissey will rush over to the sad person, however far away, to share an egg of happiness that brings a smile to any face.",
     stats: {
       hp: 255,
@@ -30601,7 +30842,8 @@ export const fakemons: Fakemon[] =
     ],
     eggMoves: [
 
-    ]
+    ],
+    suffix: "normal"
   },
   {
     id: "RAIKOU",
@@ -30610,7 +30852,7 @@ export const fakemons: Fakemon[] =
       "ELECTRIC"
     ],
     sprite: "/sprites/RAIKOU.png",
-    artwork: "/artwork/raikou.png",
+    artwork: "/sprites/RAIKOU.png",
     description: "Raikou embodies the speed of lightning. Its roars send shock waves shuddering through the air and ground as if lightning bolts were crashing down.",
     stats: {
       hp: 90,
@@ -30723,7 +30965,8 @@ export const fakemons: Fakemon[] =
     ],
     eggMoves: [
 
-    ]
+    ],
+    suffix: "normal"
   },
   {
     id: "ENTEI",
@@ -30732,7 +30975,7 @@ export const fakemons: Fakemon[] =
       "FIRE"
     ],
     sprite: "/sprites/ENTEI.png",
-    artwork: "/artwork/entei.png",
+    artwork: "/sprites/ENTEI.png",
     description: "Entei embodies the passion of magma. It is thought to have been born in the eruption of a volcano. It blasts fire that consumes all that it touches.",
     stats: {
       hp: 115,
@@ -30840,7 +31083,8 @@ export const fakemons: Fakemon[] =
     ],
     eggMoves: [
 
-    ]
+    ],
+    suffix: "normal"
   },
   {
     id: "SUICUNE",
@@ -30849,7 +31093,7 @@ export const fakemons: Fakemon[] =
       "WATER"
     ],
     sprite: "/sprites/SUICUNE.png",
-    artwork: "/artwork/suicune.png",
+    artwork: "/sprites/SUICUNE.png",
     description: "Suicune embodies the compassion of a pure spring of water. It runs across the land with gliding elegance. It has the power to purify dirty water.",
     stats: {
       hp: 100,
@@ -30957,7 +31201,8 @@ export const fakemons: Fakemon[] =
     ],
     eggMoves: [
 
-    ]
+    ],
+    suffix: "normal"
   },
   {
     id: "LARVITAR",
@@ -30967,7 +31212,7 @@ export const fakemons: Fakemon[] =
       "GROUND"
     ],
     sprite: "/sprites/LARVITAR.png",
-    artwork: "/artwork/larvitar.png",
+    artwork: "/sprites/LARVITAR.png",
     description: "A Larvitar is born deep under the ground. It must eat its way through the soil above and reach the surface for it to see its parents' faces.",
     stats: {
       hp: 50,
@@ -31084,7 +31329,8 @@ export const fakemons: Fakemon[] =
       "IRONHEAD",
       "OUTRAGE",
       "STOMP"
-    ]
+    ],
+    suffix: "normal"
   },
   {
     id: "PUPITAR",
@@ -31094,7 +31340,7 @@ export const fakemons: Fakemon[] =
       "GROUND"
     ],
     sprite: "/sprites/PUPITAR.png",
-    artwork: "/artwork/pupitar.png",
+    artwork: "/sprites/PUPITAR.png",
     description: "A Pupitar creates a gas inside its body that it ejects under compression to propel itself like a jet. Its body can withstand a collision with solid steel.",
     stats: {
       hp: 70,
@@ -31207,7 +31453,8 @@ export const fakemons: Fakemon[] =
     ],
     eggMoves: [
 
-    ]
+    ],
+    suffix: "normal"
   },
   {
     id: "TYRANITAR",
@@ -31217,7 +31464,7 @@ export const fakemons: Fakemon[] =
       "DARK"
     ],
     sprite: "/sprites/TYRANITAR.png",
-    artwork: "/artwork/tyranitar.png",
+    artwork: "/sprites/TYRANITAR.png",
     description: "A Tyranitar is so overwhelmingly powerful, it can bring down a whole mountain to make its nest. It roams in mountains seeking new opponents to fight.",
     stats: {
       hp: 100,
@@ -31385,7 +31632,8 @@ export const fakemons: Fakemon[] =
     ],
     eggMoves: [
 
-    ]
+    ],
+    suffix: "normal"
   },
   {
     id: "LUGIA",
@@ -31395,7 +31643,7 @@ export const fakemons: Fakemon[] =
       "FLYING"
     ],
     sprite: "/sprites/LUGIA.png",
-    artwork: "/artwork/lugia.png",
+    artwork: "/sprites/LUGIA.png",
     description: "Lugia is so powerful even a light fluttering of its wings can blow apart houses. As a result, it chooses to live out of sight deep under the sea.",
     stats: {
       hp: 106,
@@ -31534,7 +31782,8 @@ export const fakemons: Fakemon[] =
     ],
     eggMoves: [
 
-    ]
+    ],
+    suffix: "normal"
   },
   {
     id: "HOOH",
@@ -31544,7 +31793,7 @@ export const fakemons: Fakemon[] =
       "FLYING"
     ],
     sprite: "/sprites/HOOH.png",
-    artwork: "/artwork/hooh.png",
+    artwork: "/sprites/HOOH.png",
     description: "Its feathers--which glow in seven colors depending on the angle at which light strikes them--are thought to bring joy. It is said to live at the foot of a rainbow.",
     stats: {
       hp: 106,
@@ -31668,7 +31917,8 @@ export const fakemons: Fakemon[] =
     ],
     eggMoves: [
 
-    ]
+    ],
+    suffix: "normal"
   },
   {
     id: "CELEBI",
@@ -31678,7 +31928,7 @@ export const fakemons: Fakemon[] =
       "GRASS"
     ],
     sprite: "/sprites/CELEBI.png",
-    artwork: "/artwork/celebi.png",
+    artwork: "/sprites/CELEBI.png",
     description: "This Pokémon came from the future by crossing over time. It is thought that so long as Celebi appears, a bright and shining future awaits us.",
     stats: {
       hp: 100,
@@ -31807,7 +32057,8 @@ export const fakemons: Fakemon[] =
     ],
     eggMoves: [
 
-    ]
+    ],
+    suffix: "normal"
   },
   {
     id: "TREECKO",
@@ -31816,7 +32067,7 @@ export const fakemons: Fakemon[] =
       "GRASS"
     ],
     sprite: "/sprites/TREECKO.png",
-    artwork: "/artwork/treecko.png",
+    artwork: "/sprites/TREECKO.png",
     description: "It makes its nest in a giant tree in the forest. It ferociously guards against anything nearing its territory. It is said to be the protector of the trees.",
     stats: {
       hp: 40,
@@ -31943,7 +32194,8 @@ export const fakemons: Fakemon[] =
       "SLASH",
       "SYNTHESIS",
       "WORRYSEED"
-    ]
+    ],
+    suffix: "normal"
   },
   {
     id: "GROVYLE",
@@ -31952,7 +32204,7 @@ export const fakemons: Fakemon[] =
       "GRASS"
     ],
     sprite: "/sprites/GROVYLE.png",
-    artwork: "/artwork/grovyle.png",
+    artwork: "/sprites/GROVYLE.png",
     description: "Leaves grow out of this Pokémon's body. They help obscure a Grovyle from the eyes of its enemies while it is in a thickly overgrown forest.",
     stats: {
       hp: 50,
@@ -32076,7 +32328,8 @@ export const fakemons: Fakemon[] =
     ],
     eggMoves: [
 
-    ]
+    ],
+    suffix: "normal"
   },
   {
     id: "SCEPTILE",
@@ -32085,7 +32338,7 @@ export const fakemons: Fakemon[] =
       "GRASS"
     ],
     sprite: "/sprites/SCEPTILE.png",
-    artwork: "/artwork/sceptile.png",
+    artwork: "/sprites/SCEPTILE.png",
     description: "In the jungle, its power is without equal. This Pokémon carefully grows trees and plants. It regulates its body temperature by basking in sunlight.",
     stats: {
       hp: 70,
@@ -32233,7 +32486,8 @@ export const fakemons: Fakemon[] =
     ],
     eggMoves: [
 
-    ]
+    ],
+    suffix: "normal"
   },
   {
     id: "TORCHIC",
@@ -32242,7 +32496,7 @@ export const fakemons: Fakemon[] =
       "FIRE"
     ],
     sprite: "/sprites/TORCHIC.png",
-    artwork: "/artwork/torchic.png",
+    artwork: "/sprites/TORCHIC.png",
     description: "If attacked, it strikes back by spitting balls of fire it forms in its stomach. A Torchic dislikes darkness because it can't see its surroundings.",
     stats: {
       hp: 45,
@@ -32358,7 +32612,8 @@ export const fakemons: Fakemon[] =
       "NIGHTSLASH",
       "PECK",
       "REVERSAL"
-    ]
+    ],
+    suffix: "normal"
   },
   {
     id: "COMBUSKEN",
@@ -32368,7 +32623,7 @@ export const fakemons: Fakemon[] =
       "FIGHTING"
     ],
     sprite: "/sprites/COMBUSKEN.png",
-    artwork: "/artwork/combusken.png",
+    artwork: "/sprites/COMBUSKEN.png",
     description: "It lashes out with 10 kicks per second. Its strong fighting instinct compels it to keep up its offensive until the opponent gives up.",
     stats: {
       hp: 60,
@@ -32495,7 +32750,8 @@ export const fakemons: Fakemon[] =
     ],
     eggMoves: [
 
-    ]
+    ],
+    suffix: "normal"
   },
   {
     id: "BLAZIKEN",
@@ -32505,7 +32761,7 @@ export const fakemons: Fakemon[] =
       "FIGHTING"
     ],
     sprite: "/sprites/BLAZIKEN.png",
-    artwork: "/artwork/blaziken.png",
+    artwork: "/sprites/BLAZIKEN.png",
     description: "It learns martial arts that use punches and kicks. Every several years, its old feathers burn off, and new, supple feathers grow back in their place.",
     stats: {
       hp: 80,
@@ -32655,7 +32911,8 @@ export const fakemons: Fakemon[] =
     ],
     eggMoves: [
 
-    ]
+    ],
+    suffix: "normal"
   },
   {
     id: "MUDKIP",
@@ -32664,7 +32921,7 @@ export const fakemons: Fakemon[] =
       "WATER"
     ],
     sprite: "/sprites/MUDKIP.png",
-    artwork: "/artwork/mudkip.png",
+    artwork: "/sprites/MUDKIP.png",
     description: "On land, it can powerfully lift large boulders by planting its four feet and heaving. It sleeps by burying itself in soil at the water's edge.",
     stats: {
       hp: 50,
@@ -32779,7 +33036,8 @@ export const fakemons: Fakemon[] =
       "WHIRLPOOL",
       "WIDEGUARD",
       "YAWN"
-    ]
+    ],
+    suffix: "normal"
   },
   {
     id: "MARSHTOMP",
@@ -32789,7 +33047,7 @@ export const fakemons: Fakemon[] =
       "GROUND"
     ],
     sprite: "/sprites/MARSHTOMP.png",
-    artwork: "/artwork/marshtomp.png",
+    artwork: "/sprites/MARSHTOMP.png",
     description: "Its toughened hind legs enable it to stand upright. Because it weakens if its skin dries out, it replenishes fluids by playing in mud.",
     stats: {
       hp: 70,
@@ -32908,7 +33166,8 @@ export const fakemons: Fakemon[] =
     ],
     eggMoves: [
 
-    ]
+    ],
+    suffix: "normal"
   },
   {
     id: "SWAMPERT",
@@ -32918,7 +33177,7 @@ export const fakemons: Fakemon[] =
       "GROUND"
     ],
     sprite: "/sprites/SWAMPERT.png",
-    artwork: "/artwork/swampert.png",
+    artwork: "/sprites/SWAMPERT.png",
     description: "If it senses the approach of a storm and a tidal wave, it protects its seaside nest by piling up boulders. It swims as fast as a jet ski.",
     stats: {
       hp: 100,
@@ -33059,7 +33318,8 @@ export const fakemons: Fakemon[] =
     ],
     eggMoves: [
 
-    ]
+    ],
+    suffix: "normal"
   },
   {
     id: "POOCHYENA",
@@ -33068,7 +33328,7 @@ export const fakemons: Fakemon[] =
       "DARK"
     ],
     sprite: "/sprites/POOCHYENA.png",
-    artwork: "/artwork/poochyena.png",
+    artwork: "/sprites/POOCHYENA.png",
     description: "It savagely threatens foes with bared fangs. It chases after fleeing targets tenaciously. It turns tail and runs, however, if the foe strikes back.",
     stats: {
       hp: 35,
@@ -33180,7 +33440,8 @@ export const fakemons: Fakemon[] =
       "SUCKERPUNCH",
       "THUNDERFANG",
       "YAWN"
-    ]
+    ],
+    suffix: "normal"
   },
   {
     id: "MIGHTYENA",
@@ -33189,7 +33450,7 @@ export const fakemons: Fakemon[] =
       "DARK"
     ],
     sprite: "/sprites/MIGHTYENA.png",
-    artwork: "/artwork/mightyena.png",
+    artwork: "/sprites/MIGHTYENA.png",
     description: "In the wild, Mightyena live in a pack. They never defy their leader's orders. They defeat foes with perfectly coordinated teamwork.",
     stats: {
       hp: 70,
@@ -33303,7 +33564,8 @@ export const fakemons: Fakemon[] =
     ],
     eggMoves: [
 
-    ]
+    ],
+    suffix: "normal"
   },
   {
     id: "ZIGZAGOON",
@@ -33312,7 +33574,7 @@ export const fakemons: Fakemon[] =
       "NORMAL"
     ],
     sprite: "/sprites/ZIGZAGOON.png",
-    artwork: "/artwork/zigzagoon.png",
+    artwork: "/sprites/ZIGZAGOON.png",
     description: "Rubbing its nose against the ground, it always wanders about back and forth in search of something. It is distinguished by the zigzag footprints it leaves.",
     stats: {
       hp: 38,
@@ -33423,7 +33685,8 @@ export const fakemons: Fakemon[] =
       "SIMPLEBEAM",
       "TICKLE",
       "TRICK"
-    ]
+    ],
+    suffix: "normal"
   },
   {
     id: "LINOONE",
@@ -33432,7 +33695,7 @@ export const fakemons: Fakemon[] =
       "NORMAL"
     ],
     sprite: "/sprites/LINOONE.png",
-    artwork: "/artwork/linoone.png",
+    artwork: "/sprites/LINOONE.png",
     description: "It is exceedingly fast if it only has to run in a straight line. When it spots pond- dwelling prey underwater, it quickly leaps in and catches it with its sharp claws.",
     stats: {
       hp: 78,
@@ -33549,7 +33812,8 @@ export const fakemons: Fakemon[] =
     ],
     eggMoves: [
 
-    ]
+    ],
+    suffix: "normal"
   },
   {
     id: "WURMPLE",
@@ -33558,7 +33822,7 @@ export const fakemons: Fakemon[] =
       "BUG"
     ],
     sprite: "/sprites/WURMPLE.png",
-    artwork: "/artwork/wurmple.png",
+    artwork: "/sprites/WURMPLE.png",
     description: "It sticks to tree branches and eats leaves. The thread it spits from its mouth becomes gooey when it touches air and slows the movement of its foes.",
     stats: {
       hp: 45,
@@ -33591,7 +33855,8 @@ export const fakemons: Fakemon[] =
     ],
     eggMoves: [
 
-    ]
+    ],
+    suffix: "normal"
   },
   {
     id: "SILCOON",
@@ -33600,7 +33865,7 @@ export const fakemons: Fakemon[] =
       "BUG"
     ],
     sprite: "/sprites/SILCOON.png",
-    artwork: "/artwork/silcoon.png",
+    artwork: "/sprites/SILCOON.png",
     description: "It prepares for evolution using the energy it stored while it was a Wurmple. It keeps watch over the surroundings with its two eyes.",
     stats: {
       hp: 50,
@@ -33630,7 +33895,8 @@ export const fakemons: Fakemon[] =
     ],
     eggMoves: [
 
-    ]
+    ],
+    suffix: "normal"
   },
   {
     id: "BEAUTIFLY",
@@ -33640,7 +33906,7 @@ export const fakemons: Fakemon[] =
       "FLYING"
     ],
     sprite: "/sprites/BEAUTIFLY.png",
-    artwork: "/artwork/beautifly.png",
+    artwork: "/sprites/BEAUTIFLY.png",
     description: "Its colorfully patterned wings are its most prominent feature. It flies through flower-covered fields collecting pollen. It attacks ferociously when angered.",
     stats: {
       hp: 60,
@@ -33734,7 +34000,8 @@ export const fakemons: Fakemon[] =
     ],
     eggMoves: [
 
-    ]
+    ],
+    suffix: "normal"
   },
   {
     id: "CASCOON",
@@ -33743,7 +34010,7 @@ export const fakemons: Fakemon[] =
       "BUG"
     ],
     sprite: "/sprites/CASCOON.png",
-    artwork: "/artwork/cascoon.png",
+    artwork: "/sprites/CASCOON.png",
     description: "To avoid detection by its enemies, it hides motionlessly beneath large leaves and in the gaps of branches. It also attaches dead leaves to its body for camouflage.",
     stats: {
       hp: 50,
@@ -33773,7 +34040,8 @@ export const fakemons: Fakemon[] =
     ],
     eggMoves: [
 
-    ]
+    ],
+    suffix: "normal"
   },
   {
     id: "DUSTOX",
@@ -33783,7 +34051,7 @@ export const fakemons: Fakemon[] =
       "POISON"
     ],
     sprite: "/sprites/DUSTOX.png",
-    artwork: "/artwork/dustox.png",
+    artwork: "/sprites/DUSTOX.png",
     description: "It is a nocturnal Pokémon that flies from fields and mountains to the attraction of streetlights at night. It looses highly toxic powder from its wings.",
     stats: {
       hp: 60,
@@ -33879,7 +34147,8 @@ export const fakemons: Fakemon[] =
     ],
     eggMoves: [
 
-    ]
+    ],
+    suffix: "normal"
   },
   {
     id: "LOTAD",
@@ -33889,7 +34158,7 @@ export const fakemons: Fakemon[] =
       "GRASS"
     ],
     sprite: "/sprites/LOTAD.png",
-    artwork: "/artwork/lotad.png",
+    artwork: "/sprites/LOTAD.png",
     description: "This Pokémon lives in ponds with clean water. It is known to ferry small Pokémon across ponds by carrying them on the broad leaf on its head.",
     stats: {
       hp: 40,
@@ -33990,7 +34259,8 @@ export const fakemons: Fakemon[] =
       "TEETERDANCE",
       "TICKLE",
       "WATERGUN"
-    ]
+    ],
+    suffix: "normal"
   },
   {
     id: "LOMBRE",
@@ -34000,7 +34270,7 @@ export const fakemons: Fakemon[] =
       "GRASS"
     ],
     sprite: "/sprites/LOMBRE.png",
-    artwork: "/artwork/lombre.png",
+    artwork: "/sprites/LOMBRE.png",
     description: "In the evening, it takes great delight in popping out of rivers and startling people. It feeds on aquatic moss that grows on rocks in the riverbed.",
     stats: {
       hp: 60,
@@ -34118,7 +34388,8 @@ export const fakemons: Fakemon[] =
     ],
     eggMoves: [
 
-    ]
+    ],
+    suffix: "normal"
   },
   {
     id: "LUDICOLO",
@@ -34128,7 +34399,7 @@ export const fakemons: Fakemon[] =
       "GRASS"
     ],
     sprite: "/sprites/LUDICOLO.png",
-    artwork: "/artwork/ludicolo.png",
+    artwork: "/sprites/LUDICOLO.png",
     description: "When it hears festive music, all the cells in its body become stimulated, and it begins moving in rhythm. It does not quail even when it faces a tough opponent.",
     stats: {
       hp: 80,
@@ -34256,7 +34527,8 @@ export const fakemons: Fakemon[] =
     ],
     eggMoves: [
 
-    ]
+    ],
+    suffix: "normal"
   },
   {
     id: "SEEDOT",
@@ -34265,7 +34537,7 @@ export const fakemons: Fakemon[] =
       "GRASS"
     ],
     sprite: "/sprites/SEEDOT.png",
-    artwork: "/artwork/seedot.png",
+    artwork: "/sprites/SEEDOT.png",
     description: "It hangs off branches and absorbs nutrients. When it finishes eating, its body becomes so heavy that it drops to the ground with a thump.",
     stats: {
       hp: 40,
@@ -34373,7 +34645,8 @@ export const fakemons: Fakemon[] =
       "QUICKATTACK",
       "TAKEDOWN",
       "WORRYSEED"
-    ]
+    ],
+    suffix: "normal"
   },
   {
     id: "NUZLEAF",
@@ -34383,7 +34656,7 @@ export const fakemons: Fakemon[] =
       "DARK"
     ],
     sprite: "/sprites/NUZLEAF.png",
-    artwork: "/artwork/nuzleaf.png",
+    artwork: "/sprites/NUZLEAF.png",
     description: "A forest-dwelling Pokémon that is skilled at climbing trees. Its long and pointed nose is its weak point. It loses power if the nose is gripped.",
     stats: {
       hp: 70,
@@ -34516,7 +34789,8 @@ export const fakemons: Fakemon[] =
     ],
     eggMoves: [
 
-    ]
+    ],
+    suffix: "normal"
   },
   {
     id: "SHIFTRY",
@@ -34526,7 +34800,7 @@ export const fakemons: Fakemon[] =
       "DARK"
     ],
     sprite: "/sprites/SHIFTRY.png",
-    artwork: "/artwork/shiftry.png",
+    artwork: "/sprites/SHIFTRY.png",
     description: "It is said to arrive on chilly, wintry winds. Feared from long ago as the guardian of forests, this Pokémon lives in a deep forest where people do not venture.",
     stats: {
       hp: 90,
@@ -34692,7 +34966,8 @@ export const fakemons: Fakemon[] =
     ],
     eggMoves: [
 
-    ]
+    ],
+    suffix: "normal"
   },
   {
     id: "TAILLOW",
@@ -34702,7 +34977,7 @@ export const fakemons: Fakemon[] =
       "FLYING"
     ],
     sprite: "/sprites/TAILLOW.png",
-    artwork: "/artwork/taillow.png",
+    artwork: "/sprites/TAILLOW.png",
     description: "Although it is small, it is very courageous. It will take on a larger Skarmory on an equal footing. However, its will weakens if it becomes hungry.",
     stats: {
       hp: 40,
@@ -34787,7 +35062,8 @@ export const fakemons: Fakemon[] =
       "SKYATTACK",
       "SUPERSONIC",
       "WHIRLWIND"
-    ]
+    ],
+    suffix: "normal"
   },
   {
     id: "SWELLOW",
@@ -34797,7 +35073,7 @@ export const fakemons: Fakemon[] =
       "FLYING"
     ],
     sprite: "/sprites/SWELLOW.png",
-    artwork: "/artwork/swellow.png",
+    artwork: "/sprites/SWELLOW.png",
     description: "A Swellow dives upon prey from far above. It never misses its targets. It takes to the skies in search of lands with a warm climate.",
     stats: {
       hp: 60,
@@ -34885,7 +35161,8 @@ export const fakemons: Fakemon[] =
     ],
     eggMoves: [
 
-    ]
+    ],
+    suffix: "normal"
   },
   {
     id: "WINGULL",
@@ -34895,7 +35172,7 @@ export const fakemons: Fakemon[] =
       "FLYING"
     ],
     sprite: "/sprites/WINGULL.png",
-    artwork: "/artwork/wingull.png",
+    artwork: "/sprites/WINGULL.png",
     description: "It makes its nest on a sheer cliff at the edge of the sea. It has trouble keeping its wings flapping in flight. Instead, it soars on updrafts.",
     stats: {
       hp: 40,
@@ -35002,7 +35279,8 @@ export const fakemons: Fakemon[] =
       "SOAK",
       "TWISTER",
       "WIDEGUARD"
-    ]
+    ],
+    suffix: "normal"
   },
   {
     id: "PELIPPER",
@@ -35012,7 +35290,7 @@ export const fakemons: Fakemon[] =
       "FLYING"
     ],
     sprite: "/sprites/PELIPPER.png",
-    artwork: "/artwork/pelipper.png",
+    artwork: "/sprites/PELIPPER.png",
     description: "It skims the tops of waves as it flies. When it spots prey, it uses its large beak to scoop up the victim with water. It protects its eggs in its beak.",
     stats: {
       hp: 60,
@@ -35127,7 +35405,8 @@ export const fakemons: Fakemon[] =
     ],
     eggMoves: [
 
-    ]
+    ],
+    suffix: "normal"
   },
   {
     id: "RALTS",
@@ -35137,7 +35416,7 @@ export const fakemons: Fakemon[] =
       "FAIRY"
     ],
     sprite: "/sprites/RALTS.png",
-    artwork: "/artwork/ralts.png",
+    artwork: "/sprites/RALTS.png",
     description: "A Ralts has the power to sense the emotions of people and Pokémon with the horns on its head. It takes cover if it senses any hostility.",
     stats: {
       hp: 28,
@@ -35273,7 +35552,8 @@ export const fakemons: Fakemon[] =
       "MISTYTERRAIN",
       "MYSTICALFIRE",
       "SHADOWSNEAK"
-    ]
+    ],
+    suffix: "normal"
   },
   {
     id: "KIRLIA",
@@ -35283,7 +35563,7 @@ export const fakemons: Fakemon[] =
       "FAIRY"
     ],
     sprite: "/sprites/KIRLIA.png",
-    artwork: "/artwork/kirlia.png",
+    artwork: "/sprites/KIRLIA.png",
     description: "A Kirlia has the psychic power to create a rip in the dimensions and see into the future. It is said to dance with pleasure on sunny mornings.",
     stats: {
       hp: 38,
@@ -35411,7 +35691,8 @@ export const fakemons: Fakemon[] =
     ],
     eggMoves: [
 
-    ]
+    ],
+    suffix: "normal"
   },
   {
     id: "GARDEVOIR",
@@ -35421,7 +35702,7 @@ export const fakemons: Fakemon[] =
       "FAIRY"
     ],
     sprite: "/sprites/GARDEVOIR.png",
-    artwork: "/artwork/gardevoir.png",
+    artwork: "/sprites/GARDEVOIR.png",
     description: "It apparently does not feel the pull of gravity because it supports itself with psychic power. It will give its life to protect its trainer.",
     stats: {
       hp: 68,
@@ -35569,7 +35850,8 @@ export const fakemons: Fakemon[] =
     ],
     eggMoves: [
 
-    ]
+    ],
+    suffix: "normal"
   },
   {
     id: "SURSKIT",
@@ -35579,7 +35861,7 @@ export const fakemons: Fakemon[] =
       "WATER"
     ],
     sprite: "/sprites/SURSKIT.png",
-    artwork: "/artwork/surskit.png",
+    artwork: "/sprites/SURSKIT.png",
     description: "They gather on puddles after evening downpours, gliding across the surface of water as if sliding. It secretes honey with a sweet aroma from its head.",
     stats: {
       hp: 40,
@@ -35678,7 +35960,8 @@ export const fakemons: Fakemon[] =
       "MUDSHOT",
       "POWERSPLIT",
       "PSYBEAM"
-    ]
+    ],
+    suffix: "normal"
   },
   {
     id: "MASQUERAIN",
@@ -35688,7 +35971,7 @@ export const fakemons: Fakemon[] =
       "FLYING"
     ],
     sprite: "/sprites/MASQUERAIN.png",
-    artwork: "/artwork/masquerain.png",
+    artwork: "/sprites/MASQUERAIN.png",
     description: "It intimidates foes with the large eyelike patterns on its antennae. Because it can't fly if its wings get wet, it shelters from rain under large trees and eaves.",
     stats: {
       hp: 70,
@@ -35801,7 +36084,8 @@ export const fakemons: Fakemon[] =
     ],
     eggMoves: [
 
-    ]
+    ],
+    suffix: "normal"
   },
   {
     id: "SHROOMISH",
@@ -35810,7 +36094,7 @@ export const fakemons: Fakemon[] =
       "GRASS"
     ],
     sprite: "/sprites/SHROOMISH.png",
-    artwork: "/artwork/shroomish.png",
+    artwork: "/sprites/SHROOMISH.png",
     description: "It loves to eat damp, composted soil in forests. If you enter a forest after a long rain, you can see many Shroomish feasting on composted soil.",
     stats: {
       hp: 60,
@@ -35902,7 +36186,8 @@ export const fakemons: Fakemon[] =
       "HELPINGHAND",
       "SEEDBOMB",
       "WORRYSEED"
-    ]
+    ],
+    suffix: "normal"
   },
   {
     id: "BRELOOM",
@@ -35912,7 +36197,7 @@ export const fakemons: Fakemon[] =
       "FIGHTING"
     ],
     sprite: "/sprites/BRELOOM.png",
-    artwork: "/artwork/breloom.png",
+    artwork: "/sprites/BRELOOM.png",
     description: "It scatters spores from holes in the cap on its head. It loves warm and humid climates. It feeds on trees and plants in fields and forests.",
     stats: {
       hp: 60,
@@ -36045,7 +36330,8 @@ export const fakemons: Fakemon[] =
     ],
     eggMoves: [
 
-    ]
+    ],
+    suffix: "normal"
   },
   {
     id: "SLAKOTH",
@@ -36054,7 +36340,7 @@ export const fakemons: Fakemon[] =
       "NORMAL"
     ],
     sprite: "/sprites/SLAKOTH.png",
-    artwork: "/artwork/slakoth.png",
+    artwork: "/sprites/SLAKOTH.png",
     description: "It sleeps virtually all day and night long. It doesn't change its nest its entire life, but it sometimes travels great distances by swimming in rivers.",
     stats: {
       hp: 60,
@@ -36179,7 +36465,8 @@ export const fakemons: Fakemon[] =
       "SLASH",
       "SNORE",
       "TICKLE"
-    ]
+    ],
+    suffix: "normal"
   },
   {
     id: "VIGOROTH",
@@ -36188,7 +36475,7 @@ export const fakemons: Fakemon[] =
       "NORMAL"
     ],
     sprite: "/sprites/VIGOROTH.png",
-    artwork: "/artwork/vigoroth.png",
+    artwork: "/sprites/VIGOROTH.png",
     description: "It can't keep still because its blood boils with energy. It runs through the fields and mountains all day to calm itself. If it doesn't, it can't sleep at night.",
     stats: {
       hp: 80,
@@ -36327,7 +36614,8 @@ export const fakemons: Fakemon[] =
     ],
     eggMoves: [
 
-    ]
+    ],
+    suffix: "normal"
   },
   {
     id: "SLAKING",
@@ -36336,7 +36624,7 @@ export const fakemons: Fakemon[] =
       "NORMAL"
     ],
     sprite: "/sprites/SLAKING.png",
-    artwork: "/artwork/slaking.png",
+    artwork: "/sprites/SLAKING.png",
     description: "Hordes of Slaking gather around trees when fruits come into season. They wait around patiently for ripened fruits to fall out of the trees.",
     stats: {
       hp: 150,
@@ -36489,7 +36777,8 @@ export const fakemons: Fakemon[] =
     ],
     eggMoves: [
 
-    ]
+    ],
+    suffix: "normal"
   },
   {
     id: "NINCADA",
@@ -36499,7 +36788,7 @@ export const fakemons: Fakemon[] =
       "GROUND"
     ],
     sprite: "/sprites/NINCADA.png",
-    artwork: "/artwork/nincada.png",
+    artwork: "/sprites/NINCADA.png",
     description: "It makes its nest at the roots of a mighty tree. Using its whiskerlike antennae, it probes its surroundings in the pitch-black darkness of soil.",
     stats: {
       hp: 31,
@@ -36577,7 +36866,8 @@ export const fakemons: Fakemon[] =
       "FLAIL",
       "GUST",
       "NIGHTSLASH"
-    ]
+    ],
+    suffix: "normal"
   },
   {
     id: "NINJASK",
@@ -36587,7 +36877,7 @@ export const fakemons: Fakemon[] =
       "FLYING"
     ],
     sprite: "/sprites/NINJASK.png",
-    artwork: "/artwork/ninjask.png",
+    artwork: "/sprites/NINJASK.png",
     description: "Because it darts about vigorously at high speed, it is very difficult to see. Hearing its distinctive cries for too long induces a headache.",
     stats: {
       hp: 61,
@@ -36690,7 +36980,8 @@ export const fakemons: Fakemon[] =
     ],
     eggMoves: [
 
-    ]
+    ],
+    suffix: "normal"
   },
   {
     id: "SHEDINJA",
@@ -36700,7 +36991,7 @@ export const fakemons: Fakemon[] =
       "GHOST"
     ],
     sprite: "/sprites/SHEDINJA.png",
-    artwork: "/artwork/shedinja.png",
+    artwork: "/sprites/SHEDINJA.png",
     description: "A peculiar Pokémon that floats in air even though its wings remain completely still. The inside of its body is hollow and utterly dark.",
     stats: {
       hp: 1,
@@ -36795,7 +37086,8 @@ export const fakemons: Fakemon[] =
     ],
     eggMoves: [
 
-    ]
+    ],
+    suffix: "normal"
   },
   {
     id: "WHISMUR",
@@ -36804,7 +37096,7 @@ export const fakemons: Fakemon[] =
       "NORMAL"
     ],
     sprite: "/sprites/WHISMUR.png",
-    artwork: "/artwork/whismur.png",
+    artwork: "/sprites/WHISMUR.png",
     description: "Its cries equal a jet plane in volume. It inhales through its ear canals. Because of this system, it can cry continually without having to catch its breath.",
     stats: {
       hp: 64,
@@ -36906,7 +37198,8 @@ export const fakemons: Fakemon[] =
       "SNORE",
       "TAKEDOWN",
       "WHIRLWIND"
-    ]
+    ],
+    suffix: "normal"
   },
   {
     id: "LOUDRED",
@@ -36915,7 +37208,7 @@ export const fakemons: Fakemon[] =
       "NORMAL"
     ],
     sprite: "/sprites/LOUDRED.png",
-    artwork: "/artwork/loudred.png",
+    artwork: "/sprites/LOUDRED.png",
     description: "It positions the round speakers on its head to assail foes with ultrasonic waves at massive volume. It builds power by stomping the ground.",
     stats: {
       hp: 84,
@@ -37023,7 +37316,8 @@ export const fakemons: Fakemon[] =
     ],
     eggMoves: [
 
-    ]
+    ],
+    suffix: "normal"
   },
   {
     id: "EXPLOUD",
@@ -37032,7 +37326,7 @@ export const fakemons: Fakemon[] =
       "NORMAL"
     ],
     sprite: "/sprites/EXPLOUD.png",
-    artwork: "/artwork/exploud.png",
+    artwork: "/sprites/EXPLOUD.png",
     description: "It has sound-generating organs all over its body. It communicates with others by adjusting the tone and volume of the cries it emits.",
     stats: {
       hp: 104,
@@ -37160,7 +37454,8 @@ export const fakemons: Fakemon[] =
     ],
     eggMoves: [
 
-    ]
+    ],
+    suffix: "normal"
   },
   {
     id: "MAKUHITA",
@@ -37169,7 +37464,7 @@ export const fakemons: Fakemon[] =
       "FIGHTING"
     ],
     sprite: "/sprites/MAKUHITA.png",
-    artwork: "/artwork/makuhita.png",
+    artwork: "/sprites/MAKUHITA.png",
     description: "It loves to toughen up its body above all else. If you hear quaking rumbles in a cave, it is the sound of Makuhita undertaking strenuous training.",
     stats: {
       hp: 72,
@@ -37297,7 +37592,8 @@ export const fakemons: Fakemon[] =
       "HELPINGHAND",
       "REVENGE",
       "WIDEGUARD"
-    ]
+    ],
+    suffix: "normal"
   },
   {
     id: "HARIYAMA",
@@ -37306,7 +37602,7 @@ export const fakemons: Fakemon[] =
       "FIGHTING"
     ],
     sprite: "/sprites/HARIYAMA.png",
-    artwork: "/artwork/hariyama.png",
+    artwork: "/sprites/HARIYAMA.png",
     description: "It has the habit of challenging others without hesitation to tests of strength. It's been known to stand on train tracks and stop trains using forearm thrusts.",
     stats: {
       hp: 144,
@@ -37437,7 +37733,8 @@ export const fakemons: Fakemon[] =
     ],
     eggMoves: [
 
-    ]
+    ],
+    suffix: "normal"
   },
   {
     id: "AZURILL",
@@ -37447,7 +37744,7 @@ export const fakemons: Fakemon[] =
       "FAIRY"
     ],
     sprite: "/sprites/AZURILL.png",
-    artwork: "/artwork/azurill.png",
+    artwork: "/sprites/AZURILL.png",
     description: "Its tail, which is packed with nutrition, is very bouncy like a rubber ball. On sunny days they gather at the edge of water and splash about for fun.",
     stats: {
       hp: 50,
@@ -37540,7 +37837,8 @@ export const fakemons: Fakemon[] =
       "SOAK",
       "SUPERSONIC",
       "TICKLE"
-    ]
+    ],
+    suffix: "normal"
   },
   {
     id: "NOSEPASS",
@@ -37549,7 +37847,7 @@ export const fakemons: Fakemon[] =
       "ROCK"
     ],
     sprite: "/sprites/NOSEPASS.png",
-    artwork: "/artwork/nosepass.png",
+    artwork: "/sprites/NOSEPASS.png",
     description: "Its body emits a powerful magnetism. It feeds on prey that is pulled in by the force. Its magnetism is stronger in cold seasons.",
     stats: {
       hp: 30,
@@ -37666,7 +37964,8 @@ export const fakemons: Fakemon[] =
       "HEADSMASH",
       "ROLLOUT",
       "WIDEGUARD"
-    ]
+    ],
+    suffix: "normal"
   },
   {
     id: "SKITTY",
@@ -37675,7 +37974,7 @@ export const fakemons: Fakemon[] =
       "NORMAL"
     ],
     sprite: "/sprites/SKITTY.png",
-    artwork: "/artwork/skitty.png",
+    artwork: "/sprites/SKITTY.png",
     description: "A Skitty's adorably cute behavior makes it highly popular. In battle, it makes its tail puff out. It threatens foes with a sharp growl.",
     stats: {
       hp: 50,
@@ -37790,7 +38089,8 @@ export const fakemons: Fakemon[] =
       "UPROAR",
       "WISH",
       "ZENHEADBUTT"
-    ]
+    ],
+    suffix: "normal"
   },
   {
     id: "DELCATTY",
@@ -37799,7 +38099,7 @@ export const fakemons: Fakemon[] =
       "NORMAL"
     ],
     sprite: "/sprites/DELCATTY.png",
-    artwork: "/artwork/delcatty.png",
+    artwork: "/sprites/DELCATTY.png",
     description: "Rather than keeping a permanent lair, it habitually seeks comfortable spots and sleeps there. It is nocturnal and becomes active at dusk.",
     stats: {
       hp: 70,
@@ -37909,7 +38209,8 @@ export const fakemons: Fakemon[] =
     ],
     eggMoves: [
 
-    ]
+    ],
+    suffix: "normal"
   },
   {
     id: "SABLEYE",
@@ -37919,7 +38220,7 @@ export const fakemons: Fakemon[] =
       "GHOST"
     ],
     sprite: "/sprites/SABLEYE.png",
-    artwork: "/artwork/sableye.png",
+    artwork: "/sprites/SABLEYE.png",
     description: "It digs branching holes in caves using its sharp claws in search of food--raw gems. A Sableye lurks in darkness and is seen only rarely.",
     stats: {
       hp: 50,
@@ -38085,7 +38386,8 @@ export const fakemons: Fakemon[] =
       "SUCKERPUNCH",
       "TORMENT",
       "TRICK"
-    ]
+    ],
+    suffix: "normal"
   },
   {
     id: "MAWILE",
@@ -38095,7 +38397,7 @@ export const fakemons: Fakemon[] =
       "FAIRY"
     ],
     sprite: "/sprites/MAWILE.png",
-    artwork: "/artwork/mawile.png",
+    artwork: "/sprites/MAWILE.png",
     description: "Its giant jaws are actually steel horns that transformed. It fools foes into complacency with its adorable gestures, then chomps them with its huge jaws.",
     stats: {
       hp: 50,
@@ -38240,7 +38542,8 @@ export const fakemons: Fakemon[] =
       "SUCKERPUNCH",
       "THUNDERFANG",
       "TICKLE"
-    ]
+    ],
+    suffix: "normal"
   },
   {
     id: "ARON",
@@ -38250,7 +38553,7 @@ export const fakemons: Fakemon[] =
       "ROCK"
     ],
     sprite: "/sprites/ARON.png",
-    artwork: "/artwork/aron.png",
+    artwork: "/sprites/ARON.png",
     description: "A Pokémon that is clad in steel armor. A new suit of armor is made when it evolves. The old, discarded armor is salvaged as metal for making iron products.",
     stats: {
       hp: 50,
@@ -38364,7 +38667,8 @@ export const fakemons: Fakemon[] =
       "SCREECH",
       "STOMP",
       "SUPERPOWER"
-    ]
+    ],
+    suffix: "normal"
   },
   {
     id: "LAIRON",
@@ -38374,7 +38678,7 @@ export const fakemons: Fakemon[] =
       "ROCK"
     ],
     sprite: "/sprites/LAIRON.png",
-    artwork: "/artwork/lairon.png",
+    artwork: "/sprites/LAIRON.png",
     description: "When two Lairon meet in the wild, they fight for territory by bashing into each other with their steel bodies. The sound of their collision carries for miles.",
     stats: {
       hp: 60,
@@ -38482,7 +38786,8 @@ export const fakemons: Fakemon[] =
     ],
     eggMoves: [
 
-    ]
+    ],
+    suffix: "normal"
   },
   {
     id: "AGGRON",
@@ -38492,7 +38797,7 @@ export const fakemons: Fakemon[] =
       "ROCK"
     ],
     sprite: "/sprites/AGGRON.png",
-    artwork: "/artwork/aggron.png",
+    artwork: "/sprites/AGGRON.png",
     description: "Its iron horns grow longer a little at a time. They are used to determine the Aggron's age. The gouges in its armor are worn with pride as mementos from battles.",
     stats: {
       hp: 70,
@@ -38648,7 +38953,8 @@ export const fakemons: Fakemon[] =
     ],
     eggMoves: [
 
-    ]
+    ],
+    suffix: "normal"
   },
   {
     id: "MEDITITE",
@@ -38658,7 +38964,7 @@ export const fakemons: Fakemon[] =
       "PSYCHIC"
     ],
     sprite: "/sprites/MEDITITE.png",
-    artwork: "/artwork/meditite.png",
+    artwork: "/sprites/MEDITITE.png",
     description: "It continually meditates for hours every day. As a result of rigorous and dedicated yoga training, it has tempered its spiritual power so much it can fly.",
     stats: {
       hp: 30,
@@ -38795,7 +39101,8 @@ export const fakemons: Fakemon[] =
       "PSYCHOCUT",
       "QUICKGUARD",
       "THUNDERPUNCH"
-    ]
+    ],
+    suffix: "normal"
   },
   {
     id: "MEDICHAM",
@@ -38805,7 +39112,7 @@ export const fakemons: Fakemon[] =
       "PSYCHIC"
     ],
     sprite: "/sprites/MEDICHAM.png",
-    artwork: "/artwork/medicham.png",
+    artwork: "/sprites/MEDICHAM.png",
     description: "Through crushingly harsh yoga training, it gained the power to foretell its foe's actions. It battles with elegant, dance- like movement.",
     stats: {
       hp: 60,
@@ -38942,7 +39249,8 @@ export const fakemons: Fakemon[] =
     ],
     eggMoves: [
 
-    ]
+    ],
+    suffix: "normal"
   },
   {
     id: "ELECTRIKE",
@@ -38951,7 +39259,7 @@ export const fakemons: Fakemon[] =
       "ELECTRIC"
     ],
     sprite: "/sprites/ELECTRIKE.png",
-    artwork: "/artwork/electrike.png",
+    artwork: "/sprites/ELECTRIKE.png",
     description: "It generates electricity using friction from the atmosphere. In seasons with especially arid air, its entire body blazes with violent showers of sparks.",
     stats: {
       hp: 40,
@@ -39054,7 +39362,8 @@ export const fakemons: Fakemon[] =
       "SWITCHEROO",
       "THUNDERFANG",
       "UPROAR"
-    ]
+    ],
+    suffix: "normal"
   },
   {
     id: "MANECTRIC",
@@ -39063,7 +39372,7 @@ export const fakemons: Fakemon[] =
       "ELECTRIC"
     ],
     sprite: "/sprites/MANECTRIC.png",
-    artwork: "/artwork/manectric.png",
+    artwork: "/sprites/MANECTRIC.png",
     description: "Because lightning falls in their vicinities, Manectric were thought to have been born from lightning. In battle, they create thunderclouds.",
     stats: {
       hp: 70,
@@ -39163,7 +39472,8 @@ export const fakemons: Fakemon[] =
     ],
     eggMoves: [
 
-    ]
+    ],
+    suffix: "normal"
   },
   {
     id: "PLUSLE",
@@ -39172,7 +39482,7 @@ export const fakemons: Fakemon[] =
       "ELECTRIC"
     ],
     sprite: "/sprites/PLUSLE.png",
-    artwork: "/artwork/plusle.png",
+    artwork: "/sprites/PLUSLE.png",
     description: "It has the trait of cheering on its fellow Pokémon. By shorting out the electricity it releases from its paws, it creates pom-poms for cheering.",
     stats: {
       hp: 60,
@@ -39291,7 +39601,8 @@ export const fakemons: Fakemon[] =
       "SWEETKISS",
       "TEARFULLOOK",
       "WISH"
-    ]
+    ],
+    suffix: "normal"
   },
   {
     id: "MINUN",
@@ -39300,7 +39611,7 @@ export const fakemons: Fakemon[] =
       "ELECTRIC"
     ],
     sprite: "/sprites/MINUN.png",
-    artwork: "/artwork/minun.png",
+    artwork: "/sprites/MINUN.png",
     description: "At a meeting of Pokémon academics, it was announced that simultaneous exposure to electricity from a Plusle and Minun will promote circulation and boost vitality.",
     stats: {
       hp: 60,
@@ -39417,7 +39728,8 @@ export const fakemons: Fakemon[] =
       "SWEETKISS",
       "TEARFULLOOK",
       "WISH"
-    ]
+    ],
+    suffix: "normal"
   },
   {
     id: "VOLBEAT",
@@ -39426,7 +39738,7 @@ export const fakemons: Fakemon[] =
       "BUG"
     ],
     sprite: "/sprites/VOLBEAT.png",
-    artwork: "/artwork/volbeat.png",
+    artwork: "/sprites/VOLBEAT.png",
     description: "With their taillights lit, Volbeat fly in a swarm, drawing geometric designs in the night sky. They move their nests if their pond water becomes dirty.",
     stats: {
       hp: 65,
@@ -39553,7 +39865,8 @@ export const fakemons: Fakemon[] =
       "SEISMICTOSS",
       "SWAGGER",
       "TRICK"
-    ]
+    ],
+    suffix: "normal"
   },
   {
     id: "ILLUMISE",
@@ -39562,7 +39875,7 @@ export const fakemons: Fakemon[] =
       "BUG"
     ],
     sprite: "/sprites/ILLUMISE.png",
-    artwork: "/artwork/illumise.png",
+    artwork: "/sprites/ILLUMISE.png",
     description: "A nocturnal Pokémon that becomes active upon nightfall. It leads a Volbeat swarm to draw patterns in the night sky. Over 200 different patterns have been seen.",
     stats: {
       hp: 65,
@@ -39692,7 +40005,8 @@ export const fakemons: Fakemon[] =
       "FAKETEARS",
       "GROWTH",
       "ROOST"
-    ]
+    ],
+    suffix: "normal"
   },
   {
     id: "ROSELIA",
@@ -39702,7 +40016,7 @@ export const fakemons: Fakemon[] =
       "POISON"
     ],
     sprite: "/sprites/ROSELIA.png",
-    artwork: "/artwork/roselia.png",
+    artwork: "/sprites/ROSELIA.png",
     description: "A Roselia that drinks nutritionally rich springwater blooms with lovely flowers. The fragrance of its flowers has the effect of making its foes careless.",
     stats: {
       hp: 50,
@@ -39811,7 +40125,8 @@ export const fakemons: Fakemon[] =
       "SLEEPPOWDER",
       "SPIKES",
       "SYNTHESIS"
-    ]
+    ],
+    suffix: "normal"
   },
   {
     id: "GULPIN",
@@ -39820,7 +40135,7 @@ export const fakemons: Fakemon[] =
       "POISON"
     ],
     sprite: "/sprites/GULPIN.png",
-    artwork: "/artwork/gulpin.png",
+    artwork: "/sprites/GULPIN.png",
     description: "This Pokémon's stomach fluid can even digest scrap iron. In one gulp, it can swallow something that is as large as itself.",
     stats: {
       hp: 70,
@@ -39938,7 +40253,8 @@ export const fakemons: Fakemon[] =
       "SMOG",
       "STUFFCHEEKS",
       "VENOMDRENCH"
-    ]
+    ],
+    suffix: "normal"
   },
   {
     id: "SWALOT",
@@ -39947,7 +40263,7 @@ export const fakemons: Fakemon[] =
       "POISON"
     ],
     sprite: "/sprites/SWALOT.png",
-    artwork: "/artwork/swalot.png",
+    artwork: "/sprites/SWALOT.png",
     description: "Its powerful stomach acid is capable of digesting almost anything. The one thing in the whole world a Swalot can't digest is its own stomach.",
     stats: {
       hp: 100,
@@ -40067,7 +40383,8 @@ export const fakemons: Fakemon[] =
     ],
     eggMoves: [
 
-    ]
+    ],
+    suffix: "normal"
   },
   {
     id: "CARVANHA",
@@ -40077,7 +40394,7 @@ export const fakemons: Fakemon[] =
       "DARK"
     ],
     sprite: "/sprites/CARVANHA.png",
-    artwork: "/artwork/carvanha.png",
+    artwork: "/sprites/CARVANHA.png",
     description: "Carvanha attack ships in swarms, making them sink. Although it is said to be a very vicious Pokémon, it timidly flees as soon as it finds itself alone.",
     stats: {
       hp: 45,
@@ -40181,7 +40498,8 @@ export const fakemons: Fakemon[] =
       "SWIFT",
       "THRASH",
       "WATERPULSE"
-    ]
+    ],
+    suffix: "normal"
   },
   {
     id: "SHARPEDO",
@@ -40191,7 +40509,7 @@ export const fakemons: Fakemon[] =
       "DARK"
     ],
     sprite: "/sprites/SHARPEDO.png",
-    artwork: "/artwork/sharpedo.png",
+    artwork: "/sprites/SHARPEDO.png",
     description: "The vicious and sly gangster of the sea. Its skin is specially textured to minimize drag in water. Its speed tops out at over 75 miles per hour.",
     stats: {
       hp: 70,
@@ -40302,7 +40620,8 @@ export const fakemons: Fakemon[] =
     ],
     eggMoves: [
 
-    ]
+    ],
+    suffix: "normal"
   },
   {
     id: "WAILMER",
@@ -40311,7 +40630,7 @@ export const fakemons: Fakemon[] =
       "WATER"
     ],
     sprite: "/sprites/WAILMER.png",
-    artwork: "/artwork/wailmer.png",
+    artwork: "/sprites/WAILMER.png",
     description: "While this Pokémon usually lives in the sea, it can survive on land, although not too long. It loses vitality if its body becomes dried out.",
     stats: {
       hp: 130,
@@ -40419,7 +40738,8 @@ export const fakemons: Fakemon[] =
       "THRASH",
       "TICKLE",
       "ZENHEADBUTT"
-    ]
+    ],
+    suffix: "normal"
   },
   {
     id: "WAILORD",
@@ -40428,7 +40748,7 @@ export const fakemons: Fakemon[] =
       "WATER"
     ],
     sprite: "/sprites/WAILORD.png",
-    artwork: "/artwork/wailord.png",
+    artwork: "/sprites/WAILORD.png",
     description: "It breathes through nostrils that it raises above the sea. By inhaling to its maximum capacity, a Wailord can dive close to 10,000 feet beneath the waves.",
     stats: {
       hp: 170,
@@ -40531,7 +40851,8 @@ export const fakemons: Fakemon[] =
     ],
     eggMoves: [
 
-    ]
+    ],
+    suffix: "normal"
   },
   {
     id: "NUMEL",
@@ -40541,7 +40862,7 @@ export const fakemons: Fakemon[] =
       "GROUND"
     ],
     sprite: "/sprites/NUMEL.png",
-    artwork: "/artwork/numel.png",
+    artwork: "/sprites/NUMEL.png",
     description: "A Numel stores boiling magma in the hump on its back. It is a hardy Pokémon that can transport a 220-pound load. It has served humans at work since long ago.",
     stats: {
       hp: 60,
@@ -40667,7 +40988,8 @@ export const fakemons: Fakemon[] =
       "STOMP",
       "SWALLOW",
       "YAWN"
-    ]
+    ],
+    suffix: "normal"
   },
   {
     id: "CAMERUPT",
@@ -40677,7 +40999,7 @@ export const fakemons: Fakemon[] =
       "GROUND"
     ],
     sprite: "/sprites/CAMERUPT.png",
-    artwork: "/artwork/camerupt.png",
+    artwork: "/sprites/CAMERUPT.png",
     description: "A Pokémon that lives in the crater of a volcano. Every 10 years, the volcanoes on its back erupt violently. Research is under way on the cause of eruption.",
     stats: {
       hp: 70,
@@ -40797,7 +41119,8 @@ export const fakemons: Fakemon[] =
     ],
     eggMoves: [
 
-    ]
+    ],
+    suffix: "normal"
   },
   {
     id: "TORKOAL",
@@ -40806,7 +41129,7 @@ export const fakemons: Fakemon[] =
       "FIRE"
     ],
     sprite: "/sprites/TORKOAL.png",
-    artwork: "/artwork/torkoal.png",
+    artwork: "/sprites/TORKOAL.png",
     description: "It battles using energy it gets from burning coal. When loosing smoke from its nostrils, it lets off a sound that is similar to a locomotive's horn.",
     stats: {
       hp: 70,
@@ -40926,7 +41249,8 @@ export const fakemons: Fakemon[] =
       "SKULLBASH",
       "SUPERPOWER",
       "YAWN"
-    ]
+    ],
+    suffix: "normal"
   },
   {
     id: "SPOINK",
@@ -40935,7 +41259,7 @@ export const fakemons: Fakemon[] =
       "PSYCHIC"
     ],
     sprite: "/sprites/SPOINK.png",
-    artwork: "/artwork/spoink.png",
+    artwork: "/sprites/SPOINK.png",
     description: "A Pokémon that manipulates psychic power at will. It doesn't stop bouncing even when it is asleep. It loves eating mushrooms that grow underground.",
     stats: {
       hp: 60,
@@ -41062,7 +41386,8 @@ export const fakemons: Fakemon[] =
       "TRICK",
       "WHIRLWIND",
       "ZENHEADBUTT"
-    ]
+    ],
+    suffix: "normal"
   },
   {
     id: "GRUMPIG",
@@ -41071,7 +41396,7 @@ export const fakemons: Fakemon[] =
       "PSYCHIC"
     ],
     sprite: "/sprites/GRUMPIG.png",
-    artwork: "/artwork/grumpig.png",
+    artwork: "/sprites/GRUMPIG.png",
     description: "It stores power in the black pearls on its forehead. When it uses psychic power, it performs an odd dance step. Its style of dancing became hugely popular overseas.",
     stats: {
       hp: 80,
@@ -41225,7 +41550,8 @@ export const fakemons: Fakemon[] =
     ],
     eggMoves: [
 
-    ]
+    ],
+    suffix: "normal"
   },
   {
     id: "SPINDA",
@@ -41234,7 +41560,7 @@ export const fakemons: Fakemon[] =
       "NORMAL"
     ],
     sprite: "/sprites/SPINDA.png",
-    artwork: "/artwork/spinda.png",
+    artwork: "/sprites/SPINDA.png",
     description: "It is distinguished by a pattern of spots that is always different. Its unsteady, tottering walk has the effect of fouling its foe's aim.",
     stats: {
       hp: 60,
@@ -41361,7 +41687,8 @@ export const fakemons: Fakemon[] =
       "ROLEPLAY",
       "TRICK",
       "WISH"
-    ]
+    ],
+    suffix: "normal"
   },
   {
     id: "TRAPINCH",
@@ -41370,7 +41697,7 @@ export const fakemons: Fakemon[] =
       "GROUND"
     ],
     sprite: "/sprites/TRAPINCH.png",
-    artwork: "/artwork/trapinch.png",
+    artwork: "/sprites/TRAPINCH.png",
     description: "Its big jaws crunch through boulders. Because its head is so big, it has a hard time getting back upright if it tips over onto its back.",
     stats: {
       hp: 45,
@@ -41466,7 +41793,8 @@ export const fakemons: Fakemon[] =
       "GUST",
       "MUDSHOT",
       "QUICKATTACK"
-    ]
+    ],
+    suffix: "normal"
   },
   {
     id: "VIBRAVA",
@@ -41476,7 +41804,7 @@ export const fakemons: Fakemon[] =
       "DRAGON"
     ],
     sprite: "/sprites/VIBRAVA.png",
-    artwork: "/artwork/vibrava.png",
+    artwork: "/sprites/VIBRAVA.png",
     description: "It looses ultrasonic waves by rubbing its wings together. Since a Vibrava's wings are still in the process of growing, it can only fly short distances.",
     stats: {
       hp: 50,
@@ -41596,7 +41924,8 @@ export const fakemons: Fakemon[] =
     ],
     eggMoves: [
 
-    ]
+    ],
+    suffix: "normal"
   },
   {
     id: "FLYGON",
@@ -41606,7 +41935,7 @@ export const fakemons: Fakemon[] =
       "DRAGON"
     ],
     sprite: "/sprites/FLYGON.png",
-    artwork: "/artwork/flygon.png",
+    artwork: "/sprites/FLYGON.png",
     description: "The flapping of its wings sounds like singing. To prevent detection by enemies, it hides itself by flapping up a cloud of desert sand.",
     stats: {
       hp: 80,
@@ -41752,7 +42081,8 @@ export const fakemons: Fakemon[] =
     ],
     eggMoves: [
 
-    ]
+    ],
+    suffix: "normal"
   },
   {
     id: "CACNEA",
@@ -41761,7 +42091,7 @@ export const fakemons: Fakemon[] =
       "GRASS"
     ],
     sprite: "/sprites/CACNEA.png",
-    artwork: "/artwork/cacnea.png",
+    artwork: "/sprites/CACNEA.png",
     description: "Cacnea live in deserts with virtually no rainfall. It battles by swinging its thick, spiked arms. Once a year, a yellow flower blooms.",
     stats: {
       hp: 50,
@@ -41894,7 +42224,8 @@ export const fakemons: Fakemon[] =
       "SWITCHEROO",
       "TEETERDANCE",
       "WORRYSEED"
-    ]
+    ],
+    suffix: "normal"
   },
   {
     id: "CACTURNE",
@@ -41904,7 +42235,7 @@ export const fakemons: Fakemon[] =
       "DARK"
     ],
     sprite: "/sprites/CACTURNE.png",
-    artwork: "/artwork/cacturne.png",
+    artwork: "/sprites/CACTURNE.png",
     description: "After spending thousands of years in harsh deserts, its blood transformed into the same substances as sand. It is nocturnal, so it hunts at night.",
     stats: {
       hp: 70,
@@ -42040,7 +42371,8 @@ export const fakemons: Fakemon[] =
     ],
     eggMoves: [
 
-    ]
+    ],
+    suffix: "normal"
   },
   {
     id: "SWABLU",
@@ -42050,7 +42382,7 @@ export const fakemons: Fakemon[] =
       "FLYING"
     ],
     sprite: "/sprites/SWABLU.png",
-    artwork: "/artwork/swablu.png",
+    artwork: "/sprites/SWABLU.png",
     description: "A Pokémon that has wings like cottony clouds. After enduring winter, in which little food is available, Swablu flocks move closer to towns in the spring.",
     stats: {
       hp: 45,
@@ -42157,7 +42489,8 @@ export const fakemons: Fakemon[] =
       "POWERSWAP",
       "ROOST",
       "TAILWIND"
-    ]
+    ],
+    suffix: "normal"
   },
   {
     id: "ALTARIA",
@@ -42167,7 +42500,7 @@ export const fakemons: Fakemon[] =
       "FLYING"
     ],
     sprite: "/sprites/ALTARIA.png",
-    artwork: "/artwork/altaria.png",
+    artwork: "/sprites/ALTARIA.png",
     description: "It hums in a beautiful soprano voice. It flies among white clouds in the blue sky. It launches intensely hot fireballs from its mouth.",
     stats: {
       hp: 75,
@@ -42291,7 +42624,8 @@ export const fakemons: Fakemon[] =
     ],
     eggMoves: [
 
-    ]
+    ],
+    suffix: "normal"
   },
   {
     id: "ZANGOOSE",
@@ -42300,7 +42634,7 @@ export const fakemons: Fakemon[] =
       "NORMAL"
     ],
     sprite: "/sprites/ZANGOOSE.png",
-    artwork: "/artwork/zangoose.png",
+    artwork: "/sprites/ZANGOOSE.png",
     description: "When it battles, it stands on its hind legs and attacks with its sharply clawed forelegs. Its fur bristles if it encounters any Seviper.",
     stats: {
       hp: 73,
@@ -42463,7 +42797,8 @@ export const fakemons: Fakemon[] =
       "METALCLAW",
       "NIGHTSLASH",
       "QUICKGUARD"
-    ]
+    ],
+    suffix: "normal"
   },
   {
     id: "SEVIPER",
@@ -42472,7 +42807,7 @@ export const fakemons: Fakemon[] =
       "POISON"
     ],
     sprite: "/sprites/SEVIPER.png",
-    artwork: "/artwork/seviper.png",
+    artwork: "/sprites/SEVIPER.png",
     description: "Seviper and Zangoose are eternal rivals. It counters a Zangoose's dazzling agility with its swordlike tail, which also oozes a horrible poison.",
     stats: {
       hp: 73,
@@ -42604,7 +42939,8 @@ export const fakemons: Fakemon[] =
       "STOCKPILE",
       "SWALLOW",
       "SWITCHEROO"
-    ]
+    ],
+    suffix: "normal"
   },
   {
     id: "LUNATONE",
@@ -42614,7 +42950,7 @@ export const fakemons: Fakemon[] =
       "PSYCHIC"
     ],
     sprite: "/sprites/LUNATONE.png",
-    artwork: "/artwork/lunatone.png",
+    artwork: "/sprites/LUNATONE.png",
     description: "It becomes very active on the night of a full moon. This Pokémon was first discovered 40 years ago at the site of a meteor strike.",
     stats: {
       hp: 90,
@@ -42739,7 +43075,8 @@ export const fakemons: Fakemon[] =
     ],
     eggMoves: [
 
-    ]
+    ],
+    suffix: "normal"
   },
   {
     id: "SOLROCK",
@@ -42749,7 +43086,7 @@ export const fakemons: Fakemon[] =
       "PSYCHIC"
     ],
     sprite: "/sprites/SOLROCK.png",
-    artwork: "/artwork/solrock.png",
+    artwork: "/sprites/SOLROCK.png",
     description: "Solar energy is the source of this Pokémon's power. On sunny days, groups of Solrock line up facing the sun and absorb its light.",
     stats: {
       hp: 90,
@@ -42879,7 +43216,8 @@ export const fakemons: Fakemon[] =
     ],
     eggMoves: [
 
-    ]
+    ],
+    suffix: "normal"
   },
   {
     id: "BARBOACH",
@@ -42889,7 +43227,7 @@ export const fakemons: Fakemon[] =
       "GROUND"
     ],
     sprite: "/sprites/BARBOACH.png",
-    artwork: "/artwork/barboach.png",
+    artwork: "/sprites/BARBOACH.png",
     description: "Its body is covered with a slimy film. The film acts as a barrier to prevent germs in muddy water from entering the Barboach's body.",
     stats: {
       hp: 50,
@@ -42993,7 +43331,8 @@ export const fakemons: Fakemon[] =
       "TAKEDOWN",
       "THRASH",
       "WHIRLPOOL"
-    ]
+    ],
+    suffix: "normal"
   },
   {
     id: "WHISCASH",
@@ -43003,7 +43342,7 @@ export const fakemons: Fakemon[] =
       "GROUND"
     ],
     sprite: "/sprites/WHISCASH.png",
-    artwork: "/artwork/whiscash.png",
+    artwork: "/sprites/WHISCASH.png",
     description: "Mysteriously, it can foretell earthquakes. In the daytime, it sleeps in mud at the bottom of a pond. When it awakens, it continually feeds throughout the night.",
     stats: {
       hp: 110,
@@ -43112,7 +43451,8 @@ export const fakemons: Fakemon[] =
     ],
     eggMoves: [
 
-    ]
+    ],
+    suffix: "normal"
   },
   {
     id: "CORPHISH",
@@ -43121,7 +43461,7 @@ export const fakemons: Fakemon[] =
       "WATER"
     ],
     sprite: "/sprites/CORPHISH.png",
-    artwork: "/artwork/corphish.png",
+    artwork: "/sprites/CORPHISH.png",
     description: "Once it grips prey with its large pincers, it will never let go, no matter what. It is a hardy Pokémon that can thrive in any environment.",
     stats: {
       hp: 43,
@@ -43235,7 +43575,8 @@ export const fakemons: Fakemon[] =
       "SLASH",
       "SUPERPOWER",
       "SWITCHEROO"
-    ]
+    ],
+    suffix: "normal"
   },
   {
     id: "CRAWDAUNT",
@@ -43245,7 +43586,7 @@ export const fakemons: Fakemon[] =
       "DARK"
     ],
     sprite: "/sprites/CRAWDAUNT.png",
-    artwork: "/artwork/crawdaunt.png",
+    artwork: "/sprites/CRAWDAUNT.png",
     description: "A brutish Pokémon that loves to battle. A veteran Crawdaunt that has prevailed in hundreds of battles has giant pincers marked with countless scars.",
     stats: {
       hp: 63,
@@ -43367,7 +43708,8 @@ export const fakemons: Fakemon[] =
     ],
     eggMoves: [
 
-    ]
+    ],
+    suffix: "normal"
   },
   {
     id: "BALTOY",
@@ -43377,7 +43719,7 @@ export const fakemons: Fakemon[] =
       "PSYCHIC"
     ],
     sprite: "/sprites/BALTOY.png",
-    artwork: "/artwork/baltoy.png",
+    artwork: "/sprites/BALTOY.png",
     description: "A Baltoy moves by spinning on its single foot. It has been depicted in murals adorning the walls of a once-bustling city in an ancient age.",
     stats: {
       hp: 40,
@@ -43492,7 +43834,8 @@ export const fakemons: Fakemon[] =
     ],
     eggMoves: [
 
-    ]
+    ],
+    suffix: "normal"
   },
   {
     id: "CLAYDOL",
@@ -43502,7 +43845,7 @@ export const fakemons: Fakemon[] =
       "PSYCHIC"
     ],
     sprite: "/sprites/CLAYDOL.png",
-    artwork: "/artwork/claydol.png",
+    artwork: "/sprites/CLAYDOL.png",
     description: "A Claydol sleeps while hovering in midair. Its arms are separate from its body. They are kept floating by the Pokémon's manipulation of psychic power.",
     stats: {
       hp: 60,
@@ -43629,7 +43972,8 @@ export const fakemons: Fakemon[] =
     ],
     eggMoves: [
 
-    ]
+    ],
+    suffix: "normal"
   },
   {
     id: "LILEEP",
@@ -43639,7 +43983,7 @@ export const fakemons: Fakemon[] =
       "GRASS"
     ],
     sprite: "/sprites/LILEEP.png",
-    artwork: "/artwork/lileep.png",
+    artwork: "/sprites/LILEEP.png",
     description: "It disguises itself as seaweed by making its tentacles sway. Unsuspecting prey that come too close are swallowed whole. It became extinct 100 million years ago.",
     stats: {
       hp: 66,
@@ -43736,7 +44080,8 @@ export const fakemons: Fakemon[] =
       "MIRRORCOAT",
       "RECOVER",
       "TICKLE"
-    ]
+    ],
+    suffix: "normal"
   },
   {
     id: "CRADILY",
@@ -43746,7 +44091,7 @@ export const fakemons: Fakemon[] =
       "GRASS"
     ],
     sprite: "/sprites/CRADILY.png",
-    artwork: "/artwork/cradily.png",
+    artwork: "/sprites/CRADILY.png",
     description: "It drags its heavy body along the seafloor. It makes its nest in the shallows of warm seas. Cradily can be seen on beaches when the tide goes out.",
     stats: {
       hp: 86,
@@ -43852,7 +44197,8 @@ export const fakemons: Fakemon[] =
     ],
     eggMoves: [
 
-    ]
+    ],
+    suffix: "normal"
   },
   {
     id: "ANORITH",
@@ -43862,7 +44208,7 @@ export const fakemons: Fakemon[] =
       "BUG"
     ],
     sprite: "/sprites/ANORITH.png",
-    artwork: "/artwork/anorith.png",
+    artwork: "/sprites/ANORITH.png",
     description: "It was resurrected from a fossil using the power of science. It swims by undulating the wings at its sides. They were feet that adapted to life in the sea.",
     stats: {
       hp: 45,
@@ -43962,7 +44308,8 @@ export const fakemons: Fakemon[] =
       "SANDATTACK",
       "SCREECH",
       "WATERPULSE"
-    ]
+    ],
+    suffix: "normal"
   },
   {
     id: "ARMALDO",
@@ -43972,7 +44319,7 @@ export const fakemons: Fakemon[] =
       "BUG"
     ],
     sprite: "/sprites/ARMALDO.png",
-    artwork: "/artwork/armaldo.png",
+    artwork: "/sprites/ARMALDO.png",
     description: "Armaldo usually lives on land. However, when it hunts for prey, it dives beneath the ocean. It swims around using its two large wings.",
     stats: {
       hp: 75,
@@ -44081,7 +44428,8 @@ export const fakemons: Fakemon[] =
     ],
     eggMoves: [
 
-    ]
+    ],
+    suffix: "normal"
   },
   {
     id: "FEEBAS",
@@ -44090,7 +44438,7 @@ export const fakemons: Fakemon[] =
       "WATER"
     ],
     sprite: "/sprites/FEEBAS.png",
-    artwork: "/artwork/feebas.png",
+    artwork: "/sprites/FEEBAS.png",
     description: "Feebas live in ponds that are heavily infested with weeds. Because of its hopelessly shabby appearance, it seems as if few trainers raise it.",
     stats: {
       hp: 20,
@@ -44166,7 +44514,8 @@ export const fakemons: Fakemon[] =
       "MIRRORCOAT",
       "MIST",
       "TICKLE"
-    ]
+    ],
+    suffix: "normal"
   },
   {
     id: "MILOTIC",
@@ -44175,7 +44524,7 @@ export const fakemons: Fakemon[] =
       "WATER"
     ],
     sprite: "/sprites/MILOTIC.png",
-    artwork: "/artwork/milotic.png",
+    artwork: "/sprites/MILOTIC.png",
     description: "It is said to live at the bottom of large lakes. Considered to be the most beautiful of all Pokémon, it has been depicted in paintings and statues.",
     stats: {
       hp: 95,
@@ -44291,7 +44640,8 @@ export const fakemons: Fakemon[] =
     ],
     eggMoves: [
 
-    ]
+    ],
+    suffix: "normal"
   },
   {
     id: "CASTFORM",
@@ -44300,7 +44650,7 @@ export const fakemons: Fakemon[] =
       "NORMAL"
     ],
     sprite: "/sprites/CASTFORM.png",
-    artwork: "/artwork/castform.png",
+    artwork: "/sprites/CASTFORM.png",
     description: "It alters its form depending on the weather. Changes in the climate such as the temperature and humidity appear to affect its cellular structure.",
     stats: {
       hp: 70,
@@ -44397,7 +44747,8 @@ export const fakemons: Fakemon[] =
       "GUARDSWAP",
       "HEX",
       "REFLECTTYPE"
-    ]
+    ],
+    suffix: "normal"
   },
   {
     id: "KECLEON",
@@ -44406,7 +44757,7 @@ export const fakemons: Fakemon[] =
       "NORMAL"
     ],
     sprite: "/sprites/KECLEON.png",
-    artwork: "/artwork/kecleon.png",
+    artwork: "/sprites/KECLEON.png",
     description: "A Pokémon that has the ability to alter its body colors to match its surroundings. A Kecleon reverts to its original colors if it is startled.",
     stats: {
       hp: 60,
@@ -44548,7 +44899,8 @@ export const fakemons: Fakemon[] =
       "POWERUPPUNCH",
       "RECOVER",
       "TRICK"
-    ]
+    ],
+    suffix: "normal"
   },
   {
     id: "SHUPPET",
@@ -44557,7 +44909,7 @@ export const fakemons: Fakemon[] =
       "GHOST"
     ],
     sprite: "/sprites/SHUPPET.png",
-    artwork: "/artwork/shuppet.png",
+    artwork: "/sprites/SHUPPET.png",
     description: "This Pokémon roams about deep in the night seeking such negative emotions as grudges and envy. It retreats to its nest when the sun begins to rise.",
     stats: {
       hp: 44,
@@ -44677,7 +45029,8 @@ export const fakemons: Fakemon[] =
       "IMPRISON",
       "PHANTOMFORCE",
       "SHADOWSNEAK"
-    ]
+    ],
+    suffix: "normal"
   },
   {
     id: "BANETTE",
@@ -44686,7 +45039,7 @@ export const fakemons: Fakemon[] =
       "GHOST"
     ],
     sprite: "/sprites/BANETTE.png",
-    artwork: "/artwork/banette.png",
+    artwork: "/sprites/BANETTE.png",
     description: "An abandoned plush doll became this Pokémon. They are said to live in garbage dumps and wander about in search of the children that threw them away.",
     stats: {
       hp: 64,
@@ -44809,7 +45162,8 @@ export const fakemons: Fakemon[] =
     ],
     eggMoves: [
 
-    ]
+    ],
+    suffix: "normal"
   },
   {
     id: "DUSKULL",
@@ -44818,7 +45172,7 @@ export const fakemons: Fakemon[] =
       "GHOST"
     ],
     sprite: "/sprites/DUSKULL.png",
-    artwork: "/artwork/duskull.png",
+    artwork: "/sprites/DUSKULL.png",
     description: "A glare from its single scarlet eye makes even burly grown-ups freeze in utter fear. It is a nocturnal Pokémon that roams about under the cloak of darkness.",
     stats: {
       hp: 20,
@@ -44928,7 +45282,8 @@ export const fakemons: Fakemon[] =
       "IMPRISON",
       "MEMENTO",
       "PAINSPLIT"
-    ]
+    ],
+    suffix: "normal"
   },
   {
     id: "DUSCLOPS",
@@ -44937,7 +45292,7 @@ export const fakemons: Fakemon[] =
       "GHOST"
     ],
     sprite: "/sprites/DUSCLOPS.png",
-    artwork: "/artwork/dusclops.png",
+    artwork: "/sprites/DUSCLOPS.png",
     description: "It is thought that its body is hollow with only a spectral ball of fire burning inside. However, no one has been able to confirm this theory as fact.",
     stats: {
       hp: 40,
@@ -45066,7 +45421,8 @@ export const fakemons: Fakemon[] =
     ],
     eggMoves: [
 
-    ]
+    ],
+    suffix: "normal"
   },
   {
     id: "TROPIUS",
@@ -45076,7 +45432,7 @@ export const fakemons: Fakemon[] =
       "FLYING"
     ],
     sprite: "/sprites/TROPIUS.png",
-    artwork: "/artwork/tropius.png",
+    artwork: "/sprites/TROPIUS.png",
     description: "It flies by flapping its broad leaves. The bunch of fruit that grows around its neck is deliciously sweet. In the spring, it scatters pollen from its neck.",
     stats: {
       hp: 99,
@@ -45205,7 +45561,8 @@ export const fakemons: Fakemon[] =
       "NATUREPOWER",
       "SLAM",
       "SYNTHESIS"
-    ]
+    ],
+    suffix: "normal"
   },
   {
     id: "CHIMECHO",
@@ -45214,7 +45571,7 @@ export const fakemons: Fakemon[] =
       "PSYCHIC"
     ],
     sprite: "/sprites/CHIMECHO.png",
-    artwork: "/artwork/chimecho.png",
+    artwork: "/sprites/CHIMECHO.png",
     description: "They fly about very actively when the hot season arrives. They communicate among themselves using seven different and distinguishing cries.",
     stats: {
       hp: 75,
@@ -45341,7 +45698,8 @@ export const fakemons: Fakemon[] =
       "RECOVER",
       "STOREDPOWER",
       "WISH"
-    ]
+    ],
+    suffix: "normal"
   },
   {
     id: "ABSOL",
@@ -45350,7 +45708,7 @@ export const fakemons: Fakemon[] =
       "DARK"
     ],
     sprite: "/sprites/ABSOL.png",
-    artwork: "/artwork/absol.png",
+    artwork: "/sprites/ABSOL.png",
     description: "It sharply senses even subtle changes in the sky and the land to predict natural disasters. It is a long-lived Pokémon that has a life-span of 100 years.",
     stats: {
       hp: 65,
@@ -45496,7 +45854,8 @@ export const fakemons: Fakemon[] =
       "PLAYROUGH",
       "SUCKERPUNCH",
       "ZENHEADBUTT"
-    ]
+    ],
+    suffix: "normal"
   },
   {
     id: "WYNAUT",
@@ -45505,7 +45864,7 @@ export const fakemons: Fakemon[] =
       "PSYCHIC"
     ],
     sprite: "/sprites/WYNAUT.png",
-    artwork: "/artwork/wynaut.png",
+    artwork: "/sprites/WYNAUT.png",
     description: "A Wynaut loves to eat sweet fruits. It cleverly picks fruits using its earlike arms. They gather in fruit gardens, drawn by the fragrance.",
     stats: {
       hp: 95,
@@ -45542,7 +45901,8 @@ export const fakemons: Fakemon[] =
     ],
     eggMoves: [
 
-    ]
+    ],
+    suffix: "normal"
   },
   {
     id: "SNORUNT",
@@ -45551,7 +45911,7 @@ export const fakemons: Fakemon[] =
       "ICE"
     ],
     sprite: "/sprites/SNORUNT.png",
-    artwork: "/artwork/snorunt.png",
+    artwork: "/sprites/SNORUNT.png",
     description: "They tend to move about in groups of around five Snorunt. In snowy regions, it is said that when they are seen late at night, snowfall will arrive by morning.",
     stats: {
       hp: 50,
@@ -45650,7 +46010,8 @@ export const fakemons: Fakemon[] =
       "SPIKES",
       "SWITCHEROO",
       "WEATHERBALL"
-    ]
+    ],
+    suffix: "normal"
   },
   {
     id: "GLALIE",
@@ -45659,7 +46020,7 @@ export const fakemons: Fakemon[] =
       "ICE"
     ],
     sprite: "/sprites/GLALIE.png",
-    artwork: "/artwork/glalie.png",
+    artwork: "/sprites/GLALIE.png",
     description: "A Glalie has the power to instantaneously freeze moisture in the atmosphere. A dazzling cloud of diamondlike ice crystals forms around its body.",
     stats: {
       hp: 80,
@@ -45770,7 +46131,8 @@ export const fakemons: Fakemon[] =
     ],
     eggMoves: [
 
-    ]
+    ],
+    suffix: "normal"
   },
   {
     id: "SPHEAL",
@@ -45780,7 +46142,7 @@ export const fakemons: Fakemon[] =
       "WATER"
     ],
     sprite: "/sprites/SPHEAL.png",
-    artwork: "/artwork/spheal.png",
+    artwork: "/sprites/SPHEAL.png",
     description: "It is completely covered with plushy fur. As a result, it never feels the cold even when it is rolling about on ice floes or diving in the sea.",
     stats: {
       hp: 70,
@@ -45881,7 +46243,8 @@ export const fakemons: Fakemon[] =
       "SWALLOW",
       "WATERPULSE",
       "YAWN"
-    ]
+    ],
+    suffix: "normal"
   },
   {
     id: "SEALEO",
@@ -45891,7 +46254,7 @@ export const fakemons: Fakemon[] =
       "WATER"
     ],
     sprite: "/sprites/SEALEO.png",
-    artwork: "/artwork/sealeo.png",
+    artwork: "/sprites/SEALEO.png",
     description: "Sealeo live in herds on ice floes. Using its powerful flippers, it shatters ice. It dives into the sea to hunt prey five times a day.",
     stats: {
       hp: 90,
@@ -45986,7 +46349,8 @@ export const fakemons: Fakemon[] =
     ],
     eggMoves: [
 
-    ]
+    ],
+    suffix: "normal"
   },
   {
     id: "WALREIN",
@@ -45996,7 +46360,7 @@ export const fakemons: Fakemon[] =
       "WATER"
     ],
     sprite: "/sprites/WALREIN.png",
-    artwork: "/artwork/walrein.png",
+    artwork: "/sprites/WALREIN.png",
     description: "To protect its herd, the leader battles anything that invades its territory, even at the cost of its life. Its tusks may snap off in battle.",
     stats: {
       hp: 110,
@@ -46107,7 +46471,8 @@ export const fakemons: Fakemon[] =
     ],
     eggMoves: [
 
-    ]
+    ],
+    suffix: "normal"
   },
   {
     id: "CLAMPERL",
@@ -46116,7 +46481,7 @@ export const fakemons: Fakemon[] =
       "WATER"
     ],
     sprite: "/sprites/CLAMPERL.png",
-    artwork: "/artwork/clamperl.png",
+    artwork: "/sprites/CLAMPERL.png",
     description: "A Clamperl slams its shell closed on prey to prevent escape. The pearl it creates upon evolution is said to be infused with a mysterious energy.",
     stats: {
       hp: 35,
@@ -46183,7 +46548,8 @@ export const fakemons: Fakemon[] =
       "CONFUSERAY",
       "MUDDYWATER",
       "SUPERSONIC"
-    ]
+    ],
+    suffix: "normal"
   },
   {
     id: "HUNTAIL",
@@ -46192,7 +46558,7 @@ export const fakemons: Fakemon[] =
       "WATER"
     ],
     sprite: "/sprites/HUNTAIL.png",
-    artwork: "/artwork/huntail.png",
+    artwork: "/sprites/HUNTAIL.png",
     description: "To withstand the crushing water pressure deep under the sea, its spine is very thick and sturdy. Its tail, which is shaped like a small fish, has eyes that light up.",
     stats: {
       hp: 55,
@@ -46280,7 +46646,8 @@ export const fakemons: Fakemon[] =
     ],
     eggMoves: [
 
-    ]
+    ],
+    suffix: "normal"
   },
   {
     id: "GOREBYSS",
@@ -46289,7 +46656,7 @@ export const fakemons: Fakemon[] =
       "WATER"
     ],
     sprite: "/sprites/GOREBYSS.png",
-    artwork: "/artwork/gorebyss.png",
+    artwork: "/sprites/GOREBYSS.png",
     description: "A Gorebyss siphons the body fluids of prey through its thin, tubular mouth. Its light pink body color turns vivid when it finishes feeding.",
     stats: {
       hp: 55,
@@ -46378,7 +46745,8 @@ export const fakemons: Fakemon[] =
     ],
     eggMoves: [
 
-    ]
+    ],
+    suffix: "normal"
   },
   {
     id: "RELICANTH",
@@ -46388,7 +46756,7 @@ export const fakemons: Fakemon[] =
       "ROCK"
     ],
     sprite: "/sprites/RELICANTH.png",
-    artwork: "/artwork/relicanth.png",
+    artwork: "/sprites/RELICANTH.png",
     description: "A Pokémon that was once believed to be extinct. The species has not changed its form for 100 million years. It walks on the seafloor using its pectoral fins.",
     stats: {
       hp: 100,
@@ -46500,7 +46868,8 @@ export const fakemons: Fakemon[] =
       "SKULLBASH",
       "SNORE",
       "ZENHEADBUTT"
-    ]
+    ],
+    suffix: "normal"
   },
   {
     id: "LUVDISC",
@@ -46509,7 +46878,7 @@ export const fakemons: Fakemon[] =
       "WATER"
     ],
     sprite: "/sprites/LUVDISC.png",
-    artwork: "/artwork/luvdisc.png",
+    artwork: "/sprites/LUVDISC.png",
     description: "Luvdisc make the branches of Corsola their nests. There is a custom from long ago of giving a Luvdisc as a gift to express one's feelings of love.",
     stats: {
       hp: 43,
@@ -46599,7 +46968,8 @@ export const fakemons: Fakemon[] =
       "HEALPULSE",
       "SPLASH",
       "SUPERSONIC"
-    ]
+    ],
+    suffix: "normal"
   },
   {
     id: "BAGON",
@@ -46608,7 +46978,7 @@ export const fakemons: Fakemon[] =
       "DRAGON"
     ],
     sprite: "/sprites/BAGON.png",
-    artwork: "/artwork/bagon.png",
+    artwork: "/sprites/BAGON.png",
     description: "Although it is small, this Pokémon is very powerful because its body is a bundle of muscles. It launches head-butts with its ironlike skull.",
     stats: {
       hp: 45,
@@ -46712,7 +47082,8 @@ export const fakemons: Fakemon[] =
       "HYDROPUMP",
       "THRASH",
       "TWISTER"
-    ]
+    ],
+    suffix: "normal"
   },
   {
     id: "SHELGON",
@@ -46721,7 +47092,7 @@ export const fakemons: Fakemon[] =
       "DRAGON"
     ],
     sprite: "/sprites/SHELGON.png",
-    artwork: "/artwork/shelgon.png",
+    artwork: "/sprites/SHELGON.png",
     description: "It hardly eats while it awaits evolution. It becomes hardier by enduring hunger. Its shell peels off the instant it begins to evolve.",
     stats: {
       hp: 65,
@@ -46823,7 +47194,8 @@ export const fakemons: Fakemon[] =
     ],
     eggMoves: [
 
-    ]
+    ],
+    suffix: "normal"
   },
   {
     id: "SALAMENCE",
@@ -46833,7 +47205,7 @@ export const fakemons: Fakemon[] =
       "FLYING"
     ],
     sprite: "/sprites/SALAMENCE.png",
-    artwork: "/artwork/salamence.png",
+    artwork: "/sprites/SALAMENCE.png",
     description: "After many long years, its cellular structure underwent a sudden mutation to grow wings. When angered, it loses all thought and rampages out of control.",
     stats: {
       hp: 95,
@@ -46961,7 +47333,8 @@ export const fakemons: Fakemon[] =
     ],
     eggMoves: [
 
-    ]
+    ],
+    suffix: "normal"
   },
   {
     id: "BELDUM",
@@ -46971,7 +47344,7 @@ export const fakemons: Fakemon[] =
       "PSYCHIC"
     ],
     sprite: "/sprites/BELDUM.png",
-    artwork: "/artwork/beldum.png",
+    artwork: "/sprites/BELDUM.png",
     description: "When Beldum gather in a swarm, they move in perfect unison as if they were but one Pokémon. They communicate with each other using brain waves.",
     stats: {
       hp: 40,
@@ -47004,7 +47377,8 @@ export const fakemons: Fakemon[] =
     ],
     eggMoves: [
 
-    ]
+    ],
+    suffix: "normal"
   },
   {
     id: "METANG",
@@ -47014,7 +47388,7 @@ export const fakemons: Fakemon[] =
       "PSYCHIC"
     ],
     sprite: "/sprites/METANG.png",
-    artwork: "/artwork/metang.png",
+    artwork: "/sprites/METANG.png",
     description: "The claws tipping its arms pack the destructive power to tear through thick iron sheets as if they were silk. It flies at over 60 miles per hour.",
     stats: {
       hp: 60,
@@ -47139,7 +47513,8 @@ export const fakemons: Fakemon[] =
     ],
     eggMoves: [
 
-    ]
+    ],
+    suffix: "normal"
   },
   {
     id: "METAGROSS",
@@ -47149,7 +47524,7 @@ export const fakemons: Fakemon[] =
       "PSYCHIC"
     ],
     sprite: "/sprites/METAGROSS.png",
-    artwork: "/artwork/metagross.png",
+    artwork: "/sprites/METAGROSS.png",
     description: "Metagross has four brains that are joined by a complex neural network. As a result of integration, this Pokémon is smarter than a supercomputer.",
     stats: {
       hp: 80,
@@ -47286,7 +47661,8 @@ export const fakemons: Fakemon[] =
     ],
     eggMoves: [
 
-    ]
+    ],
+    suffix: "normal"
   },
   {
     id: "REGIROCK",
@@ -47295,7 +47671,7 @@ export const fakemons: Fakemon[] =
       "ROCK"
     ],
     sprite: "/sprites/REGIROCK.png",
-    artwork: "/artwork/regirock.png",
+    artwork: "/sprites/REGIROCK.png",
     description: "A Pokémon that is made entirely of rocks and boulders. If parts of its body chip off in battle, Regirock repairs itself by adding new rocks.",
     stats: {
       hp: 80,
@@ -47414,7 +47790,8 @@ export const fakemons: Fakemon[] =
     ],
     eggMoves: [
 
-    ]
+    ],
+    suffix: "normal"
   },
   {
     id: "REGICE",
@@ -47423,7 +47800,7 @@ export const fakemons: Fakemon[] =
       "ICE"
     ],
     sprite: "/sprites/REGICE.png",
-    artwork: "/artwork/regice.png",
+    artwork: "/sprites/REGICE.png",
     description: "Its entire body is made of Antarctic ice. After extensive studies, researchers believe the ice was formed during an ice age.",
     stats: {
       hp: 80,
@@ -47538,7 +47915,8 @@ export const fakemons: Fakemon[] =
     ],
     eggMoves: [
 
-    ]
+    ],
+    suffix: "normal"
   },
   {
     id: "REGISTEEL",
@@ -47547,7 +47925,7 @@ export const fakemons: Fakemon[] =
       "STEEL"
     ],
     sprite: "/sprites/REGISTEEL.png",
-    artwork: "/artwork/registeel.png",
+    artwork: "/sprites/REGISTEEL.png",
     description: "Its body is harder than any other kind of metal. The body metal is composed of a mysterious substance. Not only is it hard, it shrinks and stretches flexibly.",
     stats: {
       hp: 80,
@@ -47670,7 +48048,8 @@ export const fakemons: Fakemon[] =
     ],
     eggMoves: [
 
-    ]
+    ],
+    suffix: "normal"
   },
   {
     id: "LATIAS",
@@ -47680,7 +48059,7 @@ export const fakemons: Fakemon[] =
       "PSYCHIC"
     ],
     sprite: "/sprites/LATIAS.png",
-    artwork: "/artwork/latias.png",
+    artwork: "/sprites/LATIAS.png",
     description: "They make a small herd of only several members. They rarely make contact with people or other Pokémon. They disappear if they sense enemies.",
     stats: {
       hp: 80,
@@ -47828,7 +48207,8 @@ export const fakemons: Fakemon[] =
     ],
     eggMoves: [
 
-    ]
+    ],
+    suffix: "normal"
   },
   {
     id: "LATIOS",
@@ -47838,7 +48218,7 @@ export const fakemons: Fakemon[] =
       "PSYCHIC"
     ],
     sprite: "/sprites/LATIOS.png",
-    artwork: "/artwork/latios.png",
+    artwork: "/sprites/LATIOS.png",
     description: "Even in hiding, it can detect the locations of others and sense their emotions since it has telepathy. Its intelligence allows it to understand human languages.",
     stats: {
       hp: 80,
@@ -47980,7 +48360,8 @@ export const fakemons: Fakemon[] =
     ],
     eggMoves: [
 
-    ]
+    ],
+    suffix: "normal"
   },
   {
     id: "KYOGRE",
@@ -47989,7 +48370,7 @@ export const fakemons: Fakemon[] =
       "WATER"
     ],
     sprite: "/sprites/KYOGRE.png",
-    artwork: "/artwork/kyogre.png",
+    artwork: "/sprites/KYOGRE.png",
     description: "Kyogre has appeared in mythology as the creator of the sea. After long years of feuding with Groudon, it took to sleep at the bottom of the sea.",
     stats: {
       hp: 100,
@@ -48090,7 +48471,8 @@ export const fakemons: Fakemon[] =
     ],
     eggMoves: [
 
-    ]
+    ],
+    suffix: "normal"
   },
   {
     id: "GROUDON",
@@ -48099,7 +48481,7 @@ export const fakemons: Fakemon[] =
       "GROUND"
     ],
     sprite: "/sprites/GROUDON.png",
-    artwork: "/artwork/groudon.png",
+    artwork: "/sprites/GROUDON.png",
     description: "Groudon has appeared in mythology as the creator of the land. It sleeps in magma underground and is said to make volcanoes erupt on awakening.",
     stats: {
       hp: 100,
@@ -48235,7 +48617,8 @@ export const fakemons: Fakemon[] =
     ],
     eggMoves: [
 
-    ]
+    ],
+    suffix: "normal"
   },
   {
     id: "RAYQUAZA",
@@ -48245,7 +48628,7 @@ export const fakemons: Fakemon[] =
       "FLYING"
     ],
     sprite: "/sprites/RAYQUAZA.png",
-    artwork: "/artwork/rayquaza.png",
+    artwork: "/sprites/RAYQUAZA.png",
     description: "A Pokémon that flies endlessly in the ozone layer. It is said it would descend to the ground if Kyogre and Groudon were to fight.",
     stats: {
       hp: 105,
@@ -48383,7 +48766,8 @@ export const fakemons: Fakemon[] =
     ],
     eggMoves: [
 
-    ]
+    ],
+    suffix: "normal"
   },
   {
     id: "JIRACHI",
@@ -48393,7 +48777,7 @@ export const fakemons: Fakemon[] =
       "PSYCHIC"
     ],
     sprite: "/sprites/JIRACHI.png",
-    artwork: "/artwork/jirachi.png",
+    artwork: "/sprites/JIRACHI.png",
     description: "Jirachi is said to make wishes come true. While it sleeps, a tough crystalline shell envelops the body to protect it from enemies.",
     stats: {
       hp: 100,
@@ -48529,7 +48913,8 @@ export const fakemons: Fakemon[] =
     ],
     eggMoves: [
 
-    ]
+    ],
+    suffix: "normal"
   },
   {
     id: "DEOXYS",
@@ -48538,7 +48923,7 @@ export const fakemons: Fakemon[] =
       "PSYCHIC"
     ],
     sprite: "/sprites/DEOXYS.png",
-    artwork: "/artwork/deoxys.png",
+    artwork: "/sprites/DEOXYS.png",
     description: "A Pokémon that mutated from an extraterrestrial virus exposed to a laser beam. Its body is configured for superior agility and speed.",
     stats: {
       hp: 50,
@@ -48680,7 +49065,8 @@ export const fakemons: Fakemon[] =
     ],
     eggMoves: [
 
-    ]
+    ],
+    suffix: "normal"
   },
   {
     id: "TURTWIG",
@@ -48689,7 +49075,7 @@ export const fakemons: Fakemon[] =
       "GRASS"
     ],
     sprite: "/sprites/TURTWIG.png",
-    artwork: "/artwork/turtwig.png",
+    artwork: "/sprites/TURTWIG.png",
     description: "Made from soil, the shell on its back hardens when it drinks water. It lives along lakes.",
     stats: {
       hp: 55,
@@ -48809,7 +49195,8 @@ export const fakemons: Fakemon[] =
       "TICKLE",
       "WIDEGUARD",
       "WORRYSEED"
-    ]
+    ],
+    suffix: "normal"
   },
   {
     id: "GROTLE",
@@ -48818,7 +49205,7 @@ export const fakemons: Fakemon[] =
       "GRASS"
     ],
     sprite: "/sprites/GROTLE.png",
-    artwork: "/artwork/grotle.png",
+    artwork: "/sprites/GROTLE.png",
     description: "It lives along water in forests. In the daytime, it leaves the forest to sunbathe its treed shell.",
     stats: {
       hp: 75,
@@ -48921,7 +49308,8 @@ export const fakemons: Fakemon[] =
     ],
     eggMoves: [
 
-    ]
+    ],
+    suffix: "normal"
   },
   {
     id: "TORTERRA",
@@ -48931,7 +49319,7 @@ export const fakemons: Fakemon[] =
       "GROUND"
     ],
     sprite: "/sprites/TORTERRA.png",
-    artwork: "/artwork/torterra.png",
+    artwork: "/sprites/TORTERRA.png",
     description: "Small Pokémon occasionally gather on its unmoving back to begin building their nests.",
     stats: {
       hp: 95,
@@ -49057,7 +49445,8 @@ export const fakemons: Fakemon[] =
     ],
     eggMoves: [
 
-    ]
+    ],
+    suffix: "normal"
   },
   {
     id: "CHIMCHAR",
@@ -49066,7 +49455,7 @@ export const fakemons: Fakemon[] =
       "FIRE"
     ],
     sprite: "/sprites/CHIMCHAR.png",
-    artwork: "/artwork/chimchar.png",
+    artwork: "/sprites/CHIMCHAR.png",
     description: "It agilely scales sheer cliffs to live atop craggy mountains. Its fire is put out when it sleeps.",
     stats: {
       hp: 44,
@@ -49200,7 +49589,8 @@ export const fakemons: Fakemon[] =
       "SUBMISSION",
       "SWITCHEROO",
       "THUNDERPUNCH"
-    ]
+    ],
+    suffix: "normal"
   },
   {
     id: "MONFERNO",
@@ -49210,7 +49600,7 @@ export const fakemons: Fakemon[] =
       "FIGHTING"
     ],
     sprite: "/sprites/MONFERNO.png",
-    artwork: "/artwork/monferno.png",
+    artwork: "/sprites/MONFERNO.png",
     description: "To intimidate attackers, it stretches the fire on its tail to make itself appear bigger.",
     stats: {
       hp: 64,
@@ -49341,7 +49731,8 @@ export const fakemons: Fakemon[] =
     ],
     eggMoves: [
 
-    ]
+    ],
+    suffix: "normal"
   },
   {
     id: "INFERNAPE",
@@ -49351,7 +49742,7 @@ export const fakemons: Fakemon[] =
       "FIGHTING"
     ],
     sprite: "/sprites/INFERNAPE.png",
-    artwork: "/artwork/infernape.png",
+    artwork: "/sprites/INFERNAPE.png",
     description: "It uses a special kind of martial arts involving all its limbs. Its fire never goes out.",
     stats: {
       hp: 76,
@@ -49501,7 +49892,8 @@ export const fakemons: Fakemon[] =
     ],
     eggMoves: [
 
-    ]
+    ],
+    suffix: "normal"
   },
   {
     id: "PIPLUP",
@@ -49510,7 +49902,7 @@ export const fakemons: Fakemon[] =
       "WATER"
     ],
     sprite: "/sprites/PIPLUP.png",
-    artwork: "/artwork/piplup.png",
+    artwork: "/sprites/PIPLUP.png",
     description: "Because it is very proud, it hates accepting food from people. Its thick down guards it from cold.",
     stats: {
       hp: 53,
@@ -49622,7 +50014,8 @@ export const fakemons: Fakemon[] =
       "SNORE",
       "SUPERSONIC",
       "YAWN"
-    ]
+    ],
+    suffix: "normal"
   },
   {
     id: "PRINPLUP",
@@ -49631,7 +50024,7 @@ export const fakemons: Fakemon[] =
       "WATER"
     ],
     sprite: "/sprites/PRINPLUP.png",
-    artwork: "/artwork/prinplup.png",
+    artwork: "/sprites/PRINPLUP.png",
     description: "It lives alone, away from others. Apparently, every one of them believes it is the most important.",
     stats: {
       hp: 64,
@@ -49738,7 +50131,8 @@ export const fakemons: Fakemon[] =
     ],
     eggMoves: [
 
-    ]
+    ],
+    suffix: "normal"
   },
   {
     id: "EMPOLEON",
@@ -49748,7 +50142,7 @@ export const fakemons: Fakemon[] =
       "STEEL"
     ],
     sprite: "/sprites/EMPOLEON.png",
-    artwork: "/artwork/empoleon.png",
+    artwork: "/sprites/EMPOLEON.png",
     description: "The three horns that extend from its beak attest to its power. The leader has the biggest horns.",
     stats: {
       hp: 84,
@@ -49888,7 +50282,8 @@ export const fakemons: Fakemon[] =
     ],
     eggMoves: [
 
-    ]
+    ],
+    suffix: "normal"
   },
   {
     id: "STARLY",
@@ -49898,7 +50293,7 @@ export const fakemons: Fakemon[] =
       "FLYING"
     ],
     sprite: "/sprites/STARLY.png",
-    artwork: "/artwork/starly.png",
+    artwork: "/sprites/STARLY.png",
     description: "They flock in great numbers. Though small, they flap their wings with great power.",
     stats: {
       hp: 40,
@@ -49992,7 +50387,8 @@ export const fakemons: Fakemon[] =
       "REVENGE",
       "SANDATTACK",
       "UPROAR"
-    ]
+    ],
+    suffix: "normal"
   },
   {
     id: "STARAVIA",
@@ -50002,7 +50398,7 @@ export const fakemons: Fakemon[] =
       "FLYING"
     ],
     sprite: "/sprites/STARAVIA.png",
-    artwork: "/artwork/staravia.png",
+    artwork: "/sprites/STARAVIA.png",
     description: "It flies around forests and fields in search of bug Pokémon. It stays within a huge flock.",
     stats: {
       hp: 55,
@@ -50090,7 +50486,8 @@ export const fakemons: Fakemon[] =
     ],
     eggMoves: [
 
-    ]
+    ],
+    suffix: "normal"
   },
   {
     id: "STARAPTOR",
@@ -50100,7 +50497,7 @@ export const fakemons: Fakemon[] =
       "FLYING"
     ],
     sprite: "/sprites/STARAPTOR.png",
-    artwork: "/artwork/staraptor.png",
+    artwork: "/sprites/STARAPTOR.png",
     description: "It has a savage nature. It will courageously challenge foes that are much larger.",
     stats: {
       hp: 85,
@@ -50195,7 +50592,8 @@ export const fakemons: Fakemon[] =
     ],
     eggMoves: [
 
-    ]
+    ],
+    suffix: "normal"
   },
   {
     id: "BIDOOF",
@@ -50204,7 +50602,7 @@ export const fakemons: Fakemon[] =
       "NORMAL"
     ],
     sprite: "/sprites/BIDOOF.png",
-    artwork: "/artwork/bidoof.png",
+    artwork: "/sprites/BIDOOF.png",
     description: "With nerves of steel, nothing can perturb it. It is more agile and active than it appears.",
     stats: {
       hp: 59,
@@ -50303,7 +50701,8 @@ export const fakemons: Fakemon[] =
       "QUICKATTACK",
       "ROLLOUT",
       "SKULLBASH"
-    ]
+    ],
+    suffix: "normal"
   },
   {
     id: "BIBAREL",
@@ -50313,7 +50712,7 @@ export const fakemons: Fakemon[] =
       "WATER"
     ],
     sprite: "/sprites/BIBAREL.png",
-    artwork: "/artwork/bibarel.png",
+    artwork: "/sprites/BIBAREL.png",
     description: "It makes its nest by damming streams with bark and mud. It is known as an industrious worker.",
     stats: {
       hp: 79,
@@ -50423,7 +50822,8 @@ export const fakemons: Fakemon[] =
     ],
     eggMoves: [
 
-    ]
+    ],
+    suffix: "normal"
   },
   {
     id: "KRICKETOT",
@@ -50432,7 +50832,7 @@ export const fakemons: Fakemon[] =
       "BUG"
     ],
     sprite: "/sprites/KRICKETOT.png",
-    artwork: "/artwork/kricketot.png",
+    artwork: "/sprites/KRICKETOT.png",
     description: "It shakes its head back to front, causing its antennae to hit each other and sound like a xylophone.",
     stats: {
       hp: 37,
@@ -50469,7 +50869,8 @@ export const fakemons: Fakemon[] =
     ],
     eggMoves: [
 
-    ]
+    ],
+    suffix: "normal"
   },
   {
     id: "KRICKETUNE",
@@ -50478,7 +50879,7 @@ export const fakemons: Fakemon[] =
       "BUG"
     ],
     sprite: "/sprites/KRICKETUNE.png",
-    artwork: "/artwork/kricketune.png",
+    artwork: "/sprites/KRICKETUNE.png",
     description: "It crosses its knifelike arms in front of its chest when it cries. It can compose melodies ad lib.",
     stats: {
       hp: 77,
@@ -50578,7 +50979,8 @@ export const fakemons: Fakemon[] =
     ],
     eggMoves: [
 
-    ]
+    ],
+    suffix: "normal"
   },
   {
     id: "SHINX",
@@ -50587,7 +50989,7 @@ export const fakemons: Fakemon[] =
       "ELECTRIC"
     ],
     sprite: "/sprites/SHINX.png",
-    artwork: "/artwork/shinx.png",
+    artwork: "/sprites/SHINX.png",
     description: "All of its fur dazzles if danger is sensed. It flees while the foe is momentarily blinded.",
     stats: {
       hp: 45,
@@ -50700,7 +51102,8 @@ export const fakemons: Fakemon[] =
       "SWIFT",
       "TAKEDOWN",
       "THUNDERFANG"
-    ]
+    ],
+    suffix: "normal"
   },
   {
     id: "LUXIO",
@@ -50709,7 +51112,7 @@ export const fakemons: Fakemon[] =
       "ELECTRIC"
     ],
     sprite: "/sprites/LUXIO.png",
-    artwork: "/artwork/luxio.png",
+    artwork: "/sprites/LUXIO.png",
     description: "Its claws loose electricity with enough amperage to cause fainting. They live in small groups.",
     stats: {
       hp: 60,
@@ -50809,7 +51212,8 @@ export const fakemons: Fakemon[] =
     ],
     eggMoves: [
 
-    ]
+    ],
+    suffix: "normal"
   },
   {
     id: "LUXRAY",
@@ -50818,7 +51222,7 @@ export const fakemons: Fakemon[] =
       "ELECTRIC"
     ],
     sprite: "/sprites/LUXRAY.png",
-    artwork: "/artwork/luxray.png",
+    artwork: "/sprites/LUXRAY.png",
     description: "It has eyes that can see through anything. It spots and captures prey hiding behind objects.",
     stats: {
       hp: 80,
@@ -50927,7 +51331,8 @@ export const fakemons: Fakemon[] =
     ],
     eggMoves: [
 
-    ]
+    ],
+    suffix: "normal"
   },
   {
     id: "BUDEW",
@@ -50937,7 +51342,7 @@ export const fakemons: Fakemon[] =
       "POISON"
     ],
     sprite: "/sprites/BUDEW.png",
-    artwork: "/artwork/budew.png",
+    artwork: "/sprites/BUDEW.png",
     description: "Over the winter, it closes its bud and endures the cold. In spring, the bud opens and releases pollen.",
     stats: {
       hp: 40,
@@ -51025,7 +51430,8 @@ export const fakemons: Fakemon[] =
       "SLEEPPOWDER",
       "SPIKES",
       "SYNTHESIS"
-    ]
+    ],
+    suffix: "normal"
   },
   {
     id: "ROSERADE",
@@ -51035,7 +51441,7 @@ export const fakemons: Fakemon[] =
       "POISON"
     ],
     sprite: "/sprites/ROSERADE.png",
-    artwork: "/artwork/roserade.png",
+    artwork: "/sprites/ROSERADE.png",
     description: "It attracts prey with a sweet aroma, then downs it with thorny whips hidden in its arms.",
     stats: {
       hp: 60,
@@ -51140,7 +51546,8 @@ export const fakemons: Fakemon[] =
     ],
     eggMoves: [
 
-    ]
+    ],
+    suffix: "normal"
   },
   {
     id: "CRANIDOS",
@@ -51149,7 +51556,7 @@ export const fakemons: Fakemon[] =
       "ROCK"
     ],
     sprite: "/sprites/CRANIDOS.png",
-    artwork: "/artwork/cranidos.png",
+    artwork: "/sprites/CRANIDOS.png",
     description: "It lived in jungles around 100 million years ago. Its skull is as hard as iron.",
     stats: {
       hp: 67,
@@ -51267,7 +51674,8 @@ export const fakemons: Fakemon[] =
       "STOMP",
       "THRASH",
       "WHIRLWIND"
-    ]
+    ],
+    suffix: "normal"
   },
   {
     id: "RAMPARDOS",
@@ -51276,7 +51684,7 @@ export const fakemons: Fakemon[] =
       "ROCK"
     ],
     sprite: "/sprites/RAMPARDOS.png",
-    artwork: "/artwork/rampardos.png",
+    artwork: "/sprites/RAMPARDOS.png",
     description: "Its powerful head butt has enough power to shatter even the most durable things upon impact.",
     stats: {
       hp: 97,
@@ -51402,7 +51810,8 @@ export const fakemons: Fakemon[] =
     ],
     eggMoves: [
 
-    ]
+    ],
+    suffix: "normal"
   },
   {
     id: "SHIELDON",
@@ -51412,7 +51821,7 @@ export const fakemons: Fakemon[] =
       "STEEL"
     ],
     sprite: "/sprites/SHIELDON.png",
-    artwork: "/artwork/shieldon.png",
+    artwork: "/sprites/SHIELDON.png",
     description: "A Pokémon that lived in jungles around 100 million years ago. Its facial hide is extremely hard.",
     stats: {
       hp: 30,
@@ -51529,7 +51938,8 @@ export const fakemons: Fakemon[] =
       "SCARYFACE",
       "SCREECH",
       "WIDEGUARD"
-    ]
+    ],
+    suffix: "normal"
   },
   {
     id: "BASTIODON",
@@ -51539,7 +51949,7 @@ export const fakemons: Fakemon[] =
       "STEEL"
     ],
     sprite: "/sprites/BASTIODON.png",
-    artwork: "/artwork/bastiodon.png",
+    artwork: "/sprites/BASTIODON.png",
     description: "Any frontal attack is repulsed. It is a docile Pokémon that feeds on grass and berries.",
     stats: {
       hp: 60,
@@ -51658,7 +52068,8 @@ export const fakemons: Fakemon[] =
     ],
     eggMoves: [
 
-    ]
+    ],
+    suffix: "normal"
   },
   {
     id: "BURMY",
@@ -51667,7 +52078,7 @@ export const fakemons: Fakemon[] =
       "BUG"
     ],
     sprite: "/sprites/BURMY.png",
-    artwork: "/artwork/burmy.png",
+    artwork: "/sprites/BURMY.png",
     description: "To shelter itself from cold, wintry winds, it covers itself with a cloak made of twigs and leaves.",
     stats: {
       hp: 40,
@@ -51702,7 +52113,8 @@ export const fakemons: Fakemon[] =
     ],
     eggMoves: [
 
-    ]
+    ],
+    suffix: "normal"
   },
   {
     id: "WORMADAM",
@@ -51712,7 +52124,7 @@ export const fakemons: Fakemon[] =
       "GRASS"
     ],
     sprite: "/sprites/WORMADAM.png",
-    artwork: "/artwork/wormadam.png",
+    artwork: "/sprites/WORMADAM.png",
     description: "When Burmy evolved, its cloak became a part of this Pokémon's body. The cloak is never shed.",
     stats: {
       hp: 60,
@@ -51808,7 +52220,8 @@ export const fakemons: Fakemon[] =
     ],
     eggMoves: [
 
-    ]
+    ],
+    suffix: "normal"
   },
   {
     id: "MOTHIM",
@@ -51818,7 +52231,7 @@ export const fakemons: Fakemon[] =
       "FLYING"
     ],
     sprite: "/sprites/MOTHIM.png",
-    artwork: "/artwork/mothim.png",
+    artwork: "/sprites/MOTHIM.png",
     description: "It loves the honey of flowers and steals honey collected by Combee.",
     stats: {
       hp: 70,
@@ -51914,7 +52327,8 @@ export const fakemons: Fakemon[] =
     ],
     eggMoves: [
 
-    ]
+    ],
+    suffix: "normal"
   },
   {
     id: "COMBEE",
@@ -51924,7 +52338,7 @@ export const fakemons: Fakemon[] =
       "FLYING"
     ],
     sprite: "/sprites/COMBEE.png",
-    artwork: "/artwork/combee.png",
+    artwork: "/sprites/COMBEE.png",
     description: "A Pokémon formed by three others. It busily carries sweet floral honey to Vespiquen.",
     stats: {
       hp: 30,
@@ -51964,7 +52378,8 @@ export const fakemons: Fakemon[] =
     ],
     eggMoves: [
 
-    ]
+    ],
+    suffix: "normal"
   },
   {
     id: "VESPIQUEN",
@@ -51974,7 +52389,7 @@ export const fakemons: Fakemon[] =
       "FLYING"
     ],
     sprite: "/sprites/VESPIQUEN.png",
-    artwork: "/artwork/vespiquen.png",
+    artwork: "/sprites/VESPIQUEN.png",
     description: "Its abdomen is a honeycomb for grubs. It raises its grubs on honey collected by Combee.",
     stats: {
       hp: 70,
@@ -52095,7 +52510,8 @@ export const fakemons: Fakemon[] =
     ],
     eggMoves: [
 
-    ]
+    ],
+    suffix: "normal"
   },
   {
     id: "PACHIRISU",
@@ -52104,7 +52520,7 @@ export const fakemons: Fakemon[] =
       "ELECTRIC"
     ],
     sprite: "/sprites/PACHIRISU.png",
-    artwork: "/artwork/pachirisu.png",
+    artwork: "/sprites/PACHIRISU.png",
     description: "It makes fur balls that crackle with static electricity. It stores them with berries in tree holes.",
     stats: {
       hp: 60,
@@ -52227,7 +52643,8 @@ export const fakemons: Fakemon[] =
       "FOLLOWME",
       "ROLLOUT",
       "TAILWHIP"
-    ]
+    ],
+    suffix: "normal"
   },
   {
     id: "BUIZEL",
@@ -52236,7 +52653,7 @@ export const fakemons: Fakemon[] =
       "WATER"
     ],
     sprite: "/sprites/BUIZEL.png",
-    artwork: "/artwork/buizel.png",
+    artwork: "/sprites/BUIZEL.png",
     description: "It has a flotation sac that is like an inflatable collar. It floats on water with its head out.",
     stats: {
       hp: 55,
@@ -52348,7 +52765,8 @@ export const fakemons: Fakemon[] =
       "SLASH",
       "SOAK",
       "SWITCHEROO"
-    ]
+    ],
+    suffix: "normal"
   },
   {
     id: "FLOATZEL",
@@ -52357,7 +52775,7 @@ export const fakemons: Fakemon[] =
       "WATER"
     ],
     sprite: "/sprites/FLOATZEL.png",
-    artwork: "/artwork/floatzel.png",
+    artwork: "/sprites/FLOATZEL.png",
     description: "It floats using its well-developed flotation sac. It assists in the rescues of drowning people.",
     stats: {
       hp: 85,
@@ -52471,7 +52889,8 @@ export const fakemons: Fakemon[] =
     ],
     eggMoves: [
 
-    ]
+    ],
+    suffix: "normal"
   },
   {
     id: "CHERUBI",
@@ -52480,7 +52899,7 @@ export const fakemons: Fakemon[] =
       "GRASS"
     ],
     sprite: "/sprites/CHERUBI.png",
-    artwork: "/artwork/cherubi.png",
+    artwork: "/sprites/CHERUBI.png",
     description: "The small ball holds the nutrients needed for evolution. Apparently, it is very sweet and tasty.",
     stats: {
       hp: 45,
@@ -52569,7 +52988,8 @@ export const fakemons: Fakemon[] =
       "SWEETSCENT",
       "TICKLE",
       "WEATHERBALL"
-    ]
+    ],
+    suffix: "normal"
   },
   {
     id: "CHERRIM",
@@ -52578,7 +52998,7 @@ export const fakemons: Fakemon[] =
       "GRASS"
     ],
     sprite: "/sprites/CHERRIM.png",
-    artwork: "/artwork/cherrim.png",
+    artwork: "/sprites/CHERRIM.png",
     description: "Its folded petals are pretty tough. Bird Pokémon can peck at them all they want, and Cherrim won't be bothered at all.",
     stats: {
       hp: 70,
@@ -52663,7 +53083,8 @@ export const fakemons: Fakemon[] =
     ],
     eggMoves: [
 
-    ]
+    ],
+    suffix: "normal"
   },
   {
     id: "SHELLOS",
@@ -52672,7 +53093,7 @@ export const fakemons: Fakemon[] =
       "WATER"
     ],
     sprite: "/sprites/SHELLOS.png",
-    artwork: "/artwork/shellos.png",
+    artwork: "/sprites/SHELLOS.png",
     description: "This Pokémon's habitat shapes its physique. According to some theories, life in warm ocean waters causes this variation to develop.",
     stats: {
       hp: 76,
@@ -52778,7 +53199,8 @@ export const fakemons: Fakemon[] =
       "STOCKPILE",
       "SWALLOW",
       "YAWN"
-    ]
+    ],
+    suffix: "normal"
   },
   {
     id: "GASTRODON",
@@ -52788,7 +53210,7 @@ export const fakemons: Fakemon[] =
       "GROUND"
     ],
     sprite: "/sprites/GASTRODON.png",
-    artwork: "/artwork/gastrodon.png",
+    artwork: "/sprites/GASTRODON.png",
     description: "Its search for food sometimes leads it onto land, where it leaves behind a sticky trail of slime as it passes through.",
     stats: {
       hp: 111,
@@ -52896,7 +53318,8 @@ export const fakemons: Fakemon[] =
     ],
     eggMoves: [
 
-    ]
+    ],
+    suffix: "normal"
   },
   {
     id: "AMBIPOM",
@@ -52905,7 +53328,7 @@ export const fakemons: Fakemon[] =
       "NORMAL"
     ],
     sprite: "/sprites/AMBIPOM.png",
-    artwork: "/artwork/ambipom.png",
+    artwork: "/sprites/AMBIPOM.png",
     description: "To eat, it deftly shucks nuts with its two tails. It rarely uses its arms now.",
     stats: {
       hp: 75,
@@ -53038,7 +53461,8 @@ export const fakemons: Fakemon[] =
     ],
     eggMoves: [
 
-    ]
+    ],
+    suffix: "normal"
   },
   {
     id: "DRIFLOON",
@@ -53048,7 +53472,7 @@ export const fakemons: Fakemon[] =
       "FLYING"
     ],
     sprite: "/sprites/DRIFLOON.png",
-    artwork: "/artwork/drifloon.png",
+    artwork: "/sprites/DRIFLOON.png",
     description: "A Pokémon formed by the spirits of people and Pokémon. It loves damp, humid seasons.",
     stats: {
       hp: 90,
@@ -53175,7 +53599,8 @@ export const fakemons: Fakemon[] =
       "MEMENTO",
       "TAILWIND",
       "WEATHERBALL"
-    ]
+    ],
+    suffix: "normal"
   },
   {
     id: "DRIFBLIM",
@@ -53185,7 +53610,7 @@ export const fakemons: Fakemon[] =
       "FLYING"
     ],
     sprite: "/sprites/DRIFBLIM.png",
-    artwork: "/artwork/drifblim.png",
+    artwork: "/sprites/DRIFBLIM.png",
     description: "It's drowzy in daytime, but flies off in the evening in big groups. No one knows where they go.",
     stats: {
       hp: 150,
@@ -53310,7 +53735,8 @@ export const fakemons: Fakemon[] =
     ],
     eggMoves: [
 
-    ]
+    ],
+    suffix: "normal"
   },
   {
     id: "BUNEARY",
@@ -53319,7 +53745,7 @@ export const fakemons: Fakemon[] =
       "NORMAL"
     ],
     sprite: "/sprites/BUNEARY.png",
-    artwork: "/artwork/buneary.png",
+    artwork: "/sprites/BUNEARY.png",
     description: "It slams foes by sharply uncoiling its rolled ears. It stings enough to make a grown-up cry in pain.",
     stats: {
       hp: 55,
@@ -53446,7 +53872,8 @@ export const fakemons: Fakemon[] =
       "SWITCHEROO",
       "TEETERDANCE",
       "THUNDERPUNCH"
-    ]
+    ],
+    suffix: "normal"
   },
   {
     id: "LOPUNNY",
@@ -53455,7 +53882,7 @@ export const fakemons: Fakemon[] =
       "NORMAL"
     ],
     sprite: "/sprites/LOPUNNY.png",
-    artwork: "/artwork/lopunny.png",
+    artwork: "/sprites/LOPUNNY.png",
     description: "An extremely cautious Pokémon. It cloaks its body with its fluffy ear fur when it senses danger.",
     stats: {
       hp: 65,
@@ -53583,7 +54010,8 @@ export const fakemons: Fakemon[] =
     ],
     eggMoves: [
 
-    ]
+    ],
+    suffix: "normal"
   },
   {
     id: "MISMAGIUS",
@@ -53592,7 +54020,7 @@ export const fakemons: Fakemon[] =
       "GHOST"
     ],
     sprite: "/sprites/MISMAGIUS.png",
-    artwork: "/artwork/mismagius.png",
+    artwork: "/sprites/MISMAGIUS.png",
     description: "Its cries sound like incantations. Those hearing it are tormented by headaches and hallucinations.",
     stats: {
       hp: 60,
@@ -53715,7 +54143,8 @@ export const fakemons: Fakemon[] =
     ],
     eggMoves: [
 
-    ]
+    ],
+    suffix: "normal"
   },
   {
     id: "HONCHKROW",
@@ -53725,7 +54154,7 @@ export const fakemons: Fakemon[] =
       "FLYING"
     ],
     sprite: "/sprites/HONCHKROW.png",
-    artwork: "/artwork/honchkrow.png",
+    artwork: "/sprites/HONCHKROW.png",
     description: "Becoming active at night, it is known to swarm with numerous Murkrow in tow.",
     stats: {
       hp: 100,
@@ -53842,7 +54271,8 @@ export const fakemons: Fakemon[] =
     ],
     eggMoves: [
 
-    ]
+    ],
+    suffix: "normal"
   },
   {
     id: "GLAMEOW",
@@ -53851,7 +54281,7 @@ export const fakemons: Fakemon[] =
       "NORMAL"
     ],
     sprite: "/sprites/GLAMEOW.png",
-    artwork: "/artwork/glameow.png",
+    artwork: "/sprites/GLAMEOW.png",
     description: "It claws if displeased and purrs when affectionate. Its fickleness is very popular among some.",
     stats: {
       hp: 49,
@@ -53953,7 +54383,8 @@ export const fakemons: Fakemon[] =
       "QUICKATTACK",
       "SANDATTACK",
       "TAILWHIP"
-    ]
+    ],
+    suffix: "normal"
   },
   {
     id: "PURUGLY",
@@ -53962,7 +54393,7 @@ export const fakemons: Fakemon[] =
       "NORMAL"
     ],
     sprite: "/sprites/PURUGLY.png",
-    artwork: "/artwork/purugly.png",
+    artwork: "/sprites/PURUGLY.png",
     description: "It is a brazen brute that barges its way into another Pokémon's nest and claims it as its own.",
     stats: {
       hp: 71,
@@ -54068,7 +54499,8 @@ export const fakemons: Fakemon[] =
     ],
     eggMoves: [
 
-    ]
+    ],
+    suffix: "normal"
   },
   {
     id: "CHINGLING",
@@ -54077,7 +54509,7 @@ export const fakemons: Fakemon[] =
       "PSYCHIC"
     ],
     sprite: "/sprites/CHINGLING.png",
-    artwork: "/artwork/chingling.png",
+    artwork: "/sprites/CHINGLING.png",
     description: "It emits cries by agitating an orb at the back of its throat. It moves with flouncing hops.",
     stats: {
       hp: 45,
@@ -54187,7 +54619,8 @@ export const fakemons: Fakemon[] =
       "RECYCLE",
       "STOREDPOWER",
       "WISH"
-    ]
+    ],
+    suffix: "normal"
   },
   {
     id: "STUNKY",
@@ -54197,7 +54630,7 @@ export const fakemons: Fakemon[] =
       "DARK"
     ],
     sprite: "/sprites/STUNKY.png",
-    artwork: "/artwork/stunky.png",
+    artwork: "/sprites/STUNKY.png",
     description: "It protects itself by spraying a noxious fluid from its rear. The stench lingers for 24 hours.",
     stats: {
       hp: 63,
@@ -54325,7 +54758,8 @@ export const fakemons: Fakemon[] =
       "SCARYFACE",
       "SLASH",
       "SMOG"
-    ]
+    ],
+    suffix: "normal"
   },
   {
     id: "SKUNTANK",
@@ -54335,7 +54769,7 @@ export const fakemons: Fakemon[] =
       "DARK"
     ],
     sprite: "/sprites/SKUNTANK.png",
-    artwork: "/artwork/skuntank.png",
+    artwork: "/sprites/SKUNTANK.png",
     description: "It sprays a vile-smelling fluid from the tip of its tail to attack. Its range is over 160 feet.",
     stats: {
       hp: 103,
@@ -54461,7 +54895,8 @@ export const fakemons: Fakemon[] =
     ],
     eggMoves: [
 
-    ]
+    ],
+    suffix: "normal"
   },
   {
     id: "BRONZOR",
@@ -54471,7 +54906,7 @@ export const fakemons: Fakemon[] =
       "PSYCHIC"
     ],
     sprite: "/sprites/BRONZOR.png",
-    artwork: "/artwork/bronzor.png",
+    artwork: "/sprites/BRONZOR.png",
     description: "Implements shaped like it were discovered in ancient tombs. It is unknown if they are related.",
     stats: {
       hp: 57,
@@ -54589,7 +55024,8 @@ export const fakemons: Fakemon[] =
     eggMoves: [
       "GRAVITY",
       "RECYCLE"
-    ]
+    ],
+    suffix: "normal"
   },
   {
     id: "BRONZONG",
@@ -54599,7 +55035,7 @@ export const fakemons: Fakemon[] =
       "PSYCHIC"
     ],
     sprite: "/sprites/BRONZONG.png",
-    artwork: "/artwork/bronzong.png",
+    artwork: "/sprites/BRONZONG.png",
     description: "One caused a news sensation when it was dug up at a construction site after a 2,000-year sleep.",
     stats: {
       hp: 67,
@@ -54733,7 +55169,8 @@ export const fakemons: Fakemon[] =
     ],
     eggMoves: [
 
-    ]
+    ],
+    suffix: "normal"
   },
   {
     id: "BONSLY",
@@ -54742,7 +55179,7 @@ export const fakemons: Fakemon[] =
       "ROCK"
     ],
     sprite: "/sprites/BONSLY.png",
-    artwork: "/artwork/bonsly.png",
+    artwork: "/sprites/BONSLY.png",
     description: "It looks as if it is always crying. It is actually adjusting its body's fluid levels by eliminating excess.",
     stats: {
       hp: 50,
@@ -54851,7 +55288,8 @@ export const fakemons: Fakemon[] =
       "ROLLOUT",
       "SANDTOMB",
       "SELFDESTRUCT"
-    ]
+    ],
+    suffix: "normal"
   },
   {
     id: "MIMEJR",
@@ -54861,7 +55299,7 @@ export const fakemons: Fakemon[] =
       "FAIRY"
     ],
     sprite: "/sprites/MIMEJR.png",
-    artwork: "/artwork/mimejr.png",
+    artwork: "/sprites/MIMEJR.png",
     description: "It habitually mimics foes. Once mimicked, the foe cannot take its eyes off this Pokémon.",
     stats: {
       hp: 20,
@@ -54989,7 +55427,8 @@ export const fakemons: Fakemon[] =
       "TEETERDANCE",
       "TICKLE",
       "TRICK"
-    ]
+    ],
+    suffix: "normal"
   },
   {
     id: "HAPPINY",
@@ -54998,7 +55437,7 @@ export const fakemons: Fakemon[] =
       "NORMAL"
     ],
     sprite: "/sprites/HAPPINY.png",
-    artwork: "/artwork/happiny.png",
+    artwork: "/sprites/HAPPINY.png",
     description: "It loves round white things. It carries an egg-shaped rock in imitation of Chansey.",
     stats: {
       hp: 100,
@@ -55093,7 +55532,8 @@ export const fakemons: Fakemon[] =
       "METRONOME",
       "PRESENT",
       "SEISMICTOSS"
-    ]
+    ],
+    suffix: "normal"
   },
   {
     id: "CHATOT",
@@ -55103,7 +55543,7 @@ export const fakemons: Fakemon[] =
       "FLYING"
     ],
     sprite: "/sprites/CHATOT.png",
-    artwork: "/artwork/chatot.png",
+    artwork: "/sprites/CHATOT.png",
     description: "It can learn and speak human words. If they gather, they all learn the same saying.",
     stats: {
       hp: 76,
@@ -55197,7 +55637,8 @@ export const fakemons: Fakemon[] =
       "ENCORE",
       "NIGHTSHADE",
       "SUPERSONIC"
-    ]
+    ],
+    suffix: "normal"
   },
   {
     id: "SPIRITOMB",
@@ -55207,7 +55648,7 @@ export const fakemons: Fakemon[] =
       "DARK"
     ],
     sprite: "/sprites/SPIRITOMB.png",
-    artwork: "/artwork/spiritomb.png",
+    artwork: "/sprites/SPIRITOMB.png",
     description: "A Pokémon that was formed by 108 spirits. It is bound to a fissure in an odd keystone.",
     stats: {
       hp: 50,
@@ -55327,7 +55768,8 @@ export const fakemons: Fakemon[] =
       "PAINSPLIT",
       "SHADOWSNEAK",
       "SMOKESCREEN"
-    ]
+    ],
+    suffix: "normal"
   },
   {
     id: "GIBLE",
@@ -55337,7 +55779,7 @@ export const fakemons: Fakemon[] =
       "GROUND"
     ],
     sprite: "/sprites/GIBLE.png",
-    artwork: "/artwork/gible.png",
+    artwork: "/sprites/GIBLE.png",
     description: "It nests in small, horizontal holes in cave walls. It pounces to catch prey that stray too close.",
     stats: {
       hp: 58,
@@ -55450,7 +55892,8 @@ export const fakemons: Fakemon[] =
       "SCARYFACE",
       "THRASH",
       "TWISTER"
-    ]
+    ],
+    suffix: "normal"
   },
   {
     id: "GABITE",
@@ -55460,7 +55903,7 @@ export const fakemons: Fakemon[] =
       "GROUND"
     ],
     sprite: "/sprites/GABITE.png",
-    artwork: "/artwork/gabite.png",
+    artwork: "/sprites/GABITE.png",
     description: "There is a long-held belief that medicine made from its scales will heal even incurable illnesses.",
     stats: {
       hp: 68,
@@ -55569,7 +56012,8 @@ export const fakemons: Fakemon[] =
     ],
     eggMoves: [
 
-    ]
+    ],
+    suffix: "normal"
   },
   {
     id: "GARCHOMP",
@@ -55579,7 +56023,7 @@ export const fakemons: Fakemon[] =
       "GROUND"
     ],
     sprite: "/sprites/GARCHOMP.png",
-    artwork: "/artwork/garchomp.png",
+    artwork: "/sprites/GARCHOMP.png",
     description: "When it folds up its body and extends its wings, it looks like a jet plane. It flies at sonic speed.",
     stats: {
       hp: 108,
@@ -55700,7 +56144,8 @@ export const fakemons: Fakemon[] =
     ],
     eggMoves: [
 
-    ]
+    ],
+    suffix: "normal"
   },
   {
     id: "MUNCHLAX",
@@ -55709,7 +56154,7 @@ export const fakemons: Fakemon[] =
       "NORMAL"
     ],
     sprite: "/sprites/MUNCHLAX.png",
-    artwork: "/artwork/munchlax.png",
+    artwork: "/sprites/MUNCHLAX.png",
     description: "It wolfs down its weight in food once a day, swallowing food whole with almost no chewing.",
     stats: {
       hp: 135,
@@ -55847,7 +56292,8 @@ export const fakemons: Fakemon[] =
       "SELFDESTRUCT",
       "WHIRLWIND",
       "ZENHEADBUTT"
-    ]
+    ],
+    suffix: "normal"
   },
   {
     id: "RIOLU",
@@ -55856,7 +56302,7 @@ export const fakemons: Fakemon[] =
       "FIGHTING"
     ],
     sprite: "/sprites/RIOLU.png",
-    artwork: "/artwork/riolu.png",
+    artwork: "/sprites/RIOLU.png",
     description: "The aura that emanates from its body intensifies to alert others if it is afraid or sad.",
     stats: {
       hp: 40,
@@ -55987,7 +56433,8 @@ export const fakemons: Fakemon[] =
       "METEORMASH",
       "MINDREADER",
       "VACUUMWAVE"
-    ]
+    ],
+    suffix: "normal"
   },
   {
     id: "LUCARIO",
@@ -55997,7 +56444,7 @@ export const fakemons: Fakemon[] =
       "STEEL"
     ],
     sprite: "/sprites/LUCARIO.png",
-    artwork: "/artwork/lucario.png",
+    artwork: "/sprites/LUCARIO.png",
     description: "It has the ability to sense the auras of all things. It understands human speech.",
     stats: {
       hp: 70,
@@ -56145,7 +56592,8 @@ export const fakemons: Fakemon[] =
     ],
     eggMoves: [
 
-    ]
+    ],
+    suffix: "normal"
   },
   {
     id: "HIPPOPOTAS",
@@ -56154,7 +56602,7 @@ export const fakemons: Fakemon[] =
       "GROUND"
     ],
     sprite: "/sprites/HIPPOPOTAS.png",
-    artwork: "/artwork/hippopotas.png",
+    artwork: "/sprites/HIPPOPOTAS.png",
     description: "It lives in arid places. Instead of perspiration, it expels grainy sand from its body.",
     stats: {
       hp: 68,
@@ -56257,7 +56705,8 @@ export const fakemons: Fakemon[] =
       "STOCKPILE",
       "SWALLOW",
       "WHIRLWIND"
-    ]
+    ],
+    suffix: "normal"
   },
   {
     id: "HIPPOWDON",
@@ -56266,7 +56715,7 @@ export const fakemons: Fakemon[] =
       "GROUND"
     ],
     sprite: "/sprites/HIPPOWDON.png",
-    artwork: "/artwork/hippowdon.png",
+    artwork: "/sprites/HIPPOWDON.png",
     description: "It blasts internally stored sand from ports on its body to create a towering twister for attack.",
     stats: {
       hp: 108,
@@ -56370,7 +56819,8 @@ export const fakemons: Fakemon[] =
     ],
     eggMoves: [
 
-    ]
+    ],
+    suffix: "normal"
   },
   {
     id: "SKORUPI",
@@ -56380,7 +56830,7 @@ export const fakemons: Fakemon[] =
       "BUG"
     ],
     sprite: "/sprites/SKORUPI.png",
-    artwork: "/artwork/skorupi.png",
+    artwork: "/sprites/SKORUPI.png",
     description: "It grips prey with its tail claws and injects poison. It tenaciously hangs on until the poison takes.",
     stats: {
       hp: 40,
@@ -56494,7 +56944,8 @@ export const fakemons: Fakemon[] =
       "SCREECH",
       "SLASH",
       "WHIRLWIND"
-    ]
+    ],
+    suffix: "normal"
   },
   {
     id: "DRAPION",
@@ -56504,7 +56955,7 @@ export const fakemons: Fakemon[] =
       "DARK"
     ],
     sprite: "/sprites/DRAPION.png",
-    artwork: "/artwork/drapion.png",
+    artwork: "/sprites/DRAPION.png",
     description: "It has the power in its clawed arms to make scrap of a car. The tips of its claws release poison.",
     stats: {
       hp: 70,
@@ -56634,7 +57085,8 @@ export const fakemons: Fakemon[] =
     ],
     eggMoves: [
 
-    ]
+    ],
+    suffix: "normal"
   },
   {
     id: "CROAGUNK",
@@ -56644,7 +57096,7 @@ export const fakemons: Fakemon[] =
       "FIGHTING"
     ],
     sprite: "/sprites/CROAGUNK.png",
-    artwork: "/artwork/croagunk.png",
+    artwork: "/sprites/CROAGUNK.png",
     description: "Its cheeks hold poison sacs. It tries to catch foes off guard to jab them with toxic fingers.",
     stats: {
       hp: 48,
@@ -56784,7 +57236,8 @@ export const fakemons: Fakemon[] =
       "HEADBUTT",
       "QUICKGUARD",
       "VACUUMWAVE"
-    ]
+    ],
+    suffix: "normal"
   },
   {
     id: "TOXICROAK",
@@ -56794,7 +57247,7 @@ export const fakemons: Fakemon[] =
       "FIGHTING"
     ],
     sprite: "/sprites/TOXICROAK.png",
-    artwork: "/artwork/toxicroak.png",
+    artwork: "/sprites/TOXICROAK.png",
     description: "Its knuckle claws secrete a toxin so vile that even a scratch could prove fatal.",
     stats: {
       hp: 83,
@@ -56935,7 +57388,8 @@ export const fakemons: Fakemon[] =
     ],
     eggMoves: [
 
-    ]
+    ],
+    suffix: "normal"
   },
   {
     id: "CARNIVINE",
@@ -56944,7 +57398,7 @@ export const fakemons: Fakemon[] =
       "GRASS"
     ],
     sprite: "/sprites/CARNIVINE.png",
-    artwork: "/artwork/carnivine.png",
+    artwork: "/sprites/CARNIVINE.png",
     description: "It attracts prey with its sweet-smelling saliva, then chomps down. It takes a whole day to eat prey.",
     stats: {
       hp: 74,
@@ -57038,7 +57492,8 @@ export const fakemons: Fakemon[] =
       "STUNSPORE",
       "SYNTHESIS",
       "WORRYSEED"
-    ]
+    ],
+    suffix: "normal"
   },
   {
     id: "FINNEON",
@@ -57047,7 +57502,7 @@ export const fakemons: Fakemon[] =
       "WATER"
     ],
     sprite: "/sprites/FINNEON.png",
-    artwork: "/artwork/finneon.png",
+    artwork: "/sprites/FINNEON.png",
     description: "After long exposure to sunlight, the patterns on its tail fins shine vividly when darkness arrives.",
     stats: {
       hp: 49,
@@ -57153,7 +57608,8 @@ export const fakemons: Fakemon[] =
       "SPLASH",
       "SWEETKISS",
       "TICKLE"
-    ]
+    ],
+    suffix: "normal"
   },
   {
     id: "LUMINEON",
@@ -57162,7 +57618,7 @@ export const fakemons: Fakemon[] =
       "WATER"
     ],
     sprite: "/sprites/LUMINEON.png",
-    artwork: "/artwork/lumineon.png",
+    artwork: "/sprites/LUMINEON.png",
     description: "It lives on the deep-sea floor. It attracts prey by flashing the patterns on its four tail fins.",
     stats: {
       hp: 69,
@@ -57263,7 +57719,8 @@ export const fakemons: Fakemon[] =
     ],
     eggMoves: [
 
-    ]
+    ],
+    suffix: "normal"
   },
   {
     id: "MANTYKE",
@@ -57273,7 +57730,7 @@ export const fakemons: Fakemon[] =
       "FLYING"
     ],
     sprite: "/sprites/MANTYKE.png",
-    artwork: "/artwork/mantyke.png",
+    artwork: "/sprites/MANTYKE.png",
     description: "A friendly Pokémon that captures the subtle flows of seawater using its two antennae.",
     stats: {
       hp: 45,
@@ -57369,7 +57826,8 @@ export const fakemons: Fakemon[] =
       "TAILWIND",
       "TWISTER",
       "WIDEGUARD"
-    ]
+    ],
+    suffix: "normal"
   },
   {
     id: "SNOVER",
@@ -57379,7 +57837,7 @@ export const fakemons: Fakemon[] =
       "ICE"
     ],
     sprite: "/sprites/SNOVER.png",
-    artwork: "/artwork/snover.png",
+    artwork: "/sprites/SNOVER.png",
     description: "It lives on snowy mountains. Having had little contact with humans, it is boldly inquisitive.",
     stats: {
       hp: 60,
@@ -57483,7 +57941,8 @@ export const fakemons: Fakemon[] =
       "SKULLBASH",
       "STOMP",
       "WEATHERBALL"
-    ]
+    ],
+    suffix: "normal"
   },
   {
     id: "ABOMASNOW",
@@ -57493,7 +57952,7 @@ export const fakemons: Fakemon[] =
       "ICE"
     ],
     sprite: "/sprites/ABOMASNOW.png",
-    artwork: "/artwork/abomasnow.png",
+    artwork: "/sprites/ABOMASNOW.png",
     description: "It whips up blizzards in mountains that are always buried in snow. It is the abominable snowman.",
     stats: {
       hp: 90,
@@ -57613,7 +58072,8 @@ export const fakemons: Fakemon[] =
     ],
     eggMoves: [
 
-    ]
+    ],
+    suffix: "normal"
   },
   {
     id: "WEAVILE",
@@ -57623,7 +58083,7 @@ export const fakemons: Fakemon[] =
       "ICE"
     ],
     sprite: "/sprites/WEAVILE.png",
-    artwork: "/artwork/weavile.png",
+    artwork: "/sprites/WEAVILE.png",
     description: "They live in cold regions, forming groups of four or five that hunt prey with impressive coordination.",
     stats: {
       hp: 70,
@@ -57765,7 +58225,8 @@ export const fakemons: Fakemon[] =
     ],
     eggMoves: [
 
-    ]
+    ],
+    suffix: "normal"
   },
   {
     id: "MAGNEZONE",
@@ -57775,7 +58236,7 @@ export const fakemons: Fakemon[] =
       "STEEL"
     ],
     sprite: "/sprites/MAGNEZONE.png",
-    artwork: "/artwork/magnezone.png",
+    artwork: "/sprites/MAGNEZONE.png",
     description: "It evolved from exposure to a special magnetic field. Three units generate magnetism.",
     stats: {
       hp: 70,
@@ -57887,7 +58348,8 @@ export const fakemons: Fakemon[] =
     ],
     eggMoves: [
 
-    ]
+    ],
+    suffix: "normal"
   },
   {
     id: "LICKILICKY",
@@ -57896,7 +58358,7 @@ export const fakemons: Fakemon[] =
       "NORMAL"
     ],
     sprite: "/sprites/LICKILICKY.png",
-    artwork: "/artwork/lickilicky.png",
+    artwork: "/sprites/LICKILICKY.png",
     description: "It wraps things with its extensible tongue. Getting too close to it will leave you soaked with drool.",
     stats: {
       hp: 110,
@@ -58027,7 +58489,8 @@ export const fakemons: Fakemon[] =
     ],
     eggMoves: [
 
-    ]
+    ],
+    suffix: "normal"
   },
   {
     id: "RHYPERIOR",
@@ -58037,7 +58500,7 @@ export const fakemons: Fakemon[] =
       "ROCK"
     ],
     sprite: "/sprites/RHYPERIOR.png",
-    artwork: "/artwork/rhyperior.png",
+    artwork: "/sprites/RHYPERIOR.png",
     description: "It puts rocks in holes in its palms and uses its muscles to shoot them. Geodude are shot at rare times.",
     stats: {
       hp: 115,
@@ -58195,7 +58658,8 @@ export const fakemons: Fakemon[] =
     ],
     eggMoves: [
 
-    ]
+    ],
+    suffix: "normal"
   },
   {
     id: "TANGROWTH",
@@ -58204,7 +58668,7 @@ export const fakemons: Fakemon[] =
       "GRASS"
     ],
     sprite: "/sprites/TANGROWTH.png",
-    artwork: "/artwork/tangrowth.png",
+    artwork: "/sprites/TANGROWTH.png",
     description: "It ensnares prey by extending arms made of vines. Losing arms to predators does not trouble it.",
     stats: {
       hp: 100,
@@ -58318,7 +58782,8 @@ export const fakemons: Fakemon[] =
     ],
     eggMoves: [
 
-    ]
+    ],
+    suffix: "normal"
   },
   {
     id: "ELECTIVIRE",
@@ -58327,7 +58792,7 @@ export const fakemons: Fakemon[] =
       "ELECTRIC"
     ],
     sprite: "/sprites/ELECTIVIRE.png",
-    artwork: "/artwork/electivire.png",
+    artwork: "/sprites/ELECTIVIRE.png",
     description: "It pushes the tips of its two tails against the foe, then lets loose with over 20,000 volts of power.",
     stats: {
       hp: 75,
@@ -58456,7 +58921,8 @@ export const fakemons: Fakemon[] =
     ],
     eggMoves: [
 
-    ]
+    ],
+    suffix: "normal"
   },
   {
     id: "MAGMORTAR",
@@ -58465,7 +58931,7 @@ export const fakemons: Fakemon[] =
       "FIRE"
     ],
     sprite: "/sprites/MAGMORTAR.png",
-    artwork: "/artwork/magmortar.png",
+    artwork: "/sprites/MAGMORTAR.png",
     description: "It blasts fireballs of over 3,600 degrees F from the ends of its arms. It lives in volcanic craters.",
     stats: {
       hp: 75,
@@ -58592,7 +59058,8 @@ export const fakemons: Fakemon[] =
     ],
     eggMoves: [
 
-    ]
+    ],
+    suffix: "normal"
   },
   {
     id: "TOGEKISS",
@@ -58602,7 +59069,7 @@ export const fakemons: Fakemon[] =
       "FLYING"
     ],
     sprite: "/sprites/TOGEKISS.png",
-    artwork: "/artwork/togekiss.png",
+    artwork: "/sprites/TOGEKISS.png",
     description: "It will never appear where there is strife. Its sightings have become rare recently.",
     stats: {
       hp: 85,
@@ -58757,7 +59224,8 @@ export const fakemons: Fakemon[] =
     ],
     eggMoves: [
 
-    ]
+    ],
+    suffix: "normal"
   },
   {
     id: "YANMEGA",
@@ -58767,7 +59235,7 @@ export const fakemons: Fakemon[] =
       "FLYING"
     ],
     sprite: "/sprites/YANMEGA.png",
-    artwork: "/artwork/yanmega.png",
+    artwork: "/sprites/YANMEGA.png",
     description: "By churning its wings, it creates shock waves that inflict critical internal injuries to foes.",
     stats: {
       hp: 86,
@@ -58872,7 +59340,8 @@ export const fakemons: Fakemon[] =
     ],
     eggMoves: [
 
-    ]
+    ],
+    suffix: "normal"
   },
   {
     id: "LEAFEON",
@@ -58881,7 +59350,7 @@ export const fakemons: Fakemon[] =
       "GRASS"
     ],
     sprite: "/sprites/LEAFEON.png",
-    artwork: "/artwork/leafeon.png",
+    artwork: "/sprites/LEAFEON.png",
     description: "Just like a plant, it uses photosynthesis. As a result, it is always enveloped in clear air.",
     stats: {
       hp: 65,
@@ -59007,7 +59476,8 @@ export const fakemons: Fakemon[] =
     ],
     eggMoves: [
 
-    ]
+    ],
+    suffix: "normal"
   },
   {
     id: "GLACEON",
@@ -59016,7 +59486,7 @@ export const fakemons: Fakemon[] =
       "ICE"
     ],
     sprite: "/sprites/GLACEON.png",
-    artwork: "/artwork/glaceon.png",
+    artwork: "/sprites/GLACEON.png",
     description: "As a protective technique, it can completely freeze its fur to make its hairs stand like needles.",
     stats: {
       hp: 65,
@@ -59138,7 +59608,8 @@ export const fakemons: Fakemon[] =
     ],
     eggMoves: [
 
-    ]
+    ],
+    suffix: "normal"
   },
   {
     id: "GLISCOR",
@@ -59148,7 +59619,7 @@ export const fakemons: Fakemon[] =
       "FLYING"
     ],
     sprite: "/sprites/GLISCOR.png",
-    artwork: "/artwork/gliscor.png",
+    artwork: "/sprites/GLISCOR.png",
     description: "It observes prey while hanging inverted from branches. When the chance presents itself, it swoops!",
     stats: {
       hp: 75,
@@ -59283,7 +59754,8 @@ export const fakemons: Fakemon[] =
     ],
     eggMoves: [
 
-    ]
+    ],
+    suffix: "normal"
   },
   {
     id: "MAMOSWINE",
@@ -59293,7 +59765,7 @@ export const fakemons: Fakemon[] =
       "GROUND"
     ],
     sprite: "/sprites/MAMOSWINE.png",
-    artwork: "/artwork/mamoswine.png",
+    artwork: "/sprites/MAMOSWINE.png",
     description: "Its impressive tusks are made of ice. The population thinned when it turned warm after the ice age.",
     stats: {
       hp: 110,
@@ -59410,7 +59882,8 @@ export const fakemons: Fakemon[] =
     ],
     eggMoves: [
 
-    ]
+    ],
+    suffix: "normal"
   },
   {
     id: "PORYGONZ",
@@ -59419,7 +59892,7 @@ export const fakemons: Fakemon[] =
       "NORMAL"
     ],
     sprite: "/sprites/PORYGONZ.png",
-    artwork: "/artwork/porygonz.png",
+    artwork: "/sprites/PORYGONZ.png",
     description: "Additional software was installed to make it a better Pokémon. It began acting oddly, however.",
     stats: {
       hp: 85,
@@ -59531,7 +60004,8 @@ export const fakemons: Fakemon[] =
     ],
     eggMoves: [
 
-    ]
+    ],
+    suffix: "normal"
   },
   {
     id: "GALLADE",
@@ -59541,7 +60015,7 @@ export const fakemons: Fakemon[] =
       "FIGHTING"
     ],
     sprite: "/sprites/GALLADE.png",
-    artwork: "/artwork/gallade.png",
+    artwork: "/sprites/GALLADE.png",
     description: "A master of courtesy and swordsmanship, it fights using extending swords on its elbows.",
     stats: {
       hp: 68,
@@ -59732,7 +60206,8 @@ export const fakemons: Fakemon[] =
     ],
     eggMoves: [
 
-    ]
+    ],
+    suffix: "normal"
   },
   {
     id: "PROBOPASS",
@@ -59742,7 +60217,7 @@ export const fakemons: Fakemon[] =
       "STEEL"
     ],
     sprite: "/sprites/PROBOPASS.png",
-    artwork: "/artwork/probopass.png",
+    artwork: "/sprites/PROBOPASS.png",
     description: "It exudes strong magnetism from all over. It controls three small units called Mini-Noses.",
     stats: {
       hp: 60,
@@ -59867,7 +60342,8 @@ export const fakemons: Fakemon[] =
     ],
     eggMoves: [
 
-    ]
+    ],
+    suffix: "normal"
   },
   {
     id: "DUSKNOIR",
@@ -59876,7 +60352,7 @@ export const fakemons: Fakemon[] =
       "GHOST"
     ],
     sprite: "/sprites/DUSKNOIR.png",
-    artwork: "/artwork/dusknoir.png",
+    artwork: "/sprites/DUSKNOIR.png",
     description: "The antenna on its head captures radio waves from the world of spirits that command it to take people there.",
     stats: {
       hp: 45,
@@ -60014,7 +60490,8 @@ export const fakemons: Fakemon[] =
     ],
     eggMoves: [
 
-    ]
+    ],
+    suffix: "normal"
   },
   {
     id: "FROSLASS",
@@ -60024,7 +60501,7 @@ export const fakemons: Fakemon[] =
       "GHOST"
     ],
     sprite: "/sprites/FROSLASS.png",
-    artwork: "/artwork/froslass.png",
+    artwork: "/sprites/FROSLASS.png",
     description: "It freezes foes with an icy breath nearly -60 degrees F. What seems to be its body is actually hollow.",
     stats: {
       hp: 70,
@@ -60157,7 +60634,8 @@ export const fakemons: Fakemon[] =
     ],
     eggMoves: [
 
-    ]
+    ],
+    suffix: "normal"
   },
   {
     id: "ROTOM",
@@ -60167,7 +60645,7 @@ export const fakemons: Fakemon[] =
       "GHOST"
     ],
     sprite: "/sprites/ROTOM.png",
-    artwork: "/artwork/rotom.png",
+    artwork: "/sprites/ROTOM.png",
     description: "Its body is composed of plasma. It is known to infiltrate electronic devices and wreak havoc.",
     stats: {
       hp: 50,
@@ -60265,7 +60743,8 @@ export const fakemons: Fakemon[] =
     ],
     eggMoves: [
 
-    ]
+    ],
+    suffix: "normal"
   },
   {
     id: "UXIE",
@@ -60274,7 +60753,7 @@ export const fakemons: Fakemon[] =
       "PSYCHIC"
     ],
     sprite: "/sprites/UXIE.png",
-    artwork: "/artwork/uxie.png",
+    artwork: "/sprites/UXIE.png",
     description: "Known as \"The Being of Knowledge.\" It is said that it can wipe out the memory of those who see its eyes.",
     stats: {
       hp: 75,
@@ -60414,7 +60893,8 @@ export const fakemons: Fakemon[] =
     ],
     eggMoves: [
 
-    ]
+    ],
+    suffix: "normal"
   },
   {
     id: "MESPRIT",
@@ -60423,7 +60903,7 @@ export const fakemons: Fakemon[] =
       "PSYCHIC"
     ],
     sprite: "/sprites/MESPRIT.png",
-    artwork: "/artwork/mesprit.png",
+    artwork: "/sprites/MESPRIT.png",
     description: "Known as \"The Being of Emotion.\" It taught humans the nobility of sorrow, pain, and joy.",
     stats: {
       hp: 80,
@@ -60561,7 +61041,8 @@ export const fakemons: Fakemon[] =
     ],
     eggMoves: [
 
-    ]
+    ],
+    suffix: "normal"
   },
   {
     id: "AZELF",
@@ -60570,7 +61051,7 @@ export const fakemons: Fakemon[] =
       "PSYCHIC"
     ],
     sprite: "/sprites/AZELF.png",
-    artwork: "/artwork/azelf.png",
+    artwork: "/sprites/AZELF.png",
     description: "Known as \"The Being of Willpower.\" It sleeps at the bottom of a lake to keep the world in balance.",
     stats: {
       hp: 75,
@@ -60718,7 +61199,8 @@ export const fakemons: Fakemon[] =
     ],
     eggMoves: [
 
-    ]
+    ],
+    suffix: "normal"
   },
   {
     id: "DIALGA",
@@ -60728,7 +61210,7 @@ export const fakemons: Fakemon[] =
       "DRAGON"
     ],
     sprite: "/sprites/DIALGA.png",
-    artwork: "/artwork/dialga.png",
+    artwork: "/sprites/DIALGA.png",
     description: "It has the power to control time. It appears in Sinnoh-region myths as an ancient deity.",
     stats: {
       hp: 100,
@@ -60851,7 +61333,8 @@ export const fakemons: Fakemon[] =
     ],
     eggMoves: [
 
-    ]
+    ],
+    suffix: "normal"
   },
   {
     id: "PALKIA",
@@ -60861,7 +61344,7 @@ export const fakemons: Fakemon[] =
       "DRAGON"
     ],
     sprite: "/sprites/PALKIA.png",
-    artwork: "/artwork/palkia.png",
+    artwork: "/sprites/PALKIA.png",
     description: "It has the ability to distort space. It is described as a deity in Sinnoh-region mythology.",
     stats: {
       hp: 90,
@@ -60989,7 +61472,8 @@ export const fakemons: Fakemon[] =
     ],
     eggMoves: [
 
-    ]
+    ],
+    suffix: "normal"
   },
   {
     id: "HEATRAN",
@@ -60999,7 +61483,7 @@ export const fakemons: Fakemon[] =
       "STEEL"
     ],
     sprite: "/sprites/HEATRAN.png",
-    artwork: "/artwork/heatran.png",
+    artwork: "/sprites/HEATRAN.png",
     description: "It dwells in volcanic caves. It digs in with its cross-shaped feet to crawl on ceilings and walls.",
     stats: {
       hp: 91,
@@ -61116,7 +61600,8 @@ export const fakemons: Fakemon[] =
     ],
     eggMoves: [
 
-    ]
+    ],
+    suffix: "normal"
   },
   {
     id: "REGIGIGAS",
@@ -61125,7 +61610,7 @@ export const fakemons: Fakemon[] =
       "NORMAL"
     ],
     sprite: "/sprites/REGIGIGAS.png",
-    artwork: "/artwork/regigigas.png",
+    artwork: "/sprites/REGIGIGAS.png",
     description: "There is an enduring legend that states this Pokémon towed continents with ropes.",
     stats: {
       hp: 110,
@@ -61239,7 +61724,8 @@ export const fakemons: Fakemon[] =
     ],
     eggMoves: [
 
-    ]
+    ],
+    suffix: "normal"
   },
   {
     id: "GIRATINA",
@@ -61249,7 +61735,7 @@ export const fakemons: Fakemon[] =
       "DRAGON"
     ],
     sprite: "/sprites/GIRATINA.png",
-    artwork: "/artwork/giratina.png",
+    artwork: "/sprites/GIRATINA.png",
     description: "A Pokémon that is said to live in a world on the reverse side of ours. It appears in an ancient cemetery.",
     stats: {
       hp: 150,
@@ -61372,7 +61858,8 @@ export const fakemons: Fakemon[] =
     ],
     eggMoves: [
 
-    ]
+    ],
+    suffix: "normal"
   },
   {
     id: "CRESSELIA",
@@ -61381,7 +61868,7 @@ export const fakemons: Fakemon[] =
       "PSYCHIC"
     ],
     sprite: "/sprites/CRESSELIA.png",
-    artwork: "/artwork/cresselia.png",
+    artwork: "/sprites/CRESSELIA.png",
     description: "Shiny particles are released from its wings like a veil. It is said to represent the crescent moon.",
     stats: {
       hp: 120,
@@ -61492,7 +61979,8 @@ export const fakemons: Fakemon[] =
     ],
     eggMoves: [
 
-    ]
+    ],
+    suffix: "normal"
   },
   {
     id: "PHIONE",
@@ -61501,7 +61989,7 @@ export const fakemons: Fakemon[] =
       "WATER"
     ],
     sprite: "/sprites/PHIONE.png",
-    artwork: "/artwork/phione.png",
+    artwork: "/sprites/PHIONE.png",
     description: "A Pokémon that lives in warm seas. It inflates the flotation sac on its head to drift and search for food.",
     stats: {
       hp: 80,
@@ -61592,7 +62080,8 @@ export const fakemons: Fakemon[] =
     ],
     eggMoves: [
 
-    ]
+    ],
+    suffix: "normal"
   },
   {
     id: "MANAPHY",
@@ -61601,7 +62090,7 @@ export const fakemons: Fakemon[] =
       "WATER"
     ],
     sprite: "/sprites/MANAPHY.png",
-    artwork: "/artwork/manaphy.png",
+    artwork: "/sprites/MANAPHY.png",
     description: "Born on a cold seafloor, it will swim great distances to return to its birthplace.",
     stats: {
       hp: 100,
@@ -61708,7 +62197,8 @@ export const fakemons: Fakemon[] =
     ],
     eggMoves: [
 
-    ]
+    ],
+    suffix: "normal"
   },
   {
     id: "DARKRAI",
@@ -61717,7 +62207,7 @@ export const fakemons: Fakemon[] =
       "DARK"
     ],
     sprite: "/sprites/DARKRAI.png",
-    artwork: "/artwork/darkrai.png",
+    artwork: "/sprites/DARKRAI.png",
     description: "It can lull people to sleep and make them dream. It is active during nights of the new moon.",
     stats: {
       hp: 70,
@@ -61836,7 +62326,8 @@ export const fakemons: Fakemon[] =
     ],
     eggMoves: [
 
-    ]
+    ],
+    suffix: "normal"
   },
   {
     id: "SHAYMIN",
@@ -61845,7 +62336,7 @@ export const fakemons: Fakemon[] =
       "GRASS"
     ],
     sprite: "/sprites/SHAYMIN.png",
-    artwork: "/artwork/shaymin.png",
+    artwork: "/sprites/SHAYMIN.png",
     description: "It lives in flower patches and avoids detection by curling up to look like a flowering plant.",
     stats: {
       hp: 100,
@@ -61940,7 +62431,8 @@ export const fakemons: Fakemon[] =
     ],
     eggMoves: [
 
-    ]
+    ],
+    suffix: "normal"
   },
   {
     id: "ARCEUS",
@@ -61949,7 +62441,7 @@ export const fakemons: Fakemon[] =
       "NORMAL"
     ],
     sprite: "/sprites/ARCEUS.png",
-    artwork: "/artwork/arceus.png",
+    artwork: "/sprites/ARCEUS.png",
     description: "It is described in mythology as the Pokémon that shaped the universe with its 1,000 arms.",
     stats: {
       hp: 120,
@@ -62143,7 +62635,8 @@ export const fakemons: Fakemon[] =
     ],
     eggMoves: [
 
-    ]
+    ],
+    suffix: "normal"
   },
   {
     id: "VICTINI",
@@ -62153,7 +62646,7 @@ export const fakemons: Fakemon[] =
       "FIRE"
     ],
     sprite: "/sprites/VICTINI.png",
-    artwork: "/artwork/victini.png",
+    artwork: "/sprites/VICTINI.png",
     description: "This Pokémon brings victory. It is said that Trainers with Victini always win, regardless of the type of encounter.",
     stats: {
       hp: 100,
@@ -62283,7 +62776,8 @@ export const fakemons: Fakemon[] =
     ],
     eggMoves: [
 
-    ]
+    ],
+    suffix: "normal"
   },
   {
     id: "SNIVY",
@@ -62292,7 +62786,7 @@ export const fakemons: Fakemon[] =
       "GRASS"
     ],
     sprite: "/sprites/SNIVY.png",
-    artwork: "/artwork/snivy.png",
+    artwork: "/sprites/SNIVY.png",
     description: "They photosynthesize by bathing their tails in sunlight. When they are not feeling well, their tails droop.",
     stats: {
       hp: 45,
@@ -62401,7 +62895,8 @@ export const fakemons: Fakemon[] =
       "SWEETSCENT",
       "SYNTHESIS",
       "TWISTER"
-    ]
+    ],
+    suffix: "normal"
   },
   {
     id: "SERVINE",
@@ -62410,7 +62905,7 @@ export const fakemons: Fakemon[] =
       "GRASS"
     ],
     sprite: "/sprites/SERVINE.png",
-    artwork: "/artwork/servine.png",
+    artwork: "/sprites/SERVINE.png",
     description: "They avoid attacks by sinking into the shadows of thick foliage. They retaliate with masterful whipping techniques.",
     stats: {
       hp: 60,
@@ -62508,7 +63003,8 @@ export const fakemons: Fakemon[] =
     ],
     eggMoves: [
 
-    ]
+    ],
+    suffix: "normal"
   },
   {
     id: "SERPERIOR",
@@ -62517,7 +63013,7 @@ export const fakemons: Fakemon[] =
       "GRASS"
     ],
     sprite: "/sprites/SERPERIOR.png",
-    artwork: "/artwork/serperior.png",
+    artwork: "/sprites/SERPERIOR.png",
     description: "They raise their heads to intimidate opponents, but only give it their all when fighting a powerful opponent.",
     stats: {
       hp: 75,
@@ -62628,7 +63124,8 @@ export const fakemons: Fakemon[] =
     ],
     eggMoves: [
 
-    ]
+    ],
+    suffix: "normal"
   },
   {
     id: "TEPIG",
@@ -62637,7 +63134,7 @@ export const fakemons: Fakemon[] =
       "FIRE"
     ],
     sprite: "/sprites/TEPIG.png",
-    artwork: "/artwork/tepig.png",
+    artwork: "/sprites/TEPIG.png",
     description: "It blows fire through its nose. When it catches a cold, the fire becomes pitch-black smoke instead.",
     stats: {
       hp: 65,
@@ -62748,7 +63245,8 @@ export const fakemons: Fakemon[] =
       "SUPERPOWER",
       "THRASH",
       "YAWN"
-    ]
+    ],
+    suffix: "normal"
   },
   {
     id: "PIGNITE",
@@ -62758,7 +63256,7 @@ export const fakemons: Fakemon[] =
       "FIGHTING"
     ],
     sprite: "/sprites/PIGNITE.png",
-    artwork: "/artwork/pignite.png",
+    artwork: "/sprites/PIGNITE.png",
     description: "Whatever it eats becomes fuel for the flame in its stomach. When it is angered, the intensity of the flame increases.",
     stats: {
       hp: 90,
@@ -62879,7 +63377,8 @@ export const fakemons: Fakemon[] =
     ],
     eggMoves: [
 
-    ]
+    ],
+    suffix: "normal"
   },
   {
     id: "EMBOAR",
@@ -62889,7 +63388,7 @@ export const fakemons: Fakemon[] =
       "FIGHTING"
     ],
     sprite: "/sprites/EMBOAR.png",
-    artwork: "/artwork/emboar.png",
+    artwork: "/sprites/EMBOAR.png",
     description: "It can throw a fire punch by setting its fists on fire with its fiery chin. It cares deeply about its friends.",
     stats: {
       hp: 110,
@@ -63021,7 +63520,8 @@ export const fakemons: Fakemon[] =
     ],
     eggMoves: [
 
-    ]
+    ],
+    suffix: "normal"
   },
   {
     id: "OSHAWOTT",
@@ -63030,7 +63530,7 @@ export const fakemons: Fakemon[] =
       "WATER"
     ],
     sprite: "/sprites/OSHAWOTT.png",
-    artwork: "/artwork/oshawott.png",
+    artwork: "/sprites/OSHAWOTT.png",
     description: "The scalchop on its stomach is made from the same elements as claws. It detaches the scalchop for use as a blade.",
     stats: {
       hp: 55,
@@ -63139,7 +63639,8 @@ export const fakemons: Fakemon[] =
       "SACREDSWORD",
       "SCREECH",
       "TRUMPCARD"
-    ]
+    ],
+    suffix: "normal"
   },
   {
     id: "DEWOTT",
@@ -63148,7 +63649,7 @@ export const fakemons: Fakemon[] =
       "WATER"
     ],
     sprite: "/sprites/DEWOTT.png",
-    artwork: "/artwork/dewott.png",
+    artwork: "/sprites/DEWOTT.png",
     description: "Scalchop techniques differ from one Dewott to another. It never neglects maintaining its scalchops.",
     stats: {
       hp: 75,
@@ -63249,7 +63750,8 @@ export const fakemons: Fakemon[] =
     ],
     eggMoves: [
 
-    ]
+    ],
+    suffix: "normal"
   },
   {
     id: "SAMUROTT",
@@ -63258,7 +63760,7 @@ export const fakemons: Fakemon[] =
       "WATER"
     ],
     sprite: "/sprites/SAMUROTT.png",
-    artwork: "/artwork/samurott.png",
+    artwork: "/sprites/SAMUROTT.png",
     description: "Part of the armor on its anterior legs becomes a giant sword. Its cry alone is enough to intimidate most enemies.",
     stats: {
       hp: 95,
@@ -63373,7 +63875,8 @@ export const fakemons: Fakemon[] =
     ],
     eggMoves: [
 
-    ]
+    ],
+    suffix: "normal"
   },
   {
     id: "PATRAT",
@@ -63382,7 +63885,7 @@ export const fakemons: Fakemon[] =
       "NORMAL"
     ],
     sprite: "/sprites/PATRAT.png",
-    artwork: "/artwork/patrat.png",
+    artwork: "/sprites/PATRAT.png",
     description: "Extremely cautious, they take shifts to maintain a constant watch of their nest. They feel insecure without a lookout.",
     stats: {
       hp: 45,
@@ -63478,7 +63981,8 @@ export const fakemons: Fakemon[] =
       "REVENGE",
       "SCREECH",
       "TEARFULLOOK"
-    ]
+    ],
+    suffix: "normal"
   },
   {
     id: "WATCHOG",
@@ -63487,7 +63991,7 @@ export const fakemons: Fakemon[] =
       "NORMAL"
     ],
     sprite: "/sprites/WATCHOG.png",
-    artwork: "/artwork/watchog.png",
+    artwork: "/sprites/WATCHOG.png",
     description: "They make the patterns on their bodies shine in order to threaten predators. Keen eyesight lets them see in the dark.",
     stats: {
       hp: 60,
@@ -63600,7 +64104,8 @@ export const fakemons: Fakemon[] =
     ],
     eggMoves: [
 
-    ]
+    ],
+    suffix: "normal"
   },
   {
     id: "LILLIPUP",
@@ -63609,7 +64114,7 @@ export const fakemons: Fakemon[] =
       "NORMAL"
     ],
     sprite: "/sprites/LILLIPUP.png",
-    artwork: "/artwork/lillipup.png",
+    artwork: "/sprites/LILLIPUP.png",
     description: "The long hair around its face provides an amazing radar that lets it sense subtle changes in its surroundings.",
     stats: {
       hp: 45,
@@ -63705,7 +64210,8 @@ export const fakemons: Fakemon[] =
       "LICK",
       "MUDSLAP",
       "YAWN"
-    ]
+    ],
+    suffix: "normal"
   },
   {
     id: "HERDIER",
@@ -63714,7 +64220,7 @@ export const fakemons: Fakemon[] =
       "NORMAL"
     ],
     sprite: "/sprites/HERDIER.png",
-    artwork: "/artwork/herdier.png",
+    artwork: "/sprites/HERDIER.png",
     description: "It loyally follows its Trainer's orders. For ages, they have helped Trainers raise Pokémon.",
     stats: {
       hp: 65,
@@ -63807,7 +64313,8 @@ export const fakemons: Fakemon[] =
     ],
     eggMoves: [
 
-    ]
+    ],
+    suffix: "normal"
   },
   {
     id: "STOUTLAND",
@@ -63816,7 +64323,7 @@ export const fakemons: Fakemon[] =
       "NORMAL"
     ],
     sprite: "/sprites/STOUTLAND.png",
-    artwork: "/artwork/stoutland.png",
+    artwork: "/sprites/STOUTLAND.png",
     description: "This extremely wise Pokémon excels at rescuing people stranded at sea or in the mountains.",
     stats: {
       hp: 85,
@@ -63917,7 +64424,8 @@ export const fakemons: Fakemon[] =
     ],
     eggMoves: [
 
-    ]
+    ],
+    suffix: "normal"
   },
   {
     id: "PURRLOIN",
@@ -63926,7 +64434,7 @@ export const fakemons: Fakemon[] =
       "DARK"
     ],
     sprite: "/sprites/PURRLOIN.png",
-    artwork: "/artwork/purrloin.png",
+    artwork: "/sprites/PURRLOIN.png",
     description: "Its cute act is a ruse. When victims let down their guard, they find their items taken. It attacks with sharp claws.",
     stats: {
       hp: 41,
@@ -64031,7 +64539,8 @@ export const fakemons: Fakemon[] =
       "QUICKATTACK",
       "SLASH",
       "YAWN"
-    ]
+    ],
+    suffix: "normal"
   },
   {
     id: "LIEPARD",
@@ -64040,7 +64549,7 @@ export const fakemons: Fakemon[] =
       "DARK"
     ],
     sprite: "/sprites/LIEPARD.png",
-    artwork: "/artwork/liepard.png",
+    artwork: "/sprites/LIEPARD.png",
     description: "Stealthily, it sneaks up on its target, striking from behind before its victim has a chance to react.",
     stats: {
       hp: 64,
@@ -64148,7 +64657,8 @@ export const fakemons: Fakemon[] =
     ],
     eggMoves: [
 
-    ]
+    ],
+    suffix: "normal"
   },
   {
     id: "PANSAGE",
@@ -64157,7 +64667,7 @@ export const fakemons: Fakemon[] =
       "GRASS"
     ],
     sprite: "/sprites/PANSAGE.png",
-    artwork: "/artwork/pansage.png",
+    artwork: "/sprites/PANSAGE.png",
     description: "It shares the leaf on its head with weary-looking Pokémon. These leaves are known to relieve stress.",
     stats: {
       hp: 50,
@@ -64266,7 +64776,8 @@ export const fakemons: Fakemon[] =
       "ROLEPLAY",
       "SPIKYSHIELD",
       "TICKLE"
-    ]
+    ],
+    suffix: "normal"
   },
   {
     id: "SIMISAGE",
@@ -64275,7 +64786,7 @@ export const fakemons: Fakemon[] =
       "GRASS"
     ],
     sprite: "/sprites/SIMISAGE.png",
-    artwork: "/artwork/simisage.png",
+    artwork: "/sprites/SIMISAGE.png",
     description: "Ill tempered, it fights by swinging its barbed tail around wildly. The leaf growing on its head is very bitter.",
     stats: {
       hp: 75,
@@ -64369,7 +64880,8 @@ export const fakemons: Fakemon[] =
     ],
     eggMoves: [
 
-    ]
+    ],
+    suffix: "normal"
   },
   {
     id: "PANSEAR",
@@ -64378,7 +64890,7 @@ export const fakemons: Fakemon[] =
       "FIRE"
     ],
     sprite: "/sprites/PANSEAR.png",
-    artwork: "/artwork/pansear.png",
+    artwork: "/sprites/PANSEAR.png",
     description: "This Pokémon lives in caves in volcanoes. The fire within the tuft on its head can reach 600º F.",
     stats: {
       hp: 50,
@@ -64489,7 +65001,8 @@ export const fakemons: Fakemon[] =
       "ROLEPLAY",
       "SLEEPTALK",
       "TICKLE"
-    ]
+    ],
+    suffix: "normal"
   },
   {
     id: "SIMISEAR",
@@ -64498,7 +65011,7 @@ export const fakemons: Fakemon[] =
       "FIRE"
     ],
     sprite: "/sprites/SIMISEAR.png",
-    artwork: "/artwork/simisear.png",
+    artwork: "/sprites/SIMISEAR.png",
     description: "A flame burns inside its body. It scatters embers from its head and tail to sear its opponents.",
     stats: {
       hp: 75,
@@ -64593,7 +65106,8 @@ export const fakemons: Fakemon[] =
     ],
     eggMoves: [
 
-    ]
+    ],
+    suffix: "normal"
   },
   {
     id: "PANPOUR",
@@ -64602,7 +65116,7 @@ export const fakemons: Fakemon[] =
       "WATER"
     ],
     sprite: "/sprites/PANPOUR.png",
-    artwork: "/artwork/panpour.png",
+    artwork: "/sprites/PANPOUR.png",
     description: "It does not thrive in dry environments. It keeps itself damp by shooting water stored in its head tuft from its tail.",
     stats: {
       hp: 50,
@@ -64713,7 +65227,8 @@ export const fakemons: Fakemon[] =
       "NASTYPLOT",
       "ROLEPLAY",
       "TICKLE"
-    ]
+    ],
+    suffix: "normal"
   },
   {
     id: "SIMIPOUR",
@@ -64722,7 +65237,7 @@ export const fakemons: Fakemon[] =
       "WATER"
     ],
     sprite: "/sprites/SIMIPOUR.png",
-    artwork: "/artwork/simipour.png",
+    artwork: "/sprites/SIMIPOUR.png",
     description: "The high-pressure water expelled from its tail is so powerful, it can destroy a concrete wall.",
     stats: {
       hp: 75,
@@ -64819,7 +65334,8 @@ export const fakemons: Fakemon[] =
     ],
     eggMoves: [
 
-    ]
+    ],
+    suffix: "normal"
   },
   {
     id: "MUNNA",
@@ -64828,7 +65344,7 @@ export const fakemons: Fakemon[] =
       "PSYCHIC"
     ],
     sprite: "/sprites/MUNNA.png",
-    artwork: "/artwork/munna.png",
+    artwork: "/sprites/MUNNA.png",
     description: "It eats the dreams of people and Pokémon. When it eats a pleasant dreams, it expels pink-colored mist.",
     stats: {
       hp: 76,
@@ -64933,7 +65449,8 @@ export const fakemons: Fakemon[] =
     eggMoves: [
       "CURSE",
       "HEALINGWISH"
-    ]
+    ],
+    suffix: "normal"
   },
   {
     id: "MUSHARNA",
@@ -64942,7 +65459,7 @@ export const fakemons: Fakemon[] =
       "PSYCHIC"
     ],
     sprite: "/sprites/MUSHARNA.png",
-    artwork: "/artwork/musharna.png",
+    artwork: "/sprites/MUSHARNA.png",
     description: "With the mist from its forehead, it can create shapes of things from dreams it has eaten.",
     stats: {
       hp: 116,
@@ -65051,7 +65568,8 @@ export const fakemons: Fakemon[] =
     ],
     eggMoves: [
 
-    ]
+    ],
+    suffix: "normal"
   },
   {
     id: "PIDOVE",
@@ -65061,7 +65579,7 @@ export const fakemons: Fakemon[] =
       "FLYING"
     ],
     sprite: "/sprites/PIDOVE.png",
-    artwork: "/artwork/pidove.png",
+    artwork: "/sprites/PIDOVE.png",
     description: "These Pokémon live in cities. They are accustomed to people. Flocks often gather in parks and plazas.",
     stats: {
       hp: 50,
@@ -65145,7 +65663,8 @@ export const fakemons: Fakemon[] =
       "MORNINGSUN",
       "NIGHTSLASH",
       "WISH"
-    ]
+    ],
+    suffix: "normal"
   },
   {
     id: "TRANQUILL",
@@ -65155,7 +65674,7 @@ export const fakemons: Fakemon[] =
       "FLYING"
     ],
     sprite: "/sprites/TRANQUILL.png",
-    artwork: "/artwork/tranquill.png",
+    artwork: "/sprites/TRANQUILL.png",
     description: "Many people believe that, deep in the forest where Tranquill live, there is a peaceful place where there is no war.",
     stats: {
       hp: 62,
@@ -65235,7 +65754,8 @@ export const fakemons: Fakemon[] =
     ],
     eggMoves: [
 
-    ]
+    ],
+    suffix: "normal"
   },
   {
     id: "UNFEZANT",
@@ -65245,7 +65765,7 @@ export const fakemons: Fakemon[] =
       "FLYING"
     ],
     sprite: "/sprites/UNFEZANT.png",
-    artwork: "/artwork/unfezant.png",
+    artwork: "/sprites/UNFEZANT.png",
     description: "Males have plumage on their heads. They will never let themselves feel close to anyone other than their Trainers.",
     stats: {
       hp: 80,
@@ -65330,7 +65850,8 @@ export const fakemons: Fakemon[] =
     ],
     eggMoves: [
 
-    ]
+    ],
+    suffix: "normal"
   },
   {
     id: "BLITZLE",
@@ -65339,7 +65860,7 @@ export const fakemons: Fakemon[] =
       "ELECTRIC"
     ],
     sprite: "/sprites/BLITZLE.png",
-    artwork: "/artwork/blitzle.png",
+    artwork: "/sprites/BLITZLE.png",
     description: "When thunderclouds cover the sky, it will appear. It can catch lightning with its mane and store the electricity.",
     stats: {
       hp: 45,
@@ -65441,7 +65962,8 @@ export const fakemons: Fakemon[] =
       "SHOCKWAVE",
       "SNATCH",
       "TAKEDOWN"
-    ]
+    ],
+    suffix: "normal"
   },
   {
     id: "ZEBSTRIKA",
@@ -65450,7 +65972,7 @@ export const fakemons: Fakemon[] =
       "ELECTRIC"
     ],
     sprite: "/sprites/ZEBSTRIKA.png",
-    artwork: "/artwork/zebstrika.png",
+    artwork: "/sprites/ZEBSTRIKA.png",
     description: "This ill-tempered Pokémon is dangerous because when it's angry, it shoots lightning from its mane in all directions.",
     stats: {
       hp: 75,
@@ -65552,7 +66074,8 @@ export const fakemons: Fakemon[] =
     ],
     eggMoves: [
 
-    ]
+    ],
+    suffix: "normal"
   },
   {
     id: "ROGGENROLA",
@@ -65561,7 +66084,7 @@ export const fakemons: Fakemon[] =
       "ROCK"
     ],
     sprite: "/sprites/ROGGENROLA.png",
-    artwork: "/artwork/roggenrola.png",
+    artwork: "/sprites/ROGGENROLA.png",
     description: "They were discovered a hundred years ago in an earthquake fissure. Inside each one is an energy core.",
     stats: {
       hp: 55,
@@ -65647,7 +66170,8 @@ export const fakemons: Fakemon[] =
       "GRAVITY",
       "TAKEDOWN",
       "WIDEGUARD"
-    ]
+    ],
+    suffix: "normal"
   },
   {
     id: "BOLDORE",
@@ -65656,7 +66180,7 @@ export const fakemons: Fakemon[] =
       "ROCK"
     ],
     sprite: "/sprites/BOLDORE.png",
-    artwork: "/artwork/boldore.png",
+    artwork: "/sprites/BOLDORE.png",
     description: "Because its energy was too great to be contained, the energy leaked and formed orange crystals.",
     stats: {
       hp: 70,
@@ -65741,7 +66265,8 @@ export const fakemons: Fakemon[] =
     ],
     eggMoves: [
 
-    ]
+    ],
+    suffix: "normal"
   },
   {
     id: "GIGALITH",
@@ -65750,7 +66275,7 @@ export const fakemons: Fakemon[] =
       "ROCK"
     ],
     sprite: "/sprites/GIGALITH.png",
-    artwork: "/artwork/gigalith.png",
+    artwork: "/sprites/GIGALITH.png",
     description: "The solar energy absorbed by its body's orange crystals is magnified internally and fired from its mouth.",
     stats: {
       hp: 85,
@@ -65844,7 +66369,8 @@ export const fakemons: Fakemon[] =
     ],
     eggMoves: [
 
-    ]
+    ],
+    suffix: "normal"
   },
   {
     id: "WOOBAT",
@@ -65854,7 +66380,7 @@ export const fakemons: Fakemon[] =
       "FLYING"
     ],
     sprite: "/sprites/WOOBAT.png",
-    artwork: "/artwork/woobat.png",
+    artwork: "/sprites/WOOBAT.png",
     description: "Suction from its nostrils enables it to stick to cave walls during sleep. It leaves a heart-shaped mark behind.",
     stats: {
       hp: 65,
@@ -65978,7 +66504,8 @@ export const fakemons: Fakemon[] =
       "PSYCHOSHIFT",
       "ROOST",
       "SUPERSONIC"
-    ]
+    ],
+    suffix: "normal"
   },
   {
     id: "SWOOBAT",
@@ -65988,7 +66515,7 @@ export const fakemons: Fakemon[] =
       "FLYING"
     ],
     sprite: "/sprites/SWOOBAT.png",
-    artwork: "/artwork/swoobat.png",
+    artwork: "/sprites/SWOOBAT.png",
     description: "Anyone who comes into contact with the ultrasonic waves emitted by a courting male experiences a positive mood shift.",
     stats: {
       hp: 67,
@@ -66113,7 +66640,8 @@ export const fakemons: Fakemon[] =
     ],
     eggMoves: [
 
-    ]
+    ],
+    suffix: "normal"
   },
   {
     id: "DRILBUR",
@@ -66122,7 +66650,7 @@ export const fakemons: Fakemon[] =
       "GROUND"
     ],
     sprite: "/sprites/DRILBUR.png",
-    artwork: "/artwork/drilbur.png",
+    artwork: "/sprites/DRILBUR.png",
     description: "It makes its way swiftly through the soil by putting both claws together and rotating at high speed.",
     stats: {
       hp: 60,
@@ -66218,7 +66746,8 @@ export const fakemons: Fakemon[] =
       "METALSOUND",
       "SLASH",
       "SUBMISSION"
-    ]
+    ],
+    suffix: "normal"
   },
   {
     id: "EXCADRILL",
@@ -66228,7 +66757,7 @@ export const fakemons: Fakemon[] =
       "STEEL"
     ],
     sprite: "/sprites/EXCADRILL.png",
-    artwork: "/artwork/excadrill.png",
+    artwork: "/sprites/EXCADRILL.png",
     description: "More than 300 feet below the surface, they build mazelike nests. Their activity can be destructive to subway tunnels.",
     stats: {
       hp: 110,
@@ -66335,7 +66864,8 @@ export const fakemons: Fakemon[] =
     ],
     eggMoves: [
 
-    ]
+    ],
+    suffix: "normal"
   },
   {
     id: "AUDINO",
@@ -66344,7 +66874,7 @@ export const fakemons: Fakemon[] =
       "NORMAL"
     ],
     sprite: "/sprites/AUDINO.png",
-    artwork: "/artwork/audino.png",
+    artwork: "/sprites/AUDINO.png",
     description: "Its auditory sense is astounding. It has a radar-like ability to understand its surrounding through slight sounds.",
     stats: {
       hp: 103,
@@ -66481,7 +67011,8 @@ export const fakemons: Fakemon[] =
       "SWEETKISS",
       "WISH",
       "YAWN"
-    ]
+    ],
+    suffix: "normal"
   },
   {
     id: "TIMBURR",
@@ -66490,7 +67021,7 @@ export const fakemons: Fakemon[] =
       "FIGHTING"
     ],
     sprite: "/sprites/TIMBURR.png",
-    artwork: "/artwork/timburr.png",
+    artwork: "/sprites/TIMBURR.png",
     description: "These Pokémon appear at building sites and help out with construction. They always carry squared logs.",
     stats: {
       hp: 75,
@@ -66599,7 +67130,8 @@ export const fakemons: Fakemon[] =
       "MACHPUNCH",
       "POWERUPPUNCH",
       "WIDEGUARD"
-    ]
+    ],
+    suffix: "normal"
   },
   {
     id: "GURDURR",
@@ -66608,7 +67140,7 @@ export const fakemons: Fakemon[] =
       "FIGHTING"
     ],
     sprite: "/sprites/GURDURR.png",
-    artwork: "/artwork/gurdurr.png",
+    artwork: "/sprites/GURDURR.png",
     description: "They strengthen their bodies by carrying steel beams. They show off their big muscles to their friends.",
     stats: {
       hp: 85,
@@ -66713,7 +67245,8 @@ export const fakemons: Fakemon[] =
     ],
     eggMoves: [
 
-    ]
+    ],
+    suffix: "normal"
   },
   {
     id: "CONKELDURR",
@@ -66722,7 +67255,7 @@ export const fakemons: Fakemon[] =
       "FIGHTING"
     ],
     sprite: "/sprites/CONKELDURR.png",
-    artwork: "/artwork/conkeldurr.png",
+    artwork: "/sprites/CONKELDURR.png",
     description: "They use concrete pillars as walking canes. They know moves that enable them to swing the pillars freely in battle.",
     stats: {
       hp: 105,
@@ -66836,7 +67369,8 @@ export const fakemons: Fakemon[] =
     ],
     eggMoves: [
 
-    ]
+    ],
+    suffix: "normal"
   },
   {
     id: "TYMPOLE",
@@ -66845,7 +67379,7 @@ export const fakemons: Fakemon[] =
       "WATER"
     ],
     sprite: "/sprites/TYMPOLE.png",
-    artwork: "/artwork/tympole.png",
+    artwork: "/sprites/TYMPOLE.png",
     description: "By vibrating its cheeks, it emits sound waves imperceptible to humans. It uses the rhythm of these sounds to talk.",
     stats: {
       hp: 50,
@@ -66930,7 +67464,8 @@ export const fakemons: Fakemon[] =
       "MUDSLAP",
       "TOXIC",
       "WATERPULSE"
-    ]
+    ],
+    suffix: "normal"
   },
   {
     id: "PALPITOAD",
@@ -66940,7 +67475,7 @@ export const fakemons: Fakemon[] =
       "GROUND"
     ],
     sprite: "/sprites/PALPITOAD.png",
-    artwork: "/artwork/palpitoad.png",
+    artwork: "/sprites/PALPITOAD.png",
     description: "It lives in the water and on land. It uses its long, sticky tongue to capture prey.",
     stats: {
       hp: 75,
@@ -67028,7 +67563,8 @@ export const fakemons: Fakemon[] =
     ],
     eggMoves: [
 
-    ]
+    ],
+    suffix: "normal"
   },
   {
     id: "SEISMITOAD",
@@ -67038,7 +67574,7 @@ export const fakemons: Fakemon[] =
       "GROUND"
     ],
     sprite: "/sprites/SEISMITOAD.png",
-    artwork: "/artwork/seismitoad.png",
+    artwork: "/sprites/SEISMITOAD.png",
     description: "It increases the power of its punches by vibrating the bumps on its fists. It can turn a boulder to rubble with one punch.",
     stats: {
       hp: 105,
@@ -67152,7 +67688,8 @@ export const fakemons: Fakemon[] =
     ],
     eggMoves: [
 
-    ]
+    ],
+    suffix: "normal"
   },
   {
     id: "THROH",
@@ -67161,7 +67698,7 @@ export const fakemons: Fakemon[] =
       "FIGHTING"
     ],
     sprite: "/sprites/THROH.png",
-    artwork: "/artwork/throh.png",
+    artwork: "/sprites/THROH.png",
     description: "When they encounter foes bigger than themselves, they try to throw them. They always travel in packs of five.",
     stats: {
       hp: 120,
@@ -67265,7 +67802,8 @@ export const fakemons: Fakemon[] =
     ],
     eggMoves: [
 
-    ]
+    ],
+    suffix: "normal"
   },
   {
     id: "SAWK",
@@ -67274,7 +67812,7 @@ export const fakemons: Fakemon[] =
       "FIGHTING"
     ],
     sprite: "/sprites/SAWK.png",
-    artwork: "/artwork/sawk.png",
+    artwork: "/sprites/SAWK.png",
     description: "Tying their belts gets them pumped and makes their punches more destructive. Disturbing their training angers them.",
     stats: {
       hp: 75,
@@ -67378,7 +67916,8 @@ export const fakemons: Fakemon[] =
     ],
     eggMoves: [
 
-    ]
+    ],
+    suffix: "normal"
   },
   {
     id: "SEWADDLE",
@@ -67388,7 +67927,7 @@ export const fakemons: Fakemon[] =
       "GRASS"
     ],
     sprite: "/sprites/SEWADDLE.png",
-    artwork: "/artwork/sewaddle.png",
+    artwork: "/sprites/SEWADDLE.png",
     description: "This Pokémon makes clothes for itself. It chews up leaves and sews them with sticky thread extruded from its mouth.",
     stats: {
       hp: 45,
@@ -67488,7 +68027,8 @@ export const fakemons: Fakemon[] =
       "SWITCHEROO",
       "SYNTHESIS",
       "WORRYSEED"
-    ]
+    ],
+    suffix: "normal"
   },
   {
     id: "SWADLOON",
@@ -67498,7 +68038,7 @@ export const fakemons: Fakemon[] =
       "GRASS"
     ],
     sprite: "/sprites/SWADLOON.png",
-    artwork: "/artwork/swadloon.png",
+    artwork: "/sprites/SWADLOON.png",
     description: "It protects itself from the cold by wrapping up in leaves. It stays on the move, eating leaves in forests.",
     stats: {
       hp: 55,
@@ -67587,7 +68127,8 @@ export const fakemons: Fakemon[] =
     ],
     eggMoves: [
 
-    ]
+    ],
+    suffix: "normal"
   },
   {
     id: "LEAVANNY",
@@ -67597,7 +68138,7 @@ export const fakemons: Fakemon[] =
       "GRASS"
     ],
     sprite: "/sprites/LEAVANNY.png",
-    artwork: "/artwork/leavanny.png",
+    artwork: "/sprites/LEAVANNY.png",
     description: "It keeps its eggs warm with heat from fermenting leaves. It also uses leaves to make warm wrappings for Sewaddle.",
     stats: {
       hp: 75,
@@ -67714,7 +68255,8 @@ export const fakemons: Fakemon[] =
     ],
     eggMoves: [
 
-    ]
+    ],
+    suffix: "normal"
   },
   {
     id: "VENIPEDE",
@@ -67724,7 +68266,7 @@ export const fakemons: Fakemon[] =
       "POISON"
     ],
     sprite: "/sprites/VENIPEDE.png",
-    artwork: "/artwork/venipede.png",
+    artwork: "/sprites/VENIPEDE.png",
     description: "It discovers what is going on around it by using the feelers on its head and tail. It is brutally aggresive.",
     stats: {
       hp: 30,
@@ -67807,7 +68349,8 @@ export const fakemons: Fakemon[] =
     eggMoves: [
       "BITE",
       "FURYCUTTER"
-    ]
+    ],
+    suffix: "normal"
   },
   {
     id: "WHIRLIPEDE",
@@ -67817,7 +68360,7 @@ export const fakemons: Fakemon[] =
       "POISON"
     ],
     sprite: "/sprites/WHIRLIPEDE.png",
-    artwork: "/artwork/whirlipede.png",
+    artwork: "/sprites/WHIRLIPEDE.png",
     description: "It is usually motionless, but when attacked, it rotates at high speed and then crashes into its opponent.",
     stats: {
       hp: 40,
@@ -67900,7 +68443,8 @@ export const fakemons: Fakemon[] =
     ],
     eggMoves: [
 
-    ]
+    ],
+    suffix: "normal"
   },
   {
     id: "SCOLIPEDE",
@@ -67910,7 +68454,7 @@ export const fakemons: Fakemon[] =
       "POISON"
     ],
     sprite: "/sprites/SCOLIPEDE.png",
-    artwork: "/artwork/scolipede.png",
+    artwork: "/sprites/SCOLIPEDE.png",
     description: "Highly aggressive, it uses the claws near its neck to dig into its opponents and poison them.",
     stats: {
       hp: 60,
@@ -68017,7 +68561,8 @@ export const fakemons: Fakemon[] =
     ],
     eggMoves: [
 
-    ]
+    ],
+    suffix: "normal"
   },
   {
     id: "COTTONEE",
@@ -68027,7 +68572,7 @@ export const fakemons: Fakemon[] =
       "FAIRY"
     ],
     sprite: "/sprites/COTTONEE.png",
-    artwork: "/artwork/cottonee.png",
+    artwork: "/sprites/COTTONEE.png",
     description: "They go wherever the wind takes them. On rainy days, their bodies are heavier, so they take shelter beneath big trees.",
     stats: {
       hp: 40,
@@ -68120,7 +68665,8 @@ export const fakemons: Fakemon[] =
       "SWITCHEROO",
       "TICKLE",
       "WORRYSEED"
-    ]
+    ],
+    suffix: "normal"
   },
   {
     id: "WHIMSICOTT",
@@ -68130,7 +68676,7 @@ export const fakemons: Fakemon[] =
       "FAIRY"
     ],
     sprite: "/sprites/WHIMSICOTT.png",
-    artwork: "/artwork/whimsicott.png",
+    artwork: "/sprites/WHIMSICOTT.png",
     description: "Riding whirlwinds, they appear. These Pokémon sneak through gaps into houses and cause all sorts of mischief.",
     stats: {
       hp: 60,
@@ -68235,7 +68781,8 @@ export const fakemons: Fakemon[] =
     ],
     eggMoves: [
 
-    ]
+    ],
+    suffix: "normal"
   },
   {
     id: "PETILIL",
@@ -68244,7 +68791,7 @@ export const fakemons: Fakemon[] =
       "GRASS"
     ],
     sprite: "/sprites/PETILIL.png",
-    artwork: "/artwork/petilil.png",
+    artwork: "/sprites/PETILIL.png",
     description: "Since they prefer moist, nutrient-rich soil, the areas where Petilil live are known to be good for growing plants.",
     stats: {
       hp: 45,
@@ -68335,7 +68882,8 @@ export const fakemons: Fakemon[] =
       "INGRAIN",
       "SWEETSCENT",
       "WORRYSEED"
-    ]
+    ],
+    suffix: "normal"
   },
   {
     id: "LILLIGANT",
@@ -68344,7 +68892,7 @@ export const fakemons: Fakemon[] =
       "GRASS"
     ],
     sprite: "/sprites/LILLIGANT.png",
-    artwork: "/artwork/lilligant.png",
+    artwork: "/sprites/LILLIGANT.png",
     description: "The fragrance of the garland on its head has a relaxing effect. It withers if a Trainer does not take good care of it.",
     stats: {
       hp: 70,
@@ -68448,7 +68996,8 @@ export const fakemons: Fakemon[] =
     ],
     eggMoves: [
 
-    ]
+    ],
+    suffix: "normal"
   },
   {
     id: "BASCULIN",
@@ -68457,7 +69006,7 @@ export const fakemons: Fakemon[] =
       "WATER"
     ],
     sprite: "/sprites/BASCULIN.png",
-    artwork: "/artwork/basculin.png",
+    artwork: "/sprites/BASCULIN.png",
     description: "Savage, violent Pokémon, red and blue Basculin are always fighting each other over territory.",
     stats: {
       hp: 70,
@@ -68559,7 +69108,8 @@ export const fakemons: Fakemon[] =
     eggMoves: [
       "BUBBLEBEAM",
       "ENDEAVOR"
-    ]
+    ],
+    suffix: "normal"
   },
   {
     id: "SANDILE",
@@ -68569,7 +69119,7 @@ export const fakemons: Fakemon[] =
       "DARK"
     ],
     sprite: "/sprites/SANDILE.png",
-    artwork: "/artwork/sandile.png",
+    artwork: "/sprites/SANDILE.png",
     description: "It moves along below the sand's surface, except for its nose and eyes. A dark membrane shields its eyes from the sun.",
     stats: {
       hp: 50,
@@ -68683,7 +69233,8 @@ export const fakemons: Fakemon[] =
       "COUNTER",
       "DOUBLEEDGE",
       "SPITE"
-    ]
+    ],
+    suffix: "normal"
   },
   {
     id: "KROKOROK",
@@ -68693,7 +69244,7 @@ export const fakemons: Fakemon[] =
       "DARK"
     ],
     sprite: "/sprites/KROKOROK.png",
-    artwork: "/artwork/krokorok.png",
+    artwork: "/sprites/KROKOROK.png",
     description: "The special membrane covering its eyes can sense the heat of objects, so it can see its surroundings, even in darkness.",
     stats: {
       hp: 60,
@@ -68821,7 +69372,8 @@ export const fakemons: Fakemon[] =
     ],
     eggMoves: [
 
-    ]
+    ],
+    suffix: "normal"
   },
   {
     id: "KROOKODILE",
@@ -68831,7 +69383,7 @@ export const fakemons: Fakemon[] =
       "DARK"
     ],
     sprite: "/sprites/KROOKODILE.png",
-    artwork: "/artwork/krookodile.png",
+    artwork: "/sprites/KROOKODILE.png",
     description: "It can expand the focus of its eyes, enabling it to see objects in the far distance as if it were using binoculars.",
     stats: {
       hp: 95,
@@ -68974,7 +69526,8 @@ export const fakemons: Fakemon[] =
     ],
     eggMoves: [
 
-    ]
+    ],
+    suffix: "normal"
   },
   {
     id: "DARUMAKA",
@@ -68983,7 +69536,7 @@ export const fakemons: Fakemon[] =
       "FIRE"
     ],
     sprite: "/sprites/DARUMAKA.png",
-    artwork: "/artwork/darumaka.png",
+    artwork: "/sprites/DARUMAKA.png",
     description: "Darumaka's droppings are hot, so people used to put them in their clothes to keep themselves warm.",
     stats: {
       hp: 70,
@@ -69085,7 +69638,8 @@ export const fakemons: Fakemon[] =
       "HAMMERARM",
       "TAKEDOWN",
       "YAWN"
-    ]
+    ],
+    suffix: "normal"
   },
   {
     id: "DARMANITAN",
@@ -69094,7 +69648,7 @@ export const fakemons: Fakemon[] =
       "FIRE"
     ],
     sprite: "/sprites/DARMANITAN.png",
-    artwork: "/artwork/darmanitan.png",
+    artwork: "/sprites/DARMANITAN.png",
     description: "When weakened in battle, it transforms into a stone statue. Then it sharpens its mind and fights on mentally.",
     stats: {
       hp: 105,
@@ -69217,7 +69771,8 @@ export const fakemons: Fakemon[] =
     ],
     eggMoves: [
 
-    ]
+    ],
+    suffix: "normal"
   },
   {
     id: "MARACTUS",
@@ -69226,7 +69781,7 @@ export const fakemons: Fakemon[] =
       "GRASS"
     ],
     sprite: "/sprites/MARACTUS.png",
-    artwork: "/artwork/maractus.png",
+    artwork: "/sprites/MARACTUS.png",
     description: "Arid regions are their habitat. They move rhythmically, making a sound similar to maracas.",
     stats: {
       hp: 75,
@@ -69324,7 +69879,8 @@ export const fakemons: Fakemon[] =
     eggMoves: [
       "WOODHAMMER",
       "WORRYSEED"
-    ]
+    ],
+    suffix: "normal"
   },
   {
     id: "DWEBBLE",
@@ -69334,7 +69890,7 @@ export const fakemons: Fakemon[] =
       "ROCK"
     ],
     sprite: "/sprites/DWEBBLE.png",
-    artwork: "/artwork/dwebble.png",
+    artwork: "/sprites/DWEBBLE.png",
     description: "It makes a hole in a suitable rock. If that rock breaks, the Pokémon remains agitated until it locates a replacement.",
     stats: {
       hp: 50,
@@ -69429,7 +69985,8 @@ export const fakemons: Fakemon[] =
       "KNOCKOFF",
       "NIGHTSLASH",
       "WIDEGUARD"
-    ]
+    ],
+    suffix: "normal"
   },
   {
     id: "CRUSTLE",
@@ -69439,7 +69996,7 @@ export const fakemons: Fakemon[] =
       "ROCK"
     ],
     sprite: "/sprites/CRUSTLE.png",
-    artwork: "/artwork/crustle.png",
+    artwork: "/sprites/CRUSTLE.png",
     description: "It possesses legs of enormous strength, enabling it to carry heavy slabs for many days, even when crossing arid land.",
     stats: {
       hp: 70,
@@ -69536,7 +70093,8 @@ export const fakemons: Fakemon[] =
     ],
     eggMoves: [
 
-    ]
+    ],
+    suffix: "normal"
   },
   {
     id: "SCRAGGY",
@@ -69546,7 +70104,7 @@ export const fakemons: Fakemon[] =
       "FIGHTING"
     ],
     sprite: "/sprites/SCRAGGY.png",
-    artwork: "/artwork/scraggy.png",
+    artwork: "/sprites/SCRAGGY.png",
     description: "It immediately headbutts anyone that makes eye contact with it. Its skull is massively thick.",
     stats: {
       hp: 50,
@@ -69682,7 +70240,8 @@ export const fakemons: Fakemon[] =
       "FAKEOUT",
       "POWERUPPUNCH",
       "QUICKGUARD"
-    ]
+    ],
+    suffix: "normal"
   },
   {
     id: "SCRAFTY",
@@ -69692,7 +70251,7 @@ export const fakemons: Fakemon[] =
       "FIGHTING"
     ],
     sprite: "/sprites/SCRAFTY.png",
-    artwork: "/artwork/scrafty.png",
+    artwork: "/sprites/SCRAFTY.png",
     description: "It can smash concrete blocks with its kicking attacks. The one with the biggest crest is the group leader.",
     stats: {
       hp: 65,
@@ -69831,7 +70390,8 @@ export const fakemons: Fakemon[] =
     ],
     eggMoves: [
 
-    ]
+    ],
+    suffix: "normal"
   },
   {
     id: "SIGILYPH",
@@ -69841,7 +70401,7 @@ export const fakemons: Fakemon[] =
       "FLYING"
     ],
     sprite: "/sprites/SIGILYPH.png",
-    artwork: "/artwork/sigilyph.png",
+    artwork: "/sprites/SIGILYPH.png",
     description: "The guardians of an ancient city, they use their psychic power to attack enemies that invade their territory.",
     stats: {
       hp: 72,
@@ -69958,7 +70518,8 @@ export const fakemons: Fakemon[] =
       "ANCIENTPOWER",
       "PSYCHOSHIFT",
       "ROOST"
-    ]
+    ],
+    suffix: "normal"
   },
   {
     id: "YAMASK",
@@ -69967,7 +70528,7 @@ export const fakemons: Fakemon[] =
       "GHOST"
     ],
     sprite: "/sprites/YAMASK.png",
-    artwork: "/artwork/yamask.png",
+    artwork: "/sprites/YAMASK.png",
     description: "These Pokémon arose from the spirits of people interred in graves in past ages. Each retains memories of its former life.",
     stats: {
       hp: 38,
@@ -70066,7 +70627,8 @@ export const fakemons: Fakemon[] =
     ],
     eggMoves: [
       "MEMENTO"
-    ]
+    ],
+    suffix: "normal"
   },
   {
     id: "COFAGRIGUS",
@@ -70075,7 +70637,7 @@ export const fakemons: Fakemon[] =
       "GHOST"
     ],
     sprite: "/sprites/COFAGRIGUS.png",
-    artwork: "/artwork/cofagrigus.png",
+    artwork: "/sprites/COFAGRIGUS.png",
     description: "They pretend to be elaborate coffins to teach lessons to grave robbers. Their bodies are covered in pure gold.",
     stats: {
       hp: 58,
@@ -70186,7 +70748,8 @@ export const fakemons: Fakemon[] =
     ],
     eggMoves: [
 
-    ]
+    ],
+    suffix: "normal"
   },
   {
     id: "TIRTOUGA",
@@ -70196,7 +70759,7 @@ export const fakemons: Fakemon[] =
       "ROCK"
     ],
     sprite: "/sprites/TIRTOUGA.png",
-    artwork: "/artwork/tirtouga.png",
+    artwork: "/sprites/TIRTOUGA.png",
     description: "About 100 million years ago, these Pokémon swam in oceans. It is thought they also went on land to attack prey.",
     stats: {
       hp: 54,
@@ -70303,7 +70866,8 @@ export const fakemons: Fakemon[] =
       "ROLLOUT",
       "SLAM",
       "WATERPULSE"
-    ]
+    ],
+    suffix: "normal"
   },
   {
     id: "CARRACOSTA",
@@ -70313,7 +70877,7 @@ export const fakemons: Fakemon[] =
       "ROCK"
     ],
     sprite: "/sprites/CARRACOSTA.png",
-    artwork: "/artwork/carracosta.png",
+    artwork: "/sprites/CARRACOSTA.png",
     description: "Incredible jaw strength enables them to chew up steel beams and rocks along with their prey.",
     stats: {
       hp: 74,
@@ -70422,7 +70986,8 @@ export const fakemons: Fakemon[] =
     ],
     eggMoves: [
 
-    ]
+    ],
+    suffix: "normal"
   },
   {
     id: "ARCHEN",
@@ -70432,7 +70997,7 @@ export const fakemons: Fakemon[] =
       "FLYING"
     ],
     sprite: "/sprites/ARCHEN.png",
-    artwork: "/artwork/archen.png",
+    artwork: "/sprites/ARCHEN.png",
     description: "Revived from a fossil, this Pokémon is thought to be the ancestor of all bird Pokémon.",
     stats: {
       hp: 55,
@@ -70546,7 +71111,8 @@ export const fakemons: Fakemon[] =
       "HEADSMASH",
       "KNOCKOFF",
       "SWITCHEROO"
-    ]
+    ],
+    suffix: "normal"
   },
   {
     id: "ARCHEOPS",
@@ -70556,7 +71122,7 @@ export const fakemons: Fakemon[] =
       "FLYING"
     ],
     sprite: "/sprites/ARCHEOPS.png",
-    artwork: "/artwork/archeops.png",
+    artwork: "/sprites/ARCHEOPS.png",
     description: "It runs better than it flies. It catches prey by running at speeds comparable to those of an automobile.",
     stats: {
       hp: 75,
@@ -70673,7 +71239,8 @@ export const fakemons: Fakemon[] =
     ],
     eggMoves: [
 
-    ]
+    ],
+    suffix: "normal"
   },
   {
     id: "TRUBBISH",
@@ -70682,7 +71249,7 @@ export const fakemons: Fakemon[] =
       "POISON"
     ],
     sprite: "/sprites/TRUBBISH.png",
-    artwork: "/artwork/trubbish.png",
+    artwork: "/sprites/TRUBBISH.png",
     description: "The combination of garbage bags and industrial waste caused the chemical reaction that crated this Pokémon.",
     stats: {
       hp: 50,
@@ -70773,7 +71340,8 @@ export const fakemons: Fakemon[] =
       "HAZE",
       "ROLLOUT",
       "SANDATTACK"
-    ]
+    ],
+    suffix: "normal"
   },
   {
     id: "GARBODOR",
@@ -70782,7 +71350,7 @@ export const fakemons: Fakemon[] =
       "POISON"
     ],
     sprite: "/sprites/GARBODOR.png",
-    artwork: "/artwork/garbodor.png",
+    artwork: "/sprites/GARBODOR.png",
     description: "They absorb garbage and make it part of their bodies. They shoot a poisonous liquid from their right-hand fingertips.",
     stats: {
       hp: 80,
@@ -70885,7 +71453,8 @@ export const fakemons: Fakemon[] =
     ],
     eggMoves: [
 
-    ]
+    ],
+    suffix: "normal"
   },
   {
     id: "ZORUA",
@@ -70894,7 +71463,7 @@ export const fakemons: Fakemon[] =
       "DARK"
     ],
     sprite: "/sprites/ZORUA.png",
-    artwork: "/artwork/zorua.png",
+    artwork: "/sprites/ZORUA.png",
     description: "To protect themselves from danger, they hide their true identities by transforming into people and Pokémon.",
     stats: {
       hp: 40,
@@ -71008,7 +71577,8 @@ export const fakemons: Fakemon[] =
       "EXTRASENSORY",
       "MEMENTO",
       "SUCKERPUNCH"
-    ]
+    ],
+    suffix: "normal"
   },
   {
     id: "ZOROARK",
@@ -71017,7 +71587,7 @@ export const fakemons: Fakemon[] =
       "DARK"
     ],
     sprite: "/sprites/ZOROARK.png",
-    artwork: "/artwork/zoroark.png",
+    artwork: "/sprites/ZOROARK.png",
     description: "Each has the ability to fool a large group of people simultaneously. They protect their lair with illusory scenery.",
     stats: {
       hp: 60,
@@ -71144,7 +71714,8 @@ export const fakemons: Fakemon[] =
     ],
     eggMoves: [
 
-    ]
+    ],
+    suffix: "normal"
   },
   {
     id: "MINCCINO",
@@ -71153,7 +71724,7 @@ export const fakemons: Fakemon[] =
       "NORMAL"
     ],
     sprite: "/sprites/MINCCINO.png",
-    artwork: "/artwork/minccino.png",
+    artwork: "/sprites/MINCCINO.png",
     description: "These Pokémon prefer a tidy habitat. They are always sweeping and dusting, using their tails as brooms.",
     stats: {
       hp: 55,
@@ -71260,7 +71831,8 @@ export const fakemons: Fakemon[] =
       "KNOCKOFF",
       "TAILWHIP",
       "TIDYUP"
-    ]
+    ],
+    suffix: "normal"
   },
   {
     id: "CINCCINO",
@@ -71269,7 +71841,7 @@ export const fakemons: Fakemon[] =
       "NORMAL"
     ],
     sprite: "/sprites/CINCCINO.png",
-    artwork: "/artwork/cinccino.png",
+    artwork: "/sprites/CINCCINO.png",
     description: "Their white fur feels amazing to touch. Their fur repels dust and prevents static electricity from building up.",
     stats: {
       hp: 75,
@@ -71383,7 +71955,8 @@ export const fakemons: Fakemon[] =
     ],
     eggMoves: [
 
-    ]
+    ],
+    suffix: "normal"
   },
   {
     id: "GOTHITA",
@@ -71392,7 +71965,7 @@ export const fakemons: Fakemon[] =
       "PSYCHIC"
     ],
     sprite: "/sprites/GOTHITA.png",
-    artwork: "/artwork/gothita.png",
+    artwork: "/sprites/GOTHITA.png",
     description: "They intently observe both Trainers and Pokémon. Apparently, they are looking at something that only Gothita can see.",
     stats: {
       hp: 45,
@@ -71510,7 +72083,8 @@ export const fakemons: Fakemon[] =
       "MEANLOOK",
       "MIRRORCOAT",
       "TORMENT"
-    ]
+    ],
+    suffix: "normal"
   },
   {
     id: "GOTHORITA",
@@ -71519,7 +72093,7 @@ export const fakemons: Fakemon[] =
       "PSYCHIC"
     ],
     sprite: "/sprites/GOTHORITA.png",
-    artwork: "/artwork/gothorita.png",
+    artwork: "/sprites/GOTHORITA.png",
     description: "Starlight is the source of their power. At night, they mark star positions by using psychic power to float stones.",
     stats: {
       hp: 60,
@@ -71633,7 +72207,8 @@ export const fakemons: Fakemon[] =
     ],
     eggMoves: [
 
-    ]
+    ],
+    suffix: "normal"
   },
   {
     id: "GOTHITELLE",
@@ -71642,7 +72217,7 @@ export const fakemons: Fakemon[] =
       "PSYCHIC"
     ],
     sprite: "/sprites/GOTHITELLE.png",
-    artwork: "/artwork/gothitelle.png",
+    artwork: "/sprites/GOTHITELLE.png",
     description: "They can predict the future from the placement and movement of the stars. They can see Trainers' life spans.",
     stats: {
       hp: 70,
@@ -71766,7 +72341,8 @@ export const fakemons: Fakemon[] =
     ],
     eggMoves: [
 
-    ]
+    ],
+    suffix: "normal"
   },
   {
     id: "SOLOSIS",
@@ -71775,7 +72351,7 @@ export const fakemons: Fakemon[] =
       "PSYCHIC"
     ],
     sprite: "/sprites/SOLOSIS.png",
-    artwork: "/artwork/solosis.png",
+    artwork: "/sprites/SOLOSIS.png",
     description: "Because their bodies are enveloped in a special liquid, they can survive in any environment.",
     stats: {
       hp: 45,
@@ -71892,7 +72468,8 @@ export const fakemons: Fakemon[] =
       "ACIDARMOR",
       "ASTONISH",
       "CONFUSERAY"
-    ]
+    ],
+    suffix: "normal"
   },
   {
     id: "DUOSION",
@@ -71901,7 +72478,7 @@ export const fakemons: Fakemon[] =
       "PSYCHIC"
     ],
     sprite: "/sprites/DUOSION.png",
-    artwork: "/artwork/duosion.png",
+    artwork: "/sprites/DUOSION.png",
     description: "When their brains, now divided in two, are thinking the same thoughts, these Pokémon exhibit their maximum power.",
     stats: {
       hp: 65,
@@ -72016,7 +72593,8 @@ export const fakemons: Fakemon[] =
     ],
     eggMoves: [
 
-    ]
+    ],
+    suffix: "normal"
   },
   {
     id: "REUNICLUS",
@@ -72025,7 +72603,7 @@ export const fakemons: Fakemon[] =
       "PSYCHIC"
     ],
     sprite: "/sprites/REUNICLUS.png",
-    artwork: "/artwork/reuniclus.png",
+    artwork: "/sprites/REUNICLUS.png",
     description: "These remarkably intelligent Pokémon fight by controlling arms that can grip with rock-crushing power.",
     stats: {
       hp: 110,
@@ -72160,7 +72738,8 @@ export const fakemons: Fakemon[] =
     ],
     eggMoves: [
 
-    ]
+    ],
+    suffix: "normal"
   },
   {
     id: "DUCKLETT",
@@ -72170,7 +72749,7 @@ export const fakemons: Fakemon[] =
       "FLYING"
     ],
     sprite: "/sprites/DUCKLETT.png",
-    artwork: "/artwork/ducklett.png",
+    artwork: "/sprites/DUCKLETT.png",
     description: "When attacked, it uses its feathers to splash water, escaping under cover of the spray.",
     stats: {
       hp: 62,
@@ -72267,7 +72846,8 @@ export const fakemons: Fakemon[] =
       "MIRRORMOVE",
       "MUDSPORT",
       "STEELWING"
-    ]
+    ],
+    suffix: "normal"
   },
   {
     id: "SWANNA",
@@ -72277,7 +72857,7 @@ export const fakemons: Fakemon[] =
       "FLYING"
     ],
     sprite: "/sprites/SWANNA.png",
-    artwork: "/artwork/swanna.png",
+    artwork: "/sprites/SWANNA.png",
     description: "It administers sharp, powerful pecks with its bill. It whips its long neck to deliver forceful repeated strikes.",
     stats: {
       hp: 75,
@@ -72373,7 +72953,8 @@ export const fakemons: Fakemon[] =
     ],
     eggMoves: [
 
-    ]
+    ],
+    suffix: "normal"
   },
   {
     id: "VANILLITE",
@@ -72382,7 +72963,7 @@ export const fakemons: Fakemon[] =
       "ICE"
     ],
     sprite: "/sprites/VANILLITE.png",
-    artwork: "/artwork/vanillite.png",
+    artwork: "/sprites/VANILLITE.png",
     description: "This Pokémon formed from icicles bathed in energy from the morning sun. It sleeps buried in snow.",
     stats: {
       hp: 36,
@@ -72470,7 +73051,8 @@ export const fakemons: Fakemon[] =
       "ICESHARD",
       "ICICLECRASH",
       "MAGNETRISE"
-    ]
+    ],
+    suffix: "normal"
   },
   {
     id: "VANILLISH",
@@ -72479,7 +73061,7 @@ export const fakemons: Fakemon[] =
       "ICE"
     ],
     sprite: "/sprites/VANILLISH.png",
-    artwork: "/artwork/vanillish.png",
+    artwork: "/sprites/VANILLISH.png",
     description: "It conceals itself from enemy eyes by creating many small ice particles and hiding among them.",
     stats: {
       hp: 51,
@@ -72562,7 +73144,8 @@ export const fakemons: Fakemon[] =
     ],
     eggMoves: [
 
-    ]
+    ],
+    suffix: "normal"
   },
   {
     id: "VANILLUXE",
@@ -72571,7 +73154,7 @@ export const fakemons: Fakemon[] =
       "ICE"
     ],
     sprite: "/sprites/VANILLUXE.png",
-    artwork: "/artwork/vanilluxe.png",
+    artwork: "/sprites/VANILLUXE.png",
     description: "If both heads get angry simultaneously, this Pokémon expels a blizzard, burying everything in snow.",
     stats: {
       hp: 71,
@@ -72661,7 +73244,8 @@ export const fakemons: Fakemon[] =
     ],
     eggMoves: [
 
-    ]
+    ],
+    suffix: "normal"
   },
   {
     id: "DEERLING",
@@ -72671,7 +73255,7 @@ export const fakemons: Fakemon[] =
       "GRASS"
     ],
     sprite: "/sprites/DEERLING.png",
-    artwork: "/artwork/deerling.png",
+    artwork: "/sprites/DEERLING.png",
     description: "The turning of the seasons changes the color and scent of this Pokémon's fur. People use it to mark the seasons.",
     stats: {
       hp: 60,
@@ -72778,7 +73362,8 @@ export const fakemons: Fakemon[] =
       "SLEEPTALK",
       "SYNTHESIS",
       "WORRYSEED"
-    ]
+    ],
+    suffix: "normal"
   },
   {
     id: "SAWSBUCK",
@@ -72788,7 +73373,7 @@ export const fakemons: Fakemon[] =
       "GRASS"
     ],
     sprite: "/sprites/SAWSBUCK.png",
-    artwork: "/artwork/sawsbuck.png",
+    artwork: "/sprites/SAWSBUCK.png",
     description: "The plants growing on its horns change according to the season. The leaders of the herd possess magnificent horns.",
     stats: {
       hp: 80,
@@ -72899,7 +73484,8 @@ export const fakemons: Fakemon[] =
     ],
     eggMoves: [
 
-    ]
+    ],
+    suffix: "normal"
   },
   {
     id: "EMOLGA",
@@ -72909,7 +73495,7 @@ export const fakemons: Fakemon[] =
       "FLYING"
     ],
     sprite: "/sprites/EMOLGA.png",
-    artwork: "/artwork/emolga.png",
+    artwork: "/sprites/EMOLGA.png",
     description: "They live on treetops and glide using the inside of a cape-like membrane while discharging electricity.",
     stats: {
       hp: 55,
@@ -73011,7 +73597,8 @@ export const fakemons: Fakemon[] =
       "ROOST",
       "SHOCKWAVE",
       "TICKLE"
-    ]
+    ],
+    suffix: "normal"
   },
   {
     id: "KARRABLAST",
@@ -73020,7 +73607,7 @@ export const fakemons: Fakemon[] =
       "BUG"
     ],
     sprite: "/sprites/KARRABLAST.png",
-    artwork: "/artwork/karrablast.png",
+    artwork: "/sprites/KARRABLAST.png",
     description: "When they feel threatened, they spit an acidic liquid to drive attackers away. This Pokémon targets Shelmet.",
     stats: {
       hp: 50,
@@ -73105,7 +73692,8 @@ export const fakemons: Fakemon[] =
       "KNOCKOFF",
       "NIGHTSLASH",
       "SLASH"
-    ]
+    ],
+    suffix: "normal"
   },
   {
     id: "ESCAVALIER",
@@ -73115,7 +73703,7 @@ export const fakemons: Fakemon[] =
       "STEEL"
     ],
     sprite: "/sprites/ESCAVALIER.png",
-    artwork: "/artwork/escavalier.png",
+    artwork: "/sprites/ESCAVALIER.png",
     description: "These Pokémon evolve by wearing the shell covering of a Shelmet. The steel armor protects their whole body.",
     stats: {
       hp: 70,
@@ -73218,7 +73806,8 @@ export const fakemons: Fakemon[] =
     ],
     eggMoves: [
 
-    ]
+    ],
+    suffix: "normal"
   },
   {
     id: "FOONGUS",
@@ -73228,7 +73817,7 @@ export const fakemons: Fakemon[] =
       "POISON"
     ],
     sprite: "/sprites/FOONGUS.png",
-    artwork: "/artwork/foongus.png",
+    artwork: "/sprites/FOONGUS.png",
     description: "For some reason, this Pokémon resembles a Poké Ball. They release poison spores to repel those who try to catch them.",
     stats: {
       hp: 69,
@@ -73314,7 +73903,8 @@ export const fakemons: Fakemon[] =
       "POISONPOWDER",
       "ROLLOUT",
       "WORRYSEED"
-    ]
+    ],
+    suffix: "normal"
   },
   {
     id: "AMOONGUSS",
@@ -73324,7 +73914,7 @@ export const fakemons: Fakemon[] =
       "POISON"
     ],
     sprite: "/sprites/AMOONGUSS.png",
-    artwork: "/artwork/amoonguss.png",
+    artwork: "/sprites/AMOONGUSS.png",
     description: "They show off their Poké Ball caps to lure prey, but very few Pokémon are fooled by this.",
     stats: {
       hp: 114,
@@ -73412,7 +74002,8 @@ export const fakemons: Fakemon[] =
     ],
     eggMoves: [
 
-    ]
+    ],
+    suffix: "normal"
   },
   {
     id: "FRILLISH",
@@ -73422,7 +74013,7 @@ export const fakemons: Fakemon[] =
       "GHOST"
     ],
     sprite: "/sprites/FRILLISH.png",
-    artwork: "/artwork/frillish.png",
+    artwork: "/sprites/FRILLISH.png",
     description: "They paralyze prey with poison, then drag them down to their lairs, five miles below the surface.",
     stats: {
       hp: 55,
@@ -73524,7 +74115,8 @@ export const fakemons: Fakemon[] =
       "MIST",
       "PAINSPLIT",
       "STRENGTHSAP"
-    ]
+    ],
+    suffix: "normal"
   },
   {
     id: "JELLICENT",
@@ -73534,7 +74126,7 @@ export const fakemons: Fakemon[] =
       "GHOST"
     ],
     sprite: "/sprites/JELLICENT.png",
-    artwork: "/artwork/jellicent.png",
+    artwork: "/sprites/JELLICENT.png",
     description: "They propel themselves by expelling absorbed seawater from their bodies. Their favorite food is life energy.",
     stats: {
       hp: 100,
@@ -73635,7 +74227,8 @@ export const fakemons: Fakemon[] =
     ],
     eggMoves: [
 
-    ]
+    ],
+    suffix: "normal"
   },
   {
     id: "ALOMOMOLA",
@@ -73644,7 +74237,7 @@ export const fakemons: Fakemon[] =
       "WATER"
     ],
     sprite: "/sprites/ALOMOMOLA.png",
-    artwork: "/artwork/alomomola.png",
+    artwork: "/sprites/ALOMOMOLA.png",
     description: "Floating in the open sea is how they live. When they find a wounded Pokémon, they embrace it and bring it to shore.",
     stats: {
       hp: 165,
@@ -73748,7 +74341,8 @@ export const fakemons: Fakemon[] =
       "PAINSPLIT",
       "REFRESH",
       "TICKLE"
-    ]
+    ],
+    suffix: "normal"
   },
   {
     id: "JOLTIK",
@@ -73758,7 +74352,7 @@ export const fakemons: Fakemon[] =
       "ELECTRIC"
     ],
     sprite: "/sprites/JOLTIK.png",
-    artwork: "/artwork/joltik.png",
+    artwork: "/sprites/JOLTIK.png",
     description: "They attach themselves to large-bodied Pokémon and absorb static electricity, which they store in an electric pouch.",
     stats: {
       hp: 50,
@@ -73860,7 +74454,8 @@ export const fakemons: Fakemon[] =
       "LUNGE",
       "POISONSTING",
       "STRUGGLEBUG"
-    ]
+    ],
+    suffix: "normal"
   },
   {
     id: "GALVANTULA",
@@ -73870,7 +74465,7 @@ export const fakemons: Fakemon[] =
       "ELECTRIC"
     ],
     sprite: "/sprites/GALVANTULA.png",
-    artwork: "/artwork/galvantula.png",
+    artwork: "/sprites/GALVANTULA.png",
     description: "They employ an electrically charged web to trap their prey. While it is immobilized by shock, they leisurely consume it.",
     stats: {
       hp: 70,
@@ -73973,7 +74568,8 @@ export const fakemons: Fakemon[] =
     ],
     eggMoves: [
 
-    ]
+    ],
+    suffix: "normal"
   },
   {
     id: "FERROSEED",
@@ -73983,7 +74579,7 @@ export const fakemons: Fakemon[] =
       "STEEL"
     ],
     sprite: "/sprites/FERROSEED.png",
-    artwork: "/artwork/ferroseed.png",
+    artwork: "/sprites/FERROSEED.png",
     description: "They stick their spikes into cave walls and absorb the minerals they find in the rock.",
     stats: {
       hp: 44,
@@ -74077,7 +74673,8 @@ export const fakemons: Fakemon[] =
       "KNOCKOFF",
       "LEECHSEED",
       "TOXIC"
-    ]
+    ],
+    suffix: "normal"
   },
   {
     id: "FERROTHORN",
@@ -74087,7 +74684,7 @@ export const fakemons: Fakemon[] =
       "STEEL"
     ],
     sprite: "/sprites/FERROTHORN.png",
-    artwork: "/artwork/ferrothorn.png",
+    artwork: "/sprites/FERROTHORN.png",
     description: "They attach themselves to cave ceilings, firing steel spikes at targets passing beneath them.",
     stats: {
       hp: 74,
@@ -74194,7 +74791,8 @@ export const fakemons: Fakemon[] =
     ],
     eggMoves: [
 
-    ]
+    ],
+    suffix: "normal"
   },
   {
     id: "KLINK",
@@ -74203,7 +74801,7 @@ export const fakemons: Fakemon[] =
       "STEEL"
     ],
     sprite: "/sprites/KLINK.png",
-    artwork: "/artwork/klink.png",
+    artwork: "/sprites/KLINK.png",
     description: "Interlocking two bodies and spinning around generates the energy they need to live.",
     stats: {
       hp: 40,
@@ -74287,7 +74885,8 @@ export const fakemons: Fakemon[] =
     ],
     eggMoves: [
 
-    ]
+    ],
+    suffix: "normal"
   },
   {
     id: "KLANG",
@@ -74296,7 +74895,7 @@ export const fakemons: Fakemon[] =
       "STEEL"
     ],
     sprite: "/sprites/KLANG.png",
-    artwork: "/artwork/klang.png",
+    artwork: "/sprites/KLANG.png",
     description: "Spinning minigears are rotated at high speed and repeatedly fired away. It is dangerous if the gears don't return.",
     stats: {
       hp: 60,
@@ -74381,7 +74980,8 @@ export const fakemons: Fakemon[] =
     ],
     eggMoves: [
 
-    ]
+    ],
+    suffix: "normal"
   },
   {
     id: "KLINKLANG",
@@ -74390,7 +74990,7 @@ export const fakemons: Fakemon[] =
       "STEEL"
     ],
     sprite: "/sprites/KLINKLANG.png",
-    artwork: "/artwork/klinklang.png",
+    artwork: "/sprites/KLINKLANG.png",
     description: "The gear with the red core is rotated at high speed for a rapid energy charge.",
     stats: {
       hp: 60,
@@ -74482,7 +75082,8 @@ export const fakemons: Fakemon[] =
     ],
     eggMoves: [
 
-    ]
+    ],
+    suffix: "normal"
   },
   {
     id: "TYNAMO",
@@ -74491,7 +75092,7 @@ export const fakemons: Fakemon[] =
       "ELECTRIC"
     ],
     sprite: "/sprites/TYNAMO.png",
-    artwork: "/artwork/tynamo.png",
+    artwork: "/sprites/TYNAMO.png",
     description: "These Pokémon move in schools. They have an electricity-generating organ, so they discharge electricity if in danger.",
     stats: {
       hp: 35,
@@ -74526,7 +75127,8 @@ export const fakemons: Fakemon[] =
     ],
     eggMoves: [
 
-    ]
+    ],
+    suffix: "normal"
   },
   {
     id: "EELEKTRIK",
@@ -74535,7 +75137,7 @@ export const fakemons: Fakemon[] =
       "ELECTRIC"
     ],
     sprite: "/sprites/EELEKTRIK.png",
-    artwork: "/artwork/eelektrik.png",
+    artwork: "/sprites/EELEKTRIK.png",
     description: "These Pokémon have a big appetite. When they spot their prey, they attack it and paralyze it with electricity.",
     stats: {
       hp: 65,
@@ -74631,7 +75233,8 @@ export const fakemons: Fakemon[] =
     ],
     eggMoves: [
 
-    ]
+    ],
+    suffix: "normal"
   },
   {
     id: "EELEKTROSS",
@@ -74640,7 +75243,7 @@ export const fakemons: Fakemon[] =
       "ELECTRIC"
     ],
     sprite: "/sprites/EELEKTROSS.png",
-    artwork: "/artwork/eelektross.png",
+    artwork: "/sprites/EELEKTROSS.png",
     description: "With their sucker mouths, they suck in prey. Then they use their fangs to shock the prey with electricity.",
     stats: {
       hp: 85,
@@ -74765,7 +75368,8 @@ export const fakemons: Fakemon[] =
     ],
     eggMoves: [
 
-    ]
+    ],
+    suffix: "normal"
   },
   {
     id: "ELGYEM",
@@ -74774,7 +75378,7 @@ export const fakemons: Fakemon[] =
       "PSYCHIC"
     ],
     sprite: "/sprites/ELGYEM.png",
-    artwork: "/artwork/elgyem.png",
+    artwork: "/sprites/ELGYEM.png",
     description: "This Pokémon had never been seen until it appeared from far in the desert 50 years ago.",
     stats: {
       hp: 55,
@@ -74885,7 +75489,8 @@ export const fakemons: Fakemon[] =
       "DESTINYBOND",
       "DISABLE",
       "PSYCHUP"
-    ]
+    ],
+    suffix: "normal"
   },
   {
     id: "BEHEEYEM",
@@ -74894,7 +75499,7 @@ export const fakemons: Fakemon[] =
       "PSYCHIC"
     ],
     sprite: "/sprites/BEHEEYEM.png",
-    artwork: "/artwork/beheeyem.png",
+    artwork: "/sprites/BEHEEYEM.png",
     description: "It uses psychic power to control an opponent's brain and tamper with its memories.",
     stats: {
       hp: 75,
@@ -75009,7 +75614,8 @@ export const fakemons: Fakemon[] =
     ],
     eggMoves: [
 
-    ]
+    ],
+    suffix: "normal"
   },
   {
     id: "LITWICK",
@@ -75019,7 +75625,7 @@ export const fakemons: Fakemon[] =
       "FIRE"
     ],
     sprite: "/sprites/LITWICK.png",
-    artwork: "/artwork/litwick.png",
+    artwork: "/sprites/LITWICK.png",
     description: "While shining a light and pretending to be a guide, it leeches off the life force of any who follow it.",
     stats: {
       hp: 50,
@@ -75126,7 +75732,8 @@ export const fakemons: Fakemon[] =
       "CLEARSMOG",
       "HAZE",
       "POWERSPLIT"
-    ]
+    ],
+    suffix: "normal"
   },
   {
     id: "LAMPENT",
@@ -75136,7 +75743,7 @@ export const fakemons: Fakemon[] =
       "FIRE"
     ],
     sprite: "/sprites/LAMPENT.png",
-    artwork: "/artwork/lampent.png",
+    artwork: "/sprites/LAMPENT.png",
     description: "It arrives near the moment of death and steals spirit from the body.",
     stats: {
       hp: 60,
@@ -75241,7 +75848,8 @@ export const fakemons: Fakemon[] =
     ],
     eggMoves: [
 
-    ]
+    ],
+    suffix: "normal"
   },
   {
     id: "CHANDELURE",
@@ -75251,7 +75859,7 @@ export const fakemons: Fakemon[] =
       "FIRE"
     ],
     sprite: "/sprites/CHANDELURE.png",
-    artwork: "/artwork/chandelure.png",
+    artwork: "/sprites/CHANDELURE.png",
     description: "Being consumed in Chandelure's flame burns up the spirit, leaving the body behind.",
     stats: {
       hp: 60,
@@ -75360,7 +75968,8 @@ export const fakemons: Fakemon[] =
     ],
     eggMoves: [
 
-    ]
+    ],
+    suffix: "normal"
   },
   {
     id: "AXEW",
@@ -75369,7 +75978,7 @@ export const fakemons: Fakemon[] =
       "DRAGON"
     ],
     sprite: "/sprites/AXEW.png",
-    artwork: "/artwork/axew.png",
+    artwork: "/sprites/AXEW.png",
     description: "They mark their territory by leaving gashes in trees with their tusks. If a tusk breaks, a new one grows in quickly.",
     stats: {
       hp: 46,
@@ -75489,7 +76098,8 @@ export const fakemons: Fakemon[] =
       "HARDEN",
       "IRONTAIL",
       "NIGHTSLASH"
-    ]
+    ],
+    suffix: "normal"
   },
   {
     id: "FRAXURE",
@@ -75498,7 +76108,7 @@ export const fakemons: Fakemon[] =
       "DRAGON"
     ],
     sprite: "/sprites/FRAXURE.png",
-    artwork: "/artwork/fraxure.png",
+    artwork: "/sprites/FRAXURE.png",
     description: "Their tusks can shatter rocks. Territory battles between Fraxure can be intensely violent.",
     stats: {
       hp: 66,
@@ -75613,7 +76223,8 @@ export const fakemons: Fakemon[] =
     ],
     eggMoves: [
 
-    ]
+    ],
+    suffix: "normal"
   },
   {
     id: "HAXORUS",
@@ -75622,7 +76233,7 @@ export const fakemons: Fakemon[] =
       "DRAGON"
     ],
     sprite: "/sprites/HAXORUS.png",
-    artwork: "/artwork/haxorus.png",
+    artwork: "/sprites/HAXORUS.png",
     description: "Their sturdy tusks will stay sharp even if used to cut steel beams. These Pokémon are covered in hard armor.",
     stats: {
       hp: 76,
@@ -75748,7 +76359,8 @@ export const fakemons: Fakemon[] =
     ],
     eggMoves: [
 
-    ]
+    ],
+    suffix: "normal"
   },
   {
     id: "CUBCHOO",
@@ -75757,7 +76369,7 @@ export const fakemons: Fakemon[] =
       "ICE"
     ],
     sprite: "/sprites/CUBCHOO.png",
-    artwork: "/artwork/cubchoo.png",
+    artwork: "/sprites/CUBCHOO.png",
     description: "Its nose is always running. It sniffs the snot back up because the mucus provides the raw material for its moves.",
     stats: {
       hp: 55,
@@ -75875,7 +76487,8 @@ export const fakemons: Fakemon[] =
       "FOCUSPUNCH",
       "NIGHTSLASH",
       "YAWN"
-    ]
+    ],
+    suffix: "normal"
   },
   {
     id: "BEARTIC",
@@ -75884,7 +76497,7 @@ export const fakemons: Fakemon[] =
       "ICE"
     ],
     sprite: "/sprites/BEARTIC.png",
-    artwork: "/artwork/beartic.png",
+    artwork: "/sprites/BEARTIC.png",
     description: "It freezes its breath to create fangs and claws of ice to fight with. Cold northern areas are its habitat.",
     stats: {
       hp: 95,
@@ -76021,7 +76634,8 @@ export const fakemons: Fakemon[] =
     ],
     eggMoves: [
 
-    ]
+    ],
+    suffix: "normal"
   },
   {
     id: "CRYOGONAL",
@@ -76030,7 +76644,7 @@ export const fakemons: Fakemon[] =
       "ICE"
     ],
     sprite: "/sprites/CRYOGONAL.png",
-    artwork: "/artwork/cryogonal.png",
+    artwork: "/sprites/CRYOGONAL.png",
     description: "They are born in snow clouds. They use chains made of ice crystals to capture prey.",
     stats: {
       hp: 80,
@@ -76129,7 +76743,8 @@ export const fakemons: Fakemon[] =
       "AURORAVEIL",
       "EXPLOSION",
       "FROSTBREATH"
-    ]
+    ],
+    suffix: "normal"
   },
   {
     id: "SHELMET",
@@ -76138,7 +76753,7 @@ export const fakemons: Fakemon[] =
       "BUG"
     ],
     sprite: "/sprites/SHELMET.png",
-    artwork: "/artwork/shelmet.png",
+    artwork: "/sprites/SHELMET.png",
     description: "It evolves when bathed in an electric-like energy along with Karrablast. The reason is still unknown.",
     stats: {
       hp: 50,
@@ -76221,7 +76836,8 @@ export const fakemons: Fakemon[] =
       "FEINT",
       "GUARDSPLIT",
       "MINDREADER"
-    ]
+    ],
+    suffix: "normal"
   },
   {
     id: "ACCELGOR",
@@ -76230,7 +76846,7 @@ export const fakemons: Fakemon[] =
       "BUG"
     ],
     sprite: "/sprites/ACCELGOR.png",
-    artwork: "/artwork/accelgor.png",
+    artwork: "/sprites/ACCELGOR.png",
     description: "Having removed its heavy shell, it becomes very light and can fight with ninja-like movements.",
     stats: {
       hp: 80,
@@ -76331,7 +76947,8 @@ export const fakemons: Fakemon[] =
     ],
     eggMoves: [
 
-    ]
+    ],
+    suffix: "normal"
   },
   {
     id: "STUNFISK",
@@ -76341,7 +76958,7 @@ export const fakemons: Fakemon[] =
       "ELECTRIC"
     ],
     sprite: "/sprites/STUNFISK.png",
-    artwork: "/artwork/stunfisk.png",
+    artwork: "/sprites/STUNFISK.png",
     description: "It conceals itself in the mud of the seashore. Then it waits. When prey touch it, it delivers a jolt of energy.",
     stats: {
       hp: 109,
@@ -76446,7 +77063,8 @@ export const fakemons: Fakemon[] =
       "SPARK",
       "SPITE",
       "YAWN"
-    ]
+    ],
+    suffix: "normal"
   },
   {
     id: "MIENFOO",
@@ -76455,7 +77073,7 @@ export const fakemons: Fakemon[] =
       "FIGHTING"
     ],
     sprite: "/sprites/MIENFOO.png",
-    artwork: "/artwork/mienfoo.png",
+    artwork: "/sprites/MIENFOO.png",
     description: "They have mastered elegant combos. As they concentrate, their battle moves become swifter and more precise.",
     stats: {
       hp: 45,
@@ -76566,7 +77184,8 @@ export const fakemons: Fakemon[] =
       "FOCUSPUNCH",
       "KNOCKOFF",
       "VITALTHROW"
-    ]
+    ],
+    suffix: "normal"
   },
   {
     id: "MIENSHAO",
@@ -76575,7 +77194,7 @@ export const fakemons: Fakemon[] =
       "FIGHTING"
     ],
     sprite: "/sprites/MIENSHAO.png",
-    artwork: "/artwork/mienshao.png",
+    artwork: "/sprites/MIENSHAO.png",
     description: "They use the long fur on their arms as a whip to strike their opponents.",
     stats: {
       hp: 65,
@@ -76694,7 +77313,8 @@ export const fakemons: Fakemon[] =
     ],
     eggMoves: [
 
-    ]
+    ],
+    suffix: "normal"
   },
   {
     id: "DRUDDIGON",
@@ -76703,7 +77323,7 @@ export const fakemons: Fakemon[] =
       "DRAGON"
     ],
     sprite: "/sprites/DRUDDIGON.png",
-    artwork: "/artwork/druddigon.png",
+    artwork: "/sprites/DRUDDIGON.png",
     description: "It races through narrow caves, using its sharp claws to catch prey. Then skin on its face is harder than a rock.",
     stats: {
       hp: 77,
@@ -76824,7 +77444,8 @@ export const fakemons: Fakemon[] =
       "NIGHTSLASH",
       "POISONTAIL",
       "SUCKERPUNCH"
-    ]
+    ],
+    suffix: "normal"
   },
   {
     id: "GOLETT",
@@ -76834,7 +77455,7 @@ export const fakemons: Fakemon[] =
       "GHOST"
     ],
     sprite: "/sprites/GOLETT.png",
-    artwork: "/artwork/golett.png",
+    artwork: "/sprites/GOLETT.png",
     description: "These Pokémon are thought to have been created by the science of an ancient and mysterious civilization.",
     stats: {
       hp: 59,
@@ -76958,7 +77579,8 @@ export const fakemons: Fakemon[] =
     ],
     eggMoves: [
 
-    ]
+    ],
+    suffix: "normal"
   },
   {
     id: "GOLURK",
@@ -76968,7 +77590,7 @@ export const fakemons: Fakemon[] =
       "GHOST"
     ],
     sprite: "/sprites/GOLURK.png",
-    artwork: "/artwork/golurk.png",
+    artwork: "/sprites/GOLURK.png",
     description: "It is said that Golurk were ordered to protect people and Pokémon by the ancient people who made them.",
     stats: {
       hp: 89,
@@ -77110,7 +77732,8 @@ export const fakemons: Fakemon[] =
     ],
     eggMoves: [
 
-    ]
+    ],
+    suffix: "normal"
   },
   {
     id: "PAWNIARD",
@@ -77120,7 +77743,7 @@ export const fakemons: Fakemon[] =
       "STEEL"
     ],
     sprite: "/sprites/PAWNIARD.png",
-    artwork: "/artwork/pawniard.png",
+    artwork: "/sprites/PAWNIARD.png",
     description: "They fight at Bisharp's command. They cling to their prey and inflict damage by sinking their blades into it.",
     stats: {
       hp: 45,
@@ -77236,7 +77859,8 @@ export const fakemons: Fakemon[] =
       "MEANLOOK",
       "QUICKGUARD",
       "SUCKERPUNCH"
-    ]
+    ],
+    suffix: "normal"
   },
   {
     id: "BISHARP",
@@ -77246,7 +77870,7 @@ export const fakemons: Fakemon[] =
       "STEEL"
     ],
     sprite: "/sprites/BISHARP.png",
-    artwork: "/artwork/bisharp.png",
+    artwork: "/sprites/BISHARP.png",
     description: "Bisharp pursues prey in the company of a large group of Pawniard. Then Bisharp finishes off the prey.",
     stats: {
       hp: 65,
@@ -77366,7 +77990,8 @@ export const fakemons: Fakemon[] =
     ],
     eggMoves: [
 
-    ]
+    ],
+    suffix: "normal"
   },
   {
     id: "BOUFFALANT",
@@ -77375,7 +78000,7 @@ export const fakemons: Fakemon[] =
       "NORMAL"
     ],
     sprite: "/sprites/BOUFFALANT.png",
-    artwork: "/artwork/bouffalant.png",
+    artwork: "/sprites/BOUFFALANT.png",
     description: "They charge wildly and headbutt everything. They headbutts have enough destructive force to derail a train.",
     stats: {
       hp: 95,
@@ -77481,7 +78106,8 @@ export const fakemons: Fakemon[] =
       "MUDSLAP",
       "SKULLBASH",
       "STOMP"
-    ]
+    ],
+    suffix: "normal"
   },
   {
     id: "RUFFLET",
@@ -77491,7 +78117,7 @@ export const fakemons: Fakemon[] =
       "FLYING"
     ],
     sprite: "/sprites/RUFFLET.png",
-    artwork: "/artwork/rufflet.png",
+    artwork: "/sprites/RUFFLET.png",
     description: "They will challenge anything, even strong opponents, without fear. Their frequent fights help them become stronger.",
     stats: {
       hp: 70,
@@ -77592,7 +78218,8 @@ export const fakemons: Fakemon[] =
     eggMoves: [
       "ROCKSMASH",
       "ROOST"
-    ]
+    ],
+    suffix: "normal"
   },
   {
     id: "BRAVIARY",
@@ -77602,7 +78229,7 @@ export const fakemons: Fakemon[] =
       "FLYING"
     ],
     sprite: "/sprites/BRAVIARY.png",
-    artwork: "/artwork/braviary.png",
+    artwork: "/sprites/BRAVIARY.png",
     description: "The more scars they have, the more respect these brave soldiers of the sky get from their peers.",
     stats: {
       hp: 100,
@@ -77710,7 +78337,8 @@ export const fakemons: Fakemon[] =
     ],
     eggMoves: [
 
-    ]
+    ],
+    suffix: "normal"
   },
   {
     id: "VULLABY",
@@ -77720,7 +78348,7 @@ export const fakemons: Fakemon[] =
       "FLYING"
     ],
     sprite: "/sprites/VULLABY.png",
-    artwork: "/artwork/vullaby.png",
+    artwork: "/sprites/VULLABY.png",
     description: "They tend to guard their posteriors with suitable bones they have found. They pursue weak Pokémon.",
     stats: {
       hp: 70,
@@ -77828,7 +78456,8 @@ export const fakemons: Fakemon[] =
       "MEANLOOK",
       "ROOST",
       "TOXIC"
-    ]
+    ],
+    suffix: "normal"
   },
   {
     id: "MANDIBUZZ",
@@ -77838,7 +78467,7 @@ export const fakemons: Fakemon[] =
       "FLYING"
     ],
     sprite: "/sprites/MANDIBUZZ.png",
-    artwork: "/artwork/mandibuzz.png",
+    artwork: "/sprites/MANDIBUZZ.png",
     description: "Watching from the sky, they swoop to strike weakened Pokémon on the ground. They decorate themselves with bones.",
     stats: {
       hp: 110,
@@ -77954,7 +78583,8 @@ export const fakemons: Fakemon[] =
     ],
     eggMoves: [
 
-    ]
+    ],
+    suffix: "normal"
   },
   {
     id: "HEATMOR",
@@ -77963,7 +78593,7 @@ export const fakemons: Fakemon[] =
       "FIRE"
     ],
     sprite: "/sprites/HEATMOR.png",
-    artwork: "/artwork/heatmor.png",
+    artwork: "/sprites/HEATMOR.png",
     description: "Using their very hot, flame-covered tongues, they burn through Durant's steel bodies and consume their insides.",
     stats: {
       hp: 85,
@@ -78073,7 +78703,8 @@ export const fakemons: Fakemon[] =
       "NIGHTSLASH",
       "SUCKERPUNCH",
       "TICKLE"
-    ]
+    ],
+    suffix: "normal"
   },
   {
     id: "DURANT",
@@ -78083,7 +78714,7 @@ export const fakemons: Fakemon[] =
       "STEEL"
     ],
     sprite: "/sprites/DURANT.png",
-    artwork: "/artwork/durant.png",
+    artwork: "/sprites/DURANT.png",
     description: "Durant dig nests in mountains. They build their complicated, interconnected tunnels in mazes.",
     stats: {
       hp: 58,
@@ -78183,7 +78814,8 @@ export const fakemons: Fakemon[] =
       "INFESTATION",
       "METALBURST",
       "STRUGGLEBUG"
-    ]
+    ],
+    suffix: "normal"
   },
   {
     id: "DEINO",
@@ -78193,7 +78825,7 @@ export const fakemons: Fakemon[] =
       "DRAGON"
     ],
     sprite: "/sprites/DEINO.png",
-    artwork: "/artwork/deino.png",
+    artwork: "/sprites/DEINO.png",
     description: "They cannot see, so they tackle and bite to learn about their surroundings. Their bodies are covered in wounds.",
     stats: {
       hp: 52,
@@ -78295,7 +78927,8 @@ export const fakemons: Fakemon[] =
       "BELCH",
       "DOUBLEHIT",
       "HEADSMASH"
-    ]
+    ],
+    suffix: "normal"
   },
   {
     id: "ZWEILOUS",
@@ -78305,7 +78938,7 @@ export const fakemons: Fakemon[] =
       "DRAGON"
     ],
     sprite: "/sprites/ZWEILOUS.png",
-    artwork: "/artwork/zweilous.png",
+    artwork: "/sprites/ZWEILOUS.png",
     description: "Since their two heads do not get along and compete with each other for food, they always eat too much.",
     stats: {
       hp: 72,
@@ -78409,7 +79042,8 @@ export const fakemons: Fakemon[] =
     ],
     eggMoves: [
 
-    ]
+    ],
+    suffix: "normal"
   },
   {
     id: "HYDREIGON",
@@ -78419,7 +79053,7 @@ export const fakemons: Fakemon[] =
       "DRAGON"
     ],
     sprite: "/sprites/HYDREIGON.png",
-    artwork: "/artwork/hydreigon.png",
+    artwork: "/sprites/HYDREIGON.png",
     description: "The heads on their arms do not have brains. They use all three heads to consume and destroy everything.",
     stats: {
       hp: 92,
@@ -78560,7 +79194,8 @@ export const fakemons: Fakemon[] =
     ],
     eggMoves: [
 
-    ]
+    ],
+    suffix: "normal"
   },
   {
     id: "LARVESTA",
@@ -78570,7 +79205,7 @@ export const fakemons: Fakemon[] =
       "FIRE"
     ],
     sprite: "/sprites/LARVESTA.png",
-    artwork: "/artwork/larvesta.png",
+    artwork: "/sprites/LARVESTA.png",
     description: "The base of volcanoes is where they make their homes. They shoot fire from their five horns to repel attacking enemies.",
     stats: {
       hp: 55,
@@ -78666,7 +79301,8 @@ export const fakemons: Fakemon[] =
       "HARDEN",
       "MORNINGSUN",
       "THRASH"
-    ]
+    ],
+    suffix: "normal"
   },
   {
     id: "VOLCARONA",
@@ -78676,7 +79312,7 @@ export const fakemons: Fakemon[] =
       "FIRE"
     ],
     sprite: "/sprites/VOLCARONA.png",
-    artwork: "/artwork/volcarona.png",
+    artwork: "/sprites/VOLCARONA.png",
     description: "A sea of fire engulfs the surroundings of their battles, since they use their six wings to scatter their ember scales.",
     stats: {
       hp: 85,
@@ -78791,7 +79427,8 @@ export const fakemons: Fakemon[] =
     ],
     eggMoves: [
 
-    ]
+    ],
+    suffix: "normal"
   },
   {
     id: "COBALION",
@@ -78801,7 +79438,7 @@ export const fakemons: Fakemon[] =
       "FIGHTING"
     ],
     sprite: "/sprites/COBALION.png",
-    artwork: "/artwork/cobalion.png",
+    artwork: "/sprites/COBALION.png",
     description: "It has a body and heart of steel. Its glare is sufficient to make even an unruly Pokémon obey it.",
     stats: {
       hp: 91,
@@ -78917,7 +79554,8 @@ export const fakemons: Fakemon[] =
     ],
     eggMoves: [
 
-    ]
+    ],
+    suffix: "normal"
   },
   {
     id: "TERRAKION",
@@ -78927,7 +79565,7 @@ export const fakemons: Fakemon[] =
       "FIGHTING"
     ],
     sprite: "/sprites/TERRAKION.png",
-    artwork: "/artwork/terrakion.png",
+    artwork: "/sprites/TERRAKION.png",
     description: "Its charge is strong enough to break through a giant castle wall in one blow. This Pokémon is spoken of in legends.",
     stats: {
       hp: 91,
@@ -79037,7 +79675,8 @@ export const fakemons: Fakemon[] =
     ],
     eggMoves: [
 
-    ]
+    ],
+    suffix: "normal"
   },
   {
     id: "VIRIZION",
@@ -79047,7 +79686,7 @@ export const fakemons: Fakemon[] =
       "FIGHTING"
     ],
     sprite: "/sprites/VIRIZION.png",
-    artwork: "/artwork/virizion.png",
+    artwork: "/sprites/VIRIZION.png",
     description: "Its head sprouts horns as sharp as blades. Using whirlwind-like movements, it confounds and swiftly cuts opponents.",
     stats: {
       hp: 91,
@@ -79164,7 +79803,8 @@ export const fakemons: Fakemon[] =
     ],
     eggMoves: [
 
-    ]
+    ],
+    suffix: "normal"
   },
   {
     id: "TORNADUS",
@@ -79173,7 +79813,7 @@ export const fakemons: Fakemon[] =
       "FLYING"
     ],
     sprite: "/sprites/TORNADUS.png",
-    artwork: "/artwork/tornadus.png",
+    artwork: "/sprites/TORNADUS.png",
     description: "Tornadus expels massive energy from its tail, causing severe storms. Its power is great enough to blow houses away.",
     stats: {
       hp: 79,
@@ -79291,7 +79931,8 @@ export const fakemons: Fakemon[] =
     ],
     eggMoves: [
 
-    ]
+    ],
+    suffix: "normal"
   },
   {
     id: "THUNDURUS",
@@ -79301,7 +79942,7 @@ export const fakemons: Fakemon[] =
       "FLYING"
     ],
     sprite: "/sprites/THUNDURUS.png",
-    artwork: "/artwork/thundurus.png",
+    artwork: "/sprites/THUNDURUS.png",
     description: "The spikes on its tail discharge immense bolts of lightning. It flies around the Unova region firing off lightning bolts.",
     stats: {
       hp: 79,
@@ -79426,7 +80067,8 @@ export const fakemons: Fakemon[] =
     ],
     eggMoves: [
 
-    ]
+    ],
+    suffix: "normal"
   },
   {
     id: "RESHIRAM",
@@ -79436,7 +80078,7 @@ export const fakemons: Fakemon[] =
       "FIRE"
     ],
     sprite: "/sprites/RESHIRAM.png",
-    artwork: "/artwork/reshiram.png",
+    artwork: "/sprites/RESHIRAM.png",
     description: "When Reshiram's tail flares, the heat energy moves the atmosphere and changes the world's weather.",
     stats: {
       hp: 100,
@@ -79560,7 +80202,8 @@ export const fakemons: Fakemon[] =
     ],
     eggMoves: [
 
-    ]
+    ],
+    suffix: "normal"
   },
   {
     id: "ZEKROM",
@@ -79570,7 +80213,7 @@ export const fakemons: Fakemon[] =
       "ELECTRIC"
     ],
     sprite: "/sprites/ZEKROM.png",
-    artwork: "/artwork/zekrom.png",
+    artwork: "/sprites/ZEKROM.png",
     description: "This Pokémon appears in legends. In its tail, it has a giant generator that creates electricity.",
     stats: {
       hp: 100,
@@ -79702,7 +80345,8 @@ export const fakemons: Fakemon[] =
     ],
     eggMoves: [
 
-    ]
+    ],
+    suffix: "normal"
   },
   {
     id: "LANDORUS",
@@ -79712,7 +80356,7 @@ export const fakemons: Fakemon[] =
       "FLYING"
     ],
     sprite: "/sprites/LANDORUS.png",
-    artwork: "/artwork/landorus.png",
+    artwork: "/sprites/LANDORUS.png",
     description: "The energy that comes pouring from its tail increases the nutrition in the soil, making crops grow to great size.",
     stats: {
       hp: 89,
@@ -79827,7 +80471,8 @@ export const fakemons: Fakemon[] =
     ],
     eggMoves: [
 
-    ]
+    ],
+    suffix: "normal"
   },
   {
     id: "KYUREM",
@@ -79837,7 +80482,7 @@ export const fakemons: Fakemon[] =
       "ICE"
     ],
     sprite: "/sprites/KYUREM.png",
-    artwork: "/artwork/kyurem.png",
+    artwork: "/sprites/KYUREM.png",
     description: "It generates a powerful, freezing energy inside itself, but its body became frozen when the energy leaked out.",
     stats: {
       hp: 125,
@@ -79956,7 +80601,8 @@ export const fakemons: Fakemon[] =
     ],
     eggMoves: [
 
-    ]
+    ],
+    suffix: "normal"
   },
   {
     id: "KELDEO",
@@ -79966,7 +80612,7 @@ export const fakemons: Fakemon[] =
       "FIGHTING"
     ],
     sprite: "/sprites/KELDEO.png",
-    artwork: "/artwork/keldeo.png",
+    artwork: "/sprites/KELDEO.png",
     description: "It crosses the world, running over the surfaces of oceans and rivers. It appears at scenic waterfronts.",
     stats: {
       hp: 91,
@@ -80079,7 +80725,8 @@ export const fakemons: Fakemon[] =
     ],
     eggMoves: [
 
-    ]
+    ],
+    suffix: "normal"
   },
   {
     id: "MELOETTA",
@@ -80089,7 +80736,7 @@ export const fakemons: Fakemon[] =
       "PSYCHIC"
     ],
     sprite: "/sprites/MELOETTA.png",
-    artwork: "/artwork/meloetta.png",
+    artwork: "/sprites/MELOETTA.png",
     description: "Many famous songs have been inspired by the melodies that Meloetta plays.",
     stats: {
       hp: 100,
@@ -80227,7 +80874,8 @@ export const fakemons: Fakemon[] =
     ],
     eggMoves: [
 
-    ]
+    ],
+    suffix: "normal"
   },
   {
     id: "GENESECT",
@@ -80237,7 +80885,7 @@ export const fakemons: Fakemon[] =
       "STEEL"
     ],
     sprite: "/sprites/GENESECT.png",
-    artwork: "/artwork/genesect.png",
+    artwork: "/sprites/GENESECT.png",
     description: "This ancient bug Pokémon was altered by Team Plasma. They upgraded the cannon on its back.",
     stats: {
       hp: 71,
@@ -80348,7 +80996,8 @@ export const fakemons: Fakemon[] =
     ],
     eggMoves: [
 
-    ]
+    ],
+    suffix: "normal"
   },
   {
     id: "CHESPIN",
@@ -80357,7 +81006,7 @@ export const fakemons: Fakemon[] =
       "GRASS"
     ],
     sprite: "/sprites/CHESPIN.png",
-    artwork: "/artwork/chespin.png",
+    artwork: "/sprites/CHESPIN.png",
     description: "The quills on its head are usually soft. When it flexes them, the points become so hard and sharp that they can pierce rock.",
     stats: {
       hp: 56,
@@ -80480,7 +81129,8 @@ export const fakemons: Fakemon[] =
       "SUPERFANG",
       "SYNTHESIS",
       "WIDEGUARD"
-    ]
+    ],
+    suffix: "normal"
   },
   {
     id: "QUILLADIN",
@@ -80489,7 +81139,7 @@ export const fakemons: Fakemon[] =
       "GRASS"
     ],
     sprite: "/sprites/QUILLADIN.png",
-    artwork: "/artwork/quilladin.png",
+    artwork: "/sprites/QUILLADIN.png",
     description: "They strengthen their lower bodies by running into one another. They are very kind and won't start fights.",
     stats: {
       hp: 61,
@@ -80611,7 +81261,8 @@ export const fakemons: Fakemon[] =
     ],
     eggMoves: [
 
-    ]
+    ],
+    suffix: "normal"
   },
   {
     id: "CHESNAUGHT",
@@ -80621,7 +81272,7 @@ export const fakemons: Fakemon[] =
       "FIGHTING"
     ],
     sprite: "/sprites/CHESNAUGHT.png",
-    artwork: "/artwork/chesnaught.png",
+    artwork: "/sprites/CHESNAUGHT.png",
     description: "Its Tackle is forceful enough to flip a 50-ton tank. It shields its allies from danger with its own body.",
     stats: {
       hp: 88,
@@ -80767,7 +81418,8 @@ export const fakemons: Fakemon[] =
     ],
     eggMoves: [
 
-    ]
+    ],
+    suffix: "normal"
   },
   {
     id: "FENNEKIN",
@@ -80776,7 +81428,7 @@ export const fakemons: Fakemon[] =
       "FIRE"
     ],
     sprite: "/sprites/FENNEKIN.png",
-    artwork: "/artwork/fennekin.png",
+    artwork: "/sprites/FENNEKIN.png",
     description: "As it walks, it munches on a twig in place of a snack. It intimidates opponents by puffing hot air out of its ears.",
     stats: {
       hp: 40,
@@ -80888,7 +81540,8 @@ export const fakemons: Fakemon[] =
       "MAGICROOM",
       "PSYCHICTERRAIN",
       "WISH"
-    ]
+    ],
+    suffix: "normal"
   },
   {
     id: "BRAIXEN",
@@ -80897,7 +81550,7 @@ export const fakemons: Fakemon[] =
       "FIRE"
     ],
     sprite: "/sprites/BRAIXEN.png",
-    artwork: "/artwork/braixen.png",
+    artwork: "/sprites/BRAIXEN.png",
     description: "When the twig is plucked from its tail, friction sets the twig alight. The flame is used to send signals to its allies.",
     stats: {
       hp: 59,
@@ -81015,7 +81668,8 @@ export const fakemons: Fakemon[] =
     ],
     eggMoves: [
 
-    ]
+    ],
+    suffix: "normal"
   },
   {
     id: "DELPHOX",
@@ -81025,7 +81679,7 @@ export const fakemons: Fakemon[] =
       "PSYCHIC"
     ],
     sprite: "/sprites/DELPHOX.png",
-    artwork: "/artwork/delphox.png",
+    artwork: "/sprites/DELPHOX.png",
     description: "It gazes into the flame at the tip of its branch to achieve a focused state, which allows it to see into the future.",
     stats: {
       hp: 75,
@@ -81168,7 +81822,8 @@ export const fakemons: Fakemon[] =
     ],
     eggMoves: [
 
-    ]
+    ],
+    suffix: "normal"
   },
   {
     id: "FROAKIE",
@@ -81177,7 +81832,7 @@ export const fakemons: Fakemon[] =
       "WATER"
     ],
     sprite: "/sprites/FROAKIE.png",
-    artwork: "/artwork/froakie.png",
+    artwork: "/sprites/FROAKIE.png",
     description: "It protects its skin by covering its body in delicate bubbles. Beneath its happy-go-lucky air, it keeps a watchful eye on its surroundings.",
     stats: {
       hp: 41,
@@ -81289,7 +81944,8 @@ export const fakemons: Fakemon[] =
       "SWITCHEROO",
       "TOXICSPIKES",
       "WATERSPORT"
-    ]
+    ],
+    suffix: "normal"
   },
   {
     id: "FROGADIER",
@@ -81298,7 +81954,7 @@ export const fakemons: Fakemon[] =
       "WATER"
     ],
     sprite: "/sprites/FROGADIER.png",
-    artwork: "/artwork/frogadier.png",
+    artwork: "/sprites/FROGADIER.png",
     description: "It can throw bubble-covered pebbles with precise control, hitting empty cans up to a hundred feet away.",
     stats: {
       hp: 54,
@@ -81404,7 +82060,8 @@ export const fakemons: Fakemon[] =
     ],
     eggMoves: [
 
-    ]
+    ],
+    suffix: "normal"
   },
   {
     id: "GRENINJA",
@@ -81414,7 +82071,7 @@ export const fakemons: Fakemon[] =
       "DARK"
     ],
     sprite: "/sprites/GRENINJA.png",
-    artwork: "/artwork/greninja.png",
+    artwork: "/sprites/GRENINJA.png",
     description: "It appears and vanishes with a ninja's grace. It toys with its enemies using swift movements, while slicing them with throwing stars of sharpest water.",
     stats: {
       hp: 72,
@@ -81535,7 +82192,8 @@ export const fakemons: Fakemon[] =
     ],
     eggMoves: [
 
-    ]
+    ],
+    suffix: "normal"
   },
   {
     id: "BUNNELBY",
@@ -81544,7 +82202,7 @@ export const fakemons: Fakemon[] =
       "NORMAL"
     ],
     sprite: "/sprites/BUNNELBY.png",
-    artwork: "/artwork/bunnelby.png",
+    artwork: "/sprites/BUNNELBY.png",
     description: "It has ears like shovels. Digging holes strengthens its ears so much that they can sever thick roots effortlessly.",
     stats: {
       hp: 38,
@@ -81642,7 +82300,8 @@ export const fakemons: Fakemon[] =
     eggMoves: [
       "DEFENSECURL",
       "ROLLOUT"
-    ]
+    ],
+    suffix: "normal"
   },
   {
     id: "DIGGERSBY",
@@ -81652,7 +82311,7 @@ export const fakemons: Fakemon[] =
       "GROUND"
     ],
     sprite: "/sprites/DIGGERSBY.png",
-    artwork: "/artwork/diggersby.png",
+    artwork: "/sprites/DIGGERSBY.png",
     description: "As powerful as an excavator, its ears can reduce dense bedrock to rubble. When it's finished digging, it lounges lazily.",
     stats: {
       hp: 85,
@@ -81773,7 +82432,8 @@ export const fakemons: Fakemon[] =
     ],
     eggMoves: [
 
-    ]
+    ],
+    suffix: "normal"
   },
   {
     id: "FLETCHLING",
@@ -81783,7 +82443,7 @@ export const fakemons: Fakemon[] =
       "FLYING"
     ],
     sprite: "/sprites/FLETCHLING.png",
-    artwork: "/artwork/fletchling.png",
+    artwork: "/sprites/FLETCHLING.png",
     description: "These friendly Pokémon send signals to one another with beautiful chirps and tail-feather movements.",
     stats: {
       hp: 45,
@@ -81871,7 +82531,8 @@ export const fakemons: Fakemon[] =
       "DEFOG",
       "FLAMECHARGE",
       "QUICKGUARD"
-    ]
+    ],
+    suffix: "normal"
   },
   {
     id: "FLETCHINDER",
@@ -81881,7 +82542,7 @@ export const fakemons: Fakemon[] =
       "FLYING"
     ],
     sprite: "/sprites/FLETCHINDER.png",
-    artwork: "/artwork/fletchinder.png",
+    artwork: "/sprites/FLETCHINDER.png",
     description: "From its beak, it expels embers that set the tall grass on fire. Then it pounces on the bewildered prey that pop out of the grass.",
     stats: {
       hp: 62,
@@ -81975,7 +82636,8 @@ export const fakemons: Fakemon[] =
     ],
     eggMoves: [
 
-    ]
+    ],
+    suffix: "normal"
   },
   {
     id: "TALONFLAME",
@@ -81985,7 +82647,7 @@ export const fakemons: Fakemon[] =
       "FLYING"
     ],
     sprite: "/sprites/TALONFLAME.png",
-    artwork: "/artwork/talonflame.png",
+    artwork: "/sprites/TALONFLAME.png",
     description: "In the fever of an exciting battle, it showers embers from the gaps between its feathers and takes to the air.",
     stats: {
       hp: 78,
@@ -82087,7 +82749,8 @@ export const fakemons: Fakemon[] =
     ],
     eggMoves: [
 
-    ]
+    ],
+    suffix: "normal"
   },
   {
     id: "SCATTERBUG",
@@ -82096,7 +82759,7 @@ export const fakemons: Fakemon[] =
       "BUG"
     ],
     sprite: "/sprites/SCATTERBUG.png",
-    artwork: "/artwork/scatterbug.png",
+    artwork: "/sprites/SCATTERBUG.png",
     description: "When under attack from bird Pokémon, it spews a poisonous black powder that causes paralysis on contact.",
     stats: {
       hp: 38,
@@ -82132,7 +82795,8 @@ export const fakemons: Fakemon[] =
       "POISONPOWDER",
       "RAGEPOWDER",
       "STUNSPORE"
-    ]
+    ],
+    suffix: "normal"
   },
   {
     id: "SPEWPA",
@@ -82141,7 +82805,7 @@ export const fakemons: Fakemon[] =
       "BUG"
     ],
     sprite: "/sprites/SPEWPA.png",
-    artwork: "/artwork/spewpa.png",
+    artwork: "/sprites/SPEWPA.png",
     description: "It lives hidden within thicket shadows. When predators attack, it quickly bristles the fur covering its body in an effort to threaten them.",
     stats: {
       hp: 45,
@@ -82174,7 +82838,8 @@ export const fakemons: Fakemon[] =
     ],
     eggMoves: [
 
-    ]
+    ],
+    suffix: "normal"
   },
   {
     id: "VIVILLON",
@@ -82184,7 +82849,7 @@ export const fakemons: Fakemon[] =
       "FLYING"
     ],
     sprite: "/sprites/VIVILLON.png",
-    artwork: "/artwork/vivillon.png",
+    artwork: "/sprites/VIVILLON.png",
     description: "Vivillon with many different patterns are found all over the world. These patterns are affected by the climate of their habitat.",
     stats: {
       hp: 80,
@@ -82279,7 +82944,8 @@ export const fakemons: Fakemon[] =
     ],
     eggMoves: [
 
-    ]
+    ],
+    suffix: "normal"
   },
   {
     id: "LITLEO",
@@ -82289,7 +82955,7 @@ export const fakemons: Fakemon[] =
       "NORMAL"
     ],
     sprite: "/sprites/LITLEO.png",
-    artwork: "/artwork/litleo.png",
+    artwork: "/sprites/LITLEO.png",
     description: "They set off on their own from their pride and live by themselves to become stronger. These hot-blooded Pokémon are quick to fight.",
     stats: {
       hp: 62,
@@ -82395,7 +83061,8 @@ export const fakemons: Fakemon[] =
       "FLAREBLITZ",
       "SNATCH",
       "YAWN"
-    ]
+    ],
+    suffix: "normal"
   },
   {
     id: "PYROAR",
@@ -82405,7 +83072,7 @@ export const fakemons: Fakemon[] =
       "NORMAL"
     ],
     sprite: "/sprites/PYROAR.png",
-    artwork: "/artwork/pyroar.png",
+    artwork: "/sprites/PYROAR.png",
     description: "With fiery breath of more than 6,000 degrees Celsius, they viciously threaten any challenger. The females protect the pride's cubs.",
     stats: {
       hp: 86,
@@ -82514,7 +83181,8 @@ export const fakemons: Fakemon[] =
     ],
     eggMoves: [
 
-    ]
+    ],
+    suffix: "normal"
   },
   {
     id: "FLABEBE",
@@ -82523,7 +83191,7 @@ export const fakemons: Fakemon[] =
       "FAIRY"
     ],
     sprite: "/sprites/FLABEBE.png",
-    artwork: "/artwork/flabebe.png",
+    artwork: "/sprites/FLABEBE.png",
     description: "When it finds a flower it likes, it dwells on that flower its whole life long. It floats in the wind's embrace with an untroubled heart.",
     stats: {
       hp: 44,
@@ -82624,7 +83292,8 @@ export const fakemons: Fakemon[] =
       "COPYCAT",
       "ENDEAVOR",
       "TEARFULLOOK"
-    ]
+    ],
+    suffix: "normal"
   },
   {
     id: "FLOETTE",
@@ -82633,7 +83302,7 @@ export const fakemons: Fakemon[] =
       "FAIRY"
     ],
     sprite: "/sprites/FLOETTE.png",
-    artwork: "/artwork/floette.png",
+    artwork: "/sprites/FLOETTE.png",
     description: "It flutters around fields of flowers and cares for flowers that are starting to wilt. It draws out the power of flowers to battle.",
     stats: {
       hp: 54,
@@ -82733,7 +83402,8 @@ export const fakemons: Fakemon[] =
     ],
     eggMoves: [
 
-    ]
+    ],
+    suffix: "normal"
   },
   {
     id: "FLORGES",
@@ -82742,7 +83412,7 @@ export const fakemons: Fakemon[] =
       "FAIRY"
     ],
     sprite: "/sprites/FLORGES.png",
-    artwork: "/artwork/florges.png",
+    artwork: "/sprites/FLORGES.png",
     description: "It claims exquisite flower gardens as its territory, and it obtains power from basking in the energy emitted by flowering plants.",
     stats: {
       hp: 78,
@@ -82845,7 +83515,8 @@ export const fakemons: Fakemon[] =
     ],
     eggMoves: [
 
-    ]
+    ],
+    suffix: "normal"
   },
   {
     id: "SKIDDO",
@@ -82854,7 +83525,7 @@ export const fakemons: Fakemon[] =
       "GRASS"
     ],
     sprite: "/sprites/SKIDDO.png",
-    artwork: "/artwork/skiddo.png",
+    artwork: "/sprites/SKIDDO.png",
     description: "If it has sunshine and water, it doesn't need to eat, because it can generate energy from the leaves on its back.",
     stats: {
       hp: 66,
@@ -82957,7 +83628,8 @@ export const fakemons: Fakemon[] =
       "GRASSYTERRAIN",
       "MILKDRINK",
       "ROLLOUT"
-    ]
+    ],
+    suffix: "normal"
   },
   {
     id: "GOGOAT",
@@ -82966,7 +83638,7 @@ export const fakemons: Fakemon[] =
       "GRASS"
     ],
     sprite: "/sprites/GOGOAT.png",
-    artwork: "/artwork/gogoat.png",
+    artwork: "/sprites/GOGOAT.png",
     description: "It can tell how its trainer is feeling by subtle shifts in the grip on its horns. This empathetic sense lets them run as if one being.",
     stats: {
       hp: 123,
@@ -83077,7 +83749,8 @@ export const fakemons: Fakemon[] =
     ],
     eggMoves: [
 
-    ]
+    ],
+    suffix: "normal"
   },
   {
     id: "PANCHAM",
@@ -83086,7 +83759,7 @@ export const fakemons: Fakemon[] =
       "FIGHTING"
     ],
     sprite: "/sprites/PANCHAM.png",
-    artwork: "/artwork/pancham.png",
+    artwork: "/sprites/PANCHAM.png",
     description: "It does its best to be taken seriously by its enemies, but its glare is not sufficiently intimidating. Chewing on a leaf is its trademark.",
     stats: {
       hp: 67,
@@ -83206,7 +83879,8 @@ export const fakemons: Fakemon[] =
       "QUICKGUARD",
       "SEISMICTOSS",
       "STORMTHROW"
-    ]
+    ],
+    suffix: "normal"
   },
   {
     id: "PANGORO",
@@ -83216,7 +83890,7 @@ export const fakemons: Fakemon[] =
       "DARK"
     ],
     sprite: "/sprites/PANGORO.png",
-    artwork: "/artwork/pangoro.png",
+    artwork: "/sprites/PANGORO.png",
     description: "It charges ahead and bashes its opponents like a berserker, uncaring about any hits it might take. Its arms are mighty enough to snap a telephone pole.",
     stats: {
       hp: 95,
@@ -83359,7 +84033,8 @@ export const fakemons: Fakemon[] =
     ],
     eggMoves: [
 
-    ]
+    ],
+    suffix: "normal"
   },
   {
     id: "FURFROU",
@@ -83368,7 +84043,7 @@ export const fakemons: Fakemon[] =
       "NORMAL"
     ],
     sprite: "/sprites/FURFROU.png",
-    artwork: "/artwork/furfrou.png",
+    artwork: "/sprites/FURFROU.png",
     description: "Trimming its fluffy fur not only makes it more elegant but also increases the swiftness of its movements.",
     stats: {
       hp: 75,
@@ -83456,7 +84131,8 @@ export const fakemons: Fakemon[] =
       "REFRESH",
       "ROLEPLAY",
       "WORKUP"
-    ]
+    ],
+    suffix: "normal"
   },
   {
     id: "ESPURR",
@@ -83465,7 +84141,7 @@ export const fakemons: Fakemon[] =
       "PSYCHIC"
     ],
     sprite: "/sprites/ESPURR.png",
-    artwork: "/artwork/espurr.png",
+    artwork: "/sprites/ESPURR.png",
     description: "The organ that emits its intense psychic power is sheltered by its ears to keep power from leaking out.",
     stats: {
       hp: 62,
@@ -83573,7 +84249,8 @@ export const fakemons: Fakemon[] =
     eggMoves: [
       "TICKLE",
       "YAWN"
-    ]
+    ],
+    suffix: "normal"
   },
   {
     id: "MEOWSTIC",
@@ -83582,7 +84259,7 @@ export const fakemons: Fakemon[] =
       "PSYCHIC"
     ],
     sprite: "/sprites/MEOWSTIC.png",
-    artwork: "/artwork/meowstic.png",
+    artwork: "/sprites/MEOWSTIC.png",
     description: "Revealing the eyelike patterns on the insides of its ears will unleash its psychic powers. It normally keeps the patterns hidden, however.",
     stats: {
       hp: 74,
@@ -83710,7 +84387,8 @@ export const fakemons: Fakemon[] =
     ],
     eggMoves: [
 
-    ]
+    ],
+    suffix: "normal"
   },
   {
     id: "HONEDGE",
@@ -83720,7 +84398,7 @@ export const fakemons: Fakemon[] =
       "GHOST"
     ],
     sprite: "/sprites/HONEDGE.png",
-    artwork: "/artwork/honedge.png",
+    artwork: "/sprites/HONEDGE.png",
     description: "Apparently this Pokémon is born when a departed spirit inhabits a sword. It attaches itself to people and drinks their life force.",
     stats: {
       hp: 45,
@@ -83808,7 +84486,8 @@ export const fakemons: Fakemon[] =
       "BLOCK",
       "DESTINYBOND",
       "WIDEGUARD"
-    ]
+    ],
+    suffix: "normal"
   },
   {
     id: "DOUBLADE",
@@ -83818,7 +84497,7 @@ export const fakemons: Fakemon[] =
       "GHOST"
     ],
     sprite: "/sprites/DOUBLADE.png",
-    artwork: "/artwork/doublade.png",
+    artwork: "/sprites/DOUBLADE.png",
     description: "The complex attack patterns of its two swords are unstoppable, even for an opponent greatly accomplished at swordplay.",
     stats: {
       hp: 59,
@@ -83904,7 +84583,8 @@ export const fakemons: Fakemon[] =
     ],
     eggMoves: [
 
-    ]
+    ],
+    suffix: "normal"
   },
   {
     id: "AEGISLASH",
@@ -83914,7 +84594,7 @@ export const fakemons: Fakemon[] =
       "GHOST"
     ],
     sprite: "/sprites/AEGISLASH.png",
-    artwork: "/artwork/aegislash.png",
+    artwork: "/sprites/AEGISLASH.png",
     description: "In this defensive stance, Aegislash uses its steel body and a force field of spectral power to reduce the damage of any attack.",
     stats: {
       hp: 60,
@@ -84008,7 +84688,8 @@ export const fakemons: Fakemon[] =
     ],
     eggMoves: [
 
-    ]
+    ],
+    suffix: "normal"
   },
   {
     id: "SPRITZEE",
@@ -84017,7 +84698,7 @@ export const fakemons: Fakemon[] =
       "FAIRY"
     ],
     sprite: "/sprites/SPRITZEE.png",
-    artwork: "/artwork/spritzee.png",
+    artwork: "/sprites/SPRITZEE.png",
     description: "It emits a scent that enraptures those who smell it. This fragrance changes depending on what it has eaten.",
     stats: {
       hp: 78,
@@ -84113,7 +84794,8 @@ export const fakemons: Fakemon[] =
       "AFTERYOU",
       "DISABLE",
       "WISH"
-    ]
+    ],
+    suffix: "normal"
   },
   {
     id: "AROMATISSE",
@@ -84122,7 +84804,7 @@ export const fakemons: Fakemon[] =
       "FAIRY"
     ],
     sprite: "/sprites/AROMATISSE.png",
-    artwork: "/artwork/aromatisse.png",
+    artwork: "/sprites/AROMATISSE.png",
     description: "It devises various scents, pleasant and unpleasant, and emits scents that its enemies dislike in order to gain an edge in battle.",
     stats: {
       hp: 101,
@@ -84225,7 +84907,8 @@ export const fakemons: Fakemon[] =
     ],
     eggMoves: [
 
-    ]
+    ],
+    suffix: "normal"
   },
   {
     id: "SWIRLIX",
@@ -84234,7 +84917,7 @@ export const fakemons: Fakemon[] =
       "FAIRY"
     ],
     sprite: "/sprites/SWIRLIX.png",
-    artwork: "/artwork/swirlix.png",
+    artwork: "/sprites/SWIRLIX.png",
     description: "To entangle its opponents in battle, it extrudes white threads as sweet and sticky as cotton candy.",
     stats: {
       hp: 62,
@@ -84325,7 +85008,8 @@ export const fakemons: Fakemon[] =
       "COPYCAT",
       "STICKYWEB",
       "YAWN"
-    ]
+    ],
+    suffix: "normal"
   },
   {
     id: "SLURPUFF",
@@ -84334,7 +85018,7 @@ export const fakemons: Fakemon[] =
       "FAIRY"
     ],
     sprite: "/sprites/SLURPUFF.png",
-    artwork: "/artwork/slurpuff.png",
+    artwork: "/sprites/SLURPUFF.png",
     description: "It can distinguish the faintest of scents. It puts its sensitive sense of smell to use by helping pastry chefs in their work.",
     stats: {
       hp: 82,
@@ -84428,7 +85112,8 @@ export const fakemons: Fakemon[] =
     ],
     eggMoves: [
 
-    ]
+    ],
+    suffix: "normal"
   },
   {
     id: "INKAY",
@@ -84438,7 +85123,7 @@ export const fakemons: Fakemon[] =
       "PSYCHIC"
     ],
     sprite: "/sprites/INKAY.png",
-    artwork: "/artwork/inkay.png",
+    artwork: "/sprites/INKAY.png",
     description: "It flashes the light-emitting spots on its body, which drains its opponent's will to fight. It takes the opportunity to scuttle away and hide.",
     stats: {
       hp: 53,
@@ -84550,7 +85235,8 @@ export const fakemons: Fakemon[] =
       "ACUPRESSURE",
       "DESTINYBOND",
       "DISABLE"
-    ]
+    ],
+    suffix: "normal"
   },
   {
     id: "MALAMAR",
@@ -84560,7 +85246,7 @@ export const fakemons: Fakemon[] =
       "PSYCHIC"
     ],
     sprite: "/sprites/MALAMAR.png",
-    artwork: "/artwork/malamar.png",
+    artwork: "/sprites/MALAMAR.png",
     description: "It lures prey close with hypnotic motions, then wraps its tentacles around it before finishing it off with digestive fluids.",
     stats: {
       hp: 86,
@@ -84681,7 +85367,8 @@ export const fakemons: Fakemon[] =
     ],
     eggMoves: [
 
-    ]
+    ],
+    suffix: "normal"
   },
   {
     id: "BINACLE",
@@ -84691,7 +85378,7 @@ export const fakemons: Fakemon[] =
       "WATER"
     ],
     sprite: "/sprites/BINACLE.png",
-    artwork: "/artwork/binacle.png",
+    artwork: "/sprites/BINACLE.png",
     description: "They stretch and then contract, yanking their rocks along with them in bold hops. They eat seaweed that washes up on the shoreline.",
     stats: {
       hp: 42,
@@ -84805,7 +85492,8 @@ export const fakemons: Fakemon[] =
       "NIGHTSLASH",
       "SANDATTACK",
       "SWITCHEROO"
-    ]
+    ],
+    suffix: "normal"
   },
   {
     id: "BARBARACLE",
@@ -84815,7 +85503,7 @@ export const fakemons: Fakemon[] =
       "WATER"
     ],
     sprite: "/sprites/BARBARACLE.png",
-    artwork: "/artwork/barbaracle.png",
+    artwork: "/sprites/BARBARACLE.png",
     description: "Barbaracle's legs and hands have minds of their own, and they will move independently. But they usually follow the head's orders.",
     stats: {
       hp: 72,
@@ -84943,7 +85631,8 @@ export const fakemons: Fakemon[] =
     ],
     eggMoves: [
 
-    ]
+    ],
+    suffix: "normal"
   },
   {
     id: "SKRELP",
@@ -84953,7 +85642,7 @@ export const fakemons: Fakemon[] =
       "WATER"
     ],
     sprite: "/sprites/SKRELP.png",
-    artwork: "/artwork/skrelp.png",
+    artwork: "/sprites/SKRELP.png",
     description: "Camouflaged as rotten kelp, they spray liquid poison on prey that approaches unawares and then finish it off.",
     stats: {
       hp: 50,
@@ -85056,7 +85745,8 @@ export const fakemons: Fakemon[] =
       "DRAGONTAIL",
       "HAZE",
       "TWISTER"
-    ]
+    ],
+    suffix: "normal"
   },
   {
     id: "DRAGALGE",
@@ -85066,7 +85756,7 @@ export const fakemons: Fakemon[] =
       "DRAGON"
     ],
     sprite: "/sprites/DRAGALGE.png",
-    artwork: "/artwork/dragalge.png",
+    artwork: "/sprites/DRAGALGE.png",
     description: "Their poison is strong enough to eat through the hull of a tanker, and they spit it indiscriminately at anything that enters their territory.",
     stats: {
       hp: 65,
@@ -85172,7 +85862,8 @@ export const fakemons: Fakemon[] =
     ],
     eggMoves: [
 
-    ]
+    ],
+    suffix: "normal"
   },
   {
     id: "CLAUNCHER",
@@ -85181,7 +85872,7 @@ export const fakemons: Fakemon[] =
       "WATER"
     ],
     sprite: "/sprites/CLAUNCHER.png",
-    artwork: "/artwork/clauncher.png",
+    artwork: "/sprites/CLAUNCHER.png",
     description: "Through controlled expulsions of internal gas, it can expel water like a pistol shot. At close distances, it can shatter rock.",
     stats: {
       hp: 50,
@@ -85276,7 +85967,8 @@ export const fakemons: Fakemon[] =
       "AQUATAIL",
       "BUBBLEBEAM",
       "ENTRAINMENT"
-    ]
+    ],
+    suffix: "normal"
   },
   {
     id: "CLAWITZER",
@@ -85285,7 +85977,7 @@ export const fakemons: Fakemon[] =
       "WATER"
     ],
     sprite: "/sprites/CLAWITZER.png",
-    artwork: "/artwork/clawitzer.png",
+    artwork: "/sprites/CLAWITZER.png",
     description: "By expelling water from the nozzle in the back of its claw, it can move at a speed of 60 knots.",
     stats: {
       hp: 71,
@@ -85389,7 +86081,8 @@ export const fakemons: Fakemon[] =
     ],
     eggMoves: [
 
-    ]
+    ],
+    suffix: "normal"
   },
   {
     id: "HELIOPTILE",
@@ -85399,7 +86092,7 @@ export const fakemons: Fakemon[] =
       "NORMAL"
     ],
     sprite: "/sprites/HELIOPTILE.png",
-    artwork: "/artwork/helioptile.png",
+    artwork: "/sprites/HELIOPTILE.png",
     description: "They make their home in deserts. They can generate their energy from basking in the sun, so eating food is not a requirement.",
     stats: {
       hp: 44,
@@ -85494,7 +86187,8 @@ export const fakemons: Fakemon[] =
       "DRAGONRUSH",
       "DRAGONTAIL",
       "GLARE"
-    ]
+    ],
+    suffix: "normal"
   },
   {
     id: "HELIOLISK",
@@ -85504,7 +86198,7 @@ export const fakemons: Fakemon[] =
       "NORMAL"
     ],
     sprite: "/sprites/HELIOLISK.png",
-    artwork: "/artwork/heliolisk.png",
+    artwork: "/sprites/HELIOLISK.png",
     description: "They flare their frills and generate energy. A single Heliolisk can generate sufficient electricity to power a skyscraper.",
     stats: {
       hp: 62,
@@ -85615,7 +86309,8 @@ export const fakemons: Fakemon[] =
     ],
     eggMoves: [
 
-    ]
+    ],
+    suffix: "normal"
   },
   {
     id: "TYRUNT",
@@ -85625,7 +86320,7 @@ export const fakemons: Fakemon[] =
       "DRAGON"
     ],
     sprite: "/sprites/TYRUNT.png",
-    artwork: "/artwork/tyrunt.png",
+    artwork: "/sprites/TYRUNT.png",
     description: "Its immense jaws have enough destructive force that it can chew up an automobile. It lived 100 million years ago.",
     stats: {
       hp: 58,
@@ -85734,7 +86429,8 @@ export const fakemons: Fakemon[] =
       "POISONFANG",
       "ROCKPOLISH",
       "ROCKTHROW"
-    ]
+    ],
+    suffix: "normal"
   },
   {
     id: "TYRANTRUM",
@@ -85744,7 +86440,7 @@ export const fakemons: Fakemon[] =
       "DRAGON"
     ],
     sprite: "/sprites/TYRANTRUM.png",
-    artwork: "/artwork/tyrantrum.png",
+    artwork: "/sprites/TYRANTRUM.png",
     description: "Thanks to its gargantuan jaws, which could shred thick metal plates as if they were paper, it was invincible in the ancient world it once inhabited.",
     stats: {
       hp: 82,
@@ -85857,7 +86553,8 @@ export const fakemons: Fakemon[] =
     ],
     eggMoves: [
 
-    ]
+    ],
+    suffix: "normal"
   },
   {
     id: "AMAURA",
@@ -85867,7 +86564,7 @@ export const fakemons: Fakemon[] =
       "ICE"
     ],
     sprite: "/sprites/AMAURA.png",
-    artwork: "/artwork/amaura.png",
+    artwork: "/sprites/AMAURA.png",
     description: "This ancient Pokémon was restored from part of its body that had been frozen in ice for over 100 million years.",
     stats: {
       hp: 77,
@@ -85982,7 +86679,8 @@ export const fakemons: Fakemon[] =
       "MIRRORCOAT",
       "ROCKTHROW",
       "TAKEDOWN"
-    ]
+    ],
+    suffix: "normal"
   },
   {
     id: "AURORUS",
@@ -85992,7 +86690,7 @@ export const fakemons: Fakemon[] =
       "ICE"
     ],
     sprite: "/sprites/AURORUS.png",
-    artwork: "/artwork/aurorus.png",
+    artwork: "/sprites/AURORUS.png",
     description: "Using its diamond-shaped crystals, it can instantly create a wall of ice to block an opponent's attack.",
     stats: {
       hp: 123,
@@ -86107,7 +86805,8 @@ export const fakemons: Fakemon[] =
     ],
     eggMoves: [
 
-    ]
+    ],
+    suffix: "normal"
   },
   {
     id: "SYLVEON",
@@ -86116,7 +86815,7 @@ export const fakemons: Fakemon[] =
       "FAIRY"
     ],
     sprite: "/sprites/SYLVEON.png",
-    artwork: "/artwork/sylveon.png",
+    artwork: "/sprites/SYLVEON.png",
     description: "Its ribbonlike feelers give off an aura that weakens hostility in its prey, causing them to let down their guard. Then it attacks.",
     stats: {
       hp: 95,
@@ -86237,7 +86936,8 @@ export const fakemons: Fakemon[] =
     ],
     eggMoves: [
 
-    ]
+    ],
+    suffix: "normal"
   },
   {
     id: "HAWLUCHA",
@@ -86247,7 +86947,7 @@ export const fakemons: Fakemon[] =
       "FLYING"
     ],
     sprite: "/sprites/HAWLUCHA.png",
-    artwork: "/artwork/hawlucha.png",
+    artwork: "/sprites/HAWLUCHA.png",
     description: "With its wings, it controls its position in the air. It likes to attack from above, a maneuver that is difficult to defend against.",
     stats: {
       hp: 78,
@@ -86389,7 +87089,8 @@ export const fakemons: Fakemon[] =
       "FEINT",
       "MEANLOOK",
       "QUICKGUARD"
-    ]
+    ],
+    suffix: "normal"
   },
   {
     id: "DEDENNE",
@@ -86399,7 +87100,7 @@ export const fakemons: Fakemon[] =
       "FAIRY"
     ],
     sprite: "/sprites/DEDENNE.png",
-    artwork: "/artwork/dedenne.png",
+    artwork: "/sprites/DEDENNE.png",
     description: "Its whiskers serve as antennas. By sending and receiving electrical waves, it can communicate with others over vast distances.",
     stats: {
       hp: 67,
@@ -86509,7 +87210,8 @@ export const fakemons: Fakemon[] =
       "COVET",
       "MAGNETRISE",
       "TEARFULLOOK"
-    ]
+    ],
+    suffix: "normal"
   },
   {
     id: "CARBINK",
@@ -86519,7 +87221,7 @@ export const fakemons: Fakemon[] =
       "FAIRY"
     ],
     sprite: "/sprites/CARBINK.png",
-    artwork: "/artwork/carbink.png",
+    artwork: "/sprites/CARBINK.png",
     description: "Born from the high temperatures and pressures deep underground, it defends itself by firing beams from the jewel part of its body.",
     stats: {
       hp: 50,
@@ -86629,7 +87331,8 @@ export const fakemons: Fakemon[] =
     ],
     eggMoves: [
 
-    ]
+    ],
+    suffix: "normal"
   },
   {
     id: "GOOMY",
@@ -86638,7 +87341,7 @@ export const fakemons: Fakemon[] =
       "DRAGON"
     ],
     sprite: "/sprites/GOOMY.png",
-    artwork: "/artwork/goomy.png",
+    artwork: "/sprites/GOOMY.png",
     description: "Its source of protection is its slimy, germ-laden mucous membrane. Anyone who touches it needs some thorough hand-washing.",
     stats: {
       hp: 45,
@@ -86718,7 +87421,8 @@ export const fakemons: Fakemon[] =
     eggMoves: [
       "COUNTER",
       "LIFEDEW"
-    ]
+    ],
+    suffix: "normal"
   },
   {
     id: "SLIGGOO",
@@ -86727,7 +87431,7 @@ export const fakemons: Fakemon[] =
       "DRAGON"
     ],
     sprite: "/sprites/SLIGGOO.png",
-    artwork: "/artwork/sliggoo.png",
+    artwork: "/sprites/SLIGGOO.png",
     description: "This Pokémon's mucous can dissolve anything. Toothless, it sprays mucous on its prey. Once they're nicely dissolved, it slurps them up.",
     stats: {
       hp: 68,
@@ -86813,7 +87517,8 @@ export const fakemons: Fakemon[] =
     ],
     eggMoves: [
 
-    ]
+    ],
+    suffix: "normal"
   },
   {
     id: "GOODRA",
@@ -86822,7 +87527,7 @@ export const fakemons: Fakemon[] =
       "DRAGON"
     ],
     sprite: "/sprites/GOODRA.png",
-    artwork: "/artwork/goodra.png",
+    artwork: "/sprites/GOODRA.png",
     description: "It gets picked on because it's meek. But then, whoever teased it gets to feel the full force of its horns and a good swatting from its thick tail.",
     stats: {
       hp: 90,
@@ -86945,7 +87650,8 @@ export const fakemons: Fakemon[] =
     ],
     eggMoves: [
 
-    ]
+    ],
+    suffix: "normal"
   },
   {
     id: "KLEFKI",
@@ -86955,7 +87661,7 @@ export const fakemons: Fakemon[] =
       "FAIRY"
     ],
     sprite: "/sprites/KLEFKI.png",
-    artwork: "/artwork/klefki.png",
+    artwork: "/sprites/KLEFKI.png",
     description: "It never lets go of a key that it likes, so people give it the keys to vaults and safes as a way to prevent crime.",
     stats: {
       hp: 57,
@@ -87053,7 +87759,8 @@ export const fakemons: Fakemon[] =
     eggMoves: [
       "MAGNETRISE",
       "SWITCHEROO"
-    ]
+    ],
+    suffix: "normal"
   },
   {
     id: "PHANTUMP",
@@ -87063,7 +87770,7 @@ export const fakemons: Fakemon[] =
       "GRASS"
     ],
     sprite: "/sprites/PHANTUMP.png",
-    artwork: "/artwork/phantump.png",
+    artwork: "/sprites/PHANTUMP.png",
     description: "These Pokémon are stumps possessed by the spirits of children who died in the forest. Their cries sound like eerie screams.",
     stats: {
       hp: 43,
@@ -87177,7 +87884,8 @@ export const fakemons: Fakemon[] =
       "DISABLE",
       "GRUDGE",
       "SUCKERPUNCH"
-    ]
+    ],
+    suffix: "normal"
   },
   {
     id: "TREVENANT",
@@ -87187,7 +87895,7 @@ export const fakemons: Fakemon[] =
       "GRASS"
     ],
     sprite: "/sprites/TREVENANT.png",
-    artwork: "/artwork/trevenant.png",
+    artwork: "/sprites/TREVENANT.png",
     description: "Through its roots, it exerts control over other trees. A deadly curse falls upon anyone cutting down trees in forests where Trevenant dwell.",
     stats: {
       hp: 85,
@@ -87318,7 +88026,8 @@ export const fakemons: Fakemon[] =
     ],
     eggMoves: [
 
-    ]
+    ],
+    suffix: "normal"
   },
   {
     id: "PUMPKABOO",
@@ -87328,7 +88037,7 @@ export const fakemons: Fakemon[] =
       "GRASS"
     ],
     sprite: "/sprites/PUMPKABOO.png",
-    artwork: "/artwork/pumpkaboo.png",
+    artwork: "/sprites/PUMPKABOO.png",
     description: "When taking spirits to the afterlife, small Pumpkaboo prefer the spirits of children to those of adults.",
     stats: {
       hp: 44,
@@ -87438,7 +88147,8 @@ export const fakemons: Fakemon[] =
       "CURSE",
       "DESTINYBOND",
       "DISABLE"
-    ]
+    ],
+    suffix: "normal"
   },
   {
     id: "GOURGEIST",
@@ -87448,7 +88158,7 @@ export const fakemons: Fakemon[] =
       "GRASS"
     ],
     sprite: "/sprites/GOURGEIST.png",
-    artwork: "/artwork/gourgeist.png",
+    artwork: "/sprites/GOURGEIST.png",
     description: "Small Gourgeist pretend to be children to fool adults. Anyone who falls for the act gets carried away to the hereafter.",
     stats: {
       hp: 55,
@@ -87566,7 +88276,8 @@ export const fakemons: Fakemon[] =
     ],
     eggMoves: [
 
-    ]
+    ],
+    suffix: "normal"
   },
   {
     id: "BERGMITE",
@@ -87575,7 +88286,7 @@ export const fakemons: Fakemon[] =
       "ICE"
     ],
     sprite: "/sprites/BERGMITE.png",
-    artwork: "/artwork/bergmite.png",
+    artwork: "/sprites/BERGMITE.png",
     description: "It blocks opponents' attacks with the ice that shields its body. It uses cold air to repair any cracks with new ice.",
     stats: {
       hp: 55,
@@ -87668,7 +88379,8 @@ export const fakemons: Fakemon[] =
       "AURORAVEIL",
       "MIRRORCOAT",
       "MIST"
-    ]
+    ],
+    suffix: "normal"
   },
   {
     id: "AVALUGG",
@@ -87677,7 +88389,7 @@ export const fakemons: Fakemon[] =
       "ICE"
     ],
     sprite: "/sprites/AVALUGG.png",
-    artwork: "/artwork/avalugg.png",
+    artwork: "/sprites/AVALUGG.png",
     description: "Its ice-covered body is as hard as steel. Its cumbersome frame crushes anything that stands in its way.",
     stats: {
       hp: 95,
@@ -87785,7 +88497,8 @@ export const fakemons: Fakemon[] =
     ],
     eggMoves: [
 
-    ]
+    ],
+    suffix: "normal"
   },
   {
     id: "NOIBAT",
@@ -87795,7 +88508,7 @@ export const fakemons: Fakemon[] =
       "DRAGON"
     ],
     sprite: "/sprites/NOIBAT.png",
-    artwork: "/artwork/noibat.png",
+    artwork: "/sprites/NOIBAT.png",
     description: "Even a robust wrestler will become dizzy and unable to stand when exposed to its 200,000-hertz ultrasonic waves.",
     stats: {
       hp: 40,
@@ -87905,7 +88618,8 @@ export const fakemons: Fakemon[] =
       "DEFOG",
       "DRAGONRUSH",
       "SWITCHEROO"
-    ]
+    ],
+    suffix: "normal"
   },
   {
     id: "NOIVERN",
@@ -87915,7 +88629,7 @@ export const fakemons: Fakemon[] =
       "DRAGON"
     ],
     sprite: "/sprites/NOIVERN.png",
-    artwork: "/artwork/noivern.png",
+    artwork: "/sprites/NOIVERN.png",
     description: "They fly around on moonless nights and attack careless prey. Nothing can beat them in a battle in the dark.",
     stats: {
       hp: 85,
@@ -88037,7 +88751,8 @@ export const fakemons: Fakemon[] =
     ],
     eggMoves: [
 
-    ]
+    ],
+    suffix: "normal"
   },
   {
     id: "XERNEAS",
@@ -88046,7 +88761,7 @@ export const fakemons: Fakemon[] =
       "FAIRY"
     ],
     sprite: "/sprites/XERNEAS.png",
-    artwork: "/artwork/xerneas.png",
+    artwork: "/sprites/XERNEAS.png",
     description: "Legends say it can share eternal life. It slept for a thousand years in the form of a tree before its revival.",
     stats: {
       hp: 126,
@@ -88151,7 +88866,8 @@ export const fakemons: Fakemon[] =
     ],
     eggMoves: [
 
-    ]
+    ],
+    suffix: "normal"
   },
   {
     id: "YVELTAL",
@@ -88161,7 +88877,7 @@ export const fakemons: Fakemon[] =
       "FLYING"
     ],
     sprite: "/sprites/YVELTAL.png",
-    artwork: "/artwork/yveltal.png",
+    artwork: "/sprites/YVELTAL.png",
     description: "When its life comes to an end, it absorbs the life energy of every living thing and turns into a cocoon once more.",
     stats: {
       hp: 126,
@@ -88267,7 +88983,8 @@ export const fakemons: Fakemon[] =
     ],
     eggMoves: [
 
-    ]
+    ],
+    suffix: "normal"
   },
   {
     id: "ZYGARDE",
@@ -88277,7 +88994,7 @@ export const fakemons: Fakemon[] =
       "GROUND"
     ],
     sprite: "/sprites/ZYGARDE.png",
-    artwork: "/artwork/zygarde.png",
+    artwork: "/sprites/ZYGARDE.png",
     description: "It's thought to be monitoring the ecosystem. There are rumors that even greater power lies hidden within it.",
     stats: {
       hp: 108,
@@ -88382,7 +89099,8 @@ export const fakemons: Fakemon[] =
     ],
     eggMoves: [
 
-    ]
+    ],
+    suffix: "normal"
   },
   {
     id: "DIANCIE",
@@ -88392,7 +89110,7 @@ export const fakemons: Fakemon[] =
       "FAIRY"
     ],
     sprite: "/sprites/DIANCIE.png",
-    artwork: "/artwork/diancie.png",
+    artwork: "/sprites/DIANCIE.png",
     description: "A sudden transformation of Carbink, its pink, glimmering body is said to be the loveliest sight in the whole world.",
     stats: {
       hp: 50,
@@ -88514,7 +89232,8 @@ export const fakemons: Fakemon[] =
     ],
     eggMoves: [
 
-    ]
+    ],
+    suffix: "normal"
   },
   {
     id: "HOOPA",
@@ -88524,7 +89243,7 @@ export const fakemons: Fakemon[] =
       "GHOST"
     ],
     sprite: "/sprites/HOOPA.png",
-    artwork: "/artwork/hoopa.png",
+    artwork: "/sprites/HOOPA.png",
     description: "This troublemaker sends anything and everything to faraway places using its loop, which can warp space.",
     stats: {
       hp: 80,
@@ -88656,7 +89375,8 @@ export const fakemons: Fakemon[] =
     ],
     eggMoves: [
 
-    ]
+    ],
+    suffix: "normal"
   },
   {
     id: "VOLCANION",
@@ -88666,7 +89386,7 @@ export const fakemons: Fakemon[] =
       "WATER"
     ],
     sprite: "/sprites/VOLCANION.png",
-    artwork: "/artwork/volcanion.png",
+    artwork: "/sprites/VOLCANION.png",
     description: "It lets out billows of steam and disappears into the dense fog. It's said to live in mountains where humans do not tread.",
     stats: {
       hp: 80,
@@ -88787,7 +89507,8 @@ export const fakemons: Fakemon[] =
     ],
     eggMoves: [
 
-    ]
+    ],
+    suffix: "normal"
   },
   {
     id: "ROWLET",
@@ -88797,7 +89518,7 @@ export const fakemons: Fakemon[] =
       "FLYING"
     ],
     sprite: "/sprites/ROWLET.png",
-    artwork: "/artwork/rowlet.png",
+    artwork: "/sprites/ROWLET.png",
     description: "It sends its feathers, which are as sharp as blades, flying in attack. Its legs are strong, so its kicks are also formidable.",
     stats: {
       hp: 68,
@@ -88904,7 +89625,8 @@ export const fakemons: Fakemon[] =
       "DOUBLETEAM",
       "KNOCKOFF",
       "ROOST"
-    ]
+    ],
+    suffix: "normal"
   },
   {
     id: "DARTRIX",
@@ -88914,7 +89636,7 @@ export const fakemons: Fakemon[] =
       "FLYING"
     ],
     sprite: "/sprites/DARTRIX.png",
-    artwork: "/artwork/dartrix.png",
+    artwork: "/sprites/DARTRIX.png",
     description: "A bit of a dandy, it spends its free time preening its wings. Its preoccupation with any dirt on its plumage can leave it unable to battle.",
     stats: {
       hp: 78,
@@ -89019,7 +89741,8 @@ export const fakemons: Fakemon[] =
     ],
     eggMoves: [
 
-    ]
+    ],
+    suffix: "normal"
   },
   {
     id: "DECIDUEYE",
@@ -89029,7 +89752,7 @@ export const fakemons: Fakemon[] =
       "GHOST"
     ],
     sprite: "/sprites/DECIDUEYE.png",
-    artwork: "/artwork/decidueye.png",
+    artwork: "/sprites/DECIDUEYE.png",
     description: "It fires arrow quills from its wings with such precision, they can pierce a pebble at distances over a hundred yards.",
     stats: {
       hp: 78,
@@ -89159,7 +89882,8 @@ export const fakemons: Fakemon[] =
     ],
     eggMoves: [
 
-    ]
+    ],
+    suffix: "normal"
   },
   {
     id: "LITTEN",
@@ -89168,7 +89892,7 @@ export const fakemons: Fakemon[] =
       "FIRE"
     ],
     sprite: "/sprites/LITTEN.png",
-    artwork: "/artwork/litten.png",
+    artwork: "/sprites/LITTEN.png",
     description: "Its coat regrows twice a year. When the time comes, Litten sets its own body on fire and burns away the old fur.",
     stats: {
       hp: 45,
@@ -89264,7 +89988,8 @@ export const fakemons: Fakemon[] =
       "FAKEOUT",
       "PARTINGSHOT",
       "POWERTRIP"
-    ]
+    ],
+    suffix: "normal"
   },
   {
     id: "TORRACAT",
@@ -89273,7 +89998,7 @@ export const fakemons: Fakemon[] =
       "FIRE"
     ],
     sprite: "/sprites/TORRACAT.png",
-    artwork: "/artwork/torracat.png",
+    artwork: "/sprites/TORRACAT.png",
     description: "It can act spoiled if it grows close to its Trainer. A powerful Pokémon, its sharp claws can leave its Trainer's whole body covered in scratches.",
     stats: {
       hp: 65,
@@ -89368,7 +90093,8 @@ export const fakemons: Fakemon[] =
     ],
     eggMoves: [
 
-    ]
+    ],
+    suffix: "normal"
   },
   {
     id: "INCINEROAR",
@@ -89378,7 +90104,7 @@ export const fakemons: Fakemon[] =
       "DARK"
     ],
     sprite: "/sprites/INCINEROAR.png",
-    artwork: "/artwork/incineroar.png",
+    artwork: "/sprites/INCINEROAR.png",
     description: "Although it's rough mannered and egotistical, it finds beating down unworthy opponents boring. It gets motivated for stronger opponents.",
     stats: {
       hp: 95,
@@ -89517,7 +90243,8 @@ export const fakemons: Fakemon[] =
     ],
     eggMoves: [
 
-    ]
+    ],
+    suffix: "normal"
   },
   {
     id: "POPPLIO",
@@ -89526,7 +90253,7 @@ export const fakemons: Fakemon[] =
       "WATER"
     ],
     sprite: "/sprites/POPPLIO.png",
-    artwork: "/artwork/popplio.png",
+    artwork: "/sprites/POPPLIO.png",
     description: "This Pokémon snorts body fluids from its nose, blowing balloons to smash into its foes. It's famous for being a hard worker.",
     stats: {
       hp: 50,
@@ -89621,7 +90348,8 @@ export const fakemons: Fakemon[] =
       "AQUARING",
       "LIFEDEW",
       "PERISHSONG"
-    ]
+    ],
+    suffix: "normal"
   },
   {
     id: "BRIONNE",
@@ -89630,7 +90358,7 @@ export const fakemons: Fakemon[] =
       "WATER"
     ],
     sprite: "/sprites/BRIONNE.png",
-    artwork: "/artwork/brionne.png",
+    artwork: "/sprites/BRIONNE.png",
     description: "It gets excited when it sees a dance it doesn't know. This hard worker practices diligently until it can learn that dance.",
     stats: {
       hp: 60,
@@ -89724,7 +90452,8 @@ export const fakemons: Fakemon[] =
     ],
     eggMoves: [
 
-    ]
+    ],
+    suffix: "normal"
   },
   {
     id: "PRIMARINA",
@@ -89734,7 +90463,7 @@ export const fakemons: Fakemon[] =
       "FAIRY"
     ],
     sprite: "/sprites/PRIMARINA.png",
-    artwork: "/artwork/primarina.png",
+    artwork: "/sprites/PRIMARINA.png",
     description: "It controls its water balloons with song. The melody is learned from others of its kind and is passed down from one generation to the next.",
     stats: {
       hp: 80,
@@ -89850,7 +90579,8 @@ export const fakemons: Fakemon[] =
     ],
     eggMoves: [
 
-    ]
+    ],
+    suffix: "normal"
   },
   {
     id: "PIKIPEK",
@@ -89860,7 +90590,7 @@ export const fakemons: Fakemon[] =
       "FLYING"
     ],
     sprite: "/sprites/PIKIPEK.png",
-    artwork: "/artwork/pikipek.png",
+    artwork: "/sprites/PIKIPEK.png",
     description: "It pecks at trees with its hard beak. You can get some idea of its mood or condition from the rhythm of its pecking.",
     stats: {
       hp: 35,
@@ -89956,7 +90686,8 @@ export const fakemons: Fakemon[] =
       "SKYATTACK",
       "TAILWIND",
       "UPROAR"
-    ]
+    ],
+    suffix: "normal"
   },
   {
     id: "TRUMBEAK",
@@ -89966,7 +90697,7 @@ export const fakemons: Fakemon[] =
       "FLYING"
     ],
     sprite: "/sprites/TRUMBEAK.png",
-    artwork: "/artwork/trumbeak.png",
+    artwork: "/sprites/TRUMBEAK.png",
     description: "It eats berries and stores their seeds in its beak. When it encounters enemies or prey, it fires off all the seeds in a burst.",
     stats: {
       hp: 55,
@@ -90059,7 +90790,8 @@ export const fakemons: Fakemon[] =
     ],
     eggMoves: [
 
-    ]
+    ],
+    suffix: "normal"
   },
   {
     id: "TOUCANNON",
@@ -90069,7 +90801,7 @@ export const fakemons: Fakemon[] =
       "FLYING"
     ],
     sprite: "/sprites/TOUCANNON.png",
-    artwork: "/artwork/toucannon.png",
+    artwork: "/sprites/TOUCANNON.png",
     description: "They smack beaks with others of their kind to communicate. The strength and number of hits tell each other how they feel.",
     stats: {
       hp: 80,
@@ -90174,7 +90906,8 @@ export const fakemons: Fakemon[] =
     ],
     eggMoves: [
 
-    ]
+    ],
+    suffix: "normal"
   },
   {
     id: "YUNGOOS",
@@ -90183,7 +90916,7 @@ export const fakemons: Fakemon[] =
       "NORMAL"
     ],
     sprite: "/sprites/YUNGOOS.png",
-    artwork: "/artwork/yungoos.png",
+    artwork: "/sprites/YUNGOOS.png",
     description: "Its stomach takes up most of its long torso. It's a big eater, so the amount Trainers have to spend on its food is no laughing matter.",
     stats: {
       hp: 48,
@@ -90284,7 +91017,8 @@ export const fakemons: Fakemon[] =
       "LASTRESORT",
       "REVENGE",
       "THUNDERFANG"
-    ]
+    ],
+    suffix: "normal"
   },
   {
     id: "GUMSHOOS",
@@ -90293,7 +91027,7 @@ export const fakemons: Fakemon[] =
       "NORMAL"
     ],
     sprite: "/sprites/GUMSHOOS.png",
-    artwork: "/artwork/gumshoos.png",
+    artwork: "/sprites/GUMSHOOS.png",
     description: "When it finds a trace of its prey, it patiently stakes out the location... but it's always snoozing by nightfall.",
     stats: {
       hp: 88,
@@ -90405,7 +91139,8 @@ export const fakemons: Fakemon[] =
     ],
     eggMoves: [
 
-    ]
+    ],
+    suffix: "normal"
   },
   {
     id: "GRUBBIN",
@@ -90414,7 +91149,7 @@ export const fakemons: Fakemon[] =
       "BUG"
     ],
     sprite: "/sprites/GRUBBIN.png",
-    artwork: "/artwork/grubbin.png",
+    artwork: "/sprites/GRUBBIN.png",
     description: "It spits a sticky thread to stop opponents in their tracks, and then it grabs them in its sharp, sturdy mandibles to take them down.",
     stats: {
       hp: 47,
@@ -90497,7 +91232,8 @@ export const fakemons: Fakemon[] =
     eggMoves: [
       "DISCHARGE",
       "HARDEN"
-    ]
+    ],
+    suffix: "normal"
   },
   {
     id: "CHARJABUG",
@@ -90507,7 +91243,7 @@ export const fakemons: Fakemon[] =
       "ELECTRIC"
     ],
     sprite: "/sprites/CHARJABUG.png",
-    artwork: "/artwork/charjabug.png",
+    artwork: "/sprites/CHARJABUG.png",
     description: "It buries itself in fallen leaves and barely moves, munching away on humus. If you accidentally step on one, you'll get a shock!",
     stats: {
       hp: 57,
@@ -90596,7 +91332,8 @@ export const fakemons: Fakemon[] =
     ],
     eggMoves: [
 
-    ]
+    ],
+    suffix: "normal"
   },
   {
     id: "VIKAVOLT",
@@ -90606,7 +91343,7 @@ export const fakemons: Fakemon[] =
       "ELECTRIC"
     ],
     sprite: "/sprites/VIKAVOLT.png",
-    artwork: "/artwork/vikavolt.png",
+    artwork: "/sprites/VIKAVOLT.png",
     description: "It zips around, on sharp lookout for an opening. It concentrates electrical energy within its large jaws and uses it to zap its enemies.",
     stats: {
       hp: 77,
@@ -90718,7 +91455,8 @@ export const fakemons: Fakemon[] =
     ],
     eggMoves: [
 
-    ]
+    ],
+    suffix: "normal"
   },
   {
     id: "CRABRAWLER",
@@ -90727,7 +91465,7 @@ export const fakemons: Fakemon[] =
       "FIGHTING"
     ],
     sprite: "/sprites/CRABRAWLER.png",
-    artwork: "/artwork/crabrawler.png",
+    artwork: "/sprites/CRABRAWLER.png",
     description: "It punches so much, its pincers often come off from overuse, but they grow back quickly. What little meat they contain is rich and delicious.",
     stats: {
       hp: 47,
@@ -90832,7 +91570,8 @@ export const fakemons: Fakemon[] =
       "FOCUSPUNCH",
       "SUPERPOWER",
       "WIDEGUARD"
-    ]
+    ],
+    suffix: "normal"
   },
   {
     id: "CRABOMINABLE",
@@ -90842,7 +91581,7 @@ export const fakemons: Fakemon[] =
       "ICE"
     ],
     sprite: "/sprites/CRABOMINABLE.png",
-    artwork: "/artwork/crabominable.png",
+    artwork: "/sprites/CRABOMINABLE.png",
     description: "It aimed for the top but got lost and ended up on a snowy mountain. Being forced to endure the cold, this Pokémon evolved and grew fur.",
     stats: {
       hp: 97,
@@ -90956,7 +91695,8 @@ export const fakemons: Fakemon[] =
     ],
     eggMoves: [
 
-    ]
+    ],
+    suffix: "normal"
   },
   {
     id: "ORICORIO",
@@ -90966,7 +91706,7 @@ export const fakemons: Fakemon[] =
       "FLYING"
     ],
     sprite: "/sprites/ORICORIO.png",
-    artwork: "/artwork/oricorio.png",
+    artwork: "/sprites/ORICORIO.png",
     description: "It beats its wings together to create fire. As it moves in the steps of its beautiful dance, it bathes opponents in intense flames.",
     stats: {
       hp: 75,
@@ -91069,7 +91809,8 @@ export const fakemons: Fakemon[] =
       "QUIVERDANCE",
       "SAFEGUARD",
       "TAILWIND"
-    ]
+    ],
+    suffix: "normal"
   },
   {
     id: "CUTIEFLY",
@@ -91079,7 +91820,7 @@ export const fakemons: Fakemon[] =
       "FAIRY"
     ],
     sprite: "/sprites/CUTIEFLY.png",
-    artwork: "/artwork/cutiefly.png",
+    artwork: "/sprites/CUTIEFLY.png",
     description: "It feeds on the nectar and pollen of flowers. Because it's able to sense auras, it can identify which flowers are about to bloom.",
     stats: {
       hp: 40,
@@ -91184,7 +91925,8 @@ export const fakemons: Fakemon[] =
       "AROMATICMIST",
       "MOONBLAST",
       "STICKYWEB"
-    ]
+    ],
+    suffix: "normal"
   },
   {
     id: "RIBOMBEE",
@@ -91194,7 +91936,7 @@ export const fakemons: Fakemon[] =
       "FAIRY"
     ],
     sprite: "/sprites/RIBOMBEE.png",
-    artwork: "/artwork/ribombee.png",
+    artwork: "/sprites/RIBOMBEE.png",
     description: "Rain makes pollen damp, so Ribombee hates rain. When it sees ominous clouds, it finds a hollow in a tree, where it waits stock-still.",
     stats: {
       hp: 60,
@@ -91309,7 +92051,8 @@ export const fakemons: Fakemon[] =
     ],
     eggMoves: [
 
-    ]
+    ],
+    suffix: "normal"
   },
   {
     id: "ROCKRUFF",
@@ -91318,7 +92061,7 @@ export const fakemons: Fakemon[] =
       "ROCK"
     ],
     sprite: "/sprites/ROCKRUFF.png",
-    artwork: "/artwork/rockruff.png",
+    artwork: "/sprites/ROCKRUFF.png",
     description: "This Pokémon has lived with people since times long ago. It can sense when its Trainer is in the dumps and will stick close by its Trainer's side.",
     stats: {
       hp: 45,
@@ -91416,7 +92159,8 @@ export const fakemons: Fakemon[] =
       "ENDEAVOR",
       "LASTRESORT",
       "THRASH"
-    ]
+    ],
+    suffix: "normal"
   },
   {
     id: "LYCANROC",
@@ -91425,7 +92169,7 @@ export const fakemons: Fakemon[] =
       "ROCK"
     ],
     sprite: "/sprites/LYCANROC.png",
-    artwork: "/artwork/lycanroc.png",
+    artwork: "/sprites/LYCANROC.png",
     description: "Its quick movements confuse its enemies. Well equipped with claws and fangs, it also uses the sharp rocks in its mane as weapons.",
     stats: {
       hp: 75,
@@ -91536,7 +92280,8 @@ export const fakemons: Fakemon[] =
     ],
     eggMoves: [
 
-    ]
+    ],
+    suffix: "normal"
   },
   {
     id: "WISHIWASHI",
@@ -91545,7 +92290,7 @@ export const fakemons: Fakemon[] =
       "WATER"
     ],
     sprite: "/sprites/WISHIWASHI.png",
-    artwork: "/artwork/wishiwashi.png",
+    artwork: "/sprites/WISHIWASHI.png",
     description: "It's awfully weak and notably tasty, so everyone is always out to get it. As it happens, anyone trying to bully it receives a painful lesson.",
     stats: {
       hp: 45,
@@ -91632,7 +92377,8 @@ export const fakemons: Fakemon[] =
       "MIST",
       "TAKEDOWN",
       "WATERPULSE"
-    ]
+    ],
+    suffix: "normal"
   },
   {
     id: "MAREANIE",
@@ -91642,7 +92388,7 @@ export const fakemons: Fakemon[] =
       "WATER"
     ],
     sprite: "/sprites/MAREANIE.png",
-    artwork: "/artwork/mareanie.png",
+    artwork: "/sprites/MAREANIE.png",
     description: "It plunges the poison spike on its head into its prey. When the prey has weakened, Mareanie deals the finishing blow with its 10 tentacles.",
     stats: {
       hp: 50,
@@ -91741,7 +92487,8 @@ export const fakemons: Fakemon[] =
       "SPITUP",
       "STOCKPILE",
       "SWALLOW"
-    ]
+    ],
+    suffix: "normal"
   },
   {
     id: "TOXAPEX",
@@ -91751,7 +92498,7 @@ export const fakemons: Fakemon[] =
       "WATER"
     ],
     sprite: "/sprites/TOXAPEX.png",
-    artwork: "/artwork/toxapex.png",
+    artwork: "/sprites/TOXAPEX.png",
     description: "Those attacked by Toxapex's poison will suffer intense pain for three days and three nights. Post-recovery, there will be some aftereffects.",
     stats: {
       hp: 50,
@@ -91855,7 +92602,8 @@ export const fakemons: Fakemon[] =
     ],
     eggMoves: [
 
-    ]
+    ],
+    suffix: "normal"
   },
   {
     id: "MUDBRAY",
@@ -91864,7 +92612,7 @@ export const fakemons: Fakemon[] =
       "GROUND"
     ],
     sprite: "/sprites/MUDBRAY.png",
-    artwork: "/artwork/mudbray.png",
+    artwork: "/sprites/MUDBRAY.png",
     description: "It loves playing in the mud. If it isn't showered with mud on a daily basis, it gets stressed out and stops listening to its Trainer.",
     stats: {
       hp: 70,
@@ -91956,7 +92704,8 @@ export const fakemons: Fakemon[] =
       "FISSURE",
       "ROAR",
       "SMACKDOWN"
-    ]
+    ],
+    suffix: "normal"
   },
   {
     id: "MUDSDALE",
@@ -91965,7 +92714,7 @@ export const fakemons: Fakemon[] =
       "GROUND"
     ],
     sprite: "/sprites/MUDSDALE.png",
-    artwork: "/artwork/mudsdale.png",
+    artwork: "/sprites/MUDSDALE.png",
     description: "It remains calm and unmoving no matter the situation. It mixes dirt with the saliva in its mouth to make a special kind of mud.",
     stats: {
       hp: 100,
@@ -92061,7 +92810,8 @@ export const fakemons: Fakemon[] =
     ],
     eggMoves: [
 
-    ]
+    ],
+    suffix: "normal"
   },
   {
     id: "DEWPIDER",
@@ -92071,7 +92821,7 @@ export const fakemons: Fakemon[] =
       "BUG"
     ],
     sprite: "/sprites/DEWPIDER.png",
-    artwork: "/artwork/dewpider.png",
+    artwork: "/sprites/DEWPIDER.png",
     description: "When two Dewpider meet, they display their water bubbles to each other. Then the one with the smaller bubble gets out of the other's way.",
     stats: {
       hp: 38,
@@ -92162,7 +92912,8 @@ export const fakemons: Fakemon[] =
       "SPITUP",
       "STICKYWEB",
       "STOCKPILE"
-    ]
+    ],
+    suffix: "normal"
   },
   {
     id: "ARAQUANID",
@@ -92172,7 +92923,7 @@ export const fakemons: Fakemon[] =
       "BUG"
     ],
     sprite: "/sprites/ARAQUANID.png",
-    artwork: "/artwork/araquanid.png",
+    artwork: "/sprites/ARAQUANID.png",
     description: "It delivers headbutts with the water bubble on its head. Small Pokémon get sucked into the bubble, where they drown.",
     stats: {
       hp: 68,
@@ -92269,7 +93020,8 @@ export const fakemons: Fakemon[] =
     ],
     eggMoves: [
 
-    ]
+    ],
+    suffix: "normal"
   },
   {
     id: "FOMANTIS",
@@ -92278,7 +93030,7 @@ export const fakemons: Fakemon[] =
       "GRASS"
     ],
     sprite: "/sprites/FOMANTIS.png",
-    artwork: "/artwork/fomantis.png",
+    artwork: "/sprites/FOMANTIS.png",
     description: "When the sun rises, Fomantis spreads its four leaves and bathes in the sunlight. The tip of its head has a pleasant aroma.",
     stats: {
       hp: 40,
@@ -92369,7 +93121,8 @@ export const fakemons: Fakemon[] =
       "DEFOG",
       "SUPERPOWER",
       "WORRYSEED"
-    ]
+    ],
+    suffix: "normal"
   },
   {
     id: "LURANTIS",
@@ -92378,7 +93131,7 @@ export const fakemons: Fakemon[] =
       "GRASS"
     ],
     sprite: "/sprites/LURANTIS.png",
-    artwork: "/artwork/lurantis.png",
+    artwork: "/sprites/LURANTIS.png",
     description: "It requires a lot of effort to maintain Lurantis's vivid coloring, but some collectors enjoy this work and treat it as their hobby.",
     stats: {
       hp: 70,
@@ -92483,7 +93236,8 @@ export const fakemons: Fakemon[] =
     ],
     eggMoves: [
 
-    ]
+    ],
+    suffix: "normal"
   },
   {
     id: "MORELULL",
@@ -92493,7 +93247,7 @@ export const fakemons: Fakemon[] =
       "FAIRY"
     ],
     sprite: "/sprites/MORELULL.png",
-    artwork: "/artwork/morelull.png",
+    artwork: "/sprites/MORELULL.png",
     description: "It scatters its shining spores around itself. Even though they're dangerous, nighttime tours of forests where Morelull live are popular.",
     stats: {
       hp: 40,
@@ -92579,7 +93333,8 @@ export const fakemons: Fakemon[] =
       "LEECHSEED",
       "POISONPOWDER",
       "STUNSPORE"
-    ]
+    ],
+    suffix: "normal"
   },
   {
     id: "SHIINOTIC",
@@ -92589,7 +93344,7 @@ export const fakemons: Fakemon[] =
       "FAIRY"
     ],
     sprite: "/sprites/SHIINOTIC.png",
-    artwork: "/artwork/shiinotic.png",
+    artwork: "/sprites/SHIINOTIC.png",
     description: "It puts its prey to sleep and siphons off their vitality through the tip of its arms. If one of its kind is weakened, it helps by sending it vitality.",
     stats: {
       hp: 60,
@@ -92678,7 +93433,8 @@ export const fakemons: Fakemon[] =
     ],
     eggMoves: [
 
-    ]
+    ],
+    suffix: "normal"
   },
   {
     id: "SALANDIT",
@@ -92688,7 +93444,7 @@ export const fakemons: Fakemon[] =
       "FIRE"
     ],
     sprite: "/sprites/SALANDIT.png",
-    artwork: "/artwork/salandit.png",
+    artwork: "/sprites/SALANDIT.png",
     description: "It burns its bodily fluids to create a poisonous gas. When its enemies become disoriented from inhaling the gas, it attacks them.",
     stats: {
       hp: 48,
@@ -92797,7 +93553,8 @@ export const fakemons: Fakemon[] =
       "FAKEOUT",
       "MUDSLAP",
       "SANDATTACK"
-    ]
+    ],
+    suffix: "normal"
   },
   {
     id: "SALAZZLE",
@@ -92807,7 +93564,7 @@ export const fakemons: Fakemon[] =
       "FIRE"
     ],
     sprite: "/sprites/SALAZZLE.png",
-    artwork: "/artwork/salazzle.png",
+    artwork: "/sprites/SALAZZLE.png",
     description: "Filled with pheromones, its poisonous gas can be diluted to use in the production of luscious perfumes.",
     stats: {
       hp: 68,
@@ -92934,7 +93691,8 @@ export const fakemons: Fakemon[] =
     ],
     eggMoves: [
 
-    ]
+    ],
+    suffix: "normal"
   },
   {
     id: "STUFFUL",
@@ -92944,7 +93702,7 @@ export const fakemons: Fakemon[] =
       "FIGHTING"
     ],
     sprite: "/sprites/STUFFUL.png",
-    artwork: "/artwork/stufful.png",
+    artwork: "/sprites/STUFFUL.png",
     description: "Despite its adorable appearance, when it gets angry and flails about, its arms and legs could knock a pro wrestler sprawling.",
     stats: {
       hp: 70,
@@ -93038,7 +93796,8 @@ export const fakemons: Fakemon[] =
       "FORCEPALM",
       "ROLLOUT",
       "STOMP"
-    ]
+    ],
+    suffix: "normal"
   },
   {
     id: "BEWEAR",
@@ -93048,7 +93807,7 @@ export const fakemons: Fakemon[] =
       "FIGHTING"
     ],
     sprite: "/sprites/BEWEAR.png",
-    artwork: "/artwork/bewear.png",
+    artwork: "/sprites/BEWEAR.png",
     description: "It waves its hands wildly in intimidation and warning. Life is over for anyone who doesn't run away as fast as possible.",
     stats: {
       hp: 120,
@@ -93153,7 +93912,8 @@ export const fakemons: Fakemon[] =
     ],
     eggMoves: [
 
-    ]
+    ],
+    suffix: "normal"
   },
   {
     id: "BOUNSWEET",
@@ -93162,7 +93922,7 @@ export const fakemons: Fakemon[] =
       "GRASS"
     ],
     sprite: "/sprites/BOUNSWEET.png",
-    artwork: "/artwork/bounsweet.png",
+    artwork: "/sprites/BOUNSWEET.png",
     description: "Because of its sweet, delicious aroma, bird Pokémon are always after it, but it's not intelligent enough to care.",
     stats: {
       hp: 42,
@@ -93248,7 +94008,8 @@ export const fakemons: Fakemon[] =
       "ACUPRESSURE",
       "ENDEAVOR",
       "SYNTHESIS"
-    ]
+    ],
+    suffix: "normal"
   },
   {
     id: "STEENEE",
@@ -93257,7 +94018,7 @@ export const fakemons: Fakemon[] =
       "GRASS"
     ],
     sprite: "/sprites/STEENEE.png",
-    artwork: "/artwork/steenee.png",
+    artwork: "/sprites/STEENEE.png",
     description: "It's protected by its hard sepals, so it plays with bird Pokémon without worry. They peck it relentlessly, but it doesn't care.",
     stats: {
       hp: 52,
@@ -93348,7 +94109,8 @@ export const fakemons: Fakemon[] =
     ],
     eggMoves: [
 
-    ]
+    ],
+    suffix: "normal"
   },
   {
     id: "TSAREENA",
@@ -93357,7 +94119,7 @@ export const fakemons: Fakemon[] =
       "GRASS"
     ],
     sprite: "/sprites/TSAREENA.png",
-    artwork: "/artwork/tsareena.png",
+    artwork: "/sprites/TSAREENA.png",
     description: "A Pokémon with an aggressive personality and a mastery of kicking, it cackles every time it kicks an opponent.",
     stats: {
       hp: 72,
@@ -93463,7 +94225,8 @@ export const fakemons: Fakemon[] =
     ],
     eggMoves: [
 
-    ]
+    ],
+    suffix: "normal"
   },
   {
     id: "COMFEY",
@@ -93472,7 +94235,7 @@ export const fakemons: Fakemon[] =
       "FAIRY"
     ],
     sprite: "/sprites/COMFEY.png",
-    artwork: "/artwork/comfey.png",
+    artwork: "/sprites/COMFEY.png",
     description: "Baths prepared with the flowers from its vine have a relaxing effect, so this Pokémon is a hit with many people.",
     stats: {
       hp: 51,
@@ -93590,7 +94353,8 @@ export const fakemons: Fakemon[] =
       "AFTERYOU",
       "LEAFTORNADO",
       "WORRYSEED"
-    ]
+    ],
+    suffix: "normal"
   },
   {
     id: "ORANGURU",
@@ -93600,7 +94364,7 @@ export const fakemons: Fakemon[] =
       "PSYCHIC"
     ],
     sprite: "/sprites/ORANGURU.png",
-    artwork: "/artwork/oranguru.png",
+    artwork: "/sprites/ORANGURU.png",
     description: "It normally spends its time meditating in the treetops. It throws Poké Balls and gives other Pokémon orders as it pleases.",
     stats: {
       hp: 90,
@@ -93730,7 +94494,8 @@ export const fakemons: Fakemon[] =
       "EXTRASENSORY",
       "LASTRESORT",
       "YAWN"
-    ]
+    ],
+    suffix: "normal"
   },
   {
     id: "PASSIMIAN",
@@ -93739,7 +94504,7 @@ export const fakemons: Fakemon[] =
       "FIGHTING"
     ],
     sprite: "/sprites/PASSIMIAN.png",
-    artwork: "/artwork/passimian.png",
+    artwork: "/sprites/PASSIMIAN.png",
     description: "Berries are its weapons as well as the staple of its diet. The one that can throw a berry the farthest is the boss of the troop.",
     stats: {
       hp: 100,
@@ -93865,7 +94630,8 @@ export const fakemons: Fakemon[] =
       "QUICKGUARD",
       "SEISMICTOSS",
       "VITALTHROW"
-    ]
+    ],
+    suffix: "normal"
   },
   {
     id: "WIMPOD",
@@ -93875,7 +94641,7 @@ export const fakemons: Fakemon[] =
       "WATER"
     ],
     sprite: "/sprites/WIMPOD.png",
-    artwork: "/artwork/wimpod.png",
+    artwork: "/sprites/WIMPOD.png",
     description: "This Pokémon is a coward. As it desperately dashes off, the flailing of its many legs leaves a sparkling clean path in its wake.",
     stats: {
       hp: 25,
@@ -93941,7 +94707,8 @@ export const fakemons: Fakemon[] =
       "METALCLAW",
       "ROLLOUT",
       "WIDEGUARD"
-    ]
+    ],
+    suffix: "normal"
   },
   {
     id: "GOLISOPOD",
@@ -93951,7 +94718,7 @@ export const fakemons: Fakemon[] =
       "WATER"
     ],
     sprite: "/sprites/GOLISOPOD.png",
-    artwork: "/artwork/golisopod.png",
+    artwork: "/sprites/GOLISOPOD.png",
     description: "It battles skillfully with its six arms, but spends most of its time peacefully meditating in caves deep beneath the sea.",
     stats: {
       hp: 75,
@@ -94069,7 +94836,8 @@ export const fakemons: Fakemon[] =
     ],
     eggMoves: [
 
-    ]
+    ],
+    suffix: "normal"
   },
   {
     id: "SANDYGAST",
@@ -94079,7 +94847,7 @@ export const fakemons: Fakemon[] =
       "GROUND"
     ],
     sprite: "/sprites/SANDYGAST.png",
-    artwork: "/artwork/sandygast.png",
+    artwork: "/sprites/SANDYGAST.png",
     description: "It likes the shovel on its head, so Sandygast will get serious and fight any children who come to take it back.",
     stats: {
       hp: 55,
@@ -94186,7 +94954,8 @@ export const fakemons: Fakemon[] =
       "SPITUP",
       "STOCKPILE",
       "SWALLOW"
-    ]
+    ],
+    suffix: "normal"
   },
   {
     id: "PALOSSAND",
@@ -94196,7 +94965,7 @@ export const fakemons: Fakemon[] =
       "GROUND"
     ],
     sprite: "/sprites/PALOSSAND.png",
-    artwork: "/artwork/palossand.png",
+    artwork: "/sprites/PALOSSAND.png",
     description: "Buried beneath the castle are masses of dried-up bones from those whose vitality it has drained.",
     stats: {
       hp: 85,
@@ -94304,7 +95073,8 @@ export const fakemons: Fakemon[] =
     ],
     eggMoves: [
 
-    ]
+    ],
+    suffix: "normal"
   },
   {
     id: "PYUKUMUKU",
@@ -94313,7 +95083,7 @@ export const fakemons: Fakemon[] =
       "WATER"
     ],
     sprite: "/sprites/PYUKUMUKU.png",
-    artwork: "/artwork/pyukumuku.png",
+    artwork: "/sprites/PYUKUMUKU.png",
     description: "It lives in shallow seas, such as areas near a beach. It can eject its internal organs, which it uses to engulf its prey or battle enemies.",
     stats: {
       hp: 55,
@@ -94386,7 +95156,8 @@ export const fakemons: Fakemon[] =
       "SPITE",
       "SWAGGER",
       "TICKLE"
-    ]
+    ],
+    suffix: "normal"
   },
   {
     id: "TYPENULL",
@@ -94395,7 +95166,7 @@ export const fakemons: Fakemon[] =
       "NORMAL"
     ],
     sprite: "/sprites/TYPENULL.png",
-    artwork: "/artwork/typenull.png",
+    artwork: "/sprites/TYPENULL.png",
     description: "The heavy control mask it wears suppresses its intrinsic capabilities. This Pokémon has some hidden special power.",
     stats: {
       hp: 95,
@@ -94481,7 +95252,8 @@ export const fakemons: Fakemon[] =
     ],
     eggMoves: [
 
-    ]
+    ],
+    suffix: "normal"
   },
   {
     id: "SILVALLY",
@@ -94490,7 +95262,7 @@ export const fakemons: Fakemon[] =
       "NORMAL"
     ],
     sprite: "/sprites/SILVALLY.png",
-    artwork: "/artwork/silvally.png",
+    artwork: "/sprites/SILVALLY.png",
     description: "Its trust in its partner is what awakens it. This Pokémon is capable of changing its type, a flexibility that is well displayed in battle.",
     stats: {
       hp: 95,
@@ -94611,7 +95383,8 @@ export const fakemons: Fakemon[] =
     ],
     eggMoves: [
 
-    ]
+    ],
+    suffix: "normal"
   },
   {
     id: "MINIOR",
@@ -94621,7 +95394,7 @@ export const fakemons: Fakemon[] =
       "FLYING"
     ],
     sprite: "/sprites/MINIOR.png",
-    artwork: "/artwork/minior.png",
+    artwork: "/sprites/MINIOR.png",
     description: "Originally making its home in the ozone layer, it hurtles to the ground when the shell enclosing its body grows too heavy.",
     stats: {
       hp: 60,
@@ -94719,7 +95492,8 @@ export const fakemons: Fakemon[] =
     ],
     eggMoves: [
 
-    ]
+    ],
+    suffix: "normal"
   },
   {
     id: "KOMALA",
@@ -94728,7 +95502,7 @@ export const fakemons: Fakemon[] =
       "NORMAL"
     ],
     sprite: "/sprites/KOMALA.png",
-    artwork: "/artwork/komala.png",
+    artwork: "/sprites/KOMALA.png",
     description: "It remains asleep from birth to death as a result of the sedative properties of the leaves that form its diet.",
     stats: {
       hp: 65,
@@ -94832,7 +95606,8 @@ export const fakemons: Fakemon[] =
       "SING",
       "SUPERPOWER",
       "WISH"
-    ]
+    ],
+    suffix: "normal"
   },
   {
     id: "TURTONATOR",
@@ -94842,7 +95617,7 @@ export const fakemons: Fakemon[] =
       "DRAGON"
     ],
     sprite: "/sprites/TURTONATOR.png",
-    artwork: "/artwork/turtonator.png",
+    artwork: "/sprites/TURTONATOR.png",
     description: "It lives in volcanoes and eats sulfur and other minerals. Materials from the food it eats form the basis of its explosive shell.",
     stats: {
       hp: 60,
@@ -94958,7 +95733,8 @@ export const fakemons: Fakemon[] =
       "HEADSMASH",
       "RAPIDSPIN",
       "WIDEGUARD"
-    ]
+    ],
+    suffix: "normal"
   },
   {
     id: "TOGEDEMARU",
@@ -94968,7 +95744,7 @@ export const fakemons: Fakemon[] =
       "STEEL"
     ],
     sprite: "/sprites/TOGEDEMARU.png",
-    artwork: "/artwork/togedemaru.png",
+    artwork: "/sprites/TOGEDEMARU.png",
     description: "The long hairs on its back act as lightning rods. The bolts of lightning it attracts are stored as energy in its electric sac.",
     stats: {
       hp: 65,
@@ -95077,7 +95853,8 @@ export const fakemons: Fakemon[] =
       "PRESENT",
       "TICKLE",
       "WISH"
-    ]
+    ],
+    suffix: "normal"
   },
   {
     id: "MIMIKYU",
@@ -95087,7 +95864,7 @@ export const fakemons: Fakemon[] =
       "FAIRY"
     ],
     sprite: "/sprites/MIMIKYU.png",
-    artwork: "/artwork/mimikyu.png",
+    artwork: "/sprites/MIMIKYU.png",
     description: "A lonely Pokémon, it conceals its terrifying appearance beneath an old rag so it can get closer to people and other Pokémon.",
     stats: {
       hp: 55,
@@ -95204,7 +95981,8 @@ export const fakemons: Fakemon[] =
       "CURSE",
       "DESTINYBOND",
       "GRUDGE"
-    ]
+    ],
+    suffix: "normal"
   },
   {
     id: "BRUXISH",
@@ -95214,7 +95992,7 @@ export const fakemons: Fakemon[] =
       "PSYCHIC"
     ],
     sprite: "/sprites/BRUXISH.png",
-    artwork: "/artwork/bruxish.png",
+    artwork: "/sprites/BRUXISH.png",
     description: "When it unleashes its psychic power from the protuberance on its head, the grating sound of grinding teeth echoes through the area.",
     stats: {
       hp: 68,
@@ -95327,7 +96105,8 @@ export const fakemons: Fakemon[] =
       "RAGE",
       "SUPERFANG",
       "WATERPULSE"
-    ]
+    ],
+    suffix: "normal"
   },
   {
     id: "DRAMPA",
@@ -95337,7 +96116,7 @@ export const fakemons: Fakemon[] =
       "DRAGON"
     ],
     sprite: "/sprites/DRAMPA.png",
-    artwork: "/artwork/drampa.png",
+    artwork: "/sprites/DRAMPA.png",
     description: "This Pokémon is friendly to people and loves children most of all. It comes from deep in the mountains to play with children it likes in town.",
     stats: {
       hp: 78,
@@ -95459,7 +96238,8 @@ export const fakemons: Fakemon[] =
       "DRAGONRUSH",
       "MIST",
       "TICKLE"
-    ]
+    ],
+    suffix: "normal"
   },
   {
     id: "DHELMISE",
@@ -95469,7 +96249,7 @@ export const fakemons: Fakemon[] =
       "GRASS"
     ],
     sprite: "/sprites/DHELMISE.png",
-    artwork: "/artwork/dhelmise.png",
+    artwork: "/sprites/DHELMISE.png",
     description: "The soul of seaweed adrift in the waves became reborn as this Pokémon. It maintains itself with new infusions of seabed detritus and seaweed.",
     stats: {
       hp: 70,
@@ -95580,7 +96360,8 @@ export const fakemons: Fakemon[] =
     ],
     eggMoves: [
 
-    ]
+    ],
+    suffix: "normal"
   },
   {
     id: "JANGMOO",
@@ -95589,7 +96370,7 @@ export const fakemons: Fakemon[] =
       "DRAGON"
     ],
     sprite: "/sprites/JANGMOO.png",
-    artwork: "/artwork/jangmoo.png",
+    artwork: "/sprites/JANGMOO.png",
     description: "It expresses its feelings by smacking its scales. Metallic sounds echo through the tall mountains where Jangmo-o lives.",
     stats: {
       hp: 45,
@@ -95689,7 +96470,8 @@ export const fakemons: Fakemon[] =
       "COUNTER",
       "DRAGONBREATH",
       "FOCUSPUNCH"
-    ]
+    ],
+    suffix: "normal"
   },
   {
     id: "HAKAMOO",
@@ -95699,7 +96481,7 @@ export const fakemons: Fakemon[] =
       "FIGHTING"
     ],
     sprite: "/sprites/HAKAMOO.png",
-    artwork: "/artwork/hakamoo.png",
+    artwork: "/sprites/HAKAMOO.png",
     description: "It sheds and regrows its scales on a continuous basis. The scales become harder and sharper each time they're regrown.",
     stats: {
       hp: 55,
@@ -95812,7 +96594,8 @@ export const fakemons: Fakemon[] =
     ],
     eggMoves: [
 
-    ]
+    ],
+    suffix: "normal"
   },
   {
     id: "KOMMOO",
@@ -95822,7 +96605,7 @@ export const fakemons: Fakemon[] =
       "FIGHTING"
     ],
     sprite: "/sprites/KOMMOO.png",
-    artwork: "/artwork/kommoo.png",
+    artwork: "/sprites/KOMMOO.png",
     description: "Its rigid scales function as offense and defense. In the past, its scales were processed and used to make weapons and other commodities.",
     stats: {
       hp: 75,
@@ -95961,7 +96744,8 @@ export const fakemons: Fakemon[] =
     ],
     eggMoves: [
 
-    ]
+    ],
+    suffix: "normal"
   },
   {
     id: "TAPUKOKO",
@@ -95971,7 +96755,7 @@ export const fakemons: Fakemon[] =
       "FAIRY"
     ],
     sprite: "/sprites/TAPUKOKO.png",
-    artwork: "/artwork/tapukoko.png",
+    artwork: "/sprites/TAPUKOKO.png",
     description: "Although it's called a guardian deity, if a person or Pokémon puts it in a bad mood, it will become a malevolent deity and attack.",
     stats: {
       hp: 70,
@@ -96080,7 +96864,8 @@ export const fakemons: Fakemon[] =
     ],
     eggMoves: [
 
-    ]
+    ],
+    suffix: "normal"
   },
   {
     id: "TAPULELE",
@@ -96090,7 +96875,7 @@ export const fakemons: Fakemon[] =
       "FAIRY"
     ],
     sprite: "/sprites/TAPULELE.png",
-    artwork: "/artwork/tapulele.png",
+    artwork: "/sprites/TAPULELE.png",
     description: "As it flutters about, it scatters its strangely glowing scales. Touching them is said to restore good health on the spot.",
     stats: {
       hp: 70,
@@ -96192,7 +96977,8 @@ export const fakemons: Fakemon[] =
     ],
     eggMoves: [
 
-    ]
+    ],
+    suffix: "normal"
   },
   {
     id: "TAPUBULU",
@@ -96202,7 +96988,7 @@ export const fakemons: Fakemon[] =
       "FAIRY"
     ],
     sprite: "/sprites/TAPUBULU.png",
-    artwork: "/artwork/tapubulu.png",
+    artwork: "/sprites/TAPUBULU.png",
     description: "It pulls large trees up by the roots and swings them around. It causes vegetation to grow, and then it absorbs energy from the growth.",
     stats: {
       hp: 70,
@@ -96314,7 +97100,8 @@ export const fakemons: Fakemon[] =
     ],
     eggMoves: [
 
-    ]
+    ],
+    suffix: "normal"
   },
   {
     id: "TAPUFINI",
@@ -96324,7 +97111,7 @@ export const fakemons: Fakemon[] =
       "FAIRY"
     ],
     sprite: "/sprites/TAPUFINI.png",
-    artwork: "/artwork/tapufini.png",
+    artwork: "/sprites/TAPUFINI.png",
     description: "The dense fog it creates brings the downfall and destruction of its confused enemies. Ocean currents are the source of its energy.",
     stats: {
       hp: 70,
@@ -96429,7 +97216,8 @@ export const fakemons: Fakemon[] =
     ],
     eggMoves: [
 
-    ]
+    ],
+    suffix: "normal"
   },
   {
     id: "COSMOG",
@@ -96438,7 +97226,7 @@ export const fakemons: Fakemon[] =
       "PSYCHIC"
     ],
     sprite: "/sprites/COSMOG.png",
-    artwork: "/artwork/cosmog.png",
+    artwork: "/sprites/COSMOG.png",
     description: "Whether or not it's a Pokémon from this world is a mystery. When it's in a jam, it warps away to a safe place to hide.",
     stats: {
       hp: 43,
@@ -96466,7 +97254,8 @@ export const fakemons: Fakemon[] =
     ],
     eggMoves: [
 
-    ]
+    ],
+    suffix: "normal"
   },
   {
     id: "COSMOEM",
@@ -96475,7 +97264,7 @@ export const fakemons: Fakemon[] =
       "PSYCHIC"
     ],
     sprite: "/sprites/COSMOEM.png",
-    artwork: "/artwork/cosmoem.png",
+    artwork: "/sprites/COSMOEM.png",
     description: "Motionless as if dead, its body is faintly warm to the touch. In the distant past, it was called the cocoon of the stars.",
     stats: {
       hp: 43,
@@ -96503,7 +97292,8 @@ export const fakemons: Fakemon[] =
     ],
     eggMoves: [
 
-    ]
+    ],
+    suffix: "normal"
   },
   {
     id: "SOLGALEO",
@@ -96513,7 +97303,7 @@ export const fakemons: Fakemon[] =
       "STEEL"
     ],
     sprite: "/sprites/SOLGALEO.png",
-    artwork: "/artwork/solgaleo.png",
+    artwork: "/sprites/SOLGALEO.png",
     description: "It is said to live in another world. The intense light it radiates from the surface of its body can make the darkest of nights light up like midday.",
     stats: {
       hp: 137,
@@ -96636,7 +97426,8 @@ export const fakemons: Fakemon[] =
     ],
     eggMoves: [
 
-    ]
+    ],
+    suffix: "normal"
   },
   {
     id: "LUNALA",
@@ -96646,7 +97437,7 @@ export const fakemons: Fakemon[] =
       "GHOST"
     ],
     sprite: "/sprites/LUNALA.png",
-    artwork: "/artwork/lunala.png",
+    artwork: "/sprites/LUNALA.png",
     description: "Said to live in another world, this Pokémon devours light, drawing the moonless dark veil of night over the brightness of day.",
     stats: {
       hp: 137,
@@ -96764,7 +97555,8 @@ export const fakemons: Fakemon[] =
     ],
     eggMoves: [
 
-    ]
+    ],
+    suffix: "normal"
   },
   {
     id: "NIHILEGO",
@@ -96774,7 +97566,7 @@ export const fakemons: Fakemon[] =
       "POISON"
     ],
     sprite: "/sprites/NIHILEGO.png",
-    artwork: "/artwork/nihilego.png",
+    artwork: "/sprites/NIHILEGO.png",
     description: "One of several mysterious Ultra Beasts. People on the street report observing those infested by it suddenly becoming violent.",
     stats: {
       hp: 109,
@@ -96877,7 +97669,8 @@ export const fakemons: Fakemon[] =
     ],
     eggMoves: [
 
-    ]
+    ],
+    suffix: "normal"
   },
   {
     id: "BUZZWOLE",
@@ -96887,7 +97680,7 @@ export const fakemons: Fakemon[] =
       "FIGHTING"
     ],
     sprite: "/sprites/BUZZWOLE.png",
-    artwork: "/artwork/buzzwole.png",
+    artwork: "/sprites/BUZZWOLE.png",
     description: "This Ultra Beast appeared from another world. It shows off its body, but whether that display is a boast or a threat remains unclear.",
     stats: {
       hp: 107,
@@ -96987,7 +97780,8 @@ export const fakemons: Fakemon[] =
     ],
     eggMoves: [
 
-    ]
+    ],
+    suffix: "normal"
   },
   {
     id: "PHEROMOSA",
@@ -96997,7 +97791,7 @@ export const fakemons: Fakemon[] =
       "FIGHTING"
     ],
     sprite: "/sprites/PHEROMOSA.png",
-    artwork: "/artwork/pheromosa.png",
+    artwork: "/sprites/PHEROMOSA.png",
     description: "One of the Ultra Beasts. It refuses to touch anything, perhaps because it senses some uncleanness in this world.",
     stats: {
       hp: 71,
@@ -97094,7 +97888,8 @@ export const fakemons: Fakemon[] =
     ],
     eggMoves: [
 
-    ]
+    ],
+    suffix: "normal"
   },
   {
     id: "XURKITREE",
@@ -97103,7 +97898,7 @@ export const fakemons: Fakemon[] =
       "ELECTRIC"
     ],
     sprite: "/sprites/XURKITREE.png",
-    artwork: "/artwork/xurkitree.png",
+    artwork: "/sprites/XURKITREE.png",
     description: "One of the mysterious life-forms known as Ultra Beasts. Astonishing electric shocks emanate from its entire body, according to witnesses.",
     stats: {
       hp: 83,
@@ -97195,7 +97990,8 @@ export const fakemons: Fakemon[] =
     ],
     eggMoves: [
 
-    ]
+    ],
+    suffix: "normal"
   },
   {
     id: "CELESTEELA",
@@ -97205,7 +98001,7 @@ export const fakemons: Fakemon[] =
       "FLYING"
     ],
     sprite: "/sprites/CELESTEELA.png",
-    artwork: "/artwork/celesteela.png",
+    artwork: "/sprites/CELESTEELA.png",
     description: "One kind of Ultra Beast. Witnesses have seen it burn down a forest by expelling gas from its two arms.",
     stats: {
       hp: 97,
@@ -97303,7 +98099,8 @@ export const fakemons: Fakemon[] =
     ],
     eggMoves: [
 
-    ]
+    ],
+    suffix: "normal"
   },
   {
     id: "KARTANA",
@@ -97313,7 +98110,7 @@ export const fakemons: Fakemon[] =
       "STEEL"
     ],
     sprite: "/sprites/KARTANA.png",
-    artwork: "/artwork/kartana.png",
+    artwork: "/sprites/KARTANA.png",
     description: "One of the Ultra Beast life-forms, it was observed cutting down a gigantic steel tower with one stroke of its blade.",
     stats: {
       hp: 59,
@@ -97393,7 +98190,8 @@ export const fakemons: Fakemon[] =
     ],
     eggMoves: [
 
-    ]
+    ],
+    suffix: "normal"
   },
   {
     id: "GUZZLORD",
@@ -97403,7 +98201,7 @@ export const fakemons: Fakemon[] =
       "DRAGON"
     ],
     sprite: "/sprites/GUZZLORD.png",
-    artwork: "/artwork/guzzlord.png",
+    artwork: "/sprites/GUZZLORD.png",
     description: "A dangerous Ultra Beast, it appears to be eating constantly, but for some reason its droppings have never been found.",
     stats: {
       hp: 223,
@@ -97512,7 +98310,8 @@ export const fakemons: Fakemon[] =
     ],
     eggMoves: [
 
-    ]
+    ],
+    suffix: "normal"
   },
   {
     id: "NECROZMA",
@@ -97521,7 +98320,7 @@ export const fakemons: Fakemon[] =
       "PSYCHIC"
     ],
     sprite: "/sprites/NECROZMA.png",
-    artwork: "/artwork/necrozma.png",
+    artwork: "/sprites/NECROZMA.png",
     description: "Light is apparently the source of its energy. It has an extraordinarily vicious disposition and is constantly firing off laser beams.",
     stats: {
       hp: 97,
@@ -97642,7 +98441,8 @@ export const fakemons: Fakemon[] =
     ],
     eggMoves: [
 
-    ]
+    ],
+    suffix: "normal"
   },
   {
     id: "MAGEARNA",
@@ -97652,7 +98452,7 @@ export const fakemons: Fakemon[] =
       "FAIRY"
     ],
     sprite: "/sprites/MAGEARNA.png",
-    artwork: "/artwork/magearna.png",
+    artwork: "/sprites/MAGEARNA.png",
     description: "This artificial Pokémon, constructed more than 500 years ago, can understand human speech but cannot itself speak.",
     stats: {
       hp: 80,
@@ -97785,7 +98585,8 @@ export const fakemons: Fakemon[] =
     ],
     eggMoves: [
 
-    ]
+    ],
+    suffix: "normal"
   },
   {
     id: "MARSHADOW",
@@ -97795,7 +98596,7 @@ export const fakemons: Fakemon[] =
       "GHOST"
     ],
     sprite: "/sprites/MARSHADOW.png",
-    artwork: "/artwork/marshadow.png",
+    artwork: "/sprites/MARSHADOW.png",
     description: "Able to conceal itself in shadows, it never appears before humans, so its very existence was the stuff of myth.",
     stats: {
       hp: 90,
@@ -97914,7 +98715,8 @@ export const fakemons: Fakemon[] =
     ],
     eggMoves: [
 
-    ]
+    ],
+    suffix: "normal"
   },
   {
     id: "POIPOLE",
@@ -97923,7 +98725,7 @@ export const fakemons: Fakemon[] =
       "POISON"
     ],
     sprite: "/sprites/POIPOLE.png",
-    artwork: "/artwork/poipole.png",
+    artwork: "/sprites/POIPOLE.png",
     description: "An Ultra Beast that lives in a different world, it cackles wildly as it sprays its opponents with poison from the needles on its head.",
     stats: {
       hp: 67,
@@ -97997,7 +98799,8 @@ export const fakemons: Fakemon[] =
     ],
     eggMoves: [
 
-    ]
+    ],
+    suffix: "normal"
   },
   {
     id: "NAGANADEL",
@@ -98007,7 +98810,7 @@ export const fakemons: Fakemon[] =
       "DRAGON"
     ],
     sprite: "/sprites/NAGANADEL.png",
-    artwork: "/artwork/naganadel.png",
+    artwork: "/sprites/NAGANADEL.png",
     description: "One kind of Ultra Beast, it fires a glowing, venomous liquid from its needles. This liquid is also immensely adhesive.",
     stats: {
       hp: 73,
@@ -98122,7 +98925,8 @@ export const fakemons: Fakemon[] =
     ],
     eggMoves: [
 
-    ]
+    ],
+    suffix: "normal"
   },
   {
     id: "STAKATAKA",
@@ -98132,7 +98936,7 @@ export const fakemons: Fakemon[] =
       "STEEL"
     ],
     sprite: "/sprites/STAKATAKA.png",
-    artwork: "/artwork/stakataka.png",
+    artwork: "/sprites/STAKATAKA.png",
     description: "When stone walls started moving and attacking, the brute's true identity was this mysterious life-form, which brings to mind an Ultra Beast.",
     stats: {
       hp: 61,
@@ -98233,7 +99037,8 @@ export const fakemons: Fakemon[] =
     ],
     eggMoves: [
 
-    ]
+    ],
+    suffix: "normal"
   },
   {
     id: "BLACEPHALON",
@@ -98243,7 +99048,7 @@ export const fakemons: Fakemon[] =
       "GHOST"
     ],
     sprite: "/sprites/BLACEPHALON.png",
-    artwork: "/artwork/blacephalon.png",
+    artwork: "/sprites/BLACEPHALON.png",
     description: "It slithers toward people. Then, without warning, it triggers the explosion of its own head. It's apparently one kind of Ultra Beast.",
     stats: {
       hp: 53,
@@ -98344,7 +99149,8 @@ export const fakemons: Fakemon[] =
     ],
     eggMoves: [
 
-    ]
+    ],
+    suffix: "normal"
   },
   {
     id: "ZERAORA",
@@ -98353,7 +99159,7 @@ export const fakemons: Fakemon[] =
       "ELECTRIC"
     ],
     sprite: "/sprites/ZERAORA.png",
-    artwork: "/artwork/zeraora.png",
+    artwork: "/sprites/ZERAORA.png",
     description: "It approaches its enemies at the speed of lightning, then tears them limb from limb with its sharp claws.",
     stats: {
       hp: 88,
@@ -98470,7 +99276,8 @@ export const fakemons: Fakemon[] =
     ],
     eggMoves: [
 
-    ]
+    ],
+    suffix: "normal"
   },
   {
     id: "MELTAN",
@@ -98479,7 +99286,7 @@ export const fakemons: Fakemon[] =
       "STEEL"
     ],
     sprite: "/sprites/MELTAN.png",
-    artwork: "/artwork/meltan.png",
+    artwork: "/sprites/MELTAN.png",
     description: "It melts particles of iron and other metals found in the subsoil, so it can absorb them into its body of molten steel.",
     stats: {
       hp: 46,
@@ -98536,7 +99343,8 @@ export const fakemons: Fakemon[] =
     ],
     eggMoves: [
 
-    ]
+    ],
+    suffix: "normal"
   },
   {
     id: "MELMETAL",
@@ -98545,7 +99353,7 @@ export const fakemons: Fakemon[] =
       "STEEL"
     ],
     sprite: "/sprites/MELMETAL.png",
-    artwork: "/artwork/melmetal.png",
+    artwork: "/sprites/MELMETAL.png",
     description: "Revered long ago for its capacity to create iron from nothing, for some reason it has come back to life after 3,000 years.",
     stats: {
       hp: 135,
@@ -98634,7 +99442,8 @@ export const fakemons: Fakemon[] =
     ],
     eggMoves: [
 
-    ]
+    ],
+    suffix: "normal"
   },
   {
     id: "GROOKEY",
@@ -98643,7 +99452,7 @@ export const fakemons: Fakemon[] =
       "GRASS"
     ],
     sprite: "/sprites/GROOKEY.png",
-    artwork: "/artwork/grookey.png",
+    artwork: "/sprites/GROOKEY.png",
     description: "When it uses its special stick to strike up a beat, the sound waves produced carry revitalizing energy to the plants and flowers in the area.",
     stats: {
       hp: 50,
@@ -98740,7 +99549,8 @@ export const fakemons: Fakemon[] =
       "NATUREPOWER",
       "STRENGTH",
       "WORRYSEED"
-    ]
+    ],
+    suffix: "normal"
   },
   {
     id: "THWACKEY",
@@ -98749,7 +99559,7 @@ export const fakemons: Fakemon[] =
       "GRASS"
     ],
     sprite: "/sprites/THWACKEY.png",
-    artwork: "/artwork/thwackey.png",
+    artwork: "/sprites/THWACKEY.png",
     description: "When it's drumming out rapid beats in battle, it gets so caught up in the rhythm that it won't even notice that it's already knocked out its opponent.",
     stats: {
       hp: 70,
@@ -98843,7 +99653,8 @@ export const fakemons: Fakemon[] =
     ],
     eggMoves: [
 
-    ]
+    ],
+    suffix: "normal"
   },
   {
     id: "RILLABOOM",
@@ -98852,7 +99663,7 @@ export const fakemons: Fakemon[] =
       "GRASS"
     ],
     sprite: "/sprites/RILLABOOM.png",
-    artwork: "/artwork/rillaboom.png",
+    artwork: "/sprites/RILLABOOM.png",
     description: "By drumming, it taps into the power of its special tree stump. The roots of the stump follow its direction in battle.",
     stats: {
       hp: 100,
@@ -98970,7 +99781,8 @@ export const fakemons: Fakemon[] =
     ],
     eggMoves: [
 
-    ]
+    ],
+    suffix: "normal"
   },
   {
     id: "SCORBUNNY",
@@ -98979,7 +99791,7 @@ export const fakemons: Fakemon[] =
       "FIRE"
     ],
     sprite: "/sprites/SCORBUNNY.png",
-    artwork: "/artwork/scorbunny.png",
+    artwork: "/sprites/SCORBUNNY.png",
     description: "A warm-up of running around gets fire energy coursing through this Pokémon's body. Once that happens, it's ready to fight at full power.",
     stats: {
       hp: 50,
@@ -99073,7 +99885,8 @@ export const fakemons: Fakemon[] =
       "SANDATTACK",
       "SUCKERPUNCH",
       "SUPERFANG"
-    ]
+    ],
+    suffix: "normal"
   },
   {
     id: "RABOOT",
@@ -99082,7 +99895,7 @@ export const fakemons: Fakemon[] =
       "FIRE"
     ],
     sprite: "/sprites/RABOOT.png",
-    artwork: "/artwork/raboot.png",
+    artwork: "/sprites/RABOOT.png",
     description: "It kicks berries right off the branches of trees and then juggles them with its feet, practicing its footwork.",
     stats: {
       hp: 65,
@@ -99177,7 +99990,8 @@ export const fakemons: Fakemon[] =
     ],
     eggMoves: [
 
-    ]
+    ],
+    suffix: "normal"
   },
   {
     id: "CINDERACE",
@@ -99186,7 +100000,7 @@ export const fakemons: Fakemon[] =
       "FIRE"
     ],
     sprite: "/sprites/CINDERACE.png",
-    artwork: "/artwork/cinderace.png",
+    artwork: "/sprites/CINDERACE.png",
     description: "It juggles a pebble with its feet, turning it into a burning soccer ball. Its shots strike opponents hard and leave them scorched.",
     stats: {
       hp: 80,
@@ -99300,7 +100114,8 @@ export const fakemons: Fakemon[] =
     ],
     eggMoves: [
 
-    ]
+    ],
+    suffix: "normal"
   },
   {
     id: "SOBBLE",
@@ -99309,7 +100124,7 @@ export const fakemons: Fakemon[] =
       "WATER"
     ],
     sprite: "/sprites/SOBBLE.png",
-    artwork: "/artwork/sobble.png",
+    artwork: "/sprites/SOBBLE.png",
     description: "When scared, this Pokémon cries. Its tears pack the chemical punch of 100 onions, and attackers won't be able to resist weeping.",
     stats: {
       hp: 50,
@@ -99393,7 +100208,8 @@ export const fakemons: Fakemon[] =
       "HAZE",
       "ICESHARD",
       "MIST"
-    ]
+    ],
+    suffix: "normal"
   },
   {
     id: "DRIZZILE",
@@ -99402,7 +100218,7 @@ export const fakemons: Fakemon[] =
       "WATER"
     ],
     sprite: "/sprites/DRIZZILE.png",
-    artwork: "/artwork/drizzile.png",
+    artwork: "/sprites/DRIZZILE.png",
     description: "A clever combatant, this Pokémon battles using water balloons created with moisture secreted from its palms.",
     stats: {
       hp: 65,
@@ -99482,7 +100298,8 @@ export const fakemons: Fakemon[] =
     ],
     eggMoves: [
 
-    ]
+    ],
+    suffix: "normal"
   },
   {
     id: "INTELEON",
@@ -99491,7 +100308,7 @@ export const fakemons: Fakemon[] =
       "WATER"
     ],
     sprite: "/sprites/INTELEON.png",
-    artwork: "/artwork/inteleon.png",
+    artwork: "/sprites/INTELEON.png",
     description: "It has many hidden capabilities, such as fingertips that can shoot water and a membrane on its back that it can use to glide through the air.",
     stats: {
       hp: 70,
@@ -99600,7 +100417,8 @@ export const fakemons: Fakemon[] =
     ],
     eggMoves: [
 
-    ]
+    ],
+    suffix: "normal"
   },
   {
     id: "SKWOVET",
@@ -99609,7 +100427,7 @@ export const fakemons: Fakemon[] =
       "NORMAL"
     ],
     sprite: "/sprites/SKWOVET.png",
-    artwork: "/artwork/skwovet.png",
+    artwork: "/sprites/SKWOVET.png",
     description: "It eats berries nonstop—a habit that has made it more resilient than it looks. It'll show up on farms, searching for yet more berries.",
     stats: {
       hp: 70,
@@ -99693,7 +100511,8 @@ export const fakemons: Fakemon[] =
       "DEFENSECURL",
       "LASTRESORT",
       "ROLLOUT"
-    ]
+    ],
+    suffix: "normal"
   },
   {
     id: "GREEDENT",
@@ -99702,7 +100521,7 @@ export const fakemons: Fakemon[] =
       "NORMAL"
     ],
     sprite: "/sprites/GREEDENT.png",
-    artwork: "/artwork/greedent.png",
+    artwork: "/sprites/GREEDENT.png",
     description: "It stashes berries in its tail - so many berries that they fall out constantly. But this Pokémon is a bit slow-witted, so it doesn't notice the loss.",
     stats: {
       hp: 120,
@@ -99801,7 +100620,8 @@ export const fakemons: Fakemon[] =
     ],
     eggMoves: [
 
-    ]
+    ],
+    suffix: "normal"
   },
   {
     id: "ROOKIDEE",
@@ -99810,7 +100630,7 @@ export const fakemons: Fakemon[] =
       "FLYING"
     ],
     sprite: "/sprites/ROOKIDEE.png",
-    artwork: "/artwork/rookidee.png",
+    artwork: "/sprites/ROOKIDEE.png",
     description: "Jumping nimbly about, this small-bodied Pokémon takes advantage of even the slightest opportunity to disorient larger opponents.",
     stats: {
       hp: 38,
@@ -99897,7 +100717,8 @@ export const fakemons: Fakemon[] =
       "SKYATTACK",
       "SPITE",
       "TAILWIND"
-    ]
+    ],
+    suffix: "normal"
   },
   {
     id: "CORVISQUIRE",
@@ -99906,7 +100727,7 @@ export const fakemons: Fakemon[] =
       "FLYING"
     ],
     sprite: "/sprites/CORVISQUIRE.png",
-    artwork: "/artwork/corvisquire.png",
+    artwork: "/sprites/CORVISQUIRE.png",
     description: "Smart enough to use tools in battle, these Pokémon have been seen picking up rocks and flinging them or using ropes to wrap up enemies.",
     stats: {
       hp: 68,
@@ -99989,7 +100810,8 @@ export const fakemons: Fakemon[] =
     ],
     eggMoves: [
 
-    ]
+    ],
+    suffix: "normal"
   },
   {
     id: "CORVIKNIGHT",
@@ -99999,7 +100821,7 @@ export const fakemons: Fakemon[] =
       "STEEL"
     ],
     sprite: "/sprites/CORVIKNIGHT.png",
-    artwork: "/artwork/corviknight.png",
+    artwork: "/sprites/CORVIKNIGHT.png",
     description: "This Pokémon reigns supreme in the skies. The black luster of its steel body could drive terror into the heart of any foe.",
     stats: {
       hp: 98,
@@ -100105,7 +100927,8 @@ export const fakemons: Fakemon[] =
     ],
     eggMoves: [
 
-    ]
+    ],
+    suffix: "normal"
   },
   {
     id: "BLIPBUG",
@@ -100114,7 +100937,7 @@ export const fakemons: Fakemon[] =
       "BUG"
     ],
     sprite: "/sprites/BLIPBUG.png",
-    artwork: "/artwork/blipbug.png",
+    artwork: "/sprites/BLIPBUG.png",
     description: "Often found in gardens, this Pokémon has hairs on its body that it uses to assess its surroundings.",
     stats: {
       hp: 25,
@@ -100145,7 +100968,8 @@ export const fakemons: Fakemon[] =
       "RECOVER",
       "STICKYWEB",
       "SUPERSONIC"
-    ]
+    ],
+    suffix: "normal"
   },
   {
     id: "DOTTLER",
@@ -100155,7 +100979,7 @@ export const fakemons: Fakemon[] =
       "PSYCHIC"
     ],
     sprite: "/sprites/DOTTLER.png",
-    artwork: "/artwork/dottler.png",
+    artwork: "/sprites/DOTTLER.png",
     description: "It barely moves, but it's still alive. Hiding in its shell without food or water seems to have awakened its psychic powers.",
     stats: {
       hp: 50,
@@ -100234,7 +101058,8 @@ export const fakemons: Fakemon[] =
     ],
     eggMoves: [
 
-    ]
+    ],
+    suffix: "normal"
   },
   {
     id: "ORBEETLE",
@@ -100244,7 +101069,7 @@ export const fakemons: Fakemon[] =
       "PSYCHIC"
     ],
     sprite: "/sprites/ORBEETLE.png",
-    artwork: "/artwork/orbeetle.png",
+    artwork: "/sprites/ORBEETLE.png",
     description: "It's famous for its high level of intelligence, and the large size of its brain is proof that it also possesses immense psychic power.",
     stats: {
       hp: 60,
@@ -100342,7 +101167,8 @@ export const fakemons: Fakemon[] =
     ],
     eggMoves: [
 
-    ]
+    ],
+    suffix: "normal"
   },
   {
     id: "NICKIT",
@@ -100351,7 +101177,7 @@ export const fakemons: Fakemon[] =
       "DARK"
     ],
     sprite: "/sprites/NICKIT.png",
-    artwork: "/artwork/nickit.png",
+    artwork: "/sprites/NICKIT.png",
     description: "Aided by the soft pads on its feet, it silently raids the food stores of other Pokémon. It survives off its ill-gotten gains.",
     stats: {
       hp: 40,
@@ -100428,7 +101254,8 @@ export const fakemons: Fakemon[] =
       "KNOCKOFF",
       "QUICKGUARD",
       "TORMENT"
-    ]
+    ],
+    suffix: "normal"
   },
   {
     id: "THIEVUL",
@@ -100437,7 +101264,7 @@ export const fakemons: Fakemon[] =
       "DARK"
     ],
     sprite: "/sprites/THIEVUL.png",
-    artwork: "/artwork/thievul.png",
+    artwork: "/sprites/THIEVUL.png",
     description: "It secretly marks potential targets with a scent. By following the scent, it stalks its targets and steals from them when they least expect it.",
     stats: {
       hp: 70,
@@ -100527,7 +101354,8 @@ export const fakemons: Fakemon[] =
     ],
     eggMoves: [
 
-    ]
+    ],
+    suffix: "normal"
   },
   {
     id: "GOSSIFLEUR",
@@ -100536,7 +101364,7 @@ export const fakemons: Fakemon[] =
       "GRASS"
     ],
     sprite: "/sprites/GOSSIFLEUR.png",
-    artwork: "/artwork/gossifleur.png",
+    artwork: "/sprites/GOSSIFLEUR.png",
     description: "It anchors itself in the ground with its single leg, then basks in the sun. After absorbing enough sunlight, its petals spread as it blooms brilliantly.",
     stats: {
       hp: 40,
@@ -100613,7 +101441,8 @@ export const fakemons: Fakemon[] =
       "SLEEPPOWDER",
       "STUNSPORE",
       "WORRYSEED"
-    ]
+    ],
+    suffix: "normal"
   },
   {
     id: "ELDEGOSS",
@@ -100622,7 +101451,7 @@ export const fakemons: Fakemon[] =
       "GRASS"
     ],
     sprite: "/sprites/ELDEGOSS.png",
-    artwork: "/artwork/eldegoss.png",
+    artwork: "/sprites/ELDEGOSS.png",
     description: "The seeds attached to its cotton fluff are full of nutrients. It spreads them on the wind so that plants and other Pokémon can benefit from them.",
     stats: {
       hp: 60,
@@ -100700,7 +101529,8 @@ export const fakemons: Fakemon[] =
     ],
     eggMoves: [
 
-    ]
+    ],
+    suffix: "normal"
   },
   {
     id: "WOOLOO",
@@ -100709,7 +101539,7 @@ export const fakemons: Fakemon[] =
       "NORMAL"
     ],
     sprite: "/sprites/WOOLOO.png",
-    artwork: "/artwork/wooloo.png",
+    artwork: "/sprites/WOOLOO.png",
     description: "Its curly fleece is such an effective cushion that this Pokémon could fall off a cliff and stand right back up at the bottom, unharmed.",
     stats: {
       hp: 42,
@@ -100777,7 +101607,8 @@ export const fakemons: Fakemon[] =
       "COUNTER",
       "STOMP",
       "SWAGGER"
-    ]
+    ],
+    suffix: "normal"
   },
   {
     id: "DUBWOOL",
@@ -100786,7 +101617,7 @@ export const fakemons: Fakemon[] =
       "NORMAL"
     ],
     sprite: "/sprites/DUBWOOL.png",
-    artwork: "/artwork/dubwool.png",
+    artwork: "/sprites/DUBWOOL.png",
     description: "Its majestic horns are meant only to impress the opposite gender. They never see use in battle.",
     stats: {
       hp: 72,
@@ -100863,7 +101694,8 @@ export const fakemons: Fakemon[] =
     ],
     eggMoves: [
 
-    ]
+    ],
+    suffix: "normal"
   },
   {
     id: "CHEWTLE",
@@ -100872,7 +101704,7 @@ export const fakemons: Fakemon[] =
       "WATER"
     ],
     sprite: "/sprites/CHEWTLE.png",
-    artwork: "/artwork/chewtle.png",
+    artwork: "/sprites/CHEWTLE.png",
     description: "It starts off battles by attacking with its rock-hard horn, but as soon as the opponent flinches, this Pokémon bites down and never lets go.",
     stats: {
       hp: 50,
@@ -100953,7 +101785,8 @@ export const fakemons: Fakemon[] =
       "GASTROACID",
       "SHELLSMASH",
       "SKULLBASH"
-    ]
+    ],
+    suffix: "normal"
   },
   {
     id: "DREDNAW",
@@ -100963,7 +101796,7 @@ export const fakemons: Fakemon[] =
       "ROCK"
     ],
     sprite: "/sprites/DREDNAW.png",
-    artwork: "/artwork/drednaw.png",
+    artwork: "/sprites/DREDNAW.png",
     description: "With jaws that can shear through steel rods, this highly aggressive Pokémon chomps down on its unfortunate prey.",
     stats: {
       hp: 90,
@@ -101076,7 +101909,8 @@ export const fakemons: Fakemon[] =
     ],
     eggMoves: [
 
-    ]
+    ],
+    suffix: "normal"
   },
   {
     id: "YAMPER",
@@ -101085,7 +101919,7 @@ export const fakemons: Fakemon[] =
       "ELECTRIC"
     ],
     sprite: "/sprites/YAMPER.png",
-    artwork: "/artwork/yamper.png",
+    artwork: "/sprites/YAMPER.png",
     description: "This gluttonous Pokémon only assists people with their work because it wants treats. As it runs, it crackles with electricity.",
     stats: {
       hp: 59,
@@ -101162,7 +101996,8 @@ export const fakemons: Fakemon[] =
       "FLAMECHARGE",
       "HOWL",
       "SANDATTACK"
-    ]
+    ],
+    suffix: "normal"
   },
   {
     id: "BOLTUND",
@@ -101171,7 +102006,7 @@ export const fakemons: Fakemon[] =
       "ELECTRIC"
     ],
     sprite: "/sprites/BOLTUND.png",
-    artwork: "/artwork/boltund.png",
+    artwork: "/sprites/BOLTUND.png",
     description: "This Pokémon generates electricity and channels it into its legs to keep them going strong. Boltund can run nonstop for three full days.",
     stats: {
       hp: 69,
@@ -101255,7 +102090,8 @@ export const fakemons: Fakemon[] =
     ],
     eggMoves: [
 
-    ]
+    ],
+    suffix: "normal"
   },
   {
     id: "ROLYCOLY",
@@ -101264,7 +102100,7 @@ export const fakemons: Fakemon[] =
       "ROCK"
     ],
     sprite: "/sprites/ROLYCOLY.png",
-    artwork: "/artwork/rolycoly.png",
+    artwork: "/sprites/ROLYCOLY.png",
     description: "Most of its body has the same composition as coal. Fittingly, this Pokémon was first discovered in coal mines about 400 years ago.",
     stats: {
       hp: 30,
@@ -101347,7 +102183,8 @@ export const fakemons: Fakemon[] =
       "BLOCK",
       "EXPLOSION",
       "MUDSLAP"
-    ]
+    ],
+    suffix: "normal"
   },
   {
     id: "CARKOL",
@@ -101357,7 +102194,7 @@ export const fakemons: Fakemon[] =
       "FIRE"
     ],
     sprite: "/sprites/CARKOL.png",
-    artwork: "/artwork/carkol.png",
+    artwork: "/sprites/CARKOL.png",
     description: "By rapidly rolling its legs, it can travel at over 18 mph. The temperature of the flames it breathes exceeds 1,000 degrees Celsius.",
     stats: {
       hp: 80,
@@ -101452,7 +102289,8 @@ export const fakemons: Fakemon[] =
     ],
     eggMoves: [
 
-    ]
+    ],
+    suffix: "normal"
   },
   {
     id: "COALOSSAL",
@@ -101462,7 +102300,7 @@ export const fakemons: Fakemon[] =
       "FIRE"
     ],
     sprite: "/sprites/COALOSSAL.png",
-    artwork: "/artwork/coalossal.png",
+    artwork: "/sprites/COALOSSAL.png",
     description: "While it's engaged in battle, its mountain of coal will burn bright red, sending off sparks that scorch the surrounding area.",
     stats: {
       hp: 110,
@@ -101567,7 +102405,8 @@ export const fakemons: Fakemon[] =
     ],
     eggMoves: [
 
-    ]
+    ],
+    suffix: "normal"
   },
   {
     id: "APPLIN",
@@ -101577,7 +102416,7 @@ export const fakemons: Fakemon[] =
       "DRAGON"
     ],
     sprite: "/sprites/APPLIN.png",
-    artwork: "/artwork/applin.png",
+    artwork: "/sprites/APPLIN.png",
     description: "It spends its entire life inside an apple. It hides from its natural enemies, bird Pokémon, by pretending it's just an apple and nothing more.",
     stats: {
       hp: 40,
@@ -101611,7 +102450,8 @@ export const fakemons: Fakemon[] =
       "RECYCLE",
       "ROLLOUT",
       "SUCKERPUNCH"
-    ]
+    ],
+    suffix: "normal"
   },
   {
     id: "FLAPPLE",
@@ -101621,7 +102461,7 @@ export const fakemons: Fakemon[] =
       "DRAGON"
     ],
     sprite: "/sprites/FLAPPLE.png",
-    artwork: "/artwork/flapple.png",
+    artwork: "/sprites/FLAPPLE.png",
     description: "It ate a sour apple, and that induced its evolution. In its cheeks, it stores an acid capable of causing chemical burns.",
     stats: {
       hp: 70,
@@ -101716,7 +102556,8 @@ export const fakemons: Fakemon[] =
     ],
     eggMoves: [
 
-    ]
+    ],
+    suffix: "normal"
   },
   {
     id: "APPLETUN",
@@ -101726,7 +102567,7 @@ export const fakemons: Fakemon[] =
       "DRAGON"
     ],
     sprite: "/sprites/APPLETUN.png",
-    artwork: "/artwork/appletun.png",
+    artwork: "/sprites/APPLETUN.png",
     description: "Its body is covered in sweet nectar, and the skin on its back is especially yummy. Children used to have it as a snack.",
     stats: {
       hp: 110,
@@ -101829,7 +102670,8 @@ export const fakemons: Fakemon[] =
     ],
     eggMoves: [
 
-    ]
+    ],
+    suffix: "normal"
   },
   {
     id: "SILICOBRA",
@@ -101838,7 +102680,7 @@ export const fakemons: Fakemon[] =
       "GROUND"
     ],
     sprite: "/sprites/SILICOBRA.png",
-    artwork: "/artwork/silicobra.png",
+    artwork: "/sprites/SILICOBRA.png",
     description: "It spews sand from its nostrils. While the enemy is blinded, it burrows into the ground to hide.",
     stats: {
       hp: 52,
@@ -101923,7 +102765,8 @@ export const fakemons: Fakemon[] =
       "LASTRESORT",
       "MUDSLAP",
       "POISONTAIL"
-    ]
+    ],
+    suffix: "normal"
   },
   {
     id: "SANDACONDA",
@@ -101932,7 +102775,7 @@ export const fakemons: Fakemon[] =
       "GROUND"
     ],
     sprite: "/sprites/SANDACONDA.png",
-    artwork: "/artwork/sandaconda.png",
+    artwork: "/sprites/SANDACONDA.png",
     description: "Its unique style of coiling allows it to blast sand out of its sand sac more efficiently.",
     stats: {
       hp: 72,
@@ -102025,7 +102868,8 @@ export const fakemons: Fakemon[] =
     ],
     eggMoves: [
 
-    ]
+    ],
+    suffix: "normal"
   },
   {
     id: "CRAMORANT",
@@ -102035,7 +102879,7 @@ export const fakemons: Fakemon[] =
       "WATER"
     ],
     sprite: "/sprites/CRAMORANT.png",
-    artwork: "/artwork/cramorant.png",
+    artwork: "/sprites/CRAMORANT.png",
     description: "It's so strong that it can knock out some opponents in a single hit, but it also may forget what it's battling midfight.",
     stats: {
       hp: 70,
@@ -102134,7 +102978,8 @@ export const fakemons: Fakemon[] =
       "DEFOG",
       "FEATHERDANCE",
       "ROOST"
-    ]
+    ],
+    suffix: "normal"
   },
   {
     id: "ARROKUDA",
@@ -102143,7 +102988,7 @@ export const fakemons: Fakemon[] =
       "WATER"
     ],
     sprite: "/sprites/ARROKUDA.png",
-    artwork: "/artwork/arrokuda.png",
+    artwork: "/sprites/ARROKUDA.png",
     description: "If it sees any movement around it, this Pokémon charges for it straightaway, leading with its sharply pointed jaw. It's very proud of that jaw.",
     stats: {
       hp: 41,
@@ -102226,7 +103071,8 @@ export const fakemons: Fakemon[] =
       "NIGHTSLASH",
       "SLASH",
       "THRASH"
-    ]
+    ],
+    suffix: "normal"
   },
   {
     id: "BARRASKEWDA",
@@ -102235,7 +103081,7 @@ export const fakemons: Fakemon[] =
       "WATER"
     ],
     sprite: "/sprites/BARRASKEWDA.png",
-    artwork: "/artwork/barraskewda.png",
+    artwork: "/sprites/BARRASKEWDA.png",
     description: "This Pokémon has a jaw that's as sharp as a spear and as strong as steel. Apparently Barraskewda's flesh is surprisingly tasty, too.",
     stats: {
       hp: 61,
@@ -102322,7 +103168,8 @@ export const fakemons: Fakemon[] =
     ],
     eggMoves: [
 
-    ]
+    ],
+    suffix: "normal"
   },
   {
     id: "TOXEL",
@@ -102332,7 +103179,7 @@ export const fakemons: Fakemon[] =
       "POISON"
     ],
     sprite: "/sprites/TOXEL.png",
-    artwork: "/artwork/toxel.png",
+    artwork: "/sprites/TOXEL.png",
     description: "It manipulates the chemical makeup of its poison to produce electricity. The voltage is weak, but it can cause a tingling paralysis.",
     stats: {
       hp: 40,
@@ -102390,7 +103237,8 @@ export const fakemons: Fakemon[] =
       "ENDEAVOR",
       "METALSOUND",
       "POWERUPPUNCH"
-    ]
+    ],
+    suffix: "normal"
   },
   {
     id: "TOXTRICITY",
@@ -102400,7 +103248,7 @@ export const fakemons: Fakemon[] =
       "POISON"
     ],
     sprite: "/sprites/TOXTRICITY.png",
-    artwork: "/artwork/toxtricity.png",
+    artwork: "/sprites/TOXTRICITY.png",
     description: "When this Pokémon sounds as if it's strumming a guitar, it's actually clawing at the protrusions on its chest to generate electricity.",
     stats: {
       hp: 75,
@@ -102523,7 +103371,8 @@ export const fakemons: Fakemon[] =
     ],
     eggMoves: [
 
-    ]
+    ],
+    suffix: "normal"
   },
   {
     id: "SIZZLIPEDE",
@@ -102533,7 +103382,7 @@ export const fakemons: Fakemon[] =
       "BUG"
     ],
     sprite: "/sprites/SIZZLIPEDE.png",
-    artwork: "/artwork/sizzlipede.png",
+    artwork: "/sprites/SIZZLIPEDE.png",
     description: "It stores flammable gas in its body and uses it to generate heat. The yellow sections on its belly get particularly hot.",
     stats: {
       hp: 50,
@@ -102608,7 +103457,8 @@ export const fakemons: Fakemon[] =
       "KNOCKOFF",
       "ROLLOUT",
       "STRUGGLEBUG"
-    ]
+    ],
+    suffix: "normal"
   },
   {
     id: "CENTISKORCH",
@@ -102618,7 +103468,7 @@ export const fakemons: Fakemon[] =
       "BUG"
     ],
     sprite: "/sprites/CENTISKORCH.png",
-    artwork: "/artwork/centiskorch.png",
+    artwork: "/sprites/CENTISKORCH.png",
     description: "While its burning body is already dangerous on its own, this excessively hostile Pokémon also has large and very sharp fangs.",
     stats: {
       hp: 100,
@@ -102703,7 +103553,8 @@ export const fakemons: Fakemon[] =
     ],
     eggMoves: [
 
-    ]
+    ],
+    suffix: "normal"
   },
   {
     id: "CLOBBOPUS",
@@ -102712,7 +103563,7 @@ export const fakemons: Fakemon[] =
       "FIGHTING"
     ],
     sprite: "/sprites/CLOBBOPUS.png",
-    artwork: "/artwork/clobbopus.png",
+    artwork: "/sprites/CLOBBOPUS.png",
     description: "It's very curious, but its means of investigating things is to try to punch them with its tentacles. The search for food is what brings it onto land.",
     stats: {
       hp: 50,
@@ -102794,7 +103645,8 @@ export const fakemons: Fakemon[] =
       "SEISMICTOSS",
       "SOAK",
       "SUCKERPUNCH"
-    ]
+    ],
+    suffix: "normal"
   },
   {
     id: "GRAPPLOCT",
@@ -102803,7 +103655,7 @@ export const fakemons: Fakemon[] =
       "FIGHTING"
     ],
     sprite: "/sprites/GRAPPLOCT.png",
-    artwork: "/artwork/grapploct.png",
+    artwork: "/sprites/GRAPPLOCT.png",
     description: "A body made up of nothing but muscle makes the grappling moves this Pokémon performs with its tentacles tremendously powerful.",
     stats: {
       hp: 80,
@@ -102894,7 +103746,8 @@ export const fakemons: Fakemon[] =
     ],
     eggMoves: [
 
-    ]
+    ],
+    suffix: "normal"
   },
   {
     id: "SINISTEA",
@@ -102903,7 +103756,7 @@ export const fakemons: Fakemon[] =
       "GHOST"
     ],
     sprite: "/sprites/SINISTEA.png",
-    artwork: "/artwork/sinistea.png",
+    artwork: "/sprites/SINISTEA.png",
     description: "The teacup in which this Pokémon makes its home is a famous piece of antique tableware. Many forgeries are in circulation.",
     stats: {
       hp: 40,
@@ -102985,7 +103838,8 @@ export const fakemons: Fakemon[] =
     ],
     eggMoves: [
       "ALLYSWITCH"
-    ]
+    ],
+    suffix: "normal"
   },
   {
     id: "POLTEAGEIST",
@@ -102994,7 +103848,7 @@ export const fakemons: Fakemon[] =
       "GHOST"
     ],
     sprite: "/sprites/POLTEAGEIST.png",
-    artwork: "/artwork/polteageist.png",
+    artwork: "/sprites/POLTEAGEIST.png",
     description: "This species lives in antique teapots. Most pots are forgeries, but on rare occasions, an authentic work is found.",
     stats: {
       hp: 60,
@@ -103086,7 +103940,8 @@ export const fakemons: Fakemon[] =
     ],
     eggMoves: [
 
-    ]
+    ],
+    suffix: "normal"
   },
   {
     id: "HATENNA",
@@ -103095,7 +103950,7 @@ export const fakemons: Fakemon[] =
       "PSYCHIC"
     ],
     sprite: "/sprites/HATENNA.png",
-    artwork: "/artwork/hatenna.png",
+    artwork: "/sprites/HATENNA.png",
     description: "Via the protrusion on its head, it senses other creatures' emotions. If you don't have a calm disposition, it will never warm up to you.",
     stats: {
       hp: 42,
@@ -103187,7 +104042,8 @@ export const fakemons: Fakemon[] =
       "MYSTICALFIRE",
       "NUZZLE",
       "QUASH"
-    ]
+    ],
+    suffix: "normal"
   },
   {
     id: "HATTREM",
@@ -103196,7 +104052,7 @@ export const fakemons: Fakemon[] =
       "PSYCHIC"
     ],
     sprite: "/sprites/HATTREM.png",
-    artwork: "/artwork/hattrem.png",
+    artwork: "/sprites/HATTREM.png",
     description: "Using the braids on its head, it pummels foes to get them to quiet down. One blow from those braids would knock out a professional boxer.",
     stats: {
       hp: 57,
@@ -103286,7 +104142,8 @@ export const fakemons: Fakemon[] =
     ],
     eggMoves: [
 
-    ]
+    ],
+    suffix: "normal"
   },
   {
     id: "HATTERENE",
@@ -103296,7 +104153,7 @@ export const fakemons: Fakemon[] =
       "FAIRY"
     ],
     sprite: "/sprites/HATTERENE.png",
-    artwork: "/artwork/hatterene.png",
+    artwork: "/sprites/HATTERENE.png",
     description: "It emits psychic power strong enough to cause headaches as a deterrent to the approach of others.",
     stats: {
       hp: 57,
@@ -103404,7 +104261,8 @@ export const fakemons: Fakemon[] =
     ],
     eggMoves: [
 
-    ]
+    ],
+    suffix: "normal"
   },
   {
     id: "IMPIDIMP",
@@ -103414,7 +104272,7 @@ export const fakemons: Fakemon[] =
       "FAIRY"
     ],
     sprite: "/sprites/IMPIDIMP.png",
-    artwork: "/artwork/impidimp.png",
+    artwork: "/sprites/IMPIDIMP.png",
     description: "Through its nose, it sucks in the emanations produced by people and Pokémon when they feel annoyed. It thrives off this negative energy.",
     stats: {
       hp: 45,
@@ -103504,7 +104362,8 @@ export const fakemons: Fakemon[] =
     ],
     eggMoves: [
       "PARTINGSHOT"
-    ]
+    ],
+    suffix: "normal"
   },
   {
     id: "MORGREM",
@@ -103514,7 +104373,7 @@ export const fakemons: Fakemon[] =
       "FAIRY"
     ],
     sprite: "/sprites/MORGREM.png",
-    artwork: "/artwork/morgrem.png",
+    artwork: "/sprites/MORGREM.png",
     description: "With sly cunning, it tries to lure people into the woods. Some believe it to have the power to make crops grow.",
     stats: {
       hp: 65,
@@ -103607,7 +104466,8 @@ export const fakemons: Fakemon[] =
     ],
     eggMoves: [
 
-    ]
+    ],
+    suffix: "normal"
   },
   {
     id: "GRIMMSNARL",
@@ -103617,7 +104477,7 @@ export const fakemons: Fakemon[] =
       "FAIRY"
     ],
     sprite: "/sprites/GRIMMSNARL.png",
-    artwork: "/artwork/grimmsnarl.png",
+    artwork: "/sprites/GRIMMSNARL.png",
     description: "Its hairs work like muscle fibers. When its hairs unfurl, they latch on to opponents, ensnaring them as tentacles would.",
     stats: {
       hp: 95,
@@ -103733,7 +104593,8 @@ export const fakemons: Fakemon[] =
     ],
     eggMoves: [
 
-    ]
+    ],
+    suffix: "normal"
   },
   {
     id: "OBSTAGOON",
@@ -103743,7 +104604,7 @@ export const fakemons: Fakemon[] =
       "NORMAL"
     ],
     sprite: "/sprites/OBSTAGOON.png",
-    artwork: "/artwork/obstagoon.png",
+    artwork: "/sprites/OBSTAGOON.png",
     description: "It evolved after experiencing numerous fights. While crossing its arms, it lets out a shout that would make any opponent flinch.",
     stats: {
       hp: 93,
@@ -103868,7 +104729,8 @@ export const fakemons: Fakemon[] =
       "KNOCKOFF",
       "PARTINGSHOT",
       "QUICKGUARD"
-    ]
+    ],
+    suffix: "normal"
   },
   {
     id: "PERRSERKER",
@@ -103877,7 +104739,7 @@ export const fakemons: Fakemon[] =
       "STEEL"
     ],
     sprite: "/sprites/PERRSERKER.png",
-    artwork: "/artwork/perrserker.png",
+    artwork: "/sprites/PERRSERKER.png",
     description: "What appears to be an iron helmet is actually hardened hair. This Pokémon lives for the thrill of battle.",
     stats: {
       hp: 70,
@@ -104014,7 +104876,8 @@ export const fakemons: Fakemon[] =
       "FLAIL",
       "NIGHTSLASH",
       "SPITE"
-    ]
+    ],
+    suffix: "normal"
   },
   {
     id: "CURSOLA",
@@ -104023,7 +104886,7 @@ export const fakemons: Fakemon[] =
       "GHOST"
     ],
     sprite: "/sprites/CURSOLA.png",
-    artwork: "/artwork/cursola.png",
+    artwork: "/sprites/CURSOLA.png",
     description: "Its shell is overflowing with its heightened otherworldly energy. The ectoplasm serves as protection for this Pokémon's core spirit.",
     stats: {
       hp: 60,
@@ -104135,7 +104998,8 @@ export const fakemons: Fakemon[] =
       "HEADSMASH",
       "NATUREPOWER",
       "WATERPULSE"
-    ]
+    ],
+    suffix: "normal"
   },
   {
     id: "SIRFETCHD",
@@ -104144,7 +105008,7 @@ export const fakemons: Fakemon[] =
       "FIGHTING"
     ],
     sprite: "/sprites/SIRFETCHD.png",
-    artwork: "/artwork/sirfetchd.png",
+    artwork: "/sprites/SIRFETCHD.png",
     description: "After deflecting attacks with its hard leaf shield, it strikes back with its sharp leek stalk. The leek stalk is both weapon and food.",
     stats: {
       hp: 62,
@@ -104240,7 +105104,8 @@ export const fakemons: Fakemon[] =
       "QUICKGUARD",
       "SIMPLEBEAM",
       "SKYATTACK"
-    ]
+    ],
+    suffix: "normal"
   },
   {
     id: "MRRIME",
@@ -104250,7 +105115,7 @@ export const fakemons: Fakemon[] =
       "PSYCHIC"
     ],
     sprite: "/sprites/MRRIME.png",
-    artwork: "/artwork/mrrime.png",
+    artwork: "/sprites/MRRIME.png",
     description: "Its amusing movements make it very popular. It releases its psychic power from the pattern on its belly.",
     stats: {
       hp: 80,
@@ -104408,7 +105273,8 @@ export const fakemons: Fakemon[] =
       "FAKEOUT",
       "POWERSPLIT",
       "TICKLE"
-    ]
+    ],
+    suffix: "normal"
   },
   {
     id: "RUNERIGUS",
@@ -104418,7 +105284,7 @@ export const fakemons: Fakemon[] =
       "GHOST"
     ],
     sprite: "/sprites/RUNERIGUS.png",
-    artwork: "/artwork/runerigus.png",
+    artwork: "/sprites/RUNERIGUS.png",
     description: "A powerful curse was woven into an ancient painting. After absorbing the spirit of a Yamask, the painting began to move.",
     stats: {
       hp: 58,
@@ -104529,7 +105395,8 @@ export const fakemons: Fakemon[] =
     ],
     eggMoves: [
       "MEMENTO"
-    ]
+    ],
+    suffix: "normal"
   },
   {
     id: "MILCERY",
@@ -104538,7 +105405,7 @@ export const fakemons: Fakemon[] =
       "FAIRY"
     ],
     sprite: "/sprites/MILCERY.png",
-    artwork: "/artwork/milcery.png",
+    artwork: "/sprites/MILCERY.png",
     description: "This Pokémon was born from sweet-smelling particles in the air. Its body is made of cream.",
     stats: {
       hp: 45,
@@ -104602,7 +105469,8 @@ export const fakemons: Fakemon[] =
     eggMoves: [
       "BABYDOLLEYES",
       "LASTRESORT"
-    ]
+    ],
+    suffix: "normal"
   },
   {
     id: "ALCREMIE",
@@ -104611,7 +105479,7 @@ export const fakemons: Fakemon[] =
       "FAIRY"
     ],
     sprite: "/sprites/ALCREMIE.png",
-    artwork: "/artwork/alcremie.png",
+    artwork: "/sprites/ALCREMIE.png",
     description: "When Alcremie is content, the cream it secretes from its hands becomes sweeter and richer.",
     stats: {
       hp: 65,
@@ -104703,7 +105571,8 @@ export const fakemons: Fakemon[] =
     ],
     eggMoves: [
 
-    ]
+    ],
+    suffix: "normal"
   },
   {
     id: "FALINKS",
@@ -104712,7 +105581,7 @@ export const fakemons: Fakemon[] =
       "FIGHTING"
     ],
     sprite: "/sprites/FALINKS.png",
-    artwork: "/artwork/falinks.png",
+    artwork: "/sprites/FALINKS.png",
     description: "The six of them work together as one Pokémon. Teamwork is also their battle strategy, and they constantly change their formation as they fight.",
     stats: {
       hp: 65,
@@ -104811,7 +105680,8 @@ export const fakemons: Fakemon[] =
     ],
     eggMoves: [
 
-    ]
+    ],
+    suffix: "normal"
   },
   {
     id: "PINCURCHIN",
@@ -104820,7 +105690,7 @@ export const fakemons: Fakemon[] =
       "ELECTRIC"
     ],
     sprite: "/sprites/PINCURCHIN.png",
-    artwork: "/artwork/pincurchin.png",
+    artwork: "/sprites/PINCURCHIN.png",
     description: "It stores electricity in each spine. Even if one gets broken off, it still continues to emit electricity for at least three hours.",
     stats: {
       hp: 48,
@@ -104918,7 +105788,8 @@ export const fakemons: Fakemon[] =
     eggMoves: [
       "MEMENTO",
       "SUCKERPUNCH"
-    ]
+    ],
+    suffix: "normal"
   },
   {
     id: "SNOM",
@@ -104928,7 +105799,7 @@ export const fakemons: Fakemon[] =
       "BUG"
     ],
     sprite: "/sprites/SNOM.png",
-    artwork: "/artwork/snom.png",
+    artwork: "/sprites/SNOM.png",
     description: "It spits out thread imbued with a frigid sort of energy and uses it to tie its body to branches, disguising itself as an icicle while it sleeps.",
     stats: {
       hp: 30,
@@ -104984,7 +105855,8 @@ export const fakemons: Fakemon[] =
       "BUGBITE",
       "FAIRYWIND",
       "MIRRORCOAT"
-    ]
+    ],
+    suffix: "normal"
   },
   {
     id: "FROSMOTH",
@@ -104994,7 +105866,7 @@ export const fakemons: Fakemon[] =
       "BUG"
     ],
     sprite: "/sprites/FROSMOTH.png",
-    artwork: "/artwork/frosmoth.png",
+    artwork: "/sprites/FROSMOTH.png",
     description: "It shows no mercy to any who desecrate fields and mountains. It will fly around on its icy wings, causing a blizzard to chase offenders away.",
     stats: {
       hp: 70,
@@ -105093,7 +105965,8 @@ export const fakemons: Fakemon[] =
     ],
     eggMoves: [
 
-    ]
+    ],
+    suffix: "normal"
   },
   {
     id: "STONJOURNER",
@@ -105102,7 +105975,7 @@ export const fakemons: Fakemon[] =
       "ROCK"
     ],
     sprite: "/sprites/STONJOURNER.png",
-    artwork: "/artwork/stonjourner.png",
+    artwork: "/sprites/STONJOURNER.png",
     description: "Once a year, on a specific date and at a specific time, they gather out of nowhere and form up in a circle.",
     stats: {
       hp: 100,
@@ -105200,7 +106073,8 @@ export const fakemons: Fakemon[] =
     eggMoves: [
       "ANCIENTPOWER",
       "CURSE"
-    ]
+    ],
+    suffix: "normal"
   },
   {
     id: "EISCUE",
@@ -105209,7 +106083,7 @@ export const fakemons: Fakemon[] =
       "ICE"
     ],
     sprite: "/sprites/EISCUE.png",
-    artwork: "/artwork/eiscue.png",
+    artwork: "/sprites/EISCUE.png",
     description: "It drifted in on the flow of ocean waters from a frigid place. It keeps its head iced constantly to make sure it stays nice and cold.",
     stats: {
       hp: 75,
@@ -105305,7 +106179,8 @@ export const fakemons: Fakemon[] =
       "HEADSMASH",
       "ICICLECRASH",
       "SOAK"
-    ]
+    ],
+    suffix: "normal"
   },
   {
     id: "INDEEDEE",
@@ -105315,7 +106190,7 @@ export const fakemons: Fakemon[] =
       "NORMAL"
     ],
     sprite: "/sprites/INDEEDEE.png",
-    artwork: "/artwork/indeedee.png",
+    artwork: "/sprites/INDEEDEE.png",
     description: "It uses the horns on its head to sense the emotions of others. Males will act as valets for those they serve, looking after their every need.",
     stats: {
       hp: 60,
@@ -105414,7 +106289,8 @@ export const fakemons: Fakemon[] =
       "EXTRASENSORY",
       "FAKEOUT",
       "PSYCHUP"
-    ]
+    ],
+    suffix: "normal"
   },
   {
     id: "MORPEKO",
@@ -105424,7 +106300,7 @@ export const fakemons: Fakemon[] =
       "DARK"
     ],
     sprite: "/sprites/MORPEKO.png",
-    artwork: "/artwork/morpeko.png",
+    artwork: "/sprites/MORPEKO.png",
     description: "As it eats the seeds stored up in its pocket-like pouches, this Pokémon is not just satisfying its constant hunger. It's also generating electricity.",
     stats: {
       hp: 58,
@@ -105537,7 +106413,8 @@ export const fakemons: Fakemon[] =
       "SUPERFANG",
       "SWAGGER",
       "TICKLE"
-    ]
+    ],
+    suffix: "normal"
   },
   {
     id: "CUFANT",
@@ -105546,7 +106423,7 @@ export const fakemons: Fakemon[] =
       "STEEL"
     ],
     sprite: "/sprites/CUFANT.png",
-    artwork: "/artwork/cufant.png",
+    artwork: "/sprites/CUFANT.png",
     description: "It digs up the ground with its trunk. It's also very strong, being able to carry loads of over five tons without any problem at all.",
     stats: {
       hp: 72,
@@ -105646,7 +106523,8 @@ export const fakemons: Fakemon[] =
       "SLAM",
       "SWAGGER",
       "WHIRLWIND"
-    ]
+    ],
+    suffix: "normal"
   },
   {
     id: "COPPERAJAH",
@@ -105655,7 +106533,7 @@ export const fakemons: Fakemon[] =
       "STEEL"
     ],
     sprite: "/sprites/COPPERAJAH.png",
-    artwork: "/artwork/copperajah.png",
+    artwork: "/sprites/COPPERAJAH.png",
     description: "These Pokémon live in herds. Their trunks have incredible grip strength, strong enough to crush giant rocks into powder.",
     stats: {
       hp: 122,
@@ -105761,7 +106639,8 @@ export const fakemons: Fakemon[] =
     ],
     eggMoves: [
 
-    ]
+    ],
+    suffix: "normal"
   },
   {
     id: "DRACOZOLT",
@@ -105771,7 +106650,7 @@ export const fakemons: Fakemon[] =
       "DRAGON"
     ],
     sprite: "/sprites/DRACOZOLT.png",
-    artwork: "/artwork/dracozolt.png",
+    artwork: "/sprites/DRACOZOLT.png",
     description: "In ancient times, it was unbeatable thanks to its powerful lower body, but it went extinct anyway after it depleted all its plant-based food sources.",
     stats: {
       hp: 90,
@@ -105866,7 +106745,8 @@ export const fakemons: Fakemon[] =
     ],
     eggMoves: [
 
-    ]
+    ],
+    suffix: "normal"
   },
   {
     id: "ARCTOZOLT",
@@ -105876,7 +106756,7 @@ export const fakemons: Fakemon[] =
       "ICE"
     ],
     sprite: "/sprites/ARCTOZOLT.png",
-    artwork: "/artwork/arctozolt.png",
+    artwork: "/sprites/ARCTOZOLT.png",
     description: "The shaking of its freezing upper half is what generates its electricity. It has a hard time walking around.",
     stats: {
       hp: 90,
@@ -105968,7 +106848,8 @@ export const fakemons: Fakemon[] =
     ],
     eggMoves: [
 
-    ]
+    ],
+    suffix: "normal"
   },
   {
     id: "DRACOVISH",
@@ -105978,7 +106859,7 @@ export const fakemons: Fakemon[] =
       "DRAGON"
     ],
     sprite: "/sprites/DRACOVISH.png",
-    artwork: "/artwork/dracovish.png",
+    artwork: "/sprites/DRACOVISH.png",
     description: "Powerful legs and jaws made it the apex predator of its time. Its own overhunting of its prey was what drove it to extinction.",
     stats: {
       hp: 90,
@@ -106068,7 +106949,8 @@ export const fakemons: Fakemon[] =
     ],
     eggMoves: [
 
-    ]
+    ],
+    suffix: "normal"
   },
   {
     id: "ARCTOVISH",
@@ -106078,7 +106960,7 @@ export const fakemons: Fakemon[] =
       "ICE"
     ],
     sprite: "/sprites/ARCTOVISH.png",
-    artwork: "/artwork/arctovish.png",
+    artwork: "/sprites/ARCTOVISH.png",
     description: "Though it's able to capture prey by freezing its surroundings, it has trouble eating the prey afterward because its mouth is on top of its head.",
     stats: {
       hp: 90,
@@ -106163,7 +107045,8 @@ export const fakemons: Fakemon[] =
     ],
     eggMoves: [
 
-    ]
+    ],
+    suffix: "normal"
   },
   {
     id: "DURALUDON",
@@ -106173,7 +107056,7 @@ export const fakemons: Fakemon[] =
       "DRAGON"
     ],
     sprite: "/sprites/DURALUDON.png",
-    artwork: "/artwork/duraludon.png",
+    artwork: "/sprites/DURALUDON.png",
     description: "Its body resembles polished metal, and it's both lightweight and strong. The only drawback is that it rusts easily.",
     stats: {
       hp: 70,
@@ -106274,7 +107157,8 @@ export const fakemons: Fakemon[] =
       "MIRRORCOAT",
       "NIGHTSLASH",
       "SLASH"
-    ]
+    ],
+    suffix: "normal"
   },
   {
     id: "DREEPY",
@@ -106284,7 +107168,7 @@ export const fakemons: Fakemon[] =
       "GHOST"
     ],
     sprite: "/sprites/DREEPY.png",
-    artwork: "/artwork/dreepy.png",
+    artwork: "/sprites/DREEPY.png",
     description: "After being reborn as a ghost Pokémon, Dreepy wanders the areas it used to inhabit back when it was alive in prehistoric seas.",
     stats: {
       hp: 28,
@@ -106348,7 +107232,8 @@ export const fakemons: Fakemon[] =
       "DRAGONTAIL",
       "GRUDGE",
       "SUCKERPUNCH"
-    ]
+    ],
+    suffix: "normal"
   },
   {
     id: "DRAKLOAK",
@@ -106358,7 +107243,7 @@ export const fakemons: Fakemon[] =
       "GHOST"
     ],
     sprite: "/sprites/DRAKLOAK.png",
-    artwork: "/artwork/drakloak.png",
+    artwork: "/sprites/DRAKLOAK.png",
     description: "It's capable of flying faster than 120 mph. It battles alongside Dreepy and dotes on them until they successfully evolve.",
     stats: {
       hp: 68,
@@ -106462,7 +107347,8 @@ export const fakemons: Fakemon[] =
     ],
     eggMoves: [
 
-    ]
+    ],
+    suffix: "normal"
   },
   {
     id: "DRAGAPULT",
@@ -106472,7 +107358,7 @@ export const fakemons: Fakemon[] =
       "GHOST"
     ],
     sprite: "/sprites/DRAGAPULT.png",
-    artwork: "/artwork/dragapult.png",
+    artwork: "/sprites/DRAGAPULT.png",
     description: "When it isn't battling, it keeps Dreepy in the holes on its horns. Once a fight starts, it launches the Dreepy like supersonic missiles.",
     stats: {
       hp: 88,
@@ -106584,7 +107470,8 @@ export const fakemons: Fakemon[] =
     ],
     eggMoves: [
 
-    ]
+    ],
+    suffix: "normal"
   },
   {
     id: "ZACIAN",
@@ -106593,7 +107480,7 @@ export const fakemons: Fakemon[] =
       "FAIRY"
     ],
     sprite: "/sprites/ZACIAN.png",
-    artwork: "/artwork/zacian.png",
+    artwork: "/sprites/ZACIAN.png",
     description: "Known as a legendary hero, this Pokémon absorbs metal particles, transforming them into a weapon it uses to battle.",
     stats: {
       hp: 92,
@@ -106695,7 +107582,8 @@ export const fakemons: Fakemon[] =
     ],
     eggMoves: [
 
-    ]
+    ],
+    suffix: "normal"
   },
   {
     id: "ZAMAZENTA",
@@ -106704,7 +107592,7 @@ export const fakemons: Fakemon[] =
       "FIGHTING"
     ],
     sprite: "/sprites/ZAMAZENTA.png",
-    artwork: "/artwork/zamazenta.png",
+    artwork: "/sprites/ZAMAZENTA.png",
     description: "This Pokémon slept for aeons while in the form of a statue. It was asleep for so long, people forgot that it ever existed.",
     stats: {
       hp: 92,
@@ -106811,7 +107699,8 @@ export const fakemons: Fakemon[] =
     ],
     eggMoves: [
 
-    ]
+    ],
+    suffix: "normal"
   },
   {
     id: "ETERNATUS",
@@ -106821,7 +107710,7 @@ export const fakemons: Fakemon[] =
       "DRAGON"
     ],
     sprite: "/sprites/ETERNATUS.png",
-    artwork: "/artwork/eternatus.png",
+    artwork: "/sprites/ETERNATUS.png",
     description: "The core on its chest absorbs energy emanating from the lands of the Galar region. This energy is what allows Eternatus to stay active.",
     stats: {
       hp: 140,
@@ -106920,7 +107809,8 @@ export const fakemons: Fakemon[] =
     ],
     eggMoves: [
 
-    ]
+    ],
+    suffix: "normal"
   },
   {
     id: "KUBFU",
@@ -106929,7 +107819,7 @@ export const fakemons: Fakemon[] =
       "FIGHTING"
     ],
     sprite: "/sprites/KUBFU.png",
-    artwork: "/artwork/kubfu.png",
+    artwork: "/sprites/KUBFU.png",
     description: "Kubfu trains hard to perfect its moves. The moves it masters will determine which form it takes when it evolves.",
     stats: {
       hp: 60,
@@ -107020,7 +107910,8 @@ export const fakemons: Fakemon[] =
     ],
     eggMoves: [
 
-    ]
+    ],
+    suffix: "normal"
   },
   {
     id: "URSHIFU",
@@ -107030,7 +107921,7 @@ export const fakemons: Fakemon[] =
       "DARK"
     ],
     sprite: "/sprites/URSHIFU.png",
-    artwork: "/artwork/urshifu.png",
+    artwork: "/sprites/URSHIFU.png",
     description: "Inhabiting the mountains of a distant region, this Pokémon races across sheer cliffs, training its legs and refining its moves.",
     stats: {
       hp: 100,
@@ -107149,7 +108040,8 @@ export const fakemons: Fakemon[] =
     ],
     eggMoves: [
 
-    ]
+    ],
+    suffix: "normal"
   },
   {
     id: "ZARUDE",
@@ -107159,7 +108051,7 @@ export const fakemons: Fakemon[] =
       "GRASS"
     ],
     sprite: "/sprites/ZARUDE.png",
-    artwork: "/artwork/zarude.png",
+    artwork: "/sprites/ZARUDE.png",
     description: "Once the vines on Zarude's body tear off, they become nutrients in the soil. This helps the plants of the forest grow.",
     stats: {
       hp: 105,
@@ -107280,7 +108172,8 @@ export const fakemons: Fakemon[] =
     ],
     eggMoves: [
 
-    ]
+    ],
+    suffix: "normal"
   },
   {
     id: "REGIELEKI",
@@ -107289,7 +108182,7 @@ export const fakemons: Fakemon[] =
       "ELECTRIC"
     ],
     sprite: "/sprites/REGIELEKI.png",
-    artwork: "/artwork/regieleki.png",
+    artwork: "/sprites/REGIELEKI.png",
     description: "This Pokémon is a cluster of electrical energy. It's said that removing the rings on Regieleki's body will unleash the Pokémon's latent power.",
     stats: {
       hp: 80,
@@ -107374,7 +108267,8 @@ export const fakemons: Fakemon[] =
     ],
     eggMoves: [
 
-    ]
+    ],
+    suffix: "normal"
   },
   {
     id: "REGIDRAGO",
@@ -107383,7 +108277,7 @@ export const fakemons: Fakemon[] =
       "DRAGON"
     ],
     sprite: "/sprites/REGIDRAGO.png",
-    artwork: "/artwork/regidrago.png",
+    artwork: "/sprites/REGIDRAGO.png",
     description: "Its body is composed of crystallized dragon energy. Regidrago is said to have the powers of every dragon Pokémon.",
     stats: {
       hp: 200,
@@ -107464,7 +108358,8 @@ export const fakemons: Fakemon[] =
     ],
     eggMoves: [
 
-    ]
+    ],
+    suffix: "normal"
   },
   {
     id: "GLASTRIER",
@@ -107473,7 +108368,7 @@ export const fakemons: Fakemon[] =
       "ICE"
     ],
     sprite: "/sprites/GLASTRIER.png",
-    artwork: "/artwork/glastrier.png",
+    artwork: "/sprites/GLASTRIER.png",
     description: "Glastrier has tremendous physical strength, and the mask of ice covering its face is 100 times harder than diamond.",
     stats: {
       hp: 100,
@@ -107566,7 +108461,8 @@ export const fakemons: Fakemon[] =
     ],
     eggMoves: [
 
-    ]
+    ],
+    suffix: "normal"
   },
   {
     id: "SPECTRIER",
@@ -107575,7 +108471,7 @@ export const fakemons: Fakemon[] =
       "GHOST"
     ],
     sprite: "/sprites/SPECTRIER.png",
-    artwork: "/artwork/spectrier.png",
+    artwork: "/sprites/SPECTRIER.png",
     description: "As it dashes through the night, Spectrier absorbs the life-force of sleeping creatures. It craves silence and solitude.",
     stats: {
       hp: 100,
@@ -107666,7 +108562,8 @@ export const fakemons: Fakemon[] =
     ],
     eggMoves: [
 
-    ]
+    ],
+    suffix: "normal"
   },
   {
     id: "CALYREX",
@@ -107676,7 +108573,7 @@ export const fakemons: Fakemon[] =
       "GRASS"
     ],
     sprite: "/sprites/CALYREX.png",
-    artwork: "/artwork/calyrex.png",
+    artwork: "/sprites/CALYREX.png",
     description: "Calyrex is a merciful Pokémon, capable of providing healing and blessings. It reigned over the Galar region in times of yore.",
     stats: {
       hp: 100,
@@ -107787,7 +108684,8 @@ export const fakemons: Fakemon[] =
     ],
     eggMoves: [
 
-    ]
+    ],
+    suffix: "normal"
   },
   {
     id: "WYRDEER",
@@ -107797,7 +108695,7 @@ export const fakemons: Fakemon[] =
       "PSYCHIC"
     ],
     sprite: "/sprites/WYRDEER.png",
-    artwork: "/artwork/wyrdeer.png",
+    artwork: "/sprites/WYRDEER.png",
     description: "The black orbs shine with an uncanny light when the Pokémon is erecting invisible barriers. The fur shed from its beard retains heat well and is a highly useful material for winter clothing",
     stats: {
       hp: 103,
@@ -107895,7 +108793,8 @@ export const fakemons: Fakemon[] =
     ],
     eggMoves: [
 
-    ]
+    ],
+    suffix: "normal"
   },
   {
     id: "KLEAVOR",
@@ -107905,7 +108804,7 @@ export const fakemons: Fakemon[] =
       "ROCK"
     ],
     sprite: "/sprites/KLEAVOR.png",
-    artwork: "/artwork/kleavor.png",
+    artwork: "/sprites/KLEAVOR.png",
     description: "This Pokémon is a rough, crude, and violent sort. It swings around its large, heavy stone axes to finish off its prey.",
     stats: {
       hp: 70,
@@ -107993,7 +108892,8 @@ export const fakemons: Fakemon[] =
     ],
     eggMoves: [
 
-    ]
+    ],
+    suffix: "normal"
   },
   {
     id: "URSALUNA",
@@ -108003,7 +108903,7 @@ export const fakemons: Fakemon[] =
       "NORMAL"
     ],
     sprite: "/sprites/URSALUNA.png",
-    artwork: "/artwork/ursaluna.png",
+    artwork: "/sprites/URSALUNA.png",
     description: "The swampy terrain that Ursaluna lives in gave Ursaluna its burly physique and newfound capacity to manipulate peat at will.",
     stats: {
       hp: 130,
@@ -108108,7 +109008,8 @@ export const fakemons: Fakemon[] =
     ],
     eggMoves: [
 
-    ]
+    ],
+    suffix: "normal"
   },
   {
     id: "BASCULEGION",
@@ -108118,7 +109019,7 @@ export const fakemons: Fakemon[] =
       "GHOST"
     ],
     sprite: "/sprites/BASCULEGION.png",
-    artwork: "/artwork/basculegion.png",
+    artwork: "/sprites/BASCULEGION.png",
     description: "This Pokémon is cloaked in the souls of its comrades who perished during a punishing journey to the river of their birth.",
     stats: {
       hp: 120,
@@ -108207,7 +109108,8 @@ export const fakemons: Fakemon[] =
     ],
     eggMoves: [
 
-    ]
+    ],
+    suffix: "normal"
   },
   {
     id: "SNEASLER",
@@ -108217,7 +109119,7 @@ export const fakemons: Fakemon[] =
       "POISON"
     ],
     sprite: "/sprites/SNEASLER.png",
-    artwork: "/artwork/sneasler.png",
+    artwork: "/sprites/SNEASLER.png",
     description: "Because of Sneasler's virulent poison and daunting physical prowess, no other species could hope to best it on the frozen highlands. Preferring solitude, this species does not form packs.",
     stats: {
       hp: 80,
@@ -108315,7 +109217,8 @@ export const fakemons: Fakemon[] =
     ],
     eggMoves: [
 
-    ]
+    ],
+    suffix: "normal"
   },
   {
     id: "OVERQWIL",
@@ -108325,7 +109228,7 @@ export const fakemons: Fakemon[] =
       "POISON"
     ],
     sprite: "/sprites/OVERQWIL.png",
-    artwork: "/artwork/overqwil.png",
+    artwork: "/sprites/OVERQWIL.png",
     description: "Overqwil's poisonous spikes will reflexively react even while Overqwil sleeps, stabbing any moving thing that approaches.",
     stats: {
       hp: 85,
@@ -108419,7 +109322,8 @@ export const fakemons: Fakemon[] =
     ],
     eggMoves: [
 
-    ]
+    ],
+    suffix: "normal"
   },
   {
     id: "ENAMORUS",
@@ -108429,7 +109333,7 @@ export const fakemons: Fakemon[] =
       "FLYING"
     ],
     sprite: "/sprites/ENAMORUS.png",
-    artwork: "/artwork/enamorus.png",
+    artwork: "/sprites/ENAMORUS.png",
     description: "When it flies to this land from across the sea, the bitter winter comes to an end. According to legend, this Pokémon's love gives rise to the budding of fresh life across Hisui.",
     stats: {
       hp: 74,
@@ -108511,7 +109415,8 @@ export const fakemons: Fakemon[] =
     ],
     eggMoves: [
 
-    ]
+    ],
+    suffix: "normal"
   },
   {
     id: "SPRIGATITO",
@@ -108520,7 +109425,7 @@ export const fakemons: Fakemon[] =
       "GRASS"
     ],
     sprite: "/sprites/SPRIGATITO.png",
-    artwork: "/artwork/sprigatito.png",
+    artwork: "/sprites/SPRIGATITO.png",
     description: "The sweet scent its body gives off mesmerizes those around it. The scent grows stronger when this Pokémon is in the sun.",
     stats: {
       hp: 40,
@@ -108596,7 +109501,8 @@ export const fakemons: Fakemon[] =
       "LEECHSEED",
       "PETALBLIZZARD",
       "SUCKERPUNCH"
-    ]
+    ],
+    suffix: "normal"
   },
   {
     id: "FLORAGATO",
@@ -108605,7 +109511,7 @@ export const fakemons: Fakemon[] =
       "GRASS"
     ],
     sprite: "/sprites/FLORAGATO.png",
-    artwork: "/artwork/floragato.png",
+    artwork: "/sprites/FLORAGATO.png",
     description: "Floragato deftly wields the vine hidden beneath its long fur, slamming the hard flower bud against its opponents.",
     stats: {
       hp: 61,
@@ -108683,7 +109589,8 @@ export const fakemons: Fakemon[] =
     ],
     eggMoves: [
 
-    ]
+    ],
+    suffix: "normal"
   },
   {
     id: "MEOWSCARADA",
@@ -108693,7 +109600,7 @@ export const fakemons: Fakemon[] =
       "DARK"
     ],
     sprite: "/sprites/MEOWSCARADA.png",
-    artwork: "/artwork/meowscarada.png",
+    artwork: "/sprites/MEOWSCARADA.png",
     description: "This Pokémon uses the reflective fur lining in its cape to camouflage the stem of its flower, creating the illusion that the flower is floating.",
     stats: {
       hp: 76,
@@ -108799,7 +109706,8 @@ export const fakemons: Fakemon[] =
     ],
     eggMoves: [
 
-    ]
+    ],
+    suffix: "normal"
   },
   {
     id: "FUECOCO",
@@ -108808,7 +109716,7 @@ export const fakemons: Fakemon[] =
       "FIRE"
     ],
     sprite: "/sprites/FUECOCO.png",
-    artwork: "/artwork/fuecoco.png",
+    artwork: "/sprites/FUECOCO.png",
     description: "Its flame sac is small, so energy is always leaking out. This energy is released from the dent atop Fuecoco's head and flickers to and fro.",
     stats: {
       hp: 67,
@@ -108884,7 +109792,8 @@ export const fakemons: Fakemon[] =
       "CURSE",
       "ENCORE",
       "SLACKOFF"
-    ]
+    ],
+    suffix: "normal"
   },
   {
     id: "CROCALOR",
@@ -108893,7 +109802,7 @@ export const fakemons: Fakemon[] =
       "FIRE"
     ],
     sprite: "/sprites/CROCALOR.png",
-    artwork: "/artwork/crocalor.png",
+    artwork: "/sprites/CROCALOR.png",
     description: "The combination of Crocalor's fire energy and overflowing vitality has caused an egg-shaped fireball to appear on the Pokémon's head.",
     stats: {
       hp: 81,
@@ -108968,7 +109877,8 @@ export const fakemons: Fakemon[] =
     ],
     eggMoves: [
 
-    ]
+    ],
+    suffix: "normal"
   },
   {
     id: "SKELEDIRGE",
@@ -108978,7 +109888,7 @@ export const fakemons: Fakemon[] =
       "GHOST"
     ],
     sprite: "/sprites/SKELEDIRGE.png",
-    artwork: "/artwork/skeledirge.png",
+    artwork: "/sprites/SKELEDIRGE.png",
     description: "The fiery bird changes shape when Skeledirge sings. Rumor has it that the bird was born when the fireball on Skeledirge's head gained a soul.",
     stats: {
       hp: 104,
@@ -109075,7 +109985,8 @@ export const fakemons: Fakemon[] =
     ],
     eggMoves: [
 
-    ]
+    ],
+    suffix: "normal"
   },
   {
     id: "QUAXLY",
@@ -109084,7 +109995,7 @@ export const fakemons: Fakemon[] =
       "WATER"
     ],
     sprite: "/sprites/QUAXLY.png",
-    artwork: "/artwork/quaxly.png",
+    artwork: "/sprites/QUAXLY.png",
     description: "Its strong legs let it easily swim around in even fast-flowing rivers. It likes to keep things tidy and is prone to overthinking things.",
     stats: {
       hp: 55,
@@ -109152,7 +110063,8 @@ export const fakemons: Fakemon[] =
       "LASTRESORT",
       "RAPIDSPIN",
       "ROOST"
-    ]
+    ],
+    suffix: "normal"
   },
   {
     id: "QUAXWELL",
@@ -109161,7 +110073,7 @@ export const fakemons: Fakemon[] =
       "WATER"
     ],
     sprite: "/sprites/QUAXWELL.png",
-    artwork: "/artwork/quaxwell.png",
+    artwork: "/sprites/QUAXWELL.png",
     description: "These Pokémon constantly run through shallow waters to train their legs, then compete with each other to see which of them kicks most gracefully.",
     stats: {
       hp: 70,
@@ -109234,7 +110146,8 @@ export const fakemons: Fakemon[] =
     ],
     eggMoves: [
 
-    ]
+    ],
+    suffix: "normal"
   },
   {
     id: "QUAQUAVAL",
@@ -109244,7 +110157,7 @@ export const fakemons: Fakemon[] =
       "FIGHTING"
     ],
     sprite: "/sprites/QUAQUAVAL.png",
-    artwork: "/artwork/quaquaval.png",
+    artwork: "/sprites/QUAQUAVAL.png",
     description: "A single kick from a Quaquaval can send a truck rolling. This Pokémon uses its powerful legs to perform striking dances from far-off lands.",
     stats: {
       hp: 85,
@@ -109341,7 +110254,8 @@ export const fakemons: Fakemon[] =
     ],
     eggMoves: [
 
-    ]
+    ],
+    suffix: "normal"
   },
   {
     id: "LECHONK",
@@ -109350,7 +110264,7 @@ export const fakemons: Fakemon[] =
       "NORMAL"
     ],
     sprite: "/sprites/LECHONK.png",
-    artwork: "/artwork/lechonk.png",
+    artwork: "/sprites/LECHONK.png",
     description: "It searches for food all day. It possesses a keen sense of smell but doesn't use it for anything other than foraging.",
     stats: {
       hp: 54,
@@ -109424,7 +110338,8 @@ export const fakemons: Fakemon[] =
       "STOCKPILE",
       "STUFFCHEEKS",
       "SWALLOW"
-    ]
+    ],
+    suffix: "normal"
   },
   {
     id: "OINKOLOGNE",
@@ -109433,7 +110348,7 @@ export const fakemons: Fakemon[] =
       "NORMAL"
     ],
     sprite: "/sprites/OINKOLOGNE.png",
-    artwork: "/artwork/oinkologne.png",
+    artwork: "/sprites/OINKOLOGNE.png",
     description: "Oinkologne is proud of its fine, glossy skin. It emits a concentrated scent from the tip of its tail.",
     stats: {
       hp: 110,
@@ -109513,7 +110428,8 @@ export const fakemons: Fakemon[] =
     ],
     eggMoves: [
 
-    ]
+    ],
+    suffix: "normal"
   },
   {
     id: "TAROUNTULA",
@@ -109522,7 +110438,7 @@ export const fakemons: Fakemon[] =
       "BUG"
     ],
     sprite: "/sprites/TAROUNTULA.png",
-    artwork: "/artwork/tarountula.png",
+    artwork: "/sprites/TAROUNTULA.png",
     description: "The thread it secretes from its rear is as strong as wire. The secret behind the thread's strength is the topic of ongoing research.",
     stats: {
       hp: 35,
@@ -109595,7 +110511,8 @@ export const fakemons: Fakemon[] =
       "LUNGE",
       "MEMENTO",
       "SUCKERPUNCH"
-    ]
+    ],
+    suffix: "normal"
   },
   {
     id: "SPIDOPS",
@@ -109604,7 +110521,7 @@ export const fakemons: Fakemon[] =
       "BUG"
     ],
     sprite: "/sprites/SPIDOPS.png",
-    artwork: "/artwork/spidops.png",
+    artwork: "/sprites/SPIDOPS.png",
     description: "It clings to branches and ceilings using its threads and moves without a sound. It takes out its prey before the prey even notices it.",
     stats: {
       hp: 60,
@@ -109688,7 +110605,8 @@ export const fakemons: Fakemon[] =
     ],
     eggMoves: [
 
-    ]
+    ],
+    suffix: "normal"
   },
   {
     id: "NYMBLE",
@@ -109697,7 +110615,7 @@ export const fakemons: Fakemon[] =
       "BUG"
     ],
     sprite: "/sprites/NYMBLE.png",
-    artwork: "/artwork/nymble.png",
+    artwork: "/sprites/NYMBLE.png",
     description: "It has its third set of legs folded up. When it's in a tough spot, this Pokémon jumps over 30 feet using the strength of its legs.",
     stats: {
       hp: 33,
@@ -109757,7 +110675,8 @@ export const fakemons: Fakemon[] =
     eggMoves: [
       "COUNTER",
       "SKITTERSMACK"
-    ]
+    ],
+    suffix: "normal"
   },
   {
     id: "LOKIX",
@@ -109767,7 +110686,7 @@ export const fakemons: Fakemon[] =
       "DARK"
     ],
     sprite: "/sprites/LOKIX.png",
-    artwork: "/artwork/lokix.png",
+    artwork: "/sprites/LOKIX.png",
     description: "When it decides to fight all out, it stands on its previously folded legs to enter Showdown Mode. It neutralizes its enemies in short order.",
     stats: {
       hp: 71,
@@ -109849,7 +110768,8 @@ export const fakemons: Fakemon[] =
     ],
     eggMoves: [
 
-    ]
+    ],
+    suffix: "normal"
   },
   {
     id: "PAWMI",
@@ -109858,7 +110778,7 @@ export const fakemons: Fakemon[] =
       "ELECTRIC"
     ],
     sprite: "/sprites/PAWMI.png",
-    artwork: "/artwork/pawmi.png",
+    artwork: "/sprites/PAWMI.png",
     description: "It has underdeveloped electric sacs on its cheeks. These sacs can produce electricity only if Pawmi rubs them furiously with the pads on its forepaws.",
     stats: {
       hp: 45,
@@ -109937,7 +110857,8 @@ export const fakemons: Fakemon[] =
       "MACHPUNCH",
       "SWEETKISS",
       "WISH"
-    ]
+    ],
+    suffix: "normal"
   },
   {
     id: "PAWMO",
@@ -109947,7 +110868,7 @@ export const fakemons: Fakemon[] =
       "FIGHTING"
     ],
     sprite: "/sprites/PAWMO.png",
-    artwork: "/artwork/pawmo.png",
+    artwork: "/sprites/PAWMO.png",
     description: "When its group is attacked, Pawmo is the first to leap into battle, defeating enemies with a fighting technique that utilizes electric shocks.",
     stats: {
       hp: 60,
@@ -110031,7 +110952,8 @@ export const fakemons: Fakemon[] =
     ],
     eggMoves: [
 
-    ]
+    ],
+    suffix: "normal"
   },
   {
     id: "PAWMOT",
@@ -110041,7 +110963,7 @@ export const fakemons: Fakemon[] =
       "FIGHTING"
     ],
     sprite: "/sprites/PAWMOT.png",
-    artwork: "/artwork/pawmot.png",
+    artwork: "/sprites/PAWMOT.png",
     description: "This Pokémon normally is slow to react, but once it enters battle, it will strike down its enemies with lightning-fast movements.",
     stats: {
       hp: 70,
@@ -110144,7 +111066,8 @@ export const fakemons: Fakemon[] =
     ],
     eggMoves: [
 
-    ]
+    ],
+    suffix: "normal"
   },
   {
     id: "TANDEMAUS",
@@ -110153,7 +111076,7 @@ export const fakemons: Fakemon[] =
       "NORMAL"
     ],
     sprite: "/sprites/TANDEMAUS.png",
-    artwork: "/artwork/tandemaus.png",
+    artwork: "/sprites/TANDEMAUS.png",
     description: "Exhibiting great teamwork, they use their incisors to cut pieces out of any material that might be useful for a nest, then make off with them.",
     stats: {
       hp: 50,
@@ -110235,7 +111158,8 @@ export const fakemons: Fakemon[] =
       "FEINT",
       "SWITCHEROO",
       "TICKLE"
-    ]
+    ],
+    suffix: "normal"
   },
   {
     id: "MAUSHOLD",
@@ -110244,7 +111168,7 @@ export const fakemons: Fakemon[] =
       "NORMAL"
     ],
     sprite: "/sprites/MAUSHOLD.png",
-    artwork: "/artwork/maushold.png",
+    artwork: "/sprites/MAUSHOLD.png",
     description: "The two little ones just appeared one day. The group might be a family of related Pokémon, but nobody knows for sure.",
     stats: {
       hp: 74,
@@ -110327,7 +111251,8 @@ export const fakemons: Fakemon[] =
     ],
     eggMoves: [
 
-    ]
+    ],
+    suffix: "normal"
   },
   {
     id: "FIDOUGH",
@@ -110336,7 +111261,7 @@ export const fakemons: Fakemon[] =
       "FAIRY"
     ],
     sprite: "/sprites/FIDOUGH.png",
-    artwork: "/artwork/fidough.png",
+    artwork: "/sprites/FIDOUGH.png",
     description: "This Pokémon is smooth and moist to the touch. Yeast in Fidough's breath induces fermentation in the Pokémon's vicinity.",
     stats: {
       hp: 37,
@@ -110414,7 +111339,8 @@ export const fakemons: Fakemon[] =
       "SWEETSCENT",
       "WISH",
       "YAWN"
-    ]
+    ],
+    suffix: "normal"
   },
   {
     id: "DACHSBUN",
@@ -110423,7 +111349,7 @@ export const fakemons: Fakemon[] =
       "FAIRY"
     ],
     sprite: "/sprites/DACHSBUN.png",
-    artwork: "/artwork/dachsbun.png",
+    artwork: "/sprites/DACHSBUN.png",
     description: "The pleasant aroma that emanates from this Pokémon's body helps wheat grow, so Dachsbun has been treasured by farming villages.",
     stats: {
       hp: 57,
@@ -110502,7 +111428,8 @@ export const fakemons: Fakemon[] =
     ],
     eggMoves: [
 
-    ]
+    ],
+    suffix: "normal"
   },
   {
     id: "SMOLIV",
@@ -110512,7 +111439,7 @@ export const fakemons: Fakemon[] =
       "NORMAL"
     ],
     sprite: "/sprites/SMOLIV.png",
-    artwork: "/artwork/smoliv.png",
+    artwork: "/sprites/SMOLIV.png",
     description: "It protects itself from enemies by emitting oil from the fruit on its head. This oil is bitter and astringent enough to make someone flinch.",
     stats: {
       hp: 41,
@@ -110577,7 +111504,8 @@ export const fakemons: Fakemon[] =
       "STRENGTHSAP",
       "SYNTHESIS",
       "WEATHERBALL"
-    ]
+    ],
+    suffix: "normal"
   },
   {
     id: "DOLLIV",
@@ -110587,7 +111515,7 @@ export const fakemons: Fakemon[] =
       "NORMAL"
     ],
     sprite: "/sprites/DOLLIV.png",
-    artwork: "/artwork/dolliv.png",
+    artwork: "/sprites/DOLLIV.png",
     description: "It basks in the sun to its heart's content until the fruits on its head ripen. After that, Dolliv departs from human settlements and goes on a journey.",
     stats: {
       hp: 52,
@@ -110649,7 +111577,8 @@ export const fakemons: Fakemon[] =
     ],
     eggMoves: [
 
-    ]
+    ],
+    suffix: "normal"
   },
   {
     id: "ARBOLIVA",
@@ -110659,7 +111588,7 @@ export const fakemons: Fakemon[] =
       "NORMAL"
     ],
     sprite: "/sprites/ARBOLIVA.png",
-    artwork: "/artwork/arboliva.png",
+    artwork: "/sprites/ARBOLIVA.png",
     description: "This calm Pokémon is very compassionate. It will share its delicious, nutrient-rich oil with weakened Pokémon.",
     stats: {
       hp: 78,
@@ -110738,7 +111667,8 @@ export const fakemons: Fakemon[] =
     ],
     eggMoves: [
 
-    ]
+    ],
+    suffix: "normal"
   },
   {
     id: "SQUAWKABILLY",
@@ -110748,7 +111678,7 @@ export const fakemons: Fakemon[] =
       "FLYING"
     ],
     sprite: "/sprites/SQUAWKABILLY.png",
-    artwork: "/artwork/squawkabilly.png",
+    artwork: "/sprites/SQUAWKABILLY.png",
     description: "These Pokémon prefer to live in cities. They form flocks based on the color of their feathers, and they fight over territory.",
     stats: {
       hp: 82,
@@ -110828,7 +111758,8 @@ export const fakemons: Fakemon[] =
       "FINALGAMBIT",
       "FLATTER",
       "PARTINGSHOT"
-    ]
+    ],
+    suffix: "normal"
   },
   {
     id: "NACLI",
@@ -110837,7 +111768,7 @@ export const fakemons: Fakemon[] =
       "ROCK"
     ],
     sprite: "/sprites/NACLI.png",
-    artwork: "/artwork/nacli.png",
+    artwork: "/sprites/NACLI.png",
     description: "The ground scrapes its body as it travels, causing it to leave salt behind. Salt is constantly being created and replenished inside Nacli's body.",
     stats: {
       hp: 55,
@@ -110911,7 +111842,8 @@ export const fakemons: Fakemon[] =
       "CURSE",
       "FISSURE",
       "POWERGEM"
-    ]
+    ],
+    suffix: "normal"
   },
   {
     id: "NACLSTACK",
@@ -110920,7 +111852,7 @@ export const fakemons: Fakemon[] =
       "ROCK"
     ],
     sprite: "/sprites/NACLSTACK.png",
-    artwork: "/artwork/naclstack.png",
+    artwork: "/sprites/NACLSTACK.png",
     description: "This Pokémon dry cures its prey by spraying salt over them. The curing process steals away the water in the prey's body.",
     stats: {
       hp: 60,
@@ -110996,7 +111928,8 @@ export const fakemons: Fakemon[] =
     ],
     eggMoves: [
 
-    ]
+    ],
+    suffix: "normal"
   },
   {
     id: "GARGANACL",
@@ -111005,7 +111938,7 @@ export const fakemons: Fakemon[] =
       "ROCK"
     ],
     sprite: "/sprites/GARGANACL.png",
-    artwork: "/artwork/garganacl.png",
+    artwork: "/sprites/GARGANACL.png",
     description: "Garganacl will rub its fingertips together and sprinkle injured Pokémon with salt. Even severe wounds will promptly heal afterward.",
     stats: {
       hp: 100,
@@ -111096,7 +112029,8 @@ export const fakemons: Fakemon[] =
     ],
     eggMoves: [
 
-    ]
+    ],
+    suffix: "normal"
   },
   {
     id: "CHARCADET",
@@ -111105,7 +112039,7 @@ export const fakemons: Fakemon[] =
       "FIRE"
     ],
     sprite: "/sprites/CHARCADET.png",
-    artwork: "/artwork/charcadet.png",
+    artwork: "/sprites/CHARCADET.png",
     description: "Burnt charcoal came to life and became a Pokémon. Possessing a fiery fighting spirit, Charcadet will battle even tough opponents.",
     stats: {
       hp: 40,
@@ -111163,7 +112097,8 @@ export const fakemons: Fakemon[] =
       "DESTINYBOND",
       "DISABLE",
       "SPITE"
-    ]
+    ],
+    suffix: "normal"
   },
   {
     id: "ARMAROUGE",
@@ -111173,7 +112108,7 @@ export const fakemons: Fakemon[] =
       "PSYCHIC"
     ],
     sprite: "/sprites/ARMAROUGE.png",
-    artwork: "/artwork/armarouge.png",
+    artwork: "/sprites/ARMAROUGE.png",
     description: "Armarouge evolved through the use of a set of armor that belonged to a distinguished warrior. This Pokémon is incredibly loyal.",
     stats: {
       hp: 85,
@@ -111264,7 +112199,8 @@ export const fakemons: Fakemon[] =
     ],
     eggMoves: [
 
-    ]
+    ],
+    suffix: "normal"
   },
   {
     id: "CERULEDGE",
@@ -111274,7 +112210,7 @@ export const fakemons: Fakemon[] =
       "GHOST"
     ],
     sprite: "/sprites/CERULEDGE.png",
-    artwork: "/artwork/ceruledge.png",
+    artwork: "/sprites/CERULEDGE.png",
     description: "An old set of armor steeped in grudges caused this Pokémon's evolution. Ceruledge cuts its enemies to pieces without mercy.",
     stats: {
       hp: 75,
@@ -111365,7 +112301,8 @@ export const fakemons: Fakemon[] =
     ],
     eggMoves: [
 
-    ]
+    ],
+    suffix: "normal"
   },
   {
     id: "TADBULB",
@@ -111374,7 +112311,7 @@ export const fakemons: Fakemon[] =
       "ELECTRIC"
     ],
     sprite: "/sprites/TADBULB.png",
-    artwork: "/artwork/tadbulb.png",
+    artwork: "/sprites/TADBULB.png",
     description: "It floats using the electricity stored in its body. When thunderclouds are around, Tadbulb will float higher off the ground.",
     stats: {
       hp: 61,
@@ -111445,7 +112382,8 @@ export const fakemons: Fakemon[] =
       "MUDDYWATER",
       "PARABOLICCHARGE",
       "SOAK"
-    ]
+    ],
+    suffix: "normal"
   },
   {
     id: "BELLIBOLT",
@@ -111454,7 +112392,7 @@ export const fakemons: Fakemon[] =
       "ELECTRIC"
     ],
     sprite: "/sprites/BELLIBOLT.png",
-    artwork: "/artwork/bellibolt.png",
+    artwork: "/sprites/BELLIBOLT.png",
     description: "When this Pokémon expands and contracts its wobbly body, the belly-button dynamo in its stomach produces a huge amount of electricity.",
     stats: {
       hp: 109,
@@ -111528,7 +112466,8 @@ export const fakemons: Fakemon[] =
     ],
     eggMoves: [
 
-    ]
+    ],
+    suffix: "normal"
   },
   {
     id: "WATTREL",
@@ -111538,7 +112477,7 @@ export const fakemons: Fakemon[] =
       "FLYING"
     ],
     sprite: "/sprites/WATTREL.png",
-    artwork: "/artwork/wattrel.png",
+    artwork: "/sprites/WATTREL.png",
     description: "When its wings catch the wind, the bones within produce electricity. This Pokémon dives into the ocean, catching prey by electrocuting them.",
     stats: {
       hp: 40,
@@ -111616,7 +112555,8 @@ export const fakemons: Fakemon[] =
       "STOCKPILE",
       "SWALLOW",
       "WEATHERBALL"
-    ]
+    ],
+    suffix: "normal"
   },
   {
     id: "KILOWATTREL",
@@ -111626,7 +112566,7 @@ export const fakemons: Fakemon[] =
       "FLYING"
     ],
     sprite: "/sprites/KILOWATTREL.png",
-    artwork: "/artwork/kilowattrel.png",
+    artwork: "/sprites/KILOWATTREL.png",
     description: "It uses its throat sac to store electricity generated by its wings. There's hardly any oil in its feathers, so it is a poor swimmer.",
     stats: {
       hp: 70,
@@ -111705,7 +112645,8 @@ export const fakemons: Fakemon[] =
     ],
     eggMoves: [
 
-    ]
+    ],
+    suffix: "normal"
   },
   {
     id: "MASCHIFF",
@@ -111714,7 +112655,7 @@ export const fakemons: Fakemon[] =
       "DARK"
     ],
     sprite: "/sprites/MASCHIFF.png",
-    artwork: "/artwork/maschiff.png",
+    artwork: "/sprites/MASCHIFF.png",
     description: "Its well-developed jaw and fangs are strong enough to crunch through boulders, and its thick fat makes for an excellent defense.",
     stats: {
       hp: 60,
@@ -111790,7 +112731,8 @@ export const fakemons: Fakemon[] =
       "ENDEAVOR",
       "PLAYROUGH",
       "RETALIATE"
-    ]
+    ],
+    suffix: "normal"
   },
   {
     id: "MABOSSTIFF",
@@ -111799,7 +112741,7 @@ export const fakemons: Fakemon[] =
       "DARK"
     ],
     sprite: "/sprites/MABOSSTIFF.png",
-    artwork: "/artwork/mabosstiff.png",
+    artwork: "/sprites/MABOSSTIFF.png",
     description: "Mabosstiff loves playing with children. Though usually gentle, it takes on an intimidating look when protecting its family.",
     stats: {
       hp: 80,
@@ -111882,7 +112824,8 @@ export const fakemons: Fakemon[] =
     ],
     eggMoves: [
 
-    ]
+    ],
+    suffix: "normal"
   },
   {
     id: "SHROODLE",
@@ -111892,7 +112835,7 @@ export const fakemons: Fakemon[] =
       "NORMAL"
     ],
     sprite: "/sprites/SHROODLE.png",
-    artwork: "/artwork/shroodle.png",
+    artwork: "/sprites/SHROODLE.png",
     description: "Though usually a mellow Pokémon, it will sink its sharp, poison-soaked front teeth into any that anger it, causing paralysis in the object of its ire.",
     stats: {
       hp: 40,
@@ -111979,7 +112922,8 @@ export const fakemons: Fakemon[] =
       "SUPERFANG",
       "SWAGGER",
       "TOXIC"
-    ]
+    ],
+    suffix: "normal"
   },
   {
     id: "GRAFAIAI",
@@ -111989,7 +112933,7 @@ export const fakemons: Fakemon[] =
       "NORMAL"
     ],
     sprite: "/sprites/GRAFAIAI.png",
-    artwork: "/artwork/grafaiai.png",
+    artwork: "/sprites/GRAFAIAI.png",
     description: "The color of the poisonous saliva depends on what the Pokémon eats. Grafaiai covers its fingers in its saliva and draws patterns on trees in forests.",
     stats: {
       hp: 63,
@@ -112078,7 +113022,8 @@ export const fakemons: Fakemon[] =
     ],
     eggMoves: [
 
-    ]
+    ],
+    suffix: "normal"
   },
   {
     id: "BRAMBLIN",
@@ -112088,7 +113033,7 @@ export const fakemons: Fakemon[] =
       "GHOST"
     ],
     sprite: "/sprites/BRAMBLIN.png",
-    artwork: "/artwork/bramblin.png",
+    artwork: "/sprites/BRAMBLIN.png",
     description: "A soul unable to move on to the afterlife was blown around by the wind until it got tangled up with dried grass and became a Pokémon.",
     stats: {
       hp: 40,
@@ -112162,7 +113107,8 @@ export const fakemons: Fakemon[] =
       "LEECHSEED",
       "SHADOWSNEAK",
       "STRENGTHSAP"
-    ]
+    ],
+    suffix: "normal"
   },
   {
     id: "BRAMBLEGHAST",
@@ -112172,7 +113118,7 @@ export const fakemons: Fakemon[] =
       "GHOST"
     ],
     sprite: "/sprites/BRAMBLEGHAST.png",
-    artwork: "/artwork/brambleghast.png",
+    artwork: "/sprites/BRAMBLEGHAST.png",
     description: "It will open the branches of its head to envelop its prey. Once it absorbs all the life energy it needs, it expels the prey and discards it.",
     stats: {
       hp: 55,
@@ -112245,7 +113191,8 @@ export const fakemons: Fakemon[] =
     ],
     eggMoves: [
 
-    ]
+    ],
+    suffix: "normal"
   },
   {
     id: "TOEDSCOOL",
@@ -112255,7 +113202,7 @@ export const fakemons: Fakemon[] =
       "GRASS"
     ],
     sprite: "/sprites/TOEDSCOOL.png",
-    artwork: "/artwork/toedscool.png",
+    artwork: "/sprites/TOEDSCOOL.png",
     description: "Toedscool lives in muggy forests. The flaps that fall from its body are chewy and very delicious.",
     stats: {
       hp: 40,
@@ -112345,7 +113292,8 @@ export const fakemons: Fakemon[] =
       "RAPIDSPIN",
       "TICKLE",
       "TOXIC"
-    ]
+    ],
+    suffix: "normal"
   },
   {
     id: "TOEDSCRUEL",
@@ -112355,7 +113303,7 @@ export const fakemons: Fakemon[] =
       "GRASS"
     ],
     sprite: "/sprites/TOEDSCRUEL.png",
-    artwork: "/artwork/toedscruel.png",
+    artwork: "/sprites/TOEDSCRUEL.png",
     description: "These Pokémon gather into groups and form colonies deep within forests. They absolutely hate it when strangers approach.",
     stats: {
       hp: 80,
@@ -112442,7 +113390,8 @@ export const fakemons: Fakemon[] =
     ],
     eggMoves: [
 
-    ]
+    ],
+    suffix: "normal"
   },
   {
     id: "KLAWF",
@@ -112451,7 +113400,7 @@ export const fakemons: Fakemon[] =
       "ROCK"
     ],
     sprite: "/sprites/KLAWF.png",
-    artwork: "/artwork/klawf.png",
+    artwork: "/sprites/KLAWF.png",
     description: "Klawf hangs upside-down from cliffs, waiting for prey. But Klawf can't remain in this position for long because its blood rushes to its head.",
     stats: {
       hp: 70,
@@ -112541,7 +113490,8 @@ export const fakemons: Fakemon[] =
       "CRABHAMMER",
       "ENDEAVOR",
       "KNOCKOFF"
-    ]
+    ],
+    suffix: "normal"
   },
   {
     id: "CAPSAKID",
@@ -112550,7 +113500,7 @@ export const fakemons: Fakemon[] =
       "GRASS"
     ],
     sprite: "/sprites/CAPSAKID.png",
-    artwork: "/artwork/capsakid.png",
+    artwork: "/sprites/CAPSAKID.png",
     description: "The more sunlight this Pokémon bathes in, the more spicy chemicals are produced by its body, and thus the spicier its moves become.",
     stats: {
       hp: 50,
@@ -112620,7 +113570,8 @@ export const fakemons: Fakemon[] =
       "RAGEPOWDER",
       "ROLLOUT",
       "WORRYSEED"
-    ]
+    ],
+    suffix: "normal"
   },
   {
     id: "SCOVILLAIN",
@@ -112630,7 +113581,7 @@ export const fakemons: Fakemon[] =
       "FIRE"
     ],
     sprite: "/sprites/SCOVILLAIN.png",
-    artwork: "/artwork/scovillain.png",
+    artwork: "/sprites/SCOVILLAIN.png",
     description: "The red head converts spicy chemicals into fire energy and blasts the surrounding area with a super spicy stream of flame.",
     stats: {
       hp: 65,
@@ -112712,7 +113663,8 @@ export const fakemons: Fakemon[] =
     ],
     eggMoves: [
 
-    ]
+    ],
+    suffix: "normal"
   },
   {
     id: "RELLOR",
@@ -112721,7 +113673,7 @@ export const fakemons: Fakemon[] =
       "BUG"
     ],
     sprite: "/sprites/RELLOR.png",
-    artwork: "/artwork/rellor.png",
+    artwork: "/sprites/RELLOR.png",
     description: "This Pokémon creates a mud ball by mixing sand and dirt with psychic energy. It treasures its mud ball more than its own life.",
     stats: {
       hp: 41,
@@ -112785,7 +113737,8 @@ export const fakemons: Fakemon[] =
       "MEMENTO",
       "RECOVER",
       "WEATHERBALL"
-    ]
+    ],
+    suffix: "normal"
   },
   {
     id: "RABSCA",
@@ -112795,7 +113748,7 @@ export const fakemons: Fakemon[] =
       "PSYCHIC"
     ],
     sprite: "/sprites/RABSCA.png",
-    artwork: "/artwork/rabsca.png",
+    artwork: "/sprites/RABSCA.png",
     description: "The body that supports the ball barely moves. Therefore, it is thought that the true body of this Pokémon is actually inside the ball.",
     stats: {
       hp: 75,
@@ -112896,7 +113849,8 @@ export const fakemons: Fakemon[] =
     ],
     eggMoves: [
 
-    ]
+    ],
+    suffix: "normal"
   },
   {
     id: "FLITTLE",
@@ -112905,7 +113859,7 @@ export const fakemons: Fakemon[] =
       "PSYCHIC"
     ],
     sprite: "/sprites/FLITTLE.png",
-    artwork: "/artwork/flittle.png",
+    artwork: "/sprites/FLITTLE.png",
     description: "Flittle's toes levitate about half an inch above the ground because of the psychic power emitted from the frills on the Pokémon's belly.",
     stats: {
       hp: 30,
@@ -112979,7 +113933,8 @@ export const fakemons: Fakemon[] =
       "ALLYSWITCH",
       "HYPNOSIS",
       "ROOST"
-    ]
+    ],
+    suffix: "normal"
   },
   {
     id: "ESPATHRA",
@@ -112988,7 +113943,7 @@ export const fakemons: Fakemon[] =
       "PSYCHIC"
     ],
     sprite: "/sprites/ESPATHRA.png",
-    artwork: "/artwork/espathra.png",
+    artwork: "/sprites/ESPATHRA.png",
     description: "It immobilizes opponents by bathing them in psychic power from its large eyes. Despite its appearance, it has a vicious temperament.",
     stats: {
       hp: 95,
@@ -113083,7 +114038,8 @@ export const fakemons: Fakemon[] =
     ],
     eggMoves: [
 
-    ]
+    ],
+    suffix: "normal"
   },
   {
     id: "TINKATINK",
@@ -113093,7 +114049,7 @@ export const fakemons: Fakemon[] =
       "STEEL"
     ],
     sprite: "/sprites/TINKATINK.png",
-    artwork: "/artwork/tinkatink.png",
+    artwork: "/sprites/TINKATINK.png",
     description: "This Pokémon pounds iron scraps together to make a hammer. It will remake the hammer again and again until it's satisfied with the result.",
     stats: {
       hp: 50,
@@ -113170,7 +114126,8 @@ export const fakemons: Fakemon[] =
       "FEINT",
       "ICEHAMMER",
       "QUASH"
-    ]
+    ],
+    suffix: "normal"
   },
   {
     id: "TINKATUFF",
@@ -113180,7 +114137,7 @@ export const fakemons: Fakemon[] =
       "STEEL"
     ],
     sprite: "/sprites/TINKATUFF.png",
-    artwork: "/artwork/tinkatuff.png",
+    artwork: "/sprites/TINKATUFF.png",
     description: "These Pokémon make their homes in piles of scrap metal. They test the strength of each other's hammers by smashing them together.",
     stats: {
       hp: 65,
@@ -113256,7 +114213,8 @@ export const fakemons: Fakemon[] =
     ],
     eggMoves: [
 
-    ]
+    ],
+    suffix: "normal"
   },
   {
     id: "TINKATON",
@@ -113266,7 +114224,7 @@ export const fakemons: Fakemon[] =
       "STEEL"
     ],
     sprite: "/sprites/TINKATON.png",
-    artwork: "/artwork/tinkaton.png",
+    artwork: "/sprites/TINKATON.png",
     description: "This intelligent Pokémon has a very daring disposition. It knocks rocks into the sky with its hammer, aiming for flying Corviknight.",
     stats: {
       hp: 85,
@@ -113347,7 +114305,8 @@ export const fakemons: Fakemon[] =
     ],
     eggMoves: [
 
-    ]
+    ],
+    suffix: "normal"
   },
   {
     id: "WIGLETT",
@@ -113356,7 +114315,7 @@ export const fakemons: Fakemon[] =
       "WATER"
     ],
     sprite: "/sprites/WIGLETT.png",
-    artwork: "/artwork/wiglett.png",
+    artwork: "/sprites/WIGLETT.png",
     description: "This Pokémon can pick up the scent of a Veluza just over 65 feet away and will hide itself in the sand.",
     stats: {
       hp: 10,
@@ -113425,7 +114384,8 @@ export const fakemons: Fakemon[] =
     eggMoves: [
       "FINALGAMBIT",
       "MEMENTO"
-    ]
+    ],
+    suffix: "normal"
   },
   {
     id: "WUGTRIO",
@@ -113434,7 +114394,7 @@ export const fakemons: Fakemon[] =
       "WATER"
     ],
     sprite: "/sprites/WUGTRIO.png",
-    artwork: "/artwork/wugtrio.png",
+    artwork: "/sprites/WUGTRIO.png",
     description: "It has a vicious temperament, contrary to what its appearance may suggest. It wraps its long bodies around prey, then drags the prey into its den.",
     stats: {
       hp: 35,
@@ -113506,7 +114466,8 @@ export const fakemons: Fakemon[] =
     ],
     eggMoves: [
 
-    ]
+    ],
+    suffix: "normal"
   },
   {
     id: "BOMBIRDIER",
@@ -113516,7 +114477,7 @@ export const fakemons: Fakemon[] =
       "DARK"
     ],
     sprite: "/sprites/BOMBIRDIER.png",
-    artwork: "/artwork/bombirdier.png",
+    artwork: "/sprites/BOMBIRDIER.png",
     description: "It gathers things up in an apron made from shed feathers added to the Pokémon's chest feathers, then drops those things from high places for fun.",
     stats: {
       hp: 70,
@@ -113608,7 +114569,8 @@ export const fakemons: Fakemon[] =
       "ROOST",
       "SKYATTACK",
       "SUCKERPUNCH"
-    ]
+    ],
+    suffix: "normal"
   },
   {
     id: "FINIZEN",
@@ -113617,7 +114579,7 @@ export const fakemons: Fakemon[] =
       "WATER"
     ],
     sprite: "/sprites/FINIZEN.png",
-    artwork: "/artwork/finizen.png",
+    artwork: "/sprites/FINIZEN.png",
     description: "It likes playing with others of its kind using the water ring on its tail. It uses ultrasonic waves to sense the emotions of other living creatures.",
     stats: {
       hp: 70,
@@ -113690,7 +114652,8 @@ export const fakemons: Fakemon[] =
       "COUNTER",
       "HAZE",
       "TICKLE"
-    ]
+    ],
+    suffix: "normal"
   },
   {
     id: "PALAFIN",
@@ -113699,7 +114662,7 @@ export const fakemons: Fakemon[] =
       "WATER"
     ],
     sprite: "/sprites/PALAFIN.png",
-    artwork: "/artwork/palafin.png",
+    artwork: "/sprites/PALAFIN.png",
     description: "This Pokémon changes its appearance if it hears its allies calling for help. Palafin will never show anybody its moment of transformation.",
     stats: {
       hp: 100,
@@ -113792,7 +114755,8 @@ export const fakemons: Fakemon[] =
     ],
     eggMoves: [
 
-    ]
+    ],
+    suffix: "normal"
   },
   {
     id: "VAROOM",
@@ -113802,7 +114766,7 @@ export const fakemons: Fakemon[] =
       "POISON"
     ],
     sprite: "/sprites/VAROOM.png",
-    artwork: "/artwork/varoom.png",
+    artwork: "/sprites/VAROOM.png",
     description: "The steel section is Varoom's actual body. This Pokémon clings to rocks and converts the minerals within into energy to fuel its activities.",
     stats: {
       hp: 45,
@@ -113881,7 +114845,8 @@ export const fakemons: Fakemon[] =
       "SELFDESTRUCT",
       "TORMENT",
       "TOXIC"
-    ]
+    ],
+    suffix: "normal"
   },
   {
     id: "REVAVROOM",
@@ -113891,7 +114856,7 @@ export const fakemons: Fakemon[] =
       "POISON"
     ],
     sprite: "/sprites/REVAVROOM.png",
-    artwork: "/artwork/revavroom.png",
+    artwork: "/sprites/REVAVROOM.png",
     description: "Revavroom viciously threatens others with the sound of its exhaust. It sticks its tongue out from its cylindrical mouth and sprays toxic fluids.",
     stats: {
       hp: 80,
@@ -113977,7 +114942,8 @@ export const fakemons: Fakemon[] =
     ],
     eggMoves: [
 
-    ]
+    ],
+    suffix: "normal"
   },
   {
     id: "CYCLIZAR",
@@ -113987,7 +114953,7 @@ export const fakemons: Fakemon[] =
       "NORMAL"
     ],
     sprite: "/sprites/CYCLIZAR.png",
-    artwork: "/artwork/cyclizar.png",
+    artwork: "/sprites/CYCLIZAR.png",
     description: "Apparently Cyclizar has been allowing people to ride on its back since ancient times. Depictions of this have been found in 10,000-year-old murals.",
     stats: {
       hp: 70,
@@ -114074,7 +115040,8 @@ export const fakemons: Fakemon[] =
       "IRONTAIL",
       "KNOCKOFF",
       "POWERWHIP"
-    ]
+    ],
+    suffix: "normal"
   },
   {
     id: "ORTHWORM",
@@ -114083,7 +115050,7 @@ export const fakemons: Fakemon[] =
       "STEEL"
     ],
     sprite: "/sprites/ORTHWORM.png",
-    artwork: "/artwork/orthworm.png",
+    artwork: "/sprites/ORTHWORM.png",
     description: "This Pokémon lives in arid deserts. It maintains its metal body by consuming iron from the soil.",
     stats: {
       hp: 70,
@@ -114161,7 +115128,8 @@ export const fakemons: Fakemon[] =
       "COIL",
       "CURSE",
       "METALBURST"
-    ]
+    ],
+    suffix: "normal"
   },
   {
     id: "GLIMMET",
@@ -114171,7 +115139,7 @@ export const fakemons: Fakemon[] =
       "POISON"
     ],
     sprite: "/sprites/GLIMMET.png",
-    artwork: "/artwork/glimmet.png",
+    artwork: "/sprites/GLIMMET.png",
     description: "It absorbs nutrients from cave walls. The petals it wears are made of crystallized poison.",
     stats: {
       hp: 48,
@@ -114245,7 +115213,8 @@ export const fakemons: Fakemon[] =
       "EXPLOSION",
       "MEMENTO",
       "TOXIC"
-    ]
+    ],
+    suffix: "normal"
   },
   {
     id: "GLIMMORA",
@@ -114255,7 +115224,7 @@ export const fakemons: Fakemon[] =
       "POISON"
     ],
     sprite: "/sprites/GLIMMORA.png",
-    artwork: "/artwork/glimmora.png",
+    artwork: "/sprites/GLIMMORA.png",
     description: "When this Pokémon detects danger, it will open up its crystalline petals and fire beams from its conical body.",
     stats: {
       hp: 83,
@@ -114336,7 +115305,8 @@ export const fakemons: Fakemon[] =
     ],
     eggMoves: [
 
-    ]
+    ],
+    suffix: "normal"
   },
   {
     id: "GREAVARD",
@@ -114345,7 +115315,7 @@ export const fakemons: Fakemon[] =
       "GHOST"
     ],
     sprite: "/sprites/GREAVARD.png",
-    artwork: "/artwork/greavard.png",
+    artwork: "/sprites/GREAVARD.png",
     description: "This friendly Pokémon doesn't like being alone. Pay it even the slightest bit of attention, and it will follow you forever.",
     stats: {
       hp: 50,
@@ -114430,7 +115400,8 @@ export const fakemons: Fakemon[] =
       "MEMENTO",
       "SHADOWSNEAK",
       "YAWN"
-    ]
+    ],
+    suffix: "normal"
   },
   {
     id: "HOUNDSTONE",
@@ -114439,7 +115410,7 @@ export const fakemons: Fakemon[] =
       "GHOST"
     ],
     sprite: "/sprites/HOUNDSTONE.png",
-    artwork: "/artwork/houndstone.png",
+    artwork: "/sprites/HOUNDSTONE.png",
     description: "Houndstone spends most of its time sleeping in graveyards. Among all the dog Pokémon, this one is most loyal to its master.",
     stats: {
       hp: 72,
@@ -114523,7 +115494,8 @@ export const fakemons: Fakemon[] =
     ],
     eggMoves: [
 
-    ]
+    ],
+    suffix: "normal"
   },
   {
     id: "FLAMIGO",
@@ -114533,7 +115505,7 @@ export const fakemons: Fakemon[] =
       "FIGHTING"
     ],
     sprite: "/sprites/FLAMIGO.png",
-    artwork: "/artwork/flamigo.png",
+    artwork: "/sprites/FLAMIGO.png",
     description: "This Pokémon apparently ties the base of its neck into a knot so that the energy stored in its belly does not escape from its beak.",
     stats: {
       hp: 82,
@@ -114616,7 +115588,8 @@ export const fakemons: Fakemon[] =
       "DOUBLETEAM",
       "QUICKGUARD",
       "SKYATTACK"
-    ]
+    ],
+    suffix: "normal"
   },
   {
     id: "CETODDLE",
@@ -114625,7 +115598,7 @@ export const fakemons: Fakemon[] =
       "ICE"
     ],
     sprite: "/sprites/CETODDLE.png",
-    artwork: "/artwork/cetoddle.png",
+    artwork: "/sprites/CETODDLE.png",
     description: "It lives in frigid regions in pods of five or so individuals. It loves the minerals found in snow and ice.",
     stats: {
       hp: 108,
@@ -114707,7 +115680,8 @@ export const fakemons: Fakemon[] =
       "ICICLECRASH",
       "SUPERPOWER",
       "YAWN"
-    ]
+    ],
+    suffix: "normal"
   },
   {
     id: "CETITAN",
@@ -114716,7 +115690,7 @@ export const fakemons: Fakemon[] =
       "ICE"
     ],
     sprite: "/sprites/CETITAN.png",
-    artwork: "/artwork/cetitan.png",
+    artwork: "/sprites/CETITAN.png",
     description: "This Pokémon wanders around snowy, icy areas. It protects its body with powerful muscles and a thick layer of fat under its skin.",
     stats: {
       hp: 170,
@@ -114797,7 +115771,8 @@ export const fakemons: Fakemon[] =
     ],
     eggMoves: [
 
-    ]
+    ],
+    suffix: "normal"
   },
   {
     id: "VELUZA",
@@ -114807,7 +115782,7 @@ export const fakemons: Fakemon[] =
       "PSYCHIC"
     ],
     sprite: "/sprites/VELUZA.png",
-    artwork: "/artwork/veluza.png",
+    artwork: "/sprites/VELUZA.png",
     description: "When Veluza discards unnecessary flesh, its mind becomes honed and its psychic power increases. The spare flesh has a mild but delicious flavor.",
     stats: {
       hp: 90,
@@ -114883,7 +115858,8 @@ export const fakemons: Fakemon[] =
     eggMoves: [
       "RECOVER",
       "THRASH"
-    ]
+    ],
+    suffix: "normal"
   },
   {
     id: "DONDOZO",
@@ -114892,7 +115868,7 @@ export const fakemons: Fakemon[] =
       "WATER"
     ],
     sprite: "/sprites/DONDOZO.png",
-    artwork: "/artwork/dondozo.png",
+    artwork: "/sprites/DONDOZO.png",
     description: "It treats Tatsugiri like its boss and follows it loyally. Though powerful, Dondozo is apparently not very smart.",
     stats: {
       hp: 150,
@@ -114970,7 +115946,8 @@ export const fakemons: Fakemon[] =
       "FISSURE",
       "THRASH",
       "YAWN"
-    ]
+    ],
+    suffix: "normal"
   },
   {
     id: "TATSUGIRI",
@@ -114980,7 +115957,7 @@ export const fakemons: Fakemon[] =
       "WATER"
     ],
     sprite: "/sprites/TATSUGIRI.png",
-    artwork: "/artwork/tatsugiri.png",
+    artwork: "/sprites/TATSUGIRI.png",
     description: "Tatsugiri is an extremely cunning Pokémon. It feigns weakness to lure in prey, then orders its partner to attack.",
     stats: {
       hp: 68,
@@ -115047,7 +116024,8 @@ export const fakemons: Fakemon[] =
       "BATONPASS",
       "COUNTER",
       "RAPIDSPIN"
-    ]
+    ],
+    suffix: "normal"
   },
   {
     id: "ANNIHILAPE",
@@ -115057,7 +116035,7 @@ export const fakemons: Fakemon[] =
       "GHOST"
     ],
     sprite: "/sprites/ANNIHILAPE.png",
-    artwork: "/artwork/annihilape.png",
+    artwork: "/sprites/ANNIHILAPE.png",
     description: "When its anger rose beyond a critical point, this Pokémon gained power that is unfettered by the limits of its physical body.",
     stats: {
       hp: 110,
@@ -115166,7 +116144,8 @@ export const fakemons: Fakemon[] =
     ],
     eggMoves: [
 
-    ]
+    ],
+    suffix: "normal"
   },
   {
     id: "CLODSIRE",
@@ -115176,7 +116155,7 @@ export const fakemons: Fakemon[] =
       "GROUND"
     ],
     sprite: "/sprites/CLODSIRE.png",
-    artwork: "/artwork/clodsire.png",
+    artwork: "/sprites/CLODSIRE.png",
     description: "When attacked, this Pokémon will retaliate by sticking thick spines out from its body. It's a risky move that puts everything on the line.",
     stats: {
       hp: 130,
@@ -115268,7 +116247,8 @@ export const fakemons: Fakemon[] =
     ],
     eggMoves: [
 
-    ]
+    ],
+    suffix: "normal"
   },
   {
     id: "FARIGIRAF",
@@ -115278,7 +116258,7 @@ export const fakemons: Fakemon[] =
       "PSYCHIC"
     ],
     sprite: "/sprites/FARIGIRAF.png",
-    artwork: "/artwork/farigiraf.png",
+    artwork: "/sprites/FARIGIRAF.png",
     description: "The hardened head from the tail protects the head of the main body as Farigiraf whips its long neck around to headbutt enemies.",
     stats: {
       hp: 120,
@@ -115384,7 +116364,8 @@ export const fakemons: Fakemon[] =
     ],
     eggMoves: [
 
-    ]
+    ],
+    suffix: "normal"
   },
   {
     id: "DUDUNSPARCE",
@@ -115393,7 +116374,7 @@ export const fakemons: Fakemon[] =
       "NORMAL"
     ],
     sprite: "/sprites/DUDUNSPARCE.png",
-    artwork: "/artwork/dudunsparce.png",
+    artwork: "/sprites/DUDUNSPARCE.png",
     description: "This Pokémon uses its hard tail to make its nest by boring holes into bedrock deep underground. The nest can reach lengths of over six miles.",
     stats: {
       hp: 125,
@@ -115510,7 +116491,8 @@ export const fakemons: Fakemon[] =
     ],
     eggMoves: [
 
-    ]
+    ],
+    suffix: "normal"
   },
   {
     id: "KINGAMBIT",
@@ -115520,7 +116502,7 @@ export const fakemons: Fakemon[] =
       "STEEL"
     ],
     sprite: "/sprites/KINGAMBIT.png",
-    artwork: "/artwork/kingambit.png",
+    artwork: "/sprites/KINGAMBIT.png",
     description: "Though it commands a massive army in battle, it's not skilled at devising complex strategies. It just uses brute strength to keep pushing.",
     stats: {
       hp: 100,
@@ -115610,7 +116592,8 @@ export const fakemons: Fakemon[] =
     ],
     eggMoves: [
 
-    ]
+    ],
+    suffix: "normal"
   },
   {
     id: "GREATTUSK",
@@ -115620,7 +116603,7 @@ export const fakemons: Fakemon[] =
       "FIGHTING"
     ],
     sprite: "/sprites/GREATTUSK.png",
-    artwork: "/artwork/greattusk.png",
+    artwork: "/sprites/GREATTUSK.png",
     description: "Sightings of this Pokémon have occurred in recent years. The name Great Tusk was taken from a creature listed in a certain book.",
     stats: {
       hp: 115,
@@ -115713,7 +116696,8 @@ export const fakemons: Fakemon[] =
     ],
     eggMoves: [
 
-    ]
+    ],
+    suffix: "normal"
   },
   {
     id: "SCREAMTAIL",
@@ -115723,7 +116707,7 @@ export const fakemons: Fakemon[] =
       "PSYCHIC"
     ],
     sprite: "/sprites/SCREAMTAIL.png",
-    artwork: "/artwork/screamtail.png",
+    artwork: "/sprites/SCREAMTAIL.png",
     description: "There has been only one reported sighting of this Pokémon. It resembles a mysterious creature depicted in an old expedition journal.",
     stats: {
       hp: 115,
@@ -115837,7 +116821,8 @@ export const fakemons: Fakemon[] =
     ],
     eggMoves: [
 
-    ]
+    ],
+    suffix: "normal"
   },
   {
     id: "BRUTEBONNET",
@@ -115847,7 +116832,7 @@ export const fakemons: Fakemon[] =
       "DARK"
     ],
     sprite: "/sprites/BRUTEBONNET.png",
-    artwork: "/artwork/brutebonnet.png",
+    artwork: "/sprites/BRUTEBONNET.png",
     description: "It bears a slight resemblance to a Pokémon described in a dubious magazine as a cross between a dinosaur and a mushroom.",
     stats: {
       hp: 111,
@@ -115926,7 +116911,8 @@ export const fakemons: Fakemon[] =
     ],
     eggMoves: [
 
-    ]
+    ],
+    suffix: "normal"
   },
   {
     id: "FLUTTERMANE",
@@ -115936,7 +116922,7 @@ export const fakemons: Fakemon[] =
       "FAIRY"
     ],
     sprite: "/sprites/FLUTTERMANE.png",
-    artwork: "/artwork/fluttermane.png",
+    artwork: "/sprites/FLUTTERMANE.png",
     description: "It has similar features to a ghostly pterosaur that was covered in a paranormal magazine, but the two have little else in common.",
     stats: {
       hp: 55,
@@ -116020,7 +117006,8 @@ export const fakemons: Fakemon[] =
     ],
     eggMoves: [
 
-    ]
+    ],
+    suffix: "normal"
   },
   {
     id: "SLITHERWING",
@@ -116030,7 +117017,7 @@ export const fakemons: Fakemon[] =
       "FIGHTING"
     ],
     sprite: "/sprites/SLITHERWING.png",
-    artwork: "/artwork/slitherwing.png",
+    artwork: "/sprites/SLITHERWING.png",
     description: "This Pokémon somewhat resembles an ancient form of Volcarona that was introduced in a dubious magazine.",
     stats: {
       hp: 85,
@@ -116120,7 +117107,8 @@ export const fakemons: Fakemon[] =
     ],
     eggMoves: [
 
-    ]
+    ],
+    suffix: "normal"
   },
   {
     id: "SANDYSHOCKS",
@@ -116130,7 +117118,7 @@ export const fakemons: Fakemon[] =
       "GROUND"
     ],
     sprite: "/sprites/SANDYSHOCKS.png",
-    artwork: "/artwork/sandyshocks.png",
+    artwork: "/sprites/SANDYSHOCKS.png",
     description: "It slightly resembles a Magneton that lived for 10,000 years and was featured in an article in a paranormal magazine.",
     stats: {
       hp: 85,
@@ -116218,7 +117206,8 @@ export const fakemons: Fakemon[] =
     ],
     eggMoves: [
 
-    ]
+    ],
+    suffix: "normal"
   },
   {
     id: "IRONTREADS",
@@ -116228,7 +117217,7 @@ export const fakemons: Fakemon[] =
       "STEEL"
     ],
     sprite: "/sprites/IRONTREADS.png",
-    artwork: "/artwork/irontreads.png",
+    artwork: "/sprites/IRONTREADS.png",
     description: "This Pokémon closely resembles a scientific weapon that a paranormal magazine claimed was sent to this planet by aliens.",
     stats: {
       hp: 90,
@@ -116315,7 +117304,8 @@ export const fakemons: Fakemon[] =
     ],
     eggMoves: [
 
-    ]
+    ],
+    suffix: "normal"
   },
   {
     id: "IRONBUNDLE",
@@ -116325,7 +117315,7 @@ export const fakemons: Fakemon[] =
       "WATER"
     ],
     sprite: "/sprites/IRONBUNDLE.png",
-    artwork: "/artwork/ironbundle.png",
+    artwork: "/sprites/IRONBUNDLE.png",
     description: "Its shape is similar to a robot featured in a paranormal magazine article. The robot was said to have been created by an ancient civilization.",
     stats: {
       hp: 56,
@@ -116402,7 +117392,8 @@ export const fakemons: Fakemon[] =
     ],
     eggMoves: [
 
-    ]
+    ],
+    suffix: "normal"
   },
   {
     id: "IRONHANDS",
@@ -116412,7 +117403,7 @@ export const fakemons: Fakemon[] =
       "ELECTRIC"
     ],
     sprite: "/sprites/IRONHANDS.png",
-    artwork: "/artwork/ironhands.png",
+    artwork: "/sprites/IRONHANDS.png",
     description: "It is very similar to a cyborg covered exclusively by a paranormal magazine. The cyborg was said to be the modified form of a certain athlete.",
     stats: {
       hp: 154,
@@ -116500,7 +117491,8 @@ export const fakemons: Fakemon[] =
     ],
     eggMoves: [
 
-    ]
+    ],
+    suffix: "normal"
   },
   {
     id: "IRONJUGULIS",
@@ -116510,7 +117502,7 @@ export const fakemons: Fakemon[] =
       "FLYING"
     ],
     sprite: "/sprites/IRONJUGULIS.png",
-    artwork: "/artwork/ironjugulis.png",
+    artwork: "/sprites/IRONJUGULIS.png",
     description: "It resembles a certain Pokémon introduced in a paranormal magazine, described as the offspring of a Hydreigon that fell in love with a robot.",
     stats: {
       hp: 94,
@@ -116603,7 +117595,8 @@ export const fakemons: Fakemon[] =
     ],
     eggMoves: [
 
-    ]
+    ],
+    suffix: "normal"
   },
   {
     id: "IRONMOTH",
@@ -116613,7 +117606,7 @@ export const fakemons: Fakemon[] =
       "POISON"
     ],
     sprite: "/sprites/IRONMOTH.png",
-    artwork: "/artwork/ironmoth.png",
+    artwork: "/sprites/IRONMOTH.png",
     description: "This Pokémon resembles an unknown object described in a paranormal magazine as a UFO sent to observe humanity.",
     stats: {
       hp: 80,
@@ -116701,7 +117694,8 @@ export const fakemons: Fakemon[] =
     ],
     eggMoves: [
 
-    ]
+    ],
+    suffix: "normal"
   },
   {
     id: "IRONTHORNS",
@@ -116711,7 +117705,7 @@ export const fakemons: Fakemon[] =
       "ELECTRIC"
     ],
     sprite: "/sprites/IRONTHORNS.png",
-    artwork: "/artwork/ironthorns.png",
+    artwork: "/sprites/IRONTHORNS.png",
     description: "It has some similarities to a Pokémon introduced in a dubious magazine as a Tyranitar from one billion years into the future.",
     stats: {
       hp: 100,
@@ -116826,7 +117820,8 @@ export const fakemons: Fakemon[] =
     ],
     eggMoves: [
 
-    ]
+    ],
+    suffix: "normal"
   },
   {
     id: "FRIGIBAX",
@@ -116836,7 +117831,7 @@ export const fakemons: Fakemon[] =
       "ICE"
     ],
     sprite: "/sprites/FRIGIBAX.png",
-    artwork: "/artwork/frigibax.png",
+    artwork: "/sprites/FRIGIBAX.png",
     description: "This Pokémon lives in forests and craggy areas. Using the power of its dorsal fin, it cools the inside of its nest like a refrigerator.",
     stats: {
       hp: 65,
@@ -116904,7 +117899,8 @@ export const fakemons: Fakemon[] =
       "DRAGONRUSH",
       "FREEZEDRY",
       "ICICLESPEAR"
-    ]
+    ],
+    suffix: "normal"
   },
   {
     id: "ARCTIBAX",
@@ -116914,7 +117910,7 @@ export const fakemons: Fakemon[] =
       "ICE"
     ],
     sprite: "/sprites/ARCTIBAX.png",
-    artwork: "/artwork/arctibax.png",
+    artwork: "/sprites/ARCTIBAX.png",
     description: "Arctibax freezes the air around it, protecting its face with an ice mask and turning its dorsal fin into a blade of ice.",
     stats: {
       hp: 90,
@@ -116982,7 +117978,8 @@ export const fakemons: Fakemon[] =
     ],
     eggMoves: [
 
-    ]
+    ],
+    suffix: "normal"
   },
   {
     id: "BAXCALIBUR",
@@ -116992,7 +117989,7 @@ export const fakemons: Fakemon[] =
       "ICE"
     ],
     sprite: "/sprites/BAXCALIBUR.png",
-    artwork: "/artwork/baxcalibur.png",
+    artwork: "/sprites/BAXCALIBUR.png",
     description: "This Pokémon blasts cryogenic air out from its mouth. This air can instantly freeze even liquid-hot lava.",
     stats: {
       hp: 115,
@@ -117080,7 +118077,8 @@ export const fakemons: Fakemon[] =
     ],
     eggMoves: [
 
-    ]
+    ],
+    suffix: "normal"
   },
   {
     id: "GIMMIGHOUL",
@@ -117089,7 +118087,7 @@ export const fakemons: Fakemon[] =
       "GHOST"
     ],
     sprite: "/sprites/GIMMIGHOUL.png",
-    artwork: "/artwork/gimmighoul.png",
+    artwork: "/sprites/GIMMIGHOUL.png",
     description: "This Pokémon was born inside a treasure chest about 1,500 years ago. It sucks the life-force out of scoundrels who try to steal the treasure.",
     stats: {
       hp: 45,
@@ -117132,7 +118130,8 @@ export const fakemons: Fakemon[] =
     ],
     eggMoves: [
 
-    ]
+    ],
+    suffix: "normal"
   },
   {
     id: "GHOLDENGO",
@@ -117142,7 +118141,7 @@ export const fakemons: Fakemon[] =
       "GHOST"
     ],
     sprite: "/sprites/GHOLDENGO.png",
-    artwork: "/artwork/gholdengo.png",
+    artwork: "/sprites/GHOLDENGO.png",
     description: "Its body seems to be made up of 1,000 coins. This Pokémon gets along well with others and is quick to make friends with anybody.",
     stats: {
       hp: 87,
@@ -117219,7 +118218,8 @@ export const fakemons: Fakemon[] =
     ],
     eggMoves: [
 
-    ]
+    ],
+    suffix: "normal"
   },
   {
     id: "WOCHIEN",
@@ -117229,7 +118229,7 @@ export const fakemons: Fakemon[] =
       "GRASS"
     ],
     sprite: "/sprites/WOCHIEN.png",
-    artwork: "/artwork/wochien.png",
+    artwork: "/sprites/WOCHIEN.png",
     description: "It drains the life-force from vegetation, causing nearby forests to instantly wither and fields to turn barren.",
     stats: {
       hp: 85,
@@ -117313,7 +118313,8 @@ export const fakemons: Fakemon[] =
     ],
     eggMoves: [
 
-    ]
+    ],
+    suffix: "normal"
   },
   {
     id: "CHIENPAO",
@@ -117323,7 +118324,7 @@ export const fakemons: Fakemon[] =
       "ICE"
     ],
     sprite: "/sprites/CHIENPAO.png",
-    artwork: "/artwork/chienpao.png",
+    artwork: "/sprites/CHIENPAO.png",
     description: "This Pokémon can control 100 tons of fallen snow. It plays around innocently by leaping in and out of avalanches it has caused.",
     stats: {
       hp: 80,
@@ -117401,7 +118402,8 @@ export const fakemons: Fakemon[] =
     ],
     eggMoves: [
 
-    ]
+    ],
+    suffix: "normal"
   },
   {
     id: "TINGLU",
@@ -117411,7 +118413,7 @@ export const fakemons: Fakemon[] =
       "GROUND"
     ],
     sprite: "/sprites/TINGLU.png",
-    artwork: "/artwork/tinglu.png",
+    artwork: "/sprites/TINGLU.png",
     description: "The fear poured into an ancient ritual vessel has clad itself in rocks and dirt to become a Pokémon.",
     stats: {
       hp: 155,
@@ -117492,7 +118494,8 @@ export const fakemons: Fakemon[] =
     ],
     eggMoves: [
 
-    ]
+    ],
+    suffix: "normal"
   },
   {
     id: "CHIYU",
@@ -117502,7 +118505,7 @@ export const fakemons: Fakemon[] =
       "FIRE"
     ],
     sprite: "/sprites/CHIYU.png",
-    artwork: "/artwork/chiyu.png",
+    artwork: "/sprites/CHIYU.png",
     description: "The envy accumulated within curved beads that sparked multiple conflicts has clad itself in fire and become a Pokémon.",
     stats: {
       hp: 55,
@@ -117580,7 +118583,8 @@ export const fakemons: Fakemon[] =
     ],
     eggMoves: [
 
-    ]
+    ],
+    suffix: "normal"
   },
   {
     id: "ROARINGMOON",
@@ -117590,7 +118594,7 @@ export const fakemons: Fakemon[] =
       "DARK"
     ],
     sprite: "/sprites/ROARINGMOON.png",
-    artwork: "/artwork/roaringmoon.png",
+    artwork: "/sprites/ROARINGMOON.png",
     description: "It is possible that this is the creature listed as Roaring Moon in an expedition journal that still holds many mysteries.",
     stats: {
       hp: 105,
@@ -117694,7 +118698,8 @@ export const fakemons: Fakemon[] =
     ],
     eggMoves: [
 
-    ]
+    ],
+    suffix: "normal"
   },
   {
     id: "IRONVALIANT",
@@ -117704,7 +118709,7 @@ export const fakemons: Fakemon[] =
       "FIGHTING"
     ],
     sprite: "/sprites/IRONVALIANT.png",
-    artwork: "/artwork/ironvaliant.png",
+    artwork: "/sprites/IRONVALIANT.png",
     description: "It has some similarities to a mad scientist's invention covered in a paranormal magazine.",
     stats: {
       hp: 74,
@@ -117814,7 +118819,8 @@ export const fakemons: Fakemon[] =
     ],
     eggMoves: [
 
-    ]
+    ],
+    suffix: "normal"
   },
   {
     id: "KORAIDON",
@@ -117824,7 +118830,7 @@ export const fakemons: Fakemon[] =
       "DRAGON"
     ],
     sprite: "/sprites/KORAIDON.png",
-    artwork: "/artwork/koraidon.png",
+    artwork: "/sprites/KORAIDON.png",
     description: "This seems to be the Winged King mentioned in an old expedition journal. It was said to have split the land with its bare fists.",
     stats: {
       hp: 100,
@@ -117932,7 +118938,8 @@ export const fakemons: Fakemon[] =
     ],
     eggMoves: [
 
-    ]
+    ],
+    suffix: "normal"
   },
   {
     id: "MIRAIDON",
@@ -117942,7 +118949,7 @@ export const fakemons: Fakemon[] =
       "DRAGON"
     ],
     sprite: "/sprites/MIRAIDON.png",
-    artwork: "/artwork/miraidon.png",
+    artwork: "/sprites/MIRAIDON.png",
     description: "This seems to be the Iron Serpent mentioned in an old book. The Iron Serpent is said to have turned the land to ash with its lightning.",
     stats: {
       hp: 100,
@@ -118033,7 +119040,8 @@ export const fakemons: Fakemon[] =
     ],
     eggMoves: [
 
-    ]
+    ],
+    suffix: "normal"
   },
   {
     id: "WALKINGWAKE",
@@ -118043,7 +119051,7 @@ export const fakemons: Fakemon[] =
       "DRAGON"
     ],
     sprite: "/sprites/WALKINGWAKE.png",
-    artwork: "/artwork/walkingwake.png",
+    artwork: "/sprites/WALKINGWAKE.png",
     description: "This ferocious creature is shrouded in mystery. It's named after an aquatic monster mentioned in an old expedition journal.",
     stats: {
       hp: 99,
@@ -118129,7 +119137,8 @@ export const fakemons: Fakemon[] =
     ],
     eggMoves: [
 
-    ]
+    ],
+    suffix: "normal"
   },
   {
     id: "IRONLEAVES",
@@ -118139,7 +119148,7 @@ export const fakemons: Fakemon[] =
       "PSYCHIC"
     ],
     sprite: "/sprites/IRONLEAVES.png",
-    artwork: "/artwork/ironleaves.png",
+    artwork: "/sprites/IRONLEAVES.png",
     description: "According to the few eyewitness accounts that exist, it used its shining blades to julienne large trees and boulders.",
     stats: {
       hp: 90,
@@ -118228,7 +119237,8 @@ export const fakemons: Fakemon[] =
     ],
     eggMoves: [
 
-    ]
+    ],
+    suffix: "normal"
   },
   {
     id: "DIPPLIN",
@@ -118238,7 +119248,7 @@ export const fakemons: Fakemon[] =
       "DRAGON"
     ],
     sprite: "/sprites/DIPPLIN.png",
-    artwork: "/artwork/dipplin.png",
+    artwork: "/sprites/DIPPLIN.png",
     description: "The head sticking out belongs to the fore-wyrm, while the tail belongs to the core-wyrm. The two share one apple and help each other out.",
     stats: {
       hp: 80,
@@ -118311,7 +119321,8 @@ export const fakemons: Fakemon[] =
     ],
     eggMoves: [
 
-    ]
+    ],
+    suffix: "normal"
   },
   {
     id: "POLTCHAGEIST",
@@ -118321,7 +119332,7 @@ export const fakemons: Fakemon[] =
       "GHOST"
     ],
     sprite: "/sprites/POLTCHAGEIST.png",
-    artwork: "/artwork/poltchageist.png",
+    artwork: "/sprites/POLTCHAGEIST.png",
     description: "Supposedly, the regrets of a tea ceremony master who died before perfecting his craft lingered in some matcha and became a Pokémon.",
     stats: {
       hp: 40,
@@ -118389,7 +119400,8 @@ export const fakemons: Fakemon[] =
     ],
     eggMoves: [
 
-    ]
+    ],
+    suffix: "normal"
   },
   {
     id: "SINISTCHA",
@@ -118399,7 +119411,7 @@ export const fakemons: Fakemon[] =
       "GHOST"
     ],
     sprite: "/sprites/SINISTCHA.png",
-    artwork: "/artwork/sinistcha.png",
+    artwork: "/sprites/SINISTCHA.png",
     description: "It pretends to be tea, trying to fool people into drinking it so it can drain their life-force. Its ruse is generally unsuccessful.",
     stats: {
       hp: 71,
@@ -118469,7 +119481,8 @@ export const fakemons: Fakemon[] =
     ],
     eggMoves: [
 
-    ]
+    ],
+    suffix: "normal"
   },
   {
     id: "OKIDOGI",
@@ -118479,7 +119492,7 @@ export const fakemons: Fakemon[] =
       "FIGHTING"
     ],
     sprite: "/sprites/OKIDOGI.png",
-    artwork: "/artwork/okidogi.png",
+    artwork: "/sprites/OKIDOGI.png",
     description: "Okidogi is a ruffian with a short temper. It can pulverize anything by swinging around the chain on its neck.",
     stats: {
       hp: 88,
@@ -118574,7 +119587,8 @@ export const fakemons: Fakemon[] =
     ],
     eggMoves: [
 
-    ]
+    ],
+    suffix: "normal"
   },
   {
     id: "MUNKIDORI",
@@ -118584,7 +119598,7 @@ export const fakemons: Fakemon[] =
       "PSYCHIC"
     ],
     sprite: "/sprites/MUNKIDORI.png",
-    artwork: "/artwork/munkidori.png",
+    artwork: "/sprites/MUNKIDORI.png",
     description: "Munkidori keeps itself somewhere safe while it toys with its foes, using psychokinesis to induce intense dizziness.",
     stats: {
       hp: 88,
@@ -118672,7 +119686,8 @@ export const fakemons: Fakemon[] =
     ],
     eggMoves: [
 
-    ]
+    ],
+    suffix: "normal"
   },
   {
     id: "FEZANDIPITI",
@@ -118682,7 +119697,7 @@ export const fakemons: Fakemon[] =
       "FAIRY"
     ],
     sprite: "/sprites/FEZANDIPITI.png",
-    artwork: "/artwork/fezandipiti.png",
+    artwork: "/sprites/FEZANDIPITI.png",
     description: "Fezandipiti beats its glossy wings to scatter pheromones that captivate people and Pokémon.",
     stats: {
       hp: 88,
@@ -118771,7 +119786,8 @@ export const fakemons: Fakemon[] =
     ],
     eggMoves: [
 
-    ]
+    ],
+    suffix: "normal"
   },
   {
     id: "OGERPON",
@@ -118780,7 +119796,7 @@ export const fakemons: Fakemon[] =
       "GRASS"
     ],
     sprite: "/sprites/OGERPON.png",
-    artwork: "/artwork/ogerpon.png",
+    artwork: "/sprites/OGERPON.png",
     description: "This mischief-loving Pokémon is full of curiosity. It battles by drawing out the type-based energy contained within its masks.",
     stats: {
       hp: 80,
@@ -118869,7 +119885,8 @@ export const fakemons: Fakemon[] =
     ],
     eggMoves: [
 
-    ]
+    ],
+    suffix: "normal"
   },
   {
     id: "ARCHALUDON",
@@ -118879,7 +119896,7 @@ export const fakemons: Fakemon[] =
       "DRAGON"
     ],
     sprite: "/sprites/ARCHALUDON.png",
-    artwork: "/artwork/archaludon.png",
+    artwork: "/sprites/ARCHALUDON.png",
     description: "It gathers static electricity from its surroundings. The beams it launches when down on all fours are tremendously powerful.",
     stats: {
       hp: 90,
@@ -118969,7 +119986,8 @@ export const fakemons: Fakemon[] =
     ],
     eggMoves: [
 
-    ]
+    ],
+    suffix: "normal"
   },
   {
     id: "HYDRAPPLE",
@@ -118979,7 +119997,7 @@ export const fakemons: Fakemon[] =
       "DRAGON"
     ],
     sprite: "/sprites/HYDRAPPLE.png",
-    artwork: "/artwork/hydrapple.png",
+    artwork: "/sprites/HYDRAPPLE.png",
     description: "These capricious syrpents have banded together. On the rare occasion that their moods align, their true power is unleashed.",
     stats: {
       hp: 106,
@@ -119067,7 +120085,8 @@ export const fakemons: Fakemon[] =
     ],
     eggMoves: [
 
-    ]
+    ],
+    suffix: "normal"
   },
   {
     id: "GOUGINGFIRE",
@@ -119077,7 +120096,7 @@ export const fakemons: Fakemon[] =
       "DRAGON"
     ],
     sprite: "/sprites/GOUGINGFIRE.png",
-    artwork: "/artwork/gougingfire.png",
+    artwork: "/sprites/GOUGINGFIRE.png",
     description: "There are scant few reports of this creature being sighted. One short video shows it rampaging and spouting pillars of flame.",
     stats: {
       hp: 105,
@@ -119169,7 +120188,8 @@ export const fakemons: Fakemon[] =
     ],
     eggMoves: [
 
-    ]
+    ],
+    suffix: "normal"
   },
   {
     id: "RAGINGBOLT",
@@ -119179,7 +120199,7 @@ export const fakemons: Fakemon[] =
       "DRAGON"
     ],
     sprite: "/sprites/RAGINGBOLT.png",
-    artwork: "/artwork/ragingbolt.png",
+    artwork: "/sprites/RAGINGBOLT.png",
     description: "It's said to incinerate everything around it with lightning launched from its fur. Very little is known about this creature.",
     stats: {
       hp: 125,
@@ -119267,7 +120287,8 @@ export const fakemons: Fakemon[] =
     ],
     eggMoves: [
 
-    ]
+    ],
+    suffix: "normal"
   },
   {
     id: "IRONBOULDER",
@@ -119277,7 +120298,7 @@ export const fakemons: Fakemon[] =
       "PSYCHIC"
     ],
     sprite: "/sprites/IRONBOULDER.png",
-    artwork: "/artwork/ironboulder.png",
+    artwork: "/sprites/IRONBOULDER.png",
     description: "It resembles a Pokémon described in a dubious magazine as a Terrakion that had been modified by an evil organization.",
     stats: {
       hp: 90,
@@ -119357,7 +120378,8 @@ export const fakemons: Fakemon[] =
     ],
     eggMoves: [
 
-    ]
+    ],
+    suffix: "normal"
   },
   {
     id: "IRONCROWN",
@@ -119367,7 +120389,7 @@ export const fakemons: Fakemon[] =
       "PSYCHIC"
     ],
     sprite: "/sprites/IRONCROWN.png",
-    artwork: "/artwork/ironcrown.png",
+    artwork: "/sprites/IRONCROWN.png",
     description: "There was supposedly an incident in which it launched shining blades to cut everything around it to pieces. Little else is known about it.",
     stats: {
       hp: 90,
@@ -119450,7 +120472,8 @@ export const fakemons: Fakemon[] =
     ],
     eggMoves: [
 
-    ]
+    ],
+    suffix: "normal"
   },
   {
     id: "TERAPAGOS",
@@ -119459,7 +120482,7 @@ export const fakemons: Fakemon[] =
       "NORMAL"
     ],
     sprite: "/sprites/TERAPAGOS.png",
-    artwork: "/artwork/terapagos.png",
+    artwork: "/sprites/TERAPAGOS.png",
     description: "Terapagos protects itself using its power to transform energy into hard crystals. This Pokémon is the source of the Terastal phenomenon.",
     stats: {
       hp: 90,
@@ -119548,7 +120571,8 @@ export const fakemons: Fakemon[] =
     ],
     eggMoves: [
 
-    ]
+    ],
+    suffix: "normal"
   },
   {
     id: "PECHARUNT",
@@ -119558,7 +120582,7 @@ export const fakemons: Fakemon[] =
       "GHOST"
     ],
     sprite: "/sprites/PECHARUNT.png",
-    artwork: "/artwork/pecharunt.png",
+    artwork: "/sprites/PECHARUNT.png",
     description: "It feeds others toxic mochi that draw out desires and capabilities. Those who eat the mochi fall under Pecharunt's control, chained to its will.",
     stats: {
       hp: 88,
@@ -119622,6 +120646,7 @@ export const fakemons: Fakemon[] =
     ],
     eggMoves: [
 
-    ]
+    ],
+    suffix: "normal"
   }
 ]

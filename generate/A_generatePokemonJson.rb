@@ -4,7 +4,7 @@ require "json"
 # 🧱 PARSEADORES
 # ==========================
 
-def parse_fakemons(lines)
+def parse_fakemons(lines, suffix)
   fakemons = []
   current = nil
 
@@ -19,7 +19,7 @@ def parse_fakemons(lines)
         name: "",
         types: [],
         sprite: "/sprites/#{$1.upcase}.png",
-        artwork: "/sprites/#{$1.downcase}.png",
+        artwork: "/sprites/#{$1.upcase}.png",
         description: "",
         stats: {
           hp: 0,
@@ -36,7 +36,8 @@ def parse_fakemons(lines)
         category: "",
         moves: [],
         tutorMoves: [],
-        eggMoves: []
+        eggMoves: [],
+        suffix: suffix
       }
     elsif current
       key, value = line.split("=", 2).map(&:strip)
@@ -242,16 +243,18 @@ end
 fakemon_configs = [
   {
     output: File.join(__dir__, "../src/data/pokemon_absolution.ts"),
-    inputs: [File.join(__dir__, "./pokemon_absolution.txt")]
+    inputs: [File.join(__dir__, "./pokemon_absolution.txt")],
+    suffix: "absolution"
   },
   {
     output: File.join(__dir__, "../src/data/pokemon.ts"),
-    inputs: [File.join(__dir__, "./pokemon.txt")]
+    inputs: [File.join(__dir__, "./pokemon.txt")],
+    suffix: "normal"
   }
 ]
 
 fakemon_configs.each do |config|
-  fakemons = parse_fakemons(read_combined_lines(config[:inputs]))
+  fakemons = parse_fakemons(read_combined_lines(config[:inputs]), config[:suffix])
   write_ts(config[:output], "Fakemon", "fakemons", fakemons)
   puts "✅ Fakemons generados en #{config[:output]}"
 end
