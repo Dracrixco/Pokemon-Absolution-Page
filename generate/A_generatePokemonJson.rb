@@ -308,10 +308,7 @@ end
 items_configs = [
   {
     output: File.join(__dir__, "../src/data/items.ts"),
-    inputs: [
-      File.join(__dir__, "./items.txt"),
-      File.join(__dir__, "./items_absolution.txt")
-    ],
+    inputs: [File.join(__dir__, "./items.txt")],
     suffix: "normal"
   },
   {

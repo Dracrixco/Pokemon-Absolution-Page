@@ -34,6 +34,7 @@ const PRICE_RANGES = [
 export const ItemsPage: React.FC = () => {
   const [searchTerm, setSearchTerm] = useState("");
   const [selectedPocket, setSelectedPocket] = useState<number | "all">("all");
+  const [selectedSuffix, setSelectedSuffix] = useState<string>("all");
   const [selectedPriceRange, setSelectedPriceRange] = useState<string>("all");
   const [selectedFlags, setSelectedFlags] = useState<string[]>([]);
   const [showFilters, setShowFilters] = useState(false);
@@ -51,6 +52,17 @@ export const ItemsPage: React.FC = () => {
       }
     });
     return Array.from(flagsSet).sort();
+  }, []);
+
+  // Get unique suffixes from all items
+  const availableSuffixes = useMemo(() => {
+    const suffixesSet = new Set<string>();
+    items.forEach((item) => {
+      if (item.suffix) {
+        suffixesSet.add(item.suffix);
+      }
+    });
+    return Array.from(suffixesSet).sort();
   }, []);
 
   // Get unique pockets
@@ -74,6 +86,11 @@ export const ItemsPage: React.FC = () => {
 
       // Pocket filter
       if (selectedPocket !== "all" && item.pocket !== selectedPocket) {
+        return false;
+      }
+
+      // Suffix filter
+      if (selectedSuffix !== "all" && item.suffix !== selectedSuffix) {
         return false;
       }
 
@@ -113,7 +130,14 @@ export const ItemsPage: React.FC = () => {
     });
 
     return filtered;
-  }, [searchTerm, selectedPocket, selectedPriceRange, selectedFlags, sortBy]);
+  }, [
+    searchTerm,
+    selectedPocket,
+    selectedSuffix,
+    selectedPriceRange,
+    selectedFlags,
+    sortBy,
+  ]);
 
   const toggleFlag = (flag: string) => {
     setSelectedFlags((prev) =>
@@ -124,6 +148,7 @@ export const ItemsPage: React.FC = () => {
   const clearFilters = () => {
     setSearchTerm("");
     setSelectedPocket("all");
+    setSelectedSuffix("all");
     setSelectedPriceRange("all");
     setSelectedFlags([]);
   };
@@ -147,6 +172,28 @@ export const ItemsPage: React.FC = () => {
     return colors[pocket as keyof typeof colors] || "bg-gray-500";
   };
 
+  const formatSuffixName = (suffix: string) => {
+    switch (suffix) {
+      case "absolution":
+        return "Absolution";
+      case "normal":
+        return "Normal";
+      default:
+        return suffix.charAt(0).toUpperCase() + suffix.slice(1);
+    }
+  };
+
+  const getSuffixColor = (suffix: string) => {
+    switch (suffix) {
+      case "absolution":
+        return "bg-purple-500";
+      case "normal":
+        return "bg-blue-500";
+      default:
+        return "bg-gray-500";
+    }
+  };
+
   return (
     <div className="min-h-screen bg-gray-100 p-4">
       <div className="max-w-7xl mx-auto">
@@ -157,6 +204,22 @@ export const ItemsPage: React.FC = () => {
           </h1>
           <p className="text-lg text-gray-600">
             Explore all {items.length} items available in Pokémon Absolution
+            {(selectedPocket !== "all" ||
+              selectedSuffix !== "all" ||
+              selectedPriceRange !== "all" ||
+              selectedFlags.length > 0) && (
+              <span className="block mt-2 text-sm">
+                Showing {filteredItems.length} items
+                {selectedSuffix !== "all" &&
+                  ` from ${formatSuffixName(selectedSuffix)} version`}
+                {selectedPocket !== "all" &&
+                  ` in ${
+                    POCKET_NAMES[selectedPocket as keyof typeof POCKET_NAMES]
+                  }`}
+                {selectedPriceRange !== "all" &&
+                  ` with price range: ${selectedPriceRange}`}
+              </span>
+            )}
           </p>
         </div>
 
@@ -193,11 +256,13 @@ export const ItemsPage: React.FC = () => {
                   <Filter size={20} />
                   Filters
                   {(selectedPocket !== "all" ||
+                    selectedSuffix !== "all" ||
                     selectedPriceRange !== "all" ||
                     selectedFlags.length > 0) && (
                     <span className="bg-red-500 text-white text-xs px-2 py-1 rounded-full">
                       {[
                         selectedPocket !== "all" ? 1 : 0,
+                        selectedSuffix !== "all" ? 1 : 0,
                         selectedPriceRange !== "all" ? 1 : 0,
                         selectedFlags.length,
                       ].reduce((a, b) => a + b, 0)}
@@ -252,7 +317,7 @@ export const ItemsPage: React.FC = () => {
             {/* Filters Panel */}
             {showFilters && (
               <div className="bg-gray-50 rounded-lg p-4 space-y-4">
-                <div className="grid grid-cols-1 md:grid-cols-3 gap-4">
+                <div className="grid grid-cols-1 md:grid-cols-4 gap-4">
                   {/* Pocket Filter */}
                   <div>
                     <label className="block text-sm font-medium text-gray-700 mb-2">
@@ -274,6 +339,25 @@ export const ItemsPage: React.FC = () => {
                         <option key={pocket} value={pocket}>
                           {POCKET_NAMES[pocket as keyof typeof POCKET_NAMES] ||
                             `Category ${pocket}`}
+                        </option>
+                      ))}
+                    </select>
+                  </div>
+
+                  {/* Suffix Filter */}
+                  <div>
+                    <label className="block text-sm font-medium text-gray-700 mb-2">
+                      Version
+                    </label>
+                    <select
+                      value={selectedSuffix}
+                      onChange={(e) => setSelectedSuffix(e.target.value)}
+                      className="w-full px-3 py-2 border border-gray-300 rounded-lg focus:ring-2 focus:ring-blue-500"
+                    >
+                      <option value="all">All Versions</option>
+                      {availableSuffixes.map((suffix) => (
+                        <option key={suffix} value={suffix}>
+                          {formatSuffixName(suffix)}
                         </option>
                       ))}
                     </select>
@@ -395,6 +479,15 @@ export const ItemsPage: React.FC = () => {
                               item.pocket as keyof typeof POCKET_NAMES
                             ] || `Cat. ${item.pocket}`}
                           </span>
+                          {item.suffix && (
+                            <span
+                              className={`px-2 py-1 rounded text-white text-xs ${getSuffixColor(
+                                item.suffix
+                              )}`}
+                            >
+                              {formatSuffixName(item.suffix)}
+                            </span>
+                          )}
                         </div>
 
                         <div className="flex items-center justify-center gap-1 text-sm text-gray-600">
@@ -445,6 +538,15 @@ export const ItemsPage: React.FC = () => {
                                 item.pocket as keyof typeof POCKET_NAMES
                               ] || `Category ${item.pocket}`}
                             </span>
+                            {item.suffix && (
+                              <span
+                                className={`px-3 py-1 rounded text-white text-sm ${getSuffixColor(
+                                  item.suffix
+                                )}`}
+                              >
+                                {formatSuffixName(item.suffix)}
+                              </span>
+                            )}
                             <div className="flex items-center gap-1 text-sm font-semibold text-gray-700">
                               <DollarSign size={16} />
                               {formatPrice(item.price)}
