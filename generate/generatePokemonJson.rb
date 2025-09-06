@@ -132,6 +132,37 @@ def parse_moves(lines)
   moves
 end
 
+def parse_abilities(lines)
+  abilities = []
+  current = nil
+
+  lines.each do |line|
+    line.strip!
+    next if line.empty? || line.start_with?("#")
+
+    if line.match(/^\[(.+)\]$/)
+      abilities << current if current
+      current = {
+        id: $1,
+        name: "",
+        description: ""
+      }
+    elsif current
+      key, value = line.split("=", 2).map(&:strip)
+
+      case key
+      when "Name"
+        current[:name] = value
+      when "Description"
+        current[:description] = value
+      end
+    end
+  end
+
+  abilities << current if current
+  abilities
+end
+
 # ==========================
 # 📝 GENERADOR DE TS
 # ==========================
@@ -161,35 +192,61 @@ def read_combined_lines(paths)
   paths.flat_map { |path| File.readlines(path) }
 end
 
+# ========================================================== #
 # Procesar Fakemons
-fakemon_output = File.join(__dir__, "../src/data/pokemon.ts")
-fakemons =
-parse_fakemons(
-  read_combined_lines([File.join(__dir__, "./pokemon_absolution.txt")])
-  )
-  write_ts(fakemon_output, "Fakemon", "fakemons", fakemons)
-  puts "✅ Fakemons generados en #{fakemon_output}"
-  
+# ========================================================== #
+fakemon_configs = [
+  {
+    output: File.join(__dir__, "../src/data/pokemon_absolution.ts"),
+    inputs: [File.join(__dir__, "./pokemon_absolution.txt")]
+  },
+  {
+    output: File.join(__dir__, "../src/data/pokemon.ts"),
+    inputs: [File.join(__dir__, "./pokemon.txt")]
+  }
+]
 
-# Procesar Fakemons
-fakemon_output = File.join(__dir__, "../src/data/pokemon2.ts")
-fakemons =
-parse_fakemons(
-  read_combined_lines([File.join(__dir__, "./pokemon.txt")])
-  )
-  write_ts(fakemon_output, "Fakemon", "fakemons", fakemons)
-  puts "✅ Fakemons generados en #{fakemon_output}"
+fakemon_configs.each do |config|
+  fakemons = parse_fakemons(read_combined_lines(config[:inputs]))
+  write_ts(config[:output], "Fakemon", "fakemons", fakemons)
+  puts "✅ Fakemons generados en #{config[:output]}"
+end
 
+
+# ========================================================== #
 # Procesar Movimientos
-moves_output = File.join(__dir__, "../src/data/moves.ts")
-moves =
-  parse_moves(
-    read_combined_lines(
-      [
-        File.join(__dir__, "./moves.txt"),
-        File.join(__dir__, "./moves_absolution.txt")
-      ]
-    )
-  )
-write_ts(moves_output, "Move", "moves", moves)
-puts "✅ Movimientos generados en #{moves_output}"
+# ========================================================== #
+moves_configs = [
+  {
+    output: File.join(__dir__, "../src/data/moves.ts"),
+    inputs: [
+      File.join(__dir__, "./moves.txt"),
+      File.join(__dir__, "./moves_absolution.txt")
+    ]
+  }
+]
+
+moves_configs.each do |config|
+  moves = parse_moves(read_combined_lines(config[:inputs]))
+  write_ts(config[:output], "Move", "moves", moves)
+  puts "✅ Movimientos generados en #{config[:output]}"
+end
+
+# ========================================================== #
+# Procesar Habilidades
+# ========================================================== #
+abilities_configs = [
+  {
+    output: File.join(__dir__, "../src/data/abilities.ts"),
+    inputs: [
+      File.join(__dir__, "./abilities.txt"),
+      File.join(__dir__, "./abilities_absolution.txt")
+    ]
+  }
+]
+
+abilities_configs.each do |config|
+  abilities = parse_abilities(read_combined_lines(config[:inputs]))
+  write_ts(config[:output], "Ability", "abilities", abilities)
+  puts "✅ Habilidades generadas en #{config[:output]}"
+end
