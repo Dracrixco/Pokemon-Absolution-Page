@@ -1,11 +1,11 @@
 import React, { useState, useEffect } from "react";
 import { X, Save } from "lucide-react";
 import { fakemons } from "@/data/pokemon_absolution";
-import { moves } from "@/data/moves";
 import { abilities } from "@/data/abilities";
 import { getTypeColor } from "@/lib/type-colors";
 import type { FakemonForTeam } from "@/types/fakemon";
 import { ItemSelector } from "./pokemon-item-selector";
+import { MoveSelector } from "./pokemon-move-selector";
 
 interface PokemonEditorModalProps {
   isOpen: boolean;
@@ -144,6 +144,12 @@ export const PokemonEditorModal: React.FC<PokemonEditorModalProps> = ({
   const handleMoveChange = (index: number, moveId: string) => {
     const difficultyKey = `moves_${selectedDifficulty}` as keyof FakemonForTeam;
     const currentMoves = [...(editedPokemon[difficultyKey] as string[])];
+
+    // Asegurar que siempre tengamos 4 slots
+    while (currentMoves.length < 4) {
+      currentMoves.push("");
+    }
+
     currentMoves[index] = moveId;
     setEditedPokemon({
       ...editedPokemon,
@@ -153,7 +159,15 @@ export const PokemonEditorModal: React.FC<PokemonEditorModalProps> = ({
 
   const getCurrentMoves = () => {
     const difficultyKey = `moves_${selectedDifficulty}` as keyof FakemonForTeam;
-    return editedPokemon[difficultyKey] as string[];
+    const moves = editedPokemon[difficultyKey] as string[];
+
+    // Asegurar que siempre tengamos 4 slots
+    const paddedMoves = [...moves];
+    while (paddedMoves.length < 4) {
+      paddedMoves.push("");
+    }
+
+    return paddedMoves.slice(0, 4); // Limitar a 4 movimientos máximo
   };
 
   const getCurrentItem = () => {
@@ -224,7 +238,7 @@ export const PokemonEditorModal: React.FC<PokemonEditorModalProps> = ({
 
   return (
     <div className="fixed inset-0 bg-black bg-opacity-50 flex items-center justify-center z-50 p-4">
-      <div className="bg-white rounded-lg w-full max-w-5xl max-h-[90vh] overflow-y-auto">
+      <div className="bg-white rounded-lg w-full max-w-6xl max-h-[90vh] overflow-y-auto">
         {/* Header */}
         <div className="sticky top-0 bg-white border-b p-4 flex justify-between items-center z-10">
           <div className="flex items-center gap-4">
@@ -234,7 +248,7 @@ export const PokemonEditorModal: React.FC<PokemonEditorModalProps> = ({
               className="w-16 h-16"
               onError={(e) => {
                 e.currentTarget.src =
-                  "data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iNjQiIGhlaWdodD0iNjQiIHZpZXdCb3g9IjAgMCA2NCA2NCIgZmlsbD0ibm9uZSIgeG1zbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj4KPHJlY3Qgd2lkdGg9IjY0IiBoZWlnaHQ9IjY0IiBmaWxsPSIjRjNGNEY2Ii8+CjxwYXRoIGQ9Ik0zMiAxNkMzOC42Mjc0IDE2IDQ0IDIxLjM3MjYgNDQgMjhDNDQgMzQuNjI3NCAzOC42Mjc0IDQwIDMyIDQwQzI1LjM3MjYgNDAgMjAgMzQuNjI3NCAyMCAyOEMyMCAyMS4zNzI2IDI1LjM3MjYgMTYgMzIgMTZaIiBmaWxsPSIjRDFENURCIi8+CjxjaXJjbGUgY3g9IjI4IiBjeT0iMjUuNiIgcj0iMi40IiBmaWxsPSIjNkI3MjgwIi8+CjxjaXJjbGUgY3g9IjM2IiBjeT0iMjUuNiIgcj0iMi40IiBmaWxsPSIjNkI3MjgwIi8+CjxwYXRoIGQ9Ik0yOCAzMkMyOCAzMi44ODM2IDI4Ljg5NTQgMzMuNiAzMCAzMy42SDM0QzM1LjEwNDYgMzMuNiAzNiAzMi44ODM2IDM2IDMyVjMxLjJIMjhWMzJaIiBmaWxsPSIjNkI3MjgwIi8+Cjwvc3ZnPg==";
+                  "data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iNjQiIGhlaWdodD0iNjQiIHZpZXdCb3g9IjAgMCA2NCA2NCIgZmlsbD0ibm9uZSIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj4KPHJlY3Qgd2lkdGg9IjY0IiBoZWlnaHQ9IjY0IiBmaWxsPSIjRjNGNEY2Ii8+CjxwYXRoIGQ9Ik0zMiAxNkMzOC42Mjc0IDE2IDQ0IDIxLjM3MjYgNDQgMjhDNDQgMzQuNjI3NCAzOC42Mjc0IDQwIDMyIDQwQzI1LjM3MjYgNDAgMjAgMzQuNjI3NCAyMCAyOEMyMCAyMS4zNzI2IDI1LjM3MjYgMTYgMzIgMTZaIiBmaWxsPSIjRDFENURCIi8+CjxjaXJjbGUgY3g9IjI4IiBjeT0iMjUuNiIgcj0iMi40IiBmaWxsPSIjNkI3MjgwIi8+CjxjaXJjbGUgY3g9IjM2IiBjeT0iMjUuNiIgcj0iMi40IiBmaWxsPSIjNkI3MjgwIi8+CjxwYXRoIGQ9Ik0yOCAzMkMyOCAzMi44ODM2IDI4Ljg5NTQgMzMuNiAzMCAzMy42SDM0QzM1LjEwNDYgMzMuNiAzNiAzMi44ODM2IDM2IDMyVjMxLjJIMjhWMzJaIiBmaWxsPSIjNkI3MjgwIi8+Cjwvc3ZnPg==";
               }}
             />
             <div>
@@ -410,26 +424,22 @@ export const PokemonEditorModal: React.FC<PokemonEditorModalProps> = ({
             {/* Moves */}
             <div>
               <label className="block text-sm font-medium mb-2">
-                Movimientos
+                Movimientos (4 slots)
               </label>
-              <div className="grid grid-cols-1 md:grid-cols-2 gap-2">
+              <div className="grid grid-cols-1 md:grid-cols-2 gap-3">
                 {getCurrentMoves().map((moveId, index) => (
-                  <select
-                    key={index}
-                    value={moveId || ""}
-                    onChange={(e) => handleMoveChange(index, e.target.value)}
-                    className="px-3 py-2 border border-gray-300 rounded-lg focus:ring-2 focus:ring-blue-500"
-                  >
-                    <option value="">Seleccionar movimiento</option>
-                    {availableMoves.map((availableMoveId) => {
-                      const move = moves.find((m) => m.id === availableMoveId);
-                      return (
-                        <option key={availableMoveId} value={availableMoveId}>
-                          {move?.name || availableMoveId}
-                        </option>
-                      );
-                    })}
-                  </select>
+                  <div key={index}>
+                    <label className="block text-xs font-medium text-gray-600 mb-1">
+                      Movimiento {index + 1}
+                    </label>
+                    <MoveSelector
+                      value={moveId}
+                      onChange={(newMoveId: string) =>
+                        handleMoveChange(index, newMoveId)
+                      }
+                      availableMoves={availableMoves}
+                    />
+                  </div>
                 ))}
               </div>
             </div>
