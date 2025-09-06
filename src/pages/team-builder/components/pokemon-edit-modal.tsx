@@ -88,7 +88,26 @@ const NATURE_EFFECTS = {
 
 const NATURES = Object.keys(NATURE_EFFECTS) as (keyof typeof NATURE_EFFECTS)[];
 
+type DIFFICULTY_LEVELS_TYPE = "easy" | "normal" | "hard" | "absolution";
 const DIFFICULTY_LEVELS = ["easy", "normal", "hard", "absolution"] as const;
+
+// Función para obtener las dificultades que deben ser actualizadas en cascada
+const getDifficultiesToUpdate = (
+  currentDifficulty: DIFFICULTY_LEVELS_TYPE
+): DIFFICULTY_LEVELS_TYPE[] => {
+  switch (currentDifficulty) {
+    case "easy":
+      return ["easy", "normal", "hard", "absolution"];
+    case "normal":
+      return ["normal", "hard", "absolution"];
+    case "hard":
+      return ["hard", "absolution"];
+    case "absolution":
+      return ["absolution"];
+    default:
+      return [currentDifficulty];
+  }
+};
 
 export const PokemonEditorModal: React.FC<PokemonEditorModalProps> = ({
   isOpen,
@@ -100,7 +119,7 @@ export const PokemonEditorModal: React.FC<PokemonEditorModalProps> = ({
     null
   );
   const [selectedDifficulty, setSelectedDifficulty] =
-    useState<string>("absolution");
+    useState<DIFFICULTY_LEVELS_TYPE>("absolution");
 
   useEffect(() => {
     if (pokemon) {
@@ -142,18 +161,32 @@ export const PokemonEditorModal: React.FC<PokemonEditorModalProps> = ({
   };
 
   const handleMoveChange = (index: number, moveId: string) => {
-    const difficultyKey = `moves_${selectedDifficulty}` as keyof FakemonForTeam;
-    const currentMoves = [...(editedPokemon[difficultyKey] as string[])];
+    const difficultiesToUpdate = getDifficultiesToUpdate(selectedDifficulty);
 
-    // Asegurar que siempre tengamos 4 slots
-    while (currentMoves.length < 4) {
-      currentMoves.push("");
-    }
+    setEditedPokemon((prev) => {
+      if (!prev) return null;
 
-    currentMoves[index] = moveId;
-    setEditedPokemon({
-      ...editedPokemon,
-      [difficultyKey]: currentMoves,
+      const updated = { ...prev };
+
+      // Aplicar cambio a todas las dificultades en cascada
+      difficultiesToUpdate.forEach((difficulty) => {
+        const difficultyKey = `moves_${difficulty}` as
+          | "moves_easy"
+          | "moves_normal"
+          | "moves_hard"
+          | "moves_absolution";
+        const currentMoves = [...(updated[difficultyKey] as string[])];
+
+        // Asegurar que siempre tengamos 4 slots
+        while (currentMoves.length < 4) {
+          currentMoves.push("");
+        }
+
+        currentMoves[index] = moveId;
+        updated[difficultyKey] = currentMoves;
+      });
+
+      return updated;
     });
   };
 
@@ -176,10 +209,24 @@ export const PokemonEditorModal: React.FC<PokemonEditorModalProps> = ({
   };
 
   const handleItemChange = (item: string) => {
-    const itemKey = `item_${selectedDifficulty}` as keyof FakemonForTeam;
-    setEditedPokemon({
-      ...editedPokemon,
-      [itemKey]: item,
+    const difficultiesToUpdate = getDifficultiesToUpdate(selectedDifficulty);
+
+    setEditedPokemon((prev) => {
+      if (!prev) return null;
+
+      const updated = { ...prev };
+
+      // Aplicar cambio a todas las dificultades en cascada
+      difficultiesToUpdate.forEach((difficulty) => {
+        const itemKey = `item_${difficulty}` as
+          | "item_easy"
+          | "item_normal"
+          | "item_hard"
+          | "item_absolution";
+        updated[itemKey] = item;
+      });
+
+      return updated;
     });
   };
 
@@ -190,11 +237,24 @@ export const PokemonEditorModal: React.FC<PokemonEditorModalProps> = ({
   };
 
   const handleAbilityIndexChange = (index: number) => {
-    const abilityKey =
-      `abilityIndex_${selectedDifficulty}` as keyof FakemonForTeam;
-    setEditedPokemon({
-      ...editedPokemon,
-      [abilityKey]: index,
+    const difficultiesToUpdate = getDifficultiesToUpdate(selectedDifficulty);
+
+    setEditedPokemon((prev) => {
+      if (!prev) return null;
+
+      const updated = { ...prev };
+
+      // Aplicar cambio a todas las dificultades en cascada
+      difficultiesToUpdate.forEach((difficulty) => {
+        const abilityKey = `abilityIndex_${difficulty}` as
+          | "abilityIndex_easy"
+          | "abilityIndex_normal"
+          | "abilityIndex_hard"
+          | "abilityIndex_absolution";
+        updated[abilityKey] = index;
+      });
+
+      return updated;
     });
   };
 
@@ -366,6 +426,22 @@ export const PokemonEditorModal: React.FC<PokemonEditorModalProps> = ({
                   {level === "absolution" ? "Absolution" : level}
                 </button>
               ))}
+            </div>
+
+            {/* Cascade Info */}
+            <div className="mt-2 text-sm text-gray-600">
+              <span className="font-medium">Cascada:</span> Los cambios en{" "}
+              <span className="font-semibold capitalize">
+                {selectedDifficulty === "absolution"
+                  ? "Absolution"
+                  : selectedDifficulty}
+              </span>{" "}
+              se aplicarán a:{" "}
+              <span className="text-blue-600">
+                {getDifficultiesToUpdate(selectedDifficulty)
+                  .map((d) => (d === "absolution" ? "Absolution" : d))
+                  .join(" → ")}
+              </span>
             </div>
           </div>
 
