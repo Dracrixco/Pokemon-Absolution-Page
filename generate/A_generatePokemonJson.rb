@@ -180,7 +180,8 @@ def parse_items(lines)
         pocket: 0,
         price: 0,
         flags: "",
-        description: ""
+        description: "",
+        sprite: "/Items/#{$1.upcase}.png",
       }
     elsif current
       key, value = line.split("=", 2).map(&:strip)

@@ -6,4 +6,5 @@ export interface Item {
   price: number;
   flags: string;
   description: string;
+  sprite: string;
 }
