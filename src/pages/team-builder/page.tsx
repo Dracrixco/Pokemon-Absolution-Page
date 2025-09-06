@@ -3,11 +3,12 @@ import { Plus, Trash2, Download, X, Edit } from "lucide-react";
 import { useTeamBuilder } from "./components/team-builder-context";
 import { PokemonSelectorModal } from "./components/pokemon-selector-modal";
 import { PokemonEditorModal } from "./components/pokemon-edit-modal";
-import { fakemons } from "@/data/pokemon_absolution";
 import { getTypeColor } from "@/lib/type-colors";
 import type { Fakemon, FakemonForTeam } from "@/types/fakemon";
+import { getAllFakemons } from "@/lib/fakemons";
 
 export const TeamBuilder = () => {
+  const fakemons = getAllFakemons();
   const { team, addPokemon, removePokemon, updatePokemon, clearTeam } =
     useTeamBuilder();
   const [showPokemonSelector, setShowPokemonSelector] = useState(false);

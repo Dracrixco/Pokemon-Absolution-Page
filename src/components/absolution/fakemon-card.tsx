@@ -4,6 +4,7 @@ import type { Fakemon } from "@/types/fakemon";
 import { getTypeColor } from "@/lib/type-colors";
 import { Link } from "react-router-dom";
 import { useState } from "react";
+import { PokemonImage } from "./pokemon-image";
 
 interface FakemonCardPokemonProps {
   fakemon: Fakemon;
@@ -53,14 +54,7 @@ export default function FakemonCardPokemon({
               {/* Artwork */}
               <div className="flex-1 flex items-center justify-center p-4 bg-gradient-to-br from-purple-700/30 to-purple-800/30">
                 <div className="relative w-48 h-48 rounded-full bg-gradient-to-br from-purple-400/20 to-purple-600/20 border-2 border-purple-400/30 flex items-center justify-center">
-                  <img
-                    src={fakemon.artwork || "/placeholder.svg"}
-                    alt={`${fakemon.name} artwork`}
-                    width={160}
-                    height={160}
-                    className="object-contain pixelated"
-                    style={{ imageRendering: "pixelated" }}
-                  />
+                  <PokemonImage fakemon={fakemon} size={192} />
                 </div>
               </div>
             </div>
@@ -93,14 +87,7 @@ export default function FakemonCardPokemon({
                 {/* Sprite */}
                 <div className="flex justify-center mb-4">
                   <div className="relative w-20 h-20 rounded-full bg-gradient-to-br from-purple-400/20 to-purple-600/20 border border-purple-400/30 flex items-center justify-center">
-                    <img
-                      src={fakemon.sprite || "/placeholder.svg"}
-                      alt={`${fakemon.name} sprite`}
-                      width={64}
-                      height={64}
-                      className="object-contain pixelated"
-                      style={{ imageRendering: "pixelated" }}
-                    />
+                    <PokemonImage fakemon={fakemon} size={64} />
                   </div>
                 </div>
 
