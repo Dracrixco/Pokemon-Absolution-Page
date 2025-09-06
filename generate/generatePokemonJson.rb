@@ -65,7 +65,8 @@ def parse_fakemons(lines)
       when "HiddenAbilities"
         current[:hiddenAbilities] = value.split(",")
       when "Moves"
-        current[:moves] = value.split(",")
+        # Remove level numbers (odd indices) and keep only move names
+        current[:moves] = value.split(",").map(&:strip).reject { |v| v.match(/^\d+$/) }
       when "TutorMoves"
         current[:tutorMoves] = value.split(",")
       when "EggMoves"
