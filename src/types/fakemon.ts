@@ -1,10 +1,10 @@
-export interface Fakemon {
-  id: string;
+import type { GenericPBS } from "./genericPBS";
+
+export interface Fakemon extends GenericPBS {
   name: string;
   types: string[];
   sprite: string;
   backSprite: string;
-  description: string;
   stats: {
     hp: number;
     attack: number;
@@ -21,7 +21,6 @@ export interface Fakemon {
   moves?: string[];
   tutorMoves?: string[];
   eggMoves?: string[];
-  suffix: string;
 }
 
 export interface FakemonForTeam {

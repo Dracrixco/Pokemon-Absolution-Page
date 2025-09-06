@@ -1,6 +1,7 @@
 import React, { useState, useMemo } from "react";
 import { Search, Filter, Package, X } from "lucide-react";
-import { items } from "@/data/items";
+import { getAllItems } from "@/lib/items";
+const items = getAllItems();
 
 interface ItemEditorAdvancedProps {
   value: string;

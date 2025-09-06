@@ -1,3 +1,4 @@
+
 require "json"
 
 # ==========================
@@ -67,7 +68,10 @@ def parse_fakemons(lines, suffix)
         current[:hiddenAbilities] = value.split(",")
       when "Moves"
         # Remove level numbers (odd indices) and keep only move names
-        current[:moves] = value.split(",").map(&:strip).reject { |v| v.match(/^\d+$/) }
+        current[:moves] = value
+          .split(",")
+          .map(&:strip)
+          .reject { |v| v.match(/^\d+$/) }
       when "TutorMoves"
         current[:tutorMoves] = value.split(",")
       when "EggMoves"
@@ -84,7 +88,7 @@ def parse_fakemons(lines, suffix)
   fakemons
 end
 
-def parse_moves(lines)
+def parse_moves(lines, suffix)
   moves = []
   current = nil
 
@@ -103,7 +107,8 @@ def parse_moves(lines)
         accuracy: nil,
         totalPP: 0,
         target: "",
-        description: ""
+        description: "",
+        suffix: suffix
       }
     elsif current
       key, value = line.split("=", 2).map(&:strip)
@@ -133,7 +138,7 @@ def parse_moves(lines)
   moves
 end
 
-def parse_abilities(lines)
+def parse_abilities(lines, suffix)
   abilities = []
   current = nil
 
@@ -143,11 +148,7 @@ def parse_abilities(lines)
 
     if line.match(/^\[(.+)\]$/)
       abilities << current if current
-      current = {
-        id: $1,
-        name: "",
-        description: ""
-      }
+      current = { id: $1, name: "", description: "", suffix: suffix }
     elsif current
       key, value = line.split("=", 2).map(&:strip)
 
@@ -164,7 +165,7 @@ def parse_abilities(lines)
   abilities
 end
 
-def parse_items(lines)
+def parse_items(lines, suffix)
   items = []
   current = nil
 
@@ -183,6 +184,7 @@ def parse_items(lines)
         flags: "",
         description: "",
         sprite: "/Items/#{$1.upcase}.png",
+        suffix: suffix
       }
     elsif current
       key, value = line.split("=", 2).map(&:strip)
@@ -254,11 +256,11 @@ fakemon_configs = [
 ]
 
 fakemon_configs.each do |config|
-  fakemons = parse_fakemons(read_combined_lines(config[:inputs]), config[:suffix])
+  fakemons =
+    parse_fakemons(read_combined_lines(config[:inputs]), config[:suffix])
   write_ts(config[:output], "Fakemon", "fakemons", fakemons)
   puts "✅ Fakemons generados en #{config[:output]}"
 end
-
 
 # ========================================================== #
 # Procesar Movimientos
@@ -269,12 +271,13 @@ moves_configs = [
     inputs: [
       File.join(__dir__, "./moves.txt"),
       File.join(__dir__, "./moves_absolution.txt")
-    ]
+    ],
+    suffix: "normal"
   }
 ]
 
 moves_configs.each do |config|
-  moves = parse_moves(read_combined_lines(config[:inputs]))
+  moves = parse_moves(read_combined_lines(config[:inputs]), config[:suffix])
   write_ts(config[:output], "Move", "moves", moves)
   puts "✅ Movimientos generados en #{config[:output]}"
 end
@@ -288,12 +291,13 @@ abilities_configs = [
     inputs: [
       File.join(__dir__, "./abilities.txt"),
       File.join(__dir__, "./abilities_absolution.txt")
-    ]
+    ],
+    suffix: "normal"
   }
 ]
 
 abilities_configs.each do |config|
-  abilities = parse_abilities(read_combined_lines(config[:inputs]))
+  abilities = parse_abilities(read_combined_lines(config[:inputs]),config[:suffix])
   write_ts(config[:output], "Ability", "abilities", abilities)
   puts "✅ Habilidades generadas en #{config[:output]}"
 end
@@ -307,12 +311,18 @@ items_configs = [
     inputs: [
       File.join(__dir__, "./items.txt"),
       File.join(__dir__, "./items_absolution.txt")
-    ]
+    ],
+    suffix: "normal"
+  },
+  {
+    output: File.join(__dir__, "../src/data/items_absolution.ts"),
+    inputs: [File.join(__dir__, "./items_absolution.txt")],
+    suffix: "absolution"
   }
 ]
 
 items_configs.each do |config|
-  items = parse_items(read_combined_lines(config[:inputs]))
+  items = parse_items(read_combined_lines(config[:inputs]),config[:suffix])
   write_ts(config[:output], "Item", "items", items)
   puts "✅ Items generados en #{config[:output]}"
 end

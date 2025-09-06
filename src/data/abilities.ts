@@ -5,1616 +5,1939 @@ export const abilities: Ability[] =
   {
     id: "STENCH",
     name: "Stench",
-    description: "The stench may cause the target to flinch."
+    description: "The stench may cause the target to flinch.",
+    suffix: "normal"
   },
   {
     id: "DRIZZLE",
     name: "Drizzle",
-    description: "The Pokémon makes it rain if it appears in battle."
+    description: "The Pokémon makes it rain if it appears in battle.",
+    suffix: "normal"
   },
   {
     id: "SPEEDBOOST",
     name: "Speed Boost",
-    description: "Its Speed stat is gradually boosted."
+    description: "Its Speed stat is gradually boosted.",
+    suffix: "normal"
   },
   {
     id: "BATTLEARMOR",
     name: "Battle Armor",
-    description: "The Pokémon is protected against critical hits."
+    description: "The Pokémon is protected against critical hits.",
+    suffix: "normal"
   },
   {
     id: "STURDY",
     name: "Sturdy",
-    description: "It cannot be knocked out with one hit."
+    description: "It cannot be knocked out with one hit.",
+    suffix: "normal"
   },
   {
     id: "DAMP",
     name: "Damp",
-    description: "Prevents the use of self-destructing moves."
+    description: "Prevents the use of self-destructing moves.",
+    suffix: "normal"
   },
   {
     id: "LIMBER",
     name: "Limber",
-    description: "The Pokémon is protected from paralysis."
+    description: "The Pokémon is protected from paralysis.",
+    suffix: "normal"
   },
   {
     id: "SANDVEIL",
     name: "Sand Veil",
-    description: "Boosts the Pokémon's evasion in a sandstorm."
+    description: "Boosts the Pokémon's evasion in a sandstorm.",
+    suffix: "normal"
   },
   {
     id: "STATIC",
     name: "Static",
-    description: "Contact with the Pokémon may cause paralysis."
+    description: "Contact with the Pokémon may cause paralysis.",
+    suffix: "normal"
   },
   {
     id: "VOLTABSORB",
     name: "Volt Absorb",
-    description: "Restores HP if hit by an Electric-type move."
+    description: "Restores HP if hit by an Electric-type move.",
+    suffix: "normal"
   },
   {
     id: "WATERABSORB",
     name: "Water Absorb",
-    description: "Restores HP if hit by a Water-type move."
+    description: "Restores HP if hit by a Water-type move.",
+    suffix: "normal"
   },
   {
     id: "OBLIVIOUS",
     name: "Oblivious",
-    description: "Prevents it from becoming infatuated."
+    description: "Prevents it from becoming infatuated.",
+    suffix: "normal"
   },
   {
     id: "CLOUDNINE",
     name: "Cloud Nine",
-    description: "Eliminates the effects of weather."
+    description: "Eliminates the effects of weather.",
+    suffix: "normal"
   },
   {
     id: "COMPOUNDEYES",
     name: "Compound Eyes",
-    description: "The Pokémon's accuracy is boosted."
+    description: "The Pokémon's accuracy is boosted.",
+    suffix: "normal"
   },
   {
     id: "INSOMNIA",
     name: "Insomnia",
-    description: "Prevents the Pokémon from falling asleep."
+    description: "Prevents the Pokémon from falling asleep.",
+    suffix: "normal"
   },
   {
     id: "COLORCHANGE",
     name: "Color Change",
-    description: "Changes the Pokémon's type to the foe's move."
+    description: "Changes the Pokémon's type to the foe's move.",
+    suffix: "normal"
   },
   {
     id: "IMMUNITY",
     name: "Immunity",
-    description: "Prevents the Pokémon from getting poisoned."
+    description: "Prevents the Pokémon from getting poisoned.",
+    suffix: "normal"
   },
   {
     id: "FLASHFIRE",
     name: "Flash Fire",
-    description: "It powers up Fire-type moves if it's hit by one."
+    description: "It powers up Fire-type moves if it's hit by one.",
+    suffix: "normal"
   },
   {
     id: "SHIELDDUST",
     name: "Shield Dust",
-    description: "Blocks the added effects of attacks taken."
+    description: "Blocks the added effects of attacks taken.",
+    suffix: "normal"
   },
   {
     id: "OWNTEMPO",
     name: "Own Tempo",
-    description: "Prevents the Pokémon from becoming confused."
+    description: "Prevents the Pokémon from becoming confused.",
+    suffix: "normal"
   },
   {
     id: "SUCTIONCUPS",
     name: "Suction Cups",
-    description: "Negates all moves that force switching out."
+    description: "Negates all moves that force switching out.",
+    suffix: "normal"
   },
   {
     id: "INTIMIDATE",
     name: "Intimidate",
-    description: "Lowers the foe's Attack stat."
+    description: "Lowers the foe's Attack stat.",
+    suffix: "normal"
   },
   {
     id: "SHADOWTAG",
     name: "Shadow Tag",
-    description: "Prevents the foe from escaping."
+    description: "Prevents the foe from escaping.",
+    suffix: "normal"
   },
   {
     id: "ROUGHSKIN",
     name: "Rough Skin",
-    description: "Inflicts damage to the foe on contact."
+    description: "Inflicts damage to the foe on contact.",
+    suffix: "normal"
   },
   {
     id: "WONDERGUARD",
     name: "Wonder Guard",
-    description: "Only super-effective moves will hit."
+    description: "Only super-effective moves will hit.",
+    suffix: "normal"
   },
   {
     id: "LEVITATE",
     name: "Levitate",
-    description: "Gives full immunity to all Ground-type moves."
+    description: "Gives full immunity to all Ground-type moves.",
+    suffix: "normal"
   },
   {
     id: "EFFECTSPORE",
     name: "Effect Spore",
-    description: "Contact may poison or cause paralysis or sleep."
+    description: "Contact may poison or cause paralysis or sleep.",
+    suffix: "normal"
   },
   {
     id: "SYNCHRONIZE",
     name: "Synchronize",
-    description: "Passes a burn, poison, or paralysis to the foe."
+    description: "Passes a burn, poison, or paralysis to the foe.",
+    suffix: "normal"
   },
   {
     id: "CLEARBODY",
     name: "Clear Body",
-    description: "Prevents other Pokémon from lowering its stats."
+    description: "Prevents other Pokémon from lowering its stats.",
+    suffix: "normal"
   },
   {
     id: "NATURALCURE",
     name: "Natural Cure",
-    description: "All status problems heal when it switches out."
+    description: "All status problems heal when it switches out.",
+    suffix: "normal"
   },
   {
     id: "LIGHTNINGROD",
     name: "Lightning Rod",
-    description: "Draws in all Electric-type moves to up Sp. Attack."
+    description: "Draws in all Electric-type moves to up Sp. Attack.",
+    suffix: "normal"
   },
   {
     id: "SERENEGRACE",
     name: "Serene Grace",
-    description: "Boosts the likelihood of added effects appearing."
+    description: "Boosts the likelihood of added effects appearing.",
+    suffix: "normal"
   },
   {
     id: "SWIFTSWIM",
     name: "Swift Swim",
-    description: "Boosts the Pokémon's Speed in rain."
+    description: "Boosts the Pokémon's Speed in rain.",
+    suffix: "normal"
   },
   {
     id: "CHLOROPHYLL",
     name: "Chlorophyll",
-    description: "Boosts the Pokémon's Speed in sunshine."
+    description: "Boosts the Pokémon's Speed in sunshine.",
+    suffix: "normal"
   },
   {
     id: "ILLUMINATE",
     name: "Illuminate",
-    description: "Raises the likelihood of meeting wild Pokémon."
+    description: "Raises the likelihood of meeting wild Pokémon.",
+    suffix: "normal"
   },
   {
     id: "TRACE",
     name: "Trace",
-    description: "The Pokémon copies a foe's Ability."
+    description: "The Pokémon copies a foe's Ability.",
+    suffix: "normal"
   },
   {
     id: "HUGEPOWER",
     name: "Huge Power",
-    description: "Raises the Pokémon's Attack stat."
+    description: "Raises the Pokémon's Attack stat.",
+    suffix: "normal"
   },
   {
     id: "POISONPOINT",
     name: "Poison Point",
-    description: "Contact with the Pokémon may poison the attacker."
+    description: "Contact with the Pokémon may poison the attacker.",
+    suffix: "normal"
   },
   {
     id: "INNERFOCUS",
     name: "Inner Focus",
-    description: "The Pokémon is protected from flinching."
+    description: "The Pokémon is protected from flinching.",
+    suffix: "normal"
   },
   {
     id: "MAGMAARMOR",
     name: "Magma Armor",
-    description: "Prevents the Pokémon from becoming frozen."
+    description: "Prevents the Pokémon from becoming frozen.",
+    suffix: "normal"
   },
   {
     id: "WATERVEIL",
     name: "Water Veil",
-    description: "Prevents the Pokémon from getting a burn."
+    description: "Prevents the Pokémon from getting a burn.",
+    suffix: "normal"
   },
   {
     id: "MAGNETPULL",
     name: "Magnet Pull",
-    description: "Prevents Steel-type Pokémon from escaping."
+    description: "Prevents Steel-type Pokémon from escaping.",
+    suffix: "normal"
   },
   {
     id: "SOUNDPROOF",
     name: "Soundproof",
-    description: "Gives full immunity to all sound-based moves."
+    description: "Gives full immunity to all sound-based moves.",
+    suffix: "normal"
   },
   {
     id: "RAINDISH",
     name: "Rain Dish",
-    description: "The Pokémon gradually regains HP in rain."
+    description: "The Pokémon gradually regains HP in rain.",
+    suffix: "normal"
   },
   {
     id: "SANDSTREAM",
     name: "Sand Stream",
-    description: "The Pokémon summons a sandstorm in battle."
+    description: "The Pokémon summons a sandstorm in battle.",
+    suffix: "normal"
   },
   {
     id: "PRESSURE",
     name: "Pressure",
-    description: "The Pokémon raises the foe's PP usage."
+    description: "The Pokémon raises the foe's PP usage.",
+    suffix: "normal"
   },
   {
     id: "THICKFAT",
     name: "Thick Fat",
-    description: "Ups resistance to Fire- and Ice-type moves."
+    description: "Ups resistance to Fire- and Ice-type moves.",
+    suffix: "normal"
   },
   {
     id: "EARLYBIRD",
     name: "Early Bird",
-    description: "The Pokémon awakens quickly from sleep."
+    description: "The Pokémon awakens quickly from sleep.",
+    suffix: "normal"
   },
   {
     id: "FLAMEBODY",
     name: "Flame Body",
-    description: "Contact with the Pokémon may burn the attacker."
+    description: "Contact with the Pokémon may burn the attacker.",
+    suffix: "normal"
   },
   {
     id: "RUNAWAY",
     name: "Run Away",
-    description: "Enables a sure getaway from wild Pokémon."
+    description: "Enables a sure getaway from wild Pokémon.",
+    suffix: "normal"
   },
   {
     id: "KEENEYE",
     name: "Keen Eye",
-    description: "Prevents other Pokémon from lowering accuracy."
+    description: "Prevents other Pokémon from lowering accuracy.",
+    suffix: "normal"
   },
   {
     id: "HYPERCUTTER",
     name: "Hyper Cutter",
-    description: "Prevents other Pokémon from lowering Attack stat."
+    description: "Prevents other Pokémon from lowering Attack stat.",
+    suffix: "normal"
   },
   {
     id: "PICKUP",
     name: "Pickup",
-    description: "The Pokémon may pick up items."
+    description: "The Pokémon may pick up items.",
+    suffix: "normal"
   },
   {
     id: "TRUANT",
     name: "Truant",
-    description: "Pokémon can't attack on consecutive turns."
+    description: "Pokémon can't attack on consecutive turns.",
+    suffix: "normal"
   },
   {
     id: "HUSTLE",
     name: "Hustle",
-    description: "Boosts the Attack stat, but lowers accuracy."
+    description: "Boosts the Attack stat, but lowers accuracy.",
+    suffix: "normal"
   },
   {
     id: "CUTECHARM",
     name: "Cute Charm",
-    description: "Contact with the Pokémon may cause infatuation."
+    description: "Contact with the Pokémon may cause infatuation.",
+    suffix: "normal"
   },
   {
     id: "PLUS",
     name: "Plus",
-    description: "Ups Sp. Atk if another Pokémon has Plus or Minus."
+    description: "Ups Sp. Atk if another Pokémon has Plus or Minus.",
+    suffix: "normal"
   },
   {
     id: "MINUS",
     name: "Minus",
-    description: "Ups Sp. Atk if another Pokémon has Plus or Minus."
+    description: "Ups Sp. Atk if another Pokémon has Plus or Minus.",
+    suffix: "normal"
   },
   {
     id: "FORECAST",
     name: "Forecast",
-    description: "Castform transforms with the weather."
+    description: "Castform transforms with the weather.",
+    suffix: "normal"
   },
   {
     id: "STICKYHOLD",
     name: "Sticky Hold",
-    description: "Protects the Pokémon from item theft."
+    description: "Protects the Pokémon from item theft.",
+    suffix: "normal"
   },
   {
     id: "SHEDSKIN",
     name: "Shed Skin",
-    description: "The Pokémon may heal its own status problems."
+    description: "The Pokémon may heal its own status problems.",
+    suffix: "normal"
   },
   {
     id: "GUTS",
     name: "Guts",
-    description: "Boosts Attack if there is a status problem."
+    description: "Boosts Attack if there is a status problem.",
+    suffix: "normal"
   },
   {
     id: "MARVELSCALE",
     name: "Marvel Scale",
-    description: "Ups Defense if there is a status problem."
+    description: "Ups Defense if there is a status problem.",
+    suffix: "normal"
   },
   {
     id: "LIQUIDOOZE",
     name: "Liquid Ooze",
-    description: "Damages attackers using any draining move."
+    description: "Damages attackers using any draining move.",
+    suffix: "normal"
   },
   {
     id: "OVERGROW",
     name: "Overgrow",
-    description: "Powers up Grass-type moves in a pinch."
+    description: "Powers up Grass-type moves in a pinch.",
+    suffix: "normal"
   },
   {
     id: "BLAZE",
     name: "Blaze",
-    description: "Powers up Fire-type moves in a pinch."
+    description: "Powers up Fire-type moves in a pinch.",
+    suffix: "normal"
   },
   {
     id: "TORRENT",
     name: "Torrent",
-    description: "Powers up Water-type moves in a pinch."
+    description: "Powers up Water-type moves in a pinch.",
+    suffix: "normal"
   },
   {
     id: "SWARM",
     name: "Swarm",
-    description: "Powers up Bug-type moves in a pinch."
+    description: "Powers up Bug-type moves in a pinch.",
+    suffix: "normal"
   },
   {
     id: "ROCKHEAD",
     name: "Rock Head",
-    description: "Protects the Pokémon from recoil damage."
+    description: "Protects the Pokémon from recoil damage.",
+    suffix: "normal"
   },
   {
     id: "DROUGHT",
     name: "Drought",
-    description: "Turns the sunlight harsh if it is in battle."
+    description: "Turns the sunlight harsh if it is in battle.",
+    suffix: "normal"
   },
   {
     id: "ARENATRAP",
     name: "Arena Trap",
-    description: "Prevents the foe from fleeing."
+    description: "Prevents the foe from fleeing.",
+    suffix: "normal"
   },
   {
     id: "VITALSPIRIT",
     name: "Vital Spirit",
-    description: "Prevents the Pokémon from falling asleep."
+    description: "Prevents the Pokémon from falling asleep.",
+    suffix: "normal"
   },
   {
     id: "WHITESMOKE",
     name: "White Smoke",
-    description: "Prevents other Pokémon from lowering its stats."
+    description: "Prevents other Pokémon from lowering its stats.",
+    suffix: "normal"
   },
   {
     id: "PUREPOWER",
     name: "Pure Power",
-    description: "Raises the Pokémon's Attack stat."
+    description: "Raises the Pokémon's Attack stat.",
+    suffix: "normal"
   },
   {
     id: "SHELLARMOR",
     name: "Shell Armor",
-    description: "The Pokémon is protected against critical hits."
+    description: "The Pokémon is protected against critical hits.",
+    suffix: "normal"
   },
   {
     id: "AIRLOCK",
     name: "Air Lock",
-    description: "Eliminates the effects of weather."
+    description: "Eliminates the effects of weather.",
+    suffix: "normal"
   },
   {
     id: "TANGLEDFEET",
     name: "Tangled Feet",
-    description: "Raises evasion if the Pokémon is confused."
+    description: "Raises evasion if the Pokémon is confused.",
+    suffix: "normal"
   },
   {
     id: "MOTORDRIVE",
     name: "Motor Drive",
-    description: "Raises Speed if hit by an Electric-type move."
+    description: "Raises Speed if hit by an Electric-type move.",
+    suffix: "normal"
   },
   {
     id: "RIVALRY",
     name: "Rivalry",
-    description: "Deals more damage to a foe of the same gender."
+    description: "Deals more damage to a foe of the same gender.",
+    suffix: "normal"
   },
   {
     id: "STEADFAST",
     name: "Steadfast",
-    description: "Raises Speed each time the Pokémon flinches."
+    description: "Raises Speed each time the Pokémon flinches.",
+    suffix: "normal"
   },
   {
     id: "SNOWCLOAK",
     name: "Snow Cloak",
-    description: "Raises evasion in a hailstorm."
+    description: "Raises evasion in a hailstorm.",
+    suffix: "normal"
   },
   {
     id: "GLUTTONY",
     name: "Gluttony",
-    description: "Encourages the early use of a held Berry."
+    description: "Encourages the early use of a held Berry.",
+    suffix: "normal"
   },
   {
     id: "ANGERPOINT",
     name: "Anger Point",
-    description: "Maxes Attack after taking a critical hit."
+    description: "Maxes Attack after taking a critical hit.",
+    suffix: "normal"
   },
   {
     id: "UNBURDEN",
     name: "Unburden",
-    description: "Raises Speed if a held item is used."
+    description: "Raises Speed if a held item is used.",
+    suffix: "normal"
   },
   {
     id: "HEATPROOF",
     name: "Heatproof",
-    description: "Weakens the power of Fire-type moves."
+    description: "Weakens the power of Fire-type moves.",
+    suffix: "normal"
   },
   {
     id: "SIMPLE",
     name: "Simple",
-    description: "The Pokémon is prone to wild stat changes."
+    description: "The Pokémon is prone to wild stat changes.",
+    suffix: "normal"
   },
   {
     id: "DRYSKIN",
     name: "Dry Skin",
-    description: "Reduces HP if it is hot. Water restores HP."
+    description: "Reduces HP if it is hot. Water restores HP.",
+    suffix: "normal"
   },
   {
     id: "DOWNLOAD",
     name: "Download",
-    description: "Adjusts power according to a foe's defenses."
+    description: "Adjusts power according to a foe's defenses.",
+    suffix: "normal"
   },
   {
     id: "IRONFIST",
     name: "Iron Fist",
-    description: "Boosts the power of punching moves."
+    description: "Boosts the power of punching moves.",
+    suffix: "normal"
   },
   {
     id: "POISONHEAL",
     name: "Poison Heal",
-    description: "Restores HP if the Pokémon is poisoned."
+    description: "Restores HP if the Pokémon is poisoned.",
+    suffix: "normal"
   },
   {
     id: "ADAPTABILITY",
     name: "Adaptability",
-    description: "Powers up moves of the same type."
+    description: "Powers up moves of the same type.",
+    suffix: "normal"
   },
   {
     id: "SKILLLINK",
     name: "Skill Link",
-    description: "Increases the frequency of multi-strike moves."
+    description: "Increases the frequency of multi-strike moves.",
+    suffix: "normal"
   },
   {
     id: "HYDRATION",
     name: "Hydration",
-    description: "Heals status problems if it is raining."
+    description: "Heals status problems if it is raining.",
+    suffix: "normal"
   },
   {
     id: "SOLARPOWER",
     name: "Solar Power",
-    description: "In sunshine, Sp. Atk is boosted but HP decreases."
+    description: "In sunshine, Sp. Atk is boosted but HP decreases.",
+    suffix: "normal"
   },
   {
     id: "QUICKFEET",
     name: "Quick Feet",
-    description: "Boosts Speed if there is a status problem."
+    description: "Boosts Speed if there is a status problem.",
+    suffix: "normal"
   },
   {
     id: "NORMALIZE",
     name: "Normalize",
-    description: "All the Pokémon's moves become the Normal type."
+    description: "All the Pokémon's moves become the Normal type.",
+    suffix: "normal"
   },
   {
     id: "SNIPER",
     name: "Sniper",
-    description: "Powers up moves if they become critical hits."
+    description: "Powers up moves if they become critical hits.",
+    suffix: "normal"
   },
   {
     id: "MAGICGUARD",
     name: "Magic Guard",
-    description: "The Pokémon only takes damage from attacks."
+    description: "The Pokémon only takes damage from attacks.",
+    suffix: "normal"
   },
   {
     id: "NOGUARD",
     name: "No Guard",
-    description: "Ensures attacks by or against the Pokémon land."
+    description: "Ensures attacks by or against the Pokémon land.",
+    suffix: "normal"
   },
   {
     id: "STALL",
     name: "Stall",
-    description: "The Pokémon moves after all other Pokémon do."
+    description: "The Pokémon moves after all other Pokémon do.",
+    suffix: "normal"
   },
   {
     id: "TECHNICIAN",
     name: "Technician",
-    description: "Powers up the Pokémon's weaker moves."
+    description: "Powers up the Pokémon's weaker moves.",
+    suffix: "normal"
   },
   {
     id: "LEAFGUARD",
     name: "Leaf Guard",
-    description: "Prevents problems with status in sunny weather."
+    description: "Prevents problems with status in sunny weather.",
+    suffix: "normal"
   },
   {
     id: "KLUTZ",
     name: "Klutz",
-    description: "The Pokémon can't use any held items."
+    description: "The Pokémon can't use any held items.",
+    suffix: "normal"
   },
   {
     id: "MOLDBREAKER",
     name: "Mold Breaker",
-    description: "Moves can be used regardless of Abilities."
+    description: "Moves can be used regardless of Abilities.",
+    suffix: "normal"
   },
   {
     id: "SUPERLUCK",
     name: "Super Luck",
-    description: "Heightens the critical-hit ratios of moves."
+    description: "Heightens the critical-hit ratios of moves.",
+    suffix: "normal"
   },
   {
     id: "AFTERMATH",
     name: "Aftermath",
-    description: "Damages the attacker landing the finishing hit."
+    description: "Damages the attacker landing the finishing hit.",
+    suffix: "normal"
   },
   {
     id: "ANTICIPATION",
     name: "Anticipation",
-    description: "Senses a foe's dangerous moves."
+    description: "Senses a foe's dangerous moves.",
+    suffix: "normal"
   },
   {
     id: "FOREWARN",
     name: "Forewarn",
-    description: "Determines what moves a foe has."
+    description: "Determines what moves a foe has.",
+    suffix: "normal"
   },
   {
     id: "UNAWARE",
     name: "Unaware",
-    description: "Ignores any stat changes in the Pokémon."
+    description: "Ignores any stat changes in the Pokémon.",
+    suffix: "normal"
   },
   {
     id: "TINTEDLENS",
     name: "Tinted Lens",
-    description: "Powers up 'not very effective' moves."
+    description: "Powers up 'not very effective' moves.",
+    suffix: "normal"
   },
   {
     id: "FILTER",
     name: "Filter",
-    description: "Reduces damage from super-effective attacks."
+    description: "Reduces damage from super-effective attacks.",
+    suffix: "normal"
   },
   {
     id: "SLOWSTART",
     name: "Slow Start",
-    description: "Temporarily halves Attack and Speed."
+    description: "Temporarily halves Attack and Speed.",
+    suffix: "normal"
   },
   {
     id: "SCRAPPY",
     name: "Scrappy",
-    description: "Enables moves to hit Ghost-type Pokémon."
+    description: "Enables moves to hit Ghost-type Pokémon.",
+    suffix: "normal"
   },
   {
     id: "STORMDRAIN",
     name: "Storm Drain",
-    description: "Draws in all Water-type moves to up Sp. Attack."
+    description: "Draws in all Water-type moves to up Sp. Attack.",
+    suffix: "normal"
   },
   {
     id: "ICEBODY",
     name: "Ice Body",
-    description: "The Pokémon gradually regains HP in a hailstorm."
+    description: "The Pokémon gradually regains HP in a hailstorm.",
+    suffix: "normal"
   },
   {
     id: "SOLIDROCK",
     name: "Solid Rock",
-    description: "Reduces damage from super-effective attacks."
+    description: "Reduces damage from super-effective attacks.",
+    suffix: "normal"
   },
   {
     id: "SNOWWARNING",
     name: "Snow Warning",
-    description: "The Pokémon summons a hailstorm in battle."
+    description: "The Pokémon summons a hailstorm in battle.",
+    suffix: "normal"
   },
   {
     id: "HONEYGATHER",
     name: "Honey Gather",
-    description: "The Pokémon may gather Honey from somewhere."
+    description: "The Pokémon may gather Honey from somewhere.",
+    suffix: "normal"
   },
   {
     id: "FRISK",
     name: "Frisk",
-    description: "The Pokémon can check a foe's held item."
+    description: "The Pokémon can check a foe's held item.",
+    suffix: "normal"
   },
   {
     id: "RECKLESS",
     name: "Reckless",
-    description: "Powers up moves that have recoil damage."
+    description: "Powers up moves that have recoil damage.",
+    suffix: "normal"
   },
   {
     id: "MULTITYPE",
     name: "Multitype",
-    description: "Changes type to match the held Plate."
+    description: "Changes type to match the held Plate.",
+    suffix: "normal"
   },
   {
     id: "FLOWERGIFT",
     name: "Flower Gift",
-    description: "Powers up party Pokémon when it is sunny."
+    description: "Powers up party Pokémon when it is sunny.",
+    suffix: "normal"
   },
   {
     id: "BADDREAMS",
     name: "Bad Dreams",
-    description: "Reduces a sleeping foe's HP."
+    description: "Reduces a sleeping foe's HP.",
+    suffix: "normal"
   },
   {
     id: "PICKPOCKET",
     name: "Pickpocket",
-    description: "Steals an item when hit by another Pokémon."
+    description: "Steals an item when hit by another Pokémon.",
+    suffix: "normal"
   },
   {
     id: "SHEERFORCE",
     name: "Sheer Force",
-    description: "Removes added effects to increase move damage."
+    description: "Removes added effects to increase move damage.",
+    suffix: "normal"
   },
   {
     id: "CONTRARY",
     name: "Contrary",
-    description: "Makes stat changes have an opposite effect."
+    description: "Makes stat changes have an opposite effect.",
+    suffix: "normal"
   },
   {
     id: "UNNERVE",
     name: "Unnerve",
-    description: "Makes the foe nervous and unable to eat Berries."
+    description: "Makes the foe nervous and unable to eat Berries.",
+    suffix: "normal"
   },
   {
     id: "DEFIANT",
     name: "Defiant",
-    description: "When its stats are lowered its Attack increases."
+    description: "When its stats are lowered its Attack increases.",
+    suffix: "normal"
   },
   {
     id: "DEFEATIST",
     name: "Defeatist",
-    description: "Lowers stats when HP becomes half or less."
+    description: "Lowers stats when HP becomes half or less.",
+    suffix: "normal"
   },
   {
     id: "CURSEDBODY",
     name: "Cursed Body",
-    description: "May disable a move used on the Pokémon."
+    description: "May disable a move used on the Pokémon.",
+    suffix: "normal"
   },
   {
     id: "HEALER",
     name: "Healer",
-    description: "May heal an ally's status conditions."
+    description: "May heal an ally's status conditions.",
+    suffix: "normal"
   },
   {
     id: "FRIENDGUARD",
     name: "Friend Guard",
-    description: "Reduces damage done to allies."
+    description: "Reduces damage done to allies.",
+    suffix: "normal"
   },
   {
     id: "WEAKARMOR",
     name: "Weak Armor",
-    description: "Physical attacks lower Defense and raise Speed."
+    description: "Physical attacks lower Defense and raise Speed.",
+    suffix: "normal"
   },
   {
     id: "HEAVYMETAL",
     name: "Heavy Metal",
-    description: "Doubles the Pokémon's weight."
+    description: "Doubles the Pokémon's weight.",
+    suffix: "normal"
   },
   {
     id: "LIGHTMETAL",
     name: "Light Metal",
-    description: "Halves the Pokémon's weight."
+    description: "Halves the Pokémon's weight.",
+    suffix: "normal"
   },
   {
     id: "MULTISCALE",
     name: "Multiscale",
-    description: "Reduces damage when HP is full."
+    description: "Reduces damage when HP is full.",
+    suffix: "normal"
   },
   {
     id: "TOXICBOOST",
     name: "Toxic Boost",
-    description: "Powers up physical attacks when poisoned."
+    description: "Powers up physical attacks when poisoned.",
+    suffix: "normal"
   },
   {
     id: "FLAREBOOST",
     name: "Flare Boost",
-    description: "Powers up special attacks when burned."
+    description: "Powers up special attacks when burned.",
+    suffix: "normal"
   },
   {
     id: "HARVEST",
     name: "Harvest",
-    description: "May create another Berry after one is used."
+    description: "May create another Berry after one is used.",
+    suffix: "normal"
   },
   {
     id: "TELEPATHY",
     name: "Telepathy",
-    description: "Anticipates an ally's attack and dodges it."
+    description: "Anticipates an ally's attack and dodges it.",
+    suffix: "normal"
   },
   {
     id: "MOODY",
     name: "Moody",
-    description: "Raises one stat and lowers another."
+    description: "Raises one stat and lowers another.",
+    suffix: "normal"
   },
   {
     id: "OVERCOAT",
     name: "Overcoat",
-    description: "Protects the Pokémon from damage from weather."
+    description: "Protects the Pokémon from damage from weather.",
+    suffix: "normal"
   },
   {
     id: "POISONTOUCH",
     name: "Poison Touch",
-    description: "May poison targets when a Pokémon makes contact."
+    description: "May poison targets when a Pokémon makes contact.",
+    suffix: "normal"
   },
   {
     id: "REGENERATOR",
     name: "Regenerator",
-    description: "Restores a little HP when withdrawn from battle."
+    description: "Restores a little HP when withdrawn from battle.",
+    suffix: "normal"
   },
   {
     id: "BIGPECKS",
     name: "Big Pecks",
-    description: "Protects from Defense-lowering attacks."
+    description: "Protects from Defense-lowering attacks.",
+    suffix: "normal"
   },
   {
     id: "SANDRUSH",
     name: "Sand Rush",
-    description: "Boosts the Pokémon's Speed in a sandstorm."
+    description: "Boosts the Pokémon's Speed in a sandstorm.",
+    suffix: "normal"
   },
   {
     id: "WONDERSKIN",
     name: "Wonder Skin",
-    description: "Makes status-changing moves more likely to miss."
+    description: "Makes status-changing moves more likely to miss.",
+    suffix: "normal"
   },
   {
     id: "ANALYTIC",
     name: "Analytic",
-    description: "Boosts move power when the Pokémon moves last."
+    description: "Boosts move power when the Pokémon moves last.",
+    suffix: "normal"
   },
   {
     id: "ILLUSION",
     name: "Illusion",
-    description: "Comes out disguised as the Pokémon in back."
+    description: "Comes out disguised as the Pokémon in back.",
+    suffix: "normal"
   },
   {
     id: "IMPOSTER",
     name: "Imposter",
-    description: "It transforms itself into the Pokémon it is facing."
+    description: "It transforms itself into the Pokémon it is facing.",
+    suffix: "normal"
   },
   {
     id: "INFILTRATOR",
     name: "Infiltrator",
-    description: "Passes through the foe's barrier and strikes."
+    description: "Passes through the foe's barrier and strikes.",
+    suffix: "normal"
   },
   {
     id: "MUMMY",
     name: "Mummy",
-    description: "Contact with this Pokémon spreads this Ability."
+    description: "Contact with this Pokémon spreads this Ability.",
+    suffix: "normal"
   },
   {
     id: "MOXIE",
     name: "Moxie",
-    description: "Boosts Attack after knocking out any Pokémon."
+    description: "Boosts Attack after knocking out any Pokémon.",
+    suffix: "normal"
   },
   {
     id: "JUSTIFIED",
     name: "Justified",
-    description: "Raises Attack when hit by a Dark-type move."
+    description: "Raises Attack when hit by a Dark-type move.",
+    suffix: "normal"
   },
   {
     id: "RATTLED",
     name: "Rattled",
-    description: "Some move types scare it and boost its Speed."
+    description: "Some move types scare it and boost its Speed.",
+    suffix: "normal"
   },
   {
     id: "MAGICBOUNCE",
     name: "Magic Bounce",
-    description: "Reflects status-changing moves."
+    description: "Reflects status-changing moves.",
+    suffix: "normal"
   },
   {
     id: "SAPSIPPER",
     name: "Sap Sipper",
-    description: "Boosts Attack when hit by a Grass-type move."
+    description: "Boosts Attack when hit by a Grass-type move.",
+    suffix: "normal"
   },
   {
     id: "PRANKSTER",
     name: "Prankster",
-    description: "Gives priority to a status move."
+    description: "Gives priority to a status move.",
+    suffix: "normal"
   },
   {
     id: "SANDFORCE",
     name: "Sand Force",
-    description: "Boosts certain moves' power in a sandstorm."
+    description: "Boosts certain moves' power in a sandstorm.",
+    suffix: "normal"
   },
   {
     id: "IRONBARBS",
     name: "Iron Barbs",
-    description: "Inflicts damage to the Pokémon on contact."
+    description: "Inflicts damage to the Pokémon on contact.",
+    suffix: "normal"
   },
   {
     id: "ZENMODE",
     name: "Zen Mode",
-    description: "Changes the Pokémon's shape when HP is halved."
+    description: "Changes the Pokémon's shape when HP is halved.",
+    suffix: "normal"
   },
   {
     id: "VICTORYSTAR",
     name: "Victory Star",
-    description: "Boosts the accuracy of its allies and itself."
+    description: "Boosts the accuracy of its allies and itself.",
+    suffix: "normal"
   },
   {
     id: "TURBOBLAZE",
     name: "Turboblaze",
-    description: "Moves can be used regardless of Abilities."
+    description: "Moves can be used regardless of Abilities.",
+    suffix: "normal"
   },
   {
     id: "TERAVOLT",
     name: "Teravolt",
-    description: "Moves can be used regardless of Abilities."
+    description: "Moves can be used regardless of Abilities.",
+    suffix: "normal"
   },
   {
     id: "AROMAVEIL",
     name: "Aroma Veil",
-    description: "Protects against attacks that limit move choices."
+    description: "Protects against attacks that limit move choices.",
+    suffix: "normal"
   },
   {
     id: "FLOWERVEIL",
     name: "Flower Veil",
-    description: "Protects Grass-type allies from stat/status effects."
+    description: "Protects Grass-type allies from stat/status effects.",
+    suffix: "normal"
   },
   {
     id: "CHEEKPOUCH",
     name: "Cheek Pouch",
-    description: "Restores HP as well when the Pokémon eats a Berry."
+    description: "Restores HP as well when the Pokémon eats a Berry.",
+    suffix: "normal"
   },
   {
     id: "PROTEAN",
     name: "Protean",
-    description: "It changes type to that of the move it's about to use."
+    description: "It changes type to that of the move it's about to use.",
+    suffix: "normal"
   },
   {
     id: "FURCOAT",
     name: "Fur Coat",
-    description: "Halves the damage from physical moves."
+    description: "Halves the damage from physical moves.",
+    suffix: "normal"
   },
   {
     id: "MAGICIAN",
     name: "Magician",
-    description: "Steals the held item of a Pokémon it hits."
+    description: "Steals the held item of a Pokémon it hits.",
+    suffix: "normal"
   },
   {
     id: "BULLETPROOF",
     name: "Bulletproof",
-    description: "Protects the Pokémon from some ball and bomb moves."
+    description: "Protects the Pokémon from some ball and bomb moves.",
+    suffix: "normal"
   },
   {
     id: "COMPETITIVE",
     name: "Competitive",
-    description: "Sharply boosts Sp. Atk when a stat is lowered."
+    description: "Sharply boosts Sp. Atk when a stat is lowered.",
+    suffix: "normal"
   },
   {
     id: "STRONGJAW",
     name: "Strong Jaw",
-    description: "Boosts the power of biting moves."
+    description: "Boosts the power of biting moves.",
+    suffix: "normal"
   },
   {
     id: "REFRIGERATE",
     name: "Refrigerate",
-    description: "Normal-type moves become Ice-type and powered up."
+    description: "Normal-type moves become Ice-type and powered up.",
+    suffix: "normal"
   },
   {
     id: "SWEETVEIL",
     name: "Sweet Veil",
-    description: "Prevents itself and allies from falling asleep."
+    description: "Prevents itself and allies from falling asleep.",
+    suffix: "normal"
   },
   {
     id: "STANCECHANGE",
     name: "Stance Change",
-    description: "Changes between Blade and Shield Forme with attacks."
+    description: "Changes between Blade and Shield Forme with attacks.",
+    suffix: "normal"
   },
   {
     id: "GALEWINGS",
     name: "Gale Wings",
-    description: "Flying-type moves gain priority when its HP is full."
+    description: "Flying-type moves gain priority when its HP is full.",
+    suffix: "normal"
   },
   {
     id: "MEGALAUNCHER",
     name: "Mega Launcher",
-    description: "Powers up aura and pulse moves."
+    description: "Powers up aura and pulse moves.",
+    suffix: "normal"
   },
   {
     id: "GRASSPELT",
     name: "Grass Pelt",
-    description: "Boosts the Defense stat on Grassy Terrain."
+    description: "Boosts the Defense stat on Grassy Terrain.",
+    suffix: "normal"
   },
   {
     id: "SYMBIOSIS",
     name: "Symbiosis",
-    description: "Passes its held item to an ally that has used theirs."
+    description: "Passes its held item to an ally that has used theirs.",
+    suffix: "normal"
   },
   {
     id: "TOUGHCLAWS",
     name: "Tough Claws",
-    description: "Powers up moves that make direct contact."
+    description: "Powers up moves that make direct contact.",
+    suffix: "normal"
   },
   {
     id: "PIXILATE",
     name: "Pixilate",
-    description: "Normal-type moves become Fairy-type and powered up."
+    description: "Normal-type moves become Fairy-type and powered up.",
+    suffix: "normal"
   },
   {
     id: "GOOEY",
     name: "Gooey",
-    description: "Contact with it lowers the attacker's Speed stat."
+    description: "Contact with it lowers the attacker's Speed stat.",
+    suffix: "normal"
   },
   {
     id: "AERILATE",
     name: "Aerilate",
-    description: "Normal-type moves become Flying-type and power up."
+    description: "Normal-type moves become Flying-type and power up.",
+    suffix: "normal"
   },
   {
     id: "PARENTALBOND",
     name: "Parental Bond",
-    description: "Parent and child each attacks."
+    description: "Parent and child each attacks.",
+    suffix: "normal"
   },
   {
     id: "DARKAURA",
     name: "Dark Aura",
-    description: "Powers up each Pokémon's Dark-type moves."
+    description: "Powers up each Pokémon's Dark-type moves.",
+    suffix: "normal"
   },
   {
     id: "FAIRYAURA",
     name: "Fairy Aura",
-    description: "Powers up each Pokémon's Fairy-type moves."
+    description: "Powers up each Pokémon's Fairy-type moves.",
+    suffix: "normal"
   },
   {
     id: "AURABREAK",
     name: "Aura Break",
-    description: "Reverses 'Aura' Abilities to weaken affected moves."
+    description: "Reverses 'Aura' Abilities to weaken affected moves.",
+    suffix: "normal"
   },
   {
     id: "PRIMORDIALSEA",
     name: "Primordial Sea",
-    description: "Changes the weather to nullify Fire-type moves."
+    description: "Changes the weather to nullify Fire-type moves.",
+    suffix: "normal"
   },
   {
     id: "DESOLATELAND",
     name: "Desolate Land",
-    description: "Changes the weather to nullify Water-type moves."
+    description: "Changes the weather to nullify Water-type moves.",
+    suffix: "normal"
   },
   {
     id: "DELTASTREAM",
     name: "Delta Stream",
-    description: "Alters weather to remove Flying-type's weaknesses."
+    description: "Alters weather to remove Flying-type's weaknesses.",
+    suffix: "normal"
   },
   {
     id: "STAMINA",
     name: "Stamina",
-    description: "Boosts Defense when hit by an attack."
+    description: "Boosts Defense when hit by an attack.",
+    suffix: "normal"
   },
   {
     id: "WIMPOUT",
     name: "Wimp Out",
-    description: "Cowardly switches out if its HP becomes half or less."
+    description: "Cowardly switches out if its HP becomes half or less.",
+    suffix: "normal"
   },
   {
     id: "EMERGENCYEXIT",
     name: "Emergency Exit",
-    description: "Switches out if its HP becomes half or less."
+    description: "Switches out if its HP becomes half or less.",
+    suffix: "normal"
   },
   {
     id: "WATERCOMPACTION",
     name: "Water Compaction",
-    description: "Sharply ups Defense when hit by a Water-type move."
+    description: "Sharply ups Defense when hit by a Water-type move.",
+    suffix: "normal"
   },
   {
     id: "MERCILESS",
     name: "Merciless",
-    description: "Its attacks are critical hits when it is poisoned."
+    description: "Its attacks are critical hits when it is poisoned.",
+    suffix: "normal"
   },
   {
     id: "SHIELDSDOWN",
     name: "Shields Down",
-    description: "Its shell breaks if its HP becomes half or less."
+    description: "Its shell breaks if its HP becomes half or less.",
+    suffix: "normal"
   },
   {
     id: "STAKEOUT",
     name: "Stakeout",
-    description: "Deals doubles damage to a target's replacement."
+    description: "Deals doubles damage to a target's replacement.",
+    suffix: "normal"
   },
   {
     id: "WATERBUBBLE",
     name: "Water Bubble",
-    description: "Weakens incoming Fire-type moves and prevents burns."
+    description: "Weakens incoming Fire-type moves and prevents burns.",
+    suffix: "normal"
   },
   {
     id: "STEELWORKER",
     name: "Steelworker",
-    description: "Powers up Steel-type moves."
+    description: "Powers up Steel-type moves.",
+    suffix: "normal"
   },
   {
     id: "BERSERK",
     name: "Berserk",
-    description: "Ups Sp. Atk if a hit makes its HP half or less."
+    description: "Ups Sp. Atk if a hit makes its HP half or less.",
+    suffix: "normal"
   },
   {
     id: "SLUSHRUSH",
     name: "Slush Rush",
-    description: "Boosts the Pokémon's Speed stat in a hailstorm."
+    description: "Boosts the Pokémon's Speed stat in a hailstorm.",
+    suffix: "normal"
   },
   {
     id: "LONGREACH",
     name: "Long Reach",
-    description: "Uses moves without making contact with the target."
+    description: "Uses moves without making contact with the target.",
+    suffix: "normal"
   },
   {
     id: "LIQUIDVOICE",
     name: "Liquid Voice",
-    description: "Its sound-based moves become Water-type."
+    description: "Its sound-based moves become Water-type.",
+    suffix: "normal"
   },
   {
     id: "TRIAGE",
     name: "Triage",
-    description: "Gives priority to a healing move."
+    description: "Gives priority to a healing move.",
+    suffix: "normal"
   },
   {
     id: "GALVANIZE",
     name: "Galvanize",
-    description: "Normal-type moves become Electric-type and powered."
+    description: "Normal-type moves become Electric-type and powered.",
+    suffix: "normal"
   },
   {
     id: "SURGESURFER",
     name: "Surge Surfer",
-    description: "Doubles Speed on Electric Terrain."
+    description: "Doubles Speed on Electric Terrain.",
+    suffix: "normal"
   },
   {
     id: "SCHOOLING",
     name: "Schooling",
-    description: "Forms a powerful school while it has a lot of HP."
+    description: "Forms a powerful school while it has a lot of HP.",
+    suffix: "normal"
   },
   {
     id: "DISGUISE",
     name: "Disguise",
-    description: "Its shroud protects it from an attack just once."
+    description: "Its shroud protects it from an attack just once.",
+    suffix: "normal"
   },
   {
     id: "BATTLEBOND",
     name: "Battle Bond",
-    description: "Defeating a foe lets it become Ash-Greninja."
+    description: "Defeating a foe lets it become Ash-Greninja.",
+    suffix: "normal"
   },
   {
     id: "POWERCONSTRUCT",
     name: "Power Construct",
-    description: "Changes with other Cells if HP becomes half or less."
+    description: "Changes with other Cells if HP becomes half or less.",
+    suffix: "normal"
   },
   {
     id: "CORROSION",
     name: "Corrosion",
-    description: "It can poison Steel- and Poison-type targets."
+    description: "It can poison Steel- and Poison-type targets.",
+    suffix: "normal"
   },
   {
     id: "COMATOSE",
     name: "Comatose",
-    description: "It's always drowsing, and attacks without waking."
+    description: "It's always drowsing, and attacks without waking.",
+    suffix: "normal"
   },
   {
     id: "QUEENLYMAJESTY",
     name: "Queenly Majesty",
-    description: "Makes foes unable to use priority attacks."
+    description: "Makes foes unable to use priority attacks.",
+    suffix: "normal"
   },
   {
     id: "INNARDSOUT",
     name: "Innards Out",
-    description: "Damages an attacker that lands the finishing hit."
+    description: "Damages an attacker that lands the finishing hit.",
+    suffix: "normal"
   },
   {
     id: "DANCER",
     name: "Dancer",
-    description: "Repeats another Pokémon's dance move immediately."
+    description: "Repeats another Pokémon's dance move immediately.",
+    suffix: "normal"
   },
   {
     id: "BATTERY",
     name: "Battery",
-    description: "Powers up ally Pokémon's special moves."
+    description: "Powers up ally Pokémon's special moves.",
+    suffix: "normal"
   },
   {
     id: "FLUFFY",
     name: "Fluffy",
-    description: "Resists contact damage but weaker to Fire-type."
+    description: "Resists contact damage but weaker to Fire-type.",
+    suffix: "normal"
   },
   {
     id: "DAZZLING",
     name: "Dazzling",
-    description: "Makes foes unable to use priority attacks."
+    description: "Makes foes unable to use priority attacks.",
+    suffix: "normal"
   },
   {
     id: "SOULHEART",
     name: "Soul-Heart",
-    description: "Boosts Sp. Atk each time a Pokémon faints."
+    description: "Boosts Sp. Atk each time a Pokémon faints.",
+    suffix: "normal"
   },
   {
     id: "TANGLINGHAIR",
     name: "Tangling Hair",
-    description: "Contact with it lowers the attacker's Speed."
+    description: "Contact with it lowers the attacker's Speed.",
+    suffix: "normal"
   },
   {
     id: "RECEIVER",
     name: "Receiver",
-    description: "Copies the Ability of a defeated ally."
+    description: "Copies the Ability of a defeated ally.",
+    suffix: "normal"
   },
   {
     id: "POWEROFALCHEMY",
     name: "Power of Alchemy",
-    description: "Copies the Ability of a defeated ally."
+    description: "Copies the Ability of a defeated ally.",
+    suffix: "normal"
   },
   {
     id: "BEASTBOOST",
     name: "Beast Boost",
-    description: "Boosts its best stat each time it deals a KO."
+    description: "Boosts its best stat each time it deals a KO.",
+    suffix: "normal"
   },
   {
     id: "RKSSYSTEM",
     name: "RKS System",
-    description: "Its type matches the memory disc it holds."
+    description: "Its type matches the memory disc it holds.",
+    suffix: "normal"
   },
   {
     id: "ELECTRICSURGE",
     name: "Electric Surge",
-    description: "Turns the ground into Electric Terrain."
+    description: "Turns the ground into Electric Terrain.",
+    suffix: "normal"
   },
   {
     id: "PSYCHICSURGE",
     name: "Psychic Surge",
-    description: "Turns the ground into Psychic Terrain."
+    description: "Turns the ground into Psychic Terrain.",
+    suffix: "normal"
   },
   {
     id: "MISTYSURGE",
     name: "Misty Surge",
-    description: "Turns the ground into Misty Terrain."
+    description: "Turns the ground into Misty Terrain.",
+    suffix: "normal"
   },
   {
     id: "GRASSYSURGE",
     name: "Grassy Surge",
-    description: "Turns the ground into Grassy Terrain."
+    description: "Turns the ground into Grassy Terrain.",
+    suffix: "normal"
   },
   {
     id: "FULLMETALBODY",
     name: "Full Metal Body",
-    description: "Prevents other Pokémon from lowering its stats."
+    description: "Prevents other Pokémon from lowering its stats.",
+    suffix: "normal"
   },
   {
     id: "SHADOWSHIELD",
     name: "Shadow Shield",
-    description: "Resists damage while its HP is full."
+    description: "Resists damage while its HP is full.",
+    suffix: "normal"
   },
   {
     id: "PRISMARMOR",
     name: "Prism Armor",
-    description: "Reduces damage from super-effective attacks."
+    description: "Reduces damage from super-effective attacks.",
+    suffix: "normal"
   },
   {
     id: "NEUROFORCE",
     name: "Neuroforce",
-    description: "Powers up moves that are super-effective."
+    description: "Powers up moves that are super-effective.",
+    suffix: "normal"
   },
   {
     id: "INTREPIDSWORD",
     name: "Intrepid Sword",
-    description: "Boosts Attack when entering a battle."
+    description: "Boosts Attack when entering a battle.",
+    suffix: "normal"
   },
   {
     id: "DAUNTLESSSHIELD",
     name: "Dauntless Shield",
-    description: "Boosts Defense when entering a battle."
+    description: "Boosts Defense when entering a battle.",
+    suffix: "normal"
   },
   {
     id: "LIBERO",
     name: "Libero",
-    description: "It changes type to that of the move it's about to use."
+    description: "It changes type to that of the move it's about to use.",
+    suffix: "normal"
   },
   {
     id: "BALLFETCH",
     name: "Ball Fetch",
-    description: "Retrieves the first thrown Poké Ball if it failed."
+    description: "Retrieves the first thrown Poké Ball if it failed.",
+    suffix: "normal"
   },
   {
     id: "COTTONDOWN",
     name: "Cotton Down",
-    description: "Scatters Speed-lowering cotton fluff when hit."
+    description: "Scatters Speed-lowering cotton fluff when hit.",
+    suffix: "normal"
   },
   {
     id: "PROPELLERTAIL",
     name: "Propeller Tail",
-    description: "This Pokémon's moves cannot be redirected."
+    description: "This Pokémon's moves cannot be redirected.",
+    suffix: "normal"
   },
   {
     id: "MIRRORARMOR",
     name: "Mirror Armor",
-    description: "Bounces back stat-lowering effects."
+    description: "Bounces back stat-lowering effects.",
+    suffix: "normal"
   },
   {
     id: "GULPMISSILE",
     name: "Gulp Missile",
-    description: "Catches prey via Surf or Dive, spits it out when hit."
+    description: "Catches prey via Surf or Dive, spits it out when hit.",
+    suffix: "normal"
   },
   {
     id: "STALWART",
     name: "Stalwart",
-    description: "This Pokémon's moves cannot be redirected."
+    description: "This Pokémon's moves cannot be redirected.",
+    suffix: "normal"
   },
   {
     id: "STEAMENGINE",
     name: "Steam Engine",
-    description: "Boosts Speed drastically if hit by a Fire or Water move."
+    description: "Boosts Speed drastically if hit by a Fire or Water move.",
+    suffix: "normal"
   },
   {
     id: "PUNKROCK",
     name: "Punk Rock",
-    description: "Powers up own sound moves. Resists other sound moves."
+    description: "Powers up own sound moves. Resists other sound moves.",
+    suffix: "normal"
   },
   {
     id: "SANDSPIT",
     name: "Sand Spit",
-    description: "Creates a sandstorm when hit by an attack."
+    description: "Creates a sandstorm when hit by an attack.",
+    suffix: "normal"
   },
   {
     id: "ICESCALES",
     name: "Ice Scales",
-    description: "Halves the damage taken from special moves."
+    description: "Halves the damage taken from special moves.",
+    suffix: "normal"
   },
   {
     id: "RIPEN",
     name: "Ripen",
-    description: "Ripens Berries and doubles their effect."
+    description: "Ripens Berries and doubles their effect.",
+    suffix: "normal"
   },
   {
     id: "ICEFACE",
     name: "Ice Face",
-    description: "Blocks a physical hit, but the ice head breaks."
+    description: "Blocks a physical hit, but the ice head breaks.",
+    suffix: "normal"
   },
   {
     id: "POWERSPOT",
     name: "Power Spot",
-    description: "Just being next to the Pokémon powers up moves."
+    description: "Just being next to the Pokémon powers up moves.",
+    suffix: "normal"
   },
   {
     id: "MIMICRY",
     name: "Mimicry",
-    description: "Changes type depending on the terrain."
+    description: "Changes type depending on the terrain.",
+    suffix: "normal"
   },
   {
     id: "SCREENCLEANER",
     name: "Screen Cleaner",
-    description: "On entering battle, clears effects of Reflect, etc."
+    description: "On entering battle, clears effects of Reflect, etc.",
+    suffix: "normal"
   },
   {
     id: "STEELYSPIRIT",
     name: "Steely Spirit",
-    description: "Powers up ally Pokémon's Steel-type moves."
+    description: "Powers up ally Pokémon's Steel-type moves.",
+    suffix: "normal"
   },
   {
     id: "PERISHBODY",
     name: "Perish Body",
-    description: "Both Pokémon faint 3 turns after taking a contact hit."
+    description: "Both Pokémon faint 3 turns after taking a contact hit.",
+    suffix: "normal"
   },
   {
     id: "WANDERINGSPIRIT",
     name: "Wandering Spirit",
-    description: "Swaps Abilities with contact-making Pokémon."
+    description: "Swaps Abilities with contact-making Pokémon.",
+    suffix: "normal"
   },
   {
     id: "GORILLATACTICS",
     name: "Gorilla Tactics",
-    description: "Boosts Attack, but allows only one move to be used."
+    description: "Boosts Attack, but allows only one move to be used.",
+    suffix: "normal"
   },
   {
     id: "NEUTRALIZINGGAS",
     name: "Neutralizing Gas",
-    description: "Nullifies the effects of all other Abilities."
+    description: "Nullifies the effects of all other Abilities.",
+    suffix: "normal"
   },
   {
     id: "PASTELVEIL",
     name: "Pastel Veil",
-    description: "Protects the Pokémon and its allies from poisoning."
+    description: "Protects the Pokémon and its allies from poisoning.",
+    suffix: "normal"
   },
   {
     id: "HUNGERSWITCH",
     name: "Hunger Switch",
-    description: "Changes between Full Belly and Hangry Mode each turn."
+    description: "Changes between Full Belly and Hangry Mode each turn.",
+    suffix: "normal"
   },
   {
     id: "QUICKDRAW",
     name: "Quick Draw",
-    description: "Enables the Pokémon to move first occasionally."
+    description: "Enables the Pokémon to move first occasionally.",
+    suffix: "normal"
   },
   {
     id: "UNSEENFIST",
     name: "Unseen Fist",
-    description: "The Pokémon's contact moves ignore protections."
+    description: "The Pokémon's contact moves ignore protections.",
+    suffix: "normal"
   },
   {
     id: "CURIOUSMEDICINE",
     name: "Curious Medicine",
-    description: "Removes all allies' stat changes on joining battle."
+    description: "Removes all allies' stat changes on joining battle.",
+    suffix: "normal"
   },
   {
     id: "TRANSISTOR",
     name: "Transistor",
-    description: "Powers up Electric-type moves."
+    description: "Powers up Electric-type moves.",
+    suffix: "normal"
   },
   {
     id: "DRAGONSMAW",
     name: "Dragon's Maw",
-    description: "Powers up Dragon-type moves."
+    description: "Powers up Dragon-type moves.",
+    suffix: "normal"
   },
   {
     id: "CHILLINGNEIGH",
     name: "Chilling Neigh",
-    description: "When knocking out a target, raises Attack."
+    description: "When knocking out a target, raises Attack.",
+    suffix: "normal"
   },
   {
     id: "GRIMNEIGH",
     name: "Grim Neigh",
-    description: "When knocking out a target, raises Sp. Atk."
+    description: "When knocking out a target, raises Sp. Atk.",
+    suffix: "normal"
   },
   {
     id: "ASONECHILLINGNEIGH",
     name: "As One",
-    description: "Combines Unnerve and Chilling Neigh Abilities."
+    description: "Combines Unnerve and Chilling Neigh Abilities.",
+    suffix: "normal"
   },
   {
     id: "ASONEGRIMNEIGH",
     name: "As One",
-    description: "Combines Unnerve and Grim Neigh Abilities."
+    description: "Combines Unnerve and Grim Neigh Abilities.",
+    suffix: "normal"
   },
   {
     id: "LINGERINGAROMA",
     name: "Lingering Aroma",
-    description: "Contact with this Pokémon spreads this Ability."
+    description: "Contact with this Pokémon spreads this Ability.",
+    suffix: "normal"
   },
   {
     id: "SEEDSOWER",
     name: "Seed Sower",
-    description: "When the Pokémon is hit, creates Grassy Terrain."
+    description: "When the Pokémon is hit, creates Grassy Terrain.",
+    suffix: "normal"
   },
   {
     id: "THERMALEXCHANGE",
     name: "Thermal Exchange",
-    description: "Raises Attack when hit by a Fire move. Can't be burned."
+    description: "Raises Attack when hit by a Fire move. Can't be burned.",
+    suffix: "normal"
   },
   {
     id: "ANGERSHELL",
     name: "Anger Shell",
-    description: "Lowers defences and ups offences/Speed at half HP."
+    description: "Lowers defences and ups offences/Speed at half HP.",
+    suffix: "normal"
   },
   {
     id: "PURIFYINGSALT",
     name: "Purifying Salt",
-    description: "Immune to status problems and resists Ghost damage."
+    description: "Immune to status problems and resists Ghost damage.",
+    suffix: "normal"
   },
   {
     id: "WELLBAKEDBODY",
     name: "Well-Baked Body",
-    description: "Sharply boosts Defense when hit by Fire moves."
+    description: "Sharply boosts Defense when hit by Fire moves.",
+    suffix: "normal"
   },
   {
     id: "WINDRIDER",
     name: "Wind Rider",
-    description: "Boosts Attack if hit or affected by a wind move."
+    description: "Boosts Attack if hit or affected by a wind move.",
+    suffix: "normal"
   },
   {
     id: "GUARDDOG",
     name: "Guard Dog",
-    description: "Can't be forced to switch out. Intimidate ups Attack."
+    description: "Can't be forced to switch out. Intimidate ups Attack.",
+    suffix: "normal"
   },
   {
     id: "ROCKYPAYLOAD",
     name: "Rocky Payload",
-    description: "Powers up Rock-type moves."
+    description: "Powers up Rock-type moves.",
+    suffix: "normal"
   },
   {
     id: "WINDPOWER",
     name: "Wind Power",
-    description: "Powers up an Electric move if hit by a wind move."
+    description: "Powers up an Electric move if hit by a wind move.",
+    suffix: "normal"
   },
   {
     id: "ZEROTOHERO",
     name: "Zero to Hero",
-    description: "Transforms into its Hero Form when it switches out."
+    description: "Transforms into its Hero Form when it switches out.",
+    suffix: "normal"
   },
   {
     id: "COMMANDER",
     name: "Commander",
-    description: "On entering battle, enters an ally Dodonzo's mouth."
+    description: "On entering battle, enters an ally Dodonzo's mouth.",
+    suffix: "normal"
   },
   {
     id: "ELECTROMORPHOSIS",
     name: "Electromorphosis",
-    description: "Powers up the next Electric move when it is hit."
+    description: "Powers up the next Electric move when it is hit.",
+    suffix: "normal"
   },
   {
     id: "PROTOSYNTHESIS",
     name: "Protosynthesis",
-    description: "Boosts the highest stat in sun or with Booster Energy."
+    description: "Boosts the highest stat in sun or with Booster Energy.",
+    suffix: "normal"
   },
   {
     id: "QUARKDRIVE",
     name: "Quark Drive",
-    description: "Boosts the highest stat on Electric Terrain."
+    description: "Boosts the highest stat on Electric Terrain.",
+    suffix: "normal"
   },
   {
     id: "GOODASGOLD",
     name: "Good as Gold",
-    description: "Full immunity to other Pokémon's status moves."
+    description: "Full immunity to other Pokémon's status moves.",
+    suffix: "normal"
   },
   {
     id: "VESSELOFRUIN",
     name: "Vessel of Ruin",
-    description: "Lowers the Sp. Atk of all Pokémon except itself."
+    description: "Lowers the Sp. Atk of all Pokémon except itself.",
+    suffix: "normal"
   },
   {
     id: "SWORDOFRUIN",
     name: "Sword of Ruin",
-    description: "Lowers the Defense of all Pokémon except itself."
+    description: "Lowers the Defense of all Pokémon except itself.",
+    suffix: "normal"
   },
   {
     id: "TABLETSOFRUIN",
     name: "Tablets of Ruin",
-    description: "Lowers the Attack of all Pokémon except itself."
+    description: "Lowers the Attack of all Pokémon except itself.",
+    suffix: "normal"
   },
   {
     id: "BEADSOFRUIN",
     name: "Beads of Ruin",
-    description: "Lowers the Sp. Def of all Pokémon except itself."
+    description: "Lowers the Sp. Def of all Pokémon except itself.",
+    suffix: "normal"
   },
   {
     id: "ORICHALCUMPULSE",
     name: "Orichalcum Pulse",
-    description: "Causes harsh sunlight and boosts Attack in sunlight."
+    description: "Causes harsh sunlight and boosts Attack in sunlight.",
+    suffix: "normal"
   },
   {
     id: "HADRONENGINE",
     name: "Hadron Engine",
-    description: "Creates Electric Terrain and ups Sp. Atk stat on it."
+    description: "Creates Electric Terrain and ups Sp. Atk stat on it.",
+    suffix: "normal"
   },
   {
     id: "OPPORTUNIST",
     name: "Opportunist",
-    description: "Copies boosts when an opponent's stat raises."
+    description: "Copies boosts when an opponent's stat raises.",
+    suffix: "normal"
   },
   {
     id: "CUDCHEW",
     name: "Cud Chew",
-    description: "After consuming a Berry, eats it again next turn."
+    description: "After consuming a Berry, eats it again next turn.",
+    suffix: "normal"
   },
   {
     id: "SHARPNESS",
     name: "Sharpness",
-    description: "Powers up slicing moves."
+    description: "Powers up slicing moves.",
+    suffix: "normal"
   },
   {
     id: "SUPREMEOVERLORD",
     name: "Supreme Overlord",
-    description: "Raises Attack and Sp. Atk for each defeated ally."
+    description: "Raises Attack and Sp. Atk for each defeated ally.",
+    suffix: "normal"
   },
   {
     id: "COSTAR",
     name: "Costar",
-    description: "On entering battle, copies an ally's stat changes."
+    description: "On entering battle, copies an ally's stat changes.",
+    suffix: "normal"
   },
   {
     id: "TOXICDEBRIS",
     name: "Toxic Debris",
-    description: "Scatters poison spikes when hit by physical moves."
+    description: "Scatters poison spikes when hit by physical moves.",
+    suffix: "normal"
   },
   {
     id: "ARMORTAIL",
     name: "Armor Tail",
-    description: "Prevents opponents from using priority moves."
+    description: "Prevents opponents from using priority moves.",
+    suffix: "normal"
   },
   {
     id: "EARTHEATER",
     name: "Earth Eater",
-    description: "Restores HP when hit by a Ground-type move."
+    description: "Restores HP when hit by a Ground-type move.",
+    suffix: "normal"
   },
   {
     id: "MYCELIUMMIGHT",
     name: "Mycelium Might",
-    description: "Status moves ignore foe Abilities by acting slowly."
+    description: "Status moves ignore foe Abilities by acting slowly.",
+    suffix: "normal"
   },
   {
     id: "HOSPITALITY",
     name: "Hospitality",
-    description: "On entering battle, the ally restores a little HP."
+    description: "On entering battle, the ally restores a little HP.",
+    suffix: "normal"
   },
   {
     id: "MINDSEYE",
     name: "Mind's Eye",
-    description: "Ignores Ghost immunities. Cannot lose accuracy."
+    description: "Ignores Ghost immunities. Cannot lose accuracy.",
+    suffix: "normal"
   },
   {
     id: "EMBODYASPECTSPEED",
     name: "Embody Aspect",
-    description: "The Pokémon's shining mask boosts its Speed stat."
+    description: "The Pokémon's shining mask boosts its Speed stat.",
+    suffix: "normal"
   },
   {
     id: "EMBODYASPECTATTACK",
     name: "Embody Aspect",
-    description: "The Pokémon's shining mask boosts its Attack stat."
+    description: "The Pokémon's shining mask boosts its Attack stat.",
+    suffix: "normal"
   },
   {
     id: "EMBODYASPECTSPDEF",
     name: "Embody Aspect",
-    description: "The Pokémon's shining mask boosts its Sp. Def stat."
+    description: "The Pokémon's shining mask boosts its Sp. Def stat.",
+    suffix: "normal"
   },
   {
     id: "EMBODYASPECTDEFENSE",
     name: "Embody Aspect",
-    description: "The Pokémon's shining mask boosts its Defense stat."
+    description: "The Pokémon's shining mask boosts its Defense stat.",
+    suffix: "normal"
   },
   {
     id: "TOXICCHAIN",
     name: "Toxic Chain",
-    description: "The Pokémon may badly poison any target it hits."
+    description: "The Pokémon may badly poison any target it hits.",
+    suffix: "normal"
   },
   {
     id: "SUPERSWEETSYRUP",
     name: "Supersweet Syrup",
-    description: "On entering battle, lowers the foes' evasiveness."
+    description: "On entering battle, lowers the foes' evasiveness.",
+    suffix: "normal"
   },
   {
     id: "TERASHIFT",
     name: "Tera Shift",
-    description: "Transforms into its Terastal Form in battle."
+    description: "Transforms into its Terastal Form in battle.",
+    suffix: "normal"
   },
   {
     id: "TERASHELL",
     name: "Tera Shell",
-    description: "At full HP, damage taken is not very effective."
+    description: "At full HP, damage taken is not very effective.",
+    suffix: "normal"
   },
   {
     id: "TERAFORMZERO",
     name: "Teraform Zero",
-    description: "Eliminates all effects of weather and terrain."
+    description: "Eliminates all effects of weather and terrain.",
+    suffix: "normal"
   },
   {
     id: "POISONPUPPETEER",
     name: "Poison Puppeteer",
-    description: "Poisoning another Pokémon also causes confusion."
+    description: "Poisoning another Pokémon also causes confusion.",
+    suffix: "normal"
   },
   {
     id: "JUNGLEPROTECTOR",
     name: "Jungle Protector",
-    description: "If the Pokémon cannot escape or be switched out, it generates proto-shield at the end of each turn."
+    description: "If the Pokémon cannot escape or be switched out, it generates proto-shield at the end of each turn.",
+    suffix: "normal"
   },
   {
     id: "TOTHELIMIT",
     name: "To The Limit",
-    description: "Each time the Pokémon's maximum HP is reduced, it boosts a random stat, pushing itself to its limits."
+    description: "Each time the Pokémon's maximum HP is reduced, it boosts a random stat, pushing itself to its limits.",
+    suffix: "normal"
   },
   {
     id: "NEUROTOXIN",
     name: "Neurotoxin",
-    description: "Contact with the Pokémon applies a random weakness to the target and reduces it's evasion."
+    description: "Contact with the Pokémon applies a random weakness to the target and reduces it's evasion.",
+    suffix: "normal"
   },
   {
     id: "PREDATORTRACKING",
     name: "Predator Tracking",
-    description: "The less health the target has, the more accurate and powerful the user's moves become. Additionally, the user gains increased speed if an enemy has low health."
+    description: "The less health the target has, the more accurate and powerful the user's moves become. Additionally, the user gains increased speed if an enemy has low health.",
+    suffix: "normal"
   },
   {
     id: "ETERNALHUNGER",
     name: "Eternal Hunger",
-    description: "When the Pokémon's health drops below half, its attack and speed are sharply increased, driven by an insatiable hunger."
+    description: "When the Pokémon's health drops below half, its attack and speed are sharply increased, driven by an insatiable hunger.",
+    suffix: "normal"
   },
   {
     id: "VAMP",
     name: "Vamp",
-    description: "The user takes reduced damage from targets that are infatuated with it, feeding off their affection."
+    description: "The user takes reduced damage from targets that are infatuated with it, feeding off their affection.",
+    suffix: "normal"
   },
   {
     id: "TYRANNY",
     name: "Tyranny",
-    description: "The Pokémon deals increased damage to targets that are unable to escape, asserting its dominance."
+    description: "The Pokémon deals increased damage to targets that are unable to escape, asserting its dominance.",
+    suffix: "normal"
   },
   {
     id: "LIKESILK",
     name: "Like Silk",
-    description: "The Pokémon's speed increases the more health it has, moving with silky smooth precision."
+    description: "The Pokémon's speed increases the more health it has, moving with silky smooth precision.",
+    suffix: "normal"
   },
   {
     id: "TAILWINDBLESS",
     name: "Tailwind Bless",
-    description: "Upon entering the battle, the Pokémon summons a tailwind that boosts the speed of its team for 3 turns."
+    description: "Upon entering the battle, the Pokémon summons a tailwind that boosts the speed of its team for 3 turns.",
+    suffix: "normal"
   },
   {
     id: "ICEKING",
     name: "Ice King",
-    description: "Apply Ice Weakness to all battlers when enter the battle. Just one time per battle."
+    description: "Apply Ice Weakness to all battlers when enter the battle. Just one time per battle.",
+    suffix: "normal"
   },
   {
     id: "INEEDAHERO",
     name: "I Need A Hero",
-    description: "The user get Dark Hater when entering combat."
+    description: "The user get Dark Hater when entering combat.",
+    suffix: "normal"
   },
   {
     id: "INSECTIVOROUSPLANT",
     name: "Insectivorous Plant",
-    description: "Get Bug Hater and Bug Immunity when entering a battle."
+    description: "Get Bug Hater and Bug Immunity when entering a battle.",
+    suffix: "normal"
   },
   {
     id: "RAINCUTTER",
     name: "Rain Cutter",
-    description: "Powers up the user's slicing and cutting moves while Rain is active."
+    description: "Powers up the user's slicing and cutting moves while Rain is active.",
+    suffix: "normal"
   }
 ]

@@ -60,6 +60,12 @@ const Navigation = ({ className = "" }: { className: string }) => {
         Fakemons
       </Link>
       <Link
+        to="/items"
+        className="text-purple-200 hover:text-white transition-colors"
+      >
+        Items
+      </Link>
+      <Link
         to="/characters"
         className="text-purple-200 hover:text-white transition-colors"
       >

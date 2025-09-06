@@ -1,7 +1,8 @@
-import { items } from "@/data/items";
+import { getAllItems } from "@/lib/items";
 import React, { useState } from "react";
 import { X, ChevronDown } from "lucide-react";
 
+const items = getAllItems();
 export const ItemSelector: React.FC<{
   value: string;
   onChange: (itemId: string) => void;

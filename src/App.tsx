@@ -14,6 +14,8 @@ import { CountryDownloads } from "./pages/countries/page";
 import { TeamBuilder } from "./pages/team-builder/page";
 import { TeamBuilderProvider } from "./pages/team-builder/components/team-builder-context";
 import PokemonEditPage from "./pages/team-builder/edit/page";
+import { ItemsPage } from "./pages/items/page";
+import { ItemDetailPage } from "./pages/items/item-detail/page";
 
 export default function PokemonAbsolutionWebsite() {
   return (
@@ -35,6 +37,8 @@ export default function PokemonAbsolutionWebsite() {
             path="/team-builder/edit/:pokemonIndex"
             element={<PokemonEditPage />}
           />
+          <Route path="/items" element={<ItemsPage />} />
+          <Route path="/items/:itemId" element={<ItemDetailPage />} />
         </Routes>
         <Footer />
       </TeamBuilderProvider>

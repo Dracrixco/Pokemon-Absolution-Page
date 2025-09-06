@@ -1,6 +1,7 @@
-import { items } from "@/data/items";
+import { items as originalItems } from "@/data/items";
+import { items as abolutionItems } from "@/data/items_absolution";
 import type { Item } from "@/types/item";
 
-export const getCombatItems = (): Item[] => {
-  return items.filter((item) => item.pocket == 1);
+export const getAllItems = (): Item[] => {
+  return [...originalItems, ...abolutionItems];
 };
