@@ -3,7 +3,7 @@ export interface Fakemon {
   name: string;
   types: string[];
   sprite: string;
-  artwork: string;
+  backSprite: string;
   description: string;
   stats: {
     hp: number;

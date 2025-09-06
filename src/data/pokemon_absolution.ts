@@ -9,7 +9,7 @@ export const fakemons: Fakemon[] =
       "GRASS"
     ],
     sprite: "/sprites/BEHBIDAR.png",
-    artwork: "/sprites/BEHBIDAR.png",
+    backSprite: "/sprites/BEHBIDAR.png",
     description: "It tends to try to look intimidating to keep Pokemon away, but the truth is that it is a super calm Pokemon that tends to avoid conflict.",
     stats: {
       hp: 50,
@@ -149,7 +149,7 @@ export const fakemons: Fakemon[] =
       "GRASS"
     ],
     sprite: "/sprites/BEHCEDRO.png",
-    artwork: "/sprites/BEHCEDRO.png",
+    backSprite: "/sprites/BEHCEDRO.png",
     description: "They tend to avoid groups with other Pokemon that are not of the same species, they avoid any type of conflict but will not hesitate to defend themselves.",
     stats: {
       hp: 68,
@@ -291,7 +291,7 @@ export const fakemons: Fakemon[] =
       "GROUND"
     ],
     sprite: "/sprites/BEHDAREX.png",
-    artwork: "/sprites/BEHDAREX.png",
+    backSprite: "/sprites/BEHDAREX.png",
     description: "It takes advantage of its enormous size and appearance to scare away Pokemon, despite this, it is usually a very quiet Pokemon.",
     stats: {
       hp: 89,
@@ -432,7 +432,7 @@ export const fakemons: Fakemon[] =
       "FIRE"
     ],
     sprite: "/sprites/ZISINGE.png",
-    artwork: "/sprites/ZISINGE.png",
+    backSprite: "/sprites/ZISINGE.png",
     description: "They usually practice all day long to control their flames, and can throw their explosive feathers to defend themselves.",
     stats: {
       hp: 39,
@@ -579,7 +579,7 @@ export const fakemons: Fakemon[] =
       "FIRE"
     ],
     sprite: "/sprites/ZISSUN.png",
-    artwork: "/sprites/ZISSUN.png",
+    backSprite: "/sprites/ZISSUN.png",
     description: "They face any Pokemon they come across, they have a great control over their explosive feathers, managing to launch them at a high speed.",
     stats: {
       hp: 55,
@@ -743,7 +743,7 @@ export const fakemons: Fakemon[] =
       "FLYING"
     ],
     sprite: "/sprites/ZIZZENIT.png",
-    artwork: "/sprites/ZIZZENIT.png",
+    backSprite: "/sprites/ZIZZENIT.png",
     description: "It flies high in the air looking for Pokemon to face, its fiery flames simulating the sun when it flies.",
     stats: {
       hp: 70,
@@ -906,7 +906,7 @@ export const fakemons: Fakemon[] =
       "WATER"
     ],
     sprite: "/sprites/LEVIATINY.png",
-    artwork: "/sprites/LEVIATINY.png",
+    backSprite: "/sprites/LEVIATINY.png",
     description: "It generates a thick and toxic foam on contact, it is not immune to its own poison...",
     stats: {
       hp: 49,
@@ -1033,7 +1033,7 @@ export const fakemons: Fakemon[] =
       "WATER"
     ],
     sprite: "/sprites/LEVIATEEN.png",
-    artwork: "/sprites/LEVIATEEN.png",
+    backSprite: "/sprites/LEVIATEEN.png",
     description: "Its dense foam is used for antidotes and cedants, if it feels in danger it can expel industrial quantities of this poison.",
     stats: {
       hp: 64,
@@ -1162,7 +1162,7 @@ export const fakemons: Fakemon[] =
       "POISON"
     ],
     sprite: "/sprites/LEVIATITAN.png",
-    artwork: "/sprites/LEVIATITAN.png",
+    backSprite: "/sprites/LEVIATITAN.png",
     description: "It hunts large Pokemon to feed, uses their venom to immobilize and weaken them, and if the hunt gets complicated, it floods its target with large quantities of toxic foam.",
     stats: {
       hp: 83,
@@ -1299,7 +1299,7 @@ export const fakemons: Fakemon[] =
       "GHOST"
     ],
     sprite: "/sprites/FATALTTY.png",
-    artwork: "/sprites/FATALTTY.png",
+    backSprite: "/sprites/FATALTTY.png",
     description: "Many Pokémon tend to be quite attracted to this Pokémon, which it uses to its advantage to control them and get food, although it does not enjoy this.",
     stats: {
       hp: 81,
@@ -1406,7 +1406,7 @@ export const fakemons: Fakemon[] =
       "FLYING"
     ],
     sprite: "/sprites/CONDLING.png",
-    artwork: "/sprites/CONDLING.png",
+    backSprite: "/sprites/CONDLING.png",
     description: "They are often seen collecting bones of Dragon-type Pokemon, despite not possessing feathers, they are believed to be able to fly.",
     stats: {
       hp: 35,
@@ -1512,7 +1512,7 @@ export const fakemons: Fakemon[] =
       "FAIRY"
     ],
     sprite: "/sprites/BONEVEIL.png",
-    artwork: "/sprites/BONEVEIL.png",
+    backSprite: "/sprites/BONEVEIL.png",
     description: "It lives high in the mountains, humans and Pokemon come to this Pokemon to cure curses and minor illnesses.",
     stats: {
       hp: 63,
@@ -1618,7 +1618,7 @@ export const fakemons: Fakemon[] =
       "FAIRY"
     ],
     sprite: "/sprites/CONDEMNA.png",
-    artwork: "/sprites/CONDEMNA.png",
+    backSprite: "/sprites/CONDEMNA.png",
     description: "They have an inner hatred of dragon-type Pokemon, and are often very aggressive towards them. Their feathers are said to have enormous healing effects.",
     stats: {
       hp: 92,
@@ -1723,7 +1723,7 @@ export const fakemons: Fakemon[] =
       "BUG"
     ],
     sprite: "/sprites/WOOLARVA.png",
-    artwork: "/sprites/WOOLARVA.png",
+    backSprite: "/sprites/WOOLARVA.png",
     description: "Its silk is very resistant, so it is often used for various garments.",
     stats: {
       hp: 45,
@@ -1829,7 +1829,7 @@ export const fakemons: Fakemon[] =
       "BUG"
     ],
     sprite: "/sprites/WOOBACOON.png",
-    artwork: "/sprites/WOOBACOON.png",
+    backSprite: "/sprites/WOOBACOON.png",
     description: "It does not usually move much, it uses its silk to defend itself from predators.",
     stats: {
       hp: 80,
@@ -1936,7 +1936,7 @@ export const fakemons: Fakemon[] =
       "FAIRY"
     ],
     sprite: "/sprites/WEAMOTH.png",
-    artwork: "/sprites/WEAMOTH.png",
+    backSprite: "/sprites/WEAMOTH.png",
     description: "Its beautiful silk is used to create high-quality garments, making it a very attractive Pokemon for designers and stylists.",
     stats: {
       hp: 114,
@@ -2050,7 +2050,7 @@ export const fakemons: Fakemon[] =
       "NORMAL"
     ],
     sprite: "/sprites/SORROWOOF.png",
-    artwork: "/sprites/SORROWOOF.png",
+    backSprite: "/sprites/SORROWOOF.png",
     description: "They tend to forage in dumpsters, are quite fearful and tend to avoid unnecessary conflict at all costs, which makes them victims of abusive Pokémon.",
     stats: {
       hp: 65,
@@ -2176,7 +2176,7 @@ export const fakemons: Fakemon[] =
       "FIGHTING"
     ],
     sprite: "/sprites/WOOFIGHTER.png",
-    artwork: "/sprites/WOOFIGHTER.png",
+    backSprite: "/sprites/WOOFIGHTER.png",
     description: "They tend to avoid combat, but when it comes to defending their trainer, they won't hesitate for a second to fight and defeat anything that comes their way.",
     stats: {
       hp: 85,
@@ -2311,7 +2311,7 @@ export const fakemons: Fakemon[] =
       "NORMAL"
     ],
     sprite: "/sprites/GROWRAGE.png",
-    artwork: "/sprites/GROWRAGE.png",
+    backSprite: "/sprites/GROWRAGE.png",
     description: "It is a heroic Pokémon, often seen helping and protecting other Pokémon.",
     stats: {
       hp: 60,
@@ -2437,7 +2437,7 @@ export const fakemons: Fakemon[] =
       "STEEL"
     ],
     sprite: "/sprites/TWYLICAN.png",
-    artwork: "/sprites/TWYLICAN.png",
+    backSprite: "/sprites/TWYLICAN.png",
     description: "It has a strong sense of justice and is often seen roaming the forest, searching for Trainers and Pokémon in need of help. Twylican will not hesitate to step in and protect the weak, earning the respect of those who witness its bravery.",
     stats: {
       hp: 90,
@@ -2563,7 +2563,7 @@ export const fakemons: Fakemon[] =
       "DARK"
     ],
     sprite: "/sprites/SPIBBY.png",
-    artwork: "/sprites/SPIBBY.png",
+    backSprite: "/sprites/SPIBBY.png",
     description: "It is very timid, so it tends to attack in groups using rather underhanded and unfair tactics.",
     stats: {
       hp: 35,
@@ -2687,7 +2687,7 @@ export const fakemons: Fakemon[] =
       "DARK"
     ],
     sprite: "/sprites/KINGDER.png",
-    artwork: "/sprites/KINGDER.png",
+    backSprite: "/sprites/KINGDER.png",
     description: "It often commands a large group to capture other Pokémon and then devour them. Many Trainers have been caught while trying to catch one.",
     stats: {
       hp: 70,
@@ -2812,7 +2812,7 @@ export const fakemons: Fakemon[] =
       "WATER"
     ],
     sprite: "/sprites/YUNTTER.png",
-    artwork: "/sprites/YUNTTER.png",
+    backSprite: "/sprites/YUNTTER.png",
     description: "It is always seen with a rock and is known to be very territorial, not tolerating visits from unfamiliar Trainers or Pokémon. However, if you prove yourself to be an honorable Trainer, you will have no trouble.",
     stats: {
       hp: 38,
@@ -2936,7 +2936,7 @@ export const fakemons: Fakemon[] =
       "GROUND"
     ],
     sprite: "/sprites/GUMSTTER.png",
-    artwork: "/sprites/GUMSTTER.png",
+    backSprite: "/sprites/GUMSTTER.png",
     description: "It protects its own with great ferocity and has remarkable aim. It is said to be able to hit a target from a kilometer away.",
     stats: {
       hp: 63,
@@ -3059,7 +3059,7 @@ export const fakemons: Fakemon[] =
       "NORMAL"
     ],
     sprite: "/sprites/LIZAROBOS.png",
-    artwork: "/sprites/LIZAROBOS.png",
+    backSprite: "/sprites/LIZAROBOS.png",
     description: "???",
     stats: {
       hp: 1,
@@ -3096,7 +3096,7 @@ export const fakemons: Fakemon[] =
       "NORMAL"
     ],
     sprite: "/sprites/KOMOBOROS.png",
-    artwork: "/sprites/KOMOBOROS.png",
+    backSprite: "/sprites/KOMOBOROS.png",
     description: "???",
     stats: {
       hp: 1,
@@ -3133,7 +3133,7 @@ export const fakemons: Fakemon[] =
       "NORMAL"
     ],
     sprite: "/sprites/RYUROBOROS.png",
-    artwork: "/sprites/RYUROBOROS.png",
+    backSprite: "/sprites/RYUROBOROS.png",
     description: "???",
     stats: {
       hp: 1,
@@ -3171,7 +3171,7 @@ export const fakemons: Fakemon[] =
       "DARK"
     ],
     sprite: "/sprites/PUPROUT.png",
-    artwork: "/sprites/PUPROUT.png",
+    backSprite: "/sprites/PUPROUT.png",
     description: "It displays many behaviors commonly seen in other Grass-type Pokémon. Its DNA suggests it may share multiple ancestors with various species.",
     stats: {
       hp: 46,
@@ -3313,7 +3313,7 @@ export const fakemons: Fakemon[] =
       "DARK"
     ],
     sprite: "/sprites/BUSHIERA.png",
-    artwork: "/sprites/BUSHIERA.png",
+    backSprite: "/sprites/BUSHIERA.png",
     description: "It has tangled DNA, and its appearance resembles multiple Pokémon. Trainers who encounter this Pokémon often say it feels familiar to them.",
     stats: {
       hp: 58,
@@ -3455,7 +3455,7 @@ export const fakemons: Fakemon[] =
       "DARK"
     ],
     sprite: "/sprites/WEREWOODS.png",
-    artwork: "/sprites/WEREWOODS.png",
+    backSprite: "/sprites/WEREWOODS.png",
     description: "It has a high capacity for adaptation and shows great affinity with other Grass-type Pokémon.",
     stats: {
       hp: 80,
@@ -3597,7 +3597,7 @@ export const fakemons: Fakemon[] =
       "FLYING"
     ],
     sprite: "/sprites/CRYOWL.png",
-    artwork: "/sprites/CRYOWL.png",
+    backSprite: "/sprites/CRYOWL.png",
     description: "It can hunt easily thanks to its ability to fly without being heard and its excellent eyesight. Despite its bright white color, it manages to hide very well in the darkness.",
     stats: {
       hp: 60,
@@ -3710,7 +3710,7 @@ export const fakemons: Fakemon[] =
       "FLYING"
     ],
     sprite: "/sprites/CRYOCROWN.png",
-    artwork: "/sprites/CRYOCROWN.png",
+    backSprite: "/sprites/CRYOCROWN.png",
     description: "It is said that the larger the crown of this species, the stronger and faster it is. It has an incredible ability to move silently when hunting, but most of the time it will be showing off its crown.",
     stats: {
       hp: 101,
@@ -3814,7 +3814,7 @@ export const fakemons: Fakemon[] =
       "FAIRY"
     ],
     sprite: "/sprites/TWIXIE.png",
-    artwork: "/sprites/TWIXIE.png",
+    backSprite: "/sprites/TWIXIE.png",
     description: "It exhibits a high level of intelligence and a preference for dimly lit environments. Researchers believe its behavior is influenced by exposure to interdimensional energy, which may explain its affinity for mischief and shadow manipulation.",
     stats: {
       hp: 74,
@@ -3917,7 +3917,7 @@ export const fakemons: Fakemon[] =
       "DARK"
     ],
     sprite: "/sprites/TWINCESS.png",
-    artwork: "/sprites/TWINCESS.png",
+    backSprite: "/sprites/TWINCESS.png",
     description: "Studies suggest it originated from a parallel plane where light and shadow coexist in balance. Upon full maturation, its physiological changes include the development of a crown-like structure and a marked increase in psychic and spectral emissions.",
     stats: {
       hp: 95,
@@ -4036,7 +4036,7 @@ export const fakemons: Fakemon[] =
       "ROCK"
     ],
     sprite: "/sprites/AXISH.png",
-    artwork: "/sprites/AXISH.png",
+    backSprite: "/sprites/AXISH.png",
     description: "",
     stats: {
       hp: 65,
@@ -4087,7 +4087,7 @@ export const fakemons: Fakemon[] =
       "STEEL"
     ],
     sprite: "/sprites/JAXEWS.png",
-    artwork: "/sprites/JAXEWS.png",
+    backSprite: "/sprites/JAXEWS.png",
     description: "",
     stats: {
       hp: 109,
@@ -4226,7 +4226,7 @@ export const fakemons: Fakemon[] =
       "DRAGON"
     ],
     sprite: "/sprites/FLOVERN.png",
-    artwork: "/sprites/FLOVERN.png",
+    backSprite: "/sprites/FLOVERN.png",
     description: "",
     stats: {
       hp: 87,
@@ -4358,7 +4358,7 @@ export const fakemons: Fakemon[] =
       "DRAGON"
     ],
     sprite: "/sprites/WYWERDEN.png",
-    artwork: "/sprites/WYWERDEN.png",
+    backSprite: "/sprites/WYWERDEN.png",
     description: "",
     stats: {
       hp: 119,

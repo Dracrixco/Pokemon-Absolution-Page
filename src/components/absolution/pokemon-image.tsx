@@ -3,13 +3,19 @@ import type { Fakemon } from "@/types/fakemon";
 interface PokemonImageProps {
   fakemon: Fakemon;
   size?: number;
+  showBack?: boolean;
 }
 
-export const PokemonImage = ({ fakemon, size = 160 }: PokemonImageProps) => {
+export const PokemonImage = ({
+  fakemon,
+  size = 160,
+  showBack,
+}: PokemonImageProps) => {
+  const imageToShow = showBack ? fakemon.backSprite : fakemon.sprite;
   return (
     <img
-      src={fakemon.artwork || "/placeholder.svg"}
-      alt={`${fakemon.name} artwork`}
+      src={imageToShow || "/placeholder.svg"}
+      alt={`${fakemon.name} sprite`}
       width={size}
       height={size}
       className="object-contain pixelated"

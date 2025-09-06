@@ -1,5 +1,5 @@
 import React, { useState, useMemo } from "react";
-import { Search, X, Filter } from "lucide-react";
+import { Search, X, Filter, Tag } from "lucide-react";
 import { getAllFakemons } from "@/lib/fakemons";
 import { getTypeColor } from "@/lib/type-colors";
 import type { Fakemon } from "@/types/fakemon";
@@ -19,7 +19,11 @@ export const PokemonSelectorModal: React.FC<PokemonSelectorModalProps> = ({
   const fakemons = getAllFakemons();
   const [searchTerm, setSearchTerm] = useState("");
   const [selectedTypes, setSelectedTypes] = useState<string[]>([]);
+  const [selectedSuffix, setSelectedSuffix] = useState<string>("all");
   const [showTypeFilters, setShowTypeFilters] = useState(false);
+
+  // Obtener sufijos únicos disponibles
+  const availableSuffixes = Array.from(new Set(fakemons.map((f) => f.suffix)));
 
   const filteredPokemon = useMemo(() => {
     return fakemons.filter((pokemon) => {
@@ -33,9 +37,13 @@ export const PokemonSelectorModal: React.FC<PokemonSelectorModalProps> = ({
         selectedTypes.length === 0 ||
         selectedTypes.every((type) => pokemon.types.includes(type));
 
-      return matchesSearch && matchesType;
+      // Filtro por suffix
+      const matchesSuffix =
+        selectedSuffix === "all" || pokemon.suffix === selectedSuffix;
+
+      return matchesSearch && matchesType && matchesSuffix;
     });
-  }, [fakemons, searchTerm, selectedTypes]);
+  }, [fakemons, searchTerm, selectedTypes, selectedSuffix]);
 
   const handlePokemonClick = (pokemon: Fakemon) => {
     onSelectPokemon(pokemon);
@@ -55,6 +63,31 @@ export const PokemonSelectorModal: React.FC<PokemonSelectorModalProps> = ({
   const clearAllFilters = () => {
     setSearchTerm("");
     setSelectedTypes([]);
+    setSelectedSuffix("all");
+  };
+
+  // Función para formatear el nombre del suffix
+  const formatSuffixName = (suffix: string) => {
+    switch (suffix) {
+      case "absolution":
+        return "Absolution";
+      case "normal":
+        return "Normal";
+      default:
+        return suffix.charAt(0).toUpperCase() + suffix.slice(1);
+    }
+  };
+
+  // Obtener color para el suffix
+  const getSuffixColor = (suffix: string) => {
+    switch (suffix) {
+      case "absolution":
+        return "bg-purple-500";
+      case "normal":
+        return "bg-blue-500";
+      default:
+        return "bg-gray-500";
+    }
   };
 
   if (!isOpen) return null;
@@ -86,6 +119,51 @@ export const PokemonSelectorModal: React.FC<PokemonSelectorModalProps> = ({
             />
           </div>
 
+          {/* Filtro por Suffix */}
+          <div>
+            <div className="flex items-center gap-2 mb-3">
+              <Tag size={16} className="text-gray-600" />
+              <label className="font-semibold text-sm text-gray-700">
+                Filtrar por versión:
+              </label>
+            </div>
+            <div className="flex flex-wrap gap-2">
+              <button
+                onClick={() => setSelectedSuffix("all")}
+                className={`px-3 py-2 rounded-lg text-sm font-medium transition-colors ${
+                  selectedSuffix === "all"
+                    ? "bg-gray-500 text-white ring-2 ring-gray-300"
+                    : "bg-gray-200 text-gray-700 hover:bg-gray-300"
+                }`}
+              >
+                Todos ({fakemons.length})
+              </button>
+
+              {availableSuffixes.map((suffix) => {
+                const count = fakemons.filter(
+                  (f) => f.suffix === suffix
+                ).length;
+                return (
+                  <button
+                    key={suffix}
+                    onClick={() => setSelectedSuffix(suffix)}
+                    className={`px-3 py-2 rounded-lg text-sm font-medium transition-colors ${
+                      selectedSuffix === suffix
+                        ? `${getSuffixColor(
+                            suffix
+                          )} text-white ring-2 ring-white shadow-md`
+                        : `${getSuffixColor(
+                            suffix
+                          )} text-white opacity-60 hover:opacity-100`
+                    }`}
+                  >
+                    {formatSuffixName(suffix)} ({count})
+                  </button>
+                );
+              })}
+            </div>
+          </div>
+
           {/* Toggle de filtros de tipo */}
           <div className="flex items-center justify-between">
             <button
@@ -102,7 +180,9 @@ export const PokemonSelectorModal: React.FC<PokemonSelectorModalProps> = ({
             </button>
 
             {/* Botón para limpiar filtros */}
-            {(selectedTypes.length > 0 || searchTerm) && (
+            {(selectedTypes.length > 0 ||
+              searchTerm ||
+              selectedSuffix !== "all") && (
               <button
                 onClick={clearAllFilters}
                 className="px-3 py-2 text-gray-600 hover:text-gray-800 text-sm"
@@ -183,6 +263,14 @@ export const PokemonSelectorModal: React.FC<PokemonSelectorModalProps> = ({
             {filteredPokemon.length === fakemons.length
               ? `Mostrando todos los ${filteredPokemon.length} Pokémon`
               : `Mostrando ${filteredPokemon.length} de ${fakemons.length} Pokémon`}
+            {selectedSuffix !== "all" && (
+              <span className="ml-2">
+                (versión {formatSuffixName(selectedSuffix)})
+              </span>
+            )}
+            {selectedTypes.length > 0 && (
+              <span className="ml-2">(tipos: {selectedTypes.join(", ")})</span>
+            )}
           </div>
 
           <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 xl:grid-cols-5 gap-4">
@@ -209,7 +297,19 @@ export const PokemonSelectorModal: React.FC<PokemonSelectorModalProps> = ({
                   >
                     {pokemon.name}
                   </h3>
-                  <div className="flex justify-center gap-1 mt-2">
+
+                  {/* Badge de suffix */}
+                  <div className="flex justify-center mb-2">
+                    <span
+                      className={`px-2 py-1 rounded text-white text-xs ${getSuffixColor(
+                        pokemon.suffix
+                      )}`}
+                    >
+                      {formatSuffixName(pokemon.suffix)}
+                    </span>
+                  </div>
+
+                  <div className="flex justify-center gap-1">
                     {pokemon.types.map((type) => (
                       <span
                         key={type}
@@ -233,15 +333,35 @@ export const PokemonSelectorModal: React.FC<PokemonSelectorModalProps> = ({
               </div>
               <p className="text-lg mb-2">No se encontraron Pokémon</p>
               <p className="text-sm">
-                {searchTerm && selectedTypes.length > 0
+                {searchTerm &&
+                selectedTypes.length > 0 &&
+                selectedSuffix !== "all"
+                  ? `No hay Pokémon que coincidan con "${searchTerm}", tengan los tipos seleccionados y sean de la versión ${formatSuffixName(
+                      selectedSuffix
+                    )}`
+                  : searchTerm && selectedSuffix !== "all"
+                  ? `No hay Pokémon que coincidan con "${searchTerm}" en la versión ${formatSuffixName(
+                      selectedSuffix
+                    )}`
+                  : searchTerm && selectedTypes.length > 0
                   ? `No hay Pokémon que coincidan con "${searchTerm}" y tengan los tipos seleccionados`
                   : searchTerm
                   ? `No hay Pokémon que coincidan con "${searchTerm}"`
+                  : selectedTypes.length > 0 && selectedSuffix !== "all"
+                  ? `No hay Pokémon con los tipos seleccionados en la versión ${formatSuffixName(
+                      selectedSuffix
+                    )}`
                   : selectedTypes.length > 0
                   ? "No hay Pokémon con los tipos seleccionados"
+                  : selectedSuffix !== "all"
+                  ? `No hay Pokémon en la versión ${formatSuffixName(
+                      selectedSuffix
+                    )}`
                   : "Intenta con diferentes filtros"}
               </p>
-              {(searchTerm || selectedTypes.length > 0) && (
+              {(searchTerm ||
+                selectedTypes.length > 0 ||
+                selectedSuffix !== "all") && (
                 <button
                   onClick={clearAllFilters}
                   className="mt-3 px-4 py-2 bg-blue-500 text-white rounded-lg hover:bg-blue-600 transition-colors"
