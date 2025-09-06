@@ -1,5 +1,6 @@
 import { useState } from "react";
-import { Plus, Trash2, Download, X, Edit } from "lucide-react";
+import { useNavigate } from "react-router-dom";
+import { Plus, Trash2, Download, X, Edit, ExternalLink } from "lucide-react";
 import { useTeamBuilder } from "./components/team-builder-context";
 import { PokemonSelectorModal } from "./components/pokemon-selector-modal";
 import { PokemonEditorModal } from "./components/pokemon-edit-modal";
@@ -9,6 +10,7 @@ import { getAllFakemons } from "@/lib/fakemons";
 import { PokemonImage } from "@/components/absolution/pokemon-image";
 
 export const TeamBuilder = () => {
+  const navigate = useNavigate();
   const fakemons = getAllFakemons();
   const { team, addPokemon, removePokemon, updatePokemon, clearTeam } =
     useTeamBuilder();
@@ -46,6 +48,11 @@ export const TeamBuilder = () => {
 
   const handleEditPokemon = (pokemon: FakemonForTeam, index: number) => {
     setEditingPokemon({ pokemon, index });
+  };
+
+  const handleAdvancedEdit = (index: number) => {
+    // Navigate to the advanced edit page using React Router
+    navigate(`/team-builder/edit/${index}`);
   };
 
   const handleSaveEdit = (pokemon: FakemonForTeam) => {
@@ -153,13 +160,22 @@ export const TeamBuilder = () => {
                   <div className="absolute top-2 right-2 flex gap-1">
                     <button
                       onClick={() => handleEditPokemon(teamPokemon, index)}
-                      className="text-blue-500 hover:text-blue-700 p-1"
+                      className="text-blue-500 hover:text-blue-700 p-1 bg-white rounded shadow-sm"
+                      title="Quick Edit"
                     >
                       <Edit size={16} />
                     </button>
                     <button
+                      onClick={() => handleAdvancedEdit(index)}
+                      className="text-green-500 hover:text-green-700 p-1 bg-white rounded shadow-sm"
+                      title="Advanced Edit"
+                    >
+                      <ExternalLink size={16} />
+                    </button>
+                    <button
                       onClick={() => removePokemon(teamPokemon.randomId)}
-                      className="text-red-500 hover:text-red-700 p-1"
+                      className="text-red-500 hover:text-red-700 p-1 bg-white rounded shadow-sm"
+                      title="Remove"
                     >
                       <X size={16} />
                     </button>
