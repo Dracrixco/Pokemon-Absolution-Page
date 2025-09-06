@@ -1,11 +1,14 @@
 import React, { useState, useEffect } from "react";
 import { X, Save } from "lucide-react";
-import { fakemons } from "@/data/pokemon_absolution";
+import { getAllFakemons } from "@/lib/fakemons";
 import { abilities } from "@/data/abilities";
 import { getTypeColor } from "@/lib/type-colors";
 import type { FakemonForTeam } from "@/types/fakemon";
 import { ItemSelector } from "./pokemon-item-selector";
 import { MoveSelector } from "./pokemon-move-selector";
+import { PokemonImage } from "@/components/absolution/pokemon-image";
+
+const fakemons = getAllFakemons();
 
 interface PokemonEditorModalProps {
   isOpen: boolean;
@@ -119,7 +122,7 @@ export const PokemonEditorModal: React.FC<PokemonEditorModalProps> = ({
     null
   );
   const [selectedDifficulty, setSelectedDifficulty] =
-    useState<DIFFICULTY_LEVELS_TYPE>("absolution");
+    useState<DIFFICULTY_LEVELS_TYPE>("easy");
 
   useEffect(() => {
     if (pokemon) {
@@ -194,18 +197,33 @@ export const PokemonEditorModal: React.FC<PokemonEditorModalProps> = ({
     const difficultyKey = `moves_${selectedDifficulty}` as keyof FakemonForTeam;
     const moves = editedPokemon[difficultyKey] as string[];
 
+    // Verificar si moves existe y es un array
+    if (!moves || !Array.isArray(moves)) {
+      return ["", "", "", ""];
+    }
+
     // Asegurar que siempre tengamos 4 slots
     const paddedMoves = [...moves];
     while (paddedMoves.length < 4) {
       paddedMoves.push("");
     }
 
-    return paddedMoves.slice(0, 4); // Limitar a 4 movimientos máximo
+    return paddedMoves.slice(0, 4);
   };
 
   const getCurrentItem = () => {
     const itemKey = `item_${selectedDifficulty}` as keyof FakemonForTeam;
-    return editedPokemon[itemKey] as string;
+    const item = editedPokemon[itemKey] as string;
+    // Asegurar que devolvemos un string válido
+    return item || "";
+  };
+
+  const getCurrentAbilityIndex = () => {
+    const abilityKey =
+      `abilityIndex_${selectedDifficulty}` as keyof FakemonForTeam;
+    const abilityIndex = editedPokemon[abilityKey] as number;
+    // Asegurar que devolvemos un número válido
+    return typeof abilityIndex === "number" ? abilityIndex : 0;
   };
 
   const handleItemChange = (item: string) => {
@@ -228,12 +246,6 @@ export const PokemonEditorModal: React.FC<PokemonEditorModalProps> = ({
 
       return updated;
     });
-  };
-
-  const getCurrentAbilityIndex = () => {
-    const abilityKey =
-      `abilityIndex_${selectedDifficulty}` as keyof FakemonForTeam;
-    return editedPokemon[abilityKey] as number;
   };
 
   const handleAbilityIndexChange = (index: number) => {
@@ -295,15 +307,8 @@ export const PokemonEditorModal: React.FC<PokemonEditorModalProps> = ({
         {/* Header */}
         <div className="sticky top-0 bg-white border-b p-4 flex justify-between items-center z-10">
           <div className="flex items-center gap-4">
-            <img
-              src={pokemonData.sprite}
-              alt={pokemonData.name}
-              className="w-16 h-16"
-              onError={(e) => {
-                e.currentTarget.src =
-                  "data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iNjQiIGhlaWdodD0iNjQiIHZpZXdCb3g9IjAgMCA2NCA2NCIgZmlsbD0ibm9uZSIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj4KPHJlY3Qgd2lkdGg9IjY0IiBoZWlnaHQ9IjY0IiBmaWxsPSIjRjNGNEY2Ii8+CjxwYXRoIGQ9Ik0zMiAxNkMzOC42Mjc0IDE2IDQ0IDIxLjM3MjYgNDQgMjhDNDQgMzQuNjI3NCAzOC42Mjc0IDQwIDMyIDQwQzI1LjM3MjYgNDAgMjAgMzQuNjI3NCAyMCAyOCMyMCAyMS4zNzI2IDI1LjM3MjYgMTYgMzIgMTZaIiBmaWxsPSIjRDFENURCIi8+CjxjaXJjbGUgY3g9IjI4IiBjeT0iMjUuNiIgcj0iMi40IiBmaWxsPSIjNkI3MjgwIi8+CjxjaXJjbGUgY3g9IjM2IiBjeT0iMjUuNiIgcj0iMi40IiBmaWxsPSIjNkI3MjgwIi8+CjxwYXRoIGQ9Ik0yOCAzMkMyOCAzMi44ODM2IDI4Ljg5NTQgMzMuNiAzMCAzMy42SDM0QzM1LjEwNDYgMzMuNiAzNiAzMi44ODM2IDM2IDMyVjMxLjJIMjhWMzJaIiBmaWxsPSIjNkI3MjgwIi8+Cjwvc3ZnPg==";
-              }}
-            />
+            <PokemonImage fakemon={pokemonData} />
+
             <div>
               <h2 className="text-2xl font-bold">{pokemonData.name}</h2>
               <div className="flex gap-1">

@@ -6,6 +6,7 @@ import { PokemonEditorModal } from "./components/pokemon-edit-modal";
 import { getTypeColor } from "@/lib/type-colors";
 import type { Fakemon, FakemonForTeam } from "@/types/fakemon";
 import { getAllFakemons } from "@/lib/fakemons";
+import { PokemonImage } from "@/components/absolution/pokemon-image";
 
 export const TeamBuilder = () => {
   const fakemons = getAllFakemons();
@@ -25,25 +26,16 @@ export const TeamBuilder = () => {
     nature: "Hardy",
     abilityIndex_easy: 0,
     abilityIndex_normal: 0,
-    abilityIndex_hard: 1,
-    abilityIndex_absolution: 1,
+    abilityIndex_hard: 0,
+    abilityIndex_absolution: 0,
     item_easy: "",
     item_normal: "",
     item_hard: "ORANBERRY",
     item_absolution: "SITRUSBERRY",
-    moves_easy: pokemon.moves?.slice(0, 1) || ["TACKLE"],
-    moves_normal: pokemon.moves?.slice(0, 2) || ["TACKLE", "GROWL"],
-    moves_hard: pokemon.moves?.slice(0, 3) || [
-      "TACKLE",
-      "GROWL",
-      "QUICKATTACK",
-    ],
-    moves_absolution: pokemon.moves?.slice(0, 4) || [
-      "TACKLE",
-      "GROWL",
-      "QUICKATTACK",
-      "BITE",
-    ],
+    moves_easy: pokemon.moves?.slice(0, 1) || [],
+    moves_normal: pokemon.moves?.slice(0, 2) || [],
+    moves_hard: pokemon.moves?.slice(0, 3) || [],
+    moves_absolution: pokemon.moves?.slice(0, 4) || [],
   });
 
   const handleAddPokemon = (pokemon: Fakemon) => {
@@ -173,16 +165,8 @@ export const TeamBuilder = () => {
                   </div>
 
                   {pokemonData && (
-                    <div className="text-center">
-                      <img
-                        src={pokemonData.sprite}
-                        alt={pokemonData.name}
-                        className="w-20 h-20 mx-auto mb-2"
-                        onError={(e) => {
-                          e.currentTarget.src =
-                            "data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iODAiIGhlaWdodD0iODAiIHZpZXdCb3g9IjAgMCA4MCA4MCIgZmlsbD0ibm9uZSIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj4KPHJlY3Qgd2lkdGg9IjgwIiBoZWlnaHQ9IjgwIiBmaWxsPSIjRjNGNEY2Ii8+CjxwYXRoIGQ9Ik00MCAyMEM0OC4yODQzIDIwIDU1IDI2LjcxNTcgNTUgMzVDNTUgNDMuMjg0MyA0OC4yODQzIDUwIDQwIDUwQzMxLjcxNTcgNTAgMjUgNDMuMjg0MyAyNSAzNUMyNSAyNi43MTU3IDMxLjcxNTcgMjAgNDAgMjBaIiBmaWxsPSIjRDFENURCIi8+CjxjaXJjbGUgY3g9IjM1IiBjeT0iMzIiIHI9IjMiIGZpbGw9IiM2QjcyODAiLz4KPGNpcmNsZSBjeD0iNDUiIGN5PSIzMiIgcj0iMyIgZmlsbD0iIzZCNzI4MCIvPgo8cGF0aCBkPSJNMzUgNDBDMzUgNDEuMTA0NiAzNS44OTU0IDQyIDM3IDQySDQzQzQ0LjEwNDYgNDIgNDUgNDEuMTA0NiA0NSA0MFYzOUgzNVY0MFoiIGZpbGw9IiM2QjcyODAiLz4KPC9zdmc+";
-                        }}
-                      />
+                    <div className="text-center flex flex-col items-center">
+                      <PokemonImage fakemon={pokemonData} />
                       <h3 className="font-bold text-lg">{pokemonData.name}</h3>
                       <div className="flex justify-center gap-1 mb-2">
                         {pokemonData.types.map((type) => (
