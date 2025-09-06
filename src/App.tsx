@@ -11,6 +11,7 @@ import { MoveDetailPage } from "./pages/moves/moves-detail/page";
 import { Footer } from "./components/absolution/footer";
 import { UpdatesPage } from "./pages/updates/page";
 import { CountryDownloads } from "./pages/countries/page";
+import { TeamBuilder } from "./pages/team-builder/page";
 
 export default function PokemonAbsolutionWebsite() {
   return (
@@ -26,6 +27,7 @@ export default function PokemonAbsolutionWebsite() {
         <Route path="/moves/:id" element={<MoveDetailPage />} />
         <Route path="/updates" element={<UpdatesPage />} />
         <Route path="/downloads-list" element={<CountryDownloads />} />
+        <Route path="/team-builder" element={<TeamBuilder />} />
       </Routes>
       <Footer />
     </>

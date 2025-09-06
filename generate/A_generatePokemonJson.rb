@@ -163,6 +163,49 @@ def parse_abilities(lines)
   abilities
 end
 
+def parse_items(lines)
+  items = []
+  current = nil
+
+  lines.each do |line|
+    line.strip!
+    next if line.empty? || line.start_with?("#")
+
+    if line.match(/^\[(.+)\]$/)
+      items << current if current
+      current = {
+        id: $1,
+        name: "",
+        namePlural: "",
+        pocket: 0,
+        price: 0,
+        flags: "",
+        description: ""
+      }
+    elsif current
+      key, value = line.split("=", 2).map(&:strip)
+
+      case key
+      when "Name"
+        current[:name] = value
+      when "NamePlural"
+        current[:namePlural] = value
+      when "Pocket"
+        current[:pocket] = value.to_i
+      when "Price"
+        current[:price] = value.to_i
+      when "Flags"
+        current[:flags] = value
+      when "Description"
+        current[:description] = value
+      end
+    end
+  end
+
+  items << current if current
+  items
+end
+
 # ==========================
 # 📝 GENERADOR DE TS
 # ==========================
@@ -249,4 +292,23 @@ abilities_configs.each do |config|
   abilities = parse_abilities(read_combined_lines(config[:inputs]))
   write_ts(config[:output], "Ability", "abilities", abilities)
   puts "✅ Habilidades generadas en #{config[:output]}"
+end
+
+# ========================================================== #
+# Procesar Items
+# ========================================================== #
+items_configs = [
+  {
+    output: File.join(__dir__, "../src/data/items.ts"),
+    inputs: [
+      File.join(__dir__, "./items.txt"),
+      File.join(__dir__, "./items_absolution.txt")
+    ]
+  }
+]
+
+items_configs.each do |config|
+  items = parse_items(read_combined_lines(config[:inputs]))
+  write_ts(config[:output], "Item", "items", items)
+  puts "✅ Items generados en #{config[:output]}"
 end
