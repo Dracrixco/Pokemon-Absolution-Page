@@ -36,6 +36,7 @@ export const TeamBuilder = () => {
     moves_normal: pokemon.moves?.slice(0, 2) || [],
     moves_hard: pokemon.moves?.slice(0, 3) || [],
     moves_absolution: pokemon.moves?.slice(0, 4) || [],
+    randomId: Math.random().toString(36).substring(2, 15),
   });
 
   const handleAddPokemon = (pokemon: Fakemon) => {
@@ -157,7 +158,7 @@ export const TeamBuilder = () => {
                       <Edit size={16} />
                     </button>
                     <button
-                      onClick={() => removePokemon(teamPokemon.id)}
+                      onClick={() => removePokemon(teamPokemon.randomId)}
                       className="text-red-500 hover:text-red-700 p-1"
                     >
                       <X size={16} />
@@ -165,7 +166,10 @@ export const TeamBuilder = () => {
                   </div>
 
                   {pokemonData && (
-                    <div className="text-center flex flex-col items-center">
+                    <div
+                      className="text-center flex flex-col items-center"
+                      onClick={() => handleEditPokemon(teamPokemon, index)}
+                    >
                       <PokemonImage fakemon={pokemonData} />
                       <h3 className="font-bold text-lg">{pokemonData.name}</h3>
                       <div className="flex justify-center gap-1 mb-2">

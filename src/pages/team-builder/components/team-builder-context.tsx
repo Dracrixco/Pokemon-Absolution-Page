@@ -30,8 +30,8 @@ export const TeamBuilderProvider: React.FC<{ children: ReactNode }> = ({
     }
   };
 
-  const removePokemon = (id: string) => {
-    setTeam((prev) => prev.filter((p) => p.id !== id));
+  const removePokemon = (randomId: string) => {
+    setTeam((prev) => prev.filter((p) => p.randomId !== randomId));
   };
 
   const updatePokemon = (index: number, pokemon: FakemonForTeam) => {

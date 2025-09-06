@@ -26,6 +26,7 @@ export interface Fakemon {
 
 export interface FakemonForTeam {
   id: string;
+  randomId: string;
   ivs: number[];
   evs: number[];
   level: number;
