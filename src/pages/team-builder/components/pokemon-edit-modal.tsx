@@ -3,9 +3,9 @@ import { X, Save } from "lucide-react";
 import { fakemons } from "@/data/pokemon_absolution";
 import { moves } from "@/data/moves";
 import { abilities } from "@/data/abilities";
-import { items } from "@/data/items";
 import { getTypeColor } from "@/lib/type-colors";
 import type { FakemonForTeam } from "@/types/fakemon";
+import { ItemSelector } from "./pokemon-item-selector";
 
 interface PokemonEditorModalProps {
   isOpen: boolean;
@@ -14,48 +14,81 @@ interface PokemonEditorModalProps {
   onSave: (pokemon: FakemonForTeam) => void;
 }
 
-// Definición de naturalezas con sus efectos
+type applyEVPresetType =
+  | "physical"
+  | "special"
+  | "tank"
+  | "Physicalspeedy"
+  | "Specialspeedy"
+  | "mixed";
+
 const NATURE_EFFECTS = {
-  //   Hardy: { increase: null, decrease: null },
-  Lonely: { increase: "attack", decrease: "defense" },
-  Brave: { increase: "attack", decrease: "speed" },
-  Adamant: { increase: "attack", decrease: "spAttack" },
-  Naughty: { increase: "attack", decrease: "spDefense" },
-  Bold: { increase: "defense", decrease: "attack" },
-  //   Docile: { increase: null, decrease: null },
-  Relaxed: { increase: "defense", decrease: "speed" },
-  Impish: { increase: "defense", decrease: "spAttack" },
-  Lax: { increase: "defense", decrease: "spDefense" },
-  Timid: { increase: "speed", decrease: "attack" },
-  Hasty: { increase: "speed", decrease: "defense" },
-  //   Serious: { increase: null, decrease: null },
-  Jolly: { increase: "speed", decrease: "spAttack" },
-  Naive: { increase: "speed", decrease: "spDefense" },
-  Modest: { increase: "spAttack", decrease: "attack" },
-  Mild: { increase: "spAttack", decrease: "defense" },
-  Quiet: { increase: "spAttack", decrease: "speed" },
-  //   Bashful: { increase: null, decrease: null },
-  Rash: { increase: "spAttack", decrease: "spDefense" },
-  Calm: { increase: "spDefense", decrease: "attack" },
-  Gentle: { increase: "spDefense", decrease: "defense" },
-  Sassy: { increase: "spDefense", decrease: "speed" },
-  Careful: { increase: "spDefense", decrease: "spAttack" },
-  //   Quirky: { increase: null, decrease: null },
+  // attack =======================================
+  Adamant: {
+    increase: "attack",
+    decrease: "spAttack",
+    applyEVPresetType: "Physicalspeedy",
+  },
+  // defense =======================================
+  Bold: { increase: "defense", decrease: "attack", applyEVPresetType: "tank" },
+  Relaxed: {
+    increase: "defense",
+    decrease: "speed",
+    applyEVPresetType: "tank",
+  },
+  Impish: {
+    increase: "defense",
+    decrease: "spAttack",
+    applyEVPresetType: "tank",
+  },
+  Lax: {
+    increase: "defense",
+    decrease: "spDefense",
+    applyEVPresetType: "tank",
+  },
+  //  speed =======================================
+  Timid: {
+    increase: "speed",
+    decrease: "attack",
+    applyEVPresetType: "Physicalspeedy",
+  },
+  Jolly: {
+    increase: "speed",
+    decrease: "spAttack",
+    applyEVPresetType: "Specialspeedy",
+  },
+  // special attack =======================================
+  Modest: {
+    increase: "spAttack",
+    decrease: "attack",
+    applyEVPresetType: "Specialspeedy",
+  },
+  // special defense =======================================
+  Calm: {
+    increase: "spDefense",
+    decrease: "attack",
+    applyEVPresetType: "Physicalspeedy",
+  },
+  Gentle: {
+    increase: "spDefense",
+    decrease: "defense",
+    applyEVPresetType: "Specialspeedy",
+  },
+  Sassy: {
+    increase: "spDefense",
+    decrease: "speed",
+    applyEVPresetType: "Specialspeedy",
+  },
+  Careful: {
+    increase: "spDefense",
+    decrease: "spAttack",
+    applyEVPresetType: "Specialspeedy",
+  },
 } as const;
 
-// const NATURES = Object.keys(NATURE_EFFECTS) as (keyof typeof NATURE_EFFECTS)[];
+const NATURES = Object.keys(NATURE_EFFECTS) as (keyof typeof NATURE_EFFECTS)[];
 
 const DIFFICULTY_LEVELS = ["easy", "normal", "hard", "absolution"] as const;
-
-// Mapeo de stats para EVs
-const STAT_MAPPING = {
-  hp: 0,
-  attack: 1,
-  defense: 2,
-  spAttack: 3,
-  spDefense: 4,
-  speed: 5,
-} as const;
 
 export const PokemonEditorModal: React.FC<PokemonEditorModalProps> = ({
   isOpen,
@@ -90,41 +123,8 @@ export const PokemonEditorModal: React.FC<PokemonEditorModalProps> = ({
   // Aplicar preset basado en la naturaleza
   const applyNaturePreset = (nature: keyof typeof NATURE_EFFECTS) => {
     const effect = NATURE_EFFECTS[nature];
-    const newEvs = [0, 0, 0, 0, 0, 0];
-    const newIvs = [31, 31, 31, 31, 31, 31];
-
-    // HP siempre tiene 252 EVs para supervivencia
-    newEvs[STAT_MAPPING.hp] = 252;
-
-    if (effect.increase && effect.decrease) {
-      // 252 EVs en la stat que aumenta
-      newEvs[STAT_MAPPING[effect.increase]] = 252;
-
-      // 4 EVs restantes distribuidos (ejemplo: en speed si no es lo que se reduce)
-      const remainingStatIndex = Object.values(STAT_MAPPING).find(
-        (index) =>
-          index !== STAT_MAPPING.hp &&
-          index !== STAT_MAPPING[effect.increase] &&
-          index !== STAT_MAPPING[effect.decrease]
-      );
-      if (remainingStatIndex !== undefined) {
-        newEvs[remainingStatIndex] = 4;
-      }
-
-      // IVs: 0 en la stat que se reduce para minimizar el daño
-      newIvs[STAT_MAPPING[effect.decrease]] = 0;
-    } else {
-      // Para naturalezas neutrales, distribución balanceada
-      newEvs[STAT_MAPPING.attack] = 252;
-      newEvs[STAT_MAPPING.speed] = 4;
-    }
-
-    setEditedPokemon({
-      ...editedPokemon,
-      nature,
-      evs: newEvs,
-      ivs: newIvs,
-    });
+    const applyEVPresetType = effect.applyEVPresetType;
+    applyEVPreset(applyEVPresetType);
   };
 
   const handleEVChange = (index: number, value: string) => {
@@ -185,15 +185,7 @@ export const PokemonEditorModal: React.FC<PokemonEditorModalProps> = ({
   };
 
   // Presets comunes de EVs
-  const applyEVPreset = (
-    preset:
-      | "physical"
-      | "special"
-      | "tank"
-      | "Physicalspeedy"
-      | "Specialspeedy"
-      | "mixed"
-  ) => {
+  const applyEVPreset = (preset: applyEVPresetType) => {
     let newEvs = [0, 0, 0, 0, 0, 0];
 
     switch (preset) {
@@ -234,7 +226,7 @@ export const PokemonEditorModal: React.FC<PokemonEditorModalProps> = ({
     <div className="fixed inset-0 bg-black bg-opacity-50 flex items-center justify-center z-50 p-4">
       <div className="bg-white rounded-lg w-full max-w-5xl max-h-[90vh] overflow-y-auto">
         {/* Header */}
-        <div className="sticky top-0 bg-white border-b p-4 flex justify-between items-center">
+        <div className="sticky top-0 bg-white border-b p-4 flex justify-between items-center z-10">
           <div className="flex items-center gap-4">
             <img
               src={pokemonData.sprite}
@@ -242,7 +234,7 @@ export const PokemonEditorModal: React.FC<PokemonEditorModalProps> = ({
               className="w-16 h-16"
               onError={(e) => {
                 e.currentTarget.src =
-                  "data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iNjQiIGhlaWdodD0iNjQiIHZpZXdCb3g9IjAgMCA2NCA2NCIgZmlsbD0ibm9uZSIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj4KPHJlY3Qgd2lkdGg9IjY0IiBoZWlnaHQ9IjY0IiBmaWxsPSIjRjNGNEY2Ii8+CjxwYXRoIGQ9Ik0zMiAxNkMzOC42Mjc0IDE2IDQ0IDIxLjM3MjYgNDQgMjhDNDQgMzQuNjI3NCAzOC42Mjc0IDQwIDMyIDQwQzI1LjM3MjYgNDAgMjAgMzQuNjI3NCAyMCAyOEMyMCAyMS4zNzI2IDI1LjM3MjYgMTYgMzIgMTZaIiBmaWxsPSIjRDFENURCIi8+CjxjaXJjbGUgY3g9IjI4IiBjeT0iMjUuNiIgcj0iMi40IiBmaWxsPSIjNkI3MjgwIi8+CjxjaXJjbGUgY3g9IjM2IiBjeT0iMjUuNiIgcj0iMi40IiBmaWxsPSIjNkI3MjgwIi8+CjxwYXRoIGQ9Ik0yOCAzMkMyOCAzMi44ODM2IDI4Ljg5NTQgMzMuNiAzMCAzMy42SDM0QzM1LjEwNDYgMzMuNiAzNiAzMi44ODM2IDM2IDMyVjMxLjJIMjhWMzJaIiBmaWxsPSIjNkI3MjgwIi8+Cjwvc3ZnPg==";
+                  "data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iNjQiIGhlaWdodD0iNjQiIHZpZXdCb3g9IjAgMCA2NCA2NCIgZmlsbD0ibm9uZSIgeG1zbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj4KPHJlY3Qgd2lkdGg9IjY0IiBoZWlnaHQ9IjY0IiBmaWxsPSIjRjNGNEY2Ii8+CjxwYXRoIGQ9Ik0zMiAxNkMzOC42Mjc0IDE2IDQ0IDIxLjM3MjYgNDQgMjhDNDQgMzQuNjI3NCAzOC42Mjc0IDQwIDMyIDQwQzI1LjM3MjYgNDAgMjAgMzQuNjI3NCAyMCAyOEMyMCAyMS4zNzI2IDI1LjM3MjYgMTYgMzIgMTZaIiBmaWxsPSIjRDFENURCIi8+CjxjaXJjbGUgY3g9IjI4IiBjeT0iMjUuNiIgcj0iMi40IiBmaWxsPSIjNkI3MjgwIi8+CjxjaXJjbGUgY3g9IjM2IiBjeT0iMjUuNiIgcj0iMi40IiBmaWxsPSIjNkI3MjgwIi8+CjxwYXRoIGQ9Ik0yOCAzMkMyOCAzMi44ODM2IDI4Ljg5NTQgMzMuNiAzMCAzMy42SDM0QzM1LjEwNDYgMzMuNiAzNiAzMi44ODM2IDM2IDMyVjMxLjJIMjhWMzJaIiBmaWxsPSIjNkI3MjgwIi8+Cjwvc3ZnPg==";
               }}
             />
             <div>
@@ -315,22 +307,17 @@ export const PokemonEditorModal: React.FC<PokemonEditorModalProps> = ({
                   }
                   className="flex-1 px-3 py-2 border border-gray-300 rounded-lg focus:ring-2 focus:ring-blue-500"
                 >
-                  {Object.keys(NATURE_EFFECTS).map((nature) => (
-                    <option key={nature} value={nature}>
-                      {nature}
-                      (Increase:{" "}
-                      {
-                        NATURE_EFFECTS[nature as keyof typeof NATURE_EFFECTS]
-                          .increase
-                      }
-                      ) (Decrease:{" "}
-                      {
-                        NATURE_EFFECTS[nature as keyof typeof NATURE_EFFECTS]
-                          .decrease
-                      }
-                      )
-                    </option>
-                  ))}
+                  {NATURES.map((nature) => {
+                    const effect = NATURE_EFFECTS[nature];
+                    return (
+                      <option key={nature} value={nature}>
+                        {nature}
+                        {effect.increase && effect.decrease
+                          ? ` (+${effect.increase}, -${effect.decrease})`
+                          : " (Neutral)"}
+                      </option>
+                    );
+                  })}
                 </select>
                 <button
                   onClick={() =>
@@ -377,6 +364,15 @@ export const PokemonEditorModal: React.FC<PokemonEditorModalProps> = ({
                 : selectedDifficulty}
             </h3>
 
+            {/* Item */}
+            <div className="mb-4">
+              <label className="block text-sm font-medium mb-1">Objeto</label>
+              <ItemSelector
+                value={getCurrentItem()}
+                onChange={handleItemChange}
+              />
+            </div>
+
             {/* Ability */}
             <div className="mb-4">
               <label className="block text-sm font-medium mb-1">
@@ -408,23 +404,6 @@ export const PokemonEditorModal: React.FC<PokemonEditorModalProps> = ({
                     </option>
                   );
                 })}
-              </select>
-            </div>
-
-            {/* Item */}
-            <div className="mb-4">
-              <label className="block text-sm font-medium mb-1">Objeto</label>
-              <select
-                value={getCurrentItem()}
-                onChange={(e) => handleItemChange(e.target.value)}
-                className="w-full px-3 py-2 border border-gray-300 rounded-lg focus:ring-2 focus:ring-blue-500"
-              >
-                <option value="">Sin objeto</option>
-                {items.map((item) => (
-                  <option key={item.id} value={item.id}>
-                    {item.name}
-                  </option>
-                ))}
               </select>
             </div>
 
@@ -488,7 +467,7 @@ export const PokemonEditorModal: React.FC<PokemonEditorModalProps> = ({
               </button>
               <button
                 onClick={() => applyEVPreset("Specialspeedy")}
-                className="px-3 py-1 bg-orange-500 text-white rounded text-sm hover:bg-yellow-600"
+                className="px-3 py-1 bg-orange-500 text-white rounded text-sm hover:bg-orange-600"
               >
                 Rápido (SpA/Spe)
               </button>
