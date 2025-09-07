@@ -41,17 +41,42 @@ export const MovesetEditor = () => {
 
   // Filter moves based on search and filters
   const filteredMoves = useMemo(() => {
-    return allMoves.filter((move) => {
-      const matchesSearch =
-        move.name.toLowerCase().includes(searchTerm.toLowerCase()) ||
-        move.id.toLowerCase().includes(searchTerm.toLowerCase());
-      const matchesType = selectedType === "all" || move.type === selectedType;
-      const matchesCategory =
-        selectedCategory === "all" || move.category === selectedCategory;
+    // Get all already added move IDs
+    const levelMoveIds = moveset.levelMoves.map((lm) => lm.moveId);
+    const allAddedMoveIds = new Set([
+      ...levelMoveIds,
+      ...moveset.tutorMoves,
+      ...moveset.eggMoves,
+    ]);
 
-      return matchesSearch && matchesType && matchesCategory;
-    });
-  }, [allMoves, searchTerm, selectedType, selectedCategory]);
+    return allMoves
+      .filter((move) => {
+        // Exclude already added moves
+        if (allAddedMoveIds.has(move.id)) return false;
+
+        const matchesSearch =
+          move.name.toLowerCase().includes(searchTerm.toLowerCase()) ||
+          move.id.toLowerCase().includes(searchTerm.toLowerCase());
+        const matchesType =
+          selectedType === "all" || move.type === selectedType;
+        const matchesCategory =
+          selectedCategory === "all" || move.category === selectedCategory;
+
+        return matchesSearch && matchesType && matchesCategory;
+      })
+      .sort((a, b) => {
+        // Sort by power descending (highest first), then by name
+        const powerA = a.power || 0;
+        const powerB = b.power || 0;
+
+        if (powerB !== powerA) {
+          return powerB - powerA;
+        }
+
+        // If power is the same, sort alphabetically by name
+        return a.name.localeCompare(b.name);
+      });
+  }, [allMoves, searchTerm, selectedType, selectedCategory, moveset]);
 
   // Calculate statistics
   const stats = useMemo(() => {
@@ -385,11 +410,16 @@ export const MovesetEditor = () => {
 
               <div className="text-sm text-gray-600">
                 Showing {filteredMoves.length} of {allMoves.length} moves
+                {stats.totalMoves > 0 && (
+                  <span className="ml-2 text-blue-600">
+                    ({stats.totalMoves} already added)
+                  </span>
+                )}
               </div>
             </div>
 
             {/* Moves List */}
-            <div className="max-h-96 overflow-y-auto space-y-2">
+            <div className="overflow-y-auto space-y-2">
               {filteredMoves.map((move) => (
                 <div
                   key={move.id}
@@ -407,12 +437,12 @@ export const MovesetEditor = () => {
                     <span className="font-medium">{move.name}</span>
                   </div>
                   <div className="text-sm text-gray-600">
-                    {move.power && move.power > 0 && (
-                      <span>PWR: {move.power} </span>
-                    )}
-                    {move.accuracy && move.accuracy > 0 && (
-                      <span>ACC: {move.accuracy}%</span>
-                    )}
+                    <span>
+                      {move.power && move.power > 0 && <> PWR: {move.power} </>}
+                      {move.accuracy && move.accuracy > 0 && (
+                        <> ACC: {move.accuracy}%</>
+                      )}
+                    </span>
                   </div>
                 </div>
               ))}
@@ -447,7 +477,7 @@ export const MovesetEditor = () => {
             </div>
 
             {/* Tab Content */}
-            <div className="max-h-96 overflow-y-auto">
+            <div className="overflow-y-auto">
               {activeTab === "level" && (
                 <div className="space-y-2">
                   {moveset.levelMoves.length === 0 ? (
@@ -465,7 +495,7 @@ export const MovesetEditor = () => {
                           key={index}
                           className="flex items-center justify-between p-3 border border-gray-200 rounded-lg"
                         >
-                          <div className="flex items-center gap-3">
+                          <div className="flex items-center gap-3 flex-1">
                             <input
                               type="number"
                               min="1"
@@ -479,20 +509,41 @@ export const MovesetEditor = () => {
                               }
                               className="w-16 px-2 py-1 border border-gray-300 rounded text-sm text-center"
                             />
-                            <span
-                              className={`px-2 py-1 rounded text-white text-xs font-medium ${getTypeColor(
-                                move?.type || "Normal"
-                              )}`}
-                            >
-                              {move?.type || "Unknown"}
-                            </span>
+                            <div className="flex items-center gap-2">
+                              <span
+                                className={`px-2 py-1 rounded text-white text-xs font-medium ${getTypeColor(
+                                  move?.type || "Normal"
+                                )}`}
+                              >
+                                {move?.type || "Unknown"}
+                              </span>
+                              <span
+                                className={`px-2 py-1 rounded text-white text-xs font-medium ${
+                                  move?.category === "Physical"
+                                    ? "bg-red-500"
+                                    : move?.category === "Special"
+                                    ? "bg-blue-500"
+                                    : "bg-gray-500"
+                                }`}
+                              >
+                                {move?.category || "Unknown"}
+                              </span>
+                            </div>
                             <span className="font-medium">
                               {move?.name || levelMove.moveId}
                             </span>
+                            <div className="text-sm text-gray-600 ml-auto">
+                              {move?.power && move.power > 0 && (
+                                <span className="mr-2">PWR: {move.power}</span>
+                              )}
+                              {move?.accuracy && move.accuracy > 0 && (
+                                <span>ACC: {move.accuracy}%</span>
+                              )}
+                            </div>
                           </div>
                           <button
                             onClick={() => removeLevelMove(index)}
-                            className="text-red-500 hover:text-red-700 p-1"
+                            className="text-red-500 hover:text-red-700 p-1 ml-2"
                           >
                             <Trash2 size={16} />
                           </button>
@@ -518,21 +569,42 @@ export const MovesetEditor = () => {
                           key={moveId}
                           className="flex items-center justify-between p-3 border border-gray-200 rounded-lg"
                         >
-                          <div className="flex items-center gap-3">
-                            <span
-                              className={`px-2 py-1 rounded text-white text-xs font-medium ${getTypeColor(
-                                move?.type || "Normal"
-                              )}`}
-                            >
-                              {move?.type || "Unknown"}
-                            </span>
+                          <div className="flex items-center gap-3 flex-1">
+                            <div className="flex items-center gap-2">
+                              <span
+                                className={`px-2 py-1 rounded text-white text-xs font-medium ${getTypeColor(
+                                  move?.type || "Normal"
+                                )}`}
+                              >
+                                {move?.type || "Unknown"}
+                              </span>
+                              <span
+                                className={`px-2 py-1 rounded text-white text-xs font-medium ${
+                                  move?.category === "Physical"
+                                    ? "bg-red-500"
+                                    : move?.category === "Special"
+                                    ? "bg-blue-500"
+                                    : "bg-gray-500"
+                                }`}
+                              >
+                                {move?.category || "Unknown"}
+                              </span>
+                            </div>
                             <span className="font-medium">
                               {move?.name || moveId}
                             </span>
+                            <div className="text-sm text-gray-600 ml-auto">
+                              {move?.power && move.power > 0 && (
+                                <span className="mr-2">PWR: {move.power}</span>
+                              )}
+                              {move?.accuracy && move.accuracy > 0 && (
+                                <span>ACC: {move.accuracy}%</span>
+                              )}
+                            </div>
                           </div>
                           <button
                             onClick={() => removeTutorMove(moveId)}
-                            className="text-red-500 hover:text-red-700 p-1"
+                            className="text-red-500 hover:text-red-700 p-1 ml-2"
                           >
                             <Trash2 size={16} />
                           </button>
@@ -558,21 +630,42 @@ export const MovesetEditor = () => {
                           key={moveId}
                           className="flex items-center justify-between p-3 border border-gray-200 rounded-lg"
                         >
-                          <div className="flex items-center gap-3">
-                            <span
-                              className={`px-2 py-1 rounded text-white text-xs font-medium ${getTypeColor(
-                                move?.type || "Normal"
-                              )}`}
-                            >
-                              {move?.type || "Unknown"}
-                            </span>
+                          <div className="flex items-center gap-3 flex-1">
+                            <div className="flex items-center gap-2">
+                              <span
+                                className={`px-2 py-1 rounded text-white text-xs font-medium ${getTypeColor(
+                                  move?.type || "Normal"
+                                )}`}
+                              >
+                                {move?.type || "Unknown"}
+                              </span>
+                              <span
+                                className={`px-2 py-1 rounded text-white text-xs font-medium ${
+                                  move?.category === "Physical"
+                                    ? "bg-red-500"
+                                    : move?.category === "Special"
+                                    ? "bg-blue-500"
+                                    : "bg-gray-500"
+                                }`}
+                              >
+                                {move?.category || "Unknown"}
+                              </span>
+                            </div>
                             <span className="font-medium">
                               {move?.name || moveId}
                             </span>
+                            <div className="text-sm text-gray-600 ml-auto">
+                              {move?.power && move.power > 0 && (
+                                <span className="mr-2">PWR: {move.power}</span>
+                              )}
+                              {move?.accuracy && move.accuracy > 0 && (
+                                <span>ACC: {move.accuracy}%</span>
+                              )}
+                            </div>
                           </div>
                           <button
                             onClick={() => removeEggMove(moveId)}
-                            className="text-red-500 hover:text-red-700 p-1"
+                            className="text-red-500 hover:text-red-700 p-1 ml-2"
                           >
                             <Trash2 size={16} />
                           </button>
