@@ -17,6 +17,7 @@ import { useParams, Link, useNavigate } from "react-router-dom";
 import { PokemonImage } from "@/components/absolution/pokemon-image";
 
 export const FakemonDetailPage = () => {
+  const [isHovered, setIsHovered] = useState(false);
   const { id } = useParams<{ id: string }>();
   const navigate = useNavigate();
 
@@ -74,8 +75,16 @@ export const FakemonDetailPage = () => {
             {/* Main img */}
             <div className="bg-purple-800/50 rounded-xl border border-purple-600 p-8">
               <div className="flex justify-center mb-6">
-                <div className="relative w-64 h-64 rounded-full bg-gradient-to-br from-purple-400/20 to-purple-600/20 border-2 border-purple-400/30 flex items-center justify-center">
-                  <PokemonImage fakemon={fakemon} size={300} />
+                <div
+                  className="relative w-64 h-64 rounded-full bg-gradient-to-br from-purple-400/20 to-purple-600/20 border-2 border-purple-400/30 flex items-center justify-center transition-transform duration-300 hover:scale-105 group"
+                  onMouseEnter={() => setIsHovered(true)}
+                  onMouseLeave={() => setIsHovered(false)}
+                >
+                  <PokemonImage
+                    fakemon={fakemon}
+                    size={300}
+                    showBack={isHovered}
+                  />
                 </div>
               </div>
 
