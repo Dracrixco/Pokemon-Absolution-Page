@@ -210,10 +210,46 @@ def parse_items(lines, suffix)
   items
 end
 
+def parse_trainer_types(lines, suffix)
+  trainer_types = []
+  current = nil
+
+  lines.each do |line|
+    line.strip!
+    next if line.empty? || line.start_with?("#")
+
+    if line.match(/^\[(.+)\]$/)
+      trainer_types << current if current
+      current = {
+        id: $1,
+        name: "",
+        gender: "",
+        baseMoney: 0,
+        suffix: suffix,
+        sprite: "/Trainers/#{$1.upcase}.png",
+        description: ""
+      }
+    elsif current
+      key, value = line.split("=", 2).map(&:strip)
+
+      case key
+      when "Name"
+        current[:name] = value
+      when "Gender"
+        current[:gender] = value
+      when "BaseMoney"
+        current[:baseMoney] = value.to_i
+      end
+    end
+  end
+
+  trainer_types << current if current
+  trainer_types
+end
+
 # ==========================
 # 📝 GENERADOR DE TS
 # ==========================
-
 def write_ts(output_path, type_name, export_name, data)
   File.write(
     output_path,
@@ -254,7 +290,6 @@ fakemon_configs = [
     suffix: "normal"
   }
 ]
-
 fakemon_configs.each do |config|
   fakemons =
     parse_fakemons(read_combined_lines(config[:inputs]), config[:suffix])
@@ -275,7 +310,6 @@ moves_configs = [
     suffix: "normal"
   }
 ]
-
 moves_configs.each do |config|
   moves = parse_moves(read_combined_lines(config[:inputs]), config[:suffix])
   write_ts(config[:output], "Move", "moves", moves)
@@ -295,31 +329,23 @@ abilities_configs = [
     suffix: "normal"
   }
 ]
-
 abilities_configs.each do |config|
   abilities = parse_abilities(read_combined_lines(config[:inputs]),config[:suffix])
   write_ts(config[:output], "Ability", "abilities", abilities)
   puts "✅ Habilidades generadas en #{config[:output]}"
 end
-
 # ========================================================== #
-# Procesar Items
+# Procesar Trainer Types
 # ========================================================== #
-items_configs = [
+trainer_types_configs = [
   {
-    output: File.join(__dir__, "../src/data/items.ts"),
-    inputs: [File.join(__dir__, "./items.txt")],
+    output: File.join(__dir__, "../src/data/trainer_types.ts"),
+    inputs: [File.join(__dir__, "./trainer_types.txt")],
     suffix: "normal"
-  },
-  {
-    output: File.join(__dir__, "../src/data/items_absolution.ts"),
-    inputs: [File.join(__dir__, "./items_absolution.txt")],
-    suffix: "absolution"
   }
 ]
-
-items_configs.each do |config|
-  items = parse_items(read_combined_lines(config[:inputs]),config[:suffix])
-  write_ts(config[:output], "Item", "items", items)
-  puts "✅ Items generados en #{config[:output]}"
+trainer_types_configs.each do |config|
+  trainer_types = parse_trainer_types(read_combined_lines(config[:inputs]), config[:suffix])
+  write_ts(config[:output], "TrainerType", "trainerTypes", trainer_types)
+  puts "✅ Trainer Types generados en #{config[:output]}"
 end
