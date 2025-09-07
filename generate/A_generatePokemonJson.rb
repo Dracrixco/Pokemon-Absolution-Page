@@ -54,9 +54,9 @@ def parse_fakemons(lines, suffix)
           hp: stats[0],
           attack: stats[1],
           defense: stats[2],
-          spAttack: stats[3],
-          spDefense: stats[4],
-          speed: stats[5]
+          spAttack: stats[4],
+          spDefense: stats[5],
+          speed: stats[3]
         }
       when "Height"
         current[:height] = value

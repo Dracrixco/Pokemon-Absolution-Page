@@ -99,11 +99,6 @@ export const GameImages = () => {
                                   </div>
                                 </div>
                               </div>
-                              <div className="p-4">
-                                <h3 className="text-white font-semibold">
-                                  {image.alt}
-                                </h3>
-                              </div>
                             </CardContent>
                           </Card>
                         ))}

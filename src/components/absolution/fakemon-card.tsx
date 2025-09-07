@@ -15,7 +15,7 @@ export default function FakemonCardPokemon({
 }: FakemonCardPokemonProps) {
   const [isFlipped, setIsFlipped] = useState(false);
 
-  const maxStat = Math.max(...Object.values(fakemon.stats));
+  const maxStat = 130;
 
   return (
     <Link to={`/fakemons/${fakemon.id}`}>

@@ -16,9 +16,9 @@ export const fakemons: Fakemon[] =
       hp: 45,
       attack: 49,
       defense: 49,
-      spAttack: 45,
+      spAttack: 65,
       spDefense: 65,
-      speed: 65
+      speed: 45
     },
     height: "0.7",
     weight: "6.9",
@@ -142,9 +142,9 @@ export const fakemons: Fakemon[] =
       hp: 60,
       attack: 62,
       defense: 63,
-      spAttack: 60,
+      spAttack: 80,
       spDefense: 80,
-      speed: 80
+      speed: 60
     },
     height: "1.0",
     weight: "13.0",
@@ -257,9 +257,9 @@ export const fakemons: Fakemon[] =
       hp: 80,
       attack: 82,
       defense: 83,
-      spAttack: 80,
+      spAttack: 100,
       spDefense: 100,
-      speed: 100
+      speed: 80
     },
     height: "2.0",
     weight: "100.0",
@@ -387,9 +387,9 @@ export const fakemons: Fakemon[] =
       hp: 39,
       attack: 52,
       defense: 43,
-      spAttack: 65,
-      spDefense: 60,
-      speed: 50
+      spAttack: 60,
+      spDefense: 50,
+      speed: 65
     },
     height: "0.6",
     weight: "8.5",
@@ -526,8 +526,8 @@ export const fakemons: Fakemon[] =
       attack: 64,
       defense: 58,
       spAttack: 80,
-      spDefense: 80,
-      speed: 65
+      spDefense: 65,
+      speed: 80
     },
     height: "1.1",
     weight: "19.0",
@@ -648,9 +648,9 @@ export const fakemons: Fakemon[] =
       hp: 78,
       attack: 84,
       defense: 78,
-      spAttack: 100,
-      spDefense: 109,
-      speed: 85
+      spAttack: 109,
+      spDefense: 85,
+      speed: 100
     },
     height: "1.7",
     weight: "90.5",
@@ -798,9 +798,9 @@ export const fakemons: Fakemon[] =
       hp: 44,
       attack: 48,
       defense: 65,
-      spAttack: 43,
-      spDefense: 50,
-      speed: 64
+      spAttack: 50,
+      spDefense: 64,
+      speed: 43
     },
     height: "0.5",
     weight: "9.0",
@@ -923,9 +923,9 @@ export const fakemons: Fakemon[] =
       hp: 59,
       attack: 63,
       defense: 80,
-      spAttack: 58,
-      spDefense: 65,
-      speed: 80
+      spAttack: 65,
+      spDefense: 80,
+      speed: 58
     },
     height: "1.0",
     weight: "22.5",
@@ -1037,9 +1037,9 @@ export const fakemons: Fakemon[] =
       hp: 79,
       attack: 83,
       defense: 100,
-      spAttack: 78,
-      spDefense: 85,
-      speed: 105
+      spAttack: 85,
+      spDefense: 105,
+      speed: 78
     },
     height: "1.6",
     weight: "85.5",
@@ -1172,9 +1172,9 @@ export const fakemons: Fakemon[] =
       hp: 45,
       attack: 30,
       defense: 35,
-      spAttack: 45,
+      spAttack: 20,
       spDefense: 20,
-      speed: 20
+      speed: 45
     },
     height: "0.3",
     weight: "2.9",
@@ -1213,9 +1213,9 @@ export const fakemons: Fakemon[] =
       hp: 50,
       attack: 20,
       defense: 55,
-      spAttack: 30,
+      spAttack: 25,
       spDefense: 25,
-      speed: 25
+      speed: 30
     },
     height: "0.7",
     weight: "9.9",
@@ -1254,9 +1254,9 @@ export const fakemons: Fakemon[] =
       hp: 60,
       attack: 45,
       defense: 50,
-      spAttack: 70,
-      spDefense: 90,
-      speed: 80
+      spAttack: 90,
+      spDefense: 80,
+      speed: 70
     },
     height: "1.1",
     weight: "32.0",
@@ -1369,9 +1369,9 @@ export const fakemons: Fakemon[] =
       hp: 40,
       attack: 35,
       defense: 30,
-      spAttack: 50,
+      spAttack: 20,
       spDefense: 20,
-      speed: 20
+      speed: 50
     },
     height: "0.3",
     weight: "3.2",
@@ -1411,9 +1411,9 @@ export const fakemons: Fakemon[] =
       hp: 45,
       attack: 25,
       defense: 50,
-      spAttack: 35,
+      spAttack: 25,
       spDefense: 25,
-      speed: 25
+      speed: 35
     },
     height: "0.6",
     weight: "10.0",
@@ -1452,9 +1452,9 @@ export const fakemons: Fakemon[] =
       hp: 65,
       attack: 90,
       defense: 40,
-      spAttack: 75,
-      spDefense: 45,
-      speed: 80
+      spAttack: 45,
+      spDefense: 80,
+      speed: 75
     },
     height: "1.0",
     weight: "29.5",
@@ -1564,9 +1564,9 @@ export const fakemons: Fakemon[] =
       hp: 40,
       attack: 45,
       defense: 40,
-      spAttack: 56,
+      spAttack: 35,
       spDefense: 35,
-      speed: 35
+      speed: 56
     },
     height: "0.3",
     weight: "1.8",
@@ -1658,9 +1658,9 @@ export const fakemons: Fakemon[] =
       hp: 63,
       attack: 60,
       defense: 55,
-      spAttack: 71,
+      spAttack: 50,
       spDefense: 50,
-      speed: 50
+      speed: 71
     },
     height: "1.1",
     weight: "30.0",
@@ -1751,9 +1751,9 @@ export const fakemons: Fakemon[] =
       hp: 83,
       attack: 80,
       defense: 75,
-      spAttack: 101,
+      spAttack: 70,
       spDefense: 70,
-      speed: 70
+      speed: 101
     },
     height: "1.5",
     weight: "39.5",
@@ -1848,9 +1848,9 @@ export const fakemons: Fakemon[] =
       hp: 30,
       attack: 56,
       defense: 35,
-      spAttack: 72,
-      spDefense: 25,
-      speed: 35
+      spAttack: 25,
+      spDefense: 35,
+      speed: 72
     },
     height: "0.3",
     weight: "3.5",
@@ -1963,9 +1963,9 @@ export const fakemons: Fakemon[] =
       hp: 55,
       attack: 81,
       defense: 60,
-      spAttack: 97,
-      spDefense: 50,
-      speed: 70
+      spAttack: 50,
+      spDefense: 70,
+      speed: 97
     },
     height: "0.7",
     weight: "18.5",
@@ -2080,9 +2080,9 @@ export const fakemons: Fakemon[] =
       hp: 40,
       attack: 60,
       defense: 30,
-      spAttack: 70,
+      spAttack: 31,
       spDefense: 31,
-      speed: 31
+      speed: 70
     },
     height: "0.3",
     weight: "2.0",
@@ -2178,9 +2178,9 @@ export const fakemons: Fakemon[] =
       hp: 65,
       attack: 90,
       defense: 65,
-      spAttack: 100,
+      spAttack: 61,
       spDefense: 61,
-      speed: 61
+      speed: 100
     },
     height: "1.2",
     weight: "38.0",
@@ -2276,9 +2276,9 @@ export const fakemons: Fakemon[] =
       hp: 35,
       attack: 60,
       defense: 44,
-      spAttack: 55,
-      spDefense: 40,
-      speed: 54
+      spAttack: 40,
+      spDefense: 54,
+      speed: 55
     },
     height: "2.0",
     weight: "6.9",
@@ -2404,9 +2404,9 @@ export const fakemons: Fakemon[] =
       hp: 60,
       attack: 95,
       defense: 69,
-      spAttack: 80,
-      spDefense: 65,
-      speed: 79
+      spAttack: 65,
+      spDefense: 79,
+      speed: 80
     },
     height: "3.5",
     weight: "65.0",
@@ -2539,9 +2539,9 @@ export const fakemons: Fakemon[] =
       hp: 35,
       attack: 55,
       defense: 40,
-      spAttack: 90,
+      spAttack: 50,
       spDefense: 50,
-      speed: 50
+      speed: 90
     },
     height: "0.4",
     weight: "6.0",
@@ -2675,9 +2675,9 @@ export const fakemons: Fakemon[] =
       hp: 60,
       attack: 90,
       defense: 55,
-      spAttack: 110,
-      spDefense: 90,
-      speed: 80
+      spAttack: 90,
+      spDefense: 80,
+      speed: 110
     },
     height: "0.8",
     weight: "30.0",
@@ -2817,9 +2817,9 @@ export const fakemons: Fakemon[] =
       hp: 50,
       attack: 75,
       defense: 85,
-      spAttack: 40,
-      spDefense: 20,
-      speed: 30
+      spAttack: 20,
+      spDefense: 30,
+      speed: 40
     },
     height: "0.6",
     weight: "12.0",
@@ -2957,9 +2957,9 @@ export const fakemons: Fakemon[] =
       hp: 75,
       attack: 100,
       defense: 110,
-      spAttack: 65,
-      spDefense: 45,
-      speed: 55
+      spAttack: 45,
+      spDefense: 55,
+      speed: 65
     },
     height: "1.0",
     weight: "29.5",
@@ -3096,9 +3096,9 @@ export const fakemons: Fakemon[] =
       hp: 55,
       attack: 47,
       defense: 52,
-      spAttack: 41,
+      spAttack: 40,
       spDefense: 40,
-      speed: 40
+      speed: 41
     },
     height: "0.4",
     weight: "7.0",
@@ -3211,9 +3211,9 @@ export const fakemons: Fakemon[] =
       hp: 70,
       attack: 62,
       defense: 67,
-      spAttack: 56,
+      spAttack: 55,
       spDefense: 55,
-      speed: 55
+      speed: 56
     },
     height: "0.8",
     weight: "20.0",
@@ -3318,9 +3318,9 @@ export const fakemons: Fakemon[] =
       hp: 90,
       attack: 92,
       defense: 87,
-      spAttack: 76,
-      spDefense: 75,
-      speed: 85
+      spAttack: 75,
+      spDefense: 85,
+      speed: 76
     },
     height: "1.3",
     weight: "60.0",
@@ -3479,9 +3479,9 @@ export const fakemons: Fakemon[] =
       hp: 46,
       attack: 57,
       defense: 40,
-      spAttack: 50,
+      spAttack: 40,
       spDefense: 40,
-      speed: 40
+      speed: 50
     },
     height: "0.5",
     weight: "9.0",
@@ -3597,9 +3597,9 @@ export const fakemons: Fakemon[] =
       hp: 61,
       attack: 72,
       defense: 57,
-      spAttack: 65,
+      spAttack: 55,
       spDefense: 55,
-      speed: 55
+      speed: 65
     },
     height: "0.9",
     weight: "19.5",
@@ -3706,8 +3706,8 @@ export const fakemons: Fakemon[] =
       attack: 102,
       defense: 77,
       spAttack: 85,
-      spDefense: 85,
-      speed: 75
+      spDefense: 75,
+      speed: 85
     },
     height: "1.4",
     weight: "62.0",
@@ -3867,9 +3867,9 @@ export const fakemons: Fakemon[] =
       hp: 70,
       attack: 45,
       defense: 48,
-      spAttack: 35,
-      spDefense: 60,
-      speed: 65
+      spAttack: 60,
+      spDefense: 65,
+      speed: 35
     },
     height: "0.6",
     weight: "7.5",
@@ -4046,9 +4046,9 @@ export const fakemons: Fakemon[] =
       hp: 95,
       attack: 70,
       defense: 73,
-      spAttack: 60,
-      spDefense: 95,
-      speed: 90
+      spAttack: 95,
+      spDefense: 90,
+      speed: 60
     },
     height: "1.3",
     weight: "40.0",
@@ -4230,8 +4230,8 @@ export const fakemons: Fakemon[] =
       hp: 38,
       attack: 41,
       defense: 40,
-      spAttack: 65,
-      spDefense: 50,
+      spAttack: 50,
+      spDefense: 65,
       speed: 65
     },
     height: "0.6",
@@ -4359,8 +4359,8 @@ export const fakemons: Fakemon[] =
       hp: 73,
       attack: 76,
       defense: 75,
-      spAttack: 100,
-      spDefense: 81,
+      spAttack: 81,
+      spDefense: 100,
       speed: 100
     },
     height: "1.1",
@@ -4488,9 +4488,9 @@ export const fakemons: Fakemon[] =
       hp: 115,
       attack: 45,
       defense: 20,
-      spAttack: 20,
-      spDefense: 45,
-      speed: 25
+      spAttack: 45,
+      spDefense: 25,
+      speed: 20
     },
     height: "0.5",
     weight: "5.5",
@@ -4667,9 +4667,9 @@ export const fakemons: Fakemon[] =
       hp: 140,
       attack: 70,
       defense: 45,
-      spAttack: 45,
-      spDefense: 85,
-      speed: 50
+      spAttack: 85,
+      spDefense: 50,
+      speed: 45
     },
     height: "1.0",
     weight: "12.0",
@@ -4853,9 +4853,9 @@ export const fakemons: Fakemon[] =
       hp: 40,
       attack: 45,
       defense: 35,
-      spAttack: 55,
-      spDefense: 30,
-      speed: 40
+      spAttack: 30,
+      spDefense: 40,
+      speed: 55
     },
     height: "0.8",
     weight: "7.5",
@@ -4968,9 +4968,9 @@ export const fakemons: Fakemon[] =
       hp: 75,
       attack: 80,
       defense: 70,
-      spAttack: 90,
-      spDefense: 65,
-      speed: 75
+      spAttack: 65,
+      spDefense: 75,
+      speed: 90
     },
     height: "1.6",
     weight: "55.0",
@@ -5078,9 +5078,9 @@ export const fakemons: Fakemon[] =
       hp: 45,
       attack: 50,
       defense: 55,
-      spAttack: 30,
-      spDefense: 75,
-      speed: 65
+      spAttack: 75,
+      spDefense: 65,
+      speed: 30
     },
     height: "0.5",
     weight: "5.4",
@@ -5185,9 +5185,9 @@ export const fakemons: Fakemon[] =
       hp: 60,
       attack: 65,
       defense: 70,
-      spAttack: 40,
-      spDefense: 85,
-      speed: 75
+      spAttack: 85,
+      spDefense: 75,
+      speed: 40
     },
     height: "0.8",
     weight: "8.6",
@@ -5284,9 +5284,9 @@ export const fakemons: Fakemon[] =
       hp: 75,
       attack: 80,
       defense: 85,
-      spAttack: 50,
-      spDefense: 110,
-      speed: 90
+      spAttack: 110,
+      spDefense: 90,
+      speed: 50
     },
     height: "1.2",
     weight: "18.6",
@@ -5394,9 +5394,9 @@ export const fakemons: Fakemon[] =
       hp: 35,
       attack: 70,
       defense: 55,
-      spAttack: 25,
-      spDefense: 45,
-      speed: 55
+      spAttack: 45,
+      spDefense: 55,
+      speed: 25
     },
     height: "0.3",
     weight: "5.4",
@@ -5507,9 +5507,9 @@ export const fakemons: Fakemon[] =
       hp: 60,
       attack: 95,
       defense: 80,
-      spAttack: 30,
-      spDefense: 60,
-      speed: 80
+      spAttack: 60,
+      spDefense: 80,
+      speed: 30
     },
     height: "1.0",
     weight: "29.5",
@@ -5616,9 +5616,9 @@ export const fakemons: Fakemon[] =
       hp: 60,
       attack: 55,
       defense: 50,
-      spAttack: 45,
-      spDefense: 40,
-      speed: 55
+      spAttack: 40,
+      spDefense: 55,
+      speed: 45
     },
     height: "1.0",
     weight: "30.0",
@@ -5727,8 +5727,8 @@ export const fakemons: Fakemon[] =
       attack: 65,
       defense: 60,
       spAttack: 90,
-      spDefense: 90,
-      speed: 75
+      spDefense: 75,
+      speed: 90
     },
     height: "1.5",
     weight: "12.5",
@@ -5843,9 +5843,9 @@ export const fakemons: Fakemon[] =
       hp: 10,
       attack: 55,
       defense: 25,
-      spAttack: 95,
-      spDefense: 35,
-      speed: 45
+      spAttack: 35,
+      spDefense: 45,
+      speed: 95
     },
     height: "0.2",
     weight: "0.8",
@@ -5964,9 +5964,9 @@ export const fakemons: Fakemon[] =
       hp: 35,
       attack: 100,
       defense: 50,
-      spAttack: 120,
-      spDefense: 50,
-      speed: 70
+      spAttack: 50,
+      spDefense: 70,
+      speed: 120
     },
     height: "0.7",
     weight: "33.3",
@@ -6083,9 +6083,9 @@ export const fakemons: Fakemon[] =
       hp: 40,
       attack: 45,
       defense: 35,
-      spAttack: 90,
+      spAttack: 40,
       spDefense: 40,
-      speed: 40
+      speed: 90
     },
     height: "0.4",
     weight: "4.2",
@@ -6221,9 +6221,9 @@ export const fakemons: Fakemon[] =
       hp: 65,
       attack: 70,
       defense: 60,
-      spAttack: 115,
+      spAttack: 65,
       spDefense: 65,
-      speed: 65
+      speed: 115
     },
     height: "1.0",
     weight: "32.0",
@@ -6358,9 +6358,9 @@ export const fakemons: Fakemon[] =
       hp: 50,
       attack: 52,
       defense: 48,
-      spAttack: 55,
-      spDefense: 65,
-      speed: 50
+      spAttack: 65,
+      spDefense: 50,
+      speed: 55
     },
     height: "0.8",
     weight: "19.6",
@@ -6506,9 +6506,9 @@ export const fakemons: Fakemon[] =
       hp: 80,
       attack: 82,
       defense: 78,
-      spAttack: 85,
-      spDefense: 95,
-      speed: 80
+      spAttack: 95,
+      spDefense: 80,
+      speed: 85
     },
     height: "1.7",
     weight: "76.6",
@@ -6657,9 +6657,9 @@ export const fakemons: Fakemon[] =
       hp: 40,
       attack: 80,
       defense: 35,
-      spAttack: 70,
-      spDefense: 35,
-      speed: 45
+      spAttack: 35,
+      spDefense: 45,
+      speed: 70
     },
     height: "0.5",
     weight: "28.0",
@@ -6803,9 +6803,9 @@ export const fakemons: Fakemon[] =
       hp: 65,
       attack: 105,
       defense: 60,
-      spAttack: 95,
-      spDefense: 60,
-      speed: 70
+      spAttack: 60,
+      spDefense: 70,
+      speed: 95
     },
     height: "1.0",
     weight: "32.0",
@@ -6948,9 +6948,9 @@ export const fakemons: Fakemon[] =
       hp: 55,
       attack: 70,
       defense: 45,
-      spAttack: 60,
-      spDefense: 70,
-      speed: 50
+      spAttack: 70,
+      spDefense: 50,
+      speed: 60
     },
     height: "0.7",
     weight: "19.0",
@@ -7073,9 +7073,9 @@ export const fakemons: Fakemon[] =
       hp: 90,
       attack: 110,
       defense: 80,
-      spAttack: 95,
-      spDefense: 100,
-      speed: 80
+      spAttack: 100,
+      spDefense: 80,
+      speed: 95
     },
     height: "1.9",
     weight: "155.0",
@@ -7198,9 +7198,9 @@ export const fakemons: Fakemon[] =
       hp: 40,
       attack: 50,
       defense: 40,
-      spAttack: 90,
+      spAttack: 40,
       spDefense: 40,
-      speed: 40
+      speed: 90
     },
     height: "0.6",
     weight: "12.4",
@@ -7308,9 +7308,9 @@ export const fakemons: Fakemon[] =
       hp: 65,
       attack: 65,
       defense: 65,
-      spAttack: 90,
+      spAttack: 50,
       spDefense: 50,
-      speed: 50
+      speed: 90
     },
     height: "1.0",
     weight: "20.0",
@@ -7425,8 +7425,8 @@ export const fakemons: Fakemon[] =
       attack: 95,
       defense: 95,
       spAttack: 70,
-      spDefense: 70,
-      speed: 90
+      spDefense: 90,
+      speed: 70
     },
     height: "1.3",
     weight: "54.0",
@@ -7567,9 +7567,9 @@ export const fakemons: Fakemon[] =
       hp: 25,
       attack: 20,
       defense: 15,
-      spAttack: 90,
-      spDefense: 105,
-      speed: 55
+      spAttack: 105,
+      spDefense: 55,
+      speed: 90
     },
     height: "0.9",
     weight: "19.5",
@@ -7695,9 +7695,9 @@ export const fakemons: Fakemon[] =
       hp: 40,
       attack: 35,
       defense: 30,
-      spAttack: 105,
-      spDefense: 120,
-      speed: 70
+      spAttack: 120,
+      spDefense: 70,
+      speed: 105
     },
     height: "1.3",
     weight: "56.5",
@@ -7828,9 +7828,9 @@ export const fakemons: Fakemon[] =
       hp: 55,
       attack: 50,
       defense: 45,
-      spAttack: 120,
-      spDefense: 135,
-      speed: 95
+      spAttack: 135,
+      spDefense: 95,
+      speed: 120
     },
     height: "1.5",
     weight: "48.0",
@@ -8105,9 +8105,9 @@ export const fakemons: Fakemon[] =
       hp: 80,
       attack: 100,
       defense: 70,
-      spAttack: 45,
-      spDefense: 50,
-      speed: 60
+      spAttack: 50,
+      spDefense: 60,
+      speed: 45
     },
     height: "1.5",
     weight: "70.5",
@@ -8231,9 +8231,9 @@ export const fakemons: Fakemon[] =
       hp: 90,
       attack: 130,
       defense: 80,
-      spAttack: 55,
-      spDefense: 65,
-      speed: 85
+      spAttack: 65,
+      spDefense: 85,
+      speed: 55
     },
     height: "1.6",
     weight: "130.0",
@@ -8368,9 +8368,9 @@ export const fakemons: Fakemon[] =
       hp: 50,
       attack: 75,
       defense: 35,
-      spAttack: 40,
-      spDefense: 70,
-      speed: 30
+      spAttack: 70,
+      spDefense: 30,
+      speed: 40
     },
     height: "0.7",
     weight: "4.0",
@@ -8487,9 +8487,9 @@ export const fakemons: Fakemon[] =
       hp: 65,
       attack: 90,
       defense: 50,
-      spAttack: 55,
-      spDefense: 85,
-      speed: 45
+      spAttack: 85,
+      spDefense: 45,
+      speed: 55
     },
     height: "1.0",
     weight: "6.4",
@@ -8596,8 +8596,8 @@ export const fakemons: Fakemon[] =
       hp: 80,
       attack: 105,
       defense: 65,
-      spAttack: 70,
-      spDefense: 100,
+      spAttack: 100,
+      spDefense: 70,
       speed: 70
     },
     height: "1.7",
@@ -8705,9 +8705,9 @@ export const fakemons: Fakemon[] =
       hp: 40,
       attack: 40,
       defense: 35,
-      spAttack: 70,
-      spDefense: 50,
-      speed: 100
+      spAttack: 50,
+      spDefense: 100,
+      speed: 70
     },
     height: "0.9",
     weight: "45.5",
@@ -8828,9 +8828,9 @@ export const fakemons: Fakemon[] =
       hp: 80,
       attack: 70,
       defense: 65,
-      spAttack: 100,
-      spDefense: 80,
-      speed: 120
+      spAttack: 80,
+      spDefense: 120,
+      speed: 100
     },
     height: "1.6",
     weight: "55.0",
@@ -8950,9 +8950,9 @@ export const fakemons: Fakemon[] =
       hp: 40,
       attack: 80,
       defense: 100,
-      spAttack: 20,
+      spAttack: 30,
       spDefense: 30,
-      speed: 30
+      speed: 20
     },
     height: "0.4",
     weight: "20.0",
@@ -9078,9 +9078,9 @@ export const fakemons: Fakemon[] =
       hp: 55,
       attack: 95,
       defense: 115,
-      spAttack: 35,
+      spAttack: 45,
       spDefense: 45,
-      speed: 45
+      speed: 35
     },
     height: "1.0",
     weight: "105.0",
@@ -9214,9 +9214,9 @@ export const fakemons: Fakemon[] =
       hp: 80,
       attack: 120,
       defense: 130,
-      spAttack: 45,
-      spDefense: 55,
-      speed: 65
+      spAttack: 55,
+      spDefense: 65,
+      speed: 45
     },
     height: "1.4",
     weight: "300.0",
@@ -9344,9 +9344,9 @@ export const fakemons: Fakemon[] =
       hp: 50,
       attack: 85,
       defense: 55,
-      spAttack: 90,
+      spAttack: 65,
       spDefense: 65,
-      speed: 65
+      speed: 90
     },
     height: "1.0",
     weight: "30.0",
@@ -9451,9 +9451,9 @@ export const fakemons: Fakemon[] =
       hp: 65,
       attack: 100,
       defense: 70,
-      spAttack: 105,
+      spAttack: 80,
       spDefense: 80,
-      speed: 80
+      speed: 105
     },
     height: "1.7",
     weight: "95.0",
@@ -9563,9 +9563,9 @@ export const fakemons: Fakemon[] =
       hp: 90,
       attack: 65,
       defense: 65,
-      spAttack: 15,
+      spAttack: 40,
       spDefense: 40,
-      speed: 40
+      speed: 15
     },
     height: "1.2",
     weight: "36.0",
@@ -9710,9 +9710,9 @@ export const fakemons: Fakemon[] =
       hp: 95,
       attack: 75,
       defense: 110,
-      spAttack: 30,
-      spDefense: 100,
-      speed: 80
+      spAttack: 100,
+      spDefense: 80,
+      speed: 30
     },
     height: "1.6",
     weight: "78.5",
@@ -9876,9 +9876,9 @@ export const fakemons: Fakemon[] =
       hp: 25,
       attack: 35,
       defense: 70,
-      spAttack: 45,
-      spDefense: 95,
-      speed: 55
+      spAttack: 95,
+      spDefense: 55,
+      speed: 45
     },
     height: "0.3",
     weight: "6.0",
@@ -9985,8 +9985,8 @@ export const fakemons: Fakemon[] =
       hp: 50,
       attack: 60,
       defense: 95,
-      spAttack: 70,
-      spDefense: 120,
+      spAttack: 120,
+      spDefense: 70,
       speed: 70
     },
     height: "1.0",
@@ -10097,9 +10097,9 @@ export const fakemons: Fakemon[] =
       hp: 52,
       attack: 90,
       defense: 55,
-      spAttack: 60,
-      spDefense: 58,
-      speed: 62
+      spAttack: 58,
+      spDefense: 62,
+      speed: 60
     },
     height: "0.8",
     weight: "15.0",
@@ -10231,9 +10231,9 @@ export const fakemons: Fakemon[] =
       hp: 35,
       attack: 85,
       defense: 45,
-      spAttack: 75,
+      spAttack: 35,
       spDefense: 35,
-      speed: 35
+      speed: 75
     },
     height: "1.4",
     weight: "39.2",
@@ -10337,9 +10337,9 @@ export const fakemons: Fakemon[] =
       hp: 60,
       attack: 110,
       defense: 70,
-      spAttack: 110,
+      spAttack: 60,
       spDefense: 60,
-      speed: 60
+      speed: 110
     },
     height: "1.8",
     weight: "85.2",
@@ -10448,8 +10448,8 @@ export const fakemons: Fakemon[] =
       attack: 45,
       defense: 55,
       spAttack: 45,
-      spDefense: 45,
-      speed: 70
+      spDefense: 70,
+      speed: 45
     },
     height: "1.1",
     weight: "90.0",
@@ -10574,8 +10574,8 @@ export const fakemons: Fakemon[] =
       attack: 70,
       defense: 80,
       spAttack: 70,
-      spDefense: 70,
-      speed: 95
+      spDefense: 95,
+      speed: 70
     },
     height: "1.7",
     weight: "120.0",
@@ -10694,9 +10694,9 @@ export const fakemons: Fakemon[] =
       hp: 80,
       attack: 80,
       defense: 50,
-      spAttack: 25,
-      spDefense: 40,
-      speed: 50
+      spAttack: 40,
+      spDefense: 50,
+      speed: 25
     },
     height: "0.9",
     weight: "30.0",
@@ -10827,9 +10827,9 @@ export const fakemons: Fakemon[] =
       hp: 105,
       attack: 105,
       defense: 75,
-      spAttack: 50,
-      spDefense: 65,
-      speed: 100
+      spAttack: 65,
+      spDefense: 100,
+      speed: 50
     },
     height: "1.2",
     weight: "30.0",
@@ -10962,9 +10962,9 @@ export const fakemons: Fakemon[] =
       hp: 30,
       attack: 65,
       defense: 100,
-      spAttack: 40,
-      spDefense: 45,
-      speed: 25
+      spAttack: 45,
+      spDefense: 25,
+      speed: 40
     },
     height: "0.3",
     weight: "4.0",
@@ -11074,9 +11074,9 @@ export const fakemons: Fakemon[] =
       hp: 50,
       attack: 95,
       defense: 180,
-      spAttack: 70,
-      spDefense: 85,
-      speed: 45
+      spAttack: 85,
+      spDefense: 45,
+      speed: 70
     },
     height: "1.5",
     weight: "132.5",
@@ -11195,9 +11195,9 @@ export const fakemons: Fakemon[] =
       hp: 30,
       attack: 35,
       defense: 30,
-      spAttack: 80,
-      spDefense: 100,
-      speed: 35
+      spAttack: 100,
+      spDefense: 35,
+      speed: 80
     },
     height: "1.3",
     weight: "0.1",
@@ -11332,9 +11332,9 @@ export const fakemons: Fakemon[] =
       hp: 45,
       attack: 50,
       defense: 45,
-      spAttack: 95,
-      spDefense: 115,
-      speed: 55
+      spAttack: 115,
+      spDefense: 55,
+      speed: 95
     },
     height: "1.6",
     weight: "0.1",
@@ -11465,9 +11465,9 @@ export const fakemons: Fakemon[] =
       hp: 60,
       attack: 65,
       defense: 60,
-      spAttack: 110,
-      spDefense: 130,
-      speed: 75
+      spAttack: 130,
+      spDefense: 75,
+      speed: 110
     },
     height: "1.5",
     weight: "40.5",
@@ -11620,9 +11620,9 @@ export const fakemons: Fakemon[] =
       hp: 35,
       attack: 45,
       defense: 160,
-      spAttack: 70,
-      spDefense: 30,
-      speed: 45
+      spAttack: 30,
+      spDefense: 45,
+      speed: 70
     },
     height: "8.8",
     weight: "210.0",
@@ -11753,9 +11753,9 @@ export const fakemons: Fakemon[] =
       hp: 60,
       attack: 48,
       defense: 45,
-      spAttack: 42,
-      spDefense: 43,
-      speed: 90
+      spAttack: 43,
+      spDefense: 90,
+      speed: 42
     },
     height: "1.0",
     weight: "32.4",
@@ -11901,9 +11901,9 @@ export const fakemons: Fakemon[] =
       hp: 85,
       attack: 73,
       defense: 70,
-      spAttack: 67,
-      spDefense: 73,
-      speed: 115
+      spAttack: 73,
+      spDefense: 115,
+      speed: 67
     },
     height: "1.6",
     weight: "75.6",
@@ -12050,9 +12050,9 @@ export const fakemons: Fakemon[] =
       hp: 30,
       attack: 105,
       defense: 90,
-      spAttack: 50,
+      spAttack: 25,
       spDefense: 25,
-      speed: 25
+      speed: 50
     },
     height: "0.4",
     weight: "6.5",
@@ -12168,9 +12168,9 @@ export const fakemons: Fakemon[] =
       hp: 55,
       attack: 130,
       defense: 115,
-      spAttack: 75,
+      spAttack: 50,
       spDefense: 50,
-      speed: 50
+      speed: 75
     },
     height: "1.3",
     weight: "60.0",
@@ -12284,9 +12284,9 @@ export const fakemons: Fakemon[] =
       hp: 40,
       attack: 30,
       defense: 50,
-      spAttack: 100,
+      spAttack: 55,
       spDefense: 55,
-      speed: 55
+      speed: 100
     },
     height: "0.5",
     weight: "10.4",
@@ -12389,9 +12389,9 @@ export const fakemons: Fakemon[] =
       hp: 60,
       attack: 50,
       defense: 70,
-      spAttack: 150,
+      spAttack: 80,
       spDefense: 80,
-      speed: 80
+      speed: 150
     },
     height: "1.2",
     weight: "66.6",
@@ -12501,9 +12501,9 @@ export const fakemons: Fakemon[] =
       hp: 60,
       attack: 40,
       defense: 80,
-      spAttack: 40,
-      spDefense: 60,
-      speed: 45
+      spAttack: 60,
+      spDefense: 45,
+      speed: 40
     },
     height: "0.4",
     weight: "2.5",
@@ -12624,9 +12624,9 @@ export const fakemons: Fakemon[] =
       hp: 95,
       attack: 95,
       defense: 85,
-      spAttack: 55,
-      spDefense: 125,
-      speed: 75
+      spAttack: 125,
+      spDefense: 75,
+      speed: 55
     },
     height: "2.0",
     weight: "120.0",
@@ -12759,9 +12759,9 @@ export const fakemons: Fakemon[] =
       hp: 50,
       attack: 50,
       defense: 95,
-      spAttack: 35,
-      spDefense: 40,
-      speed: 50
+      spAttack: 40,
+      spDefense: 50,
+      speed: 35
     },
     height: "0.4",
     weight: "6.5",
@@ -12891,9 +12891,9 @@ export const fakemons: Fakemon[] =
       hp: 60,
       attack: 80,
       defense: 110,
-      spAttack: 45,
-      spDefense: 50,
-      speed: 80
+      spAttack: 50,
+      spDefense: 80,
+      speed: 45
     },
     height: "1.0",
     weight: "45.0",
@@ -13021,9 +13021,9 @@ export const fakemons: Fakemon[] =
       hp: 50,
       attack: 120,
       defense: 53,
-      spAttack: 87,
-      spDefense: 35,
-      speed: 110
+      spAttack: 35,
+      spDefense: 110,
+      speed: 87
     },
     height: "1.5",
     weight: "49.8",
@@ -13155,9 +13155,9 @@ export const fakemons: Fakemon[] =
       hp: 50,
       attack: 105,
       defense: 79,
-      spAttack: 76,
-      spDefense: 35,
-      speed: 110
+      spAttack: 35,
+      spDefense: 110,
+      speed: 76
     },
     height: "1.4",
     weight: "50.2",
@@ -13292,9 +13292,9 @@ export const fakemons: Fakemon[] =
       hp: 90,
       attack: 55,
       defense: 75,
-      spAttack: 30,
-      spDefense: 60,
-      speed: 75
+      spAttack: 60,
+      spDefense: 75,
+      speed: 30
     },
     height: "1.2",
     weight: "65.5",
@@ -13437,9 +13437,9 @@ export const fakemons: Fakemon[] =
       hp: 40,
       attack: 65,
       defense: 95,
-      spAttack: 35,
-      spDefense: 60,
-      speed: 45
+      spAttack: 60,
+      spDefense: 45,
+      speed: 35
     },
     height: "0.6",
     weight: "1.0",
@@ -13559,9 +13559,9 @@ export const fakemons: Fakemon[] =
       hp: 65,
       attack: 90,
       defense: 120,
-      spAttack: 60,
-      spDefense: 85,
-      speed: 70
+      spAttack: 85,
+      spDefense: 70,
+      speed: 60
     },
     height: "1.2",
     weight: "9.5",
@@ -13676,9 +13676,9 @@ export const fakemons: Fakemon[] =
       hp: 80,
       attack: 85,
       defense: 95,
-      spAttack: 25,
+      spAttack: 30,
       spDefense: 30,
-      speed: 30
+      speed: 25
     },
     height: "1.0",
     weight: "115.0",
@@ -13821,9 +13821,9 @@ export const fakemons: Fakemon[] =
       hp: 105,
       attack: 130,
       defense: 120,
-      spAttack: 40,
+      spAttack: 45,
       spDefense: 45,
-      speed: 45
+      speed: 40
     },
     height: "1.9",
     weight: "120.0",
@@ -13983,9 +13983,9 @@ export const fakemons: Fakemon[] =
       hp: 250,
       attack: 5,
       defense: 5,
-      spAttack: 50,
-      spDefense: 35,
-      speed: 105
+      spAttack: 35,
+      spDefense: 105,
+      speed: 50
     },
     height: "1.1",
     weight: "34.6",
@@ -14152,9 +14152,9 @@ export const fakemons: Fakemon[] =
       hp: 65,
       attack: 55,
       defense: 115,
-      spAttack: 60,
-      spDefense: 100,
-      speed: 40
+      spAttack: 100,
+      spDefense: 40,
+      speed: 60
     },
     height: "1.0",
     weight: "35.0",
@@ -14268,9 +14268,9 @@ export const fakemons: Fakemon[] =
       hp: 105,
       attack: 95,
       defense: 80,
-      spAttack: 90,
-      spDefense: 40,
-      speed: 80
+      spAttack: 40,
+      spDefense: 80,
+      speed: 90
     },
     height: "2.2",
     weight: "80.0",
@@ -14420,9 +14420,9 @@ export const fakemons: Fakemon[] =
       hp: 30,
       attack: 40,
       defense: 70,
-      spAttack: 60,
-      spDefense: 70,
-      speed: 25
+      spAttack: 70,
+      spDefense: 25,
+      speed: 60
     },
     height: "0.4",
     weight: "8.0",
@@ -14526,9 +14526,9 @@ export const fakemons: Fakemon[] =
       hp: 55,
       attack: 65,
       defense: 95,
-      spAttack: 85,
-      spDefense: 95,
-      speed: 45
+      spAttack: 95,
+      spDefense: 45,
+      speed: 85
     },
     height: "1.2",
     weight: "25.0",
@@ -14629,9 +14629,9 @@ export const fakemons: Fakemon[] =
       hp: 45,
       attack: 67,
       defense: 60,
-      spAttack: 63,
-      spDefense: 35,
-      speed: 50
+      spAttack: 35,
+      spDefense: 50,
+      speed: 63
     },
     height: "0.6",
     weight: "15.0",
@@ -14736,9 +14736,9 @@ export const fakemons: Fakemon[] =
       hp: 80,
       attack: 92,
       defense: 65,
-      spAttack: 68,
-      spDefense: 65,
-      speed: 80
+      spAttack: 65,
+      spDefense: 80,
+      speed: 68
     },
     height: "1.3",
     weight: "39.0",
@@ -14837,9 +14837,9 @@ export const fakemons: Fakemon[] =
       hp: 30,
       attack: 45,
       defense: 55,
-      spAttack: 85,
-      spDefense: 70,
-      speed: 55
+      spAttack: 70,
+      spDefense: 55,
+      speed: 85
     },
     height: "0.8",
     weight: "34.5",
@@ -14944,9 +14944,9 @@ export const fakemons: Fakemon[] =
       hp: 60,
       attack: 75,
       defense: 85,
-      spAttack: 115,
-      spDefense: 100,
-      speed: 85
+      spAttack: 100,
+      spDefense: 85,
+      speed: 115
     },
     height: "1.1",
     weight: "80.0",
@@ -15067,9 +15067,9 @@ export const fakemons: Fakemon[] =
       hp: 40,
       attack: 45,
       defense: 65,
-      spAttack: 90,
-      spDefense: 100,
-      speed: 120
+      spAttack: 100,
+      spDefense: 120,
+      speed: 90
     },
     height: "1.3",
     weight: "54.5",
@@ -15235,9 +15235,9 @@ export const fakemons: Fakemon[] =
       hp: 70,
       attack: 110,
       defense: 80,
-      spAttack: 105,
-      spDefense: 55,
-      speed: 80
+      spAttack: 55,
+      spDefense: 80,
+      speed: 105
     },
     height: "1.5",
     weight: "56.0",
@@ -15361,8 +15361,8 @@ export const fakemons: Fakemon[] =
       hp: 65,
       attack: 50,
       defense: 35,
-      spAttack: 95,
-      spDefense: 115,
+      spAttack: 115,
+      spDefense: 95,
       speed: 95
     },
     height: "1.4",
@@ -15504,9 +15504,9 @@ export const fakemons: Fakemon[] =
       hp: 65,
       attack: 83,
       defense: 57,
-      spAttack: 105,
-      spDefense: 95,
-      speed: 85
+      spAttack: 95,
+      spDefense: 85,
+      speed: 105
     },
     height: "1.1",
     weight: "30.0",
@@ -15632,9 +15632,9 @@ export const fakemons: Fakemon[] =
       hp: 65,
       attack: 95,
       defense: 57,
-      spAttack: 93,
-      spDefense: 100,
-      speed: 85
+      spAttack: 100,
+      spDefense: 85,
+      speed: 93
     },
     height: "1.3",
     weight: "44.5",
@@ -15758,9 +15758,9 @@ export const fakemons: Fakemon[] =
       hp: 65,
       attack: 125,
       defense: 100,
-      spAttack: 85,
-      spDefense: 55,
-      speed: 70
+      spAttack: 55,
+      spDefense: 70,
+      speed: 85
     },
     height: "1.5",
     weight: "55.0",
@@ -15880,9 +15880,9 @@ export const fakemons: Fakemon[] =
       hp: 75,
       attack: 100,
       defense: 95,
-      spAttack: 110,
-      spDefense: 40,
-      speed: 70
+      spAttack: 40,
+      spDefense: 70,
+      speed: 110
     },
     height: "1.4",
     weight: "88.4",
@@ -16006,9 +16006,9 @@ export const fakemons: Fakemon[] =
       hp: 20,
       attack: 10,
       defense: 55,
-      spAttack: 80,
-      spDefense: 15,
-      speed: 20
+      spAttack: 15,
+      spDefense: 20,
+      speed: 80
     },
     height: "0.9",
     weight: "10.0",
@@ -16046,9 +16046,9 @@ export const fakemons: Fakemon[] =
       hp: 95,
       attack: 125,
       defense: 79,
-      spAttack: 81,
-      spDefense: 60,
-      speed: 100
+      spAttack: 60,
+      spDefense: 100,
+      speed: 81
     },
     height: "6.5",
     weight: "235.0",
@@ -16182,9 +16182,9 @@ export const fakemons: Fakemon[] =
       hp: 130,
       attack: 85,
       defense: 80,
-      spAttack: 60,
-      spDefense: 85,
-      speed: 95
+      spAttack: 85,
+      spDefense: 95,
+      speed: 60
     },
     height: "2.5",
     weight: "220.0",
@@ -16362,9 +16362,9 @@ export const fakemons: Fakemon[] =
       hp: 55,
       attack: 55,
       defense: 50,
-      spAttack: 55,
-      spDefense: 45,
-      speed: 65
+      spAttack: 45,
+      spDefense: 65,
+      speed: 55
     },
     height: "0.3",
     weight: "6.5",
@@ -16477,9 +16477,9 @@ export const fakemons: Fakemon[] =
       hp: 130,
       attack: 65,
       defense: 60,
-      spAttack: 65,
-      spDefense: 110,
-      speed: 95
+      spAttack: 110,
+      spDefense: 95,
+      speed: 65
     },
     height: "1.0",
     weight: "29.0",
@@ -16610,9 +16610,9 @@ export const fakemons: Fakemon[] =
       hp: 65,
       attack: 65,
       defense: 60,
-      spAttack: 130,
-      spDefense: 110,
-      speed: 95
+      spAttack: 110,
+      spDefense: 95,
+      speed: 130
     },
     height: "0.8",
     weight: "24.5",
@@ -16746,9 +16746,9 @@ export const fakemons: Fakemon[] =
       hp: 65,
       attack: 130,
       defense: 60,
-      spAttack: 65,
-      spDefense: 95,
-      speed: 110
+      spAttack: 95,
+      spDefense: 110,
+      speed: 65
     },
     height: "0.9",
     weight: "25.0",
@@ -16877,9 +16877,9 @@ export const fakemons: Fakemon[] =
       hp: 65,
       attack: 60,
       defense: 70,
-      spAttack: 40,
-      spDefense: 85,
-      speed: 75
+      spAttack: 85,
+      spDefense: 75,
+      speed: 40
     },
     height: "0.8",
     weight: "36.5",
@@ -16991,9 +16991,9 @@ export const fakemons: Fakemon[] =
       hp: 35,
       attack: 40,
       defense: 100,
-      spAttack: 35,
-      spDefense: 90,
-      speed: 55
+      spAttack: 90,
+      spDefense: 55,
+      speed: 35
     },
     height: "0.4",
     weight: "7.5",
@@ -17111,9 +17111,9 @@ export const fakemons: Fakemon[] =
       hp: 70,
       attack: 60,
       defense: 125,
-      spAttack: 55,
-      spDefense: 115,
-      speed: 70
+      spAttack: 115,
+      spDefense: 70,
+      speed: 55
     },
     height: "1.0",
     weight: "35.0",
@@ -17228,8 +17228,8 @@ export const fakemons: Fakemon[] =
       attack: 80,
       defense: 90,
       spAttack: 55,
-      spDefense: 55,
-      speed: 45
+      spDefense: 45,
+      speed: 55
     },
     height: "0.5",
     weight: "11.5",
@@ -17346,9 +17346,9 @@ export const fakemons: Fakemon[] =
       hp: 60,
       attack: 115,
       defense: 105,
-      spAttack: 80,
-      spDefense: 65,
-      speed: 70
+      spAttack: 65,
+      spDefense: 70,
+      speed: 80
     },
     height: "1.3",
     weight: "40.5",
@@ -17478,9 +17478,9 @@ export const fakemons: Fakemon[] =
       hp: 80,
       attack: 105,
       defense: 65,
-      spAttack: 130,
-      spDefense: 60,
-      speed: 75
+      spAttack: 60,
+      spDefense: 75,
+      speed: 130
     },
     height: "1.8",
     weight: "59.0",
@@ -17614,9 +17614,9 @@ export const fakemons: Fakemon[] =
       hp: 160,
       attack: 110,
       defense: 65,
-      spAttack: 30,
-      spDefense: 65,
-      speed: 110
+      spAttack: 65,
+      spDefense: 110,
+      speed: 30
     },
     height: "2.1",
     weight: "460.0",
@@ -17795,9 +17795,9 @@ export const fakemons: Fakemon[] =
       hp: 90,
       attack: 85,
       defense: 100,
-      spAttack: 85,
-      spDefense: 95,
-      speed: 125
+      spAttack: 95,
+      spDefense: 125,
+      speed: 85
     },
     height: "1.7",
     weight: "55.4",
@@ -17914,9 +17914,9 @@ export const fakemons: Fakemon[] =
       hp: 90,
       attack: 90,
       defense: 85,
-      spAttack: 100,
-      spDefense: 125,
-      speed: 90
+      spAttack: 125,
+      spDefense: 90,
+      speed: 100
     },
     height: "1.6",
     weight: "52.6",
@@ -18032,9 +18032,9 @@ export const fakemons: Fakemon[] =
       hp: 90,
       attack: 100,
       defense: 90,
-      spAttack: 90,
-      spDefense: 125,
-      speed: 85
+      spAttack: 125,
+      spDefense: 85,
+      speed: 90
     },
     height: "2.0",
     weight: "60.0",
@@ -18383,9 +18383,9 @@ export const fakemons: Fakemon[] =
       hp: 91,
       attack: 134,
       defense: 95,
-      spAttack: 80,
+      spAttack: 100,
       spDefense: 100,
-      speed: 100
+      speed: 80
     },
     height: "2.2",
     weight: "210.0",
@@ -18549,9 +18549,9 @@ export const fakemons: Fakemon[] =
       hp: 106,
       attack: 110,
       defense: 90,
-      spAttack: 130,
-      spDefense: 154,
-      speed: 90
+      spAttack: 154,
+      spDefense: 90,
+      speed: 130
     },
     height: "2.0",
     weight: "122.0",
@@ -19132,9 +19132,9 @@ export const fakemons: Fakemon[] =
       hp: 45,
       attack: 49,
       defense: 65,
-      spAttack: 45,
-      spDefense: 49,
-      speed: 65
+      spAttack: 49,
+      spDefense: 65,
+      speed: 45
     },
     height: "0.9",
     weight: "6.4",
@@ -19252,9 +19252,9 @@ export const fakemons: Fakemon[] =
       hp: 60,
       attack: 62,
       defense: 80,
-      spAttack: 60,
-      spDefense: 63,
-      speed: 80
+      spAttack: 63,
+      spDefense: 80,
+      speed: 60
     },
     height: "1.2",
     weight: "15.8",
@@ -19366,9 +19366,9 @@ export const fakemons: Fakemon[] =
       hp: 80,
       attack: 82,
       defense: 100,
-      spAttack: 80,
-      spDefense: 83,
-      speed: 100
+      spAttack: 83,
+      spDefense: 100,
+      speed: 80
     },
     height: "1.8",
     weight: "100.5",
@@ -19495,9 +19495,9 @@ export const fakemons: Fakemon[] =
       hp: 39,
       attack: 52,
       defense: 43,
-      spAttack: 65,
-      spDefense: 60,
-      speed: 50
+      spAttack: 60,
+      spDefense: 50,
+      speed: 65
     },
     height: "0.5",
     weight: "7.9",
@@ -19613,8 +19613,8 @@ export const fakemons: Fakemon[] =
       attack: 64,
       defense: 58,
       spAttack: 80,
-      spDefense: 80,
-      speed: 65
+      spDefense: 65,
+      speed: 80
     },
     height: "0.9",
     weight: "19.0",
@@ -19722,9 +19722,9 @@ export const fakemons: Fakemon[] =
       hp: 78,
       attack: 84,
       defense: 78,
-      spAttack: 100,
-      spDefense: 109,
-      speed: 85
+      spAttack: 109,
+      spDefense: 85,
+      speed: 100
     },
     height: "1.7",
     weight: "79.5",
@@ -19862,9 +19862,9 @@ export const fakemons: Fakemon[] =
       hp: 50,
       attack: 65,
       defense: 64,
-      spAttack: 43,
-      spDefense: 44,
-      speed: 48
+      spAttack: 44,
+      spDefense: 48,
+      speed: 43
     },
     height: "0.6",
     weight: "9.5",
@@ -20000,9 +20000,9 @@ export const fakemons: Fakemon[] =
       hp: 65,
       attack: 80,
       defense: 80,
-      spAttack: 58,
-      spDefense: 59,
-      speed: 63
+      spAttack: 59,
+      spDefense: 63,
+      speed: 58
     },
     height: "1.1",
     weight: "25.0",
@@ -20132,9 +20132,9 @@ export const fakemons: Fakemon[] =
       hp: 85,
       attack: 105,
       defense: 100,
-      spAttack: 78,
-      spDefense: 79,
-      speed: 83
+      spAttack: 79,
+      spDefense: 83,
+      speed: 78
     },
     height: "2.3",
     weight: "88.8",
@@ -20282,9 +20282,9 @@ export const fakemons: Fakemon[] =
       hp: 35,
       attack: 46,
       defense: 34,
-      spAttack: 20,
-      spDefense: 35,
-      speed: 45
+      spAttack: 35,
+      spDefense: 45,
+      speed: 20
     },
     height: "0.8",
     weight: "6.0",
@@ -20420,9 +20420,9 @@ export const fakemons: Fakemon[] =
       hp: 85,
       attack: 76,
       defense: 64,
-      spAttack: 90,
-      spDefense: 45,
-      speed: 55
+      spAttack: 45,
+      spDefense: 55,
+      speed: 90
     },
     height: "1.8",
     weight: "32.5",
@@ -20559,9 +20559,9 @@ export const fakemons: Fakemon[] =
       hp: 60,
       attack: 30,
       defense: 30,
-      spAttack: 50,
-      spDefense: 36,
-      speed: 56
+      spAttack: 36,
+      spDefense: 56,
+      speed: 50
     },
     height: "0.7",
     weight: "21.2",
@@ -20689,9 +20689,9 @@ export const fakemons: Fakemon[] =
       hp: 100,
       attack: 50,
       defense: 50,
-      spAttack: 70,
-      spDefense: 86,
-      speed: 96
+      spAttack: 86,
+      spDefense: 96,
+      speed: 70
     },
     height: "1.6",
     weight: "40.8",
@@ -20820,9 +20820,9 @@ export const fakemons: Fakemon[] =
       hp: 40,
       attack: 20,
       defense: 30,
-      spAttack: 55,
-      spDefense: 40,
-      speed: 80
+      spAttack: 40,
+      spDefense: 80,
+      speed: 55
     },
     height: "1.0",
     weight: "10.8",
@@ -20934,9 +20934,9 @@ export const fakemons: Fakemon[] =
       hp: 55,
       attack: 35,
       defense: 50,
-      spAttack: 85,
-      spDefense: 55,
-      speed: 110
+      spAttack: 55,
+      spDefense: 110,
+      speed: 85
     },
     height: "1.4",
     weight: "35.6",
@@ -21049,9 +21049,9 @@ export const fakemons: Fakemon[] =
       hp: 40,
       attack: 60,
       defense: 40,
-      spAttack: 30,
+      spAttack: 40,
       spDefense: 40,
-      speed: 40
+      speed: 30
     },
     height: "0.5",
     weight: "8.5",
@@ -21167,9 +21167,9 @@ export const fakemons: Fakemon[] =
       hp: 70,
       attack: 90,
       defense: 70,
-      spAttack: 40,
-      spDefense: 60,
-      speed: 70
+      spAttack: 60,
+      spDefense: 70,
+      speed: 40
     },
     height: "1.1",
     weight: "33.5",
@@ -21287,9 +21287,9 @@ export const fakemons: Fakemon[] =
       hp: 85,
       attack: 90,
       defense: 80,
-      spAttack: 130,
-      spDefense: 70,
-      speed: 80
+      spAttack: 70,
+      spDefense: 80,
+      speed: 130
     },
     height: "1.8",
     weight: "75.0",
@@ -21407,9 +21407,9 @@ export const fakemons: Fakemon[] =
       hp: 75,
       attack: 38,
       defense: 38,
-      spAttack: 67,
+      spAttack: 56,
       spDefense: 56,
-      speed: 56
+      speed: 67
     },
     height: "0.5",
     weight: "12.0",
@@ -21529,9 +21529,9 @@ export const fakemons: Fakemon[] =
       hp: 125,
       attack: 58,
       defense: 58,
-      spAttack: 67,
+      spAttack: 76,
       spDefense: 76,
-      speed: 76
+      speed: 67
     },
     height: "1.2",
     weight: "22.5",
@@ -21648,9 +21648,9 @@ export const fakemons: Fakemon[] =
       hp: 20,
       attack: 40,
       defense: 15,
-      spAttack: 60,
+      spAttack: 35,
       spDefense: 35,
-      speed: 35
+      speed: 60
     },
     height: "0.3",
     weight: "2.0",
@@ -21761,9 +21761,9 @@ export const fakemons: Fakemon[] =
       hp: 50,
       attack: 25,
       defense: 28,
-      spAttack: 15,
-      spDefense: 45,
-      speed: 55
+      spAttack: 45,
+      spDefense: 55,
+      speed: 15
     },
     height: "0.3",
     weight: "3.0",
@@ -21905,9 +21905,9 @@ export const fakemons: Fakemon[] =
       hp: 90,
       attack: 30,
       defense: 15,
-      spAttack: 15,
-      spDefense: 40,
-      speed: 20
+      spAttack: 40,
+      spDefense: 20,
+      speed: 15
     },
     height: "0.3",
     weight: "1.0",
@@ -22035,9 +22035,9 @@ export const fakemons: Fakemon[] =
       hp: 35,
       attack: 20,
       defense: 65,
-      spAttack: 20,
-      spDefense: 40,
-      speed: 65
+      spAttack: 40,
+      spDefense: 65,
+      speed: 20
     },
     height: "0.3",
     weight: "1.5",
@@ -22174,9 +22174,9 @@ export const fakemons: Fakemon[] =
       hp: 55,
       attack: 40,
       defense: 85,
-      spAttack: 40,
-      spDefense: 80,
-      speed: 105
+      spAttack: 80,
+      spDefense: 105,
+      speed: 40
     },
     height: "0.6",
     weight: "3.2",
@@ -22329,8 +22329,8 @@ export const fakemons: Fakemon[] =
       attack: 50,
       defense: 45,
       spAttack: 70,
-      spDefense: 70,
-      speed: 45
+      spDefense: 45,
+      speed: 70
     },
     height: "0.2",
     weight: "2.0",
@@ -22457,8 +22457,8 @@ export const fakemons: Fakemon[] =
       attack: 75,
       defense: 70,
       spAttack: 95,
-      spDefense: 95,
-      speed: 70
+      spDefense: 70,
+      speed: 95
     },
     height: "1.5",
     weight: "15.0",
@@ -22583,9 +22583,9 @@ export const fakemons: Fakemon[] =
       hp: 55,
       attack: 40,
       defense: 40,
-      spAttack: 35,
-      spDefense: 65,
-      speed: 45
+      spAttack: 65,
+      spDefense: 45,
+      speed: 35
     },
     height: "0.6",
     weight: "7.8",
@@ -22700,9 +22700,9 @@ export const fakemons: Fakemon[] =
       hp: 70,
       attack: 55,
       defense: 55,
-      spAttack: 45,
-      spDefense: 80,
-      speed: 60
+      spAttack: 80,
+      spDefense: 60,
+      speed: 45
     },
     height: "0.8",
     weight: "13.3",
@@ -22824,9 +22824,9 @@ export const fakemons: Fakemon[] =
       hp: 90,
       attack: 75,
       defense: 85,
-      spAttack: 55,
-      spDefense: 115,
-      speed: 90
+      spAttack: 115,
+      spDefense: 90,
+      speed: 55
     },
     height: "1.4",
     weight: "61.5",
@@ -22968,9 +22968,9 @@ export const fakemons: Fakemon[] =
       hp: 75,
       attack: 80,
       defense: 95,
-      spAttack: 50,
-      spDefense: 90,
-      speed: 100
+      spAttack: 90,
+      spDefense: 100,
+      speed: 50
     },
     height: "0.4",
     weight: "5.8",
@@ -23085,9 +23085,9 @@ export const fakemons: Fakemon[] =
       hp: 70,
       attack: 20,
       defense: 50,
-      spAttack: 40,
-      spDefense: 20,
-      speed: 50
+      spAttack: 20,
+      spDefense: 50,
+      speed: 40
     },
     height: "0.4",
     weight: "8.5",
@@ -23222,9 +23222,9 @@ export const fakemons: Fakemon[] =
       hp: 100,
       attack: 50,
       defense: 80,
-      spAttack: 50,
-      spDefense: 60,
-      speed: 80
+      spAttack: 60,
+      spDefense: 80,
+      speed: 50
     },
     height: "0.8",
     weight: "28.5",
@@ -23362,8 +23362,8 @@ export const fakemons: Fakemon[] =
       attack: 100,
       defense: 115,
       spAttack: 30,
-      spDefense: 30,
-      speed: 65
+      spDefense: 65,
+      speed: 30
     },
     height: "1.2",
     weight: "38.0",
@@ -23503,9 +23503,9 @@ export const fakemons: Fakemon[] =
       hp: 90,
       attack: 75,
       defense: 75,
-      spAttack: 70,
-      spDefense: 90,
-      speed: 100
+      spAttack: 90,
+      spDefense: 100,
+      speed: 70
     },
     height: "1.1",
     weight: "33.9",
@@ -23632,9 +23632,9 @@ export const fakemons: Fakemon[] =
       hp: 35,
       attack: 35,
       defense: 40,
-      spAttack: 50,
-      spDefense: 35,
-      speed: 55
+      spAttack: 35,
+      spDefense: 55,
+      speed: 50
     },
     height: "0.4",
     weight: "0.5",
@@ -23757,9 +23757,9 @@ export const fakemons: Fakemon[] =
       hp: 55,
       attack: 45,
       defense: 50,
-      spAttack: 80,
-      spDefense: 45,
-      speed: 65
+      spAttack: 45,
+      spDefense: 65,
+      speed: 80
     },
     height: "0.6",
     weight: "1.0",
@@ -23871,9 +23871,9 @@ export const fakemons: Fakemon[] =
       hp: 75,
       attack: 55,
       defense: 70,
-      spAttack: 110,
-      spDefense: 55,
-      speed: 95
+      spAttack: 55,
+      spDefense: 95,
+      speed: 110
     },
     height: "0.8",
     weight: "3.0",
@@ -23986,9 +23986,9 @@ export const fakemons: Fakemon[] =
       hp: 55,
       attack: 70,
       defense: 55,
-      spAttack: 85,
-      spDefense: 40,
-      speed: 55
+      spAttack: 40,
+      spDefense: 55,
+      speed: 85
     },
     height: "0.8",
     weight: "11.5",
@@ -24242,9 +24242,9 @@ export const fakemons: Fakemon[] =
       hp: 75,
       attack: 75,
       defense: 55,
-      spAttack: 30,
-      spDefense: 105,
-      speed: 85
+      spAttack: 105,
+      spDefense: 85,
+      speed: 30
     },
     height: "0.8",
     weight: "8.5",
@@ -24351,9 +24351,9 @@ export const fakemons: Fakemon[] =
       hp: 65,
       attack: 65,
       defense: 45,
-      spAttack: 95,
-      spDefense: 75,
-      speed: 45
+      spAttack: 75,
+      spDefense: 45,
+      speed: 95
     },
     height: "1.2",
     weight: "38.0",
@@ -24464,9 +24464,9 @@ export const fakemons: Fakemon[] =
       hp: 55,
       attack: 45,
       defense: 45,
-      spAttack: 15,
+      spAttack: 25,
       spDefense: 25,
-      speed: 25
+      speed: 15
     },
     height: "0.4",
     weight: "8.5",
@@ -24603,9 +24603,9 @@ export const fakemons: Fakemon[] =
       hp: 95,
       attack: 85,
       defense: 85,
-      spAttack: 35,
+      spAttack: 65,
       spDefense: 65,
-      speed: 65
+      speed: 35
     },
     height: "1.4",
     weight: "75.0",
@@ -24746,9 +24746,9 @@ export const fakemons: Fakemon[] =
       hp: 65,
       attack: 65,
       defense: 60,
-      spAttack: 110,
-      spDefense: 130,
-      speed: 95
+      spAttack: 130,
+      spDefense: 95,
+      speed: 110
     },
     height: "0.9",
     weight: "26.5",
@@ -24891,9 +24891,9 @@ export const fakemons: Fakemon[] =
       hp: 95,
       attack: 65,
       defense: 110,
-      spAttack: 65,
-      spDefense: 60,
-      speed: 130
+      spAttack: 60,
+      spDefense: 130,
+      speed: 65
     },
     height: "1.0",
     weight: "27.0",
@@ -25034,9 +25034,9 @@ export const fakemons: Fakemon[] =
       hp: 60,
       attack: 85,
       defense: 42,
-      spAttack: 91,
-      spDefense: 85,
-      speed: 42
+      spAttack: 85,
+      spDefense: 42,
+      speed: 91
     },
     height: "0.5",
     weight: "2.1",
@@ -25169,9 +25169,9 @@ export const fakemons: Fakemon[] =
       hp: 95,
       attack: 75,
       defense: 80,
-      spAttack: 30,
-      spDefense: 100,
-      speed: 110
+      spAttack: 100,
+      spDefense: 110,
+      speed: 30
     },
     height: "2.0",
     weight: "79.5",
@@ -25488,8 +25488,8 @@ export const fakemons: Fakemon[] =
       hp: 48,
       attack: 72,
       defense: 48,
-      spAttack: 48,
-      spDefense: 72,
+      spAttack: 72,
+      spDefense: 48,
       speed: 48
     },
     height: "0.5",
@@ -25526,8 +25526,8 @@ export const fakemons: Fakemon[] =
       attack: 33,
       defense: 58,
       spAttack: 33,
-      spDefense: 33,
-      speed: 58
+      spDefense: 58,
+      speed: 33
     },
     height: "1.3",
     weight: "28.5",
@@ -25577,9 +25577,9 @@ export const fakemons: Fakemon[] =
       hp: 70,
       attack: 80,
       defense: 65,
-      spAttack: 85,
-      spDefense: 90,
-      speed: 65
+      spAttack: 90,
+      spDefense: 65,
+      speed: 85
     },
     height: "1.5",
     weight: "41.5",
@@ -25728,9 +25728,9 @@ export const fakemons: Fakemon[] =
       hp: 50,
       attack: 65,
       defense: 90,
-      spAttack: 15,
+      spAttack: 35,
       spDefense: 35,
-      speed: 35
+      speed: 15
     },
     height: "0.6",
     weight: "7.2",
@@ -25852,9 +25852,9 @@ export const fakemons: Fakemon[] =
       hp: 75,
       attack: 90,
       defense: 140,
-      spAttack: 40,
+      spAttack: 60,
       spDefense: 60,
-      speed: 60
+      speed: 40
     },
     height: "1.2",
     weight: "125.8",
@@ -25993,9 +25993,9 @@ export const fakemons: Fakemon[] =
       hp: 100,
       attack: 70,
       defense: 70,
-      spAttack: 45,
+      spAttack: 65,
       spDefense: 65,
-      speed: 65
+      speed: 45
     },
     height: "1.5",
     weight: "14.0",
@@ -26153,9 +26153,9 @@ export const fakemons: Fakemon[] =
       hp: 65,
       attack: 75,
       defense: 105,
-      spAttack: 85,
-      spDefense: 35,
-      speed: 65
+      spAttack: 35,
+      spDefense: 65,
+      speed: 85
     },
     height: "1.1",
     weight: "64.8",
@@ -26304,9 +26304,9 @@ export const fakemons: Fakemon[] =
       hp: 75,
       attack: 85,
       defense: 200,
-      spAttack: 30,
-      spDefense: 55,
-      speed: 65
+      spAttack: 55,
+      spDefense: 65,
+      speed: 30
     },
     height: "9.2",
     weight: "400.0",
@@ -26450,9 +26450,9 @@ export const fakemons: Fakemon[] =
       hp: 60,
       attack: 80,
       defense: 50,
-      spAttack: 30,
+      spAttack: 40,
       spDefense: 40,
-      speed: 40
+      speed: 30
     },
     height: "0.6",
     weight: "7.8",
@@ -26612,9 +26612,9 @@ export const fakemons: Fakemon[] =
       hp: 90,
       attack: 120,
       defense: 75,
-      spAttack: 45,
+      spAttack: 60,
       spDefense: 60,
-      speed: 60
+      speed: 45
     },
     height: "1.4",
     weight: "48.7",
@@ -26773,9 +26773,9 @@ export const fakemons: Fakemon[] =
       hp: 65,
       attack: 95,
       defense: 85,
-      spAttack: 85,
+      spAttack: 55,
       spDefense: 55,
-      speed: 55
+      speed: 85
     },
     height: "0.5",
     weight: "3.9",
@@ -26916,9 +26916,9 @@ export const fakemons: Fakemon[] =
       hp: 70,
       attack: 130,
       defense: 100,
-      spAttack: 65,
-      spDefense: 55,
-      speed: 80
+      spAttack: 55,
+      spDefense: 80,
+      speed: 65
     },
     height: "1.8",
     weight: "118.0",
@@ -27053,9 +27053,9 @@ export const fakemons: Fakemon[] =
       hp: 20,
       attack: 10,
       defense: 230,
-      spAttack: 5,
-      spDefense: 10,
-      speed: 230
+      spAttack: 10,
+      spDefense: 230,
+      speed: 5
     },
     height: "0.6",
     weight: "20.5",
@@ -27183,9 +27183,9 @@ export const fakemons: Fakemon[] =
       hp: 80,
       attack: 125,
       defense: 75,
-      spAttack: 85,
-      spDefense: 40,
-      speed: 95
+      spAttack: 40,
+      spDefense: 95,
+      speed: 85
     },
     height: "1.5",
     weight: "54.0",
@@ -27326,9 +27326,9 @@ export const fakemons: Fakemon[] =
       hp: 55,
       attack: 95,
       defense: 55,
-      spAttack: 115,
-      spDefense: 35,
-      speed: 75
+      spAttack: 35,
+      spDefense: 75,
+      speed: 115
     },
     height: "0.9",
     weight: "28.0",
@@ -27475,9 +27475,9 @@ export const fakemons: Fakemon[] =
       hp: 60,
       attack: 80,
       defense: 50,
-      spAttack: 40,
+      spAttack: 50,
       spDefense: 50,
-      speed: 50
+      speed: 40
     },
     height: "0.6",
     weight: "8.8",
@@ -27619,9 +27619,9 @@ export const fakemons: Fakemon[] =
       hp: 90,
       attack: 130,
       defense: 75,
-      spAttack: 55,
+      spAttack: 75,
       spDefense: 75,
-      speed: 75
+      speed: 55
     },
     height: "1.8",
     weight: "125.8",
@@ -27761,9 +27761,9 @@ export const fakemons: Fakemon[] =
       hp: 40,
       attack: 40,
       defense: 40,
-      spAttack: 20,
-      spDefense: 70,
-      speed: 40
+      spAttack: 70,
+      spDefense: 40,
+      speed: 20
     },
     height: "0.7",
     weight: "35.0",
@@ -27884,9 +27884,9 @@ export const fakemons: Fakemon[] =
       hp: 60,
       attack: 50,
       defense: 120,
-      spAttack: 30,
-      spDefense: 90,
-      speed: 80
+      spAttack: 90,
+      spDefense: 80,
+      speed: 30
     },
     height: "0.8",
     weight: "55.0",
@@ -28008,9 +28008,9 @@ export const fakemons: Fakemon[] =
       hp: 50,
       attack: 50,
       defense: 40,
-      spAttack: 50,
+      spAttack: 30,
       spDefense: 30,
-      speed: 30
+      speed: 50
     },
     height: "0.4",
     weight: "6.5",
@@ -28129,9 +28129,9 @@ export const fakemons: Fakemon[] =
       hp: 100,
       attack: 100,
       defense: 80,
-      spAttack: 50,
+      spAttack: 60,
       spDefense: 60,
-      speed: 60
+      speed: 50
     },
     height: "1.1",
     weight: "55.8",
@@ -28246,9 +28246,9 @@ export const fakemons: Fakemon[] =
       hp: 65,
       attack: 55,
       defense: 95,
-      spAttack: 35,
-      spDefense: 65,
-      speed: 95
+      spAttack: 65,
+      spDefense: 95,
+      speed: 35
     },
     height: "0.6",
     weight: "5.0",
@@ -28379,8 +28379,8 @@ export const fakemons: Fakemon[] =
       attack: 65,
       defense: 35,
       spAttack: 65,
-      spDefense: 65,
-      speed: 35
+      spDefense: 35,
+      speed: 65
     },
     height: "0.6",
     weight: "12.0",
@@ -28496,9 +28496,9 @@ export const fakemons: Fakemon[] =
       hp: 75,
       attack: 105,
       defense: 75,
-      spAttack: 45,
-      spDefense: 105,
-      speed: 75
+      spAttack: 105,
+      spDefense: 75,
+      speed: 45
     },
     height: "0.9",
     weight: "28.5",
@@ -28617,9 +28617,9 @@ export const fakemons: Fakemon[] =
       hp: 45,
       attack: 55,
       defense: 45,
-      spAttack: 75,
-      spDefense: 65,
-      speed: 45
+      spAttack: 65,
+      spDefense: 45,
+      speed: 75
     },
     height: "0.9",
     weight: "16.0",
@@ -28752,9 +28752,9 @@ export const fakemons: Fakemon[] =
       hp: 85,
       attack: 40,
       defense: 70,
-      spAttack: 70,
-      spDefense: 80,
-      speed: 140
+      spAttack: 80,
+      spDefense: 140,
+      speed: 70
     },
     height: "2.1",
     weight: "220.0",
@@ -28882,8 +28882,8 @@ export const fakemons: Fakemon[] =
       hp: 65,
       attack: 80,
       defense: 140,
-      spAttack: 70,
-      spDefense: 40,
+      spAttack: 40,
+      spDefense: 70,
       speed: 70
     },
     height: "1.7",
@@ -29018,9 +29018,9 @@ export const fakemons: Fakemon[] =
       hp: 45,
       attack: 60,
       defense: 30,
-      spAttack: 65,
-      spDefense: 80,
-      speed: 50
+      spAttack: 80,
+      spDefense: 50,
+      speed: 65
     },
     height: "0.6",
     weight: "10.8",
@@ -29154,9 +29154,9 @@ export const fakemons: Fakemon[] =
       hp: 75,
       attack: 90,
       defense: 50,
-      spAttack: 95,
-      spDefense: 110,
-      speed: 80
+      spAttack: 110,
+      spDefense: 80,
+      speed: 95
     },
     height: "1.4",
     weight: "35.0",
@@ -29288,9 +29288,9 @@ export const fakemons: Fakemon[] =
       hp: 75,
       attack: 95,
       defense: 95,
-      spAttack: 85,
+      spAttack: 95,
       spDefense: 95,
-      speed: 95
+      speed: 85
     },
     height: "1.8",
     weight: "152.0",
@@ -29528,9 +29528,9 @@ export const fakemons: Fakemon[] =
       hp: 90,
       attack: 120,
       defense: 120,
-      spAttack: 50,
+      spAttack: 60,
       spDefense: 60,
-      speed: 60
+      speed: 50
     },
     height: "1.1",
     weight: "120.0",
@@ -29662,9 +29662,9 @@ export const fakemons: Fakemon[] =
       hp: 85,
       attack: 80,
       defense: 90,
-      spAttack: 60,
-      spDefense: 105,
-      speed: 95
+      spAttack: 105,
+      spDefense: 95,
+      speed: 60
     },
     height: "0.6",
     weight: "32.5",
@@ -29778,8 +29778,8 @@ export const fakemons: Fakemon[] =
       attack: 95,
       defense: 62,
       spAttack: 85,
-      spDefense: 85,
-      speed: 65
+      spDefense: 65,
+      speed: 85
     },
     height: "1.4",
     weight: "71.2",
@@ -29914,9 +29914,9 @@ export const fakemons: Fakemon[] =
       hp: 55,
       attack: 20,
       defense: 35,
-      spAttack: 75,
-      spDefense: 20,
-      speed: 45
+      spAttack: 20,
+      spDefense: 45,
+      speed: 75
     },
     height: "1.2",
     weight: "58.0",
@@ -30049,9 +30049,9 @@ export const fakemons: Fakemon[] =
       hp: 50,
       attack: 95,
       defense: 95,
-      spAttack: 70,
-      spDefense: 35,
-      speed: 110
+      spAttack: 35,
+      spDefense: 110,
+      speed: 70
     },
     height: "1.4",
     weight: "48.0",
@@ -30176,8 +30176,8 @@ export const fakemons: Fakemon[] =
       hp: 45,
       attack: 30,
       defense: 15,
-      spAttack: 65,
-      spDefense: 85,
+      spAttack: 85,
+      spDefense: 65,
       speed: 65
     },
     height: "0.4",
@@ -30301,9 +30301,9 @@ export const fakemons: Fakemon[] =
       hp: 45,
       attack: 63,
       defense: 37,
-      spAttack: 95,
-      spDefense: 65,
-      speed: 55
+      spAttack: 65,
+      spDefense: 55,
+      speed: 95
     },
     height: "0.6",
     weight: "23.5",
@@ -30426,9 +30426,9 @@ export const fakemons: Fakemon[] =
       hp: 45,
       attack: 75,
       defense: 37,
-      spAttack: 83,
-      spDefense: 70,
-      speed: 55
+      spAttack: 70,
+      spDefense: 55,
+      speed: 83
     },
     height: "0.7",
     weight: "21.4",
@@ -30550,9 +30550,9 @@ export const fakemons: Fakemon[] =
       hp: 95,
       attack: 80,
       defense: 105,
-      spAttack: 100,
-      spDefense: 40,
-      speed: 70
+      spAttack: 40,
+      spDefense: 70,
+      speed: 100
     },
     height: "1.2",
     weight: "75.5",
@@ -30690,9 +30690,9 @@ export const fakemons: Fakemon[] =
       hp: 255,
       attack: 10,
       defense: 10,
-      spAttack: 55,
-      spDefense: 75,
-      speed: 135
+      spAttack: 75,
+      spDefense: 135,
+      speed: 55
     },
     height: "1.5",
     weight: "46.8",
@@ -30859,8 +30859,8 @@ export const fakemons: Fakemon[] =
       attack: 85,
       defense: 75,
       spAttack: 115,
-      spDefense: 115,
-      speed: 100
+      spDefense: 100,
+      speed: 115
     },
     height: "1.9",
     weight: "178.0",
@@ -30981,9 +30981,9 @@ export const fakemons: Fakemon[] =
       hp: 115,
       attack: 115,
       defense: 85,
-      spAttack: 100,
-      spDefense: 90,
-      speed: 75
+      spAttack: 90,
+      spDefense: 75,
+      speed: 100
     },
     height: "2.1",
     weight: "198.0",
@@ -31099,9 +31099,9 @@ export const fakemons: Fakemon[] =
       hp: 100,
       attack: 75,
       defense: 115,
-      spAttack: 85,
-      spDefense: 90,
-      speed: 115
+      spAttack: 90,
+      spDefense: 115,
+      speed: 85
     },
     height: "2.0",
     weight: "187.0",
@@ -31218,9 +31218,9 @@ export const fakemons: Fakemon[] =
       hp: 50,
       attack: 64,
       defense: 50,
-      spAttack: 41,
-      spDefense: 45,
-      speed: 50
+      spAttack: 45,
+      spDefense: 50,
+      speed: 41
     },
     height: "0.6",
     weight: "72.0",
@@ -31346,9 +31346,9 @@ export const fakemons: Fakemon[] =
       hp: 70,
       attack: 84,
       defense: 70,
-      spAttack: 51,
-      spDefense: 65,
-      speed: 70
+      spAttack: 65,
+      spDefense: 70,
+      speed: 51
     },
     height: "1.2",
     weight: "152.0",
@@ -31470,9 +31470,9 @@ export const fakemons: Fakemon[] =
       hp: 100,
       attack: 134,
       defense: 110,
-      spAttack: 61,
-      spDefense: 95,
-      speed: 100
+      spAttack: 95,
+      spDefense: 100,
+      speed: 61
     },
     height: "2.0",
     weight: "202.0",
@@ -31649,9 +31649,9 @@ export const fakemons: Fakemon[] =
       hp: 106,
       attack: 90,
       defense: 130,
-      spAttack: 110,
-      spDefense: 90,
-      speed: 154
+      spAttack: 90,
+      spDefense: 154,
+      speed: 110
     },
     height: "5.2",
     weight: "216.0",
@@ -31799,9 +31799,9 @@ export const fakemons: Fakemon[] =
       hp: 106,
       attack: 130,
       defense: 90,
-      spAttack: 90,
-      spDefense: 110,
-      speed: 154
+      spAttack: 110,
+      spDefense: 154,
+      speed: 90
     },
     height: "3.8",
     weight: "199.0",
@@ -32073,9 +32073,9 @@ export const fakemons: Fakemon[] =
       hp: 40,
       attack: 45,
       defense: 35,
-      spAttack: 70,
-      spDefense: 65,
-      speed: 55
+      spAttack: 65,
+      spDefense: 55,
+      speed: 70
     },
     height: "0.5",
     weight: "5.0",
@@ -32210,9 +32210,9 @@ export const fakemons: Fakemon[] =
       hp: 50,
       attack: 65,
       defense: 45,
-      spAttack: 95,
-      spDefense: 85,
-      speed: 65
+      spAttack: 85,
+      spDefense: 65,
+      speed: 95
     },
     height: "0.9",
     weight: "21.6",
@@ -32344,9 +32344,9 @@ export const fakemons: Fakemon[] =
       hp: 70,
       attack: 85,
       defense: 65,
-      spAttack: 120,
-      spDefense: 105,
-      speed: 85
+      spAttack: 105,
+      spDefense: 85,
+      speed: 120
     },
     height: "1.7",
     weight: "52.2",
@@ -32502,9 +32502,9 @@ export const fakemons: Fakemon[] =
       hp: 45,
       attack: 60,
       defense: 40,
-      spAttack: 45,
-      spDefense: 70,
-      speed: 50
+      spAttack: 70,
+      spDefense: 50,
+      speed: 45
     },
     height: "0.4",
     weight: "2.5",
@@ -32629,9 +32629,9 @@ export const fakemons: Fakemon[] =
       hp: 60,
       attack: 85,
       defense: 60,
-      spAttack: 55,
-      spDefense: 85,
-      speed: 60
+      spAttack: 85,
+      spDefense: 60,
+      speed: 55
     },
     height: "0.9",
     weight: "19.5",
@@ -32767,9 +32767,9 @@ export const fakemons: Fakemon[] =
       hp: 80,
       attack: 120,
       defense: 70,
-      spAttack: 80,
-      spDefense: 110,
-      speed: 70
+      spAttack: 110,
+      spDefense: 70,
+      speed: 80
     },
     height: "1.9",
     weight: "52.0",
@@ -32927,9 +32927,9 @@ export const fakemons: Fakemon[] =
       hp: 50,
       attack: 70,
       defense: 50,
-      spAttack: 40,
+      spAttack: 50,
       spDefense: 50,
-      speed: 50
+      speed: 40
     },
     height: "0.4",
     weight: "7.6",
@@ -33053,9 +33053,9 @@ export const fakemons: Fakemon[] =
       hp: 70,
       attack: 85,
       defense: 70,
-      spAttack: 50,
-      spDefense: 60,
-      speed: 70
+      spAttack: 60,
+      spDefense: 70,
+      speed: 50
     },
     height: "0.7",
     weight: "28.0",
@@ -33183,9 +33183,9 @@ export const fakemons: Fakemon[] =
       hp: 100,
       attack: 110,
       defense: 90,
-      spAttack: 60,
-      spDefense: 85,
-      speed: 90
+      spAttack: 85,
+      spDefense: 90,
+      speed: 60
     },
     height: "1.5",
     weight: "81.9",
@@ -33334,9 +33334,9 @@ export const fakemons: Fakemon[] =
       hp: 35,
       attack: 55,
       defense: 35,
-      spAttack: 35,
+      spAttack: 30,
       spDefense: 30,
-      speed: 30
+      speed: 35
     },
     height: "0.5",
     weight: "13.6",
@@ -33456,9 +33456,9 @@ export const fakemons: Fakemon[] =
       hp: 70,
       attack: 90,
       defense: 70,
-      spAttack: 70,
+      spAttack: 60,
       spDefense: 60,
-      speed: 60
+      speed: 70
     },
     height: "1.0",
     weight: "37.0",
@@ -33580,9 +33580,9 @@ export const fakemons: Fakemon[] =
       hp: 38,
       attack: 30,
       defense: 41,
-      spAttack: 60,
-      spDefense: 30,
-      speed: 41
+      spAttack: 30,
+      spDefense: 41,
+      speed: 60
     },
     height: "0.4",
     weight: "17.5",
@@ -33701,9 +33701,9 @@ export const fakemons: Fakemon[] =
       hp: 78,
       attack: 70,
       defense: 61,
-      spAttack: 100,
-      spDefense: 50,
-      speed: 61
+      spAttack: 50,
+      spDefense: 61,
+      speed: 100
     },
     height: "0.5",
     weight: "32.5",
@@ -33829,8 +33829,8 @@ export const fakemons: Fakemon[] =
       attack: 45,
       defense: 35,
       spAttack: 20,
-      spDefense: 20,
-      speed: 30
+      spDefense: 30,
+      speed: 20
     },
     height: "0.3",
     weight: "3.6",
@@ -33871,9 +33871,9 @@ export const fakemons: Fakemon[] =
       hp: 50,
       attack: 35,
       defense: 55,
-      spAttack: 15,
+      spAttack: 25,
       spDefense: 25,
-      speed: 25
+      speed: 15
     },
     height: "0.6",
     weight: "10.0",
@@ -33912,9 +33912,9 @@ export const fakemons: Fakemon[] =
       hp: 60,
       attack: 70,
       defense: 50,
-      spAttack: 65,
-      spDefense: 100,
-      speed: 50
+      spAttack: 100,
+      spDefense: 50,
+      speed: 65
     },
     height: "1.0",
     weight: "28.4",
@@ -34016,9 +34016,9 @@ export const fakemons: Fakemon[] =
       hp: 50,
       attack: 35,
       defense: 55,
-      spAttack: 15,
+      spAttack: 25,
       spDefense: 25,
-      speed: 25
+      speed: 15
     },
     height: "0.7",
     weight: "11.5",
@@ -34057,9 +34057,9 @@ export const fakemons: Fakemon[] =
       hp: 60,
       attack: 50,
       defense: 70,
-      spAttack: 65,
-      spDefense: 50,
-      speed: 90
+      spAttack: 50,
+      spDefense: 90,
+      speed: 65
     },
     height: "1.2",
     weight: "31.6",
@@ -34164,9 +34164,9 @@ export const fakemons: Fakemon[] =
       hp: 40,
       attack: 30,
       defense: 30,
-      spAttack: 30,
-      spDefense: 40,
-      speed: 50
+      spAttack: 40,
+      spDefense: 50,
+      speed: 30
     },
     height: "0.5",
     weight: "2.6",
@@ -34276,9 +34276,9 @@ export const fakemons: Fakemon[] =
       hp: 60,
       attack: 50,
       defense: 50,
-      spAttack: 50,
-      spDefense: 60,
-      speed: 70
+      spAttack: 60,
+      spDefense: 70,
+      speed: 50
     },
     height: "1.2",
     weight: "32.5",
@@ -34405,9 +34405,9 @@ export const fakemons: Fakemon[] =
       hp: 80,
       attack: 70,
       defense: 70,
-      spAttack: 70,
-      spDefense: 90,
-      speed: 100
+      spAttack: 90,
+      spDefense: 100,
+      speed: 70
     },
     height: "1.5",
     weight: "55.0",
@@ -34663,8 +34663,8 @@ export const fakemons: Fakemon[] =
       attack: 70,
       defense: 40,
       spAttack: 60,
-      spDefense: 60,
-      speed: 40
+      spDefense: 40,
+      speed: 60
     },
     height: "1.0",
     weight: "28.0",
@@ -34806,9 +34806,9 @@ export const fakemons: Fakemon[] =
       hp: 90,
       attack: 100,
       defense: 60,
-      spAttack: 80,
-      spDefense: 90,
-      speed: 60
+      spAttack: 90,
+      spDefense: 60,
+      speed: 80
     },
     height: "1.3",
     weight: "59.6",
@@ -34983,9 +34983,9 @@ export const fakemons: Fakemon[] =
       hp: 40,
       attack: 55,
       defense: 30,
-      spAttack: 85,
+      spAttack: 30,
       spDefense: 30,
-      speed: 30
+      speed: 85
     },
     height: "0.3",
     weight: "2.3",
@@ -35079,9 +35079,9 @@ export const fakemons: Fakemon[] =
       hp: 60,
       attack: 85,
       defense: 60,
-      spAttack: 125,
-      spDefense: 75,
-      speed: 50
+      spAttack: 75,
+      spDefense: 50,
+      speed: 125
     },
     height: "0.7",
     weight: "19.8",
@@ -35178,9 +35178,9 @@ export const fakemons: Fakemon[] =
       hp: 40,
       attack: 30,
       defense: 30,
-      spAttack: 85,
-      spDefense: 55,
-      speed: 30
+      spAttack: 55,
+      spDefense: 30,
+      speed: 85
     },
     height: "0.6",
     weight: "9.5",
@@ -35296,9 +35296,9 @@ export const fakemons: Fakemon[] =
       hp: 60,
       attack: 50,
       defense: 100,
-      spAttack: 65,
-      spDefense: 95,
-      speed: 70
+      spAttack: 95,
+      spDefense: 70,
+      speed: 65
     },
     height: "1.2",
     weight: "28.0",
@@ -35422,9 +35422,9 @@ export const fakemons: Fakemon[] =
       hp: 28,
       attack: 25,
       defense: 25,
-      spAttack: 40,
-      spDefense: 45,
-      speed: 35
+      spAttack: 45,
+      spDefense: 35,
+      speed: 40
     },
     height: "0.4",
     weight: "6.6",
@@ -35569,9 +35569,9 @@ export const fakemons: Fakemon[] =
       hp: 38,
       attack: 35,
       defense: 35,
-      spAttack: 50,
-      spDefense: 65,
-      speed: 55
+      spAttack: 65,
+      spDefense: 55,
+      speed: 50
     },
     height: "0.8",
     weight: "20.2",
@@ -35708,9 +35708,9 @@ export const fakemons: Fakemon[] =
       hp: 68,
       attack: 65,
       defense: 65,
-      spAttack: 80,
-      spDefense: 125,
-      speed: 115
+      spAttack: 125,
+      spDefense: 115,
+      speed: 80
     },
     height: "1.6",
     weight: "48.4",
@@ -35867,9 +35867,9 @@ export const fakemons: Fakemon[] =
       hp: 40,
       attack: 30,
       defense: 32,
-      spAttack: 65,
-      spDefense: 50,
-      speed: 52
+      spAttack: 50,
+      spDefense: 52,
+      speed: 65
     },
     height: "0.5",
     weight: "1.7",
@@ -35977,9 +35977,9 @@ export const fakemons: Fakemon[] =
       hp: 70,
       attack: 60,
       defense: 62,
-      spAttack: 80,
-      spDefense: 100,
-      speed: 82
+      spAttack: 100,
+      spDefense: 82,
+      speed: 80
     },
     height: "0.8",
     weight: "3.6",
@@ -36100,9 +36100,9 @@ export const fakemons: Fakemon[] =
       hp: 60,
       attack: 40,
       defense: 60,
-      spAttack: 35,
-      spDefense: 40,
-      speed: 60
+      spAttack: 40,
+      spDefense: 60,
+      speed: 35
     },
     height: "0.4",
     weight: "4.5",
@@ -36203,9 +36203,9 @@ export const fakemons: Fakemon[] =
       hp: 60,
       attack: 130,
       defense: 80,
-      spAttack: 70,
+      spAttack: 60,
       spDefense: 60,
-      speed: 60
+      speed: 70
     },
     height: "1.2",
     weight: "39.2",
@@ -36346,9 +36346,9 @@ export const fakemons: Fakemon[] =
       hp: 60,
       attack: 60,
       defense: 60,
-      spAttack: 30,
+      spAttack: 35,
       spDefense: 35,
-      speed: 35
+      speed: 30
     },
     height: "0.8",
     weight: "24.0",
@@ -36481,9 +36481,9 @@ export const fakemons: Fakemon[] =
       hp: 80,
       attack: 80,
       defense: 80,
-      spAttack: 90,
+      spAttack: 55,
       spDefense: 55,
-      speed: 55
+      speed: 90
     },
     height: "1.4",
     weight: "46.5",
@@ -36630,9 +36630,9 @@ export const fakemons: Fakemon[] =
       hp: 150,
       attack: 160,
       defense: 100,
-      spAttack: 100,
-      spDefense: 95,
-      speed: 65
+      spAttack: 95,
+      spDefense: 65,
+      speed: 100
     },
     height: "2.0",
     weight: "130.5",
@@ -36794,9 +36794,9 @@ export const fakemons: Fakemon[] =
       hp: 31,
       attack: 45,
       defense: 90,
-      spAttack: 40,
+      spAttack: 30,
       spDefense: 30,
-      speed: 30
+      speed: 40
     },
     height: "0.5",
     weight: "5.5",
@@ -36883,9 +36883,9 @@ export const fakemons: Fakemon[] =
       hp: 61,
       attack: 90,
       defense: 45,
-      spAttack: 160,
+      spAttack: 50,
       spDefense: 50,
-      speed: 50
+      speed: 160
     },
     height: "0.8",
     weight: "12.0",
@@ -36997,9 +36997,9 @@ export const fakemons: Fakemon[] =
       hp: 1,
       attack: 90,
       defense: 45,
-      spAttack: 40,
+      spAttack: 30,
       spDefense: 30,
-      speed: 30
+      speed: 40
     },
     height: "0.8",
     weight: "1.2",
@@ -37102,9 +37102,9 @@ export const fakemons: Fakemon[] =
       hp: 64,
       attack: 51,
       defense: 23,
-      spAttack: 28,
-      spDefense: 51,
-      speed: 23
+      spAttack: 51,
+      spDefense: 23,
+      speed: 28
     },
     height: "0.6",
     weight: "16.3",
@@ -37214,9 +37214,9 @@ export const fakemons: Fakemon[] =
       hp: 84,
       attack: 71,
       defense: 43,
-      spAttack: 48,
-      spDefense: 71,
-      speed: 43
+      spAttack: 71,
+      spDefense: 43,
+      speed: 48
     },
     height: "1.0",
     weight: "40.5",
@@ -37332,9 +37332,9 @@ export const fakemons: Fakemon[] =
       hp: 104,
       attack: 91,
       defense: 63,
-      spAttack: 68,
-      spDefense: 91,
-      speed: 73
+      spAttack: 91,
+      spDefense: 73,
+      speed: 68
     },
     height: "1.5",
     weight: "84.0",
@@ -37470,9 +37470,9 @@ export const fakemons: Fakemon[] =
       hp: 72,
       attack: 60,
       defense: 30,
-      spAttack: 25,
-      spDefense: 20,
-      speed: 30
+      spAttack: 20,
+      spDefense: 30,
+      speed: 25
     },
     height: "1.0",
     weight: "86.4",
@@ -37608,9 +37608,9 @@ export const fakemons: Fakemon[] =
       hp: 144,
       attack: 120,
       defense: 60,
-      spAttack: 50,
-      spDefense: 40,
-      speed: 60
+      spAttack: 40,
+      spDefense: 60,
+      speed: 50
     },
     height: "2.3",
     weight: "253.8",
@@ -37751,8 +37751,8 @@ export const fakemons: Fakemon[] =
       attack: 20,
       defense: 40,
       spAttack: 20,
-      spDefense: 20,
-      speed: 40
+      spDefense: 40,
+      speed: 20
     },
     height: "0.2",
     weight: "2.0",
@@ -37853,9 +37853,9 @@ export const fakemons: Fakemon[] =
       hp: 30,
       attack: 45,
       defense: 135,
-      spAttack: 30,
-      spDefense: 45,
-      speed: 90
+      spAttack: 45,
+      spDefense: 90,
+      speed: 30
     },
     height: "1.0",
     weight: "97.0",
@@ -37980,9 +37980,9 @@ export const fakemons: Fakemon[] =
       hp: 50,
       attack: 45,
       defense: 45,
-      spAttack: 50,
+      spAttack: 35,
       spDefense: 35,
-      speed: 35
+      speed: 50
     },
     height: "0.6",
     weight: "11.0",
@@ -38105,9 +38105,9 @@ export const fakemons: Fakemon[] =
       hp: 70,
       attack: 65,
       defense: 65,
-      spAttack: 90,
+      spAttack: 55,
       spDefense: 55,
-      speed: 55
+      speed: 90
     },
     height: "1.1",
     weight: "32.6",
@@ -38226,9 +38226,9 @@ export const fakemons: Fakemon[] =
       hp: 50,
       attack: 75,
       defense: 75,
-      spAttack: 50,
+      spAttack: 65,
       spDefense: 65,
-      speed: 65
+      speed: 50
     },
     height: "0.5",
     weight: "11.0",
@@ -38403,9 +38403,9 @@ export const fakemons: Fakemon[] =
       hp: 50,
       attack: 85,
       defense: 85,
-      spAttack: 50,
+      spAttack: 55,
       spDefense: 55,
-      speed: 55
+      speed: 50
     },
     height: "0.6",
     weight: "11.5",
@@ -38559,9 +38559,9 @@ export const fakemons: Fakemon[] =
       hp: 50,
       attack: 70,
       defense: 100,
-      spAttack: 30,
+      spAttack: 40,
       spDefense: 40,
-      speed: 40
+      speed: 30
     },
     height: "0.4",
     weight: "60.0",
@@ -38684,9 +38684,9 @@ export const fakemons: Fakemon[] =
       hp: 60,
       attack: 90,
       defense: 140,
-      spAttack: 40,
+      spAttack: 50,
       spDefense: 50,
-      speed: 50
+      speed: 40
     },
     height: "0.9",
     weight: "120.0",
@@ -38803,9 +38803,9 @@ export const fakemons: Fakemon[] =
       hp: 70,
       attack: 110,
       defense: 180,
-      spAttack: 50,
+      spAttack: 60,
       spDefense: 60,
-      speed: 60
+      speed: 50
     },
     height: "2.1",
     weight: "360.0",
@@ -38970,9 +38970,9 @@ export const fakemons: Fakemon[] =
       hp: 30,
       attack: 40,
       defense: 55,
-      spAttack: 60,
-      spDefense: 40,
-      speed: 55
+      spAttack: 40,
+      spDefense: 55,
+      speed: 60
     },
     height: "0.6",
     weight: "11.2",
@@ -39118,9 +39118,9 @@ export const fakemons: Fakemon[] =
       hp: 60,
       attack: 60,
       defense: 75,
-      spAttack: 80,
-      spDefense: 60,
-      speed: 75
+      spAttack: 60,
+      spDefense: 75,
+      speed: 80
     },
     height: "1.3",
     weight: "31.5",
@@ -39266,8 +39266,8 @@ export const fakemons: Fakemon[] =
       attack: 45,
       defense: 40,
       spAttack: 65,
-      spDefense: 65,
-      speed: 40
+      spDefense: 40,
+      speed: 65
     },
     height: "0.6",
     weight: "15.2",
@@ -39379,8 +39379,8 @@ export const fakemons: Fakemon[] =
       attack: 75,
       defense: 60,
       spAttack: 105,
-      spDefense: 105,
-      speed: 60
+      spDefense: 60,
+      speed: 105
     },
     height: "1.5",
     weight: "40.2",
@@ -39488,9 +39488,9 @@ export const fakemons: Fakemon[] =
       hp: 60,
       attack: 50,
       defense: 40,
-      spAttack: 95,
-      spDefense: 85,
-      speed: 75
+      spAttack: 85,
+      spDefense: 75,
+      speed: 95
     },
     height: "0.4",
     weight: "4.2",
@@ -39617,9 +39617,9 @@ export const fakemons: Fakemon[] =
       hp: 60,
       attack: 40,
       defense: 50,
-      spAttack: 95,
-      spDefense: 75,
-      speed: 85
+      spAttack: 75,
+      spDefense: 85,
+      speed: 95
     },
     height: "0.4",
     weight: "4.2",
@@ -39744,8 +39744,8 @@ export const fakemons: Fakemon[] =
       hp: 65,
       attack: 73,
       defense: 75,
-      spAttack: 85,
-      spDefense: 47,
+      spAttack: 47,
+      spDefense: 85,
       speed: 85
     },
     height: "0.7",
@@ -39881,8 +39881,8 @@ export const fakemons: Fakemon[] =
       hp: 65,
       attack: 47,
       defense: 75,
-      spAttack: 85,
-      spDefense: 73,
+      spAttack: 73,
+      spDefense: 85,
       speed: 85
     },
     height: "0.6",
@@ -40022,9 +40022,9 @@ export const fakemons: Fakemon[] =
       hp: 50,
       attack: 60,
       defense: 45,
-      spAttack: 65,
-      spDefense: 100,
-      speed: 80
+      spAttack: 100,
+      spDefense: 80,
+      speed: 65
     },
     height: "0.3",
     weight: "2.0",
@@ -40141,9 +40141,9 @@ export const fakemons: Fakemon[] =
       hp: 70,
       attack: 43,
       defense: 53,
-      spAttack: 40,
-      spDefense: 43,
-      speed: 53
+      spAttack: 43,
+      spDefense: 53,
+      speed: 40
     },
     height: "0.4",
     weight: "10.3",
@@ -40269,9 +40269,9 @@ export const fakemons: Fakemon[] =
       hp: 100,
       attack: 73,
       defense: 83,
-      spAttack: 55,
-      spDefense: 73,
-      speed: 83
+      spAttack: 73,
+      spDefense: 83,
+      speed: 55
     },
     height: "1.7",
     weight: "80.0",
@@ -40401,8 +40401,8 @@ export const fakemons: Fakemon[] =
       attack: 90,
       defense: 20,
       spAttack: 65,
-      spDefense: 65,
-      speed: 20
+      spDefense: 20,
+      speed: 65
     },
     height: "0.8",
     weight: "20.8",
@@ -40516,8 +40516,8 @@ export const fakemons: Fakemon[] =
       attack: 120,
       defense: 40,
       spAttack: 95,
-      spDefense: 95,
-      speed: 40
+      spDefense: 40,
+      speed: 95
     },
     height: "1.8",
     weight: "88.8",
@@ -40636,9 +40636,9 @@ export const fakemons: Fakemon[] =
       hp: 130,
       attack: 70,
       defense: 35,
-      spAttack: 60,
-      spDefense: 70,
-      speed: 35
+      spAttack: 70,
+      spDefense: 35,
+      speed: 60
     },
     height: "2.0",
     weight: "130.0",
@@ -40754,9 +40754,9 @@ export const fakemons: Fakemon[] =
       hp: 170,
       attack: 90,
       defense: 45,
-      spAttack: 60,
-      spDefense: 90,
-      speed: 45
+      spAttack: 90,
+      spDefense: 45,
+      speed: 60
     },
     height: "14.5",
     weight: "398.0",
@@ -40868,9 +40868,9 @@ export const fakemons: Fakemon[] =
       hp: 60,
       attack: 60,
       defense: 40,
-      spAttack: 35,
-      spDefense: 65,
-      speed: 45
+      spAttack: 65,
+      spDefense: 45,
+      speed: 35
     },
     height: "0.7",
     weight: "24.0",
@@ -41005,9 +41005,9 @@ export const fakemons: Fakemon[] =
       hp: 70,
       attack: 100,
       defense: 70,
-      spAttack: 40,
-      spDefense: 105,
-      speed: 75
+      spAttack: 105,
+      spDefense: 75,
+      speed: 40
     },
     height: "1.9",
     weight: "220.0",
@@ -41135,9 +41135,9 @@ export const fakemons: Fakemon[] =
       hp: 70,
       attack: 85,
       defense: 140,
-      spAttack: 20,
-      spDefense: 85,
-      speed: 70
+      spAttack: 85,
+      spDefense: 70,
+      speed: 20
     },
     height: "0.5",
     weight: "80.4",
@@ -41265,9 +41265,9 @@ export const fakemons: Fakemon[] =
       hp: 60,
       attack: 25,
       defense: 35,
-      spAttack: 60,
-      spDefense: 70,
-      speed: 80
+      spAttack: 70,
+      spDefense: 80,
+      speed: 60
     },
     height: "0.7",
     weight: "30.6",
@@ -41402,9 +41402,9 @@ export const fakemons: Fakemon[] =
       hp: 80,
       attack: 45,
       defense: 65,
-      spAttack: 80,
-      spDefense: 90,
-      speed: 110
+      spAttack: 90,
+      spDefense: 110,
+      speed: 80
     },
     height: "0.9",
     weight: "71.5",
@@ -41703,9 +41703,9 @@ export const fakemons: Fakemon[] =
       hp: 45,
       attack: 100,
       defense: 45,
-      spAttack: 10,
+      spAttack: 45,
       spDefense: 45,
-      speed: 45
+      speed: 10
     },
     height: "0.7",
     weight: "15.0",
@@ -41810,9 +41810,9 @@ export const fakemons: Fakemon[] =
       hp: 50,
       attack: 70,
       defense: 50,
-      spAttack: 70,
+      spAttack: 50,
       spDefense: 50,
-      speed: 50
+      speed: 70
     },
     height: "1.1",
     weight: "15.3",
@@ -41941,9 +41941,9 @@ export const fakemons: Fakemon[] =
       hp: 80,
       attack: 100,
       defense: 80,
-      spAttack: 100,
+      spAttack: 80,
       spDefense: 80,
-      speed: 80
+      speed: 100
     },
     height: "2.0",
     weight: "82.0",
@@ -42097,9 +42097,9 @@ export const fakemons: Fakemon[] =
       hp: 50,
       attack: 85,
       defense: 40,
-      spAttack: 35,
-      spDefense: 85,
-      speed: 40
+      spAttack: 85,
+      spDefense: 40,
+      speed: 35
     },
     height: "0.4",
     weight: "51.3",
@@ -42241,9 +42241,9 @@ export const fakemons: Fakemon[] =
       hp: 70,
       attack: 115,
       defense: 60,
-      spAttack: 55,
-      spDefense: 115,
-      speed: 60
+      spAttack: 115,
+      spDefense: 60,
+      speed: 55
     },
     height: "1.3",
     weight: "77.4",
@@ -42388,9 +42388,9 @@ export const fakemons: Fakemon[] =
       hp: 45,
       attack: 40,
       defense: 60,
-      spAttack: 50,
-      spDefense: 40,
-      speed: 75
+      spAttack: 40,
+      spDefense: 75,
+      speed: 50
     },
     height: "0.4",
     weight: "1.2",
@@ -42506,9 +42506,9 @@ export const fakemons: Fakemon[] =
       hp: 75,
       attack: 70,
       defense: 90,
-      spAttack: 80,
-      spDefense: 70,
-      speed: 105
+      spAttack: 70,
+      spDefense: 105,
+      speed: 80
     },
     height: "1.1",
     weight: "20.6",
@@ -42640,9 +42640,9 @@ export const fakemons: Fakemon[] =
       hp: 73,
       attack: 115,
       defense: 60,
-      spAttack: 90,
+      spAttack: 60,
       spDefense: 60,
-      speed: 60
+      speed: 90
     },
     height: "1.3",
     weight: "40.3",
@@ -42813,9 +42813,9 @@ export const fakemons: Fakemon[] =
       hp: 73,
       attack: 100,
       defense: 60,
-      spAttack: 65,
-      spDefense: 100,
-      speed: 60
+      spAttack: 100,
+      spDefense: 60,
+      speed: 65
     },
     height: "2.7",
     weight: "52.5",
@@ -42956,9 +42956,9 @@ export const fakemons: Fakemon[] =
       hp: 90,
       attack: 55,
       defense: 65,
-      spAttack: 70,
-      spDefense: 95,
-      speed: 85
+      spAttack: 95,
+      spDefense: 85,
+      speed: 70
     },
     height: "1.0",
     weight: "168.0",
@@ -43092,9 +43092,9 @@ export const fakemons: Fakemon[] =
       hp: 90,
       attack: 95,
       defense: 85,
-      spAttack: 70,
-      spDefense: 55,
-      speed: 65
+      spAttack: 55,
+      spDefense: 65,
+      speed: 70
     },
     height: "1.2",
     weight: "154.0",
@@ -43233,9 +43233,9 @@ export const fakemons: Fakemon[] =
       hp: 50,
       attack: 48,
       defense: 43,
-      spAttack: 60,
-      spDefense: 46,
-      speed: 41
+      spAttack: 46,
+      spDefense: 41,
+      speed: 60
     },
     height: "0.4",
     weight: "1.9",
@@ -43348,9 +43348,9 @@ export const fakemons: Fakemon[] =
       hp: 110,
       attack: 78,
       defense: 73,
-      spAttack: 60,
-      spDefense: 76,
-      speed: 71
+      spAttack: 76,
+      spDefense: 71,
+      speed: 60
     },
     height: "0.9",
     weight: "23.6",
@@ -43467,8 +43467,8 @@ export const fakemons: Fakemon[] =
       hp: 43,
       attack: 80,
       defense: 65,
-      spAttack: 35,
-      spDefense: 50,
+      spAttack: 50,
+      spDefense: 35,
       speed: 35
     },
     height: "0.6",
@@ -43592,8 +43592,8 @@ export const fakemons: Fakemon[] =
       hp: 63,
       attack: 120,
       defense: 85,
-      spAttack: 55,
-      spDefense: 90,
+      spAttack: 90,
+      spDefense: 55,
       speed: 55
     },
     height: "1.1",
@@ -43725,9 +43725,9 @@ export const fakemons: Fakemon[] =
       hp: 40,
       attack: 40,
       defense: 55,
-      spAttack: 55,
-      spDefense: 40,
-      speed: 70
+      spAttack: 40,
+      spDefense: 70,
+      speed: 55
     },
     height: "0.5",
     weight: "21.5",
@@ -43851,9 +43851,9 @@ export const fakemons: Fakemon[] =
       hp: 60,
       attack: 70,
       defense: 105,
-      spAttack: 75,
-      spDefense: 70,
-      speed: 120
+      spAttack: 70,
+      spDefense: 120,
+      speed: 75
     },
     height: "1.5",
     weight: "108.0",
@@ -43989,9 +43989,9 @@ export const fakemons: Fakemon[] =
       hp: 66,
       attack: 41,
       defense: 77,
-      spAttack: 23,
-      spDefense: 61,
-      speed: 87
+      spAttack: 61,
+      spDefense: 87,
+      speed: 23
     },
     height: "1.0",
     weight: "23.8",
@@ -44097,9 +44097,9 @@ export const fakemons: Fakemon[] =
       hp: 86,
       attack: 81,
       defense: 97,
-      spAttack: 43,
-      spDefense: 81,
-      speed: 107
+      spAttack: 81,
+      spDefense: 107,
+      speed: 43
     },
     height: "1.5",
     weight: "60.4",
@@ -44214,9 +44214,9 @@ export const fakemons: Fakemon[] =
       hp: 45,
       attack: 95,
       defense: 50,
-      spAttack: 75,
-      spDefense: 40,
-      speed: 50
+      spAttack: 40,
+      spDefense: 50,
+      speed: 75
     },
     height: "0.7",
     weight: "12.5",
@@ -44325,9 +44325,9 @@ export const fakemons: Fakemon[] =
       hp: 75,
       attack: 125,
       defense: 100,
-      spAttack: 45,
-      spDefense: 70,
-      speed: 80
+      spAttack: 70,
+      spDefense: 80,
+      speed: 45
     },
     height: "1.5",
     weight: "68.2",
@@ -44444,9 +44444,9 @@ export const fakemons: Fakemon[] =
       hp: 20,
       attack: 15,
       defense: 20,
-      spAttack: 80,
-      spDefense: 10,
-      speed: 55
+      spAttack: 10,
+      spDefense: 55,
+      speed: 80
     },
     height: "0.6",
     weight: "7.4",
@@ -44530,9 +44530,9 @@ export const fakemons: Fakemon[] =
       hp: 95,
       attack: 60,
       defense: 79,
-      spAttack: 81,
-      spDefense: 100,
-      speed: 125
+      spAttack: 100,
+      spDefense: 125,
+      speed: 81
     },
     height: "6.2",
     weight: "162.0",
@@ -44763,9 +44763,9 @@ export const fakemons: Fakemon[] =
       hp: 60,
       attack: 90,
       defense: 70,
-      spAttack: 40,
-      spDefense: 60,
-      speed: 120
+      spAttack: 60,
+      spDefense: 120,
+      speed: 40
     },
     height: "1.0",
     weight: "22.0",
@@ -44915,9 +44915,9 @@ export const fakemons: Fakemon[] =
       hp: 44,
       attack: 75,
       defense: 35,
-      spAttack: 45,
-      spDefense: 63,
-      speed: 33
+      spAttack: 63,
+      spDefense: 33,
+      speed: 45
     },
     height: "0.6",
     weight: "2.3",
@@ -45045,9 +45045,9 @@ export const fakemons: Fakemon[] =
       hp: 64,
       attack: 115,
       defense: 65,
-      spAttack: 65,
-      spDefense: 83,
-      speed: 63
+      spAttack: 83,
+      spDefense: 63,
+      speed: 65
     },
     height: "1.1",
     weight: "12.5",
@@ -45178,9 +45178,9 @@ export const fakemons: Fakemon[] =
       hp: 20,
       attack: 40,
       defense: 90,
-      spAttack: 25,
-      spDefense: 30,
-      speed: 90
+      spAttack: 30,
+      spDefense: 90,
+      speed: 25
     },
     height: "0.8",
     weight: "15.0",
@@ -45298,9 +45298,9 @@ export const fakemons: Fakemon[] =
       hp: 40,
       attack: 70,
       defense: 130,
-      spAttack: 25,
-      spDefense: 60,
-      speed: 130
+      spAttack: 60,
+      spDefense: 130,
+      speed: 25
     },
     height: "1.6",
     weight: "30.6",
@@ -45438,9 +45438,9 @@ export const fakemons: Fakemon[] =
       hp: 99,
       attack: 68,
       defense: 83,
-      spAttack: 51,
-      spDefense: 72,
-      speed: 87
+      spAttack: 72,
+      spDefense: 87,
+      speed: 51
     },
     height: "2.0",
     weight: "100.0",
@@ -45577,9 +45577,9 @@ export const fakemons: Fakemon[] =
       hp: 75,
       attack: 50,
       defense: 80,
-      spAttack: 65,
-      spDefense: 95,
-      speed: 90
+      spAttack: 95,
+      spDefense: 90,
+      speed: 65
     },
     height: "0.6",
     weight: "1.0",
@@ -45715,8 +45715,8 @@ export const fakemons: Fakemon[] =
       attack: 130,
       defense: 60,
       spAttack: 75,
-      spDefense: 75,
-      speed: 60
+      spDefense: 60,
+      speed: 75
     },
     height: "1.2",
     weight: "47.0",
@@ -45871,8 +45871,8 @@ export const fakemons: Fakemon[] =
       attack: 23,
       defense: 48,
       spAttack: 23,
-      spDefense: 23,
-      speed: 48
+      spDefense: 48,
+      speed: 23
     },
     height: "0.6",
     weight: "14.0",
@@ -46148,9 +46148,9 @@ export const fakemons: Fakemon[] =
       hp: 70,
       attack: 40,
       defense: 50,
-      spAttack: 25,
-      spDefense: 55,
-      speed: 50
+      spAttack: 55,
+      spDefense: 50,
+      speed: 25
     },
     height: "0.8",
     weight: "39.5",
@@ -46260,9 +46260,9 @@ export const fakemons: Fakemon[] =
       hp: 90,
       attack: 60,
       defense: 70,
-      spAttack: 45,
-      spDefense: 75,
-      speed: 70
+      spAttack: 75,
+      spDefense: 70,
+      speed: 45
     },
     height: "1.1",
     weight: "87.6",
@@ -46366,9 +46366,9 @@ export const fakemons: Fakemon[] =
       hp: 110,
       attack: 80,
       defense: 90,
-      spAttack: 65,
-      spDefense: 95,
-      speed: 90
+      spAttack: 95,
+      spDefense: 90,
+      speed: 65
     },
     height: "1.4",
     weight: "150.6",
@@ -46487,9 +46487,9 @@ export const fakemons: Fakemon[] =
       hp: 35,
       attack: 64,
       defense: 85,
-      spAttack: 32,
-      spDefense: 74,
-      speed: 55
+      spAttack: 74,
+      spDefense: 55,
+      speed: 32
     },
     height: "0.4",
     weight: "52.5",
@@ -46564,9 +46564,9 @@ export const fakemons: Fakemon[] =
       hp: 55,
       attack: 104,
       defense: 105,
-      spAttack: 52,
-      spDefense: 94,
-      speed: 75
+      spAttack: 94,
+      spDefense: 75,
+      speed: 52
     },
     height: "1.7",
     weight: "27.0",
@@ -46662,9 +46662,9 @@ export const fakemons: Fakemon[] =
       hp: 55,
       attack: 84,
       defense: 105,
-      spAttack: 52,
-      spDefense: 114,
-      speed: 75
+      spAttack: 114,
+      spDefense: 75,
+      speed: 52
     },
     height: "1.8",
     weight: "22.6",
@@ -46762,9 +46762,9 @@ export const fakemons: Fakemon[] =
       hp: 100,
       attack: 90,
       defense: 130,
-      spAttack: 55,
-      spDefense: 45,
-      speed: 65
+      spAttack: 45,
+      spDefense: 65,
+      speed: 55
     },
     height: "1.0",
     weight: "23.4",
@@ -46884,9 +46884,9 @@ export const fakemons: Fakemon[] =
       hp: 43,
       attack: 30,
       defense: 55,
-      spAttack: 97,
-      spDefense: 40,
-      speed: 65
+      spAttack: 40,
+      spDefense: 65,
+      speed: 97
     },
     height: "0.6",
     weight: "8.7",
@@ -46984,9 +46984,9 @@ export const fakemons: Fakemon[] =
       hp: 45,
       attack: 75,
       defense: 60,
-      spAttack: 50,
-      spDefense: 40,
-      speed: 30
+      spAttack: 40,
+      spDefense: 30,
+      speed: 50
     },
     height: "0.6",
     weight: "42.1",
@@ -47098,8 +47098,8 @@ export const fakemons: Fakemon[] =
       hp: 65,
       attack: 95,
       defense: 100,
-      spAttack: 50,
-      spDefense: 60,
+      spAttack: 60,
+      spDefense: 50,
       speed: 50
     },
     height: "1.1",
@@ -47211,9 +47211,9 @@ export const fakemons: Fakemon[] =
       hp: 95,
       attack: 135,
       defense: 80,
-      spAttack: 100,
-      spDefense: 110,
-      speed: 80
+      spAttack: 110,
+      spDefense: 80,
+      speed: 100
     },
     height: "1.5",
     weight: "102.6",
@@ -47350,9 +47350,9 @@ export const fakemons: Fakemon[] =
       hp: 40,
       attack: 55,
       defense: 80,
-      spAttack: 30,
-      spDefense: 35,
-      speed: 60
+      spAttack: 35,
+      spDefense: 60,
+      speed: 30
     },
     height: "0.6",
     weight: "95.2",
@@ -47394,9 +47394,9 @@ export const fakemons: Fakemon[] =
       hp: 60,
       attack: 75,
       defense: 100,
-      spAttack: 50,
-      spDefense: 55,
-      speed: 80
+      spAttack: 55,
+      spDefense: 80,
+      speed: 50
     },
     height: "1.2",
     weight: "202.5",
@@ -47530,9 +47530,9 @@ export const fakemons: Fakemon[] =
       hp: 80,
       attack: 135,
       defense: 130,
-      spAttack: 70,
-      spDefense: 95,
-      speed: 90
+      spAttack: 95,
+      spDefense: 90,
+      speed: 70
     },
     height: "1.6",
     weight: "550.0",
@@ -47678,8 +47678,8 @@ export const fakemons: Fakemon[] =
       attack: 100,
       defense: 200,
       spAttack: 50,
-      spDefense: 50,
-      speed: 100
+      spDefense: 100,
+      speed: 50
     },
     height: "1.7",
     weight: "230.0",
@@ -47806,9 +47806,9 @@ export const fakemons: Fakemon[] =
       hp: 80,
       attack: 50,
       defense: 100,
-      spAttack: 50,
-      spDefense: 100,
-      speed: 200
+      spAttack: 100,
+      spDefense: 200,
+      speed: 50
     },
     height: "1.8",
     weight: "175.0",
@@ -47931,9 +47931,9 @@ export const fakemons: Fakemon[] =
       hp: 80,
       attack: 75,
       defense: 150,
-      spAttack: 50,
-      spDefense: 75,
-      speed: 150
+      spAttack: 75,
+      spDefense: 150,
+      speed: 50
     },
     height: "1.9",
     weight: "205.0",
@@ -48066,8 +48066,8 @@ export const fakemons: Fakemon[] =
       attack: 80,
       defense: 90,
       spAttack: 110,
-      spDefense: 110,
-      speed: 130
+      spDefense: 130,
+      speed: 110
     },
     height: "1.4",
     weight: "40.0",
@@ -48224,8 +48224,8 @@ export const fakemons: Fakemon[] =
       hp: 80,
       attack: 90,
       defense: 80,
-      spAttack: 110,
-      spDefense: 130,
+      spAttack: 130,
+      spDefense: 110,
       speed: 110
     },
     height: "2.0",
@@ -48376,9 +48376,9 @@ export const fakemons: Fakemon[] =
       hp: 100,
       attack: 100,
       defense: 90,
-      spAttack: 90,
-      spDefense: 150,
-      speed: 140
+      spAttack: 150,
+      spDefense: 140,
+      speed: 90
     },
     height: "4.5",
     weight: "352.0",
@@ -48487,8 +48487,8 @@ export const fakemons: Fakemon[] =
       hp: 100,
       attack: 150,
       defense: 140,
-      spAttack: 90,
-      spDefense: 100,
+      spAttack: 100,
+      spDefense: 90,
       speed: 90
     },
     height: "3.5",
@@ -48634,9 +48634,9 @@ export const fakemons: Fakemon[] =
       hp: 105,
       attack: 150,
       defense: 90,
-      spAttack: 95,
-      spDefense: 150,
-      speed: 90
+      spAttack: 150,
+      spDefense: 90,
+      speed: 95
     },
     height: "7.0",
     weight: "206.5",
@@ -48930,8 +48930,8 @@ export const fakemons: Fakemon[] =
       attack: 150,
       defense: 50,
       spAttack: 150,
-      spDefense: 150,
-      speed: 50
+      spDefense: 50,
+      speed: 150
     },
     height: "1.7",
     weight: "60.8",
@@ -49081,9 +49081,9 @@ export const fakemons: Fakemon[] =
       hp: 55,
       attack: 68,
       defense: 64,
-      spAttack: 31,
-      spDefense: 45,
-      speed: 55
+      spAttack: 45,
+      spDefense: 55,
+      speed: 31
     },
     height: "0.4",
     weight: "10.2",
@@ -49211,9 +49211,9 @@ export const fakemons: Fakemon[] =
       hp: 75,
       attack: 89,
       defense: 85,
-      spAttack: 36,
-      spDefense: 55,
-      speed: 65
+      spAttack: 55,
+      spDefense: 65,
+      speed: 36
     },
     height: "1.1",
     weight: "97.0",
@@ -49325,9 +49325,9 @@ export const fakemons: Fakemon[] =
       hp: 95,
       attack: 109,
       defense: 105,
-      spAttack: 56,
-      spDefense: 75,
-      speed: 85
+      spAttack: 75,
+      spDefense: 85,
+      speed: 56
     },
     height: "2.2",
     weight: "310.0",
@@ -49461,9 +49461,9 @@ export const fakemons: Fakemon[] =
       hp: 44,
       attack: 58,
       defense: 44,
-      spAttack: 61,
-      spDefense: 58,
-      speed: 44
+      spAttack: 58,
+      spDefense: 44,
+      speed: 61
     },
     height: "0.5",
     weight: "6.2",
@@ -49606,9 +49606,9 @@ export const fakemons: Fakemon[] =
       hp: 64,
       attack: 78,
       defense: 52,
-      spAttack: 81,
-      spDefense: 78,
-      speed: 52
+      spAttack: 78,
+      spDefense: 52,
+      speed: 81
     },
     height: "0.9",
     weight: "22.0",
@@ -49748,9 +49748,9 @@ export const fakemons: Fakemon[] =
       hp: 76,
       attack: 104,
       defense: 71,
-      spAttack: 108,
-      spDefense: 104,
-      speed: 71
+      spAttack: 104,
+      spDefense: 71,
+      speed: 108
     },
     height: "1.2",
     weight: "55.0",
@@ -49908,9 +49908,9 @@ export const fakemons: Fakemon[] =
       hp: 53,
       attack: 51,
       defense: 53,
-      spAttack: 40,
-      spDefense: 61,
-      speed: 56
+      spAttack: 61,
+      spDefense: 56,
+      speed: 40
     },
     height: "0.4",
     weight: "5.2",
@@ -50030,9 +50030,9 @@ export const fakemons: Fakemon[] =
       hp: 64,
       attack: 66,
       defense: 68,
-      spAttack: 50,
-      spDefense: 81,
-      speed: 76
+      spAttack: 81,
+      spDefense: 76,
+      speed: 50
     },
     height: "0.8",
     weight: "23.0",
@@ -50148,9 +50148,9 @@ export const fakemons: Fakemon[] =
       hp: 84,
       attack: 86,
       defense: 88,
-      spAttack: 60,
-      spDefense: 111,
-      speed: 101
+      spAttack: 111,
+      spDefense: 101,
+      speed: 60
     },
     height: "1.7",
     weight: "84.5",
@@ -50299,9 +50299,9 @@ export const fakemons: Fakemon[] =
       hp: 40,
       attack: 55,
       defense: 30,
-      spAttack: 60,
+      spAttack: 30,
       spDefense: 30,
-      speed: 30
+      speed: 60
     },
     height: "0.3",
     weight: "2.0",
@@ -50404,9 +50404,9 @@ export const fakemons: Fakemon[] =
       hp: 55,
       attack: 75,
       defense: 50,
-      spAttack: 80,
+      spAttack: 40,
       spDefense: 40,
-      speed: 40
+      speed: 80
     },
     height: "0.6",
     weight: "15.5",
@@ -50503,9 +50503,9 @@ export const fakemons: Fakemon[] =
       hp: 85,
       attack: 120,
       defense: 70,
-      spAttack: 100,
-      spDefense: 50,
-      speed: 60
+      spAttack: 50,
+      spDefense: 60,
+      speed: 100
     },
     height: "1.2",
     weight: "24.9",
@@ -50608,9 +50608,9 @@ export const fakemons: Fakemon[] =
       hp: 59,
       attack: 45,
       defense: 40,
-      spAttack: 31,
-      spDefense: 35,
-      speed: 40
+      spAttack: 35,
+      spDefense: 40,
+      speed: 31
     },
     height: "0.5",
     weight: "20.0",
@@ -50718,9 +50718,9 @@ export const fakemons: Fakemon[] =
       hp: 79,
       attack: 85,
       defense: 60,
-      spAttack: 71,
-      spDefense: 55,
-      speed: 60
+      spAttack: 55,
+      spDefense: 60,
+      speed: 71
     },
     height: "1.0",
     weight: "31.5",
@@ -50839,8 +50839,8 @@ export const fakemons: Fakemon[] =
       attack: 25,
       defense: 41,
       spAttack: 25,
-      spDefense: 25,
-      speed: 41
+      spDefense: 41,
+      speed: 25
     },
     height: "0.3",
     weight: "2.2",
@@ -50885,9 +50885,9 @@ export const fakemons: Fakemon[] =
       hp: 77,
       attack: 85,
       defense: 51,
-      spAttack: 65,
-      spDefense: 55,
-      speed: 51
+      spAttack: 55,
+      spDefense: 51,
+      speed: 65
     },
     height: "1.0",
     weight: "25.5",
@@ -50995,9 +50995,9 @@ export const fakemons: Fakemon[] =
       hp: 45,
       attack: 65,
       defense: 34,
-      spAttack: 45,
-      spDefense: 40,
-      speed: 34
+      spAttack: 40,
+      spDefense: 34,
+      speed: 45
     },
     height: "0.5",
     weight: "9.5",
@@ -51119,8 +51119,8 @@ export const fakemons: Fakemon[] =
       attack: 85,
       defense: 49,
       spAttack: 60,
-      spDefense: 60,
-      speed: 49
+      spDefense: 49,
+      speed: 60
     },
     height: "0.9",
     weight: "30.5",
@@ -51228,9 +51228,9 @@ export const fakemons: Fakemon[] =
       hp: 80,
       attack: 120,
       defense: 79,
-      spAttack: 70,
-      spDefense: 95,
-      speed: 79
+      spAttack: 95,
+      spDefense: 79,
+      speed: 70
     },
     height: "1.4",
     weight: "42.0",
@@ -51348,9 +51348,9 @@ export const fakemons: Fakemon[] =
       hp: 40,
       attack: 30,
       defense: 35,
-      spAttack: 55,
-      spDefense: 50,
-      speed: 70
+      spAttack: 50,
+      spDefense: 70,
+      speed: 55
     },
     height: "0.2",
     weight: "1.2",
@@ -51447,9 +51447,9 @@ export const fakemons: Fakemon[] =
       hp: 60,
       attack: 70,
       defense: 65,
-      spAttack: 90,
-      spDefense: 125,
-      speed: 105
+      spAttack: 125,
+      spDefense: 105,
+      speed: 90
     },
     height: "0.9",
     weight: "14.5",
@@ -51562,9 +51562,9 @@ export const fakemons: Fakemon[] =
       hp: 67,
       attack: 125,
       defense: 40,
-      spAttack: 58,
+      spAttack: 30,
       spDefense: 30,
-      speed: 30
+      speed: 58
     },
     height: "0.9",
     weight: "31.5",
@@ -51690,9 +51690,9 @@ export const fakemons: Fakemon[] =
       hp: 97,
       attack: 165,
       defense: 60,
-      spAttack: 58,
-      spDefense: 65,
-      speed: 50
+      spAttack: 65,
+      spDefense: 50,
+      speed: 58
     },
     height: "1.6",
     weight: "102.5",
@@ -51827,9 +51827,9 @@ export const fakemons: Fakemon[] =
       hp: 30,
       attack: 42,
       defense: 118,
-      spAttack: 30,
-      spDefense: 42,
-      speed: 88
+      spAttack: 42,
+      spDefense: 88,
+      speed: 30
     },
     height: "0.5",
     weight: "57.0",
@@ -51955,9 +51955,9 @@ export const fakemons: Fakemon[] =
       hp: 60,
       attack: 52,
       defense: 168,
-      spAttack: 30,
-      spDefense: 47,
-      speed: 138
+      spAttack: 47,
+      spDefense: 138,
+      speed: 30
     },
     height: "1.3",
     weight: "149.5",
@@ -52084,9 +52084,9 @@ export const fakemons: Fakemon[] =
       hp: 40,
       attack: 29,
       defense: 45,
-      spAttack: 36,
-      spDefense: 29,
-      speed: 45
+      spAttack: 29,
+      spDefense: 45,
+      speed: 36
     },
     height: "0.2",
     weight: "3.4",
@@ -52130,9 +52130,9 @@ export const fakemons: Fakemon[] =
       hp: 60,
       attack: 59,
       defense: 85,
-      spAttack: 36,
-      spDefense: 79,
-      speed: 105
+      spAttack: 79,
+      spDefense: 105,
+      speed: 36
     },
     height: "0.5",
     weight: "6.5",
@@ -52237,9 +52237,9 @@ export const fakemons: Fakemon[] =
       hp: 70,
       attack: 94,
       defense: 50,
-      spAttack: 66,
-      spDefense: 94,
-      speed: 50
+      spAttack: 94,
+      spDefense: 50,
+      speed: 66
     },
     height: "0.9",
     weight: "23.3",
@@ -52344,9 +52344,9 @@ export const fakemons: Fakemon[] =
       hp: 30,
       attack: 30,
       defense: 42,
-      spAttack: 70,
-      spDefense: 30,
-      speed: 42
+      spAttack: 30,
+      spDefense: 42,
+      speed: 70
     },
     height: "0.3",
     weight: "5.5",
@@ -52395,9 +52395,9 @@ export const fakemons: Fakemon[] =
       hp: 70,
       attack: 80,
       defense: 102,
-      spAttack: 40,
-      spDefense: 80,
-      speed: 102
+      spAttack: 80,
+      spDefense: 102,
+      speed: 40
     },
     height: "1.2",
     weight: "38.5",
@@ -52526,9 +52526,9 @@ export const fakemons: Fakemon[] =
       hp: 60,
       attack: 45,
       defense: 70,
-      spAttack: 95,
-      spDefense: 45,
-      speed: 90
+      spAttack: 45,
+      spDefense: 90,
+      speed: 95
     },
     height: "0.4",
     weight: "3.9",
@@ -52659,9 +52659,9 @@ export const fakemons: Fakemon[] =
       hp: 55,
       attack: 65,
       defense: 35,
-      spAttack: 85,
-      spDefense: 60,
-      speed: 30
+      spAttack: 60,
+      spDefense: 30,
+      speed: 85
     },
     height: "0.7",
     weight: "29.5",
@@ -52781,9 +52781,9 @@ export const fakemons: Fakemon[] =
       hp: 85,
       attack: 105,
       defense: 55,
-      spAttack: 115,
-      spDefense: 85,
-      speed: 50
+      spAttack: 85,
+      spDefense: 50,
+      speed: 115
     },
     height: "1.1",
     weight: "33.5",
@@ -52905,9 +52905,9 @@ export const fakemons: Fakemon[] =
       hp: 45,
       attack: 35,
       defense: 45,
-      spAttack: 35,
-      spDefense: 62,
-      speed: 53
+      spAttack: 62,
+      spDefense: 53,
+      speed: 35
     },
     height: "0.4",
     weight: "3.3",
@@ -53004,9 +53004,9 @@ export const fakemons: Fakemon[] =
       hp: 70,
       attack: 60,
       defense: 70,
-      spAttack: 85,
-      spDefense: 87,
-      speed: 78
+      spAttack: 87,
+      spDefense: 78,
+      speed: 85
     },
     height: "0.5",
     weight: "9.3",
@@ -53099,9 +53099,9 @@ export const fakemons: Fakemon[] =
       hp: 76,
       attack: 48,
       defense: 48,
-      spAttack: 34,
-      spDefense: 57,
-      speed: 62
+      spAttack: 57,
+      spDefense: 62,
+      speed: 34
     },
     height: "0.3",
     weight: "6.3",
@@ -53216,9 +53216,9 @@ export const fakemons: Fakemon[] =
       hp: 111,
       attack: 83,
       defense: 68,
-      spAttack: 39,
-      spDefense: 92,
-      speed: 82
+      spAttack: 92,
+      spDefense: 82,
+      speed: 39
     },
     height: "0.9",
     weight: "29.9",
@@ -53334,9 +53334,9 @@ export const fakemons: Fakemon[] =
       hp: 75,
       attack: 100,
       defense: 66,
-      spAttack: 115,
-      spDefense: 60,
-      speed: 66
+      spAttack: 60,
+      spDefense: 66,
+      speed: 115
     },
     height: "1.2",
     weight: "20.3",
@@ -53478,9 +53478,9 @@ export const fakemons: Fakemon[] =
       hp: 90,
       attack: 50,
       defense: 34,
-      spAttack: 70,
-      spDefense: 60,
-      speed: 44
+      spAttack: 60,
+      spDefense: 44,
+      speed: 70
     },
     height: "0.4",
     weight: "1.2",
@@ -53616,9 +53616,9 @@ export const fakemons: Fakemon[] =
       hp: 150,
       attack: 80,
       defense: 44,
-      spAttack: 80,
-      spDefense: 90,
-      speed: 54
+      spAttack: 90,
+      spDefense: 54,
+      speed: 80
     },
     height: "1.2",
     weight: "15.0",
@@ -53751,9 +53751,9 @@ export const fakemons: Fakemon[] =
       hp: 55,
       attack: 66,
       defense: 44,
-      spAttack: 85,
-      spDefense: 44,
-      speed: 56
+      spAttack: 44,
+      spDefense: 56,
+      speed: 85
     },
     height: "0.4",
     weight: "5.5",
@@ -53888,9 +53888,9 @@ export const fakemons: Fakemon[] =
       hp: 65,
       attack: 76,
       defense: 84,
-      spAttack: 105,
-      spDefense: 54,
-      speed: 96
+      spAttack: 54,
+      spDefense: 96,
+      speed: 105
     },
     height: "1.2",
     weight: "33.3",
@@ -54160,9 +54160,9 @@ export const fakemons: Fakemon[] =
       hp: 100,
       attack: 125,
       defense: 52,
-      spAttack: 71,
-      spDefense: 105,
-      speed: 52
+      spAttack: 105,
+      spDefense: 52,
+      speed: 71
     },
     height: "0.9",
     weight: "27.3",
@@ -54287,9 +54287,9 @@ export const fakemons: Fakemon[] =
       hp: 49,
       attack: 55,
       defense: 42,
-      spAttack: 85,
-      spDefense: 42,
-      speed: 37
+      spAttack: 42,
+      spDefense: 37,
+      speed: 85
     },
     height: "0.5",
     weight: "3.9",
@@ -54399,9 +54399,9 @@ export const fakemons: Fakemon[] =
       hp: 71,
       attack: 82,
       defense: 64,
-      spAttack: 112,
-      spDefense: 64,
-      speed: 59
+      spAttack: 64,
+      spDefense: 59,
+      speed: 112
     },
     height: "1.0",
     weight: "43.8",
@@ -54515,9 +54515,9 @@ export const fakemons: Fakemon[] =
       hp: 45,
       attack: 30,
       defense: 50,
-      spAttack: 45,
-      spDefense: 65,
-      speed: 50
+      spAttack: 65,
+      spDefense: 50,
+      speed: 45
     },
     height: "0.2",
     weight: "0.6",
@@ -54636,9 +54636,9 @@ export const fakemons: Fakemon[] =
       hp: 63,
       attack: 63,
       defense: 47,
-      spAttack: 74,
+      spAttack: 41,
       spDefense: 41,
-      speed: 41
+      speed: 74
     },
     height: "0.4",
     weight: "19.2",
@@ -54775,9 +54775,9 @@ export const fakemons: Fakemon[] =
       hp: 103,
       attack: 93,
       defense: 67,
-      spAttack: 84,
-      spDefense: 71,
-      speed: 61
+      spAttack: 71,
+      spDefense: 61,
+      speed: 84
     },
     height: "1.0",
     weight: "38.0",
@@ -54912,9 +54912,9 @@ export const fakemons: Fakemon[] =
       hp: 57,
       attack: 24,
       defense: 86,
-      spAttack: 23,
-      spDefense: 24,
-      speed: 86
+      spAttack: 24,
+      spDefense: 86,
+      speed: 23
     },
     height: "0.5",
     weight: "60.5",
@@ -55041,9 +55041,9 @@ export const fakemons: Fakemon[] =
       hp: 67,
       attack: 89,
       defense: 116,
-      spAttack: 33,
-      spDefense: 79,
-      speed: 116
+      spAttack: 79,
+      spDefense: 116,
+      speed: 33
     },
     height: "1.3",
     weight: "187.0",
@@ -55186,8 +55186,8 @@ export const fakemons: Fakemon[] =
       attack: 80,
       defense: 95,
       spAttack: 10,
-      spDefense: 10,
-      speed: 45
+      spDefense: 45,
+      speed: 10
     },
     height: "0.5",
     weight: "15.0",
@@ -55305,9 +55305,9 @@ export const fakemons: Fakemon[] =
       hp: 20,
       attack: 25,
       defense: 45,
-      spAttack: 60,
-      spDefense: 70,
-      speed: 90
+      spAttack: 70,
+      spDefense: 90,
+      speed: 60
     },
     height: "0.6",
     weight: "13.0",
@@ -55443,9 +55443,9 @@ export const fakemons: Fakemon[] =
       hp: 100,
       attack: 5,
       defense: 5,
-      spAttack: 30,
-      spDefense: 15,
-      speed: 65
+      spAttack: 15,
+      spDefense: 65,
+      speed: 30
     },
     height: "0.6",
     weight: "24.4",
@@ -55549,9 +55549,9 @@ export const fakemons: Fakemon[] =
       hp: 76,
       attack: 65,
       defense: 45,
-      spAttack: 91,
-      spDefense: 92,
-      speed: 42
+      spAttack: 92,
+      spDefense: 42,
+      speed: 91
     },
     height: "0.5",
     weight: "1.9",
@@ -55654,9 +55654,9 @@ export const fakemons: Fakemon[] =
       hp: 50,
       attack: 92,
       defense: 108,
-      spAttack: 35,
-      spDefense: 92,
-      speed: 108
+      spAttack: 92,
+      spDefense: 108,
+      speed: 35
     },
     height: "1.0",
     weight: "108.0",
@@ -55785,9 +55785,9 @@ export const fakemons: Fakemon[] =
       hp: 58,
       attack: 70,
       defense: 45,
-      spAttack: 42,
-      spDefense: 40,
-      speed: 45
+      spAttack: 40,
+      spDefense: 45,
+      speed: 42
     },
     height: "0.7",
     weight: "20.5",
@@ -55909,9 +55909,9 @@ export const fakemons: Fakemon[] =
       hp: 68,
       attack: 90,
       defense: 65,
-      spAttack: 82,
-      spDefense: 50,
-      speed: 55
+      spAttack: 50,
+      spDefense: 55,
+      speed: 82
     },
     height: "1.4",
     weight: "56.0",
@@ -56029,9 +56029,9 @@ export const fakemons: Fakemon[] =
       hp: 108,
       attack: 130,
       defense: 95,
-      spAttack: 102,
-      spDefense: 80,
-      speed: 85
+      spAttack: 80,
+      spDefense: 85,
+      speed: 102
     },
     height: "1.9",
     weight: "95.0",
@@ -56160,9 +56160,9 @@ export const fakemons: Fakemon[] =
       hp: 135,
       attack: 85,
       defense: 40,
-      spAttack: 5,
-      spDefense: 40,
-      speed: 85
+      spAttack: 40,
+      spDefense: 85,
+      speed: 5
     },
     height: "0.6",
     weight: "105.0",
@@ -56308,9 +56308,9 @@ export const fakemons: Fakemon[] =
       hp: 40,
       attack: 70,
       defense: 40,
-      spAttack: 60,
-      spDefense: 35,
-      speed: 40
+      spAttack: 35,
+      spDefense: 40,
+      speed: 60
     },
     height: "0.7",
     weight: "20.2",
@@ -56450,9 +56450,9 @@ export const fakemons: Fakemon[] =
       hp: 70,
       attack: 110,
       defense: 70,
-      spAttack: 90,
-      spDefense: 115,
-      speed: 70
+      spAttack: 115,
+      spDefense: 70,
+      speed: 90
     },
     height: "1.2",
     weight: "54.0",
@@ -56608,9 +56608,9 @@ export const fakemons: Fakemon[] =
       hp: 68,
       attack: 72,
       defense: 78,
-      spAttack: 32,
-      spDefense: 38,
-      speed: 42
+      spAttack: 38,
+      spDefense: 42,
+      speed: 32
     },
     height: "0.8",
     weight: "49.5",
@@ -56721,9 +56721,9 @@ export const fakemons: Fakemon[] =
       hp: 108,
       attack: 112,
       defense: 118,
-      spAttack: 47,
-      spDefense: 68,
-      speed: 72
+      spAttack: 68,
+      spDefense: 72,
+      speed: 47
     },
     height: "2.0",
     weight: "300.0",
@@ -56836,9 +56836,9 @@ export const fakemons: Fakemon[] =
       hp: 40,
       attack: 50,
       defense: 90,
-      spAttack: 65,
-      spDefense: 30,
-      speed: 55
+      spAttack: 30,
+      spDefense: 55,
+      speed: 65
     },
     height: "0.8",
     weight: "12.0",
@@ -56961,9 +56961,9 @@ export const fakemons: Fakemon[] =
       hp: 70,
       attack: 90,
       defense: 110,
-      spAttack: 95,
-      spDefense: 60,
-      speed: 75
+      spAttack: 60,
+      spDefense: 75,
+      speed: 95
     },
     height: "1.3",
     weight: "61.5",
@@ -57102,9 +57102,9 @@ export const fakemons: Fakemon[] =
       hp: 48,
       attack: 61,
       defense: 40,
-      spAttack: 50,
-      spDefense: 61,
-      speed: 40
+      spAttack: 61,
+      spDefense: 40,
+      speed: 50
     },
     height: "0.7",
     weight: "23.0",
@@ -57253,9 +57253,9 @@ export const fakemons: Fakemon[] =
       hp: 83,
       attack: 106,
       defense: 65,
-      spAttack: 85,
-      spDefense: 86,
-      speed: 65
+      spAttack: 86,
+      spDefense: 65,
+      speed: 85
     },
     height: "1.3",
     weight: "44.4",
@@ -57404,9 +57404,9 @@ export const fakemons: Fakemon[] =
       hp: 74,
       attack: 100,
       defense: 72,
-      spAttack: 46,
-      spDefense: 90,
-      speed: 72
+      spAttack: 90,
+      spDefense: 72,
+      speed: 46
     },
     height: "1.4",
     weight: "27.0",
@@ -57508,9 +57508,9 @@ export const fakemons: Fakemon[] =
       hp: 49,
       attack: 49,
       defense: 56,
-      spAttack: 66,
-      spDefense: 49,
-      speed: 61
+      spAttack: 49,
+      spDefense: 61,
+      speed: 66
     },
     height: "0.4",
     weight: "7.0",
@@ -57624,9 +57624,9 @@ export const fakemons: Fakemon[] =
       hp: 69,
       attack: 69,
       defense: 76,
-      spAttack: 91,
-      spDefense: 69,
-      speed: 86
+      spAttack: 69,
+      spDefense: 86,
+      speed: 91
     },
     height: "1.2",
     weight: "24.0",
@@ -57736,9 +57736,9 @@ export const fakemons: Fakemon[] =
       hp: 45,
       attack: 20,
       defense: 50,
-      spAttack: 50,
-      spDefense: 60,
-      speed: 120
+      spAttack: 60,
+      spDefense: 120,
+      speed: 50
     },
     height: "1.0",
     weight: "65.0",
@@ -57843,9 +57843,9 @@ export const fakemons: Fakemon[] =
       hp: 60,
       attack: 62,
       defense: 50,
-      spAttack: 40,
-      spDefense: 62,
-      speed: 60
+      spAttack: 62,
+      spDefense: 60,
+      speed: 40
     },
     height: "1.0",
     weight: "50.5",
@@ -57958,9 +57958,9 @@ export const fakemons: Fakemon[] =
       hp: 90,
       attack: 92,
       defense: 75,
-      spAttack: 60,
-      spDefense: 92,
-      speed: 85
+      spAttack: 92,
+      spDefense: 85,
+      speed: 60
     },
     height: "2.2",
     weight: "135.5",
@@ -58089,9 +58089,9 @@ export const fakemons: Fakemon[] =
       hp: 70,
       attack: 120,
       defense: 65,
-      spAttack: 125,
-      spDefense: 45,
-      speed: 85
+      spAttack: 45,
+      spDefense: 85,
+      speed: 125
     },
     height: "1.1",
     weight: "34.0",
@@ -58242,9 +58242,9 @@ export const fakemons: Fakemon[] =
       hp: 70,
       attack: 70,
       defense: 115,
-      spAttack: 60,
-      spDefense: 130,
-      speed: 90
+      spAttack: 130,
+      spDefense: 90,
+      speed: 60
     },
     height: "1.2",
     weight: "180.0",
@@ -58364,9 +58364,9 @@ export const fakemons: Fakemon[] =
       hp: 110,
       attack: 85,
       defense: 95,
-      spAttack: 50,
-      spDefense: 80,
-      speed: 95
+      spAttack: 80,
+      spDefense: 95,
+      speed: 50
     },
     height: "1.7",
     weight: "140.0",
@@ -58506,9 +58506,9 @@ export const fakemons: Fakemon[] =
       hp: 115,
       attack: 140,
       defense: 130,
-      spAttack: 40,
+      spAttack: 55,
       spDefense: 55,
-      speed: 55
+      speed: 40
     },
     height: "2.4",
     weight: "282.8",
@@ -58674,8 +58674,8 @@ export const fakemons: Fakemon[] =
       hp: 100,
       attack: 100,
       defense: 125,
-      spAttack: 50,
-      spDefense: 110,
+      spAttack: 110,
+      spDefense: 50,
       speed: 50
     },
     height: "2.0",
@@ -58799,8 +58799,8 @@ export const fakemons: Fakemon[] =
       attack: 123,
       defense: 67,
       spAttack: 95,
-      spDefense: 95,
-      speed: 85
+      spDefense: 85,
+      speed: 95
     },
     height: "1.8",
     weight: "138.6",
@@ -58937,9 +58937,9 @@ export const fakemons: Fakemon[] =
       hp: 75,
       attack: 95,
       defense: 67,
-      spAttack: 83,
-      spDefense: 125,
-      speed: 95
+      spAttack: 125,
+      spDefense: 95,
+      speed: 83
     },
     height: "1.6",
     weight: "68.0",
@@ -59075,9 +59075,9 @@ export const fakemons: Fakemon[] =
       hp: 85,
       attack: 50,
       defense: 95,
-      spAttack: 80,
-      spDefense: 120,
-      speed: 115
+      spAttack: 120,
+      spDefense: 115,
+      speed: 80
     },
     height: "1.5",
     weight: "38.0",
@@ -59241,9 +59241,9 @@ export const fakemons: Fakemon[] =
       hp: 86,
       attack: 76,
       defense: 86,
-      spAttack: 95,
-      spDefense: 116,
-      speed: 56
+      spAttack: 116,
+      spDefense: 56,
+      speed: 95
     },
     height: "1.9",
     weight: "51.5",
@@ -59356,9 +59356,9 @@ export const fakemons: Fakemon[] =
       hp: 65,
       attack: 110,
       defense: 130,
-      spAttack: 95,
-      spDefense: 60,
-      speed: 65
+      spAttack: 60,
+      spDefense: 65,
+      speed: 95
     },
     height: "1.0",
     weight: "25.5",
@@ -59492,9 +59492,9 @@ export const fakemons: Fakemon[] =
       hp: 65,
       attack: 60,
       defense: 110,
-      spAttack: 65,
-      spDefense: 130,
-      speed: 95
+      spAttack: 130,
+      spDefense: 95,
+      speed: 65
     },
     height: "0.8",
     weight: "25.9",
@@ -59625,9 +59625,9 @@ export const fakemons: Fakemon[] =
       hp: 75,
       attack: 95,
       defense: 125,
-      spAttack: 95,
-      spDefense: 45,
-      speed: 75
+      spAttack: 45,
+      spDefense: 75,
+      speed: 95
     },
     height: "2.0",
     weight: "42.5",
@@ -59771,9 +59771,9 @@ export const fakemons: Fakemon[] =
       hp: 110,
       attack: 130,
       defense: 80,
-      spAttack: 80,
-      spDefense: 70,
-      speed: 60
+      spAttack: 70,
+      spDefense: 60,
+      speed: 80
     },
     height: "2.5",
     weight: "291.0",
@@ -59898,9 +59898,9 @@ export const fakemons: Fakemon[] =
       hp: 85,
       attack: 80,
       defense: 70,
-      spAttack: 90,
-      spDefense: 135,
-      speed: 75
+      spAttack: 135,
+      spDefense: 75,
+      speed: 90
     },
     height: "0.9",
     weight: "34.0",
@@ -60021,9 +60021,9 @@ export const fakemons: Fakemon[] =
       hp: 68,
       attack: 125,
       defense: 65,
-      spAttack: 80,
-      spDefense: 65,
-      speed: 115
+      spAttack: 65,
+      spDefense: 115,
+      speed: 80
     },
     height: "1.6",
     weight: "52.0",
@@ -60223,9 +60223,9 @@ export const fakemons: Fakemon[] =
       hp: 60,
       attack: 55,
       defense: 145,
-      spAttack: 40,
-      spDefense: 75,
-      speed: 150
+      spAttack: 75,
+      spDefense: 150,
+      speed: 40
     },
     height: "1.4",
     weight: "340.0",
@@ -60358,9 +60358,9 @@ export const fakemons: Fakemon[] =
       hp: 45,
       attack: 100,
       defense: 135,
-      spAttack: 45,
-      spDefense: 65,
-      speed: 135
+      spAttack: 65,
+      spDefense: 135,
+      speed: 45
     },
     height: "2.2",
     weight: "106.6",
@@ -60507,9 +60507,9 @@ export const fakemons: Fakemon[] =
       hp: 70,
       attack: 80,
       defense: 70,
-      spAttack: 110,
-      spDefense: 80,
-      speed: 70
+      spAttack: 80,
+      spDefense: 70,
+      speed: 110
     },
     height: "1.3",
     weight: "26.6",
@@ -60651,9 +60651,9 @@ export const fakemons: Fakemon[] =
       hp: 50,
       attack: 50,
       defense: 77,
-      spAttack: 91,
-      spDefense: 95,
-      speed: 77
+      spAttack: 95,
+      spDefense: 77,
+      speed: 91
     },
     height: "0.3",
     weight: "0.3",
@@ -60759,9 +60759,9 @@ export const fakemons: Fakemon[] =
       hp: 75,
       attack: 75,
       defense: 130,
-      spAttack: 95,
-      spDefense: 75,
-      speed: 130
+      spAttack: 75,
+      spDefense: 130,
+      speed: 95
     },
     height: "0.3",
     weight: "0.3",
@@ -60909,9 +60909,9 @@ export const fakemons: Fakemon[] =
       hp: 80,
       attack: 105,
       defense: 105,
-      spAttack: 80,
+      spAttack: 105,
       spDefense: 105,
-      speed: 105
+      speed: 80
     },
     height: "0.3",
     weight: "0.3",
@@ -61057,9 +61057,9 @@ export const fakemons: Fakemon[] =
       hp: 75,
       attack: 125,
       defense: 70,
-      spAttack: 115,
-      spDefense: 125,
-      speed: 70
+      spAttack: 125,
+      spDefense: 70,
+      speed: 115
     },
     height: "0.3",
     weight: "0.3",
@@ -61216,9 +61216,9 @@ export const fakemons: Fakemon[] =
       hp: 100,
       attack: 120,
       defense: 120,
-      spAttack: 90,
-      spDefense: 150,
-      speed: 100
+      spAttack: 150,
+      spDefense: 100,
+      speed: 90
     },
     height: "5.4",
     weight: "683.0",
@@ -61350,9 +61350,9 @@ export const fakemons: Fakemon[] =
       hp: 90,
       attack: 120,
       defense: 100,
-      spAttack: 100,
-      spDefense: 150,
-      speed: 120
+      spAttack: 150,
+      spDefense: 120,
+      speed: 100
     },
     height: "4.2",
     weight: "336.0",
@@ -61489,9 +61489,9 @@ export const fakemons: Fakemon[] =
       hp: 91,
       attack: 90,
       defense: 106,
-      spAttack: 77,
-      spDefense: 130,
-      speed: 106
+      spAttack: 130,
+      spDefense: 106,
+      speed: 77
     },
     height: "1.7",
     weight: "430.0",
@@ -61616,9 +61616,9 @@ export const fakemons: Fakemon[] =
       hp: 110,
       attack: 160,
       defense: 110,
-      spAttack: 100,
-      spDefense: 80,
-      speed: 110
+      spAttack: 80,
+      spDefense: 110,
+      speed: 100
     },
     height: "3.7",
     weight: "420.0",
@@ -61741,9 +61741,9 @@ export const fakemons: Fakemon[] =
       hp: 150,
       attack: 100,
       defense: 120,
-      spAttack: 90,
-      spDefense: 100,
-      speed: 120
+      spAttack: 100,
+      spDefense: 120,
+      speed: 90
     },
     height: "4.5",
     weight: "750.0",
@@ -61874,9 +61874,9 @@ export const fakemons: Fakemon[] =
       hp: 120,
       attack: 70,
       defense: 120,
-      spAttack: 85,
-      spDefense: 75,
-      speed: 130
+      spAttack: 75,
+      spDefense: 130,
+      speed: 85
     },
     height: "1.5",
     weight: "85.6",
@@ -62213,9 +62213,9 @@ export const fakemons: Fakemon[] =
       hp: 70,
       attack: 90,
       defense: 90,
-      spAttack: 125,
-      spDefense: 135,
-      speed: 90
+      spAttack: 135,
+      spDefense: 90,
+      speed: 125
     },
     height: "1.5",
     weight: "50.5",
@@ -62792,9 +62792,9 @@ export const fakemons: Fakemon[] =
       hp: 45,
       attack: 45,
       defense: 55,
-      spAttack: 63,
-      spDefense: 45,
-      speed: 55
+      spAttack: 45,
+      spDefense: 55,
+      speed: 63
     },
     height: "0.6",
     weight: "8.1",
@@ -62911,9 +62911,9 @@ export const fakemons: Fakemon[] =
       hp: 60,
       attack: 60,
       defense: 75,
-      spAttack: 83,
-      spDefense: 60,
-      speed: 75
+      spAttack: 60,
+      spDefense: 75,
+      speed: 83
     },
     height: "0.8",
     weight: "16.0",
@@ -63019,9 +63019,9 @@ export const fakemons: Fakemon[] =
       hp: 75,
       attack: 75,
       defense: 95,
-      spAttack: 113,
-      spDefense: 75,
-      speed: 95
+      spAttack: 75,
+      spDefense: 95,
+      speed: 113
     },
     height: "3.3",
     weight: "63.0",
@@ -63262,8 +63262,8 @@ export const fakemons: Fakemon[] =
       hp: 90,
       attack: 93,
       defense: 55,
-      spAttack: 55,
-      spDefense: 70,
+      spAttack: 70,
+      spDefense: 55,
       speed: 55
     },
     height: "1.0",
@@ -63394,8 +63394,8 @@ export const fakemons: Fakemon[] =
       hp: 110,
       attack: 123,
       defense: 65,
-      spAttack: 65,
-      spDefense: 100,
+      spAttack: 100,
+      spDefense: 65,
       speed: 65
     },
     height: "1.6",
@@ -63536,8 +63536,8 @@ export const fakemons: Fakemon[] =
       hp: 55,
       attack: 55,
       defense: 45,
-      spAttack: 45,
-      spDefense: 63,
+      spAttack: 63,
+      spDefense: 45,
       speed: 45
     },
     height: "0.5",
@@ -63655,8 +63655,8 @@ export const fakemons: Fakemon[] =
       hp: 75,
       attack: 75,
       defense: 60,
-      spAttack: 60,
-      spDefense: 83,
+      spAttack: 83,
+      spDefense: 60,
       speed: 60
     },
     height: "0.8",
@@ -63766,8 +63766,8 @@ export const fakemons: Fakemon[] =
       hp: 95,
       attack: 100,
       defense: 85,
-      spAttack: 70,
-      spDefense: 108,
+      spAttack: 108,
+      spDefense: 70,
       speed: 70
     },
     height: "1.5",
@@ -63891,9 +63891,9 @@ export const fakemons: Fakemon[] =
       hp: 45,
       attack: 55,
       defense: 39,
-      spAttack: 42,
-      spDefense: 35,
-      speed: 39
+      spAttack: 35,
+      spDefense: 39,
+      speed: 42
     },
     height: "0.5",
     weight: "11.6",
@@ -63997,9 +63997,9 @@ export const fakemons: Fakemon[] =
       hp: 60,
       attack: 85,
       defense: 69,
-      spAttack: 77,
-      spDefense: 60,
-      speed: 69
+      spAttack: 60,
+      spDefense: 69,
+      speed: 77
     },
     height: "1.1",
     weight: "27.0",
@@ -64120,9 +64120,9 @@ export const fakemons: Fakemon[] =
       hp: 45,
       attack: 60,
       defense: 45,
-      spAttack: 55,
-      spDefense: 25,
-      speed: 45
+      spAttack: 25,
+      spDefense: 45,
+      speed: 55
     },
     height: "0.4",
     weight: "4.1",
@@ -64226,9 +64226,9 @@ export const fakemons: Fakemon[] =
       hp: 65,
       attack: 80,
       defense: 65,
-      spAttack: 60,
-      spDefense: 35,
-      speed: 65
+      spAttack: 35,
+      spDefense: 65,
+      speed: 60
     },
     height: "0.9",
     weight: "14.7",
@@ -64329,9 +64329,9 @@ export const fakemons: Fakemon[] =
       hp: 85,
       attack: 110,
       defense: 90,
-      spAttack: 80,
-      spDefense: 45,
-      speed: 90
+      spAttack: 45,
+      spDefense: 90,
+      speed: 80
     },
     height: "1.2",
     weight: "61.0",
@@ -64440,9 +64440,9 @@ export const fakemons: Fakemon[] =
       hp: 41,
       attack: 50,
       defense: 37,
-      spAttack: 66,
-      spDefense: 50,
-      speed: 37
+      spAttack: 50,
+      spDefense: 37,
+      speed: 66
     },
     height: "0.4",
     weight: "10.1",
@@ -64555,9 +64555,9 @@ export const fakemons: Fakemon[] =
       hp: 64,
       attack: 88,
       defense: 50,
-      spAttack: 106,
-      spDefense: 88,
-      speed: 50
+      spAttack: 88,
+      spDefense: 50,
+      speed: 106
     },
     height: "1.1",
     weight: "37.5",
@@ -64673,9 +64673,9 @@ export const fakemons: Fakemon[] =
       hp: 50,
       attack: 53,
       defense: 48,
-      spAttack: 64,
-      spDefense: 53,
-      speed: 48
+      spAttack: 53,
+      spDefense: 48,
+      speed: 64
     },
     height: "0.6",
     weight: "10.5",
@@ -64792,9 +64792,9 @@ export const fakemons: Fakemon[] =
       hp: 75,
       attack: 98,
       defense: 63,
-      spAttack: 101,
-      spDefense: 98,
-      speed: 63
+      spAttack: 98,
+      spDefense: 63,
+      speed: 101
     },
     height: "1.1",
     weight: "30.5",
@@ -64896,9 +64896,9 @@ export const fakemons: Fakemon[] =
       hp: 50,
       attack: 53,
       defense: 48,
-      spAttack: 64,
-      spDefense: 53,
-      speed: 48
+      spAttack: 53,
+      spDefense: 48,
+      speed: 64
     },
     height: "0.6",
     weight: "11.0",
@@ -65017,9 +65017,9 @@ export const fakemons: Fakemon[] =
       hp: 75,
       attack: 98,
       defense: 63,
-      spAttack: 101,
-      spDefense: 98,
-      speed: 63
+      spAttack: 98,
+      spDefense: 63,
+      speed: 101
     },
     height: "1.0",
     weight: "28.0",
@@ -65122,9 +65122,9 @@ export const fakemons: Fakemon[] =
       hp: 50,
       attack: 53,
       defense: 48,
-      spAttack: 64,
-      spDefense: 53,
-      speed: 48
+      spAttack: 53,
+      spDefense: 48,
+      speed: 64
     },
     height: "0.6",
     weight: "13.5",
@@ -65243,9 +65243,9 @@ export const fakemons: Fakemon[] =
       hp: 75,
       attack: 98,
       defense: 63,
-      spAttack: 101,
-      spDefense: 98,
-      speed: 63
+      spAttack: 98,
+      spDefense: 63,
+      speed: 101
     },
     height: "1.0",
     weight: "29.0",
@@ -65350,9 +65350,9 @@ export const fakemons: Fakemon[] =
       hp: 76,
       attack: 25,
       defense: 45,
-      spAttack: 24,
-      spDefense: 67,
-      speed: 55
+      spAttack: 67,
+      spDefense: 55,
+      speed: 24
     },
     height: "0.6",
     weight: "23.3",
@@ -65465,9 +65465,9 @@ export const fakemons: Fakemon[] =
       hp: 116,
       attack: 55,
       defense: 85,
-      spAttack: 29,
-      spDefense: 107,
-      speed: 95
+      spAttack: 107,
+      spDefense: 95,
+      speed: 29
     },
     height: "1.1",
     weight: "60.5",
@@ -65585,9 +65585,9 @@ export const fakemons: Fakemon[] =
       hp: 50,
       attack: 55,
       defense: 50,
-      spAttack: 43,
-      spDefense: 36,
-      speed: 30
+      spAttack: 36,
+      spDefense: 30,
+      speed: 43
     },
     height: "0.3",
     weight: "2.1",
@@ -65680,9 +65680,9 @@ export const fakemons: Fakemon[] =
       hp: 62,
       attack: 77,
       defense: 62,
-      spAttack: 65,
-      spDefense: 50,
-      speed: 42
+      spAttack: 50,
+      spDefense: 42,
+      speed: 65
     },
     height: "0.6",
     weight: "15.0",
@@ -65771,9 +65771,9 @@ export const fakemons: Fakemon[] =
       hp: 80,
       attack: 115,
       defense: 80,
-      spAttack: 93,
-      spDefense: 65,
-      speed: 55
+      spAttack: 65,
+      spDefense: 55,
+      speed: 93
     },
     height: "1.2",
     weight: "29.0",
@@ -65866,9 +65866,9 @@ export const fakemons: Fakemon[] =
       hp: 45,
       attack: 60,
       defense: 32,
-      spAttack: 76,
-      spDefense: 50,
-      speed: 32
+      spAttack: 50,
+      spDefense: 32,
+      speed: 76
     },
     height: "0.8",
     weight: "29.8",
@@ -65978,9 +65978,9 @@ export const fakemons: Fakemon[] =
       hp: 75,
       attack: 100,
       defense: 63,
-      spAttack: 116,
-      spDefense: 80,
-      speed: 63
+      spAttack: 80,
+      spDefense: 63,
+      speed: 116
     },
     height: "1.6",
     weight: "79.5",
@@ -66090,9 +66090,9 @@ export const fakemons: Fakemon[] =
       hp: 55,
       attack: 75,
       defense: 85,
-      spAttack: 15,
+      spAttack: 25,
       spDefense: 25,
-      speed: 25
+      speed: 15
     },
     height: "0.4",
     weight: "18.0",
@@ -66186,9 +66186,9 @@ export const fakemons: Fakemon[] =
       hp: 70,
       attack: 105,
       defense: 105,
-      spAttack: 20,
-      spDefense: 50,
-      speed: 40
+      spAttack: 50,
+      spDefense: 40,
+      speed: 20
     },
     height: "0.9",
     weight: "102.0",
@@ -66281,9 +66281,9 @@ export const fakemons: Fakemon[] =
       hp: 85,
       attack: 135,
       defense: 130,
-      spAttack: 25,
-      spDefense: 60,
-      speed: 80
+      spAttack: 60,
+      spDefense: 80,
+      speed: 25
     },
     height: "1.7",
     weight: "260.0",
@@ -66386,9 +66386,9 @@ export const fakemons: Fakemon[] =
       hp: 65,
       attack: 45,
       defense: 43,
-      spAttack: 72,
-      spDefense: 55,
-      speed: 43
+      spAttack: 55,
+      spDefense: 43,
+      speed: 72
     },
     height: "0.4",
     weight: "2.1",
@@ -66521,9 +66521,9 @@ export const fakemons: Fakemon[] =
       hp: 67,
       attack: 57,
       defense: 55,
-      spAttack: 114,
-      spDefense: 77,
-      speed: 55
+      spAttack: 77,
+      spDefense: 55,
+      speed: 114
     },
     height: "0.9",
     weight: "10.5",
@@ -66656,9 +66656,9 @@ export const fakemons: Fakemon[] =
       hp: 60,
       attack: 85,
       defense: 40,
-      spAttack: 68,
-      spDefense: 30,
-      speed: 45
+      spAttack: 30,
+      spDefense: 45,
+      speed: 68
     },
     height: "0.3",
     weight: "8.5",
@@ -66763,9 +66763,9 @@ export const fakemons: Fakemon[] =
       hp: 110,
       attack: 135,
       defense: 60,
-      spAttack: 88,
-      spDefense: 50,
-      speed: 65
+      spAttack: 50,
+      spDefense: 65,
+      speed: 88
     },
     height: "0.7",
     weight: "40.4",
@@ -66880,9 +66880,9 @@ export const fakemons: Fakemon[] =
       hp: 103,
       attack: 60,
       defense: 86,
-      spAttack: 50,
-      spDefense: 60,
-      speed: 86
+      spAttack: 60,
+      spDefense: 86,
+      speed: 50
     },
     height: "1.1",
     weight: "31.0",
@@ -67027,8 +67027,8 @@ export const fakemons: Fakemon[] =
       hp: 75,
       attack: 80,
       defense: 55,
-      spAttack: 35,
-      spDefense: 25,
+      spAttack: 25,
+      spDefense: 35,
       speed: 35
     },
     height: "0.6",
@@ -67147,8 +67147,8 @@ export const fakemons: Fakemon[] =
       attack: 105,
       defense: 85,
       spAttack: 40,
-      spDefense: 40,
-      speed: 50
+      spDefense: 50,
+      speed: 40
     },
     height: "1.2",
     weight: "40.0",
@@ -67261,9 +67261,9 @@ export const fakemons: Fakemon[] =
       hp: 105,
       attack: 140,
       defense: 95,
-      spAttack: 45,
-      spDefense: 55,
-      speed: 65
+      spAttack: 55,
+      spDefense: 65,
+      speed: 45
     },
     height: "1.4",
     weight: "87.0",
@@ -67385,9 +67385,9 @@ export const fakemons: Fakemon[] =
       hp: 50,
       attack: 50,
       defense: 40,
-      spAttack: 64,
-      spDefense: 50,
-      speed: 40
+      spAttack: 50,
+      spDefense: 40,
+      speed: 64
     },
     height: "0.5",
     weight: "4.5",
@@ -67481,9 +67481,9 @@ export const fakemons: Fakemon[] =
       hp: 75,
       attack: 65,
       defense: 55,
-      spAttack: 69,
-      spDefense: 65,
-      speed: 55
+      spAttack: 65,
+      spDefense: 55,
+      speed: 69
     },
     height: "0.8",
     weight: "17.0",
@@ -67580,9 +67580,9 @@ export const fakemons: Fakemon[] =
       hp: 105,
       attack: 95,
       defense: 75,
-      spAttack: 74,
-      spDefense: 85,
-      speed: 75
+      spAttack: 85,
+      spDefense: 75,
+      speed: 74
     },
     height: "1.5",
     weight: "62.0",
@@ -67704,9 +67704,9 @@ export const fakemons: Fakemon[] =
       hp: 120,
       attack: 100,
       defense: 85,
-      spAttack: 45,
-      spDefense: 30,
-      speed: 85
+      spAttack: 30,
+      spDefense: 85,
+      speed: 45
     },
     height: "1.3",
     weight: "55.5",
@@ -67818,9 +67818,9 @@ export const fakemons: Fakemon[] =
       hp: 75,
       attack: 125,
       defense: 75,
-      spAttack: 85,
-      spDefense: 30,
-      speed: 75
+      spAttack: 30,
+      spDefense: 75,
+      speed: 85
     },
     height: "1.4",
     weight: "51.0",
@@ -67933,9 +67933,9 @@ export const fakemons: Fakemon[] =
       hp: 45,
       attack: 53,
       defense: 70,
-      spAttack: 42,
-      spDefense: 40,
-      speed: 60
+      spAttack: 40,
+      spDefense: 60,
+      speed: 42
     },
     height: "0.3",
     weight: "2.5",
@@ -68044,9 +68044,9 @@ export const fakemons: Fakemon[] =
       hp: 55,
       attack: 63,
       defense: 90,
-      spAttack: 42,
-      spDefense: 50,
-      speed: 80
+      spAttack: 50,
+      spDefense: 80,
+      speed: 42
     },
     height: "0.5",
     weight: "7.3",
@@ -68144,9 +68144,9 @@ export const fakemons: Fakemon[] =
       hp: 75,
       attack: 103,
       defense: 80,
-      spAttack: 92,
-      spDefense: 70,
-      speed: 80
+      spAttack: 70,
+      spDefense: 80,
+      speed: 92
     },
     height: "1.2",
     weight: "20.5",
@@ -68272,9 +68272,9 @@ export const fakemons: Fakemon[] =
       hp: 30,
       attack: 45,
       defense: 59,
-      spAttack: 57,
-      spDefense: 30,
-      speed: 39
+      spAttack: 30,
+      spDefense: 39,
+      speed: 57
     },
     height: "0.4",
     weight: "5.3",
@@ -68366,9 +68366,9 @@ export const fakemons: Fakemon[] =
       hp: 40,
       attack: 55,
       defense: 99,
-      spAttack: 47,
-      spDefense: 40,
-      speed: 79
+      spAttack: 40,
+      spDefense: 79,
+      speed: 47
     },
     height: "1.2",
     weight: "58.5",
@@ -68460,9 +68460,9 @@ export const fakemons: Fakemon[] =
       hp: 60,
       attack: 100,
       defense: 89,
-      spAttack: 112,
-      spDefense: 55,
-      speed: 69
+      spAttack: 55,
+      spDefense: 69,
+      speed: 112
     },
     height: "2.5",
     weight: "200.5",
@@ -68578,9 +68578,9 @@ export const fakemons: Fakemon[] =
       hp: 40,
       attack: 27,
       defense: 60,
-      spAttack: 66,
-      spDefense: 37,
-      speed: 50
+      spAttack: 37,
+      spDefense: 50,
+      speed: 66
     },
     height: "0.3",
     weight: "0.6",
@@ -68682,9 +68682,9 @@ export const fakemons: Fakemon[] =
       hp: 60,
       attack: 67,
       defense: 85,
-      spAttack: 116,
-      spDefense: 77,
-      speed: 75
+      spAttack: 77,
+      spDefense: 75,
+      speed: 116
     },
     height: "0.7",
     weight: "6.6",
@@ -68797,9 +68797,9 @@ export const fakemons: Fakemon[] =
       hp: 45,
       attack: 35,
       defense: 50,
-      spAttack: 30,
-      spDefense: 70,
-      speed: 50
+      spAttack: 70,
+      spDefense: 50,
+      speed: 30
     },
     height: "0.5",
     weight: "6.6",
@@ -68898,9 +68898,9 @@ export const fakemons: Fakemon[] =
       hp: 70,
       attack: 60,
       defense: 75,
-      spAttack: 90,
-      spDefense: 110,
-      speed: 75
+      spAttack: 110,
+      spDefense: 75,
+      speed: 90
     },
     height: "1.1",
     weight: "16.3",
@@ -69012,9 +69012,9 @@ export const fakemons: Fakemon[] =
       hp: 70,
       attack: 92,
       defense: 65,
-      spAttack: 98,
-      spDefense: 80,
-      speed: 55
+      spAttack: 80,
+      spDefense: 55,
+      speed: 98
     },
     height: "1.0",
     weight: "18.0",
@@ -69125,9 +69125,9 @@ export const fakemons: Fakemon[] =
       hp: 50,
       attack: 72,
       defense: 35,
-      spAttack: 65,
+      spAttack: 35,
       spDefense: 35,
-      speed: 35
+      speed: 65
     },
     height: "0.7",
     weight: "15.2",
@@ -69250,9 +69250,9 @@ export const fakemons: Fakemon[] =
       hp: 60,
       attack: 82,
       defense: 45,
-      spAttack: 74,
+      spAttack: 45,
       spDefense: 45,
-      speed: 45
+      speed: 74
     },
     height: "1.0",
     weight: "33.4",
@@ -69389,9 +69389,9 @@ export const fakemons: Fakemon[] =
       hp: 95,
       attack: 117,
       defense: 80,
-      spAttack: 92,
-      spDefense: 65,
-      speed: 70
+      spAttack: 65,
+      spDefense: 70,
+      speed: 92
     },
     height: "1.5",
     weight: "96.3",
@@ -69542,9 +69542,9 @@ export const fakemons: Fakemon[] =
       hp: 70,
       attack: 90,
       defense: 45,
-      spAttack: 50,
-      spDefense: 15,
-      speed: 45
+      spAttack: 15,
+      spDefense: 45,
+      speed: 50
     },
     height: "0.6",
     weight: "37.5",
@@ -69654,9 +69654,9 @@ export const fakemons: Fakemon[] =
       hp: 105,
       attack: 140,
       defense: 55,
-      spAttack: 95,
-      spDefense: 30,
-      speed: 55
+      spAttack: 30,
+      spDefense: 55,
+      speed: 95
     },
     height: "1.3",
     weight: "92.9",
@@ -69787,9 +69787,9 @@ export const fakemons: Fakemon[] =
       hp: 75,
       attack: 86,
       defense: 67,
-      spAttack: 60,
-      spDefense: 106,
-      speed: 67
+      spAttack: 106,
+      spDefense: 67,
+      speed: 60
     },
     height: "1.0",
     weight: "28.0",
@@ -69896,9 +69896,9 @@ export const fakemons: Fakemon[] =
       hp: 50,
       attack: 65,
       defense: 85,
-      spAttack: 55,
+      spAttack: 35,
       spDefense: 35,
-      speed: 35
+      speed: 55
     },
     height: "0.3",
     weight: "14.5",
@@ -70002,9 +70002,9 @@ export const fakemons: Fakemon[] =
       hp: 70,
       attack: 105,
       defense: 125,
-      spAttack: 45,
-      spDefense: 65,
-      speed: 75
+      spAttack: 65,
+      spDefense: 75,
+      speed: 45
     },
     height: "1.4",
     weight: "200.0",
@@ -70110,9 +70110,9 @@ export const fakemons: Fakemon[] =
       hp: 50,
       attack: 75,
       defense: 70,
-      spAttack: 48,
-      spDefense: 35,
-      speed: 70
+      spAttack: 35,
+      spDefense: 70,
+      speed: 48
     },
     height: "0.6",
     weight: "11.8",
@@ -70257,9 +70257,9 @@ export const fakemons: Fakemon[] =
       hp: 65,
       attack: 90,
       defense: 115,
-      spAttack: 58,
-      spDefense: 45,
-      speed: 115
+      spAttack: 45,
+      spDefense: 115,
+      speed: 58
     },
     height: "1.1",
     weight: "30.0",
@@ -70407,9 +70407,9 @@ export const fakemons: Fakemon[] =
       hp: 72,
       attack: 58,
       defense: 80,
-      spAttack: 97,
-      spDefense: 103,
-      speed: 80
+      spAttack: 103,
+      spDefense: 80,
+      speed: 97
     },
     height: "1.4",
     weight: "14.0",
@@ -70534,9 +70534,9 @@ export const fakemons: Fakemon[] =
       hp: 38,
       attack: 30,
       defense: 85,
-      spAttack: 30,
-      spDefense: 55,
-      speed: 65
+      spAttack: 55,
+      spDefense: 65,
+      speed: 30
     },
     height: "0.5",
     weight: "1.5",
@@ -70643,9 +70643,9 @@ export const fakemons: Fakemon[] =
       hp: 58,
       attack: 50,
       defense: 145,
-      spAttack: 30,
-      spDefense: 95,
-      speed: 105
+      spAttack: 95,
+      spDefense: 105,
+      speed: 30
     },
     height: "1.7",
     weight: "76.5",
@@ -70765,9 +70765,9 @@ export const fakemons: Fakemon[] =
       hp: 54,
       attack: 78,
       defense: 103,
-      spAttack: 22,
-      spDefense: 53,
-      speed: 45
+      spAttack: 53,
+      spDefense: 45,
+      speed: 22
     },
     height: "0.7",
     weight: "16.5",
@@ -70883,9 +70883,9 @@ export const fakemons: Fakemon[] =
       hp: 74,
       attack: 108,
       defense: 133,
-      spAttack: 32,
-      spDefense: 83,
-      speed: 65
+      spAttack: 83,
+      spDefense: 65,
+      speed: 32
     },
     height: "1.2",
     weight: "81.0",
@@ -71003,9 +71003,9 @@ export const fakemons: Fakemon[] =
       hp: 55,
       attack: 112,
       defense: 45,
-      spAttack: 70,
-      spDefense: 74,
-      speed: 45
+      spAttack: 74,
+      spDefense: 45,
+      speed: 70
     },
     height: "0.5",
     weight: "9.5",
@@ -71128,9 +71128,9 @@ export const fakemons: Fakemon[] =
       hp: 75,
       attack: 140,
       defense: 65,
-      spAttack: 110,
-      spDefense: 112,
-      speed: 65
+      spAttack: 112,
+      spDefense: 65,
+      speed: 110
     },
     height: "1.4",
     weight: "32.0",
@@ -71255,9 +71255,9 @@ export const fakemons: Fakemon[] =
       hp: 50,
       attack: 50,
       defense: 62,
-      spAttack: 65,
-      spDefense: 40,
-      speed: 62
+      spAttack: 40,
+      spDefense: 62,
+      speed: 65
     },
     height: "0.6",
     weight: "31.0",
@@ -71356,9 +71356,9 @@ export const fakemons: Fakemon[] =
       hp: 80,
       attack: 95,
       defense: 82,
-      spAttack: 75,
-      spDefense: 60,
-      speed: 82
+      spAttack: 60,
+      spDefense: 82,
+      speed: 75
     },
     height: "1.9",
     weight: "107.3",
@@ -71469,9 +71469,9 @@ export const fakemons: Fakemon[] =
       hp: 40,
       attack: 65,
       defense: 40,
-      spAttack: 65,
-      spDefense: 80,
-      speed: 40
+      spAttack: 80,
+      spDefense: 40,
+      speed: 65
     },
     height: "0.7",
     weight: "12.5",
@@ -71593,9 +71593,9 @@ export const fakemons: Fakemon[] =
       hp: 60,
       attack: 105,
       defense: 60,
-      spAttack: 105,
-      spDefense: 120,
-      speed: 60
+      spAttack: 120,
+      spDefense: 60,
+      speed: 105
     },
     height: "1.6",
     weight: "81.1",
@@ -71730,9 +71730,9 @@ export const fakemons: Fakemon[] =
       hp: 55,
       attack: 50,
       defense: 40,
-      spAttack: 75,
+      spAttack: 40,
       spDefense: 40,
-      speed: 40
+      speed: 75
     },
     height: "0.4",
     weight: "5.8",
@@ -71847,9 +71847,9 @@ export const fakemons: Fakemon[] =
       hp: 75,
       attack: 95,
       defense: 60,
-      spAttack: 115,
-      spDefense: 65,
-      speed: 60
+      spAttack: 65,
+      spDefense: 60,
+      speed: 115
     },
     height: "0.5",
     weight: "7.5",
@@ -71971,9 +71971,9 @@ export const fakemons: Fakemon[] =
       hp: 45,
       attack: 30,
       defense: 50,
-      spAttack: 45,
-      spDefense: 55,
-      speed: 65
+      spAttack: 55,
+      spDefense: 65,
+      speed: 45
     },
     height: "0.4",
     weight: "5.8",
@@ -72099,9 +72099,9 @@ export const fakemons: Fakemon[] =
       hp: 60,
       attack: 45,
       defense: 70,
-      spAttack: 55,
-      spDefense: 75,
-      speed: 85
+      spAttack: 75,
+      spDefense: 85,
+      speed: 55
     },
     height: "0.7",
     weight: "18.0",
@@ -72223,9 +72223,9 @@ export const fakemons: Fakemon[] =
       hp: 70,
       attack: 55,
       defense: 95,
-      spAttack: 65,
-      spDefense: 95,
-      speed: 110
+      spAttack: 95,
+      spDefense: 110,
+      speed: 65
     },
     height: "1.5",
     weight: "44.0",
@@ -72357,9 +72357,9 @@ export const fakemons: Fakemon[] =
       hp: 45,
       attack: 30,
       defense: 40,
-      spAttack: 20,
-      spDefense: 105,
-      speed: 50
+      spAttack: 105,
+      spDefense: 50,
+      speed: 20
     },
     height: "0.3",
     weight: "1.0",
@@ -72484,9 +72484,9 @@ export const fakemons: Fakemon[] =
       hp: 65,
       attack: 40,
       defense: 50,
-      spAttack: 30,
-      spDefense: 125,
-      speed: 60
+      spAttack: 125,
+      spDefense: 60,
+      speed: 30
     },
     height: "0.6",
     weight: "8.0",
@@ -72609,9 +72609,9 @@ export const fakemons: Fakemon[] =
       hp: 110,
       attack: 65,
       defense: 75,
-      spAttack: 30,
-      spDefense: 125,
-      speed: 85
+      spAttack: 125,
+      spDefense: 85,
+      speed: 30
     },
     height: "1.0",
     weight: "20.1",
@@ -72755,9 +72755,9 @@ export const fakemons: Fakemon[] =
       hp: 62,
       attack: 44,
       defense: 50,
-      spAttack: 55,
-      spDefense: 44,
-      speed: 50
+      spAttack: 44,
+      spDefense: 50,
+      speed: 55
     },
     height: "0.5",
     weight: "5.5",
@@ -72863,9 +72863,9 @@ export const fakemons: Fakemon[] =
       hp: 75,
       attack: 87,
       defense: 63,
-      spAttack: 98,
-      spDefense: 87,
-      speed: 63
+      spAttack: 87,
+      spDefense: 63,
+      speed: 98
     },
     height: "1.3",
     weight: "24.2",
@@ -72969,9 +72969,9 @@ export const fakemons: Fakemon[] =
       hp: 36,
       attack: 50,
       defense: 50,
-      spAttack: 44,
-      spDefense: 65,
-      speed: 60
+      spAttack: 65,
+      spDefense: 60,
+      speed: 44
     },
     height: "0.4",
     weight: "5.7",
@@ -73067,9 +73067,9 @@ export const fakemons: Fakemon[] =
       hp: 51,
       attack: 65,
       defense: 65,
-      spAttack: 59,
-      spDefense: 80,
-      speed: 75
+      spAttack: 80,
+      spDefense: 75,
+      speed: 59
     },
     height: "1.1",
     weight: "41.0",
@@ -73160,9 +73160,9 @@ export const fakemons: Fakemon[] =
       hp: 71,
       attack: 95,
       defense: 85,
-      spAttack: 79,
-      spDefense: 110,
-      speed: 95
+      spAttack: 110,
+      spDefense: 95,
+      speed: 79
     },
     height: "1.3",
     weight: "57.5",
@@ -73261,9 +73261,9 @@ export const fakemons: Fakemon[] =
       hp: 60,
       attack: 60,
       defense: 50,
-      spAttack: 75,
-      spDefense: 40,
-      speed: 50
+      spAttack: 40,
+      spDefense: 50,
+      speed: 75
     },
     height: "0.6",
     weight: "19.5",
@@ -73379,9 +73379,9 @@ export const fakemons: Fakemon[] =
       hp: 80,
       attack: 100,
       defense: 70,
-      spAttack: 95,
-      spDefense: 60,
-      speed: 70
+      spAttack: 60,
+      spDefense: 70,
+      speed: 95
     },
     height: "1.9",
     weight: "92.5",
@@ -73501,9 +73501,9 @@ export const fakemons: Fakemon[] =
       hp: 55,
       attack: 75,
       defense: 60,
-      spAttack: 103,
-      spDefense: 75,
-      speed: 60
+      spAttack: 75,
+      spDefense: 60,
+      speed: 103
     },
     height: "0.4",
     weight: "5.0",
@@ -73613,9 +73613,9 @@ export const fakemons: Fakemon[] =
       hp: 50,
       attack: 75,
       defense: 45,
-      spAttack: 60,
-      spDefense: 40,
-      speed: 45
+      spAttack: 40,
+      spDefense: 45,
+      speed: 60
     },
     height: "0.5",
     weight: "5.9",
@@ -73709,9 +73709,9 @@ export const fakemons: Fakemon[] =
       hp: 70,
       attack: 135,
       defense: 105,
-      spAttack: 20,
-      spDefense: 60,
-      speed: 105
+      spAttack: 60,
+      spDefense: 105,
+      speed: 20
     },
     height: "1.0",
     weight: "33.0",
@@ -73823,9 +73823,9 @@ export const fakemons: Fakemon[] =
       hp: 69,
       attack: 55,
       defense: 45,
-      spAttack: 15,
+      spAttack: 55,
       spDefense: 55,
-      speed: 55
+      speed: 15
     },
     height: "0.2",
     weight: "1.0",
@@ -73920,9 +73920,9 @@ export const fakemons: Fakemon[] =
       hp: 114,
       attack: 85,
       defense: 70,
-      spAttack: 30,
-      spDefense: 85,
-      speed: 80
+      spAttack: 85,
+      spDefense: 80,
+      speed: 30
     },
     height: "0.6",
     weight: "10.5",
@@ -74019,9 +74019,9 @@ export const fakemons: Fakemon[] =
       hp: 55,
       attack: 40,
       defense: 50,
-      spAttack: 40,
-      spDefense: 65,
-      speed: 85
+      spAttack: 65,
+      spDefense: 85,
+      speed: 40
     },
     height: "1.2",
     weight: "33.0",
@@ -74132,9 +74132,9 @@ export const fakemons: Fakemon[] =
       hp: 100,
       attack: 60,
       defense: 70,
-      spAttack: 60,
-      spDefense: 85,
-      speed: 105
+      spAttack: 85,
+      spDefense: 105,
+      speed: 60
     },
     height: "2.2",
     weight: "135.0",
@@ -74243,9 +74243,9 @@ export const fakemons: Fakemon[] =
       hp: 165,
       attack: 75,
       defense: 80,
-      spAttack: 65,
-      spDefense: 40,
-      speed: 45
+      spAttack: 40,
+      spDefense: 45,
+      speed: 65
     },
     height: "1.2",
     weight: "31.6",
@@ -74358,9 +74358,9 @@ export const fakemons: Fakemon[] =
       hp: 50,
       attack: 47,
       defense: 50,
-      spAttack: 65,
-      spDefense: 57,
-      speed: 50
+      spAttack: 57,
+      spDefense: 50,
+      speed: 65
     },
     height: "0.1",
     weight: "0.6",
@@ -74471,9 +74471,9 @@ export const fakemons: Fakemon[] =
       hp: 70,
       attack: 77,
       defense: 60,
-      spAttack: 108,
-      spDefense: 97,
-      speed: 60
+      spAttack: 97,
+      spDefense: 60,
+      speed: 108
     },
     height: "0.8",
     weight: "14.3",
@@ -74585,9 +74585,9 @@ export const fakemons: Fakemon[] =
       hp: 44,
       attack: 50,
       defense: 91,
-      spAttack: 10,
-      spDefense: 24,
-      speed: 86
+      spAttack: 24,
+      spDefense: 86,
+      speed: 10
     },
     height: "0.6",
     weight: "18.8",
@@ -74690,9 +74690,9 @@ export const fakemons: Fakemon[] =
       hp: 74,
       attack: 94,
       defense: 131,
-      spAttack: 20,
-      spDefense: 54,
-      speed: 116
+      spAttack: 54,
+      spDefense: 116,
+      speed: 20
     },
     height: "1.0",
     weight: "110.0",
@@ -74807,9 +74807,9 @@ export const fakemons: Fakemon[] =
       hp: 40,
       attack: 55,
       defense: 70,
-      spAttack: 30,
-      spDefense: 45,
-      speed: 60
+      spAttack: 45,
+      spDefense: 60,
+      speed: 30
     },
     height: "0.3",
     weight: "21.0",
@@ -74901,9 +74901,9 @@ export const fakemons: Fakemon[] =
       hp: 60,
       attack: 80,
       defense: 95,
-      spAttack: 50,
-      spDefense: 70,
-      speed: 85
+      spAttack: 70,
+      spDefense: 85,
+      speed: 50
     },
     height: "0.6",
     weight: "51.0",
@@ -74996,9 +74996,9 @@ export const fakemons: Fakemon[] =
       hp: 60,
       attack: 100,
       defense: 115,
-      spAttack: 90,
-      spDefense: 70,
-      speed: 85
+      spAttack: 70,
+      spDefense: 85,
+      speed: 90
     },
     height: "0.6",
     weight: "81.0",
@@ -75098,9 +75098,9 @@ export const fakemons: Fakemon[] =
       hp: 35,
       attack: 55,
       defense: 40,
-      spAttack: 60,
-      spDefense: 45,
-      speed: 40
+      spAttack: 45,
+      spDefense: 40,
+      speed: 60
     },
     height: "0.2",
     weight: "0.3",
@@ -75143,9 +75143,9 @@ export const fakemons: Fakemon[] =
       hp: 65,
       attack: 85,
       defense: 70,
-      spAttack: 40,
-      spDefense: 75,
-      speed: 70
+      spAttack: 75,
+      spDefense: 70,
+      speed: 40
     },
     height: "1.2",
     weight: "22.0",
@@ -75249,9 +75249,9 @@ export const fakemons: Fakemon[] =
       hp: 85,
       attack: 115,
       defense: 80,
-      spAttack: 50,
-      spDefense: 105,
-      speed: 80
+      spAttack: 105,
+      spDefense: 80,
+      speed: 50
     },
     height: "2.1",
     weight: "80.5",
@@ -75384,9 +75384,9 @@ export const fakemons: Fakemon[] =
       hp: 55,
       attack: 55,
       defense: 55,
-      spAttack: 30,
-      spDefense: 85,
-      speed: 55
+      spAttack: 85,
+      spDefense: 55,
+      speed: 30
     },
     height: "0.5",
     weight: "9.0",
@@ -75505,9 +75505,9 @@ export const fakemons: Fakemon[] =
       hp: 75,
       attack: 75,
       defense: 75,
-      spAttack: 40,
-      spDefense: 125,
-      speed: 95
+      spAttack: 125,
+      spDefense: 95,
+      speed: 40
     },
     height: "1.0",
     weight: "34.5",
@@ -75631,9 +75631,9 @@ export const fakemons: Fakemon[] =
       hp: 50,
       attack: 30,
       defense: 55,
-      spAttack: 20,
-      spDefense: 65,
-      speed: 55
+      spAttack: 65,
+      spDefense: 55,
+      speed: 20
     },
     height: "0.3",
     weight: "3.1",
@@ -75749,9 +75749,9 @@ export const fakemons: Fakemon[] =
       hp: 60,
       attack: 40,
       defense: 60,
-      spAttack: 55,
-      spDefense: 95,
-      speed: 60
+      spAttack: 95,
+      spDefense: 60,
+      speed: 55
     },
     height: "0.6",
     weight: "13.0",
@@ -75865,9 +75865,9 @@ export const fakemons: Fakemon[] =
       hp: 60,
       attack: 55,
       defense: 90,
-      spAttack: 80,
-      spDefense: 145,
-      speed: 90
+      spAttack: 145,
+      spDefense: 90,
+      speed: 80
     },
     height: "1.0",
     weight: "34.3",
@@ -75984,9 +75984,9 @@ export const fakemons: Fakemon[] =
       hp: 46,
       attack: 87,
       defense: 60,
-      spAttack: 57,
-      spDefense: 30,
-      speed: 40
+      spAttack: 30,
+      spDefense: 40,
+      speed: 57
     },
     height: "0.6",
     weight: "18.0",
@@ -76114,9 +76114,9 @@ export const fakemons: Fakemon[] =
       hp: 66,
       attack: 117,
       defense: 70,
-      spAttack: 67,
-      spDefense: 40,
-      speed: 50
+      spAttack: 40,
+      spDefense: 50,
+      speed: 67
     },
     height: "1.0",
     weight: "36.0",
@@ -76239,9 +76239,9 @@ export const fakemons: Fakemon[] =
       hp: 76,
       attack: 147,
       defense: 90,
-      spAttack: 97,
-      spDefense: 60,
-      speed: 70
+      spAttack: 60,
+      spDefense: 70,
+      speed: 97
     },
     height: "1.8",
     weight: "105.5",
@@ -76375,8 +76375,8 @@ export const fakemons: Fakemon[] =
       hp: 55,
       attack: 70,
       defense: 40,
-      spAttack: 40,
-      spDefense: 60,
+      spAttack: 60,
+      spDefense: 40,
       speed: 40
     },
     height: "0.5",
@@ -76503,9 +76503,9 @@ export const fakemons: Fakemon[] =
       hp: 95,
       attack: 130,
       defense: 80,
-      spAttack: 50,
-      spDefense: 70,
-      speed: 80
+      spAttack: 70,
+      spDefense: 80,
+      speed: 50
     },
     height: "2.6",
     weight: "260.0",
@@ -76650,9 +76650,9 @@ export const fakemons: Fakemon[] =
       hp: 80,
       attack: 50,
       defense: 50,
-      spAttack: 105,
-      spDefense: 95,
-      speed: 135
+      spAttack: 95,
+      spDefense: 135,
+      speed: 105
     },
     height: "1.1",
     weight: "148.0",
@@ -76759,9 +76759,9 @@ export const fakemons: Fakemon[] =
       hp: 50,
       attack: 40,
       defense: 85,
-      spAttack: 25,
-      spDefense: 40,
-      speed: 65
+      spAttack: 40,
+      spDefense: 65,
+      speed: 25
     },
     height: "0.4",
     weight: "7.7",
@@ -76852,9 +76852,9 @@ export const fakemons: Fakemon[] =
       hp: 80,
       attack: 70,
       defense: 40,
-      spAttack: 145,
-      spDefense: 100,
-      speed: 60
+      spAttack: 100,
+      spDefense: 60,
+      speed: 145
     },
     height: "0.8",
     weight: "25.3",
@@ -76964,9 +76964,9 @@ export const fakemons: Fakemon[] =
       hp: 109,
       attack: 66,
       defense: 84,
-      spAttack: 32,
-      spDefense: 81,
-      speed: 99
+      spAttack: 81,
+      spDefense: 99,
+      speed: 32
     },
     height: "0.7",
     weight: "11.0",
@@ -77079,9 +77079,9 @@ export const fakemons: Fakemon[] =
       hp: 45,
       attack: 85,
       defense: 50,
-      spAttack: 65,
-      spDefense: 55,
-      speed: 50
+      spAttack: 55,
+      spDefense: 50,
+      speed: 65
     },
     height: "0.9",
     weight: "20.0",
@@ -77200,9 +77200,9 @@ export const fakemons: Fakemon[] =
       hp: 65,
       attack: 125,
       defense: 60,
-      spAttack: 105,
-      spDefense: 95,
-      speed: 60
+      spAttack: 95,
+      spDefense: 60,
+      speed: 105
     },
     height: "1.4",
     weight: "35.5",
@@ -77329,9 +77329,9 @@ export const fakemons: Fakemon[] =
       hp: 77,
       attack: 120,
       defense: 90,
-      spAttack: 48,
-      spDefense: 60,
-      speed: 90
+      spAttack: 60,
+      spDefense: 90,
+      speed: 48
     },
     height: "1.6",
     weight: "139.0",
@@ -77462,8 +77462,8 @@ export const fakemons: Fakemon[] =
       attack: 74,
       defense: 50,
       spAttack: 35,
-      spDefense: 35,
-      speed: 50
+      spDefense: 50,
+      speed: 35
     },
     height: "1.0",
     weight: "92.0",
@@ -77597,8 +77597,8 @@ export const fakemons: Fakemon[] =
       attack: 124,
       defense: 80,
       spAttack: 55,
-      spDefense: 55,
-      speed: 80
+      spDefense: 80,
+      speed: 55
     },
     height: "2.8",
     weight: "330.0",
@@ -77749,9 +77749,9 @@ export const fakemons: Fakemon[] =
       hp: 45,
       attack: 85,
       defense: 70,
-      spAttack: 60,
+      spAttack: 40,
       spDefense: 40,
-      speed: 40
+      speed: 60
     },
     height: "0.5",
     weight: "10.2",
@@ -77876,8 +77876,8 @@ export const fakemons: Fakemon[] =
       hp: 65,
       attack: 125,
       defense: 100,
-      spAttack: 70,
-      spDefense: 60,
+      spAttack: 60,
+      spDefense: 70,
       speed: 70
     },
     height: "1.6",
@@ -78006,9 +78006,9 @@ export const fakemons: Fakemon[] =
       hp: 95,
       attack: 110,
       defense: 95,
-      spAttack: 55,
-      spDefense: 40,
-      speed: 95
+      spAttack: 40,
+      spDefense: 95,
+      speed: 55
     },
     height: "1.6",
     weight: "94.5",
@@ -78123,9 +78123,9 @@ export const fakemons: Fakemon[] =
       hp: 70,
       attack: 83,
       defense: 50,
-      spAttack: 60,
-      spDefense: 37,
-      speed: 50
+      spAttack: 37,
+      spDefense: 50,
+      speed: 60
     },
     height: "0.5",
     weight: "10.5",
@@ -78235,9 +78235,9 @@ export const fakemons: Fakemon[] =
       hp: 100,
       attack: 123,
       defense: 75,
-      spAttack: 80,
-      spDefense: 57,
-      speed: 75
+      spAttack: 57,
+      spDefense: 75,
+      speed: 80
     },
     height: "1.5",
     weight: "41.0",
@@ -78354,9 +78354,9 @@ export const fakemons: Fakemon[] =
       hp: 70,
       attack: 55,
       defense: 75,
-      spAttack: 60,
-      spDefense: 45,
-      speed: 65
+      spAttack: 45,
+      spDefense: 65,
+      speed: 60
     },
     height: "0.5",
     weight: "9.0",
@@ -78473,9 +78473,9 @@ export const fakemons: Fakemon[] =
       hp: 110,
       attack: 65,
       defense: 105,
-      spAttack: 80,
-      spDefense: 55,
-      speed: 95
+      spAttack: 55,
+      spDefense: 95,
+      speed: 80
     },
     height: "1.2",
     weight: "39.5",
@@ -78599,9 +78599,9 @@ export const fakemons: Fakemon[] =
       hp: 85,
       attack: 97,
       defense: 66,
-      spAttack: 65,
-      spDefense: 105,
-      speed: 66
+      spAttack: 105,
+      spDefense: 66,
+      speed: 65
     },
     height: "1.4",
     weight: "58.0",
@@ -78720,9 +78720,9 @@ export const fakemons: Fakemon[] =
       hp: 58,
       attack: 109,
       defense: 112,
-      spAttack: 109,
+      spAttack: 48,
       spDefense: 48,
-      speed: 48
+      speed: 109
     },
     height: "0.3",
     weight: "33.0",
@@ -78831,9 +78831,9 @@ export const fakemons: Fakemon[] =
       hp: 52,
       attack: 65,
       defense: 50,
-      spAttack: 38,
-      spDefense: 45,
-      speed: 50
+      spAttack: 45,
+      spDefense: 50,
+      speed: 38
     },
     height: "0.8",
     weight: "17.3",
@@ -78944,9 +78944,9 @@ export const fakemons: Fakemon[] =
       hp: 72,
       attack: 85,
       defense: 70,
-      spAttack: 58,
-      spDefense: 65,
-      speed: 70
+      spAttack: 65,
+      spDefense: 70,
+      speed: 58
     },
     height: "1.4",
     weight: "50.0",
@@ -79059,9 +79059,9 @@ export const fakemons: Fakemon[] =
       hp: 92,
       attack: 105,
       defense: 90,
-      spAttack: 98,
-      spDefense: 125,
-      speed: 90
+      spAttack: 125,
+      spDefense: 90,
+      speed: 98
     },
     height: "1.8",
     weight: "160.0",
@@ -79211,9 +79211,9 @@ export const fakemons: Fakemon[] =
       hp: 55,
       attack: 85,
       defense: 55,
-      spAttack: 60,
-      spDefense: 50,
-      speed: 55
+      spAttack: 50,
+      spDefense: 55,
+      speed: 60
     },
     height: "1.1",
     weight: "28.8",
@@ -79318,9 +79318,9 @@ export const fakemons: Fakemon[] =
       hp: 85,
       attack: 60,
       defense: 65,
-      spAttack: 100,
-      spDefense: 135,
-      speed: 105
+      spAttack: 135,
+      spDefense: 105,
+      speed: 100
     },
     height: "1.6",
     weight: "46.0",
@@ -79444,9 +79444,9 @@ export const fakemons: Fakemon[] =
       hp: 91,
       attack: 90,
       defense: 129,
-      spAttack: 108,
-      spDefense: 90,
-      speed: 72
+      spAttack: 90,
+      spDefense: 72,
+      speed: 108
     },
     height: "2.1",
     weight: "250.0",
@@ -79571,9 +79571,9 @@ export const fakemons: Fakemon[] =
       hp: 91,
       attack: 129,
       defense: 90,
-      spAttack: 108,
-      spDefense: 72,
-      speed: 90
+      spAttack: 72,
+      spDefense: 90,
+      speed: 108
     },
     height: "1.9",
     weight: "260.0",
@@ -79692,9 +79692,9 @@ export const fakemons: Fakemon[] =
       hp: 91,
       attack: 90,
       defense: 72,
-      spAttack: 108,
-      spDefense: 90,
-      speed: 129
+      spAttack: 90,
+      spDefense: 129,
+      speed: 108
     },
     height: "2.0",
     weight: "200.0",
@@ -79819,9 +79819,9 @@ export const fakemons: Fakemon[] =
       hp: 79,
       attack: 115,
       defense: 70,
-      spAttack: 111,
-      spDefense: 125,
-      speed: 80
+      spAttack: 125,
+      spDefense: 80,
+      speed: 111
     },
     height: "1.5",
     weight: "63.0",
@@ -79948,9 +79948,9 @@ export const fakemons: Fakemon[] =
       hp: 79,
       attack: 115,
       defense: 70,
-      spAttack: 111,
-      spDefense: 125,
-      speed: 80
+      spAttack: 125,
+      spDefense: 80,
+      speed: 111
     },
     height: "1.5",
     weight: "61.0",
@@ -80084,9 +80084,9 @@ export const fakemons: Fakemon[] =
       hp: 100,
       attack: 120,
       defense: 100,
-      spAttack: 90,
-      spDefense: 150,
-      speed: 120
+      spAttack: 150,
+      spDefense: 120,
+      speed: 90
     },
     height: "3.2",
     weight: "330.0",
@@ -80219,9 +80219,9 @@ export const fakemons: Fakemon[] =
       hp: 100,
       attack: 150,
       defense: 120,
-      spAttack: 90,
-      spDefense: 120,
-      speed: 100
+      spAttack: 120,
+      spDefense: 100,
+      speed: 90
     },
     height: "2.9",
     weight: "345.0",
@@ -80362,9 +80362,9 @@ export const fakemons: Fakemon[] =
       hp: 89,
       attack: 125,
       defense: 90,
-      spAttack: 101,
-      spDefense: 115,
-      speed: 80
+      spAttack: 115,
+      spDefense: 80,
+      speed: 101
     },
     height: "1.5",
     weight: "68.0",
@@ -80488,9 +80488,9 @@ export const fakemons: Fakemon[] =
       hp: 125,
       attack: 130,
       defense: 90,
-      spAttack: 95,
-      spDefense: 130,
-      speed: 90
+      spAttack: 130,
+      spDefense: 90,
+      speed: 95
     },
     height: "3.0",
     weight: "325.0",
@@ -80618,9 +80618,9 @@ export const fakemons: Fakemon[] =
       hp: 91,
       attack: 72,
       defense: 90,
-      spAttack: 108,
-      spDefense: 129,
-      speed: 90
+      spAttack: 129,
+      spDefense: 90,
+      speed: 108
     },
     height: "1.4",
     weight: "48.5",
@@ -80742,9 +80742,9 @@ export const fakemons: Fakemon[] =
       hp: 100,
       attack: 77,
       defense: 77,
-      spAttack: 90,
+      spAttack: 128,
       spDefense: 128,
-      speed: 128
+      speed: 90
     },
     height: "0.6",
     weight: "6.5",
@@ -80891,9 +80891,9 @@ export const fakemons: Fakemon[] =
       hp: 71,
       attack: 120,
       defense: 95,
-      spAttack: 99,
-      spDefense: 120,
-      speed: 95
+      spAttack: 120,
+      spDefense: 95,
+      speed: 99
     },
     height: "1.5",
     weight: "82.5",
@@ -81012,9 +81012,9 @@ export const fakemons: Fakemon[] =
       hp: 56,
       attack: 61,
       defense: 65,
-      spAttack: 38,
-      spDefense: 48,
-      speed: 45
+      spAttack: 48,
+      spDefense: 45,
+      speed: 38
     },
     height: "0.4",
     weight: "9.0",
@@ -81145,9 +81145,9 @@ export const fakemons: Fakemon[] =
       hp: 61,
       attack: 78,
       defense: 95,
-      spAttack: 57,
-      spDefense: 56,
-      speed: 58
+      spAttack: 56,
+      spDefense: 58,
+      speed: 57
     },
     height: "0.7",
     weight: "29.0",
@@ -81278,9 +81278,9 @@ export const fakemons: Fakemon[] =
       hp: 88,
       attack: 107,
       defense: 122,
-      spAttack: 64,
-      spDefense: 74,
-      speed: 75
+      spAttack: 74,
+      spDefense: 75,
+      speed: 64
     },
     height: "1.6",
     weight: "90.0",
@@ -81434,8 +81434,8 @@ export const fakemons: Fakemon[] =
       hp: 40,
       attack: 45,
       defense: 40,
-      spAttack: 60,
-      spDefense: 62,
+      spAttack: 62,
+      spDefense: 60,
       speed: 60
     },
     height: "0.4",
@@ -81556,9 +81556,9 @@ export const fakemons: Fakemon[] =
       hp: 59,
       attack: 59,
       defense: 58,
-      spAttack: 73,
-      spDefense: 90,
-      speed: 70
+      spAttack: 90,
+      spDefense: 70,
+      speed: 73
     },
     height: "1.0",
     weight: "14.5",
@@ -81685,9 +81685,9 @@ export const fakemons: Fakemon[] =
       hp: 75,
       attack: 69,
       defense: 72,
-      spAttack: 104,
-      spDefense: 114,
-      speed: 100
+      spAttack: 114,
+      spDefense: 100,
+      speed: 104
     },
     height: "1.5",
     weight: "39.0",
@@ -81838,9 +81838,9 @@ export const fakemons: Fakemon[] =
       hp: 41,
       attack: 56,
       defense: 40,
-      spAttack: 71,
-      spDefense: 62,
-      speed: 44
+      spAttack: 62,
+      spDefense: 44,
+      speed: 71
     },
     height: "0.3",
     weight: "7.0",
@@ -81960,9 +81960,9 @@ export const fakemons: Fakemon[] =
       hp: 54,
       attack: 63,
       defense: 52,
-      spAttack: 97,
-      spDefense: 83,
-      speed: 56
+      spAttack: 83,
+      spDefense: 56,
+      speed: 97
     },
     height: "0.6",
     weight: "10.9",
@@ -82077,9 +82077,9 @@ export const fakemons: Fakemon[] =
       hp: 72,
       attack: 95,
       defense: 67,
-      spAttack: 122,
-      spDefense: 103,
-      speed: 71
+      spAttack: 103,
+      spDefense: 71,
+      speed: 122
     },
     height: "1.5",
     weight: "40.0",
@@ -82208,9 +82208,9 @@ export const fakemons: Fakemon[] =
       hp: 38,
       attack: 36,
       defense: 38,
-      spAttack: 57,
-      spDefense: 32,
-      speed: 36
+      spAttack: 32,
+      spDefense: 36,
+      speed: 57
     },
     height: "0.4",
     weight: "5.0",
@@ -82317,9 +82317,9 @@ export const fakemons: Fakemon[] =
       hp: 85,
       attack: 56,
       defense: 77,
-      spAttack: 78,
-      spDefense: 50,
-      speed: 77
+      spAttack: 50,
+      spDefense: 77,
+      speed: 78
     },
     height: "1.0",
     weight: "42.4",
@@ -82449,9 +82449,9 @@ export const fakemons: Fakemon[] =
       hp: 45,
       attack: 50,
       defense: 43,
-      spAttack: 62,
-      spDefense: 40,
-      speed: 38
+      spAttack: 40,
+      spDefense: 38,
+      speed: 62
     },
     height: "0.3",
     weight: "1.7",
@@ -82548,9 +82548,9 @@ export const fakemons: Fakemon[] =
       hp: 62,
       attack: 73,
       defense: 55,
-      spAttack: 84,
-      spDefense: 56,
-      speed: 52
+      spAttack: 56,
+      spDefense: 52,
+      speed: 84
     },
     height: "0.7",
     weight: "16.0",
@@ -82653,9 +82653,9 @@ export const fakemons: Fakemon[] =
       hp: 78,
       attack: 81,
       defense: 71,
-      spAttack: 126,
-      spDefense: 74,
-      speed: 69
+      spAttack: 74,
+      spDefense: 69,
+      speed: 126
     },
     height: "1.2",
     weight: "24.5",
@@ -82765,9 +82765,9 @@ export const fakemons: Fakemon[] =
       hp: 38,
       attack: 35,
       defense: 40,
-      spAttack: 35,
-      spDefense: 27,
-      speed: 25
+      spAttack: 27,
+      spDefense: 25,
+      speed: 35
     },
     height: "0.3",
     weight: "2.5",
@@ -82811,9 +82811,9 @@ export const fakemons: Fakemon[] =
       hp: 45,
       attack: 22,
       defense: 60,
-      spAttack: 29,
-      spDefense: 27,
-      speed: 30
+      spAttack: 27,
+      spDefense: 30,
+      speed: 29
     },
     height: "0.3",
     weight: "8.4",
@@ -82855,9 +82855,9 @@ export const fakemons: Fakemon[] =
       hp: 80,
       attack: 52,
       defense: 50,
-      spAttack: 89,
-      spDefense: 90,
-      speed: 50
+      spAttack: 90,
+      spDefense: 50,
+      speed: 89
     },
     height: "1.2",
     weight: "17.0",
@@ -82961,9 +82961,9 @@ export const fakemons: Fakemon[] =
       hp: 62,
       attack: 50,
       defense: 58,
-      spAttack: 72,
-      spDefense: 73,
-      speed: 54
+      spAttack: 73,
+      spDefense: 54,
+      speed: 72
     },
     height: "0.6",
     weight: "13.5",
@@ -83078,9 +83078,9 @@ export const fakemons: Fakemon[] =
       hp: 86,
       attack: 68,
       defense: 72,
-      spAttack: 106,
-      spDefense: 109,
-      speed: 66
+      spAttack: 109,
+      spDefense: 66,
+      speed: 106
     },
     height: "1.5",
     weight: "81.5",
@@ -83197,9 +83197,9 @@ export const fakemons: Fakemon[] =
       hp: 44,
       attack: 38,
       defense: 39,
-      spAttack: 42,
-      spDefense: 61,
-      speed: 79
+      spAttack: 61,
+      spDefense: 79,
+      speed: 42
     },
     height: "0.1",
     weight: "0.1",
@@ -83308,9 +83308,9 @@ export const fakemons: Fakemon[] =
       hp: 54,
       attack: 45,
       defense: 47,
-      spAttack: 52,
-      spDefense: 75,
-      speed: 98
+      spAttack: 75,
+      spDefense: 98,
+      speed: 52
     },
     height: "0.2",
     weight: "0.9",
@@ -83418,9 +83418,9 @@ export const fakemons: Fakemon[] =
       hp: 78,
       attack: 65,
       defense: 68,
-      spAttack: 75,
-      spDefense: 112,
-      speed: 154
+      spAttack: 112,
+      spDefense: 154,
+      speed: 75
     },
     height: "1.1",
     weight: "10.0",
@@ -83531,9 +83531,9 @@ export const fakemons: Fakemon[] =
       hp: 66,
       attack: 65,
       defense: 48,
-      spAttack: 52,
-      spDefense: 62,
-      speed: 57
+      spAttack: 62,
+      spDefense: 57,
+      speed: 52
     },
     height: "0.9",
     weight: "31.0",
@@ -83644,9 +83644,9 @@ export const fakemons: Fakemon[] =
       hp: 123,
       attack: 100,
       defense: 62,
-      spAttack: 68,
-      spDefense: 97,
-      speed: 81
+      spAttack: 97,
+      spDefense: 81,
+      speed: 68
     },
     height: "1.7",
     weight: "91.0",
@@ -83765,9 +83765,9 @@ export const fakemons: Fakemon[] =
       hp: 67,
       attack: 82,
       defense: 62,
-      spAttack: 43,
-      spDefense: 46,
-      speed: 48
+      spAttack: 46,
+      spDefense: 48,
+      speed: 43
     },
     height: "0.6",
     weight: "8.0",
@@ -83896,9 +83896,9 @@ export const fakemons: Fakemon[] =
       hp: 95,
       attack: 124,
       defense: 78,
-      spAttack: 58,
-      spDefense: 69,
-      speed: 71
+      spAttack: 69,
+      spDefense: 71,
+      speed: 58
     },
     height: "2.1",
     weight: "136.0",
@@ -84049,9 +84049,9 @@ export const fakemons: Fakemon[] =
       hp: 75,
       attack: 80,
       defense: 60,
-      spAttack: 102,
-      spDefense: 65,
-      speed: 90
+      spAttack: 65,
+      spDefense: 90,
+      speed: 102
     },
     height: "1.2",
     weight: "28.0",
@@ -84147,9 +84147,9 @@ export const fakemons: Fakemon[] =
       hp: 62,
       attack: 48,
       defense: 54,
-      spAttack: 68,
-      spDefense: 63,
-      speed: 60
+      spAttack: 63,
+      spDefense: 60,
+      speed: 68
     },
     height: "0.3",
     weight: "3.5",
@@ -84265,9 +84265,9 @@ export const fakemons: Fakemon[] =
       hp: 74,
       attack: 48,
       defense: 76,
-      spAttack: 104,
-      spDefense: 83,
-      speed: 81
+      spAttack: 83,
+      spDefense: 81,
+      speed: 104
     },
     height: "0.6",
     weight: "8.5",
@@ -84404,9 +84404,9 @@ export const fakemons: Fakemon[] =
       hp: 45,
       attack: 80,
       defense: 100,
-      spAttack: 28,
-      spDefense: 35,
-      speed: 37
+      spAttack: 35,
+      spDefense: 37,
+      speed: 28
     },
     height: "0.8",
     weight: "2.0",
@@ -84503,9 +84503,9 @@ export const fakemons: Fakemon[] =
       hp: 59,
       attack: 110,
       defense: 150,
-      spAttack: 35,
-      spDefense: 45,
-      speed: 49
+      spAttack: 45,
+      spDefense: 49,
+      speed: 35
     },
     height: "0.8",
     weight: "4.5",
@@ -84600,9 +84600,9 @@ export const fakemons: Fakemon[] =
       hp: 60,
       attack: 50,
       defense: 140,
-      spAttack: 60,
-      spDefense: 50,
-      speed: 140
+      spAttack: 50,
+      spDefense: 140,
+      speed: 60
     },
     height: "1.7",
     weight: "53.0",
@@ -84704,9 +84704,9 @@ export const fakemons: Fakemon[] =
       hp: 78,
       attack: 52,
       defense: 60,
-      spAttack: 23,
-      spDefense: 63,
-      speed: 65
+      spAttack: 63,
+      spDefense: 65,
+      speed: 23
     },
     height: "0.2",
     weight: "0.5",
@@ -84810,9 +84810,9 @@ export const fakemons: Fakemon[] =
       hp: 101,
       attack: 72,
       defense: 72,
-      spAttack: 29,
-      spDefense: 99,
-      speed: 89
+      spAttack: 99,
+      spDefense: 89,
+      speed: 29
     },
     height: "0.8",
     weight: "15.5",
@@ -84923,9 +84923,9 @@ export const fakemons: Fakemon[] =
       hp: 62,
       attack: 48,
       defense: 66,
-      spAttack: 49,
-      spDefense: 59,
-      speed: 57
+      spAttack: 59,
+      spDefense: 57,
+      speed: 49
     },
     height: "0.4",
     weight: "3.5",
@@ -85024,9 +85024,9 @@ export const fakemons: Fakemon[] =
       hp: 82,
       attack: 80,
       defense: 86,
-      spAttack: 72,
-      spDefense: 85,
-      speed: 75
+      spAttack: 85,
+      spDefense: 75,
+      speed: 72
     },
     height: "0.8",
     weight: "5.0",
@@ -85129,9 +85129,9 @@ export const fakemons: Fakemon[] =
       hp: 53,
       attack: 54,
       defense: 53,
-      spAttack: 45,
-      spDefense: 37,
-      speed: 46
+      spAttack: 37,
+      spDefense: 46,
+      speed: 45
     },
     height: "0.4",
     weight: "3.5",
@@ -85252,9 +85252,9 @@ export const fakemons: Fakemon[] =
       hp: 86,
       attack: 92,
       defense: 88,
-      spAttack: 73,
-      spDefense: 68,
-      speed: 75
+      spAttack: 68,
+      spDefense: 75,
+      speed: 73
     },
     height: "1.5",
     weight: "47.0",
@@ -85384,9 +85384,9 @@ export const fakemons: Fakemon[] =
       hp: 42,
       attack: 52,
       defense: 67,
-      spAttack: 50,
-      spDefense: 39,
-      speed: 56
+      spAttack: 39,
+      spDefense: 56,
+      speed: 50
     },
     height: "0.5",
     weight: "31.0",
@@ -85509,9 +85509,9 @@ export const fakemons: Fakemon[] =
       hp: 72,
       attack: 105,
       defense: 115,
-      spAttack: 68,
-      spDefense: 54,
-      speed: 86
+      spAttack: 54,
+      spDefense: 86,
+      speed: 68
     },
     height: "1.3",
     weight: "96.0",
@@ -85648,9 +85648,9 @@ export const fakemons: Fakemon[] =
       hp: 50,
       attack: 60,
       defense: 60,
-      spAttack: 30,
+      spAttack: 60,
       spDefense: 60,
-      speed: 60
+      speed: 30
     },
     height: "0.5",
     weight: "7.3",
@@ -85762,9 +85762,9 @@ export const fakemons: Fakemon[] =
       hp: 65,
       attack: 75,
       defense: 90,
-      spAttack: 44,
-      spDefense: 97,
-      speed: 123
+      spAttack: 97,
+      spDefense: 123,
+      speed: 44
     },
     height: "1.8",
     weight: "81.5",
@@ -85878,9 +85878,9 @@ export const fakemons: Fakemon[] =
       hp: 50,
       attack: 53,
       defense: 62,
-      spAttack: 44,
-      spDefense: 58,
-      speed: 63
+      spAttack: 58,
+      spDefense: 63,
+      speed: 44
     },
     height: "0.5",
     weight: "8.3",
@@ -85983,9 +85983,9 @@ export const fakemons: Fakemon[] =
       hp: 71,
       attack: 73,
       defense: 88,
-      spAttack: 59,
-      spDefense: 120,
-      speed: 89
+      spAttack: 120,
+      spDefense: 89,
+      speed: 59
     },
     height: "1.3",
     weight: "35.3",
@@ -86098,9 +86098,9 @@ export const fakemons: Fakemon[] =
       hp: 44,
       attack: 38,
       defense: 33,
-      spAttack: 70,
-      spDefense: 61,
-      speed: 43
+      spAttack: 61,
+      spDefense: 43,
+      speed: 70
     },
     height: "0.5",
     weight: "6.0",
@@ -86205,8 +86205,8 @@ export const fakemons: Fakemon[] =
       attack: 55,
       defense: 52,
       spAttack: 109,
-      spDefense: 109,
-      speed: 94
+      spDefense: 94,
+      speed: 109
     },
     height: "1.0",
     weight: "21.0",
@@ -86326,9 +86326,9 @@ export const fakemons: Fakemon[] =
       hp: 58,
       attack: 89,
       defense: 77,
-      spAttack: 48,
+      spAttack: 45,
       spDefense: 45,
-      speed: 45
+      speed: 48
     },
     height: "0.8",
     weight: "26.0",
@@ -86446,9 +86446,9 @@ export const fakemons: Fakemon[] =
       hp: 82,
       attack: 121,
       defense: 119,
-      spAttack: 71,
-      spDefense: 69,
-      speed: 59
+      spAttack: 69,
+      spDefense: 59,
+      speed: 71
     },
     height: "2.5",
     weight: "270.0",
@@ -86570,9 +86570,9 @@ export const fakemons: Fakemon[] =
       hp: 77,
       attack: 59,
       defense: 50,
-      spAttack: 46,
-      spDefense: 67,
-      speed: 63
+      spAttack: 67,
+      spDefense: 63,
+      speed: 46
     },
     height: "1.3",
     weight: "25.2",
@@ -86696,9 +86696,9 @@ export const fakemons: Fakemon[] =
       hp: 123,
       attack: 77,
       defense: 72,
-      spAttack: 58,
-      spDefense: 99,
-      speed: 92
+      spAttack: 99,
+      spDefense: 92,
+      speed: 58
     },
     height: "2.7",
     weight: "225.0",
@@ -86821,9 +86821,9 @@ export const fakemons: Fakemon[] =
       hp: 95,
       attack: 65,
       defense: 65,
-      spAttack: 60,
-      spDefense: 110,
-      speed: 130
+      spAttack: 110,
+      spDefense: 130,
+      speed: 60
     },
     height: "1.0",
     weight: "23.5",
@@ -86953,9 +86953,9 @@ export const fakemons: Fakemon[] =
       hp: 78,
       attack: 92,
       defense: 75,
-      spAttack: 118,
-      spDefense: 74,
-      speed: 63
+      spAttack: 74,
+      spDefense: 63,
+      speed: 118
     },
     height: "0.8",
     weight: "21.5",
@@ -87106,9 +87106,9 @@ export const fakemons: Fakemon[] =
       hp: 67,
       attack: 58,
       defense: 57,
-      spAttack: 101,
-      spDefense: 81,
-      speed: 67
+      spAttack: 81,
+      spDefense: 67,
+      speed: 101
     },
     height: "0.2",
     weight: "2.2",
@@ -87228,8 +87228,8 @@ export const fakemons: Fakemon[] =
       attack: 50,
       defense: 150,
       spAttack: 50,
-      spDefense: 50,
-      speed: 150
+      spDefense: 150,
+      speed: 50
     },
     height: "0.3",
     weight: "5.7",
@@ -87347,9 +87347,9 @@ export const fakemons: Fakemon[] =
       hp: 45,
       attack: 50,
       defense: 35,
-      spAttack: 40,
-      spDefense: 55,
-      speed: 75
+      spAttack: 55,
+      spDefense: 75,
+      speed: 40
     },
     height: "0.3",
     weight: "2.8",
@@ -87437,9 +87437,9 @@ export const fakemons: Fakemon[] =
       hp: 68,
       attack: 75,
       defense: 53,
-      spAttack: 60,
-      spDefense: 83,
-      speed: 113
+      spAttack: 83,
+      spDefense: 113,
+      speed: 60
     },
     height: "0.8",
     weight: "17.5",
@@ -87533,9 +87533,9 @@ export const fakemons: Fakemon[] =
       hp: 90,
       attack: 100,
       defense: 70,
-      spAttack: 80,
-      spDefense: 110,
-      speed: 150
+      spAttack: 110,
+      spDefense: 150,
+      speed: 80
     },
     height: "2.0",
     weight: "150.5",
@@ -87667,9 +87667,9 @@ export const fakemons: Fakemon[] =
       hp: 57,
       attack: 80,
       defense: 91,
-      spAttack: 75,
-      spDefense: 80,
-      speed: 87
+      spAttack: 80,
+      spDefense: 87,
+      speed: 75
     },
     height: "0.2",
     weight: "3.0",
@@ -87776,9 +87776,9 @@ export const fakemons: Fakemon[] =
       hp: 43,
       attack: 70,
       defense: 48,
-      spAttack: 38,
-      spDefense: 50,
-      speed: 60
+      spAttack: 50,
+      spDefense: 60,
+      speed: 38
     },
     height: "0.4",
     weight: "7.0",
@@ -87901,9 +87901,9 @@ export const fakemons: Fakemon[] =
       hp: 85,
       attack: 110,
       defense: 76,
-      spAttack: 56,
-      spDefense: 65,
-      speed: 82
+      spAttack: 65,
+      spDefense: 82,
+      speed: 56
     },
     height: "1.5",
     weight: "71.0",
@@ -88043,9 +88043,9 @@ export const fakemons: Fakemon[] =
       hp: 44,
       attack: 66,
       defense: 70,
-      spAttack: 56,
-      spDefense: 44,
-      speed: 55
+      spAttack: 44,
+      spDefense: 55,
+      speed: 56
     },
     height: "0.3",
     weight: "3.5",
@@ -88164,9 +88164,9 @@ export const fakemons: Fakemon[] =
       hp: 55,
       attack: 85,
       defense: 122,
-      spAttack: 99,
-      spDefense: 58,
-      speed: 75
+      spAttack: 58,
+      spDefense: 75,
+      speed: 99
     },
     height: "0.7",
     weight: "9.5",
@@ -88292,9 +88292,9 @@ export const fakemons: Fakemon[] =
       hp: 55,
       attack: 69,
       defense: 85,
-      spAttack: 28,
-      spDefense: 32,
-      speed: 35
+      spAttack: 32,
+      spDefense: 35,
+      speed: 28
     },
     height: "1.0",
     weight: "99.5",
@@ -88395,9 +88395,9 @@ export const fakemons: Fakemon[] =
       hp: 95,
       attack: 117,
       defense: 184,
-      spAttack: 28,
-      spDefense: 44,
-      speed: 46
+      spAttack: 44,
+      spDefense: 46,
+      speed: 28
     },
     height: "2.0",
     weight: "505.0",
@@ -88514,9 +88514,9 @@ export const fakemons: Fakemon[] =
       hp: 40,
       attack: 30,
       defense: 35,
-      spAttack: 55,
-      spDefense: 45,
-      speed: 40
+      spAttack: 45,
+      spDefense: 40,
+      speed: 55
     },
     height: "0.5",
     weight: "8.0",
@@ -88635,9 +88635,9 @@ export const fakemons: Fakemon[] =
       hp: 85,
       attack: 70,
       defense: 80,
-      spAttack: 123,
-      spDefense: 97,
-      speed: 80
+      spAttack: 97,
+      spDefense: 80,
+      speed: 123
     },
     height: "1.5",
     weight: "85.0",
@@ -88767,9 +88767,9 @@ export const fakemons: Fakemon[] =
       hp: 126,
       attack: 131,
       defense: 95,
-      spAttack: 99,
-      spDefense: 131,
-      speed: 98
+      spAttack: 131,
+      spDefense: 98,
+      speed: 99
     },
     height: "3.0",
     weight: "215.0",
@@ -88883,9 +88883,9 @@ export const fakemons: Fakemon[] =
       hp: 126,
       attack: 131,
       defense: 95,
-      spAttack: 99,
-      spDefense: 131,
-      speed: 98
+      spAttack: 131,
+      spDefense: 98,
+      speed: 99
     },
     height: "5.8",
     weight: "203.0",
@@ -89000,8 +89000,8 @@ export const fakemons: Fakemon[] =
       hp: 108,
       attack: 100,
       defense: 121,
-      spAttack: 95,
-      spDefense: 81,
+      spAttack: 81,
+      spDefense: 95,
       speed: 95
     },
     height: "5.0",
@@ -89116,9 +89116,9 @@ export const fakemons: Fakemon[] =
       hp: 50,
       attack: 100,
       defense: 150,
-      spAttack: 50,
-      spDefense: 100,
-      speed: 150
+      spAttack: 100,
+      spDefense: 150,
+      speed: 50
     },
     height: "0.7",
     weight: "8.8",
@@ -89249,9 +89249,9 @@ export const fakemons: Fakemon[] =
       hp: 80,
       attack: 110,
       defense: 60,
-      spAttack: 70,
-      spDefense: 150,
-      speed: 130
+      spAttack: 150,
+      spDefense: 130,
+      speed: 70
     },
     height: "0.5",
     weight: "9.0",
@@ -89392,9 +89392,9 @@ export const fakemons: Fakemon[] =
       hp: 80,
       attack: 110,
       defense: 120,
-      spAttack: 70,
-      spDefense: 130,
-      speed: 90
+      spAttack: 130,
+      spDefense: 90,
+      speed: 70
     },
     height: "1.7",
     weight: "195.0",
@@ -89524,9 +89524,9 @@ export const fakemons: Fakemon[] =
       hp: 68,
       attack: 55,
       defense: 55,
-      spAttack: 42,
+      spAttack: 50,
       spDefense: 50,
-      speed: 50
+      speed: 42
     },
     height: "0.3",
     weight: "1.5",
@@ -89642,9 +89642,9 @@ export const fakemons: Fakemon[] =
       hp: 78,
       attack: 75,
       defense: 75,
-      spAttack: 52,
+      spAttack: 70,
       spDefense: 70,
-      speed: 70
+      speed: 52
     },
     height: "0.7",
     weight: "16.0",
@@ -89758,9 +89758,9 @@ export const fakemons: Fakemon[] =
       hp: 78,
       attack: 107,
       defense: 75,
-      spAttack: 70,
+      spAttack: 100,
       spDefense: 100,
-      speed: 100
+      speed: 70
     },
     height: "1.6",
     weight: "36.6",
@@ -89898,9 +89898,9 @@ export const fakemons: Fakemon[] =
       hp: 45,
       attack: 65,
       defense: 40,
-      spAttack: 70,
-      spDefense: 60,
-      speed: 40
+      spAttack: 60,
+      spDefense: 40,
+      speed: 70
     },
     height: "0.4",
     weight: "4.3",
@@ -90004,9 +90004,9 @@ export const fakemons: Fakemon[] =
       hp: 65,
       attack: 85,
       defense: 50,
-      spAttack: 90,
-      spDefense: 80,
-      speed: 50
+      spAttack: 80,
+      spDefense: 50,
+      speed: 90
     },
     height: "0.7",
     weight: "25.0",
@@ -90110,9 +90110,9 @@ export const fakemons: Fakemon[] =
       hp: 95,
       attack: 115,
       defense: 90,
-      spAttack: 60,
-      spDefense: 80,
-      speed: 90
+      spAttack: 80,
+      spDefense: 90,
+      speed: 60
     },
     height: "1.8",
     weight: "83.0",
@@ -90259,9 +90259,9 @@ export const fakemons: Fakemon[] =
       hp: 50,
       attack: 54,
       defense: 54,
-      spAttack: 40,
-      spDefense: 66,
-      speed: 56
+      spAttack: 66,
+      spDefense: 56,
+      speed: 40
     },
     height: "0.4",
     weight: "7.5",
@@ -90364,9 +90364,9 @@ export const fakemons: Fakemon[] =
       hp: 60,
       attack: 69,
       defense: 69,
-      spAttack: 50,
-      spDefense: 91,
-      speed: 81
+      spAttack: 91,
+      spDefense: 81,
+      speed: 50
     },
     height: "0.6",
     weight: "17.5",
@@ -90469,9 +90469,9 @@ export const fakemons: Fakemon[] =
       hp: 80,
       attack: 74,
       defense: 74,
-      spAttack: 60,
-      spDefense: 126,
-      speed: 116
+      spAttack: 126,
+      spDefense: 116,
+      speed: 60
     },
     height: "1.8",
     weight: "44.0",
@@ -90596,9 +90596,9 @@ export const fakemons: Fakemon[] =
       hp: 35,
       attack: 75,
       defense: 30,
-      spAttack: 65,
+      spAttack: 30,
       spDefense: 30,
-      speed: 30
+      speed: 65
     },
     height: "0.3",
     weight: "1.2",
@@ -90703,9 +90703,9 @@ export const fakemons: Fakemon[] =
       hp: 55,
       attack: 85,
       defense: 50,
-      spAttack: 75,
-      spDefense: 40,
-      speed: 50
+      spAttack: 40,
+      spDefense: 50,
+      speed: 75
     },
     height: "0.6",
     weight: "14.8",
@@ -90807,9 +90807,9 @@ export const fakemons: Fakemon[] =
       hp: 80,
       attack: 120,
       defense: 75,
-      spAttack: 60,
+      spAttack: 75,
       spDefense: 75,
-      speed: 75
+      speed: 60
     },
     height: "1.1",
     weight: "26.0",
@@ -90922,9 +90922,9 @@ export const fakemons: Fakemon[] =
       hp: 48,
       attack: 70,
       defense: 30,
-      spAttack: 45,
+      spAttack: 30,
       spDefense: 30,
-      speed: 30
+      speed: 45
     },
     height: "0.4",
     weight: "6.0",
@@ -91033,9 +91033,9 @@ export const fakemons: Fakemon[] =
       hp: 88,
       attack: 110,
       defense: 60,
-      spAttack: 45,
-      spDefense: 55,
-      speed: 60
+      spAttack: 55,
+      spDefense: 60,
+      speed: 45
     },
     height: "0.7",
     weight: "14.2",
@@ -91155,9 +91155,9 @@ export const fakemons: Fakemon[] =
       hp: 47,
       attack: 62,
       defense: 45,
-      spAttack: 46,
-      spDefense: 55,
-      speed: 45
+      spAttack: 55,
+      spDefense: 45,
+      speed: 46
     },
     height: "0.4",
     weight: "4.4",
@@ -91249,9 +91249,9 @@ export const fakemons: Fakemon[] =
       hp: 57,
       attack: 82,
       defense: 95,
-      spAttack: 36,
-      spDefense: 55,
-      speed: 75
+      spAttack: 55,
+      spDefense: 75,
+      speed: 36
     },
     height: "0.5",
     weight: "10.5",
@@ -91349,9 +91349,9 @@ export const fakemons: Fakemon[] =
       hp: 77,
       attack: 70,
       defense: 90,
-      spAttack: 43,
-      spDefense: 145,
-      speed: 75
+      spAttack: 145,
+      spDefense: 75,
+      speed: 43
     },
     height: "1.5",
     weight: "45.0",
@@ -91471,9 +91471,9 @@ export const fakemons: Fakemon[] =
       hp: 47,
       attack: 82,
       defense: 57,
-      spAttack: 63,
-      spDefense: 42,
-      speed: 47
+      spAttack: 42,
+      spDefense: 47,
+      speed: 63
     },
     height: "0.6",
     weight: "7.0",
@@ -91587,9 +91587,9 @@ export const fakemons: Fakemon[] =
       hp: 97,
       attack: 132,
       defense: 77,
-      spAttack: 43,
-      spDefense: 62,
-      speed: 67
+      spAttack: 62,
+      spDefense: 67,
+      speed: 43
     },
     height: "1.7",
     weight: "180.0",
@@ -91712,9 +91712,9 @@ export const fakemons: Fakemon[] =
       hp: 75,
       attack: 70,
       defense: 70,
-      spAttack: 93,
-      spDefense: 98,
-      speed: 70
+      spAttack: 98,
+      spDefense: 70,
+      speed: 93
     },
     height: "0.6",
     weight: "3.4",
@@ -91826,9 +91826,9 @@ export const fakemons: Fakemon[] =
       hp: 40,
       attack: 45,
       defense: 40,
-      spAttack: 84,
-      spDefense: 55,
-      speed: 40
+      spAttack: 55,
+      spDefense: 40,
+      speed: 84
     },
     height: "0.1",
     weight: "0.2",
@@ -91942,9 +91942,9 @@ export const fakemons: Fakemon[] =
       hp: 60,
       attack: 55,
       defense: 60,
-      spAttack: 124,
-      spDefense: 95,
-      speed: 70
+      spAttack: 95,
+      spDefense: 70,
+      speed: 124
     },
     height: "0.2",
     weight: "0.5",
@@ -92067,9 +92067,9 @@ export const fakemons: Fakemon[] =
       hp: 45,
       attack: 65,
       defense: 40,
-      spAttack: 60,
-      spDefense: 30,
-      speed: 40
+      spAttack: 30,
+      spDefense: 40,
+      speed: 60
     },
     height: "0.5",
     weight: "9.2",
@@ -92175,9 +92175,9 @@ export const fakemons: Fakemon[] =
       hp: 75,
       attack: 115,
       defense: 65,
-      spAttack: 112,
-      spDefense: 55,
-      speed: 65
+      spAttack: 55,
+      spDefense: 65,
+      speed: 112
     },
     height: "0.8",
     weight: "25.0",
@@ -92296,9 +92296,9 @@ export const fakemons: Fakemon[] =
       hp: 45,
       attack: 20,
       defense: 20,
-      spAttack: 40,
+      spAttack: 25,
       spDefense: 25,
-      speed: 25
+      speed: 40
     },
     height: "0.2",
     weight: "0.3",
@@ -92394,9 +92394,9 @@ export const fakemons: Fakemon[] =
       hp: 50,
       attack: 53,
       defense: 62,
-      spAttack: 45,
-      spDefense: 43,
-      speed: 52
+      spAttack: 43,
+      spDefense: 52,
+      speed: 45
     },
     height: "0.4",
     weight: "8.0",
@@ -92504,9 +92504,9 @@ export const fakemons: Fakemon[] =
       hp: 50,
       attack: 63,
       defense: 152,
-      spAttack: 35,
-      spDefense: 53,
-      speed: 142
+      spAttack: 53,
+      spDefense: 142,
+      speed: 35
     },
     height: "0.7",
     weight: "14.5",
@@ -92619,8 +92619,8 @@ export const fakemons: Fakemon[] =
       attack: 100,
       defense: 70,
       spAttack: 45,
-      spDefense: 45,
-      speed: 55
+      spDefense: 55,
+      speed: 45
     },
     height: "1.0",
     weight: "110.0",
@@ -92720,9 +92720,9 @@ export const fakemons: Fakemon[] =
       hp: 100,
       attack: 125,
       defense: 100,
-      spAttack: 35,
-      spDefense: 55,
-      speed: 85
+      spAttack: 55,
+      spDefense: 85,
+      speed: 35
     },
     height: "2.5",
     weight: "920.0",
@@ -92827,9 +92827,9 @@ export const fakemons: Fakemon[] =
       hp: 38,
       attack: 40,
       defense: 52,
-      spAttack: 27,
-      spDefense: 40,
-      speed: 72
+      spAttack: 40,
+      spDefense: 72,
+      speed: 27
     },
     height: "0.3",
     weight: "4.0",
@@ -92929,9 +92929,9 @@ export const fakemons: Fakemon[] =
       hp: 68,
       attack: 70,
       defense: 92,
-      spAttack: 42,
-      spDefense: 50,
-      speed: 132
+      spAttack: 50,
+      spDefense: 132,
+      speed: 42
     },
     height: "1.8",
     weight: "82.0",
@@ -93036,8 +93036,8 @@ export const fakemons: Fakemon[] =
       hp: 40,
       attack: 55,
       defense: 35,
-      spAttack: 35,
-      spDefense: 50,
+      spAttack: 50,
+      spDefense: 35,
       speed: 35
     },
     height: "0.3",
@@ -93137,9 +93137,9 @@ export const fakemons: Fakemon[] =
       hp: 70,
       attack: 105,
       defense: 90,
-      spAttack: 45,
-      spDefense: 80,
-      speed: 90
+      spAttack: 80,
+      spDefense: 90,
+      speed: 45
     },
     height: "0.9",
     weight: "18.5",
@@ -93253,9 +93253,9 @@ export const fakemons: Fakemon[] =
       hp: 40,
       attack: 35,
       defense: 55,
-      spAttack: 15,
-      spDefense: 65,
-      speed: 75
+      spAttack: 65,
+      spDefense: 75,
+      speed: 15
     },
     height: "0.2",
     weight: "1.5",
@@ -93350,9 +93350,9 @@ export const fakemons: Fakemon[] =
       hp: 60,
       attack: 45,
       defense: 80,
-      spAttack: 30,
-      spDefense: 90,
-      speed: 100
+      spAttack: 90,
+      spDefense: 100,
+      speed: 30
     },
     height: "1.0",
     weight: "11.5",
@@ -93450,9 +93450,9 @@ export const fakemons: Fakemon[] =
       hp: 48,
       attack: 44,
       defense: 40,
-      spAttack: 77,
-      spDefense: 71,
-      speed: 40
+      spAttack: 71,
+      spDefense: 40,
+      speed: 77
     },
     height: "0.6",
     weight: "4.8",
@@ -93570,9 +93570,9 @@ export const fakemons: Fakemon[] =
       hp: 68,
       attack: 64,
       defense: 60,
-      spAttack: 117,
-      spDefense: 111,
-      speed: 60
+      spAttack: 111,
+      spDefense: 60,
+      speed: 117
     },
     height: "1.2",
     weight: "22.2",
@@ -93708,8 +93708,8 @@ export const fakemons: Fakemon[] =
       hp: 70,
       attack: 75,
       defense: 50,
-      spAttack: 50,
-      spDefense: 45,
+      spAttack: 45,
+      spDefense: 50,
       speed: 50
     },
     height: "0.5",
@@ -93813,8 +93813,8 @@ export const fakemons: Fakemon[] =
       hp: 120,
       attack: 125,
       defense: 80,
-      spAttack: 60,
-      spDefense: 55,
+      spAttack: 55,
+      spDefense: 60,
       speed: 60
     },
     height: "2.1",
@@ -93928,9 +93928,9 @@ export const fakemons: Fakemon[] =
       hp: 42,
       attack: 30,
       defense: 38,
-      spAttack: 32,
-      spDefense: 30,
-      speed: 38
+      spAttack: 30,
+      spDefense: 38,
+      speed: 32
     },
     height: "0.3",
     weight: "3.2",
@@ -94024,9 +94024,9 @@ export const fakemons: Fakemon[] =
       hp: 52,
       attack: 40,
       defense: 48,
-      spAttack: 62,
-      spDefense: 40,
-      speed: 48
+      spAttack: 40,
+      spDefense: 48,
+      speed: 62
     },
     height: "0.7",
     weight: "8.2",
@@ -94125,9 +94125,9 @@ export const fakemons: Fakemon[] =
       hp: 72,
       attack: 120,
       defense: 98,
-      spAttack: 72,
-      spDefense: 50,
-      speed: 98
+      spAttack: 50,
+      spDefense: 98,
+      speed: 72
     },
     height: "1.2",
     weight: "21.4",
@@ -94241,9 +94241,9 @@ export const fakemons: Fakemon[] =
       hp: 51,
       attack: 52,
       defense: 90,
-      spAttack: 100,
-      spDefense: 82,
-      speed: 110
+      spAttack: 82,
+      spDefense: 110,
+      speed: 100
     },
     height: "0.1",
     weight: "0.3",
@@ -94370,9 +94370,9 @@ export const fakemons: Fakemon[] =
       hp: 90,
       attack: 60,
       defense: 80,
-      spAttack: 60,
-      spDefense: 90,
-      speed: 110
+      spAttack: 90,
+      spDefense: 110,
+      speed: 60
     },
     height: "1.5",
     weight: "76.0",
@@ -94510,9 +94510,9 @@ export const fakemons: Fakemon[] =
       hp: 100,
       attack: 120,
       defense: 90,
-      spAttack: 80,
-      spDefense: 40,
-      speed: 60
+      spAttack: 40,
+      spDefense: 60,
+      speed: 80
     },
     height: "2.0",
     weight: "82.8",
@@ -94647,9 +94647,9 @@ export const fakemons: Fakemon[] =
       hp: 25,
       attack: 35,
       defense: 40,
-      spAttack: 80,
-      spDefense: 20,
-      speed: 30
+      spAttack: 20,
+      spDefense: 30,
+      speed: 80
     },
     height: "0.5",
     weight: "12.0",
@@ -94724,9 +94724,9 @@ export const fakemons: Fakemon[] =
       hp: 75,
       attack: 125,
       defense: 140,
-      spAttack: 40,
-      spDefense: 60,
-      speed: 90
+      spAttack: 60,
+      spDefense: 90,
+      speed: 40
     },
     height: "2.0",
     weight: "108.0",
@@ -94853,9 +94853,9 @@ export const fakemons: Fakemon[] =
       hp: 55,
       attack: 55,
       defense: 80,
-      spAttack: 15,
-      spDefense: 70,
-      speed: 45
+      spAttack: 70,
+      spDefense: 45,
+      speed: 15
     },
     height: "0.5",
     weight: "70.0",
@@ -94971,9 +94971,9 @@ export const fakemons: Fakemon[] =
       hp: 85,
       attack: 75,
       defense: 110,
-      spAttack: 35,
-      spDefense: 100,
-      speed: 75
+      spAttack: 100,
+      spDefense: 75,
+      speed: 35
     },
     height: "1.3",
     weight: "250.0",
@@ -95089,9 +95089,9 @@ export const fakemons: Fakemon[] =
       hp: 55,
       attack: 60,
       defense: 130,
-      spAttack: 5,
-      spDefense: 30,
-      speed: 130
+      spAttack: 30,
+      spDefense: 130,
+      speed: 5
     },
     height: "0.3",
     weight: "1.2",
@@ -95172,9 +95172,9 @@ export const fakemons: Fakemon[] =
       hp: 95,
       attack: 95,
       defense: 95,
-      spAttack: 59,
+      spAttack: 95,
       spDefense: 95,
-      speed: 95
+      speed: 59
     },
     height: "1.9",
     weight: "120.5",
@@ -95401,8 +95401,8 @@ export const fakemons: Fakemon[] =
       attack: 60,
       defense: 100,
       spAttack: 60,
-      spDefense: 60,
-      speed: 100
+      spDefense: 100,
+      speed: 60
     },
     height: "0.3",
     weight: "40.0",
@@ -95508,9 +95508,9 @@ export const fakemons: Fakemon[] =
       hp: 65,
       attack: 115,
       defense: 65,
-      spAttack: 65,
-      spDefense: 75,
-      speed: 95
+      spAttack: 75,
+      spDefense: 95,
+      speed: 65
     },
     height: "0.4",
     weight: "19.9",
@@ -95623,9 +95623,9 @@ export const fakemons: Fakemon[] =
       hp: 60,
       attack: 78,
       defense: 135,
-      spAttack: 36,
-      spDefense: 91,
-      speed: 85
+      spAttack: 91,
+      spDefense: 85,
+      speed: 36
     },
     height: "2.0",
     weight: "212.0",
@@ -95750,9 +95750,9 @@ export const fakemons: Fakemon[] =
       hp: 65,
       attack: 98,
       defense: 63,
-      spAttack: 96,
-      spDefense: 40,
-      speed: 73
+      spAttack: 40,
+      spDefense: 73,
+      speed: 96
     },
     height: "0.3",
     weight: "3.3",
@@ -95870,9 +95870,9 @@ export const fakemons: Fakemon[] =
       hp: 55,
       attack: 90,
       defense: 80,
-      spAttack: 96,
-      spDefense: 50,
-      speed: 105
+      spAttack: 50,
+      spDefense: 105,
+      speed: 96
     },
     height: "0.2",
     weight: "0.7",
@@ -95998,9 +95998,9 @@ export const fakemons: Fakemon[] =
       hp: 68,
       attack: 105,
       defense: 70,
-      spAttack: 92,
+      spAttack: 70,
       spDefense: 70,
-      speed: 70
+      speed: 92
     },
     height: "0.9",
     weight: "19.0",
@@ -96122,9 +96122,9 @@ export const fakemons: Fakemon[] =
       hp: 78,
       attack: 60,
       defense: 85,
-      spAttack: 36,
-      spDefense: 135,
-      speed: 91
+      spAttack: 135,
+      spDefense: 91,
+      speed: 36
     },
     height: "3.0",
     weight: "185.0",
@@ -96255,9 +96255,9 @@ export const fakemons: Fakemon[] =
       hp: 70,
       attack: 131,
       defense: 100,
-      spAttack: 40,
-      spDefense: 86,
-      speed: 90
+      spAttack: 86,
+      spDefense: 90,
+      speed: 40
     },
     height: "3.9",
     weight: "210.0",
@@ -96488,8 +96488,8 @@ export const fakemons: Fakemon[] =
       attack: 75,
       defense: 90,
       spAttack: 65,
-      spDefense: 65,
-      speed: 70
+      spDefense: 70,
+      speed: 65
     },
     height: "1.2",
     weight: "47.0",
@@ -96611,9 +96611,9 @@ export const fakemons: Fakemon[] =
       hp: 75,
       attack: 110,
       defense: 125,
-      spAttack: 85,
-      spDefense: 100,
-      speed: 105
+      spAttack: 100,
+      spDefense: 105,
+      speed: 85
     },
     height: "1.6",
     weight: "78.2",
@@ -96761,9 +96761,9 @@ export const fakemons: Fakemon[] =
       hp: 70,
       attack: 115,
       defense: 85,
-      spAttack: 130,
-      spDefense: 95,
-      speed: 75
+      spAttack: 95,
+      spDefense: 75,
+      speed: 130
     },
     height: "1.8",
     weight: "20.5",
@@ -96881,9 +96881,9 @@ export const fakemons: Fakemon[] =
       hp: 70,
       attack: 85,
       defense: 75,
-      spAttack: 95,
-      spDefense: 130,
-      speed: 115
+      spAttack: 130,
+      spDefense: 115,
+      speed: 95
     },
     height: "1.2",
     weight: "18.6",
@@ -96994,9 +96994,9 @@ export const fakemons: Fakemon[] =
       hp: 70,
       attack: 130,
       defense: 115,
-      spAttack: 75,
-      spDefense: 85,
-      speed: 95
+      spAttack: 85,
+      spDefense: 95,
+      speed: 75
     },
     height: "1.9",
     weight: "45.5",
@@ -97117,9 +97117,9 @@ export const fakemons: Fakemon[] =
       hp: 70,
       attack: 75,
       defense: 115,
-      spAttack: 85,
-      spDefense: 95,
-      speed: 130
+      spAttack: 95,
+      spDefense: 130,
+      speed: 85
     },
     height: "1.3",
     weight: "21.2",
@@ -97232,9 +97232,9 @@ export const fakemons: Fakemon[] =
       hp: 43,
       attack: 29,
       defense: 31,
-      spAttack: 37,
-      spDefense: 29,
-      speed: 31
+      spAttack: 29,
+      spDefense: 31,
+      speed: 37
     },
     height: "0.2",
     weight: "0.1",
@@ -97270,9 +97270,9 @@ export const fakemons: Fakemon[] =
       hp: 43,
       attack: 29,
       defense: 131,
-      spAttack: 37,
-      spDefense: 29,
-      speed: 131
+      spAttack: 29,
+      spDefense: 131,
+      speed: 37
     },
     height: "0.1",
     weight: "999.9",
@@ -97309,9 +97309,9 @@ export const fakemons: Fakemon[] =
       hp: 137,
       attack: 137,
       defense: 107,
-      spAttack: 97,
-      spDefense: 113,
-      speed: 89
+      spAttack: 113,
+      spDefense: 89,
+      speed: 97
     },
     height: "3.4",
     weight: "230.0",
@@ -97443,9 +97443,9 @@ export const fakemons: Fakemon[] =
       hp: 137,
       attack: 113,
       defense: 89,
-      spAttack: 97,
-      spDefense: 137,
-      speed: 107
+      spAttack: 137,
+      spDefense: 107,
+      speed: 97
     },
     height: "4.0",
     weight: "120.0",
@@ -97572,9 +97572,9 @@ export const fakemons: Fakemon[] =
       hp: 109,
       attack: 53,
       defense: 47,
-      spAttack: 103,
-      spDefense: 127,
-      speed: 131
+      spAttack: 127,
+      spDefense: 131,
+      speed: 103
     },
     height: "1.2",
     weight: "55.5",
@@ -97686,9 +97686,9 @@ export const fakemons: Fakemon[] =
       hp: 107,
       attack: 139,
       defense: 139,
-      spAttack: 79,
+      spAttack: 53,
       spDefense: 53,
-      speed: 53
+      speed: 79
     },
     height: "2.4",
     weight: "333.6",
@@ -97797,9 +97797,9 @@ export const fakemons: Fakemon[] =
       hp: 71,
       attack: 137,
       defense: 37,
-      spAttack: 151,
-      spDefense: 137,
-      speed: 37
+      spAttack: 137,
+      spDefense: 37,
+      speed: 151
     },
     height: "1.8",
     weight: "25.0",
@@ -97904,9 +97904,9 @@ export const fakemons: Fakemon[] =
       hp: 83,
       attack: 89,
       defense: 71,
-      spAttack: 83,
-      spDefense: 173,
-      speed: 71
+      spAttack: 173,
+      spDefense: 71,
+      speed: 83
     },
     height: "3.8",
     weight: "100.0",
@@ -98007,9 +98007,9 @@ export const fakemons: Fakemon[] =
       hp: 97,
       attack: 101,
       defense: 103,
-      spAttack: 61,
-      spDefense: 107,
-      speed: 101
+      spAttack: 107,
+      spDefense: 101,
+      speed: 61
     },
     height: "9.2",
     weight: "999.9",
@@ -98116,9 +98116,9 @@ export const fakemons: Fakemon[] =
       hp: 59,
       attack: 181,
       defense: 131,
-      spAttack: 109,
-      spDefense: 59,
-      speed: 31
+      spAttack: 59,
+      spDefense: 31,
+      speed: 109
     },
     height: "0.3",
     weight: "0.1",
@@ -98207,9 +98207,9 @@ export const fakemons: Fakemon[] =
       hp: 223,
       attack: 101,
       defense: 53,
-      spAttack: 43,
-      spDefense: 97,
-      speed: 53
+      spAttack: 97,
+      spDefense: 53,
+      speed: 43
     },
     height: "5.5",
     weight: "888.0",
@@ -98326,9 +98326,9 @@ export const fakemons: Fakemon[] =
       hp: 97,
       attack: 107,
       defense: 101,
-      spAttack: 79,
-      spDefense: 127,
-      speed: 89
+      spAttack: 127,
+      spDefense: 89,
+      speed: 79
     },
     height: "2.4",
     weight: "230.0",
@@ -98458,9 +98458,9 @@ export const fakemons: Fakemon[] =
       hp: 80,
       attack: 95,
       defense: 115,
-      spAttack: 65,
-      spDefense: 130,
-      speed: 115
+      spAttack: 130,
+      spDefense: 115,
+      speed: 65
     },
     height: "1.0",
     weight: "80.5",
@@ -98602,9 +98602,9 @@ export const fakemons: Fakemon[] =
       hp: 90,
       attack: 125,
       defense: 80,
-      spAttack: 125,
+      spAttack: 90,
       spDefense: 90,
-      speed: 90
+      speed: 125
     },
     height: "0.7",
     weight: "22.2",
@@ -98732,8 +98732,8 @@ export const fakemons: Fakemon[] =
       attack: 73,
       defense: 67,
       spAttack: 73,
-      spDefense: 73,
-      speed: 67
+      spDefense: 67,
+      speed: 73
     },
     height: "0.6",
     weight: "1.8",
@@ -98816,9 +98816,9 @@ export const fakemons: Fakemon[] =
       hp: 73,
       attack: 73,
       defense: 73,
-      spAttack: 121,
-      spDefense: 127,
-      speed: 73
+      spAttack: 127,
+      spDefense: 73,
+      speed: 121
     },
     height: "3.6",
     weight: "150.0",
@@ -98942,9 +98942,9 @@ export const fakemons: Fakemon[] =
       hp: 61,
       attack: 131,
       defense: 211,
-      spAttack: 13,
-      spDefense: 53,
-      speed: 101
+      spAttack: 53,
+      spDefense: 101,
+      speed: 13
     },
     height: "5.5",
     weight: "820.0",
@@ -99054,9 +99054,9 @@ export const fakemons: Fakemon[] =
       hp: 53,
       attack: 127,
       defense: 53,
-      spAttack: 107,
-      spDefense: 151,
-      speed: 79
+      spAttack: 151,
+      spDefense: 79,
+      speed: 107
     },
     height: "1.8",
     weight: "13.0",
@@ -99165,9 +99165,9 @@ export const fakemons: Fakemon[] =
       hp: 88,
       attack: 112,
       defense: 75,
-      spAttack: 143,
-      spDefense: 102,
-      speed: 80
+      spAttack: 102,
+      spDefense: 80,
+      speed: 143
     },
     height: "1.5",
     weight: "44.5",
@@ -99292,9 +99292,9 @@ export const fakemons: Fakemon[] =
       hp: 46,
       attack: 65,
       defense: 65,
-      spAttack: 34,
-      spDefense: 55,
-      speed: 35
+      spAttack: 55,
+      spDefense: 35,
+      speed: 34
     },
     height: "0.2",
     weight: "8.0",
@@ -99359,9 +99359,9 @@ export const fakemons: Fakemon[] =
       hp: 135,
       attack: 143,
       defense: 143,
-      spAttack: 34,
-      spDefense: 80,
-      speed: 65
+      spAttack: 80,
+      spDefense: 65,
+      speed: 34
     },
     height: "2.5",
     weight: "800.0",
@@ -99458,9 +99458,9 @@ export const fakemons: Fakemon[] =
       hp: 50,
       attack: 65,
       defense: 50,
-      spAttack: 65,
+      spAttack: 40,
       spDefense: 40,
-      speed: 40
+      speed: 65
     },
     height: "0.3",
     weight: "5.0",
@@ -99565,9 +99565,9 @@ export const fakemons: Fakemon[] =
       hp: 70,
       attack: 85,
       defense: 70,
-      spAttack: 80,
-      spDefense: 55,
-      speed: 60
+      spAttack: 55,
+      spDefense: 60,
+      speed: 80
     },
     height: "0.7",
     weight: "14.0",
@@ -99669,9 +99669,9 @@ export const fakemons: Fakemon[] =
       hp: 100,
       attack: 125,
       defense: 90,
-      spAttack: 85,
-      spDefense: 60,
-      speed: 70
+      spAttack: 60,
+      spDefense: 70,
+      speed: 85
     },
     height: "2.1",
     weight: "90.0",
@@ -99797,9 +99797,9 @@ export const fakemons: Fakemon[] =
       hp: 50,
       attack: 71,
       defense: 40,
-      spAttack: 69,
+      spAttack: 40,
       spDefense: 40,
-      speed: 40
+      speed: 69
     },
     height: "0.3",
     weight: "4.5",
@@ -99901,9 +99901,9 @@ export const fakemons: Fakemon[] =
       hp: 65,
       attack: 86,
       defense: 60,
-      spAttack: 94,
-      spDefense: 55,
-      speed: 60
+      spAttack: 55,
+      spDefense: 60,
+      speed: 94
     },
     height: "0.6",
     weight: "9.0",
@@ -100006,9 +100006,9 @@ export const fakemons: Fakemon[] =
       hp: 80,
       attack: 116,
       defense: 75,
-      spAttack: 119,
-      spDefense: 65,
-      speed: 75
+      spAttack: 65,
+      spDefense: 75,
+      speed: 119
     },
     height: "1.4",
     weight: "33.0",
@@ -100131,8 +100131,8 @@ export const fakemons: Fakemon[] =
       attack: 40,
       defense: 40,
       spAttack: 70,
-      spDefense: 70,
-      speed: 40
+      spDefense: 40,
+      speed: 70
     },
     height: "0.3",
     weight: "4.0",
@@ -100224,9 +100224,9 @@ export const fakemons: Fakemon[] =
       hp: 65,
       attack: 60,
       defense: 55,
-      spAttack: 90,
-      spDefense: 95,
-      speed: 55
+      spAttack: 95,
+      spDefense: 55,
+      speed: 90
     },
     height: "0.7",
     weight: "11.5",
@@ -100314,9 +100314,9 @@ export const fakemons: Fakemon[] =
       hp: 70,
       attack: 85,
       defense: 65,
-      spAttack: 120,
-      spDefense: 125,
-      speed: 65
+      spAttack: 125,
+      spDefense: 65,
+      speed: 120
     },
     height: "1.9",
     weight: "45.2",
@@ -100433,9 +100433,9 @@ export const fakemons: Fakemon[] =
       hp: 70,
       attack: 55,
       defense: 55,
-      spAttack: 25,
+      spAttack: 35,
       spDefense: 35,
-      speed: 35
+      speed: 25
     },
     height: "0.3",
     weight: "2.5",
@@ -100527,9 +100527,9 @@ export const fakemons: Fakemon[] =
       hp: 120,
       attack: 95,
       defense: 95,
-      spAttack: 20,
-      spDefense: 55,
-      speed: 75
+      spAttack: 55,
+      spDefense: 75,
+      speed: 20
     },
     height: "0.6",
     weight: "6.0",
@@ -100636,9 +100636,9 @@ export const fakemons: Fakemon[] =
       hp: 38,
       attack: 47,
       defense: 35,
-      spAttack: 57,
-      spDefense: 33,
-      speed: 35
+      spAttack: 33,
+      spDefense: 35,
+      speed: 57
     },
     height: "0.2",
     weight: "1.8",
@@ -100733,9 +100733,9 @@ export const fakemons: Fakemon[] =
       hp: 68,
       attack: 67,
       defense: 55,
-      spAttack: 77,
-      spDefense: 43,
-      speed: 55
+      spAttack: 43,
+      spDefense: 55,
+      speed: 77
     },
     height: "0.8",
     weight: "16.0",
@@ -100827,9 +100827,9 @@ export const fakemons: Fakemon[] =
       hp: 98,
       attack: 87,
       defense: 105,
-      spAttack: 67,
-      spDefense: 53,
-      speed: 85
+      spAttack: 53,
+      spDefense: 85,
+      speed: 67
     },
     height: "2.2",
     weight: "75.0",
@@ -100943,8 +100943,8 @@ export const fakemons: Fakemon[] =
       hp: 25,
       attack: 20,
       defense: 20,
-      spAttack: 45,
-      spDefense: 25,
+      spAttack: 25,
+      spDefense: 45,
       speed: 45
     },
     height: "0.4",
@@ -100985,9 +100985,9 @@ export const fakemons: Fakemon[] =
       hp: 50,
       attack: 35,
       defense: 80,
-      spAttack: 30,
-      spDefense: 50,
-      speed: 90
+      spAttack: 50,
+      spDefense: 90,
+      speed: 30
     },
     height: "0.4",
     weight: "19.5",
@@ -101075,9 +101075,9 @@ export const fakemons: Fakemon[] =
       hp: 60,
       attack: 45,
       defense: 110,
-      spAttack: 90,
-      spDefense: 80,
-      speed: 120
+      spAttack: 80,
+      spDefense: 120,
+      speed: 90
     },
     height: "0.4",
     weight: "40.8",
@@ -101183,9 +101183,9 @@ export const fakemons: Fakemon[] =
       hp: 40,
       attack: 28,
       defense: 28,
-      spAttack: 50,
-      spDefense: 47,
-      speed: 52
+      spAttack: 47,
+      spDefense: 52,
+      speed: 50
     },
     height: "0.6",
     weight: "8.9",
@@ -101270,9 +101270,9 @@ export const fakemons: Fakemon[] =
       hp: 70,
       attack: 58,
       defense: 58,
-      spAttack: 90,
-      spDefense: 87,
-      speed: 92
+      spAttack: 87,
+      spDefense: 92,
+      speed: 90
     },
     height: "1.2",
     weight: "19.9",
@@ -101370,9 +101370,9 @@ export const fakemons: Fakemon[] =
       hp: 40,
       attack: 40,
       defense: 60,
-      spAttack: 10,
-      spDefense: 40,
-      speed: 60
+      spAttack: 40,
+      spDefense: 60,
+      speed: 10
     },
     height: "0.4",
     weight: "2.2",
@@ -101457,9 +101457,9 @@ export const fakemons: Fakemon[] =
       hp: 60,
       attack: 50,
       defense: 90,
-      spAttack: 60,
-      spDefense: 80,
-      speed: 120
+      spAttack: 80,
+      spDefense: 120,
+      speed: 60
     },
     height: "0.5",
     weight: "2.5",
@@ -101545,9 +101545,9 @@ export const fakemons: Fakemon[] =
       hp: 42,
       attack: 40,
       defense: 55,
-      spAttack: 48,
-      spDefense: 40,
-      speed: 45
+      spAttack: 40,
+      spDefense: 45,
+      speed: 48
     },
     height: "0.6",
     weight: "6.0",
@@ -101623,9 +101623,9 @@ export const fakemons: Fakemon[] =
       hp: 72,
       attack: 80,
       defense: 100,
-      spAttack: 88,
-      spDefense: 60,
-      speed: 90
+      spAttack: 60,
+      spDefense: 90,
+      speed: 88
     },
     height: "1.3",
     weight: "43.0",
@@ -101710,9 +101710,9 @@ export const fakemons: Fakemon[] =
       hp: 50,
       attack: 64,
       defense: 50,
-      spAttack: 44,
+      spAttack: 38,
       spDefense: 38,
-      speed: 38
+      speed: 44
     },
     height: "0.3",
     weight: "8.5",
@@ -101802,9 +101802,9 @@ export const fakemons: Fakemon[] =
       hp: 90,
       attack: 115,
       defense: 90,
-      spAttack: 74,
-      spDefense: 48,
-      speed: 68
+      spAttack: 48,
+      spDefense: 68,
+      speed: 74
     },
     height: "1.0",
     weight: "115.5",
@@ -101925,9 +101925,9 @@ export const fakemons: Fakemon[] =
       hp: 59,
       attack: 45,
       defense: 50,
-      spAttack: 26,
-      spDefense: 40,
-      speed: 50
+      spAttack: 40,
+      spDefense: 50,
+      speed: 26
     },
     height: "0.3",
     weight: "13.5",
@@ -102012,9 +102012,9 @@ export const fakemons: Fakemon[] =
       hp: 69,
       attack: 90,
       defense: 60,
-      spAttack: 121,
-      spDefense: 90,
-      speed: 60
+      spAttack: 90,
+      spDefense: 60,
+      speed: 121
     },
     height: "1.0",
     weight: "34.0",
@@ -102106,9 +102106,9 @@ export const fakemons: Fakemon[] =
       hp: 30,
       attack: 40,
       defense: 50,
-      spAttack: 30,
-      spDefense: 40,
-      speed: 50
+      spAttack: 40,
+      spDefense: 50,
+      speed: 30
     },
     height: "0.3",
     weight: "12.0",
@@ -102200,9 +102200,9 @@ export const fakemons: Fakemon[] =
       hp: 80,
       attack: 60,
       defense: 90,
-      spAttack: 50,
-      spDefense: 60,
-      speed: 70
+      spAttack: 60,
+      spDefense: 70,
+      speed: 50
     },
     height: "1.1",
     weight: "78.0",
@@ -102306,9 +102306,9 @@ export const fakemons: Fakemon[] =
       hp: 110,
       attack: 80,
       defense: 120,
-      spAttack: 30,
-      spDefense: 80,
-      speed: 90
+      spAttack: 80,
+      spDefense: 90,
+      speed: 30
     },
     height: "2.8",
     weight: "310.5",
@@ -102422,9 +102422,9 @@ export const fakemons: Fakemon[] =
       hp: 40,
       attack: 40,
       defense: 80,
-      spAttack: 20,
+      spAttack: 40,
       spDefense: 40,
-      speed: 40
+      speed: 20
     },
     height: "0.2",
     weight: "0.5",
@@ -102467,9 +102467,9 @@ export const fakemons: Fakemon[] =
       hp: 70,
       attack: 110,
       defense: 80,
-      spAttack: 70,
-      spDefense: 95,
-      speed: 60
+      spAttack: 95,
+      spDefense: 60,
+      speed: 70
     },
     height: "0.3",
     weight: "1.0",
@@ -102573,9 +102573,9 @@ export const fakemons: Fakemon[] =
       hp: 110,
       attack: 85,
       defense: 80,
-      spAttack: 30,
-      spDefense: 100,
-      speed: 80
+      spAttack: 100,
+      spDefense: 80,
+      speed: 30
     },
     height: "0.4",
     weight: "13.0",
@@ -102686,9 +102686,9 @@ export const fakemons: Fakemon[] =
       hp: 52,
       attack: 57,
       defense: 75,
-      spAttack: 46,
-      spDefense: 35,
-      speed: 50
+      spAttack: 35,
+      spDefense: 50,
+      speed: 46
     },
     height: "2.2",
     weight: "7.6",
@@ -102781,9 +102781,9 @@ export const fakemons: Fakemon[] =
       hp: 72,
       attack: 107,
       defense: 125,
-      spAttack: 71,
-      spDefense: 65,
-      speed: 70
+      spAttack: 65,
+      spDefense: 70,
+      speed: 71
     },
     height: "3.8",
     weight: "65.5",
@@ -102886,8 +102886,8 @@ export const fakemons: Fakemon[] =
       attack: 85,
       defense: 55,
       spAttack: 85,
-      spDefense: 85,
-      speed: 95
+      spDefense: 95,
+      speed: 85
     },
     height: "0.8",
     weight: "18.0",
@@ -102994,9 +102994,9 @@ export const fakemons: Fakemon[] =
       hp: 41,
       attack: 63,
       defense: 40,
-      spAttack: 66,
-      spDefense: 40,
-      speed: 30
+      spAttack: 40,
+      spDefense: 30,
+      speed: 66
     },
     height: "0.5",
     weight: "1.0",
@@ -103087,9 +103087,9 @@ export const fakemons: Fakemon[] =
       hp: 61,
       attack: 123,
       defense: 60,
-      spAttack: 136,
-      spDefense: 60,
-      speed: 50
+      spAttack: 60,
+      spDefense: 50,
+      speed: 136
     },
     height: "1.3",
     weight: "30.0",
@@ -103185,9 +103185,9 @@ export const fakemons: Fakemon[] =
       hp: 40,
       attack: 38,
       defense: 35,
-      spAttack: 40,
-      spDefense: 54,
-      speed: 35
+      spAttack: 54,
+      spDefense: 35,
+      speed: 40
     },
     height: "0.4",
     weight: "11.0",
@@ -103254,9 +103254,9 @@ export const fakemons: Fakemon[] =
       hp: 75,
       attack: 98,
       defense: 70,
-      spAttack: 75,
-      spDefense: 114,
-      speed: 70
+      spAttack: 114,
+      spDefense: 70,
+      speed: 75
     },
     height: "1.6",
     weight: "40.0",
@@ -103388,9 +103388,9 @@ export const fakemons: Fakemon[] =
       hp: 50,
       attack: 65,
       defense: 45,
-      spAttack: 45,
+      spAttack: 50,
       spDefense: 50,
-      speed: 50
+      speed: 45
     },
     height: "0.7",
     weight: "1.0",
@@ -103474,9 +103474,9 @@ export const fakemons: Fakemon[] =
       hp: 100,
       attack: 115,
       defense: 65,
-      spAttack: 65,
+      spAttack: 90,
       spDefense: 90,
-      speed: 90
+      speed: 65
     },
     height: "3.0",
     weight: "120.0",
@@ -103569,9 +103569,9 @@ export const fakemons: Fakemon[] =
       hp: 50,
       attack: 68,
       defense: 60,
-      spAttack: 32,
+      spAttack: 50,
       spDefense: 50,
-      speed: 50
+      speed: 32
     },
     height: "0.6",
     weight: "4.0",
@@ -103661,9 +103661,9 @@ export const fakemons: Fakemon[] =
       hp: 80,
       attack: 118,
       defense: 90,
-      spAttack: 42,
-      spDefense: 70,
-      speed: 80
+      spAttack: 70,
+      spDefense: 80,
+      speed: 42
     },
     height: "1.6",
     weight: "39.0",
@@ -103762,9 +103762,9 @@ export const fakemons: Fakemon[] =
       hp: 40,
       attack: 45,
       defense: 45,
-      spAttack: 50,
-      spDefense: 74,
-      speed: 54
+      spAttack: 74,
+      spDefense: 54,
+      speed: 50
     },
     height: "0.1",
     weight: "0.2",
@@ -103854,9 +103854,9 @@ export const fakemons: Fakemon[] =
       hp: 60,
       attack: 65,
       defense: 65,
-      spAttack: 70,
-      spDefense: 134,
-      speed: 114
+      spAttack: 134,
+      spDefense: 114,
+      speed: 70
     },
     height: "0.2",
     weight: "0.4",
@@ -103956,9 +103956,9 @@ export const fakemons: Fakemon[] =
       hp: 42,
       attack: 30,
       defense: 45,
-      spAttack: 39,
-      spDefense: 56,
-      speed: 53
+      spAttack: 56,
+      spDefense: 53,
+      speed: 39
     },
     height: "0.4",
     weight: "3.4",
@@ -104058,9 +104058,9 @@ export const fakemons: Fakemon[] =
       hp: 57,
       attack: 40,
       defense: 65,
-      spAttack: 49,
-      spDefense: 86,
-      speed: 73
+      spAttack: 86,
+      spDefense: 73,
+      speed: 49
     },
     height: "0.6",
     weight: "4.8",
@@ -104159,9 +104159,9 @@ export const fakemons: Fakemon[] =
       hp: 57,
       attack: 90,
       defense: 95,
-      spAttack: 29,
-      spDefense: 136,
-      speed: 103
+      spAttack: 136,
+      spDefense: 103,
+      speed: 29
     },
     height: "2.1",
     weight: "5.1",
@@ -104278,9 +104278,9 @@ export const fakemons: Fakemon[] =
       hp: 45,
       attack: 45,
       defense: 30,
-      spAttack: 50,
-      spDefense: 55,
-      speed: 40
+      spAttack: 55,
+      spDefense: 40,
+      speed: 50
     },
     height: "0.4",
     weight: "5.5",
@@ -104379,9 +104379,9 @@ export const fakemons: Fakemon[] =
       hp: 65,
       attack: 60,
       defense: 45,
-      spAttack: 70,
-      spDefense: 75,
-      speed: 55
+      spAttack: 75,
+      spDefense: 55,
+      speed: 70
     },
     height: "0.8",
     weight: "12.5",
@@ -104483,9 +104483,9 @@ export const fakemons: Fakemon[] =
       hp: 95,
       attack: 120,
       defense: 65,
-      spAttack: 60,
-      spDefense: 95,
-      speed: 75
+      spAttack: 95,
+      spDefense: 75,
+      speed: 60
     },
     height: "1.5",
     weight: "61.0",
@@ -104610,9 +104610,9 @@ export const fakemons: Fakemon[] =
       hp: 93,
       attack: 90,
       defense: 101,
-      spAttack: 95,
-      spDefense: 60,
-      speed: 81
+      spAttack: 60,
+      spDefense: 81,
+      speed: 95
     },
     height: "1.6",
     weight: "46.0",
@@ -104746,8 +104746,8 @@ export const fakemons: Fakemon[] =
       attack: 110,
       defense: 100,
       spAttack: 50,
-      spDefense: 50,
-      speed: 60
+      spDefense: 60,
+      speed: 50
     },
     height: "0.8",
     weight: "28.0",
@@ -104892,9 +104892,9 @@ export const fakemons: Fakemon[] =
       hp: 60,
       attack: 95,
       defense: 50,
-      spAttack: 30,
-      spDefense: 145,
-      speed: 130
+      spAttack: 145,
+      spDefense: 130,
+      speed: 30
     },
     height: "1.0",
     weight: "0.4",
@@ -105014,9 +105014,9 @@ export const fakemons: Fakemon[] =
       hp: 62,
       attack: 135,
       defense: 95,
-      spAttack: 65,
-      spDefense: 68,
-      speed: 82
+      spAttack: 68,
+      spDefense: 82,
+      speed: 65
     },
     height: "0.8",
     weight: "117.0",
@@ -105121,9 +105121,9 @@ export const fakemons: Fakemon[] =
       hp: 80,
       attack: 85,
       defense: 75,
-      spAttack: 70,
-      spDefense: 110,
-      speed: 100
+      spAttack: 110,
+      spDefense: 100,
+      speed: 70
     },
     height: "1.5",
     weight: "58.2",
@@ -105290,9 +105290,9 @@ export const fakemons: Fakemon[] =
       hp: 58,
       attack: 95,
       defense: 145,
-      spAttack: 30,
-      spDefense: 50,
-      speed: 105
+      spAttack: 50,
+      spDefense: 105,
+      speed: 30
     },
     height: "1.6",
     weight: "66.6",
@@ -105411,9 +105411,9 @@ export const fakemons: Fakemon[] =
       hp: 45,
       attack: 40,
       defense: 40,
-      spAttack: 34,
-      spDefense: 50,
-      speed: 61
+      spAttack: 50,
+      spDefense: 61,
+      speed: 34
     },
     height: "0.2",
     weight: "0.3",
@@ -105485,9 +105485,9 @@ export const fakemons: Fakemon[] =
       hp: 65,
       attack: 60,
       defense: 75,
-      spAttack: 64,
-      spDefense: 110,
-      speed: 121
+      spAttack: 110,
+      spDefense: 121,
+      speed: 64
     },
     height: "0.3",
     weight: "0.5",
@@ -105587,9 +105587,9 @@ export const fakemons: Fakemon[] =
       hp: 65,
       attack: 100,
       defense: 100,
-      spAttack: 75,
-      spDefense: 70,
-      speed: 60
+      spAttack: 70,
+      spDefense: 60,
+      speed: 75
     },
     height: "3.0",
     weight: "62.0",
@@ -105696,9 +105696,9 @@ export const fakemons: Fakemon[] =
       hp: 48,
       attack: 101,
       defense: 95,
-      spAttack: 15,
-      spDefense: 91,
-      speed: 85
+      spAttack: 91,
+      spDefense: 85,
+      speed: 15
     },
     height: "0.3",
     weight: "1.0",
@@ -105805,9 +105805,9 @@ export const fakemons: Fakemon[] =
       hp: 30,
       attack: 25,
       defense: 35,
-      spAttack: 20,
-      spDefense: 45,
-      speed: 30
+      spAttack: 45,
+      spDefense: 30,
+      speed: 20
     },
     height: "0.3",
     weight: "3.8",
@@ -105872,9 +105872,9 @@ export const fakemons: Fakemon[] =
       hp: 70,
       attack: 65,
       defense: 60,
-      spAttack: 65,
-      spDefense: 125,
-      speed: 90
+      spAttack: 125,
+      spDefense: 90,
+      speed: 65
     },
     height: "1.3",
     weight: "42.0",
@@ -105981,9 +105981,9 @@ export const fakemons: Fakemon[] =
       hp: 100,
       attack: 125,
       defense: 135,
-      spAttack: 70,
+      spAttack: 20,
       spDefense: 20,
-      speed: 20
+      speed: 70
     },
     height: "2.5",
     weight: "520.0",
@@ -106089,9 +106089,9 @@ export const fakemons: Fakemon[] =
       hp: 75,
       attack: 80,
       defense: 110,
-      spAttack: 50,
-      spDefense: 65,
-      speed: 90
+      spAttack: 65,
+      spDefense: 90,
+      speed: 50
     },
     height: "1.4",
     weight: "89.0",
@@ -106196,8 +106196,8 @@ export const fakemons: Fakemon[] =
       hp: 60,
       attack: 65,
       defense: 55,
-      spAttack: 95,
-      spDefense: 105,
+      spAttack: 105,
+      spDefense: 95,
       speed: 95
     },
     height: "0.9",
@@ -106306,9 +106306,9 @@ export const fakemons: Fakemon[] =
       hp: 58,
       attack: 95,
       defense: 58,
-      spAttack: 97,
-      spDefense: 70,
-      speed: 58
+      spAttack: 70,
+      spDefense: 58,
+      speed: 97
     },
     height: "0.3",
     weight: "3.0",
@@ -106430,8 +106430,8 @@ export const fakemons: Fakemon[] =
       attack: 80,
       defense: 49,
       spAttack: 40,
-      spDefense: 40,
-      speed: 49
+      spDefense: 49,
+      speed: 40
     },
     height: "1.2",
     weight: "100.0",
@@ -106539,9 +106539,9 @@ export const fakemons: Fakemon[] =
       hp: 122,
       attack: 130,
       defense: 69,
-      spAttack: 30,
-      spDefense: 80,
-      speed: 69
+      spAttack: 80,
+      spDefense: 69,
+      speed: 30
     },
     height: "3.0",
     weight: "650.0",
@@ -106656,9 +106656,9 @@ export const fakemons: Fakemon[] =
       hp: 90,
       attack: 100,
       defense: 90,
-      spAttack: 75,
-      spDefense: 80,
-      speed: 70
+      spAttack: 80,
+      spDefense: 70,
+      speed: 75
     },
     height: "1.8",
     weight: "190.0",
@@ -106762,9 +106762,9 @@ export const fakemons: Fakemon[] =
       hp: 90,
       attack: 100,
       defense: 90,
-      spAttack: 55,
-      spDefense: 90,
-      speed: 80
+      spAttack: 90,
+      spDefense: 80,
+      speed: 55
     },
     height: "2.3",
     weight: "150.0",
@@ -106865,9 +106865,9 @@ export const fakemons: Fakemon[] =
       hp: 90,
       attack: 90,
       defense: 100,
-      spAttack: 75,
-      spDefense: 70,
-      speed: 80
+      spAttack: 70,
+      spDefense: 80,
+      speed: 75
     },
     height: "2.3",
     weight: "215.0",
@@ -106966,9 +106966,9 @@ export const fakemons: Fakemon[] =
       hp: 90,
       attack: 90,
       defense: 100,
-      spAttack: 55,
-      spDefense: 80,
-      speed: 90
+      spAttack: 80,
+      spDefense: 90,
+      speed: 55
     },
     height: "2.0",
     weight: "175.0",
@@ -107062,9 +107062,9 @@ export const fakemons: Fakemon[] =
       hp: 70,
       attack: 95,
       defense: 115,
-      spAttack: 85,
-      spDefense: 120,
-      speed: 50
+      spAttack: 120,
+      spDefense: 50,
+      speed: 85
     },
     height: "1.8",
     weight: "40.0",
@@ -107174,9 +107174,9 @@ export const fakemons: Fakemon[] =
       hp: 28,
       attack: 60,
       defense: 30,
-      spAttack: 82,
-      spDefense: 40,
-      speed: 30
+      spAttack: 40,
+      spDefense: 30,
+      speed: 82
     },
     height: "0.5",
     weight: "2.0",
@@ -107249,9 +107249,9 @@ export const fakemons: Fakemon[] =
       hp: 68,
       attack: 80,
       defense: 50,
-      spAttack: 102,
-      spDefense: 60,
-      speed: 50
+      spAttack: 60,
+      spDefense: 50,
+      speed: 102
     },
     height: "1.4",
     weight: "11.0",
@@ -107364,9 +107364,9 @@ export const fakemons: Fakemon[] =
       hp: 88,
       attack: 120,
       defense: 75,
-      spAttack: 142,
-      spDefense: 100,
-      speed: 75
+      spAttack: 100,
+      spDefense: 75,
+      speed: 142
     },
     height: "3.0",
     weight: "50.0",
@@ -107486,9 +107486,9 @@ export const fakemons: Fakemon[] =
       hp: 92,
       attack: 130,
       defense: 115,
-      spAttack: 138,
-      spDefense: 80,
-      speed: 115
+      spAttack: 80,
+      spDefense: 115,
+      speed: 138
     },
     height: "2.8",
     weight: "110.0",
@@ -107598,9 +107598,9 @@ export const fakemons: Fakemon[] =
       hp: 92,
       attack: 130,
       defense: 115,
-      spAttack: 138,
-      spDefense: 80,
-      speed: 115
+      spAttack: 80,
+      spDefense: 115,
+      speed: 138
     },
     height: "2.9",
     weight: "210.0",
@@ -107716,9 +107716,9 @@ export const fakemons: Fakemon[] =
       hp: 140,
       attack: 85,
       defense: 95,
-      spAttack: 130,
-      spDefense: 145,
-      speed: 95
+      spAttack: 145,
+      spDefense: 95,
+      speed: 130
     },
     height: "20.0",
     weight: "950.0",
@@ -107825,9 +107825,9 @@ export const fakemons: Fakemon[] =
       hp: 60,
       attack: 90,
       defense: 60,
-      spAttack: 72,
-      spDefense: 53,
-      speed: 50
+      spAttack: 53,
+      spDefense: 50,
+      speed: 72
     },
     height: "0.6",
     weight: "12.0",
@@ -107927,9 +107927,9 @@ export const fakemons: Fakemon[] =
       hp: 100,
       attack: 130,
       defense: 100,
-      spAttack: 97,
-      spDefense: 63,
-      speed: 60
+      spAttack: 63,
+      spDefense: 60,
+      speed: 97
     },
     height: "1.9",
     weight: "105.0",
@@ -108057,9 +108057,9 @@ export const fakemons: Fakemon[] =
       hp: 105,
       attack: 120,
       defense: 105,
-      spAttack: 105,
-      spDefense: 70,
-      speed: 95
+      spAttack: 70,
+      spDefense: 95,
+      speed: 105
     },
     height: "1.8",
     weight: "70.0",
@@ -108188,9 +108188,9 @@ export const fakemons: Fakemon[] =
       hp: 80,
       attack: 100,
       defense: 50,
-      spAttack: 200,
-      spDefense: 100,
-      speed: 50
+      spAttack: 100,
+      spDefense: 50,
+      speed: 200
     },
     height: "1.2",
     weight: "145.0",
@@ -108283,9 +108283,9 @@ export const fakemons: Fakemon[] =
       hp: 200,
       attack: 100,
       defense: 50,
-      spAttack: 80,
-      spDefense: 100,
-      speed: 50
+      spAttack: 100,
+      spDefense: 50,
+      speed: 80
     },
     height: "2.1",
     weight: "200.0",
@@ -108374,9 +108374,9 @@ export const fakemons: Fakemon[] =
       hp: 100,
       attack: 145,
       defense: 130,
-      spAttack: 30,
-      spDefense: 65,
-      speed: 110
+      spAttack: 65,
+      spDefense: 110,
+      speed: 30
     },
     height: "2.2",
     weight: "800.0",
@@ -108477,9 +108477,9 @@ export const fakemons: Fakemon[] =
       hp: 100,
       attack: 65,
       defense: 60,
-      spAttack: 130,
-      spDefense: 145,
-      speed: 80
+      spAttack: 145,
+      spDefense: 80,
+      speed: 130
     },
     height: "2.0",
     weight: "44.5",
@@ -108701,9 +108701,9 @@ export const fakemons: Fakemon[] =
       hp: 103,
       attack: 105,
       defense: 72,
-      spAttack: 65,
-      spDefense: 105,
-      speed: 75
+      spAttack: 105,
+      spDefense: 75,
+      speed: 65
     },
     height: "1.8",
     weight: "95.1",
@@ -108810,9 +108810,9 @@ export const fakemons: Fakemon[] =
       hp: 70,
       attack: 135,
       defense: 95,
-      spAttack: 85,
-      spDefense: 45,
-      speed: 70
+      spAttack: 45,
+      spDefense: 70,
+      speed: 85
     },
     height: "1.8",
     weight: "89.0",
@@ -108909,9 +108909,9 @@ export const fakemons: Fakemon[] =
       hp: 130,
       attack: 140,
       defense: 105,
-      spAttack: 50,
-      spDefense: 45,
-      speed: 80
+      spAttack: 45,
+      spDefense: 80,
+      speed: 50
     },
     height: "2.4",
     weight: "290.0",
@@ -109025,9 +109025,9 @@ export const fakemons: Fakemon[] =
       hp: 120,
       attack: 112,
       defense: 65,
-      spAttack: 78,
-      spDefense: 80,
-      speed: 75
+      spAttack: 80,
+      spDefense: 75,
+      speed: 78
     },
     height: "3.0",
     weight: "110.0",
@@ -109125,9 +109125,9 @@ export const fakemons: Fakemon[] =
       hp: 80,
       attack: 130,
       defense: 60,
-      spAttack: 120,
-      spDefense: 40,
-      speed: 80
+      spAttack: 40,
+      spDefense: 80,
+      speed: 120
     },
     height: "1.3",
     weight: "43.0",
@@ -109234,9 +109234,9 @@ export const fakemons: Fakemon[] =
       hp: 85,
       attack: 115,
       defense: 95,
-      spAttack: 85,
+      spAttack: 65,
       spDefense: 65,
-      speed: 65
+      speed: 85
     },
     height: "2.5",
     weight: "60.5",
@@ -109339,9 +109339,9 @@ export const fakemons: Fakemon[] =
       hp: 74,
       attack: 115,
       defense: 70,
-      spAttack: 106,
-      spDefense: 135,
-      speed: 80
+      spAttack: 135,
+      spDefense: 80,
+      speed: 106
     },
     height: "1.6",
     weight: "48.0",
@@ -109431,9 +109431,9 @@ export const fakemons: Fakemon[] =
       hp: 40,
       attack: 61,
       defense: 54,
-      spAttack: 65,
+      spAttack: 45,
       spDefense: 45,
-      speed: 45
+      speed: 65
     },
     height: "0.4",
     weight: "4.1",
@@ -109517,9 +109517,9 @@ export const fakemons: Fakemon[] =
       hp: 61,
       attack: 80,
       defense: 63,
-      spAttack: 83,
-      spDefense: 60,
-      speed: 63
+      spAttack: 60,
+      spDefense: 63,
+      speed: 83
     },
     height: "0.9",
     weight: "12.2",
@@ -109606,9 +109606,9 @@ export const fakemons: Fakemon[] =
       hp: 76,
       attack: 110,
       defense: 70,
-      spAttack: 123,
-      spDefense: 81,
-      speed: 70
+      spAttack: 81,
+      spDefense: 70,
+      speed: 123
     },
     height: "1.5",
     weight: "31.2",
@@ -109722,9 +109722,9 @@ export const fakemons: Fakemon[] =
       hp: 67,
       attack: 45,
       defense: 59,
-      spAttack: 36,
-      spDefense: 63,
-      speed: 40
+      spAttack: 63,
+      spDefense: 40,
+      speed: 36
     },
     height: "0.4",
     weight: "9.8",
@@ -109808,9 +109808,9 @@ export const fakemons: Fakemon[] =
       hp: 81,
       attack: 55,
       defense: 78,
-      spAttack: 49,
-      spDefense: 90,
-      speed: 58
+      spAttack: 90,
+      spDefense: 58,
+      speed: 49
     },
     height: "1.0",
     weight: "30.7",
@@ -109894,9 +109894,9 @@ export const fakemons: Fakemon[] =
       hp: 104,
       attack: 75,
       defense: 100,
-      spAttack: 66,
-      spDefense: 110,
-      speed: 75
+      spAttack: 110,
+      spDefense: 75,
+      speed: 66
     },
     height: "1.6",
     weight: "326.5",
@@ -110002,8 +110002,8 @@ export const fakemons: Fakemon[] =
       attack: 65,
       defense: 45,
       spAttack: 50,
-      spDefense: 50,
-      speed: 45
+      spDefense: 45,
+      speed: 50
     },
     height: "0.5",
     weight: "6.1",
@@ -110080,8 +110080,8 @@ export const fakemons: Fakemon[] =
       attack: 85,
       defense: 65,
       spAttack: 65,
-      spDefense: 65,
-      speed: 60
+      spDefense: 60,
+      speed: 65
     },
     height: "1.2",
     weight: "21.5",
@@ -110164,8 +110164,8 @@ export const fakemons: Fakemon[] =
       attack: 120,
       defense: 80,
       spAttack: 85,
-      spDefense: 85,
-      speed: 75
+      spDefense: 75,
+      speed: 85
     },
     height: "1.8",
     weight: "61.9",
@@ -110271,8 +110271,8 @@ export const fakemons: Fakemon[] =
       attack: 45,
       defense: 40,
       spAttack: 35,
-      spDefense: 35,
-      speed: 45
+      spDefense: 45,
+      speed: 35
     },
     height: "0.5",
     weight: "10.2",
@@ -110354,9 +110354,9 @@ export const fakemons: Fakemon[] =
       hp: 110,
       attack: 100,
       defense: 75,
-      spAttack: 65,
-      spDefense: 59,
-      speed: 80
+      spAttack: 59,
+      spDefense: 80,
+      speed: 65
     },
     height: "1.0",
     weight: "120.0",
@@ -110444,9 +110444,9 @@ export const fakemons: Fakemon[] =
       hp: 35,
       attack: 41,
       defense: 45,
-      spAttack: 20,
-      spDefense: 29,
-      speed: 40
+      spAttack: 29,
+      spDefense: 40,
+      speed: 20
     },
     height: "0.3",
     weight: "4.0",
@@ -110527,9 +110527,9 @@ export const fakemons: Fakemon[] =
       hp: 60,
       attack: 79,
       defense: 92,
-      spAttack: 35,
-      spDefense: 52,
-      speed: 86
+      spAttack: 52,
+      spDefense: 86,
+      speed: 35
     },
     height: "1.0",
     weight: "16.5",
@@ -110621,9 +110621,9 @@ export const fakemons: Fakemon[] =
       hp: 33,
       attack: 46,
       defense: 40,
-      spAttack: 45,
-      spDefense: 21,
-      speed: 25
+      spAttack: 21,
+      spDefense: 25,
+      speed: 45
     },
     height: "0.2",
     weight: "1.0",
@@ -110692,9 +110692,9 @@ export const fakemons: Fakemon[] =
       hp: 71,
       attack: 102,
       defense: 78,
-      spAttack: 92,
-      spDefense: 52,
-      speed: 55
+      spAttack: 52,
+      spDefense: 55,
+      speed: 92
     },
     height: "1.0",
     weight: "17.5",
@@ -110784,9 +110784,9 @@ export const fakemons: Fakemon[] =
       hp: 45,
       attack: 50,
       defense: 20,
-      spAttack: 60,
-      spDefense: 40,
-      speed: 25
+      spAttack: 40,
+      spDefense: 25,
+      speed: 60
     },
     height: "0.3",
     weight: "2.5",
@@ -110874,9 +110874,9 @@ export const fakemons: Fakemon[] =
       hp: 60,
       attack: 75,
       defense: 40,
-      spAttack: 85,
-      spDefense: 50,
-      speed: 40
+      spAttack: 50,
+      spDefense: 40,
+      speed: 85
     },
     height: "0.4",
     weight: "6.5",
@@ -110969,9 +110969,9 @@ export const fakemons: Fakemon[] =
       hp: 70,
       attack: 115,
       defense: 70,
-      spAttack: 105,
-      spDefense: 70,
-      speed: 60
+      spAttack: 70,
+      spDefense: 60,
+      speed: 105
     },
     height: "0.9",
     weight: "41.0",
@@ -111082,9 +111082,9 @@ export const fakemons: Fakemon[] =
       hp: 50,
       attack: 50,
       defense: 45,
-      spAttack: 75,
-      spDefense: 40,
-      speed: 45
+      spAttack: 40,
+      spDefense: 45,
+      speed: 75
     },
     height: "0.3",
     weight: "1.8",
@@ -111174,9 +111174,9 @@ export const fakemons: Fakemon[] =
       hp: 74,
       attack: 75,
       defense: 70,
-      spAttack: 111,
-      spDefense: 65,
-      speed: 75
+      spAttack: 65,
+      spDefense: 75,
+      speed: 111
     },
     height: "0.3",
     weight: "2.8",
@@ -111267,9 +111267,9 @@ export const fakemons: Fakemon[] =
       hp: 37,
       attack: 55,
       defense: 70,
-      spAttack: 65,
-      spDefense: 30,
-      speed: 55
+      spAttack: 30,
+      spDefense: 55,
+      speed: 65
     },
     height: "0.3",
     weight: "10.9",
@@ -111355,9 +111355,9 @@ export const fakemons: Fakemon[] =
       hp: 57,
       attack: 80,
       defense: 115,
-      spAttack: 95,
-      spDefense: 50,
-      speed: 80
+      spAttack: 50,
+      spDefense: 80,
+      speed: 95
     },
     height: "0.5",
     weight: "14.9",
@@ -111445,9 +111445,9 @@ export const fakemons: Fakemon[] =
       hp: 41,
       attack: 35,
       defense: 45,
-      spAttack: 30,
-      spDefense: 58,
-      speed: 51
+      spAttack: 58,
+      spDefense: 51,
+      speed: 30
     },
     height: "0.3",
     weight: "6.5",
@@ -111521,9 +111521,9 @@ export const fakemons: Fakemon[] =
       hp: 52,
       attack: 53,
       defense: 60,
-      spAttack: 33,
+      spAttack: 78,
       spDefense: 78,
-      speed: 78
+      speed: 33
     },
     height: "0.6",
     weight: "11.9",
@@ -111594,9 +111594,9 @@ export const fakemons: Fakemon[] =
       hp: 78,
       attack: 69,
       defense: 90,
-      spAttack: 39,
-      spDefense: 125,
-      speed: 109
+      spAttack: 125,
+      spDefense: 109,
+      speed: 39
     },
     height: "1.4",
     weight: "48.2",
@@ -111684,9 +111684,9 @@ export const fakemons: Fakemon[] =
       hp: 82,
       attack: 96,
       defense: 51,
-      spAttack: 92,
-      spDefense: 45,
-      speed: 51
+      spAttack: 45,
+      spDefense: 51,
+      speed: 92
     },
     height: "0.6",
     weight: "2.4",
@@ -111774,9 +111774,9 @@ export const fakemons: Fakemon[] =
       hp: 55,
       attack: 55,
       defense: 75,
-      spAttack: 25,
+      spAttack: 35,
       spDefense: 35,
-      speed: 35
+      speed: 25
     },
     height: "0.4",
     weight: "16.0",
@@ -111859,8 +111859,8 @@ export const fakemons: Fakemon[] =
       attack: 60,
       defense: 100,
       spAttack: 35,
-      spDefense: 35,
-      speed: 65
+      spDefense: 65,
+      speed: 35
     },
     height: "0.6",
     weight: "105.0",
@@ -111944,9 +111944,9 @@ export const fakemons: Fakemon[] =
       hp: 100,
       attack: 100,
       defense: 130,
-      spAttack: 35,
-      spDefense: 45,
-      speed: 90
+      spAttack: 45,
+      spDefense: 90,
+      speed: 35
     },
     height: "2.3",
     weight: "240.0",
@@ -112045,9 +112045,9 @@ export const fakemons: Fakemon[] =
       hp: 40,
       attack: 50,
       defense: 40,
-      spAttack: 35,
-      spDefense: 50,
-      speed: 40
+      spAttack: 50,
+      spDefense: 40,
+      speed: 35
     },
     height: "0.6",
     weight: "10.5",
@@ -112114,9 +112114,9 @@ export const fakemons: Fakemon[] =
       hp: 85,
       attack: 60,
       defense: 100,
-      spAttack: 75,
-      spDefense: 125,
-      speed: 80
+      spAttack: 125,
+      spDefense: 80,
+      speed: 75
     },
     height: "1.5",
     weight: "85.0",
@@ -112216,9 +112216,9 @@ export const fakemons: Fakemon[] =
       hp: 75,
       attack: 125,
       defense: 80,
-      spAttack: 85,
-      spDefense: 60,
-      speed: 100
+      spAttack: 60,
+      spDefense: 100,
+      speed: 85
     },
     height: "1.6",
     weight: "62.0",
@@ -112317,9 +112317,9 @@ export const fakemons: Fakemon[] =
       hp: 61,
       attack: 31,
       defense: 41,
-      spAttack: 45,
-      spDefense: 59,
-      speed: 35
+      spAttack: 59,
+      spDefense: 35,
+      speed: 45
     },
     height: "0.3",
     weight: "0.4",
@@ -112398,9 +112398,9 @@ export const fakemons: Fakemon[] =
       hp: 109,
       attack: 64,
       defense: 91,
-      spAttack: 45,
-      spDefense: 103,
-      speed: 83
+      spAttack: 103,
+      spDefense: 83,
+      speed: 45
     },
     height: "1.2",
     weight: "113.0",
@@ -112483,9 +112483,9 @@ export const fakemons: Fakemon[] =
       hp: 40,
       attack: 40,
       defense: 35,
-      spAttack: 70,
-      spDefense: 55,
-      speed: 40
+      spAttack: 55,
+      spDefense: 40,
+      speed: 70
     },
     height: "0.4",
     weight: "3.6",
@@ -112572,9 +112572,9 @@ export const fakemons: Fakemon[] =
       hp: 70,
       attack: 70,
       defense: 60,
-      spAttack: 125,
-      spDefense: 105,
-      speed: 60
+      spAttack: 105,
+      spDefense: 60,
+      speed: 125
     },
     height: "1.4",
     weight: "38.6",
@@ -112661,8 +112661,8 @@ export const fakemons: Fakemon[] =
       hp: 60,
       attack: 78,
       defense: 60,
-      spAttack: 51,
-      spDefense: 40,
+      spAttack: 40,
+      spDefense: 51,
       speed: 51
     },
     height: "0.5",
@@ -112747,9 +112747,9 @@ export const fakemons: Fakemon[] =
       hp: 80,
       attack: 120,
       defense: 90,
-      spAttack: 85,
-      spDefense: 60,
-      speed: 70
+      spAttack: 60,
+      spDefense: 70,
+      speed: 85
     },
     height: "1.1",
     weight: "61.0",
@@ -112841,9 +112841,9 @@ export const fakemons: Fakemon[] =
       hp: 40,
       attack: 65,
       defense: 35,
-      spAttack: 75,
-      spDefense: 40,
-      speed: 35
+      spAttack: 40,
+      spDefense: 35,
+      speed: 75
     },
     height: "0.2",
     weight: "0.7",
@@ -112939,9 +112939,9 @@ export const fakemons: Fakemon[] =
       hp: 63,
       attack: 95,
       defense: 65,
-      spAttack: 110,
-      spDefense: 80,
-      speed: 72
+      spAttack: 80,
+      spDefense: 72,
+      speed: 110
     },
     height: "0.7",
     weight: "27.2",
@@ -113039,9 +113039,9 @@ export const fakemons: Fakemon[] =
       hp: 40,
       attack: 65,
       defense: 30,
-      spAttack: 60,
-      spDefense: 45,
-      speed: 35
+      spAttack: 45,
+      spDefense: 35,
+      speed: 60
     },
     height: "0.6",
     weight: "0.6",
@@ -113124,9 +113124,9 @@ export const fakemons: Fakemon[] =
       hp: 55,
       attack: 115,
       defense: 70,
-      spAttack: 90,
-      spDefense: 80,
-      speed: 70
+      spAttack: 80,
+      spDefense: 70,
+      speed: 90
     },
     height: "1.2",
     weight: "6.0",
@@ -113208,9 +113208,9 @@ export const fakemons: Fakemon[] =
       hp: 40,
       attack: 40,
       defense: 35,
-      spAttack: 70,
-      spDefense: 50,
-      speed: 100
+      spAttack: 50,
+      spDefense: 100,
+      speed: 70
     },
     height: "0.9",
     weight: "33.0",
@@ -113309,9 +113309,9 @@ export const fakemons: Fakemon[] =
       hp: 80,
       attack: 70,
       defense: 65,
-      spAttack: 100,
-      spDefense: 80,
-      speed: 120
+      spAttack: 80,
+      spDefense: 120,
+      speed: 100
     },
     height: "1.9",
     weight: "58.0",
@@ -113406,9 +113406,9 @@ export const fakemons: Fakemon[] =
       hp: 70,
       attack: 100,
       defense: 115,
-      spAttack: 75,
-      spDefense: 35,
-      speed: 55
+      spAttack: 35,
+      spDefense: 55,
+      speed: 75
     },
     height: "1.3",
     weight: "79.0",
@@ -113506,9 +113506,9 @@ export const fakemons: Fakemon[] =
       hp: 50,
       attack: 62,
       defense: 40,
-      spAttack: 50,
-      spDefense: 62,
-      speed: 40
+      spAttack: 62,
+      spDefense: 40,
+      speed: 50
     },
     height: "0.3",
     weight: "3.0",
@@ -113587,9 +113587,9 @@ export const fakemons: Fakemon[] =
       hp: 65,
       attack: 108,
       defense: 65,
-      spAttack: 75,
-      spDefense: 108,
-      speed: 65
+      spAttack: 108,
+      spDefense: 65,
+      speed: 75
     },
     height: "0.9",
     weight: "15.0",
@@ -113679,9 +113679,9 @@ export const fakemons: Fakemon[] =
       hp: 41,
       attack: 50,
       defense: 60,
-      spAttack: 30,
-      spDefense: 31,
-      speed: 58
+      spAttack: 31,
+      spDefense: 58,
+      speed: 30
     },
     height: "0.2",
     weight: "1.0",
@@ -113754,9 +113754,9 @@ export const fakemons: Fakemon[] =
       hp: 75,
       attack: 50,
       defense: 85,
-      spAttack: 45,
-      spDefense: 115,
-      speed: 100
+      spAttack: 115,
+      spDefense: 100,
+      speed: 45
     },
     height: "0.3",
     weight: "3.5",
@@ -113865,9 +113865,9 @@ export const fakemons: Fakemon[] =
       hp: 30,
       attack: 35,
       defense: 30,
-      spAttack: 75,
-      spDefense: 55,
-      speed: 30
+      spAttack: 55,
+      spDefense: 30,
+      speed: 75
     },
     height: "0.2",
     weight: "1.5",
@@ -113949,9 +113949,9 @@ export const fakemons: Fakemon[] =
       hp: 95,
       attack: 60,
       defense: 60,
-      spAttack: 105,
-      spDefense: 101,
-      speed: 60
+      spAttack: 101,
+      spDefense: 60,
+      speed: 105
     },
     height: "1.9",
     weight: "90.0",
@@ -114055,9 +114055,9 @@ export const fakemons: Fakemon[] =
       hp: 50,
       attack: 45,
       defense: 45,
-      spAttack: 58,
-      spDefense: 35,
-      speed: 64
+      spAttack: 35,
+      spDefense: 64,
+      speed: 58
     },
     height: "0.4",
     weight: "8.9",
@@ -114143,9 +114143,9 @@ export const fakemons: Fakemon[] =
       hp: 65,
       attack: 55,
       defense: 55,
-      spAttack: 78,
-      spDefense: 45,
-      speed: 82
+      spAttack: 45,
+      spDefense: 82,
+      speed: 78
     },
     height: "0.7",
     weight: "59.1",
@@ -114230,9 +114230,9 @@ export const fakemons: Fakemon[] =
       hp: 85,
       attack: 75,
       defense: 77,
-      spAttack: 94,
-      spDefense: 70,
-      speed: 105
+      spAttack: 70,
+      spDefense: 105,
+      speed: 94
     },
     height: "0.7",
     weight: "112.8",
@@ -114321,9 +114321,9 @@ export const fakemons: Fakemon[] =
       hp: 10,
       attack: 55,
       defense: 25,
-      spAttack: 95,
-      spDefense: 35,
-      speed: 25
+      spAttack: 35,
+      spDefense: 25,
+      speed: 95
     },
     height: "1.2",
     weight: "1.8",
@@ -114400,9 +114400,9 @@ export const fakemons: Fakemon[] =
       hp: 35,
       attack: 100,
       defense: 50,
-      spAttack: 120,
-      spDefense: 50,
-      speed: 70
+      spAttack: 50,
+      spDefense: 70,
+      speed: 120
     },
     height: "1.2",
     weight: "5.4",
@@ -114483,9 +114483,9 @@ export const fakemons: Fakemon[] =
       hp: 70,
       attack: 103,
       defense: 85,
-      spAttack: 82,
-      spDefense: 60,
-      speed: 85
+      spAttack: 60,
+      spDefense: 85,
+      speed: 82
     },
     height: "1.5",
     weight: "42.9",
@@ -114585,9 +114585,9 @@ export const fakemons: Fakemon[] =
       hp: 70,
       attack: 45,
       defense: 40,
-      spAttack: 75,
-      spDefense: 45,
-      speed: 40
+      spAttack: 45,
+      spDefense: 40,
+      speed: 75
     },
     height: "1.3",
     weight: "60.2",
@@ -114668,9 +114668,9 @@ export const fakemons: Fakemon[] =
       hp: 100,
       attack: 70,
       defense: 72,
-      spAttack: 100,
-      spDefense: 53,
-      speed: 62
+      spAttack: 53,
+      spDefense: 62,
+      speed: 100
     },
     height: "1.3",
     weight: "60.2",
@@ -114772,9 +114772,9 @@ export const fakemons: Fakemon[] =
       hp: 45,
       attack: 70,
       defense: 63,
-      spAttack: 47,
-      spDefense: 30,
-      speed: 45
+      spAttack: 30,
+      spDefense: 45,
+      speed: 47
     },
     height: "1.0",
     weight: "35.0",
@@ -114862,9 +114862,9 @@ export const fakemons: Fakemon[] =
       hp: 80,
       attack: 119,
       defense: 90,
-      spAttack: 90,
-      spDefense: 54,
-      speed: 67
+      spAttack: 54,
+      spDefense: 67,
+      speed: 90
     },
     height: "1.8",
     weight: "120.0",
@@ -114959,9 +114959,9 @@ export const fakemons: Fakemon[] =
       hp: 70,
       attack: 95,
       defense: 65,
-      spAttack: 121,
-      spDefense: 85,
-      speed: 65
+      spAttack: 85,
+      spDefense: 65,
+      speed: 121
     },
     height: "1.6",
     weight: "63.0",
@@ -115056,9 +115056,9 @@ export const fakemons: Fakemon[] =
       hp: 70,
       attack: 85,
       defense: 145,
-      spAttack: 65,
-      spDefense: 60,
-      speed: 55
+      spAttack: 60,
+      spDefense: 55,
+      speed: 65
     },
     height: "2.5",
     weight: "310.0",
@@ -115145,8 +115145,8 @@ export const fakemons: Fakemon[] =
       hp: 48,
       attack: 35,
       defense: 42,
-      spAttack: 60,
-      spDefense: 105,
+      spAttack: 105,
+      spDefense: 60,
       speed: 60
     },
     height: "0.7",
@@ -115230,9 +115230,9 @@ export const fakemons: Fakemon[] =
       hp: 83,
       attack: 55,
       defense: 90,
-      spAttack: 86,
-      spDefense: 130,
-      speed: 81
+      spAttack: 130,
+      spDefense: 81,
+      speed: 86
     },
     height: "1.5",
     weight: "45.0",
@@ -115321,9 +115321,9 @@ export const fakemons: Fakemon[] =
       hp: 50,
       attack: 61,
       defense: 60,
-      spAttack: 34,
-      spDefense: 30,
-      speed: 55
+      spAttack: 30,
+      spDefense: 55,
+      speed: 34
     },
     height: "0.6",
     weight: "35.0",
@@ -115416,9 +115416,9 @@ export const fakemons: Fakemon[] =
       hp: 72,
       attack: 101,
       defense: 100,
-      spAttack: 68,
-      spDefense: 50,
-      speed: 97
+      spAttack: 50,
+      spDefense: 97,
+      speed: 68
     },
     height: "2.0",
     weight: "15.0",
@@ -115511,9 +115511,9 @@ export const fakemons: Fakemon[] =
       hp: 82,
       attack: 115,
       defense: 74,
-      spAttack: 90,
-      spDefense: 75,
-      speed: 64
+      spAttack: 75,
+      spDefense: 64,
+      speed: 90
     },
     height: "1.6",
     weight: "37.0",
@@ -115604,9 +115604,9 @@ export const fakemons: Fakemon[] =
       hp: 108,
       attack: 68,
       defense: 45,
-      spAttack: 43,
-      spDefense: 30,
-      speed: 40
+      spAttack: 30,
+      spDefense: 40,
+      speed: 43
     },
     height: "1.2",
     weight: "45.0",
@@ -115696,9 +115696,9 @@ export const fakemons: Fakemon[] =
       hp: 170,
       attack: 113,
       defense: 65,
-      spAttack: 73,
-      spDefense: 45,
-      speed: 55
+      spAttack: 45,
+      spDefense: 55,
+      speed: 73
     },
     height: "4.5",
     weight: "700.0",
@@ -115788,9 +115788,9 @@ export const fakemons: Fakemon[] =
       hp: 90,
       attack: 102,
       defense: 73,
-      spAttack: 70,
-      spDefense: 78,
-      speed: 65
+      spAttack: 78,
+      spDefense: 65,
+      speed: 70
     },
     height: "2.5",
     weight: "90.0",
@@ -115874,9 +115874,9 @@ export const fakemons: Fakemon[] =
       hp: 150,
       attack: 100,
       defense: 115,
-      spAttack: 35,
+      spAttack: 65,
       spDefense: 65,
-      speed: 65
+      speed: 35
     },
     height: "12.0",
     weight: "220.0",
@@ -115963,9 +115963,9 @@ export const fakemons: Fakemon[] =
       hp: 68,
       attack: 50,
       defense: 60,
-      spAttack: 82,
-      spDefense: 120,
-      speed: 95
+      spAttack: 120,
+      spDefense: 95,
+      speed: 82
     },
     height: "0.3",
     weight: "8.0",
@@ -116041,8 +116041,8 @@ export const fakemons: Fakemon[] =
       hp: 110,
       attack: 115,
       defense: 80,
-      spAttack: 90,
-      spDefense: 50,
+      spAttack: 50,
+      spDefense: 90,
       speed: 90
     },
     height: "1.2",
@@ -116161,9 +116161,9 @@ export const fakemons: Fakemon[] =
       hp: 130,
       attack: 75,
       defense: 60,
-      spAttack: 20,
-      spDefense: 45,
-      speed: 100
+      spAttack: 45,
+      spDefense: 100,
+      speed: 20
     },
     height: "1.8",
     weight: "223.0",
@@ -116264,9 +116264,9 @@ export const fakemons: Fakemon[] =
       hp: 120,
       attack: 90,
       defense: 70,
-      spAttack: 60,
-      spDefense: 110,
-      speed: 70
+      spAttack: 110,
+      spDefense: 70,
+      speed: 60
     },
     height: "3.2",
     weight: "160.0",
@@ -116380,9 +116380,9 @@ export const fakemons: Fakemon[] =
       hp: 125,
       attack: 100,
       defense: 80,
-      spAttack: 55,
-      spDefense: 85,
-      speed: 75
+      spAttack: 85,
+      spDefense: 75,
+      speed: 55
     },
     height: "3.6",
     weight: "39.2",
@@ -116508,9 +116508,9 @@ export const fakemons: Fakemon[] =
       hp: 100,
       attack: 135,
       defense: 120,
-      spAttack: 50,
-      spDefense: 60,
-      speed: 85
+      spAttack: 60,
+      spDefense: 85,
+      speed: 50
     },
     height: "2.0",
     weight: "120.0",
@@ -116609,9 +116609,9 @@ export const fakemons: Fakemon[] =
       hp: 115,
       attack: 131,
       defense: 131,
-      spAttack: 87,
+      spAttack: 53,
       spDefense: 53,
-      speed: 53
+      speed: 87
     },
     height: "2.2",
     weight: "320.0",
@@ -116713,9 +116713,9 @@ export const fakemons: Fakemon[] =
       hp: 115,
       attack: 65,
       defense: 99,
-      spAttack: 111,
-      spDefense: 65,
-      speed: 115
+      spAttack: 65,
+      spDefense: 115,
+      speed: 111
     },
     height: "1.2",
     weight: "8.0",
@@ -116838,9 +116838,9 @@ export const fakemons: Fakemon[] =
       hp: 111,
       attack: 127,
       defense: 99,
-      spAttack: 55,
-      spDefense: 79,
-      speed: 99
+      spAttack: 79,
+      spDefense: 99,
+      speed: 55
     },
     height: "1.2",
     weight: "21.0",
@@ -117023,9 +117023,9 @@ export const fakemons: Fakemon[] =
       hp: 85,
       attack: 135,
       defense: 79,
-      spAttack: 81,
-      spDefense: 85,
-      speed: 105
+      spAttack: 85,
+      spDefense: 105,
+      speed: 81
     },
     height: "3.2",
     weight: "92.0",
@@ -117124,9 +117124,9 @@ export const fakemons: Fakemon[] =
       hp: 85,
       attack: 81,
       defense: 97,
-      spAttack: 101,
-      spDefense: 121,
-      speed: 85
+      spAttack: 121,
+      spDefense: 85,
+      speed: 101
     },
     height: "2.3",
     weight: "60.0",
@@ -117223,9 +117223,9 @@ export const fakemons: Fakemon[] =
       hp: 90,
       attack: 112,
       defense: 120,
-      spAttack: 106,
-      spDefense: 72,
-      speed: 70
+      spAttack: 72,
+      spDefense: 70,
+      speed: 106
     },
     height: "0.9",
     weight: "240.0",
@@ -117321,9 +117321,9 @@ export const fakemons: Fakemon[] =
       hp: 56,
       attack: 80,
       defense: 114,
-      spAttack: 136,
-      spDefense: 124,
-      speed: 60
+      spAttack: 124,
+      spDefense: 60,
+      speed: 136
     },
     height: "0.6",
     weight: "11.0",
@@ -117410,8 +117410,8 @@ export const fakemons: Fakemon[] =
       attack: 140,
       defense: 108,
       spAttack: 50,
-      spDefense: 50,
-      speed: 68
+      spDefense: 68,
+      speed: 50
     },
     height: "1.8",
     weight: "380.7",
@@ -117508,9 +117508,9 @@ export const fakemons: Fakemon[] =
       hp: 94,
       attack: 80,
       defense: 86,
-      spAttack: 108,
-      spDefense: 122,
-      speed: 80
+      spAttack: 122,
+      spDefense: 80,
+      speed: 108
     },
     height: "1.3",
     weight: "111.0",
@@ -117612,8 +117612,8 @@ export const fakemons: Fakemon[] =
       hp: 80,
       attack: 70,
       defense: 60,
-      spAttack: 110,
-      spDefense: 140,
+      spAttack: 140,
+      spDefense: 110,
       speed: 110
     },
     height: "1.2",
@@ -117711,9 +117711,9 @@ export const fakemons: Fakemon[] =
       hp: 100,
       attack: 134,
       defense: 110,
-      spAttack: 72,
-      spDefense: 70,
-      speed: 84
+      spAttack: 70,
+      spDefense: 84,
+      speed: 72
     },
     height: "1.6",
     weight: "303.0",
@@ -117837,9 +117837,9 @@ export const fakemons: Fakemon[] =
       hp: 65,
       attack: 75,
       defense: 45,
-      spAttack: 55,
-      spDefense: 35,
-      speed: 45
+      spAttack: 35,
+      spDefense: 45,
+      speed: 55
     },
     height: "0.5",
     weight: "17.0",
@@ -117916,9 +117916,9 @@ export const fakemons: Fakemon[] =
       hp: 90,
       attack: 95,
       defense: 66,
-      spAttack: 62,
-      spDefense: 45,
-      speed: 65
+      spAttack: 45,
+      spDefense: 65,
+      speed: 62
     },
     height: "0.8",
     weight: "30.0",
@@ -117995,9 +117995,9 @@ export const fakemons: Fakemon[] =
       hp: 115,
       attack: 145,
       defense: 92,
-      spAttack: 87,
-      spDefense: 75,
-      speed: 86
+      spAttack: 75,
+      spDefense: 86,
+      speed: 87
     },
     height: "2.1",
     weight: "210.0",
@@ -118093,9 +118093,9 @@ export const fakemons: Fakemon[] =
       hp: 45,
       attack: 30,
       defense: 70,
-      spAttack: 10,
-      spDefense: 75,
-      speed: 70
+      spAttack: 75,
+      spDefense: 70,
+      speed: 10
     },
     height: "0.3",
     weight: "5.0",
@@ -118147,9 +118147,9 @@ export const fakemons: Fakemon[] =
       hp: 87,
       attack: 60,
       defense: 95,
-      spAttack: 84,
-      spDefense: 133,
-      speed: 91
+      spAttack: 133,
+      spDefense: 91,
+      speed: 84
     },
     height: "1.2",
     weight: "30.0",
@@ -118235,9 +118235,9 @@ export const fakemons: Fakemon[] =
       hp: 85,
       attack: 85,
       defense: 100,
-      spAttack: 70,
-      spDefense: 95,
-      speed: 135
+      spAttack: 95,
+      spDefense: 135,
+      speed: 70
     },
     height: "1.5",
     weight: "74.2",
@@ -118330,9 +118330,9 @@ export const fakemons: Fakemon[] =
       hp: 80,
       attack: 120,
       defense: 80,
-      spAttack: 135,
-      spDefense: 90,
-      speed: 65
+      spAttack: 90,
+      spDefense: 65,
+      speed: 135
     },
     height: "1.9",
     weight: "152.2",
@@ -118419,9 +118419,9 @@ export const fakemons: Fakemon[] =
       hp: 155,
       attack: 110,
       defense: 125,
-      spAttack: 45,
-      spDefense: 55,
-      speed: 80
+      spAttack: 55,
+      spDefense: 80,
+      speed: 45
     },
     height: "2.7",
     weight: "699.7",
@@ -118511,9 +118511,9 @@ export const fakemons: Fakemon[] =
       hp: 55,
       attack: 80,
       defense: 80,
-      spAttack: 100,
-      spDefense: 135,
-      speed: 120
+      spAttack: 135,
+      spDefense: 120,
+      speed: 100
     },
     height: "0.4",
     weight: "4.9",
@@ -118600,9 +118600,9 @@ export const fakemons: Fakemon[] =
       hp: 105,
       attack: 139,
       defense: 71,
-      spAttack: 119,
-      spDefense: 55,
-      speed: 101
+      spAttack: 55,
+      spDefense: 101,
+      speed: 119
     },
     height: "2.0",
     weight: "380.0",
@@ -118715,9 +118715,9 @@ export const fakemons: Fakemon[] =
       hp: 74,
       attack: 130,
       defense: 90,
-      spAttack: 116,
-      spDefense: 120,
-      speed: 60
+      spAttack: 120,
+      spDefense: 60,
+      speed: 116
     },
     height: "1.4",
     weight: "35.0",
@@ -118836,9 +118836,9 @@ export const fakemons: Fakemon[] =
       hp: 100,
       attack: 135,
       defense: 115,
-      spAttack: 135,
-      spDefense: 85,
-      speed: 100
+      spAttack: 85,
+      spDefense: 100,
+      speed: 135
     },
     height: "2.5",
     weight: "303.0",
@@ -118956,8 +118956,8 @@ export const fakemons: Fakemon[] =
       attack: 85,
       defense: 100,
       spAttack: 135,
-      spDefense: 135,
-      speed: 115
+      spDefense: 115,
+      speed: 135
     },
     height: "3.5",
     weight: "240.0",
@@ -119057,9 +119057,9 @@ export const fakemons: Fakemon[] =
       hp: 99,
       attack: 83,
       defense: 91,
-      spAttack: 109,
-      spDefense: 125,
-      speed: 83
+      spAttack: 125,
+      spDefense: 83,
+      speed: 109
     },
     height: "3.5",
     weight: "280.0",
@@ -119154,9 +119154,9 @@ export const fakemons: Fakemon[] =
       hp: 90,
       attack: 130,
       defense: 88,
-      spAttack: 104,
-      spDefense: 70,
-      speed: 108
+      spAttack: 70,
+      spDefense: 108,
+      speed: 104
     },
     height: "1.5",
     weight: "125.0",
@@ -119254,9 +119254,9 @@ export const fakemons: Fakemon[] =
       hp: 80,
       attack: 80,
       defense: 110,
-      spAttack: 40,
-      spDefense: 95,
-      speed: 80
+      spAttack: 95,
+      spDefense: 80,
+      speed: 40
     },
     height: "0.4",
     weight: "4.4",
@@ -119338,9 +119338,9 @@ export const fakemons: Fakemon[] =
       hp: 40,
       attack: 45,
       defense: 45,
-      spAttack: 50,
-      spDefense: 74,
-      speed: 54
+      spAttack: 74,
+      spDefense: 54,
+      speed: 50
     },
     height: "0.1",
     weight: "1.1",
@@ -119417,9 +119417,9 @@ export const fakemons: Fakemon[] =
       hp: 71,
       attack: 60,
       defense: 106,
-      spAttack: 70,
-      spDefense: 121,
-      speed: 80
+      spAttack: 121,
+      spDefense: 80,
+      speed: 70
     },
     height: "0.2",
     weight: "2.2",
@@ -119498,9 +119498,9 @@ export const fakemons: Fakemon[] =
       hp: 88,
       attack: 128,
       defense: 115,
-      spAttack: 80,
-      spDefense: 58,
-      speed: 86
+      spAttack: 58,
+      spDefense: 86,
+      speed: 80
     },
     height: "1.8",
     weight: "92.2",
@@ -119604,9 +119604,9 @@ export const fakemons: Fakemon[] =
       hp: 88,
       attack: 75,
       defense: 66,
-      spAttack: 106,
-      spDefense: 130,
-      speed: 90
+      spAttack: 130,
+      spDefense: 90,
+      speed: 106
     },
     height: "1.0",
     weight: "12.2",
@@ -119703,9 +119703,9 @@ export const fakemons: Fakemon[] =
       hp: 88,
       attack: 91,
       defense: 82,
-      spAttack: 99,
-      spDefense: 70,
-      speed: 125
+      spAttack: 70,
+      spDefense: 125,
+      speed: 99
     },
     height: "1.4",
     weight: "30.1",
@@ -119802,9 +119802,9 @@ export const fakemons: Fakemon[] =
       hp: 80,
       attack: 120,
       defense: 84,
-      spAttack: 110,
-      spDefense: 60,
-      speed: 96
+      spAttack: 60,
+      spDefense: 96,
+      speed: 110
     },
     height: "1.2",
     weight: "39.8",
@@ -119902,9 +119902,9 @@ export const fakemons: Fakemon[] =
       hp: 90,
       attack: 105,
       defense: 130,
-      spAttack: 85,
-      spDefense: 125,
-      speed: 65
+      spAttack: 125,
+      spDefense: 65,
+      speed: 85
     },
     height: "2.0",
     weight: "60.0",
@@ -120003,9 +120003,9 @@ export const fakemons: Fakemon[] =
       hp: 106,
       attack: 80,
       defense: 110,
-      spAttack: 44,
-      spDefense: 120,
-      speed: 80
+      spAttack: 120,
+      spDefense: 80,
+      speed: 44
     },
     height: "1.8",
     weight: "93.0",
@@ -120102,9 +120102,9 @@ export const fakemons: Fakemon[] =
       hp: 105,
       attack: 115,
       defense: 121,
-      spAttack: 91,
-      spDefense: 65,
-      speed: 93
+      spAttack: 65,
+      spDefense: 93,
+      speed: 91
     },
     height: "3.5",
     weight: "590.0",
@@ -120205,9 +120205,9 @@ export const fakemons: Fakemon[] =
       hp: 125,
       attack: 73,
       defense: 91,
-      spAttack: 75,
-      spDefense: 137,
-      speed: 89
+      spAttack: 137,
+      spDefense: 89,
+      speed: 75
     },
     height: "5.2",
     weight: "480.0",
@@ -120304,9 +120304,9 @@ export const fakemons: Fakemon[] =
       hp: 90,
       attack: 120,
       defense: 80,
-      spAttack: 124,
-      spDefense: 68,
-      speed: 108
+      spAttack: 68,
+      spDefense: 108,
+      speed: 124
     },
     height: "1.5",
     weight: "162.5",
@@ -120395,9 +120395,9 @@ export const fakemons: Fakemon[] =
       hp: 90,
       attack: 72,
       defense: 100,
-      spAttack: 98,
-      spDefense: 122,
-      speed: 108
+      spAttack: 122,
+      spDefense: 108,
+      speed: 98
     },
     height: "1.6",
     weight: "156.0",
@@ -120488,9 +120488,9 @@ export const fakemons: Fakemon[] =
       hp: 90,
       attack: 65,
       defense: 85,
-      spAttack: 60,
-      spDefense: 65,
-      speed: 85
+      spAttack: 65,
+      spDefense: 85,
+      speed: 60
     },
     height: "0.2",
     weight: "6.5",
