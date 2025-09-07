@@ -4,6 +4,7 @@ import { Plus, Trash2, Download, X, Edit, ExternalLink } from "lucide-react";
 import { useTeamBuilder } from "./components/team-builder-context";
 import { PokemonSelectorModal } from "./components/pokemon-selector-modal";
 import { PokemonEditorModal } from "./components/pokemon-edit-modal";
+import { TrainerEditor } from "./components/trainer-editor";
 import { getTypeColor } from "@/lib/type-colors";
 import type { Fakemon, FakemonForTeam } from "@/types/fakemon";
 import { getAllFakemons } from "@/lib/fakemons";
@@ -12,8 +13,15 @@ import { PokemonImage } from "@/components/absolution/pokemon-image";
 export const TeamBuilder = () => {
   const navigate = useNavigate();
   const fakemons = getAllFakemons();
-  const { team, addPokemon, removePokemon, updatePokemon, clearTeam } =
-    useTeamBuilder();
+  const {
+    team,
+    trainer,
+    addPokemon,
+    removePokemon,
+    updatePokemon,
+    updateTrainer,
+    clearTeam,
+  } = useTeamBuilder();
   const [showPokemonSelector, setShowPokemonSelector] = useState(false);
   const [editingPokemon, setEditingPokemon] = useState<{
     pokemon: FakemonForTeam;
@@ -227,6 +235,9 @@ export const TeamBuilder = () => {
             ))}
           </div>
         </div>
+
+        {/* Trainer Information */}
+        <TrainerEditor trainer={trainer} onUpdate={updateTrainer} />
 
         {/* Pokemon Selector Modal */}
         <PokemonSelectorModal

@@ -1,0 +1,117 @@
+﻿# See the documentation on the wiki to learn how to edit this file.
+#-------------------------------
+[POKEMONTRAINER_PROTA_M]
+Name = Pokémon Trainer
+Gender = Male
+BaseMoney = 60
+#-------------------------------
+[POKEMONTRAINER_PROTA_F]
+Name = Pokémon Trainer
+Gender = Female
+BaseMoney = 60
+#-------------------------------
+[MINER_ABSOLUTION]
+Name = Miner
+Gender = Male
+BaseMoney = 60
+#-------------------------------
+[AROMALADY_ABSOLUTION]
+Name = Aroma Lady
+Gender = Female
+BaseMoney = 60
+#-------------------------------
+[COWBOY_ABSOLUTION]
+Name = Cowboy
+Gender = Male
+BaseMoney = 60
+#-------------------------------
+[COWGIRL_ABSOLUTION]
+Name = Cowgirl
+Gender = Female
+BaseMoney = 60
+#-------------------------------
+[RIVAL_DITTO]
+Name = Pokémon Trainer
+Gender = Male
+BaseMoney = 60
+BattleBGM = TBT-Bloody Roar 2 OST Theme of Shina
+#-------------------------------
+[RIVAL_CAMELIA]
+Name = Pokémon Trainer
+Gender = Female
+BaseMoney = 60
+BattleBGM = TBT-Bakugan Battle Brawler OST  Battle Contest BGM
+#-------------------------------
+[RIVAL_CARTAMO]
+Name = Pokémon Trainer
+Gender = Male
+BaseMoney = 60
+BattleBGM = TBT-Rock Star (Desert-Mountain Area)
+#-------------------------------
+[PROFESSOR_KAOBA]
+Name = Professor
+Gender = Female
+BaseMoney = 60
+#-------------------------------
+[COWGIRL_SAMANTA]
+Name = Cowgirl
+Gender = Female
+BaseMoney = 60
+SkillLevel = 200
+BattleBGM = Megaman X4 - Split Mushroom Stage
+#-------------------------------
+[CORRUPT_RECRUIT_M]
+Name = Corrupt Team
+Gender = Male
+BaseMoney = 60
+BattleBGM = Megaman X4 - Split Mushroom Stage
+#-------------------------------
+[CORRUPT_RECRUIT_F]
+Name = Corrupt Team
+Gender = Female
+BaseMoney = 60
+BattleBGM = Megaman X4 - Split Mushroom Stage
+#-------------------------------
+[CORRUPT_ADMIN_ROSA]
+Name = Corrupt Team
+Gender = Female
+BaseMoney = 100
+SkillLevel = 120
+BattleBGM = Megaman X4 - Split Mushroom Stage
+#-------------------------------
+[AGRONOMIST_SYLVIA]
+Name = Agronomist
+Gender = Female
+BaseMoney = 100
+SkillLevel = 120
+#-------------------------------
+[GYM_LEADER_BUG]
+Name = Gym Leader
+Gender = Male
+BaseMoney = 60
+SkillLevel = 200
+Flags = ReserveLastPokemon
+BattleBGM = GYM1-Battle (Gym Leader - Kanto)
+#-------------------------------
+[GYM_LEADER_BUG_RIGHT_HAD]
+Name = Right Hand Of The Leader
+Gender = Male
+BaseMoney = 60
+SkillLevel = 200
+Flags = ReserveLastPokemon
+BattleBGM = GYM1-Atlas-Scourge of the Night (Bakuryu)
+#-------------------------------
+[BUGCATCHER_GROUP]
+Name = Bug Catcher Group
+Gender = Unknown
+BaseMoney = 16
+#-------------------------------
+[POKEMONTRAINER_PROTA_MULTIPLAYER_M]
+Name = Pokémon Trainer
+Gender = Male
+BaseMoney = 60
+#-------------------------------
+[POKEMONTRAINER_PROTA_MULTIPLAYER_F]
+Name = Pokémon Trainer
+Gender = Female
+BaseMoney = 60

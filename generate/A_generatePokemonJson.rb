@@ -340,7 +340,10 @@ end
 trainer_types_configs = [
   {
     output: File.join(__dir__, "../src/data/trainer_types.ts"),
-    inputs: [File.join(__dir__, "./trainer_types.txt")],
+    inputs: [
+      File.join(__dir__, "./trainer_types.txt"),
+      File.join(__dir__, "./trainer_types_absolution.txt")
+    ],
     suffix: "normal"
   }
 ]
