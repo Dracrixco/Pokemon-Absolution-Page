@@ -1,6 +1,14 @@
 import { useState } from "react";
 import { useNavigate } from "react-router-dom";
-import { Plus, Trash2, Download, X, Edit, ExternalLink } from "lucide-react";
+import {
+  Plus,
+  Trash2,
+  Download,
+  X,
+  Edit,
+  ExternalLink,
+  Eye,
+} from "lucide-react";
 import { useTeamBuilder } from "./components/team-builder-context";
 import { PokemonSelectorModal } from "./components/pokemon-selector-modal";
 import { PokemonEditorModal } from "./components/pokemon-edit-modal";
@@ -177,6 +185,15 @@ export const TeamBuilder = () => {
                   className="bg-gray-50 rounded-lg p-4 relative"
                 >
                   <div className="absolute top-2 right-2 flex gap-1">
+                    <button
+                      onClick={() =>
+                        window.open(`/fakemons/${teamPokemon.id}`, "_blank")
+                      }
+                      className="text-purple-500 hover:text-purple-700 p-1 bg-white rounded shadow-sm"
+                      title="See"
+                    >
+                      <Eye size={16} />
+                    </button>
                     <button
                       onClick={() => handleEditPokemon(teamPokemon, index)}
                       className="text-blue-500 hover:text-blue-700 p-1 bg-white rounded shadow-sm"

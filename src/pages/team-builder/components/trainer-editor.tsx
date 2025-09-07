@@ -95,9 +95,9 @@ export const TrainerEditor: React.FC<TrainerEditorProps> = ({
                   onClick={() => setShowTrainerSelector(true)}
                   className="w-full p-3 border-2 border-dashed border-gray-300 rounded-lg hover:border-blue-400 hover:bg-blue-50 transition-colors"
                 >
-                  <div className="flex items-center justify-center gap-2">
+                  <div className="flex flex-col items-center justify-center gap-2">
                     {trainerType && (
-                      <div className="w-12 h-12 bg-gray-100 rounded flex items-center justify-center overflow-hidden">
+                      <div className="w-full h-72 bg-gray-100 rounded flex items-center justify-center overflow-hidden">
                         <img
                           src={
                             getTrainerTypeById(editedTrainer.trainerID)?.sprite
