@@ -103,7 +103,7 @@ export const FakemonsList = () => {
           <div className="mt-8 flex flex-col items-center gap-4">
             <div className="flex items-center gap-2 text-purple-300">
               <Filter size={20} />
-              <span className="font-medium">Filtrar por versión:</span>
+              <span className="font-medium">Filter by version:</span>
             </div>
 
             <div className="flex flex-wrap justify-center gap-2">
@@ -115,7 +115,7 @@ export const FakemonsList = () => {
                     : "bg-purple-700 text-white hover:bg-purple-600"
                 }`}
               >
-                Todos ({allFakemons.length})
+                All ({allFakemons.length})
               </button>
 
               {availableSuffixes.map((suffix) => {
@@ -141,11 +141,11 @@ export const FakemonsList = () => {
 
           {/* Stats de paginación */}
           <div className="mt-6 text-purple-300 text-sm">
-            Mostrando {totalItems > 0 ? startIndex + 1 : 0}-
-            {Math.min(endIndex, totalItems)} de {totalItems} Fakemons
+            Showing {totalItems > 0 ? startIndex + 1 : 0}-
+            {Math.min(endIndex, totalItems)} of {totalItems} Fakemons
             {selectedSuffix !== "all" && (
               <span className="ml-2">
-                (filtrado por {formatSuffixName(selectedSuffix)})
+                (filtered by {formatSuffixName(selectedSuffix)})
               </span>
             )}
           </div>
@@ -158,13 +158,13 @@ export const FakemonsList = () => {
           {totalItems === 0 ? (
             <div className="text-center py-16">
               <div className="text-purple-300 text-xl mb-4">
-                No se encontraron Fakemons para el filtro seleccionado
+                No Fakemons found for the selected filter
               </div>
               <button
                 onClick={() => handleSuffixChange("all")}
                 className="px-4 py-2 bg-purple-600 text-white rounded-lg hover:bg-purple-500 transition-colors"
               >
-                Ver todos los Fakemons
+                View all Fakemons
               </button>
             </div>
           ) : (
@@ -189,7 +189,7 @@ export const FakemonsList = () => {
                     }`}
                   >
                     <ChevronLeft size={16} className="mr-1" />
-                    Anterior
+                    Previous
                   </button>
 
                   {/* Números de página */}
@@ -252,7 +252,7 @@ export const FakemonsList = () => {
                         : "bg-purple-700 text-white hover:bg-purple-600"
                     }`}
                   >
-                    Siguiente
+                    Next
                     <ChevronRight size={16} className="ml-1" />
                   </button>
                 </div>
@@ -261,7 +261,7 @@ export const FakemonsList = () => {
               {/* Selector de elementos por página */}
               <div className="flex justify-center items-center mt-6 space-x-4">
                 <label className="text-purple-300 text-sm">
-                  Elementos por página:
+                  Items per page:
                 </label>
                 <select
                   value={itemsPerPage}
@@ -283,7 +283,7 @@ export const FakemonsList = () => {
               {/* Jump to page */}
               {totalPages > 1 && (
                 <div className="flex justify-center items-center mt-4 space-x-2">
-                  <span className="text-purple-300 text-sm">Ir a página:</span>
+                  <span className="text-purple-300 text-sm">Go to page:</span>
                   <input
                     type="number"
                     min={1}
@@ -298,7 +298,7 @@ export const FakemonsList = () => {
                     className="w-16 px-2 py-1 rounded bg-purple-700 text-white border border-purple-600 text-sm text-center focus:ring-2 focus:ring-purple-400"
                   />
                   <span className="text-purple-300 text-sm">
-                    de {totalPages}
+                    of {totalPages}
                   </span>
                 </div>
               )}
