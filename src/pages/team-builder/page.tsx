@@ -70,10 +70,14 @@ export const TeamBuilder = () => {
     }
   };
 
-  const exportTeam = () => {
+  const exportTeam = (exportAsFile = false) => {
     let exportText = "";
 
-    team.forEach((pokemon, index) => {
+    exportText += `[${trainer.trainerID},${trainer.name}]\n`;
+    exportText += `LoseText = ${trainer.loseText}\n`;
+    exportText += `StartText = ${trainer.startText}\n`;
+
+    team.forEach((pokemon) => {
       exportText += `Pokemon = ${pokemon.id},5\n`;
       exportText += `    Gender = male\n`;
       exportText += `    IV = ${pokemon.ivs.join(",")}\n`;
@@ -98,22 +102,24 @@ export const TeamBuilder = () => {
       exportText += `    AbilityIndex_normal = ${pokemon.abilityIndex_normal}\n`;
       exportText += `    AbilityIndex_hard = ${pokemon.abilityIndex_hard}\n`;
       exportText += `    AbilityIndex_absolution = ${pokemon.abilityIndex_absolution}\n`;
-
-      if (index < team.length - 1) {
-        exportText += "\n";
-      }
     });
 
     // Create and download file
-    const blob = new Blob([exportText], { type: "text/plain" });
-    const url = URL.createObjectURL(blob);
-    const a = document.createElement("a");
-    a.href = url;
-    a.download = "team_export.txt";
-    document.body.appendChild(a);
-    a.click();
-    document.body.removeChild(a);
-    URL.revokeObjectURL(url);
+
+    if (exportAsFile) {
+      const blob = new Blob([exportText], { type: "text/plain" });
+      const url = URL.createObjectURL(blob);
+      const a = document.createElement("a");
+      a.href = url;
+      a.download = "team_export.txt";
+      document.body.appendChild(a);
+      a.click();
+      document.body.removeChild(a);
+      URL.revokeObjectURL(url);
+    } else {
+      console.clear();
+      console.log(exportText);
+    }
   };
 
   return (
@@ -139,7 +145,9 @@ export const TeamBuilder = () => {
                 Add Pokémon
               </button>
               <button
-                onClick={exportTeam}
+                onClick={() => {
+                  exportTeam(false);
+                }}
                 disabled={team.length === 0}
                 className="flex items-center gap-2 px-4 py-2 bg-green-500 text-white rounded-lg hover:bg-green-600 disabled:bg-gray-400 disabled:cursor-not-allowed"
               >
@@ -156,6 +164,9 @@ export const TeamBuilder = () => {
               </button>
             </div>
           </div>
+
+          {/* Trainer Information */}
+          <TrainerEditor trainer={trainer} onUpdate={updateTrainer} />
 
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4">
             {team.map((teamPokemon, index) => {
@@ -235,9 +246,6 @@ export const TeamBuilder = () => {
             ))}
           </div>
         </div>
-
-        {/* Trainer Information */}
-        <TrainerEditor trainer={trainer} onUpdate={updateTrainer} />
 
         {/* Pokemon Selector Modal */}
         <PokemonSelectorModal

@@ -19,7 +19,7 @@ export const TrainerEditor: React.FC<TrainerEditorProps> = ({
   trainer,
   onUpdate,
 }) => {
-  const [isEditing, setIsEditing] = useState(false);
+  const [isEditing, setIsEditing] = useState(true);
   const [showTrainerSelector, setShowTrainerSelector] = useState(false);
   const [editedTrainer, setEditedTrainer] = useState<TrainerData>(trainer);
 
