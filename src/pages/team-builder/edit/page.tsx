@@ -1,6 +1,15 @@
 import React, { useState, useEffect, useMemo } from "react";
 import { useParams, useNavigate } from "react-router-dom";
-import { ArrowLeft, Save, Zap, Shield, Heart, RotateCcw } from "lucide-react";
+import {
+  ArrowLeft,
+  Save,
+  Zap,
+  Shield,
+  Heart,
+  RotateCcw,
+  BarChart3,
+  Package2,
+} from "lucide-react";
 import { useTeamBuilder } from "../components/team-builder-context";
 import { getAllFakemons } from "@/lib/fakemons";
 import { getTypeColor } from "@/lib/type-colors";
@@ -46,6 +55,9 @@ export const PokemonEditPage: React.FC = () => {
 
   const [selectedDifficulty, setSelectedDifficulty] =
     useState<DifficultyLevel>("easy");
+  const [activeTab, setActiveTab] = useState<"stats" | "moves" | "items">(
+    "stats"
+  );
   const [editedPokemon, setEditedPokemon] = useState<FakemonForTeam | null>(
     null
   );
@@ -337,141 +349,200 @@ export const PokemonEditPage: React.FC = () => {
           </div>
         </div>
 
-        <div className="grid grid-cols-1 xl:grid-cols-3 gap-6">
-          {/* Column 1: Basic Info & Stats */}
-          <div className="space-y-6">
-            {/* Basic Information */}
-            <div className="bg-white rounded-lg p-6">
-              <h2 className="text-lg font-semibold mb-4 flex items-center gap-2">
-                <Heart size={20} className="text-red-500" />
-                Basic Information
-              </h2>
+        {/* Tab Navigation */}
+        <div className="bg-white rounded-lg mb-6">
+          <div className="border-b border-gray-200">
+            <nav className="flex space-x-8" aria-label="Tabs">
+              <button
+                onClick={() => setActiveTab("stats")}
+                className={`py-4 px-1 border-b-2 font-medium text-sm transition-colors ${
+                  activeTab === "stats"
+                    ? "border-blue-500 text-blue-600"
+                    : "border-transparent text-gray-500 hover:text-gray-700 hover:border-gray-300"
+                }`}
+              >
+                <div className="flex items-center gap-2">
+                  <BarChart3 size={20} />
+                  Stats & Info
+                </div>
+              </button>
+              <button
+                onClick={() => setActiveTab("moves")}
+                className={`py-4 px-1 border-b-2 font-medium text-sm transition-colors ${
+                  activeTab === "moves"
+                    ? "border-blue-500 text-blue-600"
+                    : "border-transparent text-gray-500 hover:text-gray-700 hover:border-gray-300"
+                }`}
+              >
+                <div className="flex items-center gap-2">
+                  <Zap size={20} />
+                  Moves
+                </div>
+              </button>
+              <button
+                onClick={() => setActiveTab("items")}
+                className={`py-4 px-1 border-b-2 font-medium text-sm transition-colors ${
+                  activeTab === "items"
+                    ? "border-blue-500 text-blue-600"
+                    : "border-transparent text-gray-500 hover:text-gray-700 hover:border-gray-300"
+                }`}
+              >
+                <div className="flex items-center gap-2">
+                  <Package2 size={20} />
+                  Items
+                </div>
+              </button>
+            </nav>
+          </div>
+        </div>
 
-              <div className="space-y-4">
-                {/* Level */}
-                <div>
-                  <label className="block text-sm font-medium text-gray-700 mb-2">
-                    Level
-                  </label>
-                  <input
-                    type="number"
-                    min="1"
-                    max="100"
-                    value={editedPokemon.level}
-                    onChange={(e) =>
-                      handleLevelChange(
-                        Math.max(
-                          1,
-                          Math.min(100, parseInt(e.target.value) || 1)
+        {/* Tab Content */}
+        <div className="bg-white rounded-lg p-6">
+          {activeTab === "stats" && (
+            <div className="space-y-6">
+              {/* Basic Information */}
+              <div>
+                <h2 className="text-lg font-semibold mb-4 flex items-center gap-2">
+                  <Heart size={20} className="text-red-500" />
+                  Basic Information
+                </h2>
+
+                <div className="grid grid-cols-1 md:grid-cols-3 gap-4">
+                  {/* Level */}
+                  <div>
+                    <label className="block text-sm font-medium text-gray-700 mb-2">
+                      Level
+                    </label>
+                    <input
+                      type="number"
+                      min="1"
+                      max="100"
+                      value={editedPokemon.level}
+                      onChange={(e) =>
+                        handleLevelChange(
+                          Math.max(
+                            1,
+                            Math.min(100, parseInt(e.target.value) || 1)
+                          )
                         )
-                      )
-                    }
-                    className="w-full px-3 py-2 border border-gray-300 rounded-lg focus:ring-2 focus:ring-blue-500 focus:border-blue-500"
-                  />
-                </div>
-
-                {/* Nature */}
-                <div>
-                  <label className="block text-sm font-medium text-gray-700 mb-2">
-                    Nature
-                  </label>
-                  <select
-                    value={editedPokemon.nature}
-                    onChange={(e) =>
-                      handleNatureChange(
-                        e.target.value as keyof typeof NATURE_EFFECTS
-                      )
-                    }
-                    className="w-full px-3 py-2 border border-gray-300 rounded-lg focus:ring-2 focus:ring-blue-500 focus:border-blue-500"
-                  >
-                    {NATURES.map((nature) => {
-                      const effect = NATURE_EFFECTS[nature];
-                      return (
-                        <option key={nature} value={nature}>
-                          {nature}
-                          {effect.increase &&
-                            effect.decrease &&
-                            ` (+${effect.increase}, -${effect.decrease})`}
-                        </option>
-                      );
-                    })}
-                  </select>
-                  {NATURE_EFFECTS[
-                    editedPokemon.nature as keyof typeof NATURE_EFFECTS
-                  ]?.increase && (
-                    <p className="text-xs text-gray-600 mt-1">
-                      +
-                      {
-                        NATURE_EFFECTS[
-                          editedPokemon.nature as keyof typeof NATURE_EFFECTS
-                        ].increase
                       }
-                      , -
-                      {
-                        NATURE_EFFECTS[
-                          editedPokemon.nature as keyof typeof NATURE_EFFECTS
-                        ].decrease
-                      }
-                    </p>
-                  )}
-                </div>
+                      className="w-full px-3 py-2 border border-gray-300 rounded-lg focus:ring-2 focus:ring-blue-500 focus:border-blue-500"
+                    />
+                  </div>
 
-                {/* Ability */}
-                <div>
-                  <label className="block text-sm font-medium text-gray-700 mb-2">
-                    Ability ({selectedDifficulty})
-                  </label>
-                  <select
-                    value={getCurrentAbilityIndex()}
-                    onChange={(e) =>
-                      handleAbilityChange(parseInt(e.target.value))
-                    }
-                    className="w-full px-3 py-2 border border-gray-300 rounded-lg focus:ring-2 focus:ring-blue-500 focus:border-blue-500"
-                  >
-                    {pokemonData.abilities.map((abilityId, index) => {
-                      const ability = abilities.find((a) => a.id === abilityId);
-                      return (
-                        <option key={index} value={index}>
-                          {ability?.name || abilityId}{" "}
-                          {index === 0 ? "(Primary)" : "(Secondary)"}
-                        </option>
-                      );
-                    })}
-                  </select>
+                  {/* Nature */}
+                  <div>
+                    <label className="block text-sm font-medium text-gray-700 mb-2">
+                      Nature
+                    </label>
+                    <select
+                      value={editedPokemon.nature}
+                      onChange={(e) =>
+                        handleNatureChange(
+                          e.target.value as keyof typeof NATURE_EFFECTS
+                        )
+                      }
+                      className="w-full px-3 py-2 border border-gray-300 rounded-lg focus:ring-2 focus:ring-blue-500 focus:border-blue-500"
+                    >
+                      {NATURES.map((nature) => {
+                        const effect = NATURE_EFFECTS[nature];
+                        return (
+                          <option key={nature} value={nature}>
+                            {nature}
+                            {effect.increase &&
+                              effect.decrease &&
+                              ` (+${effect.increase}, -${effect.decrease})`}
+                          </option>
+                        );
+                      })}
+                    </select>
+                    {NATURE_EFFECTS[
+                      editedPokemon.nature as keyof typeof NATURE_EFFECTS
+                    ]?.increase && (
+                      <p className="text-xs text-gray-600 mt-1">
+                        +
+                        {
+                          NATURE_EFFECTS[
+                            editedPokemon.nature as keyof typeof NATURE_EFFECTS
+                          ].increase
+                        }
+                        , -
+                        {
+                          NATURE_EFFECTS[
+                            editedPokemon.nature as keyof typeof NATURE_EFFECTS
+                          ].decrease
+                        }
+                      </p>
+                    )}
+                  </div>
+
+                  {/* Ability */}
+                  <div>
+                    <label className="block text-sm font-medium text-gray-700 mb-2">
+                      Ability ({selectedDifficulty})
+                    </label>
+                    <select
+                      value={getCurrentAbilityIndex()}
+                      onChange={(e) =>
+                        handleAbilityChange(parseInt(e.target.value))
+                      }
+                      className="w-full px-3 py-2 border border-gray-300 rounded-lg focus:ring-2 focus:ring-blue-500 focus:border-blue-500"
+                    >
+                      {[
+                        ...pokemonData.abilities,
+                        ...pokemonData.hiddenAbilities,
+                      ].map((abilityId, index) => {
+                        const ability = abilities.find(
+                          (a) => a.id === abilityId
+                        );
+                        return (
+                          <option key={abilityId} value={index}>
+                            {ability?.name || abilityId}{" "}
+                            {index === 0 ? "(Primary)" : "(Secondary)"}
+                          </option>
+                        );
+                      })}
+                    </select>
+                  </div>
                 </div>
               </div>
+
+              {/* Stats Editor */}
+              <StatsEditor
+                pokemon={editedPokemon}
+                onChange={setEditedPokemon}
+              />
             </div>
+          )}
 
-            {/* Stats Editor */}
-            <StatsEditor pokemon={editedPokemon} onChange={setEditedPokemon} />
-          </div>
+          {activeTab === "moves" && (
+            <div>
+              <h2 className="text-lg font-semibold mb-4 flex items-center gap-2">
+                <Zap size={20} className="text-yellow-500" />
+                Moves ({selectedDifficulty})
+              </h2>
+              <MoveEditorAdvanced
+                pokemon={pokemonData}
+                value={getCurrentMoves()}
+                onChange={handleMovesChange}
+                selectedDifficulty={selectedDifficulty}
+              />
+            </div>
+          )}
 
-          {/* Column 2: Moves */}
-          <div className="bg-white rounded-lg p-6">
-            <h2 className="text-lg font-semibold mb-4 flex items-center gap-2">
-              <Zap size={20} className="text-yellow-500" />
-              Moves ({selectedDifficulty})
-            </h2>
-            <MoveEditorAdvanced
-              pokemon={pokemonData}
-              value={getCurrentMoves()}
-              onChange={handleMovesChange}
-              selectedDifficulty={selectedDifficulty}
-            />
-          </div>
-
-          {/* Column 3: Items */}
-          <div className="bg-white rounded-lg p-6">
-            <h2 className="text-lg font-semibold mb-4 flex items-center gap-2">
-              <Shield size={20} className="text-purple-500" />
-              Item ({selectedDifficulty})
-            </h2>
-            <ItemEditorAdvanced
-              value={getCurrentItem()}
-              onChange={handleItemChange}
-              selectedDifficulty={selectedDifficulty}
-            />
-          </div>
+          {activeTab === "items" && (
+            <div>
+              <h2 className="text-lg font-semibold mb-4 flex items-center gap-2">
+                <Shield size={20} className="text-purple-500" />
+                Item ({selectedDifficulty})
+              </h2>
+              <ItemEditorAdvanced
+                value={getCurrentItem()}
+                onChange={handleItemChange}
+                selectedDifficulty={selectedDifficulty}
+              />
+            </div>
+          )}
         </div>
       </div>
     </div>

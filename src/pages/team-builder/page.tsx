@@ -202,7 +202,6 @@ export const TeamBuilder = () => {
                       </div>
                       <div className="text-sm text-gray-600">
                         <p>Level: {teamPokemon.level}</p>
-                        <p>Nature: {teamPokemon.nature}</p>
                         <p className="text-xs mt-1">
                           EVs: {teamPokemon.evs.join("/")}
                         </p>

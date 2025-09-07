@@ -20,7 +20,7 @@ const STAT_COLORS = [
 const EV_PRESETS = {
   physical: [4, 252, 0, 0, 0, 252], // HP/Atk/Speed
   special: [4, 0, 0, 252, 0, 252], // HP/SpAtk/Speed
-  tank: [252, 0, 252, 0, 4, 0], // HP/Def/SpDef
+  tank: [4, 0, 252, 0, 252, 0], // HP/Def/SpDef
   bulkyPhysical: [252, 252, 0, 0, 4, 0], // HP/Atk/SpDef
   bulkySpecial: [252, 0, 0, 252, 4, 0], // HP/SpAtk/SpDef
   mixed: [4, 126, 0, 126, 0, 252], // Atk/SpAtk/Speed
@@ -52,7 +52,28 @@ export const StatsEditor: React.FC<StatsEditorProps> = ({
   };
 
   const applyEVPreset = (preset: keyof typeof EV_PRESETS) => {
-    onChange({ ...pokemon, evs: [...EV_PRESETS[preset]] });
+    let nature = "";
+    switch (preset) {
+      case "physical":
+        nature = "Adamant";
+        break;
+      case "special":
+        nature = "Modest";
+        break;
+      case "tank":
+        nature = "Bold";
+        break;
+      case "bulkyPhysical":
+        nature = "Careful";
+        break;
+      case "bulkySpecial":
+        nature = "Calm";
+        break;
+      case "mixed":
+        nature = "Timid";
+        break;
+    }
+    onChange({ ...pokemon, evs: [...EV_PRESETS[preset]], nature });
   };
 
   const maximizeIVs = () => {
@@ -131,6 +152,18 @@ export const StatsEditor: React.FC<StatsEditorProps> = ({
                 className="px-3 py-2 bg-purple-100 text-purple-800 rounded-lg hover:bg-purple-200 transition-colors text-sm"
               >
                 Mixed Attacker
+              </button>
+              <button
+                onClick={() => applyEVPreset("bulkyPhysical")}
+                className="px-3 py-2 bg-purple-100 text-amber-800 rounded-lg hover:bg-purple-200 transition-colors text-sm"
+              >
+                Bulky Physical
+              </button>
+              <button
+                onClick={() => applyEVPreset("bulkySpecial")}
+                className="px-3 py-2 bg-purple-100 text-cyan-800 rounded-lg hover:bg-purple-200 transition-colors text-sm"
+              >
+                Bulky Special
               </button>
             </div>
           </div>
