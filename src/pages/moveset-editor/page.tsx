@@ -1,7 +1,8 @@
 import { useState, useMemo } from "react";
-import { Download, Trash2, BarChart3, Search, Zap } from "lucide-react";
+import { Download, Trash2, BarChart3, Search, Zap, Info } from "lucide-react";
 import { getAllMoves } from "@/lib/moves";
 import { getTypeColor } from "@/lib/type-colors";
+import { MoveDetailModal } from "./components/move-detail-modal";
 import type { Move } from "@/types/move";
 
 interface LevelMove {
@@ -30,6 +31,10 @@ export const MovesetEditor = () => {
   const [selectedType, setSelectedType] = useState<string>("all");
   const [selectedCategory, setSelectedCategory] = useState<string>("all");
   const [showStats, setShowStats] = useState(false);
+  const [selectedMoveForModal, setSelectedMoveForModal] = useState<Move | null>(
+    null
+  );
+  const [showMoveModal, setShowMoveModal] = useState(false);
 
   // Get all unique types and categories
   const availableTypes = Array.from(
@@ -213,6 +218,17 @@ export const MovesetEditor = () => {
     a.click();
     document.body.removeChild(a);
     URL.revokeObjectURL(url);
+  };
+
+  // Modal functions
+  const openMoveModal = (move: Move) => {
+    setSelectedMoveForModal(move);
+    setShowMoveModal(true);
+  };
+
+  const closeMoveModal = () => {
+    setSelectedMoveForModal(null);
+    setShowMoveModal(false);
   };
 
   // Clear all moves
@@ -423,10 +439,12 @@ export const MovesetEditor = () => {
               {filteredMoves.map((move) => (
                 <div
                   key={move.id}
-                  onClick={() => handleMoveClick(move)}
-                  className="flex items-center justify-between p-3 border border-gray-200 rounded-lg hover:border-blue-300 hover:bg-blue-50 cursor-pointer transition-colors"
+                  className="flex items-center justify-between p-3 border border-gray-200 rounded-lg hover:border-blue-300 hover:bg-blue-50 transition-colors"
                 >
-                  <div className="flex items-center gap-3">
+                  <div
+                    className="flex items-center gap-3 flex-1 cursor-pointer"
+                    onClick={() => handleMoveClick(move)}
+                  >
                     <span
                       className={`px-2 py-1 rounded text-white text-xs font-medium ${getTypeColor(
                         move.type
@@ -434,15 +452,38 @@ export const MovesetEditor = () => {
                     >
                       {move.type}
                     </span>
+                    <span
+                      className={`px-2 py-1 rounded text-white text-xs font-medium ${
+                        move.category === "Physical"
+                          ? "bg-red-500"
+                          : move.category === "Special"
+                          ? "bg-blue-500"
+                          : "bg-gray-500"
+                      }`}
+                    >
+                      {move.category}
+                    </span>
                     <span className="font-medium">{move.name}</span>
                   </div>
-                  <div className="text-sm text-gray-600">
-                    <span>
-                      {move.power && move.power > 0 && <> PWR: {move.power} </>}
-                      {move.accuracy && move.accuracy > 0 && (
-                        <> ACC: {move.accuracy}%</>
+                  <div className="flex items-center gap-2">
+                    <div className="text-sm text-gray-600">
+                      {move.power && move.power > 0 && (
+                        <span className="mr-2">PWR: {move.power}</span>
                       )}
-                    </span>
+                      {move.accuracy && move.accuracy > 0 && (
+                        <span>ACC: {move.accuracy}%</span>
+                      )}
+                    </div>
+                    <button
+                      onClick={(e) => {
+                        e.stopPropagation();
+                        openMoveModal(move);
+                      }}
+                      className="p-2 text-blue-500 hover:text-blue-700 hover:bg-blue-100 rounded transition-colors"
+                      title="View move details"
+                    >
+                      <Info size={16} />
+                    </button>
                   </div>
                 </div>
               ))}
@@ -678,6 +719,13 @@ export const MovesetEditor = () => {
             </div>
           </div>
         </div>
+
+        {/* Move Detail Modal */}
+        <MoveDetailModal
+          isOpen={showMoveModal}
+          move={selectedMoveForModal}
+          onClose={closeMoveModal}
+        />
       </div>
     </div>
   );
