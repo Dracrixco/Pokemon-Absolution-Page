@@ -83,6 +83,18 @@ const Navigation = ({ className = "" }: { className: string }) => {
       >
         Updates
       </Link>
+      <Link
+        to="/team-builder"
+        className="text-purple-200 hover:text-white transition-colors"
+      >
+        Team Builder
+      </Link>
+      <Link
+        to="/moveset-editor"
+        className="text-purple-200 hover:text-white transition-colors"
+      >
+        Moveset Editor
+      </Link>
     </nav>
   );
 };

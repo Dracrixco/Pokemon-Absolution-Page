@@ -16,6 +16,7 @@ import { TeamBuilderProvider } from "./pages/team-builder/components/team-builde
 import PokemonEditPage from "./pages/team-builder/edit/page";
 import { ItemsPage } from "./pages/items/page";
 import { ItemDetailPage } from "./pages/items/item-detail/page";
+import { MovesetEditor } from "./pages/moveset-editor/page";
 
 export default function PokemonAbsolutionWebsite() {
   return (
@@ -39,6 +40,7 @@ export default function PokemonAbsolutionWebsite() {
           />
           <Route path="/items" element={<ItemsPage />} />
           <Route path="/items/:itemId" element={<ItemDetailPage />} />
+          <Route path="/moveset-editor" element={<MovesetEditor />} />
         </Routes>
         <Footer />
       </TeamBuilderProvider>
