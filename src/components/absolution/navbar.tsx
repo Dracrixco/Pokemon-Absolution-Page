@@ -3,6 +3,7 @@ import { Menu, X } from "lucide-react";
 import { useState } from "react";
 import { RandomLogo } from "./logos";
 
+const SHOW_DEBUG_LINKS = true;
 export const Navbar = () => {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
   return (
@@ -83,18 +84,22 @@ const Navigation = ({ className = "" }: { className: string }) => {
       >
         Updates
       </Link>
-      <Link
-        to="/team-builder"
-        className="text-purple-200 hover:text-white transition-colors"
-      >
-        Team Builder
-      </Link>
-      <Link
-        to="/moveset-editor"
-        className="text-purple-200 hover:text-white transition-colors"
-      >
-        Moveset Editor
-      </Link>
+      {SHOW_DEBUG_LINKS && (
+        <>
+          <Link
+            to="/team-builder"
+            className="text-purple-200 hover:text-white transition-colors"
+          >
+            Team Builder
+          </Link>
+          <Link
+            to="/moveset-editor"
+            className="text-purple-200 hover:text-white transition-colors"
+          >
+            Moveset Editor
+          </Link>
+        </>
+      )}
     </nav>
   );
 };

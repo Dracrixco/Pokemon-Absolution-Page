@@ -1,5 +1,13 @@
 import { useState, useMemo } from "react";
-import { Download, Trash2, BarChart3, Search, Zap, Info } from "lucide-react";
+import {
+  Download,
+  Trash2,
+  BarChart3,
+  Search,
+  Zap,
+  Info,
+  Upload,
+} from "lucide-react";
 import { getAllMoves } from "@/lib/moves";
 import { getTypeColor } from "@/lib/type-colors";
 import { MoveDetailModal } from "./components/move-detail-modal";
@@ -35,6 +43,9 @@ export const MovesetEditor = () => {
     null
   );
   const [showMoveModal, setShowMoveModal] = useState(false);
+  const [showImportModal, setShowImportModal] = useState(false);
+  const [importText, setImportText] = useState("");
+  const [autoSort, setAutoSort] = useState(true);
 
   // Get all unique types and categories
   const availableTypes = Array.from(
@@ -139,9 +150,12 @@ export const MovesetEditor = () => {
   const addLevelMove = (moveId: string, level: number = 1) => {
     const exists = moveset.levelMoves.some((lm) => lm.moveId === moveId);
     if (!exists) {
-      const newLevelMoves = [...moveset.levelMoves, { level, moveId }].sort(
-        (a, b) => a.level - b.level || a.moveId.localeCompare(b.moveId)
-      );
+      const newLevelMoves = [...moveset.levelMoves, { level, moveId }];
+      if (autoSort) {
+        newLevelMoves.sort(
+          (a, b) => a.level - b.level || a.moveId.localeCompare(b.moveId)
+        );
+      }
       setMoveset((prev) => ({ ...prev, levelMoves: newLevelMoves }));
     }
   };
@@ -180,13 +194,135 @@ export const MovesetEditor = () => {
   const updateLevelMoveLevel = (index: number, newLevel: number) => {
     const newLevelMoves = [...moveset.levelMoves];
     newLevelMoves[index].level = Math.max(1, Math.min(100, newLevel));
-    newLevelMoves.sort(
-      (a, b) => a.level - b.level || a.moveId.localeCompare(b.moveId)
-    );
+    if (autoSort) {
+      newLevelMoves.sort(
+        (a, b) => a.level - b.level || a.moveId.localeCompare(b.moveId)
+      );
+    }
     setMoveset((prev) => ({ ...prev, levelMoves: newLevelMoves }));
   };
 
-  // Export function
+  // Manual sort level moves
+  const sortLevelMoves = () => {
+    const sortedLevelMoves = [...moveset.levelMoves].sort(
+      (a, b) => a.level - b.level || a.moveId.localeCompare(b.moveId)
+    );
+    setMoveset((prev) => ({ ...prev, levelMoves: sortedLevelMoves }));
+  };
+
+  // Auto-scale level moves from level 5 to 60
+  const autoScaleLevelMoves = (levelStart = 5, levelEnd = 60) => {
+    if (moveset.levelMoves.length === 0) return;
+
+    // Get move data with power information
+    const movesWithData = moveset.levelMoves
+      .map((levelMove) => {
+        const moveData = allMoves.find((m) => m.id === levelMove.moveId);
+        return {
+          ...levelMove,
+          moveData,
+          power: moveData?.power || 0,
+          category: moveData?.category || "Status",
+        };
+      })
+      .filter((m) => m.moveData);
+
+    // Separate moves by category
+    const attackMoves = movesWithData.filter((m) => m.category !== "Status");
+    const statusMoves = movesWithData.filter((m) => m.category === "Status");
+
+    // Sort attack moves by power (descending)
+    attackMoves.sort(
+      (a, b) => a.power - b.power || a.moveId.localeCompare(b.moveId)
+    );
+
+    // Create scaled levels from 5 to 60
+    const totalMoves = movesWithData.length;
+    const levelStep = (levelEnd - levelStart) / (totalMoves - 1); // From level 5 to 60
+    const scaledMoves: LevelMove[] = [];
+
+    let statusIndex = 0;
+    for (let i = 0; i < totalMoves; i++) {
+      const targetLevel = Math.round(levelStart + i * levelStep);
+
+      // Insert status moves occasionally (every 3-4 moves)
+      const shouldInsertStatus =
+        statusMoves.length > 0 &&
+        statusIndex < statusMoves.length &&
+        (i % 3 === 2 || i % 4 === 3) &&
+        attackMoves.length > i - statusIndex;
+
+      if (shouldInsertStatus) {
+        scaledMoves.push({
+          level: targetLevel,
+          moveId: statusMoves[statusIndex].moveId,
+        });
+        statusIndex++;
+      } else {
+        const attackIndex = i - statusIndex;
+        if (attackIndex < attackMoves.length) {
+          scaledMoves.push({
+            level: targetLevel,
+            moveId: attackMoves[attackIndex].moveId,
+          });
+        }
+      }
+    }
+
+    // Add remaining status moves at the end
+    while (statusIndex < statusMoves.length) {
+      scaledMoves.push({
+        level: levelEnd,
+        moveId: statusMoves[statusIndex].moveId,
+      });
+      statusIndex++;
+    }
+
+    setMoveset((prev) => ({ ...prev, levelMoves: scaledMoves }));
+  };
+
+  // Import function
+  const handleImport = (data: string) => {
+    try {
+      const lines = data.trim().split("\n");
+      const newMovesetData: MovesetData = {
+        levelMoves: [],
+        tutorMoves: [],
+        eggMoves: [],
+      };
+
+      lines.forEach((line) => {
+        const trimmedLine = line.trim();
+        if (trimmedLine.startsWith("Moves = ")) {
+          const movesStr = trimmedLine.substring(8);
+          const moves = movesStr.split(",");
+          for (let i = 0; i < moves.length; i += 2) {
+            if (i + 1 < moves.length) {
+              newMovesetData.levelMoves.push({
+                level: parseInt(moves[i]),
+                moveId: moves[i + 1],
+              });
+            }
+          }
+        } else if (trimmedLine.startsWith("TutorMoves = ")) {
+          const movesStr = trimmedLine.substring(13);
+          newMovesetData.tutorMoves = movesStr.split(",");
+        } else if (trimmedLine.startsWith("EggMoves = ")) {
+          const movesStr = trimmedLine.substring(11);
+          newMovesetData.eggMoves = movesStr.split(",");
+        }
+      });
+
+      setMoveset(newMovesetData);
+      setShowImportModal(false);
+      setImportText("");
+    } catch (error) {
+      alert("Error parsing the imported data. Please check the format.");
+      console.error("Import error:", error);
+    }
+  };
+
+  // Export function (existing)
   const exportMoveset = () => {
     let exportText = "";
 
@@ -286,6 +422,13 @@ export const MovesetEditor = () => {
               >
                 <Download size={20} />
                 Export
+              </button>
+              <button
+                onClick={() => setShowImportModal(true)}
+                className="flex items-center gap-2 px-4 py-2 bg-blue-500 text-white rounded-lg hover:bg-blue-600 transition-colors"
+              >
+                <Upload size={20} />
+                Import
               </button>
               <button
                 onClick={clearMoveset}
@@ -517,6 +660,43 @@ export const MovesetEditor = () => {
               ))}
             </div>
 
+            {/* Level Move Controls */}
+            {activeTab === "level" && (
+              <div className="flex flex-wrap gap-2 mb-4 p-3 bg-gray-50 rounded-lg">
+                <label className="flex items-center gap-2 text-sm font-medium text-gray-700">
+                  <input
+                    type="checkbox"
+                    checked={autoSort}
+                    onChange={(e) => setAutoSort(e.target.checked)}
+                    className="rounded border-gray-300 text-blue-600 focus:ring-blue-500"
+                  />
+                  Auto-ordenar por nivel
+                </label>
+                <button
+                  onClick={sortLevelMoves}
+                  disabled={moveset.levelMoves.length === 0}
+                  className="px-3 py-1 bg-blue-500 text-white text-sm rounded hover:bg-blue-600 disabled:bg-gray-400 disabled:cursor-not-allowed transition-colors"
+                >
+                  Ordenar Lista
+                </button>
+
+                {[
+                  [1, 50],
+                  [5, 50],
+                  [5, 60],
+                  [5, 70],
+                ].map(([start, end]) => (
+                  <button
+                    onClick={() => autoScaleLevelMoves(start, end)}
+                    disabled={moveset.levelMoves.length === 0}
+                    className="px-3 py-1 bg-blue-500 text-white text-sm rounded hover:bg-blue-600 disabled:bg-gray-400 disabled:cursor-not-allowed transition-colors"
+                  >
+                    Escalado {start}-{end} (Auto)
+                  </button>
+                ))}
+              </div>
+            )}
+
             {/* Tab Content */}
             <div className="overflow-y-auto">
               {activeTab === "level" && (
@@ -726,6 +906,54 @@ export const MovesetEditor = () => {
           move={selectedMoveForModal}
           onClose={closeMoveModal}
         />
+
+        {/* Import Modal */}
+        {showImportModal && (
+          <div className="fixed inset-0 bg-black bg-opacity-50 flex items-center justify-center z-50">
+            <div className="bg-white rounded-lg shadow-xl max-w-2xl w-full m-4 max-h-[80vh] overflow-hidden">
+              <div className="p-6 border-b border-gray-200">
+                <h2 className="text-xl font-semibold text-gray-800">
+                  Import Moveset Data
+                </h2>
+                <p className="text-sm text-gray-600 mt-1">
+                  Paste your moveset data in the format: "Moves =
+                  1,TACKLE,5,GROWL,..."
+                </p>
+              </div>
+
+              <div className="p-6">
+                <textarea
+                  value={importText}
+                  onChange={(e) => setImportText(e.target.value)}
+                  className="w-full h-64 border border-gray-300 rounded-lg p-3 font-mono text-sm"
+                  placeholder={`Example format:
+Moves = 1,TACKLE,5,GROWL,9,VINEWHIP
+TutorMoves = BODYSLAM,DOUBLEEDGE,SEISMICTOSS
+EggMoves = CURSE,AMNESIA,CHARM`}
+                />
+              </div>
+
+              <div className="px-6 py-4 border-t border-gray-200 flex justify-end gap-3">
+                <button
+                  onClick={() => {
+                    setShowImportModal(false);
+                    setImportText("");
+                  }}
+                  className="px-4 py-2 text-gray-600 border border-gray-300 rounded-lg hover:bg-gray-50 transition-colors"
+                >
+                  Cancel
+                </button>
+                <button
+                  onClick={() => handleImport(importText)}
+                  disabled={!importText.trim()}
+                  className="px-4 py-2 bg-blue-500 text-white rounded-lg hover:bg-blue-600 disabled:bg-gray-400 disabled:cursor-not-allowed transition-colors"
+                >
+                  Import Data
+                </button>
+              </div>
+            </div>
+          </div>
+        )}
       </div>
     </div>
   );
