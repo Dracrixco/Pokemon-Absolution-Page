@@ -19,7 +19,7 @@ def parse_fakemons(lines, suffix)
         id: $1,
         name: "",
         types: [],
-        sprite: "/sprites/#{$1.upcase}.png",
+        sprite: "/Front/#{$1.upcase}.png",
         backSprite: "/spritesBack/#{$1.upcase}.png",
         description: "",
         stats: {

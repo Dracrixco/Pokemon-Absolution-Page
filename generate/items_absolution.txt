@@ -237,10 +237,26 @@ Description = A pair of thick gloves that provide excellent protection.
 [SHINYPOTION]
 Name = Shiny Potion
 NamePlural = Shiny Potions
-Pocket = 1
+Pocket = 2
 Price = 95000
 FieldUse = OnPokemon
 Description = A special potion that makes the Pokemon shiny.
+#-------------------------------
+[OBEDIENCECANDY]
+Name = Obedience Candy
+NamePlural = Obedience Candys
+Pocket = 2
+Price = 95000
+FieldUse = OnPokemon
+Description = A candy that makes a Pokémon completely obedient to its trainer, regardless of level.
+#-------------------------------
+[DISOBEDIENCECANDY]
+Name = Rebellion Candy
+NamePlural = Rebellion Candys
+Pocket = 2
+Price = 50000
+FieldUse = OnPokemon
+Description = A candy that makes a Pokémon rebellious and likely to ignore commands in battle.
 #-------------------------------
 [LOVEPOTION]
 Name = Love Potion

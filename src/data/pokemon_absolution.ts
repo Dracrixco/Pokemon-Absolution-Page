@@ -8,7 +8,7 @@ export const fakemons: Fakemon[] =
     types: [
       "GRASS"
     ],
-    sprite: "/sprites/BEHBIDAR.png",
+    sprite: "/Front/BEHBIDAR.png",
     backSprite: "/spritesBack/BEHBIDAR.png",
     description: "It tends to try to look intimidating to keep Pokemon away, but the truth is that it is a super calm Pokemon that tends to avoid conflict.",
     stats: {
@@ -148,7 +148,7 @@ export const fakemons: Fakemon[] =
     types: [
       "GRASS"
     ],
-    sprite: "/sprites/BEHCEDRO.png",
+    sprite: "/Front/BEHCEDRO.png",
     backSprite: "/spritesBack/BEHCEDRO.png",
     description: "They tend to avoid groups with other Pokemon that are not of the same species, they avoid any type of conflict but will not hesitate to defend themselves.",
     stats: {
@@ -290,7 +290,7 @@ export const fakemons: Fakemon[] =
       "GRASS",
       "GROUND"
     ],
-    sprite: "/sprites/BEHDAREX.png",
+    sprite: "/Front/BEHDAREX.png",
     backSprite: "/spritesBack/BEHDAREX.png",
     description: "It takes advantage of its enormous size and appearance to scare away Pokemon, despite this, it is usually a very quiet Pokemon.",
     stats: {
@@ -431,7 +431,7 @@ export const fakemons: Fakemon[] =
     types: [
       "FIRE"
     ],
-    sprite: "/sprites/ZISINGE.png",
+    sprite: "/Front/ZISINGE.png",
     backSprite: "/spritesBack/ZISINGE.png",
     description: "They usually practice all day long to control their flames, and can throw their explosive feathers to defend themselves.",
     stats: {
@@ -578,7 +578,7 @@ export const fakemons: Fakemon[] =
     types: [
       "FIRE"
     ],
-    sprite: "/sprites/ZISSUN.png",
+    sprite: "/Front/ZISSUN.png",
     backSprite: "/spritesBack/ZISSUN.png",
     description: "They face any Pokemon they come across, they have a great control over their explosive feathers, managing to launch them at a high speed.",
     stats: {
@@ -742,7 +742,7 @@ export const fakemons: Fakemon[] =
       "FIRE",
       "FLYING"
     ],
-    sprite: "/sprites/ZIZZENIT.png",
+    sprite: "/Front/ZIZZENIT.png",
     backSprite: "/spritesBack/ZIZZENIT.png",
     description: "It flies high in the air looking for Pokemon to face, its fiery flames simulating the sun when it flies.",
     stats: {
@@ -905,7 +905,7 @@ export const fakemons: Fakemon[] =
     types: [
       "WATER"
     ],
-    sprite: "/sprites/LEVIATINY.png",
+    sprite: "/Front/LEVIATINY.png",
     backSprite: "/spritesBack/LEVIATINY.png",
     description: "It generates a thick and toxic foam on contact, it is not immune to its own poison...",
     stats: {
@@ -1032,7 +1032,7 @@ export const fakemons: Fakemon[] =
     types: [
       "WATER"
     ],
-    sprite: "/sprites/LEVIATEEN.png",
+    sprite: "/Front/LEVIATEEN.png",
     backSprite: "/spritesBack/LEVIATEEN.png",
     description: "Its dense foam is used for antidotes and cedants, if it feels in danger it can expel industrial quantities of this poison.",
     stats: {
@@ -1161,7 +1161,7 @@ export const fakemons: Fakemon[] =
       "WATER",
       "POISON"
     ],
-    sprite: "/sprites/LEVIATITAN.png",
+    sprite: "/Front/LEVIATITAN.png",
     backSprite: "/spritesBack/LEVIATITAN.png",
     description: "It hunts large Pokemon to feed, uses their venom to immobilize and weaken them, and if the hunt gets complicated, it floods its target with large quantities of toxic foam.",
     stats: {
@@ -1298,7 +1298,7 @@ export const fakemons: Fakemon[] =
       "DARK",
       "GHOST"
     ],
-    sprite: "/sprites/FATALTTY.png",
+    sprite: "/Front/FATALTTY.png",
     backSprite: "/spritesBack/FATALTTY.png",
     description: "Many Pokémon tend to be quite attracted to this Pokémon, which it uses to its advantage to control them and get food, although it does not enjoy this.",
     stats: {
@@ -1405,7 +1405,7 @@ export const fakemons: Fakemon[] =
     types: [
       "FLYING"
     ],
-    sprite: "/sprites/CONDLING.png",
+    sprite: "/Front/CONDLING.png",
     backSprite: "/spritesBack/CONDLING.png",
     description: "They are often seen collecting bones of Dragon-type Pokemon, despite not possessing feathers, they are believed to be able to fly.",
     stats: {
@@ -1511,7 +1511,7 @@ export const fakemons: Fakemon[] =
       "FLYING",
       "FAIRY"
     ],
-    sprite: "/sprites/BONEVEIL.png",
+    sprite: "/Front/BONEVEIL.png",
     backSprite: "/spritesBack/BONEVEIL.png",
     description: "It lives high in the mountains, humans and Pokemon come to this Pokemon to cure curses and minor illnesses.",
     stats: {
@@ -1617,7 +1617,7 @@ export const fakemons: Fakemon[] =
       "FLYING",
       "FAIRY"
     ],
-    sprite: "/sprites/CONDEMNA.png",
+    sprite: "/Front/CONDEMNA.png",
     backSprite: "/spritesBack/CONDEMNA.png",
     description: "They have an inner hatred of dragon-type Pokemon, and are often very aggressive towards them. Their feathers are said to have enormous healing effects.",
     stats: {
@@ -1722,7 +1722,7 @@ export const fakemons: Fakemon[] =
     types: [
       "BUG"
     ],
-    sprite: "/sprites/WOOLARVA.png",
+    sprite: "/Front/WOOLARVA.png",
     backSprite: "/spritesBack/WOOLARVA.png",
     description: "Its silk is very resistant, so it is often used for various garments.",
     stats: {
@@ -1828,7 +1828,7 @@ export const fakemons: Fakemon[] =
     types: [
       "BUG"
     ],
-    sprite: "/sprites/WOOBACOON.png",
+    sprite: "/Front/WOOBACOON.png",
     backSprite: "/spritesBack/WOOBACOON.png",
     description: "It does not usually move much, it uses its silk to defend itself from predators.",
     stats: {
@@ -1935,7 +1935,7 @@ export const fakemons: Fakemon[] =
       "BUG",
       "FAIRY"
     ],
-    sprite: "/sprites/WEAMOTH.png",
+    sprite: "/Front/WEAMOTH.png",
     backSprite: "/spritesBack/WEAMOTH.png",
     description: "Its beautiful silk is used to create high-quality garments, making it a very attractive Pokemon for designers and stylists.",
     stats: {
@@ -2049,7 +2049,7 @@ export const fakemons: Fakemon[] =
     types: [
       "NORMAL"
     ],
-    sprite: "/sprites/SORROWOOF.png",
+    sprite: "/Front/SORROWOOF.png",
     backSprite: "/spritesBack/SORROWOOF.png",
     description: "They tend to forage in dumpsters, are quite fearful and tend to avoid unnecessary conflict at all costs, which makes them victims of abusive Pokémon.",
     stats: {
@@ -2175,7 +2175,7 @@ export const fakemons: Fakemon[] =
       "NORMAL",
       "FIGHTING"
     ],
-    sprite: "/sprites/WOOFIGHTER.png",
+    sprite: "/Front/WOOFIGHTER.png",
     backSprite: "/spritesBack/WOOFIGHTER.png",
     description: "They tend to avoid combat, but when it comes to defending their trainer, they won't hesitate for a second to fight and defeat anything that comes their way.",
     stats: {
@@ -2310,7 +2310,7 @@ export const fakemons: Fakemon[] =
     types: [
       "WATER"
     ],
-    sprite: "/sprites/YUNTTER.png",
+    sprite: "/Front/YUNTTER.png",
     backSprite: "/spritesBack/YUNTTER.png",
     description: "It is always seen with a rock and is known to be very territorial, not tolerating visits from unfamiliar Trainers or Pokémon. However, if you prove yourself to be an honorable Trainer, you will have no trouble.",
     stats: {
@@ -2434,7 +2434,7 @@ export const fakemons: Fakemon[] =
       "WATER",
       "GROUND"
     ],
-    sprite: "/sprites/GUMSTTER.png",
+    sprite: "/Front/GUMSTTER.png",
     backSprite: "/spritesBack/GUMSTTER.png",
     description: "It protects its own with great ferocity and has remarkable aim. It is said to be able to hit a target from a kilometer away.",
     stats: {
@@ -2558,7 +2558,7 @@ export const fakemons: Fakemon[] =
       "WATER",
       "ROCK"
     ],
-    sprite: "/sprites/AXISH.png",
+    sprite: "/Front/AXISH.png",
     backSprite: "/spritesBack/AXISH.png",
     description: "",
     stats: {
@@ -2609,7 +2609,7 @@ export const fakemons: Fakemon[] =
       "WATER",
       "STEEL"
     ],
-    sprite: "/sprites/JAXEWS.png",
+    sprite: "/Front/JAXEWS.png",
     backSprite: "/spritesBack/JAXEWS.png",
     description: "",
     stats: {
@@ -2747,7 +2747,7 @@ export const fakemons: Fakemon[] =
     types: [
       "NORMAL"
     ],
-    sprite: "/sprites/GROWRAGE.png",
+    sprite: "/Front/GROWRAGE.png",
     backSprite: "/spritesBack/GROWRAGE.png",
     description: "It is a heroic Pokémon, often seen helping and protecting other Pokémon.",
     stats: {
@@ -2873,7 +2873,7 @@ export const fakemons: Fakemon[] =
       "FIGHTING",
       "STEEL"
     ],
-    sprite: "/sprites/TWYLICAN.png",
+    sprite: "/Front/TWYLICAN.png",
     backSprite: "/spritesBack/TWYLICAN.png",
     description: "It has a strong sense of justice and is often seen roaming the forest, searching for Trainers and Pokémon in need of help. Twylican will not hesitate to step in and protect the weak, earning the respect of those who witness its bravery.",
     stats: {
@@ -2999,7 +2999,7 @@ export const fakemons: Fakemon[] =
       "ICE",
       "FLYING"
     ],
-    sprite: "/sprites/CRYOWL.png",
+    sprite: "/Front/CRYOWL.png",
     backSprite: "/spritesBack/CRYOWL.png",
     description: "It can hunt easily thanks to its ability to fly without being heard and its excellent eyesight. Despite its bright white color, it manages to hide very well in the darkness.",
     stats: {
@@ -3112,7 +3112,7 @@ export const fakemons: Fakemon[] =
       "ICE",
       "FLYING"
     ],
-    sprite: "/sprites/CRYOCROWN.png",
+    sprite: "/Front/CRYOCROWN.png",
     backSprite: "/spritesBack/CRYOCROWN.png",
     description: "It is said that the larger the crown of this species, the stronger and faster it is. It has an incredible ability to move silently when hunting, but most of the time it will be showing off its crown.",
     stats: {
@@ -3217,7 +3217,7 @@ export const fakemons: Fakemon[] =
       "BUG",
       "DARK"
     ],
-    sprite: "/sprites/SPIBBY.png",
+    sprite: "/Front/SPIBBY.png",
     backSprite: "/spritesBack/SPIBBY.png",
     description: "It is very timid, so it tends to attack in groups using rather underhanded and unfair tactics.",
     stats: {
@@ -3341,7 +3341,7 @@ export const fakemons: Fakemon[] =
       "BUG",
       "DARK"
     ],
-    sprite: "/sprites/KINGDER.png",
+    sprite: "/Front/KINGDER.png",
     backSprite: "/spritesBack/KINGDER.png",
     description: "It often commands a large group to capture other Pokémon and then devour them. Many Trainers have been caught while trying to catch one.",
     stats: {
@@ -3466,7 +3466,7 @@ export const fakemons: Fakemon[] =
     types: [
       "FAIRY"
     ],
-    sprite: "/sprites/TWIXIE.png",
+    sprite: "/Front/TWIXIE.png",
     backSprite: "/spritesBack/TWIXIE.png",
     description: "It exhibits a high level of intelligence and a preference for dimly lit environments. Researchers believe its behavior is influenced by exposure to interdimensional energy, which may explain its affinity for mischief and shadow manipulation.",
     stats: {
@@ -3568,7 +3568,7 @@ export const fakemons: Fakemon[] =
       "FAIRY",
       "DARK"
     ],
-    sprite: "/sprites/TWINCESS.png",
+    sprite: "/Front/TWINCESS.png",
     backSprite: "/spritesBack/TWINCESS.png",
     description: "Studies suggest it originated from a parallel plane where light and shadow coexist in balance. Upon full maturation, its physiological changes include the development of a crown-like structure and a marked increase in psychic and spectral emissions.",
     stats: {
@@ -3687,7 +3687,7 @@ export const fakemons: Fakemon[] =
       "GRASS",
       "DARK"
     ],
-    sprite: "/sprites/PUPROUT.png",
+    sprite: "/Front/PUPROUT.png",
     backSprite: "/spritesBack/PUPROUT.png",
     description: "It displays many behaviors commonly seen in other Grass-type Pokémon. Its DNA suggests it may share multiple ancestors with various species.",
     stats: {
@@ -3829,7 +3829,7 @@ export const fakemons: Fakemon[] =
       "GRASS",
       "DARK"
     ],
-    sprite: "/sprites/BUSHIERA.png",
+    sprite: "/Front/BUSHIERA.png",
     backSprite: "/spritesBack/BUSHIERA.png",
     description: "It has tangled DNA, and its appearance resembles multiple Pokémon. Trainers who encounter this Pokémon often say it feels familiar to them.",
     stats: {
@@ -3971,7 +3971,7 @@ export const fakemons: Fakemon[] =
       "GRASS",
       "DARK"
     ],
-    sprite: "/sprites/WEREWOODS.png",
+    sprite: "/Front/WEREWOODS.png",
     backSprite: "/spritesBack/WEREWOODS.png",
     description: "It has a high capacity for adaptation and shows great affinity with other Grass-type Pokémon.",
     stats: {
@@ -4113,7 +4113,7 @@ export const fakemons: Fakemon[] =
       "GRASS",
       "DRAGON"
     ],
-    sprite: "/sprites/FLOVERN.png",
+    sprite: "/Front/FLOVERN.png",
     backSprite: "/spritesBack/FLOVERN.png",
     description: "",
     stats: {
@@ -4245,7 +4245,7 @@ export const fakemons: Fakemon[] =
       "GRASS",
       "DRAGON"
     ],
-    sprite: "/sprites/WYWERDEN.png",
+    sprite: "/Front/WYWERDEN.png",
     backSprite: "/spritesBack/WYWERDEN.png",
     description: "",
     stats: {
@@ -4385,7 +4385,7 @@ export const fakemons: Fakemon[] =
     types: [
       "NORMAL"
     ],
-    sprite: "/sprites/LIZAROBOS.png",
+    sprite: "/Front/LIZAROBOS.png",
     backSprite: "/spritesBack/LIZAROBOS.png",
     description: "???",
     stats: {
@@ -4422,7 +4422,7 @@ export const fakemons: Fakemon[] =
     types: [
       "NORMAL"
     ],
-    sprite: "/sprites/KOMOBOROS.png",
+    sprite: "/Front/KOMOBOROS.png",
     backSprite: "/spritesBack/KOMOBOROS.png",
     description: "???",
     stats: {
@@ -4459,7 +4459,7 @@ export const fakemons: Fakemon[] =
     types: [
       "NORMAL"
     ],
-    sprite: "/sprites/RYUROBOROS.png",
+    sprite: "/Front/RYUROBOROS.png",
     backSprite: "/spritesBack/RYUROBOROS.png",
     description: "???",
     stats: {
@@ -4487,6 +4487,367 @@ export const fakemons: Fakemon[] =
     ],
     eggMoves: [
 
+    ],
+    suffix: "absolution"
+  },
+  {
+    id: "ASHCOIL",
+    name: "Ashcoil",
+    types: [
+      "FIRE"
+    ],
+    sprite: "/Front/ASHCOIL.png",
+    backSprite: "/spritesBack/ASHCOIL.png",
+    description: "???",
+    stats: {
+      hp: 46,
+      attack: 73,
+      defense: 42,
+      spAttack: 40,
+      spDefense: 50,
+      speed: 76
+    },
+    height: "1.0",
+    weight: "3.2",
+    abilities: [
+      "BLAZE"
+    ],
+    hiddenAbilities: [
+      "SOLARPOWER"
+    ],
+    category: "Snake",
+    moves: [
+      "CONSTRICT",
+      "DEFENSECURL",
+      "EMBER",
+      "FURYATTACK",
+      "GASTROACID",
+      "QUICKATTACK",
+      "WILLOWISP",
+      "FLAMECHARGE",
+      "PURSUIT",
+      "SCALESHOT",
+      "DETECT",
+      "DRAGONTAIL",
+      "BITE",
+      "COIL",
+      "DRAGONBREATH",
+      "EMBARGO",
+      "INTHESPOTLIGHT",
+      "FEINTATTACK",
+      "FLAMEWHEEL",
+      "FIREFANG",
+      "AGILITY",
+      "KNOCKOFF",
+      "FLAMEBURST",
+      "CRUNCH",
+      "DRAGONDANCE",
+      "HYPERFANG",
+      "DRAGONPULSE",
+      "DRAGONRUSH",
+      "OUTRAGE"
+    ],
+    tutorMoves: [
+      "ACIDARMOR",
+      "ACROBATICS",
+      "AERIALACE",
+      "AIRSLASH",
+      "BIDE",
+      "BLASTBURN",
+      "BURNUP",
+      "CROSSPOISON",
+      "EXPLOSION",
+      "FALSESWIPE",
+      "FIREBLAST",
+      "FIRESPIN",
+      "FLAMETHROWER",
+      "FLOWERFANG",
+      "HEATWAVE",
+      "HEAVYSLAM",
+      "HYPERBEAM",
+      "HYPERVOICE",
+      "ICEFANG",
+      "INCINERATE",
+      "IRONDEFENSE",
+      "MARTIALFANG",
+      "MIRRORSHOT",
+      "MYSTICALFIRE",
+      "OVERHEAT",
+      "POISONFANG",
+      "POISONGAS",
+      "POISONJAB",
+      "POISONSTING",
+      "POISONTAIL",
+      "PSYCHICFANGS",
+      "ROCKTHROW",
+      "ROCKTOMB",
+      "SLUDGE",
+      "SLUDGEBOMB",
+      "SMACKDOWN",
+      "SPITE",
+      "SUNNYDAY",
+      "SUPERFANG",
+      "TAILSLAP",
+      "THUNDERFANG",
+      "TOXIC",
+      "TOXICSPIKES"
+    ],
+    eggMoves: [
+      "ABYSSALBITE",
+      "BABYDOLLEYES",
+      "BEATUP",
+      "BUGBITE",
+      "CHARM",
+      "CONFUSERAY",
+      "DARKPULSE",
+      "DRAGONENERGY",
+      "DRAGONRAGE",
+      "DRAGONSLAYER",
+      "FAIRYWIND",
+      "FOULPLAY",
+      "SNARL",
+      "TWISTER"
+    ],
+    suffix: "absolution"
+  },
+  {
+    id: "BLAZECOIL",
+    name: "Blazecoil",
+    types: [
+      "FIRE"
+    ],
+    sprite: "/Front/BLAZECOIL.png",
+    backSprite: "/spritesBack/BLAZECOIL.png",
+    description: "???",
+    stats: {
+      hp: 66,
+      attack: 105,
+      defense: 60,
+      spAttack: 57,
+      spDefense: 72,
+      speed: 110
+    },
+    height: "2.5",
+    weight: "6.9",
+    abilities: [
+      "BLAZE"
+    ],
+    hiddenAbilities: [
+      "SOLARPOWER"
+    ],
+    category: "Snake",
+    moves: [
+      "CONSTRICT",
+      "DEFENSECURL",
+      "EMBER",
+      "FURYATTACK",
+      "GASTROACID",
+      "QUICKATTACK",
+      "WILLOWISP",
+      "FLAMECHARGE",
+      "PURSUIT",
+      "SCALESHOT",
+      "DETECT",
+      "DRAGONTAIL",
+      "BITE",
+      "COIL",
+      "DRAGONBREATH",
+      "EMBARGO",
+      "INTHESPOTLIGHT",
+      "FEINTATTACK",
+      "FLAMEWHEEL",
+      "FIREFANG",
+      "AGILITY",
+      "KNOCKOFF",
+      "FLAMEBURST",
+      "CRUNCH",
+      "DRAGONDANCE",
+      "HYPERFANG",
+      "DRAGONPULSE",
+      "DRAGONRUSH",
+      "OUTRAGE"
+    ],
+    tutorMoves: [
+      "ACIDARMOR",
+      "ACROBATICS",
+      "AERIALACE",
+      "AIRSLASH",
+      "BIDE",
+      "BLASTBURN",
+      "BURNUP",
+      "CROSSPOISON",
+      "EXPLOSION",
+      "FALSESWIPE",
+      "FIREBLAST",
+      "FIRESPIN",
+      "FLAMETHROWER",
+      "FLOWERFANG",
+      "HEATWAVE",
+      "HEAVYSLAM",
+      "HYPERBEAM",
+      "HYPERVOICE",
+      "ICEFANG",
+      "INCINERATE",
+      "IRONDEFENSE",
+      "MARTIALFANG",
+      "MIRRORSHOT",
+      "MYSTICALFIRE",
+      "OVERHEAT",
+      "POISONFANG",
+      "POISONGAS",
+      "POISONJAB",
+      "POISONSTING",
+      "POISONTAIL",
+      "PSYCHICFANGS",
+      "ROCKTHROW",
+      "ROCKTOMB",
+      "SLUDGE",
+      "SLUDGEBOMB",
+      "SMACKDOWN",
+      "SPITE",
+      "SUNNYDAY",
+      "SUPERFANG",
+      "TAILSLAP",
+      "THUNDERFANG",
+      "TOXIC",
+      "TOXICSPIKES"
+    ],
+    eggMoves: [
+      "ABYSSALBITE",
+      "BABYDOLLEYES",
+      "BEATUP",
+      "BUGBITE",
+      "CHARM",
+      "CONFUSERAY",
+      "DARKPULSE",
+      "DRAGONENERGY",
+      "DRAGONRAGE",
+      "DRAGONSLAYER",
+      "FAIRYWIND",
+      "FOULPLAY",
+      "SNARL",
+      "TWISTER"
+    ],
+    suffix: "absolution"
+  },
+  {
+    id: "INFERNOIL",
+    name: "Infernoil",
+    types: [
+      "FIRE",
+      "DRAGON"
+    ],
+    sprite: "/Front/INFERNOIL.png",
+    backSprite: "/spritesBack/INFERNOIL.png",
+    description: "???",
+    stats: {
+      hp: 69,
+      attack: 110,
+      defense: 85,
+      spAttack: 80,
+      spDefense: 87,
+      speed: 115
+    },
+    height: "6.5",
+    weight: "123.0",
+    abilities: [
+      "BLAZE"
+    ],
+    hiddenAbilities: [
+      "SOLARPOWER"
+    ],
+    category: "Snake",
+    moves: [
+      "CONSTRICT",
+      "DEFENSECURL",
+      "EMBER",
+      "FURYATTACK",
+      "GASTROACID",
+      "QUICKATTACK",
+      "WILLOWISP",
+      "FLAMECHARGE",
+      "PURSUIT",
+      "SCALESHOT",
+      "DETECT",
+      "DRAGONTAIL",
+      "BITE",
+      "COIL",
+      "DRAGONBREATH",
+      "EMBARGO",
+      "INTHESPOTLIGHT",
+      "FEINTATTACK",
+      "FLAMEWHEEL",
+      "FIREFANG",
+      "AGILITY",
+      "KNOCKOFF",
+      "FLAMEBURST",
+      "CRUNCH",
+      "DRAGONDANCE",
+      "HYPERFANG",
+      "DRAGONPULSE",
+      "DRAGONRUSH",
+      "OUTRAGE"
+    ],
+    tutorMoves: [
+      "ACIDARMOR",
+      "ACROBATICS",
+      "AERIALACE",
+      "AIRSLASH",
+      "BIDE",
+      "BLASTBURN",
+      "BURNUP",
+      "CROSSPOISON",
+      "EXPLOSION",
+      "FALSESWIPE",
+      "FIREBLAST",
+      "FIRESPIN",
+      "FLAMETHROWER",
+      "FLOWERFANG",
+      "HEATWAVE",
+      "HEAVYSLAM",
+      "HYPERBEAM",
+      "HYPERVOICE",
+      "ICEFANG",
+      "INCINERATE",
+      "IRONDEFENSE",
+      "MARTIALFANG",
+      "MIRRORSHOT",
+      "MYSTICALFIRE",
+      "OVERHEAT",
+      "POISONFANG",
+      "POISONGAS",
+      "POISONJAB",
+      "POISONSTING",
+      "POISONTAIL",
+      "PSYCHICFANGS",
+      "ROCKTHROW",
+      "ROCKTOMB",
+      "SLUDGE",
+      "SLUDGEBOMB",
+      "SMACKDOWN",
+      "SPITE",
+      "SUNNYDAY",
+      "SUPERFANG",
+      "TAILSLAP",
+      "THUNDERFANG",
+      "TOXIC",
+      "TOXICSPIKES"
+    ],
+    eggMoves: [
+      "ABYSSALBITE",
+      "BABYDOLLEYES",
+      "BEATUP",
+      "BUGBITE",
+      "CHARM",
+      "CONFUSERAY",
+      "DARKPULSE",
+      "DRAGONENERGY",
+      "DRAGONRAGE",
+      "DRAGONSLAYER",
+      "FAIRYWIND",
+      "FOULPLAY",
+      "SNARL",
+      "TWISTER"
     ],
     suffix: "absolution"
   }
