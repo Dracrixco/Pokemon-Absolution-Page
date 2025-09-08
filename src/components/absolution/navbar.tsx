@@ -3,7 +3,6 @@ import { Menu, X } from "lucide-react";
 import { useState } from "react";
 import { RandomLogo } from "./logos";
 
-const SHOW_DEBUG_LINKS = true;
 export const Navbar = () => {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
   return (
@@ -84,7 +83,7 @@ const Navigation = ({ className = "" }: { className: string }) => {
       >
         Updates
       </Link>
-      {SHOW_DEBUG_LINKS && (
+      {import.meta.env.VITE_ENABLE_DEBUG_LINKS == "true" && (
         <>
           <Link
             to="/team-builder"
