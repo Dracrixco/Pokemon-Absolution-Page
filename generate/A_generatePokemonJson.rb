@@ -317,6 +317,31 @@ moves_configs.each do |config|
 end
 
 # ========================================================== #
+# Procesar Items
+# ========================================================== #
+items_configs = [
+  {
+    output: File.join(__dir__, "../src/data/items.ts"),
+    inputs: [
+      File.join(__dir__, "./items.txt"),
+    ],
+    suffix: "normal"
+  },
+  {
+    output: File.join(__dir__, "../src/data/items_absolution.ts"),
+    inputs: [
+     File.join(__dir__, "./items_absolution.txt")
+    ],
+    suffix: "absolution"
+  }
+]
+items_configs.each do |config|
+  items = parse_items(read_combined_lines(config[:inputs]),config[:suffix])
+  write_ts(config[:output], "Item", "items", items)
+  puts "✅ Items generados en #{config[:output]}"
+end
+
+# ========================================================== #
 # Procesar Habilidades
 # ========================================================== #
 abilities_configs = [

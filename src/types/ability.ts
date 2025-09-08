@@ -1,5 +1,5 @@
-export interface Ability {
-  id: string;
+import type { GenericPBS } from "./genericPBS";
+
+export interface Ability extends GenericPBS {
   name: string;
-  description: string;
 }

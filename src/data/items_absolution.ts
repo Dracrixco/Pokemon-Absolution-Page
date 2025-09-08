@@ -336,11 +336,33 @@ export const items: Item[] =
     id: "SHINYPOTION",
     name: "Shiny Potion",
     namePlural: "Shiny Potions",
-    pocket: 1,
+    pocket: 2,
     price: 95000,
     flags: "",
     description: "A special potion that makes the Pokemon shiny.",
     sprite: "/Items/SHINYPOTION.png",
+    suffix: "absolution"
+  },
+  {
+    id: "OBEDIENCECANDY",
+    name: "Obedience Candy",
+    namePlural: "Obedience Candys",
+    pocket: 2,
+    price: 95000,
+    flags: "",
+    description: "A candy that makes a Pokémon completely obedient to its trainer, regardless of level.",
+    sprite: "/Items/OBEDIENCECANDY.png",
+    suffix: "absolution"
+  },
+  {
+    id: "DISOBEDIENCECANDY",
+    name: "Rebellion Candy",
+    namePlural: "Rebellion Candys",
+    pocket: 2,
+    price: 50000,
+    flags: "",
+    description: "A candy that makes a Pokémon rebellious and likely to ignore commands in battle.",
+    sprite: "/Items/DISOBEDIENCECANDY.png",
     suffix: "absolution"
   },
   {
