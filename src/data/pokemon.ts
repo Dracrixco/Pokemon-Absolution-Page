@@ -126,7 +126,14 @@ export const fakemons: Fakemon[] =
       "SLUDGE",
       "TOXIC"
     ],
-    suffix: "normal"
+    suffix: "normal",
+    evolution: [
+      {
+        to: "IVYSAUR",
+        method: "Level",
+        value: "16"
+      }
+    ]
   },
   {
     id: "IVYSAUR",
@@ -241,7 +248,14 @@ export const fakemons: Fakemon[] =
     eggMoves: [
 
     ],
-    suffix: "normal"
+    suffix: "normal",
+    evolution: [
+      {
+        to: "VENUSAUR",
+        method: "Level",
+        value: "32"
+      }
+    ]
   },
   {
     id: "VENUSAUR",
@@ -372,7 +386,10 @@ export const fakemons: Fakemon[] =
     eggMoves: [
 
     ],
-    suffix: "normal"
+    suffix: "normal",
+    evolution: [
+
+    ]
   },
   {
     id: "CHARMANDER",
@@ -510,7 +527,14 @@ export const fakemons: Fakemon[] =
       "OUTRAGE",
       "WINGATTACK"
     ],
-    suffix: "normal"
+    suffix: "normal",
+    evolution: [
+      {
+        to: "CHARMELEON",
+        method: "Level",
+        value: "16"
+      }
+    ]
   },
   {
     id: "CHARMELEON",
@@ -632,7 +656,14 @@ export const fakemons: Fakemon[] =
     eggMoves: [
 
     ],
-    suffix: "normal"
+    suffix: "normal",
+    evolution: [
+      {
+        to: "CHARIZARD",
+        method: "Level",
+        value: "36"
+      }
+    ]
   },
   {
     id: "CHARIZARD",
@@ -783,7 +814,10 @@ export const fakemons: Fakemon[] =
     eggMoves: [
 
     ],
-    suffix: "normal"
+    suffix: "normal",
+    evolution: [
+
+    ]
   },
   {
     id: "SQUIRTLE",
@@ -908,7 +942,14 @@ export const fakemons: Fakemon[] =
       "WATERSPOUT",
       "YAWN"
     ],
-    suffix: "normal"
+    suffix: "normal",
+    evolution: [
+      {
+        to: "WARTORTLE",
+        method: "Level",
+        value: "16"
+      }
+    ]
   },
   {
     id: "WARTORTLE",
@@ -1022,7 +1063,14 @@ export const fakemons: Fakemon[] =
     eggMoves: [
 
     ],
-    suffix: "normal"
+    suffix: "normal",
+    evolution: [
+      {
+        to: "BLASTOISE",
+        method: "Level",
+        value: "36"
+      }
+    ]
   },
   {
     id: "BLASTOISE",
@@ -1157,7 +1205,10 @@ export const fakemons: Fakemon[] =
     eggMoves: [
 
     ],
-    suffix: "normal"
+    suffix: "normal",
+    evolution: [
+
+    ]
   },
   {
     id: "CATERPIE",
@@ -1198,7 +1249,14 @@ export const fakemons: Fakemon[] =
     eggMoves: [
 
     ],
-    suffix: "normal"
+    suffix: "normal",
+    evolution: [
+      {
+        to: "METAPOD",
+        method: "Level",
+        value: "7"
+      }
+    ]
   },
   {
     id: "METAPOD",
@@ -1238,7 +1296,14 @@ export const fakemons: Fakemon[] =
     eggMoves: [
 
     ],
-    suffix: "normal"
+    suffix: "normal",
+    evolution: [
+      {
+        to: "BUTTERFREE",
+        method: "Level",
+        value: "10"
+      }
+    ]
   },
   {
     id: "BUTTERFREE",
@@ -1353,7 +1418,10 @@ export const fakemons: Fakemon[] =
     eggMoves: [
 
     ],
-    suffix: "normal"
+    suffix: "normal",
+    evolution: [
+
+    ]
   },
   {
     id: "WEEDLE",
@@ -1395,7 +1463,14 @@ export const fakemons: Fakemon[] =
     eggMoves: [
 
     ],
-    suffix: "normal"
+    suffix: "normal",
+    evolution: [
+      {
+        to: "KAKUNA",
+        method: "Level",
+        value: "7"
+      }
+    ]
   },
   {
     id: "KAKUNA",
@@ -1436,7 +1511,14 @@ export const fakemons: Fakemon[] =
     eggMoves: [
 
     ],
-    suffix: "normal"
+    suffix: "normal",
+    evolution: [
+      {
+        to: "BEEDRILL",
+        method: "Level",
+        value: "10"
+      }
+    ]
   },
   {
     id: "BEEDRILL",
@@ -1548,7 +1630,10 @@ export const fakemons: Fakemon[] =
     eggMoves: [
 
     ],
-    suffix: "normal"
+    suffix: "normal",
+    evolution: [
+
+    ]
   },
   {
     id: "PIDGEY",
@@ -1642,7 +1727,14 @@ export const fakemons: Fakemon[] =
       "BRAVEBIRD",
       "UPROAR"
     ],
-    suffix: "normal"
+    suffix: "normal",
+    evolution: [
+      {
+        to: "PIDGEOTTO",
+        method: "Level",
+        value: "18"
+      }
+    ]
   },
   {
     id: "PIDGEOTTO",
@@ -1735,7 +1827,14 @@ export const fakemons: Fakemon[] =
     eggMoves: [
 
     ],
-    suffix: "normal"
+    suffix: "normal",
+    evolution: [
+      {
+        to: "PIDGEOT",
+        method: "Level",
+        value: "36"
+      }
+    ]
   },
   {
     id: "PIDGEOT",
@@ -1833,7 +1932,10 @@ export const fakemons: Fakemon[] =
     eggMoves: [
 
     ],
-    suffix: "normal"
+    suffix: "normal",
+    evolution: [
+
+    ]
   },
   {
     id: "RATTATA",
@@ -1948,7 +2050,14 @@ export const fakemons: Fakemon[] =
       "SCREECH",
       "UPROAR"
     ],
-    suffix: "normal"
+    suffix: "normal",
+    evolution: [
+      {
+        to: "RATICATE",
+        method: "Level",
+        value: "20"
+      }
+    ]
   },
   {
     id: "RATICATE",
@@ -2064,7 +2173,10 @@ export const fakemons: Fakemon[] =
     eggMoves: [
 
     ],
-    suffix: "normal"
+    suffix: "normal",
+    evolution: [
+
+    ]
   },
   {
     id: "SPEAROW",
@@ -2162,7 +2274,14 @@ export const fakemons: Fakemon[] =
       "UPROAR",
       "WHIRLWIND"
     ],
-    suffix: "normal"
+    suffix: "normal",
+    evolution: [
+      {
+        to: "FEAROW",
+        method: "Level",
+        value: "20"
+      }
+    ]
   },
   {
     id: "FEAROW",
@@ -2261,7 +2380,10 @@ export const fakemons: Fakemon[] =
     eggMoves: [
 
     ],
-    suffix: "normal"
+    suffix: "normal",
+    evolution: [
+
+    ]
   },
   {
     id: "EKANS",
@@ -2389,7 +2511,14 @@ export const fakemons: Fakemon[] =
       "SUCKERPUNCH",
       "SWITCHEROO"
     ],
-    suffix: "normal"
+    suffix: "normal",
+    evolution: [
+      {
+        to: "ARBOK",
+        method: "Level",
+        value: "22"
+      }
+    ]
   },
   {
     id: "ARBOK",
@@ -2524,7 +2653,10 @@ export const fakemons: Fakemon[] =
     eggMoves: [
 
     ],
-    suffix: "normal"
+    suffix: "normal",
+    evolution: [
+
+    ]
   },
   {
     id: "PIKACHU",
@@ -2660,7 +2792,14 @@ export const fakemons: Fakemon[] =
     eggMoves: [
 
     ],
-    suffix: "normal"
+    suffix: "normal",
+    evolution: [
+      {
+        to: "RAICHU",
+        method: "Item",
+        value: "THUNDERSTONE"
+      }
+    ]
   },
   {
     id: "RAICHU",
@@ -2802,7 +2941,10 @@ export const fakemons: Fakemon[] =
     eggMoves: [
 
     ],
-    suffix: "normal"
+    suffix: "normal",
+    evolution: [
+
+    ]
   },
   {
     id: "SANDSHREW",
@@ -2942,7 +3084,14 @@ export const fakemons: Fakemon[] =
       "NIGHTSLASH",
       "RAPIDSPIN"
     ],
-    suffix: "normal"
+    suffix: "normal",
+    evolution: [
+      {
+        to: "SANDSLASH",
+        method: "Level",
+        value: "22"
+      }
+    ]
   },
   {
     id: "SANDSLASH",
@@ -3081,7 +3230,10 @@ export const fakemons: Fakemon[] =
     eggMoves: [
 
     ],
-    suffix: "normal"
+    suffix: "normal",
+    evolution: [
+
+    ]
   },
   {
     id: "NIDORANfE",
@@ -3196,7 +3348,14 @@ export const fakemons: Fakemon[] =
       "TAKEDOWN",
       "VENOMDRENCH"
     ],
-    suffix: "normal"
+    suffix: "normal",
+    evolution: [
+      {
+        to: "NIDORINA",
+        method: "Level",
+        value: "16"
+      }
+    ]
   },
   {
     id: "NIDORINA",
@@ -3302,7 +3461,14 @@ export const fakemons: Fakemon[] =
     eggMoves: [
 
     ],
-    suffix: "normal"
+    suffix: "normal",
+    evolution: [
+      {
+        to: "NIDOQUEEN",
+        method: "Item",
+        value: "MOONSTONE"
+      }
+    ]
   },
   {
     id: "NIDOQUEEN",
@@ -3464,7 +3630,10 @@ export const fakemons: Fakemon[] =
     eggMoves: [
 
     ],
-    suffix: "normal"
+    suffix: "normal",
+    evolution: [
+
+    ]
   },
   {
     id: "NIDORANmA",
@@ -3582,7 +3751,14 @@ export const fakemons: Fakemon[] =
       "THRASH",
       "VENOMDRENCH"
     ],
-    suffix: "normal"
+    suffix: "normal",
+    evolution: [
+      {
+        to: "NIDORINO",
+        method: "Level",
+        value: "16"
+      }
+    ]
   },
   {
     id: "NIDORINO",
@@ -3689,7 +3865,14 @@ export const fakemons: Fakemon[] =
     eggMoves: [
 
     ],
-    suffix: "normal"
+    suffix: "normal",
+    evolution: [
+      {
+        to: "NIDOKING",
+        method: "Item",
+        value: "MOONSTONE"
+      }
+    ]
   },
   {
     id: "NIDOKING",
@@ -3852,7 +4035,10 @@ export const fakemons: Fakemon[] =
     eggMoves: [
 
     ],
-    suffix: "normal"
+    suffix: "normal",
+    evolution: [
+
+    ]
   },
   {
     id: "CLEFAIRY",
@@ -4031,7 +4217,14 @@ export const fakemons: Fakemon[] =
     eggMoves: [
 
     ],
-    suffix: "normal"
+    suffix: "normal",
+    evolution: [
+      {
+        to: "CLEFABLE",
+        method: "Item",
+        value: "MOONSTONE"
+      }
+    ]
   },
   {
     id: "CLEFABLE",
@@ -4215,7 +4408,10 @@ export const fakemons: Fakemon[] =
     eggMoves: [
 
     ],
-    suffix: "normal"
+    suffix: "normal",
+    evolution: [
+
+    ]
   },
   {
     id: "VULPIX",
@@ -4344,7 +4540,14 @@ export const fakemons: Fakemon[] =
       "ROAR",
       "SPITE"
     ],
-    suffix: "normal"
+    suffix: "normal",
+    evolution: [
+      {
+        to: "NINETALES",
+        method: "Item",
+        value: "FIRESTONE"
+      }
+    ]
   },
   {
     id: "NINETALES",
@@ -4472,7 +4675,10 @@ export const fakemons: Fakemon[] =
     eggMoves: [
 
     ],
-    suffix: "normal"
+    suffix: "normal",
+    evolution: [
+
+    ]
   },
   {
     id: "JIGGLYPUFF",
@@ -4651,7 +4857,14 @@ export const fakemons: Fakemon[] =
     eggMoves: [
 
     ],
-    suffix: "normal"
+    suffix: "normal",
+    evolution: [
+      {
+        to: "WIGGLYTUFF",
+        method: "Item",
+        value: "MOONSTONE"
+      }
+    ]
   },
   {
     id: "WIGGLYTUFF",
@@ -4837,7 +5050,10 @@ export const fakemons: Fakemon[] =
     eggMoves: [
 
     ],
-    suffix: "normal"
+    suffix: "normal",
+    evolution: [
+
+    ]
   },
   {
     id: "ZUBAT",
@@ -4952,7 +5168,14 @@ export const fakemons: Fakemon[] =
       "WINGATTACK",
       "ZENHEADBUTT"
     ],
-    suffix: "normal"
+    suffix: "normal",
+    evolution: [
+      {
+        to: "GOLBAT",
+        method: "Level",
+        value: "22"
+      }
+    ]
   },
   {
     id: "GOLBAT",
@@ -5062,7 +5285,10 @@ export const fakemons: Fakemon[] =
     eggMoves: [
 
     ],
-    suffix: "normal"
+    suffix: "normal",
+    evolution: [
+
+    ]
   },
   {
     id: "ODDISH",
@@ -5169,7 +5395,14 @@ export const fakemons: Fakemon[] =
       "TEETERDANCE",
       "TICKLE"
     ],
-    suffix: "normal"
+    suffix: "normal",
+    evolution: [
+      {
+        to: "GLOOM",
+        method: "Level",
+        value: "21"
+      }
+    ]
   },
   {
     id: "GLOOM",
@@ -5268,7 +5501,14 @@ export const fakemons: Fakemon[] =
     eggMoves: [
 
     ],
-    suffix: "normal"
+    suffix: "normal",
+    evolution: [
+      {
+        to: "BELLOSSOM",
+        method: "Item",
+        value: "SUNSTONE"
+      }
+    ]
   },
   {
     id: "VILEPLUME",
@@ -5378,7 +5618,10 @@ export const fakemons: Fakemon[] =
     eggMoves: [
 
     ],
-    suffix: "normal"
+    suffix: "normal",
+    evolution: [
+
+    ]
   },
   {
     id: "PARAS",
@@ -5491,7 +5734,14 @@ export const fakemons: Fakemon[] =
       "SWEETSCENT",
       "WIDEGUARD"
     ],
-    suffix: "normal"
+    suffix: "normal",
+    evolution: [
+      {
+        to: "PARASECT",
+        method: "Level",
+        value: "24"
+      }
+    ]
   },
   {
     id: "PARASECT",
@@ -5600,7 +5850,10 @@ export const fakemons: Fakemon[] =
     eggMoves: [
 
     ],
-    suffix: "normal"
+    suffix: "normal",
+    evolution: [
+
+    ]
   },
   {
     id: "VENONAT",
@@ -5710,7 +5963,14 @@ export const fakemons: Fakemon[] =
       "TOXICSPIKES",
       "VENOSHOCK"
     ],
-    suffix: "normal"
+    suffix: "normal",
+    evolution: [
+      {
+        to: "VENOMOTH",
+        method: "Level",
+        value: "31"
+      }
+    ]
   },
   {
     id: "VENOMOTH",
@@ -5828,7 +6088,10 @@ export const fakemons: Fakemon[] =
     eggMoves: [
 
     ],
-    suffix: "normal"
+    suffix: "normal",
+    evolution: [
+
+    ]
   },
   {
     id: "DIGLETT",
@@ -5949,7 +6212,14 @@ export const fakemons: Fakemon[] =
       "SCREECH",
       "UPROAR"
     ],
-    suffix: "normal"
+    suffix: "normal",
+    evolution: [
+      {
+        to: "DUGTRIO",
+        method: "Level",
+        value: "26"
+      }
+    ]
   },
   {
     id: "DUGTRIO",
@@ -6068,7 +6338,10 @@ export const fakemons: Fakemon[] =
     eggMoves: [
 
     ],
-    suffix: "normal"
+    suffix: "normal",
+    evolution: [
+
+    ]
   },
   {
     id: "MEOWTH",
@@ -6206,7 +6479,14 @@ export const fakemons: Fakemon[] =
       "SPITE",
       "TAILWHIP"
     ],
-    suffix: "normal"
+    suffix: "normal",
+    evolution: [
+      {
+        to: "PERSIAN",
+        method: "Level",
+        value: "28"
+      }
+    ]
   },
   {
     id: "PERSIAN",
@@ -6343,7 +6623,10 @@ export const fakemons: Fakemon[] =
     eggMoves: [
 
     ],
-    suffix: "normal"
+    suffix: "normal",
+    evolution: [
+
+    ]
   },
   {
     id: "PSYDUCK",
@@ -6491,7 +6774,14 @@ export const fakemons: Fakemon[] =
       "SIMPLEBEAM",
       "YAWN"
     ],
-    suffix: "normal"
+    suffix: "normal",
+    evolution: [
+      {
+        to: "GOLDUCK",
+        method: "Level",
+        value: "33"
+      }
+    ]
   },
   {
     id: "GOLDUCK",
@@ -6642,7 +6932,10 @@ export const fakemons: Fakemon[] =
     eggMoves: [
 
     ],
-    suffix: "normal"
+    suffix: "normal",
+    evolution: [
+
+    ]
   },
   {
     id: "MANKEY",
@@ -6788,7 +7081,14 @@ export const fakemons: Fakemon[] =
       "REVERSAL",
       "SPITE"
     ],
-    suffix: "normal"
+    suffix: "normal",
+    evolution: [
+      {
+        to: "PRIMEAPE",
+        method: "Level",
+        value: "28"
+      }
+    ]
   },
   {
     id: "PRIMEAPE",
@@ -6933,7 +7233,14 @@ export const fakemons: Fakemon[] =
     eggMoves: [
 
     ],
-    suffix: "normal"
+    suffix: "normal",
+    evolution: [
+      {
+        to: "ANNIHILAPE",
+        method: "Counter",
+        value: "20"
+      }
+    ]
   },
   {
     id: "GROWLITHE",
@@ -7058,7 +7365,14 @@ export const fakemons: Fakemon[] =
       "RAGINGFURY",
       "THRASH"
     ],
-    suffix: "normal"
+    suffix: "normal",
+    evolution: [
+      {
+        to: "ARCANINE",
+        method: "Item",
+        value: "FIRESTONE"
+      }
+    ]
   },
   {
     id: "ARCANINE",
@@ -7183,7 +7497,10 @@ export const fakemons: Fakemon[] =
     eggMoves: [
 
     ],
-    suffix: "normal"
+    suffix: "normal",
+    evolution: [
+
+    ]
   },
   {
     id: "POLIWAG",
@@ -7293,7 +7610,14 @@ export const fakemons: Fakemon[] =
       "SPLASH",
       "WATERPULSE"
     ],
-    suffix: "normal"
+    suffix: "normal",
+    evolution: [
+      {
+        to: "POLIWHIRL",
+        method: "Level",
+        value: "25"
+      }
+    ]
   },
   {
     id: "POLIWHIRL",
@@ -7408,7 +7732,14 @@ export const fakemons: Fakemon[] =
     eggMoves: [
 
     ],
-    suffix: "normal"
+    suffix: "normal",
+    evolution: [
+      {
+        to: "POLITOED",
+        method: "TradeItem",
+        value: "KINGSROCK"
+      }
+    ]
   },
   {
     id: "POLIWRATH",
@@ -7552,7 +7883,10 @@ export const fakemons: Fakemon[] =
     eggMoves: [
 
     ],
-    suffix: "normal"
+    suffix: "normal",
+    evolution: [
+
+    ]
   },
   {
     id: "ABRA",
@@ -7680,7 +8014,14 @@ export const fakemons: Fakemon[] =
       "PSYCHOSHIFT",
       "THUNDERPUNCH"
     ],
-    suffix: "normal"
+    suffix: "normal",
+    evolution: [
+      {
+        to: "KADABRA",
+        method: "Level",
+        value: "16"
+      }
+    ]
   },
   {
     id: "KADABRA",
@@ -7813,7 +8154,10 @@ export const fakemons: Fakemon[] =
     eggMoves: [
 
     ],
-    suffix: "normal"
+    suffix: "normal",
+    evolution: [
+
+    ]
   },
   {
     id: "ALAKAZAM",
@@ -7953,7 +8297,10 @@ export const fakemons: Fakemon[] =
     eggMoves: [
 
     ],
-    suffix: "normal"
+    suffix: "normal",
+    evolution: [
+
+    ]
   },
   {
     id: "MACHOP",
@@ -8090,7 +8437,14 @@ export const fakemons: Fakemon[] =
       "THUNDERPUNCH",
       "TICKLE"
     ],
-    suffix: "normal"
+    suffix: "normal",
+    evolution: [
+      {
+        to: "MACHOKE",
+        method: "Level",
+        value: "28"
+      }
+    ]
   },
   {
     id: "MACHOKE",
@@ -8216,7 +8570,10 @@ export const fakemons: Fakemon[] =
     eggMoves: [
 
     ],
-    suffix: "normal"
+    suffix: "normal",
+    evolution: [
+
+    ]
   },
   {
     id: "MACHAMP",
@@ -8352,7 +8709,10 @@ export const fakemons: Fakemon[] =
     eggMoves: [
 
     ],
-    suffix: "normal"
+    suffix: "normal",
+    evolution: [
+
+    ]
   },
   {
     id: "BELLSPROUT",
@@ -8471,7 +8831,14 @@ export const fakemons: Fakemon[] =
       "WEATHERBALL",
       "WORRYSEED"
     ],
-    suffix: "normal"
+    suffix: "normal",
+    evolution: [
+      {
+        to: "WEEPINBELL",
+        method: "Level",
+        value: "21"
+      }
+    ]
   },
   {
     id: "WEEPINBELL",
@@ -8580,7 +8947,14 @@ export const fakemons: Fakemon[] =
     eggMoves: [
 
     ],
-    suffix: "normal"
+    suffix: "normal",
+    evolution: [
+      {
+        to: "VICTREEBEL",
+        method: "Item",
+        value: "LEAFSTONE"
+      }
+    ]
   },
   {
     id: "VICTREEBEL",
@@ -8689,7 +9063,10 @@ export const fakemons: Fakemon[] =
     eggMoves: [
 
     ],
-    suffix: "normal"
+    suffix: "normal",
+    evolution: [
+
+    ]
   },
   {
     id: "TENTACOOL",
@@ -8812,7 +9189,14 @@ export const fakemons: Fakemon[] =
       "RAPIDSPIN",
       "TICKLE"
     ],
-    suffix: "normal"
+    suffix: "normal",
+    evolution: [
+      {
+        to: "TENTACRUEL",
+        method: "Level",
+        value: "30"
+      }
+    ]
   },
   {
     id: "TENTACRUEL",
@@ -8934,7 +9318,10 @@ export const fakemons: Fakemon[] =
     eggMoves: [
 
     ],
-    suffix: "normal"
+    suffix: "normal",
+    evolution: [
+
+    ]
   },
   {
     id: "GEODUDE",
@@ -9062,7 +9449,14 @@ export const fakemons: Fakemon[] =
       "MEGAPUNCH",
       "WIDEGUARD"
     ],
-    suffix: "normal"
+    suffix: "normal",
+    evolution: [
+      {
+        to: "GRAVELER",
+        method: "Level",
+        value: "25"
+      }
+    ]
   },
   {
     id: "GRAVELER",
@@ -9198,7 +9592,10 @@ export const fakemons: Fakemon[] =
     eggMoves: [
 
     ],
-    suffix: "normal"
+    suffix: "normal",
+    evolution: [
+
+    ]
   },
   {
     id: "GOLEM",
@@ -9329,7 +9726,10 @@ export const fakemons: Fakemon[] =
     eggMoves: [
 
     ],
-    suffix: "normal"
+    suffix: "normal",
+    evolution: [
+
+    ]
   },
   {
     id: "PONYTA",
@@ -9436,7 +9836,14 @@ export const fakemons: Fakemon[] =
       "MORNINGSUN",
       "THRASH"
     ],
-    suffix: "normal"
+    suffix: "normal",
+    evolution: [
+      {
+        to: "RAPIDASH",
+        method: "Level",
+        value: "40"
+      }
+    ]
   },
   {
     id: "RAPIDASH",
@@ -9547,7 +9954,10 @@ export const fakemons: Fakemon[] =
     eggMoves: [
 
     ],
-    suffix: "normal"
+    suffix: "normal",
+    evolution: [
+
+    ]
   },
   {
     id: "SLOWPOKE",
@@ -9694,7 +10104,14 @@ export const fakemons: Fakemon[] =
       "WONDERROOM",
       "ZENHEADBUTT"
     ],
-    suffix: "normal"
+    suffix: "normal",
+    evolution: [
+      {
+        to: "SLOWKING",
+        method: "TradeItem",
+        value: "KINGSROCK"
+      }
+    ]
   },
   {
     id: "SLOWBRO",
@@ -9860,7 +10277,10 @@ export const fakemons: Fakemon[] =
     eggMoves: [
 
     ],
-    suffix: "normal"
+    suffix: "normal",
+    evolution: [
+
+    ]
   },
   {
     id: "MAGNEMITE",
@@ -9969,7 +10389,14 @@ export const fakemons: Fakemon[] =
       "ELECTROWEB",
       "EXPLOSION"
     ],
-    suffix: "normal"
+    suffix: "normal",
+    evolution: [
+      {
+        to: "MAGNETON",
+        method: "Level",
+        value: "30"
+      }
+    ]
   },
   {
     id: "MAGNETON",
@@ -10081,7 +10508,14 @@ export const fakemons: Fakemon[] =
     eggMoves: [
 
     ],
-    suffix: "normal"
+    suffix: "normal",
+    evolution: [
+      {
+        to: "MAGNEZONE",
+        method: "LocationFlag",
+        value: "Magnetic"
+      }
+    ]
   },
   {
     id: "FARFETCHD",
@@ -10215,7 +10649,10 @@ export const fakemons: Fakemon[] =
       "SIMPLEBEAM",
       "SKYATTACK"
     ],
-    suffix: "normal"
+    suffix: "normal",
+    evolution: [
+
+    ]
   },
   {
     id: "DODUO",
@@ -10321,7 +10758,14 @@ export const fakemons: Fakemon[] =
       "SUPERSONIC",
       "WHIRLWIND"
     ],
-    suffix: "normal"
+    suffix: "normal",
+    evolution: [
+      {
+        to: "DODRIO",
+        method: "Level",
+        value: "31"
+      }
+    ]
   },
   {
     id: "DODRIO",
@@ -10432,7 +10876,10 @@ export const fakemons: Fakemon[] =
     eggMoves: [
 
     ],
-    suffix: "normal"
+    suffix: "normal",
+    evolution: [
+
+    ]
   },
   {
     id: "SEEL",
@@ -10557,7 +11004,14 @@ export const fakemons: Fakemon[] =
       "STOCKPILE",
       "SWALLOW"
     ],
-    suffix: "normal"
+    suffix: "normal",
+    evolution: [
+      {
+        to: "DEWGONG",
+        method: "Level",
+        value: "34"
+      }
+    ]
   },
   {
     id: "DEWGONG",
@@ -10679,7 +11133,10 @@ export const fakemons: Fakemon[] =
     eggMoves: [
 
     ],
-    suffix: "normal"
+    suffix: "normal",
+    evolution: [
+
+    ]
   },
   {
     id: "GRIMER",
@@ -10812,7 +11269,14 @@ export const fakemons: Fakemon[] =
       "STOCKPILE",
       "SWALLOW"
     ],
-    suffix: "normal"
+    suffix: "normal",
+    evolution: [
+      {
+        to: "MUK",
+        method: "Level",
+        value: "38"
+      }
+    ]
   },
   {
     id: "MUK",
@@ -10947,7 +11411,10 @@ export const fakemons: Fakemon[] =
     eggMoves: [
 
     ],
-    suffix: "normal"
+    suffix: "normal",
+    evolution: [
+
+    ]
   },
   {
     id: "SHELLDER",
@@ -11058,7 +11525,14 @@ export const fakemons: Fakemon[] =
       "TAKEDOWN",
       "WATERPULSE"
     ],
-    suffix: "normal"
+    suffix: "normal",
+    evolution: [
+      {
+        to: "CLOYSTER",
+        method: "Item",
+        value: "WATERSTONE"
+      }
+    ]
   },
   {
     id: "CLOYSTER",
@@ -11179,7 +11653,10 @@ export const fakemons: Fakemon[] =
     eggMoves: [
 
     ],
-    suffix: "normal"
+    suffix: "normal",
+    evolution: [
+
+    ]
   },
   {
     id: "GASTLY",
@@ -11316,7 +11793,14 @@ export const fakemons: Fakemon[] =
       "THUNDERPUNCH",
       "TOXIC"
     ],
-    suffix: "normal"
+    suffix: "normal",
+    evolution: [
+      {
+        to: "HAUNTER",
+        method: "Level",
+        value: "25"
+      }
+    ]
   },
   {
     id: "HAUNTER",
@@ -11449,7 +11933,10 @@ export const fakemons: Fakemon[] =
     eggMoves: [
 
     ],
-    suffix: "normal"
+    suffix: "normal",
+    evolution: [
+
+    ]
   },
   {
     id: "GENGAR",
@@ -11604,7 +12091,10 @@ export const fakemons: Fakemon[] =
     eggMoves: [
 
     ],
-    suffix: "normal"
+    suffix: "normal",
+    evolution: [
+
+    ]
   },
   {
     id: "ONIX",
@@ -11738,7 +12228,14 @@ export const fakemons: Fakemon[] =
       "ROLLOUT",
       "WIDEGUARD"
     ],
-    suffix: "normal"
+    suffix: "normal",
+    evolution: [
+      {
+        to: "STEELIX",
+        method: "TradeItem",
+        value: "METALCOAT"
+      }
+    ]
   },
   {
     id: "DROWZEE",
@@ -11886,7 +12383,14 @@ export const fakemons: Fakemon[] =
       "ROLEPLAY",
       "THUNDERPUNCH"
     ],
-    suffix: "normal"
+    suffix: "normal",
+    evolution: [
+      {
+        to: "HYPNO",
+        method: "Level",
+        value: "26"
+      }
+    ]
   },
   {
     id: "HYPNO",
@@ -12035,7 +12539,10 @@ export const fakemons: Fakemon[] =
     eggMoves: [
 
     ],
-    suffix: "normal"
+    suffix: "normal",
+    evolution: [
+
+    ]
   },
   {
     id: "KRABBY",
@@ -12153,7 +12660,14 @@ export const fakemons: Fakemon[] =
       "SLASH",
       "TICKLE"
     ],
-    suffix: "normal"
+    suffix: "normal",
+    evolution: [
+      {
+        to: "KINGLER",
+        method: "Level",
+        value: "28"
+      }
+    ]
   },
   {
     id: "KINGLER",
@@ -12269,7 +12783,10 @@ export const fakemons: Fakemon[] =
     eggMoves: [
 
     ],
-    suffix: "normal"
+    suffix: "normal",
+    evolution: [
+
+    ]
   },
   {
     id: "VOLTORB",
@@ -12374,7 +12891,14 @@ export const fakemons: Fakemon[] =
       "METALSOUND",
       "RECYCLE"
     ],
-    suffix: "normal"
+    suffix: "normal",
+    evolution: [
+      {
+        to: "ELECTRODE",
+        method: "Level",
+        value: "30"
+      }
+    ]
   },
   {
     id: "ELECTRODE",
@@ -12485,7 +13009,10 @@ export const fakemons: Fakemon[] =
     eggMoves: [
 
     ],
-    suffix: "normal"
+    suffix: "normal",
+    evolution: [
+
+    ]
   },
   {
     id: "EXEGGCUTE",
@@ -12608,7 +13135,14 @@ export const fakemons: Fakemon[] =
       "STUNSPORE",
       "SYNTHESIS"
     ],
-    suffix: "normal"
+    suffix: "normal",
+    evolution: [
+      {
+        to: "EXEGGUTOR",
+        method: "Item",
+        value: "LEAFSTONE"
+      }
+    ]
   },
   {
     id: "EXEGGUTOR",
@@ -12744,7 +13278,10 @@ export const fakemons: Fakemon[] =
     eggMoves: [
 
     ],
-    suffix: "normal"
+    suffix: "normal",
+    evolution: [
+
+    ]
   },
   {
     id: "CUBONE",
@@ -12876,7 +13413,14 @@ export const fakemons: Fakemon[] =
       "SCREECH",
       "SKULLBASH"
     ],
-    suffix: "normal"
+    suffix: "normal",
+    evolution: [
+      {
+        to: "MAROWAK",
+        method: "Level",
+        value: "28"
+      }
+    ]
   },
   {
     id: "MAROWAK",
@@ -13006,7 +13550,10 @@ export const fakemons: Fakemon[] =
     eggMoves: [
 
     ],
-    suffix: "normal"
+    suffix: "normal",
+    evolution: [
+
+    ]
   },
   {
     id: "HITMONLEE",
@@ -13140,7 +13687,10 @@ export const fakemons: Fakemon[] =
     eggMoves: [
 
     ],
-    suffix: "normal"
+    suffix: "normal",
+    evolution: [
+
+    ]
   },
   {
     id: "HITMONCHAN",
@@ -13277,7 +13827,10 @@ export const fakemons: Fakemon[] =
     eggMoves: [
 
     ],
-    suffix: "normal"
+    suffix: "normal",
+    evolution: [
+
+    ]
   },
   {
     id: "LICKITUNG",
@@ -13422,7 +13975,14 @@ export const fakemons: Fakemon[] =
       "THRASH",
       "ZENHEADBUTT"
     ],
-    suffix: "normal"
+    suffix: "normal",
+    evolution: [
+      {
+        to: "LICKILICKY",
+        method: "HasMove",
+        value: "ROLLOUT"
+      }
+    ]
   },
   {
     id: "KOFFING",
@@ -13544,7 +14104,14 @@ export const fakemons: Fakemon[] =
       "TOXICSPIKES",
       "VENOMDRENCH"
     ],
-    suffix: "normal"
+    suffix: "normal",
+    evolution: [
+      {
+        to: "WEEZING",
+        method: "Level",
+        value: "35"
+      }
+    ]
   },
   {
     id: "WEEZING",
@@ -13660,7 +14227,10 @@ export const fakemons: Fakemon[] =
     eggMoves: [
 
     ],
-    suffix: "normal"
+    suffix: "normal",
+    evolution: [
+
+    ]
   },
   {
     id: "RHYHORN",
@@ -13805,7 +14375,14 @@ export const fakemons: Fakemon[] =
       "SKULLBASH",
       "THUNDERFANG"
     ],
-    suffix: "normal"
+    suffix: "normal",
+    evolution: [
+      {
+        to: "RHYDON",
+        method: "Level",
+        value: "42"
+      }
+    ]
   },
   {
     id: "RHYDON",
@@ -13968,7 +14545,14 @@ export const fakemons: Fakemon[] =
     eggMoves: [
 
     ],
-    suffix: "normal"
+    suffix: "normal",
+    evolution: [
+      {
+        to: "RHYPERIOR",
+        method: "TradeItem",
+        value: "PROTECTOR"
+      }
+    ]
   },
   {
     id: "CHANSEY",
@@ -14137,7 +14721,10 @@ export const fakemons: Fakemon[] =
       "PRESENT",
       "SEISMICTOSS"
     ],
-    suffix: "normal"
+    suffix: "normal",
+    evolution: [
+
+    ]
   },
   {
     id: "TANGELA",
@@ -14253,7 +14840,14 @@ export const fakemons: Fakemon[] =
       "POWERSWAP",
       "RAGEPOWDER"
     ],
-    suffix: "normal"
+    suffix: "normal",
+    evolution: [
+      {
+        to: "TANGROWTH",
+        method: "HasMove",
+        value: "ANCIENTPOWER"
+      }
+    ]
   },
   {
     id: "KANGASKHAN",
@@ -14405,7 +14999,10 @@ export const fakemons: Fakemon[] =
       "STOMP",
       "UPROAR"
     ],
-    suffix: "normal"
+    suffix: "normal",
+    evolution: [
+
+    ]
   },
   {
     id: "HORSEA",
@@ -14511,7 +15108,14 @@ export const fakemons: Fakemon[] =
       "SPLASH",
       "WATERPULSE"
     ],
-    suffix: "normal"
+    suffix: "normal",
+    evolution: [
+      {
+        to: "SEADRA",
+        method: "Level",
+        value: "32"
+      }
+    ]
   },
   {
     id: "SEADRA",
@@ -14614,7 +15218,14 @@ export const fakemons: Fakemon[] =
     eggMoves: [
 
     ],
-    suffix: "normal"
+    suffix: "normal",
+    evolution: [
+      {
+        to: "KINGDRA",
+        method: "TradeItem",
+        value: "DRAGONSCALE"
+      }
+    ]
   },
   {
     id: "GOLDEEN",
@@ -14721,7 +15332,14 @@ export const fakemons: Fakemon[] =
       "PSYBEAM",
       "SKULLBASH"
     ],
-    suffix: "normal"
+    suffix: "normal",
+    evolution: [
+      {
+        to: "SEAKING",
+        method: "Level",
+        value: "33"
+      }
+    ]
   },
   {
     id: "SEAKING",
@@ -14822,7 +15440,10 @@ export const fakemons: Fakemon[] =
     eggMoves: [
 
     ],
-    suffix: "normal"
+    suffix: "normal",
+    evolution: [
+
+    ]
   },
   {
     id: "STARYU",
@@ -14928,7 +15549,14 @@ export const fakemons: Fakemon[] =
     eggMoves: [
 
     ],
-    suffix: "normal"
+    suffix: "normal",
+    evolution: [
+      {
+        to: "STARMIE",
+        method: "Item",
+        value: "WATERSTONE"
+      }
+    ]
   },
   {
     id: "STARMIE",
@@ -15051,7 +15679,10 @@ export const fakemons: Fakemon[] =
     eggMoves: [
 
     ],
-    suffix: "normal"
+    suffix: "normal",
+    evolution: [
+
+    ]
   },
   {
     id: "MRMIME",
@@ -15219,7 +15850,10 @@ export const fakemons: Fakemon[] =
       "TICKLE",
       "TRICK"
     ],
-    suffix: "normal"
+    suffix: "normal",
+    evolution: [
+
+    ]
   },
   {
     id: "SCYTHER",
@@ -15345,7 +15979,14 @@ export const fakemons: Fakemon[] =
       "QUICKGUARD",
       "REVERSAL"
     ],
-    suffix: "normal"
+    suffix: "normal",
+    evolution: [
+      {
+        to: "KLEAVOR",
+        method: "Item",
+        value: "BLACKAUGURITE"
+      }
+    ]
   },
   {
     id: "JYNX",
@@ -15489,7 +16130,10 @@ export const fakemons: Fakemon[] =
     eggMoves: [
 
     ],
-    suffix: "normal"
+    suffix: "normal",
+    evolution: [
+
+    ]
   },
   {
     id: "ELECTABUZZ",
@@ -15617,7 +16261,14 @@ export const fakemons: Fakemon[] =
     eggMoves: [
 
     ],
-    suffix: "normal"
+    suffix: "normal",
+    evolution: [
+      {
+        to: "ELECTIVIRE",
+        method: "TradeItem",
+        value: "ELECTIRIZER"
+      }
+    ]
   },
   {
     id: "MAGMAR",
@@ -15743,7 +16394,14 @@ export const fakemons: Fakemon[] =
     eggMoves: [
 
     ],
-    suffix: "normal"
+    suffix: "normal",
+    evolution: [
+      {
+        to: "MAGMORTAR",
+        method: "TradeItem",
+        value: "MAGMARIZER"
+      }
+    ]
   },
   {
     id: "PINSIR",
@@ -15865,7 +16523,10 @@ export const fakemons: Fakemon[] =
       "SUPERPOWER",
       "THRASH"
     ],
-    suffix: "normal"
+    suffix: "normal",
+    evolution: [
+
+    ]
   },
   {
     id: "TAUROS",
@@ -15991,7 +16652,10 @@ export const fakemons: Fakemon[] =
       "CURSE",
       "ENDEAVOR"
     ],
-    suffix: "normal"
+    suffix: "normal",
+    evolution: [
+
+    ]
   },
   {
     id: "MAGIKARP",
@@ -16030,7 +16694,14 @@ export const fakemons: Fakemon[] =
     eggMoves: [
 
     ],
-    suffix: "normal"
+    suffix: "normal",
+    evolution: [
+      {
+        to: "GYARADOS",
+        method: "Level",
+        value: "20"
+      }
+    ]
   },
   {
     id: "GYARADOS",
@@ -16166,7 +16837,10 @@ export const fakemons: Fakemon[] =
     eggMoves: [
 
     ],
-    suffix: "normal"
+    suffix: "normal",
+    evolution: [
+
+    ]
   },
   {
     id: "LAPRAS",
@@ -16310,7 +16984,10 @@ export const fakemons: Fakemon[] =
       "TICKLE",
       "WHIRLPOOL"
     ],
-    suffix: "normal"
+    suffix: "normal",
+    evolution: [
+
+    ]
   },
   {
     id: "DITTO",
@@ -16347,7 +17024,10 @@ export const fakemons: Fakemon[] =
     eggMoves: [
 
     ],
-    suffix: "normal"
+    suffix: "normal",
+    evolution: [
+
+    ]
   },
   {
     id: "EEVEE",
@@ -16462,7 +17142,14 @@ export const fakemons: Fakemon[] =
       "WISH",
       "YAWN"
     ],
-    suffix: "normal"
+    suffix: "normal",
+    evolution: [
+      {
+        to: "SYLVEON",
+        method: "HappinessMoveType",
+        value: "FAIRY"
+      }
+    ]
   },
   {
     id: "VAPOREON",
@@ -16595,7 +17282,10 @@ export const fakemons: Fakemon[] =
     eggMoves: [
 
     ],
-    suffix: "normal"
+    suffix: "normal",
+    evolution: [
+
+    ]
   },
   {
     id: "JOLTEON",
@@ -16731,7 +17421,10 @@ export const fakemons: Fakemon[] =
     eggMoves: [
 
     ],
-    suffix: "normal"
+    suffix: "normal",
+    evolution: [
+
+    ]
   },
   {
     id: "FLAREON",
@@ -16862,7 +17555,10 @@ export const fakemons: Fakemon[] =
     eggMoves: [
 
     ],
-    suffix: "normal"
+    suffix: "normal",
+    evolution: [
+
+    ]
   },
   {
     id: "PORYGON",
@@ -16975,7 +17671,14 @@ export const fakemons: Fakemon[] =
     eggMoves: [
 
     ],
-    suffix: "normal"
+    suffix: "normal",
+    evolution: [
+      {
+        to: "PORYGON2",
+        method: "TradeItem",
+        value: "UPGRADE"
+      }
+    ]
   },
   {
     id: "OMANYTE",
@@ -17095,7 +17798,14 @@ export const fakemons: Fakemon[] =
       "WATERPULSE",
       "WHIRLPOOL"
     ],
-    suffix: "normal"
+    suffix: "normal",
+    evolution: [
+      {
+        to: "OMASTAR",
+        method: "Level",
+        value: "40"
+      }
+    ]
   },
   {
     id: "OMASTAR",
@@ -17211,7 +17921,10 @@ export const fakemons: Fakemon[] =
     eggMoves: [
 
     ],
-    suffix: "normal"
+    suffix: "normal",
+    evolution: [
+
+    ]
   },
   {
     id: "KABUTO",
@@ -17330,7 +18043,14 @@ export const fakemons: Fakemon[] =
       "SCREECH",
       "TAKEDOWN"
     ],
-    suffix: "normal"
+    suffix: "normal",
+    evolution: [
+      {
+        to: "KABUTOPS",
+        method: "Level",
+        value: "40"
+      }
+    ]
   },
   {
     id: "KABUTOPS",
@@ -17462,7 +18182,10 @@ export const fakemons: Fakemon[] =
     eggMoves: [
 
     ],
-    suffix: "normal"
+    suffix: "normal",
+    evolution: [
+
+    ]
   },
   {
     id: "AERODACTYL",
@@ -17599,7 +18322,10 @@ export const fakemons: Fakemon[] =
       "WHIRLWIND",
       "WIDEGUARD"
     ],
-    suffix: "normal"
+    suffix: "normal",
+    evolution: [
+
+    ]
   },
   {
     id: "SNORLAX",
@@ -17779,7 +18505,10 @@ export const fakemons: Fakemon[] =
       "WHIRLWIND",
       "ZENHEADBUTT"
     ],
-    suffix: "normal"
+    suffix: "normal",
+    evolution: [
+
+    ]
   },
   {
     id: "ARTICUNO",
@@ -17898,7 +18627,10 @@ export const fakemons: Fakemon[] =
     eggMoves: [
 
     ],
-    suffix: "normal"
+    suffix: "normal",
+    evolution: [
+
+    ]
   },
   {
     id: "ZAPDOS",
@@ -18016,7 +18748,10 @@ export const fakemons: Fakemon[] =
     eggMoves: [
 
     ],
-    suffix: "normal"
+    suffix: "normal",
+    evolution: [
+
+    ]
   },
   {
     id: "MOLTRES",
@@ -18134,7 +18869,10 @@ export const fakemons: Fakemon[] =
     eggMoves: [
 
     ],
-    suffix: "normal"
+    suffix: "normal",
+    evolution: [
+
+    ]
   },
   {
     id: "DRATINI",
@@ -18254,7 +18992,14 @@ export const fakemons: Fakemon[] =
       "SUPERSONIC",
       "WATERPULSE"
     ],
-    suffix: "normal"
+    suffix: "normal",
+    evolution: [
+      {
+        to: "DRAGONAIR",
+        method: "Level",
+        value: "30"
+      }
+    ]
   },
   {
     id: "DRAGONAIR",
@@ -18367,7 +19112,14 @@ export const fakemons: Fakemon[] =
     eggMoves: [
 
     ],
-    suffix: "normal"
+    suffix: "normal",
+    evolution: [
+      {
+        to: "DRAGONITE",
+        method: "Level",
+        value: "55"
+      }
+    ]
   },
   {
     id: "DRAGONITE",
@@ -18534,7 +19286,10 @@ export const fakemons: Fakemon[] =
     eggMoves: [
 
     ],
-    suffix: "normal"
+    suffix: "normal",
+    evolution: [
+
+    ]
   },
   {
     id: "MEWTWO",
@@ -18725,7 +19480,10 @@ export const fakemons: Fakemon[] =
     eggMoves: [
 
     ],
-    suffix: "normal"
+    suffix: "normal",
+    evolution: [
+
+    ]
   },
   {
     id: "MEW",
@@ -19117,7 +19875,10 @@ export const fakemons: Fakemon[] =
     eggMoves: [
 
     ],
-    suffix: "normal"
+    suffix: "normal",
+    evolution: [
+
+    ]
   },
   {
     id: "CHIKORITA",
@@ -19237,7 +19998,14 @@ export const fakemons: Fakemon[] =
       "NATUREPOWER",
       "VINEWHIP"
     ],
-    suffix: "normal"
+    suffix: "normal",
+    evolution: [
+      {
+        to: "BAYLEEF",
+        method: "Level",
+        value: "16"
+      }
+    ]
   },
   {
     id: "BAYLEEF",
@@ -19351,7 +20119,14 @@ export const fakemons: Fakemon[] =
     eggMoves: [
 
     ],
-    suffix: "normal"
+    suffix: "normal",
+    evolution: [
+      {
+        to: "MEGANIUM",
+        method: "Level",
+        value: "32"
+      }
+    ]
   },
   {
     id: "MEGANIUM",
@@ -19480,7 +20255,10 @@ export const fakemons: Fakemon[] =
     eggMoves: [
 
     ],
-    suffix: "normal"
+    suffix: "normal",
+    evolution: [
+
+    ]
   },
   {
     id: "CYNDAQUIL",
@@ -19597,7 +20375,14 @@ export const fakemons: Fakemon[] =
       "REVERSAL",
       "THRASH"
     ],
-    suffix: "normal"
+    suffix: "normal",
+    evolution: [
+      {
+        to: "QUILAVA",
+        method: "Level",
+        value: "14"
+      }
+    ]
   },
   {
     id: "QUILAVA",
@@ -19707,7 +20492,14 @@ export const fakemons: Fakemon[] =
     eggMoves: [
 
     ],
-    suffix: "normal"
+    suffix: "normal",
+    evolution: [
+      {
+        to: "TYPHLOSION",
+        method: "Level",
+        value: "36"
+      }
+    ]
   },
   {
     id: "TYPHLOSION",
@@ -19847,7 +20639,10 @@ export const fakemons: Fakemon[] =
     eggMoves: [
 
     ],
-    suffix: "normal"
+    suffix: "normal",
+    evolution: [
+
+    ]
   },
   {
     id: "TOTODILE",
@@ -19985,7 +20780,14 @@ export const fakemons: Fakemon[] =
       "METALCLAW",
       "THRASH"
     ],
-    suffix: "normal"
+    suffix: "normal",
+    evolution: [
+      {
+        to: "CROCONAW",
+        method: "Level",
+        value: "18"
+      }
+    ]
   },
   {
     id: "CROCONAW",
@@ -20117,7 +20919,14 @@ export const fakemons: Fakemon[] =
     eggMoves: [
 
     ],
-    suffix: "normal"
+    suffix: "normal",
+    evolution: [
+      {
+        to: "FERALIGATR",
+        method: "Level",
+        value: "30"
+      }
+    ]
   },
   {
     id: "FERALIGATR",
@@ -20267,7 +21076,10 @@ export const fakemons: Fakemon[] =
     eggMoves: [
 
     ],
-    suffix: "normal"
+    suffix: "normal",
+    evolution: [
+
+    ]
   },
   {
     id: "SENTRET",
@@ -20405,7 +21217,14 @@ export const fakemons: Fakemon[] =
       "TIDYUP",
       "TRICK"
     ],
-    suffix: "normal"
+    suffix: "normal",
+    evolution: [
+      {
+        to: "FURRET",
+        method: "Level",
+        value: "15"
+      }
+    ]
   },
   {
     id: "FURRET",
@@ -20543,7 +21362,10 @@ export const fakemons: Fakemon[] =
     eggMoves: [
 
     ],
-    suffix: "normal"
+    suffix: "normal",
+    evolution: [
+
+    ]
   },
   {
     id: "HOOTHOOT",
@@ -20673,7 +21495,14 @@ export const fakemons: Fakemon[] =
       "WHIRLWIND",
       "WINGATTACK"
     ],
-    suffix: "normal"
+    suffix: "normal",
+    evolution: [
+      {
+        to: "NOCTOWL",
+        method: "Level",
+        value: "20"
+      }
+    ]
   },
   {
     id: "NOCTOWL",
@@ -20804,7 +21633,10 @@ export const fakemons: Fakemon[] =
     eggMoves: [
 
     ],
-    suffix: "normal"
+    suffix: "normal",
+    evolution: [
+
+    ]
   },
   {
     id: "LEDYBA",
@@ -20918,7 +21750,14 @@ export const fakemons: Fakemon[] =
       "SCREECH",
       "TAILWIND"
     ],
-    suffix: "normal"
+    suffix: "normal",
+    evolution: [
+      {
+        to: "LEDIAN",
+        method: "Level",
+        value: "18"
+      }
+    ]
   },
   {
     id: "LEDIAN",
@@ -21033,7 +21872,10 @@ export const fakemons: Fakemon[] =
     eggMoves: [
 
     ],
-    suffix: "normal"
+    suffix: "normal",
+    evolution: [
+
+    ]
   },
   {
     id: "SPINARAK",
@@ -21151,7 +21993,14 @@ export const fakemons: Fakemon[] =
       "RAGEPOWDER",
       "TOXICSPIKES"
     ],
-    suffix: "normal"
+    suffix: "normal",
+    evolution: [
+      {
+        to: "ARIADOS",
+        method: "Level",
+        value: "22"
+      }
+    ]
   },
   {
     id: "ARIADOS",
@@ -21271,7 +22120,10 @@ export const fakemons: Fakemon[] =
     eggMoves: [
 
     ],
-    suffix: "normal"
+    suffix: "normal",
+    evolution: [
+
+    ]
   },
   {
     id: "CROBAT",
@@ -21391,7 +22243,10 @@ export const fakemons: Fakemon[] =
     eggMoves: [
 
     ],
-    suffix: "normal"
+    suffix: "normal",
+    evolution: [
+
+    ]
   },
   {
     id: "CHINCHOU",
@@ -21513,7 +22368,14 @@ export const fakemons: Fakemon[] =
       "WATERPULSE",
       "WHIRLPOOL"
     ],
-    suffix: "normal"
+    suffix: "normal",
+    evolution: [
+      {
+        to: "LANTURN",
+        method: "Level",
+        value: "27"
+      }
+    ]
   },
   {
     id: "LANTURN",
@@ -21633,7 +22495,10 @@ export const fakemons: Fakemon[] =
     eggMoves: [
 
     ],
-    suffix: "normal"
+    suffix: "normal",
+    evolution: [
+
+    ]
   },
   {
     id: "PICHU",
@@ -21746,7 +22611,10 @@ export const fakemons: Fakemon[] =
       "TICKLE",
       "WISH"
     ],
-    suffix: "normal"
+    suffix: "normal",
+    evolution: [
+
+    ]
   },
   {
     id: "CLEFFA",
@@ -21889,7 +22757,10 @@ export const fakemons: Fakemon[] =
       "TICKLE",
       "WISH"
     ],
-    suffix: "normal"
+    suffix: "normal",
+    evolution: [
+
+    ]
   },
   {
     id: "IGGLYBUFF",
@@ -22020,7 +22891,10 @@ export const fakemons: Fakemon[] =
       "ROLLOUT",
       "WISH"
     ],
-    suffix: "normal"
+    suffix: "normal",
+    evolution: [
+
+    ]
   },
   {
     id: "TOGEPI",
@@ -22158,7 +23032,10 @@ export const fakemons: Fakemon[] =
       "PSYCHOSHIFT",
       "STOREDPOWER"
     ],
-    suffix: "normal"
+    suffix: "normal",
+    evolution: [
+
+    ]
   },
   {
     id: "TOGETIC",
@@ -22312,7 +23189,14 @@ export const fakemons: Fakemon[] =
     eggMoves: [
 
     ],
-    suffix: "normal"
+    suffix: "normal",
+    evolution: [
+      {
+        to: "TOGEKISS",
+        method: "Item",
+        value: "SHINYSTONE"
+      }
+    ]
   },
   {
     id: "NATU",
@@ -22440,7 +23324,14 @@ export const fakemons: Fakemon[] =
       "SUCKERPUNCH",
       "ZENHEADBUTT"
     ],
-    suffix: "normal"
+    suffix: "normal",
+    evolution: [
+      {
+        to: "XATU",
+        method: "Level",
+        value: "25"
+      }
+    ]
   },
   {
     id: "XATU",
@@ -22568,7 +23459,10 @@ export const fakemons: Fakemon[] =
     eggMoves: [
 
     ],
-    suffix: "normal"
+    suffix: "normal",
+    evolution: [
+
+    ]
   },
   {
     id: "MAREEP",
@@ -22685,7 +23579,14 @@ export const fakemons: Fakemon[] =
       "SCREECH",
       "TAKEDOWN"
     ],
-    suffix: "normal"
+    suffix: "normal",
+    evolution: [
+      {
+        to: "FLAAFFY",
+        method: "Level",
+        value: "15"
+      }
+    ]
   },
   {
     id: "FLAAFFY",
@@ -22809,7 +23710,14 @@ export const fakemons: Fakemon[] =
     eggMoves: [
 
     ],
-    suffix: "normal"
+    suffix: "normal",
+    evolution: [
+      {
+        to: "AMPHAROS",
+        method: "Level",
+        value: "30"
+      }
+    ]
   },
   {
     id: "AMPHAROS",
@@ -22953,7 +23861,10 @@ export const fakemons: Fakemon[] =
     eggMoves: [
 
     ],
-    suffix: "normal"
+    suffix: "normal",
+    evolution: [
+
+    ]
   },
   {
     id: "BELLOSSOM",
@@ -23069,7 +23980,10 @@ export const fakemons: Fakemon[] =
     eggMoves: [
 
     ],
-    suffix: "normal"
+    suffix: "normal",
+    evolution: [
+
+    ]
   },
   {
     id: "MARILL",
@@ -23206,7 +24120,14 @@ export const fakemons: Fakemon[] =
     eggMoves: [
 
     ],
-    suffix: "normal"
+    suffix: "normal",
+    evolution: [
+      {
+        to: "AZUMARILL",
+        method: "Level",
+        value: "18"
+      }
+    ]
   },
   {
     id: "AZUMARILL",
@@ -23346,7 +24267,10 @@ export const fakemons: Fakemon[] =
     eggMoves: [
 
     ],
-    suffix: "normal"
+    suffix: "normal",
+    evolution: [
+
+    ]
   },
   {
     id: "SUDOWOODO",
@@ -23488,7 +24412,10 @@ export const fakemons: Fakemon[] =
     eggMoves: [
 
     ],
-    suffix: "normal"
+    suffix: "normal",
+    evolution: [
+
+    ]
   },
   {
     id: "POLITOED",
@@ -23616,7 +24543,10 @@ export const fakemons: Fakemon[] =
     eggMoves: [
 
     ],
-    suffix: "normal"
+    suffix: "normal",
+    evolution: [
+
+    ]
   },
   {
     id: "HOPPIP",
@@ -23741,7 +24671,14 @@ export const fakemons: Fakemon[] =
       "SWITCHEROO",
       "WORRYSEED"
     ],
-    suffix: "normal"
+    suffix: "normal",
+    evolution: [
+      {
+        to: "SKIPLOOM",
+        method: "Level",
+        value: "18"
+      }
+    ]
   },
   {
     id: "SKIPLOOM",
@@ -23855,7 +24792,14 @@ export const fakemons: Fakemon[] =
     eggMoves: [
 
     ],
-    suffix: "normal"
+    suffix: "normal",
+    evolution: [
+      {
+        to: "JUMPLUFF",
+        method: "Level",
+        value: "27"
+      }
+    ]
   },
   {
     id: "JUMPLUFF",
@@ -23971,7 +24915,10 @@ export const fakemons: Fakemon[] =
     eggMoves: [
 
     ],
-    suffix: "normal"
+    suffix: "normal",
+    evolution: [
+
+    ]
   },
   {
     id: "AIPOM",
@@ -24122,7 +25069,14 @@ export const fakemons: Fakemon[] =
       "SPITE",
       "SWITCHEROO"
     ],
-    suffix: "normal"
+    suffix: "normal",
+    evolution: [
+      {
+        to: "AMBIPOM",
+        method: "HasMove",
+        value: "DOUBLEHIT"
+      }
+    ]
   },
   {
     id: "SUNKERN",
@@ -24227,7 +25181,14 @@ export const fakemons: Fakemon[] =
       "NATUREPOWER",
       "SWEETSCENT"
     ],
-    suffix: "normal"
+    suffix: "normal",
+    evolution: [
+      {
+        to: "SUNFLORA",
+        method: "Item",
+        value: "SUNSTONE"
+      }
+    ]
   },
   {
     id: "SUNFLORA",
@@ -24335,7 +25296,10 @@ export const fakemons: Fakemon[] =
     eggMoves: [
 
     ],
-    suffix: "normal"
+    suffix: "normal",
+    evolution: [
+
+    ]
   },
   {
     id: "YANMA",
@@ -24448,7 +25412,14 @@ export const fakemons: Fakemon[] =
       "REVERSAL",
       "WHIRLWIND"
     ],
-    suffix: "normal"
+    suffix: "normal",
+    evolution: [
+      {
+        to: "YANMEGA",
+        method: "HasMove",
+        value: "ANCIENTPOWER"
+      }
+    ]
   },
   {
     id: "WOOPER",
@@ -24587,7 +25558,14 @@ export const fakemons: Fakemon[] =
       "STOCKPILE",
       "SWALLOW"
     ],
-    suffix: "normal"
+    suffix: "normal",
+    evolution: [
+      {
+        to: "QUAGSIRE",
+        method: "Level",
+        value: "20"
+      }
+    ]
   },
   {
     id: "QUAGSIRE",
@@ -24731,7 +25709,10 @@ export const fakemons: Fakemon[] =
     eggMoves: [
 
     ],
-    suffix: "normal"
+    suffix: "normal",
+    evolution: [
+
+    ]
   },
   {
     id: "ESPEON",
@@ -24876,7 +25857,10 @@ export const fakemons: Fakemon[] =
     eggMoves: [
 
     ],
-    suffix: "normal"
+    suffix: "normal",
+    evolution: [
+
+    ]
   },
   {
     id: "UMBREON",
@@ -25018,7 +26002,10 @@ export const fakemons: Fakemon[] =
     eggMoves: [
 
     ],
-    suffix: "normal"
+    suffix: "normal",
+    evolution: [
+
+    ]
   },
   {
     id: "MURKROW",
@@ -25153,7 +26140,14 @@ export const fakemons: Fakemon[] =
       "WHIRLWIND",
       "WINGATTACK"
     ],
-    suffix: "normal"
+    suffix: "normal",
+    evolution: [
+      {
+        to: "HONCHKROW",
+        method: "Item",
+        value: "DUSKSTONE"
+      }
+    ]
   },
   {
     id: "SLOWKING",
@@ -25329,7 +26323,10 @@ export const fakemons: Fakemon[] =
     eggMoves: [
 
     ],
-    suffix: "normal"
+    suffix: "normal",
+    evolution: [
+
+    ]
   },
   {
     id: "MISDREAVUS",
@@ -25473,7 +26470,14 @@ export const fakemons: Fakemon[] =
       "SUCKERPUNCH",
       "WONDERROOM"
     ],
-    suffix: "normal"
+    suffix: "normal",
+    evolution: [
+      {
+        to: "MISMAGIUS",
+        method: "Item",
+        value: "DUSKSTONE"
+      }
+    ]
   },
   {
     id: "UNOWN",
@@ -25510,7 +26514,10 @@ export const fakemons: Fakemon[] =
     eggMoves: [
 
     ],
-    suffix: "normal"
+    suffix: "normal",
+    evolution: [
+
+    ]
   },
   {
     id: "WOBBUFFET",
@@ -25561,7 +26568,10 @@ export const fakemons: Fakemon[] =
     eggMoves: [
 
     ],
-    suffix: "normal"
+    suffix: "normal",
+    evolution: [
+
+    ]
   },
   {
     id: "GIRAFARIG",
@@ -25713,7 +26723,14 @@ export const fakemons: Fakemon[] =
       "UPROAR",
       "WISH"
     ],
-    suffix: "normal"
+    suffix: "normal",
+    evolution: [
+      {
+        to: "FARIGIRAF",
+        method: "HasMove",
+        value: "TWINBEAM"
+      }
+    ]
   },
   {
     id: "PINECO",
@@ -25836,7 +26853,14 @@ export const fakemons: Fakemon[] =
       "SWIFT",
       "TOXICSPIKES"
     ],
-    suffix: "normal"
+    suffix: "normal",
+    evolution: [
+      {
+        to: "FORRETRESS",
+        method: "Level",
+        value: "31"
+      }
+    ]
   },
   {
     id: "FORRETRESS",
@@ -25978,7 +27002,10 @@ export const fakemons: Fakemon[] =
     eggMoves: [
 
     ],
-    suffix: "normal"
+    suffix: "normal",
+    evolution: [
+
+    ]
   },
   {
     id: "DUNSPARCE",
@@ -26137,7 +27164,14 @@ export const fakemons: Fakemon[] =
       "MAGICCOAT",
       "SNORE"
     ],
-    suffix: "normal"
+    suffix: "normal",
+    evolution: [
+      {
+        to: "DUDUNSPARCE",
+        method: "HasMove",
+        value: "HYPERDRILL"
+      }
+    ]
   },
   {
     id: "GLIGAR",
@@ -26288,7 +27322,14 @@ export const fakemons: Fakemon[] =
       "SANDTOMB",
       "WINGATTACK"
     ],
-    suffix: "normal"
+    suffix: "normal",
+    evolution: [
+      {
+        to: "GLISCOR",
+        method: "NightHoldItem",
+        value: "RAZORFANG"
+      }
+    ]
   },
   {
     id: "STEELIX",
@@ -26435,7 +27476,10 @@ export const fakemons: Fakemon[] =
     eggMoves: [
 
     ],
-    suffix: "normal"
+    suffix: "normal",
+    evolution: [
+
+    ]
   },
   {
     id: "SNUBBULL",
@@ -26597,7 +27641,14 @@ export const fakemons: Fakemon[] =
       "SNORE",
       "THUNDERFANG"
     ],
-    suffix: "normal"
+    suffix: "normal",
+    evolution: [
+      {
+        to: "GRANBULL",
+        method: "Level",
+        value: "23"
+      }
+    ]
   },
   {
     id: "GRANBULL",
@@ -26757,7 +27808,10 @@ export const fakemons: Fakemon[] =
     eggMoves: [
 
     ],
-    suffix: "normal"
+    suffix: "normal",
+    evolution: [
+
+    ]
   },
   {
     id: "QWILFISH",
@@ -26900,7 +27954,10 @@ export const fakemons: Fakemon[] =
       "SUPERSONIC",
       "WATERPULSE"
     ],
-    suffix: "normal"
+    suffix: "normal",
+    evolution: [
+
+    ]
   },
   {
     id: "SCIZOR",
@@ -27037,7 +28094,10 @@ export const fakemons: Fakemon[] =
     eggMoves: [
 
     ],
-    suffix: "normal"
+    suffix: "normal",
+    evolution: [
+
+    ]
   },
   {
     id: "SHUCKLE",
@@ -27167,7 +28227,10 @@ export const fakemons: Fakemon[] =
       "SWEETSCENT",
       "TOXIC"
     ],
-    suffix: "normal"
+    suffix: "normal",
+    evolution: [
+
+    ]
   },
   {
     id: "HERACROSS",
@@ -27310,7 +28373,10 @@ export const fakemons: Fakemon[] =
       "SEISMICTOSS",
       "TAKEDOWN"
     ],
-    suffix: "normal"
+    suffix: "normal",
+    evolution: [
+
+    ]
   },
   {
     id: "SNEASEL",
@@ -27460,7 +28526,14 @@ export const fakemons: Fakemon[] =
       "SPITE",
       "THROATCHOP"
     ],
-    suffix: "normal"
+    suffix: "normal",
+    evolution: [
+      {
+        to: "WEAVILE",
+        method: "NightHoldItem",
+        value: "RAZORCLAW"
+      }
+    ]
   },
   {
     id: "TEDDIURSA",
@@ -27604,7 +28677,14 @@ export const fakemons: Fakemon[] =
       "TAKEDOWN",
       "YAWN"
     ],
-    suffix: "normal"
+    suffix: "normal",
+    evolution: [
+      {
+        to: "URSARING",
+        method: "Level",
+        value: "30"
+      }
+    ]
   },
   {
     id: "URSARING",
@@ -27746,7 +28826,14 @@ export const fakemons: Fakemon[] =
     eggMoves: [
 
     ],
-    suffix: "normal"
+    suffix: "normal",
+    evolution: [
+      {
+        to: "URSALUNA",
+        method: "ItemNight",
+        value: "PEATBLOCK"
+      }
+    ]
   },
   {
     id: "SLUGMA",
@@ -27868,7 +28955,14 @@ export const fakemons: Fakemon[] =
       "STOCKPILE",
       "SWALLOW"
     ],
-    suffix: "normal"
+    suffix: "normal",
+    evolution: [
+      {
+        to: "MAGCARGO",
+        method: "Level",
+        value: "38"
+      }
+    ]
   },
   {
     id: "MAGCARGO",
@@ -27992,7 +29086,10 @@ export const fakemons: Fakemon[] =
     eggMoves: [
 
     ],
-    suffix: "normal"
+    suffix: "normal",
+    evolution: [
+
+    ]
   },
   {
     id: "SWINUB",
@@ -28113,7 +29210,14 @@ export const fakemons: Fakemon[] =
       "MUDSHOT",
       "TAKEDOWN"
     ],
-    suffix: "normal"
+    suffix: "normal",
+    evolution: [
+      {
+        to: "PILOSWINE",
+        method: "Level",
+        value: "33"
+      }
+    ]
   },
   {
     id: "PILOSWINE",
@@ -28230,7 +29334,14 @@ export const fakemons: Fakemon[] =
     eggMoves: [
 
     ],
-    suffix: "normal"
+    suffix: "normal",
+    evolution: [
+      {
+        to: "MAMOSWINE",
+        method: "HasMove",
+        value: "ANCIENTPOWER"
+      }
+    ]
   },
   {
     id: "CORSOLA",
@@ -28363,7 +29474,10 @@ export const fakemons: Fakemon[] =
       "SCREECH",
       "WATERPULSE"
     ],
-    suffix: "normal"
+    suffix: "normal",
+    evolution: [
+
+    ]
   },
   {
     id: "REMORAID",
@@ -28481,7 +29595,14 @@ export const fakemons: Fakemon[] =
       "SWIFT",
       "WATERSPOUT"
     ],
-    suffix: "normal"
+    suffix: "normal",
+    evolution: [
+      {
+        to: "OCTILLERY",
+        method: "Level",
+        value: "25"
+      }
+    ]
   },
   {
     id: "OCTILLERY",
@@ -28601,7 +29722,10 @@ export const fakemons: Fakemon[] =
     eggMoves: [
 
     ],
-    suffix: "normal"
+    suffix: "normal",
+    evolution: [
+
+    ]
   },
   {
     id: "DELIBIRD",
@@ -28736,7 +29860,10 @@ export const fakemons: Fakemon[] =
       "SPIKES",
       "SPLASH"
     ],
-    suffix: "normal"
+    suffix: "normal",
+    evolution: [
+
+    ]
   },
   {
     id: "MANTINE",
@@ -28866,7 +29993,10 @@ export const fakemons: Fakemon[] =
       "TWISTER",
       "WIDEGUARD"
     ],
-    suffix: "normal"
+    suffix: "normal",
+    evolution: [
+
+    ]
   },
   {
     id: "SKARMORY",
@@ -29002,7 +30132,10 @@ export const fakemons: Fakemon[] =
       "SKYATTACK",
       "WHIRLWIND"
     ],
-    suffix: "normal"
+    suffix: "normal",
+    evolution: [
+
+    ]
   },
   {
     id: "HOUNDOUR",
@@ -29138,7 +30271,14 @@ export const fakemons: Fakemon[] =
       "SUCKERPUNCH",
       "THUNDERFANG"
     ],
-    suffix: "normal"
+    suffix: "normal",
+    evolution: [
+      {
+        to: "HOUNDOOM",
+        method: "Level",
+        value: "24"
+      }
+    ]
   },
   {
     id: "HOUNDOOM",
@@ -29272,7 +30412,10 @@ export const fakemons: Fakemon[] =
     eggMoves: [
 
     ],
-    suffix: "normal"
+    suffix: "normal",
+    evolution: [
+
+    ]
   },
   {
     id: "KINGDRA",
@@ -29388,7 +30531,10 @@ export const fakemons: Fakemon[] =
     eggMoves: [
 
     ],
-    suffix: "normal"
+    suffix: "normal",
+    evolution: [
+
+    ]
   },
   {
     id: "PHANPY",
@@ -29513,7 +30659,14 @@ export const fakemons: Fakemon[] =
       "PLAYROUGH",
       "SNORE"
     ],
-    suffix: "normal"
+    suffix: "normal",
+    evolution: [
+      {
+        to: "DONPHAN",
+        method: "Level",
+        value: "25"
+      }
+    ]
   },
   {
     id: "DONPHAN",
@@ -29647,7 +30800,10 @@ export const fakemons: Fakemon[] =
     eggMoves: [
 
     ],
-    suffix: "normal"
+    suffix: "normal",
+    evolution: [
+
+    ]
   },
   {
     id: "PORYGON2",
@@ -29762,7 +30918,14 @@ export const fakemons: Fakemon[] =
     eggMoves: [
 
     ],
-    suffix: "normal"
+    suffix: "normal",
+    evolution: [
+      {
+        to: "PORYGONZ",
+        method: "TradeItem",
+        value: "DUBIOUSDISC"
+      }
+    ]
   },
   {
     id: "STANTLER",
@@ -29899,7 +31062,14 @@ export const fakemons: Fakemon[] =
       "THRASH",
       "ZENHEADBUTT"
     ],
-    suffix: "normal"
+    suffix: "normal",
+    evolution: [
+      {
+        to: "WYRDEER",
+        method: "HasMove",
+        value: "PSYSHIELDBASH"
+      }
+    ]
   },
   {
     id: "SMEARGLE",
@@ -29937,7 +31107,10 @@ export const fakemons: Fakemon[] =
     eggMoves: [
 
     ],
-    suffix: "normal"
+    suffix: "normal",
+    evolution: [
+
+    ]
   },
   {
     id: "TYROGUE",
@@ -30034,7 +31207,14 @@ export const fakemons: Fakemon[] =
       "RAPIDSPIN",
       "VACUUMWAVE"
     ],
-    suffix: "normal"
+    suffix: "normal",
+    evolution: [
+      {
+        to: "HITMONTOP",
+        method: "AtkDefEqual",
+        value: "20"
+      }
+    ]
   },
   {
     id: "HITMONTOP",
@@ -30160,7 +31340,10 @@ export const fakemons: Fakemon[] =
     eggMoves: [
 
     ],
-    suffix: "normal"
+    suffix: "normal",
+    evolution: [
+
+    ]
   },
   {
     id: "SMOOCHUM",
@@ -30286,7 +31469,14 @@ export const fakemons: Fakemon[] =
       "ROLEPLAY",
       "WISH"
     ],
-    suffix: "normal"
+    suffix: "normal",
+    evolution: [
+      {
+        to: "JYNX",
+        method: "Level",
+        value: "30"
+      }
+    ]
   },
   {
     id: "ELEKID",
@@ -30411,7 +31601,14 @@ export const fakemons: Fakemon[] =
       "HAMMERARM",
       "ICEPUNCH"
     ],
-    suffix: "normal"
+    suffix: "normal",
+    evolution: [
+      {
+        to: "ELECTABUZZ",
+        method: "Level",
+        value: "30"
+      }
+    ]
   },
   {
     id: "MAGBY",
@@ -30535,7 +31732,14 @@ export const fakemons: Fakemon[] =
       "SCREECH",
       "THUNDERPUNCH"
     ],
-    suffix: "normal"
+    suffix: "normal",
+    evolution: [
+      {
+        to: "MAGMAR",
+        method: "Level",
+        value: "30"
+      }
+    ]
   },
   {
     id: "MILTANK",
@@ -30675,7 +31879,10 @@ export const fakemons: Fakemon[] =
       "REVERSAL",
       "SEISMICTOSS"
     ],
-    suffix: "normal"
+    suffix: "normal",
+    evolution: [
+
+    ]
   },
   {
     id: "BLISSEY",
@@ -30843,7 +32050,10 @@ export const fakemons: Fakemon[] =
     eggMoves: [
 
     ],
-    suffix: "normal"
+    suffix: "normal",
+    evolution: [
+
+    ]
   },
   {
     id: "RAIKOU",
@@ -30966,7 +32176,10 @@ export const fakemons: Fakemon[] =
     eggMoves: [
 
     ],
-    suffix: "normal"
+    suffix: "normal",
+    evolution: [
+
+    ]
   },
   {
     id: "ENTEI",
@@ -31084,7 +32297,10 @@ export const fakemons: Fakemon[] =
     eggMoves: [
 
     ],
-    suffix: "normal"
+    suffix: "normal",
+    evolution: [
+
+    ]
   },
   {
     id: "SUICUNE",
@@ -31202,7 +32418,10 @@ export const fakemons: Fakemon[] =
     eggMoves: [
 
     ],
-    suffix: "normal"
+    suffix: "normal",
+    evolution: [
+
+    ]
   },
   {
     id: "LARVITAR",
@@ -31330,7 +32549,14 @@ export const fakemons: Fakemon[] =
       "OUTRAGE",
       "STOMP"
     ],
-    suffix: "normal"
+    suffix: "normal",
+    evolution: [
+      {
+        to: "PUPITAR",
+        method: "Level",
+        value: "30"
+      }
+    ]
   },
   {
     id: "PUPITAR",
@@ -31454,7 +32680,14 @@ export const fakemons: Fakemon[] =
     eggMoves: [
 
     ],
-    suffix: "normal"
+    suffix: "normal",
+    evolution: [
+      {
+        to: "TYRANITAR",
+        method: "Level",
+        value: "55"
+      }
+    ]
   },
   {
     id: "TYRANITAR",
@@ -31633,7 +32866,10 @@ export const fakemons: Fakemon[] =
     eggMoves: [
 
     ],
-    suffix: "normal"
+    suffix: "normal",
+    evolution: [
+
+    ]
   },
   {
     id: "LUGIA",
@@ -31783,7 +33019,10 @@ export const fakemons: Fakemon[] =
     eggMoves: [
 
     ],
-    suffix: "normal"
+    suffix: "normal",
+    evolution: [
+
+    ]
   },
   {
     id: "HOOH",
@@ -31918,7 +33157,10 @@ export const fakemons: Fakemon[] =
     eggMoves: [
 
     ],
-    suffix: "normal"
+    suffix: "normal",
+    evolution: [
+
+    ]
   },
   {
     id: "CELEBI",
@@ -32058,7 +33300,10 @@ export const fakemons: Fakemon[] =
     eggMoves: [
 
     ],
-    suffix: "normal"
+    suffix: "normal",
+    evolution: [
+
+    ]
   },
   {
     id: "TREECKO",
@@ -32195,7 +33440,14 @@ export const fakemons: Fakemon[] =
       "SYNTHESIS",
       "WORRYSEED"
     ],
-    suffix: "normal"
+    suffix: "normal",
+    evolution: [
+      {
+        to: "GROVYLE",
+        method: "Level",
+        value: "16"
+      }
+    ]
   },
   {
     id: "GROVYLE",
@@ -32329,7 +33581,14 @@ export const fakemons: Fakemon[] =
     eggMoves: [
 
     ],
-    suffix: "normal"
+    suffix: "normal",
+    evolution: [
+      {
+        to: "SCEPTILE",
+        method: "Level",
+        value: "36"
+      }
+    ]
   },
   {
     id: "SCEPTILE",
@@ -32487,7 +33746,10 @@ export const fakemons: Fakemon[] =
     eggMoves: [
 
     ],
-    suffix: "normal"
+    suffix: "normal",
+    evolution: [
+
+    ]
   },
   {
     id: "TORCHIC",
@@ -32613,7 +33875,14 @@ export const fakemons: Fakemon[] =
       "PECK",
       "REVERSAL"
     ],
-    suffix: "normal"
+    suffix: "normal",
+    evolution: [
+      {
+        to: "COMBUSKEN",
+        method: "Level",
+        value: "16"
+      }
+    ]
   },
   {
     id: "COMBUSKEN",
@@ -32751,7 +34020,14 @@ export const fakemons: Fakemon[] =
     eggMoves: [
 
     ],
-    suffix: "normal"
+    suffix: "normal",
+    evolution: [
+      {
+        to: "BLAZIKEN",
+        method: "Level",
+        value: "36"
+      }
+    ]
   },
   {
     id: "BLAZIKEN",
@@ -32912,7 +34188,10 @@ export const fakemons: Fakemon[] =
     eggMoves: [
 
     ],
-    suffix: "normal"
+    suffix: "normal",
+    evolution: [
+
+    ]
   },
   {
     id: "MUDKIP",
@@ -33037,7 +34316,14 @@ export const fakemons: Fakemon[] =
       "WIDEGUARD",
       "YAWN"
     ],
-    suffix: "normal"
+    suffix: "normal",
+    evolution: [
+      {
+        to: "MARSHTOMP",
+        method: "Level",
+        value: "16"
+      }
+    ]
   },
   {
     id: "MARSHTOMP",
@@ -33167,7 +34453,14 @@ export const fakemons: Fakemon[] =
     eggMoves: [
 
     ],
-    suffix: "normal"
+    suffix: "normal",
+    evolution: [
+      {
+        to: "SWAMPERT",
+        method: "Level",
+        value: "36"
+      }
+    ]
   },
   {
     id: "SWAMPERT",
@@ -33319,7 +34612,10 @@ export const fakemons: Fakemon[] =
     eggMoves: [
 
     ],
-    suffix: "normal"
+    suffix: "normal",
+    evolution: [
+
+    ]
   },
   {
     id: "POOCHYENA",
@@ -33441,7 +34737,14 @@ export const fakemons: Fakemon[] =
       "THUNDERFANG",
       "YAWN"
     ],
-    suffix: "normal"
+    suffix: "normal",
+    evolution: [
+      {
+        to: "MIGHTYENA",
+        method: "Level",
+        value: "18"
+      }
+    ]
   },
   {
     id: "MIGHTYENA",
@@ -33565,7 +34868,10 @@ export const fakemons: Fakemon[] =
     eggMoves: [
 
     ],
-    suffix: "normal"
+    suffix: "normal",
+    evolution: [
+
+    ]
   },
   {
     id: "ZIGZAGOON",
@@ -33686,7 +34992,14 @@ export const fakemons: Fakemon[] =
       "TICKLE",
       "TRICK"
     ],
-    suffix: "normal"
+    suffix: "normal",
+    evolution: [
+      {
+        to: "LINOONE",
+        method: "Level",
+        value: "20"
+      }
+    ]
   },
   {
     id: "LINOONE",
@@ -33813,7 +35126,10 @@ export const fakemons: Fakemon[] =
     eggMoves: [
 
     ],
-    suffix: "normal"
+    suffix: "normal",
+    evolution: [
+
+    ]
   },
   {
     id: "WURMPLE",
@@ -33856,7 +35172,14 @@ export const fakemons: Fakemon[] =
     eggMoves: [
 
     ],
-    suffix: "normal"
+    suffix: "normal",
+    evolution: [
+      {
+        to: "CASCOON",
+        method: "Cascoon",
+        value: "7"
+      }
+    ]
   },
   {
     id: "SILCOON",
@@ -33896,7 +35219,14 @@ export const fakemons: Fakemon[] =
     eggMoves: [
 
     ],
-    suffix: "normal"
+    suffix: "normal",
+    evolution: [
+      {
+        to: "BEAUTIFLY",
+        method: "Level",
+        value: "10"
+      }
+    ]
   },
   {
     id: "BEAUTIFLY",
@@ -34001,7 +35331,10 @@ export const fakemons: Fakemon[] =
     eggMoves: [
 
     ],
-    suffix: "normal"
+    suffix: "normal",
+    evolution: [
+
+    ]
   },
   {
     id: "CASCOON",
@@ -34041,7 +35374,14 @@ export const fakemons: Fakemon[] =
     eggMoves: [
 
     ],
-    suffix: "normal"
+    suffix: "normal",
+    evolution: [
+      {
+        to: "DUSTOX",
+        method: "Level",
+        value: "10"
+      }
+    ]
   },
   {
     id: "DUSTOX",
@@ -34148,7 +35488,10 @@ export const fakemons: Fakemon[] =
     eggMoves: [
 
     ],
-    suffix: "normal"
+    suffix: "normal",
+    evolution: [
+
+    ]
   },
   {
     id: "LOTAD",
@@ -34260,7 +35603,14 @@ export const fakemons: Fakemon[] =
       "TICKLE",
       "WATERGUN"
     ],
-    suffix: "normal"
+    suffix: "normal",
+    evolution: [
+      {
+        to: "LOMBRE",
+        method: "Level",
+        value: "14"
+      }
+    ]
   },
   {
     id: "LOMBRE",
@@ -34389,7 +35739,14 @@ export const fakemons: Fakemon[] =
     eggMoves: [
 
     ],
-    suffix: "normal"
+    suffix: "normal",
+    evolution: [
+      {
+        to: "LUDICOLO",
+        method: "Item",
+        value: "WATERSTONE"
+      }
+    ]
   },
   {
     id: "LUDICOLO",
@@ -34528,7 +35885,10 @@ export const fakemons: Fakemon[] =
     eggMoves: [
 
     ],
-    suffix: "normal"
+    suffix: "normal",
+    evolution: [
+
+    ]
   },
   {
     id: "SEEDOT",
@@ -34646,7 +36006,14 @@ export const fakemons: Fakemon[] =
       "TAKEDOWN",
       "WORRYSEED"
     ],
-    suffix: "normal"
+    suffix: "normal",
+    evolution: [
+      {
+        to: "NUZLEAF",
+        method: "Level",
+        value: "14"
+      }
+    ]
   },
   {
     id: "NUZLEAF",
@@ -34790,7 +36157,14 @@ export const fakemons: Fakemon[] =
     eggMoves: [
 
     ],
-    suffix: "normal"
+    suffix: "normal",
+    evolution: [
+      {
+        to: "SHIFTRY",
+        method: "Item",
+        value: "LEAFSTONE"
+      }
+    ]
   },
   {
     id: "SHIFTRY",
@@ -34967,7 +36341,10 @@ export const fakemons: Fakemon[] =
     eggMoves: [
 
     ],
-    suffix: "normal"
+    suffix: "normal",
+    evolution: [
+
+    ]
   },
   {
     id: "TAILLOW",
@@ -35063,7 +36440,14 @@ export const fakemons: Fakemon[] =
       "SUPERSONIC",
       "WHIRLWIND"
     ],
-    suffix: "normal"
+    suffix: "normal",
+    evolution: [
+      {
+        to: "SWELLOW",
+        method: "Level",
+        value: "22"
+      }
+    ]
   },
   {
     id: "SWELLOW",
@@ -35162,7 +36546,10 @@ export const fakemons: Fakemon[] =
     eggMoves: [
 
     ],
-    suffix: "normal"
+    suffix: "normal",
+    evolution: [
+
+    ]
   },
   {
     id: "WINGULL",
@@ -35280,7 +36667,14 @@ export const fakemons: Fakemon[] =
       "TWISTER",
       "WIDEGUARD"
     ],
-    suffix: "normal"
+    suffix: "normal",
+    evolution: [
+      {
+        to: "PELIPPER",
+        method: "Level",
+        value: "25"
+      }
+    ]
   },
   {
     id: "PELIPPER",
@@ -35406,7 +36800,10 @@ export const fakemons: Fakemon[] =
     eggMoves: [
 
     ],
-    suffix: "normal"
+    suffix: "normal",
+    evolution: [
+
+    ]
   },
   {
     id: "RALTS",
@@ -35553,7 +36950,14 @@ export const fakemons: Fakemon[] =
       "MYSTICALFIRE",
       "SHADOWSNEAK"
     ],
-    suffix: "normal"
+    suffix: "normal",
+    evolution: [
+      {
+        to: "KIRLIA",
+        method: "Level",
+        value: "20"
+      }
+    ]
   },
   {
     id: "KIRLIA",
@@ -35692,7 +37096,14 @@ export const fakemons: Fakemon[] =
     eggMoves: [
 
     ],
-    suffix: "normal"
+    suffix: "normal",
+    evolution: [
+      {
+        to: "GALLADE",
+        method: "ItemMale",
+        value: "DAWNSTONE"
+      }
+    ]
   },
   {
     id: "GARDEVOIR",
@@ -35851,7 +37262,10 @@ export const fakemons: Fakemon[] =
     eggMoves: [
 
     ],
-    suffix: "normal"
+    suffix: "normal",
+    evolution: [
+
+    ]
   },
   {
     id: "SURSKIT",
@@ -35961,7 +37375,14 @@ export const fakemons: Fakemon[] =
       "POWERSPLIT",
       "PSYBEAM"
     ],
-    suffix: "normal"
+    suffix: "normal",
+    evolution: [
+      {
+        to: "MASQUERAIN",
+        method: "Level",
+        value: "22"
+      }
+    ]
   },
   {
     id: "MASQUERAIN",
@@ -36085,7 +37506,10 @@ export const fakemons: Fakemon[] =
     eggMoves: [
 
     ],
-    suffix: "normal"
+    suffix: "normal",
+    evolution: [
+
+    ]
   },
   {
     id: "SHROOMISH",
@@ -36187,7 +37611,14 @@ export const fakemons: Fakemon[] =
       "SEEDBOMB",
       "WORRYSEED"
     ],
-    suffix: "normal"
+    suffix: "normal",
+    evolution: [
+      {
+        to: "BRELOOM",
+        method: "Level",
+        value: "23"
+      }
+    ]
   },
   {
     id: "BRELOOM",
@@ -36331,7 +37762,10 @@ export const fakemons: Fakemon[] =
     eggMoves: [
 
     ],
-    suffix: "normal"
+    suffix: "normal",
+    evolution: [
+
+    ]
   },
   {
     id: "SLAKOTH",
@@ -36466,7 +37900,14 @@ export const fakemons: Fakemon[] =
       "SNORE",
       "TICKLE"
     ],
-    suffix: "normal"
+    suffix: "normal",
+    evolution: [
+      {
+        to: "VIGOROTH",
+        method: "Level",
+        value: "18"
+      }
+    ]
   },
   {
     id: "VIGOROTH",
@@ -36615,7 +38056,14 @@ export const fakemons: Fakemon[] =
     eggMoves: [
 
     ],
-    suffix: "normal"
+    suffix: "normal",
+    evolution: [
+      {
+        to: "SLAKING",
+        method: "Level",
+        value: "36"
+      }
+    ]
   },
   {
     id: "SLAKING",
@@ -36778,7 +38226,10 @@ export const fakemons: Fakemon[] =
     eggMoves: [
 
     ],
-    suffix: "normal"
+    suffix: "normal",
+    evolution: [
+
+    ]
   },
   {
     id: "NINCADA",
@@ -36867,7 +38318,14 @@ export const fakemons: Fakemon[] =
       "GUST",
       "NIGHTSLASH"
     ],
-    suffix: "normal"
+    suffix: "normal",
+    evolution: [
+      {
+        to: "SHEDINJA",
+        method: "Shedinja",
+        value: "20"
+      }
+    ]
   },
   {
     id: "NINJASK",
@@ -36981,7 +38439,10 @@ export const fakemons: Fakemon[] =
     eggMoves: [
 
     ],
-    suffix: "normal"
+    suffix: "normal",
+    evolution: [
+
+    ]
   },
   {
     id: "SHEDINJA",
@@ -37087,7 +38548,10 @@ export const fakemons: Fakemon[] =
     eggMoves: [
 
     ],
-    suffix: "normal"
+    suffix: "normal",
+    evolution: [
+
+    ]
   },
   {
     id: "WHISMUR",
@@ -37199,7 +38663,14 @@ export const fakemons: Fakemon[] =
       "TAKEDOWN",
       "WHIRLWIND"
     ],
-    suffix: "normal"
+    suffix: "normal",
+    evolution: [
+      {
+        to: "LOUDRED",
+        method: "Level",
+        value: "20"
+      }
+    ]
   },
   {
     id: "LOUDRED",
@@ -37317,7 +38788,14 @@ export const fakemons: Fakemon[] =
     eggMoves: [
 
     ],
-    suffix: "normal"
+    suffix: "normal",
+    evolution: [
+      {
+        to: "EXPLOUD",
+        method: "Level",
+        value: "40"
+      }
+    ]
   },
   {
     id: "EXPLOUD",
@@ -37455,7 +38933,10 @@ export const fakemons: Fakemon[] =
     eggMoves: [
 
     ],
-    suffix: "normal"
+    suffix: "normal",
+    evolution: [
+
+    ]
   },
   {
     id: "MAKUHITA",
@@ -37593,7 +39074,14 @@ export const fakemons: Fakemon[] =
       "REVENGE",
       "WIDEGUARD"
     ],
-    suffix: "normal"
+    suffix: "normal",
+    evolution: [
+      {
+        to: "HARIYAMA",
+        method: "Level",
+        value: "24"
+      }
+    ]
   },
   {
     id: "HARIYAMA",
@@ -37734,7 +39222,10 @@ export const fakemons: Fakemon[] =
     eggMoves: [
 
     ],
-    suffix: "normal"
+    suffix: "normal",
+    evolution: [
+
+    ]
   },
   {
     id: "AZURILL",
@@ -37838,7 +39329,10 @@ export const fakemons: Fakemon[] =
       "SUPERSONIC",
       "TICKLE"
     ],
-    suffix: "normal"
+    suffix: "normal",
+    evolution: [
+
+    ]
   },
   {
     id: "NOSEPASS",
@@ -37965,7 +39459,14 @@ export const fakemons: Fakemon[] =
       "ROLLOUT",
       "WIDEGUARD"
     ],
-    suffix: "normal"
+    suffix: "normal",
+    evolution: [
+      {
+        to: "PROBOPASS",
+        method: "Item",
+        value: "THUNDERSTONE"
+      }
+    ]
   },
   {
     id: "SKITTY",
@@ -38090,7 +39591,14 @@ export const fakemons: Fakemon[] =
       "WISH",
       "ZENHEADBUTT"
     ],
-    suffix: "normal"
+    suffix: "normal",
+    evolution: [
+      {
+        to: "DELCATTY",
+        method: "Item",
+        value: "MOONSTONE"
+      }
+    ]
   },
   {
     id: "DELCATTY",
@@ -38210,7 +39718,10 @@ export const fakemons: Fakemon[] =
     eggMoves: [
 
     ],
-    suffix: "normal"
+    suffix: "normal",
+    evolution: [
+
+    ]
   },
   {
     id: "SABLEYE",
@@ -38387,7 +39898,10 @@ export const fakemons: Fakemon[] =
       "TORMENT",
       "TRICK"
     ],
-    suffix: "normal"
+    suffix: "normal",
+    evolution: [
+
+    ]
   },
   {
     id: "MAWILE",
@@ -38543,7 +40057,10 @@ export const fakemons: Fakemon[] =
       "THUNDERFANG",
       "TICKLE"
     ],
-    suffix: "normal"
+    suffix: "normal",
+    evolution: [
+
+    ]
   },
   {
     id: "ARON",
@@ -38668,7 +40185,14 @@ export const fakemons: Fakemon[] =
       "STOMP",
       "SUPERPOWER"
     ],
-    suffix: "normal"
+    suffix: "normal",
+    evolution: [
+      {
+        to: "LAIRON",
+        method: "Level",
+        value: "32"
+      }
+    ]
   },
   {
     id: "LAIRON",
@@ -38787,7 +40311,14 @@ export const fakemons: Fakemon[] =
     eggMoves: [
 
     ],
-    suffix: "normal"
+    suffix: "normal",
+    evolution: [
+      {
+        to: "AGGRON",
+        method: "Level",
+        value: "42"
+      }
+    ]
   },
   {
     id: "AGGRON",
@@ -38954,7 +40485,10 @@ export const fakemons: Fakemon[] =
     eggMoves: [
 
     ],
-    suffix: "normal"
+    suffix: "normal",
+    evolution: [
+
+    ]
   },
   {
     id: "MEDITITE",
@@ -39102,7 +40636,14 @@ export const fakemons: Fakemon[] =
       "QUICKGUARD",
       "THUNDERPUNCH"
     ],
-    suffix: "normal"
+    suffix: "normal",
+    evolution: [
+      {
+        to: "MEDICHAM",
+        method: "Level",
+        value: "37"
+      }
+    ]
   },
   {
     id: "MEDICHAM",
@@ -39250,7 +40791,10 @@ export const fakemons: Fakemon[] =
     eggMoves: [
 
     ],
-    suffix: "normal"
+    suffix: "normal",
+    evolution: [
+
+    ]
   },
   {
     id: "ELECTRIKE",
@@ -39363,7 +40907,14 @@ export const fakemons: Fakemon[] =
       "THUNDERFANG",
       "UPROAR"
     ],
-    suffix: "normal"
+    suffix: "normal",
+    evolution: [
+      {
+        to: "MANECTRIC",
+        method: "Level",
+        value: "26"
+      }
+    ]
   },
   {
     id: "MANECTRIC",
@@ -39473,7 +41024,10 @@ export const fakemons: Fakemon[] =
     eggMoves: [
 
     ],
-    suffix: "normal"
+    suffix: "normal",
+    evolution: [
+
+    ]
   },
   {
     id: "PLUSLE",
@@ -39602,7 +41156,10 @@ export const fakemons: Fakemon[] =
       "TEARFULLOOK",
       "WISH"
     ],
-    suffix: "normal"
+    suffix: "normal",
+    evolution: [
+
+    ]
   },
   {
     id: "MINUN",
@@ -39729,7 +41286,10 @@ export const fakemons: Fakemon[] =
       "TEARFULLOOK",
       "WISH"
     ],
-    suffix: "normal"
+    suffix: "normal",
+    evolution: [
+
+    ]
   },
   {
     id: "VOLBEAT",
@@ -39866,7 +41426,10 @@ export const fakemons: Fakemon[] =
       "SWAGGER",
       "TRICK"
     ],
-    suffix: "normal"
+    suffix: "normal",
+    evolution: [
+
+    ]
   },
   {
     id: "ILLUMISE",
@@ -40006,7 +41569,10 @@ export const fakemons: Fakemon[] =
       "GROWTH",
       "ROOST"
     ],
-    suffix: "normal"
+    suffix: "normal",
+    evolution: [
+
+    ]
   },
   {
     id: "ROSELIA",
@@ -40126,7 +41692,14 @@ export const fakemons: Fakemon[] =
       "SPIKES",
       "SYNTHESIS"
     ],
-    suffix: "normal"
+    suffix: "normal",
+    evolution: [
+      {
+        to: "ROSERADE",
+        method: "Item",
+        value: "SHINYSTONE"
+      }
+    ]
   },
   {
     id: "GULPIN",
@@ -40254,7 +41827,14 @@ export const fakemons: Fakemon[] =
       "STUFFCHEEKS",
       "VENOMDRENCH"
     ],
-    suffix: "normal"
+    suffix: "normal",
+    evolution: [
+      {
+        to: "SWALOT",
+        method: "Level",
+        value: "26"
+      }
+    ]
   },
   {
     id: "SWALOT",
@@ -40384,7 +41964,10 @@ export const fakemons: Fakemon[] =
     eggMoves: [
 
     ],
-    suffix: "normal"
+    suffix: "normal",
+    evolution: [
+
+    ]
   },
   {
     id: "CARVANHA",
@@ -40499,7 +42082,14 @@ export const fakemons: Fakemon[] =
       "THRASH",
       "WATERPULSE"
     ],
-    suffix: "normal"
+    suffix: "normal",
+    evolution: [
+      {
+        to: "SHARPEDO",
+        method: "Level",
+        value: "30"
+      }
+    ]
   },
   {
     id: "SHARPEDO",
@@ -40621,7 +42211,10 @@ export const fakemons: Fakemon[] =
     eggMoves: [
 
     ],
-    suffix: "normal"
+    suffix: "normal",
+    evolution: [
+
+    ]
   },
   {
     id: "WAILMER",
@@ -40739,7 +42332,14 @@ export const fakemons: Fakemon[] =
       "TICKLE",
       "ZENHEADBUTT"
     ],
-    suffix: "normal"
+    suffix: "normal",
+    evolution: [
+      {
+        to: "WAILORD",
+        method: "Level",
+        value: "40"
+      }
+    ]
   },
   {
     id: "WAILORD",
@@ -40852,7 +42452,10 @@ export const fakemons: Fakemon[] =
     eggMoves: [
 
     ],
-    suffix: "normal"
+    suffix: "normal",
+    evolution: [
+
+    ]
   },
   {
     id: "NUMEL",
@@ -40989,7 +42592,14 @@ export const fakemons: Fakemon[] =
       "SWALLOW",
       "YAWN"
     ],
-    suffix: "normal"
+    suffix: "normal",
+    evolution: [
+      {
+        to: "CAMERUPT",
+        method: "Level",
+        value: "33"
+      }
+    ]
   },
   {
     id: "CAMERUPT",
@@ -41120,7 +42730,10 @@ export const fakemons: Fakemon[] =
     eggMoves: [
 
     ],
-    suffix: "normal"
+    suffix: "normal",
+    evolution: [
+
+    ]
   },
   {
     id: "TORKOAL",
@@ -41250,7 +42863,10 @@ export const fakemons: Fakemon[] =
       "SUPERPOWER",
       "YAWN"
     ],
-    suffix: "normal"
+    suffix: "normal",
+    evolution: [
+
+    ]
   },
   {
     id: "SPOINK",
@@ -41387,7 +43003,14 @@ export const fakemons: Fakemon[] =
       "WHIRLWIND",
       "ZENHEADBUTT"
     ],
-    suffix: "normal"
+    suffix: "normal",
+    evolution: [
+      {
+        to: "GRUMPIG",
+        method: "Level",
+        value: "32"
+      }
+    ]
   },
   {
     id: "GRUMPIG",
@@ -41551,7 +43174,10 @@ export const fakemons: Fakemon[] =
     eggMoves: [
 
     ],
-    suffix: "normal"
+    suffix: "normal",
+    evolution: [
+
+    ]
   },
   {
     id: "SPINDA",
@@ -41688,7 +43314,10 @@ export const fakemons: Fakemon[] =
       "TRICK",
       "WISH"
     ],
-    suffix: "normal"
+    suffix: "normal",
+    evolution: [
+
+    ]
   },
   {
     id: "TRAPINCH",
@@ -41794,7 +43423,14 @@ export const fakemons: Fakemon[] =
       "MUDSHOT",
       "QUICKATTACK"
     ],
-    suffix: "normal"
+    suffix: "normal",
+    evolution: [
+      {
+        to: "VIBRAVA",
+        method: "Level",
+        value: "35"
+      }
+    ]
   },
   {
     id: "VIBRAVA",
@@ -41925,7 +43561,14 @@ export const fakemons: Fakemon[] =
     eggMoves: [
 
     ],
-    suffix: "normal"
+    suffix: "normal",
+    evolution: [
+      {
+        to: "FLYGON",
+        method: "Level",
+        value: "45"
+      }
+    ]
   },
   {
     id: "FLYGON",
@@ -42082,7 +43725,10 @@ export const fakemons: Fakemon[] =
     eggMoves: [
 
     ],
-    suffix: "normal"
+    suffix: "normal",
+    evolution: [
+
+    ]
   },
   {
     id: "CACNEA",
@@ -42225,7 +43871,14 @@ export const fakemons: Fakemon[] =
       "TEETERDANCE",
       "WORRYSEED"
     ],
-    suffix: "normal"
+    suffix: "normal",
+    evolution: [
+      {
+        to: "CACTURNE",
+        method: "Level",
+        value: "32"
+      }
+    ]
   },
   {
     id: "CACTURNE",
@@ -42372,7 +44025,10 @@ export const fakemons: Fakemon[] =
     eggMoves: [
 
     ],
-    suffix: "normal"
+    suffix: "normal",
+    evolution: [
+
+    ]
   },
   {
     id: "SWABLU",
@@ -42490,7 +44146,14 @@ export const fakemons: Fakemon[] =
       "ROOST",
       "TAILWIND"
     ],
-    suffix: "normal"
+    suffix: "normal",
+    evolution: [
+      {
+        to: "ALTARIA",
+        method: "Level",
+        value: "35"
+      }
+    ]
   },
   {
     id: "ALTARIA",
@@ -42625,7 +44288,10 @@ export const fakemons: Fakemon[] =
     eggMoves: [
 
     ],
-    suffix: "normal"
+    suffix: "normal",
+    evolution: [
+
+    ]
   },
   {
     id: "ZANGOOSE",
@@ -42798,7 +44464,10 @@ export const fakemons: Fakemon[] =
       "NIGHTSLASH",
       "QUICKGUARD"
     ],
-    suffix: "normal"
+    suffix: "normal",
+    evolution: [
+
+    ]
   },
   {
     id: "SEVIPER",
@@ -42940,7 +44609,10 @@ export const fakemons: Fakemon[] =
       "SWALLOW",
       "SWITCHEROO"
     ],
-    suffix: "normal"
+    suffix: "normal",
+    evolution: [
+
+    ]
   },
   {
     id: "LUNATONE",
@@ -43076,7 +44748,10 @@ export const fakemons: Fakemon[] =
     eggMoves: [
 
     ],
-    suffix: "normal"
+    suffix: "normal",
+    evolution: [
+
+    ]
   },
   {
     id: "SOLROCK",
@@ -43217,7 +44892,10 @@ export const fakemons: Fakemon[] =
     eggMoves: [
 
     ],
-    suffix: "normal"
+    suffix: "normal",
+    evolution: [
+
+    ]
   },
   {
     id: "BARBOACH",
@@ -43332,7 +45010,14 @@ export const fakemons: Fakemon[] =
       "THRASH",
       "WHIRLPOOL"
     ],
-    suffix: "normal"
+    suffix: "normal",
+    evolution: [
+      {
+        to: "WHISCASH",
+        method: "Level",
+        value: "30"
+      }
+    ]
   },
   {
     id: "WHISCASH",
@@ -43452,7 +45137,10 @@ export const fakemons: Fakemon[] =
     eggMoves: [
 
     ],
-    suffix: "normal"
+    suffix: "normal",
+    evolution: [
+
+    ]
   },
   {
     id: "CORPHISH",
@@ -43576,7 +45264,14 @@ export const fakemons: Fakemon[] =
       "SUPERPOWER",
       "SWITCHEROO"
     ],
-    suffix: "normal"
+    suffix: "normal",
+    evolution: [
+      {
+        to: "CRAWDAUNT",
+        method: "Level",
+        value: "30"
+      }
+    ]
   },
   {
     id: "CRAWDAUNT",
@@ -43709,7 +45404,10 @@ export const fakemons: Fakemon[] =
     eggMoves: [
 
     ],
-    suffix: "normal"
+    suffix: "normal",
+    evolution: [
+
+    ]
   },
   {
     id: "BALTOY",
@@ -43835,7 +45533,14 @@ export const fakemons: Fakemon[] =
     eggMoves: [
 
     ],
-    suffix: "normal"
+    suffix: "normal",
+    evolution: [
+      {
+        to: "CLAYDOL",
+        method: "Level",
+        value: "36"
+      }
+    ]
   },
   {
     id: "CLAYDOL",
@@ -43973,7 +45678,10 @@ export const fakemons: Fakemon[] =
     eggMoves: [
 
     ],
-    suffix: "normal"
+    suffix: "normal",
+    evolution: [
+
+    ]
   },
   {
     id: "LILEEP",
@@ -44081,7 +45789,14 @@ export const fakemons: Fakemon[] =
       "RECOVER",
       "TICKLE"
     ],
-    suffix: "normal"
+    suffix: "normal",
+    evolution: [
+      {
+        to: "CRADILY",
+        method: "Level",
+        value: "40"
+      }
+    ]
   },
   {
     id: "CRADILY",
@@ -44198,7 +45913,10 @@ export const fakemons: Fakemon[] =
     eggMoves: [
 
     ],
-    suffix: "normal"
+    suffix: "normal",
+    evolution: [
+
+    ]
   },
   {
     id: "ANORITH",
@@ -44309,7 +46027,14 @@ export const fakemons: Fakemon[] =
       "SCREECH",
       "WATERPULSE"
     ],
-    suffix: "normal"
+    suffix: "normal",
+    evolution: [
+      {
+        to: "ARMALDO",
+        method: "Level",
+        value: "40"
+      }
+    ]
   },
   {
     id: "ARMALDO",
@@ -44429,7 +46154,10 @@ export const fakemons: Fakemon[] =
     eggMoves: [
 
     ],
-    suffix: "normal"
+    suffix: "normal",
+    evolution: [
+
+    ]
   },
   {
     id: "FEEBAS",
@@ -44515,7 +46243,14 @@ export const fakemons: Fakemon[] =
       "MIST",
       "TICKLE"
     ],
-    suffix: "normal"
+    suffix: "normal",
+    evolution: [
+      {
+        to: "MILOTIC",
+        method: "Beauty",
+        value: "170"
+      }
+    ]
   },
   {
     id: "MILOTIC",
@@ -44641,7 +46376,10 @@ export const fakemons: Fakemon[] =
     eggMoves: [
 
     ],
-    suffix: "normal"
+    suffix: "normal",
+    evolution: [
+
+    ]
   },
   {
     id: "CASTFORM",
@@ -44748,7 +46486,10 @@ export const fakemons: Fakemon[] =
       "HEX",
       "REFLECTTYPE"
     ],
-    suffix: "normal"
+    suffix: "normal",
+    evolution: [
+
+    ]
   },
   {
     id: "KECLEON",
@@ -44900,7 +46641,10 @@ export const fakemons: Fakemon[] =
       "RECOVER",
       "TRICK"
     ],
-    suffix: "normal"
+    suffix: "normal",
+    evolution: [
+
+    ]
   },
   {
     id: "SHUPPET",
@@ -45030,7 +46774,14 @@ export const fakemons: Fakemon[] =
       "PHANTOMFORCE",
       "SHADOWSNEAK"
     ],
-    suffix: "normal"
+    suffix: "normal",
+    evolution: [
+      {
+        to: "BANETTE",
+        method: "Level",
+        value: "37"
+      }
+    ]
   },
   {
     id: "BANETTE",
@@ -45163,7 +46914,10 @@ export const fakemons: Fakemon[] =
     eggMoves: [
 
     ],
-    suffix: "normal"
+    suffix: "normal",
+    evolution: [
+
+    ]
   },
   {
     id: "DUSKULL",
@@ -45283,7 +47037,14 @@ export const fakemons: Fakemon[] =
       "MEMENTO",
       "PAINSPLIT"
     ],
-    suffix: "normal"
+    suffix: "normal",
+    evolution: [
+      {
+        to: "DUSCLOPS",
+        method: "Level",
+        value: "37"
+      }
+    ]
   },
   {
     id: "DUSCLOPS",
@@ -45422,7 +47183,14 @@ export const fakemons: Fakemon[] =
     eggMoves: [
 
     ],
-    suffix: "normal"
+    suffix: "normal",
+    evolution: [
+      {
+        to: "DUSKNOIR",
+        method: "TradeItem",
+        value: "REAPERCLOTH"
+      }
+    ]
   },
   {
     id: "TROPIUS",
@@ -45562,7 +47330,10 @@ export const fakemons: Fakemon[] =
       "SLAM",
       "SYNTHESIS"
     ],
-    suffix: "normal"
+    suffix: "normal",
+    evolution: [
+
+    ]
   },
   {
     id: "CHIMECHO",
@@ -45699,7 +47470,10 @@ export const fakemons: Fakemon[] =
       "STOREDPOWER",
       "WISH"
     ],
-    suffix: "normal"
+    suffix: "normal",
+    evolution: [
+
+    ]
   },
   {
     id: "ABSOL",
@@ -45855,7 +47629,10 @@ export const fakemons: Fakemon[] =
       "SUCKERPUNCH",
       "ZENHEADBUTT"
     ],
-    suffix: "normal"
+    suffix: "normal",
+    evolution: [
+
+    ]
   },
   {
     id: "WYNAUT",
@@ -45902,7 +47679,14 @@ export const fakemons: Fakemon[] =
     eggMoves: [
 
     ],
-    suffix: "normal"
+    suffix: "normal",
+    evolution: [
+      {
+        to: "WOBBUFFET",
+        method: "Level",
+        value: "15"
+      }
+    ]
   },
   {
     id: "SNORUNT",
@@ -46011,7 +47795,14 @@ export const fakemons: Fakemon[] =
       "SWITCHEROO",
       "WEATHERBALL"
     ],
-    suffix: "normal"
+    suffix: "normal",
+    evolution: [
+      {
+        to: "FROSLASS",
+        method: "ItemFemale",
+        value: "DAWNSTONE"
+      }
+    ]
   },
   {
     id: "GLALIE",
@@ -46132,7 +47923,10 @@ export const fakemons: Fakemon[] =
     eggMoves: [
 
     ],
-    suffix: "normal"
+    suffix: "normal",
+    evolution: [
+
+    ]
   },
   {
     id: "SPHEAL",
@@ -46244,7 +48038,14 @@ export const fakemons: Fakemon[] =
       "WATERPULSE",
       "YAWN"
     ],
-    suffix: "normal"
+    suffix: "normal",
+    evolution: [
+      {
+        to: "SEALEO",
+        method: "Level",
+        value: "32"
+      }
+    ]
   },
   {
     id: "SEALEO",
@@ -46350,7 +48151,14 @@ export const fakemons: Fakemon[] =
     eggMoves: [
 
     ],
-    suffix: "normal"
+    suffix: "normal",
+    evolution: [
+      {
+        to: "WALREIN",
+        method: "Level",
+        value: "44"
+      }
+    ]
   },
   {
     id: "WALREIN",
@@ -46472,7 +48280,10 @@ export const fakemons: Fakemon[] =
     eggMoves: [
 
     ],
-    suffix: "normal"
+    suffix: "normal",
+    evolution: [
+
+    ]
   },
   {
     id: "CLAMPERL",
@@ -46549,7 +48360,14 @@ export const fakemons: Fakemon[] =
       "MUDDYWATER",
       "SUPERSONIC"
     ],
-    suffix: "normal"
+    suffix: "normal",
+    evolution: [
+      {
+        to: "GOREBYSS",
+        method: "TradeItem",
+        value: "DEEPSEASCALE"
+      }
+    ]
   },
   {
     id: "HUNTAIL",
@@ -46647,7 +48465,10 @@ export const fakemons: Fakemon[] =
     eggMoves: [
 
     ],
-    suffix: "normal"
+    suffix: "normal",
+    evolution: [
+
+    ]
   },
   {
     id: "GOREBYSS",
@@ -46746,7 +48567,10 @@ export const fakemons: Fakemon[] =
     eggMoves: [
 
     ],
-    suffix: "normal"
+    suffix: "normal",
+    evolution: [
+
+    ]
   },
   {
     id: "RELICANTH",
@@ -46869,7 +48693,10 @@ export const fakemons: Fakemon[] =
       "SNORE",
       "ZENHEADBUTT"
     ],
-    suffix: "normal"
+    suffix: "normal",
+    evolution: [
+
+    ]
   },
   {
     id: "LUVDISC",
@@ -46969,7 +48796,10 @@ export const fakemons: Fakemon[] =
       "SPLASH",
       "SUPERSONIC"
     ],
-    suffix: "normal"
+    suffix: "normal",
+    evolution: [
+
+    ]
   },
   {
     id: "BAGON",
@@ -47083,7 +48913,14 @@ export const fakemons: Fakemon[] =
       "THRASH",
       "TWISTER"
     ],
-    suffix: "normal"
+    suffix: "normal",
+    evolution: [
+      {
+        to: "SHELGON",
+        method: "Level",
+        value: "30"
+      }
+    ]
   },
   {
     id: "SHELGON",
@@ -47195,7 +49032,14 @@ export const fakemons: Fakemon[] =
     eggMoves: [
 
     ],
-    suffix: "normal"
+    suffix: "normal",
+    evolution: [
+      {
+        to: "SALAMENCE",
+        method: "Level",
+        value: "50"
+      }
+    ]
   },
   {
     id: "SALAMENCE",
@@ -47334,7 +49178,10 @@ export const fakemons: Fakemon[] =
     eggMoves: [
 
     ],
-    suffix: "normal"
+    suffix: "normal",
+    evolution: [
+
+    ]
   },
   {
     id: "BELDUM",
@@ -47378,7 +49225,14 @@ export const fakemons: Fakemon[] =
     eggMoves: [
 
     ],
-    suffix: "normal"
+    suffix: "normal",
+    evolution: [
+      {
+        to: "METANG",
+        method: "Level",
+        value: "20"
+      }
+    ]
   },
   {
     id: "METANG",
@@ -47514,7 +49368,14 @@ export const fakemons: Fakemon[] =
     eggMoves: [
 
     ],
-    suffix: "normal"
+    suffix: "normal",
+    evolution: [
+      {
+        to: "METAGROSS",
+        method: "Level",
+        value: "45"
+      }
+    ]
   },
   {
     id: "METAGROSS",
@@ -47662,7 +49523,10 @@ export const fakemons: Fakemon[] =
     eggMoves: [
 
     ],
-    suffix: "normal"
+    suffix: "normal",
+    evolution: [
+
+    ]
   },
   {
     id: "REGIROCK",
@@ -47791,7 +49655,10 @@ export const fakemons: Fakemon[] =
     eggMoves: [
 
     ],
-    suffix: "normal"
+    suffix: "normal",
+    evolution: [
+
+    ]
   },
   {
     id: "REGICE",
@@ -47916,7 +49783,10 @@ export const fakemons: Fakemon[] =
     eggMoves: [
 
     ],
-    suffix: "normal"
+    suffix: "normal",
+    evolution: [
+
+    ]
   },
   {
     id: "REGISTEEL",
@@ -48049,7 +49919,10 @@ export const fakemons: Fakemon[] =
     eggMoves: [
 
     ],
-    suffix: "normal"
+    suffix: "normal",
+    evolution: [
+
+    ]
   },
   {
     id: "LATIAS",
@@ -48208,7 +50081,10 @@ export const fakemons: Fakemon[] =
     eggMoves: [
 
     ],
-    suffix: "normal"
+    suffix: "normal",
+    evolution: [
+
+    ]
   },
   {
     id: "LATIOS",
@@ -48361,7 +50237,10 @@ export const fakemons: Fakemon[] =
     eggMoves: [
 
     ],
-    suffix: "normal"
+    suffix: "normal",
+    evolution: [
+
+    ]
   },
   {
     id: "KYOGRE",
@@ -48472,7 +50351,10 @@ export const fakemons: Fakemon[] =
     eggMoves: [
 
     ],
-    suffix: "normal"
+    suffix: "normal",
+    evolution: [
+
+    ]
   },
   {
     id: "GROUDON",
@@ -48618,7 +50500,10 @@ export const fakemons: Fakemon[] =
     eggMoves: [
 
     ],
-    suffix: "normal"
+    suffix: "normal",
+    evolution: [
+
+    ]
   },
   {
     id: "RAYQUAZA",
@@ -48767,7 +50652,10 @@ export const fakemons: Fakemon[] =
     eggMoves: [
 
     ],
-    suffix: "normal"
+    suffix: "normal",
+    evolution: [
+
+    ]
   },
   {
     id: "JIRACHI",
@@ -48914,7 +50802,10 @@ export const fakemons: Fakemon[] =
     eggMoves: [
 
     ],
-    suffix: "normal"
+    suffix: "normal",
+    evolution: [
+
+    ]
   },
   {
     id: "DEOXYS",
@@ -49066,7 +50957,10 @@ export const fakemons: Fakemon[] =
     eggMoves: [
 
     ],
-    suffix: "normal"
+    suffix: "normal",
+    evolution: [
+
+    ]
   },
   {
     id: "TURTWIG",
@@ -49196,7 +51090,14 @@ export const fakemons: Fakemon[] =
       "WIDEGUARD",
       "WORRYSEED"
     ],
-    suffix: "normal"
+    suffix: "normal",
+    evolution: [
+      {
+        to: "GROTLE",
+        method: "Level",
+        value: "18"
+      }
+    ]
   },
   {
     id: "GROTLE",
@@ -49309,7 +51210,14 @@ export const fakemons: Fakemon[] =
     eggMoves: [
 
     ],
-    suffix: "normal"
+    suffix: "normal",
+    evolution: [
+      {
+        to: "TORTERRA",
+        method: "Level",
+        value: "32"
+      }
+    ]
   },
   {
     id: "TORTERRA",
@@ -49446,7 +51354,10 @@ export const fakemons: Fakemon[] =
     eggMoves: [
 
     ],
-    suffix: "normal"
+    suffix: "normal",
+    evolution: [
+
+    ]
   },
   {
     id: "CHIMCHAR",
@@ -49590,7 +51501,14 @@ export const fakemons: Fakemon[] =
       "SWITCHEROO",
       "THUNDERPUNCH"
     ],
-    suffix: "normal"
+    suffix: "normal",
+    evolution: [
+      {
+        to: "MONFERNO",
+        method: "Level",
+        value: "14"
+      }
+    ]
   },
   {
     id: "MONFERNO",
@@ -49732,7 +51650,14 @@ export const fakemons: Fakemon[] =
     eggMoves: [
 
     ],
-    suffix: "normal"
+    suffix: "normal",
+    evolution: [
+      {
+        to: "INFERNAPE",
+        method: "Level",
+        value: "36"
+      }
+    ]
   },
   {
     id: "INFERNAPE",
@@ -49893,7 +51818,10 @@ export const fakemons: Fakemon[] =
     eggMoves: [
 
     ],
-    suffix: "normal"
+    suffix: "normal",
+    evolution: [
+
+    ]
   },
   {
     id: "PIPLUP",
@@ -50015,7 +51943,14 @@ export const fakemons: Fakemon[] =
       "SUPERSONIC",
       "YAWN"
     ],
-    suffix: "normal"
+    suffix: "normal",
+    evolution: [
+      {
+        to: "PRINPLUP",
+        method: "Level",
+        value: "16"
+      }
+    ]
   },
   {
     id: "PRINPLUP",
@@ -50132,7 +52067,14 @@ export const fakemons: Fakemon[] =
     eggMoves: [
 
     ],
-    suffix: "normal"
+    suffix: "normal",
+    evolution: [
+      {
+        to: "EMPOLEON",
+        method: "Level",
+        value: "36"
+      }
+    ]
   },
   {
     id: "EMPOLEON",
@@ -50283,7 +52225,10 @@ export const fakemons: Fakemon[] =
     eggMoves: [
 
     ],
-    suffix: "normal"
+    suffix: "normal",
+    evolution: [
+
+    ]
   },
   {
     id: "STARLY",
@@ -50388,7 +52333,14 @@ export const fakemons: Fakemon[] =
       "SANDATTACK",
       "UPROAR"
     ],
-    suffix: "normal"
+    suffix: "normal",
+    evolution: [
+      {
+        to: "STARAVIA",
+        method: "Level",
+        value: "14"
+      }
+    ]
   },
   {
     id: "STARAVIA",
@@ -50487,7 +52439,14 @@ export const fakemons: Fakemon[] =
     eggMoves: [
 
     ],
-    suffix: "normal"
+    suffix: "normal",
+    evolution: [
+      {
+        to: "STARAPTOR",
+        method: "Level",
+        value: "34"
+      }
+    ]
   },
   {
     id: "STARAPTOR",
@@ -50593,7 +52552,10 @@ export const fakemons: Fakemon[] =
     eggMoves: [
 
     ],
-    suffix: "normal"
+    suffix: "normal",
+    evolution: [
+
+    ]
   },
   {
     id: "BIDOOF",
@@ -50702,7 +52664,14 @@ export const fakemons: Fakemon[] =
       "ROLLOUT",
       "SKULLBASH"
     ],
-    suffix: "normal"
+    suffix: "normal",
+    evolution: [
+      {
+        to: "BIBAREL",
+        method: "Level",
+        value: "15"
+      }
+    ]
   },
   {
     id: "BIBAREL",
@@ -50823,7 +52792,10 @@ export const fakemons: Fakemon[] =
     eggMoves: [
 
     ],
-    suffix: "normal"
+    suffix: "normal",
+    evolution: [
+
+    ]
   },
   {
     id: "KRICKETOT",
@@ -50870,7 +52842,14 @@ export const fakemons: Fakemon[] =
     eggMoves: [
 
     ],
-    suffix: "normal"
+    suffix: "normal",
+    evolution: [
+      {
+        to: "KRICKETUNE",
+        method: "Level",
+        value: "10"
+      }
+    ]
   },
   {
     id: "KRICKETUNE",
@@ -50980,7 +52959,10 @@ export const fakemons: Fakemon[] =
     eggMoves: [
 
     ],
-    suffix: "normal"
+    suffix: "normal",
+    evolution: [
+
+    ]
   },
   {
     id: "SHINX",
@@ -51103,7 +53085,14 @@ export const fakemons: Fakemon[] =
       "TAKEDOWN",
       "THUNDERFANG"
     ],
-    suffix: "normal"
+    suffix: "normal",
+    evolution: [
+      {
+        to: "LUXIO",
+        method: "Level",
+        value: "15"
+      }
+    ]
   },
   {
     id: "LUXIO",
@@ -51213,7 +53202,14 @@ export const fakemons: Fakemon[] =
     eggMoves: [
 
     ],
-    suffix: "normal"
+    suffix: "normal",
+    evolution: [
+      {
+        to: "LUXRAY",
+        method: "Level",
+        value: "30"
+      }
+    ]
   },
   {
     id: "LUXRAY",
@@ -51332,7 +53328,10 @@ export const fakemons: Fakemon[] =
     eggMoves: [
 
     ],
-    suffix: "normal"
+    suffix: "normal",
+    evolution: [
+
+    ]
   },
   {
     id: "BUDEW",
@@ -51431,7 +53430,10 @@ export const fakemons: Fakemon[] =
       "SPIKES",
       "SYNTHESIS"
     ],
-    suffix: "normal"
+    suffix: "normal",
+    evolution: [
+
+    ]
   },
   {
     id: "ROSERADE",
@@ -51547,7 +53549,10 @@ export const fakemons: Fakemon[] =
     eggMoves: [
 
     ],
-    suffix: "normal"
+    suffix: "normal",
+    evolution: [
+
+    ]
   },
   {
     id: "CRANIDOS",
@@ -51675,7 +53680,14 @@ export const fakemons: Fakemon[] =
       "THRASH",
       "WHIRLWIND"
     ],
-    suffix: "normal"
+    suffix: "normal",
+    evolution: [
+      {
+        to: "RAMPARDOS",
+        method: "Level",
+        value: "30"
+      }
+    ]
   },
   {
     id: "RAMPARDOS",
@@ -51811,7 +53823,10 @@ export const fakemons: Fakemon[] =
     eggMoves: [
 
     ],
-    suffix: "normal"
+    suffix: "normal",
+    evolution: [
+
+    ]
   },
   {
     id: "SHIELDON",
@@ -51939,7 +53954,14 @@ export const fakemons: Fakemon[] =
       "SCREECH",
       "WIDEGUARD"
     ],
-    suffix: "normal"
+    suffix: "normal",
+    evolution: [
+      {
+        to: "BASTIODON",
+        method: "Level",
+        value: "30"
+      }
+    ]
   },
   {
     id: "BASTIODON",
@@ -52069,7 +54091,10 @@ export const fakemons: Fakemon[] =
     eggMoves: [
 
     ],
-    suffix: "normal"
+    suffix: "normal",
+    evolution: [
+
+    ]
   },
   {
     id: "BURMY",
@@ -52114,7 +54139,14 @@ export const fakemons: Fakemon[] =
     eggMoves: [
 
     ],
-    suffix: "normal"
+    suffix: "normal",
+    evolution: [
+      {
+        to: "MOTHIM",
+        method: "LevelMale",
+        value: "20"
+      }
+    ]
   },
   {
     id: "WORMADAM",
@@ -52221,7 +54253,10 @@ export const fakemons: Fakemon[] =
     eggMoves: [
 
     ],
-    suffix: "normal"
+    suffix: "normal",
+    evolution: [
+
+    ]
   },
   {
     id: "MOTHIM",
@@ -52328,7 +54363,10 @@ export const fakemons: Fakemon[] =
     eggMoves: [
 
     ],
-    suffix: "normal"
+    suffix: "normal",
+    evolution: [
+
+    ]
   },
   {
     id: "COMBEE",
@@ -52379,7 +54417,14 @@ export const fakemons: Fakemon[] =
     eggMoves: [
 
     ],
-    suffix: "normal"
+    suffix: "normal",
+    evolution: [
+      {
+        to: "VESPIQUEN",
+        method: "LevelFemale",
+        value: "21"
+      }
+    ]
   },
   {
     id: "VESPIQUEN",
@@ -52511,7 +54556,10 @@ export const fakemons: Fakemon[] =
     eggMoves: [
 
     ],
-    suffix: "normal"
+    suffix: "normal",
+    evolution: [
+
+    ]
   },
   {
     id: "PACHIRISU",
@@ -52644,7 +54692,10 @@ export const fakemons: Fakemon[] =
       "ROLLOUT",
       "TAILWHIP"
     ],
-    suffix: "normal"
+    suffix: "normal",
+    evolution: [
+
+    ]
   },
   {
     id: "BUIZEL",
@@ -52766,7 +54817,14 @@ export const fakemons: Fakemon[] =
       "SOAK",
       "SWITCHEROO"
     ],
-    suffix: "normal"
+    suffix: "normal",
+    evolution: [
+      {
+        to: "FLOATZEL",
+        method: "Level",
+        value: "26"
+      }
+    ]
   },
   {
     id: "FLOATZEL",
@@ -52890,7 +54948,10 @@ export const fakemons: Fakemon[] =
     eggMoves: [
 
     ],
-    suffix: "normal"
+    suffix: "normal",
+    evolution: [
+
+    ]
   },
   {
     id: "CHERUBI",
@@ -52989,7 +55050,14 @@ export const fakemons: Fakemon[] =
       "TICKLE",
       "WEATHERBALL"
     ],
-    suffix: "normal"
+    suffix: "normal",
+    evolution: [
+      {
+        to: "CHERRIM",
+        method: "Level",
+        value: "25"
+      }
+    ]
   },
   {
     id: "CHERRIM",
@@ -53084,7 +55152,10 @@ export const fakemons: Fakemon[] =
     eggMoves: [
 
     ],
-    suffix: "normal"
+    suffix: "normal",
+    evolution: [
+
+    ]
   },
   {
     id: "SHELLOS",
@@ -53200,7 +55271,14 @@ export const fakemons: Fakemon[] =
       "SWALLOW",
       "YAWN"
     ],
-    suffix: "normal"
+    suffix: "normal",
+    evolution: [
+      {
+        to: "GASTRODON",
+        method: "Level",
+        value: "30"
+      }
+    ]
   },
   {
     id: "GASTRODON",
@@ -53319,7 +55397,10 @@ export const fakemons: Fakemon[] =
     eggMoves: [
 
     ],
-    suffix: "normal"
+    suffix: "normal",
+    evolution: [
+
+    ]
   },
   {
     id: "AMBIPOM",
@@ -53462,7 +55543,10 @@ export const fakemons: Fakemon[] =
     eggMoves: [
 
     ],
-    suffix: "normal"
+    suffix: "normal",
+    evolution: [
+
+    ]
   },
   {
     id: "DRIFLOON",
@@ -53600,7 +55684,14 @@ export const fakemons: Fakemon[] =
       "TAILWIND",
       "WEATHERBALL"
     ],
-    suffix: "normal"
+    suffix: "normal",
+    evolution: [
+      {
+        to: "DRIFBLIM",
+        method: "Level",
+        value: "28"
+      }
+    ]
   },
   {
     id: "DRIFBLIM",
@@ -53736,7 +55827,10 @@ export const fakemons: Fakemon[] =
     eggMoves: [
 
     ],
-    suffix: "normal"
+    suffix: "normal",
+    evolution: [
+
+    ]
   },
   {
     id: "BUNEARY",
@@ -53873,7 +55967,10 @@ export const fakemons: Fakemon[] =
       "TEETERDANCE",
       "THUNDERPUNCH"
     ],
-    suffix: "normal"
+    suffix: "normal",
+    evolution: [
+
+    ]
   },
   {
     id: "LOPUNNY",
@@ -54011,7 +56108,10 @@ export const fakemons: Fakemon[] =
     eggMoves: [
 
     ],
-    suffix: "normal"
+    suffix: "normal",
+    evolution: [
+
+    ]
   },
   {
     id: "MISMAGIUS",
@@ -54144,7 +56244,10 @@ export const fakemons: Fakemon[] =
     eggMoves: [
 
     ],
-    suffix: "normal"
+    suffix: "normal",
+    evolution: [
+
+    ]
   },
   {
     id: "HONCHKROW",
@@ -54272,7 +56375,10 @@ export const fakemons: Fakemon[] =
     eggMoves: [
 
     ],
-    suffix: "normal"
+    suffix: "normal",
+    evolution: [
+
+    ]
   },
   {
     id: "GLAMEOW",
@@ -54384,7 +56490,14 @@ export const fakemons: Fakemon[] =
       "SANDATTACK",
       "TAILWHIP"
     ],
-    suffix: "normal"
+    suffix: "normal",
+    evolution: [
+      {
+        to: "PURUGLY",
+        method: "Level",
+        value: "38"
+      }
+    ]
   },
   {
     id: "PURUGLY",
@@ -54500,7 +56613,10 @@ export const fakemons: Fakemon[] =
     eggMoves: [
 
     ],
-    suffix: "normal"
+    suffix: "normal",
+    evolution: [
+
+    ]
   },
   {
     id: "CHINGLING",
@@ -54620,7 +56736,10 @@ export const fakemons: Fakemon[] =
       "STOREDPOWER",
       "WISH"
     ],
-    suffix: "normal"
+    suffix: "normal",
+    evolution: [
+
+    ]
   },
   {
     id: "STUNKY",
@@ -54759,7 +56878,14 @@ export const fakemons: Fakemon[] =
       "SLASH",
       "SMOG"
     ],
-    suffix: "normal"
+    suffix: "normal",
+    evolution: [
+      {
+        to: "SKUNTANK",
+        method: "Level",
+        value: "34"
+      }
+    ]
   },
   {
     id: "SKUNTANK",
@@ -54896,7 +57022,10 @@ export const fakemons: Fakemon[] =
     eggMoves: [
 
     ],
-    suffix: "normal"
+    suffix: "normal",
+    evolution: [
+
+    ]
   },
   {
     id: "BRONZOR",
@@ -55025,7 +57154,14 @@ export const fakemons: Fakemon[] =
       "GRAVITY",
       "RECYCLE"
     ],
-    suffix: "normal"
+    suffix: "normal",
+    evolution: [
+      {
+        to: "BRONZONG",
+        method: "Level",
+        value: "33"
+      }
+    ]
   },
   {
     id: "BRONZONG",
@@ -55170,7 +57306,10 @@ export const fakemons: Fakemon[] =
     eggMoves: [
 
     ],
-    suffix: "normal"
+    suffix: "normal",
+    evolution: [
+
+    ]
   },
   {
     id: "BONSLY",
@@ -55289,7 +57428,14 @@ export const fakemons: Fakemon[] =
       "SANDTOMB",
       "SELFDESTRUCT"
     ],
-    suffix: "normal"
+    suffix: "normal",
+    evolution: [
+      {
+        to: "SUDOWOODO",
+        method: "HasMove",
+        value: "MIMIC"
+      }
+    ]
   },
   {
     id: "MIMEJR",
@@ -55428,7 +57574,14 @@ export const fakemons: Fakemon[] =
       "TICKLE",
       "TRICK"
     ],
-    suffix: "normal"
+    suffix: "normal",
+    evolution: [
+      {
+        to: "MRMIME",
+        method: "HasMove",
+        value: "MIMIC"
+      }
+    ]
   },
   {
     id: "HAPPINY",
@@ -55533,7 +57686,14 @@ export const fakemons: Fakemon[] =
       "PRESENT",
       "SEISMICTOSS"
     ],
-    suffix: "normal"
+    suffix: "normal",
+    evolution: [
+      {
+        to: "CHANSEY",
+        method: "DayHoldItem",
+        value: "OVALSTONE"
+      }
+    ]
   },
   {
     id: "CHATOT",
@@ -55638,7 +57798,10 @@ export const fakemons: Fakemon[] =
       "NIGHTSHADE",
       "SUPERSONIC"
     ],
-    suffix: "normal"
+    suffix: "normal",
+    evolution: [
+
+    ]
   },
   {
     id: "SPIRITOMB",
@@ -55769,7 +57932,10 @@ export const fakemons: Fakemon[] =
       "SHADOWSNEAK",
       "SMOKESCREEN"
     ],
-    suffix: "normal"
+    suffix: "normal",
+    evolution: [
+
+    ]
   },
   {
     id: "GIBLE",
@@ -55893,7 +58059,14 @@ export const fakemons: Fakemon[] =
       "THRASH",
       "TWISTER"
     ],
-    suffix: "normal"
+    suffix: "normal",
+    evolution: [
+      {
+        to: "GABITE",
+        method: "Level",
+        value: "24"
+      }
+    ]
   },
   {
     id: "GABITE",
@@ -56013,7 +58186,14 @@ export const fakemons: Fakemon[] =
     eggMoves: [
 
     ],
-    suffix: "normal"
+    suffix: "normal",
+    evolution: [
+      {
+        to: "GARCHOMP",
+        method: "Level",
+        value: "48"
+      }
+    ]
   },
   {
     id: "GARCHOMP",
@@ -56145,7 +58325,10 @@ export const fakemons: Fakemon[] =
     eggMoves: [
 
     ],
-    suffix: "normal"
+    suffix: "normal",
+    evolution: [
+
+    ]
   },
   {
     id: "MUNCHLAX",
@@ -56293,7 +58476,10 @@ export const fakemons: Fakemon[] =
       "WHIRLWIND",
       "ZENHEADBUTT"
     ],
-    suffix: "normal"
+    suffix: "normal",
+    evolution: [
+
+    ]
   },
   {
     id: "RIOLU",
@@ -56434,7 +58620,10 @@ export const fakemons: Fakemon[] =
       "MINDREADER",
       "VACUUMWAVE"
     ],
-    suffix: "normal"
+    suffix: "normal",
+    evolution: [
+
+    ]
   },
   {
     id: "LUCARIO",
@@ -56593,7 +58782,10 @@ export const fakemons: Fakemon[] =
     eggMoves: [
 
     ],
-    suffix: "normal"
+    suffix: "normal",
+    evolution: [
+
+    ]
   },
   {
     id: "HIPPOPOTAS",
@@ -56706,7 +58898,14 @@ export const fakemons: Fakemon[] =
       "SWALLOW",
       "WHIRLWIND"
     ],
-    suffix: "normal"
+    suffix: "normal",
+    evolution: [
+      {
+        to: "HIPPOWDON",
+        method: "Level",
+        value: "34"
+      }
+    ]
   },
   {
     id: "HIPPOWDON",
@@ -56820,7 +59019,10 @@ export const fakemons: Fakemon[] =
     eggMoves: [
 
     ],
-    suffix: "normal"
+    suffix: "normal",
+    evolution: [
+
+    ]
   },
   {
     id: "SKORUPI",
@@ -56945,7 +59147,14 @@ export const fakemons: Fakemon[] =
       "SLASH",
       "WHIRLWIND"
     ],
-    suffix: "normal"
+    suffix: "normal",
+    evolution: [
+      {
+        to: "DRAPION",
+        method: "Level",
+        value: "40"
+      }
+    ]
   },
   {
     id: "DRAPION",
@@ -57086,7 +59295,10 @@ export const fakemons: Fakemon[] =
     eggMoves: [
 
     ],
-    suffix: "normal"
+    suffix: "normal",
+    evolution: [
+
+    ]
   },
   {
     id: "CROAGUNK",
@@ -57237,7 +59449,14 @@ export const fakemons: Fakemon[] =
       "QUICKGUARD",
       "VACUUMWAVE"
     ],
-    suffix: "normal"
+    suffix: "normal",
+    evolution: [
+      {
+        to: "TOXICROAK",
+        method: "Level",
+        value: "37"
+      }
+    ]
   },
   {
     id: "TOXICROAK",
@@ -57389,7 +59608,10 @@ export const fakemons: Fakemon[] =
     eggMoves: [
 
     ],
-    suffix: "normal"
+    suffix: "normal",
+    evolution: [
+
+    ]
   },
   {
     id: "CARNIVINE",
@@ -57493,7 +59715,10 @@ export const fakemons: Fakemon[] =
       "SYNTHESIS",
       "WORRYSEED"
     ],
-    suffix: "normal"
+    suffix: "normal",
+    evolution: [
+
+    ]
   },
   {
     id: "FINNEON",
@@ -57609,7 +59834,14 @@ export const fakemons: Fakemon[] =
       "SWEETKISS",
       "TICKLE"
     ],
-    suffix: "normal"
+    suffix: "normal",
+    evolution: [
+      {
+        to: "LUMINEON",
+        method: "Level",
+        value: "31"
+      }
+    ]
   },
   {
     id: "LUMINEON",
@@ -57720,7 +59952,10 @@ export const fakemons: Fakemon[] =
     eggMoves: [
 
     ],
-    suffix: "normal"
+    suffix: "normal",
+    evolution: [
+
+    ]
   },
   {
     id: "MANTYKE",
@@ -57827,7 +60062,14 @@ export const fakemons: Fakemon[] =
       "TWISTER",
       "WIDEGUARD"
     ],
-    suffix: "normal"
+    suffix: "normal",
+    evolution: [
+      {
+        to: "MANTINE",
+        method: "HasInParty",
+        value: "REMORAID"
+      }
+    ]
   },
   {
     id: "SNOVER",
@@ -57942,7 +60184,14 @@ export const fakemons: Fakemon[] =
       "STOMP",
       "WEATHERBALL"
     ],
-    suffix: "normal"
+    suffix: "normal",
+    evolution: [
+      {
+        to: "ABOMASNOW",
+        method: "Level",
+        value: "40"
+      }
+    ]
   },
   {
     id: "ABOMASNOW",
@@ -58073,7 +60322,10 @@ export const fakemons: Fakemon[] =
     eggMoves: [
 
     ],
-    suffix: "normal"
+    suffix: "normal",
+    evolution: [
+
+    ]
   },
   {
     id: "WEAVILE",
@@ -58226,7 +60478,10 @@ export const fakemons: Fakemon[] =
     eggMoves: [
 
     ],
-    suffix: "normal"
+    suffix: "normal",
+    evolution: [
+
+    ]
   },
   {
     id: "MAGNEZONE",
@@ -58349,7 +60604,10 @@ export const fakemons: Fakemon[] =
     eggMoves: [
 
     ],
-    suffix: "normal"
+    suffix: "normal",
+    evolution: [
+
+    ]
   },
   {
     id: "LICKILICKY",
@@ -58490,7 +60748,10 @@ export const fakemons: Fakemon[] =
     eggMoves: [
 
     ],
-    suffix: "normal"
+    suffix: "normal",
+    evolution: [
+
+    ]
   },
   {
     id: "RHYPERIOR",
@@ -58659,7 +60920,10 @@ export const fakemons: Fakemon[] =
     eggMoves: [
 
     ],
-    suffix: "normal"
+    suffix: "normal",
+    evolution: [
+
+    ]
   },
   {
     id: "TANGROWTH",
@@ -58783,7 +61047,10 @@ export const fakemons: Fakemon[] =
     eggMoves: [
 
     ],
-    suffix: "normal"
+    suffix: "normal",
+    evolution: [
+
+    ]
   },
   {
     id: "ELECTIVIRE",
@@ -58922,7 +61189,10 @@ export const fakemons: Fakemon[] =
     eggMoves: [
 
     ],
-    suffix: "normal"
+    suffix: "normal",
+    evolution: [
+
+    ]
   },
   {
     id: "MAGMORTAR",
@@ -59059,7 +61329,10 @@ export const fakemons: Fakemon[] =
     eggMoves: [
 
     ],
-    suffix: "normal"
+    suffix: "normal",
+    evolution: [
+
+    ]
   },
   {
     id: "TOGEKISS",
@@ -59225,7 +61498,10 @@ export const fakemons: Fakemon[] =
     eggMoves: [
 
     ],
-    suffix: "normal"
+    suffix: "normal",
+    evolution: [
+
+    ]
   },
   {
     id: "YANMEGA",
@@ -59341,7 +61617,10 @@ export const fakemons: Fakemon[] =
     eggMoves: [
 
     ],
-    suffix: "normal"
+    suffix: "normal",
+    evolution: [
+
+    ]
   },
   {
     id: "LEAFEON",
@@ -59477,7 +61756,10 @@ export const fakemons: Fakemon[] =
     eggMoves: [
 
     ],
-    suffix: "normal"
+    suffix: "normal",
+    evolution: [
+
+    ]
   },
   {
     id: "GLACEON",
@@ -59609,7 +61891,10 @@ export const fakemons: Fakemon[] =
     eggMoves: [
 
     ],
-    suffix: "normal"
+    suffix: "normal",
+    evolution: [
+
+    ]
   },
   {
     id: "GLISCOR",
@@ -59755,7 +62040,10 @@ export const fakemons: Fakemon[] =
     eggMoves: [
 
     ],
-    suffix: "normal"
+    suffix: "normal",
+    evolution: [
+
+    ]
   },
   {
     id: "MAMOSWINE",
@@ -59883,7 +62171,10 @@ export const fakemons: Fakemon[] =
     eggMoves: [
 
     ],
-    suffix: "normal"
+    suffix: "normal",
+    evolution: [
+
+    ]
   },
   {
     id: "PORYGONZ",
@@ -60005,7 +62296,10 @@ export const fakemons: Fakemon[] =
     eggMoves: [
 
     ],
-    suffix: "normal"
+    suffix: "normal",
+    evolution: [
+
+    ]
   },
   {
     id: "GALLADE",
@@ -60207,7 +62501,10 @@ export const fakemons: Fakemon[] =
     eggMoves: [
 
     ],
-    suffix: "normal"
+    suffix: "normal",
+    evolution: [
+
+    ]
   },
   {
     id: "PROBOPASS",
@@ -60343,7 +62640,10 @@ export const fakemons: Fakemon[] =
     eggMoves: [
 
     ],
-    suffix: "normal"
+    suffix: "normal",
+    evolution: [
+
+    ]
   },
   {
     id: "DUSKNOIR",
@@ -60491,7 +62791,10 @@ export const fakemons: Fakemon[] =
     eggMoves: [
 
     ],
-    suffix: "normal"
+    suffix: "normal",
+    evolution: [
+
+    ]
   },
   {
     id: "FROSLASS",
@@ -60635,7 +62938,10 @@ export const fakemons: Fakemon[] =
     eggMoves: [
 
     ],
-    suffix: "normal"
+    suffix: "normal",
+    evolution: [
+
+    ]
   },
   {
     id: "ROTOM",
@@ -60744,7 +63050,10 @@ export const fakemons: Fakemon[] =
     eggMoves: [
 
     ],
-    suffix: "normal"
+    suffix: "normal",
+    evolution: [
+
+    ]
   },
   {
     id: "UXIE",
@@ -60894,7 +63203,10 @@ export const fakemons: Fakemon[] =
     eggMoves: [
 
     ],
-    suffix: "normal"
+    suffix: "normal",
+    evolution: [
+
+    ]
   },
   {
     id: "MESPRIT",
@@ -61042,7 +63354,10 @@ export const fakemons: Fakemon[] =
     eggMoves: [
 
     ],
-    suffix: "normal"
+    suffix: "normal",
+    evolution: [
+
+    ]
   },
   {
     id: "AZELF",
@@ -61200,7 +63515,10 @@ export const fakemons: Fakemon[] =
     eggMoves: [
 
     ],
-    suffix: "normal"
+    suffix: "normal",
+    evolution: [
+
+    ]
   },
   {
     id: "DIALGA",
@@ -61334,7 +63652,10 @@ export const fakemons: Fakemon[] =
     eggMoves: [
 
     ],
-    suffix: "normal"
+    suffix: "normal",
+    evolution: [
+
+    ]
   },
   {
     id: "PALKIA",
@@ -61473,7 +63794,10 @@ export const fakemons: Fakemon[] =
     eggMoves: [
 
     ],
-    suffix: "normal"
+    suffix: "normal",
+    evolution: [
+
+    ]
   },
   {
     id: "HEATRAN",
@@ -61601,7 +63925,10 @@ export const fakemons: Fakemon[] =
     eggMoves: [
 
     ],
-    suffix: "normal"
+    suffix: "normal",
+    evolution: [
+
+    ]
   },
   {
     id: "REGIGIGAS",
@@ -61725,7 +64052,10 @@ export const fakemons: Fakemon[] =
     eggMoves: [
 
     ],
-    suffix: "normal"
+    suffix: "normal",
+    evolution: [
+
+    ]
   },
   {
     id: "GIRATINA",
@@ -61859,7 +64189,10 @@ export const fakemons: Fakemon[] =
     eggMoves: [
 
     ],
-    suffix: "normal"
+    suffix: "normal",
+    evolution: [
+
+    ]
   },
   {
     id: "CRESSELIA",
@@ -61980,7 +64313,10 @@ export const fakemons: Fakemon[] =
     eggMoves: [
 
     ],
-    suffix: "normal"
+    suffix: "normal",
+    evolution: [
+
+    ]
   },
   {
     id: "PHIONE",
@@ -62081,7 +64417,10 @@ export const fakemons: Fakemon[] =
     eggMoves: [
 
     ],
-    suffix: "normal"
+    suffix: "normal",
+    evolution: [
+
+    ]
   },
   {
     id: "MANAPHY",
@@ -62198,7 +64537,10 @@ export const fakemons: Fakemon[] =
     eggMoves: [
 
     ],
-    suffix: "normal"
+    suffix: "normal",
+    evolution: [
+
+    ]
   },
   {
     id: "DARKRAI",
@@ -62327,7 +64669,10 @@ export const fakemons: Fakemon[] =
     eggMoves: [
 
     ],
-    suffix: "normal"
+    suffix: "normal",
+    evolution: [
+
+    ]
   },
   {
     id: "SHAYMIN",
@@ -62432,7 +64777,10 @@ export const fakemons: Fakemon[] =
     eggMoves: [
 
     ],
-    suffix: "normal"
+    suffix: "normal",
+    evolution: [
+
+    ]
   },
   {
     id: "ARCEUS",
@@ -62636,7 +64984,10 @@ export const fakemons: Fakemon[] =
     eggMoves: [
 
     ],
-    suffix: "normal"
+    suffix: "normal",
+    evolution: [
+
+    ]
   },
   {
     id: "VICTINI",
@@ -62777,7 +65128,10 @@ export const fakemons: Fakemon[] =
     eggMoves: [
 
     ],
-    suffix: "normal"
+    suffix: "normal",
+    evolution: [
+
+    ]
   },
   {
     id: "SNIVY",
@@ -62896,7 +65250,14 @@ export const fakemons: Fakemon[] =
       "SYNTHESIS",
       "TWISTER"
     ],
-    suffix: "normal"
+    suffix: "normal",
+    evolution: [
+      {
+        to: "SERVINE",
+        method: "Level",
+        value: "17"
+      }
+    ]
   },
   {
     id: "SERVINE",
@@ -63004,7 +65365,14 @@ export const fakemons: Fakemon[] =
     eggMoves: [
 
     ],
-    suffix: "normal"
+    suffix: "normal",
+    evolution: [
+      {
+        to: "SERPERIOR",
+        method: "Level",
+        value: "36"
+      }
+    ]
   },
   {
     id: "SERPERIOR",
@@ -63125,7 +65493,10 @@ export const fakemons: Fakemon[] =
     eggMoves: [
 
     ],
-    suffix: "normal"
+    suffix: "normal",
+    evolution: [
+
+    ]
   },
   {
     id: "TEPIG",
@@ -63246,7 +65617,14 @@ export const fakemons: Fakemon[] =
       "THRASH",
       "YAWN"
     ],
-    suffix: "normal"
+    suffix: "normal",
+    evolution: [
+      {
+        to: "PIGNITE",
+        method: "Level",
+        value: "17"
+      }
+    ]
   },
   {
     id: "PIGNITE",
@@ -63378,7 +65756,14 @@ export const fakemons: Fakemon[] =
     eggMoves: [
 
     ],
-    suffix: "normal"
+    suffix: "normal",
+    evolution: [
+      {
+        to: "EMBOAR",
+        method: "Level",
+        value: "36"
+      }
+    ]
   },
   {
     id: "EMBOAR",
@@ -63521,7 +65906,10 @@ export const fakemons: Fakemon[] =
     eggMoves: [
 
     ],
-    suffix: "normal"
+    suffix: "normal",
+    evolution: [
+
+    ]
   },
   {
     id: "OSHAWOTT",
@@ -63640,7 +66028,14 @@ export const fakemons: Fakemon[] =
       "SCREECH",
       "TRUMPCARD"
     ],
-    suffix: "normal"
+    suffix: "normal",
+    evolution: [
+      {
+        to: "DEWOTT",
+        method: "Level",
+        value: "17"
+      }
+    ]
   },
   {
     id: "DEWOTT",
@@ -63751,7 +66146,14 @@ export const fakemons: Fakemon[] =
     eggMoves: [
 
     ],
-    suffix: "normal"
+    suffix: "normal",
+    evolution: [
+      {
+        to: "SAMUROTT",
+        method: "Level",
+        value: "36"
+      }
+    ]
   },
   {
     id: "SAMUROTT",
@@ -63876,7 +66278,10 @@ export const fakemons: Fakemon[] =
     eggMoves: [
 
     ],
-    suffix: "normal"
+    suffix: "normal",
+    evolution: [
+
+    ]
   },
   {
     id: "PATRAT",
@@ -63982,7 +66387,14 @@ export const fakemons: Fakemon[] =
       "SCREECH",
       "TEARFULLOOK"
     ],
-    suffix: "normal"
+    suffix: "normal",
+    evolution: [
+      {
+        to: "WATCHOG",
+        method: "Level",
+        value: "20"
+      }
+    ]
   },
   {
     id: "WATCHOG",
@@ -64105,7 +66517,10 @@ export const fakemons: Fakemon[] =
     eggMoves: [
 
     ],
-    suffix: "normal"
+    suffix: "normal",
+    evolution: [
+
+    ]
   },
   {
     id: "LILLIPUP",
@@ -64211,7 +66626,14 @@ export const fakemons: Fakemon[] =
       "MUDSLAP",
       "YAWN"
     ],
-    suffix: "normal"
+    suffix: "normal",
+    evolution: [
+      {
+        to: "HERDIER",
+        method: "Level",
+        value: "16"
+      }
+    ]
   },
   {
     id: "HERDIER",
@@ -64314,7 +66736,14 @@ export const fakemons: Fakemon[] =
     eggMoves: [
 
     ],
-    suffix: "normal"
+    suffix: "normal",
+    evolution: [
+      {
+        to: "STOUTLAND",
+        method: "Level",
+        value: "32"
+      }
+    ]
   },
   {
     id: "STOUTLAND",
@@ -64425,7 +66854,10 @@ export const fakemons: Fakemon[] =
     eggMoves: [
 
     ],
-    suffix: "normal"
+    suffix: "normal",
+    evolution: [
+
+    ]
   },
   {
     id: "PURRLOIN",
@@ -64540,7 +66972,14 @@ export const fakemons: Fakemon[] =
       "SLASH",
       "YAWN"
     ],
-    suffix: "normal"
+    suffix: "normal",
+    evolution: [
+      {
+        to: "LIEPARD",
+        method: "Level",
+        value: "20"
+      }
+    ]
   },
   {
     id: "LIEPARD",
@@ -64658,7 +67097,10 @@ export const fakemons: Fakemon[] =
     eggMoves: [
 
     ],
-    suffix: "normal"
+    suffix: "normal",
+    evolution: [
+
+    ]
   },
   {
     id: "PANSAGE",
@@ -64777,7 +67219,14 @@ export const fakemons: Fakemon[] =
       "SPIKYSHIELD",
       "TICKLE"
     ],
-    suffix: "normal"
+    suffix: "normal",
+    evolution: [
+      {
+        to: "SIMISAGE",
+        method: "Item",
+        value: "LEAFSTONE"
+      }
+    ]
   },
   {
     id: "SIMISAGE",
@@ -64881,7 +67330,10 @@ export const fakemons: Fakemon[] =
     eggMoves: [
 
     ],
-    suffix: "normal"
+    suffix: "normal",
+    evolution: [
+
+    ]
   },
   {
     id: "PANSEAR",
@@ -65002,7 +67454,14 @@ export const fakemons: Fakemon[] =
       "SLEEPTALK",
       "TICKLE"
     ],
-    suffix: "normal"
+    suffix: "normal",
+    evolution: [
+      {
+        to: "SIMISEAR",
+        method: "Item",
+        value: "FIRESTONE"
+      }
+    ]
   },
   {
     id: "SIMISEAR",
@@ -65107,7 +67566,10 @@ export const fakemons: Fakemon[] =
     eggMoves: [
 
     ],
-    suffix: "normal"
+    suffix: "normal",
+    evolution: [
+
+    ]
   },
   {
     id: "PANPOUR",
@@ -65228,7 +67690,14 @@ export const fakemons: Fakemon[] =
       "ROLEPLAY",
       "TICKLE"
     ],
-    suffix: "normal"
+    suffix: "normal",
+    evolution: [
+      {
+        to: "SIMIPOUR",
+        method: "Item",
+        value: "WATERSTONE"
+      }
+    ]
   },
   {
     id: "SIMIPOUR",
@@ -65335,7 +67804,10 @@ export const fakemons: Fakemon[] =
     eggMoves: [
 
     ],
-    suffix: "normal"
+    suffix: "normal",
+    evolution: [
+
+    ]
   },
   {
     id: "MUNNA",
@@ -65450,7 +67922,14 @@ export const fakemons: Fakemon[] =
       "CURSE",
       "HEALINGWISH"
     ],
-    suffix: "normal"
+    suffix: "normal",
+    evolution: [
+      {
+        to: "MUSHARNA",
+        method: "Item",
+        value: "MOONSTONE"
+      }
+    ]
   },
   {
     id: "MUSHARNA",
@@ -65569,7 +68048,10 @@ export const fakemons: Fakemon[] =
     eggMoves: [
 
     ],
-    suffix: "normal"
+    suffix: "normal",
+    evolution: [
+
+    ]
   },
   {
     id: "PIDOVE",
@@ -65664,7 +68146,14 @@ export const fakemons: Fakemon[] =
       "NIGHTSLASH",
       "WISH"
     ],
-    suffix: "normal"
+    suffix: "normal",
+    evolution: [
+      {
+        to: "TRANQUILL",
+        method: "Level",
+        value: "21"
+      }
+    ]
   },
   {
     id: "TRANQUILL",
@@ -65755,7 +68244,14 @@ export const fakemons: Fakemon[] =
     eggMoves: [
 
     ],
-    suffix: "normal"
+    suffix: "normal",
+    evolution: [
+      {
+        to: "UNFEZANT",
+        method: "Level",
+        value: "32"
+      }
+    ]
   },
   {
     id: "UNFEZANT",
@@ -65851,7 +68347,10 @@ export const fakemons: Fakemon[] =
     eggMoves: [
 
     ],
-    suffix: "normal"
+    suffix: "normal",
+    evolution: [
+
+    ]
   },
   {
     id: "BLITZLE",
@@ -65963,7 +68462,14 @@ export const fakemons: Fakemon[] =
       "SNATCH",
       "TAKEDOWN"
     ],
-    suffix: "normal"
+    suffix: "normal",
+    evolution: [
+      {
+        to: "ZEBSTRIKA",
+        method: "Level",
+        value: "27"
+      }
+    ]
   },
   {
     id: "ZEBSTRIKA",
@@ -66075,7 +68581,10 @@ export const fakemons: Fakemon[] =
     eggMoves: [
 
     ],
-    suffix: "normal"
+    suffix: "normal",
+    evolution: [
+
+    ]
   },
   {
     id: "ROGGENROLA",
@@ -66171,7 +68680,14 @@ export const fakemons: Fakemon[] =
       "TAKEDOWN",
       "WIDEGUARD"
     ],
-    suffix: "normal"
+    suffix: "normal",
+    evolution: [
+      {
+        to: "BOLDORE",
+        method: "Level",
+        value: "25"
+      }
+    ]
   },
   {
     id: "BOLDORE",
@@ -66266,7 +68782,10 @@ export const fakemons: Fakemon[] =
     eggMoves: [
 
     ],
-    suffix: "normal"
+    suffix: "normal",
+    evolution: [
+
+    ]
   },
   {
     id: "GIGALITH",
@@ -66370,7 +68889,10 @@ export const fakemons: Fakemon[] =
     eggMoves: [
 
     ],
-    suffix: "normal"
+    suffix: "normal",
+    evolution: [
+
+    ]
   },
   {
     id: "WOOBAT",
@@ -66505,7 +69027,10 @@ export const fakemons: Fakemon[] =
       "ROOST",
       "SUPERSONIC"
     ],
-    suffix: "normal"
+    suffix: "normal",
+    evolution: [
+
+    ]
   },
   {
     id: "SWOOBAT",
@@ -66641,7 +69166,10 @@ export const fakemons: Fakemon[] =
     eggMoves: [
 
     ],
-    suffix: "normal"
+    suffix: "normal",
+    evolution: [
+
+    ]
   },
   {
     id: "DRILBUR",
@@ -66747,7 +69275,14 @@ export const fakemons: Fakemon[] =
       "SLASH",
       "SUBMISSION"
     ],
-    suffix: "normal"
+    suffix: "normal",
+    evolution: [
+      {
+        to: "EXCADRILL",
+        method: "Level",
+        value: "31"
+      }
+    ]
   },
   {
     id: "EXCADRILL",
@@ -66865,7 +69400,10 @@ export const fakemons: Fakemon[] =
     eggMoves: [
 
     ],
-    suffix: "normal"
+    suffix: "normal",
+    evolution: [
+
+    ]
   },
   {
     id: "AUDINO",
@@ -67012,7 +69550,10 @@ export const fakemons: Fakemon[] =
       "WISH",
       "YAWN"
     ],
-    suffix: "normal"
+    suffix: "normal",
+    evolution: [
+
+    ]
   },
   {
     id: "TIMBURR",
@@ -67131,7 +69672,14 @@ export const fakemons: Fakemon[] =
       "POWERUPPUNCH",
       "WIDEGUARD"
     ],
-    suffix: "normal"
+    suffix: "normal",
+    evolution: [
+      {
+        to: "GURDURR",
+        method: "Level",
+        value: "25"
+      }
+    ]
   },
   {
     id: "GURDURR",
@@ -67246,7 +69794,10 @@ export const fakemons: Fakemon[] =
     eggMoves: [
 
     ],
-    suffix: "normal"
+    suffix: "normal",
+    evolution: [
+
+    ]
   },
   {
     id: "CONKELDURR",
@@ -67370,7 +69921,10 @@ export const fakemons: Fakemon[] =
     eggMoves: [
 
     ],
-    suffix: "normal"
+    suffix: "normal",
+    evolution: [
+
+    ]
   },
   {
     id: "TYMPOLE",
@@ -67465,7 +70019,14 @@ export const fakemons: Fakemon[] =
       "TOXIC",
       "WATERPULSE"
     ],
-    suffix: "normal"
+    suffix: "normal",
+    evolution: [
+      {
+        to: "PALPITOAD",
+        method: "Level",
+        value: "25"
+      }
+    ]
   },
   {
     id: "PALPITOAD",
@@ -67564,7 +70125,14 @@ export const fakemons: Fakemon[] =
     eggMoves: [
 
     ],
-    suffix: "normal"
+    suffix: "normal",
+    evolution: [
+      {
+        to: "SEISMITOAD",
+        method: "Level",
+        value: "36"
+      }
+    ]
   },
   {
     id: "SEISMITOAD",
@@ -67689,7 +70257,10 @@ export const fakemons: Fakemon[] =
     eggMoves: [
 
     ],
-    suffix: "normal"
+    suffix: "normal",
+    evolution: [
+
+    ]
   },
   {
     id: "THROH",
@@ -67803,7 +70374,10 @@ export const fakemons: Fakemon[] =
     eggMoves: [
 
     ],
-    suffix: "normal"
+    suffix: "normal",
+    evolution: [
+
+    ]
   },
   {
     id: "SAWK",
@@ -67917,7 +70491,10 @@ export const fakemons: Fakemon[] =
     eggMoves: [
 
     ],
-    suffix: "normal"
+    suffix: "normal",
+    evolution: [
+
+    ]
   },
   {
     id: "SEWADDLE",
@@ -68028,7 +70605,14 @@ export const fakemons: Fakemon[] =
       "SYNTHESIS",
       "WORRYSEED"
     ],
-    suffix: "normal"
+    suffix: "normal",
+    evolution: [
+      {
+        to: "SWADLOON",
+        method: "Level",
+        value: "20"
+      }
+    ]
   },
   {
     id: "SWADLOON",
@@ -68128,7 +70712,10 @@ export const fakemons: Fakemon[] =
     eggMoves: [
 
     ],
-    suffix: "normal"
+    suffix: "normal",
+    evolution: [
+
+    ]
   },
   {
     id: "LEAVANNY",
@@ -68256,7 +70843,10 @@ export const fakemons: Fakemon[] =
     eggMoves: [
 
     ],
-    suffix: "normal"
+    suffix: "normal",
+    evolution: [
+
+    ]
   },
   {
     id: "VENIPEDE",
@@ -68350,7 +70940,14 @@ export const fakemons: Fakemon[] =
       "BITE",
       "FURYCUTTER"
     ],
-    suffix: "normal"
+    suffix: "normal",
+    evolution: [
+      {
+        to: "WHIRLIPEDE",
+        method: "Level",
+        value: "22"
+      }
+    ]
   },
   {
     id: "WHIRLIPEDE",
@@ -68444,7 +71041,14 @@ export const fakemons: Fakemon[] =
     eggMoves: [
 
     ],
-    suffix: "normal"
+    suffix: "normal",
+    evolution: [
+      {
+        to: "SCOLIPEDE",
+        method: "Level",
+        value: "30"
+      }
+    ]
   },
   {
     id: "SCOLIPEDE",
@@ -68562,7 +71166,10 @@ export const fakemons: Fakemon[] =
     eggMoves: [
 
     ],
-    suffix: "normal"
+    suffix: "normal",
+    evolution: [
+
+    ]
   },
   {
     id: "COTTONEE",
@@ -68666,7 +71273,14 @@ export const fakemons: Fakemon[] =
       "TICKLE",
       "WORRYSEED"
     ],
-    suffix: "normal"
+    suffix: "normal",
+    evolution: [
+      {
+        to: "WHIMSICOTT",
+        method: "Item",
+        value: "SUNSTONE"
+      }
+    ]
   },
   {
     id: "WHIMSICOTT",
@@ -68782,7 +71396,10 @@ export const fakemons: Fakemon[] =
     eggMoves: [
 
     ],
-    suffix: "normal"
+    suffix: "normal",
+    evolution: [
+
+    ]
   },
   {
     id: "PETILIL",
@@ -68883,7 +71500,14 @@ export const fakemons: Fakemon[] =
       "SWEETSCENT",
       "WORRYSEED"
     ],
-    suffix: "normal"
+    suffix: "normal",
+    evolution: [
+      {
+        to: "LILLIGANT",
+        method: "Item",
+        value: "SUNSTONE"
+      }
+    ]
   },
   {
     id: "LILLIGANT",
@@ -68997,7 +71621,10 @@ export const fakemons: Fakemon[] =
     eggMoves: [
 
     ],
-    suffix: "normal"
+    suffix: "normal",
+    evolution: [
+
+    ]
   },
   {
     id: "BASCULIN",
@@ -69109,7 +71736,10 @@ export const fakemons: Fakemon[] =
       "BUBBLEBEAM",
       "ENDEAVOR"
     ],
-    suffix: "normal"
+    suffix: "normal",
+    evolution: [
+
+    ]
   },
   {
     id: "SANDILE",
@@ -69234,7 +71864,14 @@ export const fakemons: Fakemon[] =
       "DOUBLEEDGE",
       "SPITE"
     ],
-    suffix: "normal"
+    suffix: "normal",
+    evolution: [
+      {
+        to: "KROKOROK",
+        method: "Level",
+        value: "29"
+      }
+    ]
   },
   {
     id: "KROKOROK",
@@ -69373,7 +72010,14 @@ export const fakemons: Fakemon[] =
     eggMoves: [
 
     ],
-    suffix: "normal"
+    suffix: "normal",
+    evolution: [
+      {
+        to: "KROOKODILE",
+        method: "Level",
+        value: "40"
+      }
+    ]
   },
   {
     id: "KROOKODILE",
@@ -69527,7 +72171,10 @@ export const fakemons: Fakemon[] =
     eggMoves: [
 
     ],
-    suffix: "normal"
+    suffix: "normal",
+    evolution: [
+
+    ]
   },
   {
     id: "DARUMAKA",
@@ -69639,7 +72286,14 @@ export const fakemons: Fakemon[] =
       "TAKEDOWN",
       "YAWN"
     ],
-    suffix: "normal"
+    suffix: "normal",
+    evolution: [
+      {
+        to: "DARMANITAN",
+        method: "Level",
+        value: "35"
+      }
+    ]
   },
   {
     id: "DARMANITAN",
@@ -69772,7 +72426,10 @@ export const fakemons: Fakemon[] =
     eggMoves: [
 
     ],
-    suffix: "normal"
+    suffix: "normal",
+    evolution: [
+
+    ]
   },
   {
     id: "MARACTUS",
@@ -69880,7 +72537,10 @@ export const fakemons: Fakemon[] =
       "WOODHAMMER",
       "WORRYSEED"
     ],
-    suffix: "normal"
+    suffix: "normal",
+    evolution: [
+
+    ]
   },
   {
     id: "DWEBBLE",
@@ -69986,7 +72646,14 @@ export const fakemons: Fakemon[] =
       "NIGHTSLASH",
       "WIDEGUARD"
     ],
-    suffix: "normal"
+    suffix: "normal",
+    evolution: [
+      {
+        to: "CRUSTLE",
+        method: "Level",
+        value: "34"
+      }
+    ]
   },
   {
     id: "CRUSTLE",
@@ -70094,7 +72761,10 @@ export const fakemons: Fakemon[] =
     eggMoves: [
 
     ],
-    suffix: "normal"
+    suffix: "normal",
+    evolution: [
+
+    ]
   },
   {
     id: "SCRAGGY",
@@ -70241,7 +72911,14 @@ export const fakemons: Fakemon[] =
       "POWERUPPUNCH",
       "QUICKGUARD"
     ],
-    suffix: "normal"
+    suffix: "normal",
+    evolution: [
+      {
+        to: "SCRAFTY",
+        method: "Level",
+        value: "39"
+      }
+    ]
   },
   {
     id: "SCRAFTY",
@@ -70391,7 +73068,10 @@ export const fakemons: Fakemon[] =
     eggMoves: [
 
     ],
-    suffix: "normal"
+    suffix: "normal",
+    evolution: [
+
+    ]
   },
   {
     id: "SIGILYPH",
@@ -70519,7 +73199,10 @@ export const fakemons: Fakemon[] =
       "PSYCHOSHIFT",
       "ROOST"
     ],
-    suffix: "normal"
+    suffix: "normal",
+    evolution: [
+
+    ]
   },
   {
     id: "YAMASK",
@@ -70628,7 +73311,14 @@ export const fakemons: Fakemon[] =
     eggMoves: [
       "MEMENTO"
     ],
-    suffix: "normal"
+    suffix: "normal",
+    evolution: [
+      {
+        to: "COFAGRIGUS",
+        method: "Level",
+        value: "34"
+      }
+    ]
   },
   {
     id: "COFAGRIGUS",
@@ -70749,7 +73439,10 @@ export const fakemons: Fakemon[] =
     eggMoves: [
 
     ],
-    suffix: "normal"
+    suffix: "normal",
+    evolution: [
+
+    ]
   },
   {
     id: "TIRTOUGA",
@@ -70867,7 +73560,14 @@ export const fakemons: Fakemon[] =
       "SLAM",
       "WATERPULSE"
     ],
-    suffix: "normal"
+    suffix: "normal",
+    evolution: [
+      {
+        to: "CARRACOSTA",
+        method: "Level",
+        value: "37"
+      }
+    ]
   },
   {
     id: "CARRACOSTA",
@@ -70987,7 +73687,10 @@ export const fakemons: Fakemon[] =
     eggMoves: [
 
     ],
-    suffix: "normal"
+    suffix: "normal",
+    evolution: [
+
+    ]
   },
   {
     id: "ARCHEN",
@@ -71112,7 +73815,14 @@ export const fakemons: Fakemon[] =
       "KNOCKOFF",
       "SWITCHEROO"
     ],
-    suffix: "normal"
+    suffix: "normal",
+    evolution: [
+      {
+        to: "ARCHEOPS",
+        method: "Level",
+        value: "37"
+      }
+    ]
   },
   {
     id: "ARCHEOPS",
@@ -71240,7 +73950,10 @@ export const fakemons: Fakemon[] =
     eggMoves: [
 
     ],
-    suffix: "normal"
+    suffix: "normal",
+    evolution: [
+
+    ]
   },
   {
     id: "TRUBBISH",
@@ -71341,7 +74054,14 @@ export const fakemons: Fakemon[] =
       "ROLLOUT",
       "SANDATTACK"
     ],
-    suffix: "normal"
+    suffix: "normal",
+    evolution: [
+      {
+        to: "GARBODOR",
+        method: "Level",
+        value: "36"
+      }
+    ]
   },
   {
     id: "GARBODOR",
@@ -71454,7 +74174,10 @@ export const fakemons: Fakemon[] =
     eggMoves: [
 
     ],
-    suffix: "normal"
+    suffix: "normal",
+    evolution: [
+
+    ]
   },
   {
     id: "ZORUA",
@@ -71578,7 +74301,14 @@ export const fakemons: Fakemon[] =
       "MEMENTO",
       "SUCKERPUNCH"
     ],
-    suffix: "normal"
+    suffix: "normal",
+    evolution: [
+      {
+        to: "ZOROARK",
+        method: "Level",
+        value: "30"
+      }
+    ]
   },
   {
     id: "ZOROARK",
@@ -71715,7 +74445,10 @@ export const fakemons: Fakemon[] =
     eggMoves: [
 
     ],
-    suffix: "normal"
+    suffix: "normal",
+    evolution: [
+
+    ]
   },
   {
     id: "MINCCINO",
@@ -71832,7 +74565,14 @@ export const fakemons: Fakemon[] =
       "TAILWHIP",
       "TIDYUP"
     ],
-    suffix: "normal"
+    suffix: "normal",
+    evolution: [
+      {
+        to: "CINCCINO",
+        method: "Item",
+        value: "SHINYSTONE"
+      }
+    ]
   },
   {
     id: "CINCCINO",
@@ -71956,7 +74696,10 @@ export const fakemons: Fakemon[] =
     eggMoves: [
 
     ],
-    suffix: "normal"
+    suffix: "normal",
+    evolution: [
+
+    ]
   },
   {
     id: "GOTHITA",
@@ -72084,7 +74827,14 @@ export const fakemons: Fakemon[] =
       "MIRRORCOAT",
       "TORMENT"
     ],
-    suffix: "normal"
+    suffix: "normal",
+    evolution: [
+      {
+        to: "GOTHORITA",
+        method: "Level",
+        value: "32"
+      }
+    ]
   },
   {
     id: "GOTHORITA",
@@ -72208,7 +74958,14 @@ export const fakemons: Fakemon[] =
     eggMoves: [
 
     ],
-    suffix: "normal"
+    suffix: "normal",
+    evolution: [
+      {
+        to: "GOTHITELLE",
+        method: "Level",
+        value: "41"
+      }
+    ]
   },
   {
     id: "GOTHITELLE",
@@ -72342,7 +75099,10 @@ export const fakemons: Fakemon[] =
     eggMoves: [
 
     ],
-    suffix: "normal"
+    suffix: "normal",
+    evolution: [
+
+    ]
   },
   {
     id: "SOLOSIS",
@@ -72469,7 +75229,14 @@ export const fakemons: Fakemon[] =
       "ASTONISH",
       "CONFUSERAY"
     ],
-    suffix: "normal"
+    suffix: "normal",
+    evolution: [
+      {
+        to: "DUOSION",
+        method: "Level",
+        value: "32"
+      }
+    ]
   },
   {
     id: "DUOSION",
@@ -72594,7 +75361,14 @@ export const fakemons: Fakemon[] =
     eggMoves: [
 
     ],
-    suffix: "normal"
+    suffix: "normal",
+    evolution: [
+      {
+        to: "REUNICLUS",
+        method: "Level",
+        value: "41"
+      }
+    ]
   },
   {
     id: "REUNICLUS",
@@ -72739,7 +75513,10 @@ export const fakemons: Fakemon[] =
     eggMoves: [
 
     ],
-    suffix: "normal"
+    suffix: "normal",
+    evolution: [
+
+    ]
   },
   {
     id: "DUCKLETT",
@@ -72847,7 +75624,14 @@ export const fakemons: Fakemon[] =
       "MUDSPORT",
       "STEELWING"
     ],
-    suffix: "normal"
+    suffix: "normal",
+    evolution: [
+      {
+        to: "SWANNA",
+        method: "Level",
+        value: "35"
+      }
+    ]
   },
   {
     id: "SWANNA",
@@ -72954,7 +75738,10 @@ export const fakemons: Fakemon[] =
     eggMoves: [
 
     ],
-    suffix: "normal"
+    suffix: "normal",
+    evolution: [
+
+    ]
   },
   {
     id: "VANILLITE",
@@ -73052,7 +75839,14 @@ export const fakemons: Fakemon[] =
       "ICICLECRASH",
       "MAGNETRISE"
     ],
-    suffix: "normal"
+    suffix: "normal",
+    evolution: [
+      {
+        to: "VANILLISH",
+        method: "Level",
+        value: "35"
+      }
+    ]
   },
   {
     id: "VANILLISH",
@@ -73145,7 +75939,14 @@ export const fakemons: Fakemon[] =
     eggMoves: [
 
     ],
-    suffix: "normal"
+    suffix: "normal",
+    evolution: [
+      {
+        to: "VANILLUXE",
+        method: "Level",
+        value: "47"
+      }
+    ]
   },
   {
     id: "VANILLUXE",
@@ -73245,7 +76046,10 @@ export const fakemons: Fakemon[] =
     eggMoves: [
 
     ],
-    suffix: "normal"
+    suffix: "normal",
+    evolution: [
+
+    ]
   },
   {
     id: "DEERLING",
@@ -73363,7 +76167,14 @@ export const fakemons: Fakemon[] =
       "SYNTHESIS",
       "WORRYSEED"
     ],
-    suffix: "normal"
+    suffix: "normal",
+    evolution: [
+      {
+        to: "SAWSBUCK",
+        method: "Level",
+        value: "34"
+      }
+    ]
   },
   {
     id: "SAWSBUCK",
@@ -73485,7 +76296,10 @@ export const fakemons: Fakemon[] =
     eggMoves: [
 
     ],
-    suffix: "normal"
+    suffix: "normal",
+    evolution: [
+
+    ]
   },
   {
     id: "EMOLGA",
@@ -73598,7 +76412,10 @@ export const fakemons: Fakemon[] =
       "SHOCKWAVE",
       "TICKLE"
     ],
-    suffix: "normal"
+    suffix: "normal",
+    evolution: [
+
+    ]
   },
   {
     id: "KARRABLAST",
@@ -73693,7 +76510,14 @@ export const fakemons: Fakemon[] =
       "NIGHTSLASH",
       "SLASH"
     ],
-    suffix: "normal"
+    suffix: "normal",
+    evolution: [
+      {
+        to: "ESCAVALIER",
+        method: "TradeSpecies",
+        value: "SHELMET"
+      }
+    ]
   },
   {
     id: "ESCAVALIER",
@@ -73807,7 +76631,10 @@ export const fakemons: Fakemon[] =
     eggMoves: [
 
     ],
-    suffix: "normal"
+    suffix: "normal",
+    evolution: [
+
+    ]
   },
   {
     id: "FOONGUS",
@@ -73904,7 +76731,14 @@ export const fakemons: Fakemon[] =
       "ROLLOUT",
       "WORRYSEED"
     ],
-    suffix: "normal"
+    suffix: "normal",
+    evolution: [
+      {
+        to: "AMOONGUSS",
+        method: "Level",
+        value: "39"
+      }
+    ]
   },
   {
     id: "AMOONGUSS",
@@ -74003,7 +76837,10 @@ export const fakemons: Fakemon[] =
     eggMoves: [
 
     ],
-    suffix: "normal"
+    suffix: "normal",
+    evolution: [
+
+    ]
   },
   {
     id: "FRILLISH",
@@ -74116,7 +76953,14 @@ export const fakemons: Fakemon[] =
       "PAINSPLIT",
       "STRENGTHSAP"
     ],
-    suffix: "normal"
+    suffix: "normal",
+    evolution: [
+      {
+        to: "JELLICENT",
+        method: "Level",
+        value: "40"
+      }
+    ]
   },
   {
     id: "JELLICENT",
@@ -74228,7 +77072,10 @@ export const fakemons: Fakemon[] =
     eggMoves: [
 
     ],
-    suffix: "normal"
+    suffix: "normal",
+    evolution: [
+
+    ]
   },
   {
     id: "ALOMOMOLA",
@@ -74342,7 +77189,10 @@ export const fakemons: Fakemon[] =
       "REFRESH",
       "TICKLE"
     ],
-    suffix: "normal"
+    suffix: "normal",
+    evolution: [
+
+    ]
   },
   {
     id: "JOLTIK",
@@ -74455,7 +77305,14 @@ export const fakemons: Fakemon[] =
       "POISONSTING",
       "STRUGGLEBUG"
     ],
-    suffix: "normal"
+    suffix: "normal",
+    evolution: [
+      {
+        to: "GALVANTULA",
+        method: "Level",
+        value: "36"
+      }
+    ]
   },
   {
     id: "GALVANTULA",
@@ -74569,7 +77426,10 @@ export const fakemons: Fakemon[] =
     eggMoves: [
 
     ],
-    suffix: "normal"
+    suffix: "normal",
+    evolution: [
+
+    ]
   },
   {
     id: "FERROSEED",
@@ -74674,7 +77534,14 @@ export const fakemons: Fakemon[] =
       "LEECHSEED",
       "TOXIC"
     ],
-    suffix: "normal"
+    suffix: "normal",
+    evolution: [
+      {
+        to: "FERROTHORN",
+        method: "Level",
+        value: "40"
+      }
+    ]
   },
   {
     id: "FERROTHORN",
@@ -74792,7 +77659,10 @@ export const fakemons: Fakemon[] =
     eggMoves: [
 
     ],
-    suffix: "normal"
+    suffix: "normal",
+    evolution: [
+
+    ]
   },
   {
     id: "KLINK",
@@ -74886,7 +77756,14 @@ export const fakemons: Fakemon[] =
     eggMoves: [
 
     ],
-    suffix: "normal"
+    suffix: "normal",
+    evolution: [
+      {
+        to: "KLANG",
+        method: "Level",
+        value: "38"
+      }
+    ]
   },
   {
     id: "KLANG",
@@ -74981,7 +77858,14 @@ export const fakemons: Fakemon[] =
     eggMoves: [
 
     ],
-    suffix: "normal"
+    suffix: "normal",
+    evolution: [
+      {
+        to: "KLINKLANG",
+        method: "Level",
+        value: "49"
+      }
+    ]
   },
   {
     id: "KLINKLANG",
@@ -75083,7 +77967,10 @@ export const fakemons: Fakemon[] =
     eggMoves: [
 
     ],
-    suffix: "normal"
+    suffix: "normal",
+    evolution: [
+
+    ]
   },
   {
     id: "TYNAMO",
@@ -75128,7 +78015,14 @@ export const fakemons: Fakemon[] =
     eggMoves: [
 
     ],
-    suffix: "normal"
+    suffix: "normal",
+    evolution: [
+      {
+        to: "EELEKTRIK",
+        method: "Level",
+        value: "39"
+      }
+    ]
   },
   {
     id: "EELEKTRIK",
@@ -75234,7 +78128,14 @@ export const fakemons: Fakemon[] =
     eggMoves: [
 
     ],
-    suffix: "normal"
+    suffix: "normal",
+    evolution: [
+      {
+        to: "EELEKTROSS",
+        method: "Item",
+        value: "THUNDERSTONE"
+      }
+    ]
   },
   {
     id: "EELEKTROSS",
@@ -75369,7 +78270,10 @@ export const fakemons: Fakemon[] =
     eggMoves: [
 
     ],
-    suffix: "normal"
+    suffix: "normal",
+    evolution: [
+
+    ]
   },
   {
     id: "ELGYEM",
@@ -75490,7 +78394,14 @@ export const fakemons: Fakemon[] =
       "DISABLE",
       "PSYCHUP"
     ],
-    suffix: "normal"
+    suffix: "normal",
+    evolution: [
+      {
+        to: "BEHEEYEM",
+        method: "Level",
+        value: "42"
+      }
+    ]
   },
   {
     id: "BEHEEYEM",
@@ -75615,7 +78526,10 @@ export const fakemons: Fakemon[] =
     eggMoves: [
 
     ],
-    suffix: "normal"
+    suffix: "normal",
+    evolution: [
+
+    ]
   },
   {
     id: "LITWICK",
@@ -75733,7 +78647,14 @@ export const fakemons: Fakemon[] =
       "HAZE",
       "POWERSPLIT"
     ],
-    suffix: "normal"
+    suffix: "normal",
+    evolution: [
+      {
+        to: "LAMPENT",
+        method: "Level",
+        value: "41"
+      }
+    ]
   },
   {
     id: "LAMPENT",
@@ -75849,7 +78770,14 @@ export const fakemons: Fakemon[] =
     eggMoves: [
 
     ],
-    suffix: "normal"
+    suffix: "normal",
+    evolution: [
+      {
+        to: "CHANDELURE",
+        method: "Item",
+        value: "DUSKSTONE"
+      }
+    ]
   },
   {
     id: "CHANDELURE",
@@ -75969,7 +78897,10 @@ export const fakemons: Fakemon[] =
     eggMoves: [
 
     ],
-    suffix: "normal"
+    suffix: "normal",
+    evolution: [
+
+    ]
   },
   {
     id: "AXEW",
@@ -76099,7 +79030,14 @@ export const fakemons: Fakemon[] =
       "IRONTAIL",
       "NIGHTSLASH"
     ],
-    suffix: "normal"
+    suffix: "normal",
+    evolution: [
+      {
+        to: "FRAXURE",
+        method: "Level",
+        value: "38"
+      }
+    ]
   },
   {
     id: "FRAXURE",
@@ -76224,7 +79162,14 @@ export const fakemons: Fakemon[] =
     eggMoves: [
 
     ],
-    suffix: "normal"
+    suffix: "normal",
+    evolution: [
+      {
+        to: "HAXORUS",
+        method: "Level",
+        value: "48"
+      }
+    ]
   },
   {
     id: "HAXORUS",
@@ -76360,7 +79305,10 @@ export const fakemons: Fakemon[] =
     eggMoves: [
 
     ],
-    suffix: "normal"
+    suffix: "normal",
+    evolution: [
+
+    ]
   },
   {
     id: "CUBCHOO",
@@ -76488,7 +79436,14 @@ export const fakemons: Fakemon[] =
       "NIGHTSLASH",
       "YAWN"
     ],
-    suffix: "normal"
+    suffix: "normal",
+    evolution: [
+      {
+        to: "BEARTIC",
+        method: "Level",
+        value: "37"
+      }
+    ]
   },
   {
     id: "BEARTIC",
@@ -76635,7 +79590,10 @@ export const fakemons: Fakemon[] =
     eggMoves: [
 
     ],
-    suffix: "normal"
+    suffix: "normal",
+    evolution: [
+
+    ]
   },
   {
     id: "CRYOGONAL",
@@ -76744,7 +79702,10 @@ export const fakemons: Fakemon[] =
       "EXPLOSION",
       "FROSTBREATH"
     ],
-    suffix: "normal"
+    suffix: "normal",
+    evolution: [
+
+    ]
   },
   {
     id: "SHELMET",
@@ -76837,7 +79798,14 @@ export const fakemons: Fakemon[] =
       "GUARDSPLIT",
       "MINDREADER"
     ],
-    suffix: "normal"
+    suffix: "normal",
+    evolution: [
+      {
+        to: "ACCELGOR",
+        method: "TradeSpecies",
+        value: "KARRABLAST"
+      }
+    ]
   },
   {
     id: "ACCELGOR",
@@ -76948,7 +79916,10 @@ export const fakemons: Fakemon[] =
     eggMoves: [
 
     ],
-    suffix: "normal"
+    suffix: "normal",
+    evolution: [
+
+    ]
   },
   {
     id: "STUNFISK",
@@ -77064,7 +80035,10 @@ export const fakemons: Fakemon[] =
       "SPITE",
       "YAWN"
     ],
-    suffix: "normal"
+    suffix: "normal",
+    evolution: [
+
+    ]
   },
   {
     id: "MIENFOO",
@@ -77185,7 +80159,14 @@ export const fakemons: Fakemon[] =
       "KNOCKOFF",
       "VITALTHROW"
     ],
-    suffix: "normal"
+    suffix: "normal",
+    evolution: [
+      {
+        to: "MIENSHAO",
+        method: "Level",
+        value: "50"
+      }
+    ]
   },
   {
     id: "MIENSHAO",
@@ -77314,7 +80295,10 @@ export const fakemons: Fakemon[] =
     eggMoves: [
 
     ],
-    suffix: "normal"
+    suffix: "normal",
+    evolution: [
+
+    ]
   },
   {
     id: "DRUDDIGON",
@@ -77445,7 +80429,10 @@ export const fakemons: Fakemon[] =
       "POISONTAIL",
       "SUCKERPUNCH"
     ],
-    suffix: "normal"
+    suffix: "normal",
+    evolution: [
+
+    ]
   },
   {
     id: "GOLETT",
@@ -77580,7 +80567,14 @@ export const fakemons: Fakemon[] =
     eggMoves: [
 
     ],
-    suffix: "normal"
+    suffix: "normal",
+    evolution: [
+      {
+        to: "GOLURK",
+        method: "Level",
+        value: "43"
+      }
+    ]
   },
   {
     id: "GOLURK",
@@ -77733,7 +80727,10 @@ export const fakemons: Fakemon[] =
     eggMoves: [
 
     ],
-    suffix: "normal"
+    suffix: "normal",
+    evolution: [
+
+    ]
   },
   {
     id: "PAWNIARD",
@@ -77860,7 +80857,14 @@ export const fakemons: Fakemon[] =
       "QUICKGUARD",
       "SUCKERPUNCH"
     ],
-    suffix: "normal"
+    suffix: "normal",
+    evolution: [
+      {
+        to: "BISHARP",
+        method: "Level",
+        value: "52"
+      }
+    ]
   },
   {
     id: "BISHARP",
@@ -77991,7 +80995,14 @@ export const fakemons: Fakemon[] =
     eggMoves: [
 
     ],
-    suffix: "normal"
+    suffix: "normal",
+    evolution: [
+      {
+        to: "KINGAMBIT",
+        method: "Counter",
+        value: "3"
+      }
+    ]
   },
   {
     id: "BOUFFALANT",
@@ -78107,7 +81118,10 @@ export const fakemons: Fakemon[] =
       "SKULLBASH",
       "STOMP"
     ],
-    suffix: "normal"
+    suffix: "normal",
+    evolution: [
+
+    ]
   },
   {
     id: "RUFFLET",
@@ -78219,7 +81233,14 @@ export const fakemons: Fakemon[] =
       "ROCKSMASH",
       "ROOST"
     ],
-    suffix: "normal"
+    suffix: "normal",
+    evolution: [
+      {
+        to: "BRAVIARY",
+        method: "Level",
+        value: "54"
+      }
+    ]
   },
   {
     id: "BRAVIARY",
@@ -78338,7 +81359,10 @@ export const fakemons: Fakemon[] =
     eggMoves: [
 
     ],
-    suffix: "normal"
+    suffix: "normal",
+    evolution: [
+
+    ]
   },
   {
     id: "VULLABY",
@@ -78457,7 +81481,14 @@ export const fakemons: Fakemon[] =
       "ROOST",
       "TOXIC"
     ],
-    suffix: "normal"
+    suffix: "normal",
+    evolution: [
+      {
+        to: "MANDIBUZZ",
+        method: "Level",
+        value: "54"
+      }
+    ]
   },
   {
     id: "MANDIBUZZ",
@@ -78584,7 +81615,10 @@ export const fakemons: Fakemon[] =
     eggMoves: [
 
     ],
-    suffix: "normal"
+    suffix: "normal",
+    evolution: [
+
+    ]
   },
   {
     id: "HEATMOR",
@@ -78704,7 +81738,10 @@ export const fakemons: Fakemon[] =
       "SUCKERPUNCH",
       "TICKLE"
     ],
-    suffix: "normal"
+    suffix: "normal",
+    evolution: [
+
+    ]
   },
   {
     id: "DURANT",
@@ -78815,7 +81852,10 @@ export const fakemons: Fakemon[] =
       "METALBURST",
       "STRUGGLEBUG"
     ],
-    suffix: "normal"
+    suffix: "normal",
+    evolution: [
+
+    ]
   },
   {
     id: "DEINO",
@@ -78928,7 +81968,14 @@ export const fakemons: Fakemon[] =
       "DOUBLEHIT",
       "HEADSMASH"
     ],
-    suffix: "normal"
+    suffix: "normal",
+    evolution: [
+      {
+        to: "ZWEILOUS",
+        method: "Level",
+        value: "50"
+      }
+    ]
   },
   {
     id: "ZWEILOUS",
@@ -79043,7 +82090,14 @@ export const fakemons: Fakemon[] =
     eggMoves: [
 
     ],
-    suffix: "normal"
+    suffix: "normal",
+    evolution: [
+      {
+        to: "HYDREIGON",
+        method: "Level",
+        value: "64"
+      }
+    ]
   },
   {
     id: "HYDREIGON",
@@ -79195,7 +82249,10 @@ export const fakemons: Fakemon[] =
     eggMoves: [
 
     ],
-    suffix: "normal"
+    suffix: "normal",
+    evolution: [
+
+    ]
   },
   {
     id: "LARVESTA",
@@ -79302,7 +82359,14 @@ export const fakemons: Fakemon[] =
       "MORNINGSUN",
       "THRASH"
     ],
-    suffix: "normal"
+    suffix: "normal",
+    evolution: [
+      {
+        to: "VOLCARONA",
+        method: "Level",
+        value: "59"
+      }
+    ]
   },
   {
     id: "VOLCARONA",
@@ -79428,7 +82492,10 @@ export const fakemons: Fakemon[] =
     eggMoves: [
 
     ],
-    suffix: "normal"
+    suffix: "normal",
+    evolution: [
+
+    ]
   },
   {
     id: "COBALION",
@@ -79555,7 +82622,10 @@ export const fakemons: Fakemon[] =
     eggMoves: [
 
     ],
-    suffix: "normal"
+    suffix: "normal",
+    evolution: [
+
+    ]
   },
   {
     id: "TERRAKION",
@@ -79676,7 +82746,10 @@ export const fakemons: Fakemon[] =
     eggMoves: [
 
     ],
-    suffix: "normal"
+    suffix: "normal",
+    evolution: [
+
+    ]
   },
   {
     id: "VIRIZION",
@@ -79804,7 +82877,10 @@ export const fakemons: Fakemon[] =
     eggMoves: [
 
     ],
-    suffix: "normal"
+    suffix: "normal",
+    evolution: [
+
+    ]
   },
   {
     id: "TORNADUS",
@@ -79932,7 +83008,10 @@ export const fakemons: Fakemon[] =
     eggMoves: [
 
     ],
-    suffix: "normal"
+    suffix: "normal",
+    evolution: [
+
+    ]
   },
   {
     id: "THUNDURUS",
@@ -80068,7 +83147,10 @@ export const fakemons: Fakemon[] =
     eggMoves: [
 
     ],
-    suffix: "normal"
+    suffix: "normal",
+    evolution: [
+
+    ]
   },
   {
     id: "RESHIRAM",
@@ -80203,7 +83285,10 @@ export const fakemons: Fakemon[] =
     eggMoves: [
 
     ],
-    suffix: "normal"
+    suffix: "normal",
+    evolution: [
+
+    ]
   },
   {
     id: "ZEKROM",
@@ -80346,7 +83431,10 @@ export const fakemons: Fakemon[] =
     eggMoves: [
 
     ],
-    suffix: "normal"
+    suffix: "normal",
+    evolution: [
+
+    ]
   },
   {
     id: "LANDORUS",
@@ -80472,7 +83560,10 @@ export const fakemons: Fakemon[] =
     eggMoves: [
 
     ],
-    suffix: "normal"
+    suffix: "normal",
+    evolution: [
+
+    ]
   },
   {
     id: "KYUREM",
@@ -80602,7 +83693,10 @@ export const fakemons: Fakemon[] =
     eggMoves: [
 
     ],
-    suffix: "normal"
+    suffix: "normal",
+    evolution: [
+
+    ]
   },
   {
     id: "KELDEO",
@@ -80726,7 +83820,10 @@ export const fakemons: Fakemon[] =
     eggMoves: [
 
     ],
-    suffix: "normal"
+    suffix: "normal",
+    evolution: [
+
+    ]
   },
   {
     id: "MELOETTA",
@@ -80875,7 +83972,10 @@ export const fakemons: Fakemon[] =
     eggMoves: [
 
     ],
-    suffix: "normal"
+    suffix: "normal",
+    evolution: [
+
+    ]
   },
   {
     id: "GENESECT",
@@ -80997,7 +84097,10 @@ export const fakemons: Fakemon[] =
     eggMoves: [
 
     ],
-    suffix: "normal"
+    suffix: "normal",
+    evolution: [
+
+    ]
   },
   {
     id: "CHESPIN",
@@ -81130,7 +84233,14 @@ export const fakemons: Fakemon[] =
       "SYNTHESIS",
       "WIDEGUARD"
     ],
-    suffix: "normal"
+    suffix: "normal",
+    evolution: [
+      {
+        to: "QUILLADIN",
+        method: "Level",
+        value: "16"
+      }
+    ]
   },
   {
     id: "QUILLADIN",
@@ -81262,7 +84372,14 @@ export const fakemons: Fakemon[] =
     eggMoves: [
 
     ],
-    suffix: "normal"
+    suffix: "normal",
+    evolution: [
+      {
+        to: "CHESNAUGHT",
+        method: "Level",
+        value: "36"
+      }
+    ]
   },
   {
     id: "CHESNAUGHT",
@@ -81419,7 +84536,10 @@ export const fakemons: Fakemon[] =
     eggMoves: [
 
     ],
-    suffix: "normal"
+    suffix: "normal",
+    evolution: [
+
+    ]
   },
   {
     id: "FENNEKIN",
@@ -81541,7 +84661,14 @@ export const fakemons: Fakemon[] =
       "PSYCHICTERRAIN",
       "WISH"
     ],
-    suffix: "normal"
+    suffix: "normal",
+    evolution: [
+      {
+        to: "BRAIXEN",
+        method: "Level",
+        value: "16"
+      }
+    ]
   },
   {
     id: "BRAIXEN",
@@ -81669,7 +84796,14 @@ export const fakemons: Fakemon[] =
     eggMoves: [
 
     ],
-    suffix: "normal"
+    suffix: "normal",
+    evolution: [
+      {
+        to: "DELPHOX",
+        method: "Level",
+        value: "36"
+      }
+    ]
   },
   {
     id: "DELPHOX",
@@ -81823,7 +84957,10 @@ export const fakemons: Fakemon[] =
     eggMoves: [
 
     ],
-    suffix: "normal"
+    suffix: "normal",
+    evolution: [
+
+    ]
   },
   {
     id: "FROAKIE",
@@ -81945,7 +85082,14 @@ export const fakemons: Fakemon[] =
       "TOXICSPIKES",
       "WATERSPORT"
     ],
-    suffix: "normal"
+    suffix: "normal",
+    evolution: [
+      {
+        to: "FROGADIER",
+        method: "Level",
+        value: "16"
+      }
+    ]
   },
   {
     id: "FROGADIER",
@@ -82061,7 +85205,14 @@ export const fakemons: Fakemon[] =
     eggMoves: [
 
     ],
-    suffix: "normal"
+    suffix: "normal",
+    evolution: [
+      {
+        to: "GRENINJA",
+        method: "Level",
+        value: "36"
+      }
+    ]
   },
   {
     id: "GRENINJA",
@@ -82193,7 +85344,10 @@ export const fakemons: Fakemon[] =
     eggMoves: [
 
     ],
-    suffix: "normal"
+    suffix: "normal",
+    evolution: [
+
+    ]
   },
   {
     id: "BUNNELBY",
@@ -82301,7 +85455,14 @@ export const fakemons: Fakemon[] =
       "DEFENSECURL",
       "ROLLOUT"
     ],
-    suffix: "normal"
+    suffix: "normal",
+    evolution: [
+      {
+        to: "DIGGERSBY",
+        method: "Level",
+        value: "20"
+      }
+    ]
   },
   {
     id: "DIGGERSBY",
@@ -82433,7 +85594,10 @@ export const fakemons: Fakemon[] =
     eggMoves: [
 
     ],
-    suffix: "normal"
+    suffix: "normal",
+    evolution: [
+
+    ]
   },
   {
     id: "FLETCHLING",
@@ -82532,7 +85696,14 @@ export const fakemons: Fakemon[] =
       "FLAMECHARGE",
       "QUICKGUARD"
     ],
-    suffix: "normal"
+    suffix: "normal",
+    evolution: [
+      {
+        to: "FLETCHINDER",
+        method: "Level",
+        value: "17"
+      }
+    ]
   },
   {
     id: "FLETCHINDER",
@@ -82637,7 +85808,14 @@ export const fakemons: Fakemon[] =
     eggMoves: [
 
     ],
-    suffix: "normal"
+    suffix: "normal",
+    evolution: [
+      {
+        to: "TALONFLAME",
+        method: "Level",
+        value: "35"
+      }
+    ]
   },
   {
     id: "TALONFLAME",
@@ -82750,7 +85928,10 @@ export const fakemons: Fakemon[] =
     eggMoves: [
 
     ],
-    suffix: "normal"
+    suffix: "normal",
+    evolution: [
+
+    ]
   },
   {
     id: "SCATTERBUG",
@@ -82796,7 +85977,14 @@ export const fakemons: Fakemon[] =
       "RAGEPOWDER",
       "STUNSPORE"
     ],
-    suffix: "normal"
+    suffix: "normal",
+    evolution: [
+      {
+        to: "SPEWPA",
+        method: "Level",
+        value: "9"
+      }
+    ]
   },
   {
     id: "SPEWPA",
@@ -82839,7 +86027,14 @@ export const fakemons: Fakemon[] =
     eggMoves: [
 
     ],
-    suffix: "normal"
+    suffix: "normal",
+    evolution: [
+      {
+        to: "VIVILLON",
+        method: "Level",
+        value: "12"
+      }
+    ]
   },
   {
     id: "VIVILLON",
@@ -82945,7 +86140,10 @@ export const fakemons: Fakemon[] =
     eggMoves: [
 
     ],
-    suffix: "normal"
+    suffix: "normal",
+    evolution: [
+
+    ]
   },
   {
     id: "LITLEO",
@@ -83062,7 +86260,14 @@ export const fakemons: Fakemon[] =
       "SNATCH",
       "YAWN"
     ],
-    suffix: "normal"
+    suffix: "normal",
+    evolution: [
+      {
+        to: "PYROAR",
+        method: "Level",
+        value: "35"
+      }
+    ]
   },
   {
     id: "PYROAR",
@@ -83182,7 +86387,10 @@ export const fakemons: Fakemon[] =
     eggMoves: [
 
     ],
-    suffix: "normal"
+    suffix: "normal",
+    evolution: [
+
+    ]
   },
   {
     id: "FLABEBE",
@@ -83293,7 +86501,14 @@ export const fakemons: Fakemon[] =
       "ENDEAVOR",
       "TEARFULLOOK"
     ],
-    suffix: "normal"
+    suffix: "normal",
+    evolution: [
+      {
+        to: "FLOETTE",
+        method: "Level",
+        value: "19"
+      }
+    ]
   },
   {
     id: "FLOETTE",
@@ -83403,7 +86618,14 @@ export const fakemons: Fakemon[] =
     eggMoves: [
 
     ],
-    suffix: "normal"
+    suffix: "normal",
+    evolution: [
+      {
+        to: "FLORGES",
+        method: "Item",
+        value: "SHINYSTONE"
+      }
+    ]
   },
   {
     id: "FLORGES",
@@ -83516,7 +86738,10 @@ export const fakemons: Fakemon[] =
     eggMoves: [
 
     ],
-    suffix: "normal"
+    suffix: "normal",
+    evolution: [
+
+    ]
   },
   {
     id: "SKIDDO",
@@ -83629,7 +86854,14 @@ export const fakemons: Fakemon[] =
       "MILKDRINK",
       "ROLLOUT"
     ],
-    suffix: "normal"
+    suffix: "normal",
+    evolution: [
+      {
+        to: "GOGOAT",
+        method: "Level",
+        value: "32"
+      }
+    ]
   },
   {
     id: "GOGOAT",
@@ -83750,7 +86982,10 @@ export const fakemons: Fakemon[] =
     eggMoves: [
 
     ],
-    suffix: "normal"
+    suffix: "normal",
+    evolution: [
+
+    ]
   },
   {
     id: "PANCHAM",
@@ -83880,7 +87115,14 @@ export const fakemons: Fakemon[] =
       "SEISMICTOSS",
       "STORMTHROW"
     ],
-    suffix: "normal"
+    suffix: "normal",
+    evolution: [
+      {
+        to: "PANGORO",
+        method: "LevelDarkInParty",
+        value: "32"
+      }
+    ]
   },
   {
     id: "PANGORO",
@@ -84034,7 +87276,10 @@ export const fakemons: Fakemon[] =
     eggMoves: [
 
     ],
-    suffix: "normal"
+    suffix: "normal",
+    evolution: [
+
+    ]
   },
   {
     id: "FURFROU",
@@ -84132,7 +87377,10 @@ export const fakemons: Fakemon[] =
       "ROLEPLAY",
       "WORKUP"
     ],
-    suffix: "normal"
+    suffix: "normal",
+    evolution: [
+
+    ]
   },
   {
     id: "ESPURR",
@@ -84250,7 +87498,14 @@ export const fakemons: Fakemon[] =
       "TICKLE",
       "YAWN"
     ],
-    suffix: "normal"
+    suffix: "normal",
+    evolution: [
+      {
+        to: "MEOWSTIC",
+        method: "Level",
+        value: "25"
+      }
+    ]
   },
   {
     id: "MEOWSTIC",
@@ -84388,7 +87643,10 @@ export const fakemons: Fakemon[] =
     eggMoves: [
 
     ],
-    suffix: "normal"
+    suffix: "normal",
+    evolution: [
+
+    ]
   },
   {
     id: "HONEDGE",
@@ -84487,7 +87745,14 @@ export const fakemons: Fakemon[] =
       "DESTINYBOND",
       "WIDEGUARD"
     ],
-    suffix: "normal"
+    suffix: "normal",
+    evolution: [
+      {
+        to: "DOUBLADE",
+        method: "Level",
+        value: "35"
+      }
+    ]
   },
   {
     id: "DOUBLADE",
@@ -84584,7 +87849,14 @@ export const fakemons: Fakemon[] =
     eggMoves: [
 
     ],
-    suffix: "normal"
+    suffix: "normal",
+    evolution: [
+      {
+        to: "AEGISLASH",
+        method: "Item",
+        value: "DUSKSTONE"
+      }
+    ]
   },
   {
     id: "AEGISLASH",
@@ -84689,7 +87961,10 @@ export const fakemons: Fakemon[] =
     eggMoves: [
 
     ],
-    suffix: "normal"
+    suffix: "normal",
+    evolution: [
+
+    ]
   },
   {
     id: "SPRITZEE",
@@ -84795,7 +88070,14 @@ export const fakemons: Fakemon[] =
       "DISABLE",
       "WISH"
     ],
-    suffix: "normal"
+    suffix: "normal",
+    evolution: [
+      {
+        to: "AROMATISSE",
+        method: "TradeItem",
+        value: "SACHET"
+      }
+    ]
   },
   {
     id: "AROMATISSE",
@@ -84908,7 +88190,10 @@ export const fakemons: Fakemon[] =
     eggMoves: [
 
     ],
-    suffix: "normal"
+    suffix: "normal",
+    evolution: [
+
+    ]
   },
   {
     id: "SWIRLIX",
@@ -85009,7 +88294,14 @@ export const fakemons: Fakemon[] =
       "STICKYWEB",
       "YAWN"
     ],
-    suffix: "normal"
+    suffix: "normal",
+    evolution: [
+      {
+        to: "SLURPUFF",
+        method: "TradeItem",
+        value: "WHIPPEDDREAM"
+      }
+    ]
   },
   {
     id: "SLURPUFF",
@@ -85113,7 +88405,10 @@ export const fakemons: Fakemon[] =
     eggMoves: [
 
     ],
-    suffix: "normal"
+    suffix: "normal",
+    evolution: [
+
+    ]
   },
   {
     id: "INKAY",
@@ -85236,7 +88531,14 @@ export const fakemons: Fakemon[] =
       "DESTINYBOND",
       "DISABLE"
     ],
-    suffix: "normal"
+    suffix: "normal",
+    evolution: [
+      {
+        to: "MALAMAR",
+        method: "Level",
+        value: "30"
+      }
+    ]
   },
   {
     id: "MALAMAR",
@@ -85368,7 +88670,10 @@ export const fakemons: Fakemon[] =
     eggMoves: [
 
     ],
-    suffix: "normal"
+    suffix: "normal",
+    evolution: [
+
+    ]
   },
   {
     id: "BINACLE",
@@ -85493,7 +88798,14 @@ export const fakemons: Fakemon[] =
       "SANDATTACK",
       "SWITCHEROO"
     ],
-    suffix: "normal"
+    suffix: "normal",
+    evolution: [
+      {
+        to: "BARBARACLE",
+        method: "Level",
+        value: "39"
+      }
+    ]
   },
   {
     id: "BARBARACLE",
@@ -85632,7 +88944,10 @@ export const fakemons: Fakemon[] =
     eggMoves: [
 
     ],
-    suffix: "normal"
+    suffix: "normal",
+    evolution: [
+
+    ]
   },
   {
     id: "SKRELP",
@@ -85746,7 +89061,14 @@ export const fakemons: Fakemon[] =
       "HAZE",
       "TWISTER"
     ],
-    suffix: "normal"
+    suffix: "normal",
+    evolution: [
+      {
+        to: "DRAGALGE",
+        method: "Level",
+        value: "48"
+      }
+    ]
   },
   {
     id: "DRAGALGE",
@@ -85863,7 +89185,10 @@ export const fakemons: Fakemon[] =
     eggMoves: [
 
     ],
-    suffix: "normal"
+    suffix: "normal",
+    evolution: [
+
+    ]
   },
   {
     id: "CLAUNCHER",
@@ -85968,7 +89293,14 @@ export const fakemons: Fakemon[] =
       "BUBBLEBEAM",
       "ENTRAINMENT"
     ],
-    suffix: "normal"
+    suffix: "normal",
+    evolution: [
+      {
+        to: "CLAWITZER",
+        method: "Level",
+        value: "37"
+      }
+    ]
   },
   {
     id: "CLAWITZER",
@@ -86082,7 +89414,10 @@ export const fakemons: Fakemon[] =
     eggMoves: [
 
     ],
-    suffix: "normal"
+    suffix: "normal",
+    evolution: [
+
+    ]
   },
   {
     id: "HELIOPTILE",
@@ -86188,7 +89523,14 @@ export const fakemons: Fakemon[] =
       "DRAGONTAIL",
       "GLARE"
     ],
-    suffix: "normal"
+    suffix: "normal",
+    evolution: [
+      {
+        to: "HELIOLISK",
+        method: "Item",
+        value: "SUNSTONE"
+      }
+    ]
   },
   {
     id: "HELIOLISK",
@@ -86310,7 +89652,10 @@ export const fakemons: Fakemon[] =
     eggMoves: [
 
     ],
-    suffix: "normal"
+    suffix: "normal",
+    evolution: [
+
+    ]
   },
   {
     id: "TYRUNT",
@@ -86430,7 +89775,14 @@ export const fakemons: Fakemon[] =
       "ROCKPOLISH",
       "ROCKTHROW"
     ],
-    suffix: "normal"
+    suffix: "normal",
+    evolution: [
+      {
+        to: "TYRANTRUM",
+        method: "LevelDay",
+        value: "39"
+      }
+    ]
   },
   {
     id: "TYRANTRUM",
@@ -86554,7 +89906,10 @@ export const fakemons: Fakemon[] =
     eggMoves: [
 
     ],
-    suffix: "normal"
+    suffix: "normal",
+    evolution: [
+
+    ]
   },
   {
     id: "AMAURA",
@@ -86680,7 +90035,14 @@ export const fakemons: Fakemon[] =
       "ROCKTHROW",
       "TAKEDOWN"
     ],
-    suffix: "normal"
+    suffix: "normal",
+    evolution: [
+      {
+        to: "AURORUS",
+        method: "LevelNight",
+        value: "39"
+      }
+    ]
   },
   {
     id: "AURORUS",
@@ -86806,7 +90168,10 @@ export const fakemons: Fakemon[] =
     eggMoves: [
 
     ],
-    suffix: "normal"
+    suffix: "normal",
+    evolution: [
+
+    ]
   },
   {
     id: "SYLVEON",
@@ -86937,7 +90302,10 @@ export const fakemons: Fakemon[] =
     eggMoves: [
 
     ],
-    suffix: "normal"
+    suffix: "normal",
+    evolution: [
+
+    ]
   },
   {
     id: "HAWLUCHA",
@@ -87090,7 +90458,10 @@ export const fakemons: Fakemon[] =
       "MEANLOOK",
       "QUICKGUARD"
     ],
-    suffix: "normal"
+    suffix: "normal",
+    evolution: [
+
+    ]
   },
   {
     id: "DEDENNE",
@@ -87211,7 +90582,10 @@ export const fakemons: Fakemon[] =
       "MAGNETRISE",
       "TEARFULLOOK"
     ],
-    suffix: "normal"
+    suffix: "normal",
+    evolution: [
+
+    ]
   },
   {
     id: "CARBINK",
@@ -87332,7 +90706,10 @@ export const fakemons: Fakemon[] =
     eggMoves: [
 
     ],
-    suffix: "normal"
+    suffix: "normal",
+    evolution: [
+
+    ]
   },
   {
     id: "GOOMY",
@@ -87422,7 +90799,14 @@ export const fakemons: Fakemon[] =
       "COUNTER",
       "LIFEDEW"
     ],
-    suffix: "normal"
+    suffix: "normal",
+    evolution: [
+      {
+        to: "SLIGGOO",
+        method: "Level",
+        value: "40"
+      }
+    ]
   },
   {
     id: "SLIGGOO",
@@ -87518,7 +90902,14 @@ export const fakemons: Fakemon[] =
     eggMoves: [
 
     ],
-    suffix: "normal"
+    suffix: "normal",
+    evolution: [
+      {
+        to: "GOODRA",
+        method: "LevelRain",
+        value: "50"
+      }
+    ]
   },
   {
     id: "GOODRA",
@@ -87651,7 +91042,10 @@ export const fakemons: Fakemon[] =
     eggMoves: [
 
     ],
-    suffix: "normal"
+    suffix: "normal",
+    evolution: [
+
+    ]
   },
   {
     id: "KLEFKI",
@@ -87760,7 +91154,10 @@ export const fakemons: Fakemon[] =
       "MAGNETRISE",
       "SWITCHEROO"
     ],
-    suffix: "normal"
+    suffix: "normal",
+    evolution: [
+
+    ]
   },
   {
     id: "PHANTUMP",
@@ -87885,7 +91282,10 @@ export const fakemons: Fakemon[] =
       "GRUDGE",
       "SUCKERPUNCH"
     ],
-    suffix: "normal"
+    suffix: "normal",
+    evolution: [
+
+    ]
   },
   {
     id: "TREVENANT",
@@ -88027,7 +91427,10 @@ export const fakemons: Fakemon[] =
     eggMoves: [
 
     ],
-    suffix: "normal"
+    suffix: "normal",
+    evolution: [
+
+    ]
   },
   {
     id: "PUMPKABOO",
@@ -88148,7 +91551,10 @@ export const fakemons: Fakemon[] =
       "DESTINYBOND",
       "DISABLE"
     ],
-    suffix: "normal"
+    suffix: "normal",
+    evolution: [
+
+    ]
   },
   {
     id: "GOURGEIST",
@@ -88277,7 +91683,10 @@ export const fakemons: Fakemon[] =
     eggMoves: [
 
     ],
-    suffix: "normal"
+    suffix: "normal",
+    evolution: [
+
+    ]
   },
   {
     id: "BERGMITE",
@@ -88380,7 +91789,14 @@ export const fakemons: Fakemon[] =
       "MIRRORCOAT",
       "MIST"
     ],
-    suffix: "normal"
+    suffix: "normal",
+    evolution: [
+      {
+        to: "AVALUGG",
+        method: "Level",
+        value: "37"
+      }
+    ]
   },
   {
     id: "AVALUGG",
@@ -88498,7 +91914,10 @@ export const fakemons: Fakemon[] =
     eggMoves: [
 
     ],
-    suffix: "normal"
+    suffix: "normal",
+    evolution: [
+
+    ]
   },
   {
     id: "NOIBAT",
@@ -88619,7 +92038,14 @@ export const fakemons: Fakemon[] =
       "DRAGONRUSH",
       "SWITCHEROO"
     ],
-    suffix: "normal"
+    suffix: "normal",
+    evolution: [
+      {
+        to: "NOIVERN",
+        method: "Level",
+        value: "48"
+      }
+    ]
   },
   {
     id: "NOIVERN",
@@ -88752,7 +92178,10 @@ export const fakemons: Fakemon[] =
     eggMoves: [
 
     ],
-    suffix: "normal"
+    suffix: "normal",
+    evolution: [
+
+    ]
   },
   {
     id: "XERNEAS",
@@ -88867,7 +92296,10 @@ export const fakemons: Fakemon[] =
     eggMoves: [
 
     ],
-    suffix: "normal"
+    suffix: "normal",
+    evolution: [
+
+    ]
   },
   {
     id: "YVELTAL",
@@ -88984,7 +92416,10 @@ export const fakemons: Fakemon[] =
     eggMoves: [
 
     ],
-    suffix: "normal"
+    suffix: "normal",
+    evolution: [
+
+    ]
   },
   {
     id: "ZYGARDE",
@@ -89100,7 +92535,10 @@ export const fakemons: Fakemon[] =
     eggMoves: [
 
     ],
-    suffix: "normal"
+    suffix: "normal",
+    evolution: [
+
+    ]
   },
   {
     id: "DIANCIE",
@@ -89233,7 +92671,10 @@ export const fakemons: Fakemon[] =
     eggMoves: [
 
     ],
-    suffix: "normal"
+    suffix: "normal",
+    evolution: [
+
+    ]
   },
   {
     id: "HOOPA",
@@ -89376,7 +92817,10 @@ export const fakemons: Fakemon[] =
     eggMoves: [
 
     ],
-    suffix: "normal"
+    suffix: "normal",
+    evolution: [
+
+    ]
   },
   {
     id: "VOLCANION",
@@ -89508,7 +92952,10 @@ export const fakemons: Fakemon[] =
     eggMoves: [
 
     ],
-    suffix: "normal"
+    suffix: "normal",
+    evolution: [
+
+    ]
   },
   {
     id: "ROWLET",
@@ -89626,7 +93073,14 @@ export const fakemons: Fakemon[] =
       "KNOCKOFF",
       "ROOST"
     ],
-    suffix: "normal"
+    suffix: "normal",
+    evolution: [
+      {
+        to: "DARTRIX",
+        method: "Level",
+        value: "17"
+      }
+    ]
   },
   {
     id: "DARTRIX",
@@ -89742,7 +93196,14 @@ export const fakemons: Fakemon[] =
     eggMoves: [
 
     ],
-    suffix: "normal"
+    suffix: "normal",
+    evolution: [
+      {
+        to: "DECIDUEYE",
+        method: "Level",
+        value: "34"
+      }
+    ]
   },
   {
     id: "DECIDUEYE",
@@ -89883,7 +93344,10 @@ export const fakemons: Fakemon[] =
     eggMoves: [
 
     ],
-    suffix: "normal"
+    suffix: "normal",
+    evolution: [
+
+    ]
   },
   {
     id: "LITTEN",
@@ -89989,7 +93453,14 @@ export const fakemons: Fakemon[] =
       "PARTINGSHOT",
       "POWERTRIP"
     ],
-    suffix: "normal"
+    suffix: "normal",
+    evolution: [
+      {
+        to: "TORRACAT",
+        method: "Level",
+        value: "17"
+      }
+    ]
   },
   {
     id: "TORRACAT",
@@ -90094,7 +93565,14 @@ export const fakemons: Fakemon[] =
     eggMoves: [
 
     ],
-    suffix: "normal"
+    suffix: "normal",
+    evolution: [
+      {
+        to: "INCINEROAR",
+        method: "Level",
+        value: "34"
+      }
+    ]
   },
   {
     id: "INCINEROAR",
@@ -90244,7 +93722,10 @@ export const fakemons: Fakemon[] =
     eggMoves: [
 
     ],
-    suffix: "normal"
+    suffix: "normal",
+    evolution: [
+
+    ]
   },
   {
     id: "POPPLIO",
@@ -90349,7 +93830,14 @@ export const fakemons: Fakemon[] =
       "LIFEDEW",
       "PERISHSONG"
     ],
-    suffix: "normal"
+    suffix: "normal",
+    evolution: [
+      {
+        to: "BRIONNE",
+        method: "Level",
+        value: "17"
+      }
+    ]
   },
   {
     id: "BRIONNE",
@@ -90453,7 +93941,14 @@ export const fakemons: Fakemon[] =
     eggMoves: [
 
     ],
-    suffix: "normal"
+    suffix: "normal",
+    evolution: [
+      {
+        to: "PRIMARINA",
+        method: "Level",
+        value: "34"
+      }
+    ]
   },
   {
     id: "PRIMARINA",
@@ -90580,7 +94075,10 @@ export const fakemons: Fakemon[] =
     eggMoves: [
 
     ],
-    suffix: "normal"
+    suffix: "normal",
+    evolution: [
+
+    ]
   },
   {
     id: "PIKIPEK",
@@ -90687,7 +94185,14 @@ export const fakemons: Fakemon[] =
       "TAILWIND",
       "UPROAR"
     ],
-    suffix: "normal"
+    suffix: "normal",
+    evolution: [
+      {
+        to: "TRUMBEAK",
+        method: "Level",
+        value: "14"
+      }
+    ]
   },
   {
     id: "TRUMBEAK",
@@ -90791,7 +94296,14 @@ export const fakemons: Fakemon[] =
     eggMoves: [
 
     ],
-    suffix: "normal"
+    suffix: "normal",
+    evolution: [
+      {
+        to: "TOUCANNON",
+        method: "Level",
+        value: "28"
+      }
+    ]
   },
   {
     id: "TOUCANNON",
@@ -90907,7 +94419,10 @@ export const fakemons: Fakemon[] =
     eggMoves: [
 
     ],
-    suffix: "normal"
+    suffix: "normal",
+    evolution: [
+
+    ]
   },
   {
     id: "YUNGOOS",
@@ -91018,7 +94533,14 @@ export const fakemons: Fakemon[] =
       "REVENGE",
       "THUNDERFANG"
     ],
-    suffix: "normal"
+    suffix: "normal",
+    evolution: [
+      {
+        to: "GUMSHOOS",
+        method: "LevelDay",
+        value: "20"
+      }
+    ]
   },
   {
     id: "GUMSHOOS",
@@ -91140,7 +94662,10 @@ export const fakemons: Fakemon[] =
     eggMoves: [
 
     ],
-    suffix: "normal"
+    suffix: "normal",
+    evolution: [
+
+    ]
   },
   {
     id: "GRUBBIN",
@@ -91233,7 +94758,14 @@ export const fakemons: Fakemon[] =
       "DISCHARGE",
       "HARDEN"
     ],
-    suffix: "normal"
+    suffix: "normal",
+    evolution: [
+      {
+        to: "CHARJABUG",
+        method: "Level",
+        value: "20"
+      }
+    ]
   },
   {
     id: "CHARJABUG",
@@ -91333,7 +94865,14 @@ export const fakemons: Fakemon[] =
     eggMoves: [
 
     ],
-    suffix: "normal"
+    suffix: "normal",
+    evolution: [
+      {
+        to: "VIKAVOLT",
+        method: "Item",
+        value: "THUNDERSTONE"
+      }
+    ]
   },
   {
     id: "VIKAVOLT",
@@ -91456,7 +94995,10 @@ export const fakemons: Fakemon[] =
     eggMoves: [
 
     ],
-    suffix: "normal"
+    suffix: "normal",
+    evolution: [
+
+    ]
   },
   {
     id: "CRABRAWLER",
@@ -91571,7 +95113,14 @@ export const fakemons: Fakemon[] =
       "SUPERPOWER",
       "WIDEGUARD"
     ],
-    suffix: "normal"
+    suffix: "normal",
+    evolution: [
+      {
+        to: "CRABOMINABLE",
+        method: "Item",
+        value: "ICESTONE"
+      }
+    ]
   },
   {
     id: "CRABOMINABLE",
@@ -91696,7 +95245,10 @@ export const fakemons: Fakemon[] =
     eggMoves: [
 
     ],
-    suffix: "normal"
+    suffix: "normal",
+    evolution: [
+
+    ]
   },
   {
     id: "ORICORIO",
@@ -91810,7 +95362,10 @@ export const fakemons: Fakemon[] =
       "SAFEGUARD",
       "TAILWIND"
     ],
-    suffix: "normal"
+    suffix: "normal",
+    evolution: [
+
+    ]
   },
   {
     id: "CUTIEFLY",
@@ -91926,7 +95481,14 @@ export const fakemons: Fakemon[] =
       "MOONBLAST",
       "STICKYWEB"
     ],
-    suffix: "normal"
+    suffix: "normal",
+    evolution: [
+      {
+        to: "RIBOMBEE",
+        method: "Level",
+        value: "25"
+      }
+    ]
   },
   {
     id: "RIBOMBEE",
@@ -92052,7 +95614,10 @@ export const fakemons: Fakemon[] =
     eggMoves: [
 
     ],
-    suffix: "normal"
+    suffix: "normal",
+    evolution: [
+
+    ]
   },
   {
     id: "ROCKRUFF",
@@ -92160,7 +95725,14 @@ export const fakemons: Fakemon[] =
       "LASTRESORT",
       "THRASH"
     ],
-    suffix: "normal"
+    suffix: "normal",
+    evolution: [
+      {
+        to: "LYCANROC",
+        method: "Level",
+        value: "25"
+      }
+    ]
   },
   {
     id: "LYCANROC",
@@ -92281,7 +95853,10 @@ export const fakemons: Fakemon[] =
     eggMoves: [
 
     ],
-    suffix: "normal"
+    suffix: "normal",
+    evolution: [
+
+    ]
   },
   {
     id: "WISHIWASHI",
@@ -92378,7 +95953,10 @@ export const fakemons: Fakemon[] =
       "TAKEDOWN",
       "WATERPULSE"
     ],
-    suffix: "normal"
+    suffix: "normal",
+    evolution: [
+
+    ]
   },
   {
     id: "MAREANIE",
@@ -92488,7 +96066,14 @@ export const fakemons: Fakemon[] =
       "STOCKPILE",
       "SWALLOW"
     ],
-    suffix: "normal"
+    suffix: "normal",
+    evolution: [
+      {
+        to: "TOXAPEX",
+        method: "Level",
+        value: "38"
+      }
+    ]
   },
   {
     id: "TOXAPEX",
@@ -92603,7 +96188,10 @@ export const fakemons: Fakemon[] =
     eggMoves: [
 
     ],
-    suffix: "normal"
+    suffix: "normal",
+    evolution: [
+
+    ]
   },
   {
     id: "MUDBRAY",
@@ -92705,7 +96293,14 @@ export const fakemons: Fakemon[] =
       "ROAR",
       "SMACKDOWN"
     ],
-    suffix: "normal"
+    suffix: "normal",
+    evolution: [
+      {
+        to: "MUDSDALE",
+        method: "Level",
+        value: "30"
+      }
+    ]
   },
   {
     id: "MUDSDALE",
@@ -92811,7 +96406,10 @@ export const fakemons: Fakemon[] =
     eggMoves: [
 
     ],
-    suffix: "normal"
+    suffix: "normal",
+    evolution: [
+
+    ]
   },
   {
     id: "DEWPIDER",
@@ -92913,7 +96511,14 @@ export const fakemons: Fakemon[] =
       "STICKYWEB",
       "STOCKPILE"
     ],
-    suffix: "normal"
+    suffix: "normal",
+    evolution: [
+      {
+        to: "ARAQUANID",
+        method: "Level",
+        value: "22"
+      }
+    ]
   },
   {
     id: "ARAQUANID",
@@ -93021,7 +96626,10 @@ export const fakemons: Fakemon[] =
     eggMoves: [
 
     ],
-    suffix: "normal"
+    suffix: "normal",
+    evolution: [
+
+    ]
   },
   {
     id: "FOMANTIS",
@@ -93122,7 +96730,14 @@ export const fakemons: Fakemon[] =
       "SUPERPOWER",
       "WORRYSEED"
     ],
-    suffix: "normal"
+    suffix: "normal",
+    evolution: [
+      {
+        to: "LURANTIS",
+        method: "LevelDay",
+        value: "34"
+      }
+    ]
   },
   {
     id: "LURANTIS",
@@ -93237,7 +96852,10 @@ export const fakemons: Fakemon[] =
     eggMoves: [
 
     ],
-    suffix: "normal"
+    suffix: "normal",
+    evolution: [
+
+    ]
   },
   {
     id: "MORELULL",
@@ -93334,7 +96952,14 @@ export const fakemons: Fakemon[] =
       "POISONPOWDER",
       "STUNSPORE"
     ],
-    suffix: "normal"
+    suffix: "normal",
+    evolution: [
+      {
+        to: "SHIINOTIC",
+        method: "Level",
+        value: "24"
+      }
+    ]
   },
   {
     id: "SHIINOTIC",
@@ -93434,7 +97059,10 @@ export const fakemons: Fakemon[] =
     eggMoves: [
 
     ],
-    suffix: "normal"
+    suffix: "normal",
+    evolution: [
+
+    ]
   },
   {
     id: "SALANDIT",
@@ -93554,7 +97182,14 @@ export const fakemons: Fakemon[] =
       "MUDSLAP",
       "SANDATTACK"
     ],
-    suffix: "normal"
+    suffix: "normal",
+    evolution: [
+      {
+        to: "SALAZZLE",
+        method: "LevelFemale",
+        value: "33"
+      }
+    ]
   },
   {
     id: "SALAZZLE",
@@ -93692,7 +97327,10 @@ export const fakemons: Fakemon[] =
     eggMoves: [
 
     ],
-    suffix: "normal"
+    suffix: "normal",
+    evolution: [
+
+    ]
   },
   {
     id: "STUFFUL",
@@ -93797,7 +97435,14 @@ export const fakemons: Fakemon[] =
       "ROLLOUT",
       "STOMP"
     ],
-    suffix: "normal"
+    suffix: "normal",
+    evolution: [
+      {
+        to: "BEWEAR",
+        method: "Level",
+        value: "27"
+      }
+    ]
   },
   {
     id: "BEWEAR",
@@ -93913,7 +97558,10 @@ export const fakemons: Fakemon[] =
     eggMoves: [
 
     ],
-    suffix: "normal"
+    suffix: "normal",
+    evolution: [
+
+    ]
   },
   {
     id: "BOUNSWEET",
@@ -94009,7 +97657,14 @@ export const fakemons: Fakemon[] =
       "ENDEAVOR",
       "SYNTHESIS"
     ],
-    suffix: "normal"
+    suffix: "normal",
+    evolution: [
+      {
+        to: "STEENEE",
+        method: "Level",
+        value: "18"
+      }
+    ]
   },
   {
     id: "STEENEE",
@@ -94110,7 +97765,14 @@ export const fakemons: Fakemon[] =
     eggMoves: [
 
     ],
-    suffix: "normal"
+    suffix: "normal",
+    evolution: [
+      {
+        to: "TSAREENA",
+        method: "HasMove",
+        value: "STOMP"
+      }
+    ]
   },
   {
     id: "TSAREENA",
@@ -94226,7 +97888,10 @@ export const fakemons: Fakemon[] =
     eggMoves: [
 
     ],
-    suffix: "normal"
+    suffix: "normal",
+    evolution: [
+
+    ]
   },
   {
     id: "COMFEY",
@@ -94354,7 +98019,10 @@ export const fakemons: Fakemon[] =
       "LEAFTORNADO",
       "WORRYSEED"
     ],
-    suffix: "normal"
+    suffix: "normal",
+    evolution: [
+
+    ]
   },
   {
     id: "ORANGURU",
@@ -94495,7 +98163,10 @@ export const fakemons: Fakemon[] =
       "LASTRESORT",
       "YAWN"
     ],
-    suffix: "normal"
+    suffix: "normal",
+    evolution: [
+
+    ]
   },
   {
     id: "PASSIMIAN",
@@ -94631,7 +98302,10 @@ export const fakemons: Fakemon[] =
       "SEISMICTOSS",
       "VITALTHROW"
     ],
-    suffix: "normal"
+    suffix: "normal",
+    evolution: [
+
+    ]
   },
   {
     id: "WIMPOD",
@@ -94708,7 +98382,14 @@ export const fakemons: Fakemon[] =
       "ROLLOUT",
       "WIDEGUARD"
     ],
-    suffix: "normal"
+    suffix: "normal",
+    evolution: [
+      {
+        to: "GOLISOPOD",
+        method: "Level",
+        value: "30"
+      }
+    ]
   },
   {
     id: "GOLISOPOD",
@@ -94837,7 +98518,10 @@ export const fakemons: Fakemon[] =
     eggMoves: [
 
     ],
-    suffix: "normal"
+    suffix: "normal",
+    evolution: [
+
+    ]
   },
   {
     id: "SANDYGAST",
@@ -94955,7 +98639,14 @@ export const fakemons: Fakemon[] =
       "STOCKPILE",
       "SWALLOW"
     ],
-    suffix: "normal"
+    suffix: "normal",
+    evolution: [
+      {
+        to: "PALOSSAND",
+        method: "Level",
+        value: "42"
+      }
+    ]
   },
   {
     id: "PALOSSAND",
@@ -95074,7 +98765,10 @@ export const fakemons: Fakemon[] =
     eggMoves: [
 
     ],
-    suffix: "normal"
+    suffix: "normal",
+    evolution: [
+
+    ]
   },
   {
     id: "PYUKUMUKU",
@@ -95157,7 +98851,10 @@ export const fakemons: Fakemon[] =
       "SWAGGER",
       "TICKLE"
     ],
-    suffix: "normal"
+    suffix: "normal",
+    evolution: [
+
+    ]
   },
   {
     id: "TYPENULL",
@@ -95253,7 +98950,10 @@ export const fakemons: Fakemon[] =
     eggMoves: [
 
     ],
-    suffix: "normal"
+    suffix: "normal",
+    evolution: [
+
+    ]
   },
   {
     id: "SILVALLY",
@@ -95384,7 +99084,10 @@ export const fakemons: Fakemon[] =
     eggMoves: [
 
     ],
-    suffix: "normal"
+    suffix: "normal",
+    evolution: [
+
+    ]
   },
   {
     id: "MINIOR",
@@ -95493,7 +99196,10 @@ export const fakemons: Fakemon[] =
     eggMoves: [
 
     ],
-    suffix: "normal"
+    suffix: "normal",
+    evolution: [
+
+    ]
   },
   {
     id: "KOMALA",
@@ -95607,7 +99313,10 @@ export const fakemons: Fakemon[] =
       "SUPERPOWER",
       "WISH"
     ],
-    suffix: "normal"
+    suffix: "normal",
+    evolution: [
+
+    ]
   },
   {
     id: "TURTONATOR",
@@ -95734,7 +99443,10 @@ export const fakemons: Fakemon[] =
       "RAPIDSPIN",
       "WIDEGUARD"
     ],
-    suffix: "normal"
+    suffix: "normal",
+    evolution: [
+
+    ]
   },
   {
     id: "TOGEDEMARU",
@@ -95854,7 +99566,10 @@ export const fakemons: Fakemon[] =
       "TICKLE",
       "WISH"
     ],
-    suffix: "normal"
+    suffix: "normal",
+    evolution: [
+
+    ]
   },
   {
     id: "MIMIKYU",
@@ -95982,7 +99697,10 @@ export const fakemons: Fakemon[] =
       "DESTINYBOND",
       "GRUDGE"
     ],
-    suffix: "normal"
+    suffix: "normal",
+    evolution: [
+
+    ]
   },
   {
     id: "BRUXISH",
@@ -96106,7 +99824,10 @@ export const fakemons: Fakemon[] =
       "SUPERFANG",
       "WATERPULSE"
     ],
-    suffix: "normal"
+    suffix: "normal",
+    evolution: [
+
+    ]
   },
   {
     id: "DRAMPA",
@@ -96239,7 +99960,10 @@ export const fakemons: Fakemon[] =
       "MIST",
       "TICKLE"
     ],
-    suffix: "normal"
+    suffix: "normal",
+    evolution: [
+
+    ]
   },
   {
     id: "DHELMISE",
@@ -96361,7 +100085,10 @@ export const fakemons: Fakemon[] =
     eggMoves: [
 
     ],
-    suffix: "normal"
+    suffix: "normal",
+    evolution: [
+
+    ]
   },
   {
     id: "JANGMOO",
@@ -96471,7 +100198,14 @@ export const fakemons: Fakemon[] =
       "DRAGONBREATH",
       "FOCUSPUNCH"
     ],
-    suffix: "normal"
+    suffix: "normal",
+    evolution: [
+      {
+        to: "HAKAMOO",
+        method: "Level",
+        value: "35"
+      }
+    ]
   },
   {
     id: "HAKAMOO",
@@ -96595,7 +100329,14 @@ export const fakemons: Fakemon[] =
     eggMoves: [
 
     ],
-    suffix: "normal"
+    suffix: "normal",
+    evolution: [
+      {
+        to: "KOMMOO",
+        method: "Level",
+        value: "45"
+      }
+    ]
   },
   {
     id: "KOMMOO",
@@ -96745,7 +100486,10 @@ export const fakemons: Fakemon[] =
     eggMoves: [
 
     ],
-    suffix: "normal"
+    suffix: "normal",
+    evolution: [
+
+    ]
   },
   {
     id: "TAPUKOKO",
@@ -96865,7 +100609,10 @@ export const fakemons: Fakemon[] =
     eggMoves: [
 
     ],
-    suffix: "normal"
+    suffix: "normal",
+    evolution: [
+
+    ]
   },
   {
     id: "TAPULELE",
@@ -96978,7 +100725,10 @@ export const fakemons: Fakemon[] =
     eggMoves: [
 
     ],
-    suffix: "normal"
+    suffix: "normal",
+    evolution: [
+
+    ]
   },
   {
     id: "TAPUBULU",
@@ -97101,7 +100851,10 @@ export const fakemons: Fakemon[] =
     eggMoves: [
 
     ],
-    suffix: "normal"
+    suffix: "normal",
+    evolution: [
+
+    ]
   },
   {
     id: "TAPUFINI",
@@ -97217,7 +100970,10 @@ export const fakemons: Fakemon[] =
     eggMoves: [
 
     ],
-    suffix: "normal"
+    suffix: "normal",
+    evolution: [
+
+    ]
   },
   {
     id: "COSMOG",
@@ -97255,7 +101011,14 @@ export const fakemons: Fakemon[] =
     eggMoves: [
 
     ],
-    suffix: "normal"
+    suffix: "normal",
+    evolution: [
+      {
+        to: "COSMOEM",
+        method: "Level",
+        value: "43"
+      }
+    ]
   },
   {
     id: "COSMOEM",
@@ -97293,7 +101056,14 @@ export const fakemons: Fakemon[] =
     eggMoves: [
 
     ],
-    suffix: "normal"
+    suffix: "normal",
+    evolution: [
+      {
+        to: "LUNALA",
+        method: "LevelNight",
+        value: "53"
+      }
+    ]
   },
   {
     id: "SOLGALEO",
@@ -97427,7 +101197,10 @@ export const fakemons: Fakemon[] =
     eggMoves: [
 
     ],
-    suffix: "normal"
+    suffix: "normal",
+    evolution: [
+
+    ]
   },
   {
     id: "LUNALA",
@@ -97556,7 +101329,10 @@ export const fakemons: Fakemon[] =
     eggMoves: [
 
     ],
-    suffix: "normal"
+    suffix: "normal",
+    evolution: [
+
+    ]
   },
   {
     id: "NIHILEGO",
@@ -97670,7 +101446,10 @@ export const fakemons: Fakemon[] =
     eggMoves: [
 
     ],
-    suffix: "normal"
+    suffix: "normal",
+    evolution: [
+
+    ]
   },
   {
     id: "BUZZWOLE",
@@ -97781,7 +101560,10 @@ export const fakemons: Fakemon[] =
     eggMoves: [
 
     ],
-    suffix: "normal"
+    suffix: "normal",
+    evolution: [
+
+    ]
   },
   {
     id: "PHEROMOSA",
@@ -97889,7 +101671,10 @@ export const fakemons: Fakemon[] =
     eggMoves: [
 
     ],
-    suffix: "normal"
+    suffix: "normal",
+    evolution: [
+
+    ]
   },
   {
     id: "XURKITREE",
@@ -97991,7 +101776,10 @@ export const fakemons: Fakemon[] =
     eggMoves: [
 
     ],
-    suffix: "normal"
+    suffix: "normal",
+    evolution: [
+
+    ]
   },
   {
     id: "CELESTEELA",
@@ -98100,7 +101888,10 @@ export const fakemons: Fakemon[] =
     eggMoves: [
 
     ],
-    suffix: "normal"
+    suffix: "normal",
+    evolution: [
+
+    ]
   },
   {
     id: "KARTANA",
@@ -98191,7 +101982,10 @@ export const fakemons: Fakemon[] =
     eggMoves: [
 
     ],
-    suffix: "normal"
+    suffix: "normal",
+    evolution: [
+
+    ]
   },
   {
     id: "GUZZLORD",
@@ -98311,7 +102105,10 @@ export const fakemons: Fakemon[] =
     eggMoves: [
 
     ],
-    suffix: "normal"
+    suffix: "normal",
+    evolution: [
+
+    ]
   },
   {
     id: "NECROZMA",
@@ -98442,7 +102239,10 @@ export const fakemons: Fakemon[] =
     eggMoves: [
 
     ],
-    suffix: "normal"
+    suffix: "normal",
+    evolution: [
+
+    ]
   },
   {
     id: "MAGEARNA",
@@ -98586,7 +102386,10 @@ export const fakemons: Fakemon[] =
     eggMoves: [
 
     ],
-    suffix: "normal"
+    suffix: "normal",
+    evolution: [
+
+    ]
   },
   {
     id: "MARSHADOW",
@@ -98716,7 +102519,10 @@ export const fakemons: Fakemon[] =
     eggMoves: [
 
     ],
-    suffix: "normal"
+    suffix: "normal",
+    evolution: [
+
+    ]
   },
   {
     id: "POIPOLE",
@@ -98800,7 +102606,14 @@ export const fakemons: Fakemon[] =
     eggMoves: [
 
     ],
-    suffix: "normal"
+    suffix: "normal",
+    evolution: [
+      {
+        to: "NAGANADEL",
+        method: "HasMove",
+        value: "DRAGONPULSE"
+      }
+    ]
   },
   {
     id: "NAGANADEL",
@@ -98926,7 +102739,10 @@ export const fakemons: Fakemon[] =
     eggMoves: [
 
     ],
-    suffix: "normal"
+    suffix: "normal",
+    evolution: [
+
+    ]
   },
   {
     id: "STAKATAKA",
@@ -99038,7 +102854,10 @@ export const fakemons: Fakemon[] =
     eggMoves: [
 
     ],
-    suffix: "normal"
+    suffix: "normal",
+    evolution: [
+
+    ]
   },
   {
     id: "BLACEPHALON",
@@ -99150,7 +102969,10 @@ export const fakemons: Fakemon[] =
     eggMoves: [
 
     ],
-    suffix: "normal"
+    suffix: "normal",
+    evolution: [
+
+    ]
   },
   {
     id: "ZERAORA",
@@ -99277,7 +103099,10 @@ export const fakemons: Fakemon[] =
     eggMoves: [
 
     ],
-    suffix: "normal"
+    suffix: "normal",
+    evolution: [
+
+    ]
   },
   {
     id: "MELTAN",
@@ -99344,7 +103169,14 @@ export const fakemons: Fakemon[] =
     eggMoves: [
 
     ],
-    suffix: "normal"
+    suffix: "normal",
+    evolution: [
+      {
+        to: "MELMETAL",
+        method: "Level",
+        value: "45"
+      }
+    ]
   },
   {
     id: "MELMETAL",
@@ -99443,7 +103275,10 @@ export const fakemons: Fakemon[] =
     eggMoves: [
 
     ],
-    suffix: "normal"
+    suffix: "normal",
+    evolution: [
+
+    ]
   },
   {
     id: "GROOKEY",
@@ -99550,7 +103385,14 @@ export const fakemons: Fakemon[] =
       "STRENGTH",
       "WORRYSEED"
     ],
-    suffix: "normal"
+    suffix: "normal",
+    evolution: [
+      {
+        to: "THWACKEY",
+        method: "Level",
+        value: "16"
+      }
+    ]
   },
   {
     id: "THWACKEY",
@@ -99654,7 +103496,14 @@ export const fakemons: Fakemon[] =
     eggMoves: [
 
     ],
-    suffix: "normal"
+    suffix: "normal",
+    evolution: [
+      {
+        to: "RILLABOOM",
+        method: "Level",
+        value: "35"
+      }
+    ]
   },
   {
     id: "RILLABOOM",
@@ -99782,7 +103631,10 @@ export const fakemons: Fakemon[] =
     eggMoves: [
 
     ],
-    suffix: "normal"
+    suffix: "normal",
+    evolution: [
+
+    ]
   },
   {
     id: "SCORBUNNY",
@@ -99886,7 +103738,14 @@ export const fakemons: Fakemon[] =
       "SUCKERPUNCH",
       "SUPERFANG"
     ],
-    suffix: "normal"
+    suffix: "normal",
+    evolution: [
+      {
+        to: "RABOOT",
+        method: "Level",
+        value: "16"
+      }
+    ]
   },
   {
     id: "RABOOT",
@@ -99991,7 +103850,14 @@ export const fakemons: Fakemon[] =
     eggMoves: [
 
     ],
-    suffix: "normal"
+    suffix: "normal",
+    evolution: [
+      {
+        to: "CINDERACE",
+        method: "Level",
+        value: "35"
+      }
+    ]
   },
   {
     id: "CINDERACE",
@@ -100115,7 +103981,10 @@ export const fakemons: Fakemon[] =
     eggMoves: [
 
     ],
-    suffix: "normal"
+    suffix: "normal",
+    evolution: [
+
+    ]
   },
   {
     id: "SOBBLE",
@@ -100209,7 +104078,14 @@ export const fakemons: Fakemon[] =
       "ICESHARD",
       "MIST"
     ],
-    suffix: "normal"
+    suffix: "normal",
+    evolution: [
+      {
+        to: "DRIZZILE",
+        method: "Level",
+        value: "16"
+      }
+    ]
   },
   {
     id: "DRIZZILE",
@@ -100299,7 +104175,14 @@ export const fakemons: Fakemon[] =
     eggMoves: [
 
     ],
-    suffix: "normal"
+    suffix: "normal",
+    evolution: [
+      {
+        to: "INTELEON",
+        method: "Level",
+        value: "35"
+      }
+    ]
   },
   {
     id: "INTELEON",
@@ -100418,7 +104301,10 @@ export const fakemons: Fakemon[] =
     eggMoves: [
 
     ],
-    suffix: "normal"
+    suffix: "normal",
+    evolution: [
+
+    ]
   },
   {
     id: "SKWOVET",
@@ -100512,7 +104398,14 @@ export const fakemons: Fakemon[] =
       "LASTRESORT",
       "ROLLOUT"
     ],
-    suffix: "normal"
+    suffix: "normal",
+    evolution: [
+      {
+        to: "GREEDENT",
+        method: "Level",
+        value: "24"
+      }
+    ]
   },
   {
     id: "GREEDENT",
@@ -100621,7 +104514,10 @@ export const fakemons: Fakemon[] =
     eggMoves: [
 
     ],
-    suffix: "normal"
+    suffix: "normal",
+    evolution: [
+
+    ]
   },
   {
     id: "ROOKIDEE",
@@ -100718,7 +104614,14 @@ export const fakemons: Fakemon[] =
       "SPITE",
       "TAILWIND"
     ],
-    suffix: "normal"
+    suffix: "normal",
+    evolution: [
+      {
+        to: "CORVISQUIRE",
+        method: "Level",
+        value: "18"
+      }
+    ]
   },
   {
     id: "CORVISQUIRE",
@@ -100811,7 +104714,14 @@ export const fakemons: Fakemon[] =
     eggMoves: [
 
     ],
-    suffix: "normal"
+    suffix: "normal",
+    evolution: [
+      {
+        to: "CORVIKNIGHT",
+        method: "Level",
+        value: "38"
+      }
+    ]
   },
   {
     id: "CORVIKNIGHT",
@@ -100928,7 +104838,10 @@ export const fakemons: Fakemon[] =
     eggMoves: [
 
     ],
-    suffix: "normal"
+    suffix: "normal",
+    evolution: [
+
+    ]
   },
   {
     id: "BLIPBUG",
@@ -100969,7 +104882,14 @@ export const fakemons: Fakemon[] =
       "STICKYWEB",
       "SUPERSONIC"
     ],
-    suffix: "normal"
+    suffix: "normal",
+    evolution: [
+      {
+        to: "DOTTLER",
+        method: "Level",
+        value: "10"
+      }
+    ]
   },
   {
     id: "DOTTLER",
@@ -101059,7 +104979,14 @@ export const fakemons: Fakemon[] =
     eggMoves: [
 
     ],
-    suffix: "normal"
+    suffix: "normal",
+    evolution: [
+      {
+        to: "ORBEETLE",
+        method: "Level",
+        value: "30"
+      }
+    ]
   },
   {
     id: "ORBEETLE",
@@ -101168,7 +105095,10 @@ export const fakemons: Fakemon[] =
     eggMoves: [
 
     ],
-    suffix: "normal"
+    suffix: "normal",
+    evolution: [
+
+    ]
   },
   {
     id: "NICKIT",
@@ -101255,7 +105185,14 @@ export const fakemons: Fakemon[] =
       "QUICKGUARD",
       "TORMENT"
     ],
-    suffix: "normal"
+    suffix: "normal",
+    evolution: [
+      {
+        to: "THIEVUL",
+        method: "Level",
+        value: "18"
+      }
+    ]
   },
   {
     id: "THIEVUL",
@@ -101355,7 +105292,10 @@ export const fakemons: Fakemon[] =
     eggMoves: [
 
     ],
-    suffix: "normal"
+    suffix: "normal",
+    evolution: [
+
+    ]
   },
   {
     id: "GOSSIFLEUR",
@@ -101442,7 +105382,14 @@ export const fakemons: Fakemon[] =
       "STUNSPORE",
       "WORRYSEED"
     ],
-    suffix: "normal"
+    suffix: "normal",
+    evolution: [
+      {
+        to: "ELDEGOSS",
+        method: "Level",
+        value: "20"
+      }
+    ]
   },
   {
     id: "ELDEGOSS",
@@ -101530,7 +105477,10 @@ export const fakemons: Fakemon[] =
     eggMoves: [
 
     ],
-    suffix: "normal"
+    suffix: "normal",
+    evolution: [
+
+    ]
   },
   {
     id: "WOOLOO",
@@ -101608,7 +105558,14 @@ export const fakemons: Fakemon[] =
       "STOMP",
       "SWAGGER"
     ],
-    suffix: "normal"
+    suffix: "normal",
+    evolution: [
+      {
+        to: "DUBWOOL",
+        method: "Level",
+        value: "24"
+      }
+    ]
   },
   {
     id: "DUBWOOL",
@@ -101695,7 +105652,10 @@ export const fakemons: Fakemon[] =
     eggMoves: [
 
     ],
-    suffix: "normal"
+    suffix: "normal",
+    evolution: [
+
+    ]
   },
   {
     id: "CHEWTLE",
@@ -101786,7 +105746,14 @@ export const fakemons: Fakemon[] =
       "SHELLSMASH",
       "SKULLBASH"
     ],
-    suffix: "normal"
+    suffix: "normal",
+    evolution: [
+      {
+        to: "DREDNAW",
+        method: "Level",
+        value: "22"
+      }
+    ]
   },
   {
     id: "DREDNAW",
@@ -101910,7 +105877,10 @@ export const fakemons: Fakemon[] =
     eggMoves: [
 
     ],
-    suffix: "normal"
+    suffix: "normal",
+    evolution: [
+
+    ]
   },
   {
     id: "YAMPER",
@@ -101997,7 +105967,14 @@ export const fakemons: Fakemon[] =
       "HOWL",
       "SANDATTACK"
     ],
-    suffix: "normal"
+    suffix: "normal",
+    evolution: [
+      {
+        to: "BOLTUND",
+        method: "Level",
+        value: "25"
+      }
+    ]
   },
   {
     id: "BOLTUND",
@@ -102091,7 +106068,10 @@ export const fakemons: Fakemon[] =
     eggMoves: [
 
     ],
-    suffix: "normal"
+    suffix: "normal",
+    evolution: [
+
+    ]
   },
   {
     id: "ROLYCOLY",
@@ -102184,7 +106164,14 @@ export const fakemons: Fakemon[] =
       "EXPLOSION",
       "MUDSLAP"
     ],
-    suffix: "normal"
+    suffix: "normal",
+    evolution: [
+      {
+        to: "CARKOL",
+        method: "Level",
+        value: "18"
+      }
+    ]
   },
   {
     id: "CARKOL",
@@ -102290,7 +106277,14 @@ export const fakemons: Fakemon[] =
     eggMoves: [
 
     ],
-    suffix: "normal"
+    suffix: "normal",
+    evolution: [
+      {
+        to: "COALOSSAL",
+        method: "Level",
+        value: "34"
+      }
+    ]
   },
   {
     id: "COALOSSAL",
@@ -102406,7 +106400,10 @@ export const fakemons: Fakemon[] =
     eggMoves: [
 
     ],
-    suffix: "normal"
+    suffix: "normal",
+    evolution: [
+
+    ]
   },
   {
     id: "APPLIN",
@@ -102451,7 +106448,14 @@ export const fakemons: Fakemon[] =
       "ROLLOUT",
       "SUCKERPUNCH"
     ],
-    suffix: "normal"
+    suffix: "normal",
+    evolution: [
+      {
+        to: "DIPPLIN",
+        method: "Item",
+        value: "SYRUPYAPPLE"
+      }
+    ]
   },
   {
     id: "FLAPPLE",
@@ -102557,7 +106561,10 @@ export const fakemons: Fakemon[] =
     eggMoves: [
 
     ],
-    suffix: "normal"
+    suffix: "normal",
+    evolution: [
+
+    ]
   },
   {
     id: "APPLETUN",
@@ -102671,7 +106678,10 @@ export const fakemons: Fakemon[] =
     eggMoves: [
 
     ],
-    suffix: "normal"
+    suffix: "normal",
+    evolution: [
+
+    ]
   },
   {
     id: "SILICOBRA",
@@ -102766,7 +106776,14 @@ export const fakemons: Fakemon[] =
       "MUDSLAP",
       "POISONTAIL"
     ],
-    suffix: "normal"
+    suffix: "normal",
+    evolution: [
+      {
+        to: "SANDACONDA",
+        method: "Level",
+        value: "36"
+      }
+    ]
   },
   {
     id: "SANDACONDA",
@@ -102869,7 +106886,10 @@ export const fakemons: Fakemon[] =
     eggMoves: [
 
     ],
-    suffix: "normal"
+    suffix: "normal",
+    evolution: [
+
+    ]
   },
   {
     id: "CRAMORANT",
@@ -102979,7 +106999,10 @@ export const fakemons: Fakemon[] =
       "FEATHERDANCE",
       "ROOST"
     ],
-    suffix: "normal"
+    suffix: "normal",
+    evolution: [
+
+    ]
   },
   {
     id: "ARROKUDA",
@@ -103072,7 +107095,14 @@ export const fakemons: Fakemon[] =
       "SLASH",
       "THRASH"
     ],
-    suffix: "normal"
+    suffix: "normal",
+    evolution: [
+      {
+        to: "BARRASKEWDA",
+        method: "Level",
+        value: "26"
+      }
+    ]
   },
   {
     id: "BARRASKEWDA",
@@ -103169,7 +107199,10 @@ export const fakemons: Fakemon[] =
     eggMoves: [
 
     ],
-    suffix: "normal"
+    suffix: "normal",
+    evolution: [
+
+    ]
   },
   {
     id: "TOXEL",
@@ -103238,7 +107271,14 @@ export const fakemons: Fakemon[] =
       "METALSOUND",
       "POWERUPPUNCH"
     ],
-    suffix: "normal"
+    suffix: "normal",
+    evolution: [
+      {
+        to: "TOXTRICITY",
+        method: "Level",
+        value: "30"
+      }
+    ]
   },
   {
     id: "TOXTRICITY",
@@ -103372,7 +107412,10 @@ export const fakemons: Fakemon[] =
     eggMoves: [
 
     ],
-    suffix: "normal"
+    suffix: "normal",
+    evolution: [
+
+    ]
   },
   {
     id: "SIZZLIPEDE",
@@ -103458,7 +107501,14 @@ export const fakemons: Fakemon[] =
       "ROLLOUT",
       "STRUGGLEBUG"
     ],
-    suffix: "normal"
+    suffix: "normal",
+    evolution: [
+      {
+        to: "CENTISKORCH",
+        method: "Level",
+        value: "28"
+      }
+    ]
   },
   {
     id: "CENTISKORCH",
@@ -103554,7 +107604,10 @@ export const fakemons: Fakemon[] =
     eggMoves: [
 
     ],
-    suffix: "normal"
+    suffix: "normal",
+    evolution: [
+
+    ]
   },
   {
     id: "CLOBBOPUS",
@@ -103646,7 +107699,14 @@ export const fakemons: Fakemon[] =
       "SOAK",
       "SUCKERPUNCH"
     ],
-    suffix: "normal"
+    suffix: "normal",
+    evolution: [
+      {
+        to: "GRAPPLOCT",
+        method: "HasMove",
+        value: "TAUNT"
+      }
+    ]
   },
   {
     id: "GRAPPLOCT",
@@ -103747,7 +107807,10 @@ export const fakemons: Fakemon[] =
     eggMoves: [
 
     ],
-    suffix: "normal"
+    suffix: "normal",
+    evolution: [
+
+    ]
   },
   {
     id: "SINISTEA",
@@ -103839,7 +107902,14 @@ export const fakemons: Fakemon[] =
     eggMoves: [
       "ALLYSWITCH"
     ],
-    suffix: "normal"
+    suffix: "normal",
+    evolution: [
+      {
+        to: "POLTEAGEIST",
+        method: "Item",
+        value: "CRACKEDPOT"
+      }
+    ]
   },
   {
     id: "POLTEAGEIST",
@@ -103941,7 +108011,10 @@ export const fakemons: Fakemon[] =
     eggMoves: [
 
     ],
-    suffix: "normal"
+    suffix: "normal",
+    evolution: [
+
+    ]
   },
   {
     id: "HATENNA",
@@ -104043,7 +108116,14 @@ export const fakemons: Fakemon[] =
       "NUZZLE",
       "QUASH"
     ],
-    suffix: "normal"
+    suffix: "normal",
+    evolution: [
+      {
+        to: "HATTREM",
+        method: "Level",
+        value: "32"
+      }
+    ]
   },
   {
     id: "HATTREM",
@@ -104143,7 +108223,14 @@ export const fakemons: Fakemon[] =
     eggMoves: [
 
     ],
-    suffix: "normal"
+    suffix: "normal",
+    evolution: [
+      {
+        to: "HATTERENE",
+        method: "Level",
+        value: "42"
+      }
+    ]
   },
   {
     id: "HATTERENE",
@@ -104262,7 +108349,10 @@ export const fakemons: Fakemon[] =
     eggMoves: [
 
     ],
-    suffix: "normal"
+    suffix: "normal",
+    evolution: [
+
+    ]
   },
   {
     id: "IMPIDIMP",
@@ -104363,7 +108453,14 @@ export const fakemons: Fakemon[] =
     eggMoves: [
       "PARTINGSHOT"
     ],
-    suffix: "normal"
+    suffix: "normal",
+    evolution: [
+      {
+        to: "MORGREM",
+        method: "Level",
+        value: "32"
+      }
+    ]
   },
   {
     id: "MORGREM",
@@ -104467,7 +108564,14 @@ export const fakemons: Fakemon[] =
     eggMoves: [
 
     ],
-    suffix: "normal"
+    suffix: "normal",
+    evolution: [
+      {
+        to: "GRIMMSNARL",
+        method: "Level",
+        value: "42"
+      }
+    ]
   },
   {
     id: "GRIMMSNARL",
@@ -104594,7 +108698,10 @@ export const fakemons: Fakemon[] =
     eggMoves: [
 
     ],
-    suffix: "normal"
+    suffix: "normal",
+    evolution: [
+
+    ]
   },
   {
     id: "OBSTAGOON",
@@ -104730,7 +108837,10 @@ export const fakemons: Fakemon[] =
       "PARTINGSHOT",
       "QUICKGUARD"
     ],
-    suffix: "normal"
+    suffix: "normal",
+    evolution: [
+
+    ]
   },
   {
     id: "PERRSERKER",
@@ -104877,7 +108987,10 @@ export const fakemons: Fakemon[] =
       "NIGHTSLASH",
       "SPITE"
     ],
-    suffix: "normal"
+    suffix: "normal",
+    evolution: [
+
+    ]
   },
   {
     id: "CURSOLA",
@@ -104999,7 +109112,10 @@ export const fakemons: Fakemon[] =
       "NATUREPOWER",
       "WATERPULSE"
     ],
-    suffix: "normal"
+    suffix: "normal",
+    evolution: [
+
+    ]
   },
   {
     id: "SIRFETCHD",
@@ -105105,7 +109221,10 @@ export const fakemons: Fakemon[] =
       "SIMPLEBEAM",
       "SKYATTACK"
     ],
-    suffix: "normal"
+    suffix: "normal",
+    evolution: [
+
+    ]
   },
   {
     id: "MRRIME",
@@ -105274,7 +109393,10 @@ export const fakemons: Fakemon[] =
       "POWERSPLIT",
       "TICKLE"
     ],
-    suffix: "normal"
+    suffix: "normal",
+    evolution: [
+
+    ]
   },
   {
     id: "RUNERIGUS",
@@ -105396,7 +109518,10 @@ export const fakemons: Fakemon[] =
     eggMoves: [
       "MEMENTO"
     ],
-    suffix: "normal"
+    suffix: "normal",
+    evolution: [
+
+    ]
   },
   {
     id: "MILCERY",
@@ -105470,7 +109595,14 @@ export const fakemons: Fakemon[] =
       "BABYDOLLEYES",
       "LASTRESORT"
     ],
-    suffix: "normal"
+    suffix: "normal",
+    evolution: [
+      {
+        to: "ALCREMIE",
+        method: "HoldItem",
+        value: "RIBBONSWEET"
+      }
+    ]
   },
   {
     id: "ALCREMIE",
@@ -105572,7 +109704,10 @@ export const fakemons: Fakemon[] =
     eggMoves: [
 
     ],
-    suffix: "normal"
+    suffix: "normal",
+    evolution: [
+
+    ]
   },
   {
     id: "FALINKS",
@@ -105681,7 +109816,10 @@ export const fakemons: Fakemon[] =
     eggMoves: [
 
     ],
-    suffix: "normal"
+    suffix: "normal",
+    evolution: [
+
+    ]
   },
   {
     id: "PINCURCHIN",
@@ -105789,7 +109927,10 @@ export const fakemons: Fakemon[] =
       "MEMENTO",
       "SUCKERPUNCH"
     ],
-    suffix: "normal"
+    suffix: "normal",
+    evolution: [
+
+    ]
   },
   {
     id: "SNOM",
@@ -105856,7 +109997,10 @@ export const fakemons: Fakemon[] =
       "FAIRYWIND",
       "MIRRORCOAT"
     ],
-    suffix: "normal"
+    suffix: "normal",
+    evolution: [
+
+    ]
   },
   {
     id: "FROSMOTH",
@@ -105966,7 +110110,10 @@ export const fakemons: Fakemon[] =
     eggMoves: [
 
     ],
-    suffix: "normal"
+    suffix: "normal",
+    evolution: [
+
+    ]
   },
   {
     id: "STONJOURNER",
@@ -106074,7 +110221,10 @@ export const fakemons: Fakemon[] =
       "ANCIENTPOWER",
       "CURSE"
     ],
-    suffix: "normal"
+    suffix: "normal",
+    evolution: [
+
+    ]
   },
   {
     id: "EISCUE",
@@ -106180,7 +110330,10 @@ export const fakemons: Fakemon[] =
       "ICICLECRASH",
       "SOAK"
     ],
-    suffix: "normal"
+    suffix: "normal",
+    evolution: [
+
+    ]
   },
   {
     id: "INDEEDEE",
@@ -106290,7 +110443,10 @@ export const fakemons: Fakemon[] =
       "FAKEOUT",
       "PSYCHUP"
     ],
-    suffix: "normal"
+    suffix: "normal",
+    evolution: [
+
+    ]
   },
   {
     id: "MORPEKO",
@@ -106414,7 +110570,10 @@ export const fakemons: Fakemon[] =
       "SWAGGER",
       "TICKLE"
     ],
-    suffix: "normal"
+    suffix: "normal",
+    evolution: [
+
+    ]
   },
   {
     id: "CUFANT",
@@ -106524,7 +110683,14 @@ export const fakemons: Fakemon[] =
       "SWAGGER",
       "WHIRLWIND"
     ],
-    suffix: "normal"
+    suffix: "normal",
+    evolution: [
+      {
+        to: "COPPERAJAH",
+        method: "Level",
+        value: "34"
+      }
+    ]
   },
   {
     id: "COPPERAJAH",
@@ -106640,7 +110806,10 @@ export const fakemons: Fakemon[] =
     eggMoves: [
 
     ],
-    suffix: "normal"
+    suffix: "normal",
+    evolution: [
+
+    ]
   },
   {
     id: "DRACOZOLT",
@@ -106746,7 +110915,10 @@ export const fakemons: Fakemon[] =
     eggMoves: [
 
     ],
-    suffix: "normal"
+    suffix: "normal",
+    evolution: [
+
+    ]
   },
   {
     id: "ARCTOZOLT",
@@ -106849,7 +111021,10 @@ export const fakemons: Fakemon[] =
     eggMoves: [
 
     ],
-    suffix: "normal"
+    suffix: "normal",
+    evolution: [
+
+    ]
   },
   {
     id: "DRACOVISH",
@@ -106950,7 +111125,10 @@ export const fakemons: Fakemon[] =
     eggMoves: [
 
     ],
-    suffix: "normal"
+    suffix: "normal",
+    evolution: [
+
+    ]
   },
   {
     id: "ARCTOVISH",
@@ -107046,7 +111224,10 @@ export const fakemons: Fakemon[] =
     eggMoves: [
 
     ],
-    suffix: "normal"
+    suffix: "normal",
+    evolution: [
+
+    ]
   },
   {
     id: "DURALUDON",
@@ -107158,7 +111339,14 @@ export const fakemons: Fakemon[] =
       "NIGHTSLASH",
       "SLASH"
     ],
-    suffix: "normal"
+    suffix: "normal",
+    evolution: [
+      {
+        to: "ARCHALUDON",
+        method: "HoldItem",
+        value: "METALALLOY"
+      }
+    ]
   },
   {
     id: "DREEPY",
@@ -107233,7 +111421,14 @@ export const fakemons: Fakemon[] =
       "GRUDGE",
       "SUCKERPUNCH"
     ],
-    suffix: "normal"
+    suffix: "normal",
+    evolution: [
+      {
+        to: "DRAKLOAK",
+        method: "Level",
+        value: "50"
+      }
+    ]
   },
   {
     id: "DRAKLOAK",
@@ -107348,7 +111543,14 @@ export const fakemons: Fakemon[] =
     eggMoves: [
 
     ],
-    suffix: "normal"
+    suffix: "normal",
+    evolution: [
+      {
+        to: "DRAGAPULT",
+        method: "Level",
+        value: "60"
+      }
+    ]
   },
   {
     id: "DRAGAPULT",
@@ -107471,7 +111673,10 @@ export const fakemons: Fakemon[] =
     eggMoves: [
 
     ],
-    suffix: "normal"
+    suffix: "normal",
+    evolution: [
+
+    ]
   },
   {
     id: "ZACIAN",
@@ -107583,7 +111788,10 @@ export const fakemons: Fakemon[] =
     eggMoves: [
 
     ],
-    suffix: "normal"
+    suffix: "normal",
+    evolution: [
+
+    ]
   },
   {
     id: "ZAMAZENTA",
@@ -107700,7 +111908,10 @@ export const fakemons: Fakemon[] =
     eggMoves: [
 
     ],
-    suffix: "normal"
+    suffix: "normal",
+    evolution: [
+
+    ]
   },
   {
     id: "ETERNATUS",
@@ -107810,7 +112021,10 @@ export const fakemons: Fakemon[] =
     eggMoves: [
 
     ],
-    suffix: "normal"
+    suffix: "normal",
+    evolution: [
+
+    ]
   },
   {
     id: "KUBFU",
@@ -107911,7 +112125,14 @@ export const fakemons: Fakemon[] =
     eggMoves: [
 
     ],
-    suffix: "normal"
+    suffix: "normal",
+    evolution: [
+      {
+        to: "URSHIFU",
+        method: "Item",
+        value: "SCROLLOFWATERS"
+      }
+    ]
   },
   {
     id: "URSHIFU",
@@ -108041,7 +112262,10 @@ export const fakemons: Fakemon[] =
     eggMoves: [
 
     ],
-    suffix: "normal"
+    suffix: "normal",
+    evolution: [
+
+    ]
   },
   {
     id: "ZARUDE",
@@ -108173,7 +112397,10 @@ export const fakemons: Fakemon[] =
     eggMoves: [
 
     ],
-    suffix: "normal"
+    suffix: "normal",
+    evolution: [
+
+    ]
   },
   {
     id: "REGIELEKI",
@@ -108268,7 +112495,10 @@ export const fakemons: Fakemon[] =
     eggMoves: [
 
     ],
-    suffix: "normal"
+    suffix: "normal",
+    evolution: [
+
+    ]
   },
   {
     id: "REGIDRAGO",
@@ -108359,7 +112589,10 @@ export const fakemons: Fakemon[] =
     eggMoves: [
 
     ],
-    suffix: "normal"
+    suffix: "normal",
+    evolution: [
+
+    ]
   },
   {
     id: "GLASTRIER",
@@ -108462,7 +112695,10 @@ export const fakemons: Fakemon[] =
     eggMoves: [
 
     ],
-    suffix: "normal"
+    suffix: "normal",
+    evolution: [
+
+    ]
   },
   {
     id: "SPECTRIER",
@@ -108563,7 +112799,10 @@ export const fakemons: Fakemon[] =
     eggMoves: [
 
     ],
-    suffix: "normal"
+    suffix: "normal",
+    evolution: [
+
+    ]
   },
   {
     id: "CALYREX",
@@ -108685,7 +112924,10 @@ export const fakemons: Fakemon[] =
     eggMoves: [
 
     ],
-    suffix: "normal"
+    suffix: "normal",
+    evolution: [
+
+    ]
   },
   {
     id: "WYRDEER",
@@ -108794,7 +113036,10 @@ export const fakemons: Fakemon[] =
     eggMoves: [
 
     ],
-    suffix: "normal"
+    suffix: "normal",
+    evolution: [
+
+    ]
   },
   {
     id: "KLEAVOR",
@@ -108893,7 +113138,10 @@ export const fakemons: Fakemon[] =
     eggMoves: [
 
     ],
-    suffix: "normal"
+    suffix: "normal",
+    evolution: [
+
+    ]
   },
   {
     id: "URSALUNA",
@@ -109009,7 +113257,10 @@ export const fakemons: Fakemon[] =
     eggMoves: [
 
     ],
-    suffix: "normal"
+    suffix: "normal",
+    evolution: [
+
+    ]
   },
   {
     id: "BASCULEGION",
@@ -109109,7 +113360,10 @@ export const fakemons: Fakemon[] =
     eggMoves: [
 
     ],
-    suffix: "normal"
+    suffix: "normal",
+    evolution: [
+
+    ]
   },
   {
     id: "SNEASLER",
@@ -109218,7 +113472,10 @@ export const fakemons: Fakemon[] =
     eggMoves: [
 
     ],
-    suffix: "normal"
+    suffix: "normal",
+    evolution: [
+
+    ]
   },
   {
     id: "OVERQWIL",
@@ -109323,7 +113580,10 @@ export const fakemons: Fakemon[] =
     eggMoves: [
 
     ],
-    suffix: "normal"
+    suffix: "normal",
+    evolution: [
+
+    ]
   },
   {
     id: "ENAMORUS",
@@ -109416,7 +113676,10 @@ export const fakemons: Fakemon[] =
     eggMoves: [
 
     ],
-    suffix: "normal"
+    suffix: "normal",
+    evolution: [
+
+    ]
   },
   {
     id: "SPRIGATITO",
@@ -109502,7 +113765,14 @@ export const fakemons: Fakemon[] =
       "PETALBLIZZARD",
       "SUCKERPUNCH"
     ],
-    suffix: "normal"
+    suffix: "normal",
+    evolution: [
+      {
+        to: "FLORAGATO",
+        method: "Level",
+        value: "16"
+      }
+    ]
   },
   {
     id: "FLORAGATO",
@@ -109590,7 +113860,14 @@ export const fakemons: Fakemon[] =
     eggMoves: [
 
     ],
-    suffix: "normal"
+    suffix: "normal",
+    evolution: [
+      {
+        to: "MEOWSCARADA",
+        method: "Level",
+        value: "36"
+      }
+    ]
   },
   {
     id: "MEOWSCARADA",
@@ -109707,7 +113984,10 @@ export const fakemons: Fakemon[] =
     eggMoves: [
 
     ],
-    suffix: "normal"
+    suffix: "normal",
+    evolution: [
+
+    ]
   },
   {
     id: "FUECOCO",
@@ -109793,7 +114073,14 @@ export const fakemons: Fakemon[] =
       "ENCORE",
       "SLACKOFF"
     ],
-    suffix: "normal"
+    suffix: "normal",
+    evolution: [
+      {
+        to: "CROCALOR",
+        method: "Level",
+        value: "16"
+      }
+    ]
   },
   {
     id: "CROCALOR",
@@ -109878,7 +114165,14 @@ export const fakemons: Fakemon[] =
     eggMoves: [
 
     ],
-    suffix: "normal"
+    suffix: "normal",
+    evolution: [
+      {
+        to: "SKELEDIRGE",
+        method: "Level",
+        value: "36"
+      }
+    ]
   },
   {
     id: "SKELEDIRGE",
@@ -109986,7 +114280,10 @@ export const fakemons: Fakemon[] =
     eggMoves: [
 
     ],
-    suffix: "normal"
+    suffix: "normal",
+    evolution: [
+
+    ]
   },
   {
     id: "QUAXLY",
@@ -110064,7 +114361,14 @@ export const fakemons: Fakemon[] =
       "RAPIDSPIN",
       "ROOST"
     ],
-    suffix: "normal"
+    suffix: "normal",
+    evolution: [
+      {
+        to: "QUAXWELL",
+        method: "Level",
+        value: "16"
+      }
+    ]
   },
   {
     id: "QUAXWELL",
@@ -110147,7 +114451,14 @@ export const fakemons: Fakemon[] =
     eggMoves: [
 
     ],
-    suffix: "normal"
+    suffix: "normal",
+    evolution: [
+      {
+        to: "QUAQUAVAL",
+        method: "Level",
+        value: "36"
+      }
+    ]
   },
   {
     id: "QUAQUAVAL",
@@ -110255,7 +114566,10 @@ export const fakemons: Fakemon[] =
     eggMoves: [
 
     ],
-    suffix: "normal"
+    suffix: "normal",
+    evolution: [
+
+    ]
   },
   {
     id: "LECHONK",
@@ -110339,7 +114653,14 @@ export const fakemons: Fakemon[] =
       "STUFFCHEEKS",
       "SWALLOW"
     ],
-    suffix: "normal"
+    suffix: "normal",
+    evolution: [
+      {
+        to: "OINKOLOGNE",
+        method: "Level",
+        value: "18"
+      }
+    ]
   },
   {
     id: "OINKOLOGNE",
@@ -110429,7 +114750,10 @@ export const fakemons: Fakemon[] =
     eggMoves: [
 
     ],
-    suffix: "normal"
+    suffix: "normal",
+    evolution: [
+
+    ]
   },
   {
     id: "TAROUNTULA",
@@ -110512,7 +114836,14 @@ export const fakemons: Fakemon[] =
       "MEMENTO",
       "SUCKERPUNCH"
     ],
-    suffix: "normal"
+    suffix: "normal",
+    evolution: [
+      {
+        to: "SPIDOPS",
+        method: "Level",
+        value: "15"
+      }
+    ]
   },
   {
     id: "SPIDOPS",
@@ -110606,7 +114937,10 @@ export const fakemons: Fakemon[] =
     eggMoves: [
 
     ],
-    suffix: "normal"
+    suffix: "normal",
+    evolution: [
+
+    ]
   },
   {
     id: "NYMBLE",
@@ -110676,7 +115010,14 @@ export const fakemons: Fakemon[] =
       "COUNTER",
       "SKITTERSMACK"
     ],
-    suffix: "normal"
+    suffix: "normal",
+    evolution: [
+      {
+        to: "LOKIX",
+        method: "Level",
+        value: "24"
+      }
+    ]
   },
   {
     id: "LOKIX",
@@ -110769,7 +115110,10 @@ export const fakemons: Fakemon[] =
     eggMoves: [
 
     ],
-    suffix: "normal"
+    suffix: "normal",
+    evolution: [
+
+    ]
   },
   {
     id: "PAWMI",
@@ -110858,7 +115202,14 @@ export const fakemons: Fakemon[] =
       "SWEETKISS",
       "WISH"
     ],
-    suffix: "normal"
+    suffix: "normal",
+    evolution: [
+      {
+        to: "PAWMO",
+        method: "Level",
+        value: "18"
+      }
+    ]
   },
   {
     id: "PAWMO",
@@ -110953,7 +115304,14 @@ export const fakemons: Fakemon[] =
     eggMoves: [
 
     ],
-    suffix: "normal"
+    suffix: "normal",
+    evolution: [
+      {
+        to: "PAWMOT",
+        method: "Counter",
+        value: "1000"
+      }
+    ]
   },
   {
     id: "PAWMOT",
@@ -111067,7 +115425,10 @@ export const fakemons: Fakemon[] =
     eggMoves: [
 
     ],
-    suffix: "normal"
+    suffix: "normal",
+    evolution: [
+
+    ]
   },
   {
     id: "TANDEMAUS",
@@ -111159,7 +115520,14 @@ export const fakemons: Fakemon[] =
       "SWITCHEROO",
       "TICKLE"
     ],
-    suffix: "normal"
+    suffix: "normal",
+    evolution: [
+      {
+        to: "MAUSHOLD",
+        method: "LevelBattle",
+        value: "25"
+      }
+    ]
   },
   {
     id: "MAUSHOLD",
@@ -111252,7 +115620,10 @@ export const fakemons: Fakemon[] =
     eggMoves: [
 
     ],
-    suffix: "normal"
+    suffix: "normal",
+    evolution: [
+
+    ]
   },
   {
     id: "FIDOUGH",
@@ -111340,7 +115711,14 @@ export const fakemons: Fakemon[] =
       "WISH",
       "YAWN"
     ],
-    suffix: "normal"
+    suffix: "normal",
+    evolution: [
+      {
+        to: "DACHSBUN",
+        method: "Level",
+        value: "26"
+      }
+    ]
   },
   {
     id: "DACHSBUN",
@@ -111429,7 +115807,10 @@ export const fakemons: Fakemon[] =
     eggMoves: [
 
     ],
-    suffix: "normal"
+    suffix: "normal",
+    evolution: [
+
+    ]
   },
   {
     id: "SMOLIV",
@@ -111505,7 +115886,14 @@ export const fakemons: Fakemon[] =
       "SYNTHESIS",
       "WEATHERBALL"
     ],
-    suffix: "normal"
+    suffix: "normal",
+    evolution: [
+      {
+        to: "DOLLIV",
+        method: "Level",
+        value: "25"
+      }
+    ]
   },
   {
     id: "DOLLIV",
@@ -111578,7 +115966,14 @@ export const fakemons: Fakemon[] =
     eggMoves: [
 
     ],
-    suffix: "normal"
+    suffix: "normal",
+    evolution: [
+      {
+        to: "ARBOLIVA",
+        method: "Level",
+        value: "35"
+      }
+    ]
   },
   {
     id: "ARBOLIVA",
@@ -111668,7 +116063,10 @@ export const fakemons: Fakemon[] =
     eggMoves: [
 
     ],
-    suffix: "normal"
+    suffix: "normal",
+    evolution: [
+
+    ]
   },
   {
     id: "SQUAWKABILLY",
@@ -111759,7 +116157,10 @@ export const fakemons: Fakemon[] =
       "FLATTER",
       "PARTINGSHOT"
     ],
-    suffix: "normal"
+    suffix: "normal",
+    evolution: [
+
+    ]
   },
   {
     id: "NACLI",
@@ -111843,7 +116244,14 @@ export const fakemons: Fakemon[] =
       "FISSURE",
       "POWERGEM"
     ],
-    suffix: "normal"
+    suffix: "normal",
+    evolution: [
+      {
+        to: "NACLSTACK",
+        method: "Level",
+        value: "24"
+      }
+    ]
   },
   {
     id: "NACLSTACK",
@@ -111929,7 +116337,14 @@ export const fakemons: Fakemon[] =
     eggMoves: [
 
     ],
-    suffix: "normal"
+    suffix: "normal",
+    evolution: [
+      {
+        to: "GARGANACL",
+        method: "Level",
+        value: "38"
+      }
+    ]
   },
   {
     id: "GARGANACL",
@@ -112030,7 +116445,10 @@ export const fakemons: Fakemon[] =
     eggMoves: [
 
     ],
-    suffix: "normal"
+    suffix: "normal",
+    evolution: [
+
+    ]
   },
   {
     id: "CHARCADET",
@@ -112098,7 +116516,14 @@ export const fakemons: Fakemon[] =
       "DISABLE",
       "SPITE"
     ],
-    suffix: "normal"
+    suffix: "normal",
+    evolution: [
+      {
+        to: "CERULEDGE",
+        method: "Item",
+        value: "MALICIOUSARMOR"
+      }
+    ]
   },
   {
     id: "ARMAROUGE",
@@ -112200,7 +116625,10 @@ export const fakemons: Fakemon[] =
     eggMoves: [
 
     ],
-    suffix: "normal"
+    suffix: "normal",
+    evolution: [
+
+    ]
   },
   {
     id: "CERULEDGE",
@@ -112302,7 +116730,10 @@ export const fakemons: Fakemon[] =
     eggMoves: [
 
     ],
-    suffix: "normal"
+    suffix: "normal",
+    evolution: [
+
+    ]
   },
   {
     id: "TADBULB",
@@ -112383,7 +116814,14 @@ export const fakemons: Fakemon[] =
       "PARABOLICCHARGE",
       "SOAK"
     ],
-    suffix: "normal"
+    suffix: "normal",
+    evolution: [
+      {
+        to: "BELLIBOLT",
+        method: "Item",
+        value: "THUNDERSTONE"
+      }
+    ]
   },
   {
     id: "BELLIBOLT",
@@ -112467,7 +116905,10 @@ export const fakemons: Fakemon[] =
     eggMoves: [
 
     ],
-    suffix: "normal"
+    suffix: "normal",
+    evolution: [
+
+    ]
   },
   {
     id: "WATTREL",
@@ -112556,7 +116997,14 @@ export const fakemons: Fakemon[] =
       "SWALLOW",
       "WEATHERBALL"
     ],
-    suffix: "normal"
+    suffix: "normal",
+    evolution: [
+      {
+        to: "KILOWATTREL",
+        method: "Level",
+        value: "25"
+      }
+    ]
   },
   {
     id: "KILOWATTREL",
@@ -112646,7 +117094,10 @@ export const fakemons: Fakemon[] =
     eggMoves: [
 
     ],
-    suffix: "normal"
+    suffix: "normal",
+    evolution: [
+
+    ]
   },
   {
     id: "MASCHIFF",
@@ -112732,7 +117183,14 @@ export const fakemons: Fakemon[] =
       "PLAYROUGH",
       "RETALIATE"
     ],
-    suffix: "normal"
+    suffix: "normal",
+    evolution: [
+      {
+        to: "MABOSSTIFF",
+        method: "Level",
+        value: "30"
+      }
+    ]
   },
   {
     id: "MABOSSTIFF",
@@ -112825,7 +117283,10 @@ export const fakemons: Fakemon[] =
     eggMoves: [
 
     ],
-    suffix: "normal"
+    suffix: "normal",
+    evolution: [
+
+    ]
   },
   {
     id: "SHROODLE",
@@ -112923,7 +117384,14 @@ export const fakemons: Fakemon[] =
       "SWAGGER",
       "TOXIC"
     ],
-    suffix: "normal"
+    suffix: "normal",
+    evolution: [
+      {
+        to: "GRAFAIAI",
+        method: "Level",
+        value: "28"
+      }
+    ]
   },
   {
     id: "GRAFAIAI",
@@ -113023,7 +117491,10 @@ export const fakemons: Fakemon[] =
     eggMoves: [
 
     ],
-    suffix: "normal"
+    suffix: "normal",
+    evolution: [
+
+    ]
   },
   {
     id: "BRAMBLIN",
@@ -113108,7 +117579,14 @@ export const fakemons: Fakemon[] =
       "SHADOWSNEAK",
       "STRENGTHSAP"
     ],
-    suffix: "normal"
+    suffix: "normal",
+    evolution: [
+      {
+        to: "BRAMBLEGHAST",
+        method: "Counter",
+        value: "1000"
+      }
+    ]
   },
   {
     id: "BRAMBLEGHAST",
@@ -113192,7 +117670,10 @@ export const fakemons: Fakemon[] =
     eggMoves: [
 
     ],
-    suffix: "normal"
+    suffix: "normal",
+    evolution: [
+
+    ]
   },
   {
     id: "TOEDSCOOL",
@@ -113293,7 +117774,14 @@ export const fakemons: Fakemon[] =
       "TICKLE",
       "TOXIC"
     ],
-    suffix: "normal"
+    suffix: "normal",
+    evolution: [
+      {
+        to: "TOEDSCRUEL",
+        method: "Level",
+        value: "30"
+      }
+    ]
   },
   {
     id: "TOEDSCRUEL",
@@ -113391,7 +117879,10 @@ export const fakemons: Fakemon[] =
     eggMoves: [
 
     ],
-    suffix: "normal"
+    suffix: "normal",
+    evolution: [
+
+    ]
   },
   {
     id: "KLAWF",
@@ -113491,7 +117982,10 @@ export const fakemons: Fakemon[] =
       "ENDEAVOR",
       "KNOCKOFF"
     ],
-    suffix: "normal"
+    suffix: "normal",
+    evolution: [
+
+    ]
   },
   {
     id: "CAPSAKID",
@@ -113571,7 +118065,14 @@ export const fakemons: Fakemon[] =
       "ROLLOUT",
       "WORRYSEED"
     ],
-    suffix: "normal"
+    suffix: "normal",
+    evolution: [
+      {
+        to: "SCOVILLAIN",
+        method: "Item",
+        value: "FIRESTONE"
+      }
+    ]
   },
   {
     id: "SCOVILLAIN",
@@ -113664,7 +118165,10 @@ export const fakemons: Fakemon[] =
     eggMoves: [
 
     ],
-    suffix: "normal"
+    suffix: "normal",
+    evolution: [
+
+    ]
   },
   {
     id: "RELLOR",
@@ -113738,7 +118242,14 @@ export const fakemons: Fakemon[] =
       "RECOVER",
       "WEATHERBALL"
     ],
-    suffix: "normal"
+    suffix: "normal",
+    evolution: [
+      {
+        to: "RABSCA",
+        method: "Counter",
+        value: "1000"
+      }
+    ]
   },
   {
     id: "RABSCA",
@@ -113850,7 +118361,10 @@ export const fakemons: Fakemon[] =
     eggMoves: [
 
     ],
-    suffix: "normal"
+    suffix: "normal",
+    evolution: [
+
+    ]
   },
   {
     id: "FLITTLE",
@@ -113934,7 +118448,14 @@ export const fakemons: Fakemon[] =
       "HYPNOSIS",
       "ROOST"
     ],
-    suffix: "normal"
+    suffix: "normal",
+    evolution: [
+      {
+        to: "ESPATHRA",
+        method: "Level",
+        value: "35"
+      }
+    ]
   },
   {
     id: "ESPATHRA",
@@ -114039,7 +118560,10 @@ export const fakemons: Fakemon[] =
     eggMoves: [
 
     ],
-    suffix: "normal"
+    suffix: "normal",
+    evolution: [
+
+    ]
   },
   {
     id: "TINKATINK",
@@ -114127,7 +118651,14 @@ export const fakemons: Fakemon[] =
       "ICEHAMMER",
       "QUASH"
     ],
-    suffix: "normal"
+    suffix: "normal",
+    evolution: [
+      {
+        to: "TINKATUFF",
+        method: "Level",
+        value: "24"
+      }
+    ]
   },
   {
     id: "TINKATUFF",
@@ -114214,7 +118745,14 @@ export const fakemons: Fakemon[] =
     eggMoves: [
 
     ],
-    suffix: "normal"
+    suffix: "normal",
+    evolution: [
+      {
+        to: "TINKATON",
+        method: "Level",
+        value: "38"
+      }
+    ]
   },
   {
     id: "TINKATON",
@@ -114306,7 +118844,10 @@ export const fakemons: Fakemon[] =
     eggMoves: [
 
     ],
-    suffix: "normal"
+    suffix: "normal",
+    evolution: [
+
+    ]
   },
   {
     id: "WIGLETT",
@@ -114385,7 +118926,14 @@ export const fakemons: Fakemon[] =
       "FINALGAMBIT",
       "MEMENTO"
     ],
-    suffix: "normal"
+    suffix: "normal",
+    evolution: [
+      {
+        to: "WUGTRIO",
+        method: "Level",
+        value: "26"
+      }
+    ]
   },
   {
     id: "WUGTRIO",
@@ -114467,7 +119015,10 @@ export const fakemons: Fakemon[] =
     eggMoves: [
 
     ],
-    suffix: "normal"
+    suffix: "normal",
+    evolution: [
+
+    ]
   },
   {
     id: "BOMBIRDIER",
@@ -114570,7 +119121,10 @@ export const fakemons: Fakemon[] =
       "SKYATTACK",
       "SUCKERPUNCH"
     ],
-    suffix: "normal"
+    suffix: "normal",
+    evolution: [
+
+    ]
   },
   {
     id: "FINIZEN",
@@ -114653,7 +119207,14 @@ export const fakemons: Fakemon[] =
       "HAZE",
       "TICKLE"
     ],
-    suffix: "normal"
+    suffix: "normal",
+    evolution: [
+      {
+        to: "PALAFIN",
+        method: "Level",
+        value: "38"
+      }
+    ]
   },
   {
     id: "PALAFIN",
@@ -114756,7 +119317,10 @@ export const fakemons: Fakemon[] =
     eggMoves: [
 
     ],
-    suffix: "normal"
+    suffix: "normal",
+    evolution: [
+
+    ]
   },
   {
     id: "VAROOM",
@@ -114846,7 +119410,14 @@ export const fakemons: Fakemon[] =
       "TORMENT",
       "TOXIC"
     ],
-    suffix: "normal"
+    suffix: "normal",
+    evolution: [
+      {
+        to: "REVAVROOM",
+        method: "Level",
+        value: "40"
+      }
+    ]
   },
   {
     id: "REVAVROOM",
@@ -114943,7 +119514,10 @@ export const fakemons: Fakemon[] =
     eggMoves: [
 
     ],
-    suffix: "normal"
+    suffix: "normal",
+    evolution: [
+
+    ]
   },
   {
     id: "CYCLIZAR",
@@ -115041,7 +119615,10 @@ export const fakemons: Fakemon[] =
       "KNOCKOFF",
       "POWERWHIP"
     ],
-    suffix: "normal"
+    suffix: "normal",
+    evolution: [
+
+    ]
   },
   {
     id: "ORTHWORM",
@@ -115129,7 +119706,10 @@ export const fakemons: Fakemon[] =
       "CURSE",
       "METALBURST"
     ],
-    suffix: "normal"
+    suffix: "normal",
+    evolution: [
+
+    ]
   },
   {
     id: "GLIMMET",
@@ -115214,7 +119794,14 @@ export const fakemons: Fakemon[] =
       "MEMENTO",
       "TOXIC"
     ],
-    suffix: "normal"
+    suffix: "normal",
+    evolution: [
+      {
+        to: "GLIMMORA",
+        method: "Level",
+        value: "35"
+      }
+    ]
   },
   {
     id: "GLIMMORA",
@@ -115306,7 +119893,10 @@ export const fakemons: Fakemon[] =
     eggMoves: [
 
     ],
-    suffix: "normal"
+    suffix: "normal",
+    evolution: [
+
+    ]
   },
   {
     id: "GREAVARD",
@@ -115401,7 +119991,14 @@ export const fakemons: Fakemon[] =
       "SHADOWSNEAK",
       "YAWN"
     ],
-    suffix: "normal"
+    suffix: "normal",
+    evolution: [
+      {
+        to: "HOUNDSTONE",
+        method: "LevelNight",
+        value: "30"
+      }
+    ]
   },
   {
     id: "HOUNDSTONE",
@@ -115495,7 +120092,10 @@ export const fakemons: Fakemon[] =
     eggMoves: [
 
     ],
-    suffix: "normal"
+    suffix: "normal",
+    evolution: [
+
+    ]
   },
   {
     id: "FLAMIGO",
@@ -115589,7 +120189,10 @@ export const fakemons: Fakemon[] =
       "QUICKGUARD",
       "SKYATTACK"
     ],
-    suffix: "normal"
+    suffix: "normal",
+    evolution: [
+
+    ]
   },
   {
     id: "CETODDLE",
@@ -115681,7 +120284,14 @@ export const fakemons: Fakemon[] =
       "SUPERPOWER",
       "YAWN"
     ],
-    suffix: "normal"
+    suffix: "normal",
+    evolution: [
+      {
+        to: "CETITAN",
+        method: "Item",
+        value: "ICESTONE"
+      }
+    ]
   },
   {
     id: "CETITAN",
@@ -115772,7 +120382,10 @@ export const fakemons: Fakemon[] =
     eggMoves: [
 
     ],
-    suffix: "normal"
+    suffix: "normal",
+    evolution: [
+
+    ]
   },
   {
     id: "VELUZA",
@@ -115859,7 +120472,10 @@ export const fakemons: Fakemon[] =
       "RECOVER",
       "THRASH"
     ],
-    suffix: "normal"
+    suffix: "normal",
+    evolution: [
+
+    ]
   },
   {
     id: "DONDOZO",
@@ -115947,7 +120563,10 @@ export const fakemons: Fakemon[] =
       "THRASH",
       "YAWN"
     ],
-    suffix: "normal"
+    suffix: "normal",
+    evolution: [
+
+    ]
   },
   {
     id: "TATSUGIRI",
@@ -116025,7 +120644,10 @@ export const fakemons: Fakemon[] =
       "COUNTER",
       "RAPIDSPIN"
     ],
-    suffix: "normal"
+    suffix: "normal",
+    evolution: [
+
+    ]
   },
   {
     id: "ANNIHILAPE",
@@ -116145,7 +120767,10 @@ export const fakemons: Fakemon[] =
     eggMoves: [
 
     ],
-    suffix: "normal"
+    suffix: "normal",
+    evolution: [
+
+    ]
   },
   {
     id: "CLODSIRE",
@@ -116248,7 +120873,10 @@ export const fakemons: Fakemon[] =
     eggMoves: [
 
     ],
-    suffix: "normal"
+    suffix: "normal",
+    evolution: [
+
+    ]
   },
   {
     id: "FARIGIRAF",
@@ -116365,7 +120993,10 @@ export const fakemons: Fakemon[] =
     eggMoves: [
 
     ],
-    suffix: "normal"
+    suffix: "normal",
+    evolution: [
+
+    ]
   },
   {
     id: "DUDUNSPARCE",
@@ -116492,7 +121123,10 @@ export const fakemons: Fakemon[] =
     eggMoves: [
 
     ],
-    suffix: "normal"
+    suffix: "normal",
+    evolution: [
+
+    ]
   },
   {
     id: "KINGAMBIT",
@@ -116593,7 +121227,10 @@ export const fakemons: Fakemon[] =
     eggMoves: [
 
     ],
-    suffix: "normal"
+    suffix: "normal",
+    evolution: [
+
+    ]
   },
   {
     id: "GREATTUSK",
@@ -116697,7 +121334,10 @@ export const fakemons: Fakemon[] =
     eggMoves: [
 
     ],
-    suffix: "normal"
+    suffix: "normal",
+    evolution: [
+
+    ]
   },
   {
     id: "SCREAMTAIL",
@@ -116822,7 +121462,10 @@ export const fakemons: Fakemon[] =
     eggMoves: [
 
     ],
-    suffix: "normal"
+    suffix: "normal",
+    evolution: [
+
+    ]
   },
   {
     id: "BRUTEBONNET",
@@ -116912,7 +121555,10 @@ export const fakemons: Fakemon[] =
     eggMoves: [
 
     ],
-    suffix: "normal"
+    suffix: "normal",
+    evolution: [
+
+    ]
   },
   {
     id: "FLUTTERMANE",
@@ -117007,7 +121653,10 @@ export const fakemons: Fakemon[] =
     eggMoves: [
 
     ],
-    suffix: "normal"
+    suffix: "normal",
+    evolution: [
+
+    ]
   },
   {
     id: "SLITHERWING",
@@ -117108,7 +121757,10 @@ export const fakemons: Fakemon[] =
     eggMoves: [
 
     ],
-    suffix: "normal"
+    suffix: "normal",
+    evolution: [
+
+    ]
   },
   {
     id: "SANDYSHOCKS",
@@ -117207,7 +121859,10 @@ export const fakemons: Fakemon[] =
     eggMoves: [
 
     ],
-    suffix: "normal"
+    suffix: "normal",
+    evolution: [
+
+    ]
   },
   {
     id: "IRONTREADS",
@@ -117305,7 +121960,10 @@ export const fakemons: Fakemon[] =
     eggMoves: [
 
     ],
-    suffix: "normal"
+    suffix: "normal",
+    evolution: [
+
+    ]
   },
   {
     id: "IRONBUNDLE",
@@ -117393,7 +122051,10 @@ export const fakemons: Fakemon[] =
     eggMoves: [
 
     ],
-    suffix: "normal"
+    suffix: "normal",
+    evolution: [
+
+    ]
   },
   {
     id: "IRONHANDS",
@@ -117492,7 +122153,10 @@ export const fakemons: Fakemon[] =
     eggMoves: [
 
     ],
-    suffix: "normal"
+    suffix: "normal",
+    evolution: [
+
+    ]
   },
   {
     id: "IRONJUGULIS",
@@ -117596,7 +122260,10 @@ export const fakemons: Fakemon[] =
     eggMoves: [
 
     ],
-    suffix: "normal"
+    suffix: "normal",
+    evolution: [
+
+    ]
   },
   {
     id: "IRONMOTH",
@@ -117695,7 +122362,10 @@ export const fakemons: Fakemon[] =
     eggMoves: [
 
     ],
-    suffix: "normal"
+    suffix: "normal",
+    evolution: [
+
+    ]
   },
   {
     id: "IRONTHORNS",
@@ -117821,7 +122491,10 @@ export const fakemons: Fakemon[] =
     eggMoves: [
 
     ],
-    suffix: "normal"
+    suffix: "normal",
+    evolution: [
+
+    ]
   },
   {
     id: "FRIGIBAX",
@@ -117900,7 +122573,14 @@ export const fakemons: Fakemon[] =
       "FREEZEDRY",
       "ICICLESPEAR"
     ],
-    suffix: "normal"
+    suffix: "normal",
+    evolution: [
+      {
+        to: "ARCTIBAX",
+        method: "Level",
+        value: "35"
+      }
+    ]
   },
   {
     id: "ARCTIBAX",
@@ -117979,7 +122659,14 @@ export const fakemons: Fakemon[] =
     eggMoves: [
 
     ],
-    suffix: "normal"
+    suffix: "normal",
+    evolution: [
+      {
+        to: "BAXCALIBUR",
+        method: "Level",
+        value: "54"
+      }
+    ]
   },
   {
     id: "BAXCALIBUR",
@@ -118078,7 +122765,10 @@ export const fakemons: Fakemon[] =
     eggMoves: [
 
     ],
-    suffix: "normal"
+    suffix: "normal",
+    evolution: [
+
+    ]
   },
   {
     id: "GIMMIGHOUL",
@@ -118131,7 +122821,14 @@ export const fakemons: Fakemon[] =
     eggMoves: [
 
     ],
-    suffix: "normal"
+    suffix: "normal",
+    evolution: [
+      {
+        to: "GHOLDENGO",
+        method: "LevelCoins",
+        value: "999"
+      }
+    ]
   },
   {
     id: "GHOLDENGO",
@@ -118219,7 +122916,10 @@ export const fakemons: Fakemon[] =
     eggMoves: [
 
     ],
-    suffix: "normal"
+    suffix: "normal",
+    evolution: [
+
+    ]
   },
   {
     id: "WOCHIEN",
@@ -118314,7 +123014,10 @@ export const fakemons: Fakemon[] =
     eggMoves: [
 
     ],
-    suffix: "normal"
+    suffix: "normal",
+    evolution: [
+
+    ]
   },
   {
     id: "CHIENPAO",
@@ -118403,7 +123106,10 @@ export const fakemons: Fakemon[] =
     eggMoves: [
 
     ],
-    suffix: "normal"
+    suffix: "normal",
+    evolution: [
+
+    ]
   },
   {
     id: "TINGLU",
@@ -118495,7 +123201,10 @@ export const fakemons: Fakemon[] =
     eggMoves: [
 
     ],
-    suffix: "normal"
+    suffix: "normal",
+    evolution: [
+
+    ]
   },
   {
     id: "CHIYU",
@@ -118584,7 +123293,10 @@ export const fakemons: Fakemon[] =
     eggMoves: [
 
     ],
-    suffix: "normal"
+    suffix: "normal",
+    evolution: [
+
+    ]
   },
   {
     id: "ROARINGMOON",
@@ -118699,7 +123411,10 @@ export const fakemons: Fakemon[] =
     eggMoves: [
 
     ],
-    suffix: "normal"
+    suffix: "normal",
+    evolution: [
+
+    ]
   },
   {
     id: "IRONVALIANT",
@@ -118820,7 +123535,10 @@ export const fakemons: Fakemon[] =
     eggMoves: [
 
     ],
-    suffix: "normal"
+    suffix: "normal",
+    evolution: [
+
+    ]
   },
   {
     id: "KORAIDON",
@@ -118939,7 +123657,10 @@ export const fakemons: Fakemon[] =
     eggMoves: [
 
     ],
-    suffix: "normal"
+    suffix: "normal",
+    evolution: [
+
+    ]
   },
   {
     id: "MIRAIDON",
@@ -119041,7 +123762,10 @@ export const fakemons: Fakemon[] =
     eggMoves: [
 
     ],
-    suffix: "normal"
+    suffix: "normal",
+    evolution: [
+
+    ]
   },
   {
     id: "WALKINGWAKE",
@@ -119138,7 +123862,10 @@ export const fakemons: Fakemon[] =
     eggMoves: [
 
     ],
-    suffix: "normal"
+    suffix: "normal",
+    evolution: [
+
+    ]
   },
   {
     id: "IRONLEAVES",
@@ -119238,7 +123965,10 @@ export const fakemons: Fakemon[] =
     eggMoves: [
 
     ],
-    suffix: "normal"
+    suffix: "normal",
+    evolution: [
+
+    ]
   },
   {
     id: "DIPPLIN",
@@ -119322,7 +124052,14 @@ export const fakemons: Fakemon[] =
     eggMoves: [
 
     ],
-    suffix: "normal"
+    suffix: "normal",
+    evolution: [
+      {
+        to: "HYDRAPPLE",
+        method: "HasMove",
+        value: "DRAGONCHEER"
+      }
+    ]
   },
   {
     id: "POLTCHAGEIST",
@@ -119401,7 +124138,14 @@ export const fakemons: Fakemon[] =
     eggMoves: [
 
     ],
-    suffix: "normal"
+    suffix: "normal",
+    evolution: [
+      {
+        to: "SINISTCHA",
+        method: "Item",
+        value: "UNREMARKABLETEACUP"
+      }
+    ]
   },
   {
     id: "SINISTCHA",
@@ -119482,7 +124226,10 @@ export const fakemons: Fakemon[] =
     eggMoves: [
 
     ],
-    suffix: "normal"
+    suffix: "normal",
+    evolution: [
+
+    ]
   },
   {
     id: "OKIDOGI",
@@ -119588,7 +124335,10 @@ export const fakemons: Fakemon[] =
     eggMoves: [
 
     ],
-    suffix: "normal"
+    suffix: "normal",
+    evolution: [
+
+    ]
   },
   {
     id: "MUNKIDORI",
@@ -119687,7 +124437,10 @@ export const fakemons: Fakemon[] =
     eggMoves: [
 
     ],
-    suffix: "normal"
+    suffix: "normal",
+    evolution: [
+
+    ]
   },
   {
     id: "FEZANDIPITI",
@@ -119787,7 +124540,10 @@ export const fakemons: Fakemon[] =
     eggMoves: [
 
     ],
-    suffix: "normal"
+    suffix: "normal",
+    evolution: [
+
+    ]
   },
   {
     id: "OGERPON",
@@ -119886,7 +124642,10 @@ export const fakemons: Fakemon[] =
     eggMoves: [
 
     ],
-    suffix: "normal"
+    suffix: "normal",
+    evolution: [
+
+    ]
   },
   {
     id: "ARCHALUDON",
@@ -119987,7 +124746,10 @@ export const fakemons: Fakemon[] =
     eggMoves: [
 
     ],
-    suffix: "normal"
+    suffix: "normal",
+    evolution: [
+
+    ]
   },
   {
     id: "HYDRAPPLE",
@@ -120086,7 +124848,10 @@ export const fakemons: Fakemon[] =
     eggMoves: [
 
     ],
-    suffix: "normal"
+    suffix: "normal",
+    evolution: [
+
+    ]
   },
   {
     id: "GOUGINGFIRE",
@@ -120189,7 +124954,10 @@ export const fakemons: Fakemon[] =
     eggMoves: [
 
     ],
-    suffix: "normal"
+    suffix: "normal",
+    evolution: [
+
+    ]
   },
   {
     id: "RAGINGBOLT",
@@ -120288,7 +125056,10 @@ export const fakemons: Fakemon[] =
     eggMoves: [
 
     ],
-    suffix: "normal"
+    suffix: "normal",
+    evolution: [
+
+    ]
   },
   {
     id: "IRONBOULDER",
@@ -120379,7 +125150,10 @@ export const fakemons: Fakemon[] =
     eggMoves: [
 
     ],
-    suffix: "normal"
+    suffix: "normal",
+    evolution: [
+
+    ]
   },
   {
     id: "IRONCROWN",
@@ -120473,7 +125247,10 @@ export const fakemons: Fakemon[] =
     eggMoves: [
 
     ],
-    suffix: "normal"
+    suffix: "normal",
+    evolution: [
+
+    ]
   },
   {
     id: "TERAPAGOS",
@@ -120572,7 +125349,10 @@ export const fakemons: Fakemon[] =
     eggMoves: [
 
     ],
-    suffix: "normal"
+    suffix: "normal",
+    evolution: [
+
+    ]
   },
   {
     id: "PECHARUNT",
@@ -120647,6 +125427,9 @@ export const fakemons: Fakemon[] =
     eggMoves: [
 
     ],
-    suffix: "normal"
+    suffix: "normal",
+    evolution: [
+
+    ]
   }
 ]

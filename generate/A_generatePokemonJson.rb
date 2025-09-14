@@ -38,7 +38,8 @@ def parse_fakemons(lines, suffix)
         moves: [],
         tutorMoves: [],
         eggMoves: [],
-        suffix: suffix
+        suffix: suffix,   
+        evolution: []
       }
     elsif current
       key, value = line.split("=", 2).map(&:strip)
@@ -80,6 +81,15 @@ def parse_fakemons(lines, suffix)
         current[:category] = value
       when "Pokedex"
         current[:description] = value
+      when "Evolution"
+        evo_parts = value.split(",").map(&:strip)
+        if evo_parts.size == 3
+          current[:evolution] = [
+            to: evo_parts[0],
+            method: evo_parts[1],
+            value: evo_parts[2]
+        ]
+        end
       end
     end
   end
@@ -109,6 +119,7 @@ def parse_moves(lines, suffix)
         target: "",
         description: "",
         suffix: suffix,
+     
         # passiveEffect: nil
       }
     elsif current
@@ -133,6 +144,7 @@ def parse_moves(lines, suffix)
         current[:description] = value
       when "PasiveDescription"
         current[:passiveEffect] = value
+        # Evolution = BEHCEDRO,Level,16
       end
     end
   end

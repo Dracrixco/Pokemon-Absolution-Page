@@ -1,32 +1,26 @@
 import type { Fakemon } from "@/types/fakemon";
 
-export const fakemons: Fakemon[] = 
-[
+export const fakemons: Fakemon[] = [
   {
     id: "BEHBIDAR",
     name: "Behbidar",
-    types: [
-      "GRASS"
-    ],
+    types: ["GRASS"],
     sprite: "/Front/BEHBIDAR.png",
     backSprite: "/spritesBack/BEHBIDAR.png",
-    description: "It tends to try to look intimidating to keep Pokemon away, but the truth is that it is a super calm Pokemon that tends to avoid conflict.",
+    description:
+      "It tends to try to look intimidating to keep Pokemon away, but the truth is that it is a super calm Pokemon that tends to avoid conflict.",
     stats: {
       hp: 50,
       attack: 58,
       defense: 60,
       spAttack: 44,
       spDefense: 62,
-      speed: 33
+      speed: 33,
     },
     height: "0.4",
     weight: "50.0",
-    abilities: [
-      "OVERGROW"
-    ],
-    hiddenAbilities: [
-      "JUNGLEPROTECTOR"
-    ],
+    abilities: ["OVERGROW"],
+    hiddenAbilities: ["JUNGLEPROTECTOR"],
     category: "???",
     moves: [
       "TACKLE",
@@ -39,7 +33,7 @@ export const fakemons: Fakemon[] =
       "GRASSYTERRAIN",
       "ANCIENTPOWER",
       "IRONDEFENSE",
-      "DIG"
+      "DIG",
     ],
     tutorMoves: [
       "FLOWERFANG",
@@ -108,7 +102,7 @@ export const fakemons: Fakemon[] =
       "WORKUP",
       "WORRYSEED",
       "ROCKTOMB",
-      "FALSESWIPE"
+      "FALSESWIPE",
     ],
     eggMoves: [
       "AMNESIA",
@@ -138,35 +132,37 @@ export const fakemons: Fakemon[] =
       "STONEEDGE",
       "HAMMERARM",
       "ROCKPOLISH",
-      "STEALTHROCK"
+      "STEALTHROCK",
     ],
-    suffix: "absolution"
+    suffix: "absolution",
+    evolution: [
+      {
+        to: "BEHCEDRO",
+        method: "Level",
+        value: "16",
+      },
+    ],
   },
   {
     id: "BEHCEDRO",
     name: "Behcedro",
-    types: [
-      "GRASS"
-    ],
+    types: ["GRASS"],
     sprite: "/Front/BEHCEDRO.png",
     backSprite: "/spritesBack/BEHCEDRO.png",
-    description: "They tend to avoid groups with other Pokemon that are not of the same species, they avoid any type of conflict but will not hesitate to defend themselves.",
+    description:
+      "They tend to avoid groups with other Pokemon that are not of the same species, they avoid any type of conflict but will not hesitate to defend themselves.",
     stats: {
       hp: 68,
       attack: 77,
       defense: 78,
       spAttack: 58,
       spDefense: 81,
-      speed: 52
+      speed: 52,
     },
     height: "2.1",
     weight: "200.0",
-    abilities: [
-      "OVERGROW"
-    ],
-    hiddenAbilities: [
-      "JUNGLEPROTECTOR"
-    ],
+    abilities: ["OVERGROW"],
+    hiddenAbilities: ["JUNGLEPROTECTOR"],
     category: "???",
     moves: [
       "TACKLE",
@@ -187,7 +183,7 @@ export const fakemons: Fakemon[] =
       "SEEDBOMB",
       "SPIKES",
       "EARTHQUAKE",
-      "STOMP"
+      "STOMP",
     ],
     tutorMoves: [
       "FLOWERFANG",
@@ -276,39 +272,38 @@ export const fakemons: Fakemon[] =
       "STONEEDGE",
       "HAMMERARM",
       "ROCKPOLISH",
-      "STEALTHROCK"
+      "STEALTHROCK",
     ],
-    eggMoves: [
-
+    eggMoves: [],
+    suffix: "absolution",
+    evolution: [
+      {
+        to: "BEHDAREX",
+        method: "Level",
+        value: "36",
+      },
     ],
-    suffix: "absolution"
   },
   {
     id: "BEHDAREX",
     name: "Behdarex",
-    types: [
-      "GRASS",
-      "GROUND"
-    ],
+    types: ["GRASS", "GROUND"],
     sprite: "/Front/BEHDAREX.png",
     backSprite: "/spritesBack/BEHDAREX.png",
-    description: "It takes advantage of its enormous size and appearance to scare away Pokemon, despite this, it is usually a very quiet Pokemon.",
+    description:
+      "It takes advantage of its enormous size and appearance to scare away Pokemon, despite this, it is usually a very quiet Pokemon.",
     stats: {
       hp: 89,
       attack: 101,
       defense: 102,
       spAttack: 75,
       spDefense: 106,
-      speed: 68
+      speed: 68,
     },
     height: "5.0",
     weight: "300.0",
-    abilities: [
-      "OVERGROW"
-    ],
-    hiddenAbilities: [
-      "JUNGLEPROTECTOR"
-    ],
+    abilities: ["OVERGROW"],
+    hiddenAbilities: ["JUNGLEPROTECTOR"],
     category: "???",
     moves: [
       "TACKLE",
@@ -336,7 +331,7 @@ export const fakemons: Fakemon[] =
       "STONEEDGE",
       "HAMMERARM",
       "ROCKPOLISH",
-      "STEALTHROCK"
+      "STEALTHROCK",
     ],
     tutorMoves: [
       "FLOWERFANG",
@@ -418,38 +413,32 @@ export const fakemons: Fakemon[] =
       "POWERWHIP",
       "SKULLBASH",
       "SLUDGE",
-      "TOXIC"
+      "TOXIC",
     ],
-    eggMoves: [
-
-    ],
-    suffix: "absolution"
+    eggMoves: [],
+    suffix: "absolution",
+    evolution: [],
   },
   {
     id: "ZISINGE",
     name: "Zisinge",
-    types: [
-      "FIRE"
-    ],
+    types: ["FIRE"],
     sprite: "/Front/ZISINGE.png",
     backSprite: "/spritesBack/ZISINGE.png",
-    description: "They usually practice all day long to control their flames, and can throw their explosive feathers to defend themselves.",
+    description:
+      "They usually practice all day long to control their flames, and can throw their explosive feathers to defend themselves.",
     stats: {
       hp: 39,
       attack: 48,
       defense: 51,
       spAttack: 59,
       spDefense: 52,
-      speed: 61
+      speed: 61,
     },
     height: "0.4",
     weight: "2.5",
-    abilities: [
-      "BLAZE"
-    ],
-    hiddenAbilities: [
-      "TOTHELIMIT"
-    ],
+    abilities: ["BLAZE"],
+    hiddenAbilities: ["TOTHELIMIT"],
     category: "???",
     moves: [
       "SCRATCH",
@@ -461,7 +450,7 @@ export const fakemons: Fakemon[] =
       "FLAMECHARGE",
       "DOUBLEKICK",
       "WHIRLWIND",
-      "INCINERATE"
+      "INCINERATE",
     ],
     tutorMoves: [
       "PLUCK",
@@ -565,38 +554,38 @@ export const fakemons: Fakemon[] =
       "WEATHERBALL",
       "WILLOWISP",
       "WORKUP",
-      "FALSESWIPE"
+      "FALSESWIPE",
     ],
-    eggMoves: [
-
+    eggMoves: [],
+    suffix: "absolution",
+    evolution: [
+      {
+        to: "ZISSUN",
+        method: "Level",
+        value: "16",
+      },
     ],
-    suffix: "absolution"
   },
   {
     id: "ZISSUN",
     name: "Zissun",
-    types: [
-      "FIRE"
-    ],
+    types: ["FIRE"],
     sprite: "/Front/ZISSUN.png",
     backSprite: "/spritesBack/ZISSUN.png",
-    description: "They face any Pokemon they come across, they have a great control over their explosive feathers, managing to launch them at a high speed.",
+    description:
+      "They face any Pokemon they come across, they have a great control over their explosive feathers, managing to launch them at a high speed.",
     stats: {
       hp: 55,
       attack: 63,
       defense: 67,
       spAttack: 79,
       spDefense: 68,
-      speed: 82
+      speed: 82,
     },
     height: "1.2",
     weight: "100.0",
-    abilities: [
-      "BLAZE"
-    ],
-    hiddenAbilities: [
-      "TOTHELIMIT"
-    ],
+    abilities: ["BLAZE"],
+    hiddenAbilities: ["TOTHELIMIT"],
     category: "???",
     moves: [
       "SCRATCH",
@@ -613,7 +602,7 @@ export const fakemons: Fakemon[] =
       "DETECT",
       "SCREECH",
       "BURNTHELIMIT",
-      "FACADE"
+      "FACADE",
     ],
     tutorMoves: [
       "PLUCK",
@@ -728,39 +717,38 @@ export const fakemons: Fakemon[] =
       "DOUBLEEDGE",
       "TAILWIND",
       "BRAVEBIRD",
-      "FLAREBLITZ"
+      "FLAREBLITZ",
     ],
-    eggMoves: [
-
+    eggMoves: [],
+    suffix: "absolution",
+    evolution: [
+      {
+        to: "ZIZZENIT",
+        method: "Level",
+        value: "36",
+      },
     ],
-    suffix: "absolution"
   },
   {
     id: "ZIZZENIT",
     name: "Zizzenit",
-    types: [
-      "FIRE",
-      "FLYING"
-    ],
+    types: ["FIRE", "FLYING"],
     sprite: "/Front/ZIZZENIT.png",
     backSprite: "/spritesBack/ZIZZENIT.png",
-    description: "It flies high in the air looking for Pokemon to face, its fiery flames simulating the sun when it flies.",
+    description:
+      "It flies high in the air looking for Pokemon to face, its fiery flames simulating the sun when it flies.",
     stats: {
       hp: 70,
       attack: 78,
       defense: 77,
       spAttack: 123,
       spDefense: 75,
-      speed: 119
+      speed: 119,
     },
     height: "3.0",
     weight: "155.0",
-    abilities: [
-      "BLAZE"
-    ],
-    hiddenAbilities: [
-      "TOTHELIMIT"
-    ],
+    abilities: ["BLAZE"],
+    hiddenAbilities: ["TOTHELIMIT"],
     category: "???",
     moves: [
       "SCRATCH",
@@ -788,7 +776,7 @@ export const fakemons: Fakemon[] =
       "DOUBLEEDGE",
       "TAILWIND",
       "BRAVEBIRD",
-      "FLAREBLITZ"
+      "FLAREBLITZ",
     ],
     tutorMoves: [
       "PLUCK",
@@ -892,38 +880,32 @@ export const fakemons: Fakemon[] =
       "WEATHERBALL",
       "WILLOWISP",
       "WORKUP",
-      "FALSESWIPE"
+      "FALSESWIPE",
     ],
-    eggMoves: [
-
-    ],
-    suffix: "absolution"
+    eggMoves: [],
+    suffix: "absolution",
+    evolution: [],
   },
   {
     id: "LEVIATINY",
     name: "Leviatiny",
-    types: [
-      "WATER"
-    ],
+    types: ["WATER"],
     sprite: "/Front/LEVIATINY.png",
     backSprite: "/spritesBack/LEVIATINY.png",
-    description: "It generates a thick and toxic foam on contact, it is not immune to its own poison...",
+    description:
+      "It generates a thick and toxic foam on contact, it is not immune to its own poison...",
     stats: {
       hp: 49,
       attack: 53,
       defense: 52,
       spAttack: 59,
       spDefense: 50,
-      speed: 51
+      speed: 51,
     },
     height: "0.5",
     weight: "20.0",
-    abilities: [
-      "TORRENT"
-    ],
-    hiddenAbilities: [
-      "NEUROTOXIN"
-    ],
+    abilities: ["TORRENT"],
+    hiddenAbilities: ["NEUROTOXIN"],
     category: "???",
     moves: [
       "POUND",
@@ -936,7 +918,7 @@ export const fakemons: Fakemon[] =
       "AGILITY",
       "TWISTER",
       "FLIPTURN",
-      "GASTROACID"
+      "GASTROACID",
     ],
     tutorMoves: [
       "AQUATAIL",
@@ -1005,7 +987,7 @@ export const fakemons: Fakemon[] =
       "WORKUP",
       "ZENHEADBUTT",
       "POWDERSNOW",
-      "FALSESWIPE"
+      "FALSESWIPE",
     ],
     eggMoves: [
       "ICICLESPEAR",
@@ -1022,35 +1004,37 @@ export const fakemons: Fakemon[] =
       "HYDROPUMP",
       "GUNKSHOT",
       "BLIZZARD",
-      "WAVECRASH"
+      "WAVECRASH",
     ],
-    suffix: "absolution"
+    suffix: "absolution",
+    evolution: [
+      {
+        to: "LEVIATEEN",
+        method: "Level",
+        value: "16",
+      },
+    ],
   },
   {
     id: "LEVIATEEN",
     name: "Leviateen",
-    types: [
-      "WATER"
-    ],
+    types: ["WATER"],
     sprite: "/Front/LEVIATEEN.png",
     backSprite: "/spritesBack/LEVIATEEN.png",
-    description: "Its dense foam is used for antidotes and cedants, if it feels in danger it can expel industrial quantities of this poison.",
+    description:
+      "Its dense foam is used for antidotes and cedants, if it feels in danger it can expel industrial quantities of this poison.",
     stats: {
       hp: 64,
       attack: 79,
       defense: 69,
       spAttack: 70,
       spDefense: 66,
-      speed: 67
+      speed: 67,
     },
     height: "1.5",
     weight: "78.0",
-    abilities: [
-      "TORRENT"
-    ],
-    hiddenAbilities: [
-      "NEUROTOXIN"
-    ],
+    abilities: ["TORRENT"],
+    hiddenAbilities: ["NEUROTOXIN"],
     category: "???",
     moves: [
       "POUND",
@@ -1070,7 +1054,7 @@ export const fakemons: Fakemon[] =
       "THUNDERFANG",
       "AQUARING",
       "DRAGONBREATH",
-      "CROSSPOISON"
+      "CROSSPOISON",
     ],
     tutorMoves: [
       "AQUATAIL",
@@ -1147,39 +1131,38 @@ export const fakemons: Fakemon[] =
       "HYDROPUMP",
       "GUNKSHOT",
       "BLIZZARD",
-      "WAVECRASH"
+      "WAVECRASH",
     ],
-    eggMoves: [
-
+    eggMoves: [],
+    suffix: "absolution",
+    evolution: [
+      {
+        to: "LEVIATITAN",
+        method: "Level",
+        value: "36",
+      },
     ],
-    suffix: "absolution"
   },
   {
     id: "LEVIATITAN",
     name: "Leviatitan",
-    types: [
-      "WATER",
-      "POISON"
-    ],
+    types: ["WATER", "POISON"],
     sprite: "/Front/LEVIATITAN.png",
     backSprite: "/spritesBack/LEVIATITAN.png",
-    description: "It hunts large Pokemon to feed, uses their venom to immobilize and weaken them, and if the hunt gets complicated, it floods its target with large quantities of toxic foam.",
+    description:
+      "It hunts large Pokemon to feed, uses their venom to immobilize and weaken them, and if the hunt gets complicated, it floods its target with large quantities of toxic foam.",
     stats: {
       hp: 83,
       attack: 98,
       defense: 85,
       spAttack: 86,
       spDefense: 81,
-      speed: 99
+      speed: 99,
     },
     height: "3.0",
     weight: "123.0",
-    abilities: [
-      "TORRENT"
-    ],
-    hiddenAbilities: [
-      "NEUROTOXIN"
-    ],
+    abilities: ["TORRENT"],
+    hiddenAbilities: ["NEUROTOXIN"],
     category: "???",
     moves: [
       "POUND",
@@ -1207,7 +1190,7 @@ export const fakemons: Fakemon[] =
       "HYDROPUMP",
       "GUNKSHOT",
       "BLIZZARD",
-      "WAVECRASH"
+      "WAVECRASH",
     ],
     tutorMoves: [
       "AQUATAIL",
@@ -1284,39 +1267,32 @@ export const fakemons: Fakemon[] =
       "HYDROPUMP",
       "GUNKSHOT",
       "BLIZZARD",
-      "WAVECRASH"
+      "WAVECRASH",
     ],
-    eggMoves: [
-
-    ],
-    suffix: "absolution"
+    eggMoves: [],
+    suffix: "absolution",
+    evolution: [],
   },
   {
     id: "FATALTTY",
     name: "Fataltty",
-    types: [
-      "DARK",
-      "GHOST"
-    ],
+    types: ["DARK", "GHOST"],
     sprite: "/Front/FATALTTY.png",
     backSprite: "/spritesBack/FATALTTY.png",
-    description: "Many Pokémon tend to be quite attracted to this Pokémon, which it uses to its advantage to control them and get food, although it does not enjoy this.",
+    description:
+      "Many Pokémon tend to be quite attracted to this Pokémon, which it uses to its advantage to control them and get food, although it does not enjoy this.",
     stats: {
       hp: 81,
       attack: 111,
       defense: 90,
       spAttack: 57,
       spDefense: 63,
-      speed: 122
+      speed: 122,
     },
     height: "1.8",
     weight: "6.9",
-    abilities: [
-      "CUTECHARM"
-    ],
-    hiddenAbilities: [
-      "VAMP"
-    ],
+    abilities: ["CUTECHARM"],
+    hiddenAbilities: ["VAMP"],
     category: "Cat",
     moves: [
       "TACKLE",
@@ -1344,7 +1320,7 @@ export const fakemons: Fakemon[] =
       "EXTREMESPEED",
       "CRUNCH",
       "DESTINYBOND",
-      "HYPERVOICE"
+      "HYPERVOICE",
     ],
     tutorMoves: [
       "FLOWERFANG",
@@ -1392,39 +1368,32 @@ export const fakemons: Fakemon[] =
       "SWIFT",
       "UPROAR",
       "WORKUP",
-      "ZENHEADBUTT"
+      "ZENHEADBUTT",
     ],
-    eggMoves: [
-      "CHARM"
-    ],
-    suffix: "absolution"
+    eggMoves: ["CHARM"],
+    suffix: "absolution",
+    evolution: [],
   },
   {
     id: "CONDLING",
     name: "Condling",
-    types: [
-      "FLYING"
-    ],
+    types: ["FLYING"],
     sprite: "/Front/CONDLING.png",
     backSprite: "/spritesBack/CONDLING.png",
-    description: "They are often seen collecting bones of Dragon-type Pokemon, despite not possessing feathers, they are believed to be able to fly.",
+    description:
+      "They are often seen collecting bones of Dragon-type Pokemon, despite not possessing feathers, they are believed to be able to fly.",
     stats: {
       hp: 35,
       attack: 40,
       defense: 56,
       spAttack: 25,
       spDefense: 54,
-      speed: 31
+      speed: 31,
     },
     height: "0.2",
     weight: "1.0",
-    abilities: [
-      "KEENEYE",
-      "BIGPECKS"
-    ],
-    hiddenAbilities: [
-      "TAILWINDBLESS"
-    ],
+    abilities: ["KEENEYE", "BIGPECKS"],
+    hiddenAbilities: ["TAILWINDBLESS"],
     category: "Bald Bird",
     moves: [
       "GROWL",
@@ -1452,7 +1421,7 @@ export const fakemons: Fakemon[] =
       "DRAGONRUSH",
       "PERISHSONG",
       "PUNISHMENT",
-      "MIRRORMOVE"
+      "MIRRORMOVE",
     ],
     tutorMoves: [
       "AERIALACE",
@@ -1494,43 +1463,38 @@ export const fakemons: Fakemon[] =
       "TWISTER",
       "UPROAR",
       "UTURN",
-      "WORKUP"
+      "WORKUP",
     ],
-    eggMoves: [
-      "AIRCUTTER",
-      "AIRSLASH",
-      "BRAVEBIRD",
-      "UPROAR"
+    eggMoves: ["AIRCUTTER", "AIRSLASH", "BRAVEBIRD", "UPROAR"],
+    suffix: "absolution",
+    evolution: [
+      {
+        to: "BONEVEIL",
+        method: "Level",
+        value: "16",
+      },
     ],
-    suffix: "absolution"
   },
   {
     id: "BONEVEIL",
     name: "Boneveil",
-    types: [
-      "FLYING",
-      "FAIRY"
-    ],
+    types: ["FLYING", "FAIRY"],
     sprite: "/Front/BONEVEIL.png",
     backSprite: "/spritesBack/BONEVEIL.png",
-    description: "It lives high in the mountains, humans and Pokemon come to this Pokemon to cure curses and minor illnesses.",
+    description:
+      "It lives high in the mountains, humans and Pokemon come to this Pokemon to cure curses and minor illnesses.",
     stats: {
       hp: 63,
       attack: 46,
       defense: 73,
       spAttack: 41,
       spDefense: 69,
-      speed: 58
+      speed: 58,
     },
     height: "1.1",
     weight: "50.0",
-    abilities: [
-      "KEENEYE",
-      "BIGPECKS"
-    ],
-    hiddenAbilities: [
-      "TAILWINDBLESS"
-    ],
+    abilities: ["KEENEYE", "BIGPECKS"],
+    hiddenAbilities: ["TAILWINDBLESS"],
     category: "Shaman",
     moves: [
       "PECK",
@@ -1558,7 +1522,7 @@ export const fakemons: Fakemon[] =
       "DRAGONRUSH",
       "PERISHSONG",
       "PUNISHMENT",
-      "MIRRORMOVE"
+      "MIRRORMOVE",
     ],
     tutorMoves: [
       "AERIALACE",
@@ -1600,43 +1564,38 @@ export const fakemons: Fakemon[] =
       "TWISTER",
       "UPROAR",
       "UTURN",
-      "WORKUP"
+      "WORKUP",
     ],
-    eggMoves: [
-      "AIRCUTTER",
-      "AIRSLASH",
-      "BRAVEBIRD",
-      "UPROAR"
+    eggMoves: ["AIRCUTTER", "AIRSLASH", "BRAVEBIRD", "UPROAR"],
+    suffix: "absolution",
+    evolution: [
+      {
+        to: "CONDEMNA",
+        method: "Level",
+        value: "40",
+      },
     ],
-    suffix: "absolution"
   },
   {
     id: "CONDEMNA",
     name: "Condemna",
-    types: [
-      "FLYING",
-      "FAIRY"
-    ],
+    types: ["FLYING", "FAIRY"],
     sprite: "/Front/CONDEMNA.png",
     backSprite: "/spritesBack/CONDEMNA.png",
-    description: "They have an inner hatred of dragon-type Pokemon, and are often very aggressive towards them. Their feathers are said to have enormous healing effects.",
+    description:
+      "They have an inner hatred of dragon-type Pokemon, and are often very aggressive towards them. Their feathers are said to have enormous healing effects.",
     stats: {
       hp: 92,
       attack: 85,
       defense: 111,
       spAttack: 82,
       spDefense: 104,
-      speed: 75
+      speed: 75,
     },
     height: "2.0",
     weight: "125.5",
-    abilities: [
-      "KEENEYE",
-      "BIGPECKS"
-    ],
-    hiddenAbilities: [
-      "TAILWINDBLESS"
-    ],
+    abilities: ["KEENEYE", "BIGPECKS"],
+    hiddenAbilities: ["TAILWINDBLESS"],
     category: "Shaman",
     moves: [
       "PECK",
@@ -1664,7 +1623,7 @@ export const fakemons: Fakemon[] =
       "DRAGONRUSH",
       "PERISHSONG",
       "PUNISHMENT",
-      "MIRRORMOVE"
+      "MIRRORMOVE",
     ],
     tutorMoves: [
       "AERIALACE",
@@ -1706,42 +1665,32 @@ export const fakemons: Fakemon[] =
       "TWISTER",
       "UPROAR",
       "UTURN",
-      "WORKUP"
+      "WORKUP",
     ],
-    eggMoves: [
-      "AIRCUTTER",
-      "AIRSLASH",
-      "BRAVEBIRD",
-      "UPROAR"
-    ],
-    suffix: "absolution"
+    eggMoves: ["AIRCUTTER", "AIRSLASH", "BRAVEBIRD", "UPROAR"],
+    suffix: "absolution",
+    evolution: [],
   },
   {
     id: "WOOLARVA",
     name: "Woolarva",
-    types: [
-      "BUG"
-    ],
+    types: ["BUG"],
     sprite: "/Front/WOOLARVA.png",
     backSprite: "/spritesBack/WOOLARVA.png",
-    description: "Its silk is very resistant, so it is often used for various garments.",
+    description:
+      "Its silk is very resistant, so it is often used for various garments.",
     stats: {
       hp: 45,
       attack: 30,
       defense: 25,
       spAttack: 20,
       spDefense: 20,
-      speed: 70
+      speed: 70,
     },
     height: "0.1",
     weight: "0.1",
-    abilities: [
-      "SHIELDDUST",
-      "LIKESILK"
-    ],
-    hiddenAbilities: [
-
-    ],
+    abilities: ["SHIELDDUST", "LIKESILK"],
+    hiddenAbilities: [],
     category: "???",
     moves: [
       "TACKLE",
@@ -1761,7 +1710,7 @@ export const fakemons: Fakemon[] =
       "ECHOEDVOICE",
       "POLLENPUFF",
       "SUPERSONIC",
-      "QUIVERDANCE"
+      "QUIVERDANCE",
     ],
     tutorMoves: [
       "AERIALACE",
@@ -1815,39 +1764,38 @@ export const fakemons: Fakemon[] =
       "THIEF",
       "VENOSHOCK",
       "WORRYSEED",
-      "XSCISSOR"
+      "XSCISSOR",
     ],
-    eggMoves: [
-
+    eggMoves: [],
+    suffix: "absolution",
+    evolution: [
+      {
+        to: "WOOBACOON",
+        method: "Level",
+        value: "10",
+      },
     ],
-    suffix: "absolution"
   },
   {
     id: "WOOBACOON",
     name: "Woobacoon",
-    types: [
-      "BUG"
-    ],
+    types: ["BUG"],
     sprite: "/Front/WOOBACOON.png",
     backSprite: "/spritesBack/WOOBACOON.png",
-    description: "It does not usually move much, it uses its silk to defend itself from predators.",
+    description:
+      "It does not usually move much, it uses its silk to defend itself from predators.",
     stats: {
       hp: 80,
       attack: 48,
       defense: 77,
       spAttack: 40,
       spDefense: 80,
-      speed: 75
+      speed: 75,
     },
     height: "0.3",
     weight: "10.7",
-    abilities: [
-      "SHIELDDUST",
-      "LIKESILK"
-    ],
-    hiddenAbilities: [
-
-    ],
+    abilities: ["SHIELDDUST", "LIKESILK"],
+    hiddenAbilities: [],
     category: "???",
     moves: [
       "TACKLE",
@@ -1867,7 +1815,7 @@ export const fakemons: Fakemon[] =
       "ECHOEDVOICE",
       "POLLENPUFF",
       "SUPERSONIC",
-      "QUIVERDANCE"
+      "QUIVERDANCE",
     ],
     tutorMoves: [
       "AERIALACE",
@@ -1921,40 +1869,38 @@ export const fakemons: Fakemon[] =
       "THIEF",
       "VENOSHOCK",
       "WORRYSEED",
-      "XSCISSOR"
+      "XSCISSOR",
     ],
-    eggMoves: [
-
+    eggMoves: [],
+    suffix: "absolution",
+    evolution: [
+      {
+        to: "WEAMOTH",
+        method: "Item",
+        value: "TWILIGHTSTONE",
+      },
     ],
-    suffix: "absolution"
   },
   {
     id: "WEAMOTH",
     name: "Weamoth",
-    types: [
-      "BUG",
-      "FAIRY"
-    ],
+    types: ["BUG", "FAIRY"],
     sprite: "/Front/WEAMOTH.png",
     backSprite: "/spritesBack/WEAMOTH.png",
-    description: "Its beautiful silk is used to create high-quality garments, making it a very attractive Pokemon for designers and stylists.",
+    description:
+      "Its beautiful silk is used to create high-quality garments, making it a very attractive Pokemon for designers and stylists.",
     stats: {
       hp: 114,
       attack: 53,
       defense: 117,
       spAttack: 75,
       spDefense: 128,
-      speed: 76
+      speed: 76,
     },
     height: "1.0",
     weight: "30.7",
-    abilities: [
-      "SHIELDDUST",
-      "LIKESILK"
-    ],
-    hiddenAbilities: [
-
-    ],
+    abilities: ["SHIELDDUST", "LIKESILK"],
+    hiddenAbilities: [],
     category: "???",
     moves: [
       "TACKLE",
@@ -1982,7 +1928,7 @@ export const fakemons: Fakemon[] =
       "TAILWIND",
       "ROOST",
       "OMINOUSWIND",
-      "AURORAVEIL"
+      "AURORAVEIL",
     ],
     tutorMoves: [
       "AERIALACE",
@@ -2036,39 +1982,32 @@ export const fakemons: Fakemon[] =
       "THIEF",
       "VENOSHOCK",
       "WORRYSEED",
-      "XSCISSOR"
+      "XSCISSOR",
     ],
-    eggMoves: [
-
-    ],
-    suffix: "absolution"
+    eggMoves: [],
+    suffix: "absolution",
+    evolution: [],
   },
   {
     id: "SORROWOOF",
     name: "Sorrowoof",
-    types: [
-      "NORMAL"
-    ],
+    types: ["NORMAL"],
     sprite: "/Front/SORROWOOF.png",
     backSprite: "/spritesBack/SORROWOOF.png",
-    description: "They tend to forage in dumpsters, are quite fearful and tend to avoid unnecessary conflict at all costs, which makes them victims of abusive Pokémon.",
+    description:
+      "They tend to forage in dumpsters, are quite fearful and tend to avoid unnecessary conflict at all costs, which makes them victims of abusive Pokémon.",
     stats: {
       hp: 65,
       attack: 43,
       defense: 42,
       spAttack: 38,
       spDefense: 38,
-      speed: 43
+      speed: 43,
     },
     height: "0.5",
     weight: "13.6",
-    abilities: [
-      "RUNAWAY",
-      "INTIMIDATE"
-    ],
-    hiddenAbilities: [
-      "STAMINA"
-    ],
+    abilities: ["RUNAWAY", "INTIMIDATE"],
+    hiddenAbilities: ["STAMINA"],
     category: "Puppy",
     moves: [
       "TACKLE",
@@ -2096,7 +2035,7 @@ export const fakemons: Fakemon[] =
       "ROAR",
       "PAINSPLIT",
       "PLAYROUGH",
-      "CLOSECOMBAT"
+      "CLOSECOMBAT",
     ],
     tutorMoves: [
       "FLOWERFANG",
@@ -2161,40 +2100,38 @@ export const fakemons: Fakemon[] =
       "THUNDERFANG",
       "TORMENT",
       "TRAILBLAZE",
-      "UPROAR"
+      "UPROAR",
     ],
-    eggMoves: [
-      "CHARM"
+    eggMoves: ["CHARM"],
+    suffix: "absolution",
+    evolution: [
+      {
+        to: "WOOFIGHTER",
+        method: "Level",
+        value: "22",
+      },
     ],
-    suffix: "absolution"
   },
   {
     id: "WOOFIGHTER",
     name: "Woofighter",
-    types: [
-      "NORMAL",
-      "FIGHTING"
-    ],
+    types: ["NORMAL", "FIGHTING"],
     sprite: "/Front/WOOFIGHTER.png",
     backSprite: "/spritesBack/WOOFIGHTER.png",
-    description: "They tend to avoid combat, but when it comes to defending their trainer, they won't hesitate for a second to fight and defeat anything that comes their way.",
+    description:
+      "They tend to avoid combat, but when it comes to defending their trainer, they won't hesitate for a second to fight and defeat anything that comes their way.",
     stats: {
       hp: 85,
       attack: 97,
       defense: 95,
       spAttack: 70,
       spDefense: 83,
-      speed: 80
+      speed: 80,
     },
     height: "2.0",
     weight: "70.0",
-    abilities: [
-      "INTIMIDATE",
-      "MOXIE"
-    ],
-    hiddenAbilities: [
-      "IRONFIST"
-    ],
+    abilities: ["INTIMIDATE", "MOXIE"],
+    hiddenAbilities: ["IRONFIST"],
     category: "Puppy",
     moves: [
       "CROSSCHOP",
@@ -2223,7 +2160,7 @@ export const fakemons: Fakemon[] =
       "ROAR",
       "PAINSPLIT",
       "PLAYROUGH",
-      "CLOSECOMBAT"
+      "CLOSECOMBAT",
     ],
     tutorMoves: [
       "FLOWERFANG",
@@ -2297,38 +2234,32 @@ export const fakemons: Fakemon[] =
       "ICEPUNCH",
       "DYNAMICPUNCH",
       "FOCUSPUNCH",
-      "BRICKBREAK"
+      "BRICKBREAK",
     ],
-    eggMoves: [
-      "CHARM"
-    ],
-    suffix: "absolution"
+    eggMoves: ["CHARM"],
+    suffix: "absolution",
+    evolution: [],
   },
   {
     id: "YUNTTER",
     name: "Yuntter",
-    types: [
-      "WATER"
-    ],
+    types: ["WATER"],
     sprite: "/Front/YUNTTER.png",
     backSprite: "/spritesBack/YUNTTER.png",
-    description: "It is always seen with a rock and is known to be very territorial, not tolerating visits from unfamiliar Trainers or Pokémon. However, if you prove yourself to be an honorable Trainer, you will have no trouble.",
+    description:
+      "It is always seen with a rock and is known to be very territorial, not tolerating visits from unfamiliar Trainers or Pokémon. However, if you prove yourself to be an honorable Trainer, you will have no trouble.",
     stats: {
       hp: 38,
       attack: 35,
       defense: 25,
       spAttack: 30,
       spDefense: 25,
-      speed: 100
+      speed: 100,
     },
     height: "0.4",
     weight: "6.0",
-    abilities: [
-      "TORRENT"
-    ],
-    hiddenAbilities: [
-      "SNIPER"
-    ],
+    abilities: ["TORRENT"],
+    hiddenAbilities: ["SNIPER"],
     category: "Otter",
     moves: [
       "PURSUIT",
@@ -2356,7 +2287,7 @@ export const fakemons: Fakemon[] =
       "SHERIFFSHOT",
       "DRILLRUN",
       "FLASHCANNON",
-      "HYDROPUMP"
+      "HYDROPUMP",
     ],
     tutorMoves: [
       "AGILITY",
@@ -2420,39 +2351,38 @@ export const fakemons: Fakemon[] =
       "THIEF",
       "WATERFALL",
       "WATERPULSE",
-      "WHIRLPOOL"
+      "WHIRLPOOL",
     ],
-    eggMoves: [
-
+    eggMoves: [],
+    suffix: "absolution",
+    evolution: [
+      {
+        to: "GUMSTTER",
+        method: "Level",
+        value: "20",
+      },
     ],
-    suffix: "absolution"
   },
   {
     id: "GUMSTTER",
     name: "Gumstter",
-    types: [
-      "WATER",
-      "GROUND"
-    ],
+    types: ["WATER", "GROUND"],
     sprite: "/Front/GUMSTTER.png",
     backSprite: "/spritesBack/GUMSTTER.png",
-    description: "It protects its own with great ferocity and has remarkable aim. It is said to be able to hit a target from a kilometer away.",
+    description:
+      "It protects its own with great ferocity and has remarkable aim. It is said to be able to hit a target from a kilometer away.",
     stats: {
       hp: 63,
       attack: 48,
       defense: 52,
       spAttack: 102,
       spDefense: 46,
-      speed: 107
+      speed: 107,
     },
     height: "90.0",
     weight: "1.6",
-    abilities: [
-      "TORRENT"
-    ],
-    hiddenAbilities: [
-      "SNIPER"
-    ],
+    abilities: ["TORRENT"],
+    hiddenAbilities: ["SNIPER"],
     category: "Big Otter",
     moves: [
       "PURSUIT",
@@ -2480,7 +2410,7 @@ export const fakemons: Fakemon[] =
       "SHERIFFSHOT",
       "DRILLRUN",
       "FLASHCANNON",
-      "HYDROPUMP"
+      "HYDROPUMP",
     ],
     tutorMoves: [
       "AGILITY",
@@ -2544,20 +2474,16 @@ export const fakemons: Fakemon[] =
       "THIEF",
       "WATERFALL",
       "WATERPULSE",
-      "WHIRLPOOL"
+      "WHIRLPOOL",
     ],
-    eggMoves: [
-
-    ],
-    suffix: "absolution"
+    eggMoves: [],
+    suffix: "absolution",
+    evolution: [],
   },
   {
     id: "AXISH",
     name: "Axish",
-    types: [
-      "WATER",
-      "ROCK"
-    ],
+    types: ["WATER", "ROCK"],
     sprite: "/Front/AXISH.png",
     backSprite: "/spritesBack/AXISH.png",
     description: "",
@@ -2567,17 +2493,12 @@ export const fakemons: Fakemon[] =
       defense: 64,
       spAttack: 32,
       spDefense: 64,
-      speed: 18
+      speed: 18,
     },
     height: "0.6",
     weight: "10.0",
-    abilities: [
-      "SWIFTSWIM"
-    ],
-    hiddenAbilities: [
-      "ROCKHEAD",
-      "RAINCUTTER"
-    ],
+    abilities: ["SWIFTSWIM"],
+    hiddenAbilities: ["ROCKHEAD", "RAINCUTTER"],
     category: "Fish",
     moves: [
       "SPLASH",
@@ -2594,23 +2515,23 @@ export const fakemons: Fakemon[] =
       "METALCLAW",
       "BRINE",
       "SCARYFACE",
-      "WATERFALL"
+      "WATERFALL",
     ],
-    tutorMoves: [
-      "BOUNCE"
+    tutorMoves: ["BOUNCE"],
+    eggMoves: [],
+    suffix: "absolution",
+    evolution: [
+      {
+        to: "JAXEWS",
+        method: "HasMoveType",
+        value: "STEEL",
+      },
     ],
-    eggMoves: [
-
-    ],
-    suffix: "absolution"
   },
   {
     id: "JAXEWS",
     name: "Jaxews",
-    types: [
-      "WATER",
-      "STEEL"
-    ],
+    types: ["WATER", "STEEL"],
     sprite: "/Front/JAXEWS.png",
     backSprite: "/spritesBack/JAXEWS.png",
     description: "",
@@ -2620,17 +2541,12 @@ export const fakemons: Fakemon[] =
       defense: 107,
       spAttack: 56,
       spDefense: 107,
-      speed: 34
+      speed: 34,
     },
     height: "6.5",
     weight: "520.0",
-    abilities: [
-      "INTIMIDATE"
-    ],
-    hiddenAbilities: [
-      "MOXIE",
-      "RAINCUTTER"
-    ],
+    abilities: ["INTIMIDATE"],
+    hiddenAbilities: ["MOXIE", "RAINCUTTER"],
     category: "Atrocious",
     moves: [
       "SPLASH",
@@ -2654,7 +2570,7 @@ export const fakemons: Fakemon[] =
       "IRONHEAD",
       "THRASH",
       "HYPERBEAM",
-      "IRONTAIL"
+      "IRONTAIL",
     ],
     tutorMoves: [
       "AQUATAIL",
@@ -2737,39 +2653,32 @@ export const fakemons: Fakemon[] =
       "TWISTER",
       "WATERFALL",
       "WATERPULSE",
-      "WHIRLPOOL"
+      "WHIRLPOOL",
     ],
-    eggMoves: [
-
-    ],
-    suffix: "absolution"
+    eggMoves: [],
+    suffix: "absolution",
+    evolution: [],
   },
   {
     id: "GROWRAGE",
     name: "Growrage",
-    types: [
-      "NORMAL"
-    ],
+    types: ["NORMAL"],
     sprite: "/Front/GROWRAGE.png",
     backSprite: "/spritesBack/GROWRAGE.png",
-    description: "It is a heroic Pokémon, often seen helping and protecting other Pokémon.",
+    description:
+      "It is a heroic Pokémon, often seen helping and protecting other Pokémon.",
     stats: {
       hp: 60,
       attack: 60,
       defense: 55,
       spAttack: 60,
       spDefense: 55,
-      speed: 60
+      speed: 60,
     },
     height: "0.7",
     weight: "19.0",
-    abilities: [
-      "INTIMIDATE",
-      "INNERFOCUS"
-    ],
-    hiddenAbilities: [
-      "JUSTIFIED"
-    ],
+    abilities: ["INTIMIDATE", "INNERFOCUS"],
+    hiddenAbilities: ["JUSTIFIED"],
     category: "Puppy",
     moves: [
       "QUICKATTACK",
@@ -2797,7 +2706,7 @@ export const fakemons: Fakemon[] =
       "EARTHQUAKE",
       "TWILIGHTCUT",
       "NIGHTFALL",
-      "CLOSECOMBAT"
+      "CLOSECOMBAT",
     ],
     tutorMoves: [
       "FLOWERFANG",
@@ -2862,40 +2771,38 @@ export const fakemons: Fakemon[] =
       "THUNDERFANG",
       "TORMENT",
       "TRAILBLAZE",
-      "UPROAR"
+      "UPROAR",
     ],
-    eggMoves: [
-
+    eggMoves: [],
+    suffix: "absolution",
+    evolution: [
+      {
+        to: "TWYLICAN",
+        method: "LevelTwincessInParty",
+        value: "28",
+      },
     ],
-    suffix: "absolution"
   },
   {
     id: "TWYLICAN",
     name: "Twylican",
-    types: [
-      "FIGHTING",
-      "STEEL"
-    ],
+    types: ["FIGHTING", "STEEL"],
     sprite: "/Front/TWYLICAN.png",
     backSprite: "/spritesBack/TWYLICAN.png",
-    description: "It has a strong sense of justice and is often seen roaming the forest, searching for Trainers and Pokémon in need of help. Twylican will not hesitate to step in and protect the weak, earning the respect of those who witness its bravery.",
+    description:
+      "It has a strong sense of justice and is often seen roaming the forest, searching for Trainers and Pokémon in need of help. Twylican will not hesitate to step in and protect the weak, earning the respect of those who witness its bravery.",
     stats: {
       hp: 90,
       attack: 110,
       defense: 70,
       spAttack: 100,
       spDefense: 75,
-      speed: 110
+      speed: 110,
     },
     height: "0.7",
     weight: "19.0",
-    abilities: [
-      "INTIMIDATE",
-      "INNERFOCUS"
-    ],
-    hiddenAbilities: [
-      "JUSTIFIED"
-    ],
+    abilities: ["INTIMIDATE", "INNERFOCUS"],
+    hiddenAbilities: ["JUSTIFIED"],
     category: "Hero",
     moves: [
       "QUICKATTACK",
@@ -2923,7 +2830,7 @@ export const fakemons: Fakemon[] =
       "EARTHQUAKE",
       "TWILIGHTCUT",
       "NIGHTFALL",
-      "CLOSECOMBAT"
+      "CLOSECOMBAT",
     ],
     tutorMoves: [
       "FLOWERFANG",
@@ -2988,39 +2895,32 @@ export const fakemons: Fakemon[] =
       "THUNDERFANG",
       "TORMENT",
       "TRAILBLAZE",
-      "UPROAR"
+      "UPROAR",
     ],
-    eggMoves: [
-
-    ],
-    suffix: "absolution"
+    eggMoves: [],
+    suffix: "absolution",
+    evolution: [],
   },
   {
     id: "CRYOWL",
     name: "Cryowl",
-    types: [
-      "ICE",
-      "FLYING"
-    ],
+    types: ["ICE", "FLYING"],
     sprite: "/Front/CRYOWL.png",
     backSprite: "/spritesBack/CRYOWL.png",
-    description: "It can hunt easily thanks to its ability to fly without being heard and its excellent eyesight. Despite its bright white color, it manages to hide very well in the darkness.",
+    description:
+      "It can hunt easily thanks to its ability to fly without being heard and its excellent eyesight. Despite its bright white color, it manages to hide very well in the darkness.",
     stats: {
       hp: 60,
       attack: 62,
       defense: 30,
       spAttack: 36,
       spDefense: 30,
-      speed: 50
+      speed: 50,
     },
     height: "0.5",
     weight: "21.2",
-    abilities: [
-      "REFRIGERATE"
-    ],
-    hiddenAbilities: [
-      "ICEKING"
-    ],
+    abilities: ["REFRIGERATE"],
+    hiddenAbilities: ["ICEKING"],
     category: "Owl",
     moves: [
       "PECK",
@@ -3039,7 +2939,7 @@ export const fakemons: Fakemon[] =
       "CRYOSPEED",
       "AURORAVEIL",
       "ARCTICMALTREATMENT",
-      "DRILLPECK"
+      "DRILLPECK",
     ],
     tutorMoves: [
       "PLUCK",
@@ -3092,7 +2992,7 @@ export const fakemons: Fakemon[] =
       "THIEF",
       "TWISTER",
       "UPROAR",
-      "WORKUP"
+      "WORKUP",
     ],
     eggMoves: [
       "AGILITY",
@@ -3104,37 +3004,37 @@ export const fakemons: Fakemon[] =
       "SKYATTACK",
       "SUPERSONIC",
       "WHIRLWIND",
-      "WINGATTACK"
+      "WINGATTACK",
     ],
-    suffix: "absolution"
+    suffix: "absolution",
+    evolution: [
+      {
+        to: "CRYOCROWN",
+        method: "Level",
+        value: "25",
+      },
+    ],
   },
   {
     id: "CRYOCROWN",
     name: "Cryocrown",
-    types: [
-      "ICE",
-      "FLYING"
-    ],
+    types: ["ICE", "FLYING"],
     sprite: "/Front/CRYOCROWN.png",
     backSprite: "/spritesBack/CRYOCROWN.png",
-    description: "It is said that the larger the crown of this species, the stronger and faster it is. It has an incredible ability to move silently when hunting, but most of the time it will be showing off its crown.",
+    description:
+      "It is said that the larger the crown of this species, the stronger and faster it is. It has an incredible ability to move silently when hunting, but most of the time it will be showing off its crown.",
     stats: {
       hp: 101,
       attack: 116,
       defense: 58,
       spAttack: 66,
       spDefense: 58,
-      speed: 100
+      speed: 100,
     },
     height: "1.5",
     weight: "50.7",
-    abilities: [
-      "INSOMNIA",
-      "SNOWWARNING"
-    ],
-    hiddenAbilities: [
-      "ICEKING"
-    ],
+    abilities: ["INSOMNIA", "SNOWWARNING"],
+    hiddenAbilities: ["ICEKING"],
     category: "Owl",
     moves: [
       "PECK",
@@ -3153,7 +3053,7 @@ export const fakemons: Fakemon[] =
       "CRYOSPEED",
       "AURORAVEIL",
       "ARCTICMALTREATMENT",
-      "DRILLPECK"
+      "DRILLPECK",
     ],
     tutorMoves: [
       "PLUCK",
@@ -3206,39 +3106,32 @@ export const fakemons: Fakemon[] =
       "THIEF",
       "TWISTER",
       "UPROAR",
-      "WORKUP"
+      "WORKUP",
     ],
-    eggMoves: [
-
-    ],
-    suffix: "absolution"
+    eggMoves: [],
+    suffix: "absolution",
+    evolution: [],
   },
   {
     id: "SPIBBY",
     name: "Spibby",
-    types: [
-      "BUG",
-      "DARK"
-    ],
+    types: ["BUG", "DARK"],
     sprite: "/Front/SPIBBY.png",
     backSprite: "/spritesBack/SPIBBY.png",
-    description: "It is very timid, so it tends to attack in groups using rather underhanded and unfair tactics.",
+    description:
+      "It is very timid, so it tends to attack in groups using rather underhanded and unfair tactics.",
     stats: {
       hp: 35,
       attack: 48,
       defense: 90,
       spAttack: 35,
       spDefense: 77,
-      speed: 40
+      speed: 40,
     },
     height: "0.4",
     weight: "6.5",
-    abilities: [
-      "SWARM"
-    ],
-    hiddenAbilities: [
-      "OVERCOAT"
-    ],
+    abilities: ["SWARM"],
+    hiddenAbilities: ["OVERCOAT"],
     category: "???",
     moves: [
       "TWINEEDLE",
@@ -3265,7 +3158,7 @@ export const fakemons: Fakemon[] =
       "REFLECT",
       "TRICKROOM",
       "TORMENT",
-      "SCREECH"
+      "SCREECH",
     ],
     tutorMoves: [
       "ACIDSPRAY",
@@ -3330,40 +3223,38 @@ export const fakemons: Fakemon[] =
       "TOXICSPIKES",
       "TRAILBLAZE",
       "VENOSHOCK",
-      "XSCISSOR"
+      "XSCISSOR",
     ],
-    eggMoves: [
-
+    eggMoves: [],
+    suffix: "absolution",
+    evolution: [
+      {
+        to: "KINGDER",
+        method: "Level",
+        value: "28",
+      },
     ],
-    suffix: "absolution"
   },
   {
     id: "KINGDER",
     name: "Kingder",
-    types: [
-      "BUG",
-      "DARK"
-    ],
+    types: ["BUG", "DARK"],
     sprite: "/Front/KINGDER.png",
     backSprite: "/spritesBack/KINGDER.png",
-    description: "It often commands a large group to capture other Pokémon and then devour them. Many Trainers have been caught while trying to catch one.",
+    description:
+      "It often commands a large group to capture other Pokémon and then devour them. Many Trainers have been caught while trying to catch one.",
     stats: {
       hp: 70,
       attack: 75,
       defense: 115,
       spAttack: 48,
       spDefense: 109,
-      speed: 58
+      speed: 58,
     },
     height: "1.3",
     weight: "60.0",
-    abilities: [
-      "SWARM",
-      "TYRANNY"
-    ],
-    hiddenAbilities: [
-      "OVERCOAT"
-    ],
+    abilities: ["SWARM", "TYRANNY"],
+    hiddenAbilities: ["OVERCOAT"],
     category: "???",
     moves: [
       "TWINEEDLE",
@@ -3391,7 +3282,7 @@ export const fakemons: Fakemon[] =
       "REFLECT",
       "TRICKROOM",
       "TORMENT",
-      "SCREECH"
+      "SCREECH",
     ],
     tutorMoves: [
       "ACIDSPRAY",
@@ -3456,39 +3347,32 @@ export const fakemons: Fakemon[] =
       "TOXICSPIKES",
       "TRAILBLAZE",
       "VENOSHOCK",
-      "XSCISSOR"
+      "XSCISSOR",
     ],
-    eggMoves: [
-
-    ],
-    suffix: "absolution"
+    eggMoves: [],
+    suffix: "absolution",
+    evolution: [],
   },
   {
     id: "TWIXIE",
     name: "Twixie",
-    types: [
-      "FAIRY"
-    ],
+    types: ["FAIRY"],
     sprite: "/Front/TWIXIE.png",
     backSprite: "/spritesBack/TWIXIE.png",
-    description: "It exhibits a high level of intelligence and a preference for dimly lit environments. Researchers believe its behavior is influenced by exposure to interdimensional energy, which may explain its affinity for mischief and shadow manipulation.",
+    description:
+      "It exhibits a high level of intelligence and a preference for dimly lit environments. Researchers believe its behavior is influenced by exposure to interdimensional energy, which may explain its affinity for mischief and shadow manipulation.",
     stats: {
       hp: 74,
       attack: 80,
       defense: 70,
       spAttack: 72,
       spDefense: 82,
-      speed: 30
+      speed: 30,
     },
     height: "0.4",
     weight: "10.6",
-    abilities: [
-      "HEALER",
-      "ANTICIPATION"
-    ],
-    hiddenAbilities: [
-      "MAGICBOUNCE"
-    ],
+    abilities: ["HEALER", "ANTICIPATION"],
+    hiddenAbilities: ["MAGICBOUNCE"],
     category: "Twili",
     moves: [
       "CONFUSION",
@@ -3500,7 +3384,7 @@ export const fakemons: Fakemon[] =
       "ACCELBURST",
       "DAZZLINGGLEAM",
       "CALMMIND",
-      "WEIRDPUNCH"
+      "WEIRDPUNCH",
     ],
     tutorMoves: [
       "ATTRACT",
@@ -3553,44 +3437,38 @@ export const fakemons: Fakemon[] =
       "TERABLAST",
       "THUNDERWAVE",
       "TRICK",
-      "TRICKROOM"
+      "TRICKROOM",
     ],
-    eggMoves: [
-      "AFTERYOU",
-      "AROMATICMIST",
-      "MYSTICALFIRE",
-      "NUZZLE",
-      "QUASH"
+    eggMoves: ["AFTERYOU", "AROMATICMIST", "MYSTICALFIRE", "NUZZLE", "QUASH"],
+    suffix: "absolution",
+    evolution: [
+      {
+        to: "TWINCESS",
+        method: "Item",
+        value: "MOONSTONE",
+      },
     ],
-    suffix: "absolution"
   },
   {
     id: "TWINCESS",
     name: "Twincess",
-    types: [
-      "FAIRY",
-      "DARK"
-    ],
+    types: ["FAIRY", "DARK"],
     sprite: "/Front/TWINCESS.png",
     backSprite: "/spritesBack/TWINCESS.png",
-    description: "Studies suggest it originated from a parallel plane where light and shadow coexist in balance. Upon full maturation, its physiological changes include the development of a crown-like structure and a marked increase in psychic and spectral emissions.",
+    description:
+      "Studies suggest it originated from a parallel plane where light and shadow coexist in balance. Upon full maturation, its physiological changes include the development of a crown-like structure and a marked increase in psychic and spectral emissions.",
     stats: {
       hp: 95,
       attack: 104,
       defense: 91,
       spAttack: 93,
       spDefense: 106,
-      speed: 40
+      speed: 40,
     },
     height: "1.6",
     weight: "20.4",
-    abilities: [
-      "HEALER",
-      "ANTICIPATION"
-    ],
-    hiddenAbilities: [
-      "MAGICBOUNCE"
-    ],
+    abilities: ["HEALER", "ANTICIPATION"],
+    hiddenAbilities: ["MAGICBOUNCE"],
     category: "Twili",
     moves: [
       "PSYCHOCUT",
@@ -3606,7 +3484,7 @@ export const fakemons: Fakemon[] =
       "CALMMIND",
       "WEIRDPUNCH",
       "HEALINGWISH",
-      "MAGICPOWDER"
+      "MAGICPOWDER",
     ],
     tutorMoves: [
       "AGILITY",
@@ -3676,41 +3554,32 @@ export const fakemons: Fakemon[] =
       "THUNDERWAVE",
       "TRICK",
       "TRICKROOM",
-      "WONDERROOM"
+      "WONDERROOM",
     ],
-    eggMoves: [
-
-    ],
-    suffix: "absolution"
+    eggMoves: [],
+    suffix: "absolution",
+    evolution: [],
   },
   {
     id: "PUPROUT",
     name: "Puprout",
-    types: [
-      "GRASS",
-      "DARK"
-    ],
+    types: ["GRASS", "DARK"],
     sprite: "/Front/PUPROUT.png",
     backSprite: "/spritesBack/PUPROUT.png",
-    description: "It displays many behaviors commonly seen in other Grass-type Pokémon. Its DNA suggests it may share multiple ancestors with various species.",
+    description:
+      "It displays many behaviors commonly seen in other Grass-type Pokémon. Its DNA suggests it may share multiple ancestors with various species.",
     stats: {
       hp: 46,
       attack: 63,
       defense: 62,
       spAttack: 46,
       spDefense: 34,
-      speed: 67
+      speed: 67,
     },
     height: "0.7",
     weight: "19.0",
-    abilities: [
-      "RUNAWAY",
-      "INTIMIDATE"
-    ],
-    hiddenAbilities: [
-      "PREDATORTRACKING",
-      "ETERNALHUNGER"
-    ],
+    abilities: ["RUNAWAY", "INTIMIDATE"],
+    hiddenAbilities: ["PREDATORTRACKING", "ETERNALHUNGER"],
     category: "Quimera",
     moves: [
       "TACKLE",
@@ -3725,7 +3594,7 @@ export const fakemons: Fakemon[] =
       "DIG",
       "BITE",
       "FLOWERFANG",
-      "PREDATORYGAME"
+      "PREDATORYGAME",
     ],
     tutorMoves: [
       "ACIDSPRAY",
@@ -3805,7 +3674,7 @@ export const fakemons: Fakemon[] =
       "VENOSHOCK",
       "WEATHERBALL",
       "WORKUP",
-      "WORRYSEED"
+      "WORRYSEED",
     ],
     eggMoves: [
       "SYNTHESIS",
@@ -3821,38 +3690,37 @@ export const fakemons: Fakemon[] =
       "PREDATORYGAME",
       "TAUNT",
       "POWERWHIP",
-      "GIGAIMPACT"
+      "GIGAIMPACT",
     ],
-    suffix: "absolution"
+    suffix: "absolution",
+    evolution: [
+      {
+        to: "BUSHIERA",
+        method: "Level",
+        value: "20",
+      },
+    ],
   },
   {
     id: "BUSHIERA",
     name: "Bushiera",
-    types: [
-      "GRASS",
-      "DARK"
-    ],
+    types: ["GRASS", "DARK"],
     sprite: "/Front/BUSHIERA.png",
     backSprite: "/spritesBack/BUSHIERA.png",
-    description: "It has tangled DNA, and its appearance resembles multiple Pokémon. Trainers who encounter this Pokémon often say it feels familiar to them.",
+    description:
+      "It has tangled DNA, and its appearance resembles multiple Pokémon. Trainers who encounter this Pokémon often say it feels familiar to them.",
     stats: {
       hp: 58,
       attack: 80,
       defense: 79,
       spAttack: 81,
       spDefense: 79,
-      speed: 86
+      speed: 86,
     },
     height: "1.9",
     weight: "120.0",
-    abilities: [
-      "RUNAWAY",
-      "INTIMIDATE"
-    ],
-    hiddenAbilities: [
-      "PREDATORTRACKING",
-      "ETERNALHUNGER"
-    ],
+    abilities: ["RUNAWAY", "INTIMIDATE"],
+    hiddenAbilities: ["PREDATORTRACKING", "ETERNALHUNGER"],
     category: "Quimera",
     moves: [
       "TACKLE",
@@ -3880,7 +3748,7 @@ export const fakemons: Fakemon[] =
       "PREDATORYGAME",
       "TAUNT",
       "POWERWHIP",
-      "GIGAIMPACT"
+      "GIGAIMPACT",
     ],
     tutorMoves: [
       "ACIDSPRAY",
@@ -3960,41 +3828,38 @@ export const fakemons: Fakemon[] =
       "VENOSHOCK",
       "WEATHERBALL",
       "WORKUP",
-      "WORRYSEED"
+      "WORRYSEED",
     ],
-    eggMoves: [
-
+    eggMoves: [],
+    suffix: "absolution",
+    evolution: [
+      {
+        to: "WEREWOODS",
+        method: "Level",
+        value: "40",
+      },
     ],
-    suffix: "absolution"
   },
   {
     id: "WEREWOODS",
     name: "Werewoods",
-    types: [
-      "GRASS",
-      "DARK"
-    ],
+    types: ["GRASS", "DARK"],
     sprite: "/Front/WEREWOODS.png",
     backSprite: "/spritesBack/WEREWOODS.png",
-    description: "It has a high capacity for adaptation and shows great affinity with other Grass-type Pokémon.",
+    description:
+      "It has a high capacity for adaptation and shows great affinity with other Grass-type Pokémon.",
     stats: {
       hp: 80,
       attack: 96,
       defense: 94,
       spAttack: 91,
       spDefense: 91,
-      speed: 103
+      speed: 103,
     },
     height: "2.2",
     weight: "217.0",
-    abilities: [
-      "RUNAWAY",
-      "INTIMIDATE"
-    ],
-    hiddenAbilities: [
-      "PREDATORTRACKING",
-      "ETERNALHUNGER"
-    ],
+    abilities: ["RUNAWAY", "INTIMIDATE"],
+    hiddenAbilities: ["PREDATORTRACKING", "ETERNALHUNGER"],
     category: "Quimera",
     moves: [
       "TACKLE",
@@ -4022,7 +3887,7 @@ export const fakemons: Fakemon[] =
       "PREDATORYGAME",
       "TAUNT",
       "POWERWHIP",
-      "GIGAIMPACT"
+      "GIGAIMPACT",
     ],
     tutorMoves: [
       "ACIDSPRAY",
@@ -4102,20 +3967,16 @@ export const fakemons: Fakemon[] =
       "VENOSHOCK",
       "WEATHERBALL",
       "WORKUP",
-      "WORRYSEED"
+      "WORRYSEED",
     ],
-    eggMoves: [
-
-    ],
-    suffix: "absolution"
+    eggMoves: [],
+    suffix: "absolution",
+    evolution: [],
   },
   {
     id: "FLOVERN",
     name: "Flover",
-    types: [
-      "GRASS",
-      "DRAGON"
-    ],
+    types: ["GRASS", "DRAGON"],
     sprite: "/Front/FLOVERN.png",
     backSprite: "/spritesBack/FLOVERN.png",
     description: "",
@@ -4125,17 +3986,12 @@ export const fakemons: Fakemon[] =
       defense: 49,
       spAttack: 40,
       spDefense: 48,
-      speed: 88
+      speed: 88,
     },
     height: "0.5",
     weight: "8.0",
-    abilities: [
-      "FRISK",
-      "INFILTRATOR"
-    ],
-    hiddenAbilities: [
-      "TELEPATHY"
-    ],
+    abilities: ["FRISK", "INFILTRATOR"],
+    hiddenAbilities: ["TELEPATHY"],
     category: "Dracrix",
     moves: [
       "AROMATHERAPY",
@@ -4163,7 +4019,7 @@ export const fakemons: Fakemon[] =
       "DRAGONDANCE",
       "OUTRAGE",
       "SOLARBLADE",
-      "LEAFSTORM"
+      "LEAFSTORM",
     ],
     tutorMoves: [
       "ACROBATICS",
@@ -4232,22 +4088,22 @@ export const fakemons: Fakemon[] =
       "UPROAR",
       "UTURN",
       "WILDCHARGE",
-      "XSCISSOR"
+      "XSCISSOR",
     ],
-    eggMoves: [
-      "DEFOG",
-      "DRAGONRUSH",
-      "SWITCHEROO"
+    eggMoves: ["DEFOG", "DRAGONRUSH", "SWITCHEROO"],
+    suffix: "absolution",
+    evolution: [
+      {
+        to: "FLOVERN",
+        method: "Level",
+        value: "50",
+      },
     ],
-    suffix: "absolution"
   },
   {
     id: "WYWERDEN",
     name: "Wywerden",
-    types: [
-      "GRASS",
-      "DRAGON"
-    ],
+    types: ["GRASS", "DRAGON"],
     sprite: "/Front/WYWERDEN.png",
     backSprite: "/spritesBack/WYWERDEN.png",
     description: "",
@@ -4257,17 +4113,12 @@ export const fakemons: Fakemon[] =
       defense: 73,
       spAttack: 73,
       spDefense: 72,
-      speed: 105
+      speed: 105,
     },
     height: "1.5",
     weight: "85.0",
-    abilities: [
-      "FRISK",
-      "INFILTRATOR"
-    ],
-    hiddenAbilities: [
-      "TELEPATHY"
-    ],
+    abilities: ["FRISK", "INFILTRATOR"],
+    hiddenAbilities: ["TELEPATHY"],
     category: "Dracrix",
     moves: [
       "AROMATHERAPY",
@@ -4295,7 +4146,7 @@ export const fakemons: Fakemon[] =
       "DRAGONDANCE",
       "OUTRAGE",
       "SOLARBLADE",
-      "LEAFSTORM"
+      "LEAFSTORM",
     ],
     tutorMoves: [
       "ACROBATICS",
@@ -4375,19 +4226,16 @@ export const fakemons: Fakemon[] =
       "UTURN",
       "WATERPULSE",
       "WILDCHARGE",
-      "XSCISSOR"
+      "XSCISSOR",
     ],
-    eggMoves: [
-
-    ],
-    suffix: "absolution"
+    eggMoves: [],
+    suffix: "absolution",
+    evolution: [],
   },
   {
     id: "ASHCOIL",
     name: "Ashcoil",
-    types: [
-      "FIRE"
-    ],
+    types: ["FIRE"],
     sprite: "/Front/ASHCOIL.png",
     backSprite: "/spritesBack/ASHCOIL.png",
     description: "???",
@@ -4397,16 +4245,12 @@ export const fakemons: Fakemon[] =
       defense: 42,
       spAttack: 50,
       spDefense: 50,
-      speed: 66
+      speed: 66,
     },
     height: "1.0",
     weight: "3.2",
-    abilities: [
-      "BLAZE"
-    ],
-    hiddenAbilities: [
-      "SOLARPOWER"
-    ],
+    abilities: ["BLAZE"],
+    hiddenAbilities: ["SOLARPOWER"],
     category: "Snake",
     moves: [
       "CONSTRICT",
@@ -4437,7 +4281,7 @@ export const fakemons: Fakemon[] =
       "HYPERFANG",
       "DRAGONPULSE",
       "DRAGONRUSH",
-      "OUTRAGE"
+      "OUTRAGE",
     ],
     tutorMoves: [
       "ACIDARMOR",
@@ -4482,7 +4326,7 @@ export const fakemons: Fakemon[] =
       "TAILSLAP",
       "THUNDERFANG",
       "TOXIC",
-      "TOXICSPIKES"
+      "TOXICSPIKES",
     ],
     eggMoves: [
       "ABYSSALBITE",
@@ -4498,16 +4342,21 @@ export const fakemons: Fakemon[] =
       "FAIRYWIND",
       "FOULPLAY",
       "SNARL",
-      "TWISTER"
+      "TWISTER",
     ],
-    suffix: "absolution"
+    suffix: "absolution",
+    evolution: [
+      {
+        to: "BLAZECOIL",
+        method: "Level",
+        value: "25",
+      },
+    ],
   },
   {
     id: "BLAZECOIL",
     name: "Blazecoil",
-    types: [
-      "FIRE"
-    ],
+    types: ["FIRE"],
     sprite: "/Front/BLAZECOIL.png",
     backSprite: "/spritesBack/BLAZECOIL.png",
     description: "???",
@@ -4517,16 +4366,12 @@ export const fakemons: Fakemon[] =
       defense: 60,
       spAttack: 67,
       spDefense: 72,
-      speed: 100
+      speed: 100,
     },
     height: "2.5",
     weight: "6.9",
-    abilities: [
-      "BLAZE"
-    ],
-    hiddenAbilities: [
-      "SOLARPOWER"
-    ],
+    abilities: ["BLAZE"],
+    hiddenAbilities: ["SOLARPOWER"],
     category: "Snake",
     moves: [
       "CONSTRICT",
@@ -4557,7 +4402,7 @@ export const fakemons: Fakemon[] =
       "HYPERFANG",
       "DRAGONPULSE",
       "DRAGONRUSH",
-      "OUTRAGE"
+      "OUTRAGE",
     ],
     tutorMoves: [
       "ACIDARMOR",
@@ -4602,7 +4447,7 @@ export const fakemons: Fakemon[] =
       "TAILSLAP",
       "THUNDERFANG",
       "TOXIC",
-      "TOXICSPIKES"
+      "TOXICSPIKES",
     ],
     eggMoves: [
       "ABYSSALBITE",
@@ -4618,17 +4463,21 @@ export const fakemons: Fakemon[] =
       "FAIRYWIND",
       "FOULPLAY",
       "SNARL",
-      "TWISTER"
+      "TWISTER",
     ],
-    suffix: "absolution"
+    suffix: "absolution",
+    evolution: [
+      {
+        to: "INFERNOIL",
+        method: "Level",
+        value: "35",
+      },
+    ],
   },
   {
     id: "INFERNOIL",
     name: "Infernoil",
-    types: [
-      "FIRE",
-      "DRAGON"
-    ],
+    types: ["FIRE", "DRAGON"],
     sprite: "/Front/INFERNOIL.png",
     backSprite: "/spritesBack/INFERNOIL.png",
     description: "???",
@@ -4638,16 +4487,12 @@ export const fakemons: Fakemon[] =
       defense: 85,
       spAttack: 80,
       spDefense: 87,
-      speed: 115
+      speed: 115,
     },
     height: "6.5",
     weight: "123.0",
-    abilities: [
-      "BLAZE"
-    ],
-    hiddenAbilities: [
-      "SOLARPOWER"
-    ],
+    abilities: ["BLAZE"],
+    hiddenAbilities: ["SOLARPOWER"],
     category: "Snake",
     moves: [
       "CONSTRICT",
@@ -4678,7 +4523,7 @@ export const fakemons: Fakemon[] =
       "HYPERFANG",
       "DRAGONPULSE",
       "DRAGONRUSH",
-      "OUTRAGE"
+      "OUTRAGE",
     ],
     tutorMoves: [
       "ACIDARMOR",
@@ -4723,7 +4568,7 @@ export const fakemons: Fakemon[] =
       "TAILSLAP",
       "THUNDERFANG",
       "TOXIC",
-      "TOXICSPIKES"
+      "TOXICSPIKES",
     ],
     eggMoves: [
       "ABYSSALBITE",
@@ -4739,8 +4584,9 @@ export const fakemons: Fakemon[] =
       "FAIRYWIND",
       "FOULPLAY",
       "SNARL",
-      "TWISTER"
+      "TWISTER",
     ],
-    suffix: "absolution"
-  }
-]
+    suffix: "absolution",
+    evolution: [],
+  },
+];
