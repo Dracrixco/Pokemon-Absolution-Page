@@ -6,26 +6,26 @@ require "json"
 # ==========================
 
 NOT_ABLE_TO_SHOW_FAKEMONS = [
-  # "BEHDAREX", 
-  # "ZIZZENIT",
-  # "LEVIATITAN",
-  # "FATALTTY",
-  # "BONEVEIL",
-  # "CONDEMNA",
-  # "WOOBACOON",
-  # "WEAMOTH",
-  # "WOOFIGHTER",
-  # "GUMSTTER",
-  # "JAXEWS",
-  # "TWYLICAN",
-  # "CRYOCROWN",
-  # "KINGDER",
-  # "TWINCESS",
-  # "BUSHIERA",
-  # "WEREWOODS",
-  # "WYWERDEN",
-  # "BLAZECOIL",
-  # "INFERNOIL",
+  "BEHDAREX", 
+  "ZIZZENIT",
+  "LEVIATITAN",
+  "FATALTTY",
+  "BONEVEIL",
+  "CONDEMNA",
+  "WOOBACOON",
+  "WEAMOTH",
+  "WOOFIGHTER",
+  "GUMSTTER",
+  "JAXEWS",
+  "TWYLICAN",
+  "CRYOCROWN",
+  "KINGDER",
+  "TWINCESS",
+  "BUSHIERA",
+  "WEREWOODS",
+  "WYWERDEN",
+  "BLAZECOIL",
+  "INFERNOIL",
 ]
 def parse_fakemons(lines, suffix)
   fakemons = []
@@ -34,7 +34,6 @@ def parse_fakemons(lines, suffix)
   lines.each do |line|
     line.strip!
     next if line.empty? || line.start_with?("#")
-    next if NOT_ABLE_TO_SHOW_FAKEMONS.any? { |id| line.include?(id) }
 
     if line.match(/^\[(.+)\]$/)
       fakemons << current if current
@@ -116,7 +115,9 @@ def parse_fakemons(lines, suffix)
     end
   end
 
+  # Validation to skip certain fakemons
   fakemons << current if current
+  fakemons.reject! { |fakemon| NOT_ABLE_TO_SHOW_FAKEMONS.include?(fakemon[:id]) }
   fakemons
 end
 
