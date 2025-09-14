@@ -29,7 +29,6 @@ export const getGameInfo = async () => {
     }
 
     const data = await response.json();
-    console.log(data);
     return data;
   } catch (err) {
     console.error("Error obteniendo información del juego:", err);

@@ -41,30 +41,6 @@ export const TeamBuilderProvider: React.FC<{ children: ReactNode }> = ({
     startText: "Let's battle!",
   });
 
-  // Load team from localStorage on mount
-  useEffect(() => {
-    try {
-      const savedTeam = localStorage.getItem("pokemon-team");
-      console.log("Loading team from localStorage:", savedTeam);
-      if (savedTeam) {
-        const parsedTeam = JSON.parse(savedTeam);
-        console.log("Parsed team:", parsedTeam);
-        if (Array.isArray(parsedTeam)) {
-          setTeam(parsedTeam);
-          console.log(
-            "Team loaded successfully:",
-            parsedTeam.length,
-            "pokemon"
-          );
-        }
-      } else {
-        console.log("No saved team found in localStorage");
-      }
-    } catch (error) {
-      console.warn("Failed to load team from localStorage:", error);
-    }
-  }, []);
-
   // Load trainer from localStorage on mount
   useEffect(() => {
     try {

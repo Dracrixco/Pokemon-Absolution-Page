@@ -5,6 +5,28 @@ require "json"
 # 🧱 PARSEADORES
 # ==========================
 
+NOT_ABLE_TO_SHOW_FAKEMONS = [
+  "BEHDAREX", 
+  "ZIZZENIT",
+  "LEVIATITAN",
+  "FATALTTY",
+  "BONEVEIL",
+  "CONDEMNA",
+  "WOOBACOON",
+  "WEAMOTH",
+  "WOOFIGHTER",
+  "GUMSTTER",
+  "JAXEWS",
+  "TWYLICAN",
+  "CRYOCROWN",
+  "KINGDER",
+  "TWINCESS",
+  "BUSHIERA",
+  "WEREWOODS",
+  "WYWERDEN",
+  "BLAZECOIL",
+  "INFERNOIL",
+]
 def parse_fakemons(lines, suffix)
   fakemons = []
   current = nil
@@ -12,6 +34,7 @@ def parse_fakemons(lines, suffix)
   lines.each do |line|
     line.strip!
     next if line.empty? || line.start_with?("#")
+    next if NOT_ABLE_TO_SHOW_FAKEMONS.any? { |id| line.include?(id) }
 
     if line.match(/^\[(.+)\]$/)
       fakemons << current if current
@@ -43,7 +66,6 @@ def parse_fakemons(lines, suffix)
       }
     elsif current
       key, value = line.split("=", 2).map(&:strip)
-
       case key
       when "Name"
         current[:name] = value
