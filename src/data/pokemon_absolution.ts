@@ -2581,10 +2581,12 @@ export const fakemons: Fakemon[] =
     category: "Fish",
     moves: [
       "SPLASH",
-      "CUT",
       "TACKLE",
-      "BITE",
       "LEER",
+      "CUT",
+      "BITE",
+      "BUBBLE",
+      "BUBBLEBEAM",
       "WHIRLPOOL",
       "METALCLAW",
       "METALCLAW",
@@ -2631,12 +2633,13 @@ export const fakemons: Fakemon[] =
     ],
     category: "Atrocious",
     moves: [
-      "CUT",
       "SPLASH",
       "TACKLE",
-      "BITE",
       "LEER",
-      "METALCLAW",
+      "CUT",
+      "BITE",
+      "BUBBLE",
+      "BUBBLEBEAM",
       "WHIRLPOOL",
       "ICEFANG",
       "BRINE",
@@ -4380,117 +4383,6 @@ export const fakemons: Fakemon[] =
     suffix: "absolution"
   },
   {
-    id: "LIZAROBOS",
-    name: "Lizarobos",
-    types: [
-      "NORMAL"
-    ],
-    sprite: "/Front/LIZAROBOS.png",
-    backSprite: "/spritesBack/LIZAROBOS.png",
-    description: "???",
-    stats: {
-      hp: 1,
-      attack: 1,
-      defense: 1,
-      spAttack: 1,
-      spDefense: 1,
-      speed: 1
-    },
-    height: "0.1",
-    weight: "0.1",
-    abilities: [
-
-    ],
-    hiddenAbilities: [
-
-    ],
-    category: "???",
-    moves: [
-
-    ],
-    tutorMoves: [
-
-    ],
-    eggMoves: [
-
-    ],
-    suffix: "absolution"
-  },
-  {
-    id: "KOMOBOROS",
-    name: "Komoboros",
-    types: [
-      "NORMAL"
-    ],
-    sprite: "/Front/KOMOBOROS.png",
-    backSprite: "/spritesBack/KOMOBOROS.png",
-    description: "???",
-    stats: {
-      hp: 1,
-      attack: 1,
-      defense: 1,
-      spAttack: 1,
-      spDefense: 1,
-      speed: 1
-    },
-    height: "0.1",
-    weight: "0.1",
-    abilities: [
-
-    ],
-    hiddenAbilities: [
-
-    ],
-    category: "???",
-    moves: [
-
-    ],
-    tutorMoves: [
-
-    ],
-    eggMoves: [
-
-    ],
-    suffix: "absolution"
-  },
-  {
-    id: "RYUROBOROS",
-    name: "Ryuroboros",
-    types: [
-      "NORMAL"
-    ],
-    sprite: "/Front/RYUROBOROS.png",
-    backSprite: "/spritesBack/RYUROBOROS.png",
-    description: "???",
-    stats: {
-      hp: 1,
-      attack: 1,
-      defense: 1,
-      spAttack: 1,
-      spDefense: 1,
-      speed: 1
-    },
-    height: "0.1",
-    weight: "0.1",
-    abilities: [
-
-    ],
-    hiddenAbilities: [
-
-    ],
-    category: "???",
-    moves: [
-
-    ],
-    tutorMoves: [
-
-    ],
-    eggMoves: [
-
-    ],
-    suffix: "absolution"
-  },
-  {
     id: "ASHCOIL",
     name: "Ashcoil",
     types: [
@@ -4500,12 +4392,12 @@ export const fakemons: Fakemon[] =
     backSprite: "/spritesBack/ASHCOIL.png",
     description: "???",
     stats: {
-      hp: 46,
-      attack: 73,
+      hp: 56,
+      attack: 63,
       defense: 42,
-      spAttack: 40,
+      spAttack: 50,
       spDefense: 50,
-      speed: 76
+      speed: 66
     },
     height: "1.0",
     weight: "3.2",
@@ -4620,12 +4512,12 @@ export const fakemons: Fakemon[] =
     backSprite: "/spritesBack/BLAZECOIL.png",
     description: "???",
     stats: {
-      hp: 66,
-      attack: 105,
+      hp: 76,
+      attack: 95,
       defense: 60,
-      spAttack: 57,
+      spAttack: 67,
       spDefense: 72,
-      speed: 110
+      speed: 100
     },
     height: "2.5",
     weight: "6.9",

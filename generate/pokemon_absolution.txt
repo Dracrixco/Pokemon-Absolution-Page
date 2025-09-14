@@ -542,7 +542,7 @@ CatchRate = 255
 Happiness = 50
 Abilities = SWIFTSWIM
 HiddenAbilities = ROCKHEAD,RAINCUTTER
-Moves = 1,SPLASH,1,CUT,10,TACKLE,13,BITE,16,LEER,23,WHIRLPOOL,26,METALCLAW,27,METALCLAW,28,METALCLAW,29,METALCLAW,30,BRINE,33,SCARYFACE,36,WATERFALL
+Moves = 1,SPLASH,1,TACKLE,7,LEER,11,CUT,13,BITE,13,BUBBLE,18,BUBBLEBEAM,23,WHIRLPOOL,26,METALCLAW,27,METALCLAW,28,METALCLAW,29,METALCLAW,30,BRINE,33,SCARYFACE,36,WATERFALL
 TutorMoves = BOUNCE
 EggGroups = Water2
 HatchSteps = 1280
@@ -568,7 +568,7 @@ CatchRate = 45
 Happiness = 50
 Abilities = INTIMIDATE
 HiddenAbilities = MOXIE,RAINCUTTER
-Moves = 1,CUT,6,SPLASH,10,TACKLE,13,BITE,16,LEER,20,METALCLAW,23,WHIRLPOOL,26,ICEFANG,30,BRINE,33,SCARYFACE,36,WATERFALL,40,CRUNCH,43,RAINDANCE,46,STONEAXE,50,AQUATAIL,53,DRAGONDANCE,56,AQUAAXE,60,IRONHEAD,63,THRASH,66,HYPERBEAM,70,IRONTAIL
+Moves = 1,SPLASH,1,TACKLE,7,LEER,11,CUT,13,BITE,13,BUBBLE,18,BUBBLEBEAM,23,WHIRLPOOL,26,ICEFANG,30,BRINE,33,SCARYFACE,36,WATERFALL,40,CRUNCH,43,RAINDANCE,46,STONEAXE,50,AQUATAIL,53,DRAGONDANCE,56,AQUAAXE,60,IRONHEAD,63,THRASH,66,HYPERBEAM,70,IRONTAIL
 TutorMoves = AQUATAIL,ATTRACT,AVALANCHE,BLIZZARD,BODYSLAM,BOUNCE,BRINE,BRUTALSWING,BULLDOZE,CAPTIVATE,CHILLINGWATER,CONFIDE,CRUNCH,DARKPULSE,DIVE,DOUBLEEDGE,DOUBLETEAM,DRAGONCHEER,DRAGONDANCE,DRAGONPULSE,DRAGONTAIL,EARTHQUAKE,ENDEAVOR,ENDURE,FACADE,FIREBLAST,FLAMETHROWER,FRUSTRATION,GIGAIMPACT,HEADBUTT,HELPINGHAND,HIDDENPOWER,HURRICANE,HYDROPUMP,HYPERBEAM,ICEBEAM,ICEFANG,ICYWIND,INCINERATE,IRONHEAD,IRONTAIL,LASHOUT,MIMIC,MUDDYWATER,NATURALGIFT,OUTRAGE,PAYBACK,POWERWHIP,PROTECT,RAINDANCE,REST,RETURN,ROAR,ROCKSMASH,ROUND,SANDSTORM,SCALD,SCALESHOT,SCARYFACE,SECRETPOWER,SLEEPTALK,SNORE,SPITE,STONEEDGE,STRENGTH,SUBSTITUTE,SUNNYDAY,SURF,SWAGGER,TAKEDOWN,TAUNT,TEMPERFLARE,TERABLAST,THUNDER,THUNDERBOLT,THUNDERWAVE,TORMENT,TWISTER,WATERFALL,WATERPULSE,WHIRLPOOL
 EggGroups = Water2
 HatchSteps = 1280
@@ -918,70 +918,10 @@ Pokedex =
 Generation = 10
 CallRateSOS = 6
 #-------------------------------
-[LIZAROBOS]
-Name = Lizarobos
-Types = NORMAL
-BaseStats = 1,1,1,1,1,1
-GenderRatio = Female50Percent
-GrowthRate = Medium
-BaseExp = 100
-EVs = ATTACK,1
-CatchRate = 255
-Happiness = 70
-EggGroups = Field
-HatchSteps = 1
-Height = 0.1
-Weight = 0.1
-Color = Red
-Shape = Head
-Habitat = RoughTerrain
-Category = ???
-Pokedex = ???
-#-------------------------------
-[KOMOBOROS]
-Name = Komoboros
-Types = NORMAL
-BaseStats = 1,1,1,1,1,1
-GenderRatio = Female50Percent
-GrowthRate = Medium
-BaseExp = 100
-EVs = ATTACK,1
-CatchRate = 255
-Happiness = 70
-EggGroups = Field
-HatchSteps = 1
-Height = 0.1
-Weight = 0.1
-Color = Red
-Shape = Head
-Habitat = RoughTerrain
-Category = ???
-Pokedex = ???
-#-------------------------------
-[RYUROBOROS]
-Name = Ryuroboros
-Types = NORMAL
-BaseStats = 1,1,1,1,1,1
-GenderRatio = Female50Percent
-GrowthRate = Medium
-BaseExp = 100
-EVs = ATTACK,1
-CatchRate = 255
-Happiness = 70
-EggGroups = Field
-HatchSteps = 1
-Height = 0.1
-Weight = 0.1
-Color = Red
-Shape = Head
-Habitat = RoughTerrain
-Category = ???
-Pokedex = ???
-#-------------------------------
 [ASHCOIL]
 Name = Ashcoil
 Types = FIRE
-BaseStats = 46,73,42,76,40,50
+BaseStats = 56,63,42,66,50,50
 GenderRatio = Female50Percent
 GrowthRate = Medium
 BaseExp = 100
@@ -999,15 +939,15 @@ Height = 1.0
 Weight = 3.2
 Color = Yellow
 Shape = Serpentine
+Habitat = RoughTerrain
 Category = Snake
 Pokedex = ???
 Evolution = BLAZECOIL,Level,25
-Habitat = RoughTerrain
 #-------------------------------
 [BLAZECOIL]
 Name = Blazecoil
 Types = FIRE
-BaseStats = 66,105,60,110,57,72
+BaseStats = 76,95,60,100,67,72
 GenderRatio = Female50Percent
 GrowthRate = Medium
 BaseExp = 100
@@ -1025,10 +965,10 @@ Height = 2.5
 Weight = 6.9
 Color = Red
 Shape = Serpentine
+Habitat = RoughTerrain
 Category = Snake
 Pokedex = ???
 Evolution = INFERNOIL,Level,35
-Habitat = RoughTerrain
 #-------------------------------
 [INFERNOIL]
 Name = Infernoil
@@ -1051,6 +991,6 @@ Height = 6.5
 Weight = 123.0
 Color = Red
 Shape = Serpentine
+Habitat = Mountain
 Category = Snake
 Pokedex = ???
-Habitat = Mountain
