@@ -64,6 +64,11 @@ export const MoveDetailPage = () => {
               <p className="text-purple-200 text-lg leading-relaxed max-w-2xl mx-auto">
                 {move.description}
               </p>
+              {move.passiveEffect && (
+                <p className="text-purple-200 text-lg leading-relaxed max-w-2xl mx-auto">
+                  Passive: {move.passiveEffect}
+                </p>
+              )}
             </div>
           </div>
 

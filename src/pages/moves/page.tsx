@@ -238,6 +238,13 @@ const MoveCard = ({ move }: MoveCardProps) => {
           </p>
         </div>
       )}
+      {move.passiveEffect && (
+        <div className="mt-4 pt-4 border-t border-purple-600/50">
+          <p className="text-purple-200 text-sm line-clamp-2">
+            {move.passiveEffect}
+          </p>
+        </div>
+      )}
     </Link>
   );
 };

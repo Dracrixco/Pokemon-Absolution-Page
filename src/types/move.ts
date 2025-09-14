@@ -8,4 +8,5 @@ export interface Move extends GenericPBS {
   accuracy: number | null;
   totalPP: number;
   target: string;
+  passiveEffect?: string;
 }

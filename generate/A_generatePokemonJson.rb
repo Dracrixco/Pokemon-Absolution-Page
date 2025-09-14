@@ -108,7 +108,8 @@ def parse_moves(lines, suffix)
         totalPP: 0,
         target: "",
         description: "",
-        suffix: suffix
+        suffix: suffix,
+        # passiveEffect: nil
       }
     elsif current
       key, value = line.split("=", 2).map(&:strip)
@@ -130,6 +131,8 @@ def parse_moves(lines, suffix)
         current[:target] = value
       when "Description"
         current[:description] = value
+      when "PasiveDescription"
+        current[:passiveEffect] = value
       end
     end
   end
