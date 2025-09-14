@@ -6,26 +6,26 @@ require "json"
 # ==========================
 
 NOT_ABLE_TO_SHOW_FAKEMONS = [
-  "BEHDAREX", 
-  "ZIZZENIT",
-  "LEVIATITAN",
-  "FATALTTY",
-  "BONEVEIL",
-  "CONDEMNA",
-  "WOOBACOON",
-  "WEAMOTH",
-  "WOOFIGHTER",
-  "GUMSTTER",
-  "JAXEWS",
-  "TWYLICAN",
-  "CRYOCROWN",
-  "KINGDER",
-  "TWINCESS",
-  "BUSHIERA",
-  "WEREWOODS",
-  "WYWERDEN",
-  "BLAZECOIL",
-  "INFERNOIL",
+  # "BEHDAREX", 
+  # "ZIZZENIT",
+  # "LEVIATITAN",
+  # "FATALTTY",
+  # "BONEVEIL",
+  # "CONDEMNA",
+  # "WOOBACOON",
+  # "WEAMOTH",
+  # "WOOFIGHTER",
+  # "GUMSTTER",
+  # "JAXEWS",
+  # "TWYLICAN",
+  # "CRYOCROWN",
+  # "KINGDER",
+  # "TWINCESS",
+  # "BUSHIERA",
+  # "WEREWOODS",
+  # "WYWERDEN",
+  # "BLAZECOIL",
+  # "INFERNOIL",
 ]
 def parse_fakemons(lines, suffix)
   fakemons = []
@@ -106,11 +106,11 @@ def parse_fakemons(lines, suffix)
       when "Evolution"
         evo_parts = value.split(",").map(&:strip)
         if evo_parts.size == 3
-          current[:evolution] = [
+          current[:evolution] = [{
             to: evo_parts[0],
             method: evo_parts[1],
             value: evo_parts[2]
-        ]
+          }]
         end
       end
     end
