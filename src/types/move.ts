@@ -1,5 +1,6 @@
-export interface Move {
-  id: string;
+import type { GenericPBS } from "./genericPBS";
+
+export interface Move extends GenericPBS {
   name: string;
   type: string;
   category: "Physical" | "Special" | "Status";
@@ -7,5 +8,4 @@ export interface Move {
   accuracy: number | null;
   totalPP: number;
   target: string;
-  description: string;
 }
