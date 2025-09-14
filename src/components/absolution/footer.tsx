@@ -1,5 +1,5 @@
 "use client";
-import { Twitter, Badge } from "lucide-react";
+// import { Twitter, Badge } from "lucide-react";
 import { Link } from "react-router-dom";
 import { RandomLogo } from "@/components/absolution/logos";
 import type { JSX } from "react";
@@ -12,13 +12,13 @@ export const Footer = () => {
   }[] = [
     {
       name: "Twitter",
-      icon: <Twitter className="h-5 w-5" />,
+      // icon: <Twitter className="h-5 w-5" />,
       url: "https://x.com/dracrixco",
     },
     {
       name: "Discord",
-      icon: <Badge className="h-5 w-5" />,
-      url: "https://discord.gg/m9hCTZch",
+      // icon: <Badge className="h-5 w-5" />,
+      url: "https://discord.gg/5snemdDatv",
     },
   ];
 

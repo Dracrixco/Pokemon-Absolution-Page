@@ -55,3 +55,32 @@ export const getMoveLearnStats = (moveId: string) => {
 
   return { learners, stats };
 };
+
+export const getCategorizedPokemonForMove = (moveId: string) => {
+  const learners = getPokemonThatLearnMove(moveId);
+
+  return {
+    levelMoves: learners
+      .filter((l) => l.learnMethod === "level")
+      .map((l) => ({
+        id: l.pokemon.id,
+        name: l.pokemon.name,
+        types: l.pokemon.types,
+        level: l.level,
+      })),
+    tutorMoves: learners
+      .filter((l) => l.learnMethod === "tutor")
+      .map((l) => ({
+        id: l.pokemon.id,
+        name: l.pokemon.name,
+        types: l.pokemon.types,
+      })),
+    eggMoves: learners
+      .filter((l) => l.learnMethod === "egg")
+      .map((l) => ({
+        id: l.pokemon.id,
+        name: l.pokemon.name,
+        types: l.pokemon.types,
+      })),
+  };
+};
