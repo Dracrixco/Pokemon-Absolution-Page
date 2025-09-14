@@ -11,9 +11,17 @@ export const FakemonsList = () => {
   const [selectedSuffix, setSelectedSuffix] = useState<string>("absolution");
 
   // Filtrar fakemons por suffix
-  const filteredFakemons = allFakemons.filter((fakemon) =>
-    selectedSuffix === "all" ? true : fakemon.suffix === selectedSuffix
-  );
+  const filteredFakemons = allFakemons.filter((fakemon) => {
+    if (fakemon.dateToShow && fakemon.dateToShow >= new Date()) {
+      return false;
+    }
+
+    if (selectedSuffix === "all") {
+      return true;
+    } else {
+      return fakemon.suffix === selectedSuffix;
+    }
+  });
 
   // Calcular valores de paginación
   const totalItems = filteredFakemons.length;
@@ -120,7 +128,9 @@ export const FakemonsList = () => {
 
               {availableSuffixes.map((suffix) => {
                 const count = allFakemons.filter(
-                  (f) => f.suffix === suffix
+                  (f) =>
+                    f.suffix === suffix &&
+                    (!f.dateToShow || f.dateToShow < new Date())
                 ).length;
                 return (
                   <button

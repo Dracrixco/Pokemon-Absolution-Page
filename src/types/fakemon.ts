@@ -21,6 +21,7 @@ export interface Fakemon extends GenericPBS {
   moves?: string[];
   tutorMoves?: string[];
   eggMoves?: string[];
+  dateToShow?: Date;
 }
 
 export interface FakemonForTeam {
