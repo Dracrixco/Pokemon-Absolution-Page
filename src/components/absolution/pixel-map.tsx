@@ -163,10 +163,6 @@ export const PixelMap: React.FC<PixelMapProps> = ({
                 "bg-red-400 border-red-500";
 
               const isSelected = selectedTile === tile.id;
-              const encounterCount = tile.encounters.reduce(
-                (sum, e) => sum + e.pokes.length,
-                0
-              );
 
               return (
                 <div
@@ -181,28 +177,16 @@ export const PixelMap: React.FC<PixelMapProps> = ({
                 >
                   <div
                     className={cn(
-                      "w-full h-full rounded-sm border-2 flex items-center justify-center relative overflow-hidden transition-all duration-300",
+                      "w-full h-full rounded-sm border-2 flex items-center",
+                      "justify-center relative overflow-hidden transition-all duration-300",
                       colorClass,
-                      "bg-opacity-30 border-opacity-60",
-                      isSelected &&
-                        "scale-105 shadow-lg bg-opacity-50 border-opacity-90"
+                      isSelected ? "scale-105 shadow-lg" : "opacity-50"
                     )}
                   >
-                    {/* Encounter count badge for larger maps */}
-                    {encounterCount > 0 &&
-                      (tile.mapWidth > 2 || tile.mapHeight > 2) && (
-                        <div className="absolute top-1 right-1 bg-black/60 text-white text-xs px-1.5 py-0.5 rounded-full border border-white/30">
-                          {encounterCount}
-                        </div>
-                      )}
-
                     {/* Pulse effect for single tiles or smaller maps */}
                     {tile.mapWidth <= 2 && tile.mapHeight <= 2 && (
                       <div className="relative">
-                        <div className="w-3 h-3 bg-white rounded-full animate-pulse shadow-lg"></div>
-                        {encounterCount > 0 && (
-                          <div className="absolute -top-1 -right-1 w-2 h-2 bg-yellow-400 rounded-full border border-white/50"></div>
-                        )}
+                        <div className="w-3 h-3 bg-white rounded-full shadow-lg"></div>
                       </div>
                     )}
                   </div>
