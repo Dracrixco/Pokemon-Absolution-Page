@@ -9,7 +9,7 @@ import {
   Settings,
   Gamepad2,
 } from "lucide-react";
-import { fakemons } from "@/data/pokemon";
+import { fakemons } from "@/data/pokemon_absolution";
 
 export const GameFeatures = () => {
   const FakemonQty = fakemons.length - (fakemons.length % 10);

@@ -388,7 +388,7 @@ export const tilesData: Record<string, TileData> = {
     y: 7,
     mapWidth: 3,
     mapHeight: 4,
-    mapName: "Dusk Forest",
+    mapName: "Nightfall Forest",
     color: "purple",
 
     encounters: [
@@ -771,14 +771,13 @@ export const tilesData: Record<string, TileData> = {
         type: "Land",
         pokes: [
           "TWIXIE",
-          "CORVISQUIRE",
+          "TWYLICAN",
           "DRIFLOON",
           "MURKROW",
           "PHANTUMP",
           "PUMPKABOO",
           "SHROOMISH",
           "THIEVUL",
-          "WOOBACOON",
         ],
       },
       {
@@ -799,10 +798,10 @@ export const tilesData: Record<string, TileData> = {
         type: "Tree",
         pokes: ["CORVISQUIRE", "MANKEY", "VIGOROTH", "WOOBACOON"],
       },
-      { type: "Water", pokes: ["CARVANHA", "BASCULIN", "WOOPER"] },
-      { type: "OldRod", pokes: ["CARVANHA", "BASCULIN", "MAGIKARP"] },
-      { type: "GoodRod", pokes: ["CARVANHA", "BASCULIN", "MAGIKARP"] },
-      { type: "SuperRod", pokes: ["CARVANHA", "BASCULIN", "MAGIKARP"] },
+      { type: "Water", pokes: ["CARVANHA", "AXISH", "WOOPER"] },
+      { type: "OldRod", pokes: ["CARVANHA", "AXISH", "MAGIKARP"] },
+      { type: "GoodRod", pokes: ["CARVANHA", "AXISH", "MAGIKARP"] },
+      { type: "SuperRod", pokes: ["CARVANHA", "GYARADOS", "JAXEWS"] },
       {
         type: "Raid",
         pokes: [
