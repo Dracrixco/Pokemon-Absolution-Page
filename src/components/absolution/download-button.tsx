@@ -30,9 +30,9 @@ const DownloadButton = ({
         setError(null);
       } catch {
         setGameInfo({
-          version: "0.1.2",
+          version: "0.1.5",
           downloadLink: GOOGLE_DRIVE_URL,
-          lastUpdated: "2025-06-15",
+          lastUpdated: "2025-09-17",
         });
       } finally {
         setLoading(false);
