@@ -14,9 +14,12 @@ const DownloadButton = ({
   showVersion = true,
 }: DownloadButtonProps) => {
   const [gameInfo, setGameInfo] = useState<{
-    version: string;
-    downloadLink: string;
+    downloadLink: {
+      url: string;
+      from: string;
+    }[];
     lastUpdated: string;
+    latestInfo: string;
   } | null>(null);
   const [loading, setLoading] = useState(true);
   const [error, setError] = useState(null);
@@ -30,9 +33,14 @@ const DownloadButton = ({
         setError(null);
       } catch {
         setGameInfo({
-          version: "0.1.5",
-          downloadLink: GOOGLE_DRIVE_URL,
+          downloadLink: [
+            {
+              url: GOOGLE_DRIVE_URL,
+              from: "Google Drive",
+            },
+          ],
           lastUpdated: "2025-09-17",
+          latestInfo: "0.1.5",
         });
       } finally {
         setLoading(false);
@@ -42,18 +50,21 @@ const DownloadButton = ({
     fetchGameInfo();
   }, []);
 
-  const handleClick = () => {
+  const handleClick = (downloadLink: string) => {
     if (gameInfo && !loading) {
-      handleDownload();
+      handleDownload(downloadLink);
     }
   };
 
   return (
     <div className="flex flex-col items-center gap-2">
-      <Button
-        onClick={handleClick}
-        disabled={loading || !gameInfo}
-        className={`
+      {gameInfo?.downloadLink &&
+        gameInfo?.downloadLink.map((link, index) => (
+          <Button
+            key={index}
+            onClick={() => handleClick(link.url)}
+            disabled={loading || !gameInfo}
+            className={`
           ${
             loading || !gameInfo
               ? "bg-gray-400 cursor-not-allowed"
@@ -62,23 +73,24 @@ const DownloadButton = ({
           text-white px-8 py-3 text-lg rounded-full transition-all transform
           ${className}
         `}
-      >
-        {loading ? (
-          <>
-            <Loader2 className="mr-2 h-5 w-5 animate-spin" />
-            Loading...
-          </>
-        ) : (
-          <>
-            <Download className="mr-2 h-5 w-5" />
-            Download Now
-          </>
-        )}
-      </Button>
+          >
+            {loading ? (
+              <>
+                <Loader2 className="mr-2 h-5 w-5 animate-spin" />
+                Loading...
+              </>
+            ) : (
+              <>
+                <Download className="mr-2 h-5 w-5" />
+                Download ({link.from})
+              </>
+            )}
+          </Button>
+        ))}
 
       {showVersion && gameInfo && !loading && (
         <div className="flex flex-col items-center gap-1 text-sm text-white">
-          <span>Version: {gameInfo.version}</span>
+          <span>Latest version: {gameInfo.latestInfo}</span>
           <span>Last updated: {gameInfo.lastUpdated}</span>
         </div>
       )}

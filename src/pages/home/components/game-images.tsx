@@ -1,27 +1,20 @@
 import { Card, CardContent } from "@/components/ui/card";
-// import { Button } from "@/components/ui/button";
 import { ChevronLeft, ChevronRight } from "lucide-react";
 import { useState } from "react";
 
 export const GameImages = () => {
   const [currentSlide, setCurrentSlide] = useState(0);
   const gameImages = [
-    { id: 1, image: "[2025-06-20] 19_09_50.090", alt: "Battle Scene" },
-    { id: 2, image: "[2025-06-20] 19_19_31.902", alt: "Overworld Map" },
-    { id: 3, image: "[2025-06-20] 19_08_07.632", alt: "Pokémon Center" },
-    { id: 4, image: "[2025-06-20] 19_08_48.183", alt: "Customization" },
-    { id: 5, image: "[2025-06-20] 19_17_39.583", alt: "Gym Leader" },
-    { id: 6, image: "[2025-06-20] 19_16_50.417", alt: "Route 2" },
-    { id: 6, image: "[2025-06-20] 21_53_26.204", alt: "Team" },
+    { image: "[2025-06-20] 19_09_50.090", alt: "Battle Scene" },
+    { image: "[2025-06-20] 19_19_31.902", alt: "Overworld Map" },
+    { image: "[2025-06-20] 19_08_07.632", alt: "Pokémon Center" },
+    { image: "[2025-06-20] 19_08_48.183", alt: "Customization" },
+    { image: "[2025-06-20] 19_17_39.583", alt: "Gym Leader" },
+    { image: "[2025-06-20] 19_16_50.417", alt: "Route 2" },
+    { image: "[2025-06-20] 21_53_26.204", alt: "Team" },
+    { image: "[2025-09-07] 21_28_05.332", alt: "Vs Ditto" },
+    { image: "[2025-09-18] 00_53_31.757", alt: "Crafting" },
   ];
-
-  // // Auto-advance carousel
-  // useEffect(() => {
-  //   const timer = setInterval(() => {
-  //     setCurrentSlide((prev) => (prev + 1) % Math.ceil(gameImages.length / 3));
-  //   }, 10000);
-  //   return () => clearInterval(timer);
-  // }, [gameImages.length]);
 
   const nextSlide = () => {
     setCurrentSlide((prev) => (prev + 1) % Math.ceil(gameImages.length / 3));
@@ -76,9 +69,9 @@ export const GameImages = () => {
                     <div className="grid grid-cols-1 md:grid-cols-3 gap-6 px-4">
                       {gameImages
                         .slice(slideIndex * 3, slideIndex * 3 + 3)
-                        .map((image) => (
+                        .map((image, idxID) => (
                           <Card
-                            key={image.id}
+                            key={idxID}
                             className="bg-purple-800/50 border-purple-600 overflow-hidden hover:transform hover:scale-105 transition-all duration-300 group"
                           >
                             <CardContent className="p-0">

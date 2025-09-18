@@ -36,15 +36,14 @@ export const getGameInfo = async () => {
   }
 };
 
-export const handleDownload = async () => {
+export const handleDownload = async (downloadLink: string) => {
   try {
     await fetch(`${import.meta.env.VITE_BACKEND_URL}/download`, {
       method: "GET",
       mode: "no-cors",
     });
 
-    const gameInfo = await getGameInfo();
-    window.open(gameInfo.downloadLink, "_blank");
+    window.open(downloadLink, "_blank");
   } catch (err) {
     window.open(GOOGLE_DRIVE_URL, "_blank");
     console.error("Error registrando descarga:", err);
