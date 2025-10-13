@@ -33,14 +33,14 @@ export const MovesetEditor = () => {
   });
 
   const [activeTab, setActiveTab] = useState<"level" | "tutor" | "egg">(
-    "level"
+    "level",
   );
   const [searchTerm, setSearchTerm] = useState("");
   const [selectedType, setSelectedType] = useState<string>("all");
   const [selectedCategory, setSelectedCategory] = useState<string>("all");
   const [showStats, setShowStats] = useState(false);
   const [selectedMoveForModal, setSelectedMoveForModal] = useState<Move | null>(
-    null
+    null,
   );
   const [showMoveModal, setShowMoveModal] = useState(false);
   const [showImportModal, setShowImportModal] = useState(false);
@@ -49,10 +49,10 @@ export const MovesetEditor = () => {
 
   // Get all unique types and categories
   const availableTypes = Array.from(
-    new Set(allMoves.map((m) => m.type))
+    new Set(allMoves.map((m) => m.type)),
   ).sort();
   const availableCategories = Array.from(
-    new Set(allMoves.map((m) => m.category))
+    new Set(allMoves.map((m) => m.category)),
   ).sort();
 
   // Filter moves based on search and filters
@@ -153,7 +153,7 @@ export const MovesetEditor = () => {
       const newLevelMoves = [...moveset.levelMoves, { level, moveId }];
       if (autoSort) {
         newLevelMoves.sort(
-          (a, b) => a.level - b.level || a.moveId.localeCompare(b.moveId)
+          (a, b) => a.level - b.level || a.moveId.localeCompare(b.moveId),
         );
       }
       setMoveset((prev) => ({ ...prev, levelMoves: newLevelMoves }));
@@ -196,7 +196,7 @@ export const MovesetEditor = () => {
     newLevelMoves[index].level = Math.max(1, Math.min(100, newLevel));
     if (autoSort) {
       newLevelMoves.sort(
-        (a, b) => a.level - b.level || a.moveId.localeCompare(b.moveId)
+        (a, b) => a.level - b.level || a.moveId.localeCompare(b.moveId),
       );
     }
     setMoveset((prev) => ({ ...prev, levelMoves: newLevelMoves }));
@@ -205,7 +205,7 @@ export const MovesetEditor = () => {
   // Manual sort level moves
   const sortLevelMoves = () => {
     const sortedLevelMoves = [...moveset.levelMoves].sort(
-      (a, b) => a.level - b.level || a.moveId.localeCompare(b.moveId)
+      (a, b) => a.level - b.level || a.moveId.localeCompare(b.moveId),
     );
     setMoveset((prev) => ({ ...prev, levelMoves: sortedLevelMoves }));
   };
@@ -233,7 +233,7 @@ export const MovesetEditor = () => {
 
     // Sort attack moves by power (descending)
     attackMoves.sort(
-      (a, b) => a.power - b.power || a.moveId.localeCompare(b.moveId)
+      (a, b) => a.power - b.power || a.moveId.localeCompare(b.moveId),
     );
 
     // Create scaled levels from 5 to 60
@@ -329,7 +329,7 @@ export const MovesetEditor = () => {
     // Level moves
     if (moveset.levelMoves.length > 0) {
       const levelMoveStrings = moveset.levelMoves.map(
-        (lm) => `${lm.level},${lm.moveId}`
+        (lm) => `${lm.level},${lm.moveId}`,
       );
       exportText += `Moves = ${levelMoveStrings.join(",")}\n`;
     }
@@ -487,7 +487,7 @@ export const MovesetEditor = () => {
                     <div className="flex items-center gap-2 mb-2">
                       <span
                         className={`px-2 py-1 rounded text-white text-sm font-medium ${getTypeColor(
-                          type
+                          type,
                         )}`}
                       >
                         {type}
@@ -590,7 +590,7 @@ export const MovesetEditor = () => {
                   >
                     <span
                       className={`px-2 py-1 rounded text-white text-xs font-medium ${getTypeColor(
-                        move.type
+                        move.type,
                       )}`}
                     >
                       {move.type}
@@ -600,8 +600,8 @@ export const MovesetEditor = () => {
                         move.category === "Physical"
                           ? "bg-red-500"
                           : move.category === "Special"
-                          ? "bg-blue-500"
-                          : "bg-gray-500"
+                            ? "bg-blue-500"
+                            : "bg-gray-500"
                       }`}
                     >
                       {move.category}
@@ -709,7 +709,7 @@ export const MovesetEditor = () => {
                   ) : (
                     moveset.levelMoves.map((levelMove, index) => {
                       const move = allMoves.find(
-                        (m) => m.id === levelMove.moveId
+                        (m) => m.id === levelMove.moveId,
                       );
                       return (
                         <div
@@ -725,7 +725,7 @@ export const MovesetEditor = () => {
                               onChange={(e) =>
                                 updateLevelMoveLevel(
                                   index,
-                                  parseInt(e.target.value) || 1
+                                  parseInt(e.target.value) || 1,
                                 )
                               }
                               className="w-16 px-2 py-1 border border-gray-300 rounded text-sm text-center"
@@ -733,7 +733,7 @@ export const MovesetEditor = () => {
                             <div className="flex items-center gap-2">
                               <span
                                 className={`px-2 py-1 rounded text-white text-xs font-medium ${getTypeColor(
-                                  move?.type || "Normal"
+                                  move?.type || "Normal",
                                 )}`}
                               >
                                 {move?.type || "Unknown"}
@@ -743,8 +743,8 @@ export const MovesetEditor = () => {
                                   move?.category === "Physical"
                                     ? "bg-red-500"
                                     : move?.category === "Special"
-                                    ? "bg-blue-500"
-                                    : "bg-gray-500"
+                                      ? "bg-blue-500"
+                                      : "bg-gray-500"
                                 }`}
                               >
                                 {move?.category || "Unknown"}
@@ -794,7 +794,7 @@ export const MovesetEditor = () => {
                             <div className="flex items-center gap-2">
                               <span
                                 className={`px-2 py-1 rounded text-white text-xs font-medium ${getTypeColor(
-                                  move?.type || "Normal"
+                                  move?.type || "Normal",
                                 )}`}
                               >
                                 {move?.type || "Unknown"}
@@ -804,8 +804,8 @@ export const MovesetEditor = () => {
                                   move?.category === "Physical"
                                     ? "bg-red-500"
                                     : move?.category === "Special"
-                                    ? "bg-blue-500"
-                                    : "bg-gray-500"
+                                      ? "bg-blue-500"
+                                      : "bg-gray-500"
                                 }`}
                               >
                                 {move?.category || "Unknown"}
@@ -855,7 +855,7 @@ export const MovesetEditor = () => {
                             <div className="flex items-center gap-2">
                               <span
                                 className={`px-2 py-1 rounded text-white text-xs font-medium ${getTypeColor(
-                                  move?.type || "Normal"
+                                  move?.type || "Normal",
                                 )}`}
                               >
                                 {move?.type || "Unknown"}
@@ -865,8 +865,8 @@ export const MovesetEditor = () => {
                                   move?.category === "Physical"
                                     ? "bg-red-500"
                                     : move?.category === "Special"
-                                    ? "bg-blue-500"
-                                    : "bg-gray-500"
+                                      ? "bg-blue-500"
+                                      : "bg-gray-500"
                                 }`}
                               >
                                 {move?.category || "Unknown"}

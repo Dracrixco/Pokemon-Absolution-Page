@@ -16,7 +16,7 @@ export const ItemSelector: React.FC<{
   const filteredItems = items.filter(
     (item) =>
       item.name.toLowerCase().includes(searchTerm.toLowerCase()) ||
-      item.id.toLowerCase().includes(searchTerm.toLowerCase())
+      item.id.toLowerCase().includes(searchTerm.toLowerCase()),
   );
 
   const handleSelect = (itemId: string) => {

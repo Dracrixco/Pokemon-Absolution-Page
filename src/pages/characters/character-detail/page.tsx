@@ -46,7 +46,7 @@ export const CharacterDetailPage = () => {
                 <div className="flex justify-center mb-4">
                   <span
                     className={`px-4 py-2 rounded-full text-white font-semibold ${getRoleColor(
-                      character.role
+                      character.role,
                     )}`}
                   >
                     {character.role}

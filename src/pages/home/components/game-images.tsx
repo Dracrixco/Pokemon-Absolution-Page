@@ -24,7 +24,7 @@ export const GameImages = () => {
     setCurrentSlide(
       (prev) =>
         (prev - 1 + Math.ceil(gameImages.length / 3)) %
-        Math.ceil(gameImages.length / 3)
+        Math.ceil(gameImages.length / 3),
     );
   };
 
@@ -97,7 +97,7 @@ export const GameImages = () => {
                         ))}
                     </div>
                   </div>
-                )
+                ),
               )}
             </div>
           </div>
@@ -117,7 +117,7 @@ export const GameImages = () => {
                   }`}
                   aria-label={`Go to slide ${index + 1}`}
                 />
-              )
+              ),
             )}
           </div>
 

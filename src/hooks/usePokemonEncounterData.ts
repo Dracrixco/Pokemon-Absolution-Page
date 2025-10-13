@@ -9,7 +9,7 @@ interface PokemonEncounterData {
 }
 
 export function usePokemonEncounterData(
-  pokeIds: string[]
+  pokeIds: string[],
 ): Record<string, PokemonEncounterData> {
   const allFakemons = getAllFakemons();
 
@@ -41,11 +41,14 @@ export function usePokemonEncounterData(
 }
 
 export function getEncounterTypeStats(
-  encounters: { type: string; pokes: string[] }[]
+  encounters: { type: string; pokes: string[] }[],
 ) {
-  return encounters.reduce((stats, encounter) => {
-    stats[encounter.type] =
-      (stats[encounter.type] || 0) + encounter.pokes.length;
-    return stats;
-  }, {} as Record<string, number>);
+  return encounters.reduce(
+    (stats, encounter) => {
+      stats[encounter.type] =
+        (stats[encounter.type] || 0) + encounter.pokes.length;
+      return stats;
+    },
+    {} as Record<string, number>,
+  );
 }

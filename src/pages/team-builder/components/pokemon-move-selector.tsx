@@ -53,7 +53,7 @@ export const MoveSelector: React.FC<MoveSelectorProps> = ({
       (move) =>
         move.name.toLowerCase().includes(searchTerm.toLowerCase()) ||
         move.id.toLowerCase().includes(searchTerm.toLowerCase()) ||
-        move.type.toLowerCase().includes(searchTerm.toLowerCase())
+        move.type.toLowerCase().includes(searchTerm.toLowerCase()),
     );
 
   const handleSelect = (moveId: string) => {
@@ -79,7 +79,7 @@ export const MoveSelector: React.FC<MoveSelectorProps> = ({
                 </span>
                 <span
                   className={`px-2 py-1 rounded text-white text-xs ${getTypeColor(
-                    selectedMove.type
+                    selectedMove.type,
                   )}`}
                 >
                   {selectedMove.type}
@@ -150,7 +150,7 @@ export const MoveSelector: React.FC<MoveSelectorProps> = ({
                   </span>
                   <span
                     className={`px-2 py-1 rounded text-white text-xs ${getTypeColor(
-                      move.type
+                      move.type,
                     )}`}
                   >
                     {move.type}
@@ -163,7 +163,7 @@ export const MoveSelector: React.FC<MoveSelectorProps> = ({
                     <div className="font-medium text-sm">{move.name}</div>
                     <span
                       className={`px-2 py-1 rounded text-white text-xs ${getCategoryColor(
-                        move.category
+                        move.category,
                       )}`}
                     >
                       {move.category}

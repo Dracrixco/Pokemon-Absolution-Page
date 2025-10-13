@@ -48,9 +48,9 @@ export const PixelMap: React.FC<PixelMapProps> = ({
       sum +
       tile.encounters.reduce(
         (encounterSum, encounter) => encounterSum + encounter.pokes.length,
-        0
+        0,
       ),
-    0
+    0,
   );
 
   return (
@@ -140,7 +140,7 @@ export const PixelMap: React.FC<PixelMapProps> = ({
                         isSelected
                           ? "bg-yellow-400/20 border-yellow-300 shadow-lg z-20 scale-105"
                           : "",
-                        tile ? "hover:shadow-md hover:scale-102" : ""
+                        tile ? "hover:shadow-md hover:scale-102" : "",
                       )}
                       onClick={() => handleTileClick(tile || null)}
                       onMouseEnter={() => {
@@ -152,7 +152,7 @@ export const PixelMap: React.FC<PixelMapProps> = ({
                       }}
                     />
                   );
-                })
+                }),
               )}
             </div>
 
@@ -180,7 +180,7 @@ export const PixelMap: React.FC<PixelMapProps> = ({
                       "w-full h-full rounded-sm border-2 flex items-center",
                       "justify-center relative overflow-hidden transition-all duration-300",
                       colorClass,
-                      isSelected ? "scale-105 shadow-lg" : "opacity-50"
+                      isSelected ? "scale-105 shadow-lg" : "opacity-50",
                     )}
                   >
                     {/* Pulse effect for single tiles or smaller maps */}
@@ -208,10 +208,6 @@ export const PixelMap: React.FC<PixelMapProps> = ({
           <div className="flex items-center gap-2 bg-white/10 px-3 py-1 rounded-full text-xs text-white/80">
             <div className="w-2 h-2 bg-white rounded-full animate-pulse"></div>
             <span>Explorable Areas</span>
-          </div>
-          <div className="flex items-center gap-2 bg-white/10 px-3 py-1 rounded-full text-xs text-white/80">
-            <div className="w-2 h-2 bg-yellow-400 rounded-full"></div>
-            <span>Pokémon Encounters</span>
           </div>
           <div className="flex items-center gap-2 bg-white/10 px-3 py-1 rounded-full text-xs text-white/80">
             <span>🔍</span>

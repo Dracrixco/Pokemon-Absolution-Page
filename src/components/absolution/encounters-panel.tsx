@@ -29,7 +29,7 @@ export const EncountersPanel: React.FC<EncountersPanelProps> = ({ tile }) => {
 
   const totalEncounters = tile.encounters.reduce(
     (sum, encounter) => sum + encounter.pokes.length,
-    0
+    0,
   );
 
   return (
@@ -45,7 +45,7 @@ export const EncountersPanel: React.FC<EncountersPanelProps> = ({ tile }) => {
             <div
               className={cn(
                 "w-4 h-4 rounded-full border-2 border-white/50",
-                getMapColorClass(tile.color)
+                getMapColorClass(tile.color),
               )}
             />
           </div>

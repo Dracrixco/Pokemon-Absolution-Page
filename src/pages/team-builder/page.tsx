@@ -95,7 +95,7 @@ export const TeamBuilder = () => {
       exportText += `    Moves_normal = ${pokemon.moves_normal.join(",")}\n`;
       exportText += `    Moves_hard = ${pokemon.moves_hard.join(",")}\n`;
       exportText += `    Moves_absolution = ${pokemon.moves_absolution.join(
-        ","
+        ",",
       )}\n`;
 
       // Solo incluir items si no están vacíos
@@ -229,7 +229,7 @@ export const TeamBuilder = () => {
                           <span
                             key={type}
                             className={`px-2 py-1 rounded text-white text-xs ${getTypeColor(
-                              type
+                              type,
                             )}`}
                           >
                             {type}

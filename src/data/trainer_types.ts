@@ -1,7 +1,6 @@
 import type { TrainerType } from "@/types/trainertype";
 
-export const trainerTypes: TrainerType[] = 
-[
+export const trainerTypes: TrainerType[] = [
   {
     id: "POKEMONTRAINER_ETHAN",
     name: "Pokémon Trainer",
@@ -9,7 +8,7 @@ export const trainerTypes: TrainerType[] =
     baseMoney: 60,
     suffix: "normal",
     sprite: "/Trainers/POKEMONTRAINER_ETHAN.png",
-    description: ""
+    description: "",
   },
   {
     id: "POKEMONTRAINER_LYRA",
@@ -18,7 +17,7 @@ export const trainerTypes: TrainerType[] =
     baseMoney: 60,
     suffix: "normal",
     sprite: "/Trainers/POKEMONTRAINER_LYRA.png",
-    description: ""
+    description: "",
   },
   {
     id: "POKEMONTRAINER_SILVER",
@@ -27,7 +26,7 @@ export const trainerTypes: TrainerType[] =
     baseMoney: 60,
     suffix: "normal",
     sprite: "/Trainers/POKEMONTRAINER_SILVER.png",
-    description: ""
+    description: "",
   },
   {
     id: "POKEMONTRAINER_LUCAS",
@@ -36,7 +35,7 @@ export const trainerTypes: TrainerType[] =
     baseMoney: 60,
     suffix: "normal",
     sprite: "/Trainers/POKEMONTRAINER_LUCAS.png",
-    description: ""
+    description: "",
   },
   {
     id: "POKEMONTRAINER_DAWN",
@@ -45,7 +44,7 @@ export const trainerTypes: TrainerType[] =
     baseMoney: 60,
     suffix: "normal",
     sprite: "/Trainers/POKEMONTRAINER_DAWN.png",
-    description: ""
+    description: "",
   },
   {
     id: "YOUNGSTER",
@@ -54,7 +53,7 @@ export const trainerTypes: TrainerType[] =
     baseMoney: 16,
     suffix: "normal",
     sprite: "/Trainers/YOUNGSTER.png",
-    description: ""
+    description: "",
   },
   {
     id: "YOUNGSTER2",
@@ -63,7 +62,7 @@ export const trainerTypes: TrainerType[] =
     baseMoney: 16,
     suffix: "normal",
     sprite: "/Trainers/YOUNGSTER2.png",
-    description: ""
+    description: "",
   },
   {
     id: "YOUNGSTER3",
@@ -72,7 +71,7 @@ export const trainerTypes: TrainerType[] =
     baseMoney: 16,
     suffix: "normal",
     sprite: "/Trainers/YOUNGSTER3.png",
-    description: ""
+    description: "",
   },
   {
     id: "LASS",
@@ -81,7 +80,7 @@ export const trainerTypes: TrainerType[] =
     baseMoney: 16,
     suffix: "normal",
     sprite: "/Trainers/LASS.png",
-    description: ""
+    description: "",
   },
   {
     id: "LASS2",
@@ -90,7 +89,7 @@ export const trainerTypes: TrainerType[] =
     baseMoney: 16,
     suffix: "normal",
     sprite: "/Trainers/LASS2.png",
-    description: ""
+    description: "",
   },
   {
     id: "LASS3",
@@ -99,7 +98,7 @@ export const trainerTypes: TrainerType[] =
     baseMoney: 16,
     suffix: "normal",
     sprite: "/Trainers/LASS3.png",
-    description: ""
+    description: "",
   },
   {
     id: "SCHOOLKID_M",
@@ -108,7 +107,7 @@ export const trainerTypes: TrainerType[] =
     baseMoney: 20,
     suffix: "normal",
     sprite: "/Trainers/SCHOOLKID_M.png",
-    description: ""
+    description: "",
   },
   {
     id: "SCHOOLKID_M2",
@@ -117,7 +116,7 @@ export const trainerTypes: TrainerType[] =
     baseMoney: 20,
     suffix: "normal",
     sprite: "/Trainers/SCHOOLKID_M2.png",
-    description: ""
+    description: "",
   },
   {
     id: "SCHOOLKID_M3",
@@ -126,7 +125,7 @@ export const trainerTypes: TrainerType[] =
     baseMoney: 20,
     suffix: "normal",
     sprite: "/Trainers/SCHOOLKID_M3.png",
-    description: ""
+    description: "",
   },
   {
     id: "SCHOOLKID_F",
@@ -135,7 +134,7 @@ export const trainerTypes: TrainerType[] =
     baseMoney: 20,
     suffix: "normal",
     sprite: "/Trainers/SCHOOLKID_F.png",
-    description: ""
+    description: "",
   },
   {
     id: "SCHOOLKID_F2",
@@ -144,7 +143,7 @@ export const trainerTypes: TrainerType[] =
     baseMoney: 20,
     suffix: "normal",
     sprite: "/Trainers/SCHOOLKID_F2.png",
-    description: ""
+    description: "",
   },
   {
     id: "BUGCATCHER",
@@ -153,7 +152,7 @@ export const trainerTypes: TrainerType[] =
     baseMoney: 16,
     suffix: "normal",
     sprite: "/Trainers/BUGCATCHER.png",
-    description: ""
+    description: "",
   },
   {
     id: "BUGCATCHER2",
@@ -162,7 +161,7 @@ export const trainerTypes: TrainerType[] =
     baseMoney: 16,
     suffix: "normal",
     sprite: "/Trainers/BUGCATCHER2.png",
-    description: ""
+    description: "",
   },
   {
     id: "BUGCATCHER_F",
@@ -171,7 +170,7 @@ export const trainerTypes: TrainerType[] =
     baseMoney: 16,
     suffix: "normal",
     sprite: "/Trainers/BUGCATCHER_F.png",
-    description: ""
+    description: "",
   },
   {
     id: "CAMPER",
@@ -180,7 +179,7 @@ export const trainerTypes: TrainerType[] =
     baseMoney: 16,
     suffix: "normal",
     sprite: "/Trainers/CAMPER.png",
-    description: ""
+    description: "",
   },
   {
     id: "PICNICKER",
@@ -189,7 +188,7 @@ export const trainerTypes: TrainerType[] =
     baseMoney: 16,
     suffix: "normal",
     sprite: "/Trainers/PICNICKER.png",
-    description: ""
+    description: "",
   },
   {
     id: "NINJABOY",
@@ -198,7 +197,7 @@ export const trainerTypes: TrainerType[] =
     baseMoney: 8,
     suffix: "normal",
     sprite: "/Trainers/NINJABOY.png",
-    description: ""
+    description: "",
   },
   {
     id: "POKEKID",
@@ -207,7 +206,7 @@ export const trainerTypes: TrainerType[] =
     baseMoney: 8,
     suffix: "normal",
     sprite: "/Trainers/POKEKID.png",
-    description: ""
+    description: "",
   },
   {
     id: "PRESCHOOLER_M",
@@ -216,7 +215,7 @@ export const trainerTypes: TrainerType[] =
     baseMoney: 20,
     suffix: "normal",
     sprite: "/Trainers/PRESCHOOLER_M.png",
-    description: ""
+    description: "",
   },
   {
     id: "PRESCHOOLER_M_BOSS",
@@ -225,7 +224,7 @@ export const trainerTypes: TrainerType[] =
     baseMoney: 30,
     suffix: "normal",
     sprite: "/Trainers/PRESCHOOLER_M_BOSS.png",
-    description: ""
+    description: "",
   },
   {
     id: "PRESCHOOLER_F",
@@ -234,7 +233,7 @@ export const trainerTypes: TrainerType[] =
     baseMoney: 20,
     suffix: "normal",
     sprite: "/Trainers/PRESCHOOLER_F.png",
-    description: ""
+    description: "",
   },
   {
     id: "TUBER_M",
@@ -243,7 +242,7 @@ export const trainerTypes: TrainerType[] =
     baseMoney: 4,
     suffix: "normal",
     sprite: "/Trainers/TUBER_M.png",
-    description: ""
+    description: "",
   },
   {
     id: "TUBER_F",
@@ -252,7 +251,7 @@ export const trainerTypes: TrainerType[] =
     baseMoney: 4,
     suffix: "normal",
     sprite: "/Trainers/TUBER_F.png",
-    description: ""
+    description: "",
   },
   {
     id: "SWIMMER_M",
@@ -261,7 +260,7 @@ export const trainerTypes: TrainerType[] =
     baseMoney: 16,
     suffix: "normal",
     sprite: "/Trainers/SWIMMER_M.png",
-    description: ""
+    description: "",
   },
   {
     id: "SWIMMER_M2",
@@ -270,7 +269,7 @@ export const trainerTypes: TrainerType[] =
     baseMoney: 16,
     suffix: "normal",
     sprite: "/Trainers/SWIMMER_M2.png",
-    description: ""
+    description: "",
   },
   {
     id: "SWIMMER_M3",
@@ -279,7 +278,7 @@ export const trainerTypes: TrainerType[] =
     baseMoney: 16,
     suffix: "normal",
     sprite: "/Trainers/SWIMMER_M3.png",
-    description: ""
+    description: "",
   },
   {
     id: "SWIMMER_F",
@@ -288,7 +287,7 @@ export const trainerTypes: TrainerType[] =
     baseMoney: 16,
     suffix: "normal",
     sprite: "/Trainers/SWIMMER_F.png",
-    description: ""
+    description: "",
   },
   {
     id: "SWIMMER_F2",
@@ -297,7 +296,7 @@ export const trainerTypes: TrainerType[] =
     baseMoney: 16,
     suffix: "normal",
     sprite: "/Trainers/SWIMMER_F2.png",
-    description: ""
+    description: "",
   },
   {
     id: "SWIMMER_F3",
@@ -306,7 +305,7 @@ export const trainerTypes: TrainerType[] =
     baseMoney: 16,
     suffix: "normal",
     sprite: "/Trainers/SWIMMER_F3.png",
-    description: ""
+    description: "",
   },
   {
     id: "FISHERMAN",
@@ -315,7 +314,7 @@ export const trainerTypes: TrainerType[] =
     baseMoney: 32,
     suffix: "normal",
     sprite: "/Trainers/FISHERMAN.png",
-    description: ""
+    description: "",
   },
   {
     id: "FISHERMAN2",
@@ -324,7 +323,7 @@ export const trainerTypes: TrainerType[] =
     baseMoney: 32,
     suffix: "normal",
     sprite: "/Trainers/FISHERMAN2.png",
-    description: ""
+    description: "",
   },
   {
     id: "BLACKBELT",
@@ -333,7 +332,7 @@ export const trainerTypes: TrainerType[] =
     baseMoney: 24,
     suffix: "normal",
     sprite: "/Trainers/BLACKBELT.png",
-    description: ""
+    description: "",
   },
   {
     id: "BLACKBELT2",
@@ -342,7 +341,7 @@ export const trainerTypes: TrainerType[] =
     baseMoney: 24,
     suffix: "normal",
     sprite: "/Trainers/BLACKBELT2.png",
-    description: ""
+    description: "",
   },
   {
     id: "BLACKBELT3",
@@ -351,7 +350,7 @@ export const trainerTypes: TrainerType[] =
     baseMoney: 24,
     suffix: "normal",
     sprite: "/Trainers/BLACKBELT3.png",
-    description: ""
+    description: "",
   },
   {
     id: "BATTLEGIRL",
@@ -360,7 +359,7 @@ export const trainerTypes: TrainerType[] =
     baseMoney: 16,
     suffix: "normal",
     sprite: "/Trainers/BATTLEGIRL.png",
-    description: ""
+    description: "",
   },
   {
     id: "BATTLEGIRL2",
@@ -369,7 +368,7 @@ export const trainerTypes: TrainerType[] =
     baseMoney: 16,
     suffix: "normal",
     sprite: "/Trainers/BATTLEGIRL2.png",
-    description: ""
+    description: "",
   },
   {
     id: "JOGGER",
@@ -378,7 +377,7 @@ export const trainerTypes: TrainerType[] =
     baseMoney: 32,
     suffix: "normal",
     sprite: "/Trainers/JOGGER.png",
-    description: ""
+    description: "",
   },
   {
     id: "CYCLIST_M",
@@ -387,7 +386,7 @@ export const trainerTypes: TrainerType[] =
     baseMoney: 32,
     suffix: "normal",
     sprite: "/Trainers/CYCLIST_M.png",
-    description: ""
+    description: "",
   },
   {
     id: "CYCLIST_M2",
@@ -396,7 +395,7 @@ export const trainerTypes: TrainerType[] =
     baseMoney: 32,
     suffix: "normal",
     sprite: "/Trainers/CYCLIST_M2.png",
-    description: ""
+    description: "",
   },
   {
     id: "CYCLIST_F",
@@ -405,7 +404,7 @@ export const trainerTypes: TrainerType[] =
     baseMoney: 32,
     suffix: "normal",
     sprite: "/Trainers/CYCLIST_F.png",
-    description: ""
+    description: "",
   },
   {
     id: "CYCLIST_F2",
@@ -414,7 +413,7 @@ export const trainerTypes: TrainerType[] =
     baseMoney: 32,
     suffix: "normal",
     sprite: "/Trainers/CYCLIST_F2.png",
-    description: ""
+    description: "",
   },
   {
     id: "HIKER",
@@ -423,7 +422,7 @@ export const trainerTypes: TrainerType[] =
     baseMoney: 32,
     suffix: "normal",
     sprite: "/Trainers/HIKER.png",
-    description: ""
+    description: "",
   },
   {
     id: "HIKER2",
@@ -432,7 +431,7 @@ export const trainerTypes: TrainerType[] =
     baseMoney: 32,
     suffix: "normal",
     sprite: "/Trainers/HIKER2.png",
-    description: ""
+    description: "",
   },
   {
     id: "BACKPACKER_M",
@@ -441,7 +440,7 @@ export const trainerTypes: TrainerType[] =
     baseMoney: 32,
     suffix: "normal",
     sprite: "/Trainers/BACKPACKER_M.png",
-    description: ""
+    description: "",
   },
   {
     id: "BACKPACKER_F",
@@ -450,7 +449,7 @@ export const trainerTypes: TrainerType[] =
     baseMoney: 32,
     suffix: "normal",
     sprite: "/Trainers/BACKPACKER_F.png",
-    description: ""
+    description: "",
   },
   {
     id: "SCIENTIST_M",
@@ -459,7 +458,7 @@ export const trainerTypes: TrainerType[] =
     baseMoney: 32,
     suffix: "normal",
     sprite: "/Trainers/SCIENTIST_M.png",
-    description: ""
+    description: "",
   },
   {
     id: "SCIENTIST_M2",
@@ -468,7 +467,7 @@ export const trainerTypes: TrainerType[] =
     baseMoney: 32,
     suffix: "normal",
     sprite: "/Trainers/SCIENTIST_M2.png",
-    description: ""
+    description: "",
   },
   {
     id: "SCIENTIST_M3",
@@ -477,7 +476,7 @@ export const trainerTypes: TrainerType[] =
     baseMoney: 32,
     suffix: "normal",
     sprite: "/Trainers/SCIENTIST_M3.png",
-    description: ""
+    description: "",
   },
   {
     id: "SCIENTIST_F",
@@ -486,7 +485,7 @@ export const trainerTypes: TrainerType[] =
     baseMoney: 32,
     suffix: "normal",
     sprite: "/Trainers/SCIENTIST_F.png",
-    description: ""
+    description: "",
   },
   {
     id: "COLLECTOR",
@@ -495,7 +494,7 @@ export const trainerTypes: TrainerType[] =
     baseMoney: 64,
     suffix: "normal",
     sprite: "/Trainers/COLLECTOR.png",
-    description: ""
+    description: "",
   },
   {
     id: "SUPERNERD",
@@ -504,7 +503,7 @@ export const trainerTypes: TrainerType[] =
     baseMoney: 24,
     suffix: "normal",
     sprite: "/Trainers/SUPERNERD.png",
-    description: ""
+    description: "",
   },
   {
     id: "PSYCHIC_M",
@@ -513,7 +512,7 @@ export const trainerTypes: TrainerType[] =
     baseMoney: 32,
     suffix: "normal",
     sprite: "/Trainers/PSYCHIC_M.png",
-    description: ""
+    description: "",
   },
   {
     id: "PSYCHIC_M2",
@@ -522,7 +521,7 @@ export const trainerTypes: TrainerType[] =
     baseMoney: 32,
     suffix: "normal",
     sprite: "/Trainers/PSYCHIC_M2.png",
-    description: ""
+    description: "",
   },
   {
     id: "PSYCHIC_F",
@@ -531,7 +530,7 @@ export const trainerTypes: TrainerType[] =
     baseMoney: 32,
     suffix: "normal",
     sprite: "/Trainers/PSYCHIC_F.png",
-    description: ""
+    description: "",
   },
   {
     id: "PSYCHIC_F2",
@@ -540,7 +539,7 @@ export const trainerTypes: TrainerType[] =
     baseMoney: 32,
     suffix: "normal",
     sprite: "/Trainers/PSYCHIC_F2.png",
-    description: ""
+    description: "",
   },
   {
     id: "SAGE",
@@ -549,7 +548,7 @@ export const trainerTypes: TrainerType[] =
     baseMoney: 48,
     suffix: "normal",
     sprite: "/Trainers/SAGE.png",
-    description: ""
+    description: "",
   },
   {
     id: "ELDER",
@@ -558,7 +557,7 @@ export const trainerTypes: TrainerType[] =
     baseMoney: 120,
     suffix: "normal",
     sprite: "/Trainers/ELDER.png",
-    description: ""
+    description: "",
   },
   {
     id: "MEDIUM",
@@ -567,7 +566,7 @@ export const trainerTypes: TrainerType[] =
     baseMoney: 48,
     suffix: "normal",
     sprite: "/Trainers/MEDIUM.png",
-    description: ""
+    description: "",
   },
   {
     id: "KIMONOGIRL",
@@ -576,7 +575,7 @@ export const trainerTypes: TrainerType[] =
     baseMoney: 120,
     suffix: "normal",
     sprite: "/Trainers/KIMONOGIRL.png",
-    description: ""
+    description: "",
   },
   {
     id: "BEAUTY",
@@ -585,7 +584,7 @@ export const trainerTypes: TrainerType[] =
     baseMoney: 56,
     suffix: "normal",
     sprite: "/Trainers/BEAUTY.png",
-    description: ""
+    description: "",
   },
   {
     id: "BEAUTY2",
@@ -594,7 +593,7 @@ export const trainerTypes: TrainerType[] =
     baseMoney: 56,
     suffix: "normal",
     sprite: "/Trainers/BEAUTY2.png",
-    description: ""
+    description: "",
   },
   {
     id: "BEAUTY3",
@@ -603,7 +602,7 @@ export const trainerTypes: TrainerType[] =
     baseMoney: 56,
     suffix: "normal",
     sprite: "/Trainers/BEAUTY3.png",
-    description: ""
+    description: "",
   },
   {
     id: "CAMERAMAN",
@@ -612,7 +611,7 @@ export const trainerTypes: TrainerType[] =
     baseMoney: 32,
     suffix: "normal",
     sprite: "/Trainers/CAMERAMAN.png",
-    description: ""
+    description: "",
   },
   {
     id: "REPORTER",
@@ -621,7 +620,7 @@ export const trainerTypes: TrainerType[] =
     baseMoney: 40,
     suffix: "normal",
     sprite: "/Trainers/REPORTER.png",
-    description: ""
+    description: "",
   },
   {
     id: "TEACHER",
@@ -630,7 +629,7 @@ export const trainerTypes: TrainerType[] =
     baseMoney: 48,
     suffix: "normal",
     sprite: "/Trainers/TEACHER.png",
-    description: ""
+    description: "",
   },
   {
     id: "NURSERYAIDE",
@@ -639,7 +638,7 @@ export const trainerTypes: TrainerType[] =
     baseMoney: 48,
     suffix: "normal",
     sprite: "/Trainers/NURSERYAIDE.png",
-    description: ""
+    description: "",
   },
   {
     id: "RICHBOY",
@@ -648,7 +647,7 @@ export const trainerTypes: TrainerType[] =
     baseMoney: 160,
     suffix: "normal",
     sprite: "/Trainers/RICHBOY.png",
-    description: ""
+    description: "",
   },
   {
     id: "RICHBOY2",
@@ -657,7 +656,7 @@ export const trainerTypes: TrainerType[] =
     baseMoney: 160,
     suffix: "normal",
     sprite: "/Trainers/RICHBOY2.png",
-    description: ""
+    description: "",
   },
   {
     id: "LADY",
@@ -666,7 +665,7 @@ export const trainerTypes: TrainerType[] =
     baseMoney: 160,
     suffix: "normal",
     sprite: "/Trainers/LADY.png",
-    description: ""
+    description: "",
   },
   {
     id: "LADY2",
@@ -675,7 +674,7 @@ export const trainerTypes: TrainerType[] =
     baseMoney: 160,
     suffix: "normal",
     sprite: "/Trainers/LADY2.png",
-    description: ""
+    description: "",
   },
   {
     id: "PARASOLLADY",
@@ -684,7 +683,7 @@ export const trainerTypes: TrainerType[] =
     baseMoney: 32,
     suffix: "normal",
     sprite: "/Trainers/PARASOLLADY.png",
-    description: ""
+    description: "",
   },
   {
     id: "PARASOLLADY2",
@@ -693,7 +692,7 @@ export const trainerTypes: TrainerType[] =
     baseMoney: 32,
     suffix: "normal",
     sprite: "/Trainers/PARASOLLADY2.png",
-    description: ""
+    description: "",
   },
   {
     id: "HOOPSTER",
@@ -702,7 +701,7 @@ export const trainerTypes: TrainerType[] =
     baseMoney: 32,
     suffix: "normal",
     sprite: "/Trainers/HOOPSTER.png",
-    description: ""
+    description: "",
   },
   {
     id: "LINEBACKER",
@@ -711,7 +710,7 @@ export const trainerTypes: TrainerType[] =
     baseMoney: 32,
     suffix: "normal",
     sprite: "/Trainers/LINEBACKER.png",
-    description: ""
+    description: "",
   },
   {
     id: "STRIKER",
@@ -720,7 +719,7 @@ export const trainerTypes: TrainerType[] =
     baseMoney: 32,
     suffix: "normal",
     sprite: "/Trainers/STRIKER.png",
-    description: ""
+    description: "",
   },
   {
     id: "INFIELDER",
@@ -729,7 +728,7 @@ export const trainerTypes: TrainerType[] =
     baseMoney: 32,
     suffix: "normal",
     sprite: "/Trainers/INFIELDER.png",
-    description: ""
+    description: "",
   },
   {
     id: "SMASHER",
@@ -738,7 +737,7 @@ export const trainerTypes: TrainerType[] =
     baseMoney: 32,
     suffix: "normal",
     sprite: "/Trainers/SMASHER.png",
-    description: ""
+    description: "",
   },
   {
     id: "SKIER_M",
@@ -747,7 +746,7 @@ export const trainerTypes: TrainerType[] =
     baseMoney: 32,
     suffix: "normal",
     sprite: "/Trainers/SKIER_M.png",
-    description: ""
+    description: "",
   },
   {
     id: "BOARDER",
@@ -756,7 +755,7 @@ export const trainerTypes: TrainerType[] =
     baseMoney: 32,
     suffix: "normal",
     sprite: "/Trainers/BOARDER.png",
-    description: ""
+    description: "",
   },
   {
     id: "SKIER_F",
@@ -765,7 +764,7 @@ export const trainerTypes: TrainerType[] =
     baseMoney: 32,
     suffix: "normal",
     sprite: "/Trainers/SKIER_F.png",
-    description: ""
+    description: "",
   },
   {
     id: "SKIER_F2",
@@ -774,7 +773,7 @@ export const trainerTypes: TrainerType[] =
     baseMoney: 32,
     suffix: "normal",
     sprite: "/Trainers/SKIER_F2.png",
-    description: ""
+    description: "",
   },
   {
     id: "GUITARIST",
@@ -783,7 +782,7 @@ export const trainerTypes: TrainerType[] =
     baseMoney: 24,
     suffix: "normal",
     sprite: "/Trainers/GUITARIST.png",
-    description: ""
+    description: "",
   },
   {
     id: "GUITARIST2",
@@ -792,7 +791,7 @@ export const trainerTypes: TrainerType[] =
     baseMoney: 24,
     suffix: "normal",
     sprite: "/Trainers/GUITARIST2.png",
-    description: ""
+    description: "",
   },
   {
     id: "GUITARIST_F",
@@ -801,7 +800,7 @@ export const trainerTypes: TrainerType[] =
     baseMoney: 24,
     suffix: "normal",
     sprite: "/Trainers/GUITARIST_F.png",
-    description: ""
+    description: "",
   },
   {
     id: "DANCER",
@@ -810,7 +809,7 @@ export const trainerTypes: TrainerType[] =
     baseMoney: 24,
     suffix: "normal",
     sprite: "/Trainers/DANCER.png",
-    description: ""
+    description: "",
   },
   {
     id: "IDOL",
@@ -819,7 +818,7 @@ export const trainerTypes: TrainerType[] =
     baseMoney: 72,
     suffix: "normal",
     sprite: "/Trainers/IDOL.png",
-    description: ""
+    description: "",
   },
   {
     id: "CLOWN",
@@ -828,7 +827,7 @@ export const trainerTypes: TrainerType[] =
     baseMoney: 24,
     suffix: "normal",
     sprite: "/Trainers/CLOWN.png",
-    description: ""
+    description: "",
   },
   {
     id: "JUGGLER",
@@ -837,7 +836,7 @@ export const trainerTypes: TrainerType[] =
     baseMoney: 32,
     suffix: "normal",
     sprite: "/Trainers/JUGGLER.png",
-    description: ""
+    description: "",
   },
   {
     id: "HARLEQUIN",
@@ -846,7 +845,7 @@ export const trainerTypes: TrainerType[] =
     baseMoney: 32,
     suffix: "normal",
     sprite: "/Trainers/HARLEQUIN.png",
-    description: ""
+    description: "",
   },
   {
     id: "FIREBREATHER",
@@ -855,7 +854,7 @@ export const trainerTypes: TrainerType[] =
     baseMoney: 32,
     suffix: "normal",
     sprite: "/Trainers/FIREBREATHER.png",
-    description: ""
+    description: "",
   },
   {
     id: "ARTIST",
@@ -864,7 +863,7 @@ export const trainerTypes: TrainerType[] =
     baseMoney: 48,
     suffix: "normal",
     sprite: "/Trainers/ARTIST.png",
-    description: ""
+    description: "",
   },
   {
     id: "ARTIST2",
@@ -873,7 +872,7 @@ export const trainerTypes: TrainerType[] =
     baseMoney: 48,
     suffix: "normal",
     sprite: "/Trainers/ARTIST2.png",
-    description: ""
+    description: "",
   },
   {
     id: "BAKER",
@@ -882,7 +881,7 @@ export const trainerTypes: TrainerType[] =
     baseMoney: 32,
     suffix: "normal",
     sprite: "/Trainers/BAKER.png",
-    description: ""
+    description: "",
   },
   {
     id: "WAITER",
@@ -891,7 +890,7 @@ export const trainerTypes: TrainerType[] =
     baseMoney: 32,
     suffix: "normal",
     sprite: "/Trainers/WAITER.png",
-    description: ""
+    description: "",
   },
   {
     id: "WAITER2",
@@ -900,7 +899,7 @@ export const trainerTypes: TrainerType[] =
     baseMoney: 32,
     suffix: "normal",
     sprite: "/Trainers/WAITER2.png",
-    description: ""
+    description: "",
   },
   {
     id: "WAITRESS",
@@ -909,7 +908,7 @@ export const trainerTypes: TrainerType[] =
     baseMoney: 32,
     suffix: "normal",
     sprite: "/Trainers/WAITRESS.png",
-    description: ""
+    description: "",
   },
   {
     id: "WAITRESS2",
@@ -918,7 +917,7 @@ export const trainerTypes: TrainerType[] =
     baseMoney: 32,
     suffix: "normal",
     sprite: "/Trainers/WAITRESS2.png",
-    description: ""
+    description: "",
   },
   {
     id: "MAID",
@@ -927,7 +926,7 @@ export const trainerTypes: TrainerType[] =
     baseMoney: 40,
     suffix: "normal",
     sprite: "/Trainers/MAID.png",
-    description: ""
+    description: "",
   },
   {
     id: "MAID2",
@@ -936,7 +935,7 @@ export const trainerTypes: TrainerType[] =
     baseMoney: 40,
     suffix: "normal",
     sprite: "/Trainers/MAID2.png",
-    description: ""
+    description: "",
   },
   {
     id: "WORKER",
@@ -945,7 +944,7 @@ export const trainerTypes: TrainerType[] =
     baseMoney: 40,
     suffix: "normal",
     sprite: "/Trainers/WORKER.png",
-    description: ""
+    description: "",
   },
   {
     id: "WORKER2",
@@ -954,7 +953,7 @@ export const trainerTypes: TrainerType[] =
     baseMoney: 40,
     suffix: "normal",
     sprite: "/Trainers/WORKER2.png",
-    description: ""
+    description: "",
   },
   {
     id: "WORKER3",
@@ -963,7 +962,7 @@ export const trainerTypes: TrainerType[] =
     baseMoney: 40,
     suffix: "normal",
     sprite: "/Trainers/WORKER3.png",
-    description: ""
+    description: "",
   },
   {
     id: "POLICEMAN",
@@ -972,7 +971,7 @@ export const trainerTypes: TrainerType[] =
     baseMoney: 40,
     suffix: "normal",
     sprite: "/Trainers/POLICEMAN.png",
-    description: ""
+    description: "",
   },
   {
     id: "POLICEMAN2",
@@ -981,7 +980,7 @@ export const trainerTypes: TrainerType[] =
     baseMoney: 40,
     suffix: "normal",
     sprite: "/Trainers/POLICEMAN2.png",
-    description: ""
+    description: "",
   },
   {
     id: "BURGLAR",
@@ -990,7 +989,7 @@ export const trainerTypes: TrainerType[] =
     baseMoney: 16,
     suffix: "normal",
     sprite: "/Trainers/BURGLAR.png",
-    description: ""
+    description: "",
   },
   {
     id: "GAMBLER",
@@ -999,7 +998,7 @@ export const trainerTypes: TrainerType[] =
     baseMoney: 120,
     suffix: "normal",
     sprite: "/Trainers/GAMBLER.png",
-    description: ""
+    description: "",
   },
   {
     id: "ROUGHNECK",
@@ -1008,7 +1007,7 @@ export const trainerTypes: TrainerType[] =
     baseMoney: 24,
     suffix: "normal",
     sprite: "/Trainers/ROUGHNECK.png",
-    description: ""
+    description: "",
   },
   {
     id: "ROUGHNECK2",
@@ -1017,7 +1016,7 @@ export const trainerTypes: TrainerType[] =
     baseMoney: 24,
     suffix: "normal",
     sprite: "/Trainers/ROUGHNECK2.png",
-    description: ""
+    description: "",
   },
   {
     id: "BIKER",
@@ -1026,7 +1025,7 @@ export const trainerTypes: TrainerType[] =
     baseMoney: 16,
     suffix: "normal",
     sprite: "/Trainers/BIKER.png",
-    description: ""
+    description: "",
   },
   {
     id: "BIKER2",
@@ -1035,7 +1034,7 @@ export const trainerTypes: TrainerType[] =
     baseMoney: 16,
     suffix: "normal",
     sprite: "/Trainers/BIKER2.png",
-    description: ""
+    description: "",
   },
   {
     id: "JANITOR",
@@ -1044,7 +1043,7 @@ export const trainerTypes: TrainerType[] =
     baseMoney: 24,
     suffix: "normal",
     sprite: "/Trainers/JANITOR.png",
-    description: ""
+    description: "",
   },
   {
     id: "CLERK_M",
@@ -1053,7 +1052,7 @@ export const trainerTypes: TrainerType[] =
     baseMoney: 24,
     suffix: "normal",
     sprite: "/Trainers/CLERK_M.png",
-    description: ""
+    description: "",
   },
   {
     id: "CLERK_M2",
@@ -1062,7 +1061,7 @@ export const trainerTypes: TrainerType[] =
     baseMoney: 24,
     suffix: "normal",
     sprite: "/Trainers/CLERK_M2.png",
-    description: ""
+    description: "",
   },
   {
     id: "CLERK_F",
@@ -1071,7 +1070,7 @@ export const trainerTypes: TrainerType[] =
     baseMoney: 24,
     suffix: "normal",
     sprite: "/Trainers/CLERK_F.png",
-    description: ""
+    description: "",
   },
   {
     id: "POKEMANIAC",
@@ -1080,7 +1079,7 @@ export const trainerTypes: TrainerType[] =
     baseMoney: 64,
     suffix: "normal",
     sprite: "/Trainers/POKEMANIAC.png",
-    description: ""
+    description: "",
   },
   {
     id: "DRAGONTAMER",
@@ -1089,7 +1088,7 @@ export const trainerTypes: TrainerType[] =
     baseMoney: 32,
     suffix: "normal",
     sprite: "/Trainers/DRAGONTAMER.png",
-    description: ""
+    description: "",
   },
   {
     id: "POKEMONBREEDER_M",
@@ -1098,7 +1097,7 @@ export const trainerTypes: TrainerType[] =
     baseMoney: 16,
     suffix: "normal",
     sprite: "/Trainers/POKEMONBREEDER_M.png",
-    description: ""
+    description: "",
   },
   {
     id: "POKEMONBREEDER_M2",
@@ -1107,7 +1106,7 @@ export const trainerTypes: TrainerType[] =
     baseMoney: 16,
     suffix: "normal",
     sprite: "/Trainers/POKEMONBREEDER_M2.png",
-    description: ""
+    description: "",
   },
   {
     id: "POKEMONBREEDER_F",
@@ -1116,7 +1115,7 @@ export const trainerTypes: TrainerType[] =
     baseMoney: 16,
     suffix: "normal",
     sprite: "/Trainers/POKEMONBREEDER_F.png",
-    description: ""
+    description: "",
   },
   {
     id: "POKEMONBREEDER_F2",
@@ -1125,7 +1124,7 @@ export const trainerTypes: TrainerType[] =
     baseMoney: 16,
     suffix: "normal",
     sprite: "/Trainers/POKEMONBREEDER_F2.png",
-    description: ""
+    description: "",
   },
   {
     id: "DEPOTAGENT",
@@ -1134,7 +1133,7 @@ export const trainerTypes: TrainerType[] =
     baseMoney: 32,
     suffix: "normal",
     sprite: "/Trainers/DEPOTAGENT.png",
-    description: ""
+    description: "",
   },
   {
     id: "PILOT",
@@ -1143,7 +1142,7 @@ export const trainerTypes: TrainerType[] =
     baseMoney: 40,
     suffix: "normal",
     sprite: "/Trainers/PILOT.png",
-    description: ""
+    description: "",
   },
   {
     id: "POKEMONRANGER_M",
@@ -1152,7 +1151,7 @@ export const trainerTypes: TrainerType[] =
     baseMoney: 60,
     suffix: "normal",
     sprite: "/Trainers/POKEMONRANGER_M.png",
-    description: ""
+    description: "",
   },
   {
     id: "POKEMONRANGER_M2",
@@ -1161,7 +1160,7 @@ export const trainerTypes: TrainerType[] =
     baseMoney: 60,
     suffix: "normal",
     sprite: "/Trainers/POKEMONRANGER_M2.png",
-    description: ""
+    description: "",
   },
   {
     id: "POKEMONRANGER_F",
@@ -1170,7 +1169,7 @@ export const trainerTypes: TrainerType[] =
     baseMoney: 60,
     suffix: "normal",
     sprite: "/Trainers/POKEMONRANGER_F.png",
-    description: ""
+    description: "",
   },
   {
     id: "POKEMONRANGER_F2",
@@ -1179,7 +1178,7 @@ export const trainerTypes: TrainerType[] =
     baseMoney: 60,
     suffix: "normal",
     sprite: "/Trainers/POKEMONRANGER_F2.png",
-    description: ""
+    description: "",
   },
   {
     id: "AROMALADY",
@@ -1188,7 +1187,7 @@ export const trainerTypes: TrainerType[] =
     baseMoney: 32,
     suffix: "normal",
     sprite: "/Trainers/AROMALADY.png",
-    description: ""
+    description: "",
   },
   {
     id: "RUINMANIAC",
@@ -1197,7 +1196,7 @@ export const trainerTypes: TrainerType[] =
     baseMoney: 48,
     suffix: "normal",
     sprite: "/Trainers/RUINMANIAC.png",
-    description: ""
+    description: "",
   },
   {
     id: "BIRDKEEPER_M",
@@ -1206,7 +1205,7 @@ export const trainerTypes: TrainerType[] =
     baseMoney: 32,
     suffix: "normal",
     sprite: "/Trainers/BIRDKEEPER_M.png",
-    description: ""
+    description: "",
   },
   {
     id: "BIRDKEEPER_F",
@@ -1215,7 +1214,7 @@ export const trainerTypes: TrainerType[] =
     baseMoney: 32,
     suffix: "normal",
     sprite: "/Trainers/BIRDKEEPER_F.png",
-    description: ""
+    description: "",
   },
   {
     id: "RANCHER",
@@ -1224,7 +1223,7 @@ export const trainerTypes: TrainerType[] =
     baseMoney: 40,
     suffix: "normal",
     sprite: "/Trainers/RANCHER.png",
-    description: ""
+    description: "",
   },
   {
     id: "COWGIRL",
@@ -1233,7 +1232,7 @@ export const trainerTypes: TrainerType[] =
     baseMoney: 60,
     suffix: "normal",
     sprite: "/Trainers/COWGIRL.png",
-    description: ""
+    description: "",
   },
   {
     id: "POKEFAN_M",
@@ -1242,7 +1241,7 @@ export const trainerTypes: TrainerType[] =
     baseMoney: 64,
     suffix: "normal",
     sprite: "/Trainers/POKEFAN_M.png",
-    description: ""
+    description: "",
   },
   {
     id: "POKEFAN_M2",
@@ -1251,7 +1250,7 @@ export const trainerTypes: TrainerType[] =
     baseMoney: 64,
     suffix: "normal",
     sprite: "/Trainers/POKEFAN_M2.png",
-    description: ""
+    description: "",
   },
   {
     id: "POKEFAN_F",
@@ -1260,7 +1259,7 @@ export const trainerTypes: TrainerType[] =
     baseMoney: 64,
     suffix: "normal",
     sprite: "/Trainers/POKEFAN_F.png",
-    description: ""
+    description: "",
   },
   {
     id: "POKEFAN_F2",
@@ -1269,7 +1268,7 @@ export const trainerTypes: TrainerType[] =
     baseMoney: 64,
     suffix: "normal",
     sprite: "/Trainers/POKEFAN_F2.png",
-    description: ""
+    description: "",
   },
   {
     id: "DOCTOR",
@@ -1278,7 +1277,7 @@ export const trainerTypes: TrainerType[] =
     baseMoney: 60,
     suffix: "normal",
     sprite: "/Trainers/DOCTOR.png",
-    description: ""
+    description: "",
   },
   {
     id: "NURSE",
@@ -1287,7 +1286,7 @@ export const trainerTypes: TrainerType[] =
     baseMoney: 60,
     suffix: "normal",
     sprite: "/Trainers/NURSE.png",
-    description: ""
+    description: "",
   },
   {
     id: "SAILOR",
@@ -1296,7 +1295,7 @@ export const trainerTypes: TrainerType[] =
     baseMoney: 32,
     suffix: "normal",
     sprite: "/Trainers/SAILOR.png",
-    description: ""
+    description: "",
   },
   {
     id: "GENTLEMAN",
@@ -1305,7 +1304,7 @@ export const trainerTypes: TrainerType[] =
     baseMoney: 200,
     suffix: "normal",
     sprite: "/Trainers/GENTLEMAN.png",
-    description: ""
+    description: "",
   },
   {
     id: "GENTLEMAN2",
@@ -1314,7 +1313,7 @@ export const trainerTypes: TrainerType[] =
     baseMoney: 200,
     suffix: "normal",
     sprite: "/Trainers/GENTLEMAN2.png",
-    description: ""
+    description: "",
   },
   {
     id: "GENTLEMAN3",
@@ -1323,7 +1322,7 @@ export const trainerTypes: TrainerType[] =
     baseMoney: 200,
     suffix: "normal",
     sprite: "/Trainers/GENTLEMAN3.png",
-    description: ""
+    description: "",
   },
   {
     id: "SOCIALITE",
@@ -1332,7 +1331,7 @@ export const trainerTypes: TrainerType[] =
     baseMoney: 200,
     suffix: "normal",
     sprite: "/Trainers/SOCIALITE.png",
-    description: ""
+    description: "",
   },
   {
     id: "SOCIALITE2",
@@ -1341,7 +1340,7 @@ export const trainerTypes: TrainerType[] =
     baseMoney: 200,
     suffix: "normal",
     sprite: "/Trainers/SOCIALITE2.png",
-    description: ""
+    description: "",
   },
   {
     id: "VETERANM",
@@ -1350,7 +1349,7 @@ export const trainerTypes: TrainerType[] =
     baseMoney: 80,
     suffix: "normal",
     sprite: "/Trainers/VETERANM.png",
-    description: ""
+    description: "",
   },
   {
     id: "VETERANM_2",
@@ -1359,7 +1358,7 @@ export const trainerTypes: TrainerType[] =
     baseMoney: 80,
     suffix: "normal",
     sprite: "/Trainers/VETERANM_2.png",
-    description: ""
+    description: "",
   },
   {
     id: "VETERAN_F",
@@ -1368,7 +1367,7 @@ export const trainerTypes: TrainerType[] =
     baseMoney: 80,
     suffix: "normal",
     sprite: "/Trainers/VETERAN_F.png",
-    description: ""
+    description: "",
   },
   {
     id: "COOLTRAINER_M",
@@ -1377,7 +1376,7 @@ export const trainerTypes: TrainerType[] =
     baseMoney: 60,
     suffix: "normal",
     sprite: "/Trainers/COOLTRAINER_M.png",
-    description: ""
+    description: "",
   },
   {
     id: "COOLTRAINER_M2",
@@ -1386,7 +1385,7 @@ export const trainerTypes: TrainerType[] =
     baseMoney: 60,
     suffix: "normal",
     sprite: "/Trainers/COOLTRAINER_M2.png",
-    description: ""
+    description: "",
   },
   {
     id: "COOLTRAINER_M3",
@@ -1395,7 +1394,7 @@ export const trainerTypes: TrainerType[] =
     baseMoney: 60,
     suffix: "normal",
     sprite: "/Trainers/COOLTRAINER_M3.png",
-    description: ""
+    description: "",
   },
   {
     id: "COOLTRAINER_M4",
@@ -1404,7 +1403,7 @@ export const trainerTypes: TrainerType[] =
     baseMoney: 60,
     suffix: "normal",
     sprite: "/Trainers/COOLTRAINER_M4.png",
-    description: ""
+    description: "",
   },
   {
     id: "COOLTRAINER_F",
@@ -1413,7 +1412,7 @@ export const trainerTypes: TrainerType[] =
     baseMoney: 60,
     suffix: "normal",
     sprite: "/Trainers/COOLTRAINER_F.png",
-    description: ""
+    description: "",
   },
   {
     id: "COOLTRAINER_F2",
@@ -1422,7 +1421,7 @@ export const trainerTypes: TrainerType[] =
     baseMoney: 60,
     suffix: "normal",
     sprite: "/Trainers/COOLTRAINER_F2.png",
-    description: ""
+    description: "",
   },
   {
     id: "COOLTRAINER_F3",
@@ -1431,7 +1430,7 @@ export const trainerTypes: TrainerType[] =
     baseMoney: 60,
     suffix: "normal",
     sprite: "/Trainers/COOLTRAINER_F3.png",
-    description: ""
+    description: "",
   },
   {
     id: "COOLTRAINER_F4",
@@ -1440,7 +1439,7 @@ export const trainerTypes: TrainerType[] =
     baseMoney: 60,
     suffix: "normal",
     sprite: "/Trainers/COOLTRAINER_F4.png",
-    description: ""
+    description: "",
   },
   {
     id: "TEAMROCKET_M",
@@ -1449,7 +1448,7 @@ export const trainerTypes: TrainerType[] =
     baseMoney: 24,
     suffix: "normal",
     sprite: "/Trainers/TEAMROCKET_M.png",
-    description: ""
+    description: "",
   },
   {
     id: "TEAMROCKET_F",
@@ -1458,7 +1457,7 @@ export const trainerTypes: TrainerType[] =
     baseMoney: 24,
     suffix: "normal",
     sprite: "/Trainers/TEAMROCKET_F.png",
-    description: ""
+    description: "",
   },
   {
     id: "TEAMROCKETBOSS",
@@ -1467,7 +1466,7 @@ export const trainerTypes: TrainerType[] =
     baseMoney: 64,
     suffix: "normal",
     sprite: "/Trainers/TEAMROCKETBOSS.png",
-    description: ""
+    description: "",
   },
   {
     id: "CHAMPION_M",
@@ -1476,7 +1475,7 @@ export const trainerTypes: TrainerType[] =
     baseMoney: 60,
     suffix: "normal",
     sprite: "/Trainers/CHAMPION_M.png",
-    description: ""
+    description: "",
   },
   {
     id: "CHAMPION_F",
@@ -1485,7 +1484,7 @@ export const trainerTypes: TrainerType[] =
     baseMoney: 60,
     suffix: "normal",
     sprite: "/Trainers/CHAMPION_F.png",
-    description: ""
+    description: "",
   },
   {
     id: "BACKERS_M",
@@ -1494,7 +1493,7 @@ export const trainerTypes: TrainerType[] =
     baseMoney: 128,
     suffix: "normal",
     sprite: "/Trainers/BACKERS_M.png",
-    description: ""
+    description: "",
   },
   {
     id: "BACKERS_F",
@@ -1503,7 +1502,7 @@ export const trainerTypes: TrainerType[] =
     baseMoney: 128,
     suffix: "normal",
     sprite: "/Trainers/BACKERS_F.png",
-    description: ""
+    description: "",
   },
   {
     id: "BELLEANDPA",
@@ -1512,7 +1511,7 @@ export const trainerTypes: TrainerType[] =
     baseMoney: 64,
     suffix: "normal",
     sprite: "/Trainers/BELLEANDPA.png",
-    description: ""
+    description: "",
   },
   {
     id: "DOUBLETEAM",
@@ -1521,7 +1520,7 @@ export const trainerTypes: TrainerType[] =
     baseMoney: 128,
     suffix: "normal",
     sprite: "/Trainers/DOUBLETEAM.png",
-    description: ""
+    description: "",
   },
   {
     id: "DOUBLETEAM2",
@@ -1530,7 +1529,7 @@ export const trainerTypes: TrainerType[] =
     baseMoney: 128,
     suffix: "normal",
     sprite: "/Trainers/DOUBLETEAM2.png",
-    description: ""
+    description: "",
   },
   {
     id: "HOOLIGANS",
@@ -1539,7 +1538,7 @@ export const trainerTypes: TrainerType[] =
     baseMoney: 128,
     suffix: "normal",
     sprite: "/Trainers/HOOLIGANS.png",
-    description: ""
+    description: "",
   },
   {
     id: "INTERVIEWERS",
@@ -1548,7 +1547,7 @@ export const trainerTypes: TrainerType[] =
     baseMoney: 128,
     suffix: "normal",
     sprite: "/Trainers/INTERVIEWERS.png",
-    description: ""
+    description: "",
   },
   {
     id: "SISANDBRO",
@@ -1557,7 +1556,7 @@ export const trainerTypes: TrainerType[] =
     baseMoney: 64,
     suffix: "normal",
     sprite: "/Trainers/SISANDBRO.png",
-    description: ""
+    description: "",
   },
   {
     id: "TWINS",
@@ -1566,7 +1565,7 @@ export const trainerTypes: TrainerType[] =
     baseMoney: 32,
     suffix: "normal",
     sprite: "/Trainers/TWINS.png",
-    description: ""
+    description: "",
   },
   {
     id: "TWINS2",
@@ -1575,7 +1574,7 @@ export const trainerTypes: TrainerType[] =
     baseMoney: 32,
     suffix: "normal",
     sprite: "/Trainers/TWINS2.png",
-    description: ""
+    description: "",
   },
   {
     id: "TWINS3",
@@ -1584,7 +1583,7 @@ export const trainerTypes: TrainerType[] =
     baseMoney: 32,
     suffix: "normal",
     sprite: "/Trainers/TWINS3.png",
-    description: ""
+    description: "",
   },
   {
     id: "YOUNGCOUPLE",
@@ -1593,7 +1592,7 @@ export const trainerTypes: TrainerType[] =
     baseMoney: 128,
     suffix: "normal",
     sprite: "/Trainers/YOUNGCOUPLE.png",
-    description: ""
+    description: "",
   },
   {
     id: "YOUNGCOUPLE2",
@@ -1602,7 +1601,7 @@ export const trainerTypes: TrainerType[] =
     baseMoney: 128,
     suffix: "normal",
     sprite: "/Trainers/YOUNGCOUPLE2.png",
-    description: ""
+    description: "",
   },
   {
     id: "POKEMONTRAINER_PROTA_M",
@@ -1611,7 +1610,7 @@ export const trainerTypes: TrainerType[] =
     baseMoney: 60,
     suffix: "normal",
     sprite: "/Trainers/POKEMONTRAINER_PROTA_M.png",
-    description: ""
+    description: "",
   },
   {
     id: "POKEMONTRAINER_PROTA_F",
@@ -1620,7 +1619,7 @@ export const trainerTypes: TrainerType[] =
     baseMoney: 60,
     suffix: "normal",
     sprite: "/Trainers/POKEMONTRAINER_PROTA_F.png",
-    description: ""
+    description: "",
   },
   {
     id: "MINER_ABSOLUTION",
@@ -1629,7 +1628,7 @@ export const trainerTypes: TrainerType[] =
     baseMoney: 60,
     suffix: "normal",
     sprite: "/Trainers/MINER_ABSOLUTION.png",
-    description: ""
+    description: "",
   },
   {
     id: "AROMALADY_ABSOLUTION",
@@ -1638,7 +1637,7 @@ export const trainerTypes: TrainerType[] =
     baseMoney: 60,
     suffix: "normal",
     sprite: "/Trainers/AROMALADY_ABSOLUTION.png",
-    description: ""
+    description: "",
   },
   {
     id: "COWBOY_ABSOLUTION",
@@ -1647,7 +1646,7 @@ export const trainerTypes: TrainerType[] =
     baseMoney: 60,
     suffix: "normal",
     sprite: "/Trainers/COWBOY_ABSOLUTION.png",
-    description: ""
+    description: "",
   },
   {
     id: "COWGIRL_ABSOLUTION",
@@ -1656,7 +1655,7 @@ export const trainerTypes: TrainerType[] =
     baseMoney: 60,
     suffix: "normal",
     sprite: "/Trainers/COWGIRL_ABSOLUTION.png",
-    description: ""
+    description: "",
   },
   {
     id: "RIVAL_DITTO",
@@ -1665,7 +1664,7 @@ export const trainerTypes: TrainerType[] =
     baseMoney: 60,
     suffix: "normal",
     sprite: "/Trainers/RIVAL_DITTO.png",
-    description: ""
+    description: "",
   },
   {
     id: "RIVAL_CAMELIA",
@@ -1674,7 +1673,7 @@ export const trainerTypes: TrainerType[] =
     baseMoney: 60,
     suffix: "normal",
     sprite: "/Trainers/RIVAL_CAMELIA.png",
-    description: ""
+    description: "",
   },
   {
     id: "RIVAL_CARTAMO",
@@ -1683,7 +1682,7 @@ export const trainerTypes: TrainerType[] =
     baseMoney: 60,
     suffix: "normal",
     sprite: "/Trainers/RIVAL_CARTAMO.png",
-    description: ""
+    description: "",
   },
   {
     id: "PROFESSOR_KAOBA",
@@ -1692,7 +1691,7 @@ export const trainerTypes: TrainerType[] =
     baseMoney: 60,
     suffix: "normal",
     sprite: "/Trainers/PROFESSOR_KAOBA.png",
-    description: ""
+    description: "",
   },
   {
     id: "COWGIRL_SAMANTA",
@@ -1701,7 +1700,7 @@ export const trainerTypes: TrainerType[] =
     baseMoney: 60,
     suffix: "normal",
     sprite: "/Trainers/COWGIRL_SAMANTA.png",
-    description: ""
+    description: "",
   },
   {
     id: "CORRUPT_RECRUIT_M",
@@ -1710,7 +1709,7 @@ export const trainerTypes: TrainerType[] =
     baseMoney: 60,
     suffix: "normal",
     sprite: "/Trainers/CORRUPT_RECRUIT_M.png",
-    description: ""
+    description: "",
   },
   {
     id: "CORRUPT_RECRUIT_F",
@@ -1719,7 +1718,7 @@ export const trainerTypes: TrainerType[] =
     baseMoney: 60,
     suffix: "normal",
     sprite: "/Trainers/CORRUPT_RECRUIT_F.png",
-    description: ""
+    description: "",
   },
   {
     id: "CORRUPT_ADMIN_ROSA",
@@ -1728,7 +1727,7 @@ export const trainerTypes: TrainerType[] =
     baseMoney: 100,
     suffix: "normal",
     sprite: "/Trainers/CORRUPT_ADMIN_ROSA.png",
-    description: ""
+    description: "",
   },
   {
     id: "AGRONOMIST_SYLVIA",
@@ -1737,7 +1736,7 @@ export const trainerTypes: TrainerType[] =
     baseMoney: 100,
     suffix: "normal",
     sprite: "/Trainers/AGRONOMIST_SYLVIA.png",
-    description: ""
+    description: "",
   },
   {
     id: "GYM_LEADER_BUG",
@@ -1746,7 +1745,7 @@ export const trainerTypes: TrainerType[] =
     baseMoney: 60,
     suffix: "normal",
     sprite: "/Trainers/GYM_LEADER_BUG.png",
-    description: ""
+    description: "",
   },
   {
     id: "GYM_LEADER_BUG_RIGHT_HAD",
@@ -1755,7 +1754,7 @@ export const trainerTypes: TrainerType[] =
     baseMoney: 60,
     suffix: "normal",
     sprite: "/Trainers/GYM_LEADER_BUG_RIGHT_HAD.png",
-    description: ""
+    description: "",
   },
   {
     id: "BUGCATCHER_GROUP",
@@ -1764,7 +1763,7 @@ export const trainerTypes: TrainerType[] =
     baseMoney: 16,
     suffix: "normal",
     sprite: "/Trainers/BUGCATCHER_GROUP.png",
-    description: ""
+    description: "",
   },
   {
     id: "POKEMONTRAINER_PROTA_MULTIPLAYER_M",
@@ -1773,7 +1772,7 @@ export const trainerTypes: TrainerType[] =
     baseMoney: 60,
     suffix: "normal",
     sprite: "/Trainers/POKEMONTRAINER_PROTA_MULTIPLAYER_M.png",
-    description: ""
+    description: "",
   },
   {
     id: "POKEMONTRAINER_PROTA_MULTIPLAYER_F",
@@ -1782,6 +1781,6 @@ export const trainerTypes: TrainerType[] =
     baseMoney: 60,
     suffix: "normal",
     sprite: "/Trainers/POKEMONTRAINER_PROTA_MULTIPLAYER_F.png",
-    description: ""
-  }
-]
+    description: "",
+  },
+];

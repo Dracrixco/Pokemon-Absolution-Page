@@ -16,16 +16,15 @@ NOT_ABLE_TO_SHOW_FAKEMONS = [
   "WEAMOTH",
   "WOOFIGHTER",
   "GUMSTTER",
-  "JAXEWS",
   "TWYLICAN",
   "CRYOCROWN",
   "KINGDER",
   "TWINCESS",
   "BUSHIERA",
   "WEREWOODS",
-  "WYWERDEN",
-  "BLAZECOIL",
-  "INFERNOIL",
+  "DOLORN",
+  "MALICEAR",
+  "ABANDOLED",
 ]
 def parse_fakemons(lines, suffix)
   fakemons = []

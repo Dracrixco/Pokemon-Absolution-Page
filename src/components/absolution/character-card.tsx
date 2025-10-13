@@ -62,7 +62,7 @@ export const CharacterCard = ({ character }: CharacterCardProps) => {
                 <div className="flex justify-center">
                   <span
                     className={`px-3 py-1 rounded-full text-white text-sm font-semibold ${getRoleColor(
-                      character.role
+                      character.role,
                     )}`}
                   >
                     {character.role}

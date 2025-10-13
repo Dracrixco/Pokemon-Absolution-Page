@@ -42,7 +42,7 @@ export default function FakemonCardPokemon({
                     <span
                       key={type}
                       className={`px-3 py-1 rounded-full text-white text-xs font-semibold ${getTypeColor(
-                        type
+                        type,
                       )}`}
                     >
                       {type}
@@ -73,7 +73,7 @@ export default function FakemonCardPokemon({
                     <span
                       key={type}
                       className={`px-3 py-1 rounded-full text-white text-xs font-semibold ${getTypeColor(
-                        type
+                        type,
                       )}`}
                     >
                       {type}
@@ -100,8 +100,8 @@ export default function FakemonCardPokemon({
                           {statName === "spAttack"
                             ? "SpA"
                             : statName === "spDefense"
-                            ? "SpD"
-                            : statName.slice(0, 3)}
+                              ? "SpD"
+                              : statName.slice(0, 3)}
                         </span>
                         <div className="flex-1 bg-purple-900/50 rounded-full h-2 overflow-hidden">
                           <div
@@ -113,7 +113,7 @@ export default function FakemonCardPokemon({
                           {statValue}
                         </span>
                       </div>
-                    )
+                    ),
                   )}
                 </div>
 
@@ -126,7 +126,7 @@ export default function FakemonCardPokemon({
                     <span className="text-purple-200 text-xs font-mono">
                       {Object.values(fakemon.stats).reduce(
                         (sum, stat) => sum + stat,
-                        0
+                        0,
                       )}
                     </span>
                   </div>

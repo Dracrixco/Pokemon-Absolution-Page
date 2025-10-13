@@ -46,7 +46,7 @@ export const MapViewer: React.FC<MapViewerProps> = ({
       <div
         className={cn(
           "bg-black/20 rounded-lg border border-white/10 p-6",
-          className
+          className,
         )}
       >
         <div className="flex flex-col items-center justify-center text-white/50 min-h-[200px]">
@@ -67,7 +67,7 @@ export const MapViewer: React.FC<MapViewerProps> = ({
       <div
         className={cn(
           "relative bg-black/20 rounded-lg overflow-hidden border border-white/10",
-          className
+          className,
         )}
       >
         <img
@@ -76,7 +76,7 @@ export const MapViewer: React.FC<MapViewerProps> = ({
           className={cn(
             "w-full object-contain bg-gray-900/50 transition-all duration-300",
             compact ? "h-32" : "h-48",
-            "hover:scale-105 cursor-pointer"
+            "hover:scale-105 cursor-pointer",
           )}
           onLoad={handleImageLoad}
           onClick={openFullscreen}
@@ -190,7 +190,7 @@ export const MapViewerSimple: React.FC<MapViewerSimpleProps> = ({
     <div
       className={cn(
         "bg-black/20 rounded-lg border border-white/10 p-4",
-        className
+        className,
       )}
     >
       <div className="text-white/50 text-center">

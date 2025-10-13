@@ -153,14 +153,14 @@ export const MoveEditorAdvanced: React.FC<MoveEditorAdvancedProps> = ({
                       <div className="flex items-center gap-2 mb-1">
                         <span
                           className={`px-2 py-0.5 rounded text-xs ${getTypeColor(
-                            move.type
+                            move.type,
                           )}`}
                         >
                           {move.type}
                         </span>
                         <span
                           className={`px-2 py-0.5 rounded text-xs ${getCategoryColor(
-                            move.category
+                            move.category,
                           )}`}
                         >
                           {move.category}
@@ -330,8 +330,8 @@ export const MoveEditorAdvanced: React.FC<MoveEditorAdvancedProps> = ({
                     isSelected
                       ? "bg-blue-50 border-l-4 border-blue-500"
                       : canSelect
-                      ? "hover:bg-gray-50"
-                      : "opacity-50 cursor-not-allowed"
+                        ? "hover:bg-gray-50"
+                        : "opacity-50 cursor-not-allowed"
                   }`}
                 >
                   <div className="flex items-start justify-between">
@@ -351,14 +351,14 @@ export const MoveEditorAdvanced: React.FC<MoveEditorAdvancedProps> = ({
                       <div className="flex items-center gap-2 mb-2">
                         <span
                           className={`px-2 py-0.5 rounded text-xs ${getTypeColor(
-                            move.type
+                            move.type,
                           )}`}
                         >
                           {move.type}
                         </span>
                         <span
                           className={`px-2 py-0.5 rounded text-xs ${getCategoryColor(
-                            move.category
+                            move.category,
                           )}`}
                         >
                           {move.category}

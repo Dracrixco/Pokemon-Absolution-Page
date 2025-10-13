@@ -19,7 +19,7 @@ export const ItemEditorAdvanced: React.FC<ItemEditorAdvancedProps> = ({
 
   const selectedItem = useMemo(
     () => items.find((item) => item.id === value),
-    [value]
+    [value],
   );
 
   const filteredItems = useMemo(() => {

@@ -120,7 +120,7 @@ export const ItemDetailPage: React.FC = () => {
                     <div className="flex items-center gap-3">
                       <span
                         className={`px-3 py-2 rounded-lg text-white font-medium ${getPocketColor(
-                          item.pocket
+                          item.pocket,
                         )}`}
                       >
                         {pocketName}
@@ -229,7 +229,7 @@ export const ItemDetailPage: React.FC = () => {
                   <span className="text-gray-600">Category:</span>
                   <span
                     className={`px-2 py-1 rounded text-white text-sm ${getPocketColor(
-                      item.pocket
+                      item.pocket,
                     )}`}
                   >
                     {pocketName}

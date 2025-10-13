@@ -54,7 +54,7 @@ export const FakemonDetailPage = () => {
   const maxStat = 130; // Math.max(...Object.values(fakemon.stats));
   const totalStats = Object.values(fakemon.stats).reduce(
     (sum, stat) => sum + stat,
-    0
+    0,
   );
 
   return (
@@ -100,7 +100,7 @@ export const FakemonDetailPage = () => {
                     <span
                       key={type}
                       className={`px-4 py-2 rounded-full text-white font-semibold ${getTypeColor(
-                        type
+                        type,
                       )}`}
                     >
                       {type}
@@ -164,8 +164,8 @@ export const FakemonDetailPage = () => {
                         {statName === "spAttack"
                           ? "Sp. Attack"
                           : statName === "spDefense"
-                          ? "Sp. Defense"
-                          : statName}
+                            ? "Sp. Defense"
+                            : statName}
                       </span>
                       <span className="text-white font-bold">{statValue}</span>
                     </div>
@@ -225,14 +225,14 @@ const TinyMoveCard = ({ move }: { move: Move }) => {
     <Link to={`/moves/${move.id}`}>
       <div
         className={`rounded-lg p-4 hover:brightness-110 transition-all cursor-pointer text-white ${getTypeColor(
-          move.type
+          move.type,
         )}`}
       >
         <div className="flex justify-between items-start mb-2">
           <h4 className="font-semibold">{move.name}</h4>
           <span
             className={`px-2 py-1 rounded text-xs font-semibold bg-black/30 ${getCategoryColor(
-              move.category
+              move.category,
             )}`}
           >
             {move.category}

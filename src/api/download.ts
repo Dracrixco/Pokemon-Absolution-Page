@@ -21,7 +21,7 @@ export const getGameInfo = async () => {
         headers: {
           "Content-Type": "application/json",
         },
-      }
+      },
     );
 
     if (!response.ok) {
@@ -59,7 +59,7 @@ export const getDownloadsData = async () => {
         headers: {
           "Content-Type": "application/json",
         },
-      }
+      },
     );
     const data = await response.json();
     return data;
@@ -78,7 +78,7 @@ export const getUpdates = async (): Promise<Update[]> => {
         headers: {
           "Content-Type": "application/json",
         },
-      }
+      },
     );
 
     if (!response.ok) {
@@ -102,7 +102,7 @@ export const getUpdateById = async (id: string): Promise<Update> => {
         headers: {
           "Content-Type": "application/json",
         },
-      }
+      },
     );
 
     if (!response.ok) {
@@ -120,7 +120,7 @@ export const getUpdateById = async (id: string): Promise<Update> => {
 // Función para obtener actualizaciones con paginación (usando backend)
 export const getUpdatesPaginated = async (
   page: number = 1,
-  limit: number = 5
+  limit: number = 5,
 ): Promise<{
   updates: Update[];
   hasMore: boolean;
@@ -135,7 +135,7 @@ export const getUpdatesPaginated = async (
         headers: {
           "Content-Type": "application/json",
         },
-      }
+      },
     );
 
     if (!response.ok) {

@@ -1170,9 +1170,9 @@ Pokedex = It grows by absorbing moonlight. During the daytime, it buries itself 
 Generation = 1
 WildItemUncommon = ABSORBBULB
 Evolution = GLOOM,Level,21
-CallRateSOS = 9
 DropItems = ORANBERRY
 DropPropBase = 100
+CallRateSOS = 9
 #-------------------------------
 [GLOOM]
 Name = Gloom
@@ -2619,11 +2619,11 @@ Category = Rock Snake
 Pokedex = There is a magnet in its brain that prevents an Onix from losing direction while tunneling. As it grows older, its body becomes steadily rounder and smoother.
 Generation = 1
 Evolution = STEELIX,TradeItem,METALCOAT
-SpeciesSOS = GEODUDE,ONIX
-CallRateSOS = 9
 DropItems = LAGGINGTAIL
 DropPropBase = 5
 DropTimes = 1
+SpeciesSOS = GEODUDE,ONIX
+CallRateSOS = 9
 #-------------------------------
 [DROWZEE]
 Name = Drowzee
@@ -2868,12 +2868,12 @@ Pokedex = It pines for the mother it will never see again. Seeing a likeness of 
 Generation = 1
 WildItemUncommon = THICKCLUB
 Evolution = MAROWAK,Level,28
-SpeciesSOS = CUBONE,KANGASKHAN
-ConditionalSOS = MANDIBUZZ,Land
-CallRateSOS = 15
 DropItems = THICKCLUB
 DropPropBase = 25
 DropTimes = 1
+SpeciesSOS = CUBONE,KANGASKHAN
+ConditionalSOS = MANDIBUZZ,Land
+CallRateSOS = 15
 #-------------------------------
 [MAROWAK]
 Name = Marowak
@@ -2900,10 +2900,10 @@ Category = Bone Keeper
 Pokedex = A Marowak is the evolved form of a Cubone that has grown tough by overcoming the grief of losing its mother. Its tempered and hardened spirit is not easily broken.
 Generation = 1
 WildItemUncommon = THICKCLUB
-CallRateSOS = 3
 DropItems = THICKCLUB
 DropPropBase = 60
 DropTimes = 1
+CallRateSOS = 3
 #-------------------------------
 [HITMONLEE]
 Name = Hitmonlee
@@ -14348,10 +14348,10 @@ Category = Mole
 Pokedex = It makes its way swiftly through the soil by putting both claws together and rotating at high speed.
 Generation = 5
 Evolution = EXCADRILL,Level,31
-CallRateSOS = 9
 DropItems = METALCOAT
 DropPropBase = 10
 DropTimes = 1
+CallRateSOS = 9
 #-------------------------------
 [EXCADRILL]
 Name = Excadrill
@@ -15408,10 +15408,10 @@ Pokedex = They absorb garbage and make it part of their bodies. They shoot a poi
 Generation = 5
 WildItemCommon = SILKSCARF
 WildItemUncommon = BLACKSLUDGE
-CallRateSOS = 6
 DropItems = BLACKSLUDGE
 DropPropBase = 75
 DropTimes = 4
+CallRateSOS = 6
 #-------------------------------
 [ZORUA]
 Name = Zorua
@@ -19805,10 +19805,10 @@ Generation = 7
 WildItemUncommon = ASPEARBERRY
 Evolution = CRABOMINABLE,LocationFlag,IceRock
 Evolution = CRABOMINABLE,Item,ICESTONE
-CallRateSOS = 9
 DropItems = COCOBERRY
 DropPropBase = 90
 DropTimes = 2
+CallRateSOS = 9
 #-------------------------------
 [CRABOMINABLE]
 Name = Crabominable

@@ -98,7 +98,7 @@ export const TileLayers: React.FC<TileLayersProps> = ({ tile }) => {
                   "flex items-center space-x-3 p-4 rounded-lg border-2 transition-all duration-200",
                   layer.checked
                     ? `border-${layer.color}-200 bg-${layer.color}-50 shadow-md`
-                    : "border-gray-200 bg-gray-50 hover:border-gray-300"
+                    : "border-gray-200 bg-gray-50 hover:border-gray-300",
                 )}
               >
                 <div className="relative">
@@ -110,7 +110,7 @@ export const TileLayers: React.FC<TileLayersProps> = ({ tile }) => {
                       "w-5 h-5 rounded border-2 transition-all duration-200",
                       layer.checked
                         ? `text-${layer.color}-600 border-${layer.color}-300 focus:ring-${layer.color}-500`
-                        : "border-gray-300 focus:ring-gray-500"
+                        : "border-gray-300 focus:ring-gray-500",
                     )}
                   />
                   {layer.checked && (
@@ -127,7 +127,7 @@ export const TileLayers: React.FC<TileLayersProps> = ({ tile }) => {
                         "font-medium transition-colors duration-200",
                         layer.checked
                           ? `text-${layer.color}-700`
-                          : "text-gray-600"
+                          : "text-gray-600",
                       )}
                     >
                       {layer.label}

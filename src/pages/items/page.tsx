@@ -141,7 +141,7 @@ export const ItemsPage: React.FC = () => {
 
   const toggleFlag = (flag: string) => {
     setSelectedFlags((prev) =>
-      prev.includes(flag) ? prev.filter((f) => f !== flag) : [...prev, flag]
+      prev.includes(flag) ? prev.filter((f) => f !== flag) : [...prev, flag],
     );
   };
 
@@ -329,7 +329,7 @@ export const ItemsPage: React.FC = () => {
                         setSelectedPocket(
                           e.target.value === "all"
                             ? "all"
-                            : parseInt(e.target.value)
+                            : parseInt(e.target.value),
                         )
                       }
                       className="w-full px-3 py-2 border border-gray-300 rounded-lg focus:ring-2 focus:ring-blue-500"
@@ -472,7 +472,7 @@ export const ItemsPage: React.FC = () => {
                         <div className="flex items-center justify-center gap-1 mb-2">
                           <span
                             className={`px-2 py-1 rounded text-white text-xs ${getPocketColor(
-                              item.pocket
+                              item.pocket,
                             )}`}
                           >
                             {POCKET_NAMES[
@@ -482,7 +482,7 @@ export const ItemsPage: React.FC = () => {
                           {item.suffix && (
                             <span
                               className={`px-2 py-1 rounded text-white text-xs ${getSuffixColor(
-                                item.suffix
+                                item.suffix,
                               )}`}
                             >
                               {formatSuffixName(item.suffix)}
@@ -531,7 +531,7 @@ export const ItemsPage: React.FC = () => {
                           <div className="flex items-center gap-2 flex-shrink-0">
                             <span
                               className={`px-3 py-1 rounded text-white text-sm ${getPocketColor(
-                                item.pocket
+                                item.pocket,
                               )}`}
                             >
                               {POCKET_NAMES[
@@ -541,7 +541,7 @@ export const ItemsPage: React.FC = () => {
                             {item.suffix && (
                               <span
                                 className={`px-3 py-1 rounded text-white text-sm ${getSuffixColor(
-                                  item.suffix
+                                  item.suffix,
                                 )}`}
                               >
                                 {formatSuffixName(item.suffix)}
