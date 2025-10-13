@@ -25,6 +25,8 @@ NOT_ABLE_TO_SHOW_FAKEMONS = [
   "DOLORN",
   "MALICEAR",
   "ABANDOLED",
+  "FLOVER",
+  "WYWERDEN"
 ]
 def parse_fakemons(lines, suffix)
   fakemons = []
