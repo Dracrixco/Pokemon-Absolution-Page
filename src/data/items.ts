@@ -3747,6 +3747,18 @@ export const items: Item[] = [
     suffix: "normal",
   },
   {
+    id: "SCOLIPEDITE",
+    name: "Scolipedite",
+    namePlural: "Scolipedites",
+    pocket: 11,
+    price: 0,
+    flags: "MegaStone,Fling_80",
+    description:
+      "One of a variety of mysterious Mega Stones. Have Scolipede hold it, and it will be able to Mega Evolve.",
+    sprite: "/Items/SCOLIPEDITE.png",
+    suffix: "normal",
+  },
+  {
     id: "VICTREEBELITE",
     name: "Victreebelite",
     namePlural: "Victreebelites",

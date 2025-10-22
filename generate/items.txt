@@ -2749,6 +2749,15 @@ BPPrice = 50
 Flags = MegaStone,Fling_80
 Description = One of a variety of mysterious Mega Stones. Have Dragonite hold it, and it will be able to Mega Evolve.
 #-------------------------------
+[SCOLIPEDITE]
+Name = Scolipedite
+NamePlural = Scolipedites
+Pocket = 11
+Price = 0
+BPPrice = 50
+Flags = MegaStone,Fling_80
+Description = One of a variety of mysterious Mega Stones. Have Scolipede hold it, and it will be able to Mega Evolve.
+#-------------------------------
 [VICTREEBELITE]
 Name = Victreebelite
 NamePlural = Victreebelites

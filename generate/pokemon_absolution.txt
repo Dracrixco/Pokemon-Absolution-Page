@@ -865,7 +865,7 @@ Category = Quimera
 Pokedex = It has a high capacity for adaptation and shows great affinity with other Grass-type Pokémon.
 #-------------------------------
 [FLOVERN]
-Name = Flover
+Name = Flovern
 Types = GRASS,DRAGON
 BaseStats = 87,86,49,88,40,48
 GenderRatio = Female50Percent
@@ -1017,11 +1017,10 @@ Weight = 6.6
 Color = Red
 Shape = Bipedal
 Category = Doll
-Evolution = MALICEAR,Level,20
 Pokedex = When they gather in groups, it is a sign that something very bad is about to happen. Many trainers experience nightmares when sleeping near this Pokémon.
+Evolution = MALICEAR,Level,20
 #-------------------------------
 [MALICEAR]
-Evolution = ABANDOLED,Item,DUSKSTONE
 Name = Malicear
 Types = GHOST
 BaseStats = 82,97,66,72,64,87
@@ -1044,6 +1043,7 @@ Color = Pink
 Shape = Bipedal
 Category = Doll
 Pokedex = They perform rituals to harm other Pokémon that may cause them trouble. They are not easily seen by humans, and it is believed to be bad luck to encounter one at night.
+Evolution = ABANDOLED,Item,DUSKSTONE
 #-------------------------------
 [ABANDOLED]
 Name = Abandoled
@@ -1068,3 +1068,80 @@ Color = Purple
 Shape = Bipedal
 Category = Curse Doll
 Pokedex = It is attributed to many urban legends, and it is said that encountering one guarantees death due to a certain curse. There is no scientific evidence to support this claim. In fact, they tend to avoid humans, making it difficult to verify.
+#-------------------------------
+[MABBIT]
+Name = Mabbit
+Types = NORMAL
+BaseStats = 56,56,56,80,80,56
+GenderRatio = Female75Percent
+GrowthRate = Medium
+BaseExp = 100
+EVs = SPEED,1
+CatchRate = 255
+Happiness = 70
+Abilities = RUNAWAY
+HiddenAbilities = MAGICALSTART
+Moves = 1,TAILSLAP,2,BABYDOLLEYES,5,DOUBLESLAP,8,QUICKATTACK,11,FAKEOUT,14,DISARMINGVOICE,16,CHARM,18,SCREECH,21,SING,24,DRAININGKISS,26,MAGICALBLESSING,27,SEDUCTION,29,ROUND,30,RETURN,32,CALMMIND,34,AGILITY,36,DAZZLINGGLEAM
+TutorMoves = BATONPASS,BLIZZARD,BLOCK,CONFUSION,DIZZYPUNCH,ENERGYBALL,EXPLOSION,FAIRYWIND,FLAMETHROWER,FOCUSENERGY,GIGAIMPACT,GRAVITY,HEADBUTT,HEALBLOCK,HEALINGWISH,HEALPULSE,HIDDENPOWER,HYPERBEAM,HYPNOSIS,ICEBEAM,LIGHTSCREEN,LUNARBLESSING,LUNARDANCE,MAGICROOM,MOONLIGHT,PROTECT,PROTOSHIELD,RECOVER,REFLECT,REST,SLASH,SNORE,SWIFT,TRICKROOM,WONDERROOM
+EggMoves = AQUARING,AURORAVEIL,BLOODMOON,CHLOROBLAST,DEBILITATINGTOXIN,HYPERVOICE,ICEFANG,ICYWIND,MIRRORCOAT,MIST,POWDERSNOW,PSYBEAM,PSYCHICFANGS,SHAMANBLESSING,SURF
+EggGroups = Field
+HatchSteps = 3840
+Height = 0.3
+Weight = 5.0
+Color = White
+Shape = BipedalTail
+Habitat = Grassland
+Category = Magic Bunny
+Pokedex = It has a rather clumsy way of walking, which makes it easy to think it's an easy prey for many Pokémon. However, this Pokémon easily manages to escape from its predators.
+Evolution = BUNLUCK,Item,DAWNSTONE
+#-------------------------------
+[BUNLUCK]
+Name = Bunluck
+Types = NORMAL,FAIRY
+BaseStats = 79,70,70,100,100,70
+GenderRatio = Female75Percent
+GrowthRate = Medium
+BaseExp = 100
+EVs = SPEED,2
+CatchRate = 255
+Happiness = 70
+Abilities = CUTECHARM
+HiddenAbilities = MAGICALSTART
+Moves = 1,TAILSLAP,2,BABYDOLLEYES,5,DOUBLESLAP,8,QUICKATTACK,11,FAKEOUT,14,DISARMINGVOICE,16,CHARM,18,SCREECH,21,SING,24,DRAININGKISS,26,MAGICALBLESSING,27,SEDUCTION,29,ROUND,30,RETURN,32,CALMMIND,34,AGILITY,36,DAZZLINGGLEAM,39,SWEETKISS,40,EXTRASENSORY
+TutorMoves = BATONPASS,BLIZZARD,BLOCK,CONFUSION,DIZZYPUNCH,ENERGYBALL,EXPLOSION,FAIRYWIND,FLAMETHROWER,FOCUSENERGY,GIGAIMPACT,GRAVITY,HEADBUTT,HEALBLOCK,HEALINGWISH,HEALPULSE,HIDDENPOWER,HYPERBEAM,HYPNOSIS,ICEBEAM,LIGHTSCREEN,LUNARBLESSING,LUNARDANCE,MAGICROOM,MOONLIGHT,PROTECT,PROTOSHIELD,RECOVER,REFLECT,REST,SLASH,SNORE,SWIFT,TRICKROOM,WONDERROOM
+EggMoves = AQUARING,AURORAVEIL,BLOODMOON,CHLOROBLAST,DEBILITATINGTOXIN,HYPERVOICE,ICEFANG,ICYWIND,MIRRORCOAT,MIST,POWDERSNOW,PSYBEAM,PSYCHICFANGS,SHAMANBLESSING,SURF
+EggGroups = Field,Fairy
+HatchSteps = 3840
+Height = 0.6
+Weight = 10.0
+Color = White
+Shape = BipedalTail
+Habitat = Grassland
+Category = Magic Bunny
+Pokedex = This Pokémon is incredibly lucky, and science has yet to explain how this species manages to escape from such complex situations. It uses magic tricks to confuse nearby Pokémon, seemingly doing so for fun.
+Evolution = FORTUNELLE,HasMoveType,PSYCHIC
+#-------------------------------
+[FORTUNELLE]
+Name = Fortunelle
+Types = PSYCHIC,FAIRY
+BaseStats = 88,77,77,112,112,77
+GenderRatio = Female75Percent
+GrowthRate = Medium
+BaseExp = 100
+EVs = SPEED,3
+CatchRate = 255
+Happiness = 70
+Abilities = CUTECHARM,MAGICGUARD
+HiddenAbilities = MAGICALSTART
+Moves = 1,TAILSLAP,2,BABYDOLLEYES,5,DOUBLESLAP,8,QUICKATTACK,11,FAKEOUT,14,DISARMINGVOICE,16,CHARM,18,SCREECH,21,SING,24,DRAININGKISS,26,MAGICALBLESSING,27,SEDUCTION,29,ROUND,30,RETURN,32,CALMMIND,34,AGILITY,36,DAZZLINGGLEAM,39,SWEETKISS,40,EXTRASENSORY,42,WISH,44,PLAYROUGH,46,MAGICALEXPLOSION,49,PSYCHIC,50,MOONBLAST
+TutorMoves = BATONPASS,BLIZZARD,BLOCK,CONFUSION,DIZZYPUNCH,ENERGYBALL,EXPLOSION,FAIRYWIND,FLAMETHROWER,FOCUSENERGY,GIGAIMPACT,GRAVITY,HEADBUTT,HEALBLOCK,HEALINGWISH,HEALPULSE,HIDDENPOWER,HYPERBEAM,HYPNOSIS,ICEBEAM,LIGHTSCREEN,LUNARBLESSING,LUNARDANCE,MAGICROOM,MOONLIGHT,PROTECT,PROTOSHIELD,RECOVER,REFLECT,REST,SLASH,SNORE,SWIFT,TRICKROOM,WONDERROOM
+EggMoves = AQUARING,AURORAVEIL,BLOODMOON,CHLOROBLAST,DEBILITATINGTOXIN,HYPERVOICE,ICEFANG,ICYWIND,MIRRORCOAT,MIST,POWDERSNOW,PSYBEAM,PSYCHICFANGS,SHAMANBLESSING,SURF
+EggGroups = Field,Fairy,Humanlike
+HatchSteps = 3840
+Height = 1.3
+Weight = 42.4
+Color = White
+Shape = BipedalTail
+Habitat = Grassland
+Category = Magic Bunny
+Pokedex = It can perform incredible magic tricks that are hard to explain. It seeks out sad humans and Pokémon to try to brighten their day with its magic tricks.

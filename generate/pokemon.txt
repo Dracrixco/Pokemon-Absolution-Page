@@ -23175,6 +23175,7 @@ Shape = HeadBase
 Category = Cream
 Pokedex = When Alcremie is content, the cream it secretes from its hands becomes sweeter and richer.
 Generation = 8
+Flags = AllFormsShareGmax
 #-------------------------------
 [FALINKS]
 Name = Falinks
@@ -23663,7 +23664,7 @@ Shape = Quadruped
 Category = Warrior
 Pokedex = Known as a legendary hero, this Pokémon absorbs metal particles, transforming them into a weapon it uses to battle.
 Generation = 8
-Flags = Legendary
+Flags = Legendary,CannotDynamax
 WildItemCommon = RUSTEDSWORD
 WildItemUncommon = RUSTEDSWORD
 WildItemRare = RUSTEDSWORD
@@ -23691,7 +23692,7 @@ Shape = Quadruped
 Category = Warrior
 Pokedex = This Pokémon slept for aeons while in the form of a statue. It was asleep for so long, people forgot that it ever existed.
 Generation = 8
-Flags = Legendary
+Flags = Legendary,CannotDynamax
 WildItemCommon = RUSTEDSHIELD
 WildItemUncommon = RUSTEDSHIELD
 WildItemRare = RUSTEDSHIELD

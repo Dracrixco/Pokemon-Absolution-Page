@@ -382,3 +382,27 @@ FunctionCode = AddStealthRocksToFoeSide
 Flags = Contact,CanProtect,CanMirrorMove,Slicing
 EffectChance = 100
 Description = The user swings its aqua axe at the target. It leaves stone splinters around the target.
+#-------------------------------
+[MAGICALBLESSING]
+Name = Magical Blessing
+Type = FAIRY
+Category = Status
+Accuracy = 100
+TotalPP = 10
+Target = User
+FunctionCode = ProtoShieldAndEffectChanceImprovement
+Description = The user gains proto shield and a 30% increase in extra effect chance.
+PasiveDescription = The user gains a 5% increase in extra effect chance at the end of each turn.
+#-------------------------------
+[MAGICALEXPLOSION]
+Name = Magical Explosion
+Type = FAIRY
+Category = Special
+Power = 90
+Accuracy = 100
+TotalPP = 15
+Target = NearOther
+FunctionCode = MoreDamageWithEffectChanceAndEffectChanceImprovement
+EffectChance = 10
+Description = Causes more damage when more extra effect chance the user has. It may also raise all the user's stats at once.
+PasiveDescription = The user gains a 5% increase in extra effect chance at the end of each turn.

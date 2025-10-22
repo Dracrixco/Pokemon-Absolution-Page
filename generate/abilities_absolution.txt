@@ -2,7 +2,7 @@
 #-------------------------------
 [JUNGLEPROTECTOR]
 Name = Jungle Protector
-Description = If the Pokémon cannot escape or be switched out, it generates proto-shield at the end of each turn.
+Description = If the Pokémon cannot escape or be switched out, it generates proto shield at the end of each turn.
 #-------------------------------
 [TOTHELIMIT]
 Name = To The Limit
@@ -51,3 +51,7 @@ Description = Get Bug Hater and Bug Immunity when entering a battle.
 [RAINCUTTER]
 Name = Rain Cutter
 Description = Powers up the user's slicing and cutting moves while Rain is active.
+#-------------------------------
+[MAGICALSTART]
+Name = Magical Start
+Description = The user starts with proto shield and 50% increase in extra effect chance.

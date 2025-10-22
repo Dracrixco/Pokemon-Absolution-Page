@@ -1865,7 +1865,7 @@ export const abilities: Ability[] = [
     id: "JUNGLEPROTECTOR",
     name: "Jungle Protector",
     description:
-      "If the Pokémon cannot escape or be switched out, it generates proto-shield at the end of each turn.",
+      "If the Pokémon cannot escape or be switched out, it generates proto shield at the end of each turn.",
     suffix: "normal",
   },
   {
@@ -1948,6 +1948,13 @@ export const abilities: Ability[] = [
     name: "Rain Cutter",
     description:
       "Powers up the user's slicing and cutting moves while Rain is active.",
+    suffix: "normal",
+  },
+  {
+    id: "MAGICALSTART",
+    name: "Magical Start",
+    description:
+      "The user starts with proto shield and 50% increase in extra effect chance.",
     suffix: "normal",
   },
 ];

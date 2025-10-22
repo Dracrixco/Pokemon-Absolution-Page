@@ -11178,4 +11178,34 @@ export const moves: Move[] = [
       "The user swings its aqua axe at the target. It leaves stone splinters around the target.",
     suffix: "normal",
   },
+  {
+    id: "MAGICALBLESSING",
+    name: "Magical Blessing",
+    type: "FAIRY",
+    category: "Status",
+    power: null,
+    accuracy: 100,
+    totalPP: 10,
+    target: "User",
+    description:
+      "The user gains proto shield and a 30% increase in extra effect chance.",
+    suffix: "normal",
+    passiveEffect:
+      "The user gains a 5% increase in extra effect chance at the end of each turn.",
+  },
+  {
+    id: "MAGICALEXPLOSION",
+    name: "Magical Explosion",
+    type: "FAIRY",
+    category: "Special",
+    power: 90,
+    accuracy: 100,
+    totalPP: 15,
+    target: "NearOther",
+    description:
+      "Causes more damage when more extra effect chance the user has. It may also raise all the user's stats at once.",
+    suffix: "normal",
+    passiveEffect:
+      "The user gains a 5% increase in extra effect chance at the end of each turn.",
+  },
 ];

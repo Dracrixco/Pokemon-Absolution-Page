@@ -525,3 +525,21 @@ Price = 3000
 SellPrice = 500
 Flags = Fling_30
 Description = Slightly increases the damage of cutting moves. The effect is bigger if the holder's species is Growrage or Twylican.
+#-------------------------------
+[DUNGEONPOINT]
+Name = Dungeon Point
+NamePlural = Dungeon Points
+Pocket = 10
+Price = 500000
+SellPrice = 1
+Flags = Fling_30
+Description = Points that you earn in dungeons.
+#-------------------------------
+[DUNGEONKEY]
+Name = Dungeon Key
+NamePlural = Dungeon Keys
+Pocket = 10
+Price = 500000
+SellPrice = 1
+Flags = Fling_30
+Description = A key to enter into a Dungeon.

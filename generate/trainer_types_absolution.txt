@@ -93,6 +93,14 @@ SkillLevel = 200
 Flags = ReserveLastPokemon
 BattleBGM = GYM1-Battle (Gym Leader - Kanto)
 #-------------------------------
+[GYM_LEADER_FIRE]
+Name = Gym Leader
+Gender = Female
+BaseMoney = 60
+SkillLevel = 200
+Flags = ReserveLastPokemon
+BattleBGM = GYM1-Battle (Gym Leader - Kanto)
+#-------------------------------
 [GYM_LEADER_BUG_RIGHT_HAD]
 Name = Right Hand Of The Leader
 Gender = Male
