@@ -86,17 +86,30 @@ export const TeamBuilder = () => {
     exportText += `StartText = ${trainer.startText}\n`;
 
     team.forEach((pokemon) => {
+      exportText += `#-------------------------------\n`;
       exportText += `Pokemon = ${pokemon.id},5\n`;
       exportText += `    Gender = male\n`;
       exportText += `    IV = ${pokemon.ivs.join(",")}\n`;
       exportText += `    EV = ${pokemon.evs.join(",")}\n`;
       exportText += `    Ball = ULTRABALL\n`;
-      exportText += `    Moves_easy = ${pokemon.moves_easy.join(",")}\n`;
-      exportText += `    Moves_normal = ${pokemon.moves_normal.join(",")}\n`;
-      exportText += `    Moves_hard = ${pokemon.moves_hard.join(",")}\n`;
-      exportText += `    Moves_absolution = ${pokemon.moves_absolution.join(
-        ","
-      )}\n`;
+      [
+        pokemon.moves_easy,
+        pokemon.moves_normal,
+        pokemon.moves_hard,
+        pokemon.moves_absolution,
+      ].map((moves, idx) => {
+        // Remove empty strings in the array
+        moves = moves.filter((move) => move !== "");
+        if (moves.length === 0) return;
+        exportText += "    ";
+        exportText += [
+          "Moves_easy",
+          "Moves_normal",
+          "Moves_hard",
+          "Moves_absolution",
+        ][idx];
+        exportText += ` = ${moves.join(",")}\n`;
+      });
 
       // Solo incluir items si no están vacíos
       if (pokemon.item_hard) {

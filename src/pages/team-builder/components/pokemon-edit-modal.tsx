@@ -136,6 +136,7 @@ export const PokemonEditorModal: React.FC<PokemonEditorModalProps> = ({
   if (!pokemonData) return null;
 
   const handleSave = () => {
+    setSelectedDifficulty("easy");
     if (editedPokemon) {
       onSave(editedPokemon);
       onClose();
@@ -455,7 +456,7 @@ export const PokemonEditorModal: React.FC<PokemonEditorModalProps> = ({
               <label className="block text-sm font-medium mb-2">
                 Moves (4 slots)
               </label>
-              <div className="grid grid-cols-1 md:grid-cols-2 gap-3">
+              <div className="grid grid-cols-1 md:grid-cols-2 gap-2">
                 {getCurrentMoves().map((moveId, index) => (
                   <div key={index}>
                     <label className="block text-xs font-medium text-gray-600 mb-1">
@@ -496,7 +497,7 @@ export const PokemonEditorModal: React.FC<PokemonEditorModalProps> = ({
                   const ability = abilities.find((a) => a.id === abilityId);
                   return (
                     <option key={index} value={index}>
-                      {ability?.name || abilityId}
+                      {ability?.name || abilityId} - {ability?.description}
                     </option>
                   );
                 })}
@@ -507,7 +508,8 @@ export const PokemonEditorModal: React.FC<PokemonEditorModalProps> = ({
                       key={pokemonData.abilities.length + index}
                       value={pokemonData.abilities.length + index}
                     >
-                      {ability?.name || abilityId} (Hidden)
+                      {ability?.name || abilityId} (Hidden) -{" "}
+                      {ability?.description}
                     </option>
                   );
                 })}

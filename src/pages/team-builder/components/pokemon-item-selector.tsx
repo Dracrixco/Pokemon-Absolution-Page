@@ -1,6 +1,8 @@
 import { getAllItems } from "@/lib/items";
 import React, { useState } from "react";
 import { X, ChevronDown } from "lucide-react";
+import { cn } from "@/lib/utils";
+import type { Item } from "@/types/item";
 
 const items = getAllItems();
 export const ItemSelector: React.FC<{
@@ -15,8 +17,9 @@ export const ItemSelector: React.FC<{
 
   const filteredItems = items.filter(
     (item) =>
-      item.name.toLowerCase().includes(searchTerm.toLowerCase()) ||
-      item.id.toLowerCase().includes(searchTerm.toLowerCase()),
+      (item.name.toLowerCase().includes(searchTerm.toLowerCase()) ||
+        item.id.toLowerCase().includes(searchTerm.toLowerCase())) &&
+      item.pocket == 1
   );
 
   const handleSelect = (itemId: string) => {
@@ -61,9 +64,17 @@ export const ItemSelector: React.FC<{
 
       {/* Dropdown */}
       {isOpen && (
-        <div className="absolute top-full left-0 right-0 z-10 mt-1 bg-white border border-gray-300 rounded-lg shadow-lg max-h-80 overflow-hidden">
+        <div
+          className={cn(
+            "fixed z-20 mt-1 bg-white",
+            "border border-gray-300",
+            "rounded-lg shadow-lg overflow-hidden",
+            "top-0 left-0 right-0 bottom-0",
+            "w-screen h-screen"
+          )}
+        >
           {/* Search input */}
-          <div className="p-2 border-b">
+          <div className="p-2 border-b w-[98%]">
             <input
               type="text"
               placeholder="Search item..."
@@ -75,7 +86,7 @@ export const ItemSelector: React.FC<{
           </div>
 
           {/* Items list */}
-          <div className="overflow-y-auto max-h-64">
+          <div className="overflow-y-auto h-[85%] w-[98%]">
             {/* Sin objeto option */}
             <button
               type="button"
@@ -94,33 +105,11 @@ export const ItemSelector: React.FC<{
             </button>
 
             {filteredItems.map((item) => (
-              <button
+              <ItemButton
                 key={item.id}
-                type="button"
-                onClick={() => handleSelect(item.id)}
-                className="w-full px-3 py-2 text-left hover:bg-gray-100 flex items-start gap-2 border-b last:border-b-0"
-              >
-                <img
-                  src={item.sprite || "/items/default.png"}
-                  alt={item.name}
-                  className="w-6 h-6 flex-shrink-0 mt-0.5"
-                  onError={(e) => {
-                    e.currentTarget.src =
-                      "data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMjQiIGhlaWdodD0iMjQiIHZpZXdCb3g9IjAgMCAyNCAyNCIgZmlsbD0ibm9uZSIgeG1zbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj4KPHJlY3Qgd2lkdGg9IjI0IiBoZWlnaHQ9IjI0IiBmaWxsPSIjRjNGNEY2Ii8+CjxjaXJjbGUgY3g9IjEyIiBjeT0iMTIiIHI9IjgiIGZpbGw9IiNEMUQ1REIiLz4KPHRleHQgeD0iMTIiIHk9IjE2IiBmb250LWZhbWlseT0iQXJpYWwiIGZvbnQtc2l6ZT0iMTAiIGZpbGw9IiM2QjcyODAiIHRleHQtYW5jaG9yPSJtaWRkbGUiPj88L3RleHQ+Cjwvc3ZnPg==";
-                  }}
-                />
-                <div className="min-w-0 flex-1">
-                  <div className="font-medium text-sm">{item.name}</div>
-                  {item.description && (
-                    <div className="text-xs text-gray-600 line-clamp-2">
-                      {item.description}
-                    </div>
-                  )}
-                  <div className="text-xs text-gray-400 mt-0.5">
-                    Flags: {item.flags}
-                  </div>
-                </div>
-              </button>
+                item={item}
+                handleSelect={handleSelect}
+              />
             ))}
 
             {filteredItems.length === 0 && searchTerm && (
@@ -129,13 +118,55 @@ export const ItemSelector: React.FC<{
               </div>
             )}
           </div>
-        </div>
-      )}
 
-      {/* Overlay to close dropdown */}
-      {isOpen && (
-        <div className="fixed inset-0 z-0" onClick={() => setIsOpen(false)} />
+          {/* Overlay to close dropdown */}
+          {isOpen && selectedItem && (
+            <ItemButton
+              key={selectedItem.id}
+              item={selectedItem}
+              handleSelect={handleSelect}
+            />
+          )}
+        </div>
       )}
     </div>
   );
 };
+
+const ItemButton = ({
+  item,
+  handleSelect,
+}: {
+  item: Item;
+  handleSelect: (itemId: string) => void;
+}) => {
+  return (
+    <button
+      key={item.id}
+      type="button"
+      onClick={() => handleSelect(item.id)}
+      className="w-full px-3 py-2 text-left hover:bg-gray-100 flex items-start gap-2 border-b last:border-b-0"
+    >
+      <img
+        src={item.sprite || "/items/default.png"}
+        alt={item.name}
+        className="w-6 h-6 flex-shrink-0 mt-0.5"
+        onError={(e) => {
+          e.currentTarget.src =
+            "data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMjQiIGhlaWdodD0iMjQiIHZpZXdCb3g9IjAgMCAyNCAyNCIgZmlsbD0ibm9uZSIgeG1zbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj4KPHJlY3Qgd2lkdGg9IjI0IiBoZWlnaHQ9IjI0IiBmaWxsPSIjRjNGNEY2Ii8+CjxjaXJjbGUgY3g9IjEyIiBjeT0iMTIiIHI9IjgiIGZpbGw9IiNEMUQ1REIiLz4KPHRleHQgeD0iMTIiIHk9IjE2IiBmb250LWZhbWlseT0iQXJpYWwiIGZvbnQtc2l6ZT0iMTAiIGZpbGw9IiM2QjcyODAiIHRleHQtYW5jaG9yPSJtaWRkbGUiPj88L3RleHQ+Cjwvc3ZnPg==";
+        }}
+      />
+      <div className="min-w-0 flex-1">
+        <div className="font-medium text-sm">{item.name}</div>
+        {item.description && (
+          <div className="text-xs text-gray-600 line-clamp-2">
+            {item.description}
+          </div>
+        )}
+        <div className="text-xs text-gray-400 mt-0.5">Flags: {item.flags}</div>
+      </div>
+    </button>
+  );
+};
+
+export default ItemButton;
