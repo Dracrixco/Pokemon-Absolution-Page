@@ -19,7 +19,7 @@ export const ItemSelector: React.FC<{
     (item) =>
       (item.name.toLowerCase().includes(searchTerm.toLowerCase()) ||
         item.id.toLowerCase().includes(searchTerm.toLowerCase())) &&
-      item.pocket == 1
+      item.pocket == 1,
   );
 
   const handleSelect = (itemId: string) => {
@@ -70,7 +70,7 @@ export const ItemSelector: React.FC<{
             "border border-gray-300",
             "rounded-lg shadow-lg overflow-hidden",
             "top-0 left-0 right-0 bottom-0",
-            "w-screen h-screen"
+            "w-screen h-screen",
           )}
         >
           {/* Search input */}

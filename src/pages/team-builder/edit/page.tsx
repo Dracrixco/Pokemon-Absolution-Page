@@ -56,10 +56,10 @@ export const PokemonEditPage: React.FC = () => {
   const [selectedDifficulty, setSelectedDifficulty] =
     useState<DifficultyLevel>("easy");
   const [activeTab, setActiveTab] = useState<"stats" | "moves" | "items">(
-    "stats"
+    "stats",
   );
   const [editedPokemon, setEditedPokemon] = useState<FakemonForTeam | null>(
-    null
+    null,
   );
   const [hasUnsavedChanges, setHasUnsavedChanges] = useState(false);
 
@@ -76,7 +76,7 @@ export const PokemonEditPage: React.FC = () => {
 
   const pokemonData = useMemo(
     () => fakemons.find((p) => p.id === originalPokemon?.id),
-    [fakemons, originalPokemon?.id]
+    [fakemons, originalPokemon?.id],
   );
 
   useEffect(() => {
@@ -136,7 +136,7 @@ export const PokemonEditPage: React.FC = () => {
   };
 
   const getDifficultiesToUpdate = (
-    currentDifficulty: DifficultyLevel
+    currentDifficulty: DifficultyLevel,
   ): DifficultyLevel[] => {
     switch (currentDifficulty) {
       case "easy":
@@ -282,7 +282,7 @@ export const PokemonEditPage: React.FC = () => {
                       <span
                         key={type}
                         className={`px-2 py-0.5 rounded text-white text-xs ${getTypeColor(
-                          type
+                          type,
                         )}`}
                       >
                         {type}
@@ -422,8 +422,8 @@ export const PokemonEditPage: React.FC = () => {
                         handleLevelChange(
                           Math.max(
                             1,
-                            Math.min(100, parseInt(e.target.value) || 1)
-                          )
+                            Math.min(100, parseInt(e.target.value) || 1),
+                          ),
                         )
                       }
                       className="w-full px-3 py-2 border border-gray-300 rounded-lg focus:ring-2 focus:ring-blue-500 focus:border-blue-500"
@@ -439,7 +439,7 @@ export const PokemonEditPage: React.FC = () => {
                       value={editedPokemon.nature}
                       onChange={(e) =>
                         handleNatureChange(
-                          e.target.value as keyof typeof NATURE_EFFECTS
+                          e.target.value as keyof typeof NATURE_EFFECTS,
                         )
                       }
                       className="w-full px-3 py-2 border border-gray-300 rounded-lg focus:ring-2 focus:ring-blue-500 focus:border-blue-500"
@@ -493,7 +493,7 @@ export const PokemonEditPage: React.FC = () => {
                         ...pokemonData.hiddenAbilities,
                       ].map((abilityId, index) => {
                         const ability = abilities.find(
-                          (a) => a.id === abilityId
+                          (a) => a.id === abilityId,
                         );
                         return (
                           <option key={abilityId} value={index}>

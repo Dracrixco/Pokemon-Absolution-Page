@@ -22,6 +22,7 @@ export interface Fakemon extends GenericPBS {
   tutorMoves?: string[];
   eggMoves?: string[];
   dateToShow?: Date;
+  color?: string;
   evolution: {
     to: string;
     method: string;
@@ -32,6 +33,7 @@ export interface Fakemon extends GenericPBS {
 export interface FakemonForTeam {
   id: string;
   randomId: string;
+  formNumber?: number; // Número de la forma seleccionada (0 = base)
   ivs: number[];
   evs: number[];
   level: number;

@@ -53,7 +53,7 @@ export const MoveSelector: React.FC<MoveSelectorProps> = ({
       (move) =>
         move.name.toLowerCase().includes(searchTerm.toLowerCase()) ||
         move.id.toLowerCase().includes(searchTerm.toLowerCase()) ||
-        move.type.toLowerCase().includes(searchTerm.toLowerCase())
+        move.type.toLowerCase().includes(searchTerm.toLowerCase()),
     );
 
   const handleSelect = (moveId: string) => {
@@ -74,7 +74,7 @@ export const MoveSelector: React.FC<MoveSelectorProps> = ({
             "rounded-lg focus:ring-2",
             "focus:ring-blue-500 bg-white text-left",
             "flex items-center justify-between",
-            "hover:bg-gray-50"
+            "hover:bg-gray-50",
           )}
         >
           <div className="flex items-center gap-2 min-w-0">
@@ -86,7 +86,7 @@ export const MoveSelector: React.FC<MoveSelectorProps> = ({
                   </span>
                   <span
                     className={`px-2 py-1 rounded text-white text-xs ${getTypeColor(
-                      selectedMove.type
+                      selectedMove.type,
                     )}`}
                   >
                     {selectedMove.type}
@@ -120,7 +120,7 @@ export const MoveSelector: React.FC<MoveSelectorProps> = ({
               "border border-gray-300",
               "rounded-lg shadow-lg overflow-hidden",
               "top-0 left-0 right-0 bottom-0",
-              "w-screen h-screen"
+              "w-screen h-screen",
             )}
           >
             {/* Search input */}
@@ -201,7 +201,7 @@ const MoveButton = ({
         <span className="text-lg">{getCategoryIcon(move.category)}</span>
         <span
           className={`px-2 py-1 rounded text-white text-xs ${getTypeColor(
-            move.type
+            move.type,
           )}`}
         >
           {move.type}
@@ -214,7 +214,7 @@ const MoveButton = ({
           <div className="font-medium text-sm">{move.name}</div>
           <span
             className={`px-2 py-1 rounded text-white text-xs ${getCategoryColor(
-              move.category
+              move.category,
             )}`}
           >
             {move.category}

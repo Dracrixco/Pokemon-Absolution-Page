@@ -59,7 +59,8 @@ def parse_fakemons(lines, suffix)
         tutorMoves: [],
         eggMoves: [],
         suffix: suffix,   
-        evolution: []
+        evolution: [],
+        color: ""
       }
     elsif current
       key, value = line.split("=", 2).map(&:strip)
@@ -109,6 +110,8 @@ def parse_fakemons(lines, suffix)
             value: evo_parts[2]
           }]
         end
+      when "Color"
+        current[:color] = value
       end
     end
   end
@@ -117,6 +120,134 @@ def parse_fakemons(lines, suffix)
   fakemons << current if current
   # fakemons.reject! { |fakemon| NOT_ABLE_TO_SHOW_FAKEMONS.include?(fakemon[:id]) }
   fakemons
+end
+
+def parse_forms(lines, suffix, base_pokemons)
+  forms = []
+  current = nil
+  
+  lines.each do |line|
+    line.strip!
+    next if line.empty? || line.start_with?("#")
+    
+    if line.match(/^\[(.+),(\d+)\]$/)
+      forms << current if current
+      
+      base_id = $1
+      form_number = $2.to_i
+      
+      # Find base pokemon
+      base_pokemon = base_pokemons.find { |p| p[:id] == base_id }
+      
+      # Initialize with base pokemon data or defaults
+      if base_pokemon
+        current = base_pokemon.dup
+        current[:stats] = base_pokemon[:stats].dup
+        current[:types] = base_pokemon[:types].dup
+        current[:abilities] = base_pokemon[:abilities].dup
+        current[:hiddenAbilities] = base_pokemon[:hiddenAbilities].dup
+        current[:moves] = base_pokemon[:moves].dup if base_pokemon[:moves]
+        current[:tutorMoves] = base_pokemon[:tutorMoves].dup if base_pokemon[:tutorMoves]
+        current[:eggMoves] = base_pokemon[:eggMoves].dup if base_pokemon[:eggMoves]
+        current[:evolution] = base_pokemon[:evolution].dup if base_pokemon[:evolution]
+        current[:sprite] = "/Front/#{base_id.upcase}_#{form_number}.png"
+        current[:backSprite] = "/spritesBack/#{base_id.upcase}_#{form_number}.png"
+      else
+        current = {
+          id: base_id,
+          name: "",
+          types: [],
+          sprite: "/Front/#{base_id.upcase}_#{form_number}.png",
+          backSprite: "/spritesBack/#{base_id.upcase}_#{form_number}.png",
+          description: "",
+          stats: {
+            hp: 0,
+            attack: 0,
+            defense: 0,
+            spAttack: 0,
+            spDefense: 0,
+            speed: 0
+          },
+          height: "",
+          weight: "",
+          abilities: [],
+          hiddenAbilities: [],
+          category: "",
+          moves: [],
+          tutorMoves: [],
+          eggMoves: [],
+          evolution: [],
+          color: ""
+        }
+      end
+      
+      # Set form-specific fields
+      current[:formNumber] = form_number
+      current[:formName] = ""
+      current[:baseId] = base_id
+      current[:suffix] = suffix
+      current[:megaStone] = nil
+      
+    elsif current
+      key, value = line.split("=", 2).map(&:strip)
+      
+      case key
+      when "FormName"
+        current[:formName] = value
+      when "MegaStone"
+        current[:megaStone] = value
+      when "Name"
+        current[:name] = value
+      when "Types"
+        current[:types] = value.split(",")
+      when "BaseStats"
+        stats = value.split(",").map(&:to_i)
+        current[:stats] = {
+          hp: stats[0],
+          attack: stats[1],
+          defense: stats[2],
+          spAttack: stats[4],
+          spDefense: stats[5],
+          speed: stats[3]
+        }
+      when "Height"
+        current[:height] = value
+      when "Weight"
+        current[:weight] = value
+      when "Abilities"
+        current[:abilities] = value.split(",")
+      when "HiddenAbilities"
+        current[:hiddenAbilities] = value.split(",")
+      when "Moves"
+        current[:moves] = value
+          .split(",")
+          .map(&:strip)
+          .reject { |v| v.match(/^\d+$/) }
+      when "TutorMoves"
+        current[:tutorMoves] = value.split(",")
+      when "EggMoves"
+        current[:eggMoves] = value.split(",")
+      when "Category"
+        current[:category] = value
+      when "Pokedex"
+        current[:description] = value
+      when "Color"
+        current[:color] = value
+      when "Evolution"
+        evo_parts = value.split(",").map(&:strip)
+        if evo_parts.size == 3
+          current[:evolution] = [{
+            to: evo_parts[0],
+            method: evo_parts[1],
+            value: evo_parts[2]
+          }]
+        end
+      end
+    end
+  end
+  
+  forms << current if current
+  forms
 end
 
 def parse_moves(lines, suffix)
@@ -412,4 +543,38 @@ trainer_types_configs.each do |config|
   trainer_types = parse_trainer_types(read_combined_lines(config[:inputs]), config[:suffix])
   write_ts(config[:output], "TrainerType", "trainerTypes", trainer_types)
   puts "✅ Trainer Types generados en #{config[:output]}"
+end
+
+# ========================================================== #
+# Procesar Pokemon Forms
+# ========================================================== #
+# First, we need to load all base pokemons to merge with forms
+all_base_pokemons = []
+fakemon_configs.each do |config|
+  all_base_pokemons += parse_fakemons(read_combined_lines(config[:inputs]), config[:suffix])
+end
+
+forms_configs = [
+  {
+    output: File.join(__dir__, "../src/data/pokemon_forms.ts"),
+    inputs: [
+      File.join(__dir__, "./pokemon_forms.txt"),
+      File.join(__dir__, "./pokemon_forms_stones.txt"),
+      File.join(__dir__, "./pokemon_forms_gmax.txt")
+    ],
+    suffix: "normal"
+  },
+  {
+    output: File.join(__dir__, "../src/data/pokemon_forms_absolution.ts"),
+    inputs: [
+      File.join(__dir__, "./pokemon_forms_absolution.txt")
+    ],
+    suffix: "absolution"
+  }
+]
+
+forms_configs.each do |config|
+  forms = parse_forms(read_combined_lines(config[:inputs]), config[:suffix], all_base_pokemons)
+  write_ts(config[:output], "PokemonForm", "pokemonForms", forms)
+  puts "✅ Pokemon Forms generados en #{config[:output]}"
 end

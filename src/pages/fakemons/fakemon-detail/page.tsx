@@ -2,8 +2,11 @@ import { getFakemonById } from "@/lib/fakemons";
 import { getCategoryColor } from "@/lib/move-colors";
 import { getMovesByIds } from "@/lib/moves";
 import { getTypeColor } from "@/lib/type-colors";
+import { getFormsByBaseId } from "@/lib/pokemon-forms";
 import type { Move } from "@/types/move";
-import React, { useState } from "react";
+import type { PokemonForm } from "@/types/pokemonform";
+import type { Fakemon } from "@/types/fakemon";
+import React, { useState, useMemo } from "react";
 import {
   ArrowLeft,
   GraduationCap,
@@ -11,26 +14,39 @@ import {
   Ruler,
   Weight,
   Zap,
+  Sparkles,
   type LucideProps,
 } from "lucide-react";
 import { useParams, Link, useNavigate } from "react-router-dom";
 import { PokemonImage } from "@/components/absolution/pokemon-image";
+import { cn } from "@/lib/utils";
 
 export const FakemonDetailPage = () => {
   const [isHovered, setIsHovered] = useState(false);
+  const [selectedForm, setSelectedForm] = useState<PokemonForm | null>(null);
   const { id } = useParams<{ id: string }>();
   const navigate = useNavigate();
 
   const fakemon = id ? getFakemonById(id) : null;
+
+  // Get all forms for this Pokemon (needs to be before early return)
+  const availableForms = useMemo(() => {
+    if (!fakemon) return [];
+    return getFormsByBaseId(fakemon.id);
+  }, [fakemon]);
 
   if (!fakemon) {
     // En React Router no hay `notFound()`, así que redirigimos manualmente
     navigate("/fakemons", { replace: true });
     return null;
   }
-  const levelUpMoves = getMovesByIds(fakemon.moves || []);
-  const tutorMoves = getMovesByIds(fakemon.tutorMoves || []);
-  const eggMoves = getMovesByIds(fakemon.eggMoves || []);
+
+  // Use selected form data or base fakemon data
+  const displayData: Fakemon | PokemonForm = selectedForm || fakemon;
+
+  const levelUpMoves = getMovesByIds(displayData.moves || []);
+  const tutorMoves = getMovesByIds(displayData.tutorMoves || []);
+  const eggMoves = getMovesByIds(displayData.eggMoves || []);
 
   if (!fakemon) {
     return (
@@ -51,8 +67,8 @@ export const FakemonDetailPage = () => {
     );
   }
 
-  const maxStat = 130; // Math.max(...Object.values(fakemon.stats));
-  const totalStats = Object.values(fakemon.stats).reduce(
+  const maxStat = 130; // Math.max(...Object.values(displayData.stats));
+  const totalStats = Object.values(displayData.stats).reduce(
     (sum, stat) => sum + stat,
     0,
   );
@@ -69,6 +85,75 @@ export const FakemonDetailPage = () => {
           Back to Fakemons
         </Link>
 
+        {/* Form Selector */}
+        {availableForms.length > 0 && (
+          <div className="bg-purple-800/50 rounded-xl border border-purple-600 p-6 mb-8">
+            <h3 className="text-xl font-bold text-white mb-4 flex items-center gap-2">
+              <Sparkles className="h-5 w-5" />
+              Available Forms
+            </h3>
+            <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4 xl:grid-cols-6 gap-4">
+              {/* Base Form */}
+              <button
+                onClick={() => setSelectedForm(null)}
+                className={cn(
+                  "bg-purple-900/50 rounded-lg p-4 border-2 transition-all hover:scale-105",
+                  !selectedForm
+                    ? "border-purple-400 shadow-lg shadow-purple-500/50"
+                    : "border-purple-700 hover:border-purple-500",
+                )}
+              >
+                <div className="relative">
+                  <img
+                    src={fakemon.sprite}
+                    alt={fakemon.name}
+                    className="w-full h-24 object-contain mb-2"
+                    onError={(e) => {
+                      e.currentTarget.src = "/Front/MISSINGNO.png";
+                    }}
+                  />
+                </div>
+                <div className="text-white text-sm font-medium text-center">
+                  Base Form
+                </div>
+              </button>
+
+              {/* Other Forms */}
+              {availableForms.map((form) => (
+                <button
+                  key={`${form.baseId}-${form.formNumber}`}
+                  onClick={() => setSelectedForm(form)}
+                  className={cn(
+                    "bg-purple-900/50 rounded-lg p-4 border-2 transition-all hover:scale-105",
+                    selectedForm?.formNumber === form.formNumber
+                      ? "border-purple-400 shadow-lg shadow-purple-500/50"
+                      : "border-purple-700 hover:border-purple-500",
+                  )}
+                >
+                  <div className="relative">
+                    <img
+                      src={form.sprite}
+                      alt={form.formName}
+                      className="w-full h-24 object-contain mb-2"
+                      onError={(e) => {
+                        e.currentTarget.src = "/Front/MISSINGNO.png";
+                      }}
+                    />
+                    {form.megaStone && (
+                      <div className="absolute top-0 right-0 bg-purple-600 text-white text-xs px-1.5 py-0.5 rounded">
+                        ⭐
+                      </div>
+                    )}
+                  </div>
+                  <div className="text-white text-sm font-medium text-center truncate">
+                    {form.formName}
+                  </div>
+                </button>
+              ))}
+            </div>
+          </div>
+        )}
+
         <div className="grid grid-cols-1 lg:grid-cols-2 gap-8">
           {/* Left Column - img and Basic Info */}
           <div className="space-y-6">
@@ -81,7 +166,7 @@ export const FakemonDetailPage = () => {
                   onMouseLeave={() => setIsHovered(false)}
                 >
                   <PokemonImage
-                    fakemon={fakemon}
+                    fakemon={displayData}
                     size={300}
                     showBack={isHovered}
                   />
@@ -90,13 +175,18 @@ export const FakemonDetailPage = () => {
 
               <div className="text-center">
                 <h1 className="text-4xl font-bold text-white mb-2">
-                  {fakemon.name}
+                  {displayData.name}
                 </h1>
-                <p className="text-purple-200 mb-4">{fakemon.category}</p>
+                {selectedForm && (
+                  <div className="text-purple-300 text-lg font-medium mb-2">
+                    {selectedForm.formName}
+                  </div>
+                )}
+                <p className="text-purple-200 mb-4">{displayData.category}</p>
 
                 {/* Types */}
                 <div className="flex justify-center gap-3 mb-6">
-                  {fakemon.types.map((type) => (
+                  {displayData.types.map((type) => (
                     <span
                       key={type}
                       className={`px-4 py-2 rounded-full text-white font-semibold ${getTypeColor(
@@ -115,14 +205,18 @@ export const FakemonDetailPage = () => {
                       <Ruler className="h-4 w-4" />
                       <span className="text-sm">Height</span>
                     </div>
-                    <div className="text-white font-bold">{fakemon.height}</div>
+                    <div className="text-white font-bold">
+                      {displayData.height}
+                    </div>
                   </div>
                   <div className="bg-purple-900/50 rounded-lg p-3">
                     <div className="flex items-center justify-center gap-2 text-purple-200 mb-1">
                       <Weight className="h-4 w-4" />
                       <span className="text-sm">Weight</span>
                     </div>
-                    <div className="text-white font-bold">{fakemon.weight}</div>
+                    <div className="text-white font-bold">
+                      {displayData.weight}
+                    </div>
                   </div>
                 </div>
               </div>
@@ -132,7 +226,7 @@ export const FakemonDetailPage = () => {
             <div className="bg-purple-800/50 rounded-xl border border-purple-600 p-6">
               <h3 className="text-xl font-bold text-white mb-4">Abilities</h3>
               <div className="space-y-2">
-                {fakemon.abilities.map((ability, index) => (
+                {displayData.abilities.map((ability, index) => (
                   <div key={index} className="bg-purple-900/50 rounded-lg p-3">
                     <span className="text-purple-200 font-medium">
                       {ability}
@@ -149,7 +243,7 @@ export const FakemonDetailPage = () => {
             <div className="bg-purple-800/50 rounded-xl border border-purple-600 p-6">
               <h3 className="text-xl font-bold text-white mb-4">Description</h3>
               <p className="text-purple-200 leading-relaxed">
-                {fakemon.description}
+                {displayData.description}
               </p>
             </div>
 
@@ -157,26 +251,30 @@ export const FakemonDetailPage = () => {
             <div className="bg-purple-800/50 rounded-xl border border-purple-600 p-6">
               <h3 className="text-xl font-bold text-white mb-4">Base Stats</h3>
               <div className="space-y-4">
-                {Object.entries(fakemon.stats).map(([statName, statValue]) => (
-                  <div key={statName} className="space-y-1">
-                    <div className="flex justify-between items-center">
-                      <span className="text-purple-200 font-medium capitalize">
-                        {statName === "spAttack"
-                          ? "Sp. Attack"
-                          : statName === "spDefense"
-                            ? "Sp. Defense"
-                            : statName}
-                      </span>
-                      <span className="text-white font-bold">{statValue}</span>
+                {Object.entries(displayData.stats).map(
+                  ([statName, statValue]) => (
+                    <div key={statName} className="space-y-1">
+                      <div className="flex justify-between items-center">
+                        <span className="text-purple-200 font-medium capitalize">
+                          {statName === "spAttack"
+                            ? "Sp. Attack"
+                            : statName === "spDefense"
+                              ? "Sp. Defense"
+                              : statName}
+                        </span>
+                        <span className="text-white font-bold">
+                          {statValue}
+                        </span>
+                      </div>
+                      <div className="w-full bg-purple-900/50 rounded-full h-3 overflow-hidden">
+                        <div
+                          className="h-full bg-gradient-to-r from-purple-400 to-purple-500 transition-all duration-1000 ease-out"
+                          style={{ width: `${(statValue / maxStat) * 100}%` }}
+                        />
+                      </div>
                     </div>
-                    <div className="w-full bg-purple-900/50 rounded-full h-3 overflow-hidden">
-                      <div
-                        className="h-full bg-gradient-to-r from-purple-400 to-purple-500 transition-all duration-1000 ease-out"
-                        style={{ width: `${(statValue / maxStat) * 100}%` }}
-                      />
-                    </div>
-                  </div>
-                ))}
+                  ),
+                )}
 
                 {/* Total */}
                 <div className="border-t border-purple-600 pt-4 mt-4">

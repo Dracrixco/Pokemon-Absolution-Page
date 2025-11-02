@@ -133,7 +133,8 @@ export const fakemons: Fakemon[] =
         method: "Level",
         value: "16"
       }
-    ]
+    ],
+    color: "Green"
   },
   {
     id: "IVYSAUR",
@@ -255,7 +256,8 @@ export const fakemons: Fakemon[] =
         method: "Level",
         value: "32"
       }
-    ]
+    ],
+    color: "Green"
   },
   {
     id: "VENUSAUR",
@@ -389,7 +391,8 @@ export const fakemons: Fakemon[] =
     suffix: "normal",
     evolution: [
 
-    ]
+    ],
+    color: "Green"
   },
   {
     id: "CHARMANDER",
@@ -534,7 +537,8 @@ export const fakemons: Fakemon[] =
         method: "Level",
         value: "16"
       }
-    ]
+    ],
+    color: "Red"
   },
   {
     id: "CHARMELEON",
@@ -663,7 +667,8 @@ export const fakemons: Fakemon[] =
         method: "Level",
         value: "36"
       }
-    ]
+    ],
+    color: "Red"
   },
   {
     id: "CHARIZARD",
@@ -817,7 +822,8 @@ export const fakemons: Fakemon[] =
     suffix: "normal",
     evolution: [
 
-    ]
+    ],
+    color: "Red"
   },
   {
     id: "SQUIRTLE",
@@ -949,7 +955,8 @@ export const fakemons: Fakemon[] =
         method: "Level",
         value: "16"
       }
-    ]
+    ],
+    color: "Blue"
   },
   {
     id: "WARTORTLE",
@@ -1070,7 +1077,8 @@ export const fakemons: Fakemon[] =
         method: "Level",
         value: "36"
       }
-    ]
+    ],
+    color: "Blue"
   },
   {
     id: "BLASTOISE",
@@ -1208,7 +1216,8 @@ export const fakemons: Fakemon[] =
     suffix: "normal",
     evolution: [
 
-    ]
+    ],
+    color: "Blue"
   },
   {
     id: "CATERPIE",
@@ -1256,7 +1265,8 @@ export const fakemons: Fakemon[] =
         method: "Level",
         value: "7"
       }
-    ]
+    ],
+    color: "Green"
   },
   {
     id: "METAPOD",
@@ -1303,7 +1313,8 @@ export const fakemons: Fakemon[] =
         method: "Level",
         value: "10"
       }
-    ]
+    ],
+    color: "Green"
   },
   {
     id: "BUTTERFREE",
@@ -1421,7 +1432,8 @@ export const fakemons: Fakemon[] =
     suffix: "normal",
     evolution: [
 
-    ]
+    ],
+    color: "White"
   },
   {
     id: "WEEDLE",
@@ -1470,7 +1482,8 @@ export const fakemons: Fakemon[] =
         method: "Level",
         value: "7"
       }
-    ]
+    ],
+    color: "Brown"
   },
   {
     id: "KAKUNA",
@@ -1518,7 +1531,8 @@ export const fakemons: Fakemon[] =
         method: "Level",
         value: "10"
       }
-    ]
+    ],
+    color: "Yellow"
   },
   {
     id: "BEEDRILL",
@@ -1633,7 +1647,8 @@ export const fakemons: Fakemon[] =
     suffix: "normal",
     evolution: [
 
-    ]
+    ],
+    color: "Yellow"
   },
   {
     id: "PIDGEY",
@@ -1734,7 +1749,8 @@ export const fakemons: Fakemon[] =
         method: "Level",
         value: "18"
       }
-    ]
+    ],
+    color: "Brown"
   },
   {
     id: "PIDGEOTTO",
@@ -1834,7 +1850,8 @@ export const fakemons: Fakemon[] =
         method: "Level",
         value: "36"
       }
-    ]
+    ],
+    color: "Brown"
   },
   {
     id: "PIDGEOT",
@@ -1935,7 +1952,8 @@ export const fakemons: Fakemon[] =
     suffix: "normal",
     evolution: [
 
-    ]
+    ],
+    color: "Brown"
   },
   {
     id: "RATTATA",
@@ -2057,7 +2075,8 @@ export const fakemons: Fakemon[] =
         method: "Level",
         value: "20"
       }
-    ]
+    ],
+    color: "Purple"
   },
   {
     id: "RATICATE",
@@ -2176,7 +2195,8 @@ export const fakemons: Fakemon[] =
     suffix: "normal",
     evolution: [
 
-    ]
+    ],
+    color: "Brown"
   },
   {
     id: "SPEAROW",
@@ -2281,7 +2301,8 @@ export const fakemons: Fakemon[] =
         method: "Level",
         value: "20"
       }
-    ]
+    ],
+    color: "Brown"
   },
   {
     id: "FEAROW",
@@ -2383,7 +2404,8 @@ export const fakemons: Fakemon[] =
     suffix: "normal",
     evolution: [
 
-    ]
+    ],
+    color: "Brown"
   },
   {
     id: "EKANS",
@@ -2518,7 +2540,8 @@ export const fakemons: Fakemon[] =
         method: "Level",
         value: "22"
       }
-    ]
+    ],
+    color: "Purple"
   },
   {
     id: "ARBOK",
@@ -2656,7 +2679,8 @@ export const fakemons: Fakemon[] =
     suffix: "normal",
     evolution: [
 
-    ]
+    ],
+    color: "Purple"
   },
   {
     id: "PIKACHU",
@@ -2799,7 +2823,8 @@ export const fakemons: Fakemon[] =
         method: "Item",
         value: "THUNDERSTONE"
       }
-    ]
+    ],
+    color: "Yellow"
   },
   {
     id: "RAICHU",
@@ -2944,7 +2969,8 @@ export const fakemons: Fakemon[] =
     suffix: "normal",
     evolution: [
 
-    ]
+    ],
+    color: "Yellow"
   },
   {
     id: "SANDSHREW",
@@ -3091,7 +3117,8 @@ export const fakemons: Fakemon[] =
         method: "Level",
         value: "22"
       }
-    ]
+    ],
+    color: "Yellow"
   },
   {
     id: "SANDSLASH",
@@ -3233,7 +3260,8 @@ export const fakemons: Fakemon[] =
     suffix: "normal",
     evolution: [
 
-    ]
+    ],
+    color: "Yellow"
   },
   {
     id: "NIDORANfE",
@@ -3355,7 +3383,8 @@ export const fakemons: Fakemon[] =
         method: "Level",
         value: "16"
       }
-    ]
+    ],
+    color: "Blue"
   },
   {
     id: "NIDORINA",
@@ -3468,7 +3497,8 @@ export const fakemons: Fakemon[] =
         method: "Item",
         value: "MOONSTONE"
       }
-    ]
+    ],
+    color: "Blue"
   },
   {
     id: "NIDOQUEEN",
@@ -3633,7 +3663,8 @@ export const fakemons: Fakemon[] =
     suffix: "normal",
     evolution: [
 
-    ]
+    ],
+    color: "Blue"
   },
   {
     id: "NIDORANmA",
@@ -3758,7 +3789,8 @@ export const fakemons: Fakemon[] =
         method: "Level",
         value: "16"
       }
-    ]
+    ],
+    color: "Purple"
   },
   {
     id: "NIDORINO",
@@ -3872,7 +3904,8 @@ export const fakemons: Fakemon[] =
         method: "Item",
         value: "MOONSTONE"
       }
-    ]
+    ],
+    color: "Purple"
   },
   {
     id: "NIDOKING",
@@ -4038,7 +4071,8 @@ export const fakemons: Fakemon[] =
     suffix: "normal",
     evolution: [
 
-    ]
+    ],
+    color: "Purple"
   },
   {
     id: "CLEFAIRY",
@@ -4224,7 +4258,8 @@ export const fakemons: Fakemon[] =
         method: "Item",
         value: "MOONSTONE"
       }
-    ]
+    ],
+    color: "Pink"
   },
   {
     id: "CLEFABLE",
@@ -4411,7 +4446,8 @@ export const fakemons: Fakemon[] =
     suffix: "normal",
     evolution: [
 
-    ]
+    ],
+    color: "Pink"
   },
   {
     id: "VULPIX",
@@ -4547,7 +4583,8 @@ export const fakemons: Fakemon[] =
         method: "Item",
         value: "FIRESTONE"
       }
-    ]
+    ],
+    color: "Brown"
   },
   {
     id: "NINETALES",
@@ -4678,7 +4715,8 @@ export const fakemons: Fakemon[] =
     suffix: "normal",
     evolution: [
 
-    ]
+    ],
+    color: "Yellow"
   },
   {
     id: "JIGGLYPUFF",
@@ -4864,7 +4902,8 @@ export const fakemons: Fakemon[] =
         method: "Item",
         value: "MOONSTONE"
       }
-    ]
+    ],
+    color: "Pink"
   },
   {
     id: "WIGGLYTUFF",
@@ -5053,7 +5092,8 @@ export const fakemons: Fakemon[] =
     suffix: "normal",
     evolution: [
 
-    ]
+    ],
+    color: "Pink"
   },
   {
     id: "ZUBAT",
@@ -5175,7 +5215,8 @@ export const fakemons: Fakemon[] =
         method: "Level",
         value: "22"
       }
-    ]
+    ],
+    color: "Purple"
   },
   {
     id: "GOLBAT",
@@ -5288,7 +5329,8 @@ export const fakemons: Fakemon[] =
     suffix: "normal",
     evolution: [
 
-    ]
+    ],
+    color: "Purple"
   },
   {
     id: "ODDISH",
@@ -5402,7 +5444,8 @@ export const fakemons: Fakemon[] =
         method: "Level",
         value: "21"
       }
-    ]
+    ],
+    color: "Blue"
   },
   {
     id: "GLOOM",
@@ -5508,7 +5551,8 @@ export const fakemons: Fakemon[] =
         method: "Item",
         value: "SUNSTONE"
       }
-    ]
+    ],
+    color: "Blue"
   },
   {
     id: "VILEPLUME",
@@ -5621,7 +5665,8 @@ export const fakemons: Fakemon[] =
     suffix: "normal",
     evolution: [
 
-    ]
+    ],
+    color: "Red"
   },
   {
     id: "PARAS",
@@ -5741,7 +5786,8 @@ export const fakemons: Fakemon[] =
         method: "Level",
         value: "24"
       }
-    ]
+    ],
+    color: "Red"
   },
   {
     id: "PARASECT",
@@ -5853,7 +5899,8 @@ export const fakemons: Fakemon[] =
     suffix: "normal",
     evolution: [
 
-    ]
+    ],
+    color: "Red"
   },
   {
     id: "VENONAT",
@@ -5970,7 +6017,8 @@ export const fakemons: Fakemon[] =
         method: "Level",
         value: "31"
       }
-    ]
+    ],
+    color: "Purple"
   },
   {
     id: "VENOMOTH",
@@ -6091,7 +6139,8 @@ export const fakemons: Fakemon[] =
     suffix: "normal",
     evolution: [
 
-    ]
+    ],
+    color: "Purple"
   },
   {
     id: "DIGLETT",
@@ -6219,7 +6268,8 @@ export const fakemons: Fakemon[] =
         method: "Level",
         value: "26"
       }
-    ]
+    ],
+    color: "Brown"
   },
   {
     id: "DUGTRIO",
@@ -6341,7 +6391,8 @@ export const fakemons: Fakemon[] =
     suffix: "normal",
     evolution: [
 
-    ]
+    ],
+    color: "Brown"
   },
   {
     id: "MEOWTH",
@@ -6486,7 +6537,8 @@ export const fakemons: Fakemon[] =
         method: "Level",
         value: "28"
       }
-    ]
+    ],
+    color: "Yellow"
   },
   {
     id: "PERSIAN",
@@ -6626,7 +6678,8 @@ export const fakemons: Fakemon[] =
     suffix: "normal",
     evolution: [
 
-    ]
+    ],
+    color: "Yellow"
   },
   {
     id: "PSYDUCK",
@@ -6781,7 +6834,8 @@ export const fakemons: Fakemon[] =
         method: "Level",
         value: "33"
       }
-    ]
+    ],
+    color: "Yellow"
   },
   {
     id: "GOLDUCK",
@@ -6935,7 +6989,8 @@ export const fakemons: Fakemon[] =
     suffix: "normal",
     evolution: [
 
-    ]
+    ],
+    color: "Blue"
   },
   {
     id: "MANKEY",
@@ -7088,7 +7143,8 @@ export const fakemons: Fakemon[] =
         method: "Level",
         value: "28"
       }
-    ]
+    ],
+    color: "Brown"
   },
   {
     id: "PRIMEAPE",
@@ -7240,7 +7296,8 @@ export const fakemons: Fakemon[] =
         method: "Counter",
         value: "20"
       }
-    ]
+    ],
+    color: "Brown"
   },
   {
     id: "GROWLITHE",
@@ -7372,7 +7429,8 @@ export const fakemons: Fakemon[] =
         method: "Item",
         value: "FIRESTONE"
       }
-    ]
+    ],
+    color: "Brown"
   },
   {
     id: "ARCANINE",
@@ -7500,7 +7558,8 @@ export const fakemons: Fakemon[] =
     suffix: "normal",
     evolution: [
 
-    ]
+    ],
+    color: "Brown"
   },
   {
     id: "POLIWAG",
@@ -7617,7 +7676,8 @@ export const fakemons: Fakemon[] =
         method: "Level",
         value: "25"
       }
-    ]
+    ],
+    color: "Blue"
   },
   {
     id: "POLIWHIRL",
@@ -7739,7 +7799,8 @@ export const fakemons: Fakemon[] =
         method: "TradeItem",
         value: "KINGSROCK"
       }
-    ]
+    ],
+    color: "Blue"
   },
   {
     id: "POLIWRATH",
@@ -7886,7 +7947,8 @@ export const fakemons: Fakemon[] =
     suffix: "normal",
     evolution: [
 
-    ]
+    ],
+    color: "Blue"
   },
   {
     id: "ABRA",
@@ -8021,7 +8083,8 @@ export const fakemons: Fakemon[] =
         method: "Level",
         value: "16"
       }
-    ]
+    ],
+    color: "Brown"
   },
   {
     id: "KADABRA",
@@ -8157,7 +8220,8 @@ export const fakemons: Fakemon[] =
     suffix: "normal",
     evolution: [
 
-    ]
+    ],
+    color: "Brown"
   },
   {
     id: "ALAKAZAM",
@@ -8300,7 +8364,8 @@ export const fakemons: Fakemon[] =
     suffix: "normal",
     evolution: [
 
-    ]
+    ],
+    color: "Brown"
   },
   {
     id: "MACHOP",
@@ -8444,7 +8509,8 @@ export const fakemons: Fakemon[] =
         method: "Level",
         value: "28"
       }
-    ]
+    ],
+    color: "Gray"
   },
   {
     id: "MACHOKE",
@@ -8573,7 +8639,8 @@ export const fakemons: Fakemon[] =
     suffix: "normal",
     evolution: [
 
-    ]
+    ],
+    color: "Gray"
   },
   {
     id: "MACHAMP",
@@ -8712,7 +8779,8 @@ export const fakemons: Fakemon[] =
     suffix: "normal",
     evolution: [
 
-    ]
+    ],
+    color: "Gray"
   },
   {
     id: "BELLSPROUT",
@@ -8838,7 +8906,8 @@ export const fakemons: Fakemon[] =
         method: "Level",
         value: "21"
       }
-    ]
+    ],
+    color: "Green"
   },
   {
     id: "WEEPINBELL",
@@ -8954,7 +9023,8 @@ export const fakemons: Fakemon[] =
         method: "Item",
         value: "LEAFSTONE"
       }
-    ]
+    ],
+    color: "Green"
   },
   {
     id: "VICTREEBEL",
@@ -9066,7 +9136,8 @@ export const fakemons: Fakemon[] =
     suffix: "normal",
     evolution: [
 
-    ]
+    ],
+    color: "Green"
   },
   {
     id: "TENTACOOL",
@@ -9196,7 +9267,8 @@ export const fakemons: Fakemon[] =
         method: "Level",
         value: "30"
       }
-    ]
+    ],
+    color: "Blue"
   },
   {
     id: "TENTACRUEL",
@@ -9321,7 +9393,8 @@ export const fakemons: Fakemon[] =
     suffix: "normal",
     evolution: [
 
-    ]
+    ],
+    color: "Blue"
   },
   {
     id: "GEODUDE",
@@ -9456,7 +9529,8 @@ export const fakemons: Fakemon[] =
         method: "Level",
         value: "25"
       }
-    ]
+    ],
+    color: "Brown"
   },
   {
     id: "GRAVELER",
@@ -9595,7 +9669,8 @@ export const fakemons: Fakemon[] =
     suffix: "normal",
     evolution: [
 
-    ]
+    ],
+    color: "Brown"
   },
   {
     id: "GOLEM",
@@ -9729,7 +9804,8 @@ export const fakemons: Fakemon[] =
     suffix: "normal",
     evolution: [
 
-    ]
+    ],
+    color: "Brown"
   },
   {
     id: "PONYTA",
@@ -9843,7 +9919,8 @@ export const fakemons: Fakemon[] =
         method: "Level",
         value: "40"
       }
-    ]
+    ],
+    color: "Yellow"
   },
   {
     id: "RAPIDASH",
@@ -9957,7 +10034,8 @@ export const fakemons: Fakemon[] =
     suffix: "normal",
     evolution: [
 
-    ]
+    ],
+    color: "Yellow"
   },
   {
     id: "SLOWPOKE",
@@ -10111,7 +10189,8 @@ export const fakemons: Fakemon[] =
         method: "TradeItem",
         value: "KINGSROCK"
       }
-    ]
+    ],
+    color: "Pink"
   },
   {
     id: "SLOWBRO",
@@ -10280,7 +10359,8 @@ export const fakemons: Fakemon[] =
     suffix: "normal",
     evolution: [
 
-    ]
+    ],
+    color: "Pink"
   },
   {
     id: "MAGNEMITE",
@@ -10396,7 +10476,8 @@ export const fakemons: Fakemon[] =
         method: "Level",
         value: "30"
       }
-    ]
+    ],
+    color: "Gray"
   },
   {
     id: "MAGNETON",
@@ -10515,7 +10596,8 @@ export const fakemons: Fakemon[] =
         method: "LocationFlag",
         value: "Magnetic"
       }
-    ]
+    ],
+    color: "Gray"
   },
   {
     id: "FARFETCHD",
@@ -10652,7 +10734,8 @@ export const fakemons: Fakemon[] =
     suffix: "normal",
     evolution: [
 
-    ]
+    ],
+    color: "Brown"
   },
   {
     id: "DODUO",
@@ -10765,7 +10848,8 @@ export const fakemons: Fakemon[] =
         method: "Level",
         value: "31"
       }
-    ]
+    ],
+    color: "Brown"
   },
   {
     id: "DODRIO",
@@ -10879,7 +10963,8 @@ export const fakemons: Fakemon[] =
     suffix: "normal",
     evolution: [
 
-    ]
+    ],
+    color: "Brown"
   },
   {
     id: "SEEL",
@@ -11011,7 +11096,8 @@ export const fakemons: Fakemon[] =
         method: "Level",
         value: "34"
       }
-    ]
+    ],
+    color: "White"
   },
   {
     id: "DEWGONG",
@@ -11136,7 +11222,8 @@ export const fakemons: Fakemon[] =
     suffix: "normal",
     evolution: [
 
-    ]
+    ],
+    color: "White"
   },
   {
     id: "GRIMER",
@@ -11276,7 +11363,8 @@ export const fakemons: Fakemon[] =
         method: "Level",
         value: "38"
       }
-    ]
+    ],
+    color: "Purple"
   },
   {
     id: "MUK",
@@ -11414,7 +11502,8 @@ export const fakemons: Fakemon[] =
     suffix: "normal",
     evolution: [
 
-    ]
+    ],
+    color: "Purple"
   },
   {
     id: "SHELLDER",
@@ -11532,7 +11621,8 @@ export const fakemons: Fakemon[] =
         method: "Item",
         value: "WATERSTONE"
       }
-    ]
+    ],
+    color: "Purple"
   },
   {
     id: "CLOYSTER",
@@ -11656,7 +11746,8 @@ export const fakemons: Fakemon[] =
     suffix: "normal",
     evolution: [
 
-    ]
+    ],
+    color: "Purple"
   },
   {
     id: "GASTLY",
@@ -11800,7 +11891,8 @@ export const fakemons: Fakemon[] =
         method: "Level",
         value: "25"
       }
-    ]
+    ],
+    color: "Purple"
   },
   {
     id: "HAUNTER",
@@ -11936,7 +12028,8 @@ export const fakemons: Fakemon[] =
     suffix: "normal",
     evolution: [
 
-    ]
+    ],
+    color: "Purple"
   },
   {
     id: "GENGAR",
@@ -12094,7 +12187,8 @@ export const fakemons: Fakemon[] =
     suffix: "normal",
     evolution: [
 
-    ]
+    ],
+    color: "Purple"
   },
   {
     id: "ONIX",
@@ -12235,7 +12329,8 @@ export const fakemons: Fakemon[] =
         method: "TradeItem",
         value: "METALCOAT"
       }
-    ]
+    ],
+    color: "Gray"
   },
   {
     id: "DROWZEE",
@@ -12390,7 +12485,8 @@ export const fakemons: Fakemon[] =
         method: "Level",
         value: "26"
       }
-    ]
+    ],
+    color: "Yellow"
   },
   {
     id: "HYPNO",
@@ -12542,7 +12638,8 @@ export const fakemons: Fakemon[] =
     suffix: "normal",
     evolution: [
 
-    ]
+    ],
+    color: "Yellow"
   },
   {
     id: "KRABBY",
@@ -12667,7 +12764,8 @@ export const fakemons: Fakemon[] =
         method: "Level",
         value: "28"
       }
-    ]
+    ],
+    color: "Red"
   },
   {
     id: "KINGLER",
@@ -12786,7 +12884,8 @@ export const fakemons: Fakemon[] =
     suffix: "normal",
     evolution: [
 
-    ]
+    ],
+    color: "Red"
   },
   {
     id: "VOLTORB",
@@ -12898,7 +12997,8 @@ export const fakemons: Fakemon[] =
         method: "Level",
         value: "30"
       }
-    ]
+    ],
+    color: "Red"
   },
   {
     id: "ELECTRODE",
@@ -13012,7 +13112,8 @@ export const fakemons: Fakemon[] =
     suffix: "normal",
     evolution: [
 
-    ]
+    ],
+    color: "Red"
   },
   {
     id: "EXEGGCUTE",
@@ -13142,7 +13243,8 @@ export const fakemons: Fakemon[] =
         method: "Item",
         value: "LEAFSTONE"
       }
-    ]
+    ],
+    color: "Pink"
   },
   {
     id: "EXEGGUTOR",
@@ -13281,7 +13383,8 @@ export const fakemons: Fakemon[] =
     suffix: "normal",
     evolution: [
 
-    ]
+    ],
+    color: "Yellow"
   },
   {
     id: "CUBONE",
@@ -13420,7 +13523,8 @@ export const fakemons: Fakemon[] =
         method: "Level",
         value: "28"
       }
-    ]
+    ],
+    color: "Brown"
   },
   {
     id: "MAROWAK",
@@ -13553,7 +13657,8 @@ export const fakemons: Fakemon[] =
     suffix: "normal",
     evolution: [
 
-    ]
+    ],
+    color: "Brown"
   },
   {
     id: "HITMONLEE",
@@ -13690,7 +13795,8 @@ export const fakemons: Fakemon[] =
     suffix: "normal",
     evolution: [
 
-    ]
+    ],
+    color: "Brown"
   },
   {
     id: "HITMONCHAN",
@@ -13830,7 +13936,8 @@ export const fakemons: Fakemon[] =
     suffix: "normal",
     evolution: [
 
-    ]
+    ],
+    color: "Brown"
   },
   {
     id: "LICKITUNG",
@@ -13982,7 +14089,8 @@ export const fakemons: Fakemon[] =
         method: "HasMove",
         value: "ROLLOUT"
       }
-    ]
+    ],
+    color: "Pink"
   },
   {
     id: "KOFFING",
@@ -14111,7 +14219,8 @@ export const fakemons: Fakemon[] =
         method: "Level",
         value: "35"
       }
-    ]
+    ],
+    color: "Purple"
   },
   {
     id: "WEEZING",
@@ -14230,7 +14339,8 @@ export const fakemons: Fakemon[] =
     suffix: "normal",
     evolution: [
 
-    ]
+    ],
+    color: "Purple"
   },
   {
     id: "RHYHORN",
@@ -14382,7 +14492,8 @@ export const fakemons: Fakemon[] =
         method: "Level",
         value: "42"
       }
-    ]
+    ],
+    color: "Gray"
   },
   {
     id: "RHYDON",
@@ -14552,7 +14663,8 @@ export const fakemons: Fakemon[] =
         method: "TradeItem",
         value: "PROTECTOR"
       }
-    ]
+    ],
+    color: "Gray"
   },
   {
     id: "CHANSEY",
@@ -14724,7 +14836,8 @@ export const fakemons: Fakemon[] =
     suffix: "normal",
     evolution: [
 
-    ]
+    ],
+    color: "Pink"
   },
   {
     id: "TANGELA",
@@ -14847,7 +14960,8 @@ export const fakemons: Fakemon[] =
         method: "HasMove",
         value: "ANCIENTPOWER"
       }
-    ]
+    ],
+    color: "Blue"
   },
   {
     id: "KANGASKHAN",
@@ -15002,7 +15116,8 @@ export const fakemons: Fakemon[] =
     suffix: "normal",
     evolution: [
 
-    ]
+    ],
+    color: "Brown"
   },
   {
     id: "HORSEA",
@@ -15115,7 +15230,8 @@ export const fakemons: Fakemon[] =
         method: "Level",
         value: "32"
       }
-    ]
+    ],
+    color: "Blue"
   },
   {
     id: "SEADRA",
@@ -15225,7 +15341,8 @@ export const fakemons: Fakemon[] =
         method: "TradeItem",
         value: "DRAGONSCALE"
       }
-    ]
+    ],
+    color: "Blue"
   },
   {
     id: "GOLDEEN",
@@ -15339,7 +15456,8 @@ export const fakemons: Fakemon[] =
         method: "Level",
         value: "33"
       }
-    ]
+    ],
+    color: "Red"
   },
   {
     id: "SEAKING",
@@ -15443,7 +15561,8 @@ export const fakemons: Fakemon[] =
     suffix: "normal",
     evolution: [
 
-    ]
+    ],
+    color: "Red"
   },
   {
     id: "STARYU",
@@ -15556,7 +15675,8 @@ export const fakemons: Fakemon[] =
         method: "Item",
         value: "WATERSTONE"
       }
-    ]
+    ],
+    color: "Brown"
   },
   {
     id: "STARMIE",
@@ -15682,7 +15802,8 @@ export const fakemons: Fakemon[] =
     suffix: "normal",
     evolution: [
 
-    ]
+    ],
+    color: "Purple"
   },
   {
     id: "MRMIME",
@@ -15853,7 +15974,8 @@ export const fakemons: Fakemon[] =
     suffix: "normal",
     evolution: [
 
-    ]
+    ],
+    color: "Pink"
   },
   {
     id: "SCYTHER",
@@ -15986,7 +16108,8 @@ export const fakemons: Fakemon[] =
         method: "Item",
         value: "BLACKAUGURITE"
       }
-    ]
+    ],
+    color: "Green"
   },
   {
     id: "JYNX",
@@ -16133,7 +16256,8 @@ export const fakemons: Fakemon[] =
     suffix: "normal",
     evolution: [
 
-    ]
+    ],
+    color: "Red"
   },
   {
     id: "ELECTABUZZ",
@@ -16268,7 +16392,8 @@ export const fakemons: Fakemon[] =
         method: "TradeItem",
         value: "ELECTIRIZER"
       }
-    ]
+    ],
+    color: "Yellow"
   },
   {
     id: "MAGMAR",
@@ -16401,7 +16526,8 @@ export const fakemons: Fakemon[] =
         method: "TradeItem",
         value: "MAGMARIZER"
       }
-    ]
+    ],
+    color: "Red"
   },
   {
     id: "PINSIR",
@@ -16526,7 +16652,8 @@ export const fakemons: Fakemon[] =
     suffix: "normal",
     evolution: [
 
-    ]
+    ],
+    color: "Brown"
   },
   {
     id: "TAUROS",
@@ -16655,7 +16782,8 @@ export const fakemons: Fakemon[] =
     suffix: "normal",
     evolution: [
 
-    ]
+    ],
+    color: "Brown"
   },
   {
     id: "MAGIKARP",
@@ -16701,7 +16829,8 @@ export const fakemons: Fakemon[] =
         method: "Level",
         value: "20"
       }
-    ]
+    ],
+    color: "Red"
   },
   {
     id: "GYARADOS",
@@ -16840,7 +16969,8 @@ export const fakemons: Fakemon[] =
     suffix: "normal",
     evolution: [
 
-    ]
+    ],
+    color: "Blue"
   },
   {
     id: "LAPRAS",
@@ -16987,7 +17117,8 @@ export const fakemons: Fakemon[] =
     suffix: "normal",
     evolution: [
 
-    ]
+    ],
+    color: "Blue"
   },
   {
     id: "DITTO",
@@ -17027,7 +17158,8 @@ export const fakemons: Fakemon[] =
     suffix: "normal",
     evolution: [
 
-    ]
+    ],
+    color: "Purple"
   },
   {
     id: "EEVEE",
@@ -17149,7 +17281,8 @@ export const fakemons: Fakemon[] =
         method: "HappinessMoveType",
         value: "FAIRY"
       }
-    ]
+    ],
+    color: "Brown"
   },
   {
     id: "VAPOREON",
@@ -17285,7 +17418,8 @@ export const fakemons: Fakemon[] =
     suffix: "normal",
     evolution: [
 
-    ]
+    ],
+    color: "Blue"
   },
   {
     id: "JOLTEON",
@@ -17424,7 +17558,8 @@ export const fakemons: Fakemon[] =
     suffix: "normal",
     evolution: [
 
-    ]
+    ],
+    color: "Yellow"
   },
   {
     id: "FLAREON",
@@ -17558,7 +17693,8 @@ export const fakemons: Fakemon[] =
     suffix: "normal",
     evolution: [
 
-    ]
+    ],
+    color: "Red"
   },
   {
     id: "PORYGON",
@@ -17678,7 +17814,8 @@ export const fakemons: Fakemon[] =
         method: "TradeItem",
         value: "UPGRADE"
       }
-    ]
+    ],
+    color: "Pink"
   },
   {
     id: "OMANYTE",
@@ -17805,7 +17942,8 @@ export const fakemons: Fakemon[] =
         method: "Level",
         value: "40"
       }
-    ]
+    ],
+    color: "Blue"
   },
   {
     id: "OMASTAR",
@@ -17924,7 +18062,8 @@ export const fakemons: Fakemon[] =
     suffix: "normal",
     evolution: [
 
-    ]
+    ],
+    color: "Blue"
   },
   {
     id: "KABUTO",
@@ -18050,7 +18189,8 @@ export const fakemons: Fakemon[] =
         method: "Level",
         value: "40"
       }
-    ]
+    ],
+    color: "Brown"
   },
   {
     id: "KABUTOPS",
@@ -18185,7 +18325,8 @@ export const fakemons: Fakemon[] =
     suffix: "normal",
     evolution: [
 
-    ]
+    ],
+    color: "Brown"
   },
   {
     id: "AERODACTYL",
@@ -18325,7 +18466,8 @@ export const fakemons: Fakemon[] =
     suffix: "normal",
     evolution: [
 
-    ]
+    ],
+    color: "Purple"
   },
   {
     id: "SNORLAX",
@@ -18508,7 +18650,8 @@ export const fakemons: Fakemon[] =
     suffix: "normal",
     evolution: [
 
-    ]
+    ],
+    color: "Black"
   },
   {
     id: "ARTICUNO",
@@ -18630,7 +18773,8 @@ export const fakemons: Fakemon[] =
     suffix: "normal",
     evolution: [
 
-    ]
+    ],
+    color: "Blue"
   },
   {
     id: "ZAPDOS",
@@ -18751,7 +18895,8 @@ export const fakemons: Fakemon[] =
     suffix: "normal",
     evolution: [
 
-    ]
+    ],
+    color: "Yellow"
   },
   {
     id: "MOLTRES",
@@ -18872,7 +19017,8 @@ export const fakemons: Fakemon[] =
     suffix: "normal",
     evolution: [
 
-    ]
+    ],
+    color: "Yellow"
   },
   {
     id: "DRATINI",
@@ -18999,7 +19145,8 @@ export const fakemons: Fakemon[] =
         method: "Level",
         value: "30"
       }
-    ]
+    ],
+    color: "Blue"
   },
   {
     id: "DRAGONAIR",
@@ -19119,7 +19266,8 @@ export const fakemons: Fakemon[] =
         method: "Level",
         value: "55"
       }
-    ]
+    ],
+    color: "Blue"
   },
   {
     id: "DRAGONITE",
@@ -19289,7 +19437,8 @@ export const fakemons: Fakemon[] =
     suffix: "normal",
     evolution: [
 
-    ]
+    ],
+    color: "Brown"
   },
   {
     id: "MEWTWO",
@@ -19483,7 +19632,8 @@ export const fakemons: Fakemon[] =
     suffix: "normal",
     evolution: [
 
-    ]
+    ],
+    color: "Purple"
   },
   {
     id: "MEW",
@@ -19878,7 +20028,8 @@ export const fakemons: Fakemon[] =
     suffix: "normal",
     evolution: [
 
-    ]
+    ],
+    color: "Pink"
   },
   {
     id: "CHIKORITA",
@@ -20005,7 +20156,8 @@ export const fakemons: Fakemon[] =
         method: "Level",
         value: "16"
       }
-    ]
+    ],
+    color: "Green"
   },
   {
     id: "BAYLEEF",
@@ -20126,7 +20278,8 @@ export const fakemons: Fakemon[] =
         method: "Level",
         value: "32"
       }
-    ]
+    ],
+    color: "Green"
   },
   {
     id: "MEGANIUM",
@@ -20258,7 +20411,8 @@ export const fakemons: Fakemon[] =
     suffix: "normal",
     evolution: [
 
-    ]
+    ],
+    color: "Green"
   },
   {
     id: "CYNDAQUIL",
@@ -20382,7 +20536,8 @@ export const fakemons: Fakemon[] =
         method: "Level",
         value: "14"
       }
-    ]
+    ],
+    color: "Yellow"
   },
   {
     id: "QUILAVA",
@@ -20499,7 +20654,8 @@ export const fakemons: Fakemon[] =
         method: "Level",
         value: "36"
       }
-    ]
+    ],
+    color: "Yellow"
   },
   {
     id: "TYPHLOSION",
@@ -20642,7 +20798,8 @@ export const fakemons: Fakemon[] =
     suffix: "normal",
     evolution: [
 
-    ]
+    ],
+    color: "Yellow"
   },
   {
     id: "TOTODILE",
@@ -20787,7 +20944,8 @@ export const fakemons: Fakemon[] =
         method: "Level",
         value: "18"
       }
-    ]
+    ],
+    color: "Blue"
   },
   {
     id: "CROCONAW",
@@ -20926,7 +21084,8 @@ export const fakemons: Fakemon[] =
         method: "Level",
         value: "30"
       }
-    ]
+    ],
+    color: "Blue"
   },
   {
     id: "FERALIGATR",
@@ -21079,7 +21238,8 @@ export const fakemons: Fakemon[] =
     suffix: "normal",
     evolution: [
 
-    ]
+    ],
+    color: "Blue"
   },
   {
     id: "SENTRET",
@@ -21224,7 +21384,8 @@ export const fakemons: Fakemon[] =
         method: "Level",
         value: "15"
       }
-    ]
+    ],
+    color: "Brown"
   },
   {
     id: "FURRET",
@@ -21365,7 +21526,8 @@ export const fakemons: Fakemon[] =
     suffix: "normal",
     evolution: [
 
-    ]
+    ],
+    color: "Brown"
   },
   {
     id: "HOOTHOOT",
@@ -21502,7 +21664,8 @@ export const fakemons: Fakemon[] =
         method: "Level",
         value: "20"
       }
-    ]
+    ],
+    color: "Brown"
   },
   {
     id: "NOCTOWL",
@@ -21636,7 +21799,8 @@ export const fakemons: Fakemon[] =
     suffix: "normal",
     evolution: [
 
-    ]
+    ],
+    color: "Brown"
   },
   {
     id: "LEDYBA",
@@ -21757,7 +21921,8 @@ export const fakemons: Fakemon[] =
         method: "Level",
         value: "18"
       }
-    ]
+    ],
+    color: "Red"
   },
   {
     id: "LEDIAN",
@@ -21875,7 +22040,8 @@ export const fakemons: Fakemon[] =
     suffix: "normal",
     evolution: [
 
-    ]
+    ],
+    color: "Red"
   },
   {
     id: "SPINARAK",
@@ -22000,7 +22166,8 @@ export const fakemons: Fakemon[] =
         method: "Level",
         value: "22"
       }
-    ]
+    ],
+    color: "Green"
   },
   {
     id: "ARIADOS",
@@ -22123,7 +22290,8 @@ export const fakemons: Fakemon[] =
     suffix: "normal",
     evolution: [
 
-    ]
+    ],
+    color: "Red"
   },
   {
     id: "CROBAT",
@@ -22246,7 +22414,8 @@ export const fakemons: Fakemon[] =
     suffix: "normal",
     evolution: [
 
-    ]
+    ],
+    color: "Purple"
   },
   {
     id: "CHINCHOU",
@@ -22375,7 +22544,8 @@ export const fakemons: Fakemon[] =
         method: "Level",
         value: "27"
       }
-    ]
+    ],
+    color: "Blue"
   },
   {
     id: "LANTURN",
@@ -22498,7 +22668,8 @@ export const fakemons: Fakemon[] =
     suffix: "normal",
     evolution: [
 
-    ]
+    ],
+    color: "Blue"
   },
   {
     id: "PICHU",
@@ -22614,7 +22785,8 @@ export const fakemons: Fakemon[] =
     suffix: "normal",
     evolution: [
 
-    ]
+    ],
+    color: "Yellow"
   },
   {
     id: "CLEFFA",
@@ -22760,7 +22932,8 @@ export const fakemons: Fakemon[] =
     suffix: "normal",
     evolution: [
 
-    ]
+    ],
+    color: "Pink"
   },
   {
     id: "IGGLYBUFF",
@@ -22894,7 +23067,8 @@ export const fakemons: Fakemon[] =
     suffix: "normal",
     evolution: [
 
-    ]
+    ],
+    color: "Pink"
   },
   {
     id: "TOGEPI",
@@ -23035,7 +23209,8 @@ export const fakemons: Fakemon[] =
     suffix: "normal",
     evolution: [
 
-    ]
+    ],
+    color: "White"
   },
   {
     id: "TOGETIC",
@@ -23196,7 +23371,8 @@ export const fakemons: Fakemon[] =
         method: "Item",
         value: "SHINYSTONE"
       }
-    ]
+    ],
+    color: "White"
   },
   {
     id: "NATU",
@@ -23331,7 +23507,8 @@ export const fakemons: Fakemon[] =
         method: "Level",
         value: "25"
       }
-    ]
+    ],
+    color: "Green"
   },
   {
     id: "XATU",
@@ -23462,7 +23639,8 @@ export const fakemons: Fakemon[] =
     suffix: "normal",
     evolution: [
 
-    ]
+    ],
+    color: "Green"
   },
   {
     id: "MAREEP",
@@ -23586,7 +23764,8 @@ export const fakemons: Fakemon[] =
         method: "Level",
         value: "15"
       }
-    ]
+    ],
+    color: "White"
   },
   {
     id: "FLAAFFY",
@@ -23717,7 +23896,8 @@ export const fakemons: Fakemon[] =
         method: "Level",
         value: "30"
       }
-    ]
+    ],
+    color: "Pink"
   },
   {
     id: "AMPHAROS",
@@ -23864,7 +24044,8 @@ export const fakemons: Fakemon[] =
     suffix: "normal",
     evolution: [
 
-    ]
+    ],
+    color: "Yellow"
   },
   {
     id: "BELLOSSOM",
@@ -23983,7 +24164,8 @@ export const fakemons: Fakemon[] =
     suffix: "normal",
     evolution: [
 
-    ]
+    ],
+    color: "Green"
   },
   {
     id: "MARILL",
@@ -24127,7 +24309,8 @@ export const fakemons: Fakemon[] =
         method: "Level",
         value: "18"
       }
-    ]
+    ],
+    color: "Blue"
   },
   {
     id: "AZUMARILL",
@@ -24270,7 +24453,8 @@ export const fakemons: Fakemon[] =
     suffix: "normal",
     evolution: [
 
-    ]
+    ],
+    color: "Blue"
   },
   {
     id: "SUDOWOODO",
@@ -24415,7 +24599,8 @@ export const fakemons: Fakemon[] =
     suffix: "normal",
     evolution: [
 
-    ]
+    ],
+    color: "Brown"
   },
   {
     id: "POLITOED",
@@ -24546,7 +24731,8 @@ export const fakemons: Fakemon[] =
     suffix: "normal",
     evolution: [
 
-    ]
+    ],
+    color: "Green"
   },
   {
     id: "HOPPIP",
@@ -24678,7 +24864,8 @@ export const fakemons: Fakemon[] =
         method: "Level",
         value: "18"
       }
-    ]
+    ],
+    color: "Pink"
   },
   {
     id: "SKIPLOOM",
@@ -24799,7 +24986,8 @@ export const fakemons: Fakemon[] =
         method: "Level",
         value: "27"
       }
-    ]
+    ],
+    color: "Green"
   },
   {
     id: "JUMPLUFF",
@@ -24918,7 +25106,8 @@ export const fakemons: Fakemon[] =
     suffix: "normal",
     evolution: [
 
-    ]
+    ],
+    color: "Blue"
   },
   {
     id: "AIPOM",
@@ -25076,7 +25265,8 @@ export const fakemons: Fakemon[] =
         method: "HasMove",
         value: "DOUBLEHIT"
       }
-    ]
+    ],
+    color: "Purple"
   },
   {
     id: "SUNKERN",
@@ -25188,7 +25378,8 @@ export const fakemons: Fakemon[] =
         method: "Item",
         value: "SUNSTONE"
       }
-    ]
+    ],
+    color: "Yellow"
   },
   {
     id: "SUNFLORA",
@@ -25299,7 +25490,8 @@ export const fakemons: Fakemon[] =
     suffix: "normal",
     evolution: [
 
-    ]
+    ],
+    color: "Yellow"
   },
   {
     id: "YANMA",
@@ -25419,7 +25611,8 @@ export const fakemons: Fakemon[] =
         method: "HasMove",
         value: "ANCIENTPOWER"
       }
-    ]
+    ],
+    color: "Red"
   },
   {
     id: "WOOPER",
@@ -25565,7 +25758,8 @@ export const fakemons: Fakemon[] =
         method: "Level",
         value: "20"
       }
-    ]
+    ],
+    color: "Blue"
   },
   {
     id: "QUAGSIRE",
@@ -25712,7 +25906,8 @@ export const fakemons: Fakemon[] =
     suffix: "normal",
     evolution: [
 
-    ]
+    ],
+    color: "Blue"
   },
   {
     id: "ESPEON",
@@ -25860,7 +26055,8 @@ export const fakemons: Fakemon[] =
     suffix: "normal",
     evolution: [
 
-    ]
+    ],
+    color: "Purple"
   },
   {
     id: "UMBREON",
@@ -26005,7 +26201,8 @@ export const fakemons: Fakemon[] =
     suffix: "normal",
     evolution: [
 
-    ]
+    ],
+    color: "Black"
   },
   {
     id: "MURKROW",
@@ -26147,7 +26344,8 @@ export const fakemons: Fakemon[] =
         method: "Item",
         value: "DUSKSTONE"
       }
-    ]
+    ],
+    color: "Black"
   },
   {
     id: "SLOWKING",
@@ -26326,7 +26524,8 @@ export const fakemons: Fakemon[] =
     suffix: "normal",
     evolution: [
 
-    ]
+    ],
+    color: "Pink"
   },
   {
     id: "MISDREAVUS",
@@ -26477,7 +26676,8 @@ export const fakemons: Fakemon[] =
         method: "Item",
         value: "DUSKSTONE"
       }
-    ]
+    ],
+    color: "Gray"
   },
   {
     id: "UNOWN",
@@ -26517,7 +26717,8 @@ export const fakemons: Fakemon[] =
     suffix: "normal",
     evolution: [
 
-    ]
+    ],
+    color: "Black"
   },
   {
     id: "WOBBUFFET",
@@ -26571,7 +26772,8 @@ export const fakemons: Fakemon[] =
     suffix: "normal",
     evolution: [
 
-    ]
+    ],
+    color: "Blue"
   },
   {
     id: "GIRAFARIG",
@@ -26730,7 +26932,8 @@ export const fakemons: Fakemon[] =
         method: "HasMove",
         value: "TWINBEAM"
       }
-    ]
+    ],
+    color: "Yellow"
   },
   {
     id: "PINECO",
@@ -26860,7 +27063,8 @@ export const fakemons: Fakemon[] =
         method: "Level",
         value: "31"
       }
-    ]
+    ],
+    color: "Gray"
   },
   {
     id: "FORRETRESS",
@@ -27005,7 +27209,8 @@ export const fakemons: Fakemon[] =
     suffix: "normal",
     evolution: [
 
-    ]
+    ],
+    color: "Purple"
   },
   {
     id: "DUNSPARCE",
@@ -27171,7 +27376,8 @@ export const fakemons: Fakemon[] =
         method: "HasMove",
         value: "HYPERDRILL"
       }
-    ]
+    ],
+    color: "Yellow"
   },
   {
     id: "GLIGAR",
@@ -27329,7 +27535,8 @@ export const fakemons: Fakemon[] =
         method: "NightHoldItem",
         value: "RAZORFANG"
       }
-    ]
+    ],
+    color: "Purple"
   },
   {
     id: "STEELIX",
@@ -27479,7 +27686,8 @@ export const fakemons: Fakemon[] =
     suffix: "normal",
     evolution: [
 
-    ]
+    ],
+    color: "Gray"
   },
   {
     id: "SNUBBULL",
@@ -27648,7 +27856,8 @@ export const fakemons: Fakemon[] =
         method: "Level",
         value: "23"
       }
-    ]
+    ],
+    color: "Pink"
   },
   {
     id: "GRANBULL",
@@ -27811,7 +28020,8 @@ export const fakemons: Fakemon[] =
     suffix: "normal",
     evolution: [
 
-    ]
+    ],
+    color: "Purple"
   },
   {
     id: "QWILFISH",
@@ -27957,7 +28167,8 @@ export const fakemons: Fakemon[] =
     suffix: "normal",
     evolution: [
 
-    ]
+    ],
+    color: "Gray"
   },
   {
     id: "SCIZOR",
@@ -28097,7 +28308,8 @@ export const fakemons: Fakemon[] =
     suffix: "normal",
     evolution: [
 
-    ]
+    ],
+    color: "Red"
   },
   {
     id: "SHUCKLE",
@@ -28230,7 +28442,8 @@ export const fakemons: Fakemon[] =
     suffix: "normal",
     evolution: [
 
-    ]
+    ],
+    color: "Yellow"
   },
   {
     id: "HERACROSS",
@@ -28376,7 +28589,8 @@ export const fakemons: Fakemon[] =
     suffix: "normal",
     evolution: [
 
-    ]
+    ],
+    color: "Blue"
   },
   {
     id: "SNEASEL",
@@ -28533,7 +28747,8 @@ export const fakemons: Fakemon[] =
         method: "NightHoldItem",
         value: "RAZORCLAW"
       }
-    ]
+    ],
+    color: "Black"
   },
   {
     id: "TEDDIURSA",
@@ -28684,7 +28899,8 @@ export const fakemons: Fakemon[] =
         method: "Level",
         value: "30"
       }
-    ]
+    ],
+    color: "Brown"
   },
   {
     id: "URSARING",
@@ -28833,7 +29049,8 @@ export const fakemons: Fakemon[] =
         method: "ItemNight",
         value: "PEATBLOCK"
       }
-    ]
+    ],
+    color: "Brown"
   },
   {
     id: "SLUGMA",
@@ -28962,7 +29179,8 @@ export const fakemons: Fakemon[] =
         method: "Level",
         value: "38"
       }
-    ]
+    ],
+    color: "Red"
   },
   {
     id: "MAGCARGO",
@@ -29089,7 +29307,8 @@ export const fakemons: Fakemon[] =
     suffix: "normal",
     evolution: [
 
-    ]
+    ],
+    color: "Red"
   },
   {
     id: "SWINUB",
@@ -29217,7 +29436,8 @@ export const fakemons: Fakemon[] =
         method: "Level",
         value: "33"
       }
-    ]
+    ],
+    color: "Brown"
   },
   {
     id: "PILOSWINE",
@@ -29341,7 +29561,8 @@ export const fakemons: Fakemon[] =
         method: "HasMove",
         value: "ANCIENTPOWER"
       }
-    ]
+    ],
+    color: "Brown"
   },
   {
     id: "CORSOLA",
@@ -29477,7 +29698,8 @@ export const fakemons: Fakemon[] =
     suffix: "normal",
     evolution: [
 
-    ]
+    ],
+    color: "Pink"
   },
   {
     id: "REMORAID",
@@ -29602,7 +29824,8 @@ export const fakemons: Fakemon[] =
         method: "Level",
         value: "25"
       }
-    ]
+    ],
+    color: "Gray"
   },
   {
     id: "OCTILLERY",
@@ -29725,7 +29948,8 @@ export const fakemons: Fakemon[] =
     suffix: "normal",
     evolution: [
 
-    ]
+    ],
+    color: "Red"
   },
   {
     id: "DELIBIRD",
@@ -29863,7 +30087,8 @@ export const fakemons: Fakemon[] =
     suffix: "normal",
     evolution: [
 
-    ]
+    ],
+    color: "Red"
   },
   {
     id: "MANTINE",
@@ -29996,7 +30221,8 @@ export const fakemons: Fakemon[] =
     suffix: "normal",
     evolution: [
 
-    ]
+    ],
+    color: "Purple"
   },
   {
     id: "SKARMORY",
@@ -30135,7 +30361,8 @@ export const fakemons: Fakemon[] =
     suffix: "normal",
     evolution: [
 
-    ]
+    ],
+    color: "Gray"
   },
   {
     id: "HOUNDOUR",
@@ -30278,7 +30505,8 @@ export const fakemons: Fakemon[] =
         method: "Level",
         value: "24"
       }
-    ]
+    ],
+    color: "Black"
   },
   {
     id: "HOUNDOOM",
@@ -30415,7 +30643,8 @@ export const fakemons: Fakemon[] =
     suffix: "normal",
     evolution: [
 
-    ]
+    ],
+    color: "Black"
   },
   {
     id: "KINGDRA",
@@ -30534,7 +30763,8 @@ export const fakemons: Fakemon[] =
     suffix: "normal",
     evolution: [
 
-    ]
+    ],
+    color: "Blue"
   },
   {
     id: "PHANPY",
@@ -30666,7 +30896,8 @@ export const fakemons: Fakemon[] =
         method: "Level",
         value: "25"
       }
-    ]
+    ],
+    color: "Blue"
   },
   {
     id: "DONPHAN",
@@ -30803,7 +31034,8 @@ export const fakemons: Fakemon[] =
     suffix: "normal",
     evolution: [
 
-    ]
+    ],
+    color: "Gray"
   },
   {
     id: "PORYGON2",
@@ -30925,7 +31157,8 @@ export const fakemons: Fakemon[] =
         method: "TradeItem",
         value: "DUBIOUSDISC"
       }
-    ]
+    ],
+    color: "Red"
   },
   {
     id: "STANTLER",
@@ -31069,7 +31302,8 @@ export const fakemons: Fakemon[] =
         method: "HasMove",
         value: "PSYSHIELDBASH"
       }
-    ]
+    ],
+    color: "Brown"
   },
   {
     id: "SMEARGLE",
@@ -31110,7 +31344,8 @@ export const fakemons: Fakemon[] =
     suffix: "normal",
     evolution: [
 
-    ]
+    ],
+    color: "White"
   },
   {
     id: "TYROGUE",
@@ -31214,7 +31449,8 @@ export const fakemons: Fakemon[] =
         method: "AtkDefEqual",
         value: "20"
       }
-    ]
+    ],
+    color: "Purple"
   },
   {
     id: "HITMONTOP",
@@ -31343,7 +31579,8 @@ export const fakemons: Fakemon[] =
     suffix: "normal",
     evolution: [
 
-    ]
+    ],
+    color: "Brown"
   },
   {
     id: "SMOOCHUM",
@@ -31476,7 +31713,8 @@ export const fakemons: Fakemon[] =
         method: "Level",
         value: "30"
       }
-    ]
+    ],
+    color: "Pink"
   },
   {
     id: "ELEKID",
@@ -31608,7 +31846,8 @@ export const fakemons: Fakemon[] =
         method: "Level",
         value: "30"
       }
-    ]
+    ],
+    color: "Yellow"
   },
   {
     id: "MAGBY",
@@ -31739,7 +31978,8 @@ export const fakemons: Fakemon[] =
         method: "Level",
         value: "30"
       }
-    ]
+    ],
+    color: "Red"
   },
   {
     id: "MILTANK",
@@ -31882,7 +32122,8 @@ export const fakemons: Fakemon[] =
     suffix: "normal",
     evolution: [
 
-    ]
+    ],
+    color: "Pink"
   },
   {
     id: "BLISSEY",
@@ -32053,7 +32294,8 @@ export const fakemons: Fakemon[] =
     suffix: "normal",
     evolution: [
 
-    ]
+    ],
+    color: "Pink"
   },
   {
     id: "RAIKOU",
@@ -32179,7 +32421,8 @@ export const fakemons: Fakemon[] =
     suffix: "normal",
     evolution: [
 
-    ]
+    ],
+    color: "Yellow"
   },
   {
     id: "ENTEI",
@@ -32300,7 +32543,8 @@ export const fakemons: Fakemon[] =
     suffix: "normal",
     evolution: [
 
-    ]
+    ],
+    color: "Brown"
   },
   {
     id: "SUICUNE",
@@ -32421,7 +32665,8 @@ export const fakemons: Fakemon[] =
     suffix: "normal",
     evolution: [
 
-    ]
+    ],
+    color: "Blue"
   },
   {
     id: "LARVITAR",
@@ -32556,7 +32801,8 @@ export const fakemons: Fakemon[] =
         method: "Level",
         value: "30"
       }
-    ]
+    ],
+    color: "Green"
   },
   {
     id: "PUPITAR",
@@ -32687,7 +32933,8 @@ export const fakemons: Fakemon[] =
         method: "Level",
         value: "55"
       }
-    ]
+    ],
+    color: "Gray"
   },
   {
     id: "TYRANITAR",
@@ -32869,7 +33116,8 @@ export const fakemons: Fakemon[] =
     suffix: "normal",
     evolution: [
 
-    ]
+    ],
+    color: "Green"
   },
   {
     id: "LUGIA",
@@ -33022,7 +33270,8 @@ export const fakemons: Fakemon[] =
     suffix: "normal",
     evolution: [
 
-    ]
+    ],
+    color: "White"
   },
   {
     id: "HOOH",
@@ -33160,7 +33409,8 @@ export const fakemons: Fakemon[] =
     suffix: "normal",
     evolution: [
 
-    ]
+    ],
+    color: "Red"
   },
   {
     id: "CELEBI",
@@ -33303,7 +33553,8 @@ export const fakemons: Fakemon[] =
     suffix: "normal",
     evolution: [
 
-    ]
+    ],
+    color: "Green"
   },
   {
     id: "TREECKO",
@@ -33447,7 +33698,8 @@ export const fakemons: Fakemon[] =
         method: "Level",
         value: "16"
       }
-    ]
+    ],
+    color: "Green"
   },
   {
     id: "GROVYLE",
@@ -33588,7 +33840,8 @@ export const fakemons: Fakemon[] =
         method: "Level",
         value: "36"
       }
-    ]
+    ],
+    color: "Green"
   },
   {
     id: "SCEPTILE",
@@ -33749,7 +34002,8 @@ export const fakemons: Fakemon[] =
     suffix: "normal",
     evolution: [
 
-    ]
+    ],
+    color: "Green"
   },
   {
     id: "TORCHIC",
@@ -33882,7 +34136,8 @@ export const fakemons: Fakemon[] =
         method: "Level",
         value: "16"
       }
-    ]
+    ],
+    color: "Red"
   },
   {
     id: "COMBUSKEN",
@@ -34027,7 +34282,8 @@ export const fakemons: Fakemon[] =
         method: "Level",
         value: "36"
       }
-    ]
+    ],
+    color: "Red"
   },
   {
     id: "BLAZIKEN",
@@ -34191,7 +34447,8 @@ export const fakemons: Fakemon[] =
     suffix: "normal",
     evolution: [
 
-    ]
+    ],
+    color: "Red"
   },
   {
     id: "MUDKIP",
@@ -34323,7 +34580,8 @@ export const fakemons: Fakemon[] =
         method: "Level",
         value: "16"
       }
-    ]
+    ],
+    color: "Blue"
   },
   {
     id: "MARSHTOMP",
@@ -34460,7 +34718,8 @@ export const fakemons: Fakemon[] =
         method: "Level",
         value: "36"
       }
-    ]
+    ],
+    color: "Blue"
   },
   {
     id: "SWAMPERT",
@@ -34615,7 +34874,8 @@ export const fakemons: Fakemon[] =
     suffix: "normal",
     evolution: [
 
-    ]
+    ],
+    color: "Blue"
   },
   {
     id: "POOCHYENA",
@@ -34744,7 +35004,8 @@ export const fakemons: Fakemon[] =
         method: "Level",
         value: "18"
       }
-    ]
+    ],
+    color: "Gray"
   },
   {
     id: "MIGHTYENA",
@@ -34871,7 +35132,8 @@ export const fakemons: Fakemon[] =
     suffix: "normal",
     evolution: [
 
-    ]
+    ],
+    color: "Gray"
   },
   {
     id: "ZIGZAGOON",
@@ -34999,7 +35261,8 @@ export const fakemons: Fakemon[] =
         method: "Level",
         value: "20"
       }
-    ]
+    ],
+    color: "Brown"
   },
   {
     id: "LINOONE",
@@ -35129,7 +35392,8 @@ export const fakemons: Fakemon[] =
     suffix: "normal",
     evolution: [
 
-    ]
+    ],
+    color: "White"
   },
   {
     id: "WURMPLE",
@@ -35179,7 +35443,8 @@ export const fakemons: Fakemon[] =
         method: "Cascoon",
         value: "7"
       }
-    ]
+    ],
+    color: "Red"
   },
   {
     id: "SILCOON",
@@ -35226,7 +35491,8 @@ export const fakemons: Fakemon[] =
         method: "Level",
         value: "10"
       }
-    ]
+    ],
+    color: "White"
   },
   {
     id: "BEAUTIFLY",
@@ -35334,7 +35600,8 @@ export const fakemons: Fakemon[] =
     suffix: "normal",
     evolution: [
 
-    ]
+    ],
+    color: "Yellow"
   },
   {
     id: "CASCOON",
@@ -35381,7 +35648,8 @@ export const fakemons: Fakemon[] =
         method: "Level",
         value: "10"
       }
-    ]
+    ],
+    color: "Purple"
   },
   {
     id: "DUSTOX",
@@ -35491,7 +35759,8 @@ export const fakemons: Fakemon[] =
     suffix: "normal",
     evolution: [
 
-    ]
+    ],
+    color: "Green"
   },
   {
     id: "LOTAD",
@@ -35610,7 +35879,8 @@ export const fakemons: Fakemon[] =
         method: "Level",
         value: "14"
       }
-    ]
+    ],
+    color: "Green"
   },
   {
     id: "LOMBRE",
@@ -35746,7 +36016,8 @@ export const fakemons: Fakemon[] =
         method: "Item",
         value: "WATERSTONE"
       }
-    ]
+    ],
+    color: "Green"
   },
   {
     id: "LUDICOLO",
@@ -35888,7 +36159,8 @@ export const fakemons: Fakemon[] =
     suffix: "normal",
     evolution: [
 
-    ]
+    ],
+    color: "Green"
   },
   {
     id: "SEEDOT",
@@ -36013,7 +36285,8 @@ export const fakemons: Fakemon[] =
         method: "Level",
         value: "14"
       }
-    ]
+    ],
+    color: "Brown"
   },
   {
     id: "NUZLEAF",
@@ -36164,7 +36437,8 @@ export const fakemons: Fakemon[] =
         method: "Item",
         value: "LEAFSTONE"
       }
-    ]
+    ],
+    color: "Brown"
   },
   {
     id: "SHIFTRY",
@@ -36344,7 +36618,8 @@ export const fakemons: Fakemon[] =
     suffix: "normal",
     evolution: [
 
-    ]
+    ],
+    color: "Brown"
   },
   {
     id: "TAILLOW",
@@ -36447,7 +36722,8 @@ export const fakemons: Fakemon[] =
         method: "Level",
         value: "22"
       }
-    ]
+    ],
+    color: "Blue"
   },
   {
     id: "SWELLOW",
@@ -36549,7 +36825,8 @@ export const fakemons: Fakemon[] =
     suffix: "normal",
     evolution: [
 
-    ]
+    ],
+    color: "Blue"
   },
   {
     id: "WINGULL",
@@ -36674,7 +36951,8 @@ export const fakemons: Fakemon[] =
         method: "Level",
         value: "25"
       }
-    ]
+    ],
+    color: "White"
   },
   {
     id: "PELIPPER",
@@ -36803,7 +37081,8 @@ export const fakemons: Fakemon[] =
     suffix: "normal",
     evolution: [
 
-    ]
+    ],
+    color: "Yellow"
   },
   {
     id: "RALTS",
@@ -36957,7 +37236,8 @@ export const fakemons: Fakemon[] =
         method: "Level",
         value: "20"
       }
-    ]
+    ],
+    color: "White"
   },
   {
     id: "KIRLIA",
@@ -37103,7 +37383,8 @@ export const fakemons: Fakemon[] =
         method: "ItemMale",
         value: "DAWNSTONE"
       }
-    ]
+    ],
+    color: "White"
   },
   {
     id: "GARDEVOIR",
@@ -37265,7 +37546,8 @@ export const fakemons: Fakemon[] =
     suffix: "normal",
     evolution: [
 
-    ]
+    ],
+    color: "White"
   },
   {
     id: "SURSKIT",
@@ -37382,7 +37664,8 @@ export const fakemons: Fakemon[] =
         method: "Level",
         value: "22"
       }
-    ]
+    ],
+    color: "Blue"
   },
   {
     id: "MASQUERAIN",
@@ -37509,7 +37792,8 @@ export const fakemons: Fakemon[] =
     suffix: "normal",
     evolution: [
 
-    ]
+    ],
+    color: "Blue"
   },
   {
     id: "SHROOMISH",
@@ -37618,7 +37902,8 @@ export const fakemons: Fakemon[] =
         method: "Level",
         value: "23"
       }
-    ]
+    ],
+    color: "Brown"
   },
   {
     id: "BRELOOM",
@@ -37765,7 +38050,8 @@ export const fakemons: Fakemon[] =
     suffix: "normal",
     evolution: [
 
-    ]
+    ],
+    color: "Green"
   },
   {
     id: "SLAKOTH",
@@ -37907,7 +38193,8 @@ export const fakemons: Fakemon[] =
         method: "Level",
         value: "18"
       }
-    ]
+    ],
+    color: "Brown"
   },
   {
     id: "VIGOROTH",
@@ -38063,7 +38350,8 @@ export const fakemons: Fakemon[] =
         method: "Level",
         value: "36"
       }
-    ]
+    ],
+    color: "White"
   },
   {
     id: "SLAKING",
@@ -38229,7 +38517,8 @@ export const fakemons: Fakemon[] =
     suffix: "normal",
     evolution: [
 
-    ]
+    ],
+    color: "Brown"
   },
   {
     id: "NINCADA",
@@ -38325,7 +38614,8 @@ export const fakemons: Fakemon[] =
         method: "Shedinja",
         value: "20"
       }
-    ]
+    ],
+    color: "Gray"
   },
   {
     id: "NINJASK",
@@ -38442,7 +38732,8 @@ export const fakemons: Fakemon[] =
     suffix: "normal",
     evolution: [
 
-    ]
+    ],
+    color: "Yellow"
   },
   {
     id: "SHEDINJA",
@@ -38551,7 +38842,8 @@ export const fakemons: Fakemon[] =
     suffix: "normal",
     evolution: [
 
-    ]
+    ],
+    color: "Brown"
   },
   {
     id: "WHISMUR",
@@ -38670,7 +38962,8 @@ export const fakemons: Fakemon[] =
         method: "Level",
         value: "20"
       }
-    ]
+    ],
+    color: "Pink"
   },
   {
     id: "LOUDRED",
@@ -38795,7 +39088,8 @@ export const fakemons: Fakemon[] =
         method: "Level",
         value: "40"
       }
-    ]
+    ],
+    color: "Blue"
   },
   {
     id: "EXPLOUD",
@@ -38936,7 +39230,8 @@ export const fakemons: Fakemon[] =
     suffix: "normal",
     evolution: [
 
-    ]
+    ],
+    color: "Blue"
   },
   {
     id: "MAKUHITA",
@@ -39081,7 +39376,8 @@ export const fakemons: Fakemon[] =
         method: "Level",
         value: "24"
       }
-    ]
+    ],
+    color: "Yellow"
   },
   {
     id: "HARIYAMA",
@@ -39225,7 +39521,8 @@ export const fakemons: Fakemon[] =
     suffix: "normal",
     evolution: [
 
-    ]
+    ],
+    color: "Brown"
   },
   {
     id: "AZURILL",
@@ -39332,7 +39629,8 @@ export const fakemons: Fakemon[] =
     suffix: "normal",
     evolution: [
 
-    ]
+    ],
+    color: "Blue"
   },
   {
     id: "NOSEPASS",
@@ -39466,7 +39764,8 @@ export const fakemons: Fakemon[] =
         method: "Item",
         value: "THUNDERSTONE"
       }
-    ]
+    ],
+    color: "Gray"
   },
   {
     id: "SKITTY",
@@ -39598,7 +39897,8 @@ export const fakemons: Fakemon[] =
         method: "Item",
         value: "MOONSTONE"
       }
-    ]
+    ],
+    color: "Pink"
   },
   {
     id: "DELCATTY",
@@ -39721,7 +40021,8 @@ export const fakemons: Fakemon[] =
     suffix: "normal",
     evolution: [
 
-    ]
+    ],
+    color: "Purple"
   },
   {
     id: "SABLEYE",
@@ -39901,7 +40202,8 @@ export const fakemons: Fakemon[] =
     suffix: "normal",
     evolution: [
 
-    ]
+    ],
+    color: "Purple"
   },
   {
     id: "MAWILE",
@@ -40060,7 +40362,8 @@ export const fakemons: Fakemon[] =
     suffix: "normal",
     evolution: [
 
-    ]
+    ],
+    color: "Black"
   },
   {
     id: "ARON",
@@ -40192,7 +40495,8 @@ export const fakemons: Fakemon[] =
         method: "Level",
         value: "32"
       }
-    ]
+    ],
+    color: "Gray"
   },
   {
     id: "LAIRON",
@@ -40318,7 +40622,8 @@ export const fakemons: Fakemon[] =
         method: "Level",
         value: "42"
       }
-    ]
+    ],
+    color: "Gray"
   },
   {
     id: "AGGRON",
@@ -40488,7 +40793,8 @@ export const fakemons: Fakemon[] =
     suffix: "normal",
     evolution: [
 
-    ]
+    ],
+    color: "Gray"
   },
   {
     id: "MEDITITE",
@@ -40643,7 +40949,8 @@ export const fakemons: Fakemon[] =
         method: "Level",
         value: "37"
       }
-    ]
+    ],
+    color: "Blue"
   },
   {
     id: "MEDICHAM",
@@ -40794,7 +41101,8 @@ export const fakemons: Fakemon[] =
     suffix: "normal",
     evolution: [
 
-    ]
+    ],
+    color: "Red"
   },
   {
     id: "ELECTRIKE",
@@ -40914,7 +41222,8 @@ export const fakemons: Fakemon[] =
         method: "Level",
         value: "26"
       }
-    ]
+    ],
+    color: "Green"
   },
   {
     id: "MANECTRIC",
@@ -41027,7 +41336,8 @@ export const fakemons: Fakemon[] =
     suffix: "normal",
     evolution: [
 
-    ]
+    ],
+    color: "Yellow"
   },
   {
     id: "PLUSLE",
@@ -41159,7 +41469,8 @@ export const fakemons: Fakemon[] =
     suffix: "normal",
     evolution: [
 
-    ]
+    ],
+    color: "Yellow"
   },
   {
     id: "MINUN",
@@ -41289,7 +41600,8 @@ export const fakemons: Fakemon[] =
     suffix: "normal",
     evolution: [
 
-    ]
+    ],
+    color: "Yellow"
   },
   {
     id: "VOLBEAT",
@@ -41429,7 +41741,8 @@ export const fakemons: Fakemon[] =
     suffix: "normal",
     evolution: [
 
-    ]
+    ],
+    color: "Gray"
   },
   {
     id: "ILLUMISE",
@@ -41572,7 +41885,8 @@ export const fakemons: Fakemon[] =
     suffix: "normal",
     evolution: [
 
-    ]
+    ],
+    color: "Purple"
   },
   {
     id: "ROSELIA",
@@ -41699,7 +42013,8 @@ export const fakemons: Fakemon[] =
         method: "Item",
         value: "SHINYSTONE"
       }
-    ]
+    ],
+    color: "Green"
   },
   {
     id: "GULPIN",
@@ -41834,7 +42149,8 @@ export const fakemons: Fakemon[] =
         method: "Level",
         value: "26"
       }
-    ]
+    ],
+    color: "Green"
   },
   {
     id: "SWALOT",
@@ -41967,7 +42283,8 @@ export const fakemons: Fakemon[] =
     suffix: "normal",
     evolution: [
 
-    ]
+    ],
+    color: "Purple"
   },
   {
     id: "CARVANHA",
@@ -42089,7 +42406,8 @@ export const fakemons: Fakemon[] =
         method: "Level",
         value: "30"
       }
-    ]
+    ],
+    color: "Red"
   },
   {
     id: "SHARPEDO",
@@ -42214,7 +42532,8 @@ export const fakemons: Fakemon[] =
     suffix: "normal",
     evolution: [
 
-    ]
+    ],
+    color: "Blue"
   },
   {
     id: "WAILMER",
@@ -42339,7 +42658,8 @@ export const fakemons: Fakemon[] =
         method: "Level",
         value: "40"
       }
-    ]
+    ],
+    color: "Blue"
   },
   {
     id: "WAILORD",
@@ -42455,7 +42775,8 @@ export const fakemons: Fakemon[] =
     suffix: "normal",
     evolution: [
 
-    ]
+    ],
+    color: "Blue"
   },
   {
     id: "NUMEL",
@@ -42599,7 +42920,8 @@ export const fakemons: Fakemon[] =
         method: "Level",
         value: "33"
       }
-    ]
+    ],
+    color: "Yellow"
   },
   {
     id: "CAMERUPT",
@@ -42733,7 +43055,8 @@ export const fakemons: Fakemon[] =
     suffix: "normal",
     evolution: [
 
-    ]
+    ],
+    color: "Red"
   },
   {
     id: "TORKOAL",
@@ -42866,7 +43189,8 @@ export const fakemons: Fakemon[] =
     suffix: "normal",
     evolution: [
 
-    ]
+    ],
+    color: "Brown"
   },
   {
     id: "SPOINK",
@@ -43010,7 +43334,8 @@ export const fakemons: Fakemon[] =
         method: "Level",
         value: "32"
       }
-    ]
+    ],
+    color: "Black"
   },
   {
     id: "GRUMPIG",
@@ -43177,7 +43502,8 @@ export const fakemons: Fakemon[] =
     suffix: "normal",
     evolution: [
 
-    ]
+    ],
+    color: "Purple"
   },
   {
     id: "SPINDA",
@@ -43317,7 +43643,8 @@ export const fakemons: Fakemon[] =
     suffix: "normal",
     evolution: [
 
-    ]
+    ],
+    color: "Brown"
   },
   {
     id: "TRAPINCH",
@@ -43430,7 +43757,8 @@ export const fakemons: Fakemon[] =
         method: "Level",
         value: "35"
       }
-    ]
+    ],
+    color: "Brown"
   },
   {
     id: "VIBRAVA",
@@ -43568,7 +43896,8 @@ export const fakemons: Fakemon[] =
         method: "Level",
         value: "45"
       }
-    ]
+    ],
+    color: "Green"
   },
   {
     id: "FLYGON",
@@ -43728,7 +44057,8 @@ export const fakemons: Fakemon[] =
     suffix: "normal",
     evolution: [
 
-    ]
+    ],
+    color: "Green"
   },
   {
     id: "CACNEA",
@@ -43878,7 +44208,8 @@ export const fakemons: Fakemon[] =
         method: "Level",
         value: "32"
       }
-    ]
+    ],
+    color: "Green"
   },
   {
     id: "CACTURNE",
@@ -44028,7 +44359,8 @@ export const fakemons: Fakemon[] =
     suffix: "normal",
     evolution: [
 
-    ]
+    ],
+    color: "Green"
   },
   {
     id: "SWABLU",
@@ -44153,7 +44485,8 @@ export const fakemons: Fakemon[] =
         method: "Level",
         value: "35"
       }
-    ]
+    ],
+    color: "Blue"
   },
   {
     id: "ALTARIA",
@@ -44291,7 +44624,8 @@ export const fakemons: Fakemon[] =
     suffix: "normal",
     evolution: [
 
-    ]
+    ],
+    color: "Blue"
   },
   {
     id: "ZANGOOSE",
@@ -44467,7 +44801,8 @@ export const fakemons: Fakemon[] =
     suffix: "normal",
     evolution: [
 
-    ]
+    ],
+    color: "White"
   },
   {
     id: "SEVIPER",
@@ -44612,7 +44947,8 @@ export const fakemons: Fakemon[] =
     suffix: "normal",
     evolution: [
 
-    ]
+    ],
+    color: "Black"
   },
   {
     id: "LUNATONE",
@@ -44751,7 +45087,8 @@ export const fakemons: Fakemon[] =
     suffix: "normal",
     evolution: [
 
-    ]
+    ],
+    color: "Yellow"
   },
   {
     id: "SOLROCK",
@@ -44895,7 +45232,8 @@ export const fakemons: Fakemon[] =
     suffix: "normal",
     evolution: [
 
-    ]
+    ],
+    color: "Red"
   },
   {
     id: "BARBOACH",
@@ -45017,7 +45355,8 @@ export const fakemons: Fakemon[] =
         method: "Level",
         value: "30"
       }
-    ]
+    ],
+    color: "Gray"
   },
   {
     id: "WHISCASH",
@@ -45140,7 +45479,8 @@ export const fakemons: Fakemon[] =
     suffix: "normal",
     evolution: [
 
-    ]
+    ],
+    color: "Blue"
   },
   {
     id: "CORPHISH",
@@ -45271,7 +45611,8 @@ export const fakemons: Fakemon[] =
         method: "Level",
         value: "30"
       }
-    ]
+    ],
+    color: "Red"
   },
   {
     id: "CRAWDAUNT",
@@ -45407,7 +45748,8 @@ export const fakemons: Fakemon[] =
     suffix: "normal",
     evolution: [
 
-    ]
+    ],
+    color: "Red"
   },
   {
     id: "BALTOY",
@@ -45540,7 +45882,8 @@ export const fakemons: Fakemon[] =
         method: "Level",
         value: "36"
       }
-    ]
+    ],
+    color: "Brown"
   },
   {
     id: "CLAYDOL",
@@ -45681,7 +46024,8 @@ export const fakemons: Fakemon[] =
     suffix: "normal",
     evolution: [
 
-    ]
+    ],
+    color: "Black"
   },
   {
     id: "LILEEP",
@@ -45796,7 +46140,8 @@ export const fakemons: Fakemon[] =
         method: "Level",
         value: "40"
       }
-    ]
+    ],
+    color: "Purple"
   },
   {
     id: "CRADILY",
@@ -45916,7 +46261,8 @@ export const fakemons: Fakemon[] =
     suffix: "normal",
     evolution: [
 
-    ]
+    ],
+    color: "Green"
   },
   {
     id: "ANORITH",
@@ -46034,7 +46380,8 @@ export const fakemons: Fakemon[] =
         method: "Level",
         value: "40"
       }
-    ]
+    ],
+    color: "Gray"
   },
   {
     id: "ARMALDO",
@@ -46157,7 +46504,8 @@ export const fakemons: Fakemon[] =
     suffix: "normal",
     evolution: [
 
-    ]
+    ],
+    color: "Gray"
   },
   {
     id: "FEEBAS",
@@ -46250,7 +46598,8 @@ export const fakemons: Fakemon[] =
         method: "Beauty",
         value: "170"
       }
-    ]
+    ],
+    color: "Brown"
   },
   {
     id: "MILOTIC",
@@ -46379,7 +46728,8 @@ export const fakemons: Fakemon[] =
     suffix: "normal",
     evolution: [
 
-    ]
+    ],
+    color: "Pink"
   },
   {
     id: "CASTFORM",
@@ -46489,7 +46839,8 @@ export const fakemons: Fakemon[] =
     suffix: "normal",
     evolution: [
 
-    ]
+    ],
+    color: "Gray"
   },
   {
     id: "KECLEON",
@@ -46644,7 +46995,8 @@ export const fakemons: Fakemon[] =
     suffix: "normal",
     evolution: [
 
-    ]
+    ],
+    color: "Green"
   },
   {
     id: "SHUPPET",
@@ -46781,7 +47133,8 @@ export const fakemons: Fakemon[] =
         method: "Level",
         value: "37"
       }
-    ]
+    ],
+    color: "Black"
   },
   {
     id: "BANETTE",
@@ -46917,7 +47270,8 @@ export const fakemons: Fakemon[] =
     suffix: "normal",
     evolution: [
 
-    ]
+    ],
+    color: "Black"
   },
   {
     id: "DUSKULL",
@@ -47044,7 +47398,8 @@ export const fakemons: Fakemon[] =
         method: "Level",
         value: "37"
       }
-    ]
+    ],
+    color: "Black"
   },
   {
     id: "DUSCLOPS",
@@ -47190,7 +47545,8 @@ export const fakemons: Fakemon[] =
         method: "TradeItem",
         value: "REAPERCLOTH"
       }
-    ]
+    ],
+    color: "Black"
   },
   {
     id: "TROPIUS",
@@ -47333,7 +47689,8 @@ export const fakemons: Fakemon[] =
     suffix: "normal",
     evolution: [
 
-    ]
+    ],
+    color: "Green"
   },
   {
     id: "CHIMECHO",
@@ -47473,7 +47830,8 @@ export const fakemons: Fakemon[] =
     suffix: "normal",
     evolution: [
 
-    ]
+    ],
+    color: "Blue"
   },
   {
     id: "ABSOL",
@@ -47632,7 +47990,8 @@ export const fakemons: Fakemon[] =
     suffix: "normal",
     evolution: [
 
-    ]
+    ],
+    color: "White"
   },
   {
     id: "WYNAUT",
@@ -47686,7 +48045,8 @@ export const fakemons: Fakemon[] =
         method: "Level",
         value: "15"
       }
-    ]
+    ],
+    color: "Blue"
   },
   {
     id: "SNORUNT",
@@ -47802,7 +48162,8 @@ export const fakemons: Fakemon[] =
         method: "ItemFemale",
         value: "DAWNSTONE"
       }
-    ]
+    ],
+    color: "Gray"
   },
   {
     id: "GLALIE",
@@ -47926,7 +48287,8 @@ export const fakemons: Fakemon[] =
     suffix: "normal",
     evolution: [
 
-    ]
+    ],
+    color: "Gray"
   },
   {
     id: "SPHEAL",
@@ -48045,7 +48407,8 @@ export const fakemons: Fakemon[] =
         method: "Level",
         value: "32"
       }
-    ]
+    ],
+    color: "Blue"
   },
   {
     id: "SEALEO",
@@ -48158,7 +48521,8 @@ export const fakemons: Fakemon[] =
         method: "Level",
         value: "44"
       }
-    ]
+    ],
+    color: "Blue"
   },
   {
     id: "WALREIN",
@@ -48283,7 +48647,8 @@ export const fakemons: Fakemon[] =
     suffix: "normal",
     evolution: [
 
-    ]
+    ],
+    color: "Blue"
   },
   {
     id: "CLAMPERL",
@@ -48367,7 +48732,8 @@ export const fakemons: Fakemon[] =
         method: "TradeItem",
         value: "DEEPSEASCALE"
       }
-    ]
+    ],
+    color: "Blue"
   },
   {
     id: "HUNTAIL",
@@ -48468,7 +48834,8 @@ export const fakemons: Fakemon[] =
     suffix: "normal",
     evolution: [
 
-    ]
+    ],
+    color: "Blue"
   },
   {
     id: "GOREBYSS",
@@ -48570,7 +48937,8 @@ export const fakemons: Fakemon[] =
     suffix: "normal",
     evolution: [
 
-    ]
+    ],
+    color: "Pink"
   },
   {
     id: "RELICANTH",
@@ -48696,7 +49064,8 @@ export const fakemons: Fakemon[] =
     suffix: "normal",
     evolution: [
 
-    ]
+    ],
+    color: "Gray"
   },
   {
     id: "LUVDISC",
@@ -48799,7 +49168,8 @@ export const fakemons: Fakemon[] =
     suffix: "normal",
     evolution: [
 
-    ]
+    ],
+    color: "Pink"
   },
   {
     id: "BAGON",
@@ -48920,7 +49290,8 @@ export const fakemons: Fakemon[] =
         method: "Level",
         value: "30"
       }
-    ]
+    ],
+    color: "Blue"
   },
   {
     id: "SHELGON",
@@ -49039,7 +49410,8 @@ export const fakemons: Fakemon[] =
         method: "Level",
         value: "50"
       }
-    ]
+    ],
+    color: "White"
   },
   {
     id: "SALAMENCE",
@@ -49181,7 +49553,8 @@ export const fakemons: Fakemon[] =
     suffix: "normal",
     evolution: [
 
-    ]
+    ],
+    color: "Blue"
   },
   {
     id: "BELDUM",
@@ -49232,7 +49605,8 @@ export const fakemons: Fakemon[] =
         method: "Level",
         value: "20"
       }
-    ]
+    ],
+    color: "Blue"
   },
   {
     id: "METANG",
@@ -49375,7 +49749,8 @@ export const fakemons: Fakemon[] =
         method: "Level",
         value: "45"
       }
-    ]
+    ],
+    color: "Blue"
   },
   {
     id: "METAGROSS",
@@ -49526,7 +49901,8 @@ export const fakemons: Fakemon[] =
     suffix: "normal",
     evolution: [
 
-    ]
+    ],
+    color: "Blue"
   },
   {
     id: "REGIROCK",
@@ -49658,7 +50034,8 @@ export const fakemons: Fakemon[] =
     suffix: "normal",
     evolution: [
 
-    ]
+    ],
+    color: "Brown"
   },
   {
     id: "REGICE",
@@ -49786,7 +50163,8 @@ export const fakemons: Fakemon[] =
     suffix: "normal",
     evolution: [
 
-    ]
+    ],
+    color: "Blue"
   },
   {
     id: "REGISTEEL",
@@ -49922,7 +50300,8 @@ export const fakemons: Fakemon[] =
     suffix: "normal",
     evolution: [
 
-    ]
+    ],
+    color: "Gray"
   },
   {
     id: "LATIAS",
@@ -50084,7 +50463,8 @@ export const fakemons: Fakemon[] =
     suffix: "normal",
     evolution: [
 
-    ]
+    ],
+    color: "Red"
   },
   {
     id: "LATIOS",
@@ -50240,7 +50620,8 @@ export const fakemons: Fakemon[] =
     suffix: "normal",
     evolution: [
 
-    ]
+    ],
+    color: "Blue"
   },
   {
     id: "KYOGRE",
@@ -50354,7 +50735,8 @@ export const fakemons: Fakemon[] =
     suffix: "normal",
     evolution: [
 
-    ]
+    ],
+    color: "Blue"
   },
   {
     id: "GROUDON",
@@ -50503,7 +50885,8 @@ export const fakemons: Fakemon[] =
     suffix: "normal",
     evolution: [
 
-    ]
+    ],
+    color: "Red"
   },
   {
     id: "RAYQUAZA",
@@ -50655,7 +51038,8 @@ export const fakemons: Fakemon[] =
     suffix: "normal",
     evolution: [
 
-    ]
+    ],
+    color: "Green"
   },
   {
     id: "JIRACHI",
@@ -50805,7 +51189,8 @@ export const fakemons: Fakemon[] =
     suffix: "normal",
     evolution: [
 
-    ]
+    ],
+    color: "Yellow"
   },
   {
     id: "DEOXYS",
@@ -50960,7 +51345,8 @@ export const fakemons: Fakemon[] =
     suffix: "normal",
     evolution: [
 
-    ]
+    ],
+    color: "Red"
   },
   {
     id: "TURTWIG",
@@ -51097,7 +51483,8 @@ export const fakemons: Fakemon[] =
         method: "Level",
         value: "18"
       }
-    ]
+    ],
+    color: "Green"
   },
   {
     id: "GROTLE",
@@ -51217,7 +51604,8 @@ export const fakemons: Fakemon[] =
         method: "Level",
         value: "32"
       }
-    ]
+    ],
+    color: "Green"
   },
   {
     id: "TORTERRA",
@@ -51357,7 +51745,8 @@ export const fakemons: Fakemon[] =
     suffix: "normal",
     evolution: [
 
-    ]
+    ],
+    color: "Green"
   },
   {
     id: "CHIMCHAR",
@@ -51508,7 +51897,8 @@ export const fakemons: Fakemon[] =
         method: "Level",
         value: "14"
       }
-    ]
+    ],
+    color: "Brown"
   },
   {
     id: "MONFERNO",
@@ -51657,7 +52047,8 @@ export const fakemons: Fakemon[] =
         method: "Level",
         value: "36"
       }
-    ]
+    ],
+    color: "Brown"
   },
   {
     id: "INFERNAPE",
@@ -51821,7 +52212,8 @@ export const fakemons: Fakemon[] =
     suffix: "normal",
     evolution: [
 
-    ]
+    ],
+    color: "Brown"
   },
   {
     id: "PIPLUP",
@@ -51950,7 +52342,8 @@ export const fakemons: Fakemon[] =
         method: "Level",
         value: "16"
       }
-    ]
+    ],
+    color: "Blue"
   },
   {
     id: "PRINPLUP",
@@ -52074,7 +52467,8 @@ export const fakemons: Fakemon[] =
         method: "Level",
         value: "36"
       }
-    ]
+    ],
+    color: "Blue"
   },
   {
     id: "EMPOLEON",
@@ -52228,7 +52622,8 @@ export const fakemons: Fakemon[] =
     suffix: "normal",
     evolution: [
 
-    ]
+    ],
+    color: "Blue"
   },
   {
     id: "STARLY",
@@ -52340,7 +52735,8 @@ export const fakemons: Fakemon[] =
         method: "Level",
         value: "14"
       }
-    ]
+    ],
+    color: "Brown"
   },
   {
     id: "STARAVIA",
@@ -52446,7 +52842,8 @@ export const fakemons: Fakemon[] =
         method: "Level",
         value: "34"
       }
-    ]
+    ],
+    color: "Brown"
   },
   {
     id: "STARAPTOR",
@@ -52555,7 +52952,8 @@ export const fakemons: Fakemon[] =
     suffix: "normal",
     evolution: [
 
-    ]
+    ],
+    color: "Brown"
   },
   {
     id: "BIDOOF",
@@ -52671,7 +53069,8 @@ export const fakemons: Fakemon[] =
         method: "Level",
         value: "15"
       }
-    ]
+    ],
+    color: "Brown"
   },
   {
     id: "BIBAREL",
@@ -52795,7 +53194,8 @@ export const fakemons: Fakemon[] =
     suffix: "normal",
     evolution: [
 
-    ]
+    ],
+    color: "Brown"
   },
   {
     id: "KRICKETOT",
@@ -52849,7 +53249,8 @@ export const fakemons: Fakemon[] =
         method: "Level",
         value: "10"
       }
-    ]
+    ],
+    color: "Red"
   },
   {
     id: "KRICKETUNE",
@@ -52962,7 +53363,8 @@ export const fakemons: Fakemon[] =
     suffix: "normal",
     evolution: [
 
-    ]
+    ],
+    color: "Red"
   },
   {
     id: "SHINX",
@@ -53092,7 +53494,8 @@ export const fakemons: Fakemon[] =
         method: "Level",
         value: "15"
       }
-    ]
+    ],
+    color: "Blue"
   },
   {
     id: "LUXIO",
@@ -53209,7 +53612,8 @@ export const fakemons: Fakemon[] =
         method: "Level",
         value: "30"
       }
-    ]
+    ],
+    color: "Blue"
   },
   {
     id: "LUXRAY",
@@ -53331,7 +53735,8 @@ export const fakemons: Fakemon[] =
     suffix: "normal",
     evolution: [
 
-    ]
+    ],
+    color: "Blue"
   },
   {
     id: "BUDEW",
@@ -53433,7 +53838,8 @@ export const fakemons: Fakemon[] =
     suffix: "normal",
     evolution: [
 
-    ]
+    ],
+    color: "Green"
   },
   {
     id: "ROSERADE",
@@ -53552,7 +53958,8 @@ export const fakemons: Fakemon[] =
     suffix: "normal",
     evolution: [
 
-    ]
+    ],
+    color: "Green"
   },
   {
     id: "CRANIDOS",
@@ -53687,7 +54094,8 @@ export const fakemons: Fakemon[] =
         method: "Level",
         value: "30"
       }
-    ]
+    ],
+    color: "Blue"
   },
   {
     id: "RAMPARDOS",
@@ -53826,7 +54234,8 @@ export const fakemons: Fakemon[] =
     suffix: "normal",
     evolution: [
 
-    ]
+    ],
+    color: "Blue"
   },
   {
     id: "SHIELDON",
@@ -53961,7 +54370,8 @@ export const fakemons: Fakemon[] =
         method: "Level",
         value: "30"
       }
-    ]
+    ],
+    color: "Gray"
   },
   {
     id: "BASTIODON",
@@ -54094,7 +54504,8 @@ export const fakemons: Fakemon[] =
     suffix: "normal",
     evolution: [
 
-    ]
+    ],
+    color: "Gray"
   },
   {
     id: "BURMY",
@@ -54146,7 +54557,8 @@ export const fakemons: Fakemon[] =
         method: "LevelMale",
         value: "20"
       }
-    ]
+    ],
+    color: "Green"
   },
   {
     id: "WORMADAM",
@@ -54256,7 +54668,8 @@ export const fakemons: Fakemon[] =
     suffix: "normal",
     evolution: [
 
-    ]
+    ],
+    color: "Green"
   },
   {
     id: "MOTHIM",
@@ -54366,7 +54779,8 @@ export const fakemons: Fakemon[] =
     suffix: "normal",
     evolution: [
 
-    ]
+    ],
+    color: "Yellow"
   },
   {
     id: "COMBEE",
@@ -54424,7 +54838,8 @@ export const fakemons: Fakemon[] =
         method: "LevelFemale",
         value: "21"
       }
-    ]
+    ],
+    color: "Yellow"
   },
   {
     id: "VESPIQUEN",
@@ -54559,7 +54974,8 @@ export const fakemons: Fakemon[] =
     suffix: "normal",
     evolution: [
 
-    ]
+    ],
+    color: "Yellow"
   },
   {
     id: "PACHIRISU",
@@ -54695,7 +55111,8 @@ export const fakemons: Fakemon[] =
     suffix: "normal",
     evolution: [
 
-    ]
+    ],
+    color: "White"
   },
   {
     id: "BUIZEL",
@@ -54824,7 +55241,8 @@ export const fakemons: Fakemon[] =
         method: "Level",
         value: "26"
       }
-    ]
+    ],
+    color: "Brown"
   },
   {
     id: "FLOATZEL",
@@ -54951,7 +55369,8 @@ export const fakemons: Fakemon[] =
     suffix: "normal",
     evolution: [
 
-    ]
+    ],
+    color: "Brown"
   },
   {
     id: "CHERUBI",
@@ -55057,7 +55476,8 @@ export const fakemons: Fakemon[] =
         method: "Level",
         value: "25"
       }
-    ]
+    ],
+    color: "Pink"
   },
   {
     id: "CHERRIM",
@@ -55155,7 +55575,8 @@ export const fakemons: Fakemon[] =
     suffix: "normal",
     evolution: [
 
-    ]
+    ],
+    color: "Purple"
   },
   {
     id: "SHELLOS",
@@ -55278,7 +55699,8 @@ export const fakemons: Fakemon[] =
         method: "Level",
         value: "30"
       }
-    ]
+    ],
+    color: "Purple"
   },
   {
     id: "GASTRODON",
@@ -55400,7 +55822,8 @@ export const fakemons: Fakemon[] =
     suffix: "normal",
     evolution: [
 
-    ]
+    ],
+    color: "Purple"
   },
   {
     id: "AMBIPOM",
@@ -55546,7 +55969,8 @@ export const fakemons: Fakemon[] =
     suffix: "normal",
     evolution: [
 
-    ]
+    ],
+    color: "Purple"
   },
   {
     id: "DRIFLOON",
@@ -55691,7 +56115,8 @@ export const fakemons: Fakemon[] =
         method: "Level",
         value: "28"
       }
-    ]
+    ],
+    color: "Purple"
   },
   {
     id: "DRIFBLIM",
@@ -55830,7 +56255,8 @@ export const fakemons: Fakemon[] =
     suffix: "normal",
     evolution: [
 
-    ]
+    ],
+    color: "Purple"
   },
   {
     id: "BUNEARY",
@@ -55970,7 +56396,8 @@ export const fakemons: Fakemon[] =
     suffix: "normal",
     evolution: [
 
-    ]
+    ],
+    color: "Brown"
   },
   {
     id: "LOPUNNY",
@@ -56111,7 +56538,8 @@ export const fakemons: Fakemon[] =
     suffix: "normal",
     evolution: [
 
-    ]
+    ],
+    color: "Brown"
   },
   {
     id: "MISMAGIUS",
@@ -56247,7 +56675,8 @@ export const fakemons: Fakemon[] =
     suffix: "normal",
     evolution: [
 
-    ]
+    ],
+    color: "Purple"
   },
   {
     id: "HONCHKROW",
@@ -56378,7 +56807,8 @@ export const fakemons: Fakemon[] =
     suffix: "normal",
     evolution: [
 
-    ]
+    ],
+    color: "Black"
   },
   {
     id: "GLAMEOW",
@@ -56497,7 +56927,8 @@ export const fakemons: Fakemon[] =
         method: "Level",
         value: "38"
       }
-    ]
+    ],
+    color: "Gray"
   },
   {
     id: "PURUGLY",
@@ -56616,7 +57047,8 @@ export const fakemons: Fakemon[] =
     suffix: "normal",
     evolution: [
 
-    ]
+    ],
+    color: "Gray"
   },
   {
     id: "CHINGLING",
@@ -56739,7 +57171,8 @@ export const fakemons: Fakemon[] =
     suffix: "normal",
     evolution: [
 
-    ]
+    ],
+    color: "Yellow"
   },
   {
     id: "STUNKY",
@@ -56885,7 +57318,8 @@ export const fakemons: Fakemon[] =
         method: "Level",
         value: "34"
       }
-    ]
+    ],
+    color: "Purple"
   },
   {
     id: "SKUNTANK",
@@ -57025,7 +57459,8 @@ export const fakemons: Fakemon[] =
     suffix: "normal",
     evolution: [
 
-    ]
+    ],
+    color: "Purple"
   },
   {
     id: "BRONZOR",
@@ -57161,7 +57596,8 @@ export const fakemons: Fakemon[] =
         method: "Level",
         value: "33"
       }
-    ]
+    ],
+    color: "Green"
   },
   {
     id: "BRONZONG",
@@ -57309,7 +57745,8 @@ export const fakemons: Fakemon[] =
     suffix: "normal",
     evolution: [
 
-    ]
+    ],
+    color: "Green"
   },
   {
     id: "BONSLY",
@@ -57435,7 +57872,8 @@ export const fakemons: Fakemon[] =
         method: "HasMove",
         value: "MIMIC"
       }
-    ]
+    ],
+    color: "Brown"
   },
   {
     id: "MIMEJR",
@@ -57581,7 +58019,8 @@ export const fakemons: Fakemon[] =
         method: "HasMove",
         value: "MIMIC"
       }
-    ]
+    ],
+    color: "Pink"
   },
   {
     id: "HAPPINY",
@@ -57693,7 +58132,8 @@ export const fakemons: Fakemon[] =
         method: "DayHoldItem",
         value: "OVALSTONE"
       }
-    ]
+    ],
+    color: "Pink"
   },
   {
     id: "CHATOT",
@@ -57801,7 +58241,8 @@ export const fakemons: Fakemon[] =
     suffix: "normal",
     evolution: [
 
-    ]
+    ],
+    color: "Black"
   },
   {
     id: "SPIRITOMB",
@@ -57935,7 +58376,8 @@ export const fakemons: Fakemon[] =
     suffix: "normal",
     evolution: [
 
-    ]
+    ],
+    color: "Purple"
   },
   {
     id: "GIBLE",
@@ -58066,7 +58508,8 @@ export const fakemons: Fakemon[] =
         method: "Level",
         value: "24"
       }
-    ]
+    ],
+    color: "Blue"
   },
   {
     id: "GABITE",
@@ -58193,7 +58636,8 @@ export const fakemons: Fakemon[] =
         method: "Level",
         value: "48"
       }
-    ]
+    ],
+    color: "Blue"
   },
   {
     id: "GARCHOMP",
@@ -58328,7 +58772,8 @@ export const fakemons: Fakemon[] =
     suffix: "normal",
     evolution: [
 
-    ]
+    ],
+    color: "Blue"
   },
   {
     id: "MUNCHLAX",
@@ -58479,7 +58924,8 @@ export const fakemons: Fakemon[] =
     suffix: "normal",
     evolution: [
 
-    ]
+    ],
+    color: "Black"
   },
   {
     id: "RIOLU",
@@ -58623,7 +59069,8 @@ export const fakemons: Fakemon[] =
     suffix: "normal",
     evolution: [
 
-    ]
+    ],
+    color: "Blue"
   },
   {
     id: "LUCARIO",
@@ -58785,7 +59232,8 @@ export const fakemons: Fakemon[] =
     suffix: "normal",
     evolution: [
 
-    ]
+    ],
+    color: "Blue"
   },
   {
     id: "HIPPOPOTAS",
@@ -58905,7 +59353,8 @@ export const fakemons: Fakemon[] =
         method: "Level",
         value: "34"
       }
-    ]
+    ],
+    color: "Brown"
   },
   {
     id: "HIPPOWDON",
@@ -59022,7 +59471,8 @@ export const fakemons: Fakemon[] =
     suffix: "normal",
     evolution: [
 
-    ]
+    ],
+    color: "Brown"
   },
   {
     id: "SKORUPI",
@@ -59154,7 +59604,8 @@ export const fakemons: Fakemon[] =
         method: "Level",
         value: "40"
       }
-    ]
+    ],
+    color: "Purple"
   },
   {
     id: "DRAPION",
@@ -59298,7 +59749,8 @@ export const fakemons: Fakemon[] =
     suffix: "normal",
     evolution: [
 
-    ]
+    ],
+    color: "Purple"
   },
   {
     id: "CROAGUNK",
@@ -59456,7 +59908,8 @@ export const fakemons: Fakemon[] =
         method: "Level",
         value: "37"
       }
-    ]
+    ],
+    color: "Blue"
   },
   {
     id: "TOXICROAK",
@@ -59611,7 +60064,8 @@ export const fakemons: Fakemon[] =
     suffix: "normal",
     evolution: [
 
-    ]
+    ],
+    color: "Blue"
   },
   {
     id: "CARNIVINE",
@@ -59718,7 +60172,8 @@ export const fakemons: Fakemon[] =
     suffix: "normal",
     evolution: [
 
-    ]
+    ],
+    color: "Green"
   },
   {
     id: "FINNEON",
@@ -59841,7 +60296,8 @@ export const fakemons: Fakemon[] =
         method: "Level",
         value: "31"
       }
-    ]
+    ],
+    color: "Blue"
   },
   {
     id: "LUMINEON",
@@ -59955,7 +60411,8 @@ export const fakemons: Fakemon[] =
     suffix: "normal",
     evolution: [
 
-    ]
+    ],
+    color: "Blue"
   },
   {
     id: "MANTYKE",
@@ -60069,7 +60526,8 @@ export const fakemons: Fakemon[] =
         method: "HasInParty",
         value: "REMORAID"
       }
-    ]
+    ],
+    color: "Blue"
   },
   {
     id: "SNOVER",
@@ -60191,7 +60649,8 @@ export const fakemons: Fakemon[] =
         method: "Level",
         value: "40"
       }
-    ]
+    ],
+    color: "White"
   },
   {
     id: "ABOMASNOW",
@@ -60325,7 +60784,8 @@ export const fakemons: Fakemon[] =
     suffix: "normal",
     evolution: [
 
-    ]
+    ],
+    color: "White"
   },
   {
     id: "WEAVILE",
@@ -60481,7 +60941,8 @@ export const fakemons: Fakemon[] =
     suffix: "normal",
     evolution: [
 
-    ]
+    ],
+    color: "Black"
   },
   {
     id: "MAGNEZONE",
@@ -60607,7 +61068,8 @@ export const fakemons: Fakemon[] =
     suffix: "normal",
     evolution: [
 
-    ]
+    ],
+    color: "Gray"
   },
   {
     id: "LICKILICKY",
@@ -60751,7 +61213,8 @@ export const fakemons: Fakemon[] =
     suffix: "normal",
     evolution: [
 
-    ]
+    ],
+    color: "Pink"
   },
   {
     id: "RHYPERIOR",
@@ -60923,7 +61386,8 @@ export const fakemons: Fakemon[] =
     suffix: "normal",
     evolution: [
 
-    ]
+    ],
+    color: "Gray"
   },
   {
     id: "TANGROWTH",
@@ -61050,7 +61514,8 @@ export const fakemons: Fakemon[] =
     suffix: "normal",
     evolution: [
 
-    ]
+    ],
+    color: "Blue"
   },
   {
     id: "ELECTIVIRE",
@@ -61192,7 +61657,8 @@ export const fakemons: Fakemon[] =
     suffix: "normal",
     evolution: [
 
-    ]
+    ],
+    color: "Yellow"
   },
   {
     id: "MAGMORTAR",
@@ -61332,7 +61798,8 @@ export const fakemons: Fakemon[] =
     suffix: "normal",
     evolution: [
 
-    ]
+    ],
+    color: "Red"
   },
   {
     id: "TOGEKISS",
@@ -61501,7 +61968,8 @@ export const fakemons: Fakemon[] =
     suffix: "normal",
     evolution: [
 
-    ]
+    ],
+    color: "White"
   },
   {
     id: "YANMEGA",
@@ -61620,7 +62088,8 @@ export const fakemons: Fakemon[] =
     suffix: "normal",
     evolution: [
 
-    ]
+    ],
+    color: "Green"
   },
   {
     id: "LEAFEON",
@@ -61759,7 +62228,8 @@ export const fakemons: Fakemon[] =
     suffix: "normal",
     evolution: [
 
-    ]
+    ],
+    color: "Green"
   },
   {
     id: "GLACEON",
@@ -61894,7 +62364,8 @@ export const fakemons: Fakemon[] =
     suffix: "normal",
     evolution: [
 
-    ]
+    ],
+    color: "Blue"
   },
   {
     id: "GLISCOR",
@@ -62043,7 +62514,8 @@ export const fakemons: Fakemon[] =
     suffix: "normal",
     evolution: [
 
-    ]
+    ],
+    color: "Purple"
   },
   {
     id: "MAMOSWINE",
@@ -62174,7 +62646,8 @@ export const fakemons: Fakemon[] =
     suffix: "normal",
     evolution: [
 
-    ]
+    ],
+    color: "Brown"
   },
   {
     id: "PORYGONZ",
@@ -62299,7 +62772,8 @@ export const fakemons: Fakemon[] =
     suffix: "normal",
     evolution: [
 
-    ]
+    ],
+    color: "Red"
   },
   {
     id: "GALLADE",
@@ -62504,7 +62978,8 @@ export const fakemons: Fakemon[] =
     suffix: "normal",
     evolution: [
 
-    ]
+    ],
+    color: "White"
   },
   {
     id: "PROBOPASS",
@@ -62643,7 +63118,8 @@ export const fakemons: Fakemon[] =
     suffix: "normal",
     evolution: [
 
-    ]
+    ],
+    color: "Gray"
   },
   {
     id: "DUSKNOIR",
@@ -62794,7 +63270,8 @@ export const fakemons: Fakemon[] =
     suffix: "normal",
     evolution: [
 
-    ]
+    ],
+    color: "Black"
   },
   {
     id: "FROSLASS",
@@ -62941,7 +63418,8 @@ export const fakemons: Fakemon[] =
     suffix: "normal",
     evolution: [
 
-    ]
+    ],
+    color: "White"
   },
   {
     id: "ROTOM",
@@ -63053,7 +63531,8 @@ export const fakemons: Fakemon[] =
     suffix: "normal",
     evolution: [
 
-    ]
+    ],
+    color: "Red"
   },
   {
     id: "UXIE",
@@ -63206,7 +63685,8 @@ export const fakemons: Fakemon[] =
     suffix: "normal",
     evolution: [
 
-    ]
+    ],
+    color: "Yellow"
   },
   {
     id: "MESPRIT",
@@ -63357,7 +63837,8 @@ export const fakemons: Fakemon[] =
     suffix: "normal",
     evolution: [
 
-    ]
+    ],
+    color: "Pink"
   },
   {
     id: "AZELF",
@@ -63518,7 +63999,8 @@ export const fakemons: Fakemon[] =
     suffix: "normal",
     evolution: [
 
-    ]
+    ],
+    color: "Blue"
   },
   {
     id: "DIALGA",
@@ -63655,7 +64137,8 @@ export const fakemons: Fakemon[] =
     suffix: "normal",
     evolution: [
 
-    ]
+    ],
+    color: "White"
   },
   {
     id: "PALKIA",
@@ -63797,7 +64280,8 @@ export const fakemons: Fakemon[] =
     suffix: "normal",
     evolution: [
 
-    ]
+    ],
+    color: "Purple"
   },
   {
     id: "HEATRAN",
@@ -63928,7 +64412,8 @@ export const fakemons: Fakemon[] =
     suffix: "normal",
     evolution: [
 
-    ]
+    ],
+    color: "Brown"
   },
   {
     id: "REGIGIGAS",
@@ -64055,7 +64540,8 @@ export const fakemons: Fakemon[] =
     suffix: "normal",
     evolution: [
 
-    ]
+    ],
+    color: "White"
   },
   {
     id: "GIRATINA",
@@ -64192,7 +64678,8 @@ export const fakemons: Fakemon[] =
     suffix: "normal",
     evolution: [
 
-    ]
+    ],
+    color: "Black"
   },
   {
     id: "CRESSELIA",
@@ -64316,7 +64803,8 @@ export const fakemons: Fakemon[] =
     suffix: "normal",
     evolution: [
 
-    ]
+    ],
+    color: "Yellow"
   },
   {
     id: "PHIONE",
@@ -64420,7 +64908,8 @@ export const fakemons: Fakemon[] =
     suffix: "normal",
     evolution: [
 
-    ]
+    ],
+    color: "Blue"
   },
   {
     id: "MANAPHY",
@@ -64540,7 +65029,8 @@ export const fakemons: Fakemon[] =
     suffix: "normal",
     evolution: [
 
-    ]
+    ],
+    color: "Blue"
   },
   {
     id: "DARKRAI",
@@ -64672,7 +65162,8 @@ export const fakemons: Fakemon[] =
     suffix: "normal",
     evolution: [
 
-    ]
+    ],
+    color: "Black"
   },
   {
     id: "SHAYMIN",
@@ -64780,7 +65271,8 @@ export const fakemons: Fakemon[] =
     suffix: "normal",
     evolution: [
 
-    ]
+    ],
+    color: "Green"
   },
   {
     id: "ARCEUS",
@@ -64987,7 +65479,8 @@ export const fakemons: Fakemon[] =
     suffix: "normal",
     evolution: [
 
-    ]
+    ],
+    color: "White"
   },
   {
     id: "VICTINI",
@@ -65131,7 +65624,8 @@ export const fakemons: Fakemon[] =
     suffix: "normal",
     evolution: [
 
-    ]
+    ],
+    color: "Yellow"
   },
   {
     id: "SNIVY",
@@ -65257,7 +65751,8 @@ export const fakemons: Fakemon[] =
         method: "Level",
         value: "17"
       }
-    ]
+    ],
+    color: "Green"
   },
   {
     id: "SERVINE",
@@ -65372,7 +65867,8 @@ export const fakemons: Fakemon[] =
         method: "Level",
         value: "36"
       }
-    ]
+    ],
+    color: "Green"
   },
   {
     id: "SERPERIOR",
@@ -65496,7 +65992,8 @@ export const fakemons: Fakemon[] =
     suffix: "normal",
     evolution: [
 
-    ]
+    ],
+    color: "Green"
   },
   {
     id: "TEPIG",
@@ -65624,7 +66121,8 @@ export const fakemons: Fakemon[] =
         method: "Level",
         value: "17"
       }
-    ]
+    ],
+    color: "Red"
   },
   {
     id: "PIGNITE",
@@ -65763,7 +66261,8 @@ export const fakemons: Fakemon[] =
         method: "Level",
         value: "36"
       }
-    ]
+    ],
+    color: "Red"
   },
   {
     id: "EMBOAR",
@@ -65909,7 +66408,8 @@ export const fakemons: Fakemon[] =
     suffix: "normal",
     evolution: [
 
-    ]
+    ],
+    color: "Red"
   },
   {
     id: "OSHAWOTT",
@@ -66035,7 +66535,8 @@ export const fakemons: Fakemon[] =
         method: "Level",
         value: "17"
       }
-    ]
+    ],
+    color: "Blue"
   },
   {
     id: "DEWOTT",
@@ -66153,7 +66654,8 @@ export const fakemons: Fakemon[] =
         method: "Level",
         value: "36"
       }
-    ]
+    ],
+    color: "Blue"
   },
   {
     id: "SAMUROTT",
@@ -66281,7 +66783,8 @@ export const fakemons: Fakemon[] =
     suffix: "normal",
     evolution: [
 
-    ]
+    ],
+    color: "Blue"
   },
   {
     id: "PATRAT",
@@ -66394,7 +66897,8 @@ export const fakemons: Fakemon[] =
         method: "Level",
         value: "20"
       }
-    ]
+    ],
+    color: "Brown"
   },
   {
     id: "WATCHOG",
@@ -66520,7 +67024,8 @@ export const fakemons: Fakemon[] =
     suffix: "normal",
     evolution: [
 
-    ]
+    ],
+    color: "Brown"
   },
   {
     id: "LILLIPUP",
@@ -66633,7 +67138,8 @@ export const fakemons: Fakemon[] =
         method: "Level",
         value: "16"
       }
-    ]
+    ],
+    color: "Brown"
   },
   {
     id: "HERDIER",
@@ -66743,7 +67249,8 @@ export const fakemons: Fakemon[] =
         method: "Level",
         value: "32"
       }
-    ]
+    ],
+    color: "Gray"
   },
   {
     id: "STOUTLAND",
@@ -66857,7 +67364,8 @@ export const fakemons: Fakemon[] =
     suffix: "normal",
     evolution: [
 
-    ]
+    ],
+    color: "Gray"
   },
   {
     id: "PURRLOIN",
@@ -66979,7 +67487,8 @@ export const fakemons: Fakemon[] =
         method: "Level",
         value: "20"
       }
-    ]
+    ],
+    color: "Purple"
   },
   {
     id: "LIEPARD",
@@ -67100,7 +67609,8 @@ export const fakemons: Fakemon[] =
     suffix: "normal",
     evolution: [
 
-    ]
+    ],
+    color: "Purple"
   },
   {
     id: "PANSAGE",
@@ -67226,7 +67736,8 @@ export const fakemons: Fakemon[] =
         method: "Item",
         value: "LEAFSTONE"
       }
-    ]
+    ],
+    color: "Green"
   },
   {
     id: "SIMISAGE",
@@ -67333,7 +67844,8 @@ export const fakemons: Fakemon[] =
     suffix: "normal",
     evolution: [
 
-    ]
+    ],
+    color: "Green"
   },
   {
     id: "PANSEAR",
@@ -67461,7 +67973,8 @@ export const fakemons: Fakemon[] =
         method: "Item",
         value: "FIRESTONE"
       }
-    ]
+    ],
+    color: "Red"
   },
   {
     id: "SIMISEAR",
@@ -67569,7 +68082,8 @@ export const fakemons: Fakemon[] =
     suffix: "normal",
     evolution: [
 
-    ]
+    ],
+    color: "Red"
   },
   {
     id: "PANPOUR",
@@ -67697,7 +68211,8 @@ export const fakemons: Fakemon[] =
         method: "Item",
         value: "WATERSTONE"
       }
-    ]
+    ],
+    color: "Blue"
   },
   {
     id: "SIMIPOUR",
@@ -67807,7 +68322,8 @@ export const fakemons: Fakemon[] =
     suffix: "normal",
     evolution: [
 
-    ]
+    ],
+    color: "Blue"
   },
   {
     id: "MUNNA",
@@ -67929,7 +68445,8 @@ export const fakemons: Fakemon[] =
         method: "Item",
         value: "MOONSTONE"
       }
-    ]
+    ],
+    color: "Pink"
   },
   {
     id: "MUSHARNA",
@@ -68051,7 +68568,8 @@ export const fakemons: Fakemon[] =
     suffix: "normal",
     evolution: [
 
-    ]
+    ],
+    color: "Pink"
   },
   {
     id: "PIDOVE",
@@ -68153,7 +68671,8 @@ export const fakemons: Fakemon[] =
         method: "Level",
         value: "21"
       }
-    ]
+    ],
+    color: "Gray"
   },
   {
     id: "TRANQUILL",
@@ -68251,7 +68770,8 @@ export const fakemons: Fakemon[] =
         method: "Level",
         value: "32"
       }
-    ]
+    ],
+    color: "Gray"
   },
   {
     id: "UNFEZANT",
@@ -68350,7 +68870,8 @@ export const fakemons: Fakemon[] =
     suffix: "normal",
     evolution: [
 
-    ]
+    ],
+    color: "Gray"
   },
   {
     id: "BLITZLE",
@@ -68469,7 +68990,8 @@ export const fakemons: Fakemon[] =
         method: "Level",
         value: "27"
       }
-    ]
+    ],
+    color: "Black"
   },
   {
     id: "ZEBSTRIKA",
@@ -68584,7 +69106,8 @@ export const fakemons: Fakemon[] =
     suffix: "normal",
     evolution: [
 
-    ]
+    ],
+    color: "Black"
   },
   {
     id: "ROGGENROLA",
@@ -68687,7 +69210,8 @@ export const fakemons: Fakemon[] =
         method: "Level",
         value: "25"
       }
-    ]
+    ],
+    color: "Blue"
   },
   {
     id: "BOLDORE",
@@ -68785,7 +69309,8 @@ export const fakemons: Fakemon[] =
     suffix: "normal",
     evolution: [
 
-    ]
+    ],
+    color: "Blue"
   },
   {
     id: "GIGALITH",
@@ -68892,7 +69417,8 @@ export const fakemons: Fakemon[] =
     suffix: "normal",
     evolution: [
 
-    ]
+    ],
+    color: "Blue"
   },
   {
     id: "WOOBAT",
@@ -69030,7 +69556,8 @@ export const fakemons: Fakemon[] =
     suffix: "normal",
     evolution: [
 
-    ]
+    ],
+    color: "Blue"
   },
   {
     id: "SWOOBAT",
@@ -69169,7 +69696,8 @@ export const fakemons: Fakemon[] =
     suffix: "normal",
     evolution: [
 
-    ]
+    ],
+    color: "Blue"
   },
   {
     id: "DRILBUR",
@@ -69282,7 +69810,8 @@ export const fakemons: Fakemon[] =
         method: "Level",
         value: "31"
       }
-    ]
+    ],
+    color: "Gray"
   },
   {
     id: "EXCADRILL",
@@ -69403,7 +69932,8 @@ export const fakemons: Fakemon[] =
     suffix: "normal",
     evolution: [
 
-    ]
+    ],
+    color: "Gray"
   },
   {
     id: "AUDINO",
@@ -69553,7 +70083,8 @@ export const fakemons: Fakemon[] =
     suffix: "normal",
     evolution: [
 
-    ]
+    ],
+    color: "Pink"
   },
   {
     id: "TIMBURR",
@@ -69679,7 +70210,8 @@ export const fakemons: Fakemon[] =
         method: "Level",
         value: "25"
       }
-    ]
+    ],
+    color: "Gray"
   },
   {
     id: "GURDURR",
@@ -69797,7 +70329,8 @@ export const fakemons: Fakemon[] =
     suffix: "normal",
     evolution: [
 
-    ]
+    ],
+    color: "Gray"
   },
   {
     id: "CONKELDURR",
@@ -69924,7 +70457,8 @@ export const fakemons: Fakemon[] =
     suffix: "normal",
     evolution: [
 
-    ]
+    ],
+    color: "Brown"
   },
   {
     id: "TYMPOLE",
@@ -70026,7 +70560,8 @@ export const fakemons: Fakemon[] =
         method: "Level",
         value: "25"
       }
-    ]
+    ],
+    color: "Blue"
   },
   {
     id: "PALPITOAD",
@@ -70132,7 +70667,8 @@ export const fakemons: Fakemon[] =
         method: "Level",
         value: "36"
       }
-    ]
+    ],
+    color: "Blue"
   },
   {
     id: "SEISMITOAD",
@@ -70260,7 +70796,8 @@ export const fakemons: Fakemon[] =
     suffix: "normal",
     evolution: [
 
-    ]
+    ],
+    color: "Blue"
   },
   {
     id: "THROH",
@@ -70377,7 +70914,8 @@ export const fakemons: Fakemon[] =
     suffix: "normal",
     evolution: [
 
-    ]
+    ],
+    color: "Red"
   },
   {
     id: "SAWK",
@@ -70494,7 +71032,8 @@ export const fakemons: Fakemon[] =
     suffix: "normal",
     evolution: [
 
-    ]
+    ],
+    color: "Blue"
   },
   {
     id: "SEWADDLE",
@@ -70612,7 +71151,8 @@ export const fakemons: Fakemon[] =
         method: "Level",
         value: "20"
       }
-    ]
+    ],
+    color: "Yellow"
   },
   {
     id: "SWADLOON",
@@ -70715,7 +71255,8 @@ export const fakemons: Fakemon[] =
     suffix: "normal",
     evolution: [
 
-    ]
+    ],
+    color: "Green"
   },
   {
     id: "LEAVANNY",
@@ -70846,7 +71387,8 @@ export const fakemons: Fakemon[] =
     suffix: "normal",
     evolution: [
 
-    ]
+    ],
+    color: "Yellow"
   },
   {
     id: "VENIPEDE",
@@ -70947,7 +71489,8 @@ export const fakemons: Fakemon[] =
         method: "Level",
         value: "22"
       }
-    ]
+    ],
+    color: "Red"
   },
   {
     id: "WHIRLIPEDE",
@@ -71048,7 +71591,8 @@ export const fakemons: Fakemon[] =
         method: "Level",
         value: "30"
       }
-    ]
+    ],
+    color: "Gray"
   },
   {
     id: "SCOLIPEDE",
@@ -71169,7 +71713,8 @@ export const fakemons: Fakemon[] =
     suffix: "normal",
     evolution: [
 
-    ]
+    ],
+    color: "Red"
   },
   {
     id: "COTTONEE",
@@ -71280,7 +71825,8 @@ export const fakemons: Fakemon[] =
         method: "Item",
         value: "SUNSTONE"
       }
-    ]
+    ],
+    color: "Green"
   },
   {
     id: "WHIMSICOTT",
@@ -71399,7 +71945,8 @@ export const fakemons: Fakemon[] =
     suffix: "normal",
     evolution: [
 
-    ]
+    ],
+    color: "Green"
   },
   {
     id: "PETILIL",
@@ -71507,7 +72054,8 @@ export const fakemons: Fakemon[] =
         method: "Item",
         value: "SUNSTONE"
       }
-    ]
+    ],
+    color: "Green"
   },
   {
     id: "LILLIGANT",
@@ -71624,7 +72172,8 @@ export const fakemons: Fakemon[] =
     suffix: "normal",
     evolution: [
 
-    ]
+    ],
+    color: "Green"
   },
   {
     id: "BASCULIN",
@@ -71739,7 +72288,8 @@ export const fakemons: Fakemon[] =
     suffix: "normal",
     evolution: [
 
-    ]
+    ],
+    color: "Green"
   },
   {
     id: "SANDILE",
@@ -71871,7 +72421,8 @@ export const fakemons: Fakemon[] =
         method: "Level",
         value: "29"
       }
-    ]
+    ],
+    color: "Brown"
   },
   {
     id: "KROKOROK",
@@ -72017,7 +72568,8 @@ export const fakemons: Fakemon[] =
         method: "Level",
         value: "40"
       }
-    ]
+    ],
+    color: "Brown"
   },
   {
     id: "KROOKODILE",
@@ -72174,7 +72726,8 @@ export const fakemons: Fakemon[] =
     suffix: "normal",
     evolution: [
 
-    ]
+    ],
+    color: "Red"
   },
   {
     id: "DARUMAKA",
@@ -72293,7 +72846,8 @@ export const fakemons: Fakemon[] =
         method: "Level",
         value: "35"
       }
-    ]
+    ],
+    color: "Red"
   },
   {
     id: "DARMANITAN",
@@ -72429,7 +72983,8 @@ export const fakemons: Fakemon[] =
     suffix: "normal",
     evolution: [
 
-    ]
+    ],
+    color: "Red"
   },
   {
     id: "MARACTUS",
@@ -72540,7 +73095,8 @@ export const fakemons: Fakemon[] =
     suffix: "normal",
     evolution: [
 
-    ]
+    ],
+    color: "Green"
   },
   {
     id: "DWEBBLE",
@@ -72653,7 +73209,8 @@ export const fakemons: Fakemon[] =
         method: "Level",
         value: "34"
       }
-    ]
+    ],
+    color: "Red"
   },
   {
     id: "CRUSTLE",
@@ -72764,7 +73321,8 @@ export const fakemons: Fakemon[] =
     suffix: "normal",
     evolution: [
 
-    ]
+    ],
+    color: "Red"
   },
   {
     id: "SCRAGGY",
@@ -72918,7 +73476,8 @@ export const fakemons: Fakemon[] =
         method: "Level",
         value: "39"
       }
-    ]
+    ],
+    color: "Yellow"
   },
   {
     id: "SCRAFTY",
@@ -73071,7 +73630,8 @@ export const fakemons: Fakemon[] =
     suffix: "normal",
     evolution: [
 
-    ]
+    ],
+    color: "Red"
   },
   {
     id: "SIGILYPH",
@@ -73202,7 +73762,8 @@ export const fakemons: Fakemon[] =
     suffix: "normal",
     evolution: [
 
-    ]
+    ],
+    color: "Black"
   },
   {
     id: "YAMASK",
@@ -73318,7 +73879,8 @@ export const fakemons: Fakemon[] =
         method: "Level",
         value: "34"
       }
-    ]
+    ],
+    color: "Black"
   },
   {
     id: "COFAGRIGUS",
@@ -73442,7 +74004,8 @@ export const fakemons: Fakemon[] =
     suffix: "normal",
     evolution: [
 
-    ]
+    ],
+    color: "Yellow"
   },
   {
     id: "TIRTOUGA",
@@ -73567,7 +74130,8 @@ export const fakemons: Fakemon[] =
         method: "Level",
         value: "37"
       }
-    ]
+    ],
+    color: "Blue"
   },
   {
     id: "CARRACOSTA",
@@ -73690,7 +74254,8 @@ export const fakemons: Fakemon[] =
     suffix: "normal",
     evolution: [
 
-    ]
+    ],
+    color: "Blue"
   },
   {
     id: "ARCHEN",
@@ -73822,7 +74387,8 @@ export const fakemons: Fakemon[] =
         method: "Level",
         value: "37"
       }
-    ]
+    ],
+    color: "Yellow"
   },
   {
     id: "ARCHEOPS",
@@ -73953,7 +74519,8 @@ export const fakemons: Fakemon[] =
     suffix: "normal",
     evolution: [
 
-    ]
+    ],
+    color: "Yellow"
   },
   {
     id: "TRUBBISH",
@@ -74061,7 +74628,8 @@ export const fakemons: Fakemon[] =
         method: "Level",
         value: "36"
       }
-    ]
+    ],
+    color: "Green"
   },
   {
     id: "GARBODOR",
@@ -74177,7 +74745,8 @@ export const fakemons: Fakemon[] =
     suffix: "normal",
     evolution: [
 
-    ]
+    ],
+    color: "Green"
   },
   {
     id: "ZORUA",
@@ -74308,7 +74877,8 @@ export const fakemons: Fakemon[] =
         method: "Level",
         value: "30"
       }
-    ]
+    ],
+    color: "Gray"
   },
   {
     id: "ZOROARK",
@@ -74448,7 +75018,8 @@ export const fakemons: Fakemon[] =
     suffix: "normal",
     evolution: [
 
-    ]
+    ],
+    color: "Gray"
   },
   {
     id: "MINCCINO",
@@ -74572,7 +75143,8 @@ export const fakemons: Fakemon[] =
         method: "Item",
         value: "SHINYSTONE"
       }
-    ]
+    ],
+    color: "Gray"
   },
   {
     id: "CINCCINO",
@@ -74699,7 +75271,8 @@ export const fakemons: Fakemon[] =
     suffix: "normal",
     evolution: [
 
-    ]
+    ],
+    color: "Gray"
   },
   {
     id: "GOTHITA",
@@ -74834,7 +75407,8 @@ export const fakemons: Fakemon[] =
         method: "Level",
         value: "32"
       }
-    ]
+    ],
+    color: "Purple"
   },
   {
     id: "GOTHORITA",
@@ -74965,7 +75539,8 @@ export const fakemons: Fakemon[] =
         method: "Level",
         value: "41"
       }
-    ]
+    ],
+    color: "Purple"
   },
   {
     id: "GOTHITELLE",
@@ -75102,7 +75677,8 @@ export const fakemons: Fakemon[] =
     suffix: "normal",
     evolution: [
 
-    ]
+    ],
+    color: "Purple"
   },
   {
     id: "SOLOSIS",
@@ -75236,7 +75812,8 @@ export const fakemons: Fakemon[] =
         method: "Level",
         value: "32"
       }
-    ]
+    ],
+    color: "Green"
   },
   {
     id: "DUOSION",
@@ -75368,7 +75945,8 @@ export const fakemons: Fakemon[] =
         method: "Level",
         value: "41"
       }
-    ]
+    ],
+    color: "Green"
   },
   {
     id: "REUNICLUS",
@@ -75516,7 +76094,8 @@ export const fakemons: Fakemon[] =
     suffix: "normal",
     evolution: [
 
-    ]
+    ],
+    color: "Green"
   },
   {
     id: "DUCKLETT",
@@ -75631,7 +76210,8 @@ export const fakemons: Fakemon[] =
         method: "Level",
         value: "35"
       }
-    ]
+    ],
+    color: "Blue"
   },
   {
     id: "SWANNA",
@@ -75741,7 +76321,8 @@ export const fakemons: Fakemon[] =
     suffix: "normal",
     evolution: [
 
-    ]
+    ],
+    color: "White"
   },
   {
     id: "VANILLITE",
@@ -75846,7 +76427,8 @@ export const fakemons: Fakemon[] =
         method: "Level",
         value: "35"
       }
-    ]
+    ],
+    color: "White"
   },
   {
     id: "VANILLISH",
@@ -75946,7 +76528,8 @@ export const fakemons: Fakemon[] =
         method: "Level",
         value: "47"
       }
-    ]
+    ],
+    color: "White"
   },
   {
     id: "VANILLUXE",
@@ -76049,7 +76632,8 @@ export const fakemons: Fakemon[] =
     suffix: "normal",
     evolution: [
 
-    ]
+    ],
+    color: "White"
   },
   {
     id: "DEERLING",
@@ -76174,7 +76758,8 @@ export const fakemons: Fakemon[] =
         method: "Level",
         value: "34"
       }
-    ]
+    ],
+    color: "Pink"
   },
   {
     id: "SAWSBUCK",
@@ -76299,7 +76884,8 @@ export const fakemons: Fakemon[] =
     suffix: "normal",
     evolution: [
 
-    ]
+    ],
+    color: "Brown"
   },
   {
     id: "EMOLGA",
@@ -76415,7 +77001,8 @@ export const fakemons: Fakemon[] =
     suffix: "normal",
     evolution: [
 
-    ]
+    ],
+    color: "White"
   },
   {
     id: "KARRABLAST",
@@ -76517,7 +77104,8 @@ export const fakemons: Fakemon[] =
         method: "TradeSpecies",
         value: "SHELMET"
       }
-    ]
+    ],
+    color: "Blue"
   },
   {
     id: "ESCAVALIER",
@@ -76634,7 +77222,8 @@ export const fakemons: Fakemon[] =
     suffix: "normal",
     evolution: [
 
-    ]
+    ],
+    color: "Gray"
   },
   {
     id: "FOONGUS",
@@ -76738,7 +77327,8 @@ export const fakemons: Fakemon[] =
         method: "Level",
         value: "39"
       }
-    ]
+    ],
+    color: "White"
   },
   {
     id: "AMOONGUSS",
@@ -76840,7 +77430,8 @@ export const fakemons: Fakemon[] =
     suffix: "normal",
     evolution: [
 
-    ]
+    ],
+    color: "White"
   },
   {
     id: "FRILLISH",
@@ -76960,7 +77551,8 @@ export const fakemons: Fakemon[] =
         method: "Level",
         value: "40"
       }
-    ]
+    ],
+    color: "White"
   },
   {
     id: "JELLICENT",
@@ -77075,7 +77667,8 @@ export const fakemons: Fakemon[] =
     suffix: "normal",
     evolution: [
 
-    ]
+    ],
+    color: "White"
   },
   {
     id: "ALOMOMOLA",
@@ -77192,7 +77785,8 @@ export const fakemons: Fakemon[] =
     suffix: "normal",
     evolution: [
 
-    ]
+    ],
+    color: "Pink"
   },
   {
     id: "JOLTIK",
@@ -77312,7 +77906,8 @@ export const fakemons: Fakemon[] =
         method: "Level",
         value: "36"
       }
-    ]
+    ],
+    color: "Yellow"
   },
   {
     id: "GALVANTULA",
@@ -77429,7 +78024,8 @@ export const fakemons: Fakemon[] =
     suffix: "normal",
     evolution: [
 
-    ]
+    ],
+    color: "Yellow"
   },
   {
     id: "FERROSEED",
@@ -77541,7 +78137,8 @@ export const fakemons: Fakemon[] =
         method: "Level",
         value: "40"
       }
-    ]
+    ],
+    color: "Gray"
   },
   {
     id: "FERROTHORN",
@@ -77662,7 +78259,8 @@ export const fakemons: Fakemon[] =
     suffix: "normal",
     evolution: [
 
-    ]
+    ],
+    color: "Gray"
   },
   {
     id: "KLINK",
@@ -77763,7 +78361,8 @@ export const fakemons: Fakemon[] =
         method: "Level",
         value: "38"
       }
-    ]
+    ],
+    color: "Gray"
   },
   {
     id: "KLANG",
@@ -77865,7 +78464,8 @@ export const fakemons: Fakemon[] =
         method: "Level",
         value: "49"
       }
-    ]
+    ],
+    color: "Gray"
   },
   {
     id: "KLINKLANG",
@@ -77970,7 +78570,8 @@ export const fakemons: Fakemon[] =
     suffix: "normal",
     evolution: [
 
-    ]
+    ],
+    color: "Gray"
   },
   {
     id: "TYNAMO",
@@ -78022,7 +78623,8 @@ export const fakemons: Fakemon[] =
         method: "Level",
         value: "39"
       }
-    ]
+    ],
+    color: "White"
   },
   {
     id: "EELEKTRIK",
@@ -78135,7 +78737,8 @@ export const fakemons: Fakemon[] =
         method: "Item",
         value: "THUNDERSTONE"
       }
-    ]
+    ],
+    color: "Blue"
   },
   {
     id: "EELEKTROSS",
@@ -78273,7 +78876,8 @@ export const fakemons: Fakemon[] =
     suffix: "normal",
     evolution: [
 
-    ]
+    ],
+    color: "Blue"
   },
   {
     id: "ELGYEM",
@@ -78401,7 +79005,8 @@ export const fakemons: Fakemon[] =
         method: "Level",
         value: "42"
       }
-    ]
+    ],
+    color: "Blue"
   },
   {
     id: "BEHEEYEM",
@@ -78529,7 +79134,8 @@ export const fakemons: Fakemon[] =
     suffix: "normal",
     evolution: [
 
-    ]
+    ],
+    color: "Brown"
   },
   {
     id: "LITWICK",
@@ -78654,7 +79260,8 @@ export const fakemons: Fakemon[] =
         method: "Level",
         value: "41"
       }
-    ]
+    ],
+    color: "White"
   },
   {
     id: "LAMPENT",
@@ -78777,7 +79384,8 @@ export const fakemons: Fakemon[] =
         method: "Item",
         value: "DUSKSTONE"
       }
-    ]
+    ],
+    color: "Black"
   },
   {
     id: "CHANDELURE",
@@ -78900,7 +79508,8 @@ export const fakemons: Fakemon[] =
     suffix: "normal",
     evolution: [
 
-    ]
+    ],
+    color: "Black"
   },
   {
     id: "AXEW",
@@ -79037,7 +79646,8 @@ export const fakemons: Fakemon[] =
         method: "Level",
         value: "38"
       }
-    ]
+    ],
+    color: "Green"
   },
   {
     id: "FRAXURE",
@@ -79169,7 +79779,8 @@ export const fakemons: Fakemon[] =
         method: "Level",
         value: "48"
       }
-    ]
+    ],
+    color: "Green"
   },
   {
     id: "HAXORUS",
@@ -79308,7 +79919,8 @@ export const fakemons: Fakemon[] =
     suffix: "normal",
     evolution: [
 
-    ]
+    ],
+    color: "Yellow"
   },
   {
     id: "CUBCHOO",
@@ -79443,7 +80055,8 @@ export const fakemons: Fakemon[] =
         method: "Level",
         value: "37"
       }
-    ]
+    ],
+    color: "White"
   },
   {
     id: "BEARTIC",
@@ -79593,7 +80206,8 @@ export const fakemons: Fakemon[] =
     suffix: "normal",
     evolution: [
 
-    ]
+    ],
+    color: "White"
   },
   {
     id: "CRYOGONAL",
@@ -79705,7 +80319,8 @@ export const fakemons: Fakemon[] =
     suffix: "normal",
     evolution: [
 
-    ]
+    ],
+    color: "Blue"
   },
   {
     id: "SHELMET",
@@ -79805,7 +80420,8 @@ export const fakemons: Fakemon[] =
         method: "TradeSpecies",
         value: "KARRABLAST"
       }
-    ]
+    ],
+    color: "Red"
   },
   {
     id: "ACCELGOR",
@@ -79919,7 +80535,8 @@ export const fakemons: Fakemon[] =
     suffix: "normal",
     evolution: [
 
-    ]
+    ],
+    color: "Red"
   },
   {
     id: "STUNFISK",
@@ -80038,7 +80655,8 @@ export const fakemons: Fakemon[] =
     suffix: "normal",
     evolution: [
 
-    ]
+    ],
+    color: "Brown"
   },
   {
     id: "MIENFOO",
@@ -80166,7 +80784,8 @@ export const fakemons: Fakemon[] =
         method: "Level",
         value: "50"
       }
-    ]
+    ],
+    color: "Yellow"
   },
   {
     id: "MIENSHAO",
@@ -80298,7 +80917,8 @@ export const fakemons: Fakemon[] =
     suffix: "normal",
     evolution: [
 
-    ]
+    ],
+    color: "Purple"
   },
   {
     id: "DRUDDIGON",
@@ -80432,7 +81052,8 @@ export const fakemons: Fakemon[] =
     suffix: "normal",
     evolution: [
 
-    ]
+    ],
+    color: "Red"
   },
   {
     id: "GOLETT",
@@ -80574,7 +81195,8 @@ export const fakemons: Fakemon[] =
         method: "Level",
         value: "43"
       }
-    ]
+    ],
+    color: "Green"
   },
   {
     id: "GOLURK",
@@ -80730,7 +81352,8 @@ export const fakemons: Fakemon[] =
     suffix: "normal",
     evolution: [
 
-    ]
+    ],
+    color: "Green"
   },
   {
     id: "PAWNIARD",
@@ -80864,7 +81487,8 @@ export const fakemons: Fakemon[] =
         method: "Level",
         value: "52"
       }
-    ]
+    ],
+    color: "Red"
   },
   {
     id: "BISHARP",
@@ -81002,7 +81626,8 @@ export const fakemons: Fakemon[] =
         method: "Counter",
         value: "3"
       }
-    ]
+    ],
+    color: "Red"
   },
   {
     id: "BOUFFALANT",
@@ -81121,7 +81746,8 @@ export const fakemons: Fakemon[] =
     suffix: "normal",
     evolution: [
 
-    ]
+    ],
+    color: "Brown"
   },
   {
     id: "RUFFLET",
@@ -81240,7 +81866,8 @@ export const fakemons: Fakemon[] =
         method: "Level",
         value: "54"
       }
-    ]
+    ],
+    color: "White"
   },
   {
     id: "BRAVIARY",
@@ -81362,7 +81989,8 @@ export const fakemons: Fakemon[] =
     suffix: "normal",
     evolution: [
 
-    ]
+    ],
+    color: "Red"
   },
   {
     id: "VULLABY",
@@ -81488,7 +82116,8 @@ export const fakemons: Fakemon[] =
         method: "Level",
         value: "54"
       }
-    ]
+    ],
+    color: "Brown"
   },
   {
     id: "MANDIBUZZ",
@@ -81618,7 +82247,8 @@ export const fakemons: Fakemon[] =
     suffix: "normal",
     evolution: [
 
-    ]
+    ],
+    color: "Brown"
   },
   {
     id: "HEATMOR",
@@ -81741,7 +82371,8 @@ export const fakemons: Fakemon[] =
     suffix: "normal",
     evolution: [
 
-    ]
+    ],
+    color: "Red"
   },
   {
     id: "DURANT",
@@ -81855,7 +82486,8 @@ export const fakemons: Fakemon[] =
     suffix: "normal",
     evolution: [
 
-    ]
+    ],
+    color: "Gray"
   },
   {
     id: "DEINO",
@@ -81975,7 +82607,8 @@ export const fakemons: Fakemon[] =
         method: "Level",
         value: "50"
       }
-    ]
+    ],
+    color: "Blue"
   },
   {
     id: "ZWEILOUS",
@@ -82097,7 +82730,8 @@ export const fakemons: Fakemon[] =
         method: "Level",
         value: "64"
       }
-    ]
+    ],
+    color: "Blue"
   },
   {
     id: "HYDREIGON",
@@ -82252,7 +82886,8 @@ export const fakemons: Fakemon[] =
     suffix: "normal",
     evolution: [
 
-    ]
+    ],
+    color: "Blue"
   },
   {
     id: "LARVESTA",
@@ -82366,7 +83001,8 @@ export const fakemons: Fakemon[] =
         method: "Level",
         value: "59"
       }
-    ]
+    ],
+    color: "White"
   },
   {
     id: "VOLCARONA",
@@ -82495,7 +83131,8 @@ export const fakemons: Fakemon[] =
     suffix: "normal",
     evolution: [
 
-    ]
+    ],
+    color: "White"
   },
   {
     id: "COBALION",
@@ -82625,7 +83262,8 @@ export const fakemons: Fakemon[] =
     suffix: "normal",
     evolution: [
 
-    ]
+    ],
+    color: "Blue"
   },
   {
     id: "TERRAKION",
@@ -82749,7 +83387,8 @@ export const fakemons: Fakemon[] =
     suffix: "normal",
     evolution: [
 
-    ]
+    ],
+    color: "Gray"
   },
   {
     id: "VIRIZION",
@@ -82880,7 +83519,8 @@ export const fakemons: Fakemon[] =
     suffix: "normal",
     evolution: [
 
-    ]
+    ],
+    color: "Green"
   },
   {
     id: "TORNADUS",
@@ -83011,7 +83651,8 @@ export const fakemons: Fakemon[] =
     suffix: "normal",
     evolution: [
 
-    ]
+    ],
+    color: "Green"
   },
   {
     id: "THUNDURUS",
@@ -83150,7 +83791,8 @@ export const fakemons: Fakemon[] =
     suffix: "normal",
     evolution: [
 
-    ]
+    ],
+    color: "Blue"
   },
   {
     id: "RESHIRAM",
@@ -83288,7 +83930,8 @@ export const fakemons: Fakemon[] =
     suffix: "normal",
     evolution: [
 
-    ]
+    ],
+    color: "White"
   },
   {
     id: "ZEKROM",
@@ -83434,7 +84077,8 @@ export const fakemons: Fakemon[] =
     suffix: "normal",
     evolution: [
 
-    ]
+    ],
+    color: "Black"
   },
   {
     id: "LANDORUS",
@@ -83563,7 +84207,8 @@ export const fakemons: Fakemon[] =
     suffix: "normal",
     evolution: [
 
-    ]
+    ],
+    color: "Brown"
   },
   {
     id: "KYUREM",
@@ -83696,7 +84341,8 @@ export const fakemons: Fakemon[] =
     suffix: "normal",
     evolution: [
 
-    ]
+    ],
+    color: "Gray"
   },
   {
     id: "KELDEO",
@@ -83823,7 +84469,8 @@ export const fakemons: Fakemon[] =
     suffix: "normal",
     evolution: [
 
-    ]
+    ],
+    color: "Yellow"
   },
   {
     id: "MELOETTA",
@@ -83975,7 +84622,8 @@ export const fakemons: Fakemon[] =
     suffix: "normal",
     evolution: [
 
-    ]
+    ],
+    color: "White"
   },
   {
     id: "GENESECT",
@@ -84100,7 +84748,8 @@ export const fakemons: Fakemon[] =
     suffix: "normal",
     evolution: [
 
-    ]
+    ],
+    color: "Purple"
   },
   {
     id: "CHESPIN",
@@ -84240,7 +84889,8 @@ export const fakemons: Fakemon[] =
         method: "Level",
         value: "16"
       }
-    ]
+    ],
+    color: "Green"
   },
   {
     id: "QUILLADIN",
@@ -84379,7 +85029,8 @@ export const fakemons: Fakemon[] =
         method: "Level",
         value: "36"
       }
-    ]
+    ],
+    color: "Green"
   },
   {
     id: "CHESNAUGHT",
@@ -84539,7 +85190,8 @@ export const fakemons: Fakemon[] =
     suffix: "normal",
     evolution: [
 
-    ]
+    ],
+    color: "Green"
   },
   {
     id: "FENNEKIN",
@@ -84668,7 +85320,8 @@ export const fakemons: Fakemon[] =
         method: "Level",
         value: "16"
       }
-    ]
+    ],
+    color: "Red"
   },
   {
     id: "BRAIXEN",
@@ -84803,7 +85456,8 @@ export const fakemons: Fakemon[] =
         method: "Level",
         value: "36"
       }
-    ]
+    ],
+    color: "Red"
   },
   {
     id: "DELPHOX",
@@ -84960,7 +85614,8 @@ export const fakemons: Fakemon[] =
     suffix: "normal",
     evolution: [
 
-    ]
+    ],
+    color: "Red"
   },
   {
     id: "FROAKIE",
@@ -85089,7 +85744,8 @@ export const fakemons: Fakemon[] =
         method: "Level",
         value: "16"
       }
-    ]
+    ],
+    color: "Blue"
   },
   {
     id: "FROGADIER",
@@ -85212,7 +85868,8 @@ export const fakemons: Fakemon[] =
         method: "Level",
         value: "36"
       }
-    ]
+    ],
+    color: "Blue"
   },
   {
     id: "GRENINJA",
@@ -85347,7 +86004,8 @@ export const fakemons: Fakemon[] =
     suffix: "normal",
     evolution: [
 
-    ]
+    ],
+    color: "Blue"
   },
   {
     id: "BUNNELBY",
@@ -85462,7 +86120,8 @@ export const fakemons: Fakemon[] =
         method: "Level",
         value: "20"
       }
-    ]
+    ],
+    color: "Brown"
   },
   {
     id: "DIGGERSBY",
@@ -85597,7 +86256,8 @@ export const fakemons: Fakemon[] =
     suffix: "normal",
     evolution: [
 
-    ]
+    ],
+    color: "Brown"
   },
   {
     id: "FLETCHLING",
@@ -85703,7 +86363,8 @@ export const fakemons: Fakemon[] =
         method: "Level",
         value: "17"
       }
-    ]
+    ],
+    color: "Red"
   },
   {
     id: "FLETCHINDER",
@@ -85815,7 +86476,8 @@ export const fakemons: Fakemon[] =
         method: "Level",
         value: "35"
       }
-    ]
+    ],
+    color: "Red"
   },
   {
     id: "TALONFLAME",
@@ -85931,7 +86593,8 @@ export const fakemons: Fakemon[] =
     suffix: "normal",
     evolution: [
 
-    ]
+    ],
+    color: "Red"
   },
   {
     id: "SCATTERBUG",
@@ -85984,7 +86647,8 @@ export const fakemons: Fakemon[] =
         method: "Level",
         value: "9"
       }
-    ]
+    ],
+    color: "Black"
   },
   {
     id: "SPEWPA",
@@ -86034,7 +86698,8 @@ export const fakemons: Fakemon[] =
         method: "Level",
         value: "12"
       }
-    ]
+    ],
+    color: "Black"
   },
   {
     id: "VIVILLON",
@@ -86143,7 +86808,8 @@ export const fakemons: Fakemon[] =
     suffix: "normal",
     evolution: [
 
-    ]
+    ],
+    color: "White"
   },
   {
     id: "LITLEO",
@@ -86267,7 +86933,8 @@ export const fakemons: Fakemon[] =
         method: "Level",
         value: "35"
       }
-    ]
+    ],
+    color: "Brown"
   },
   {
     id: "PYROAR",
@@ -86390,7 +87057,8 @@ export const fakemons: Fakemon[] =
     suffix: "normal",
     evolution: [
 
-    ]
+    ],
+    color: "Brown"
   },
   {
     id: "FLABEBE",
@@ -86508,7 +87176,8 @@ export const fakemons: Fakemon[] =
         method: "Level",
         value: "19"
       }
-    ]
+    ],
+    color: "White"
   },
   {
     id: "FLOETTE",
@@ -86625,7 +87294,8 @@ export const fakemons: Fakemon[] =
         method: "Item",
         value: "SHINYSTONE"
       }
-    ]
+    ],
+    color: "White"
   },
   {
     id: "FLORGES",
@@ -86741,7 +87411,8 @@ export const fakemons: Fakemon[] =
     suffix: "normal",
     evolution: [
 
-    ]
+    ],
+    color: "White"
   },
   {
     id: "SKIDDO",
@@ -86861,7 +87532,8 @@ export const fakemons: Fakemon[] =
         method: "Level",
         value: "32"
       }
-    ]
+    ],
+    color: "Brown"
   },
   {
     id: "GOGOAT",
@@ -86985,7 +87657,8 @@ export const fakemons: Fakemon[] =
     suffix: "normal",
     evolution: [
 
-    ]
+    ],
+    color: "Brown"
   },
   {
     id: "PANCHAM",
@@ -87122,7 +87795,8 @@ export const fakemons: Fakemon[] =
         method: "LevelDarkInParty",
         value: "32"
       }
-    ]
+    ],
+    color: "White"
   },
   {
     id: "PANGORO",
@@ -87279,7 +87953,8 @@ export const fakemons: Fakemon[] =
     suffix: "normal",
     evolution: [
 
-    ]
+    ],
+    color: "White"
   },
   {
     id: "FURFROU",
@@ -87380,7 +88055,8 @@ export const fakemons: Fakemon[] =
     suffix: "normal",
     evolution: [
 
-    ]
+    ],
+    color: "White"
   },
   {
     id: "ESPURR",
@@ -87505,7 +88181,8 @@ export const fakemons: Fakemon[] =
         method: "Level",
         value: "25"
       }
-    ]
+    ],
+    color: "Gray"
   },
   {
     id: "MEOWSTIC",
@@ -87646,7 +88323,8 @@ export const fakemons: Fakemon[] =
     suffix: "normal",
     evolution: [
 
-    ]
+    ],
+    color: "Blue"
   },
   {
     id: "HONEDGE",
@@ -87752,7 +88430,8 @@ export const fakemons: Fakemon[] =
         method: "Level",
         value: "35"
       }
-    ]
+    ],
+    color: "Brown"
   },
   {
     id: "DOUBLADE",
@@ -87856,7 +88535,8 @@ export const fakemons: Fakemon[] =
         method: "Item",
         value: "DUSKSTONE"
       }
-    ]
+    ],
+    color: "Brown"
   },
   {
     id: "AEGISLASH",
@@ -87964,7 +88644,8 @@ export const fakemons: Fakemon[] =
     suffix: "normal",
     evolution: [
 
-    ]
+    ],
+    color: "Brown"
   },
   {
     id: "SPRITZEE",
@@ -88077,7 +88758,8 @@ export const fakemons: Fakemon[] =
         method: "TradeItem",
         value: "SACHET"
       }
-    ]
+    ],
+    color: "Pink"
   },
   {
     id: "AROMATISSE",
@@ -88193,7 +88875,8 @@ export const fakemons: Fakemon[] =
     suffix: "normal",
     evolution: [
 
-    ]
+    ],
+    color: "Pink"
   },
   {
     id: "SWIRLIX",
@@ -88301,7 +88984,8 @@ export const fakemons: Fakemon[] =
         method: "TradeItem",
         value: "WHIPPEDDREAM"
       }
-    ]
+    ],
+    color: "White"
   },
   {
     id: "SLURPUFF",
@@ -88408,7 +89092,8 @@ export const fakemons: Fakemon[] =
     suffix: "normal",
     evolution: [
 
-    ]
+    ],
+    color: "White"
   },
   {
     id: "INKAY",
@@ -88538,7 +89223,8 @@ export const fakemons: Fakemon[] =
         method: "Level",
         value: "30"
       }
-    ]
+    ],
+    color: "Blue"
   },
   {
     id: "MALAMAR",
@@ -88673,7 +89359,8 @@ export const fakemons: Fakemon[] =
     suffix: "normal",
     evolution: [
 
-    ]
+    ],
+    color: "Blue"
   },
   {
     id: "BINACLE",
@@ -88805,7 +89492,8 @@ export const fakemons: Fakemon[] =
         method: "Level",
         value: "39"
       }
-    ]
+    ],
+    color: "Brown"
   },
   {
     id: "BARBARACLE",
@@ -88947,7 +89635,8 @@ export const fakemons: Fakemon[] =
     suffix: "normal",
     evolution: [
 
-    ]
+    ],
+    color: "Brown"
   },
   {
     id: "SKRELP",
@@ -89068,7 +89757,8 @@ export const fakemons: Fakemon[] =
         method: "Level",
         value: "48"
       }
-    ]
+    ],
+    color: "Brown"
   },
   {
     id: "DRAGALGE",
@@ -89188,7 +89878,8 @@ export const fakemons: Fakemon[] =
     suffix: "normal",
     evolution: [
 
-    ]
+    ],
+    color: "Brown"
   },
   {
     id: "CLAUNCHER",
@@ -89300,7 +89991,8 @@ export const fakemons: Fakemon[] =
         method: "Level",
         value: "37"
       }
-    ]
+    ],
+    color: "Blue"
   },
   {
     id: "CLAWITZER",
@@ -89417,7 +90109,8 @@ export const fakemons: Fakemon[] =
     suffix: "normal",
     evolution: [
 
-    ]
+    ],
+    color: "Blue"
   },
   {
     id: "HELIOPTILE",
@@ -89530,7 +90223,8 @@ export const fakemons: Fakemon[] =
         method: "Item",
         value: "SUNSTONE"
       }
-    ]
+    ],
+    color: "Yellow"
   },
   {
     id: "HELIOLISK",
@@ -89655,7 +90349,8 @@ export const fakemons: Fakemon[] =
     suffix: "normal",
     evolution: [
 
-    ]
+    ],
+    color: "Yellow"
   },
   {
     id: "TYRUNT",
@@ -89782,7 +90477,8 @@ export const fakemons: Fakemon[] =
         method: "LevelDay",
         value: "39"
       }
-    ]
+    ],
+    color: "Brown"
   },
   {
     id: "TYRANTRUM",
@@ -89909,7 +90605,8 @@ export const fakemons: Fakemon[] =
     suffix: "normal",
     evolution: [
 
-    ]
+    ],
+    color: "Red"
   },
   {
     id: "AMAURA",
@@ -90042,7 +90739,8 @@ export const fakemons: Fakemon[] =
         method: "LevelNight",
         value: "39"
       }
-    ]
+    ],
+    color: "Blue"
   },
   {
     id: "AURORUS",
@@ -90171,7 +90869,8 @@ export const fakemons: Fakemon[] =
     suffix: "normal",
     evolution: [
 
-    ]
+    ],
+    color: "Blue"
   },
   {
     id: "SYLVEON",
@@ -90305,7 +91004,8 @@ export const fakemons: Fakemon[] =
     suffix: "normal",
     evolution: [
 
-    ]
+    ],
+    color: "Pink"
   },
   {
     id: "HAWLUCHA",
@@ -90461,7 +91161,8 @@ export const fakemons: Fakemon[] =
     suffix: "normal",
     evolution: [
 
-    ]
+    ],
+    color: "Green"
   },
   {
     id: "DEDENNE",
@@ -90585,7 +91286,8 @@ export const fakemons: Fakemon[] =
     suffix: "normal",
     evolution: [
 
-    ]
+    ],
+    color: "Yellow"
   },
   {
     id: "CARBINK",
@@ -90709,7 +91411,8 @@ export const fakemons: Fakemon[] =
     suffix: "normal",
     evolution: [
 
-    ]
+    ],
+    color: "Gray"
   },
   {
     id: "GOOMY",
@@ -90806,7 +91509,8 @@ export const fakemons: Fakemon[] =
         method: "Level",
         value: "40"
       }
-    ]
+    ],
+    color: "Purple"
   },
   {
     id: "SLIGGOO",
@@ -90909,7 +91613,8 @@ export const fakemons: Fakemon[] =
         method: "LevelRain",
         value: "50"
       }
-    ]
+    ],
+    color: "Purple"
   },
   {
     id: "GOODRA",
@@ -91045,7 +91750,8 @@ export const fakemons: Fakemon[] =
     suffix: "normal",
     evolution: [
 
-    ]
+    ],
+    color: "Purple"
   },
   {
     id: "KLEFKI",
@@ -91157,7 +91863,8 @@ export const fakemons: Fakemon[] =
     suffix: "normal",
     evolution: [
 
-    ]
+    ],
+    color: "Gray"
   },
   {
     id: "PHANTUMP",
@@ -91285,7 +91992,8 @@ export const fakemons: Fakemon[] =
     suffix: "normal",
     evolution: [
 
-    ]
+    ],
+    color: "Brown"
   },
   {
     id: "TREVENANT",
@@ -91430,7 +92138,8 @@ export const fakemons: Fakemon[] =
     suffix: "normal",
     evolution: [
 
-    ]
+    ],
+    color: "Brown"
   },
   {
     id: "PUMPKABOO",
@@ -91554,7 +92263,8 @@ export const fakemons: Fakemon[] =
     suffix: "normal",
     evolution: [
 
-    ]
+    ],
+    color: "Brown"
   },
   {
     id: "GOURGEIST",
@@ -91686,7 +92396,8 @@ export const fakemons: Fakemon[] =
     suffix: "normal",
     evolution: [
 
-    ]
+    ],
+    color: "Brown"
   },
   {
     id: "BERGMITE",
@@ -91796,7 +92507,8 @@ export const fakemons: Fakemon[] =
         method: "Level",
         value: "37"
       }
-    ]
+    ],
+    color: "Blue"
   },
   {
     id: "AVALUGG",
@@ -91917,7 +92629,8 @@ export const fakemons: Fakemon[] =
     suffix: "normal",
     evolution: [
 
-    ]
+    ],
+    color: "Blue"
   },
   {
     id: "NOIBAT",
@@ -92045,7 +92758,8 @@ export const fakemons: Fakemon[] =
         method: "Level",
         value: "48"
       }
-    ]
+    ],
+    color: "Purple"
   },
   {
     id: "NOIVERN",
@@ -92181,7 +92895,8 @@ export const fakemons: Fakemon[] =
     suffix: "normal",
     evolution: [
 
-    ]
+    ],
+    color: "Purple"
   },
   {
     id: "XERNEAS",
@@ -92299,7 +93014,8 @@ export const fakemons: Fakemon[] =
     suffix: "normal",
     evolution: [
 
-    ]
+    ],
+    color: "Blue"
   },
   {
     id: "YVELTAL",
@@ -92419,7 +93135,8 @@ export const fakemons: Fakemon[] =
     suffix: "normal",
     evolution: [
 
-    ]
+    ],
+    color: "Red"
   },
   {
     id: "ZYGARDE",
@@ -92538,7 +93255,8 @@ export const fakemons: Fakemon[] =
     suffix: "normal",
     evolution: [
 
-    ]
+    ],
+    color: "Green"
   },
   {
     id: "DIANCIE",
@@ -92674,7 +93392,8 @@ export const fakemons: Fakemon[] =
     suffix: "normal",
     evolution: [
 
-    ]
+    ],
+    color: "Pink"
   },
   {
     id: "HOOPA",
@@ -92820,7 +93539,8 @@ export const fakemons: Fakemon[] =
     suffix: "normal",
     evolution: [
 
-    ]
+    ],
+    color: "Purple"
   },
   {
     id: "VOLCANION",
@@ -92955,7 +93675,8 @@ export const fakemons: Fakemon[] =
     suffix: "normal",
     evolution: [
 
-    ]
+    ],
+    color: "Brown"
   },
   {
     id: "ROWLET",
@@ -93080,7 +93801,8 @@ export const fakemons: Fakemon[] =
         method: "Level",
         value: "17"
       }
-    ]
+    ],
+    color: "Brown"
   },
   {
     id: "DARTRIX",
@@ -93203,7 +93925,8 @@ export const fakemons: Fakemon[] =
         method: "Level",
         value: "34"
       }
-    ]
+    ],
+    color: "Brown"
   },
   {
     id: "DECIDUEYE",
@@ -93347,7 +94070,8 @@ export const fakemons: Fakemon[] =
     suffix: "normal",
     evolution: [
 
-    ]
+    ],
+    color: "Brown"
   },
   {
     id: "LITTEN",
@@ -93460,7 +94184,8 @@ export const fakemons: Fakemon[] =
         method: "Level",
         value: "17"
       }
-    ]
+    ],
+    color: "Red"
   },
   {
     id: "TORRACAT",
@@ -93572,7 +94297,8 @@ export const fakemons: Fakemon[] =
         method: "Level",
         value: "34"
       }
-    ]
+    ],
+    color: "Red"
   },
   {
     id: "INCINEROAR",
@@ -93725,7 +94451,8 @@ export const fakemons: Fakemon[] =
     suffix: "normal",
     evolution: [
 
-    ]
+    ],
+    color: "Red"
   },
   {
     id: "POPPLIO",
@@ -93837,7 +94564,8 @@ export const fakemons: Fakemon[] =
         method: "Level",
         value: "17"
       }
-    ]
+    ],
+    color: "Blue"
   },
   {
     id: "BRIONNE",
@@ -93948,7 +94676,8 @@ export const fakemons: Fakemon[] =
         method: "Level",
         value: "34"
       }
-    ]
+    ],
+    color: "Blue"
   },
   {
     id: "PRIMARINA",
@@ -94078,7 +94807,8 @@ export const fakemons: Fakemon[] =
     suffix: "normal",
     evolution: [
 
-    ]
+    ],
+    color: "Blue"
   },
   {
     id: "PIKIPEK",
@@ -94192,7 +94922,8 @@ export const fakemons: Fakemon[] =
         method: "Level",
         value: "14"
       }
-    ]
+    ],
+    color: "Black"
   },
   {
     id: "TRUMBEAK",
@@ -94303,7 +95034,8 @@ export const fakemons: Fakemon[] =
         method: "Level",
         value: "28"
       }
-    ]
+    ],
+    color: "Black"
   },
   {
     id: "TOUCANNON",
@@ -94422,7 +95154,8 @@ export const fakemons: Fakemon[] =
     suffix: "normal",
     evolution: [
 
-    ]
+    ],
+    color: "Black"
   },
   {
     id: "YUNGOOS",
@@ -94540,7 +95273,8 @@ export const fakemons: Fakemon[] =
         method: "LevelDay",
         value: "20"
       }
-    ]
+    ],
+    color: "Brown"
   },
   {
     id: "GUMSHOOS",
@@ -94665,7 +95399,8 @@ export const fakemons: Fakemon[] =
     suffix: "normal",
     evolution: [
 
-    ]
+    ],
+    color: "Brown"
   },
   {
     id: "GRUBBIN",
@@ -94765,7 +95500,8 @@ export const fakemons: Fakemon[] =
         method: "Level",
         value: "20"
       }
-    ]
+    ],
+    color: "Gray"
   },
   {
     id: "CHARJABUG",
@@ -94872,7 +95608,8 @@ export const fakemons: Fakemon[] =
         method: "Item",
         value: "THUNDERSTONE"
       }
-    ]
+    ],
+    color: "Green"
   },
   {
     id: "VIKAVOLT",
@@ -94998,7 +95735,8 @@ export const fakemons: Fakemon[] =
     suffix: "normal",
     evolution: [
 
-    ]
+    ],
+    color: "Blue"
   },
   {
     id: "CRABRAWLER",
@@ -95120,7 +95858,8 @@ export const fakemons: Fakemon[] =
         method: "Item",
         value: "ICESTONE"
       }
-    ]
+    ],
+    color: "Purple"
   },
   {
     id: "CRABOMINABLE",
@@ -95248,7 +95987,8 @@ export const fakemons: Fakemon[] =
     suffix: "normal",
     evolution: [
 
-    ]
+    ],
+    color: "White"
   },
   {
     id: "ORICORIO",
@@ -95365,7 +96105,8 @@ export const fakemons: Fakemon[] =
     suffix: "normal",
     evolution: [
 
-    ]
+    ],
+    color: "Red"
   },
   {
     id: "CUTIEFLY",
@@ -95488,7 +96229,8 @@ export const fakemons: Fakemon[] =
         method: "Level",
         value: "25"
       }
-    ]
+    ],
+    color: "Yellow"
   },
   {
     id: "RIBOMBEE",
@@ -95617,7 +96359,8 @@ export const fakemons: Fakemon[] =
     suffix: "normal",
     evolution: [
 
-    ]
+    ],
+    color: "Yellow"
   },
   {
     id: "ROCKRUFF",
@@ -95732,7 +96475,8 @@ export const fakemons: Fakemon[] =
         method: "Level",
         value: "25"
       }
-    ]
+    ],
+    color: "Brown"
   },
   {
     id: "LYCANROC",
@@ -95856,7 +96600,8 @@ export const fakemons: Fakemon[] =
     suffix: "normal",
     evolution: [
 
-    ]
+    ],
+    color: "Brown"
   },
   {
     id: "WISHIWASHI",
@@ -95956,7 +96701,8 @@ export const fakemons: Fakemon[] =
     suffix: "normal",
     evolution: [
 
-    ]
+    ],
+    color: "Blue"
   },
   {
     id: "MAREANIE",
@@ -96073,7 +96819,8 @@ export const fakemons: Fakemon[] =
         method: "Level",
         value: "38"
       }
-    ]
+    ],
+    color: "Blue"
   },
   {
     id: "TOXAPEX",
@@ -96191,7 +96938,8 @@ export const fakemons: Fakemon[] =
     suffix: "normal",
     evolution: [
 
-    ]
+    ],
+    color: "Blue"
   },
   {
     id: "MUDBRAY",
@@ -96300,7 +97048,8 @@ export const fakemons: Fakemon[] =
         method: "Level",
         value: "30"
       }
-    ]
+    ],
+    color: "Brown"
   },
   {
     id: "MUDSDALE",
@@ -96409,7 +97158,8 @@ export const fakemons: Fakemon[] =
     suffix: "normal",
     evolution: [
 
-    ]
+    ],
+    color: "Brown"
   },
   {
     id: "DEWPIDER",
@@ -96518,7 +97268,8 @@ export const fakemons: Fakemon[] =
         method: "Level",
         value: "22"
       }
-    ]
+    ],
+    color: "Green"
   },
   {
     id: "ARAQUANID",
@@ -96629,7 +97380,8 @@ export const fakemons: Fakemon[] =
     suffix: "normal",
     evolution: [
 
-    ]
+    ],
+    color: "Green"
   },
   {
     id: "FOMANTIS",
@@ -96737,7 +97489,8 @@ export const fakemons: Fakemon[] =
         method: "LevelDay",
         value: "34"
       }
-    ]
+    ],
+    color: "Pink"
   },
   {
     id: "LURANTIS",
@@ -96855,7 +97608,8 @@ export const fakemons: Fakemon[] =
     suffix: "normal",
     evolution: [
 
-    ]
+    ],
+    color: "Pink"
   },
   {
     id: "MORELULL",
@@ -96959,7 +97713,8 @@ export const fakemons: Fakemon[] =
         method: "Level",
         value: "24"
       }
-    ]
+    ],
+    color: "Purple"
   },
   {
     id: "SHIINOTIC",
@@ -97062,7 +97817,8 @@ export const fakemons: Fakemon[] =
     suffix: "normal",
     evolution: [
 
-    ]
+    ],
+    color: "Purple"
   },
   {
     id: "SALANDIT",
@@ -97189,7 +97945,8 @@ export const fakemons: Fakemon[] =
         method: "LevelFemale",
         value: "33"
       }
-    ]
+    ],
+    color: "Black"
   },
   {
     id: "SALAZZLE",
@@ -97330,7 +98087,8 @@ export const fakemons: Fakemon[] =
     suffix: "normal",
     evolution: [
 
-    ]
+    ],
+    color: "Black"
   },
   {
     id: "STUFFUL",
@@ -97442,7 +98200,8 @@ export const fakemons: Fakemon[] =
         method: "Level",
         value: "27"
       }
-    ]
+    ],
+    color: "Pink"
   },
   {
     id: "BEWEAR",
@@ -97561,7 +98320,8 @@ export const fakemons: Fakemon[] =
     suffix: "normal",
     evolution: [
 
-    ]
+    ],
+    color: "Pink"
   },
   {
     id: "BOUNSWEET",
@@ -97664,7 +98424,8 @@ export const fakemons: Fakemon[] =
         method: "Level",
         value: "18"
       }
-    ]
+    ],
+    color: "Purple"
   },
   {
     id: "STEENEE",
@@ -97772,7 +98533,8 @@ export const fakemons: Fakemon[] =
         method: "HasMove",
         value: "STOMP"
       }
-    ]
+    ],
+    color: "Purple"
   },
   {
     id: "TSAREENA",
@@ -97891,7 +98653,8 @@ export const fakemons: Fakemon[] =
     suffix: "normal",
     evolution: [
 
-    ]
+    ],
+    color: "Purple"
   },
   {
     id: "COMFEY",
@@ -98022,7 +98785,8 @@ export const fakemons: Fakemon[] =
     suffix: "normal",
     evolution: [
 
-    ]
+    ],
+    color: "Green"
   },
   {
     id: "ORANGURU",
@@ -98166,7 +98930,8 @@ export const fakemons: Fakemon[] =
     suffix: "normal",
     evolution: [
 
-    ]
+    ],
+    color: "White"
   },
   {
     id: "PASSIMIAN",
@@ -98305,7 +99070,8 @@ export const fakemons: Fakemon[] =
     suffix: "normal",
     evolution: [
 
-    ]
+    ],
+    color: "White"
   },
   {
     id: "WIMPOD",
@@ -98389,7 +99155,8 @@ export const fakemons: Fakemon[] =
         method: "Level",
         value: "30"
       }
-    ]
+    ],
+    color: "Gray"
   },
   {
     id: "GOLISOPOD",
@@ -98521,7 +99288,8 @@ export const fakemons: Fakemon[] =
     suffix: "normal",
     evolution: [
 
-    ]
+    ],
+    color: "Gray"
   },
   {
     id: "SANDYGAST",
@@ -98646,7 +99414,8 @@ export const fakemons: Fakemon[] =
         method: "Level",
         value: "42"
       }
-    ]
+    ],
+    color: "Brown"
   },
   {
     id: "PALOSSAND",
@@ -98768,7 +99537,8 @@ export const fakemons: Fakemon[] =
     suffix: "normal",
     evolution: [
 
-    ]
+    ],
+    color: "Brown"
   },
   {
     id: "PYUKUMUKU",
@@ -98854,7 +99624,8 @@ export const fakemons: Fakemon[] =
     suffix: "normal",
     evolution: [
 
-    ]
+    ],
+    color: "Black"
   },
   {
     id: "TYPENULL",
@@ -98953,7 +99724,8 @@ export const fakemons: Fakemon[] =
     suffix: "normal",
     evolution: [
 
-    ]
+    ],
+    color: "Gray"
   },
   {
     id: "SILVALLY",
@@ -99087,7 +99859,8 @@ export const fakemons: Fakemon[] =
     suffix: "normal",
     evolution: [
 
-    ]
+    ],
+    color: "Gray"
   },
   {
     id: "MINIOR",
@@ -99199,7 +99972,8 @@ export const fakemons: Fakemon[] =
     suffix: "normal",
     evolution: [
 
-    ]
+    ],
+    color: "Brown"
   },
   {
     id: "KOMALA",
@@ -99316,7 +100090,8 @@ export const fakemons: Fakemon[] =
     suffix: "normal",
     evolution: [
 
-    ]
+    ],
+    color: "Blue"
   },
   {
     id: "TURTONATOR",
@@ -99446,7 +100221,8 @@ export const fakemons: Fakemon[] =
     suffix: "normal",
     evolution: [
 
-    ]
+    ],
+    color: "Red"
   },
   {
     id: "TOGEDEMARU",
@@ -99569,7 +100345,8 @@ export const fakemons: Fakemon[] =
     suffix: "normal",
     evolution: [
 
-    ]
+    ],
+    color: "Gray"
   },
   {
     id: "MIMIKYU",
@@ -99700,7 +100477,8 @@ export const fakemons: Fakemon[] =
     suffix: "normal",
     evolution: [
 
-    ]
+    ],
+    color: "Yellow"
   },
   {
     id: "BRUXISH",
@@ -99827,7 +100605,8 @@ export const fakemons: Fakemon[] =
     suffix: "normal",
     evolution: [
 
-    ]
+    ],
+    color: "Pink"
   },
   {
     id: "DRAMPA",
@@ -99963,7 +100742,8 @@ export const fakemons: Fakemon[] =
     suffix: "normal",
     evolution: [
 
-    ]
+    ],
+    color: "White"
   },
   {
     id: "DHELMISE",
@@ -100088,7 +100868,8 @@ export const fakemons: Fakemon[] =
     suffix: "normal",
     evolution: [
 
-    ]
+    ],
+    color: "Green"
   },
   {
     id: "JANGMOO",
@@ -100205,7 +100986,8 @@ export const fakemons: Fakemon[] =
         method: "Level",
         value: "35"
       }
-    ]
+    ],
+    color: "Gray"
   },
   {
     id: "HAKAMOO",
@@ -100336,7 +101118,8 @@ export const fakemons: Fakemon[] =
         method: "Level",
         value: "45"
       }
-    ]
+    ],
+    color: "Gray"
   },
   {
     id: "KOMMOO",
@@ -100489,7 +101272,8 @@ export const fakemons: Fakemon[] =
     suffix: "normal",
     evolution: [
 
-    ]
+    ],
+    color: "Gray"
   },
   {
     id: "TAPUKOKO",
@@ -100612,7 +101396,8 @@ export const fakemons: Fakemon[] =
     suffix: "normal",
     evolution: [
 
-    ]
+    ],
+    color: "Yellow"
   },
   {
     id: "TAPULELE",
@@ -100728,7 +101513,8 @@ export const fakemons: Fakemon[] =
     suffix: "normal",
     evolution: [
 
-    ]
+    ],
+    color: "Pink"
   },
   {
     id: "TAPUBULU",
@@ -100854,7 +101640,8 @@ export const fakemons: Fakemon[] =
     suffix: "normal",
     evolution: [
 
-    ]
+    ],
+    color: "Red"
   },
   {
     id: "TAPUFINI",
@@ -100973,7 +101760,8 @@ export const fakemons: Fakemon[] =
     suffix: "normal",
     evolution: [
 
-    ]
+    ],
+    color: "Purple"
   },
   {
     id: "COSMOG",
@@ -101018,7 +101806,8 @@ export const fakemons: Fakemon[] =
         method: "Level",
         value: "43"
       }
-    ]
+    ],
+    color: "Blue"
   },
   {
     id: "COSMOEM",
@@ -101063,7 +101852,8 @@ export const fakemons: Fakemon[] =
         method: "LevelNight",
         value: "53"
       }
-    ]
+    ],
+    color: "Blue"
   },
   {
     id: "SOLGALEO",
@@ -101200,7 +101990,8 @@ export const fakemons: Fakemon[] =
     suffix: "normal",
     evolution: [
 
-    ]
+    ],
+    color: "White"
   },
   {
     id: "LUNALA",
@@ -101332,7 +102123,8 @@ export const fakemons: Fakemon[] =
     suffix: "normal",
     evolution: [
 
-    ]
+    ],
+    color: "Purple"
   },
   {
     id: "NIHILEGO",
@@ -101449,7 +102241,8 @@ export const fakemons: Fakemon[] =
     suffix: "normal",
     evolution: [
 
-    ]
+    ],
+    color: "White"
   },
   {
     id: "BUZZWOLE",
@@ -101563,7 +102356,8 @@ export const fakemons: Fakemon[] =
     suffix: "normal",
     evolution: [
 
-    ]
+    ],
+    color: "Red"
   },
   {
     id: "PHEROMOSA",
@@ -101674,7 +102468,8 @@ export const fakemons: Fakemon[] =
     suffix: "normal",
     evolution: [
 
-    ]
+    ],
+    color: "White"
   },
   {
     id: "XURKITREE",
@@ -101779,7 +102574,8 @@ export const fakemons: Fakemon[] =
     suffix: "normal",
     evolution: [
 
-    ]
+    ],
+    color: "Black"
   },
   {
     id: "CELESTEELA",
@@ -101891,7 +102687,8 @@ export const fakemons: Fakemon[] =
     suffix: "normal",
     evolution: [
 
-    ]
+    ],
+    color: "Green"
   },
   {
     id: "KARTANA",
@@ -101985,7 +102782,8 @@ export const fakemons: Fakemon[] =
     suffix: "normal",
     evolution: [
 
-    ]
+    ],
+    color: "White"
   },
   {
     id: "GUZZLORD",
@@ -102108,7 +102906,8 @@ export const fakemons: Fakemon[] =
     suffix: "normal",
     evolution: [
 
-    ]
+    ],
+    color: "Black"
   },
   {
     id: "NECROZMA",
@@ -102242,7 +103041,8 @@ export const fakemons: Fakemon[] =
     suffix: "normal",
     evolution: [
 
-    ]
+    ],
+    color: "Black"
   },
   {
     id: "MAGEARNA",
@@ -102389,7 +103189,8 @@ export const fakemons: Fakemon[] =
     suffix: "normal",
     evolution: [
 
-    ]
+    ],
+    color: "Gray"
   },
   {
     id: "MARSHADOW",
@@ -102522,7 +103323,8 @@ export const fakemons: Fakemon[] =
     suffix: "normal",
     evolution: [
 
-    ]
+    ],
+    color: "Gray"
   },
   {
     id: "POIPOLE",
@@ -102613,7 +103415,8 @@ export const fakemons: Fakemon[] =
         method: "HasMove",
         value: "DRAGONPULSE"
       }
-    ]
+    ],
+    color: "Purple"
   },
   {
     id: "NAGANADEL",
@@ -102742,7 +103545,8 @@ export const fakemons: Fakemon[] =
     suffix: "normal",
     evolution: [
 
-    ]
+    ],
+    color: "Purple"
   },
   {
     id: "STAKATAKA",
@@ -102857,7 +103661,8 @@ export const fakemons: Fakemon[] =
     suffix: "normal",
     evolution: [
 
-    ]
+    ],
+    color: "Gray"
   },
   {
     id: "BLACEPHALON",
@@ -102972,7 +103777,8 @@ export const fakemons: Fakemon[] =
     suffix: "normal",
     evolution: [
 
-    ]
+    ],
+    color: "White"
   },
   {
     id: "ZERAORA",
@@ -103102,7 +103908,8 @@ export const fakemons: Fakemon[] =
     suffix: "normal",
     evolution: [
 
-    ]
+    ],
+    color: "Yellow"
   },
   {
     id: "MELTAN",
@@ -103176,7 +103983,8 @@ export const fakemons: Fakemon[] =
         method: "Level",
         value: "45"
       }
-    ]
+    ],
+    color: "Gray"
   },
   {
     id: "MELMETAL",
@@ -103278,7 +104086,8 @@ export const fakemons: Fakemon[] =
     suffix: "normal",
     evolution: [
 
-    ]
+    ],
+    color: "Gray"
   },
   {
     id: "GROOKEY",
@@ -103392,7 +104201,8 @@ export const fakemons: Fakemon[] =
         method: "Level",
         value: "16"
       }
-    ]
+    ],
+    color: "Green"
   },
   {
     id: "THWACKEY",
@@ -103503,7 +104313,8 @@ export const fakemons: Fakemon[] =
         method: "Level",
         value: "35"
       }
-    ]
+    ],
+    color: "Green"
   },
   {
     id: "RILLABOOM",
@@ -103634,7 +104445,8 @@ export const fakemons: Fakemon[] =
     suffix: "normal",
     evolution: [
 
-    ]
+    ],
+    color: "Green"
   },
   {
     id: "SCORBUNNY",
@@ -103745,7 +104557,8 @@ export const fakemons: Fakemon[] =
         method: "Level",
         value: "16"
       }
-    ]
+    ],
+    color: "White"
   },
   {
     id: "RABOOT",
@@ -103857,7 +104670,8 @@ export const fakemons: Fakemon[] =
         method: "Level",
         value: "35"
       }
-    ]
+    ],
+    color: "Gray"
   },
   {
     id: "CINDERACE",
@@ -103984,7 +104798,8 @@ export const fakemons: Fakemon[] =
     suffix: "normal",
     evolution: [
 
-    ]
+    ],
+    color: "White"
   },
   {
     id: "SOBBLE",
@@ -104085,7 +104900,8 @@ export const fakemons: Fakemon[] =
         method: "Level",
         value: "16"
       }
-    ]
+    ],
+    color: "Blue"
   },
   {
     id: "DRIZZILE",
@@ -104182,7 +104998,8 @@ export const fakemons: Fakemon[] =
         method: "Level",
         value: "35"
       }
-    ]
+    ],
+    color: "Blue"
   },
   {
     id: "INTELEON",
@@ -104304,7 +105121,8 @@ export const fakemons: Fakemon[] =
     suffix: "normal",
     evolution: [
 
-    ]
+    ],
+    color: "Blue"
   },
   {
     id: "SKWOVET",
@@ -104405,7 +105223,8 @@ export const fakemons: Fakemon[] =
         method: "Level",
         value: "24"
       }
-    ]
+    ],
+    color: "Brown"
   },
   {
     id: "GREEDENT",
@@ -104517,7 +105336,8 @@ export const fakemons: Fakemon[] =
     suffix: "normal",
     evolution: [
 
-    ]
+    ],
+    color: "Brown"
   },
   {
     id: "ROOKIDEE",
@@ -104621,7 +105441,8 @@ export const fakemons: Fakemon[] =
         method: "Level",
         value: "18"
       }
-    ]
+    ],
+    color: "Blue"
   },
   {
     id: "CORVISQUIRE",
@@ -104721,7 +105542,8 @@ export const fakemons: Fakemon[] =
         method: "Level",
         value: "38"
       }
-    ]
+    ],
+    color: "Blue"
   },
   {
     id: "CORVIKNIGHT",
@@ -104841,7 +105663,8 @@ export const fakemons: Fakemon[] =
     suffix: "normal",
     evolution: [
 
-    ]
+    ],
+    color: "Purple"
   },
   {
     id: "BLIPBUG",
@@ -104889,7 +105712,8 @@ export const fakemons: Fakemon[] =
         method: "Level",
         value: "10"
       }
-    ]
+    ],
+    color: "Blue"
   },
   {
     id: "DOTTLER",
@@ -104986,7 +105810,8 @@ export const fakemons: Fakemon[] =
         method: "Level",
         value: "30"
       }
-    ]
+    ],
+    color: "Yellow"
   },
   {
     id: "ORBEETLE",
@@ -105098,7 +105923,8 @@ export const fakemons: Fakemon[] =
     suffix: "normal",
     evolution: [
 
-    ]
+    ],
+    color: "Red"
   },
   {
     id: "NICKIT",
@@ -105192,7 +106018,8 @@ export const fakemons: Fakemon[] =
         method: "Level",
         value: "18"
       }
-    ]
+    ],
+    color: "Brown"
   },
   {
     id: "THIEVUL",
@@ -105295,7 +106122,8 @@ export const fakemons: Fakemon[] =
     suffix: "normal",
     evolution: [
 
-    ]
+    ],
+    color: "Brown"
   },
   {
     id: "GOSSIFLEUR",
@@ -105389,7 +106217,8 @@ export const fakemons: Fakemon[] =
         method: "Level",
         value: "20"
       }
-    ]
+    ],
+    color: "Green"
   },
   {
     id: "ELDEGOSS",
@@ -105480,7 +106309,8 @@ export const fakemons: Fakemon[] =
     suffix: "normal",
     evolution: [
 
-    ]
+    ],
+    color: "Green"
   },
   {
     id: "WOOLOO",
@@ -105565,7 +106395,8 @@ export const fakemons: Fakemon[] =
         method: "Level",
         value: "24"
       }
-    ]
+    ],
+    color: "White"
   },
   {
     id: "DUBWOOL",
@@ -105655,7 +106486,8 @@ export const fakemons: Fakemon[] =
     suffix: "normal",
     evolution: [
 
-    ]
+    ],
+    color: "White"
   },
   {
     id: "CHEWTLE",
@@ -105753,7 +106585,8 @@ export const fakemons: Fakemon[] =
         method: "Level",
         value: "22"
       }
-    ]
+    ],
+    color: "Green"
   },
   {
     id: "DREDNAW",
@@ -105880,7 +106713,8 @@ export const fakemons: Fakemon[] =
     suffix: "normal",
     evolution: [
 
-    ]
+    ],
+    color: "Green"
   },
   {
     id: "YAMPER",
@@ -105974,7 +106808,8 @@ export const fakemons: Fakemon[] =
         method: "Level",
         value: "25"
       }
-    ]
+    ],
+    color: "Yellow"
   },
   {
     id: "BOLTUND",
@@ -106071,7 +106906,8 @@ export const fakemons: Fakemon[] =
     suffix: "normal",
     evolution: [
 
-    ]
+    ],
+    color: "Yellow"
   },
   {
     id: "ROLYCOLY",
@@ -106171,7 +107007,8 @@ export const fakemons: Fakemon[] =
         method: "Level",
         value: "18"
       }
-    ]
+    ],
+    color: "Black"
   },
   {
     id: "CARKOL",
@@ -106284,7 +107121,8 @@ export const fakemons: Fakemon[] =
         method: "Level",
         value: "34"
       }
-    ]
+    ],
+    color: "Black"
   },
   {
     id: "COALOSSAL",
@@ -106403,7 +107241,8 @@ export const fakemons: Fakemon[] =
     suffix: "normal",
     evolution: [
 
-    ]
+    ],
+    color: "Black"
   },
   {
     id: "APPLIN",
@@ -106455,7 +107294,8 @@ export const fakemons: Fakemon[] =
         method: "Item",
         value: "SYRUPYAPPLE"
       }
-    ]
+    ],
+    color: "Green"
   },
   {
     id: "FLAPPLE",
@@ -106564,7 +107404,8 @@ export const fakemons: Fakemon[] =
     suffix: "normal",
     evolution: [
 
-    ]
+    ],
+    color: "Green"
   },
   {
     id: "APPLETUN",
@@ -106681,7 +107522,8 @@ export const fakemons: Fakemon[] =
     suffix: "normal",
     evolution: [
 
-    ]
+    ],
+    color: "Green"
   },
   {
     id: "SILICOBRA",
@@ -106783,7 +107625,8 @@ export const fakemons: Fakemon[] =
         method: "Level",
         value: "36"
       }
-    ]
+    ],
+    color: "Green"
   },
   {
     id: "SANDACONDA",
@@ -106889,7 +107732,8 @@ export const fakemons: Fakemon[] =
     suffix: "normal",
     evolution: [
 
-    ]
+    ],
+    color: "Green"
   },
   {
     id: "CRAMORANT",
@@ -107002,7 +107846,8 @@ export const fakemons: Fakemon[] =
     suffix: "normal",
     evolution: [
 
-    ]
+    ],
+    color: "Blue"
   },
   {
     id: "ARROKUDA",
@@ -107102,7 +107947,8 @@ export const fakemons: Fakemon[] =
         method: "Level",
         value: "26"
       }
-    ]
+    ],
+    color: "Brown"
   },
   {
     id: "BARRASKEWDA",
@@ -107202,7 +108048,8 @@ export const fakemons: Fakemon[] =
     suffix: "normal",
     evolution: [
 
-    ]
+    ],
+    color: "Brown"
   },
   {
     id: "TOXEL",
@@ -107278,7 +108125,8 @@ export const fakemons: Fakemon[] =
         method: "Level",
         value: "30"
       }
-    ]
+    ],
+    color: "Purple"
   },
   {
     id: "TOXTRICITY",
@@ -107415,7 +108263,8 @@ export const fakemons: Fakemon[] =
     suffix: "normal",
     evolution: [
 
-    ]
+    ],
+    color: "Purple"
   },
   {
     id: "SIZZLIPEDE",
@@ -107508,7 +108357,8 @@ export const fakemons: Fakemon[] =
         method: "Level",
         value: "28"
       }
-    ]
+    ],
+    color: "Red"
   },
   {
     id: "CENTISKORCH",
@@ -107607,7 +108457,8 @@ export const fakemons: Fakemon[] =
     suffix: "normal",
     evolution: [
 
-    ]
+    ],
+    color: "Red"
   },
   {
     id: "CLOBBOPUS",
@@ -107706,7 +108557,8 @@ export const fakemons: Fakemon[] =
         method: "HasMove",
         value: "TAUNT"
       }
-    ]
+    ],
+    color: "Brown"
   },
   {
     id: "GRAPPLOCT",
@@ -107810,7 +108662,8 @@ export const fakemons: Fakemon[] =
     suffix: "normal",
     evolution: [
 
-    ]
+    ],
+    color: "Blue"
   },
   {
     id: "SINISTEA",
@@ -107909,7 +108762,8 @@ export const fakemons: Fakemon[] =
         method: "Item",
         value: "CRACKEDPOT"
       }
-    ]
+    ],
+    color: "Purple"
   },
   {
     id: "POLTEAGEIST",
@@ -108014,7 +108868,8 @@ export const fakemons: Fakemon[] =
     suffix: "normal",
     evolution: [
 
-    ]
+    ],
+    color: "Purple"
   },
   {
     id: "HATENNA",
@@ -108123,7 +108978,8 @@ export const fakemons: Fakemon[] =
         method: "Level",
         value: "32"
       }
-    ]
+    ],
+    color: "Pink"
   },
   {
     id: "HATTREM",
@@ -108230,7 +109086,8 @@ export const fakemons: Fakemon[] =
         method: "Level",
         value: "42"
       }
-    ]
+    ],
+    color: "Pink"
   },
   {
     id: "HATTERENE",
@@ -108352,7 +109209,8 @@ export const fakemons: Fakemon[] =
     suffix: "normal",
     evolution: [
 
-    ]
+    ],
+    color: "Pink"
   },
   {
     id: "IMPIDIMP",
@@ -108460,7 +109318,8 @@ export const fakemons: Fakemon[] =
         method: "Level",
         value: "32"
       }
-    ]
+    ],
+    color: "Pink"
   },
   {
     id: "MORGREM",
@@ -108571,7 +109430,8 @@ export const fakemons: Fakemon[] =
         method: "Level",
         value: "42"
       }
-    ]
+    ],
+    color: "Pink"
   },
   {
     id: "GRIMMSNARL",
@@ -108701,7 +109561,8 @@ export const fakemons: Fakemon[] =
     suffix: "normal",
     evolution: [
 
-    ]
+    ],
+    color: "Purple"
   },
   {
     id: "OBSTAGOON",
@@ -108840,7 +109701,8 @@ export const fakemons: Fakemon[] =
     suffix: "normal",
     evolution: [
 
-    ]
+    ],
+    color: "Gray"
   },
   {
     id: "PERRSERKER",
@@ -108990,7 +109852,8 @@ export const fakemons: Fakemon[] =
     suffix: "normal",
     evolution: [
 
-    ]
+    ],
+    color: "Brown"
   },
   {
     id: "CURSOLA",
@@ -109115,7 +109978,8 @@ export const fakemons: Fakemon[] =
     suffix: "normal",
     evolution: [
 
-    ]
+    ],
+    color: "White"
   },
   {
     id: "SIRFETCHD",
@@ -109224,7 +110088,8 @@ export const fakemons: Fakemon[] =
     suffix: "normal",
     evolution: [
 
-    ]
+    ],
+    color: "White"
   },
   {
     id: "MRRIME",
@@ -109396,7 +110261,8 @@ export const fakemons: Fakemon[] =
     suffix: "normal",
     evolution: [
 
-    ]
+    ],
+    color: "Purple"
   },
   {
     id: "RUNERIGUS",
@@ -109521,7 +110387,8 @@ export const fakemons: Fakemon[] =
     suffix: "normal",
     evolution: [
 
-    ]
+    ],
+    color: "Gray"
   },
   {
     id: "MILCERY",
@@ -109602,7 +110469,8 @@ export const fakemons: Fakemon[] =
         method: "HoldItem",
         value: "RIBBONSWEET"
       }
-    ]
+    ],
+    color: "White"
   },
   {
     id: "ALCREMIE",
@@ -109707,7 +110575,8 @@ export const fakemons: Fakemon[] =
     suffix: "normal",
     evolution: [
 
-    ]
+    ],
+    color: "White"
   },
   {
     id: "FALINKS",
@@ -109819,7 +110688,8 @@ export const fakemons: Fakemon[] =
     suffix: "normal",
     evolution: [
 
-    ]
+    ],
+    color: "Yellow"
   },
   {
     id: "PINCURCHIN",
@@ -109930,7 +110800,8 @@ export const fakemons: Fakemon[] =
     suffix: "normal",
     evolution: [
 
-    ]
+    ],
+    color: "Purple"
   },
   {
     id: "SNOM",
@@ -110000,7 +110871,8 @@ export const fakemons: Fakemon[] =
     suffix: "normal",
     evolution: [
 
-    ]
+    ],
+    color: "White"
   },
   {
     id: "FROSMOTH",
@@ -110113,7 +110985,8 @@ export const fakemons: Fakemon[] =
     suffix: "normal",
     evolution: [
 
-    ]
+    ],
+    color: "White"
   },
   {
     id: "STONJOURNER",
@@ -110224,7 +111097,8 @@ export const fakemons: Fakemon[] =
     suffix: "normal",
     evolution: [
 
-    ]
+    ],
+    color: "Gray"
   },
   {
     id: "EISCUE",
@@ -110333,7 +111207,8 @@ export const fakemons: Fakemon[] =
     suffix: "normal",
     evolution: [
 
-    ]
+    ],
+    color: "Blue"
   },
   {
     id: "INDEEDEE",
@@ -110446,7 +111321,8 @@ export const fakemons: Fakemon[] =
     suffix: "normal",
     evolution: [
 
-    ]
+    ],
+    color: "Purple"
   },
   {
     id: "MORPEKO",
@@ -110573,7 +111449,8 @@ export const fakemons: Fakemon[] =
     suffix: "normal",
     evolution: [
 
-    ]
+    ],
+    color: "Yellow"
   },
   {
     id: "CUFANT",
@@ -110690,7 +111567,8 @@ export const fakemons: Fakemon[] =
         method: "Level",
         value: "34"
       }
-    ]
+    ],
+    color: "Yellow"
   },
   {
     id: "COPPERAJAH",
@@ -110809,7 +111687,8 @@ export const fakemons: Fakemon[] =
     suffix: "normal",
     evolution: [
 
-    ]
+    ],
+    color: "Green"
   },
   {
     id: "DRACOZOLT",
@@ -110918,7 +111797,8 @@ export const fakemons: Fakemon[] =
     suffix: "normal",
     evolution: [
 
-    ]
+    ],
+    color: "Green"
   },
   {
     id: "ARCTOZOLT",
@@ -111024,7 +111904,8 @@ export const fakemons: Fakemon[] =
     suffix: "normal",
     evolution: [
 
-    ]
+    ],
+    color: "Blue"
   },
   {
     id: "DRACOVISH",
@@ -111128,7 +112009,8 @@ export const fakemons: Fakemon[] =
     suffix: "normal",
     evolution: [
 
-    ]
+    ],
+    color: "Green"
   },
   {
     id: "ARCTOVISH",
@@ -111227,7 +112109,8 @@ export const fakemons: Fakemon[] =
     suffix: "normal",
     evolution: [
 
-    ]
+    ],
+    color: "Blue"
   },
   {
     id: "DURALUDON",
@@ -111346,7 +112229,8 @@ export const fakemons: Fakemon[] =
         method: "HoldItem",
         value: "METALALLOY"
       }
-    ]
+    ],
+    color: "White"
   },
   {
     id: "DREEPY",
@@ -111428,7 +112312,8 @@ export const fakemons: Fakemon[] =
         method: "Level",
         value: "50"
       }
-    ]
+    ],
+    color: "Green"
   },
   {
     id: "DRAKLOAK",
@@ -111550,7 +112435,8 @@ export const fakemons: Fakemon[] =
         method: "Level",
         value: "60"
       }
-    ]
+    ],
+    color: "Green"
   },
   {
     id: "DRAGAPULT",
@@ -111676,7 +112562,8 @@ export const fakemons: Fakemon[] =
     suffix: "normal",
     evolution: [
 
-    ]
+    ],
+    color: "Green"
   },
   {
     id: "ZACIAN",
@@ -111791,7 +112678,8 @@ export const fakemons: Fakemon[] =
     suffix: "normal",
     evolution: [
 
-    ]
+    ],
+    color: "Blue"
   },
   {
     id: "ZAMAZENTA",
@@ -111911,7 +112799,8 @@ export const fakemons: Fakemon[] =
     suffix: "normal",
     evolution: [
 
-    ]
+    ],
+    color: "Red"
   },
   {
     id: "ETERNATUS",
@@ -112024,7 +112913,8 @@ export const fakemons: Fakemon[] =
     suffix: "normal",
     evolution: [
 
-    ]
+    ],
+    color: "Purple"
   },
   {
     id: "KUBFU",
@@ -112132,7 +113022,8 @@ export const fakemons: Fakemon[] =
         method: "Item",
         value: "SCROLLOFWATERS"
       }
-    ]
+    ],
+    color: "Gray"
   },
   {
     id: "URSHIFU",
@@ -112265,7 +113156,8 @@ export const fakemons: Fakemon[] =
     suffix: "normal",
     evolution: [
 
-    ]
+    ],
+    color: "Gray"
   },
   {
     id: "ZARUDE",
@@ -112400,7 +113292,8 @@ export const fakemons: Fakemon[] =
     suffix: "normal",
     evolution: [
 
-    ]
+    ],
+    color: "Black"
   },
   {
     id: "REGIELEKI",
@@ -112498,7 +113391,8 @@ export const fakemons: Fakemon[] =
     suffix: "normal",
     evolution: [
 
-    ]
+    ],
+    color: "Yellow"
   },
   {
     id: "REGIDRAGO",
@@ -112592,7 +113486,8 @@ export const fakemons: Fakemon[] =
     suffix: "normal",
     evolution: [
 
-    ]
+    ],
+    color: "Green"
   },
   {
     id: "GLASTRIER",
@@ -112698,7 +113593,8 @@ export const fakemons: Fakemon[] =
     suffix: "normal",
     evolution: [
 
-    ]
+    ],
+    color: "White"
   },
   {
     id: "SPECTRIER",
@@ -112802,7 +113698,8 @@ export const fakemons: Fakemon[] =
     suffix: "normal",
     evolution: [
 
-    ]
+    ],
+    color: "Black"
   },
   {
     id: "CALYREX",
@@ -112927,7 +113824,8 @@ export const fakemons: Fakemon[] =
     suffix: "normal",
     evolution: [
 
-    ]
+    ],
+    color: "Green"
   },
   {
     id: "WYRDEER",
@@ -113039,7 +113937,8 @@ export const fakemons: Fakemon[] =
     suffix: "normal",
     evolution: [
 
-    ]
+    ],
+    color: "Gray"
   },
   {
     id: "KLEAVOR",
@@ -113141,7 +114040,8 @@ export const fakemons: Fakemon[] =
     suffix: "normal",
     evolution: [
 
-    ]
+    ],
+    color: "Brown"
   },
   {
     id: "URSALUNA",
@@ -113260,7 +114160,8 @@ export const fakemons: Fakemon[] =
     suffix: "normal",
     evolution: [
 
-    ]
+    ],
+    color: "Brown"
   },
   {
     id: "BASCULEGION",
@@ -113363,7 +114264,8 @@ export const fakemons: Fakemon[] =
     suffix: "normal",
     evolution: [
 
-    ]
+    ],
+    color: "Green"
   },
   {
     id: "SNEASLER",
@@ -113475,7 +114377,8 @@ export const fakemons: Fakemon[] =
     suffix: "normal",
     evolution: [
 
-    ]
+    ],
+    color: "Blue"
   },
   {
     id: "OVERQWIL",
@@ -113583,7 +114486,8 @@ export const fakemons: Fakemon[] =
     suffix: "normal",
     evolution: [
 
-    ]
+    ],
+    color: "Black"
   },
   {
     id: "ENAMORUS",
@@ -113679,7 +114583,8 @@ export const fakemons: Fakemon[] =
     suffix: "normal",
     evolution: [
 
-    ]
+    ],
+    color: "Pink"
   },
   {
     id: "SPRIGATITO",
@@ -113772,7 +114677,8 @@ export const fakemons: Fakemon[] =
         method: "Level",
         value: "16"
       }
-    ]
+    ],
+    color: "Green"
   },
   {
     id: "FLORAGATO",
@@ -113867,7 +114773,8 @@ export const fakemons: Fakemon[] =
         method: "Level",
         value: "36"
       }
-    ]
+    ],
+    color: "Green"
   },
   {
     id: "MEOWSCARADA",
@@ -113987,7 +114894,8 @@ export const fakemons: Fakemon[] =
     suffix: "normal",
     evolution: [
 
-    ]
+    ],
+    color: "Green"
   },
   {
     id: "FUECOCO",
@@ -114080,7 +114988,8 @@ export const fakemons: Fakemon[] =
         method: "Level",
         value: "16"
       }
-    ]
+    ],
+    color: "Red"
   },
   {
     id: "CROCALOR",
@@ -114172,7 +115081,8 @@ export const fakemons: Fakemon[] =
         method: "Level",
         value: "36"
       }
-    ]
+    ],
+    color: "Red"
   },
   {
     id: "SKELEDIRGE",
@@ -114283,7 +115193,8 @@ export const fakemons: Fakemon[] =
     suffix: "normal",
     evolution: [
 
-    ]
+    ],
+    color: "Red"
   },
   {
     id: "QUAXLY",
@@ -114368,7 +115279,8 @@ export const fakemons: Fakemon[] =
         method: "Level",
         value: "16"
       }
-    ]
+    ],
+    color: "Blue"
   },
   {
     id: "QUAXWELL",
@@ -114458,7 +115370,8 @@ export const fakemons: Fakemon[] =
         method: "Level",
         value: "36"
       }
-    ]
+    ],
+    color: "Blue"
   },
   {
     id: "QUAQUAVAL",
@@ -114569,7 +115482,8 @@ export const fakemons: Fakemon[] =
     suffix: "normal",
     evolution: [
 
-    ]
+    ],
+    color: "Blue"
   },
   {
     id: "LECHONK",
@@ -114660,7 +115574,8 @@ export const fakemons: Fakemon[] =
         method: "Level",
         value: "18"
       }
-    ]
+    ],
+    color: "Gray"
   },
   {
     id: "OINKOLOGNE",
@@ -114753,7 +115668,8 @@ export const fakemons: Fakemon[] =
     suffix: "normal",
     evolution: [
 
-    ]
+    ],
+    color: "Gray"
   },
   {
     id: "TAROUNTULA",
@@ -114843,7 +115759,8 @@ export const fakemons: Fakemon[] =
         method: "Level",
         value: "15"
       }
-    ]
+    ],
+    color: "White"
   },
   {
     id: "SPIDOPS",
@@ -114940,7 +115857,8 @@ export const fakemons: Fakemon[] =
     suffix: "normal",
     evolution: [
 
-    ]
+    ],
+    color: "Green"
   },
   {
     id: "NYMBLE",
@@ -115017,7 +115935,8 @@ export const fakemons: Fakemon[] =
         method: "Level",
         value: "24"
       }
-    ]
+    ],
+    color: "Gray"
   },
   {
     id: "LOKIX",
@@ -115113,7 +116032,8 @@ export const fakemons: Fakemon[] =
     suffix: "normal",
     evolution: [
 
-    ]
+    ],
+    color: "Gray"
   },
   {
     id: "PAWMI",
@@ -115209,7 +116129,8 @@ export const fakemons: Fakemon[] =
         method: "Level",
         value: "18"
       }
-    ]
+    ],
+    color: "Yellow"
   },
   {
     id: "PAWMO",
@@ -115311,7 +116232,8 @@ export const fakemons: Fakemon[] =
         method: "Counter",
         value: "1000"
       }
-    ]
+    ],
+    color: "Yellow"
   },
   {
     id: "PAWMOT",
@@ -115428,7 +116350,8 @@ export const fakemons: Fakemon[] =
     suffix: "normal",
     evolution: [
 
-    ]
+    ],
+    color: "Yellow"
   },
   {
     id: "TANDEMAUS",
@@ -115527,7 +116450,8 @@ export const fakemons: Fakemon[] =
         method: "LevelBattle",
         value: "25"
       }
-    ]
+    ],
+    color: "White"
   },
   {
     id: "MAUSHOLD",
@@ -115623,7 +116547,8 @@ export const fakemons: Fakemon[] =
     suffix: "normal",
     evolution: [
 
-    ]
+    ],
+    color: "White"
   },
   {
     id: "FIDOUGH",
@@ -115718,7 +116643,8 @@ export const fakemons: Fakemon[] =
         method: "Level",
         value: "26"
       }
-    ]
+    ],
+    color: "Yellow"
   },
   {
     id: "DACHSBUN",
@@ -115810,7 +116736,8 @@ export const fakemons: Fakemon[] =
     suffix: "normal",
     evolution: [
 
-    ]
+    ],
+    color: "Brown"
   },
   {
     id: "SMOLIV",
@@ -115893,7 +116820,8 @@ export const fakemons: Fakemon[] =
         method: "Level",
         value: "25"
       }
-    ]
+    ],
+    color: "Green"
   },
   {
     id: "DOLLIV",
@@ -115973,7 +116901,8 @@ export const fakemons: Fakemon[] =
         method: "Level",
         value: "35"
       }
-    ]
+    ],
+    color: "Green"
   },
   {
     id: "ARBOLIVA",
@@ -116066,7 +116995,8 @@ export const fakemons: Fakemon[] =
     suffix: "normal",
     evolution: [
 
-    ]
+    ],
+    color: "Green"
   },
   {
     id: "SQUAWKABILLY",
@@ -116160,7 +117090,8 @@ export const fakemons: Fakemon[] =
     suffix: "normal",
     evolution: [
 
-    ]
+    ],
+    color: "Green"
   },
   {
     id: "NACLI",
@@ -116251,7 +117182,8 @@ export const fakemons: Fakemon[] =
         method: "Level",
         value: "24"
       }
-    ]
+    ],
+    color: "Brown"
   },
   {
     id: "NACLSTACK",
@@ -116344,7 +117276,8 @@ export const fakemons: Fakemon[] =
         method: "Level",
         value: "38"
       }
-    ]
+    ],
+    color: "Brown"
   },
   {
     id: "GARGANACL",
@@ -116448,7 +117381,8 @@ export const fakemons: Fakemon[] =
     suffix: "normal",
     evolution: [
 
-    ]
+    ],
+    color: "Brown"
   },
   {
     id: "CHARCADET",
@@ -116523,7 +117457,8 @@ export const fakemons: Fakemon[] =
         method: "Item",
         value: "MALICIOUSARMOR"
       }
-    ]
+    ],
+    color: "Red"
   },
   {
     id: "ARMAROUGE",
@@ -116628,7 +117563,8 @@ export const fakemons: Fakemon[] =
     suffix: "normal",
     evolution: [
 
-    ]
+    ],
+    color: "Red"
   },
   {
     id: "CERULEDGE",
@@ -116733,7 +117669,8 @@ export const fakemons: Fakemon[] =
     suffix: "normal",
     evolution: [
 
-    ]
+    ],
+    color: "Purple"
   },
   {
     id: "TADBULB",
@@ -116821,7 +117758,8 @@ export const fakemons: Fakemon[] =
         method: "Item",
         value: "THUNDERSTONE"
       }
-    ]
+    ],
+    color: "Yellow"
   },
   {
     id: "BELLIBOLT",
@@ -116908,7 +117846,8 @@ export const fakemons: Fakemon[] =
     suffix: "normal",
     evolution: [
 
-    ]
+    ],
+    color: "Green"
   },
   {
     id: "WATTREL",
@@ -117004,7 +117943,8 @@ export const fakemons: Fakemon[] =
         method: "Level",
         value: "25"
       }
-    ]
+    ],
+    color: "Black"
   },
   {
     id: "KILOWATTREL",
@@ -117097,7 +118037,8 @@ export const fakemons: Fakemon[] =
     suffix: "normal",
     evolution: [
 
-    ]
+    ],
+    color: "Yellow"
   },
   {
     id: "MASCHIFF",
@@ -117190,7 +118131,8 @@ export const fakemons: Fakemon[] =
         method: "Level",
         value: "30"
       }
-    ]
+    ],
+    color: "Brown"
   },
   {
     id: "MABOSSTIFF",
@@ -117286,7 +118228,8 @@ export const fakemons: Fakemon[] =
     suffix: "normal",
     evolution: [
 
-    ]
+    ],
+    color: "Gray"
   },
   {
     id: "SHROODLE",
@@ -117391,7 +118334,8 @@ export const fakemons: Fakemon[] =
         method: "Level",
         value: "28"
       }
-    ]
+    ],
+    color: "Gray"
   },
   {
     id: "GRAFAIAI",
@@ -117494,7 +118438,8 @@ export const fakemons: Fakemon[] =
     suffix: "normal",
     evolution: [
 
-    ]
+    ],
+    color: "Gray"
   },
   {
     id: "BRAMBLIN",
@@ -117586,7 +118531,8 @@ export const fakemons: Fakemon[] =
         method: "Counter",
         value: "1000"
       }
-    ]
+    ],
+    color: "Brown"
   },
   {
     id: "BRAMBLEGHAST",
@@ -117673,7 +118619,8 @@ export const fakemons: Fakemon[] =
     suffix: "normal",
     evolution: [
 
-    ]
+    ],
+    color: "Brown"
   },
   {
     id: "TOEDSCOOL",
@@ -117781,7 +118728,8 @@ export const fakemons: Fakemon[] =
         method: "Level",
         value: "30"
       }
-    ]
+    ],
+    color: "Yellow"
   },
   {
     id: "TOEDSCRUEL",
@@ -117882,7 +118830,8 @@ export const fakemons: Fakemon[] =
     suffix: "normal",
     evolution: [
 
-    ]
+    ],
+    color: "Black"
   },
   {
     id: "KLAWF",
@@ -117985,7 +118934,8 @@ export const fakemons: Fakemon[] =
     suffix: "normal",
     evolution: [
 
-    ]
+    ],
+    color: "Red"
   },
   {
     id: "CAPSAKID",
@@ -118072,7 +119022,8 @@ export const fakemons: Fakemon[] =
         method: "Item",
         value: "FIRESTONE"
       }
-    ]
+    ],
+    color: "Green"
   },
   {
     id: "SCOVILLAIN",
@@ -118168,7 +119119,8 @@ export const fakemons: Fakemon[] =
     suffix: "normal",
     evolution: [
 
-    ]
+    ],
+    color: "Green"
   },
   {
     id: "RELLOR",
@@ -118249,7 +119201,8 @@ export const fakemons: Fakemon[] =
         method: "Counter",
         value: "1000"
       }
-    ]
+    ],
+    color: "Brown"
   },
   {
     id: "RABSCA",
@@ -118364,7 +119317,8 @@ export const fakemons: Fakemon[] =
     suffix: "normal",
     evolution: [
 
-    ]
+    ],
+    color: "Green"
   },
   {
     id: "FLITTLE",
@@ -118455,7 +119409,8 @@ export const fakemons: Fakemon[] =
         method: "Level",
         value: "35"
       }
-    ]
+    ],
+    color: "Yellow"
   },
   {
     id: "ESPATHRA",
@@ -118563,7 +119518,8 @@ export const fakemons: Fakemon[] =
     suffix: "normal",
     evolution: [
 
-    ]
+    ],
+    color: "Yellow"
   },
   {
     id: "TINKATINK",
@@ -118658,7 +119614,8 @@ export const fakemons: Fakemon[] =
         method: "Level",
         value: "24"
       }
-    ]
+    ],
+    color: "Pink"
   },
   {
     id: "TINKATUFF",
@@ -118752,7 +119709,8 @@ export const fakemons: Fakemon[] =
         method: "Level",
         value: "38"
       }
-    ]
+    ],
+    color: "Pink"
   },
   {
     id: "TINKATON",
@@ -118847,7 +119805,8 @@ export const fakemons: Fakemon[] =
     suffix: "normal",
     evolution: [
 
-    ]
+    ],
+    color: "Pink"
   },
   {
     id: "WIGLETT",
@@ -118933,7 +119892,8 @@ export const fakemons: Fakemon[] =
         method: "Level",
         value: "26"
       }
-    ]
+    ],
+    color: "White"
   },
   {
     id: "WUGTRIO",
@@ -119018,7 +119978,8 @@ export const fakemons: Fakemon[] =
     suffix: "normal",
     evolution: [
 
-    ]
+    ],
+    color: "Red"
   },
   {
     id: "BOMBIRDIER",
@@ -119124,7 +120085,8 @@ export const fakemons: Fakemon[] =
     suffix: "normal",
     evolution: [
 
-    ]
+    ],
+    color: "White"
   },
   {
     id: "FINIZEN",
@@ -119214,7 +120176,8 @@ export const fakemons: Fakemon[] =
         method: "Level",
         value: "38"
       }
-    ]
+    ],
+    color: "Blue"
   },
   {
     id: "PALAFIN",
@@ -119320,7 +120283,8 @@ export const fakemons: Fakemon[] =
     suffix: "normal",
     evolution: [
 
-    ]
+    ],
+    color: "Blue"
   },
   {
     id: "VAROOM",
@@ -119417,7 +120381,8 @@ export const fakemons: Fakemon[] =
         method: "Level",
         value: "40"
       }
-    ]
+    ],
+    color: "Gray"
   },
   {
     id: "REVAVROOM",
@@ -119517,7 +120482,8 @@ export const fakemons: Fakemon[] =
     suffix: "normal",
     evolution: [
 
-    ]
+    ],
+    color: "Gray"
   },
   {
     id: "CYCLIZAR",
@@ -119618,7 +120584,8 @@ export const fakemons: Fakemon[] =
     suffix: "normal",
     evolution: [
 
-    ]
+    ],
+    color: "Green"
   },
   {
     id: "ORTHWORM",
@@ -119709,7 +120676,8 @@ export const fakemons: Fakemon[] =
     suffix: "normal",
     evolution: [
 
-    ]
+    ],
+    color: "Pink"
   },
   {
     id: "GLIMMET",
@@ -119801,7 +120769,8 @@ export const fakemons: Fakemon[] =
         method: "Level",
         value: "35"
       }
-    ]
+    ],
+    color: "Blue"
   },
   {
     id: "GLIMMORA",
@@ -119896,7 +120865,8 @@ export const fakemons: Fakemon[] =
     suffix: "normal",
     evolution: [
 
-    ]
+    ],
+    color: "Blue"
   },
   {
     id: "GREAVARD",
@@ -119998,7 +120968,8 @@ export const fakemons: Fakemon[] =
         method: "LevelNight",
         value: "30"
       }
-    ]
+    ],
+    color: "White"
   },
   {
     id: "HOUNDSTONE",
@@ -120095,7 +121066,8 @@ export const fakemons: Fakemon[] =
     suffix: "normal",
     evolution: [
 
-    ]
+    ],
+    color: "White"
   },
   {
     id: "FLAMIGO",
@@ -120192,7 +121164,8 @@ export const fakemons: Fakemon[] =
     suffix: "normal",
     evolution: [
 
-    ]
+    ],
+    color: "Pink"
   },
   {
     id: "CETODDLE",
@@ -120291,7 +121264,8 @@ export const fakemons: Fakemon[] =
         method: "Item",
         value: "ICESTONE"
       }
-    ]
+    ],
+    color: "White"
   },
   {
     id: "CETITAN",
@@ -120385,7 +121359,8 @@ export const fakemons: Fakemon[] =
     suffix: "normal",
     evolution: [
 
-    ]
+    ],
+    color: "White"
   },
   {
     id: "VELUZA",
@@ -120475,7 +121450,8 @@ export const fakemons: Fakemon[] =
     suffix: "normal",
     evolution: [
 
-    ]
+    ],
+    color: "Gray"
   },
   {
     id: "DONDOZO",
@@ -120566,7 +121542,8 @@ export const fakemons: Fakemon[] =
     suffix: "normal",
     evolution: [
 
-    ]
+    ],
+    color: "Blue"
   },
   {
     id: "TATSUGIRI",
@@ -120647,7 +121624,8 @@ export const fakemons: Fakemon[] =
     suffix: "normal",
     evolution: [
 
-    ]
+    ],
+    color: "Red"
   },
   {
     id: "ANNIHILAPE",
@@ -120770,7 +121748,8 @@ export const fakemons: Fakemon[] =
     suffix: "normal",
     evolution: [
 
-    ]
+    ],
+    color: "Gray"
   },
   {
     id: "CLODSIRE",
@@ -120876,7 +121855,8 @@ export const fakemons: Fakemon[] =
     suffix: "normal",
     evolution: [
 
-    ]
+    ],
+    color: "Brown"
   },
   {
     id: "FARIGIRAF",
@@ -120996,7 +121976,8 @@ export const fakemons: Fakemon[] =
     suffix: "normal",
     evolution: [
 
-    ]
+    ],
+    color: "Brown"
   },
   {
     id: "DUDUNSPARCE",
@@ -121126,7 +122107,8 @@ export const fakemons: Fakemon[] =
     suffix: "normal",
     evolution: [
 
-    ]
+    ],
+    color: "Yellow"
   },
   {
     id: "KINGAMBIT",
@@ -121230,7 +122212,8 @@ export const fakemons: Fakemon[] =
     suffix: "normal",
     evolution: [
 
-    ]
+    ],
+    color: "Black"
   },
   {
     id: "GREATTUSK",
@@ -121337,7 +122320,8 @@ export const fakemons: Fakemon[] =
     suffix: "normal",
     evolution: [
 
-    ]
+    ],
+    color: "Purple"
   },
   {
     id: "SCREAMTAIL",
@@ -121465,7 +122449,8 @@ export const fakemons: Fakemon[] =
     suffix: "normal",
     evolution: [
 
-    ]
+    ],
+    color: "Pink"
   },
   {
     id: "BRUTEBONNET",
@@ -121558,7 +122543,8 @@ export const fakemons: Fakemon[] =
     suffix: "normal",
     evolution: [
 
-    ]
+    ],
+    color: "White"
   },
   {
     id: "FLUTTERMANE",
@@ -121656,7 +122642,8 @@ export const fakemons: Fakemon[] =
     suffix: "normal",
     evolution: [
 
-    ]
+    ],
+    color: "Gray"
   },
   {
     id: "SLITHERWING",
@@ -121760,7 +122747,8 @@ export const fakemons: Fakemon[] =
     suffix: "normal",
     evolution: [
 
-    ]
+    ],
+    color: "White"
   },
   {
     id: "SANDYSHOCKS",
@@ -121862,7 +122850,8 @@ export const fakemons: Fakemon[] =
     suffix: "normal",
     evolution: [
 
-    ]
+    ],
+    color: "Gray"
   },
   {
     id: "IRONTREADS",
@@ -121963,7 +122952,8 @@ export const fakemons: Fakemon[] =
     suffix: "normal",
     evolution: [
 
-    ]
+    ],
+    color: "Gray"
   },
   {
     id: "IRONBUNDLE",
@@ -122054,7 +123044,8 @@ export const fakemons: Fakemon[] =
     suffix: "normal",
     evolution: [
 
-    ]
+    ],
+    color: "Red"
   },
   {
     id: "IRONHANDS",
@@ -122156,7 +123147,8 @@ export const fakemons: Fakemon[] =
     suffix: "normal",
     evolution: [
 
-    ]
+    ],
+    color: "Gray"
   },
   {
     id: "IRONJUGULIS",
@@ -122263,7 +123255,8 @@ export const fakemons: Fakemon[] =
     suffix: "normal",
     evolution: [
 
-    ]
+    ],
+    color: "Blue"
   },
   {
     id: "IRONMOTH",
@@ -122365,7 +123358,8 @@ export const fakemons: Fakemon[] =
     suffix: "normal",
     evolution: [
 
-    ]
+    ],
+    color: "White"
   },
   {
     id: "IRONTHORNS",
@@ -122494,7 +123488,8 @@ export const fakemons: Fakemon[] =
     suffix: "normal",
     evolution: [
 
-    ]
+    ],
+    color: "Green"
   },
   {
     id: "FRIGIBAX",
@@ -122580,7 +123575,8 @@ export const fakemons: Fakemon[] =
         method: "Level",
         value: "35"
       }
-    ]
+    ],
+    color: "Gray"
   },
   {
     id: "ARCTIBAX",
@@ -122666,7 +123662,8 @@ export const fakemons: Fakemon[] =
         method: "Level",
         value: "54"
       }
-    ]
+    ],
+    color: "Blue"
   },
   {
     id: "BAXCALIBUR",
@@ -122768,7 +123765,8 @@ export const fakemons: Fakemon[] =
     suffix: "normal",
     evolution: [
 
-    ]
+    ],
+    color: "Blue"
   },
   {
     id: "GIMMIGHOUL",
@@ -122828,7 +123826,8 @@ export const fakemons: Fakemon[] =
         method: "LevelCoins",
         value: "999"
       }
-    ]
+    ],
+    color: "Red"
   },
   {
     id: "GHOLDENGO",
@@ -122919,7 +123918,8 @@ export const fakemons: Fakemon[] =
     suffix: "normal",
     evolution: [
 
-    ]
+    ],
+    color: "Yellow"
   },
   {
     id: "WOCHIEN",
@@ -123017,7 +124017,8 @@ export const fakemons: Fakemon[] =
     suffix: "normal",
     evolution: [
 
-    ]
+    ],
+    color: "Brown"
   },
   {
     id: "CHIENPAO",
@@ -123109,7 +124110,8 @@ export const fakemons: Fakemon[] =
     suffix: "normal",
     evolution: [
 
-    ]
+    ],
+    color: "White"
   },
   {
     id: "TINGLU",
@@ -123204,7 +124206,8 @@ export const fakemons: Fakemon[] =
     suffix: "normal",
     evolution: [
 
-    ]
+    ],
+    color: "Brown"
   },
   {
     id: "CHIYU",
@@ -123296,7 +124299,8 @@ export const fakemons: Fakemon[] =
     suffix: "normal",
     evolution: [
 
-    ]
+    ],
+    color: "Red"
   },
   {
     id: "ROARINGMOON",
@@ -123414,7 +124418,8 @@ export const fakemons: Fakemon[] =
     suffix: "normal",
     evolution: [
 
-    ]
+    ],
+    color: "Blue"
   },
   {
     id: "IRONVALIANT",
@@ -123538,7 +124543,8 @@ export const fakemons: Fakemon[] =
     suffix: "normal",
     evolution: [
 
-    ]
+    ],
+    color: "White"
   },
   {
     id: "KORAIDON",
@@ -123660,7 +124666,8 @@ export const fakemons: Fakemon[] =
     suffix: "normal",
     evolution: [
 
-    ]
+    ],
+    color: "Red"
   },
   {
     id: "MIRAIDON",
@@ -123765,7 +124772,8 @@ export const fakemons: Fakemon[] =
     suffix: "normal",
     evolution: [
 
-    ]
+    ],
+    color: "Purple"
   },
   {
     id: "WALKINGWAKE",
@@ -123865,7 +124873,8 @@ export const fakemons: Fakemon[] =
     suffix: "normal",
     evolution: [
 
-    ]
+    ],
+    color: "Blue"
   },
   {
     id: "IRONLEAVES",
@@ -123968,7 +124977,8 @@ export const fakemons: Fakemon[] =
     suffix: "normal",
     evolution: [
 
-    ]
+    ],
+    color: "Green"
   },
   {
     id: "DIPPLIN",
@@ -124059,7 +125069,8 @@ export const fakemons: Fakemon[] =
         method: "HasMove",
         value: "DRAGONCHEER"
       }
-    ]
+    ],
+    color: "Green"
   },
   {
     id: "POLTCHAGEIST",
@@ -124145,7 +125156,8 @@ export const fakemons: Fakemon[] =
         method: "Item",
         value: "UNREMARKABLETEACUP"
       }
-    ]
+    ],
+    color: "Green"
   },
   {
     id: "SINISTCHA",
@@ -124229,7 +125241,8 @@ export const fakemons: Fakemon[] =
     suffix: "normal",
     evolution: [
 
-    ]
+    ],
+    color: "Green"
   },
   {
     id: "OKIDOGI",
@@ -124338,7 +125351,8 @@ export const fakemons: Fakemon[] =
     suffix: "normal",
     evolution: [
 
-    ]
+    ],
+    color: "Black"
   },
   {
     id: "MUNKIDORI",
@@ -124440,7 +125454,8 @@ export const fakemons: Fakemon[] =
     suffix: "normal",
     evolution: [
 
-    ]
+    ],
+    color: "Black"
   },
   {
     id: "FEZANDIPITI",
@@ -124543,7 +125558,8 @@ export const fakemons: Fakemon[] =
     suffix: "normal",
     evolution: [
 
-    ]
+    ],
+    color: "Black"
   },
   {
     id: "OGERPON",
@@ -124645,7 +125661,8 @@ export const fakemons: Fakemon[] =
     suffix: "normal",
     evolution: [
 
-    ]
+    ],
+    color: "Green"
   },
   {
     id: "ARCHALUDON",
@@ -124749,7 +125766,8 @@ export const fakemons: Fakemon[] =
     suffix: "normal",
     evolution: [
 
-    ]
+    ],
+    color: "White"
   },
   {
     id: "HYDRAPPLE",
@@ -124851,7 +125869,8 @@ export const fakemons: Fakemon[] =
     suffix: "normal",
     evolution: [
 
-    ]
+    ],
+    color: "Green"
   },
   {
     id: "GOUGINGFIRE",
@@ -124957,7 +125976,8 @@ export const fakemons: Fakemon[] =
     suffix: "normal",
     evolution: [
 
-    ]
+    ],
+    color: "Brown"
   },
   {
     id: "RAGINGBOLT",
@@ -125059,7 +126079,8 @@ export const fakemons: Fakemon[] =
     suffix: "normal",
     evolution: [
 
-    ]
+    ],
+    color: "Yellow"
   },
   {
     id: "IRONBOULDER",
@@ -125153,7 +126174,8 @@ export const fakemons: Fakemon[] =
     suffix: "normal",
     evolution: [
 
-    ]
+    ],
+    color: "Gray"
   },
   {
     id: "IRONCROWN",
@@ -125250,7 +126272,8 @@ export const fakemons: Fakemon[] =
     suffix: "normal",
     evolution: [
 
-    ]
+    ],
+    color: "Blue"
   },
   {
     id: "TERAPAGOS",
@@ -125352,7 +126375,8 @@ export const fakemons: Fakemon[] =
     suffix: "normal",
     evolution: [
 
-    ]
+    ],
+    color: "Blue"
   },
   {
     id: "PECHARUNT",
@@ -125430,6 +126454,7 @@ export const fakemons: Fakemon[] =
     suffix: "normal",
     evolution: [
 
-    ]
+    ],
+    color: "Purple"
   }
 ]

@@ -15,12 +15,11 @@ import { PokemonEditorModal } from "./components/pokemon-edit-modal";
 import { TrainerEditor } from "./components/trainer-editor";
 import { getTypeColor } from "@/lib/type-colors";
 import type { Fakemon, FakemonForTeam } from "@/types/fakemon";
-import { getAllFakemons } from "@/lib/fakemons";
+import { getPokemonData } from "@/lib/fakemons";
 import { PokemonImage } from "@/components/absolution/pokemon-image";
 
 export const TeamBuilder = () => {
   const navigate = useNavigate();
-  const fakemons = getAllFakemons();
   const {
     team,
     trainer,
@@ -39,13 +38,13 @@ export const TeamBuilder = () => {
   const createDefaultTeamPokemon = (pokemon: Fakemon): FakemonForTeam => ({
     id: pokemon.id,
     ivs: [31, 31, 31, 31, 31, 31],
-    evs: [0, 252, 0, 0, 0, 252],
+    evs: [85, 85, 85, 85, 85, 85],
     level: 50,
     nature: "Hardy",
     abilityIndex_easy: 0,
     abilityIndex_normal: 0,
-    abilityIndex_hard: 0,
-    abilityIndex_absolution: 0,
+    abilityIndex_hard: 1,
+    abilityIndex_absolution: 2,
     item_easy: "",
     item_normal: "",
     item_hard: "ORANBERRY",
@@ -88,6 +87,10 @@ export const TeamBuilder = () => {
     team.forEach((pokemon) => {
       exportText += `#-------------------------------\n`;
       exportText += `Pokemon = ${pokemon.id},5\n`;
+      // Add form if not base form
+      if (pokemon.formNumber && pokemon.formNumber > 0) {
+        exportText += `    Form = ${pokemon.formNumber}\n`;
+      }
       exportText += `    Gender = male\n`;
       exportText += `    IV = ${pokemon.ivs.join(",")}\n`;
       exportText += `    EV = ${pokemon.evs.join(",")}\n`;
@@ -191,7 +194,10 @@ export const TeamBuilder = () => {
 
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4">
             {team.map((teamPokemon, index) => {
-              const pokemonData = fakemons.find((p) => p.id === teamPokemon.id);
+              const pokemonData = getPokemonData(
+                teamPokemon.id,
+                teamPokemon.formNumber
+              );
               return (
                 <div
                   key={`${teamPokemon.id}-${index}`}
@@ -237,6 +243,13 @@ export const TeamBuilder = () => {
                     >
                       <PokemonImage fakemon={pokemonData} />
                       <h3 className="font-bold text-lg">{pokemonData.name}</h3>
+                      {teamPokemon.formNumber &&
+                        teamPokemon.formNumber > 0 &&
+                        "formName" in pokemonData && (
+                          <div className="text-xs text-purple-600 font-medium -mt-1 mb-1">
+                            {pokemonData.formName}
+                          </div>
+                        )}
                       <div className="flex justify-center gap-1 mb-2">
                         {pokemonData.types.map((type) => (
                           <span

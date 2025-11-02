@@ -1,14 +1,14 @@
 import React, { useState, useEffect } from "react";
-import { X, Save } from "lucide-react";
-import { getAllFakemons } from "@/lib/fakemons";
+import { X, Save, Sparkles } from "lucide-react";
+import { getPokemonData } from "@/lib/fakemons";
+import { getFormsByBaseId } from "@/lib/pokemon-forms";
 import { abilities } from "@/data/abilities";
 import { getTypeColor } from "@/lib/type-colors";
 import type { FakemonForTeam } from "@/types/fakemon";
 import { ItemSelector } from "./pokemon-item-selector";
 import { MoveSelector } from "./pokemon-move-selector";
 import { PokemonImage } from "@/components/absolution/pokemon-image";
-
-const fakemons = getAllFakemons();
+import { cn } from "@/lib/utils";
 
 interface PokemonEditorModalProps {
   isOpen: boolean;
@@ -132,7 +132,12 @@ export const PokemonEditorModal: React.FC<PokemonEditorModalProps> = ({
 
   if (!isOpen || !pokemon || !editedPokemon) return null;
 
-  const pokemonData = fakemons.find((p) => p.id === pokemon.id);
+  // Get available forms for this pokemon
+  const availableForms = getFormsByBaseId(pokemon.id);
+
+  // Get pokemon data considering the selected form
+  const pokemonData = getPokemonData(pokemon.id, editedPokemon.formNumber);
+
   if (!pokemonData) return null;
 
   const handleSave = () => {
@@ -344,6 +349,87 @@ export const PokemonEditorModal: React.FC<PokemonEditorModalProps> = ({
         </div>
 
         <div className="p-6 space-y-6">
+          {/* Form Selector */}
+          {availableForms.length > 0 && (
+            <div className="bg-gradient-to-r from-purple-50 to-blue-50 rounded-xl p-4 border-2 border-purple-200">
+              <h3 className="text-lg font-bold mb-3 flex items-center gap-2 text-purple-900">
+                <Sparkles className="h-5 w-5" />
+                Available Forms
+              </h3>
+              <div className="grid grid-cols-3 md:grid-cols-4 lg:grid-cols-6 gap-3">
+                {/* Base Form */}
+                <button
+                  type="button"
+                  onClick={() =>
+                    setEditedPokemon({ ...editedPokemon, formNumber: 0 })
+                  }
+                  className={cn(
+                    "bg-white rounded-lg p-3 border-2 transition-all hover:scale-105",
+                    !editedPokemon.formNumber || editedPokemon.formNumber === 0
+                      ? "border-purple-500 shadow-lg shadow-purple-300"
+                      : "border-gray-300 hover:border-purple-300"
+                  )}
+                >
+                  <div className="relative">
+                    <img
+                      src={getPokemonData(pokemon.id, 0)?.sprite}
+                      alt="Base Form"
+                      className="w-full h-16 object-contain mb-2"
+                      onError={(e) => {
+                        e.currentTarget.src = "/Front/MISSINGNO.png";
+                      }}
+                    />
+                  </div>
+                  <div className="text-xs font-medium text-center text-gray-700">
+                    Base Form
+                  </div>
+                </button>
+
+                {/* Other Forms */}
+                {availableForms.map((form) => (
+                  <button
+                    key={`${form.baseId}-${form.formNumber}`}
+                    type="button"
+                    onClick={() =>
+                      setEditedPokemon({
+                        ...editedPokemon,
+                        formNumber: form.formNumber,
+                      })
+                    }
+                    className={cn(
+                      "bg-white rounded-lg p-3 border-2 transition-all hover:scale-105",
+                      editedPokemon.formNumber === form.formNumber
+                        ? "border-purple-500 shadow-lg shadow-purple-300"
+                        : "border-gray-300 hover:border-purple-300"
+                    )}
+                  >
+                    <div className="relative">
+                      <img
+                        src={form.sprite}
+                        alt={form.formName}
+                        className="w-full h-16 object-contain mb-2"
+                        onError={(e) => {
+                          e.currentTarget.src = "/Front/MISSINGNO.png";
+                        }}
+                      />
+                      {form.megaStone && (
+                        <div className="absolute top-0 right-0 bg-purple-600 text-white text-xs px-1 py-0.5 rounded">
+                          ⭐
+                        </div>
+                      )}
+                    </div>
+                    <div
+                      className="text-xs font-medium text-center text-gray-700 truncate"
+                      title={form.formName}
+                    >
+                      {form.formName}
+                    </div>
+                  </button>
+                ))}
+              </div>
+            </div>
+          )}
+
           {/* Basic Info */}
           <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
             <div>
