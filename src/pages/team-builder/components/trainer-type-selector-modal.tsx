@@ -90,7 +90,7 @@ export const TrainerTypeSelectorModal: React.FC<
 
         {/* Trainer Grid */}
         <div className="overflow-y-auto max-h-96">
-          <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-3 p-4">
+          <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-3 gap-3 p-4">
             {filteredTrainers.map((trainer) => (
               <div
                 key={trainer.id}
@@ -103,7 +103,7 @@ export const TrainerTypeSelectorModal: React.FC<
               >
                 <div className="text-center">
                   {/* Trainer Sprite */}
-                  <div className="w-16 h-16 mx-auto mb-2 bg-gray-100 rounded-lg flex items-center justify-center overflow-hidden">
+                  <div className="w-64 h-64 mx-auto mb-2 bg-gray-100 rounded-lg flex items-center justify-center overflow-hidden">
                     <img
                       src={trainer.sprite}
                       alt={trainer.name}
@@ -117,7 +117,7 @@ export const TrainerTypeSelectorModal: React.FC<
                     <div className="hidden text-gray-400 text-xs">No Image</div>
                   </div>
 
-                  {/* Trainer Info */}
+                  {/* Trainer Info
                   <h3 className="font-semibold text-sm text-gray-800 mb-1">
                     {trainer.name}
                   </h3>
@@ -137,7 +137,7 @@ export const TrainerTypeSelectorModal: React.FC<
                     <div className="font-mono text-gray-400 text-xs truncate">
                       {trainer.id}
                     </div>
-                  </div>
+                  </div> */}
                 </div>
               </div>
             ))}

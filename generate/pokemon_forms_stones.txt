@@ -1,0 +1,116 @@
+﻿# See the documentation on the wiki to learn how to edit this file.
+#-------------------------------
+[CLEFABLE,1]
+FormName = Mega Clefable
+MegaStone = CLEFABLITE
+#-------------------------------
+[VICTREEBEL,1]
+FormName = Mega Victreebel
+MegaStone = VICTREEBELITE
+#-------------------------------
+[STARMIE,1]
+FormName = Mega Starmie
+MegaStone = STARMINITE
+#-------------------------------
+[DRAGONITE,1]
+FormName = Mega Dragonite
+MegaStone = DRAGONINITE
+#-------------------------------
+[MEGANIUM,1]
+FormName = Mega Meganium
+MegaStone = MEGANIUMITE
+Types = GRASS,FAIRY
+#-------------------------------
+[FERALIGATR,1]
+FormName = Mega Feraligatr
+MegaStone = FERALIGITE
+Types = WATER,DRAGON
+#-------------------------------
+[SKARMORY,1]
+FormName = Mega Skarmory
+MegaStone = SKARMORITE
+#-------------------------------
+[FROSLASS,1]
+FormName = Mega Froslass
+MegaStone = FROSLASSITE
+#-------------------------------
+[EMBOAR,1]
+FormName = Mega Emboar
+MegaStone = EMBOARITE
+#-------------------------------
+[EXCADRILL,1]
+FormName = Mega Excadrill
+MegaStone = EXCADRITE
+#-------------------------------
+[SCOLIPEDE,1]
+FormName = Mega Scolipede
+MegaStone = SCOLIPITE
+#-------------------------------
+[SCRAFTY,1]
+FormName = Mega Scrafty
+MegaStone = SCRAFTINITE
+#-------------------------------
+[EELEKTROSS,1]
+FormName = Mega Eelektross
+MegaStone = EELEKTROSSITE
+#-------------------------------
+[CHANDELURE,1]
+FormName = Mega Chandelure
+MegaStone = CHANDELURITE
+#-------------------------------
+[CHESNAUGHT,1]
+FormName = Mega Chesnaught
+MegaStone = CHESNAUGHTITE
+#-------------------------------
+[DELPHOX,1]
+FormName = Mega Delphox
+MegaStone = DELPHOXITE
+#-------------------------------
+[GRENINJA,3]
+FormName = Mega Greninja
+MegaStone = GRENINJITE
+#-------------------------------
+[PYROAR,1]
+FormName = Mega Pyroar
+MegaStone = PYROARITE
+#-------------------------------
+[FLOETTE,6]
+FormName = Mega Floette
+MegaStone = FLOETTITE
+#-------------------------------
+[MALAMAR,1]
+FormName = Mega Malamar
+MegaStone = MALAMARITE
+#-------------------------------
+[BARBARACLE,1]
+FormName = Mega Barbaracle
+MegaStone = BARBARACITE
+Types = ROCK,FIGHTING
+#-------------------------------
+[DRAGALGE,1]
+FormName = Mega Dragalge
+MegaStone = DRAGALGITE
+#-------------------------------
+[HAWLUCHA,1]
+FormName = Mega Hawlucha
+MegaStone = HAWLUCHANITE
+#-------------------------------
+[ZYGARDE,4]
+FormName = Mega Zygarde
+MegaStone = ZYGARDITE
+#-------------------------------
+[DRAMPA,1]
+FormName = Mega Drampa
+MegaStone = DRAMPANITE
+#-------------------------------
+[FALINKS,1]
+FormName = Mega Falinks
+MegaStone = FALINKSITE
+#-------------------------------
+[RAICHU,2]
+FormName = Mega Raichu
+MegaStone = RAICHUNITEX
+#-------------------------------
+[RAICHU,3]
+FormName = Mega Raichu
+MegaStone = RAICHUNITEY

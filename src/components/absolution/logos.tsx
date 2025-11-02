@@ -11,7 +11,7 @@ export const RandomLogo = ({ size = 50 }: LogosProps) => {
 export const LogoKiriel = ({ size = 50 }: LogosProps) => {
   return (
     <img
-      src="/logos/Logo_Kiriel.png"
+      src="/Logos/Logo_Kiriel.png"
       alt={"Kiriel Logo"}
       width={size}
       height={size}
@@ -23,7 +23,7 @@ export const LogoKiriel = ({ size = 50 }: LogosProps) => {
 export const LogoKirial = ({ size = 50 }: LogosProps) => {
   return (
     <img
-      src="/logos/Logo_Kirial.png"
+      src="/Logos/Logo_Kirial.png"
       alt={"Kirial Logo"}
       width={size}
       height={size}

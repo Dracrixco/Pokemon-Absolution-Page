@@ -1,26 +1,32 @@
 import type { Fakemon } from "@/types/fakemon";
 
-export const fakemons: Fakemon[] = [
+export const fakemons: Fakemon[] = 
+[
   {
     id: "BEHBIDAR",
     name: "Behbidar",
-    types: ["GRASS"],
+    types: [
+      "GRASS"
+    ],
     sprite: "/Front/BEHBIDAR.png",
     backSprite: "/spritesBack/BEHBIDAR.png",
-    description:
-      "It tends to try to look intimidating to keep Pokemon away, but the truth is that it is a super calm Pokemon that tends to avoid conflict.",
+    description: "It tends to try to look intimidating to keep Pokemon away, but the truth is that it is a super calm Pokemon that tends to avoid conflict.",
     stats: {
       hp: 50,
       attack: 58,
       defense: 60,
       spAttack: 44,
       spDefense: 62,
-      speed: 33,
+      speed: 33
     },
     height: "0.4",
     weight: "50.0",
-    abilities: ["OVERGROW"],
-    hiddenAbilities: ["JUNGLEPROTECTOR"],
+    abilities: [
+      "OVERGROW"
+    ],
+    hiddenAbilities: [
+      "JUNGLEPROTECTOR"
+    ],
     category: "???",
     moves: [
       "TACKLE",
@@ -33,7 +39,7 @@ export const fakemons: Fakemon[] = [
       "GRASSYTERRAIN",
       "ANCIENTPOWER",
       "IRONDEFENSE",
-      "DIG",
+      "DIG"
     ],
     tutorMoves: [
       "FLOWERFANG",
@@ -102,7 +108,7 @@ export const fakemons: Fakemon[] = [
       "WORKUP",
       "WORRYSEED",
       "ROCKTOMB",
-      "FALSESWIPE",
+      "FALSESWIPE"
     ],
     eggMoves: [
       "AMNESIA",
@@ -132,37 +138,42 @@ export const fakemons: Fakemon[] = [
       "STONEEDGE",
       "HAMMERARM",
       "ROCKPOLISH",
-      "STEALTHROCK",
+      "STEALTHROCK"
     ],
     suffix: "absolution",
     evolution: [
       {
         to: "BEHCEDRO",
         method: "Level",
-        value: "16",
-      },
-    ],
+        value: "16"
+      }
+    ]
   },
   {
     id: "BEHCEDRO",
     name: "Behcedro",
-    types: ["GRASS"],
+    types: [
+      "GRASS"
+    ],
     sprite: "/Front/BEHCEDRO.png",
     backSprite: "/spritesBack/BEHCEDRO.png",
-    description:
-      "They tend to avoid groups with other Pokemon that are not of the same species, they avoid any type of conflict but will not hesitate to defend themselves.",
+    description: "They tend to avoid groups with other Pokemon that are not of the same species, they avoid any type of conflict but will not hesitate to defend themselves.",
     stats: {
       hp: 68,
       attack: 77,
       defense: 78,
       spAttack: 58,
       spDefense: 81,
-      speed: 52,
+      speed: 52
     },
     height: "2.1",
     weight: "200.0",
-    abilities: ["OVERGROW"],
-    hiddenAbilities: ["JUNGLEPROTECTOR"],
+    abilities: [
+      "OVERGROW"
+    ],
+    hiddenAbilities: [
+      "JUNGLEPROTECTOR"
+    ],
     category: "???",
     moves: [
       "TACKLE",
@@ -183,7 +194,7 @@ export const fakemons: Fakemon[] = [
       "SEEDBOMB",
       "SPIKES",
       "EARTHQUAKE",
-      "STOMP",
+      "STOMP"
     ],
     tutorMoves: [
       "FLOWERFANG",
@@ -272,38 +283,190 @@ export const fakemons: Fakemon[] = [
       "STONEEDGE",
       "HAMMERARM",
       "ROCKPOLISH",
-      "STEALTHROCK",
+      "STEALTHROCK"
     ],
-    eggMoves: [],
+    eggMoves: [
+
+    ],
     suffix: "absolution",
     evolution: [
       {
         to: "BEHDAREX",
         method: "Level",
-        value: "36",
-      },
+        value: "36"
+      }
+    ]
+  },
+  {
+    id: "BEHDAREX",
+    name: "Behdarex",
+    types: [
+      "GRASS",
+      "GROUND"
     ],
+    sprite: "/Front/BEHDAREX.png",
+    backSprite: "/spritesBack/BEHDAREX.png",
+    description: "It takes advantage of its enormous size and appearance to scare away Pokemon, despite this, it is usually a very quiet Pokemon.",
+    stats: {
+      hp: 89,
+      attack: 101,
+      defense: 102,
+      spAttack: 75,
+      spDefense: 106,
+      speed: 68
+    },
+    height: "5.0",
+    weight: "300.0",
+    abilities: [
+      "OVERGROW"
+    ],
+    hiddenAbilities: [
+      "JUNGLEPROTECTOR"
+    ],
+    category: "???",
+    moves: [
+      "TACKLE",
+      "BLOCK",
+      "BRANCHPOKE",
+      "SMACKDOWN",
+      "PROTOSHIELD",
+      "MAGNITUDE",
+      "GRASSYGLIDE",
+      "GRASSYTERRAIN",
+      "ANCIENTPOWER",
+      "IRONDEFENSE",
+      "DIG",
+      "HORNLEECH",
+      "INGRAIN",
+      "BELLYDRUM",
+      "WILDPUNCH",
+      "SEEDBOMB",
+      "SPIKES",
+      "EARTHQUAKE",
+      "STOMP",
+      "WOODHAMMER",
+      "LEECHSEED",
+      "DOUBLEEDGE",
+      "STONEEDGE",
+      "HAMMERARM",
+      "ROCKPOLISH",
+      "STEALTHROCK"
+    ],
+    tutorMoves: [
+      "FLOWERFANG",
+      "ACIDSPRAY",
+      "ATTRACT",
+      "BIND",
+      "BODYSLAM",
+      "BULLETSEED",
+      "CAPTIVATE",
+      "CHARM",
+      "CONFIDE",
+      "FURYCUTTER",
+      "CURSE",
+      "CUT",
+      "DEFENSECURL",
+      "DOUBLEEDGE",
+      "DOUBLETEAM",
+      "ECHOEDVOICE",
+      "ENDURE",
+      "ENERGYBALL",
+      "FACADE",
+      "FALSESWIPE",
+      "FLASH",
+      "FRUSTRATION",
+      "FURYCUTTER",
+      "GIGADRAIN",
+      "GRASSKNOT",
+      "GRASSPLEDGE",
+      "GRASSYGLIDE",
+      "GRASSYTERRAIN",
+      "HEADBUTT",
+      "HELPINGHAND",
+      "HIDDENPOWER",
+      "KNOCKOFF",
+      "LEAFSTORM",
+      "MAGICALLEAF",
+      "MIMIC",
+      "NATURALGIFT",
+      "NATUREPOWER",
+      "POWERWHIP",
+      "PROTECT",
+      "REST",
+      "RETURN",
+      "ROCKSMASH",
+      "ROUND",
+      "SAFEGUARD",
+      "SECRETPOWER",
+      "SEEDBOMB",
+      "SLEEPTALK",
+      "SLUDGEBOMB",
+      "SNORE",
+      "SOLARBEAM",
+      "STRENGTH",
+      "STRINGSHOT",
+      "SUBSTITUTE",
+      "SUNNYDAY",
+      "SWAGGER",
+      "SWORDSDANCE",
+      "SYNTHESIS",
+      "TAKEDOWN",
+      "TERABLAST",
+      "TOXIC",
+      "TRAILBLAZE",
+      "VENOSHOCK",
+      "WEATHERBALL",
+      "WORKUP",
+      "WORRYSEED",
+      "ROCKTOMB",
+      "FALSESWIPE",
+      "AMNESIA",
+      "CHARM",
+      "CURSE",
+      "GRASSYTERRAIN",
+      "INGRAIN",
+      "LEAFSTORM",
+      "MAGICALLEAF",
+      "NATUREPOWER",
+      "PETALDANCE",
+      "POWERWHIP",
+      "SKULLBASH",
+      "SLUDGE",
+      "TOXIC"
+    ],
+    eggMoves: [
+
+    ],
+    suffix: "absolution",
+    evolution: [
+
+    ]
   },
   {
     id: "ZISINGE",
     name: "Zisinge",
-    types: ["FIRE"],
+    types: [
+      "FIRE"
+    ],
     sprite: "/Front/ZISINGE.png",
     backSprite: "/spritesBack/ZISINGE.png",
-    description:
-      "They usually practice all day long to control their flames, and can throw their explosive feathers to defend themselves.",
+    description: "They usually practice all day long to control their flames, and can throw their explosive feathers to defend themselves.",
     stats: {
       hp: 39,
       attack: 48,
       defense: 51,
       spAttack: 59,
       spDefense: 52,
-      speed: 61,
+      speed: 61
     },
     height: "0.4",
     weight: "2.5",
-    abilities: ["BLAZE"],
-    hiddenAbilities: ["TOTHELIMIT"],
+    abilities: [
+      "BLAZE"
+    ],
+    hiddenAbilities: [
+      "TOTHELIMIT"
+    ],
     category: "???",
     moves: [
       "SCRATCH",
@@ -315,7 +478,7 @@ export const fakemons: Fakemon[] = [
       "FLAMECHARGE",
       "DOUBLEKICK",
       "WHIRLWIND",
-      "INCINERATE",
+      "INCINERATE"
     ],
     tutorMoves: [
       "PLUCK",
@@ -419,38 +582,45 @@ export const fakemons: Fakemon[] = [
       "WEATHERBALL",
       "WILLOWISP",
       "WORKUP",
-      "FALSESWIPE",
+      "FALSESWIPE"
     ],
-    eggMoves: [],
+    eggMoves: [
+
+    ],
     suffix: "absolution",
     evolution: [
       {
         to: "ZISSUN",
         method: "Level",
-        value: "16",
-      },
-    ],
+        value: "16"
+      }
+    ]
   },
   {
     id: "ZISSUN",
     name: "Zissun",
-    types: ["FIRE"],
+    types: [
+      "FIRE"
+    ],
     sprite: "/Front/ZISSUN.png",
     backSprite: "/spritesBack/ZISSUN.png",
-    description:
-      "They face any Pokemon they come across, they have a great control over their explosive feathers, managing to launch them at a high speed.",
+    description: "They face any Pokemon they come across, they have a great control over their explosive feathers, managing to launch them at a high speed.",
     stats: {
       hp: 55,
       attack: 63,
       defense: 67,
       spAttack: 79,
       spDefense: 68,
-      speed: 82,
+      speed: 82
     },
     height: "1.2",
     weight: "100.0",
-    abilities: ["BLAZE"],
-    hiddenAbilities: ["TOTHELIMIT"],
+    abilities: [
+      "BLAZE"
+    ],
+    hiddenAbilities: [
+      "TOTHELIMIT"
+    ],
     category: "???",
     moves: [
       "SCRATCH",
@@ -467,7 +637,7 @@ export const fakemons: Fakemon[] = [
       "DETECT",
       "SCREECH",
       "BURNTHELIMIT",
-      "FACADE",
+      "FACADE"
     ],
     tutorMoves: [
       "PLUCK",
@@ -582,38 +752,212 @@ export const fakemons: Fakemon[] = [
       "DOUBLEEDGE",
       "TAILWIND",
       "BRAVEBIRD",
-      "FLAREBLITZ",
+      "FLAREBLITZ"
     ],
-    eggMoves: [],
+    eggMoves: [
+
+    ],
     suffix: "absolution",
     evolution: [
       {
         to: "ZIZZENIT",
         method: "Level",
-        value: "36",
-      },
+        value: "36"
+      }
+    ]
+  },
+  {
+    id: "ZIZZENIT",
+    name: "Zizzenit",
+    types: [
+      "FIRE",
+      "FLYING"
     ],
+    sprite: "/Front/ZIZZENIT.png",
+    backSprite: "/spritesBack/ZIZZENIT.png",
+    description: "It flies high in the air looking for Pokemon to face, its fiery flames simulating the sun when it flies.",
+    stats: {
+      hp: 70,
+      attack: 78,
+      defense: 77,
+      spAttack: 123,
+      spDefense: 75,
+      speed: 119
+    },
+    height: "3.0",
+    weight: "155.0",
+    abilities: [
+      "BLAZE"
+    ],
+    hiddenAbilities: [
+      "TOTHELIMIT"
+    ],
+    category: "???",
+    moves: [
+      "SCRATCH",
+      "SANDATTACK",
+      "PECK",
+      "EMBER",
+      "TOUCHTHELIMIT",
+      "EXPLOSIVEFEATHER",
+      "FLAMECHARGE",
+      "DOUBLEKICK",
+      "WHIRLWIND",
+      "INCINERATE",
+      "WINGATTACK",
+      "DETECT",
+      "SCREECH",
+      "BURNTHELIMIT",
+      "FACADE",
+      "AIRSLASH",
+      "BLAZEKICK",
+      "FEATHERDANCE",
+      "FLAMETHROWER",
+      "SUPERSONIC",
+      "ROOST",
+      "FIREBLAST",
+      "DOUBLEEDGE",
+      "TAILWIND",
+      "BRAVEBIRD",
+      "FLAREBLITZ"
+    ],
+    tutorMoves: [
+      "PLUCK",
+      "ACROBATICS",
+      "AERIALACE",
+      "AIRCUTTER",
+      "AIRSLASH",
+      "ATTRACT",
+      "BEATUP",
+      "BLASTBURN",
+      "BLAZEKICK",
+      "BODYSLAM",
+      "BREAKINGSWIPE",
+      "BRICKBREAK",
+      "BRUTALSWING",
+      "BULLDOZE",
+      "CAPTIVATE",
+      "CONFIDE",
+      "COUNTER",
+      "CRUNCH",
+      "CUT",
+      "DEFENSECURL",
+      "DIG",
+      "DOUBLEEDGE",
+      "DOUBLETEAM",
+      "DRAGONCHEER",
+      "DRAGONCLAW",
+      "DRAGONDANCE",
+      "DRAGONPULSE",
+      "DRAGONTAIL",
+      "DYNAMICPUNCH",
+      "EARTHQUAKE",
+      "ECHOEDVOICE",
+      "ENDURE",
+      "FACADE",
+      "FIREBLAST",
+      "FIREFANG",
+      "FIREPLEDGE",
+      "FIREPUNCH",
+      "FIRESPIN",
+      "FLAMECHARGE",
+      "FLAMETHROWER",
+      "FLAREBLITZ",
+      "FLING",
+      "FLY",
+      "FOCUSBLAST",
+      "FOCUSPUNCH",
+      "FRUSTRATION",
+      "FURYCUTTER",
+      "GIGAIMPACT",
+      "HEADBUTT",
+      "HEATCRASH",
+      "HEATWAVE",
+      "HELPINGHAND",
+      "HIDDENPOWER",
+      "HONECLAWS",
+      "HURRICANE",
+      "HYPERBEAM",
+      "INCINERATE",
+      "IRONTAIL",
+      "MEGAKICK",
+      "MEGAPUNCH",
+      "MIMIC",
+      "MYSTICALFIRE",
+      "NATURALGIFT",
+      "OMINOUSWIND",
+      "OUTRAGE",
+      "OVERHEAT",
+      "POWERUPPUNCH",
+      "PROTECT",
+      "REST",
+      "RETURN",
+      "ROAR",
+      "ROCKSLIDE",
+      "ROCKSMASH",
+      "ROCKTOMB",
+      "ROOST",
+      "ROUND",
+      "SANDSTORM",
+      "SCARYFACE",
+      "SCORCHINGSANDS",
+      "SECRETPOWER",
+      "SEISMICTOSS",
+      "SHADOWCLAW",
+      "SKYDROP",
+      "SLEEPTALK",
+      "SNORE",
+      "SOLARBEAM",
+      "STEELWING",
+      "STRENGTH",
+      "SUBSTITUTE",
+      "SUNNYDAY",
+      "SWAGGER",
+      "SWIFT",
+      "SWORDSDANCE",
+      "TAKEDOWN",
+      "TEMPERFLARE",
+      "TERABLAST",
+      "THUNDERPUNCH",
+      "TWISTER",
+      "WEATHERBALL",
+      "WILLOWISP",
+      "WORKUP",
+      "FALSESWIPE"
+    ],
+    eggMoves: [
+
+    ],
+    suffix: "absolution",
+    evolution: [
+
+    ]
   },
   {
     id: "LEVIATINY",
     name: "Leviatiny",
-    types: ["WATER"],
+    types: [
+      "WATER"
+    ],
     sprite: "/Front/LEVIATINY.png",
     backSprite: "/spritesBack/LEVIATINY.png",
-    description:
-      "It generates a thick and toxic foam on contact, it is not immune to its own poison...",
+    description: "It generates a thick and toxic foam on contact, it is not immune to its own poison...",
     stats: {
       hp: 49,
       attack: 53,
       defense: 52,
       spAttack: 59,
       spDefense: 50,
-      speed: 51,
+      speed: 51
     },
     height: "0.5",
     weight: "20.0",
-    abilities: ["TORRENT"],
-    hiddenAbilities: ["NEUROTOXIN"],
+    abilities: [
+      "TORRENT"
+    ],
+    hiddenAbilities: [
+      "NEUROTOXIN"
+    ],
     category: "???",
     moves: [
       "POUND",
@@ -626,7 +970,7 @@ export const fakemons: Fakemon[] = [
       "AGILITY",
       "TWISTER",
       "FLIPTURN",
-      "GASTROACID",
+      "GASTROACID"
     ],
     tutorMoves: [
       "AQUATAIL",
@@ -695,7 +1039,7 @@ export const fakemons: Fakemon[] = [
       "WORKUP",
       "ZENHEADBUTT",
       "POWDERSNOW",
-      "FALSESWIPE",
+      "FALSESWIPE"
     ],
     eggMoves: [
       "ICICLESPEAR",
@@ -712,37 +1056,42 @@ export const fakemons: Fakemon[] = [
       "HYDROPUMP",
       "GUNKSHOT",
       "BLIZZARD",
-      "WAVECRASH",
+      "WAVECRASH"
     ],
     suffix: "absolution",
     evolution: [
       {
         to: "LEVIATEEN",
         method: "Level",
-        value: "16",
-      },
-    ],
+        value: "16"
+      }
+    ]
   },
   {
     id: "LEVIATEEN",
     name: "Leviateen",
-    types: ["WATER"],
+    types: [
+      "WATER"
+    ],
     sprite: "/Front/LEVIATEEN.png",
     backSprite: "/spritesBack/LEVIATEEN.png",
-    description:
-      "Its dense foam is used for antidotes and cedants, if it feels in danger it can expel industrial quantities of this poison.",
+    description: "Its dense foam is used for antidotes and cedants, if it feels in danger it can expel industrial quantities of this poison.",
     stats: {
       hp: 64,
       attack: 79,
       defense: 69,
       spAttack: 70,
       spDefense: 66,
-      speed: 67,
+      speed: 67
     },
     height: "1.5",
     weight: "78.0",
-    abilities: ["TORRENT"],
-    hiddenAbilities: ["NEUROTOXIN"],
+    abilities: [
+      "TORRENT"
+    ],
+    hiddenAbilities: [
+      "NEUROTOXIN"
+    ],
     category: "???",
     moves: [
       "POUND",
@@ -762,7 +1111,7 @@ export const fakemons: Fakemon[] = [
       "THUNDERFANG",
       "AQUARING",
       "DRAGONBREATH",
-      "CROSSPOISON",
+      "CROSSPOISON"
     ],
     tutorMoves: [
       "AQUATAIL",
@@ -839,38 +1188,297 @@ export const fakemons: Fakemon[] = [
       "HYDROPUMP",
       "GUNKSHOT",
       "BLIZZARD",
-      "WAVECRASH",
+      "WAVECRASH"
     ],
-    eggMoves: [],
+    eggMoves: [
+
+    ],
     suffix: "absolution",
     evolution: [
       {
         to: "LEVIATITAN",
         method: "Level",
-        value: "36",
-      },
+        value: "36"
+      }
+    ]
+  },
+  {
+    id: "LEVIATITAN",
+    name: "Leviatitan",
+    types: [
+      "WATER",
+      "POISON"
     ],
+    sprite: "/Front/LEVIATITAN.png",
+    backSprite: "/spritesBack/LEVIATITAN.png",
+    description: "It hunts large Pokemon to feed, uses their venom to immobilize and weaken them, and if the hunt gets complicated, it floods its target with large quantities of toxic foam.",
+    stats: {
+      hp: 83,
+      attack: 98,
+      defense: 85,
+      spAttack: 86,
+      spDefense: 81,
+      speed: 99
+    },
+    height: "3.0",
+    weight: "123.0",
+    abilities: [
+      "TORRENT"
+    ],
+    hiddenAbilities: [
+      "NEUROTOXIN"
+    ],
+    category: "???",
+    moves: [
+      "POUND",
+      "TAILWHIP",
+      "AQUAJET",
+      "WRAP",
+      "NULLIFYINGSMOKE",
+      "DEBILITATINGTOXIN",
+      "COIL",
+      "AGILITY",
+      "TWISTER",
+      "FLIPTURN",
+      "GASTROACID",
+      "ICICLESPEAR",
+      "AQUACUTTER",
+      "ABYSSALBITE",
+      "THUNDERFANG",
+      "AQUARING",
+      "DRAGONBREATH",
+      "CROSSPOISON",
+      "ICEBEAM",
+      "THUNDERBOLT",
+      "SLUDGEWAVE",
+      "DRAGONDANCE",
+      "HYDROPUMP",
+      "GUNKSHOT",
+      "BLIZZARD",
+      "WAVECRASH"
+    ],
+    tutorMoves: [
+      "AQUATAIL",
+      "ATTRACT",
+      "BLIZZARD",
+      "BODYSLAM",
+      "BRICKBREAK",
+      "BRINE",
+      "CAPTIVATE",
+      "CHILLINGWATER",
+      "CONFIDE",
+      "COUNTER",
+      "DEFENSECURL",
+      "DIG",
+      "DIVE",
+      "DOUBLEEDGE",
+      "DOUBLETEAM",
+      "DYNAMICPUNCH",
+      "ENDURE",
+      "FACADE",
+      "FLING",
+      "FLIPTURN",
+      "FOCUSPUNCH",
+      "FRUSTRATION",
+      "GYROBALL",
+      "HAZE",
+      "HEADBUTT",
+      "HELPINGHAND",
+      "HIDDENPOWER",
+      "HYDROPUMP",
+      "ICEBEAM",
+      "ICEPUNCH",
+      "ICESPINNER",
+      "ICYWIND",
+      "IRONDEFENSE",
+      "IRONTAIL",
+      "LIQUIDATION",
+      "MEGAKICK",
+      "MEGAPUNCH",
+      "MIMIC",
+      "MUDDYWATER",
+      "MUDSHOT",
+      "NATURALGIFT",
+      "POWERUPPUNCH",
+      "PROTECT",
+      "RAINDANCE",
+      "REST",
+      "RETURN",
+      "ROCKSMASH",
+      "ROLLOUT",
+      "ROUND",
+      "SECRETPOWER",
+      "SEISMICTOSS",
+      "SLEEPTALK",
+      "SNORE",
+      "STRENGTH",
+      "SUBSTITUTE",
+      "SURF",
+      "SWAGGER",
+      "TAKEDOWN",
+      "TERABLAST",
+      "WATERPLEDGE",
+      "WATERPULSE",
+      "WEATHERBALL",
+      "WHIRLPOOL",
+      "WORKUP",
+      "ZENHEADBUTT",
+      "POWDERSNOW",
+      "FALSESWIPE",
+      "ICEBEAM",
+      "THUNDERBOLT",
+      "SLUDGEWAVE",
+      "DRAGONDANCE",
+      "HYDROPUMP",
+      "GUNKSHOT",
+      "BLIZZARD",
+      "WAVECRASH"
+    ],
+    eggMoves: [
+
+    ],
+    suffix: "absolution",
+    evolution: [
+
+    ]
+  },
+  {
+    id: "FATALTTY",
+    name: "Fataltty",
+    types: [
+      "DARK",
+      "GHOST"
+    ],
+    sprite: "/Front/FATALTTY.png",
+    backSprite: "/spritesBack/FATALTTY.png",
+    description: "Many Pokémon tend to be quite attracted to this Pokémon, which it uses to its advantage to control them and get food, although it does not enjoy this.",
+    stats: {
+      hp: 81,
+      attack: 111,
+      defense: 90,
+      spAttack: 57,
+      spDefense: 63,
+      speed: 122
+    },
+    height: "1.8",
+    weight: "6.9",
+    abilities: [
+      "CUTECHARM"
+    ],
+    hiddenAbilities: [
+      "VAMP"
+    ],
+    category: "Cat",
+    moves: [
+      "TACKLE",
+      "ATTRACT",
+      "FURYATTACK",
+      "LICK",
+      "SEDUCTION",
+      "ECHOEDVOICE",
+      "FAKEOUT",
+      "SHADOWSNEAK",
+      "DISARMINGVOICE",
+      "PAYBACK",
+      "LUCKYCHANT",
+      "BITE",
+      "AGILITY",
+      "FEINTATTACK",
+      "LOCKON",
+      "HEX",
+      "KNOCKOFF",
+      "ABUSE",
+      "SLASH",
+      "SHADOWCLAW",
+      "NIGHTSLASH",
+      "LASHOUT",
+      "EXTREMESPEED",
+      "CRUNCH",
+      "DESTINYBOND",
+      "HYPERVOICE"
+    ],
+    tutorMoves: [
+      "FLOWERFANG",
+      "MARTIALFANG",
+      "ATTRACT",
+      "BODYSLAM",
+      "CALMMIND",
+      "CAPTIVATE",
+      "CONFIDE",
+      "COVET",
+      "DEFENSECURL",
+      "DIG",
+      "DOUBLEEDGE",
+      "DOUBLETEAM",
+      "DREAMEATER",
+      "ECHOEDVOICE",
+      "ENDURE",
+      "FACADE",
+      "FLASH",
+      "FRUSTRATION",
+      "HEADBUTT",
+      "HEALBELL",
+      "HELPINGHAND",
+      "HIDDENPOWER",
+      "HYPERVOICE",
+      "IRONTAIL",
+      "LASTRESORT",
+      "NASTYPLOT",
+      "NATURALGIFT",
+      "PAYBACK",
+      "PROTECT",
+      "PSYCHUP",
+      "REST",
+      "RETALIATE",
+      "RETURN",
+      "ROUND",
+      "SAFEGUARD",
+      "SECRETPOWER",
+      "SHADOWBALL",
+      "SLEEPTALK",
+      "SNORE",
+      "SUBSTITUTE",
+      "SUCKERPUNCH",
+      "SWAGGER",
+      "SWIFT",
+      "UPROAR",
+      "WORKUP",
+      "ZENHEADBUTT"
+    ],
+    eggMoves: [
+      "CHARM"
+    ],
+    suffix: "absolution",
+    evolution: [
+
+    ]
   },
   {
     id: "CONDLING",
     name: "Condling",
-    types: ["FLYING"],
+    types: [
+      "FLYING"
+    ],
     sprite: "/Front/CONDLING.png",
     backSprite: "/spritesBack/CONDLING.png",
-    description:
-      "They are often seen collecting bones of Dragon-type Pokemon, despite not possessing feathers, they are believed to be able to fly.",
+    description: "They are often seen collecting bones of Dragon-type Pokemon, despite not possessing feathers, they are believed to be able to fly.",
     stats: {
       hp: 35,
       attack: 40,
       defense: 56,
       spAttack: 25,
       spDefense: 54,
-      speed: 31,
+      speed: 31
     },
     height: "0.2",
     weight: "1.0",
-    abilities: ["KEENEYE", "BIGPECKS"],
-    hiddenAbilities: ["TAILWINDBLESS"],
+    abilities: [
+      "KEENEYE",
+      "BIGPECKS"
+    ],
+    hiddenAbilities: [
+      "TAILWINDBLESS"
+    ],
     category: "Bald Bird",
     moves: [
       "GROWL",
@@ -898,7 +1506,7 @@ export const fakemons: Fakemon[] = [
       "DRAGONRUSH",
       "PERISHSONG",
       "PUNISHMENT",
-      "MIRRORMOVE",
+      "MIRRORMOVE"
     ],
     tutorMoves: [
       "AERIALACE",
@@ -940,38 +1548,271 @@ export const fakemons: Fakemon[] = [
       "TWISTER",
       "UPROAR",
       "UTURN",
-      "WORKUP",
+      "WORKUP"
     ],
-    eggMoves: ["AIRCUTTER", "AIRSLASH", "BRAVEBIRD", "UPROAR"],
+    eggMoves: [
+      "AIRCUTTER",
+      "AIRSLASH",
+      "BRAVEBIRD",
+      "UPROAR"
+    ],
     suffix: "absolution",
     evolution: [
       {
         to: "BONEVEIL",
         method: "Level",
-        value: "16",
-      },
+        value: "16"
+      }
+    ]
+  },
+  {
+    id: "BONEVEIL",
+    name: "Boneveil",
+    types: [
+      "FLYING",
+      "FAIRY"
     ],
+    sprite: "/Front/BONEVEIL.png",
+    backSprite: "/spritesBack/BONEVEIL.png",
+    description: "It lives high in the mountains, humans and Pokemon come to this Pokemon to cure curses and minor illnesses.",
+    stats: {
+      hp: 63,
+      attack: 46,
+      defense: 73,
+      spAttack: 41,
+      spDefense: 69,
+      speed: 58
+    },
+    height: "1.1",
+    weight: "50.0",
+    abilities: [
+      "KEENEYE",
+      "BIGPECKS"
+    ],
+    hiddenAbilities: [
+      "TAILWINDBLESS"
+    ],
+    category: "Shaman",
+    moves: [
+      "PECK",
+      "GROWL",
+      "GUST",
+      "FAIRYWIND",
+      "CURSE",
+      "PURSUIT",
+      "MOONLIGHT",
+      "SHAMANBLESSING",
+      "AERIALACE",
+      "BEATUP",
+      "REFLECT",
+      "CRUSHCLAW",
+      "METALSOUND",
+      "TAILWIND",
+      "MEDITATE",
+      "SLASH",
+      "DAZZLINGGLEAM",
+      "DRAGONCLAW",
+      "ROOST",
+      "PLAYROUGH",
+      "AEROBLAST",
+      "DRAGONSLAYER",
+      "DRAGONRUSH",
+      "PERISHSONG",
+      "PUNISHMENT",
+      "MIRRORMOVE"
+    ],
+    tutorMoves: [
+      "AERIALACE",
+      "AIRCUTTER",
+      "ATTRACT",
+      "CAPTIVATE",
+      "CONFIDE",
+      "DEFOG",
+      "DOUBLEEDGE",
+      "DOUBLETEAM",
+      "ENDURE",
+      "FACADE",
+      "FLY",
+      "FRUSTRATION",
+      "HEATWAVE",
+      "HIDDENPOWER",
+      "MIMIC",
+      "MUDSLAP",
+      "NATURALGIFT",
+      "OMINOUSWIND",
+      "PLUCK",
+      "PROTECT",
+      "RAINDANCE",
+      "REST",
+      "RETURN",
+      "ROOST",
+      "ROUND",
+      "SECRETPOWER",
+      "SKYATTACK",
+      "SLEEPTALK",
+      "SNORE",
+      "STEELWING",
+      "SUBSTITUTE",
+      "SUNNYDAY",
+      "SWAGGER",
+      "SWIFT",
+      "TAILWIND",
+      "THIEF",
+      "TWISTER",
+      "UPROAR",
+      "UTURN",
+      "WORKUP"
+    ],
+    eggMoves: [
+      "AIRCUTTER",
+      "AIRSLASH",
+      "BRAVEBIRD",
+      "UPROAR"
+    ],
+    suffix: "absolution",
+    evolution: [
+      {
+        to: "CONDEMNA",
+        method: "Level",
+        value: "40"
+      }
+    ]
+  },
+  {
+    id: "CONDEMNA",
+    name: "Condemna",
+    types: [
+      "FLYING",
+      "FAIRY"
+    ],
+    sprite: "/Front/CONDEMNA.png",
+    backSprite: "/spritesBack/CONDEMNA.png",
+    description: "They have an inner hatred of dragon-type Pokemon, and are often very aggressive towards them. Their feathers are said to have enormous healing effects.",
+    stats: {
+      hp: 92,
+      attack: 85,
+      defense: 111,
+      spAttack: 82,
+      spDefense: 104,
+      speed: 75
+    },
+    height: "2.0",
+    weight: "125.5",
+    abilities: [
+      "KEENEYE",
+      "BIGPECKS"
+    ],
+    hiddenAbilities: [
+      "TAILWINDBLESS"
+    ],
+    category: "Shaman",
+    moves: [
+      "PECK",
+      "GROWL",
+      "GUST",
+      "FAIRYWIND",
+      "CURSE",
+      "PURSUIT",
+      "MOONLIGHT",
+      "SHAMANBLESSING",
+      "AERIALACE",
+      "BEATUP",
+      "REFLECT",
+      "CRUSHCLAW",
+      "METALSOUND",
+      "TAILWIND",
+      "MEDITATE",
+      "SLASH",
+      "DAZZLINGGLEAM",
+      "DRAGONCLAW",
+      "ROOST",
+      "PLAYROUGH",
+      "AEROBLAST",
+      "DRAGONSLAYER",
+      "DRAGONRUSH",
+      "PERISHSONG",
+      "PUNISHMENT",
+      "MIRRORMOVE"
+    ],
+    tutorMoves: [
+      "AERIALACE",
+      "AIRCUTTER",
+      "ATTRACT",
+      "CAPTIVATE",
+      "CONFIDE",
+      "DEFOG",
+      "DOUBLEEDGE",
+      "DOUBLETEAM",
+      "ENDURE",
+      "FACADE",
+      "FLY",
+      "FRUSTRATION",
+      "HEATWAVE",
+      "HIDDENPOWER",
+      "MIMIC",
+      "MUDSLAP",
+      "NATURALGIFT",
+      "OMINOUSWIND",
+      "PLUCK",
+      "PROTECT",
+      "RAINDANCE",
+      "REST",
+      "RETURN",
+      "ROOST",
+      "ROUND",
+      "SECRETPOWER",
+      "SKYATTACK",
+      "SLEEPTALK",
+      "SNORE",
+      "STEELWING",
+      "SUBSTITUTE",
+      "SUNNYDAY",
+      "SWAGGER",
+      "SWIFT",
+      "TAILWIND",
+      "THIEF",
+      "TWISTER",
+      "UPROAR",
+      "UTURN",
+      "WORKUP"
+    ],
+    eggMoves: [
+      "AIRCUTTER",
+      "AIRSLASH",
+      "BRAVEBIRD",
+      "UPROAR"
+    ],
+    suffix: "absolution",
+    evolution: [
+
+    ]
   },
   {
     id: "WOOLARVA",
     name: "Woolarva",
-    types: ["BUG"],
+    types: [
+      "BUG"
+    ],
     sprite: "/Front/WOOLARVA.png",
     backSprite: "/spritesBack/WOOLARVA.png",
-    description:
-      "Its silk is very resistant, so it is often used for various garments.",
+    description: "Its silk is very resistant, so it is often used for various garments.",
     stats: {
       hp: 45,
       attack: 30,
       defense: 25,
       spAttack: 20,
       spDefense: 20,
-      speed: 70,
+      speed: 70
     },
     height: "0.1",
     weight: "0.1",
-    abilities: ["SHIELDDUST", "LIKESILK"],
-    hiddenAbilities: [],
+    abilities: [
+      "SHIELDDUST",
+      "LIKESILK"
+    ],
+    hiddenAbilities: [
+
+    ],
     category: "???",
     moves: [
       "TACKLE",
@@ -991,7 +1832,7 @@ export const fakemons: Fakemon[] = [
       "ECHOEDVOICE",
       "POLLENPUFF",
       "SUPERSONIC",
-      "QUIVERDANCE",
+      "QUIVERDANCE"
     ],
     tutorMoves: [
       "AERIALACE",
@@ -1045,38 +1886,277 @@ export const fakemons: Fakemon[] = [
       "THIEF",
       "VENOSHOCK",
       "WORRYSEED",
-      "XSCISSOR",
+      "XSCISSOR"
     ],
-    eggMoves: [],
+    eggMoves: [
+
+    ],
     suffix: "absolution",
     evolution: [
       {
         to: "WOOBACOON",
         method: "Level",
-        value: "10",
-      },
+        value: "10"
+      }
+    ]
+  },
+  {
+    id: "WOOBACOON",
+    name: "Woobacoon",
+    types: [
+      "BUG"
     ],
+    sprite: "/Front/WOOBACOON.png",
+    backSprite: "/spritesBack/WOOBACOON.png",
+    description: "It does not usually move much, it uses its silk to defend itself from predators.",
+    stats: {
+      hp: 80,
+      attack: 48,
+      defense: 77,
+      spAttack: 40,
+      spDefense: 80,
+      speed: 75
+    },
+    height: "0.3",
+    weight: "10.7",
+    abilities: [
+      "SHIELDDUST",
+      "LIKESILK"
+    ],
+    hiddenAbilities: [
+
+    ],
+    category: "???",
+    moves: [
+      "TACKLE",
+      "STRINGSHOT",
+      "SLEEPPOWDER",
+      "ABSORB",
+      "BUGBITE",
+      "FAIRYWIND",
+      "STICKYWEB",
+      "SILKBOMB",
+      "SILVERWIND",
+      "SYRUPBOMB",
+      "SILKYCOCOON",
+      "TAUNT",
+      "GIGADRAIN",
+      "DEFENDORDER",
+      "ECHOEDVOICE",
+      "POLLENPUFF",
+      "SUPERSONIC",
+      "QUIVERDANCE"
+    ],
+    tutorMoves: [
+      "AERIALACE",
+      "AFTERYOU",
+      "ATTRACT",
+      "BODYSLAM",
+      "BRICKBREAK",
+      "BUGBITE",
+      "BULLETSEED",
+      "CAPTIVATE",
+      "CONFIDE",
+      "COUNTER",
+      "CUT",
+      "DIG",
+      "DOUBLEEDGE",
+      "DOUBLETEAM",
+      "ENDURE",
+      "FACADE",
+      "FALSESWIPE",
+      "FLASH",
+      "FRUSTRATION",
+      "FURYCUTTER",
+      "GIGADRAIN",
+      "GRASSKNOT",
+      "HIDDENPOWER",
+      "HONECLAWS",
+      "KNOCKOFF",
+      "LEECHLIFE",
+      "LIGHTSCREEN",
+      "MIMIC",
+      "NATURALGIFT",
+      "NATUREPOWER",
+      "PROTECT",
+      "REST",
+      "RETURN",
+      "ROCKSMASH",
+      "ROUND",
+      "SECRETPOWER",
+      "SEEDBOMB",
+      "SLEEPTALK",
+      "SLUDGEBOMB",
+      "SNORE",
+      "SOLARBEAM",
+      "STRINGSHOT",
+      "STRUGGLEBUG",
+      "SUBSTITUTE",
+      "SUNNYDAY",
+      "SWAGGER",
+      "SWORDSDANCE",
+      "SYNTHESIS",
+      "THIEF",
+      "VENOSHOCK",
+      "WORRYSEED",
+      "XSCISSOR"
+    ],
+    eggMoves: [
+
+    ],
+    suffix: "absolution",
+    evolution: [
+      {
+        to: "WEAMOTH",
+        method: "Item",
+        value: "TWILIGHTSTONE"
+      }
+    ]
+  },
+  {
+    id: "WEAMOTH",
+    name: "Weamoth",
+    types: [
+      "BUG",
+      "FAIRY"
+    ],
+    sprite: "/Front/WEAMOTH.png",
+    backSprite: "/spritesBack/WEAMOTH.png",
+    description: "Its beautiful silk is used to create high-quality garments, making it a very attractive Pokemon for designers and stylists.",
+    stats: {
+      hp: 114,
+      attack: 53,
+      defense: 117,
+      spAttack: 75,
+      spDefense: 128,
+      speed: 76
+    },
+    height: "1.0",
+    weight: "30.7",
+    abilities: [
+      "SHIELDDUST",
+      "LIKESILK"
+    ],
+    hiddenAbilities: [
+
+    ],
+    category: "???",
+    moves: [
+      "TACKLE",
+      "STRINGSHOT",
+      "SLEEPPOWDER",
+      "ABSORB",
+      "BUGBITE",
+      "FAIRYWIND",
+      "STICKYWEB",
+      "SILKBOMB",
+      "SILVERWIND",
+      "SYRUPBOMB",
+      "SILKYCOCOON",
+      "TAUNT",
+      "DAZZLINGGLEAM",
+      "GIGADRAIN",
+      "DEFENDORDER",
+      "MISTYTERRAIN",
+      "ECHOEDVOICE",
+      "POLLENPUFF",
+      "MOONLIGHT",
+      "SUPERSONIC",
+      "QUIVERDANCE",
+      "MOONBLAST",
+      "TAILWIND",
+      "ROOST",
+      "OMINOUSWIND",
+      "AURORAVEIL"
+    ],
+    tutorMoves: [
+      "AERIALACE",
+      "AFTERYOU",
+      "ATTRACT",
+      "BODYSLAM",
+      "BRICKBREAK",
+      "BUGBITE",
+      "BULLETSEED",
+      "CAPTIVATE",
+      "CONFIDE",
+      "COUNTER",
+      "CUT",
+      "DIG",
+      "DOUBLEEDGE",
+      "DOUBLETEAM",
+      "ENDURE",
+      "FACADE",
+      "FALSESWIPE",
+      "FLASH",
+      "FRUSTRATION",
+      "FURYCUTTER",
+      "GIGADRAIN",
+      "GRASSKNOT",
+      "HIDDENPOWER",
+      "HONECLAWS",
+      "KNOCKOFF",
+      "LEECHLIFE",
+      "LIGHTSCREEN",
+      "MIMIC",
+      "NATURALGIFT",
+      "NATUREPOWER",
+      "PROTECT",
+      "REST",
+      "RETURN",
+      "ROCKSMASH",
+      "ROUND",
+      "SECRETPOWER",
+      "SEEDBOMB",
+      "SLEEPTALK",
+      "SLUDGEBOMB",
+      "SNORE",
+      "SOLARBEAM",
+      "STRINGSHOT",
+      "STRUGGLEBUG",
+      "SUBSTITUTE",
+      "SUNNYDAY",
+      "SWAGGER",
+      "SWORDSDANCE",
+      "SYNTHESIS",
+      "THIEF",
+      "VENOSHOCK",
+      "WORRYSEED",
+      "XSCISSOR"
+    ],
+    eggMoves: [
+
+    ],
+    suffix: "absolution",
+    evolution: [
+
+    ]
   },
   {
     id: "SORROWOOF",
     name: "Sorrowoof",
-    types: ["NORMAL"],
+    types: [
+      "NORMAL"
+    ],
     sprite: "/Front/SORROWOOF.png",
     backSprite: "/spritesBack/SORROWOOF.png",
-    description:
-      "They tend to forage in dumpsters, are quite fearful and tend to avoid unnecessary conflict at all costs, which makes them victims of abusive Pokémon.",
+    description: "They tend to forage in dumpsters, are quite fearful and tend to avoid unnecessary conflict at all costs, which makes them victims of abusive Pokémon.",
     stats: {
       hp: 65,
       attack: 43,
       defense: 42,
       spAttack: 38,
       spDefense: 38,
-      speed: 43,
+      speed: 43
     },
     height: "0.5",
     weight: "13.6",
-    abilities: ["RUNAWAY", "INTIMIDATE"],
-    hiddenAbilities: ["STAMINA"],
+    abilities: [
+      "RUNAWAY",
+      "INTIMIDATE"
+    ],
+    hiddenAbilities: [
+      "STAMINA"
+    ],
     category: "Puppy",
     moves: [
       "TACKLE",
@@ -1104,7 +2184,141 @@ export const fakemons: Fakemon[] = [
       "ROAR",
       "PAINSPLIT",
       "PLAYROUGH",
-      "CLOSECOMBAT",
+      "CLOSECOMBAT"
+    ],
+    tutorMoves: [
+      "FLOWERFANG",
+      "ATTRACT",
+      "CAPTIVATE",
+      "CHARM",
+      "CONFIDE",
+      "COUNTER",
+      "COVET",
+      "CRUNCH",
+      "DARKPULSE",
+      "DIG",
+      "DOUBLEEDGE",
+      "DOUBLETEAM",
+      "EMBARGO",
+      "ENDEAVOR",
+      "ENDURE",
+      "FACADE",
+      "FIREFANG",
+      "FOULPLAY",
+      "FRUSTRATION",
+      "HEADBUTT",
+      "HELPINGHAND",
+      "HIDDENPOWER",
+      "HYPERVOICE",
+      "ICEFANG",
+      "INCINERATE",
+      "IRONTAIL",
+      "LASHOUT",
+      "MIMIC",
+      "MUDSLAP",
+      "NASTYPLOT",
+      "NATURALGIFT",
+      "PAYBACK",
+      "PLAYROUGH",
+      "PROTECT",
+      "PSYCHICFANGS",
+      "RAINDANCE",
+      "REST",
+      "RETALIATE",
+      "RETURN",
+      "ROAR",
+      "ROCKSMASH",
+      "ROUND",
+      "SCARYFACE",
+      "SECRETPOWER",
+      "SHADOWBALL",
+      "SLEEPTALK",
+      "SNARL",
+      "SNATCH",
+      "SNORE",
+      "SPITE",
+      "SUBSTITUTE",
+      "SUCKERPUNCH",
+      "SUNNYDAY",
+      "SUPERFANG",
+      "SWAGGER",
+      "TAKEDOWN",
+      "TAUNT",
+      "TERABLAST",
+      "THIEF",
+      "THUNDERFANG",
+      "TORMENT",
+      "TRAILBLAZE",
+      "UPROAR"
+    ],
+    eggMoves: [
+      "CHARM"
+    ],
+    suffix: "absolution",
+    evolution: [
+      {
+        to: "WOOFIGHTER",
+        method: "Level",
+        value: "22"
+      }
+    ]
+  },
+  {
+    id: "WOOFIGHTER",
+    name: "Woofighter",
+    types: [
+      "NORMAL",
+      "FIGHTING"
+    ],
+    sprite: "/Front/WOOFIGHTER.png",
+    backSprite: "/spritesBack/WOOFIGHTER.png",
+    description: "They tend to avoid combat, but when it comes to defending their trainer, they won't hesitate for a second to fight and defeat anything that comes their way.",
+    stats: {
+      hp: 85,
+      attack: 97,
+      defense: 95,
+      spAttack: 70,
+      spDefense: 83,
+      speed: 80
+    },
+    height: "2.0",
+    weight: "70.0",
+    abilities: [
+      "INTIMIDATE",
+      "MOXIE"
+    ],
+    hiddenAbilities: [
+      "IRONFIST"
+    ],
+    category: "Puppy",
+    moves: [
+      "CROSSCHOP",
+      "TACKLE",
+      "FAKETEARS",
+      "PURSUIT",
+      "DETECT",
+      "TOUCHTHELIMIT",
+      "MARTIALFANG",
+      "SUPPLICATION",
+      "WORKUP",
+      "CROSSCHOP",
+      "AGILITY",
+      "SUCKERPUNCH",
+      "SUBSTITUTE",
+      "BEATUP",
+      "CIRCLETHROW",
+      "CRUNCH",
+      "MACHPUNCH",
+      "TORMENT",
+      "SUBMISSION",
+      "DARKESTLARIAT",
+      "SCREECH",
+      "TAUNT",
+      "DYNAMICPUNCH",
+      "ROAR",
+      "PAINSPLIT",
+      "PLAYROUGH",
+      "CLOSECOMBAT"
     ],
     tutorMoves: [
       "FLOWERFANG",
@@ -1170,37 +2384,49 @@ export const fakemons: Fakemon[] = [
       "TORMENT",
       "TRAILBLAZE",
       "UPROAR",
+      "JETPUNCH",
+      "BULLETPUNCH",
+      "THUNDERPUNCH",
+      "SHADOWPUNCH",
+      "FIREPUNCH",
+      "ICEPUNCH",
+      "DYNAMICPUNCH",
+      "FOCUSPUNCH",
+      "BRICKBREAK"
     ],
-    eggMoves: ["CHARM"],
+    eggMoves: [
+      "CHARM"
+    ],
     suffix: "absolution",
     evolution: [
-      {
-        to: "WOOFIGHTER",
-        method: "Level",
-        value: "22",
-      },
-    ],
+
+    ]
   },
   {
     id: "YUNTTER",
     name: "Yuntter",
-    types: ["WATER"],
+    types: [
+      "WATER"
+    ],
     sprite: "/Front/YUNTTER.png",
     backSprite: "/spritesBack/YUNTTER.png",
-    description:
-      "It is always seen with a rock and is known to be very territorial, not tolerating visits from unfamiliar Trainers or Pokémon. However, if you prove yourself to be an honorable Trainer, you will have no trouble.",
+    description: "It is always seen with a rock and is known to be very territorial, not tolerating visits from unfamiliar Trainers or Pokémon. However, if you prove yourself to be an honorable Trainer, you will have no trouble.",
     stats: {
       hp: 38,
       attack: 35,
       defense: 25,
       spAttack: 30,
       spDefense: 25,
-      speed: 100,
+      speed: 100
     },
     height: "0.4",
     weight: "6.0",
-    abilities: ["TORRENT"],
-    hiddenAbilities: ["SNIPER"],
+    abilities: [
+      "TORRENT"
+    ],
+    hiddenAbilities: [
+      "SNIPER"
+    ],
     category: "Otter",
     moves: [
       "PURSUIT",
@@ -1228,7 +2454,7 @@ export const fakemons: Fakemon[] = [
       "SHERIFFSHOT",
       "DRILLRUN",
       "FLASHCANNON",
-      "HYDROPUMP",
+      "HYDROPUMP"
     ],
     tutorMoves: [
       "AGILITY",
@@ -1292,38 +2518,174 @@ export const fakemons: Fakemon[] = [
       "THIEF",
       "WATERFALL",
       "WATERPULSE",
-      "WHIRLPOOL",
+      "WHIRLPOOL"
     ],
-    eggMoves: [],
+    eggMoves: [
+
+    ],
     suffix: "absolution",
     evolution: [
       {
         to: "GUMSTTER",
         method: "Level",
-        value: "20",
-      },
+        value: "20"
+      }
+    ]
+  },
+  {
+    id: "GUMSTTER",
+    name: "Gumstter",
+    types: [
+      "WATER",
+      "GROUND"
     ],
+    sprite: "/Front/GUMSTTER.png",
+    backSprite: "/spritesBack/GUMSTTER.png",
+    description: "It protects its own with great ferocity and has remarkable aim. It is said to be able to hit a target from a kilometer away.",
+    stats: {
+      hp: 63,
+      attack: 48,
+      defense: 52,
+      spAttack: 102,
+      spDefense: 46,
+      speed: 107
+    },
+    height: "90.0",
+    weight: "1.6",
+    abilities: [
+      "TORRENT"
+    ],
+    hiddenAbilities: [
+      "SNIPER"
+    ],
+    category: "Big Otter",
+    moves: [
+      "PURSUIT",
+      "MUDSLAP",
+      "WATERGUN",
+      "MUDSPORT",
+      "FEINTATTACK",
+      "CONFUSERAY",
+      "INTHESPOTLIGHT",
+      "AQUAJET",
+      "SWIFT",
+      "MUDBOMB",
+      "WATERPULSE",
+      "WATERSPORT",
+      "BULLETPUNCH",
+      "AQUARING",
+      "FLATTER",
+      "RAZORSHELL",
+      "BRICKBREAK",
+      "CRUNCH",
+      "EARTHPOWER",
+      "NASTYPLOT",
+      "MUDDYWATER",
+      "METALSOUND",
+      "SHERIFFSHOT",
+      "DRILLRUN",
+      "FLASHCANNON",
+      "HYDROPUMP"
+    ],
+    tutorMoves: [
+      "AGILITY",
+      "AQUATAIL",
+      "ATTRACT",
+      "BATONPASS",
+      "BLIZZARD",
+      "BRICKBREAK",
+      "BRINE",
+      "BULKUP",
+      "CAPTIVATE",
+      "CHILLINGWATER",
+      "CONFIDE",
+      "CRUNCH",
+      "DIG",
+      "DIVE",
+      "DOUBLETEAM",
+      "ECHOEDVOICE",
+      "ENDURE",
+      "FACADE",
+      "FLING",
+      "FLIPTURN",
+      "FOCUSPUNCH",
+      "FRUSTRATION",
+      "HEADBUTT",
+      "HELPINGHAND",
+      "HIDDENPOWER",
+      "HYDROPUMP",
+      "ICEBEAM",
+      "ICEFANG",
+      "ICEPUNCH",
+      "ICESPINNER",
+      "ICYWIND",
+      "IRONTAIL",
+      "LIQUIDATION",
+      "LOWKICK",
+      "LOWSWEEP",
+      "MIMIC",
+      "MUDSLAP",
+      "NATURALGIFT",
+      "POWERUPPUNCH",
+      "PROTECT",
+      "RAINDANCE",
+      "REST",
+      "RETURN",
+      "ROAR",
+      "ROCKSMASH",
+      "ROCKTOMB",
+      "ROUND",
+      "SECRETPOWER",
+      "SLEEPTALK",
+      "SNORE",
+      "STRENGTH",
+      "SUBSTITUTE",
+      "SURF",
+      "SWAGGER",
+      "SWIFT",
+      "TAKEDOWN",
+      "TAUNT",
+      "TERABLAST",
+      "THIEF",
+      "WATERFALL",
+      "WATERPULSE",
+      "WHIRLPOOL"
+    ],
+    eggMoves: [
+
+    ],
+    suffix: "absolution",
+    evolution: [
+
+    ]
   },
   {
     id: "AXISH",
     name: "Axish",
-    types: ["WATER", "ROCK"],
+    types: [
+      "WATER",
+      "ROCK"
+    ],
     sprite: "/Front/AXISH.png",
     backSprite: "/spritesBack/AXISH.png",
-    description:
-      "Despite its appearance and clumsy swimming style, it is an excellent predator. It uses the sharp edge of its axe-like fin to inflict multiple cuts on its prey, and once the target is weakened, it proceeds to devour it.",
+    description: "Despite its appearance and clumsy swimming style, it is an excellent predator. It uses the sharp edge of its axe-like fin to inflict multiple cuts on its prey, and once the target is weakened, it proceeds to devour it.",
     stats: {
       hp: 65,
       attack: 72,
       defense: 64,
       spAttack: 32,
       spDefense: 64,
-      speed: 18,
+      speed: 18
     },
     height: "0.6",
     weight: "10.0",
-    abilities: ["SWIFTSWIM"],
-    hiddenAbilities: ["ROCKHEAD", "RAINCUTTER"],
+    abilities: [
+      "SWIFTSWIM"
+    ],
+    hiddenAbilities: [
+      "ROCKHEAD",
+      "RAINCUTTER"
+    ],
     category: "Fish",
     moves: [
       "SPLASH",
@@ -1340,39 +2702,50 @@ export const fakemons: Fakemon[] = [
       "METALCLAW",
       "BRINE",
       "SCARYFACE",
-      "WATERFALL",
+      "WATERFALL"
     ],
-    tutorMoves: ["BOUNCE"],
-    eggMoves: [],
+    tutorMoves: [
+      "BOUNCE"
+    ],
+    eggMoves: [
+
+    ],
     suffix: "absolution",
     evolution: [
       {
         to: "JAXEWS",
         method: "HasMoveType",
-        value: "STEEL",
-      },
-    ],
+        value: "STEEL"
+      }
+    ]
   },
   {
     id: "JAXEWS",
     name: "Jaxews",
-    types: ["WATER", "STEEL"],
+    types: [
+      "WATER",
+      "STEEL"
+    ],
     sprite: "/Front/JAXEWS.png",
     backSprite: "/spritesBack/JAXEWS.png",
-    description:
-      "They are fully aware of their massive size and avoid unnecessary conflicts, only attacking when feeding. The metal composing their axe is highly valuable, making them attractive targets for fishermen. However, very few people are willing to deal with this formidable Pokemon.",
+    description: "They are fully aware of their massive size and avoid unnecessary conflicts, only attacking when feeding. The metal composing their axe is highly valuable, making them attractive targets for fishermen. However, very few people are willing to deal with this formidable Pokemon.",
     stats: {
       hp: 109,
       attack: 120,
       defense: 107,
       spAttack: 56,
       spDefense: 107,
-      speed: 34,
+      speed: 34
     },
     height: "6.5",
     weight: "520.0",
-    abilities: ["INTIMIDATE"],
-    hiddenAbilities: ["MOXIE", "RAINCUTTER"],
+    abilities: [
+      "INTIMIDATE"
+    ],
+    hiddenAbilities: [
+      "MOXIE",
+      "RAINCUTTER"
+    ],
     category: "Atrocious",
     moves: [
       "SPLASH",
@@ -1396,7 +2769,7 @@ export const fakemons: Fakemon[] = [
       "IRONHEAD",
       "THRASH",
       "HYPERBEAM",
-      "IRONTAIL",
+      "IRONTAIL"
     ],
     tutorMoves: [
       "AQUATAIL",
@@ -1479,32 +2852,42 @@ export const fakemons: Fakemon[] = [
       "TWISTER",
       "WATERFALL",
       "WATERPULSE",
-      "WHIRLPOOL",
+      "WHIRLPOOL"
     ],
-    eggMoves: [],
+    eggMoves: [
+
+    ],
     suffix: "absolution",
-    evolution: [],
+    evolution: [
+
+    ]
   },
   {
     id: "GROWRAGE",
     name: "Growrage",
-    types: ["NORMAL"],
+    types: [
+      "NORMAL"
+    ],
     sprite: "/Front/GROWRAGE.png",
     backSprite: "/spritesBack/GROWRAGE.png",
-    description:
-      "It is a heroic Pokémon, often seen helping and protecting other Pokémon.",
+    description: "It is a heroic Pokémon, often seen helping and protecting other Pokémon.",
     stats: {
       hp: 60,
       attack: 60,
       defense: 55,
       spAttack: 60,
       spDefense: 55,
-      speed: 60,
+      speed: 60
     },
     height: "0.7",
     weight: "19.0",
-    abilities: ["INTIMIDATE", "INNERFOCUS"],
-    hiddenAbilities: ["JUSTIFIED"],
+    abilities: [
+      "INTIMIDATE",
+      "INNERFOCUS"
+    ],
+    hiddenAbilities: [
+      "JUSTIFIED"
+    ],
     category: "Puppy",
     moves: [
       "QUICKATTACK",
@@ -1532,7 +2915,7 @@ export const fakemons: Fakemon[] = [
       "EARTHQUAKE",
       "TWILIGHTCUT",
       "NIGHTFALL",
-      "CLOSECOMBAT",
+      "CLOSECOMBAT"
     ],
     tutorMoves: [
       "FLOWERFANG",
@@ -1597,38 +2980,175 @@ export const fakemons: Fakemon[] = [
       "THUNDERFANG",
       "TORMENT",
       "TRAILBLAZE",
-      "UPROAR",
+      "UPROAR"
     ],
-    eggMoves: [],
+    eggMoves: [
+
+    ],
     suffix: "absolution",
     evolution: [
       {
         to: "TWYLICAN",
         method: "LevelTwincessInParty",
-        value: "25",
-      },
+        value: "25"
+      }
+    ]
+  },
+  {
+    id: "TWYLICAN",
+    name: "Twylican",
+    types: [
+      "FIGHTING",
+      "STEEL"
     ],
+    sprite: "/Front/TWYLICAN.png",
+    backSprite: "/spritesBack/TWYLICAN.png",
+    description: "It has a strong sense of justice and is often seen roaming the forest, searching for Trainers and Pokémon in need of help. Twylican will not hesitate to step in and protect the weak, earning the respect of those who witness its bravery.",
+    stats: {
+      hp: 90,
+      attack: 110,
+      defense: 70,
+      spAttack: 100,
+      spDefense: 75,
+      speed: 110
+    },
+    height: "0.7",
+    weight: "19.0",
+    abilities: [
+      "INTIMIDATE",
+      "INNERFOCUS"
+    ],
+    hiddenAbilities: [
+      "JUSTIFIED"
+    ],
+    category: "Hero",
+    moves: [
+      "QUICKATTACK",
+      "GROWL",
+      "MUDSHOT",
+      "RAGE",
+      "TRIFORCE",
+      "MARTIALFANG",
+      "METALCLAW",
+      "PAYBACK",
+      "BULKUP",
+      "MIRRORSHOT",
+      "BITE",
+      "TRIPLEKICK",
+      "ROAR",
+      "NORETREAT",
+      "STOMP",
+      "METALSOUND",
+      "NIGHTSLASH",
+      "SLASH",
+      "IRONTAIL",
+      "TRIATTACK",
+      "CRUNCH",
+      "EXTREMESPEED",
+      "EARTHQUAKE",
+      "TWILIGHTCUT",
+      "NIGHTFALL",
+      "CLOSECOMBAT"
+    ],
+    tutorMoves: [
+      "FLOWERFANG",
+      "ATTRACT",
+      "CAPTIVATE",
+      "CHARM",
+      "CONFIDE",
+      "COUNTER",
+      "COVET",
+      "CRUNCH",
+      "DARKPULSE",
+      "DIG",
+      "DOUBLEEDGE",
+      "DOUBLETEAM",
+      "EMBARGO",
+      "ENDEAVOR",
+      "ENDURE",
+      "FACADE",
+      "FIREFANG",
+      "FOULPLAY",
+      "FRUSTRATION",
+      "HEADBUTT",
+      "HELPINGHAND",
+      "HIDDENPOWER",
+      "HYPERVOICE",
+      "ICEFANG",
+      "INCINERATE",
+      "IRONTAIL",
+      "LASHOUT",
+      "MIMIC",
+      "MUDSLAP",
+      "NASTYPLOT",
+      "NATURALGIFT",
+      "PAYBACK",
+      "PLAYROUGH",
+      "PROTECT",
+      "PSYCHICFANGS",
+      "RAINDANCE",
+      "REST",
+      "RETALIATE",
+      "RETURN",
+      "ROAR",
+      "ROCKSMASH",
+      "ROUND",
+      "SCARYFACE",
+      "SECRETPOWER",
+      "SHADOWBALL",
+      "SLEEPTALK",
+      "SNARL",
+      "SNATCH",
+      "SNORE",
+      "SPITE",
+      "SUBSTITUTE",
+      "SUCKERPUNCH",
+      "SUNNYDAY",
+      "SUPERFANG",
+      "SWAGGER",
+      "TAKEDOWN",
+      "TAUNT",
+      "TERABLAST",
+      "THIEF",
+      "THUNDERFANG",
+      "TORMENT",
+      "TRAILBLAZE",
+      "UPROAR"
+    ],
+    eggMoves: [
+
+    ],
+    suffix: "absolution",
+    evolution: [
+
+    ]
   },
   {
     id: "CRYOWL",
     name: "Cryowl",
-    types: ["ICE", "FLYING"],
+    types: [
+      "ICE",
+      "FLYING"
+    ],
     sprite: "/Front/CRYOWL.png",
     backSprite: "/spritesBack/CRYOWL.png",
-    description:
-      "It can hunt easily thanks to its ability to fly without being heard and its excellent eyesight. Despite its bright white color, it manages to hide very well in the darkness.",
+    description: "It can hunt easily thanks to its ability to fly without being heard and its excellent eyesight. Despite its bright white color, it manages to hide very well in the darkness.",
     stats: {
       hp: 60,
       attack: 62,
       defense: 30,
       spAttack: 36,
       spDefense: 30,
-      speed: 50,
+      speed: 50
     },
     height: "0.5",
     weight: "21.2",
-    abilities: ["REFRIGERATE"],
-    hiddenAbilities: ["ICEKING"],
+    abilities: [
+      "REFRIGERATE"
+    ],
+    hiddenAbilities: [
+      "ICEKING"
+    ],
     category: "Owl",
     moves: [
       "PECK",
@@ -1647,7 +3167,7 @@ export const fakemons: Fakemon[] = [
       "CRYOSPEED",
       "AURORAVEIL",
       "ARCTICMALTREATMENT",
-      "DRILLPECK",
+      "DRILLPECK"
     ],
     tutorMoves: [
       "PLUCK",
@@ -1700,7 +3220,7 @@ export const fakemons: Fakemon[] = [
       "THIEF",
       "TWISTER",
       "UPROAR",
-      "WORKUP",
+      "WORKUP"
     ],
     eggMoves: [
       "AGILITY",
@@ -1712,37 +3232,151 @@ export const fakemons: Fakemon[] = [
       "SKYATTACK",
       "SUPERSONIC",
       "WHIRLWIND",
-      "WINGATTACK",
+      "WINGATTACK"
     ],
     suffix: "absolution",
     evolution: [
       {
         to: "CRYOCROWN",
         method: "Level",
-        value: "25",
-      },
+        value: "25"
+      }
+    ]
+  },
+  {
+    id: "CRYOCROWN",
+    name: "Cryocrown",
+    types: [
+      "ICE",
+      "FLYING"
     ],
+    sprite: "/Front/CRYOCROWN.png",
+    backSprite: "/spritesBack/CRYOCROWN.png",
+    description: "It is said that the larger the crown of this species, the stronger and faster it is. It has an incredible ability to move silently when hunting, but most of the time it will be showing off its crown.",
+    stats: {
+      hp: 101,
+      attack: 116,
+      defense: 58,
+      spAttack: 66,
+      spDefense: 58,
+      speed: 100
+    },
+    height: "1.5",
+    weight: "50.7",
+    abilities: [
+      "INSOMNIA",
+      "SNOWWARNING"
+    ],
+    hiddenAbilities: [
+      "ICEKING"
+    ],
+    category: "Owl",
+    moves: [
+      "PECK",
+      "GROWL",
+      "TACKLE",
+      "POWDERSNOW",
+      "REFLECT",
+      "ICESHARD",
+      "DEFOG",
+      "AIRSLASH",
+      "AURORABEAM",
+      "TAKEDOWN",
+      "MOONBLAST",
+      "CRYOSWITCH",
+      "ROOST",
+      "CRYOSPEED",
+      "AURORAVEIL",
+      "ARCTICMALTREATMENT",
+      "DRILLPECK"
+    ],
+    tutorMoves: [
+      "PLUCK",
+      "ACROBATICS",
+      "AERIALACE",
+      "AGILITY",
+      "AIRCUTTER",
+      "AIRSLASH",
+      "AMNESIA",
+      "ATTRACT",
+      "BRAVEBIRD",
+      "ICEBEAM",
+      "CAPTIVATE",
+      "CONFIDE",
+      "CONFUSERAY",
+      "DEFOG",
+      "DOUBLETEAM",
+      "DREAMEATER",
+      "DUALWINGBEAT",
+      "ECHOEDVOICE",
+      "ENDURE",
+      "FACADE",
+      "FEATHERDANCE",
+      "FLY",
+      "FRUSTRATION",
+      "HAZE",
+      "HIDDENPOWER",
+      "HURRICANE",
+      "IMPRISON",
+      "MIMIC",
+      "BLIZZARD",
+      "PLUCK",
+      "PROTECT",
+      "RECYCLE",
+      "REST",
+      "RETURN",
+      "ROOST",
+      "ROUND",
+      "SCREECH",
+      "SECRETPOWER",
+      "SKYATTACK",
+      "SNORE",
+      "SPITE",
+      "STEELWING",
+      "STOREDPOWER",
+      "SWIFT",
+      "TAILWIND",
+      "TAKEDOWN",
+      "TERABLAST",
+      "THIEF",
+      "TWISTER",
+      "UPROAR",
+      "WORKUP"
+    ],
+    eggMoves: [
+
+    ],
+    suffix: "absolution",
+    evolution: [
+
+    ]
   },
   {
     id: "SPIBBY",
     name: "Spibby",
-    types: ["BUG", "DARK"],
+    types: [
+      "BUG",
+      "DARK"
+    ],
     sprite: "/Front/SPIBBY.png",
     backSprite: "/spritesBack/SPIBBY.png",
-    description:
-      "It is very timid, so it tends to attack in groups using rather underhanded and unfair tactics.",
+    description: "It is very timid, so it tends to attack in groups using rather underhanded and unfair tactics.",
     stats: {
       hp: 35,
       attack: 48,
       defense: 90,
       spAttack: 35,
       spDefense: 77,
-      speed: 40,
+      speed: 40
     },
     height: "0.4",
     weight: "6.5",
-    abilities: ["SWARM"],
-    hiddenAbilities: ["OVERCOAT"],
+    abilities: [
+      "SWARM"
+    ],
+    hiddenAbilities: [
+      "OVERCOAT"
+    ],
     category: "???",
     moves: [
       "TWINEEDLE",
@@ -1769,7 +3403,7 @@ export const fakemons: Fakemon[] = [
       "REFLECT",
       "TRICKROOM",
       "TORMENT",
-      "SCREECH",
+      "SCREECH"
     ],
     tutorMoves: [
       "ACIDSPRAY",
@@ -1834,38 +3468,175 @@ export const fakemons: Fakemon[] = [
       "TOXICSPIKES",
       "TRAILBLAZE",
       "VENOSHOCK",
-      "XSCISSOR",
+      "XSCISSOR"
     ],
-    eggMoves: [],
+    eggMoves: [
+
+    ],
     suffix: "absolution",
     evolution: [
       {
         to: "KINGDER",
         method: "Level",
-        value: "28",
-      },
+        value: "28"
+      }
+    ]
+  },
+  {
+    id: "KINGDER",
+    name: "Kingder",
+    types: [
+      "BUG",
+      "DARK"
     ],
+    sprite: "/Front/KINGDER.png",
+    backSprite: "/spritesBack/KINGDER.png",
+    description: "It often commands a large group to capture other Pokémon and then devour them. Many Trainers have been caught while trying to catch one.",
+    stats: {
+      hp: 70,
+      attack: 75,
+      defense: 115,
+      spAttack: 48,
+      spDefense: 109,
+      speed: 58
+    },
+    height: "1.3",
+    weight: "60.0",
+    abilities: [
+      "SWARM",
+      "TYRANNY"
+    ],
+    hiddenAbilities: [
+      "OVERCOAT"
+    ],
+    category: "???",
+    moves: [
+      "TWINEEDLE",
+      "STRINGSHOT",
+      "POISONSTING",
+      "PURSUIT",
+      "STICKYWEB",
+      "TELATRAPO",
+      "FURYCUTTER",
+      "MUDSHOT",
+      "INFESTATION",
+      "KNOCKOFF",
+      "SPIDERWEB",
+      "STEALTHROCK",
+      "SHADOWCLAW",
+      "TORTUROUSGRAB",
+      "TAUNT",
+      "CRUNCH",
+      "SPIKES",
+      "DETECT",
+      "SILKTRAP",
+      "BEATUP",
+      "SUBSTITUTE",
+      "XSCISSOR",
+      "REFLECT",
+      "TRICKROOM",
+      "TORMENT",
+      "SCREECH"
+    ],
+    tutorMoves: [
+      "ACIDSPRAY",
+      "AGILITY",
+      "ATTRACT",
+      "BATONPASS",
+      "BOUNCE",
+      "BUGBITE",
+      "BUGBUZZ",
+      "CAPTIVATE",
+      "CONFIDE",
+      "DIG",
+      "DOUBLETEAM",
+      "ELECTROWEB",
+      "ENDURE",
+      "FACADE",
+      "FLASH",
+      "FOULPLAY",
+      "FRUSTRATION",
+      "GIGADRAIN",
+      "GIGAIMPACT",
+      "HEX",
+      "HIDDENPOWER",
+      "HONECLAWS",
+      "HYPERBEAM",
+      "INFESTATION",
+      "KNOCKOFF",
+      "LEECHLIFE",
+      "LUNGE",
+      "MIMIC",
+      "NATURALGIFT",
+      "NIGHTSHADE",
+      "POISONJAB",
+      "POUNCE",
+      "PROTECT",
+      "PSYCHIC",
+      "REST",
+      "RETURN",
+      "ROUND",
+      "SCARYFACE",
+      "SECRETPOWER",
+      "SIGNALBEAM",
+      "SKITTERSMACK",
+      "SLEEPTALK",
+      "SLUDGEBOMB",
+      "SLUDGEWAVE",
+      "SMARTSTRIKE",
+      "SNORE",
+      "SOLARBEAM",
+      "SPITE",
+      "STRINGSHOT",
+      "STRUGGLEBUG",
+      "SUBSTITUTE",
+      "SUCKERPUNCH",
+      "SUNNYDAY",
+      "SWAGGER",
+      "SWORDSDANCE",
+      "TERABLAST",
+      "THIEF",
+      "THROATCHOP",
+      "TOXIC",
+      "TOXICSPIKES",
+      "TRAILBLAZE",
+      "VENOSHOCK",
+      "XSCISSOR"
+    ],
+    eggMoves: [
+
+    ],
+    suffix: "absolution",
+    evolution: [
+
+    ]
   },
   {
     id: "TWIXIE",
     name: "Twixie",
-    types: ["FAIRY"],
+    types: [
+      "FAIRY"
+    ],
     sprite: "/Front/TWIXIE.png",
     backSprite: "/spritesBack/TWIXIE.png",
-    description:
-      "It exhibits a high level of intelligence and a preference for dimly lit environments. Researchers believe its behavior is influenced by exposure to interdimensional energy, which may explain its affinity for mischief and shadow manipulation.",
+    description: "It exhibits a high level of intelligence and a preference for dimly lit environments. Researchers believe its behavior is influenced by exposure to interdimensional energy, which may explain its affinity for mischief and shadow manipulation.",
     stats: {
       hp: 74,
       attack: 80,
       defense: 70,
       spAttack: 72,
       spDefense: 82,
-      speed: 30,
+      speed: 30
     },
     height: "0.4",
     weight: "10.6",
-    abilities: ["HEALER", "ANTICIPATION"],
-    hiddenAbilities: ["MAGICBOUNCE"],
+    abilities: [
+      "HEALER",
+      "ANTICIPATION"
+    ],
+    hiddenAbilities: [
+      "MAGICBOUNCE"
+    ],
     category: "Twili",
     moves: [
       "CONFUSION",
@@ -1877,7 +3648,7 @@ export const fakemons: Fakemon[] = [
       "ACCELBURST",
       "DAZZLINGGLEAM",
       "CALMMIND",
-      "WEIRDPUNCH",
+      "WEIRDPUNCH"
     ],
     tutorMoves: [
       "ATTRACT",
@@ -1930,38 +3701,174 @@ export const fakemons: Fakemon[] = [
       "TERABLAST",
       "THUNDERWAVE",
       "TRICK",
-      "TRICKROOM",
+      "TRICKROOM"
     ],
-    eggMoves: ["AFTERYOU", "AROMATICMIST", "MYSTICALFIRE", "NUZZLE", "QUASH"],
+    eggMoves: [
+      "AFTERYOU",
+      "AROMATICMIST",
+      "MYSTICALFIRE",
+      "NUZZLE",
+      "QUASH"
+    ],
     suffix: "absolution",
     evolution: [
       {
         to: "TWINCESS",
         method: "Item",
-        value: "MOONSTONE",
-      },
+        value: "MOONSTONE"
+      }
+    ]
+  },
+  {
+    id: "TWINCESS",
+    name: "Twincess",
+    types: [
+      "FAIRY",
+      "DARK"
     ],
+    sprite: "/Front/TWINCESS.png",
+    backSprite: "/spritesBack/TWINCESS.png",
+    description: "Studies suggest it originated from a parallel plane where light and shadow coexist in balance. Upon full maturation, its physiological changes include the development of a crown-like structure and a marked increase in psychic and spectral emissions.",
+    stats: {
+      hp: 95,
+      attack: 104,
+      defense: 91,
+      spAttack: 93,
+      spDefense: 106,
+      speed: 40
+    },
+    height: "1.6",
+    weight: "20.4",
+    abilities: [
+      "HEALER",
+      "ANTICIPATION"
+    ],
+    hiddenAbilities: [
+      "MAGICBOUNCE"
+    ],
+    category: "Twili",
+    moves: [
+      "PSYCHOCUT",
+      "BRUTALSWING",
+      "CONFUSION",
+      "PLAYNICE",
+      "LIFEDEW",
+      "DISARMINGVOICE",
+      "AROMATICMIST",
+      "PSYBEAM",
+      "ACCELBURST",
+      "DAZZLINGGLEAM",
+      "CALMMIND",
+      "WEIRDPUNCH",
+      "HEALINGWISH",
+      "MAGICPOWDER"
+    ],
+    tutorMoves: [
+      "AGILITY",
+      "ATTRACT",
+      "BATONPASS",
+      "BRUTALSWING",
+      "CALMMIND",
+      "CAPTIVATE",
+      "CHARM",
+      "CONFIDE",
+      "DARKPULSE",
+      "DAZZLINGGLEAM",
+      "DISARMINGVOICE",
+      "DOUBLETEAM",
+      "DRAININGKISS",
+      "ENDURE",
+      "EXPANDINGFORCE",
+      "FACADE",
+      "FRUSTRATION",
+      "FUTURESIGHT",
+      "GIGADRAIN",
+      "GIGAIMPACT",
+      "GRAVITY",
+      "GUARDSWAP",
+      "HELPINGHAND",
+      "HIDDENPOWER",
+      "HYPERBEAM",
+      "IMPRISON",
+      "LIGHTSCREEN",
+      "MAGICALLEAF",
+      "MAGICROOM",
+      "METRONOME",
+      "MIMIC",
+      "MISTYEXPLOSION",
+      "MISTYTERRAIN",
+      "MYSTICALFIRE",
+      "NATURALGIFT",
+      "PAINSPLIT",
+      "PLAYROUGH",
+      "POWERSWAP",
+      "POWERWHIP",
+      "PROTECT",
+      "PSYBEAM",
+      "PSYCHIC",
+      "PSYCHICNOISE",
+      "PSYCHICTERRAIN",
+      "PSYCHOCUT",
+      "PSYCHUP",
+      "PSYSHOCK",
+      "REFLECT",
+      "REST",
+      "RETURN",
+      "ROUND",
+      "SAFEGUARD",
+      "SECRETPOWER",
+      "SHADOWBALL",
+      "SHADOWCLAW",
+      "SKILLSWAP",
+      "SLEEPTALK",
+      "SNORE",
+      "STOREDPOWER",
+      "SUBSTITUTE",
+      "SWAGGER",
+      "SWIFT",
+      "SWORDSDANCE",
+      "TERABLAST",
+      "THUNDERWAVE",
+      "TRICK",
+      "TRICKROOM",
+      "WONDERROOM"
+    ],
+    eggMoves: [
+
+    ],
+    suffix: "absolution",
+    evolution: [
+
+    ]
   },
   {
     id: "PUPROUT",
     name: "Puprout",
-    types: ["GRASS", "DARK"],
+    types: [
+      "GRASS",
+      "DARK"
+    ],
     sprite: "/Front/PUPROUT.png",
     backSprite: "/spritesBack/PUPROUT.png",
-    description:
-      "It displays many behaviors commonly seen in other Grass-type Pokémon. Its DNA suggests it may share multiple ancestors with various species.",
+    description: "It displays many behaviors commonly seen in other Grass-type Pokémon. Its DNA suggests it may share multiple ancestors with various species.",
     stats: {
       hp: 46,
       attack: 63,
       defense: 62,
       spAttack: 46,
       spDefense: 34,
-      speed: 67,
+      speed: 67
     },
     height: "0.7",
     weight: "19.0",
-    abilities: ["RUNAWAY", "INTIMIDATE"],
-    hiddenAbilities: ["PREDATORTRACKING", "ETERNALHUNGER"],
+    abilities: [
+      "RUNAWAY",
+      "INTIMIDATE"
+    ],
+    hiddenAbilities: [
+      "PREDATORTRACKING",
+      "ETERNALHUNGER"
+    ],
     category: "Quimera",
     moves: [
       "TACKLE",
@@ -1976,7 +3883,7 @@ export const fakemons: Fakemon[] = [
       "DIG",
       "BITE",
       "FLOWERFANG",
-      "PREDATORYGAME",
+      "PREDATORYGAME"
     ],
     tutorMoves: [
       "ACIDSPRAY",
@@ -2056,7 +3963,7 @@ export const fakemons: Fakemon[] = [
       "VENOSHOCK",
       "WEATHERBALL",
       "WORKUP",
-      "WORRYSEED",
+      "WORRYSEED"
     ],
     eggMoves: [
       "SYNTHESIS",
@@ -2072,37 +3979,619 @@ export const fakemons: Fakemon[] = [
       "PREDATORYGAME",
       "TAUNT",
       "POWERWHIP",
-      "GIGAIMPACT",
+      "GIGAIMPACT"
     ],
     suffix: "absolution",
     evolution: [
       {
         to: "BUSHIERA",
         method: "Level",
-        value: "20",
-      },
+        value: "20"
+      }
+    ]
+  },
+  {
+    id: "BUSHIERA",
+    name: "Bushiera",
+    types: [
+      "GRASS",
+      "DARK"
     ],
+    sprite: "/Front/BUSHIERA.png",
+    backSprite: "/spritesBack/BUSHIERA.png",
+    description: "It has tangled DNA, and its appearance resembles multiple Pokémon. Trainers who encounter this Pokémon often say it feels familiar to them.",
+    stats: {
+      hp: 58,
+      attack: 80,
+      defense: 79,
+      spAttack: 81,
+      spDefense: 79,
+      speed: 86
+    },
+    height: "1.9",
+    weight: "120.0",
+    abilities: [
+      "RUNAWAY",
+      "INTIMIDATE"
+    ],
+    hiddenAbilities: [
+      "PREDATORTRACKING",
+      "ETERNALHUNGER"
+    ],
+    category: "Quimera",
+    moves: [
+      "TACKLE",
+      "HOWL",
+      "PURSUIT",
+      "LEAFAGE",
+      "MUDSPORT",
+      "QUICKATTACK",
+      "RAZORLEAF",
+      "CONFUSERAY",
+      "POISONFANG",
+      "DIG",
+      "BITE",
+      "FLOWERFANG",
+      "SYNTHESIS",
+      "HONECLAWS",
+      "NEEDLEARM",
+      "SLASH",
+      "EMBARGO",
+      "BRICKBREAK",
+      "CRUNCH",
+      "TAKEDOWN",
+      "LEAFBLADE",
+      "DETECT",
+      "PREDATORYGAME",
+      "TAUNT",
+      "POWERWHIP",
+      "GIGAIMPACT"
+    ],
+    tutorMoves: [
+      "ACIDSPRAY",
+      "AMNESIA",
+      "ATTRACT",
+      "BIND",
+      "BLOCK",
+      "BODYSLAM",
+      "BULLDOZE",
+      "BULLETSEED",
+      "CAPTIVATE",
+      "CHARM",
+      "CONFIDE",
+      "CURSE",
+      "CUT",
+      "DEFENSECURL",
+      "DOUBLEEDGE",
+      "DOUBLETEAM",
+      "EARTHPOWER",
+      "EARTHQUAKE",
+      "ECHOEDVOICE",
+      "ENDURE",
+      "ENERGYBALL",
+      "FACADE",
+      "FALSESWIPE",
+      "FLASH",
+      "FRENZYPLANT",
+      "FRUSTRATION",
+      "FURYCUTTER",
+      "GIGADRAIN",
+      "GIGAIMPACT",
+      "GRASSKNOT",
+      "GRASSPLEDGE",
+      "GRASSYGLIDE",
+      "GRASSYTERRAIN",
+      "HEADBUTT",
+      "HELPINGHAND",
+      "HIDDENPOWER",
+      "HYPERBEAM",
+      "KNOCKOFF",
+      "LEAFSTORM",
+      "MAGICALLEAF",
+      "MIMIC",
+      "NATURALGIFT",
+      "NATUREPOWER",
+      "PETALBLIZZARD",
+      "POISONJAB",
+      "POWERWHIP",
+      "PROTECT",
+      "REST",
+      "RETURN",
+      "ROAR",
+      "ROCKCLIMB",
+      "ROCKSMASH",
+      "ROUND",
+      "SAFEGUARD",
+      "SCARYFACE",
+      "SECRETPOWER",
+      "SEEDBOMB",
+      "SLEEPTALK",
+      "SLUDGEBOMB",
+      "SNORE",
+      "SOLARBEAM",
+      "STOMPINGTANTRUM",
+      "STRENGTH",
+      "STRINGSHOT",
+      "SUBSTITUTE",
+      "SUNNYDAY",
+      "SWAGGER",
+      "SWORDSDANCE",
+      "SYNTHESIS",
+      "TAKEDOWN",
+      "TERABLAST",
+      "TERRAINPULSE",
+      "TOXIC",
+      "TRAILBLAZE",
+      "VENOSHOCK",
+      "WEATHERBALL",
+      "WORKUP",
+      "WORRYSEED"
+    ],
+    eggMoves: [
+
+    ],
+    suffix: "absolution",
+    evolution: [
+      {
+        to: "WEREWOODS",
+        method: "Level",
+        value: "40"
+      }
+    ]
+  },
+  {
+    id: "WEREWOODS",
+    name: "Werewoods",
+    types: [
+      "GRASS",
+      "DARK"
+    ],
+    sprite: "/Front/WEREWOODS.png",
+    backSprite: "/spritesBack/WEREWOODS.png",
+    description: "It has a high capacity for adaptation and shows great affinity with other Grass-type Pokémon.",
+    stats: {
+      hp: 80,
+      attack: 96,
+      defense: 94,
+      spAttack: 91,
+      spDefense: 91,
+      speed: 103
+    },
+    height: "2.2",
+    weight: "217.0",
+    abilities: [
+      "RUNAWAY",
+      "INTIMIDATE"
+    ],
+    hiddenAbilities: [
+      "PREDATORTRACKING",
+      "ETERNALHUNGER"
+    ],
+    category: "Quimera",
+    moves: [
+      "TACKLE",
+      "HOWL",
+      "PURSUIT",
+      "LEAFAGE",
+      "MUDSPORT",
+      "QUICKATTACK",
+      "RAZORLEAF",
+      "CONFUSERAY",
+      "POISONFANG",
+      "DIG",
+      "BITE",
+      "FLOWERFANG",
+      "SYNTHESIS",
+      "HONECLAWS",
+      "NEEDLEARM",
+      "SLASH",
+      "EMBARGO",
+      "BRICKBREAK",
+      "CRUNCH",
+      "TAKEDOWN",
+      "LEAFBLADE",
+      "DETECT",
+      "PREDATORYGAME",
+      "TAUNT",
+      "POWERWHIP",
+      "GIGAIMPACT"
+    ],
+    tutorMoves: [
+      "ACIDSPRAY",
+      "AMNESIA",
+      "ATTRACT",
+      "BIND",
+      "BLOCK",
+      "BODYSLAM",
+      "BULLDOZE",
+      "BULLETSEED",
+      "CAPTIVATE",
+      "CHARM",
+      "CONFIDE",
+      "CURSE",
+      "CUT",
+      "DEFENSECURL",
+      "DOUBLEEDGE",
+      "DOUBLETEAM",
+      "EARTHPOWER",
+      "EARTHQUAKE",
+      "ECHOEDVOICE",
+      "ENDURE",
+      "ENERGYBALL",
+      "FACADE",
+      "FALSESWIPE",
+      "FLASH",
+      "FRENZYPLANT",
+      "FRUSTRATION",
+      "FURYCUTTER",
+      "GIGADRAIN",
+      "GIGAIMPACT",
+      "GRASSKNOT",
+      "GRASSPLEDGE",
+      "GRASSYGLIDE",
+      "GRASSYTERRAIN",
+      "HEADBUTT",
+      "HELPINGHAND",
+      "HIDDENPOWER",
+      "HYPERBEAM",
+      "KNOCKOFF",
+      "LEAFSTORM",
+      "MAGICALLEAF",
+      "MIMIC",
+      "NATURALGIFT",
+      "NATUREPOWER",
+      "PETALBLIZZARD",
+      "POISONJAB",
+      "POWERWHIP",
+      "PROTECT",
+      "REST",
+      "RETURN",
+      "ROAR",
+      "ROCKCLIMB",
+      "ROCKSMASH",
+      "ROUND",
+      "SAFEGUARD",
+      "SCARYFACE",
+      "SECRETPOWER",
+      "SEEDBOMB",
+      "SLEEPTALK",
+      "SLUDGEBOMB",
+      "SNORE",
+      "SOLARBEAM",
+      "STOMPINGTANTRUM",
+      "STRENGTH",
+      "STRINGSHOT",
+      "SUBSTITUTE",
+      "SUNNYDAY",
+      "SWAGGER",
+      "SWORDSDANCE",
+      "SYNTHESIS",
+      "TAKEDOWN",
+      "TERABLAST",
+      "TERRAINPULSE",
+      "TOXIC",
+      "TRAILBLAZE",
+      "VENOSHOCK",
+      "WEATHERBALL",
+      "WORKUP",
+      "WORRYSEED"
+    ],
+    eggMoves: [
+
+    ],
+    suffix: "absolution",
+    evolution: [
+
+    ]
+  },
+  {
+    id: "FLOVERN",
+    name: "Flovern",
+    types: [
+      "GRASS",
+      "DRAGON"
+    ],
+    sprite: "/Front/FLOVERN.png",
+    backSprite: "/spritesBack/FLOVERN.png",
+    description: "Its petals emit an amazing fragrance that it uses to lure strong Pokémon into battle to gain experience. Despite its small size and delicate appearance, it is capable of defeating Pokémon much larger than itself.",
+    stats: {
+      hp: 87,
+      attack: 86,
+      defense: 49,
+      spAttack: 40,
+      spDefense: 48,
+      speed: 88
+    },
+    height: "0.5",
+    weight: "8.0",
+    abilities: [
+      "FRISK",
+      "INFILTRATOR"
+    ],
+    hiddenAbilities: [
+      "TELEPATHY"
+    ],
+    category: "Dracrix",
+    moves: [
+      "AROMATHERAPY",
+      "SNAPTRAP",
+      "TACKLE",
+      "DUALWINGBEAT",
+      "RAZORLEAF",
+      "DOUBLETEAM",
+      "FAIRYWIND",
+      "TWISTER",
+      "SING",
+      "ACROBATICS",
+      "SLUDGE",
+      "DRAGONBREATH",
+      "DETECT",
+      "FLOWERTRICK",
+      "AGILITY",
+      "HEADBUTT",
+      "SUPERSONIC",
+      "PSYCHICFANGS",
+      "PROTOSHIELD",
+      "PETALBLIZZARD",
+      "FOCUSENERGY",
+      "DRAGONASCENT",
+      "DRAGONDANCE",
+      "OUTRAGE",
+      "SOLARBLADE",
+      "LEAFSTORM"
+    ],
+    tutorMoves: [
+      "ACROBATICS",
+      "AERIALACE",
+      "AGILITY",
+      "AIRCUTTER",
+      "AIRSLASH",
+      "ATTRACT",
+      "BREAKINGSWIPE",
+      "BRICKBREAK",
+      "CAPTIVATE",
+      "CONFIDE",
+      "CUT",
+      "DARKPULSE",
+      "DEFOG",
+      "DOUBLEEDGE",
+      "DOUBLETEAM",
+      "DRACOMETEOR",
+      "DRAGONCHEER",
+      "DRAGONCLAW",
+      "DRAGONPULSE",
+      "DREAMEATER",
+      "DUALWINGBEAT",
+      "ECHOEDVOICE",
+      "ENDURE",
+      "FACADE",
+      "FLY",
+      "FRUSTRATION",
+      "HEATWAVE",
+      "HIDDENPOWER",
+      "HURRICANE",
+      "HYPERVOICE",
+      "IRONTAIL",
+      "LEECHLIFE",
+      "MIMIC",
+      "NATURALGIFT",
+      "OUTRAGE",
+      "PROTECT",
+      "PSYCHIC",
+      "PSYCHICNOISE",
+      "REST",
+      "RETURN",
+      "ROOST",
+      "ROUND",
+      "SCREECH",
+      "SECRETPOWER",
+      "SHADOWBALL",
+      "SHADOWCLAW",
+      "SKYATTACK",
+      "SLEEPTALK",
+      "SNATCH",
+      "SNORE",
+      "SOLARBEAM",
+      "STEELWING",
+      "SUBSTITUTE",
+      "SUNNYDAY",
+      "SUPERFANG",
+      "SWAGGER",
+      "SWIFT",
+      "TAILWIND",
+      "TAKEDOWN",
+      "TAUNT",
+      "TERABLAST",
+      "THIEF",
+      "TORMENT",
+      "UPROAR",
+      "UTURN",
+      "WILDCHARGE",
+      "XSCISSOR"
+    ],
+    eggMoves: [
+      "DEFOG",
+      "DRAGONRUSH",
+      "SWITCHEROO"
+    ],
+    suffix: "absolution",
+    evolution: [
+      {
+        to: "FLOVERN",
+        method: "Level",
+        value: "50"
+      }
+    ]
+  },
+  {
+    id: "WYWERDEN",
+    name: "Wywerden",
+    types: [
+      "GRASS",
+      "DRAGON"
+    ],
+    sprite: "/Front/WYWERDEN.png",
+    backSprite: "/spritesBack/WYWERDEN.png",
+    description: "They tend to claim large flower gardens as their exclusive territory, treating them like precious treasures. Several cases have been reported of people being injured for stepping on flowers in these gardens. Their mere presence accelerates the growth of surrounding flowers.",
+    stats: {
+      hp: 119,
+      attack: 110,
+      defense: 73,
+      spAttack: 73,
+      spDefense: 72,
+      speed: 105
+    },
+    height: "1.5",
+    weight: "85.0",
+    abilities: [
+      "FRISK",
+      "INFILTRATOR"
+    ],
+    hiddenAbilities: [
+      "TELEPATHY"
+    ],
+    category: "Dracrix",
+    moves: [
+      "AROMATHERAPY",
+      "SNAPTRAP",
+      "TACKLE",
+      "DUALWINGBEAT",
+      "RAZORLEAF",
+      "DOUBLETEAM",
+      "FAIRYWIND",
+      "TWISTER",
+      "SING",
+      "ACROBATICS",
+      "SLUDGE",
+      "DRAGONBREATH",
+      "DETECT",
+      "FLOWERTRICK",
+      "AGILITY",
+      "HEADBUTT",
+      "SUPERSONIC",
+      "PSYCHICFANGS",
+      "PROTOSHIELD",
+      "PETALBLIZZARD",
+      "FOCUSENERGY",
+      "DRAGONASCENT",
+      "DRAGONDANCE",
+      "OUTRAGE",
+      "SOLARBLADE",
+      "LEAFSTORM"
+    ],
+    tutorMoves: [
+      "ACROBATICS",
+      "AERIALACE",
+      "AGILITY",
+      "AIRCUTTER",
+      "AIRSLASH",
+      "ATTRACT",
+      "BODYSLAM",
+      "BREAKINGSWIPE",
+      "BRICKBREAK",
+      "CAPTIVATE",
+      "CONFIDE",
+      "CUT",
+      "DARKPULSE",
+      "DEFOG",
+      "DOUBLEEDGE",
+      "DOUBLETEAM",
+      "DRACOMETEOR",
+      "DRAGONCHEER",
+      "DRAGONCLAW",
+      "DRAGONDANCE",
+      "DRAGONPULSE",
+      "DRAGONTAIL",
+      "DREAMEATER",
+      "DUALWINGBEAT",
+      "ECHOEDVOICE",
+      "ENDURE",
+      "FACADE",
+      "FLAMETHROWER",
+      "FLY",
+      "FOCUSBLAST",
+      "FRUSTRATION",
+      "GIGAIMPACT",
+      "HEATWAVE",
+      "HIDDENPOWER",
+      "HONECLAWS",
+      "HURRICANE",
+      "HYPERBEAM",
+      "HYPERVOICE",
+      "IRONTAIL",
+      "LASERFOCUS",
+      "LEECHLIFE",
+      "MIMIC",
+      "NATURALGIFT",
+      "OUTRAGE",
+      "PROTECT",
+      "PSYCHIC",
+      "PSYCHICNOISE",
+      "REST",
+      "RETURN",
+      "ROOST",
+      "ROUND",
+      "SCARYFACE",
+      "SCREECH",
+      "SECRETPOWER",
+      "SHADOWBALL",
+      "SHADOWCLAW",
+      "SKYATTACK",
+      "SLEEPTALK",
+      "SNATCH",
+      "SNORE",
+      "SOLARBEAM",
+      "STEELWING",
+      "SUBSTITUTE",
+      "SUNNYDAY",
+      "SUPERFANG",
+      "SWAGGER",
+      "SWIFT",
+      "TAILWIND",
+      "TAKEDOWN",
+      "TAUNT",
+      "TERABLAST",
+      "THIEF",
+      "TORMENT",
+      "UPROAR",
+      "UTURN",
+      "WATERPULSE",
+      "WILDCHARGE",
+      "XSCISSOR"
+    ],
+    eggMoves: [
+
+    ],
+    suffix: "absolution",
+    evolution: [
+
+    ]
   },
   {
     id: "ASHCOIL",
     name: "Ashcoil",
-    types: ["FIRE"],
+    types: [
+      "FIRE"
+    ],
     sprite: "/Front/ASHCOIL.png",
     backSprite: "/spritesBack/ASHCOIL.png",
-    description:
-      "From an early age, they emit intense heat. Their bite causes a dangerous spike in their prey's body temperature, often causing victims to collapse from hyperthermia before they can escape.",
+    description: "From an early age, they emit intense heat. Their bite causes a dangerous spike in their prey's body temperature, often causing victims to collapse from hyperthermia before they can escape.",
     stats: {
       hp: 56,
       attack: 63,
       defense: 42,
       spAttack: 50,
       spDefense: 50,
-      speed: 66,
+      speed: 66
     },
     height: "1.0",
     weight: "3.2",
-    abilities: ["BLAZE"],
-    hiddenAbilities: ["SOLARPOWER"],
+    abilities: [
+      "BLAZE"
+    ],
+    hiddenAbilities: [
+      "SOLARPOWER"
+    ],
     category: "Snake",
     moves: [
       "CONSTRICT",
@@ -2133,7 +4622,7 @@ export const fakemons: Fakemon[] = [
       "HYPERFANG",
       "DRAGONPULSE",
       "DRAGONRUSH",
-      "OUTRAGE",
+      "OUTRAGE"
     ],
     tutorMoves: [
       "ACIDARMOR",
@@ -2178,7 +4667,7 @@ export const fakemons: Fakemon[] = [
       "TAILSLAP",
       "THUNDERFANG",
       "TOXIC",
-      "TOXICSPIKES",
+      "TOXICSPIKES"
     ],
     eggMoves: [
       "ABYSSALBITE",
@@ -2194,37 +4683,42 @@ export const fakemons: Fakemon[] = [
       "FAIRYWIND",
       "FOULPLAY",
       "SNARL",
-      "TWISTER",
+      "TWISTER"
     ],
     suffix: "absolution",
     evolution: [
       {
         to: "BLAZECOIL",
         method: "Level",
-        value: "25",
-      },
-    ],
+        value: "25"
+      }
+    ]
   },
   {
     id: "BLAZECOIL",
     name: "Blazecoil",
-    types: ["FIRE"],
+    types: [
+      "FIRE"
+    ],
     sprite: "/Front/BLAZECOIL.png",
     backSprite: "/spritesBack/BLAZECOIL.png",
-    description:
-      "They tend to constrict their prey and incinerate them with their body heat. Despite having a powerful bite, they usually avoid biting their prey - recent studies indicate they do this out of pride.",
+    description: "They tend to constrict their prey and incinerate them with their body heat. Despite having a powerful bite, they usually avoid biting their prey - recent studies indicate they do this out of pride.",
     stats: {
       hp: 76,
       attack: 95,
       defense: 60,
       spAttack: 67,
       spDefense: 72,
-      speed: 100,
+      speed: 100
     },
     height: "2.5",
     weight: "6.9",
-    abilities: ["BLAZE"],
-    hiddenAbilities: ["SOLARPOWER"],
+    abilities: [
+      "BLAZE"
+    ],
+    hiddenAbilities: [
+      "SOLARPOWER"
+    ],
     category: "Snake",
     moves: [
       "CONSTRICT",
@@ -2255,7 +4749,7 @@ export const fakemons: Fakemon[] = [
       "HYPERFANG",
       "DRAGONPULSE",
       "DRAGONRUSH",
-      "OUTRAGE",
+      "OUTRAGE"
     ],
     tutorMoves: [
       "ACIDARMOR",
@@ -2300,7 +4794,7 @@ export const fakemons: Fakemon[] = [
       "TAILSLAP",
       "THUNDERFANG",
       "TOXIC",
-      "TOXICSPIKES",
+      "TOXICSPIKES"
     ],
     eggMoves: [
       "ABYSSALBITE",
@@ -2316,37 +4810,43 @@ export const fakemons: Fakemon[] = [
       "FAIRYWIND",
       "FOULPLAY",
       "SNARL",
-      "TWISTER",
+      "TWISTER"
     ],
     suffix: "absolution",
     evolution: [
       {
         to: "INFERNOIL",
         method: "Level",
-        value: "35",
-      },
-    ],
+        value: "35"
+      }
+    ]
   },
   {
     id: "INFERNOIL",
     name: "Infernoil",
-    types: ["FIRE", "DRAGON"],
+    types: [
+      "FIRE",
+      "DRAGON"
+    ],
     sprite: "/Front/INFERNOIL.png",
     backSprite: "/spritesBack/INFERNOIL.png",
-    description:
-      'They ascend to the highest mountain peaks before launching themselves downward at tremendous speed. Witnesses who have observed this phenomenon describe it as "a miniature meteor." They can control the heat of their flames at will.',
+    description: "They ascend to the highest mountain peaks before launching themselves downward at tremendous speed. Witnesses who have observed this phenomenon describe it as \"a miniature meteor.\" They can control the heat of their flames at will.",
     stats: {
       hp: 69,
       attack: 110,
       defense: 85,
       spAttack: 80,
       spDefense: 87,
-      speed: 115,
+      speed: 115
     },
     height: "6.5",
     weight: "123.0",
-    abilities: ["BLAZE"],
-    hiddenAbilities: ["SOLARPOWER"],
+    abilities: [
+      "BLAZE"
+    ],
+    hiddenAbilities: [
+      "SOLARPOWER"
+    ],
     category: "Snake",
     moves: [
       "CONSTRICT",
@@ -2377,7 +4877,7 @@ export const fakemons: Fakemon[] = [
       "HYPERFANG",
       "DRAGONPULSE",
       "DRAGONRUSH",
-      "OUTRAGE",
+      "OUTRAGE"
     ],
     tutorMoves: [
       "ACIDARMOR",
@@ -2422,7 +4922,7 @@ export const fakemons: Fakemon[] = [
       "TAILSLAP",
       "THUNDERFANG",
       "TOXIC",
-      "TOXICSPIKES",
+      "TOXICSPIKES"
     ],
     eggMoves: [
       "ABYSSALBITE",
@@ -2438,9 +4938,1348 @@ export const fakemons: Fakemon[] = [
       "FAIRYWIND",
       "FOULPLAY",
       "SNARL",
-      "TWISTER",
+      "TWISTER"
     ],
     suffix: "absolution",
-    evolution: [],
+    evolution: [
+
+    ]
   },
-];
+  {
+    id: "DOLORN",
+    name: "Dolorn",
+    types: [
+      "GHOST"
+    ],
+    sprite: "/Front/DOLORN.png",
+    backSprite: "/spritesBack/DOLORN.png",
+    description: "When they gather in groups, it is a sign that something very bad is about to happen. Many trainers experience nightmares when sleeping near this Pokémon.",
+    stats: {
+      hp: 58,
+      attack: 68,
+      defense: 46,
+      spAttack: 45,
+      spDefense: 61,
+      speed: 50
+    },
+    height: "0.4",
+    weight: "6.6",
+    abilities: [
+      "SOUNDPROOF"
+    ],
+    hiddenAbilities: [
+      "RATTLED"
+    ],
+    category: "Doll",
+    moves: [
+      "TACKLE",
+      "ASTONISH",
+      "WILLOWISP",
+      "SNARL",
+      "LICK",
+      "FAKEOUT",
+      "SUPERSONIC",
+      "SUPPLICATION",
+      "TORMENT",
+      "TAUNT",
+      "SCREECH",
+      "BITE",
+      "SHADOWPUNCH",
+      "HEX",
+      "CURSE",
+      "HEADBUTT",
+      "KNOCKOFF",
+      "NIGHTMARE",
+      "SHADOWCLAW",
+      "LASHOUT",
+      "PHANTOMFORCE",
+      "DESTINYBOND",
+      "PREDATORYGAME"
+    ],
+    tutorMoves: [
+      "ATTRACT",
+      "BABYDOLLEYES",
+      "BATONPASS",
+      "BIND",
+      "BLOODMOON",
+      "CHARM",
+      "CONFUSERAY",
+      "CUT",
+      "DISABLE",
+      "DRAININGKISS",
+      "FAIRYLOCK",
+      "FAIRYWIND",
+      "FALSESWIPE",
+      "FLASH",
+      "FRUSTRATION",
+      "FURYATTACK",
+      "GUILLOTINE",
+      "HYPERBEAM",
+      "HYPERVOICE",
+      "HYPNOSIS",
+      "JUDGMENT",
+      "MAGICCOAT",
+      "MAGICROOM",
+      "MISTYTERRAIN",
+      "MOONLIGHT",
+      "PLAYROUGH",
+      "POLTERGEIST",
+      "QUICKATTACK",
+      "REFLECT",
+      "REST",
+      "RETURN",
+      "SHADOWBALL",
+      "SHADOWFORCE",
+      "SLASH",
+      "SNORE",
+      "STRENGTH",
+      "SWIFT",
+      "TRICKORTREAT"
+    ],
+    eggMoves: [
+      "AGILITY",
+      "AMNESIA",
+      "BULLETPUNCH",
+      "EARTHQUAKE",
+      "FIREPUNCH",
+      "FIRESPIN",
+      "IRONDEFENSE",
+      "MARKINGTERRITORY",
+      "METALCLAW",
+      "SPIKES",
+      "SUNNYDAY",
+      "TRIFORCE",
+      "ZENHEADBUTT"
+    ],
+    suffix: "absolution",
+    evolution: [
+      {
+        to: "MALICEAR",
+        method: "Level",
+        value: "20"
+      }
+    ]
+  },
+  {
+    id: "MALICEAR",
+    name: "Malicear",
+    types: [
+      "GHOST"
+    ],
+    sprite: "/Front/MALICEAR.png",
+    backSprite: "/spritesBack/MALICEAR.png",
+    description: "They perform rituals to harm other Pokémon that may cause them trouble. They are not easily seen by humans, and it is believed to be bad luck to encounter one at night.",
+    stats: {
+      hp: 82,
+      attack: 97,
+      defense: 66,
+      spAttack: 64,
+      spDefense: 87,
+      speed: 72
+    },
+    height: "0.8",
+    weight: "20.2",
+    abilities: [
+      "SOUNDPROOF"
+    ],
+    hiddenAbilities: [
+      "RATTLED"
+    ],
+    category: "Doll",
+    moves: [
+      "TACKLE",
+      "ASTONISH",
+      "WILLOWISP",
+      "SNARL",
+      "LICK",
+      "FAKEOUT",
+      "SUPERSONIC",
+      "SUPPLICATION",
+      "TORMENT",
+      "TAUNT",
+      "SCREECH",
+      "BITE",
+      "SHADOWPUNCH",
+      "HEX",
+      "CURSE",
+      "HEADBUTT",
+      "KNOCKOFF",
+      "NIGHTMARE",
+      "SHADOWCLAW",
+      "LASHOUT",
+      "PHANTOMFORCE",
+      "DESTINYBOND",
+      "PREDATORYGAME"
+    ],
+    tutorMoves: [
+      "ATTRACT",
+      "BABYDOLLEYES",
+      "BATONPASS",
+      "BIND",
+      "BLOODMOON",
+      "CHARM",
+      "CONFUSERAY",
+      "CUT",
+      "DISABLE",
+      "DRAININGKISS",
+      "FAIRYLOCK",
+      "FAIRYWIND",
+      "FALSESWIPE",
+      "FLASH",
+      "FRUSTRATION",
+      "FURYATTACK",
+      "GUILLOTINE",
+      "HYPERBEAM",
+      "HYPERVOICE",
+      "HYPNOSIS",
+      "JUDGMENT",
+      "MAGICCOAT",
+      "MAGICROOM",
+      "MISTYTERRAIN",
+      "MOONLIGHT",
+      "PLAYROUGH",
+      "POLTERGEIST",
+      "QUICKATTACK",
+      "REFLECT",
+      "REST",
+      "RETURN",
+      "SHADOWBALL",
+      "SHADOWFORCE",
+      "SLASH",
+      "SNORE",
+      "STRENGTH",
+      "SWIFT",
+      "TRICKORTREAT"
+    ],
+    eggMoves: [
+      "AGILITY",
+      "AMNESIA",
+      "BULLETPUNCH",
+      "EARTHQUAKE",
+      "FIREPUNCH",
+      "FIRESPIN",
+      "IRONDEFENSE",
+      "MARKINGTERRITORY",
+      "METALCLAW",
+      "SPIKES",
+      "SUNNYDAY",
+      "TRIFORCE",
+      "ZENHEADBUTT"
+    ],
+    suffix: "absolution",
+    evolution: [
+      {
+        to: "ABANDOLED",
+        method: "Item",
+        value: "DUSKSTONE"
+      }
+    ]
+  },
+  {
+    id: "ABANDOLED",
+    name: "Abandoled",
+    types: [
+      "GHOST"
+    ],
+    sprite: "/Front/ABANDOLED.png",
+    backSprite: "/spritesBack/ABANDOLED.png",
+    description: "It is attributed to many urban legends, and it is said that encountering one guarantees death due to a certain curse. There is no scientific evidence to support this claim. In fact, they tend to avoid humans, making it difficult to verify.",
+    stats: {
+      hp: 98,
+      attack: 116,
+      defense: 79,
+      spAttack: 76,
+      spDefense: 104,
+      speed: 86
+    },
+    height: "1.6",
+    weight: "20.4",
+    abilities: [
+      "SOUNDPROOF"
+    ],
+    hiddenAbilities: [
+      "RATTLED"
+    ],
+    category: "Curse Doll",
+    moves: [
+      "TACKLE",
+      "ASTONISH",
+      "WILLOWISP",
+      "SNARL",
+      "LICK",
+      "FAKEOUT",
+      "SUPERSONIC",
+      "SUPPLICATION",
+      "TORMENT",
+      "TAUNT",
+      "SCREECH",
+      "BITE",
+      "SHADOWPUNCH",
+      "HEX",
+      "CURSE",
+      "HEADBUTT",
+      "KNOCKOFF",
+      "NIGHTMARE",
+      "SHADOWCLAW",
+      "LASHOUT",
+      "PHANTOMFORCE",
+      "DESTINYBOND",
+      "PREDATORYGAME"
+    ],
+    tutorMoves: [
+      "ATTRACT",
+      "BABYDOLLEYES",
+      "BATONPASS",
+      "BIND",
+      "BLOODMOON",
+      "CHARM",
+      "CONFUSERAY",
+      "CUT",
+      "DISABLE",
+      "DRAININGKISS",
+      "FAIRYLOCK",
+      "FAIRYWIND",
+      "FALSESWIPE",
+      "FLASH",
+      "FRUSTRATION",
+      "FURYATTACK",
+      "GUILLOTINE",
+      "HYPERBEAM",
+      "HYPERVOICE",
+      "HYPNOSIS",
+      "JUDGMENT",
+      "MAGICCOAT",
+      "MAGICROOM",
+      "MISTYTERRAIN",
+      "MOONLIGHT",
+      "PLAYROUGH",
+      "POLTERGEIST",
+      "QUICKATTACK",
+      "REFLECT",
+      "REST",
+      "RETURN",
+      "SHADOWBALL",
+      "SHADOWFORCE",
+      "SLASH",
+      "SNORE",
+      "STRENGTH",
+      "SWIFT",
+      "TRICKORTREAT"
+    ],
+    eggMoves: [
+      "AGILITY",
+      "AMNESIA",
+      "BULLETPUNCH",
+      "EARTHQUAKE",
+      "FIREPUNCH",
+      "FIRESPIN",
+      "IRONDEFENSE",
+      "MARKINGTERRITORY",
+      "METALCLAW",
+      "SPIKES",
+      "SUNNYDAY",
+      "TRIFORCE",
+      "ZENHEADBUTT"
+    ],
+    suffix: "absolution",
+    evolution: [
+
+    ]
+  },
+  {
+    id: "MABBIT",
+    name: "Mabbit",
+    types: [
+      "NORMAL"
+    ],
+    sprite: "/Front/MABBIT.png",
+    backSprite: "/spritesBack/MABBIT.png",
+    description: "It has a rather clumsy way of walking, which makes it easy to think it's an easy prey for many Pokémon. However, this Pokémon easily manages to escape from its predators.",
+    stats: {
+      hp: 56,
+      attack: 56,
+      defense: 56,
+      spAttack: 80,
+      spDefense: 56,
+      speed: 80
+    },
+    height: "0.3",
+    weight: "5.0",
+    abilities: [
+      "RUNAWAY"
+    ],
+    hiddenAbilities: [
+      "MAGICALSTART"
+    ],
+    category: "Magic Bunny",
+    moves: [
+      "TAILSLAP",
+      "BABYDOLLEYES",
+      "DOUBLESLAP",
+      "QUICKATTACK",
+      "FAKEOUT",
+      "DISARMINGVOICE",
+      "CHARM",
+      "SCREECH",
+      "SING",
+      "DRAININGKISS",
+      "MAGICALBLESSING",
+      "SEDUCTION",
+      "ROUND",
+      "RETURN",
+      "CALMMIND",
+      "AGILITY",
+      "DAZZLINGGLEAM"
+    ],
+    tutorMoves: [
+      "BATONPASS",
+      "BLIZZARD",
+      "BLOCK",
+      "CONFUSION",
+      "DIZZYPUNCH",
+      "ENERGYBALL",
+      "EXPLOSION",
+      "FAIRYWIND",
+      "FLAMETHROWER",
+      "FOCUSENERGY",
+      "GIGAIMPACT",
+      "GRAVITY",
+      "HEADBUTT",
+      "HEALBLOCK",
+      "HEALINGWISH",
+      "HEALPULSE",
+      "HIDDENPOWER",
+      "HYPERBEAM",
+      "HYPNOSIS",
+      "ICEBEAM",
+      "LIGHTSCREEN",
+      "LUNARBLESSING",
+      "LUNARDANCE",
+      "MAGICROOM",
+      "MOONLIGHT",
+      "PROTECT",
+      "PROTOSHIELD",
+      "RECOVER",
+      "REFLECT",
+      "REST",
+      "SLASH",
+      "SNORE",
+      "SWIFT",
+      "TRICKROOM",
+      "WONDERROOM"
+    ],
+    eggMoves: [
+      "AQUARING",
+      "AURORAVEIL",
+      "BLOODMOON",
+      "CHLOROBLAST",
+      "DEBILITATINGTOXIN",
+      "HYPERVOICE",
+      "ICEFANG",
+      "ICYWIND",
+      "MIRRORCOAT",
+      "MIST",
+      "POWDERSNOW",
+      "PSYBEAM",
+      "PSYCHICFANGS",
+      "SHAMANBLESSING",
+      "SURF"
+    ],
+    suffix: "absolution",
+    evolution: [
+      {
+        to: "BUNLUCK",
+        method: "Item",
+        value: "DAWNSTONE"
+      }
+    ]
+  },
+  {
+    id: "BUNLUCK",
+    name: "Bunluck",
+    types: [
+      "NORMAL",
+      "FAIRY"
+    ],
+    sprite: "/Front/BUNLUCK.png",
+    backSprite: "/spritesBack/BUNLUCK.png",
+    description: "This Pokémon is incredibly lucky, and science has yet to explain how this species manages to escape from such complex situations. It uses magic tricks to confuse nearby Pokémon, seemingly doing so for fun.",
+    stats: {
+      hp: 79,
+      attack: 70,
+      defense: 70,
+      spAttack: 100,
+      spDefense: 70,
+      speed: 100
+    },
+    height: "0.6",
+    weight: "10.0",
+    abilities: [
+      "CUTECHARM"
+    ],
+    hiddenAbilities: [
+      "MAGICALSTART"
+    ],
+    category: "Magic Bunny",
+    moves: [
+      "TAILSLAP",
+      "BABYDOLLEYES",
+      "DOUBLESLAP",
+      "QUICKATTACK",
+      "FAKEOUT",
+      "DISARMINGVOICE",
+      "CHARM",
+      "SCREECH",
+      "SING",
+      "DRAININGKISS",
+      "MAGICALBLESSING",
+      "SEDUCTION",
+      "ROUND",
+      "RETURN",
+      "CALMMIND",
+      "AGILITY",
+      "DAZZLINGGLEAM",
+      "SWEETKISS",
+      "EXTRASENSORY"
+    ],
+    tutorMoves: [
+      "BATONPASS",
+      "BLIZZARD",
+      "BLOCK",
+      "CONFUSION",
+      "DIZZYPUNCH",
+      "ENERGYBALL",
+      "EXPLOSION",
+      "FAIRYWIND",
+      "FLAMETHROWER",
+      "FOCUSENERGY",
+      "GIGAIMPACT",
+      "GRAVITY",
+      "HEADBUTT",
+      "HEALBLOCK",
+      "HEALINGWISH",
+      "HEALPULSE",
+      "HIDDENPOWER",
+      "HYPERBEAM",
+      "HYPNOSIS",
+      "ICEBEAM",
+      "LIGHTSCREEN",
+      "LUNARBLESSING",
+      "LUNARDANCE",
+      "MAGICROOM",
+      "MOONLIGHT",
+      "PROTECT",
+      "PROTOSHIELD",
+      "RECOVER",
+      "REFLECT",
+      "REST",
+      "SLASH",
+      "SNORE",
+      "SWIFT",
+      "TRICKROOM",
+      "WONDERROOM"
+    ],
+    eggMoves: [
+      "AQUARING",
+      "AURORAVEIL",
+      "BLOODMOON",
+      "CHLOROBLAST",
+      "DEBILITATINGTOXIN",
+      "HYPERVOICE",
+      "ICEFANG",
+      "ICYWIND",
+      "MIRRORCOAT",
+      "MIST",
+      "POWDERSNOW",
+      "PSYBEAM",
+      "PSYCHICFANGS",
+      "SHAMANBLESSING",
+      "SURF"
+    ],
+    suffix: "absolution",
+    evolution: [
+      {
+        to: "FORTUNELLE",
+        method: "HasMoveType",
+        value: "PSYCHIC"
+      }
+    ]
+  },
+  {
+    id: "FORTUNELLE",
+    name: "Fortunelle",
+    types: [
+      "PSYCHIC",
+      "FAIRY"
+    ],
+    sprite: "/Front/FORTUNELLE.png",
+    backSprite: "/spritesBack/FORTUNELLE.png",
+    description: "It can perform incredible magic tricks that are hard to explain. It seeks out sad humans and Pokémon to try to brighten their day with its magic tricks.",
+    stats: {
+      hp: 88,
+      attack: 77,
+      defense: 77,
+      spAttack: 112,
+      spDefense: 77,
+      speed: 112
+    },
+    height: "1.3",
+    weight: "42.4",
+    abilities: [
+      "CUTECHARM",
+      "MAGICGUARD"
+    ],
+    hiddenAbilities: [
+      "MAGICALSTART"
+    ],
+    category: "Magic Bunny",
+    moves: [
+      "TAILSLAP",
+      "BABYDOLLEYES",
+      "DOUBLESLAP",
+      "QUICKATTACK",
+      "FAKEOUT",
+      "DISARMINGVOICE",
+      "CHARM",
+      "SCREECH",
+      "SING",
+      "DRAININGKISS",
+      "MAGICALBLESSING",
+      "SEDUCTION",
+      "ROUND",
+      "RETURN",
+      "CALMMIND",
+      "AGILITY",
+      "DAZZLINGGLEAM",
+      "SWEETKISS",
+      "EXTRASENSORY",
+      "WISH",
+      "PLAYROUGH",
+      "MAGICALEXPLOSION",
+      "PSYCHIC",
+      "MOONBLAST"
+    ],
+    tutorMoves: [
+      "BATONPASS",
+      "BLIZZARD",
+      "BLOCK",
+      "CONFUSION",
+      "DIZZYPUNCH",
+      "ENERGYBALL",
+      "EXPLOSION",
+      "FAIRYWIND",
+      "FLAMETHROWER",
+      "FOCUSENERGY",
+      "GIGAIMPACT",
+      "GRAVITY",
+      "HEADBUTT",
+      "HEALBLOCK",
+      "HEALINGWISH",
+      "HEALPULSE",
+      "HIDDENPOWER",
+      "HYPERBEAM",
+      "HYPNOSIS",
+      "ICEBEAM",
+      "LIGHTSCREEN",
+      "LUNARBLESSING",
+      "LUNARDANCE",
+      "MAGICROOM",
+      "MOONLIGHT",
+      "PROTECT",
+      "PROTOSHIELD",
+      "RECOVER",
+      "REFLECT",
+      "REST",
+      "SLASH",
+      "SNORE",
+      "SWIFT",
+      "TRICKROOM",
+      "WONDERROOM"
+    ],
+    eggMoves: [
+      "AQUARING",
+      "AURORAVEIL",
+      "BLOODMOON",
+      "CHLOROBLAST",
+      "DEBILITATINGTOXIN",
+      "HYPERVOICE",
+      "ICEFANG",
+      "ICYWIND",
+      "MIRRORCOAT",
+      "MIST",
+      "POWDERSNOW",
+      "PSYBEAM",
+      "PSYCHICFANGS",
+      "SHAMANBLESSING",
+      "SURF"
+    ],
+    suffix: "absolution",
+    evolution: [
+
+    ]
+  },
+  {
+    id: "OTTRICK",
+    name: "Ottrick",
+    types: [
+      "WATER"
+    ],
+    sprite: "/Front/OTTRICK.png",
+    backSprite: "/spritesBack/OTTRICK.png",
+    description: "Ottrick loves to juggle pebbles to impress others. When ignored, it pretends to trip just to get attention.",
+    stats: {
+      hp: 85,
+      attack: 42,
+      defense: 45,
+      spAttack: 47,
+      spDefense: 51,
+      speed: 45
+    },
+    height: "0.5",
+    weight: "5.9",
+    abilities: [
+      "TORRENT"
+    ],
+    hiddenAbilities: [
+      "SHELLARMOR"
+    ],
+    category: "River Otter",
+    moves: [
+      "TACKLE",
+      "TAILWHIP",
+      "WATERGUN",
+      "SOAK",
+      "FOCUSENERGY",
+      "RAZORSHELL",
+      "FURYCUTTER",
+      "WATERPULSE",
+      "AERIALACE",
+      "AQUAJET",
+      "ENCORE",
+      "AQUATAIL",
+      "RETALIATE",
+      "SWORDSDANCE",
+      "HYDROPUMP"
+    ],
+    tutorMoves: [
+      "AERIALACE",
+      "AIRSLASH",
+      "AQUATAIL",
+      "ATTRACT",
+      "AVALANCHE",
+      "BLIZZARD",
+      "CAPTIVATE",
+      "CHILLINGWATER",
+      "CONFIDE",
+      "COVET",
+      "CUT",
+      "DIG",
+      "DIVE",
+      "DOUBLETEAM",
+      "ENCORE",
+      "ENDURE",
+      "FACADE",
+      "FALSESWIPE",
+      "FLING",
+      "FLIPTURN",
+      "FRUSTRATION",
+      "GRASSKNOT",
+      "HAIL",
+      "HELPINGHAND",
+      "HIDDENPOWER",
+      "HYDROPUMP",
+      "ICEBEAM",
+      "ICYWIND",
+      "IRONTAIL",
+      "KNOCKOFF",
+      "LIQUIDATION",
+      "MIMIC",
+      "NATURALGIFT",
+      "PROTECT",
+      "RAINDANCE",
+      "REST",
+      "RETALIATE",
+      "RETURN",
+      "ROCKSMASH",
+      "ROUND",
+      "SECRETPOWER",
+      "SLEEPTALK",
+      "SNORE",
+      "SNOWSCAPE",
+      "SUBSTITUTE",
+      "SURF",
+      "SWAGGER",
+      "SWIFT",
+      "SWORDSDANCE",
+      "TAKEDOWN",
+      "TAUNT",
+      "TERABLAST",
+      "THIEF",
+      "WATERFALL",
+      "WATERPLEDGE",
+      "WATERPULSE",
+      "WHIRLPOOL",
+      "WORKUP",
+      "XSCISSOR"
+    ],
+    eggMoves: [
+      "AIRSLASH",
+      "AQUACUTTER",
+      "ASSURANCE",
+      "BRINE",
+      "COPYCAT",
+      "DETECT",
+      "KNOCKOFF",
+      "NIGHTSLASH",
+      "SACREDSWORD",
+      "SCREECH",
+      "TRUMPCARD"
+    ],
+    suffix: "absolution",
+    evolution: [
+      {
+        to: "LUTRION",
+        method: "HasMoveType",
+        value: "FAIRY"
+      }
+    ]
+  },
+  {
+    id: "LUTRION",
+    name: "Lutrion",
+    types: [
+      "WATER",
+      "FAIRY"
+    ],
+    sprite: "/Front/LUTRION.png",
+    backSprite: "/spritesBack/LUTRION.png",
+    description: "It spends hours perfecting small tricks by the riverbank. Its playful nature hides a sharp focus.",
+    stats: {
+      hp: 100,
+      attack: 65,
+      defense: 70,
+      spAttack: 94,
+      spDefense: 78,
+      speed: 70
+    },
+    height: "0.7",
+    weight: "24.5",
+    abilities: [
+      "TORRENT"
+    ],
+    hiddenAbilities: [
+      "SHELLARMOR"
+    ],
+    category: "River Otter",
+    moves: [
+      "TACKLE",
+      "TAILWHIP",
+      "WATERGUN",
+      "SOAK",
+      "FOCUSENERGY",
+      "RAZORSHELL",
+      "FURYCUTTER",
+      "WATERPULSE",
+      "AERIALACE",
+      "AQUAJET",
+      "ENCORE",
+      "AQUATAIL",
+      "RETALIATE",
+      "SWORDSDANCE",
+      "HYDROPUMP"
+    ],
+    tutorMoves: [
+      "AERIALACE",
+      "AIRSLASH",
+      "AQUATAIL",
+      "ATTRACT",
+      "AVALANCHE",
+      "BLIZZARD",
+      "CAPTIVATE",
+      "CHILLINGWATER",
+      "CONFIDE",
+      "COVET",
+      "CUT",
+      "DIG",
+      "DIVE",
+      "DOUBLETEAM",
+      "ENCORE",
+      "ENDURE",
+      "FACADE",
+      "FALSESWIPE",
+      "FLING",
+      "FLIPTURN",
+      "FRUSTRATION",
+      "GRASSKNOT",
+      "HAIL",
+      "HELPINGHAND",
+      "HIDDENPOWER",
+      "HYDROPUMP",
+      "ICEBEAM",
+      "ICYWIND",
+      "IRONTAIL",
+      "KNOCKOFF",
+      "LIQUIDATION",
+      "MIMIC",
+      "NATURALGIFT",
+      "PROTECT",
+      "RAINDANCE",
+      "REST",
+      "RETALIATE",
+      "RETURN",
+      "ROCKSMASH",
+      "ROUND",
+      "SECRETPOWER",
+      "SLEEPTALK",
+      "SNORE",
+      "SNOWSCAPE",
+      "SUBSTITUTE",
+      "SURF",
+      "SWAGGER",
+      "SWIFT",
+      "SWORDSDANCE",
+      "TAKEDOWN",
+      "TAUNT",
+      "TERABLAST",
+      "THIEF",
+      "WATERFALL",
+      "WATERPLEDGE",
+      "WATERPULSE",
+      "WHIRLPOOL",
+      "WORKUP",
+      "XSCISSOR"
+    ],
+    eggMoves: [
+      "AIRSLASH",
+      "AQUACUTTER",
+      "ASSURANCE",
+      "BRINE",
+      "COPYCAT",
+      "DETECT",
+      "KNOCKOFF",
+      "NIGHTSLASH",
+      "SACREDSWORD",
+      "SCREECH",
+      "TRUMPCARD"
+    ],
+    suffix: "absolution",
+    evolution: [
+      {
+        to: "MAJOTTER",
+        method: "Level",
+        value: "40"
+      }
+    ]
+  },
+  {
+    id: "MAJOTTER",
+    name: "Majotter",
+    types: [
+      "WATER",
+      "FAIRY"
+    ],
+    sprite: "/Front/MAJOTTER.png",
+    backSprite: "/spritesBack/MAJOTTER.png",
+    description: "Fishermen say that when Ottrick appears, the water becomes unusually clear and full of fish.",
+    stats: {
+      hp: 110,
+      attack: 70,
+      defense: 96,
+      spAttack: 110,
+      spDefense: 97,
+      speed: 83
+    },
+    height: "1.7",
+    weight: "194.6",
+    abilities: [
+      "TORRENT"
+    ],
+    hiddenAbilities: [
+      "SHELLARMOR"
+    ],
+    category: "River Otter",
+    moves: [
+      "TACKLE",
+      "TAILWHIP",
+      "WATERGUN",
+      "SOAK",
+      "FOCUSENERGY",
+      "RAZORSHELL",
+      "FURYCUTTER",
+      "WATERPULSE",
+      "AERIALACE",
+      "AQUAJET",
+      "ENCORE",
+      "AQUATAIL",
+      "RETALIATE",
+      "SWORDSDANCE",
+      "HYDROPUMP"
+    ],
+    tutorMoves: [
+      "AERIALACE",
+      "AIRSLASH",
+      "AQUATAIL",
+      "ATTRACT",
+      "AVALANCHE",
+      "BLIZZARD",
+      "CAPTIVATE",
+      "CHILLINGWATER",
+      "CONFIDE",
+      "COVET",
+      "CUT",
+      "DIG",
+      "DIVE",
+      "DOUBLETEAM",
+      "ENCORE",
+      "ENDURE",
+      "FACADE",
+      "FALSESWIPE",
+      "FLING",
+      "FLIPTURN",
+      "FRUSTRATION",
+      "GRASSKNOT",
+      "HAIL",
+      "HELPINGHAND",
+      "HIDDENPOWER",
+      "HYDROPUMP",
+      "ICEBEAM",
+      "ICYWIND",
+      "IRONTAIL",
+      "KNOCKOFF",
+      "LIQUIDATION",
+      "MIMIC",
+      "NATURALGIFT",
+      "PROTECT",
+      "RAINDANCE",
+      "REST",
+      "RETALIATE",
+      "RETURN",
+      "ROCKSMASH",
+      "ROUND",
+      "SECRETPOWER",
+      "SLEEPTALK",
+      "SNORE",
+      "SNOWSCAPE",
+      "SUBSTITUTE",
+      "SURF",
+      "SWAGGER",
+      "SWIFT",
+      "SWORDSDANCE",
+      "TAKEDOWN",
+      "TAUNT",
+      "TERABLAST",
+      "THIEF",
+      "WATERFALL",
+      "WATERPLEDGE",
+      "WATERPULSE",
+      "WHIRLPOOL",
+      "WORKUP",
+      "XSCISSOR"
+    ],
+    eggMoves: [
+      "AIRSLASH",
+      "AQUACUTTER",
+      "ASSURANCE",
+      "BRINE",
+      "COPYCAT",
+      "DETECT",
+      "KNOCKOFF",
+      "NIGHTSLASH",
+      "SACREDSWORD",
+      "SCREECH",
+      "TRUMPCARD"
+    ],
+    suffix: "absolution",
+    evolution: [
+
+    ]
+  },
+  {
+    id: "DOLOVE",
+    name: "Dolove",
+    types: [
+      "FAIRY",
+      "FLYING"
+    ],
+    sprite: "/Front/DOLOVE.png",
+    backSprite: "/spritesBack/DOLOVE.png",
+    description: "They are extremely affectionate towards nature, their presence generates a feeling of peace and tranquility.",
+    stats: {
+      hp: 77,
+      attack: 66,
+      defense: 56,
+      spAttack: 77,
+      spDefense: 46,
+      speed: 85
+    },
+    height: "0.6",
+    weight: "15.0",
+    abilities: [
+      "CUTECHARM",
+      "VAMP"
+    ],
+    hiddenAbilities: [
+      "LOVEANDPEACE"
+    ],
+    category: "Love Pigeon",
+    moves: [
+      "QUICKATTACK",
+      "ATTRACT",
+      "LEER",
+      "GUST",
+      "FAIRYWIND",
+      "AIRCUTTER",
+      "SEDUCTION",
+      "FEATHERDANCE",
+      "DAZZLINGGLEAM",
+      "ASSIST",
+      "ROOST",
+      "TAILWIND",
+      "SKYATTACK",
+      "LOVEHURTS",
+      "BATONPASS"
+    ],
+    tutorMoves: [
+      "MAGICALBLESSING",
+      "AERIALACE",
+      "AGILITY",
+      "AIRSLASH",
+      "ATTRACT",
+      "CAPTIVATE",
+      "CONFIDE",
+      "DEFOG",
+      "DOUBLETEAM",
+      "DUALWINGBEAT",
+      "ECHOEDVOICE",
+      "ENDURE",
+      "FACADE",
+      "FLY",
+      "FOCUSENERGY",
+      "FRUSTRATION",
+      "HEATWAVE",
+      "HIDDENPOWER",
+      "MIMIC",
+      "NATURALGIFT",
+      "PLUCK",
+      "PROTECT",
+      "RAINDANCE",
+      "REST",
+      "RETURN",
+      "ROOST",
+      "ROUND",
+      "SECRETPOWER",
+      "SKYATTACK",
+      "SLEEPTALK",
+      "SNORE",
+      "STEELWING",
+      "SUBSTITUTE",
+      "SUNNYDAY",
+      "SWAGGER",
+      "SWIFT",
+      "TAILWIND",
+      "TAUNT",
+      "TOXIC",
+      "UPROAR",
+      "UTURN",
+      "WORKUP",
+      "AERIALACE",
+      "AGILITY",
+      "AIRSLASH",
+      "ATTRACT",
+      "CAPTIVATE",
+      "CONFIDE",
+      "DEFOG",
+      "DOUBLETEAM",
+      "DUALWINGBEAT",
+      "ECHOEDVOICE",
+      "ENDURE",
+      "FACADE",
+      "FLY",
+      "FOCUSENERGY",
+      "FRUSTRATION",
+      "HEATWAVE",
+      "HIDDENPOWER",
+      "MIMIC",
+      "NATURALGIFT",
+      "PLUCK",
+      "PROTECT",
+      "RAINDANCE",
+      "REST",
+      "RETURN",
+      "ROOST",
+      "ROUND",
+      "SECRETPOWER",
+      "SKYATTACK",
+      "SLEEPTALK",
+      "SNORE",
+      "STEELWING",
+      "SUBSTITUTE",
+      "SUNNYDAY",
+      "SWAGGER",
+      "SWIFT",
+      "TAILWIND",
+      "TAUNT",
+      "TOXIC",
+      "UPROAR",
+      "UTURN",
+      "WORKUP"
+    ],
+    eggMoves: [
+      "DEFOG",
+      "HYPNOSIS",
+      "MORNINGSUN",
+      "NIGHTSLASH",
+      "WISH"
+    ],
+    suffix: "absolution",
+    evolution: [
+      {
+        to: "SERENOVE",
+        method: "HasMove",
+        value: "LOVEHURTS"
+      }
+    ]
+  },
+  {
+    id: "SERENOVE",
+    name: "Serenove",
+    types: [
+      "FAIRY",
+      "FLYING"
+    ],
+    sprite: "/Front/SERENOVE.png",
+    backSprite: "/spritesBack/SERENOVE.png",
+    description: "They are affectionate with their loved ones, especially with their trainer, and during mating season they puff out their chests to attract the attention of females of their own species.",
+    stats: {
+      hp: 108,
+      attack: 91,
+      defense: 78,
+      spAttack: 108,
+      spDefense: 63,
+      speed: 118
+    },
+    height: "1.5",
+    weight: "35.0",
+    abilities: [
+      "CUTECHARM",
+      "VAMP"
+    ],
+    hiddenAbilities: [
+      "LOVEANDPEACE"
+    ],
+    category: "Love Pigeon",
+    moves: [
+      "QUICKATTACK",
+      "ATTRACT",
+      "LEER",
+      "GUST",
+      "FAIRYWIND",
+      "AIRCUTTER",
+      "SEDUCTION",
+      "FEATHERDANCE",
+      "DAZZLINGGLEAM",
+      "ASSIST",
+      "ROOST",
+      "TAILWIND",
+      "SKYATTACK",
+      "LOVEHURTS",
+      "BATONPASS"
+    ],
+    tutorMoves: [
+      "MAGICALBLESSING",
+      "AERIALACE",
+      "AGILITY",
+      "AIRSLASH",
+      "ATTRACT",
+      "CAPTIVATE",
+      "CONFIDE",
+      "DEFOG",
+      "DOUBLETEAM",
+      "DUALWINGBEAT",
+      "ECHOEDVOICE",
+      "ENDURE",
+      "FACADE",
+      "FLY",
+      "FOCUSENERGY",
+      "FRUSTRATION",
+      "HEATWAVE",
+      "HIDDENPOWER",
+      "MIMIC",
+      "NATURALGIFT",
+      "PLUCK",
+      "PROTECT",
+      "RAINDANCE",
+      "REST",
+      "RETURN",
+      "ROOST",
+      "ROUND",
+      "SECRETPOWER",
+      "SKYATTACK",
+      "SLEEPTALK",
+      "SNORE",
+      "STEELWING",
+      "SUBSTITUTE",
+      "SUNNYDAY",
+      "SWAGGER",
+      "SWIFT",
+      "TAILWIND",
+      "TAUNT",
+      "TOXIC",
+      "UPROAR",
+      "UTURN",
+      "WORKUP",
+      "AERIALACE",
+      "AGILITY",
+      "AIRSLASH",
+      "ATTRACT",
+      "CAPTIVATE",
+      "CONFIDE",
+      "DEFOG",
+      "DOUBLETEAM",
+      "DUALWINGBEAT",
+      "ECHOEDVOICE",
+      "ENDURE",
+      "FACADE",
+      "FLY",
+      "FOCUSENERGY",
+      "FRUSTRATION",
+      "HEATWAVE",
+      "HIDDENPOWER",
+      "MIMIC",
+      "NATURALGIFT",
+      "PLUCK",
+      "PROTECT",
+      "RAINDANCE",
+      "REST",
+      "RETURN",
+      "ROOST",
+      "ROUND",
+      "SECRETPOWER",
+      "SKYATTACK",
+      "SLEEPTALK",
+      "SNORE",
+      "STEELWING",
+      "SUBSTITUTE",
+      "SUNNYDAY",
+      "SWAGGER",
+      "SWIFT",
+      "TAILWIND",
+      "TAUNT",
+      "TOXIC",
+      "UPROAR",
+      "UTURN",
+      "WORKUP"
+    ],
+    eggMoves: [
+      "DEFOG",
+      "HYPNOSIS",
+      "MORNINGSUN",
+      "NIGHTSLASH",
+      "WISH"
+    ],
+    suffix: "absolution",
+    evolution: [
+
+    ]
+  }
+]

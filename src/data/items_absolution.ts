@@ -1,6 +1,7 @@
 import type { Item } from "@/types/item";
 
-export const items: Item[] = [
+export const items: Item[] = 
+[
   {
     id: "POKEVIAL",
     name: "Poke Vial",
@@ -8,10 +9,9 @@ export const items: Item[] = [
     pocket: 8,
     price: 25000,
     flags: "KeyItem",
-    description:
-      "Allows you to heal all your Pokemon equipment, it has to be recharged at the Pokemon center.",
+    description: "Allows you to heal all your Pokemon equipment, it has to be recharged at the Pokemon center.",
     sprite: "/Items/POKEVIAL.png",
-    suffix: "absolution",
+    suffix: "absolution"
   },
   {
     id: "EMPTYPOKEVIAL",
@@ -20,10 +20,9 @@ export const items: Item[] = [
     pocket: 8,
     price: 25000,
     flags: "KeyItem",
-    description:
-      "Allows you to heal all your Pokemon equipment, it has to be recharged at the Pokemon center.",
+    description: "Allows you to heal all your Pokemon equipment, it has to be recharged at the Pokemon center.",
     sprite: "/Items/EMPTYPOKEVIAL.png",
-    suffix: "absolution",
+    suffix: "absolution"
   },
   {
     id: "EMPTYBOTTLE",
@@ -32,10 +31,9 @@ export const items: Item[] = [
     pocket: 9,
     price: 100,
     flags: "",
-    description:
-      "It is an empty bottle, a soulless shell, value = nil. It contains no water, juice or even the resentment of a forgotten soda. It's basically... bottled air with style.",
+    description: "It is an empty bottle, a soulless shell, value = nil. It contains no water, juice or even the resentment of a forgotten soda. It's basically... bottled air with style.",
     sprite: "/Items/EMPTYBOTTLE.png",
-    suffix: "absolution",
+    suffix: "absolution"
   },
   {
     id: "POKEBALLBASE",
@@ -46,7 +44,7 @@ export const items: Item[] = [
     flags: "",
     description: "A base component used to craft various types of Poké Balls.",
     sprite: "/Items/POKEBALLBASE.png",
-    suffix: "absolution",
+    suffix: "absolution"
   },
   {
     id: "FUSEDSHADOWFRAGMENT",
@@ -55,10 +53,9 @@ export const items: Item[] = [
     pocket: 9,
     price: 100,
     flags: "",
-    description:
-      "A cold, whispering shard of shadow that pulses with faint, ancient power. Rumored to be a remnant of a broken relic, it unnerves those who hold it.",
+    description: "A cold, whispering shard of shadow that pulses with faint, ancient power. Rumored to be a remnant of a broken relic, it unnerves those who hold it.",
     sprite: "/Items/FUSEDSHADOWFRAGMENT.png",
-    suffix: "absolution",
+    suffix: "absolution"
   },
   {
     id: "SKITTY_HAIR",
@@ -69,7 +66,7 @@ export const items: Item[] = [
     flags: "",
     description: "A soft and silky coat, quite pleasant to the touch.",
     sprite: "/Items/SKITTY_HAIR.png",
-    suffix: "absolution",
+    suffix: "absolution"
   },
   {
     id: "AUTUMNLEAF",
@@ -78,10 +75,9 @@ export const items: Item[] = [
     pocket: 9,
     price: 10,
     flags: "",
-    description:
-      "It's an autumn leaf, although you probably didn't get it in autumn.... It's best not to think about that.",
+    description: "It's an autumn leaf, although you probably didn't get it in autumn.... It's best not to think about that.",
     sprite: "/Items/AUTUMNLEAF.png",
-    suffix: "absolution",
+    suffix: "absolution"
   },
   {
     id: "SKITTY_PIN",
@@ -90,10 +86,9 @@ export const items: Item[] = [
     pocket: 9,
     price: 100,
     flags: "",
-    description:
-      "Very sharp pointed pin, for some reason it does not cause any pain when penetrating the skin.",
+    description: "Very sharp pointed pin, for some reason it does not cause any pain when penetrating the skin.",
     sprite: "/Items/SKITTY_PIN.png",
-    suffix: "absolution",
+    suffix: "absolution"
   },
   {
     id: "DEADSKIN",
@@ -104,7 +99,7 @@ export const items: Item[] = [
     flags: "",
     description: "It looks like skin shed by a Pokemon, probably bug-type.",
     sprite: "/Items/DEADSKIN.png",
-    suffix: "absolution",
+    suffix: "absolution"
   },
   {
     id: "TRAINER_OUTFIT_MALE",
@@ -115,7 +110,7 @@ export const items: Item[] = [
     flags: "KeyItem,Outfit",
     description: "A very good outfit for a very good trainer, yes sir.",
     sprite: "/Items/TRAINER_OUTFIT_MALE.png",
-    suffix: "absolution",
+    suffix: "absolution"
   },
   {
     id: "TRAINER_OUTFIT_FEMALE",
@@ -126,7 +121,7 @@ export const items: Item[] = [
     flags: "KeyItem,Outfit",
     description: "A very good outfit for a very good trainer, yes sir.",
     sprite: "/Items/TRAINER_OUTFIT_FEMALE.png",
-    suffix: "absolution",
+    suffix: "absolution"
   },
   {
     id: "BUG_CATCHER_OUTFIT",
@@ -137,7 +132,7 @@ export const items: Item[] = [
     flags: "KeyItem,Outfit",
     description: "A suit that every bug catcher needs!",
     sprite: "/Items/BUG_CATCHER_OUTFIT.png",
-    suffix: "absolution",
+    suffix: "absolution"
   },
   {
     id: "FISHERMAN_OUTFIT",
@@ -148,7 +143,7 @@ export const items: Item[] = [
     flags: "KeyItem,Outfit",
     description: "The perfect outfit for any fisherman.",
     sprite: "/Items/FISHERMAN_OUTFIT.png",
-    suffix: "absolution",
+    suffix: "absolution"
   },
   {
     id: "VEGETA_OUTFIT",
@@ -157,10 +152,9 @@ export const items: Item[] = [
     pocket: 10,
     price: 3000,
     flags: "KeyItem,Outfit",
-    description:
-      "An outfit fit for a Saiyan prince. Just don't let anyone call you Kakarot!",
+    description: "An outfit fit for a Saiyan prince. Just don't let anyone call you Kakarot!",
     sprite: "/Items/VEGETA_OUTFIT.png",
-    suffix: "absolution",
+    suffix: "absolution"
   },
   {
     id: "LINK_OUTFIT",
@@ -169,10 +163,9 @@ export const items: Item[] = [
     pocket: 10,
     price: 3000,
     flags: "KeyItem,Outfit",
-    description:
-      "A legendary outfit for a hero in green. Perfect for saving princesses and smashing pots!",
+    description: "A legendary outfit for a hero in green. Perfect for saving princesses and smashing pots!",
     sprite: "/Items/LINK_OUTFIT.png",
-    suffix: "absolution",
+    suffix: "absolution"
   },
   {
     id: "ZELDA_OUTFIT",
@@ -181,10 +174,9 @@ export const items: Item[] = [
     pocket: 10,
     price: 3000,
     flags: "KeyItem,Outfit",
-    description:
-      "A royal outfit for the princess of Hyrule. Perfect for ruling kingdoms and wielding the Triforce of Wisdom.",
+    description: "A royal outfit for the princess of Hyrule. Perfect for ruling kingdoms and wielding the Triforce of Wisdom.",
     sprite: "/Items/ZELDA_OUTFIT.png",
-    suffix: "absolution",
+    suffix: "absolution"
   },
   {
     id: "GOKU_OUTFIT",
@@ -193,10 +185,9 @@ export const items: Item[] = [
     pocket: 10,
     price: 3000,
     flags: "KeyItem,Outfit",
-    description:
-      "An outfit for the strongest fighter in the universe. Just make sure to keep your power level over 9000!",
+    description: "An outfit for the strongest fighter in the universe. Just make sure to keep your power level over 9000!",
     sprite: "/Items/GOKU_OUTFIT.png",
-    suffix: "absolution",
+    suffix: "absolution"
   },
   {
     id: "RAM_REM_OUTFIT",
@@ -205,10 +196,9 @@ export const items: Item[] = [
     pocket: 10,
     price: 2500,
     flags: "KeyItem,Outfit",
-    description:
-      "A matching maid outfit for the twin sisters from Re:Zero. Perfect for serving tea and protecting the mansion!",
+    description: "A matching maid outfit for the twin sisters from Re:Zero. Perfect for serving tea and protecting the mansion!",
     sprite: "/Items/RAM_REM_OUTFIT.png",
-    suffix: "absolution",
+    suffix: "absolution"
   },
   {
     id: "MEGURINE_LUKA_OUTFIT",
@@ -217,10 +207,9 @@ export const items: Item[] = [
     pocket: 10,
     price: 2500,
     flags: "KeyItem,Outfit",
-    description:
-      "An elegant outfit for the virtual diva Megurine Luka. Perfect for singing your heart out and looking fabulous!",
+    description: "An elegant outfit for the virtual diva Megurine Luka. Perfect for singing your heart out and looking fabulous!",
     sprite: "/Items/MEGURINE_LUKA_OUTFIT.png",
-    suffix: "absolution",
+    suffix: "absolution"
   },
   {
     id: "MEGAMAN_OUTFIT",
@@ -229,10 +218,9 @@ export const items: Item[] = [
     pocket: 10,
     price: 3000,
     flags: "KeyItem,Outfit",
-    description:
-      "A high-tech blue combat suit inspired by Mega Man. Ideal for charging into battles and blasting through obstacles!",
+    description: "A high-tech blue combat suit inspired by Mega Man. Ideal for charging into battles and blasting through obstacles!",
     sprite: "/Items/MEGAMAN_OUTFIT.png",
-    suffix: "absolution",
+    suffix: "absolution"
   },
   {
     id: "SHANTAE_OUTFIT",
@@ -241,10 +229,9 @@ export const items: Item[] = [
     pocket: 10,
     price: 3000,
     flags: "KeyItem,Outfit",
-    description:
-      "A vibrant outfit inspired by the half-genie hero Shantae. Perfect for dancing, hair-whip attacks and adventuring through exotic islands!",
+    description: "A vibrant outfit inspired by the half-genie hero Shantae. Perfect for dancing, hair-whip attacks and adventuring through exotic islands!",
     sprite: "/Items/SHANTAE_OUTFIT.png",
-    suffix: "absolution",
+    suffix: "absolution"
   },
   {
     id: "SABER_OUTFIT",
@@ -253,10 +240,9 @@ export const items: Item[] = [
     pocket: 10,
     price: 3000,
     flags: "KeyItem,Outfit",
-    description:
-      "A noble outfit inspired by Saber, the legendary Servant from the Fate series. Perfect for wielding the holy sword Excalibur and embarking on quests!",
+    description: "A noble outfit inspired by Saber, the legendary Servant from the Fate series. Perfect for wielding the holy sword Excalibur and embarking on quests!",
     sprite: "/Items/SABER_OUTFIT.png",
-    suffix: "absolution",
+    suffix: "absolution"
   },
   {
     id: "PAJAMA_OUTFIT_MALE",
@@ -267,7 +253,7 @@ export const items: Item[] = [
     flags: "KeyItem,Outfit",
     description: "A comfortable pajama outfit for a good night's sleep.",
     sprite: "/Items/PAJAMA_OUTFIT_MALE.png",
-    suffix: "absolution",
+    suffix: "absolution"
   },
   {
     id: "PAJAMA_OUTFIT_FEMALE",
@@ -278,7 +264,7 @@ export const items: Item[] = [
     flags: "KeyItem,Outfit",
     description: "A comfortable pajama outfit for a good night's sleep.",
     sprite: "/Items/PAJAMA_OUTFIT_FEMALE.png",
-    suffix: "absolution",
+    suffix: "absolution"
   },
   {
     id: "CALENDULA_OUTFIT",
@@ -289,7 +275,7 @@ export const items: Item[] = [
     flags: "KeyItem,Outfit",
     description: "The outfit that Calendula use.",
     sprite: "/Items/CALENDULA_OUTFIT.png",
-    suffix: "absolution",
+    suffix: "absolution"
   },
   {
     id: "AGATHA_OUTFIT",
@@ -300,7 +286,7 @@ export const items: Item[] = [
     flags: "KeyItem,Outfit",
     description: "The outfit that Agatha use.",
     sprite: "/Items/AGATHA_OUTFIT.png",
-    suffix: "absolution",
+    suffix: "absolution"
   },
   {
     id: "LIVE_OUTFIT",
@@ -311,7 +297,7 @@ export const items: Item[] = [
     flags: "KeyItem,Outfit",
     description: "The outfit that Live use.",
     sprite: "/Items/LIVE_OUTFIT.png",
-    suffix: "absolution",
+    suffix: "absolution"
   },
   {
     id: "POKET_PHONE",
@@ -320,10 +306,9 @@ export const items: Item[] = [
     pocket: 8,
     price: 5000,
     flags: "KeyItem",
-    description:
-      "A handy device for trainers to stay connected and manage their Pokémon.",
+    description: "A handy device for trainers to stay connected and manage their Pokémon.",
     sprite: "/Items/POKET_PHONE.png",
-    suffix: "absolution",
+    suffix: "absolution"
   },
   {
     id: "MEDICINAL_LEAF",
@@ -334,7 +319,7 @@ export const items: Item[] = [
     flags: "",
     description: "A bitter medicinal leaf that restores 5 HP.",
     sprite: "/Items/MEDICINAL_LEAF.png",
-    suffix: "absolution",
+    suffix: "absolution"
   },
   {
     id: "THICK_GLOVES",
@@ -345,7 +330,7 @@ export const items: Item[] = [
     flags: "KeyItem",
     description: "A pair of thick gloves that provide excellent protection.",
     sprite: "/Items/THICK_GLOVES.png",
-    suffix: "absolution",
+    suffix: "absolution"
   },
   {
     id: "SHINYPOTION",
@@ -356,7 +341,7 @@ export const items: Item[] = [
     flags: "",
     description: "A special potion that makes the Pokemon shiny.",
     sprite: "/Items/SHINYPOTION.png",
-    suffix: "absolution",
+    suffix: "absolution"
   },
   {
     id: "OBEDIENCECANDY",
@@ -365,10 +350,9 @@ export const items: Item[] = [
     pocket: 2,
     price: 95000,
     flags: "",
-    description:
-      "A candy that makes a Pokémon completely obedient to its trainer, regardless of level.",
+    description: "A candy that makes a Pokémon completely obedient to its trainer, regardless of level.",
     sprite: "/Items/OBEDIENCECANDY.png",
-    suffix: "absolution",
+    suffix: "absolution"
   },
   {
     id: "DISOBEDIENCECANDY",
@@ -377,10 +361,9 @@ export const items: Item[] = [
     pocket: 2,
     price: 50000,
     flags: "",
-    description:
-      "A candy that makes a Pokémon rebellious and likely to ignore commands in battle.",
+    description: "A candy that makes a Pokémon rebellious and likely to ignore commands in battle.",
     sprite: "/Items/DISOBEDIENCECANDY.png",
-    suffix: "absolution",
+    suffix: "absolution"
   },
   {
     id: "LOVEPOTION",
@@ -389,10 +372,9 @@ export const items: Item[] = [
     pocket: 1,
     price: 10000,
     flags: "Fling_10",
-    description:
-      "Allows the user to attract any target, regardless of gender (even if genderless).",
+    description: "Allows the user to attract any target, regardless of gender (even if genderless).",
     sprite: "/Items/LOVEPOTION.png",
-    suffix: "absolution",
+    suffix: "absolution"
   },
   {
     id: "TUMBLESTONE",
@@ -401,10 +383,9 @@ export const items: Item[] = [
     pocket: 9,
     price: 200,
     flags: "",
-    description:
-      "A normal tumblestone, super common, super generic, is just a tumblestone.",
+    description: "A normal tumblestone, super common, super generic, is just a tumblestone.",
     sprite: "/Items/TUMBLESTONE.png",
-    suffix: "absolution",
+    suffix: "absolution"
   },
   {
     id: "WHITETUMBLESTONE",
@@ -415,7 +396,7 @@ export const items: Item[] = [
     flags: "",
     description: "A Tumblestone with a white color, is nice, is a good color.",
     sprite: "/Items/WHITETUMBLESTONE.png",
-    suffix: "absolution",
+    suffix: "absolution"
   },
   {
     id: "REDTUMBLESTONE",
@@ -424,10 +405,9 @@ export const items: Item[] = [
     pocket: 9,
     price: 200,
     flags: "",
-    description:
-      "A Tumblestone with a red color, is quite vibrant and stands out.",
+    description: "A Tumblestone with a red color, is quite vibrant and stands out.",
     sprite: "/Items/REDTUMBLESTONE.png",
-    suffix: "absolution",
+    suffix: "absolution"
   },
   {
     id: "BLUETUMBLESTONE",
@@ -438,7 +418,7 @@ export const items: Item[] = [
     flags: "",
     description: "A Tumblestone with a blue color, reminiscent of clear skies.",
     sprite: "/Items/BLUETUMBLESTONE.png",
-    suffix: "absolution",
+    suffix: "absolution"
   },
   {
     id: "BLACKTUMBLESTONE",
@@ -447,10 +427,9 @@ export const items: Item[] = [
     pocket: 9,
     price: 200,
     flags: "",
-    description:
-      "A Tumblestone with a black color, giving it a sleek and elegant look.",
+    description: "A Tumblestone with a black color, giving it a sleek and elegant look.",
     sprite: "/Items/BLACKTUMBLESTONE.png",
-    suffix: "absolution",
+    suffix: "absolution"
   },
   {
     id: "YELLOWTUMBLESTONE",
@@ -461,7 +440,7 @@ export const items: Item[] = [
     flags: "",
     description: "A Tumblestone with a bright yellow color, full of energy.",
     sprite: "/Items/YELLOWTUMBLESTONE.png",
-    suffix: "absolution",
+    suffix: "absolution"
   },
   {
     id: "PINKTUMBLESTONE",
@@ -472,7 +451,7 @@ export const items: Item[] = [
     flags: "",
     description: "A Tumblestone with a pink color, sweet and charming.",
     sprite: "/Items/PINKTUMBLESTONE.png",
-    suffix: "absolution",
+    suffix: "absolution"
   },
   {
     id: "GRAYTUMBLESTONE",
@@ -483,7 +462,7 @@ export const items: Item[] = [
     flags: "",
     description: "A Tumblestone with a gray color, neutral and understated.",
     sprite: "/Items/GRAYTUMBLESTONE.png",
-    suffix: "absolution",
+    suffix: "absolution"
   },
   {
     id: "ORANGETUMBLESTONE",
@@ -494,7 +473,7 @@ export const items: Item[] = [
     flags: "",
     description: "A Tumblestone with an orange color, warm and inviting.",
     sprite: "/Items/ORANGETUMBLESTONE.png",
-    suffix: "absolution",
+    suffix: "absolution"
   },
   {
     id: "PURPLETUMBLESTONE",
@@ -503,10 +482,9 @@ export const items: Item[] = [
     pocket: 9,
     price: 200,
     flags: "",
-    description:
-      "A Tumblestone with a purple color, often associated with mystery.",
+    description: "A Tumblestone with a purple color, often associated with mystery.",
     sprite: "/Items/PURPLETUMBLESTONE.png",
-    suffix: "absolution",
+    suffix: "absolution"
   },
   {
     id: "GREENTUMBLESTONE",
@@ -517,7 +495,7 @@ export const items: Item[] = [
     flags: "",
     description: "A Tumblestone with a green color, the best color.",
     sprite: "/Items/GREENTUMBLESTONE.png",
-    suffix: "absolution",
+    suffix: "absolution"
   },
   {
     id: "SCISSORS",
@@ -526,10 +504,9 @@ export const items: Item[] = [
     pocket: 8,
     price: 1000,
     flags: "KeyItem",
-    description:
-      "They are capable of cutting bushes that obstruct the passage.",
+    description: "They are capable of cutting bushes that obstruct the passage.",
     sprite: "/Items/SCISSORS.png",
-    suffix: "absolution",
+    suffix: "absolution"
   },
   {
     id: "SELECTIVEPHEROMONES",
@@ -538,10 +515,9 @@ export const items: Item[] = [
     pocket: 1,
     price: 5000,
     flags: "",
-    description:
-      "Allows you to select a route Pokemon from the list of encounters. The Pokemon will have at least one perfect IV.",
+    description: "Allows you to select a route Pokemon from the list of encounters. The Pokemon will have at least one perfect IV.",
     sprite: "/Items/SELECTIVEPHEROMONES.png",
-    suffix: "absolution",
+    suffix: "absolution"
   },
   {
     id: "WOODARMOR",
@@ -552,7 +528,7 @@ export const items: Item[] = [
     flags: "Fling_30",
     description: "Generates a small proto-shield when entering combat.",
     sprite: "/Items/WOODARMOR.png",
-    suffix: "absolution",
+    suffix: "absolution"
   },
   {
     id: "FIERCETEETH",
@@ -561,10 +537,9 @@ export const items: Item[] = [
     pocket: 1,
     price: 3000,
     flags: "Fling_30",
-    description:
-      "Denture made of resistant material that enhances the power of biting movements.",
+    description: "Denture made of resistant material that enhances the power of biting movements.",
     sprite: "/Items/FIERCETEETH.png",
-    suffix: "absolution",
+    suffix: "absolution"
   },
   {
     id: "COCOBERRY",
@@ -573,10 +548,9 @@ export const items: Item[] = [
     pocket: 5,
     price: 20,
     flags: "Berry,Fling_10,NaturalGift_ELECTRIC_80",
-    description:
-      "A random resistance is applied when entering combat. The berry is consumed.",
+    description: "A random resistance is applied when entering combat. The berry is consumed.",
     sprite: "/Items/COCOBERRY.png",
-    suffix: "absolution",
+    suffix: "absolution"
   },
   {
     id: "SHINYBERRY",
@@ -587,7 +561,7 @@ export const items: Item[] = [
     flags: "Berry,Fling_10,NaturalGift_POISON_80",
     description: "A special berry that makes the Pokemon shiny.",
     sprite: "/Items/SHINYBERRY.png",
-    suffix: "absolution",
+    suffix: "absolution"
   },
   {
     id: "THELIMITER",
@@ -598,7 +572,7 @@ export const items: Item[] = [
     flags: "Fling_30",
     description: "Reduces the user's maximum life when entering combat.",
     sprite: "/Items/THELIMITER.png",
-    suffix: "absolution",
+    suffix: "absolution"
   },
   {
     id: "REGENERATIVETEA",
@@ -609,7 +583,7 @@ export const items: Item[] = [
     flags: "Fling_30",
     description: "Applies the continuous regeneration effect for 3 turns.",
     sprite: "/Items/REGENERATIVETEA.png",
-    suffix: "absolution",
+    suffix: "absolution"
   },
   {
     id: "THEHATER",
@@ -620,7 +594,7 @@ export const items: Item[] = [
     flags: "Fling_30",
     description: "The user gets a hater type when entering combat.",
     sprite: "/Items/THEHATER.png",
-    suffix: "absolution",
+    suffix: "absolution"
   },
   {
     id: "THECONFUSED",
@@ -629,10 +603,9 @@ export const items: Item[] = [
     pocket: 1,
     price: 99000,
     flags: "Fling_30",
-    description:
-      "All stats are increased when entering combat, but the user becomes confused.",
+    description: "All stats are increased when entering combat, but the user becomes confused.",
     sprite: "/Items/THECONFUSED.png",
-    suffix: "absolution",
+    suffix: "absolution"
   },
   {
     id: "THEPERISHSONG",
@@ -641,10 +614,9 @@ export const items: Item[] = [
     pocket: 1,
     price: 10000,
     flags: "Fling_30",
-    description:
-      "All stats are increased when entering combat, but the deadly chanting effect is also applied. The user cannot be changed.",
+    description: "All stats are increased when entering combat, but the deadly chanting effect is also applied. The user cannot be changed.",
     sprite: "/Items/THEPERISHSONG.png",
-    suffix: "absolution",
+    suffix: "absolution"
   },
   {
     id: "TWILIGHTSTONE",
@@ -653,10 +625,9 @@ export const items: Item[] = [
     pocket: 1,
     price: 3000,
     flags: "EvolutionStone,Fling_30",
-    description:
-      "A peculiar stone that makes certain species of Pokémon evolve.",
+    description: "A peculiar stone that makes certain species of Pokémon evolve.",
     sprite: "/Items/TWILIGHTSTONE.png",
-    suffix: "absolution",
+    suffix: "absolution"
   },
   {
     id: "MUDDYGLOVE",
@@ -665,10 +636,9 @@ export const items: Item[] = [
     pocket: 1,
     price: 15000,
     flags: "Fling_30",
-    description:
-      "An item to be held by a Pokémon. Increase the damage of the user on Mud Sport effect.",
+    description: "An item to be held by a Pokémon. Increase the damage of the user on Mud Sport effect.",
     sprite: "/Items/MUDDYGLOVE.png",
-    suffix: "absolution",
+    suffix: "absolution"
   },
   {
     id: "MUDDYBOOTS",
@@ -677,10 +647,9 @@ export const items: Item[] = [
     pocket: 1,
     price: 15000,
     flags: "Fling_30",
-    description:
-      "An item to be held by a Pokémon. Increase the speed of the user on Mud Sport effect.",
+    description: "An item to be held by a Pokémon. Increase the speed of the user on Mud Sport effect.",
     sprite: "/Items/MUDDYBOOTS.png",
-    suffix: "absolution",
+    suffix: "absolution"
   },
   {
     id: "MUDDYCRYSTAL",
@@ -689,10 +658,9 @@ export const items: Item[] = [
     pocket: 1,
     price: 15000,
     flags: "Fling_30",
-    description:
-      "An item to be held by a Pokémon. Put the mud sport effect on entering battle.",
+    description: "An item to be held by a Pokémon. Put the mud sport effect on entering battle.",
     sprite: "/Items/MUDDYCRYSTAL.png",
-    suffix: "absolution",
+    suffix: "absolution"
   },
   {
     id: "MUDDYARMOR",
@@ -701,10 +669,9 @@ export const items: Item[] = [
     pocket: 1,
     price: 15000,
     flags: "Fling_30",
-    description:
-      "An item to be held by a Pokémon. The holder's HP is gradually restored during battle on Mud Sport effect.",
+    description: "An item to be held by a Pokémon. The holder's HP is gradually restored during battle on Mud Sport effect.",
     sprite: "/Items/MUDDYARMOR.png",
-    suffix: "absolution",
+    suffix: "absolution"
   },
   {
     id: "DARK_SCYTHE",
@@ -713,10 +680,9 @@ export const items: Item[] = [
     pocket: 1,
     price: 15000,
     flags: "Fling_30",
-    description:
-      "If an opponent's HP falls to 10% or less after the user do a move, the holder instantly executes that opponent.",
+    description: "If an opponent's HP falls to 10% or less after the user do a move, the holder instantly executes that opponent.",
     sprite: "/Items/DARK_SCYTHE.png",
-    suffix: "absolution",
+    suffix: "absolution"
   },
   {
     id: "MUDBALL",
@@ -725,10 +691,9 @@ export const items: Item[] = [
     pocket: 3,
     price: 1000,
     flags: "PokeBall",
-    description:
-      "A somewhat different Poké Ball that works especially on Mud Sport effect.",
+    description: "A somewhat different Poké Ball that works especially on Mud Sport effect.",
     sprite: "/Items/MUDBALL.png",
-    suffix: "absolution",
+    suffix: "absolution"
   },
   {
     id: "ICECROWN",
@@ -737,10 +702,9 @@ export const items: Item[] = [
     pocket: 1,
     price: 3000,
     flags: "Fling_30",
-    description:
-      "Apply Ice Weakness to all battlers when enter the battle. Just one time per battle.",
+    description: "Apply Ice Weakness to all battlers when enter the battle. Just one time per battle.",
     sprite: "/Items/ICECROWN.png",
-    suffix: "absolution",
+    suffix: "absolution"
   },
   {
     id: "TWILIGHTCROWN",
@@ -749,10 +713,9 @@ export const items: Item[] = [
     pocket: 1,
     price: 15000,
     flags: "Fling_30",
-    description:
-      "An item to be held by a Pokémon. Applies Trick Room for 3 turns when entering battle.",
+    description: "An item to be held by a Pokémon. Applies Trick Room for 3 turns when entering battle.",
     sprite: "/Items/TWILIGHTCROWN.png",
-    suffix: "absolution",
+    suffix: "absolution"
   },
   {
     id: "MASTERSWORD",
@@ -761,31 +724,74 @@ export const items: Item[] = [
     pocket: 1,
     price: 3000,
     flags: "Fling_30",
-    description:
-      "Slightly increases the damage of cutting moves. The effect is bigger if the holder's species is Growrage or Twylican.",
+    description: "Slightly increases the damage of cutting moves. The effect is bigger if the holder's species is Growrage or Twylican.",
     sprite: "/Items/MASTERSWORD.png",
-    suffix: "absolution",
+    suffix: "absolution"
   },
   {
     id: "DUNGEONPOINT",
     name: "Dungeon Point",
     namePlural: "Dungeon Points",
-    pocket: 10,
+    pocket: 2,
     price: 500000,
     flags: "Fling_30",
     description: "Points that you earn in dungeons.",
     sprite: "/Items/DUNGEONPOINT.png",
-    suffix: "absolution",
+    suffix: "absolution"
   },
   {
     id: "DUNGEONKEY",
     name: "Dungeon Key",
     namePlural: "Dungeon Keys",
-    pocket: 10,
+    pocket: 2,
     price: 500000,
     flags: "Fling_30",
     description: "A key to enter into a Dungeon.",
     sprite: "/Items/DUNGEONKEY.png",
-    suffix: "absolution",
+    suffix: "absolution"
   },
-];
+  {
+    id: "KATANA",
+    name: "Katana",
+    namePlural: "Katanas",
+    pocket: 1,
+    price: 10000,
+    flags: "Fling_30",
+    description: "Cutting moves have a higher critical chance.",
+    sprite: "/Items/KATANA.png",
+    suffix: "absolution"
+  },
+  {
+    id: "BLADEOFCHAOS",
+    name: "Blade Of Chaos",
+    namePlural: "Blades Of Chaos",
+    pocket: 1,
+    price: 10000,
+    flags: "Fling_30",
+    description: "After using a status move, the next damaging move ensures a critical hit.",
+    sprite: "/Items/BLADEOFCHAOS.png",
+    suffix: "absolution"
+  },
+  {
+    id: "KISERU",
+    name: "kiseru",
+    namePlural: "kiserus",
+    pocket: 1,
+    price: 10000,
+    flags: "Fling_30",
+    description: "Raises Accuracy sharply when a Pokémon misses with a move because of accuracy.",
+    sprite: "/Items/KISERU.png",
+    suffix: "absolution"
+  },
+  {
+    id: "MAGICWAND",
+    name: "Magic Wand",
+    namePlural: "Magic Wands",
+    pocket: 1,
+    price: 10000,
+    flags: "Fling_30",
+    description: "Increases the damage of magic moves. The user gains a 5% increase in extra effect chance at the end of each turn.",
+    sprite: "/Items/MAGICWAND.png",
+    suffix: "absolution"
+  }
+]

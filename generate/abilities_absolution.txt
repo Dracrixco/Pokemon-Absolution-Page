@@ -55,3 +55,7 @@ Description = Powers up the user's slicing and cutting moves while Rain is activ
 [MAGICALSTART]
 Name = Magical Start
 Description = The user starts with proto shield and 50% increase in extra effect chance.
+#-------------------------------
+[LOVEANDPEACE]
+Name = Love And Peace
+Description = When the use HP becomes half or less, the user reduces a lot the attack of the opponents.

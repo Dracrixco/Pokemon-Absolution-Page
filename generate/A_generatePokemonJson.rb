@@ -10,26 +10,20 @@ NOT_ABLE_TO_SHOW_FAKEMONS = [
   "ZIZZENIT",
   "LEVIATITAN",
   "FATALTTY",
-  "BONEVEIL",
-  "CONDEMNA",
-  "WOOBACOON",
-  "WEAMOTH",
+  "BONEVEIL","CONDEMNA",
+  "WOOBACOON","WEAMOTH",
   "WOOFIGHTER",
   "GUMSTTER",
   "TWYLICAN",
   "CRYOCROWN",
   "KINGDER",
   "TWINCESS",
-  "BUSHIERA",
-  "WEREWOODS",
-  "DOLORN",
-  "MALICEAR",
-  "ABANDOLED",
-  "FLOVERN",
-  "WYWERDEN",
-  "MABBIT",
-  "BUNLUCK",
-  "FORTUNELLE",
+  "BUSHIERA","WEREWOODS",
+  "DOLORN","MALICEAR","ABANDOLED",
+  "FLOVERN","WYWERDEN",
+  "MABBIT","BUNLUCK","FORTUNELLE",
+  "OTTRICK","LUTRION","MAJOTTER",
+  "DOLOVE","SERENOVE"
 ]
 def parse_fakemons(lines, suffix)
   fakemons = []
@@ -121,7 +115,7 @@ def parse_fakemons(lines, suffix)
 
   # Validation to skip certain fakemons
   fakemons << current if current
-  fakemons.reject! { |fakemon| NOT_ABLE_TO_SHOW_FAKEMONS.include?(fakemon[:id]) }
+  # fakemons.reject! { |fakemon| NOT_ABLE_TO_SHOW_FAKEMONS.include?(fakemon[:id]) }
   fakemons
 end
 

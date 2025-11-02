@@ -123,3 +123,10 @@ BaseMoney = 60
 Name = Pokémon Trainer
 Gender = Female
 BaseMoney = 60
+#-------------------------------
+[SPECIAL_TRAINER_MOKY]
+Name = Cowgirl
+Gender = Female
+BaseMoney = 60
+SkillLevel = 200
+BattleBGM = Megaman X4 - Split Mushroom Stage

@@ -1,6 +1,7 @@
 import type { Item } from "@/types/item";
 
-export const items: Item[] = [
+export const items: Item[] = 
+[
   {
     id: "REPEL",
     name: "Repel",
@@ -8,10 +9,9 @@ export const items: Item[] = [
     pocket: 1,
     price: 400,
     flags: "Repel,Fling_30",
-    description:
-      "An item that prevents weak wild Pokémon from appearing for 100 steps after its use.",
+    description: "An item that prevents weak wild Pokémon from appearing for 100 steps after its use.",
     sprite: "/Items/REPEL.png",
-    suffix: "normal",
+    suffix: "normal"
   },
   {
     id: "SUPERREPEL",
@@ -20,10 +20,9 @@ export const items: Item[] = [
     pocket: 1,
     price: 700,
     flags: "Repel,Fling_30",
-    description:
-      "An item that prevents weak wild Pokémon from appearing for 200 steps after its use.",
+    description: "An item that prevents weak wild Pokémon from appearing for 200 steps after its use.",
     sprite: "/Items/SUPERREPEL.png",
-    suffix: "normal",
+    suffix: "normal"
   },
   {
     id: "MAXREPEL",
@@ -32,10 +31,9 @@ export const items: Item[] = [
     pocket: 1,
     price: 900,
     flags: "Repel,Fling_30",
-    description:
-      "An item that prevents weak wild Pokémon from appearing for 250 steps after its use.",
+    description: "An item that prevents weak wild Pokémon from appearing for 250 steps after its use.",
     sprite: "/Items/MAXREPEL.png",
-    suffix: "normal",
+    suffix: "normal"
   },
   {
     id: "BLACKFLUTE",
@@ -44,10 +42,9 @@ export const items: Item[] = [
     pocket: 1,
     price: 20,
     flags: "Fling_30",
-    description:
-      "A black flute made from blown glass. Its melody makes wild Pokémon less likely to appear.",
+    description: "A black flute made from blown glass. Its melody makes wild Pokémon less likely to appear.",
     sprite: "/Items/BLACKFLUTE.png",
-    suffix: "normal",
+    suffix: "normal"
   },
   {
     id: "WHITEFLUTE",
@@ -56,10 +53,9 @@ export const items: Item[] = [
     pocket: 1,
     price: 20,
     flags: "Fling_30",
-    description:
-      "A white flute made from blown glass. Its melody makes wild Pokémon more likely to appear.",
+    description: "A white flute made from blown glass. Its melody makes wild Pokémon more likely to appear.",
     sprite: "/Items/WHITEFLUTE.png",
-    suffix: "normal",
+    suffix: "normal"
   },
   {
     id: "HONEY",
@@ -68,10 +64,9 @@ export const items: Item[] = [
     pocket: 1,
     price: 900,
     flags: "Fling_30",
-    description:
-      "A sweet honey with a lush aroma that attracts wild Pokémon when used in tall grass, in caves, or elsewhere.",
+    description: "A sweet honey with a lush aroma that attracts wild Pokémon when used in tall grass, in caves, or elsewhere.",
     sprite: "/Items/HONEY.png",
-    suffix: "normal",
+    suffix: "normal"
   },
   {
     id: "REDSHARD",
@@ -80,10 +75,9 @@ export const items: Item[] = [
     pocket: 9,
     price: 1000,
     flags: "Fling_30",
-    description:
-      "A small red shard. It appears to be from some sort of implement made long ago.",
+    description: "A small red shard. It appears to be from some sort of implement made long ago.",
     sprite: "/Items/REDSHARD.png",
-    suffix: "normal",
+    suffix: "normal"
   },
   {
     id: "YELLOWSHARD",
@@ -92,10 +86,9 @@ export const items: Item[] = [
     pocket: 9,
     price: 1000,
     flags: "Fling_30",
-    description:
-      "A small yellow shard. It appears to be from some sort of implement made long ago.",
+    description: "A small yellow shard. It appears to be from some sort of implement made long ago.",
     sprite: "/Items/YELLOWSHARD.png",
-    suffix: "normal",
+    suffix: "normal"
   },
   {
     id: "BLUESHARD",
@@ -104,10 +97,9 @@ export const items: Item[] = [
     pocket: 9,
     price: 1000,
     flags: "Fling_30",
-    description:
-      "A small blue shard. It appears to be from some sort of implement made long ago.",
+    description: "A small blue shard. It appears to be from some sort of implement made long ago.",
     sprite: "/Items/BLUESHARD.png",
-    suffix: "normal",
+    suffix: "normal"
   },
   {
     id: "GREENSHARD",
@@ -116,10 +108,9 @@ export const items: Item[] = [
     pocket: 9,
     price: 1000,
     flags: "Fling_30",
-    description:
-      "A small green shard. It appears to be from some sort of implement made long ago.",
+    description: "A small green shard. It appears to be from some sort of implement made long ago.",
     sprite: "/Items/GREENSHARD.png",
-    suffix: "normal",
+    suffix: "normal"
   },
   {
     id: "FIRESTONE",
@@ -128,10 +119,9 @@ export const items: Item[] = [
     pocket: 1,
     price: 3000,
     flags: "EvolutionStone,Fling_30",
-    description:
-      "A peculiar stone that makes certain species of Pokémon evolve. It is colored orange.",
+    description: "A peculiar stone that makes certain species of Pokémon evolve. It is colored orange.",
     sprite: "/Items/FIRESTONE.png",
-    suffix: "normal",
+    suffix: "normal"
   },
   {
     id: "THUNDERSTONE",
@@ -140,10 +130,9 @@ export const items: Item[] = [
     pocket: 1,
     price: 3000,
     flags: "EvolutionStone,Fling_30",
-    description:
-      "A peculiar stone that makes certain species of Pokémon evolve. It has a thunderbolt pattern.",
+    description: "A peculiar stone that makes certain species of Pokémon evolve. It has a thunderbolt pattern.",
     sprite: "/Items/THUNDERSTONE.png",
-    suffix: "normal",
+    suffix: "normal"
   },
   {
     id: "WATERSTONE",
@@ -152,10 +141,9 @@ export const items: Item[] = [
     pocket: 1,
     price: 3000,
     flags: "EvolutionStone,Fling_30",
-    description:
-      "A peculiar stone that makes certain species of Pokémon evolve. It is a clear, light blue.",
+    description: "A peculiar stone that makes certain species of Pokémon evolve. It is a clear, light blue.",
     sprite: "/Items/WATERSTONE.png",
-    suffix: "normal",
+    suffix: "normal"
   },
   {
     id: "LEAFSTONE",
@@ -164,10 +152,9 @@ export const items: Item[] = [
     pocket: 1,
     price: 3000,
     flags: "EvolutionStone,Fling_30",
-    description:
-      "A peculiar stone that makes certain species of Pokémon evolve. It has a leaf pattern.",
+    description: "A peculiar stone that makes certain species of Pokémon evolve. It has a leaf pattern.",
     sprite: "/Items/LEAFSTONE.png",
-    suffix: "normal",
+    suffix: "normal"
   },
   {
     id: "MOONSTONE",
@@ -176,10 +163,9 @@ export const items: Item[] = [
     pocket: 1,
     price: 3000,
     flags: "EvolutionStone,Fling_30",
-    description:
-      "A peculiar stone that makes certain species of Pokémon evolve. It is as black as the night sky.",
+    description: "A peculiar stone that makes certain species of Pokémon evolve. It is as black as the night sky.",
     sprite: "/Items/MOONSTONE.png",
-    suffix: "normal",
+    suffix: "normal"
   },
   {
     id: "SUNSTONE",
@@ -188,10 +174,9 @@ export const items: Item[] = [
     pocket: 1,
     price: 3000,
     flags: "EvolutionStone,Fling_30",
-    description:
-      "A peculiar stone that makes certain species of Pokémon evolve. It is as red as the sun.",
+    description: "A peculiar stone that makes certain species of Pokémon evolve. It is as red as the sun.",
     sprite: "/Items/SUNSTONE.png",
-    suffix: "normal",
+    suffix: "normal"
   },
   {
     id: "DUSKSTONE",
@@ -200,10 +185,9 @@ export const items: Item[] = [
     pocket: 1,
     price: 3000,
     flags: "EvolutionStone,Fling_80",
-    description:
-      "A peculiar stone that makes certain species of Pokémon evolve. It is as dark as dark can be.",
+    description: "A peculiar stone that makes certain species of Pokémon evolve. It is as dark as dark can be.",
     sprite: "/Items/DUSKSTONE.png",
-    suffix: "normal",
+    suffix: "normal"
   },
   {
     id: "DAWNSTONE",
@@ -212,10 +196,9 @@ export const items: Item[] = [
     pocket: 1,
     price: 3000,
     flags: "EvolutionStone,Fling_80",
-    description:
-      "A peculiar stone that makes certain species of Pokémon evolve. It sparkles like eyes.",
+    description: "A peculiar stone that makes certain species of Pokémon evolve. It sparkles like eyes.",
     sprite: "/Items/DAWNSTONE.png",
-    suffix: "normal",
+    suffix: "normal"
   },
   {
     id: "SHINYSTONE",
@@ -224,10 +207,9 @@ export const items: Item[] = [
     pocket: 1,
     price: 3000,
     flags: "EvolutionStone,Fling_80",
-    description:
-      "A peculiar stone that makes certain species of Pokémon evolve. It shines with a dazzling light.",
+    description: "A peculiar stone that makes certain species of Pokémon evolve. It shines with a dazzling light.",
     sprite: "/Items/SHINYSTONE.png",
-    suffix: "normal",
+    suffix: "normal"
   },
   {
     id: "ICESTONE",
@@ -236,10 +218,9 @@ export const items: Item[] = [
     pocket: 1,
     price: 3000,
     flags: "EvolutionStone,Fling_30",
-    description:
-      "A peculiar stone that makes certain species of Pokémon evolve. It has a snowflake pattern.",
+    description: "A peculiar stone that makes certain species of Pokémon evolve. It has a snowflake pattern.",
     sprite: "/Items/ICESTONE.png",
-    suffix: "normal",
+    suffix: "normal"
   },
   {
     id: "SWEETAPPLE",
@@ -248,10 +229,9 @@ export const items: Item[] = [
     pocket: 1,
     price: 2200,
     flags: "EvolutionStone,Fling_30",
-    description:
-      "A peculiar apple that can make a certain species of Pokémon evolve. It's exceptionally sweet.",
+    description: "A peculiar apple that can make a certain species of Pokémon evolve. It's exceptionally sweet.",
     sprite: "/Items/SWEETAPPLE.png",
-    suffix: "normal",
+    suffix: "normal"
   },
   {
     id: "TARTAPPLE",
@@ -260,10 +240,9 @@ export const items: Item[] = [
     pocket: 1,
     price: 2200,
     flags: "EvolutionStone,Fling_30",
-    description:
-      "A peculiar apple that can make a certain species of Pokémon evolve. It's exceptionally tart.",
+    description: "A peculiar apple that can make a certain species of Pokémon evolve. It's exceptionally tart.",
     sprite: "/Items/TARTAPPLE.png",
-    suffix: "normal",
+    suffix: "normal"
   },
   {
     id: "CRACKEDPOT",
@@ -272,10 +251,9 @@ export const items: Item[] = [
     pocket: 1,
     price: 3000,
     flags: "EvolutionStone,Fling_80",
-    description:
-      "A peculiar cracked teapot that can make a certain species of Pokémon evolve. It makes delicious tea.",
+    description: "A peculiar cracked teapot that can make a certain species of Pokémon evolve. It makes delicious tea.",
     sprite: "/Items/CRACKEDPOT.png",
-    suffix: "normal",
+    suffix: "normal"
   },
   {
     id: "CHIPPEDPOT",
@@ -284,10 +262,9 @@ export const items: Item[] = [
     pocket: 1,
     price: 3000,
     flags: "EvolutionStone,Fling_80",
-    description:
-      "A peculiar chipped teapot that can make a certain species of Pokémon evolve. It makes delicious tea.",
+    description: "A peculiar chipped teapot that can make a certain species of Pokémon evolve. It makes delicious tea.",
     sprite: "/Items/CHIPPEDPOT.png",
-    suffix: "normal",
+    suffix: "normal"
   },
   {
     id: "GALARICACUFF",
@@ -296,10 +273,9 @@ export const items: Item[] = [
     pocket: 1,
     price: 6000,
     flags: "EvolutionStone,Fling_30",
-    description:
-      "A cuff made from woven-together Galarica Twigs. Giving it to a Galarian Slowpoke would make it very happy.",
+    description: "A cuff made from woven-together Galarica Twigs. Giving it to a Galarian Slowpoke would make it very happy.",
     sprite: "/Items/GALARICACUFF.png",
-    suffix: "normal",
+    suffix: "normal"
   },
   {
     id: "GALARICAWREATH",
@@ -308,10 +284,9 @@ export const items: Item[] = [
     pocket: 1,
     price: 6000,
     flags: "EvolutionStone,Fling_30",
-    description:
-      "A wreath made from woven-together Galarica Twigs. A Galarian Slowpoke wearing this would be very happy.",
+    description: "A wreath made from woven-together Galarica Twigs. A Galarian Slowpoke wearing this would be very happy.",
     sprite: "/Items/GALARICAWREATH.png",
-    suffix: "normal",
+    suffix: "normal"
   },
   {
     id: "BLACKAUGURITE",
@@ -320,10 +295,9 @@ export const items: Item[] = [
     pocket: 1,
     price: 8000,
     flags: "EvolutionStone,Fling_80",
-    description:
-      "A glassy black stone that produces a sharp cutting edge when split. It's loved by a certain Pokémon.",
+    description: "A glassy black stone that produces a sharp cutting edge when split. It's loved by a certain Pokémon.",
     sprite: "/Items/BLACKAUGURITE.png",
-    suffix: "normal",
+    suffix: "normal"
   },
   {
     id: "PEATBLOCK",
@@ -332,10 +306,9 @@ export const items: Item[] = [
     pocket: 1,
     price: 10000,
     flags: "EvolutionStone,Fling_60",
-    description:
-      "A block of muddy material that can be used as fuel when it is dried. It's loved by a certain Pokémon.",
+    description: "A block of muddy material that can be used as fuel when it is dried. It's loved by a certain Pokémon.",
     sprite: "/Items/PEATBLOCK.png",
-    suffix: "normal",
+    suffix: "normal"
   },
   {
     id: "SYRUPYAPPLE",
@@ -344,10 +317,9 @@ export const items: Item[] = [
     pocket: 1,
     price: 500,
     flags: "EvolutionStone,Fling_30",
-    description:
-      "A peculiar apple that can make a certain species of Pokémon evolve. It's exceptionally syrupy.",
+    description: "A peculiar apple that can make a certain species of Pokémon evolve. It's exceptionally syrupy.",
     sprite: "/Items/SYRUPYAPPLE.png",
-    suffix: "normal",
+    suffix: "normal"
   },
   {
     id: "UNREMARKABLETEACUP",
@@ -356,10 +328,9 @@ export const items: Item[] = [
     pocket: 1,
     price: 1600,
     flags: "EvolutionStone,Fling_80",
-    description:
-      "A peculiar cracked teacup that can make a certain species of Pokémon evolve.",
+    description: "A peculiar cracked teacup that can make a certain species of Pokémon evolve.",
     sprite: "/Items/UNREMARKABLETEACUP.png",
-    suffix: "normal",
+    suffix: "normal"
   },
   {
     id: "MASTERPIECETEACUP",
@@ -368,10 +339,9 @@ export const items: Item[] = [
     pocket: 1,
     price: 38000,
     flags: "EvolutionStone,Fling_80",
-    description:
-      "A peculiar chipped teacup that can make a certain species of Pokémon evolve.",
+    description: "A peculiar chipped teacup that can make a certain species of Pokémon evolve.",
     sprite: "/Items/MASTERPIECETEACUP.png",
-    suffix: "normal",
+    suffix: "normal"
   },
   {
     id: "METALALLOY",
@@ -380,10 +350,9 @@ export const items: Item[] = [
     pocket: 1,
     price: 6000,
     flags: "EvolutionStone,Fling_80",
-    description:
-      "A peculiar metal that can make certain species of Pokémon evolve. It is composed of many layers.",
+    description: "A peculiar metal that can make certain species of Pokémon evolve. It is composed of many layers.",
     sprite: "/Items/METALALLOY.png",
-    suffix: "normal",
+    suffix: "normal"
   },
   {
     id: "MALICIOUSARMOR",
@@ -392,10 +361,9 @@ export const items: Item[] = [
     pocket: 1,
     price: 3000,
     flags: "EvolutionStone,Fling_30",
-    description:
-      "A peculiar set of armor that can make a certain species of Pokémon evolve. Malicious will lurks within it.",
+    description: "A peculiar set of armor that can make a certain species of Pokémon evolve. Malicious will lurks within it.",
     sprite: "/Items/MALICIOUSARMOR.png",
-    suffix: "normal",
+    suffix: "normal"
   },
   {
     id: "AUSPICIOUSARMOR",
@@ -404,10 +372,9 @@ export const items: Item[] = [
     pocket: 1,
     price: 3000,
     flags: "EvolutionStone,Fling_30",
-    description:
-      "A peculiar set of armor that can make a certain species of Pokémon evolve. Auspicious wishes live within it.",
+    description: "A peculiar set of armor that can make a certain species of Pokémon evolve. Auspicious wishes live within it.",
     sprite: "/Items/AUSPICIOUSARMOR.png",
-    suffix: "normal",
+    suffix: "normal"
   },
   {
     id: "REDAPRICORN",
@@ -418,7 +385,7 @@ export const items: Item[] = [
     flags: "Apricorn",
     description: "A red Apricorn. It assails your nostrils.",
     sprite: "/Items/REDAPRICORN.png",
-    suffix: "normal",
+    suffix: "normal"
   },
   {
     id: "YELLOWAPRICORN",
@@ -429,7 +396,7 @@ export const items: Item[] = [
     flags: "Apricorn",
     description: "A yellow Apricorn. It has an invigorating scent.",
     sprite: "/Items/YELLOWAPRICORN.png",
-    suffix: "normal",
+    suffix: "normal"
   },
   {
     id: "BLUEAPRICORN",
@@ -440,7 +407,7 @@ export const items: Item[] = [
     flags: "Apricorn",
     description: "A blue Apricorn. It smells a bit like grass.",
     sprite: "/Items/BLUEAPRICORN.png",
-    suffix: "normal",
+    suffix: "normal"
   },
   {
     id: "GREENAPRICORN",
@@ -451,7 +418,7 @@ export const items: Item[] = [
     flags: "Apricorn",
     description: "A green Apricorn. It has a mysterious, aromatic scent.",
     sprite: "/Items/GREENAPRICORN.png",
-    suffix: "normal",
+    suffix: "normal"
   },
   {
     id: "PINKAPRICORN",
@@ -462,7 +429,7 @@ export const items: Item[] = [
     flags: "Apricorn",
     description: "A pink Apricorn. It has a nice, sweet scent.",
     sprite: "/Items/PINKAPRICORN.png",
-    suffix: "normal",
+    suffix: "normal"
   },
   {
     id: "WHITEAPRICORN",
@@ -473,7 +440,7 @@ export const items: Item[] = [
     flags: "Apricorn",
     description: "A white Apricorn. It doesn't smell like anything.",
     sprite: "/Items/WHITEAPRICORN.png",
-    suffix: "normal",
+    suffix: "normal"
   },
   {
     id: "BLACKAPRICORN",
@@ -484,7 +451,7 @@ export const items: Item[] = [
     flags: "Apricorn",
     description: "A black Apricorn. It has an indescribable scent.",
     sprite: "/Items/BLACKAPRICORN.png",
-    suffix: "normal",
+    suffix: "normal"
   },
   {
     id: "HELIXFOSSIL",
@@ -493,10 +460,9 @@ export const items: Item[] = [
     pocket: 1,
     price: 7000,
     flags: "Fossil,Fling_100",
-    description:
-      "A fossil of an ancient Pokémon that lived in the sea. It appears to be part of a seashell.",
+    description: "A fossil of an ancient Pokémon that lived in the sea. It appears to be part of a seashell.",
     sprite: "/Items/HELIXFOSSIL.png",
-    suffix: "normal",
+    suffix: "normal"
   },
   {
     id: "DOMEFOSSIL",
@@ -505,10 +471,9 @@ export const items: Item[] = [
     pocket: 1,
     price: 7000,
     flags: "Fossil,Fling_100",
-    description:
-      "A fossil of an ancient Pokémon that lived in the sea. It appears to be part of a shell.",
+    description: "A fossil of an ancient Pokémon that lived in the sea. It appears to be part of a shell.",
     sprite: "/Items/DOMEFOSSIL.png",
-    suffix: "normal",
+    suffix: "normal"
   },
   {
     id: "OLDAMBER",
@@ -517,10 +482,9 @@ export const items: Item[] = [
     pocket: 1,
     price: 1000,
     flags: "Fossil,Fling_100",
-    description:
-      "A piece of amber that contains the genes of an ancient Pokémon. It is clear with a reddish tint.",
+    description: "A piece of amber that contains the genes of an ancient Pokémon. It is clear with a reddish tint.",
     sprite: "/Items/OLDAMBER.png",
-    suffix: "normal",
+    suffix: "normal"
   },
   {
     id: "ROOTFOSSIL",
@@ -529,10 +493,9 @@ export const items: Item[] = [
     pocket: 1,
     price: 7000,
     flags: "Fossil,Fling_100",
-    description:
-      "A fossil of an ancient Pokémon that lived in the sea. It appears to be part of a plant root.",
+    description: "A fossil of an ancient Pokémon that lived in the sea. It appears to be part of a plant root.",
     sprite: "/Items/ROOTFOSSIL.png",
-    suffix: "normal",
+    suffix: "normal"
   },
   {
     id: "CLAWFOSSIL",
@@ -541,10 +504,9 @@ export const items: Item[] = [
     pocket: 1,
     price: 7000,
     flags: "Fossil,Fling_100",
-    description:
-      "A fossil of an ancient Pokémon that lived in the sea. It appears to be part of a claw.",
+    description: "A fossil of an ancient Pokémon that lived in the sea. It appears to be part of a claw.",
     sprite: "/Items/CLAWFOSSIL.png",
-    suffix: "normal",
+    suffix: "normal"
   },
   {
     id: "SKULLFOSSIL",
@@ -553,10 +515,9 @@ export const items: Item[] = [
     pocket: 1,
     price: 7000,
     flags: "Fossil,Fling_100",
-    description:
-      "A fossil from a prehistoric Pokémon that lived on the land. It appears to be part of a head.",
+    description: "A fossil from a prehistoric Pokémon that lived on the land. It appears to be part of a head.",
     sprite: "/Items/SKULLFOSSIL.png",
-    suffix: "normal",
+    suffix: "normal"
   },
   {
     id: "ARMORFOSSIL",
@@ -565,10 +526,9 @@ export const items: Item[] = [
     pocket: 1,
     price: 7000,
     flags: "Fossil,Fling_100",
-    description:
-      "A fossil from a prehistoric Pokémon that lived on the land. It appears to be part of a collar.",
+    description: "A fossil from a prehistoric Pokémon that lived on the land. It appears to be part of a collar.",
     sprite: "/Items/ARMORFOSSIL.png",
-    suffix: "normal",
+    suffix: "normal"
   },
   {
     id: "COVERFOSSIL",
@@ -577,10 +537,9 @@ export const items: Item[] = [
     pocket: 1,
     price: 7000,
     flags: "Fossil,Fling_100",
-    description:
-      "A fossil of an ancient Pokémon that lived in the sea in ancient times. It appears to be part of its back.",
+    description: "A fossil of an ancient Pokémon that lived in the sea in ancient times. It appears to be part of its back.",
     sprite: "/Items/COVERFOSSIL.png",
-    suffix: "normal",
+    suffix: "normal"
   },
   {
     id: "PLUMEFOSSIL",
@@ -589,10 +548,9 @@ export const items: Item[] = [
     pocket: 1,
     price: 7000,
     flags: "Fossil,Fling_100",
-    description:
-      "A fossil of an ancient Pokémon that flew in the sky in ancient times. It appears to be part of its wing.",
+    description: "A fossil of an ancient Pokémon that flew in the sky in ancient times. It appears to be part of its wing.",
     sprite: "/Items/PLUMEFOSSIL.png",
-    suffix: "normal",
+    suffix: "normal"
   },
   {
     id: "JAWFOSSIL",
@@ -601,10 +559,9 @@ export const items: Item[] = [
     pocket: 1,
     price: 7000,
     flags: "Fossil,Fling_100",
-    description:
-      "A fossil from a prehistoric Pokémon that once lived on the land. It appears to be part of a large jaw.",
+    description: "A fossil from a prehistoric Pokémon that once lived on the land. It appears to be part of a large jaw.",
     sprite: "/Items/JAWFOSSIL.png",
-    suffix: "normal",
+    suffix: "normal"
   },
   {
     id: "SAILFOSSIL",
@@ -613,10 +570,9 @@ export const items: Item[] = [
     pocket: 1,
     price: 7000,
     flags: "Fossil,Fling_100",
-    description:
-      "A fossil from a prehistoric Pokémon that once lived on the land. It looks like the impression from a skin sail.",
+    description: "A fossil from a prehistoric Pokémon that once lived on the land. It looks like the impression from a skin sail.",
     sprite: "/Items/SAILFOSSIL.png",
-    suffix: "normal",
+    suffix: "normal"
   },
   {
     id: "FOSSILIZEDBIRD",
@@ -625,10 +581,9 @@ export const items: Item[] = [
     pocket: 1,
     price: 5000,
     flags: "Fling_100",
-    description:
-      "The fossil of an ancient Pokémon that once soared through the sky. What it looked like is a mystery.",
+    description: "The fossil of an ancient Pokémon that once soared through the sky. What it looked like is a mystery.",
     sprite: "/Items/FOSSILIZEDBIRD.png",
-    suffix: "normal",
+    suffix: "normal"
   },
   {
     id: "FOSSILIZEDFISH",
@@ -637,10 +592,9 @@ export const items: Item[] = [
     pocket: 1,
     price: 5000,
     flags: "Fling_100",
-    description:
-      "The fossil of an ancient Pokémon that once lived in the sea. What it looked like is a mystery.",
+    description: "The fossil of an ancient Pokémon that once lived in the sea. What it looked like is a mystery.",
     sprite: "/Items/FOSSILIZEDFISH.png",
-    suffix: "normal",
+    suffix: "normal"
   },
   {
     id: "FOSSILIZEDDRAKE",
@@ -649,10 +603,9 @@ export const items: Item[] = [
     pocket: 1,
     price: 5000,
     flags: "Fling_100",
-    description:
-      "The fossil of an ancient Pokémon that once roamed the land. What it looked like is a mystery.",
+    description: "The fossil of an ancient Pokémon that once roamed the land. What it looked like is a mystery.",
     sprite: "/Items/FOSSILIZEDDRAKE.png",
-    suffix: "normal",
+    suffix: "normal"
   },
   {
     id: "FOSSILIZEDDINO",
@@ -661,10 +614,9 @@ export const items: Item[] = [
     pocket: 1,
     price: 5000,
     flags: "Fling_100",
-    description:
-      "The fossil of an ancient Pokémon that once lived in the sea. What it looked like is a mystery.",
+    description: "The fossil of an ancient Pokémon that once lived in the sea. What it looked like is a mystery.",
     sprite: "/Items/FOSSILIZEDDINO.png",
-    suffix: "normal",
+    suffix: "normal"
   },
   {
     id: "PRETTYFEATHER",
@@ -673,10 +625,9 @@ export const items: Item[] = [
     pocket: 1,
     price: 1000,
     flags: "Fling_20",
-    description:
-      "Though this feather is beautiful, it's just a regular feather and has no effect on Pokémon.",
+    description: "Though this feather is beautiful, it's just a regular feather and has no effect on Pokémon.",
     sprite: "/Items/PRETTYFEATHER.png",
-    suffix: "normal",
+    suffix: "normal"
   },
   {
     id: "TINYMUSHROOM",
@@ -687,7 +638,7 @@ export const items: Item[] = [
     flags: "Fling_30",
     description: "A small and rare mushroom. It is sought after by collectors.",
     sprite: "/Items/TINYMUSHROOM.png",
-    suffix: "normal",
+    suffix: "normal"
   },
   {
     id: "BIGMUSHROOM",
@@ -698,7 +649,7 @@ export const items: Item[] = [
     flags: "Fling_30",
     description: "A large and rare mushroom. It is sought after by collectors.",
     sprite: "/Items/BIGMUSHROOM.png",
-    suffix: "normal",
+    suffix: "normal"
   },
   {
     id: "BALMMUSHROOM",
@@ -707,10 +658,9 @@ export const items: Item[] = [
     pocket: 1,
     price: 15000,
     flags: "Fling_30",
-    description:
-      "A rare mushroom which gives off a nice fragrance. A maniac will buy it for a high price.",
+    description: "A rare mushroom which gives off a nice fragrance. A maniac will buy it for a high price.",
     sprite: "/Items/BALMMUSHROOM.png",
-    suffix: "normal",
+    suffix: "normal"
   },
   {
     id: "PEARL",
@@ -719,10 +669,9 @@ export const items: Item[] = [
     pocket: 1,
     price: 2000,
     flags: "Fling_30",
-    description:
-      "A somewhat-small pearl that sparkles in a pretty silver color. It can be sold cheaply to shops.",
+    description: "A somewhat-small pearl that sparkles in a pretty silver color. It can be sold cheaply to shops.",
     sprite: "/Items/PEARL.png",
-    suffix: "normal",
+    suffix: "normal"
   },
   {
     id: "BIGPEARL",
@@ -731,10 +680,9 @@ export const items: Item[] = [
     pocket: 1,
     price: 8000,
     flags: "Fling_30",
-    description:
-      "A quite-large pearl that sparkles in a pretty silver color. It can be sold at a high price to shops.",
+    description: "A quite-large pearl that sparkles in a pretty silver color. It can be sold at a high price to shops.",
     sprite: "/Items/BIGPEARL.png",
-    suffix: "normal",
+    suffix: "normal"
   },
   {
     id: "PEARLSTRING",
@@ -743,10 +691,9 @@ export const items: Item[] = [
     pocket: 1,
     price: 20000,
     flags: "Fling_30",
-    description:
-      "Very large pearls that sparkle in a pretty silver color. A maniac will buy them for a high price.",
+    description: "Very large pearls that sparkle in a pretty silver color. A maniac will buy them for a high price.",
     sprite: "/Items/PEARLSTRING.png",
-    suffix: "normal",
+    suffix: "normal"
   },
   {
     id: "STARDUST",
@@ -755,10 +702,9 @@ export const items: Item[] = [
     pocket: 1,
     price: 3000,
     flags: "Fling_30",
-    description:
-      "Lovely, red-colored sand with a loose, silky feel. It can be sold at a high price to shops.",
+    description: "Lovely, red-colored sand with a loose, silky feel. It can be sold at a high price to shops.",
     sprite: "/Items/STARDUST.png",
-    suffix: "normal",
+    suffix: "normal"
   },
   {
     id: "STARPIECE",
@@ -767,10 +713,9 @@ export const items: Item[] = [
     pocket: 1,
     price: 12000,
     flags: "Fling_30",
-    description:
-      "A shard of a pretty gem that sparkles in a red color. It can be sold at a high price to shops.",
+    description: "A shard of a pretty gem that sparkles in a red color. It can be sold at a high price to shops.",
     sprite: "/Items/STARPIECE.png",
-    suffix: "normal",
+    suffix: "normal"
   },
   {
     id: "COMETSHARD",
@@ -779,10 +724,9 @@ export const items: Item[] = [
     pocket: 1,
     price: 25000,
     flags: "Fling_30",
-    description:
-      "A shard which fell to the ground when a comet approached. A maniac will buy it for a high price.",
+    description: "A shard which fell to the ground when a comet approached. A maniac will buy it for a high price.",
     sprite: "/Items/COMETSHARD.png",
-    suffix: "normal",
+    suffix: "normal"
   },
   {
     id: "NUGGET",
@@ -791,10 +735,9 @@ export const items: Item[] = [
     pocket: 1,
     price: 10000,
     flags: "Fling_30",
-    description:
-      "A nugget of pure gold that gives off a lustrous gleam. It can be sold at a high price to shops.",
+    description: "A nugget of pure gold that gives off a lustrous gleam. It can be sold at a high price to shops.",
     sprite: "/Items/NUGGET.png",
-    suffix: "normal",
+    suffix: "normal"
   },
   {
     id: "BIGNUGGET",
@@ -803,10 +746,9 @@ export const items: Item[] = [
     pocket: 1,
     price: 40000,
     flags: "Fling_130",
-    description:
-      "A big nugget of pure gold that gives off a lustrous gleam. A maniac will buy it for a high price.",
+    description: "A big nugget of pure gold that gives off a lustrous gleam. A maniac will buy it for a high price.",
     sprite: "/Items/BIGNUGGET.png",
-    suffix: "normal",
+    suffix: "normal"
   },
   {
     id: "HEARTSCALE",
@@ -815,10 +757,9 @@ export const items: Item[] = [
     pocket: 1,
     price: 100,
     flags: "Fling_30",
-    description:
-      "A pretty, heart-shaped scale that is extremely rare. It glows faintly in the colors of the rainbow.",
+    description: "A pretty, heart-shaped scale that is extremely rare. It glows faintly in the colors of the rainbow.",
     sprite: "/Items/HEARTSCALE.png",
-    suffix: "normal",
+    suffix: "normal"
   },
   {
     id: "SLOWPOKETAIL",
@@ -827,10 +768,9 @@ export const items: Item[] = [
     pocket: 1,
     price: 10000,
     flags: "",
-    description:
-      "A very tasty tail of something. It can be sold at a high price to shops.",
+    description: "A very tasty tail of something. It can be sold at a high price to shops.",
     sprite: "/Items/SLOWPOKETAIL.png",
-    suffix: "normal",
+    suffix: "normal"
   },
   {
     id: "RAREBONE",
@@ -839,10 +779,9 @@ export const items: Item[] = [
     pocket: 1,
     price: 5000,
     flags: "Fling_100",
-    description:
-      "A bone that is extremely valuable for Pokémon archaeology. It can be sold for a high price to shops.",
+    description: "A bone that is extremely valuable for Pokémon archaeology. It can be sold for a high price to shops.",
     sprite: "/Items/RAREBONE.png",
-    suffix: "normal",
+    suffix: "normal"
   },
   {
     id: "RELICCOPPER",
@@ -851,10 +790,9 @@ export const items: Item[] = [
     pocket: 1,
     price: 0,
     flags: "Fling_30",
-    description:
-      "A copper coin used in a civilization about 3,000 years ago. A maniac will buy it for a high price.",
+    description: "A copper coin used in a civilization about 3,000 years ago. A maniac will buy it for a high price.",
     sprite: "/Items/RELICCOPPER.png",
-    suffix: "normal",
+    suffix: "normal"
   },
   {
     id: "RELICSILVER",
@@ -863,10 +801,9 @@ export const items: Item[] = [
     pocket: 1,
     price: 0,
     flags: "Fling_30",
-    description:
-      "A silver coin used in a civilization about 3,000 years ago. A maniac will buy it for a high price.",
+    description: "A silver coin used in a civilization about 3,000 years ago. A maniac will buy it for a high price.",
     sprite: "/Items/RELICSILVER.png",
-    suffix: "normal",
+    suffix: "normal"
   },
   {
     id: "RELICGOLD",
@@ -875,10 +812,9 @@ export const items: Item[] = [
     pocket: 1,
     price: 60000,
     flags: "Fling_30",
-    description:
-      "A gold coin used in a civilization about 3,000 years ago. A maniac will buy it for a high price.",
+    description: "A gold coin used in a civilization about 3,000 years ago. A maniac will buy it for a high price.",
     sprite: "/Items/RELICGOLD.png",
-    suffix: "normal",
+    suffix: "normal"
   },
   {
     id: "RELICVASE",
@@ -887,10 +823,9 @@ export const items: Item[] = [
     pocket: 1,
     price: 0,
     flags: "Fling_30",
-    description:
-      "A vase made in a civilization about 3,000 years ago. A maniac will buy it for a high price.",
+    description: "A vase made in a civilization about 3,000 years ago. A maniac will buy it for a high price.",
     sprite: "/Items/RELICVASE.png",
-    suffix: "normal",
+    suffix: "normal"
   },
   {
     id: "RELICBAND",
@@ -899,10 +834,9 @@ export const items: Item[] = [
     pocket: 1,
     price: 0,
     flags: "Fling_30",
-    description:
-      "A bracelet made in a civilization about 3,000 years ago. A maniac will buy it for a high price.",
+    description: "A bracelet made in a civilization about 3,000 years ago. A maniac will buy it for a high price.",
     sprite: "/Items/RELICBAND.png",
-    suffix: "normal",
+    suffix: "normal"
   },
   {
     id: "RELICSTATUE",
@@ -911,10 +845,9 @@ export const items: Item[] = [
     pocket: 1,
     price: 0,
     flags: "Fling_30",
-    description:
-      "A stone figure made in a civilization about 3,000 years ago. A maniac will buy it for a high price.",
+    description: "A stone figure made in a civilization about 3,000 years ago. A maniac will buy it for a high price.",
     sprite: "/Items/RELICSTATUE.png",
-    suffix: "normal",
+    suffix: "normal"
   },
   {
     id: "RELICCROWN",
@@ -923,10 +856,9 @@ export const items: Item[] = [
     pocket: 1,
     price: 0,
     flags: "Fling_30",
-    description:
-      "A crown made in a civilization about 3,000 years ago. A maniac will buy it for a high price.",
+    description: "A crown made in a civilization about 3,000 years ago. A maniac will buy it for a high price.",
     sprite: "/Items/RELICCROWN.png",
-    suffix: "normal",
+    suffix: "normal"
   },
   {
     id: "TINYBAMBOOSHOOT",
@@ -935,10 +867,9 @@ export const items: Item[] = [
     pocket: 1,
     price: 1500,
     flags: "Fling_30",
-    description:
-      "A small and rare bamboo shoot. It's quite popular with a certain class of gourmands.",
+    description: "A small and rare bamboo shoot. It's quite popular with a certain class of gourmands.",
     sprite: "/Items/TINYBAMBOOSHOOT.png",
-    suffix: "normal",
+    suffix: "normal"
   },
   {
     id: "BIGBAMBOOSHOOT",
@@ -947,10 +878,9 @@ export const items: Item[] = [
     pocket: 1,
     price: 6000,
     flags: "Fling_30",
-    description:
-      "A large and rare bamboo shoot. It's extremely popular with a certain class of gourmands.",
+    description: "A large and rare bamboo shoot. It's extremely popular with a certain class of gourmands.",
     sprite: "/Items/BIGBAMBOOSHOOT.png",
-    suffix: "normal",
+    suffix: "normal"
   },
   {
     id: "GROWTHMULCH",
@@ -959,10 +889,9 @@ export const items: Item[] = [
     pocket: 1,
     price: 200,
     flags: "Mulch,Fling_30",
-    description:
-      "A fertilizer to be spread on soft soil in regions where Berries are grown. A maniac will buy it for a high price.",
+    description: "A fertilizer to be spread on soft soil in regions where Berries are grown. A maniac will buy it for a high price.",
     sprite: "/Items/GROWTHMULCH.png",
-    suffix: "normal",
+    suffix: "normal"
   },
   {
     id: "DAMPMULCH",
@@ -971,10 +900,9 @@ export const items: Item[] = [
     pocket: 1,
     price: 200,
     flags: "Mulch,Fling_30",
-    description:
-      "A fertilizer to be spread on soft soil in regions where Berries are grown. A maniac will buy it for a high price.",
+    description: "A fertilizer to be spread on soft soil in regions where Berries are grown. A maniac will buy it for a high price.",
     sprite: "/Items/DAMPMULCH.png",
-    suffix: "normal",
+    suffix: "normal"
   },
   {
     id: "STABLEMULCH",
@@ -983,10 +911,9 @@ export const items: Item[] = [
     pocket: 1,
     price: 200,
     flags: "Mulch,Fling_30",
-    description:
-      "A fertilizer to be spread on soft soil in regions where Berries are grown. A maniac will buy it for a high price.",
+    description: "A fertilizer to be spread on soft soil in regions where Berries are grown. A maniac will buy it for a high price.",
     sprite: "/Items/STABLEMULCH.png",
-    suffix: "normal",
+    suffix: "normal"
   },
   {
     id: "GOOEYMULCH",
@@ -995,10 +922,9 @@ export const items: Item[] = [
     pocket: 1,
     price: 200,
     flags: "Mulch,Fling_30",
-    description:
-      "A fertilizer to be spread on soft soil in regions where Berries are grown. A maniac will buy it for a high price.",
+    description: "A fertilizer to be spread on soft soil in regions where Berries are grown. A maniac will buy it for a high price.",
     sprite: "/Items/GOOEYMULCH.png",
-    suffix: "normal",
+    suffix: "normal"
   },
   {
     id: "SHOALSALT",
@@ -1007,10 +933,9 @@ export const items: Item[] = [
     pocket: 1,
     price: 20,
     flags: "Fling_30",
-    description:
-      "Pure salt that can be discovered deep inside the Shoal Cave. A maniac will buy it for a high price.",
+    description: "Pure salt that can be discovered deep inside the Shoal Cave. A maniac will buy it for a high price.",
     sprite: "/Items/SHOALSALT.png",
-    suffix: "normal",
+    suffix: "normal"
   },
   {
     id: "SHOALSHELL",
@@ -1019,10 +944,9 @@ export const items: Item[] = [
     pocket: 1,
     price: 20,
     flags: "Fling_30",
-    description:
-      "A pretty seashell that can be found deep inside the Shoal Cave. A maniac will buy it for a high price.",
+    description: "A pretty seashell that can be found deep inside the Shoal Cave. A maniac will buy it for a high price.",
     sprite: "/Items/SHOALSHELL.png",
-    suffix: "normal",
+    suffix: "normal"
   },
   {
     id: "ODDKEYSTONE",
@@ -1031,10 +955,9 @@ export const items: Item[] = [
     pocket: 1,
     price: 2100,
     flags: "Fling_80",
-    description:
-      "A vital item that is needed to keep a stone tower from collapsing. Voices can be heard from it occasionally.",
+    description: "A vital item that is needed to keep a stone tower from collapsing. Voices can be heard from it occasionally.",
     sprite: "/Items/ODDKEYSTONE.png",
-    suffix: "normal",
+    suffix: "normal"
   },
   {
     id: "REDNECTAR",
@@ -1043,10 +966,9 @@ export const items: Item[] = [
     pocket: 1,
     price: 300,
     flags: "Fling_10",
-    description:
-      "A flower nectar obtained at Ula'ula Meadow. It changes the form of certain species of Pokémon.",
+    description: "A flower nectar obtained at Ula'ula Meadow. It changes the form of certain species of Pokémon.",
     sprite: "/Items/REDNECTAR.png",
-    suffix: "normal",
+    suffix: "normal"
   },
   {
     id: "YELLOWNECTAR",
@@ -1055,10 +977,9 @@ export const items: Item[] = [
     pocket: 1,
     price: 300,
     flags: "Fling_10",
-    description:
-      "A flower nectar obtained at Melemele Meadow. It changes the form of certain species of Pokémon.",
+    description: "A flower nectar obtained at Melemele Meadow. It changes the form of certain species of Pokémon.",
     sprite: "/Items/YELLOWNECTAR.png",
-    suffix: "normal",
+    suffix: "normal"
   },
   {
     id: "PINKNECTAR",
@@ -1067,10 +988,9 @@ export const items: Item[] = [
     pocket: 1,
     price: 300,
     flags: "Fling_10",
-    description:
-      "A flower nectar obtained from shrubs on Royal Avenue. It changes the form of certain species of Pokémon.",
+    description: "A flower nectar obtained from shrubs on Royal Avenue. It changes the form of certain species of Pokémon.",
     sprite: "/Items/PINKNECTAR.png",
-    suffix: "normal",
+    suffix: "normal"
   },
   {
     id: "PURPLENECTAR",
@@ -1079,10 +999,9 @@ export const items: Item[] = [
     pocket: 1,
     price: 300,
     flags: "Fling_10",
-    description:
-      "A flower nectar obtained at Poni Meadow. It changes the form of certain species of Pokémon.",
+    description: "A flower nectar obtained at Poni Meadow. It changes the form of certain species of Pokémon.",
     sprite: "/Items/PURPLENECTAR.png",
-    suffix: "normal",
+    suffix: "normal"
   },
   {
     id: "AIRBALLOON",
@@ -1091,10 +1010,9 @@ export const items: Item[] = [
     pocket: 1,
     price: 3000,
     flags: "Fling_10",
-    description:
-      "An item to be held by a Pokémon. The holder will float in the air until hit. Once hit, this item will burst.",
+    description: "An item to be held by a Pokémon. The holder will float in the air until hit. Once hit, this item will burst.",
     sprite: "/Items/AIRBALLOON.png",
-    suffix: "normal",
+    suffix: "normal"
   },
   {
     id: "BRIGHTPOWDER",
@@ -1103,10 +1021,9 @@ export const items: Item[] = [
     pocket: 1,
     price: 3000,
     flags: "Fling_10",
-    description:
-      "An item to be held by a Pokémon. It casts a tricky glare that lowers the opponent's accuracy.",
+    description: "An item to be held by a Pokémon. It casts a tricky glare that lowers the opponent's accuracy.",
     sprite: "/Items/BRIGHTPOWDER.png",
-    suffix: "normal",
+    suffix: "normal"
   },
   {
     id: "EVIOLITE",
@@ -1115,10 +1032,9 @@ export const items: Item[] = [
     pocket: 1,
     price: 3000,
     flags: "Fling_40",
-    description:
-      "A mysterious evolutionary lump. When held, it raises the Defense and Sp. Def if the holder can still evolve.",
+    description: "A mysterious evolutionary lump. When held, it raises the Defense and Sp. Def if the holder can still evolve.",
     sprite: "/Items/EVIOLITE.png",
-    suffix: "normal",
+    suffix: "normal"
   },
   {
     id: "FLOATSTONE",
@@ -1127,10 +1043,9 @@ export const items: Item[] = [
     pocket: 1,
     price: 3000,
     flags: "Fling_30",
-    description:
-      "A very light stone. It reduces the weight of a Pokémon when held.",
+    description: "A very light stone. It reduces the weight of a Pokémon when held.",
     sprite: "/Items/FLOATSTONE.png",
-    suffix: "normal",
+    suffix: "normal"
   },
   {
     id: "DESTINYKNOT",
@@ -1139,10 +1054,9 @@ export const items: Item[] = [
     pocket: 1,
     price: 3000,
     flags: "Fling_10",
-    description:
-      "A long, thin, bright-red string to be held by a Pokémon. If the holder becomes infatuated, so does the foe.",
+    description: "A long, thin, bright-red string to be held by a Pokémon. If the holder becomes infatuated, so does the foe.",
     sprite: "/Items/DESTINYKNOT.png",
-    suffix: "normal",
+    suffix: "normal"
   },
   {
     id: "ROCKYHELMET",
@@ -1151,10 +1065,9 @@ export const items: Item[] = [
     pocket: 1,
     price: 3000,
     flags: "Fling_60",
-    description:
-      "If the holder of this item takes damage, the attacker will also be damaged upon contact.",
+    description: "If the holder of this item takes damage, the attacker will also be damaged upon contact.",
     sprite: "/Items/ROCKYHELMET.png",
-    suffix: "normal",
+    suffix: "normal"
   },
   {
     id: "ASSAULTVEST",
@@ -1163,10 +1076,9 @@ export const items: Item[] = [
     pocket: 1,
     price: 1000,
     flags: "Fling_80",
-    description:
-      "An item to be held by a Pokémon. This offensive vest raises Sp. Def but prevents the use of status moves.",
+    description: "An item to be held by a Pokémon. This offensive vest raises Sp. Def but prevents the use of status moves.",
     sprite: "/Items/ASSAULTVEST.png",
-    suffix: "normal",
+    suffix: "normal"
   },
   {
     id: "SAFETYGOGGLES",
@@ -1175,10 +1087,9 @@ export const items: Item[] = [
     pocket: 1,
     price: 3000,
     flags: "Fling_80",
-    description:
-      "An item to be held by a Pokémon. They protect the holder from weather-related damage and powder.",
+    description: "An item to be held by a Pokémon. They protect the holder from weather-related damage and powder.",
     sprite: "/Items/SAFETYGOGGLES.png",
-    suffix: "normal",
+    suffix: "normal"
   },
   {
     id: "PROTECTIVEPADS",
@@ -1187,10 +1098,9 @@ export const items: Item[] = [
     pocket: 1,
     price: 3000,
     flags: "Fling_30",
-    description:
-      "An item to be held by a Pokémon. They protect the holder from effects caused by making contact.",
+    description: "An item to be held by a Pokémon. They protect the holder from effects caused by making contact.",
     sprite: "/Items/PROTECTIVEPADS.png",
-    suffix: "normal",
+    suffix: "normal"
   },
   {
     id: "HEAVYDUTYBOOTS",
@@ -1199,10 +1109,9 @@ export const items: Item[] = [
     pocket: 1,
     price: 3000,
     flags: "Fling_80",
-    description:
-      "These boots prevent the effects of traps set on the battlefield.",
+    description: "These boots prevent the effects of traps set on the battlefield.",
     sprite: "/Items/HEAVYDUTYBOOTS.png",
-    suffix: "normal",
+    suffix: "normal"
   },
   {
     id: "UTILITYUMBRELLA",
@@ -1211,10 +1120,9 @@ export const items: Item[] = [
     pocket: 1,
     price: 3000,
     flags: "Fling_60",
-    description:
-      "An item to be held by a Pokémon. This sturdy umbrella protects the holder from the effects of rain and sun.",
+    description: "An item to be held by a Pokémon. This sturdy umbrella protects the holder from the effects of rain and sun.",
     sprite: "/Items/UTILITYUMBRELLA.png",
-    suffix: "normal",
+    suffix: "normal"
   },
   {
     id: "ABILITYSHIELD",
@@ -1223,10 +1131,9 @@ export const items: Item[] = [
     pocket: 1,
     price: 20000,
     flags: "Fling_30",
-    description:
-      "An item to be held by a Pokémon. This cute shield protects the holder from having its Ability changed by others.",
+    description: "An item to be held by a Pokémon. This cute shield protects the holder from having its Ability changed by others.",
     sprite: "/Items/ABILITYSHIELD.png",
-    suffix: "normal",
+    suffix: "normal"
   },
   {
     id: "CLEARAMULET",
@@ -1235,10 +1142,9 @@ export const items: Item[] = [
     pocket: 1,
     price: 30000,
     flags: "Fling_30",
-    description:
-      "An item to be held by a Pokémon. It protects the holder from having its stats lowered by other Pokémon.",
+    description: "An item to be held by a Pokémon. It protects the holder from having its stats lowered by other Pokémon.",
     sprite: "/Items/CLEARAMULET.png",
-    suffix: "normal",
+    suffix: "normal"
   },
   {
     id: "COVERTCLOAK",
@@ -1247,10 +1153,9 @@ export const items: Item[] = [
     pocket: 1,
     price: 20000,
     flags: "Fling_30",
-    description:
-      "An item to be held by a Pokémon. This hooded cloak protects the holder from moves' additional effects.",
+    description: "An item to be held by a Pokémon. This hooded cloak protects the holder from moves' additional effects.",
     sprite: "/Items/COVERTCLOAK.png",
-    suffix: "normal",
+    suffix: "normal"
   },
   {
     id: "EJECTBUTTON",
@@ -1259,10 +1164,9 @@ export const items: Item[] = [
     pocket: 1,
     price: 3000,
     flags: "Fling_30",
-    description:
-      "If the holder is hit by an attack, it will switch with another Pokémon in your party.",
+    description: "If the holder is hit by an attack, it will switch with another Pokémon in your party.",
     sprite: "/Items/EJECTBUTTON.png",
-    suffix: "normal",
+    suffix: "normal"
   },
   {
     id: "EJECTPACK",
@@ -1271,10 +1175,9 @@ export const items: Item[] = [
     pocket: 1,
     price: 3000,
     flags: "Fling_50",
-    description:
-      "An item to be held by a Pokémon. When the holder's stats are lowered, it will be switched out of battle.",
+    description: "An item to be held by a Pokémon. When the holder's stats are lowered, it will be switched out of battle.",
     sprite: "/Items/EJECTPACK.png",
-    suffix: "normal",
+    suffix: "normal"
   },
   {
     id: "REDCARD",
@@ -1283,10 +1186,9 @@ export const items: Item[] = [
     pocket: 1,
     price: 3000,
     flags: "Fling_10",
-    description:
-      "A card with a mysterious power. When the holder is struck by a foe, the attacker is removed from battle.",
+    description: "A card with a mysterious power. When the holder is struck by a foe, the attacker is removed from battle.",
     sprite: "/Items/REDCARD.png",
-    suffix: "normal",
+    suffix: "normal"
   },
   {
     id: "SHEDSHELL",
@@ -1295,10 +1197,9 @@ export const items: Item[] = [
     pocket: 1,
     price: 3000,
     flags: "Fling_10",
-    description:
-      "An item to be held by a Pokémon. This discarded carapace lets the holder switch out of battle without fail.",
+    description: "An item to be held by a Pokémon. This discarded carapace lets the holder switch out of battle without fail.",
     sprite: "/Items/SHEDSHELL.png",
-    suffix: "normal",
+    suffix: "normal"
   },
   {
     id: "SMOKEBALL",
@@ -1307,10 +1208,9 @@ export const items: Item[] = [
     pocket: 1,
     price: 3000,
     flags: "Fling_30",
-    description:
-      "An item to be held by a Pokémon. It enables the holder to flee from any wild Pokémon without fail.",
+    description: "An item to be held by a Pokémon. It enables the holder to flee from any wild Pokémon without fail.",
     sprite: "/Items/SMOKEBALL.png",
-    suffix: "normal",
+    suffix: "normal"
   },
   {
     id: "LUCKYEGG",
@@ -1319,10 +1219,9 @@ export const items: Item[] = [
     pocket: 1,
     price: 10000,
     flags: "Fling_30",
-    description:
-      "An item to be held by a Pokémon. It is an egg filled with happiness that earns extra Exp. Points in battle.",
+    description: "An item to be held by a Pokémon. It is an egg filled with happiness that earns extra Exp. Points in battle.",
     sprite: "/Items/LUCKYEGG.png",
-    suffix: "normal",
+    suffix: "normal"
   },
   {
     id: "EXPSHARE",
@@ -1331,10 +1230,9 @@ export const items: Item[] = [
     pocket: 8,
     price: 3000,
     flags: "KeyItem",
-    description:
-      "An item to be held by a Pokémon. The holder gets a share of a battle's Exp. Points without battling.",
+    description: "An item to be held by a Pokémon. The holder gets a share of a battle's Exp. Points without battling.",
     sprite: "/Items/EXPSHARE.png",
-    suffix: "normal",
+    suffix: "normal"
   },
   {
     id: "AMULETCOIN",
@@ -1343,10 +1241,9 @@ export const items: Item[] = [
     pocket: 1,
     price: 10000,
     flags: "Fling_30",
-    description:
-      "An item to be held by a Pokémon. It doubles a battle's prize money if the holding Pokémon joins in.",
+    description: "An item to be held by a Pokémon. It doubles a battle's prize money if the holding Pokémon joins in.",
     sprite: "/Items/AMULETCOIN.png",
-    suffix: "normal",
+    suffix: "normal"
   },
   {
     id: "SOOTHEBELL",
@@ -1355,10 +1252,9 @@ export const items: Item[] = [
     pocket: 1,
     price: 4000,
     flags: "Fling_10",
-    description:
-      "An item to be held by a Pokémon. The comforting chime of this bell calms the holder, making it friendly.",
+    description: "An item to be held by a Pokémon. The comforting chime of this bell calms the holder, making it friendly.",
     sprite: "/Items/SOOTHEBELL.png",
-    suffix: "normal",
+    suffix: "normal"
   },
   {
     id: "CLEANSETAG",
@@ -1367,10 +1263,9 @@ export const items: Item[] = [
     pocket: 1,
     price: 5000,
     flags: "Fling_30",
-    description:
-      "An item to be held by a Pokémon. It helps keep wild Pokémon away if the holder is the first one in the party.",
+    description: "An item to be held by a Pokémon. It helps keep wild Pokémon away if the holder is the first one in the party.",
     sprite: "/Items/CLEANSETAG.png",
-    suffix: "normal",
+    suffix: "normal"
   },
   {
     id: "CHOICEBAND",
@@ -1379,10 +1274,9 @@ export const items: Item[] = [
     pocket: 1,
     price: 4000,
     flags: "Fling_10",
-    description:
-      "An item to be held by a Pokémon. This headband ups Attack, but allows the use of only one move.",
+    description: "An item to be held by a Pokémon. This headband ups Attack, but allows the use of only one move.",
     sprite: "/Items/CHOICEBAND.png",
-    suffix: "normal",
+    suffix: "normal"
   },
   {
     id: "CHOICESPECS",
@@ -1391,10 +1285,9 @@ export const items: Item[] = [
     pocket: 1,
     price: 4000,
     flags: "Fling_10",
-    description:
-      "An item to be held by a Pokémon. These curious glasses boost Sp. Atk but allows the use of only one move.",
+    description: "An item to be held by a Pokémon. These curious glasses boost Sp. Atk but allows the use of only one move.",
     sprite: "/Items/CHOICESPECS.png",
-    suffix: "normal",
+    suffix: "normal"
   },
   {
     id: "CHOICESCARF",
@@ -1403,10 +1296,9 @@ export const items: Item[] = [
     pocket: 1,
     price: 4000,
     flags: "Fling_10",
-    description:
-      "An item to be held by a Pokémon. This scarf boosts Speed but allows the use of only one move.",
+    description: "An item to be held by a Pokémon. This scarf boosts Speed but allows the use of only one move.",
     sprite: "/Items/CHOICESCARF.png",
-    suffix: "normal",
+    suffix: "normal"
   },
   {
     id: "HEATROCK",
@@ -1415,10 +1307,9 @@ export const items: Item[] = [
     pocket: 1,
     price: 4000,
     flags: "Fling_60",
-    description:
-      "A Pokémon held item that extends the duration of the move Sunny Day used by the holder.",
+    description: "A Pokémon held item that extends the duration of the move Sunny Day used by the holder.",
     sprite: "/Items/HEATROCK.png",
-    suffix: "normal",
+    suffix: "normal"
   },
   {
     id: "DAMPROCK",
@@ -1427,10 +1318,9 @@ export const items: Item[] = [
     pocket: 1,
     price: 4000,
     flags: "Fling_60",
-    description:
-      "A Pokémon held item that extends the duration of the move Rain Dance used by the holder.",
+    description: "A Pokémon held item that extends the duration of the move Rain Dance used by the holder.",
     sprite: "/Items/DAMPROCK.png",
-    suffix: "normal",
+    suffix: "normal"
   },
   {
     id: "SMOOTHROCK",
@@ -1439,10 +1329,9 @@ export const items: Item[] = [
     pocket: 1,
     price: 4000,
     flags: "Fling_10",
-    description:
-      "A Pokémon held item that extends the duration of the move Sandstorm used by the holder.",
+    description: "A Pokémon held item that extends the duration of the move Sandstorm used by the holder.",
     sprite: "/Items/SMOOTHROCK.png",
-    suffix: "normal",
+    suffix: "normal"
   },
   {
     id: "ICYROCK",
@@ -1451,10 +1340,9 @@ export const items: Item[] = [
     pocket: 1,
     price: 4000,
     flags: "Fling_40",
-    description:
-      "A Pokémon held item that extends the duration of the move Hail used by the holder.",
+    description: "A Pokémon held item that extends the duration of the move Hail used by the holder.",
     sprite: "/Items/ICYROCK.png",
-    suffix: "normal",
+    suffix: "normal"
   },
   {
     id: "TERRAINEXTENDER",
@@ -1463,10 +1351,9 @@ export const items: Item[] = [
     pocket: 1,
     price: 4000,
     flags: "Fling_60",
-    description:
-      "An item to be held by a Pokémon. It extends the duration of the terrain caused by the holder.",
+    description: "An item to be held by a Pokémon. It extends the duration of the terrain caused by the holder.",
     sprite: "/Items/TERRAINEXTENDER.png",
-    suffix: "normal",
+    suffix: "normal"
   },
   {
     id: "LIGHTCLAY",
@@ -1475,10 +1362,9 @@ export const items: Item[] = [
     pocket: 1,
     price: 4000,
     flags: "Fling_30",
-    description:
-      "An item to be held by a Pokémon. Protective moves like Light Screen and Reflect will be effective longer.",
+    description: "An item to be held by a Pokémon. Protective moves like Light Screen and Reflect will be effective longer.",
     sprite: "/Items/LIGHTCLAY.png",
-    suffix: "normal",
+    suffix: "normal"
   },
   {
     id: "GRIPCLAW",
@@ -1487,10 +1373,9 @@ export const items: Item[] = [
     pocket: 1,
     price: 4000,
     flags: "Fling_90",
-    description:
-      "A Pokémon held item that extends the duration of multiturn attacks like Bind and Wrap.",
+    description: "A Pokémon held item that extends the duration of multiturn attacks like Bind and Wrap.",
     sprite: "/Items/GRIPCLAW.png",
-    suffix: "normal",
+    suffix: "normal"
   },
   {
     id: "LOADEDDICE",
@@ -1499,10 +1384,9 @@ export const items: Item[] = [
     pocket: 1,
     price: 20000,
     flags: "Fling_30",
-    description:
-      "An item to be held by a Pokémon. This dice ensures that the holder's multistrike moves hit more times.",
+    description: "An item to be held by a Pokémon. This dice ensures that the holder's multistrike moves hit more times.",
     sprite: "/Items/LOADEDDICE.png",
-    suffix: "normal",
+    suffix: "normal"
   },
   {
     id: "BINDINGBAND",
@@ -1513,7 +1397,7 @@ export const items: Item[] = [
     flags: "Fling_30",
     description: "A band that increases the power of binding moves when held.",
     sprite: "/Items/BINDINGBAND.png",
-    suffix: "normal",
+    suffix: "normal"
   },
   {
     id: "BIGROOT",
@@ -1522,10 +1406,9 @@ export const items: Item[] = [
     pocket: 1,
     price: 4000,
     flags: "Fling_10",
-    description:
-      "A Pokémon held item that boosts the power of HP-stealing moves to let the holder recover more HP.",
+    description: "A Pokémon held item that boosts the power of HP-stealing moves to let the holder recover more HP.",
     sprite: "/Items/BIGROOT.png",
-    suffix: "normal",
+    suffix: "normal"
   },
   {
     id: "BLACKSLUDGE",
@@ -1534,10 +1417,9 @@ export const items: Item[] = [
     pocket: 1,
     price: 3000,
     flags: "Fling_30",
-    description:
-      "A held item that gradually restores the HP of Poison-type Pokémon. It inflicts damage on all other types.",
+    description: "A held item that gradually restores the HP of Poison-type Pokémon. It inflicts damage on all other types.",
     sprite: "/Items/BLACKSLUDGE.png",
-    suffix: "normal",
+    suffix: "normal"
   },
   {
     id: "LEFTOVERS",
@@ -1546,10 +1428,9 @@ export const items: Item[] = [
     pocket: 1,
     price: 4000,
     flags: "Fling_10",
-    description:
-      "An item to be held by a Pokémon. The holder's HP is gradually restored during battle.",
+    description: "An item to be held by a Pokémon. The holder's HP is gradually restored during battle.",
     sprite: "/Items/LEFTOVERS.png",
-    suffix: "normal",
+    suffix: "normal"
   },
   {
     id: "SHELLBELL",
@@ -1558,10 +1439,9 @@ export const items: Item[] = [
     pocket: 1,
     price: 4000,
     flags: "Fling_30",
-    description:
-      "An item to be held by a Pokémon. The holder's HP is restored a little every time it inflicts damage.",
+    description: "An item to be held by a Pokémon. The holder's HP is restored a little every time it inflicts damage.",
     sprite: "/Items/SHELLBELL.png",
-    suffix: "normal",
+    suffix: "normal"
   },
   {
     id: "MENTALHERB",
@@ -1570,10 +1450,9 @@ export const items: Item[] = [
     pocket: 1,
     price: 4000,
     flags: "Fling_10",
-    description:
-      "An item to be held by a Pokémon. It snaps the holder out of infatuation. It can be used only once.",
+    description: "An item to be held by a Pokémon. It snaps the holder out of infatuation. It can be used only once.",
     sprite: "/Items/MENTALHERB.png",
-    suffix: "normal",
+    suffix: "normal"
   },
   {
     id: "WHITEHERB",
@@ -1582,10 +1461,9 @@ export const items: Item[] = [
     pocket: 1,
     price: 4000,
     flags: "Fling_10",
-    description:
-      "An item to be held by a Pokémon. It restores any lowered stat in battle. It can be used only once.",
+    description: "An item to be held by a Pokémon. It restores any lowered stat in battle. It can be used only once.",
     sprite: "/Items/WHITEHERB.png",
-    suffix: "normal",
+    suffix: "normal"
   },
   {
     id: "POWERHERB",
@@ -1594,10 +1472,9 @@ export const items: Item[] = [
     pocket: 1,
     price: 4000,
     flags: "Fling_10",
-    description:
-      "A single-use item to be held by a Pokémon. It allows the immediate use of a move that charges up first.",
+    description: "A single-use item to be held by a Pokémon. It allows the immediate use of a move that charges up first.",
     sprite: "/Items/POWERHERB.png",
-    suffix: "normal",
+    suffix: "normal"
   },
   {
     id: "MIRRORHERB",
@@ -1606,10 +1483,9 @@ export const items: Item[] = [
     pocket: 1,
     price: 30000,
     flags: "Fling_30",
-    description:
-      "An item to be held by a Pokémon. It allows the holder to copy an opponent's stat increases once.",
+    description: "An item to be held by a Pokémon. It allows the holder to copy an opponent's stat increases once.",
     sprite: "/Items/MIRRORHERB.png",
-    suffix: "normal",
+    suffix: "normal"
   },
   {
     id: "ABSORBBULB",
@@ -1618,10 +1494,9 @@ export const items: Item[] = [
     pocket: 1,
     price: 4000,
     flags: "Fling_30",
-    description:
-      "A consumable bulb. If the holder is hit by a Water-type move, its Sp. Atk will rise.",
+    description: "A consumable bulb. If the holder is hit by a Water-type move, its Sp. Atk will rise.",
     sprite: "/Items/ABSORBBULB.png",
-    suffix: "normal",
+    suffix: "normal"
   },
   {
     id: "CELLBATTERY",
@@ -1630,10 +1505,9 @@ export const items: Item[] = [
     pocket: 1,
     price: 4000,
     flags: "Fling_30",
-    description:
-      "A consumable battery. If the holder is hit by an Electric-type move, its Attack will rise.",
+    description: "A consumable battery. If the holder is hit by an Electric-type move, its Attack will rise.",
     sprite: "/Items/CELLBATTERY.png",
-    suffix: "normal",
+    suffix: "normal"
   },
   {
     id: "LUMINOUSMOSS",
@@ -1642,10 +1516,9 @@ export const items: Item[] = [
     pocket: 1,
     price: 4000,
     flags: "Fling_30",
-    description:
-      "An item to be held by a Pokémon. It boosts Sp. Def if hit by a Water-type attack. It can only be used once.",
+    description: "An item to be held by a Pokémon. It boosts Sp. Def if hit by a Water-type attack. It can only be used once.",
     sprite: "/Items/LUMINOUSMOSS.png",
-    suffix: "normal",
+    suffix: "normal"
   },
   {
     id: "SNOWBALL",
@@ -1654,10 +1527,9 @@ export const items: Item[] = [
     pocket: 1,
     price: 4000,
     flags: "Fling_30",
-    description:
-      "An item to be held by a Pokémon. It boosts Attack if hit by an Ice-type attack. It can only be used once.",
+    description: "An item to be held by a Pokémon. It boosts Attack if hit by an Ice-type attack. It can only be used once.",
     sprite: "/Items/SNOWBALL.png",
-    suffix: "normal",
+    suffix: "normal"
   },
   {
     id: "WEAKNESSPOLICY",
@@ -1666,10 +1538,9 @@ export const items: Item[] = [
     pocket: 1,
     price: 1000,
     flags: "Fling_80",
-    description:
-      "An item to be held by a Pokémon. The holder's Attack and Sp. Atk sharply increase if hit by a move it's weak to.",
+    description: "An item to be held by a Pokémon. The holder's Attack and Sp. Atk sharply increase if hit by a move it's weak to.",
     sprite: "/Items/WEAKNESSPOLICY.png",
-    suffix: "normal",
+    suffix: "normal"
   },
   {
     id: "BLUNDERPOLICY",
@@ -1678,10 +1549,9 @@ export const items: Item[] = [
     pocket: 1,
     price: 4000,
     flags: "Fling_80",
-    description:
-      "Raises Speed sharply when a Pokémon misses with a move because of accuracy.",
+    description: "Raises Speed sharply when a Pokémon misses with a move because of accuracy.",
     sprite: "/Items/BLUNDERPOLICY.png",
-    suffix: "normal",
+    suffix: "normal"
   },
   {
     id: "THROATSPRAY",
@@ -1692,7 +1562,7 @@ export const items: Item[] = [
     flags: "Fling_30",
     description: "Raises Sp. Atk when a Pokémon uses a sound-based move.",
     sprite: "/Items/THROATSPRAY.png",
-    suffix: "normal",
+    suffix: "normal"
   },
   {
     id: "ADRENALINEORB",
@@ -1701,10 +1571,9 @@ export const items: Item[] = [
     pocket: 1,
     price: 300,
     flags: "Fling_30",
-    description:
-      "An item to be held by a Pokémon. It boosts Speed when intimidated. It can be used only once.",
+    description: "An item to be held by a Pokémon. It boosts Speed when intimidated. It can be used only once.",
     sprite: "/Items/ADRENALINEORB.png",
-    suffix: "normal",
+    suffix: "normal"
   },
   {
     id: "BOOSTERENERGY",
@@ -1713,10 +1582,9 @@ export const items: Item[] = [
     pocket: 1,
     price: 0,
     flags: "Fling_30",
-    description:
-      "An item to be held by Pokémon with certain Abilities. Its energy boosts the strength of the Pokémon.",
+    description: "An item to be held by Pokémon with certain Abilities. Its energy boosts the strength of the Pokémon.",
     sprite: "/Items/BOOSTERENERGY.png",
-    suffix: "normal",
+    suffix: "normal"
   },
   {
     id: "ROOMSERVICE",
@@ -1725,10 +1593,9 @@ export const items: Item[] = [
     pocket: 1,
     price: 4000,
     flags: "Fling_100",
-    description:
-      "An item to be held by a Pokémon. Lowers Speed when Trick Room takes effect.",
+    description: "An item to be held by a Pokémon. Lowers Speed when Trick Room takes effect.",
     sprite: "/Items/ROOMSERVICE.png",
-    suffix: "normal",
+    suffix: "normal"
   },
   {
     id: "ELECTRICSEED",
@@ -1737,10 +1604,9 @@ export const items: Item[] = [
     pocket: 1,
     price: 3000,
     flags: "Fling_10",
-    description:
-      "An item to be held by a Pokémon. It boosts Defense on Electric Terrain. It can only be used once.",
+    description: "An item to be held by a Pokémon. It boosts Defense on Electric Terrain. It can only be used once.",
     sprite: "/Items/ELECTRICSEED.png",
-    suffix: "normal",
+    suffix: "normal"
   },
   {
     id: "GRASSYSEED",
@@ -1749,10 +1615,9 @@ export const items: Item[] = [
     pocket: 1,
     price: 3000,
     flags: "Fling_10",
-    description:
-      "An item to be held by a Pokémon. It boosts Defense on Grassy Terrain. It can only be used once.",
+    description: "An item to be held by a Pokémon. It boosts Defense on Grassy Terrain. It can only be used once.",
     sprite: "/Items/GRASSYSEED.png",
-    suffix: "normal",
+    suffix: "normal"
   },
   {
     id: "MISTYSEED",
@@ -1761,10 +1626,9 @@ export const items: Item[] = [
     pocket: 1,
     price: 3000,
     flags: "Fling_10",
-    description:
-      "An item to be held by a Pokémon. It boosts Sp. Def on Misty Terrain. It can only be used once.",
+    description: "An item to be held by a Pokémon. It boosts Sp. Def on Misty Terrain. It can only be used once.",
     sprite: "/Items/MISTYSEED.png",
-    suffix: "normal",
+    suffix: "normal"
   },
   {
     id: "PSYCHICSEED",
@@ -1773,10 +1637,9 @@ export const items: Item[] = [
     pocket: 1,
     price: 3000,
     flags: "Fling_10",
-    description:
-      "An item to be held by a Pokémon. It boosts Sp. Def on Psychic Terrain. It can only be used once.",
+    description: "An item to be held by a Pokémon. It boosts Sp. Def on Psychic Terrain. It can only be used once.",
     sprite: "/Items/PSYCHICSEED.png",
-    suffix: "normal",
+    suffix: "normal"
   },
   {
     id: "LIFEORB",
@@ -1785,10 +1648,9 @@ export const items: Item[] = [
     pocket: 1,
     price: 4000,
     flags: "Fling_30",
-    description:
-      "An item to be held by a Pokémon. It boosts the power of moves, but at the cost of some HP on each hit.",
+    description: "An item to be held by a Pokémon. It boosts the power of moves, but at the cost of some HP on each hit.",
     sprite: "/Items/LIFEORB.png",
-    suffix: "normal",
+    suffix: "normal"
   },
   {
     id: "EXPERTBELT",
@@ -1797,10 +1659,9 @@ export const items: Item[] = [
     pocket: 1,
     price: 4000,
     flags: "Fling_10",
-    description:
-      "An item to be held by a Pokémon. It is a well-worn belt that slightly boosts the power of supereffective moves.",
+    description: "An item to be held by a Pokémon. It is a well-worn belt that slightly boosts the power of supereffective moves.",
     sprite: "/Items/EXPERTBELT.png",
-    suffix: "normal",
+    suffix: "normal"
   },
   {
     id: "METRONOME",
@@ -1809,10 +1670,9 @@ export const items: Item[] = [
     pocket: 1,
     price: 3000,
     flags: "Fling_30",
-    description:
-      "A Pokémon held item that boosts a move used consecutively. Its effect is reset if another move is used.",
+    description: "A Pokémon held item that boosts a move used consecutively. Its effect is reset if another move is used.",
     sprite: "/Items/METRONOME.png",
-    suffix: "normal",
+    suffix: "normal"
   },
   {
     id: "PUNCHINGGLOVE",
@@ -1821,10 +1681,9 @@ export const items: Item[] = [
     pocket: 1,
     price: 15000,
     flags: "Fling_30",
-    description:
-      "An item to be held by a Pokémon. It powers up the holder's punching moves and prevents direct contact.",
+    description: "An item to be held by a Pokémon. It powers up the holder's punching moves and prevents direct contact.",
     sprite: "/Items/PUNCHINGGLOVE.png",
-    suffix: "normal",
+    suffix: "normal"
   },
   {
     id: "MUSCLEBAND",
@@ -1833,10 +1692,9 @@ export const items: Item[] = [
     pocket: 1,
     price: 4000,
     flags: "Fling_10",
-    description:
-      "An item to be held by a Pokémon. It is a headband that slightly boosts the power of physical moves.",
+    description: "An item to be held by a Pokémon. It is a headband that slightly boosts the power of physical moves.",
     sprite: "/Items/MUSCLEBAND.png",
-    suffix: "normal",
+    suffix: "normal"
   },
   {
     id: "WISEGLASSES",
@@ -1845,10 +1703,9 @@ export const items: Item[] = [
     pocket: 1,
     price: 4000,
     flags: "Fling_10",
-    description:
-      "An item to be held by a Pokémon. It is a thick pair of glasses that slightly boosts the power of special moves.",
+    description: "An item to be held by a Pokémon. It is a thick pair of glasses that slightly boosts the power of special moves.",
     sprite: "/Items/WISEGLASSES.png",
-    suffix: "normal",
+    suffix: "normal"
   },
   {
     id: "RAZORCLAW",
@@ -1857,10 +1714,9 @@ export const items: Item[] = [
     pocket: 1,
     price: 3000,
     flags: "Fling_80",
-    description:
-      "An item to be held by a Pokémon. It is a sharply hooked claw that ups the holder's critical-hit ratio.",
+    description: "An item to be held by a Pokémon. It is a sharply hooked claw that ups the holder's critical-hit ratio.",
     sprite: "/Items/RAZORCLAW.png",
-    suffix: "normal",
+    suffix: "normal"
   },
   {
     id: "SCOPELENS",
@@ -1869,10 +1725,9 @@ export const items: Item[] = [
     pocket: 1,
     price: 4000,
     flags: "Fling_30",
-    description:
-      "An item to be held by a Pokémon. It is a lens that boosts the holder's critical-hit ratio.",
+    description: "An item to be held by a Pokémon. It is a lens that boosts the holder's critical-hit ratio.",
     sprite: "/Items/SCOPELENS.png",
-    suffix: "normal",
+    suffix: "normal"
   },
   {
     id: "WIDELENS",
@@ -1881,10 +1736,9 @@ export const items: Item[] = [
     pocket: 1,
     price: 4000,
     flags: "Fling_10",
-    description:
-      "An item to be held by a Pokémon. It is a magnifying lens that slightly boosts the accuracy of moves.",
+    description: "An item to be held by a Pokémon. It is a magnifying lens that slightly boosts the accuracy of moves.",
     sprite: "/Items/WIDELENS.png",
-    suffix: "normal",
+    suffix: "normal"
   },
   {
     id: "ZOOMLENS",
@@ -1893,10 +1747,9 @@ export const items: Item[] = [
     pocket: 1,
     price: 4000,
     flags: "Fling_10",
-    description:
-      "An item to be held by a Pokémon. If the holder moves after its target, its accuracy will be boosted.",
+    description: "An item to be held by a Pokémon. If the holder moves after its target, its accuracy will be boosted.",
     sprite: "/Items/ZOOMLENS.png",
-    suffix: "normal",
+    suffix: "normal"
   },
   {
     id: "KINGSROCK",
@@ -1905,10 +1758,9 @@ export const items: Item[] = [
     pocket: 1,
     price: 5000,
     flags: "Fling_30",
-    description:
-      "An item to be held by a Pokémon. When the holder inflicts damage, the target may flinch.",
+    description: "An item to be held by a Pokémon. When the holder inflicts damage, the target may flinch.",
     sprite: "/Items/KINGSROCK.png",
-    suffix: "normal",
+    suffix: "normal"
   },
   {
     id: "RAZORFANG",
@@ -1917,10 +1769,9 @@ export const items: Item[] = [
     pocket: 1,
     price: 5000,
     flags: "Fling_30",
-    description:
-      "An item to be held by a Pokémon. It may make foes and allies flinch when the holder inflicts damage.",
+    description: "An item to be held by a Pokémon. It may make foes and allies flinch when the holder inflicts damage.",
     sprite: "/Items/RAZORFANG.png",
-    suffix: "normal",
+    suffix: "normal"
   },
   {
     id: "LAGGINGTAIL",
@@ -1929,10 +1780,9 @@ export const items: Item[] = [
     pocket: 1,
     price: 4000,
     flags: "Fling_10",
-    description:
-      "An item to be held by a Pokémon. It is tremendously heavy and makes the holder move slower than usual.",
+    description: "An item to be held by a Pokémon. It is tremendously heavy and makes the holder move slower than usual.",
     sprite: "/Items/LAGGINGTAIL.png",
-    suffix: "normal",
+    suffix: "normal"
   },
   {
     id: "QUICKCLAW",
@@ -1941,10 +1791,9 @@ export const items: Item[] = [
     pocket: 1,
     price: 3000,
     flags: "Fling_80",
-    description:
-      "An item to be held by a Pokémon. A light, sharp claw that lets the bearer move first occasionally.",
+    description: "An item to be held by a Pokémon. A light, sharp claw that lets the bearer move first occasionally.",
     sprite: "/Items/QUICKCLAW.png",
-    suffix: "normal",
+    suffix: "normal"
   },
   {
     id: "FOCUSBAND",
@@ -1953,10 +1802,9 @@ export const items: Item[] = [
     pocket: 1,
     price: 3000,
     flags: "Fling_10",
-    description:
-      "An item to be held by a Pokémon. The holder may endure a potential KO attack, leaving it with just 1 HP.",
+    description: "An item to be held by a Pokémon. The holder may endure a potential KO attack, leaving it with just 1 HP.",
     sprite: "/Items/FOCUSBAND.png",
-    suffix: "normal",
+    suffix: "normal"
   },
   {
     id: "FOCUSSASH",
@@ -1965,10 +1813,9 @@ export const items: Item[] = [
     pocket: 1,
     price: 3000,
     flags: "Fling_10",
-    description:
-      "An item to be held by a Pokémon. If it has full HP, the holder will endure one potential KO attack, leaving 1 HP.",
+    description: "An item to be held by a Pokémon. If it has full HP, the holder will endure one potential KO attack, leaving 1 HP.",
     sprite: "/Items/FOCUSSASH.png",
-    suffix: "normal",
+    suffix: "normal"
   },
   {
     id: "FLAMEORB",
@@ -1977,10 +1824,9 @@ export const items: Item[] = [
     pocket: 1,
     price: 4000,
     flags: "Fling_30",
-    description:
-      "An item to be held by a Pokémon. It is a bizarre orb that inflicts a burn on the holder in battle.",
+    description: "An item to be held by a Pokémon. It is a bizarre orb that inflicts a burn on the holder in battle.",
     sprite: "/Items/FLAMEORB.png",
-    suffix: "normal",
+    suffix: "normal"
   },
   {
     id: "TOXICORB",
@@ -1989,10 +1835,9 @@ export const items: Item[] = [
     pocket: 1,
     price: 4000,
     flags: "Fling_30",
-    description:
-      "An item to be held by a Pokémon. It is a bizarre orb that badly poisons the holder in battle.",
+    description: "An item to be held by a Pokémon. It is a bizarre orb that badly poisons the holder in battle.",
     sprite: "/Items/TOXICORB.png",
-    suffix: "normal",
+    suffix: "normal"
   },
   {
     id: "STICKYBARB",
@@ -2001,10 +1846,9 @@ export const items: Item[] = [
     pocket: 1,
     price: 4000,
     flags: "Fling_80",
-    description:
-      "A held item that damages the holder on every turn. It may latch on to Pokémon that touch the holder.",
+    description: "A held item that damages the holder on every turn. It may latch on to Pokémon that touch the holder.",
     sprite: "/Items/STICKYBARB.png",
-    suffix: "normal",
+    suffix: "normal"
   },
   {
     id: "IRONBALL",
@@ -2013,10 +1857,9 @@ export const items: Item[] = [
     pocket: 1,
     price: 4000,
     flags: "Fling_130",
-    description:
-      "A Pokémon held item that cuts Speed. It makes Flying-type and levitating holders susceptible to Ground moves.",
+    description: "A Pokémon held item that cuts Speed. It makes Flying-type and levitating holders susceptible to Ground moves.",
     sprite: "/Items/IRONBALL.png",
-    suffix: "normal",
+    suffix: "normal"
   },
   {
     id: "RINGTARGET",
@@ -2025,10 +1868,9 @@ export const items: Item[] = [
     pocket: 1,
     price: 3000,
     flags: "Fling_10",
-    description:
-      "Moves that would otherwise have no effect will land on the Pokémon that holds it.",
+    description: "Moves that would otherwise have no effect will land on the Pokémon that holds it.",
     sprite: "/Items/RINGTARGET.png",
-    suffix: "normal",
+    suffix: "normal"
   },
   {
     id: "MACHOBRACE",
@@ -2037,10 +1879,9 @@ export const items: Item[] = [
     pocket: 1,
     price: 3000,
     flags: "Fling_60",
-    description:
-      "An item to be held by a Pokémon. It is a stiff, heavy brace that promotes strong growth but lowers Speed.",
+    description: "An item to be held by a Pokémon. It is a stiff, heavy brace that promotes strong growth but lowers Speed.",
     sprite: "/Items/MACHOBRACE.png",
-    suffix: "normal",
+    suffix: "normal"
   },
   {
     id: "POWERWEIGHT",
@@ -2049,10 +1890,9 @@ export const items: Item[] = [
     pocket: 1,
     price: 3000,
     flags: "Fling_70",
-    description:
-      "A Pokémon held item that promotes HP gain on leveling, but reduces the Speed stat.",
+    description: "A Pokémon held item that promotes HP gain on leveling, but reduces the Speed stat.",
     sprite: "/Items/POWERWEIGHT.png",
-    suffix: "normal",
+    suffix: "normal"
   },
   {
     id: "POWERBRACER",
@@ -2061,10 +1901,9 @@ export const items: Item[] = [
     pocket: 1,
     price: 3000,
     flags: "Fling_70",
-    description:
-      "A Pokémon held item that promotes Attack gain on leveling, but reduces the Speed stat.",
+    description: "A Pokémon held item that promotes Attack gain on leveling, but reduces the Speed stat.",
     sprite: "/Items/POWERBRACER.png",
-    suffix: "normal",
+    suffix: "normal"
   },
   {
     id: "POWERBELT",
@@ -2073,10 +1912,9 @@ export const items: Item[] = [
     pocket: 1,
     price: 3000,
     flags: "Fling_70",
-    description:
-      "A Pokémon held item that promotes Defense gain on leveling, but reduces the Speed stat.",
+    description: "A Pokémon held item that promotes Defense gain on leveling, but reduces the Speed stat.",
     sprite: "/Items/POWERBELT.png",
-    suffix: "normal",
+    suffix: "normal"
   },
   {
     id: "POWERLENS",
@@ -2085,10 +1923,9 @@ export const items: Item[] = [
     pocket: 1,
     price: 3000,
     flags: "Fling_70",
-    description:
-      "A Pokémon held item that promotes Sp. Atk gain on leveling, but reduces the Speed stat.",
+    description: "A Pokémon held item that promotes Sp. Atk gain on leveling, but reduces the Speed stat.",
     sprite: "/Items/POWERLENS.png",
-    suffix: "normal",
+    suffix: "normal"
   },
   {
     id: "POWERBAND",
@@ -2097,10 +1934,9 @@ export const items: Item[] = [
     pocket: 1,
     price: 3000,
     flags: "Fling_70",
-    description:
-      "A Pokémon held item that promotes Sp. Def gain on leveling, but reduces the Speed stat.",
+    description: "A Pokémon held item that promotes Sp. Def gain on leveling, but reduces the Speed stat.",
     sprite: "/Items/POWERBAND.png",
-    suffix: "normal",
+    suffix: "normal"
   },
   {
     id: "POWERANKLET",
@@ -2109,10 +1945,9 @@ export const items: Item[] = [
     pocket: 1,
     price: 3000,
     flags: "Fling_70",
-    description:
-      "A Pokémon held item that promotes Speed gain on leveling, but reduces the Speed stat.",
+    description: "A Pokémon held item that promotes Speed gain on leveling, but reduces the Speed stat.",
     sprite: "/Items/POWERANKLET.png",
-    suffix: "normal",
+    suffix: "normal"
   },
   {
     id: "LAXINCENSE",
@@ -2121,10 +1956,9 @@ export const items: Item[] = [
     pocket: 1,
     price: 5000,
     flags: "Fling_10",
-    description:
-      "An item to be held by a Pokémon. The tricky aroma of this incense may make attacks miss the holder.",
+    description: "An item to be held by a Pokémon. The tricky aroma of this incense may make attacks miss the holder.",
     sprite: "/Items/LAXINCENSE.png",
-    suffix: "normal",
+    suffix: "normal"
   },
   {
     id: "FULLINCENSE",
@@ -2133,10 +1967,9 @@ export const items: Item[] = [
     pocket: 1,
     price: 5000,
     flags: "Fling_10",
-    description:
-      "An item to be held by a Pokémon. This exotic-smelling incense makes the holder bloated and slow moving.",
+    description: "An item to be held by a Pokémon. This exotic-smelling incense makes the holder bloated and slow moving.",
     sprite: "/Items/FULLINCENSE.png",
-    suffix: "normal",
+    suffix: "normal"
   },
   {
     id: "LUCKINCENSE",
@@ -2145,10 +1978,9 @@ export const items: Item[] = [
     pocket: 1,
     price: 11000,
     flags: "Fling_10",
-    description:
-      "An item to be held by a Pokémon. It doubles a battle's prize money if the holding Pokémon joins in.",
+    description: "An item to be held by a Pokémon. It doubles a battle's prize money if the holding Pokémon joins in.",
     sprite: "/Items/LUCKINCENSE.png",
-    suffix: "normal",
+    suffix: "normal"
   },
   {
     id: "PUREINCENSE",
@@ -2157,10 +1989,9 @@ export const items: Item[] = [
     pocket: 1,
     price: 6000,
     flags: "Fling_10",
-    description:
-      "An item to be held by a Pokémon. It helps keep wild Pokémon away if the holder is the first one in the party.",
+    description: "An item to be held by a Pokémon. It helps keep wild Pokémon away if the holder is the first one in the party.",
     sprite: "/Items/PUREINCENSE.png",
-    suffix: "normal",
+    suffix: "normal"
   },
   {
     id: "SEAINCENSE",
@@ -2169,10 +2000,9 @@ export const items: Item[] = [
     pocket: 1,
     price: 2000,
     flags: "Fling_10",
-    description:
-      "An item to be held by a Pokémon. It has a curious aroma that boosts the power of Water-type moves.",
+    description: "An item to be held by a Pokémon. It has a curious aroma that boosts the power of Water-type moves.",
     sprite: "/Items/SEAINCENSE.png",
-    suffix: "normal",
+    suffix: "normal"
   },
   {
     id: "WAVEINCENSE",
@@ -2181,10 +2011,9 @@ export const items: Item[] = [
     pocket: 1,
     price: 2000,
     flags: "Fling_10",
-    description:
-      "An item to be held by a Pokémon. It has a curious aroma that boosts the power of Water-type moves.",
+    description: "An item to be held by a Pokémon. It has a curious aroma that boosts the power of Water-type moves.",
     sprite: "/Items/WAVEINCENSE.png",
-    suffix: "normal",
+    suffix: "normal"
   },
   {
     id: "ROSEINCENSE",
@@ -2193,10 +2022,9 @@ export const items: Item[] = [
     pocket: 1,
     price: 2000,
     flags: "Fling_10",
-    description:
-      "An item to be held by a Pokémon. This exotic-smelling incense boosts the power of Grass-type moves.",
+    description: "An item to be held by a Pokémon. This exotic-smelling incense boosts the power of Grass-type moves.",
     sprite: "/Items/ROSEINCENSE.png",
-    suffix: "normal",
+    suffix: "normal"
   },
   {
     id: "ODDINCENSE",
@@ -2205,10 +2033,9 @@ export const items: Item[] = [
     pocket: 1,
     price: 2000,
     flags: "Fling_10",
-    description:
-      "An item to be held by a Pokémon. This exotic-smelling incense boosts the power of Psychic-type moves.",
+    description: "An item to be held by a Pokémon. This exotic-smelling incense boosts the power of Psychic-type moves.",
     sprite: "/Items/ODDINCENSE.png",
-    suffix: "normal",
+    suffix: "normal"
   },
   {
     id: "ROCKINCENSE",
@@ -2217,10 +2044,9 @@ export const items: Item[] = [
     pocket: 1,
     price: 2000,
     flags: "Fling_10",
-    description:
-      "An item to be held by a Pokémon. This exotic-smelling incense boosts the power of Rock-type moves.",
+    description: "An item to be held by a Pokémon. This exotic-smelling incense boosts the power of Rock-type moves.",
     sprite: "/Items/ROCKINCENSE.png",
-    suffix: "normal",
+    suffix: "normal"
   },
   {
     id: "CHARCOAL",
@@ -2229,10 +2055,9 @@ export const items: Item[] = [
     pocket: 1,
     price: 3000,
     flags: "Fling_30",
-    description:
-      "An item to be held by a Pokémon. It is a combustible fuel that boosts the power of Fire-type moves.",
+    description: "An item to be held by a Pokémon. It is a combustible fuel that boosts the power of Fire-type moves.",
     sprite: "/Items/CHARCOAL.png",
-    suffix: "normal",
+    suffix: "normal"
   },
   {
     id: "MYSTICWATER",
@@ -2241,10 +2066,9 @@ export const items: Item[] = [
     pocket: 1,
     price: 3000,
     flags: "Fling_30",
-    description:
-      "An item to be held by a Pokémon. It is a teardrop-shaped gem that ups the power of Water-type moves.",
+    description: "An item to be held by a Pokémon. It is a teardrop-shaped gem that ups the power of Water-type moves.",
     sprite: "/Items/MYSTICWATER.png",
-    suffix: "normal",
+    suffix: "normal"
   },
   {
     id: "MAGNET",
@@ -2253,10 +2077,9 @@ export const items: Item[] = [
     pocket: 1,
     price: 3000,
     flags: "Fling_30",
-    description:
-      "An item to be held by a Pokémon. It is a powerful magnet that boosts the power of Electric-type moves.",
+    description: "An item to be held by a Pokémon. It is a powerful magnet that boosts the power of Electric-type moves.",
     sprite: "/Items/MAGNET.png",
-    suffix: "normal",
+    suffix: "normal"
   },
   {
     id: "MIRACLESEED",
@@ -2265,10 +2088,9 @@ export const items: Item[] = [
     pocket: 1,
     price: 3000,
     flags: "Fling_30",
-    description:
-      "An item to be held by a Pokémon. It is a seed imbued with life that ups the power of Grass-type moves.",
+    description: "An item to be held by a Pokémon. It is a seed imbued with life that ups the power of Grass-type moves.",
     sprite: "/Items/MIRACLESEED.png",
-    suffix: "normal",
+    suffix: "normal"
   },
   {
     id: "NEVERMELTICE",
@@ -2277,10 +2099,9 @@ export const items: Item[] = [
     pocket: 1,
     price: 3000,
     flags: "Fling_30",
-    description:
-      "An item to be held by a Pokémon. It is a piece of ice that repels heat and boosts Ice-type moves.",
+    description: "An item to be held by a Pokémon. It is a piece of ice that repels heat and boosts Ice-type moves.",
     sprite: "/Items/NEVERMELTICE.png",
-    suffix: "normal",
+    suffix: "normal"
   },
   {
     id: "BLACKBELT",
@@ -2289,10 +2110,9 @@ export const items: Item[] = [
     pocket: 1,
     price: 3000,
     flags: "Fling_30",
-    description:
-      "An item to be held by a Pokémon. It is a belt that boosts determination and Fighting-type moves.",
+    description: "An item to be held by a Pokémon. It is a belt that boosts determination and Fighting-type moves.",
     sprite: "/Items/BLACKBELT.png",
-    suffix: "normal",
+    suffix: "normal"
   },
   {
     id: "POISONBARB",
@@ -2301,10 +2121,9 @@ export const items: Item[] = [
     pocket: 1,
     price: 3000,
     flags: "Fling_70",
-    description:
-      "An item to be held by a Pokémon. It is a small, poisonous barb that ups the power of Poison-type moves.",
+    description: "An item to be held by a Pokémon. It is a small, poisonous barb that ups the power of Poison-type moves.",
     sprite: "/Items/POISONBARB.png",
-    suffix: "normal",
+    suffix: "normal"
   },
   {
     id: "SOFTSAND",
@@ -2313,10 +2132,9 @@ export const items: Item[] = [
     pocket: 1,
     price: 3000,
     flags: "Fling_10",
-    description:
-      "An item to be held by a Pokémon. It is a loose, silky sand that boosts the power of Ground-type moves.",
+    description: "An item to be held by a Pokémon. It is a loose, silky sand that boosts the power of Ground-type moves.",
     sprite: "/Items/SOFTSAND.png",
-    suffix: "normal",
+    suffix: "normal"
   },
   {
     id: "SHARPBEAK",
@@ -2325,10 +2143,9 @@ export const items: Item[] = [
     pocket: 1,
     price: 3000,
     flags: "Fling_50",
-    description:
-      "An item to be held by a Pokémon. It is a long, sharp beak that boosts the power of Flying-type moves.",
+    description: "An item to be held by a Pokémon. It is a long, sharp beak that boosts the power of Flying-type moves.",
     sprite: "/Items/SHARPBEAK.png",
-    suffix: "normal",
+    suffix: "normal"
   },
   {
     id: "TWISTEDSPOON",
@@ -2337,10 +2154,9 @@ export const items: Item[] = [
     pocket: 1,
     price: 3000,
     flags: "Fling_30",
-    description:
-      "An item to be held by a Pokémon. It is a spoon imbued with telekinetic power that boosts Psychic-type moves.",
+    description: "An item to be held by a Pokémon. It is a spoon imbued with telekinetic power that boosts Psychic-type moves.",
     sprite: "/Items/TWISTEDSPOON.png",
-    suffix: "normal",
+    suffix: "normal"
   },
   {
     id: "SILVERPOWDER",
@@ -2349,10 +2165,9 @@ export const items: Item[] = [
     pocket: 1,
     price: 3000,
     flags: "Fling_10",
-    description:
-      "An item to be held by a Pokémon. It is a shiny, silver powder that ups the power of Bug-type moves.",
+    description: "An item to be held by a Pokémon. It is a shiny, silver powder that ups the power of Bug-type moves.",
     sprite: "/Items/SILVERPOWDER.png",
-    suffix: "normal",
+    suffix: "normal"
   },
   {
     id: "HARDSTONE",
@@ -2361,10 +2176,9 @@ export const items: Item[] = [
     pocket: 1,
     price: 3000,
     flags: "Fling_100",
-    description:
-      "An item to be held by a Pokémon. It is an unbreakable stone that ups the power of Rock-type moves.",
+    description: "An item to be held by a Pokémon. It is an unbreakable stone that ups the power of Rock-type moves.",
     sprite: "/Items/HARDSTONE.png",
-    suffix: "normal",
+    suffix: "normal"
   },
   {
     id: "SPELLTAG",
@@ -2373,10 +2187,9 @@ export const items: Item[] = [
     pocket: 1,
     price: 3000,
     flags: "Fling_30",
-    description:
-      "An item to be held by a Pokémon. It is a sinister, eerie tag that boosts the power of Ghost-type moves.",
+    description: "An item to be held by a Pokémon. It is a sinister, eerie tag that boosts the power of Ghost-type moves.",
     sprite: "/Items/SPELLTAG.png",
-    suffix: "normal",
+    suffix: "normal"
   },
   {
     id: "DRAGONFANG",
@@ -2385,10 +2198,9 @@ export const items: Item[] = [
     pocket: 1,
     price: 3000,
     flags: "Fling_70",
-    description:
-      "An item to be held by a Pokémon. It is a hard and sharp fang that ups the power of Dragon-type moves.",
+    description: "An item to be held by a Pokémon. It is a hard and sharp fang that ups the power of Dragon-type moves.",
     sprite: "/Items/DRAGONFANG.png",
-    suffix: "normal",
+    suffix: "normal"
   },
   {
     id: "BLACKGLASSES",
@@ -2397,10 +2209,9 @@ export const items: Item[] = [
     pocket: 1,
     price: 3000,
     flags: "Fling_30",
-    description:
-      "An item to be held by a Pokémon. It is a shady-looking pair of glasses that boosts Dark-type moves.",
+    description: "An item to be held by a Pokémon. It is a shady-looking pair of glasses that boosts Dark-type moves.",
     sprite: "/Items/BLACKGLASSES.png",
-    suffix: "normal",
+    suffix: "normal"
   },
   {
     id: "METALCOAT",
@@ -2409,10 +2220,9 @@ export const items: Item[] = [
     pocket: 1,
     price: 3000,
     flags: "Fling_30",
-    description:
-      "An item to be held by a Pokémon. It is a special metallic film that ups the power of Steel-type moves.",
+    description: "An item to be held by a Pokémon. It is a special metallic film that ups the power of Steel-type moves.",
     sprite: "/Items/METALCOAT.png",
-    suffix: "normal",
+    suffix: "normal"
   },
   {
     id: "FAIRYFEATHER",
@@ -2421,10 +2231,9 @@ export const items: Item[] = [
     pocket: 1,
     price: 3000,
     flags: "Fling_10",
-    description:
-      "An item to be held by a Pokémon. This gleaming feather boosts the power of the holder's Fairy-type moves.",
+    description: "An item to be held by a Pokémon. This gleaming feather boosts the power of the holder's Fairy-type moves.",
     sprite: "/Items/FAIRYFEATHER.png",
-    suffix: "normal",
+    suffix: "normal"
   },
   {
     id: "SILKSCARF",
@@ -2433,10 +2242,9 @@ export const items: Item[] = [
     pocket: 1,
     price: 3000,
     flags: "Fling_10",
-    description:
-      "An item to be held by a Pokémon. It is a sumptuous scarf that boosts the power of Normal-type moves.",
+    description: "An item to be held by a Pokémon. It is a sumptuous scarf that boosts the power of Normal-type moves.",
     sprite: "/Items/SILKSCARF.png",
-    suffix: "normal",
+    suffix: "normal"
   },
   {
     id: "FLAMEPLATE",
@@ -2445,10 +2253,9 @@ export const items: Item[] = [
     pocket: 1,
     price: 10000,
     flags: "Fling_90",
-    description:
-      "An item to be held by a Pokémon. It is a stone tablet that boosts the power of Fire-type moves.",
+    description: "An item to be held by a Pokémon. It is a stone tablet that boosts the power of Fire-type moves.",
     sprite: "/Items/FLAMEPLATE.png",
-    suffix: "normal",
+    suffix: "normal"
   },
   {
     id: "SPLASHPLATE",
@@ -2457,10 +2264,9 @@ export const items: Item[] = [
     pocket: 1,
     price: 10000,
     flags: "Fling_90",
-    description:
-      "An item to be held by a Pokémon. It is a stone tablet that boosts the power of Water-type moves.",
+    description: "An item to be held by a Pokémon. It is a stone tablet that boosts the power of Water-type moves.",
     sprite: "/Items/SPLASHPLATE.png",
-    suffix: "normal",
+    suffix: "normal"
   },
   {
     id: "ZAPPLATE",
@@ -2469,10 +2275,9 @@ export const items: Item[] = [
     pocket: 1,
     price: 10000,
     flags: "Fling_90",
-    description:
-      "An item to be held by a Pokémon. It is a stone tablet that boosts the power of Electric-type moves.",
+    description: "An item to be held by a Pokémon. It is a stone tablet that boosts the power of Electric-type moves.",
     sprite: "/Items/ZAPPLATE.png",
-    suffix: "normal",
+    suffix: "normal"
   },
   {
     id: "MEADOWPLATE",
@@ -2481,10 +2286,9 @@ export const items: Item[] = [
     pocket: 1,
     price: 10000,
     flags: "Fling_90",
-    description:
-      "An item to be held by a Pokémon. It is a stone tablet that boosts the power of Grass-type moves.",
+    description: "An item to be held by a Pokémon. It is a stone tablet that boosts the power of Grass-type moves.",
     sprite: "/Items/MEADOWPLATE.png",
-    suffix: "normal",
+    suffix: "normal"
   },
   {
     id: "ICICLEPLATE",
@@ -2493,10 +2297,9 @@ export const items: Item[] = [
     pocket: 1,
     price: 10000,
     flags: "Fling_90",
-    description:
-      "An item to be held by a Pokémon. It is a stone tablet that boosts the power of Ice-type moves.",
+    description: "An item to be held by a Pokémon. It is a stone tablet that boosts the power of Ice-type moves.",
     sprite: "/Items/ICICLEPLATE.png",
-    suffix: "normal",
+    suffix: "normal"
   },
   {
     id: "FISTPLATE",
@@ -2505,10 +2308,9 @@ export const items: Item[] = [
     pocket: 1,
     price: 10000,
     flags: "Fling_90",
-    description:
-      "An item to be held by a Pokémon. It is a stone tablet that boosts the power of Fighting-type moves.",
+    description: "An item to be held by a Pokémon. It is a stone tablet that boosts the power of Fighting-type moves.",
     sprite: "/Items/FISTPLATE.png",
-    suffix: "normal",
+    suffix: "normal"
   },
   {
     id: "TOXICPLATE",
@@ -2517,10 +2319,9 @@ export const items: Item[] = [
     pocket: 1,
     price: 10000,
     flags: "Fling_90",
-    description:
-      "An item to be held by a Pokémon. It is a stone tablet that boosts the power of Poison-type moves.",
+    description: "An item to be held by a Pokémon. It is a stone tablet that boosts the power of Poison-type moves.",
     sprite: "/Items/TOXICPLATE.png",
-    suffix: "normal",
+    suffix: "normal"
   },
   {
     id: "EARTHPLATE",
@@ -2529,10 +2330,9 @@ export const items: Item[] = [
     pocket: 1,
     price: 10000,
     flags: "Fling_90",
-    description:
-      "An item to be held by a Pokémon. It is a stone tablet that boosts the power of Ground-type moves.",
+    description: "An item to be held by a Pokémon. It is a stone tablet that boosts the power of Ground-type moves.",
     sprite: "/Items/EARTHPLATE.png",
-    suffix: "normal",
+    suffix: "normal"
   },
   {
     id: "SKYPLATE",
@@ -2541,10 +2341,9 @@ export const items: Item[] = [
     pocket: 1,
     price: 10000,
     flags: "Fling_90",
-    description:
-      "An item to be held by a Pokémon. It is a stone tablet that boosts the power of Flying-type moves.",
+    description: "An item to be held by a Pokémon. It is a stone tablet that boosts the power of Flying-type moves.",
     sprite: "/Items/SKYPLATE.png",
-    suffix: "normal",
+    suffix: "normal"
   },
   {
     id: "MINDPLATE",
@@ -2553,10 +2352,9 @@ export const items: Item[] = [
     pocket: 1,
     price: 10000,
     flags: "Fling_90",
-    description:
-      "An item to be held by a Pokémon. It is a stone tablet that boosts the power of Psychic-type moves.",
+    description: "An item to be held by a Pokémon. It is a stone tablet that boosts the power of Psychic-type moves.",
     sprite: "/Items/MINDPLATE.png",
-    suffix: "normal",
+    suffix: "normal"
   },
   {
     id: "INSECTPLATE",
@@ -2565,10 +2363,9 @@ export const items: Item[] = [
     pocket: 1,
     price: 10000,
     flags: "Fling_90",
-    description:
-      "An item to be held by a Pokémon. It is a stone tablet that boosts the power of Bug-type moves.",
+    description: "An item to be held by a Pokémon. It is a stone tablet that boosts the power of Bug-type moves.",
     sprite: "/Items/INSECTPLATE.png",
-    suffix: "normal",
+    suffix: "normal"
   },
   {
     id: "STONEPLATE",
@@ -2577,10 +2374,9 @@ export const items: Item[] = [
     pocket: 1,
     price: 10000,
     flags: "Fling_90",
-    description:
-      "An item to be held by a Pokémon. It is a stone tablet that boosts the power of Rock-type moves.",
+    description: "An item to be held by a Pokémon. It is a stone tablet that boosts the power of Rock-type moves.",
     sprite: "/Items/STONEPLATE.png",
-    suffix: "normal",
+    suffix: "normal"
   },
   {
     id: "SPOOKYPLATE",
@@ -2589,10 +2385,9 @@ export const items: Item[] = [
     pocket: 1,
     price: 10000,
     flags: "Fling_90",
-    description:
-      "An item to be held by a Pokémon. It is a stone tablet that boosts the power of Ghost-type moves.",
+    description: "An item to be held by a Pokémon. It is a stone tablet that boosts the power of Ghost-type moves.",
     sprite: "/Items/SPOOKYPLATE.png",
-    suffix: "normal",
+    suffix: "normal"
   },
   {
     id: "DRACOPLATE",
@@ -2601,10 +2396,9 @@ export const items: Item[] = [
     pocket: 1,
     price: 10000,
     flags: "Fling_90",
-    description:
-      "An item to be held by a Pokémon. It is a stone tablet that boosts the power of Dragon-type moves.",
+    description: "An item to be held by a Pokémon. It is a stone tablet that boosts the power of Dragon-type moves.",
     sprite: "/Items/DRACOPLATE.png",
-    suffix: "normal",
+    suffix: "normal"
   },
   {
     id: "DREADPLATE",
@@ -2613,10 +2407,9 @@ export const items: Item[] = [
     pocket: 1,
     price: 10000,
     flags: "Fling_90",
-    description:
-      "An item to be held by a Pokémon. It is a stone tablet that boosts the power of Dark-type moves.",
+    description: "An item to be held by a Pokémon. It is a stone tablet that boosts the power of Dark-type moves.",
     sprite: "/Items/DREADPLATE.png",
-    suffix: "normal",
+    suffix: "normal"
   },
   {
     id: "IRONPLATE",
@@ -2625,10 +2418,9 @@ export const items: Item[] = [
     pocket: 1,
     price: 10000,
     flags: "Fling_90",
-    description:
-      "An item to be held by a Pokémon. It is a stone tablet that boosts the power of Steel-type moves.",
+    description: "An item to be held by a Pokémon. It is a stone tablet that boosts the power of Steel-type moves.",
     sprite: "/Items/IRONPLATE.png",
-    suffix: "normal",
+    suffix: "normal"
   },
   {
     id: "PIXIEPLATE",
@@ -2637,10 +2429,9 @@ export const items: Item[] = [
     pocket: 1,
     price: 10000,
     flags: "Fling_90",
-    description:
-      "An item to be held by a Pokémon. It is a stone tablet that boosts the power of Fairy-type moves.",
+    description: "An item to be held by a Pokémon. It is a stone tablet that boosts the power of Fairy-type moves.",
     sprite: "/Items/PIXIEPLATE.png",
-    suffix: "normal",
+    suffix: "normal"
   },
   {
     id: "FIREGEM",
@@ -2649,10 +2440,9 @@ export const items: Item[] = [
     pocket: 1,
     price: 4000,
     flags: "TypeGem",
-    description:
-      "A gem with an essence of fire. When held, it strengthens the power of a Fire-type move only once.",
+    description: "A gem with an essence of fire. When held, it strengthens the power of a Fire-type move only once.",
     sprite: "/Items/FIREGEM.png",
-    suffix: "normal",
+    suffix: "normal"
   },
   {
     id: "WATERGEM",
@@ -2661,10 +2451,9 @@ export const items: Item[] = [
     pocket: 1,
     price: 4000,
     flags: "TypeGem",
-    description:
-      "A gem with an essence of water. When held, it strengthens the power of a Water-type move only once.",
+    description: "A gem with an essence of water. When held, it strengthens the power of a Water-type move only once.",
     sprite: "/Items/WATERGEM.png",
-    suffix: "normal",
+    suffix: "normal"
   },
   {
     id: "ELECTRICGEM",
@@ -2673,10 +2462,9 @@ export const items: Item[] = [
     pocket: 1,
     price: 4000,
     flags: "TypeGem",
-    description:
-      "A gem with an essence of electricity. When held, it strengthens the power of an Electric-type move only once.",
+    description: "A gem with an essence of electricity. When held, it strengthens the power of an Electric-type move only once.",
     sprite: "/Items/ELECTRICGEM.png",
-    suffix: "normal",
+    suffix: "normal"
   },
   {
     id: "GRASSGEM",
@@ -2685,10 +2473,9 @@ export const items: Item[] = [
     pocket: 1,
     price: 4000,
     flags: "TypeGem",
-    description:
-      "A gem with an essence of nature. When held, it strengthens the power of a Grass-type move only once.",
+    description: "A gem with an essence of nature. When held, it strengthens the power of a Grass-type move only once.",
     sprite: "/Items/GRASSGEM.png",
-    suffix: "normal",
+    suffix: "normal"
   },
   {
     id: "ICEGEM",
@@ -2697,10 +2484,9 @@ export const items: Item[] = [
     pocket: 1,
     price: 4000,
     flags: "TypeGem",
-    description:
-      "A gem with an essence of ice. When held, it strengthens the power of an Ice-type move only once.",
+    description: "A gem with an essence of ice. When held, it strengthens the power of an Ice-type move only once.",
     sprite: "/Items/ICEGEM.png",
-    suffix: "normal",
+    suffix: "normal"
   },
   {
     id: "FIGHTINGGEM",
@@ -2709,10 +2495,9 @@ export const items: Item[] = [
     pocket: 1,
     price: 4000,
     flags: "TypeGem",
-    description:
-      "A gem with an essence of combat. When held, it strengthens the power of a Fighting-type move only once.",
+    description: "A gem with an essence of combat. When held, it strengthens the power of a Fighting-type move only once.",
     sprite: "/Items/FIGHTINGGEM.png",
-    suffix: "normal",
+    suffix: "normal"
   },
   {
     id: "POISONGEM",
@@ -2721,10 +2506,9 @@ export const items: Item[] = [
     pocket: 1,
     price: 4000,
     flags: "TypeGem",
-    description:
-      "A gem with an essence of poison. When held, it strengthens the power of a Poison-type move only once.",
+    description: "A gem with an essence of poison. When held, it strengthens the power of a Poison-type move only once.",
     sprite: "/Items/POISONGEM.png",
-    suffix: "normal",
+    suffix: "normal"
   },
   {
     id: "GROUNDGEM",
@@ -2733,10 +2517,9 @@ export const items: Item[] = [
     pocket: 1,
     price: 4000,
     flags: "TypeGem",
-    description:
-      "A gem with an essence of land. When held, it strengthens the power of a Ground-type move only once.",
+    description: "A gem with an essence of land. When held, it strengthens the power of a Ground-type move only once.",
     sprite: "/Items/GROUNDGEM.png",
-    suffix: "normal",
+    suffix: "normal"
   },
   {
     id: "FLYINGGEM",
@@ -2745,10 +2528,9 @@ export const items: Item[] = [
     pocket: 1,
     price: 4000,
     flags: "TypeGem",
-    description:
-      "A gem with an essence of air. When held, it strengthens the power of a Flying-type move only once.",
+    description: "A gem with an essence of air. When held, it strengthens the power of a Flying-type move only once.",
     sprite: "/Items/FLYINGGEM.png",
-    suffix: "normal",
+    suffix: "normal"
   },
   {
     id: "PSYCHICGEM",
@@ -2757,10 +2539,9 @@ export const items: Item[] = [
     pocket: 1,
     price: 4000,
     flags: "TypeGem",
-    description:
-      "A gem with an essence of the mind. When held, it strengthens the power of a Psychic-type move only once.",
+    description: "A gem with an essence of the mind. When held, it strengthens the power of a Psychic-type move only once.",
     sprite: "/Items/PSYCHICGEM.png",
-    suffix: "normal",
+    suffix: "normal"
   },
   {
     id: "BUGGEM",
@@ -2769,10 +2550,9 @@ export const items: Item[] = [
     pocket: 1,
     price: 4000,
     flags: "TypeGem",
-    description:
-      "A gem with an insect-like essence. When held, it strengthens the power of a Bug-type move only once.",
+    description: "A gem with an insect-like essence. When held, it strengthens the power of a Bug-type move only once.",
     sprite: "/Items/BUGGEM.png",
-    suffix: "normal",
+    suffix: "normal"
   },
   {
     id: "ROCKGEM",
@@ -2781,10 +2561,9 @@ export const items: Item[] = [
     pocket: 1,
     price: 4000,
     flags: "TypeGem",
-    description:
-      "A gem with an essence of rock. When held, it strengthens the power of a Rock-type move only once.",
+    description: "A gem with an essence of rock. When held, it strengthens the power of a Rock-type move only once.",
     sprite: "/Items/ROCKGEM.png",
-    suffix: "normal",
+    suffix: "normal"
   },
   {
     id: "GHOSTGEM",
@@ -2793,10 +2572,9 @@ export const items: Item[] = [
     pocket: 1,
     price: 4000,
     flags: "TypeGem",
-    description:
-      "A gem with a spectral essence. When held, it strengthens the power of a Ghost-type move only once.",
+    description: "A gem with a spectral essence. When held, it strengthens the power of a Ghost-type move only once.",
     sprite: "/Items/GHOSTGEM.png",
-    suffix: "normal",
+    suffix: "normal"
   },
   {
     id: "DRAGONGEM",
@@ -2805,10 +2583,9 @@ export const items: Item[] = [
     pocket: 1,
     price: 4000,
     flags: "TypeGem",
-    description:
-      "A gem with a draconic essence. When held, it strengthens the power of a Dragon-type move only once.",
+    description: "A gem with a draconic essence. When held, it strengthens the power of a Dragon-type move only once.",
     sprite: "/Items/DRAGONGEM.png",
-    suffix: "normal",
+    suffix: "normal"
   },
   {
     id: "DARKGEM",
@@ -2817,10 +2594,9 @@ export const items: Item[] = [
     pocket: 1,
     price: 4000,
     flags: "TypeGem",
-    description:
-      "A gem with an essence of darkness. When held, it strengthens the power of a Dark-type move only once.",
+    description: "A gem with an essence of darkness. When held, it strengthens the power of a Dark-type move only once.",
     sprite: "/Items/DARKGEM.png",
-    suffix: "normal",
+    suffix: "normal"
   },
   {
     id: "STEELGEM",
@@ -2829,10 +2605,9 @@ export const items: Item[] = [
     pocket: 1,
     price: 4000,
     flags: "TypeGem",
-    description:
-      "A gem with an essence of steel. When held, it strengthens the power of a Steel-type move only once.",
+    description: "A gem with an essence of steel. When held, it strengthens the power of a Steel-type move only once.",
     sprite: "/Items/STEELGEM.png",
-    suffix: "normal",
+    suffix: "normal"
   },
   {
     id: "FAIRYGEM",
@@ -2841,10 +2616,9 @@ export const items: Item[] = [
     pocket: 1,
     price: 4000,
     flags: "TypeGem",
-    description:
-      "A gem with an essence of the fey. When held, it strengthens the power of a Fairy-type move only once.",
+    description: "A gem with an essence of the fey. When held, it strengthens the power of a Fairy-type move only once.",
     sprite: "/Items/FAIRYGEM.png",
-    suffix: "normal",
+    suffix: "normal"
   },
   {
     id: "NORMALGEM",
@@ -2853,10 +2627,9 @@ export const items: Item[] = [
     pocket: 1,
     price: 4000,
     flags: "TypeGem",
-    description:
-      "A gem with an ordinary essence. When held, it strengthens the power of a Normal-type move only once.",
+    description: "A gem with an ordinary essence. When held, it strengthens the power of a Normal-type move only once.",
     sprite: "/Items/NORMALGEM.png",
-    suffix: "normal",
+    suffix: "normal"
   },
   {
     id: "LIGHTBALL",
@@ -2865,10 +2638,9 @@ export const items: Item[] = [
     pocket: 1,
     price: 1000,
     flags: "Fling_30",
-    description:
-      "An item to be held by Pikachu. It is a puzzling orb that raises the Attack and Sp. Atk stat.",
+    description: "An item to be held by Pikachu. It is a puzzling orb that raises the Attack and Sp. Atk stat.",
     sprite: "/Items/LIGHTBALL.png",
-    suffix: "normal",
+    suffix: "normal"
   },
   {
     id: "LUCKYPUNCH",
@@ -2877,10 +2649,9 @@ export const items: Item[] = [
     pocket: 1,
     price: 1000,
     flags: "Fling_40",
-    description:
-      "An item to be held by Chansey. It is a pair of gloves that boosts Chansey's critical-hit ratio.",
+    description: "An item to be held by Chansey. It is a pair of gloves that boosts Chansey's critical-hit ratio.",
     sprite: "/Items/LUCKYPUNCH.png",
-    suffix: "normal",
+    suffix: "normal"
   },
   {
     id: "METALPOWDER",
@@ -2889,10 +2660,9 @@ export const items: Item[] = [
     pocket: 1,
     price: 1000,
     flags: "Fling_10",
-    description:
-      "An item to be held by Ditto. Extremely fine yet hard, this odd powder boosts the Defense stat.",
+    description: "An item to be held by Ditto. Extremely fine yet hard, this odd powder boosts the Defense stat.",
     sprite: "/Items/METALPOWDER.png",
-    suffix: "normal",
+    suffix: "normal"
   },
   {
     id: "QUICKPOWDER",
@@ -2901,10 +2671,9 @@ export const items: Item[] = [
     pocket: 1,
     price: 1000,
     flags: "Fling_10",
-    description:
-      "An item to be held by Ditto. Extremely fine yet hard, this odd powder boosts the Speed stat.",
+    description: "An item to be held by Ditto. Extremely fine yet hard, this odd powder boosts the Speed stat.",
     sprite: "/Items/QUICKPOWDER.png",
-    suffix: "normal",
+    suffix: "normal"
   },
   {
     id: "THICKCLUB",
@@ -2913,10 +2682,9 @@ export const items: Item[] = [
     pocket: 1,
     price: 1000,
     flags: "Fling_90",
-    description:
-      "An item to be held by Cubone or Marowak. It is a hard bone of some sort that boosts the Attack stat.",
+    description: "An item to be held by Cubone or Marowak. It is a hard bone of some sort that boosts the Attack stat.",
     sprite: "/Items/THICKCLUB.png",
-    suffix: "normal",
+    suffix: "normal"
   },
   {
     id: "LEEK",
@@ -2925,10 +2693,9 @@ export const items: Item[] = [
     pocket: 1,
     price: 1000,
     flags: "Fling_60",
-    description:
-      "An item to be held by Farfetch'd. It is a very long and stiff stalk of leek that boosts the critical-hit ratio.",
+    description: "An item to be held by Farfetch'd. It is a very long and stiff stalk of leek that boosts the critical-hit ratio.",
     sprite: "/Items/LEEK.png",
-    suffix: "normal",
+    suffix: "normal"
   },
   {
     id: "SOULDEW",
@@ -2937,10 +2704,9 @@ export const items: Item[] = [
     pocket: 1,
     price: 0,
     flags: "Fling_30",
-    description:
-      "A wondrous orb to be held by either Latios or Latias. It raises the power of Psychic- and Dragon-type moves.",
+    description: "A wondrous orb to be held by either Latios or Latias. It raises the power of Psychic- and Dragon-type moves.",
     sprite: "/Items/SOULDEW.png",
-    suffix: "normal",
+    suffix: "normal"
   },
   {
     id: "DEEPSEATOOTH",
@@ -2949,10 +2715,9 @@ export const items: Item[] = [
     pocket: 1,
     price: 2000,
     flags: "Fling_90",
-    description:
-      "An item to be held by Clamperl. A fang that gleams a sharp silver, it raises the Sp. Atk stat.",
+    description: "An item to be held by Clamperl. A fang that gleams a sharp silver, it raises the Sp. Atk stat.",
     sprite: "/Items/DEEPSEATOOTH.png",
-    suffix: "normal",
+    suffix: "normal"
   },
   {
     id: "DEEPSEASCALE",
@@ -2961,10 +2726,9 @@ export const items: Item[] = [
     pocket: 1,
     price: 2000,
     flags: "Fling_30",
-    description:
-      "An item to be held by Clamperl. A scale that shines a faint pink, it raises the Sp. Def stat.",
+    description: "An item to be held by Clamperl. A scale that shines a faint pink, it raises the Sp. Def stat.",
     sprite: "/Items/DEEPSEASCALE.png",
-    suffix: "normal",
+    suffix: "normal"
   },
   {
     id: "ADAMANTORB",
@@ -2973,10 +2737,9 @@ export const items: Item[] = [
     pocket: 1,
     price: 10000,
     flags: "Fling_60",
-    description:
-      "A brightly gleaming orb to be held by Dialga. It boosts the power of Dragon- and Steel-type moves.",
+    description: "A brightly gleaming orb to be held by Dialga. It boosts the power of Dragon- and Steel-type moves.",
     sprite: "/Items/ADAMANTORB.png",
-    suffix: "normal",
+    suffix: "normal"
   },
   {
     id: "LUSTROUSORB",
@@ -2985,10 +2748,9 @@ export const items: Item[] = [
     pocket: 1,
     price: 10000,
     flags: "Fling_60",
-    description:
-      "A beautifully glowing orb to be held by Palkia. It boosts the power of Dragon- and Water-type moves.",
+    description: "A beautifully glowing orb to be held by Palkia. It boosts the power of Dragon- and Water-type moves.",
     sprite: "/Items/LUSTROUSORB.png",
-    suffix: "normal",
+    suffix: "normal"
   },
   {
     id: "GRISEOUSORB",
@@ -2997,10 +2759,9 @@ export const items: Item[] = [
     pocket: 1,
     price: 10000,
     flags: "Fling_60",
-    description:
-      "A glowing orb to be held by Giratina. It boosts the power of Dragon- and Ghost-type moves.",
+    description: "A glowing orb to be held by Giratina. It boosts the power of Dragon- and Ghost-type moves.",
     sprite: "/Items/GRISEOUSORB.png",
-    suffix: "normal",
+    suffix: "normal"
   },
   {
     id: "ADAMANTCRYSTAL",
@@ -3009,10 +2770,9 @@ export const items: Item[] = [
     pocket: 1,
     price: 4000,
     flags: "Fling_60",
-    description:
-      "A large, glowing gem to be held by Dialga. It wells with power and allows the Pokémon to change form.",
+    description: "A large, glowing gem to be held by Dialga. It wells with power and allows the Pokémon to change form.",
     sprite: "/Items/ADAMANTCRYSTAL.png",
-    suffix: "normal",
+    suffix: "normal"
   },
   {
     id: "LUSTROUSGLOBE",
@@ -3021,10 +2781,9 @@ export const items: Item[] = [
     pocket: 1,
     price: 4000,
     flags: "Fling_60",
-    description:
-      "A large, glowing orb to be held by Palkia. It wells with power and allows the Pokémon to change form.",
+    description: "A large, glowing orb to be held by Palkia. It wells with power and allows the Pokémon to change form.",
     sprite: "/Items/LUSTROUSGLOBE.png",
-    suffix: "normal",
+    suffix: "normal"
   },
   {
     id: "GRISEOUSCORE",
@@ -3033,10 +2792,9 @@ export const items: Item[] = [
     pocket: 1,
     price: 4000,
     flags: "Fling_60",
-    description:
-      "A large, glowing gem to be held by Giratina. It wells with power and allows the Pokémon to change form.",
+    description: "A large, glowing gem to be held by Giratina. It wells with power and allows the Pokémon to change form.",
     sprite: "/Items/GRISEOUSCORE.png",
-    suffix: "normal",
+    suffix: "normal"
   },
   {
     id: "RUSTEDSWORD",
@@ -3045,10 +2803,9 @@ export const items: Item[] = [
     pocket: 1,
     price: 0,
     flags: "",
-    description:
-      "It is said that a hero used this sword to halt a disaster in ancient times. But it's grown rusty and worn.",
+    description: "It is said that a hero used this sword to halt a disaster in ancient times. But it's grown rusty and worn.",
     sprite: "/Items/RUSTEDSWORD.png",
-    suffix: "normal",
+    suffix: "normal"
   },
   {
     id: "RUSTEDSHIELD",
@@ -3057,10 +2814,9 @@ export const items: Item[] = [
     pocket: 1,
     price: 0,
     flags: "",
-    description:
-      "It is said that a hero used this shield to halt a disaster in ancient times. But it's grown rusty and worn.",
+    description: "It is said that a hero used this shield to halt a disaster in ancient times. But it's grown rusty and worn.",
     sprite: "/Items/RUSTEDSHIELD.png",
-    suffix: "normal",
+    suffix: "normal"
   },
   {
     id: "WELLSPRINGMASK",
@@ -3069,10 +2825,9 @@ export const items: Item[] = [
     pocket: 1,
     price: 0,
     flags: "Fling_60",
-    description:
-      "An item to be held by Ogerpon. This carved wooden mask allows Ogerpon to wield the Water type in battle.",
+    description: "An item to be held by Ogerpon. This carved wooden mask allows Ogerpon to wield the Water type in battle.",
     sprite: "/Items/WELLSPRINGMASK.png",
-    suffix: "normal",
+    suffix: "normal"
   },
   {
     id: "HEARTHFLAMEMASK",
@@ -3081,10 +2836,9 @@ export const items: Item[] = [
     pocket: 1,
     price: 0,
     flags: "Fling_60",
-    description:
-      "An item to be held by Ogerpon. This carved wooden mask allows Ogerpon to wield the Fire type in battle.",
+    description: "An item to be held by Ogerpon. This carved wooden mask allows Ogerpon to wield the Fire type in battle.",
     sprite: "/Items/HEARTHFLAMEMASK.png",
-    suffix: "normal",
+    suffix: "normal"
   },
   {
     id: "CORNERSTONEMASK",
@@ -3093,10 +2847,9 @@ export const items: Item[] = [
     pocket: 1,
     price: 0,
     flags: "Fling_60",
-    description:
-      "An item to be held by Ogerpon. This carved wooden mask allows Ogerpon to wield the Rock type in battle.",
+    description: "An item to be held by Ogerpon. This carved wooden mask allows Ogerpon to wield the Rock type in battle.",
     sprite: "/Items/CORNERSTONEMASK.png",
-    suffix: "normal",
+    suffix: "normal"
   },
   {
     id: "DOUSEDRIVE",
@@ -3105,10 +2858,9 @@ export const items: Item[] = [
     pocket: 1,
     price: 0,
     flags: "Fling_70",
-    description:
-      "A cassette to be held by Genesect. It changes Techno Blast to a Water-type move.",
+    description: "A cassette to be held by Genesect. It changes Techno Blast to a Water-type move.",
     sprite: "/Items/DOUSEDRIVE.png",
-    suffix: "normal",
+    suffix: "normal"
   },
   {
     id: "SHOCKDRIVE",
@@ -3117,10 +2869,9 @@ export const items: Item[] = [
     pocket: 1,
     price: 0,
     flags: "Fling_70",
-    description:
-      "A cassette to be held by Genesect. It changes Techno Blast to an Electric-type move.",
+    description: "A cassette to be held by Genesect. It changes Techno Blast to an Electric-type move.",
     sprite: "/Items/SHOCKDRIVE.png",
-    suffix: "normal",
+    suffix: "normal"
   },
   {
     id: "BURNDRIVE",
@@ -3129,10 +2880,9 @@ export const items: Item[] = [
     pocket: 1,
     price: 0,
     flags: "Fling_70",
-    description:
-      "A cassette to be held by Genesect. It changes Techno Blast to a Fire-type move.",
+    description: "A cassette to be held by Genesect. It changes Techno Blast to a Fire-type move.",
     sprite: "/Items/BURNDRIVE.png",
-    suffix: "normal",
+    suffix: "normal"
   },
   {
     id: "CHILLDRIVE",
@@ -3141,10 +2891,9 @@ export const items: Item[] = [
     pocket: 1,
     price: 0,
     flags: "Fling_70",
-    description:
-      "A cassette to be held by Genesect. It changes Techno Blast to an Ice-type move.",
+    description: "A cassette to be held by Genesect. It changes Techno Blast to an Ice-type move.",
     sprite: "/Items/CHILLDRIVE.png",
-    suffix: "normal",
+    suffix: "normal"
   },
   {
     id: "FIREMEMORY",
@@ -3153,10 +2902,9 @@ export const items: Item[] = [
     pocket: 1,
     price: 1000,
     flags: "Fling_50",
-    description:
-      "A memory disc containing Fire-type data. It changes the holder's type if held by a certain Pokémon.",
+    description: "A memory disc containing Fire-type data. It changes the holder's type if held by a certain Pokémon.",
     sprite: "/Items/FIREMEMORY.png",
-    suffix: "normal",
+    suffix: "normal"
   },
   {
     id: "WATERMEMORY",
@@ -3165,10 +2913,9 @@ export const items: Item[] = [
     pocket: 1,
     price: 1000,
     flags: "Fling_50",
-    description:
-      "A memory disc containing Water-type data. It changes the holder's type if held by a certain Pokémon.",
+    description: "A memory disc containing Water-type data. It changes the holder's type if held by a certain Pokémon.",
     sprite: "/Items/WATERMEMORY.png",
-    suffix: "normal",
+    suffix: "normal"
   },
   {
     id: "ELECTRICMEMORY",
@@ -3177,10 +2924,9 @@ export const items: Item[] = [
     pocket: 1,
     price: 1000,
     flags: "Fling_50",
-    description:
-      "A memory disc containing Electric-type data. It changes the holder's type if held by a certain Pokémon.",
+    description: "A memory disc containing Electric-type data. It changes the holder's type if held by a certain Pokémon.",
     sprite: "/Items/ELECTRICMEMORY.png",
-    suffix: "normal",
+    suffix: "normal"
   },
   {
     id: "GRASSMEMORY",
@@ -3189,10 +2935,9 @@ export const items: Item[] = [
     pocket: 1,
     price: 1000,
     flags: "Fling_50",
-    description:
-      "A memory disc containing Grass-type data. It changes the holder's type if held by a certain Pokémon.",
+    description: "A memory disc containing Grass-type data. It changes the holder's type if held by a certain Pokémon.",
     sprite: "/Items/GRASSMEMORY.png",
-    suffix: "normal",
+    suffix: "normal"
   },
   {
     id: "ICEMEMORY",
@@ -3201,10 +2946,9 @@ export const items: Item[] = [
     pocket: 1,
     price: 1000,
     flags: "Fling_50",
-    description:
-      "A memory disc containing Ice-type data. It changes the holder's type if held by a certain Pokémon.",
+    description: "A memory disc containing Ice-type data. It changes the holder's type if held by a certain Pokémon.",
     sprite: "/Items/ICEMEMORY.png",
-    suffix: "normal",
+    suffix: "normal"
   },
   {
     id: "FIGHTINGMEMORY",
@@ -3213,10 +2957,9 @@ export const items: Item[] = [
     pocket: 1,
     price: 1000,
     flags: "Fling_50",
-    description:
-      "A memory disc containing Fighting-type data. It changes the holder's type if held by a certain Pokémon.",
+    description: "A memory disc containing Fighting-type data. It changes the holder's type if held by a certain Pokémon.",
     sprite: "/Items/FIGHTINGMEMORY.png",
-    suffix: "normal",
+    suffix: "normal"
   },
   {
     id: "POISONMEMORY",
@@ -3225,10 +2968,9 @@ export const items: Item[] = [
     pocket: 1,
     price: 1000,
     flags: "Fling_50",
-    description:
-      "A memory disc containing Poison-type data. It changes the holder's type if held by a certain Pokémon.",
+    description: "A memory disc containing Poison-type data. It changes the holder's type if held by a certain Pokémon.",
     sprite: "/Items/POISONMEMORY.png",
-    suffix: "normal",
+    suffix: "normal"
   },
   {
     id: "GROUNDMEMORY",
@@ -3237,10 +2979,9 @@ export const items: Item[] = [
     pocket: 1,
     price: 1000,
     flags: "Fling_50",
-    description:
-      "A memory disc containing Ground-type data. It changes the holder's type if held by a certain Pokémon.",
+    description: "A memory disc containing Ground-type data. It changes the holder's type if held by a certain Pokémon.",
     sprite: "/Items/GROUNDMEMORY.png",
-    suffix: "normal",
+    suffix: "normal"
   },
   {
     id: "FLYINGMEMORY",
@@ -3249,10 +2990,9 @@ export const items: Item[] = [
     pocket: 1,
     price: 1000,
     flags: "Fling_50",
-    description:
-      "A memory disc containing Flying-type data. It changes the holder's type if held by a certain Pokémon.",
+    description: "A memory disc containing Flying-type data. It changes the holder's type if held by a certain Pokémon.",
     sprite: "/Items/FLYINGMEMORY.png",
-    suffix: "normal",
+    suffix: "normal"
   },
   {
     id: "PSYCHICMEMORY",
@@ -3261,10 +3001,9 @@ export const items: Item[] = [
     pocket: 1,
     price: 1000,
     flags: "Fling_50",
-    description:
-      "A memory disc containing Psychic-type data. It changes the holder's type if held by a certain Pokémon.",
+    description: "A memory disc containing Psychic-type data. It changes the holder's type if held by a certain Pokémon.",
     sprite: "/Items/PSYCHICMEMORY.png",
-    suffix: "normal",
+    suffix: "normal"
   },
   {
     id: "BUGMEMORY",
@@ -3273,10 +3012,9 @@ export const items: Item[] = [
     pocket: 1,
     price: 1000,
     flags: "Fling_50",
-    description:
-      "A memory disc containing Bug-type data. It changes the holder's type if held by a certain Pokémon.",
+    description: "A memory disc containing Bug-type data. It changes the holder's type if held by a certain Pokémon.",
     sprite: "/Items/BUGMEMORY.png",
-    suffix: "normal",
+    suffix: "normal"
   },
   {
     id: "ROCKMEMORY",
@@ -3285,10 +3023,9 @@ export const items: Item[] = [
     pocket: 1,
     price: 1000,
     flags: "Fling_50",
-    description:
-      "A memory disc containing Rock-type data. It changes the holder's type if held by a certain Pokémon.",
+    description: "A memory disc containing Rock-type data. It changes the holder's type if held by a certain Pokémon.",
     sprite: "/Items/ROCKMEMORY.png",
-    suffix: "normal",
+    suffix: "normal"
   },
   {
     id: "GHOSTMEMORY",
@@ -3297,10 +3034,9 @@ export const items: Item[] = [
     pocket: 1,
     price: 1000,
     flags: "Fling_50",
-    description:
-      "A memory disc containing Ghost-type data. It changes the holder's type if held by a certain Pokémon.",
+    description: "A memory disc containing Ghost-type data. It changes the holder's type if held by a certain Pokémon.",
     sprite: "/Items/GHOSTMEMORY.png",
-    suffix: "normal",
+    suffix: "normal"
   },
   {
     id: "DRAGONMEMORY",
@@ -3309,10 +3045,9 @@ export const items: Item[] = [
     pocket: 1,
     price: 1000,
     flags: "Fling_50",
-    description:
-      "A memory disc containing Dragon-type data. It changes the holder's type if held by a certain Pokémon.",
+    description: "A memory disc containing Dragon-type data. It changes the holder's type if held by a certain Pokémon.",
     sprite: "/Items/DRAGONMEMORY.png",
-    suffix: "normal",
+    suffix: "normal"
   },
   {
     id: "DARKMEMORY",
@@ -3321,10 +3056,9 @@ export const items: Item[] = [
     pocket: 1,
     price: 1000,
     flags: "Fling_50",
-    description:
-      "A memory disc containing Dark-type data. It changes the holder's type if held by a certain Pokémon.",
+    description: "A memory disc containing Dark-type data. It changes the holder's type if held by a certain Pokémon.",
     sprite: "/Items/DARKMEMORY.png",
-    suffix: "normal",
+    suffix: "normal"
   },
   {
     id: "STEELMEMORY",
@@ -3333,10 +3067,9 @@ export const items: Item[] = [
     pocket: 1,
     price: 1000,
     flags: "Fling_50",
-    description:
-      "A memory disc containing Steel-type data. It changes the holder's type if held by a certain Pokémon.",
+    description: "A memory disc containing Steel-type data. It changes the holder's type if held by a certain Pokémon.",
     sprite: "/Items/STEELMEMORY.png",
-    suffix: "normal",
+    suffix: "normal"
   },
   {
     id: "FAIRYMEMORY",
@@ -3345,10 +3078,9 @@ export const items: Item[] = [
     pocket: 1,
     price: 1000,
     flags: "Fling_50",
-    description:
-      "A memory disc containing Fairy-type data. It changes the holder's type if held by a certain Pokémon.",
+    description: "A memory disc containing Fairy-type data. It changes the holder's type if held by a certain Pokémon.",
     sprite: "/Items/FAIRYMEMORY.png",
-    suffix: "normal",
+    suffix: "normal"
   },
   {
     id: "EVERSTONE",
@@ -3357,10 +3089,9 @@ export const items: Item[] = [
     pocket: 1,
     price: 3000,
     flags: "Fling_30",
-    description:
-      "An item to be held by a Pokémon. The Pokémon holding this peculiar stone is prevented from evolving.",
+    description: "An item to be held by a Pokémon. The Pokémon holding this peculiar stone is prevented from evolving.",
     sprite: "/Items/EVERSTONE.png",
-    suffix: "normal",
+    suffix: "normal"
   },
   {
     id: "DRAGONSCALE",
@@ -3369,10 +3100,9 @@ export const items: Item[] = [
     pocket: 1,
     price: 3000,
     flags: "Fling_30",
-    description:
-      "A thick and tough scale. Dragon-type Pokémon may be holding this item when caught.",
+    description: "A thick and tough scale. Dragon-type Pokémon may be holding this item when caught.",
     sprite: "/Items/DRAGONSCALE.png",
-    suffix: "normal",
+    suffix: "normal"
   },
   {
     id: "UPGRADE",
@@ -3381,10 +3111,9 @@ export const items: Item[] = [
     pocket: 1,
     price: 3000,
     flags: "Fling_30",
-    description:
-      "A transparent device filled with all sorts of data. It was produced by Silph Co.",
+    description: "A transparent device filled with all sorts of data. It was produced by Silph Co.",
     sprite: "/Items/UPGRADE.png",
-    suffix: "normal",
+    suffix: "normal"
   },
   {
     id: "DUBIOUSDISC",
@@ -3393,10 +3122,9 @@ export const items: Item[] = [
     pocket: 1,
     price: 3000,
     flags: "Fling_50",
-    description:
-      "A transparent device overflowing with dubious data.  Its producer is unknown.",
+    description: "A transparent device overflowing with dubious data.  Its producer is unknown.",
     sprite: "/Items/DUBIOUSDISC.png",
-    suffix: "normal",
+    suffix: "normal"
   },
   {
     id: "PROTECTOR",
@@ -3405,10 +3133,9 @@ export const items: Item[] = [
     pocket: 1,
     price: 3000,
     flags: "Fling_80",
-    description:
-      "A protective item of some sort. It is extremely stiff and heavy. It is loved by a certain Pokémon.",
+    description: "A protective item of some sort. It is extremely stiff and heavy. It is loved by a certain Pokémon.",
     sprite: "/Items/PROTECTOR.png",
-    suffix: "normal",
+    suffix: "normal"
   },
   {
     id: "ELECTIRIZER",
@@ -3417,10 +3144,9 @@ export const items: Item[] = [
     pocket: 1,
     price: 3000,
     flags: "Fling_80",
-    description:
-      "A box packed with a tremendous amount of electric energy. It is loved by a certain Pokémon.",
+    description: "A box packed with a tremendous amount of electric energy. It is loved by a certain Pokémon.",
     sprite: "/Items/ELECTIRIZER.png",
-    suffix: "normal",
+    suffix: "normal"
   },
   {
     id: "MAGMARIZER",
@@ -3429,10 +3155,9 @@ export const items: Item[] = [
     pocket: 1,
     price: 3000,
     flags: "Fling_80",
-    description:
-      "A box packed with a tremendous amount of magma energy. It is loved by a certain Pokémon.",
+    description: "A box packed with a tremendous amount of magma energy. It is loved by a certain Pokémon.",
     sprite: "/Items/MAGMARIZER.png",
-    suffix: "normal",
+    suffix: "normal"
   },
   {
     id: "REAPERCLOTH",
@@ -3441,10 +3166,9 @@ export const items: Item[] = [
     pocket: 1,
     price: 3000,
     flags: "Fling_10",
-    description:
-      "A cloth imbued with horrifyingly strong spiritual energy. It is loved by a certain Pokémon.",
+    description: "A cloth imbued with horrifyingly strong spiritual energy. It is loved by a certain Pokémon.",
     sprite: "/Items/REAPERCLOTH.png",
-    suffix: "normal",
+    suffix: "normal"
   },
   {
     id: "PRISMSCALE",
@@ -3453,10 +3177,9 @@ export const items: Item[] = [
     pocket: 1,
     price: 3000,
     flags: "Fling_30",
-    description:
-      "A mysterious scale that evolves certain Pokémon. It shines in rainbow colors.",
+    description: "A mysterious scale that evolves certain Pokémon. It shines in rainbow colors.",
     sprite: "/Items/PRISMSCALE.png",
-    suffix: "normal",
+    suffix: "normal"
   },
   {
     id: "OVALSTONE",
@@ -3465,10 +3188,9 @@ export const items: Item[] = [
     pocket: 1,
     price: 3000,
     flags: "Fling_80",
-    description:
-      "A peculiar stone that makes certain species of Pokémon evolve. It is shaped like an egg.",
+    description: "A peculiar stone that makes certain species of Pokémon evolve. It is shaped like an egg.",
     sprite: "/Items/OVALSTONE.png",
-    suffix: "normal",
+    suffix: "normal"
   },
   {
     id: "WHIPPEDDREAM",
@@ -3477,10 +3199,9 @@ export const items: Item[] = [
     pocket: 1,
     price: 3000,
     flags: "Fling_80",
-    description:
-      "A soft and sweet treat made of fluffy, puffy and whirled cream. It's loved by a certain Pokémon.",
+    description: "A soft and sweet treat made of fluffy, puffy and whirled cream. It's loved by a certain Pokémon.",
     sprite: "/Items/WHIPPEDDREAM.png",
-    suffix: "normal",
+    suffix: "normal"
   },
   {
     id: "SACHET",
@@ -3489,10 +3210,9 @@ export const items: Item[] = [
     pocket: 1,
     price: 3000,
     flags: "Fling_80",
-    description:
-      "A sachet filled with slightly overwhelming fragrant perfumes. Yet it's loved by a certain Pokémon.",
+    description: "A sachet filled with slightly overwhelming fragrant perfumes. Yet it's loved by a certain Pokémon.",
     sprite: "/Items/SACHET.png",
-    suffix: "normal",
+    suffix: "normal"
   },
   {
     id: "STRAWBERRYSWEET",
@@ -3501,10 +3221,9 @@ export const items: Item[] = [
     pocket: 1,
     price: 500,
     flags: "Fling_10",
-    description:
-      "A strawberry-shaped sweet. When a Milcery holds this, it will spin around happily.",
+    description: "A strawberry-shaped sweet. When a Milcery holds this, it will spin around happily.",
     sprite: "/Items/STRAWBERRYSWEET.png",
-    suffix: "normal",
+    suffix: "normal"
   },
   {
     id: "LOVESWEET",
@@ -3513,10 +3232,9 @@ export const items: Item[] = [
     pocket: 1,
     price: 500,
     flags: "Fling_10",
-    description:
-      "A heart-shaped sweet. When a Milcery holds this, it spins around happily.",
+    description: "A heart-shaped sweet. When a Milcery holds this, it spins around happily.",
     sprite: "/Items/LOVESWEET.png",
-    suffix: "normal",
+    suffix: "normal"
   },
   {
     id: "BERRYSWEET",
@@ -3525,10 +3243,9 @@ export const items: Item[] = [
     pocket: 1,
     price: 500,
     flags: "Fling_10",
-    description:
-      "A berry-shaped sweet. When a Milcery holds this, it spins around happily.",
+    description: "A berry-shaped sweet. When a Milcery holds this, it spins around happily.",
     sprite: "/Items/BERRYSWEET.png",
-    suffix: "normal",
+    suffix: "normal"
   },
   {
     id: "CLOVERSWEET",
@@ -3537,10 +3254,9 @@ export const items: Item[] = [
     pocket: 1,
     price: 500,
     flags: "Fling_10",
-    description:
-      "A clover-shaped sweet. When a Milcery holds this, it spins around happily.",
+    description: "A clover-shaped sweet. When a Milcery holds this, it spins around happily.",
     sprite: "/Items/CLOVERSWEET.png",
-    suffix: "normal",
+    suffix: "normal"
   },
   {
     id: "FLOWERSWEET",
@@ -3549,10 +3265,9 @@ export const items: Item[] = [
     pocket: 1,
     price: 500,
     flags: "Fling_10",
-    description:
-      "A flower-shaped sweet. When a Milcery holds this, it spins around happily.",
+    description: "A flower-shaped sweet. When a Milcery holds this, it spins around happily.",
     sprite: "/Items/FLOWERSWEET.png",
-    suffix: "normal",
+    suffix: "normal"
   },
   {
     id: "STARSWEET",
@@ -3561,10 +3276,9 @@ export const items: Item[] = [
     pocket: 1,
     price: 500,
     flags: "Fling_10",
-    description:
-      "A star-shaped sweet. When a Milcery holds this, it spins around happily.",
+    description: "A star-shaped sweet. When a Milcery holds this, it spins around happily.",
     sprite: "/Items/STARSWEET.png",
-    suffix: "normal",
+    suffix: "normal"
   },
   {
     id: "RIBBONSWEET",
@@ -3573,10 +3287,9 @@ export const items: Item[] = [
     pocket: 1,
     price: 500,
     flags: "Fling_10",
-    description:
-      "A ribbon-shaped sweet. When a Milcery holds this, it spins around happily.",
+    description: "A ribbon-shaped sweet. When a Milcery holds this, it spins around happily.",
     sprite: "/Items/RIBBONSWEET.png",
-    suffix: "normal",
+    suffix: "normal"
   },
   {
     id: "VENUSAURITE",
@@ -3585,10 +3298,9 @@ export const items: Item[] = [
     pocket: 11,
     price: 0,
     flags: "MegaStone,Fling_80",
-    description:
-      "One of a variety of mysterious Mega Stones. Have Venusaur hold it, and it will be able to Mega Evolve.",
+    description: "One of a variety of mysterious Mega Stones. Have Venusaur hold it, and it will be able to Mega Evolve.",
     sprite: "/Items/VENUSAURITE.png",
-    suffix: "normal",
+    suffix: "normal"
   },
   {
     id: "CHARIZARDITEX",
@@ -3597,10 +3309,9 @@ export const items: Item[] = [
     pocket: 11,
     price: 0,
     flags: "MegaStone,Fling_80",
-    description:
-      "One of a variety of mysterious Mega Stones. Have Charizard hold it, and it will be able to Mega Evolve.",
+    description: "One of a variety of mysterious Mega Stones. Have Charizard hold it, and it will be able to Mega Evolve.",
     sprite: "/Items/CHARIZARDITEX.png",
-    suffix: "normal",
+    suffix: "normal"
   },
   {
     id: "CHARIZARDITEY",
@@ -3609,10 +3320,9 @@ export const items: Item[] = [
     pocket: 11,
     price: 0,
     flags: "MegaStone,Fling_80",
-    description:
-      "One of a variety of mysterious Mega Stones. Have Charizard hold it, and it will be able to Mega Evolve.",
+    description: "One of a variety of mysterious Mega Stones. Have Charizard hold it, and it will be able to Mega Evolve.",
     sprite: "/Items/CHARIZARDITEY.png",
-    suffix: "normal",
+    suffix: "normal"
   },
   {
     id: "BLASTOISINITE",
@@ -3621,10 +3331,9 @@ export const items: Item[] = [
     pocket: 11,
     price: 0,
     flags: "MegaStone,Fling_80",
-    description:
-      "One of a variety of mysterious Mega Stones. Have Blastoise hold it, and it will be able to Mega Evolve.",
+    description: "One of a variety of mysterious Mega Stones. Have Blastoise hold it, and it will be able to Mega Evolve.",
     sprite: "/Items/BLASTOISINITE.png",
-    suffix: "normal",
+    suffix: "normal"
   },
   {
     id: "BEEDRILLITE",
@@ -3633,10 +3342,9 @@ export const items: Item[] = [
     pocket: 11,
     price: 0,
     flags: "MegaStone,Fling_80",
-    description:
-      "One of a variety of mysterious Mega Stones. Have Beedrill hold it, and it will be able to Mega Evolve.",
+    description: "One of a variety of mysterious Mega Stones. Have Beedrill hold it, and it will be able to Mega Evolve.",
     sprite: "/Items/BEEDRILLITE.png",
-    suffix: "normal",
+    suffix: "normal"
   },
   {
     id: "PIDGEOTITE",
@@ -3645,10 +3353,9 @@ export const items: Item[] = [
     pocket: 11,
     price: 0,
     flags: "MegaStone,Fling_80",
-    description:
-      "One of a variety of mysterious Mega Stones. Have Pidgeot hold it, and it will be able to Mega Evolve.",
+    description: "One of a variety of mysterious Mega Stones. Have Pidgeot hold it, and it will be able to Mega Evolve.",
     sprite: "/Items/PIDGEOTITE.png",
-    suffix: "normal",
+    suffix: "normal"
   },
   {
     id: "ALAKAZITE",
@@ -3657,10 +3364,9 @@ export const items: Item[] = [
     pocket: 11,
     price: 0,
     flags: "MegaStone,Fling_80",
-    description:
-      "One of a variety of mysterious Mega Stones. Have Alakazam hold it, and it will be able to Mega Evolve.",
+    description: "One of a variety of mysterious Mega Stones. Have Alakazam hold it, and it will be able to Mega Evolve.",
     sprite: "/Items/ALAKAZITE.png",
-    suffix: "normal",
+    suffix: "normal"
   },
   {
     id: "SLOWBRONITE",
@@ -3669,10 +3375,9 @@ export const items: Item[] = [
     pocket: 11,
     price: 0,
     flags: "MegaStone,Fling_80",
-    description:
-      "One of a variety of mysterious Mega Stones. Have Slowbro hold it, and it will be able to Mega Evolve.",
+    description: "One of a variety of mysterious Mega Stones. Have Slowbro hold it, and it will be able to Mega Evolve.",
     sprite: "/Items/SLOWBRONITE.png",
-    suffix: "normal",
+    suffix: "normal"
   },
   {
     id: "GENGARITE",
@@ -3681,10 +3386,9 @@ export const items: Item[] = [
     pocket: 11,
     price: 0,
     flags: "MegaStone,Fling_80",
-    description:
-      "One of a variety of mysterious Mega Stones. Have Gengar hold it, and it will be able to Mega Evolve.",
+    description: "One of a variety of mysterious Mega Stones. Have Gengar hold it, and it will be able to Mega Evolve.",
     sprite: "/Items/GENGARITE.png",
-    suffix: "normal",
+    suffix: "normal"
   },
   {
     id: "KANGASKHANITE",
@@ -3693,10 +3397,9 @@ export const items: Item[] = [
     pocket: 11,
     price: 0,
     flags: "MegaStone,Fling_80",
-    description:
-      "One of a variety of mysterious Mega Stones. Have Kangaskhan hold it, and it will be able to Mega Evolve.",
+    description: "One of a variety of mysterious Mega Stones. Have Kangaskhan hold it, and it will be able to Mega Evolve.",
     sprite: "/Items/KANGASKHANITE.png",
-    suffix: "normal",
+    suffix: "normal"
   },
   {
     id: "PINSIRITE",
@@ -3705,10 +3408,9 @@ export const items: Item[] = [
     pocket: 11,
     price: 0,
     flags: "MegaStone,Fling_80",
-    description:
-      "One of a variety of mysterious Mega Stones. Have Pinsir hold it, and it will be able to Mega Evolve.",
+    description: "One of a variety of mysterious Mega Stones. Have Pinsir hold it, and it will be able to Mega Evolve.",
     sprite: "/Items/PINSIRITE.png",
-    suffix: "normal",
+    suffix: "normal"
   },
   {
     id: "GYARADOSITE",
@@ -3717,10 +3419,9 @@ export const items: Item[] = [
     pocket: 11,
     price: 0,
     flags: "MegaStone,Fling_80",
-    description:
-      "One of a variety of mysterious Mega Stones. Have Gyarados hold it, and it will be able to Mega Evolve.",
+    description: "One of a variety of mysterious Mega Stones. Have Gyarados hold it, and it will be able to Mega Evolve.",
     sprite: "/Items/GYARADOSITE.png",
-    suffix: "normal",
+    suffix: "normal"
   },
   {
     id: "AERODACTYLITE",
@@ -3729,118 +3430,9 @@ export const items: Item[] = [
     pocket: 11,
     price: 0,
     flags: "MegaStone,Fling_80",
-    description:
-      "One of a variety of mysterious Mega Stones. Have Aerodactyl hold it, and it will be able to Mega Evolve.",
+    description: "One of a variety of mysterious Mega Stones. Have Aerodactyl hold it, and it will be able to Mega Evolve.",
     sprite: "/Items/AERODACTYLITE.png",
-    suffix: "normal",
-  },
-  {
-    id: "DRAGONITITE",
-    name: "Dragonitite",
-    namePlural: "Dragonitites",
-    pocket: 11,
-    price: 0,
-    flags: "MegaStone,Fling_80",
-    description:
-      "One of a variety of mysterious Mega Stones. Have Dragonite hold it, and it will be able to Mega Evolve.",
-    sprite: "/Items/DRAGONITITE.png",
-    suffix: "normal",
-  },
-  {
-    id: "SCOLIPEDITE",
-    name: "Scolipedite",
-    namePlural: "Scolipedites",
-    pocket: 11,
-    price: 0,
-    flags: "MegaStone,Fling_80",
-    description:
-      "One of a variety of mysterious Mega Stones. Have Scolipede hold it, and it will be able to Mega Evolve.",
-    sprite: "/Items/SCOLIPEDITE.png",
-    suffix: "normal",
-  },
-  {
-    id: "VICTREEBELITE",
-    name: "Victreebelite",
-    namePlural: "Victreebelites",
-    pocket: 11,
-    price: 0,
-    flags: "MegaStone,Fling_80",
-    description:
-      "One of a variety of mysterious Mega Stones. Have Victreebel hold it, and it will be able to Mega Evolve.",
-    sprite: "/Items/VICTREEBELITE.png",
-    suffix: "normal",
-  },
-  {
-    id: "CHESNAUGHTITE",
-    name: "Chesnaughtite",
-    namePlural: "Chesnaughtites",
-    pocket: 11,
-    price: 0,
-    flags: "MegaStone,Fling_80",
-    description:
-      "One of a variety of mysterious Mega Stones. Have Chesnaught hold it, and it will be able to Mega Evolve.",
-    sprite: "/Items/CHESNAUGHTITE.png",
-    suffix: "normal",
-  },
-  {
-    id: "DELPHOXITE",
-    name: "Delphoxite",
-    namePlural: "Delphoxites",
-    pocket: 11,
-    price: 0,
-    flags: "MegaStone,Fling_80",
-    description:
-      "One of a variety of mysterious Mega Stones. Have Delphox hold it, and it will be able to Mega Evolve.",
-    sprite: "/Items/DELPHOXITE.png",
-    suffix: "normal",
-  },
-  {
-    id: "GRENINJAITE",
-    name: "Greninjaite",
-    namePlural: "Greninjaites",
-    pocket: 11,
-    price: 0,
-    flags: "MegaStone,Fling_80",
-    description:
-      "One of a variety of mysterious Mega Stones. Have Greninja hold it, and it will be able to Mega Evolve.",
-    sprite: "/Items/GRENINJAITE.png",
-    suffix: "normal",
-  },
-  {
-    id: "MALAMARITE",
-    name: "Malamarite",
-    namePlural: "Malamarites",
-    pocket: 11,
-    price: 0,
-    flags: "MegaStone,Fling_80",
-    description:
-      "One of a variety of mysterious Mega Stones. Have Malamar hold it, and it will be able to Mega Evolve.",
-    sprite: "/Items/MALAMARITE.png",
-    suffix: "normal",
-  },
-  {
-    id: "RAICHUITEX",
-    name: "Raichuite X",
-    namePlural: "Raichuites X",
-    pocket: 11,
-    price: 0,
-    flags: "MegaStone,Fling_80",
-    description:
-      "One of a variety of mysterious Mega Stones. Have Raichu hold it, and it will be able to Mega Evolve.",
-    sprite: "/Items/RAICHUITEX.png",
-    suffix: "normal",
-  },
-  {
-    id: "RAICHUITEY",
-    name: "Raichuite Y",
-    namePlural: "Raichuites Y",
-    pocket: 11,
-    price: 0,
-    flags: "MegaStone,Fling_80",
-    description:
-      "One of a variety of mysterious Mega Stones. Have Raichu hold it, and it will be able to Mega Evolve.",
-    sprite: "/Items/RAICHUITEY.png",
-    suffix: "normal",
+    suffix: "normal"
   },
   {
     id: "MEWTWONITEX",
@@ -3849,10 +3441,9 @@ export const items: Item[] = [
     pocket: 11,
     price: 0,
     flags: "MegaStone,Fling_80",
-    description:
-      "One of a variety of mysterious Mega Stones. Have Mewtwo hold it, and it will be able to Mega Evolve.",
+    description: "One of a variety of mysterious Mega Stones. Have Mewtwo hold it, and it will be able to Mega Evolve.",
     sprite: "/Items/MEWTWONITEX.png",
-    suffix: "normal",
+    suffix: "normal"
   },
   {
     id: "MEWTWONITEY",
@@ -3861,10 +3452,9 @@ export const items: Item[] = [
     pocket: 11,
     price: 0,
     flags: "MegaStone,Fling_80",
-    description:
-      "One of a variety of mysterious Mega Stones. Have Mewtwo hold it, and it will be able to Mega Evolve.",
+    description: "One of a variety of mysterious Mega Stones. Have Mewtwo hold it, and it will be able to Mega Evolve.",
     sprite: "/Items/MEWTWONITEY.png",
-    suffix: "normal",
+    suffix: "normal"
   },
   {
     id: "AMPHAROSITE",
@@ -3873,10 +3463,9 @@ export const items: Item[] = [
     pocket: 11,
     price: 0,
     flags: "MegaStone,Fling_80",
-    description:
-      "One of a variety of mysterious Mega Stones. Have Ampharos hold it, and it will be able to Mega Evolve.",
+    description: "One of a variety of mysterious Mega Stones. Have Ampharos hold it, and it will be able to Mega Evolve.",
     sprite: "/Items/AMPHAROSITE.png",
-    suffix: "normal",
+    suffix: "normal"
   },
   {
     id: "STEELIXITE",
@@ -3885,10 +3474,9 @@ export const items: Item[] = [
     pocket: 11,
     price: 0,
     flags: "MegaStone,Fling_80",
-    description:
-      "One of a variety of mysterious Mega Stones. Have Steelix hold it, and it will be able to Mega Evolve.",
+    description: "One of a variety of mysterious Mega Stones. Have Steelix hold it, and it will be able to Mega Evolve.",
     sprite: "/Items/STEELIXITE.png",
-    suffix: "normal",
+    suffix: "normal"
   },
   {
     id: "SCIZORITE",
@@ -3897,10 +3485,9 @@ export const items: Item[] = [
     pocket: 11,
     price: 0,
     flags: "MegaStone,Fling_80",
-    description:
-      "One of a variety of mysterious Mega Stones. Have Scizor hold it, and it will be able to Mega Evolve.",
+    description: "One of a variety of mysterious Mega Stones. Have Scizor hold it, and it will be able to Mega Evolve.",
     sprite: "/Items/SCIZORITE.png",
-    suffix: "normal",
+    suffix: "normal"
   },
   {
     id: "HERACRONITE",
@@ -3909,10 +3496,9 @@ export const items: Item[] = [
     pocket: 11,
     price: 0,
     flags: "MegaStone,Fling_80",
-    description:
-      "One of a variety of mysterious Mega Stones. Have Heracross hold it, and it will be able to Mega Evolve.",
+    description: "One of a variety of mysterious Mega Stones. Have Heracross hold it, and it will be able to Mega Evolve.",
     sprite: "/Items/HERACRONITE.png",
-    suffix: "normal",
+    suffix: "normal"
   },
   {
     id: "HOUNDOOMINITE",
@@ -3921,10 +3507,9 @@ export const items: Item[] = [
     pocket: 11,
     price: 0,
     flags: "MegaStone,Fling_80",
-    description:
-      "One of a variety of mysterious Mega Stones. Have Houndoom hold it, and it will be able to Mega Evolve.",
+    description: "One of a variety of mysterious Mega Stones. Have Houndoom hold it, and it will be able to Mega Evolve.",
     sprite: "/Items/HOUNDOOMINITE.png",
-    suffix: "normal",
+    suffix: "normal"
   },
   {
     id: "TYRANITARITE",
@@ -3933,10 +3518,9 @@ export const items: Item[] = [
     pocket: 11,
     price: 0,
     flags: "MegaStone,Fling_80",
-    description:
-      "One of a variety of mysterious Mega Stones. Have Tyranitar hold it, and it will be able to Mega Evolve.",
+    description: "One of a variety of mysterious Mega Stones. Have Tyranitar hold it, and it will be able to Mega Evolve.",
     sprite: "/Items/TYRANITARITE.png",
-    suffix: "normal",
+    suffix: "normal"
   },
   {
     id: "SCEPTILITE",
@@ -3945,10 +3529,9 @@ export const items: Item[] = [
     pocket: 11,
     price: 0,
     flags: "MegaStone,Fling_80",
-    description:
-      "One of a variety of mysterious Mega Stones. Have Sceptile hold it, and it will be able to Mega Evolve.",
+    description: "One of a variety of mysterious Mega Stones. Have Sceptile hold it, and it will be able to Mega Evolve.",
     sprite: "/Items/SCEPTILITE.png",
-    suffix: "normal",
+    suffix: "normal"
   },
   {
     id: "BLAZIKENITE",
@@ -3957,10 +3540,9 @@ export const items: Item[] = [
     pocket: 11,
     price: 0,
     flags: "MegaStone,Fling_80",
-    description:
-      "One of a variety of mysterious Mega Stones. Have Blaziken hold it, and it will be able to Mega Evolve.",
+    description: "One of a variety of mysterious Mega Stones. Have Blaziken hold it, and it will be able to Mega Evolve.",
     sprite: "/Items/BLAZIKENITE.png",
-    suffix: "normal",
+    suffix: "normal"
   },
   {
     id: "SWAMPERTITE",
@@ -3969,10 +3551,9 @@ export const items: Item[] = [
     pocket: 11,
     price: 0,
     flags: "MegaStone,Fling_80",
-    description:
-      "One of a variety of mysterious Mega Stones. Have Swampert hold it, and it will be able to Mega Evolve.",
+    description: "One of a variety of mysterious Mega Stones. Have Swampert hold it, and it will be able to Mega Evolve.",
     sprite: "/Items/SWAMPERTITE.png",
-    suffix: "normal",
+    suffix: "normal"
   },
   {
     id: "GARDEVOIRITE",
@@ -3981,10 +3562,9 @@ export const items: Item[] = [
     pocket: 11,
     price: 0,
     flags: "MegaStone,Fling_80",
-    description:
-      "One of a variety of mysterious Mega Stones. Have Gardevoir hold it, and it will be able to Mega Evolve.",
+    description: "One of a variety of mysterious Mega Stones. Have Gardevoir hold it, and it will be able to Mega Evolve.",
     sprite: "/Items/GARDEVOIRITE.png",
-    suffix: "normal",
+    suffix: "normal"
   },
   {
     id: "SABLENITE",
@@ -3993,10 +3573,9 @@ export const items: Item[] = [
     pocket: 11,
     price: 0,
     flags: "MegaStone,Fling_80",
-    description:
-      "One of a variety of mysterious Mega Stones. Have Sableye hold it, and it will be able to Mega Evolve.",
+    description: "One of a variety of mysterious Mega Stones. Have Sableye hold it, and it will be able to Mega Evolve.",
     sprite: "/Items/SABLENITE.png",
-    suffix: "normal",
+    suffix: "normal"
   },
   {
     id: "MAWILITE",
@@ -4005,10 +3584,9 @@ export const items: Item[] = [
     pocket: 11,
     price: 0,
     flags: "MegaStone,Fling_80",
-    description:
-      "One of a variety of mysterious Mega Stones. Have Mawile hold it, and it will be able to Mega Evolve.",
+    description: "One of a variety of mysterious Mega Stones. Have Mawile hold it, and it will be able to Mega Evolve.",
     sprite: "/Items/MAWILITE.png",
-    suffix: "normal",
+    suffix: "normal"
   },
   {
     id: "AGGRONITE",
@@ -4017,10 +3595,9 @@ export const items: Item[] = [
     pocket: 11,
     price: 0,
     flags: "MegaStone,Fling_80",
-    description:
-      "One of a variety of mysterious Mega Stones. Have Aggron hold it, and it will be able to Mega Evolve.",
+    description: "One of a variety of mysterious Mega Stones. Have Aggron hold it, and it will be able to Mega Evolve.",
     sprite: "/Items/AGGRONITE.png",
-    suffix: "normal",
+    suffix: "normal"
   },
   {
     id: "MEDICHAMITE",
@@ -4029,10 +3606,9 @@ export const items: Item[] = [
     pocket: 11,
     price: 0,
     flags: "MegaStone,Fling_80",
-    description:
-      "One of a variety of mysterious Mega Stones. Have Medicham hold it, and it will be able to Mega Evolve.",
+    description: "One of a variety of mysterious Mega Stones. Have Medicham hold it, and it will be able to Mega Evolve.",
     sprite: "/Items/MEDICHAMITE.png",
-    suffix: "normal",
+    suffix: "normal"
   },
   {
     id: "MANECTITE",
@@ -4041,10 +3617,9 @@ export const items: Item[] = [
     pocket: 11,
     price: 0,
     flags: "MegaStone,Fling_80",
-    description:
-      "One of a variety of mysterious Mega Stones. Have Manectric hold it, and it will be able to Mega Evolve.",
+    description: "One of a variety of mysterious Mega Stones. Have Manectric hold it, and it will be able to Mega Evolve.",
     sprite: "/Items/MANECTITE.png",
-    suffix: "normal",
+    suffix: "normal"
   },
   {
     id: "SHARPEDONITE",
@@ -4053,10 +3628,9 @@ export const items: Item[] = [
     pocket: 11,
     price: 0,
     flags: "MegaStone,Fling_80",
-    description:
-      "One of a variety of mysterious Mega Stones. Have Sharpedo hold it, and it will be able to Mega Evolve.",
+    description: "One of a variety of mysterious Mega Stones. Have Sharpedo hold it, and it will be able to Mega Evolve.",
     sprite: "/Items/SHARPEDONITE.png",
-    suffix: "normal",
+    suffix: "normal"
   },
   {
     id: "CAMERUPTITE",
@@ -4065,10 +3639,9 @@ export const items: Item[] = [
     pocket: 11,
     price: 0,
     flags: "MegaStone,Fling_80",
-    description:
-      "One of a variety of mysterious Mega Stones. Have Camerupt hold it, and it will be able to Mega Evolve.",
+    description: "One of a variety of mysterious Mega Stones. Have Camerupt hold it, and it will be able to Mega Evolve.",
     sprite: "/Items/CAMERUPTITE.png",
-    suffix: "normal",
+    suffix: "normal"
   },
   {
     id: "ALTARIANITE",
@@ -4077,10 +3650,9 @@ export const items: Item[] = [
     pocket: 11,
     price: 0,
     flags: "MegaStone,Fling_80",
-    description:
-      "One of a variety of mysterious Mega Stones. Have Altaria hold it, and it will be able to Mega Evolve.",
+    description: "One of a variety of mysterious Mega Stones. Have Altaria hold it, and it will be able to Mega Evolve.",
     sprite: "/Items/ALTARIANITE.png",
-    suffix: "normal",
+    suffix: "normal"
   },
   {
     id: "BANETTITE",
@@ -4089,10 +3661,9 @@ export const items: Item[] = [
     pocket: 11,
     price: 0,
     flags: "MegaStone,Fling_80",
-    description:
-      "One of a variety of mysterious Mega Stones. Have Banette hold it, and it will be able to Mega Evolve.",
+    description: "One of a variety of mysterious Mega Stones. Have Banette hold it, and it will be able to Mega Evolve.",
     sprite: "/Items/BANETTITE.png",
-    suffix: "normal",
+    suffix: "normal"
   },
   {
     id: "ABSOLITE",
@@ -4101,10 +3672,9 @@ export const items: Item[] = [
     pocket: 11,
     price: 0,
     flags: "MegaStone,Fling_80",
-    description:
-      "One of a variety of mysterious Mega Stones. Have Absol hold it, and it will be able to Mega Evolve.",
+    description: "One of a variety of mysterious Mega Stones. Have Absol hold it, and it will be able to Mega Evolve.",
     sprite: "/Items/ABSOLITE.png",
-    suffix: "normal",
+    suffix: "normal"
   },
   {
     id: "GLALITITE",
@@ -4113,10 +3683,9 @@ export const items: Item[] = [
     pocket: 11,
     price: 0,
     flags: "MegaStone,Fling_80",
-    description:
-      "One of a variety of mysterious Mega Stones. Have Glalie hold it, and it will be able to Mega Evolve.",
+    description: "One of a variety of mysterious Mega Stones. Have Glalie hold it, and it will be able to Mega Evolve.",
     sprite: "/Items/GLALITITE.png",
-    suffix: "normal",
+    suffix: "normal"
   },
   {
     id: "SALAMENCITE",
@@ -4125,10 +3694,9 @@ export const items: Item[] = [
     pocket: 11,
     price: 0,
     flags: "MegaStone,Fling_80",
-    description:
-      "One of a variety of mysterious Mega Stones. Have Salamence hold it, and it will be able to Mega Evolve.",
+    description: "One of a variety of mysterious Mega Stones. Have Salamence hold it, and it will be able to Mega Evolve.",
     sprite: "/Items/SALAMENCITE.png",
-    suffix: "normal",
+    suffix: "normal"
   },
   {
     id: "METAGROSSITE",
@@ -4137,10 +3705,9 @@ export const items: Item[] = [
     pocket: 11,
     price: 0,
     flags: "MegaStone,Fling_80",
-    description:
-      "One of a variety of mysterious Mega Stones. Have Metagross hold it, and it will be able to Mega Evolve.",
+    description: "One of a variety of mysterious Mega Stones. Have Metagross hold it, and it will be able to Mega Evolve.",
     sprite: "/Items/METAGROSSITE.png",
-    suffix: "normal",
+    suffix: "normal"
   },
   {
     id: "LATIASITE",
@@ -4149,10 +3716,9 @@ export const items: Item[] = [
     pocket: 11,
     price: 0,
     flags: "MegaStone,Fling_80",
-    description:
-      "One of a variety of mysterious Mega Stones. Have Latias hold it, and it will be able to Mega Evolve.",
+    description: "One of a variety of mysterious Mega Stones. Have Latias hold it, and it will be able to Mega Evolve.",
     sprite: "/Items/LATIASITE.png",
-    suffix: "normal",
+    suffix: "normal"
   },
   {
     id: "LATIOSITE",
@@ -4161,10 +3727,9 @@ export const items: Item[] = [
     pocket: 11,
     price: 0,
     flags: "MegaStone,Fling_80",
-    description:
-      "One of a variety of mysterious Mega Stones. Have Latios hold it, and it will be able to Mega Evolve.",
+    description: "One of a variety of mysterious Mega Stones. Have Latios hold it, and it will be able to Mega Evolve.",
     sprite: "/Items/LATIOSITE.png",
-    suffix: "normal",
+    suffix: "normal"
   },
   {
     id: "LOPUNNITE",
@@ -4173,10 +3738,9 @@ export const items: Item[] = [
     pocket: 11,
     price: 0,
     flags: "MegaStone,Fling_80",
-    description:
-      "One of a variety of mysterious Mega Stones. Have Lopunny hold it, and it will be able to Mega Evolve.",
+    description: "One of a variety of mysterious Mega Stones. Have Lopunny hold it, and it will be able to Mega Evolve.",
     sprite: "/Items/LOPUNNITE.png",
-    suffix: "normal",
+    suffix: "normal"
   },
   {
     id: "GARCHOMPITE",
@@ -4185,10 +3749,9 @@ export const items: Item[] = [
     pocket: 11,
     price: 0,
     flags: "MegaStone,Fling_80",
-    description:
-      "One of a variety of mysterious Mega Stones. Have Garchomp hold it, and it will be able to Mega Evolve.",
+    description: "One of a variety of mysterious Mega Stones. Have Garchomp hold it, and it will be able to Mega Evolve.",
     sprite: "/Items/GARCHOMPITE.png",
-    suffix: "normal",
+    suffix: "normal"
   },
   {
     id: "LUCARIONITE",
@@ -4197,10 +3760,9 @@ export const items: Item[] = [
     pocket: 11,
     price: 0,
     flags: "MegaStone,Fling_80",
-    description:
-      "One of a variety of mysterious Mega Stones. Have Lucario hold it, and it will be able to Mega Evolve.",
+    description: "One of a variety of mysterious Mega Stones. Have Lucario hold it, and it will be able to Mega Evolve.",
     sprite: "/Items/LUCARIONITE.png",
-    suffix: "normal",
+    suffix: "normal"
   },
   {
     id: "ABOMASITE",
@@ -4209,10 +3771,9 @@ export const items: Item[] = [
     pocket: 11,
     price: 0,
     flags: "MegaStone,Fling_80",
-    description:
-      "One of a variety of mysterious Mega Stones. Have Abomasnow hold it, and it will be able to Mega Evolve.",
+    description: "One of a variety of mysterious Mega Stones. Have Abomasnow hold it, and it will be able to Mega Evolve.",
     sprite: "/Items/ABOMASITE.png",
-    suffix: "normal",
+    suffix: "normal"
   },
   {
     id: "GALLADITE",
@@ -4221,10 +3782,9 @@ export const items: Item[] = [
     pocket: 11,
     price: 0,
     flags: "MegaStone,Fling_80",
-    description:
-      "One of a variety of mysterious Mega Stones. Have Gallade hold it, and it will be able to Mega Evolve.",
+    description: "One of a variety of mysterious Mega Stones. Have Gallade hold it, and it will be able to Mega Evolve.",
     sprite: "/Items/GALLADITE.png",
-    suffix: "normal",
+    suffix: "normal"
   },
   {
     id: "AUDINITE",
@@ -4233,10 +3793,9 @@ export const items: Item[] = [
     pocket: 11,
     price: 0,
     flags: "MegaStone,Fling_80",
-    description:
-      "One of a variety of mysterious Mega Stones. Have Audino hold it, and it will be able to Mega Evolve.",
+    description: "One of a variety of mysterious Mega Stones. Have Audino hold it, and it will be able to Mega Evolve.",
     sprite: "/Items/AUDINITE.png",
-    suffix: "normal",
+    suffix: "normal"
   },
   {
     id: "DIANCITE",
@@ -4245,10 +3804,9 @@ export const items: Item[] = [
     pocket: 11,
     price: 0,
     flags: "MegaStone,Fling_80",
-    description:
-      "One of a variety of mysterious Mega Stones. Have Diancie hold it, and it will be able to Mega Evolve.",
+    description: "One of a variety of mysterious Mega Stones. Have Diancie hold it, and it will be able to Mega Evolve.",
     sprite: "/Items/DIANCITE.png",
-    suffix: "normal",
+    suffix: "normal"
   },
   {
     id: "REDORB",
@@ -4257,10 +3815,9 @@ export const items: Item[] = [
     pocket: 11,
     price: 10000,
     flags: "",
-    description:
-      "A shiny red orb that is said to have a legend tied to it. It's known to be connected with the Hoenn region.",
+    description: "A shiny red orb that is said to have a legend tied to it. It's known to be connected with the Hoenn region.",
     sprite: "/Items/REDORB.png",
-    suffix: "normal",
+    suffix: "normal"
   },
   {
     id: "BLUEORB",
@@ -4269,10 +3826,9 @@ export const items: Item[] = [
     pocket: 11,
     price: 10000,
     flags: "",
-    description:
-      "A shiny blue orb that is said to have a legend tied to it. It's known to be connected with the Hoenn region.",
+    description: "A shiny blue orb that is said to have a legend tied to it. It's known to be connected with the Hoenn region.",
     sprite: "/Items/BLUEORB.png",
-    suffix: "normal",
+    suffix: "normal"
   },
   {
     id: "POTION",
@@ -4281,10 +3837,9 @@ export const items: Item[] = [
     pocket: 2,
     price: 200,
     flags: "Fling_30",
-    description:
-      "A spray-type medicine for treating wounds. It can be used to restore 20 HP to a single Pokémon.",
+    description: "A spray-type medicine for treating wounds. It can be used to restore 20 HP to a single Pokémon.",
     sprite: "/Items/POTION.png",
-    suffix: "normal",
+    suffix: "normal"
   },
   {
     id: "SUPERPOTION",
@@ -4293,10 +3848,9 @@ export const items: Item[] = [
     pocket: 2,
     price: 700,
     flags: "Fling_30",
-    description:
-      "A spray-type medicine for treating wounds. It can be used to restore 60 HP to a single Pokémon.",
+    description: "A spray-type medicine for treating wounds. It can be used to restore 60 HP to a single Pokémon.",
     sprite: "/Items/SUPERPOTION.png",
-    suffix: "normal",
+    suffix: "normal"
   },
   {
     id: "HYPERPOTION",
@@ -4305,10 +3859,9 @@ export const items: Item[] = [
     pocket: 2,
     price: 1500,
     flags: "Fling_30",
-    description:
-      "A spray-type medicine for treating wounds. It can be used to restore 120 HP to a single Pokémon.",
+    description: "A spray-type medicine for treating wounds. It can be used to restore 120 HP to a single Pokémon.",
     sprite: "/Items/HYPERPOTION.png",
-    suffix: "normal",
+    suffix: "normal"
   },
   {
     id: "MAXPOTION",
@@ -4317,10 +3870,9 @@ export const items: Item[] = [
     pocket: 2,
     price: 2500,
     flags: "Fling_30",
-    description:
-      "A spray-type medicine for treating wounds. It can completely restore the max HP of a single Pokémon.",
+    description: "A spray-type medicine for treating wounds. It can completely restore the max HP of a single Pokémon.",
     sprite: "/Items/MAXPOTION.png",
-    suffix: "normal",
+    suffix: "normal"
   },
   {
     id: "FULLRESTORE",
@@ -4329,10 +3881,9 @@ export const items: Item[] = [
     pocket: 2,
     price: 3000,
     flags: "Fling_30",
-    description:
-      "A medicine that fully restores the HP and heals any status problems of a single Pokémon.",
+    description: "A medicine that fully restores the HP and heals any status problems of a single Pokémon.",
     sprite: "/Items/FULLRESTORE.png",
-    suffix: "normal",
+    suffix: "normal"
   },
   {
     id: "SACREDASH",
@@ -4341,10 +3892,9 @@ export const items: Item[] = [
     pocket: 2,
     price: 50000,
     flags: "Fling_30",
-    description:
-      "It revives all fainted Pokémon. In doing so, it also fully restores their HP.",
+    description: "It revives all fainted Pokémon. In doing so, it also fully restores their HP.",
     sprite: "/Items/SACREDASH.png",
-    suffix: "normal",
+    suffix: "normal"
   },
   {
     id: "AWAKENING",
@@ -4353,10 +3903,9 @@ export const items: Item[] = [
     pocket: 2,
     price: 200,
     flags: "Fling_30",
-    description:
-      "A spray-type medicine. It awakens a Pokémon from the clutches of sleep.",
+    description: "A spray-type medicine. It awakens a Pokémon from the clutches of sleep.",
     sprite: "/Items/AWAKENING.png",
-    suffix: "normal",
+    suffix: "normal"
   },
   {
     id: "ANTIDOTE",
@@ -4365,10 +3914,9 @@ export const items: Item[] = [
     pocket: 2,
     price: 200,
     flags: "Fling_30",
-    description:
-      "A spray-type medicine. It lifts the effect of poison from one Pokémon.",
+    description: "A spray-type medicine. It lifts the effect of poison from one Pokémon.",
     sprite: "/Items/ANTIDOTE.png",
-    suffix: "normal",
+    suffix: "normal"
   },
   {
     id: "BURNHEAL",
@@ -4377,10 +3925,9 @@ export const items: Item[] = [
     pocket: 2,
     price: 200,
     flags: "Fling_30",
-    description:
-      "A spray-type medicine. It heals a single Pokémon that is suffering from a burn.",
+    description: "A spray-type medicine. It heals a single Pokémon that is suffering from a burn.",
     sprite: "/Items/BURNHEAL.png",
-    suffix: "normal",
+    suffix: "normal"
   },
   {
     id: "PARALYZEHEAL",
@@ -4389,10 +3936,9 @@ export const items: Item[] = [
     pocket: 2,
     price: 200,
     flags: "Fling_30",
-    description:
-      "A spray-type medicine. It eliminates paralysis from a single Pokémon.",
+    description: "A spray-type medicine. It eliminates paralysis from a single Pokémon.",
     sprite: "/Items/PARALYZEHEAL.png",
-    suffix: "normal",
+    suffix: "normal"
   },
   {
     id: "ICEHEAL",
@@ -4401,10 +3947,9 @@ export const items: Item[] = [
     pocket: 2,
     price: 200,
     flags: "Fling_30",
-    description:
-      "A spray-type medicine. It defrosts a Pokémon that has been frozen solid.",
+    description: "A spray-type medicine. It defrosts a Pokémon that has been frozen solid.",
     sprite: "/Items/ICEHEAL.png",
-    suffix: "normal",
+    suffix: "normal"
   },
   {
     id: "FULLHEAL",
@@ -4413,10 +3958,9 @@ export const items: Item[] = [
     pocket: 2,
     price: 400,
     flags: "Fling_30",
-    description:
-      "A spray-type medicine. It heals all the status problems of a single Pokémon.",
+    description: "A spray-type medicine. It heals all the status problems of a single Pokémon.",
     sprite: "/Items/FULLHEAL.png",
-    suffix: "normal",
+    suffix: "normal"
   },
   {
     id: "PEWTERCRUNCHIES",
@@ -4425,10 +3969,9 @@ export const items: Item[] = [
     pocket: 2,
     price: 250,
     flags: "Fling_30",
-    description:
-      "Pewter City's famous crunchy snack. They can be used to heal all status conditions of a single Pokémon.",
+    description: "Pewter City's famous crunchy snack. They can be used to heal all status conditions of a single Pokémon.",
     sprite: "/Items/PEWTERCRUNCHIES.png",
-    suffix: "normal",
+    suffix: "normal"
   },
   {
     id: "RAGECANDYBAR",
@@ -4437,10 +3980,9 @@ export const items: Item[] = [
     pocket: 2,
     price: 350,
     flags: "Fling_30",
-    description:
-      "Mahogany Town's famous candy. It can be used once to heal all the status conditions of a Pokémon.",
+    description: "Mahogany Town's famous candy. It can be used once to heal all the status conditions of a Pokémon.",
     sprite: "/Items/RAGECANDYBAR.png",
-    suffix: "normal",
+    suffix: "normal"
   },
   {
     id: "LAVACOOKIE",
@@ -4449,10 +3991,9 @@ export const items: Item[] = [
     pocket: 2,
     price: 350,
     flags: "Fling_30",
-    description:
-      "Lavaridge Town's local specialty. It heals all the status problems of one Pokémon.",
+    description: "Lavaridge Town's local specialty. It heals all the status problems of one Pokémon.",
     sprite: "/Items/LAVACOOKIE.png",
-    suffix: "normal",
+    suffix: "normal"
   },
   {
     id: "OLDGATEAU",
@@ -4461,10 +4002,9 @@ export const items: Item[] = [
     pocket: 2,
     price: 350,
     flags: "Fling_30",
-    description:
-      "Old Chateau's hidden specialty. It heals all the status problems of a single Pokémon.",
+    description: "Old Chateau's hidden specialty. It heals all the status problems of a single Pokémon.",
     sprite: "/Items/OLDGATEAU.png",
-    suffix: "normal",
+    suffix: "normal"
   },
   {
     id: "CASTELIACONE",
@@ -4473,10 +4013,9 @@ export const items: Item[] = [
     pocket: 2,
     price: 350,
     flags: "Fling_30",
-    description:
-      "Castelia City's specialty, soft-serve ice cream. It heals all the status problems of a single Pokémon.",
+    description: "Castelia City's specialty, soft-serve ice cream. It heals all the status problems of a single Pokémon.",
     sprite: "/Items/CASTELIACONE.png",
-    suffix: "normal",
+    suffix: "normal"
   },
   {
     id: "LUMIOSEGALETTE",
@@ -4485,10 +4024,9 @@ export const items: Item[] = [
     pocket: 2,
     price: 350,
     flags: "Fling_30",
-    description:
-      "A popular treat in Lumiose City. It can be used once to heal all the status conditions of a Pokémon.",
+    description: "A popular treat in Lumiose City. It can be used once to heal all the status conditions of a Pokémon.",
     sprite: "/Items/LUMIOSEGALETTE.png",
-    suffix: "normal",
+    suffix: "normal"
   },
   {
     id: "SHALOURSABLE",
@@ -4497,10 +4035,9 @@ export const items: Item[] = [
     pocket: 2,
     price: 350,
     flags: "Fling_30",
-    description:
-      "Shalour City's famous shortbread. It can be used once to heal all the status conditions of a Pokémon.",
+    description: "Shalour City's famous shortbread. It can be used once to heal all the status conditions of a Pokémon.",
     sprite: "/Items/SHALOURSABLE.png",
-    suffix: "normal",
+    suffix: "normal"
   },
   {
     id: "BIGMALASADA",
@@ -4509,10 +4046,9 @@ export const items: Item[] = [
     pocket: 2,
     price: 350,
     flags: "Fling_30",
-    description:
-      "The Alola region's specialty--fried bread. It can be used once to heal all the status conditions of a Pokémon.",
+    description: "The Alola region's specialty--fried bread. It can be used once to heal all the status conditions of a Pokémon.",
     sprite: "/Items/BIGMALASADA.png",
-    suffix: "normal",
+    suffix: "normal"
   },
   {
     id: "REVIVE",
@@ -4521,10 +4057,9 @@ export const items: Item[] = [
     pocket: 2,
     price: 2000,
     flags: "Fling_30",
-    description:
-      "A medicine that revives a fainted Pokémon. It restores half the Pokémon's maximum HP.",
+    description: "A medicine that revives a fainted Pokémon. It restores half the Pokémon's maximum HP.",
     sprite: "/Items/REVIVE.png",
-    suffix: "normal",
+    suffix: "normal"
   },
   {
     id: "MAXREVIVE",
@@ -4533,10 +4068,9 @@ export const items: Item[] = [
     pocket: 2,
     price: 4000,
     flags: "Fling_30",
-    description:
-      "A medicine that revives a fainted Pokémon. It fully restores the Pokémon's HP.",
+    description: "A medicine that revives a fainted Pokémon. It fully restores the Pokémon's HP.",
     sprite: "/Items/MAXREVIVE.png",
-    suffix: "normal",
+    suffix: "normal"
   },
   {
     id: "BERRYJUICE",
@@ -4545,10 +4079,9 @@ export const items: Item[] = [
     pocket: 2,
     price: 100,
     flags: "Fling_30",
-    description:
-      "A 100% pure juice made of Berries. It restores the HP of one Pokémon by just 20 points.",
+    description: "A 100% pure juice made of Berries. It restores the HP of one Pokémon by just 20 points.",
     sprite: "/Items/BERRYJUICE.png",
-    suffix: "normal",
+    suffix: "normal"
   },
   {
     id: "SWEETHEART",
@@ -4557,10 +4090,9 @@ export const items: Item[] = [
     pocket: 2,
     price: 3000,
     flags: "Fling_30",
-    description:
-      "Very sweet chocolate. It restores the HP of one Pokémon by only 20 points.",
+    description: "Very sweet chocolate. It restores the HP of one Pokémon by only 20 points.",
     sprite: "/Items/SWEETHEART.png",
-    suffix: "normal",
+    suffix: "normal"
   },
   {
     id: "FRESHWATER",
@@ -4569,10 +4101,9 @@ export const items: Item[] = [
     pocket: 2,
     price: 200,
     flags: "Fling_30",
-    description:
-      "Water with high mineral content. It can be used to restore 30 HP to a single Pokémon.",
+    description: "Water with high mineral content. It can be used to restore 30 HP to a single Pokémon.",
     sprite: "/Items/FRESHWATER.png",
-    suffix: "normal",
+    suffix: "normal"
   },
   {
     id: "SODAPOP",
@@ -4581,10 +4112,9 @@ export const items: Item[] = [
     pocket: 2,
     price: 300,
     flags: "Fling_30",
-    description:
-      "A highly carbonated soda drink. It can be used to restore 50 HP to a single Pokémon.",
+    description: "A highly carbonated soda drink. It can be used to restore 50 HP to a single Pokémon.",
     sprite: "/Items/SODAPOP.png",
-    suffix: "normal",
+    suffix: "normal"
   },
   {
     id: "LEMONADE",
@@ -4593,10 +4123,9 @@ export const items: Item[] = [
     pocket: 2,
     price: 350,
     flags: "Fling_30",
-    description:
-      "A very sweet and refreshing drink. It can be used to restore 70 HP to a single Pokémon.",
+    description: "A very sweet and refreshing drink. It can be used to restore 70 HP to a single Pokémon.",
     sprite: "/Items/LEMONADE.png",
-    suffix: "normal",
+    suffix: "normal"
   },
   {
     id: "MOOMOOMILK",
@@ -4605,10 +4134,9 @@ export const items: Item[] = [
     pocket: 2,
     price: 600,
     flags: "Fling_30",
-    description:
-      "Milk with a very high nutrition content. It restores the HP of one Pokémon by 100 points.",
+    description: "Milk with a very high nutrition content. It restores the HP of one Pokémon by 100 points.",
     sprite: "/Items/MOOMOOMILK.png",
-    suffix: "normal",
+    suffix: "normal"
   },
   {
     id: "ENERGYPOWDER",
@@ -4617,10 +4145,9 @@ export const items: Item[] = [
     pocket: 2,
     price: 500,
     flags: "Fling_30",
-    description:
-      "A very bitter medicinal powder. It can be used to restore 60 HP to a single Pokémon.",
+    description: "A very bitter medicinal powder. It can be used to restore 60 HP to a single Pokémon.",
     sprite: "/Items/ENERGYPOWDER.png",
-    suffix: "normal",
+    suffix: "normal"
   },
   {
     id: "ENERGYROOT",
@@ -4629,10 +4156,9 @@ export const items: Item[] = [
     pocket: 2,
     price: 1200,
     flags: "Fling_30",
-    description:
-      "An extremely bitter medicinal root. It can be used to restore 120 HP to a single Pokémon.",
+    description: "An extremely bitter medicinal root. It can be used to restore 120 HP to a single Pokémon.",
     sprite: "/Items/ENERGYROOT.png",
-    suffix: "normal",
+    suffix: "normal"
   },
   {
     id: "HEALPOWDER",
@@ -4641,10 +4167,9 @@ export const items: Item[] = [
     pocket: 2,
     price: 300,
     flags: "Fling_30",
-    description:
-      "A very bitter medicine powder. It heals all the status problems of a single Pokémon.",
+    description: "A very bitter medicine powder. It heals all the status problems of a single Pokémon.",
     sprite: "/Items/HEALPOWDER.png",
-    suffix: "normal",
+    suffix: "normal"
   },
   {
     id: "REVIVALHERB",
@@ -4653,10 +4178,9 @@ export const items: Item[] = [
     pocket: 2,
     price: 2800,
     flags: "Fling_30",
-    description:
-      "A very bitter medicinal herb. It revives a fainted Pokémon, fully restoring its HP.",
+    description: "A very bitter medicinal herb. It revives a fainted Pokémon, fully restoring its HP.",
     sprite: "/Items/REVIVALHERB.png",
-    suffix: "normal",
+    suffix: "normal"
   },
   {
     id: "MAXHONEY",
@@ -4665,10 +4189,9 @@ export const items: Item[] = [
     pocket: 2,
     price: 8000,
     flags: "Fling_30",
-    description:
-      "Honey that Dynamax Vespiquen produces. It has the same effect as a Max Revive.",
+    description: "Honey that Dynamax Vespiquen produces. It has the same effect as a Max Revive.",
     sprite: "/Items/MAXHONEY.png",
-    suffix: "normal",
+    suffix: "normal"
   },
   {
     id: "ETHER",
@@ -4677,10 +4200,9 @@ export const items: Item[] = [
     pocket: 2,
     price: 1200,
     flags: "Fling_30",
-    description:
-      "It restores the PP of a Pokémon's selected move by a maximum of 10 points.",
+    description: "It restores the PP of a Pokémon's selected move by a maximum of 10 points.",
     sprite: "/Items/ETHER.png",
-    suffix: "normal",
+    suffix: "normal"
   },
   {
     id: "MAXETHER",
@@ -4689,10 +4211,9 @@ export const items: Item[] = [
     pocket: 2,
     price: 2000,
     flags: "Fling_30",
-    description:
-      "It fully restores the PP of a single selected move that has been learned by the target Pokémon.",
+    description: "It fully restores the PP of a single selected move that has been learned by the target Pokémon.",
     sprite: "/Items/MAXETHER.png",
-    suffix: "normal",
+    suffix: "normal"
   },
   {
     id: "ELIXIR",
@@ -4701,10 +4222,9 @@ export const items: Item[] = [
     pocket: 2,
     price: 3000,
     flags: "Fling_30",
-    description:
-      "It restores the PP of all the moves learned by the targeted Pokémon by 10 points each.",
+    description: "It restores the PP of all the moves learned by the targeted Pokémon by 10 points each.",
     sprite: "/Items/ELIXIR.png",
-    suffix: "normal",
+    suffix: "normal"
   },
   {
     id: "MAXELIXIR",
@@ -4713,10 +4233,9 @@ export const items: Item[] = [
     pocket: 2,
     price: 4500,
     flags: "Fling_30",
-    description:
-      "It fully restores the PP of all the moves learned by the targeted Pokémon.",
+    description: "It fully restores the PP of all the moves learned by the targeted Pokémon.",
     sprite: "/Items/MAXELIXIR.png",
-    suffix: "normal",
+    suffix: "normal"
   },
   {
     id: "PPUP",
@@ -4725,10 +4244,9 @@ export const items: Item[] = [
     pocket: 2,
     price: 10000,
     flags: "Fling_30",
-    description:
-      "It slightly raises the maximum PP of a selected move that has been learned by the target Pokémon.",
+    description: "It slightly raises the maximum PP of a selected move that has been learned by the target Pokémon.",
     sprite: "/Items/PPUP.png",
-    suffix: "normal",
+    suffix: "normal"
   },
   {
     id: "PPMAX",
@@ -4737,10 +4255,9 @@ export const items: Item[] = [
     pocket: 2,
     price: 10000,
     flags: "Fling_30",
-    description:
-      "It maximally raises the top PP of a selected move that has been learned by the target Pokémon.",
+    description: "It maximally raises the top PP of a selected move that has been learned by the target Pokémon.",
     sprite: "/Items/PPMAX.png",
-    suffix: "normal",
+    suffix: "normal"
   },
   {
     id: "HPUP",
@@ -4749,10 +4266,9 @@ export const items: Item[] = [
     pocket: 2,
     price: 10000,
     flags: "Fling_30",
-    description:
-      "A nutritious drink for Pokémon. It raises the base HP of a single Pokémon.",
+    description: "A nutritious drink for Pokémon. It raises the base HP of a single Pokémon.",
     sprite: "/Items/HPUP.png",
-    suffix: "normal",
+    suffix: "normal"
   },
   {
     id: "PROTEIN",
@@ -4761,10 +4277,9 @@ export const items: Item[] = [
     pocket: 2,
     price: 10000,
     flags: "Fling_30",
-    description:
-      "A nutritious drink for Pokémon. It raises the base Attack stat of a single Pokémon.",
+    description: "A nutritious drink for Pokémon. It raises the base Attack stat of a single Pokémon.",
     sprite: "/Items/PROTEIN.png",
-    suffix: "normal",
+    suffix: "normal"
   },
   {
     id: "IRON",
@@ -4773,10 +4288,9 @@ export const items: Item[] = [
     pocket: 2,
     price: 10000,
     flags: "Fling_30",
-    description:
-      "A nutritious drink for Pokémon. It raises the base Defense stat of a single Pokémon.",
+    description: "A nutritious drink for Pokémon. It raises the base Defense stat of a single Pokémon.",
     sprite: "/Items/IRON.png",
-    suffix: "normal",
+    suffix: "normal"
   },
   {
     id: "CALCIUM",
@@ -4785,10 +4299,9 @@ export const items: Item[] = [
     pocket: 2,
     price: 10000,
     flags: "Fling_30",
-    description:
-      "A nutritious drink for Pokémon. It raises the base Sp. Atk (Special Attack) stat of a single Pokémon.",
+    description: "A nutritious drink for Pokémon. It raises the base Sp. Atk (Special Attack) stat of a single Pokémon.",
     sprite: "/Items/CALCIUM.png",
-    suffix: "normal",
+    suffix: "normal"
   },
   {
     id: "ZINC",
@@ -4797,10 +4310,9 @@ export const items: Item[] = [
     pocket: 2,
     price: 10000,
     flags: "Fling_30",
-    description:
-      "A nutritious drink for Pokémon. It raises the base Sp. Def (Special Defense) stat of a single Pokémon.",
+    description: "A nutritious drink for Pokémon. It raises the base Sp. Def (Special Defense) stat of a single Pokémon.",
     sprite: "/Items/ZINC.png",
-    suffix: "normal",
+    suffix: "normal"
   },
   {
     id: "CARBOS",
@@ -4809,10 +4321,9 @@ export const items: Item[] = [
     pocket: 2,
     price: 10000,
     flags: "Fling_30",
-    description:
-      "A nutritious drink for Pokémon. It raises the base Speed stat of a single Pokémon.",
+    description: "A nutritious drink for Pokémon. It raises the base Speed stat of a single Pokémon.",
     sprite: "/Items/CARBOS.png",
-    suffix: "normal",
+    suffix: "normal"
   },
   {
     id: "HEALTHFEATHER",
@@ -4821,10 +4332,9 @@ export const items: Item[] = [
     pocket: 2,
     price: 300,
     flags: "Fling_20",
-    description:
-      "An item for use on a Pokémon. It slightly increases the base HP of a single Pokémon.",
+    description: "An item for use on a Pokémon. It slightly increases the base HP of a single Pokémon.",
     sprite: "/Items/HEALTHFEATHER.png",
-    suffix: "normal",
+    suffix: "normal"
   },
   {
     id: "MUSCLEFEATHER",
@@ -4833,10 +4343,9 @@ export const items: Item[] = [
     pocket: 2,
     price: 300,
     flags: "Fling_20",
-    description:
-      "An item for use on a Pokémon. It slightly increases the base Attack stat of a single Pokémon.",
+    description: "An item for use on a Pokémon. It slightly increases the base Attack stat of a single Pokémon.",
     sprite: "/Items/MUSCLEFEATHER.png",
-    suffix: "normal",
+    suffix: "normal"
   },
   {
     id: "RESISTFEATHER",
@@ -4845,10 +4354,9 @@ export const items: Item[] = [
     pocket: 2,
     price: 300,
     flags: "Fling_20",
-    description:
-      "An item for use on a Pokémon. It slightly increases the base Defense stat of a single Pokémon.",
+    description: "An item for use on a Pokémon. It slightly increases the base Defense stat of a single Pokémon.",
     sprite: "/Items/RESISTFEATHER.png",
-    suffix: "normal",
+    suffix: "normal"
   },
   {
     id: "GENIUSFEATHER",
@@ -4857,10 +4365,9 @@ export const items: Item[] = [
     pocket: 2,
     price: 300,
     flags: "Fling_20",
-    description:
-      "An item for use on a Pokémon. It slightly increases the base Sp. Atk stat of a single Pokémon.",
+    description: "An item for use on a Pokémon. It slightly increases the base Sp. Atk stat of a single Pokémon.",
     sprite: "/Items/GENIUSFEATHER.png",
-    suffix: "normal",
+    suffix: "normal"
   },
   {
     id: "CLEVERFEATHER",
@@ -4869,10 +4376,9 @@ export const items: Item[] = [
     pocket: 2,
     price: 300,
     flags: "Fling_20",
-    description:
-      "An item for use on a Pokémon. It slightly increases the base Sp. Def stat of a single Pokémon.",
+    description: "An item for use on a Pokémon. It slightly increases the base Sp. Def stat of a single Pokémon.",
     sprite: "/Items/CLEVERFEATHER.png",
-    suffix: "normal",
+    suffix: "normal"
   },
   {
     id: "SWIFTFEATHER",
@@ -4881,10 +4387,9 @@ export const items: Item[] = [
     pocket: 2,
     price: 300,
     flags: "Fling_20",
-    description:
-      "An item for use on a Pokémon. It slightly increases the base Speed stat of a single Pokémon.",
+    description: "An item for use on a Pokémon. It slightly increases the base Speed stat of a single Pokémon.",
     sprite: "/Items/SWIFTFEATHER.png",
-    suffix: "normal",
+    suffix: "normal"
   },
   {
     id: "HEALTHMOCHI",
@@ -4893,10 +4398,9 @@ export const items: Item[] = [
     pocket: 2,
     price: 500,
     flags: "Fling_20",
-    description:
-      "A mochi cake with Berries kneaded into its dough. It increases base points for a Pokémon's HP stat.",
+    description: "A mochi cake with Berries kneaded into its dough. It increases base points for a Pokémon's HP stat.",
     sprite: "/Items/HEALTHMOCHI.png",
-    suffix: "normal",
+    suffix: "normal"
   },
   {
     id: "MUSCLEMOCHI",
@@ -4905,10 +4409,9 @@ export const items: Item[] = [
     pocket: 2,
     price: 500,
     flags: "Fling_20",
-    description:
-      "A mochi cake with Berries kneaded into its dough. It increases base points for a Pokémon's Attack stat.",
+    description: "A mochi cake with Berries kneaded into its dough. It increases base points for a Pokémon's Attack stat.",
     sprite: "/Items/MUSCLEMOCHI.png",
-    suffix: "normal",
+    suffix: "normal"
   },
   {
     id: "RESISTMOCHI",
@@ -4917,10 +4420,9 @@ export const items: Item[] = [
     pocket: 2,
     price: 500,
     flags: "Fling_20",
-    description:
-      "A mochi cake with Berries kneaded into its dough. It increases base points for a Pokémon's Defense stat.",
+    description: "A mochi cake with Berries kneaded into its dough. It increases base points for a Pokémon's Defense stat.",
     sprite: "/Items/RESISTMOCHI.png",
-    suffix: "normal",
+    suffix: "normal"
   },
   {
     id: "GENIUSMOCHI",
@@ -4929,10 +4431,9 @@ export const items: Item[] = [
     pocket: 2,
     price: 500,
     flags: "Fling_20",
-    description:
-      "A mochi cake with Berries kneaded into its dough. It increases base points for a Pokémon's Sp. Atk stat.",
+    description: "A mochi cake with Berries kneaded into its dough. It increases base points for a Pokémon's Sp. Atk stat.",
     sprite: "/Items/GENIUSMOCHI.png",
-    suffix: "normal",
+    suffix: "normal"
   },
   {
     id: "CLEVERMOCHI",
@@ -4941,10 +4442,9 @@ export const items: Item[] = [
     pocket: 2,
     price: 500,
     flags: "Fling_20",
-    description:
-      "A mochi cake with Berries kneaded into its dough. It increases base points for a Pokémon's Sp. Def stat.",
+    description: "A mochi cake with Berries kneaded into its dough. It increases base points for a Pokémon's Sp. Def stat.",
     sprite: "/Items/CLEVERMOCHI.png",
-    suffix: "normal",
+    suffix: "normal"
   },
   {
     id: "SWIFTMOCHI",
@@ -4953,10 +4453,9 @@ export const items: Item[] = [
     pocket: 2,
     price: 500,
     flags: "Fling_20",
-    description:
-      "A mochi cake with Berries kneaded into its dough. It increases base points for a Pokémon's Speed stat.",
+    description: "A mochi cake with Berries kneaded into its dough. It increases base points for a Pokémon's Speed stat.",
     sprite: "/Items/SWIFTMOCHI.png",
-    suffix: "normal",
+    suffix: "normal"
   },
   {
     id: "FRESHSTARTMOCHI",
@@ -4965,10 +4464,9 @@ export const items: Item[] = [
     pocket: 2,
     price: 300,
     flags: "Fling_20",
-    description:
-      "A mochi cake with Berries kneaded into its dough. It causes a Pokémon to lose all its base points.",
+    description: "A mochi cake with Berries kneaded into its dough. It causes a Pokémon to lose all its base points.",
     sprite: "/Items/FRESHSTARTMOCHI.png",
-    suffix: "normal",
+    suffix: "normal"
   },
   {
     id: "LONELYMINT",
@@ -4977,10 +4475,9 @@ export const items: Item[] = [
     pocket: 2,
     price: 20,
     flags: "Fling_10",
-    description:
-      "When a Pokémon smells this mint, its Attack will grow more easily, but its Defense will grow more slowly.",
+    description: "When a Pokémon smells this mint, its Attack will grow more easily, but its Defense will grow more slowly.",
     sprite: "/Items/LONELYMINT.png",
-    suffix: "normal",
+    suffix: "normal"
   },
   {
     id: "ADAMANTMINT",
@@ -4989,10 +4486,9 @@ export const items: Item[] = [
     pocket: 2,
     price: 20,
     flags: "Fling_10",
-    description:
-      "When a Pokémon smells this mint, its Attack will grow more easily, but its Sp. Atk will grow more slowly.",
+    description: "When a Pokémon smells this mint, its Attack will grow more easily, but its Sp. Atk will grow more slowly.",
     sprite: "/Items/ADAMANTMINT.png",
-    suffix: "normal",
+    suffix: "normal"
   },
   {
     id: "NAUGHTYMINT",
@@ -5001,10 +4497,9 @@ export const items: Item[] = [
     pocket: 2,
     price: 20,
     flags: "Fling_10",
-    description:
-      "When a Pokémon smells this mint, its Attack will grow more easily, but its Sp. Def will grow more slowly.",
+    description: "When a Pokémon smells this mint, its Attack will grow more easily, but its Sp. Def will grow more slowly.",
     sprite: "/Items/NAUGHTYMINT.png",
-    suffix: "normal",
+    suffix: "normal"
   },
   {
     id: "BRAVEMINT",
@@ -5013,10 +4508,9 @@ export const items: Item[] = [
     pocket: 2,
     price: 20,
     flags: "Fling_10",
-    description:
-      "When a Pokémon smells this mint, its Attack will grow more easily, but its Speed will grow more slowly.",
+    description: "When a Pokémon smells this mint, its Attack will grow more easily, but its Speed will grow more slowly.",
     sprite: "/Items/BRAVEMINT.png",
-    suffix: "normal",
+    suffix: "normal"
   },
   {
     id: "BOLDMINT",
@@ -5025,10 +4519,9 @@ export const items: Item[] = [
     pocket: 2,
     price: 20,
     flags: "Fling_10",
-    description:
-      "When a Pokémon smells this mint, its Defense will grow more easily, but its Attack will grow more slowly.",
+    description: "When a Pokémon smells this mint, its Defense will grow more easily, but its Attack will grow more slowly.",
     sprite: "/Items/BOLDMINT.png",
-    suffix: "normal",
+    suffix: "normal"
   },
   {
     id: "IMPISHMINT",
@@ -5037,10 +4530,9 @@ export const items: Item[] = [
     pocket: 2,
     price: 20,
     flags: "Fling_10",
-    description:
-      "When a Pokémon smells this mint, its Defense will grow more easily, but its Sp. Atk will grow more slowly.",
+    description: "When a Pokémon smells this mint, its Defense will grow more easily, but its Sp. Atk will grow more slowly.",
     sprite: "/Items/IMPISHMINT.png",
-    suffix: "normal",
+    suffix: "normal"
   },
   {
     id: "LAXMINT",
@@ -5049,10 +4541,9 @@ export const items: Item[] = [
     pocket: 2,
     price: 20,
     flags: "Fling_10",
-    description:
-      "When a Pokémon smells this mint, its Defense will grow more easily, but its Sp. Def will grow more slowly.",
+    description: "When a Pokémon smells this mint, its Defense will grow more easily, but its Sp. Def will grow more slowly.",
     sprite: "/Items/LAXMINT.png",
-    suffix: "normal",
+    suffix: "normal"
   },
   {
     id: "RELAXEDMINT",
@@ -5061,10 +4552,9 @@ export const items: Item[] = [
     pocket: 2,
     price: 20,
     flags: "Fling_10",
-    description:
-      "When a Pokémon smells this mint, its Defense will grow more easily, but its Speed will grow more slowly.",
+    description: "When a Pokémon smells this mint, its Defense will grow more easily, but its Speed will grow more slowly.",
     sprite: "/Items/RELAXEDMINT.png",
-    suffix: "normal",
+    suffix: "normal"
   },
   {
     id: "MODESTMINT",
@@ -5073,10 +4563,9 @@ export const items: Item[] = [
     pocket: 2,
     price: 20,
     flags: "Fling_10",
-    description:
-      "When a Pokémon smells this mint, its Sp. Atk will grow more easily, but its Attack will grow more slowly.",
+    description: "When a Pokémon smells this mint, its Sp. Atk will grow more easily, but its Attack will grow more slowly.",
     sprite: "/Items/MODESTMINT.png",
-    suffix: "normal",
+    suffix: "normal"
   },
   {
     id: "MILDMINT",
@@ -5085,10 +4574,9 @@ export const items: Item[] = [
     pocket: 2,
     price: 20,
     flags: "Fling_10",
-    description:
-      "When a Pokémon smells this mint, its Sp. Atk will grow more easily, but its Defense will grow more slowly.",
+    description: "When a Pokémon smells this mint, its Sp. Atk will grow more easily, but its Defense will grow more slowly.",
     sprite: "/Items/MILDMINT.png",
-    suffix: "normal",
+    suffix: "normal"
   },
   {
     id: "RASHMINT",
@@ -5097,10 +4585,9 @@ export const items: Item[] = [
     pocket: 2,
     price: 20,
     flags: "Fling_10",
-    description:
-      "When a Pokémon smells this mint, its Sp. Atk will grow more easily, but its Sp. Def will grow more slowly.",
+    description: "When a Pokémon smells this mint, its Sp. Atk will grow more easily, but its Sp. Def will grow more slowly.",
     sprite: "/Items/RASHMINT.png",
-    suffix: "normal",
+    suffix: "normal"
   },
   {
     id: "QUIETMINT",
@@ -5109,10 +4596,9 @@ export const items: Item[] = [
     pocket: 2,
     price: 20,
     flags: "Fling_10",
-    description:
-      "When a Pokémon smells this mint, its Sp. Atk will grow more easily, but its Speed will grow more slowly.",
+    description: "When a Pokémon smells this mint, its Sp. Atk will grow more easily, but its Speed will grow more slowly.",
     sprite: "/Items/QUIETMINT.png",
-    suffix: "normal",
+    suffix: "normal"
   },
   {
     id: "CALMMINT",
@@ -5121,10 +4607,9 @@ export const items: Item[] = [
     pocket: 2,
     price: 20,
     flags: "Fling_10",
-    description:
-      "When a Pokémon smells this mint, its Sp. Def will grow more easily, but its Attack will grow more slowly.",
+    description: "When a Pokémon smells this mint, its Sp. Def will grow more easily, but its Attack will grow more slowly.",
     sprite: "/Items/CALMMINT.png",
-    suffix: "normal",
+    suffix: "normal"
   },
   {
     id: "GENTLEMINT",
@@ -5133,10 +4618,9 @@ export const items: Item[] = [
     pocket: 2,
     price: 20,
     flags: "Fling_10",
-    description:
-      "When a Pokémon smells this mint, its Sp. Def will grow more easily, but its Defense will grow more slowly.",
+    description: "When a Pokémon smells this mint, its Sp. Def will grow more easily, but its Defense will grow more slowly.",
     sprite: "/Items/GENTLEMINT.png",
-    suffix: "normal",
+    suffix: "normal"
   },
   {
     id: "CAREFULMINT",
@@ -5145,10 +4629,9 @@ export const items: Item[] = [
     pocket: 2,
     price: 20,
     flags: "Fling_10",
-    description:
-      "When a Pokémon smells this mint, its Sp. Def will grow more easily, but its Sp. Atk will grow more slowly.",
+    description: "When a Pokémon smells this mint, its Sp. Def will grow more easily, but its Sp. Atk will grow more slowly.",
     sprite: "/Items/CAREFULMINT.png",
-    suffix: "normal",
+    suffix: "normal"
   },
   {
     id: "SASSYMINT",
@@ -5157,10 +4640,9 @@ export const items: Item[] = [
     pocket: 2,
     price: 20,
     flags: "Fling_10",
-    description:
-      "When a Pokémon smells this mint, its Sp. Def will grow more easily, but its Speed will grow more slowly.",
+    description: "When a Pokémon smells this mint, its Sp. Def will grow more easily, but its Speed will grow more slowly.",
     sprite: "/Items/SASSYMINT.png",
-    suffix: "normal",
+    suffix: "normal"
   },
   {
     id: "TIMIDMINT",
@@ -5169,10 +4651,9 @@ export const items: Item[] = [
     pocket: 2,
     price: 20,
     flags: "Fling_10",
-    description:
-      "When a Pokémon smells this mint, its Speed will grow more easily, but its Attack will grow more slowly.",
+    description: "When a Pokémon smells this mint, its Speed will grow more easily, but its Attack will grow more slowly.",
     sprite: "/Items/TIMIDMINT.png",
-    suffix: "normal",
+    suffix: "normal"
   },
   {
     id: "HASTYMINT",
@@ -5181,10 +4662,9 @@ export const items: Item[] = [
     pocket: 2,
     price: 20,
     flags: "Fling_10",
-    description:
-      "When a Pokémon smells this mint, its Speed will grow more easily, but its Defense will grow more slowly.",
+    description: "When a Pokémon smells this mint, its Speed will grow more easily, but its Defense will grow more slowly.",
     sprite: "/Items/HASTYMINT.png",
-    suffix: "normal",
+    suffix: "normal"
   },
   {
     id: "JOLLYMINT",
@@ -5193,10 +4673,9 @@ export const items: Item[] = [
     pocket: 2,
     price: 20,
     flags: "Fling_10",
-    description:
-      "When a Pokémon smells this mint, its Speed will grow more easily, but its Sp. Atk will grow more slowly.",
+    description: "When a Pokémon smells this mint, its Speed will grow more easily, but its Sp. Atk will grow more slowly.",
     sprite: "/Items/JOLLYMINT.png",
-    suffix: "normal",
+    suffix: "normal"
   },
   {
     id: "NAIVEMINT",
@@ -5205,10 +4684,9 @@ export const items: Item[] = [
     pocket: 2,
     price: 20,
     flags: "Fling_10",
-    description:
-      "When a Pokémon smells this mint, its Speed will grow more easily, but its Sp. Def will grow more slowly.",
+    description: "When a Pokémon smells this mint, its Speed will grow more easily, but its Sp. Def will grow more slowly.",
     sprite: "/Items/NAIVEMINT.png",
-    suffix: "normal",
+    suffix: "normal"
   },
   {
     id: "SERIOUSMINT",
@@ -5217,10 +4695,9 @@ export const items: Item[] = [
     pocket: 2,
     price: 20,
     flags: "Fling_10",
-    description:
-      "When a Pokémon smells this mint, all of its stats will grow at an equal rate.",
+    description: "When a Pokémon smells this mint, all of its stats will grow at an equal rate.",
     sprite: "/Items/SERIOUSMINT.png",
-    suffix: "normal",
+    suffix: "normal"
   },
   {
     id: "ABILITYCAPSULE",
@@ -5229,10 +4706,9 @@ export const items: Item[] = [
     pocket: 2,
     price: 10000,
     flags: "",
-    description:
-      "A capsule that allows a Pokémon with two Abilities to switch between these Abilities when it is used.",
+    description: "A capsule that allows a Pokémon with two Abilities to switch between these Abilities when it is used.",
     sprite: "/Items/ABILITYCAPSULE.png",
-    suffix: "normal",
+    suffix: "normal"
   },
   {
     id: "ABILITYPATCH",
@@ -5241,10 +4717,9 @@ export const items: Item[] = [
     pocket: 2,
     price: 10000,
     flags: "",
-    description:
-      "A patch that allows a Pokémon with a regular Ability to have a rare Ability.",
+    description: "A patch that allows a Pokémon with a regular Ability to have a rare Ability.",
     sprite: "/Items/ABILITYPATCH.png",
-    suffix: "normal",
+    suffix: "normal"
   },
   {
     id: "EXPCANDYXS",
@@ -5253,10 +4728,9 @@ export const items: Item[] = [
     pocket: 2,
     price: 20,
     flags: "Fling_30",
-    description:
-      "A candy packed with energy. When consumed, it will grant a Pokémon a very small amount of Exp. Points.",
+    description: "A candy packed with energy. When consumed, it will grant a Pokémon a very small amount of Exp. Points.",
     sprite: "/Items/EXPCANDYXS.png",
-    suffix: "normal",
+    suffix: "normal"
   },
   {
     id: "EXPCANDYS",
@@ -5265,10 +4739,9 @@ export const items: Item[] = [
     pocket: 2,
     price: 240,
     flags: "Fling_30",
-    description:
-      "A candy packed with energy. When consumed, it will grant a Pokémon a small amount of Exp. Points.",
+    description: "A candy packed with energy. When consumed, it will grant a Pokémon a small amount of Exp. Points.",
     sprite: "/Items/EXPCANDYS.png",
-    suffix: "normal",
+    suffix: "normal"
   },
   {
     id: "EXPCANDYM",
@@ -5277,10 +4750,9 @@ export const items: Item[] = [
     pocket: 2,
     price: 1000,
     flags: "Fling_30",
-    description:
-      "A candy packed with energy. When consumed, it will grant a Pokémon a moderate amount of Exp. Points.",
+    description: "A candy packed with energy. When consumed, it will grant a Pokémon a moderate amount of Exp. Points.",
     sprite: "/Items/EXPCANDYM.png",
-    suffix: "normal",
+    suffix: "normal"
   },
   {
     id: "EXPCANDYL",
@@ -5289,10 +4761,9 @@ export const items: Item[] = [
     pocket: 2,
     price: 3000,
     flags: "Fling_30",
-    description:
-      "A candy packed with energy. When consumed, it will grant a Pokémon a large amount of Exp. Points.",
+    description: "A candy packed with energy. When consumed, it will grant a Pokémon a large amount of Exp. Points.",
     sprite: "/Items/EXPCANDYL.png",
-    suffix: "normal",
+    suffix: "normal"
   },
   {
     id: "EXPCANDYXL",
@@ -5301,10 +4772,9 @@ export const items: Item[] = [
     pocket: 2,
     price: 10000,
     flags: "Fling_30",
-    description:
-      "A candy packed with energy. When consumed, it will grant a Pokémon a very large amount of Exp. Points.",
+    description: "A candy packed with energy. When consumed, it will grant a Pokémon a very large amount of Exp. Points.",
     sprite: "/Items/EXPCANDYXL.png",
-    suffix: "normal",
+    suffix: "normal"
   },
   {
     id: "RARECANDY",
@@ -5313,10 +4783,9 @@ export const items: Item[] = [
     pocket: 2,
     price: 10000,
     flags: "Fling_30",
-    description:
-      "A candy that is packed with energy. It raises the level of a single Pokémon by one.",
+    description: "A candy that is packed with energy. It raises the level of a single Pokémon by one.",
     sprite: "/Items/RARECANDY.png",
-    suffix: "normal",
+    suffix: "normal"
   },
   {
     id: "MASTERBALL",
@@ -5325,10 +4794,9 @@ export const items: Item[] = [
     pocket: 3,
     price: 0,
     flags: "PokeBall",
-    description:
-      "The best Ball with the ultimate level of performance. It will catch any wild Pokémon without fail.",
+    description: "The best Ball with the ultimate level of performance. It will catch any wild Pokémon without fail.",
     sprite: "/Items/MASTERBALL.png",
-    suffix: "normal",
+    suffix: "normal"
   },
   {
     id: "ULTRABALL",
@@ -5337,10 +4805,9 @@ export const items: Item[] = [
     pocket: 3,
     price: 800,
     flags: "PokeBall",
-    description:
-      "An ultra-performance Ball that provides a higher Pokémon catch rate than a Great Ball.",
+    description: "An ultra-performance Ball that provides a higher Pokémon catch rate than a Great Ball.",
     sprite: "/Items/ULTRABALL.png",
-    suffix: "normal",
+    suffix: "normal"
   },
   {
     id: "GREATBALL",
@@ -5349,10 +4816,9 @@ export const items: Item[] = [
     pocket: 3,
     price: 600,
     flags: "PokeBall",
-    description:
-      "A good, high-performance Ball that provides a higher Pokémon catch rate than a standard Poké Ball.",
+    description: "A good, high-performance Ball that provides a higher Pokémon catch rate than a standard Poké Ball.",
     sprite: "/Items/GREATBALL.png",
-    suffix: "normal",
+    suffix: "normal"
   },
   {
     id: "POKEBALL",
@@ -5361,10 +4827,9 @@ export const items: Item[] = [
     pocket: 3,
     price: 200,
     flags: "PokeBall",
-    description:
-      "A device for catching wild Pokémon. It is thrown like a ball at the target. It is designed as a capsule system.",
+    description: "A device for catching wild Pokémon. It is thrown like a ball at the target. It is designed as a capsule system.",
     sprite: "/Items/POKEBALL.png",
-    suffix: "normal",
+    suffix: "normal"
   },
   {
     id: "SAFARIBALL",
@@ -5373,10 +4838,9 @@ export const items: Item[] = [
     pocket: 3,
     price: 0,
     flags: "PokeBall",
-    description:
-      "A special Poké Ball that is used only in the Safari Zone. It is decorated in a camouflage pattern.",
+    description: "A special Poké Ball that is used only in the Safari Zone. It is decorated in a camouflage pattern.",
     sprite: "/Items/SAFARIBALL.png",
-    suffix: "normal",
+    suffix: "normal"
   },
   {
     id: "SPORTBALL",
@@ -5387,7 +4851,7 @@ export const items: Item[] = [
     flags: "PokeBall",
     description: "A special Poké Ball for the Bug-Catching Contest.",
     sprite: "/Items/SPORTBALL.png",
-    suffix: "normal",
+    suffix: "normal"
   },
   {
     id: "NETBALL",
@@ -5396,10 +4860,9 @@ export const items: Item[] = [
     pocket: 3,
     price: 1000,
     flags: "PokeBall",
-    description:
-      "A somewhat different Poké Ball that works especially well on Water- and Bug-type Pokémon.",
+    description: "A somewhat different Poké Ball that works especially well on Water- and Bug-type Pokémon.",
     sprite: "/Items/NETBALL.png",
-    suffix: "normal",
+    suffix: "normal"
   },
   {
     id: "DIVEBALL",
@@ -5408,10 +4871,9 @@ export const items: Item[] = [
     pocket: 3,
     price: 1000,
     flags: "PokeBall",
-    description:
-      "A somewhat different Poké Ball that works especially well on Pokémon that live underwater.",
+    description: "A somewhat different Poké Ball that works especially well on Pokémon that live underwater.",
     sprite: "/Items/DIVEBALL.png",
-    suffix: "normal",
+    suffix: "normal"
   },
   {
     id: "NESTBALL",
@@ -5420,10 +4882,9 @@ export const items: Item[] = [
     pocket: 3,
     price: 1000,
     flags: "PokeBall",
-    description:
-      "A somewhat different Poké Ball that works especially well on weaker Pokémon in the wild.",
+    description: "A somewhat different Poké Ball that works especially well on weaker Pokémon in the wild.",
     sprite: "/Items/NESTBALL.png",
-    suffix: "normal",
+    suffix: "normal"
   },
   {
     id: "REPEATBALL",
@@ -5432,10 +4893,9 @@ export const items: Item[] = [
     pocket: 3,
     price: 1000,
     flags: "PokeBall",
-    description:
-      "A somewhat different Poké Ball that works especially well on Pokémon species that were previously caught.",
+    description: "A somewhat different Poké Ball that works especially well on Pokémon species that were previously caught.",
     sprite: "/Items/REPEATBALL.png",
-    suffix: "normal",
+    suffix: "normal"
   },
   {
     id: "TIMERBALL",
@@ -5444,10 +4904,9 @@ export const items: Item[] = [
     pocket: 3,
     price: 1000,
     flags: "PokeBall",
-    description:
-      "A somewhat different Ball that becomes progressively better the more turns there are in a battle.",
+    description: "A somewhat different Ball that becomes progressively better the more turns there are in a battle.",
     sprite: "/Items/TIMERBALL.png",
-    suffix: "normal",
+    suffix: "normal"
   },
   {
     id: "LUXURYBALL",
@@ -5456,10 +4915,9 @@ export const items: Item[] = [
     pocket: 3,
     price: 3000,
     flags: "PokeBall",
-    description:
-      "A comfortable Poké Ball that makes a caught wild Pokémon quickly grow friendly.",
+    description: "A comfortable Poké Ball that makes a caught wild Pokémon quickly grow friendly.",
     sprite: "/Items/LUXURYBALL.png",
-    suffix: "normal",
+    suffix: "normal"
   },
   {
     id: "PREMIERBALL",
@@ -5468,10 +4926,9 @@ export const items: Item[] = [
     pocket: 3,
     price: 200,
     flags: "PokeBall",
-    description:
-      "A somewhat rare Poké Ball that has been specially made to commemorate an event of some sort.",
+    description: "A somewhat rare Poké Ball that has been specially made to commemorate an event of some sort.",
     sprite: "/Items/PREMIERBALL.png",
-    suffix: "normal",
+    suffix: "normal"
   },
   {
     id: "DUSKBALL",
@@ -5480,10 +4937,9 @@ export const items: Item[] = [
     pocket: 3,
     price: 1000,
     flags: "PokeBall",
-    description:
-      "A somewhat different Poké Ball that makes it easier to catch wild Pokémon at night or in dark places like caves.",
+    description: "A somewhat different Poké Ball that makes it easier to catch wild Pokémon at night or in dark places like caves.",
     sprite: "/Items/DUSKBALL.png",
-    suffix: "normal",
+    suffix: "normal"
   },
   {
     id: "HEALBALL",
@@ -5492,10 +4948,9 @@ export const items: Item[] = [
     pocket: 3,
     price: 300,
     flags: "PokeBall",
-    description:
-      "A remedial Poké Ball that restores the caught Pokémon's HP and eliminates any status problem.",
+    description: "A remedial Poké Ball that restores the caught Pokémon's HP and eliminates any status problem.",
     sprite: "/Items/HEALBALL.png",
-    suffix: "normal",
+    suffix: "normal"
   },
   {
     id: "QUICKBALL",
@@ -5504,10 +4959,9 @@ export const items: Item[] = [
     pocket: 3,
     price: 1000,
     flags: "PokeBall",
-    description:
-      "A somewhat different Poké Ball that provides a better catch rate if used at the start of a wild encounter.",
+    description: "A somewhat different Poké Ball that provides a better catch rate if used at the start of a wild encounter.",
     sprite: "/Items/QUICKBALL.png",
-    suffix: "normal",
+    suffix: "normal"
   },
   {
     id: "CHERISHBALL",
@@ -5516,10 +4970,9 @@ export const items: Item[] = [
     pocket: 3,
     price: 0,
     flags: "PokeBall",
-    description:
-      "A quite rare Poké Ball that has been specially crafted to commemorate an occasion of some sort.",
+    description: "A quite rare Poké Ball that has been specially crafted to commemorate an occasion of some sort.",
     sprite: "/Items/CHERISHBALL.png",
-    suffix: "normal",
+    suffix: "normal"
   },
   {
     id: "FASTBALL",
@@ -5530,7 +4983,7 @@ export const items: Item[] = [
     flags: "PokeBall",
     description: "A Poké Ball that makes it easier to catch fast Pokémon.",
     sprite: "/Items/FASTBALL.png",
-    suffix: "normal",
+    suffix: "normal"
   },
   {
     id: "LEVELBALL",
@@ -5539,10 +4992,9 @@ export const items: Item[] = [
     pocket: 3,
     price: 300,
     flags: "PokeBall",
-    description:
-      "A Poké Ball for catching Pokémon that are a lower level than your own.",
+    description: "A Poké Ball for catching Pokémon that are a lower level than your own.",
     sprite: "/Items/LEVELBALL.png",
-    suffix: "normal",
+    suffix: "normal"
   },
   {
     id: "LUREBALL",
@@ -5551,10 +5003,9 @@ export const items: Item[] = [
     pocket: 3,
     price: 300,
     flags: "PokeBall",
-    description:
-      "A Poké Ball for catching Pokémon hooked by a Rod when fishing.",
+    description: "A Poké Ball for catching Pokémon hooked by a Rod when fishing.",
     sprite: "/Items/LUREBALL.png",
-    suffix: "normal",
+    suffix: "normal"
   },
   {
     id: "HEAVYBALL",
@@ -5565,7 +5016,7 @@ export const items: Item[] = [
     flags: "PokeBall",
     description: "A Poké Ball for catching very heavy Pokémon.",
     sprite: "/Items/HEAVYBALL.png",
-    suffix: "normal",
+    suffix: "normal"
   },
   {
     id: "LOVEBALL",
@@ -5574,10 +5025,9 @@ export const items: Item[] = [
     pocket: 3,
     price: 300,
     flags: "PokeBall",
-    description:
-      "A Poké Ball for catching Pokémon that are the opposite gender of your Pokémon.",
+    description: "A Poké Ball for catching Pokémon that are the opposite gender of your Pokémon.",
     sprite: "/Items/LOVEBALL.png",
-    suffix: "normal",
+    suffix: "normal"
   },
   {
     id: "FRIENDBALL",
@@ -5588,7 +5038,7 @@ export const items: Item[] = [
     flags: "PokeBall",
     description: "A Poké Ball that makes caught Pokémon more friendly.",
     sprite: "/Items/FRIENDBALL.png",
-    suffix: "normal",
+    suffix: "normal"
   },
   {
     id: "MOONBALL",
@@ -5597,10 +5047,9 @@ export const items: Item[] = [
     pocket: 3,
     price: 300,
     flags: "PokeBall",
-    description:
-      "A Poké Ball for catching Pokémon that evolve using the Moon Stone.",
+    description: "A Poké Ball for catching Pokémon that evolve using the Moon Stone.",
     sprite: "/Items/MOONBALL.png",
-    suffix: "normal",
+    suffix: "normal"
   },
   {
     id: "DREAMBALL",
@@ -5609,10 +5058,9 @@ export const items: Item[] = [
     pocket: 3,
     price: 300,
     flags: "PokeBall",
-    description:
-      "A somewhat different Poké Ball that makes it easier to catch wild Pokémon while they're asleep.",
+    description: "A somewhat different Poké Ball that makes it easier to catch wild Pokémon while they're asleep.",
     sprite: "/Items/DREAMBALL.png",
-    suffix: "normal",
+    suffix: "normal"
   },
   {
     id: "BEASTBALL",
@@ -5621,10 +5069,9 @@ export const items: Item[] = [
     pocket: 3,
     price: 1000,
     flags: "PokeBall",
-    description:
-      "A special Poké Ball designed to catch Ultra Beasts. It has a low success rate for catching others.",
+    description: "A special Poké Ball designed to catch Ultra Beasts. It has a low success rate for catching others.",
     sprite: "/Items/BEASTBALL.png",
-    suffix: "normal",
+    suffix: "normal"
   },
   {
     id: "TM01",
@@ -5633,10 +5080,9 @@ export const items: Item[] = [
     pocket: 4,
     price: 3000,
     flags: "Fling_150",
-    description:
-      "The user focuses its mind before launching a punch. This move fails if the user is hit before it is used.",
+    description: "The user focuses its mind before launching a punch. This move fails if the user is hit before it is used.",
     sprite: "/Items/TM01.png",
-    suffix: "normal",
+    suffix: "normal"
   },
   {
     id: "TM02",
@@ -5647,7 +5093,7 @@ export const items: Item[] = [
     flags: "Fling_80",
     description: "The user slashes the target with huge sharp claws.",
     sprite: "/Items/TM02.png",
-    suffix: "normal",
+    suffix: "normal"
   },
   {
     id: "TM03",
@@ -5656,10 +5102,9 @@ export const items: Item[] = [
     pocket: 4,
     price: 3000,
     flags: "Fling_60",
-    description:
-      "The user attacks the target with a pulsing blast of water. This may also confuse the target.",
+    description: "The user attacks the target with a pulsing blast of water. This may also confuse the target.",
     sprite: "/Items/TM03.png",
-    suffix: "normal",
+    suffix: "normal"
   },
   {
     id: "TM04",
@@ -5668,10 +5113,9 @@ export const items: Item[] = [
     pocket: 4,
     price: 1500,
     flags: "Fling_10",
-    description:
-      "The user quietly focuses its mind and calms its spirit to raise its Sp. Atk and Sp. Def stats.",
+    description: "The user quietly focuses its mind and calms its spirit to raise its Sp. Atk and Sp. Def stats.",
     sprite: "/Items/TM04.png",
-    suffix: "normal",
+    suffix: "normal"
   },
   {
     id: "TM05",
@@ -5680,10 +5124,9 @@ export const items: Item[] = [
     pocket: 4,
     price: 1000,
     flags: "Fling_10",
-    description:
-      "The target is scared off, and a different Pokémon is dragged out. In the wild, this ends the battle.",
+    description: "The target is scared off, and a different Pokémon is dragged out. In the wild, this ends the battle.",
     sprite: "/Items/TM05.png",
-    suffix: "normal",
+    suffix: "normal"
   },
   {
     id: "TM06",
@@ -5692,10 +5135,9 @@ export const items: Item[] = [
     pocket: 4,
     price: 3000,
     flags: "Fling_10",
-    description:
-      "A move that leaves the target badly poisoned. Its poison damage worsens every turn.",
+    description: "A move that leaves the target badly poisoned. Its poison damage worsens every turn.",
     sprite: "/Items/TM06.png",
-    suffix: "normal",
+    suffix: "normal"
   },
   {
     id: "TM07",
@@ -5704,10 +5146,9 @@ export const items: Item[] = [
     pocket: 4,
     price: 2000,
     flags: "Fling_10",
-    description:
-      "The user summons a hailstorm lasting five turns. It damages all Pokémon except Ice types.",
+    description: "The user summons a hailstorm lasting five turns. It damages all Pokémon except Ice types.",
     sprite: "/Items/TM07.png",
-    suffix: "normal",
+    suffix: "normal"
   },
   {
     id: "TM08",
@@ -5716,10 +5157,9 @@ export const items: Item[] = [
     pocket: 4,
     price: 1500,
     flags: "Fling_10",
-    description:
-      "The user tenses its muscles to bulk up its body, raising both its Attack and Defense stats.",
+    description: "The user tenses its muscles to bulk up its body, raising both its Attack and Defense stats.",
     sprite: "/Items/TM08.png",
-    suffix: "normal",
+    suffix: "normal"
   },
   {
     id: "TM09",
@@ -5728,10 +5168,9 @@ export const items: Item[] = [
     pocket: 4,
     price: 2000,
     flags: "Fling_25",
-    description:
-      "The user forcefully shoots seeds at the target two to five times in a row.",
+    description: "The user forcefully shoots seeds at the target two to five times in a row.",
     sprite: "/Items/TM09.png",
-    suffix: "normal",
+    suffix: "normal"
   },
   {
     id: "TM10",
@@ -5740,10 +5179,9 @@ export const items: Item[] = [
     pocket: 4,
     price: 1500,
     flags: "Fling_10",
-    description:
-      "The user is roused, and its Attack and Sp. Atk stats increase.",
+    description: "The user is roused, and its Attack and Sp. Atk stats increase.",
     sprite: "/Items/TM10.png",
-    suffix: "normal",
+    suffix: "normal"
   },
   {
     id: "TM11",
@@ -5752,10 +5190,9 @@ export const items: Item[] = [
     pocket: 4,
     price: 2000,
     flags: "Fling_10",
-    description:
-      "The user intensifies the sun for five turns, powering up Fire-type moves and weakening Water-type moves.",
+    description: "The user intensifies the sun for five turns, powering up Fire-type moves and weakening Water-type moves.",
     sprite: "/Items/TM11.png",
-    suffix: "normal",
+    suffix: "normal"
   },
   {
     id: "TM12",
@@ -5764,10 +5201,9 @@ export const items: Item[] = [
     pocket: 4,
     price: 1500,
     flags: "Fling_10",
-    description:
-      "The target is taunted into a rage that allows it to use only attack moves for three turns.",
+    description: "The target is taunted into a rage that allows it to use only attack moves for three turns.",
     sprite: "/Items/TM12.png",
-    suffix: "normal",
+    suffix: "normal"
   },
   {
     id: "TM13",
@@ -5776,10 +5212,9 @@ export const items: Item[] = [
     pocket: 4,
     price: 3000,
     flags: "Fling_90",
-    description:
-      "The target is struck with an icy-cold beam of energy. This may also leave the target frozen.",
+    description: "The target is struck with an icy-cold beam of energy. This may also leave the target frozen.",
     sprite: "/Items/TM13.png",
-    suffix: "normal",
+    suffix: "normal"
   },
   {
     id: "TM14",
@@ -5788,10 +5223,9 @@ export const items: Item[] = [
     pocket: 4,
     price: 5500,
     flags: "Fling_110",
-    description:
-      "A howling blizzard is summoned to strike opposing Pokémon. This may also leave them frozen.",
+    description: "A howling blizzard is summoned to strike opposing Pokémon. This may also leave them frozen.",
     sprite: "/Items/TM14.png",
-    suffix: "normal",
+    suffix: "normal"
   },
   {
     id: "TM15",
@@ -5800,10 +5234,9 @@ export const items: Item[] = [
     pocket: 4,
     price: 7500,
     flags: "Fling_150",
-    description:
-      "The target is attacked with a powerful beam. The user can't move on the next turn.",
+    description: "The target is attacked with a powerful beam. The user can't move on the next turn.",
     sprite: "/Items/TM15.png",
-    suffix: "normal",
+    suffix: "normal"
   },
   {
     id: "TM16",
@@ -5812,10 +5245,9 @@ export const items: Item[] = [
     pocket: 4,
     price: 2000,
     flags: "Fling_10",
-    description:
-      "A wondrous wall of light is put up to reduce damage from special attacks for five turns.",
+    description: "A wondrous wall of light is put up to reduce damage from special attacks for five turns.",
     sprite: "/Items/TM16.png",
-    suffix: "normal",
+    suffix: "normal"
   },
   {
     id: "TM17",
@@ -5824,10 +5256,9 @@ export const items: Item[] = [
     pocket: 4,
     price: 2000,
     flags: "Fling_10",
-    description:
-      "The user protects itself from all attacks. Its chance of failing rises if it is used in succession.",
+    description: "The user protects itself from all attacks. Its chance of failing rises if it is used in succession.",
     sprite: "/Items/TM17.png",
-    suffix: "normal",
+    suffix: "normal"
   },
   {
     id: "TM18",
@@ -5836,10 +5267,9 @@ export const items: Item[] = [
     pocket: 4,
     price: 2000,
     flags: "Fling_10",
-    description:
-      "The user summons a heavy rain for five turns, powering up Water-type moves and weakening Fire-type ones.",
+    description: "The user summons a heavy rain for five turns, powering up Water-type moves and weakening Fire-type ones.",
     sprite: "/Items/TM18.png",
-    suffix: "normal",
+    suffix: "normal"
   },
   {
     id: "TM19",
@@ -5848,10 +5278,9 @@ export const items: Item[] = [
     pocket: 4,
     price: 3000,
     flags: "Fling_75",
-    description:
-      "A nutrient-draining attack. The user's HP is restored by half the damage taken by the target.",
+    description: "A nutrient-draining attack. The user's HP is restored by half the damage taken by the target.",
     sprite: "/Items/TM19.png",
-    suffix: "normal",
+    suffix: "normal"
   },
   {
     id: "TM20",
@@ -5860,10 +5289,9 @@ export const items: Item[] = [
     pocket: 4,
     price: 2000,
     flags: "Fling_10",
-    description:
-      "The user creates a protective field that prevents status conditions for five turns.",
+    description: "The user creates a protective field that prevents status conditions for five turns.",
     sprite: "/Items/TM20.png",
-    suffix: "normal",
+    suffix: "normal"
   },
   {
     id: "TM21",
@@ -5872,10 +5300,9 @@ export const items: Item[] = [
     pocket: 4,
     price: 3000,
     flags: "Fling_80",
-    description:
-      "The user damages opposing Pokémon by emitting a powerful flash.",
+    description: "The user damages opposing Pokémon by emitting a powerful flash.",
     sprite: "/Items/TM21.png",
-    suffix: "normal",
+    suffix: "normal"
   },
   {
     id: "TM22",
@@ -5884,10 +5311,9 @@ export const items: Item[] = [
     pocket: 4,
     price: 3000,
     flags: "Fling_120",
-    description:
-      "In this two-turn attack, the user gathers light, then blasts a bundled beam on the next turn.",
+    description: "In this two-turn attack, the user gathers light, then blasts a bundled beam on the next turn.",
     sprite: "/Items/TM22.png",
-    suffix: "normal",
+    suffix: "normal"
   },
   {
     id: "TM23",
@@ -5896,10 +5322,9 @@ export const items: Item[] = [
     pocket: 4,
     price: 3000,
     flags: "Fling_100",
-    description:
-      "The target is slammed with a steel-hard tail. This may also lower the target's Defense stat.",
+    description: "The target is slammed with a steel-hard tail. This may also lower the target's Defense stat.",
     sprite: "/Items/TM23.png",
-    suffix: "normal",
+    suffix: "normal"
   },
   {
     id: "TM24",
@@ -5908,10 +5333,9 @@ export const items: Item[] = [
     pocket: 4,
     price: 3000,
     flags: "Fling_90",
-    description:
-      "A strong electric blast crashes down on the target. This may also leave the target with paralysis.",
+    description: "A strong electric blast crashes down on the target. This may also leave the target with paralysis.",
     sprite: "/Items/TM24.png",
-    suffix: "normal",
+    suffix: "normal"
   },
   {
     id: "TM25",
@@ -5920,10 +5344,9 @@ export const items: Item[] = [
     pocket: 4,
     price: 5500,
     flags: "Fling_110",
-    description:
-      "A wicked thunderbolt is dropped on the target to inflict damage. This may also leave them with paralysis.",
+    description: "A wicked thunderbolt is dropped on the target to inflict damage. This may also leave them with paralysis.",
     sprite: "/Items/TM25.png",
-    suffix: "normal",
+    suffix: "normal"
   },
   {
     id: "TM26",
@@ -5932,10 +5355,9 @@ export const items: Item[] = [
     pocket: 4,
     price: 3000,
     flags: "Fling_100",
-    description:
-      "The user sets off an earthquake that strikes every Pokémon around it.",
+    description: "The user sets off an earthquake that strikes every Pokémon around it.",
     sprite: "/Items/TM26.png",
-    suffix: "normal",
+    suffix: "normal"
   },
   {
     id: "TM27",
@@ -5944,10 +5366,9 @@ export const items: Item[] = [
     pocket: 4,
     price: 3000,
     flags: "Fling_65",
-    description:
-      "The user makes a swift attack on the target's legs, which lowers the target's Speed stat.",
+    description: "The user makes a swift attack on the target's legs, which lowers the target's Speed stat.",
     sprite: "/Items/TM27.png",
-    suffix: "normal",
+    suffix: "normal"
   },
   {
     id: "TM28",
@@ -5956,10 +5377,9 @@ export const items: Item[] = [
     pocket: 4,
     price: 2000,
     flags: "Fling_80",
-    description:
-      "The user burrows into the ground, then attacks on the next turn. It can also be used to exit dungeons.",
+    description: "The user burrows into the ground, then attacks on the next turn. It can also be used to exit dungeons.",
     sprite: "/Items/TM28.png",
-    suffix: "normal",
+    suffix: "normal"
   },
   {
     id: "TM29",
@@ -5968,10 +5388,9 @@ export const items: Item[] = [
     pocket: 4,
     price: 3000,
     flags: "Fling_90",
-    description:
-      "The target is hit by a strong telekinetic force. This may also lower the target's Sp. Def stat.",
+    description: "The target is hit by a strong telekinetic force. This may also lower the target's Sp. Def stat.",
     sprite: "/Items/TM29.png",
-    suffix: "normal",
+    suffix: "normal"
   },
   {
     id: "TM30",
@@ -5980,10 +5399,9 @@ export const items: Item[] = [
     pocket: 4,
     price: 3000,
     flags: "Fling_80",
-    description:
-      "The user hurls a shadowy blob at the target. This may also lower the target's Sp. Def stat.",
+    description: "The user hurls a shadowy blob at the target. This may also lower the target's Sp. Def stat.",
     sprite: "/Items/TM30.png",
-    suffix: "normal",
+    suffix: "normal"
   },
   {
     id: "TM31",
@@ -5992,10 +5410,9 @@ export const items: Item[] = [
     pocket: 4,
     price: 3000,
     flags: "Fling_75",
-    description:
-      "The user attacks with a swift chop. It can also break barriers, such as Light Screen and Reflect.",
+    description: "The user attacks with a swift chop. It can also break barriers, such as Light Screen and Reflect.",
     sprite: "/Items/TM31.png",
-    suffix: "normal",
+    suffix: "normal"
   },
   {
     id: "TM32",
@@ -6004,10 +5421,9 @@ export const items: Item[] = [
     pocket: 4,
     price: 1000,
     flags: "Fling_10",
-    description:
-      "By moving rapidly, the user makes illusory copies of itself to raise its evasiveness.",
+    description: "By moving rapidly, the user makes illusory copies of itself to raise its evasiveness.",
     sprite: "/Items/TM32.png",
-    suffix: "normal",
+    suffix: "normal"
   },
   {
     id: "TM33",
@@ -6016,10 +5432,9 @@ export const items: Item[] = [
     pocket: 4,
     price: 2000,
     flags: "Fling_10",
-    description:
-      "A wondrous wall of light is put up to reduce damage from physical attacks for five turns.",
+    description: "A wondrous wall of light is put up to reduce damage from physical attacks for five turns.",
     sprite: "/Items/TM33.png",
-    suffix: "normal",
+    suffix: "normal"
   },
   {
     id: "TM34",
@@ -6028,10 +5443,9 @@ export const items: Item[] = [
     pocket: 4,
     price: 3000,
     flags: "Fling_60",
-    description:
-      "The user strikes the target with a quick jolt of electricity. This attack never misses.",
+    description: "The user strikes the target with a quick jolt of electricity. This attack never misses.",
     sprite: "/Items/TM34.png",
-    suffix: "normal",
+    suffix: "normal"
   },
   {
     id: "TM35",
@@ -6040,10 +5454,9 @@ export const items: Item[] = [
     pocket: 4,
     price: 3000,
     flags: "Fling_90",
-    description:
-      "The target is scorched with an intense blast of fire. This may also leave the target with a burn.",
+    description: "The target is scorched with an intense blast of fire. This may also leave the target with a burn.",
     sprite: "/Items/TM35.png",
-    suffix: "normal",
+    suffix: "normal"
   },
   {
     id: "TM36",
@@ -6052,10 +5465,9 @@ export const items: Item[] = [
     pocket: 4,
     price: 3000,
     flags: "Fling_90",
-    description:
-      "Unsanitary sludge is hurled at the target. This may also poison the target.",
+    description: "Unsanitary sludge is hurled at the target. This may also poison the target.",
     sprite: "/Items/TM36.png",
-    suffix: "normal",
+    suffix: "normal"
   },
   {
     id: "TM37",
@@ -6064,10 +5476,9 @@ export const items: Item[] = [
     pocket: 4,
     price: 2000,
     flags: "Fling_10",
-    description:
-      "A five-turn sandstorm is summoned to hurt all combatants except Rock, Ground, and Steel types.",
+    description: "A five-turn sandstorm is summoned to hurt all combatants except Rock, Ground, and Steel types.",
     sprite: "/Items/TM37.png",
-    suffix: "normal",
+    suffix: "normal"
   },
   {
     id: "TM38",
@@ -6076,10 +5487,9 @@ export const items: Item[] = [
     pocket: 4,
     price: 5500,
     flags: "Fling_110",
-    description:
-      "The target is attacked with an intense blast of all-consuming fire. This may also leave them with a burn.",
+    description: "The target is attacked with an intense blast of all-consuming fire. This may also leave them with a burn.",
     sprite: "/Items/TM38.png",
-    suffix: "normal",
+    suffix: "normal"
   },
   {
     id: "TM39",
@@ -6088,10 +5498,9 @@ export const items: Item[] = [
     pocket: 4,
     price: 3000,
     flags: "Fling_60",
-    description:
-      "Boulders are hurled at the target. This also lowers the target's Speed stat by preventing its movement.",
+    description: "Boulders are hurled at the target. This also lowers the target's Speed stat by preventing its movement.",
     sprite: "/Items/TM39.png",
-    suffix: "normal",
+    suffix: "normal"
   },
   {
     id: "TM40",
@@ -6100,10 +5509,9 @@ export const items: Item[] = [
     pocket: 4,
     price: 3000,
     flags: "Fling_60",
-    description:
-      "The user confounds the target with speed, then slashes. This attack never misses.",
+    description: "The user confounds the target with speed, then slashes. This attack never misses.",
     sprite: "/Items/TM40.png",
-    suffix: "normal",
+    suffix: "normal"
   },
   {
     id: "TM41",
@@ -6112,10 +5520,9 @@ export const items: Item[] = [
     pocket: 4,
     price: 1500,
     flags: "Fling_10",
-    description:
-      "The user torments and enrages the target, making it incapable of using the same move twice in a row.",
+    description: "The user torments and enrages the target, making it incapable of using the same move twice in a row.",
     sprite: "/Items/TM41.png",
-    suffix: "normal",
+    suffix: "normal"
   },
   {
     id: "TM42",
@@ -6124,10 +5531,9 @@ export const items: Item[] = [
     pocket: 4,
     price: 3000,
     flags: "Fling_70",
-    description:
-      "This attack move doubles its power if the user is poisoned, burned, or paralyzed.",
+    description: "This attack move doubles its power if the user is poisoned, burned, or paralyzed.",
     sprite: "/Items/TM42.png",
-    suffix: "normal",
+    suffix: "normal"
   },
   {
     id: "TM43",
@@ -6136,10 +5542,9 @@ export const items: Item[] = [
     pocket: 4,
     price: 3000,
     flags: "Fling_70",
-    description:
-      "After making its attack, the user rushes back to switch places with a party Pokémon in waiting.",
+    description: "After making its attack, the user rushes back to switch places with a party Pokémon in waiting.",
     sprite: "/Items/TM43.png",
-    suffix: "normal",
+    suffix: "normal"
   },
   {
     id: "TM44",
@@ -6148,10 +5553,9 @@ export const items: Item[] = [
     pocket: 4,
     price: 3000,
     flags: "Fling_10",
-    description:
-      "The user goes to sleep for two turns. This fully restores the user's HP and heals any status conditions.",
+    description: "The user goes to sleep for two turns. This fully restores the user's HP and heals any status conditions.",
     sprite: "/Items/TM44.png",
-    suffix: "normal",
+    suffix: "normal"
   },
   {
     id: "TM45",
@@ -6160,10 +5564,9 @@ export const items: Item[] = [
     pocket: 4,
     price: 3000,
     flags: "Fling_10",
-    description:
-      "If it is the opposite gender of the user, the target becomes infatuated and less likely to attack.",
+    description: "If it is the opposite gender of the user, the target becomes infatuated and less likely to attack.",
     sprite: "/Items/TM45.png",
-    suffix: "normal",
+    suffix: "normal"
   },
   {
     id: "TM46",
@@ -6172,10 +5575,9 @@ export const items: Item[] = [
     pocket: 4,
     price: 2000,
     flags: "Fling_60",
-    description:
-      "The user attacks and steals the target's held item simultaneously.",
+    description: "The user attacks and steals the target's held item simultaneously.",
     sprite: "/Items/TM46.png",
-    suffix: "normal",
+    suffix: "normal"
   },
   {
     id: "TM47",
@@ -6184,10 +5586,9 @@ export const items: Item[] = [
     pocket: 4,
     price: 3000,
     flags: "Fling_70",
-    description:
-      "The target is hit with wings of steel. This may also raise the user's Defense stat.",
+    description: "The target is hit with wings of steel. This may also raise the user's Defense stat.",
     sprite: "/Items/TM47.png",
-    suffix: "normal",
+    suffix: "normal"
   },
   {
     id: "TM48",
@@ -6196,10 +5597,9 @@ export const items: Item[] = [
     pocket: 4,
     price: 3000,
     flags: "Fling_10",
-    description:
-      "The user employs its psychic power to exchange Abilities with the target.",
+    description: "The user employs its psychic power to exchange Abilities with the target.",
     sprite: "/Items/TM48.png",
-    suffix: "normal",
+    suffix: "normal"
   },
   {
     id: "TM49",
@@ -6208,10 +5608,9 @@ export const items: Item[] = [
     pocket: 4,
     price: 3000,
     flags: "Fling_80",
-    description:
-      "The user shoots boiling hot water at its target. This may also leave the target with a burn.",
+    description: "The user shoots boiling hot water at its target. This may also leave the target with a burn.",
     sprite: "/Items/TM49.png",
-    suffix: "normal",
+    suffix: "normal"
   },
   {
     id: "TM50",
@@ -6220,10 +5619,9 @@ export const items: Item[] = [
     pocket: 4,
     price: 5500,
     flags: "Fling_130",
-    description:
-      "The user attacks the target at full power. The attack's recoil harshly lowers the user's Sp. Atk stat.",
+    description: "The user attacks the target at full power. The attack's recoil harshly lowers the user's Sp. Atk stat.",
     sprite: "/Items/TM50.png",
-    suffix: "normal",
+    suffix: "normal"
   },
   {
     id: "TM51",
@@ -6232,10 +5630,9 @@ export const items: Item[] = [
     pocket: 4,
     price: 2000,
     flags: "Fling_10",
-    description:
-      "The user lands and rests its body. This move restores the user's HP by up to half of its max HP.",
+    description: "The user lands and rests its body. This move restores the user's HP by up to half of its max HP.",
     sprite: "/Items/TM51.png",
-    suffix: "normal",
+    suffix: "normal"
   },
   {
     id: "TM52",
@@ -6244,10 +5641,9 @@ export const items: Item[] = [
     pocket: 4,
     price: 5500,
     flags: "Fling_120",
-    description:
-      "The user heightens its mental focus and unleashes its power. This may also lower the target's Sp. Def stat.",
+    description: "The user heightens its mental focus and unleashes its power. This may also lower the target's Sp. Def stat.",
     sprite: "/Items/TM52.png",
-    suffix: "normal",
+    suffix: "normal"
   },
   {
     id: "TM53",
@@ -6256,10 +5652,9 @@ export const items: Item[] = [
     pocket: 4,
     price: 3000,
     flags: "Fling_90",
-    description:
-      "The user draws power from nature and fires it at the target. This may also lower the target's Sp. Def stat.",
+    description: "The user draws power from nature and fires it at the target. This may also lower the target's Sp. Def stat.",
     sprite: "/Items/TM53.png",
-    suffix: "normal",
+    suffix: "normal"
   },
   {
     id: "TM54",
@@ -6268,10 +5663,9 @@ export const items: Item[] = [
     pocket: 4,
     price: 2000,
     flags: "Fling_40",
-    description:
-      "A restrained attack that prevents the target from fainting. The target is left with at least 1 HP.",
+    description: "A restrained attack that prevents the target from fainting. The target is left with at least 1 HP.",
     sprite: "/Items/TM54.png",
-    suffix: "normal",
+    suffix: "normal"
   },
   {
     id: "TM55",
@@ -6280,10 +5674,9 @@ export const items: Item[] = [
     pocket: 4,
     price: 3000,
     flags: "Fling_65",
-    description:
-      "If the target's HP is half or less, this attack will hit with double the power.",
+    description: "If the target's HP is half or less, this attack will hit with double the power.",
     sprite: "/Items/TM55.png",
-    suffix: "normal",
+    suffix: "normal"
   },
   {
     id: "TM56",
@@ -6292,10 +5685,9 @@ export const items: Item[] = [
     pocket: 4,
     price: 2000,
     flags: "Fling_10",
-    description:
-      "The user flings its held item at the target to attack. This move's power and effects depend on the item.",
+    description: "The user flings its held item at the target to attack. This move's power and effects depend on the item.",
     sprite: "/Items/TM56.png",
-    suffix: "normal",
+    suffix: "normal"
   },
   {
     id: "TM57",
@@ -6304,10 +5696,9 @@ export const items: Item[] = [
     pocket: 4,
     price: 3000,
     flags: "Fling_50",
-    description:
-      "The user attacks the target with an electric charge. The user may use any remaining charge to raise its Sp. Atk.",
+    description: "The user attacks the target with an electric charge. The user may use any remaining charge to raise its Sp. Atk.",
     sprite: "/Items/TM57.png",
-    suffix: "normal",
+    suffix: "normal"
   },
   {
     id: "TM58",
@@ -6316,10 +5707,9 @@ export const items: Item[] = [
     pocket: 4,
     price: 2000,
     flags: "Fling_10",
-    description:
-      "The user endures any attack with at least 1 HP. Its chance of failing rises if it is used in succession.",
+    description: "The user endures any attack with at least 1 HP. Its chance of failing rises if it is used in succession.",
     sprite: "/Items/TM58.png",
-    suffix: "normal",
+    suffix: "normal"
   },
   {
     id: "TM59",
@@ -6328,10 +5718,9 @@ export const items: Item[] = [
     pocket: 4,
     price: 3000,
     flags: "Fling_85",
-    description:
-      "The target is attacked with a shock wave generated by the user's gaping mouth.",
+    description: "The target is attacked with a shock wave generated by the user's gaping mouth.",
     sprite: "/Items/TM59.png",
-    suffix: "normal",
+    suffix: "normal"
   },
   {
     id: "TM60",
@@ -6340,10 +5729,9 @@ export const items: Item[] = [
     pocket: 4,
     price: 3000,
     flags: "Fling_75",
-    description:
-      "An energy-draining punch. The user's HP is restored by half the damage taken by the target.",
+    description: "An energy-draining punch. The user's HP is restored by half the damage taken by the target.",
     sprite: "/Items/TM60.png",
-    suffix: "normal",
+    suffix: "normal"
   },
   {
     id: "TM61",
@@ -6352,10 +5740,9 @@ export const items: Item[] = [
     pocket: 4,
     price: 2000,
     flags: "Fling_10",
-    description:
-      "The user shoots a sinister flame at the target to inflict a burn.",
+    description: "The user shoots a sinister flame at the target to inflict a burn.",
     sprite: "/Items/TM61.png",
-    suffix: "normal",
+    suffix: "normal"
   },
   {
     id: "TM62",
@@ -6364,10 +5751,9 @@ export const items: Item[] = [
     pocket: 4,
     price: 3000,
     flags: "Fling_90",
-    description:
-      "The user generates a damaging sound wave by vibration. This may also lower the target's Sp. Def stat.",
+    description: "The user generates a damaging sound wave by vibration. This may also lower the target's Sp. Def stat.",
     sprite: "/Items/TM62.png",
-    suffix: "normal",
+    suffix: "normal"
   },
   {
     id: "TM63",
@@ -6376,10 +5762,9 @@ export const items: Item[] = [
     pocket: 4,
     price: 2000,
     flags: "Fling_10",
-    description:
-      "The user stimulates its brain by thinking bad thoughts. This sharply raises the user's Sp. Atk stat.",
+    description: "The user stimulates its brain by thinking bad thoughts. This sharply raises the user's Sp. Atk stat.",
     sprite: "/Items/TM63.png",
-    suffix: "normal",
+    suffix: "normal"
   },
   {
     id: "TM64",
@@ -6388,10 +5773,9 @@ export const items: Item[] = [
     pocket: 4,
     price: 7500,
     flags: "Fling_250",
-    description:
-      "The user attacks everything around it by causing a tremendous explosion. The user faints upon using this move.",
+    description: "The user attacks everything around it by causing a tremendous explosion. The user faints upon using this move.",
     sprite: "/Items/TM64.png",
-    suffix: "normal",
+    suffix: "normal"
   },
   {
     id: "TM65",
@@ -6400,10 +5784,9 @@ export const items: Item[] = [
     pocket: 4,
     price: 3000,
     flags: "Fling_70",
-    description:
-      "The user slashes with a sharp claw made from shadows. Critical hits land more easily.",
+    description: "The user slashes with a sharp claw made from shadows. Critical hits land more easily.",
     sprite: "/Items/TM65.png",
-    suffix: "normal",
+    suffix: "normal"
   },
   {
     id: "TM66",
@@ -6412,10 +5795,9 @@ export const items: Item[] = [
     pocket: 4,
     price: 3000,
     flags: "Fling_50",
-    description:
-      "The user stores power, then attacks. If the user moves after the target, this attack's power will be doubled.",
+    description: "The user stores power, then attacks. If the user moves after the target, this attack's power will be doubled.",
     sprite: "/Items/TM66.png",
-    suffix: "normal",
+    suffix: "normal"
   },
   {
     id: "TM67",
@@ -6424,10 +5806,9 @@ export const items: Item[] = [
     pocket: 4,
     price: 1000,
     flags: "Fling_10",
-    description:
-      "The user recycles a held item that has been used in battle so it can be used again.",
+    description: "The user recycles a held item that has been used in battle so it can be used again.",
     sprite: "/Items/TM67.png",
-    suffix: "normal",
+    suffix: "normal"
   },
   {
     id: "TM68",
@@ -6436,10 +5817,9 @@ export const items: Item[] = [
     pocket: 4,
     price: 7500,
     flags: "Fling_150",
-    description:
-      "The user charges at the target using every bit of its power. The user can't move on the next turn.",
+    description: "The user charges at the target using every bit of its power. The user can't move on the next turn.",
     sprite: "/Items/TM68.png",
-    suffix: "normal",
+    suffix: "normal"
   },
   {
     id: "TM69",
@@ -6448,10 +5828,9 @@ export const items: Item[] = [
     pocket: 4,
     price: 1500,
     flags: "Fling_10",
-    description:
-      "The user polishes its body to reduce drag. This sharply raises the Speed stat.",
+    description: "The user polishes its body to reduce drag. This sharply raises the Speed stat.",
     sprite: "/Items/TM69.png",
-    suffix: "normal",
+    suffix: "normal"
   },
   {
     id: "TM70",
@@ -6460,10 +5839,9 @@ export const items: Item[] = [
     pocket: 4,
     price: 1000,
     flags: "Fling_10",
-    description:
-      "The user flashes a light that lowers the target's accuracy. It can also be used to illuminate caves.",
+    description: "The user flashes a light that lowers the target's accuracy. It can also be used to illuminate caves.",
     sprite: "/Items/TM70.png",
-    suffix: "normal",
+    suffix: "normal"
   },
   {
     id: "TM71",
@@ -6472,10 +5850,9 @@ export const items: Item[] = [
     pocket: 4,
     price: 3000,
     flags: "Fling_100",
-    description:
-      "The user stabs the target from below with sharpened stones. Critical hits land more easily.",
+    description: "The user stabs the target from below with sharpened stones. Critical hits land more easily.",
     sprite: "/Items/TM71.png",
-    suffix: "normal",
+    suffix: "normal"
   },
   {
     id: "TM72",
@@ -6484,10 +5861,9 @@ export const items: Item[] = [
     pocket: 4,
     price: 3000,
     flags: "Fling_60",
-    description:
-      "The power of this attack move is doubled if the user has been hurt by the target in the same turn.",
+    description: "The power of this attack move is doubled if the user has been hurt by the target in the same turn.",
     sprite: "/Items/TM72.png",
-    suffix: "normal",
+    suffix: "normal"
   },
   {
     id: "TM73",
@@ -6496,10 +5872,9 @@ export const items: Item[] = [
     pocket: 4,
     price: 2000,
     flags: "Fling_10",
-    description:
-      "The user launches a weak jolt of electricity that paralyzes the target.",
+    description: "The user launches a weak jolt of electricity that paralyzes the target.",
     sprite: "/Items/TM73.png",
-    suffix: "normal",
+    suffix: "normal"
   },
   {
     id: "TM74",
@@ -6508,10 +5883,9 @@ export const items: Item[] = [
     pocket: 4,
     price: 3000,
     flags: "Fling_10",
-    description:
-      "The user tackles with a high-speed spin. This move is stronger the slower the user is than the target.",
+    description: "The user tackles with a high-speed spin. This move is stronger the slower the user is than the target.",
     sprite: "/Items/TM74.png",
-    suffix: "normal",
+    suffix: "normal"
   },
   {
     id: "TM75",
@@ -6520,10 +5894,9 @@ export const items: Item[] = [
     pocket: 4,
     price: 1500,
     flags: "Fling_10",
-    description:
-      "A frenetic dance to uplift the fighting spirit. This sharply raises the user's Attack stat.",
+    description: "A frenetic dance to uplift the fighting spirit. This sharply raises the user's Attack stat.",
     sprite: "/Items/TM75.png",
-    suffix: "normal",
+    suffix: "normal"
   },
   {
     id: "TM76",
@@ -6532,10 +5905,9 @@ export const items: Item[] = [
     pocket: 4,
     price: 2000,
     flags: "Fling_10",
-    description:
-      "The user lays a trap of levitating stones around the opposing team that hurt Pokémon that switch in.",
+    description: "The user lays a trap of levitating stones around the opposing team that hurt Pokémon that switch in.",
     sprite: "/Items/TM76.png",
-    suffix: "normal",
+    suffix: "normal"
   },
   {
     id: "TM77",
@@ -6544,10 +5916,9 @@ export const items: Item[] = [
     pocket: 4,
     price: 1500,
     flags: "Fling_10",
-    description:
-      "The user hypnotizes itself into copying any stat change made by the target.",
+    description: "The user hypnotizes itself into copying any stat change made by the target.",
     sprite: "/Items/TM77.png",
-    suffix: "normal",
+    suffix: "normal"
   },
   {
     id: "TM78",
@@ -6556,10 +5927,9 @@ export const items: Item[] = [
     pocket: 4,
     price: 3000,
     flags: "Fling_55",
-    description:
-      "The user yells as if it's ranting about something, which lowers the Sp. Atk stats of opposing Pokémon.",
+    description: "The user yells as if it's ranting about something, which lowers the Sp. Atk stats of opposing Pokémon.",
     sprite: "/Items/TM78.png",
-    suffix: "normal",
+    suffix: "normal"
   },
   {
     id: "TM79",
@@ -6568,10 +5938,9 @@ export const items: Item[] = [
     pocket: 4,
     price: 3000,
     flags: "Fling_80",
-    description:
-      "The user releases a horrible aura imbued with dark thoughts. This may also make the target flinch.",
+    description: "The user releases a horrible aura imbued with dark thoughts. This may also make the target flinch.",
     sprite: "/Items/TM79.png",
-    suffix: "normal",
+    suffix: "normal"
   },
   {
     id: "TM80",
@@ -6580,10 +5949,9 @@ export const items: Item[] = [
     pocket: 4,
     price: 3000,
     flags: "Fling_75",
-    description:
-      "Large boulders are hurled at opposing Pokémon to inflict damage. This may also make them flinch.",
+    description: "Large boulders are hurled at opposing Pokémon to inflict damage. This may also make them flinch.",
     sprite: "/Items/TM80.png",
-    suffix: "normal",
+    suffix: "normal"
   },
   {
     id: "TM81",
@@ -6592,10 +5960,9 @@ export const items: Item[] = [
     pocket: 4,
     price: 3000,
     flags: "Fling_80",
-    description:
-      "The user slashes at the target by crossing its scythes or claws as if they were a pair of scissors.",
+    description: "The user slashes at the target by crossing its scythes or claws as if they were a pair of scissors.",
     sprite: "/Items/TM81.png",
-    suffix: "normal",
+    suffix: "normal"
   },
   {
     id: "TM82",
@@ -6604,10 +5971,9 @@ export const items: Item[] = [
     pocket: 4,
     price: 1000,
     flags: "Fling_10",
-    description:
-      "While it is asleep, the user randomly uses one of the moves it knows.",
+    description: "While it is asleep, the user randomly uses one of the moves it knows.",
     sprite: "/Items/TM82.png",
-    suffix: "normal",
+    suffix: "normal"
   },
   {
     id: "TM83",
@@ -6616,10 +5982,9 @@ export const items: Item[] = [
     pocket: 4,
     price: 3000,
     flags: "Fling_60",
-    description:
-      "The user strikes everything around it by stomping down on the ground. This lowers the Speed of those hit.",
+    description: "The user strikes everything around it by stomping down on the ground. This lowers the Speed of those hit.",
     sprite: "/Items/TM83.png",
-    suffix: "normal",
+    suffix: "normal"
   },
   {
     id: "TM84",
@@ -6628,10 +5993,9 @@ export const items: Item[] = [
     pocket: 4,
     price: 3000,
     flags: "Fling_80",
-    description:
-      "The target is stabbed with a tentacle, arm, or the like steeped in poison. This may also poison them.",
+    description: "The target is stabbed with a tentacle, arm, or the like steeped in poison. This may also poison them.",
     sprite: "/Items/TM84.png",
-    suffix: "normal",
+    suffix: "normal"
   },
   {
     id: "TM85",
@@ -6640,10 +6004,9 @@ export const items: Item[] = [
     pocket: 4,
     price: 3000,
     flags: "Fling_100",
-    description:
-      "The user eats the dreams of a sleeping target. The user's HP is restored by half the damage dealt.",
+    description: "The user eats the dreams of a sleeping target. The user's HP is restored by half the damage dealt.",
     sprite: "/Items/TM85.png",
-    suffix: "normal",
+    suffix: "normal"
   },
   {
     id: "TM86",
@@ -6652,10 +6015,9 @@ export const items: Item[] = [
     pocket: 4,
     price: 3000,
     flags: "Fling_10",
-    description:
-      "The user snares the target with grass and trips it. The heavier the target, the strong the move is.",
+    description: "The user snares the target with grass and trips it. The heavier the target, the strong the move is.",
     sprite: "/Items/TM86.png",
-    suffix: "normal",
+    suffix: "normal"
   },
   {
     id: "TM87",
@@ -6664,10 +6026,9 @@ export const items: Item[] = [
     pocket: 4,
     price: 1500,
     flags: "Fling_10",
-    description:
-      "The user enrages and confuses the target. However, this also sharply raises the target's Attack stat.",
+    description: "The user enrages and confuses the target. However, this also sharply raises the target's Attack stat.",
     sprite: "/Items/TM87.png",
-    suffix: "normal",
+    suffix: "normal"
   },
   {
     id: "TM88",
@@ -6676,10 +6037,9 @@ export const items: Item[] = [
     pocket: 4,
     price: 3000,
     flags: "Fling_60",
-    description:
-      "The user pecks the target. If the target is holding a Berry, the user eats it and gains its effect.",
+    description: "The user pecks the target. If the target is holding a Berry, the user eats it and gains its effect.",
     sprite: "/Items/TM88.png",
-    suffix: "normal",
+    suffix: "normal"
   },
   {
     id: "TM89",
@@ -6688,10 +6048,9 @@ export const items: Item[] = [
     pocket: 4,
     price: 3000,
     flags: "Fling_70",
-    description:
-      "After making its attack, the user rushes back to switch places with a party Pokémon in waiting.",
+    description: "After making its attack, the user rushes back to switch places with a party Pokémon in waiting.",
     sprite: "/Items/TM89.png",
-    suffix: "normal",
+    suffix: "normal"
   },
   {
     id: "TM90",
@@ -6700,10 +6059,9 @@ export const items: Item[] = [
     pocket: 4,
     price: 2000,
     flags: "Fling_10",
-    description:
-      "The user creates a substitute for itself using some of its HP. The substitute serves as a decoy.",
+    description: "The user creates a substitute for itself using some of its HP. The substitute serves as a decoy.",
     sprite: "/Items/TM90.png",
-    suffix: "normal",
+    suffix: "normal"
   },
   {
     id: "TM91",
@@ -6712,10 +6070,9 @@ export const items: Item[] = [
     pocket: 4,
     price: 3000,
     flags: "Fling_80",
-    description:
-      "The user gathers all its light energy and releases it all at once. This may also lower the target's Sp. Def stat.",
+    description: "The user gathers all its light energy and releases it all at once. This may also lower the target's Sp. Def stat.",
     sprite: "/Items/TM91.png",
-    suffix: "normal",
+    suffix: "normal"
   },
   {
     id: "TM92",
@@ -6724,10 +6081,9 @@ export const items: Item[] = [
     pocket: 4,
     price: 5500,
     flags: "Fling_10",
-    description:
-      "The user creates a bizarre area in which slower Pokémon get to move first for five turns.",
+    description: "The user creates a bizarre area in which slower Pokémon get to move first for five turns.",
     sprite: "/Items/TM92.png",
-    suffix: "normal",
+    suffix: "normal"
   },
   {
     id: "TM93",
@@ -6738,7 +6094,7 @@ export const items: Item[] = [
     flags: "Fling_50",
     description: "The target is cut with a scythe or claw.",
     sprite: "/Items/TM93.png",
-    suffix: "normal",
+    suffix: "normal"
   },
   {
     id: "TM94",
@@ -6747,10 +6103,9 @@ export const items: Item[] = [
     pocket: 4,
     price: 2000,
     flags: "Fling_90",
-    description:
-      "The user flies up into the sky and then strikes its target on the next turn.",
+    description: "The user flies up into the sky and then strikes its target on the next turn.",
     sprite: "/Items/TM94.png",
-    suffix: "normal",
+    suffix: "normal"
   },
   {
     id: "TM95",
@@ -6759,10 +6114,9 @@ export const items: Item[] = [
     pocket: 4,
     price: 2500,
     flags: "Fling_90",
-    description:
-      "The user attacks everything around it by swamping its surroundings with a giant wave.",
+    description: "The user attacks everything around it by swamping its surroundings with a giant wave.",
     sprite: "/Items/TM95.png",
-    suffix: "normal",
+    suffix: "normal"
   },
   {
     id: "TM96",
@@ -6773,7 +6127,7 @@ export const items: Item[] = [
     flags: "Fling_80",
     description: "The target is slugged with a punch thrown at maximum power.",
     sprite: "/Items/TM96.png",
-    suffix: "normal",
+    suffix: "normal"
   },
   {
     id: "TM97",
@@ -6782,10 +6136,9 @@ export const items: Item[] = [
     pocket: 4,
     price: 2000,
     flags: "Fling_10",
-    description:
-      "A strong wind blows away the target's barriers, such as Reflect, and lowers their evasiveness.",
+    description: "A strong wind blows away the target's barriers, such as Reflect, and lowers their evasiveness.",
     sprite: "/Items/TM97.png",
-    suffix: "normal",
+    suffix: "normal"
   },
   {
     id: "TM98",
@@ -6794,10 +6147,9 @@ export const items: Item[] = [
     pocket: 4,
     price: 2000,
     flags: "Fling_40",
-    description:
-      "The user attacks with a punch that may lower the target's Defense stat.",
+    description: "The user attacks with a punch that may lower the target's Defense stat.",
     sprite: "/Items/TM98.png",
-    suffix: "normal",
+    suffix: "normal"
   },
   {
     id: "TM99",
@@ -6808,7 +6160,7 @@ export const items: Item[] = [
     flags: "Fling_80",
     description: "The user charges at the target and may make it flinch.",
     sprite: "/Items/TM99.png",
-    suffix: "normal",
+    suffix: "normal"
   },
   {
     id: "TM100",
@@ -6819,7 +6171,7 @@ export const items: Item[] = [
     flags: "Fling_90",
     description: "A charging attack that may also leave the foe confused.",
     sprite: "/Items/TM100.png",
-    suffix: "normal",
+    suffix: "normal"
   },
   {
     id: "HM01",
@@ -6828,10 +6180,9 @@ export const items: Item[] = [
     pocket: 4,
     price: 0,
     flags: "",
-    description:
-      "The target is cut with a scythe or claw. This can also be used to cut down thin trees.",
+    description: "The target is cut with a scythe or claw. This can also be used to cut down thin trees.",
     sprite: "/Items/HM01.png",
-    suffix: "normal",
+    suffix: "normal"
   },
   {
     id: "HM02",
@@ -6840,10 +6191,9 @@ export const items: Item[] = [
     pocket: 4,
     price: 0,
     flags: "",
-    description:
-      "The user soars and then strikes on the next turn. This can also be used to fly to any familiar town.",
+    description: "The user soars and then strikes on the next turn. This can also be used to fly to any familiar town.",
     sprite: "/Items/HM02.png",
-    suffix: "normal",
+    suffix: "normal"
   },
   {
     id: "HM03",
@@ -6852,10 +6202,9 @@ export const items: Item[] = [
     pocket: 4,
     price: 0,
     flags: "",
-    description:
-      "Attacks everything by swamping the surroundings with a giant wave. This can also be used to cross water.",
+    description: "Attacks everything by swamping the surroundings with a giant wave. This can also be used to cross water.",
     sprite: "/Items/HM03.png",
-    suffix: "normal",
+    suffix: "normal"
   },
   {
     id: "HM04",
@@ -6864,10 +6213,9 @@ export const items: Item[] = [
     pocket: 4,
     price: 0,
     flags: "",
-    description:
-      "The target is slugged with a punch thrown at maximum power. This can also be used to move heavy boulders.",
+    description: "The target is slugged with a punch thrown at maximum power. This can also be used to move heavy boulders.",
     sprite: "/Items/HM04.png",
-    suffix: "normal",
+    suffix: "normal"
   },
   {
     id: "HM05",
@@ -6876,10 +6224,9 @@ export const items: Item[] = [
     pocket: 4,
     price: 0,
     flags: "",
-    description:
-      "The user charges at the target and may make it flinch. It can also be used to climb a waterfall.",
+    description: "The user charges at the target and may make it flinch. It can also be used to climb a waterfall.",
     sprite: "/Items/HM05.png",
-    suffix: "normal",
+    suffix: "normal"
   },
   {
     id: "HM06",
@@ -6888,10 +6235,9 @@ export const items: Item[] = [
     pocket: 4,
     price: 0,
     flags: "",
-    description:
-      "Diving on the first turn, the user floats up and attacks on the second. It can be used to dive underwater.",
+    description: "Diving on the first turn, the user floats up and attacks on the second. It can be used to dive underwater.",
     sprite: "/Items/HM06.png",
-    suffix: "normal",
+    suffix: "normal"
   },
   {
     id: "CHERIBERRY",
@@ -6900,10 +6246,9 @@ export const items: Item[] = [
     pocket: 5,
     price: 20,
     flags: "Berry,Fling_10,NaturalGift_FIRE_80",
-    description:
-      "It may be used or held by a Pokémon to recover from paralysis.",
+    description: "It may be used or held by a Pokémon to recover from paralysis.",
     sprite: "/Items/CHERIBERRY.png",
-    suffix: "normal",
+    suffix: "normal"
   },
   {
     id: "CHESTOBERRY",
@@ -6914,7 +6259,7 @@ export const items: Item[] = [
     flags: "Berry,Fling_10,NaturalGift_WATER_80",
     description: "It may be used or held by a Pokémon to recover from sleep.",
     sprite: "/Items/CHESTOBERRY.png",
-    suffix: "normal",
+    suffix: "normal"
   },
   {
     id: "PECHABERRY",
@@ -6925,7 +6270,7 @@ export const items: Item[] = [
     flags: "Berry,Fling_10,NaturalGift_ELECTRIC_80",
     description: "It may be used or held by a Pokémon to recover from poison.",
     sprite: "/Items/PECHABERRY.png",
-    suffix: "normal",
+    suffix: "normal"
   },
   {
     id: "RAWSTBERRY",
@@ -6936,7 +6281,7 @@ export const items: Item[] = [
     flags: "Berry,Fling_10,NaturalGift_GRASS_80",
     description: "It may be used or held by a Pokémon to recover from a burn.",
     sprite: "/Items/RAWSTBERRY.png",
-    suffix: "normal",
+    suffix: "normal"
   },
   {
     id: "ASPEARBERRY",
@@ -6947,7 +6292,7 @@ export const items: Item[] = [
     flags: "Berry,Fling_10,NaturalGift_ICE_80",
     description: "It may be used or held by a Pokémon to defrost it.",
     sprite: "/Items/ASPEARBERRY.png",
-    suffix: "normal",
+    suffix: "normal"
   },
   {
     id: "LEPPABERRY",
@@ -6956,10 +6301,9 @@ export const items: Item[] = [
     pocket: 5,
     price: 20,
     flags: "Berry,Fling_10,NaturalGift_FIGHTING_80",
-    description:
-      "It may be used or held by a Pokémon to restore a move's PP by 10.",
+    description: "It may be used or held by a Pokémon to restore a move's PP by 10.",
     sprite: "/Items/LEPPABERRY.png",
-    suffix: "normal",
+    suffix: "normal"
   },
   {
     id: "ORANBERRY",
@@ -6968,10 +6312,9 @@ export const items: Item[] = [
     pocket: 5,
     price: 20,
     flags: "Berry,Fling_10,NaturalGift_POISON_80",
-    description:
-      "It may be used or held by a Pokémon to heal the user by just 10 HP.",
+    description: "It may be used or held by a Pokémon to heal the user by just 10 HP.",
     sprite: "/Items/ORANBERRY.png",
-    suffix: "normal",
+    suffix: "normal"
   },
   {
     id: "PERSIMBERRY",
@@ -6980,10 +6323,9 @@ export const items: Item[] = [
     pocket: 5,
     price: 20,
     flags: "Berry,Fling_10,NaturalGift_GROUND_80",
-    description:
-      "It may be used or held by a Pokémon to recover from confusion.",
+    description: "It may be used or held by a Pokémon to recover from confusion.",
     sprite: "/Items/PERSIMBERRY.png",
-    suffix: "normal",
+    suffix: "normal"
   },
   {
     id: "LUMBERRY",
@@ -6992,10 +6334,9 @@ export const items: Item[] = [
     pocket: 5,
     price: 20,
     flags: "Berry,Fling_10,NaturalGift_FLYING_80",
-    description:
-      "It may be used or held by a Pokémon to recover from any status problem.",
+    description: "It may be used or held by a Pokémon to recover from any status problem.",
     sprite: "/Items/LUMBERRY.png",
-    suffix: "normal",
+    suffix: "normal"
   },
   {
     id: "SITRUSBERRY",
@@ -7004,10 +6345,9 @@ export const items: Item[] = [
     pocket: 5,
     price: 20,
     flags: "Berry,Fling_10,NaturalGift_PSYCHIC_80",
-    description:
-      "It may be used or held by a Pokémon to heal the user's HP a little.",
+    description: "It may be used or held by a Pokémon to heal the user's HP a little.",
     sprite: "/Items/SITRUSBERRY.png",
-    suffix: "normal",
+    suffix: "normal"
   },
   {
     id: "FIGYBERRY",
@@ -7016,10 +6356,9 @@ export const items: Item[] = [
     pocket: 5,
     price: 20,
     flags: "Berry,Fling_10,NaturalGift_BUG_80",
-    description:
-      "If held by a Pokémon, it restores the user's HP in a pinch, but will cause confusion if it hates the taste.",
+    description: "If held by a Pokémon, it restores the user's HP in a pinch, but will cause confusion if it hates the taste.",
     sprite: "/Items/FIGYBERRY.png",
-    suffix: "normal",
+    suffix: "normal"
   },
   {
     id: "WIKIBERRY",
@@ -7028,10 +6367,9 @@ export const items: Item[] = [
     pocket: 5,
     price: 20,
     flags: "Berry,Fling_10,NaturalGift_ROCK_80",
-    description:
-      "If held by a Pokémon, it restores the user's HP in a pinch, but will cause confusion if it hates the taste.",
+    description: "If held by a Pokémon, it restores the user's HP in a pinch, but will cause confusion if it hates the taste.",
     sprite: "/Items/WIKIBERRY.png",
-    suffix: "normal",
+    suffix: "normal"
   },
   {
     id: "MAGOBERRY",
@@ -7040,10 +6378,9 @@ export const items: Item[] = [
     pocket: 5,
     price: 20,
     flags: "Berry,Fling_10,NaturalGift_GHOST_80",
-    description:
-      "If held by a Pokémon, it restores the user's HP in a pinch, but will cause confusion if it hates the taste.",
+    description: "If held by a Pokémon, it restores the user's HP in a pinch, but will cause confusion if it hates the taste.",
     sprite: "/Items/MAGOBERRY.png",
-    suffix: "normal",
+    suffix: "normal"
   },
   {
     id: "AGUAVBERRY",
@@ -7052,10 +6389,9 @@ export const items: Item[] = [
     pocket: 5,
     price: 20,
     flags: "Berry,Fling_10,NaturalGift_DRAGON_80",
-    description:
-      "If held by a Pokémon, it restores the user's HP in a pinch, but will cause confusion if it hates the taste.",
+    description: "If held by a Pokémon, it restores the user's HP in a pinch, but will cause confusion if it hates the taste.",
     sprite: "/Items/AGUAVBERRY.png",
-    suffix: "normal",
+    suffix: "normal"
   },
   {
     id: "IAPAPABERRY",
@@ -7064,10 +6400,9 @@ export const items: Item[] = [
     pocket: 5,
     price: 20,
     flags: "Berry,Fling_10,NaturalGift_DARK_80",
-    description:
-      "If held by a Pokémon, it restores the user's HP in a pinch, but will cause confusion if it hates the taste.",
+    description: "If held by a Pokémon, it restores the user's HP in a pinch, but will cause confusion if it hates the taste.",
     sprite: "/Items/IAPAPABERRY.png",
-    suffix: "normal",
+    suffix: "normal"
   },
   {
     id: "RAZZBERRY",
@@ -7076,10 +6411,9 @@ export const items: Item[] = [
     pocket: 5,
     price: 20,
     flags: "Berry,Fling_10,NaturalGift_STEEL_80",
-    description:
-      "In the Sinnoh region, they like to make sweets known as Poffins with this Berry.",
+    description: "In the Sinnoh region, they like to make sweets known as Poffins with this Berry.",
     sprite: "/Items/RAZZBERRY.png",
-    suffix: "normal",
+    suffix: "normal"
   },
   {
     id: "BLUKBERRY",
@@ -7088,10 +6422,9 @@ export const items: Item[] = [
     pocket: 5,
     price: 20,
     flags: "Berry,Fling_10,NaturalGift_FIRE_90",
-    description:
-      "In the Sinnoh region, they like to make sweets known as Poffins with this Berry.",
+    description: "In the Sinnoh region, they like to make sweets known as Poffins with this Berry.",
     sprite: "/Items/BLUKBERRY.png",
-    suffix: "normal",
+    suffix: "normal"
   },
   {
     id: "NANABBERRY",
@@ -7100,10 +6433,9 @@ export const items: Item[] = [
     pocket: 5,
     price: 20,
     flags: "Berry,Fling_10,NaturalGift_WATER_90",
-    description:
-      "In the Sinnoh region, they like to make sweets known as Poffins with this Berry.",
+    description: "In the Sinnoh region, they like to make sweets known as Poffins with this Berry.",
     sprite: "/Items/NANABBERRY.png",
-    suffix: "normal",
+    suffix: "normal"
   },
   {
     id: "WEPEARBERRY",
@@ -7112,10 +6444,9 @@ export const items: Item[] = [
     pocket: 5,
     price: 20,
     flags: "Berry,Fling_10,NaturalGift_ELECTRIC_90",
-    description:
-      "In the Sinnoh region, they like to make sweets known as Poffins with this Berry.",
+    description: "In the Sinnoh region, they like to make sweets known as Poffins with this Berry.",
     sprite: "/Items/WEPEARBERRY.png",
-    suffix: "normal",
+    suffix: "normal"
   },
   {
     id: "PINAPBERRY",
@@ -7124,10 +6455,9 @@ export const items: Item[] = [
     pocket: 5,
     price: 20,
     flags: "Berry,Fling_10,NaturalGift_GRASS_90",
-    description:
-      "In the Sinnoh region, they like to make sweets known as Poffins with this Berry.",
+    description: "In the Sinnoh region, they like to make sweets known as Poffins with this Berry.",
     sprite: "/Items/PINAPBERRY.png",
-    suffix: "normal",
+    suffix: "normal"
   },
   {
     id: "POMEGBERRY",
@@ -7136,10 +6466,9 @@ export const items: Item[] = [
     pocket: 5,
     price: 20,
     flags: "Berry,Fling_10,NaturalGift_ICE_90",
-    description:
-      "Using it on a Pokémon makes it more friendly, but it also lowers its base HP.",
+    description: "Using it on a Pokémon makes it more friendly, but it also lowers its base HP.",
     sprite: "/Items/POMEGBERRY.png",
-    suffix: "normal",
+    suffix: "normal"
   },
   {
     id: "KELPSYBERRY",
@@ -7148,10 +6477,9 @@ export const items: Item[] = [
     pocket: 5,
     price: 20,
     flags: "Berry,Fling_10,NaturalGift_FIGHTING_90",
-    description:
-      "Using it on a Pokémon makes it more friendly, but it also lowers its base Attack stat.",
+    description: "Using it on a Pokémon makes it more friendly, but it also lowers its base Attack stat.",
     sprite: "/Items/KELPSYBERRY.png",
-    suffix: "normal",
+    suffix: "normal"
   },
   {
     id: "QUALOTBERRY",
@@ -7160,10 +6488,9 @@ export const items: Item[] = [
     pocket: 5,
     price: 20,
     flags: "Berry,Fling_10,NaturalGift_POISON_90",
-    description:
-      "Using it on a Pokémon makes it more friendly, but it also lowers its base Defense stat.",
+    description: "Using it on a Pokémon makes it more friendly, but it also lowers its base Defense stat.",
     sprite: "/Items/QUALOTBERRY.png",
-    suffix: "normal",
+    suffix: "normal"
   },
   {
     id: "HONDEWBERRY",
@@ -7172,10 +6499,9 @@ export const items: Item[] = [
     pocket: 5,
     price: 20,
     flags: "Berry,Fling_10,NaturalGift_GROUND_90",
-    description:
-      "Using it on a Pokémon makes it more friendly, but it also lowers its base Sp. Atk stat.",
+    description: "Using it on a Pokémon makes it more friendly, but it also lowers its base Sp. Atk stat.",
     sprite: "/Items/HONDEWBERRY.png",
-    suffix: "normal",
+    suffix: "normal"
   },
   {
     id: "GREPABERRY",
@@ -7184,10 +6510,9 @@ export const items: Item[] = [
     pocket: 5,
     price: 20,
     flags: "Berry,Fling_10,NaturalGift_FLYING_90",
-    description:
-      "Using it on a Pokémon makes it more friendly, but it also lowers its base Sp. Def stat.",
+    description: "Using it on a Pokémon makes it more friendly, but it also lowers its base Sp. Def stat.",
     sprite: "/Items/GREPABERRY.png",
-    suffix: "normal",
+    suffix: "normal"
   },
   {
     id: "TAMATOBERRY",
@@ -7196,10 +6521,9 @@ export const items: Item[] = [
     pocket: 5,
     price: 20,
     flags: "Berry,Fling_10,NaturalGift_PSYCHIC_90",
-    description:
-      "Using it on a Pokémon makes it more friendly, but it also lowers its base Speed stat.",
+    description: "Using it on a Pokémon makes it more friendly, but it also lowers its base Speed stat.",
     sprite: "/Items/TAMATOBERRY.png",
-    suffix: "normal",
+    suffix: "normal"
   },
   {
     id: "CORNNBERRY",
@@ -7208,10 +6532,9 @@ export const items: Item[] = [
     pocket: 5,
     price: 20,
     flags: "Berry,Fling_10,NaturalGift_BUG_90",
-    description:
-      "In the Sinnoh region, they like to make sweets known as Poffins with this Berry.",
+    description: "In the Sinnoh region, they like to make sweets known as Poffins with this Berry.",
     sprite: "/Items/CORNNBERRY.png",
-    suffix: "normal",
+    suffix: "normal"
   },
   {
     id: "MAGOSTBERRY",
@@ -7220,10 +6543,9 @@ export const items: Item[] = [
     pocket: 5,
     price: 20,
     flags: "Berry,Fling_10,NaturalGift_ROCK_90",
-    description:
-      "In the Sinnoh region, they like to make sweets known as Poffins with this Berry.",
+    description: "In the Sinnoh region, they like to make sweets known as Poffins with this Berry.",
     sprite: "/Items/MAGOSTBERRY.png",
-    suffix: "normal",
+    suffix: "normal"
   },
   {
     id: "RABUTABERRY",
@@ -7232,10 +6554,9 @@ export const items: Item[] = [
     pocket: 5,
     price: 20,
     flags: "Berry,Fling_10,NaturalGift_GHOST_90",
-    description:
-      "In the Sinnoh region, they like to make sweets known as Poffins with this Berry.",
+    description: "In the Sinnoh region, they like to make sweets known as Poffins with this Berry.",
     sprite: "/Items/RABUTABERRY.png",
-    suffix: "normal",
+    suffix: "normal"
   },
   {
     id: "NOMELBERRY",
@@ -7244,10 +6565,9 @@ export const items: Item[] = [
     pocket: 5,
     price: 20,
     flags: "Berry,Fling_10,NaturalGift_DRAGON_90",
-    description:
-      "In the Sinnoh region, they like to make sweets known as Poffins with this Berry.",
+    description: "In the Sinnoh region, they like to make sweets known as Poffins with this Berry.",
     sprite: "/Items/NOMELBERRY.png",
-    suffix: "normal",
+    suffix: "normal"
   },
   {
     id: "SPELONBERRY",
@@ -7256,10 +6576,9 @@ export const items: Item[] = [
     pocket: 5,
     price: 20,
     flags: "Berry,Fling_10,NaturalGift_DARK_90",
-    description:
-      "In the Sinnoh region, they like to make sweets known as Poffins with this Berry.",
+    description: "In the Sinnoh region, they like to make sweets known as Poffins with this Berry.",
     sprite: "/Items/SPELONBERRY.png",
-    suffix: "normal",
+    suffix: "normal"
   },
   {
     id: "PAMTREBERRY",
@@ -7268,10 +6587,9 @@ export const items: Item[] = [
     pocket: 5,
     price: 20,
     flags: "Berry,Fling_10,NaturalGift_STEEL_90",
-    description:
-      "In the Sinnoh region, they like to make sweets known as Poffins with this Berry.",
+    description: "In the Sinnoh region, they like to make sweets known as Poffins with this Berry.",
     sprite: "/Items/PAMTREBERRY.png",
-    suffix: "normal",
+    suffix: "normal"
   },
   {
     id: "WATMELBERRY",
@@ -7280,10 +6598,9 @@ export const items: Item[] = [
     pocket: 5,
     price: 20,
     flags: "Berry,Fling_10,NaturalGift_FIRE_100",
-    description:
-      "In the Sinnoh region, they like to make sweets known as Poffins with this Berry.",
+    description: "In the Sinnoh region, they like to make sweets known as Poffins with this Berry.",
     sprite: "/Items/WATMELBERRY.png",
-    suffix: "normal",
+    suffix: "normal"
   },
   {
     id: "DURINBERRY",
@@ -7292,10 +6609,9 @@ export const items: Item[] = [
     pocket: 5,
     price: 20,
     flags: "Berry,Fling_10,NaturalGift_WATER_100",
-    description:
-      "In the Sinnoh region, they like to make sweets known as Poffins with this Berry.",
+    description: "In the Sinnoh region, they like to make sweets known as Poffins with this Berry.",
     sprite: "/Items/DURINBERRY.png",
-    suffix: "normal",
+    suffix: "normal"
   },
   {
     id: "BELUEBERRY",
@@ -7304,10 +6620,9 @@ export const items: Item[] = [
     pocket: 5,
     price: 20,
     flags: "Berry,Fling_10,NaturalGift_ELECTRIC_100",
-    description:
-      "In the Sinnoh region, they like to make sweets known as Poffins with this Berry.",
+    description: "In the Sinnoh region, they like to make sweets known as Poffins with this Berry.",
     sprite: "/Items/BELUEBERRY.png",
-    suffix: "normal",
+    suffix: "normal"
   },
   {
     id: "OCCABERRY",
@@ -7316,10 +6631,9 @@ export const items: Item[] = [
     pocket: 5,
     price: 20,
     flags: "Berry,Fling_10,NaturalGift_FIRE_80",
-    description:
-      "Weakens a supereffective Fire-type attack against the holding Pokémon.",
+    description: "Weakens a supereffective Fire-type attack against the holding Pokémon.",
     sprite: "/Items/OCCABERRY.png",
-    suffix: "normal",
+    suffix: "normal"
   },
   {
     id: "PASSHOBERRY",
@@ -7328,10 +6642,9 @@ export const items: Item[] = [
     pocket: 5,
     price: 20,
     flags: "Berry,Fling_10,NaturalGift_WATER_80",
-    description:
-      "Weakens a supereffective Water-type attack against the holding Pokémon.",
+    description: "Weakens a supereffective Water-type attack against the holding Pokémon.",
     sprite: "/Items/PASSHOBERRY.png",
-    suffix: "normal",
+    suffix: "normal"
   },
   {
     id: "WACANBERRY",
@@ -7340,10 +6653,9 @@ export const items: Item[] = [
     pocket: 5,
     price: 20,
     flags: "Berry,Fling_10,NaturalGift_ELECTRIC_80",
-    description:
-      "Weakens a supereffective Electric-type attack against the holding Pokémon.",
+    description: "Weakens a supereffective Electric-type attack against the holding Pokémon.",
     sprite: "/Items/WACANBERRY.png",
-    suffix: "normal",
+    suffix: "normal"
   },
   {
     id: "RINDOBERRY",
@@ -7352,10 +6664,9 @@ export const items: Item[] = [
     pocket: 5,
     price: 20,
     flags: "Berry,Fling_10,NaturalGift_GRASS_80",
-    description:
-      "Weakens a supereffective Grass-type attack against the holding Pokémon.",
+    description: "Weakens a supereffective Grass-type attack against the holding Pokémon.",
     sprite: "/Items/RINDOBERRY.png",
-    suffix: "normal",
+    suffix: "normal"
   },
   {
     id: "YACHEBERRY",
@@ -7364,10 +6675,9 @@ export const items: Item[] = [
     pocket: 5,
     price: 20,
     flags: "Berry,Fling_10,NaturalGift_ICE_80",
-    description:
-      "Weakens a supereffective Ice-type attack against the holding Pokémon.",
+    description: "Weakens a supereffective Ice-type attack against the holding Pokémon.",
     sprite: "/Items/YACHEBERRY.png",
-    suffix: "normal",
+    suffix: "normal"
   },
   {
     id: "CHOPLEBERRY",
@@ -7376,10 +6686,9 @@ export const items: Item[] = [
     pocket: 5,
     price: 20,
     flags: "Berry,Fling_10,NaturalGift_FIGHTING_80",
-    description:
-      "Weakens a supereffective Fighting-type attack against the holding Pokémon.",
+    description: "Weakens a supereffective Fighting-type attack against the holding Pokémon.",
     sprite: "/Items/CHOPLEBERRY.png",
-    suffix: "normal",
+    suffix: "normal"
   },
   {
     id: "KEBIABERRY",
@@ -7388,10 +6697,9 @@ export const items: Item[] = [
     pocket: 5,
     price: 20,
     flags: "Berry,Fling_10,NaturalGift_POISON_80",
-    description:
-      "Weakens a supereffective Poison-type attack against the holding Pokémon.",
+    description: "Weakens a supereffective Poison-type attack against the holding Pokémon.",
     sprite: "/Items/KEBIABERRY.png",
-    suffix: "normal",
+    suffix: "normal"
   },
   {
     id: "SHUCABERRY",
@@ -7400,10 +6708,9 @@ export const items: Item[] = [
     pocket: 5,
     price: 20,
     flags: "Berry,Fling_10,NaturalGift_GROUND_80",
-    description:
-      "Weakens a supereffective Ground-type attack against the holding Pokémon.",
+    description: "Weakens a supereffective Ground-type attack against the holding Pokémon.",
     sprite: "/Items/SHUCABERRY.png",
-    suffix: "normal",
+    suffix: "normal"
   },
   {
     id: "COBABERRY",
@@ -7412,10 +6719,9 @@ export const items: Item[] = [
     pocket: 5,
     price: 20,
     flags: "Berry,Fling_10,NaturalGift_FLYING_80",
-    description:
-      "Weakens a supereffective Flying-type attack against the holding Pokémon.",
+    description: "Weakens a supereffective Flying-type attack against the holding Pokémon.",
     sprite: "/Items/COBABERRY.png",
-    suffix: "normal",
+    suffix: "normal"
   },
   {
     id: "PAYAPABERRY",
@@ -7424,10 +6730,9 @@ export const items: Item[] = [
     pocket: 5,
     price: 20,
     flags: "Berry,Fling_10,NaturalGift_PSYCHIC_80",
-    description:
-      "Weakens a supereffective Psychic-type attack against the holding Pokémon.",
+    description: "Weakens a supereffective Psychic-type attack against the holding Pokémon.",
     sprite: "/Items/PAYAPABERRY.png",
-    suffix: "normal",
+    suffix: "normal"
   },
   {
     id: "TANGABERRY",
@@ -7436,10 +6741,9 @@ export const items: Item[] = [
     pocket: 5,
     price: 20,
     flags: "Berry,Fling_10,NaturalGift_BUG_80",
-    description:
-      "Weakens a supereffective Bug-type attack against the holding Pokémon.",
+    description: "Weakens a supereffective Bug-type attack against the holding Pokémon.",
     sprite: "/Items/TANGABERRY.png",
-    suffix: "normal",
+    suffix: "normal"
   },
   {
     id: "CHARTIBERRY",
@@ -7448,10 +6752,9 @@ export const items: Item[] = [
     pocket: 5,
     price: 20,
     flags: "Berry,Fling_10,NaturalGift_ROCK_80",
-    description:
-      "Weakens a supereffective Rock-type attack against the holding Pokémon.",
+    description: "Weakens a supereffective Rock-type attack against the holding Pokémon.",
     sprite: "/Items/CHARTIBERRY.png",
-    suffix: "normal",
+    suffix: "normal"
   },
   {
     id: "KASIBBERRY",
@@ -7460,10 +6763,9 @@ export const items: Item[] = [
     pocket: 5,
     price: 20,
     flags: "Berry,Fling_10,NaturalGift_GHOST_80",
-    description:
-      "Weakens a supereffective Ghost-type attack against the holding Pokémon.",
+    description: "Weakens a supereffective Ghost-type attack against the holding Pokémon.",
     sprite: "/Items/KASIBBERRY.png",
-    suffix: "normal",
+    suffix: "normal"
   },
   {
     id: "HABANBERRY",
@@ -7472,10 +6774,9 @@ export const items: Item[] = [
     pocket: 5,
     price: 20,
     flags: "Berry,Fling_10,NaturalGift_DRAGON_80",
-    description:
-      "Weakens a supereffective Dragon-type attack against the holding Pokémon.",
+    description: "Weakens a supereffective Dragon-type attack against the holding Pokémon.",
     sprite: "/Items/HABANBERRY.png",
-    suffix: "normal",
+    suffix: "normal"
   },
   {
     id: "COLBURBERRY",
@@ -7484,10 +6785,9 @@ export const items: Item[] = [
     pocket: 5,
     price: 20,
     flags: "Berry,Fling_10,NaturalGift_DARK_80",
-    description:
-      "Weakens a supereffective Dark-type attack against the holding Pokémon.",
+    description: "Weakens a supereffective Dark-type attack against the holding Pokémon.",
     sprite: "/Items/COLBURBERRY.png",
-    suffix: "normal",
+    suffix: "normal"
   },
   {
     id: "BABIRIBERRY",
@@ -7496,10 +6796,9 @@ export const items: Item[] = [
     pocket: 5,
     price: 20,
     flags: "Berry,Fling_10,NaturalGift_STEEL_80",
-    description:
-      "Weakens a supereffective Steel-type attack against the holding Pokémon.",
+    description: "Weakens a supereffective Steel-type attack against the holding Pokémon.",
     sprite: "/Items/BABIRIBERRY.png",
-    suffix: "normal",
+    suffix: "normal"
   },
   {
     id: "ROSELIBERRY",
@@ -7508,10 +6807,9 @@ export const items: Item[] = [
     pocket: 5,
     price: 20,
     flags: "Berry,Fling_10,NaturalGift_FAIRY_80",
-    description:
-      "If held by a Pokémon, this Berry will lessen the damage taken from one supereffective Fairy-type attack.",
+    description: "If held by a Pokémon, this Berry will lessen the damage taken from one supereffective Fairy-type attack.",
     sprite: "/Items/ROSELIBERRY.png",
-    suffix: "normal",
+    suffix: "normal"
   },
   {
     id: "CHILANBERRY",
@@ -7520,10 +6818,9 @@ export const items: Item[] = [
     pocket: 5,
     price: 20,
     flags: "Berry,Fling_10,NaturalGift_NORMAL_80",
-    description:
-      "Weakens a Normal-type attack against the Pokémon holding this berry.",
+    description: "Weakens a Normal-type attack against the Pokémon holding this berry.",
     sprite: "/Items/CHILANBERRY.png",
-    suffix: "normal",
+    suffix: "normal"
   },
   {
     id: "LIECHIBERRY",
@@ -7534,7 +6831,7 @@ export const items: Item[] = [
     flags: "Berry,Fling_10,NaturalGift_GRASS_100",
     description: "If held by a Pokémon, it raises its Attack stat in a pinch.",
     sprite: "/Items/LIECHIBERRY.png",
-    suffix: "normal",
+    suffix: "normal"
   },
   {
     id: "GANLONBERRY",
@@ -7545,7 +6842,7 @@ export const items: Item[] = [
     flags: "Berry,Fling_10,NaturalGift_ICE_100",
     description: "If held by a Pokémon, it raises its Defense stat in a pinch.",
     sprite: "/Items/GANLONBERRY.png",
-    suffix: "normal",
+    suffix: "normal"
   },
   {
     id: "SALACBERRY",
@@ -7556,7 +6853,7 @@ export const items: Item[] = [
     flags: "Berry,Fling_10,NaturalGift_FIGHTING_100",
     description: "If held by a Pokémon, it raises its Speed stat in a pinch.",
     sprite: "/Items/SALACBERRY.png",
-    suffix: "normal",
+    suffix: "normal"
   },
   {
     id: "PETAYABERRY",
@@ -7567,7 +6864,7 @@ export const items: Item[] = [
     flags: "Berry,Fling_10,NaturalGift_POISON_100",
     description: "If held by a Pokémon, it raises its Sp. Atk stat in a pinch.",
     sprite: "/Items/PETAYABERRY.png",
-    suffix: "normal",
+    suffix: "normal"
   },
   {
     id: "APICOTBERRY",
@@ -7578,7 +6875,7 @@ export const items: Item[] = [
     flags: "Berry,Fling_10,NaturalGift_GROUND_100",
     description: "If held by a Pokémon, it raises its Sp. Def stat in a pinch.",
     sprite: "/Items/APICOTBERRY.png",
-    suffix: "normal",
+    suffix: "normal"
   },
   {
     id: "LANSATBERRY",
@@ -7587,10 +6884,9 @@ export const items: Item[] = [
     pocket: 5,
     price: 20,
     flags: "Berry,Fling_10,NaturalGift_FLYING_100",
-    description:
-      "If held by a Pokémon, it raises its critical-hit ratio in a pinch.",
+    description: "If held by a Pokémon, it raises its critical-hit ratio in a pinch.",
     sprite: "/Items/LANSATBERRY.png",
-    suffix: "normal",
+    suffix: "normal"
   },
   {
     id: "STARFBERRY",
@@ -7599,10 +6895,9 @@ export const items: Item[] = [
     pocket: 5,
     price: 20,
     flags: "Berry,Fling_10,NaturalGift_PSYCHIC_100",
-    description:
-      "If held by a Pokémon, it sharply raises one of its stats in a pinch.",
+    description: "If held by a Pokémon, it sharply raises one of its stats in a pinch.",
     sprite: "/Items/STARFBERRY.png",
-    suffix: "normal",
+    suffix: "normal"
   },
   {
     id: "ENIGMABERRY",
@@ -7611,10 +6906,9 @@ export const items: Item[] = [
     pocket: 5,
     price: 20,
     flags: "Berry,Fling_10,NaturalGift_BUG_100",
-    description:
-      "If held by a Pokémon, it restores its HP if it is hit by any supereffective attack.",
+    description: "If held by a Pokémon, it restores its HP if it is hit by any supereffective attack.",
     sprite: "/Items/ENIGMABERRY.png",
-    suffix: "normal",
+    suffix: "normal"
   },
   {
     id: "MICLEBERRY",
@@ -7623,10 +6917,9 @@ export const items: Item[] = [
     pocket: 5,
     price: 20,
     flags: "Berry,Fling_10,NaturalGift_ROCK_100",
-    description:
-      "If held by a Pokémon, it raises the accuracy of a move just once in a pinch.",
+    description: "If held by a Pokémon, it raises the accuracy of a move just once in a pinch.",
     sprite: "/Items/MICLEBERRY.png",
-    suffix: "normal",
+    suffix: "normal"
   },
   {
     id: "CUSTAPBERRY",
@@ -7635,10 +6928,9 @@ export const items: Item[] = [
     pocket: 5,
     price: 20,
     flags: "Berry,Fling_10,NaturalGift_GHOST_100",
-    description:
-      "If held by a Pokémon, it gets to move first just once in a pinch.",
+    description: "If held by a Pokémon, it gets to move first just once in a pinch.",
     sprite: "/Items/CUSTAPBERRY.png",
-    suffix: "normal",
+    suffix: "normal"
   },
   {
     id: "JABOCABERRY",
@@ -7647,10 +6939,9 @@ export const items: Item[] = [
     pocket: 5,
     price: 20,
     flags: "Berry,Fling_10,NaturalGift_DRAGON_100",
-    description:
-      "If held by a Pokémon and a physical attack lands, the attacker also takes damage.",
+    description: "If held by a Pokémon and a physical attack lands, the attacker also takes damage.",
     sprite: "/Items/JABOCABERRY.png",
-    suffix: "normal",
+    suffix: "normal"
   },
   {
     id: "ROWAPBERRY",
@@ -7659,10 +6950,9 @@ export const items: Item[] = [
     pocket: 5,
     price: 20,
     flags: "Berry,Fling_10,NaturalGift_DARK_100",
-    description:
-      "If held by a Pokémon and a special attack lands, the attacker also takes damage.",
+    description: "If held by a Pokémon and a special attack lands, the attacker also takes damage.",
     sprite: "/Items/ROWAPBERRY.png",
-    suffix: "normal",
+    suffix: "normal"
   },
   {
     id: "KEEBERRY",
@@ -7671,10 +6961,9 @@ export const items: Item[] = [
     pocket: 5,
     price: 20,
     flags: "Berry,Fling_10,NaturalGift_FAIRY_100",
-    description:
-      "If held by a Pokémon, this Berry will increase the holder's Defense if it's hit with a physical move.",
+    description: "If held by a Pokémon, this Berry will increase the holder's Defense if it's hit with a physical move.",
     sprite: "/Items/KEEBERRY.png",
-    suffix: "normal",
+    suffix: "normal"
   },
   {
     id: "MARANGABERRY",
@@ -7683,10 +6972,9 @@ export const items: Item[] = [
     pocket: 5,
     price: 20,
     flags: "Berry,Fling_10,NaturalGift_DARK_100",
-    description:
-      "If held by a Pokémon, this Berry will increase the holder's Sp. Def if it's hit with a special move.",
+    description: "If held by a Pokémon, this Berry will increase the holder's Sp. Def if it's hit with a special move.",
     sprite: "/Items/MARANGABERRY.png",
-    suffix: "normal",
+    suffix: "normal"
   },
   {
     id: "GRASSMAIL",
@@ -7695,10 +6983,9 @@ export const items: Item[] = [
     pocket: 6,
     price: 50,
     flags: "IconMail",
-    description:
-      "Stationery featuring a print of a refreshingly green field. Let a Pokémon hold it for delivery.",
+    description: "Stationery featuring a print of a refreshingly green field. Let a Pokémon hold it for delivery.",
     sprite: "/Items/GRASSMAIL.png",
-    suffix: "normal",
+    suffix: "normal"
   },
   {
     id: "FLAMEMAIL",
@@ -7707,10 +6994,9 @@ export const items: Item[] = [
     pocket: 6,
     price: 50,
     flags: "IconMail",
-    description:
-      "Stationery featuring a print of flames in blazing red. Let a Pokémon hold it for delivery.",
+    description: "Stationery featuring a print of flames in blazing red. Let a Pokémon hold it for delivery.",
     sprite: "/Items/FLAMEMAIL.png",
-    suffix: "normal",
+    suffix: "normal"
   },
   {
     id: "BUBBLEMAIL",
@@ -7719,10 +7005,9 @@ export const items: Item[] = [
     pocket: 6,
     price: 50,
     flags: "IconMail",
-    description:
-      "Stationery featuring a print of a blue world underwater. Let a Pokémon hold it for delivery.",
+    description: "Stationery featuring a print of a blue world underwater. Let a Pokémon hold it for delivery.",
     sprite: "/Items/BUBBLEMAIL.png",
-    suffix: "normal",
+    suffix: "normal"
   },
   {
     id: "BLOOMMAIL",
@@ -7731,10 +7016,9 @@ export const items: Item[] = [
     pocket: 6,
     price: 50,
     flags: "IconMail",
-    description:
-      "Stationery featuring a print of pretty floral patterns. Let a Pokémon hold it for delivery.",
+    description: "Stationery featuring a print of pretty floral patterns. Let a Pokémon hold it for delivery.",
     sprite: "/Items/BLOOMMAIL.png",
-    suffix: "normal",
+    suffix: "normal"
   },
   {
     id: "TUNNELMAIL",
@@ -7743,10 +7027,9 @@ export const items: Item[] = [
     pocket: 6,
     price: 50,
     flags: "IconMail",
-    description:
-      "Stationery featuring a print of a dimly lit coal mine. Let a Pokémon hold it for delivery.",
+    description: "Stationery featuring a print of a dimly lit coal mine. Let a Pokémon hold it for delivery.",
     sprite: "/Items/TUNNELMAIL.png",
-    suffix: "normal",
+    suffix: "normal"
   },
   {
     id: "STEELMAIL",
@@ -7755,10 +7038,9 @@ export const items: Item[] = [
     pocket: 6,
     price: 50,
     flags: "IconMail",
-    description:
-      "Stationery featuring a print of cool mechanical designs. Let a Pokémon hold it for delivery.",
+    description: "Stationery featuring a print of cool mechanical designs. Let a Pokémon hold it for delivery.",
     sprite: "/Items/STEELMAIL.png",
-    suffix: "normal",
+    suffix: "normal"
   },
   {
     id: "HEARTMAIL",
@@ -7767,10 +7049,9 @@ export const items: Item[] = [
     pocket: 6,
     price: 50,
     flags: "IconMail",
-    description:
-      "Stationery featuring a print of giant heart patterns. Let a Pokémon hold it for delivery.",
+    description: "Stationery featuring a print of giant heart patterns. Let a Pokémon hold it for delivery.",
     sprite: "/Items/HEARTMAIL.png",
-    suffix: "normal",
+    suffix: "normal"
   },
   {
     id: "SNOWMAIL",
@@ -7779,10 +7060,9 @@ export const items: Item[] = [
     pocket: 6,
     price: 50,
     flags: "IconMail",
-    description:
-      "Stationery featuring a print of a chilly, snow-covered world. Let a Pokémon hold it for delivery.",
+    description: "Stationery featuring a print of a chilly, snow-covered world. Let a Pokémon hold it for delivery.",
     sprite: "/Items/SNOWMAIL.png",
-    suffix: "normal",
+    suffix: "normal"
   },
   {
     id: "SPACEMAIL",
@@ -7791,10 +7071,9 @@ export const items: Item[] = [
     pocket: 6,
     price: 50,
     flags: "IconMail",
-    description:
-      "Stationery featuring a print depicting the huge expanse of space. Let a Pokémon hold it for delivery.",
+    description: "Stationery featuring a print depicting the huge expanse of space. Let a Pokémon hold it for delivery.",
     sprite: "/Items/SPACEMAIL.png",
-    suffix: "normal",
+    suffix: "normal"
   },
   {
     id: "AIRMAIL",
@@ -7803,10 +7082,9 @@ export const items: Item[] = [
     pocket: 6,
     price: 50,
     flags: "IconMail",
-    description:
-      "Stationery featuring a print of colorful letter sets. Let a Pokémon hold it for delivery.",
+    description: "Stationery featuring a print of colorful letter sets. Let a Pokémon hold it for delivery.",
     sprite: "/Items/AIRMAIL.png",
-    suffix: "normal",
+    suffix: "normal"
   },
   {
     id: "MOSAICMAIL",
@@ -7815,10 +7093,9 @@ export const items: Item[] = [
     pocket: 6,
     price: 50,
     flags: "IconMail",
-    description:
-      "Stationery featuring a print of a vivid rainbow pattern. Let a Pokémon hold it for delivery.",
+    description: "Stationery featuring a print of a vivid rainbow pattern. Let a Pokémon hold it for delivery.",
     sprite: "/Items/MOSAICMAIL.png",
-    suffix: "normal",
+    suffix: "normal"
   },
   {
     id: "BRICKMAIL",
@@ -7827,10 +7104,9 @@ export const items: Item[] = [
     pocket: 6,
     price: 50,
     flags: "IconMail",
-    description:
-      "Stationery featuring a print of a tough-looking brick pattern. Let a Pokémon hold it for delivery.",
+    description: "Stationery featuring a print of a tough-looking brick pattern. Let a Pokémon hold it for delivery.",
     sprite: "/Items/BRICKMAIL.png",
-    suffix: "normal",
+    suffix: "normal"
   },
   {
     id: "XATTACK",
@@ -7839,10 +7115,9 @@ export const items: Item[] = [
     pocket: 7,
     price: 1000,
     flags: "Fling_30",
-    description:
-      "An item that sharply boosts the Attack stat of a Pokémon while it remains in battle.",
+    description: "An item that sharply boosts the Attack stat of a Pokémon while it remains in battle.",
     sprite: "/Items/XATTACK.png",
-    suffix: "normal",
+    suffix: "normal"
   },
   {
     id: "XATTACK2",
@@ -7851,10 +7126,9 @@ export const items: Item[] = [
     pocket: 7,
     price: 0,
     flags: "Fling_30",
-    description:
-      "It sharply raises the Attack stat of a Pokémon in battle. It wears off if the Pokémon is withdrawn.",
+    description: "It sharply raises the Attack stat of a Pokémon in battle. It wears off if the Pokémon is withdrawn.",
     sprite: "/Items/XATTACK2.png",
-    suffix: "normal",
+    suffix: "normal"
   },
   {
     id: "XATTACK3",
@@ -7863,10 +7137,9 @@ export const items: Item[] = [
     pocket: 7,
     price: 0,
     flags: "Fling_30",
-    description:
-      "It drastically raises the Attack stat of a Pokémon in battle. It wears off if the Pokémon is withdrawn.",
+    description: "It drastically raises the Attack stat of a Pokémon in battle. It wears off if the Pokémon is withdrawn.",
     sprite: "/Items/XATTACK3.png",
-    suffix: "normal",
+    suffix: "normal"
   },
   {
     id: "XATTACK6",
@@ -7875,10 +7148,9 @@ export const items: Item[] = [
     pocket: 7,
     price: 0,
     flags: "Fling_30",
-    description:
-      "It raises the Attack stat of a Pokémon in battle immensely. It wears off if the Pokémon is withdrawn.",
+    description: "It raises the Attack stat of a Pokémon in battle immensely. It wears off if the Pokémon is withdrawn.",
     sprite: "/Items/XATTACK6.png",
-    suffix: "normal",
+    suffix: "normal"
   },
   {
     id: "XDEFENSE",
@@ -7887,10 +7159,9 @@ export const items: Item[] = [
     pocket: 7,
     price: 2000,
     flags: "Fling_30",
-    description:
-      "An item that sharply boosts the Defense of a Pokémon while it remains in battle.",
+    description: "An item that sharply boosts the Defense of a Pokémon while it remains in battle.",
     sprite: "/Items/XDEFENSE.png",
-    suffix: "normal",
+    suffix: "normal"
   },
   {
     id: "XDEFENSE2",
@@ -7899,10 +7170,9 @@ export const items: Item[] = [
     pocket: 7,
     price: 0,
     flags: "Fling_30",
-    description:
-      "It sharply raises the Defense stat of a Pokémon in battle. It wears off if the Pokémon is withdrawn.",
+    description: "It sharply raises the Defense stat of a Pokémon in battle. It wears off if the Pokémon is withdrawn.",
     sprite: "/Items/XDEFENSE2.png",
-    suffix: "normal",
+    suffix: "normal"
   },
   {
     id: "XDEFENSE3",
@@ -7911,10 +7181,9 @@ export const items: Item[] = [
     pocket: 7,
     price: 0,
     flags: "Fling_30",
-    description:
-      "It drastically raises the Defense stat of a Pokémon in battle. It wears off if the Pokémon is withdrawn.",
+    description: "It drastically raises the Defense stat of a Pokémon in battle. It wears off if the Pokémon is withdrawn.",
     sprite: "/Items/XDEFENSE3.png",
-    suffix: "normal",
+    suffix: "normal"
   },
   {
     id: "XDEFENSE6",
@@ -7923,10 +7192,9 @@ export const items: Item[] = [
     pocket: 7,
     price: 0,
     flags: "Fling_30",
-    description:
-      "It raises the Defense stat of a Pokémon in battle immensely. It wears off if the Pokémon is withdrawn.",
+    description: "It raises the Defense stat of a Pokémon in battle immensely. It wears off if the Pokémon is withdrawn.",
     sprite: "/Items/XDEFENSE6.png",
-    suffix: "normal",
+    suffix: "normal"
   },
   {
     id: "XSPATK",
@@ -7935,10 +7203,9 @@ export const items: Item[] = [
     pocket: 7,
     price: 1000,
     flags: "Fling_30",
-    description:
-      "An item that sharply boosts the Sp. Atk stat of a Pokémon while it remains in battle.",
+    description: "An item that sharply boosts the Sp. Atk stat of a Pokémon while it remains in battle.",
     sprite: "/Items/XSPATK.png",
-    suffix: "normal",
+    suffix: "normal"
   },
   {
     id: "XSPATK2",
@@ -7947,10 +7214,9 @@ export const items: Item[] = [
     pocket: 7,
     price: 0,
     flags: "Fling_30",
-    description:
-      "It sharply raises the Sp. Atk stat of a Pokémon in battle. It wears off if the Pokémon is withdrawn.",
+    description: "It sharply raises the Sp. Atk stat of a Pokémon in battle. It wears off if the Pokémon is withdrawn.",
     sprite: "/Items/XSPATK2.png",
-    suffix: "normal",
+    suffix: "normal"
   },
   {
     id: "XSPATK3",
@@ -7959,10 +7225,9 @@ export const items: Item[] = [
     pocket: 7,
     price: 0,
     flags: "Fling_30",
-    description:
-      "It drastically raises the Sp. Atk stat of a Pokémon in battle. It wears off if the Pokémon is withdrawn.",
+    description: "It drastically raises the Sp. Atk stat of a Pokémon in battle. It wears off if the Pokémon is withdrawn.",
     sprite: "/Items/XSPATK3.png",
-    suffix: "normal",
+    suffix: "normal"
   },
   {
     id: "XSPATK6",
@@ -7971,10 +7236,9 @@ export const items: Item[] = [
     pocket: 7,
     price: 0,
     flags: "Fling_30",
-    description:
-      "It raises the Sp. Atk stat of a Pokémon in battle immensely. It wears off if the Pokémon is withdrawn.",
+    description: "It raises the Sp. Atk stat of a Pokémon in battle immensely. It wears off if the Pokémon is withdrawn.",
     sprite: "/Items/XSPATK6.png",
-    suffix: "normal",
+    suffix: "normal"
   },
   {
     id: "XSPDEF",
@@ -7983,10 +7247,9 @@ export const items: Item[] = [
     pocket: 7,
     price: 2000,
     flags: "Fling_30",
-    description:
-      "An item that sharply boosts the Sp. Def stat of a Pokémon while it remains in battle.",
+    description: "An item that sharply boosts the Sp. Def stat of a Pokémon while it remains in battle.",
     sprite: "/Items/XSPDEF.png",
-    suffix: "normal",
+    suffix: "normal"
   },
   {
     id: "XSPDEF2",
@@ -7995,10 +7258,9 @@ export const items: Item[] = [
     pocket: 7,
     price: 0,
     flags: "Fling_30",
-    description:
-      "It sharply raises the Sp. Def stat of a Pokémon in battle. It wears off if the Pokémon is withdrawn.",
+    description: "It sharply raises the Sp. Def stat of a Pokémon in battle. It wears off if the Pokémon is withdrawn.",
     sprite: "/Items/XSPDEF2.png",
-    suffix: "normal",
+    suffix: "normal"
   },
   {
     id: "XSPDEF3",
@@ -8007,10 +7269,9 @@ export const items: Item[] = [
     pocket: 7,
     price: 0,
     flags: "Fling_30",
-    description:
-      "It drastically raises the Sp. Def stat of a Pokémon in battle. It wears off if the Pokémon is withdrawn.",
+    description: "It drastically raises the Sp. Def stat of a Pokémon in battle. It wears off if the Pokémon is withdrawn.",
     sprite: "/Items/XSPDEF3.png",
-    suffix: "normal",
+    suffix: "normal"
   },
   {
     id: "XSPDEF6",
@@ -8019,10 +7280,9 @@ export const items: Item[] = [
     pocket: 7,
     price: 0,
     flags: "Fling_30",
-    description:
-      "It raises the Sp. Def stat of a Pokémon in battle immensely. It wears off if the Pokémon is withdrawn.",
+    description: "It raises the Sp. Def stat of a Pokémon in battle immensely. It wears off if the Pokémon is withdrawn.",
     sprite: "/Items/XSPDEF6.png",
-    suffix: "normal",
+    suffix: "normal"
   },
   {
     id: "XSPEED",
@@ -8031,10 +7291,9 @@ export const items: Item[] = [
     pocket: 7,
     price: 1000,
     flags: "Fling_30",
-    description:
-      "An item that sharply boosts the Speed stat of a Pokémon while it remains in battle.",
+    description: "An item that sharply boosts the Speed stat of a Pokémon while it remains in battle.",
     sprite: "/Items/XSPEED.png",
-    suffix: "normal",
+    suffix: "normal"
   },
   {
     id: "XSPEED2",
@@ -8043,10 +7302,9 @@ export const items: Item[] = [
     pocket: 7,
     price: 0,
     flags: "Fling_30",
-    description:
-      "It sharply raises the Speed stat of a Pokémon in battle. It wears off if the Pokémon is withdrawn.",
+    description: "It sharply raises the Speed stat of a Pokémon in battle. It wears off if the Pokémon is withdrawn.",
     sprite: "/Items/XSPEED2.png",
-    suffix: "normal",
+    suffix: "normal"
   },
   {
     id: "XSPEED3",
@@ -8055,10 +7313,9 @@ export const items: Item[] = [
     pocket: 7,
     price: 0,
     flags: "Fling_30",
-    description:
-      "It drastically raises the Speed stat of a Pokémon in battle. It wears off if the Pokémon is withdrawn.",
+    description: "It drastically raises the Speed stat of a Pokémon in battle. It wears off if the Pokémon is withdrawn.",
     sprite: "/Items/XSPEED3.png",
-    suffix: "normal",
+    suffix: "normal"
   },
   {
     id: "XSPEED6",
@@ -8067,10 +7324,9 @@ export const items: Item[] = [
     pocket: 7,
     price: 0,
     flags: "Fling_30",
-    description:
-      "It raises the Speed stat of a Pokémon in battle immensely. It wears off if the Pokémon is withdrawn.",
+    description: "It raises the Speed stat of a Pokémon in battle immensely. It wears off if the Pokémon is withdrawn.",
     sprite: "/Items/XSPEED6.png",
-    suffix: "normal",
+    suffix: "normal"
   },
   {
     id: "XACCURACY",
@@ -8079,10 +7335,9 @@ export const items: Item[] = [
     pocket: 7,
     price: 1000,
     flags: "Fling_30",
-    description:
-      "An item that sharply boosts the accuracy of a Pokémon while it remains in battle.",
+    description: "An item that sharply boosts the accuracy of a Pokémon while it remains in battle.",
     sprite: "/Items/XACCURACY.png",
-    suffix: "normal",
+    suffix: "normal"
   },
   {
     id: "XACCURACY2",
@@ -8091,10 +7346,9 @@ export const items: Item[] = [
     pocket: 7,
     price: 0,
     flags: "Fling_30",
-    description:
-      "It sharply raises the accuracy of a Pokémon in battle. It wears off if the Pokémon is withdrawn.",
+    description: "It sharply raises the accuracy of a Pokémon in battle. It wears off if the Pokémon is withdrawn.",
     sprite: "/Items/XACCURACY2.png",
-    suffix: "normal",
+    suffix: "normal"
   },
   {
     id: "XACCURACY3",
@@ -8103,10 +7357,9 @@ export const items: Item[] = [
     pocket: 7,
     price: 0,
     flags: "Fling_30",
-    description:
-      "It drastically raises the accuracy of a Pokémon in battle. It wears off if the Pokémon is withdrawn.",
+    description: "It drastically raises the accuracy of a Pokémon in battle. It wears off if the Pokémon is withdrawn.",
     sprite: "/Items/XACCURACY3.png",
-    suffix: "normal",
+    suffix: "normal"
   },
   {
     id: "XACCURACY6",
@@ -8115,10 +7368,9 @@ export const items: Item[] = [
     pocket: 7,
     price: 0,
     flags: "Fling_30",
-    description:
-      "It raises the accuracy of a Pokémon in battle immensely. It wears off if the Pokémon is withdrawn.",
+    description: "It raises the accuracy of a Pokémon in battle immensely. It wears off if the Pokémon is withdrawn.",
     sprite: "/Items/XACCURACY6.png",
-    suffix: "normal",
+    suffix: "normal"
   },
   {
     id: "MAXMUSHROOMS",
@@ -8129,7 +7381,7 @@ export const items: Item[] = [
     flags: "Fling_30",
     description: "Mushrooms that boost all stats of a Pokémon during battle.",
     sprite: "/Items/MAXMUSHROOMS.png",
-    suffix: "normal",
+    suffix: "normal"
   },
   {
     id: "DIREHIT",
@@ -8138,10 +7390,9 @@ export const items: Item[] = [
     pocket: 7,
     price: 1000,
     flags: "Fling_30",
-    description:
-      "An item that raises the critical-hit ratio greatly. It wears off if the Pokémon is withdrawn.",
+    description: "An item that raises the critical-hit ratio greatly. It wears off if the Pokémon is withdrawn.",
     sprite: "/Items/DIREHIT.png",
-    suffix: "normal",
+    suffix: "normal"
   },
   {
     id: "DIREHIT2",
@@ -8150,10 +7401,9 @@ export const items: Item[] = [
     pocket: 7,
     price: 0,
     flags: "Fling_30",
-    description:
-      "It sharply raises the critical-hit ratio. It wears off if the Pokémon is withdrawn.",
+    description: "It sharply raises the critical-hit ratio. It wears off if the Pokémon is withdrawn.",
     sprite: "/Items/DIREHIT2.png",
-    suffix: "normal",
+    suffix: "normal"
   },
   {
     id: "DIREHIT3",
@@ -8162,10 +7412,9 @@ export const items: Item[] = [
     pocket: 7,
     price: 0,
     flags: "Fling_30",
-    description:
-      "It greatly raises the critical-hit ratio. It wears off if the Pokémon is withdrawn.",
+    description: "It greatly raises the critical-hit ratio. It wears off if the Pokémon is withdrawn.",
     sprite: "/Items/DIREHIT3.png",
-    suffix: "normal",
+    suffix: "normal"
   },
   {
     id: "GUARDSPEC",
@@ -8174,10 +7423,9 @@ export const items: Item[] = [
     pocket: 7,
     price: 1500,
     flags: "Fling_30",
-    description:
-      "An item that prevents stat reduction among the Trainer's party Pokémon for five turns after use.",
+    description: "An item that prevents stat reduction among the Trainer's party Pokémon for five turns after use.",
     sprite: "/Items/GUARDSPEC.png",
-    suffix: "normal",
+    suffix: "normal"
   },
   {
     id: "RESETURGE",
@@ -8188,7 +7436,7 @@ export const items: Item[] = [
     flags: "Fling_30",
     description: "When used, it restores any stat changes of an ally Pokémon.",
     sprite: "/Items/RESETURGE.png",
-    suffix: "normal",
+    suffix: "normal"
   },
   {
     id: "ABILITYURGE",
@@ -8199,7 +7447,7 @@ export const items: Item[] = [
     flags: "Fling_30",
     description: "When used, it activates the Ability of an ally Pokémon.",
     sprite: "/Items/ABILITYURGE.png",
-    suffix: "normal",
+    suffix: "normal"
   },
   {
     id: "ITEMURGE",
@@ -8210,7 +7458,7 @@ export const items: Item[] = [
     flags: "Fling_30",
     description: "When used, it causes an ally Pokémon to use its held item.",
     sprite: "/Items/ITEMURGE.png",
-    suffix: "normal",
+    suffix: "normal"
   },
   {
     id: "ITEMDROP",
@@ -8221,7 +7469,7 @@ export const items: Item[] = [
     flags: "Fling_30",
     description: "When used, it causes an ally Pokémon to drop a held item.",
     sprite: "/Items/ITEMDROP.png",
-    suffix: "normal",
+    suffix: "normal"
   },
   {
     id: "BLUEFLUTE",
@@ -8230,10 +7478,9 @@ export const items: Item[] = [
     pocket: 7,
     price: 20,
     flags: "Fling_30",
-    description:
-      "A blue flute made from blown glass. Its melody awakens a single Pokémon from sleep.",
+    description: "A blue flute made from blown glass. Its melody awakens a single Pokémon from sleep.",
     sprite: "/Items/BLUEFLUTE.png",
-    suffix: "normal",
+    suffix: "normal"
   },
   {
     id: "YELLOWFLUTE",
@@ -8242,10 +7489,9 @@ export const items: Item[] = [
     pocket: 7,
     price: 20,
     flags: "Fling_30",
-    description:
-      "A yellow flute made from blown glass. Its melody snaps a single Pokémon out of confusion.",
+    description: "A yellow flute made from blown glass. Its melody snaps a single Pokémon out of confusion.",
     sprite: "/Items/YELLOWFLUTE.png",
-    suffix: "normal",
+    suffix: "normal"
   },
   {
     id: "REDFLUTE",
@@ -8254,10 +7500,9 @@ export const items: Item[] = [
     pocket: 7,
     price: 20,
     flags: "Fling_30",
-    description:
-      "A red flute made from blown glass. Its melody snaps a single Pokémon out of infatuation.",
+    description: "A red flute made from blown glass. Its melody snaps a single Pokémon out of infatuation.",
     sprite: "/Items/REDFLUTE.png",
-    suffix: "normal",
+    suffix: "normal"
   },
   {
     id: "POKEDOLL",
@@ -8266,10 +7511,9 @@ export const items: Item[] = [
     pocket: 7,
     price: 300,
     flags: "Fling_30",
-    description:
-      "A doll that attracts Pokémon. Use it to flee from any battle with a wild Pokémon.",
+    description: "A doll that attracts Pokémon. Use it to flee from any battle with a wild Pokémon.",
     sprite: "/Items/POKEDOLL.png",
-    suffix: "normal",
+    suffix: "normal"
   },
   {
     id: "FLUFFYTAIL",
@@ -8278,10 +7522,9 @@ export const items: Item[] = [
     pocket: 7,
     price: 300,
     flags: "Fling_30",
-    description:
-      "An item that attracts Pokémon. Use it to flee from any battle with a wild Pokémon.",
+    description: "An item that attracts Pokémon. Use it to flee from any battle with a wild Pokémon.",
     sprite: "/Items/FLUFFYTAIL.png",
-    suffix: "normal",
+    suffix: "normal"
   },
   {
     id: "POKETOY",
@@ -8290,10 +7533,9 @@ export const items: Item[] = [
     pocket: 7,
     price: 300,
     flags: "Fling_30",
-    description:
-      "An item that attracts Pokémon. Use it to flee from any battle with a wild Pokémon.",
+    description: "An item that attracts Pokémon. Use it to flee from any battle with a wild Pokémon.",
     sprite: "/Items/POKETOY.png",
-    suffix: "normal",
+    suffix: "normal"
   },
   {
     id: "BICYCLE",
@@ -8302,10 +7544,9 @@ export const items: Item[] = [
     pocket: 8,
     price: 0,
     flags: "KeyItem",
-    description:
-      "A folding Bicycle that enables much faster movement than the Running Shoes.",
+    description: "A folding Bicycle that enables much faster movement than the Running Shoes.",
     sprite: "/Items/BICYCLE.png",
-    suffix: "normal",
+    suffix: "normal"
   },
   {
     id: "OLDROD",
@@ -8314,10 +7555,9 @@ export const items: Item[] = [
     pocket: 8,
     price: 0,
     flags: "KeyItem",
-    description:
-      "An old and beat-up fishing rod. Use it by any body of water to fish for wild aquatic Pokémon.",
+    description: "An old and beat-up fishing rod. Use it by any body of water to fish for wild aquatic Pokémon.",
     sprite: "/Items/OLDROD.png",
-    suffix: "normal",
+    suffix: "normal"
   },
   {
     id: "GOODROD",
@@ -8326,10 +7566,9 @@ export const items: Item[] = [
     pocket: 8,
     price: 0,
     flags: "KeyItem",
-    description:
-      "A new, good-quality fishing rod. Use it by any body of water to fish for wild aquatic Pokémon.",
+    description: "A new, good-quality fishing rod. Use it by any body of water to fish for wild aquatic Pokémon.",
     sprite: "/Items/GOODROD.png",
-    suffix: "normal",
+    suffix: "normal"
   },
   {
     id: "SUPERROD",
@@ -8338,10 +7577,9 @@ export const items: Item[] = [
     pocket: 8,
     price: 0,
     flags: "KeyItem",
-    description:
-      "An awesome, high-tech fishing rod. Use it by any body of water to fish for wild aquatic Pokémon.",
+    description: "An awesome, high-tech fishing rod. Use it by any body of water to fish for wild aquatic Pokémon.",
     sprite: "/Items/SUPERROD.png",
-    suffix: "normal",
+    suffix: "normal"
   },
   {
     id: "ITEMFINDER",
@@ -8350,10 +7588,9 @@ export const items: Item[] = [
     pocket: 8,
     price: 0,
     flags: "KeyItem",
-    description:
-      "A device used for finding items. If there is a hidden item nearby when it is used, it emits a signal.",
+    description: "A device used for finding items. If there is a hidden item nearby when it is used, it emits a signal.",
     sprite: "/Items/ITEMFINDER.png",
-    suffix: "normal",
+    suffix: "normal"
   },
   {
     id: "DOWSINGMACHINE",
@@ -8362,10 +7599,9 @@ export const items: Item[] = [
     pocket: 8,
     price: 0,
     flags: "KeyItem",
-    description:
-      "It checks for unseen items in the area and makes noise and lights when it finds something.",
+    description: "It checks for unseen items in the area and makes noise and lights when it finds something.",
     sprite: "/Items/DOWSINGMACHINE.png",
-    suffix: "normal",
+    suffix: "normal"
   },
   {
     id: "POKERADAR",
@@ -8374,10 +7610,9 @@ export const items: Item[] = [
     pocket: 8,
     price: 0,
     flags: "KeyItem",
-    description:
-      "A tool that can search out Pokémon that are hiding in grass. Its battery is recharged as you walk.",
+    description: "A tool that can search out Pokémon that are hiding in grass. Its battery is recharged as you walk.",
     sprite: "/Items/POKERADAR.png",
-    suffix: "normal",
+    suffix: "normal"
   },
   {
     id: "TOWNMAP",
@@ -8386,10 +7621,9 @@ export const items: Item[] = [
     pocket: 8,
     price: 0,
     flags: "KeyItem",
-    description:
-      "A very convenient map that can be viewed anytime. It even shows your present location.",
+    description: "A very convenient map that can be viewed anytime. It even shows your present location.",
     sprite: "/Items/TOWNMAP.png",
-    suffix: "normal",
+    suffix: "normal"
   },
   {
     id: "ESCAPEROPE",
@@ -8398,10 +7632,9 @@ export const items: Item[] = [
     pocket: 8,
     price: 0,
     flags: "KeyItem",
-    description:
-      "A long, durable rope. Use it to escape instantly from a cave or a dungeon.",
+    description: "A long, durable rope. Use it to escape instantly from a cave or a dungeon.",
     sprite: "/Items/ESCAPEROPE.png",
-    suffix: "normal",
+    suffix: "normal"
   },
   {
     id: "COINCASE",
@@ -8410,10 +7643,9 @@ export const items: Item[] = [
     pocket: 8,
     price: 0,
     flags: "KeyItem",
-    description:
-      "A case for holding coins obtained at the Game Corner. It holds up to 99,999 coins.",
+    description: "A case for holding coins obtained at the Game Corner. It holds up to 99,999 coins.",
     sprite: "/Items/COINCASE.png",
-    suffix: "normal",
+    suffix: "normal"
   },
   {
     id: "POKEFLUTE",
@@ -8422,10 +7654,9 @@ export const items: Item[] = [
     pocket: 8,
     price: 0,
     flags: "KeyItem",
-    description:
-      "A flute that is said to instantly awaken any Pokémon. It has a lovely tone.",
+    description: "A flute that is said to instantly awaken any Pokémon. It has a lovely tone.",
     sprite: "/Items/POKEFLUTE.png",
-    suffix: "normal",
+    suffix: "normal"
   },
   {
     id: "SOOTSACK",
@@ -8436,7 +7667,7 @@ export const items: Item[] = [
     flags: "KeyItem",
     description: "A sack used to gather and hold volcanic ash.",
     sprite: "/Items/SOOTSACK.png",
-    suffix: "normal",
+    suffix: "normal"
   },
   {
     id: "SILPHSCOPE",
@@ -8445,10 +7676,9 @@ export const items: Item[] = [
     pocket: 8,
     price: 0,
     flags: "KeyItem",
-    description:
-      "A scope that makes unseeable Pokémon visible. It is made by Silph Co.",
+    description: "A scope that makes unseeable Pokémon visible. It is made by Silph Co.",
     sprite: "/Items/SILPHSCOPE.png",
-    suffix: "normal",
+    suffix: "normal"
   },
   {
     id: "DEVONSCOPE",
@@ -8459,7 +7689,7 @@ export const items: Item[] = [
     flags: "KeyItem",
     description: "A device by Devon that signals any unseeable Pokémon.",
     sprite: "/Items/DEVONSCOPE.png",
-    suffix: "normal",
+    suffix: "normal"
   },
   {
     id: "SQUIRTBOTTLE",
@@ -8468,10 +7698,9 @@ export const items: Item[] = [
     pocket: 8,
     price: 0,
     flags: "KeyItem",
-    description:
-      "A watering can shaped like a Squirtle. It helps promote healthy growth of Berries planted in soft soil.",
+    description: "A watering can shaped like a Squirtle. It helps promote healthy growth of Berries planted in soft soil.",
     sprite: "/Items/SQUIRTBOTTLE.png",
-    suffix: "normal",
+    suffix: "normal"
   },
   {
     id: "SPRAYDUCK",
@@ -8480,10 +7709,9 @@ export const items: Item[] = [
     pocket: 8,
     price: 0,
     flags: "KeyItem",
-    description:
-      "A watering can shaped like a Psyduck. It helps promote healthy growth of Berries planted in soft soil.",
+    description: "A watering can shaped like a Psyduck. It helps promote healthy growth of Berries planted in soft soil.",
     sprite: "/Items/SPRAYDUCK.png",
-    suffix: "normal",
+    suffix: "normal"
   },
   {
     id: "WAILMERPAIL",
@@ -8492,10 +7720,9 @@ export const items: Item[] = [
     pocket: 8,
     price: 0,
     flags: "KeyItem",
-    description:
-      "A nifty watering pail. Use it to promote strong growth in Berries planted in soft soil.",
+    description: "A nifty watering pail. Use it to promote strong growth in Berries planted in soft soil.",
     sprite: "/Items/WAILMERPAIL.png",
-    suffix: "normal",
+    suffix: "normal"
   },
   {
     id: "SPRINKLOTAD",
@@ -8504,10 +7731,9 @@ export const items: Item[] = [
     pocket: 8,
     price: 0,
     flags: "KeyItem",
-    description:
-      "A watering can shaped like a Lotad. It helps promote the healthy growth of any Berries planted in soft soil.",
+    description: "A watering can shaped like a Lotad. It helps promote the healthy growth of any Berries planted in soft soil.",
     sprite: "/Items/SPRINKLOTAD.png",
-    suffix: "normal",
+    suffix: "normal"
   },
   {
     id: "GRACIDEA",
@@ -8516,10 +7742,9 @@ export const items: Item[] = [
     pocket: 8,
     price: 0,
     flags: "KeyItem",
-    description:
-      "A flower sometimes bundled in bouquets to convey gratitude on special occasions like birthdays.",
+    description: "A flower sometimes bundled in bouquets to convey gratitude on special occasions like birthdays.",
     sprite: "/Items/GRACIDEA.png",
-    suffix: "normal",
+    suffix: "normal"
   },
   {
     id: "REVEALGLASS",
@@ -8528,10 +7753,9 @@ export const items: Item[] = [
     pocket: 8,
     price: 0,
     flags: "KeyItem",
-    description:
-      "A glass that reveals the truth. It is a mysterious glass that returns a Pokémon back to its original shape.",
+    description: "A glass that reveals the truth. It is a mysterious glass that returns a Pokémon back to its original shape.",
     sprite: "/Items/REVEALGLASS.png",
-    suffix: "normal",
+    suffix: "normal"
   },
   {
     id: "PRISONBOTTLE",
@@ -8540,10 +7764,9 @@ export const items: Item[] = [
     pocket: 8,
     price: 0,
     flags: "KeyItem",
-    description:
-      "A bottle believed to have been used to seal away the power of a certain Pokémon long, long ago.",
+    description: "A bottle believed to have been used to seal away the power of a certain Pokémon long, long ago.",
     sprite: "/Items/PRISONBOTTLE.png",
-    suffix: "normal",
+    suffix: "normal"
   },
   {
     id: "ROTOMCATALOG",
@@ -8552,10 +7775,9 @@ export const items: Item[] = [
     pocket: 8,
     price: 0,
     flags: "KeyItem",
-    description:
-      "A catalog of devices that Rotom like. Use the catalog to have Rotom hop in and out of the devices listed within.",
+    description: "A catalog of devices that Rotom like. Use the catalog to have Rotom hop in and out of the devices listed within.",
     sprite: "/Items/ROTOMCATALOG.png",
-    suffix: "normal",
+    suffix: "normal"
   },
   {
     id: "ZYGARDECUBE",
@@ -8564,10 +7786,9 @@ export const items: Item[] = [
     pocket: 8,
     price: 0,
     flags: "KeyItem",
-    description:
-      "An item in which Zygarde Cores and Cells are gathered. You can also use it to change Zygarde's forms.",
+    description: "An item in which Zygarde Cores and Cells are gathered. You can also use it to change Zygarde's forms.",
     sprite: "/Items/ZYGARDECUBE.png",
-    suffix: "normal",
+    suffix: "normal"
   },
   {
     id: "DNASPLICERS",
@@ -8576,10 +7797,9 @@ export const items: Item[] = [
     pocket: 8,
     price: 0,
     flags: "KeyItem",
-    description:
-      "A splicer that fuses Kyurem and a certain Pokémon. They are said to have been one in the beginning.",
+    description: "A splicer that fuses Kyurem and a certain Pokémon. They are said to have been one in the beginning.",
     sprite: "/Items/DNASPLICERS.png",
-    suffix: "normal",
+    suffix: "normal"
   },
   {
     id: "DNASPLICERSUSED",
@@ -8588,10 +7808,9 @@ export const items: Item[] = [
     pocket: 8,
     price: 0,
     flags: "KeyItem",
-    description:
-      "A splicer that separates Kyurem and a certain Pokémon when they have been fused.",
+    description: "A splicer that separates Kyurem and a certain Pokémon when they have been fused.",
     sprite: "/Items/DNASPLICERSUSED.png",
-    suffix: "normal",
+    suffix: "normal"
   },
   {
     id: "NSOLARIZER",
@@ -8602,7 +7821,7 @@ export const items: Item[] = [
     flags: "KeyItem",
     description: "A machine to fuse Necrozma, which needs light, and Solgaleo.",
     sprite: "/Items/NSOLARIZER.png",
-    suffix: "normal",
+    suffix: "normal"
   },
   {
     id: "NSOLARIZERUSED",
@@ -8611,10 +7830,9 @@ export const items: Item[] = [
     pocket: 8,
     price: 0,
     flags: "KeyItem",
-    description:
-      "A machine to separate Necrozma, which needed light, from Solgaleo.",
+    description: "A machine to separate Necrozma, which needed light, from Solgaleo.",
     sprite: "/Items/NSOLARIZERUSED.png",
-    suffix: "normal",
+    suffix: "normal"
   },
   {
     id: "NLUNARIZER",
@@ -8625,7 +7843,7 @@ export const items: Item[] = [
     flags: "KeyItem",
     description: "A machine to fuse Necrozma, which needs light, and Lunala.",
     sprite: "/Items/NLUNARIZER.png",
-    suffix: "normal",
+    suffix: "normal"
   },
   {
     id: "NLUNARIZERUSED",
@@ -8634,10 +7852,9 @@ export const items: Item[] = [
     pocket: 8,
     price: 0,
     flags: "KeyItem",
-    description:
-      "A machine to separate Necrozma, which needed light, from Lunala.",
+    description: "A machine to separate Necrozma, which needed light, from Lunala.",
     sprite: "/Items/NLUNARIZERUSED.png",
-    suffix: "normal",
+    suffix: "normal"
   },
   {
     id: "REINSOFUNITY",
@@ -8646,10 +7863,9 @@ export const items: Item[] = [
     pocket: 8,
     price: 0,
     flags: "KeyItem",
-    description:
-      "Reins that people presented to the king. They unite Calyrex with its beloved steed.",
+    description: "Reins that people presented to the king. They unite Calyrex with its beloved steed.",
     sprite: "/Items/REINSOFUNITY.png",
-    suffix: "normal",
+    suffix: "normal"
   },
   {
     id: "REINSOFUNITYUSED",
@@ -8658,10 +7874,9 @@ export const items: Item[] = [
     pocket: 8,
     price: 0,
     flags: "KeyItem",
-    description:
-      "Reins that people presented to the king. They separate Calyrex and its beloved steed.",
+    description: "Reins that people presented to the king. They separate Calyrex and its beloved steed.",
     sprite: "/Items/REINSOFUNITYUSED.png",
-    suffix: "normal",
+    suffix: "normal"
   },
   {
     id: "METEORITE",
@@ -8670,10 +7885,9 @@ export const items: Item[] = [
     pocket: 8,
     price: 0,
     flags: "KeyItem",
-    description:
-      "A slightly warm rock that fell to earth from space. It allows a certain species of Pokémon to change forms.",
+    description: "A slightly warm rock that fell to earth from space. It allows a certain species of Pokémon to change forms.",
     sprite: "/Items/METEORITE.png",
-    suffix: "normal",
+    suffix: "normal"
   },
   {
     id: "SCROLLOFDARKNESS",
@@ -8682,10 +7896,9 @@ export const items: Item[] = [
     pocket: 8,
     price: 0,
     flags: "KeyItem",
-    description:
-      "A scroll containing the true secrets of the path of darkness. It can evolve a certain species of Pokémon.",
+    description: "A scroll containing the true secrets of the path of darkness. It can evolve a certain species of Pokémon.",
     sprite: "/Items/SCROLLOFDARKNESS.png",
-    suffix: "normal",
+    suffix: "normal"
   },
   {
     id: "SCROLLOFWATERS",
@@ -8694,10 +7907,9 @@ export const items: Item[] = [
     pocket: 8,
     price: 0,
     flags: "KeyItem",
-    description:
-      "A scroll containing the true secrets of the path of water. It can evolve a certain species of Pokémon.",
+    description: "A scroll containing the true secrets of the path of water. It can evolve a certain species of Pokémon.",
     sprite: "/Items/SCROLLOFWATERS.png",
-    suffix: "normal",
+    suffix: "normal"
   },
   {
     id: "OVALCHARM",
@@ -8706,10 +7918,9 @@ export const items: Item[] = [
     pocket: 8,
     price: 0,
     flags: "KeyItem",
-    description:
-      "An oval charm said to increase the chance of Eggs being found at the Day Care.",
+    description: "An oval charm said to increase the chance of Eggs being found at the Day Care.",
     sprite: "/Items/OVALCHARM.png",
-    suffix: "normal",
+    suffix: "normal"
   },
   {
     id: "SHINYCHARM",
@@ -8718,10 +7929,9 @@ export const items: Item[] = [
     pocket: 8,
     price: 0,
     flags: "KeyItem",
-    description:
-      "A shiny charm said to increase the chance of finding a Shiny Pokémon.",
+    description: "A shiny charm said to increase the chance of finding a Shiny Pokémon.",
     sprite: "/Items/SHINYCHARM.png",
-    suffix: "normal",
+    suffix: "normal"
   },
   {
     id: "CATCHINGCHARM",
@@ -8730,10 +7940,9 @@ export const items: Item[] = [
     pocket: 8,
     price: 0,
     flags: "KeyItem",
-    description:
-      "A charm said to increase the chance of getting a critical catch. The charm doesn't shake much.",
+    description: "A charm said to increase the chance of getting a critical catch. The charm doesn't shake much.",
     sprite: "/Items/CATCHINGCHARM.png",
-    suffix: "normal",
+    suffix: "normal"
   },
   {
     id: "EXPCHARM",
@@ -8742,10 +7951,9 @@ export const items: Item[] = [
     pocket: 8,
     price: 0,
     flags: "KeyItem",
-    description:
-      "A charm that increases the Exp. Points that Pokémon can get. A machine-like object is inside it.",
+    description: "A charm that increases the Exp. Points that Pokémon can get. A machine-like object is inside it.",
     sprite: "/Items/EXPCHARM.png",
-    suffix: "normal",
+    suffix: "normal"
   },
   {
     id: "MEGARING",
@@ -8754,10 +7962,9 @@ export const items: Item[] = [
     pocket: 8,
     price: 0,
     flags: "KeyItem,MegaRing",
-    description:
-      "This ring contains an untold power that somehow enables Pokémon carrying Mega Stones to Mega Evolve.",
+    description: "This ring contains an untold power that somehow enables Pokémon carrying Mega Stones to Mega Evolve.",
     sprite: "/Items/MEGARING.png",
-    suffix: "normal",
+    suffix: "normal"
   },
   {
     id: "POKEMONBOXLINK",
@@ -8766,10 +7973,9 @@ export const items: Item[] = [
     pocket: 8,
     price: 0,
     flags: "KeyItem",
-    description:
-      "A device that allows you to access the Pokémon storage system. There are some places where it won't work.",
+    description: "A device that allows you to access the Pokémon storage system. There are some places where it won't work.",
     sprite: "/Items/POKEMONBOXLINK.png",
-    suffix: "normal",
+    suffix: "normal"
   },
   {
     id: "AURORATICKET",
@@ -8778,10 +7984,9 @@ export const items: Item[] = [
     pocket: 8,
     price: 0,
     flags: "KeyItem",
-    description:
-      "A ticket required to board the ship to Berth Island. It glows beautifully.",
+    description: "A ticket required to board the ship to Berth Island. It glows beautifully.",
     sprite: "/Items/AURORATICKET.png",
-    suffix: "normal",
+    suffix: "normal"
   },
   {
     id: "OLDSEAMAP",
@@ -8792,6 +7997,6 @@ export const items: Item[] = [
     flags: "KeyItem",
     description: "A faded sea chart that shows the way to a certain island.",
     sprite: "/Items/OLDSEAMAP.png",
-    suffix: "normal",
-  },
-];
+    suffix: "normal"
+  }
+]

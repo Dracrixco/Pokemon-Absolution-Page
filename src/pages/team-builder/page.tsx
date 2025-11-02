@@ -50,10 +50,10 @@ export const TeamBuilder = () => {
     item_normal: "",
     item_hard: "ORANBERRY",
     item_absolution: "SITRUSBERRY",
-    moves_easy: pokemon.moves?.slice(0, 1) || [],
-    moves_normal: pokemon.moves?.slice(0, 2) || [],
-    moves_hard: pokemon.moves?.slice(0, 3) || [],
-    moves_absolution: pokemon.moves?.slice(0, 4) || [],
+    moves_easy: [],
+    moves_normal: [],
+    moves_hard: [],
+    moves_absolution: [],
     randomId: Math.random().toString(36).substring(2, 15),
   });
 
@@ -95,7 +95,7 @@ export const TeamBuilder = () => {
       exportText += `    Moves_normal = ${pokemon.moves_normal.join(",")}\n`;
       exportText += `    Moves_hard = ${pokemon.moves_hard.join(",")}\n`;
       exportText += `    Moves_absolution = ${pokemon.moves_absolution.join(
-        ",",
+        ","
       )}\n`;
 
       // Solo incluir items si no están vacíos
@@ -229,7 +229,7 @@ export const TeamBuilder = () => {
                           <span
                             key={type}
                             className={`px-2 py-1 rounded text-white text-xs ${getTypeColor(
-                              type,
+                              type
                             )}`}
                           >
                             {type}

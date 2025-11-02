@@ -14083,6 +14083,7 @@ Category = Tiny Pigeon
 Pokedex = These Pokémon live in cities. They are accustomed to people. Flocks often gather in parks and plazas.
 Generation = 5
 Evolution = TRANQUILL,Level,21
+Evolution = DOLOVE,None
 CallRateSOS = 9
 #-------------------------------
 [TRANQUILL]

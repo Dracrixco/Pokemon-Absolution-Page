@@ -181,7 +181,7 @@ Power = 150
 Accuracy = 100
 TotalPP = 20
 Target = NearOther
-FunctionCode = DealsDamageToInLoveTargets
+FunctionCode = DamageOnLoveObjectivesAndRemoveLove
 Flags = CanProtect,CanMirrorMove,LoveReleated,Contact
 Description = Causes massive damage to the target and removes the effect of falling in love. The move fails if the target is not in love with the user.
 #-------------------------------
@@ -398,11 +398,23 @@ PasiveDescription = The user gains a 5% increase in extra effect chance at the e
 Name = Magical Explosion
 Type = FAIRY
 Category = Special
-Power = 90
+Power = 70
 Accuracy = 100
 TotalPP = 15
 Target = NearOther
 FunctionCode = MoreDamageWithEffectChanceAndEffectChanceImprovement
+Flags = CanProtect,CanMirrorMove,Magic
 EffectChance = 10
 Description = Causes more damage when more extra effect chance the user has. It may also raise all the user's stats at once.
 PasiveDescription = The user gains a 5% increase in extra effect chance at the end of each turn.
+#-------------------------------
+[LOVEHURTS]
+Name = Love hurts
+Type = FAIRY
+Category = Physical
+Power = 60
+Accuracy = 100
+TotalPP = 25
+Target = NearOther
+FunctionCode = DealsDamageToInLoveTargets
+Description = Causes double damage if the target is in love (Not necessarily in love with the user).

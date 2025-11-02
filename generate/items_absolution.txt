@@ -529,7 +529,7 @@ Description = Slightly increases the damage of cutting moves. The effect is bigg
 [DUNGEONPOINT]
 Name = Dungeon Point
 NamePlural = Dungeon Points
-Pocket = 10
+Pocket = 2
 Price = 500000
 SellPrice = 1
 Flags = Fling_30
@@ -538,8 +538,44 @@ Description = Points that you earn in dungeons.
 [DUNGEONKEY]
 Name = Dungeon Key
 NamePlural = Dungeon Keys
-Pocket = 10
+Pocket = 2
 Price = 500000
 SellPrice = 1
 Flags = Fling_30
 Description = A key to enter into a Dungeon.
+#-------------------------------
+[KATANA]
+Name = Katana
+NamePlural = Katanas
+Pocket = 1
+Price = 10000
+SellPrice = 1
+Flags = Fling_30
+Description = Cutting moves have a higher critical chance.
+#-------------------------------
+[BLADEOFCHAOS]
+Name = Blade Of Chaos
+NamePlural = Blades Of Chaos
+Pocket = 1
+Price = 10000
+SellPrice = 1
+Flags = Fling_30
+Description = After using a status move, the next damaging move ensures a critical hit.
+#-------------------------------
+[KISERU]
+Name = kiseru
+NamePlural = kiserus
+Pocket = 1
+Price = 10000
+SellPrice = 1
+Flags = Fling_30
+Description = Raises Accuracy sharply when a Pokémon misses with a move because of accuracy.
+#-------------------------------
+[MAGICWAND]
+Name = Magic Wand
+NamePlural = Magic Wands
+Pocket = 1
+Price = 10000
+SellPrice = 1
+Flags = Fling_30
+Description = Increases the damage of magic moves. The user gains a 5% increase in extra effect chance at the end of each turn.

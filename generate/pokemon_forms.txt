@@ -670,61 +670,6 @@ Category = Malevolent
 Pokedex = This Pokémon's sinister, flame-like aura will consume the spirit of any creature it hits. Victims become burned-out shadows of themselves.
 Generation = 8
 #-------------------------------
-[DRAGONITE,1]
-FormName = Mega Dragonite
-MegaStone = DRAGONITITE
-#-------------------------------
-[SCOLIPEDE,1]
-FormName = Mega Scolipede
-MegaStone = SCOLIPEDITE
-#-------------------------------
-[CHESNAUGHT,1]
-FormName = Mega Chesnaught
-MegaStone = CHESNAUGHTITE
-Height = 2.1
-Weight = 112.0
-Generation = 10
-#-------------------------------
-[DELPHOX,1]
-FormName = Mega Delphox
-MegaStone = DELPHOXITE
-Height = 1.8
-Weight = 42.5
-Generation = 10
-#-------------------------------
-[GRENINJA,3]
-FormName = Mega Greninja
-MegaStone = GRENINJAITE
-Height = 1.7
-Weight = 45.0
-Generation = 10
-#-------------------------------
-[MALAMAR,1]
-FormName = Mega Malamar
-MegaStone = MALAMARITE
-Height = 2.0
-Weight = 52.0
-Generation = 10
-#-------------------------------
-[RAICHU,2]
-FormName = Mega Raichu X
-MegaStone = RAICHUITEX
-Height = 0.9
-Weight = 32.0
-Generation = 10
-#-------------------------------
-[RAICHU,3]
-FormName = Mega Raichu Y
-MegaStone = RAICHUITEY
-Height = 0.9
-Weight = 32.0
-Generation = 10
-#-------------------------------
-[VICTREEBEL,1]
-FormName = Mega Victreebel
-MegaStone = VICTREEBELITE
-Abilities = INSECTIVOROUSPLANT
-#-------------------------------
 [MEWTWO,1]
 FormName = Mega Mewtwo X
 MegaStone = MEWTWONITEX

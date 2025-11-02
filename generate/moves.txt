@@ -4169,7 +4169,7 @@ Accuracy = 0
 TotalPP = 20
 Target = NearOther
 FunctionCode = None
-Flags = CanProtect,CanMirrorMove
+Flags = CanProtect,CanMirrorMove,Magic
 Description = The user scatters curious leaves that chase the target. This attack will not miss.
 #-------------------------------
 [NEEDLEARM]
@@ -8386,7 +8386,7 @@ Accuracy = 100
 TotalPP = 20
 Target = NearOther
 FunctionCode = SetTargetTypesToPsychic
-Flags = CanProtect,CanMirrorMove,Powder
+Flags = CanProtect,CanMirrorMove,Powder,Magic
 Description = The user scatters a cloud of magic powder that changes the target to Psychic type.
 #-------------------------------
 [MAGICROOM]
@@ -8397,7 +8397,7 @@ Accuracy = 0
 TotalPP = 10
 Target = BothSides
 FunctionCode = StartNegateHeldItems
-Flags = CanMirrorMove
+Flags = CanMirrorMove,Magic
 Description = The user creates a bizarre area in which Pokémon's held items lose their effects for five turns.
 #-------------------------------
 [MEDITATE]

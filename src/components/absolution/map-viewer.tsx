@@ -16,7 +16,7 @@ export const MapViewer: React.FC<MapViewerProps> = ({
 }) => {
   const [isFullscreen, setIsFullscreen] = useState(false);
   const [imageLoaded, setImageLoaded] = useState(false);
-  const imageSrc = `/maps/map_${tile.mapIngameID}.png`;
+  const imageSrc = `/Maps/map_${tile.mapIngameID}.png`;
 
   const handleImageLoad = () => {
     setImageLoaded(true);

@@ -96,7 +96,7 @@ const DIFFICULTY_LEVELS = ["easy", "normal", "hard", "absolution"] as const;
 
 // Function to get difficulties that should be updated in cascade
 const getDifficultiesToUpdate = (
-  currentDifficulty: DIFFICULTY_LEVELS_TYPE,
+  currentDifficulty: DIFFICULTY_LEVELS_TYPE
 ): DIFFICULTY_LEVELS_TYPE[] => {
   switch (currentDifficulty) {
     case "easy":
@@ -119,7 +119,7 @@ export const PokemonEditorModal: React.FC<PokemonEditorModalProps> = ({
   onSave,
 }) => {
   const [editedPokemon, setEditedPokemon] = useState<FakemonForTeam | null>(
-    null,
+    null
   );
   const [selectedDifficulty, setSelectedDifficulty] =
     useState<DIFFICULTY_LEVELS_TYPE>("easy");
@@ -316,7 +316,7 @@ export const PokemonEditorModal: React.FC<PokemonEditorModalProps> = ({
                   <span
                     key={type}
                     className={`px-2 py-1 rounded text-white text-xs ${getTypeColor(
-                      type,
+                      type
                     )}`}
                   >
                     {type}
@@ -357,7 +357,7 @@ export const PokemonEditorModal: React.FC<PokemonEditorModalProps> = ({
                     ...editedPokemon,
                     level: Math.max(
                       1,
-                      Math.min(100, parseInt(e.target.value) || 1),
+                      Math.min(100, parseInt(e.target.value) || 1)
                     ),
                   })
                 }
@@ -392,7 +392,7 @@ export const PokemonEditorModal: React.FC<PokemonEditorModalProps> = ({
                 <button
                   onClick={() =>
                     applyNaturePreset(
-                      editedPokemon.nature as keyof typeof NATURE_EFFECTS,
+                      editedPokemon.nature as keyof typeof NATURE_EFFECTS
                     )
                   }
                   className="px-3 py-2 bg-purple-500 text-white rounded-lg hover:bg-purple-600 text-sm"
@@ -450,6 +450,29 @@ export const PokemonEditorModal: React.FC<PokemonEditorModalProps> = ({
                 : selectedDifficulty}
             </h3>
 
+            {/* Moves */}
+            <div>
+              <label className="block text-sm font-medium mb-2">
+                Moves (4 slots)
+              </label>
+              <div className="grid grid-cols-1 md:grid-cols-2 gap-3">
+                {getCurrentMoves().map((moveId, index) => (
+                  <div key={index}>
+                    <label className="block text-xs font-medium text-gray-600 mb-1">
+                      Move {index + 1}
+                    </label>
+                    <MoveSelector
+                      value={moveId}
+                      onChange={(newMoveId: string) =>
+                        handleMoveChange(index, newMoveId)
+                      }
+                      availableMoves={availableMoves}
+                    />
+                  </div>
+                ))}
+              </div>
+            </div>
+
             {/* Item */}
             <div className="mb-4">
               <label className="block text-sm font-medium mb-1">Item</label>
@@ -489,29 +512,6 @@ export const PokemonEditorModal: React.FC<PokemonEditorModalProps> = ({
                   );
                 })}
               </select>
-            </div>
-
-            {/* Moves */}
-            <div>
-              <label className="block text-sm font-medium mb-2">
-                Moves (4 slots)
-              </label>
-              <div className="grid grid-cols-1 md:grid-cols-2 gap-3">
-                {getCurrentMoves().map((moveId, index) => (
-                  <div key={index}>
-                    <label className="block text-xs font-medium text-gray-600 mb-1">
-                      Move {index + 1}
-                    </label>
-                    <MoveSelector
-                      value={moveId}
-                      onChange={(newMoveId: string) =>
-                        handleMoveChange(index, newMoveId)
-                      }
-                      availableMoves={availableMoves}
-                    />
-                  </div>
-                ))}
-              </div>
             </div>
           </div>
 
