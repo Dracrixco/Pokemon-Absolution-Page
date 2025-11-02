@@ -1,10 +1,26 @@
 import { getAllItems } from "@/lib/items";
-import React, { useState } from "react";
+import React, { useState, useMemo } from "react";
 import { X, ChevronDown } from "lucide-react";
 import { cn } from "@/lib/utils";
 import type { Item } from "@/types/item";
 
 const items = getAllItems();
+
+// Categorías de items basadas en flags
+const ITEM_CATEGORIES = {
+  all: "All Items",
+  berry: "Berries",
+  medicine: "Medicine",
+  battleItem: "Battle Items",
+  holdable: "Holdable",
+  keyItem: "Key Items",
+  tm: "TMs",
+  mail: "Mail",
+  ball: "Poké Balls",
+} as const;
+
+type CategoryKey = keyof typeof ITEM_CATEGORIES;
+
 export const ItemSelector: React.FC<{
   value: string;
   onChange: (itemId: string) => void;
@@ -12,20 +28,82 @@ export const ItemSelector: React.FC<{
 }> = ({ value, onChange, className = "" }) => {
   const [isOpen, setIsOpen] = useState(false);
   const [searchTerm, setSearchTerm] = useState("");
+  const [selectedCategory, setSelectedCategory] = useState<CategoryKey>("all");
 
   const selectedItem = items.find((item) => item.id === value);
 
-  const filteredItems = items.filter(
-    (item) =>
-      (item.name.toLowerCase().includes(searchTerm.toLowerCase()) ||
-        item.id.toLowerCase().includes(searchTerm.toLowerCase())) &&
-      item.pocket == 1,
-  );
+  // Función para determinar la categoría de un item basándose en sus flags
+  const getItemCategory = (item: Item): CategoryKey[] => {
+    const categories: CategoryKey[] = [];
+    const flags = item.flags.toLowerCase();
+
+    if (flags.includes("berry")) categories.push("berry");
+    if (flags.includes("medicine") || flags.includes("heal"))
+      categories.push("medicine");
+    if (flags.includes("battleitem")) categories.push("battleItem");
+    if (
+      flags.includes("holdable") ||
+      flags.includes("typeenhancing") ||
+      flags.includes("typeprotection")
+    )
+      categories.push("holdable");
+    if (flags.includes("keyitem")) categories.push("keyItem");
+    if (flags.includes("tm") || flags.includes("hm")) categories.push("tm");
+    if (flags.includes("mail")) categories.push("mail");
+    if (flags.includes("ball")) categories.push("ball");
+
+    return categories;
+  };
+
+  const filteredItems = useMemo(() => {
+    return items.filter((item) => {
+      // Respeta el filtro de pocket y flags específicos
+      // if (item.pocket !== 1) return false;
+      if (item.flags.includes("Repel")) return false;
+      if (item.flags.includes("EvolutionStone")) return false;
+
+      // Filtro por búsqueda
+      const matchesSearch =
+        item.name.toLowerCase().includes(searchTerm.toLowerCase()) ||
+        item.description.toLowerCase().includes(searchTerm.toLowerCase()) ||
+        item.id.toLowerCase().includes(searchTerm.toLowerCase());
+
+      if (!matchesSearch) return false;
+
+      // Filtro por categoría
+      if (selectedCategory === "all") return true;
+
+      const itemCategories = getItemCategory(item);
+      return itemCategories.includes(selectedCategory);
+    });
+  }, [searchTerm, selectedCategory]);
 
   const handleSelect = (itemId: string) => {
     onChange(itemId);
     setIsOpen(false);
     setSearchTerm("");
+    setSelectedCategory("all");
+  };
+
+  // Contar items por categoría
+  const getCategoryCount = (category: CategoryKey): number => {
+    if (category === "all") {
+      return items.filter(
+        (item) =>
+          // item.pocket === 1 &&
+          !item.flags.includes("Repel") &&
+          !item.flags.includes("EvolutionStone")
+      ).length;
+    }
+
+    return items.filter((item) => {
+      // if (item.pocket !== 1) return false;
+      if (item.flags.includes("Repel")) return false;
+      if (item.flags.includes("EvolutionStone")) return false;
+
+      const itemCategories = getItemCategory(item);
+      return itemCategories.includes(category);
+    }).length;
   };
 
   return (
@@ -70,23 +148,58 @@ export const ItemSelector: React.FC<{
             "border border-gray-300",
             "rounded-lg shadow-lg overflow-hidden",
             "top-0 left-0 right-0 bottom-0",
-            "w-screen h-screen",
+            "w-screen h-screen"
           )}
         >
-          {/* Search input */}
-          <div className="p-2 border-b w-[98%]">
+          {/* Header con búsqueda y filtros */}
+          <div className="p-4 border-b space-y-3">
+            <div className="flex items-center justify-between">
+              <h3 className="text-lg font-semibold">Select Item</h3>
+              <button
+                type="button"
+                onClick={() => setIsOpen(false)}
+                className="p-1 hover:bg-gray-100 rounded"
+              >
+                <X size={20} />
+              </button>
+            </div>
+
             <input
               type="text"
               placeholder="Search item..."
               value={searchTerm}
               onChange={(e) => setSearchTerm(e.target.value)}
-              className="w-full px-2 py-1 border border-gray-300 rounded text-sm focus:ring-1 focus:ring-blue-500"
+              className="w-full px-3 py-2 border border-gray-300 rounded-lg text-sm focus:ring-2 focus:ring-blue-500"
               autoFocus
             />
+
+            {/* Filtros por categoría */}
+            <div className="flex flex-wrap gap-2">
+              {(Object.keys(ITEM_CATEGORIES) as CategoryKey[]).map(
+                (category) => {
+                  const count = getCategoryCount(category);
+                  return (
+                    <button
+                      key={category}
+                      type="button"
+                      onClick={() => setSelectedCategory(category)}
+                      className={cn(
+                        "px-3 py-1 rounded-full text-xs font-medium transition-colors",
+                        selectedCategory === category
+                          ? "bg-blue-500 text-white"
+                          : "bg-gray-100 text-gray-700 hover:bg-gray-200"
+                      )}
+                    >
+                      {ITEM_CATEGORIES[category]} ({count})
+                    </button>
+                  );
+                }
+              )}
+            </div>
           </div>
 
           {/* Items list */}
-          <div className="overflow-y-auto h-[85%] w-[98%]">
+          <div className="overflow-y-auto h-[calc(100%-200px)]">
             {/* Sin objeto option */}
             <button
               type="button"

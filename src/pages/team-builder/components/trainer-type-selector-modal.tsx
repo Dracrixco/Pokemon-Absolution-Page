@@ -1,6 +1,7 @@
 import React, { useState } from "react";
 import { X, User, Search } from "lucide-react";
 import { getAllTrainerTypes } from "@/lib/trainer-types";
+import { cn } from "@/lib/utils";
 
 interface TrainerTypeSelectorModalProps {
   isOpen: boolean;
@@ -36,7 +37,7 @@ export const TrainerTypeSelectorModal: React.FC<
 
   return (
     <div className="fixed inset-0 bg-black bg-opacity-50 flex items-center justify-center z-50 p-4">
-      <div className="bg-white rounded-lg max-w-4xl w-full max-h-[90vh] overflow-hidden">
+      <div className="bg-white rounded-lg w-screen h-[90%] overflow-hidden">
         {/* Header */}
         <div className="flex justify-between items-center p-4 border-b">
           <h2 className="text-xl font-bold flex items-center gap-2">
@@ -65,7 +66,10 @@ export const TrainerTypeSelectorModal: React.FC<
                 placeholder="Search trainers..."
                 value={searchTerm}
                 onChange={(e) => setSearchTerm(e.target.value)}
-                className="w-full pl-10 pr-3 py-2 border border-gray-300 rounded-lg focus:ring-2 focus:ring-blue-500 focus:border-blue-500"
+                className={cn(
+                  "w-full pl-10 pr-3 py-2 border border-gray-300 rounded-lg",
+                  "focus:ring-2 focus:ring-blue-500 focus:border-blue-500"
+                )}
               />
             </div>
 
@@ -74,7 +78,10 @@ export const TrainerTypeSelectorModal: React.FC<
               <select
                 value={selectedGender}
                 onChange={(e) => setSelectedGender(e.target.value)}
-                className="px-3 py-2 border border-gray-300 rounded-lg focus:ring-2 focus:ring-blue-500 focus:border-blue-500"
+                className={cn(
+                  "px-3 py-2 border border-gray-300 rounded-lg focus:ring-2",
+                  "focus:ring-blue-500 focus:border-blue-500"
+                )}
               >
                 <option value="all">All Genders</option>
                 <option value="male">Male</option>
@@ -89,8 +96,8 @@ export const TrainerTypeSelectorModal: React.FC<
         </div>
 
         {/* Trainer Grid */}
-        <div className="overflow-y-auto max-h-96">
-          <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-3 gap-3 p-4">
+        <div className="overflow-y-auto h-full">
+          <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-3 p-4 h-[90%]">
             {filteredTrainers.map((trainer) => (
               <div
                 key={trainer.id}

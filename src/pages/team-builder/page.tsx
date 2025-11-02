@@ -80,13 +80,13 @@ export const TeamBuilder = () => {
   const exportTeam = (exportAsFile = false) => {
     let exportText = "";
 
+    exportText += `#-------------------------------\n`;
     exportText += `[${trainer.trainerID},${trainer.name}]\n`;
     exportText += `LoseText = ${trainer.loseText}\n`;
     exportText += `StartText = ${trainer.startText}\n`;
 
     team.forEach((pokemon) => {
-      exportText += `#-------------------------------\n`;
-      exportText += `Pokemon = ${pokemon.id},5\n`;
+      exportText += `Pokemon = ${pokemon.id},${pokemon.level}\n`;
       // Add form if not base form
       if (pokemon.formNumber && pokemon.formNumber > 0) {
         exportText += `    Form = ${pokemon.formNumber}\n`;
@@ -144,6 +144,9 @@ export const TeamBuilder = () => {
       console.clear();
       console.log(exportText);
     }
+
+    // Set to clipboard
+    navigator.clipboard.writeText(exportText);
   };
 
   return (

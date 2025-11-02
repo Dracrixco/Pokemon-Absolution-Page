@@ -3,6 +3,7 @@ import { Search, X, Filter, Tag } from "lucide-react";
 import { getAllFakemons } from "@/lib/fakemons";
 import { getTypeColor } from "@/lib/type-colors";
 import type { Fakemon } from "@/types/fakemon";
+import { cn } from "@/lib/utils";
 import { pokemonTypes } from "@/data/types";
 
 interface PokemonSelectorModalProps {
@@ -52,7 +53,7 @@ export const PokemonSelectorModal: React.FC<PokemonSelectorModalProps> = ({
 
   const handleTypeToggle = (type: string) => {
     setSelectedTypes((prev) =>
-      prev.includes(type) ? prev.filter((t) => t !== type) : [...prev, type],
+      prev.includes(type) ? prev.filter((t) => t !== type) : [...prev, type]
     );
   };
 
@@ -94,7 +95,7 @@ export const PokemonSelectorModal: React.FC<PokemonSelectorModalProps> = ({
 
   return (
     <div className="fixed inset-0 bg-black bg-opacity-50 flex items-center justify-center z-50">
-      <div className="bg-white rounded-lg p-6 w-full max-w-5xl max-h-[85vh] overflow-hidden flex flex-col">
+      <div className="bg-white rounded-lg p-6 w-screen h-[100%] overflow-hidden flex flex-col">
         <div className="flex justify-between items-center mb-4">
           <h2 className="text-2xl font-bold">Select Pokémon</h2>
           <button
@@ -141,7 +142,7 @@ export const PokemonSelectorModal: React.FC<PokemonSelectorModalProps> = ({
 
               {availableSuffixes.map((suffix) => {
                 const count = fakemons.filter(
-                  (f) => f.suffix === suffix,
+                  (f) => f.suffix === suffix
                 ).length;
                 return (
                   <button
@@ -150,10 +151,10 @@ export const PokemonSelectorModal: React.FC<PokemonSelectorModalProps> = ({
                     className={`px-3 py-2 rounded-lg text-sm font-medium transition-colors ${
                       selectedSuffix === suffix
                         ? `${getSuffixColor(
-                            suffix,
+                            suffix
                           )} text-white ring-2 ring-white shadow-md`
                         : `${getSuffixColor(
-                            suffix,
+                            suffix
                           )} text-white opacity-60 hover:opacity-100`
                     }`}
                   >
@@ -217,10 +218,10 @@ export const PokemonSelectorModal: React.FC<PokemonSelectorModalProps> = ({
                     className={`px-3 py-2 rounded-lg text-xs font-semibold transition-all ${
                       selectedTypes.includes(type)
                         ? `${getTypeColor(
-                            type,
+                            type
                           )} text-white ring-2 ring-white shadow-md`
                         : `${getTypeColor(
-                            type,
+                            type
                           )} text-white opacity-60 hover:opacity-100`
                     }`}
                   >
@@ -237,7 +238,7 @@ export const PokemonSelectorModal: React.FC<PokemonSelectorModalProps> = ({
                       <span
                         key={type}
                         className={`px-2 py-1 rounded text-white text-xs ${getTypeColor(
-                          type,
+                          type
                         )}`}
                       >
                         {type}
@@ -272,7 +273,12 @@ export const PokemonSelectorModal: React.FC<PokemonSelectorModalProps> = ({
             )}
           </div>
 
-          <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 xl:grid-cols-5 gap-4">
+          <div
+            className={cn(
+              "grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3",
+              "lg:grid-cols-4 xl:grid-cols-5 gap-4"
+            )}
+          >
             {filteredPokemon.map((pokemon) => (
               <div
                 key={pokemon.id}
@@ -301,7 +307,7 @@ export const PokemonSelectorModal: React.FC<PokemonSelectorModalProps> = ({
                   <div className="flex justify-center mb-2">
                     <span
                       className={`px-2 py-1 rounded text-white text-xs ${getSuffixColor(
-                        pokemon.suffix,
+                        pokemon.suffix
                       )}`}
                     >
                       {formatSuffixName(pokemon.suffix)}
@@ -313,7 +319,7 @@ export const PokemonSelectorModal: React.FC<PokemonSelectorModalProps> = ({
                       <span
                         key={type}
                         className={`px-2 py-1 rounded text-white text-xs ${getTypeColor(
-                          type,
+                          type
                         )}`}
                       >
                         {type}
@@ -336,11 +342,11 @@ export const PokemonSelectorModal: React.FC<PokemonSelectorModalProps> = ({
                 selectedTypes.length > 0 &&
                 selectedSuffix !== "all"
                   ? `No Pokémon match "${searchTerm}", have the selected types and are from the ${formatSuffixName(
-                      selectedSuffix,
+                      selectedSuffix
                     )} version`
                   : searchTerm && selectedSuffix !== "all"
                     ? `No Pokémon match "${searchTerm}" in the ${formatSuffixName(
-                        selectedSuffix,
+                        selectedSuffix
                       )} version`
                     : searchTerm && selectedTypes.length > 0
                       ? `No Pokémon match "${searchTerm}" and have the selected types`
@@ -348,13 +354,13 @@ export const PokemonSelectorModal: React.FC<PokemonSelectorModalProps> = ({
                         ? `No Pokémon match "${searchTerm}"`
                         : selectedTypes.length > 0 && selectedSuffix !== "all"
                           ? `No Pokémon with the selected types in the ${formatSuffixName(
-                              selectedSuffix,
+                              selectedSuffix
                             )} version`
                           : selectedTypes.length > 0
                             ? "No Pokémon with the selected types"
                             : selectedSuffix !== "all"
                               ? `No Pokémon in the ${formatSuffixName(
-                                  selectedSuffix,
+                                  selectedSuffix
                                 )} version`
                               : "Try different filters"}
               </p>

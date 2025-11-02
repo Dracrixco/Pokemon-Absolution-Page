@@ -305,7 +305,11 @@ export const PokemonEditorModal: React.FC<PokemonEditorModalProps> = ({
   };
 
   const statNames = ["HP", "Attack", "Defense", "Sp. Atk", "Sp. Def", "Speed"];
-  const availableMoves = pokemonData.moves || [];
+  const availableMoves = [
+    ...(pokemonData.moves || []),
+    ...(pokemonData.eggMoves || []),
+    ...(pokemonData.tutorMoves || []),
+  ];
 
   return (
     <div className="fixed inset-0 bg-black bg-opacity-50 flex items-center justify-center z-50 p-4">
