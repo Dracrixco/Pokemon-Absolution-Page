@@ -5,12 +5,13 @@ export interface TileData {
   y: number;
   mapWidth: number;
   mapHeight: number;
+  outdoor: boolean;
+  showArea: boolean;
+  bicycle: boolean;
   mapName: string;
   color?: string;
-  encounters: {
-    type: string;
-    pokes: string[];
-  }[];
+
+  flags: string[];
 }
 import { tilesData } from "@/data/maps";
 

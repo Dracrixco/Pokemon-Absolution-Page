@@ -45,15 +45,6 @@ export const PixelMap: React.FC<PixelMapProps> = ({
   };
 
   const totalMaps = Object.keys(tilesData).length;
-  const totalEncounters = Object.values(tilesData).reduce(
-    (sum, tile) =>
-      sum +
-      tile.encounters.reduce(
-        (encounterSum, encounter) => encounterSum + encounter.pokes.length,
-        0,
-      ),
-    0,
-  );
 
   return (
     <div className="bg-white/10 backdrop-blur-sm rounded-xl border border-white/20 overflow-hidden">
@@ -69,11 +60,6 @@ export const PixelMap: React.FC<PixelMapProps> = ({
           <div className="flex items-center gap-4 text-sm">
             <div className="bg-white/10 px-3 py-1 rounded-full">
               <span className="text-white/70">🗺️ {totalMaps} locations</span>
-            </div>
-            <div className="bg-white/10 px-3 py-1 rounded-full">
-              <span className="text-white/70">
-                🔮 {totalEncounters} encounters
-              </span>
             </div>
           </div>
         </div>

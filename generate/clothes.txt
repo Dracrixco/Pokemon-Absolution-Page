@@ -1,0 +1,322 @@
+[trainerMale_hair]
+ClotheName = Trainer Hair (♂)
+ClothePart = head
+ItemCondition = TRAINER_OUTFIT_MALE
+#------------------------------
+[trainerMale_top]
+ClotheName = Trainer Top (♂)
+ClothePart = top
+ItemCondition = TRAINER_OUTFIT_MALE
+#------------------------------
+[trainerMale_bottom]
+ClotheName = Trainer Pants (♂)
+ClothePart = bottom
+ItemCondition = TRAINER_OUTFIT_MALE
+#------------------------------
+[trainerFemale_hair]
+ClotheName = Trainer Hair (♀)
+ClothePart = head
+ItemCondition = TRAINER_OUTFIT_FEMALE
+#------------------------------
+[trainerFemale_top]
+ClotheName = Trainer Top (♀)
+ClothePart = top
+ItemCondition = TRAINER_OUTFIT_FEMALE
+#------------------------------
+[trainerFemale_bottom]
+ClotheName = Trainer Pants (♀)
+ClothePart = bottom
+ItemCondition = TRAINER_OUTFIT_FEMALE
+#------------------------------
+[GenericFace_pupils]
+ClotheName = Normal Contacts
+ClothePart = pupils
+#------------------------------
+[GenericFace_Lipstick]
+ClotheName = Lipstick
+ClothePart = face
+VersionLength = 1
+#------------------------------
+[Calendula_hair]
+ClotheName = Calendula Hair
+ClothePart = head
+ItemCondition = CALENDULA_OUTFIT
+#------------------------------
+[Calendula_top]
+ClotheName = Calendula Jacket
+ClothePart = top
+VersionLength = 1
+ItemCondition = CALENDULA_OUTFIT
+#------------------------------
+[Calendula_bottom]
+ClotheName = Calendula Pants
+ClothePart = bottom
+ItemCondition = CALENDULA_OUTFIT
+#------------------------------
+[Agatha_hair]
+ClotheName = Agatha Hair
+ClothePart = head
+ItemCondition = AGATHA_OUTFIT
+#------------------------------
+[Agatha_top]
+ClotheName = Agatha Jacket
+ClothePart = top
+ItemCondition = AGATHA_OUTFIT
+#------------------------------
+[Agatha_bottom]
+ClotheName = Agatha Pants
+ClothePart = bottom
+ItemCondition = AGATHA_OUTFIT
+#------------------------------
+[Agatha_pupils]
+ClotheName = Agatha Pupils
+ClothePart = pupils
+ItemCondition = AGATHA_OUTFIT
+#------------------------------
+[Live_head]
+ClotheName = Live Hair
+ClothePart = head
+ItemCondition = LIVE_OUTFIT
+#------------------------------
+[Live_top]
+ClotheName = Live Jacket
+ClothePart = top
+ItemCondition = LIVE_OUTFIT
+#------------------------------
+[Live_bottom]
+ClotheName = Live Pants
+ClothePart = bottom
+ItemCondition = LIVE_OUTFIT
+#------------------------------
+[Live_face]
+ClotheName = Live Pupils
+ClothePart = pupils
+ItemCondition = LIVE_OUTFIT
+#------------------------------
+[Pajama_hat]
+ClotheName = Pajama (Hat)
+ClothePart = head
+ItemCondition = PAJAMA_OUTFIT_MALE
+#------------------------------
+[Pajama_top]
+ClotheName = Pajama (Top)
+ClothePart = top
+ItemCondition = PAJAMA_OUTFIT_MALE
+#------------------------------
+[Pajama_bottom]
+ClotheName = Pajama (Pants)
+ClothePart = bottom
+ItemCondition = PAJAMA_OUTFIT_MALE
+#------------------------------
+[Pajama2_hat]
+ClotheName = Pajama (Hat)
+ClothePart = head
+ItemCondition = PAJAMA_OUTFIT_FEMALE
+#------------------------------
+[Pajama2_top]
+ClotheName = Pajama (Top)
+ClothePart = top
+ItemCondition = PAJAMA_OUTFIT_FEMALE
+#------------------------------
+[Pajama2_bottom]
+ClotheName = Pajama (Pants)
+ClothePart = bottom
+ItemCondition = PAJAMA_OUTFIT_FEMALE
+#------------------------------
+[BugCatcher_hat]
+ClotheName = Bug Catcher Hat
+ClothePart = head
+VersionLength = 3
+ItemCondition = BUG_CATCHER_OUTFIT
+#------------------------------
+[BugCatcher_top]
+ClotheName = Bug Catcher (Top)
+ClothePart = top
+ItemCondition = BUG_CATCHER_OUTFIT
+#------------------------------
+[BugCatcher_bottom]
+ClotheName = Shorts
+ClothePart = bottom
+ItemCondition = BUG_CATCHER_OUTFIT
+#------------------------------
+[Fisherman_hat]
+ClotheName = Fisherman Hat
+ClothePart = head
+VersionLength = 3
+ItemCondition = FISHERMAN_OUTFIT
+#------------------------------
+[Fisherman_top]
+ClotheName = Fisherman Vest
+ClothePart = top
+ItemCondition = FISHERMAN_OUTFIT
+#------------------------------
+[Fisherman_bottom]
+ClotheName = Fisherman Pants
+ClothePart = bottom
+ItemCondition = FISHERMAN_OUTFIT
+#------------------------------
+[Vegeta_hair]
+ClotheName = Vegeta Hair
+ClothePart = head
+VersionLength = 6
+ItemCondition = VEGETA_OUTFIT
+#------------------------------
+[Vegeta_top]
+ClotheName = Vegeta Top
+ClothePart = top
+VersionLength = 1
+ItemCondition = VEGETA_OUTFIT
+#------------------------------
+[Vegeta_bottom]
+ClotheName = Pants
+ClothePart = bottom
+VersionLength = 1
+ItemCondition = VEGETA_OUTFIT
+#------------------------------
+[Link_hair]
+ClotheName = Link Hair
+ClothePart = head
+ItemCondition = LINK_OUTFIT
+#------------------------------
+[Link_top]
+ClotheName = Link Top
+ClothePart = top
+ItemCondition = LINK_OUTFIT
+#------------------------------
+[Link_bottom]
+ClotheName = Link Pants
+ClothePart = bottom
+ItemCondition = LINK_OUTFIT
+#------------------------------
+[Zelda_hair]
+ClotheName = Zelda Hair
+ClothePart = head
+ItemCondition = ZELDA_OUTFIT
+#------------------------------
+[Zelda_top]
+ClotheName = Zelda Top
+ClothePart = top
+ItemCondition = ZELDA_OUTFIT
+#------------------------------
+[Zelda_bottom]
+ClotheName = Zelda Pants
+ClothePart = bottom
+ItemCondition = ZELDA_OUTFIT
+#------------------------------
+[Goku_hair]
+ClotheName = Goku Hair
+ClothePart = head
+VersionLength = 6
+ItemCondition = GOKU_OUTFIT
+#------------------------------
+[Goku_top]
+ClotheName = Goku Top
+ClothePart = top
+ItemCondition = GOKU_OUTFIT
+#------------------------------
+[Goku_bottom]
+ClotheName = Goku Pants
+ClothePart = bottom
+VersionLength = 2
+ItemCondition = GOKU_OUTFIT
+#------------------------------
+[Rem_hair]
+ClotheName = Rem Hair
+ClothePart = head
+ItemCondition = RAM_REM_OUTFIT
+#------------------------------
+[Ram_hair]
+ClotheName = Ram Hair
+ClothePart = head
+ItemCondition = RAM_REM_OUTFIT
+#------------------------------
+[RemRam_dress]
+ClotheName = Maid Dress (Re:Zero)
+ClothePart = top
+ItemCondition = RAM_REM_OUTFIT
+#------------------------------
+[RemRam_garterBelt]
+ClotheName = Maid Garter Belt (Re:Zero)
+ClothePart = bottom
+ItemCondition = RAM_REM_OUTFIT
+#------------------------------
+[MegurineLuka_hair]
+ClotheName = Megurine Luka Hair
+ClothePart = head
+ItemCondition = MEGURINE_LUKA_OUTFIT
+#------------------------------
+[MegurineLuka_top]
+ClotheName = Megurine Luka Top
+ClothePart = top
+ItemCondition = MEGURINE_LUKA_OUTFIT
+#------------------------------
+[MegurineLuka_bottom]
+ClotheName = Megurine Luka Pants
+ClothePart = bottom
+ItemCondition = MEGURINE_LUKA_OUTFIT
+#------------------------------
+[MegurineLuka_eyes]
+ClotheName = Megurine Luka Pupils
+ClothePart = pupils
+ItemCondition = MEGURINE_LUKA_OUTFIT
+#------------------------------
+[Megaman_head]
+ClotheName = Megaman Head
+ClothePart = head
+ItemCondition = MEGAMAN_OUTFIT
+#------------------------------
+[Megaman_top]
+ClotheName = Megaman Top
+ClothePart = top
+ItemCondition = MEGAMAN_OUTFIT
+#------------------------------
+[Megaman_bottom]
+ClotheName = Megaman Pants
+ClothePart = bottom
+ItemCondition = MEGAMAN_OUTFIT
+#------------------------------
+[Megaman_pupils]
+ClotheName = Megaman Pupils
+ClothePart = pupils
+ItemCondition = MEGAMAN_OUTFIT
+#------------------------------
+[Shantae_hair]
+ClotheName = Shantae Hair
+ClothePart = head
+ItemCondition = SHANTAE_OUTFIT
+#------------------------------
+[Shantae_top]
+ClotheName = Shantae Top
+ClothePart = top
+ItemCondition = SHANTAE_OUTFIT
+#------------------------------
+[Shantae_bottom]
+ClotheName = Shantae Pants
+ClothePart = bottom
+ItemCondition = SHANTAE_OUTFIT
+#------------------------------
+[Shantae_pupils]
+ClotheName = Shantae Pupils
+ClothePart = pupils
+ItemCondition = SHANTAE_OUTFIT
+#------------------------------
+[Saber_hair]
+ClotheName = Saber Hair
+ClothePart = head
+ItemCondition = SABER_OUTFIT
+#------------------------------
+[Saber_top]
+ClotheName = Saber Top
+ClothePart = top
+ItemCondition = SABER_OUTFIT
+#------------------------------
+[Saber_bottom]
+ClotheName = Saber Pants
+ClothePart = bottom
+ItemCondition = SABER_OUTFIT
+#------------------------------
+[Saber_pupils]
+ClotheName = Saber Pupils
+ClothePart = pupils
+ItemCondition = SABER_OUTFIT
+#------------------------------

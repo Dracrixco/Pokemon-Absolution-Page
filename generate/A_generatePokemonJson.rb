@@ -1,24 +1,34 @@
-
 require "json"
 
 # ==========================
 # 🧱 PARSEADORES
 # ==========================
 
-NOT_ABLE_TO_SHOW_FAKEMONS = [
-  "BEHDAREX", 
-  "ZIZZENIT",
-  "LEVIATITAN",
-  "FATALTTY",
-  "KINGDER",
-  "TWIXIE","TWINCESS",
-  "BUSHIERA","WEREWOODS",
-  "DOLORN","MALICEAR","ABANDOLED",
-  "FLOVERN","WYWERDEN",
-  "MABBIT","BUNLUCK","FORTUNELLE",
-  "OTTRICK","LUTRION","MAJOTTER",
-  "DOLOVE","SERENOVE",
-  "ANTICORE","DRANTICORE",
+NOT_ABLE_TO_SHOW_FAKEMONS = %w[
+  BEHDAREX
+  ZIZZENIT
+  LEVIATITAN
+  FATALTTY
+  KINGDER
+  TWIXIE
+  TWINCESS
+  BUSHIERA
+  WEREWOODS
+  DOLORN
+  MALICEAR
+  ABANDOLED
+  FLOVERN
+  WYWERDEN
+  MABBIT
+  BUNLUCK
+  FORTUNELLE
+  OTTRICK
+  LUTRION
+  MAJOTTER
+  DOLOVE
+  SERENOVE
+  ANTICORE
+  DRANTICORE
 ]
 def parse_fakemons(lines, suffix)
   fakemons = []
@@ -53,7 +63,7 @@ def parse_fakemons(lines, suffix)
         moves: [],
         tutorMoves: [],
         eggMoves: [],
-        suffix: suffix,   
+        suffix: suffix,
         evolution: [],
         color: ""
       }
@@ -99,11 +109,9 @@ def parse_fakemons(lines, suffix)
       when "Evolution"
         evo_parts = value.split(",").map(&:strip)
         if evo_parts.size == 3
-          current[:evolution] = [{
-            to: evo_parts[0],
-            method: evo_parts[1],
-            value: evo_parts[2]
-          }]
+          current[:evolution] = [
+            { to: evo_parts[0], method: evo_parts[1], value: evo_parts[2] }
+          ]
         end
       when "Color"
         current[:color] = value
@@ -113,27 +121,29 @@ def parse_fakemons(lines, suffix)
 
   # Validation to skip certain fakemons
   fakemons << current if current
-  fakemons.reject! { |fakemon| NOT_ABLE_TO_SHOW_FAKEMONS.include?(fakemon[:id]) }
+  fakemons.reject! do |fakemon|
+    NOT_ABLE_TO_SHOW_FAKEMONS.include?(fakemon[:id])
+  end
   fakemons
 end
 
 def parse_forms(lines, suffix, base_pokemons)
   forms = []
   current = nil
-  
+
   lines.each do |line|
     line.strip!
     next if line.empty? || line.start_with?("#")
-    
+
     if line.match(/^\[(.+),(\d+)\]$/)
       forms << current if current
-      
+
       base_id = $1
       form_number = $2.to_i
-      
+
       # Find base pokemon
       base_pokemon = base_pokemons.find { |p| p[:id] == base_id }
-      
+
       # Initialize with base pokemon data or defaults
       if base_pokemon
         current = base_pokemon.dup
@@ -142,9 +152,15 @@ def parse_forms(lines, suffix, base_pokemons)
         current[:abilities] = base_pokemon[:abilities].dup
         current[:hiddenAbilities] = base_pokemon[:hiddenAbilities].dup
         current[:moves] = base_pokemon[:moves].dup if base_pokemon[:moves]
-        current[:tutorMoves] = base_pokemon[:tutorMoves].dup if base_pokemon[:tutorMoves]
-        current[:eggMoves] = base_pokemon[:eggMoves].dup if base_pokemon[:eggMoves]
-        current[:evolution] = base_pokemon[:evolution].dup if base_pokemon[:evolution]
+        current[:tutorMoves] = base_pokemon[:tutorMoves].dup if base_pokemon[
+          :tutorMoves
+        ]
+        current[:eggMoves] = base_pokemon[:eggMoves].dup if base_pokemon[
+          :eggMoves
+        ]
+        current[:evolution] = base_pokemon[:evolution].dup if base_pokemon[
+          :evolution
+        ]
         current[:sprite] = "/Front/#{base_id.upcase}_#{form_number}.png"
         current[:backSprite] = "/Back/#{base_id.upcase}_#{form_number}.png"
       else
@@ -175,17 +191,16 @@ def parse_forms(lines, suffix, base_pokemons)
           color: ""
         }
       end
-      
+
       # Set form-specific fields
       current[:formNumber] = form_number
       current[:formName] = ""
       current[:baseId] = base_id
       current[:suffix] = suffix
       current[:megaStone] = nil
-      
     elsif current
       key, value = line.split("=", 2).map(&:strip)
-      
+
       case key
       when "FormName"
         current[:formName] = value
@@ -231,16 +246,14 @@ def parse_forms(lines, suffix, base_pokemons)
       when "Evolution"
         evo_parts = value.split(",").map(&:strip)
         if evo_parts.size == 3
-          current[:evolution] = [{
-            to: evo_parts[0],
-            method: evo_parts[1],
-            value: evo_parts[2]
-          }]
+          current[:evolution] = [
+            { to: evo_parts[0], method: evo_parts[1], value: evo_parts[2] }
+          ]
         end
       end
     end
   end
-  
+
   forms << current if current
   forms
 end
@@ -265,8 +278,7 @@ def parse_moves(lines, suffix)
         totalPP: 0,
         target: "",
         description: "",
-        suffix: suffix,
-     
+        suffix: suffix
         # passiveEffect: nil
       }
     elsif current
@@ -409,6 +421,114 @@ def parse_trainer_types(lines, suffix)
   trainer_types
 end
 
+def parse_map_metadata(lines)
+  maps = {}
+  current = nil
+  current_id = nil
+  
+  lines.each do |line|
+    line.strip!
+    next if line.empty? || line.start_with?("#")
+    
+    # Match map ID like [001] (permite contenido después del ])
+    if line.match(/^\[(\d+)\]/)
+      # Save previous map if valid
+      if current && 
+         current[:flags].include?("ForWebPage") && 
+         current[:x] && 
+         current[:y]
+        key = "#{current[:x]}-#{current[:y]}"
+        maps[key] = current
+      end
+      
+      current_id = $1
+      current = {
+        id: current_id,
+        mapIngameID: current_id.to_i,
+        mapName: "",
+        x: nil,
+        y: nil,
+        mapWidth: 1,
+        mapHeight: 1,
+        color: "purple",
+        outdoor: false,
+        showArea: false,
+        bicycle: false,
+        # environment: nil,
+        # battleBack: nil,
+        # healingSpot: nil,
+        # snapEdges: false,
+        flags: [],
+        # encounters: []
+      }
+    elsif current
+      parts = line.split("=", 2)
+      next unless parts.size == 2
+      
+      key = parts[0].strip
+      value = parts[1].strip
+      
+      case key
+      when "Name"
+        current[:mapName] = value
+        if value.include?("City")
+          current[:color] = "blue"
+        elsif value.include?("Route")
+          current[:color] = "green"
+        elsif value.include?("Cave")
+          current[:color] = "gray"
+        elsif value.include?("Forest")
+          current[:color] = "emerald"
+        elsif value.include?("Beach")
+          current[:color] = "yellow"
+        end
+      when "MapPosition"
+        pos_parts = value.split(",").map(&:to_i)
+        if pos_parts.size >= 3
+          current[:x] = pos_parts[1]
+          current[:y] = pos_parts[2]-1
+        end
+      when "MapSize"
+        size_parts = value.split(",")
+        if size_parts.size == 2
+          current[:mapWidth] = size_parts[0].to_i
+          height_string = size_parts[1]
+          current[:mapHeight] = height_string.length / current[:mapWidth]
+        end
+      when "Outdoor"
+        current[:outdoor] = value.downcase == "true"
+      when "ShowArea"
+        current[:showArea] = value.downcase == "true"
+      when "Bicycle"
+        current[:bicycle] = value.downcase == "true"
+      # when "Weather"
+      #   current[:weather] = value
+      # when "Environment"
+      #   current[:environment] = value
+      # when "BattleBack"
+      #   current[:battleBack] = value
+      # when "HealingSpot"
+      #   current[:healingSpot] = value
+      # when "SnapEdges"
+      #   current[:snapEdges] = value.downcase == "true"
+      when "Flags"
+        current[:flags] = value.split(",").map(&:strip)
+      end
+    end
+  end
+  
+  # Save last map
+  # if current && 
+  #    current[:flags].include?("ForWebPage") && 
+  #    current[:x] && 
+  #    current[:y]
+  #   key = "#{current[:x]}_#{current[:y]}"
+  #   maps[key] = current
+  # end
+  
+  maps
+end
+
 # ==========================
 # 📝 GENERADOR DE TS
 # ==========================
@@ -446,7 +566,7 @@ def delete_file(file_path)
     puts "🗑️  Archivo eliminado: #{file_path}"
     true
   else
-    puts "⚠️  Archivo no encontrado: #{file_path}"
+    # puts "⚠️  Archivo no encontrado: #{file_path}"
     false
   end
 end
@@ -500,19 +620,20 @@ items_configs = [
     output: File.join(__dir__, "../src/data/items.ts"),
     inputs: [
       File.join(__dir__, "./items.txt"),
+      File.join(__dir__, "./items_absolutionRecipes.txt"),
+      File.join(__dir__, "./items_dynamax.txt"),
+      File.join(__dir__, "./items_stones.txt")
     ],
     suffix: "normal"
   },
   {
     output: File.join(__dir__, "../src/data/items_absolution.ts"),
-    inputs: [
-     File.join(__dir__, "./items_absolution.txt")
-    ],
+    inputs: [File.join(__dir__, "./items_absolution.txt")],
     suffix: "absolution"
   }
 ]
 items_configs.each do |config|
-  items = parse_items(read_combined_lines(config[:inputs]),config[:suffix])
+  items = parse_items(read_combined_lines(config[:inputs]), config[:suffix])
   write_ts(config[:output], "Item", "items", items)
   puts "✅ Items generados en #{config[:output]}"
 end
@@ -531,10 +652,12 @@ abilities_configs = [
   }
 ]
 abilities_configs.each do |config|
-  abilities = parse_abilities(read_combined_lines(config[:inputs]),config[:suffix])
+  abilities =
+    parse_abilities(read_combined_lines(config[:inputs]), config[:suffix])
   write_ts(config[:output], "Ability", "abilities", abilities)
   puts "✅ Habilidades generadas en #{config[:output]}"
 end
+
 # ========================================================== #
 # Procesar Trainer Types
 # ========================================================== #
@@ -549,7 +672,8 @@ trainer_types_configs = [
   }
 ]
 trainer_types_configs.each do |config|
-  trainer_types = parse_trainer_types(read_combined_lines(config[:inputs]), config[:suffix])
+  trainer_types =
+    parse_trainer_types(read_combined_lines(config[:inputs]), config[:suffix])
   write_ts(config[:output], "TrainerType", "trainerTypes", trainer_types)
   puts "✅ Trainer Types generados en #{config[:output]}"
 end
@@ -560,7 +684,8 @@ end
 # First, we need to load all base pokemons to merge with forms
 all_base_pokemons = []
 fakemon_configs.each do |config|
-  all_base_pokemons += parse_fakemons(read_combined_lines(config[:inputs]), config[:suffix])
+  all_base_pokemons +=
+    parse_fakemons(read_combined_lines(config[:inputs]), config[:suffix])
 end
 
 forms_configs = [
@@ -575,82 +700,95 @@ forms_configs = [
   },
   {
     output: File.join(__dir__, "../src/data/pokemon_forms_absolution.ts"),
-    inputs: [
-      File.join(__dir__, "./pokemon_forms_absolution.txt")
-    ],
+    inputs: [File.join(__dir__, "./pokemon_forms_absolution.txt")],
     suffix: "absolution"
   }
 ]
 
 forms_configs.each do |config|
-  forms = parse_forms(read_combined_lines(config[:inputs]), config[:suffix], all_base_pokemons)
+  forms =
+    parse_forms(
+      read_combined_lines(config[:inputs]),
+      config[:suffix],
+      all_base_pokemons
+    )
   write_ts(config[:output], "PokemonForm", "pokemonForms", forms)
   puts "✅ Pokemon Forms generados en #{config[:output]}"
 end
 
 # ========================================================== #
+# Procesar Map Metadata
+# ========================================================== #
+map_lines = read_combined_lines([File.join(__dir__, "./map_metadata.txt")])
+maps_data = parse_map_metadata(map_lines)
+
+# Write as Record<string, TileData>
+output_path = File.join(__dir__, "../src/data/maps.ts")
+File.write(output_path, "import type { TileData } from \"@/lib/map\";\n\n")
+File.open(output_path, "a") do |file|
+  file.puts "export const tilesData: Record<string, TileData> = "
+  file.puts JSON.pretty_generate(maps_data).gsub(/"(\w+)":/, '\1:')
+end
+puts "✅ Map Metadata generado en #{output_path}"
+# ========================================================== #
 # Eliminar archivos no necesarios
 # ========================================================== #
 # Archivos que NO se usan en la generación de PBS/TypeScript
-unused_files = [
-  "./battle_facility_lists.txt",
-  "./battle_tower_pokemon.txt",
-  "./battle_tower_trainers.txt",
-  "./berry_plants.txt",
-  "./book_reading.txt",
-  "./cable_club_create.rb",
-  "./clotheSets.txt",
-  "./contacts.txt",
-  "./crafting.txt",
-  "./cup_fancy_pkmn_single.txt",
-  "./cup_fancy_pkmn.txt",
-  "./cup_fancy_trainers_single.txt",
-  "./cup_fancy_trainers.txt",
-  "./cup_little_pkmn.txt",
-  "./cup_little_trainers.txt",
-  "./cup_pika_pkmn.txt",
-  "./cup_pika_trainers.txt",
-  "./cup_poke_pkmn.txt",
-  "./cup_poke_trainers.txt",
-  "./dungeon_parameters.txt",
-  "./dungeon_tilesets.txt",
-  "./dungeonSet.txt",
-  "./encounters.txt",
-  "./items_absolutionRecipes.txt",
-  "./items_dynamax.txt",
-  "./items_stones.txt",
-  "./items_tm.txt",
-  "./map_connections.txt",
-  "./map_metadata.txt",
-  "./metadata.txt",
-  "./misions_absolution.txt",
-  "./mounts.txt",
-  "./moves_dynamax.txt",
-  "./moves_monarch.txt",
-  "./phone.txt",
-  "./pokemon_metrics_female.txt",
-  "./pokemon_metrics_forms.txt",
-  "./pokemon_metrics_Gen_9_Pack.txt",
-  "./pokemon_metrics_gmax.txt",
-  "./pokemon_metrics.txt",
-  "./pokemon_monarch.txt",
-  "./pokePet.txt",
-  "./regional_dexes.txt",
-  "./ribbons.txt",
-  "./showHelp.txt",
-  "./town_map.txt",
-  "./trainers_1.txt",
-  "./trainers_2.txt",
-  "./trainers_3.txt",
-  "./trainers_dontTouch.txt",
-  "./trainers_drunk.txt",
-  "./trainers_extra.txt",
-  "./trainers_noForBattle.txt",
-  "./trainers_simulatedUniverse.txt",
-  "./trainers_twilightForest.txt",
-  "./types.txt",
-  "package.json",
-  "server.log"
+unused_files = %w[
+  ./battle_facility_lists.txt
+  ./battle_tower_pokemon.txt
+  ./battle_tower_trainers.txt
+  ./berry_plants.txt
+  ./book_reading.txt
+  ./cable_club_create.rb
+  ./clotheSets.txt
+  ./contacts.txt
+  ./crafting.txt
+  ./cup_fancy_pkmn_single.txt
+  ./cup_fancy_pkmn.txt
+  ./cup_fancy_trainers_single.txt
+  ./cup_fancy_trainers.txt
+  ./cup_little_pkmn.txt
+  ./cup_little_trainers.txt
+  ./cup_pika_pkmn.txt
+  ./cup_pika_trainers.txt
+  ./cup_poke_pkmn.txt
+  ./cup_poke_trainers.txt
+  ./dungeon_parameters.txt
+  ./dungeon_tilesets.txt
+  ./dungeonSet.txt
+  ./encounters.txt
+  ./items_tm.txt
+  ./map_connections.txt
+  ./metadata.txt
+  ./misions_absolution.txt
+  ./mounts.txt
+  ./moves_dynamax.txt
+  ./moves_monarch.txt
+  ./phone.txt
+  ./pokemon_metrics_female.txt
+  ./pokemon_metrics_forms.txt
+  ./pokemon_metrics_Gen_9_Pack.txt
+  ./pokemon_metrics_gmax.txt
+  ./pokemon_metrics.txt
+  ./pokemon_monarch.txt
+  ./pokePet.txt
+  ./regional_dexes.txt
+  ./ribbons.txt
+  ./showHelp.txt
+  ./town_map.txt
+  ./trainers_1.txt
+  ./trainers_2.txt
+  ./trainers_3.txt
+  ./trainers_dontTouch.txt
+  ./trainers_drunk.txt
+  ./trainers_extra.txt
+  ./trainers_noForBattle.txt
+  ./trainers_simulatedUniverse.txt
+  ./trainers_twilightForest.txt
+  ./types.txt
+  package.json
+  server.log
 ]
 
 puts "\n🗑️  Eliminando archivos no utilizados..."
