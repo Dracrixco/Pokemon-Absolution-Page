@@ -529,6 +529,67 @@ def parse_map_metadata(lines)
   maps
 end
 
+def parse_encounters(lines)
+  encounters_by_map = {}
+  current_map_id = nil
+  current_method = nil
+  current_encounters = []
+  
+  lines.each do |line|
+    original_line = line.dup
+    line.strip!
+    next if line.empty?
+    
+    # Match map ID like [002]
+    if line.match(/^\[(\d+)\]/)
+      # Save previous map's encounters
+      if current_map_id && current_method && !current_encounters.empty?
+        encounters_by_map[current_map_id] ||= {}
+        encounters_by_map[current_map_id][current_method] = current_encounters
+      end
+      
+      current_map_id = $1.to_i.to_s  # Convert to integer then back to string to remove leading zeros
+      current_method = nil
+      current_encounters = []
+    elsif !line.start_with?("#")
+      # Check if it's a method line (doesn't start with a number)
+      if line.match(/^([A-Za-z]+)(?:,(\d+))?$/)
+        # Save previous method's encounters
+        if current_method && !current_encounters.empty?
+          encounters_by_map[current_map_id] ||= {}
+          encounters_by_map[current_map_id][current_method] = current_encounters
+        end
+        
+        current_method = $1
+        current_encounters = []
+      elsif line.match(/^\s*(\d+),([A-Z_0-9]+)(?:,(\d+))?(?:,(\d+))?/)
+        # Parse encounter line: rate,species,minLevel[,maxLevel]
+        rate = $1.to_i
+        species = $2
+        min_level = $3 ? $3.to_i : nil
+        max_level = $4 ? $4.to_i : min_level
+        
+        if min_level
+          current_encounters << {
+            rate: rate,
+            species: species,
+            minLevel: min_level,
+            maxLevel: max_level
+          }
+        end
+      end
+    end
+  end
+  
+  # Save last method and map
+  if current_map_id && current_method && !current_encounters.empty?
+    encounters_by_map[current_map_id] ||= {}
+    encounters_by_map[current_map_id][current_method] = current_encounters
+  end
+  
+  encounters_by_map
+end
+
 # ==========================
 # 📝 GENERADOR DE TS
 # ==========================
@@ -717,6 +778,26 @@ forms_configs.each do |config|
 end
 
 # ========================================================== #
+# Procesar Encounters
+# ========================================================== #
+encounter_lines = read_combined_lines([File.join(__dir__, "./encounters.txt")])
+encounters_data = parse_encounters(encounter_lines)
+
+# Write as Record<string, Record<string, EncounterEntry[]>>
+output_path = File.join(__dir__, "../src/data/encounters.ts")
+File.write(output_path, "export interface EncounterEntry {\n")
+File.write(output_path, "  rate: number;\n", mode: "a")
+File.write(output_path, "  species: string;\n", mode: "a")
+File.write(output_path, "  minLevel: number;\n", mode: "a")
+File.write(output_path, "  maxLevel: number;\n", mode: "a")
+File.write(output_path, "}\n\n", mode: "a")
+File.open(output_path, "a") do |file|
+  file.puts "export const encountersData: Record<string, Record<string, EncounterEntry[]>> = "
+  file.puts JSON.pretty_generate(encounters_data).gsub(/"(\w+)":/, '\1:')
+end
+puts "✅ Encounters generados en #{output_path}"
+
+# ========================================================== #
 # Procesar Map Metadata
 # ========================================================== #
 map_lines = read_combined_lines([File.join(__dir__, "./map_metadata.txt")])
@@ -757,7 +838,6 @@ unused_files = %w[
   ./dungeon_parameters.txt
   ./dungeon_tilesets.txt
   ./dungeonSet.txt
-  ./encounters.txt
   ./items_tm.txt
   ./map_connections.txt
   ./metadata.txt
