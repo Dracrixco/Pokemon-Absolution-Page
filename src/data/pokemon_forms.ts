@@ -1,33 +1,26 @@
 import type { PokemonForm } from "@/types/pokemonform";
 
-export const pokemonForms: PokemonForm[] = 
-[
+export const pokemonForms: PokemonForm[] = [
   {
     id: "VENUSAUR",
     name: "Venusaur",
-    types: [
-      "GRASS",
-      "POISON"
-    ],
+    types: ["GRASS", "POISON"],
     sprite: "/Front/VENUSAUR_1.png",
     backSprite: "/spritesBack/VENUSAUR_1.png",
-    description: "In order to support its flower, which has grown larger due to Mega Evolution, its back and legs have become stronger.",
+    description:
+      "In order to support its flower, which has grown larger due to Mega Evolution, its back and legs have become stronger.",
     stats: {
       hp: 80,
       attack: 100,
       defense: 123,
       spAttack: 122,
       spDefense: 120,
-      speed: 80
+      speed: 80,
     },
     height: "2.4",
     weight: "155.5",
-    abilities: [
-      "THICKFAT"
-    ],
-    hiddenAbilities: [
-      "THICKFAT"
-    ],
+    abilities: ["THICKFAT"],
+    hiddenAbilities: ["THICKFAT"],
     category: "Seed",
     moves: [
       "PETALBLIZZARD",
@@ -46,7 +39,7 @@ export const pokemonForms: PokemonForm[] =
       "SYNTHESIS",
       "WORRYSEED",
       "POWERWHIP",
-      "SOLARBEAM"
+      "SOLARBEAM",
     ],
     tutorMoves: [
       "ACIDSPRAY",
@@ -126,47 +119,37 @@ export const pokemonForms: PokemonForm[] =
       "VENOSHOCK",
       "WEATHERBALL",
       "WORKUP",
-      "WORRYSEED"
+      "WORRYSEED",
     ],
-    eggMoves: [
-
-    ],
+    eggMoves: [],
     suffix: "normal",
-    evolution: [
-
-    ],
+    evolution: [],
     color: "Green",
     formNumber: 1,
     formName: "Mega Venusaur",
     baseId: "VENUSAUR",
-    megaStone: "VENUSAURITE"
+    megaStone: "VENUSAURITE",
   },
   {
     id: "CHARIZARD",
     name: "Charizard",
-    types: [
-      "FIRE",
-      "DRAGON"
-    ],
+    types: ["FIRE", "DRAGON"],
     sprite: "/Front/CHARIZARD_1.png",
     backSprite: "/spritesBack/CHARIZARD_1.png",
-    description: "The overwhelming power that fills its entire body causes it to turn black and create intense blue flames.",
+    description:
+      "The overwhelming power that fills its entire body causes it to turn black and create intense blue flames.",
     stats: {
       hp: 78,
       attack: 130,
       defense: 111,
       spAttack: 130,
       spDefense: 85,
-      speed: 100
+      speed: 100,
     },
     height: "1.7",
     weight: "110.5",
-    abilities: [
-      "TOUGHCLAWS"
-    ],
-    hiddenAbilities: [
-      "TOUGHCLAWS"
-    ],
+    abilities: ["TOUGHCLAWS"],
+    hiddenAbilities: ["TOUGHCLAWS"],
     category: "Flame",
     moves: [
       "AIRSLASH",
@@ -183,7 +166,7 @@ export const pokemonForms: PokemonForm[] =
       "SCARYFACE",
       "FIRESPIN",
       "INFERNO",
-      "FLAREBLITZ"
+      "FLAREBLITZ",
     ],
     tutorMoves: [
       "ACROBATICS",
@@ -285,47 +268,37 @@ export const pokemonForms: PokemonForm[] =
       "TWISTER",
       "WEATHERBALL",
       "WILLOWISP",
-      "WORKUP"
+      "WORKUP",
     ],
-    eggMoves: [
-
-    ],
+    eggMoves: [],
     suffix: "normal",
-    evolution: [
-
-    ],
+    evolution: [],
     color: "Black",
     formNumber: 1,
     formName: "Mega Charizard X",
     baseId: "CHARIZARD",
-    megaStone: "CHARIZARDITEX"
+    megaStone: "CHARIZARDITEX",
   },
   {
     id: "CHARIZARD",
     name: "Charizard",
-    types: [
-      "FIRE",
-      "FLYING"
-    ],
+    types: ["FIRE", "FLYING"],
     sprite: "/Front/CHARIZARD_2.png",
     backSprite: "/spritesBack/CHARIZARD_2.png",
-    description: "Its bond with its Trainer is the source of its power. It boasts speed and maneuverability greater than that of a jet fighter.",
+    description:
+      "Its bond with its Trainer is the source of its power. It boasts speed and maneuverability greater than that of a jet fighter.",
     stats: {
       hp: 78,
       attack: 104,
       defense: 78,
       spAttack: 159,
       spDefense: 115,
-      speed: 100
+      speed: 100,
     },
     height: "1.7",
     weight: "100.5",
-    abilities: [
-      "DROUGHT"
-    ],
-    hiddenAbilities: [
-      "DROUGHT"
-    ],
+    abilities: ["DROUGHT"],
+    hiddenAbilities: ["DROUGHT"],
     category: "Flame",
     moves: [
       "AIRSLASH",
@@ -342,7 +315,7 @@ export const pokemonForms: PokemonForm[] =
       "SCARYFACE",
       "FIRESPIN",
       "INFERNO",
-      "FLAREBLITZ"
+      "FLAREBLITZ",
     ],
     tutorMoves: [
       "ACROBATICS",
@@ -444,46 +417,37 @@ export const pokemonForms: PokemonForm[] =
       "TWISTER",
       "WEATHERBALL",
       "WILLOWISP",
-      "WORKUP"
+      "WORKUP",
     ],
-    eggMoves: [
-
-    ],
+    eggMoves: [],
     suffix: "normal",
-    evolution: [
-
-    ],
+    evolution: [],
     color: "Red",
     formNumber: 2,
     formName: "Mega Charizard Y",
     baseId: "CHARIZARD",
-    megaStone: "CHARIZARDITEY"
+    megaStone: "CHARIZARDITEY",
   },
   {
     id: "BLASTOISE",
     name: "Blastoise",
-    types: [
-      "WATER"
-    ],
+    types: ["WATER"],
     sprite: "/Front/BLASTOISE_1.png",
     backSprite: "/spritesBack/BLASTOISE_1.png",
-    description: "The cannon on its back is as powerful as a tank gun. Its tough legs and back enable it to withstand the recoil from firing the cannon.",
+    description:
+      "The cannon on its back is as powerful as a tank gun. Its tough legs and back enable it to withstand the recoil from firing the cannon.",
     stats: {
       hp: 79,
       attack: 103,
       defense: 120,
       spAttack: 135,
       spDefense: 115,
-      speed: 78
+      speed: 78,
     },
     height: "1.6",
     weight: "101.1",
-    abilities: [
-      "MEGALAUNCHER"
-    ],
-    hiddenAbilities: [
-      "MEGALAUNCHER"
-    ],
+    abilities: ["MEGALAUNCHER"],
+    hiddenAbilities: ["MEGALAUNCHER"],
     category: "Shellfish",
     moves: [
       "FLASHCANNON",
@@ -500,7 +464,7 @@ export const pokemonForms: PokemonForm[] =
       "SHELLSMASH",
       "IRONDEFENSE",
       "HYDROPUMP",
-      "WAVECRASH"
+      "WAVECRASH",
     ],
     tutorMoves: [
       "AQUATAIL",
@@ -587,47 +551,37 @@ export const pokemonForms: PokemonForm[] =
       "WEATHERBALL",
       "WHIRLPOOL",
       "WORKUP",
-      "ZENHEADBUTT"
+      "ZENHEADBUTT",
     ],
-    eggMoves: [
-
-    ],
+    eggMoves: [],
     suffix: "normal",
-    evolution: [
-
-    ],
+    evolution: [],
     color: "Blue",
     formNumber: 1,
     formName: "Mega Blastoise",
     baseId: "BLASTOISE",
-    megaStone: "BLASTOISINITE"
+    megaStone: "BLASTOISINITE",
   },
   {
     id: "BEEDRILL",
     name: "Beedrill",
-    types: [
-      "BUG",
-      "POISON"
-    ],
+    types: ["BUG", "POISON"],
     sprite: "/Front/BEEDRILL_1.png",
     backSprite: "/spritesBack/BEEDRILL_1.png",
-    description: "Its legs have become poison stingers. It stabs its prey repeatedly with the stingers on its limbs, dealing the final blow with the stinger on its rear.",
+    description:
+      "Its legs have become poison stingers. It stabs its prey repeatedly with the stingers on its limbs, dealing the final blow with the stinger on its rear.",
     stats: {
       hp: 65,
       attack: 150,
       defense: 40,
       spAttack: 15,
       spDefense: 80,
-      speed: 145
+      speed: 145,
     },
     height: "1.4",
     weight: "40.5",
-    abilities: [
-      "ADAPTABILITY"
-    ],
-    hiddenAbilities: [
-      "ADAPTABILITY"
-    ],
+    abilities: ["ADAPTABILITY"],
+    hiddenAbilities: ["ADAPTABILITY"],
     category: "Poison Bee",
     moves: [
       "FURYATTACK",
@@ -646,7 +600,7 @@ export const pokemonForms: PokemonForm[] =
       "POISONJAB",
       "AGILITY",
       "ENDEAVOR",
-      "FELLSTINGER"
+      "FELLSTINGER",
     ],
     tutorMoves: [
       "ACROBATICS",
@@ -707,47 +661,37 @@ export const pokemonForms: PokemonForm[] =
       "THROATCHOP",
       "UTURN",
       "VENOSHOCK",
-      "XSCISSOR"
+      "XSCISSOR",
     ],
-    eggMoves: [
-
-    ],
+    eggMoves: [],
     suffix: "normal",
-    evolution: [
-
-    ],
+    evolution: [],
     color: "Yellow",
     formNumber: 1,
     formName: "Mega Beedrill",
     baseId: "BEEDRILL",
-    megaStone: "BEEDRILLITE"
+    megaStone: "BEEDRILLITE",
   },
   {
     id: "PIDGEOT",
     name: "Pidgeot",
-    types: [
-      "NORMAL",
-      "FLYING"
-    ],
+    types: ["NORMAL", "FLYING"],
     sprite: "/Front/PIDGEOT_1.png",
     backSprite: "/spritesBack/PIDGEOT_1.png",
-    description: "With its muscular strength now greatly increased, it can fly continuously for two weeks without resting.",
+    description:
+      "With its muscular strength now greatly increased, it can fly continuously for two weeks without resting.",
     stats: {
       hp: 83,
       attack: 80,
       defense: 80,
       spAttack: 135,
       spDefense: 80,
-      speed: 121
+      speed: 121,
     },
     height: "2.2",
     weight: "50.5",
-    abilities: [
-      "NOGUARD"
-    ],
-    hiddenAbilities: [
-      "NOGUARD"
-    ],
+    abilities: ["NOGUARD"],
+    hiddenAbilities: ["NOGUARD"],
     category: "Bird",
     moves: [
       "HURRICANE",
@@ -767,7 +711,7 @@ export const pokemonForms: PokemonForm[] =
       "TAILWIND",
       "AERIALACE",
       "AIRSLASH",
-      "HURRICANE"
+      "HURRICANE",
     ],
     tutorMoves: [
       "AERIALACE",
@@ -812,48 +756,37 @@ export const pokemonForms: PokemonForm[] =
       "TWISTER",
       "UPROAR",
       "UTURN",
-      "WORKUP"
+      "WORKUP",
     ],
-    eggMoves: [
-
-    ],
+    eggMoves: [],
     suffix: "normal",
-    evolution: [
-
-    ],
+    evolution: [],
     color: "Brown",
     formNumber: 1,
     formName: "Mega Pidgeot",
     baseId: "PIDGEOT",
-    megaStone: "PIDGEOTITE"
+    megaStone: "PIDGEOTITE",
   },
   {
     id: "RATTATA",
     name: "Rattata",
-    types: [
-      "DARK",
-      "NORMAL"
-    ],
+    types: ["DARK", "NORMAL"],
     sprite: "/Front/RATTATA_1.png",
     backSprite: "/spritesBack/RATTATA_1.png",
-    description: "With its incisors, it gnaws through doors and infiltrates people's homes. Then, with a twitch of its whiskers, it steals whatever food it finds.",
+    description:
+      "With its incisors, it gnaws through doors and infiltrates people's homes. Then, with a twitch of its whiskers, it steals whatever food it finds.",
     stats: {
       hp: 30,
       attack: 56,
       defense: 35,
       spAttack: 25,
       spDefense: 35,
-      speed: 72
+      speed: 72,
     },
     height: "0.3",
     weight: "3.8",
-    abilities: [
-      "GLUTTONY",
-      "HUSTLE"
-    ],
-    hiddenAbilities: [
-      "THICKFAT"
-    ],
+    abilities: ["GLUTTONY", "HUSTLE"],
+    hiddenAbilities: ["THICKFAT"],
     category: "Mouse",
     moves: [
       "TACKLE",
@@ -868,7 +801,7 @@ export const pokemonForms: PokemonForm[] =
       "SUCKERPUNCH",
       "SUPERFANG",
       "DOUBLEEDGE",
-      "ENDEAVOR"
+      "ENDEAVOR",
     ],
     tutorMoves: [
       "ATTRACT",
@@ -928,7 +861,7 @@ export const pokemonForms: PokemonForm[] =
       "TORMENT",
       "UPROAR",
       "UTURN",
-      "ZENHEADBUTT"
+      "ZENHEADBUTT",
     ],
     eggMoves: [
       "COUNTER",
@@ -941,49 +874,42 @@ export const pokemonForms: PokemonForm[] =
       "STOCKPILE",
       "SWALLOW",
       "SWITCHEROO",
-      "UPROAR"
+      "UPROAR",
     ],
     suffix: "normal",
     evolution: [
       {
         to: "RATICATE",
         method: "LevelNight",
-        value: "20"
-      }
+        value: "20",
+      },
     ],
     color: "Black",
     formNumber: 1,
     formName: "Alolan",
     baseId: "RATTATA",
-    megaStone: null
+    megaStone: null,
   },
   {
     id: "RATICATE",
     name: "Raticate",
-    types: [
-      "DARK",
-      "NORMAL"
-    ],
+    types: ["DARK", "NORMAL"],
     sprite: "/Front/RATICATE_1.png",
     backSprite: "/spritesBack/RATICATE_1.png",
-    description: "It forms a group of Rattata, which it assumes command of. Each group has its own territory, and disputes over food happen often.",
+    description:
+      "It forms a group of Rattata, which it assumes command of. Each group has its own territory, and disputes over food happen often.",
     stats: {
       hp: 75,
       attack: 71,
       defense: 70,
       spAttack: 40,
       spDefense: 80,
-      speed: 77
+      speed: 77,
     },
     height: "0.7",
     weight: "25.5",
-    abilities: [
-      "GLUTTONY",
-      "HUSTLE"
-    ],
-    hiddenAbilities: [
-      "THICKFAT"
-    ],
+    abilities: ["GLUTTONY", "HUSTLE"],
+    hiddenAbilities: ["THICKFAT"],
     category: "Mouse",
     moves: [
       "SCARYFACE",
@@ -1002,7 +928,7 @@ export const pokemonForms: PokemonForm[] =
       "SUCKERPUNCH",
       "SUPERFANG",
       "DOUBLEEDGE",
-      "ENDEAVOR"
+      "ENDEAVOR",
     ],
     tutorMoves: [
       "ATTRACT",
@@ -1073,47 +999,37 @@ export const pokemonForms: PokemonForm[] =
       "UPROAR",
       "UTURN",
       "VENOSHOCK",
-      "ZENHEADBUTT"
+      "ZENHEADBUTT",
     ],
-    eggMoves: [
-
-    ],
+    eggMoves: [],
     suffix: "normal",
-    evolution: [
-
-    ],
+    evolution: [],
     color: "Black",
     formNumber: 1,
     formName: "Alolan",
     baseId: "RATICATE",
-    megaStone: null
+    megaStone: null,
   },
   {
     id: "RAICHU",
     name: "Raichu",
-    types: [
-      "ELECTRIC",
-      "PSYCHIC"
-    ],
+    types: ["ELECTRIC", "PSYCHIC"],
     sprite: "/Front/RAICHU_1.png",
     backSprite: "/spritesBack/RAICHU_1.png",
-    description: "It uses psychokinesis to control electricity. It hops aboard its own tail, using psychic power to lift the tail and move about while riding it.",
+    description:
+      "It uses psychokinesis to control electricity. It hops aboard its own tail, using psychic power to lift the tail and move about while riding it.",
     stats: {
       hp: 60,
       attack: 85,
       defense: 50,
       spAttack: 95,
       spDefense: 85,
-      speed: 110
+      speed: 110,
     },
     height: "0.7",
     weight: "21.0",
-    abilities: [
-      "SURGESURFER"
-    ],
-    hiddenAbilities: [
-      "SURGESURFER"
-    ],
+    abilities: ["SURGESURFER"],
+    hiddenAbilities: ["SURGESURFER"],
     category: "Mouse",
     moves: [
       "PSYCHIC",
@@ -1135,7 +1051,7 @@ export const pokemonForms: PokemonForm[] =
       "TAILWHIP",
       "GROWL",
       "QUICKATTACK",
-      "THUNDERBOLT"
+      "THUNDERBOLT",
     ],
     tutorMoves: [
       "AGILITY",
@@ -1234,47 +1150,37 @@ export const pokemonForms: PokemonForm[] =
       "TRAILBLAZE",
       "UPPERHAND",
       "VOLTSWITCH",
-      "WILDCHARGE"
+      "WILDCHARGE",
     ],
-    eggMoves: [
-
-    ],
+    eggMoves: [],
     suffix: "normal",
-    evolution: [
-
-    ],
+    evolution: [],
     color: "Brown",
     formNumber: 1,
     formName: "Alolan",
     baseId: "RAICHU",
-    megaStone: null
+    megaStone: null,
   },
   {
     id: "SANDSHREW",
     name: "Sandshrew",
-    types: [
-      "ICE",
-      "STEEL"
-    ],
+    types: ["ICE", "STEEL"],
     sprite: "/Front/SANDSHREW_1.png",
     backSprite: "/spritesBack/SANDSHREW_1.png",
-    description: "The skin on its back is as hard as steel. Predators go after its soft belly, so it clings to the ground desperately.",
+    description:
+      "The skin on its back is as hard as steel. Predators go after its soft belly, so it clings to the ground desperately.",
     stats: {
       hp: 50,
       attack: 75,
       defense: 90,
       spAttack: 10,
       spDefense: 35,
-      speed: 40
+      speed: 40,
     },
     height: "0.7",
     weight: "40.0",
-    abilities: [
-      "SNOWCLOAK"
-    ],
-    hiddenAbilities: [
-      "SLUSHRUSH"
-    ],
+    abilities: ["SNOWCLOAK"],
+    hiddenAbilities: ["SLUSHRUSH"],
     category: "Mouse",
     moves: [
       "SCRATCH",
@@ -1293,7 +1199,7 @@ export const pokemonForms: PokemonForm[] =
       "GYROBALL",
       "SWORDSDANCE",
       "SNOWSCAPE",
-      "BLIZZARD"
+      "BLIZZARD",
     ],
     tutorMoves: [
       "AERIALACE",
@@ -1378,7 +1284,7 @@ export const pokemonForms: PokemonForm[] =
       "THROATCHOP",
       "TRIPLEAXEL",
       "WORKUP",
-      "XSCISSOR"
+      "XSCISSOR",
     ],
     eggMoves: [
       "AMNESIA",
@@ -1394,48 +1300,42 @@ export const pokemonForms: PokemonForm[] =
       "ICICLESPEAR",
       "METALCLAW",
       "MIRRORCOAT",
-      "NIGHTSLASH"
+      "NIGHTSLASH",
     ],
     suffix: "normal",
     evolution: [
       {
         to: "SANDSLASH",
         method: "Item",
-        value: "ICESTONE"
-      }
+        value: "ICESTONE",
+      },
     ],
     color: "White",
     formNumber: 1,
     formName: "Alolan",
     baseId: "SANDSHREW",
-    megaStone: null
+    megaStone: null,
   },
   {
     id: "SANDSLASH",
     name: "Sandslash",
-    types: [
-      "ICE",
-      "STEEL"
-    ],
+    types: ["ICE", "STEEL"],
     sprite: "/Front/SANDSLASH_1.png",
     backSprite: "/spritesBack/SANDSLASH_1.png",
-    description: "It runs across snow-covered plains at high speeds. It developed thick, sharp claws to plow through the snow.",
+    description:
+      "It runs across snow-covered plains at high speeds. It developed thick, sharp claws to plow through the snow.",
     stats: {
       hp: 75,
       attack: 100,
       defense: 120,
       spAttack: 25,
       spDefense: 65,
-      speed: 65
+      speed: 65,
     },
     height: "1.2",
     weight: "55.0",
-    abilities: [
-      "SNOWCLOAK"
-    ],
-    hiddenAbilities: [
-      "SLUSHRUSH"
-    ],
+    abilities: ["SNOWCLOAK"],
+    hiddenAbilities: ["SLUSHRUSH"],
     category: "Mouse",
     moves: [
       "ICICLESPEAR",
@@ -1457,7 +1357,7 @@ export const pokemonForms: PokemonForm[] =
       "ICICLECRASH",
       "METALCLAW",
       "SLASH",
-      "SWORDSDANCE"
+      "SWORDSDANCE",
     ],
     tutorMoves: [
       "AERIALACE",
@@ -1550,46 +1450,37 @@ export const pokemonForms: PokemonForm[] =
       "THROATCHOP",
       "TRIPLEAXEL",
       "WORKUP",
-      "XSCISSOR"
+      "XSCISSOR",
     ],
-    eggMoves: [
-
-    ],
+    eggMoves: [],
     suffix: "normal",
-    evolution: [
-
-    ],
+    evolution: [],
     color: "Blue",
     formNumber: 1,
     formName: "Alolan",
     baseId: "SANDSLASH",
-    megaStone: null
+    megaStone: null,
   },
   {
     id: "VULPIX",
     name: "Vulpix",
-    types: [
-      "ICE"
-    ],
+    types: ["ICE"],
     sprite: "/Front/VULPIX_1.png",
     backSprite: "/spritesBack/VULPIX_1.png",
-    description: "In hot weather, this Pokémon makes ice shards with its six tails and sprays them around to cool itself off.",
+    description:
+      "In hot weather, this Pokémon makes ice shards with its six tails and sprays them around to cool itself off.",
     stats: {
       hp: 38,
       attack: 41,
       defense: 40,
       spAttack: 50,
       spDefense: 65,
-      speed: 65
+      speed: 65,
     },
     height: "0.6",
     weight: "9.9",
-    abilities: [
-      "SNOWCLOAK"
-    ],
-    hiddenAbilities: [
-      "SNOWWARNING"
-    ],
+    abilities: ["SNOWCLOAK"],
+    hiddenAbilities: ["SNOWWARNING"],
     category: "Fox",
     moves: [
       "POWDERSNOW",
@@ -1606,7 +1497,7 @@ export const pokemonForms: PokemonForm[] =
       "MIST",
       "AURORAVEIL",
       "FREEZEDRY",
-      "BLIZZARD"
+      "BLIZZARD",
     ],
     tutorMoves: [
       "AGILITY",
@@ -1677,7 +1568,7 @@ export const pokemonForms: PokemonForm[] =
       "TAKEDOWN",
       "TERABLAST",
       "WEATHERBALL",
-      "ZENHEADBUTT"
+      "ZENHEADBUTT",
     ],
     eggMoves: [
       "AGILITY",
@@ -1695,48 +1586,42 @@ export const pokemonForms: PokemonForm[] =
       "ROAR",
       "SECRETPOWER",
       "SPITE",
-      "TAILSLAP"
+      "TAILSLAP",
     ],
     suffix: "normal",
     evolution: [
       {
         to: "NINETALES",
         method: "Item",
-        value: "ICESTONE"
-      }
+        value: "ICESTONE",
+      },
     ],
     color: "White",
     formNumber: 1,
     formName: "Alolan",
     baseId: "VULPIX",
-    megaStone: null
+    megaStone: null,
   },
   {
     id: "NINETALES",
     name: "Ninetales",
-    types: [
-      "ICE",
-      "FAIRY"
-    ],
+    types: ["ICE", "FAIRY"],
     sprite: "/Front/NINETALES_1.png",
     backSprite: "/spritesBack/NINETALES_1.png",
-    description: "It lives on mountains perpetually covered in snow and is revered as a deity incarnate. It appears draped in a blizzard.",
+    description:
+      "It lives on mountains perpetually covered in snow and is revered as a deity incarnate. It appears draped in a blizzard.",
     stats: {
       hp: 73,
       attack: 67,
       defense: 75,
       spAttack: 81,
       spDefense: 100,
-      speed: 109
+      speed: 109,
     },
     height: "1.1",
     weight: "19.9",
-    abilities: [
-      "SNOWCLOAK"
-    ],
-    hiddenAbilities: [
-      "SNOWWARNING"
-    ],
+    abilities: ["SNOWCLOAK"],
+    hiddenAbilities: ["SNOWWARNING"],
     category: "Fox",
     moves: [
       "DAZZLINGGLEAM",
@@ -1755,7 +1640,7 @@ export const pokemonForms: PokemonForm[] =
       "ICYWIND",
       "IMPRISON",
       "BLIZZARD",
-      "TAILWHIP"
+      "TAILWHIP",
     ],
     tutorMoves: [
       "AGILITY",
@@ -1835,48 +1720,37 @@ export const pokemonForms: PokemonForm[] =
       "TRIPLEAXEL",
       "WEATHERBALL",
       "WONDERROOM",
-      "ZENHEADBUTT"
+      "ZENHEADBUTT",
     ],
-    eggMoves: [
-
-    ],
+    eggMoves: [],
     suffix: "normal",
-    evolution: [
-
-    ],
+    evolution: [],
     color: "Blue",
     formNumber: 1,
     formName: "Alolan",
     baseId: "NINETALES",
-    megaStone: null
+    megaStone: null,
   },
   {
     id: "DIGLETT",
     name: "Diglett",
-    types: [
-      "GROUND",
-      "STEEL"
-    ],
+    types: ["GROUND", "STEEL"],
     sprite: "/Front/DIGLETT_1.png",
     backSprite: "/spritesBack/DIGLETT_1.png",
-    description: "Its head sports an altered form of whiskers made of metal. When in communication with its comrades, its whiskers wobble to and fro.",
+    description:
+      "Its head sports an altered form of whiskers made of metal. When in communication with its comrades, its whiskers wobble to and fro.",
     stats: {
       hp: 10,
       attack: 55,
       defense: 30,
       spAttack: 35,
       spDefense: 45,
-      speed: 90
+      speed: 90,
     },
     height: "0.2",
     weight: "1.0",
-    abilities: [
-      "SANDVEIL",
-      "TANGLINGHAIR"
-    ],
-    hiddenAbilities: [
-      "SANDFORCE"
-    ],
+    abilities: ["SANDVEIL", "TANGLINGHAIR"],
+    hiddenAbilities: ["SANDFORCE"],
     category: "Mole",
     moves: [
       "SANDATTACK",
@@ -1891,7 +1765,7 @@ export const pokemonForms: PokemonForm[] =
       "DIG",
       "EARTHPOWER",
       "EARTHQUAKE",
-      "FISSURE"
+      "FISSURE",
     ],
     tutorMoves: [
       "AGILITY",
@@ -1958,7 +1832,7 @@ export const pokemonForms: PokemonForm[] =
       "TAKEDOWN",
       "TERABLAST",
       "THIEF",
-      "WORKUP"
+      "WORKUP",
     ],
     eggMoves: [
       "ANCIENTPOWER",
@@ -1972,49 +1846,42 @@ export const pokemonForms: PokemonForm[] =
       "METALSOUND",
       "PURSUIT",
       "REVERSAL",
-      "THRASH"
+      "THRASH",
     ],
     suffix: "normal",
     evolution: [
       {
         to: "DUGTRIO",
         method: "Level",
-        value: "26"
-      }
+        value: "26",
+      },
     ],
     color: "Brown",
     formNumber: 1,
     formName: "Alolan",
     baseId: "DIGLETT",
-    megaStone: null
+    megaStone: null,
   },
   {
     id: "DUGTRIO",
     name: "Dugtrio",
-    types: [
-      "GROUND",
-      "STEEL"
-    ],
+    types: ["GROUND", "STEEL"],
     sprite: "/Front/DUGTRIO_1.png",
     backSprite: "/spritesBack/DUGTRIO_1.png",
-    description: "Its shining gold hair provides it with protection. It's reputed that keeping any of its fallen hairs will bring bad luck.",
+    description:
+      "Its shining gold hair provides it with protection. It's reputed that keeping any of its fallen hairs will bring bad luck.",
     stats: {
       hp: 35,
       attack: 100,
       defense: 60,
       spAttack: 50,
       spDefense: 70,
-      speed: 110
+      speed: 110,
     },
     height: "0.7",
     weight: "66.6",
-    abilities: [
-      "SANDVEIL",
-      "TANGLINGHAIR"
-    ],
-    hiddenAbilities: [
-      "SANDFORCE"
-    ],
+    abilities: ["SANDVEIL", "TANGLINGHAIR"],
+    hiddenAbilities: ["SANDFORCE"],
     category: "Mole",
     moves: [
       "SANDTOMB",
@@ -2032,7 +1899,7 @@ export const pokemonForms: PokemonForm[] =
       "DIG",
       "EARTHPOWER",
       "EARTHQUAKE",
-      "FISSURE"
+      "FISSURE",
     ],
     tutorMoves: [
       "AGILITY",
@@ -2108,47 +1975,37 @@ export const pokemonForms: PokemonForm[] =
       "THROATCHOP",
       "TRIATTACK",
       "UPROAR",
-      "WORKUP"
+      "WORKUP",
     ],
-    eggMoves: [
-
-    ],
+    eggMoves: [],
     suffix: "normal",
-    evolution: [
-
-    ],
+    evolution: [],
     color: "Brown",
     formNumber: 1,
     formName: "Alolan",
     baseId: "DUGTRIO",
-    megaStone: null
+    megaStone: null,
   },
   {
     id: "MEOWTH",
     name: "Meowth",
-    types: [
-      "DARK"
-    ],
+    types: ["DARK"],
     sprite: "/Front/MEOWTH_1.png",
     backSprite: "/spritesBack/MEOWTH_1.png",
-    description: "It's impulsive, selfish, and fickle. It's very popular with some Trainers who like giving it the attention it needs.",
+    description:
+      "It's impulsive, selfish, and fickle. It's very popular with some Trainers who like giving it the attention it needs.",
     stats: {
       hp: 40,
       attack: 35,
       defense: 35,
       spAttack: 50,
       spDefense: 40,
-      speed: 90
+      speed: 90,
     },
     height: "0.4",
     weight: "4.2",
-    abilities: [
-      "PICKUP",
-      "TECHNICIAN"
-    ],
-    hiddenAbilities: [
-      "RATTLED"
-    ],
+    abilities: ["PICKUP", "TECHNICIAN"],
+    hiddenAbilities: ["RATTLED"],
     category: "Scratch Cat",
     moves: [
       "FAKEOUT",
@@ -2163,7 +2020,7 @@ export const pokemonForms: PokemonForm[] =
       "SCREECH",
       "NIGHTSLASH",
       "NASTYPLOT",
-      "PLAYROUGH"
+      "PLAYROUGH",
     ],
     tutorMoves: [
       "AERIALACE",
@@ -2248,7 +2105,7 @@ export const pokemonForms: PokemonForm[] =
       "TORMENT",
       "TRAILBLAZE",
       "UTURN",
-      "WORKUP"
+      "WORKUP",
     ],
     eggMoves: [
       "AMNESIA",
@@ -2262,48 +2119,42 @@ export const pokemonForms: PokemonForm[] =
       "PARTINGSHOT",
       "PUNISHMENT",
       "SNATCH",
-      "SPITE"
+      "SPITE",
     ],
     suffix: "normal",
     evolution: [
       {
         to: "PERSIAN",
         method: "Level",
-        value: "28"
-      }
+        value: "28",
+      },
     ],
     color: "Blue",
     formNumber: 1,
     formName: "Alolan",
     baseId: "MEOWTH",
-    megaStone: null
+    megaStone: null,
   },
   {
     id: "MEOWTH",
     name: "Meowth",
-    types: [
-      "STEEL"
-    ],
+    types: ["STEEL"],
     sprite: "/Front/MEOWTH_2.png",
     backSprite: "/spritesBack/MEOWTH_2.png",
-    description: "Living with a savage, seafaring people has toughened this Pokémon's body so much that parts of it have turned to iron.",
+    description:
+      "Living with a savage, seafaring people has toughened this Pokémon's body so much that parts of it have turned to iron.",
     stats: {
       hp: 50,
       attack: 65,
       defense: 55,
       spAttack: 40,
       spDefense: 40,
-      speed: 40
+      speed: 40,
     },
     height: "0.4",
     weight: "7.5",
-    abilities: [
-      "PICKUP",
-      "TOUGHCLAWS"
-    ],
-    hiddenAbilities: [
-      "UNNERVE"
-    ],
+    abilities: ["PICKUP", "TOUGHCLAWS"],
+    hiddenAbilities: ["UNNERVE"],
     category: "Scratch Cat",
     moves: [
       "FAKEOUT",
@@ -2318,7 +2169,7 @@ export const pokemonForms: PokemonForm[] =
       "SCREECH",
       "SLASH",
       "METALSOUND",
-      "THRASH"
+      "THRASH",
     ],
     tutorMoves: [
       "AERIALACE",
@@ -2404,56 +2255,43 @@ export const pokemonForms: PokemonForm[] =
       "TRAILBLAZE",
       "UTURN",
       "WORKUP",
-      "XSCISSOR"
+      "XSCISSOR",
     ],
-    eggMoves: [
-      "COVET",
-      "CURSE",
-      "DOUBLEEDGE",
-      "FLAIL",
-      "NIGHTSLASH",
-      "SPITE"
-    ],
+    eggMoves: ["COVET", "CURSE", "DOUBLEEDGE", "FLAIL", "NIGHTSLASH", "SPITE"],
     suffix: "normal",
     evolution: [
       {
         to: "PERRSERKER",
         method: "Level",
-        value: "28"
-      }
+        value: "28",
+      },
     ],
     color: "Brown",
     formNumber: 2,
     formName: "Galarian",
     baseId: "MEOWTH",
-    megaStone: null
+    megaStone: null,
   },
   {
     id: "PERSIAN",
     name: "Persian",
-    types: [
-      "DARK"
-    ],
+    types: ["DARK"],
     sprite: "/Front/PERSIAN_1.png",
     backSprite: "/spritesBack/PERSIAN_1.png",
-    description: "Its round face is a symbol of wealth. Persian that have bigger, plumper faces are considered more beautiful.",
+    description:
+      "Its round face is a symbol of wealth. Persian that have bigger, plumper faces are considered more beautiful.",
     stats: {
       hp: 65,
       attack: 60,
       defense: 60,
       spAttack: 75,
       spDefense: 65,
-      speed: 115
+      speed: 115,
     },
     height: "1.1",
     weight: "33.0",
-    abilities: [
-      "FURCOAT",
-      "TECHNICIAN"
-    ],
-    hiddenAbilities: [
-      "RATTLED"
-    ],
+    abilities: ["FURCOAT", "TECHNICIAN"],
+    hiddenAbilities: ["RATTLED"],
     category: "Classy Cat",
     moves: [
       "POWERGEM",
@@ -2471,7 +2309,7 @@ export const pokemonForms: PokemonForm[] =
       "SCREECH",
       "NIGHTSLASH",
       "NASTYPLOT",
-      "PLAYROUGH"
+      "PLAYROUGH",
     ],
     tutorMoves: [
       "AERIALACE",
@@ -2563,48 +2401,37 @@ export const pokemonForms: PokemonForm[] =
       "TORMENT",
       "TRAILBLAZE",
       "UTURN",
-      "WORKUP"
+      "WORKUP",
     ],
-    eggMoves: [
-
-    ],
+    eggMoves: [],
     suffix: "normal",
-    evolution: [
-
-    ],
+    evolution: [],
     color: "Blue",
     formNumber: 1,
     formName: "Alolan",
     baseId: "PERSIAN",
-    megaStone: null
+    megaStone: null,
   },
   {
     id: "GROWLITHE",
     name: "Growlithe",
-    types: [
-      "FIRE",
-      "ROCK"
-    ],
+    types: ["FIRE", "ROCK"],
     sprite: "/Front/GROWLITHE_1.png",
     backSprite: "/spritesBack/GROWLITHE_1.png",
-    description: "They patrol their territory in pairs. The igneous rock components in the fur of this species are the result of volcanic activity in its habitat.",
+    description:
+      "They patrol their territory in pairs. The igneous rock components in the fur of this species are the result of volcanic activity in its habitat.",
     stats: {
       hp: 60,
       attack: 75,
       defense: 45,
       spAttack: 65,
       spDefense: 50,
-      speed: 55
+      speed: 55,
     },
     height: "0.8",
     weight: "22.7",
-    abilities: [
-      "INTIMIDATE",
-      "FLASHFIRE"
-    ],
-    hiddenAbilities: [
-      "ROCKHEAD"
-    ],
+    abilities: ["INTIMIDATE", "FLASHFIRE"],
+    hiddenAbilities: ["ROCKHEAD"],
     category: "Scout",
     moves: [
       "EMBER",
@@ -2621,7 +2448,7 @@ export const pokemonForms: PokemonForm[] =
       "ROAR",
       "ROCKSLIDE",
       "REVERSAL",
-      "FLAREBLITZ"
+      "FLAREBLITZ",
     ],
     tutorMoves: [
       "AGILITY",
@@ -2666,7 +2493,7 @@ export const pokemonForms: PokemonForm[] =
       "TERABLAST",
       "THUNDERFANG",
       "WILDCHARGE",
-      "WILLOWISP"
+      "WILLOWISP",
     ],
     eggMoves: [
       "COVET",
@@ -2674,49 +2501,42 @@ export const pokemonForms: PokemonForm[] =
       "DOUBLEKICK",
       "HEADSMASH",
       "MORNINGSUN",
-      "THRASH"
+      "THRASH",
     ],
     suffix: "normal",
     evolution: [
       {
         to: "ARCANINE",
         method: "Item",
-        value: "FIRESTONE"
-      }
+        value: "FIRESTONE",
+      },
     ],
     color: "Brown",
     formNumber: 1,
     formName: "Hisuian",
     baseId: "GROWLITHE",
-    megaStone: null
+    megaStone: null,
   },
   {
     id: "ARCANINE",
     name: "Arcanine",
-    types: [
-      "FIRE",
-      "ROCK"
-    ],
+    types: ["FIRE", "ROCK"],
     sprite: "/Front/ARCANINE_1.png",
     backSprite: "/spritesBack/ARCANINE_1.png",
-    description: "Snaps at its foes with fangs cloaked in blazing flame. Despite its bulk, it deftly feints every which way, leading opponents on a deceptively merry chase as it all but dances around them.",
+    description:
+      "Snaps at its foes with fangs cloaked in blazing flame. Despite its bulk, it deftly feints every which way, leading opponents on a deceptively merry chase as it all but dances around them.",
     stats: {
       hp: 95,
       attack: 115,
       defense: 80,
       spAttack: 95,
       spDefense: 80,
-      speed: 90
+      speed: 90,
     },
     height: "2.0",
     weight: "168.0",
-    abilities: [
-      "INTIMIDATE",
-      "FLASHFIRE"
-    ],
-    hiddenAbilities: [
-      "ROCKHEAD"
-    ],
+    abilities: ["INTIMIDATE", "FLASHFIRE"],
+    hiddenAbilities: ["ROCKHEAD"],
     category: "Legendary",
     moves: [
       "EXTREMESPEED",
@@ -2737,7 +2557,7 @@ export const pokemonForms: PokemonForm[] =
       "HOWL",
       "BITE",
       "FLAMETHROWER",
-      "RAGINGFURY"
+      "RAGINGFURY",
     ],
     tutorMoves: [
       "AERIALACE",
@@ -2793,46 +2613,37 @@ export const pokemonForms: PokemonForm[] =
       "THIEF",
       "THUNDERFANG",
       "WILDCHARGE",
-      "WILLOWISP"
+      "WILLOWISP",
     ],
-    eggMoves: [
-
-    ],
+    eggMoves: [],
     suffix: "normal",
-    evolution: [
-
-    ],
+    evolution: [],
     color: "Brown",
     formNumber: 1,
     formName: "Hisuian",
     baseId: "ARCANINE",
-    megaStone: null
+    megaStone: null,
   },
   {
     id: "ALAKAZAM",
     name: "Alakazam",
-    types: [
-      "PSYCHIC"
-    ],
+    types: ["PSYCHIC"],
     sprite: "/Front/ALAKAZAM_1.png",
     backSprite: "/spritesBack/ALAKAZAM_1.png",
-    description: "Having traded away its muscles, Alakazam's true power has been unleashed. With its psychic powers, it can foresee all things.",
+    description:
+      "Having traded away its muscles, Alakazam's true power has been unleashed. With its psychic powers, it can foresee all things.",
     stats: {
       hp: 55,
       attack: 50,
       defense: 65,
       spAttack: 175,
       spDefense: 105,
-      speed: 150
+      speed: 150,
     },
     height: "1.2",
     weight: "48.0",
-    abilities: [
-      "TRACE"
-    ],
-    hiddenAbilities: [
-      "TRACE"
-    ],
+    abilities: ["TRACE"],
+    hiddenAbilities: ["TRACE"],
     category: "Psi",
     moves: [
       "CONFUSION",
@@ -2848,7 +2659,7 @@ export const pokemonForms: PokemonForm[] =
       "PSYCHIC",
       "ROLEPLAY",
       "FUTURESIGHT",
-      "CALMMIND"
+      "CALMMIND",
     ],
     tutorMoves: [
       "ALLYSWITCH",
@@ -2940,48 +2751,37 @@ export const pokemonForms: PokemonForm[] =
       "TRICK",
       "TRICKROOM",
       "WONDERROOM",
-      "ZENHEADBUTT"
+      "ZENHEADBUTT",
     ],
-    eggMoves: [
-
-    ],
+    eggMoves: [],
     suffix: "normal",
-    evolution: [
-
-    ],
+    evolution: [],
     color: "Brown",
     formNumber: 1,
     formName: "Mega Alakazam",
     baseId: "ALAKAZAM",
-    megaStone: "ALAKAZITE"
+    megaStone: "ALAKAZITE",
   },
   {
     id: "GEODUDE",
     name: "Geodude",
-    types: [
-      "ROCK",
-      "ELECTRIC"
-    ],
+    types: ["ROCK", "ELECTRIC"],
     sprite: "/Front/GEODUDE_1.png",
     backSprite: "/spritesBack/GEODUDE_1.png",
-    description: "Geodude compete against each other with headbutts. The iron sand on their heads will stick to whichever one has stronger magnetism.",
+    description:
+      "Geodude compete against each other with headbutts. The iron sand on their heads will stick to whichever one has stronger magnetism.",
     stats: {
       hp: 40,
       attack: 80,
       defense: 100,
       spAttack: 30,
       spDefense: 30,
-      speed: 20
+      speed: 20,
     },
     height: "0.4",
     weight: "20.3",
-    abilities: [
-      "MAGNETPULL",
-      "STURDY"
-    ],
-    hiddenAbilities: [
-      "GALVANIZE"
-    ],
+    abilities: ["MAGNETPULL", "STURDY"],
+    hiddenAbilities: ["GALVANIZE"],
     category: "Rock",
     moves: [
       "TACKLE",
@@ -2999,7 +2799,7 @@ export const pokemonForms: PokemonForm[] =
       "DISCHARGE",
       "EXPLOSION",
       "DOUBLEEDGE",
-      "STONEEDGE"
+      "STONEEDGE",
     ],
     tutorMoves: [
       "ANCIENTPOWER",
@@ -3079,7 +2879,7 @@ export const pokemonForms: PokemonForm[] =
       "THUNDERPUNCH",
       "THUNDERWAVE",
       "VOLTSWITCH",
-      "WILDCHARGE"
+      "WILDCHARGE",
     ],
     eggMoves: [
       "AUTOTOMIZE",
@@ -3092,49 +2892,42 @@ export const pokemonForms: PokemonForm[] =
       "ROCKCLIMB",
       "SCREECH",
       "WIDEGUARD",
-      "ZAPCANNON"
+      "ZAPCANNON",
     ],
     suffix: "normal",
     evolution: [
       {
         to: "GRAVELER",
         method: "Level",
-        value: "25"
-      }
+        value: "25",
+      },
     ],
     color: "Gray",
     formNumber: 1,
     formName: "Alolan",
     baseId: "GEODUDE",
-    megaStone: null
+    megaStone: null,
   },
   {
     id: "GRAVELER",
     name: "Graveler",
-    types: [
-      "ROCK",
-      "ELECTRIC"
-    ],
+    types: ["ROCK", "ELECTRIC"],
     sprite: "/Front/GRAVELER_1.png",
     backSprite: "/spritesBack/GRAVELER_1.png",
-    description: "They eat rocks and often get into a scrap over them. The shock of Graveler smashing together causes a flash of light and a booming noise.",
+    description:
+      "They eat rocks and often get into a scrap over them. The shock of Graveler smashing together causes a flash of light and a booming noise.",
     stats: {
       hp: 55,
       attack: 95,
       defense: 115,
       spAttack: 45,
       spDefense: 45,
-      speed: 35
+      speed: 35,
     },
     height: "1.0",
     weight: "110.0",
-    abilities: [
-      "MAGNETPULL",
-      "STURDY"
-    ],
-    hiddenAbilities: [
-      "GALVANIZE"
-    ],
+    abilities: ["MAGNETPULL", "STURDY"],
+    hiddenAbilities: ["GALVANIZE"],
     category: "Rock",
     moves: [
       "TACKLE",
@@ -3152,7 +2945,7 @@ export const pokemonForms: PokemonForm[] =
       "DISCHARGE",
       "EXPLOSION",
       "DOUBLEEDGE",
-      "STONEEDGE"
+      "STONEEDGE",
     ],
     tutorMoves: [
       "ALLYSWITCH",
@@ -3240,48 +3033,37 @@ export const pokemonForms: PokemonForm[] =
       "THUNDERPUNCH",
       "THUNDERWAVE",
       "VOLTSWITCH",
-      "WILDCHARGE"
+      "WILDCHARGE",
     ],
-    eggMoves: [
-
-    ],
+    eggMoves: [],
     suffix: "normal",
-    evolution: [
-
-    ],
+    evolution: [],
     color: "Gray",
     formNumber: 1,
     formName: "Alolan",
     baseId: "GRAVELER",
-    megaStone: null
+    megaStone: null,
   },
   {
     id: "GOLEM",
     name: "Golem",
-    types: [
-      "ROCK",
-      "ELECTRIC"
-    ],
+    types: ["ROCK", "ELECTRIC"],
     sprite: "/Front/GOLEM_1.png",
     backSprite: "/spritesBack/GOLEM_1.png",
-    description: "It fires rocks charged with electricity. Even if the rock isn't fired that accurately, just grazing an opponent will cause numbness and fainting.",
+    description:
+      "It fires rocks charged with electricity. Even if the rock isn't fired that accurately, just grazing an opponent will cause numbness and fainting.",
     stats: {
       hp: 80,
       attack: 120,
       defense: 130,
       spAttack: 55,
       spDefense: 65,
-      speed: 45
+      speed: 45,
     },
     height: "1.7",
     weight: "316.0",
-    abilities: [
-      "MAGNETPULL",
-      "STURDY"
-    ],
-    hiddenAbilities: [
-      "GALVANIZE"
-    ],
+    abilities: ["MAGNETPULL", "STURDY"],
+    hiddenAbilities: ["GALVANIZE"],
     category: "Megaton",
     moves: [
       "HEAVYSLAM",
@@ -3299,7 +3081,7 @@ export const pokemonForms: PokemonForm[] =
       "DISCHARGE",
       "EXPLOSION",
       "DOUBLEEDGE",
-      "STONEEDGE"
+      "STONEEDGE",
     ],
     tutorMoves: [
       "ALLYSWITCH",
@@ -3396,47 +3178,37 @@ export const pokemonForms: PokemonForm[] =
       "THUNDERPUNCH",
       "THUNDERWAVE",
       "VOLTSWITCH",
-      "WILDCHARGE"
+      "WILDCHARGE",
     ],
-    eggMoves: [
-
-    ],
+    eggMoves: [],
     suffix: "normal",
-    evolution: [
-
-    ],
+    evolution: [],
     color: "Gray",
     formNumber: 1,
     formName: "Alolan",
     baseId: "GOLEM",
-    megaStone: null
+    megaStone: null,
   },
   {
     id: "PONYTA",
     name: "Ponyta",
-    types: [
-      "PSYCHIC"
-    ],
+    types: ["PSYCHIC"],
     sprite: "/Front/PONYTA_1.png",
     backSprite: "/spritesBack/PONYTA_1.png",
-    description: "Its small horn hides a healing power. With a few rubs from this Pokémon's horn, any slight wound you have will be healed.",
+    description:
+      "Its small horn hides a healing power. With a few rubs from this Pokémon's horn, any slight wound you have will be healed.",
     stats: {
       hp: 50,
       attack: 85,
       defense: 55,
       spAttack: 65,
       spDefense: 65,
-      speed: 90
+      speed: 90,
     },
     height: "0.8",
     weight: "24.0",
-    abilities: [
-      "RUNAWAY",
-      "PASTELVEIL"
-    ],
-    hiddenAbilities: [
-      "ANTICIPATION"
-    ],
+    abilities: ["RUNAWAY", "PASTELVEIL"],
+    hiddenAbilities: ["ANTICIPATION"],
     category: "Unique Horn",
     moves: [
       "TACKLE",
@@ -3451,7 +3223,7 @@ export const pokemonForms: PokemonForm[] =
       "TAKEDOWN",
       "DAZZLINGGLEAM",
       "PSYCHIC",
-      "HEALINGWISH"
+      "HEALINGWISH",
     ],
     tutorMoves: [
       "AGILITY",
@@ -3493,7 +3265,7 @@ export const pokemonForms: PokemonForm[] =
       "SWAGGER",
       "SWIFT",
       "WILDCHARGE",
-      "ZENHEADBUTT"
+      "ZENHEADBUTT",
     ],
     eggMoves: [
       "ALLYSWITCH",
@@ -3506,49 +3278,42 @@ export const pokemonForms: PokemonForm[] =
       "HYPNOSIS",
       "LOWKICK",
       "MORNINGSUN",
-      "THRASH"
+      "THRASH",
     ],
     suffix: "normal",
     evolution: [
       {
         to: "RAPIDASH",
         method: "Level",
-        value: "40"
-      }
+        value: "40",
+      },
     ],
     color: "White",
     formNumber: 1,
     formName: "Galarian",
     baseId: "PONYTA",
-    megaStone: null
+    megaStone: null,
   },
   {
     id: "RAPIDASH",
     name: "Rapidash",
-    types: [
-      "PSYCHIC",
-      "FAIRY"
-    ],
+    types: ["PSYCHIC", "FAIRY"],
     sprite: "/Front/RAPIDASH_1.png",
     backSprite: "/spritesBack/RAPIDASH_1.png",
-    description: "Little can stand up to its psycho cut. Unleashed from this Pokémon's horn, the move will punch a hole right through a thick metal sheet.",
+    description:
+      "Little can stand up to its psycho cut. Unleashed from this Pokémon's horn, the move will punch a hole right through a thick metal sheet.",
     stats: {
       hp: 65,
       attack: 100,
       defense: 70,
       spAttack: 80,
       spDefense: 80,
-      speed: 105
+      speed: 105,
     },
     height: "1.7",
     weight: "80.0",
-    abilities: [
-      "RUNAWAY",
-      "PASTELVEIL"
-    ],
-    hiddenAbilities: [
-      "ANTICIPATION"
-    ],
+    abilities: ["RUNAWAY", "PASTELVEIL"],
+    hiddenAbilities: ["ANTICIPATION"],
     category: "Unique Horn",
     moves: [
       "PSYCHOCUT",
@@ -3566,7 +3331,7 @@ export const pokemonForms: PokemonForm[] =
       "TAKEDOWN",
       "DAZZLINGGLEAM",
       "PSYCHIC",
-      "HEALINGWISH"
+      "HEALINGWISH",
     ],
     tutorMoves: [
       "AGILITY",
@@ -3623,47 +3388,37 @@ export const pokemonForms: PokemonForm[] =
       "TRICKROOM",
       "WILDCHARGE",
       "WONDERROOM",
-      "ZENHEADBUTT"
+      "ZENHEADBUTT",
     ],
-    eggMoves: [
-
-    ],
+    eggMoves: [],
     suffix: "normal",
-    evolution: [
-
-    ],
+    evolution: [],
     color: "White",
     formNumber: 1,
     formName: "Galarian",
     baseId: "RAPIDASH",
-    megaStone: null
+    megaStone: null,
   },
   {
     id: "SLOWPOKE",
     name: "Slowpoke",
-    types: [
-      "PSYCHIC"
-    ],
+    types: ["PSYCHIC"],
     sprite: "/Front/SLOWPOKE_1.png",
     backSprite: "/spritesBack/SLOWPOKE_1.png",
-    description: "Although this Pokémon is normally zoned out, its expression abruptly sharpens on occasion. The cause for this seems to lie in Slowpoke's diet.",
+    description:
+      "Although this Pokémon is normally zoned out, its expression abruptly sharpens on occasion. The cause for this seems to lie in Slowpoke's diet.",
     stats: {
       hp: 90,
       attack: 65,
       defense: 65,
       spAttack: 40,
       spDefense: 40,
-      speed: 15
+      speed: 15,
     },
     height: "1.2",
     weight: "36.0",
-    abilities: [
-      "GLUTTONY",
-      "OWNTEMPO"
-    ],
-    hiddenAbilities: [
-      "REGENERATOR"
-    ],
+    abilities: ["GLUTTONY", "OWNTEMPO"],
+    hiddenAbilities: ["REGENERATOR"],
     category: "Dopey",
     moves: [
       "TACKLE",
@@ -3682,7 +3437,7 @@ export const pokemonForms: PokemonForm[] =
       "PSYCHIC",
       "PSYCHUP",
       "RAINDANCE",
-      "HEALPULSE"
+      "HEALPULSE",
     ],
     tutorMoves: [
       "AMNESIA",
@@ -3757,7 +3512,7 @@ export const pokemonForms: PokemonForm[] =
       "WEATHERBALL",
       "WHIRLPOOL",
       "WONDERROOM",
-      "ZENHEADBUTT"
+      "ZENHEADBUTT",
     ],
     eggMoves: [
       "BELCH",
@@ -3767,49 +3522,42 @@ export const pokemonForms: PokemonForm[] =
       "SNORE",
       "STOMP",
       "WONDERROOM",
-      "ZENHEADBUTT"
+      "ZENHEADBUTT",
     ],
     suffix: "normal",
     evolution: [
       {
         to: "SLOWKING",
         method: "Item",
-        value: "GALARICAWREATH"
-      }
+        value: "GALARICAWREATH",
+      },
     ],
     color: "Pink",
     formNumber: 1,
     formName: "Galarian",
     baseId: "SLOWPOKE",
-    megaStone: null
+    megaStone: null,
   },
   {
     id: "SLOWBRO",
     name: "Slowbro",
-    types: [
-      "POISON",
-      "PSYCHIC"
-    ],
+    types: ["POISON", "PSYCHIC"],
     sprite: "/Front/SLOWBRO_1.png",
     backSprite: "/spritesBack/SLOWBRO_1.png",
-    description: "If this Pokémon squeezes the tongue of the Shellder biting it, the Shellder will launch a toxic liquid from the tip of its shell.",
+    description:
+      "If this Pokémon squeezes the tongue of the Shellder biting it, the Shellder will launch a toxic liquid from the tip of its shell.",
     stats: {
       hp: 95,
       attack: 100,
       defense: 95,
       spAttack: 100,
       spDefense: 70,
-      speed: 30
+      speed: 30,
     },
     height: "1.6",
     weight: "70.5",
-    abilities: [
-      "QUICKDRAW",
-      "OWNTEMPO"
-    ],
-    hiddenAbilities: [
-      "REGENERATOR"
-    ],
+    abilities: ["QUICKDRAW", "OWNTEMPO"],
+    hiddenAbilities: ["REGENERATOR"],
     category: "Hermit Crab",
     moves: [
       "SHELLSIDEARM",
@@ -3830,7 +3578,7 @@ export const pokemonForms: PokemonForm[] =
       "PSYCHIC",
       "PSYCHUP",
       "RAINDANCE",
-      "HEALPULSE"
+      "HEALPULSE",
     ],
     tutorMoves: [
       "ACIDSPRAY",
@@ -3936,47 +3684,37 @@ export const pokemonForms: PokemonForm[] =
       "WEATHERBALL",
       "WHIRLPOOL",
       "WONDERROOM",
-      "ZENHEADBUTT"
+      "ZENHEADBUTT",
     ],
-    eggMoves: [
-
-    ],
+    eggMoves: [],
     suffix: "normal",
-    evolution: [
-
-    ],
+    evolution: [],
     color: "Pink",
     formNumber: 1,
     formName: "Galarian",
     baseId: "SLOWBRO",
-    megaStone: null
+    megaStone: null,
   },
   {
     id: "SLOWBRO",
     name: "Slowbro",
-    types: [
-      "WATER",
-      "PSYCHIC"
-    ],
+    types: ["WATER", "PSYCHIC"],
     sprite: "/Front/SLOWBRO_2.png",
     backSprite: "/spritesBack/SLOWBRO_2.png",
-    description: "Having been swallowed whole by Shellder, Slowbro now has an iron defense. It's pretty comfortable in there, too.",
+    description:
+      "Having been swallowed whole by Shellder, Slowbro now has an iron defense. It's pretty comfortable in there, too.",
     stats: {
       hp: 95,
       attack: 75,
       defense: 180,
       spAttack: 130,
       spDefense: 80,
-      speed: 30
+      speed: 30,
     },
     height: "2.0",
     weight: "120.0",
-    abilities: [
-      "SHELLARMOR"
-    ],
-    hiddenAbilities: [
-      "SHELLARMOR"
-    ],
+    abilities: ["SHELLARMOR"],
+    hiddenAbilities: ["SHELLARMOR"],
     category: "Hermit Crab",
     moves: [
       "FUTURESIGHT",
@@ -3997,7 +3735,7 @@ export const pokemonForms: PokemonForm[] =
       "PSYCHIC",
       "PSYCHUP",
       "RAINDANCE",
-      "HEALPULSE"
+      "HEALPULSE",
     ],
     tutorMoves: [
       "AFTERYOU",
@@ -4109,46 +3847,37 @@ export const pokemonForms: PokemonForm[] =
       "WEATHERBALL",
       "WHIRLPOOL",
       "WONDERROOM",
-      "ZENHEADBUTT"
+      "ZENHEADBUTT",
     ],
-    eggMoves: [
-
-    ],
+    eggMoves: [],
     suffix: "normal",
-    evolution: [
-
-    ],
+    evolution: [],
     color: "Pink",
     formNumber: 2,
     formName: "Mega Slowbro",
     baseId: "SLOWBRO",
-    megaStone: "SLOWBRONITE"
+    megaStone: "SLOWBRONITE",
   },
   {
     id: "FARFETCHD",
     name: "Farfetch'd",
-    types: [
-      "FIGHTING"
-    ],
+    types: ["FIGHTING"],
     sprite: "/Front/FARFETCHD_1.png",
     backSprite: "/spritesBack/FARFETCHD_1.png",
-    description: "The stalks of leeks are thicker and longer in the Galar region. Farfetch'd that adapted to these stalks took on a unique form.",
+    description:
+      "The stalks of leeks are thicker and longer in the Galar region. Farfetch'd that adapted to these stalks took on a unique form.",
     stats: {
       hp: 52,
       attack: 95,
       defense: 55,
       spAttack: 58,
       spDefense: 62,
-      speed: 55
+      speed: 55,
     },
     height: "0.8",
     weight: "42.0",
-    abilities: [
-      "STEADFAST"
-    ],
-    hiddenAbilities: [
-      "SCRAPPY"
-    ],
+    abilities: ["STEADFAST"],
+    hiddenAbilities: ["SCRAPPY"],
     category: "Wild Duck",
     moves: [
       "PECK",
@@ -4165,7 +3894,7 @@ export const pokemonForms: PokemonForm[] =
       "SLAM",
       "LEAFBLADE",
       "FINALGAMBIT",
-      "BRAVEBIRD"
+      "BRAVEBIRD",
     ],
     tutorMoves: [
       "ASSURANCE",
@@ -4207,7 +3936,7 @@ export const pokemonForms: PokemonForm[] =
       "SWAGGER",
       "SWORDSDANCE",
       "THROATCHOP",
-      "WORKUP"
+      "WORKUP",
     ],
     eggMoves: [
       "COUNTER",
@@ -4220,49 +3949,42 @@ export const pokemonForms: PokemonForm[] =
       "QUICKATTACK",
       "QUICKGUARD",
       "SIMPLEBEAM",
-      "SKYATTACK"
+      "SKYATTACK",
     ],
     suffix: "normal",
     evolution: [
       {
         to: "SIRFETCHD",
         method: "AfterBattleCounter",
-        value: "3"
-      }
+        value: "3",
+      },
     ],
     color: "Brown",
     formNumber: 1,
     formName: "Galarian",
     baseId: "FARFETCHD",
-    megaStone: null
+    megaStone: null,
   },
   {
     id: "GRIMER",
     name: "Grimer",
-    types: [
-      "POISON",
-      "DARK"
-    ],
+    types: ["POISON", "DARK"],
     sprite: "/Front/GRIMER_1.png",
     backSprite: "/spritesBack/GRIMER_1.png",
-    description: "A Grimer, which had been brought in to solve a problem with garbage, developed over time into this form.",
+    description:
+      "A Grimer, which had been brought in to solve a problem with garbage, developed over time into this form.",
     stats: {
       hp: 80,
       attack: 80,
       defense: 50,
       spAttack: 40,
       spDefense: 50,
-      speed: 25
+      speed: 25,
     },
     height: "0.7",
     weight: "42.0",
-    abilities: [
-      "POISONTOUCH",
-      "GLUTTONY"
-    ],
-    hiddenAbilities: [
-      "POWEROFALCHEMY"
-    ],
+    abilities: ["POISONTOUCH", "GLUTTONY"],
+    hiddenAbilities: ["POWEROFALCHEMY"],
     category: "Sludge",
     moves: [
       "POUND",
@@ -4280,7 +4002,7 @@ export const pokemonForms: PokemonForm[] =
       "GUNKSHOT",
       "ACIDARMOR",
       "BELCH",
-      "MEMENTO"
+      "MEMENTO",
     ],
     tutorMoves: [
       "ACIDSPRAY",
@@ -4365,7 +4087,7 @@ export const pokemonForms: PokemonForm[] =
       "TORMENT",
       "TOXIC",
       "VENOSHOCK",
-      "ZENHEADBUTT"
+      "ZENHEADBUTT",
     ],
     eggMoves: [
       "ASSURANCE",
@@ -4381,49 +4103,42 @@ export const pokemonForms: PokemonForm[] =
       "SPITE",
       "SPITUP",
       "STOCKPILE",
-      "SWALLOW"
+      "SWALLOW",
     ],
     suffix: "normal",
     evolution: [
       {
         to: "MUK",
         method: "Level",
-        value: "38"
-      }
+        value: "38",
+      },
     ],
     color: "Green",
     formNumber: 1,
     formName: "Alolan",
     baseId: "GRIMER",
-    megaStone: null
+    megaStone: null,
   },
   {
     id: "MUK",
     name: "Muk",
-    types: [
-      "POISON",
-      "DARK"
-    ],
+    types: ["POISON", "DARK"],
     sprite: "/Front/MUK_1.png",
     backSprite: "/spritesBack/MUK_1.png",
-    description: "The garbage it eats causes continuous chemical changes in its body, which produce its exceedingly vivid coloration.",
+    description:
+      "The garbage it eats causes continuous chemical changes in its body, which produce its exceedingly vivid coloration.",
     stats: {
       hp: 105,
       attack: 105,
       defense: 75,
       spAttack: 65,
       spDefense: 100,
-      speed: 50
+      speed: 50,
     },
     height: "1.0",
     weight: "52.0",
-    abilities: [
-      "POISONTOUCH",
-      "GLUTTONY"
-    ],
-    hiddenAbilities: [
-      "POWEROFALCHEMY"
-    ],
+    abilities: ["POISONTOUCH", "GLUTTONY"],
+    hiddenAbilities: ["POWEROFALCHEMY"],
     category: "Sludge",
     moves: [
       "POUND",
@@ -4440,7 +4155,7 @@ export const pokemonForms: PokemonForm[] =
       "GUNKSHOT",
       "ACIDARMOR",
       "BELCH",
-      "MEMENTO"
+      "MEMENTO",
     ],
     tutorMoves: [
       "ACIDSPRAY",
@@ -4531,47 +4246,37 @@ export const pokemonForms: PokemonForm[] =
       "TORMENT",
       "TOXIC",
       "VENOSHOCK",
-      "ZENHEADBUTT"
+      "ZENHEADBUTT",
     ],
-    eggMoves: [
-
-    ],
+    eggMoves: [],
     suffix: "normal",
-    evolution: [
-
-    ],
+    evolution: [],
     color: "Green",
     formNumber: 1,
     formName: "Alolan",
     baseId: "MUK",
-    megaStone: null
+    megaStone: null,
   },
   {
     id: "GENGAR",
     name: "Gengar",
-    types: [
-      "GHOST",
-      "POISON"
-    ],
+    types: ["GHOST", "POISON"],
     sprite: "/Front/GENGAR_1.png",
     backSprite: "/spritesBack/GENGAR_1.png",
-    description: "The energy of Mega Evolution awakened it. It sinks into another dimension, where it keeps a patient watch for its chance to attack.",
+    description:
+      "The energy of Mega Evolution awakened it. It sinks into another dimension, where it keeps a patient watch for its chance to attack.",
     stats: {
       hp: 60,
       attack: 65,
       defense: 80,
       spAttack: 170,
       spDefense: 95,
-      speed: 130
+      speed: 130,
     },
     height: "1.4",
     weight: "40.5",
-    abilities: [
-      "SHADOWTAG"
-    ],
-    hiddenAbilities: [
-      "SHADOWTAG"
-    ],
+    abilities: ["SHADOWTAG"],
+    hiddenAbilities: ["SHADOWTAG"],
     category: "Shadow",
     moves: [
       "SHADOWPUNCH",
@@ -4590,7 +4295,7 @@ export const pokemonForms: PokemonForm[] =
       "DARKPULSE",
       "SHADOWBALL",
       "DESTINYBOND",
-      "DREAMEATER"
+      "DREAMEATER",
     ],
     tutorMoves: [
       "ACIDSPRAY",
@@ -4694,48 +4399,37 @@ export const pokemonForms: PokemonForm[] =
       "TRICKROOM",
       "VENOSHOCK",
       "WILLOWISP",
-      "WONDERROOM"
+      "WONDERROOM",
     ],
-    eggMoves: [
-
-    ],
+    eggMoves: [],
     suffix: "normal",
-    evolution: [
-
-    ],
+    evolution: [],
     color: "Purple",
     formNumber: 1,
     formName: "Mega Gengar",
     baseId: "GENGAR",
-    megaStone: "GENGARITE"
+    megaStone: "GENGARITE",
   },
   {
     id: "VOLTORB",
     name: "Voltorb",
-    types: [
-      "ELECTRIC",
-      "GRASS"
-    ],
+    types: ["ELECTRIC", "GRASS"],
     sprite: "/Front/VOLTORB_1.png",
     backSprite: "/spritesBack/VOLTORB_1.png",
-    description: "An enigmatic Pokémon that happens to bear a resemblance to a Poké Ball. When excited, it discharges the electric current it has stored in its belly, then lets out a great, uproarious laugh.",
+    description:
+      "An enigmatic Pokémon that happens to bear a resemblance to a Poké Ball. When excited, it discharges the electric current it has stored in its belly, then lets out a great, uproarious laugh.",
     stats: {
       hp: 40,
       attack: 30,
       defense: 50,
       spAttack: 55,
       spDefense: 55,
-      speed: 100
+      speed: 100,
     },
     height: "0.5",
     weight: "13.0",
-    abilities: [
-      "SOUNDPROOF",
-      "STATIC"
-    ],
-    hiddenAbilities: [
-      "AFTERMATH"
-    ],
+    abilities: ["SOUNDPROOF", "STATIC"],
+    hiddenAbilities: ["AFTERMATH"],
     category: "Sphere",
     moves: [
       "CHARGE",
@@ -4754,7 +4448,7 @@ export const pokemonForms: PokemonForm[] =
       "DISCHARGE",
       "EXPLOSION",
       "GYROBALL",
-      "GRASSYTERRAIN"
+      "GRASSYTERRAIN",
     ],
     tutorMoves: [
       "AGILITY",
@@ -4792,54 +4486,43 @@ export const pokemonForms: PokemonForm[] =
       "THUNDERBOLT",
       "THUNDERWAVE",
       "VOLTSWITCH",
-      "WILDCHARGE"
+      "WILDCHARGE",
     ],
-    eggMoves: [
-      "LEECHSEED",
-      "RECYCLE",
-      "WORRYSEED"
-    ],
+    eggMoves: ["LEECHSEED", "RECYCLE", "WORRYSEED"],
     suffix: "normal",
     evolution: [
       {
         to: "ELECTRODE",
         method: "Item",
-        value: "LEAFSTONE"
-      }
+        value: "LEAFSTONE",
+      },
     ],
     color: "Red",
     formNumber: 1,
     formName: "Hisuian",
     baseId: "VOLTORB",
-    megaStone: null
+    megaStone: null,
   },
   {
     id: "ELECTRODE",
     name: "Electrode",
-    types: [
-      "ELECTRIC",
-      "GRASS"
-    ],
+    types: ["ELECTRIC", "GRASS"],
     sprite: "/Front/ELECTRODE_1.png",
     backSprite: "/spritesBack/ELECTRODE_1.png",
-    description: "The tissue on the surface of its body is curiously similar in composition to an Apricorn. When irritated, this Pokémon lets loose an electric current equal to 20 lightning bolts.",
+    description:
+      "The tissue on the surface of its body is curiously similar in composition to an Apricorn. When irritated, this Pokémon lets loose an electric current equal to 20 lightning bolts.",
     stats: {
       hp: 60,
       attack: 50,
       defense: 70,
       spAttack: 80,
       spDefense: 80,
-      speed: 150
+      speed: 150,
     },
     height: "1.2",
     weight: "71.0",
-    abilities: [
-      "SOUNDPROOF",
-      "STATIC"
-    ],
-    hiddenAbilities: [
-      "AFTERMATH"
-    ],
+    abilities: ["SOUNDPROOF", "STATIC"],
+    hiddenAbilities: ["AFTERMATH"],
     category: "Sphere",
     moves: [
       "CHLOROBLAST",
@@ -4859,7 +4542,7 @@ export const pokemonForms: PokemonForm[] =
       "DISCHARGE",
       "EXPLOSION",
       "GYROBALL",
-      "GRASSYTERRAIN"
+      "GRASSYTERRAIN",
     ],
     tutorMoves: [
       "AGILITY",
@@ -4902,47 +4585,37 @@ export const pokemonForms: PokemonForm[] =
       "THUNDERBOLT",
       "THUNDERWAVE",
       "VOLTSWITCH",
-      "WILDCHARGE"
+      "WILDCHARGE",
     ],
-    eggMoves: [
-
-    ],
+    eggMoves: [],
     suffix: "normal",
-    evolution: [
-
-    ],
+    evolution: [],
     color: "Red",
     formNumber: 1,
     formName: "Hisuian",
     baseId: "ELECTRODE",
-    megaStone: null
+    megaStone: null,
   },
   {
     id: "EXEGGUTOR",
     name: "Exeggutor",
-    types: [
-      "GRASS",
-      "DRAGON"
-    ],
+    types: ["GRASS", "DRAGON"],
     sprite: "/Front/EXEGGUTOR_1.png",
     backSprite: "/spritesBack/EXEGGUTOR_1.png",
-    description: "As it grew taller and taller, it outgrew its reliance on psychic powers, while within it awakened the power of the sleeping dragon.",
+    description:
+      "As it grew taller and taller, it outgrew its reliance on psychic powers, while within it awakened the power of the sleeping dragon.",
     stats: {
       hp: 95,
       attack: 105,
       defense: 85,
       spAttack: 125,
       spDefense: 75,
-      speed: 45
+      speed: 45,
     },
     height: "10.9",
     weight: "415.6",
-    abilities: [
-      "FRISK"
-    ],
-    hiddenAbilities: [
-      "HARVEST"
-    ],
+    abilities: ["FRISK"],
+    hiddenAbilities: ["HARVEST"],
     category: "Coconut",
     moves: [
       "DRAGONHAMMER",
@@ -4963,7 +4636,7 @@ export const pokemonForms: PokemonForm[] =
       "ABSORB",
       "HYPNOSIS",
       "REFLECT",
-      "LEECHSEED"
+      "LEECHSEED",
     ],
     tutorMoves: [
       "ANCIENTPOWER",
@@ -5058,47 +4731,37 @@ export const pokemonForms: PokemonForm[] =
       "TRICKROOM",
       "UPROAR",
       "WORRYSEED",
-      "ZENHEADBUTT"
+      "ZENHEADBUTT",
     ],
-    eggMoves: [
-
-    ],
+    eggMoves: [],
     suffix: "normal",
-    evolution: [
-
-    ],
+    evolution: [],
     color: "Yellow",
     formNumber: 1,
     formName: "Alolan",
     baseId: "EXEGGUTOR",
-    megaStone: null
+    megaStone: null,
   },
   {
     id: "CUBONE",
     name: "Cubone",
-    types: [
-      "GROUND"
-    ],
+    types: ["GROUND"],
     sprite: "/Front/CUBONE_1.png",
     backSprite: "/spritesBack/CUBONE_1.png",
-    description: "It pines for the mother it will never see again. Seeing a likeness of its mother in the full moon, it cries. The stains on the skull it wears are from its tears.",
+    description:
+      "It pines for the mother it will never see again. Seeing a likeness of its mother in the full moon, it cries. The stains on the skull it wears are from its tears.",
     stats: {
       hp: 50,
       attack: 50,
       defense: 95,
       spAttack: 40,
       spDefense: 50,
-      speed: 35
+      speed: 35,
     },
     height: "0.4",
     weight: "6.5",
-    abilities: [
-      "ROCKHEAD",
-      "LIGHTNINGROD"
-    ],
-    hiddenAbilities: [
-      "BATTLEARMOR"
-    ],
+    abilities: ["ROCKHEAD", "LIGHTNINGROD"],
+    hiddenAbilities: ["BATTLEARMOR"],
     category: "Lonely",
     moves: [
       "MUDSLAP",
@@ -5114,7 +4777,7 @@ export const pokemonForms: PokemonForm[] =
       "ENDEAVOR",
       "BONEMERANG",
       "THRASH",
-      "DOUBLEEDGE"
+      "DOUBLEEDGE",
     ],
     tutorMoves: [
       "AERIALACE",
@@ -5189,7 +4852,7 @@ export const pokemonForms: PokemonForm[] =
       "SWORDSDANCE",
       "THIEF",
       "THUNDERPUNCH",
-      "UPROAR"
+      "UPROAR",
     ],
     eggMoves: [
       "ANCIENTPOWER",
@@ -5201,49 +4864,42 @@ export const pokemonForms: PokemonForm[] =
       "LEER",
       "PERISHSONG",
       "SCREECH",
-      "SKULLBASH"
+      "SKULLBASH",
     ],
     suffix: "normal",
     evolution: [
       {
         to: "MAROWAK",
         method: "LevelNight",
-        value: "28"
-      }
+        value: "28",
+      },
     ],
     color: "Brown",
     formNumber: 1,
     formName: "",
     baseId: "CUBONE",
-    megaStone: null
+    megaStone: null,
   },
   {
     id: "MAROWAK",
     name: "Marowak",
-    types: [
-      "FIRE",
-      "GHOST"
-    ],
+    types: ["FIRE", "GHOST"],
     sprite: "/Front/MAROWAK_1.png",
     backSprite: "/spritesBack/MAROWAK_1.png",
-    description: "Its custom is to mourn its lost companions. Mounds of dirt by the side of the road mark the graves of the Marowak.",
+    description:
+      "Its custom is to mourn its lost companions. Mounds of dirt by the side of the road mark the graves of the Marowak.",
     stats: {
       hp: 60,
       attack: 80,
       defense: 110,
       spAttack: 50,
       spDefense: 80,
-      speed: 45
+      speed: 45,
     },
     height: "1.0",
     weight: "34.0",
-    abilities: [
-      "CURSEDBODY",
-      "LIGHTNINGROD"
-    ],
-    hiddenAbilities: [
-      "ROCKHEAD"
-    ],
+    abilities: ["CURSEDBODY", "LIGHTNINGROD"],
+    hiddenAbilities: ["ROCKHEAD"],
     category: "Bone Keeper",
     moves: [
       "SHADOWBONE",
@@ -5265,7 +4921,7 @@ export const pokemonForms: PokemonForm[] =
       "ENDEAVOR",
       "BONEMERANG",
       "THRASH",
-      "FLAREBLITZ"
+      "FLAREBLITZ",
     ],
     tutorMoves: [
       "AERIALACE",
@@ -5365,48 +5021,37 @@ export const pokemonForms: PokemonForm[] =
       "THUNDERBOLT",
       "THUNDERPUNCH",
       "UPROAR",
-      "WILLOWISP"
+      "WILLOWISP",
     ],
-    eggMoves: [
-
-    ],
+    eggMoves: [],
     suffix: "normal",
-    evolution: [
-
-    ],
+    evolution: [],
     color: "Purple",
     formNumber: 1,
     formName: "Alolan",
     baseId: "MAROWAK",
-    megaStone: null
+    megaStone: null,
   },
   {
     id: "WEEZING",
     name: "Weezing",
-    types: [
-      "POISON",
-      "FAIRY"
-    ],
+    types: ["POISON", "FAIRY"],
     sprite: "/Front/WEEZING_1.png",
     backSprite: "/spritesBack/WEEZING_1.png",
-    description: "This Pokémon consumes particles that contaminate the air. Instead of leaving droppings, it expels clean air.",
+    description:
+      "This Pokémon consumes particles that contaminate the air. Instead of leaving droppings, it expels clean air.",
     stats: {
       hp: 65,
       attack: 90,
       defense: 120,
       spAttack: 85,
       spDefense: 70,
-      speed: 60
+      speed: 60,
     },
     height: "3.0",
     weight: "16.0",
-    abilities: [
-      "LEVITATE",
-      "NEUTRALIZINGGAS"
-    ],
-    hiddenAbilities: [
-      "MISTYSURGE"
-    ],
+    abilities: ["LEVITATE", "NEUTRALIZINGGAS"],
+    hiddenAbilities: ["MISTYSURGE"],
     category: "Poison Gas",
     moves: [
       "DOUBLEHIT",
@@ -5430,7 +5075,7 @@ export const pokemonForms: PokemonForm[] =
       "EXPLOSION",
       "MEMENTO",
       "DESTINYBOND",
-      "MISTYTERRAIN"
+      "MISTYTERRAIN",
     ],
     tutorMoves: [
       "ACIDSPRAY",
@@ -5503,46 +5148,37 @@ export const pokemonForms: PokemonForm[] =
       "VENOMDRENCH",
       "VENOSHOCK",
       "WILLOWISP",
-      "WONDERROOM"
+      "WONDERROOM",
     ],
-    eggMoves: [
-
-    ],
+    eggMoves: [],
     suffix: "normal",
-    evolution: [
-
-    ],
+    evolution: [],
     color: "Gray",
     formNumber: 1,
     formName: "Galarian",
     baseId: "WEEZING",
-    megaStone: null
+    megaStone: null,
   },
   {
     id: "KANGASKHAN",
     name: "Kangaskhan",
-    types: [
-      "NORMAL"
-    ],
+    types: ["NORMAL"],
     sprite: "/Front/KANGASKHAN_1.png",
     backSprite: "/spritesBack/KANGASKHAN_1.png",
-    description: "The explosive energy the child is bathed in causes temporary growth. The mother is beside herself with worry about it.",
+    description:
+      "The explosive energy the child is bathed in causes temporary growth. The mother is beside herself with worry about it.",
     stats: {
       hp: 105,
       attack: 125,
       defense: 100,
       spAttack: 60,
       spDefense: 100,
-      speed: 100
+      speed: 100,
     },
     height: "2.2",
     weight: "100.0",
-    abilities: [
-      "PARENTALBOND"
-    ],
-    hiddenAbilities: [
-      "PARENTALBOND"
-    ],
+    abilities: ["PARENTALBOND"],
+    hiddenAbilities: ["PARENTALBOND"],
     category: "Parent",
     moves: [
       "POUND",
@@ -5559,7 +5195,7 @@ export const pokemonForms: PokemonForm[] =
       "ENDURE",
       "REVERSAL",
       "OUTRAGE",
-      "LASTRESORT"
+      "LASTRESORT",
     ],
     tutorMoves: [
       "AERIALACE",
@@ -5653,7 +5289,7 @@ export const pokemonForms: PokemonForm[] =
       "UPROAR",
       "WATERPULSE",
       "WHIRLPOOL",
-      "WORKUP"
+      "WORKUP",
     ],
     eggMoves: [
       "CIRCLETHROW",
@@ -5665,45 +5301,36 @@ export const pokemonForms: PokemonForm[] =
       "FOCUSENERGY",
       "HAMMERARM",
       "STOMP",
-      "UPROAR"
+      "UPROAR",
     ],
     suffix: "normal",
-    evolution: [
-
-    ],
+    evolution: [],
     color: "Brown",
     formNumber: 1,
     formName: "Mega Kangaskhan",
     baseId: "KANGASKHAN",
-    megaStone: "KANGASKHANITE"
+    megaStone: "KANGASKHANITE",
   },
   {
     id: "MRMIME",
     name: "Mr. Mime",
-    types: [
-      "ICE",
-      "PSYCHIC"
-    ],
+    types: ["ICE", "PSYCHIC"],
     sprite: "/Front/MRMIME_1.png",
     backSprite: "/spritesBack/MRMIME_1.png",
-    description: "Its talent is tap-dancing. It can also manipulate temperatures to create a floor of ice, which this Pokémon can kick up to use as a barrier.",
+    description:
+      "Its talent is tap-dancing. It can also manipulate temperatures to create a floor of ice, which this Pokémon can kick up to use as a barrier.",
     stats: {
       hp: 50,
       attack: 65,
       defense: 65,
       spAttack: 90,
       spDefense: 90,
-      speed: 100
+      speed: 100,
     },
     height: "1.4",
     weight: "56.8",
-    abilities: [
-      "VITALSPIRIT",
-      "SCREENCLEANER"
-    ],
-    hiddenAbilities: [
-      "ICEBODY"
-    ],
+    abilities: ["VITALSPIRIT", "SCREENCLEANER"],
+    hiddenAbilities: ["ICEBODY"],
     category: "Dancing",
     moves: [
       "COPYCAT",
@@ -5731,7 +5358,7 @@ export const pokemonForms: PokemonForm[] =
       "SUCKERPUNCH",
       "FREEZEDRY",
       "PSYCHIC",
-      "TEETERDANCE"
+      "TEETERDANCE",
     ],
     tutorMoves: [
       "ALLYSWITCH",
@@ -5832,7 +5459,7 @@ export const pokemonForms: PokemonForm[] =
       "TRIPLEAXEL",
       "UPROAR",
       "WONDERROOM",
-      "ZENHEADBUTT"
+      "ZENHEADBUTT",
     ],
     eggMoves: [
       "CHARM",
@@ -5847,48 +5474,42 @@ export const pokemonForms: PokemonForm[] =
       "POWERSPLIT",
       "TEETERDANCE",
       "TICKLE",
-      "TRICK"
+      "TRICK",
     ],
     suffix: "normal",
     evolution: [
       {
         to: "MRRIME",
         method: "Level",
-        value: "42"
-      }
+        value: "42",
+      },
     ],
     color: "White",
     formNumber: 1,
     formName: "Galarian",
     baseId: "MRMIME",
-    megaStone: null
+    megaStone: null,
   },
   {
     id: "PINSIR",
     name: "Pinsir",
-    types: [
-      "BUG",
-      "FLYING"
-    ],
+    types: ["BUG", "FLYING"],
     sprite: "/Front/PINSIR_1.png",
     backSprite: "/spritesBack/PINSIR_1.png",
-    description: "It zips around at blistering speeds, looking for an opening to skewer its opponent on its giant pincers.",
+    description:
+      "It zips around at blistering speeds, looking for an opening to skewer its opponent on its giant pincers.",
     stats: {
       hp: 65,
       attack: 155,
       defense: 120,
       spAttack: 65,
       spDefense: 90,
-      speed: 105
+      speed: 105,
     },
     height: "1.7",
     weight: "59.0",
-    abilities: [
-      "AERILATE"
-    ],
-    hiddenAbilities: [
-      "AERILATE"
-    ],
+    abilities: ["AERILATE"],
+    hiddenAbilities: ["AERILATE"],
     category: "Stag Beetle",
     moves: [
       "VISEGRIP",
@@ -5905,7 +5526,7 @@ export const pokemonForms: PokemonForm[] =
       "SWORDSDANCE",
       "SUBMISSION",
       "GUILLOTINE",
-      "SUPERPOWER"
+      "SUPERPOWER",
     ],
     tutorMoves: [
       "ATTRACT",
@@ -5971,7 +5592,7 @@ export const pokemonForms: PokemonForm[] =
       "SWORDSDANCE",
       "THIEF",
       "THROATCHOP",
-      "XSCISSOR"
+      "XSCISSOR",
     ],
     eggMoves: [
       "BUGBITE",
@@ -5981,44 +5602,36 @@ export const pokemonForms: PokemonForm[] =
       "FURYATTACK",
       "QUICKATTACK",
       "SUPERPOWER",
-      "THRASH"
+      "THRASH",
     ],
     suffix: "normal",
-    evolution: [
-
-    ],
+    evolution: [],
     color: "Brown",
     formNumber: 1,
     formName: "Mega Pinsir",
     baseId: "PINSIR",
-    megaStone: "PINSIRITE"
+    megaStone: "PINSIRITE",
   },
   {
     id: "TAUROS",
     name: "Tauros",
-    types: [
-      "FIGHTING"
-    ],
+    types: ["FIGHTING"],
     sprite: "/Front/TAUROS_1.png",
     backSprite: "/spritesBack/TAUROS_1.png",
-    description: "This Pokémon has a muscular body and excels at close-quarters combat. It uses its short horns to strike the opponent's weak spots.",
+    description:
+      "This Pokémon has a muscular body and excels at close-quarters combat. It uses its short horns to strike the opponent's weak spots.",
     stats: {
       hp: 75,
       attack: 110,
       defense: 105,
       spAttack: 30,
       spDefense: 70,
-      speed: 100
+      speed: 100,
     },
     height: "1.4",
     weight: "115.0",
-    abilities: [
-      "INTIMIDATE",
-      "ANGERPOINT"
-    ],
-    hiddenAbilities: [
-      "CUDCHEW"
-    ],
+    abilities: ["INTIMIDATE", "ANGERPOINT"],
+    hiddenAbilities: ["CUDCHEW"],
     category: "Wild Bull",
     moves: [
       "TACKLE",
@@ -6034,7 +5647,7 @@ export const pokemonForms: PokemonForm[] =
       "SWAGGER",
       "THRASH",
       "DOUBLEEDGE",
-      "CLOSECOMBAT"
+      "CLOSECOMBAT",
     ],
     tutorMoves: [
       "BODYPRESS",
@@ -6077,49 +5690,37 @@ export const pokemonForms: PokemonForm[] =
       "THROATCHOP",
       "TRAILBLAZE",
       "WILDCHARGE",
-      "ZENHEADBUTT"
+      "ZENHEADBUTT",
     ],
-    eggMoves: [
-      "CURSE",
-      "ENDEAVOR"
-    ],
+    eggMoves: ["CURSE", "ENDEAVOR"],
     suffix: "normal",
-    evolution: [
-
-    ],
+    evolution: [],
     color: "Black",
     formNumber: 1,
     formName: "Paldean (Combat Breed)",
     baseId: "TAUROS",
-    megaStone: null
+    megaStone: null,
   },
   {
     id: "TAUROS",
     name: "Tauros",
-    types: [
-      "FIGHTING",
-      "FIRE"
-    ],
+    types: ["FIGHTING", "FIRE"],
     sprite: "/Front/TAUROS_2.png",
     backSprite: "/spritesBack/TAUROS_2.png",
-    description: "People call this kind of Tauros the Blaze Breed due to the hot air it snorts from its nostrils. Its three tails are intertwined.",
+    description:
+      "People call this kind of Tauros the Blaze Breed due to the hot air it snorts from its nostrils. Its three tails are intertwined.",
     stats: {
       hp: 75,
       attack: 110,
       defense: 105,
       spAttack: 30,
       spDefense: 70,
-      speed: 100
+      speed: 100,
     },
     height: "1.4",
     weight: "85.0",
-    abilities: [
-      "INTIMIDATE",
-      "ANGERPOINT"
-    ],
-    hiddenAbilities: [
-      "CUDCHEW"
-    ],
+    abilities: ["INTIMIDATE", "ANGERPOINT"],
+    hiddenAbilities: ["CUDCHEW"],
     category: "Wild Bull",
     moves: [
       "TACKLE",
@@ -6135,7 +5736,7 @@ export const pokemonForms: PokemonForm[] =
       "SWAGGER",
       "THRASH",
       "FLAREBLITZ",
-      "CLOSECOMBAT"
+      "CLOSECOMBAT",
     ],
     tutorMoves: [
       "BODYPRESS",
@@ -6184,49 +5785,37 @@ export const pokemonForms: PokemonForm[] =
       "TRAILBLAZE",
       "WILDCHARGE",
       "WILLOWISP",
-      "ZENHEADBUTT"
+      "ZENHEADBUTT",
     ],
-    eggMoves: [
-      "CURSE",
-      "ENDEAVOR"
-    ],
+    eggMoves: ["CURSE", "ENDEAVOR"],
     suffix: "normal",
-    evolution: [
-
-    ],
+    evolution: [],
     color: "Black",
     formNumber: 2,
     formName: "Paldean (Blaze Breed)",
     baseId: "TAUROS",
-    megaStone: null
+    megaStone: null,
   },
   {
     id: "TAUROS",
     name: "Tauros",
-    types: [
-      "FIGHTING",
-      "WATER"
-    ],
+    types: ["FIGHTING", "WATER"],
     sprite: "/Front/TAUROS_3.png",
     backSprite: "/spritesBack/TAUROS_3.png",
-    description: "It swims by jetting water from its horns. The most notable characteristic of the Aqua Breed is its high body fat, which allows it to float easily.",
+    description:
+      "It swims by jetting water from its horns. The most notable characteristic of the Aqua Breed is its high body fat, which allows it to float easily.",
     stats: {
       hp: 75,
       attack: 110,
       defense: 105,
       spAttack: 30,
       spDefense: 70,
-      speed: 100
+      speed: 100,
     },
     height: "1.4",
     weight: "110.0",
-    abilities: [
-      "INTIMIDATE",
-      "ANGERPOINT"
-    ],
-    hiddenAbilities: [
-      "CUDCHEW"
-    ],
+    abilities: ["INTIMIDATE", "ANGERPOINT"],
+    hiddenAbilities: ["CUDCHEW"],
     category: "Wild Bull",
     moves: [
       "TACKLE",
@@ -6242,7 +5831,7 @@ export const pokemonForms: PokemonForm[] =
       "SWAGGER",
       "THRASH",
       "WAVECRASH",
-      "CLOSECOMBAT"
+      "CLOSECOMBAT",
     ],
     tutorMoves: [
       "BODYPRESS",
@@ -6288,48 +5877,37 @@ export const pokemonForms: PokemonForm[] =
       "WATERPULSE",
       "WHIRLPOOL",
       "WILDCHARGE",
-      "ZENHEADBUTT"
+      "ZENHEADBUTT",
     ],
-    eggMoves: [
-      "CURSE",
-      "ENDEAVOR"
-    ],
+    eggMoves: ["CURSE", "ENDEAVOR"],
     suffix: "normal",
-    evolution: [
-
-    ],
+    evolution: [],
     color: "Black",
     formNumber: 3,
     formName: "Paldean (Aqua Breed)",
     baseId: "TAUROS",
-    megaStone: null
+    megaStone: null,
   },
   {
     id: "GYARADOS",
     name: "Gyarados",
-    types: [
-      "WATER",
-      "DARK"
-    ],
+    types: ["WATER", "DARK"],
     sprite: "/Front/GYARADOS_1.png",
     backSprite: "/spritesBack/GYARADOS_1.png",
-    description: "It zooms out of the water at Mach speeds. Even large ships caught in its path are split cleanly in two!",
+    description:
+      "It zooms out of the water at Mach speeds. Even large ships caught in its path are split cleanly in two!",
     stats: {
       hp: 95,
       attack: 155,
       defense: 109,
       spAttack: 70,
       spDefense: 130,
-      speed: 81
+      speed: 81,
     },
     height: "6.5",
     weight: "305.0",
-    abilities: [
-      "MOLDBREAKER"
-    ],
-    hiddenAbilities: [
-      "MOLDBREAKER"
-    ],
+    abilities: ["MOLDBREAKER"],
+    hiddenAbilities: ["MOLDBREAKER"],
     category: "Atrocious",
     moves: [
       "BITE",
@@ -6350,7 +5928,7 @@ export const pokemonForms: PokemonForm[] =
       "HYDROPUMP",
       "HURRICANE",
       "THRASH",
-      "HYPERBEAM"
+      "HYPERBEAM",
     ],
     tutorMoves: [
       "AQUATAIL",
@@ -6433,47 +6011,37 @@ export const pokemonForms: PokemonForm[] =
       "TWISTER",
       "WATERFALL",
       "WATERPULSE",
-      "WHIRLPOOL"
+      "WHIRLPOOL",
     ],
-    eggMoves: [
-
-    ],
+    eggMoves: [],
     suffix: "normal",
-    evolution: [
-
-    ],
+    evolution: [],
     color: "Blue",
     formNumber: 1,
     formName: "Mega Gyarados",
     baseId: "GYARADOS",
-    megaStone: "GYARADOSITE"
+    megaStone: "GYARADOSITE",
   },
   {
     id: "AERODACTYL",
     name: "Aerodactyl",
-    types: [
-      "ROCK",
-      "FLYING"
-    ],
+    types: ["ROCK", "FLYING"],
     sprite: "/Front/AERODACTYL_1.png",
     backSprite: "/spritesBack/AERODACTYL_1.png",
-    description: "When it Mega Evolves, it becomes more vicious than ever before. Some say that's because its excess of power is causing it pain.",
+    description:
+      "When it Mega Evolves, it becomes more vicious than ever before. Some say that's because its excess of power is causing it pain.",
     stats: {
       hp: 80,
       attack: 135,
       defense: 85,
       spAttack: 70,
       spDefense: 95,
-      speed: 150
+      speed: 150,
     },
     height: "2.1",
     weight: "79.0",
-    abilities: [
-      "TOUGHCLAWS"
-    ],
-    hiddenAbilities: [
-      "TOUGHCLAWS"
-    ],
+    abilities: ["TOUGHCLAWS"],
+    hiddenAbilities: ["TOUGHCLAWS"],
     category: "Fossil",
     moves: [
       "BITE",
@@ -6489,7 +6057,7 @@ export const pokemonForms: PokemonForm[] =
       "STONEEDGE",
       "AGILITY",
       "HYPERBEAM",
-      "GIGAIMPACT"
+      "GIGAIMPACT",
     ],
     tutorMoves: [
       "AERIALACE",
@@ -6571,7 +6139,7 @@ export const pokemonForms: PokemonForm[] =
       "THIEF",
       "THUNDERFANG",
       "TORMENT",
-      "TWISTER"
+      "TWISTER",
     ],
     eggMoves: [
       "ASSURANCE",
@@ -6580,44 +6148,36 @@ export const pokemonForms: PokemonForm[] =
       "ROOST",
       "TAILWIND",
       "WHIRLWIND",
-      "WIDEGUARD"
+      "WIDEGUARD",
     ],
     suffix: "normal",
-    evolution: [
-
-    ],
+    evolution: [],
     color: "Purple",
     formNumber: 1,
     formName: "Mega Aerodactyl",
     baseId: "AERODACTYL",
-    megaStone: "AERODACTYLITE"
+    megaStone: "AERODACTYLITE",
   },
   {
     id: "ARTICUNO",
     name: "Articuno",
-    types: [
-      "PSYCHIC",
-      "FLYING"
-    ],
+    types: ["PSYCHIC", "FLYING"],
     sprite: "/Front/ARTICUNO_1.png",
     backSprite: "/spritesBack/ARTICUNO_1.png",
-    description: "Its feather-like blades are composed of psychic energy and can shear through thick iron sheets as if they were paper.",
+    description:
+      "Its feather-like blades are composed of psychic energy and can shear through thick iron sheets as if they were paper.",
     stats: {
       hp: 90,
       attack: 85,
       defense: 85,
       spAttack: 125,
       spDefense: 100,
-      speed: 95
+      speed: 95,
     },
     height: "1.7",
     weight: "50.9",
-    abilities: [
-      "COMPETITIVE"
-    ],
-    hiddenAbilities: [
-      "COMPETITIVE"
-    ],
+    abilities: ["COMPETITIVE"],
+    hiddenAbilities: ["COMPETITIVE"],
     category: "Cruel",
     moves: [
       "GUST",
@@ -6634,7 +6194,7 @@ export const pokemonForms: PokemonForm[] =
       "HURRICANE",
       "DOUBLETEAM",
       "FUTURESIGHT",
-      "TRICKROOM"
+      "TRICKROOM",
     ],
     tutorMoves: [
       "AGILITY",
@@ -6694,47 +6254,37 @@ export const pokemonForms: PokemonForm[] =
       "TERABLAST",
       "TRICK",
       "TRICKROOM",
-      "UTURN"
+      "UTURN",
     ],
-    eggMoves: [
-
-    ],
+    eggMoves: [],
     suffix: "normal",
-    evolution: [
-
-    ],
+    evolution: [],
     color: "Purple",
     formNumber: 1,
     formName: "Galarian",
     baseId: "ARTICUNO",
-    megaStone: null
+    megaStone: null,
   },
   {
     id: "ZAPDOS",
     name: "Zapdos",
-    types: [
-      "FIGHTING",
-      "FLYING"
-    ],
+    types: ["FIGHTING", "FLYING"],
     sprite: "/Front/ZAPDOS_1.png",
     backSprite: "/spritesBack/ZAPDOS_1.png",
-    description: "When its feathers rub together, they produce a crackling sound like the zapping of electricity. That's why this Pokémon is called Zapdos.",
+    description:
+      "When its feathers rub together, they produce a crackling sound like the zapping of electricity. That's why this Pokémon is called Zapdos.",
     stats: {
       hp: 90,
       attack: 125,
       defense: 90,
       spAttack: 85,
       spDefense: 90,
-      speed: 100
+      speed: 100,
     },
     height: "1.6",
     weight: "58.2",
-    abilities: [
-      "DEFIANT"
-    ],
-    hiddenAbilities: [
-      "DEFIANT"
-    ],
+    abilities: ["DEFIANT"],
+    hiddenAbilities: ["DEFIANT"],
     category: "Strong Legs",
     moves: [
       "PECK",
@@ -6752,7 +6302,7 @@ export const pokemonForms: PokemonForm[] =
       "COUNTER",
       "DETECT",
       "CLOSECOMBAT",
-      "REVERSAL"
+      "REVERSAL",
     ],
     tutorMoves: [
       "ACROBATICS",
@@ -6816,47 +6366,37 @@ export const pokemonForms: PokemonForm[] =
       "TERABLAST",
       "THROATCHOP",
       "TRAILBLAZE",
-      "UTURN"
+      "UTURN",
     ],
-    eggMoves: [
-
-    ],
+    eggMoves: [],
     suffix: "normal",
-    evolution: [
-
-    ],
+    evolution: [],
     color: "Yellow",
     formNumber: 1,
     formName: "Galarian",
     baseId: "ZAPDOS",
-    megaStone: null
+    megaStone: null,
   },
   {
     id: "MOLTRES",
     name: "Moltres",
-    types: [
-      "DARK",
-      "FLYING"
-    ],
+    types: ["DARK", "FLYING"],
     sprite: "/Front/MOLTRES_1.png",
     backSprite: "/spritesBack/MOLTRES_1.png",
-    description: "This Pokémon's sinister, flame-like aura will consume the spirit of any creature it hits. Victims become burned-out shadows of themselves.",
+    description:
+      "This Pokémon's sinister, flame-like aura will consume the spirit of any creature it hits. Victims become burned-out shadows of themselves.",
     stats: {
       hp: 90,
       attack: 85,
       defense: 90,
       spAttack: 100,
       spDefense: 125,
-      speed: 90
+      speed: 90,
     },
     height: "2.0",
     weight: "66.0",
-    abilities: [
-      "BERSERK"
-    ],
-    hiddenAbilities: [
-      "BERSERK"
-    ],
+    abilities: ["BERSERK"],
+    hiddenAbilities: ["BERSERK"],
     category: "Malevolent",
     moves: [
       "GUST",
@@ -6874,7 +6414,7 @@ export const pokemonForms: PokemonForm[] =
       "HURRICANE",
       "ENDURE",
       "MEMENTO",
-      "SKYATTACK"
+      "SKYATTACK",
     ],
     tutorMoves: [
       "ACROBATICS",
@@ -6930,47 +6470,37 @@ export const pokemonForms: PokemonForm[] =
       "TAUNT",
       "TERABLAST",
       "THIEF",
-      "UTURN"
+      "UTURN",
     ],
-    eggMoves: [
-
-    ],
+    eggMoves: [],
     suffix: "normal",
-    evolution: [
-
-    ],
+    evolution: [],
     color: "Red",
     formNumber: 1,
     formName: "Galarian",
     baseId: "MOLTRES",
-    megaStone: null
+    megaStone: null,
   },
   {
     id: "MEWTWO",
     name: "Mewtwo",
-    types: [
-      "PSYCHIC",
-      "FIGHTING"
-    ],
+    types: ["PSYCHIC", "FIGHTING"],
     sprite: "/Front/MEWTWO_1.png",
     backSprite: "/spritesBack/MEWTWO_1.png",
-    description: "Psychic power has augmented its muscles. It has a grip strength of one ton and can sprint a hundred meters in two seconds flat!",
+    description:
+      "Psychic power has augmented its muscles. It has a grip strength of one ton and can sprint a hundred meters in two seconds flat!",
     stats: {
       hp: 106,
       attack: 190,
       defense: 100,
       spAttack: 154,
       spDefense: 100,
-      speed: 130
+      speed: 130,
     },
     height: "2.3",
     weight: "127.0",
-    abilities: [
-      "STEADFAST"
-    ],
-    hiddenAbilities: [
-      "STEADFAST"
-    ],
+    abilities: ["STEADFAST"],
+    hiddenAbilities: ["STEADFAST"],
     category: "Genetic",
     moves: [
       "LIFEDEW",
@@ -6988,7 +6518,7 @@ export const pokemonForms: PokemonForm[] =
       "MIST",
       "PSYSTRIKE",
       "RECOVER",
-      "FUTURESIGHT"
+      "FUTURESIGHT",
     ],
     tutorMoves: [
       "AGILITY",
@@ -7130,46 +6660,37 @@ export const pokemonForms: PokemonForm[] =
       "WEATHERBALL",
       "WILLOWISP",
       "WONDERROOM",
-      "ZENHEADBUTT"
+      "ZENHEADBUTT",
     ],
-    eggMoves: [
-
-    ],
+    eggMoves: [],
     suffix: "normal",
-    evolution: [
-
-    ],
+    evolution: [],
     color: "Purple",
     formNumber: 1,
     formName: "Mega Mewtwo X",
     baseId: "MEWTWO",
-    megaStone: "MEWTWONITEX"
+    megaStone: "MEWTWONITEX",
   },
   {
     id: "MEWTWO",
     name: "Mewtwo",
-    types: [
-      "PSYCHIC"
-    ],
+    types: ["PSYCHIC"],
     sprite: "/Front/MEWTWO_2.png",
     backSprite: "/spritesBack/MEWTWO_2.png",
-    description: "Despite its diminished size, its mental power has grown phenomenally. With a mere thought, it can smash a skyscraper to smithereens.",
+    description:
+      "Despite its diminished size, its mental power has grown phenomenally. With a mere thought, it can smash a skyscraper to smithereens.",
     stats: {
       hp: 106,
       attack: 150,
       defense: 70,
       spAttack: 194,
       spDefense: 120,
-      speed: 140
+      speed: 140,
     },
     height: "1.5",
     weight: "33.0",
-    abilities: [
-      "INSOMNIA"
-    ],
-    hiddenAbilities: [
-      "INSOMNIA"
-    ],
+    abilities: ["INSOMNIA"],
+    hiddenAbilities: ["INSOMNIA"],
     category: "Genetic",
     moves: [
       "LIFEDEW",
@@ -7187,7 +6708,7 @@ export const pokemonForms: PokemonForm[] =
       "MIST",
       "PSYSTRIKE",
       "RECOVER",
-      "FUTURESIGHT"
+      "FUTURESIGHT",
     ],
     tutorMoves: [
       "AGILITY",
@@ -7329,47 +6850,37 @@ export const pokemonForms: PokemonForm[] =
       "WEATHERBALL",
       "WILLOWISP",
       "WONDERROOM",
-      "ZENHEADBUTT"
+      "ZENHEADBUTT",
     ],
-    eggMoves: [
-
-    ],
+    eggMoves: [],
     suffix: "normal",
-    evolution: [
-
-    ],
+    evolution: [],
     color: "Purple",
     formNumber: 2,
     formName: "Mega Mewtwo Y",
     baseId: "MEWTWO",
-    megaStone: "MEWTWONITEY"
+    megaStone: "MEWTWONITEY",
   },
   {
     id: "TYPHLOSION",
     name: "Typhlosion",
-    types: [
-      "FIRE",
-      "GHOST"
-    ],
+    types: ["FIRE", "GHOST"],
     sprite: "/Front/TYPHLOSION_1.png",
     backSprite: "/spritesBack/TYPHLOSION_1.png",
-    description: "Said to purify lost, forsaken souls with its flames and guide them to the afterlife. I believe its form has been influenced by the energy of the sacred mountain towering at Hisui's center.",
+    description:
+      "Said to purify lost, forsaken souls with its flames and guide them to the afterlife. I believe its form has been influenced by the energy of the sacred mountain towering at Hisui's center.",
     stats: {
       hp: 73,
       attack: 84,
       defense: 78,
       spAttack: 119,
       spDefense: 85,
-      speed: 95
+      speed: 95,
     },
     height: "1.6",
     weight: "69.8",
-    abilities: [
-      "BLAZE"
-    ],
-    hiddenAbilities: [
-      "FRISK"
-    ],
+    abilities: ["BLAZE"],
+    hiddenAbilities: ["FRISK"],
     category: "Ghost Flame",
     moves: [
       "INFERNALPARADE",
@@ -7389,7 +6900,7 @@ export const pokemonForms: PokemonForm[] =
       "FLAMETHROWER",
       "INFERNO",
       "ROLLOUT",
-      "OVERHEAT"
+      "OVERHEAT",
     ],
     tutorMoves: [
       "AERIALACE",
@@ -7448,46 +6959,37 @@ export const pokemonForms: PokemonForm[] =
       "THUNDERPUNCH",
       "WILDCHARGE",
       "WILLOWISP",
-      "ZENHEADBUTT"
+      "ZENHEADBUTT",
     ],
-    eggMoves: [
-
-    ],
+    eggMoves: [],
     suffix: "normal",
-    evolution: [
-
-    ],
+    evolution: [],
     color: "Yellow",
     formNumber: 1,
     formName: "Hisuian",
     baseId: "TYPHLOSION",
-    megaStone: null
+    megaStone: null,
   },
   {
     id: "PICHU",
     name: "Pichu",
-    types: [
-      "ELECTRIC"
-    ],
+    types: ["ELECTRIC"],
     sprite: "/Front/PICHU_2.png",
     backSprite: "/spritesBack/PICHU_2.png",
-    description: "It is still inept at retaining electricity. When it is startled, it discharges power accidentally. It gets better at holding power as it grows older.",
+    description:
+      "It is still inept at retaining electricity. When it is startled, it discharges power accidentally. It gets better at holding power as it grows older.",
     stats: {
       hp: 20,
       attack: 40,
       defense: 15,
       spAttack: 35,
       spDefense: 35,
-      speed: 60
+      speed: 60,
     },
     height: "0.3",
     weight: "2.0",
-    abilities: [
-      "STATIC"
-    ],
-    hiddenAbilities: [
-      "LIGHTNINGROD"
-    ],
+    abilities: ["STATIC"],
+    hiddenAbilities: ["LIGHTNINGROD"],
     category: "Tiny Mouse",
     moves: [
       "THUNDERSHOCK",
@@ -7496,7 +6998,7 @@ export const pokemonForms: PokemonForm[] =
       "SWEETKISS",
       "NUZZLE",
       "NASTYPLOT",
-      "CHARM"
+      "CHARM",
     ],
     tutorMoves: [
       "ATTRACT",
@@ -7559,7 +7061,7 @@ export const pokemonForms: PokemonForm[] =
       "THUNDERWAVE",
       "TRAILBLAZE",
       "VOLTSWITCH",
-      "WILDCHARGE"
+      "WILDCHARGE",
     ],
     eggMoves: [
       "CHARGE",
@@ -7572,44 +7074,36 @@ export const pokemonForms: PokemonForm[] =
       "REVERSAL",
       "THUNDERPUNCH",
       "TICKLE",
-      "WISH"
+      "WISH",
     ],
     suffix: "normal",
-    evolution: [
-
-    ],
+    evolution: [],
     color: "Yellow",
     formNumber: 2,
     formName: "Spiky-Eared",
     baseId: "PICHU",
-    megaStone: null
+    megaStone: null,
   },
   {
     id: "AMPHAROS",
     name: "Ampharos",
-    types: [
-      "ELECTRIC",
-      "DRAGON"
-    ],
+    types: ["ELECTRIC", "DRAGON"],
     sprite: "/Front/AMPHAROS_1.png",
     backSprite: "/spritesBack/AMPHAROS_1.png",
-    description: "Massive amounts of energy intensely stimulated Ampharos's cells, apparently awakening its long-sleeping dragon's blood.",
+    description:
+      "Massive amounts of energy intensely stimulated Ampharos's cells, apparently awakening its long-sleeping dragon's blood.",
     stats: {
       hp: 90,
       attack: 95,
       defense: 105,
       spAttack: 165,
       spDefense: 110,
-      speed: 45
+      speed: 45,
     },
     height: "1.4",
     weight: "61.5",
-    abilities: [
-      "MOLDBREAKER"
-    ],
-    hiddenAbilities: [
-      "MOLDBREAKER"
-    ],
+    abilities: ["MOLDBREAKER"],
+    hiddenAbilities: ["MOLDBREAKER"],
     category: "Light",
     moves: [
       "THUNDERPUNCH",
@@ -7631,7 +7125,7 @@ export const pokemonForms: PokemonForm[] =
       "COTTONGUARD",
       "DAZZLINGGLEAM",
       "LIGHTSCREEN",
-      "THUNDER"
+      "THUNDER",
     ],
     tutorMoves: [
       "AFTERYOU",
@@ -7722,48 +7216,37 @@ export const pokemonForms: PokemonForm[] =
       "THUNDERWAVE",
       "TRAILBLAZE",
       "VOLTSWITCH",
-      "WILDCHARGE"
+      "WILDCHARGE",
     ],
-    eggMoves: [
-
-    ],
+    eggMoves: [],
     suffix: "normal",
-    evolution: [
-
-    ],
+    evolution: [],
     color: "Yellow",
     formNumber: 1,
     formName: "Mega Ampharos",
     baseId: "AMPHAROS",
-    megaStone: "AMPHAROSITE"
+    megaStone: "AMPHAROSITE",
   },
   {
     id: "WOOPER",
     name: "Wooper",
-    types: [
-      "POISON",
-      "GROUND"
-    ],
+    types: ["POISON", "GROUND"],
     sprite: "/Front/WOOPER_1.png",
     backSprite: "/spritesBack/WOOPER_1.png",
-    description: "After losing a territorial struggle, Wooper began living on land. The Pokémon changed over time, developing a poisonous film to protect its body.",
+    description:
+      "After losing a territorial struggle, Wooper began living on land. The Pokémon changed over time, developing a poisonous film to protect its body.",
     stats: {
       hp: 55,
       attack: 45,
       defense: 45,
       spAttack: 25,
       spDefense: 25,
-      speed: 15
+      speed: 15,
     },
     height: "0.4",
     weight: "11.0",
-    abilities: [
-      "POISONPOINT",
-      "WATERABSORB"
-    ],
-    hiddenAbilities: [
-      "UNAWARE"
-    ],
+    abilities: ["POISONPOINT", "WATERABSORB"],
+    hiddenAbilities: ["UNAWARE"],
     category: "Poison Fish",
     moves: [
       "MUDSHOT",
@@ -7777,7 +7260,7 @@ export const pokemonForms: PokemonForm[] =
       "SLUDGEWAVE",
       "AMNESIA",
       "TOXIC",
-      "EARTHQUAKE"
+      "EARTHQUAKE",
     ],
     tutorMoves: [
       "ACIDSPRAY",
@@ -7825,7 +7308,7 @@ export const pokemonForms: PokemonForm[] =
       "TRAILBLAZE",
       "VENOSHOCK",
       "WATERFALL",
-      "WATERPULSE"
+      "WATERPULSE",
     ],
     eggMoves: [
       "ACIDSPRAY",
@@ -7839,49 +7322,42 @@ export const pokemonForms: PokemonForm[] =
       "RECOVER",
       "SPITUP",
       "STOCKPILE",
-      "SWALLOW"
+      "SWALLOW",
     ],
     suffix: "normal",
     evolution: [
       {
         to: "CLODSIRE",
         method: "Level",
-        value: "20"
-      }
+        value: "20",
+      },
     ],
     color: "Brown",
     formNumber: 1,
     formName: "Paldean",
     baseId: "WOOPER",
-    megaStone: null
+    megaStone: null,
   },
   {
     id: "SLOWKING",
     name: "Slowking",
-    types: [
-      "POISON",
-      "PSYCHIC"
-    ],
+    types: ["POISON", "PSYCHIC"],
     sprite: "/Front/SLOWKING_1.png",
     backSprite: "/spritesBack/SLOWKING_1.png",
-    description: "While chanting strange spells, this Pokémon combines its internal toxins with what it's eaten, creating strange potions.",
+    description:
+      "While chanting strange spells, this Pokémon combines its internal toxins with what it's eaten, creating strange potions.",
     stats: {
       hp: 95,
       attack: 65,
       defense: 80,
       spAttack: 110,
       spDefense: 110,
-      speed: 30
+      speed: 30,
     },
     height: "1.8",
     weight: "79.5",
-    abilities: [
-      "CURIOUSMEDICINE",
-      "OWNTEMPO"
-    ],
-    hiddenAbilities: [
-      "REGENERATOR"
-    ],
+    abilities: ["CURIOUSMEDICINE", "OWNTEMPO"],
+    hiddenAbilities: ["REGENERATOR"],
     category: "Hexpert",
     moves: [
       "EERIESPELL",
@@ -7907,7 +7383,7 @@ export const pokemonForms: PokemonForm[] =
       "PSYCHIC",
       "PSYCHUP",
       "RAINDANCE",
-      "HEALPULSE"
+      "HEALPULSE",
     ],
     tutorMoves: [
       "ACIDSPRAY",
@@ -8015,1262 +7491,901 @@ export const pokemonForms: PokemonForm[] =
       "WEATHERBALL",
       "WHIRLPOOL",
       "WONDERROOM",
-      "ZENHEADBUTT"
+      "ZENHEADBUTT",
     ],
-    eggMoves: [
-
-    ],
+    eggMoves: [],
     suffix: "normal",
-    evolution: [
-
-    ],
+    evolution: [],
     color: "Pink",
     formNumber: 1,
     formName: "Galarian",
     baseId: "SLOWKING",
-    megaStone: null
+    megaStone: null,
   },
   {
     id: "UNOWN",
     name: "Unown",
-    types: [
-      "PSYCHIC"
-    ],
+    types: ["PSYCHIC"],
     sprite: "/Front/UNOWN_1.png",
     backSprite: "/spritesBack/UNOWN_1.png",
-    description: "This Pokémon is shaped like ancient text characters. Although research is ongoing, it is a mystery as to which came first, the ancient writings or the various Unown.",
+    description:
+      "This Pokémon is shaped like ancient text characters. Although research is ongoing, it is a mystery as to which came first, the ancient writings or the various Unown.",
     stats: {
       hp: 48,
       attack: 72,
       defense: 48,
       spAttack: 72,
       spDefense: 48,
-      speed: 48
+      speed: 48,
     },
     height: "0.5",
     weight: "5.0",
-    abilities: [
-      "LEVITATE"
-    ],
-    hiddenAbilities: [
-
-    ],
+    abilities: ["LEVITATE"],
+    hiddenAbilities: [],
     category: "Symbol",
-    moves: [
-      "HIDDENPOWER"
-    ],
-    tutorMoves: [
-      "HIDDENPOWER"
-    ],
-    eggMoves: [
-
-    ],
+    moves: ["HIDDENPOWER"],
+    tutorMoves: ["HIDDENPOWER"],
+    eggMoves: [],
     suffix: "normal",
-    evolution: [
-
-    ],
+    evolution: [],
     color: "Black",
     formNumber: 1,
     formName: "B",
     baseId: "UNOWN",
-    megaStone: null
+    megaStone: null,
   },
   {
     id: "UNOWN",
     name: "Unown",
-    types: [
-      "PSYCHIC"
-    ],
+    types: ["PSYCHIC"],
     sprite: "/Front/UNOWN_2.png",
     backSprite: "/spritesBack/UNOWN_2.png",
-    description: "This Pokémon is shaped like ancient text characters. Although research is ongoing, it is a mystery as to which came first, the ancient writings or the various Unown.",
+    description:
+      "This Pokémon is shaped like ancient text characters. Although research is ongoing, it is a mystery as to which came first, the ancient writings or the various Unown.",
     stats: {
       hp: 48,
       attack: 72,
       defense: 48,
       spAttack: 72,
       spDefense: 48,
-      speed: 48
+      speed: 48,
     },
     height: "0.5",
     weight: "5.0",
-    abilities: [
-      "LEVITATE"
-    ],
-    hiddenAbilities: [
-
-    ],
+    abilities: ["LEVITATE"],
+    hiddenAbilities: [],
     category: "Symbol",
-    moves: [
-      "HIDDENPOWER"
-    ],
-    tutorMoves: [
-      "HIDDENPOWER"
-    ],
-    eggMoves: [
-
-    ],
+    moves: ["HIDDENPOWER"],
+    tutorMoves: ["HIDDENPOWER"],
+    eggMoves: [],
     suffix: "normal",
-    evolution: [
-
-    ],
+    evolution: [],
     color: "Black",
     formNumber: 2,
     formName: "C",
     baseId: "UNOWN",
-    megaStone: null
+    megaStone: null,
   },
   {
     id: "UNOWN",
     name: "Unown",
-    types: [
-      "PSYCHIC"
-    ],
+    types: ["PSYCHIC"],
     sprite: "/Front/UNOWN_3.png",
     backSprite: "/spritesBack/UNOWN_3.png",
-    description: "This Pokémon is shaped like ancient text characters. Although research is ongoing, it is a mystery as to which came first, the ancient writings or the various Unown.",
+    description:
+      "This Pokémon is shaped like ancient text characters. Although research is ongoing, it is a mystery as to which came first, the ancient writings or the various Unown.",
     stats: {
       hp: 48,
       attack: 72,
       defense: 48,
       spAttack: 72,
       spDefense: 48,
-      speed: 48
+      speed: 48,
     },
     height: "0.5",
     weight: "5.0",
-    abilities: [
-      "LEVITATE"
-    ],
-    hiddenAbilities: [
-
-    ],
+    abilities: ["LEVITATE"],
+    hiddenAbilities: [],
     category: "Symbol",
-    moves: [
-      "HIDDENPOWER"
-    ],
-    tutorMoves: [
-      "HIDDENPOWER"
-    ],
-    eggMoves: [
-
-    ],
+    moves: ["HIDDENPOWER"],
+    tutorMoves: ["HIDDENPOWER"],
+    eggMoves: [],
     suffix: "normal",
-    evolution: [
-
-    ],
+    evolution: [],
     color: "Black",
     formNumber: 3,
     formName: "D",
     baseId: "UNOWN",
-    megaStone: null
+    megaStone: null,
   },
   {
     id: "UNOWN",
     name: "Unown",
-    types: [
-      "PSYCHIC"
-    ],
+    types: ["PSYCHIC"],
     sprite: "/Front/UNOWN_4.png",
     backSprite: "/spritesBack/UNOWN_4.png",
-    description: "This Pokémon is shaped like ancient text characters. Although research is ongoing, it is a mystery as to which came first, the ancient writings or the various Unown.",
+    description:
+      "This Pokémon is shaped like ancient text characters. Although research is ongoing, it is a mystery as to which came first, the ancient writings or the various Unown.",
     stats: {
       hp: 48,
       attack: 72,
       defense: 48,
       spAttack: 72,
       spDefense: 48,
-      speed: 48
+      speed: 48,
     },
     height: "0.5",
     weight: "5.0",
-    abilities: [
-      "LEVITATE"
-    ],
-    hiddenAbilities: [
-
-    ],
+    abilities: ["LEVITATE"],
+    hiddenAbilities: [],
     category: "Symbol",
-    moves: [
-      "HIDDENPOWER"
-    ],
-    tutorMoves: [
-      "HIDDENPOWER"
-    ],
-    eggMoves: [
-
-    ],
+    moves: ["HIDDENPOWER"],
+    tutorMoves: ["HIDDENPOWER"],
+    eggMoves: [],
     suffix: "normal",
-    evolution: [
-
-    ],
+    evolution: [],
     color: "Black",
     formNumber: 4,
     formName: "E",
     baseId: "UNOWN",
-    megaStone: null
+    megaStone: null,
   },
   {
     id: "UNOWN",
     name: "Unown",
-    types: [
-      "PSYCHIC"
-    ],
+    types: ["PSYCHIC"],
     sprite: "/Front/UNOWN_5.png",
     backSprite: "/spritesBack/UNOWN_5.png",
-    description: "This Pokémon is shaped like ancient text characters. Although research is ongoing, it is a mystery as to which came first, the ancient writings or the various Unown.",
+    description:
+      "This Pokémon is shaped like ancient text characters. Although research is ongoing, it is a mystery as to which came first, the ancient writings or the various Unown.",
     stats: {
       hp: 48,
       attack: 72,
       defense: 48,
       spAttack: 72,
       spDefense: 48,
-      speed: 48
+      speed: 48,
     },
     height: "0.5",
     weight: "5.0",
-    abilities: [
-      "LEVITATE"
-    ],
-    hiddenAbilities: [
-
-    ],
+    abilities: ["LEVITATE"],
+    hiddenAbilities: [],
     category: "Symbol",
-    moves: [
-      "HIDDENPOWER"
-    ],
-    tutorMoves: [
-      "HIDDENPOWER"
-    ],
-    eggMoves: [
-
-    ],
+    moves: ["HIDDENPOWER"],
+    tutorMoves: ["HIDDENPOWER"],
+    eggMoves: [],
     suffix: "normal",
-    evolution: [
-
-    ],
+    evolution: [],
     color: "Black",
     formNumber: 5,
     formName: "F",
     baseId: "UNOWN",
-    megaStone: null
+    megaStone: null,
   },
   {
     id: "UNOWN",
     name: "Unown",
-    types: [
-      "PSYCHIC"
-    ],
+    types: ["PSYCHIC"],
     sprite: "/Front/UNOWN_6.png",
     backSprite: "/spritesBack/UNOWN_6.png",
-    description: "This Pokémon is shaped like ancient text characters. Although research is ongoing, it is a mystery as to which came first, the ancient writings or the various Unown.",
+    description:
+      "This Pokémon is shaped like ancient text characters. Although research is ongoing, it is a mystery as to which came first, the ancient writings or the various Unown.",
     stats: {
       hp: 48,
       attack: 72,
       defense: 48,
       spAttack: 72,
       spDefense: 48,
-      speed: 48
+      speed: 48,
     },
     height: "0.5",
     weight: "5.0",
-    abilities: [
-      "LEVITATE"
-    ],
-    hiddenAbilities: [
-
-    ],
+    abilities: ["LEVITATE"],
+    hiddenAbilities: [],
     category: "Symbol",
-    moves: [
-      "HIDDENPOWER"
-    ],
-    tutorMoves: [
-      "HIDDENPOWER"
-    ],
-    eggMoves: [
-
-    ],
+    moves: ["HIDDENPOWER"],
+    tutorMoves: ["HIDDENPOWER"],
+    eggMoves: [],
     suffix: "normal",
-    evolution: [
-
-    ],
+    evolution: [],
     color: "Black",
     formNumber: 6,
     formName: "G",
     baseId: "UNOWN",
-    megaStone: null
+    megaStone: null,
   },
   {
     id: "UNOWN",
     name: "Unown",
-    types: [
-      "PSYCHIC"
-    ],
+    types: ["PSYCHIC"],
     sprite: "/Front/UNOWN_7.png",
     backSprite: "/spritesBack/UNOWN_7.png",
-    description: "This Pokémon is shaped like ancient text characters. Although research is ongoing, it is a mystery as to which came first, the ancient writings or the various Unown.",
+    description:
+      "This Pokémon is shaped like ancient text characters. Although research is ongoing, it is a mystery as to which came first, the ancient writings or the various Unown.",
     stats: {
       hp: 48,
       attack: 72,
       defense: 48,
       spAttack: 72,
       spDefense: 48,
-      speed: 48
+      speed: 48,
     },
     height: "0.5",
     weight: "5.0",
-    abilities: [
-      "LEVITATE"
-    ],
-    hiddenAbilities: [
-
-    ],
+    abilities: ["LEVITATE"],
+    hiddenAbilities: [],
     category: "Symbol",
-    moves: [
-      "HIDDENPOWER"
-    ],
-    tutorMoves: [
-      "HIDDENPOWER"
-    ],
-    eggMoves: [
-
-    ],
+    moves: ["HIDDENPOWER"],
+    tutorMoves: ["HIDDENPOWER"],
+    eggMoves: [],
     suffix: "normal",
-    evolution: [
-
-    ],
+    evolution: [],
     color: "Black",
     formNumber: 7,
     formName: "H",
     baseId: "UNOWN",
-    megaStone: null
+    megaStone: null,
   },
   {
     id: "UNOWN",
     name: "Unown",
-    types: [
-      "PSYCHIC"
-    ],
+    types: ["PSYCHIC"],
     sprite: "/Front/UNOWN_8.png",
     backSprite: "/spritesBack/UNOWN_8.png",
-    description: "This Pokémon is shaped like ancient text characters. Although research is ongoing, it is a mystery as to which came first, the ancient writings or the various Unown.",
+    description:
+      "This Pokémon is shaped like ancient text characters. Although research is ongoing, it is a mystery as to which came first, the ancient writings or the various Unown.",
     stats: {
       hp: 48,
       attack: 72,
       defense: 48,
       spAttack: 72,
       spDefense: 48,
-      speed: 48
+      speed: 48,
     },
     height: "0.5",
     weight: "5.0",
-    abilities: [
-      "LEVITATE"
-    ],
-    hiddenAbilities: [
-
-    ],
+    abilities: ["LEVITATE"],
+    hiddenAbilities: [],
     category: "Symbol",
-    moves: [
-      "HIDDENPOWER"
-    ],
-    tutorMoves: [
-      "HIDDENPOWER"
-    ],
-    eggMoves: [
-
-    ],
+    moves: ["HIDDENPOWER"],
+    tutorMoves: ["HIDDENPOWER"],
+    eggMoves: [],
     suffix: "normal",
-    evolution: [
-
-    ],
+    evolution: [],
     color: "Black",
     formNumber: 8,
     formName: "I",
     baseId: "UNOWN",
-    megaStone: null
+    megaStone: null,
   },
   {
     id: "UNOWN",
     name: "Unown",
-    types: [
-      "PSYCHIC"
-    ],
+    types: ["PSYCHIC"],
     sprite: "/Front/UNOWN_9.png",
     backSprite: "/spritesBack/UNOWN_9.png",
-    description: "This Pokémon is shaped like ancient text characters. Although research is ongoing, it is a mystery as to which came first, the ancient writings or the various Unown.",
+    description:
+      "This Pokémon is shaped like ancient text characters. Although research is ongoing, it is a mystery as to which came first, the ancient writings or the various Unown.",
     stats: {
       hp: 48,
       attack: 72,
       defense: 48,
       spAttack: 72,
       spDefense: 48,
-      speed: 48
+      speed: 48,
     },
     height: "0.5",
     weight: "5.0",
-    abilities: [
-      "LEVITATE"
-    ],
-    hiddenAbilities: [
-
-    ],
+    abilities: ["LEVITATE"],
+    hiddenAbilities: [],
     category: "Symbol",
-    moves: [
-      "HIDDENPOWER"
-    ],
-    tutorMoves: [
-      "HIDDENPOWER"
-    ],
-    eggMoves: [
-
-    ],
+    moves: ["HIDDENPOWER"],
+    tutorMoves: ["HIDDENPOWER"],
+    eggMoves: [],
     suffix: "normal",
-    evolution: [
-
-    ],
+    evolution: [],
     color: "Black",
     formNumber: 9,
     formName: "J",
     baseId: "UNOWN",
-    megaStone: null
+    megaStone: null,
   },
   {
     id: "UNOWN",
     name: "Unown",
-    types: [
-      "PSYCHIC"
-    ],
+    types: ["PSYCHIC"],
     sprite: "/Front/UNOWN_10.png",
     backSprite: "/spritesBack/UNOWN_10.png",
-    description: "This Pokémon is shaped like ancient text characters. Although research is ongoing, it is a mystery as to which came first, the ancient writings or the various Unown.",
+    description:
+      "This Pokémon is shaped like ancient text characters. Although research is ongoing, it is a mystery as to which came first, the ancient writings or the various Unown.",
     stats: {
       hp: 48,
       attack: 72,
       defense: 48,
       spAttack: 72,
       spDefense: 48,
-      speed: 48
+      speed: 48,
     },
     height: "0.5",
     weight: "5.0",
-    abilities: [
-      "LEVITATE"
-    ],
-    hiddenAbilities: [
-
-    ],
+    abilities: ["LEVITATE"],
+    hiddenAbilities: [],
     category: "Symbol",
-    moves: [
-      "HIDDENPOWER"
-    ],
-    tutorMoves: [
-      "HIDDENPOWER"
-    ],
-    eggMoves: [
-
-    ],
+    moves: ["HIDDENPOWER"],
+    tutorMoves: ["HIDDENPOWER"],
+    eggMoves: [],
     suffix: "normal",
-    evolution: [
-
-    ],
+    evolution: [],
     color: "Black",
     formNumber: 10,
     formName: "K",
     baseId: "UNOWN",
-    megaStone: null
+    megaStone: null,
   },
   {
     id: "UNOWN",
     name: "Unown",
-    types: [
-      "PSYCHIC"
-    ],
+    types: ["PSYCHIC"],
     sprite: "/Front/UNOWN_11.png",
     backSprite: "/spritesBack/UNOWN_11.png",
-    description: "This Pokémon is shaped like ancient text characters. Although research is ongoing, it is a mystery as to which came first, the ancient writings or the various Unown.",
+    description:
+      "This Pokémon is shaped like ancient text characters. Although research is ongoing, it is a mystery as to which came first, the ancient writings or the various Unown.",
     stats: {
       hp: 48,
       attack: 72,
       defense: 48,
       spAttack: 72,
       spDefense: 48,
-      speed: 48
+      speed: 48,
     },
     height: "0.5",
     weight: "5.0",
-    abilities: [
-      "LEVITATE"
-    ],
-    hiddenAbilities: [
-
-    ],
+    abilities: ["LEVITATE"],
+    hiddenAbilities: [],
     category: "Symbol",
-    moves: [
-      "HIDDENPOWER"
-    ],
-    tutorMoves: [
-      "HIDDENPOWER"
-    ],
-    eggMoves: [
-
-    ],
+    moves: ["HIDDENPOWER"],
+    tutorMoves: ["HIDDENPOWER"],
+    eggMoves: [],
     suffix: "normal",
-    evolution: [
-
-    ],
+    evolution: [],
     color: "Black",
     formNumber: 11,
     formName: "L",
     baseId: "UNOWN",
-    megaStone: null
+    megaStone: null,
   },
   {
     id: "UNOWN",
     name: "Unown",
-    types: [
-      "PSYCHIC"
-    ],
+    types: ["PSYCHIC"],
     sprite: "/Front/UNOWN_12.png",
     backSprite: "/spritesBack/UNOWN_12.png",
-    description: "This Pokémon is shaped like ancient text characters. Although research is ongoing, it is a mystery as to which came first, the ancient writings or the various Unown.",
+    description:
+      "This Pokémon is shaped like ancient text characters. Although research is ongoing, it is a mystery as to which came first, the ancient writings or the various Unown.",
     stats: {
       hp: 48,
       attack: 72,
       defense: 48,
       spAttack: 72,
       spDefense: 48,
-      speed: 48
+      speed: 48,
     },
     height: "0.5",
     weight: "5.0",
-    abilities: [
-      "LEVITATE"
-    ],
-    hiddenAbilities: [
-
-    ],
+    abilities: ["LEVITATE"],
+    hiddenAbilities: [],
     category: "Symbol",
-    moves: [
-      "HIDDENPOWER"
-    ],
-    tutorMoves: [
-      "HIDDENPOWER"
-    ],
-    eggMoves: [
-
-    ],
+    moves: ["HIDDENPOWER"],
+    tutorMoves: ["HIDDENPOWER"],
+    eggMoves: [],
     suffix: "normal",
-    evolution: [
-
-    ],
+    evolution: [],
     color: "Black",
     formNumber: 12,
     formName: "M",
     baseId: "UNOWN",
-    megaStone: null
+    megaStone: null,
   },
   {
     id: "UNOWN",
     name: "Unown",
-    types: [
-      "PSYCHIC"
-    ],
+    types: ["PSYCHIC"],
     sprite: "/Front/UNOWN_13.png",
     backSprite: "/spritesBack/UNOWN_13.png",
-    description: "This Pokémon is shaped like ancient text characters. Although research is ongoing, it is a mystery as to which came first, the ancient writings or the various Unown.",
+    description:
+      "This Pokémon is shaped like ancient text characters. Although research is ongoing, it is a mystery as to which came first, the ancient writings or the various Unown.",
     stats: {
       hp: 48,
       attack: 72,
       defense: 48,
       spAttack: 72,
       spDefense: 48,
-      speed: 48
+      speed: 48,
     },
     height: "0.5",
     weight: "5.0",
-    abilities: [
-      "LEVITATE"
-    ],
-    hiddenAbilities: [
-
-    ],
+    abilities: ["LEVITATE"],
+    hiddenAbilities: [],
     category: "Symbol",
-    moves: [
-      "HIDDENPOWER"
-    ],
-    tutorMoves: [
-      "HIDDENPOWER"
-    ],
-    eggMoves: [
-
-    ],
+    moves: ["HIDDENPOWER"],
+    tutorMoves: ["HIDDENPOWER"],
+    eggMoves: [],
     suffix: "normal",
-    evolution: [
-
-    ],
+    evolution: [],
     color: "Black",
     formNumber: 13,
     formName: "N",
     baseId: "UNOWN",
-    megaStone: null
+    megaStone: null,
   },
   {
     id: "UNOWN",
     name: "Unown",
-    types: [
-      "PSYCHIC"
-    ],
+    types: ["PSYCHIC"],
     sprite: "/Front/UNOWN_14.png",
     backSprite: "/spritesBack/UNOWN_14.png",
-    description: "This Pokémon is shaped like ancient text characters. Although research is ongoing, it is a mystery as to which came first, the ancient writings or the various Unown.",
+    description:
+      "This Pokémon is shaped like ancient text characters. Although research is ongoing, it is a mystery as to which came first, the ancient writings or the various Unown.",
     stats: {
       hp: 48,
       attack: 72,
       defense: 48,
       spAttack: 72,
       spDefense: 48,
-      speed: 48
+      speed: 48,
     },
     height: "0.5",
     weight: "5.0",
-    abilities: [
-      "LEVITATE"
-    ],
-    hiddenAbilities: [
-
-    ],
+    abilities: ["LEVITATE"],
+    hiddenAbilities: [],
     category: "Symbol",
-    moves: [
-      "HIDDENPOWER"
-    ],
-    tutorMoves: [
-      "HIDDENPOWER"
-    ],
-    eggMoves: [
-
-    ],
+    moves: ["HIDDENPOWER"],
+    tutorMoves: ["HIDDENPOWER"],
+    eggMoves: [],
     suffix: "normal",
-    evolution: [
-
-    ],
+    evolution: [],
     color: "Black",
     formNumber: 14,
     formName: "O",
     baseId: "UNOWN",
-    megaStone: null
+    megaStone: null,
   },
   {
     id: "UNOWN",
     name: "Unown",
-    types: [
-      "PSYCHIC"
-    ],
+    types: ["PSYCHIC"],
     sprite: "/Front/UNOWN_15.png",
     backSprite: "/spritesBack/UNOWN_15.png",
-    description: "This Pokémon is shaped like ancient text characters. Although research is ongoing, it is a mystery as to which came first, the ancient writings or the various Unown.",
+    description:
+      "This Pokémon is shaped like ancient text characters. Although research is ongoing, it is a mystery as to which came first, the ancient writings or the various Unown.",
     stats: {
       hp: 48,
       attack: 72,
       defense: 48,
       spAttack: 72,
       spDefense: 48,
-      speed: 48
+      speed: 48,
     },
     height: "0.5",
     weight: "5.0",
-    abilities: [
-      "LEVITATE"
-    ],
-    hiddenAbilities: [
-
-    ],
+    abilities: ["LEVITATE"],
+    hiddenAbilities: [],
     category: "Symbol",
-    moves: [
-      "HIDDENPOWER"
-    ],
-    tutorMoves: [
-      "HIDDENPOWER"
-    ],
-    eggMoves: [
-
-    ],
+    moves: ["HIDDENPOWER"],
+    tutorMoves: ["HIDDENPOWER"],
+    eggMoves: [],
     suffix: "normal",
-    evolution: [
-
-    ],
+    evolution: [],
     color: "Black",
     formNumber: 15,
     formName: "P",
     baseId: "UNOWN",
-    megaStone: null
+    megaStone: null,
   },
   {
     id: "UNOWN",
     name: "Unown",
-    types: [
-      "PSYCHIC"
-    ],
+    types: ["PSYCHIC"],
     sprite: "/Front/UNOWN_16.png",
     backSprite: "/spritesBack/UNOWN_16.png",
-    description: "This Pokémon is shaped like ancient text characters. Although research is ongoing, it is a mystery as to which came first, the ancient writings or the various Unown.",
+    description:
+      "This Pokémon is shaped like ancient text characters. Although research is ongoing, it is a mystery as to which came first, the ancient writings or the various Unown.",
     stats: {
       hp: 48,
       attack: 72,
       defense: 48,
       spAttack: 72,
       spDefense: 48,
-      speed: 48
+      speed: 48,
     },
     height: "0.5",
     weight: "5.0",
-    abilities: [
-      "LEVITATE"
-    ],
-    hiddenAbilities: [
-
-    ],
+    abilities: ["LEVITATE"],
+    hiddenAbilities: [],
     category: "Symbol",
-    moves: [
-      "HIDDENPOWER"
-    ],
-    tutorMoves: [
-      "HIDDENPOWER"
-    ],
-    eggMoves: [
-
-    ],
+    moves: ["HIDDENPOWER"],
+    tutorMoves: ["HIDDENPOWER"],
+    eggMoves: [],
     suffix: "normal",
-    evolution: [
-
-    ],
+    evolution: [],
     color: "Black",
     formNumber: 16,
     formName: "Q",
     baseId: "UNOWN",
-    megaStone: null
+    megaStone: null,
   },
   {
     id: "UNOWN",
     name: "Unown",
-    types: [
-      "PSYCHIC"
-    ],
+    types: ["PSYCHIC"],
     sprite: "/Front/UNOWN_17.png",
     backSprite: "/spritesBack/UNOWN_17.png",
-    description: "This Pokémon is shaped like ancient text characters. Although research is ongoing, it is a mystery as to which came first, the ancient writings or the various Unown.",
+    description:
+      "This Pokémon is shaped like ancient text characters. Although research is ongoing, it is a mystery as to which came first, the ancient writings or the various Unown.",
     stats: {
       hp: 48,
       attack: 72,
       defense: 48,
       spAttack: 72,
       spDefense: 48,
-      speed: 48
+      speed: 48,
     },
     height: "0.5",
     weight: "5.0",
-    abilities: [
-      "LEVITATE"
-    ],
-    hiddenAbilities: [
-
-    ],
+    abilities: ["LEVITATE"],
+    hiddenAbilities: [],
     category: "Symbol",
-    moves: [
-      "HIDDENPOWER"
-    ],
-    tutorMoves: [
-      "HIDDENPOWER"
-    ],
-    eggMoves: [
-
-    ],
+    moves: ["HIDDENPOWER"],
+    tutorMoves: ["HIDDENPOWER"],
+    eggMoves: [],
     suffix: "normal",
-    evolution: [
-
-    ],
+    evolution: [],
     color: "Black",
     formNumber: 17,
     formName: "R",
     baseId: "UNOWN",
-    megaStone: null
+    megaStone: null,
   },
   {
     id: "UNOWN",
     name: "Unown",
-    types: [
-      "PSYCHIC"
-    ],
+    types: ["PSYCHIC"],
     sprite: "/Front/UNOWN_18.png",
     backSprite: "/spritesBack/UNOWN_18.png",
-    description: "This Pokémon is shaped like ancient text characters. Although research is ongoing, it is a mystery as to which came first, the ancient writings or the various Unown.",
+    description:
+      "This Pokémon is shaped like ancient text characters. Although research is ongoing, it is a mystery as to which came first, the ancient writings or the various Unown.",
     stats: {
       hp: 48,
       attack: 72,
       defense: 48,
       spAttack: 72,
       spDefense: 48,
-      speed: 48
+      speed: 48,
     },
     height: "0.5",
     weight: "5.0",
-    abilities: [
-      "LEVITATE"
-    ],
-    hiddenAbilities: [
-
-    ],
+    abilities: ["LEVITATE"],
+    hiddenAbilities: [],
     category: "Symbol",
-    moves: [
-      "HIDDENPOWER"
-    ],
-    tutorMoves: [
-      "HIDDENPOWER"
-    ],
-    eggMoves: [
-
-    ],
+    moves: ["HIDDENPOWER"],
+    tutorMoves: ["HIDDENPOWER"],
+    eggMoves: [],
     suffix: "normal",
-    evolution: [
-
-    ],
+    evolution: [],
     color: "Black",
     formNumber: 18,
     formName: "S",
     baseId: "UNOWN",
-    megaStone: null
+    megaStone: null,
   },
   {
     id: "UNOWN",
     name: "Unown",
-    types: [
-      "PSYCHIC"
-    ],
+    types: ["PSYCHIC"],
     sprite: "/Front/UNOWN_19.png",
     backSprite: "/spritesBack/UNOWN_19.png",
-    description: "This Pokémon is shaped like ancient text characters. Although research is ongoing, it is a mystery as to which came first, the ancient writings or the various Unown.",
+    description:
+      "This Pokémon is shaped like ancient text characters. Although research is ongoing, it is a mystery as to which came first, the ancient writings or the various Unown.",
     stats: {
       hp: 48,
       attack: 72,
       defense: 48,
       spAttack: 72,
       spDefense: 48,
-      speed: 48
+      speed: 48,
     },
     height: "0.5",
     weight: "5.0",
-    abilities: [
-      "LEVITATE"
-    ],
-    hiddenAbilities: [
-
-    ],
+    abilities: ["LEVITATE"],
+    hiddenAbilities: [],
     category: "Symbol",
-    moves: [
-      "HIDDENPOWER"
-    ],
-    tutorMoves: [
-      "HIDDENPOWER"
-    ],
-    eggMoves: [
-
-    ],
+    moves: ["HIDDENPOWER"],
+    tutorMoves: ["HIDDENPOWER"],
+    eggMoves: [],
     suffix: "normal",
-    evolution: [
-
-    ],
+    evolution: [],
     color: "Black",
     formNumber: 19,
     formName: "T",
     baseId: "UNOWN",
-    megaStone: null
+    megaStone: null,
   },
   {
     id: "UNOWN",
     name: "Unown",
-    types: [
-      "PSYCHIC"
-    ],
+    types: ["PSYCHIC"],
     sprite: "/Front/UNOWN_20.png",
     backSprite: "/spritesBack/UNOWN_20.png",
-    description: "This Pokémon is shaped like ancient text characters. Although research is ongoing, it is a mystery as to which came first, the ancient writings or the various Unown.",
+    description:
+      "This Pokémon is shaped like ancient text characters. Although research is ongoing, it is a mystery as to which came first, the ancient writings or the various Unown.",
     stats: {
       hp: 48,
       attack: 72,
       defense: 48,
       spAttack: 72,
       spDefense: 48,
-      speed: 48
+      speed: 48,
     },
     height: "0.5",
     weight: "5.0",
-    abilities: [
-      "LEVITATE"
-    ],
-    hiddenAbilities: [
-
-    ],
+    abilities: ["LEVITATE"],
+    hiddenAbilities: [],
     category: "Symbol",
-    moves: [
-      "HIDDENPOWER"
-    ],
-    tutorMoves: [
-      "HIDDENPOWER"
-    ],
-    eggMoves: [
-
-    ],
+    moves: ["HIDDENPOWER"],
+    tutorMoves: ["HIDDENPOWER"],
+    eggMoves: [],
     suffix: "normal",
-    evolution: [
-
-    ],
+    evolution: [],
     color: "Black",
     formNumber: 20,
     formName: "U",
     baseId: "UNOWN",
-    megaStone: null
+    megaStone: null,
   },
   {
     id: "UNOWN",
     name: "Unown",
-    types: [
-      "PSYCHIC"
-    ],
+    types: ["PSYCHIC"],
     sprite: "/Front/UNOWN_21.png",
     backSprite: "/spritesBack/UNOWN_21.png",
-    description: "This Pokémon is shaped like ancient text characters. Although research is ongoing, it is a mystery as to which came first, the ancient writings or the various Unown.",
+    description:
+      "This Pokémon is shaped like ancient text characters. Although research is ongoing, it is a mystery as to which came first, the ancient writings or the various Unown.",
     stats: {
       hp: 48,
       attack: 72,
       defense: 48,
       spAttack: 72,
       spDefense: 48,
-      speed: 48
+      speed: 48,
     },
     height: "0.5",
     weight: "5.0",
-    abilities: [
-      "LEVITATE"
-    ],
-    hiddenAbilities: [
-
-    ],
+    abilities: ["LEVITATE"],
+    hiddenAbilities: [],
     category: "Symbol",
-    moves: [
-      "HIDDENPOWER"
-    ],
-    tutorMoves: [
-      "HIDDENPOWER"
-    ],
-    eggMoves: [
-
-    ],
+    moves: ["HIDDENPOWER"],
+    tutorMoves: ["HIDDENPOWER"],
+    eggMoves: [],
     suffix: "normal",
-    evolution: [
-
-    ],
+    evolution: [],
     color: "Black",
     formNumber: 21,
     formName: "V",
     baseId: "UNOWN",
-    megaStone: null
+    megaStone: null,
   },
   {
     id: "UNOWN",
     name: "Unown",
-    types: [
-      "PSYCHIC"
-    ],
+    types: ["PSYCHIC"],
     sprite: "/Front/UNOWN_22.png",
     backSprite: "/spritesBack/UNOWN_22.png",
-    description: "This Pokémon is shaped like ancient text characters. Although research is ongoing, it is a mystery as to which came first, the ancient writings or the various Unown.",
+    description:
+      "This Pokémon is shaped like ancient text characters. Although research is ongoing, it is a mystery as to which came first, the ancient writings or the various Unown.",
     stats: {
       hp: 48,
       attack: 72,
       defense: 48,
       spAttack: 72,
       spDefense: 48,
-      speed: 48
+      speed: 48,
     },
     height: "0.5",
     weight: "5.0",
-    abilities: [
-      "LEVITATE"
-    ],
-    hiddenAbilities: [
-
-    ],
+    abilities: ["LEVITATE"],
+    hiddenAbilities: [],
     category: "Symbol",
-    moves: [
-      "HIDDENPOWER"
-    ],
-    tutorMoves: [
-      "HIDDENPOWER"
-    ],
-    eggMoves: [
-
-    ],
+    moves: ["HIDDENPOWER"],
+    tutorMoves: ["HIDDENPOWER"],
+    eggMoves: [],
     suffix: "normal",
-    evolution: [
-
-    ],
+    evolution: [],
     color: "Black",
     formNumber: 22,
     formName: "W",
     baseId: "UNOWN",
-    megaStone: null
+    megaStone: null,
   },
   {
     id: "UNOWN",
     name: "Unown",
-    types: [
-      "PSYCHIC"
-    ],
+    types: ["PSYCHIC"],
     sprite: "/Front/UNOWN_23.png",
     backSprite: "/spritesBack/UNOWN_23.png",
-    description: "This Pokémon is shaped like ancient text characters. Although research is ongoing, it is a mystery as to which came first, the ancient writings or the various Unown.",
+    description:
+      "This Pokémon is shaped like ancient text characters. Although research is ongoing, it is a mystery as to which came first, the ancient writings or the various Unown.",
     stats: {
       hp: 48,
       attack: 72,
       defense: 48,
       spAttack: 72,
       spDefense: 48,
-      speed: 48
+      speed: 48,
     },
     height: "0.5",
     weight: "5.0",
-    abilities: [
-      "LEVITATE"
-    ],
-    hiddenAbilities: [
-
-    ],
+    abilities: ["LEVITATE"],
+    hiddenAbilities: [],
     category: "Symbol",
-    moves: [
-      "HIDDENPOWER"
-    ],
-    tutorMoves: [
-      "HIDDENPOWER"
-    ],
-    eggMoves: [
-
-    ],
+    moves: ["HIDDENPOWER"],
+    tutorMoves: ["HIDDENPOWER"],
+    eggMoves: [],
     suffix: "normal",
-    evolution: [
-
-    ],
+    evolution: [],
     color: "Black",
     formNumber: 23,
     formName: "X",
     baseId: "UNOWN",
-    megaStone: null
+    megaStone: null,
   },
   {
     id: "UNOWN",
     name: "Unown",
-    types: [
-      "PSYCHIC"
-    ],
+    types: ["PSYCHIC"],
     sprite: "/Front/UNOWN_24.png",
     backSprite: "/spritesBack/UNOWN_24.png",
-    description: "This Pokémon is shaped like ancient text characters. Although research is ongoing, it is a mystery as to which came first, the ancient writings or the various Unown.",
+    description:
+      "This Pokémon is shaped like ancient text characters. Although research is ongoing, it is a mystery as to which came first, the ancient writings or the various Unown.",
     stats: {
       hp: 48,
       attack: 72,
       defense: 48,
       spAttack: 72,
       spDefense: 48,
-      speed: 48
+      speed: 48,
     },
     height: "0.5",
     weight: "5.0",
-    abilities: [
-      "LEVITATE"
-    ],
-    hiddenAbilities: [
-
-    ],
+    abilities: ["LEVITATE"],
+    hiddenAbilities: [],
     category: "Symbol",
-    moves: [
-      "HIDDENPOWER"
-    ],
-    tutorMoves: [
-      "HIDDENPOWER"
-    ],
-    eggMoves: [
-
-    ],
+    moves: ["HIDDENPOWER"],
+    tutorMoves: ["HIDDENPOWER"],
+    eggMoves: [],
     suffix: "normal",
-    evolution: [
-
-    ],
+    evolution: [],
     color: "Black",
     formNumber: 24,
     formName: "Y",
     baseId: "UNOWN",
-    megaStone: null
+    megaStone: null,
   },
   {
     id: "UNOWN",
     name: "Unown",
-    types: [
-      "PSYCHIC"
-    ],
+    types: ["PSYCHIC"],
     sprite: "/Front/UNOWN_25.png",
     backSprite: "/spritesBack/UNOWN_25.png",
-    description: "This Pokémon is shaped like ancient text characters. Although research is ongoing, it is a mystery as to which came first, the ancient writings or the various Unown.",
+    description:
+      "This Pokémon is shaped like ancient text characters. Although research is ongoing, it is a mystery as to which came first, the ancient writings or the various Unown.",
     stats: {
       hp: 48,
       attack: 72,
       defense: 48,
       spAttack: 72,
       spDefense: 48,
-      speed: 48
+      speed: 48,
     },
     height: "0.5",
     weight: "5.0",
-    abilities: [
-      "LEVITATE"
-    ],
-    hiddenAbilities: [
-
-    ],
+    abilities: ["LEVITATE"],
+    hiddenAbilities: [],
     category: "Symbol",
-    moves: [
-      "HIDDENPOWER"
-    ],
-    tutorMoves: [
-      "HIDDENPOWER"
-    ],
-    eggMoves: [
-
-    ],
+    moves: ["HIDDENPOWER"],
+    tutorMoves: ["HIDDENPOWER"],
+    eggMoves: [],
     suffix: "normal",
-    evolution: [
-
-    ],
+    evolution: [],
     color: "Black",
     formNumber: 25,
     formName: "Z",
     baseId: "UNOWN",
-    megaStone: null
+    megaStone: null,
   },
   {
     id: "UNOWN",
     name: "Unown",
-    types: [
-      "PSYCHIC"
-    ],
+    types: ["PSYCHIC"],
     sprite: "/Front/UNOWN_26.png",
     backSprite: "/spritesBack/UNOWN_26.png",
-    description: "This Pokémon is shaped like ancient text characters. Although research is ongoing, it is a mystery as to which came first, the ancient writings or the various Unown.",
+    description:
+      "This Pokémon is shaped like ancient text characters. Although research is ongoing, it is a mystery as to which came first, the ancient writings or the various Unown.",
     stats: {
       hp: 48,
       attack: 72,
       defense: 48,
       spAttack: 72,
       spDefense: 48,
-      speed: 48
+      speed: 48,
     },
     height: "0.5",
     weight: "5.0",
-    abilities: [
-      "LEVITATE"
-    ],
-    hiddenAbilities: [
-
-    ],
+    abilities: ["LEVITATE"],
+    hiddenAbilities: [],
     category: "Symbol",
-    moves: [
-      "HIDDENPOWER"
-    ],
-    tutorMoves: [
-      "HIDDENPOWER"
-    ],
-    eggMoves: [
-
-    ],
+    moves: ["HIDDENPOWER"],
+    tutorMoves: ["HIDDENPOWER"],
+    eggMoves: [],
     suffix: "normal",
-    evolution: [
-
-    ],
+    evolution: [],
     color: "Black",
     formNumber: 26,
     formName: "?",
     baseId: "UNOWN",
-    megaStone: null
+    megaStone: null,
   },
   {
     id: "UNOWN",
     name: "Unown",
-    types: [
-      "PSYCHIC"
-    ],
+    types: ["PSYCHIC"],
     sprite: "/Front/UNOWN_27.png",
     backSprite: "/spritesBack/UNOWN_27.png",
-    description: "This Pokémon is shaped like ancient text characters. Although research is ongoing, it is a mystery as to which came first, the ancient writings or the various Unown.",
+    description:
+      "This Pokémon is shaped like ancient text characters. Although research is ongoing, it is a mystery as to which came first, the ancient writings or the various Unown.",
     stats: {
       hp: 48,
       attack: 72,
       defense: 48,
       spAttack: 72,
       spDefense: 48,
-      speed: 48
+      speed: 48,
     },
     height: "0.5",
     weight: "5.0",
-    abilities: [
-      "LEVITATE"
-    ],
-    hiddenAbilities: [
-
-    ],
+    abilities: ["LEVITATE"],
+    hiddenAbilities: [],
     category: "Symbol",
-    moves: [
-      "HIDDENPOWER"
-    ],
-    tutorMoves: [
-      "HIDDENPOWER"
-    ],
-    eggMoves: [
-
-    ],
+    moves: ["HIDDENPOWER"],
+    tutorMoves: ["HIDDENPOWER"],
+    eggMoves: [],
     suffix: "normal",
-    evolution: [
-
-    ],
+    evolution: [],
     color: "Black",
     formNumber: 27,
     formName: "!",
     baseId: "UNOWN",
-    megaStone: null
+    megaStone: null,
   },
   {
     id: "STEELIX",
     name: "Steelix",
-    types: [
-      "STEEL",
-      "GROUND"
-    ],
+    types: ["STEEL", "GROUND"],
     sprite: "/Front/STEELIX_1.png",
     backSprite: "/spritesBack/STEELIX_1.png",
-    description: "Steelix live even further underground than Onix. This Pokémon is known to dig toward the earth's core, reaching a depth of over six-tenths of a mile underground.",
+    description:
+      "Steelix live even further underground than Onix. This Pokémon is known to dig toward the earth's core, reaching a depth of over six-tenths of a mile underground.",
     stats: {
       hp: 75,
       attack: 125,
       defense: 230,
       spAttack: 55,
       spDefense: 95,
-      speed: 30
+      speed: 30,
     },
     height: "10.5",
     weight: "740.0",
-    abilities: [
-      "SANDFORCE"
-    ],
-    hiddenAbilities: [
-      "SANDFORCE"
-    ],
+    abilities: ["SANDFORCE"],
+    hiddenAbilities: ["SANDFORCE"],
     category: "Iron Snake",
     moves: [
       "CRUNCH",
@@ -9296,7 +8411,7 @@ export const pokemonForms: PokemonForm[] =
       "IRONTAIL",
       "STONEEDGE",
       "DOUBLEEDGE",
-      "MAGNETRISE"
+      "MAGNETRISE",
     ],
     tutorMoves: [
       "ANCIENTPOWER",
@@ -9384,48 +8499,37 @@ export const pokemonForms: PokemonForm[] =
       "TAUNT",
       "THUNDERFANG",
       "TORMENT",
-      "TWISTER"
+      "TWISTER",
     ],
-    eggMoves: [
-
-    ],
+    eggMoves: [],
     suffix: "normal",
-    evolution: [
-
-    ],
+    evolution: [],
     color: "Gray",
     formNumber: 1,
     formName: "Mega Steelix",
     baseId: "STEELIX",
-    megaStone: "STEELIXITE"
+    megaStone: "STEELIXITE",
   },
   {
     id: "QWILFISH",
     name: "Qwilfish",
-    types: [
-      "DARK",
-      "POISON"
-    ],
+    types: ["DARK", "POISON"],
     sprite: "/Front/QWILFISH_1.png",
     backSprite: "/spritesBack/QWILFISH_1.png",
-    description: "It absorbs toxins from the food it eats. The distinct purple spikes on its body are evidence of its potent poison.",
+    description:
+      "It absorbs toxins from the food it eats. The distinct purple spikes on its body are evidence of its potent poison.",
     stats: {
       hp: 65,
       attack: 95,
       defense: 85,
       spAttack: 55,
       spDefense: 55,
-      speed: 85
+      speed: 85,
     },
     height: "0.5",
     weight: "3.9",
-    abilities: [
-      "POISONPOINT",
-      "SWIFTSWIM"
-    ],
-    hiddenAbilities: [
-      "INTIMIDATE"
-    ],
+    abilities: ["POISONPOINT", "SWIFTSWIM"],
+    hiddenAbilities: ["INTIMIDATE"],
     category: "Balloon",
     moves: [
       "POISONSTING",
@@ -9444,7 +8548,7 @@ export const pokemonForms: PokemonForm[] =
       "TOXIC",
       "CRUNCH",
       "ACUPRESSURE",
-      "DESTINYBOND"
+      "DESTINYBOND",
     ],
     tutorMoves: [
       "ACIDSPRAY",
@@ -9494,7 +8598,7 @@ export const pokemonForms: PokemonForm[] =
       "TOXICSPIKES",
       "VENOSHOCK",
       "WATERFALL",
-      "WATERPULSE"
+      "WATERPULSE",
     ],
     eggMoves: [
       "ACIDSPRAY",
@@ -9506,48 +8610,42 @@ export const pokemonForms: PokemonForm[] =
       "HAZE",
       "SELFDESTRUCT",
       "SUPERSONIC",
-      "WATERPULSE"
+      "WATERPULSE",
     ],
     suffix: "normal",
     evolution: [
       {
         to: "OVERQWIL",
         method: "HasMove",
-        value: "BARBBARRAGE"
-      }
+        value: "BARBBARRAGE",
+      },
     ],
     color: "Black",
     formNumber: 1,
     formName: "Hisuian",
     baseId: "QWILFISH",
-    megaStone: null
+    megaStone: null,
   },
   {
     id: "SCIZOR",
     name: "Scizor",
-    types: [
-      "BUG",
-      "STEEL"
-    ],
+    types: ["BUG", "STEEL"],
     sprite: "/Front/SCIZOR_1.png",
     backSprite: "/spritesBack/SCIZOR_1.png",
-    description: "It's better at beating things than grasping them. When it battles for a long time, the weight of its pincers becomes too much to bear.",
+    description:
+      "It's better at beating things than grasping them. When it battles for a long time, the weight of its pincers becomes too much to bear.",
     stats: {
       hp: 70,
       attack: 150,
       defense: 140,
       spAttack: 65,
       spDefense: 100,
-      speed: 75
+      speed: 75,
     },
     height: "2.0",
     weight: "125.0",
-    abilities: [
-      "TECHNICIAN"
-    ],
-    hiddenAbilities: [
-      "TECHNICIAN"
-    ],
+    abilities: ["TECHNICIAN"],
+    hiddenAbilities: ["TECHNICIAN"],
     category: "Pincer",
     moves: [
       "BULLETPUNCH",
@@ -9566,7 +8664,7 @@ export const pokemonForms: PokemonForm[] =
       "IRONDEFENSE",
       "IRONHEAD",
       "XSCISSOR",
-      "SWORDSDANCE"
+      "SWORDSDANCE",
     ],
     tutorMoves: [
       "ACROBATICS",
@@ -9651,47 +8749,37 @@ export const pokemonForms: PokemonForm[] =
       "TRAILBLAZE",
       "UTURN",
       "VACUUMWAVE",
-      "XSCISSOR"
+      "XSCISSOR",
     ],
-    eggMoves: [
-
-    ],
+    eggMoves: [],
     suffix: "normal",
-    evolution: [
-
-    ],
+    evolution: [],
     color: "Red",
     formNumber: 1,
     formName: "Mega Scizor",
     baseId: "SCIZOR",
-    megaStone: "SCIZORITE"
+    megaStone: "SCIZORITE",
   },
   {
     id: "HERACROSS",
     name: "Heracross",
-    types: [
-      "BUG",
-      "FIGHTING"
-    ],
+    types: ["BUG", "FIGHTING"],
     sprite: "/Front/HERACROSS_1.png",
     backSprite: "/spritesBack/HERACROSS_1.png",
-    description: "A tremendous influx of energy builds it up, but when Mega Evolution ends, Heracross is bothered by terrible soreness in its muscles.",
+    description:
+      "A tremendous influx of energy builds it up, but when Mega Evolution ends, Heracross is bothered by terrible soreness in its muscles.",
     stats: {
       hp: 80,
       attack: 185,
       defense: 115,
       spAttack: 40,
       spDefense: 105,
-      speed: 75
+      speed: 75,
     },
     height: "1.7",
     weight: "62.5",
-    abilities: [
-      "SKILLLINK"
-    ],
-    hiddenAbilities: [
-      "SKILLLINK"
-    ],
+    abilities: ["SKILLLINK"],
+    hiddenAbilities: ["SKILLLINK"],
     category: "Single Horn",
     moves: [
       "ARMTHRUST",
@@ -9708,7 +8796,7 @@ export const pokemonForms: PokemonForm[] =
       "THRASH",
       "SWORDSDANCE",
       "MEGAHORN",
-      "CLOSECOMBAT"
+      "CLOSECOMBAT",
     ],
     tutorMoves: [
       "AERIALACE",
@@ -9792,7 +8880,7 @@ export const pokemonForms: PokemonForm[] =
       "TRAILBLAZE",
       "UPPERHAND",
       "VACUUMWAVE",
-      "WORKUP"
+      "WORKUP",
     ],
     eggMoves: [
       "DOUBLEEDGE",
@@ -9804,45 +8892,36 @@ export const pokemonForms: PokemonForm[] =
       "REVENGE",
       "ROCKBLAST",
       "SEISMICTOSS",
-      "TAKEDOWN"
+      "TAKEDOWN",
     ],
     suffix: "normal",
-    evolution: [
-
-    ],
+    evolution: [],
     color: "Blue",
     formNumber: 1,
     formName: "Mega Heracross",
     baseId: "HERACROSS",
-    megaStone: "HERACRONITE"
+    megaStone: "HERACRONITE",
   },
   {
     id: "SNEASEL",
     name: "Sneasel",
-    types: [
-      "FIGHTING",
-      "POISON"
-    ],
+    types: ["FIGHTING", "POISON"],
     sprite: "/Front/SNEASEL_1.png",
     backSprite: "/spritesBack/SNEASEL_1.png",
-    description: "Its sturdy, curved claws are ideal for traversing precipitous cliffs. From the tips of these claws drips a venom that infiltrates the nerves of any prey caught in Sneasel's grasp.",
+    description:
+      "Its sturdy, curved claws are ideal for traversing precipitous cliffs. From the tips of these claws drips a venom that infiltrates the nerves of any prey caught in Sneasel's grasp.",
     stats: {
       hp: 55,
       attack: 95,
       defense: 55,
       spAttack: 35,
       spDefense: 75,
-      speed: 115
+      speed: 115,
     },
     height: "0.9",
     weight: "27.0",
-    abilities: [
-      "INNERFOCUS",
-      "KEENEYE"
-    ],
-    hiddenAbilities: [
-      "PICKPOCKET"
-    ],
+    abilities: ["INNERFOCUS", "KEENEYE"],
+    hiddenAbilities: ["PICKPOCKET"],
     category: "Sharp Claw",
     moves: [
       "SCRATCH",
@@ -9857,7 +8936,7 @@ export const pokemonForms: PokemonForm[] =
       "SLASH",
       "AGILITY",
       "SCREECH",
-      "CLOSECOMBAT"
+      "CLOSECOMBAT",
     ],
     tutorMoves: [
       "ACIDSPRAY",
@@ -9909,7 +8988,7 @@ export const pokemonForms: PokemonForm[] =
       "TRAILBLAZE",
       "VACUUMWAVE",
       "VENOSHOCK",
-      "XSCISSOR"
+      "XSCISSOR",
     ],
     eggMoves: [
       "COUNTER",
@@ -9918,47 +8997,42 @@ export const pokemonForms: PokemonForm[] =
       "FEINT",
       "NIGHTSLASH",
       "QUICKGUARD",
-      "SWITCHEROO"
+      "SWITCHEROO",
     ],
     suffix: "normal",
     evolution: [
       {
         to: "SNEASLER",
         method: "DayHoldItem",
-        value: "RAZORCLAW"
-      }
+        value: "RAZORCLAW",
+      },
     ],
     color: "Gray",
     formNumber: 1,
     formName: "Hisuian",
     baseId: "SNEASEL",
-    megaStone: null
+    megaStone: null,
   },
   {
     id: "CORSOLA",
     name: "Corsola",
-    types: [
-      "GHOST"
-    ],
+    types: ["GHOST"],
     sprite: "/Front/CORSOLA_1.png",
     backSprite: "/spritesBack/CORSOLA_1.png",
-    description: "Sudden climate change wiped out this ancient kind of Corsola. This Pokémon absorbs others' life-force through its branches.",
+    description:
+      "Sudden climate change wiped out this ancient kind of Corsola. This Pokémon absorbs others' life-force through its branches.",
     stats: {
       hp: 60,
       attack: 55,
       defense: 100,
       spAttack: 65,
       spDefense: 100,
-      speed: 30
+      speed: 30,
     },
     height: "0.6",
     weight: "0.5",
-    abilities: [
-      "WEAKARMOR"
-    ],
-    hiddenAbilities: [
-      "CURSEDBODY"
-    ],
+    abilities: ["WEAKARMOR"],
+    hiddenAbilities: ["CURSEDBODY"],
     category: "Coral",
     moves: [
       "TACKLE",
@@ -9973,7 +9047,7 @@ export const pokemonForms: PokemonForm[] =
       "POWERGEM",
       "NIGHTSHADE",
       "GRUDGE",
-      "MIRRORCOAT"
+      "MIRRORCOAT",
     ],
     tutorMoves: [
       "AMNESIA",
@@ -10037,7 +9111,7 @@ export const pokemonForms: PokemonForm[] =
       "SWAGGER",
       "THROATCHOP",
       "WHIRLPOOL",
-      "WILLOWISP"
+      "WILLOWISP",
     ],
     eggMoves: [
       "CONFUSERAY",
@@ -10045,48 +9119,42 @@ export const pokemonForms: PokemonForm[] =
       "HAZE",
       "HEADSMASH",
       "NATUREPOWER",
-      "WATERPULSE"
+      "WATERPULSE",
     ],
     suffix: "normal",
     evolution: [
       {
         to: "CURSOLA",
         method: "Level",
-        value: "38"
-      }
+        value: "38",
+      },
     ],
     color: "White",
     formNumber: 1,
     formName: "Galarian",
     baseId: "CORSOLA",
-    megaStone: null
+    megaStone: null,
   },
   {
     id: "HOUNDOOM",
     name: "Houndoom",
-    types: [
-      "DARK",
-      "FIRE"
-    ],
+    types: ["DARK", "FIRE"],
     sprite: "/Front/HOUNDOOM_1.png",
     backSprite: "/spritesBack/HOUNDOOM_1.png",
-    description: "Its red claws and the tips of its tail are melting from high internal temperatures that are painful to Houndoom itself.",
+    description:
+      "Its red claws and the tips of its tail are melting from high internal temperatures that are painful to Houndoom itself.",
     stats: {
       hp: 75,
       attack: 90,
       defense: 90,
       spAttack: 140,
       spDefense: 90,
-      speed: 115
+      speed: 115,
     },
     height: "1.9",
     weight: "49.5",
-    abilities: [
-      "SOLARPOWER"
-    ],
-    hiddenAbilities: [
-      "SOLARPOWER"
-    ],
+    abilities: ["SOLARPOWER"],
+    hiddenAbilities: ["SOLARPOWER"],
     category: "Dark",
     moves: [
       "NASTYPLOT",
@@ -10105,7 +9173,7 @@ export const pokemonForms: PokemonForm[] =
       "FOULPLAY",
       "FLAMETHROWER",
       "CRUNCH",
-      "INFERNO"
+      "INFERNO",
     ],
     tutorMoves: [
       "ATTRACT",
@@ -10187,47 +9255,37 @@ export const pokemonForms: PokemonForm[] =
       "TORMENT",
       "TOXIC",
       "TRAILBLAZE",
-      "WILLOWISP"
+      "WILLOWISP",
     ],
-    eggMoves: [
-
-    ],
+    eggMoves: [],
     suffix: "normal",
-    evolution: [
-
-    ],
+    evolution: [],
     color: "Black",
     formNumber: 1,
     formName: "Mega Houndoom",
     baseId: "HOUNDOOM",
-    megaStone: "HOUNDOOMINITE"
+    megaStone: "HOUNDOOMINITE",
   },
   {
     id: "TYRANITAR",
     name: "Tyranitar",
-    types: [
-      "ROCK",
-      "DARK"
-    ],
+    types: ["ROCK", "DARK"],
     sprite: "/Front/TYRANITAR_1.png",
     backSprite: "/spritesBack/TYRANITAR_1.png",
-    description: "Due to the colossal power poured into it, this Pokémon's back split right open. Its destructive instincts are the only thing keeping it moving.",
+    description:
+      "Due to the colossal power poured into it, this Pokémon's back split right open. Its destructive instincts are the only thing keeping it moving.",
     stats: {
       hp: 100,
       attack: 164,
       defense: 150,
       spAttack: 95,
       spDefense: 120,
-      speed: 71
+      speed: 71,
     },
     height: "2.5",
     weight: "255.0",
-    abilities: [
-      "SANDSTREAM"
-    ],
-    hiddenAbilities: [
-      "SANDSTREAM"
-    ],
+    abilities: ["SANDSTREAM"],
+    hiddenAbilities: ["SANDSTREAM"],
     category: "Armor",
     moves: [
       "IRONDEFENSE",
@@ -10251,7 +9309,7 @@ export const pokemonForms: PokemonForm[] =
       "THRASH",
       "SANDSTORM",
       "HYPERBEAM",
-      "GIGAIMPACT"
+      "GIGAIMPACT",
     ],
     tutorMoves: [
       "AERIALACE",
@@ -10374,47 +9432,37 @@ export const pokemonForms: PokemonForm[] =
       "THUNDERFANG",
       "THUNDERPUNCH",
       "THUNDERWAVE",
-      "TORMENT"
+      "TORMENT",
     ],
-    eggMoves: [
-
-    ],
+    eggMoves: [],
     suffix: "normal",
-    evolution: [
-
-    ],
+    evolution: [],
     color: "Green",
     formNumber: 1,
     formName: "Mega Tyranitar",
     baseId: "TYRANITAR",
-    megaStone: "TYRANITARITE"
+    megaStone: "TYRANITARITE",
   },
   {
     id: "SCEPTILE",
     name: "Sceptile",
-    types: [
-      "GRASS",
-      "DRAGON"
-    ],
+    types: ["GRASS", "DRAGON"],
     sprite: "/Front/SCEPTILE_1.png",
     backSprite: "/spritesBack/SCEPTILE_1.png",
-    description: "In the jungle, its power is without equal. This Pokémon carefully grows trees and plants. It regulates its body temperature by basking in sunlight.",
+    description:
+      "In the jungle, its power is without equal. This Pokémon carefully grows trees and plants. It regulates its body temperature by basking in sunlight.",
     stats: {
       hp: 70,
       attack: 110,
       defense: 75,
       spAttack: 145,
       spDefense: 85,
-      speed: 145
+      speed: 145,
     },
     height: "1.9",
     weight: "55.2",
-    abilities: [
-      "LIGHTNINGROD"
-    ],
-    hiddenAbilities: [
-      "LIGHTNINGROD"
-    ],
+    abilities: ["LIGHTNINGROD"],
+    hiddenAbilities: ["LIGHTNINGROD"],
     category: "Forest",
     moves: [
       "LEAFBLADE",
@@ -10436,7 +9484,7 @@ export const pokemonForms: PokemonForm[] =
       "DOUBLETEAM",
       "SCREECH",
       "ENDEAVOR",
-      "LEAFSTORM"
+      "LEAFSTORM",
     ],
     tutorMoves: [
       "ACROBATICS",
@@ -10541,47 +9589,37 @@ export const pokemonForms: PokemonForm[] =
       "VACUUMWAVE",
       "WORKUP",
       "WORRYSEED",
-      "XSCISSOR"
+      "XSCISSOR",
     ],
-    eggMoves: [
-
-    ],
+    eggMoves: [],
     suffix: "normal",
-    evolution: [
-
-    ],
+    evolution: [],
     color: "Green",
     formNumber: 1,
     formName: "Mega Sceptile",
     baseId: "SCEPTILE",
-    megaStone: "SCEPTILITE"
+    megaStone: "SCEPTILITE",
   },
   {
     id: "BLAZIKEN",
     name: "Blaziken",
-    types: [
-      "FIRE",
-      "FIGHTING"
-    ],
+    types: ["FIRE", "FIGHTING"],
     sprite: "/Front/BLAZIKEN_1.png",
     backSprite: "/spritesBack/BLAZIKEN_1.png",
-    description: "It learns martial arts that use punches and kicks. Every several years, its old feathers burn off, and new, supple feathers grow back in their place.",
+    description:
+      "It learns martial arts that use punches and kicks. Every several years, its old feathers burn off, and new, supple feathers grow back in their place.",
     stats: {
       hp: 80,
       attack: 160,
       defense: 80,
       spAttack: 130,
       spDefense: 80,
-      speed: 100
+      speed: 100,
     },
     height: "1.9",
     weight: "52.0",
-    abilities: [
-      "SPEEDBOOST"
-    ],
-    hiddenAbilities: [
-      "SPEEDBOOST"
-    ],
+    abilities: ["SPEEDBOOST"],
+    hiddenAbilities: ["SPEEDBOOST"],
     category: "Blaze",
     moves: [
       "BLAZEKICK",
@@ -10603,7 +9641,7 @@ export const pokemonForms: PokemonForm[] =
       "BULKUP",
       "REVERSAL",
       "FLAREBLITZ",
-      "BRAVEBIRD"
+      "BRAVEBIRD",
     ],
     tutorMoves: [
       "ACROBATICS",
@@ -10710,47 +9748,37 @@ export const pokemonForms: PokemonForm[] =
       "UTURN",
       "VACUUMWAVE",
       "WILLOWISP",
-      "WORKUP"
+      "WORKUP",
     ],
-    eggMoves: [
-
-    ],
+    eggMoves: [],
     suffix: "normal",
-    evolution: [
-
-    ],
+    evolution: [],
     color: "Red",
     formNumber: 1,
     formName: "Mega Blaziken",
     baseId: "BLAZIKEN",
-    megaStone: "BLAZIKENITE"
+    megaStone: "BLAZIKENITE",
   },
   {
     id: "SWAMPERT",
     name: "Swampert",
-    types: [
-      "WATER",
-      "GROUND"
-    ],
+    types: ["WATER", "GROUND"],
     sprite: "/Front/SWAMPERT_1.png",
     backSprite: "/spritesBack/SWAMPERT_1.png",
-    description: "If it senses the approach of a storm and a tidal wave, it protects its seaside nest by piling up boulders. It swims as fast as a jet ski.",
+    description:
+      "If it senses the approach of a storm and a tidal wave, it protects its seaside nest by piling up boulders. It swims as fast as a jet ski.",
     stats: {
       hp: 100,
       attack: 150,
       defense: 110,
       spAttack: 95,
       spDefense: 110,
-      speed: 70
+      speed: 70,
     },
     height: "1.9",
     weight: "102.0",
-    abilities: [
-      "SWIFTSWIM"
-    ],
-    hiddenAbilities: [
-      "SWIFTSWIM"
-    ],
+    abilities: ["SWIFTSWIM"],
+    hiddenAbilities: ["SWIFTSWIM"],
     category: "Mud Fish",
     moves: [
       "SURF",
@@ -10771,7 +9799,7 @@ export const pokemonForms: PokemonForm[] =
       "MUDDYWATER",
       "SCREECH",
       "ENDEAVOR",
-      "HYDROPUMP"
+      "HYDROPUMP",
     ],
     tutorMoves: [
       "AMNESIA",
@@ -10870,48 +9898,37 @@ export const pokemonForms: PokemonForm[] =
       "WATERPULSE",
       "WEATHERBALL",
       "WHIRLPOOL",
-      "WORKUP"
+      "WORKUP",
     ],
-    eggMoves: [
-
-    ],
+    eggMoves: [],
     suffix: "normal",
-    evolution: [
-
-    ],
+    evolution: [],
     color: "Blue",
     formNumber: 1,
     formName: "Mega Swampert",
     baseId: "SWAMPERT",
-    megaStone: "SWAMPERTITE"
+    megaStone: "SWAMPERTITE",
   },
   {
     id: "ZIGZAGOON",
     name: "Zigzagoon",
-    types: [
-      "DARK",
-      "NORMAL"
-    ],
+    types: ["DARK", "NORMAL"],
     sprite: "/Front/ZIGZAGOON_1.png",
     backSprite: "/spritesBack/ZIGZAGOON_1.png",
-    description: "Its restlessness has it constantly running around. If it sees another Pokémon, it will purposely run into them in order to start a fight.",
+    description:
+      "Its restlessness has it constantly running around. If it sees another Pokémon, it will purposely run into them in order to start a fight.",
     stats: {
       hp: 38,
       attack: 30,
       defense: 41,
       spAttack: 30,
       spDefense: 41,
-      speed: 60
+      speed: 60,
     },
     height: "0.4",
     weight: "17.5",
-    abilities: [
-      "PICKUP",
-      "GLUTTONY"
-    ],
-    hiddenAbilities: [
-      "QUICKFEET"
-    ],
+    abilities: ["PICKUP", "GLUTTONY"],
+    hiddenAbilities: ["QUICKFEET"],
     category: "Tiny Raccoon",
     moves: [
       "TACKLE",
@@ -10927,7 +9944,7 @@ export const pokemonForms: PokemonForm[] =
       "SCARYFACE",
       "COUNTER",
       "TAUNT",
-      "DOUBLEEDGE"
+      "DOUBLEEDGE",
     ],
     tutorMoves: [
       "ASSURANCE",
@@ -10984,54 +10001,43 @@ export const pokemonForms: PokemonForm[] =
       "THUNDERWAVE",
       "TRICK",
       "WHIRLPOOL",
-      "WORKUP"
+      "WORKUP",
     ],
-    eggMoves: [
-      "KNOCKOFF",
-      "PARTINGSHOT",
-      "QUICKGUARD"
-    ],
+    eggMoves: ["KNOCKOFF", "PARTINGSHOT", "QUICKGUARD"],
     suffix: "normal",
     evolution: [
       {
         to: "LINOONE",
         method: "Level",
-        value: "20"
-      }
+        value: "20",
+      },
     ],
     color: "White",
     formNumber: 1,
     formName: "Galarian",
     baseId: "ZIGZAGOON",
-    megaStone: null
+    megaStone: null,
   },
   {
     id: "LINOONE",
     name: "Linoone",
-    types: [
-      "DARK",
-      "NORMAL"
-    ],
+    types: ["DARK", "NORMAL"],
     sprite: "/Front/LINOONE_1.png",
     backSprite: "/spritesBack/LINOONE_1.png",
-    description: "It uses its long tongue to taunt opponents. Once the opposition is enraged, this Pokémon hurls itself at the opponent, tackling them forcefully.",
+    description:
+      "It uses its long tongue to taunt opponents. Once the opposition is enraged, this Pokémon hurls itself at the opponent, tackling them forcefully.",
     stats: {
       hp: 78,
       attack: 70,
       defense: 61,
       spAttack: 50,
       spDefense: 61,
-      speed: 100
+      speed: 100,
     },
     height: "0.5",
     weight: "32.5",
-    abilities: [
-      "PICKUP",
-      "GLUTTONY"
-    ],
-    hiddenAbilities: [
-      "QUICKFEET"
-    ],
+    abilities: ["PICKUP", "GLUTTONY"],
+    hiddenAbilities: ["QUICKFEET"],
     category: "Rushing",
     moves: [
       "NIGHTSLASH",
@@ -11051,7 +10057,7 @@ export const pokemonForms: PokemonForm[] =
       "SCARYFACE",
       "COUNTER",
       "TAUNT",
-      "DOUBLEEDGE"
+      "DOUBLEEDGE",
     ],
     tutorMoves: [
       "ASSURANCE",
@@ -11114,51 +10120,43 @@ export const pokemonForms: PokemonForm[] =
       "THUNDERWAVE",
       "TRICK",
       "WHIRLPOOL",
-      "WORKUP"
+      "WORKUP",
     ],
-    eggMoves: [
-
-    ],
+    eggMoves: [],
     suffix: "normal",
     evolution: [
       {
         to: "OBSTAGOON",
         method: "LevelNight",
-        value: "35"
-      }
+        value: "35",
+      },
     ],
     color: "White",
     formNumber: 1,
     formName: "Galarian",
     baseId: "LINOONE",
-    megaStone: null
+    megaStone: null,
   },
   {
     id: "GARDEVOIR",
     name: "Gardevoir",
-    types: [
-      "PSYCHIC",
-      "FAIRY"
-    ],
+    types: ["PSYCHIC", "FAIRY"],
     sprite: "/Front/GARDEVOIR_1.png",
     backSprite: "/spritesBack/GARDEVOIR_1.png",
-    description: "It apparently does not feel the pull of gravity because it supports itself with psychic power. It will give its life to protect its trainer.",
+    description:
+      "It apparently does not feel the pull of gravity because it supports itself with psychic power. It will give its life to protect its trainer.",
     stats: {
       hp: 68,
       attack: 85,
       defense: 65,
       spAttack: 165,
       spDefense: 135,
-      speed: 100
+      speed: 100,
     },
     height: "1.6",
     weight: "48.4",
-    abilities: [
-      "PIXILATE"
-    ],
-    hiddenAbilities: [
-      "PIXILATE"
-    ],
+    abilities: ["PIXILATE"],
+    hiddenAbilities: ["PIXILATE"],
     category: "Embrace",
     moves: [
       "DAZZLINGGLEAM",
@@ -11181,7 +10179,7 @@ export const pokemonForms: PokemonForm[] =
       "PSYCHIC",
       "MOONBLAST",
       "DREAMEATER",
-      "FUTURESIGHT"
+      "FUTURESIGHT",
     ],
     tutorMoves: [
       "ALLURINGVOICE",
@@ -11284,47 +10282,37 @@ export const pokemonForms: PokemonForm[] =
       "VACUUMWAVE",
       "WILLOWISP",
       "WONDERROOM",
-      "ZENHEADBUTT"
+      "ZENHEADBUTT",
     ],
-    eggMoves: [
-
-    ],
+    eggMoves: [],
     suffix: "normal",
-    evolution: [
-
-    ],
+    evolution: [],
     color: "White",
     formNumber: 1,
     formName: "Mega Gardevoir",
     baseId: "GARDEVOIR",
-    megaStone: "GARDEVOIRITE"
+    megaStone: "GARDEVOIRITE",
   },
   {
     id: "SABLEYE",
     name: "Sableye",
-    types: [
-      "DARK",
-      "GHOST"
-    ],
+    types: ["DARK", "GHOST"],
     sprite: "/Front/SABLEYE_1.png",
     backSprite: "/spritesBack/SABLEYE_1.png",
-    description: "Supporting a giant heavy jewel, it can't change direction very nimbly and is vulnerable to attack from behind.",
+    description:
+      "Supporting a giant heavy jewel, it can't change direction very nimbly and is vulnerable to attack from behind.",
     stats: {
       hp: 50,
       attack: 85,
       defense: 125,
       spAttack: 85,
       spDefense: 115,
-      speed: 20
+      speed: 20,
     },
     height: "0.5",
     weight: "161.0",
-    abilities: [
-      "MAGICBOUNCE"
-    ],
-    hiddenAbilities: [
-      "MAGICBOUNCE"
-    ],
+    abilities: ["MAGICBOUNCE"],
+    hiddenAbilities: ["MAGICBOUNCE"],
     category: "Darkness",
     moves: [
       "LEER",
@@ -11343,7 +10331,7 @@ export const pokemonForms: PokemonForm[] =
       "POWERGEM",
       "ZENHEADBUTT",
       "SHADOWBALL",
-      "FOULPLAY"
+      "FOULPLAY",
     ],
     tutorMoves: [
       "AERIALACE",
@@ -11459,7 +10447,7 @@ export const pokemonForms: PokemonForm[] =
       "WILLOWISP",
       "WONDERROOM",
       "XSCISSOR",
-      "ZENHEADBUTT"
+      "ZENHEADBUTT",
     ],
     eggMoves: [
       "FEINT",
@@ -11471,44 +10459,36 @@ export const pokemonForms: PokemonForm[] =
       "RECOVER",
       "SUCKERPUNCH",
       "TORMENT",
-      "TRICK"
+      "TRICK",
     ],
     suffix: "normal",
-    evolution: [
-
-    ],
+    evolution: [],
     color: "Purple",
     formNumber: 1,
     formName: "Mega Sableye",
     baseId: "SABLEYE",
-    megaStone: "SABLENITE"
+    megaStone: "SABLENITE",
   },
   {
     id: "MAWILE",
     name: "Mawile",
-    types: [
-      "STEEL",
-      "FAIRY"
-    ],
+    types: ["STEEL", "FAIRY"],
     sprite: "/Front/MAWILE_1.png",
     backSprite: "/spritesBack/MAWILE_1.png",
-    description: "Its two sets of jaws thrash about violently as if they each had a will of their own. One gnash from them can turn a boulder to dust.",
+    description:
+      "Its two sets of jaws thrash about violently as if they each had a will of their own. One gnash from them can turn a boulder to dust.",
     stats: {
       hp: 50,
       attack: 105,
       defense: 125,
       spAttack: 55,
       spDefense: 95,
-      speed: 50
+      speed: 50,
     },
     height: "1.0",
     weight: "23.5",
-    abilities: [
-      "HUGEPOWER"
-    ],
-    hiddenAbilities: [
-      "HUGEPOWER"
-    ],
+    abilities: ["HUGEPOWER"],
+    hiddenAbilities: ["HUGEPOWER"],
     category: "Deceiver",
     moves: [
       "ASTONISH",
@@ -11526,7 +10506,7 @@ export const pokemonForms: PokemonForm[] =
       "IRONHEAD",
       "TAUNT",
       "FAKETEARS",
-      "PLAYROUGH"
+      "PLAYROUGH",
     ],
     tutorMoves: [
       "ANCIENTPOWER",
@@ -11619,7 +10599,7 @@ export const pokemonForms: PokemonForm[] =
       "TAUNT",
       "THUNDERFANG",
       "THUNDERPUNCH",
-      "TORMENT"
+      "TORMENT",
     ],
     eggMoves: [
       "ANCIENTPOWER",
@@ -11634,43 +10614,36 @@ export const pokemonForms: PokemonForm[] =
       "SLAM",
       "SUCKERPUNCH",
       "THUNDERFANG",
-      "TICKLE"
+      "TICKLE",
     ],
     suffix: "normal",
-    evolution: [
-
-    ],
+    evolution: [],
     color: "Black",
     formNumber: 1,
     formName: "Mega Mawile",
     baseId: "MAWILE",
-    megaStone: "MAWILITE"
+    megaStone: "MAWILITE",
   },
   {
     id: "AGGRON",
     name: "Aggron",
-    types: [
-      "STEEL"
-    ],
+    types: ["STEEL"],
     sprite: "/Front/AGGRON_1.png",
     backSprite: "/spritesBack/AGGRON_1.png",
-    description: "Its iron horns grow longer a little at a time. They are used to determine the Aggron's age. The gouges in its armor are worn with pride as mementos from battles.",
+    description:
+      "Its iron horns grow longer a little at a time. They are used to determine the Aggron's age. The gouges in its armor are worn with pride as mementos from battles.",
     stats: {
       hp: 70,
       attack: 140,
       defense: 230,
       spAttack: 60,
       spDefense: 80,
-      speed: 50
+      speed: 50,
     },
     height: "2.2",
     weight: "395.0",
-    abilities: [
-      "FILTER"
-    ],
-    hiddenAbilities: [
-      "FILTER"
-    ],
+    abilities: ["FILTER"],
+    hiddenAbilities: ["FILTER"],
     category: "Iron Armor",
     moves: [
       "TACKLE",
@@ -11689,7 +10662,7 @@ export const pokemonForms: PokemonForm[] =
       "IRONDEFENSE",
       "HEAVYSLAM",
       "DOUBLEEDGE",
-      "METALBURST"
+      "METALBURST",
     ],
     tutorMoves: [
       "AERIALACE",
@@ -11804,47 +10777,37 @@ export const pokemonForms: PokemonForm[] =
       "THUNDERWAVE",
       "UPROAR",
       "WATERPULSE",
-      "WHIRLPOOL"
+      "WHIRLPOOL",
     ],
-    eggMoves: [
-
-    ],
+    eggMoves: [],
     suffix: "normal",
-    evolution: [
-
-    ],
+    evolution: [],
     color: "Gray",
     formNumber: 1,
     formName: "Mega Aggron",
     baseId: "AGGRON",
-    megaStone: "AGGRONITE"
+    megaStone: "AGGRONITE",
   },
   {
     id: "MEDICHAM",
     name: "Medicham",
-    types: [
-      "FIGHTING",
-      "PSYCHIC"
-    ],
+    types: ["FIGHTING", "PSYCHIC"],
     sprite: "/Front/MEDICHAM_1.png",
     backSprite: "/spritesBack/MEDICHAM_1.png",
-    description: "Through crushingly harsh yoga training, it gained the power to foretell its foe's actions. It battles with elegant, dance- like movement.",
+    description:
+      "Through crushingly harsh yoga training, it gained the power to foretell its foe's actions. It battles with elegant, dance- like movement.",
     stats: {
       hp: 60,
       attack: 100,
       defense: 85,
       spAttack: 80,
       spDefense: 85,
-      speed: 100
+      speed: 100,
     },
     height: "1.3",
     weight: "31.5",
-    abilities: [
-      "PUREPOWER"
-    ],
-    hiddenAbilities: [
-      "PUREPOWER"
-    ],
+    abilities: ["PUREPOWER"],
+    hiddenAbilities: ["PUREPOWER"],
     category: "Meditate",
     moves: [
       "FIREPUNCH",
@@ -11865,7 +10828,7 @@ export const pokemonForms: PokemonForm[] =
       "POWERTRICK",
       "RECOVER",
       "COUNTER",
-      "AXEKICK"
+      "AXEKICK",
     ],
     tutorMoves: [
       "AERIALACE",
@@ -11960,46 +10923,37 @@ export const pokemonForms: PokemonForm[] =
       "UPPERHAND",
       "VACUUMWAVE",
       "WORKUP",
-      "ZENHEADBUTT"
+      "ZENHEADBUTT",
     ],
-    eggMoves: [
-
-    ],
+    eggMoves: [],
     suffix: "normal",
-    evolution: [
-
-    ],
+    evolution: [],
     color: "Red",
     formNumber: 1,
     formName: "Mega Medicham",
     baseId: "MEDICHAM",
-    megaStone: "MEDICHAMITE"
+    megaStone: "MEDICHAMITE",
   },
   {
     id: "MANECTRIC",
     name: "Manectric",
-    types: [
-      "ELECTRIC"
-    ],
+    types: ["ELECTRIC"],
     sprite: "/Front/MANECTRIC_1.png",
     backSprite: "/spritesBack/MANECTRIC_1.png",
-    description: "Too much electricity has built up in its body, irritating Manectric. Its explosive speed is equal to that of a lightning bolt.",
+    description:
+      "Too much electricity has built up in its body, irritating Manectric. Its explosive speed is equal to that of a lightning bolt.",
     stats: {
       hp: 70,
       attack: 75,
       defense: 80,
       spAttack: 135,
       spDefense: 80,
-      speed: 135
+      speed: 135,
     },
     height: "1.8",
     weight: "44.0",
-    abilities: [
-      "INTIMIDATE"
-    ],
-    hiddenAbilities: [
-      "INTIMIDATE"
-    ],
+    abilities: ["INTIMIDATE"],
+    hiddenAbilities: ["INTIMIDATE"],
     category: "Discharge",
     moves: [
       "FIREFANG",
@@ -12016,7 +10970,7 @@ export const pokemonForms: PokemonForm[] =
       "CHARGE",
       "WILDCHARGE",
       "THUNDER",
-      "ELECTRICTERRAIN"
+      "ELECTRICTERRAIN",
     ],
     tutorMoves: [
       "AGILITY",
@@ -12077,47 +11031,37 @@ export const pokemonForms: PokemonForm[] =
       "THUNDERWAVE",
       "UPROAR",
       "VOLTSWITCH",
-      "WILDCHARGE"
+      "WILDCHARGE",
     ],
-    eggMoves: [
-
-    ],
+    eggMoves: [],
     suffix: "normal",
-    evolution: [
-
-    ],
+    evolution: [],
     color: "Yellow",
     formNumber: 1,
     formName: "Mega Manectric",
     baseId: "MANECTRIC",
-    megaStone: "MANECTITE"
+    megaStone: "MANECTITE",
   },
   {
     id: "SHARPEDO",
     name: "Sharpedo",
-    types: [
-      "WATER",
-      "DARK"
-    ],
+    types: ["WATER", "DARK"],
     sprite: "/Front/SHARPEDO_1.png",
     backSprite: "/spritesBack/SHARPEDO_1.png",
-    description: "The yellow patterns it bears are old scars. The energy from Mega Evolution runs through them, causing it sharp pain and suffering.",
+    description:
+      "The yellow patterns it bears are old scars. The energy from Mega Evolution runs through them, causing it sharp pain and suffering.",
     stats: {
       hp: 70,
       attack: 140,
       defense: 70,
       spAttack: 110,
       spDefense: 65,
-      speed: 105
+      speed: 105,
     },
     height: "2.5",
     weight: "130.3",
-    abilities: [
-      "STRONGJAW"
-    ],
-    hiddenAbilities: [
-      "STRONGJAW"
-    ],
+    abilities: ["STRONGJAW"],
+    hiddenAbilities: ["STRONGJAW"],
     category: "Brutal",
     moves: [
       "SLASH",
@@ -12134,7 +11078,7 @@ export const pokemonForms: PokemonForm[] =
       "CRUNCH",
       "AGILITY",
       "LIQUIDATION",
-      "TAKEDOWN"
+      "TAKEDOWN",
     ],
     tutorMoves: [
       "AGILITY",
@@ -12207,47 +11151,37 @@ export const pokemonForms: PokemonForm[] =
       "WATERFALL",
       "WATERPULSE",
       "WHIRLPOOL",
-      "ZENHEADBUTT"
+      "ZENHEADBUTT",
     ],
-    eggMoves: [
-
-    ],
+    eggMoves: [],
     suffix: "normal",
-    evolution: [
-
-    ],
+    evolution: [],
     color: "Blue",
     formNumber: 1,
     formName: "Mega Sharpedo",
     baseId: "SHARPEDO",
-    megaStone: "SHARPEDONITE"
+    megaStone: "SHARPEDONITE",
   },
   {
     id: "CAMERUPT",
     name: "Camerupt",
-    types: [
-      "FIRE",
-      "GROUND"
-    ],
+    types: ["FIRE", "GROUND"],
     sprite: "/Front/CAMERUPT_1.png",
     backSprite: "/spritesBack/CAMERUPT_1.png",
-    description: "A Pokémon that lives in the crater of a volcano. Every 10 years, the volcanoes on its back erupt violently. Research is under way on the cause of eruption.",
+    description:
+      "A Pokémon that lives in the crater of a volcano. Every 10 years, the volcanoes on its back erupt violently. Research is under way on the cause of eruption.",
     stats: {
       hp: 70,
       attack: 120,
       defense: 100,
       spAttack: 145,
       spDefense: 105,
-      speed: 20
+      speed: 20,
     },
     height: "2.5",
     weight: "320.5",
-    abilities: [
-      "SHEERFORCE"
-    ],
-    hiddenAbilities: [
-      "SHEERFORCE"
-    ],
+    abilities: ["SHEERFORCE"],
+    hiddenAbilities: ["SHEERFORCE"],
     category: "Eruption",
     moves: [
       "ROCKSLIDE",
@@ -12265,7 +11199,7 @@ export const pokemonForms: PokemonForm[] =
       "CURSE",
       "TAKEDOWN",
       "YAWN",
-      "EARTHQUAKE"
+      "EARTHQUAKE",
     ],
     tutorMoves: [
       "AFTERYOU",
@@ -12345,47 +11279,37 @@ export const pokemonForms: PokemonForm[] =
       "TERABLAST",
       "TRAILBLAZE",
       "WILLOWISP",
-      "ZENHEADBUTT"
+      "ZENHEADBUTT",
     ],
-    eggMoves: [
-
-    ],
+    eggMoves: [],
     suffix: "normal",
-    evolution: [
-
-    ],
+    evolution: [],
     color: "Red",
     formNumber: 1,
     formName: "Mega Camerupt",
     baseId: "CAMERUPT",
-    megaStone: "CAMERUPTITE"
+    megaStone: "CAMERUPTITE",
   },
   {
     id: "ALTARIA",
     name: "Altaria",
-    types: [
-      "DRAGON",
-      "FAIRY"
-    ],
+    types: ["DRAGON", "FAIRY"],
     sprite: "/Front/ALTARIA_1.png",
     backSprite: "/spritesBack/ALTARIA_1.png",
-    description: "It hums in a beautiful soprano voice. It flies among white clouds in the blue sky. It launches intensely hot fireballs from its mouth.",
+    description:
+      "It hums in a beautiful soprano voice. It flies among white clouds in the blue sky. It launches intensely hot fireballs from its mouth.",
     stats: {
       hp: 75,
       attack: 110,
       defense: 110,
       spAttack: 110,
       spDefense: 105,
-      speed: 80
+      speed: 80,
     },
     height: "1.5",
     weight: "20.6",
-    abilities: [
-      "PIXILATE"
-    ],
-    hiddenAbilities: [
-      "PIXILATE"
-    ],
+    abilities: ["PIXILATE"],
+    hiddenAbilities: ["PIXILATE"],
     category: "Humming",
     moves: [
       "DRAGONPULSE",
@@ -12403,7 +11327,7 @@ export const pokemonForms: PokemonForm[] =
       "TAKEDOWN",
       "MOONBLAST",
       "PERISHSONG",
-      "SKYATTACK"
+      "SKYATTACK",
     ],
     tutorMoves: [
       "ACROBATICS",
@@ -12488,46 +11412,37 @@ export const pokemonForms: PokemonForm[] =
       "TWISTER",
       "WEATHERBALL",
       "WILLOWISP",
-      "WONDERROOM"
+      "WONDERROOM",
     ],
-    eggMoves: [
-
-    ],
+    eggMoves: [],
     suffix: "normal",
-    evolution: [
-
-    ],
+    evolution: [],
     color: "Blue",
     formNumber: 1,
     formName: "Mega Altaria",
     baseId: "ALTARIA",
-    megaStone: "ALTARIANITE"
+    megaStone: "ALTARIANITE",
   },
   {
     id: "CASTFORM",
     name: "Castform",
-    types: [
-      "FIRE"
-    ],
+    types: ["FIRE"],
     sprite: "/Front/CASTFORM_1.png",
     backSprite: "/spritesBack/CASTFORM_1.png",
-    description: "This is the form Castform takes on the brightest of days. Its skin is unexpectedly hot to the touch, so approach with care.",
+    description:
+      "This is the form Castform takes on the brightest of days. Its skin is unexpectedly hot to the touch, so approach with care.",
     stats: {
       hp: 70,
       attack: 70,
       defense: 70,
       spAttack: 70,
       spDefense: 70,
-      speed: 70
+      speed: 70,
     },
     height: "0.3",
     weight: "0.8",
-    abilities: [
-      "FORECAST"
-    ],
-    hiddenAbilities: [
-
-    ],
+    abilities: ["FORECAST"],
+    hiddenAbilities: [],
     category: "Weather",
     moves: [
       "TACKLE",
@@ -12542,7 +11457,7 @@ export const pokemonForms: PokemonForm[] =
       "HYDROPUMP",
       "FIREBLAST",
       "BLIZZARD",
-      "HURRICANE"
+      "HURRICANE",
     ],
     tutorMoves: [
       "ATTRACT",
@@ -12596,7 +11511,7 @@ export const pokemonForms: PokemonForm[] =
       "THUNDERBOLT",
       "THUNDERWAVE",
       "WATERPULSE",
-      "WORKUP"
+      "WORKUP",
     ],
     eggMoves: [
       "AMNESIA",
@@ -12606,43 +11521,36 @@ export const pokemonForms: PokemonForm[] =
       "FUTURESIGHT",
       "GUARDSWAP",
       "HEX",
-      "REFLECTTYPE"
+      "REFLECTTYPE",
     ],
     suffix: "normal",
-    evolution: [
-
-    ],
+    evolution: [],
     color: "Red",
     formNumber: 1,
     formName: "Sunny Form",
     baseId: "CASTFORM",
-    megaStone: null
+    megaStone: null,
   },
   {
     id: "CASTFORM",
     name: "Castform",
-    types: [
-      "WATER"
-    ],
+    types: ["WATER"],
     sprite: "/Front/CASTFORM_2.png",
     backSprite: "/spritesBack/CASTFORM_2.png",
-    description: "This is the form Castform takes when soaked with rain. When its body is compressed, water will seep out as if from a sponge.",
+    description:
+      "This is the form Castform takes when soaked with rain. When its body is compressed, water will seep out as if from a sponge.",
     stats: {
       hp: 70,
       attack: 70,
       defense: 70,
       spAttack: 70,
       spDefense: 70,
-      speed: 70
+      speed: 70,
     },
     height: "0.3",
     weight: "0.8",
-    abilities: [
-      "FORECAST"
-    ],
-    hiddenAbilities: [
-
-    ],
+    abilities: ["FORECAST"],
+    hiddenAbilities: [],
     category: "Weather",
     moves: [
       "TACKLE",
@@ -12657,7 +11565,7 @@ export const pokemonForms: PokemonForm[] =
       "HYDROPUMP",
       "FIREBLAST",
       "BLIZZARD",
-      "HURRICANE"
+      "HURRICANE",
     ],
     tutorMoves: [
       "ATTRACT",
@@ -12711,7 +11619,7 @@ export const pokemonForms: PokemonForm[] =
       "THUNDERBOLT",
       "THUNDERWAVE",
       "WATERPULSE",
-      "WORKUP"
+      "WORKUP",
     ],
     eggMoves: [
       "AMNESIA",
@@ -12721,43 +11629,36 @@ export const pokemonForms: PokemonForm[] =
       "FUTURESIGHT",
       "GUARDSWAP",
       "HEX",
-      "REFLECTTYPE"
+      "REFLECTTYPE",
     ],
     suffix: "normal",
-    evolution: [
-
-    ],
+    evolution: [],
     color: "Blue",
     formNumber: 2,
     formName: "Rainy Form",
     baseId: "CASTFORM",
-    megaStone: null
+    megaStone: null,
   },
   {
     id: "CASTFORM",
     name: "Castform",
-    types: [
-      "ICE"
-    ],
+    types: ["ICE"],
     sprite: "/Front/CASTFORM_3.png",
     backSprite: "/spritesBack/CASTFORM_3.png",
-    description: "This is the form Castform takes when covered in snow. Its body becomes an ice-like material, with a temperature near -5 degrees Celsius.",
+    description:
+      "This is the form Castform takes when covered in snow. Its body becomes an ice-like material, with a temperature near -5 degrees Celsius.",
     stats: {
       hp: 70,
       attack: 70,
       defense: 70,
       spAttack: 70,
       spDefense: 70,
-      speed: 70
+      speed: 70,
     },
     height: "0.3",
     weight: "0.8",
-    abilities: [
-      "FORECAST"
-    ],
-    hiddenAbilities: [
-
-    ],
+    abilities: ["FORECAST"],
+    hiddenAbilities: [],
     category: "Weather",
     moves: [
       "TACKLE",
@@ -12772,7 +11673,7 @@ export const pokemonForms: PokemonForm[] =
       "HYDROPUMP",
       "FIREBLAST",
       "BLIZZARD",
-      "HURRICANE"
+      "HURRICANE",
     ],
     tutorMoves: [
       "ATTRACT",
@@ -12826,7 +11727,7 @@ export const pokemonForms: PokemonForm[] =
       "THUNDERBOLT",
       "THUNDERWAVE",
       "WATERPULSE",
-      "WORKUP"
+      "WORKUP",
     ],
     eggMoves: [
       "AMNESIA",
@@ -12836,43 +11737,36 @@ export const pokemonForms: PokemonForm[] =
       "FUTURESIGHT",
       "GUARDSWAP",
       "HEX",
-      "REFLECTTYPE"
+      "REFLECTTYPE",
     ],
     suffix: "normal",
-    evolution: [
-
-    ],
+    evolution: [],
     color: "White",
     formNumber: 3,
     formName: "Snowy Form",
     baseId: "CASTFORM",
-    megaStone: null
+    megaStone: null,
   },
   {
     id: "BANETTE",
     name: "Banette",
-    types: [
-      "GHOST"
-    ],
+    types: ["GHOST"],
     sprite: "/Front/BANETTE_1.png",
     backSprite: "/spritesBack/BANETTE_1.png",
-    description: "Extraordinary energy amplifies its cursing power to such an extent that it can't help but curse its own Trainer.",
+    description:
+      "Extraordinary energy amplifies its cursing power to such an extent that it can't help but curse its own Trainer.",
     stats: {
       hp: 64,
       attack: 165,
       defense: 75,
       spAttack: 93,
       spDefense: 83,
-      speed: 75
+      speed: 75,
     },
     height: "1.2",
     weight: "13.0",
-    abilities: [
-      "PRANKSTER"
-    ],
-    hiddenAbilities: [
-      "PRANKSTER"
-    ],
+    abilities: ["PRANKSTER"],
+    hiddenAbilities: ["PRANKSTER"],
     category: "Marionette",
     moves: [
       "KNOCKOFF",
@@ -12887,7 +11781,7 @@ export const pokemonForms: PokemonForm[] =
       "ROLEPLAY",
       "SUCKERPUNCH",
       "TRICK",
-      "PHANTOMFORCE"
+      "PHANTOMFORCE",
     ],
     tutorMoves: [
       "ALLYSWITCH",
@@ -12973,46 +11867,37 @@ export const pokemonForms: PokemonForm[] =
       "TRAILBLAZE",
       "TRICK",
       "TRICKROOM",
-      "WILLOWISP"
+      "WILLOWISP",
     ],
-    eggMoves: [
-
-    ],
+    eggMoves: [],
     suffix: "normal",
-    evolution: [
-
-    ],
+    evolution: [],
     color: "Black",
     formNumber: 1,
     formName: "Mega Banette",
     baseId: "BANETTE",
-    megaStone: "BANETTITE"
+    megaStone: "BANETTITE",
   },
   {
     id: "ABSOL",
     name: "Absol",
-    types: [
-      "DARK"
-    ],
+    types: ["DARK"],
     sprite: "/Front/ABSOL_1.png",
     backSprite: "/spritesBack/ABSOL_1.png",
-    description: "When this Pokémon whips the winglike fur on its back as though beating its wings, it sends an intimidating aura flying at its opponents.",
+    description:
+      "When this Pokémon whips the winglike fur on its back as though beating its wings, it sends an intimidating aura flying at its opponents.",
     stats: {
       hp: 65,
       attack: 150,
       defense: 60,
       spAttack: 115,
       spDefense: 60,
-      speed: 115
+      speed: 115,
     },
     height: "1.2",
     weight: "49.0",
-    abilities: [
-      "MAGICBOUNCE"
-    ],
-    hiddenAbilities: [
-      "MAGICBOUNCE"
-    ],
+    abilities: ["MAGICBOUNCE"],
+    hiddenAbilities: ["MAGICBOUNCE"],
     category: "Disaster",
     moves: [
       "QUICKATTACK",
@@ -13027,7 +11912,7 @@ export const pokemonForms: PokemonForm[] =
       "SUCKERPUNCH",
       "SWORDSDANCE",
       "FUTURESIGHT",
-      "PERISHSONG"
+      "PERISHSONG",
     ],
     tutorMoves: [
       "AERIALACE",
@@ -13123,7 +12008,7 @@ export const pokemonForms: PokemonForm[] =
       "WATERPULSE",
       "WILLOWISP",
       "XSCISSOR",
-      "ZENHEADBUTT"
+      "ZENHEADBUTT",
     ],
     eggMoves: [
       "ASSURANCE",
@@ -13139,43 +12024,36 @@ export const pokemonForms: PokemonForm[] =
       "PERISHSONG",
       "PLAYROUGH",
       "SUCKERPUNCH",
-      "ZENHEADBUTT"
+      "ZENHEADBUTT",
     ],
     suffix: "normal",
-    evolution: [
-
-    ],
+    evolution: [],
     color: "White",
     formNumber: 1,
     formName: "Mega Absol",
     baseId: "ABSOL",
-    megaStone: "ABSOLITE"
+    megaStone: "ABSOLITE",
   },
   {
     id: "GLALIE",
     name: "Glalie",
-    types: [
-      "ICE"
-    ],
+    types: ["ICE"],
     sprite: "/Front/GLALIE_1.png",
     backSprite: "/spritesBack/GLALIE_1.png",
-    description: "It envelops prey in its mouth, freezing them instantly. But its jaw is dislocated, so it's unable to eat them.",
+    description:
+      "It envelops prey in its mouth, freezing them instantly. But its jaw is dislocated, so it's unable to eat them.",
     stats: {
       hp: 80,
       attack: 120,
       defense: 80,
       spAttack: 120,
       spDefense: 80,
-      speed: 100
+      speed: 100,
     },
     height: "2.1",
     weight: "350.2",
-    abilities: [
-      "REFRIGERATE"
-    ],
-    hiddenAbilities: [
-      "REFRIGERATE"
-    ],
+    abilities: ["REFRIGERATE"],
+    hiddenAbilities: ["REFRIGERATE"],
     category: "Face",
     moves: [
       "FREEZEDRY",
@@ -13194,7 +12072,7 @@ export const pokemonForms: PokemonForm[] =
       "SNOWSCAPE",
       "WEATHERBALL",
       "CRUNCH",
-      "BLIZZARD"
+      "BLIZZARD",
     ],
     tutorMoves: [
       "ATTRACT",
@@ -13264,47 +12142,37 @@ export const pokemonForms: PokemonForm[] =
       "TORMENT",
       "TRAILBLAZE",
       "WATERPULSE",
-      "WEATHERBALL"
+      "WEATHERBALL",
     ],
-    eggMoves: [
-
-    ],
+    eggMoves: [],
     suffix: "normal",
-    evolution: [
-
-    ],
+    evolution: [],
     color: "Gray",
     formNumber: 1,
     formName: "Mega Glalie",
     baseId: "GLALIE",
-    megaStone: "GLALITITE"
+    megaStone: "GLALITITE",
   },
   {
     id: "SALAMENCE",
     name: "Salamence",
-    types: [
-      "DRAGON",
-      "FLYING"
-    ],
+    types: ["DRAGON", "FLYING"],
     sprite: "/Front/SALAMENCE_1.png",
     backSprite: "/spritesBack/SALAMENCE_1.png",
-    description: "It puts its forelegs inside its shell to streamline itself for flight. Salamence flies at high speeds over all kinds of topographical features.",
+    description:
+      "It puts its forelegs inside its shell to streamline itself for flight. Salamence flies at high speeds over all kinds of topographical features.",
     stats: {
       hp: 95,
       attack: 145,
       defense: 130,
       spAttack: 120,
       spDefense: 90,
-      speed: 120
+      speed: 120,
     },
     height: "1.8",
     weight: "112.6",
-    abilities: [
-      "AERILATE"
-    ],
-    hiddenAbilities: [
-      "AERILATE"
-    ],
+    abilities: ["AERILATE"],
+    hiddenAbilities: ["AERILATE"],
     category: "Dragon",
     moves: [
       "FLY",
@@ -13323,7 +12191,7 @@ export const pokemonForms: PokemonForm[] =
       "ZENHEADBUTT",
       "FOCUSENERGY",
       "FLAMETHROWER",
-      "DOUBLEEDGE"
+      "DOUBLEEDGE",
     ],
     tutorMoves: [
       "AERIALACE",
@@ -13411,47 +12279,37 @@ export const pokemonForms: PokemonForm[] =
       "TERABLAST",
       "THUNDERFANG",
       "TWISTER",
-      "ZENHEADBUTT"
+      "ZENHEADBUTT",
     ],
-    eggMoves: [
-
-    ],
+    eggMoves: [],
     suffix: "normal",
-    evolution: [
-
-    ],
+    evolution: [],
     color: "Blue",
     formNumber: 1,
     formName: "Mega Salamence",
     baseId: "SALAMENCE",
-    megaStone: "SALAMENCITE"
+    megaStone: "SALAMENCITE",
   },
   {
     id: "METAGROSS",
     name: "Metagross",
-    types: [
-      "STEEL",
-      "PSYCHIC"
-    ],
+    types: ["STEEL", "PSYCHIC"],
     sprite: "/Front/METAGROSS_1.png",
     backSprite: "/spritesBack/METAGROSS_1.png",
-    description: "Its intellect surpasses its previous level, resulting in battles so cruel, they'll make you want to cover your eyes.",
+    description:
+      "Its intellect surpasses its previous level, resulting in battles so cruel, they'll make you want to cover your eyes.",
     stats: {
       hp: 95,
       attack: 145,
       defense: 130,
       spAttack: 120,
       spDefense: 90,
-      speed: 120
+      speed: 120,
     },
     height: "2.5",
     weight: "942.9",
-    abilities: [
-      "TOUGHCLAWS"
-    ],
-    hiddenAbilities: [
-      "TOUGHCLAWS"
-    ],
+    abilities: ["TOUGHCLAWS"],
+    hiddenAbilities: ["TOUGHCLAWS"],
     category: "Iron Leg",
     moves: [
       "HAMMERARM",
@@ -13470,7 +12328,7 @@ export const pokemonForms: PokemonForm[] =
       "METEORMASH",
       "IRONDEFENSE",
       "AGILITY",
-      "HYPERBEAM"
+      "HYPERBEAM",
     ],
     tutorMoves: [
       "AERIALACE",
@@ -13567,47 +12425,37 @@ export const pokemonForms: PokemonForm[] =
       "THUNDERPUNCH",
       "TRAILBLAZE",
       "TRICK",
-      "ZENHEADBUTT"
+      "ZENHEADBUTT",
     ],
-    eggMoves: [
-
-    ],
+    eggMoves: [],
     suffix: "normal",
-    evolution: [
-
-    ],
+    evolution: [],
     color: "Blue",
     formNumber: 1,
     formName: "Mega Metagross",
     baseId: "METAGROSS",
-    megaStone: "METAGROSSITE"
+    megaStone: "METAGROSSITE",
   },
   {
     id: "LATIAS",
     name: "Latias",
-    types: [
-      "DRAGON",
-      "PSYCHIC"
-    ],
+    types: ["DRAGON", "PSYCHIC"],
     sprite: "/Front/LATIAS_1.png",
     backSprite: "/spritesBack/LATIAS_1.png",
-    description: "They make a small herd of only several members. They rarely make contact with people or other Pokémon. They disappear if they sense enemies.",
+    description:
+      "They make a small herd of only several members. They rarely make contact with people or other Pokémon. They disappear if they sense enemies.",
     stats: {
       hp: 80,
       attack: 100,
       defense: 120,
       spAttack: 140,
       spDefense: 150,
-      speed: 110
+      speed: 110,
     },
     height: "1.8",
     weight: "52.0",
-    abilities: [
-      "LEVITATE"
-    ],
-    hiddenAbilities: [
-
-    ],
+    abilities: ["LEVITATE"],
+    hiddenAbilities: [],
     category: "Eon",
     moves: [
       "STOREDPOWER",
@@ -13625,7 +12473,7 @@ export const pokemonForms: PokemonForm[] =
       "REFLECTTYPE",
       "PSYCHIC",
       "GUARDSPLIT",
-      "HEALINGWISH"
+      "HEALINGWISH",
     ],
     tutorMoves: [
       "AERIALACE",
@@ -13734,47 +12582,37 @@ export const pokemonForms: PokemonForm[] =
       "WATERPULSE",
       "WEATHERBALL",
       "WHIRLPOOL",
-      "ZENHEADBUTT"
+      "ZENHEADBUTT",
     ],
-    eggMoves: [
-
-    ],
+    eggMoves: [],
     suffix: "normal",
-    evolution: [
-
-    ],
+    evolution: [],
     color: "Purple",
     formNumber: 1,
     formName: "Mega Latias",
     baseId: "LATIAS",
-    megaStone: "LATIASITE"
+    megaStone: "LATIASITE",
   },
   {
     id: "LATIOS",
     name: "Latios",
-    types: [
-      "DRAGON",
-      "PSYCHIC"
-    ],
+    types: ["DRAGON", "PSYCHIC"],
     sprite: "/Front/LATIOS_1.png",
     backSprite: "/spritesBack/LATIOS_1.png",
-    description: "Even in hiding, it can detect the locations of others and sense their emotions since it has telepathy. Its intelligence allows it to understand human languages.",
+    description:
+      "Even in hiding, it can detect the locations of others and sense their emotions since it has telepathy. Its intelligence allows it to understand human languages.",
     stats: {
       hp: 80,
       attack: 130,
       defense: 100,
       spAttack: 160,
       spDefense: 120,
-      speed: 110
+      speed: 110,
     },
     height: "2.3",
     weight: "70.0",
-    abilities: [
-      "LEVITATE"
-    ],
-    hiddenAbilities: [
-
-    ],
+    abilities: ["LEVITATE"],
+    hiddenAbilities: [],
     category: "Eon",
     moves: [
       "STOREDPOWER",
@@ -13792,7 +12630,7 @@ export const pokemonForms: PokemonForm[] =
       "SIMPLEBEAM",
       "PSYCHIC",
       "POWERSPLIT",
-      "MEMENTO"
+      "MEMENTO",
     ],
     tutorMoves: [
       "AERIALACE",
@@ -13895,46 +12733,37 @@ export const pokemonForms: PokemonForm[] =
       "WATERPULSE",
       "WEATHERBALL",
       "WONDERROOM",
-      "ZENHEADBUTT"
+      "ZENHEADBUTT",
     ],
-    eggMoves: [
-
-    ],
+    eggMoves: [],
     suffix: "normal",
-    evolution: [
-
-    ],
+    evolution: [],
     color: "Purple",
     formNumber: 1,
     formName: "Mega Latios",
     baseId: "LATIOS",
-    megaStone: "LATIOSITE"
+    megaStone: "LATIOSITE",
   },
   {
     id: "KYOGRE",
     name: "Kyogre",
-    types: [
-      "WATER"
-    ],
+    types: ["WATER"],
     sprite: "/Front/KYOGRE_1.png",
     backSprite: "/spritesBack/KYOGRE_1.png",
-    description: "Kyogre has appeared in mythology as the creator of the sea. After long years of feuding with Groudon, it took to sleep at the bottom of the sea.",
+    description:
+      "Kyogre has appeared in mythology as the creator of the sea. After long years of feuding with Groudon, it took to sleep at the bottom of the sea.",
     stats: {
       hp: 100,
       attack: 150,
       defense: 90,
       spAttack: 180,
       spDefense: 160,
-      speed: 90
+      speed: 90,
     },
     height: "9.8",
     weight: "430.0",
-    abilities: [
-      "PRIMORDIALSEA"
-    ],
-    hiddenAbilities: [
-
-    ],
+    abilities: ["PRIMORDIALSEA"],
+    hiddenAbilities: [],
     category: "Sea Basin",
     moves: [
       "ORIGINPULSE",
@@ -13950,7 +12779,7 @@ export const pokemonForms: PokemonForm[] =
       "AQUARING",
       "HYDROPUMP",
       "DOUBLEEDGE",
-      "WATERSPOUT"
+      "WATERSPOUT",
     ],
     tutorMoves: [
       "ANCIENTPOWER",
@@ -14014,47 +12843,37 @@ export const pokemonForms: PokemonForm[] =
       "THUNDERWAVE",
       "WATERFALL",
       "WATERPULSE",
-      "WHIRLPOOL"
+      "WHIRLPOOL",
     ],
-    eggMoves: [
-
-    ],
+    eggMoves: [],
     suffix: "normal",
-    evolution: [
-
-    ],
+    evolution: [],
     color: "Blue",
     formNumber: 1,
     formName: "Primal Kyogre",
     baseId: "KYOGRE",
-    megaStone: null
+    megaStone: null,
   },
   {
     id: "GROUDON",
     name: "Groudon",
-    types: [
-      "GROUND",
-      "FIRE"
-    ],
+    types: ["GROUND", "FIRE"],
     sprite: "/Front/GROUDON_1.png",
     backSprite: "/spritesBack/GROUDON_1.png",
-    description: "Groudon has appeared in mythology as the creator of the land. It sleeps in magma underground and is said to make volcanoes erupt on awakening.",
+    description:
+      "Groudon has appeared in mythology as the creator of the land. It sleeps in magma underground and is said to make volcanoes erupt on awakening.",
     stats: {
       hp: 100,
       attack: 180,
       defense: 160,
       spAttack: 150,
       spDefense: 90,
-      speed: 90
+      speed: 90,
     },
     height: "5.0",
     weight: "999.7",
-    abilities: [
-      "DESOLATELAND"
-    ],
-    hiddenAbilities: [
-
-    ],
+    abilities: ["DESOLATELAND"],
+    hiddenAbilities: [],
     category: "Continent",
     moves: [
       "PRECIPICEBLADES",
@@ -14070,7 +12889,7 @@ export const pokemonForms: PokemonForm[] =
       "REST",
       "FIREBLAST",
       "SOLARBEAM",
-      "ERUPTION"
+      "ERUPTION",
     ],
     tutorMoves: [
       "AERIALACE",
@@ -14169,47 +12988,37 @@ export const pokemonForms: PokemonForm[] =
       "THUNDERPUNCH",
       "THUNDERWAVE",
       "WILLOWISP",
-      "ZENHEADBUTT"
+      "ZENHEADBUTT",
     ],
-    eggMoves: [
-
-    ],
+    eggMoves: [],
     suffix: "normal",
-    evolution: [
-
-    ],
+    evolution: [],
     color: "Red",
     formNumber: 1,
     formName: "Primal Groudon",
     baseId: "GROUDON",
-    megaStone: null
+    megaStone: null,
   },
   {
     id: "RAYQUAZA",
     name: "Rayquaza",
-    types: [
-      "DRAGON",
-      "FLYING"
-    ],
+    types: ["DRAGON", "FLYING"],
     sprite: "/Front/RAYQUAZA_1.png",
     backSprite: "/spritesBack/RAYQUAZA_1.png",
-    description: "A Pokémon that flies endlessly in the ozone layer. It is said it would descend to the ground if Kyogre and Groudon were to fight.",
+    description:
+      "A Pokémon that flies endlessly in the ozone layer. It is said it would descend to the ground if Kyogre and Groudon were to fight.",
     stats: {
       hp: 105,
       attack: 180,
       defense: 100,
       spAttack: 180,
       spDefense: 100,
-      speed: 115
+      speed: 115,
     },
     height: "10.8",
     weight: "392.0",
-    abilities: [
-      "DELTASTREAM"
-    ],
-    hiddenAbilities: [
-      "DELTASTREAM"
-    ],
+    abilities: ["DELTASTREAM"],
+    hiddenAbilities: ["DELTASTREAM"],
     category: "Sky High",
     moves: [
       "DRAGONASCENT",
@@ -14226,7 +13035,7 @@ export const pokemonForms: PokemonForm[] =
       "FLY",
       "HURRICANE",
       "OUTRAGE",
-      "HYPERBEAM"
+      "HYPERBEAM",
     ],
     tutorMoves: [
       "AERIALACE",
@@ -14326,46 +13135,37 @@ export const pokemonForms: PokemonForm[] =
       "UTURN",
       "WATERFALL",
       "WHIRLPOOL",
-      "WILDCHARGE"
+      "WILDCHARGE",
     ],
-    eggMoves: [
-
-    ],
+    eggMoves: [],
     suffix: "normal",
-    evolution: [
-
-    ],
+    evolution: [],
     color: "Green",
     formNumber: 1,
     formName: "Mega Rayquaza",
     baseId: "RAYQUAZA",
-    megaStone: null
+    megaStone: null,
   },
   {
     id: "DEOXYS",
     name: "Deoxys",
-    types: [
-      "PSYCHIC"
-    ],
+    types: ["PSYCHIC"],
     sprite: "/Front/DEOXYS_1.png",
     backSprite: "/spritesBack/DEOXYS_1.png",
-    description: "A Pokémon that mutated from an extraterrestrial virus exposed to a laser beam. Its body is configured for superior agility and speed.",
+    description:
+      "A Pokémon that mutated from an extraterrestrial virus exposed to a laser beam. Its body is configured for superior agility and speed.",
     stats: {
       hp: 50,
       attack: 180,
       defense: 20,
       spAttack: 180,
       spDefense: 20,
-      speed: 150
+      speed: 150,
     },
     height: "1.7",
     weight: "60.8",
-    abilities: [
-      "PRESSURE"
-    ],
-    hiddenAbilities: [
-
-    ],
+    abilities: ["PRESSURE"],
+    hiddenAbilities: [],
     category: "DNA",
     moves: [
       "LEER",
@@ -14381,7 +13181,7 @@ export const pokemonForms: PokemonForm[] =
       "COSMICPOWER",
       "ZAPCANNON",
       "PSYCHOBOOST",
-      "HYPERBEAM"
+      "HYPERBEAM",
     ],
     tutorMoves: [
       "AERIALACE",
@@ -14489,46 +13289,37 @@ export const pokemonForms: PokemonForm[] =
       "TRICKROOM",
       "WATERPULSE",
       "WONDERROOM",
-      "ZENHEADBUTT"
+      "ZENHEADBUTT",
     ],
-    eggMoves: [
-
-    ],
+    eggMoves: [],
     suffix: "normal",
-    evolution: [
-
-    ],
+    evolution: [],
     color: "Red",
     formNumber: 1,
     formName: "Attack Forme",
     baseId: "DEOXYS",
-    megaStone: null
+    megaStone: null,
   },
   {
     id: "DEOXYS",
     name: "Deoxys",
-    types: [
-      "PSYCHIC"
-    ],
+    types: ["PSYCHIC"],
     sprite: "/Front/DEOXYS_2.png",
     backSprite: "/spritesBack/DEOXYS_2.png",
-    description: "A Pokémon that mutated from an extraterrestrial virus exposed to a laser beam. Its body is configured for superior agility and speed.",
+    description:
+      "A Pokémon that mutated from an extraterrestrial virus exposed to a laser beam. Its body is configured for superior agility and speed.",
     stats: {
       hp: 50,
       attack: 70,
       defense: 160,
       spAttack: 70,
       spDefense: 160,
-      speed: 90
+      speed: 90,
     },
     height: "1.7",
     weight: "60.8",
-    abilities: [
-      "PRESSURE"
-    ],
-    hiddenAbilities: [
-
-    ],
+    abilities: ["PRESSURE"],
+    hiddenAbilities: [],
     category: "DNA",
     moves: [
       "LEER",
@@ -14546,7 +13337,7 @@ export const pokemonForms: PokemonForm[] =
       "RECOVER",
       "PSYCHOBOOST",
       "COUNTER",
-      "MIRRORCOAT"
+      "MIRRORCOAT",
     ],
     tutorMoves: [
       "AERIALACE",
@@ -14655,46 +13446,37 @@ export const pokemonForms: PokemonForm[] =
       "TRICKROOM",
       "WATERPULSE",
       "WONDERROOM",
-      "ZENHEADBUTT"
+      "ZENHEADBUTT",
     ],
-    eggMoves: [
-
-    ],
+    eggMoves: [],
     suffix: "normal",
-    evolution: [
-
-    ],
+    evolution: [],
     color: "Red",
     formNumber: 2,
     formName: "Defense Forme",
     baseId: "DEOXYS",
-    megaStone: null
+    megaStone: null,
   },
   {
     id: "DEOXYS",
     name: "Deoxys",
-    types: [
-      "PSYCHIC"
-    ],
+    types: ["PSYCHIC"],
     sprite: "/Front/DEOXYS_3.png",
     backSprite: "/spritesBack/DEOXYS_3.png",
-    description: "A Pokémon that mutated from an extraterrestrial virus exposed to a laser beam. Its body is configured for superior agility and speed.",
+    description:
+      "A Pokémon that mutated from an extraterrestrial virus exposed to a laser beam. Its body is configured for superior agility and speed.",
     stats: {
       hp: 50,
       attack: 95,
       defense: 90,
       spAttack: 95,
       spDefense: 90,
-      speed: 180
+      speed: 180,
     },
     height: "1.7",
     weight: "60.8",
-    abilities: [
-      "PRESSURE"
-    ],
-    hiddenAbilities: [
-
-    ],
+    abilities: ["PRESSURE"],
+    hiddenAbilities: [],
     category: "DNA",
     moves: [
       "LEER",
@@ -14710,7 +13492,7 @@ export const pokemonForms: PokemonForm[] =
       "AGILITY",
       "RECOVER",
       "PSYCHOBOOST",
-      "EXTREMESPEED"
+      "EXTREMESPEED",
     ],
     tutorMoves: [
       "AERIALACE",
@@ -14818,161 +13600,127 @@ export const pokemonForms: PokemonForm[] =
       "TRICKROOM",
       "WATERPULSE",
       "WONDERROOM",
-      "ZENHEADBUTT"
+      "ZENHEADBUTT",
     ],
-    eggMoves: [
-
-    ],
+    eggMoves: [],
     suffix: "normal",
-    evolution: [
-
-    ],
+    evolution: [],
     color: "Red",
     formNumber: 3,
     formName: "Speed Forme",
     baseId: "DEOXYS",
-    megaStone: null
+    megaStone: null,
   },
   {
     id: "BURMY",
     name: "Burmy",
-    types: [
-      "BUG"
-    ],
+    types: ["BUG"],
     sprite: "/Front/BURMY_1.png",
     backSprite: "/spritesBack/BURMY_1.png",
-    description: "To shelter itself from cold, wintry winds, it covers itself with a cloak made of twigs and leaves.",
+    description:
+      "To shelter itself from cold, wintry winds, it covers itself with a cloak made of twigs and leaves.",
     stats: {
       hp: 40,
       attack: 29,
       defense: 45,
       spAttack: 29,
       spDefense: 45,
-      speed: 36
+      speed: 36,
     },
     height: "0.2",
     weight: "3.4",
-    abilities: [
-      "SHEDSKIN"
-    ],
-    hiddenAbilities: [
-      "OVERCOAT"
-    ],
+    abilities: ["SHEDSKIN"],
+    hiddenAbilities: ["OVERCOAT"],
     category: "Bagworm",
-    moves: [
-      "PROTECT",
-      "TACKLE",
-      "BUGBITE",
-      "STRINGSHOT"
-    ],
+    moves: ["PROTECT", "TACKLE", "BUGBITE", "STRINGSHOT"],
     tutorMoves: [
       "BUGBITE",
       "ELECTROWEB",
       "HIDDENPOWER",
       "PROTECT",
       "SNORE",
-      "STRINGSHOT"
+      "STRINGSHOT",
     ],
-    eggMoves: [
-
-    ],
+    eggMoves: [],
     suffix: "normal",
     evolution: [
       {
         to: "MOTHIM",
         method: "LevelMale",
-        value: "20"
-      }
+        value: "20",
+      },
     ],
     color: "Brown",
     formNumber: 1,
     formName: "Sandy Cloak",
     baseId: "BURMY",
-    megaStone: null
+    megaStone: null,
   },
   {
     id: "BURMY",
     name: "Burmy",
-    types: [
-      "BUG"
-    ],
+    types: ["BUG"],
     sprite: "/Front/BURMY_2.png",
     backSprite: "/spritesBack/BURMY_2.png",
-    description: "To shelter itself from cold, wintry winds, it covers itself with a cloak made of twigs and leaves.",
+    description:
+      "To shelter itself from cold, wintry winds, it covers itself with a cloak made of twigs and leaves.",
     stats: {
       hp: 40,
       attack: 29,
       defense: 45,
       spAttack: 29,
       spDefense: 45,
-      speed: 36
+      speed: 36,
     },
     height: "0.2",
     weight: "3.4",
-    abilities: [
-      "SHEDSKIN"
-    ],
-    hiddenAbilities: [
-      "OVERCOAT"
-    ],
+    abilities: ["SHEDSKIN"],
+    hiddenAbilities: ["OVERCOAT"],
     category: "Bagworm",
-    moves: [
-      "PROTECT",
-      "TACKLE",
-      "BUGBITE",
-      "STRINGSHOT"
-    ],
+    moves: ["PROTECT", "TACKLE", "BUGBITE", "STRINGSHOT"],
     tutorMoves: [
       "BUGBITE",
       "ELECTROWEB",
       "HIDDENPOWER",
       "PROTECT",
       "SNORE",
-      "STRINGSHOT"
+      "STRINGSHOT",
     ],
-    eggMoves: [
-
-    ],
+    eggMoves: [],
     suffix: "normal",
     evolution: [
       {
         to: "MOTHIM",
         method: "LevelMale",
-        value: "20"
-      }
+        value: "20",
+      },
     ],
     color: "Red",
     formNumber: 2,
     formName: "Trash Cloak",
     baseId: "BURMY",
-    megaStone: null
+    megaStone: null,
   },
   {
     id: "WORMADAM",
     name: "Wormadam",
-    types: [
-      "BUG",
-      "GROUND"
-    ],
+    types: ["BUG", "GROUND"],
     sprite: "/Front/WORMADAM_1.png",
     backSprite: "/spritesBack/WORMADAM_1.png",
-    description: "When Burmy evolved, its cloak became a part of this Pokémon's body. The cloak is never shed.",
+    description:
+      "When Burmy evolved, its cloak became a part of this Pokémon's body. The cloak is never shed.",
     stats: {
       hp: 60,
       attack: 79,
       defense: 105,
       spAttack: 59,
       spDefense: 85,
-      speed: 36
+      speed: 36,
     },
     height: "0.5",
     weight: "6.5",
-    abilities: [
-      "ANTICIPATION"
-    ],
-    hiddenAbilities: [
-      "OVERCOAT"
-    ],
+    abilities: ["ANTICIPATION"],
+    hiddenAbilities: ["OVERCOAT"],
     category: "Bagworm",
     moves: [
       "QUIVERDANCE",
@@ -14992,7 +13740,7 @@ export const pokemonForms: PokemonForm[] =
       "ATTRACT",
       "PSYCHIC",
       "FISSURE",
-      "BUGBUZZ"
+      "BUGBUZZ",
     ],
     tutorMoves: [
       "ALLYSWITCH",
@@ -15049,47 +13797,37 @@ export const pokemonForms: PokemonForm[] =
       "TELEKINESIS",
       "THIEF",
       "UPROAR",
-      "VENOSHOCK"
+      "VENOSHOCK",
     ],
-    eggMoves: [
-
-    ],
+    eggMoves: [],
     suffix: "normal",
-    evolution: [
-
-    ],
+    evolution: [],
     color: "Brown",
     formNumber: 1,
     formName: "Sandy Cloak",
     baseId: "WORMADAM",
-    megaStone: null
+    megaStone: null,
   },
   {
     id: "WORMADAM",
     name: "Wormadam",
-    types: [
-      "BUG",
-      "STEEL"
-    ],
+    types: ["BUG", "STEEL"],
     sprite: "/Front/WORMADAM_2.png",
     backSprite: "/spritesBack/WORMADAM_2.png",
-    description: "When Burmy evolved, its cloak became a part of this Pokémon's body. The cloak is never shed.",
+    description:
+      "When Burmy evolved, its cloak became a part of this Pokémon's body. The cloak is never shed.",
     stats: {
       hp: 60,
       attack: 69,
       defense: 95,
       spAttack: 69,
       spDefense: 95,
-      speed: 36
+      speed: 36,
     },
     height: "0.5",
     weight: "6.5",
-    abilities: [
-      "ANTICIPATION"
-    ],
-    hiddenAbilities: [
-      "OVERCOAT"
-    ],
+    abilities: ["ANTICIPATION"],
+    hiddenAbilities: ["OVERCOAT"],
     category: "Bagworm",
     moves: [
       "QUIVERDANCE",
@@ -15110,7 +13848,7 @@ export const pokemonForms: PokemonForm[] =
       "ATTRACT",
       "PSYCHIC",
       "IRONHEAD",
-      "BUGBUZZ"
+      "BUGBUZZ",
     ],
     tutorMoves: [
       "ALLYSWITCH",
@@ -15167,46 +13905,37 @@ export const pokemonForms: PokemonForm[] =
       "TELEKINESIS",
       "THIEF",
       "UPROAR",
-      "VENOSHOCK"
+      "VENOSHOCK",
     ],
-    eggMoves: [
-
-    ],
+    eggMoves: [],
     suffix: "normal",
-    evolution: [
-
-    ],
+    evolution: [],
     color: "Red",
     formNumber: 2,
     formName: "Trash Cloak",
     baseId: "WORMADAM",
-    megaStone: null
+    megaStone: null,
   },
   {
     id: "CHERRIM",
     name: "Cherrim",
-    types: [
-      "GRASS"
-    ],
+    types: ["GRASS"],
     sprite: "/Front/CHERRIM_1.png",
     backSprite: "/spritesBack/CHERRIM_1.png",
-    description: "After absorbing plenty of sunlight, Cherrim takes this form. It's full of energy while it's like this, and its liveliness will go on until sundown.",
+    description:
+      "After absorbing plenty of sunlight, Cherrim takes this form. It's full of energy while it's like this, and its liveliness will go on until sundown.",
     stats: {
       hp: 70,
       attack: 60,
       defense: 70,
       spAttack: 87,
       spDefense: 78,
-      speed: 85
+      speed: 85,
     },
     height: "0.5",
     weight: "9.3",
-    abilities: [
-      "FLOWERGIFT"
-    ],
-    hiddenAbilities: [
-
-    ],
+    abilities: ["FLOWERGIFT"],
+    hiddenAbilities: [],
     category: "Blossom",
     moves: [
       "SUNNYDAY",
@@ -15222,7 +13951,7 @@ export const pokemonForms: PokemonForm[] =
       "PETALBLIZZARD",
       "WORRYSEED",
       "SOLARBEAM",
-      "PETALDANCE"
+      "PETALDANCE",
     ],
     tutorMoves: [
       "ATTRACT",
@@ -15270,47 +13999,37 @@ export const pokemonForms: PokemonForm[] =
       "SWORDSDANCE",
       "SYNTHESIS",
       "WEATHERBALL",
-      "WORRYSEED"
+      "WORRYSEED",
     ],
-    eggMoves: [
-
-    ],
+    eggMoves: [],
     suffix: "normal",
-    evolution: [
-
-    ],
+    evolution: [],
     color: "Pink",
     formNumber: 1,
     formName: "Sunshine Form",
     baseId: "CHERRIM",
-    megaStone: null
+    megaStone: null,
   },
   {
     id: "SHELLOS",
     name: "Shellos",
-    types: [
-      "WATER"
-    ],
+    types: ["WATER"],
     sprite: "/Front/SHELLOS_1.png",
     backSprite: "/spritesBack/SHELLOS_1.png",
-    description: "Its appearance changes depending on the environment. One theory suggests that living in cold seas causes Shellos to take on this form.",
+    description:
+      "Its appearance changes depending on the environment. One theory suggests that living in cold seas causes Shellos to take on this form.",
     stats: {
       hp: 76,
       attack: 48,
       defense: 48,
       spAttack: 57,
       spDefense: 62,
-      speed: 34
+      speed: 34,
     },
     height: "0.3",
     weight: "6.3",
-    abilities: [
-      "STICKYHOLD",
-      "STORMDRAIN"
-    ],
-    hiddenAbilities: [
-      "SANDFORCE"
-    ],
+    abilities: ["STICKYHOLD", "STORMDRAIN"],
+    hiddenAbilities: ["SANDFORCE"],
     category: "Sea Slug",
     moves: [
       "WATERGUN",
@@ -15323,7 +14042,7 @@ export const pokemonForms: PokemonForm[] =
       "MUDDYWATER",
       "EARTHPOWER",
       "RAINDANCE",
-      "MEMENTO"
+      "MEMENTO",
     ],
     tutorMoves: [
       "AMNESIA",
@@ -15381,7 +14100,7 @@ export const pokemonForms: PokemonForm[] =
       "TERABLAST",
       "WATERFALL",
       "WATERPULSE",
-      "WHIRLPOOL"
+      "WHIRLPOOL",
     ],
     eggMoves: [
       "ACIDARMOR",
@@ -15397,49 +14116,42 @@ export const pokemonForms: PokemonForm[] =
       "SPITUP",
       "STOCKPILE",
       "SWALLOW",
-      "YAWN"
+      "YAWN",
     ],
     suffix: "normal",
     evolution: [
       {
         to: "GASTRODON",
         method: "Level",
-        value: "30"
-      }
+        value: "30",
+      },
     ],
     color: "Blue",
     formNumber: 1,
     formName: "East Sea",
     baseId: "SHELLOS",
-    megaStone: null
+    megaStone: null,
   },
   {
     id: "GASTRODON",
     name: "Gastrodon",
-    types: [
-      "WATER",
-      "GROUND"
-    ],
+    types: ["WATER", "GROUND"],
     sprite: "/Front/GASTRODON_1.png",
     backSprite: "/spritesBack/GASTRODON_1.png",
-    description: "Its body is covered in a sticky slime. It's very susceptible to dehydration, so it can't spend too much time on land.",
+    description:
+      "Its body is covered in a sticky slime. It's very susceptible to dehydration, so it can't spend too much time on land.",
     stats: {
       hp: 111,
       attack: 83,
       defense: 68,
       spAttack: 92,
       spDefense: 82,
-      speed: 39
+      speed: 39,
     },
     height: "0.9",
     weight: "29.9",
-    abilities: [
-      "STICKYHOLD",
-      "STORMDRAIN"
-    ],
-    hiddenAbilities: [
-      "SANDFORCE"
-    ],
+    abilities: ["STICKYHOLD", "STORMDRAIN"],
+    hiddenAbilities: ["SANDFORCE"],
     category: "Sea Slug",
     moves: [
       "WATERGUN",
@@ -15452,7 +14164,7 @@ export const pokemonForms: PokemonForm[] =
       "MUDDYWATER",
       "EARTHPOWER",
       "RAINDANCE",
-      "MEMENTO"
+      "MEMENTO",
     ],
     tutorMoves: [
       "AMNESIA",
@@ -15525,47 +14237,37 @@ export const pokemonForms: PokemonForm[] =
       "WATERFALL",
       "WATERPULSE",
       "WEATHERBALL",
-      "WHIRLPOOL"
+      "WHIRLPOOL",
     ],
-    eggMoves: [
-
-    ],
+    eggMoves: [],
     suffix: "normal",
-    evolution: [
-
-    ],
+    evolution: [],
     color: "Blue",
     formNumber: 1,
     formName: "East Sea",
     baseId: "GASTRODON",
-    megaStone: null
+    megaStone: null,
   },
   {
     id: "LOPUNNY",
     name: "Lopunny",
-    types: [
-      "NORMAL",
-      "FIGHTING"
-    ],
+    types: ["NORMAL", "FIGHTING"],
     sprite: "/Front/LOPUNNY_1.png",
     backSprite: "/spritesBack/LOPUNNY_1.png",
-    description: "It swings its ears like whips and strikes its enemies with them. It has an intensely combative disposition.",
+    description:
+      "It swings its ears like whips and strikes its enemies with them. It has an intensely combative disposition.",
     stats: {
       hp: 65,
       attack: 136,
       defense: 94,
       spAttack: 54,
       spDefense: 96,
-      speed: 135
+      speed: 135,
     },
     height: "1.3",
     weight: "28.3",
-    abilities: [
-      "SCRAPPY"
-    ],
-    hiddenAbilities: [
-      "SCRAPPY"
-    ],
+    abilities: ["SCRAPPY"],
+    hiddenAbilities: ["SCRAPPY"],
     category: "Rabbit",
     moves: [
       "MIRRORCOAT",
@@ -15585,7 +14287,7 @@ export const pokemonForms: PokemonForm[] =
       "FLATTER",
       "BOUNCE",
       "HEALINGWISH",
-      "HIGHJUMPKICK"
+      "HIGHJUMPKICK",
     ],
     tutorMoves: [
       "ACROBATICS",
@@ -15671,47 +14373,37 @@ export const pokemonForms: PokemonForm[] =
       "UPROAR",
       "UTURN",
       "WATERPULSE",
-      "WORKUP"
+      "WORKUP",
     ],
-    eggMoves: [
-
-    ],
+    eggMoves: [],
     suffix: "normal",
-    evolution: [
-
-    ],
+    evolution: [],
     color: "Brown",
     formNumber: 1,
     formName: "Mega Lopunny",
     baseId: "LOPUNNY",
-    megaStone: "LOPUNNITE"
+    megaStone: "LOPUNNITE",
   },
   {
     id: "GARCHOMP",
     name: "Garchomp",
-    types: [
-      "DRAGON",
-      "GROUND"
-    ],
+    types: ["DRAGON", "GROUND"],
     sprite: "/Front/GARCHOMP_1.png",
     backSprite: "/spritesBack/GARCHOMP_1.png",
-    description: "Its vaunted wings become scythes, sending it mad with rage. It swings its scythes wildly and slices the ground to pieces.",
+    description:
+      "Its vaunted wings become scythes, sending it mad with rage. It swings its scythes wildly and slices the ground to pieces.",
     stats: {
       hp: 108,
       attack: 170,
       defense: 115,
       spAttack: 120,
       spDefense: 95,
-      speed: 92
+      speed: 92,
     },
     height: "1.9",
     weight: "95.0",
-    abilities: [
-      "SANDFORCE"
-    ],
-    hiddenAbilities: [
-      "SANDFORCE"
-    ],
+    abilities: ["SANDFORCE"],
+    hiddenAbilities: ["SANDFORCE"],
     category: "Mach",
     moves: [
       "CRUNCH",
@@ -15726,7 +14418,7 @@ export const pokemonForms: PokemonForm[] =
       "DIG",
       "SANDSTORM",
       "TAKEDOWN",
-      "DRAGONRUSH"
+      "DRAGONRUSH",
     ],
     tutorMoves: [
       "AERIALACE",
@@ -15811,47 +14503,37 @@ export const pokemonForms: PokemonForm[] =
       "TAKEDOWN",
       "TERABLAST",
       "THUNDERFANG",
-      "TWISTER"
+      "TWISTER",
     ],
-    eggMoves: [
-
-    ],
+    eggMoves: [],
     suffix: "normal",
-    evolution: [
-
-    ],
+    evolution: [],
     color: "Blue",
     formNumber: 1,
     formName: "Mega Garchomp",
     baseId: "GARCHOMP",
-    megaStone: "GARCHOMPITE"
+    megaStone: "GARCHOMPITE",
   },
   {
     id: "LUCARIO",
     name: "Lucario",
-    types: [
-      "FIGHTING",
-      "STEEL"
-    ],
+    types: ["FIGHTING", "STEEL"],
     sprite: "/Front/LUCARIO_1.png",
     backSprite: "/spritesBack/LUCARIO_1.png",
-    description: "It readies itself to face its enemies by focusing its mental energies. Its fighting style can be summed up in a single word: heartless.",
+    description:
+      "It readies itself to face its enemies by focusing its mental energies. Its fighting style can be summed up in a single word: heartless.",
     stats: {
       hp: 70,
       attack: 145,
       defense: 88,
       spAttack: 140,
       spDefense: 70,
-      speed: 112
+      speed: 112,
     },
     height: "1.3",
     weight: "57.5",
-    abilities: [
-      "ADAPTABILITY"
-    ],
-    hiddenAbilities: [
-      "ADAPTABILITY"
-    ],
+    abilities: ["ADAPTABILITY"],
+    hiddenAbilities: ["ADAPTABILITY"],
     category: "Aura",
     moves: [
       "AURASPHERE",
@@ -15879,7 +14561,7 @@ export const pokemonForms: PokemonForm[] =
       "METEORMASH",
       "DRAGONPULSE",
       "EXTREMESPEED",
-      "CLOSECOMBAT"
+      "CLOSECOMBAT",
     ],
     tutorMoves: [
       "AERIALACE",
@@ -15977,47 +14659,37 @@ export const pokemonForms: PokemonForm[] =
       "VACUUMWAVE",
       "WATERPULSE",
       "WORKUP",
-      "ZENHEADBUTT"
+      "ZENHEADBUTT",
     ],
-    eggMoves: [
-
-    ],
+    eggMoves: [],
     suffix: "normal",
-    evolution: [
-
-    ],
+    evolution: [],
     color: "Blue",
     formNumber: 1,
     formName: "Mega Lucario",
     baseId: "LUCARIO",
-    megaStone: "LUCARIONITE"
+    megaStone: "LUCARIONITE",
   },
   {
     id: "ABOMASNOW",
     name: "Abomasnow",
-    types: [
-      "GRASS",
-      "ICE"
-    ],
+    types: ["GRASS", "ICE"],
     sprite: "/Front/ABOMASNOW_1.png",
     backSprite: "/spritesBack/ABOMASNOW_1.png",
-    description: "It whips up blizzards in mountains that are always buried in snow. It is the abominable snowman.",
+    description:
+      "It whips up blizzards in mountains that are always buried in snow. It is the abominable snowman.",
     stats: {
       hp: 90,
       attack: 132,
       defense: 105,
       spAttack: 132,
       spDefense: 105,
-      speed: 30
+      speed: 30,
     },
     height: "2.7",
     weight: "185.0",
-    abilities: [
-      "SNOWWARNING"
-    ],
-    hiddenAbilities: [
-      "SNOWWARNING"
-    ],
+    abilities: ["SNOWWARNING"],
+    hiddenAbilities: ["SNOWWARNING"],
     category: "Frost Tree",
     moves: [
       "ICEPUNCH",
@@ -16033,7 +14705,7 @@ export const pokemonForms: PokemonForm[] =
       "INGRAIN",
       "WOODHAMMER",
       "BLIZZARD",
-      "SHEERCOLD"
+      "SHEERCOLD",
     ],
     tutorMoves: [
       "ATTRACT",
@@ -16116,47 +14788,37 @@ export const pokemonForms: PokemonForm[] =
       "TRAILBLAZE",
       "WATERPULSE",
       "WEATHERBALL",
-      "WORRYSEED"
+      "WORRYSEED",
     ],
-    eggMoves: [
-
-    ],
+    eggMoves: [],
     suffix: "normal",
-    evolution: [
-
-    ],
+    evolution: [],
     color: "White",
     formNumber: 1,
     formName: "Mega Abomasnow",
     baseId: "ABOMASNOW",
-    megaStone: "ABOMASITE"
+    megaStone: "ABOMASITE",
   },
   {
     id: "GALLADE",
     name: "Gallade",
-    types: [
-      "PSYCHIC",
-      "FIGHTING"
-    ],
+    types: ["PSYCHIC", "FIGHTING"],
     sprite: "/Front/GALLADE_1.png",
     backSprite: "/spritesBack/GALLADE_1.png",
-    description: "A master of courtesy and swordsmanship, it fights using extending swords on its elbows.",
+    description:
+      "A master of courtesy and swordsmanship, it fights using extending swords on its elbows.",
     stats: {
       hp: 68,
       attack: 165,
       defense: 95,
       spAttack: 65,
       spDefense: 115,
-      speed: 110
+      speed: 110,
     },
     height: "1.6",
     weight: "56.4",
-    abilities: [
-      "INNERFOCUS"
-    ],
-    hiddenAbilities: [
-      "INNERFOCUS"
-    ],
+    abilities: ["INNERFOCUS"],
+    hiddenAbilities: ["INNERFOCUS"],
     category: "Blade",
     moves: [
       "SLASH",
@@ -16191,7 +14853,7 @@ export const pokemonForms: PokemonForm[] =
       "HEALPULSE",
       "WIDEGUARD",
       "QUICKGUARD",
-      "CLOSECOMBAT"
+      "CLOSECOMBAT",
     ],
     tutorMoves: [
       "AERIALACE",
@@ -16325,47 +14987,37 @@ export const pokemonForms: PokemonForm[] =
       "WONDERROOM",
       "WORKUP",
       "XSCISSOR",
-      "ZENHEADBUTT"
+      "ZENHEADBUTT",
     ],
-    eggMoves: [
-
-    ],
+    eggMoves: [],
     suffix: "normal",
-    evolution: [
-
-    ],
+    evolution: [],
     color: "White",
     formNumber: 1,
     formName: "Mega Gallade",
     baseId: "GALLADE",
-    megaStone: "GALLADITE"
+    megaStone: "GALLADITE",
   },
   {
     id: "ROTOM",
     name: "Rotom",
-    types: [
-      "ELECTRIC",
-      "FIRE"
-    ],
+    types: ["ELECTRIC", "FIRE"],
     sprite: "/Front/ROTOM_1.png",
     backSprite: "/spritesBack/ROTOM_1.png",
-    description: "This Rotom has possessed a convection microwave oven that uses a special motor. It also has a flair for manipulating flames.",
+    description:
+      "This Rotom has possessed a convection microwave oven that uses a special motor. It also has a flair for manipulating flames.",
     stats: {
       hp: 50,
       attack: 65,
       defense: 107,
       spAttack: 105,
       spDefense: 107,
-      speed: 86
+      speed: 86,
     },
     height: "0.3",
     weight: "0.3",
-    abilities: [
-      "LEVITATE"
-    ],
-    hiddenAbilities: [
-
-    ],
+    abilities: ["LEVITATE"],
+    hiddenAbilities: [],
     category: "Plasma",
     moves: [
       "ASTONISH",
@@ -16380,7 +15032,7 @@ export const pokemonForms: PokemonForm[] =
       "SUBSTITUTE",
       "TRICK",
       "DISCHARGE",
-      "UPROAR"
+      "UPROAR",
     ],
     tutorMoves: [
       "ALLYSWITCH",
@@ -16442,47 +15094,37 @@ export const pokemonForms: PokemonForm[] =
       "TRICK",
       "UPROAR",
       "VOLTSWITCH",
-      "WILLOWISP"
+      "WILLOWISP",
     ],
-    eggMoves: [
-
-    ],
+    eggMoves: [],
     suffix: "normal",
-    evolution: [
-
-    ],
+    evolution: [],
     color: "Red",
     formNumber: 1,
     formName: "Heat Rotom",
     baseId: "ROTOM",
-    megaStone: null
+    megaStone: null,
   },
   {
     id: "ROTOM",
     name: "Rotom",
-    types: [
-      "ELECTRIC",
-      "WATER"
-    ],
+    types: ["ELECTRIC", "WATER"],
     sprite: "/Front/ROTOM_2.png",
     backSprite: "/spritesBack/ROTOM_2.png",
-    description: "This form of Rotom enjoys coming up with water-based pranks. Be careful with it if you don't want your room flooded.",
+    description:
+      "This form of Rotom enjoys coming up with water-based pranks. Be careful with it if you don't want your room flooded.",
     stats: {
       hp: 50,
       attack: 65,
       defense: 107,
       spAttack: 105,
       spDefense: 107,
-      speed: 86
+      speed: 86,
     },
     height: "0.3",
     weight: "0.3",
-    abilities: [
-      "LEVITATE"
-    ],
-    hiddenAbilities: [
-
-    ],
+    abilities: ["LEVITATE"],
+    hiddenAbilities: [],
     category: "Plasma",
     moves: [
       "ASTONISH",
@@ -16497,7 +15139,7 @@ export const pokemonForms: PokemonForm[] =
       "SUBSTITUTE",
       "TRICK",
       "DISCHARGE",
-      "UPROAR"
+      "UPROAR",
     ],
     tutorMoves: [
       "ALLYSWITCH",
@@ -16559,47 +15201,37 @@ export const pokemonForms: PokemonForm[] =
       "TRICK",
       "UPROAR",
       "VOLTSWITCH",
-      "WILLOWISP"
+      "WILLOWISP",
     ],
-    eggMoves: [
-
-    ],
+    eggMoves: [],
     suffix: "normal",
-    evolution: [
-
-    ],
+    evolution: [],
     color: "Red",
     formNumber: 2,
     formName: "Wash Rotom",
     baseId: "ROTOM",
-    megaStone: null
+    megaStone: null,
   },
   {
     id: "ROTOM",
     name: "Rotom",
-    types: [
-      "ELECTRIC",
-      "ICE"
-    ],
+    types: ["ELECTRIC", "ICE"],
     sprite: "/Front/ROTOM_3.png",
     backSprite: "/spritesBack/ROTOM_3.png",
-    description: "Rotom assumes this form when it takes over a refrigerator powered by a special motor. It battles by spewing cold air.",
+    description:
+      "Rotom assumes this form when it takes over a refrigerator powered by a special motor. It battles by spewing cold air.",
     stats: {
       hp: 50,
       attack: 65,
       defense: 107,
       spAttack: 105,
       spDefense: 107,
-      speed: 86
+      speed: 86,
     },
     height: "0.3",
     weight: "0.3",
-    abilities: [
-      "LEVITATE"
-    ],
-    hiddenAbilities: [
-
-    ],
+    abilities: ["LEVITATE"],
+    hiddenAbilities: [],
     category: "Plasma",
     moves: [
       "ASTONISH",
@@ -16614,7 +15246,7 @@ export const pokemonForms: PokemonForm[] =
       "SUBSTITUTE",
       "TRICK",
       "DISCHARGE",
-      "UPROAR"
+      "UPROAR",
     ],
     tutorMoves: [
       "ALLYSWITCH",
@@ -16676,47 +15308,37 @@ export const pokemonForms: PokemonForm[] =
       "TRICK",
       "UPROAR",
       "VOLTSWITCH",
-      "WILLOWISP"
+      "WILLOWISP",
     ],
-    eggMoves: [
-
-    ],
+    eggMoves: [],
     suffix: "normal",
-    evolution: [
-
-    ],
+    evolution: [],
     color: "Red",
     formNumber: 3,
     formName: "Frost Rotom",
     baseId: "ROTOM",
-    megaStone: null
+    megaStone: null,
   },
   {
     id: "ROTOM",
     name: "Rotom",
-    types: [
-      "ELECTRIC",
-      "FLYING"
-    ],
+    types: ["ELECTRIC", "FLYING"],
     sprite: "/Front/ROTOM_4.png",
     backSprite: "/spritesBack/ROTOM_4.png",
-    description: "In this form, Rotom applies its new power over wind to its love of pranks. It will happily blow away any important documents it can find.",
+    description:
+      "In this form, Rotom applies its new power over wind to its love of pranks. It will happily blow away any important documents it can find.",
     stats: {
       hp: 50,
       attack: 65,
       defense: 107,
       spAttack: 105,
       spDefense: 107,
-      speed: 86
+      speed: 86,
     },
     height: "0.3",
     weight: "0.3",
-    abilities: [
-      "LEVITATE"
-    ],
-    hiddenAbilities: [
-
-    ],
+    abilities: ["LEVITATE"],
+    hiddenAbilities: [],
     category: "Plasma",
     moves: [
       "ASTONISH",
@@ -16731,7 +15353,7 @@ export const pokemonForms: PokemonForm[] =
       "SUBSTITUTE",
       "TRICK",
       "DISCHARGE",
-      "UPROAR"
+      "UPROAR",
     ],
     tutorMoves: [
       "ALLYSWITCH",
@@ -16793,47 +15415,37 @@ export const pokemonForms: PokemonForm[] =
       "TRICK",
       "UPROAR",
       "VOLTSWITCH",
-      "WILLOWISP"
+      "WILLOWISP",
     ],
-    eggMoves: [
-
-    ],
+    eggMoves: [],
     suffix: "normal",
-    evolution: [
-
-    ],
+    evolution: [],
     color: "Red",
     formNumber: 4,
     formName: "Fan Rotom",
     baseId: "ROTOM",
-    megaStone: null
+    megaStone: null,
   },
   {
     id: "ROTOM",
     name: "Rotom",
-    types: [
-      "ELECTRIC",
-      "GRASS"
-    ],
+    types: ["ELECTRIC", "GRASS"],
     sprite: "/Front/ROTOM_5.png",
     backSprite: "/spritesBack/ROTOM_5.png",
-    description: "This is Rotom after it's seized control of a lawn mower that has a special motor. As it mows down grass, it scatters the clippings everywhere.",
+    description:
+      "This is Rotom after it's seized control of a lawn mower that has a special motor. As it mows down grass, it scatters the clippings everywhere.",
     stats: {
       hp: 50,
       attack: 65,
       defense: 107,
       spAttack: 105,
       spDefense: 107,
-      speed: 86
+      speed: 86,
     },
     height: "0.3",
     weight: "0.3",
-    abilities: [
-      "LEVITATE"
-    ],
-    hiddenAbilities: [
-
-    ],
+    abilities: ["LEVITATE"],
+    hiddenAbilities: [],
     category: "Plasma",
     moves: [
       "ASTONISH",
@@ -16848,7 +15460,7 @@ export const pokemonForms: PokemonForm[] =
       "SUBSTITUTE",
       "TRICK",
       "DISCHARGE",
-      "UPROAR"
+      "UPROAR",
     ],
     tutorMoves: [
       "ALLYSWITCH",
@@ -16910,47 +15522,37 @@ export const pokemonForms: PokemonForm[] =
       "TRICK",
       "UPROAR",
       "VOLTSWITCH",
-      "WILLOWISP"
+      "WILLOWISP",
     ],
-    eggMoves: [
-
-    ],
+    eggMoves: [],
     suffix: "normal",
-    evolution: [
-
-    ],
+    evolution: [],
     color: "Red",
     formNumber: 5,
     formName: "Mow Rotom",
     baseId: "ROTOM",
-    megaStone: null
+    megaStone: null,
   },
   {
     id: "DIALGA",
     name: "Dialga",
-    types: [
-      "STEEL",
-      "DRAGON"
-    ],
+    types: ["STEEL", "DRAGON"],
     sprite: "/Front/DIALGA_1.png",
     backSprite: "/spritesBack/DIALGA_1.png",
-    description: "Radiant light caused Dialga to take on a form bearing a striking resemblance to the creator Pokémon. Dialga now wields such colossal strength that one must conclude this is its true form.",
+    description:
+      "Radiant light caused Dialga to take on a form bearing a striking resemblance to the creator Pokémon. Dialga now wields such colossal strength that one must conclude this is its true form.",
     stats: {
       hp: 100,
       attack: 100,
       defense: 120,
       spAttack: 150,
       spDefense: 120,
-      speed: 90
+      speed: 90,
     },
     height: "7.0",
     weight: "850.0",
-    abilities: [
-      "PRESSURE"
-    ],
-    hiddenAbilities: [
-      "TELEPATHY"
-    ],
+    abilities: ["PRESSURE"],
+    hiddenAbilities: ["TELEPATHY"],
     category: "Temporal",
     moves: [
       "SCARYFACE",
@@ -16965,7 +15567,7 @@ export const pokemonForms: PokemonForm[] =
       "METALBURST",
       "EARTHPOWER",
       "IRONTAIL",
-      "ROAROFTIME"
+      "ROAROFTIME",
     ],
     tutorMoves: [
       "ANCIENTPOWER",
@@ -17052,47 +15654,37 @@ export const pokemonForms: PokemonForm[] =
       "THUNDERWAVE",
       "TRICK",
       "TRICKROOM",
-      "TWISTER"
+      "TWISTER",
     ],
-    eggMoves: [
-
-    ],
+    eggMoves: [],
     suffix: "normal",
-    evolution: [
-
-    ],
+    evolution: [],
     color: "Blue",
     formNumber: 1,
     formName: "Origin Forme",
     baseId: "DIALGA",
-    megaStone: null
+    megaStone: null,
   },
   {
     id: "PALKIA",
     name: "Palkia",
-    types: [
-      "WATER",
-      "DRAGON"
-    ],
+    types: ["WATER", "DRAGON"],
     sprite: "/Front/PALKIA_1.png",
     backSprite: "/spritesBack/PALKIA_1.png",
-    description: "It soars across the sky in a form that greatly resembles the creator of all things. Perhaps this imitation of appearance is Palkia's strategy for gaining Arceus's powers.",
+    description:
+      "It soars across the sky in a form that greatly resembles the creator of all things. Perhaps this imitation of appearance is Palkia's strategy for gaining Arceus's powers.",
     stats: {
       hp: 90,
       attack: 100,
       defense: 100,
       spAttack: 150,
       spDefense: 120,
-      speed: 120
+      speed: 120,
     },
     height: "6.3",
     weight: "660.0",
-    abilities: [
-      "PRESSURE"
-    ],
-    hiddenAbilities: [
-      "TELEPATHY"
-    ],
+    abilities: ["PRESSURE"],
+    hiddenAbilities: ["TELEPATHY"],
     category: "Spatial",
     moves: [
       "SCARYFACE",
@@ -17106,7 +15698,7 @@ export const pokemonForms: PokemonForm[] =
       "AQUATAIL",
       "EARTHPOWER",
       "SPACIALREND",
-      "HYDROPUMP"
+      "HYDROPUMP",
     ],
     tutorMoves: [
       "AERIALACE",
@@ -17199,47 +15791,37 @@ export const pokemonForms: PokemonForm[] =
       "TWISTER",
       "WATERFALL",
       "WATERPULSE",
-      "WHIRLPOOL"
+      "WHIRLPOOL",
     ],
-    eggMoves: [
-
-    ],
+    eggMoves: [],
     suffix: "normal",
-    evolution: [
-
-    ],
+    evolution: [],
     color: "Purple",
     formNumber: 1,
     formName: "Origin Forme",
     baseId: "PALKIA",
-    megaStone: null
+    megaStone: null,
   },
   {
     id: "GIRATINA",
     name: "Giratina",
-    types: [
-      "GHOST",
-      "DRAGON"
-    ],
+    types: ["GHOST", "DRAGON"],
     sprite: "/Front/GIRATINA_1.png",
     backSprite: "/spritesBack/GIRATINA_1.png",
-    description: "A Pokémon that is said to live in a world on the reverse side of ours. It appears in an ancient cemetery.",
+    description:
+      "A Pokémon that is said to live in a world on the reverse side of ours. It appears in an ancient cemetery.",
     stats: {
       hp: 150,
       attack: 120,
       defense: 100,
       spAttack: 120,
       spDefense: 100,
-      speed: 90
+      speed: 90,
     },
     height: "6.9",
     weight: "650.0",
-    abilities: [
-      "LEVITATE"
-    ],
-    hiddenAbilities: [
-      "LEVITATE"
-    ],
+    abilities: ["LEVITATE"],
+    hiddenAbilities: ["LEVITATE"],
     category: "Renegade",
     moves: [
       "SHADOWSNEAK",
@@ -17255,7 +15837,7 @@ export const pokemonForms: PokemonForm[] =
       "DRAGONCLAW",
       "EARTHPOWER",
       "SHADOWFORCE",
-      "DESTINYBOND"
+      "DESTINYBOND",
     ],
     tutorMoves: [
       "ANCIENTPOWER",
@@ -17342,47 +15924,37 @@ export const pokemonForms: PokemonForm[] =
       "THUNDERBOLT",
       "THUNDERWAVE",
       "TWISTER",
-      "WILLOWISP"
+      "WILLOWISP",
     ],
-    eggMoves: [
-
-    ],
+    eggMoves: [],
     suffix: "normal",
-    evolution: [
-
-    ],
+    evolution: [],
     color: "Black",
     formNumber: 1,
     formName: "Origin Forme",
     baseId: "GIRATINA",
-    megaStone: null
+    megaStone: null,
   },
   {
     id: "SHAYMIN",
     name: "Shaymin",
-    types: [
-      "GRASS",
-      "FLYING"
-    ],
+    types: ["GRASS", "FLYING"],
     sprite: "/Front/SHAYMIN_1.png",
     backSprite: "/spritesBack/SHAYMIN_1.png",
-    description: "It lives in flower patches and avoids detection by curling up to look like a flowering plant.",
+    description:
+      "It lives in flower patches and avoids detection by curling up to look like a flowering plant.",
     stats: {
       hp: 100,
       attack: 103,
       defense: 75,
       spAttack: 120,
       spDefense: 75,
-      speed: 127
+      speed: 127,
     },
     height: "0.4",
     weight: "5.2",
-    abilities: [
-      "SERENEGRACE"
-    ],
-    hiddenAbilities: [
-
-    ],
+    abilities: ["SERENEGRACE"],
+    hiddenAbilities: [],
     category: "Gratitude",
     moves: [
       "GROWTH",
@@ -17396,7 +15968,7 @@ export const pokemonForms: PokemonForm[] =
       "ENERGYBALL",
       "SWEETKISS",
       "LEAFSTORM",
-      "SEEDFLARE"
+      "SEEDFLARE",
     ],
     tutorMoves: [
       "AIRCUTTER",
@@ -17457,46 +16029,37 @@ export const pokemonForms: PokemonForm[] =
       "TERABLAST",
       "TRAILBLAZE",
       "WORRYSEED",
-      "ZENHEADBUTT"
+      "ZENHEADBUTT",
     ],
-    eggMoves: [
-
-    ],
+    eggMoves: [],
     suffix: "normal",
-    evolution: [
-
-    ],
+    evolution: [],
     color: "Green",
     formNumber: 1,
     formName: "Sky Forme",
     baseId: "SHAYMIN",
-    megaStone: null
+    megaStone: null,
   },
   {
     id: "ARCEUS",
     name: "Arceus",
-    types: [
-      "FIGHTING"
-    ],
+    types: ["FIGHTING"],
     sprite: "/Front/ARCEUS_1.png",
     backSprite: "/spritesBack/ARCEUS_1.png",
-    description: "It is described in mythology as the Pokémon that shaped the universe with its 1,000 arms.",
+    description:
+      "It is described in mythology as the Pokémon that shaped the universe with its 1,000 arms.",
     stats: {
       hp: 120,
       attack: 120,
       defense: 120,
       spAttack: 120,
       spDefense: 120,
-      speed: 120
+      speed: 120,
     },
     height: "3.2",
     weight: "320.0",
-    abilities: [
-      "MULTITYPE"
-    ],
-    hiddenAbilities: [
-
-    ],
+    abilities: ["MULTITYPE"],
+    hiddenAbilities: [],
     category: "Alpha",
     moves: [
       "SEISMICTOSS",
@@ -17510,7 +16073,7 @@ export const pokemonForms: PokemonForm[] =
       "RECOVER",
       "HYPERBEAM",
       "PERISHSONG",
-      "JUDGMENT"
+      "JUDGMENT",
     ],
     tutorMoves: [
       "ACIDSPRAY",
@@ -17669,46 +16232,37 @@ export const pokemonForms: PokemonForm[] =
       "WILLOWISP",
       "WORKUP",
       "XSCISSOR",
-      "ZENHEADBUTT"
+      "ZENHEADBUTT",
     ],
-    eggMoves: [
-
-    ],
+    eggMoves: [],
     suffix: "normal",
-    evolution: [
-
-    ],
+    evolution: [],
     color: "White",
     formNumber: 1,
     formName: "Fighting Type",
     baseId: "ARCEUS",
-    megaStone: null
+    megaStone: null,
   },
   {
     id: "ARCEUS",
     name: "Arceus",
-    types: [
-      "FLYING"
-    ],
+    types: ["FLYING"],
     sprite: "/Front/ARCEUS_2.png",
     backSprite: "/spritesBack/ARCEUS_2.png",
-    description: "It is described in mythology as the Pokémon that shaped the universe with its 1,000 arms.",
+    description:
+      "It is described in mythology as the Pokémon that shaped the universe with its 1,000 arms.",
     stats: {
       hp: 120,
       attack: 120,
       defense: 120,
       spAttack: 120,
       spDefense: 120,
-      speed: 120
+      speed: 120,
     },
     height: "3.2",
     weight: "320.0",
-    abilities: [
-      "MULTITYPE"
-    ],
-    hiddenAbilities: [
-
-    ],
+    abilities: ["MULTITYPE"],
+    hiddenAbilities: [],
     category: "Alpha",
     moves: [
       "SEISMICTOSS",
@@ -17722,7 +16276,7 @@ export const pokemonForms: PokemonForm[] =
       "RECOVER",
       "HYPERBEAM",
       "PERISHSONG",
-      "JUDGMENT"
+      "JUDGMENT",
     ],
     tutorMoves: [
       "ACIDSPRAY",
@@ -17881,46 +16435,37 @@ export const pokemonForms: PokemonForm[] =
       "WILLOWISP",
       "WORKUP",
       "XSCISSOR",
-      "ZENHEADBUTT"
+      "ZENHEADBUTT",
     ],
-    eggMoves: [
-
-    ],
+    eggMoves: [],
     suffix: "normal",
-    evolution: [
-
-    ],
+    evolution: [],
     color: "White",
     formNumber: 2,
     formName: "Flying Type",
     baseId: "ARCEUS",
-    megaStone: null
+    megaStone: null,
   },
   {
     id: "ARCEUS",
     name: "Arceus",
-    types: [
-      "POISON"
-    ],
+    types: ["POISON"],
     sprite: "/Front/ARCEUS_3.png",
     backSprite: "/spritesBack/ARCEUS_3.png",
-    description: "It is described in mythology as the Pokémon that shaped the universe with its 1,000 arms.",
+    description:
+      "It is described in mythology as the Pokémon that shaped the universe with its 1,000 arms.",
     stats: {
       hp: 120,
       attack: 120,
       defense: 120,
       spAttack: 120,
       spDefense: 120,
-      speed: 120
+      speed: 120,
     },
     height: "3.2",
     weight: "320.0",
-    abilities: [
-      "MULTITYPE"
-    ],
-    hiddenAbilities: [
-
-    ],
+    abilities: ["MULTITYPE"],
+    hiddenAbilities: [],
     category: "Alpha",
     moves: [
       "SEISMICTOSS",
@@ -17934,7 +16479,7 @@ export const pokemonForms: PokemonForm[] =
       "RECOVER",
       "HYPERBEAM",
       "PERISHSONG",
-      "JUDGMENT"
+      "JUDGMENT",
     ],
     tutorMoves: [
       "ACIDSPRAY",
@@ -18093,46 +16638,37 @@ export const pokemonForms: PokemonForm[] =
       "WILLOWISP",
       "WORKUP",
       "XSCISSOR",
-      "ZENHEADBUTT"
+      "ZENHEADBUTT",
     ],
-    eggMoves: [
-
-    ],
+    eggMoves: [],
     suffix: "normal",
-    evolution: [
-
-    ],
+    evolution: [],
     color: "White",
     formNumber: 3,
     formName: "Poison Type",
     baseId: "ARCEUS",
-    megaStone: null
+    megaStone: null,
   },
   {
     id: "ARCEUS",
     name: "Arceus",
-    types: [
-      "GROUND"
-    ],
+    types: ["GROUND"],
     sprite: "/Front/ARCEUS_4.png",
     backSprite: "/spritesBack/ARCEUS_4.png",
-    description: "It is described in mythology as the Pokémon that shaped the universe with its 1,000 arms.",
+    description:
+      "It is described in mythology as the Pokémon that shaped the universe with its 1,000 arms.",
     stats: {
       hp: 120,
       attack: 120,
       defense: 120,
       spAttack: 120,
       spDefense: 120,
-      speed: 120
+      speed: 120,
     },
     height: "3.2",
     weight: "320.0",
-    abilities: [
-      "MULTITYPE"
-    ],
-    hiddenAbilities: [
-
-    ],
+    abilities: ["MULTITYPE"],
+    hiddenAbilities: [],
     category: "Alpha",
     moves: [
       "SEISMICTOSS",
@@ -18146,7 +16682,7 @@ export const pokemonForms: PokemonForm[] =
       "RECOVER",
       "HYPERBEAM",
       "PERISHSONG",
-      "JUDGMENT"
+      "JUDGMENT",
     ],
     tutorMoves: [
       "ACIDSPRAY",
@@ -18305,46 +16841,37 @@ export const pokemonForms: PokemonForm[] =
       "WILLOWISP",
       "WORKUP",
       "XSCISSOR",
-      "ZENHEADBUTT"
+      "ZENHEADBUTT",
     ],
-    eggMoves: [
-
-    ],
+    eggMoves: [],
     suffix: "normal",
-    evolution: [
-
-    ],
+    evolution: [],
     color: "White",
     formNumber: 4,
     formName: "Ground Type",
     baseId: "ARCEUS",
-    megaStone: null
+    megaStone: null,
   },
   {
     id: "ARCEUS",
     name: "Arceus",
-    types: [
-      "ROCK"
-    ],
+    types: ["ROCK"],
     sprite: "/Front/ARCEUS_5.png",
     backSprite: "/spritesBack/ARCEUS_5.png",
-    description: "It is described in mythology as the Pokémon that shaped the universe with its 1,000 arms.",
+    description:
+      "It is described in mythology as the Pokémon that shaped the universe with its 1,000 arms.",
     stats: {
       hp: 120,
       attack: 120,
       defense: 120,
       spAttack: 120,
       spDefense: 120,
-      speed: 120
+      speed: 120,
     },
     height: "3.2",
     weight: "320.0",
-    abilities: [
-      "MULTITYPE"
-    ],
-    hiddenAbilities: [
-
-    ],
+    abilities: ["MULTITYPE"],
+    hiddenAbilities: [],
     category: "Alpha",
     moves: [
       "SEISMICTOSS",
@@ -18358,7 +16885,7 @@ export const pokemonForms: PokemonForm[] =
       "RECOVER",
       "HYPERBEAM",
       "PERISHSONG",
-      "JUDGMENT"
+      "JUDGMENT",
     ],
     tutorMoves: [
       "ACIDSPRAY",
@@ -18517,46 +17044,37 @@ export const pokemonForms: PokemonForm[] =
       "WILLOWISP",
       "WORKUP",
       "XSCISSOR",
-      "ZENHEADBUTT"
+      "ZENHEADBUTT",
     ],
-    eggMoves: [
-
-    ],
+    eggMoves: [],
     suffix: "normal",
-    evolution: [
-
-    ],
+    evolution: [],
     color: "White",
     formNumber: 5,
     formName: "Rock Type",
     baseId: "ARCEUS",
-    megaStone: null
+    megaStone: null,
   },
   {
     id: "ARCEUS",
     name: "Arceus",
-    types: [
-      "BUG"
-    ],
+    types: ["BUG"],
     sprite: "/Front/ARCEUS_6.png",
     backSprite: "/spritesBack/ARCEUS_6.png",
-    description: "It is described in mythology as the Pokémon that shaped the universe with its 1,000 arms.",
+    description:
+      "It is described in mythology as the Pokémon that shaped the universe with its 1,000 arms.",
     stats: {
       hp: 120,
       attack: 120,
       defense: 120,
       spAttack: 120,
       spDefense: 120,
-      speed: 120
+      speed: 120,
     },
     height: "3.2",
     weight: "320.0",
-    abilities: [
-      "MULTITYPE"
-    ],
-    hiddenAbilities: [
-
-    ],
+    abilities: ["MULTITYPE"],
+    hiddenAbilities: [],
     category: "Alpha",
     moves: [
       "SEISMICTOSS",
@@ -18570,7 +17088,7 @@ export const pokemonForms: PokemonForm[] =
       "RECOVER",
       "HYPERBEAM",
       "PERISHSONG",
-      "JUDGMENT"
+      "JUDGMENT",
     ],
     tutorMoves: [
       "ACIDSPRAY",
@@ -18729,46 +17247,37 @@ export const pokemonForms: PokemonForm[] =
       "WILLOWISP",
       "WORKUP",
       "XSCISSOR",
-      "ZENHEADBUTT"
+      "ZENHEADBUTT",
     ],
-    eggMoves: [
-
-    ],
+    eggMoves: [],
     suffix: "normal",
-    evolution: [
-
-    ],
+    evolution: [],
     color: "White",
     formNumber: 6,
     formName: "Bug Type",
     baseId: "ARCEUS",
-    megaStone: null
+    megaStone: null,
   },
   {
     id: "ARCEUS",
     name: "Arceus",
-    types: [
-      "GHOST"
-    ],
+    types: ["GHOST"],
     sprite: "/Front/ARCEUS_7.png",
     backSprite: "/spritesBack/ARCEUS_7.png",
-    description: "It is described in mythology as the Pokémon that shaped the universe with its 1,000 arms.",
+    description:
+      "It is described in mythology as the Pokémon that shaped the universe with its 1,000 arms.",
     stats: {
       hp: 120,
       attack: 120,
       defense: 120,
       spAttack: 120,
       spDefense: 120,
-      speed: 120
+      speed: 120,
     },
     height: "3.2",
     weight: "320.0",
-    abilities: [
-      "MULTITYPE"
-    ],
-    hiddenAbilities: [
-
-    ],
+    abilities: ["MULTITYPE"],
+    hiddenAbilities: [],
     category: "Alpha",
     moves: [
       "SEISMICTOSS",
@@ -18782,7 +17291,7 @@ export const pokemonForms: PokemonForm[] =
       "RECOVER",
       "HYPERBEAM",
       "PERISHSONG",
-      "JUDGMENT"
+      "JUDGMENT",
     ],
     tutorMoves: [
       "ACIDSPRAY",
@@ -18941,46 +17450,37 @@ export const pokemonForms: PokemonForm[] =
       "WILLOWISP",
       "WORKUP",
       "XSCISSOR",
-      "ZENHEADBUTT"
+      "ZENHEADBUTT",
     ],
-    eggMoves: [
-
-    ],
+    eggMoves: [],
     suffix: "normal",
-    evolution: [
-
-    ],
+    evolution: [],
     color: "White",
     formNumber: 7,
     formName: "Ghost Type",
     baseId: "ARCEUS",
-    megaStone: null
+    megaStone: null,
   },
   {
     id: "ARCEUS",
     name: "Arceus",
-    types: [
-      "STEEL"
-    ],
+    types: ["STEEL"],
     sprite: "/Front/ARCEUS_8.png",
     backSprite: "/spritesBack/ARCEUS_8.png",
-    description: "It is described in mythology as the Pokémon that shaped the universe with its 1,000 arms.",
+    description:
+      "It is described in mythology as the Pokémon that shaped the universe with its 1,000 arms.",
     stats: {
       hp: 120,
       attack: 120,
       defense: 120,
       spAttack: 120,
       spDefense: 120,
-      speed: 120
+      speed: 120,
     },
     height: "3.2",
     weight: "320.0",
-    abilities: [
-      "MULTITYPE"
-    ],
-    hiddenAbilities: [
-
-    ],
+    abilities: ["MULTITYPE"],
+    hiddenAbilities: [],
     category: "Alpha",
     moves: [
       "SEISMICTOSS",
@@ -18994,7 +17494,7 @@ export const pokemonForms: PokemonForm[] =
       "RECOVER",
       "HYPERBEAM",
       "PERISHSONG",
-      "JUDGMENT"
+      "JUDGMENT",
     ],
     tutorMoves: [
       "ACIDSPRAY",
@@ -19153,46 +17653,37 @@ export const pokemonForms: PokemonForm[] =
       "WILLOWISP",
       "WORKUP",
       "XSCISSOR",
-      "ZENHEADBUTT"
+      "ZENHEADBUTT",
     ],
-    eggMoves: [
-
-    ],
+    eggMoves: [],
     suffix: "normal",
-    evolution: [
-
-    ],
+    evolution: [],
     color: "White",
     formNumber: 8,
     formName: "Steel Type",
     baseId: "ARCEUS",
-    megaStone: null
+    megaStone: null,
   },
   {
     id: "ARCEUS",
     name: "Arceus",
-    types: [
-      "QMARKS"
-    ],
+    types: ["QMARKS"],
     sprite: "/Front/ARCEUS_9.png",
     backSprite: "/spritesBack/ARCEUS_9.png",
-    description: "It is described in mythology as the Pokémon that shaped the universe with its 1,000 arms.",
+    description:
+      "It is described in mythology as the Pokémon that shaped the universe with its 1,000 arms.",
     stats: {
       hp: 120,
       attack: 120,
       defense: 120,
       spAttack: 120,
       spDefense: 120,
-      speed: 120
+      speed: 120,
     },
     height: "3.2",
     weight: "320.0",
-    abilities: [
-      "MULTITYPE"
-    ],
-    hiddenAbilities: [
-
-    ],
+    abilities: ["MULTITYPE"],
+    hiddenAbilities: [],
     category: "Alpha",
     moves: [
       "SEISMICTOSS",
@@ -19206,7 +17697,7 @@ export const pokemonForms: PokemonForm[] =
       "RECOVER",
       "HYPERBEAM",
       "PERISHSONG",
-      "JUDGMENT"
+      "JUDGMENT",
     ],
     tutorMoves: [
       "ACIDSPRAY",
@@ -19365,46 +17856,37 @@ export const pokemonForms: PokemonForm[] =
       "WILLOWISP",
       "WORKUP",
       "XSCISSOR",
-      "ZENHEADBUTT"
+      "ZENHEADBUTT",
     ],
-    eggMoves: [
-
-    ],
+    eggMoves: [],
     suffix: "normal",
-    evolution: [
-
-    ],
+    evolution: [],
     color: "White",
     formNumber: 9,
     formName: "Unknown Type",
     baseId: "ARCEUS",
-    megaStone: null
+    megaStone: null,
   },
   {
     id: "ARCEUS",
     name: "Arceus",
-    types: [
-      "FIRE"
-    ],
+    types: ["FIRE"],
     sprite: "/Front/ARCEUS_10.png",
     backSprite: "/spritesBack/ARCEUS_10.png",
-    description: "It is described in mythology as the Pokémon that shaped the universe with its 1,000 arms.",
+    description:
+      "It is described in mythology as the Pokémon that shaped the universe with its 1,000 arms.",
     stats: {
       hp: 120,
       attack: 120,
       defense: 120,
       spAttack: 120,
       spDefense: 120,
-      speed: 120
+      speed: 120,
     },
     height: "3.2",
     weight: "320.0",
-    abilities: [
-      "MULTITYPE"
-    ],
-    hiddenAbilities: [
-
-    ],
+    abilities: ["MULTITYPE"],
+    hiddenAbilities: [],
     category: "Alpha",
     moves: [
       "SEISMICTOSS",
@@ -19418,7 +17900,7 @@ export const pokemonForms: PokemonForm[] =
       "RECOVER",
       "HYPERBEAM",
       "PERISHSONG",
-      "JUDGMENT"
+      "JUDGMENT",
     ],
     tutorMoves: [
       "ACIDSPRAY",
@@ -19577,46 +18059,37 @@ export const pokemonForms: PokemonForm[] =
       "WILLOWISP",
       "WORKUP",
       "XSCISSOR",
-      "ZENHEADBUTT"
+      "ZENHEADBUTT",
     ],
-    eggMoves: [
-
-    ],
+    eggMoves: [],
     suffix: "normal",
-    evolution: [
-
-    ],
+    evolution: [],
     color: "White",
     formNumber: 10,
     formName: "Fire Type",
     baseId: "ARCEUS",
-    megaStone: null
+    megaStone: null,
   },
   {
     id: "ARCEUS",
     name: "Arceus",
-    types: [
-      "WATER"
-    ],
+    types: ["WATER"],
     sprite: "/Front/ARCEUS_11.png",
     backSprite: "/spritesBack/ARCEUS_11.png",
-    description: "It is described in mythology as the Pokémon that shaped the universe with its 1,000 arms.",
+    description:
+      "It is described in mythology as the Pokémon that shaped the universe with its 1,000 arms.",
     stats: {
       hp: 120,
       attack: 120,
       defense: 120,
       spAttack: 120,
       spDefense: 120,
-      speed: 120
+      speed: 120,
     },
     height: "3.2",
     weight: "320.0",
-    abilities: [
-      "MULTITYPE"
-    ],
-    hiddenAbilities: [
-
-    ],
+    abilities: ["MULTITYPE"],
+    hiddenAbilities: [],
     category: "Alpha",
     moves: [
       "SEISMICTOSS",
@@ -19630,7 +18103,7 @@ export const pokemonForms: PokemonForm[] =
       "RECOVER",
       "HYPERBEAM",
       "PERISHSONG",
-      "JUDGMENT"
+      "JUDGMENT",
     ],
     tutorMoves: [
       "ACIDSPRAY",
@@ -19789,46 +18262,37 @@ export const pokemonForms: PokemonForm[] =
       "WILLOWISP",
       "WORKUP",
       "XSCISSOR",
-      "ZENHEADBUTT"
+      "ZENHEADBUTT",
     ],
-    eggMoves: [
-
-    ],
+    eggMoves: [],
     suffix: "normal",
-    evolution: [
-
-    ],
+    evolution: [],
     color: "White",
     formNumber: 11,
     formName: "Water Type",
     baseId: "ARCEUS",
-    megaStone: null
+    megaStone: null,
   },
   {
     id: "ARCEUS",
     name: "Arceus",
-    types: [
-      "GRASS"
-    ],
+    types: ["GRASS"],
     sprite: "/Front/ARCEUS_12.png",
     backSprite: "/spritesBack/ARCEUS_12.png",
-    description: "It is described in mythology as the Pokémon that shaped the universe with its 1,000 arms.",
+    description:
+      "It is described in mythology as the Pokémon that shaped the universe with its 1,000 arms.",
     stats: {
       hp: 120,
       attack: 120,
       defense: 120,
       spAttack: 120,
       spDefense: 120,
-      speed: 120
+      speed: 120,
     },
     height: "3.2",
     weight: "320.0",
-    abilities: [
-      "MULTITYPE"
-    ],
-    hiddenAbilities: [
-
-    ],
+    abilities: ["MULTITYPE"],
+    hiddenAbilities: [],
     category: "Alpha",
     moves: [
       "SEISMICTOSS",
@@ -19842,7 +18306,7 @@ export const pokemonForms: PokemonForm[] =
       "RECOVER",
       "HYPERBEAM",
       "PERISHSONG",
-      "JUDGMENT"
+      "JUDGMENT",
     ],
     tutorMoves: [
       "ACIDSPRAY",
@@ -20001,46 +18465,37 @@ export const pokemonForms: PokemonForm[] =
       "WILLOWISP",
       "WORKUP",
       "XSCISSOR",
-      "ZENHEADBUTT"
+      "ZENHEADBUTT",
     ],
-    eggMoves: [
-
-    ],
+    eggMoves: [],
     suffix: "normal",
-    evolution: [
-
-    ],
+    evolution: [],
     color: "White",
     formNumber: 12,
     formName: "Grass Type",
     baseId: "ARCEUS",
-    megaStone: null
+    megaStone: null,
   },
   {
     id: "ARCEUS",
     name: "Arceus",
-    types: [
-      "ELECTRIC"
-    ],
+    types: ["ELECTRIC"],
     sprite: "/Front/ARCEUS_13.png",
     backSprite: "/spritesBack/ARCEUS_13.png",
-    description: "It is described in mythology as the Pokémon that shaped the universe with its 1,000 arms.",
+    description:
+      "It is described in mythology as the Pokémon that shaped the universe with its 1,000 arms.",
     stats: {
       hp: 120,
       attack: 120,
       defense: 120,
       spAttack: 120,
       spDefense: 120,
-      speed: 120
+      speed: 120,
     },
     height: "3.2",
     weight: "320.0",
-    abilities: [
-      "MULTITYPE"
-    ],
-    hiddenAbilities: [
-
-    ],
+    abilities: ["MULTITYPE"],
+    hiddenAbilities: [],
     category: "Alpha",
     moves: [
       "SEISMICTOSS",
@@ -20054,7 +18509,7 @@ export const pokemonForms: PokemonForm[] =
       "RECOVER",
       "HYPERBEAM",
       "PERISHSONG",
-      "JUDGMENT"
+      "JUDGMENT",
     ],
     tutorMoves: [
       "ACIDSPRAY",
@@ -20213,46 +18668,37 @@ export const pokemonForms: PokemonForm[] =
       "WILLOWISP",
       "WORKUP",
       "XSCISSOR",
-      "ZENHEADBUTT"
+      "ZENHEADBUTT",
     ],
-    eggMoves: [
-
-    ],
+    eggMoves: [],
     suffix: "normal",
-    evolution: [
-
-    ],
+    evolution: [],
     color: "White",
     formNumber: 13,
     formName: "Electric Type",
     baseId: "ARCEUS",
-    megaStone: null
+    megaStone: null,
   },
   {
     id: "ARCEUS",
     name: "Arceus",
-    types: [
-      "PSYCHIC"
-    ],
+    types: ["PSYCHIC"],
     sprite: "/Front/ARCEUS_14.png",
     backSprite: "/spritesBack/ARCEUS_14.png",
-    description: "It is described in mythology as the Pokémon that shaped the universe with its 1,000 arms.",
+    description:
+      "It is described in mythology as the Pokémon that shaped the universe with its 1,000 arms.",
     stats: {
       hp: 120,
       attack: 120,
       defense: 120,
       spAttack: 120,
       spDefense: 120,
-      speed: 120
+      speed: 120,
     },
     height: "3.2",
     weight: "320.0",
-    abilities: [
-      "MULTITYPE"
-    ],
-    hiddenAbilities: [
-
-    ],
+    abilities: ["MULTITYPE"],
+    hiddenAbilities: [],
     category: "Alpha",
     moves: [
       "SEISMICTOSS",
@@ -20266,7 +18712,7 @@ export const pokemonForms: PokemonForm[] =
       "RECOVER",
       "HYPERBEAM",
       "PERISHSONG",
-      "JUDGMENT"
+      "JUDGMENT",
     ],
     tutorMoves: [
       "ACIDSPRAY",
@@ -20425,46 +18871,37 @@ export const pokemonForms: PokemonForm[] =
       "WILLOWISP",
       "WORKUP",
       "XSCISSOR",
-      "ZENHEADBUTT"
+      "ZENHEADBUTT",
     ],
-    eggMoves: [
-
-    ],
+    eggMoves: [],
     suffix: "normal",
-    evolution: [
-
-    ],
+    evolution: [],
     color: "White",
     formNumber: 14,
     formName: "Psychic Type",
     baseId: "ARCEUS",
-    megaStone: null
+    megaStone: null,
   },
   {
     id: "ARCEUS",
     name: "Arceus",
-    types: [
-      "ICE"
-    ],
+    types: ["ICE"],
     sprite: "/Front/ARCEUS_15.png",
     backSprite: "/spritesBack/ARCEUS_15.png",
-    description: "It is described in mythology as the Pokémon that shaped the universe with its 1,000 arms.",
+    description:
+      "It is described in mythology as the Pokémon that shaped the universe with its 1,000 arms.",
     stats: {
       hp: 120,
       attack: 120,
       defense: 120,
       spAttack: 120,
       spDefense: 120,
-      speed: 120
+      speed: 120,
     },
     height: "3.2",
     weight: "320.0",
-    abilities: [
-      "MULTITYPE"
-    ],
-    hiddenAbilities: [
-
-    ],
+    abilities: ["MULTITYPE"],
+    hiddenAbilities: [],
     category: "Alpha",
     moves: [
       "SEISMICTOSS",
@@ -20478,7 +18915,7 @@ export const pokemonForms: PokemonForm[] =
       "RECOVER",
       "HYPERBEAM",
       "PERISHSONG",
-      "JUDGMENT"
+      "JUDGMENT",
     ],
     tutorMoves: [
       "ACIDSPRAY",
@@ -20637,46 +19074,37 @@ export const pokemonForms: PokemonForm[] =
       "WILLOWISP",
       "WORKUP",
       "XSCISSOR",
-      "ZENHEADBUTT"
+      "ZENHEADBUTT",
     ],
-    eggMoves: [
-
-    ],
+    eggMoves: [],
     suffix: "normal",
-    evolution: [
-
-    ],
+    evolution: [],
     color: "White",
     formNumber: 15,
     formName: "Ice Type",
     baseId: "ARCEUS",
-    megaStone: null
+    megaStone: null,
   },
   {
     id: "ARCEUS",
     name: "Arceus",
-    types: [
-      "DRAGON"
-    ],
+    types: ["DRAGON"],
     sprite: "/Front/ARCEUS_16.png",
     backSprite: "/spritesBack/ARCEUS_16.png",
-    description: "It is described in mythology as the Pokémon that shaped the universe with its 1,000 arms.",
+    description:
+      "It is described in mythology as the Pokémon that shaped the universe with its 1,000 arms.",
     stats: {
       hp: 120,
       attack: 120,
       defense: 120,
       spAttack: 120,
       spDefense: 120,
-      speed: 120
+      speed: 120,
     },
     height: "3.2",
     weight: "320.0",
-    abilities: [
-      "MULTITYPE"
-    ],
-    hiddenAbilities: [
-
-    ],
+    abilities: ["MULTITYPE"],
+    hiddenAbilities: [],
     category: "Alpha",
     moves: [
       "SEISMICTOSS",
@@ -20690,7 +19118,7 @@ export const pokemonForms: PokemonForm[] =
       "RECOVER",
       "HYPERBEAM",
       "PERISHSONG",
-      "JUDGMENT"
+      "JUDGMENT",
     ],
     tutorMoves: [
       "ACIDSPRAY",
@@ -20849,46 +19277,37 @@ export const pokemonForms: PokemonForm[] =
       "WILLOWISP",
       "WORKUP",
       "XSCISSOR",
-      "ZENHEADBUTT"
+      "ZENHEADBUTT",
     ],
-    eggMoves: [
-
-    ],
+    eggMoves: [],
     suffix: "normal",
-    evolution: [
-
-    ],
+    evolution: [],
     color: "White",
     formNumber: 16,
     formName: "Dragon Type",
     baseId: "ARCEUS",
-    megaStone: null
+    megaStone: null,
   },
   {
     id: "ARCEUS",
     name: "Arceus",
-    types: [
-      "DARK"
-    ],
+    types: ["DARK"],
     sprite: "/Front/ARCEUS_17.png",
     backSprite: "/spritesBack/ARCEUS_17.png",
-    description: "It is described in mythology as the Pokémon that shaped the universe with its 1,000 arms.",
+    description:
+      "It is described in mythology as the Pokémon that shaped the universe with its 1,000 arms.",
     stats: {
       hp: 120,
       attack: 120,
       defense: 120,
       spAttack: 120,
       spDefense: 120,
-      speed: 120
+      speed: 120,
     },
     height: "3.2",
     weight: "320.0",
-    abilities: [
-      "MULTITYPE"
-    ],
-    hiddenAbilities: [
-
-    ],
+    abilities: ["MULTITYPE"],
+    hiddenAbilities: [],
     category: "Alpha",
     moves: [
       "SEISMICTOSS",
@@ -20902,7 +19321,7 @@ export const pokemonForms: PokemonForm[] =
       "RECOVER",
       "HYPERBEAM",
       "PERISHSONG",
-      "JUDGMENT"
+      "JUDGMENT",
     ],
     tutorMoves: [
       "ACIDSPRAY",
@@ -21061,46 +19480,37 @@ export const pokemonForms: PokemonForm[] =
       "WILLOWISP",
       "WORKUP",
       "XSCISSOR",
-      "ZENHEADBUTT"
+      "ZENHEADBUTT",
     ],
-    eggMoves: [
-
-    ],
+    eggMoves: [],
     suffix: "normal",
-    evolution: [
-
-    ],
+    evolution: [],
     color: "White",
     formNumber: 17,
     formName: "Dark Type",
     baseId: "ARCEUS",
-    megaStone: null
+    megaStone: null,
   },
   {
     id: "ARCEUS",
     name: "Arceus",
-    types: [
-      "FAIRY"
-    ],
+    types: ["FAIRY"],
     sprite: "/Front/ARCEUS_18.png",
     backSprite: "/spritesBack/ARCEUS_18.png",
-    description: "It is described in mythology as the Pokémon that shaped the universe with its 1,000 arms.",
+    description:
+      "It is described in mythology as the Pokémon that shaped the universe with its 1,000 arms.",
     stats: {
       hp: 120,
       attack: 120,
       defense: 120,
       spAttack: 120,
       spDefense: 120,
-      speed: 120
+      speed: 120,
     },
     height: "3.2",
     weight: "320.0",
-    abilities: [
-      "MULTITYPE"
-    ],
-    hiddenAbilities: [
-
-    ],
+    abilities: ["MULTITYPE"],
+    hiddenAbilities: [],
     category: "Alpha",
     moves: [
       "SEISMICTOSS",
@@ -21114,7 +19524,7 @@ export const pokemonForms: PokemonForm[] =
       "RECOVER",
       "HYPERBEAM",
       "PERISHSONG",
-      "JUDGMENT"
+      "JUDGMENT",
     ],
     tutorMoves: [
       "ACIDSPRAY",
@@ -21273,47 +19683,37 @@ export const pokemonForms: PokemonForm[] =
       "WILLOWISP",
       "WORKUP",
       "XSCISSOR",
-      "ZENHEADBUTT"
+      "ZENHEADBUTT",
     ],
-    eggMoves: [
-
-    ],
+    eggMoves: [],
     suffix: "normal",
-    evolution: [
-
-    ],
+    evolution: [],
     color: "White",
     formNumber: 18,
     formName: "Fairy Type",
     baseId: "ARCEUS",
-    megaStone: null
+    megaStone: null,
   },
   {
     id: "SAMUROTT",
     name: "Samurott",
-    types: [
-      "WATER",
-      "DARK"
-    ],
+    types: ["WATER", "DARK"],
     sprite: "/Front/SAMUROTT_1.png",
     backSprite: "/spritesBack/SAMUROTT_1.png",
-    description: "Hard of heart and deft of blade, this rare form of Samurott is a product of the Pokémon's evolution in the region of Hisui. Its turbulent blows crash into foes like ceaseless pounding waves.",
+    description:
+      "Hard of heart and deft of blade, this rare form of Samurott is a product of the Pokémon's evolution in the region of Hisui. Its turbulent blows crash into foes like ceaseless pounding waves.",
     stats: {
       hp: 90,
       attack: 108,
       defense: 80,
       spAttack: 100,
       spDefense: 65,
-      speed: 85
+      speed: 85,
     },
     height: "1.5",
     weight: "58.2",
-    abilities: [
-      "TORRENT"
-    ],
-    hiddenAbilities: [
-      "SHARPNESS"
-    ],
+    abilities: ["TORRENT"],
+    hiddenAbilities: ["SHARPNESS"],
     category: "Formidable",
     moves: [
       "CEASELESSEDGE",
@@ -21333,7 +19733,7 @@ export const pokemonForms: PokemonForm[] =
       "AQUATAIL",
       "RETALIATE",
       "SWORDSDANCE",
-      "HYDROPUMP"
+      "HYDROPUMP",
     ],
     tutorMoves: [
       "AERIALACE",
@@ -21388,47 +19788,37 @@ export const pokemonForms: PokemonForm[] =
       "WATERPLEDGE",
       "WATERPULSE",
       "WHIRLPOOL",
-      "XSCISSOR"
+      "XSCISSOR",
     ],
-    eggMoves: [
-
-    ],
+    eggMoves: [],
     suffix: "normal",
-    evolution: [
-
-    ],
+    evolution: [],
     color: "Blue",
     formNumber: 1,
     formName: "Hisuian",
     baseId: "SAMUROTT",
-    megaStone: null
+    megaStone: null,
   },
   {
     id: "AUDINO",
     name: "Audino",
-    types: [
-      "NORMAL",
-      "FAIRY"
-    ],
+    types: ["NORMAL", "FAIRY"],
     sprite: "/Front/AUDINO_1.png",
     backSprite: "/spritesBack/AUDINO_1.png",
-    description: "Its auditory sense is astounding. It has a radar-like ability to understand its surrounding through slight sounds.",
+    description:
+      "Its auditory sense is astounding. It has a radar-like ability to understand its surrounding through slight sounds.",
     stats: {
       hp: 103,
       attack: 60,
       defense: 126,
       spAttack: 80,
       spDefense: 126,
-      speed: 50
+      speed: 50,
     },
     height: "1.5",
     weight: "32.0",
-    abilities: [
-      "HEALER"
-    ],
-    hiddenAbilities: [
-      "HEALER"
-    ],
+    abilities: ["HEALER"],
+    hiddenAbilities: ["HEALER"],
     category: "Hearing",
     moves: [
       "POUND",
@@ -21447,7 +19837,7 @@ export const pokemonForms: PokemonForm[] =
       "DOUBLEEDGE",
       "ENTRAINMENT",
       "MISTYTERRAIN",
-      "LASTRESORT"
+      "LASTRESORT",
     ],
     tutorMoves: [
       "AFTERYOU",
@@ -21540,51 +19930,37 @@ export const pokemonForms: PokemonForm[] =
       "UPROAR",
       "WILDCHARGE",
       "WORKUP",
-      "ZENHEADBUTT"
+      "ZENHEADBUTT",
     ],
-    eggMoves: [
-      "HEALINGWISH",
-      "SWEETKISS",
-      "WISH",
-      "YAWN"
-    ],
+    eggMoves: ["HEALINGWISH", "SWEETKISS", "WISH", "YAWN"],
     suffix: "normal",
-    evolution: [
-
-    ],
+    evolution: [],
     color: "White",
     formNumber: 1,
     formName: "Mega Audino",
     baseId: "AUDINO",
-    megaStone: "AUDINITE"
+    megaStone: "AUDINITE",
   },
   {
     id: "LILLIGANT",
     name: "Lilligant",
-    types: [
-      "GRASS",
-      "FIGHTING"
-    ],
+    types: ["GRASS", "FIGHTING"],
     sprite: "/Front/LILLIGANT_1.png",
     backSprite: "/spritesBack/LILLIGANT_1.png",
-    description: "I suspect that its well-developed legs are the result of a life spent on mountains covered in deep snow. The scent it exudes from its flower crown heartens those in proximity.",
+    description:
+      "I suspect that its well-developed legs are the result of a life spent on mountains covered in deep snow. The scent it exudes from its flower crown heartens those in proximity.",
     stats: {
       hp: 70,
       attack: 105,
       defense: 75,
       spAttack: 50,
       spDefense: 75,
-      speed: 105
+      speed: 105,
     },
     height: "1.2",
     weight: "19.2",
-    abilities: [
-      "CHLOROPHYLL",
-      "HUSTLE"
-    ],
-    hiddenAbilities: [
-      "LEAFGUARD"
-    ],
+    abilities: ["CHLOROPHYLL", "HUSTLE"],
+    hiddenAbilities: ["LEAFGUARD"],
     category: "Spinning",
     moves: [
       "VICTORYDANCE",
@@ -21609,7 +19985,7 @@ export const pokemonForms: PokemonForm[] =
       "GROWTH",
       "HELPINGHAND",
       "STUNSPORE",
-      "AXEKICK"
+      "AXEKICK",
     ],
     tutorMoves: [
       "ACROBATICS",
@@ -21658,47 +20034,37 @@ export const pokemonForms: PokemonForm[] =
       "TRIPLEAXEL",
       "UPPERHAND",
       "VACUUMWAVE",
-      "WEATHERBALL"
+      "WEATHERBALL",
     ],
-    eggMoves: [
-
-    ],
+    eggMoves: [],
     suffix: "normal",
-    evolution: [
-
-    ],
+    evolution: [],
     color: "Green",
     formNumber: 1,
     formName: "Hisuian",
     baseId: "LILLIGANT",
-    megaStone: null
+    megaStone: null,
   },
   {
     id: "BASCULIN",
     name: "Basculin",
-    types: [
-      "WATER"
-    ],
+    types: ["WATER"],
     sprite: "/Front/BASCULIN_1.png",
     backSprite: "/spritesBack/BASCULIN_1.png",
-    description: "Even Basculin, which devours everything it can with its huge jaws, is nothing more than food to organisms stronger than itself.",
+    description:
+      "Even Basculin, which devours everything it can with its huge jaws, is nothing more than food to organisms stronger than itself.",
     stats: {
       hp: 70,
       attack: 92,
       defense: 65,
       spAttack: 80,
       spDefense: 55,
-      speed: 98
+      speed: 98,
     },
     height: "1.0",
     weight: "18.0",
-    abilities: [
-      "ROCKHEAD",
-      "ADAPTABILITY"
-    ],
-    hiddenAbilities: [
-      "MOLDBREAKER"
-    ],
+    abilities: ["ROCKHEAD", "ADAPTABILITY"],
+    hiddenAbilities: ["MOLDBREAKER"],
     category: "Hostile",
     moves: [
       "WATERGUN",
@@ -21716,7 +20082,7 @@ export const pokemonForms: PokemonForm[] =
       "WAVECRASH",
       "THRASH",
       "DOUBLEEDGE",
-      "HEADSMASH"
+      "HEADSMASH",
     ],
     tutorMoves: [
       "AGILITY",
@@ -21777,48 +20143,37 @@ export const pokemonForms: PokemonForm[] =
       "WATERFALL",
       "WATERPULSE",
       "WHIRLPOOL",
-      "ZENHEADBUTT"
+      "ZENHEADBUTT",
     ],
-    eggMoves: [
-      "BUBBLEBEAM",
-      "ENDEAVOR"
-    ],
+    eggMoves: ["BUBBLEBEAM", "ENDEAVOR"],
     suffix: "normal",
-    evolution: [
-
-    ],
+    evolution: [],
     color: "Green",
     formNumber: 1,
     formName: "Blue-Striped",
     baseId: "BASCULIN",
-    megaStone: null
+    megaStone: null,
   },
   {
     id: "BASCULIN",
     name: "Basculin",
-    types: [
-      "WATER"
-    ],
+    types: ["WATER"],
     sprite: "/Front/BASCULIN_2.png",
     backSprite: "/spritesBack/BASCULIN_2.png",
-    description: "They live in frigid seas, forming schools and sharing food among themselves. When the time comes, they return to the river they were born in.",
+    description:
+      "They live in frigid seas, forming schools and sharing food among themselves. When the time comes, they return to the river they were born in.",
     stats: {
       hp: 70,
       attack: 92,
       defense: 65,
       spAttack: 80,
       spDefense: 55,
-      speed: 98
+      speed: 98,
     },
     height: "1.0",
     weight: "18.0",
-    abilities: [
-      "RATTLED",
-      "ADAPTABILITY"
-    ],
-    hiddenAbilities: [
-      "MOLDBREAKER"
-    ],
+    abilities: ["RATTLED", "ADAPTABILITY"],
+    hiddenAbilities: ["MOLDBREAKER"],
     category: "Mellow",
     moves: [
       "WATERGUN",
@@ -21836,7 +20191,7 @@ export const pokemonForms: PokemonForm[] =
       "WAVECRASH",
       "THRASH",
       "DOUBLEEDGE",
-      "HEADSMASH"
+      "HEADSMASH",
     ],
     tutorMoves: [
       "AGILITY",
@@ -21873,52 +20228,43 @@ export const pokemonForms: PokemonForm[] =
       "WATERFALL",
       "WATERPULSE",
       "WHIRLPOOL",
-      "ZENHEADBUTT"
+      "ZENHEADBUTT",
     ],
-    eggMoves: [
-      "ENDEAVOR",
-      "LASTRESPECTS"
-    ],
+    eggMoves: ["ENDEAVOR", "LASTRESPECTS"],
     suffix: "normal",
     evolution: [
       {
         to: "BASCULEGION",
         method: "Counter",
-        value: "294"
-      }
+        value: "294",
+      },
     ],
     color: "Green",
     formNumber: 2,
     formName: "White-Striped",
     baseId: "BASCULIN",
-    megaStone: null
+    megaStone: null,
   },
   {
     id: "BASCULIN",
     name: "Basculin",
-    types: [
-      "WATER"
-    ],
+    types: ["WATER"],
     sprite: "/Front/BASCULIN_3.png",
     backSprite: "/spritesBack/BASCULIN_3.png",
-    description: "They live in frigid seas, forming schools and sharing food among themselves. When the time comes, they return to the river they were born in.",
+    description:
+      "They live in frigid seas, forming schools and sharing food among themselves. When the time comes, they return to the river they were born in.",
     stats: {
       hp: 70,
       attack: 92,
       defense: 65,
       spAttack: 80,
       spDefense: 55,
-      speed: 98
+      speed: 98,
     },
     height: "1.0",
     weight: "18.0",
-    abilities: [
-      "RATTLED",
-      "ADAPTABILITY"
-    ],
-    hiddenAbilities: [
-      "MOLDBREAKER"
-    ],
+    abilities: ["RATTLED", "ADAPTABILITY"],
+    hiddenAbilities: ["MOLDBREAKER"],
     category: "Mellow",
     moves: [
       "WATERGUN",
@@ -21936,7 +20282,7 @@ export const pokemonForms: PokemonForm[] =
       "WAVECRASH",
       "THRASH",
       "DOUBLEEDGE",
-      "HEADSMASH"
+      "HEADSMASH",
     ],
     tutorMoves: [
       "AGILITY",
@@ -21973,51 +20319,43 @@ export const pokemonForms: PokemonForm[] =
       "WATERFALL",
       "WATERPULSE",
       "WHIRLPOOL",
-      "ZENHEADBUTT"
+      "ZENHEADBUTT",
     ],
-    eggMoves: [
-      "ENDEAVOR",
-      "LASTRESPECTS"
-    ],
+    eggMoves: ["ENDEAVOR", "LASTRESPECTS"],
     suffix: "normal",
     evolution: [
       {
         to: "BASCULEGION",
         method: "Counter",
-        value: "294"
-      }
+        value: "294",
+      },
     ],
     color: "Green",
     formNumber: 3,
     formName: "",
     baseId: "BASCULIN",
-    megaStone: null
+    megaStone: null,
   },
   {
     id: "DARUMAKA",
     name: "Darumaka",
-    types: [
-      "ICE"
-    ],
+    types: ["ICE"],
     sprite: "/Front/DARUMAKA_2.png",
     backSprite: "/spritesBack/DARUMAKA_2.png",
-    description: "The colder they get, the more energetic they are. They freeze their breath to make snowballs, using them as ammo for playful snowball fights.",
+    description:
+      "The colder they get, the more energetic they are. They freeze their breath to make snowballs, using them as ammo for playful snowball fights.",
     stats: {
       hp: 70,
       attack: 90,
       defense: 45,
       spAttack: 15,
       spDefense: 45,
-      speed: 50
+      speed: 50,
     },
     height: "0.7",
     weight: "40.0",
-    abilities: [
-      "HUSTLE"
-    ],
-    hiddenAbilities: [
-      "INNERFOCUS"
-    ],
+    abilities: ["HUSTLE"],
+    hiddenAbilities: ["INNERFOCUS"],
     category: "Zen Charm",
     moves: [
       "POWDERSNOW",
@@ -22033,7 +20371,7 @@ export const pokemonForms: PokemonForm[] =
       "BELLYDRUM",
       "BLIZZARD",
       "THRASH",
-      "SUPERPOWER"
+      "SUPERPOWER",
     ],
     tutorMoves: [
       "ATTRACT",
@@ -22090,7 +20428,7 @@ export const pokemonForms: PokemonForm[] =
       "UTURN",
       "WILLOWISP",
       "WORKUP",
-      "ZENHEADBUTT"
+      "ZENHEADBUTT",
     ],
     eggMoves: [
       "FLAMEWHEEL",
@@ -22100,48 +20438,42 @@ export const pokemonForms: PokemonForm[] =
       "INCINERATE",
       "POWERUPPUNCH",
       "TAKEDOWN",
-      "YAWN"
+      "YAWN",
     ],
     suffix: "normal",
     evolution: [
       {
         to: "DARMANITAN",
         method: "Item",
-        value: "ICESTONE"
-      }
+        value: "ICESTONE",
+      },
     ],
     color: "White",
     formNumber: 2,
     formName: "Galarian",
     baseId: "DARUMAKA",
-    megaStone: null
+    megaStone: null,
   },
   {
     id: "DARMANITAN",
     name: "Darmanitan",
-    types: [
-      "FIRE",
-      "PSYCHIC"
-    ],
+    types: ["FIRE", "PSYCHIC"],
     sprite: "/Front/DARMANITAN_1.png",
     backSprite: "/spritesBack/DARMANITAN_1.png",
-    description: "When wounded, it stops moving. It goes as still as stone to meditate, sharpening its mind and spirit.",
+    description:
+      "When wounded, it stops moving. It goes as still as stone to meditate, sharpening its mind and spirit.",
     stats: {
       hp: 105,
       attack: 30,
       defense: 105,
       spAttack: 140,
       spDefense: 105,
-      speed: 55
+      speed: 55,
     },
     height: "1.3",
     weight: "92.9",
-    abilities: [
-      "SHEERFORCE"
-    ],
-    hiddenAbilities: [
-      "ZENMODE"
-    ],
+    abilities: ["SHEERFORCE"],
+    hiddenAbilities: ["ZENMODE"],
     category: "Blazing",
     moves: [
       "HAMMERARM",
@@ -22158,7 +20490,7 @@ export const pokemonForms: PokemonForm[] =
       "BELLYDRUM",
       "FLAREBLITZ",
       "THRASH",
-      "SUPERPOWER"
+      "SUPERPOWER",
     ],
     tutorMoves: [
       "ATTRACT",
@@ -22243,46 +20575,37 @@ export const pokemonForms: PokemonForm[] =
       "UTURN",
       "WILLOWISP",
       "WORKUP",
-      "ZENHEADBUTT"
+      "ZENHEADBUTT",
     ],
-    eggMoves: [
-
-    ],
+    eggMoves: [],
     suffix: "normal",
-    evolution: [
-
-    ],
+    evolution: [],
     color: "Blue",
     formNumber: 1,
     formName: "Zen Mode",
     baseId: "DARMANITAN",
-    megaStone: null
+    megaStone: null,
   },
   {
     id: "DARMANITAN",
     name: "Darmanitan",
-    types: [
-      "ICE"
-    ],
+    types: ["ICE"],
     sprite: "/Front/DARMANITAN_2.png",
     backSprite: "/spritesBack/DARMANITAN_2.png",
-    description: "On days when blizzards blow through, it comes down to where people live. It stashes food in the snowball on its head, taking it home for later.",
+    description:
+      "On days when blizzards blow through, it comes down to where people live. It stashes food in the snowball on its head, taking it home for later.",
     stats: {
       hp: 105,
       attack: 140,
       defense: 55,
       spAttack: 30,
       spDefense: 55,
-      speed: 95
+      speed: 95,
     },
     height: "1.7",
     weight: "120.0",
-    abilities: [
-      "GORILLATACTICS"
-    ],
-    hiddenAbilities: [
-      "ZENMODE"
-    ],
+    abilities: ["GORILLATACTICS"],
+    hiddenAbilities: ["ZENMODE"],
     category: "Zen Charm",
     moves: [
       "ICICLECRASH",
@@ -22299,7 +20622,7 @@ export const pokemonForms: PokemonForm[] =
       "BELLYDRUM",
       "BLIZZARD",
       "THRASH",
-      "SUPERPOWER"
+      "SUPERPOWER",
     ],
     tutorMoves: [
       "ATTRACT",
@@ -22372,47 +20695,37 @@ export const pokemonForms: PokemonForm[] =
       "UTURN",
       "WILLOWISP",
       "WORKUP",
-      "ZENHEADBUTT"
+      "ZENHEADBUTT",
     ],
-    eggMoves: [
-
-    ],
+    eggMoves: [],
     suffix: "normal",
-    evolution: [
-
-    ],
+    evolution: [],
     color: "White",
     formNumber: 2,
     formName: "Galarian Standard Mode",
     baseId: "DARMANITAN",
-    megaStone: null
+    megaStone: null,
   },
   {
     id: "DARMANITAN",
     name: "Darmanitan",
-    types: [
-      "ICE",
-      "FIRE"
-    ],
+    types: ["ICE", "FIRE"],
     sprite: "/Front/DARMANITAN_3.png",
     backSprite: "/spritesBack/DARMANITAN_3.png",
-    description: "Anger has reignited its atrophied flame sac. This Pokémon spews fire everywhere as it rampages indiscriminately.",
+    description:
+      "Anger has reignited its atrophied flame sac. This Pokémon spews fire everywhere as it rampages indiscriminately.",
     stats: {
       hp: 105,
       attack: 160,
       defense: 55,
       spAttack: 30,
       spDefense: 55,
-      speed: 135
+      speed: 135,
     },
     height: "1.7",
     weight: "120.0",
-    abilities: [
-      "GORILLATACTICS"
-    ],
-    hiddenAbilities: [
-      "ZENMODE"
-    ],
+    abilities: ["GORILLATACTICS"],
+    hiddenAbilities: ["ZENMODE"],
     category: "Zen Charm",
     moves: [
       "ICICLECRASH",
@@ -22429,7 +20742,7 @@ export const pokemonForms: PokemonForm[] =
       "BELLYDRUM",
       "BLIZZARD",
       "THRASH",
-      "SUPERPOWER"
+      "SUPERPOWER",
     ],
     tutorMoves: [
       "ATTRACT",
@@ -22502,47 +20815,37 @@ export const pokemonForms: PokemonForm[] =
       "UTURN",
       "WILLOWISP",
       "WORKUP",
-      "ZENHEADBUTT"
+      "ZENHEADBUTT",
     ],
-    eggMoves: [
-
-    ],
+    eggMoves: [],
     suffix: "normal",
-    evolution: [
-
-    ],
+    evolution: [],
     color: "White",
     formNumber: 3,
     formName: "Galarian Zen Mode",
     baseId: "DARMANITAN",
-    megaStone: null
+    megaStone: null,
   },
   {
     id: "YAMASK",
     name: "Yamask",
-    types: [
-      "GROUND",
-      "GHOST"
-    ],
+    types: ["GROUND", "GHOST"],
     sprite: "/Front/YAMASK_1.png",
     backSprite: "/spritesBack/YAMASK_1.png",
-    description: "A clay slab with cursed engravings took possession of a Yamask. The slab is said to be absorbing the Yamask's dark power.",
+    description:
+      "A clay slab with cursed engravings took possession of a Yamask. The slab is said to be absorbing the Yamask's dark power.",
     stats: {
       hp: 38,
       attack: 55,
       defense: 85,
       spAttack: 30,
       spDefense: 65,
-      speed: 30
+      speed: 30,
     },
     height: "0.5",
     weight: "1.5",
-    abilities: [
-      "WANDERINGSPIRIT"
-    ],
-    hiddenAbilities: [
-
-    ],
+    abilities: ["WANDERINGSPIRIT"],
+    hiddenAbilities: [],
     category: "Spirit",
     moves: [
       "ASTONISH",
@@ -22560,7 +20863,7 @@ export const pokemonForms: PokemonForm[] =
       "EARTHQUAKE",
       "POWERSPLIT",
       "GUARDSPLIT",
-      "DESTINYBOND"
+      "DESTINYBOND",
     ],
     tutorMoves: [
       "ALLYSWITCH",
@@ -22612,51 +20915,43 @@ export const pokemonForms: PokemonForm[] =
       "TRICKROOM",
       "WILLOWISP",
       "WONDERROOM",
-      "ZENHEADBUTT"
+      "ZENHEADBUTT",
     ],
-    eggMoves: [
-      "MEMENTO"
-    ],
+    eggMoves: ["MEMENTO"],
     suffix: "normal",
     evolution: [
       {
         to: "RUNERIGUS",
         method: "EventReady",
-        value: "2"
-      }
+        value: "2",
+      },
     ],
     color: "Black",
     formNumber: 1,
     formName: "Galarian",
     baseId: "YAMASK",
-    megaStone: null
+    megaStone: null,
   },
   {
     id: "ZORUA",
     name: "Zorua",
-    types: [
-      "NORMAL",
-      "GHOST"
-    ],
+    types: ["NORMAL", "GHOST"],
     sprite: "/Front/ZORUA_1.png",
     backSprite: "/spritesBack/ZORUA_1.png",
-    description: "A once-departed soul, returned to life in Hisui. Derives power from resentment, which rises as energy atop its head and takes on the forms of foes. In this way, Zorua vents lingering malice.",
+    description:
+      "A once-departed soul, returned to life in Hisui. Derives power from resentment, which rises as energy atop its head and takes on the forms of foes. In this way, Zorua vents lingering malice.",
     stats: {
       hp: 35,
       attack: 60,
       defense: 40,
       spAttack: 85,
       spDefense: 40,
-      speed: 70
+      speed: 70,
     },
     height: "0.7",
     weight: "12.5",
-    abilities: [
-      "ILLUSION"
-    ],
-    hiddenAbilities: [
-
-    ],
+    abilities: ["ILLUSION"],
+    hiddenAbilities: [],
     category: "Spiteful Fox",
     moves: [
       "SCRATCH",
@@ -22672,7 +20967,7 @@ export const pokemonForms: PokemonForm[] =
       "SHADOWBALL",
       "BITTERMALICE",
       "NASTYPLOT",
-      "FOULPLAY"
+      "FOULPLAY",
     ],
     tutorMoves: [
       "AGILITY",
@@ -22721,54 +21016,43 @@ export const pokemonForms: PokemonForm[] =
       "THIEF",
       "TRICK",
       "UTURN",
-      "WILLOWISP"
+      "WILLOWISP",
     ],
-    eggMoves: [
-      "COMEUPPANCE",
-      "DETECT",
-      "EXTRASENSORY",
-      "MEMENTO"
-    ],
+    eggMoves: ["COMEUPPANCE", "DETECT", "EXTRASENSORY", "MEMENTO"],
     suffix: "normal",
     evolution: [
       {
         to: "ZOROARK",
         method: "Level",
-        value: "30"
-      }
+        value: "30",
+      },
     ],
     color: "Gray",
     formNumber: 1,
     formName: "Hisuian",
     baseId: "ZORUA",
-    megaStone: null
+    megaStone: null,
   },
   {
     id: "ZOROARK",
     name: "Zoroark",
-    types: [
-      "NORMAL",
-      "GHOST"
-    ],
+    types: ["NORMAL", "GHOST"],
     sprite: "/Front/ZOROARK_1.png",
     backSprite: "/spritesBack/ZOROARK_1.png",
-    description: "With its disheveled white fur, it looks like an embodiment of death. Heedless of its own safety, Zoroark attacks its nemeses with a bitter energy so intense, it lacerates Zoroark's own body.",
+    description:
+      "With its disheveled white fur, it looks like an embodiment of death. Heedless of its own safety, Zoroark attacks its nemeses with a bitter energy so intense, it lacerates Zoroark's own body.",
     stats: {
       hp: 55,
       attack: 100,
       defense: 60,
       spAttack: 125,
       spDefense: 60,
-      speed: 110
+      speed: 110,
     },
     height: "1.6",
     weight: "73.0",
-    abilities: [
-      "ILLUSION"
-    ],
-    hiddenAbilities: [
-
-    ],
+    abilities: ["ILLUSION"],
+    hiddenAbilities: [],
     category: "Baneful Fox",
     moves: [
       "SHADOWCLAW",
@@ -22786,7 +21070,7 @@ export const pokemonForms: PokemonForm[] =
       "SHADOWBALL",
       "BITTERMALICE",
       "NASTYPLOT",
-      "FOULPLAY"
+      "FOULPLAY",
     ],
     tutorMoves: [
       "AERIALACE",
@@ -22851,48 +21135,37 @@ export const pokemonForms: PokemonForm[] =
       "THROATCHOP",
       "TRICK",
       "UTURN",
-      "WILLOWISP"
+      "WILLOWISP",
     ],
-    eggMoves: [
-
-    ],
+    eggMoves: [],
     suffix: "normal",
-    evolution: [
-
-    ],
+    evolution: [],
     color: "Gray",
     formNumber: 1,
     formName: "Hisuian",
     baseId: "ZOROARK",
-    megaStone: null
+    megaStone: null,
   },
   {
     id: "DEERLING",
     name: "Deerling",
-    types: [
-      "NORMAL",
-      "GRASS"
-    ],
+    types: ["NORMAL", "GRASS"],
     sprite: "/Front/DEERLING_1.png",
     backSprite: "/spritesBack/DEERLING_1.png",
-    description: "The turning of the seasons changes the color and scent of this Pokémon's fur. People use it to mark the seasons.",
+    description:
+      "The turning of the seasons changes the color and scent of this Pokémon's fur. People use it to mark the seasons.",
     stats: {
       hp: 60,
       attack: 60,
       defense: 50,
       spAttack: 40,
       spDefense: 50,
-      speed: 75
+      speed: 75,
     },
     height: "0.6",
     weight: "19.5",
-    abilities: [
-      "CHLOROPHYLL",
-      "SAPSIPPER"
-    ],
-    hiddenAbilities: [
-      "SERENEGRACE"
-    ],
+    abilities: ["CHLOROPHYLL", "SAPSIPPER"],
+    hiddenAbilities: ["SERENEGRACE"],
     category: "Season",
     moves: [
       "TACKLE",
@@ -22906,7 +21179,7 @@ export const pokemonForms: PokemonForm[] =
       "ENERGYBALL",
       "CHARM",
       "DOUBLEEDGE",
-      "SOLARBEAM"
+      "SOLARBEAM",
     ],
     tutorMoves: [
       "AGILITY",
@@ -22968,7 +21241,7 @@ export const pokemonForms: PokemonForm[] =
       "WILDCHARGE",
       "WORKUP",
       "WORRYSEED",
-      "ZENHEADBUTT"
+      "ZENHEADBUTT",
     ],
     eggMoves: [
       "AGILITY",
@@ -22980,49 +21253,42 @@ export const pokemonForms: PokemonForm[] =
       "ODORSLEUTH",
       "SLEEPTALK",
       "SYNTHESIS",
-      "WORRYSEED"
+      "WORRYSEED",
     ],
     suffix: "normal",
     evolution: [
       {
         to: "SAWSBUCK",
         method: "Level",
-        value: "34"
-      }
+        value: "34",
+      },
     ],
     color: "Green",
     formNumber: 1,
     formName: "Summer Form",
     baseId: "DEERLING",
-    megaStone: null
+    megaStone: null,
   },
   {
     id: "DEERLING",
     name: "Deerling",
-    types: [
-      "NORMAL",
-      "GRASS"
-    ],
+    types: ["NORMAL", "GRASS"],
     sprite: "/Front/DEERLING_2.png",
     backSprite: "/spritesBack/DEERLING_2.png",
-    description: "The turning of the seasons changes the color and scent of this Pokémon's fur. People use it to mark the seasons.",
+    description:
+      "The turning of the seasons changes the color and scent of this Pokémon's fur. People use it to mark the seasons.",
     stats: {
       hp: 60,
       attack: 60,
       defense: 50,
       spAttack: 40,
       spDefense: 50,
-      speed: 75
+      speed: 75,
     },
     height: "0.6",
     weight: "19.5",
-    abilities: [
-      "CHLOROPHYLL",
-      "SAPSIPPER"
-    ],
-    hiddenAbilities: [
-      "SERENEGRACE"
-    ],
+    abilities: ["CHLOROPHYLL", "SAPSIPPER"],
+    hiddenAbilities: ["SERENEGRACE"],
     category: "Season",
     moves: [
       "TACKLE",
@@ -23036,7 +21302,7 @@ export const pokemonForms: PokemonForm[] =
       "ENERGYBALL",
       "CHARM",
       "DOUBLEEDGE",
-      "SOLARBEAM"
+      "SOLARBEAM",
     ],
     tutorMoves: [
       "AGILITY",
@@ -23098,7 +21364,7 @@ export const pokemonForms: PokemonForm[] =
       "WILDCHARGE",
       "WORKUP",
       "WORRYSEED",
-      "ZENHEADBUTT"
+      "ZENHEADBUTT",
     ],
     eggMoves: [
       "AGILITY",
@@ -23110,49 +21376,42 @@ export const pokemonForms: PokemonForm[] =
       "ODORSLEUTH",
       "SLEEPTALK",
       "SYNTHESIS",
-      "WORRYSEED"
+      "WORRYSEED",
     ],
     suffix: "normal",
     evolution: [
       {
         to: "SAWSBUCK",
         method: "Level",
-        value: "34"
-      }
+        value: "34",
+      },
     ],
     color: "Red",
     formNumber: 2,
     formName: "Autumn Form",
     baseId: "DEERLING",
-    megaStone: null
+    megaStone: null,
   },
   {
     id: "DEERLING",
     name: "Deerling",
-    types: [
-      "NORMAL",
-      "GRASS"
-    ],
+    types: ["NORMAL", "GRASS"],
     sprite: "/Front/DEERLING_3.png",
     backSprite: "/spritesBack/DEERLING_3.png",
-    description: "The turning of the seasons changes the color and scent of this Pokémon's fur. People use it to mark the seasons.",
+    description:
+      "The turning of the seasons changes the color and scent of this Pokémon's fur. People use it to mark the seasons.",
     stats: {
       hp: 60,
       attack: 60,
       defense: 50,
       spAttack: 40,
       spDefense: 50,
-      speed: 75
+      speed: 75,
     },
     height: "0.6",
     weight: "19.5",
-    abilities: [
-      "CHLOROPHYLL",
-      "SAPSIPPER"
-    ],
-    hiddenAbilities: [
-      "SERENEGRACE"
-    ],
+    abilities: ["CHLOROPHYLL", "SAPSIPPER"],
+    hiddenAbilities: ["SERENEGRACE"],
     category: "Season",
     moves: [
       "TACKLE",
@@ -23166,7 +21425,7 @@ export const pokemonForms: PokemonForm[] =
       "ENERGYBALL",
       "CHARM",
       "DOUBLEEDGE",
-      "SOLARBEAM"
+      "SOLARBEAM",
     ],
     tutorMoves: [
       "AGILITY",
@@ -23228,7 +21487,7 @@ export const pokemonForms: PokemonForm[] =
       "WILDCHARGE",
       "WORKUP",
       "WORRYSEED",
-      "ZENHEADBUTT"
+      "ZENHEADBUTT",
     ],
     eggMoves: [
       "AGILITY",
@@ -23240,49 +21499,42 @@ export const pokemonForms: PokemonForm[] =
       "ODORSLEUTH",
       "SLEEPTALK",
       "SYNTHESIS",
-      "WORRYSEED"
+      "WORRYSEED",
     ],
     suffix: "normal",
     evolution: [
       {
         to: "SAWSBUCK",
         method: "Level",
-        value: "34"
-      }
+        value: "34",
+      },
     ],
     color: "Brown",
     formNumber: 3,
     formName: "Winter Form",
     baseId: "DEERLING",
-    megaStone: null
+    megaStone: null,
   },
   {
     id: "SAWSBUCK",
     name: "Sawsbuck",
-    types: [
-      "NORMAL",
-      "GRASS"
-    ],
+    types: ["NORMAL", "GRASS"],
     sprite: "/Front/SAWSBUCK_1.png",
     backSprite: "/spritesBack/SAWSBUCK_1.png",
-    description: "The plants growing on its horns change according to the season. The leaders of the herd possess magnificent horns.",
+    description:
+      "The plants growing on its horns change according to the season. The leaders of the herd possess magnificent horns.",
     stats: {
       hp: 80,
       attack: 100,
       defense: 70,
       spAttack: 60,
       spDefense: 70,
-      speed: 95
+      speed: 95,
     },
     height: "1.9",
     weight: "92.5",
-    abilities: [
-      "CHLOROPHYLL",
-      "SAPSIPPER"
-    ],
-    hiddenAbilities: [
-      "SERENEGRACE"
-    ],
+    abilities: ["CHLOROPHYLL", "SAPSIPPER"],
+    hiddenAbilities: ["SERENEGRACE"],
     category: "Season",
     moves: [
       "HORNLEECH",
@@ -23298,7 +21550,7 @@ export const pokemonForms: PokemonForm[] =
       "ENERGYBALL",
       "CHARM",
       "DOUBLEEDGE",
-      "SOLARBEAM"
+      "SOLARBEAM",
     ],
     tutorMoves: [
       "AGILITY",
@@ -23371,48 +21623,37 @@ export const pokemonForms: PokemonForm[] =
       "WILDCHARGE",
       "WORKUP",
       "WORRYSEED",
-      "ZENHEADBUTT"
+      "ZENHEADBUTT",
     ],
-    eggMoves: [
-
-    ],
+    eggMoves: [],
     suffix: "normal",
-    evolution: [
-
-    ],
+    evolution: [],
     color: "Brown",
     formNumber: 1,
     formName: "Summer Form",
     baseId: "SAWSBUCK",
-    megaStone: null
+    megaStone: null,
   },
   {
     id: "SAWSBUCK",
     name: "Sawsbuck",
-    types: [
-      "NORMAL",
-      "GRASS"
-    ],
+    types: ["NORMAL", "GRASS"],
     sprite: "/Front/SAWSBUCK_2.png",
     backSprite: "/spritesBack/SAWSBUCK_2.png",
-    description: "The plants growing on its horns change according to the season. The leaders of the herd possess magnificent horns.",
+    description:
+      "The plants growing on its horns change according to the season. The leaders of the herd possess magnificent horns.",
     stats: {
       hp: 80,
       attack: 100,
       defense: 70,
       spAttack: 60,
       spDefense: 70,
-      speed: 95
+      speed: 95,
     },
     height: "1.9",
     weight: "92.5",
-    abilities: [
-      "CHLOROPHYLL",
-      "SAPSIPPER"
-    ],
-    hiddenAbilities: [
-      "SERENEGRACE"
-    ],
+    abilities: ["CHLOROPHYLL", "SAPSIPPER"],
+    hiddenAbilities: ["SERENEGRACE"],
     category: "Season",
     moves: [
       "HORNLEECH",
@@ -23428,7 +21669,7 @@ export const pokemonForms: PokemonForm[] =
       "ENERGYBALL",
       "CHARM",
       "DOUBLEEDGE",
-      "SOLARBEAM"
+      "SOLARBEAM",
     ],
     tutorMoves: [
       "AGILITY",
@@ -23501,48 +21742,37 @@ export const pokemonForms: PokemonForm[] =
       "WILDCHARGE",
       "WORKUP",
       "WORRYSEED",
-      "ZENHEADBUTT"
+      "ZENHEADBUTT",
     ],
-    eggMoves: [
-
-    ],
+    eggMoves: [],
     suffix: "normal",
-    evolution: [
-
-    ],
+    evolution: [],
     color: "Brown",
     formNumber: 2,
     formName: "Autumn Form",
     baseId: "SAWSBUCK",
-    megaStone: null
+    megaStone: null,
   },
   {
     id: "SAWSBUCK",
     name: "Sawsbuck",
-    types: [
-      "NORMAL",
-      "GRASS"
-    ],
+    types: ["NORMAL", "GRASS"],
     sprite: "/Front/SAWSBUCK_3.png",
     backSprite: "/spritesBack/SAWSBUCK_3.png",
-    description: "The plants growing on its horns change according to the season. The leaders of the herd possess magnificent horns.",
+    description:
+      "The plants growing on its horns change according to the season. The leaders of the herd possess magnificent horns.",
     stats: {
       hp: 80,
       attack: 100,
       defense: 70,
       spAttack: 60,
       spDefense: 70,
-      speed: 95
+      speed: 95,
     },
     height: "1.9",
     weight: "92.5",
-    abilities: [
-      "CHLOROPHYLL",
-      "SAPSIPPER"
-    ],
-    hiddenAbilities: [
-      "SERENEGRACE"
-    ],
+    abilities: ["CHLOROPHYLL", "SAPSIPPER"],
+    hiddenAbilities: ["SERENEGRACE"],
     category: "Season",
     moves: [
       "HORNLEECH",
@@ -23558,7 +21788,7 @@ export const pokemonForms: PokemonForm[] =
       "ENERGYBALL",
       "CHARM",
       "DOUBLEEDGE",
-      "SOLARBEAM"
+      "SOLARBEAM",
     ],
     tutorMoves: [
       "AGILITY",
@@ -23631,47 +21861,37 @@ export const pokemonForms: PokemonForm[] =
       "WILDCHARGE",
       "WORKUP",
       "WORRYSEED",
-      "ZENHEADBUTT"
+      "ZENHEADBUTT",
     ],
-    eggMoves: [
-
-    ],
+    eggMoves: [],
     suffix: "normal",
-    evolution: [
-
-    ],
+    evolution: [],
     color: "Brown",
     formNumber: 3,
     formName: "Winter Form",
     baseId: "SAWSBUCK",
-    megaStone: null
+    megaStone: null,
   },
   {
     id: "STUNFISK",
     name: "Stunfisk",
-    types: [
-      "GROUND",
-      "STEEL"
-    ],
+    types: ["GROUND", "STEEL"],
     sprite: "/Front/STUNFISK_1.png",
     backSprite: "/spritesBack/STUNFISK_1.png",
-    description: "Its conspicuous lips lure prey in as it lies in wait in the mud. When prey gets close, Stunfisk clamps its jagged steel fins down on them.",
+    description:
+      "Its conspicuous lips lure prey in as it lies in wait in the mud. When prey gets close, Stunfisk clamps its jagged steel fins down on them.",
     stats: {
       hp: 109,
       attack: 81,
       defense: 99,
       spAttack: 66,
       spDefense: 84,
-      speed: 32
+      speed: 32,
     },
     height: "0.7",
     weight: "20.5",
-    abilities: [
-      "MIMICRY"
-    ],
-    hiddenAbilities: [
-      "MIMICRY"
-    ],
+    abilities: ["MIMICRY"],
+    hiddenAbilities: ["MIMICRY"],
     category: "Trap",
     moves: [
       "MUDSLAP",
@@ -23688,7 +21908,7 @@ export const pokemonForms: PokemonForm[] =
       "MUDDYWATER",
       "SNAPTRAP",
       "FLAIL",
-      "FISSURE"
+      "FISSURE",
     ],
     tutorMoves: [
       "ATTRACT",
@@ -23742,7 +21962,7 @@ export const pokemonForms: PokemonForm[] =
       "TERRAINPULSE",
       "THUNDERWAVE",
       "TOXIC",
-      "UPROAR"
+      "UPROAR",
     ],
     eggMoves: [
       "ASTONISH",
@@ -23752,45 +21972,36 @@ export const pokemonForms: PokemonForm[] =
       "PAINSPLIT",
       "REFLECTTYPE",
       "SPITE",
-      "YAWN"
+      "YAWN",
     ],
     suffix: "normal",
-    evolution: [
-
-    ],
+    evolution: [],
     color: "Green",
     formNumber: 1,
     formName: "Galarian",
     baseId: "STUNFISK",
-    megaStone: null
+    megaStone: null,
   },
   {
     id: "BRAVIARY",
     name: "Braviary",
-    types: [
-      "PSYCHIC",
-      "FLYING"
-    ],
+    types: ["PSYCHIC", "FLYING"],
     sprite: "/Front/BRAVIARY_1.png",
     backSprite: "/spritesBack/BRAVIARY_1.png",
-    description: "Screaming a bloodcurdling battle cry, this huge and ferocious bird Pokémon goes out on the hunt. It blasts lakes with shock waves, then scoops up any prey that float to the water's surface.",
+    description:
+      "Screaming a bloodcurdling battle cry, this huge and ferocious bird Pokémon goes out on the hunt. It blasts lakes with shock waves, then scoops up any prey that float to the water's surface.",
     stats: {
       hp: 110,
       attack: 83,
       defense: 70,
       spAttack: 112,
       spDefense: 70,
-      speed: 65
+      speed: 65,
     },
     height: "1.7",
     weight: "43.4",
-    abilities: [
-      "KEENEYE",
-      "SHEERFORCE"
-    ],
-    hiddenAbilities: [
-      "TINTEDLENS"
-    ],
+    abilities: ["KEENEYE", "SHEERFORCE"],
+    hiddenAbilities: ["TINTEDLENS"],
     category: "Battle Cry",
     moves: [
       "ESPERWING",
@@ -23809,7 +22020,7 @@ export const pokemonForms: PokemonForm[] =
       "AIRSLASH",
       "DEFOG",
       "THRASH",
-      "HURRICANE"
+      "HURRICANE",
     ],
     tutorMoves: [
       "ACROBATICS",
@@ -23867,46 +22078,37 @@ export const pokemonForms: PokemonForm[] =
       "TERABLAST",
       "UTURN",
       "VACUUMWAVE",
-      "ZENHEADBUTT"
+      "ZENHEADBUTT",
     ],
-    eggMoves: [
-
-    ],
+    eggMoves: [],
     suffix: "normal",
-    evolution: [
-
-    ],
+    evolution: [],
     color: "White",
     formNumber: 1,
     formName: "Hisuian",
     baseId: "BRAVIARY",
-    megaStone: null
+    megaStone: null,
   },
   {
     id: "TORNADUS",
     name: "Tornadus",
-    types: [
-      "FLYING"
-    ],
+    types: ["FLYING"],
     sprite: "/Front/TORNADUS_1.png",
     backSprite: "/spritesBack/TORNADUS_1.png",
-    description: "Tornadus expels massive energy from its tail, causing severe storms. Its power is great enough to blow houses away.",
+    description:
+      "Tornadus expels massive energy from its tail, causing severe storms. Its power is great enough to blow houses away.",
     stats: {
       hp: 79,
       attack: 100,
       defense: 80,
       spAttack: 110,
       spDefense: 90,
-      speed: 121
+      speed: 121,
     },
     height: "1.4",
     weight: "63.0",
-    abilities: [
-      "REGENERATOR"
-    ],
-    hiddenAbilities: [
-      "REGENERATOR"
-    ],
+    abilities: ["REGENERATOR"],
+    hiddenAbilities: ["REGENERATOR"],
     category: "Cyclone",
     moves: [
       "ASTONISH",
@@ -23925,7 +22127,7 @@ export const pokemonForms: PokemonForm[] =
       "RAINDANCE",
       "HURRICANE",
       "THRASH",
-      "BLEAKWINDSTORM"
+      "BLEAKWINDSTORM",
     ],
     tutorMoves: [
       "ACROBATICS",
@@ -24003,47 +22205,37 @@ export const pokemonForms: PokemonForm[] =
       "TORMENT",
       "UPROAR",
       "UTURN",
-      "WEATHERBALL"
+      "WEATHERBALL",
     ],
-    eggMoves: [
-
-    ],
+    eggMoves: [],
     suffix: "normal",
-    evolution: [
-
-    ],
+    evolution: [],
     color: "Green",
     formNumber: 1,
     formName: "Therian Forme",
     baseId: "TORNADUS",
-    megaStone: null
+    megaStone: null,
   },
   {
     id: "THUNDURUS",
     name: "Thundurus",
-    types: [
-      "ELECTRIC",
-      "FLYING"
-    ],
+    types: ["ELECTRIC", "FLYING"],
     sprite: "/Front/THUNDURUS_1.png",
     backSprite: "/spritesBack/THUNDURUS_1.png",
-    description: "The spikes on its tail discharge immense bolts of lightning. It flies around the Unova region firing off lightning bolts.",
+    description:
+      "The spikes on its tail discharge immense bolts of lightning. It flies around the Unova region firing off lightning bolts.",
     stats: {
       hp: 79,
       attack: 105,
       defense: 70,
       spAttack: 145,
       spDefense: 80,
-      speed: 101
+      speed: 101,
     },
     height: "3.0",
     weight: "61.0",
-    abilities: [
-      "VOLTABSORB"
-    ],
-    hiddenAbilities: [
-      "VOLTABSORB"
-    ],
+    abilities: ["VOLTABSORB"],
+    hiddenAbilities: ["VOLTABSORB"],
     category: "Bolt Strike",
     moves: [
       "ASTONISH",
@@ -24062,7 +22254,7 @@ export const pokemonForms: PokemonForm[] =
       "RAINDANCE",
       "THUNDER",
       "THRASH",
-      "WILDBOLTSTORM"
+      "WILDBOLTSTORM",
     ],
     tutorMoves: [
       "ACROBATICS",
@@ -24147,47 +22339,37 @@ export const pokemonForms: PokemonForm[] =
       "VOLTSWITCH",
       "WEATHERBALL",
       "WILDCHARGE",
-      "ZENHEADBUTT"
+      "ZENHEADBUTT",
     ],
-    eggMoves: [
-
-    ],
+    eggMoves: [],
     suffix: "normal",
-    evolution: [
-
-    ],
+    evolution: [],
     color: "Blue",
     formNumber: 1,
     formName: "Therian Forme",
     baseId: "THUNDURUS",
-    megaStone: null
+    megaStone: null,
   },
   {
     id: "LANDORUS",
     name: "Landorus",
-    types: [
-      "GROUND",
-      "FLYING"
-    ],
+    types: ["GROUND", "FLYING"],
     sprite: "/Front/LANDORUS_1.png",
     backSprite: "/spritesBack/LANDORUS_1.png",
-    description: "The energy that comes pouring from its tail increases the nutrition in the soil, making crops grow to great size.",
+    description:
+      "The energy that comes pouring from its tail increases the nutrition in the soil, making crops grow to great size.",
     stats: {
       hp: 89,
       attack: 145,
       defense: 90,
       spAttack: 105,
       spDefense: 80,
-      speed: 91
+      speed: 91,
     },
     height: "1.3",
     weight: "68.0",
-    abilities: [
-      "INTIMIDATE"
-    ],
-    hiddenAbilities: [
-      "INTIMIDATE"
-    ],
+    abilities: ["INTIMIDATE"],
+    hiddenAbilities: ["INTIMIDATE"],
     category: "Abundance",
     moves: [
       "SANDTOMB",
@@ -24206,7 +22388,7 @@ export const pokemonForms: PokemonForm[] =
       "EARTHQUAKE",
       "OUTRAGE",
       "FISSURE",
-      "SANDSEARSTORM"
+      "SANDSEARSTORM",
     ],
     tutorMoves: [
       "ATTRACT",
@@ -24281,47 +22463,37 @@ export const pokemonForms: PokemonForm[] =
       "TAUNT",
       "TERABLAST",
       "UTURN",
-      "WEATHERBALL"
+      "WEATHERBALL",
     ],
-    eggMoves: [
-
-    ],
+    eggMoves: [],
     suffix: "normal",
-    evolution: [
-
-    ],
+    evolution: [],
     color: "Brown",
     formNumber: 1,
     formName: "Therian Forme",
     baseId: "LANDORUS",
-    megaStone: null
+    megaStone: null,
   },
   {
     id: "KYUREM",
     name: "Kyurem",
-    types: [
-      "DRAGON",
-      "ICE"
-    ],
+    types: ["DRAGON", "ICE"],
     sprite: "/Front/KYUREM_1.png",
     backSprite: "/spritesBack/KYUREM_1.png",
-    description: "It has foreseen that a world of truth will arrive for people and Pokémon. It strives to protect that future.",
+    description:
+      "It has foreseen that a world of truth will arrive for people and Pokémon. It strives to protect that future.",
     stats: {
       hp: 125,
       attack: 120,
       defense: 90,
       spAttack: 170,
       spDefense: 100,
-      speed: 95
+      speed: 95,
     },
     height: "3.6",
     weight: "325.0",
-    abilities: [
-      "TURBOBLAZE"
-    ],
-    hiddenAbilities: [
-
-    ],
+    abilities: ["TURBOBLAZE"],
+    hiddenAbilities: [],
     category: "Boundary",
     moves: [
       "DRAGONBREATH",
@@ -24338,7 +22510,7 @@ export const pokemonForms: PokemonForm[] =
       "IMPRISON",
       "OUTRAGE",
       "ICEBURN",
-      "SHEERCOLD"
+      "SHEERCOLD",
     ],
     tutorMoves: [
       "AERIALACE",
@@ -24419,47 +22591,37 @@ export const pokemonForms: PokemonForm[] =
       "TAKEDOWN",
       "TERABLAST",
       "WEATHERBALL",
-      "ZENHEADBUTT"
+      "ZENHEADBUTT",
     ],
-    eggMoves: [
-
-    ],
+    eggMoves: [],
     suffix: "normal",
-    evolution: [
-
-    ],
+    evolution: [],
     color: "Gray",
     formNumber: 1,
     formName: "White Kyurem",
     baseId: "KYUREM",
-    megaStone: null
+    megaStone: null,
   },
   {
     id: "KYUREM",
     name: "Kyurem",
-    types: [
-      "DRAGON",
-      "ICE"
-    ],
+    types: ["DRAGON", "ICE"],
     sprite: "/Front/KYUREM_2.png",
     backSprite: "/spritesBack/KYUREM_2.png",
-    description: "It's said that this Pokémon battles in order to protect the ideal world that will exist in the future for people and Pokémon.",
+    description:
+      "It's said that this Pokémon battles in order to protect the ideal world that will exist in the future for people and Pokémon.",
     stats: {
       hp: 125,
       attack: 170,
       defense: 100,
       spAttack: 120,
       spDefense: 90,
-      speed: 95
+      speed: 95,
     },
     height: "3.3",
     weight: "325.0",
-    abilities: [
-      "TERAVOLT"
-    ],
-    hiddenAbilities: [
-
-    ],
+    abilities: ["TERAVOLT"],
+    hiddenAbilities: [],
     category: "Boundary",
     moves: [
       "DRAGONBREATH",
@@ -24476,7 +22638,7 @@ export const pokemonForms: PokemonForm[] =
       "IMPRISON",
       "OUTRAGE",
       "FREEZESHOCK",
-      "SHEERCOLD"
+      "SHEERCOLD",
     ],
     tutorMoves: [
       "AERIALACE",
@@ -24557,47 +22719,37 @@ export const pokemonForms: PokemonForm[] =
       "TAKEDOWN",
       "TERABLAST",
       "WEATHERBALL",
-      "ZENHEADBUTT"
+      "ZENHEADBUTT",
     ],
-    eggMoves: [
-
-    ],
+    eggMoves: [],
     suffix: "normal",
-    evolution: [
-
-    ],
+    evolution: [],
     color: "Gray",
     formNumber: 2,
     formName: "Black Kyurem",
     baseId: "KYUREM",
-    megaStone: null
+    megaStone: null,
   },
   {
     id: "KYUREM",
     name: "Kyurem",
-    types: [
-      "DRAGON",
-      "ICE"
-    ],
+    types: ["DRAGON", "ICE"],
     sprite: "/Front/KYUREM_3.png",
     backSprite: "/spritesBack/KYUREM_3.png",
-    description: "It generates a powerful, freezing energy inside itself, but its body became frozen when the energy leaked out.",
+    description:
+      "It generates a powerful, freezing energy inside itself, but its body became frozen when the energy leaked out.",
     stats: {
       hp: 125,
       attack: 120,
       defense: 90,
       spAttack: 170,
       spDefense: 100,
-      speed: 95
+      speed: 95,
     },
     height: "3.6",
     weight: "325.0",
-    abilities: [
-      "TURBOBLAZE"
-    ],
-    hiddenAbilities: [
-
-    ],
+    abilities: ["TURBOBLAZE"],
+    hiddenAbilities: [],
     category: "Boundary",
     moves: [
       "DRAGONBREATH",
@@ -24614,7 +22766,7 @@ export const pokemonForms: PokemonForm[] =
       "IMPRISON",
       "OUTRAGE",
       "ICEBURN",
-      "SHEERCOLD"
+      "SHEERCOLD",
     ],
     tutorMoves: [
       "AERIALACE",
@@ -24695,47 +22847,37 @@ export const pokemonForms: PokemonForm[] =
       "TAKEDOWN",
       "TERABLAST",
       "WEATHERBALL",
-      "ZENHEADBUTT"
+      "ZENHEADBUTT",
     ],
-    eggMoves: [
-
-    ],
+    eggMoves: [],
     suffix: "normal",
-    evolution: [
-
-    ],
+    evolution: [],
     color: "Gray",
     formNumber: 3,
     formName: "",
     baseId: "KYUREM",
-    megaStone: null
+    megaStone: null,
   },
   {
     id: "KYUREM",
     name: "Kyurem",
-    types: [
-      "DRAGON",
-      "ICE"
-    ],
+    types: ["DRAGON", "ICE"],
     sprite: "/Front/KYUREM_4.png",
     backSprite: "/spritesBack/KYUREM_4.png",
-    description: "It generates a powerful, freezing energy inside itself, but its body became frozen when the energy leaked out.",
+    description:
+      "It generates a powerful, freezing energy inside itself, but its body became frozen when the energy leaked out.",
     stats: {
       hp: 125,
       attack: 170,
       defense: 100,
       spAttack: 120,
       spDefense: 90,
-      speed: 95
+      speed: 95,
     },
     height: "3.3",
     weight: "325.0",
-    abilities: [
-      "TERAVOLT"
-    ],
-    hiddenAbilities: [
-
-    ],
+    abilities: ["TERAVOLT"],
+    hiddenAbilities: [],
     category: "Boundary",
     moves: [
       "DRAGONBREATH",
@@ -24752,7 +22894,7 @@ export const pokemonForms: PokemonForm[] =
       "IMPRISON",
       "OUTRAGE",
       "FREEZESHOCK",
-      "SHEERCOLD"
+      "SHEERCOLD",
     ],
     tutorMoves: [
       "AERIALACE",
@@ -24833,47 +22975,37 @@ export const pokemonForms: PokemonForm[] =
       "TAKEDOWN",
       "TERABLAST",
       "WEATHERBALL",
-      "ZENHEADBUTT"
+      "ZENHEADBUTT",
     ],
-    eggMoves: [
-
-    ],
+    eggMoves: [],
     suffix: "normal",
-    evolution: [
-
-    ],
+    evolution: [],
     color: "Gray",
     formNumber: 4,
     formName: "",
     baseId: "KYUREM",
-    megaStone: null
+    megaStone: null,
   },
   {
     id: "KELDEO",
     name: "Keldeo",
-    types: [
-      "WATER",
-      "FIGHTING"
-    ],
+    types: ["WATER", "FIGHTING"],
     sprite: "/Front/KELDEO_1.png",
     backSprite: "/spritesBack/KELDEO_1.png",
-    description: "The power that lay hidden in its body now covers its horn, turning it into a sword that can slice through anything.",
+    description:
+      "The power that lay hidden in its body now covers its horn, turning it into a sword that can slice through anything.",
     stats: {
       hp: 91,
       attack: 72,
       defense: 90,
       spAttack: 129,
       spDefense: 90,
-      speed: 108
+      speed: 108,
     },
     height: "1.4",
     weight: "48.5",
-    abilities: [
-      "JUSTIFIED"
-    ],
-    hiddenAbilities: [
-
-    ],
+    abilities: ["JUSTIFIED"],
+    hiddenAbilities: [],
     category: "Colt",
     moves: [
       "AQUAJET",
@@ -24890,7 +23022,7 @@ export const pokemonForms: PokemonForm[] =
       "SACREDSWORD",
       "SWORDSDANCE",
       "HYDROPUMP",
-      "CLOSECOMBAT"
+      "CLOSECOMBAT",
     ],
     tutorMoves: [
       "AERIALACE",
@@ -24965,47 +23097,37 @@ export const pokemonForms: PokemonForm[] =
       "VACUUMWAVE",
       "WATERPULSE",
       "WORKUP",
-      "XSCISSOR"
+      "XSCISSOR",
     ],
-    eggMoves: [
-
-    ],
+    eggMoves: [],
     suffix: "normal",
-    evolution: [
-
-    ],
+    evolution: [],
     color: "Yellow",
     formNumber: 1,
     formName: "Resolute Form",
     baseId: "KELDEO",
-    megaStone: null
+    megaStone: null,
   },
   {
     id: "MELOETTA",
     name: "Meloetta",
-    types: [
-      "NORMAL",
-      "FIGHTING"
-    ],
+    types: ["NORMAL", "FIGHTING"],
     sprite: "/Front/MELOETTA_1.png",
     backSprite: "/spritesBack/MELOETTA_1.png",
-    description: "Many famous songs have been inspired by the melodies that Meloetta plays.",
+    description:
+      "Many famous songs have been inspired by the melodies that Meloetta plays.",
     stats: {
       hp: 100,
       attack: 128,
       defense: 90,
       spAttack: 77,
       spDefense: 77,
-      speed: 128
+      speed: 128,
     },
     height: "0.6",
     weight: "6.5",
-    abilities: [
-      "SERENEGRACE"
-    ],
-    hiddenAbilities: [
-
-    ],
+    abilities: ["SERENEGRACE"],
+    hiddenAbilities: [],
     category: "Melody",
     moves: [
       "ROUND",
@@ -25022,7 +23144,7 @@ export const pokemonForms: PokemonForm[] =
       "HYPERVOICE",
       "ROLEPLAY",
       "CLOSECOMBAT",
-      "PERISHSONG"
+      "PERISHSONG",
     ],
     tutorMoves: [
       "ACROBATICS",
@@ -25122,47 +23244,37 @@ export const pokemonForms: PokemonForm[] =
       "UTURN",
       "WONDERROOM",
       "WORKUP",
-      "ZENHEADBUTT"
+      "ZENHEADBUTT",
     ],
-    eggMoves: [
-
-    ],
+    eggMoves: [],
     suffix: "normal",
-    evolution: [
-
-    ],
+    evolution: [],
     color: "White",
     formNumber: 1,
     formName: "Pirouette Forme",
     baseId: "MELOETTA",
-    megaStone: null
+    megaStone: null,
   },
   {
     id: "GENESECT",
     name: "Genesect",
-    types: [
-      "BUG",
-      "STEEL"
-    ],
+    types: ["BUG", "STEEL"],
     sprite: "/Front/GENESECT_1.png",
     backSprite: "/spritesBack/GENESECT_1.png",
-    description: "This ancient bug Pokémon was altered by Team Plasma. They upgraded the cannon on its back.",
+    description:
+      "This ancient bug Pokémon was altered by Team Plasma. They upgraded the cannon on its back.",
     stats: {
       hp: 71,
       attack: 120,
       defense: 95,
       spAttack: 120,
       spDefense: 95,
-      speed: 99
+      speed: 99,
     },
     height: "1.5",
     weight: "82.5",
-    abilities: [
-      "DOWNLOAD"
-    ],
-    hiddenAbilities: [
-
-    ],
+    abilities: ["DOWNLOAD"],
+    hiddenAbilities: [],
     category: "Paleozoic",
     moves: [
       "FURYCUTTER",
@@ -25179,7 +23291,7 @@ export const pokemonForms: PokemonForm[] =
       "ZAPCANNON",
       "LOCKON",
       "TECHNOBLAST",
-      "SELFDESTRUCT"
+      "SELFDESTRUCT",
     ],
     tutorMoves: [
       "AERIALACE",
@@ -25252,47 +23364,37 @@ export const pokemonForms: PokemonForm[] =
       "TRIATTACK",
       "UTURN",
       "XSCISSOR",
-      "ZENHEADBUTT"
+      "ZENHEADBUTT",
     ],
-    eggMoves: [
-
-    ],
+    eggMoves: [],
     suffix: "normal",
-    evolution: [
-
-    ],
+    evolution: [],
     color: "Purple",
     formNumber: 1,
     formName: "Shock Drive",
     baseId: "GENESECT",
-    megaStone: null
+    megaStone: null,
   },
   {
     id: "GENESECT",
     name: "Genesect",
-    types: [
-      "BUG",
-      "STEEL"
-    ],
+    types: ["BUG", "STEEL"],
     sprite: "/Front/GENESECT_2.png",
     backSprite: "/spritesBack/GENESECT_2.png",
-    description: "This ancient bug Pokémon was altered by Team Plasma. They upgraded the cannon on its back.",
+    description:
+      "This ancient bug Pokémon was altered by Team Plasma. They upgraded the cannon on its back.",
     stats: {
       hp: 71,
       attack: 120,
       defense: 95,
       spAttack: 120,
       spDefense: 95,
-      speed: 99
+      speed: 99,
     },
     height: "1.5",
     weight: "82.5",
-    abilities: [
-      "DOWNLOAD"
-    ],
-    hiddenAbilities: [
-
-    ],
+    abilities: ["DOWNLOAD"],
+    hiddenAbilities: [],
     category: "Paleozoic",
     moves: [
       "FURYCUTTER",
@@ -25309,7 +23411,7 @@ export const pokemonForms: PokemonForm[] =
       "ZAPCANNON",
       "LOCKON",
       "TECHNOBLAST",
-      "SELFDESTRUCT"
+      "SELFDESTRUCT",
     ],
     tutorMoves: [
       "AERIALACE",
@@ -25382,47 +23484,37 @@ export const pokemonForms: PokemonForm[] =
       "TRIATTACK",
       "UTURN",
       "XSCISSOR",
-      "ZENHEADBUTT"
+      "ZENHEADBUTT",
     ],
-    eggMoves: [
-
-    ],
+    eggMoves: [],
     suffix: "normal",
-    evolution: [
-
-    ],
+    evolution: [],
     color: "Purple",
     formNumber: 2,
     formName: "Burn Drive",
     baseId: "GENESECT",
-    megaStone: null
+    megaStone: null,
   },
   {
     id: "GENESECT",
     name: "Genesect",
-    types: [
-      "BUG",
-      "STEEL"
-    ],
+    types: ["BUG", "STEEL"],
     sprite: "/Front/GENESECT_3.png",
     backSprite: "/spritesBack/GENESECT_3.png",
-    description: "This ancient bug Pokémon was altered by Team Plasma. They upgraded the cannon on its back.",
+    description:
+      "This ancient bug Pokémon was altered by Team Plasma. They upgraded the cannon on its back.",
     stats: {
       hp: 71,
       attack: 120,
       defense: 95,
       spAttack: 120,
       spDefense: 95,
-      speed: 99
+      speed: 99,
     },
     height: "1.5",
     weight: "82.5",
-    abilities: [
-      "DOWNLOAD"
-    ],
-    hiddenAbilities: [
-
-    ],
+    abilities: ["DOWNLOAD"],
+    hiddenAbilities: [],
     category: "Paleozoic",
     moves: [
       "FURYCUTTER",
@@ -25439,7 +23531,7 @@ export const pokemonForms: PokemonForm[] =
       "ZAPCANNON",
       "LOCKON",
       "TECHNOBLAST",
-      "SELFDESTRUCT"
+      "SELFDESTRUCT",
     ],
     tutorMoves: [
       "AERIALACE",
@@ -25512,47 +23604,37 @@ export const pokemonForms: PokemonForm[] =
       "TRIATTACK",
       "UTURN",
       "XSCISSOR",
-      "ZENHEADBUTT"
+      "ZENHEADBUTT",
     ],
-    eggMoves: [
-
-    ],
+    eggMoves: [],
     suffix: "normal",
-    evolution: [
-
-    ],
+    evolution: [],
     color: "Purple",
     formNumber: 3,
     formName: "Chill Drive",
     baseId: "GENESECT",
-    megaStone: null
+    megaStone: null,
   },
   {
     id: "GENESECT",
     name: "Genesect",
-    types: [
-      "BUG",
-      "STEEL"
-    ],
+    types: ["BUG", "STEEL"],
     sprite: "/Front/GENESECT_4.png",
     backSprite: "/spritesBack/GENESECT_4.png",
-    description: "This ancient bug Pokémon was altered by Team Plasma. They upgraded the cannon on its back.",
+    description:
+      "This ancient bug Pokémon was altered by Team Plasma. They upgraded the cannon on its back.",
     stats: {
       hp: 71,
       attack: 120,
       defense: 95,
       spAttack: 120,
       spDefense: 95,
-      speed: 99
+      speed: 99,
     },
     height: "1.5",
     weight: "82.5",
-    abilities: [
-      "DOWNLOAD"
-    ],
-    hiddenAbilities: [
-
-    ],
+    abilities: ["DOWNLOAD"],
+    hiddenAbilities: [],
     category: "Paleozoic",
     moves: [
       "FURYCUTTER",
@@ -25569,7 +23651,7 @@ export const pokemonForms: PokemonForm[] =
       "ZAPCANNON",
       "LOCKON",
       "TECHNOBLAST",
-      "SELFDESTRUCT"
+      "SELFDESTRUCT",
     ],
     tutorMoves: [
       "AERIALACE",
@@ -25642,47 +23724,37 @@ export const pokemonForms: PokemonForm[] =
       "TRIATTACK",
       "UTURN",
       "XSCISSOR",
-      "ZENHEADBUTT"
+      "ZENHEADBUTT",
     ],
-    eggMoves: [
-
-    ],
+    eggMoves: [],
     suffix: "normal",
-    evolution: [
-
-    ],
+    evolution: [],
     color: "Purple",
     formNumber: 4,
     formName: "Douse Drive",
     baseId: "GENESECT",
-    megaStone: null
+    megaStone: null,
   },
   {
     id: "GRENINJA",
     name: "Greninja",
-    types: [
-      "WATER",
-      "DARK"
-    ],
+    types: ["WATER", "DARK"],
     sprite: "/Front/GRENINJA_1.png",
     backSprite: "/spritesBack/GRENINJA_1.png",
-    description: "It appears and vanishes with a ninja's grace. It toys with its enemies using swift movements, while slicing them with throwing stars of sharpest water.",
+    description:
+      "It appears and vanishes with a ninja's grace. It toys with its enemies using swift movements, while slicing them with throwing stars of sharpest water.",
     stats: {
       hp: 72,
       attack: 95,
       defense: 67,
       spAttack: 103,
       spDefense: 71,
-      speed: 122
+      speed: 122,
     },
     height: "1.5",
     weight: "40.0",
-    abilities: [
-      "BATTLEBOND"
-    ],
-    hiddenAbilities: [
-      "BATTLEBOND"
-    ],
+    abilities: ["BATTLEBOND"],
+    hiddenAbilities: ["BATTLEBOND"],
     category: "Ninja",
     moves: [
       "WATERSHURIKEN",
@@ -25702,7 +23774,7 @@ export const pokemonForms: PokemonForm[] =
       "SUBSTITUTE",
       "EXTRASENSORY",
       "DOUBLETEAM",
-      "HYDROPUMP"
+      "HYDROPUMP",
     ],
     tutorMoves: [
       "ACROBATICS",
@@ -25782,47 +23854,37 @@ export const pokemonForms: PokemonForm[] =
       "WATERPLEDGE",
       "WATERPULSE",
       "WEATHERBALL",
-      "WORKUP"
+      "WORKUP",
     ],
-    eggMoves: [
-
-    ],
+    eggMoves: [],
     suffix: "normal",
-    evolution: [
-
-    ],
+    evolution: [],
     color: "Blue",
     formNumber: 1,
     formName: "",
     baseId: "GRENINJA",
-    megaStone: null
+    megaStone: null,
   },
   {
     id: "GRENINJA",
     name: "Greninja",
-    types: [
-      "WATER",
-      "DARK"
-    ],
+    types: ["WATER", "DARK"],
     sprite: "/Front/GRENINJA_2.png",
     backSprite: "/spritesBack/GRENINJA_2.png",
-    description: "It appears and vanishes with a ninja's grace. It toys with its enemies using swift movements, while slicing them with throwing stars of sharpest water.",
+    description:
+      "It appears and vanishes with a ninja's grace. It toys with its enemies using swift movements, while slicing them with throwing stars of sharpest water.",
     stats: {
       hp: 72,
       attack: 145,
       defense: 67,
       spAttack: 153,
       spDefense: 71,
-      speed: 132
+      speed: 132,
     },
     height: "1.5",
     weight: "40.0",
-    abilities: [
-      "BATTLEBOND"
-    ],
-    hiddenAbilities: [
-      "BATTLEBOND"
-    ],
+    abilities: ["BATTLEBOND"],
+    hiddenAbilities: ["BATTLEBOND"],
     category: "Ninja",
     moves: [
       "WATERSHURIKEN",
@@ -25842,7 +23904,7 @@ export const pokemonForms: PokemonForm[] =
       "SUBSTITUTE",
       "EXTRASENSORY",
       "DOUBLETEAM",
-      "HYDROPUMP"
+      "HYDROPUMP",
     ],
     tutorMoves: [
       "ACROBATICS",
@@ -25922,48 +23984,37 @@ export const pokemonForms: PokemonForm[] =
       "WATERPLEDGE",
       "WATERPULSE",
       "WEATHERBALL",
-      "WORKUP"
+      "WORKUP",
     ],
-    eggMoves: [
-
-    ],
+    eggMoves: [],
     suffix: "normal",
-    evolution: [
-
-    ],
+    evolution: [],
     color: "Blue",
     formNumber: 2,
     formName: "Ash-Greninja",
     baseId: "GRENINJA",
-    megaStone: null
+    megaStone: null,
   },
   {
     id: "VIVILLON",
     name: "Vivillon",
-    types: [
-      "BUG",
-      "FLYING"
-    ],
+    types: ["BUG", "FLYING"],
     sprite: "/Front/VIVILLON_1.png",
     backSprite: "/spritesBack/VIVILLON_1.png",
-    description: "Vivillon with many different patterns are found all over the world. These patterns are affected by the climate of their habitat.",
+    description:
+      "Vivillon with many different patterns are found all over the world. These patterns are affected by the climate of their habitat.",
     stats: {
       hp: 80,
       attack: 52,
       defense: 50,
       spAttack: 90,
       spDefense: 50,
-      speed: 89
+      speed: 89,
     },
     height: "1.2",
     weight: "17.0",
-    abilities: [
-      "SHIELDDUST",
-      "COMPOUNDEYES"
-    ],
-    hiddenAbilities: [
-      "FRIENDGUARD"
-    ],
+    abilities: ["SHIELDDUST", "COMPOUNDEYES"],
+    hiddenAbilities: ["FRIENDGUARD"],
     category: "Scale",
     moves: [
       "GUST",
@@ -25978,7 +24029,7 @@ export const pokemonForms: PokemonForm[] =
       "SAFEGUARD",
       "BUGBUZZ",
       "QUIVERDANCE",
-      "HURRICANE"
+      "HURRICANE",
     ],
     tutorMoves: [
       "ACROBATICS",
@@ -26036,48 +24087,37 @@ export const pokemonForms: PokemonForm[] =
       "TERABLAST",
       "THIEF",
       "UTURN",
-      "WEATHERBALL"
+      "WEATHERBALL",
     ],
-    eggMoves: [
-
-    ],
+    eggMoves: [],
     suffix: "normal",
-    evolution: [
-
-    ],
+    evolution: [],
     color: "White",
     formNumber: 1,
     formName: "Continental Pattern",
     baseId: "VIVILLON",
-    megaStone: null
+    megaStone: null,
   },
   {
     id: "VIVILLON",
     name: "Vivillon",
-    types: [
-      "BUG",
-      "FLYING"
-    ],
+    types: ["BUG", "FLYING"],
     sprite: "/Front/VIVILLON_2.png",
     backSprite: "/spritesBack/VIVILLON_2.png",
-    description: "Vivillon with many different patterns are found all over the world. These patterns are affected by the climate of their habitat.",
+    description:
+      "Vivillon with many different patterns are found all over the world. These patterns are affected by the climate of their habitat.",
     stats: {
       hp: 80,
       attack: 52,
       defense: 50,
       spAttack: 90,
       spDefense: 50,
-      speed: 89
+      speed: 89,
     },
     height: "1.2",
     weight: "17.0",
-    abilities: [
-      "SHIELDDUST",
-      "COMPOUNDEYES"
-    ],
-    hiddenAbilities: [
-      "FRIENDGUARD"
-    ],
+    abilities: ["SHIELDDUST", "COMPOUNDEYES"],
+    hiddenAbilities: ["FRIENDGUARD"],
     category: "Scale",
     moves: [
       "GUST",
@@ -26092,7 +24132,7 @@ export const pokemonForms: PokemonForm[] =
       "SAFEGUARD",
       "BUGBUZZ",
       "QUIVERDANCE",
-      "HURRICANE"
+      "HURRICANE",
     ],
     tutorMoves: [
       "ACROBATICS",
@@ -26150,48 +24190,37 @@ export const pokemonForms: PokemonForm[] =
       "TERABLAST",
       "THIEF",
       "UTURN",
-      "WEATHERBALL"
+      "WEATHERBALL",
     ],
-    eggMoves: [
-
-    ],
+    eggMoves: [],
     suffix: "normal",
-    evolution: [
-
-    ],
+    evolution: [],
     color: "White",
     formNumber: 2,
     formName: "Elegant Pattern",
     baseId: "VIVILLON",
-    megaStone: null
+    megaStone: null,
   },
   {
     id: "VIVILLON",
     name: "Vivillon",
-    types: [
-      "BUG",
-      "FLYING"
-    ],
+    types: ["BUG", "FLYING"],
     sprite: "/Front/VIVILLON_3.png",
     backSprite: "/spritesBack/VIVILLON_3.png",
-    description: "Vivillon with many different patterns are found all over the world. These patterns are affected by the climate of their habitat.",
+    description:
+      "Vivillon with many different patterns are found all over the world. These patterns are affected by the climate of their habitat.",
     stats: {
       hp: 80,
       attack: 52,
       defense: 50,
       spAttack: 90,
       spDefense: 50,
-      speed: 89
+      speed: 89,
     },
     height: "1.2",
     weight: "17.0",
-    abilities: [
-      "SHIELDDUST",
-      "COMPOUNDEYES"
-    ],
-    hiddenAbilities: [
-      "FRIENDGUARD"
-    ],
+    abilities: ["SHIELDDUST", "COMPOUNDEYES"],
+    hiddenAbilities: ["FRIENDGUARD"],
     category: "Scale",
     moves: [
       "GUST",
@@ -26206,7 +24235,7 @@ export const pokemonForms: PokemonForm[] =
       "SAFEGUARD",
       "BUGBUZZ",
       "QUIVERDANCE",
-      "HURRICANE"
+      "HURRICANE",
     ],
     tutorMoves: [
       "ACROBATICS",
@@ -26264,48 +24293,37 @@ export const pokemonForms: PokemonForm[] =
       "TERABLAST",
       "THIEF",
       "UTURN",
-      "WEATHERBALL"
+      "WEATHERBALL",
     ],
-    eggMoves: [
-
-    ],
+    eggMoves: [],
     suffix: "normal",
-    evolution: [
-
-    ],
+    evolution: [],
     color: "White",
     formNumber: 3,
     formName: "Garden Pattern",
     baseId: "VIVILLON",
-    megaStone: null
+    megaStone: null,
   },
   {
     id: "VIVILLON",
     name: "Vivillon",
-    types: [
-      "BUG",
-      "FLYING"
-    ],
+    types: ["BUG", "FLYING"],
     sprite: "/Front/VIVILLON_4.png",
     backSprite: "/spritesBack/VIVILLON_4.png",
-    description: "Vivillon with many different patterns are found all over the world. These patterns are affected by the climate of their habitat.",
+    description:
+      "Vivillon with many different patterns are found all over the world. These patterns are affected by the climate of their habitat.",
     stats: {
       hp: 80,
       attack: 52,
       defense: 50,
       spAttack: 90,
       spDefense: 50,
-      speed: 89
+      speed: 89,
     },
     height: "1.2",
     weight: "17.0",
-    abilities: [
-      "SHIELDDUST",
-      "COMPOUNDEYES"
-    ],
-    hiddenAbilities: [
-      "FRIENDGUARD"
-    ],
+    abilities: ["SHIELDDUST", "COMPOUNDEYES"],
+    hiddenAbilities: ["FRIENDGUARD"],
     category: "Scale",
     moves: [
       "GUST",
@@ -26320,7 +24338,7 @@ export const pokemonForms: PokemonForm[] =
       "SAFEGUARD",
       "BUGBUZZ",
       "QUIVERDANCE",
-      "HURRICANE"
+      "HURRICANE",
     ],
     tutorMoves: [
       "ACROBATICS",
@@ -26378,48 +24396,37 @@ export const pokemonForms: PokemonForm[] =
       "TERABLAST",
       "THIEF",
       "UTURN",
-      "WEATHERBALL"
+      "WEATHERBALL",
     ],
-    eggMoves: [
-
-    ],
+    eggMoves: [],
     suffix: "normal",
-    evolution: [
-
-    ],
+    evolution: [],
     color: "White",
     formNumber: 4,
     formName: "High Plains Pattern",
     baseId: "VIVILLON",
-    megaStone: null
+    megaStone: null,
   },
   {
     id: "VIVILLON",
     name: "Vivillon",
-    types: [
-      "BUG",
-      "FLYING"
-    ],
+    types: ["BUG", "FLYING"],
     sprite: "/Front/VIVILLON_5.png",
     backSprite: "/spritesBack/VIVILLON_5.png",
-    description: "Vivillon with many different patterns are found all over the world. These patterns are affected by the climate of their habitat.",
+    description:
+      "Vivillon with many different patterns are found all over the world. These patterns are affected by the climate of their habitat.",
     stats: {
       hp: 80,
       attack: 52,
       defense: 50,
       spAttack: 90,
       spDefense: 50,
-      speed: 89
+      speed: 89,
     },
     height: "1.2",
     weight: "17.0",
-    abilities: [
-      "SHIELDDUST",
-      "COMPOUNDEYES"
-    ],
-    hiddenAbilities: [
-      "FRIENDGUARD"
-    ],
+    abilities: ["SHIELDDUST", "COMPOUNDEYES"],
+    hiddenAbilities: ["FRIENDGUARD"],
     category: "Scale",
     moves: [
       "GUST",
@@ -26434,7 +24441,7 @@ export const pokemonForms: PokemonForm[] =
       "SAFEGUARD",
       "BUGBUZZ",
       "QUIVERDANCE",
-      "HURRICANE"
+      "HURRICANE",
     ],
     tutorMoves: [
       "ACROBATICS",
@@ -26492,48 +24499,37 @@ export const pokemonForms: PokemonForm[] =
       "TERABLAST",
       "THIEF",
       "UTURN",
-      "WEATHERBALL"
+      "WEATHERBALL",
     ],
-    eggMoves: [
-
-    ],
+    eggMoves: [],
     suffix: "normal",
-    evolution: [
-
-    ],
+    evolution: [],
     color: "White",
     formNumber: 5,
     formName: "Icy Snow Pattern",
     baseId: "VIVILLON",
-    megaStone: null
+    megaStone: null,
   },
   {
     id: "VIVILLON",
     name: "Vivillon",
-    types: [
-      "BUG",
-      "FLYING"
-    ],
+    types: ["BUG", "FLYING"],
     sprite: "/Front/VIVILLON_6.png",
     backSprite: "/spritesBack/VIVILLON_6.png",
-    description: "Vivillon with many different patterns are found all over the world. These patterns are affected by the climate of their habitat.",
+    description:
+      "Vivillon with many different patterns are found all over the world. These patterns are affected by the climate of their habitat.",
     stats: {
       hp: 80,
       attack: 52,
       defense: 50,
       spAttack: 90,
       spDefense: 50,
-      speed: 89
+      speed: 89,
     },
     height: "1.2",
     weight: "17.0",
-    abilities: [
-      "SHIELDDUST",
-      "COMPOUNDEYES"
-    ],
-    hiddenAbilities: [
-      "FRIENDGUARD"
-    ],
+    abilities: ["SHIELDDUST", "COMPOUNDEYES"],
+    hiddenAbilities: ["FRIENDGUARD"],
     category: "Scale",
     moves: [
       "GUST",
@@ -26548,7 +24544,7 @@ export const pokemonForms: PokemonForm[] =
       "SAFEGUARD",
       "BUGBUZZ",
       "QUIVERDANCE",
-      "HURRICANE"
+      "HURRICANE",
     ],
     tutorMoves: [
       "ACROBATICS",
@@ -26606,48 +24602,37 @@ export const pokemonForms: PokemonForm[] =
       "TERABLAST",
       "THIEF",
       "UTURN",
-      "WEATHERBALL"
+      "WEATHERBALL",
     ],
-    eggMoves: [
-
-    ],
+    eggMoves: [],
     suffix: "normal",
-    evolution: [
-
-    ],
+    evolution: [],
     color: "White",
     formNumber: 6,
     formName: "Jungle Pattern",
     baseId: "VIVILLON",
-    megaStone: null
+    megaStone: null,
   },
   {
     id: "VIVILLON",
     name: "Vivillon",
-    types: [
-      "BUG",
-      "FLYING"
-    ],
+    types: ["BUG", "FLYING"],
     sprite: "/Front/VIVILLON_7.png",
     backSprite: "/spritesBack/VIVILLON_7.png",
-    description: "Vivillon with many different patterns are found all over the world. These patterns are affected by the climate of their habitat.",
+    description:
+      "Vivillon with many different patterns are found all over the world. These patterns are affected by the climate of their habitat.",
     stats: {
       hp: 80,
       attack: 52,
       defense: 50,
       spAttack: 90,
       spDefense: 50,
-      speed: 89
+      speed: 89,
     },
     height: "1.2",
     weight: "17.0",
-    abilities: [
-      "SHIELDDUST",
-      "COMPOUNDEYES"
-    ],
-    hiddenAbilities: [
-      "FRIENDGUARD"
-    ],
+    abilities: ["SHIELDDUST", "COMPOUNDEYES"],
+    hiddenAbilities: ["FRIENDGUARD"],
     category: "Scale",
     moves: [
       "GUST",
@@ -26662,7 +24647,7 @@ export const pokemonForms: PokemonForm[] =
       "SAFEGUARD",
       "BUGBUZZ",
       "QUIVERDANCE",
-      "HURRICANE"
+      "HURRICANE",
     ],
     tutorMoves: [
       "ACROBATICS",
@@ -26720,48 +24705,37 @@ export const pokemonForms: PokemonForm[] =
       "TERABLAST",
       "THIEF",
       "UTURN",
-      "WEATHERBALL"
+      "WEATHERBALL",
     ],
-    eggMoves: [
-
-    ],
+    eggMoves: [],
     suffix: "normal",
-    evolution: [
-
-    ],
+    evolution: [],
     color: "White",
     formNumber: 7,
     formName: "Marine Pattern",
     baseId: "VIVILLON",
-    megaStone: null
+    megaStone: null,
   },
   {
     id: "VIVILLON",
     name: "Vivillon",
-    types: [
-      "BUG",
-      "FLYING"
-    ],
+    types: ["BUG", "FLYING"],
     sprite: "/Front/VIVILLON_8.png",
     backSprite: "/spritesBack/VIVILLON_8.png",
-    description: "Vivillon with many different patterns are found all over the world. These patterns are affected by the climate of their habitat.",
+    description:
+      "Vivillon with many different patterns are found all over the world. These patterns are affected by the climate of their habitat.",
     stats: {
       hp: 80,
       attack: 52,
       defense: 50,
       spAttack: 90,
       spDefense: 50,
-      speed: 89
+      speed: 89,
     },
     height: "1.2",
     weight: "17.0",
-    abilities: [
-      "SHIELDDUST",
-      "COMPOUNDEYES"
-    ],
-    hiddenAbilities: [
-      "FRIENDGUARD"
-    ],
+    abilities: ["SHIELDDUST", "COMPOUNDEYES"],
+    hiddenAbilities: ["FRIENDGUARD"],
     category: "Scale",
     moves: [
       "GUST",
@@ -26776,7 +24750,7 @@ export const pokemonForms: PokemonForm[] =
       "SAFEGUARD",
       "BUGBUZZ",
       "QUIVERDANCE",
-      "HURRICANE"
+      "HURRICANE",
     ],
     tutorMoves: [
       "ACROBATICS",
@@ -26834,48 +24808,37 @@ export const pokemonForms: PokemonForm[] =
       "TERABLAST",
       "THIEF",
       "UTURN",
-      "WEATHERBALL"
+      "WEATHERBALL",
     ],
-    eggMoves: [
-
-    ],
+    eggMoves: [],
     suffix: "normal",
-    evolution: [
-
-    ],
+    evolution: [],
     color: "White",
     formNumber: 8,
     formName: "Meadow Pattern",
     baseId: "VIVILLON",
-    megaStone: null
+    megaStone: null,
   },
   {
     id: "VIVILLON",
     name: "Vivillon",
-    types: [
-      "BUG",
-      "FLYING"
-    ],
+    types: ["BUG", "FLYING"],
     sprite: "/Front/VIVILLON_9.png",
     backSprite: "/spritesBack/VIVILLON_9.png",
-    description: "Vivillon with many different patterns are found all over the world. These patterns are affected by the climate of their habitat.",
+    description:
+      "Vivillon with many different patterns are found all over the world. These patterns are affected by the climate of their habitat.",
     stats: {
       hp: 80,
       attack: 52,
       defense: 50,
       spAttack: 90,
       spDefense: 50,
-      speed: 89
+      speed: 89,
     },
     height: "1.2",
     weight: "17.0",
-    abilities: [
-      "SHIELDDUST",
-      "COMPOUNDEYES"
-    ],
-    hiddenAbilities: [
-      "FRIENDGUARD"
-    ],
+    abilities: ["SHIELDDUST", "COMPOUNDEYES"],
+    hiddenAbilities: ["FRIENDGUARD"],
     category: "Scale",
     moves: [
       "GUST",
@@ -26890,7 +24853,7 @@ export const pokemonForms: PokemonForm[] =
       "SAFEGUARD",
       "BUGBUZZ",
       "QUIVERDANCE",
-      "HURRICANE"
+      "HURRICANE",
     ],
     tutorMoves: [
       "ACROBATICS",
@@ -26948,48 +24911,37 @@ export const pokemonForms: PokemonForm[] =
       "TERABLAST",
       "THIEF",
       "UTURN",
-      "WEATHERBALL"
+      "WEATHERBALL",
     ],
-    eggMoves: [
-
-    ],
+    eggMoves: [],
     suffix: "normal",
-    evolution: [
-
-    ],
+    evolution: [],
     color: "White",
     formNumber: 9,
     formName: "Modern Pattern",
     baseId: "VIVILLON",
-    megaStone: null
+    megaStone: null,
   },
   {
     id: "VIVILLON",
     name: "Vivillon",
-    types: [
-      "BUG",
-      "FLYING"
-    ],
+    types: ["BUG", "FLYING"],
     sprite: "/Front/VIVILLON_10.png",
     backSprite: "/spritesBack/VIVILLON_10.png",
-    description: "Vivillon with many different patterns are found all over the world. These patterns are affected by the climate of their habitat.",
+    description:
+      "Vivillon with many different patterns are found all over the world. These patterns are affected by the climate of their habitat.",
     stats: {
       hp: 80,
       attack: 52,
       defense: 50,
       spAttack: 90,
       spDefense: 50,
-      speed: 89
+      speed: 89,
     },
     height: "1.2",
     weight: "17.0",
-    abilities: [
-      "SHIELDDUST",
-      "COMPOUNDEYES"
-    ],
-    hiddenAbilities: [
-      "FRIENDGUARD"
-    ],
+    abilities: ["SHIELDDUST", "COMPOUNDEYES"],
+    hiddenAbilities: ["FRIENDGUARD"],
     category: "Scale",
     moves: [
       "GUST",
@@ -27004,7 +24956,7 @@ export const pokemonForms: PokemonForm[] =
       "SAFEGUARD",
       "BUGBUZZ",
       "QUIVERDANCE",
-      "HURRICANE"
+      "HURRICANE",
     ],
     tutorMoves: [
       "ACROBATICS",
@@ -27062,48 +25014,37 @@ export const pokemonForms: PokemonForm[] =
       "TERABLAST",
       "THIEF",
       "UTURN",
-      "WEATHERBALL"
+      "WEATHERBALL",
     ],
-    eggMoves: [
-
-    ],
+    eggMoves: [],
     suffix: "normal",
-    evolution: [
-
-    ],
+    evolution: [],
     color: "White",
     formNumber: 10,
     formName: "Monsoon Pattern",
     baseId: "VIVILLON",
-    megaStone: null
+    megaStone: null,
   },
   {
     id: "VIVILLON",
     name: "Vivillon",
-    types: [
-      "BUG",
-      "FLYING"
-    ],
+    types: ["BUG", "FLYING"],
     sprite: "/Front/VIVILLON_11.png",
     backSprite: "/spritesBack/VIVILLON_11.png",
-    description: "Vivillon with many different patterns are found all over the world. These patterns are affected by the climate of their habitat.",
+    description:
+      "Vivillon with many different patterns are found all over the world. These patterns are affected by the climate of their habitat.",
     stats: {
       hp: 80,
       attack: 52,
       defense: 50,
       spAttack: 90,
       spDefense: 50,
-      speed: 89
+      speed: 89,
     },
     height: "1.2",
     weight: "17.0",
-    abilities: [
-      "SHIELDDUST",
-      "COMPOUNDEYES"
-    ],
-    hiddenAbilities: [
-      "FRIENDGUARD"
-    ],
+    abilities: ["SHIELDDUST", "COMPOUNDEYES"],
+    hiddenAbilities: ["FRIENDGUARD"],
     category: "Scale",
     moves: [
       "GUST",
@@ -27118,7 +25059,7 @@ export const pokemonForms: PokemonForm[] =
       "SAFEGUARD",
       "BUGBUZZ",
       "QUIVERDANCE",
-      "HURRICANE"
+      "HURRICANE",
     ],
     tutorMoves: [
       "ACROBATICS",
@@ -27176,48 +25117,37 @@ export const pokemonForms: PokemonForm[] =
       "TERABLAST",
       "THIEF",
       "UTURN",
-      "WEATHERBALL"
+      "WEATHERBALL",
     ],
-    eggMoves: [
-
-    ],
+    eggMoves: [],
     suffix: "normal",
-    evolution: [
-
-    ],
+    evolution: [],
     color: "White",
     formNumber: 11,
     formName: "Ocean Pattern",
     baseId: "VIVILLON",
-    megaStone: null
+    megaStone: null,
   },
   {
     id: "VIVILLON",
     name: "Vivillon",
-    types: [
-      "BUG",
-      "FLYING"
-    ],
+    types: ["BUG", "FLYING"],
     sprite: "/Front/VIVILLON_12.png",
     backSprite: "/spritesBack/VIVILLON_12.png",
-    description: "Vivillon with many different patterns are found all over the world. These patterns are affected by the climate of their habitat.",
+    description:
+      "Vivillon with many different patterns are found all over the world. These patterns are affected by the climate of their habitat.",
     stats: {
       hp: 80,
       attack: 52,
       defense: 50,
       spAttack: 90,
       spDefense: 50,
-      speed: 89
+      speed: 89,
     },
     height: "1.2",
     weight: "17.0",
-    abilities: [
-      "SHIELDDUST",
-      "COMPOUNDEYES"
-    ],
-    hiddenAbilities: [
-      "FRIENDGUARD"
-    ],
+    abilities: ["SHIELDDUST", "COMPOUNDEYES"],
+    hiddenAbilities: ["FRIENDGUARD"],
     category: "Scale",
     moves: [
       "GUST",
@@ -27232,7 +25162,7 @@ export const pokemonForms: PokemonForm[] =
       "SAFEGUARD",
       "BUGBUZZ",
       "QUIVERDANCE",
-      "HURRICANE"
+      "HURRICANE",
     ],
     tutorMoves: [
       "ACROBATICS",
@@ -27290,48 +25220,37 @@ export const pokemonForms: PokemonForm[] =
       "TERABLAST",
       "THIEF",
       "UTURN",
-      "WEATHERBALL"
+      "WEATHERBALL",
     ],
-    eggMoves: [
-
-    ],
+    eggMoves: [],
     suffix: "normal",
-    evolution: [
-
-    ],
+    evolution: [],
     color: "White",
     formNumber: 12,
     formName: "Polar Pattern",
     baseId: "VIVILLON",
-    megaStone: null
+    megaStone: null,
   },
   {
     id: "VIVILLON",
     name: "Vivillon",
-    types: [
-      "BUG",
-      "FLYING"
-    ],
+    types: ["BUG", "FLYING"],
     sprite: "/Front/VIVILLON_13.png",
     backSprite: "/spritesBack/VIVILLON_13.png",
-    description: "Vivillon with many different patterns are found all over the world. These patterns are affected by the climate of their habitat.",
+    description:
+      "Vivillon with many different patterns are found all over the world. These patterns are affected by the climate of their habitat.",
     stats: {
       hp: 80,
       attack: 52,
       defense: 50,
       spAttack: 90,
       spDefense: 50,
-      speed: 89
+      speed: 89,
     },
     height: "1.2",
     weight: "17.0",
-    abilities: [
-      "SHIELDDUST",
-      "COMPOUNDEYES"
-    ],
-    hiddenAbilities: [
-      "FRIENDGUARD"
-    ],
+    abilities: ["SHIELDDUST", "COMPOUNDEYES"],
+    hiddenAbilities: ["FRIENDGUARD"],
     category: "Scale",
     moves: [
       "GUST",
@@ -27346,7 +25265,7 @@ export const pokemonForms: PokemonForm[] =
       "SAFEGUARD",
       "BUGBUZZ",
       "QUIVERDANCE",
-      "HURRICANE"
+      "HURRICANE",
     ],
     tutorMoves: [
       "ACROBATICS",
@@ -27404,48 +25323,37 @@ export const pokemonForms: PokemonForm[] =
       "TERABLAST",
       "THIEF",
       "UTURN",
-      "WEATHERBALL"
+      "WEATHERBALL",
     ],
-    eggMoves: [
-
-    ],
+    eggMoves: [],
     suffix: "normal",
-    evolution: [
-
-    ],
+    evolution: [],
     color: "White",
     formNumber: 13,
     formName: "River Pattern",
     baseId: "VIVILLON",
-    megaStone: null
+    megaStone: null,
   },
   {
     id: "VIVILLON",
     name: "Vivillon",
-    types: [
-      "BUG",
-      "FLYING"
-    ],
+    types: ["BUG", "FLYING"],
     sprite: "/Front/VIVILLON_14.png",
     backSprite: "/spritesBack/VIVILLON_14.png",
-    description: "Vivillon with many different patterns are found all over the world. These patterns are affected by the climate of their habitat.",
+    description:
+      "Vivillon with many different patterns are found all over the world. These patterns are affected by the climate of their habitat.",
     stats: {
       hp: 80,
       attack: 52,
       defense: 50,
       spAttack: 90,
       spDefense: 50,
-      speed: 89
+      speed: 89,
     },
     height: "1.2",
     weight: "17.0",
-    abilities: [
-      "SHIELDDUST",
-      "COMPOUNDEYES"
-    ],
-    hiddenAbilities: [
-      "FRIENDGUARD"
-    ],
+    abilities: ["SHIELDDUST", "COMPOUNDEYES"],
+    hiddenAbilities: ["FRIENDGUARD"],
     category: "Scale",
     moves: [
       "GUST",
@@ -27460,7 +25368,7 @@ export const pokemonForms: PokemonForm[] =
       "SAFEGUARD",
       "BUGBUZZ",
       "QUIVERDANCE",
-      "HURRICANE"
+      "HURRICANE",
     ],
     tutorMoves: [
       "ACROBATICS",
@@ -27518,48 +25426,37 @@ export const pokemonForms: PokemonForm[] =
       "TERABLAST",
       "THIEF",
       "UTURN",
-      "WEATHERBALL"
+      "WEATHERBALL",
     ],
-    eggMoves: [
-
-    ],
+    eggMoves: [],
     suffix: "normal",
-    evolution: [
-
-    ],
+    evolution: [],
     color: "White",
     formNumber: 14,
     formName: "Sandstorm Pattern",
     baseId: "VIVILLON",
-    megaStone: null
+    megaStone: null,
   },
   {
     id: "VIVILLON",
     name: "Vivillon",
-    types: [
-      "BUG",
-      "FLYING"
-    ],
+    types: ["BUG", "FLYING"],
     sprite: "/Front/VIVILLON_15.png",
     backSprite: "/spritesBack/VIVILLON_15.png",
-    description: "Vivillon with many different patterns are found all over the world. These patterns are affected by the climate of their habitat.",
+    description:
+      "Vivillon with many different patterns are found all over the world. These patterns are affected by the climate of their habitat.",
     stats: {
       hp: 80,
       attack: 52,
       defense: 50,
       spAttack: 90,
       spDefense: 50,
-      speed: 89
+      speed: 89,
     },
     height: "1.2",
     weight: "17.0",
-    abilities: [
-      "SHIELDDUST",
-      "COMPOUNDEYES"
-    ],
-    hiddenAbilities: [
-      "FRIENDGUARD"
-    ],
+    abilities: ["SHIELDDUST", "COMPOUNDEYES"],
+    hiddenAbilities: ["FRIENDGUARD"],
     category: "Scale",
     moves: [
       "GUST",
@@ -27574,7 +25471,7 @@ export const pokemonForms: PokemonForm[] =
       "SAFEGUARD",
       "BUGBUZZ",
       "QUIVERDANCE",
-      "HURRICANE"
+      "HURRICANE",
     ],
     tutorMoves: [
       "ACROBATICS",
@@ -27632,48 +25529,37 @@ export const pokemonForms: PokemonForm[] =
       "TERABLAST",
       "THIEF",
       "UTURN",
-      "WEATHERBALL"
+      "WEATHERBALL",
     ],
-    eggMoves: [
-
-    ],
+    eggMoves: [],
     suffix: "normal",
-    evolution: [
-
-    ],
+    evolution: [],
     color: "White",
     formNumber: 15,
     formName: "Savanna Pattern",
     baseId: "VIVILLON",
-    megaStone: null
+    megaStone: null,
   },
   {
     id: "VIVILLON",
     name: "Vivillon",
-    types: [
-      "BUG",
-      "FLYING"
-    ],
+    types: ["BUG", "FLYING"],
     sprite: "/Front/VIVILLON_16.png",
     backSprite: "/spritesBack/VIVILLON_16.png",
-    description: "Vivillon with many different patterns are found all over the world. These patterns are affected by the climate of their habitat.",
+    description:
+      "Vivillon with many different patterns are found all over the world. These patterns are affected by the climate of their habitat.",
     stats: {
       hp: 80,
       attack: 52,
       defense: 50,
       spAttack: 90,
       spDefense: 50,
-      speed: 89
+      speed: 89,
     },
     height: "1.2",
     weight: "17.0",
-    abilities: [
-      "SHIELDDUST",
-      "COMPOUNDEYES"
-    ],
-    hiddenAbilities: [
-      "FRIENDGUARD"
-    ],
+    abilities: ["SHIELDDUST", "COMPOUNDEYES"],
+    hiddenAbilities: ["FRIENDGUARD"],
     category: "Scale",
     moves: [
       "GUST",
@@ -27688,7 +25574,7 @@ export const pokemonForms: PokemonForm[] =
       "SAFEGUARD",
       "BUGBUZZ",
       "QUIVERDANCE",
-      "HURRICANE"
+      "HURRICANE",
     ],
     tutorMoves: [
       "ACROBATICS",
@@ -27746,48 +25632,37 @@ export const pokemonForms: PokemonForm[] =
       "TERABLAST",
       "THIEF",
       "UTURN",
-      "WEATHERBALL"
+      "WEATHERBALL",
     ],
-    eggMoves: [
-
-    ],
+    eggMoves: [],
     suffix: "normal",
-    evolution: [
-
-    ],
+    evolution: [],
     color: "White",
     formNumber: 16,
     formName: "Sun Pattern",
     baseId: "VIVILLON",
-    megaStone: null
+    megaStone: null,
   },
   {
     id: "VIVILLON",
     name: "Vivillon",
-    types: [
-      "BUG",
-      "FLYING"
-    ],
+    types: ["BUG", "FLYING"],
     sprite: "/Front/VIVILLON_17.png",
     backSprite: "/spritesBack/VIVILLON_17.png",
-    description: "Vivillon with many different patterns are found all over the world. These patterns are affected by the climate of their habitat.",
+    description:
+      "Vivillon with many different patterns are found all over the world. These patterns are affected by the climate of their habitat.",
     stats: {
       hp: 80,
       attack: 52,
       defense: 50,
       spAttack: 90,
       spDefense: 50,
-      speed: 89
+      speed: 89,
     },
     height: "1.2",
     weight: "17.0",
-    abilities: [
-      "SHIELDDUST",
-      "COMPOUNDEYES"
-    ],
-    hiddenAbilities: [
-      "FRIENDGUARD"
-    ],
+    abilities: ["SHIELDDUST", "COMPOUNDEYES"],
+    hiddenAbilities: ["FRIENDGUARD"],
     category: "Scale",
     moves: [
       "GUST",
@@ -27802,7 +25677,7 @@ export const pokemonForms: PokemonForm[] =
       "SAFEGUARD",
       "BUGBUZZ",
       "QUIVERDANCE",
-      "HURRICANE"
+      "HURRICANE",
     ],
     tutorMoves: [
       "ACROBATICS",
@@ -27860,48 +25735,37 @@ export const pokemonForms: PokemonForm[] =
       "TERABLAST",
       "THIEF",
       "UTURN",
-      "WEATHERBALL"
+      "WEATHERBALL",
     ],
-    eggMoves: [
-
-    ],
+    eggMoves: [],
     suffix: "normal",
-    evolution: [
-
-    ],
+    evolution: [],
     color: "White",
     formNumber: 17,
     formName: "Tundra Pattern",
     baseId: "VIVILLON",
-    megaStone: null
+    megaStone: null,
   },
   {
     id: "VIVILLON",
     name: "Vivillon",
-    types: [
-      "BUG",
-      "FLYING"
-    ],
+    types: ["BUG", "FLYING"],
     sprite: "/Front/VIVILLON_18.png",
     backSprite: "/spritesBack/VIVILLON_18.png",
-    description: "Vivillon with many different patterns are found all over the world. These patterns are affected by the climate of their habitat.",
+    description:
+      "Vivillon with many different patterns are found all over the world. These patterns are affected by the climate of their habitat.",
     stats: {
       hp: 80,
       attack: 52,
       defense: 50,
       spAttack: 90,
       spDefense: 50,
-      speed: 89
+      speed: 89,
     },
     height: "1.2",
     weight: "17.0",
-    abilities: [
-      "SHIELDDUST",
-      "COMPOUNDEYES"
-    ],
-    hiddenAbilities: [
-      "FRIENDGUARD"
-    ],
+    abilities: ["SHIELDDUST", "COMPOUNDEYES"],
+    hiddenAbilities: ["FRIENDGUARD"],
     category: "Scale",
     moves: [
       "GUST",
@@ -27916,7 +25780,7 @@ export const pokemonForms: PokemonForm[] =
       "SAFEGUARD",
       "BUGBUZZ",
       "QUIVERDANCE",
-      "HURRICANE"
+      "HURRICANE",
     ],
     tutorMoves: [
       "ACROBATICS",
@@ -27974,48 +25838,37 @@ export const pokemonForms: PokemonForm[] =
       "TERABLAST",
       "THIEF",
       "UTURN",
-      "WEATHERBALL"
+      "WEATHERBALL",
     ],
-    eggMoves: [
-
-    ],
+    eggMoves: [],
     suffix: "normal",
-    evolution: [
-
-    ],
+    evolution: [],
     color: "White",
     formNumber: 18,
     formName: "Fancy Pattern",
     baseId: "VIVILLON",
-    megaStone: null
+    megaStone: null,
   },
   {
     id: "VIVILLON",
     name: "Vivillon",
-    types: [
-      "BUG",
-      "FLYING"
-    ],
+    types: ["BUG", "FLYING"],
     sprite: "/Front/VIVILLON_19.png",
     backSprite: "/spritesBack/VIVILLON_19.png",
-    description: "Vivillon with many different patterns are found all over the world. These patterns are affected by the climate of their habitat.",
+    description:
+      "Vivillon with many different patterns are found all over the world. These patterns are affected by the climate of their habitat.",
     stats: {
       hp: 80,
       attack: 52,
       defense: 50,
       spAttack: 90,
       spDefense: 50,
-      speed: 89
+      speed: 89,
     },
     height: "1.2",
     weight: "17.0",
-    abilities: [
-      "SHIELDDUST",
-      "COMPOUNDEYES"
-    ],
-    hiddenAbilities: [
-      "FRIENDGUARD"
-    ],
+    abilities: ["SHIELDDUST", "COMPOUNDEYES"],
+    hiddenAbilities: ["FRIENDGUARD"],
     category: "Scale",
     moves: [
       "GUST",
@@ -28030,7 +25883,7 @@ export const pokemonForms: PokemonForm[] =
       "SAFEGUARD",
       "BUGBUZZ",
       "QUIVERDANCE",
-      "HURRICANE"
+      "HURRICANE",
     ],
     tutorMoves: [
       "ACROBATICS",
@@ -28088,46 +25941,37 @@ export const pokemonForms: PokemonForm[] =
       "TERABLAST",
       "THIEF",
       "UTURN",
-      "WEATHERBALL"
+      "WEATHERBALL",
     ],
-    eggMoves: [
-
-    ],
+    eggMoves: [],
     suffix: "normal",
-    evolution: [
-
-    ],
+    evolution: [],
     color: "White",
     formNumber: 19,
     formName: "Poké Ball Pattern",
     baseId: "VIVILLON",
-    megaStone: null
+    megaStone: null,
   },
   {
     id: "FLABEBE",
     name: "Flabébé",
-    types: [
-      "FAIRY"
-    ],
+    types: ["FAIRY"],
     sprite: "/Front/FLABEBE_1.png",
     backSprite: "/spritesBack/FLABEBE_1.png",
-    description: "When it finds a flower it likes, it dwells on that flower its whole life long. It floats in the wind's embrace with an untroubled heart.",
+    description:
+      "When it finds a flower it likes, it dwells on that flower its whole life long. It floats in the wind's embrace with an untroubled heart.",
     stats: {
       hp: 44,
       attack: 38,
       defense: 39,
       spAttack: 61,
       spDefense: 79,
-      speed: 42
+      speed: 42,
     },
     height: "0.1",
     weight: "0.1",
-    abilities: [
-      "FLOWERVEIL"
-    ],
-    hiddenAbilities: [
-      "SYMBIOSIS"
-    ],
+    abilities: ["FLOWERVEIL"],
+    hiddenAbilities: ["SYMBIOSIS"],
     category: "Single Bloom",
     moves: [
       "TACKLE",
@@ -28143,7 +25987,7 @@ export const pokemonForms: PokemonForm[] =
       "MISTYTERRAIN",
       "MOONBLAST",
       "PETALDANCE",
-      "SOLARBEAM"
+      "SOLARBEAM",
     ],
     tutorMoves: [
       "AFTERYOU",
@@ -28203,54 +26047,43 @@ export const pokemonForms: PokemonForm[] =
       "SYNTHESIS",
       "TERABLAST",
       "TRAILBLAZE",
-      "WORRYSEED"
+      "WORRYSEED",
     ],
-    eggMoves: [
-      "CAMOUFLAGE",
-      "CAPTIVATE",
-      "COPYCAT",
-      "ENDEAVOR",
-      "TEARFULLOOK"
-    ],
+    eggMoves: ["CAMOUFLAGE", "CAPTIVATE", "COPYCAT", "ENDEAVOR", "TEARFULLOOK"],
     suffix: "normal",
     evolution: [
       {
         to: "FLOETTE",
         method: "Level",
-        value: "19"
-      }
+        value: "19",
+      },
     ],
     color: "White",
     formNumber: 1,
     formName: "Yellow Flower",
     baseId: "FLABEBE",
-    megaStone: null
+    megaStone: null,
   },
   {
     id: "FLABEBE",
     name: "Flabébé",
-    types: [
-      "FAIRY"
-    ],
+    types: ["FAIRY"],
     sprite: "/Front/FLABEBE_2.png",
     backSprite: "/spritesBack/FLABEBE_2.png",
-    description: "When it finds a flower it likes, it dwells on that flower its whole life long. It floats in the wind's embrace with an untroubled heart.",
+    description:
+      "When it finds a flower it likes, it dwells on that flower its whole life long. It floats in the wind's embrace with an untroubled heart.",
     stats: {
       hp: 44,
       attack: 38,
       defense: 39,
       spAttack: 61,
       spDefense: 79,
-      speed: 42
+      speed: 42,
     },
     height: "0.1",
     weight: "0.1",
-    abilities: [
-      "FLOWERVEIL"
-    ],
-    hiddenAbilities: [
-      "SYMBIOSIS"
-    ],
+    abilities: ["FLOWERVEIL"],
+    hiddenAbilities: ["SYMBIOSIS"],
     category: "Single Bloom",
     moves: [
       "TACKLE",
@@ -28266,7 +26099,7 @@ export const pokemonForms: PokemonForm[] =
       "MISTYTERRAIN",
       "MOONBLAST",
       "PETALDANCE",
-      "SOLARBEAM"
+      "SOLARBEAM",
     ],
     tutorMoves: [
       "AFTERYOU",
@@ -28326,54 +26159,43 @@ export const pokemonForms: PokemonForm[] =
       "SYNTHESIS",
       "TERABLAST",
       "TRAILBLAZE",
-      "WORRYSEED"
+      "WORRYSEED",
     ],
-    eggMoves: [
-      "CAMOUFLAGE",
-      "CAPTIVATE",
-      "COPYCAT",
-      "ENDEAVOR",
-      "TEARFULLOOK"
-    ],
+    eggMoves: ["CAMOUFLAGE", "CAPTIVATE", "COPYCAT", "ENDEAVOR", "TEARFULLOOK"],
     suffix: "normal",
     evolution: [
       {
         to: "FLOETTE",
         method: "Level",
-        value: "19"
-      }
+        value: "19",
+      },
     ],
     color: "White",
     formNumber: 2,
     formName: "Orange Flower",
     baseId: "FLABEBE",
-    megaStone: null
+    megaStone: null,
   },
   {
     id: "FLABEBE",
     name: "Flabébé",
-    types: [
-      "FAIRY"
-    ],
+    types: ["FAIRY"],
     sprite: "/Front/FLABEBE_3.png",
     backSprite: "/spritesBack/FLABEBE_3.png",
-    description: "When it finds a flower it likes, it dwells on that flower its whole life long. It floats in the wind's embrace with an untroubled heart.",
+    description:
+      "When it finds a flower it likes, it dwells on that flower its whole life long. It floats in the wind's embrace with an untroubled heart.",
     stats: {
       hp: 44,
       attack: 38,
       defense: 39,
       spAttack: 61,
       spDefense: 79,
-      speed: 42
+      speed: 42,
     },
     height: "0.1",
     weight: "0.1",
-    abilities: [
-      "FLOWERVEIL"
-    ],
-    hiddenAbilities: [
-      "SYMBIOSIS"
-    ],
+    abilities: ["FLOWERVEIL"],
+    hiddenAbilities: ["SYMBIOSIS"],
     category: "Single Bloom",
     moves: [
       "TACKLE",
@@ -28389,7 +26211,7 @@ export const pokemonForms: PokemonForm[] =
       "MISTYTERRAIN",
       "MOONBLAST",
       "PETALDANCE",
-      "SOLARBEAM"
+      "SOLARBEAM",
     ],
     tutorMoves: [
       "AFTERYOU",
@@ -28449,54 +26271,43 @@ export const pokemonForms: PokemonForm[] =
       "SYNTHESIS",
       "TERABLAST",
       "TRAILBLAZE",
-      "WORRYSEED"
+      "WORRYSEED",
     ],
-    eggMoves: [
-      "CAMOUFLAGE",
-      "CAPTIVATE",
-      "COPYCAT",
-      "ENDEAVOR",
-      "TEARFULLOOK"
-    ],
+    eggMoves: ["CAMOUFLAGE", "CAPTIVATE", "COPYCAT", "ENDEAVOR", "TEARFULLOOK"],
     suffix: "normal",
     evolution: [
       {
         to: "FLOETTE",
         method: "Level",
-        value: "19"
-      }
+        value: "19",
+      },
     ],
     color: "White",
     formNumber: 3,
     formName: "Blue Flower",
     baseId: "FLABEBE",
-    megaStone: null
+    megaStone: null,
   },
   {
     id: "FLABEBE",
     name: "Flabébé",
-    types: [
-      "FAIRY"
-    ],
+    types: ["FAIRY"],
     sprite: "/Front/FLABEBE_4.png",
     backSprite: "/spritesBack/FLABEBE_4.png",
-    description: "When it finds a flower it likes, it dwells on that flower its whole life long. It floats in the wind's embrace with an untroubled heart.",
+    description:
+      "When it finds a flower it likes, it dwells on that flower its whole life long. It floats in the wind's embrace with an untroubled heart.",
     stats: {
       hp: 44,
       attack: 38,
       defense: 39,
       spAttack: 61,
       spDefense: 79,
-      speed: 42
+      speed: 42,
     },
     height: "0.1",
     weight: "0.1",
-    abilities: [
-      "FLOWERVEIL"
-    ],
-    hiddenAbilities: [
-      "SYMBIOSIS"
-    ],
+    abilities: ["FLOWERVEIL"],
+    hiddenAbilities: ["SYMBIOSIS"],
     category: "Single Bloom",
     moves: [
       "TACKLE",
@@ -28512,7 +26323,7 @@ export const pokemonForms: PokemonForm[] =
       "MISTYTERRAIN",
       "MOONBLAST",
       "PETALDANCE",
-      "SOLARBEAM"
+      "SOLARBEAM",
     ],
     tutorMoves: [
       "AFTERYOU",
@@ -28572,54 +26383,43 @@ export const pokemonForms: PokemonForm[] =
       "SYNTHESIS",
       "TERABLAST",
       "TRAILBLAZE",
-      "WORRYSEED"
+      "WORRYSEED",
     ],
-    eggMoves: [
-      "CAMOUFLAGE",
-      "CAPTIVATE",
-      "COPYCAT",
-      "ENDEAVOR",
-      "TEARFULLOOK"
-    ],
+    eggMoves: ["CAMOUFLAGE", "CAPTIVATE", "COPYCAT", "ENDEAVOR", "TEARFULLOOK"],
     suffix: "normal",
     evolution: [
       {
         to: "FLOETTE",
         method: "Level",
-        value: "19"
-      }
+        value: "19",
+      },
     ],
     color: "White",
     formNumber: 4,
     formName: "White Flower",
     baseId: "FLABEBE",
-    megaStone: null
+    megaStone: null,
   },
   {
     id: "FLOETTE",
     name: "Floette",
-    types: [
-      "FAIRY"
-    ],
+    types: ["FAIRY"],
     sprite: "/Front/FLOETTE_1.png",
     backSprite: "/spritesBack/FLOETTE_1.png",
-    description: "It flutters around fields of flowers and cares for flowers that are starting to wilt. It draws out the power of flowers to battle.",
+    description:
+      "It flutters around fields of flowers and cares for flowers that are starting to wilt. It draws out the power of flowers to battle.",
     stats: {
       hp: 54,
       attack: 45,
       defense: 47,
       spAttack: 75,
       spDefense: 98,
-      speed: 52
+      speed: 52,
     },
     height: "0.2",
     weight: "0.9",
-    abilities: [
-      "FLOWERVEIL"
-    ],
-    hiddenAbilities: [
-      "SYMBIOSIS"
-    ],
+    abilities: ["FLOWERVEIL"],
+    hiddenAbilities: ["SYMBIOSIS"],
     category: "Single Bloom",
     moves: [
       "TACKLE",
@@ -28635,7 +26435,7 @@ export const pokemonForms: PokemonForm[] =
       "MISTYTERRAIN",
       "MOONBLAST",
       "PETALDANCE",
-      "SOLARBEAM"
+      "SOLARBEAM",
     ],
     tutorMoves: [
       "AFTERYOU",
@@ -28698,50 +26498,43 @@ export const pokemonForms: PokemonForm[] =
       "TERABLAST",
       "TRAILBLAZE",
       "TRICK",
-      "WORRYSEED"
+      "WORRYSEED",
     ],
-    eggMoves: [
-
-    ],
+    eggMoves: [],
     suffix: "normal",
     evolution: [
       {
         to: "FLORGES",
         method: "Item",
-        value: "SHINYSTONE"
-      }
+        value: "SHINYSTONE",
+      },
     ],
     color: "White",
     formNumber: 1,
     formName: "Yellow Flower",
     baseId: "FLOETTE",
-    megaStone: null
+    megaStone: null,
   },
   {
     id: "FLOETTE",
     name: "Floette",
-    types: [
-      "FAIRY"
-    ],
+    types: ["FAIRY"],
     sprite: "/Front/FLOETTE_2.png",
     backSprite: "/spritesBack/FLOETTE_2.png",
-    description: "It flutters around fields of flowers and cares for flowers that are starting to wilt. It draws out the power of flowers to battle.",
+    description:
+      "It flutters around fields of flowers and cares for flowers that are starting to wilt. It draws out the power of flowers to battle.",
     stats: {
       hp: 54,
       attack: 45,
       defense: 47,
       spAttack: 75,
       spDefense: 98,
-      speed: 52
+      speed: 52,
     },
     height: "0.2",
     weight: "0.9",
-    abilities: [
-      "FLOWERVEIL"
-    ],
-    hiddenAbilities: [
-      "SYMBIOSIS"
-    ],
+    abilities: ["FLOWERVEIL"],
+    hiddenAbilities: ["SYMBIOSIS"],
     category: "Single Bloom",
     moves: [
       "TACKLE",
@@ -28757,7 +26550,7 @@ export const pokemonForms: PokemonForm[] =
       "MISTYTERRAIN",
       "MOONBLAST",
       "PETALDANCE",
-      "SOLARBEAM"
+      "SOLARBEAM",
     ],
     tutorMoves: [
       "AFTERYOU",
@@ -28820,50 +26613,43 @@ export const pokemonForms: PokemonForm[] =
       "TERABLAST",
       "TRAILBLAZE",
       "TRICK",
-      "WORRYSEED"
+      "WORRYSEED",
     ],
-    eggMoves: [
-
-    ],
+    eggMoves: [],
     suffix: "normal",
     evolution: [
       {
         to: "FLORGES",
         method: "Item",
-        value: "SHINYSTONE"
-      }
+        value: "SHINYSTONE",
+      },
     ],
     color: "White",
     formNumber: 2,
     formName: "Orange Flower",
     baseId: "FLOETTE",
-    megaStone: null
+    megaStone: null,
   },
   {
     id: "FLOETTE",
     name: "Floette",
-    types: [
-      "FAIRY"
-    ],
+    types: ["FAIRY"],
     sprite: "/Front/FLOETTE_3.png",
     backSprite: "/spritesBack/FLOETTE_3.png",
-    description: "It flutters around fields of flowers and cares for flowers that are starting to wilt. It draws out the power of flowers to battle.",
+    description:
+      "It flutters around fields of flowers and cares for flowers that are starting to wilt. It draws out the power of flowers to battle.",
     stats: {
       hp: 54,
       attack: 45,
       defense: 47,
       spAttack: 75,
       spDefense: 98,
-      speed: 52
+      speed: 52,
     },
     height: "0.2",
     weight: "0.9",
-    abilities: [
-      "FLOWERVEIL"
-    ],
-    hiddenAbilities: [
-      "SYMBIOSIS"
-    ],
+    abilities: ["FLOWERVEIL"],
+    hiddenAbilities: ["SYMBIOSIS"],
     category: "Single Bloom",
     moves: [
       "TACKLE",
@@ -28879,7 +26665,7 @@ export const pokemonForms: PokemonForm[] =
       "MISTYTERRAIN",
       "MOONBLAST",
       "PETALDANCE",
-      "SOLARBEAM"
+      "SOLARBEAM",
     ],
     tutorMoves: [
       "AFTERYOU",
@@ -28942,50 +26728,43 @@ export const pokemonForms: PokemonForm[] =
       "TERABLAST",
       "TRAILBLAZE",
       "TRICK",
-      "WORRYSEED"
+      "WORRYSEED",
     ],
-    eggMoves: [
-
-    ],
+    eggMoves: [],
     suffix: "normal",
     evolution: [
       {
         to: "FLORGES",
         method: "Item",
-        value: "SHINYSTONE"
-      }
+        value: "SHINYSTONE",
+      },
     ],
     color: "White",
     formNumber: 3,
     formName: "Blue Flower",
     baseId: "FLOETTE",
-    megaStone: null
+    megaStone: null,
   },
   {
     id: "FLOETTE",
     name: "Floette",
-    types: [
-      "FAIRY"
-    ],
+    types: ["FAIRY"],
     sprite: "/Front/FLOETTE_4.png",
     backSprite: "/spritesBack/FLOETTE_4.png",
-    description: "It flutters around fields of flowers and cares for flowers that are starting to wilt. It draws out the power of flowers to battle.",
+    description:
+      "It flutters around fields of flowers and cares for flowers that are starting to wilt. It draws out the power of flowers to battle.",
     stats: {
       hp: 54,
       attack: 45,
       defense: 47,
       spAttack: 75,
       spDefense: 98,
-      speed: 52
+      speed: 52,
     },
     height: "0.2",
     weight: "0.9",
-    abilities: [
-      "FLOWERVEIL"
-    ],
-    hiddenAbilities: [
-      "SYMBIOSIS"
-    ],
+    abilities: ["FLOWERVEIL"],
+    hiddenAbilities: ["SYMBIOSIS"],
     category: "Single Bloom",
     moves: [
       "TACKLE",
@@ -29001,7 +26780,7 @@ export const pokemonForms: PokemonForm[] =
       "MISTYTERRAIN",
       "MOONBLAST",
       "PETALDANCE",
-      "SOLARBEAM"
+      "SOLARBEAM",
     ],
     tutorMoves: [
       "AFTERYOU",
@@ -29064,50 +26843,43 @@ export const pokemonForms: PokemonForm[] =
       "TERABLAST",
       "TRAILBLAZE",
       "TRICK",
-      "WORRYSEED"
+      "WORRYSEED",
     ],
-    eggMoves: [
-
-    ],
+    eggMoves: [],
     suffix: "normal",
     evolution: [
       {
         to: "FLORGES",
         method: "Item",
-        value: "SHINYSTONE"
-      }
+        value: "SHINYSTONE",
+      },
     ],
     color: "White",
     formNumber: 4,
     formName: "White Flower",
     baseId: "FLOETTE",
-    megaStone: null
+    megaStone: null,
   },
   {
     id: "FLOETTE",
     name: "Floette",
-    types: [
-      "FAIRY"
-    ],
+    types: ["FAIRY"],
     sprite: "/Front/FLOETTE_5.png",
     backSprite: "/spritesBack/FLOETTE_5.png",
-    description: "The flower it's holding can no longer be found blooming anywhere. It's also thought to contain terrifying power.",
+    description:
+      "The flower it's holding can no longer be found blooming anywhere. It's also thought to contain terrifying power.",
     stats: {
       hp: 74,
       attack: 65,
       defense: 67,
       spAttack: 125,
       spDefense: 128,
-      speed: 92
+      speed: 92,
     },
     height: "0.2",
     weight: "0.9",
-    abilities: [
-      "FLOWERVEIL"
-    ],
-    hiddenAbilities: [
-      "SYMBIOSIS"
-    ],
+    abilities: ["FLOWERVEIL"],
+    hiddenAbilities: ["SYMBIOSIS"],
     category: "Single Bloom",
     moves: [
       "TACKLE",
@@ -29124,7 +26896,7 @@ export const pokemonForms: PokemonForm[] =
       "MOONBLAST",
       "LIGHTOFRUIN",
       "PETALDANCE",
-      "SOLARBEAM"
+      "SOLARBEAM",
     ],
     tutorMoves: [
       "AFTERYOU",
@@ -29187,50 +26959,43 @@ export const pokemonForms: PokemonForm[] =
       "TERABLAST",
       "TRAILBLAZE",
       "TRICK",
-      "WORRYSEED"
+      "WORRYSEED",
     ],
-    eggMoves: [
-
-    ],
+    eggMoves: [],
     suffix: "normal",
     evolution: [
       {
         to: "FLORGES",
         method: "Item",
-        value: "SHINYSTONE"
-      }
+        value: "SHINYSTONE",
+      },
     ],
     color: "White",
     formNumber: 5,
     formName: "Eternal Flower",
     baseId: "FLOETTE",
-    megaStone: null
+    megaStone: null,
   },
   {
     id: "FLORGES",
     name: "Florges",
-    types: [
-      "FAIRY"
-    ],
+    types: ["FAIRY"],
     sprite: "/Front/FLORGES_1.png",
     backSprite: "/spritesBack/FLORGES_1.png",
-    description: "It claims exquisite flower gardens as its territory, and it obtains power from basking in the energy emitted by flowering plants.",
+    description:
+      "It claims exquisite flower gardens as its territory, and it obtains power from basking in the energy emitted by flowering plants.",
     stats: {
       hp: 78,
       attack: 65,
       defense: 68,
       spAttack: 112,
       spDefense: 154,
-      speed: 75
+      speed: 75,
     },
     height: "1.1",
     weight: "10.0",
-    abilities: [
-      "FLOWERVEIL"
-    ],
-    hiddenAbilities: [
-      "SYMBIOSIS"
-    ],
+    abilities: ["FLOWERVEIL"],
+    hiddenAbilities: ["SYMBIOSIS"],
     category: "Garden",
     moves: [
       "DISARMINGVOICE",
@@ -29244,7 +27009,7 @@ export const pokemonForms: PokemonForm[] =
       "PETALDANCE",
       "SOLARBEAM",
       "SYNTHESIS",
-      "MOONBLAST"
+      "MOONBLAST",
     ],
     tutorMoves: [
       "AFTERYOU",
@@ -29312,46 +27077,37 @@ export const pokemonForms: PokemonForm[] =
       "TERABLAST",
       "TRAILBLAZE",
       "TRICK",
-      "WORRYSEED"
+      "WORRYSEED",
     ],
-    eggMoves: [
-
-    ],
+    eggMoves: [],
     suffix: "normal",
-    evolution: [
-
-    ],
+    evolution: [],
     color: "White",
     formNumber: 1,
     formName: "Yellow Flower",
     baseId: "FLORGES",
-    megaStone: null
+    megaStone: null,
   },
   {
     id: "FLORGES",
     name: "Florges",
-    types: [
-      "FAIRY"
-    ],
+    types: ["FAIRY"],
     sprite: "/Front/FLORGES_2.png",
     backSprite: "/spritesBack/FLORGES_2.png",
-    description: "It claims exquisite flower gardens as its territory, and it obtains power from basking in the energy emitted by flowering plants.",
+    description:
+      "It claims exquisite flower gardens as its territory, and it obtains power from basking in the energy emitted by flowering plants.",
     stats: {
       hp: 78,
       attack: 65,
       defense: 68,
       spAttack: 112,
       spDefense: 154,
-      speed: 75
+      speed: 75,
     },
     height: "1.1",
     weight: "10.0",
-    abilities: [
-      "FLOWERVEIL"
-    ],
-    hiddenAbilities: [
-      "SYMBIOSIS"
-    ],
+    abilities: ["FLOWERVEIL"],
+    hiddenAbilities: ["SYMBIOSIS"],
     category: "Garden",
     moves: [
       "DISARMINGVOICE",
@@ -29365,7 +27121,7 @@ export const pokemonForms: PokemonForm[] =
       "PETALDANCE",
       "SOLARBEAM",
       "SYNTHESIS",
-      "MOONBLAST"
+      "MOONBLAST",
     ],
     tutorMoves: [
       "AFTERYOU",
@@ -29433,46 +27189,37 @@ export const pokemonForms: PokemonForm[] =
       "TERABLAST",
       "TRAILBLAZE",
       "TRICK",
-      "WORRYSEED"
+      "WORRYSEED",
     ],
-    eggMoves: [
-
-    ],
+    eggMoves: [],
     suffix: "normal",
-    evolution: [
-
-    ],
+    evolution: [],
     color: "White",
     formNumber: 2,
     formName: "Orange Flower",
     baseId: "FLORGES",
-    megaStone: null
+    megaStone: null,
   },
   {
     id: "FLORGES",
     name: "Florges",
-    types: [
-      "FAIRY"
-    ],
+    types: ["FAIRY"],
     sprite: "/Front/FLORGES_3.png",
     backSprite: "/spritesBack/FLORGES_3.png",
-    description: "It claims exquisite flower gardens as its territory, and it obtains power from basking in the energy emitted by flowering plants.",
+    description:
+      "It claims exquisite flower gardens as its territory, and it obtains power from basking in the energy emitted by flowering plants.",
     stats: {
       hp: 78,
       attack: 65,
       defense: 68,
       spAttack: 112,
       spDefense: 154,
-      speed: 75
+      speed: 75,
     },
     height: "1.1",
     weight: "10.0",
-    abilities: [
-      "FLOWERVEIL"
-    ],
-    hiddenAbilities: [
-      "SYMBIOSIS"
-    ],
+    abilities: ["FLOWERVEIL"],
+    hiddenAbilities: ["SYMBIOSIS"],
     category: "Garden",
     moves: [
       "DISARMINGVOICE",
@@ -29486,7 +27233,7 @@ export const pokemonForms: PokemonForm[] =
       "PETALDANCE",
       "SOLARBEAM",
       "SYNTHESIS",
-      "MOONBLAST"
+      "MOONBLAST",
     ],
     tutorMoves: [
       "AFTERYOU",
@@ -29554,46 +27301,37 @@ export const pokemonForms: PokemonForm[] =
       "TERABLAST",
       "TRAILBLAZE",
       "TRICK",
-      "WORRYSEED"
+      "WORRYSEED",
     ],
-    eggMoves: [
-
-    ],
+    eggMoves: [],
     suffix: "normal",
-    evolution: [
-
-    ],
+    evolution: [],
     color: "White",
     formNumber: 3,
     formName: "Blue Flower",
     baseId: "FLORGES",
-    megaStone: null
+    megaStone: null,
   },
   {
     id: "FLORGES",
     name: "Florges",
-    types: [
-      "FAIRY"
-    ],
+    types: ["FAIRY"],
     sprite: "/Front/FLORGES_4.png",
     backSprite: "/spritesBack/FLORGES_4.png",
-    description: "It claims exquisite flower gardens as its territory, and it obtains power from basking in the energy emitted by flowering plants.",
+    description:
+      "It claims exquisite flower gardens as its territory, and it obtains power from basking in the energy emitted by flowering plants.",
     stats: {
       hp: 78,
       attack: 65,
       defense: 68,
       spAttack: 112,
       spDefense: 154,
-      speed: 75
+      speed: 75,
     },
     height: "1.1",
     weight: "10.0",
-    abilities: [
-      "FLOWERVEIL"
-    ],
-    hiddenAbilities: [
-      "SYMBIOSIS"
-    ],
+    abilities: ["FLOWERVEIL"],
+    hiddenAbilities: ["SYMBIOSIS"],
     category: "Garden",
     moves: [
       "DISARMINGVOICE",
@@ -29607,7 +27345,7 @@ export const pokemonForms: PokemonForm[] =
       "PETALDANCE",
       "SOLARBEAM",
       "SYNTHESIS",
-      "MOONBLAST"
+      "MOONBLAST",
     ],
     tutorMoves: [
       "AFTERYOU",
@@ -29675,46 +27413,37 @@ export const pokemonForms: PokemonForm[] =
       "TERABLAST",
       "TRAILBLAZE",
       "TRICK",
-      "WORRYSEED"
+      "WORRYSEED",
     ],
-    eggMoves: [
-
-    ],
+    eggMoves: [],
     suffix: "normal",
-    evolution: [
-
-    ],
+    evolution: [],
     color: "White",
     formNumber: 4,
     formName: "White Flower",
     baseId: "FLORGES",
-    megaStone: null
+    megaStone: null,
   },
   {
     id: "FURFROU",
     name: "Furfrou",
-    types: [
-      "NORMAL"
-    ],
+    types: ["NORMAL"],
     sprite: "/Front/FURFROU_1.png",
     backSprite: "/spritesBack/FURFROU_1.png",
-    description: "Trimming its fluffy fur not only makes it more elegant but also increases the swiftness of its movements.",
+    description:
+      "Trimming its fluffy fur not only makes it more elegant but also increases the swiftness of its movements.",
     stats: {
       hp: 75,
       attack: 80,
       defense: 60,
       spAttack: 65,
       spDefense: 90,
-      speed: 102
+      speed: 102,
     },
     height: "1.2",
     weight: "28.0",
-    abilities: [
-      "FURCOAT"
-    ],
-    hiddenAbilities: [
-
-    ],
+    abilities: ["FURCOAT"],
+    hiddenAbilities: [],
     category: "Poodle",
     moves: [
       "TACKLE",
@@ -29729,7 +27458,7 @@ export const pokemonForms: PokemonForm[] =
       "TAKEDOWN",
       "CHARM",
       "SUCKERPUNCH",
-      "COTTONGUARD"
+      "COTTONGUARD",
     ],
     tutorMoves: [
       "ATTRACT",
@@ -29777,50 +27506,37 @@ export const pokemonForms: PokemonForm[] =
       "UTURN",
       "WILDCHARGE",
       "WORKUP",
-      "ZENHEADBUTT"
+      "ZENHEADBUTT",
     ],
-    eggMoves: [
-      "CAPTIVATE",
-      "MIMIC",
-      "REFRESH",
-      "ROLEPLAY",
-      "WORKUP"
-    ],
+    eggMoves: ["CAPTIVATE", "MIMIC", "REFRESH", "ROLEPLAY", "WORKUP"],
     suffix: "normal",
-    evolution: [
-
-    ],
+    evolution: [],
     color: "White",
     formNumber: 1,
     formName: "Heart Trim",
     baseId: "FURFROU",
-    megaStone: null
+    megaStone: null,
   },
   {
     id: "FURFROU",
     name: "Furfrou",
-    types: [
-      "NORMAL"
-    ],
+    types: ["NORMAL"],
     sprite: "/Front/FURFROU_2.png",
     backSprite: "/spritesBack/FURFROU_2.png",
-    description: "Trimming its fluffy fur not only makes it more elegant but also increases the swiftness of its movements.",
+    description:
+      "Trimming its fluffy fur not only makes it more elegant but also increases the swiftness of its movements.",
     stats: {
       hp: 75,
       attack: 80,
       defense: 60,
       spAttack: 65,
       spDefense: 90,
-      speed: 102
+      speed: 102,
     },
     height: "1.2",
     weight: "28.0",
-    abilities: [
-      "FURCOAT"
-    ],
-    hiddenAbilities: [
-
-    ],
+    abilities: ["FURCOAT"],
+    hiddenAbilities: [],
     category: "Poodle",
     moves: [
       "TACKLE",
@@ -29835,7 +27551,7 @@ export const pokemonForms: PokemonForm[] =
       "TAKEDOWN",
       "CHARM",
       "SUCKERPUNCH",
-      "COTTONGUARD"
+      "COTTONGUARD",
     ],
     tutorMoves: [
       "ATTRACT",
@@ -29883,50 +27599,37 @@ export const pokemonForms: PokemonForm[] =
       "UTURN",
       "WILDCHARGE",
       "WORKUP",
-      "ZENHEADBUTT"
+      "ZENHEADBUTT",
     ],
-    eggMoves: [
-      "CAPTIVATE",
-      "MIMIC",
-      "REFRESH",
-      "ROLEPLAY",
-      "WORKUP"
-    ],
+    eggMoves: ["CAPTIVATE", "MIMIC", "REFRESH", "ROLEPLAY", "WORKUP"],
     suffix: "normal",
-    evolution: [
-
-    ],
+    evolution: [],
     color: "White",
     formNumber: 2,
     formName: "Star Trim",
     baseId: "FURFROU",
-    megaStone: null
+    megaStone: null,
   },
   {
     id: "FURFROU",
     name: "Furfrou",
-    types: [
-      "NORMAL"
-    ],
+    types: ["NORMAL"],
     sprite: "/Front/FURFROU_3.png",
     backSprite: "/spritesBack/FURFROU_3.png",
-    description: "Trimming its fluffy fur not only makes it more elegant but also increases the swiftness of its movements.",
+    description:
+      "Trimming its fluffy fur not only makes it more elegant but also increases the swiftness of its movements.",
     stats: {
       hp: 75,
       attack: 80,
       defense: 60,
       spAttack: 65,
       spDefense: 90,
-      speed: 102
+      speed: 102,
     },
     height: "1.2",
     weight: "28.0",
-    abilities: [
-      "FURCOAT"
-    ],
-    hiddenAbilities: [
-
-    ],
+    abilities: ["FURCOAT"],
+    hiddenAbilities: [],
     category: "Poodle",
     moves: [
       "TACKLE",
@@ -29941,7 +27644,7 @@ export const pokemonForms: PokemonForm[] =
       "TAKEDOWN",
       "CHARM",
       "SUCKERPUNCH",
-      "COTTONGUARD"
+      "COTTONGUARD",
     ],
     tutorMoves: [
       "ATTRACT",
@@ -29989,50 +27692,37 @@ export const pokemonForms: PokemonForm[] =
       "UTURN",
       "WILDCHARGE",
       "WORKUP",
-      "ZENHEADBUTT"
+      "ZENHEADBUTT",
     ],
-    eggMoves: [
-      "CAPTIVATE",
-      "MIMIC",
-      "REFRESH",
-      "ROLEPLAY",
-      "WORKUP"
-    ],
+    eggMoves: ["CAPTIVATE", "MIMIC", "REFRESH", "ROLEPLAY", "WORKUP"],
     suffix: "normal",
-    evolution: [
-
-    ],
+    evolution: [],
     color: "White",
     formNumber: 3,
     formName: "Diamond Trim",
     baseId: "FURFROU",
-    megaStone: null
+    megaStone: null,
   },
   {
     id: "FURFROU",
     name: "Furfrou",
-    types: [
-      "NORMAL"
-    ],
+    types: ["NORMAL"],
     sprite: "/Front/FURFROU_4.png",
     backSprite: "/spritesBack/FURFROU_4.png",
-    description: "Trimming its fluffy fur not only makes it more elegant but also increases the swiftness of its movements.",
+    description:
+      "Trimming its fluffy fur not only makes it more elegant but also increases the swiftness of its movements.",
     stats: {
       hp: 75,
       attack: 80,
       defense: 60,
       spAttack: 65,
       spDefense: 90,
-      speed: 102
+      speed: 102,
     },
     height: "1.2",
     weight: "28.0",
-    abilities: [
-      "FURCOAT"
-    ],
-    hiddenAbilities: [
-
-    ],
+    abilities: ["FURCOAT"],
+    hiddenAbilities: [],
     category: "Poodle",
     moves: [
       "TACKLE",
@@ -30047,7 +27737,7 @@ export const pokemonForms: PokemonForm[] =
       "TAKEDOWN",
       "CHARM",
       "SUCKERPUNCH",
-      "COTTONGUARD"
+      "COTTONGUARD",
     ],
     tutorMoves: [
       "ATTRACT",
@@ -30095,50 +27785,37 @@ export const pokemonForms: PokemonForm[] =
       "UTURN",
       "WILDCHARGE",
       "WORKUP",
-      "ZENHEADBUTT"
+      "ZENHEADBUTT",
     ],
-    eggMoves: [
-      "CAPTIVATE",
-      "MIMIC",
-      "REFRESH",
-      "ROLEPLAY",
-      "WORKUP"
-    ],
+    eggMoves: ["CAPTIVATE", "MIMIC", "REFRESH", "ROLEPLAY", "WORKUP"],
     suffix: "normal",
-    evolution: [
-
-    ],
+    evolution: [],
     color: "White",
     formNumber: 4,
     formName: "Debutante Trim",
     baseId: "FURFROU",
-    megaStone: null
+    megaStone: null,
   },
   {
     id: "FURFROU",
     name: "Furfrou",
-    types: [
-      "NORMAL"
-    ],
+    types: ["NORMAL"],
     sprite: "/Front/FURFROU_5.png",
     backSprite: "/spritesBack/FURFROU_5.png",
-    description: "Trimming its fluffy fur not only makes it more elegant but also increases the swiftness of its movements.",
+    description:
+      "Trimming its fluffy fur not only makes it more elegant but also increases the swiftness of its movements.",
     stats: {
       hp: 75,
       attack: 80,
       defense: 60,
       spAttack: 65,
       spDefense: 90,
-      speed: 102
+      speed: 102,
     },
     height: "1.2",
     weight: "28.0",
-    abilities: [
-      "FURCOAT"
-    ],
-    hiddenAbilities: [
-
-    ],
+    abilities: ["FURCOAT"],
+    hiddenAbilities: [],
     category: "Poodle",
     moves: [
       "TACKLE",
@@ -30153,7 +27830,7 @@ export const pokemonForms: PokemonForm[] =
       "TAKEDOWN",
       "CHARM",
       "SUCKERPUNCH",
-      "COTTONGUARD"
+      "COTTONGUARD",
     ],
     tutorMoves: [
       "ATTRACT",
@@ -30201,50 +27878,37 @@ export const pokemonForms: PokemonForm[] =
       "UTURN",
       "WILDCHARGE",
       "WORKUP",
-      "ZENHEADBUTT"
+      "ZENHEADBUTT",
     ],
-    eggMoves: [
-      "CAPTIVATE",
-      "MIMIC",
-      "REFRESH",
-      "ROLEPLAY",
-      "WORKUP"
-    ],
+    eggMoves: ["CAPTIVATE", "MIMIC", "REFRESH", "ROLEPLAY", "WORKUP"],
     suffix: "normal",
-    evolution: [
-
-    ],
+    evolution: [],
     color: "White",
     formNumber: 5,
     formName: "Matron Trim",
     baseId: "FURFROU",
-    megaStone: null
+    megaStone: null,
   },
   {
     id: "FURFROU",
     name: "Furfrou",
-    types: [
-      "NORMAL"
-    ],
+    types: ["NORMAL"],
     sprite: "/Front/FURFROU_6.png",
     backSprite: "/spritesBack/FURFROU_6.png",
-    description: "Trimming its fluffy fur not only makes it more elegant but also increases the swiftness of its movements.",
+    description:
+      "Trimming its fluffy fur not only makes it more elegant but also increases the swiftness of its movements.",
     stats: {
       hp: 75,
       attack: 80,
       defense: 60,
       spAttack: 65,
       spDefense: 90,
-      speed: 102
+      speed: 102,
     },
     height: "1.2",
     weight: "28.0",
-    abilities: [
-      "FURCOAT"
-    ],
-    hiddenAbilities: [
-
-    ],
+    abilities: ["FURCOAT"],
+    hiddenAbilities: [],
     category: "Poodle",
     moves: [
       "TACKLE",
@@ -30259,7 +27923,7 @@ export const pokemonForms: PokemonForm[] =
       "TAKEDOWN",
       "CHARM",
       "SUCKERPUNCH",
-      "COTTONGUARD"
+      "COTTONGUARD",
     ],
     tutorMoves: [
       "ATTRACT",
@@ -30307,50 +27971,37 @@ export const pokemonForms: PokemonForm[] =
       "UTURN",
       "WILDCHARGE",
       "WORKUP",
-      "ZENHEADBUTT"
+      "ZENHEADBUTT",
     ],
-    eggMoves: [
-      "CAPTIVATE",
-      "MIMIC",
-      "REFRESH",
-      "ROLEPLAY",
-      "WORKUP"
-    ],
+    eggMoves: ["CAPTIVATE", "MIMIC", "REFRESH", "ROLEPLAY", "WORKUP"],
     suffix: "normal",
-    evolution: [
-
-    ],
+    evolution: [],
     color: "White",
     formNumber: 6,
     formName: "Dandy Trim",
     baseId: "FURFROU",
-    megaStone: null
+    megaStone: null,
   },
   {
     id: "FURFROU",
     name: "Furfrou",
-    types: [
-      "NORMAL"
-    ],
+    types: ["NORMAL"],
     sprite: "/Front/FURFROU_7.png",
     backSprite: "/spritesBack/FURFROU_7.png",
-    description: "Trimming its fluffy fur not only makes it more elegant but also increases the swiftness of its movements.",
+    description:
+      "Trimming its fluffy fur not only makes it more elegant but also increases the swiftness of its movements.",
     stats: {
       hp: 75,
       attack: 80,
       defense: 60,
       spAttack: 65,
       spDefense: 90,
-      speed: 102
+      speed: 102,
     },
     height: "1.2",
     weight: "28.0",
-    abilities: [
-      "FURCOAT"
-    ],
-    hiddenAbilities: [
-
-    ],
+    abilities: ["FURCOAT"],
+    hiddenAbilities: [],
     category: "Poodle",
     moves: [
       "TACKLE",
@@ -30365,7 +28016,7 @@ export const pokemonForms: PokemonForm[] =
       "TAKEDOWN",
       "CHARM",
       "SUCKERPUNCH",
-      "COTTONGUARD"
+      "COTTONGUARD",
     ],
     tutorMoves: [
       "ATTRACT",
@@ -30413,50 +28064,37 @@ export const pokemonForms: PokemonForm[] =
       "UTURN",
       "WILDCHARGE",
       "WORKUP",
-      "ZENHEADBUTT"
+      "ZENHEADBUTT",
     ],
-    eggMoves: [
-      "CAPTIVATE",
-      "MIMIC",
-      "REFRESH",
-      "ROLEPLAY",
-      "WORKUP"
-    ],
+    eggMoves: ["CAPTIVATE", "MIMIC", "REFRESH", "ROLEPLAY", "WORKUP"],
     suffix: "normal",
-    evolution: [
-
-    ],
+    evolution: [],
     color: "White",
     formNumber: 7,
     formName: "La Reine Trim",
     baseId: "FURFROU",
-    megaStone: null
+    megaStone: null,
   },
   {
     id: "FURFROU",
     name: "Furfrou",
-    types: [
-      "NORMAL"
-    ],
+    types: ["NORMAL"],
     sprite: "/Front/FURFROU_8.png",
     backSprite: "/spritesBack/FURFROU_8.png",
-    description: "Trimming its fluffy fur not only makes it more elegant but also increases the swiftness of its movements.",
+    description:
+      "Trimming its fluffy fur not only makes it more elegant but also increases the swiftness of its movements.",
     stats: {
       hp: 75,
       attack: 80,
       defense: 60,
       spAttack: 65,
       spDefense: 90,
-      speed: 102
+      speed: 102,
     },
     height: "1.2",
     weight: "28.0",
-    abilities: [
-      "FURCOAT"
-    ],
-    hiddenAbilities: [
-
-    ],
+    abilities: ["FURCOAT"],
+    hiddenAbilities: [],
     category: "Poodle",
     moves: [
       "TACKLE",
@@ -30471,7 +28109,7 @@ export const pokemonForms: PokemonForm[] =
       "TAKEDOWN",
       "CHARM",
       "SUCKERPUNCH",
-      "COTTONGUARD"
+      "COTTONGUARD",
     ],
     tutorMoves: [
       "ATTRACT",
@@ -30519,50 +28157,37 @@ export const pokemonForms: PokemonForm[] =
       "UTURN",
       "WILDCHARGE",
       "WORKUP",
-      "ZENHEADBUTT"
+      "ZENHEADBUTT",
     ],
-    eggMoves: [
-      "CAPTIVATE",
-      "MIMIC",
-      "REFRESH",
-      "ROLEPLAY",
-      "WORKUP"
-    ],
+    eggMoves: ["CAPTIVATE", "MIMIC", "REFRESH", "ROLEPLAY", "WORKUP"],
     suffix: "normal",
-    evolution: [
-
-    ],
+    evolution: [],
     color: "White",
     formNumber: 8,
     formName: "Kabuki Trim",
     baseId: "FURFROU",
-    megaStone: null
+    megaStone: null,
   },
   {
     id: "FURFROU",
     name: "Furfrou",
-    types: [
-      "NORMAL"
-    ],
+    types: ["NORMAL"],
     sprite: "/Front/FURFROU_9.png",
     backSprite: "/spritesBack/FURFROU_9.png",
-    description: "Trimming its fluffy fur not only makes it more elegant but also increases the swiftness of its movements.",
+    description:
+      "Trimming its fluffy fur not only makes it more elegant but also increases the swiftness of its movements.",
     stats: {
       hp: 75,
       attack: 80,
       defense: 60,
       spAttack: 65,
       spDefense: 90,
-      speed: 102
+      speed: 102,
     },
     height: "1.2",
     weight: "28.0",
-    abilities: [
-      "FURCOAT"
-    ],
-    hiddenAbilities: [
-
-    ],
+    abilities: ["FURCOAT"],
+    hiddenAbilities: [],
     category: "Poodle",
     moves: [
       "TACKLE",
@@ -30577,7 +28202,7 @@ export const pokemonForms: PokemonForm[] =
       "TAKEDOWN",
       "CHARM",
       "SUCKERPUNCH",
-      "COTTONGUARD"
+      "COTTONGUARD",
     ],
     tutorMoves: [
       "ATTRACT",
@@ -30625,51 +28250,37 @@ export const pokemonForms: PokemonForm[] =
       "UTURN",
       "WILDCHARGE",
       "WORKUP",
-      "ZENHEADBUTT"
+      "ZENHEADBUTT",
     ],
-    eggMoves: [
-      "CAPTIVATE",
-      "MIMIC",
-      "REFRESH",
-      "ROLEPLAY",
-      "WORKUP"
-    ],
+    eggMoves: ["CAPTIVATE", "MIMIC", "REFRESH", "ROLEPLAY", "WORKUP"],
     suffix: "normal",
-    evolution: [
-
-    ],
+    evolution: [],
     color: "White",
     formNumber: 9,
     formName: "Pharaoh Trim",
     baseId: "FURFROU",
-    megaStone: null
+    megaStone: null,
   },
   {
     id: "MEOWSTIC",
     name: "Meowstic",
-    types: [
-      "PSYCHIC"
-    ],
+    types: ["PSYCHIC"],
     sprite: "/Front/MEOWSTIC_1.png",
     backSprite: "/spritesBack/MEOWSTIC_1.png",
-    description: "Females are a bit more selfish and aggressive than males. If they don't get what they want, they will torment you with their psychic abilities.",
+    description:
+      "Females are a bit more selfish and aggressive than males. If they don't get what they want, they will torment you with their psychic abilities.",
     stats: {
       hp: 74,
       attack: 48,
       defense: 76,
       spAttack: 83,
       spDefense: 81,
-      speed: 104
+      speed: 104,
     },
     height: "0.6",
     weight: "8.5",
-    abilities: [
-      "KEENEYE",
-      "INFILTRATOR"
-    ],
-    hiddenAbilities: [
-      "COMPETITIVE"
-    ],
+    abilities: ["KEENEYE", "INFILTRATOR"],
+    hiddenAbilities: ["COMPETITIVE"],
     category: "Constraint",
     moves: [
       "MAGICALLEAF",
@@ -30690,7 +28301,7 @@ export const pokemonForms: PokemonForm[] =
       "EXTRASENSORY",
       "SHADOWBALL",
       "PSYCHIC",
-      "FUTURESIGHT"
+      "FUTURESIGHT",
     ],
     tutorMoves: [
       "ALLURINGVOICE",
@@ -30775,47 +28386,37 @@ export const pokemonForms: PokemonForm[] =
       "TRICKROOM",
       "WONDERROOM",
       "WORKUP",
-      "ZENHEADBUTT"
+      "ZENHEADBUTT",
     ],
-    eggMoves: [
-
-    ],
+    eggMoves: [],
     suffix: "normal",
-    evolution: [
-
-    ],
+    evolution: [],
     color: "White",
     formNumber: 1,
     formName: "Female",
     baseId: "MEOWSTIC",
-    megaStone: null
+    megaStone: null,
   },
   {
     id: "AEGISLASH",
     name: "Aegislash",
-    types: [
-      "STEEL",
-      "GHOST"
-    ],
+    types: ["STEEL", "GHOST"],
     sprite: "/Front/AEGISLASH_1.png",
     backSprite: "/spritesBack/AEGISLASH_1.png",
-    description: "Once upon a time, a king with an Aegislash reigned over the land. His Pokémon eventually drained him of life, and his kingdom fell with him.",
+    description:
+      "Once upon a time, a king with an Aegislash reigned over the land. His Pokémon eventually drained him of life, and his kingdom fell with him.",
     stats: {
       hp: 60,
       attack: 140,
       defense: 50,
       spAttack: 140,
       spDefense: 50,
-      speed: 60
+      speed: 60,
     },
     height: "1.7",
     weight: "53.0",
-    abilities: [
-      "STANCECHANGE"
-    ],
-    hiddenAbilities: [
-
-    ],
+    abilities: ["STANCECHANGE"],
+    hiddenAbilities: [],
     category: "Royal Sword",
     moves: [
       "KINGSSHIELD",
@@ -30833,7 +28434,7 @@ export const pokemonForms: PokemonForm[] =
       "TACKLE",
       "FURYCUTTER",
       "SHADOWSNEAK",
-      "AUTOTOMIZE"
+      "AUTOTOMIZE",
     ],
     tutorMoves: [
       "AERIALACE",
@@ -30888,48 +28489,37 @@ export const pokemonForms: PokemonForm[] =
       "SUNNYDAY",
       "SWAGGER",
       "SWORDSDANCE",
-      "TOXIC"
+      "TOXIC",
     ],
-    eggMoves: [
-
-    ],
+    eggMoves: [],
     suffix: "normal",
-    evolution: [
-
-    ],
+    evolution: [],
     color: "Brown",
     formNumber: 1,
     formName: "Blade Forme",
     baseId: "AEGISLASH",
-    megaStone: null
+    megaStone: null,
   },
   {
     id: "SLIGGOO",
     name: "Sliggoo",
-    types: [
-      "STEEL",
-      "DRAGON"
-    ],
+    types: ["STEEL", "DRAGON"],
     sprite: "/Front/SLIGGOO_1.png",
     backSprite: "/spritesBack/SLIGGOO_1.png",
-    description: "A creature given to melancholy. I suspect its metallic shell developed as a result of the mucus on its skin reacting with the iron in Hisui's water.",
+    description:
+      "A creature given to melancholy. I suspect its metallic shell developed as a result of the mucus on its skin reacting with the iron in Hisui's water.",
     stats: {
       hp: 58,
       attack: 75,
       defense: 83,
       spAttack: 83,
       spDefense: 113,
-      speed: 40
+      speed: 40,
     },
     height: "0.7",
     weight: "68.5",
-    abilities: [
-      "SAPSIPPER",
-      "SHELLARMOR"
-    ],
-    hiddenAbilities: [
-      "GOOEY"
-    ],
+    abilities: ["SAPSIPPER", "SHELLARMOR"],
+    hiddenAbilities: ["GOOEY"],
     category: "Snail",
     moves: [
       "SHELTER",
@@ -30945,7 +28535,7 @@ export const pokemonForms: PokemonForm[] =
       "DRAGONPULSE",
       "CURSE",
       "IRONHEAD",
-      "MUDDYWATER"
+      "MUDDYWATER",
     ],
     tutorMoves: [
       "ACIDSPRAY",
@@ -30984,52 +28574,43 @@ export const pokemonForms: PokemonForm[] =
       "TERABLAST",
       "THUNDER",
       "THUNDERBOLT",
-      "WATERPULSE"
+      "WATERPULSE",
     ],
-    eggMoves: [
-
-    ],
+    eggMoves: [],
     suffix: "normal",
     evolution: [
       {
         to: "GOODRA",
         method: "LevelRain",
-        value: "50"
-      }
+        value: "50",
+      },
     ],
     color: "Purple",
     formNumber: 1,
     formName: "Hisuian",
     baseId: "SLIGGOO",
-    megaStone: null
+    megaStone: null,
   },
   {
     id: "GOODRA",
     name: "Goodra",
-    types: [
-      "STEEL",
-      "DRAGON"
-    ],
+    types: ["STEEL", "DRAGON"],
     sprite: "/Front/GOODRA_1.png",
     backSprite: "/spritesBack/GOODRA_1.png",
-    description: "Able to freely control the hardness of its metallic shell. It loathes solitude and is extremely clingy—it will fume and run riot if those dearest to it ever leave its side.",
+    description:
+      "Able to freely control the hardness of its metallic shell. It loathes solitude and is extremely clingy—it will fume and run riot if those dearest to it ever leave its side.",
     stats: {
       hp: 80,
       attack: 100,
       defense: 100,
       spAttack: 110,
       spDefense: 150,
-      speed: 60
+      speed: 60,
     },
     height: "1.7",
     weight: "334.1",
-    abilities: [
-      "SAPSIPPER",
-      "SHELLARMOR"
-    ],
-    hiddenAbilities: [
-      "GOOEY"
-    ],
+    abilities: ["SAPSIPPER", "SHELLARMOR"],
+    hiddenAbilities: ["GOOEY"],
     category: "Shell Bunker",
     moves: [
       "IRONTAIL",
@@ -31050,7 +28631,7 @@ export const pokemonForms: PokemonForm[] =
       "IRONHEAD",
       "BODYSLAM",
       "MUDDYWATER",
-      "HEAVYSLAM"
+      "HEAVYSLAM",
     ],
     tutorMoves: [
       "ACIDSPRAY",
@@ -31109,48 +28690,37 @@ export const pokemonForms: PokemonForm[] =
       "THUNDERBOLT",
       "THUNDERPUNCH",
       "WATERPULSE",
-      "WEATHERBALL"
+      "WEATHERBALL",
     ],
-    eggMoves: [
-
-    ],
+    eggMoves: [],
     suffix: "normal",
-    evolution: [
-
-    ],
+    evolution: [],
     color: "Purple",
     formNumber: 1,
     formName: "Hisuian",
     baseId: "GOODRA",
-    megaStone: null
+    megaStone: null,
   },
   {
     id: "PUMPKABOO",
     name: "Pumpkaboo",
-    types: [
-      "GHOST",
-      "GRASS"
-    ],
+    types: ["GHOST", "GRASS"],
     sprite: "/Front/PUMPKABOO_1.png",
     backSprite: "/spritesBack/PUMPKABOO_1.png",
-    description: "Spirits that wander this world are placed into Pumpkaboo's body. They're then moved on to the afterlife.",
+    description:
+      "Spirits that wander this world are placed into Pumpkaboo's body. They're then moved on to the afterlife.",
     stats: {
       hp: 49,
       attack: 66,
       defense: 70,
       spAttack: 44,
       spDefense: 55,
-      speed: 51
+      speed: 51,
     },
     height: "0.4",
     weight: "5.0",
-    abilities: [
-      "PICKUP",
-      "FRISK"
-    ],
-    hiddenAbilities: [
-      "INSOMNIA"
-    ],
+    abilities: ["PICKUP", "FRISK"],
+    hiddenAbilities: ["INSOMNIA"],
     category: "Pumpkin",
     moves: [
       "TRICKORTREAT",
@@ -31168,7 +28738,7 @@ export const pokemonForms: PokemonForm[] =
       "TRICKORTREAT",
       "SHADOWBALL",
       "TRICK",
-      "PAINSPLIT"
+      "PAINSPLIT",
     ],
     tutorMoves: [
       "ALLYSWITCH",
@@ -31236,50 +28806,37 @@ export const pokemonForms: PokemonForm[] =
       "TRICK",
       "TRICKROOM",
       "WILLOWISP",
-      "WORRYSEED"
+      "WORRYSEED",
     ],
-    eggMoves: [
-      "CURSE",
-      "DESTINYBOND",
-      "DISABLE"
-    ],
+    eggMoves: ["CURSE", "DESTINYBOND", "DISABLE"],
     suffix: "normal",
-    evolution: [
-
-    ],
+    evolution: [],
     color: "Brown",
     formNumber: 1,
     formName: "Average Size",
     baseId: "PUMPKABOO",
-    megaStone: null
+    megaStone: null,
   },
   {
     id: "PUMPKABOO",
     name: "Pumpkaboo",
-    types: [
-      "GHOST",
-      "GRASS"
-    ],
+    types: ["GHOST", "GRASS"],
     sprite: "/Front/PUMPKABOO_2.png",
     backSprite: "/spritesBack/PUMPKABOO_2.png",
-    description: "When taking spirits to the afterlife, large Pumpkaboo prefer the spirits of adults to those of children.",
+    description:
+      "When taking spirits to the afterlife, large Pumpkaboo prefer the spirits of adults to those of children.",
     stats: {
       hp: 54,
       attack: 66,
       defense: 70,
       spAttack: 44,
       spDefense: 55,
-      speed: 46
+      speed: 46,
     },
     height: "0.5",
     weight: "7.5",
-    abilities: [
-      "PICKUP",
-      "FRISK"
-    ],
-    hiddenAbilities: [
-
-    ],
+    abilities: ["PICKUP", "FRISK"],
+    hiddenAbilities: [],
     category: "Pumpkin",
     moves: [
       "TRICKORTREAT",
@@ -31297,7 +28854,7 @@ export const pokemonForms: PokemonForm[] =
       "TRICKORTREAT",
       "SHADOWBALL",
       "TRICK",
-      "PAINSPLIT"
+      "PAINSPLIT",
     ],
     tutorMoves: [
       "ALLYSWITCH",
@@ -31365,50 +28922,37 @@ export const pokemonForms: PokemonForm[] =
       "TRICK",
       "TRICKROOM",
       "WILLOWISP",
-      "WORRYSEED"
+      "WORRYSEED",
     ],
-    eggMoves: [
-      "CURSE",
-      "DESTINYBOND",
-      "DISABLE"
-    ],
+    eggMoves: ["CURSE", "DESTINYBOND", "DISABLE"],
     suffix: "normal",
-    evolution: [
-
-    ],
+    evolution: [],
     color: "Brown",
     formNumber: 2,
     formName: "Large Size",
     baseId: "PUMPKABOO",
-    megaStone: null
+    megaStone: null,
   },
   {
     id: "PUMPKABOO",
     name: "Pumpkaboo",
-    types: [
-      "GHOST",
-      "GRASS"
-    ],
+    types: ["GHOST", "GRASS"],
     sprite: "/Front/PUMPKABOO_3.png",
     backSprite: "/spritesBack/PUMPKABOO_3.png",
-    description: "Massive Pumpkaboo are said to be the product of areas where a great number of lost souls lingered.",
+    description:
+      "Massive Pumpkaboo are said to be the product of areas where a great number of lost souls lingered.",
     stats: {
       hp: 59,
       attack: 66,
       defense: 70,
       spAttack: 44,
       spDefense: 55,
-      speed: 41
+      speed: 41,
     },
     height: "0.8",
     weight: "15.0",
-    abilities: [
-      "PICKUP",
-      "FRISK"
-    ],
-    hiddenAbilities: [
-      "INSOMNIA"
-    ],
+    abilities: ["PICKUP", "FRISK"],
+    hiddenAbilities: ["INSOMNIA"],
     category: "Pumpkin",
     moves: [
       "TRICKORTREAT",
@@ -31426,7 +28970,7 @@ export const pokemonForms: PokemonForm[] =
       "TRICKORTREAT",
       "SHADOWBALL",
       "TRICK",
-      "PAINSPLIT"
+      "PAINSPLIT",
     ],
     tutorMoves: [
       "ALLYSWITCH",
@@ -31494,50 +29038,37 @@ export const pokemonForms: PokemonForm[] =
       "TRICK",
       "TRICKROOM",
       "WILLOWISP",
-      "WORRYSEED"
+      "WORRYSEED",
     ],
-    eggMoves: [
-      "CURSE",
-      "DESTINYBOND",
-      "DISABLE"
-    ],
+    eggMoves: ["CURSE", "DESTINYBOND", "DISABLE"],
     suffix: "normal",
-    evolution: [
-
-    ],
+    evolution: [],
     color: "Brown",
     formNumber: 3,
     formName: "Super Size",
     baseId: "PUMPKABOO",
-    megaStone: null
+    megaStone: null,
   },
   {
     id: "GOURGEIST",
     name: "Gourgeist",
-    types: [
-      "GHOST",
-      "GRASS"
-    ],
+    types: ["GHOST", "GRASS"],
     sprite: "/Front/GOURGEIST_1.png",
     backSprite: "/spritesBack/GOURGEIST_1.png",
-    description: "Eerie cries emanate from its body in the dead of night. The sounds are said to be the wails of spirits who are suffering in the afterlife.",
+    description:
+      "Eerie cries emanate from its body in the dead of night. The sounds are said to be the wails of spirits who are suffering in the afterlife.",
     stats: {
       hp: 65,
       attack: 90,
       defense: 122,
       spAttack: 58,
       spDefense: 75,
-      speed: 84
+      speed: 84,
     },
     height: "0.9",
     weight: "12.5",
-    abilities: [
-      "PICKUP",
-      "FRISK"
-    ],
-    hiddenAbilities: [
-      "INSOMNIA"
-    ],
+    abilities: ["PICKUP", "FRISK"],
+    hiddenAbilities: ["INSOMNIA"],
     category: "Pumpkin",
     moves: [
       "EXPLOSION",
@@ -31558,7 +29089,7 @@ export const pokemonForms: PokemonForm[] =
       "SHADOWBALL",
       "TRICK",
       "PAINSPLIT",
-      "PHANTOMFORCE"
+      "PHANTOMFORCE",
     ],
     tutorMoves: [
       "ALLYSWITCH",
@@ -31633,48 +29164,37 @@ export const pokemonForms: PokemonForm[] =
       "TRICK",
       "TRICKROOM",
       "WILLOWISP",
-      "WORRYSEED"
+      "WORRYSEED",
     ],
-    eggMoves: [
-
-    ],
+    eggMoves: [],
     suffix: "normal",
-    evolution: [
-
-    ],
+    evolution: [],
     color: "Brown",
     formNumber: 1,
     formName: "Average Size",
     baseId: "GOURGEIST",
-    megaStone: null
+    megaStone: null,
   },
   {
     id: "GOURGEIST",
     name: "Gourgeist",
-    types: [
-      "GHOST",
-      "GRASS"
-    ],
+    types: ["GHOST", "GRASS"],
     sprite: "/Front/GOURGEIST_2.png",
     backSprite: "/spritesBack/GOURGEIST_2.png",
-    description: "Large Gourgeist put on the guise of adults, taking the hands of children to lead them to the afterlife.",
+    description:
+      "Large Gourgeist put on the guise of adults, taking the hands of children to lead them to the afterlife.",
     stats: {
       hp: 75,
       attack: 95,
       defense: 122,
       spAttack: 58,
       spDefense: 75,
-      speed: 69
+      speed: 69,
     },
     height: "1.1",
     weight: "14.0",
-    abilities: [
-      "PICKUP",
-      "FRISK"
-    ],
-    hiddenAbilities: [
-
-    ],
+    abilities: ["PICKUP", "FRISK"],
+    hiddenAbilities: [],
     category: "Pumpkin",
     moves: [
       "EXPLOSION",
@@ -31695,7 +29215,7 @@ export const pokemonForms: PokemonForm[] =
       "SHADOWBALL",
       "TRICK",
       "PAINSPLIT",
-      "PHANTOMFORCE"
+      "PHANTOMFORCE",
     ],
     tutorMoves: [
       "ALLYSWITCH",
@@ -31770,48 +29290,37 @@ export const pokemonForms: PokemonForm[] =
       "TRICK",
       "TRICKROOM",
       "WILLOWISP",
-      "WORRYSEED"
+      "WORRYSEED",
     ],
-    eggMoves: [
-
-    ],
+    eggMoves: [],
     suffix: "normal",
-    evolution: [
-
-    ],
+    evolution: [],
     color: "Brown",
     formNumber: 2,
     formName: "Large Size",
     baseId: "GOURGEIST",
-    megaStone: null
+    megaStone: null,
   },
   {
     id: "GOURGEIST",
     name: "Gourgeist",
-    types: [
-      "GHOST",
-      "GRASS"
-    ],
+    types: ["GHOST", "GRASS"],
     sprite: "/Front/GOURGEIST_3.png",
     backSprite: "/spritesBack/GOURGEIST_3.png",
-    description: "Supersized Gourgeist aren't picky. They will forcefully drag anyone off to the afterlife.",
+    description:
+      "Supersized Gourgeist aren't picky. They will forcefully drag anyone off to the afterlife.",
     stats: {
       hp: 85,
       attack: 100,
       defense: 122,
       spAttack: 58,
       spDefense: 75,
-      speed: 54
+      speed: 54,
     },
     height: "1.7",
     weight: "39.0",
-    abilities: [
-      "PICKUP",
-      "FRISK"
-    ],
-    hiddenAbilities: [
-      "INSOMNIA"
-    ],
+    abilities: ["PICKUP", "FRISK"],
+    hiddenAbilities: ["INSOMNIA"],
     category: "Pumpkin",
     moves: [
       "EXPLOSION",
@@ -31832,7 +29341,7 @@ export const pokemonForms: PokemonForm[] =
       "SHADOWBALL",
       "TRICK",
       "PAINSPLIT",
-      "PHANTOMFORCE"
+      "PHANTOMFORCE",
     ],
     tutorMoves: [
       "ALLYSWITCH",
@@ -31907,48 +29416,37 @@ export const pokemonForms: PokemonForm[] =
       "TRICK",
       "TRICKROOM",
       "WILLOWISP",
-      "WORRYSEED"
+      "WORRYSEED",
     ],
-    eggMoves: [
-
-    ],
+    eggMoves: [],
     suffix: "normal",
-    evolution: [
-
-    ],
+    evolution: [],
     color: "Brown",
     formNumber: 3,
     formName: "Super Size",
     baseId: "GOURGEIST",
-    megaStone: null
+    megaStone: null,
   },
   {
     id: "AVALUGG",
     name: "Avalugg",
-    types: [
-      "ICE",
-      "ROCK"
-    ],
+    types: ["ICE", "ROCK"],
     sprite: "/Front/AVALUGG_1.png",
     backSprite: "/spritesBack/AVALUGG_1.png",
-    description: "The armor of ice covering its lower jaw puts steel to shame and can shatter rocks with ease. This Pokémon barrels along steep mountain paths, cleaving through the deep snow.",
+    description:
+      "The armor of ice covering its lower jaw puts steel to shame and can shatter rocks with ease. This Pokémon barrels along steep mountain paths, cleaving through the deep snow.",
     stats: {
       hp: 95,
       attack: 127,
       defense: 184,
       spAttack: 34,
       spDefense: 36,
-      speed: 38
+      speed: 38,
     },
     height: "1.4",
     weight: "262.4",
-    abilities: [
-      "STRONGJAW",
-      "ICEBODY"
-    ],
-    hiddenAbilities: [
-      "STURDY"
-    ],
+    abilities: ["STRONGJAW", "ICEBODY"],
+    hiddenAbilities: ["STURDY"],
     category: "Iceberg",
     moves: [
       "ROCKSLIDE",
@@ -31970,7 +29468,7 @@ export const pokemonForms: PokemonForm[] =
       "BLIZZARD",
       "DOUBLEEDGE",
       "STONEEDGE",
-      "MOUNTAINGALE"
+      "MOUNTAINGALE",
     ],
     tutorMoves: [
       "AVALANCHE",
@@ -32016,46 +29514,37 @@ export const pokemonForms: PokemonForm[] =
       "STONEEDGE",
       "SUBSTITUTE",
       "TAKEDOWN",
-      "TERABLAST"
+      "TERABLAST",
     ],
-    eggMoves: [
-
-    ],
+    eggMoves: [],
     suffix: "normal",
-    evolution: [
-
-    ],
+    evolution: [],
     color: "Blue",
     formNumber: 1,
     formName: "Hisuian",
     baseId: "AVALUGG",
-    megaStone: null
+    megaStone: null,
   },
   {
     id: "XERNEAS",
     name: "Xerneas",
-    types: [
-      "FAIRY"
-    ],
+    types: ["FAIRY"],
     sprite: "/Front/XERNEAS_1.png",
     backSprite: "/spritesBack/XERNEAS_1.png",
-    description: "Legends say it can share eternal life. It slept for a thousand years in the form of a tree before its revival.",
+    description:
+      "Legends say it can share eternal life. It slept for a thousand years in the form of a tree before its revival.",
     stats: {
       hp: 126,
       attack: 131,
       defense: 95,
       spAttack: 131,
       spDefense: 98,
-      speed: 99
+      speed: 99,
     },
     height: "3.0",
     weight: "215.0",
-    abilities: [
-      "FAIRYAURA"
-    ],
-    hiddenAbilities: [
-
-    ],
+    abilities: ["FAIRYAURA"],
+    hiddenAbilities: [],
     category: "Life",
     moves: [
       "TACKLE",
@@ -32076,7 +29565,7 @@ export const pokemonForms: PokemonForm[] =
       "MEGAHORN",
       "CLOSECOMBAT",
       "OUTRAGE",
-      "GIGAIMPACT"
+      "GIGAIMPACT",
     ],
     tutorMoves: [
       "BLOCK",
@@ -32139,48 +29628,37 @@ export const pokemonForms: PokemonForm[] =
       "THUNDERWAVE",
       "TOXIC",
       "WONDERROOM",
-      "ZENHEADBUTT"
+      "ZENHEADBUTT",
     ],
-    eggMoves: [
-
-    ],
+    eggMoves: [],
     suffix: "normal",
-    evolution: [
-
-    ],
+    evolution: [],
     color: "Blue",
     formNumber: 1,
     formName: "Active Mode",
     baseId: "XERNEAS",
-    megaStone: null
+    megaStone: null,
   },
   {
     id: "ZYGARDE",
     name: "Zygarde",
-    types: [
-      "DRAGON",
-      "GROUND"
-    ],
+    types: ["DRAGON", "GROUND"],
     sprite: "/Front/ZYGARDE_1.png",
     backSprite: "/spritesBack/ZYGARDE_1.png",
-    description: "This is Zygarde when about 10% of its pieces have been assembled. It leaps at its opponent's chest and sinks its sharp fangs into them.",
+    description:
+      "This is Zygarde when about 10% of its pieces have been assembled. It leaps at its opponent's chest and sinks its sharp fangs into them.",
     stats: {
       hp: 54,
       attack: 100,
       defense: 71,
       spAttack: 61,
       spDefense: 85,
-      speed: 115
+      speed: 115,
     },
     height: "1.2",
     weight: "33.5",
-    abilities: [
-      "AURABREAK",
-      "POWERCONSTRUCT"
-    ],
-    hiddenAbilities: [
-
-    ],
+    abilities: ["AURABREAK", "POWERCONSTRUCT"],
+    hiddenAbilities: [],
     category: "Order",
     moves: [
       "THOUSANDARROWS",
@@ -32200,7 +29678,7 @@ export const pokemonForms: PokemonForm[] =
       "SANDSTORM",
       "COIL",
       "EARTHQUAKE",
-      "OUTRAGE"
+      "OUTRAGE",
     ],
     tutorMoves: [
       "BIND",
@@ -32263,47 +29741,37 @@ export const pokemonForms: PokemonForm[] =
       "SWAGGER",
       "SWIFT",
       "TOXIC",
-      "ZENHEADBUTT"
+      "ZENHEADBUTT",
     ],
-    eggMoves: [
-
-    ],
+    eggMoves: [],
     suffix: "normal",
-    evolution: [
-
-    ],
+    evolution: [],
     color: "Black",
     formNumber: 1,
     formName: "10% Forme",
     baseId: "ZYGARDE",
-    megaStone: null
+    megaStone: null,
   },
   {
     id: "ZYGARDE",
     name: "Zygarde",
-    types: [
-      "DRAGON",
-      "GROUND"
-    ],
+    types: ["DRAGON", "GROUND"],
     sprite: "/Front/ZYGARDE_2.png",
     backSprite: "/spritesBack/ZYGARDE_2.png",
-    description: "This is Zygarde's perfected form. From the orifice on its chest, it radiates high-powered energy that eliminates everything.",
+    description:
+      "This is Zygarde's perfected form. From the orifice on its chest, it radiates high-powered energy that eliminates everything.",
     stats: {
       hp: 216,
       attack: 100,
       defense: 121,
       spAttack: 91,
       spDefense: 95,
-      speed: 85
+      speed: 85,
     },
     height: "4.5",
     weight: "610.0",
-    abilities: [
-      "POWERCONSTRUCT"
-    ],
-    hiddenAbilities: [
-      "POWERCONSTRUCT"
-    ],
+    abilities: ["POWERCONSTRUCT"],
+    hiddenAbilities: ["POWERCONSTRUCT"],
     category: "Order",
     moves: [
       "THOUSANDARROWS",
@@ -32323,7 +29791,7 @@ export const pokemonForms: PokemonForm[] =
       "SANDSTORM",
       "COIL",
       "EARTHQUAKE",
-      "OUTRAGE"
+      "OUTRAGE",
     ],
     tutorMoves: [
       "BIND",
@@ -32386,47 +29854,37 @@ export const pokemonForms: PokemonForm[] =
       "SWAGGER",
       "SWIFT",
       "TOXIC",
-      "ZENHEADBUTT"
+      "ZENHEADBUTT",
     ],
-    eggMoves: [
-
-    ],
+    eggMoves: [],
     suffix: "normal",
-    evolution: [
-
-    ],
+    evolution: [],
     color: "Black",
     formNumber: 2,
     formName: "Complete Forme",
     baseId: "ZYGARDE",
-    megaStone: null
+    megaStone: null,
   },
   {
     id: "ZYGARDE",
     name: "Zygarde",
-    types: [
-      "DRAGON",
-      "GROUND"
-    ],
+    types: ["DRAGON", "GROUND"],
     sprite: "/Front/ZYGARDE_3.png",
     backSprite: "/spritesBack/ZYGARDE_3.png",
-    description: "It's thought to be monitoring the ecosystem. There are rumors that even greater power lies hidden within it.",
+    description:
+      "It's thought to be monitoring the ecosystem. There are rumors that even greater power lies hidden within it.",
     stats: {
       hp: 216,
       attack: 100,
       defense: 121,
       spAttack: 91,
       spDefense: 95,
-      speed: 85
+      speed: 85,
     },
     height: "4.5",
     weight: "610.0",
-    abilities: [
-      "POWERCONSTRUCT"
-    ],
-    hiddenAbilities: [
-      "POWERCONSTRUCT"
-    ],
+    abilities: ["POWERCONSTRUCT"],
+    hiddenAbilities: ["POWERCONSTRUCT"],
     category: "Order",
     moves: [
       "THOUSANDARROWS",
@@ -32446,7 +29904,7 @@ export const pokemonForms: PokemonForm[] =
       "SANDSTORM",
       "COIL",
       "EARTHQUAKE",
-      "OUTRAGE"
+      "OUTRAGE",
     ],
     tutorMoves: [
       "BIND",
@@ -32509,47 +29967,37 @@ export const pokemonForms: PokemonForm[] =
       "SWAGGER",
       "SWIFT",
       "TOXIC",
-      "ZENHEADBUTT"
+      "ZENHEADBUTT",
     ],
-    eggMoves: [
-
-    ],
+    eggMoves: [],
     suffix: "normal",
-    evolution: [
-
-    ],
+    evolution: [],
     color: "Black",
     formNumber: 3,
     formName: "",
     baseId: "ZYGARDE",
-    megaStone: null
+    megaStone: null,
   },
   {
     id: "DIANCIE",
     name: "Diancie",
-    types: [
-      "ROCK",
-      "FAIRY"
-    ],
+    types: ["ROCK", "FAIRY"],
     sprite: "/Front/DIANCIE_1.png",
     backSprite: "/spritesBack/DIANCIE_1.png",
-    description: "A sudden transformation of Carbink, its pink, glimmering body is said to be the loveliest sight in the whole world.",
+    description:
+      "A sudden transformation of Carbink, its pink, glimmering body is said to be the loveliest sight in the whole world.",
     stats: {
       hp: 50,
       attack: 160,
       defense: 110,
       spAttack: 160,
       spDefense: 110,
-      speed: 110
+      speed: 110,
     },
     height: "1.1",
     weight: "27.8",
-    abilities: [
-      "MAGICBOUNCE"
-    ],
-    hiddenAbilities: [
-      "MAGICBOUNCE"
-    ],
+    abilities: ["MAGICBOUNCE"],
+    hiddenAbilities: ["MAGICBOUNCE"],
     category: "Jewel",
     moves: [
       "DIAMONDSTORM",
@@ -32566,7 +30014,7 @@ export const pokemonForms: PokemonForm[] =
       "POWERGEM",
       "STEALTHROCK",
       "MOONBLAST",
-      "STONEEDGE"
+      "STONEEDGE",
     ],
     tutorMoves: [
       "AFTERYOU",
@@ -32650,47 +30098,37 @@ export const pokemonForms: PokemonForm[] =
       "TERABLAST",
       "TERRAINPULSE",
       "TRICKROOM",
-      "WONDERROOM"
+      "WONDERROOM",
     ],
-    eggMoves: [
-
-    ],
+    eggMoves: [],
     suffix: "normal",
-    evolution: [
-
-    ],
+    evolution: [],
     color: "Pink",
     formNumber: 1,
     formName: "Mega Diancie",
     baseId: "DIANCIE",
-    megaStone: "DIANCITE"
+    megaStone: "DIANCITE",
   },
   {
     id: "HOOPA",
     name: "Hoopa",
-    types: [
-      "PSYCHIC",
-      "DARK"
-    ],
+    types: ["PSYCHIC", "DARK"],
     sprite: "/Front/HOOPA_1.png",
     backSprite: "/spritesBack/HOOPA_1.png",
-    description: "This troublemaker sends anything and everything to faraway places using its loop, which can warp space.",
+    description:
+      "This troublemaker sends anything and everything to faraway places using its loop, which can warp space.",
     stats: {
       hp: 80,
       attack: 160,
       defense: 60,
       spAttack: 170,
       spDefense: 130,
-      speed: 80
+      speed: 80,
     },
     height: "6.5",
     weight: "490.0",
-    abilities: [
-      "MAGICIAN"
-    ],
-    hiddenAbilities: [
-
-    ],
+    abilities: ["MAGICIAN"],
+    hiddenAbilities: [],
     category: "Mischief",
     moves: [
       "DESTINYBOND",
@@ -32708,7 +30146,7 @@ export const pokemonForms: PokemonForm[] =
       "WONDERROOM",
       "DARKPULSE",
       "PSYCHIC",
-      "HYPERSPACEFURY"
+      "HYPERSPACEFURY",
     ],
     tutorMoves: [
       "ALLYSWITCH",
@@ -32799,47 +30237,37 @@ export const pokemonForms: PokemonForm[] =
       "TRICK",
       "TRICKROOM",
       "WONDERROOM",
-      "ZENHEADBUTT"
+      "ZENHEADBUTT",
     ],
-    eggMoves: [
-
-    ],
+    eggMoves: [],
     suffix: "normal",
-    evolution: [
-
-    ],
+    evolution: [],
     color: "Purple",
     formNumber: 1,
     formName: "Hoopa Unbound",
     baseId: "HOOPA",
-    megaStone: null
+    megaStone: null,
   },
   {
     id: "DECIDUEYE",
     name: "Decidueye",
-    types: [
-      "GRASS",
-      "FIGHTING"
-    ],
+    types: ["GRASS", "FIGHTING"],
     sprite: "/Front/DECIDUEYE_1.png",
     backSprite: "/spritesBack/DECIDUEYE_1.png",
-    description: "The air stored inside the rachises of Decidueye's feathers insulates the Pokémon against Hisui's extreme cold. This is firm proof that evolution can be influenced by environment.",
+    description:
+      "The air stored inside the rachises of Decidueye's feathers insulates the Pokémon against Hisui's extreme cold. This is firm proof that evolution can be influenced by environment.",
     stats: {
       hp: 88,
       attack: 112,
       defense: 80,
       spAttack: 95,
       spDefense: 95,
-      speed: 60
+      speed: 60,
     },
     height: "1.6",
     weight: "37.0",
-    abilities: [
-      "OVERGROW"
-    ],
-    hiddenAbilities: [
-      "SCRAPPY"
-    ],
+    abilities: ["OVERGROW"],
+    hiddenAbilities: ["SCRAPPY"],
     category: "Arrow Quill",
     moves: [
       "TRIPLEARROWS",
@@ -32857,7 +30285,7 @@ export const pokemonForms: PokemonForm[] =
       "SUCKERPUNCH",
       "LEAFBLADE",
       "FEATHERDANCE",
-      "BRAVEBIRD"
+      "BRAVEBIRD",
     ],
     tutorMoves: [
       "AERIALACE",
@@ -32919,47 +30347,37 @@ export const pokemonForms: PokemonForm[] =
       "TERABLAST",
       "TRAILBLAZE",
       "UPPERHAND",
-      "UTURN"
+      "UTURN",
     ],
-    eggMoves: [
-
-    ],
+    eggMoves: [],
     suffix: "normal",
-    evolution: [
-
-    ],
+    evolution: [],
     color: "Brown",
     formNumber: 1,
     formName: "Hisuian",
     baseId: "DECIDUEYE",
-    megaStone: null
+    megaStone: null,
   },
   {
     id: "ORICORIO",
     name: "Oricorio",
-    types: [
-      "ELECTRIC",
-      "FLYING"
-    ],
+    types: ["ELECTRIC", "FLYING"],
     sprite: "/Front/ORICORIO_1.png",
     backSprite: "/spritesBack/ORICORIO_1.png",
-    description: "It creates an electric charge by rubbing its feathers together. It dances over to its enemies and delivers shocking electrical punches.",
+    description:
+      "It creates an electric charge by rubbing its feathers together. It dances over to its enemies and delivers shocking electrical punches.",
     stats: {
       hp: 75,
       attack: 70,
       defense: 70,
       spAttack: 98,
       spDefense: 70,
-      speed: 93
+      speed: 93,
     },
     height: "0.6",
     weight: "3.4",
-    abilities: [
-      "DANCER"
-    ],
-    hiddenAbilities: [
-
-    ],
+    abilities: ["DANCER"],
+    hiddenAbilities: [],
     category: "Dancing",
     moves: [
       "POUND",
@@ -32976,7 +30394,7 @@ export const pokemonForms: PokemonForm[] =
       "AIRSLASH",
       "REVELATIONDANCE",
       "AGILITY",
-      "HURRICANE"
+      "HURRICANE",
     ],
     tutorMoves: [
       "ACROBATICS",
@@ -33035,7 +30453,7 @@ export const pokemonForms: PokemonForm[] =
       "TERABLAST",
       "TRAILBLAZE",
       "UTURN",
-      "WORKUP"
+      "WORKUP",
     ],
     eggMoves: [
       "ATTRACT",
@@ -33044,44 +30462,36 @@ export const pokemonForms: PokemonForm[] =
       "PLUCK",
       "QUIVERDANCE",
       "SAFEGUARD",
-      "TAILWIND"
+      "TAILWIND",
     ],
     suffix: "normal",
-    evolution: [
-
-    ],
+    evolution: [],
     color: "Yellow",
     formNumber: 1,
     formName: "Pom-Pom Style",
     baseId: "ORICORIO",
-    megaStone: null
+    megaStone: null,
   },
   {
     id: "ORICORIO",
     name: "Oricorio",
-    types: [
-      "PSYCHIC",
-      "FLYING"
-    ],
+    types: ["PSYCHIC", "FLYING"],
     sprite: "/Front/ORICORIO_2.png",
     backSprite: "/spritesBack/ORICORIO_2.png",
-    description: "This Oricorio relaxes by swaying gently. This increases its psychic energy, which it then fires at its enemies.",
+    description:
+      "This Oricorio relaxes by swaying gently. This increases its psychic energy, which it then fires at its enemies.",
     stats: {
       hp: 75,
       attack: 70,
       defense: 70,
       spAttack: 98,
       spDefense: 70,
-      speed: 93
+      speed: 93,
     },
     height: "0.6",
     weight: "3.4",
-    abilities: [
-      "DANCER"
-    ],
-    hiddenAbilities: [
-
-    ],
+    abilities: ["DANCER"],
+    hiddenAbilities: [],
     category: "Dancing",
     moves: [
       "POUND",
@@ -33098,7 +30508,7 @@ export const pokemonForms: PokemonForm[] =
       "AIRSLASH",
       "REVELATIONDANCE",
       "AGILITY",
-      "HURRICANE"
+      "HURRICANE",
     ],
     tutorMoves: [
       "ACROBATICS",
@@ -33157,7 +30567,7 @@ export const pokemonForms: PokemonForm[] =
       "TERABLAST",
       "TRAILBLAZE",
       "UTURN",
-      "WORKUP"
+      "WORKUP",
     ],
     eggMoves: [
       "ATTRACT",
@@ -33166,44 +30576,36 @@ export const pokemonForms: PokemonForm[] =
       "PLUCK",
       "QUIVERDANCE",
       "SAFEGUARD",
-      "TAILWIND"
+      "TAILWIND",
     ],
     suffix: "normal",
-    evolution: [
-
-    ],
+    evolution: [],
     color: "Pink",
     formNumber: 2,
     formName: "Pa'u Style",
     baseId: "ORICORIO",
-    megaStone: null
+    megaStone: null,
   },
   {
     id: "ORICORIO",
     name: "Oricorio",
-    types: [
-      "GHOST",
-      "FLYING"
-    ],
+    types: ["GHOST", "FLYING"],
     sprite: "/Front/ORICORIO_3.png",
     backSprite: "/spritesBack/ORICORIO_3.png",
-    description: "It summons the dead with its dreamy dancing. From their malice, it draws power with which to curse its enemies.",
+    description:
+      "It summons the dead with its dreamy dancing. From their malice, it draws power with which to curse its enemies.",
     stats: {
       hp: 75,
       attack: 70,
       defense: 70,
       spAttack: 98,
       spDefense: 70,
-      speed: 93
+      speed: 93,
     },
     height: "0.6",
     weight: "3.4",
-    abilities: [
-      "DANCER"
-    ],
-    hiddenAbilities: [
-
-    ],
+    abilities: ["DANCER"],
+    hiddenAbilities: [],
     category: "Dancing",
     moves: [
       "POUND",
@@ -33220,7 +30622,7 @@ export const pokemonForms: PokemonForm[] =
       "AIRSLASH",
       "REVELATIONDANCE",
       "AGILITY",
-      "HURRICANE"
+      "HURRICANE",
     ],
     tutorMoves: [
       "ACROBATICS",
@@ -33279,7 +30681,7 @@ export const pokemonForms: PokemonForm[] =
       "TERABLAST",
       "TRAILBLAZE",
       "UTURN",
-      "WORKUP"
+      "WORKUP",
     ],
     eggMoves: [
       "ATTRACT",
@@ -33288,43 +30690,36 @@ export const pokemonForms: PokemonForm[] =
       "PLUCK",
       "QUIVERDANCE",
       "SAFEGUARD",
-      "TAILWIND"
+      "TAILWIND",
     ],
     suffix: "normal",
-    evolution: [
-
-    ],
+    evolution: [],
     color: "Purple",
     formNumber: 3,
     formName: "Sensu Style",
     baseId: "ORICORIO",
-    megaStone: null
+    megaStone: null,
   },
   {
     id: "ROCKRUFF",
     name: "Rockruff",
-    types: [
-      "ROCK"
-    ],
+    types: ["ROCK"],
     sprite: "/Front/ROCKRUFF_2.png",
     backSprite: "/spritesBack/ROCKRUFF_2.png",
-    description: "This Pokémon has lived with people since times long ago. It can sense when its Trainer is in the dumps and will stick close by its Trainer's side.",
+    description:
+      "This Pokémon has lived with people since times long ago. It can sense when its Trainer is in the dumps and will stick close by its Trainer's side.",
     stats: {
       hp: 45,
       attack: 65,
       defense: 40,
       spAttack: 30,
       spDefense: 40,
-      speed: 60
+      speed: 60,
     },
     height: "0.5",
     weight: "9.2",
-    abilities: [
-      "OWNTEMPO"
-    ],
-    hiddenAbilities: [
-      "OWNTEMPO"
-    ],
+    abilities: ["OWNTEMPO"],
+    hiddenAbilities: ["OWNTEMPO"],
     category: "Puppy",
     moves: [
       "TACKLE",
@@ -33340,7 +30735,7 @@ export const pokemonForms: PokemonForm[] =
       "CRUNCH",
       "SCARYFACE",
       "STEALTHROCK",
-      "STONEEDGE"
+      "STONEEDGE",
     ],
     tutorMoves: [
       "ATTRACT",
@@ -33398,53 +30793,43 @@ export const pokemonForms: PokemonForm[] =
       "TERABLAST",
       "THUNDERFANG",
       "TRAILBLAZE",
-      "ZENHEADBUTT"
+      "ZENHEADBUTT",
     ],
-    eggMoves: [
-      "ENDEAVOR",
-      "LASTRESORT",
-      "THRASH"
-    ],
+    eggMoves: ["ENDEAVOR", "LASTRESORT", "THRASH"],
     suffix: "normal",
     evolution: [
       {
         to: "LYCANROC",
         method: "LevelEvening",
-        value: "25"
-      }
+        value: "25",
+      },
     ],
     color: "Brown",
     formNumber: 2,
     formName: "",
     baseId: "ROCKRUFF",
-    megaStone: null
+    megaStone: null,
   },
   {
     id: "LYCANROC",
     name: "Lycanroc",
-    types: [
-      "ROCK"
-    ],
+    types: ["ROCK"],
     sprite: "/Front/LYCANROC_1.png",
     backSprite: "/spritesBack/LYCANROC_1.png",
-    description: "It goads its enemies into attacking, withstands the hits, and in return, delivers a headbutt, crushing their bones with its rocky mane.",
+    description:
+      "It goads its enemies into attacking, withstands the hits, and in return, delivers a headbutt, crushing their bones with its rocky mane.",
     stats: {
       hp: 85,
       attack: 115,
       defense: 75,
       spAttack: 55,
       spDefense: 75,
-      speed: 82
+      speed: 82,
     },
     height: "1.1",
     weight: "25.0",
-    abilities: [
-      "KEENEYE",
-      "VITALSPIRIT"
-    ],
-    hiddenAbilities: [
-      "NOGUARD"
-    ],
+    abilities: ["KEENEYE", "VITALSPIRIT"],
+    hiddenAbilities: ["NOGUARD"],
     category: "Wolf",
     moves: [
       "COUNTER",
@@ -33464,7 +30849,7 @@ export const pokemonForms: PokemonForm[] =
       "CRUNCH",
       "SCARYFACE",
       "STEALTHROCK",
-      "STONEEDGE"
+      "STONEEDGE",
     ],
     tutorMoves: [
       "ATTRACT",
@@ -33547,46 +30932,37 @@ export const pokemonForms: PokemonForm[] =
       "THUNDERPUNCH",
       "TRAILBLAZE",
       "UPPERHAND",
-      "ZENHEADBUTT"
+      "ZENHEADBUTT",
     ],
-    eggMoves: [
-
-    ],
+    eggMoves: [],
     suffix: "normal",
-    evolution: [
-
-    ],
+    evolution: [],
     color: "Red",
     formNumber: 1,
     formName: "Midnight Form",
     baseId: "LYCANROC",
-    megaStone: null
+    megaStone: null,
   },
   {
     id: "LYCANROC",
     name: "Lycanroc",
-    types: [
-      "ROCK"
-    ],
+    types: ["ROCK"],
     sprite: "/Front/LYCANROC_2.png",
     backSprite: "/spritesBack/LYCANROC_2.png",
-    description: "Bathed in the setting sun of evening, Lycanroc has undergone a special kind of evolution. An intense fighting spirit underlies its calmness.",
+    description:
+      "Bathed in the setting sun of evening, Lycanroc has undergone a special kind of evolution. An intense fighting spirit underlies its calmness.",
     stats: {
       hp: 75,
       attack: 117,
       defense: 65,
       spAttack: 55,
       spDefense: 65,
-      speed: 110
+      speed: 110,
     },
     height: "0.8",
     weight: "25.0",
-    abilities: [
-      "TOUGHCLAWS"
-    ],
-    hiddenAbilities: [
-      "TOUGHCLAWS"
-    ],
+    abilities: ["TOUGHCLAWS"],
+    hiddenAbilities: ["TOUGHCLAWS"],
     category: "Wolf",
     moves: [
       "CRUSHCLAW",
@@ -33611,7 +30987,7 @@ export const pokemonForms: PokemonForm[] =
       "CRUNCH",
       "SCARYFACE",
       "STEALTHROCK",
-      "STONEEDGE"
+      "STONEEDGE",
     ],
     tutorMoves: [
       "ATTRACT",
@@ -33681,46 +31057,37 @@ export const pokemonForms: PokemonForm[] =
       "THUNDERFANG",
       "TRAILBLAZE",
       "WORKUP",
-      "ZENHEADBUTT"
+      "ZENHEADBUTT",
     ],
-    eggMoves: [
-
-    ],
+    eggMoves: [],
     suffix: "normal",
-    evolution: [
-
-    ],
+    evolution: [],
     color: "Brown",
     formNumber: 2,
     formName: "Dusk Form",
     baseId: "LYCANROC",
-    megaStone: null
+    megaStone: null,
   },
   {
     id: "WISHIWASHI",
     name: "Wishiwashi",
-    types: [
-      "WATER"
-    ],
+    types: ["WATER"],
     sprite: "/Front/WISHIWASHI_1.png",
     backSprite: "/spritesBack/WISHIWASHI_1.png",
-    description: "Weak Wishiwashi school together to concentrate their power. Their united force makes them the demon of the sea, feared near and far.",
+    description:
+      "Weak Wishiwashi school together to concentrate their power. Their united force makes them the demon of the sea, feared near and far.",
     stats: {
       hp: 45,
       attack: 140,
       defense: 130,
       spAttack: 140,
       spDefense: 135,
-      speed: 30
+      speed: 30,
     },
     height: "8.2",
     weight: "78.6",
-    abilities: [
-      "SCHOOLING"
-    ],
-    hiddenAbilities: [
-
-    ],
+    abilities: ["SCHOOLING"],
+    hiddenAbilities: [],
     category: "Small Fry",
     moves: [
       "WATERGUN",
@@ -33736,7 +31103,7 @@ export const pokemonForms: PokemonForm[] =
       "AQUARING",
       "ENDEAVOR",
       "HYDROPUMP",
-      "DOUBLEEDGE"
+      "DOUBLEEDGE",
     ],
     tutorMoves: [
       "AQUATAIL",
@@ -33784,48 +31151,37 @@ export const pokemonForms: PokemonForm[] =
       "UTURN",
       "WATERFALL",
       "WATERPULSE",
-      "WHIRLPOOL"
+      "WHIRLPOOL",
     ],
-    eggMoves: [
-      "MIST",
-      "TAKEDOWN",
-      "WATERPULSE"
-    ],
+    eggMoves: ["MIST", "TAKEDOWN", "WATERPULSE"],
     suffix: "normal",
-    evolution: [
-
-    ],
+    evolution: [],
     color: "Blue",
     formNumber: 1,
     formName: "School Form",
     baseId: "WISHIWASHI",
-    megaStone: null
+    megaStone: null,
   },
   {
     id: "SILVALLY",
     name: "Silvally",
-    types: [
-      "FIGHTING"
-    ],
+    types: ["FIGHTING"],
     sprite: "/Front/SILVALLY_1.png",
     backSprite: "/spritesBack/SILVALLY_1.png",
-    description: "Its trust in its partner is what awakens it. This Pokémon is capable of changing its type, a flexibility that is well displayed in battle.",
+    description:
+      "Its trust in its partner is what awakens it. This Pokémon is capable of changing its type, a flexibility that is well displayed in battle.",
     stats: {
       hp: 95,
       attack: 95,
       defense: 95,
       spAttack: 95,
       spDefense: 95,
-      speed: 95
+      speed: 95,
     },
     height: "2.3",
     weight: "100.5",
-    abilities: [
-      "RKSSYSTEM"
-    ],
-    hiddenAbilities: [
-
-    ],
+    abilities: ["RKSSYSTEM"],
+    hiddenAbilities: [],
     category: "Synthetic",
     moves: [
       "MULTIATTACK",
@@ -33849,7 +31205,7 @@ export const pokemonForms: PokemonForm[] =
       "CRUNCH",
       "TAKEDOWN",
       "DOUBLEEDGE",
-      "PARTINGSHOT"
+      "PARTINGSHOT",
     ],
     tutorMoves: [
       "AERIALACE",
@@ -33925,46 +31281,37 @@ export const pokemonForms: PokemonForm[] =
       "UTURN",
       "WORKUP",
       "XSCISSOR",
-      "ZENHEADBUTT"
+      "ZENHEADBUTT",
     ],
-    eggMoves: [
-
-    ],
+    eggMoves: [],
     suffix: "normal",
-    evolution: [
-
-    ],
+    evolution: [],
     color: "Gray",
     formNumber: 1,
     formName: "Type: Fighting",
     baseId: "SILVALLY",
-    megaStone: null
+    megaStone: null,
   },
   {
     id: "SILVALLY",
     name: "Silvally",
-    types: [
-      "FLYING"
-    ],
+    types: ["FLYING"],
     sprite: "/Front/SILVALLY_2.png",
     backSprite: "/spritesBack/SILVALLY_2.png",
-    description: "Its trust in its partner is what awakens it. This Pokémon is capable of changing its type, a flexibility that is well displayed in battle.",
+    description:
+      "Its trust in its partner is what awakens it. This Pokémon is capable of changing its type, a flexibility that is well displayed in battle.",
     stats: {
       hp: 95,
       attack: 95,
       defense: 95,
       spAttack: 95,
       spDefense: 95,
-      speed: 95
+      speed: 95,
     },
     height: "2.3",
     weight: "100.5",
-    abilities: [
-      "RKSSYSTEM"
-    ],
-    hiddenAbilities: [
-
-    ],
+    abilities: ["RKSSYSTEM"],
+    hiddenAbilities: [],
     category: "Synthetic",
     moves: [
       "MULTIATTACK",
@@ -33988,7 +31335,7 @@ export const pokemonForms: PokemonForm[] =
       "CRUNCH",
       "TAKEDOWN",
       "DOUBLEEDGE",
-      "PARTINGSHOT"
+      "PARTINGSHOT",
     ],
     tutorMoves: [
       "AERIALACE",
@@ -34064,46 +31411,37 @@ export const pokemonForms: PokemonForm[] =
       "UTURN",
       "WORKUP",
       "XSCISSOR",
-      "ZENHEADBUTT"
+      "ZENHEADBUTT",
     ],
-    eggMoves: [
-
-    ],
+    eggMoves: [],
     suffix: "normal",
-    evolution: [
-
-    ],
+    evolution: [],
     color: "Gray",
     formNumber: 2,
     formName: "Type: Flying",
     baseId: "SILVALLY",
-    megaStone: null
+    megaStone: null,
   },
   {
     id: "SILVALLY",
     name: "Silvally",
-    types: [
-      "POISON"
-    ],
+    types: ["POISON"],
     sprite: "/Front/SILVALLY_3.png",
     backSprite: "/spritesBack/SILVALLY_3.png",
-    description: "Its trust in its partner is what awakens it. This Pokémon is capable of changing its type, a flexibility that is well displayed in battle.",
+    description:
+      "Its trust in its partner is what awakens it. This Pokémon is capable of changing its type, a flexibility that is well displayed in battle.",
     stats: {
       hp: 95,
       attack: 95,
       defense: 95,
       spAttack: 95,
       spDefense: 95,
-      speed: 95
+      speed: 95,
     },
     height: "2.3",
     weight: "100.5",
-    abilities: [
-      "RKSSYSTEM"
-    ],
-    hiddenAbilities: [
-
-    ],
+    abilities: ["RKSSYSTEM"],
+    hiddenAbilities: [],
     category: "Synthetic",
     moves: [
       "MULTIATTACK",
@@ -34127,7 +31465,7 @@ export const pokemonForms: PokemonForm[] =
       "CRUNCH",
       "TAKEDOWN",
       "DOUBLEEDGE",
-      "PARTINGSHOT"
+      "PARTINGSHOT",
     ],
     tutorMoves: [
       "AERIALACE",
@@ -34203,46 +31541,37 @@ export const pokemonForms: PokemonForm[] =
       "UTURN",
       "WORKUP",
       "XSCISSOR",
-      "ZENHEADBUTT"
+      "ZENHEADBUTT",
     ],
-    eggMoves: [
-
-    ],
+    eggMoves: [],
     suffix: "normal",
-    evolution: [
-
-    ],
+    evolution: [],
     color: "Gray",
     formNumber: 3,
     formName: "Type: Poison",
     baseId: "SILVALLY",
-    megaStone: null
+    megaStone: null,
   },
   {
     id: "SILVALLY",
     name: "Silvally",
-    types: [
-      "GROUND"
-    ],
+    types: ["GROUND"],
     sprite: "/Front/SILVALLY_4.png",
     backSprite: "/spritesBack/SILVALLY_4.png",
-    description: "Its trust in its partner is what awakens it. This Pokémon is capable of changing its type, a flexibility that is well displayed in battle.",
+    description:
+      "Its trust in its partner is what awakens it. This Pokémon is capable of changing its type, a flexibility that is well displayed in battle.",
     stats: {
       hp: 95,
       attack: 95,
       defense: 95,
       spAttack: 95,
       spDefense: 95,
-      speed: 95
+      speed: 95,
     },
     height: "2.3",
     weight: "100.5",
-    abilities: [
-      "RKSSYSTEM"
-    ],
-    hiddenAbilities: [
-
-    ],
+    abilities: ["RKSSYSTEM"],
+    hiddenAbilities: [],
     category: "Synthetic",
     moves: [
       "MULTIATTACK",
@@ -34266,7 +31595,7 @@ export const pokemonForms: PokemonForm[] =
       "CRUNCH",
       "TAKEDOWN",
       "DOUBLEEDGE",
-      "PARTINGSHOT"
+      "PARTINGSHOT",
     ],
     tutorMoves: [
       "AERIALACE",
@@ -34342,46 +31671,37 @@ export const pokemonForms: PokemonForm[] =
       "UTURN",
       "WORKUP",
       "XSCISSOR",
-      "ZENHEADBUTT"
+      "ZENHEADBUTT",
     ],
-    eggMoves: [
-
-    ],
+    eggMoves: [],
     suffix: "normal",
-    evolution: [
-
-    ],
+    evolution: [],
     color: "Gray",
     formNumber: 4,
     formName: "Type: Ground",
     baseId: "SILVALLY",
-    megaStone: null
+    megaStone: null,
   },
   {
     id: "SILVALLY",
     name: "Silvally",
-    types: [
-      "ROCK"
-    ],
+    types: ["ROCK"],
     sprite: "/Front/SILVALLY_5.png",
     backSprite: "/spritesBack/SILVALLY_5.png",
-    description: "Its trust in its partner is what awakens it. This Pokémon is capable of changing its type, a flexibility that is well displayed in battle.",
+    description:
+      "Its trust in its partner is what awakens it. This Pokémon is capable of changing its type, a flexibility that is well displayed in battle.",
     stats: {
       hp: 95,
       attack: 95,
       defense: 95,
       spAttack: 95,
       spDefense: 95,
-      speed: 95
+      speed: 95,
     },
     height: "2.3",
     weight: "100.5",
-    abilities: [
-      "RKSSYSTEM"
-    ],
-    hiddenAbilities: [
-
-    ],
+    abilities: ["RKSSYSTEM"],
+    hiddenAbilities: [],
     category: "Synthetic",
     moves: [
       "MULTIATTACK",
@@ -34405,7 +31725,7 @@ export const pokemonForms: PokemonForm[] =
       "CRUNCH",
       "TAKEDOWN",
       "DOUBLEEDGE",
-      "PARTINGSHOT"
+      "PARTINGSHOT",
     ],
     tutorMoves: [
       "AERIALACE",
@@ -34481,46 +31801,37 @@ export const pokemonForms: PokemonForm[] =
       "UTURN",
       "WORKUP",
       "XSCISSOR",
-      "ZENHEADBUTT"
+      "ZENHEADBUTT",
     ],
-    eggMoves: [
-
-    ],
+    eggMoves: [],
     suffix: "normal",
-    evolution: [
-
-    ],
+    evolution: [],
     color: "Gray",
     formNumber: 5,
     formName: "Type: Rock",
     baseId: "SILVALLY",
-    megaStone: null
+    megaStone: null,
   },
   {
     id: "SILVALLY",
     name: "Silvally",
-    types: [
-      "BUG"
-    ],
+    types: ["BUG"],
     sprite: "/Front/SILVALLY_6.png",
     backSprite: "/spritesBack/SILVALLY_6.png",
-    description: "Its trust in its partner is what awakens it. This Pokémon is capable of changing its type, a flexibility that is well displayed in battle.",
+    description:
+      "Its trust in its partner is what awakens it. This Pokémon is capable of changing its type, a flexibility that is well displayed in battle.",
     stats: {
       hp: 95,
       attack: 95,
       defense: 95,
       spAttack: 95,
       spDefense: 95,
-      speed: 95
+      speed: 95,
     },
     height: "2.3",
     weight: "100.5",
-    abilities: [
-      "RKSSYSTEM"
-    ],
-    hiddenAbilities: [
-
-    ],
+    abilities: ["RKSSYSTEM"],
+    hiddenAbilities: [],
     category: "Synthetic",
     moves: [
       "MULTIATTACK",
@@ -34544,7 +31855,7 @@ export const pokemonForms: PokemonForm[] =
       "CRUNCH",
       "TAKEDOWN",
       "DOUBLEEDGE",
-      "PARTINGSHOT"
+      "PARTINGSHOT",
     ],
     tutorMoves: [
       "AERIALACE",
@@ -34620,46 +31931,37 @@ export const pokemonForms: PokemonForm[] =
       "UTURN",
       "WORKUP",
       "XSCISSOR",
-      "ZENHEADBUTT"
+      "ZENHEADBUTT",
     ],
-    eggMoves: [
-
-    ],
+    eggMoves: [],
     suffix: "normal",
-    evolution: [
-
-    ],
+    evolution: [],
     color: "Gray",
     formNumber: 6,
     formName: "Type: Bug",
     baseId: "SILVALLY",
-    megaStone: null
+    megaStone: null,
   },
   {
     id: "SILVALLY",
     name: "Silvally",
-    types: [
-      "GHOST"
-    ],
+    types: ["GHOST"],
     sprite: "/Front/SILVALLY_7.png",
     backSprite: "/spritesBack/SILVALLY_7.png",
-    description: "Its trust in its partner is what awakens it. This Pokémon is capable of changing its type, a flexibility that is well displayed in battle.",
+    description:
+      "Its trust in its partner is what awakens it. This Pokémon is capable of changing its type, a flexibility that is well displayed in battle.",
     stats: {
       hp: 95,
       attack: 95,
       defense: 95,
       spAttack: 95,
       spDefense: 95,
-      speed: 95
+      speed: 95,
     },
     height: "2.3",
     weight: "100.5",
-    abilities: [
-      "RKSSYSTEM"
-    ],
-    hiddenAbilities: [
-
-    ],
+    abilities: ["RKSSYSTEM"],
+    hiddenAbilities: [],
     category: "Synthetic",
     moves: [
       "MULTIATTACK",
@@ -34683,7 +31985,7 @@ export const pokemonForms: PokemonForm[] =
       "CRUNCH",
       "TAKEDOWN",
       "DOUBLEEDGE",
-      "PARTINGSHOT"
+      "PARTINGSHOT",
     ],
     tutorMoves: [
       "AERIALACE",
@@ -34759,46 +32061,37 @@ export const pokemonForms: PokemonForm[] =
       "UTURN",
       "WORKUP",
       "XSCISSOR",
-      "ZENHEADBUTT"
+      "ZENHEADBUTT",
     ],
-    eggMoves: [
-
-    ],
+    eggMoves: [],
     suffix: "normal",
-    evolution: [
-
-    ],
+    evolution: [],
     color: "Gray",
     formNumber: 7,
     formName: "Type: Ghost",
     baseId: "SILVALLY",
-    megaStone: null
+    megaStone: null,
   },
   {
     id: "SILVALLY",
     name: "Silvally",
-    types: [
-      "STEEL"
-    ],
+    types: ["STEEL"],
     sprite: "/Front/SILVALLY_8.png",
     backSprite: "/spritesBack/SILVALLY_8.png",
-    description: "Its trust in its partner is what awakens it. This Pokémon is capable of changing its type, a flexibility that is well displayed in battle.",
+    description:
+      "Its trust in its partner is what awakens it. This Pokémon is capable of changing its type, a flexibility that is well displayed in battle.",
     stats: {
       hp: 95,
       attack: 95,
       defense: 95,
       spAttack: 95,
       spDefense: 95,
-      speed: 95
+      speed: 95,
     },
     height: "2.3",
     weight: "100.5",
-    abilities: [
-      "RKSSYSTEM"
-    ],
-    hiddenAbilities: [
-
-    ],
+    abilities: ["RKSSYSTEM"],
+    hiddenAbilities: [],
     category: "Synthetic",
     moves: [
       "MULTIATTACK",
@@ -34822,7 +32115,7 @@ export const pokemonForms: PokemonForm[] =
       "CRUNCH",
       "TAKEDOWN",
       "DOUBLEEDGE",
-      "PARTINGSHOT"
+      "PARTINGSHOT",
     ],
     tutorMoves: [
       "AERIALACE",
@@ -34898,46 +32191,37 @@ export const pokemonForms: PokemonForm[] =
       "UTURN",
       "WORKUP",
       "XSCISSOR",
-      "ZENHEADBUTT"
+      "ZENHEADBUTT",
     ],
-    eggMoves: [
-
-    ],
+    eggMoves: [],
     suffix: "normal",
-    evolution: [
-
-    ],
+    evolution: [],
     color: "Gray",
     formNumber: 8,
     formName: "Type: Steel",
     baseId: "SILVALLY",
-    megaStone: null
+    megaStone: null,
   },
   {
     id: "SILVALLY",
     name: "Silvally",
-    types: [
-      "QMARKS"
-    ],
+    types: ["QMARKS"],
     sprite: "/Front/SILVALLY_9.png",
     backSprite: "/spritesBack/SILVALLY_9.png",
-    description: "Its trust in its partner is what awakens it. This Pokémon is capable of changing its type, a flexibility that is well displayed in battle.",
+    description:
+      "Its trust in its partner is what awakens it. This Pokémon is capable of changing its type, a flexibility that is well displayed in battle.",
     stats: {
       hp: 95,
       attack: 95,
       defense: 95,
       spAttack: 95,
       spDefense: 95,
-      speed: 95
+      speed: 95,
     },
     height: "2.3",
     weight: "100.5",
-    abilities: [
-      "RKSSYSTEM"
-    ],
-    hiddenAbilities: [
-
-    ],
+    abilities: ["RKSSYSTEM"],
+    hiddenAbilities: [],
     category: "Synthetic",
     moves: [
       "MULTIATTACK",
@@ -34961,7 +32245,7 @@ export const pokemonForms: PokemonForm[] =
       "CRUNCH",
       "TAKEDOWN",
       "DOUBLEEDGE",
-      "PARTINGSHOT"
+      "PARTINGSHOT",
     ],
     tutorMoves: [
       "AERIALACE",
@@ -35037,46 +32321,37 @@ export const pokemonForms: PokemonForm[] =
       "UTURN",
       "WORKUP",
       "XSCISSOR",
-      "ZENHEADBUTT"
+      "ZENHEADBUTT",
     ],
-    eggMoves: [
-
-    ],
+    eggMoves: [],
     suffix: "normal",
-    evolution: [
-
-    ],
+    evolution: [],
     color: "Gray",
     formNumber: 9,
     formName: "Type: Unknown",
     baseId: "SILVALLY",
-    megaStone: null
+    megaStone: null,
   },
   {
     id: "SILVALLY",
     name: "Silvally",
-    types: [
-      "FIRE"
-    ],
+    types: ["FIRE"],
     sprite: "/Front/SILVALLY_10.png",
     backSprite: "/spritesBack/SILVALLY_10.png",
-    description: "Its trust in its partner is what awakens it. This Pokémon is capable of changing its type, a flexibility that is well displayed in battle.",
+    description:
+      "Its trust in its partner is what awakens it. This Pokémon is capable of changing its type, a flexibility that is well displayed in battle.",
     stats: {
       hp: 95,
       attack: 95,
       defense: 95,
       spAttack: 95,
       spDefense: 95,
-      speed: 95
+      speed: 95,
     },
     height: "2.3",
     weight: "100.5",
-    abilities: [
-      "RKSSYSTEM"
-    ],
-    hiddenAbilities: [
-
-    ],
+    abilities: ["RKSSYSTEM"],
+    hiddenAbilities: [],
     category: "Synthetic",
     moves: [
       "MULTIATTACK",
@@ -35100,7 +32375,7 @@ export const pokemonForms: PokemonForm[] =
       "CRUNCH",
       "TAKEDOWN",
       "DOUBLEEDGE",
-      "PARTINGSHOT"
+      "PARTINGSHOT",
     ],
     tutorMoves: [
       "AERIALACE",
@@ -35176,46 +32451,37 @@ export const pokemonForms: PokemonForm[] =
       "UTURN",
       "WORKUP",
       "XSCISSOR",
-      "ZENHEADBUTT"
+      "ZENHEADBUTT",
     ],
-    eggMoves: [
-
-    ],
+    eggMoves: [],
     suffix: "normal",
-    evolution: [
-
-    ],
+    evolution: [],
     color: "Gray",
     formNumber: 10,
     formName: "Type: Fire",
     baseId: "SILVALLY",
-    megaStone: null
+    megaStone: null,
   },
   {
     id: "SILVALLY",
     name: "Silvally",
-    types: [
-      "WATER"
-    ],
+    types: ["WATER"],
     sprite: "/Front/SILVALLY_11.png",
     backSprite: "/spritesBack/SILVALLY_11.png",
-    description: "Its trust in its partner is what awakens it. This Pokémon is capable of changing its type, a flexibility that is well displayed in battle.",
+    description:
+      "Its trust in its partner is what awakens it. This Pokémon is capable of changing its type, a flexibility that is well displayed in battle.",
     stats: {
       hp: 95,
       attack: 95,
       defense: 95,
       spAttack: 95,
       spDefense: 95,
-      speed: 95
+      speed: 95,
     },
     height: "2.3",
     weight: "100.5",
-    abilities: [
-      "RKSSYSTEM"
-    ],
-    hiddenAbilities: [
-
-    ],
+    abilities: ["RKSSYSTEM"],
+    hiddenAbilities: [],
     category: "Synthetic",
     moves: [
       "MULTIATTACK",
@@ -35239,7 +32505,7 @@ export const pokemonForms: PokemonForm[] =
       "CRUNCH",
       "TAKEDOWN",
       "DOUBLEEDGE",
-      "PARTINGSHOT"
+      "PARTINGSHOT",
     ],
     tutorMoves: [
       "AERIALACE",
@@ -35315,46 +32581,37 @@ export const pokemonForms: PokemonForm[] =
       "UTURN",
       "WORKUP",
       "XSCISSOR",
-      "ZENHEADBUTT"
+      "ZENHEADBUTT",
     ],
-    eggMoves: [
-
-    ],
+    eggMoves: [],
     suffix: "normal",
-    evolution: [
-
-    ],
+    evolution: [],
     color: "Gray",
     formNumber: 11,
     formName: "Type: Water",
     baseId: "SILVALLY",
-    megaStone: null
+    megaStone: null,
   },
   {
     id: "SILVALLY",
     name: "Silvally",
-    types: [
-      "GRASS"
-    ],
+    types: ["GRASS"],
     sprite: "/Front/SILVALLY_12.png",
     backSprite: "/spritesBack/SILVALLY_12.png",
-    description: "Its trust in its partner is what awakens it. This Pokémon is capable of changing its type, a flexibility that is well displayed in battle.",
+    description:
+      "Its trust in its partner is what awakens it. This Pokémon is capable of changing its type, a flexibility that is well displayed in battle.",
     stats: {
       hp: 95,
       attack: 95,
       defense: 95,
       spAttack: 95,
       spDefense: 95,
-      speed: 95
+      speed: 95,
     },
     height: "2.3",
     weight: "100.5",
-    abilities: [
-      "RKSSYSTEM"
-    ],
-    hiddenAbilities: [
-
-    ],
+    abilities: ["RKSSYSTEM"],
+    hiddenAbilities: [],
     category: "Synthetic",
     moves: [
       "MULTIATTACK",
@@ -35378,7 +32635,7 @@ export const pokemonForms: PokemonForm[] =
       "CRUNCH",
       "TAKEDOWN",
       "DOUBLEEDGE",
-      "PARTINGSHOT"
+      "PARTINGSHOT",
     ],
     tutorMoves: [
       "AERIALACE",
@@ -35454,46 +32711,37 @@ export const pokemonForms: PokemonForm[] =
       "UTURN",
       "WORKUP",
       "XSCISSOR",
-      "ZENHEADBUTT"
+      "ZENHEADBUTT",
     ],
-    eggMoves: [
-
-    ],
+    eggMoves: [],
     suffix: "normal",
-    evolution: [
-
-    ],
+    evolution: [],
     color: "Gray",
     formNumber: 12,
     formName: "Type: Grass",
     baseId: "SILVALLY",
-    megaStone: null
+    megaStone: null,
   },
   {
     id: "SILVALLY",
     name: "Silvally",
-    types: [
-      "ELECTRIC"
-    ],
+    types: ["ELECTRIC"],
     sprite: "/Front/SILVALLY_13.png",
     backSprite: "/spritesBack/SILVALLY_13.png",
-    description: "Its trust in its partner is what awakens it. This Pokémon is capable of changing its type, a flexibility that is well displayed in battle.",
+    description:
+      "Its trust in its partner is what awakens it. This Pokémon is capable of changing its type, a flexibility that is well displayed in battle.",
     stats: {
       hp: 95,
       attack: 95,
       defense: 95,
       spAttack: 95,
       spDefense: 95,
-      speed: 95
+      speed: 95,
     },
     height: "2.3",
     weight: "100.5",
-    abilities: [
-      "RKSSYSTEM"
-    ],
-    hiddenAbilities: [
-
-    ],
+    abilities: ["RKSSYSTEM"],
+    hiddenAbilities: [],
     category: "Synthetic",
     moves: [
       "MULTIATTACK",
@@ -35517,7 +32765,7 @@ export const pokemonForms: PokemonForm[] =
       "CRUNCH",
       "TAKEDOWN",
       "DOUBLEEDGE",
-      "PARTINGSHOT"
+      "PARTINGSHOT",
     ],
     tutorMoves: [
       "AERIALACE",
@@ -35593,46 +32841,37 @@ export const pokemonForms: PokemonForm[] =
       "UTURN",
       "WORKUP",
       "XSCISSOR",
-      "ZENHEADBUTT"
+      "ZENHEADBUTT",
     ],
-    eggMoves: [
-
-    ],
+    eggMoves: [],
     suffix: "normal",
-    evolution: [
-
-    ],
+    evolution: [],
     color: "Gray",
     formNumber: 13,
     formName: "Type: Electric",
     baseId: "SILVALLY",
-    megaStone: null
+    megaStone: null,
   },
   {
     id: "SILVALLY",
     name: "Silvally",
-    types: [
-      "PSYCHIC"
-    ],
+    types: ["PSYCHIC"],
     sprite: "/Front/SILVALLY_14.png",
     backSprite: "/spritesBack/SILVALLY_14.png",
-    description: "Its trust in its partner is what awakens it. This Pokémon is capable of changing its type, a flexibility that is well displayed in battle.",
+    description:
+      "Its trust in its partner is what awakens it. This Pokémon is capable of changing its type, a flexibility that is well displayed in battle.",
     stats: {
       hp: 95,
       attack: 95,
       defense: 95,
       spAttack: 95,
       spDefense: 95,
-      speed: 95
+      speed: 95,
     },
     height: "2.3",
     weight: "100.5",
-    abilities: [
-      "RKSSYSTEM"
-    ],
-    hiddenAbilities: [
-
-    ],
+    abilities: ["RKSSYSTEM"],
+    hiddenAbilities: [],
     category: "Synthetic",
     moves: [
       "MULTIATTACK",
@@ -35656,7 +32895,7 @@ export const pokemonForms: PokemonForm[] =
       "CRUNCH",
       "TAKEDOWN",
       "DOUBLEEDGE",
-      "PARTINGSHOT"
+      "PARTINGSHOT",
     ],
     tutorMoves: [
       "AERIALACE",
@@ -35732,46 +32971,37 @@ export const pokemonForms: PokemonForm[] =
       "UTURN",
       "WORKUP",
       "XSCISSOR",
-      "ZENHEADBUTT"
+      "ZENHEADBUTT",
     ],
-    eggMoves: [
-
-    ],
+    eggMoves: [],
     suffix: "normal",
-    evolution: [
-
-    ],
+    evolution: [],
     color: "Gray",
     formNumber: 14,
     formName: "Type: Psychic",
     baseId: "SILVALLY",
-    megaStone: null
+    megaStone: null,
   },
   {
     id: "SILVALLY",
     name: "Silvally",
-    types: [
-      "ICE"
-    ],
+    types: ["ICE"],
     sprite: "/Front/SILVALLY_15.png",
     backSprite: "/spritesBack/SILVALLY_15.png",
-    description: "Its trust in its partner is what awakens it. This Pokémon is capable of changing its type, a flexibility that is well displayed in battle.",
+    description:
+      "Its trust in its partner is what awakens it. This Pokémon is capable of changing its type, a flexibility that is well displayed in battle.",
     stats: {
       hp: 95,
       attack: 95,
       defense: 95,
       spAttack: 95,
       spDefense: 95,
-      speed: 95
+      speed: 95,
     },
     height: "2.3",
     weight: "100.5",
-    abilities: [
-      "RKSSYSTEM"
-    ],
-    hiddenAbilities: [
-
-    ],
+    abilities: ["RKSSYSTEM"],
+    hiddenAbilities: [],
     category: "Synthetic",
     moves: [
       "MULTIATTACK",
@@ -35795,7 +33025,7 @@ export const pokemonForms: PokemonForm[] =
       "CRUNCH",
       "TAKEDOWN",
       "DOUBLEEDGE",
-      "PARTINGSHOT"
+      "PARTINGSHOT",
     ],
     tutorMoves: [
       "AERIALACE",
@@ -35871,46 +33101,37 @@ export const pokemonForms: PokemonForm[] =
       "UTURN",
       "WORKUP",
       "XSCISSOR",
-      "ZENHEADBUTT"
+      "ZENHEADBUTT",
     ],
-    eggMoves: [
-
-    ],
+    eggMoves: [],
     suffix: "normal",
-    evolution: [
-
-    ],
+    evolution: [],
     color: "Gray",
     formNumber: 15,
     formName: "Type: Ice",
     baseId: "SILVALLY",
-    megaStone: null
+    megaStone: null,
   },
   {
     id: "SILVALLY",
     name: "Silvally",
-    types: [
-      "DRAGON"
-    ],
+    types: ["DRAGON"],
     sprite: "/Front/SILVALLY_16.png",
     backSprite: "/spritesBack/SILVALLY_16.png",
-    description: "Its trust in its partner is what awakens it. This Pokémon is capable of changing its type, a flexibility that is well displayed in battle.",
+    description:
+      "Its trust in its partner is what awakens it. This Pokémon is capable of changing its type, a flexibility that is well displayed in battle.",
     stats: {
       hp: 95,
       attack: 95,
       defense: 95,
       spAttack: 95,
       spDefense: 95,
-      speed: 95
+      speed: 95,
     },
     height: "2.3",
     weight: "100.5",
-    abilities: [
-      "RKSSYSTEM"
-    ],
-    hiddenAbilities: [
-
-    ],
+    abilities: ["RKSSYSTEM"],
+    hiddenAbilities: [],
     category: "Synthetic",
     moves: [
       "MULTIATTACK",
@@ -35934,7 +33155,7 @@ export const pokemonForms: PokemonForm[] =
       "CRUNCH",
       "TAKEDOWN",
       "DOUBLEEDGE",
-      "PARTINGSHOT"
+      "PARTINGSHOT",
     ],
     tutorMoves: [
       "AERIALACE",
@@ -36010,46 +33231,37 @@ export const pokemonForms: PokemonForm[] =
       "UTURN",
       "WORKUP",
       "XSCISSOR",
-      "ZENHEADBUTT"
+      "ZENHEADBUTT",
     ],
-    eggMoves: [
-
-    ],
+    eggMoves: [],
     suffix: "normal",
-    evolution: [
-
-    ],
+    evolution: [],
     color: "Gray",
     formNumber: 16,
     formName: "Type: Dragon",
     baseId: "SILVALLY",
-    megaStone: null
+    megaStone: null,
   },
   {
     id: "SILVALLY",
     name: "Silvally",
-    types: [
-      "DARK"
-    ],
+    types: ["DARK"],
     sprite: "/Front/SILVALLY_17.png",
     backSprite: "/spritesBack/SILVALLY_17.png",
-    description: "Its trust in its partner is what awakens it. This Pokémon is capable of changing its type, a flexibility that is well displayed in battle.",
+    description:
+      "Its trust in its partner is what awakens it. This Pokémon is capable of changing its type, a flexibility that is well displayed in battle.",
     stats: {
       hp: 95,
       attack: 95,
       defense: 95,
       spAttack: 95,
       spDefense: 95,
-      speed: 95
+      speed: 95,
     },
     height: "2.3",
     weight: "100.5",
-    abilities: [
-      "RKSSYSTEM"
-    ],
-    hiddenAbilities: [
-
-    ],
+    abilities: ["RKSSYSTEM"],
+    hiddenAbilities: [],
     category: "Synthetic",
     moves: [
       "MULTIATTACK",
@@ -36073,7 +33285,7 @@ export const pokemonForms: PokemonForm[] =
       "CRUNCH",
       "TAKEDOWN",
       "DOUBLEEDGE",
-      "PARTINGSHOT"
+      "PARTINGSHOT",
     ],
     tutorMoves: [
       "AERIALACE",
@@ -36149,46 +33361,37 @@ export const pokemonForms: PokemonForm[] =
       "UTURN",
       "WORKUP",
       "XSCISSOR",
-      "ZENHEADBUTT"
+      "ZENHEADBUTT",
     ],
-    eggMoves: [
-
-    ],
+    eggMoves: [],
     suffix: "normal",
-    evolution: [
-
-    ],
+    evolution: [],
     color: "Gray",
     formNumber: 17,
     formName: "Type: Dark",
     baseId: "SILVALLY",
-    megaStone: null
+    megaStone: null,
   },
   {
     id: "SILVALLY",
     name: "Silvally",
-    types: [
-      "FAIRY"
-    ],
+    types: ["FAIRY"],
     sprite: "/Front/SILVALLY_18.png",
     backSprite: "/spritesBack/SILVALLY_18.png",
-    description: "Its trust in its partner is what awakens it. This Pokémon is capable of changing its type, a flexibility that is well displayed in battle.",
+    description:
+      "Its trust in its partner is what awakens it. This Pokémon is capable of changing its type, a flexibility that is well displayed in battle.",
     stats: {
       hp: 95,
       attack: 95,
       defense: 95,
       spAttack: 95,
       spDefense: 95,
-      speed: 95
+      speed: 95,
     },
     height: "2.3",
     weight: "100.5",
-    abilities: [
-      "RKSSYSTEM"
-    ],
-    hiddenAbilities: [
-
-    ],
+    abilities: ["RKSSYSTEM"],
+    hiddenAbilities: [],
     category: "Synthetic",
     moves: [
       "MULTIATTACK",
@@ -36212,7 +33415,7 @@ export const pokemonForms: PokemonForm[] =
       "CRUNCH",
       "TAKEDOWN",
       "DOUBLEEDGE",
-      "PARTINGSHOT"
+      "PARTINGSHOT",
     ],
     tutorMoves: [
       "AERIALACE",
@@ -36288,47 +33491,37 @@ export const pokemonForms: PokemonForm[] =
       "UTURN",
       "WORKUP",
       "XSCISSOR",
-      "ZENHEADBUTT"
+      "ZENHEADBUTT",
     ],
-    eggMoves: [
-
-    ],
+    eggMoves: [],
     suffix: "normal",
-    evolution: [
-
-    ],
+    evolution: [],
     color: "Gray",
     formNumber: 18,
     formName: "Type: Fairy",
     baseId: "SILVALLY",
-    megaStone: null
+    megaStone: null,
   },
   {
     id: "MINIOR",
     name: "Minior",
-    types: [
-      "ROCK",
-      "FLYING"
-    ],
+    types: ["ROCK", "FLYING"],
     sprite: "/Front/MINIOR_7.png",
     backSprite: "/spritesBack/MINIOR_7.png",
-    description: "If its core stays exposed, it will soon die off. It's possible that it may survive if it's put into a Poké Ball quickly enough.",
+    description:
+      "If its core stays exposed, it will soon die off. It's possible that it may survive if it's put into a Poké Ball quickly enough.",
     stats: {
       hp: 60,
       attack: 100,
       defense: 60,
       spAttack: 100,
       spDefense: 60,
-      speed: 120
+      speed: 120,
     },
     height: "0.3",
     weight: "0.3",
-    abilities: [
-      "SHIELDSDOWN"
-    ],
-    hiddenAbilities: [
-
-    ],
+    abilities: ["SHIELDSDOWN"],
+    hiddenAbilities: [],
     category: "Meteor",
     moves: [
       "TACKLE",
@@ -36345,7 +33538,7 @@ export const pokemonForms: PokemonForm[] =
       "POWERGEM",
       "DOUBLEEDGE",
       "SHELLSMASH",
-      "EXPLOSION"
+      "EXPLOSION",
     ],
     tutorMoves: [
       "ACROBATICS",
@@ -36405,47 +33598,37 @@ export const pokemonForms: PokemonForm[] =
       "TELEKINESIS",
       "TERABLAST",
       "UTURN",
-      "ZENHEADBUTT"
+      "ZENHEADBUTT",
     ],
-    eggMoves: [
-
-    ],
+    eggMoves: [],
     suffix: "normal",
-    evolution: [
-
-    ],
+    evolution: [],
     color: "Red",
     formNumber: 7,
     formName: "Red Core",
     baseId: "MINIOR",
-    megaStone: null
+    megaStone: null,
   },
   {
     id: "MINIOR",
     name: "Minior",
-    types: [
-      "ROCK",
-      "FLYING"
-    ],
+    types: ["ROCK", "FLYING"],
     sprite: "/Front/MINIOR_8.png",
     backSprite: "/spritesBack/MINIOR_8.png",
-    description: "If its core stays exposed, it will soon die off. It's possible that it may survive if it's put into a Poké Ball quickly enough.",
+    description:
+      "If its core stays exposed, it will soon die off. It's possible that it may survive if it's put into a Poké Ball quickly enough.",
     stats: {
       hp: 60,
       attack: 100,
       defense: 60,
       spAttack: 100,
       spDefense: 60,
-      speed: 120
+      speed: 120,
     },
     height: "0.3",
     weight: "0.3",
-    abilities: [
-      "SHIELDSDOWN"
-    ],
-    hiddenAbilities: [
-
-    ],
+    abilities: ["SHIELDSDOWN"],
+    hiddenAbilities: [],
     category: "Meteor",
     moves: [
       "TACKLE",
@@ -36462,7 +33645,7 @@ export const pokemonForms: PokemonForm[] =
       "POWERGEM",
       "DOUBLEEDGE",
       "SHELLSMASH",
-      "EXPLOSION"
+      "EXPLOSION",
     ],
     tutorMoves: [
       "ACROBATICS",
@@ -36522,47 +33705,37 @@ export const pokemonForms: PokemonForm[] =
       "TELEKINESIS",
       "TERABLAST",
       "UTURN",
-      "ZENHEADBUTT"
+      "ZENHEADBUTT",
     ],
-    eggMoves: [
-
-    ],
+    eggMoves: [],
     suffix: "normal",
-    evolution: [
-
-    ],
+    evolution: [],
     color: "Red",
     formNumber: 8,
     formName: "Orange Core",
     baseId: "MINIOR",
-    megaStone: null
+    megaStone: null,
   },
   {
     id: "MINIOR",
     name: "Minior",
-    types: [
-      "ROCK",
-      "FLYING"
-    ],
+    types: ["ROCK", "FLYING"],
     sprite: "/Front/MINIOR_9.png",
     backSprite: "/spritesBack/MINIOR_9.png",
-    description: "If its core stays exposed, it will soon die off. It's possible that it may survive if it's put into a Poké Ball quickly enough.",
+    description:
+      "If its core stays exposed, it will soon die off. It's possible that it may survive if it's put into a Poké Ball quickly enough.",
     stats: {
       hp: 60,
       attack: 100,
       defense: 60,
       spAttack: 100,
       spDefense: 60,
-      speed: 120
+      speed: 120,
     },
     height: "0.3",
     weight: "0.3",
-    abilities: [
-      "SHIELDSDOWN"
-    ],
-    hiddenAbilities: [
-
-    ],
+    abilities: ["SHIELDSDOWN"],
+    hiddenAbilities: [],
     category: "Meteor",
     moves: [
       "TACKLE",
@@ -36579,7 +33752,7 @@ export const pokemonForms: PokemonForm[] =
       "POWERGEM",
       "DOUBLEEDGE",
       "SHELLSMASH",
-      "EXPLOSION"
+      "EXPLOSION",
     ],
     tutorMoves: [
       "ACROBATICS",
@@ -36639,47 +33812,37 @@ export const pokemonForms: PokemonForm[] =
       "TELEKINESIS",
       "TERABLAST",
       "UTURN",
-      "ZENHEADBUTT"
+      "ZENHEADBUTT",
     ],
-    eggMoves: [
-
-    ],
+    eggMoves: [],
     suffix: "normal",
-    evolution: [
-
-    ],
+    evolution: [],
     color: "Yellow",
     formNumber: 9,
     formName: "Yellow Core",
     baseId: "MINIOR",
-    megaStone: null
+    megaStone: null,
   },
   {
     id: "MINIOR",
     name: "Minior",
-    types: [
-      "ROCK",
-      "FLYING"
-    ],
+    types: ["ROCK", "FLYING"],
     sprite: "/Front/MINIOR_10.png",
     backSprite: "/spritesBack/MINIOR_10.png",
-    description: "If its core stays exposed, it will soon die off. It's possible that it may survive if it's put into a Poké Ball quickly enough.",
+    description:
+      "If its core stays exposed, it will soon die off. It's possible that it may survive if it's put into a Poké Ball quickly enough.",
     stats: {
       hp: 60,
       attack: 100,
       defense: 60,
       spAttack: 100,
       spDefense: 60,
-      speed: 120
+      speed: 120,
     },
     height: "0.3",
     weight: "0.3",
-    abilities: [
-      "SHIELDSDOWN"
-    ],
-    hiddenAbilities: [
-
-    ],
+    abilities: ["SHIELDSDOWN"],
+    hiddenAbilities: [],
     category: "Meteor",
     moves: [
       "TACKLE",
@@ -36696,7 +33859,7 @@ export const pokemonForms: PokemonForm[] =
       "POWERGEM",
       "DOUBLEEDGE",
       "SHELLSMASH",
-      "EXPLOSION"
+      "EXPLOSION",
     ],
     tutorMoves: [
       "ACROBATICS",
@@ -36756,47 +33919,37 @@ export const pokemonForms: PokemonForm[] =
       "TELEKINESIS",
       "TERABLAST",
       "UTURN",
-      "ZENHEADBUTT"
+      "ZENHEADBUTT",
     ],
-    eggMoves: [
-
-    ],
+    eggMoves: [],
     suffix: "normal",
-    evolution: [
-
-    ],
+    evolution: [],
     color: "Green",
     formNumber: 10,
     formName: "Green Core",
     baseId: "MINIOR",
-    megaStone: null
+    megaStone: null,
   },
   {
     id: "MINIOR",
     name: "Minior",
-    types: [
-      "ROCK",
-      "FLYING"
-    ],
+    types: ["ROCK", "FLYING"],
     sprite: "/Front/MINIOR_11.png",
     backSprite: "/spritesBack/MINIOR_11.png",
-    description: "If its core stays exposed, it will soon die off. It's possible that it may survive if it's put into a Poké Ball quickly enough.",
+    description:
+      "If its core stays exposed, it will soon die off. It's possible that it may survive if it's put into a Poké Ball quickly enough.",
     stats: {
       hp: 60,
       attack: 100,
       defense: 60,
       spAttack: 100,
       spDefense: 60,
-      speed: 120
+      speed: 120,
     },
     height: "0.3",
     weight: "0.3",
-    abilities: [
-      "SHIELDSDOWN"
-    ],
-    hiddenAbilities: [
-
-    ],
+    abilities: ["SHIELDSDOWN"],
+    hiddenAbilities: [],
     category: "Meteor",
     moves: [
       "TACKLE",
@@ -36813,7 +33966,7 @@ export const pokemonForms: PokemonForm[] =
       "POWERGEM",
       "DOUBLEEDGE",
       "SHELLSMASH",
-      "EXPLOSION"
+      "EXPLOSION",
     ],
     tutorMoves: [
       "ACROBATICS",
@@ -36873,47 +34026,37 @@ export const pokemonForms: PokemonForm[] =
       "TELEKINESIS",
       "TERABLAST",
       "UTURN",
-      "ZENHEADBUTT"
+      "ZENHEADBUTT",
     ],
-    eggMoves: [
-
-    ],
+    eggMoves: [],
     suffix: "normal",
-    evolution: [
-
-    ],
+    evolution: [],
     color: "Blue",
     formNumber: 11,
     formName: "Blue Core",
     baseId: "MINIOR",
-    megaStone: null
+    megaStone: null,
   },
   {
     id: "MINIOR",
     name: "Minior",
-    types: [
-      "ROCK",
-      "FLYING"
-    ],
+    types: ["ROCK", "FLYING"],
     sprite: "/Front/MINIOR_12.png",
     backSprite: "/spritesBack/MINIOR_12.png",
-    description: "If its core stays exposed, it will soon die off. It's possible that it may survive if it's put into a Poké Ball quickly enough.",
+    description:
+      "If its core stays exposed, it will soon die off. It's possible that it may survive if it's put into a Poké Ball quickly enough.",
     stats: {
       hp: 60,
       attack: 100,
       defense: 60,
       spAttack: 100,
       spDefense: 60,
-      speed: 120
+      speed: 120,
     },
     height: "0.3",
     weight: "0.3",
-    abilities: [
-      "SHIELDSDOWN"
-    ],
-    hiddenAbilities: [
-
-    ],
+    abilities: ["SHIELDSDOWN"],
+    hiddenAbilities: [],
     category: "Meteor",
     moves: [
       "TACKLE",
@@ -36930,7 +34073,7 @@ export const pokemonForms: PokemonForm[] =
       "POWERGEM",
       "DOUBLEEDGE",
       "SHELLSMASH",
-      "EXPLOSION"
+      "EXPLOSION",
     ],
     tutorMoves: [
       "ACROBATICS",
@@ -36990,47 +34133,37 @@ export const pokemonForms: PokemonForm[] =
       "TELEKINESIS",
       "TERABLAST",
       "UTURN",
-      "ZENHEADBUTT"
+      "ZENHEADBUTT",
     ],
-    eggMoves: [
-
-    ],
+    eggMoves: [],
     suffix: "normal",
-    evolution: [
-
-    ],
+    evolution: [],
     color: "Blue",
     formNumber: 12,
     formName: "Indigo Core",
     baseId: "MINIOR",
-    megaStone: null
+    megaStone: null,
   },
   {
     id: "MINIOR",
     name: "Minior",
-    types: [
-      "ROCK",
-      "FLYING"
-    ],
+    types: ["ROCK", "FLYING"],
     sprite: "/Front/MINIOR_13.png",
     backSprite: "/spritesBack/MINIOR_13.png",
-    description: "If its core stays exposed, it will soon die off. It's possible that it may survive if it's put into a Poké Ball quickly enough.",
+    description:
+      "If its core stays exposed, it will soon die off. It's possible that it may survive if it's put into a Poké Ball quickly enough.",
     stats: {
       hp: 60,
       attack: 100,
       defense: 60,
       spAttack: 100,
       spDefense: 60,
-      speed: 120
+      speed: 120,
     },
     height: "0.3",
     weight: "0.3",
-    abilities: [
-      "SHIELDSDOWN"
-    ],
-    hiddenAbilities: [
-
-    ],
+    abilities: ["SHIELDSDOWN"],
+    hiddenAbilities: [],
     category: "Meteor",
     moves: [
       "TACKLE",
@@ -37047,7 +34180,7 @@ export const pokemonForms: PokemonForm[] =
       "POWERGEM",
       "DOUBLEEDGE",
       "SHELLSMASH",
-      "EXPLOSION"
+      "EXPLOSION",
     ],
     tutorMoves: [
       "ACROBATICS",
@@ -37107,47 +34240,37 @@ export const pokemonForms: PokemonForm[] =
       "TELEKINESIS",
       "TERABLAST",
       "UTURN",
-      "ZENHEADBUTT"
+      "ZENHEADBUTT",
     ],
-    eggMoves: [
-
-    ],
+    eggMoves: [],
     suffix: "normal",
-    evolution: [
-
-    ],
+    evolution: [],
     color: "Purple",
     formNumber: 13,
     formName: "Violet Core",
     baseId: "MINIOR",
-    megaStone: null
+    megaStone: null,
   },
   {
     id: "MIMIKYU",
     name: "Mimikyu",
-    types: [
-      "GHOST",
-      "FAIRY"
-    ],
+    types: ["GHOST", "FAIRY"],
     sprite: "/Front/MIMIKYU_1.png",
     backSprite: "/spritesBack/MIMIKYU_1.png",
-    description: "Sad that its true identity may be exposed, Mimikyu will mercilessly seek revenge on any opponent that breaks its neck.",
+    description:
+      "Sad that its true identity may be exposed, Mimikyu will mercilessly seek revenge on any opponent that breaks its neck.",
     stats: {
       hp: 55,
       attack: 90,
       defense: 80,
       spAttack: 50,
       spDefense: 105,
-      speed: 96
+      speed: 96,
     },
     height: "0.2",
     weight: "0.7",
-    abilities: [
-      "DISGUISE"
-    ],
-    hiddenAbilities: [
-
-    ],
+    abilities: ["DISGUISE"],
+    hiddenAbilities: [],
     category: "Disguise",
     moves: [
       "SPLASH",
@@ -37164,7 +34287,7 @@ export const pokemonForms: PokemonForm[] =
       "SHADOWCLAW",
       "CHARM",
       "PLAYROUGH",
-      "PAINSPLIT"
+      "PAINSPLIT",
     ],
     tutorMoves: [
       "AFTERYOU",
@@ -37241,49 +34364,37 @@ export const pokemonForms: PokemonForm[] =
       "TRICKROOM",
       "WILLOWISP",
       "WORKUP",
-      "XSCISSOR"
+      "XSCISSOR",
     ],
-    eggMoves: [
-      "CURSE",
-      "DESTINYBOND",
-      "GRUDGE"
-    ],
+    eggMoves: ["CURSE", "DESTINYBOND", "GRUDGE"],
     suffix: "normal",
-    evolution: [
-
-    ],
+    evolution: [],
     color: "Yellow",
     formNumber: 1,
     formName: "Busted Form",
     baseId: "MIMIKYU",
-    megaStone: null
+    megaStone: null,
   },
   {
     id: "NECROZMA",
     name: "Necrozma",
-    types: [
-      "PSYCHIC",
-      "STEEL"
-    ],
+    types: ["PSYCHIC", "STEEL"],
     sprite: "/Front/NECROZMA_1.png",
     backSprite: "/spritesBack/NECROZMA_1.png",
-    description: "This is Necrozma's form while it's absorbing the power of Solgaleo, making it extremely ferocious and impossible to control.",
+    description:
+      "This is Necrozma's form while it's absorbing the power of Solgaleo, making it extremely ferocious and impossible to control.",
     stats: {
       hp: 97,
       attack: 157,
       defense: 127,
       spAttack: 113,
       spDefense: 109,
-      speed: 77
+      speed: 77,
     },
     height: "3.8",
     weight: "460.0",
-    abilities: [
-      "PRISMARMOR"
-    ],
-    hiddenAbilities: [
-
-    ],
+    abilities: ["PRISMARMOR"],
+    hiddenAbilities: [],
     category: "Prism",
     moves: [
       "MOONLIGHT",
@@ -37301,7 +34412,7 @@ export const pokemonForms: PokemonForm[] =
       "POWERGEM",
       "PHOTONGEYSER",
       "GRAVITY",
-      "PRISMATICLASER"
+      "PRISMATICLASER",
     ],
     tutorMoves: [
       "AERIALACE",
@@ -37383,47 +34494,37 @@ export const pokemonForms: PokemonForm[] =
       "TERABLAST",
       "THIEF",
       "TRICKROOM",
-      "XSCISSOR"
+      "XSCISSOR",
     ],
-    eggMoves: [
-
-    ],
+    eggMoves: [],
     suffix: "normal",
-    evolution: [
-
-    ],
+    evolution: [],
     color: "Yellow",
     formNumber: 1,
     formName: "Dusk Mane",
     baseId: "NECROZMA",
-    megaStone: null
+    megaStone: null,
   },
   {
     id: "NECROZMA",
     name: "Necrozma",
-    types: [
-      "PSYCHIC",
-      "GHOST"
-    ],
+    types: ["PSYCHIC", "GHOST"],
     sprite: "/Front/NECROZMA_2.png",
     backSprite: "/spritesBack/NECROZMA_2.png",
-    description: "Lunala no longer has a will of its own. Now under the control of Necrozma, it continuously expels all of its energy.",
+    description:
+      "Lunala no longer has a will of its own. Now under the control of Necrozma, it continuously expels all of its energy.",
     stats: {
       hp: 97,
       attack: 113,
       defense: 109,
       spAttack: 157,
       spDefense: 127,
-      speed: 77
+      speed: 77,
     },
     height: "4.2",
     weight: "350.0",
-    abilities: [
-      "PRISMARMOR"
-    ],
-    hiddenAbilities: [
-
-    ],
+    abilities: ["PRISMARMOR"],
+    hiddenAbilities: [],
     category: "Prism",
     moves: [
       "MOONLIGHT",
@@ -37441,7 +34542,7 @@ export const pokemonForms: PokemonForm[] =
       "POWERGEM",
       "PHOTONGEYSER",
       "GRAVITY",
-      "PRISMATICLASER"
+      "PRISMATICLASER",
     ],
     tutorMoves: [
       "AERIALACE",
@@ -37523,47 +34624,37 @@ export const pokemonForms: PokemonForm[] =
       "TERABLAST",
       "THIEF",
       "TRICKROOM",
-      "XSCISSOR"
+      "XSCISSOR",
     ],
-    eggMoves: [
-
-    ],
+    eggMoves: [],
     suffix: "normal",
-    evolution: [
-
-    ],
+    evolution: [],
     color: "Blue",
     formNumber: 2,
     formName: "Dawn Wings",
     baseId: "NECROZMA",
-    megaStone: null
+    megaStone: null,
   },
   {
     id: "NECROZMA",
     name: "Necrozma",
-    types: [
-      "PSYCHIC",
-      "DRAGON"
-    ],
+    types: ["PSYCHIC", "DRAGON"],
     sprite: "/Front/NECROZMA_3.png",
     backSprite: "/spritesBack/NECROZMA_3.png",
-    description: "The light pouring out from all over its body affects living things and nature, impacting them in various ways.",
+    description:
+      "The light pouring out from all over its body affects living things and nature, impacting them in various ways.",
     stats: {
       hp: 97,
       attack: 167,
       defense: 97,
       spAttack: 167,
       spDefense: 97,
-      speed: 129
+      speed: 129,
     },
     height: "7.5",
     weight: "230.0",
-    abilities: [
-      "NEUROFORCE"
-    ],
-    hiddenAbilities: [
-
-    ],
+    abilities: ["NEUROFORCE"],
+    hiddenAbilities: [],
     category: "Prism",
     moves: [
       "MOONLIGHT",
@@ -37581,7 +34672,7 @@ export const pokemonForms: PokemonForm[] =
       "POWERGEM",
       "PHOTONGEYSER",
       "GRAVITY",
-      "PRISMATICLASER"
+      "PRISMATICLASER",
     ],
     tutorMoves: [
       "AERIALACE",
@@ -37663,47 +34754,37 @@ export const pokemonForms: PokemonForm[] =
       "TERABLAST",
       "THIEF",
       "TRICKROOM",
-      "XSCISSOR"
+      "XSCISSOR",
     ],
-    eggMoves: [
-
-    ],
+    eggMoves: [],
     suffix: "normal",
-    evolution: [
-
-    ],
+    evolution: [],
     color: "Yellow",
     formNumber: 3,
     formName: "Ultra Necrozma",
     baseId: "NECROZMA",
-    megaStone: null
+    megaStone: null,
   },
   {
     id: "NECROZMA",
     name: "Necrozma",
-    types: [
-      "PSYCHIC",
-      "DRAGON"
-    ],
+    types: ["PSYCHIC", "DRAGON"],
     sprite: "/Front/NECROZMA_4.png",
     backSprite: "/spritesBack/NECROZMA_4.png",
-    description: "Light is apparently the source of its energy. It has an extraordinarily vicious disposition and is constantly firing off laser beams.",
+    description:
+      "Light is apparently the source of its energy. It has an extraordinarily vicious disposition and is constantly firing off laser beams.",
     stats: {
       hp: 97,
       attack: 167,
       defense: 97,
       spAttack: 167,
       spDefense: 97,
-      speed: 129
+      speed: 129,
     },
     height: "7.5",
     weight: "230.0",
-    abilities: [
-      "NEUROFORCE"
-    ],
-    hiddenAbilities: [
-
-    ],
+    abilities: ["NEUROFORCE"],
+    hiddenAbilities: [],
     category: "Prism",
     moves: [
       "MOONLIGHT",
@@ -37721,7 +34802,7 @@ export const pokemonForms: PokemonForm[] =
       "POWERGEM",
       "PHOTONGEYSER",
       "GRAVITY",
-      "PRISMATICLASER"
+      "PRISMATICLASER",
     ],
     tutorMoves: [
       "AERIALACE",
@@ -37803,47 +34884,37 @@ export const pokemonForms: PokemonForm[] =
       "TERABLAST",
       "THIEF",
       "TRICKROOM",
-      "XSCISSOR"
+      "XSCISSOR",
     ],
-    eggMoves: [
-
-    ],
+    eggMoves: [],
     suffix: "normal",
-    evolution: [
-
-    ],
+    evolution: [],
     color: "Yellow",
     formNumber: 4,
     formName: "",
     baseId: "NECROZMA",
-    megaStone: null
+    megaStone: null,
   },
   {
     id: "MAGEARNA",
     name: "Magearna",
-    types: [
-      "STEEL",
-      "FAIRY"
-    ],
+    types: ["STEEL", "FAIRY"],
     sprite: "/Front/MAGEARNA_1.png",
     backSprite: "/spritesBack/MAGEARNA_1.png",
-    description: "This gorgeous Magearna looks as it did at the time of its invention. Its luxurious decoration pleased the king's daughter.",
+    description:
+      "This gorgeous Magearna looks as it did at the time of its invention. Its luxurious decoration pleased the king's daughter.",
     stats: {
       hp: 80,
       attack: 95,
       defense: 115,
       spAttack: 130,
       spDefense: 115,
-      speed: 65
+      speed: 65,
     },
     height: "1.0",
     weight: "80.5",
-    abilities: [
-      "SOULHEART"
-    ],
-    hiddenAbilities: [
-
-    ],
+    abilities: ["SOULHEART"],
+    hiddenAbilities: [],
     category: "Artificial",
     moves: [
       "GYROBALL",
@@ -37862,7 +34933,7 @@ export const pokemonForms: PokemonForm[] =
       "FLASHCANNON",
       "PAINSPLIT",
       "ZAPCANNON",
-      "FLEURCANNON"
+      "FLEURCANNON",
     ],
     tutorMoves: [
       "AFTERYOU",
@@ -37955,47 +35026,37 @@ export const pokemonForms: PokemonForm[] =
       "TRICK",
       "TRICKROOM",
       "VOLTSWITCH",
-      "ZENHEADBUTT"
+      "ZENHEADBUTT",
     ],
-    eggMoves: [
-
-    ],
+    eggMoves: [],
     suffix: "normal",
-    evolution: [
-
-    ],
+    evolution: [],
     color: "Red",
     formNumber: 1,
     formName: "Original Color",
     baseId: "MAGEARNA",
-    megaStone: null
+    megaStone: null,
   },
   {
     id: "CRAMORANT",
     name: "Cramorant",
-    types: [
-      "FLYING",
-      "WATER"
-    ],
+    types: ["FLYING", "WATER"],
     sprite: "/Front/CRAMORANT_1.png",
     backSprite: "/spritesBack/CRAMORANT_1.png",
-    description: "Cramorant's gluttony led it to try to swallow an Arrokuda whole, which in turn led to Cramorant getting an Arrokuda stuck in its throat.",
+    description:
+      "Cramorant's gluttony led it to try to swallow an Arrokuda whole, which in turn led to Cramorant getting an Arrokuda stuck in its throat.",
     stats: {
       hp: 70,
       attack: 85,
       defense: 55,
       spAttack: 85,
       spDefense: 95,
-      speed: 85
+      speed: 85,
     },
     height: "0.8",
     weight: "18.0",
-    abilities: [
-      "GULPMISSILE"
-    ],
-    hiddenAbilities: [
-
-    ],
+    abilities: ["GULPMISSILE"],
+    hiddenAbilities: [],
     category: "Gulp",
     moves: [
       "BELCH",
@@ -38010,7 +35071,7 @@ export const pokemonForms: PokemonForm[] =
       "DRILLPECK",
       "AMNESIA",
       "THRASH",
-      "HYDROPUMP"
+      "HYDROPUMP",
     ],
     tutorMoves: [
       "ACROBATICS",
@@ -38068,7 +35129,7 @@ export const pokemonForms: PokemonForm[] =
       "UPROAR",
       "WATERPULSE",
       "WEATHERBALL",
-      "WHIRLPOOL"
+      "WHIRLPOOL",
     ],
     eggMoves: [
       "AERIALACE",
@@ -38076,44 +35137,36 @@ export const pokemonForms: PokemonForm[] =
       "AQUARING",
       "DEFOG",
       "FEATHERDANCE",
-      "ROOST"
+      "ROOST",
     ],
     suffix: "normal",
-    evolution: [
-
-    ],
+    evolution: [],
     color: "Blue",
     formNumber: 1,
     formName: "Gulping Form",
     baseId: "CRAMORANT",
-    megaStone: null
+    megaStone: null,
   },
   {
     id: "CRAMORANT",
     name: "Cramorant",
-    types: [
-      "FLYING",
-      "WATER"
-    ],
+    types: ["FLYING", "WATER"],
     sprite: "/Front/CRAMORANT_2.png",
     backSprite: "/spritesBack/CRAMORANT_2.png",
-    description: "This Cramorant has accidentally gotten a Pikachu lodged in its gullet. Cramorant is choking a little, but it isn't really bothered.",
+    description:
+      "This Cramorant has accidentally gotten a Pikachu lodged in its gullet. Cramorant is choking a little, but it isn't really bothered.",
     stats: {
       hp: 70,
       attack: 85,
       defense: 55,
       spAttack: 85,
       spDefense: 95,
-      speed: 85
+      speed: 85,
     },
     height: "0.8",
     weight: "18.0",
-    abilities: [
-      "GULPMISSILE"
-    ],
-    hiddenAbilities: [
-
-    ],
+    abilities: ["GULPMISSILE"],
+    hiddenAbilities: [],
     category: "Gulp",
     moves: [
       "BELCH",
@@ -38128,7 +35181,7 @@ export const pokemonForms: PokemonForm[] =
       "DRILLPECK",
       "AMNESIA",
       "THRASH",
-      "HYDROPUMP"
+      "HYDROPUMP",
     ],
     tutorMoves: [
       "ACROBATICS",
@@ -38186,7 +35239,7 @@ export const pokemonForms: PokemonForm[] =
       "UPROAR",
       "WATERPULSE",
       "WEATHERBALL",
-      "WHIRLPOOL"
+      "WHIRLPOOL",
     ],
     eggMoves: [
       "AERIALACE",
@@ -38194,45 +35247,36 @@ export const pokemonForms: PokemonForm[] =
       "AQUARING",
       "DEFOG",
       "FEATHERDANCE",
-      "ROOST"
+      "ROOST",
     ],
     suffix: "normal",
-    evolution: [
-
-    ],
+    evolution: [],
     color: "Blue",
     formNumber: 2,
     formName: "Gorging Form",
     baseId: "CRAMORANT",
-    megaStone: null
+    megaStone: null,
   },
   {
     id: "TOXTRICITY",
     name: "Toxtricity",
-    types: [
-      "ELECTRIC",
-      "POISON"
-    ],
+    types: ["ELECTRIC", "POISON"],
     sprite: "/Front/TOXTRICITY_1.png",
     backSprite: "/spritesBack/TOXTRICITY_1.png",
-    description: "Capable of generating 15,000 volts of electricity, this Pokémon looks down on all that would challenge it.",
+    description:
+      "Capable of generating 15,000 volts of electricity, this Pokémon looks down on all that would challenge it.",
     stats: {
       hp: 75,
       attack: 98,
       defense: 70,
       spAttack: 114,
       spDefense: 70,
-      speed: 75
+      speed: 75,
     },
     height: "1.6",
     weight: "40.0",
-    abilities: [
-      "PUNKROCK",
-      "MINUS"
-    ],
-    hiddenAbilities: [
-      "TECHNICIAN"
-    ],
+    abilities: ["PUNKROCK", "MINUS"],
+    hiddenAbilities: ["TECHNICIAN"],
     category: "Punk",
     moves: [
       "SPARK",
@@ -38257,7 +35301,7 @@ export const pokemonForms: PokemonForm[] =
       "POISONJAB",
       "OVERDRIVE",
       "BOOMBURST",
-      "MAGNETICFLUX"
+      "MAGNETICFLUX",
     ],
     tutorMoves: [
       "ATTRACT",
@@ -38313,46 +35357,37 @@ export const pokemonForms: PokemonForm[] =
       "UPROAR",
       "VENOMDRENCH",
       "VOLTSWITCH",
-      "WILDCHARGE"
+      "WILDCHARGE",
     ],
-    eggMoves: [
-
-    ],
+    eggMoves: [],
     suffix: "normal",
-    evolution: [
-
-    ],
+    evolution: [],
     color: "Purple",
     formNumber: 1,
     formName: "Low Key Form",
     baseId: "TOXTRICITY",
-    megaStone: null
+    megaStone: null,
   },
   {
     id: "SINISTEA",
     name: "Sinistea",
-    types: [
-      "GHOST"
-    ],
+    types: ["GHOST"],
     sprite: "/Front/SINISTEA_1.png",
     backSprite: "/spritesBack/SINISTEA_1.png",
-    description: "The swirl pattern in this Pokémon's body is its weakness. If it gets stirred, the swirl loses its shape, and Sinistea gets dizzy.",
+    description:
+      "The swirl pattern in this Pokémon's body is its weakness. If it gets stirred, the swirl loses its shape, and Sinistea gets dizzy.",
     stats: {
       hp: 40,
       attack: 45,
       defense: 45,
       spAttack: 74,
       spDefense: 54,
-      speed: 50
+      speed: 50,
     },
     height: "0.1",
     weight: "0.2",
-    abilities: [
-      "WEAKARMOR"
-    ],
-    hiddenAbilities: [
-      "CURSEDBODY"
-    ],
+    abilities: ["WEAKARMOR"],
+    hiddenAbilities: ["CURSEDBODY"],
     category: "Black Tea",
     moves: [
       "ASTONISH",
@@ -38365,7 +35400,7 @@ export const pokemonForms: PokemonForm[] =
       "NASTYPLOT",
       "SHADOWBALL",
       "MEMENTO",
-      "SHELLSMASH"
+      "SHELLSMASH",
     ],
     tutorMoves: [
       "ALLYSWITCH",
@@ -38413,50 +35448,43 @@ export const pokemonForms: PokemonForm[] =
       "TRICK",
       "TRICKROOM",
       "WILLOWISP",
-      "WONDERROOM"
+      "WONDERROOM",
     ],
-    eggMoves: [
-      "ALLYSWITCH"
-    ],
+    eggMoves: ["ALLYSWITCH"],
     suffix: "normal",
     evolution: [
       {
         to: "POLTEAGEIST",
         method: "Item",
-        value: "CHIPPEDPOT"
-      }
+        value: "CHIPPEDPOT",
+      },
     ],
     color: "Purple",
     formNumber: 1,
     formName: "Antique Form",
     baseId: "SINISTEA",
-    megaStone: null
+    megaStone: null,
   },
   {
     id: "POLTEAGEIST",
     name: "Polteageist",
-    types: [
-      "GHOST"
-    ],
+    types: ["GHOST"],
     sprite: "/Front/POLTEAGEIST_1.png",
     backSprite: "/spritesBack/POLTEAGEIST_1.png",
-    description: "Trainers Polteageist trusts will be allowed to experience its distinctive flavor and aroma firsthand by sampling just a tiny bit of its tea.",
+    description:
+      "Trainers Polteageist trusts will be allowed to experience its distinctive flavor and aroma firsthand by sampling just a tiny bit of its tea.",
     stats: {
       hp: 60,
       attack: 65,
       defense: 65,
       spAttack: 134,
       spDefense: 114,
-      speed: 70
+      speed: 70,
     },
     height: "0.2",
     weight: "0.4",
-    abilities: [
-      "WEAKARMOR"
-    ],
-    hiddenAbilities: [
-      "CURSEDBODY"
-    ],
+    abilities: ["WEAKARMOR"],
+    hiddenAbilities: ["CURSEDBODY"],
     category: "Black Tea",
     moves: [
       "TEATIME",
@@ -38473,7 +35501,7 @@ export const pokemonForms: PokemonForm[] =
       "SHADOWBALL",
       "MEMENTO",
       "SHELLSMASH",
-      "CURSE"
+      "CURSE",
     ],
     tutorMoves: [
       "ALLYSWITCH",
@@ -38527,46 +35555,37 @@ export const pokemonForms: PokemonForm[] =
       "TRICK",
       "TRICKROOM",
       "WILLOWISP",
-      "WONDERROOM"
+      "WONDERROOM",
     ],
-    eggMoves: [
-
-    ],
+    eggMoves: [],
     suffix: "normal",
-    evolution: [
-
-    ],
+    evolution: [],
     color: "Purple",
     formNumber: 1,
     formName: "Antique Form",
     baseId: "POLTEAGEIST",
-    megaStone: null
+    megaStone: null,
   },
   {
     id: "ALCREMIE",
     name: "Alcremie",
-    types: [
-      "FAIRY"
-    ],
+    types: ["FAIRY"],
     sprite: "/Front/ALCREMIE_7.png",
     backSprite: "/spritesBack/ALCREMIE_7.png",
-    description: "The cells that compose its cream fluctuated suddenly during evolution, giving the cream a sweet and tart flavor.",
+    description:
+      "The cells that compose its cream fluctuated suddenly during evolution, giving the cream a sweet and tart flavor.",
     stats: {
       hp: 65,
       attack: 60,
       defense: 75,
       spAttack: 110,
       spDefense: 121,
-      speed: 64
+      speed: 64,
     },
     height: "0.3",
     weight: "0.5",
-    abilities: [
-      "SWEETVEIL"
-    ],
-    hiddenAbilities: [
-      "AROMAVEIL"
-    ],
+    abilities: ["SWEETVEIL"],
+    hiddenAbilities: ["AROMAVEIL"],
     category: "Cream",
     moves: [
       "DECORATE",
@@ -38581,7 +35600,7 @@ export const pokemonForms: PokemonForm[] =
       "DAZZLINGGLEAM",
       "RECOVER",
       "MISTYTERRAIN",
-      "ENTRAINMENT"
+      "ENTRAINMENT",
     ],
     tutorMoves: [
       "ALLURINGVOICE",
@@ -38637,46 +35656,37 @@ export const pokemonForms: PokemonForm[] =
       "SWAGGER",
       "TERABLAST",
       "TRIATTACK",
-      "WONDERROOM"
+      "WONDERROOM",
     ],
-    eggMoves: [
-
-    ],
+    eggMoves: [],
     suffix: "normal",
-    evolution: [
-
-    ],
+    evolution: [],
     color: "White",
     formNumber: 7,
     formName: "Ruby Cream",
     baseId: "ALCREMIE",
-    megaStone: null
+    megaStone: null,
   },
   {
     id: "ALCREMIE",
     name: "Alcremie",
-    types: [
-      "FAIRY"
-    ],
+    types: ["FAIRY"],
     sprite: "/Front/ALCREMIE_8.png",
     backSprite: "/spritesBack/ALCREMIE_8.png",
-    description: "When Alcremie is content, the cream it secretes from its hands becomes sweeter and richer.",
+    description:
+      "When Alcremie is content, the cream it secretes from its hands becomes sweeter and richer.",
     stats: {
       hp: 65,
       attack: 60,
       defense: 75,
       spAttack: 110,
       spDefense: 121,
-      speed: 64
+      speed: 64,
     },
     height: "0.3",
     weight: "0.5",
-    abilities: [
-      "SWEETVEIL"
-    ],
-    hiddenAbilities: [
-      "AROMAVEIL"
-    ],
+    abilities: ["SWEETVEIL"],
+    hiddenAbilities: ["AROMAVEIL"],
     category: "Cream",
     moves: [
       "DECORATE",
@@ -38691,7 +35701,7 @@ export const pokemonForms: PokemonForm[] =
       "DAZZLINGGLEAM",
       "RECOVER",
       "MISTYTERRAIN",
-      "ENTRAINMENT"
+      "ENTRAINMENT",
     ],
     tutorMoves: [
       "ALLURINGVOICE",
@@ -38747,46 +35757,37 @@ export const pokemonForms: PokemonForm[] =
       "SWAGGER",
       "TERABLAST",
       "TRIATTACK",
-      "WONDERROOM"
+      "WONDERROOM",
     ],
-    eggMoves: [
-
-    ],
+    eggMoves: [],
     suffix: "normal",
-    evolution: [
-
-    ],
+    evolution: [],
     color: "White",
     formNumber: 8,
     formName: "",
     baseId: "ALCREMIE",
-    megaStone: null
+    megaStone: null,
   },
   {
     id: "ALCREMIE",
     name: "Alcremie",
-    types: [
-      "FAIRY"
-    ],
+    types: ["FAIRY"],
     sprite: "/Front/ALCREMIE_9.png",
     backSprite: "/spritesBack/ALCREMIE_9.png",
-    description: "When Alcremie is content, the cream it secretes from its hands becomes sweeter and richer.",
+    description:
+      "When Alcremie is content, the cream it secretes from its hands becomes sweeter and richer.",
     stats: {
       hp: 65,
       attack: 60,
       defense: 75,
       spAttack: 110,
       spDefense: 121,
-      speed: 64
+      speed: 64,
     },
     height: "0.3",
     weight: "0.5",
-    abilities: [
-      "SWEETVEIL"
-    ],
-    hiddenAbilities: [
-      "AROMAVEIL"
-    ],
+    abilities: ["SWEETVEIL"],
+    hiddenAbilities: ["AROMAVEIL"],
     category: "Cream",
     moves: [
       "DECORATE",
@@ -38801,7 +35802,7 @@ export const pokemonForms: PokemonForm[] =
       "DAZZLINGGLEAM",
       "RECOVER",
       "MISTYTERRAIN",
-      "ENTRAINMENT"
+      "ENTRAINMENT",
     ],
     tutorMoves: [
       "ALLURINGVOICE",
@@ -38857,46 +35858,37 @@ export const pokemonForms: PokemonForm[] =
       "SWAGGER",
       "TERABLAST",
       "TRIATTACK",
-      "WONDERROOM"
+      "WONDERROOM",
     ],
-    eggMoves: [
-
-    ],
+    eggMoves: [],
     suffix: "normal",
-    evolution: [
-
-    ],
+    evolution: [],
     color: "White",
     formNumber: 9,
     formName: "",
     baseId: "ALCREMIE",
-    megaStone: null
+    megaStone: null,
   },
   {
     id: "ALCREMIE",
     name: "Alcremie",
-    types: [
-      "FAIRY"
-    ],
+    types: ["FAIRY"],
     sprite: "/Front/ALCREMIE_10.png",
     backSprite: "/spritesBack/ALCREMIE_10.png",
-    description: "When Alcremie is content, the cream it secretes from its hands becomes sweeter and richer.",
+    description:
+      "When Alcremie is content, the cream it secretes from its hands becomes sweeter and richer.",
     stats: {
       hp: 65,
       attack: 60,
       defense: 75,
       spAttack: 110,
       spDefense: 121,
-      speed: 64
+      speed: 64,
     },
     height: "0.3",
     weight: "0.5",
-    abilities: [
-      "SWEETVEIL"
-    ],
-    hiddenAbilities: [
-      "AROMAVEIL"
-    ],
+    abilities: ["SWEETVEIL"],
+    hiddenAbilities: ["AROMAVEIL"],
     category: "Cream",
     moves: [
       "DECORATE",
@@ -38911,7 +35903,7 @@ export const pokemonForms: PokemonForm[] =
       "DAZZLINGGLEAM",
       "RECOVER",
       "MISTYTERRAIN",
-      "ENTRAINMENT"
+      "ENTRAINMENT",
     ],
     tutorMoves: [
       "ALLURINGVOICE",
@@ -38967,46 +35959,37 @@ export const pokemonForms: PokemonForm[] =
       "SWAGGER",
       "TERABLAST",
       "TRIATTACK",
-      "WONDERROOM"
+      "WONDERROOM",
     ],
-    eggMoves: [
-
-    ],
+    eggMoves: [],
     suffix: "normal",
-    evolution: [
-
-    ],
+    evolution: [],
     color: "White",
     formNumber: 10,
     formName: "",
     baseId: "ALCREMIE",
-    megaStone: null
+    megaStone: null,
   },
   {
     id: "ALCREMIE",
     name: "Alcremie",
-    types: [
-      "FAIRY"
-    ],
+    types: ["FAIRY"],
     sprite: "/Front/ALCREMIE_11.png",
     backSprite: "/spritesBack/ALCREMIE_11.png",
-    description: "When Alcremie is content, the cream it secretes from its hands becomes sweeter and richer.",
+    description:
+      "When Alcremie is content, the cream it secretes from its hands becomes sweeter and richer.",
     stats: {
       hp: 65,
       attack: 60,
       defense: 75,
       spAttack: 110,
       spDefense: 121,
-      speed: 64
+      speed: 64,
     },
     height: "0.3",
     weight: "0.5",
-    abilities: [
-      "SWEETVEIL"
-    ],
-    hiddenAbilities: [
-      "AROMAVEIL"
-    ],
+    abilities: ["SWEETVEIL"],
+    hiddenAbilities: ["AROMAVEIL"],
     category: "Cream",
     moves: [
       "DECORATE",
@@ -39021,7 +36004,7 @@ export const pokemonForms: PokemonForm[] =
       "DAZZLINGGLEAM",
       "RECOVER",
       "MISTYTERRAIN",
-      "ENTRAINMENT"
+      "ENTRAINMENT",
     ],
     tutorMoves: [
       "ALLURINGVOICE",
@@ -39077,46 +36060,37 @@ export const pokemonForms: PokemonForm[] =
       "SWAGGER",
       "TERABLAST",
       "TRIATTACK",
-      "WONDERROOM"
+      "WONDERROOM",
     ],
-    eggMoves: [
-
-    ],
+    eggMoves: [],
     suffix: "normal",
-    evolution: [
-
-    ],
+    evolution: [],
     color: "White",
     formNumber: 11,
     formName: "",
     baseId: "ALCREMIE",
-    megaStone: null
+    megaStone: null,
   },
   {
     id: "ALCREMIE",
     name: "Alcremie",
-    types: [
-      "FAIRY"
-    ],
+    types: ["FAIRY"],
     sprite: "/Front/ALCREMIE_12.png",
     backSprite: "/spritesBack/ALCREMIE_12.png",
-    description: "When Alcremie is content, the cream it secretes from its hands becomes sweeter and richer.",
+    description:
+      "When Alcremie is content, the cream it secretes from its hands becomes sweeter and richer.",
     stats: {
       hp: 65,
       attack: 60,
       defense: 75,
       spAttack: 110,
       spDefense: 121,
-      speed: 64
+      speed: 64,
     },
     height: "0.3",
     weight: "0.5",
-    abilities: [
-      "SWEETVEIL"
-    ],
-    hiddenAbilities: [
-      "AROMAVEIL"
-    ],
+    abilities: ["SWEETVEIL"],
+    hiddenAbilities: ["AROMAVEIL"],
     category: "Cream",
     moves: [
       "DECORATE",
@@ -39131,7 +36105,7 @@ export const pokemonForms: PokemonForm[] =
       "DAZZLINGGLEAM",
       "RECOVER",
       "MISTYTERRAIN",
-      "ENTRAINMENT"
+      "ENTRAINMENT",
     ],
     tutorMoves: [
       "ALLURINGVOICE",
@@ -39187,46 +36161,37 @@ export const pokemonForms: PokemonForm[] =
       "SWAGGER",
       "TERABLAST",
       "TRIATTACK",
-      "WONDERROOM"
+      "WONDERROOM",
     ],
-    eggMoves: [
-
-    ],
+    eggMoves: [],
     suffix: "normal",
-    evolution: [
-
-    ],
+    evolution: [],
     color: "White",
     formNumber: 12,
     formName: "",
     baseId: "ALCREMIE",
-    megaStone: null
+    megaStone: null,
   },
   {
     id: "ALCREMIE",
     name: "Alcremie",
-    types: [
-      "FAIRY"
-    ],
+    types: ["FAIRY"],
     sprite: "/Front/ALCREMIE_13.png",
     backSprite: "/spritesBack/ALCREMIE_13.png",
-    description: "When Alcremie is content, the cream it secretes from its hands becomes sweeter and richer.",
+    description:
+      "When Alcremie is content, the cream it secretes from its hands becomes sweeter and richer.",
     stats: {
       hp: 65,
       attack: 60,
       defense: 75,
       spAttack: 110,
       spDefense: 121,
-      speed: 64
+      speed: 64,
     },
     height: "0.3",
     weight: "0.5",
-    abilities: [
-      "SWEETVEIL"
-    ],
-    hiddenAbilities: [
-      "AROMAVEIL"
-    ],
+    abilities: ["SWEETVEIL"],
+    hiddenAbilities: ["AROMAVEIL"],
     category: "Cream",
     moves: [
       "DECORATE",
@@ -39241,7 +36206,7 @@ export const pokemonForms: PokemonForm[] =
       "DAZZLINGGLEAM",
       "RECOVER",
       "MISTYTERRAIN",
-      "ENTRAINMENT"
+      "ENTRAINMENT",
     ],
     tutorMoves: [
       "ALLURINGVOICE",
@@ -39297,46 +36262,37 @@ export const pokemonForms: PokemonForm[] =
       "SWAGGER",
       "TERABLAST",
       "TRIATTACK",
-      "WONDERROOM"
+      "WONDERROOM",
     ],
-    eggMoves: [
-
-    ],
+    eggMoves: [],
     suffix: "normal",
-    evolution: [
-
-    ],
+    evolution: [],
     color: "White",
     formNumber: 13,
     formName: "",
     baseId: "ALCREMIE",
-    megaStone: null
+    megaStone: null,
   },
   {
     id: "ALCREMIE",
     name: "Alcremie",
-    types: [
-      "FAIRY"
-    ],
+    types: ["FAIRY"],
     sprite: "/Front/ALCREMIE_14.png",
     backSprite: "/spritesBack/ALCREMIE_14.png",
-    description: "The cells that compose its cream fluctuated suddenly during evolution, giving the cream an aromatic flavor.",
+    description:
+      "The cells that compose its cream fluctuated suddenly during evolution, giving the cream an aromatic flavor.",
     stats: {
       hp: 65,
       attack: 60,
       defense: 75,
       spAttack: 110,
       spDefense: 121,
-      speed: 64
+      speed: 64,
     },
     height: "0.3",
     weight: "0.5",
-    abilities: [
-      "SWEETVEIL"
-    ],
-    hiddenAbilities: [
-      "AROMAVEIL"
-    ],
+    abilities: ["SWEETVEIL"],
+    hiddenAbilities: ["AROMAVEIL"],
     category: "Cream",
     moves: [
       "DECORATE",
@@ -39351,7 +36307,7 @@ export const pokemonForms: PokemonForm[] =
       "DAZZLINGGLEAM",
       "RECOVER",
       "MISTYTERRAIN",
-      "ENTRAINMENT"
+      "ENTRAINMENT",
     ],
     tutorMoves: [
       "ALLURINGVOICE",
@@ -39407,46 +36363,37 @@ export const pokemonForms: PokemonForm[] =
       "SWAGGER",
       "TERABLAST",
       "TRIATTACK",
-      "WONDERROOM"
+      "WONDERROOM",
     ],
-    eggMoves: [
-
-    ],
+    eggMoves: [],
     suffix: "normal",
-    evolution: [
-
-    ],
+    evolution: [],
     color: "Green",
     formNumber: 14,
     formName: "Matcha Cream",
     baseId: "ALCREMIE",
-    megaStone: null
+    megaStone: null,
   },
   {
     id: "ALCREMIE",
     name: "Alcremie",
-    types: [
-      "FAIRY"
-    ],
+    types: ["FAIRY"],
     sprite: "/Front/ALCREMIE_15.png",
     backSprite: "/spritesBack/ALCREMIE_15.png",
-    description: "When Alcremie is content, the cream it secretes from its hands becomes sweeter and richer.",
+    description:
+      "When Alcremie is content, the cream it secretes from its hands becomes sweeter and richer.",
     stats: {
       hp: 65,
       attack: 60,
       defense: 75,
       spAttack: 110,
       spDefense: 121,
-      speed: 64
+      speed: 64,
     },
     height: "0.3",
     weight: "0.5",
-    abilities: [
-      "SWEETVEIL"
-    ],
-    hiddenAbilities: [
-      "AROMAVEIL"
-    ],
+    abilities: ["SWEETVEIL"],
+    hiddenAbilities: ["AROMAVEIL"],
     category: "Cream",
     moves: [
       "DECORATE",
@@ -39461,7 +36408,7 @@ export const pokemonForms: PokemonForm[] =
       "DAZZLINGGLEAM",
       "RECOVER",
       "MISTYTERRAIN",
-      "ENTRAINMENT"
+      "ENTRAINMENT",
     ],
     tutorMoves: [
       "ALLURINGVOICE",
@@ -39517,46 +36464,37 @@ export const pokemonForms: PokemonForm[] =
       "SWAGGER",
       "TERABLAST",
       "TRIATTACK",
-      "WONDERROOM"
+      "WONDERROOM",
     ],
-    eggMoves: [
-
-    ],
+    eggMoves: [],
     suffix: "normal",
-    evolution: [
-
-    ],
+    evolution: [],
     color: "White",
     formNumber: 15,
     formName: "",
     baseId: "ALCREMIE",
-    megaStone: null
+    megaStone: null,
   },
   {
     id: "ALCREMIE",
     name: "Alcremie",
-    types: [
-      "FAIRY"
-    ],
+    types: ["FAIRY"],
     sprite: "/Front/ALCREMIE_16.png",
     backSprite: "/spritesBack/ALCREMIE_16.png",
-    description: "When Alcremie is content, the cream it secretes from its hands becomes sweeter and richer.",
+    description:
+      "When Alcremie is content, the cream it secretes from its hands becomes sweeter and richer.",
     stats: {
       hp: 65,
       attack: 60,
       defense: 75,
       spAttack: 110,
       spDefense: 121,
-      speed: 64
+      speed: 64,
     },
     height: "0.3",
     weight: "0.5",
-    abilities: [
-      "SWEETVEIL"
-    ],
-    hiddenAbilities: [
-      "AROMAVEIL"
-    ],
+    abilities: ["SWEETVEIL"],
+    hiddenAbilities: ["AROMAVEIL"],
     category: "Cream",
     moves: [
       "DECORATE",
@@ -39571,7 +36509,7 @@ export const pokemonForms: PokemonForm[] =
       "DAZZLINGGLEAM",
       "RECOVER",
       "MISTYTERRAIN",
-      "ENTRAINMENT"
+      "ENTRAINMENT",
     ],
     tutorMoves: [
       "ALLURINGVOICE",
@@ -39627,46 +36565,37 @@ export const pokemonForms: PokemonForm[] =
       "SWAGGER",
       "TERABLAST",
       "TRIATTACK",
-      "WONDERROOM"
+      "WONDERROOM",
     ],
-    eggMoves: [
-
-    ],
+    eggMoves: [],
     suffix: "normal",
-    evolution: [
-
-    ],
+    evolution: [],
     color: "White",
     formNumber: 16,
     formName: "",
     baseId: "ALCREMIE",
-    megaStone: null
+    megaStone: null,
   },
   {
     id: "ALCREMIE",
     name: "Alcremie",
-    types: [
-      "FAIRY"
-    ],
+    types: ["FAIRY"],
     sprite: "/Front/ALCREMIE_17.png",
     backSprite: "/spritesBack/ALCREMIE_17.png",
-    description: "When Alcremie is content, the cream it secretes from its hands becomes sweeter and richer.",
+    description:
+      "When Alcremie is content, the cream it secretes from its hands becomes sweeter and richer.",
     stats: {
       hp: 65,
       attack: 60,
       defense: 75,
       spAttack: 110,
       spDefense: 121,
-      speed: 64
+      speed: 64,
     },
     height: "0.3",
     weight: "0.5",
-    abilities: [
-      "SWEETVEIL"
-    ],
-    hiddenAbilities: [
-      "AROMAVEIL"
-    ],
+    abilities: ["SWEETVEIL"],
+    hiddenAbilities: ["AROMAVEIL"],
     category: "Cream",
     moves: [
       "DECORATE",
@@ -39681,7 +36610,7 @@ export const pokemonForms: PokemonForm[] =
       "DAZZLINGGLEAM",
       "RECOVER",
       "MISTYTERRAIN",
-      "ENTRAINMENT"
+      "ENTRAINMENT",
     ],
     tutorMoves: [
       "ALLURINGVOICE",
@@ -39737,46 +36666,37 @@ export const pokemonForms: PokemonForm[] =
       "SWAGGER",
       "TERABLAST",
       "TRIATTACK",
-      "WONDERROOM"
+      "WONDERROOM",
     ],
-    eggMoves: [
-
-    ],
+    eggMoves: [],
     suffix: "normal",
-    evolution: [
-
-    ],
+    evolution: [],
     color: "White",
     formNumber: 17,
     formName: "",
     baseId: "ALCREMIE",
-    megaStone: null
+    megaStone: null,
   },
   {
     id: "ALCREMIE",
     name: "Alcremie",
-    types: [
-      "FAIRY"
-    ],
+    types: ["FAIRY"],
     sprite: "/Front/ALCREMIE_18.png",
     backSprite: "/spritesBack/ALCREMIE_18.png",
-    description: "When Alcremie is content, the cream it secretes from its hands becomes sweeter and richer.",
+    description:
+      "When Alcremie is content, the cream it secretes from its hands becomes sweeter and richer.",
     stats: {
       hp: 65,
       attack: 60,
       defense: 75,
       spAttack: 110,
       spDefense: 121,
-      speed: 64
+      speed: 64,
     },
     height: "0.3",
     weight: "0.5",
-    abilities: [
-      "SWEETVEIL"
-    ],
-    hiddenAbilities: [
-      "AROMAVEIL"
-    ],
+    abilities: ["SWEETVEIL"],
+    hiddenAbilities: ["AROMAVEIL"],
     category: "Cream",
     moves: [
       "DECORATE",
@@ -39791,7 +36711,7 @@ export const pokemonForms: PokemonForm[] =
       "DAZZLINGGLEAM",
       "RECOVER",
       "MISTYTERRAIN",
-      "ENTRAINMENT"
+      "ENTRAINMENT",
     ],
     tutorMoves: [
       "ALLURINGVOICE",
@@ -39847,46 +36767,37 @@ export const pokemonForms: PokemonForm[] =
       "SWAGGER",
       "TERABLAST",
       "TRIATTACK",
-      "WONDERROOM"
+      "WONDERROOM",
     ],
-    eggMoves: [
-
-    ],
+    eggMoves: [],
     suffix: "normal",
-    evolution: [
-
-    ],
+    evolution: [],
     color: "White",
     formNumber: 18,
     formName: "",
     baseId: "ALCREMIE",
-    megaStone: null
+    megaStone: null,
   },
   {
     id: "ALCREMIE",
     name: "Alcremie",
-    types: [
-      "FAIRY"
-    ],
+    types: ["FAIRY"],
     sprite: "/Front/ALCREMIE_19.png",
     backSprite: "/spritesBack/ALCREMIE_19.png",
-    description: "When Alcremie is content, the cream it secretes from its hands becomes sweeter and richer.",
+    description:
+      "When Alcremie is content, the cream it secretes from its hands becomes sweeter and richer.",
     stats: {
       hp: 65,
       attack: 60,
       defense: 75,
       spAttack: 110,
       spDefense: 121,
-      speed: 64
+      speed: 64,
     },
     height: "0.3",
     weight: "0.5",
-    abilities: [
-      "SWEETVEIL"
-    ],
-    hiddenAbilities: [
-      "AROMAVEIL"
-    ],
+    abilities: ["SWEETVEIL"],
+    hiddenAbilities: ["AROMAVEIL"],
     category: "Cream",
     moves: [
       "DECORATE",
@@ -39901,7 +36812,7 @@ export const pokemonForms: PokemonForm[] =
       "DAZZLINGGLEAM",
       "RECOVER",
       "MISTYTERRAIN",
-      "ENTRAINMENT"
+      "ENTRAINMENT",
     ],
     tutorMoves: [
       "ALLURINGVOICE",
@@ -39957,46 +36868,37 @@ export const pokemonForms: PokemonForm[] =
       "SWAGGER",
       "TERABLAST",
       "TRIATTACK",
-      "WONDERROOM"
+      "WONDERROOM",
     ],
-    eggMoves: [
-
-    ],
+    eggMoves: [],
     suffix: "normal",
-    evolution: [
-
-    ],
+    evolution: [],
     color: "White",
     formNumber: 19,
     formName: "",
     baseId: "ALCREMIE",
-    megaStone: null
+    megaStone: null,
   },
   {
     id: "ALCREMIE",
     name: "Alcremie",
-    types: [
-      "FAIRY"
-    ],
+    types: ["FAIRY"],
     sprite: "/Front/ALCREMIE_20.png",
     backSprite: "/spritesBack/ALCREMIE_20.png",
-    description: "When Alcremie is content, the cream it secretes from its hands becomes sweeter and richer.",
+    description:
+      "When Alcremie is content, the cream it secretes from its hands becomes sweeter and richer.",
     stats: {
       hp: 65,
       attack: 60,
       defense: 75,
       spAttack: 110,
       spDefense: 121,
-      speed: 64
+      speed: 64,
     },
     height: "0.3",
     weight: "0.5",
-    abilities: [
-      "SWEETVEIL"
-    ],
-    hiddenAbilities: [
-      "AROMAVEIL"
-    ],
+    abilities: ["SWEETVEIL"],
+    hiddenAbilities: ["AROMAVEIL"],
     category: "Cream",
     moves: [
       "DECORATE",
@@ -40011,7 +36913,7 @@ export const pokemonForms: PokemonForm[] =
       "DAZZLINGGLEAM",
       "RECOVER",
       "MISTYTERRAIN",
-      "ENTRAINMENT"
+      "ENTRAINMENT",
     ],
     tutorMoves: [
       "ALLURINGVOICE",
@@ -40067,46 +36969,37 @@ export const pokemonForms: PokemonForm[] =
       "SWAGGER",
       "TERABLAST",
       "TRIATTACK",
-      "WONDERROOM"
+      "WONDERROOM",
     ],
-    eggMoves: [
-
-    ],
+    eggMoves: [],
     suffix: "normal",
-    evolution: [
-
-    ],
+    evolution: [],
     color: "White",
     formNumber: 20,
     formName: "",
     baseId: "ALCREMIE",
-    megaStone: null
+    megaStone: null,
   },
   {
     id: "ALCREMIE",
     name: "Alcremie",
-    types: [
-      "FAIRY"
-    ],
+    types: ["FAIRY"],
     sprite: "/Front/ALCREMIE_21.png",
     backSprite: "/spritesBack/ALCREMIE_21.png",
-    description: "The cells that compose its cream fluctuated suddenly during evolution, giving the cream a refreshing flavor.",
+    description:
+      "The cells that compose its cream fluctuated suddenly during evolution, giving the cream a refreshing flavor.",
     stats: {
       hp: 65,
       attack: 60,
       defense: 75,
       spAttack: 110,
       spDefense: 121,
-      speed: 64
+      speed: 64,
     },
     height: "0.3",
     weight: "0.5",
-    abilities: [
-      "SWEETVEIL"
-    ],
-    hiddenAbilities: [
-      "AROMAVEIL"
-    ],
+    abilities: ["SWEETVEIL"],
+    hiddenAbilities: ["AROMAVEIL"],
     category: "Cream",
     moves: [
       "DECORATE",
@@ -40121,7 +37014,7 @@ export const pokemonForms: PokemonForm[] =
       "DAZZLINGGLEAM",
       "RECOVER",
       "MISTYTERRAIN",
-      "ENTRAINMENT"
+      "ENTRAINMENT",
     ],
     tutorMoves: [
       "ALLURINGVOICE",
@@ -40177,46 +37070,37 @@ export const pokemonForms: PokemonForm[] =
       "SWAGGER",
       "TERABLAST",
       "TRIATTACK",
-      "WONDERROOM"
+      "WONDERROOM",
     ],
-    eggMoves: [
-
-    ],
+    eggMoves: [],
     suffix: "normal",
-    evolution: [
-
-    ],
+    evolution: [],
     color: "Blue",
     formNumber: 21,
     formName: "Mint Cream",
     baseId: "ALCREMIE",
-    megaStone: null
+    megaStone: null,
   },
   {
     id: "ALCREMIE",
     name: "Alcremie",
-    types: [
-      "FAIRY"
-    ],
+    types: ["FAIRY"],
     sprite: "/Front/ALCREMIE_22.png",
     backSprite: "/spritesBack/ALCREMIE_22.png",
-    description: "When Alcremie is content, the cream it secretes from its hands becomes sweeter and richer.",
+    description:
+      "When Alcremie is content, the cream it secretes from its hands becomes sweeter and richer.",
     stats: {
       hp: 65,
       attack: 60,
       defense: 75,
       spAttack: 110,
       spDefense: 121,
-      speed: 64
+      speed: 64,
     },
     height: "0.3",
     weight: "0.5",
-    abilities: [
-      "SWEETVEIL"
-    ],
-    hiddenAbilities: [
-      "AROMAVEIL"
-    ],
+    abilities: ["SWEETVEIL"],
+    hiddenAbilities: ["AROMAVEIL"],
     category: "Cream",
     moves: [
       "DECORATE",
@@ -40231,7 +37115,7 @@ export const pokemonForms: PokemonForm[] =
       "DAZZLINGGLEAM",
       "RECOVER",
       "MISTYTERRAIN",
-      "ENTRAINMENT"
+      "ENTRAINMENT",
     ],
     tutorMoves: [
       "ALLURINGVOICE",
@@ -40287,46 +37171,37 @@ export const pokemonForms: PokemonForm[] =
       "SWAGGER",
       "TERABLAST",
       "TRIATTACK",
-      "WONDERROOM"
+      "WONDERROOM",
     ],
-    eggMoves: [
-
-    ],
+    eggMoves: [],
     suffix: "normal",
-    evolution: [
-
-    ],
+    evolution: [],
     color: "White",
     formNumber: 22,
     formName: "",
     baseId: "ALCREMIE",
-    megaStone: null
+    megaStone: null,
   },
   {
     id: "ALCREMIE",
     name: "Alcremie",
-    types: [
-      "FAIRY"
-    ],
+    types: ["FAIRY"],
     sprite: "/Front/ALCREMIE_23.png",
     backSprite: "/spritesBack/ALCREMIE_23.png",
-    description: "When Alcremie is content, the cream it secretes from its hands becomes sweeter and richer.",
+    description:
+      "When Alcremie is content, the cream it secretes from its hands becomes sweeter and richer.",
     stats: {
       hp: 65,
       attack: 60,
       defense: 75,
       spAttack: 110,
       spDefense: 121,
-      speed: 64
+      speed: 64,
     },
     height: "0.3",
     weight: "0.5",
-    abilities: [
-      "SWEETVEIL"
-    ],
-    hiddenAbilities: [
-      "AROMAVEIL"
-    ],
+    abilities: ["SWEETVEIL"],
+    hiddenAbilities: ["AROMAVEIL"],
     category: "Cream",
     moves: [
       "DECORATE",
@@ -40341,7 +37216,7 @@ export const pokemonForms: PokemonForm[] =
       "DAZZLINGGLEAM",
       "RECOVER",
       "MISTYTERRAIN",
-      "ENTRAINMENT"
+      "ENTRAINMENT",
     ],
     tutorMoves: [
       "ALLURINGVOICE",
@@ -40397,46 +37272,37 @@ export const pokemonForms: PokemonForm[] =
       "SWAGGER",
       "TERABLAST",
       "TRIATTACK",
-      "WONDERROOM"
+      "WONDERROOM",
     ],
-    eggMoves: [
-
-    ],
+    eggMoves: [],
     suffix: "normal",
-    evolution: [
-
-    ],
+    evolution: [],
     color: "White",
     formNumber: 23,
     formName: "",
     baseId: "ALCREMIE",
-    megaStone: null
+    megaStone: null,
   },
   {
     id: "ALCREMIE",
     name: "Alcremie",
-    types: [
-      "FAIRY"
-    ],
+    types: ["FAIRY"],
     sprite: "/Front/ALCREMIE_24.png",
     backSprite: "/spritesBack/ALCREMIE_24.png",
-    description: "When Alcremie is content, the cream it secretes from its hands becomes sweeter and richer.",
+    description:
+      "When Alcremie is content, the cream it secretes from its hands becomes sweeter and richer.",
     stats: {
       hp: 65,
       attack: 60,
       defense: 75,
       spAttack: 110,
       spDefense: 121,
-      speed: 64
+      speed: 64,
     },
     height: "0.3",
     weight: "0.5",
-    abilities: [
-      "SWEETVEIL"
-    ],
-    hiddenAbilities: [
-      "AROMAVEIL"
-    ],
+    abilities: ["SWEETVEIL"],
+    hiddenAbilities: ["AROMAVEIL"],
     category: "Cream",
     moves: [
       "DECORATE",
@@ -40451,7 +37317,7 @@ export const pokemonForms: PokemonForm[] =
       "DAZZLINGGLEAM",
       "RECOVER",
       "MISTYTERRAIN",
-      "ENTRAINMENT"
+      "ENTRAINMENT",
     ],
     tutorMoves: [
       "ALLURINGVOICE",
@@ -40507,46 +37373,37 @@ export const pokemonForms: PokemonForm[] =
       "SWAGGER",
       "TERABLAST",
       "TRIATTACK",
-      "WONDERROOM"
+      "WONDERROOM",
     ],
-    eggMoves: [
-
-    ],
+    eggMoves: [],
     suffix: "normal",
-    evolution: [
-
-    ],
+    evolution: [],
     color: "White",
     formNumber: 24,
     formName: "",
     baseId: "ALCREMIE",
-    megaStone: null
+    megaStone: null,
   },
   {
     id: "ALCREMIE",
     name: "Alcremie",
-    types: [
-      "FAIRY"
-    ],
+    types: ["FAIRY"],
     sprite: "/Front/ALCREMIE_25.png",
     backSprite: "/spritesBack/ALCREMIE_25.png",
-    description: "When Alcremie is content, the cream it secretes from its hands becomes sweeter and richer.",
+    description:
+      "When Alcremie is content, the cream it secretes from its hands becomes sweeter and richer.",
     stats: {
       hp: 65,
       attack: 60,
       defense: 75,
       spAttack: 110,
       spDefense: 121,
-      speed: 64
+      speed: 64,
     },
     height: "0.3",
     weight: "0.5",
-    abilities: [
-      "SWEETVEIL"
-    ],
-    hiddenAbilities: [
-      "AROMAVEIL"
-    ],
+    abilities: ["SWEETVEIL"],
+    hiddenAbilities: ["AROMAVEIL"],
     category: "Cream",
     moves: [
       "DECORATE",
@@ -40561,7 +37418,7 @@ export const pokemonForms: PokemonForm[] =
       "DAZZLINGGLEAM",
       "RECOVER",
       "MISTYTERRAIN",
-      "ENTRAINMENT"
+      "ENTRAINMENT",
     ],
     tutorMoves: [
       "ALLURINGVOICE",
@@ -40617,46 +37474,37 @@ export const pokemonForms: PokemonForm[] =
       "SWAGGER",
       "TERABLAST",
       "TRIATTACK",
-      "WONDERROOM"
+      "WONDERROOM",
     ],
-    eggMoves: [
-
-    ],
+    eggMoves: [],
     suffix: "normal",
-    evolution: [
-
-    ],
+    evolution: [],
     color: "White",
     formNumber: 25,
     formName: "",
     baseId: "ALCREMIE",
-    megaStone: null
+    megaStone: null,
   },
   {
     id: "ALCREMIE",
     name: "Alcremie",
-    types: [
-      "FAIRY"
-    ],
+    types: ["FAIRY"],
     sprite: "/Front/ALCREMIE_26.png",
     backSprite: "/spritesBack/ALCREMIE_26.png",
-    description: "When Alcremie is content, the cream it secretes from its hands becomes sweeter and richer.",
+    description:
+      "When Alcremie is content, the cream it secretes from its hands becomes sweeter and richer.",
     stats: {
       hp: 65,
       attack: 60,
       defense: 75,
       spAttack: 110,
       spDefense: 121,
-      speed: 64
+      speed: 64,
     },
     height: "0.3",
     weight: "0.5",
-    abilities: [
-      "SWEETVEIL"
-    ],
-    hiddenAbilities: [
-      "AROMAVEIL"
-    ],
+    abilities: ["SWEETVEIL"],
+    hiddenAbilities: ["AROMAVEIL"],
     category: "Cream",
     moves: [
       "DECORATE",
@@ -40671,7 +37519,7 @@ export const pokemonForms: PokemonForm[] =
       "DAZZLINGGLEAM",
       "RECOVER",
       "MISTYTERRAIN",
-      "ENTRAINMENT"
+      "ENTRAINMENT",
     ],
     tutorMoves: [
       "ALLURINGVOICE",
@@ -40727,46 +37575,37 @@ export const pokemonForms: PokemonForm[] =
       "SWAGGER",
       "TERABLAST",
       "TRIATTACK",
-      "WONDERROOM"
+      "WONDERROOM",
     ],
-    eggMoves: [
-
-    ],
+    eggMoves: [],
     suffix: "normal",
-    evolution: [
-
-    ],
+    evolution: [],
     color: "White",
     formNumber: 26,
     formName: "",
     baseId: "ALCREMIE",
-    megaStone: null
+    megaStone: null,
   },
   {
     id: "ALCREMIE",
     name: "Alcremie",
-    types: [
-      "FAIRY"
-    ],
+    types: ["FAIRY"],
     sprite: "/Front/ALCREMIE_27.png",
     backSprite: "/spritesBack/ALCREMIE_27.png",
-    description: "When Alcremie is content, the cream it secretes from its hands becomes sweeter and richer.",
+    description:
+      "When Alcremie is content, the cream it secretes from its hands becomes sweeter and richer.",
     stats: {
       hp: 65,
       attack: 60,
       defense: 75,
       spAttack: 110,
       spDefense: 121,
-      speed: 64
+      speed: 64,
     },
     height: "0.3",
     weight: "0.5",
-    abilities: [
-      "SWEETVEIL"
-    ],
-    hiddenAbilities: [
-      "AROMAVEIL"
-    ],
+    abilities: ["SWEETVEIL"],
+    hiddenAbilities: ["AROMAVEIL"],
     category: "Cream",
     moves: [
       "DECORATE",
@@ -40781,7 +37620,7 @@ export const pokemonForms: PokemonForm[] =
       "DAZZLINGGLEAM",
       "RECOVER",
       "MISTYTERRAIN",
-      "ENTRAINMENT"
+      "ENTRAINMENT",
     ],
     tutorMoves: [
       "ALLURINGVOICE",
@@ -40837,46 +37676,37 @@ export const pokemonForms: PokemonForm[] =
       "SWAGGER",
       "TERABLAST",
       "TRIATTACK",
-      "WONDERROOM"
+      "WONDERROOM",
     ],
-    eggMoves: [
-
-    ],
+    eggMoves: [],
     suffix: "normal",
-    evolution: [
-
-    ],
+    evolution: [],
     color: "White",
     formNumber: 27,
     formName: "",
     baseId: "ALCREMIE",
-    megaStone: null
+    megaStone: null,
   },
   {
     id: "ALCREMIE",
     name: "Alcremie",
-    types: [
-      "FAIRY"
-    ],
+    types: ["FAIRY"],
     sprite: "/Front/ALCREMIE_28.png",
     backSprite: "/spritesBack/ALCREMIE_28.png",
-    description: "The cells that compose its cream fluctuated suddenly during evolution, giving the cream a sour flavor.",
+    description:
+      "The cells that compose its cream fluctuated suddenly during evolution, giving the cream a sour flavor.",
     stats: {
       hp: 65,
       attack: 60,
       defense: 75,
       spAttack: 110,
       spDefense: 121,
-      speed: 64
+      speed: 64,
     },
     height: "0.3",
     weight: "0.5",
-    abilities: [
-      "SWEETVEIL"
-    ],
-    hiddenAbilities: [
-      "AROMAVEIL"
-    ],
+    abilities: ["SWEETVEIL"],
+    hiddenAbilities: ["AROMAVEIL"],
     category: "Cream",
     moves: [
       "DECORATE",
@@ -40891,7 +37721,7 @@ export const pokemonForms: PokemonForm[] =
       "DAZZLINGGLEAM",
       "RECOVER",
       "MISTYTERRAIN",
-      "ENTRAINMENT"
+      "ENTRAINMENT",
     ],
     tutorMoves: [
       "ALLURINGVOICE",
@@ -40947,46 +37777,37 @@ export const pokemonForms: PokemonForm[] =
       "SWAGGER",
       "TERABLAST",
       "TRIATTACK",
-      "WONDERROOM"
+      "WONDERROOM",
     ],
-    eggMoves: [
-
-    ],
+    eggMoves: [],
     suffix: "normal",
-    evolution: [
-
-    ],
+    evolution: [],
     color: "Yellow",
     formNumber: 28,
     formName: "Lemon Cream",
     baseId: "ALCREMIE",
-    megaStone: null
+    megaStone: null,
   },
   {
     id: "ALCREMIE",
     name: "Alcremie",
-    types: [
-      "FAIRY"
-    ],
+    types: ["FAIRY"],
     sprite: "/Front/ALCREMIE_29.png",
     backSprite: "/spritesBack/ALCREMIE_29.png",
-    description: "When Alcremie is content, the cream it secretes from its hands becomes sweeter and richer.",
+    description:
+      "When Alcremie is content, the cream it secretes from its hands becomes sweeter and richer.",
     stats: {
       hp: 65,
       attack: 60,
       defense: 75,
       spAttack: 110,
       spDefense: 121,
-      speed: 64
+      speed: 64,
     },
     height: "0.3",
     weight: "0.5",
-    abilities: [
-      "SWEETVEIL"
-    ],
-    hiddenAbilities: [
-      "AROMAVEIL"
-    ],
+    abilities: ["SWEETVEIL"],
+    hiddenAbilities: ["AROMAVEIL"],
     category: "Cream",
     moves: [
       "DECORATE",
@@ -41001,7 +37822,7 @@ export const pokemonForms: PokemonForm[] =
       "DAZZLINGGLEAM",
       "RECOVER",
       "MISTYTERRAIN",
-      "ENTRAINMENT"
+      "ENTRAINMENT",
     ],
     tutorMoves: [
       "ALLURINGVOICE",
@@ -41057,46 +37878,37 @@ export const pokemonForms: PokemonForm[] =
       "SWAGGER",
       "TERABLAST",
       "TRIATTACK",
-      "WONDERROOM"
+      "WONDERROOM",
     ],
-    eggMoves: [
-
-    ],
+    eggMoves: [],
     suffix: "normal",
-    evolution: [
-
-    ],
+    evolution: [],
     color: "White",
     formNumber: 29,
     formName: "",
     baseId: "ALCREMIE",
-    megaStone: null
+    megaStone: null,
   },
   {
     id: "ALCREMIE",
     name: "Alcremie",
-    types: [
-      "FAIRY"
-    ],
+    types: ["FAIRY"],
     sprite: "/Front/ALCREMIE_30.png",
     backSprite: "/spritesBack/ALCREMIE_30.png",
-    description: "When Alcremie is content, the cream it secretes from its hands becomes sweeter and richer.",
+    description:
+      "When Alcremie is content, the cream it secretes from its hands becomes sweeter and richer.",
     stats: {
       hp: 65,
       attack: 60,
       defense: 75,
       spAttack: 110,
       spDefense: 121,
-      speed: 64
+      speed: 64,
     },
     height: "0.3",
     weight: "0.5",
-    abilities: [
-      "SWEETVEIL"
-    ],
-    hiddenAbilities: [
-      "AROMAVEIL"
-    ],
+    abilities: ["SWEETVEIL"],
+    hiddenAbilities: ["AROMAVEIL"],
     category: "Cream",
     moves: [
       "DECORATE",
@@ -41111,7 +37923,7 @@ export const pokemonForms: PokemonForm[] =
       "DAZZLINGGLEAM",
       "RECOVER",
       "MISTYTERRAIN",
-      "ENTRAINMENT"
+      "ENTRAINMENT",
     ],
     tutorMoves: [
       "ALLURINGVOICE",
@@ -41167,46 +37979,37 @@ export const pokemonForms: PokemonForm[] =
       "SWAGGER",
       "TERABLAST",
       "TRIATTACK",
-      "WONDERROOM"
+      "WONDERROOM",
     ],
-    eggMoves: [
-
-    ],
+    eggMoves: [],
     suffix: "normal",
-    evolution: [
-
-    ],
+    evolution: [],
     color: "White",
     formNumber: 30,
     formName: "",
     baseId: "ALCREMIE",
-    megaStone: null
+    megaStone: null,
   },
   {
     id: "ALCREMIE",
     name: "Alcremie",
-    types: [
-      "FAIRY"
-    ],
+    types: ["FAIRY"],
     sprite: "/Front/ALCREMIE_31.png",
     backSprite: "/spritesBack/ALCREMIE_31.png",
-    description: "When Alcremie is content, the cream it secretes from its hands becomes sweeter and richer.",
+    description:
+      "When Alcremie is content, the cream it secretes from its hands becomes sweeter and richer.",
     stats: {
       hp: 65,
       attack: 60,
       defense: 75,
       spAttack: 110,
       spDefense: 121,
-      speed: 64
+      speed: 64,
     },
     height: "0.3",
     weight: "0.5",
-    abilities: [
-      "SWEETVEIL"
-    ],
-    hiddenAbilities: [
-      "AROMAVEIL"
-    ],
+    abilities: ["SWEETVEIL"],
+    hiddenAbilities: ["AROMAVEIL"],
     category: "Cream",
     moves: [
       "DECORATE",
@@ -41221,7 +38024,7 @@ export const pokemonForms: PokemonForm[] =
       "DAZZLINGGLEAM",
       "RECOVER",
       "MISTYTERRAIN",
-      "ENTRAINMENT"
+      "ENTRAINMENT",
     ],
     tutorMoves: [
       "ALLURINGVOICE",
@@ -41277,46 +38080,37 @@ export const pokemonForms: PokemonForm[] =
       "SWAGGER",
       "TERABLAST",
       "TRIATTACK",
-      "WONDERROOM"
+      "WONDERROOM",
     ],
-    eggMoves: [
-
-    ],
+    eggMoves: [],
     suffix: "normal",
-    evolution: [
-
-    ],
+    evolution: [],
     color: "White",
     formNumber: 31,
     formName: "",
     baseId: "ALCREMIE",
-    megaStone: null
+    megaStone: null,
   },
   {
     id: "ALCREMIE",
     name: "Alcremie",
-    types: [
-      "FAIRY"
-    ],
+    types: ["FAIRY"],
     sprite: "/Front/ALCREMIE_32.png",
     backSprite: "/spritesBack/ALCREMIE_32.png",
-    description: "When Alcremie is content, the cream it secretes from its hands becomes sweeter and richer.",
+    description:
+      "When Alcremie is content, the cream it secretes from its hands becomes sweeter and richer.",
     stats: {
       hp: 65,
       attack: 60,
       defense: 75,
       spAttack: 110,
       spDefense: 121,
-      speed: 64
+      speed: 64,
     },
     height: "0.3",
     weight: "0.5",
-    abilities: [
-      "SWEETVEIL"
-    ],
-    hiddenAbilities: [
-      "AROMAVEIL"
-    ],
+    abilities: ["SWEETVEIL"],
+    hiddenAbilities: ["AROMAVEIL"],
     category: "Cream",
     moves: [
       "DECORATE",
@@ -41331,7 +38125,7 @@ export const pokemonForms: PokemonForm[] =
       "DAZZLINGGLEAM",
       "RECOVER",
       "MISTYTERRAIN",
-      "ENTRAINMENT"
+      "ENTRAINMENT",
     ],
     tutorMoves: [
       "ALLURINGVOICE",
@@ -41387,46 +38181,37 @@ export const pokemonForms: PokemonForm[] =
       "SWAGGER",
       "TERABLAST",
       "TRIATTACK",
-      "WONDERROOM"
+      "WONDERROOM",
     ],
-    eggMoves: [
-
-    ],
+    eggMoves: [],
     suffix: "normal",
-    evolution: [
-
-    ],
+    evolution: [],
     color: "White",
     formNumber: 32,
     formName: "",
     baseId: "ALCREMIE",
-    megaStone: null
+    megaStone: null,
   },
   {
     id: "ALCREMIE",
     name: "Alcremie",
-    types: [
-      "FAIRY"
-    ],
+    types: ["FAIRY"],
     sprite: "/Front/ALCREMIE_33.png",
     backSprite: "/spritesBack/ALCREMIE_33.png",
-    description: "When Alcremie is content, the cream it secretes from its hands becomes sweeter and richer.",
+    description:
+      "When Alcremie is content, the cream it secretes from its hands becomes sweeter and richer.",
     stats: {
       hp: 65,
       attack: 60,
       defense: 75,
       spAttack: 110,
       spDefense: 121,
-      speed: 64
+      speed: 64,
     },
     height: "0.3",
     weight: "0.5",
-    abilities: [
-      "SWEETVEIL"
-    ],
-    hiddenAbilities: [
-      "AROMAVEIL"
-    ],
+    abilities: ["SWEETVEIL"],
+    hiddenAbilities: ["AROMAVEIL"],
     category: "Cream",
     moves: [
       "DECORATE",
@@ -41441,7 +38226,7 @@ export const pokemonForms: PokemonForm[] =
       "DAZZLINGGLEAM",
       "RECOVER",
       "MISTYTERRAIN",
-      "ENTRAINMENT"
+      "ENTRAINMENT",
     ],
     tutorMoves: [
       "ALLURINGVOICE",
@@ -41497,46 +38282,37 @@ export const pokemonForms: PokemonForm[] =
       "SWAGGER",
       "TERABLAST",
       "TRIATTACK",
-      "WONDERROOM"
+      "WONDERROOM",
     ],
-    eggMoves: [
-
-    ],
+    eggMoves: [],
     suffix: "normal",
-    evolution: [
-
-    ],
+    evolution: [],
     color: "White",
     formNumber: 33,
     formName: "",
     baseId: "ALCREMIE",
-    megaStone: null
+    megaStone: null,
   },
   {
     id: "ALCREMIE",
     name: "Alcremie",
-    types: [
-      "FAIRY"
-    ],
+    types: ["FAIRY"],
     sprite: "/Front/ALCREMIE_34.png",
     backSprite: "/spritesBack/ALCREMIE_34.png",
-    description: "When Alcremie is content, the cream it secretes from its hands becomes sweeter and richer.",
+    description:
+      "When Alcremie is content, the cream it secretes from its hands becomes sweeter and richer.",
     stats: {
       hp: 65,
       attack: 60,
       defense: 75,
       spAttack: 110,
       spDefense: 121,
-      speed: 64
+      speed: 64,
     },
     height: "0.3",
     weight: "0.5",
-    abilities: [
-      "SWEETVEIL"
-    ],
-    hiddenAbilities: [
-      "AROMAVEIL"
-    ],
+    abilities: ["SWEETVEIL"],
+    hiddenAbilities: ["AROMAVEIL"],
     category: "Cream",
     moves: [
       "DECORATE",
@@ -41551,7 +38327,7 @@ export const pokemonForms: PokemonForm[] =
       "DAZZLINGGLEAM",
       "RECOVER",
       "MISTYTERRAIN",
-      "ENTRAINMENT"
+      "ENTRAINMENT",
     ],
     tutorMoves: [
       "ALLURINGVOICE",
@@ -41607,46 +38383,37 @@ export const pokemonForms: PokemonForm[] =
       "SWAGGER",
       "TERABLAST",
       "TRIATTACK",
-      "WONDERROOM"
+      "WONDERROOM",
     ],
-    eggMoves: [
-
-    ],
+    eggMoves: [],
     suffix: "normal",
-    evolution: [
-
-    ],
+    evolution: [],
     color: "White",
     formNumber: 34,
     formName: "",
     baseId: "ALCREMIE",
-    megaStone: null
+    megaStone: null,
   },
   {
     id: "ALCREMIE",
     name: "Alcremie",
-    types: [
-      "FAIRY"
-    ],
+    types: ["FAIRY"],
     sprite: "/Front/ALCREMIE_35.png",
     backSprite: "/spritesBack/ALCREMIE_35.png",
-    description: "The cells that compose its cream fluctuated suddenly during evolution, giving the cream a salty flavor.",
+    description:
+      "The cells that compose its cream fluctuated suddenly during evolution, giving the cream a salty flavor.",
     stats: {
       hp: 65,
       attack: 60,
       defense: 75,
       spAttack: 110,
       spDefense: 121,
-      speed: 64
+      speed: 64,
     },
     height: "0.3",
     weight: "0.5",
-    abilities: [
-      "SWEETVEIL"
-    ],
-    hiddenAbilities: [
-      "AROMAVEIL"
-    ],
+    abilities: ["SWEETVEIL"],
+    hiddenAbilities: ["AROMAVEIL"],
     category: "Cream",
     moves: [
       "DECORATE",
@@ -41661,7 +38428,7 @@ export const pokemonForms: PokemonForm[] =
       "DAZZLINGGLEAM",
       "RECOVER",
       "MISTYTERRAIN",
-      "ENTRAINMENT"
+      "ENTRAINMENT",
     ],
     tutorMoves: [
       "ALLURINGVOICE",
@@ -41717,46 +38484,37 @@ export const pokemonForms: PokemonForm[] =
       "SWAGGER",
       "TERABLAST",
       "TRIATTACK",
-      "WONDERROOM"
+      "WONDERROOM",
     ],
-    eggMoves: [
-
-    ],
+    eggMoves: [],
     suffix: "normal",
-    evolution: [
-
-    ],
+    evolution: [],
     color: "White",
     formNumber: 35,
     formName: "Salted Cream",
     baseId: "ALCREMIE",
-    megaStone: null
+    megaStone: null,
   },
   {
     id: "ALCREMIE",
     name: "Alcremie",
-    types: [
-      "FAIRY"
-    ],
+    types: ["FAIRY"],
     sprite: "/Front/ALCREMIE_36.png",
     backSprite: "/spritesBack/ALCREMIE_36.png",
-    description: "When Alcremie is content, the cream it secretes from its hands becomes sweeter and richer.",
+    description:
+      "When Alcremie is content, the cream it secretes from its hands becomes sweeter and richer.",
     stats: {
       hp: 65,
       attack: 60,
       defense: 75,
       spAttack: 110,
       spDefense: 121,
-      speed: 64
+      speed: 64,
     },
     height: "0.3",
     weight: "0.5",
-    abilities: [
-      "SWEETVEIL"
-    ],
-    hiddenAbilities: [
-      "AROMAVEIL"
-    ],
+    abilities: ["SWEETVEIL"],
+    hiddenAbilities: ["AROMAVEIL"],
     category: "Cream",
     moves: [
       "DECORATE",
@@ -41771,7 +38529,7 @@ export const pokemonForms: PokemonForm[] =
       "DAZZLINGGLEAM",
       "RECOVER",
       "MISTYTERRAIN",
-      "ENTRAINMENT"
+      "ENTRAINMENT",
     ],
     tutorMoves: [
       "ALLURINGVOICE",
@@ -41827,46 +38585,37 @@ export const pokemonForms: PokemonForm[] =
       "SWAGGER",
       "TERABLAST",
       "TRIATTACK",
-      "WONDERROOM"
+      "WONDERROOM",
     ],
-    eggMoves: [
-
-    ],
+    eggMoves: [],
     suffix: "normal",
-    evolution: [
-
-    ],
+    evolution: [],
     color: "White",
     formNumber: 36,
     formName: "",
     baseId: "ALCREMIE",
-    megaStone: null
+    megaStone: null,
   },
   {
     id: "ALCREMIE",
     name: "Alcremie",
-    types: [
-      "FAIRY"
-    ],
+    types: ["FAIRY"],
     sprite: "/Front/ALCREMIE_37.png",
     backSprite: "/spritesBack/ALCREMIE_37.png",
-    description: "When Alcremie is content, the cream it secretes from its hands becomes sweeter and richer.",
+    description:
+      "When Alcremie is content, the cream it secretes from its hands becomes sweeter and richer.",
     stats: {
       hp: 65,
       attack: 60,
       defense: 75,
       spAttack: 110,
       spDefense: 121,
-      speed: 64
+      speed: 64,
     },
     height: "0.3",
     weight: "0.5",
-    abilities: [
-      "SWEETVEIL"
-    ],
-    hiddenAbilities: [
-      "AROMAVEIL"
-    ],
+    abilities: ["SWEETVEIL"],
+    hiddenAbilities: ["AROMAVEIL"],
     category: "Cream",
     moves: [
       "DECORATE",
@@ -41881,7 +38630,7 @@ export const pokemonForms: PokemonForm[] =
       "DAZZLINGGLEAM",
       "RECOVER",
       "MISTYTERRAIN",
-      "ENTRAINMENT"
+      "ENTRAINMENT",
     ],
     tutorMoves: [
       "ALLURINGVOICE",
@@ -41937,46 +38686,37 @@ export const pokemonForms: PokemonForm[] =
       "SWAGGER",
       "TERABLAST",
       "TRIATTACK",
-      "WONDERROOM"
+      "WONDERROOM",
     ],
-    eggMoves: [
-
-    ],
+    eggMoves: [],
     suffix: "normal",
-    evolution: [
-
-    ],
+    evolution: [],
     color: "White",
     formNumber: 37,
     formName: "",
     baseId: "ALCREMIE",
-    megaStone: null
+    megaStone: null,
   },
   {
     id: "ALCREMIE",
     name: "Alcremie",
-    types: [
-      "FAIRY"
-    ],
+    types: ["FAIRY"],
     sprite: "/Front/ALCREMIE_38.png",
     backSprite: "/spritesBack/ALCREMIE_38.png",
-    description: "When Alcremie is content, the cream it secretes from its hands becomes sweeter and richer.",
+    description:
+      "When Alcremie is content, the cream it secretes from its hands becomes sweeter and richer.",
     stats: {
       hp: 65,
       attack: 60,
       defense: 75,
       spAttack: 110,
       spDefense: 121,
-      speed: 64
+      speed: 64,
     },
     height: "0.3",
     weight: "0.5",
-    abilities: [
-      "SWEETVEIL"
-    ],
-    hiddenAbilities: [
-      "AROMAVEIL"
-    ],
+    abilities: ["SWEETVEIL"],
+    hiddenAbilities: ["AROMAVEIL"],
     category: "Cream",
     moves: [
       "DECORATE",
@@ -41991,7 +38731,7 @@ export const pokemonForms: PokemonForm[] =
       "DAZZLINGGLEAM",
       "RECOVER",
       "MISTYTERRAIN",
-      "ENTRAINMENT"
+      "ENTRAINMENT",
     ],
     tutorMoves: [
       "ALLURINGVOICE",
@@ -42047,46 +38787,37 @@ export const pokemonForms: PokemonForm[] =
       "SWAGGER",
       "TERABLAST",
       "TRIATTACK",
-      "WONDERROOM"
+      "WONDERROOM",
     ],
-    eggMoves: [
-
-    ],
+    eggMoves: [],
     suffix: "normal",
-    evolution: [
-
-    ],
+    evolution: [],
     color: "White",
     formNumber: 38,
     formName: "",
     baseId: "ALCREMIE",
-    megaStone: null
+    megaStone: null,
   },
   {
     id: "ALCREMIE",
     name: "Alcremie",
-    types: [
-      "FAIRY"
-    ],
+    types: ["FAIRY"],
     sprite: "/Front/ALCREMIE_39.png",
     backSprite: "/spritesBack/ALCREMIE_39.png",
-    description: "When Alcremie is content, the cream it secretes from its hands becomes sweeter and richer.",
+    description:
+      "When Alcremie is content, the cream it secretes from its hands becomes sweeter and richer.",
     stats: {
       hp: 65,
       attack: 60,
       defense: 75,
       spAttack: 110,
       spDefense: 121,
-      speed: 64
+      speed: 64,
     },
     height: "0.3",
     weight: "0.5",
-    abilities: [
-      "SWEETVEIL"
-    ],
-    hiddenAbilities: [
-      "AROMAVEIL"
-    ],
+    abilities: ["SWEETVEIL"],
+    hiddenAbilities: ["AROMAVEIL"],
     category: "Cream",
     moves: [
       "DECORATE",
@@ -42101,7 +38832,7 @@ export const pokemonForms: PokemonForm[] =
       "DAZZLINGGLEAM",
       "RECOVER",
       "MISTYTERRAIN",
-      "ENTRAINMENT"
+      "ENTRAINMENT",
     ],
     tutorMoves: [
       "ALLURINGVOICE",
@@ -42157,46 +38888,37 @@ export const pokemonForms: PokemonForm[] =
       "SWAGGER",
       "TERABLAST",
       "TRIATTACK",
-      "WONDERROOM"
+      "WONDERROOM",
     ],
-    eggMoves: [
-
-    ],
+    eggMoves: [],
     suffix: "normal",
-    evolution: [
-
-    ],
+    evolution: [],
     color: "White",
     formNumber: 39,
     formName: "",
     baseId: "ALCREMIE",
-    megaStone: null
+    megaStone: null,
   },
   {
     id: "ALCREMIE",
     name: "Alcremie",
-    types: [
-      "FAIRY"
-    ],
+    types: ["FAIRY"],
     sprite: "/Front/ALCREMIE_40.png",
     backSprite: "/spritesBack/ALCREMIE_40.png",
-    description: "When Alcremie is content, the cream it secretes from its hands becomes sweeter and richer.",
+    description:
+      "When Alcremie is content, the cream it secretes from its hands becomes sweeter and richer.",
     stats: {
       hp: 65,
       attack: 60,
       defense: 75,
       spAttack: 110,
       spDefense: 121,
-      speed: 64
+      speed: 64,
     },
     height: "0.3",
     weight: "0.5",
-    abilities: [
-      "SWEETVEIL"
-    ],
-    hiddenAbilities: [
-      "AROMAVEIL"
-    ],
+    abilities: ["SWEETVEIL"],
+    hiddenAbilities: ["AROMAVEIL"],
     category: "Cream",
     moves: [
       "DECORATE",
@@ -42211,7 +38933,7 @@ export const pokemonForms: PokemonForm[] =
       "DAZZLINGGLEAM",
       "RECOVER",
       "MISTYTERRAIN",
-      "ENTRAINMENT"
+      "ENTRAINMENT",
     ],
     tutorMoves: [
       "ALLURINGVOICE",
@@ -42267,46 +38989,37 @@ export const pokemonForms: PokemonForm[] =
       "SWAGGER",
       "TERABLAST",
       "TRIATTACK",
-      "WONDERROOM"
+      "WONDERROOM",
     ],
-    eggMoves: [
-
-    ],
+    eggMoves: [],
     suffix: "normal",
-    evolution: [
-
-    ],
+    evolution: [],
     color: "White",
     formNumber: 40,
     formName: "",
     baseId: "ALCREMIE",
-    megaStone: null
+    megaStone: null,
   },
   {
     id: "ALCREMIE",
     name: "Alcremie",
-    types: [
-      "FAIRY"
-    ],
+    types: ["FAIRY"],
     sprite: "/Front/ALCREMIE_41.png",
     backSprite: "/spritesBack/ALCREMIE_41.png",
-    description: "When Alcremie is content, the cream it secretes from its hands becomes sweeter and richer.",
+    description:
+      "When Alcremie is content, the cream it secretes from its hands becomes sweeter and richer.",
     stats: {
       hp: 65,
       attack: 60,
       defense: 75,
       spAttack: 110,
       spDefense: 121,
-      speed: 64
+      speed: 64,
     },
     height: "0.3",
     weight: "0.5",
-    abilities: [
-      "SWEETVEIL"
-    ],
-    hiddenAbilities: [
-      "AROMAVEIL"
-    ],
+    abilities: ["SWEETVEIL"],
+    hiddenAbilities: ["AROMAVEIL"],
     category: "Cream",
     moves: [
       "DECORATE",
@@ -42321,7 +39034,7 @@ export const pokemonForms: PokemonForm[] =
       "DAZZLINGGLEAM",
       "RECOVER",
       "MISTYTERRAIN",
-      "ENTRAINMENT"
+      "ENTRAINMENT",
     ],
     tutorMoves: [
       "ALLURINGVOICE",
@@ -42377,46 +39090,37 @@ export const pokemonForms: PokemonForm[] =
       "SWAGGER",
       "TERABLAST",
       "TRIATTACK",
-      "WONDERROOM"
+      "WONDERROOM",
     ],
-    eggMoves: [
-
-    ],
+    eggMoves: [],
     suffix: "normal",
-    evolution: [
-
-    ],
+    evolution: [],
     color: "White",
     formNumber: 41,
     formName: "",
     baseId: "ALCREMIE",
-    megaStone: null
+    megaStone: null,
   },
   {
     id: "ALCREMIE",
     name: "Alcremie",
-    types: [
-      "FAIRY"
-    ],
+    types: ["FAIRY"],
     sprite: "/Front/ALCREMIE_42.png",
     backSprite: "/spritesBack/ALCREMIE_42.png",
-    description: "The cells that compose its cream fluctuated suddenly during evolution, giving the cream a mixed flavor.",
+    description:
+      "The cells that compose its cream fluctuated suddenly during evolution, giving the cream a mixed flavor.",
     stats: {
       hp: 65,
       attack: 60,
       defense: 75,
       spAttack: 110,
       spDefense: 121,
-      speed: 64
+      speed: 64,
     },
     height: "0.3",
     weight: "0.5",
-    abilities: [
-      "SWEETVEIL"
-    ],
-    hiddenAbilities: [
-      "AROMAVEIL"
-    ],
+    abilities: ["SWEETVEIL"],
+    hiddenAbilities: ["AROMAVEIL"],
     category: "Cream",
     moves: [
       "DECORATE",
@@ -42431,7 +39135,7 @@ export const pokemonForms: PokemonForm[] =
       "DAZZLINGGLEAM",
       "RECOVER",
       "MISTYTERRAIN",
-      "ENTRAINMENT"
+      "ENTRAINMENT",
     ],
     tutorMoves: [
       "ALLURINGVOICE",
@@ -42487,46 +39191,37 @@ export const pokemonForms: PokemonForm[] =
       "SWAGGER",
       "TERABLAST",
       "TRIATTACK",
-      "WONDERROOM"
+      "WONDERROOM",
     ],
-    eggMoves: [
-
-    ],
+    eggMoves: [],
     suffix: "normal",
-    evolution: [
-
-    ],
+    evolution: [],
     color: "Yellow",
     formNumber: 42,
     formName: "Ruby Swirl",
     baseId: "ALCREMIE",
-    megaStone: null
+    megaStone: null,
   },
   {
     id: "ALCREMIE",
     name: "Alcremie",
-    types: [
-      "FAIRY"
-    ],
+    types: ["FAIRY"],
     sprite: "/Front/ALCREMIE_43.png",
     backSprite: "/spritesBack/ALCREMIE_43.png",
-    description: "When Alcremie is content, the cream it secretes from its hands becomes sweeter and richer.",
+    description:
+      "When Alcremie is content, the cream it secretes from its hands becomes sweeter and richer.",
     stats: {
       hp: 65,
       attack: 60,
       defense: 75,
       spAttack: 110,
       spDefense: 121,
-      speed: 64
+      speed: 64,
     },
     height: "0.3",
     weight: "0.5",
-    abilities: [
-      "SWEETVEIL"
-    ],
-    hiddenAbilities: [
-      "AROMAVEIL"
-    ],
+    abilities: ["SWEETVEIL"],
+    hiddenAbilities: ["AROMAVEIL"],
     category: "Cream",
     moves: [
       "DECORATE",
@@ -42541,7 +39236,7 @@ export const pokemonForms: PokemonForm[] =
       "DAZZLINGGLEAM",
       "RECOVER",
       "MISTYTERRAIN",
-      "ENTRAINMENT"
+      "ENTRAINMENT",
     ],
     tutorMoves: [
       "ALLURINGVOICE",
@@ -42597,46 +39292,37 @@ export const pokemonForms: PokemonForm[] =
       "SWAGGER",
       "TERABLAST",
       "TRIATTACK",
-      "WONDERROOM"
+      "WONDERROOM",
     ],
-    eggMoves: [
-
-    ],
+    eggMoves: [],
     suffix: "normal",
-    evolution: [
-
-    ],
+    evolution: [],
     color: "White",
     formNumber: 43,
     formName: "",
     baseId: "ALCREMIE",
-    megaStone: null
+    megaStone: null,
   },
   {
     id: "ALCREMIE",
     name: "Alcremie",
-    types: [
-      "FAIRY"
-    ],
+    types: ["FAIRY"],
     sprite: "/Front/ALCREMIE_44.png",
     backSprite: "/spritesBack/ALCREMIE_44.png",
-    description: "When Alcremie is content, the cream it secretes from its hands becomes sweeter and richer.",
+    description:
+      "When Alcremie is content, the cream it secretes from its hands becomes sweeter and richer.",
     stats: {
       hp: 65,
       attack: 60,
       defense: 75,
       spAttack: 110,
       spDefense: 121,
-      speed: 64
+      speed: 64,
     },
     height: "0.3",
     weight: "0.5",
-    abilities: [
-      "SWEETVEIL"
-    ],
-    hiddenAbilities: [
-      "AROMAVEIL"
-    ],
+    abilities: ["SWEETVEIL"],
+    hiddenAbilities: ["AROMAVEIL"],
     category: "Cream",
     moves: [
       "DECORATE",
@@ -42651,7 +39337,7 @@ export const pokemonForms: PokemonForm[] =
       "DAZZLINGGLEAM",
       "RECOVER",
       "MISTYTERRAIN",
-      "ENTRAINMENT"
+      "ENTRAINMENT",
     ],
     tutorMoves: [
       "ALLURINGVOICE",
@@ -42707,46 +39393,37 @@ export const pokemonForms: PokemonForm[] =
       "SWAGGER",
       "TERABLAST",
       "TRIATTACK",
-      "WONDERROOM"
+      "WONDERROOM",
     ],
-    eggMoves: [
-
-    ],
+    eggMoves: [],
     suffix: "normal",
-    evolution: [
-
-    ],
+    evolution: [],
     color: "White",
     formNumber: 44,
     formName: "",
     baseId: "ALCREMIE",
-    megaStone: null
+    megaStone: null,
   },
   {
     id: "ALCREMIE",
     name: "Alcremie",
-    types: [
-      "FAIRY"
-    ],
+    types: ["FAIRY"],
     sprite: "/Front/ALCREMIE_45.png",
     backSprite: "/spritesBack/ALCREMIE_45.png",
-    description: "When Alcremie is content, the cream it secretes from its hands becomes sweeter and richer.",
+    description:
+      "When Alcremie is content, the cream it secretes from its hands becomes sweeter and richer.",
     stats: {
       hp: 65,
       attack: 60,
       defense: 75,
       spAttack: 110,
       spDefense: 121,
-      speed: 64
+      speed: 64,
     },
     height: "0.3",
     weight: "0.5",
-    abilities: [
-      "SWEETVEIL"
-    ],
-    hiddenAbilities: [
-      "AROMAVEIL"
-    ],
+    abilities: ["SWEETVEIL"],
+    hiddenAbilities: ["AROMAVEIL"],
     category: "Cream",
     moves: [
       "DECORATE",
@@ -42761,7 +39438,7 @@ export const pokemonForms: PokemonForm[] =
       "DAZZLINGGLEAM",
       "RECOVER",
       "MISTYTERRAIN",
-      "ENTRAINMENT"
+      "ENTRAINMENT",
     ],
     tutorMoves: [
       "ALLURINGVOICE",
@@ -42817,46 +39494,37 @@ export const pokemonForms: PokemonForm[] =
       "SWAGGER",
       "TERABLAST",
       "TRIATTACK",
-      "WONDERROOM"
+      "WONDERROOM",
     ],
-    eggMoves: [
-
-    ],
+    eggMoves: [],
     suffix: "normal",
-    evolution: [
-
-    ],
+    evolution: [],
     color: "White",
     formNumber: 45,
     formName: "",
     baseId: "ALCREMIE",
-    megaStone: null
+    megaStone: null,
   },
   {
     id: "ALCREMIE",
     name: "Alcremie",
-    types: [
-      "FAIRY"
-    ],
+    types: ["FAIRY"],
     sprite: "/Front/ALCREMIE_46.png",
     backSprite: "/spritesBack/ALCREMIE_46.png",
-    description: "When Alcremie is content, the cream it secretes from its hands becomes sweeter and richer.",
+    description:
+      "When Alcremie is content, the cream it secretes from its hands becomes sweeter and richer.",
     stats: {
       hp: 65,
       attack: 60,
       defense: 75,
       spAttack: 110,
       spDefense: 121,
-      speed: 64
+      speed: 64,
     },
     height: "0.3",
     weight: "0.5",
-    abilities: [
-      "SWEETVEIL"
-    ],
-    hiddenAbilities: [
-      "AROMAVEIL"
-    ],
+    abilities: ["SWEETVEIL"],
+    hiddenAbilities: ["AROMAVEIL"],
     category: "Cream",
     moves: [
       "DECORATE",
@@ -42871,7 +39539,7 @@ export const pokemonForms: PokemonForm[] =
       "DAZZLINGGLEAM",
       "RECOVER",
       "MISTYTERRAIN",
-      "ENTRAINMENT"
+      "ENTRAINMENT",
     ],
     tutorMoves: [
       "ALLURINGVOICE",
@@ -42927,46 +39595,37 @@ export const pokemonForms: PokemonForm[] =
       "SWAGGER",
       "TERABLAST",
       "TRIATTACK",
-      "WONDERROOM"
+      "WONDERROOM",
     ],
-    eggMoves: [
-
-    ],
+    eggMoves: [],
     suffix: "normal",
-    evolution: [
-
-    ],
+    evolution: [],
     color: "White",
     formNumber: 46,
     formName: "",
     baseId: "ALCREMIE",
-    megaStone: null
+    megaStone: null,
   },
   {
     id: "ALCREMIE",
     name: "Alcremie",
-    types: [
-      "FAIRY"
-    ],
+    types: ["FAIRY"],
     sprite: "/Front/ALCREMIE_47.png",
     backSprite: "/spritesBack/ALCREMIE_47.png",
-    description: "When Alcremie is content, the cream it secretes from its hands becomes sweeter and richer.",
+    description:
+      "When Alcremie is content, the cream it secretes from its hands becomes sweeter and richer.",
     stats: {
       hp: 65,
       attack: 60,
       defense: 75,
       spAttack: 110,
       spDefense: 121,
-      speed: 64
+      speed: 64,
     },
     height: "0.3",
     weight: "0.5",
-    abilities: [
-      "SWEETVEIL"
-    ],
-    hiddenAbilities: [
-      "AROMAVEIL"
-    ],
+    abilities: ["SWEETVEIL"],
+    hiddenAbilities: ["AROMAVEIL"],
     category: "Cream",
     moves: [
       "DECORATE",
@@ -42981,7 +39640,7 @@ export const pokemonForms: PokemonForm[] =
       "DAZZLINGGLEAM",
       "RECOVER",
       "MISTYTERRAIN",
-      "ENTRAINMENT"
+      "ENTRAINMENT",
     ],
     tutorMoves: [
       "ALLURINGVOICE",
@@ -43037,46 +39696,37 @@ export const pokemonForms: PokemonForm[] =
       "SWAGGER",
       "TERABLAST",
       "TRIATTACK",
-      "WONDERROOM"
+      "WONDERROOM",
     ],
-    eggMoves: [
-
-    ],
+    eggMoves: [],
     suffix: "normal",
-    evolution: [
-
-    ],
+    evolution: [],
     color: "White",
     formNumber: 47,
     formName: "",
     baseId: "ALCREMIE",
-    megaStone: null
+    megaStone: null,
   },
   {
     id: "ALCREMIE",
     name: "Alcremie",
-    types: [
-      "FAIRY"
-    ],
+    types: ["FAIRY"],
     sprite: "/Front/ALCREMIE_48.png",
     backSprite: "/spritesBack/ALCREMIE_48.png",
-    description: "When Alcremie is content, the cream it secretes from its hands becomes sweeter and richer.",
+    description:
+      "When Alcremie is content, the cream it secretes from its hands becomes sweeter and richer.",
     stats: {
       hp: 65,
       attack: 60,
       defense: 75,
       spAttack: 110,
       spDefense: 121,
-      speed: 64
+      speed: 64,
     },
     height: "0.3",
     weight: "0.5",
-    abilities: [
-      "SWEETVEIL"
-    ],
-    hiddenAbilities: [
-      "AROMAVEIL"
-    ],
+    abilities: ["SWEETVEIL"],
+    hiddenAbilities: ["AROMAVEIL"],
     category: "Cream",
     moves: [
       "DECORATE",
@@ -43091,7 +39741,7 @@ export const pokemonForms: PokemonForm[] =
       "DAZZLINGGLEAM",
       "RECOVER",
       "MISTYTERRAIN",
-      "ENTRAINMENT"
+      "ENTRAINMENT",
     ],
     tutorMoves: [
       "ALLURINGVOICE",
@@ -43147,46 +39797,37 @@ export const pokemonForms: PokemonForm[] =
       "SWAGGER",
       "TERABLAST",
       "TRIATTACK",
-      "WONDERROOM"
+      "WONDERROOM",
     ],
-    eggMoves: [
-
-    ],
+    eggMoves: [],
     suffix: "normal",
-    evolution: [
-
-    ],
+    evolution: [],
     color: "White",
     formNumber: 48,
     formName: "",
     baseId: "ALCREMIE",
-    megaStone: null
+    megaStone: null,
   },
   {
     id: "ALCREMIE",
     name: "Alcremie",
-    types: [
-      "FAIRY"
-    ],
+    types: ["FAIRY"],
     sprite: "/Front/ALCREMIE_49.png",
     backSprite: "/spritesBack/ALCREMIE_49.png",
-    description: "The cells that compose its cream fluctuated suddenly during evolution, giving the cream a bitter flavor.",
+    description:
+      "The cells that compose its cream fluctuated suddenly during evolution, giving the cream a bitter flavor.",
     stats: {
       hp: 65,
       attack: 60,
       defense: 75,
       spAttack: 110,
       spDefense: 121,
-      speed: 64
+      speed: 64,
     },
     height: "0.3",
     weight: "0.5",
-    abilities: [
-      "SWEETVEIL"
-    ],
-    hiddenAbilities: [
-      "AROMAVEIL"
-    ],
+    abilities: ["SWEETVEIL"],
+    hiddenAbilities: ["AROMAVEIL"],
     category: "Cream",
     moves: [
       "DECORATE",
@@ -43201,7 +39842,7 @@ export const pokemonForms: PokemonForm[] =
       "DAZZLINGGLEAM",
       "RECOVER",
       "MISTYTERRAIN",
-      "ENTRAINMENT"
+      "ENTRAINMENT",
     ],
     tutorMoves: [
       "ALLURINGVOICE",
@@ -43257,46 +39898,37 @@ export const pokemonForms: PokemonForm[] =
       "SWAGGER",
       "TERABLAST",
       "TRIATTACK",
-      "WONDERROOM"
+      "WONDERROOM",
     ],
-    eggMoves: [
-
-    ],
+    eggMoves: [],
     suffix: "normal",
-    evolution: [
-
-    ],
+    evolution: [],
     color: "Brown",
     formNumber: 49,
     formName: "Caramel Swirl",
     baseId: "ALCREMIE",
-    megaStone: null
+    megaStone: null,
   },
   {
     id: "ALCREMIE",
     name: "Alcremie",
-    types: [
-      "FAIRY"
-    ],
+    types: ["FAIRY"],
     sprite: "/Front/ALCREMIE_50.png",
     backSprite: "/spritesBack/ALCREMIE_50.png",
-    description: "When Alcremie is content, the cream it secretes from its hands becomes sweeter and richer.",
+    description:
+      "When Alcremie is content, the cream it secretes from its hands becomes sweeter and richer.",
     stats: {
       hp: 65,
       attack: 60,
       defense: 75,
       spAttack: 110,
       spDefense: 121,
-      speed: 64
+      speed: 64,
     },
     height: "0.3",
     weight: "0.5",
-    abilities: [
-      "SWEETVEIL"
-    ],
-    hiddenAbilities: [
-      "AROMAVEIL"
-    ],
+    abilities: ["SWEETVEIL"],
+    hiddenAbilities: ["AROMAVEIL"],
     category: "Cream",
     moves: [
       "DECORATE",
@@ -43311,7 +39943,7 @@ export const pokemonForms: PokemonForm[] =
       "DAZZLINGGLEAM",
       "RECOVER",
       "MISTYTERRAIN",
-      "ENTRAINMENT"
+      "ENTRAINMENT",
     ],
     tutorMoves: [
       "ALLURINGVOICE",
@@ -43367,46 +39999,37 @@ export const pokemonForms: PokemonForm[] =
       "SWAGGER",
       "TERABLAST",
       "TRIATTACK",
-      "WONDERROOM"
+      "WONDERROOM",
     ],
-    eggMoves: [
-
-    ],
+    eggMoves: [],
     suffix: "normal",
-    evolution: [
-
-    ],
+    evolution: [],
     color: "White",
     formNumber: 50,
     formName: "",
     baseId: "ALCREMIE",
-    megaStone: null
+    megaStone: null,
   },
   {
     id: "ALCREMIE",
     name: "Alcremie",
-    types: [
-      "FAIRY"
-    ],
+    types: ["FAIRY"],
     sprite: "/Front/ALCREMIE_51.png",
     backSprite: "/spritesBack/ALCREMIE_51.png",
-    description: "When Alcremie is content, the cream it secretes from its hands becomes sweeter and richer.",
+    description:
+      "When Alcremie is content, the cream it secretes from its hands becomes sweeter and richer.",
     stats: {
       hp: 65,
       attack: 60,
       defense: 75,
       spAttack: 110,
       spDefense: 121,
-      speed: 64
+      speed: 64,
     },
     height: "0.3",
     weight: "0.5",
-    abilities: [
-      "SWEETVEIL"
-    ],
-    hiddenAbilities: [
-      "AROMAVEIL"
-    ],
+    abilities: ["SWEETVEIL"],
+    hiddenAbilities: ["AROMAVEIL"],
     category: "Cream",
     moves: [
       "DECORATE",
@@ -43421,7 +40044,7 @@ export const pokemonForms: PokemonForm[] =
       "DAZZLINGGLEAM",
       "RECOVER",
       "MISTYTERRAIN",
-      "ENTRAINMENT"
+      "ENTRAINMENT",
     ],
     tutorMoves: [
       "ALLURINGVOICE",
@@ -43477,46 +40100,37 @@ export const pokemonForms: PokemonForm[] =
       "SWAGGER",
       "TERABLAST",
       "TRIATTACK",
-      "WONDERROOM"
+      "WONDERROOM",
     ],
-    eggMoves: [
-
-    ],
+    eggMoves: [],
     suffix: "normal",
-    evolution: [
-
-    ],
+    evolution: [],
     color: "White",
     formNumber: 51,
     formName: "",
     baseId: "ALCREMIE",
-    megaStone: null
+    megaStone: null,
   },
   {
     id: "ALCREMIE",
     name: "Alcremie",
-    types: [
-      "FAIRY"
-    ],
+    types: ["FAIRY"],
     sprite: "/Front/ALCREMIE_52.png",
     backSprite: "/spritesBack/ALCREMIE_52.png",
-    description: "When Alcremie is content, the cream it secretes from its hands becomes sweeter and richer.",
+    description:
+      "When Alcremie is content, the cream it secretes from its hands becomes sweeter and richer.",
     stats: {
       hp: 65,
       attack: 60,
       defense: 75,
       spAttack: 110,
       spDefense: 121,
-      speed: 64
+      speed: 64,
     },
     height: "0.3",
     weight: "0.5",
-    abilities: [
-      "SWEETVEIL"
-    ],
-    hiddenAbilities: [
-      "AROMAVEIL"
-    ],
+    abilities: ["SWEETVEIL"],
+    hiddenAbilities: ["AROMAVEIL"],
     category: "Cream",
     moves: [
       "DECORATE",
@@ -43531,7 +40145,7 @@ export const pokemonForms: PokemonForm[] =
       "DAZZLINGGLEAM",
       "RECOVER",
       "MISTYTERRAIN",
-      "ENTRAINMENT"
+      "ENTRAINMENT",
     ],
     tutorMoves: [
       "ALLURINGVOICE",
@@ -43587,46 +40201,37 @@ export const pokemonForms: PokemonForm[] =
       "SWAGGER",
       "TERABLAST",
       "TRIATTACK",
-      "WONDERROOM"
+      "WONDERROOM",
     ],
-    eggMoves: [
-
-    ],
+    eggMoves: [],
     suffix: "normal",
-    evolution: [
-
-    ],
+    evolution: [],
     color: "White",
     formNumber: 52,
     formName: "",
     baseId: "ALCREMIE",
-    megaStone: null
+    megaStone: null,
   },
   {
     id: "ALCREMIE",
     name: "Alcremie",
-    types: [
-      "FAIRY"
-    ],
+    types: ["FAIRY"],
     sprite: "/Front/ALCREMIE_53.png",
     backSprite: "/spritesBack/ALCREMIE_53.png",
-    description: "When Alcremie is content, the cream it secretes from its hands becomes sweeter and richer.",
+    description:
+      "When Alcremie is content, the cream it secretes from its hands becomes sweeter and richer.",
     stats: {
       hp: 65,
       attack: 60,
       defense: 75,
       spAttack: 110,
       spDefense: 121,
-      speed: 64
+      speed: 64,
     },
     height: "0.3",
     weight: "0.5",
-    abilities: [
-      "SWEETVEIL"
-    ],
-    hiddenAbilities: [
-      "AROMAVEIL"
-    ],
+    abilities: ["SWEETVEIL"],
+    hiddenAbilities: ["AROMAVEIL"],
     category: "Cream",
     moves: [
       "DECORATE",
@@ -43641,7 +40246,7 @@ export const pokemonForms: PokemonForm[] =
       "DAZZLINGGLEAM",
       "RECOVER",
       "MISTYTERRAIN",
-      "ENTRAINMENT"
+      "ENTRAINMENT",
     ],
     tutorMoves: [
       "ALLURINGVOICE",
@@ -43697,46 +40302,37 @@ export const pokemonForms: PokemonForm[] =
       "SWAGGER",
       "TERABLAST",
       "TRIATTACK",
-      "WONDERROOM"
+      "WONDERROOM",
     ],
-    eggMoves: [
-
-    ],
+    eggMoves: [],
     suffix: "normal",
-    evolution: [
-
-    ],
+    evolution: [],
     color: "White",
     formNumber: 53,
     formName: "",
     baseId: "ALCREMIE",
-    megaStone: null
+    megaStone: null,
   },
   {
     id: "ALCREMIE",
     name: "Alcremie",
-    types: [
-      "FAIRY"
-    ],
+    types: ["FAIRY"],
     sprite: "/Front/ALCREMIE_54.png",
     backSprite: "/spritesBack/ALCREMIE_54.png",
-    description: "When Alcremie is content, the cream it secretes from its hands becomes sweeter and richer.",
+    description:
+      "When Alcremie is content, the cream it secretes from its hands becomes sweeter and richer.",
     stats: {
       hp: 65,
       attack: 60,
       defense: 75,
       spAttack: 110,
       spDefense: 121,
-      speed: 64
+      speed: 64,
     },
     height: "0.3",
     weight: "0.5",
-    abilities: [
-      "SWEETVEIL"
-    ],
-    hiddenAbilities: [
-      "AROMAVEIL"
-    ],
+    abilities: ["SWEETVEIL"],
+    hiddenAbilities: ["AROMAVEIL"],
     category: "Cream",
     moves: [
       "DECORATE",
@@ -43751,7 +40347,7 @@ export const pokemonForms: PokemonForm[] =
       "DAZZLINGGLEAM",
       "RECOVER",
       "MISTYTERRAIN",
-      "ENTRAINMENT"
+      "ENTRAINMENT",
     ],
     tutorMoves: [
       "ALLURINGVOICE",
@@ -43807,46 +40403,37 @@ export const pokemonForms: PokemonForm[] =
       "SWAGGER",
       "TERABLAST",
       "TRIATTACK",
-      "WONDERROOM"
+      "WONDERROOM",
     ],
-    eggMoves: [
-
-    ],
+    eggMoves: [],
     suffix: "normal",
-    evolution: [
-
-    ],
+    evolution: [],
     color: "White",
     formNumber: 54,
     formName: "",
     baseId: "ALCREMIE",
-    megaStone: null
+    megaStone: null,
   },
   {
     id: "ALCREMIE",
     name: "Alcremie",
-    types: [
-      "FAIRY"
-    ],
+    types: ["FAIRY"],
     sprite: "/Front/ALCREMIE_55.png",
     backSprite: "/spritesBack/ALCREMIE_55.png",
-    description: "When Alcremie is content, the cream it secretes from its hands becomes sweeter and richer.",
+    description:
+      "When Alcremie is content, the cream it secretes from its hands becomes sweeter and richer.",
     stats: {
       hp: 65,
       attack: 60,
       defense: 75,
       spAttack: 110,
       spDefense: 121,
-      speed: 64
+      speed: 64,
     },
     height: "0.3",
     weight: "0.5",
-    abilities: [
-      "SWEETVEIL"
-    ],
-    hiddenAbilities: [
-      "AROMAVEIL"
-    ],
+    abilities: ["SWEETVEIL"],
+    hiddenAbilities: ["AROMAVEIL"],
     category: "Cream",
     moves: [
       "DECORATE",
@@ -43861,7 +40448,7 @@ export const pokemonForms: PokemonForm[] =
       "DAZZLINGGLEAM",
       "RECOVER",
       "MISTYTERRAIN",
-      "ENTRAINMENT"
+      "ENTRAINMENT",
     ],
     tutorMoves: [
       "ALLURINGVOICE",
@@ -43917,46 +40504,37 @@ export const pokemonForms: PokemonForm[] =
       "SWAGGER",
       "TERABLAST",
       "TRIATTACK",
-      "WONDERROOM"
+      "WONDERROOM",
     ],
-    eggMoves: [
-
-    ],
+    eggMoves: [],
     suffix: "normal",
-    evolution: [
-
-    ],
+    evolution: [],
     color: "White",
     formNumber: 55,
     formName: "",
     baseId: "ALCREMIE",
-    megaStone: null
+    megaStone: null,
   },
   {
     id: "ALCREMIE",
     name: "Alcremie",
-    types: [
-      "FAIRY"
-    ],
+    types: ["FAIRY"],
     sprite: "/Front/ALCREMIE_56.png",
     backSprite: "/spritesBack/ALCREMIE_56.png",
-    description: "The cells that compose its cream fluctuated suddenly during evolution, giving the cream a complex flavor.",
+    description:
+      "The cells that compose its cream fluctuated suddenly during evolution, giving the cream a complex flavor.",
     stats: {
       hp: 65,
       attack: 60,
       defense: 75,
       spAttack: 110,
       spDefense: 121,
-      speed: 64
+      speed: 64,
     },
     height: "0.3",
     weight: "0.5",
-    abilities: [
-      "SWEETVEIL"
-    ],
-    hiddenAbilities: [
-      "AROMAVEIL"
-    ],
+    abilities: ["SWEETVEIL"],
+    hiddenAbilities: ["AROMAVEIL"],
     category: "Cream",
     moves: [
       "DECORATE",
@@ -43971,7 +40549,7 @@ export const pokemonForms: PokemonForm[] =
       "DAZZLINGGLEAM",
       "RECOVER",
       "MISTYTERRAIN",
-      "ENTRAINMENT"
+      "ENTRAINMENT",
     ],
     tutorMoves: [
       "ALLURINGVOICE",
@@ -44027,46 +40605,37 @@ export const pokemonForms: PokemonForm[] =
       "SWAGGER",
       "TERABLAST",
       "TRIATTACK",
-      "WONDERROOM"
+      "WONDERROOM",
     ],
-    eggMoves: [
-
-    ],
+    eggMoves: [],
     suffix: "normal",
-    evolution: [
-
-    ],
+    evolution: [],
     color: "Yellow",
     formNumber: 56,
     formName: "Rainbow Swirl",
     baseId: "ALCREMIE",
-    megaStone: null
+    megaStone: null,
   },
   {
     id: "ALCREMIE",
     name: "Alcremie",
-    types: [
-      "FAIRY"
-    ],
+    types: ["FAIRY"],
     sprite: "/Front/ALCREMIE_57.png",
     backSprite: "/spritesBack/ALCREMIE_57.png",
-    description: "When Alcremie is content, the cream it secretes from its hands becomes sweeter and richer.",
+    description:
+      "When Alcremie is content, the cream it secretes from its hands becomes sweeter and richer.",
     stats: {
       hp: 65,
       attack: 60,
       defense: 75,
       spAttack: 110,
       spDefense: 121,
-      speed: 64
+      speed: 64,
     },
     height: "0.3",
     weight: "0.5",
-    abilities: [
-      "SWEETVEIL"
-    ],
-    hiddenAbilities: [
-      "AROMAVEIL"
-    ],
+    abilities: ["SWEETVEIL"],
+    hiddenAbilities: ["AROMAVEIL"],
     category: "Cream",
     moves: [
       "DECORATE",
@@ -44081,7 +40650,7 @@ export const pokemonForms: PokemonForm[] =
       "DAZZLINGGLEAM",
       "RECOVER",
       "MISTYTERRAIN",
-      "ENTRAINMENT"
+      "ENTRAINMENT",
     ],
     tutorMoves: [
       "ALLURINGVOICE",
@@ -44137,46 +40706,37 @@ export const pokemonForms: PokemonForm[] =
       "SWAGGER",
       "TERABLAST",
       "TRIATTACK",
-      "WONDERROOM"
+      "WONDERROOM",
     ],
-    eggMoves: [
-
-    ],
+    eggMoves: [],
     suffix: "normal",
-    evolution: [
-
-    ],
+    evolution: [],
     color: "White",
     formNumber: 57,
     formName: "",
     baseId: "ALCREMIE",
-    megaStone: null
+    megaStone: null,
   },
   {
     id: "ALCREMIE",
     name: "Alcremie",
-    types: [
-      "FAIRY"
-    ],
+    types: ["FAIRY"],
     sprite: "/Front/ALCREMIE_58.png",
     backSprite: "/spritesBack/ALCREMIE_58.png",
-    description: "When Alcremie is content, the cream it secretes from its hands becomes sweeter and richer.",
+    description:
+      "When Alcremie is content, the cream it secretes from its hands becomes sweeter and richer.",
     stats: {
       hp: 65,
       attack: 60,
       defense: 75,
       spAttack: 110,
       spDefense: 121,
-      speed: 64
+      speed: 64,
     },
     height: "0.3",
     weight: "0.5",
-    abilities: [
-      "SWEETVEIL"
-    ],
-    hiddenAbilities: [
-      "AROMAVEIL"
-    ],
+    abilities: ["SWEETVEIL"],
+    hiddenAbilities: ["AROMAVEIL"],
     category: "Cream",
     moves: [
       "DECORATE",
@@ -44191,7 +40751,7 @@ export const pokemonForms: PokemonForm[] =
       "DAZZLINGGLEAM",
       "RECOVER",
       "MISTYTERRAIN",
-      "ENTRAINMENT"
+      "ENTRAINMENT",
     ],
     tutorMoves: [
       "ALLURINGVOICE",
@@ -44247,46 +40807,37 @@ export const pokemonForms: PokemonForm[] =
       "SWAGGER",
       "TERABLAST",
       "TRIATTACK",
-      "WONDERROOM"
+      "WONDERROOM",
     ],
-    eggMoves: [
-
-    ],
+    eggMoves: [],
     suffix: "normal",
-    evolution: [
-
-    ],
+    evolution: [],
     color: "White",
     formNumber: 58,
     formName: "",
     baseId: "ALCREMIE",
-    megaStone: null
+    megaStone: null,
   },
   {
     id: "ALCREMIE",
     name: "Alcremie",
-    types: [
-      "FAIRY"
-    ],
+    types: ["FAIRY"],
     sprite: "/Front/ALCREMIE_59.png",
     backSprite: "/spritesBack/ALCREMIE_59.png",
-    description: "When Alcremie is content, the cream it secretes from its hands becomes sweeter and richer.",
+    description:
+      "When Alcremie is content, the cream it secretes from its hands becomes sweeter and richer.",
     stats: {
       hp: 65,
       attack: 60,
       defense: 75,
       spAttack: 110,
       spDefense: 121,
-      speed: 64
+      speed: 64,
     },
     height: "0.3",
     weight: "0.5",
-    abilities: [
-      "SWEETVEIL"
-    ],
-    hiddenAbilities: [
-      "AROMAVEIL"
-    ],
+    abilities: ["SWEETVEIL"],
+    hiddenAbilities: ["AROMAVEIL"],
     category: "Cream",
     moves: [
       "DECORATE",
@@ -44301,7 +40852,7 @@ export const pokemonForms: PokemonForm[] =
       "DAZZLINGGLEAM",
       "RECOVER",
       "MISTYTERRAIN",
-      "ENTRAINMENT"
+      "ENTRAINMENT",
     ],
     tutorMoves: [
       "ALLURINGVOICE",
@@ -44357,46 +40908,37 @@ export const pokemonForms: PokemonForm[] =
       "SWAGGER",
       "TERABLAST",
       "TRIATTACK",
-      "WONDERROOM"
+      "WONDERROOM",
     ],
-    eggMoves: [
-
-    ],
+    eggMoves: [],
     suffix: "normal",
-    evolution: [
-
-    ],
+    evolution: [],
     color: "White",
     formNumber: 59,
     formName: "",
     baseId: "ALCREMIE",
-    megaStone: null
+    megaStone: null,
   },
   {
     id: "ALCREMIE",
     name: "Alcremie",
-    types: [
-      "FAIRY"
-    ],
+    types: ["FAIRY"],
     sprite: "/Front/ALCREMIE_60.png",
     backSprite: "/spritesBack/ALCREMIE_60.png",
-    description: "When Alcremie is content, the cream it secretes from its hands becomes sweeter and richer.",
+    description:
+      "When Alcremie is content, the cream it secretes from its hands becomes sweeter and richer.",
     stats: {
       hp: 65,
       attack: 60,
       defense: 75,
       spAttack: 110,
       spDefense: 121,
-      speed: 64
+      speed: 64,
     },
     height: "0.3",
     weight: "0.5",
-    abilities: [
-      "SWEETVEIL"
-    ],
-    hiddenAbilities: [
-      "AROMAVEIL"
-    ],
+    abilities: ["SWEETVEIL"],
+    hiddenAbilities: ["AROMAVEIL"],
     category: "Cream",
     moves: [
       "DECORATE",
@@ -44411,7 +40953,7 @@ export const pokemonForms: PokemonForm[] =
       "DAZZLINGGLEAM",
       "RECOVER",
       "MISTYTERRAIN",
-      "ENTRAINMENT"
+      "ENTRAINMENT",
     ],
     tutorMoves: [
       "ALLURINGVOICE",
@@ -44467,46 +41009,37 @@ export const pokemonForms: PokemonForm[] =
       "SWAGGER",
       "TERABLAST",
       "TRIATTACK",
-      "WONDERROOM"
+      "WONDERROOM",
     ],
-    eggMoves: [
-
-    ],
+    eggMoves: [],
     suffix: "normal",
-    evolution: [
-
-    ],
+    evolution: [],
     color: "White",
     formNumber: 60,
     formName: "",
     baseId: "ALCREMIE",
-    megaStone: null
+    megaStone: null,
   },
   {
     id: "ALCREMIE",
     name: "Alcremie",
-    types: [
-      "FAIRY"
-    ],
+    types: ["FAIRY"],
     sprite: "/Front/ALCREMIE_61.png",
     backSprite: "/spritesBack/ALCREMIE_61.png",
-    description: "When Alcremie is content, the cream it secretes from its hands becomes sweeter and richer.",
+    description:
+      "When Alcremie is content, the cream it secretes from its hands becomes sweeter and richer.",
     stats: {
       hp: 65,
       attack: 60,
       defense: 75,
       spAttack: 110,
       spDefense: 121,
-      speed: 64
+      speed: 64,
     },
     height: "0.3",
     weight: "0.5",
-    abilities: [
-      "SWEETVEIL"
-    ],
-    hiddenAbilities: [
-      "AROMAVEIL"
-    ],
+    abilities: ["SWEETVEIL"],
+    hiddenAbilities: ["AROMAVEIL"],
     category: "Cream",
     moves: [
       "DECORATE",
@@ -44521,7 +41054,7 @@ export const pokemonForms: PokemonForm[] =
       "DAZZLINGGLEAM",
       "RECOVER",
       "MISTYTERRAIN",
-      "ENTRAINMENT"
+      "ENTRAINMENT",
     ],
     tutorMoves: [
       "ALLURINGVOICE",
@@ -44577,46 +41110,37 @@ export const pokemonForms: PokemonForm[] =
       "SWAGGER",
       "TERABLAST",
       "TRIATTACK",
-      "WONDERROOM"
+      "WONDERROOM",
     ],
-    eggMoves: [
-
-    ],
+    eggMoves: [],
     suffix: "normal",
-    evolution: [
-
-    ],
+    evolution: [],
     color: "White",
     formNumber: 61,
     formName: "",
     baseId: "ALCREMIE",
-    megaStone: null
+    megaStone: null,
   },
   {
     id: "ALCREMIE",
     name: "Alcremie",
-    types: [
-      "FAIRY"
-    ],
+    types: ["FAIRY"],
     sprite: "/Front/ALCREMIE_62.png",
     backSprite: "/spritesBack/ALCREMIE_62.png",
-    description: "When Alcremie is content, the cream it secretes from its hands becomes sweeter and richer.",
+    description:
+      "When Alcremie is content, the cream it secretes from its hands becomes sweeter and richer.",
     stats: {
       hp: 65,
       attack: 60,
       defense: 75,
       spAttack: 110,
       spDefense: 121,
-      speed: 64
+      speed: 64,
     },
     height: "0.3",
     weight: "0.5",
-    abilities: [
-      "SWEETVEIL"
-    ],
-    hiddenAbilities: [
-      "AROMAVEIL"
-    ],
+    abilities: ["SWEETVEIL"],
+    hiddenAbilities: ["AROMAVEIL"],
     category: "Cream",
     moves: [
       "DECORATE",
@@ -44631,7 +41155,7 @@ export const pokemonForms: PokemonForm[] =
       "DAZZLINGGLEAM",
       "RECOVER",
       "MISTYTERRAIN",
-      "ENTRAINMENT"
+      "ENTRAINMENT",
     ],
     tutorMoves: [
       "ALLURINGVOICE",
@@ -44687,46 +41211,37 @@ export const pokemonForms: PokemonForm[] =
       "SWAGGER",
       "TERABLAST",
       "TRIATTACK",
-      "WONDERROOM"
+      "WONDERROOM",
     ],
-    eggMoves: [
-
-    ],
+    eggMoves: [],
     suffix: "normal",
-    evolution: [
-
-    ],
+    evolution: [],
     color: "White",
     formNumber: 62,
     formName: "",
     baseId: "ALCREMIE",
-    megaStone: null
+    megaStone: null,
   },
   {
     id: "EISCUE",
     name: "Eiscue",
-    types: [
-      "ICE"
-    ],
+    types: ["ICE"],
     sprite: "/Front/EISCUE_1.png",
     backSprite: "/spritesBack/EISCUE_1.png",
-    description: "The ice covering this Pokémon's face has shattered, revealing a slightly worried expression that many people are enamored with.",
+    description:
+      "The ice covering this Pokémon's face has shattered, revealing a slightly worried expression that many people are enamored with.",
     stats: {
       hp: 75,
       attack: 80,
       defense: 70,
       spAttack: 65,
       spDefense: 50,
-      speed: 130
+      speed: 130,
     },
     height: "1.4",
     weight: "89.0",
-    abilities: [
-      "ICEFACE"
-    ],
-    hiddenAbilities: [
-
-    ],
+    abilities: ["ICEFACE"],
+    hiddenAbilities: [],
     category: "Penguin",
     moves: [
       "POWDERSNOW",
@@ -44740,7 +41255,7 @@ export const pokemonForms: PokemonForm[] =
       "SNOWSCAPE",
       "AURORAVEIL",
       "SURF",
-      "BLIZZARD"
+      "BLIZZARD",
     ],
     tutorMoves: [
       "AGILITY",
@@ -44796,7 +41311,7 @@ export const pokemonForms: PokemonForm[] =
       "WATERPULSE",
       "WEATHERBALL",
       "WHIRLPOOL",
-      "ZENHEADBUTT"
+      "ZENHEADBUTT",
     ],
     eggMoves: [
       "AQUARING",
@@ -44804,45 +41319,36 @@ export const pokemonForms: PokemonForm[] =
       "DOUBLEEDGE",
       "HEADSMASH",
       "ICICLECRASH",
-      "SOAK"
+      "SOAK",
     ],
     suffix: "normal",
-    evolution: [
-
-    ],
+    evolution: [],
     color: "Blue",
     formNumber: 1,
     formName: "Noice Face",
     baseId: "EISCUE",
-    megaStone: null
+    megaStone: null,
   },
   {
     id: "INDEEDEE",
     name: "Indeedee",
-    types: [
-      "PSYCHIC",
-      "NORMAL"
-    ],
+    types: ["PSYCHIC", "NORMAL"],
     sprite: "/Front/INDEEDEE_1.png",
     backSprite: "/spritesBack/INDEEDEE_1.png",
-    description: "They diligently serve people and Pokémon so they can gather feelings of gratitude. The females are particularly good at babysitting.",
+    description:
+      "They diligently serve people and Pokémon so they can gather feelings of gratitude. The females are particularly good at babysitting.",
     stats: {
       hp: 70,
       attack: 55,
       defense: 65,
       spAttack: 95,
       spDefense: 105,
-      speed: 85
+      speed: 85,
     },
     height: "0.9",
     weight: "28.0",
-    abilities: [
-      "OWNTEMPO",
-      "SYNCHRONIZE"
-    ],
-    hiddenAbilities: [
-      "PSYCHICSURGE"
-    ],
+    abilities: ["OWNTEMPO", "SYNCHRONIZE"],
+    hiddenAbilities: ["PSYCHICSURGE"],
     category: "Emotion",
     moves: [
       "STOREDPOWER",
@@ -44856,7 +41362,7 @@ export const pokemonForms: PokemonForm[] =
       "PSYCHIC",
       "CALMMIND",
       "GUARDSPLIT",
-      "PSYCHICTERRAIN"
+      "PSYCHICTERRAIN",
     ],
     tutorMoves: [
       "ALLURINGVOICE",
@@ -44915,50 +41421,37 @@ export const pokemonForms: PokemonForm[] =
       "TERRAINPULSE",
       "TRICK",
       "TRICKROOM",
-      "ZENHEADBUTT"
+      "ZENHEADBUTT",
     ],
-    eggMoves: [
-      "FAKEOUT",
-      "HEALPULSE",
-      "PSYCHUP",
-      "PSYCHOSHIFT"
-    ],
+    eggMoves: ["FAKEOUT", "HEALPULSE", "PSYCHUP", "PSYCHOSHIFT"],
     suffix: "normal",
-    evolution: [
-
-    ],
+    evolution: [],
     color: "Purple",
     formNumber: 1,
     formName: "Female",
     baseId: "INDEEDEE",
-    megaStone: null
+    megaStone: null,
   },
   {
     id: "MORPEKO",
     name: "Morpeko",
-    types: [
-      "ELECTRIC",
-      "DARK"
-    ],
+    types: ["ELECTRIC", "DARK"],
     sprite: "/Front/MORPEKO_1.png",
     backSprite: "/spritesBack/MORPEKO_1.png",
-    description: "Hunger hormones affect its temperament. Until its hunger is appeased, it gets up to all manner of evil deeds.",
+    description:
+      "Hunger hormones affect its temperament. Until its hunger is appeased, it gets up to all manner of evil deeds.",
     stats: {
       hp: 58,
       attack: 95,
       defense: 58,
       spAttack: 70,
       spDefense: 58,
-      speed: 97
+      speed: 97,
     },
     height: "0.3",
     weight: "3.0",
-    abilities: [
-      "HUNGERSWITCH"
-    ],
-    hiddenAbilities: [
-
-    ],
+    abilities: ["HUNGERSWITCH"],
+    hiddenAbilities: [],
     category: "Two-Sided",
     moves: [
       "THUNDERSHOCK",
@@ -44974,7 +41467,7 @@ export const pokemonForms: PokemonForm[] =
       "BULLETSEED",
       "CRUNCH",
       "AURAWHEEL",
-      "THRASH"
+      "THRASH",
     ],
     tutorMoves: [
       "AGILITY",
@@ -45043,7 +41536,7 @@ export const pokemonForms: PokemonForm[] =
       "THUNDERWAVE",
       "UPROAR",
       "VOLTSWITCH",
-      "WILDCHARGE"
+      "WILDCHARGE",
     ],
     eggMoves: [
       "CHARGE",
@@ -45053,44 +41546,36 @@ export const pokemonForms: PokemonForm[] =
       "RAPIDSPIN",
       "SUPERFANG",
       "SWAGGER",
-      "TICKLE"
+      "TICKLE",
     ],
     suffix: "normal",
-    evolution: [
-
-    ],
+    evolution: [],
     color: "Purple",
     formNumber: 1,
     formName: "Hangry Mode",
     baseId: "MORPEKO",
-    megaStone: null
+    megaStone: null,
   },
   {
     id: "ZACIAN",
     name: "Zacian",
-    types: [
-      "FAIRY",
-      "STEEL"
-    ],
+    types: ["FAIRY", "STEEL"],
     sprite: "/Front/ZACIAN_1.png",
     backSprite: "/spritesBack/ZACIAN_1.png",
-    description: "Able to cut down anything with a single strike, it became known as the Fairy King's Sword, and it inspired awe in friend and foe alike.",
+    description:
+      "Able to cut down anything with a single strike, it became known as the Fairy King's Sword, and it inspired awe in friend and foe alike.",
     stats: {
       hp: 92,
       attack: 170,
       defense: 115,
       spAttack: 80,
       spDefense: 115,
-      speed: 148
+      speed: 148,
     },
     height: "2.8",
     weight: "355.0",
-    abilities: [
-      "INTREPIDSWORD"
-    ],
-    hiddenAbilities: [
-
-    ],
+    abilities: ["INTREPIDSWORD"],
+    hiddenAbilities: [],
     category: "Warrior",
     moves: [
       "SACREDSWORD",
@@ -45106,7 +41591,7 @@ export const pokemonForms: PokemonForm[] =
       "CRUNCH",
       "MOONBLAST",
       "CLOSECOMBAT",
-      "GIGAIMPACT"
+      "GIGAIMPACT",
     ],
     tutorMoves: [
       "AGILITY",
@@ -45171,47 +41656,37 @@ export const pokemonForms: PokemonForm[] =
       "THUNDERFANG",
       "TRAILBLAZE",
       "WILDCHARGE",
-      "WORKUP"
+      "WORKUP",
     ],
-    eggMoves: [
-
-    ],
+    eggMoves: [],
     suffix: "normal",
-    evolution: [
-
-    ],
+    evolution: [],
     color: "Blue",
     formNumber: 1,
     formName: "Crowned Sword",
     baseId: "ZACIAN",
-    megaStone: null
+    megaStone: null,
   },
   {
     id: "ZAMAZENTA",
     name: "Zamazenta",
-    types: [
-      "FIGHTING",
-      "STEEL"
-    ],
+    types: ["FIGHTING", "STEEL"],
     sprite: "/Front/ZAMAZENTA_1.png",
     backSprite: "/spritesBack/ZAMAZENTA_1.png",
-    description: "Its ability to deflect any attack led to it being known as the Fighting Master's Shield. It was feared and respected by all.",
+    description:
+      "Its ability to deflect any attack led to it being known as the Fighting Master's Shield. It was feared and respected by all.",
     stats: {
       hp: 92,
       attack: 130,
       defense: 145,
       spAttack: 80,
       spDefense: 145,
-      speed: 128
+      speed: 128,
     },
     height: "2.9",
     weight: "785.0",
-    abilities: [
-      "DAUNTLESSSHIELD"
-    ],
-    hiddenAbilities: [
-
-    ],
+    abilities: ["DAUNTLESSSHIELD"],
+    hiddenAbilities: [],
     category: "Warrior",
     moves: [
       "WIDEGUARD",
@@ -45226,7 +41701,7 @@ export const pokemonForms: PokemonForm[] =
       "CRUNCH",
       "MOONBLAST",
       "CLOSECOMBAT",
-      "GIGAIMPACT"
+      "GIGAIMPACT",
     ],
     tutorMoves: [
       "AGILITY",
@@ -45297,47 +41772,37 @@ export const pokemonForms: PokemonForm[] =
       "THUNDERFANG",
       "TRAILBLAZE",
       "WILDCHARGE",
-      "WORKUP"
+      "WORKUP",
     ],
-    eggMoves: [
-
-    ],
+    eggMoves: [],
     suffix: "normal",
-    evolution: [
-
-    ],
+    evolution: [],
     color: "Red",
     formNumber: 1,
     formName: "Crowned Shield",
     baseId: "ZAMAZENTA",
-    megaStone: null
+    megaStone: null,
   },
   {
     id: "URSHIFU",
     name: "Urshifu",
-    types: [
-      "FIGHTING",
-      "WATER"
-    ],
+    types: ["FIGHTING", "WATER"],
     sprite: "/Front/URSHIFU_1.png",
     backSprite: "/spritesBack/URSHIFU_1.png",
-    description: "It's believed that this Pokémon modeled its fighting style on the flow of a river—sometimes rapid, sometimes calm.",
+    description:
+      "It's believed that this Pokémon modeled its fighting style on the flow of a river—sometimes rapid, sometimes calm.",
     stats: {
       hp: 100,
       attack: 130,
       defense: 100,
       spAttack: 63,
       spDefense: 60,
-      speed: 97
+      speed: 97,
     },
     height: "1.9",
     weight: "105.0",
-    abilities: [
-      "UNSEENFIST"
-    ],
-    hiddenAbilities: [
-
-    ],
+    abilities: ["UNSEENFIST"],
+    hiddenAbilities: [],
     category: "Wushu",
     moves: [
       "SURGINGSTRIKES",
@@ -45356,7 +41821,7 @@ export const pokemonForms: PokemonForm[] =
       "DYNAMICPUNCH",
       "COUNTER",
       "CLOSECOMBAT",
-      "FOCUSPUNCH"
+      "FOCUSPUNCH",
     ],
     tutorMoves: [
       "ACROBATICS",
@@ -45432,47 +41897,37 @@ export const pokemonForms: PokemonForm[] =
       "WATERFALL",
       "WHIRLPOOL",
       "WORKUP",
-      "ZENHEADBUTT"
+      "ZENHEADBUTT",
     ],
-    eggMoves: [
-
-    ],
+    eggMoves: [],
     suffix: "normal",
-    evolution: [
-
-    ],
+    evolution: [],
     color: "Gray",
     formNumber: 1,
     formName: "Rapid Strike Style",
     baseId: "URSHIFU",
-    megaStone: null
+    megaStone: null,
   },
   {
     id: "CALYREX",
     name: "Calyrex",
-    types: [
-      "PSYCHIC",
-      "ICE"
-    ],
+    types: ["PSYCHIC", "ICE"],
     sprite: "/Front/CALYREX_1.png",
     backSprite: "/spritesBack/CALYREX_1.png",
-    description: "According to lore, this Pokémon showed no mercy to those who got in its way, yet it would heal its opponents' wounds after battle.",
+    description:
+      "According to lore, this Pokémon showed no mercy to those who got in its way, yet it would heal its opponents' wounds after battle.",
     stats: {
       hp: 100,
       attack: 165,
       defense: 150,
       spAttack: 85,
       spDefense: 130,
-      speed: 50
+      speed: 50,
     },
     height: "2.4",
     weight: "809.1",
-    abilities: [
-      "ASONECHILLINGNEIGH"
-    ],
-    hiddenAbilities: [
-
-    ],
+    abilities: ["ASONECHILLINGNEIGH"],
+    hiddenAbilities: [],
     category: "High King",
     moves: [
       "GLACIALLANCE",
@@ -45505,7 +41960,7 @@ export const pokemonForms: PokemonForm[] =
       "LEECHSEED",
       "HEALPULSE",
       "SOLARBEAM",
-      "FUTURESIGHT"
+      "FUTURESIGHT",
     ],
     tutorMoves: [
       "AGILITY",
@@ -45606,47 +42061,37 @@ export const pokemonForms: PokemonForm[] =
       "TRICK",
       "TRICKROOM",
       "WONDERROOM",
-      "ZENHEADBUTT"
+      "ZENHEADBUTT",
     ],
-    eggMoves: [
-
-    ],
+    eggMoves: [],
     suffix: "normal",
-    evolution: [
-
-    ],
+    evolution: [],
     color: "White",
     formNumber: 1,
     formName: "Ice Rider",
     baseId: "CALYREX",
-    megaStone: null
+    megaStone: null,
   },
   {
     id: "CALYREX",
     name: "Calyrex",
-    types: [
-      "PSYCHIC",
-      "GHOST"
-    ],
+    types: ["PSYCHIC", "GHOST"],
     sprite: "/Front/CALYREX_2.png",
     backSprite: "/spritesBack/CALYREX_2.png",
-    description: "Legend says that by using its power to see all events from past to future, this Pokémon saved the creatures of a forest from a meteorite strike.",
+    description:
+      "Legend says that by using its power to see all events from past to future, this Pokémon saved the creatures of a forest from a meteorite strike.",
     stats: {
       hp: 100,
       attack: 85,
       defense: 80,
       spAttack: 165,
       spDefense: 100,
-      speed: 150
+      speed: 150,
     },
     height: "2.4",
     weight: "53.6",
-    abilities: [
-      "ASONEGRIMNEIGH"
-    ],
-    hiddenAbilities: [
-
-    ],
+    abilities: ["ASONEGRIMNEIGH"],
+    hiddenAbilities: [],
     category: "High King",
     moves: [
       "ASTRALBARRAGE",
@@ -45679,7 +42124,7 @@ export const pokemonForms: PokemonForm[] =
       "LEECHSEED",
       "HEALPULSE",
       "SOLARBEAM",
-      "FUTURESIGHT"
+      "FUTURESIGHT",
     ],
     tutorMoves: [
       "AGILITY",
@@ -45772,47 +42217,37 @@ export const pokemonForms: PokemonForm[] =
       "TRICKROOM",
       "WILLOWISP",
       "WONDERROOM",
-      "ZENHEADBUTT"
+      "ZENHEADBUTT",
     ],
-    eggMoves: [
-
-    ],
+    eggMoves: [],
     suffix: "normal",
-    evolution: [
-
-    ],
+    evolution: [],
     color: "Black",
     formNumber: 2,
     formName: "Shadow Rider",
     baseId: "CALYREX",
-    megaStone: null
+    megaStone: null,
   },
   {
     id: "URSALUNA",
     name: "Ursaluna",
-    types: [
-      "GROUND",
-      "NORMAL"
-    ],
+    types: ["GROUND", "NORMAL"],
     sprite: "/Front/URSALUNA_1.png",
     backSprite: "/spritesBack/URSALUNA_1.png",
-    description: "This special Ursaluna can see in the dark with its left eye and protects itself with mud that is as hard as iron.",
+    description:
+      "This special Ursaluna can see in the dark with its left eye and protects itself with mud that is as hard as iron.",
     stats: {
       hp: 113,
       attack: 70,
       defense: 120,
       spAttack: 135,
       spDefense: 65,
-      speed: 52
+      speed: 52,
     },
     height: "2.7",
     weight: "333.0",
-    abilities: [
-      "MINDSEYE"
-    ],
-    hiddenAbilities: [
-      "MINDSEYE"
-    ],
+    abilities: ["MINDSEYE"],
+    hiddenAbilities: ["MINDSEYE"],
     category: "Peat",
     moves: [
       "MOONLIGHT",
@@ -45831,7 +42266,7 @@ export const pokemonForms: PokemonForm[] =
       "EARTHPOWER",
       "MOONBLAST",
       "HAMMERARM",
-      "BLOODMOON"
+      "BLOODMOON",
     ],
     tutorMoves: [
       "AVALANCHE",
@@ -45888,48 +42323,37 @@ export const pokemonForms: PokemonForm[] =
       "THUNDERPUNCH",
       "TRAILBLAZE",
       "UPROAR",
-      "VACUUMWAVE"
+      "VACUUMWAVE",
     ],
-    eggMoves: [
-
-    ],
+    eggMoves: [],
     suffix: "normal",
-    evolution: [
-
-    ],
+    evolution: [],
     color: "Brown",
     formNumber: 1,
     formName: "Bloodmoon Ursaluna",
     baseId: "URSALUNA",
-    megaStone: null
+    megaStone: null,
   },
   {
     id: "BASCULEGION",
     name: "Basculegion",
-    types: [
-      "WATER",
-      "GHOST"
-    ],
+    types: ["WATER", "GHOST"],
     sprite: "/Front/BASCULEGION_3.png",
     backSprite: "/spritesBack/BASCULEGION_3.png",
-    description: "It can afflict a target with terrifying illusions that are under its control. The deeper the sadness in its friends' souls, the paler Basculegion becomes.",
+    description:
+      "It can afflict a target with terrifying illusions that are under its control. The deeper the sadness in its friends' souls, the paler Basculegion becomes.",
     stats: {
       hp: 120,
       attack: 92,
       defense: 65,
       spAttack: 100,
       spDefense: 75,
-      speed: 78
+      speed: 78,
     },
     height: "3.0",
     weight: "110.0",
-    abilities: [
-      "SWIFTSWIM",
-      "ADAPTABILITY"
-    ],
-    hiddenAbilities: [
-      "MOLDBREAKER"
-    ],
+    abilities: ["SWIFTSWIM", "ADAPTABILITY"],
+    hiddenAbilities: ["MOLDBREAKER"],
     category: "Big Fish",
     moves: [
       "SHADOWBALL",
@@ -45949,7 +42373,7 @@ export const pokemonForms: PokemonForm[] =
       "WAVECRASH",
       "THRASH",
       "DOUBLEEDGE",
-      "HEADSMASH"
+      "HEADSMASH",
     ],
     tutorMoves: [
       "AGILITY",
@@ -45996,47 +42420,37 @@ export const pokemonForms: PokemonForm[] =
       "WATERFALL",
       "WATERPULSE",
       "WHIRLPOOL",
-      "ZENHEADBUTT"
+      "ZENHEADBUTT",
     ],
-    eggMoves: [
-
-    ],
+    eggMoves: [],
     suffix: "normal",
-    evolution: [
-
-    ],
+    evolution: [],
     color: "Green",
     formNumber: 3,
     formName: "Female",
     baseId: "BASCULEGION",
-    megaStone: null
+    megaStone: null,
   },
   {
     id: "ENAMORUS",
     name: "Enamorus",
-    types: [
-      "FAIRY",
-      "FLYING"
-    ],
+    types: ["FAIRY", "FLYING"],
     sprite: "/Front/ENAMORUS_1.png",
     backSprite: "/spritesBack/ENAMORUS_1.png",
-    description: "A different guise from its feminine humanoid form. From the clouds, it descends upon those who treat any form of life with disrespect and metes out wrathful, ruthless punishment.",
+    description:
+      "A different guise from its feminine humanoid form. From the clouds, it descends upon those who treat any form of life with disrespect and metes out wrathful, ruthless punishment.",
     stats: {
       hp: 74,
       attack: 115,
       defense: 110,
       spAttack: 135,
       spDefense: 100,
-      speed: 46
+      speed: 46,
     },
     height: "1.6",
     weight: "48.0",
-    abilities: [
-      "OVERCOAT"
-    ],
-    hiddenAbilities: [
-      "OVERCOAT"
-    ],
+    abilities: ["OVERCOAT"],
+    hiddenAbilities: ["OVERCOAT"],
     category: "Love-Hate",
     moves: [
       "ASTONISH",
@@ -46055,7 +42469,7 @@ export const pokemonForms: PokemonForm[] =
       "HEALINGWISH",
       "MOONBLAST",
       "OUTRAGE",
-      "SPRINGTIDESTORM"
+      "SPRINGTIDESTORM",
     ],
     tutorMoves: [
       "AGILITY",
@@ -46097,47 +42511,37 @@ export const pokemonForms: PokemonForm[] =
       "TERABLAST",
       "UPROAR",
       "WEATHERBALL",
-      "ZENHEADBUTT"
+      "ZENHEADBUTT",
     ],
-    eggMoves: [
-
-    ],
+    eggMoves: [],
     suffix: "normal",
-    evolution: [
-
-    ],
+    evolution: [],
     color: "Pink",
     formNumber: 1,
     formName: "Therian Form",
     baseId: "ENAMORUS",
-    megaStone: null
+    megaStone: null,
   },
   {
     id: "OINKOLOGNE",
     name: "Oinkologne",
-    types: [
-      "NORMAL"
-    ],
+    types: ["NORMAL"],
     sprite: "/Front/OINKOLOGNE_1.png",
     backSprite: "/spritesBack/OINKOLOGNE_1.png",
-    description: "This is a meticulous Pokémon that likes to keep things tidy. It shrouds itself in a floral aroma that soothes the Pokémon around it.",
+    description:
+      "This is a meticulous Pokémon that likes to keep things tidy. It shrouds itself in a floral aroma that soothes the Pokémon around it.",
     stats: {
       hp: 115,
       attack: 90,
       defense: 70,
       spAttack: 59,
       spDefense: 90,
-      speed: 65
+      speed: 65,
     },
     height: "1.0",
     weight: "120.0",
-    abilities: [
-      "AROMAVEIL",
-      "GLUTTONY"
-    ],
-    hiddenAbilities: [
-      "THICKFAT"
-    ],
+    abilities: ["AROMAVEIL", "GLUTTONY"],
+    hiddenAbilities: ["THICKFAT"],
     category: "Hog",
     moves: [
       "TACKLE",
@@ -46154,7 +42558,7 @@ export const pokemonForms: PokemonForm[] =
       "UPROAR",
       "DOUBLEEDGE",
       "EARTHPOWER",
-      "BELCH"
+      "BELCH",
     ],
     tutorMoves: [
       "BODYPRESS",
@@ -46195,47 +42599,37 @@ export const pokemonForms: PokemonForm[] =
       "THIEF",
       "TRAILBLAZE",
       "UPROAR",
-      "ZENHEADBUTT"
+      "ZENHEADBUTT",
     ],
-    eggMoves: [
-
-    ],
+    eggMoves: [],
     suffix: "normal",
-    evolution: [
-
-    ],
+    evolution: [],
     color: "Brown",
     formNumber: 1,
     formName: "Female",
     baseId: "OINKOLOGNE",
-    megaStone: null
+    megaStone: null,
   },
   {
     id: "MAUSHOLD",
     name: "Maushold",
-    types: [
-      "NORMAL"
-    ],
+    types: ["NORMAL"],
     sprite: "/Front/MAUSHOLD_1.png",
     backSprite: "/spritesBack/MAUSHOLD_1.png",
-    description: "The little one just appeared one day. They all live together like a family, but the relationship between the three is still unclear.",
+    description:
+      "The little one just appeared one day. They all live together like a family, but the relationship between the three is still unclear.",
     stats: {
       hp: 74,
       attack: 75,
       defense: 70,
       spAttack: 65,
       spDefense: 75,
-      speed: 111
+      speed: 111,
     },
     height: "0.3",
     weight: "2.3",
-    abilities: [
-      "FRIENDGUARD",
-      "CHEEKPOUCH"
-    ],
-    hiddenAbilities: [
-      "TECHNICIAN"
-    ],
+    abilities: ["FRIENDGUARD", "CHEEKPOUCH"],
+    hiddenAbilities: ["TECHNICIAN"],
     category: "Family",
     moves: [
       "FOLLOWME",
@@ -46253,7 +42647,7 @@ export const pokemonForms: PokemonForm[] =
       "CHARM",
       "BEATUP",
       "COPYCAT",
-      "POPULATIONBOMB"
+      "POPULATIONBOMB",
     ],
     tutorMoves: [
       "AERIALACE",
@@ -46296,48 +42690,37 @@ export const pokemonForms: PokemonForm[] =
       "THUNDERWAVE",
       "TRAILBLAZE",
       "UTURN",
-      "WATERPULSE"
+      "WATERPULSE",
     ],
-    eggMoves: [
-
-    ],
+    eggMoves: [],
     suffix: "normal",
-    evolution: [
-
-    ],
+    evolution: [],
     color: "White",
     formNumber: 1,
     formName: "Family of Three",
     baseId: "MAUSHOLD",
-    megaStone: null
+    megaStone: null,
   },
   {
     id: "SQUAWKABILLY",
     name: "Squawkabilly",
-    types: [
-      "NORMAL",
-      "FLYING"
-    ],
+    types: ["NORMAL", "FLYING"],
     sprite: "/Front/SQUAWKABILLY_1.png",
     backSprite: "/spritesBack/SQUAWKABILLY_1.png",
-    description: "The largest of their flocks can contain more than 50 individuals. They fly around towns and forests, searching for food and making a racket.",
+    description:
+      "The largest of their flocks can contain more than 50 individuals. They fly around towns and forests, searching for food and making a racket.",
     stats: {
       hp: 82,
       attack: 96,
       defense: 51,
       spAttack: 45,
       spDefense: 51,
-      speed: 92
+      speed: 92,
     },
     height: "0.6",
     weight: "2.4",
-    abilities: [
-      "INTIMIDATE",
-      "HUSTLE"
-    ],
-    hiddenAbilities: [
-      "GUTS"
-    ],
+    abilities: ["INTIMIDATE", "HUSTLE"],
+    hiddenAbilities: ["GUTS"],
     category: "Parrot",
     moves: [
       "GROWL",
@@ -46355,7 +42738,7 @@ export const pokemonForms: PokemonForm[] =
       "SWAGGER",
       "BRAVEBIRD",
       "ROOST",
-      "REVERSAL"
+      "REVERSAL",
     ],
     tutorMoves: [
       "AERIALACE",
@@ -46392,51 +42775,37 @@ export const pokemonForms: PokemonForm[] =
       "TERABLAST",
       "THIEF",
       "UPROAR",
-      "UTURN"
+      "UTURN",
     ],
-    eggMoves: [
-      "DOUBLEEDGE",
-      "FINALGAMBIT",
-      "FLATTER",
-      "PARTINGSHOT"
-    ],
+    eggMoves: ["DOUBLEEDGE", "FINALGAMBIT", "FLATTER", "PARTINGSHOT"],
     suffix: "normal",
-    evolution: [
-
-    ],
+    evolution: [],
     color: "Blue",
     formNumber: 1,
     formName: "Blue Plumage",
     baseId: "SQUAWKABILLY",
-    megaStone: null
+    megaStone: null,
   },
   {
     id: "SQUAWKABILLY",
     name: "Squawkabilly",
-    types: [
-      "NORMAL",
-      "FLYING"
-    ],
+    types: ["NORMAL", "FLYING"],
     sprite: "/Front/SQUAWKABILLY_2.png",
     backSprite: "/spritesBack/SQUAWKABILLY_2.png",
-    description: "The yellow Squawkabilly are especially fierce. They've even been known to drive other bird Pokémon out of town.",
+    description:
+      "The yellow Squawkabilly are especially fierce. They've even been known to drive other bird Pokémon out of town.",
     stats: {
       hp: 82,
       attack: 96,
       defense: 51,
       spAttack: 45,
       spDefense: 51,
-      speed: 92
+      speed: 92,
     },
     height: "0.6",
     weight: "2.4",
-    abilities: [
-      "INTIMIDATE",
-      "HUSTLE"
-    ],
-    hiddenAbilities: [
-      "SHEERFORCE"
-    ],
+    abilities: ["INTIMIDATE", "HUSTLE"],
+    hiddenAbilities: ["SHEERFORCE"],
     category: "Parrot",
     moves: [
       "GROWL",
@@ -46454,7 +42823,7 @@ export const pokemonForms: PokemonForm[] =
       "SWAGGER",
       "BRAVEBIRD",
       "ROOST",
-      "REVERSAL"
+      "REVERSAL",
     ],
     tutorMoves: [
       "AERIALACE",
@@ -46491,51 +42860,37 @@ export const pokemonForms: PokemonForm[] =
       "TERABLAST",
       "THIEF",
       "UPROAR",
-      "UTURN"
+      "UTURN",
     ],
-    eggMoves: [
-      "DOUBLEEDGE",
-      "FINALGAMBIT",
-      "FLATTER",
-      "PARTINGSHOT"
-    ],
+    eggMoves: ["DOUBLEEDGE", "FINALGAMBIT", "FLATTER", "PARTINGSHOT"],
     suffix: "normal",
-    evolution: [
-
-    ],
+    evolution: [],
     color: "Yellow",
     formNumber: 2,
     formName: "Yellow Plumage",
     baseId: "SQUAWKABILLY",
-    megaStone: null
+    megaStone: null,
   },
   {
     id: "SQUAWKABILLY",
     name: "Squawkabilly",
-    types: [
-      "NORMAL",
-      "FLYING"
-    ],
+    types: ["NORMAL", "FLYING"],
     sprite: "/Front/SQUAWKABILLY_3.png",
     backSprite: "/spritesBack/SQUAWKABILLY_3.png",
-    description: "This Pokémon dislikes being alone. It has a strong sense of community and survives by cooperating with allies.",
+    description:
+      "This Pokémon dislikes being alone. It has a strong sense of community and survives by cooperating with allies.",
     stats: {
       hp: 82,
       attack: 96,
       defense: 51,
       spAttack: 45,
       spDefense: 51,
-      speed: 92
+      speed: 92,
     },
     height: "0.6",
     weight: "2.4",
-    abilities: [
-      "INTIMIDATE",
-      "HUSTLE"
-    ],
-    hiddenAbilities: [
-      "SHEERFORCE"
-    ],
+    abilities: ["INTIMIDATE", "HUSTLE"],
+    hiddenAbilities: ["SHEERFORCE"],
     category: "Parrot",
     moves: [
       "GROWL",
@@ -46553,7 +42908,7 @@ export const pokemonForms: PokemonForm[] =
       "SWAGGER",
       "BRAVEBIRD",
       "ROOST",
-      "REVERSAL"
+      "REVERSAL",
     ],
     tutorMoves: [
       "AERIALACE",
@@ -46590,49 +42945,37 @@ export const pokemonForms: PokemonForm[] =
       "TERABLAST",
       "THIEF",
       "UPROAR",
-      "UTURN"
+      "UTURN",
     ],
-    eggMoves: [
-      "DOUBLEEDGE",
-      "FINALGAMBIT",
-      "FLATTER",
-      "PARTINGSHOT"
-    ],
+    eggMoves: ["DOUBLEEDGE", "FINALGAMBIT", "FLATTER", "PARTINGSHOT"],
     suffix: "normal",
-    evolution: [
-
-    ],
+    evolution: [],
     color: "White",
     formNumber: 3,
     formName: "White Plumage",
     baseId: "SQUAWKABILLY",
-    megaStone: null
+    megaStone: null,
   },
   {
     id: "PALAFIN",
     name: "Palafin",
-    types: [
-      "WATER"
-    ],
+    types: ["WATER"],
     sprite: "/Front/PALAFIN_1.png",
     backSprite: "/spritesBack/PALAFIN_1.png",
-    description: "This Pokémon's ancient genes have awakened. It is now so extraordinarily strong that it can easily lift a cruise ship with one fin.",
+    description:
+      "This Pokémon's ancient genes have awakened. It is now so extraordinarily strong that it can easily lift a cruise ship with one fin.",
     stats: {
       hp: 100,
       attack: 160,
       defense: 97,
       spAttack: 106,
       spDefense: 87,
-      speed: 100
+      speed: 100,
     },
     height: "1.8",
     weight: "97.4",
-    abilities: [
-      "ZEROTOHERO"
-    ],
-    hiddenAbilities: [
-
-    ],
+    abilities: ["ZEROTOHERO"],
+    hiddenAbilities: [],
     category: "Hero",
     moves: [
       "FLIPTURN",
@@ -46651,7 +42994,7 @@ export const pokemonForms: PokemonForm[] =
       "MIST",
       "HYDROPUMP",
       "FOCUSPUNCH",
-      "WAVECRASH"
+      "WAVECRASH",
     ],
     tutorMoves: [
       "ACROBATICS",
@@ -46704,47 +43047,37 @@ export const pokemonForms: PokemonForm[] =
       "WATERFALL",
       "WATERPULSE",
       "WHIRLPOOL",
-      "ZENHEADBUTT"
+      "ZENHEADBUTT",
     ],
-    eggMoves: [
-
-    ],
+    eggMoves: [],
     suffix: "normal",
-    evolution: [
-
-    ],
+    evolution: [],
     color: "Blue",
     formNumber: 1,
     formName: "Hero Form",
     baseId: "PALAFIN",
-    megaStone: null
+    megaStone: null,
   },
   {
     id: "TATSUGIRI",
     name: "Tatsugiri",
-    types: [
-      "DRAGON",
-      "WATER"
-    ],
+    types: ["DRAGON", "WATER"],
     sprite: "/Front/TATSUGIRI_1.png",
     backSprite: "/spritesBack/TATSUGIRI_1.png",
-    description: "This Pokémon tricks its opponents by playing dead. It is small and weak, but it uses its smarts to survive.",
+    description:
+      "This Pokémon tricks its opponents by playing dead. It is small and weak, but it uses its smarts to survive.",
     stats: {
       hp: 68,
       attack: 50,
       defense: 60,
       spAttack: 120,
       spDefense: 95,
-      speed: 82
+      speed: 82,
     },
     height: "0.3",
     weight: "8.0",
-    abilities: [
-      "COMMANDER"
-    ],
-    hiddenAbilities: [
-      "STORMDRAIN"
-    ],
+    abilities: ["COMMANDER"],
+    hiddenAbilities: ["STORMDRAIN"],
     category: "Mimicry",
     moves: [
       "WATERGUN",
@@ -46758,7 +43091,7 @@ export const pokemonForms: PokemonForm[] =
       "MUDDYWATER",
       "NASTYPLOT",
       "MIRRORCOAT",
-      "DRAGONPULSE"
+      "DRAGONPULSE",
     ],
     tutorMoves: [
       "BATONPASS",
@@ -46788,49 +43121,37 @@ export const pokemonForms: PokemonForm[] =
       "TAUNT",
       "TERABLAST",
       "WATERPULSE",
-      "WHIRLPOOL"
+      "WHIRLPOOL",
     ],
-    eggMoves: [
-      "BATONPASS",
-      "COUNTER",
-      "RAPIDSPIN"
-    ],
+    eggMoves: ["BATONPASS", "COUNTER", "RAPIDSPIN"],
     suffix: "normal",
-    evolution: [
-
-    ],
+    evolution: [],
     color: "Pink",
     formNumber: 1,
     formName: "Droopy Form",
     baseId: "TATSUGIRI",
-    megaStone: null
+    megaStone: null,
   },
   {
     id: "TATSUGIRI",
     name: "Tatsugiri",
-    types: [
-      "DRAGON",
-      "WATER"
-    ],
+    types: ["DRAGON", "WATER"],
     sprite: "/Front/TATSUGIRI_2.png",
     backSprite: "/spritesBack/TATSUGIRI_2.png",
-    description: "It's one of the most intelligent dragon Pokémon. It camouflages itself by inflating its throat sac.",
+    description:
+      "It's one of the most intelligent dragon Pokémon. It camouflages itself by inflating its throat sac.",
     stats: {
       hp: 68,
       attack: 50,
       defense: 60,
       spAttack: 120,
       spDefense: 95,
-      speed: 82
+      speed: 82,
     },
     height: "0.3",
     weight: "8.0",
-    abilities: [
-      "COMMANDER"
-    ],
-    hiddenAbilities: [
-      "STORMDRAIN"
-    ],
+    abilities: ["COMMANDER"],
+    hiddenAbilities: ["STORMDRAIN"],
     category: "Mimicry",
     moves: [
       "WATERGUN",
@@ -46844,7 +43165,7 @@ export const pokemonForms: PokemonForm[] =
       "MUDDYWATER",
       "NASTYPLOT",
       "MIRRORCOAT",
-      "DRAGONPULSE"
+      "DRAGONPULSE",
     ],
     tutorMoves: [
       "BATONPASS",
@@ -46874,49 +43195,37 @@ export const pokemonForms: PokemonForm[] =
       "TAUNT",
       "TERABLAST",
       "WATERPULSE",
-      "WHIRLPOOL"
+      "WHIRLPOOL",
     ],
-    eggMoves: [
-      "BATONPASS",
-      "COUNTER",
-      "RAPIDSPIN"
-    ],
+    eggMoves: ["BATONPASS", "COUNTER", "RAPIDSPIN"],
     suffix: "normal",
-    evolution: [
-
-    ],
+    evolution: [],
     color: "Yellow",
     formNumber: 2,
     formName: "Stretchy Form",
     baseId: "TATSUGIRI",
-    megaStone: null
+    megaStone: null,
   },
   {
     id: "DUDUNSPARCE",
     name: "Dudunsparce",
-    types: [
-      "NORMAL"
-    ],
+    types: ["NORMAL"],
     sprite: "/Front/DUDUNSPARCE_1.png",
     backSprite: "/spritesBack/DUDUNSPARCE_1.png",
-    description: "The gentle Dudunsparce will put Pokémon that wander into its nest onto its back and carry them to the entrance.",
+    description:
+      "The gentle Dudunsparce will put Pokémon that wander into its nest onto its back and carry them to the entrance.",
     stats: {
       hp: 125,
       attack: 100,
       defense: 80,
       spAttack: 85,
       spDefense: 75,
-      speed: 55
+      speed: 55,
     },
     height: "4.5",
     weight: "47.4",
-    abilities: [
-      "SERENEGRACE",
-      "RUNAWAY"
-    ],
-    hiddenAbilities: [
-      "RATTLED"
-    ],
+    abilities: ["SERENEGRACE", "RUNAWAY"],
+    hiddenAbilities: ["RATTLED"],
     category: "Land Snake",
     moves: [
       "FLAIL",
@@ -46935,7 +43244,7 @@ export const pokemonForms: PokemonForm[] =
       "DOUBLEEDGE",
       "ENDEAVOR",
       "HURRICANE",
-      "BOOMBURST"
+      "BOOMBURST",
     ],
     tutorMoves: [
       "AGILITY",
@@ -47011,51 +43320,39 @@ export const pokemonForms: PokemonForm[] =
       "TOXIC",
       "UPROAR",
       "WILDCHARGE",
-      "ZENHEADBUTT"
+      "ZENHEADBUTT",
     ],
-    eggMoves: [
-
-    ],
+    eggMoves: [],
     suffix: "normal",
-    evolution: [
-
-    ],
+    evolution: [],
     color: "Yellow",
     formNumber: 1,
     formName: "Three-Segment Form",
     baseId: "DUDUNSPARCE",
-    megaStone: null
+    megaStone: null,
   },
   {
     id: "GIMMIGHOUL",
     name: "Gimmighoul",
-    types: [
-      "GHOST"
-    ],
+    types: ["GHOST"],
     sprite: "/Front/GIMMIGHOUL_1.png",
     backSprite: "/spritesBack/GIMMIGHOUL_1.png",
-    description: "It wanders around, carrying an old coin on its back. It survives by draining the life-force from humans who try to pick up its coin.",
+    description:
+      "It wanders around, carrying an old coin on its back. It survives by draining the life-force from humans who try to pick up its coin.",
     stats: {
       hp: 45,
       attack: 30,
       defense: 25,
       spAttack: 75,
       spDefense: 45,
-      speed: 80
+      speed: 80,
     },
     height: "0.1",
     weight: "0.1",
-    abilities: [
-      "RUNAWAY"
-    ],
-    hiddenAbilities: [
-
-    ],
+    abilities: ["RUNAWAY"],
+    hiddenAbilities: [],
     category: "Coin Hunter",
-    moves: [
-      "ASTONISH",
-      "TACKLE"
-    ],
+    moves: ["ASTONISH", "TACKLE"],
     tutorMoves: [
       "CONFUSERAY",
       "ENDURE",
@@ -47072,51 +43369,43 @@ export const pokemonForms: PokemonForm[] =
       "SUBSTITUTE",
       "TAKEDOWN",
       "TERABLAST",
-      "THIEF"
+      "THIEF",
     ],
-    eggMoves: [
-
-    ],
+    eggMoves: [],
     suffix: "normal",
     evolution: [
       {
         to: "GHOLDENGO",
         method: "LevelCoins",
-        value: "999"
-      }
+        value: "999",
+      },
     ],
     color: "Gray",
     formNumber: 1,
     formName: "Roaming Form",
     baseId: "GIMMIGHOUL",
-    megaStone: null
+    megaStone: null,
   },
   {
     id: "POLTCHAGEIST",
     name: "Poltchageist",
-    types: [
-      "GRASS",
-      "GHOST"
-    ],
+    types: ["GRASS", "GHOST"],
     sprite: "/Front/POLTCHAGEIST_1.png",
     backSprite: "/spritesBack/POLTCHAGEIST_1.png",
-    description: "It sprinkles some of its powdery body onto food and drains the life-force from those who so much as lick it.",
+    description:
+      "It sprinkles some of its powdery body onto food and drains the life-force from those who so much as lick it.",
     stats: {
       hp: 40,
       attack: 45,
       defense: 45,
       spAttack: 74,
       spDefense: 54,
-      speed: 50
+      speed: 50,
     },
     height: "0.1",
     weight: "1.1",
-    abilities: [
-      "HOSPITALITY"
-    ],
-    hiddenAbilities: [
-      "HEATPROOF"
-    ],
+    abilities: ["HOSPITALITY"],
+    hiddenAbilities: ["HEATPROOF"],
     category: "Matcha",
     moves: [
       "ASTONISH",
@@ -47131,7 +43420,7 @@ export const pokemonForms: PokemonForm[] =
       "GIGADRAIN",
       "SHADOWBALL",
       "MEMENTO",
-      "LEAFSTORM"
+      "LEAFSTORM",
     ],
     tutorMoves: [
       "CALMMIND",
@@ -47163,51 +43452,43 @@ export const pokemonForms: PokemonForm[] =
       "SUBSTITUTE",
       "TERABLAST",
       "TRICKROOM",
-      "UPROAR"
+      "UPROAR",
     ],
-    eggMoves: [
-
-    ],
+    eggMoves: [],
     suffix: "normal",
     evolution: [
       {
         to: "SINISTCHA",
         method: "Item",
-        value: "MASTERPIECETEACUP"
-      }
+        value: "MASTERPIECETEACUP",
+      },
     ],
     color: "Green",
     formNumber: 1,
     formName: "Artisan Form",
     baseId: "POLTCHAGEIST",
-    megaStone: null
+    megaStone: null,
   },
   {
     id: "SINISTCHA",
     name: "Sinistcha",
-    types: [
-      "GRASS",
-      "GHOST"
-    ],
+    types: ["GRASS", "GHOST"],
     sprite: "/Front/SINISTCHA_1.png",
     backSprite: "/spritesBack/SINISTCHA_1.png",
-    description: "The more stirring it does with the tea whisk on its head, the more energy it builds up. It does this to prepare for battle.",
+    description:
+      "The more stirring it does with the tea whisk on its head, the more energy it builds up. It does this to prepare for battle.",
     stats: {
       hp: 71,
       attack: 60,
       defense: 106,
       spAttack: 121,
       spDefense: 80,
-      speed: 70
+      speed: 70,
     },
     height: "0.2",
     weight: "2.2",
-    abilities: [
-      "HOSPITALITY"
-    ],
-    hiddenAbilities: [
-      "HEATPROOF"
-    ],
+    abilities: ["HOSPITALITY"],
+    hiddenAbilities: ["HEATPROOF"],
     category: "Matcha",
     moves: [
       "MATCHAGOTCHA",
@@ -47223,7 +43504,7 @@ export const pokemonForms: PokemonForm[] =
       "STRENGTHSAP",
       "SHADOWBALL",
       "MEMENTO",
-      "LEAFSTORM"
+      "LEAFSTORM",
     ],
     tutorMoves: [
       "CALMMIND",
@@ -47256,47 +43537,37 @@ export const pokemonForms: PokemonForm[] =
       "SUBSTITUTE",
       "TERABLAST",
       "TRICKROOM",
-      "UPROAR"
+      "UPROAR",
     ],
-    eggMoves: [
-
-    ],
+    eggMoves: [],
     suffix: "normal",
-    evolution: [
-
-    ],
+    evolution: [],
     color: "Green",
     formNumber: 1,
     formName: "Masterpiece Form",
     baseId: "SINISTCHA",
-    megaStone: null
+    megaStone: null,
   },
   {
     id: "OGERPON",
     name: "Ogerpon",
-    types: [
-      "GRASS",
-      "WATER"
-    ],
+    types: ["GRASS", "WATER"],
     sprite: "/Front/OGERPON_1.png",
     backSprite: "/spritesBack/OGERPON_1.png",
-    description: "This form excels in both attack and defense. It ceaselessly unleashes moves like a spring gushes water.",
+    description:
+      "This form excels in both attack and defense. It ceaselessly unleashes moves like a spring gushes water.",
     stats: {
       hp: 80,
       attack: 120,
       defense: 84,
       spAttack: 60,
       spDefense: 96,
-      speed: 110
+      speed: 110,
     },
     height: "1.2",
     weight: "39.8",
-    abilities: [
-      "WATERABSORB"
-    ],
-    hiddenAbilities: [
-
-    ],
+    abilities: ["WATERABSORB"],
+    hiddenAbilities: [],
     category: "Mask",
     moves: [
       "DOUBLEKICK",
@@ -47317,7 +43588,7 @@ export const pokemonForms: PokemonForm[] =
       "SPIKYSHIELD",
       "POWERWHIP",
       "SUPERPOWER",
-      "WOODHAMMER"
+      "WOODHAMMER",
     ],
     tutorMoves: [
       "BRICKBREAK",
@@ -47364,47 +43635,37 @@ export const pokemonForms: PokemonForm[] =
       "THROATCHOP",
       "TRAILBLAZE",
       "UTURN",
-      "ZENHEADBUTT"
+      "ZENHEADBUTT",
     ],
-    eggMoves: [
-
-    ],
+    eggMoves: [],
     suffix: "normal",
-    evolution: [
-
-    ],
+    evolution: [],
     color: "Blue",
     formNumber: 1,
     formName: "Wellspring Mask",
     baseId: "OGERPON",
-    megaStone: null
+    megaStone: null,
   },
   {
     id: "OGERPON",
     name: "Ogerpon",
-    types: [
-      "GRASS",
-      "FIRE"
-    ],
+    types: ["GRASS", "FIRE"],
     sprite: "/Front/OGERPON_2.png",
     backSprite: "/spritesBack/OGERPON_2.png",
-    description: "This form is the most aggressive, bombarding enemies with the intensity of flames blazing within a hearth.",
+    description:
+      "This form is the most aggressive, bombarding enemies with the intensity of flames blazing within a hearth.",
     stats: {
       hp: 80,
       attack: 120,
       defense: 84,
       spAttack: 60,
       spDefense: 96,
-      speed: 110
+      speed: 110,
     },
     height: "1.2",
     weight: "39.8",
-    abilities: [
-      "MOLDBREAKER"
-    ],
-    hiddenAbilities: [
-
-    ],
+    abilities: ["MOLDBREAKER"],
+    hiddenAbilities: [],
     category: "Mask",
     moves: [
       "DOUBLEKICK",
@@ -47425,7 +43686,7 @@ export const pokemonForms: PokemonForm[] =
       "SPIKYSHIELD",
       "POWERWHIP",
       "SUPERPOWER",
-      "WOODHAMMER"
+      "WOODHAMMER",
     ],
     tutorMoves: [
       "BRICKBREAK",
@@ -47472,47 +43733,37 @@ export const pokemonForms: PokemonForm[] =
       "THROATCHOP",
       "TRAILBLAZE",
       "UTURN",
-      "ZENHEADBUTT"
+      "ZENHEADBUTT",
     ],
-    eggMoves: [
-
-    ],
+    eggMoves: [],
     suffix: "normal",
-    evolution: [
-
-    ],
+    evolution: [],
     color: "Red",
     formNumber: 2,
     formName: "Hearthflame Mask",
     baseId: "OGERPON",
-    megaStone: null
+    megaStone: null,
   },
   {
     id: "OGERPON",
     name: "Ogerpon",
-    types: [
-      "GRASS",
-      "ROCK"
-    ],
+    types: ["GRASS", "ROCK"],
     sprite: "/Front/OGERPON_3.png",
     backSprite: "/spritesBack/OGERPON_3.png",
-    description: "This form has excellent defenses, absorbing impacts solidly like the cornerstones that support houses.",
+    description:
+      "This form has excellent defenses, absorbing impacts solidly like the cornerstones that support houses.",
     stats: {
       hp: 80,
       attack: 120,
       defense: 84,
       spAttack: 60,
       spDefense: 96,
-      speed: 110
+      speed: 110,
     },
     height: "1.2",
     weight: "39.8",
-    abilities: [
-      "STURDY"
-    ],
-    hiddenAbilities: [
-
-    ],
+    abilities: ["STURDY"],
+    hiddenAbilities: [],
     category: "Mask",
     moves: [
       "DOUBLEKICK",
@@ -47533,7 +43784,7 @@ export const pokemonForms: PokemonForm[] =
       "SPIKYSHIELD",
       "POWERWHIP",
       "SUPERPOWER",
-      "WOODHAMMER"
+      "WOODHAMMER",
     ],
     tutorMoves: [
       "BRICKBREAK",
@@ -47580,46 +43831,37 @@ export const pokemonForms: PokemonForm[] =
       "THROATCHOP",
       "TRAILBLAZE",
       "UTURN",
-      "ZENHEADBUTT"
+      "ZENHEADBUTT",
     ],
-    eggMoves: [
-
-    ],
+    eggMoves: [],
     suffix: "normal",
-    evolution: [
-
-    ],
+    evolution: [],
     color: "Gray",
     formNumber: 3,
     formName: "Cornerstone Mask",
     baseId: "OGERPON",
-    megaStone: null
+    megaStone: null,
   },
   {
     id: "TERAPAGOS",
     name: "Terapagos",
-    types: [
-      "NORMAL"
-    ],
+    types: ["NORMAL"],
     sprite: "/Front/TERAPAGOS_1.png",
     backSprite: "/spritesBack/TERAPAGOS_1.png",
-    description: "Upon sensing danger, it prepares itself for battle by creating a sturdy shell of crystallized Terastal energy.",
+    description:
+      "Upon sensing danger, it prepares itself for battle by creating a sturdy shell of crystallized Terastal energy.",
     stats: {
       hp: 95,
       attack: 95,
       defense: 110,
       spAttack: 105,
       spDefense: 110,
-      speed: 85
+      speed: 85,
     },
     height: "0.3",
     weight: "16.0",
-    abilities: [
-      "TERASHELL"
-    ],
-    hiddenAbilities: [
-
-    ],
+    abilities: ["TERASHELL"],
+    hiddenAbilities: [],
     category: "Tera",
     moves: [
       "WITHDRAW",
@@ -47633,7 +43875,7 @@ export const pokemonForms: PokemonForm[] =
       "TERASTARSTORM",
       "DOUBLEEDGE",
       "ROCKPOLISH",
-      "GYROBALL"
+      "GYROBALL",
     ],
     tutorMoves: [
       "AURASPHERE",
@@ -47687,46 +43929,37 @@ export const pokemonForms: PokemonForm[] =
       "WATERPULSE",
       "WEATHERBALL",
       "WILDCHARGE",
-      "ZENHEADBUTT"
+      "ZENHEADBUTT",
     ],
-    eggMoves: [
-
-    ],
+    eggMoves: [],
     suffix: "normal",
-    evolution: [
-
-    ],
+    evolution: [],
     color: "Blue",
     formNumber: 1,
     formName: "Terastal Form",
     baseId: "TERAPAGOS",
-    megaStone: null
+    megaStone: null,
   },
   {
     id: "TERAPAGOS",
     name: "Terapagos",
-    types: [
-      "NORMAL"
-    ],
+    types: ["NORMAL"],
     sprite: "/Front/TERAPAGOS_2.png",
     backSprite: "/spritesBack/TERAPAGOS_2.png",
-    description: "In this form, Terapagos resembles the world as the ancients saw it, and its Terastal energy is abnormally amplified.",
+    description:
+      "In this form, Terapagos resembles the world as the ancients saw it, and its Terastal energy is abnormally amplified.",
     stats: {
       hp: 160,
       attack: 105,
       defense: 110,
       spAttack: 130,
       spDefense: 110,
-      speed: 85
+      speed: 85,
     },
     height: "1.7",
     weight: "77.0",
-    abilities: [
-      "TERAFORMZERO"
-    ],
-    hiddenAbilities: [
-
-    ],
+    abilities: ["TERAFORMZERO"],
+    hiddenAbilities: [],
     category: "Tera",
     moves: [
       "WITHDRAW",
@@ -47740,7 +43973,7 @@ export const pokemonForms: PokemonForm[] =
       "TERASTARSTORM",
       "DOUBLEEDGE",
       "ROCKPOLISH",
-      "GYROBALL"
+      "GYROBALL",
     ],
     tutorMoves: [
       "AURASPHERE",
@@ -47794,47 +44027,37 @@ export const pokemonForms: PokemonForm[] =
       "WATERPULSE",
       "WEATHERBALL",
       "WILDCHARGE",
-      "ZENHEADBUTT"
+      "ZENHEADBUTT",
     ],
-    eggMoves: [
-
-    ],
+    eggMoves: [],
     suffix: "normal",
-    evolution: [
-
-    ],
+    evolution: [],
     color: "Blue",
     formNumber: 2,
     formName: "Stellar Form",
     baseId: "TERAPAGOS",
-    megaStone: null
+    megaStone: null,
   },
   {
     id: "CLEFABLE",
     name: "Clefable",
-    types: [
-      "FAIRY"
-    ],
+    types: ["FAIRY"],
     sprite: "/Front/CLEFABLE_1.png",
     backSprite: "/spritesBack/CLEFABLE_1.png",
-    description: "A Clefable uses its wings to skip lightly as if it were flying. Its bouncy step lets it even walk on water. On quiet, moonlit nights, it strolls on lakes.",
+    description:
+      "A Clefable uses its wings to skip lightly as if it were flying. Its bouncy step lets it even walk on water. On quiet, moonlit nights, it strolls on lakes.",
     stats: {
       hp: 95,
       attack: 70,
       defense: 73,
       spAttack: 95,
       spDefense: 90,
-      speed: 60
+      speed: 60,
     },
     height: "1.3",
     weight: "40.0",
-    abilities: [
-      "CUTECHARM",
-      "MAGICGUARD"
-    ],
-    hiddenAbilities: [
-      "UNAWARE"
-    ],
+    abilities: ["CUTECHARM", "MAGICGUARD"],
+    hiddenAbilities: ["UNAWARE"],
     category: "Fairy",
     moves: [
       "SING",
@@ -47857,7 +44080,7 @@ export const pokemonForms: PokemonForm[] =
       "METRONOME",
       "METEORMASH",
       "MOONBLAST",
-      "LIFEDEW"
+      "LIFEDEW",
     ],
     tutorMoves: [
       "AFTERYOU",
@@ -47986,47 +44209,37 @@ export const pokemonForms: PokemonForm[] =
       "WATERPULSE",
       "WONDERROOM",
       "WORKUP",
-      "ZENHEADBUTT"
+      "ZENHEADBUTT",
     ],
-    eggMoves: [
-
-    ],
+    eggMoves: [],
     suffix: "normal",
-    evolution: [
-
-    ],
+    evolution: [],
     color: "Pink",
     formNumber: 1,
     formName: "Mega Clefable",
     baseId: "CLEFABLE",
-    megaStone: "CLEFABLITE"
+    megaStone: "CLEFABLITE",
   },
   {
     id: "VICTREEBEL",
     name: "Victreebel",
-    types: [
-      "GRASS",
-      "POISON"
-    ],
+    types: ["GRASS", "POISON"],
     sprite: "/Front/VICTREEBEL_1.png",
     backSprite: "/spritesBack/VICTREEBEL_1.png",
-    description: "The long vine extending from its head is waved about as if it were a living thing to attract prey. When an unsuspecting victim approaches, it is swallowed whole.",
+    description:
+      "The long vine extending from its head is waved about as if it were a living thing to attract prey. When an unsuspecting victim approaches, it is swallowed whole.",
     stats: {
       hp: 80,
       attack: 105,
       defense: 65,
       spAttack: 100,
       spDefense: 70,
-      speed: 70
+      speed: 70,
     },
     height: "1.7",
     weight: "15.5",
-    abilities: [
-      "CHLOROPHYLL"
-    ],
-    hiddenAbilities: [
-      "GLUTTONY"
-    ],
+    abilities: ["CHLOROPHYLL"],
+    hiddenAbilities: ["GLUTTONY"],
     category: "Flycatcher",
     moves: [
       "LEAFSTORM",
@@ -48039,7 +44252,7 @@ export const pokemonForms: PokemonForm[] =
       "SLEEPPOWDER",
       "SWEETSCENT",
       "RAZORLEAF",
-      "LEAFBLADE"
+      "LEAFBLADE",
     ],
     tutorMoves: [
       "ACIDSPRAY",
@@ -48103,48 +44316,37 @@ export const pokemonForms: PokemonForm[] =
       "TRAILBLAZE",
       "VENOSHOCK",
       "WEATHERBALL",
-      "WORRYSEED"
+      "WORRYSEED",
     ],
-    eggMoves: [
-
-    ],
+    eggMoves: [],
     suffix: "normal",
-    evolution: [
-
-    ],
+    evolution: [],
     color: "Green",
     formNumber: 1,
     formName: "Mega Victreebel",
     baseId: "VICTREEBEL",
-    megaStone: "VICTREEBELITE"
+    megaStone: "VICTREEBELITE",
   },
   {
     id: "STARMIE",
     name: "Starmie",
-    types: [
-      "WATER",
-      "PSYCHIC"
-    ],
+    types: ["WATER", "PSYCHIC"],
     sprite: "/Front/STARMIE_1.png",
     backSprite: "/spritesBack/STARMIE_1.png",
-    description: "People in ancient times imagined that Starmie were transformed from the reflections of stars that twinkled on gentle waves at night.",
+    description:
+      "People in ancient times imagined that Starmie were transformed from the reflections of stars that twinkled on gentle waves at night.",
     stats: {
       hp: 60,
       attack: 75,
       defense: 85,
       spAttack: 100,
       spDefense: 85,
-      speed: 115
+      speed: 115,
     },
     height: "1.1",
     weight: "80.0",
-    abilities: [
-      "ILLUMINATE",
-      "NATURALCURE"
-    ],
-    hiddenAbilities: [
-      "ANALYTIC"
-    ],
+    abilities: ["ILLUMINATE", "NATURALCURE"],
+    hiddenAbilities: ["ANALYTIC"],
     category: "Mysterious",
     moves: [
       "RAPIDSPIN",
@@ -48162,7 +44364,7 @@ export const pokemonForms: PokemonForm[] =
       "TACKLE",
       "HARDEN",
       "WATERGUN",
-      "CONFUSERAY"
+      "CONFUSERAY",
     ],
     tutorMoves: [
       "AGILITY",
@@ -48234,47 +44436,37 @@ export const pokemonForms: PokemonForm[] =
       "WATERFALL",
       "WATERPULSE",
       "WHIRLPOOL",
-      "WONDERROOM"
+      "WONDERROOM",
     ],
-    eggMoves: [
-
-    ],
+    eggMoves: [],
     suffix: "normal",
-    evolution: [
-
-    ],
+    evolution: [],
     color: "Purple",
     formNumber: 1,
     formName: "Mega Starmie",
     baseId: "STARMIE",
-    megaStone: "STARMINITE"
+    megaStone: "STARMINITE",
   },
   {
     id: "DRAGONITE",
     name: "Dragonite",
-    types: [
-      "DRAGON",
-      "FLYING"
-    ],
+    types: ["DRAGON", "FLYING"],
     sprite: "/Front/DRAGONITE_1.png",
     backSprite: "/spritesBack/DRAGONITE_1.png",
-    description: "It can circle the globe in just 16 hours. It is a kindhearted Pokémon that leads lost and foundering ships in a storm to the safety of land.",
+    description:
+      "It can circle the globe in just 16 hours. It is a kindhearted Pokémon that leads lost and foundering ships in a storm to the safety of land.",
     stats: {
       hp: 91,
       attack: 134,
       defense: 95,
       spAttack: 100,
       spDefense: 100,
-      speed: 80
+      speed: 80,
     },
     height: "2.2",
     weight: "210.0",
-    abilities: [
-      "INNERFOCUS"
-    ],
-    hiddenAbilities: [
-      "MULTISCALE"
-    ],
+    abilities: ["INNERFOCUS"],
+    hiddenAbilities: ["MULTISCALE"],
     category: "Dragon",
     moves: [
       "HURRICANE",
@@ -48296,7 +44488,7 @@ export const pokemonForms: PokemonForm[] =
       "SAFEGUARD",
       "RAINDANCE",
       "DRAGONDANCE",
-      "HYPERBEAM"
+      "HYPERBEAM",
     ],
     tutorMoves: [
       "AERIALACE",
@@ -48409,47 +44601,37 @@ export const pokemonForms: PokemonForm[] =
       "TWISTER",
       "WATERFALL",
       "WATERPULSE",
-      "WEATHERBALL"
+      "WEATHERBALL",
     ],
-    eggMoves: [
-
-    ],
+    eggMoves: [],
     suffix: "normal",
-    evolution: [
-
-    ],
+    evolution: [],
     color: "Brown",
     formNumber: 1,
     formName: "Mega Dragonite",
     baseId: "DRAGONITE",
-    megaStone: "DRAGONINITE"
+    megaStone: "DRAGONINITE",
   },
   {
     id: "MEGANIUM",
     name: "Meganium",
-    types: [
-      "GRASS",
-      "FAIRY"
-    ],
+    types: ["GRASS", "FAIRY"],
     sprite: "/Front/MEGANIUM_1.png",
     backSprite: "/spritesBack/MEGANIUM_1.png",
-    description: "The fragrance of a Meganium's flower soothes and calms emotions. In battle, it gives off more of its becalming scent to blunt the foe's fighting spirit.",
+    description:
+      "The fragrance of a Meganium's flower soothes and calms emotions. In battle, it gives off more of its becalming scent to blunt the foe's fighting spirit.",
     stats: {
       hp: 80,
       attack: 82,
       defense: 100,
       spAttack: 83,
       spDefense: 100,
-      speed: 80
+      speed: 80,
     },
     height: "1.8",
     weight: "100.5",
-    abilities: [
-      "OVERGROW"
-    ],
-    hiddenAbilities: [
-      "LEAFGUARD"
-    ],
+    abilities: ["OVERGROW"],
+    hiddenAbilities: ["LEAFGUARD"],
     category: "Herb",
     moves: [
       "PETALDANCE",
@@ -48467,7 +44649,7 @@ export const pokemonForms: PokemonForm[] =
       "BODYSLAM",
       "SAFEGUARD",
       "GIGADRAIN",
-      "SOLARBEAM"
+      "SOLARBEAM",
     ],
     tutorMoves: [
       "ANCIENTPOWER",
@@ -48547,47 +44729,37 @@ export const pokemonForms: PokemonForm[] =
       "WEATHERBALL",
       "WORKUP",
       "WORRYSEED",
-      "ZENHEADBUTT"
+      "ZENHEADBUTT",
     ],
-    eggMoves: [
-
-    ],
+    eggMoves: [],
     suffix: "normal",
-    evolution: [
-
-    ],
+    evolution: [],
     color: "Green",
     formNumber: 1,
     formName: "Mega Meganium",
     baseId: "MEGANIUM",
-    megaStone: "MEGANIUMITE"
+    megaStone: "MEGANIUMITE",
   },
   {
     id: "FERALIGATR",
     name: "Feraligatr",
-    types: [
-      "WATER",
-      "DRAGON"
-    ],
+    types: ["WATER", "DRAGON"],
     sprite: "/Front/FERALIGATR_1.png",
     backSprite: "/spritesBack/FERALIGATR_1.png",
-    description: "It opens its huge mouth to intimidate enemies. In battle, it runs using its thick and powerful hind legs to charge the foe with incredible speed.",
+    description:
+      "It opens its huge mouth to intimidate enemies. In battle, it runs using its thick and powerful hind legs to charge the foe with incredible speed.",
     stats: {
       hp: 85,
       attack: 105,
       defense: 100,
       spAttack: 79,
       spDefense: 83,
-      speed: 78
+      speed: 78,
     },
     height: "2.3",
     weight: "88.8",
-    abilities: [
-      "TORRENT"
-    ],
-    hiddenAbilities: [
-      "SHEERFORCE"
-    ],
+    abilities: ["TORRENT"],
+    hiddenAbilities: ["SHEERFORCE"],
     category: "Big Jaw",
     moves: [
       "AGILITY",
@@ -48604,7 +44776,7 @@ export const pokemonForms: PokemonForm[] =
       "THRASH",
       "AQUATAIL",
       "SUPERPOWER",
-      "HYDROPUMP"
+      "HYDROPUMP",
     ],
     tutorMoves: [
       "AERIALACE",
@@ -48706,48 +44878,37 @@ export const pokemonForms: PokemonForm[] =
       "WATERPLEDGE",
       "WATERPULSE",
       "WHIRLPOOL",
-      "WORKUP"
+      "WORKUP",
     ],
-    eggMoves: [
-
-    ],
+    eggMoves: [],
     suffix: "normal",
-    evolution: [
-
-    ],
+    evolution: [],
     color: "Blue",
     formNumber: 1,
     formName: "Mega Feraligatr",
     baseId: "FERALIGATR",
-    megaStone: "FERALIGITE"
+    megaStone: "FERALIGITE",
   },
   {
     id: "SKARMORY",
     name: "Skarmory",
-    types: [
-      "STEEL",
-      "FLYING"
-    ],
+    types: ["STEEL", "FLYING"],
     sprite: "/Front/SKARMORY_1.png",
     backSprite: "/spritesBack/SKARMORY_1.png",
-    description: "A Pokémon that has a body and wings of steel. People in the past used feathers fallen from Skarmory to make swords and knives.",
+    description:
+      "A Pokémon that has a body and wings of steel. People in the past used feathers fallen from Skarmory to make swords and knives.",
     stats: {
       hp: 65,
       attack: 80,
       defense: 140,
       spAttack: 40,
       spDefense: 70,
-      speed: 70
+      speed: 70,
     },
     height: "1.7",
     weight: "50.5",
-    abilities: [
-      "KEENEYE",
-      "STURDY"
-    ],
-    hiddenAbilities: [
-      "WEAKARMOR"
-    ],
+    abilities: ["KEENEYE", "STURDY"],
+    hiddenAbilities: ["WEAKARMOR"],
     category: "Armor Bird",
     moves: [
       "PECK",
@@ -48764,7 +44925,7 @@ export const pokemonForms: PokemonForm[] =
       "METALSOUND",
       "SPIKES",
       "IRONDEFENSE",
-      "BRAVEBIRD"
+      "BRAVEBIRD",
     ],
     tutorMoves: [
       "AERIALACE",
@@ -48840,7 +45001,7 @@ export const pokemonForms: PokemonForm[] =
       "THIEF",
       "TORMENT",
       "TWISTER",
-      "XSCISSOR"
+      "XSCISSOR",
     ],
     eggMoves: [
       "AIRCUTTER",
@@ -48853,44 +45014,36 @@ export const pokemonForms: PokemonForm[] =
       "NIGHTSLASH",
       "ROOST",
       "SKYATTACK",
-      "WHIRLWIND"
+      "WHIRLWIND",
     ],
     suffix: "normal",
-    evolution: [
-
-    ],
+    evolution: [],
     color: "Gray",
     formNumber: 1,
     formName: "Mega Skarmory",
     baseId: "SKARMORY",
-    megaStone: "SKARMORITE"
+    megaStone: "SKARMORITE",
   },
   {
     id: "FROSLASS",
     name: "Froslass",
-    types: [
-      "ICE",
-      "GHOST"
-    ],
+    types: ["ICE", "GHOST"],
     sprite: "/Front/FROSLASS_1.png",
     backSprite: "/spritesBack/FROSLASS_1.png",
-    description: "It freezes foes with an icy breath nearly -60 degrees F. What seems to be its body is actually hollow.",
+    description:
+      "It freezes foes with an icy breath nearly -60 degrees F. What seems to be its body is actually hollow.",
     stats: {
       hp: 70,
       attack: 80,
       defense: 70,
       spAttack: 80,
       spDefense: 70,
-      speed: 110
+      speed: 110,
     },
     height: "1.3",
     weight: "26.6",
-    abilities: [
-      "SNOWCLOAK"
-    ],
-    hiddenAbilities: [
-      "CURSEDBODY"
-    ],
+    abilities: ["SNOWCLOAK"],
+    hiddenAbilities: ["CURSEDBODY"],
     category: "Snow Land",
     moves: [
       "HEX",
@@ -48913,7 +45066,7 @@ export const pokemonForms: PokemonForm[] =
       "WILLOWISP",
       "AURORAVEIL",
       "SHADOWBALL",
-      "BLIZZARD"
+      "BLIZZARD",
     ],
     tutorMoves: [
       "ALLYSWITCH",
@@ -49002,47 +45155,37 @@ export const pokemonForms: PokemonForm[] =
       "TRIPLEAXEL",
       "WATERPULSE",
       "WEATHERBALL",
-      "WILLOWISP"
+      "WILLOWISP",
     ],
-    eggMoves: [
-
-    ],
+    eggMoves: [],
     suffix: "normal",
-    evolution: [
-
-    ],
+    evolution: [],
     color: "White",
     formNumber: 1,
     formName: "Mega Froslass",
     baseId: "FROSLASS",
-    megaStone: "FROSLASSITE"
+    megaStone: "FROSLASSITE",
   },
   {
     id: "EMBOAR",
     name: "Emboar",
-    types: [
-      "FIRE",
-      "FIGHTING"
-    ],
+    types: ["FIRE", "FIGHTING"],
     sprite: "/Front/EMBOAR_1.png",
     backSprite: "/spritesBack/EMBOAR_1.png",
-    description: "It can throw a fire punch by setting its fists on fire with its fiery chin. It cares deeply about its friends.",
+    description:
+      "It can throw a fire punch by setting its fists on fire with its fiery chin. It cares deeply about its friends.",
     stats: {
       hp: 110,
       attack: 123,
       defense: 65,
       spAttack: 100,
       spDefense: 65,
-      speed: 65
+      speed: 65,
     },
     height: "1.6",
     weight: "150.0",
-    abilities: [
-      "BLAZE"
-    ],
-    hiddenAbilities: [
-      "RECKLESS"
-    ],
+    abilities: ["BLAZE"],
+    hiddenAbilities: ["RECKLESS"],
     category: "Mega Fire Pig",
     moves: [
       "ENDURE",
@@ -49061,7 +45204,7 @@ export const pokemonForms: PokemonForm[] =
       "FLAMETHROWER",
       "HEADSMASH",
       "ROAR",
-      "FLAREBLITZ"
+      "FLAREBLITZ",
     ],
     tutorMoves: [
       "ATTRACT",
@@ -49153,48 +45296,37 @@ export const pokemonForms: PokemonForm[] =
       "WILDCHARGE",
       "WILLOWISP",
       "WORKUP",
-      "ZENHEADBUTT"
+      "ZENHEADBUTT",
     ],
-    eggMoves: [
-
-    ],
+    eggMoves: [],
     suffix: "normal",
-    evolution: [
-
-    ],
+    evolution: [],
     color: "Red",
     formNumber: 1,
     formName: "Mega Emboar",
     baseId: "EMBOAR",
-    megaStone: "EMBOARITE"
+    megaStone: "EMBOARITE",
   },
   {
     id: "EXCADRILL",
     name: "Excadrill",
-    types: [
-      "GROUND",
-      "STEEL"
-    ],
+    types: ["GROUND", "STEEL"],
     sprite: "/Front/EXCADRILL_1.png",
     backSprite: "/spritesBack/EXCADRILL_1.png",
-    description: "More than 300 feet below the surface, they build mazelike nests. Their activity can be destructive to subway tunnels.",
+    description:
+      "More than 300 feet below the surface, they build mazelike nests. Their activity can be destructive to subway tunnels.",
     stats: {
       hp: 110,
       attack: 135,
       defense: 60,
       spAttack: 50,
       spDefense: 65,
-      speed: 88
+      speed: 88,
     },
     height: "0.7",
     weight: "40.4",
-    abilities: [
-      "SANDRUSH",
-      "SANDFORCE"
-    ],
-    hiddenAbilities: [
-      "MOLDBREAKER"
-    ],
+    abilities: ["SANDRUSH", "SANDFORCE"],
+    hiddenAbilities: ["MOLDBREAKER"],
     category: "Subterrene",
     moves: [
       "HORNDRILL",
@@ -49211,7 +45343,7 @@ export const pokemonForms: PokemonForm[] =
       "SWORDSDANCE",
       "DRILLRUN",
       "EARTHQUAKE",
-      "FISSURE"
+      "FISSURE",
     ],
     tutorMoves: [
       "AERIALACE",
@@ -49279,48 +45411,37 @@ export const pokemonForms: PokemonForm[] =
       "TAKEDOWN",
       "TERABLAST",
       "THROATCHOP",
-      "XSCISSOR"
+      "XSCISSOR",
     ],
-    eggMoves: [
-
-    ],
+    eggMoves: [],
     suffix: "normal",
-    evolution: [
-
-    ],
+    evolution: [],
     color: "Gray",
     formNumber: 1,
     formName: "Mega Excadrill",
     baseId: "EXCADRILL",
-    megaStone: "EXCADRITE"
+    megaStone: "EXCADRITE",
   },
   {
     id: "SCOLIPEDE",
     name: "Scolipede",
-    types: [
-      "BUG",
-      "POISON"
-    ],
+    types: ["BUG", "POISON"],
     sprite: "/Front/SCOLIPEDE_1.png",
     backSprite: "/spritesBack/SCOLIPEDE_1.png",
-    description: "Highly aggressive, it uses the claws near its neck to dig into its opponents and poison them.",
+    description:
+      "Highly aggressive, it uses the claws near its neck to dig into its opponents and poison them.",
     stats: {
       hp: 60,
       attack: 100,
       defense: 89,
       spAttack: 55,
       spDefense: 69,
-      speed: 112
+      speed: 112,
     },
     height: "2.5",
     weight: "200.5",
-    abilities: [
-      "POISONPOINT",
-      "SWARM"
-    ],
-    hiddenAbilities: [
-      "SPEEDBOOST"
-    ],
+    abilities: ["POISONPOINT", "SWARM"],
+    hiddenAbilities: ["SPEEDBOOST"],
     category: "Megapede",
     moves: [
       "IRONDEFENSE",
@@ -49338,7 +45459,7 @@ export const pokemonForms: PokemonForm[] =
       "TOXIC",
       "VENOMDRENCH",
       "DOUBLEEDGE",
-      "MEGAHORN"
+      "MEGAHORN",
     ],
     tutorMoves: [
       "AGILITY",
@@ -49405,48 +45526,37 @@ export const pokemonForms: PokemonForm[] =
       "TOXICSPIKES",
       "VENOMDRENCH",
       "VENOSHOCK",
-      "XSCISSOR"
+      "XSCISSOR",
     ],
-    eggMoves: [
-
-    ],
+    eggMoves: [],
     suffix: "normal",
-    evolution: [
-
-    ],
+    evolution: [],
     color: "Red",
     formNumber: 1,
     formName: "Mega Scolipede",
     baseId: "SCOLIPEDE",
-    megaStone: "SCOLIPITE"
+    megaStone: "SCOLIPITE",
   },
   {
     id: "SCRAFTY",
     name: "Scrafty",
-    types: [
-      "DARK",
-      "FIGHTING"
-    ],
+    types: ["DARK", "FIGHTING"],
     sprite: "/Front/SCRAFTY_1.png",
     backSprite: "/spritesBack/SCRAFTY_1.png",
-    description: "It can smash concrete blocks with its kicking attacks. The one with the biggest crest is the group leader.",
+    description:
+      "It can smash concrete blocks with its kicking attacks. The one with the biggest crest is the group leader.",
     stats: {
       hp: 65,
       attack: 90,
       defense: 115,
       spAttack: 45,
       spDefense: 115,
-      speed: 58
+      speed: 58,
     },
     height: "1.1",
     weight: "30.0",
-    abilities: [
-      "SHEDSKIN",
-      "MOXIE"
-    ],
-    hiddenAbilities: [
-      "INTIMIDATE"
-    ],
+    abilities: ["SHEDSKIN", "MOXIE"],
+    hiddenAbilities: ["INTIMIDATE"],
     category: "Hoodlum",
     moves: [
       "LOWKICK",
@@ -49463,7 +45573,7 @@ export const pokemonForms: PokemonForm[] =
       "CRUNCH",
       "HIGHJUMPKICK",
       "FOCUSPUNCH",
-      "HEADSMASH"
+      "HEADSMASH",
     ],
     tutorMoves: [
       "ACIDSPRAY",
@@ -49563,46 +45673,37 @@ export const pokemonForms: PokemonForm[] =
       "UPPERHAND",
       "UPROAR",
       "WORKUP",
-      "ZENHEADBUTT"
+      "ZENHEADBUTT",
     ],
-    eggMoves: [
-
-    ],
+    eggMoves: [],
     suffix: "normal",
-    evolution: [
-
-    ],
+    evolution: [],
     color: "Red",
     formNumber: 1,
     formName: "Mega Scrafty",
     baseId: "SCRAFTY",
-    megaStone: "SCRAFTINITE"
+    megaStone: "SCRAFTINITE",
   },
   {
     id: "EELEKTROSS",
     name: "Eelektross",
-    types: [
-      "ELECTRIC"
-    ],
+    types: ["ELECTRIC"],
     sprite: "/Front/EELEKTROSS_1.png",
     backSprite: "/spritesBack/EELEKTROSS_1.png",
-    description: "With their sucker mouths, they suck in prey. Then they use their fangs to shock the prey with electricity.",
+    description:
+      "With their sucker mouths, they suck in prey. Then they use their fangs to shock the prey with electricity.",
     stats: {
       hp: 85,
       attack: 115,
       defense: 80,
       spAttack: 105,
       spDefense: 80,
-      speed: 50
+      speed: 50,
     },
     height: "2.1",
     weight: "80.5",
-    abilities: [
-      "LEVITATE"
-    ],
-    hiddenAbilities: [
-
-    ],
+    abilities: ["LEVITATE"],
+    hiddenAbilities: [],
     category: "EleFish",
     moves: [
       "CRUNCH",
@@ -49614,7 +45715,7 @@ export const pokemonForms: PokemonForm[] =
       "HEADBUTT",
       "ACID",
       "DISCHARGE",
-      "WILDCHARGE"
+      "WILDCHARGE",
     ],
     tutorMoves: [
       "ACIDSPRAY",
@@ -49706,48 +45807,37 @@ export const pokemonForms: PokemonForm[] =
       "UTURN",
       "VOLTSWITCH",
       "WILDCHARGE",
-      "ZENHEADBUTT"
+      "ZENHEADBUTT",
     ],
-    eggMoves: [
-
-    ],
+    eggMoves: [],
     suffix: "normal",
-    evolution: [
-
-    ],
+    evolution: [],
     color: "Blue",
     formNumber: 1,
     formName: "Mega Eelektross",
     baseId: "EELEKTROSS",
-    megaStone: "EELEKTROSSITE"
+    megaStone: "EELEKTROSSITE",
   },
   {
     id: "CHANDELURE",
     name: "Chandelure",
-    types: [
-      "GHOST",
-      "FIRE"
-    ],
+    types: ["GHOST", "FIRE"],
     sprite: "/Front/CHANDELURE_1.png",
     backSprite: "/spritesBack/CHANDELURE_1.png",
-    description: "Being consumed in Chandelure's flame burns up the spirit, leaving the body behind.",
+    description:
+      "Being consumed in Chandelure's flame burns up the spirit, leaving the body behind.",
     stats: {
       hp: 60,
       attack: 55,
       defense: 90,
       spAttack: 145,
       spDefense: 90,
-      speed: 80
+      speed: 80,
     },
     height: "1.0",
     weight: "34.3",
-    abilities: [
-      "FLASHFIRE",
-      "FLAMEBODY"
-    ],
-    hiddenAbilities: [
-      "INFILTRATOR"
-    ],
+    abilities: ["FLASHFIRE", "FLAMEBODY"],
+    hiddenAbilities: ["INFILTRATOR"],
     category: "Luring",
     moves: [
       "CONFUSERAY",
@@ -49765,7 +45855,7 @@ export const pokemonForms: PokemonForm[] =
       "ASTONISH",
       "SMOG",
       "EMBER",
-      "MINIMIZE"
+      "MINIMIZE",
     ],
     tutorMoves: [
       "ALLYSWITCH",
@@ -49834,47 +45924,37 @@ export const pokemonForms: PokemonForm[] =
       "TRAILBLAZE",
       "TRICK",
       "TRICKROOM",
-      "WILLOWISP"
+      "WILLOWISP",
     ],
-    eggMoves: [
-
-    ],
+    eggMoves: [],
     suffix: "normal",
-    evolution: [
-
-    ],
+    evolution: [],
     color: "Black",
     formNumber: 1,
     formName: "Mega Chandelure",
     baseId: "CHANDELURE",
-    megaStone: "CHANDELURITE"
+    megaStone: "CHANDELURITE",
   },
   {
     id: "CHESNAUGHT",
     name: "Chesnaught",
-    types: [
-      "GRASS",
-      "FIGHTING"
-    ],
+    types: ["GRASS", "FIGHTING"],
     sprite: "/Front/CHESNAUGHT_1.png",
     backSprite: "/spritesBack/CHESNAUGHT_1.png",
-    description: "Its Tackle is forceful enough to flip a 50-ton tank. It shields its allies from danger with its own body.",
+    description:
+      "Its Tackle is forceful enough to flip a 50-ton tank. It shields its allies from danger with its own body.",
     stats: {
       hp: 88,
       attack: 107,
       defense: 122,
       spAttack: 74,
       spDefense: 75,
-      speed: 64
+      speed: 64,
     },
     height: "1.6",
     weight: "90.0",
-    abilities: [
-      "OVERGROW"
-    ],
-    hiddenAbilities: [
-      "BULLETPROOF"
-    ],
+    abilities: ["OVERGROW"],
+    hiddenAbilities: ["BULLETPROOF"],
     category: "Spiny Armor",
     moves: [
       "SPIKYSHIELD",
@@ -49894,7 +45974,7 @@ export const pokemonForms: PokemonForm[] =
       "BODYSLAM",
       "PAINSPLIT",
       "WOODHAMMER",
-      "GIGAIMPACT"
+      "GIGAIMPACT",
     ],
     tutorMoves: [
       "AERIALACE",
@@ -49999,47 +46079,37 @@ export const pokemonForms: PokemonForm[] =
       "TRAILBLAZE",
       "WORKUP",
       "WORRYSEED",
-      "ZENHEADBUTT"
+      "ZENHEADBUTT",
     ],
-    eggMoves: [
-
-    ],
+    eggMoves: [],
     suffix: "normal",
-    evolution: [
-
-    ],
+    evolution: [],
     color: "Green",
     formNumber: 1,
     formName: "Mega Chesnaught",
     baseId: "CHESNAUGHT",
-    megaStone: "CHESNAUGHTITE"
+    megaStone: "CHESNAUGHTITE",
   },
   {
     id: "DELPHOX",
     name: "Delphox",
-    types: [
-      "FIRE",
-      "PSYCHIC"
-    ],
+    types: ["FIRE", "PSYCHIC"],
     sprite: "/Front/DELPHOX_1.png",
     backSprite: "/spritesBack/DELPHOX_1.png",
-    description: "It gazes into the flame at the tip of its branch to achieve a focused state, which allows it to see into the future.",
+    description:
+      "It gazes into the flame at the tip of its branch to achieve a focused state, which allows it to see into the future.",
     stats: {
       hp: 75,
       attack: 69,
       defense: 72,
       spAttack: 114,
       spDefense: 100,
-      speed: 104
+      speed: 104,
     },
     height: "1.5",
     weight: "39.0",
-    abilities: [
-      "BLAZE"
-    ],
-    hiddenAbilities: [
-      "MAGICIAN"
-    ],
+    abilities: ["BLAZE"],
+    hiddenAbilities: ["MAGICIAN"],
     category: "Fox",
     moves: [
       "MYSTICALFIRE",
@@ -50061,7 +46131,7 @@ export const pokemonForms: PokemonForm[] =
       "PSYCHIC",
       "SUNNYDAY",
       "MAGICROOM",
-      "FIREBLAST"
+      "FIREBLAST",
     ],
     tutorMoves: [
       "AGILITY",
@@ -50161,47 +46231,37 @@ export const pokemonForms: PokemonForm[] =
       "WILLOWISP",
       "WONDERROOM",
       "WORKUP",
-      "ZENHEADBUTT"
+      "ZENHEADBUTT",
     ],
-    eggMoves: [
-
-    ],
+    eggMoves: [],
     suffix: "normal",
-    evolution: [
-
-    ],
+    evolution: [],
     color: "Red",
     formNumber: 1,
     formName: "Mega Delphox",
     baseId: "DELPHOX",
-    megaStone: "DELPHOXITE"
+    megaStone: "DELPHOXITE",
   },
   {
     id: "GRENINJA",
     name: "Greninja",
-    types: [
-      "WATER",
-      "DARK"
-    ],
+    types: ["WATER", "DARK"],
     sprite: "/Front/GRENINJA_3.png",
     backSprite: "/spritesBack/GRENINJA_3.png",
-    description: "It appears and vanishes with a ninja's grace. It toys with its enemies using swift movements, while slicing them with throwing stars of sharpest water.",
+    description:
+      "It appears and vanishes with a ninja's grace. It toys with its enemies using swift movements, while slicing them with throwing stars of sharpest water.",
     stats: {
       hp: 72,
       attack: 95,
       defense: 67,
       spAttack: 103,
       spDefense: 71,
-      speed: 122
+      speed: 122,
     },
     height: "1.5",
     weight: "40.0",
-    abilities: [
-      "TORRENT"
-    ],
-    hiddenAbilities: [
-      "PROTEAN"
-    ],
+    abilities: ["TORRENT"],
+    hiddenAbilities: ["PROTEAN"],
     category: "Ninja",
     moves: [
       "WATERSHURIKEN",
@@ -50221,7 +46281,7 @@ export const pokemonForms: PokemonForm[] =
       "SUBSTITUTE",
       "EXTRASENSORY",
       "DOUBLETEAM",
-      "HYDROPUMP"
+      "HYDROPUMP",
     ],
     tutorMoves: [
       "ACROBATICS",
@@ -50301,48 +46361,37 @@ export const pokemonForms: PokemonForm[] =
       "WATERPLEDGE",
       "WATERPULSE",
       "WEATHERBALL",
-      "WORKUP"
+      "WORKUP",
     ],
-    eggMoves: [
-
-    ],
+    eggMoves: [],
     suffix: "normal",
-    evolution: [
-
-    ],
+    evolution: [],
     color: "Blue",
     formNumber: 3,
     formName: "Mega Greninja",
     baseId: "GRENINJA",
-    megaStone: "GRENINJITE"
+    megaStone: "GRENINJITE",
   },
   {
     id: "PYROAR",
     name: "Pyroar",
-    types: [
-      "FIRE",
-      "NORMAL"
-    ],
+    types: ["FIRE", "NORMAL"],
     sprite: "/Front/PYROAR_1.png",
     backSprite: "/spritesBack/PYROAR_1.png",
-    description: "With fiery breath of more than 6,000 degrees Celsius, they viciously threaten any challenger. The females protect the pride's cubs.",
+    description:
+      "With fiery breath of more than 6,000 degrees Celsius, they viciously threaten any challenger. The females protect the pride's cubs.",
     stats: {
       hp: 86,
       attack: 68,
       defense: 72,
       spAttack: 109,
       spDefense: 66,
-      speed: 106
+      speed: 106,
     },
     height: "1.5",
     weight: "81.5",
-    abilities: [
-      "RIVALRY",
-      "UNNERVE"
-    ],
-    hiddenAbilities: [
-      "MOXIE"
-    ],
+    abilities: ["RIVALRY", "UNNERVE"],
+    hiddenAbilities: ["MOXIE"],
     category: "Royal",
     moves: [
       "HYPERBEAM",
@@ -50360,7 +46409,7 @@ export const pokemonForms: PokemonForm[] =
       "CRUNCH",
       "HYPERVOICE",
       "INCINERATE",
-      "OVERHEAT"
+      "OVERHEAT",
     ],
     tutorMoves: [
       "ACROBATICS",
@@ -50429,46 +46478,37 @@ export const pokemonForms: PokemonForm[] =
       "TRAILBLAZE",
       "WILDCHARGE",
       "WILLOWISP",
-      "WORKUP"
+      "WORKUP",
     ],
-    eggMoves: [
-
-    ],
+    eggMoves: [],
     suffix: "normal",
-    evolution: [
-
-    ],
+    evolution: [],
     color: "Brown",
     formNumber: 1,
     formName: "Mega Pyroar",
     baseId: "PYROAR",
-    megaStone: "PYROARITE"
+    megaStone: "PYROARITE",
   },
   {
     id: "FLOETTE",
     name: "Floette",
-    types: [
-      "FAIRY"
-    ],
+    types: ["FAIRY"],
     sprite: "/Front/FLOETTE_6.png",
     backSprite: "/spritesBack/FLOETTE_6.png",
-    description: "It flutters around fields of flowers and cares for flowers that are starting to wilt. It draws out the power of flowers to battle.",
+    description:
+      "It flutters around fields of flowers and cares for flowers that are starting to wilt. It draws out the power of flowers to battle.",
     stats: {
       hp: 54,
       attack: 45,
       defense: 47,
       spAttack: 75,
       spDefense: 98,
-      speed: 52
+      speed: 52,
     },
     height: "0.2",
     weight: "0.9",
-    abilities: [
-      "FLOWERVEIL"
-    ],
-    hiddenAbilities: [
-      "SYMBIOSIS"
-    ],
+    abilities: ["FLOWERVEIL"],
+    hiddenAbilities: ["SYMBIOSIS"],
     category: "Single Bloom",
     moves: [
       "TACKLE",
@@ -50484,7 +46524,7 @@ export const pokemonForms: PokemonForm[] =
       "MISTYTERRAIN",
       "MOONBLAST",
       "PETALDANCE",
-      "SOLARBEAM"
+      "SOLARBEAM",
     ],
     tutorMoves: [
       "AFTERYOU",
@@ -50547,52 +46587,43 @@ export const pokemonForms: PokemonForm[] =
       "TERABLAST",
       "TRAILBLAZE",
       "TRICK",
-      "WORRYSEED"
+      "WORRYSEED",
     ],
-    eggMoves: [
-
-    ],
+    eggMoves: [],
     suffix: "normal",
     evolution: [
       {
         to: "FLORGES",
         method: "Item",
-        value: "SHINYSTONE"
-      }
+        value: "SHINYSTONE",
+      },
     ],
     color: "White",
     formNumber: 6,
     formName: "Mega Floette",
     baseId: "FLOETTE",
-    megaStone: "FLOETTITE"
+    megaStone: "FLOETTITE",
   },
   {
     id: "MALAMAR",
     name: "Malamar",
-    types: [
-      "DARK",
-      "PSYCHIC"
-    ],
+    types: ["DARK", "PSYCHIC"],
     sprite: "/Front/MALAMAR_1.png",
     backSprite: "/spritesBack/MALAMAR_1.png",
-    description: "It lures prey close with hypnotic motions, then wraps its tentacles around it before finishing it off with digestive fluids.",
+    description:
+      "It lures prey close with hypnotic motions, then wraps its tentacles around it before finishing it off with digestive fluids.",
     stats: {
       hp: 86,
       attack: 92,
       defense: 88,
       spAttack: 68,
       spDefense: 75,
-      speed: 73
+      speed: 73,
     },
     height: "1.5",
     weight: "47.0",
-    abilities: [
-      "CONTRARY",
-      "SUCTIONCUPS"
-    ],
-    hiddenAbilities: [
-      "INFILTRATOR"
-    ],
+    abilities: ["CONTRARY", "SUCTIONCUPS"],
+    hiddenAbilities: ["INFILTRATOR"],
     category: "Overturning",
     moves: [
       "REVERSAL",
@@ -50610,7 +46641,7 @@ export const pokemonForms: PokemonForm[] =
       "SWITCHEROO",
       "FOULPLAY",
       "TOPSYTURVY",
-      "SUPERPOWER"
+      "SUPERPOWER",
     ],
     tutorMoves: [
       "AERIALACE",
@@ -50691,48 +46722,37 @@ export const pokemonForms: PokemonForm[] =
       "TORMENT",
       "TRAILBLAZE",
       "TRICK",
-      "TRICKROOM"
+      "TRICKROOM",
     ],
-    eggMoves: [
-
-    ],
+    eggMoves: [],
     suffix: "normal",
-    evolution: [
-
-    ],
+    evolution: [],
     color: "Blue",
     formNumber: 1,
     formName: "Mega Malamar",
     baseId: "MALAMAR",
-    megaStone: "MALAMARITE"
+    megaStone: "MALAMARITE",
   },
   {
     id: "BARBARACLE",
     name: "Barbaracle",
-    types: [
-      "ROCK",
-      "FIGHTING"
-    ],
+    types: ["ROCK", "FIGHTING"],
     sprite: "/Front/BARBARACLE_1.png",
     backSprite: "/spritesBack/BARBARACLE_1.png",
-    description: "Barbaracle's legs and hands have minds of their own, and they will move independently. But they usually follow the head's orders.",
+    description:
+      "Barbaracle's legs and hands have minds of their own, and they will move independently. But they usually follow the head's orders.",
     stats: {
       hp: 72,
       attack: 105,
       defense: 115,
       spAttack: 54,
       spDefense: 86,
-      speed: 68
+      speed: 68,
     },
     height: "1.3",
     weight: "96.0",
-    abilities: [
-      "TOUGHCLAWS",
-      "SNIPER"
-    ],
-    hiddenAbilities: [
-      "PICKPOCKET"
-    ],
+    abilities: ["TOUGHCLAWS", "SNIPER"],
+    hiddenAbilities: ["PICKPOCKET"],
     category: "Collective",
     moves: [
       "SKULLBASH",
@@ -50749,7 +46769,7 @@ export const pokemonForms: PokemonForm[] =
       "RAZORSHELL",
       "SHELLSMASH",
       "CROSSCHOP",
-      "STONEEDGE"
+      "STONEEDGE",
     ],
     tutorMoves: [
       "AERIALACE",
@@ -50838,48 +46858,37 @@ export const pokemonForms: PokemonForm[] =
       "UPROAR",
       "WATERPULSE",
       "WHIRLPOOL",
-      "XSCISSOR"
+      "XSCISSOR",
     ],
-    eggMoves: [
-
-    ],
+    eggMoves: [],
     suffix: "normal",
-    evolution: [
-
-    ],
+    evolution: [],
     color: "Brown",
     formNumber: 1,
     formName: "Mega Barbaracle",
     baseId: "BARBARACLE",
-    megaStone: "BARBARACITE"
+    megaStone: "BARBARACITE",
   },
   {
     id: "DRAGALGE",
     name: "Dragalge",
-    types: [
-      "POISON",
-      "DRAGON"
-    ],
+    types: ["POISON", "DRAGON"],
     sprite: "/Front/DRAGALGE_1.png",
     backSprite: "/spritesBack/DRAGALGE_1.png",
-    description: "Their poison is strong enough to eat through the hull of a tanker, and they spit it indiscriminately at anything that enters their territory.",
+    description:
+      "Their poison is strong enough to eat through the hull of a tanker, and they spit it indiscriminately at anything that enters their territory.",
     stats: {
       hp: 65,
       attack: 75,
       defense: 90,
       spAttack: 97,
       spDefense: 123,
-      speed: 44
+      speed: 44,
     },
     height: "1.8",
     weight: "81.5",
-    abilities: [
-      "POISONPOINT",
-      "POISONTOUCH"
-    ],
-    hiddenAbilities: [
-      "ADAPTABILITY"
-    ],
+    abilities: ["POISONPOINT", "POISONTOUCH"],
+    hiddenAbilities: ["ADAPTABILITY"],
     category: "Mock Kelp",
     moves: [
       "TACKLE",
@@ -50895,7 +46904,7 @@ export const pokemonForms: PokemonForm[] =
       "AQUATAIL",
       "SLUDGEBOMB",
       "HYDROPUMP",
-      "OUTRAGE"
+      "OUTRAGE",
     ],
     tutorMoves: [
       "ACIDSPRAY",
@@ -50963,48 +46972,37 @@ export const pokemonForms: PokemonForm[] =
       "VENOSHOCK",
       "WATERFALL",
       "WATERPULSE",
-      "WHIRLPOOL"
+      "WHIRLPOOL",
     ],
-    eggMoves: [
-
-    ],
+    eggMoves: [],
     suffix: "normal",
-    evolution: [
-
-    ],
+    evolution: [],
     color: "Brown",
     formNumber: 1,
     formName: "Mega Dragalge",
     baseId: "DRAGALGE",
-    megaStone: "DRAGALGITE"
+    megaStone: "DRAGALGITE",
   },
   {
     id: "HAWLUCHA",
     name: "Hawlucha",
-    types: [
-      "FIGHTING",
-      "FLYING"
-    ],
+    types: ["FIGHTING", "FLYING"],
     sprite: "/Front/HAWLUCHA_1.png",
     backSprite: "/spritesBack/HAWLUCHA_1.png",
-    description: "With its wings, it controls its position in the air. It likes to attack from above, a maneuver that is difficult to defend against.",
+    description:
+      "With its wings, it controls its position in the air. It likes to attack from above, a maneuver that is difficult to defend against.",
     stats: {
       hp: 78,
       attack: 92,
       defense: 75,
       spAttack: 74,
       spDefense: 63,
-      speed: 118
+      speed: 118,
     },
     height: "0.8",
     weight: "21.5",
-    abilities: [
-      "LIMBER",
-      "UNBURDEN"
-    ],
-    hiddenAbilities: [
-      "MOLDBREAKER"
-    ],
+    abilities: ["LIMBER", "UNBURDEN"],
+    hiddenAbilities: ["MOLDBREAKER"],
     category: "Wrestling",
     moves: [
       "TACKLE",
@@ -51022,7 +47020,7 @@ export const pokemonForms: PokemonForm[] =
       "FLYINGPRESS",
       "HIGHJUMPKICK",
       "ENDEAVOR",
-      "SKYATTACK"
+      "SKYATTACK",
     ],
     tutorMoves: [
       "ACROBATICS",
@@ -51119,7 +47117,7 @@ export const pokemonForms: PokemonForm[] =
       "UTURN",
       "WORKUP",
       "XSCISSOR",
-      "ZENHEADBUTT"
+      "ZENHEADBUTT",
     ],
     eggMoves: [
       "CROSSCHOP",
@@ -51127,45 +47125,36 @@ export const pokemonForms: PokemonForm[] =
       "ENTRAINMENT",
       "FEINT",
       "MEANLOOK",
-      "QUICKGUARD"
+      "QUICKGUARD",
     ],
     suffix: "normal",
-    evolution: [
-
-    ],
+    evolution: [],
     color: "Green",
     formNumber: 1,
     formName: "Mega Hawlucha",
     baseId: "HAWLUCHA",
-    megaStone: "HAWLUCHANITE"
+    megaStone: "HAWLUCHANITE",
   },
   {
     id: "ZYGARDE",
     name: "Zygarde",
-    types: [
-      "DRAGON",
-      "GROUND"
-    ],
+    types: ["DRAGON", "GROUND"],
     sprite: "/Front/ZYGARDE_4.png",
     backSprite: "/spritesBack/ZYGARDE_4.png",
-    description: "It's thought to be monitoring the ecosystem. There are rumors that even greater power lies hidden within it.",
+    description:
+      "It's thought to be monitoring the ecosystem. There are rumors that even greater power lies hidden within it.",
     stats: {
       hp: 108,
       attack: 100,
       defense: 121,
       spAttack: 81,
       spDefense: 95,
-      speed: 95
+      speed: 95,
     },
     height: "5.0",
     weight: "305.0",
-    abilities: [
-      "AURABREAK",
-      "POWERCONSTRUCT"
-    ],
-    hiddenAbilities: [
-
-    ],
+    abilities: ["AURABREAK", "POWERCONSTRUCT"],
+    hiddenAbilities: [],
     category: "Order",
     moves: [
       "THOUSANDARROWS",
@@ -51185,7 +47174,7 @@ export const pokemonForms: PokemonForm[] =
       "SANDSTORM",
       "COIL",
       "EARTHQUAKE",
-      "OUTRAGE"
+      "OUTRAGE",
     ],
     tutorMoves: [
       "BIND",
@@ -51248,48 +47237,37 @@ export const pokemonForms: PokemonForm[] =
       "SWAGGER",
       "SWIFT",
       "TOXIC",
-      "ZENHEADBUTT"
+      "ZENHEADBUTT",
     ],
-    eggMoves: [
-
-    ],
+    eggMoves: [],
     suffix: "normal",
-    evolution: [
-
-    ],
+    evolution: [],
     color: "Green",
     formNumber: 4,
     formName: "Mega Zygarde",
     baseId: "ZYGARDE",
-    megaStone: "ZYGARDITE"
+    megaStone: "ZYGARDITE",
   },
   {
     id: "DRAMPA",
     name: "Drampa",
-    types: [
-      "NORMAL",
-      "DRAGON"
-    ],
+    types: ["NORMAL", "DRAGON"],
     sprite: "/Front/DRAMPA_1.png",
     backSprite: "/spritesBack/DRAMPA_1.png",
-    description: "This Pokémon is friendly to people and loves children most of all. It comes from deep in the mountains to play with children it likes in town.",
+    description:
+      "This Pokémon is friendly to people and loves children most of all. It comes from deep in the mountains to play with children it likes in town.",
     stats: {
       hp: 78,
       attack: 60,
       defense: 85,
       spAttack: 135,
       spDefense: 91,
-      speed: 36
+      speed: 36,
     },
     height: "3.0",
     weight: "185.0",
-    abilities: [
-      "BERSERK",
-      "SAPSIPPER"
-    ],
-    hiddenAbilities: [
-      "CLOUDNINE"
-    ],
+    abilities: ["BERSERK", "SAPSIPPER"],
+    hiddenAbilities: ["CLOUDNINE"],
     category: "Placid",
     moves: [
       "PLAYNICE",
@@ -51304,7 +47282,7 @@ export const pokemonForms: PokemonForm[] =
       "LIGHTSCREEN",
       "FLY",
       "HYPERVOICE",
-      "OUTRAGE"
+      "OUTRAGE",
     ],
     tutorMoves: [
       "AMNESIA",
@@ -51387,48 +47365,37 @@ export const pokemonForms: PokemonForm[] =
       "TOXIC",
       "UPROAR",
       "WATERPULSE",
-      "WORKUP"
+      "WORKUP",
     ],
-    eggMoves: [
-      "DRAGONRUSH",
-      "MIST",
-      "TICKLE"
-    ],
+    eggMoves: ["DRAGONRUSH", "MIST", "TICKLE"],
     suffix: "normal",
-    evolution: [
-
-    ],
+    evolution: [],
     color: "White",
     formNumber: 1,
     formName: "Mega Drampa",
     baseId: "DRAMPA",
-    megaStone: "DRAMPANITE"
+    megaStone: "DRAMPANITE",
   },
   {
     id: "FALINKS",
     name: "Falinks",
-    types: [
-      "FIGHTING"
-    ],
+    types: ["FIGHTING"],
     sprite: "/Front/FALINKS_1.png",
     backSprite: "/spritesBack/FALINKS_1.png",
-    description: "The six of them work together as one Pokémon. Teamwork is also their battle strategy, and they constantly change their formation as they fight.",
+    description:
+      "The six of them work together as one Pokémon. Teamwork is also their battle strategy, and they constantly change their formation as they fight.",
     stats: {
       hp: 65,
       attack: 100,
       defense: 100,
       spAttack: 70,
       spDefense: 60,
-      speed: 75
+      speed: 75,
     },
     height: "3.0",
     weight: "62.0",
-    abilities: [
-      "BATTLEARMOR"
-    ],
-    hiddenAbilities: [
-      "DEFIANT"
-    ],
+    abilities: ["BATTLEARMOR"],
+    hiddenAbilities: ["DEFIANT"],
     category: "Formation",
     moves: [
       "TACKLE",
@@ -51444,7 +47411,7 @@ export const pokemonForms: PokemonForm[] =
       "IRONDEFENSE",
       "CLOSECOMBAT",
       "MEGAHORN",
-      "COUNTER"
+      "COUNTER",
     ],
     tutorMoves: [
       "AGILITY",
@@ -51506,46 +47473,37 @@ export const pokemonForms: PokemonForm[] =
       "TRAILBLAZE",
       "UPPERHAND",
       "UPROAR",
-      "ZENHEADBUTT"
+      "ZENHEADBUTT",
     ],
-    eggMoves: [
-
-    ],
+    eggMoves: [],
     suffix: "normal",
-    evolution: [
-
-    ],
+    evolution: [],
     color: "Yellow",
     formNumber: 1,
     formName: "Mega Falinks",
     baseId: "FALINKS",
-    megaStone: "FALINKSITE"
+    megaStone: "FALINKSITE",
   },
   {
     id: "RAICHU",
     name: "Raichu",
-    types: [
-      "ELECTRIC"
-    ],
+    types: ["ELECTRIC"],
     sprite: "/Front/RAICHU_2.png",
     backSprite: "/spritesBack/RAICHU_2.png",
-    description: "If it stores too much electricity, its behavior turns aggressive. To avoid this, it occasionally discharges excess energy and calms itself down.",
+    description:
+      "If it stores too much electricity, its behavior turns aggressive. To avoid this, it occasionally discharges excess energy and calms itself down.",
     stats: {
       hp: 60,
       attack: 90,
       defense: 55,
       spAttack: 90,
       spDefense: 80,
-      speed: 110
+      speed: 110,
     },
     height: "0.8",
     weight: "30.0",
-    abilities: [
-      "STATIC"
-    ],
-    hiddenAbilities: [
-      "LIGHTNINGROD"
-    ],
+    abilities: ["STATIC"],
+    hiddenAbilities: ["LIGHTNINGROD"],
     category: "Mouse",
     moves: [
       "THUNDERPUNCH",
@@ -51568,7 +47526,7 @@ export const pokemonForms: PokemonForm[] =
       "TAILWHIP",
       "GROWL",
       "QUICKATTACK",
-      "THUNDERBOLT"
+      "THUNDERBOLT",
     ],
     tutorMoves: [
       "AGILITY",
@@ -51656,46 +47614,37 @@ export const pokemonForms: PokemonForm[] =
       "TRAILBLAZE",
       "UPPERHAND",
       "VOLTSWITCH",
-      "WILDCHARGE"
+      "WILDCHARGE",
     ],
-    eggMoves: [
-
-    ],
+    eggMoves: [],
     suffix: "normal",
-    evolution: [
-
-    ],
+    evolution: [],
     color: "Yellow",
     formNumber: 2,
     formName: "Mega Raichu",
     baseId: "RAICHU",
-    megaStone: "RAICHUNITEX"
+    megaStone: "RAICHUNITEX",
   },
   {
     id: "RAICHU",
     name: "Raichu",
-    types: [
-      "ELECTRIC"
-    ],
+    types: ["ELECTRIC"],
     sprite: "/Front/RAICHU_3.png",
     backSprite: "/spritesBack/RAICHU_3.png",
-    description: "If it stores too much electricity, its behavior turns aggressive. To avoid this, it occasionally discharges excess energy and calms itself down.",
+    description:
+      "If it stores too much electricity, its behavior turns aggressive. To avoid this, it occasionally discharges excess energy and calms itself down.",
     stats: {
       hp: 60,
       attack: 90,
       defense: 55,
       spAttack: 90,
       spDefense: 80,
-      speed: 110
+      speed: 110,
     },
     height: "0.8",
     weight: "30.0",
-    abilities: [
-      "STATIC"
-    ],
-    hiddenAbilities: [
-      "LIGHTNINGROD"
-    ],
+    abilities: ["STATIC"],
+    hiddenAbilities: ["LIGHTNINGROD"],
     category: "Mouse",
     moves: [
       "THUNDERPUNCH",
@@ -51718,7 +47667,7 @@ export const pokemonForms: PokemonForm[] =
       "TAILWHIP",
       "GROWL",
       "QUICKATTACK",
-      "THUNDERBOLT"
+      "THUNDERBOLT",
     ],
     tutorMoves: [
       "AGILITY",
@@ -51806,47 +47755,272 @@ export const pokemonForms: PokemonForm[] =
       "TRAILBLAZE",
       "UPPERHAND",
       "VOLTSWITCH",
-      "WILDCHARGE"
+      "WILDCHARGE",
     ],
-    eggMoves: [
-
-    ],
+    eggMoves: [],
     suffix: "normal",
-    evolution: [
-
-    ],
+    evolution: [],
     color: "Yellow",
     formNumber: 3,
     formName: "Mega Raichu",
     baseId: "RAICHU",
-    megaStone: "RAICHUNITEY"
+    megaStone: "RAICHUNITEY",
+  },
+  {
+    id: "BAXCALIBUR",
+    name: "Baxcalibur",
+    types: ["DRAGON", "ICE"],
+    sprite: "/Front/BAXCALIBUR_1.png",
+    backSprite: "/spritesBack/BAXCALIBUR_1.png",
+    description:
+      "This Pokémon blasts cryogenic air out from its mouth. This air can instantly freeze even liquid-hot lava.",
+    stats: {
+      hp: 115,
+      attack: 145,
+      defense: 92,
+      spAttack: 75,
+      spDefense: 86,
+      speed: 87,
+    },
+    height: "2.1",
+    weight: "210.0",
+    abilities: ["THERMALEXCHANGE"],
+    hiddenAbilities: ["ICEBODY"],
+    category: "Ice Dragon",
+    moves: [
+      "GLAIVERUSH",
+      "SNOWSCAPE",
+      "BREAKINGSWIPE",
+      "ICESHARD",
+      "TACKLE",
+      "LEER",
+      "DRAGONTAIL",
+      "ICYWIND",
+      "DRAGONBREATH",
+      "FOCUSENERGY",
+      "BITE",
+      "ICEFANG",
+      "DRAGONCLAW",
+      "TAKEDOWN",
+      "ICEBEAM",
+      "CRUNCH",
+      "ICICLECRASH",
+    ],
+    tutorMoves: [
+      "AERIALACE",
+      "AVALANCHE",
+      "BLIZZARD",
+      "BODYPRESS",
+      "BODYSLAM",
+      "BREAKINGSWIPE",
+      "BRICKBREAK",
+      "BULLDOZE",
+      "CRUNCH",
+      "DIG",
+      "DOUBLEEDGE",
+      "DRACOMETEOR",
+      "DRAGONCHEER",
+      "DRAGONCLAW",
+      "DRAGONDANCE",
+      "DRAGONPULSE",
+      "DRAGONTAIL",
+      "EARTHQUAKE",
+      "ENDURE",
+      "FACADE",
+      "FALSESWIPE",
+      "GIGAIMPACT",
+      "HAIL",
+      "HELPINGHAND",
+      "HIGHHORSEPOWER",
+      "HYPERBEAM",
+      "ICEBEAM",
+      "ICEFANG",
+      "ICICLESPEAR",
+      "ICYWIND",
+      "IRONHEAD",
+      "OUTRAGE",
+      "PROTECT",
+      "RAINDANCE",
+      "REST",
+      "SCALESHOT",
+      "SCARYFACE",
+      "SLEEPTALK",
+      "SNOWSCAPE",
+      "STOMPINGTANTRUM",
+      "SUBSTITUTE",
+      "SWORDSDANCE",
+      "TAKEDOWN",
+      "TERABLAST",
+      "THUNDERFANG",
+      "ZENHEADBUTT",
+    ],
+    eggMoves: [],
+    suffix: "normal",
+    evolution: [],
+    color: "Blue",
+    formNumber: 1,
+    formName: "Mega Baxcalibur",
+    baseId: "BAXCALIBUR",
+    megaStone: "BAXCALIBRITE",
+  },
+  {
+    id: "CHIMECHO",
+    name: "Chimecho",
+    types: ["PSYCHIC"],
+    sprite: "/Front/CHIMECHO_1.png",
+    backSprite: "/spritesBack/CHIMECHO_1.png",
+    description:
+      "They fly about very actively when the hot season arrives. They communicate among themselves using seven different and distinguishing cries.",
+    stats: {
+      hp: 75,
+      attack: 50,
+      defense: 80,
+      spAttack: 95,
+      spDefense: 90,
+      speed: 65,
+    },
+    height: "0.6",
+    weight: "1.0",
+    abilities: ["LEVITATE"],
+    hiddenAbilities: [],
+    category: "Wind Chime",
+    moves: [
+      "HEALINGWISH",
+      "WRAP",
+      "GROWL",
+      "ASTONISH",
+      "CONFUSION",
+      "YAWN",
+      "STOREDPOWER",
+      "TAKEDOWN",
+      "EXTRASENSORY",
+      "HEALBELL",
+      "UPROAR",
+      "SAFEGUARD",
+      "DOUBLEEDGE",
+      "HEALPULSE",
+    ],
+    tutorMoves: [
+      "ALLYSWITCH",
+      "ATTRACT",
+      "BATONPASS",
+      "BIND",
+      "CALMMIND",
+      "CAPTIVATE",
+      "CHARGEBEAM",
+      "CHARM",
+      "CONFIDE",
+      "CURSE",
+      "DAZZLINGGLEAM",
+      "DEFENSECURL",
+      "DISARMINGVOICE",
+      "DOUBLEEDGE",
+      "DOUBLETEAM",
+      "DRAININGKISS",
+      "DREAMEATER",
+      "ECHOEDVOICE",
+      "ENCORE",
+      "ENDURE",
+      "ENERGYBALL",
+      "EXPANDINGFORCE",
+      "FACADE",
+      "FAKETEARS",
+      "FLASH",
+      "FRUSTRATION",
+      "FUTURESIGHT",
+      "GRASSKNOT",
+      "GRAVITY",
+      "HEALBELL",
+      "HELPINGHAND",
+      "HIDDENPOWER",
+      "HYPERVOICE",
+      "ICYWIND",
+      "IMPRISON",
+      "KNOCKOFF",
+      "LASERFOCUS",
+      "LASTRESORT",
+      "LIGHTSCREEN",
+      "MAGICCOAT",
+      "MIMIC",
+      "NATURALGIFT",
+      "PROTECT",
+      "PSYBEAM",
+      "PSYCHIC",
+      "PSYCHICNOISE",
+      "PSYCHUP",
+      "PSYSHOCK",
+      "RAINDANCE",
+      "RECYCLE",
+      "REFLECT",
+      "REST",
+      "RETURN",
+      "ROLLOUT",
+      "ROUND",
+      "SAFEGUARD",
+      "SECRETPOWER",
+      "SHADOWBALL",
+      "SHOCKWAVE",
+      "SIGNALBEAM",
+      "SKILLSWAP",
+      "SLEEPTALK",
+      "SNARL",
+      "SNATCH",
+      "SNORE",
+      "STOREDPOWER",
+      "SUBSTITUTE",
+      "SUNNYDAY",
+      "SWAGGER",
+      "SWIFT",
+      "TAKEDOWN",
+      "TAUNT",
+      "TELEKINESIS",
+      "TERABLAST",
+      "THUNDERWAVE",
+      "TORMENT",
+      "TRICK",
+      "TRICKROOM",
+      "UPROAR",
+      "ZENHEADBUTT",
+    ],
+    eggMoves: [
+      "COSMICPOWER",
+      "CURSE",
+      "DISABLE",
+      "FUTURESIGHT",
+      "HYPNOSIS",
+      "PERISHSONG",
+      "RECOVER",
+      "STOREDPOWER",
+      "WISH",
+    ],
+    suffix: "normal",
+    evolution: [],
+    color: "Blue",
+    formNumber: 1,
+    formName: "Mega Chimecho",
+    baseId: "CHIMECHO",
+    megaStone: "BAXCALIBRITE",
   },
   {
     id: "VENUSAUR",
     name: "Venusaur",
-    types: [
-      "GRASS",
-      "POISON"
-    ],
+    types: ["GRASS", "POISON"],
     sprite: "/Front/VENUSAUR_2.png",
     backSprite: "/spritesBack/VENUSAUR_2.png",
-    description: "In battle, this Pokémon swings around two thick vines. If these vines slammed into a 10-story building, they could easily topple it.",
+    description:
+      "In battle, this Pokémon swings around two thick vines. If these vines slammed into a 10-story building, they could easily topple it.",
     stats: {
       hp: 80,
       attack: 82,
       defense: 83,
       spAttack: 100,
       spDefense: 100,
-      speed: 80
+      speed: 80,
     },
     height: "24.0",
     weight: "100.0",
-    abilities: [
-      "OVERGROW"
-    ],
-    hiddenAbilities: [
-      "CHLOROPHYLL"
-    ],
+    abilities: ["OVERGROW"],
+    hiddenAbilities: ["CHLOROPHYLL"],
     category: "Seed",
     moves: [
       "PETALBLIZZARD",
@@ -51865,7 +48039,7 @@ export const pokemonForms: PokemonForm[] =
       "SYNTHESIS",
       "WORRYSEED",
       "POWERWHIP",
-      "SOLARBEAM"
+      "SOLARBEAM",
     ],
     tutorMoves: [
       "ACIDSPRAY",
@@ -51945,47 +48119,37 @@ export const pokemonForms: PokemonForm[] =
       "VENOSHOCK",
       "WEATHERBALL",
       "WORKUP",
-      "WORRYSEED"
+      "WORRYSEED",
     ],
-    eggMoves: [
-
-    ],
+    eggMoves: [],
     suffix: "normal",
-    evolution: [
-
-    ],
+    evolution: [],
     color: "Green",
     formNumber: 2,
     formName: "Gigantamax",
     baseId: "VENUSAUR",
-    megaStone: null
+    megaStone: null,
   },
   {
     id: "CHARIZARD",
     name: "Charizard",
-    types: [
-      "FIRE",
-      "FLYING"
-    ],
+    types: ["FIRE", "FLYING"],
     sprite: "/Front/CHARIZARD_3.png",
     backSprite: "/spritesBack/CHARIZARD_3.png",
-    description: "This colossal, flame-winged figure of a Charizard was brought about by Gigantamax energy.",
+    description:
+      "This colossal, flame-winged figure of a Charizard was brought about by Gigantamax energy.",
     stats: {
       hp: 78,
       attack: 84,
       defense: 78,
       spAttack: 109,
       spDefense: 85,
-      speed: 100
+      speed: 100,
     },
     height: "28.0",
     weight: "90.5",
-    abilities: [
-      "BLAZE"
-    ],
-    hiddenAbilities: [
-      "SOLARPOWER"
-    ],
+    abilities: ["BLAZE"],
+    hiddenAbilities: ["SOLARPOWER"],
     category: "Flame",
     moves: [
       "AIRSLASH",
@@ -52002,7 +48166,7 @@ export const pokemonForms: PokemonForm[] =
       "SCARYFACE",
       "FIRESPIN",
       "INFERNO",
-      "FLAREBLITZ"
+      "FLAREBLITZ",
     ],
     tutorMoves: [
       "ACROBATICS",
@@ -52104,46 +48268,37 @@ export const pokemonForms: PokemonForm[] =
       "TWISTER",
       "WEATHERBALL",
       "WILLOWISP",
-      "WORKUP"
+      "WORKUP",
     ],
-    eggMoves: [
-
-    ],
+    eggMoves: [],
     suffix: "normal",
-    evolution: [
-
-    ],
+    evolution: [],
     color: "Red",
     formNumber: 3,
     formName: "Gigantamax",
     baseId: "CHARIZARD",
-    megaStone: null
+    megaStone: null,
   },
   {
     id: "BLASTOISE",
     name: "Blastoise",
-    types: [
-      "WATER"
-    ],
+    types: ["WATER"],
     sprite: "/Front/BLASTOISE_2.png",
     backSprite: "/spritesBack/BLASTOISE_2.png",
-    description: "Water fired from this Pokémon's central main cannon has enough power to blast a hole into a mountain.",
+    description:
+      "Water fired from this Pokémon's central main cannon has enough power to blast a hole into a mountain.",
     stats: {
       hp: 79,
       attack: 83,
       defense: 100,
       spAttack: 85,
       spDefense: 105,
-      speed: 78
+      speed: 78,
     },
     height: "25.0",
     weight: "85.5",
-    abilities: [
-      "TORRENT"
-    ],
-    hiddenAbilities: [
-      "RAINDISH"
-    ],
+    abilities: ["TORRENT"],
+    hiddenAbilities: ["RAINDISH"],
     category: "Shellfish",
     moves: [
       "FLASHCANNON",
@@ -52160,7 +48315,7 @@ export const pokemonForms: PokemonForm[] =
       "SHELLSMASH",
       "IRONDEFENSE",
       "HYDROPUMP",
-      "WAVECRASH"
+      "WAVECRASH",
     ],
     tutorMoves: [
       "AQUATAIL",
@@ -52247,47 +48402,37 @@ export const pokemonForms: PokemonForm[] =
       "WEATHERBALL",
       "WHIRLPOOL",
       "WORKUP",
-      "ZENHEADBUTT"
+      "ZENHEADBUTT",
     ],
-    eggMoves: [
-
-    ],
+    eggMoves: [],
     suffix: "normal",
-    evolution: [
-
-    ],
+    evolution: [],
     color: "Blue",
     formNumber: 2,
     formName: "Gigantamax",
     baseId: "BLASTOISE",
-    megaStone: null
+    megaStone: null,
   },
   {
     id: "BUTTERFREE",
     name: "Butterfree",
-    types: [
-      "BUG",
-      "FLYING"
-    ],
+    types: ["BUG", "FLYING"],
     sprite: "/Front/BUTTERFREE_1.png",
     backSprite: "/spritesBack/BUTTERFREE_1.png",
-    description: "Crystallized Gigantamax energy makes up this Pokémon's blindingly bright and highly toxic scales.",
+    description:
+      "Crystallized Gigantamax energy makes up this Pokémon's blindingly bright and highly toxic scales.",
     stats: {
       hp: 60,
       attack: 45,
       defense: 50,
       spAttack: 90,
       spDefense: 80,
-      speed: 70
+      speed: 70,
     },
     height: "17.0",
     weight: "32.0",
-    abilities: [
-      "COMPOUNDEYES"
-    ],
-    hiddenAbilities: [
-      "TINTEDLENS"
-    ],
+    abilities: ["COMPOUNDEYES"],
+    hiddenAbilities: ["TINTEDLENS"],
     category: "Butterfly",
     moves: [
       "GUST",
@@ -52307,7 +48452,7 @@ export const pokemonForms: PokemonForm[] =
       "BUGBUZZ",
       "TAILWIND",
       "RAGEPOWDER",
-      "QUIVERDANCE"
+      "QUIVERDANCE",
     ],
     tutorMoves: [
       "ACROBATICS",
@@ -52370,46 +48515,37 @@ export const pokemonForms: PokemonForm[] =
       "THIEF",
       "TWISTER",
       "UTURN",
-      "VENOSHOCK"
+      "VENOSHOCK",
     ],
-    eggMoves: [
-
-    ],
+    eggMoves: [],
     suffix: "normal",
-    evolution: [
-
-    ],
+    evolution: [],
     color: "White",
     formNumber: 1,
     formName: "Gigantamax",
     baseId: "BUTTERFREE",
-    megaStone: null
+    megaStone: null,
   },
   {
     id: "PIKACHU",
     name: "Pikachu",
-    types: [
-      "ELECTRIC"
-    ],
+    types: ["ELECTRIC"],
     sprite: "/Front/PIKACHU_17.png",
     backSprite: "/spritesBack/PIKACHU_17.png",
-    description: "Its Gigantamax power expanded, forming its supersized body and towering tail.",
+    description:
+      "Its Gigantamax power expanded, forming its supersized body and towering tail.",
     stats: {
       hp: 35,
       attack: 55,
       defense: 40,
       spAttack: 50,
       spDefense: 50,
-      speed: 90
+      speed: 90,
     },
     height: "21.0",
     weight: "6.0",
-    abilities: [
-      "STATIC"
-    ],
-    hiddenAbilities: [
-      "LIGHTNINGROD"
-    ],
+    abilities: ["STATIC"],
+    hiddenAbilities: ["LIGHTNINGROD"],
     category: "Mouse",
     moves: [
       "PLAYNICE",
@@ -52431,7 +48567,7 @@ export const pokemonForms: PokemonForm[] =
       "DISCHARGE",
       "THUNDERBOLT",
       "LIGHTSCREEN",
-      "THUNDER"
+      "THUNDER",
     ],
     tutorMoves: [
       "AGILITY",
@@ -52514,51 +48650,43 @@ export const pokemonForms: PokemonForm[] =
       "UPPERHAND",
       "VOLTSWITCH",
       "VOLTTACKLE",
-      "WILDCHARGE"
+      "WILDCHARGE",
     ],
-    eggMoves: [
-
-    ],
+    eggMoves: [],
     suffix: "normal",
     evolution: [
       {
         to: "RAICHU",
         method: "Item",
-        value: "THUNDERSTONE"
-      }
+        value: "THUNDERSTONE",
+      },
     ],
     color: "Yellow",
     formNumber: 17,
     formName: "Gigantamax",
     baseId: "PIKACHU",
-    megaStone: null
+    megaStone: null,
   },
   {
     id: "MEOWTH",
     name: "Meowth",
-    types: [
-      "NORMAL"
-    ],
+    types: ["NORMAL"],
     sprite: "/Front/MEOWTH_3.png",
     backSprite: "/spritesBack/MEOWTH_3.png",
-    description: "Its body has grown incredibly long and the coin on its forehead has grown incredibly large all thanks to Gigantamax power.",
+    description:
+      "Its body has grown incredibly long and the coin on its forehead has grown incredibly large all thanks to Gigantamax power.",
     stats: {
       hp: 40,
       attack: 45,
       defense: 35,
       spAttack: 40,
       spDefense: 40,
-      speed: 90
+      speed: 90,
     },
     height: "33.0",
     weight: "4.2",
-    abilities: [
-      "PICKUP",
-      "TECHNICIAN"
-    ],
-    hiddenAbilities: [
-      "UNNERVE"
-    ],
+    abilities: ["PICKUP", "TECHNICIAN"],
+    hiddenAbilities: ["UNNERVE"],
     category: "Scratch Cat",
     moves: [
       "FAKEOUT",
@@ -52573,7 +48701,7 @@ export const pokemonForms: PokemonForm[] =
       "SCREECH",
       "SLASH",
       "NASTYPLOT",
-      "PLAYROUGH"
+      "PLAYROUGH",
     ],
     tutorMoves: [
       "AERIALACE",
@@ -52656,7 +48784,7 @@ export const pokemonForms: PokemonForm[] =
       "TORMENT",
       "TRAILBLAZE",
       "UTURN",
-      "WORKUP"
+      "WORKUP",
     ],
     eggMoves: [
       "AMNESIA",
@@ -52667,48 +48795,42 @@ export const pokemonForms: PokemonForm[] =
       "HYPNOSIS",
       "LASTRESORT",
       "SPITE",
-      "TAILWHIP"
+      "TAILWHIP",
     ],
     suffix: "normal",
     evolution: [
       {
         to: "PERSIAN",
         method: "Level",
-        value: "28"
-      }
+        value: "28",
+      },
     ],
     color: "Yellow",
     formNumber: 3,
     formName: "Gigantamax",
     baseId: "MEOWTH",
-    megaStone: null
+    megaStone: null,
   },
   {
     id: "MACHAMP",
     name: "Machamp",
-    types: [
-      "FIGHTING"
-    ],
+    types: ["FIGHTING"],
     sprite: "/Front/MACHAMP_1.png",
     backSprite: "/spritesBack/MACHAMP_1.png",
-    description: "The Gigantamax energy coursing through its arms makes its punches hit as hard as bomb blasts.",
+    description:
+      "The Gigantamax energy coursing through its arms makes its punches hit as hard as bomb blasts.",
     stats: {
       hp: 90,
       attack: 130,
       defense: 80,
       spAttack: 65,
       spDefense: 85,
-      speed: 55
+      speed: 55,
     },
     height: "25.0",
     weight: "130.0",
-    abilities: [
-      "GUTS",
-      "NOGUARD"
-    ],
-    hiddenAbilities: [
-      "STEADFAST"
-    ],
+    abilities: ["GUTS", "NOGUARD"],
+    hiddenAbilities: ["STEADFAST"],
     category: "Superpower",
     moves: [
       "WIDEGUARD",
@@ -52726,7 +48848,7 @@ export const pokemonForms: PokemonForm[] =
       "SEISMICTOSS",
       "DYNAMICPUNCH",
       "CROSSCHOP",
-      "DOUBLEEDGE"
+      "DOUBLEEDGE",
     ],
     tutorMoves: [
       "ASSURANCE",
@@ -52812,47 +48934,37 @@ export const pokemonForms: PokemonForm[] =
       "THROATCHOP",
       "THUNDERPUNCH",
       "VACUUMWAVE",
-      "WORKUP"
+      "WORKUP",
     ],
-    eggMoves: [
-
-    ],
+    eggMoves: [],
     suffix: "normal",
-    evolution: [
-
-    ],
+    evolution: [],
     color: "Gray",
     formNumber: 1,
     formName: "Gigantamax",
     baseId: "MACHAMP",
-    megaStone: null
+    megaStone: null,
   },
   {
     id: "GENGAR",
     name: "Gengar",
-    types: [
-      "GHOST",
-      "POISON"
-    ],
+    types: ["GHOST", "POISON"],
     sprite: "/Front/GENGAR_2.png",
     backSprite: "/spritesBack/GENGAR_2.png",
-    description: "It lays traps, hoping to steal the lives of those it catches. If you stand in front of its mouth, you'll hear your loved ones' voices calling out to you.",
+    description:
+      "It lays traps, hoping to steal the lives of those it catches. If you stand in front of its mouth, you'll hear your loved ones' voices calling out to you.",
     stats: {
       hp: 60,
       attack: 65,
       defense: 60,
       spAttack: 130,
       spDefense: 75,
-      speed: 110
+      speed: 110,
     },
     height: "20.0",
     weight: "40.5",
-    abilities: [
-      "CURSEDBODY"
-    ],
-    hiddenAbilities: [
-
-    ],
+    abilities: ["CURSEDBODY"],
+    hiddenAbilities: [],
     category: "Shadow",
     moves: [
       "SHADOWPUNCH",
@@ -52871,7 +48983,7 @@ export const pokemonForms: PokemonForm[] =
       "DARKPULSE",
       "SHADOWBALL",
       "DESTINYBOND",
-      "DREAMEATER"
+      "DREAMEATER",
     ],
     tutorMoves: [
       "ACIDSPRAY",
@@ -52975,47 +49087,37 @@ export const pokemonForms: PokemonForm[] =
       "TRICKROOM",
       "VENOSHOCK",
       "WILLOWISP",
-      "WONDERROOM"
+      "WONDERROOM",
     ],
-    eggMoves: [
-
-    ],
+    eggMoves: [],
     suffix: "normal",
-    evolution: [
-
-    ],
+    evolution: [],
     color: "Purple",
     formNumber: 2,
     formName: "Gigantamax",
     baseId: "GENGAR",
-    megaStone: null
+    megaStone: null,
   },
   {
     id: "KINGLER",
     name: "Kingler",
-    types: [
-      "WATER"
-    ],
+    types: ["WATER"],
     sprite: "/Front/KINGLER_1.png",
     backSprite: "/spritesBack/KINGLER_1.png",
-    description: "The flow of Gigantamax energy has spurred this Pokémon's left pincer to grow to an enormous size. That claw can pulverize anything.",
+    description:
+      "The flow of Gigantamax energy has spurred this Pokémon's left pincer to grow to an enormous size. That claw can pulverize anything.",
     stats: {
       hp: 55,
       attack: 130,
       defense: 115,
       spAttack: 50,
       spDefense: 50,
-      speed: 75
+      speed: 75,
     },
     height: "19.0",
     weight: "60.0",
-    abilities: [
-      "HYPERCUTTER",
-      "SHELLARMOR"
-    ],
-    hiddenAbilities: [
-      "SHEERFORCE"
-    ],
+    abilities: ["HYPERCUTTER", "SHELLARMOR"],
+    hiddenAbilities: ["SHEERFORCE"],
     category: "Pincer",
     moves: [
       "WIDEGUARD",
@@ -53033,7 +49135,7 @@ export const pokemonForms: PokemonForm[] =
       "SLAM",
       "SWORDSDANCE",
       "CRABHAMMER",
-      "GUILLOTINE"
+      "GUILLOTINE",
     ],
     tutorMoves: [
       "AGILITY",
@@ -53099,48 +49201,37 @@ export const pokemonForms: PokemonForm[] =
       "THIEF",
       "WATERPULSE",
       "WHIRLPOOL",
-      "XSCISSOR"
+      "XSCISSOR",
     ],
-    eggMoves: [
-
-    ],
+    eggMoves: [],
     suffix: "normal",
-    evolution: [
-
-    ],
+    evolution: [],
     color: "Red",
     formNumber: 1,
     formName: "Gigantamax",
     baseId: "KINGLER",
-    megaStone: null
+    megaStone: null,
   },
   {
     id: "LAPRAS",
     name: "Lapras",
-    types: [
-      "WATER",
-      "ICE"
-    ],
+    types: ["WATER", "ICE"],
     sprite: "/Front/LAPRAS_1.png",
     backSprite: "/spritesBack/LAPRAS_1.png",
-    description: "Over 5,000 people can ride on its shell at once. And it's a very comfortable ride, without the slightest shaking or swaying.",
+    description:
+      "Over 5,000 people can ride on its shell at once. And it's a very comfortable ride, without the slightest shaking or swaying.",
     stats: {
       hp: 130,
       attack: 85,
       defense: 80,
       spAttack: 85,
       spDefense: 95,
-      speed: 60
+      speed: 60,
     },
     height: "24.0",
     weight: "220.0",
-    abilities: [
-      "WATERABSORB",
-      "SHELLARMOR"
-    ],
-    hiddenAbilities: [
-      "HYDRATION"
-    ],
+    abilities: ["WATERABSORB", "SHELLARMOR"],
+    hiddenAbilities: ["HYDRATION"],
     category: "Transport",
     moves: [
       "GROWL",
@@ -53157,7 +49248,7 @@ export const pokemonForms: PokemonForm[] =
       "RAINDANCE",
       "HYDROPUMP",
       "PERISHSONG",
-      "SHEERCOLD"
+      "SHEERCOLD",
     ],
     tutorMoves: [
       "ALLURINGVOICE",
@@ -53242,7 +49333,7 @@ export const pokemonForms: PokemonForm[] =
       "WATERPULSE",
       "WEATHERBALL",
       "WHIRLPOOL",
-      "ZENHEADBUTT"
+      "ZENHEADBUTT",
     ],
     eggMoves: [
       "ANCIENTPOWER",
@@ -53254,44 +49345,36 @@ export const pokemonForms: PokemonForm[] =
       "HORNDRILL",
       "SPARKLINGARIA",
       "TICKLE",
-      "WHIRLPOOL"
+      "WHIRLPOOL",
     ],
     suffix: "normal",
-    evolution: [
-
-    ],
+    evolution: [],
     color: "Blue",
     formNumber: 1,
     formName: "Gigantamax",
     baseId: "LAPRAS",
-    megaStone: null
+    megaStone: null,
   },
   {
     id: "EEVEE",
     name: "Eevee",
-    types: [
-      "NORMAL"
-    ],
+    types: ["NORMAL"],
     sprite: "/Front/EEVEE_2.png",
     backSprite: "/spritesBack/EEVEE_2.png",
-    description: "Gigantamax energy upped the fluffiness of the fur around Eevee's neck. The fur will envelop a foe, capturing its body and captivating its mind.",
+    description:
+      "Gigantamax energy upped the fluffiness of the fur around Eevee's neck. The fur will envelop a foe, capturing its body and captivating its mind.",
     stats: {
       hp: 55,
       attack: 55,
       defense: 50,
       spAttack: 45,
       spDefense: 65,
-      speed: 55
+      speed: 55,
     },
     height: "18.0",
     weight: "6.5",
-    abilities: [
-      "RUNAWAY",
-      "ADAPTABILITY"
-    ],
-    hiddenAbilities: [
-      "ANTICIPATION"
-    ],
+    abilities: ["RUNAWAY", "ADAPTABILITY"],
+    hiddenAbilities: ["ANTICIPATION"],
     category: "Evolution",
     moves: [
       "COVET",
@@ -53309,7 +49392,7 @@ export const pokemonForms: PokemonForm[] =
       "TAKEDOWN",
       "CHARM",
       "DOUBLEEDGE",
-      "LASTRESORT"
+      "LASTRESORT",
     ],
     tutorMoves: [
       "ALLURINGVOICE",
@@ -53363,7 +49446,7 @@ export const pokemonForms: PokemonForm[] =
       "TERABLAST",
       "TRAILBLAZE",
       "WEATHERBALL",
-      "WORKUP"
+      "WORKUP",
     ],
     eggMoves: [
       "CHARM",
@@ -53377,48 +49460,42 @@ export const pokemonForms: PokemonForm[] =
       "STOREDPOWER",
       "TICKLE",
       "WISH",
-      "YAWN"
+      "YAWN",
     ],
     suffix: "normal",
     evolution: [
       {
         to: "SYLVEON",
         method: "HappinessMoveType",
-        value: "FAIRY"
-      }
+        value: "FAIRY",
+      },
     ],
     color: "Brown",
     formNumber: 2,
     formName: "Gigantamax",
     baseId: "EEVEE",
-    megaStone: null
+    megaStone: null,
   },
   {
     id: "SNORLAX",
     name: "Snorlax",
-    types: [
-      "NORMAL"
-    ],
+    types: ["NORMAL"],
     sprite: "/Front/SNORLAX_1.png",
     backSprite: "/spritesBack/SNORLAX_1.png",
-    description: "Gigantamax energy has affected stray seeds and even pebbles that got stuck to Snorlax, making them grow to a huge size.",
+    description:
+      "Gigantamax energy has affected stray seeds and even pebbles that got stuck to Snorlax, making them grow to a huge size.",
     stats: {
       hp: 160,
       attack: 110,
       defense: 65,
       spAttack: 65,
       spDefense: 110,
-      speed: 30
+      speed: 30,
     },
     height: "35.0",
     weight: "460.0",
-    abilities: [
-      "IMMUNITY",
-      "THICKFAT"
-    ],
-    hiddenAbilities: [
-      "GLUTTONY"
-    ],
+    abilities: ["IMMUNITY", "THICKFAT"],
+    hiddenAbilities: ["GLUTTONY"],
     category: "Sleeping",
     moves: [
       "RECYCLE",
@@ -53447,7 +49524,7 @@ export const pokemonForms: PokemonForm[] =
       "HAMMERARM",
       "BELLYDRUM",
       "BELCH",
-      "GIGAIMPACT"
+      "GIGAIMPACT",
     ],
     tutorMoves: [
       "AFTERYOU",
@@ -53554,7 +49631,7 @@ export const pokemonForms: PokemonForm[] =
       "UPROAR",
       "WILDCHARGE",
       "WORKUP",
-      "ZENHEADBUTT"
+      "ZENHEADBUTT",
     ],
     eggMoves: [
       "AFTERYOU",
@@ -53569,44 +49646,36 @@ export const pokemonForms: PokemonForm[] =
       "POWERUPPUNCH",
       "SELFDESTRUCT",
       "WHIRLWIND",
-      "ZENHEADBUTT"
+      "ZENHEADBUTT",
     ],
     suffix: "normal",
-    evolution: [
-
-    ],
+    evolution: [],
     color: "Black",
     formNumber: 1,
     formName: "Gigantamax",
     baseId: "SNORLAX",
-    megaStone: null
+    megaStone: null,
   },
   {
     id: "GARBODOR",
     name: "Garbodor",
-    types: [
-      "POISON"
-    ],
+    types: ["POISON"],
     sprite: "/Front/GARBODOR_1.png",
     backSprite: "/spritesBack/GARBODOR_1.png",
-    description: "Due to Gigantamax energy, this Pokémon's toxic gas has become much thicker, congealing into masses shaped like discarded toys.",
+    description:
+      "Due to Gigantamax energy, this Pokémon's toxic gas has become much thicker, congealing into masses shaped like discarded toys.",
     stats: {
       hp: 80,
       attack: 95,
       defense: 82,
       spAttack: 60,
       spDefense: 82,
-      speed: 75
+      speed: 75,
     },
     height: "21.0",
     weight: "107.3",
-    abilities: [
-      "STENCH",
-      "WEAKARMOR"
-    ],
-    hiddenAbilities: [
-      "AFTERMATH"
-    ],
+    abilities: ["STENCH", "WEAKARMOR"],
+    hiddenAbilities: ["AFTERMATH"],
     category: "Trash Heap",
     moves: [
       "TAKEDOWN",
@@ -53627,7 +49696,7 @@ export const pokemonForms: PokemonForm[] =
       "BELCH",
       "PAINSPLIT",
       "GUNKSHOT",
-      "EXPLOSION"
+      "EXPLOSION",
     ],
     tutorMoves: [
       "AMNESIA",
@@ -53687,46 +49756,37 @@ export const pokemonForms: PokemonForm[] =
       "TOXIC",
       "TOXICSPIKES",
       "VENOMDRENCH",
-      "VENOSHOCK"
+      "VENOSHOCK",
     ],
-    eggMoves: [
-
-    ],
+    eggMoves: [],
     suffix: "normal",
-    evolution: [
-
-    ],
+    evolution: [],
     color: "Green",
     formNumber: 1,
     formName: "Gigantamax",
     baseId: "GARBODOR",
-    megaStone: null
+    megaStone: null,
   },
   {
     id: "MELMETAL",
     name: "Melmetal",
-    types: [
-      "STEEL"
-    ],
+    types: ["STEEL"],
     sprite: "/Front/MELMETAL_1.png",
     backSprite: "/spritesBack/MELMETAL_1.png",
-    description: "In a distant land, there are legends about a cyclopean giant. In fact, the giant was a Melmetal that was flooded with Gigantamax energy.",
+    description:
+      "In a distant land, there are legends about a cyclopean giant. In fact, the giant was a Melmetal that was flooded with Gigantamax energy.",
     stats: {
       hp: 135,
       attack: 143,
       defense: 143,
       spAttack: 80,
       spDefense: 65,
-      speed: 34
+      speed: 34,
     },
     height: "25.0",
     weight: "800.0",
-    abilities: [
-      "IRONFIST"
-    ],
-    hiddenAbilities: [
-
-    ],
+    abilities: ["IRONFIST"],
+    hiddenAbilities: [],
     category: "Hex Nut",
     moves: [
       "THUNDERPUNCH",
@@ -53743,7 +49803,7 @@ export const pokemonForms: PokemonForm[] =
       "DYNAMICPUNCH",
       "SUPERPOWER",
       "DOUBLEIRONBASH",
-      "HYPERBEAM"
+      "HYPERBEAM",
     ],
     tutorMoves: [
       "BODYPRESS",
@@ -53794,46 +49854,37 @@ export const pokemonForms: PokemonForm[] =
       "THUNDERBOLT",
       "THUNDERPUNCH",
       "THUNDERWAVE",
-      "TOXIC"
+      "TOXIC",
     ],
-    eggMoves: [
-
-    ],
+    eggMoves: [],
     suffix: "normal",
-    evolution: [
-
-    ],
+    evolution: [],
     color: "Gray",
     formNumber: 1,
     formName: "Gigantamax",
     baseId: "MELMETAL",
-    megaStone: null
+    megaStone: null,
   },
   {
     id: "RILLABOOM",
     name: "Rillaboom",
-    types: [
-      "GRASS"
-    ],
+    types: ["GRASS"],
     sprite: "/Front/RILLABOOM_1.png",
     backSprite: "/spritesBack/RILLABOOM_1.png",
-    description: "Gigantamax energy has caused Rillaboom's stump to grow into a drum set that resembles a forest.",
+    description:
+      "Gigantamax energy has caused Rillaboom's stump to grow into a drum set that resembles a forest.",
     stats: {
       hp: 100,
       attack: 125,
       defense: 90,
       spAttack: 60,
       spDefense: 70,
-      speed: 85
+      speed: 85,
     },
     height: "28.0",
     weight: "90.0",
-    abilities: [
-      "OVERGROW"
-    ],
-    hiddenAbilities: [
-      "GRASSYSURGE"
-    ],
+    abilities: ["OVERGROW"],
+    hiddenAbilities: ["GRASSYSURGE"],
     category: "Drummer",
     moves: [
       "DRUMBEATING",
@@ -53851,7 +49902,7 @@ export const pokemonForms: PokemonForm[] =
       "UPROAR",
       "WOODHAMMER",
       "ENDEAVOR",
-      "BOOMBURST"
+      "BOOMBURST",
     ],
     tutorMoves: [
       "ACROBATICS",
@@ -53930,46 +49981,37 @@ export const pokemonForms: PokemonForm[] =
       "TRAILBLAZE",
       "UPROAR",
       "UTURN",
-      "WORKUP"
+      "WORKUP",
     ],
-    eggMoves: [
-
-    ],
+    eggMoves: [],
     suffix: "normal",
-    evolution: [
-
-    ],
+    evolution: [],
     color: "Green",
     formNumber: 1,
     formName: "Gigantamax",
     baseId: "RILLABOOM",
-    megaStone: null
+    megaStone: null,
   },
   {
     id: "CINDERACE",
     name: "Cinderace",
-    types: [
-      "FIRE"
-    ],
+    types: ["FIRE"],
     sprite: "/Front/CINDERACE_1.png",
     backSprite: "/spritesBack/CINDERACE_1.png",
-    description: "Gigantamax energy can sometimes cause the diameter of this Pokémon's fireball to exceed 300 feet.",
+    description:
+      "Gigantamax energy can sometimes cause the diameter of this Pokémon's fireball to exceed 300 feet.",
     stats: {
       hp: 80,
       attack: 116,
       defense: 75,
       spAttack: 65,
       spDefense: 75,
-      speed: 119
+      speed: 119,
     },
     height: "27.0",
     weight: "33.0",
-    abilities: [
-      "BLAZE"
-    ],
-    hiddenAbilities: [
-      "LIBERO"
-    ],
+    abilities: ["BLAZE"],
+    hiddenAbilities: ["LIBERO"],
     category: "Striker",
     moves: [
       "PYROBALL",
@@ -53985,7 +50027,7 @@ export const pokemonForms: PokemonForm[] =
       "COUNTER",
       "BOUNCE",
       "DOUBLEEDGE",
-      "COURTCHANGE"
+      "COURTCHANGE",
     ],
     tutorMoves: [
       "ACROBATICS",
@@ -54062,46 +50104,37 @@ export const pokemonForms: PokemonForm[] =
       "WEATHERBALL",
       "WILLOWISP",
       "WORKUP",
-      "ZENHEADBUTT"
+      "ZENHEADBUTT",
     ],
-    eggMoves: [
-
-    ],
+    eggMoves: [],
     suffix: "normal",
-    evolution: [
-
-    ],
+    evolution: [],
     color: "White",
     formNumber: 1,
     formName: "Gigantamax",
     baseId: "CINDERACE",
-    megaStone: null
+    megaStone: null,
   },
   {
     id: "INTELEON",
     name: "Inteleon",
-    types: [
-      "WATER"
-    ],
+    types: ["WATER"],
     sprite: "/Front/INTELEON_1.png",
     backSprite: "/spritesBack/INTELEON_1.png",
-    description: "Gigantamax Inteleon's Water Gun move fires at Mach 7. As the Pokémon takes aim, it uses the crest on its head to gauge wind and temperature.",
+    description:
+      "Gigantamax Inteleon's Water Gun move fires at Mach 7. As the Pokémon takes aim, it uses the crest on its head to gauge wind and temperature.",
     stats: {
       hp: 70,
       attack: 85,
       defense: 65,
       spAttack: 125,
       spDefense: 65,
-      speed: 120
+      speed: 120,
     },
     height: "40.0",
     weight: "45.2",
-    abilities: [
-      "TORRENT"
-    ],
-    hiddenAbilities: [
-      "SNIPER"
-    ],
+    abilities: ["TORRENT"],
+    hiddenAbilities: ["SNIPER"],
     category: "Secret Agent",
     moves: [
       "SNIPESHOT",
@@ -54117,7 +50150,7 @@ export const pokemonForms: PokemonForm[] =
       "LIQUIDATION",
       "SOAK",
       "RAINDANCE",
-      "HYDROPUMP"
+      "HYDROPUMP",
     ],
     tutorMoves: [
       "ACROBATICS",
@@ -54189,48 +50222,37 @@ export const pokemonForms: PokemonForm[] =
       "WATERPULSE",
       "WEATHERBALL",
       "WHIRLPOOL",
-      "WORKUP"
+      "WORKUP",
     ],
-    eggMoves: [
-
-    ],
+    eggMoves: [],
     suffix: "normal",
-    evolution: [
-
-    ],
+    evolution: [],
     color: "Blue",
     formNumber: 1,
     formName: "Gigantamax",
     baseId: "INTELEON",
-    megaStone: null
+    megaStone: null,
   },
   {
     id: "CORVIKNIGHT",
     name: "Corviknight",
-    types: [
-      "FLYING",
-      "STEEL"
-    ],
+    types: ["FLYING", "STEEL"],
     sprite: "/Front/CORVIKNIGHT_1.png",
     backSprite: "/spritesBack/CORVIKNIGHT_1.png",
-    description: "Imbued with Gigantamax energy, its wings can whip up winds more forceful than any a hurricane could muster. The gusts blow everything away.",
+    description:
+      "Imbued with Gigantamax energy, its wings can whip up winds more forceful than any a hurricane could muster. The gusts blow everything away.",
     stats: {
       hp: 98,
       attack: 87,
       defense: 105,
       spAttack: 53,
       spDefense: 85,
-      speed: 67
+      speed: 67,
     },
     height: "14.0",
     weight: "75.0",
-    abilities: [
-      "PRESSURE",
-      "UNNERVE"
-    ],
-    hiddenAbilities: [
-      "MIRRORARMOR"
-    ],
+    abilities: ["PRESSURE", "UNNERVE"],
+    hiddenAbilities: ["MIRRORARMOR"],
     category: "Raven",
     moves: [
       "STEELWING",
@@ -54247,7 +50269,7 @@ export const pokemonForms: PokemonForm[] =
       "SCARYFACE",
       "DRILLPECK",
       "SWAGGER",
-      "BRAVEBIRD"
+      "BRAVEBIRD",
     ],
     tutorMoves: [
       "AERIALACE",
@@ -54314,48 +50336,37 @@ export const pokemonForms: PokemonForm[] =
       "TERABLAST",
       "THIEF",
       "UTURN",
-      "WORKUP"
+      "WORKUP",
     ],
-    eggMoves: [
-
-    ],
+    eggMoves: [],
     suffix: "normal",
-    evolution: [
-
-    ],
+    evolution: [],
     color: "Purple",
     formNumber: 1,
     formName: "Gigantamax",
     baseId: "CORVIKNIGHT",
-    megaStone: null
+    megaStone: null,
   },
   {
     id: "ORBEETLE",
     name: "Orbeetle",
-    types: [
-      "BUG",
-      "PSYCHIC"
-    ],
+    types: ["BUG", "PSYCHIC"],
     sprite: "/Front/ORBEETLE_1.png",
     backSprite: "/spritesBack/ORBEETLE_1.png",
-    description: "Its brain has grown to a gargantuan size, as has the rest of its body. This Pokémon's intellect and psychic abilities are overpowering.",
+    description:
+      "Its brain has grown to a gargantuan size, as has the rest of its body. This Pokémon's intellect and psychic abilities are overpowering.",
     stats: {
       hp: 60,
       attack: 45,
       defense: 110,
       spAttack: 80,
       spDefense: 120,
-      speed: 90
+      speed: 90,
     },
     height: "14.0",
     weight: "40.8",
-    abilities: [
-      "SWARM",
-      "FRISK"
-    ],
-    hiddenAbilities: [
-      "TELEPATHY"
-    ],
+    abilities: ["SWARM", "FRISK"],
+    hiddenAbilities: ["TELEPATHY"],
     category: "Seven Spot",
     moves: [
       "REFLECT",
@@ -54373,7 +50384,7 @@ export const pokemonForms: PokemonForm[] =
       "PSYCHIC",
       "AFTERYOU",
       "CALMMIND",
-      "PSYCHICTERRAIN"
+      "PSYCHICTERRAIN",
     ],
     tutorMoves: [
       "AGILITY",
@@ -54431,48 +50442,37 @@ export const pokemonForms: PokemonForm[] =
       "TRICKROOM",
       "UTURN",
       "WONDERROOM",
-      "ZENHEADBUTT"
+      "ZENHEADBUTT",
     ],
-    eggMoves: [
-
-    ],
+    eggMoves: [],
     suffix: "normal",
-    evolution: [
-
-    ],
+    evolution: [],
     color: "Red",
     formNumber: 1,
     formName: "Gigantamax",
     baseId: "ORBEETLE",
-    megaStone: null
+    megaStone: null,
   },
   {
     id: "DREDNAW",
     name: "Drednaw",
-    types: [
-      "WATER",
-      "ROCK"
-    ],
+    types: ["WATER", "ROCK"],
     sprite: "/Front/DREDNAW_1.png",
     backSprite: "/spritesBack/DREDNAW_1.png",
-    description: "It responded to Gigantamax energy by becoming bipedal. First it comes crashing down on foes, and then it finishes them off with its massive jaws.",
+    description:
+      "It responded to Gigantamax energy by becoming bipedal. First it comes crashing down on foes, and then it finishes them off with its massive jaws.",
     stats: {
       hp: 90,
       attack: 115,
       defense: 90,
       spAttack: 48,
       spDefense: 68,
-      speed: 74
+      speed: 74,
     },
     height: "24.0",
     weight: "115.5",
-    abilities: [
-      "STRONGJAW",
-      "SHELLARMOR"
-    ],
-    hiddenAbilities: [
-      "SWIFTSWIM"
-    ],
+    abilities: ["STRONGJAW", "SHELLARMOR"],
+    hiddenAbilities: ["SWIFTSWIM"],
     category: "Bite",
     moves: [
       "ROCKTOMB",
@@ -54488,7 +50488,7 @@ export const pokemonForms: PokemonForm[] =
       "JAWLOCK",
       "LIQUIDATION",
       "BODYSLAM",
-      "HEADSMASH"
+      "HEADSMASH",
     ],
     tutorMoves: [
       "ASSURANCE",
@@ -54563,48 +50563,37 @@ export const pokemonForms: PokemonForm[] =
       "THROATCHOP",
       "WATERFALL",
       "WATERPULSE",
-      "WHIRLPOOL"
+      "WHIRLPOOL",
     ],
-    eggMoves: [
-
-    ],
+    eggMoves: [],
     suffix: "normal",
-    evolution: [
-
-    ],
+    evolution: [],
     color: "Green",
     formNumber: 1,
     formName: "Gigantamax",
     baseId: "DREDNAW",
-    megaStone: null
+    megaStone: null,
   },
   {
     id: "COALOSSAL",
     name: "Coalossal",
-    types: [
-      "ROCK",
-      "FIRE"
-    ],
+    types: ["ROCK", "FIRE"],
     sprite: "/Front/COALOSSAL_1.png",
     backSprite: "/spritesBack/COALOSSAL_1.png",
-    description: "Its body is a colossal stove. With Gigantamax energy stoking the fire, this Pokémon's flame burns hotter than 3,600 degrees Fahrenheit.",
+    description:
+      "Its body is a colossal stove. With Gigantamax energy stoking the fire, this Pokémon's flame burns hotter than 3,600 degrees Fahrenheit.",
     stats: {
       hp: 110,
       attack: 80,
       defense: 120,
       spAttack: 80,
       spDefense: 90,
-      speed: 30
+      speed: 30,
     },
     height: "42.0",
     weight: "310.5",
-    abilities: [
-      "STEAMENGINE",
-      "FLAMEBODY"
-    ],
-    hiddenAbilities: [
-      "FLASHFIRE"
-    ],
+    abilities: ["STEAMENGINE", "FLAMEBODY"],
+    hiddenAbilities: ["FLASHFIRE"],
     category: "Coal",
     moves: [
       "TARSHOT",
@@ -54619,7 +50608,7 @@ export const pokemonForms: PokemonForm[] =
       "STEALTHROCK",
       "HEATCRASH",
       "ROCKBLAST",
-      "STONEEDGE"
+      "STONEEDGE",
     ],
     tutorMoves: [
       "ATTRACT",
@@ -54687,48 +50676,37 @@ export const pokemonForms: PokemonForm[] =
       "TAKEDOWN",
       "TEMPERFLARE",
       "TERABLAST",
-      "WILLOWISP"
+      "WILLOWISP",
     ],
-    eggMoves: [
-
-    ],
+    eggMoves: [],
     suffix: "normal",
-    evolution: [
-
-    ],
+    evolution: [],
     color: "Black",
     formNumber: 1,
     formName: "Gigantamax",
     baseId: "COALOSSAL",
-    megaStone: null
+    megaStone: null,
   },
   {
     id: "FLAPPLE",
     name: "Flapple",
-    types: [
-      "GRASS",
-      "DRAGON"
-    ],
+    types: ["GRASS", "DRAGON"],
     sprite: "/Front/FLAPPLE_1.png",
     backSprite: "/spritesBack/FLAPPLE_1.png",
-    description: "Under the influence of Gigantamax energy, it produces much more sweet nectar, and its shape has changed to resemble a giant apple.",
+    description:
+      "Under the influence of Gigantamax energy, it produces much more sweet nectar, and its shape has changed to resemble a giant apple.",
     stats: {
       hp: 70,
       attack: 110,
       defense: 80,
       spAttack: 95,
       spDefense: 60,
-      speed: 70
+      speed: 70,
     },
     height: "24.0",
     weight: "1.0",
-    abilities: [
-      "RIPEN",
-      "GLUTTONY"
-    ],
-    hiddenAbilities: [
-      "HUSTLE"
-    ],
+    abilities: ["RIPEN", "GLUTTONY"],
+    hiddenAbilities: ["HUSTLE"],
     category: "Apple Wing",
     moves: [
       "WINGATTACK",
@@ -54747,7 +50725,7 @@ export const pokemonForms: PokemonForm[] =
       "GRAVAPPLE",
       "IRONDEFENSE",
       "FLY",
-      "DRAGONRUSH"
+      "DRAGONRUSH",
     ],
     tutorMoves: [
       "ACIDSPRAY",
@@ -54801,48 +50779,37 @@ export const pokemonForms: PokemonForm[] =
       "TAKEDOWN",
       "TERABLAST",
       "TRAILBLAZE",
-      "UTURN"
+      "UTURN",
     ],
-    eggMoves: [
-
-    ],
+    eggMoves: [],
     suffix: "normal",
-    evolution: [
-
-    ],
+    evolution: [],
     color: "Green",
     formNumber: 1,
     formName: "Gigantamax",
     baseId: "FLAPPLE",
-    megaStone: null
+    megaStone: null,
   },
   {
     id: "APPLETUN",
     name: "Appletun",
-    types: [
-      "GRASS",
-      "DRAGON"
-    ],
+    types: ["GRASS", "DRAGON"],
     sprite: "/Front/APPLETUN_1.png",
     backSprite: "/spritesBack/APPLETUN_1.png",
-    description: "Due to Gigantamax energy, this Pokémon's nectar has thickened. The increased viscosity lets the nectar absorb more damage than before.",
+    description:
+      "Due to Gigantamax energy, this Pokémon's nectar has thickened. The increased viscosity lets the nectar absorb more damage than before.",
     stats: {
       hp: 110,
       attack: 85,
       defense: 80,
       spAttack: 100,
       spDefense: 80,
-      speed: 30
+      speed: 30,
     },
     height: "24.0",
     weight: "13.0",
-    abilities: [
-      "RIPEN",
-      "GLUTTONY"
-    ],
-    hiddenAbilities: [
-      "THICKFAT"
-    ],
+    abilities: ["RIPEN", "GLUTTONY"],
+    hiddenAbilities: ["THICKFAT"],
     category: "Apple Nectar",
     moves: [
       "HEADBUTT",
@@ -54861,7 +50828,7 @@ export const pokemonForms: PokemonForm[] =
       "BODYSLAM",
       "IRONDEFENSE",
       "DRAGONPULSE",
-      "ENERGYBALL"
+      "ENERGYBALL",
     ],
     tutorMoves: [
       "AMNESIA",
@@ -54923,47 +50890,37 @@ export const pokemonForms: PokemonForm[] =
       "TAKEDOWN",
       "TERABLAST",
       "TRAILBLAZE",
-      "ZENHEADBUTT"
+      "ZENHEADBUTT",
     ],
-    eggMoves: [
-
-    ],
+    eggMoves: [],
     suffix: "normal",
-    evolution: [
-
-    ],
+    evolution: [],
     color: "Green",
     formNumber: 1,
     formName: "Gigantamax",
     baseId: "APPLETUN",
-    megaStone: null
+    megaStone: null,
   },
   {
     id: "SANDACONDA",
     name: "Sandaconda",
-    types: [
-      "GROUND"
-    ],
+    types: ["GROUND"],
     sprite: "/Front/SANDACONDA_1.png",
     backSprite: "/spritesBack/SANDACONDA_1.png",
-    description: "Sand swirls around its body with such speed and power that it could pulverize a skyscraper.",
+    description:
+      "Sand swirls around its body with such speed and power that it could pulverize a skyscraper.",
     stats: {
       hp: 72,
       attack: 107,
       defense: 125,
       spAttack: 65,
       spDefense: 70,
-      speed: 71
+      speed: 71,
     },
     height: "22.0",
     weight: "65.5",
-    abilities: [
-      "SANDSPIT",
-      "SHEDSKIN"
-    ],
-    hiddenAbilities: [
-      "SANDVEIL"
-    ],
+    abilities: ["SANDSPIT", "SHEDSKIN"],
+    hiddenAbilities: ["SANDVEIL"],
     category: "Sand Snake",
     moves: [
       "WRAP",
@@ -54977,7 +50934,7 @@ export const pokemonForms: PokemonForm[] =
       "SANDSTORM",
       "SLAM",
       "COIL",
-      "SANDTOMB"
+      "SANDTOMB",
     ],
     tutorMoves: [
       "ATTRACT",
@@ -55034,48 +50991,37 @@ export const pokemonForms: PokemonForm[] =
       "TAKEDOWN",
       "TERABLAST",
       "THUNDERFANG",
-      "ZENHEADBUTT"
+      "ZENHEADBUTT",
     ],
-    eggMoves: [
-
-    ],
+    eggMoves: [],
     suffix: "normal",
-    evolution: [
-
-    ],
+    evolution: [],
     color: "Green",
     formNumber: 1,
     formName: "Gigantamax",
     baseId: "SANDACONDA",
-    megaStone: null
+    megaStone: null,
   },
   {
     id: "TOXTRICITY",
     name: "Toxtricity",
-    types: [
-      "ELECTRIC",
-      "POISON"
-    ],
+    types: ["ELECTRIC", "POISON"],
     sprite: "/Front/TOXTRICITY_2.png",
     backSprite: "/spritesBack/TOXTRICITY_2.png",
-    description: "Out of control after its own poison penetrated its brain, it tears across the land in a rampage, contaminating the earth with toxic sweat.",
+    description:
+      "Out of control after its own poison penetrated its brain, it tears across the land in a rampage, contaminating the earth with toxic sweat.",
     stats: {
       hp: 75,
       attack: 98,
       defense: 70,
       spAttack: 114,
       spDefense: 70,
-      speed: 75
+      speed: 75,
     },
     height: "24.0",
     weight: "40.0",
-    abilities: [
-      "PUNKROCK",
-      "PLUS"
-    ],
-    hiddenAbilities: [
-      "TECHNICIAN"
-    ],
+    abilities: ["PUNKROCK", "PLUS"],
+    hiddenAbilities: ["TECHNICIAN"],
     category: "Punk",
     moves: [
       "SPARK",
@@ -55100,7 +51046,7 @@ export const pokemonForms: PokemonForm[] =
       "POISONJAB",
       "OVERDRIVE",
       "BOOMBURST",
-      "SHIFTGEAR"
+      "SHIFTGEAR",
     ],
     tutorMoves: [
       "ACIDSPRAY",
@@ -55176,48 +51122,37 @@ export const pokemonForms: PokemonForm[] =
       "UPROAR",
       "VENOSHOCK",
       "VOLTSWITCH",
-      "WILDCHARGE"
+      "WILDCHARGE",
     ],
-    eggMoves: [
-
-    ],
+    eggMoves: [],
     suffix: "normal",
-    evolution: [
-
-    ],
+    evolution: [],
     color: "Purple",
     formNumber: 2,
     formName: "Gigantamax",
     baseId: "TOXTRICITY",
-    megaStone: null
+    megaStone: null,
   },
   {
     id: "TOXTRICITY",
     name: "Toxtricity",
-    types: [
-      "ELECTRIC",
-      "POISON"
-    ],
+    types: ["ELECTRIC", "POISON"],
     sprite: "/Front/TOXTRICITY_3.png",
     backSprite: "/spritesBack/TOXTRICITY_3.png",
-    description: "When this Pokémon sounds as if it's strumming a guitar, it's actually clawing at the protrusions on its chest to generate electricity.",
+    description:
+      "When this Pokémon sounds as if it's strumming a guitar, it's actually clawing at the protrusions on its chest to generate electricity.",
     stats: {
       hp: 75,
       attack: 98,
       defense: 70,
       spAttack: 114,
       spDefense: 70,
-      speed: 75
+      speed: 75,
     },
     height: "1.6",
     weight: "40.0",
-    abilities: [
-      "PUNKROCK",
-      "MINUS"
-    ],
-    hiddenAbilities: [
-      "TECHNICIAN"
-    ],
+    abilities: ["PUNKROCK", "MINUS"],
+    hiddenAbilities: ["TECHNICIAN"],
     category: "Punk",
     moves: [
       "SPARK",
@@ -55242,7 +51177,7 @@ export const pokemonForms: PokemonForm[] =
       "POISONJAB",
       "OVERDRIVE",
       "BOOMBURST",
-      "MAGNETICFLUX"
+      "MAGNETICFLUX",
     ],
     tutorMoves: [
       "ACIDSPRAY",
@@ -55318,48 +51253,37 @@ export const pokemonForms: PokemonForm[] =
       "UPROAR",
       "VENOSHOCK",
       "VOLTSWITCH",
-      "WILDCHARGE"
+      "WILDCHARGE",
     ],
-    eggMoves: [
-
-    ],
+    eggMoves: [],
     suffix: "normal",
-    evolution: [
-
-    ],
+    evolution: [],
     color: "Purple",
     formNumber: 3,
     formName: "",
     baseId: "TOXTRICITY",
-    megaStone: null
+    megaStone: null,
   },
   {
     id: "CENTISKORCH",
     name: "Centiskorch",
-    types: [
-      "FIRE",
-      "BUG"
-    ],
+    types: ["FIRE", "BUG"],
     sprite: "/Front/CENTISKORCH_1.png",
     backSprite: "/spritesBack/CENTISKORCH_1.png",
-    description: "The heat that comes off a Gigantamax Centiskorch may destabilize air currents. Sometimes it can even cause storms.",
+    description:
+      "The heat that comes off a Gigantamax Centiskorch may destabilize air currents. Sometimes it can even cause storms.",
     stats: {
       hp: 100,
       attack: 115,
       defense: 65,
       spAttack: 90,
       spDefense: 90,
-      speed: 65
+      speed: 65,
     },
     height: "75.0",
     weight: "120.0",
-    abilities: [
-      "FLASHFIRE",
-      "WHITESMOKE"
-    ],
-    hiddenAbilities: [
-      "FLAMEBODY"
-    ],
+    abilities: ["FLASHFIRE", "WHITESMOKE"],
+    hiddenAbilities: ["FLAMEBODY"],
     category: "Radiator",
     moves: [
       "INFERNO",
@@ -55375,7 +51299,7 @@ export const pokemonForms: PokemonForm[] =
       "CRUNCH",
       "FIRELASH",
       "LUNGE",
-      "BURNUP"
+      "BURNUP",
     ],
     tutorMoves: [
       "ATTRACT",
@@ -55422,48 +51346,37 @@ export const pokemonForms: PokemonForm[] =
       "TOXIC",
       "VENOSHOCK",
       "WILLOWISP",
-      "XSCISSOR"
+      "XSCISSOR",
     ],
-    eggMoves: [
-
-    ],
+    eggMoves: [],
     suffix: "normal",
-    evolution: [
-
-    ],
+    evolution: [],
     color: "Red",
     formNumber: 1,
     formName: "Gigantamax",
     baseId: "CENTISKORCH",
-    megaStone: null
+    megaStone: null,
   },
   {
     id: "HATTERENE",
     name: "Hatterene",
-    types: [
-      "PSYCHIC",
-      "FAIRY"
-    ],
+    types: ["PSYCHIC", "FAIRY"],
     sprite: "/Front/HATTERENE_1.png",
     backSprite: "/spritesBack/HATTERENE_1.png",
-    description: "Beams like lightning shoot down from its tentacles. It's known to some as the Raging Goddess.",
+    description:
+      "Beams like lightning shoot down from its tentacles. It's known to some as the Raging Goddess.",
     stats: {
       hp: 57,
       attack: 90,
       defense: 95,
       spAttack: 136,
       spDefense: 103,
-      speed: 29
+      speed: 29,
     },
     height: "26.0",
     weight: "5.1",
-    abilities: [
-      "HEALER",
-      "ANTICIPATION"
-    ],
-    hiddenAbilities: [
-      "MAGICBOUNCE"
-    ],
+    abilities: ["HEALER", "ANTICIPATION"],
+    hiddenAbilities: ["MAGICBOUNCE"],
     category: "Silent",
     moves: [
       "PSYCHOCUT",
@@ -55479,7 +51392,7 @@ export const pokemonForms: PokemonForm[] =
       "CALMMIND",
       "PSYCHIC",
       "HEALINGWISH",
-      "MAGICPOWDER"
+      "MAGICPOWDER",
     ],
     tutorMoves: [
       "AGILITY",
@@ -55549,48 +51462,37 @@ export const pokemonForms: PokemonForm[] =
       "THUNDERWAVE",
       "TRICK",
       "TRICKROOM",
-      "WONDERROOM"
+      "WONDERROOM",
     ],
-    eggMoves: [
-
-    ],
+    eggMoves: [],
     suffix: "normal",
-    evolution: [
-
-    ],
+    evolution: [],
     color: "Pink",
     formNumber: 1,
     formName: "Gigantamax",
     baseId: "HATTERENE",
-    megaStone: null
+    megaStone: null,
   },
   {
     id: "GRIMMSNARL",
     name: "Grimmsnarl",
-    types: [
-      "DARK",
-      "FAIRY"
-    ],
+    types: ["DARK", "FAIRY"],
     sprite: "/Front/GRIMMSNARL_1.png",
     backSprite: "/spritesBack/GRIMMSNARL_1.png",
-    description: "Gigantamax energy has caused more hair to sprout all over its body. With the added strength, it can jump over the world's tallest building.",
+    description:
+      "Gigantamax energy has caused more hair to sprout all over its body. With the added strength, it can jump over the world's tallest building.",
     stats: {
       hp: 95,
       attack: 120,
       defense: 65,
       spAttack: 95,
       spDefense: 75,
-      speed: 60
+      speed: 60,
     },
     height: "32.0",
     weight: "61.0",
-    abilities: [
-      "PRANKSTER",
-      "FRISK"
-    ],
-    hiddenAbilities: [
-      "PICKPOCKET"
-    ],
+    abilities: ["PRANKSTER", "FRISK"],
+    hiddenAbilities: ["PICKPOCKET"],
     category: "Bulk Up",
     moves: [
       "SPIRITBREAK",
@@ -55609,7 +51511,7 @@ export const pokemonForms: PokemonForm[] =
       "NASTYPLOT",
       "PLAYROUGH",
       "FOULPLAY",
-      "HAMMERARM"
+      "HAMMERARM",
     ],
     tutorMoves: [
       "ASSURANCE",
@@ -55684,46 +51586,37 @@ export const pokemonForms: PokemonForm[] =
       "THUNDERWAVE",
       "TRAILBLAZE",
       "TRICK",
-      "WONDERROOM"
+      "WONDERROOM",
     ],
-    eggMoves: [
-
-    ],
+    eggMoves: [],
     suffix: "normal",
-    evolution: [
-
-    ],
+    evolution: [],
     color: "Purple",
     formNumber: 1,
     formName: "Gigantamax",
     baseId: "GRIMMSNARL",
-    megaStone: null
+    megaStone: null,
   },
   {
     id: "ALCREMIE",
     name: "Alcremie",
-    types: [
-      "FAIRY"
-    ],
+    types: ["FAIRY"],
     sprite: "/Front/ALCREMIE_63.png",
     backSprite: "/spritesBack/ALCREMIE_63.png",
-    description: "It launches swarms of missiles, each made of cream and loaded with 100,000 kilocalories. Get hit by one of these, and your head will swim.",
+    description:
+      "It launches swarms of missiles, each made of cream and loaded with 100,000 kilocalories. Get hit by one of these, and your head will swim.",
     stats: {
       hp: 65,
       attack: 60,
       defense: 75,
       spAttack: 110,
       spDefense: 121,
-      speed: 64
+      speed: 64,
     },
     height: "30.0",
     weight: "0.5",
-    abilities: [
-      "SWEETVEIL"
-    ],
-    hiddenAbilities: [
-      "AROMAVEIL"
-    ],
+    abilities: ["SWEETVEIL"],
+    hiddenAbilities: ["AROMAVEIL"],
     category: "Cream",
     moves: [
       "DECORATE",
@@ -55738,7 +51631,7 @@ export const pokemonForms: PokemonForm[] =
       "DAZZLINGGLEAM",
       "RECOVER",
       "MISTYTERRAIN",
-      "ENTRAINMENT"
+      "ENTRAINMENT",
     ],
     tutorMoves: [
       "ALLURINGVOICE",
@@ -55794,46 +51687,37 @@ export const pokemonForms: PokemonForm[] =
       "SWAGGER",
       "TERABLAST",
       "TRIATTACK",
-      "WONDERROOM"
+      "WONDERROOM",
     ],
-    eggMoves: [
-
-    ],
+    eggMoves: [],
     suffix: "normal",
-    evolution: [
-
-    ],
+    evolution: [],
     color: "White",
     formNumber: 63,
     formName: "Gigantamax",
     baseId: "ALCREMIE",
-    megaStone: null
+    megaStone: null,
   },
   {
     id: "COPPERAJAH",
     name: "Copperajah",
-    types: [
-      "STEEL"
-    ],
+    types: ["STEEL"],
     sprite: "/Front/COPPERAJAH_1.png",
     backSprite: "/spritesBack/COPPERAJAH_1.png",
-    description: "After this Pokémon has Gigantamaxed, its massive nose can utterly demolish large structures with a single smashing blow.",
+    description:
+      "After this Pokémon has Gigantamaxed, its massive nose can utterly demolish large structures with a single smashing blow.",
     stats: {
       hp: 122,
       attack: 130,
       defense: 69,
       spAttack: 80,
       spDefense: 69,
-      speed: 30
+      speed: 30,
     },
     height: "23.0",
     weight: "650.0",
-    abilities: [
-      "SHEERFORCE"
-    ],
-    hiddenAbilities: [
-      "HEAVYMETAL"
-    ],
+    abilities: ["SHEERFORCE"],
+    hiddenAbilities: ["HEAVYMETAL"],
     category: "Copperderm",
     moves: [
       "HEAVYSLAM",
@@ -55849,7 +51733,7 @@ export const pokemonForms: PokemonForm[] =
       "IRONHEAD",
       "PLAYROUGH",
       "HIGHHORSEPOWER",
-      "SUPERPOWER"
+      "SUPERPOWER",
     ],
     tutorMoves: [
       "ATTRACT",
@@ -55918,48 +51802,37 @@ export const pokemonForms: PokemonForm[] =
       "TAUNT",
       "TERABLAST",
       "WORKUP",
-      "ZENHEADBUTT"
+      "ZENHEADBUTT",
     ],
-    eggMoves: [
-
-    ],
+    eggMoves: [],
     suffix: "normal",
-    evolution: [
-
-    ],
+    evolution: [],
     color: "Green",
     formNumber: 1,
     formName: "Gigantamax",
     baseId: "COPPERAJAH",
-    megaStone: null
+    megaStone: null,
   },
   {
     id: "DURALUDON",
     name: "Duraludon",
-    types: [
-      "STEEL",
-      "DRAGON"
-    ],
+    types: ["STEEL", "DRAGON"],
     sprite: "/Front/DURALUDON_1.png",
     backSprite: "/spritesBack/DURALUDON_1.png",
-    description: "It's grown to resemble a skyscraper. Parts of its towering body glow due to a profusion of energy.",
+    description:
+      "It's grown to resemble a skyscraper. Parts of its towering body glow due to a profusion of energy.",
     stats: {
       hp: 70,
       attack: 95,
       defense: 115,
       spAttack: 120,
       spDefense: 50,
-      speed: 85
+      speed: 85,
     },
     height: "43.0",
     weight: "40.0",
-    abilities: [
-      "LIGHTMETAL",
-      "HEAVYMETAL"
-    ],
-    hiddenAbilities: [
-      "STALWART"
-    ],
+    abilities: ["LIGHTMETAL", "HEAVYMETAL"],
+    hiddenAbilities: ["STALWART"],
     category: "Alloy",
     moves: [
       "LEER",
@@ -55974,7 +51847,7 @@ export const pokemonForms: PokemonForm[] =
       "DRAGONCLAW",
       "FLASHCANNON",
       "METALBURST",
-      "HYPERBEAM"
+      "HYPERBEAM",
     ],
     tutorMoves: [
       "ATTRACT",
@@ -56036,53 +51909,43 @@ export const pokemonForms: PokemonForm[] =
       "TERABLAST",
       "THUNDER",
       "THUNDERBOLT",
-      "THUNDERWAVE"
+      "THUNDERWAVE",
     ],
-    eggMoves: [
-      "MIRRORCOAT",
-      "NIGHTSLASH",
-      "SLASH"
-    ],
+    eggMoves: ["MIRRORCOAT", "NIGHTSLASH", "SLASH"],
     suffix: "normal",
     evolution: [
       {
         to: "ARCHALUDON",
         method: "HoldItem",
-        value: "METALALLOY"
-      }
+        value: "METALALLOY",
+      },
     ],
     color: "White",
     formNumber: 1,
     formName: "Gigantamax",
     baseId: "DURALUDON",
-    megaStone: null
+    megaStone: null,
   },
   {
     id: "ETERNATUS",
     name: "Eternatus",
-    types: [
-      "POISON",
-      "DRAGON"
-    ],
+    types: ["POISON", "DRAGON"],
     sprite: "/Front/ETERNATUS_1.png",
     backSprite: "/spritesBack/ETERNATUS_1.png",
-    description: "Infinite amounts of energy pour from this Pokémon's enlarged core, warping the surrounding space-time.",
+    description:
+      "Infinite amounts of energy pour from this Pokémon's enlarged core, warping the surrounding space-time.",
     stats: {
       hp: 255,
       attack: 115,
       defense: 250,
       spAttack: 125,
       spDefense: 250,
-      speed: 130
+      speed: 130,
     },
     height: "100.0",
     weight: "950.0",
-    abilities: [
-      "PRESSURE"
-    ],
-    hiddenAbilities: [
-
-    ],
+    abilities: ["PRESSURE"],
+    hiddenAbilities: [],
     category: "Gigantic",
     moves: [
       "POISONTAIL",
@@ -56099,7 +51962,7 @@ export const pokemonForms: PokemonForm[] =
       "COSMICPOWER",
       "RECOVER",
       "HYPERBEAM",
-      "OUTRAGE"
+      "OUTRAGE",
     ],
     tutorMoves: [
       "AGILITY",
@@ -56160,47 +52023,37 @@ export const pokemonForms: PokemonForm[] =
       "TOXIC",
       "TOXICSPIKES",
       "VENOMDRENCH",
-      "VENOSHOCK"
+      "VENOSHOCK",
     ],
-    eggMoves: [
-
-    ],
+    eggMoves: [],
     suffix: "normal",
-    evolution: [
-
-    ],
+    evolution: [],
     color: "Purple",
     formNumber: 1,
     formName: "Eternamax",
     baseId: "ETERNATUS",
-    megaStone: null
+    megaStone: null,
   },
   {
     id: "URSHIFU",
     name: "Urshifu",
-    types: [
-      "FIGHTING",
-      "DARK"
-    ],
+    types: ["FIGHTING", "DARK"],
     sprite: "/Front/URSHIFU_2.png",
     backSprite: "/spritesBack/URSHIFU_2.png",
-    description: "The energy released by this Pokémon's fists forms shock waves that can blow away Dynamax Pokémon in just one hit.",
+    description:
+      "The energy released by this Pokémon's fists forms shock waves that can blow away Dynamax Pokémon in just one hit.",
     stats: {
       hp: 100,
       attack: 130,
       defense: 100,
       spAttack: 63,
       spDefense: 60,
-      speed: 97
+      speed: 97,
     },
     height: "29.0",
     weight: "105.0",
-    abilities: [
-      "UNSEENFIST"
-    ],
-    hiddenAbilities: [
-
-    ],
+    abilities: ["UNSEENFIST"],
+    hiddenAbilities: [],
     category: "Wushu",
     moves: [
       "WICKEDBLOW",
@@ -56219,7 +52072,7 @@ export const pokemonForms: PokemonForm[] =
       "DYNAMICPUNCH",
       "COUNTER",
       "CLOSECOMBAT",
-      "FOCUSPUNCH"
+      "FOCUSPUNCH",
     ],
     tutorMoves: [
       "ACROBATICS",
@@ -56298,47 +52151,37 @@ export const pokemonForms: PokemonForm[] =
       "TRAILBLAZE",
       "UTURN",
       "WORKUP",
-      "ZENHEADBUTT"
+      "ZENHEADBUTT",
     ],
-    eggMoves: [
-
-    ],
+    eggMoves: [],
     suffix: "normal",
-    evolution: [
-
-    ],
+    evolution: [],
     color: "Gray",
     formNumber: 2,
     formName: "Gigantamax Single Strike Style",
     baseId: "URSHIFU",
-    megaStone: null
+    megaStone: null,
   },
   {
     id: "URSHIFU",
     name: "Urshifu",
-    types: [
-      "FIGHTING",
-      "WATER"
-    ],
+    types: ["FIGHTING", "WATER"],
     sprite: "/Front/URSHIFU_3.png",
     backSprite: "/spritesBack/URSHIFU_3.png",
-    description: "As it waits for the right moment to unleash its Gigantamax power, this Pokémon maintains a perfect one-legged stance. It won't even twitch.",
+    description:
+      "As it waits for the right moment to unleash its Gigantamax power, this Pokémon maintains a perfect one-legged stance. It won't even twitch.",
     stats: {
       hp: 100,
       attack: 130,
       defense: 100,
       spAttack: 63,
       spDefense: 60,
-      speed: 97
+      speed: 97,
     },
     height: "26.0",
     weight: "105.0",
-    abilities: [
-      "UNSEENFIST"
-    ],
-    hiddenAbilities: [
-
-    ],
+    abilities: ["UNSEENFIST"],
+    hiddenAbilities: [],
     category: "Wushu",
     moves: [
       "SURGINGSTRIKES",
@@ -56357,7 +52200,7 @@ export const pokemonForms: PokemonForm[] =
       "DYNAMICPUNCH",
       "COUNTER",
       "CLOSECOMBAT",
-      "FOCUSPUNCH"
+      "FOCUSPUNCH",
     ],
     tutorMoves: [
       "ACROBATICS",
@@ -56436,19 +52279,15 @@ export const pokemonForms: PokemonForm[] =
       "TRAILBLAZE",
       "UTURN",
       "WORKUP",
-      "ZENHEADBUTT"
+      "ZENHEADBUTT",
     ],
-    eggMoves: [
-
-    ],
+    eggMoves: [],
     suffix: "normal",
-    evolution: [
-
-    ],
+    evolution: [],
     color: "Gray",
     formNumber: 3,
     formName: "Gigantamax Rapid Strike Style",
     baseId: "URSHIFU",
-    megaStone: null
-  }
-]
+    megaStone: null,
+  },
+];

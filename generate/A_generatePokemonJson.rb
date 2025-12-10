@@ -40,7 +40,7 @@ def parse_fakemons(lines, suffix)
         name: "",
         types: [],
         sprite: "/Front/#{$1.upcase}.png",
-        backSprite: "/spritesBack/#{$1.upcase}.png",
+        backSprite: "/Back/#{$1.upcase}.png",
         description: "",
         stats: {
           hp: 0,
@@ -151,14 +151,14 @@ def parse_forms(lines, suffix, base_pokemons)
         current[:eggMoves] = base_pokemon[:eggMoves].dup if base_pokemon[:eggMoves]
         current[:evolution] = base_pokemon[:evolution].dup if base_pokemon[:evolution]
         current[:sprite] = "/Front/#{base_id.upcase}_#{form_number}.png"
-        current[:backSprite] = "/spritesBack/#{base_id.upcase}_#{form_number}.png"
+        current[:backSprite] = "/Back/#{base_id.upcase}_#{form_number}.png"
       else
         current = {
           id: base_id,
           name: "",
           types: [],
           sprite: "/Front/#{base_id.upcase}_#{form_number}.png",
-          backSprite: "/spritesBack/#{base_id.upcase}_#{form_number}.png",
+          backSprite: "/Back/#{base_id.upcase}_#{form_number}.png",
           description: "",
           stats: {
             hp: 0,
@@ -442,6 +442,20 @@ def read_combined_lines(paths)
   paths.flat_map { |path| File.readlines(path) }
 end
 
+# ==========================
+# 🗑️ UTILIDADES
+# ==========================
+def delete_file(file_path)
+  if File.exist?(file_path)
+    File.delete(file_path)
+    puts "🗑️  Archivo eliminado: #{file_path}"
+    true
+  else
+    puts "⚠️  Archivo no encontrado: #{file_path}"
+    false
+  end
+end
+
 # ========================================================== #
 # Procesar Fakemons
 # ========================================================== #
@@ -578,3 +592,85 @@ forms_configs.each do |config|
   write_ts(config[:output], "PokemonForm", "pokemonForms", forms)
   puts "✅ Pokemon Forms generados en #{config[:output]}"
 end
+
+# ========================================================== #
+# Eliminar archivos no necesarios
+# ========================================================== #
+# Archivos que NO se usan en la generación de PBS/TypeScript
+unused_files = [
+  "./battle_facility_lists.txt",
+  "./battle_tower_pokemon.txt",
+  "./battle_tower_trainers.txt",
+  "./berry_plants.txt",
+  "./book_reading.txt",
+  "./cable_club_create.rb",
+  "./clotheSets.txt",
+  "./contacts.txt",
+  "./crafting.txt",
+  "./cup_fancy_pkmn_single.txt",
+  "./cup_fancy_pkmn.txt",
+  "./cup_fancy_trainers_single.txt",
+  "./cup_fancy_trainers.txt",
+  "./cup_little_pkmn.txt",
+  "./cup_little_trainers.txt",
+  "./cup_pika_pkmn.txt",
+  "./cup_pika_trainers.txt",
+  "./cup_poke_pkmn.txt",
+  "./cup_poke_trainers.txt",
+  "./dungeon_parameters.txt",
+  "./dungeon_tilesets.txt",
+  "./dungeonSet.txt",
+  "./encounters.txt",
+  "./items_absolutionRecipes.txt",
+  "./items_dynamax.txt",
+  "./items_stones.txt",
+  "./items_tm.txt",
+  "./map_connections.txt",
+  "./map_metadata.txt",
+  "./metadata.txt",
+  "./misions_absolution.txt",
+  "./mounts.txt",
+  "./moves_dynamax.txt",
+  "./moves_monarch.txt",
+  "./phone.txt",
+  "./pokemon_metrics_female.txt",
+  "./pokemon_metrics_forms.txt",
+  "./pokemon_metrics_Gen_9_Pack.txt",
+  "./pokemon_metrics_gmax.txt",
+  "./pokemon_metrics.txt",
+  "./pokemon_monarch.txt",
+  "./pokePet.txt",
+  "./regional_dexes.txt",
+  "./ribbons.txt",
+  "./showHelp.txt",
+  "./town_map.txt",
+  "./trainers_1.txt",
+  "./trainers_2.txt",
+  "./trainers_3.txt",
+  "./trainers_dontTouch.txt",
+  "./trainers_drunk.txt",
+  "./trainers_extra.txt",
+  "./trainers_noForBattle.txt",
+  "./trainers_simulatedUniverse.txt",
+  "./trainers_twilightForest.txt",
+  "./types.txt",
+  "package.json",
+  "server.log"
+]
+
+puts "\n🗑️  Eliminando archivos no utilizados..."
+deleted_count = 0
+not_found_count = 0
+
+unused_files.each do |file_path|
+  full_path = File.join(__dir__, file_path)
+  if delete_file(full_path)
+    deleted_count += 1
+  else
+    not_found_count += 1
+  end
+end
+
+puts "\n📊 Resumen:"
+puts "   ✅ Archivos eliminados: #{deleted_count}"
+puts "   ⚠️  Archivos no encontrados: #{not_found_count}"

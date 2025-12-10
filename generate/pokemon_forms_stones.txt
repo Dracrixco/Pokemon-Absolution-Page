@@ -114,3 +114,11 @@ MegaStone = RAICHUNITEX
 [RAICHU,3]
 FormName = Mega Raichu
 MegaStone = RAICHUNITEY
+#-------------------------------
+[BAXCALIBUR,1]
+FormName = Mega Baxcalibur
+MegaStone = BAXCALIBRITE
+#-------------------------------
+[CHIMECHO,1]
+FormName = Mega Chimecho
+MegaStone = BAXCALIBRITE

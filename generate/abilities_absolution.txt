@@ -59,3 +59,11 @@ Description = The user starts with proto shield and 50% increase in extra effect
 [LOVEANDPEACE]
 Name = Love And Peace
 Description = When the use HP becomes half or less, the user reduces a lot the attack of the opponents.
+#-------------------------------
+[NOGOBACK]
+Name = No Go Back
+Description = After using a move, the Pokémon prevents the target from healing and sets a HP limitation based on HP lost.
+#-------------------------------
+[BURNEATER]
+Name = Burn Eater
+Description = Powers up moves to deal double damage and boosts accuracy against burned foes.

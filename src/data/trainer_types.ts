@@ -1722,12 +1722,21 @@ export const trainerTypes: TrainerType[] =
     description: ""
   },
   {
-    id: "CORRUPT_ADMIN_ROSA",
+    id: "CORRUPT_ADMIN_HANA",
     name: "Corrupt Team",
     gender: "Female",
     baseMoney: 100,
     suffix: "normal",
-    sprite: "/Trainers/CORRUPT_ADMIN_ROSA.png",
+    sprite: "/Trainers/CORRUPT_ADMIN_HANA.png",
+    description: ""
+  },
+  {
+    id: "CORRUPT_ADMIN_HEMLOCK",
+    name: "Corrupt Team",
+    gender: "Male",
+    baseMoney: 100,
+    suffix: "normal",
+    sprite: "/Trainers/CORRUPT_ADMIN_HEMLOCK.png",
     description: ""
   },
   {
@@ -1755,6 +1764,15 @@ export const trainerTypes: TrainerType[] =
     baseMoney: 60,
     suffix: "normal",
     sprite: "/Trainers/GYM_LEADER_FIRE.png",
+    description: ""
+  },
+  {
+    id: "GYM_LEADER_WATER",
+    name: "Gym Leader",
+    gender: "Female",
+    baseMoney: 60,
+    suffix: "normal",
+    sprite: "/Trainers/GYM_LEADER_WATER.png",
     description: ""
   },
   {
@@ -1795,11 +1813,20 @@ export const trainerTypes: TrainerType[] =
   },
   {
     id: "SPECIAL_TRAINER_MOKY",
-    name: "Cowgirl",
-    gender: "Female",
+    name: "Pokemon Trainer",
+    gender: "Male",
     baseMoney: 60,
     suffix: "normal",
     sprite: "/Trainers/SPECIAL_TRAINER_MOKY.png",
+    description: ""
+  },
+  {
+    id: "SPECIAL_TRAINER_DARREN",
+    name: "Pokemon Trainer",
+    gender: "Male",
+    baseMoney: 60,
+    suffix: "normal",
+    sprite: "/Trainers/SPECIAL_TRAINER_DARREN.png",
     description: ""
   }
 ]

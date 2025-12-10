@@ -242,6 +242,55 @@ Price = 95000
 FieldUse = OnPokemon
 Description = A special potion that makes the Pokemon shiny.
 #-------------------------------
+[CUPCAKE]
+Name = Cupcake
+NamePlural = Cupcakes
+Pocket = 2
+Price = 1000
+FieldUse = OnPokemon
+Description = Increase the Pokemon happiness a little bit.
+#-------------------------------
+[GREATCUPCAKE]
+Name = Great Cupcake
+NamePlural = Great Cupcakes
+Pocket = 2
+Price = 2000
+FieldUse = OnPokemon
+Description = Increase the Pokemon happiness.
+#-------------------------------
+[ULTRACUPCAKE]
+Name = Ultra Cupcake
+NamePlural = Ultra Cupcakes
+Pocket = 2
+Price = 3000
+FieldUse = OnPokemon
+Description = Increase the Pokemon happiness a lot.
+#-------------------------------
+[MASTERCUPCAKE]
+Name = Master Cupcake
+NamePlural = Master Cupcakes
+Pocket = 2
+Price = 5000
+FieldUse = OnPokemon
+Description = Increase the Pokemon happiness to the max value.
+#-------------------------------
+[BADCUPCAKE]
+Name = Bad Cupcake
+NamePlural = Bad Cupcakes
+Pocket = 2
+Price = 5000
+FieldUse = OnPokemon
+Description = Increase the Pokemon happiness to the min value.
+#-------------------------------
+[HAPPINESSMETER]
+Name = Happiness Meter
+NamePlural = Happiness Meters
+Pocket = 8
+Price = 5000
+FieldUse = OnPokemon
+Flags = KeyItem
+Description = You can verify the happiness of your Pokemon.
+#-------------------------------
 [OBEDIENCECANDY]
 Name = Obedience Candy
 NamePlural = Obedience Candys
@@ -579,3 +628,173 @@ Price = 10000
 SellPrice = 1
 Flags = Fling_30
 Description = Increases the damage of magic moves. The user gains a 5% increase in extra effect chance at the end of each turn.
+#-------------------------------
+[HEARTSTEEL]
+Name = Heart Steel
+NamePlural = Hearts Steel
+Pocket = 1
+Price = 10000
+SellPrice = 1
+Flags = Fling_30
+Description = ???
+#-------------------------------
+[PROTOSAW]
+Name = Proto Saw
+NamePlural = Proto Saws
+Pocket = 1
+Price = 10000
+SellPrice = 1
+Flags = Fling_30
+Description = When the holder uses a cutting move and deals damage, it generates a Proto Shield. The shield's strength depends on the amount of damage dealt.
+#-------------------------------
+[HANDDRILL]
+Name = Hand Drill
+NamePlural = Hand Drills
+Pocket = 1
+Price = 10000
+SellPrice = 1
+Flags = Fling_30
+Description = ???
+#-------------------------------
+[FROSTSHIELD]
+Name = Frost Shield
+NamePlural = Frost Shield
+Pocket = 1
+Price = 10000
+SellPrice = 1
+Flags = Fling_30
+Description = ???
+#-------------------------------
+[ENCAPSULATEDLIGHT]
+Name = Encapsulated light
+NamePlural = Encapsulated lights
+Pocket = 1
+Price = 10000
+SellPrice = 1
+Flags = Fling_30
+Description = ???
+#-------------------------------
+[MECHANICBEE]
+Name = Mechanic Bee
+NamePlural = Mechanic Bees
+Pocket = 1
+Price = 10000
+SellPrice = 1
+Flags = Fling_30
+Description = ???
+#-------------------------------
+[STRANGEENCAPSULATOR]
+Name = Strange Encapsulator
+NamePlural = Strange Encapsulators
+Pocket = 1
+Price = 10000
+SellPrice = 1
+Flags = Fling_30
+Description = ???
+#-------------------------------
+[GRAVITIONALORB]
+Name = Gravitional Orb
+NamePlural = Gravitional Orbs
+Pocket = 1
+Price = 10000
+SellPrice = 1
+Flags = Fling_30
+Description = If the holder is hit by an contact move, it will intensify the gravity for 3 turns.
+#-------------------------------
+[HANDHELDELECTRICITY]
+Name = Handheld Electricity
+NamePlural = Handheld Electricitys
+Pocket = 1
+Price = 10000
+SellPrice = 1
+Flags = Fling_30
+Description = ???
+#-------------------------------
+[ELECTRICBALL]
+Name = Electric Ball
+NamePlural = Electric Balls
+Pocket = 1
+Price = 10000
+SellPrice = 1
+Flags = Fling_30
+Description = ???
+#-------------------------------
+[MAGNETICSPIKE]
+Name = Magnetic Spike
+NamePlural = Magnetic Spikes
+Pocket = 1
+Price = 10000
+SellPrice = 1
+Flags = Fling_30
+Description = ???
+#-------------------------------
+[STRANGEFROST]
+Name = Strange Frost
+NamePlural = Strange Frosts
+Pocket = 1
+Price = 10000
+SellPrice = 1
+Flags = Fling_30
+Description = ???
+#-------------------------------
+[MECHANICALCLAW]
+Name = Mechanical Claw
+NamePlural = Mechanical Claws
+Pocket = 1
+Price = 10000
+SellPrice = 1
+Flags = Fling_30
+Description = ???
+#-------------------------------
+[TOXICSLIME]
+Name = Toxic Slime
+NamePlural = Toxic Slimes
+Pocket = 1
+Price = 10000
+SellPrice = 1
+Flags = Fling_30
+Description = ???
+#-------------------------------
+[HORNINGTORPEDO]
+Name = Horning Torpedo
+NamePlural = Horning Torpedos
+Pocket = 1
+Price = 10000
+SellPrice = 1
+Flags = Fling_30
+Description = ???
+#-------------------------------
+[PORTABLEFAN]
+Name = Portable fan
+NamePlural = Portable fans
+Pocket = 1
+Price = 10000
+SellPrice = 1
+Flags = Fling_30
+Description = ???
+#-------------------------------
+[TINYLLELERA]
+Name = Tiny Llelera
+NamePlural = Tiny Lleleras
+Pocket = 1
+Price = 10000
+SellPrice = 1
+Flags = Fling_30
+Description = ???
+#-------------------------------
+[MECHANICSHARK]
+Name = Mechanic Shark
+NamePlural = Mechanic Sharks
+Pocket = 1
+Price = 10000
+SellPrice = 1
+Flags = Fling_30
+Description = ???
+#-------------------------------
+[MANSION_KEY_ROUTE_5]
+Name = Mansion Key
+NamePlural = Mansion Keys
+Pocket = 8
+Price = 5000
+FieldUse = Direct
+Description = Is a strange key finded in the abandoned mansion of the route 5.

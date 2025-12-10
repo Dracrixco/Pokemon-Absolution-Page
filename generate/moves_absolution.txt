@@ -9,7 +9,7 @@ TotalPP = 20
 Target = User
 FunctionCode = RaiseUserMainStats1AndReducesMaximunLife
 Flags = HpLimitReleated
-Description = Reduces his maximum hp a lot in exchange for improving all his stats by 1 level. The move fails if the user already has limited hp.
+Description = The user drastically lowers its own maximum HP to boost all its stats by 1 stage. Fails if the user's HP is already limited.
 #-------------------------------
 [EXPLOSIVEFEATHER]
 Name = Explosive Feather
@@ -21,7 +21,7 @@ TotalPP = 30
 Target = NearOther
 FunctionCode = TargetSuperEffectiveAgainstRockSteelReduceMaxHp
 Flags = CanProtect,CanMirrorMove,Bomb,HpLimitReleated
-Description = The move is super effective against rock and steel types. Reduces the maximum hp of the user.
+Description = Hits Rock and Steel types super effectively. The user's maximum HP is reduced after using this move.
 #-------------------------------
 [BURNTHELIMIT]
 Name = Burn The Limit
@@ -33,7 +33,7 @@ TotalPP = 15
 Target = AllNearOthers
 FunctionCode = LimitHpRemovedAndDamegeDealsBaseOnLimitHp
 Flags = CanProtect,CanMirrorMove,HpLimitReleated
-Description = Causes damage according to the hp limit and removes the hp limiter. The move fails if the user hp is not limited.
+Description = Unleashes fiery power based on the user's HP limit and removes the HP limiter. Fails if the user's HP is not limited.
 #-------------------------------
 [SOLARDESTRUCTION]
 Name = Solar Destruction
@@ -45,7 +45,7 @@ TotalPP = 5
 Target = AllNearOthers
 FunctionCode = LimitHpRemovedAndDamegeDealsBaseOnLimitHp
 Flags = CanProtect,CanMirrorMove,HpLimitReleated
-Description = Causes damage according to the hp limit and removes the hp limiter. The move fails if the user hp is not limited.
+Description = Harnesses solar energy to deal damage based on the user's HP limit and removes the HP limiter. Fails if the user's HP is not limited.
 #-------------------------------
 [PROTOSHIELD]
 Name = Proto Shield
@@ -55,7 +55,7 @@ Accuracy = 0
 TotalPP = 20
 Target = User
 FunctionCode = Generate30ProtoShield
-Description = Generate a tiny proto-shield for the user. The proto-shield can be accumulated.
+Description = The user creates a tiny proto-shield. Proto-shields can be stacked.
 #-------------------------------
 [MARKINGTERRITORY]
 Name = Marking Territory
@@ -65,8 +65,8 @@ Accuracy = 0
 TotalPP = 30
 Target = AllFoes
 FunctionCode = MarkingTerritory
-Description = Increases both defenses, but the user can no longer be changed.
-PasiveDescription = If the Pokémon is unable to escape or be changed, it starts generating proto-shield each turn.
+Description = Boosts both defenses and prevents the user from switching out.
+PasiveDescription = If the Pokémon can't escape or switch, it generates a proto-shield each turn.
 #-------------------------------
 [WILDPUNCH]
 Name = Wild Punch
@@ -78,7 +78,7 @@ TotalPP = 25
 Target = NearOther
 FunctionCode = WildPunch
 Flags = CanProtect,CanMirrorMove,Contact,Punching
-Description = Causes more damage depending on the proto shield generated.
+Description = The more proto-shields the user has, the more damage this punch deals.
 #-------------------------------
 [NULLIFYINGSMOKE]
 Name = Nullifying Smoke
@@ -88,7 +88,7 @@ Accuracy = 100
 TotalPP = 30
 Target = AllNearOthers
 FunctionCode = RemoveTargetTypes
-Description = A heavy smokes that removes the types of the target.
+Description = Shrouds the field in heavy smoke, erasing the target's types.
 #-------------------------------
 [DEBILITATINGTOXIN]
 Name = Debilitating Toxin
@@ -101,7 +101,7 @@ Target = NearOther
 FunctionCode = Generate3Weakness
 Flags = CanProtect,CanMirrorMove
 EffectChance = 100
-Description = Apply 3 weaknesses to the target.
+Description = Inflicts the target with 3 additional weaknesses.
 #-------------------------------
 [ABYSSALBITE]
 Name = Abyssal Bite
@@ -113,7 +113,7 @@ TotalPP = 25
 Target = NearOther
 FunctionCode = MoreDamageOnMoreWeakness
 Flags = Contact,CanProtect,CanMirrorMove,Biting
-Description = Causes more damage depending on the amount of extra weaknesses the target possesses.
+Description = The more weaknesses the target has, the more powerful the bite.
 #-------------------------------
 [SHAMANBLESSING]
 Name = Shaman Blessing
@@ -123,7 +123,7 @@ Accuracy = 100
 TotalPP = 25
 Target = User
 FunctionCode = Generate3Resistances
-Description = The user applies 3 random resistances to themself, which can be accumulated.
+Description = The user gains 3 random resistances, which can stack.
 #-------------------------------
 [DRAGONSLAYER]
 Name = Dragon Slayer
@@ -135,8 +135,8 @@ TotalPP = 15
 Target = NearOther
 FunctionCode = DragonSlayer
 Flags = Contact,CanProtect,CanMirrorMove
-Description = Applies double damage if the target is a dragon type.
-PasiveDescription = The user increases its attack after defeating a dragon-type Pokemon.
+Description = Deals double damage to Dragon-type Pokémon.
+PasiveDescription = Boosts the user's Attack after defeating a Dragon-type Pokémon.
 #-------------------------------
 [FLOWERFANG]
 Name = Flower Fang
@@ -148,7 +148,7 @@ TotalPP = 25
 Target = NearOther
 FunctionCode = LowerTargetEvasion1
 Flags = Contact,CanProtect,CanMirrorMove,Biting
-Description = Bites the target with its large fangs, always reduce the target evasion.
+Description = Bites with floral fangs, always lowering the target's evasion.
 #-------------------------------
 [PREDATORYGAME]
 Name = Predatory Game
@@ -160,7 +160,7 @@ TotalPP = 20
 Target = NearOther
 FunctionCode = CannotMakeTargetFaint
 Flags = Contact,CanProtect,CanMirrorMove
-Description = Causes a lot of damage to the target but leaves it with at least 1 HP.
+Description = Strikes fiercely but leaves the target with at least 1 HP.
 #-------------------------------
 [SEDUCTION]
 Name = Seduction
@@ -171,10 +171,10 @@ TotalPP = 15
 Target = AllNearOthers
 FunctionCode = AttractTargetAndRedirectMovesToUser
 Flags = CanProtect,CanMirrorMove,LoveReleated
-Description = Attracts the attention of the targets, enamoring them and forcing them to attack the user who used the movement.
+Description = Charms all foes, making them infatuated and forcing them to target the user.
 #-------------------------------
-[ABUSE]
-Name = Abuse
+[LOVEBREAKUP]
+Name = Love Breakup
 Type = DARK
 Category = Physical
 Power = 150
@@ -183,7 +183,7 @@ TotalPP = 20
 Target = NearOther
 FunctionCode = DamageOnLoveObjectivesAndRemoveLove
 Flags = CanProtect,CanMirrorMove,LoveReleated,Contact
-Description = Causes massive damage to the target and removes the effect of falling in love. The move fails if the target is not in love with the user.
+Description = Deals massive damage and cures infatuation. Fails if the target isn't in love with the user.
 #-------------------------------
 [SUPPLICATION]
 Name = Supplication
@@ -193,8 +193,8 @@ Accuracy = 100
 TotalPP = 30
 Target = NearOther
 FunctionCode = Supplication
-Description = The user begs for mercy, reducing the target's evasion.
-PasiveDescription = The move is likely to be executed when the user recieve damage.
+Description = The user pleads for mercy, lowering the target's evasion.
+PasiveDescription = More likely to be used when the user takes damage.
 #-------------------------------
 [INTHESPOTLIGHT]
 Name = In The Spotlight
@@ -204,8 +204,8 @@ Accuracy = 100
 TotalPP = 20
 Target = NearOther
 FunctionCode = UserAndTargetTrappedInBattle
-Description = Prevents the target from escaping. The user cannot escape either.
-PasiveDescription = Attacking enemies trapped in combat increases accuracy.
+Description = Both the user and target are trapped and cannot escape.
+PasiveDescription = Attacking trapped foes increases the user's accuracy.
 #-------------------------------
 [SHERIFFSHOT]
 Name = Sheriff Shot
@@ -217,7 +217,7 @@ TotalPP = 15
 Target = NearOther
 FunctionCode = CannotBeRedirected
 Flags = CanProtect,CanMirrorMove,HighCriticalHitRate
-Description = The user ignores any effects that redirect moves. It has a high critical-hit ratio.
+Description = Ignores effects that redirect moves. Has a high critical-hit rate.
 #-------------------------------
 [TWILIGHTCUT]
 Name = Twilight Cut
@@ -229,7 +229,7 @@ TotalPP = 15
 Target = NearOther
 FunctionCode = MoreDamageOnDark
 Flags = CanProtect,CanMirrorMove,Contact,Slicing
-Description = Deals double damage if the user is in a dark area or have <b>Dark Hater</b>.
+Description = Deals double damage in dark areas or if the user has <b>Dark Hater</b>.
 #-------------------------------
 [TRIFORCE]
 Name = Triforce
@@ -239,8 +239,8 @@ Accuracy = 100
 TotalPP = 25
 Target = User
 FunctionCode = Triforce
-Description = Increases the attack, special attack and precision of the user.
-PasiveDescription = The user get <b>Dark Hater</b> when entering combat.
+Description = Raises the user's Attack, Special Attack, and accuracy.
+PasiveDescription = The user gains <b>Dark Hater</b> upon entering battle.
 #-------------------------------
 [NIGHTFALL]
 Name = Nightfall
@@ -250,7 +250,7 @@ Accuracy = 100
 TotalPP = 5
 Target = BothSides
 FunctionCode = Nightfall
-Description = Turns the combat into a dark zone, as if it were at night or in a cave. The move fails if it is already in a dark zone.
+Description = Turns the battlefield into a dark zone, as if it were night or inside a cave. Fails if already in a dark zone.
 #-------------------------------
 [MARTIALFANG]
 Name = Martial Fang
@@ -263,7 +263,7 @@ Target = NearOther
 FunctionCode = LowerTargetDefense1
 Flags = Contact,CanProtect,CanMirrorMove,Biting
 EffectChance = 100
-Description = Bites the target by doing a martial technique. Always reduce the target's defense.
+Description = Bites with martial technique, always lowering the target's Defense.
 #-------------------------------
 [TELATRAPO]
 Name = Telatrapo
@@ -274,8 +274,8 @@ TotalPP = 35
 Target = NearOther
 FunctionCode = Telatrapo
 Flags = CanProtect,CanMirrorMove
-Description = Traps the enemy with a sticky cloth, preventing him from escaping for 3 turns.
-PasiveDescription = Reduces the evasion of targets unable to escape.
+Description = Traps the foe in sticky silk, preventing escape for 3 turns.
+PasiveDescription = Lowers evasion of trapped foes.
 #-------------------------------
 [TORTUROUSGRAB]
 Name = Torturous Grab
@@ -287,7 +287,7 @@ TotalPP = 15
 Target = NearOther
 FunctionCode = MoreDamageOnEvasionDifference
 Flags = CanProtect,CanMirrorMove,Contact
-Description = Causes more damage the greater the evasion difference between the user and the target.
+Description = Deals more damage the greater the evasion difference between user and target.
 #-------------------------------
 [SILKBOMB]
 Name = Silk Bomb
@@ -299,7 +299,7 @@ TotalPP = 25
 Target = NearOther
 FunctionCode = StartSilkBombTarget
 Flags = CanProtect,CanMirrorMove,Bomb
-Description = This lowers the target's Evasion stat over three turns.
+Description = Lowers the target's evasion over three turns with sticky silk.
 #-------------------------------
 [SILKYCOCOON]
 Name = Silky Cocoon
@@ -309,8 +309,8 @@ Accuracy = 100
 TotalPP = 15
 Target = User
 FunctionCode = SilkShield
-Description = The user increases his defense and special defense.
-PasiveDescription = Upon entering battle, the user gains a silk shield that makes them immune to powder-based moves.
+Description = Boosts the user's Defense and Special Defense.
+PasiveDescription = Grants a silk shield on entry, making the user immune to powder moves.
 #-------------------------------
 [CRYOSWITCH]
 Name = Cryo Switch
@@ -322,7 +322,7 @@ TotalPP = 20
 Target = NearOther
 FunctionCode = SwitchOutUserDamagingMove
 Flags = CanProtect,CanMirrorMove
-Description = After making its attack, the user rushes back to switch places with a party Pokémon in waiting.
+Description = After attacking, the user switches out for a waiting party Pokémon.
 #-------------------------------
 [CRYOSPEED]
 Name = Cryo Speed
@@ -334,7 +334,7 @@ TotalPP = 20
 Target = NearOther
 FunctionCode = PriorityOnHail
 Flags = CanProtect,CanMirrorMove
-Description = This move always goes first in a hailstorm or in a Snowstorm.
+Description = Always goes first during hail or snowstorm.
 #-------------------------------
 [ARCTICMALTREATMENT]
 Name = Arctic Maltreatment
@@ -346,7 +346,7 @@ TotalPP = 20
 Target = NearOther
 FunctionCode = PriorityOnHailSwitchOutUser
 Flags = CanProtect,CanMirrorMove
-Description = After making the attack, the user switch place with a party member. If the user is in hailstorm, this move always go first.
+Description = After attacking, the user switches out. Always goes first in hail.
 #-------------------------------
 [WEIRDPUNCH]
 Name = Weird Punch
@@ -381,7 +381,7 @@ Target = NearOther
 FunctionCode = AddStealthRocksToFoeSide
 Flags = Contact,CanProtect,CanMirrorMove,Slicing
 EffectChance = 100
-Description = The user swings its aqua axe at the target. It leaves stone splinters around the target.
+Description = Slashes the target with an aqua axe, scattering stone splinters around the foe's side.
 #-------------------------------
 [MAGICALBLESSING]
 Name = Magical Blessing
@@ -391,8 +391,8 @@ Accuracy = 100
 TotalPP = 10
 Target = User
 FunctionCode = ProtoShieldAndEffectChanceImprovement
-Description = The user gains proto shield and a 30% increase in extra effect chance.
-PasiveDescription = The user gains a 5% increase in extra effect chance at the end of each turn.
+Description = Grants the user a proto-shield and boosts extra effect chance by 30%.
+PasiveDescription = At the end of each turn, the user gains a 5% boost to extra effect chance.
 #-------------------------------
 [MAGICALEXPLOSION]
 Name = Magical Explosion
@@ -401,12 +401,12 @@ Category = Special
 Power = 70
 Accuracy = 100
 TotalPP = 15
-Target = NearOther
+Target = AllNearOthers
 FunctionCode = MoreDamageWithEffectChanceAndEffectChanceImprovement
 Flags = CanProtect,CanMirrorMove,Magic
 EffectChance = 10
-Description = Causes more damage when more extra effect chance the user has. It may also raise all the user's stats at once.
-PasiveDescription = The user gains a 5% increase in extra effect chance at the end of each turn.
+Description = Deals more damage the higher the user's extra effect chance. May raise all stats at once.
+PasiveDescription = At the end of each turn, the user gains a 5% boost to extra effect chance.
 #-------------------------------
 [LOVEHURTS]
 Name = Love hurts
@@ -417,4 +417,64 @@ Accuracy = 100
 TotalPP = 25
 Target = NearOther
 FunctionCode = DealsDamageToInLoveTargets
-Description = Causes double damage if the target is in love (Not necessarily in love with the user).
+Description = Deals double damage if the target is infatuated (not necessarily with the user).
+#-------------------------------
+[BUDUPUNCH]
+Name = Budu Punch
+Type = GHOST
+Category = Physical
+Power = 1
+Accuracy = 100
+TotalPP = 30
+Target = NearOther
+FunctionCode = DamageBasedOnSacrificed15
+Flags = CanProtect,CanMirrorMove,Magic,Punching,Contact
+Description = The user sacrifices 15% of its max HP to unleash a punch. Base damage depends on the HP sacrificed.
+#-------------------------------
+[BUDUEXPLOSION]
+Name = Budu Explosion
+Type = GHOST
+Category = Special
+Power = 1
+Accuracy = 100
+TotalPP = 30
+Target = AllNearOthers
+FunctionCode = DamageBasedOnSacrificed30
+Flags = CanProtect,CanMirrorMove,Magic
+Description = The user sacrifices 30% of its max HP to unleash a powerfull explosion. Base damage depends on the HP sacrificed.
+#-------------------------------
+[HAYMAKER]
+Name = Haymaker
+Type = FIGHTING
+Category = Physical
+Power = 120
+Accuracy = 100
+TotalPP = 5
+Target = NearOther
+FunctionCode = LowerUserDefSpDef1
+Flags = Contact,CanProtect,CanMirrorMove
+Description = The user fights the foe up close without guarding itself. It also cuts the user's Defense and Sp. Def.
+#-------------------------------
+[ARCANEBUBBLE]
+Name = Arcane Bubble
+Type = WATER
+Category = Special
+Power = 60
+Accuracy = 100
+TotalPP = 30
+Target = AllNearOthers
+FunctionCode = ReduceTargetEffectChance15
+Flags = CanProtect,CanMirrorMove,Magic
+Description = Deals damage and lowers the target's chance of triggering extra effects.
+#-------------------------------
+[ENCHANTEDRAIN]
+Name = Enchanted rain
+Type = WATER
+Category = Special
+Power = 80
+Accuracy = 100
+TotalPP = 30
+Target = AllNearOthers
+FunctionCode = ReduceTargetEffectChance30
+Flags = CanProtect,CanMirrorMove,Magic
+Description = Deals damage and lowers the target's chance of triggering extra effects a lot.
