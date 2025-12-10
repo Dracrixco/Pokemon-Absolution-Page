@@ -19,6 +19,7 @@ import {
 } from "lucide-react";
 import { useParams, Link, useNavigate } from "react-router-dom";
 import { PokemonImage } from "@/components/absolution/pokemon-image";
+import { EvolutionChain } from "@/components/absolution/evolution-chain";
 import { cn } from "@/lib/utils";
 
 export const FakemonDetailPage = () => {
@@ -288,6 +289,18 @@ export const FakemonDetailPage = () => {
               </div>
             </div>
           </div>
+        </div>
+
+        {/* Evolution Chain */}
+        <div className="mt-8">
+          <EvolutionChain
+            key={
+              selectedForm
+                ? `${fakemon.id}-form-${selectedForm.formNumber}`
+                : `${fakemon.id}-base`
+            }
+            pokemon={displayData}
+          />
         </div>
 
         {/* Moves Section */}
