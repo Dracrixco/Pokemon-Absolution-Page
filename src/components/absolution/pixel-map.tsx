@@ -12,6 +12,7 @@ interface PixelMapProps {
   onSelect: (tile: TileData | null) => void;
   backgroundSrc: string;
 }
+const DEBUG_MODE = import.meta.env.VITE_ENABLE_DEBUG_LINKS == "true";
 
 export const PixelMap: React.FC<PixelMapProps> = ({
   width,
@@ -22,7 +23,9 @@ export const PixelMap: React.FC<PixelMapProps> = ({
   const cols = Array.from({ length: width }, (_, i) => i);
   const rows = Array.from({ length: height }, (_, i) => i);
   const [coordinates, setCoordinates] = useState([0, 0]);
-  const [selectedTile, setSelectedTile] = useState<string | null>(null);
+  const [coordinatesPicked, setCoordinatesPicked] = useState([0, 0]);
+  const [mapDebugData, setMapDebugData] = useState<string[]>(["", ""]);
+  const [selectedTile, setSelectedTile] = useState<TileData | null>(null);
   const [, setHoveredTile] = useState<TileData | null>(null);
 
   const gridStyle: React.CSSProperties = {
@@ -34,7 +37,10 @@ export const PixelMap: React.FC<PixelMapProps> = ({
   };
 
   const handleTileClick = (tile: TileData | null) => {
-    setSelectedTile(tile ? tile.id : null);
+    setSelectedTile(tile);
+    if (tile) {
+      setMapDebugData([tile.mapName, ""]);
+    }
     onSelect(tile);
   };
 
@@ -44,9 +50,9 @@ export const PixelMap: React.FC<PixelMapProps> = ({
       sum +
       tile.encounters.reduce(
         (encounterSum, encounter) => encounterSum + encounter.pokes.length,
-        0,
+        0
       ),
-    0,
+    0
   );
 
   return (
@@ -123,7 +129,8 @@ export const PixelMap: React.FC<PixelMapProps> = ({
                 cols.map((x) => {
                   const key = `${x}_${y}`;
                   const tile = getMapAtCoordinate(x, y);
-                  const isSelected = selectedTile === tile?.id;
+                  const isSelected =
+                    selectedTile && tile && selectedTile.id === tile.id;
 
                   return (
                     <div
@@ -136,19 +143,19 @@ export const PixelMap: React.FC<PixelMapProps> = ({
                         isSelected
                           ? "bg-yellow-400/20 border-yellow-300 shadow-lg z-20 scale-105"
                           : "",
-                        tile ? "hover:shadow-md hover:scale-102" : "",
+                        tile ? "hover:shadow-md hover:scale-102" : ""
                       )}
-                      onClick={() => handleTileClick(tile || null)}
-                      onMouseEnter={() => {
-                        setCoordinates([x, y]);
+                      onClick={() => {
+                        handleTileClick(tile);
+                        setCoordinatesPicked([x, y]);
                         setHoveredTile(tile);
                       }}
-                      onMouseLeave={() => {
-                        setHoveredTile(null);
+                      onMouseEnter={() => {
+                        setCoordinates([x, y]);
                       }}
                     />
                   );
-                }),
+                })
               )}
             </div>
 
@@ -158,7 +165,8 @@ export const PixelMap: React.FC<PixelMapProps> = ({
                 colorClasses[tile.color as keyof typeof colorClasses] ||
                 "bg-red-400 border-red-500";
 
-              const isSelected = selectedTile === tile.id;
+              const isSelected =
+                selectedTile && tile && selectedTile.id === tile.id;
 
               return (
                 <div
@@ -176,7 +184,7 @@ export const PixelMap: React.FC<PixelMapProps> = ({
                       "w-full h-full rounded-sm border-2 flex items-center",
                       "justify-center relative overflow-hidden transition-all duration-300",
                       colorClass,
-                      isSelected ? "scale-105 shadow-lg" : "opacity-50",
+                      isSelected ? "scale-105 shadow-lg" : "opacity-50"
                     )}
                   >
                     {/* Pulse effect for single tiles or smaller maps */}
@@ -198,6 +206,58 @@ export const PixelMap: React.FC<PixelMapProps> = ({
             )}
           </div>
         </div>
+
+        {DEBUG_MODE && (
+          <div className="mt-6 bg-gradient-to-r from-purple-500/10 to-blue-500/10 backdrop-blur-sm rounded-xl border border-white/20 p-4">
+            <div className="flex items-center gap-2 mb-3">
+              <div className="w-2 h-2 bg-orange-400 rounded-full animate-pulse"></div>
+              <h3 className="text-sm font-semibold text-white/90">
+                Debug Tools
+              </h3>
+            </div>
+            <div className="flex flex-col sm:flex-row gap-3">
+              <div className="flex-1">
+                <input
+                  value={mapDebugData[0]}
+                  onChange={(e) => {
+                    setMapDebugData((prev) => {
+                      prev[0] = e.target.value;
+                      return [...prev];
+                    });
+                  }}
+                  type="text"
+                  placeholder="Map Special Zone"
+                  className="w-full px-3 py-2 bg-white/10 backdrop-blur-sm border border-white/20 rounded-lg text-white placeholder-white/50 text-sm focus:outline-none focus:ring-2 focus:ring-purple-400/50 focus:border-purple-400/50 transition-all duration-200"
+                />
+              </div>
+              <div className="flex-1">
+                <input
+                  value={mapDebugData[1]}
+                  onChange={(e) => {
+                    setMapDebugData((prev) => {
+                      prev[1] = e.target.value;
+                      return [...prev];
+                    });
+                  }}
+                  type="text"
+                  placeholder="Map Name"
+                  className="w-full px-3 py-2 bg-white/10 backdrop-blur-sm border border-white/20 rounded-lg text-white placeholder-white/50 text-sm focus:outline-none focus:ring-2 focus:ring-blue-400/50 focus:border-blue-400/50 transition-all duration-200"
+                />
+              </div>
+              <button
+                onClick={() => {
+                  console.clear();
+                  const text = `Point = ${coordinatesPicked[0]},${coordinatesPicked[1] - 1},${mapDebugData[0]},${mapDebugData[1]}`;
+                  console.log(text);
+                  navigator.clipboard.writeText(text);
+                }}
+                className="px-4 py-2 bg-gradient-to-r from-purple-500 to-blue-500 hover:from-purple-600 hover:to-blue-600 text-white font-medium rounded-lg shadow-lg hover:shadow-xl transition-all duration-200 transform hover:scale-105 focus:outline-none focus:ring-2 focus:ring-purple-400/50"
+              >
+                Get
+              </button>
+            </div>
+          </div>
+        )}
 
         {/* Map Legend */}
         <div className="mt-4 flex flex-wrap gap-2 justify-center">

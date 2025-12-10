@@ -94,7 +94,7 @@ export const TeamBuilder = () => {
       exportText += `    Gender = male\n`;
       exportText += `    IV = ${pokemon.ivs.join(",")}\n`;
       exportText += `    EV = ${pokemon.evs.join(",")}\n`;
-      exportText += `    Ball = ULTRABALL\n`;
+      // exportText += `    Ball = ULTRABALL\n`;
       [
         pokemon.moves_easy,
         pokemon.moves_normal,
