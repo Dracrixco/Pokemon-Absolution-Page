@@ -24,69 +24,50 @@ export const NazanRegionMap: React.FC = () => {
           </p>
         </div>
 
-        {/* Main Content */}
-        <div className="grid grid-cols-1 xl:grid-cols-2 gap-8">
-          {/* Map Section */}
-          <div className="space-y-4">
+        {/* Main Content - Two Column Layout */}
+        <div className="grid grid-cols-1 lg:grid-cols-2 gap-8 mb-8">
+          {/* Left Side - Pixel Map */}
+          <div className="bg-white/10 backdrop-blur-sm rounded-xl p-6 border border-white/20">
+            <h2 className="text-2xl font-bold text-white mb-4">World Map</h2>
             <PixelMap
               width={38}
               height={26}
               onSelect={setSelectedTile}
-              backgroundSrc={"/Others/mapRegion0.png"}
+              backgroundSrc="/Others/mapRegion0.png"
             />
-            {/* Map Image */}
-            {selectedTile && (
-              <div className="mb-6">
-                <MapViewer tile={selectedTile} />
+          </div>
+
+          {/* Right Side - Map Viewer */}
+          <div className="bg-white/10 backdrop-blur-sm rounded-xl p-6 border border-white/20 flex flex-col h-[600px]">
+            <h2 className="text-2xl font-bold text-white mb-4">
+              {selectedTile ? selectedTile.mapName : "Select a Location"}
+            </h2>
+            {selectedTile ? (
+              <div className="flex-1 min-h-0">
+                <MapViewer tile={selectedTile} className="h-full" />
+              </div>
+            ) : (
+              <div className="flex-1 flex items-center justify-center text-white/60 text-center">
+                <div>
+                  <span className="text-6xl mb-4 block">🗺️</span>
+                  <p className="text-lg">
+                    Click on a location in the map to view details
+                  </p>
+                </div>
               </div>
             )}
           </div>
-
-          {/* Information Panel */}
-          <div className="space-y-6">
-            <EncountersPanel tile={selectedTile} />
-
-            {/* Additional Info */}
-            <div className="bg-white/10 backdrop-blur-sm rounded-xl p-6 border border-white/20">
-              <h3 className="text-lg font-semibold text-white mb-4 flex items-center gap-2">
-                <span>💡</span>
-                Explorer Tips
-              </h3>
-              <div className="space-y-3 text-sm text-white/80">
-                <div className="flex items-start gap-3">
-                  <span className="text-yellow-400">🌟</span>
-                  <span>
-                    Different areas have unique encounter types - look for
-                    special icons!
-                  </span>
-                </div>
-                <div className="flex items-start gap-3">
-                  <span className="text-blue-400">🎣</span>
-                  <span>
-                    Water areas often have fishing encounters with rare aquatic
-                    Pokémon.
-                  </span>
-                </div>
-                <div className="flex items-start gap-3">
-                  <span className="text-green-400">🌳</span>
-                  <span>
-                    Tree encounters can be triggered by using Headbutt on
-                    specific trees.
-                  </span>
-                </div>
-                <div className="flex items-start gap-3">
-                  <span className="text-red-400">⚔️</span>
-                  <span>
-                    Raid encounters are special battles with powerful Pokémon!
-                  </span>
-                </div>
-              </div>
-            </div>
-          </div>
         </div>
 
+        {/* Bottom - Encounters Panel (Full Width Horizontal) */}
+        {selectedTile && (
+          <div className="bg-white/10 backdrop-blur-sm rounded-xl p-6 border border-white/20">
+            <EncountersPanel tile={selectedTile} />
+          </div>
+        )}
+
         {/* Region Lore */}
-        <div className="mt-12 bg-gradient-to-r from-purple-800/30 to-blue-800/30 backdrop-blur-sm rounded-xl p-8 border border-white/20">
+        <div className="mt-8 bg-gradient-to-r from-purple-800/30 to-blue-800/30 backdrop-blur-sm rounded-xl p-8 border border-white/20">
           <h2 className="text-2xl font-bold text-white mb-4 text-center">
             The Legend of Nazan
           </h2>

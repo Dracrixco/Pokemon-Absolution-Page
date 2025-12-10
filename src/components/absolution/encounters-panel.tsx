@@ -1,6 +1,10 @@
 import React from "react";
 import { cn } from "@/lib/utils";
 import type { TileData } from "@/lib/map";
+import { encountersData, type EncounterEntry } from "@/data/encounters";
+import { getAllFakemons } from "@/lib/fakemons";
+import { PokemonImage } from "./pokemon-image";
+import { Link } from "react-router-dom";
 
 interface EncountersPanelProps {
   tile: TileData | null;
@@ -26,6 +30,10 @@ export const EncountersPanel: React.FC<EncountersPanelProps> = ({ tile }) => {
     );
   }
 
+  // Get encounters for this map
+  const mapEncounters = encountersData[tile.mapIngameID] || {};
+  const hasEncounters = Object.keys(mapEncounters).length > 0;
+
   return (
     <div className="bg-white/10 backdrop-blur-sm rounded-xl p-6 border border-white/20">
       {/* Map Header */}
@@ -39,7 +47,7 @@ export const EncountersPanel: React.FC<EncountersPanelProps> = ({ tile }) => {
             <div
               className={cn(
                 "w-4 h-4 rounded-full border-2 border-white/50",
-                getMapColorClass(tile.color),
+                getMapColorClass(tile.color)
               )}
             />
           </div>
@@ -54,7 +62,75 @@ export const EncountersPanel: React.FC<EncountersPanelProps> = ({ tile }) => {
           </span>
         </div>
       </div>
+
+      {/* Encounters Section */}
+      {hasEncounters ? (
+        <div className="space-y-6">
+          <h3 className="text-xl font-semibold text-white mb-4">
+            Wild Encounters
+          </h3>
+          {Object.entries(mapEncounters).map(([encounterType, encounters]) => (
+            <div key={encounterType} className="space-y-2">
+              <h4 className="text-lg font-medium text-white/90">
+                {encounterType}
+              </h4>
+              <div className="overflow-x-auto pb-2">
+                <div className="flex gap-3 min-w-min">
+                  {encounters.map((encounter, idx) => (
+                    <EncounterCard key={idx} encounter={encounter} />
+                  ))}
+                </div>
+              </div>
+            </div>
+          ))}
+        </div>
+      ) : (
+        <div className="text-center py-4 text-white/60">
+          No encounters available for this location.
+        </div>
+      )}
     </div>
+  );
+};
+
+interface EncounterCardProps {
+  encounter: EncounterEntry;
+}
+
+const EncounterCard: React.FC<EncounterCardProps> = ({ encounter }) => {
+  const pokemon = getAllFakemons().find((p) => p.id === encounter.species);
+
+  if (!pokemon) {
+    return null;
+  }
+
+  return (
+    <Link
+      to={`/fakemons/${pokemon.id}`}
+      className="flex-shrink-0 w-40 bg-white/5 rounded-lg p-3 border border-white/10 hover:border-white/30 transition-colors cursor-pointer"
+    >
+      <div className="flex flex-col items-center gap-2">
+        <div className="w-20 h-20 relative">
+          <PokemonImage fakemon={pokemon} size={80} />
+        </div>
+        <div className="text-center w-full">
+          <p className="text-white font-medium text-sm truncate">
+            {pokemon.name}
+          </p>
+          <div className="flex items-center justify-center gap-2 mt-1 text-xs text-white/70">
+            <span>
+              Lv. {encounter.minLevel}
+              {encounter.minLevel !== encounter.maxLevel
+                ? `-${encounter.maxLevel}`
+                : ""}
+            </span>
+          </div>
+          <div className="mt-1 text-xs text-white/60">
+            {encounter.rate}% chance
+          </div>
+        </div>
+      </div>
+    </Link>
   );
 };
 
