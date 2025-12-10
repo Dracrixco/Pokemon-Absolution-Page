@@ -53,7 +53,7 @@ export const PokemonSelectorModal: React.FC<PokemonSelectorModalProps> = ({
 
   const handleTypeToggle = (type: string) => {
     setSelectedTypes((prev) =>
-      prev.includes(type) ? prev.filter((t) => t !== type) : [...prev, type]
+      prev.includes(type) ? prev.filter((t) => t !== type) : [...prev, type],
     );
   };
 
@@ -142,7 +142,7 @@ export const PokemonSelectorModal: React.FC<PokemonSelectorModalProps> = ({
 
               {availableSuffixes.map((suffix) => {
                 const count = fakemons.filter(
-                  (f) => f.suffix === suffix
+                  (f) => f.suffix === suffix,
                 ).length;
                 return (
                   <button
@@ -151,10 +151,10 @@ export const PokemonSelectorModal: React.FC<PokemonSelectorModalProps> = ({
                     className={`px-3 py-2 rounded-lg text-sm font-medium transition-colors ${
                       selectedSuffix === suffix
                         ? `${getSuffixColor(
-                            suffix
+                            suffix,
                           )} text-white ring-2 ring-white shadow-md`
                         : `${getSuffixColor(
-                            suffix
+                            suffix,
                           )} text-white opacity-60 hover:opacity-100`
                     }`}
                   >
@@ -218,10 +218,10 @@ export const PokemonSelectorModal: React.FC<PokemonSelectorModalProps> = ({
                     className={`px-3 py-2 rounded-lg text-xs font-semibold transition-all ${
                       selectedTypes.includes(type)
                         ? `${getTypeColor(
-                            type
+                            type,
                           )} text-white ring-2 ring-white shadow-md`
                         : `${getTypeColor(
-                            type
+                            type,
                           )} text-white opacity-60 hover:opacity-100`
                     }`}
                   >
@@ -238,7 +238,7 @@ export const PokemonSelectorModal: React.FC<PokemonSelectorModalProps> = ({
                       <span
                         key={type}
                         className={`px-2 py-1 rounded text-white text-xs ${getTypeColor(
-                          type
+                          type,
                         )}`}
                       >
                         {type}
@@ -276,7 +276,7 @@ export const PokemonSelectorModal: React.FC<PokemonSelectorModalProps> = ({
           <div
             className={cn(
               "grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3",
-              "lg:grid-cols-4 xl:grid-cols-5 gap-4"
+              "lg:grid-cols-4 xl:grid-cols-5 gap-4",
             )}
           >
             {filteredPokemon.map((pokemon) => (
@@ -307,7 +307,7 @@ export const PokemonSelectorModal: React.FC<PokemonSelectorModalProps> = ({
                   <div className="flex justify-center mb-2">
                     <span
                       className={`px-2 py-1 rounded text-white text-xs ${getSuffixColor(
-                        pokemon.suffix
+                        pokemon.suffix,
                       )}`}
                     >
                       {formatSuffixName(pokemon.suffix)}
@@ -319,7 +319,7 @@ export const PokemonSelectorModal: React.FC<PokemonSelectorModalProps> = ({
                       <span
                         key={type}
                         className={`px-2 py-1 rounded text-white text-xs ${getTypeColor(
-                          type
+                          type,
                         )}`}
                       >
                         {type}
@@ -342,11 +342,11 @@ export const PokemonSelectorModal: React.FC<PokemonSelectorModalProps> = ({
                 selectedTypes.length > 0 &&
                 selectedSuffix !== "all"
                   ? `No Pokémon match "${searchTerm}", have the selected types and are from the ${formatSuffixName(
-                      selectedSuffix
+                      selectedSuffix,
                     )} version`
                   : searchTerm && selectedSuffix !== "all"
                     ? `No Pokémon match "${searchTerm}" in the ${formatSuffixName(
-                        selectedSuffix
+                        selectedSuffix,
                       )} version`
                     : searchTerm && selectedTypes.length > 0
                       ? `No Pokémon match "${searchTerm}" and have the selected types`
@@ -354,13 +354,13 @@ export const PokemonSelectorModal: React.FC<PokemonSelectorModalProps> = ({
                         ? `No Pokémon match "${searchTerm}"`
                         : selectedTypes.length > 0 && selectedSuffix !== "all"
                           ? `No Pokémon with the selected types in the ${formatSuffixName(
-                              selectedSuffix
+                              selectedSuffix,
                             )} version`
                           : selectedTypes.length > 0
                             ? "No Pokémon with the selected types"
                             : selectedSuffix !== "all"
                               ? `No Pokémon in the ${formatSuffixName(
-                                  selectedSuffix
+                                  selectedSuffix,
                                 )} version`
                               : "Try different filters"}
               </p>

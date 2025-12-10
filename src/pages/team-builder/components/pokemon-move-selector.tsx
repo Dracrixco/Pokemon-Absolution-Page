@@ -58,7 +58,7 @@ export const MoveSelector: React.FC<MoveSelectorProps> = ({
     const types = new Set(
       moves
         .filter((move) => availableMoves.includes(move.id))
-        .map((move) => move.type)
+        .map((move) => move.type),
     );
     return Array.from(types).sort();
   }, [availableMoves]);
@@ -108,7 +108,7 @@ export const MoveSelector: React.FC<MoveSelectorProps> = ({
     return moves.filter(
       (move) =>
         availableMoves.includes(move.id) &&
-        move.category.toLowerCase() === category
+        move.category.toLowerCase() === category,
     ).length;
   };
 
@@ -118,7 +118,7 @@ export const MoveSelector: React.FC<MoveSelectorProps> = ({
       return moves.filter((move) => availableMoves.includes(move.id)).length;
     }
     return moves.filter(
-      (move) => availableMoves.includes(move.id) && move.type === type
+      (move) => availableMoves.includes(move.id) && move.type === type,
     ).length;
   };
 
@@ -134,7 +134,7 @@ export const MoveSelector: React.FC<MoveSelectorProps> = ({
             "rounded-lg focus:ring-2",
             "focus:ring-blue-500 bg-white text-left",
             "flex items-center justify-between",
-            "hover:bg-gray-50"
+            "hover:bg-gray-50",
           )}
         >
           <div className="flex items-center gap-2 min-w-0">
@@ -146,7 +146,7 @@ export const MoveSelector: React.FC<MoveSelectorProps> = ({
                   </span>
                   <span
                     className={`px-2 py-1 rounded text-white text-xs ${getTypeColor(
-                      selectedMove.type
+                      selectedMove.type,
                     )}`}
                   >
                     {selectedMove.type}
@@ -180,7 +180,7 @@ export const MoveSelector: React.FC<MoveSelectorProps> = ({
               "border border-gray-300",
               "rounded-lg shadow-lg overflow-hidden",
               "top-0 left-0 right-0 bottom-0",
-              "w-screen h-screen"
+              "w-screen h-screen",
             )}
           >
             {/* Header con búsqueda y filtros */}
@@ -224,7 +224,7 @@ export const MoveSelector: React.FC<MoveSelectorProps> = ({
                           "px-3 py-1 rounded-full text-xs font-medium transition-colors flex items-center gap-1",
                           categoryFilter === category
                             ? "bg-blue-500 text-white"
-                            : "bg-gray-100 text-gray-700 hover:bg-gray-200"
+                            : "bg-gray-100 text-gray-700 hover:bg-gray-200",
                         )}
                       >
                         <span>
@@ -259,7 +259,7 @@ export const MoveSelector: React.FC<MoveSelectorProps> = ({
                       "px-3 py-1 rounded-full text-xs font-medium transition-colors",
                       typeFilter === "all"
                         ? "bg-blue-500 text-white"
-                        : "bg-gray-100 text-gray-700 hover:bg-gray-200"
+                        : "bg-gray-100 text-gray-700 hover:bg-gray-200",
                     )}
                   >
                     All Types ({getTypeCount("all")})
@@ -276,7 +276,7 @@ export const MoveSelector: React.FC<MoveSelectorProps> = ({
                           typeFilter === type
                             ? "ring-2 ring-blue-500 ring-offset-2"
                             : "",
-                          getTypeColor(type)
+                          getTypeColor(type),
                         )}
                       >
                         {type} ({count})
@@ -353,7 +353,7 @@ const MoveButton = ({
         <span className="text-lg">{getCategoryIcon(move.category)}</span>
         <span
           className={`px-2 py-1 rounded text-white text-xs ${getTypeColor(
-            move.type
+            move.type,
           )}`}
         >
           {move.type}
@@ -366,7 +366,7 @@ const MoveButton = ({
           <div className="font-medium text-sm">{move.name}</div>
           <span
             className={`px-2 py-1 rounded text-white text-xs ${getCategoryColor(
-              move.category
+              move.category,
             )}`}
           >
             {move.category}

@@ -13,7 +13,7 @@ export const allPokemonForms: PokemonForm[] = [
  */
 export function getFormsByBaseId(baseId: string): PokemonForm[] {
   return allPokemonForms.filter(
-    (form) => form.baseId.toUpperCase() === baseId.toUpperCase()
+    (form) => form.baseId.toUpperCase() === baseId.toUpperCase(),
   );
 }
 
@@ -22,12 +22,12 @@ export function getFormsByBaseId(baseId: string): PokemonForm[] {
  */
 export function getFormByNumber(
   baseId: string,
-  formNumber: number
+  formNumber: number,
 ): PokemonForm | undefined {
   return allPokemonForms.find(
     (form) =>
       form.baseId.toUpperCase() === baseId.toUpperCase() &&
-      form.formNumber === formNumber
+      form.formNumber === formNumber,
   );
 }
 
@@ -50,7 +50,7 @@ export function getMegaForms(): PokemonForm[] {
  */
 export function getGigantamaxForms(): PokemonForm[] {
   return allPokemonForms.filter((form) =>
-    form.formName.toLowerCase().includes("gigantamax")
+    form.formName.toLowerCase().includes("gigantamax"),
   );
 }
 
@@ -64,7 +64,7 @@ export function getRegionalForms(): PokemonForm[] {
       form.formName.toLowerCase().includes("alolan") ||
       form.formName.toLowerCase().includes("galarian") ||
       form.formName.toLowerCase().includes("hisuian") ||
-      form.formName.toLowerCase().includes("paldean")
+      form.formName.toLowerCase().includes("paldean"),
   );
 }
 
@@ -94,7 +94,7 @@ export function searchForms(query: string): PokemonForm[] {
     (form) =>
       form.name.toLowerCase().includes(lowerQuery) ||
       form.baseId.toLowerCase().includes(lowerQuery) ||
-      form.formName.toLowerCase().includes(lowerQuery)
+      form.formName.toLowerCase().includes(lowerQuery),
   );
 }
 

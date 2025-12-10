@@ -20,7 +20,7 @@ export function getAllFakemons(): Fakemon[] {
  */
 export function getPokemonData(
   id: string,
-  formNumber?: number
+  formNumber?: number,
 ): Fakemon | PokemonForm | undefined {
   const basePokemon = getFakemonById(id);
 

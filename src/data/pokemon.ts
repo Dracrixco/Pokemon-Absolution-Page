@@ -6,7 +6,7 @@ export const fakemons: Fakemon[] = [
     name: "Bulbasaur",
     types: ["GRASS", "POISON"],
     sprite: "/Front/BULBASAUR.png",
-    backSprite: "/spritesBack/BULBASAUR.png",
+    backSprite: "/Back/BULBASAUR.png",
     description:
       "Bulbasaur can be seen napping in bright sunlight. There is a seed on its back. By soaking up the sun's rays, the seed grows progressively larger.",
     stats: {
@@ -134,7 +134,7 @@ export const fakemons: Fakemon[] = [
     name: "Ivysaur",
     types: ["GRASS", "POISON"],
     sprite: "/Front/IVYSAUR.png",
-    backSprite: "/spritesBack/IVYSAUR.png",
+    backSprite: "/Back/IVYSAUR.png",
     description:
       "To support its bulb, Ivysaur's legs grow sturdy. If it spends more time lying in the sunlight, the bud will soon bloom into a large flower.",
     stats: {
@@ -249,7 +249,7 @@ export const fakemons: Fakemon[] = [
     name: "Venusaur",
     types: ["GRASS", "POISON"],
     sprite: "/Front/VENUSAUR.png",
-    backSprite: "/spritesBack/VENUSAUR.png",
+    backSprite: "/Back/VENUSAUR.png",
     description:
       "Venusaur's flower is said to take on vivid colors if it gets plenty of nutrition and sunlight. The flower's aroma soothes the emotions of people.",
     stats: {
@@ -374,7 +374,7 @@ export const fakemons: Fakemon[] = [
     name: "Charmander",
     types: ["FIRE"],
     sprite: "/Front/CHARMANDER.png",
-    backSprite: "/spritesBack/CHARMANDER.png",
+    backSprite: "/Back/CHARMANDER.png",
     description:
       "The flame that burns at the tip of its tail is an indication of its emotions. The flame wavers when Charmander is happy, and blazes when it is enraged.",
     stats: {
@@ -515,7 +515,7 @@ export const fakemons: Fakemon[] = [
     name: "Charmeleon",
     types: ["FIRE"],
     sprite: "/Front/CHARMELEON.png",
-    backSprite: "/spritesBack/CHARMELEON.png",
+    backSprite: "/Back/CHARMELEON.png",
     description:
       "Without pity, its sharp claws destroy foes. If it encounters a strong enemy, it becomes agitated, and the flame on its tail flares with a bluish white color.",
     stats: {
@@ -638,7 +638,7 @@ export const fakemons: Fakemon[] = [
     name: "Charizard",
     types: ["FIRE", "FLYING"],
     sprite: "/Front/CHARIZARD.png",
-    backSprite: "/spritesBack/CHARIZARD.png",
+    backSprite: "/Back/CHARIZARD.png",
     description:
       "A Charizard flies about in search of strong opponents. It breathes intense flames that can melt any material. However, it will never torch a weaker foe.",
     stats: {
@@ -783,7 +783,7 @@ export const fakemons: Fakemon[] = [
     name: "Squirtle",
     types: ["WATER"],
     sprite: "/Front/SQUIRTLE.png",
-    backSprite: "/spritesBack/SQUIRTLE.png",
+    backSprite: "/Back/SQUIRTLE.png",
     description:
       "Its shell is not just for protection. Its rounded shape and the grooves on its surface minimize resistance in water, enabling Squirtle to swim at high speeds.",
     stats: {
@@ -911,7 +911,7 @@ export const fakemons: Fakemon[] = [
     name: "Wartortle",
     types: ["WATER"],
     sprite: "/Front/WARTORTLE.png",
-    backSprite: "/spritesBack/WARTORTLE.png",
+    backSprite: "/Back/WARTORTLE.png",
     description:
       "Its large tail is covered with rich, thick fur that deepens in color with age. The scratches on its shell are evidence of this Pokémon's toughness in battle.",
     stats: {
@@ -1026,7 +1026,7 @@ export const fakemons: Fakemon[] = [
     name: "Blastoise",
     types: ["WATER"],
     sprite: "/Front/BLASTOISE.png",
-    backSprite: "/spritesBack/BLASTOISE.png",
+    backSprite: "/Back/BLASTOISE.png",
     description:
       "The waterspouts that protrude from its shell are highly accurate. Their bullets of water can precisely nail tin cans from a distance of over 160 feet.",
     stats: {
@@ -1156,7 +1156,7 @@ export const fakemons: Fakemon[] = [
     name: "Caterpie",
     types: ["BUG"],
     sprite: "/Front/CATERPIE.png",
-    backSprite: "/spritesBack/CATERPIE.png",
+    backSprite: "/Back/CATERPIE.png",
     description:
       "Its voracious appetite compels it to devour leaves bigger than itself without hesitation. It releases a terribly strong odor from its antennae.",
     stats: {
@@ -1190,7 +1190,7 @@ export const fakemons: Fakemon[] = [
     name: "Metapod",
     types: ["BUG"],
     sprite: "/Front/METAPOD.png",
-    backSprite: "/spritesBack/METAPOD.png",
+    backSprite: "/Back/METAPOD.png",
     description:
       "Its shell is as hard as an iron slab. A Metapod does not move very much because it is preparing its soft innards for evolution inside the shell.",
     stats: {
@@ -1224,7 +1224,7 @@ export const fakemons: Fakemon[] = [
     name: "Butterfree",
     types: ["BUG", "FLYING"],
     sprite: "/Front/BUTTERFREE.png",
-    backSprite: "/spritesBack/BUTTERFREE.png",
+    backSprite: "/Back/BUTTERFREE.png",
     description:
       "It has a superior ability to search for delicious honey from flowers. It can seek, extract, and carry honey from flowers blooming over six miles away.",
     stats: {
@@ -1333,7 +1333,7 @@ export const fakemons: Fakemon[] = [
     name: "Weedle",
     types: ["BUG", "POISON"],
     sprite: "/Front/WEEDLE.png",
-    backSprite: "/spritesBack/WEEDLE.png",
+    backSprite: "/Back/WEEDLE.png",
     description:
       "A Weedle has an extremely acute sense of smell. It distinguishes its favorite kinds of leaves from those it dislikes by sniffing with its big red proboscis (nose).",
     stats: {
@@ -1367,7 +1367,7 @@ export const fakemons: Fakemon[] = [
     name: "Kakuna",
     types: ["BUG", "POISON"],
     sprite: "/Front/KAKUNA.png",
-    backSprite: "/spritesBack/KAKUNA.png",
+    backSprite: "/Back/KAKUNA.png",
     description:
       "It remains virtually immobile while it clings to a tree. However, on the inside, it busily prepares for evolution. This is evident from how hot its shell becomes.",
     stats: {
@@ -1401,7 +1401,7 @@ export const fakemons: Fakemon[] = [
     name: "Beedrill",
     types: ["BUG", "POISON"],
     sprite: "/Front/BEEDRILL.png",
-    backSprite: "/spritesBack/BEEDRILL.png",
+    backSprite: "/Back/BEEDRILL.png",
     description:
       "A Beedrill is extremely territorial. For safety reasons, no one should ever approach its nest. If angered, they will attack in a swarm.",
     stats: {
@@ -1507,7 +1507,7 @@ export const fakemons: Fakemon[] = [
     name: "Pidgey",
     types: ["NORMAL", "FLYING"],
     sprite: "/Front/PIDGEY.png",
-    backSprite: "/spritesBack/PIDGEY.png",
+    backSprite: "/Back/PIDGEY.png",
     description:
       "It has an extremely sharp sense of direction. It can unerringly return home to its nest, however far it may be removed from its familiar surroundings.",
     stats: {
@@ -1597,7 +1597,7 @@ export const fakemons: Fakemon[] = [
     name: "Pidgeotto",
     types: ["NORMAL", "FLYING"],
     sprite: "/Front/PIDGEOTTO.png",
-    backSprite: "/spritesBack/PIDGEOTTO.png",
+    backSprite: "/Back/PIDGEOTTO.png",
     description:
       "This Pokémon flies around, patrolling its large territory. If its living space is violated, it shows no mercy in thoroughly punishing the foe with its sharp claws.",
     stats: {
@@ -1689,7 +1689,7 @@ export const fakemons: Fakemon[] = [
     name: "Pidgeot",
     types: ["NORMAL", "FLYING"],
     sprite: "/Front/PIDGEOT.png",
-    backSprite: "/spritesBack/PIDGEOT.png",
+    backSprite: "/Back/PIDGEOT.png",
     description:
       "Pidgeot has gorgeous, glossy feathers. Many trainers are so captivated by the beautiful feathers on its head that they choose Pidgeot as their Pokémon.",
     stats: {
@@ -1780,7 +1780,7 @@ export const fakemons: Fakemon[] = [
     name: "Rattata",
     types: ["NORMAL"],
     sprite: "/Front/RATTATA.png",
-    backSprite: "/spritesBack/RATTATA.png",
+    backSprite: "/Back/RATTATA.png",
     description:
       "A Rattata is cautious in the extreme. Even while it is asleep, it constantly moves its ears and listens for danger. It will make its nest anywhere.",
     stats: {
@@ -1897,7 +1897,7 @@ export const fakemons: Fakemon[] = [
     name: "Raticate",
     types: ["NORMAL"],
     sprite: "/Front/RATICATE.png",
-    backSprite: "/spritesBack/RATICATE.png",
+    backSprite: "/Back/RATICATE.png",
     description:
       "A Raticate's sturdy fangs grow steadily. To keep them ground down, it gnaws on rocks and logs. It may even chew on the walls of houses.",
     stats: {
@@ -2007,7 +2007,7 @@ export const fakemons: Fakemon[] = [
     name: "Spearow",
     types: ["NORMAL", "FLYING"],
     sprite: "/Front/SPEAROW.png",
-    backSprite: "/spritesBack/SPEAROW.png",
+    backSprite: "/Back/SPEAROW.png",
     description:
       "Its loud cry can be heard over half a mile away. If its high, keening cry is heard echoing all around, it is a sign that they are warning each other of danger.",
     stats: {
@@ -2107,7 +2107,7 @@ export const fakemons: Fakemon[] = [
     name: "Fearow",
     types: ["NORMAL", "FLYING"],
     sprite: "/Front/FEAROW.png",
-    backSprite: "/spritesBack/FEAROW.png",
+    backSprite: "/Back/FEAROW.png",
     description:
       "Its long neck and elongated beak are ideal for catching prey in soil or water. It deftly moves this extended and skinny beak to pluck prey.",
     stats: {
@@ -2200,7 +2200,7 @@ export const fakemons: Fakemon[] = [
     name: "Ekans",
     types: ["POISON"],
     sprite: "/Front/EKANS.png",
-    backSprite: "/spritesBack/EKANS.png",
+    backSprite: "/Back/EKANS.png",
     description:
       "An Ekans curls itself up in a spiral while it rests. This position allows it to quickly respond to an enemy from any direction with a threat from its upraised head.",
     stats: {
@@ -2330,7 +2330,7 @@ export const fakemons: Fakemon[] = [
     name: "Arbok",
     types: ["POISON"],
     sprite: "/Front/ARBOK.png",
-    backSprite: "/spritesBack/ARBOK.png",
+    backSprite: "/Back/ARBOK.png",
     description:
       "This Pokémon has a terrifically strong constricting power. It can even flatten steel oil drums. Once it wraps its body around its foe, escaping is impossible.",
     stats: {
@@ -2459,7 +2459,7 @@ export const fakemons: Fakemon[] = [
     name: "Pikachu",
     types: ["ELECTRIC"],
     sprite: "/Front/PIKACHU.png",
-    backSprite: "/spritesBack/PIKACHU.png",
+    backSprite: "/Back/PIKACHU.png",
     description:
       "It stores electricity in the electric sacs on its cheeks. When it releases pent-up energy in a burst, the electric power is equal to a lightning bolt.",
     stats: {
@@ -2596,7 +2596,7 @@ export const fakemons: Fakemon[] = [
     name: "Raichu",
     types: ["ELECTRIC"],
     sprite: "/Front/RAICHU.png",
-    backSprite: "/spritesBack/RAICHU.png",
+    backSprite: "/Back/RAICHU.png",
     description:
       "If it stores too much electricity, its behavior turns aggressive. To avoid this, it occasionally discharges excess energy and calms itself down.",
     stats: {
@@ -2733,7 +2733,7 @@ export const fakemons: Fakemon[] = [
     name: "Sandshrew",
     types: ["GROUND"],
     sprite: "/Front/SANDSHREW.png",
-    backSprite: "/spritesBack/SANDSHREW.png",
+    backSprite: "/Back/SANDSHREW.png",
     description:
       "When it curls up in a ball, it can make any attack bounce off harmlessly. Its hide has turned tough and solid as a result of living in the desert.",
     stats: {
@@ -2876,7 +2876,7 @@ export const fakemons: Fakemon[] = [
     name: "Sandslash",
     types: ["GROUND"],
     sprite: "/Front/SANDSLASH.png",
-    backSprite: "/spritesBack/SANDSLASH.png",
+    backSprite: "/Back/SANDSLASH.png",
     description:
       "It curls up in a ball to protect itself from enemy attacks. It also curls up to prevent heatstroke during the daytime when temperatures rise sharply.",
     stats: {
@@ -3010,7 +3010,7 @@ export const fakemons: Fakemon[] = [
     name: "Nidoran♀",
     types: ["POISON"],
     sprite: "/Front/NIDORANFE.png",
-    backSprite: "/spritesBack/NIDORANFE.png",
+    backSprite: "/Back/NIDORANFE.png",
     description:
       "Its highly toxic barbs are thought to have developed as protection for this small-bodied Pokémon. When enraged, it releases a horrible toxin from its horn.",
     stats: {
@@ -3127,7 +3127,7 @@ export const fakemons: Fakemon[] = [
     name: "Nidorina",
     types: ["POISON"],
     sprite: "/Front/NIDORINA.png",
-    backSprite: "/spritesBack/NIDORINA.png",
+    backSprite: "/Back/NIDORINA.png",
     description:
       "When it is with its friends or family, its barbs are tucked away to prevent injury. It appears to become nervous if separated from the others.",
     stats: {
@@ -3233,7 +3233,7 @@ export const fakemons: Fakemon[] = [
     name: "Nidoqueen",
     types: ["POISON", "GROUND"],
     sprite: "/Front/NIDOQUEEN.png",
-    backSprite: "/spritesBack/NIDOQUEEN.png",
+    backSprite: "/Back/NIDOQUEEN.png",
     description:
       "It is adept at sending foes flying with harsh tackles using its tough, scaly body. This Pokémon is at its strongest when it is defending its young.",
     stats: {
@@ -3388,7 +3388,7 @@ export const fakemons: Fakemon[] = [
     name: "Nidoran♂",
     types: ["POISON"],
     sprite: "/Front/NIDORANMA.png",
-    backSprite: "/spritesBack/NIDORANMA.png",
+    backSprite: "/Back/NIDORANMA.png",
     description:
       "The male Nidoran has developed muscles that freely move its ears in any direction. Even the slightest sound does not escape this Pokémon's notice.",
     stats: {
@@ -3508,7 +3508,7 @@ export const fakemons: Fakemon[] = [
     name: "Nidorino",
     types: ["POISON"],
     sprite: "/Front/NIDORINO.png",
-    backSprite: "/spritesBack/NIDORINO.png",
+    backSprite: "/Back/NIDORINO.png",
     description:
       "Its horn is harder than a diamond. If it senses a hostile presence, all the barbs on its back bristle up at once, and it challenges the foe with all its might.",
     stats: {
@@ -3615,7 +3615,7 @@ export const fakemons: Fakemon[] = [
     name: "Nidoking",
     types: ["POISON", "GROUND"],
     sprite: "/Front/NIDOKING.png",
-    backSprite: "/spritesBack/NIDOKING.png",
+    backSprite: "/Back/NIDOKING.png",
     description:
       "A Nidoking's thick tail packs enormously destructive power capable of toppling a metal transmission tower. Once it goes on a rampage, there is no stopping it.",
     stats: {
@@ -3771,7 +3771,7 @@ export const fakemons: Fakemon[] = [
     name: "Clefairy",
     types: ["FAIRY"],
     sprite: "/Front/CLEFAIRY.png",
-    backSprite: "/spritesBack/CLEFAIRY.png",
+    backSprite: "/Back/CLEFAIRY.png",
     description:
       "On every night of a full moon, they come out to play. When dawn arrives, the tired Clefairy go to sleep nestled up against each other in deep and quiet mountains.",
     stats: {
@@ -3950,7 +3950,7 @@ export const fakemons: Fakemon[] = [
     name: "Clefable",
     types: ["FAIRY"],
     sprite: "/Front/CLEFABLE.png",
-    backSprite: "/spritesBack/CLEFABLE.png",
+    backSprite: "/Back/CLEFABLE.png",
     description:
       "A Clefable uses its wings to skip lightly as if it were flying. Its bouncy step lets it even walk on water. On quiet, moonlit nights, it strolls on lakes.",
     stats: {
@@ -4128,7 +4128,7 @@ export const fakemons: Fakemon[] = [
     name: "Vulpix",
     types: ["FIRE"],
     sprite: "/Front/VULPIX.png",
-    backSprite: "/spritesBack/VULPIX.png",
+    backSprite: "/Back/VULPIX.png",
     description:
       "It can freely control fire, making fiery orbs fly like will-o'-the-wisps. Just before evolution, its six tails grow hot as if on fire.",
     stats: {
@@ -4260,7 +4260,7 @@ export const fakemons: Fakemon[] = [
     name: "Ninetales",
     types: ["FIRE"],
     sprite: "/Front/NINETALES.png",
-    backSprite: "/spritesBack/NINETALES.png",
+    backSprite: "/Back/NINETALES.png",
     description:
       "It has long been said that each of the nine tails embody an enchanted power. A long-lived Ninetales will have fur that shines like gold.",
     stats: {
@@ -4383,7 +4383,7 @@ export const fakemons: Fakemon[] = [
     name: "Jigglypuff",
     types: ["NORMAL", "FAIRY"],
     sprite: "/Front/JIGGLYPUFF.png",
-    backSprite: "/spritesBack/JIGGLYPUFF.png",
+    backSprite: "/Back/JIGGLYPUFF.png",
     description:
       "Nothing can avoid falling asleep hearing a Jigglypuff's song. The sound waves of its singing voice match the brain waves of someone in a deep sleep.",
     stats: {
@@ -4561,7 +4561,7 @@ export const fakemons: Fakemon[] = [
     name: "Wigglytuff",
     types: ["NORMAL", "FAIRY"],
     sprite: "/Front/WIGGLYTUFF.png",
-    backSprite: "/spritesBack/WIGGLYTUFF.png",
+    backSprite: "/Back/WIGGLYTUFF.png",
     description:
       "Its fur is the ultimate in luxuriousness. Sleeping alongside a Wigglytuff is simply divine. Its body expands seemingly without end when it inhales.",
     stats: {
@@ -4740,7 +4740,7 @@ export const fakemons: Fakemon[] = [
     name: "Zubat",
     types: ["POISON", "FLYING"],
     sprite: "/Front/ZUBAT.png",
-    backSprite: "/spritesBack/ZUBAT.png",
+    backSprite: "/Back/ZUBAT.png",
     description:
       "While living in pitch-black caverns, their eyes gradually grew shut and deprived them of vision. They use ultrasonic waves to detect obstacles.",
     stats: {
@@ -4857,7 +4857,7 @@ export const fakemons: Fakemon[] = [
     name: "Golbat",
     types: ["POISON", "FLYING"],
     sprite: "/Front/GOLBAT.png",
-    backSprite: "/spritesBack/GOLBAT.png",
+    backSprite: "/Back/GOLBAT.png",
     description:
       "Its fangs easily puncture even thick animal hide. It loves to feast on the blood of people and Pokémon. It flits about in darkness and strikes from behind.",
     stats: {
@@ -4961,7 +4961,7 @@ export const fakemons: Fakemon[] = [
     name: "Oddish",
     types: ["GRASS", "POISON"],
     sprite: "/Front/ODDISH.png",
-    backSprite: "/spritesBack/ODDISH.png",
+    backSprite: "/Back/ODDISH.png",
     description:
       "It grows by absorbing moonlight. During the daytime, it buries itself in the ground, leaving only its leaves exposed to avoid detection by its enemies.",
     stats: {
@@ -5070,7 +5070,7 @@ export const fakemons: Fakemon[] = [
     name: "Gloom",
     types: ["GRASS", "POISON"],
     sprite: "/Front/GLOOM.png",
-    backSprite: "/spritesBack/GLOOM.png",
+    backSprite: "/Back/GLOOM.png",
     description:
       "A horribly noxious honey drools from its mouth. One whiff of the honey can result in memory loss. Some fans are said to enjoy this overwhelming stink, however.",
     stats: {
@@ -5169,7 +5169,7 @@ export const fakemons: Fakemon[] = [
     name: "Vileplume",
     types: ["GRASS", "POISON"],
     sprite: "/Front/VILEPLUME.png",
-    backSprite: "/spritesBack/VILEPLUME.png",
+    backSprite: "/Back/VILEPLUME.png",
     description:
       "In seasons when it produces more pollen, the air around a Vileplume turns yellow with the powder as it walks. The pollen is highly toxic and causes paralysis.",
     stats: {
@@ -5273,7 +5273,7 @@ export const fakemons: Fakemon[] = [
     name: "Paras",
     types: ["BUG", "GRASS"],
     sprite: "/Front/PARAS.png",
-    backSprite: "/spritesBack/PARAS.png",
+    backSprite: "/Back/PARAS.png",
     description:
       "A Paras has parasitic tochukaso mushrooms growing on its back. They grow by drawing nutrients from the host. They are valued as a medicine for long life.",
     stats: {
@@ -5387,7 +5387,7 @@ export const fakemons: Fakemon[] = [
     name: "Parasect",
     types: ["BUG", "GRASS"],
     sprite: "/Front/PARASECT.png",
-    backSprite: "/spritesBack/PARASECT.png",
+    backSprite: "/Back/PARASECT.png",
     description:
       "Parasect are known to infest the roots of large trees en masse and drain nutrients. When an infested tree dies, they move onto another tree all at once.",
     stats: {
@@ -5489,7 +5489,7 @@ export const fakemons: Fakemon[] = [
     name: "Venonat",
     types: ["BUG", "POISON"],
     sprite: "/Front/VENONAT.png",
-    backSprite: "/spritesBack/VENONAT.png",
+    backSprite: "/Back/VENONAT.png",
     description:
       "Its coat of thin, stiff hair that covers its entire body is said to have evolved for protection. Its large eyes never fail to spot even miniscule prey.",
     stats: {
@@ -5600,7 +5600,7 @@ export const fakemons: Fakemon[] = [
     name: "Venomoth",
     types: ["BUG", "POISON"],
     sprite: "/Front/VENOMOTH.png",
-    backSprite: "/spritesBack/VENOMOTH.png",
+    backSprite: "/Back/VENOMOTH.png",
     description:
       "Venomoth are nocturnal--they only are active at night. Their favorite prey are insects that gather around streetlights, attracted by the light in the darkness.",
     stats: {
@@ -5711,7 +5711,7 @@ export const fakemons: Fakemon[] = [
     name: "Diglett",
     types: ["GROUND"],
     sprite: "/Front/DIGLETT.png",
-    backSprite: "/spritesBack/DIGLETT.png",
+    backSprite: "/Back/DIGLETT.png",
     description:
       "Diglett are raised in most farms. The reason is simple--wherever they burrow, the soil is left perfectly tilled for growing delicious crops.",
     stats: {
@@ -5834,7 +5834,7 @@ export const fakemons: Fakemon[] = [
     name: "Dugtrio",
     types: ["GROUND"],
     sprite: "/Front/DUGTRIO.png",
-    backSprite: "/spritesBack/DUGTRIO.png",
+    backSprite: "/Back/DUGTRIO.png",
     description:
       "Because the triplets originally split from one body, they think exactly alike. They work cooperatively to burrow endlessly through the ground.",
     stats: {
@@ -5947,7 +5947,7 @@ export const fakemons: Fakemon[] = [
     name: "Meowth",
     types: ["NORMAL"],
     sprite: "/Front/MEOWTH.png",
-    backSprite: "/spritesBack/MEOWTH.png",
+    backSprite: "/Back/MEOWTH.png",
     description:
       "Meowth withdraw their sharp claws into their paws to silently sneak about. For some reason, this Pokémon loves shiny coins that glitter with light.",
     stats: {
@@ -6087,7 +6087,7 @@ export const fakemons: Fakemon[] = [
     name: "Persian",
     types: ["NORMAL"],
     sprite: "/Front/PERSIAN.png",
-    backSprite: "/spritesBack/PERSIAN.png",
+    backSprite: "/Back/PERSIAN.png",
     description:
       "A Persian's six bold whiskers sense air movements to determine what is in its vicinity. It becomes docile if grabbed by the whiskers.",
     stats: {
@@ -6218,7 +6218,7 @@ export const fakemons: Fakemon[] = [
     name: "Psyduck",
     types: ["WATER"],
     sprite: "/Front/PSYDUCK.png",
-    backSprite: "/spritesBack/PSYDUCK.png",
+    backSprite: "/Back/PSYDUCK.png",
     description:
       "When its headache intensifies, it starts using strange powers. However, it has no recollection of its powers, so it always looks befuddled and bewildered.",
     stats: {
@@ -6368,7 +6368,7 @@ export const fakemons: Fakemon[] = [
     name: "Golduck",
     types: ["WATER"],
     sprite: "/Front/GOLDUCK.png",
-    backSprite: "/spritesBack/GOLDUCK.png",
+    backSprite: "/Back/GOLDUCK.png",
     description:
       "A Golduck is an adept swimmer. It sometimes joins competitive swimmers in training. It uses psychic powers when its forehead shimmers with light.",
     stats: {
@@ -6513,7 +6513,7 @@ export const fakemons: Fakemon[] = [
     name: "Mankey",
     types: ["FIGHTING"],
     sprite: "/Front/MANKEY.png",
-    backSprite: "/spritesBack/MANKEY.png",
+    backSprite: "/Back/MANKEY.png",
     description:
       "When it starts shaking and its nasal breathing turns rough, it's a sure sign of anger. However, since this happens instantly, there is no time to flee.",
     stats: {
@@ -6661,7 +6661,7 @@ export const fakemons: Fakemon[] = [
     name: "Primeape",
     types: ["FIGHTING"],
     sprite: "/Front/PRIMEAPE.png",
-    backSprite: "/spritesBack/PRIMEAPE.png",
+    backSprite: "/Back/PRIMEAPE.png",
     description:
       "When it becomes furious, its blood circulation becomes more robust, and its muscles are made stronger. But it also becomes much less intelligent.",
     stats: {
@@ -6806,7 +6806,7 @@ export const fakemons: Fakemon[] = [
     name: "Growlithe",
     types: ["FIRE"],
     sprite: "/Front/GROWLITHE.png",
-    backSprite: "/spritesBack/GROWLITHE.png",
+    backSprite: "/Back/GROWLITHE.png",
     description:
       "Its superb sense of smell ensures that this Pokémon won't forget any scent, no matter what. It uses its sense of smell to detect the emotions of others.",
     stats: {
@@ -6933,7 +6933,7 @@ export const fakemons: Fakemon[] = [
     name: "Arcanine",
     types: ["FIRE"],
     sprite: "/Front/ARCANINE.png",
-    backSprite: "/spritesBack/ARCANINE.png",
+    backSprite: "/Back/ARCANINE.png",
     description:
       "This fleet-footed Pokémon is said to run over 6,200 miles in a single day and night. The fire that blazes wildly within its body is its source of power.",
     stats: {
@@ -7052,7 +7052,7 @@ export const fakemons: Fakemon[] = [
     name: "Poliwag",
     types: ["WATER"],
     sprite: "/Front/POLIWAG.png",
-    backSprite: "/spritesBack/POLIWAG.png",
+    backSprite: "/Back/POLIWAG.png",
     description:
       "It is possible to see this Pokémon's spiral innards right through its thin skin. However, the skin is also very flexible. Even sharp fangs bounce right off it.",
     stats: {
@@ -7164,7 +7164,7 @@ export const fakemons: Fakemon[] = [
     name: "Poliwhirl",
     types: ["WATER"],
     sprite: "/Front/POLIWHIRL.png",
-    backSprite: "/spritesBack/POLIWHIRL.png",
+    backSprite: "/Back/POLIWHIRL.png",
     description:
       "Its body surface is always wet and slick with an oily fluid. Because of this greasy covering, it can easily slip and slide out of the clutches of any enemy in battle.",
     stats: {
@@ -7279,7 +7279,7 @@ export const fakemons: Fakemon[] = [
     name: "Poliwrath",
     types: ["WATER", "FIGHTING"],
     sprite: "/Front/POLIWRATH.png",
-    backSprite: "/spritesBack/POLIWRATH.png",
+    backSprite: "/Back/POLIWRATH.png",
     description:
       "Its highly developed muscles never grow fatigued, however much it exercises. This Pokémon can swim back and forth across the Pacific Ocean without effort.",
     stats: {
@@ -7416,7 +7416,7 @@ export const fakemons: Fakemon[] = [
     name: "Abra",
     types: ["PSYCHIC"],
     sprite: "/Front/ABRA.png",
-    backSprite: "/spritesBack/ABRA.png",
+    backSprite: "/Back/ABRA.png",
     description:
       "A Pokémon that sleeps 18 hours a day. Observation revealed that it uses Teleport to change its location once every hour.",
     stats: {
@@ -7544,7 +7544,7 @@ export const fakemons: Fakemon[] = [
     name: "Kadabra",
     types: ["PSYCHIC"],
     sprite: "/Front/KADABRA.png",
-    backSprite: "/spritesBack/KADABRA.png",
+    backSprite: "/Back/KADABRA.png",
     description:
       "It is rumored that a boy with psychic abilities suddenly transformed into Kadabra while he was assisting research into extrasensory powers.",
     stats: {
@@ -7671,7 +7671,7 @@ export const fakemons: Fakemon[] = [
     name: "Alakazam",
     types: ["PSYCHIC"],
     sprite: "/Front/ALAKAZAM.png",
-    backSprite: "/spritesBack/ALAKAZAM.png",
+    backSprite: "/Back/ALAKAZAM.png",
     description:
       "While it has strong psychic abilities and high intelligence, an Alakazam's muscles are very weak. It uses psychic power to move its body.",
     stats: {
@@ -7805,7 +7805,7 @@ export const fakemons: Fakemon[] = [
     name: "Machop",
     types: ["FIGHTING"],
     sprite: "/Front/MACHOP.png",
-    backSprite: "/spritesBack/MACHOP.png",
+    backSprite: "/Back/MACHOP.png",
     description:
       "It continually undertakes strenuous training to master all forms of martial arts. Its strength lets it easily hoist a sumo wrestler onto its shoulders.",
     stats: {
@@ -7944,7 +7944,7 @@ export const fakemons: Fakemon[] = [
     name: "Machoke",
     types: ["FIGHTING"],
     sprite: "/Front/MACHOKE.png",
-    backSprite: "/spritesBack/MACHOKE.png",
+    backSprite: "/Back/MACHOKE.png",
     description:
       "A belt is worn by a Machoke to keep its overwhelming power under control. Because it is so dangerous, no one has ever removed the belt.",
     stats: {
@@ -8064,7 +8064,7 @@ export const fakemons: Fakemon[] = [
     name: "Machamp",
     types: ["FIGHTING"],
     sprite: "/Front/MACHAMP.png",
-    backSprite: "/spritesBack/MACHAMP.png",
+    backSprite: "/Back/MACHAMP.png",
     description:
       "It is impossible to defend against punches and chops doled out by its four arms. Its fighting spirit flares up when it faces a tough opponent.",
     stats: {
@@ -8194,7 +8194,7 @@ export const fakemons: Fakemon[] = [
     name: "Bellsprout",
     types: ["GRASS", "POISON"],
     sprite: "/Front/BELLSPROUT.png",
-    backSprite: "/spritesBack/BELLSPROUT.png",
+    backSprite: "/Back/BELLSPROUT.png",
     description:
       "A Bellsprout's thin and flexible body lets it bend and sway to avoid any attack, however strong it may be. From its mouth, it leaks a fluid that melts even iron.",
     stats: {
@@ -8315,7 +8315,7 @@ export const fakemons: Fakemon[] = [
     name: "Weepinbell",
     types: ["GRASS", "POISON"],
     sprite: "/Front/WEEPINBELL.png",
-    backSprite: "/spritesBack/WEEPINBELL.png",
+    backSprite: "/Back/WEEPINBELL.png",
     description:
       "At night, a Weepinbell hangs on to a tree branch with its hooked rear and sleeps. If it moves around in its sleep, it may wake up to find itself on the ground.",
     stats: {
@@ -8424,7 +8424,7 @@ export const fakemons: Fakemon[] = [
     name: "Victreebel",
     types: ["GRASS", "POISON"],
     sprite: "/Front/VICTREEBEL.png",
-    backSprite: "/spritesBack/VICTREEBEL.png",
+    backSprite: "/Back/VICTREEBEL.png",
     description:
       "The long vine extending from its head is waved about as if it were a living thing to attract prey. When an unsuspecting victim approaches, it is swallowed whole.",
     stats: {
@@ -8527,7 +8527,7 @@ export const fakemons: Fakemon[] = [
     name: "Tentacool",
     types: ["WATER", "POISON"],
     sprite: "/Front/TENTACOOL.png",
-    backSprite: "/spritesBack/TENTACOOL.png",
+    backSprite: "/Back/TENTACOOL.png",
     description:
       "Its body is almost entirely composed of water. It ensnares its foe with its two long tentacles, then stabs with the poison stingers at their tips.",
     stats: {
@@ -8651,7 +8651,7 @@ export const fakemons: Fakemon[] = [
     name: "Tentacruel",
     types: ["WATER", "POISON"],
     sprite: "/Front/TENTACRUEL.png",
-    backSprite: "/spritesBack/TENTACRUEL.png",
+    backSprite: "/Back/TENTACRUEL.png",
     description:
       "It lives in complex rock formations on the ocean floor and traps prey using its 80 tentacles. Its red orbs glow when it grows excited or agitated.",
     stats: {
@@ -8766,7 +8766,7 @@ export const fakemons: Fakemon[] = [
     name: "Geodude",
     types: ["ROCK", "GROUND"],
     sprite: "/Front/GEODUDE.png",
-    backSprite: "/spritesBack/GEODUDE.png",
+    backSprite: "/Back/GEODUDE.png",
     description:
       "It climbs mountain paths using only the power of its arms. Because they look just like boulders lining paths, hikers may step on them without noticing.",
     stats: {
@@ -8895,7 +8895,7 @@ export const fakemons: Fakemon[] = [
     name: "Graveler",
     types: ["ROCK", "GROUND"],
     sprite: "/Front/GRAVELER.png",
-    backSprite: "/spritesBack/GRAVELER.png",
+    backSprite: "/Back/GRAVELER.png",
     description:
       "They descend from mountains by tumbling down steep slopes. They are so brutal, they smash aside obstructing trees and huge boulders with thunderous tackles.",
     stats: {
@@ -9024,7 +9024,7 @@ export const fakemons: Fakemon[] = [
     name: "Golem",
     types: ["ROCK", "GROUND"],
     sprite: "/Front/GOLEM.png",
-    backSprite: "/spritesBack/GOLEM.png",
+    backSprite: "/Back/GOLEM.png",
     description:
       "It is said to live in volcanic craters on mountain peaks. Once a year, it sheds its hide and grows larger. The shed hide crumbles and returns to the soil.",
     stats: {
@@ -9148,7 +9148,7 @@ export const fakemons: Fakemon[] = [
     name: "Ponyta",
     types: ["FIRE"],
     sprite: "/Front/PONYTA.png",
-    backSprite: "/spritesBack/PONYTA.png",
+    backSprite: "/Back/PONYTA.png",
     description:
       "A Ponyta is very weak at birth. It can barely stand up. Its legs become stronger as it stumbles and falls while trying to keep up with its parent.",
     stats: {
@@ -9257,7 +9257,7 @@ export const fakemons: Fakemon[] = [
     name: "Rapidash",
     types: ["FIRE"],
     sprite: "/Front/RAPIDASH.png",
-    backSprite: "/spritesBack/RAPIDASH.png",
+    backSprite: "/Back/RAPIDASH.png",
     description:
       "It usually canters casually in the fields and plains. But once a Rapidash turns serious, its fiery manes flare and blaze as it gallops its way up to 150 mph.",
     stats: {
@@ -9362,7 +9362,7 @@ export const fakemons: Fakemon[] = [
     name: "Slowpoke",
     types: ["WATER", "PSYCHIC"],
     sprite: "/Front/SLOWPOKE.png",
-    backSprite: "/spritesBack/SLOWPOKE.png",
+    backSprite: "/Back/SLOWPOKE.png",
     description:
       "It catches prey by dipping its tail in water at the side of a river. But it often forgets what it is doing and spends whole days just loafing at the water's edge.",
     stats: {
@@ -9510,7 +9510,7 @@ export const fakemons: Fakemon[] = [
     name: "Slowbro",
     types: ["WATER", "PSYCHIC"],
     sprite: "/Front/SLOWBRO.png",
-    backSprite: "/spritesBack/SLOWBRO.png",
+    backSprite: "/Back/SLOWBRO.png",
     description:
       "Its tail has a Shellder firmly attached with a bite. As a result, the tail can't be used for fishing anymore. This forces it to reluctantly swim and catch prey.",
     stats: {
@@ -9669,7 +9669,7 @@ export const fakemons: Fakemon[] = [
     name: "Magnemite",
     types: ["ELECTRIC", "STEEL"],
     sprite: "/Front/MAGNEMITE.png",
-    backSprite: "/spritesBack/MAGNEMITE.png",
+    backSprite: "/Back/MAGNEMITE.png",
     description:
       "The units at its sides are extremely powerful magnets. They generate enough magnetism to draw in iron objects from over 300 feet away.",
     stats: {
@@ -9776,7 +9776,7 @@ export const fakemons: Fakemon[] = [
     name: "Magneton",
     types: ["ELECTRIC", "STEEL"],
     sprite: "/Front/MAGNETON.png",
-    backSprite: "/spritesBack/MAGNETON.png",
+    backSprite: "/Back/MAGNETON.png",
     description:
       "It is actually three Magnemite linked by magnetism. It generates powerful radio waves that raise temperatures by 3.6 degrees F within a 3,300-foot radius.",
     stats: {
@@ -9887,7 +9887,7 @@ export const fakemons: Fakemon[] = [
     name: "Farfetch'd",
     types: ["NORMAL", "FLYING"],
     sprite: "/Front/FARFETCHD.png",
-    backSprite: "/spritesBack/FARFETCHD.png",
+    backSprite: "/Back/FARFETCHD.png",
     description:
       "It is always seen with a stick from a plant. Apparently, there are good sticks and bad sticks. This Pokémon occasionally fights with others over choice sticks.",
     stats: {
@@ -10016,7 +10016,7 @@ export const fakemons: Fakemon[] = [
     name: "Doduo",
     types: ["NORMAL", "FLYING"],
     sprite: "/Front/DODUO.png",
-    backSprite: "/spritesBack/DODUO.png",
+    backSprite: "/Back/DODUO.png",
     description:
       "Even while eating or sleeping, one of the heads remains always vigilant for any sign of danger. When threatened, it flees at over 60 miles per hour.",
     stats: {
@@ -10123,7 +10123,7 @@ export const fakemons: Fakemon[] = [
     name: "Dodrio",
     types: ["NORMAL", "FLYING"],
     sprite: "/Front/DODRIO.png",
-    backSprite: "/spritesBack/DODRIO.png",
+    backSprite: "/Back/DODRIO.png",
     description:
       "A peculiar Pokémon species with three heads. It vigorously races across grassy plains even in arid seasons with little rainfall.",
     stats: {
@@ -10227,7 +10227,7 @@ export const fakemons: Fakemon[] = [
     name: "Seel",
     types: ["WATER"],
     sprite: "/Front/SEEL.png",
-    backSprite: "/spritesBack/SEEL.png",
+    backSprite: "/Back/SEEL.png",
     description:
       "Seel hunt for prey in frigid, ice-covered seas. When it needs to breathe, it punches a hole through the ice with the sharply protruding section of its head.",
     stats: {
@@ -10354,7 +10354,7 @@ export const fakemons: Fakemon[] = [
     name: "Dewgong",
     types: ["WATER", "ICE"],
     sprite: "/Front/DEWGONG.png",
-    backSprite: "/spritesBack/DEWGONG.png",
+    backSprite: "/Back/DEWGONG.png",
     description:
       "It loves to snooze on bitterly cold ice. The sight of this Pokémon sleeping on a glacier was mistakenly thought to be a mermaid by a mariner long ago.",
     stats: {
@@ -10469,7 +10469,7 @@ export const fakemons: Fakemon[] = [
     name: "Grimer",
     types: ["POISON"],
     sprite: "/Front/GRIMER.png",
-    backSprite: "/spritesBack/GRIMER.png",
+    backSprite: "/Back/GRIMER.png",
     description:
       "Born from polluted sludge in the sea, Grimer's favorite food is anything filthy. They feed on wastewater pumped out from factories.",
     stats: {
@@ -10604,7 +10604,7 @@ export const fakemons: Fakemon[] = [
     name: "Muk",
     types: ["POISON"],
     sprite: "/Front/MUK.png",
-    backSprite: "/spritesBack/MUK.png",
+    backSprite: "/Back/MUK.png",
     description:
       "It prefers warm and humid habitats. In the summertime, the toxic substances in its body intensify, making Muk reek like putrid kitchen garbage.",
     stats: {
@@ -10733,7 +10733,7 @@ export const fakemons: Fakemon[] = [
     name: "Shellder",
     types: ["WATER"],
     sprite: "/Front/SHELLDER.png",
-    backSprite: "/spritesBack/SHELLDER.png",
+    backSprite: "/Back/SHELLDER.png",
     description:
       "At night, it burrows a hole in the seafloor with its broad tongue to make a place to sleep. While asleep, it closes its shell, but leaves its tongue hanging out.",
     stats: {
@@ -10846,7 +10846,7 @@ export const fakemons: Fakemon[] = [
     name: "Cloyster",
     types: ["WATER", "ICE"],
     sprite: "/Front/CLOYSTER.png",
-    backSprite: "/spritesBack/CLOYSTER.png",
+    backSprite: "/Back/CLOYSTER.png",
     description:
       "It swims in the sea by swallowing water, then jetting it out toward the rear. The Cloyster shoots spikes from its shell using the same system.",
     stats: {
@@ -10960,7 +10960,7 @@ export const fakemons: Fakemon[] = [
     name: "Gastly",
     types: ["GHOST", "POISON"],
     sprite: "/Front/GASTLY.png",
-    backSprite: "/spritesBack/GASTLY.png",
+    backSprite: "/Back/GASTLY.png",
     description:
       "When exposed to a strong wind, a Gastly's gaseous body quickly dwindles away. They cluster under the eaves of houses to escape the ravages of wind.",
     stats: {
@@ -11099,7 +11099,7 @@ export const fakemons: Fakemon[] = [
     name: "Haunter",
     types: ["GHOST", "POISON"],
     sprite: "/Front/HAUNTER.png",
-    backSprite: "/spritesBack/HAUNTER.png",
+    backSprite: "/Back/HAUNTER.png",
     description:
       "If a Haunter beckons you while it is floating in darkness, don't approach it. This Pokémon will try to lick you with its tongue and steal your life away.",
     stats: {
@@ -11226,7 +11226,7 @@ export const fakemons: Fakemon[] = [
     name: "Gengar",
     types: ["GHOST", "POISON"],
     sprite: "/Front/GENGAR.png",
-    backSprite: "/spritesBack/GENGAR.png",
+    backSprite: "/Back/GENGAR.png",
     description:
       "Deep in the night, your shadow cast by a streetlight may suddenly overtake you. It is actually a Gengar running past you, pretending to be your shadow.",
     stats: {
@@ -11375,7 +11375,7 @@ export const fakemons: Fakemon[] = [
     name: "Onix",
     types: ["ROCK", "GROUND"],
     sprite: "/Front/ONIX.png",
-    backSprite: "/spritesBack/ONIX.png",
+    backSprite: "/Back/ONIX.png",
     description:
       "There is a magnet in its brain that prevents an Onix from losing direction while tunneling. As it grows older, its body becomes steadily rounder and smoother.",
     stats: {
@@ -11510,7 +11510,7 @@ export const fakemons: Fakemon[] = [
     name: "Drowzee",
     types: ["PSYCHIC"],
     sprite: "/Front/DROWZEE.png",
-    backSprite: "/spritesBack/DROWZEE.png",
+    backSprite: "/Back/DROWZEE.png",
     description:
       "If your nose becomes itchy while you are sleeping, it's a sure sign that a Drowzee is standing above your pillow and trying to eat your dream through your nostrils.",
     stats: {
@@ -11660,7 +11660,7 @@ export const fakemons: Fakemon[] = [
     name: "Hypno",
     types: ["PSYCHIC"],
     sprite: "/Front/HYPNO.png",
-    backSprite: "/spritesBack/HYPNO.png",
+    backSprite: "/Back/HYPNO.png",
     description:
       "The arcing movement and glitter of the pendulum in a Hypno's hand lull the foe into deep hypnosis. While searching for prey, it polishes the pendulum.",
     stats: {
@@ -11803,7 +11803,7 @@ export const fakemons: Fakemon[] = [
     name: "Krabby",
     types: ["WATER"],
     sprite: "/Front/KRABBY.png",
-    backSprite: "/spritesBack/KRABBY.png",
+    backSprite: "/Back/KRABBY.png",
     description:
       "Krabby live in holes dug into beaches. On sandy shores with little in the way of food, they can be seen squabbling with each other over territory.",
     stats: {
@@ -11923,7 +11923,7 @@ export const fakemons: Fakemon[] = [
     name: "Kingler",
     types: ["WATER"],
     sprite: "/Front/KINGLER.png",
-    backSprite: "/spritesBack/KINGLER.png",
+    backSprite: "/Back/KINGLER.png",
     description:
       "It waves its huge, oversized claw in the air to communicate with others. But since the claw is so heavy, this Pokémon quickly tires.",
     stats: {
@@ -12033,7 +12033,7 @@ export const fakemons: Fakemon[] = [
     name: "Voltorb",
     types: ["ELECTRIC"],
     sprite: "/Front/VOLTORB.png",
-    backSprite: "/spritesBack/VOLTORB.png",
+    backSprite: "/Back/VOLTORB.png",
     description:
       "It bears an uncanny and unexplained resemblance to a Poké Ball. Because it explodes at the slightest shock, even veteran trainers treat it with caution.",
     stats: {
@@ -12137,7 +12137,7 @@ export const fakemons: Fakemon[] = [
     name: "Electrode",
     types: ["ELECTRIC"],
     sprite: "/Front/ELECTRODE.png",
-    backSprite: "/spritesBack/ELECTRODE.png",
+    backSprite: "/Back/ELECTRODE.png",
     description:
       "They appear in great numbers at electric power plants. Because they feed on electricity, they cause massive and chaotic blackouts in nearby cities.",
     stats: {
@@ -12242,7 +12242,7 @@ export const fakemons: Fakemon[] = [
     name: "Exeggcute",
     types: ["GRASS", "PSYCHIC"],
     sprite: "/Front/EXEGGCUTE.png",
-    backSprite: "/spritesBack/EXEGGCUTE.png",
+    backSprite: "/Back/EXEGGCUTE.png",
     description:
       "It consists of six eggs that care for each other. The eggs attract each other and spin around. When cracks increasingly appear, it is close to evolution.",
     stats: {
@@ -12367,7 +12367,7 @@ export const fakemons: Fakemon[] = [
     name: "Exeggutor",
     types: ["GRASS", "PSYCHIC"],
     sprite: "/Front/EXEGGUTOR.png",
-    backSprite: "/spritesBack/EXEGGUTOR.png",
+    backSprite: "/Back/EXEGGUTOR.png",
     description:
       "Originally from the tropics, Exeggutor's heads grow larger with exposure to bright sunlight. It is said that when the heads fall, they group to form an Exeggcute.",
     stats: {
@@ -12497,7 +12497,7 @@ export const fakemons: Fakemon[] = [
     name: "Cubone",
     types: ["GROUND"],
     sprite: "/Front/CUBONE.png",
-    backSprite: "/spritesBack/CUBONE.png",
+    backSprite: "/Back/CUBONE.png",
     description:
       "It pines for the mother it will never see again. Seeing a likeness of its mother in the full moon, it cries. The stains on the skull it wears are from its tears.",
     stats: {
@@ -12631,7 +12631,7 @@ export const fakemons: Fakemon[] = [
     name: "Marowak",
     types: ["GROUND"],
     sprite: "/Front/MAROWAK.png",
-    backSprite: "/spritesBack/MAROWAK.png",
+    backSprite: "/Back/MAROWAK.png",
     description:
       "A Marowak is the evolved form of a Cubone that has grown tough by overcoming the grief of losing its mother. Its tempered and hardened spirit is not easily broken.",
     stats: {
@@ -12755,7 +12755,7 @@ export const fakemons: Fakemon[] = [
     name: "Hitmonlee",
     types: ["FIGHTING"],
     sprite: "/Front/HITMONLEE.png",
-    backSprite: "/spritesBack/HITMONLEE.png",
+    backSprite: "/Back/HITMONLEE.png",
     description:
       "Its legs freely stretch and contract. Using these springlike limbs, it bowls over foes with devastating kicks. After battle, it rubs down its tired legs.",
     stats: {
@@ -12883,7 +12883,7 @@ export const fakemons: Fakemon[] = [
     name: "Hitmonchan",
     types: ["FIGHTING"],
     sprite: "/Front/HITMONCHAN.png",
-    backSprite: "/spritesBack/HITMONCHAN.png",
+    backSprite: "/Back/HITMONCHAN.png",
     description:
       "A Hitmonchan is said to possess the spirit of a boxer who aimed to become the world champion. Having an indomitable spirit means that it will never give up.",
     stats: {
@@ -13014,7 +13014,7 @@ export const fakemons: Fakemon[] = [
     name: "Lickitung",
     types: ["NORMAL"],
     sprite: "/Front/LICKITUNG.png",
-    backSprite: "/spritesBack/LICKITUNG.png",
+    backSprite: "/Back/LICKITUNG.png",
     description:
       "Whenever it sees something unfamiliar, it always licks the object because it memorizes things by texture and taste. It is somewhat put off by sour things.",
     stats: {
@@ -13161,7 +13161,7 @@ export const fakemons: Fakemon[] = [
     name: "Koffing",
     types: ["POISON"],
     sprite: "/Front/KOFFING.png",
-    backSprite: "/spritesBack/KOFFING.png",
+    backSprite: "/Back/KOFFING.png",
     description:
       "Getting up close to a Koffing will give you a chance to observe, through its thin skin, the toxic gases swirling inside. It blows up at the slightest stimulation.",
     stats: {
@@ -13285,7 +13285,7 @@ export const fakemons: Fakemon[] = [
     name: "Weezing",
     types: ["POISON"],
     sprite: "/Front/WEEZING.png",
-    backSprite: "/spritesBack/WEEZING.png",
+    backSprite: "/Back/WEEZING.png",
     description:
       "By diluting its toxic gases with a special process, the highest grade of perfume can be made. To Weezing, gases emanating from garbage are the ultimate feast.",
     stats: {
@@ -13395,7 +13395,7 @@ export const fakemons: Fakemon[] = [
     name: "Rhyhorn",
     types: ["GROUND", "ROCK"],
     sprite: "/Front/RHYHORN.png",
-    backSprite: "/spritesBack/RHYHORN.png",
+    backSprite: "/Back/RHYHORN.png",
     description:
       "Once it starts running, it doesn't stop. Its tiny brain makes it so stupid that it can't remember why it started running in the first place.",
     stats: {
@@ -13541,7 +13541,7 @@ export const fakemons: Fakemon[] = [
     name: "Rhydon",
     types: ["GROUND", "ROCK"],
     sprite: "/Front/RHYDON.png",
-    backSprite: "/spritesBack/RHYDON.png",
+    backSprite: "/Back/RHYDON.png",
     description:
       "Its horn, which rotates like a drill, destroys tall buildings with one strike. It stands on its hind legs, and its brain is well developed.",
     stats: {
@@ -13703,7 +13703,7 @@ export const fakemons: Fakemon[] = [
     name: "Chansey",
     types: ["NORMAL"],
     sprite: "/Front/CHANSEY.png",
-    backSprite: "/spritesBack/CHANSEY.png",
+    backSprite: "/Back/CHANSEY.png",
     description:
       "Chansey lay nutritionally excellent eggs every day. The eggs are so delicious, they are eagerly devoured by even those who have lost their appetite.",
     stats: {
@@ -13868,7 +13868,7 @@ export const fakemons: Fakemon[] = [
     name: "Tangela",
     types: ["GRASS"],
     sprite: "/Front/TANGELA.png",
-    backSprite: "/spritesBack/TANGELA.png",
+    backSprite: "/Back/TANGELA.png",
     description:
       "Its vines snap off easily and painlessly if they are grabbed, allowing it to make a quick getaway. The lost vines are replaced by new growth the very next day.",
     stats: {
@@ -13986,7 +13986,7 @@ export const fakemons: Fakemon[] = [
     name: "Kangaskhan",
     types: ["NORMAL"],
     sprite: "/Front/KANGASKHAN.png",
-    backSprite: "/spritesBack/KANGASKHAN.png",
+    backSprite: "/Back/KANGASKHAN.png",
     description:
       "If you come across a young Kangaskhan playing by itself, never try to catch it. The baby's parent is sure to be in the area, and it will become violently enraged.",
     stats: {
@@ -14134,7 +14134,7 @@ export const fakemons: Fakemon[] = [
     name: "Horsea",
     types: ["WATER"],
     sprite: "/Front/HORSEA.png",
-    backSprite: "/spritesBack/HORSEA.png",
+    backSprite: "/Back/HORSEA.png",
     description:
       "By cleverly flicking the fins on its back side to side, it moves in any direction while facing forward. It spits ink to escape if it senses danger.",
     stats: {
@@ -14242,7 +14242,7 @@ export const fakemons: Fakemon[] = [
     name: "Seadra",
     types: ["WATER"],
     sprite: "/Front/SEADRA.png",
-    backSprite: "/spritesBack/SEADRA.png",
+    backSprite: "/Back/SEADRA.png",
     description:
       "The poisonous barbs all over its body are highly valued as ingredients for making traditional herbal medicine. It shows no mercy to anything approaching its nest.",
     stats: {
@@ -14345,7 +14345,7 @@ export const fakemons: Fakemon[] = [
     name: "Goldeen",
     types: ["WATER"],
     sprite: "/Front/GOLDEEN.png",
-    backSprite: "/spritesBack/GOLDEEN.png",
+    backSprite: "/Back/GOLDEEN.png",
     description:
       "In the springtime, schools of Goldeen can be seen swimming up falls and rivers. It metes out staggering damage with its single horn.",
     stats: {
@@ -14454,7 +14454,7 @@ export const fakemons: Fakemon[] = [
     name: "Seaking",
     types: ["WATER"],
     sprite: "/Front/SEAKING.png",
-    backSprite: "/spritesBack/SEAKING.png",
+    backSprite: "/Back/SEAKING.png",
     description:
       "It punches holes in boulders on stream- beds. This is a clever innovation that prevents its eggs from being attacked or washed away by the current.",
     stats: {
@@ -14549,7 +14549,7 @@ export const fakemons: Fakemon[] = [
     name: "Staryu",
     types: ["WATER"],
     sprite: "/Front/STARYU.png",
-    backSprite: "/spritesBack/STARYU.png",
+    backSprite: "/Back/STARYU.png",
     description:
       "It gathers with others in the night and makes its red core glow on and off with the twinkling stars. It can regenerate limbs if they are severed from its body.",
     stats: {
@@ -14655,7 +14655,7 @@ export const fakemons: Fakemon[] = [
     name: "Starmie",
     types: ["WATER", "PSYCHIC"],
     sprite: "/Front/STARMIE.png",
-    backSprite: "/spritesBack/STARMIE.png",
+    backSprite: "/Back/STARMIE.png",
     description:
       "People in ancient times imagined that Starmie were transformed from the reflections of stars that twinkled on gentle waves at night.",
     stats: {
@@ -14771,7 +14771,7 @@ export const fakemons: Fakemon[] = [
     name: "Mr. Mime",
     types: ["PSYCHIC", "FAIRY"],
     sprite: "/Front/MRMIME.png",
-    backSprite: "/spritesBack/MRMIME.png",
+    backSprite: "/Back/MRMIME.png",
     description:
       "A Mr. Mime is a master of pantomime. It can convince others that something unseeable actually exists. Once believed, the imaginary object does become real.",
     stats: {
@@ -14934,7 +14934,7 @@ export const fakemons: Fakemon[] = [
     name: "Scyther",
     types: ["BUG", "FLYING"],
     sprite: "/Front/SCYTHER.png",
-    backSprite: "/spritesBack/SCYTHER.png",
+    backSprite: "/Back/SCYTHER.png",
     description:
       "Its blindingly fast speed adds to the sharpness of its twin forearm scythes. The scythes can slice through thick logs in one wicked stroke.",
     stats: {
@@ -15061,7 +15061,7 @@ export const fakemons: Fakemon[] = [
     name: "Jynx",
     types: ["ICE", "PSYCHIC"],
     sprite: "/Front/JYNX.png",
-    backSprite: "/spritesBack/JYNX.png",
+    backSprite: "/Back/JYNX.png",
     description:
       "A Jynx sashays rhythmically as if it were dancing. Its motions are so bouncingly alluring, people seeing it are compelled to shake their hips without noticing.",
     stats: {
@@ -15198,7 +15198,7 @@ export const fakemons: Fakemon[] = [
     name: "Electabuzz",
     types: ["ELECTRIC"],
     sprite: "/Front/ELECTABUZZ.png",
-    backSprite: "/spritesBack/ELECTABUZZ.png",
+    backSprite: "/Back/ELECTABUZZ.png",
     description:
       "When a storm approaches, it competes with others to scale heights that are likely to be stricken by lightning. Some towns use Electabuzz as lightning rods.",
     stats: {
@@ -15327,7 +15327,7 @@ export const fakemons: Fakemon[] = [
     name: "Magmar",
     types: ["FIRE"],
     sprite: "/Front/MAGMAR.png",
-    backSprite: "/spritesBack/MAGMAR.png",
+    backSprite: "/Back/MAGMAR.png",
     description:
       "In battle, it blows out intense flames from all over its body to intimidate its foe. These fiery bursts create heat waves that ignite grass and trees.",
     stats: {
@@ -15454,7 +15454,7 @@ export const fakemons: Fakemon[] = [
     name: "Pinsir",
     types: ["BUG"],
     sprite: "/Front/PINSIR.png",
-    backSprite: "/spritesBack/PINSIR.png",
+    backSprite: "/Back/PINSIR.png",
     description:
       "Their pincers are strong enough to shatter thick logs. Because they dislike cold, Pinsir burrow and sleep under the ground on chilly nights.",
     stats: {
@@ -15572,7 +15572,7 @@ export const fakemons: Fakemon[] = [
     name: "Tauros",
     types: ["NORMAL"],
     sprite: "/Front/TAUROS.png",
-    backSprite: "/spritesBack/TAUROS.png",
+    backSprite: "/Back/TAUROS.png",
     description:
       "It is not satisfied unless it is rampaging at all times. If there is no opponent for Tauros to battle, it will charge at thick trees and knock them down to calm itself.",
     stats: {
@@ -15691,7 +15691,7 @@ export const fakemons: Fakemon[] = [
     name: "Magikarp",
     types: ["WATER"],
     sprite: "/Front/MAGIKARP.png",
-    backSprite: "/spritesBack/MAGIKARP.png",
+    backSprite: "/Back/MAGIKARP.png",
     description:
       "Its swimming muscles are weak, so it is easily washed away by currents. In places where water pools, you can see many Magikarp deposited there by the flow.",
     stats: {
@@ -15725,7 +15725,7 @@ export const fakemons: Fakemon[] = [
     name: "Gyarados",
     types: ["WATER", "FLYING"],
     sprite: "/Front/GYARADOS.png",
-    backSprite: "/spritesBack/GYARADOS.png",
+    backSprite: "/Back/GYARADOS.png",
     description:
       "It is an extremely vicious and violent Pokémon. When humans begin to fight, it will appear and burn everything to the ground with intensely hot flames.",
     stats: {
@@ -15855,7 +15855,7 @@ export const fakemons: Fakemon[] = [
     name: "Lapras",
     types: ["WATER", "ICE"],
     sprite: "/Front/LAPRAS.png",
-    backSprite: "/spritesBack/LAPRAS.png",
+    backSprite: "/Back/LAPRAS.png",
     description:
       "People have driven Lapras almost to the point of extinction. In the evenings, it is said to sing plaintively as it seeks what few others of its kind still remain.",
     stats: {
@@ -15994,7 +15994,7 @@ export const fakemons: Fakemon[] = [
     name: "Ditto",
     types: ["NORMAL"],
     sprite: "/Front/DITTO.png",
-    backSprite: "/spritesBack/DITTO.png",
+    backSprite: "/Back/DITTO.png",
     description:
       "A Ditto rearranges its cell structure to transform itself. However, if it tries to change based on its memory, it will get details wrong.",
     stats: {
@@ -16022,7 +16022,7 @@ export const fakemons: Fakemon[] = [
     name: "Eevee",
     types: ["NORMAL"],
     sprite: "/Front/EEVEE.png",
-    backSprite: "/spritesBack/EEVEE.png",
+    backSprite: "/Back/EEVEE.png",
     description:
       "An Eevee has an unstable genetic makeup that suddenly mutates due to its environment. Radiation from various stones causes this Pokémon to evolve.",
     stats: {
@@ -16139,7 +16139,7 @@ export const fakemons: Fakemon[] = [
     name: "Vaporeon",
     types: ["WATER"],
     sprite: "/Front/VAPOREON.png",
-    backSprite: "/spritesBack/VAPOREON.png",
+    backSprite: "/Back/VAPOREON.png",
     description:
       "Vaporeon underwent a spontaneous mutation and grew fins and gills that allow them to live underwater. They have the ability to freely control water.",
     stats: {
@@ -16267,7 +16267,7 @@ export const fakemons: Fakemon[] = [
     name: "Jolteon",
     types: ["ELECTRIC"],
     sprite: "/Front/JOLTEON.png",
-    backSprite: "/spritesBack/JOLTEON.png",
+    backSprite: "/Back/JOLTEON.png",
     description:
       "Its cells generate weak power that is amplified by its fur's static electricity to drop thunderbolts. The bristling fur is made of electrically charged needles.",
     stats: {
@@ -16398,7 +16398,7 @@ export const fakemons: Fakemon[] = [
     name: "Flareon",
     types: ["FIRE"],
     sprite: "/Front/FLAREON.png",
-    backSprite: "/spritesBack/FLAREON.png",
+    backSprite: "/Back/FLAREON.png",
     description:
       "Flareon's fluffy fur releases heat into the air so that its body does not get excessively hot. Its body temperature can rise to a maximum of 1,650 degrees F.",
     stats: {
@@ -16524,7 +16524,7 @@ export const fakemons: Fakemon[] = [
     name: "Porygon",
     types: ["NORMAL"],
     sprite: "/Front/PORYGON.png",
-    backSprite: "/spritesBack/PORYGON.png",
+    backSprite: "/Back/PORYGON.png",
     description:
       "It is capable of reverting itself entirely back to program data in order to enter cyberspace. A Porygon is copy-protected so it cannot be duplicated.",
     stats: {
@@ -16637,7 +16637,7 @@ export const fakemons: Fakemon[] = [
     name: "Omanyte",
     types: ["ROCK", "WATER"],
     sprite: "/Front/OMANYTE.png",
-    backSprite: "/spritesBack/OMANYTE.png",
+    backSprite: "/Back/OMANYTE.png",
     description:
       "One of the ancient and long-since-extinct Pokémon that have been regenerated from fossils by humans. If attacked, it withdraws into its hard shell.",
     stats: {
@@ -16758,7 +16758,7 @@ export const fakemons: Fakemon[] = [
     name: "Omastar",
     types: ["ROCK", "WATER"],
     sprite: "/Front/OMASTAR.png",
-    backSprite: "/spritesBack/OMASTAR.png",
+    backSprite: "/Back/OMASTAR.png",
     description:
       "An Omastar uses its tentacles to capture its prey. It is believed to have become extinct because its shell grew too large, making its movements slow and ponderous.",
     stats: {
@@ -16867,7 +16867,7 @@ export const fakemons: Fakemon[] = [
     name: "Kabuto",
     types: ["ROCK", "WATER"],
     sprite: "/Front/KABUTO.png",
-    backSprite: "/spritesBack/KABUTO.png",
+    backSprite: "/Back/KABUTO.png",
     description:
       "This Pokémon has been regenerated from a fossil. However, in rare cases, living examples have been discovered. Kabuto have not changed for 300 million years.",
     stats: {
@@ -16987,7 +16987,7 @@ export const fakemons: Fakemon[] = [
     name: "Kabutops",
     types: ["ROCK", "WATER"],
     sprite: "/Front/KABUTOPS.png",
-    backSprite: "/spritesBack/KABUTOPS.png",
+    backSprite: "/Back/KABUTOPS.png",
     description:
       "Kabutops once swam underwater to hunt for prey. It was apparently evolving from being a water dweller to living on land as evident from changes in its gills and legs.",
     stats: {
@@ -17112,7 +17112,7 @@ export const fakemons: Fakemon[] = [
     name: "Aerodactyl",
     types: ["ROCK", "FLYING"],
     sprite: "/Front/AERODACTYL.png",
-    backSprite: "/spritesBack/AERODACTYL.png",
+    backSprite: "/Back/AERODACTYL.png",
     description:
       "Aerodactyl is a Pokémon from the age of dinosaurs. It was regenerated from DNA extracted from amber. It is imagined to have been the king of the skies.",
     stats: {
@@ -17244,7 +17244,7 @@ export const fakemons: Fakemon[] = [
     name: "Snorlax",
     types: ["NORMAL"],
     sprite: "/Front/SNORLAX.png",
-    backSprite: "/spritesBack/SNORLAX.png",
+    backSprite: "/Back/SNORLAX.png",
     description:
       "Snorlax's typical day consists of nothing more than eating and sleeping. It is such a docile Pokémon that there are children who use its big belly as a place to play.",
     stats: {
@@ -17420,7 +17420,7 @@ export const fakemons: Fakemon[] = [
     name: "Articuno",
     types: ["ICE", "FLYING"],
     sprite: "/Front/ARTICUNO.png",
-    backSprite: "/spritesBack/ARTICUNO.png",
+    backSprite: "/Back/ARTICUNO.png",
     description:
       "Articuno is a legendary bird Pokémon that can control ice. The flapping of its wings chills the air. As a result, it is said that when this Pokémon flies, snow will fall.",
     stats: {
@@ -17533,7 +17533,7 @@ export const fakemons: Fakemon[] = [
     name: "Zapdos",
     types: ["ELECTRIC", "FLYING"],
     sprite: "/Front/ZAPDOS.png",
-    backSprite: "/spritesBack/ZAPDOS.png",
+    backSprite: "/Back/ZAPDOS.png",
     description:
       "Zapdos is a legendary bird Pokémon that has the ability to control electricity. It usually lives in thunderclouds. It gains power if it is stricken by lightning bolts.",
     stats: {
@@ -17645,7 +17645,7 @@ export const fakemons: Fakemon[] = [
     name: "Moltres",
     types: ["FIRE", "FLYING"],
     sprite: "/Front/MOLTRES.png",
-    backSprite: "/spritesBack/MOLTRES.png",
+    backSprite: "/Back/MOLTRES.png",
     description:
       "Moltres is a legendary bird Pokémon that can control fire. If injured, it is said to dip its body in the molten magma of a volcano to burn and heal itself.",
     stats: {
@@ -17757,7 +17757,7 @@ export const fakemons: Fakemon[] = [
     name: "Dratini",
     types: ["DRAGON"],
     sprite: "/Front/DRATINI.png",
-    backSprite: "/spritesBack/DRATINI.png",
+    backSprite: "/Back/DRATINI.png",
     description:
       "A Dratini continually molts and sloughs off its old skin. It does so because the life energy within its body steadily builds to reach uncontrollable levels.",
     stats: {
@@ -17880,7 +17880,7 @@ export const fakemons: Fakemon[] = [
     name: "Dragonair",
     types: ["DRAGON"],
     sprite: "/Front/DRAGONAIR.png",
-    backSprite: "/spritesBack/DRAGONAIR.png",
+    backSprite: "/Back/DRAGONAIR.png",
     description:
       "A Dragonair stores an enormous amount of energy inside its body. It is said to alter the weather around it by loosing energy from the crystals on its neck and tail.",
     stats: {
@@ -17994,7 +17994,7 @@ export const fakemons: Fakemon[] = [
     name: "Dragonite",
     types: ["DRAGON", "FLYING"],
     sprite: "/Front/DRAGONITE.png",
-    backSprite: "/spritesBack/DRAGONITE.png",
+    backSprite: "/Back/DRAGONITE.png",
     description:
       "It can circle the globe in just 16 hours. It is a kindhearted Pokémon that leads lost and foundering ships in a storm to the safety of land.",
     stats: {
@@ -18155,7 +18155,7 @@ export const fakemons: Fakemon[] = [
     name: "Mewtwo",
     types: ["PSYCHIC"],
     sprite: "/Front/MEWTWO.png",
-    backSprite: "/spritesBack/MEWTWO.png",
+    backSprite: "/Back/MEWTWO.png",
     description:
       "A Pokémon that was created by genetic manipulation. However, even though the scientific power of humans made its body, they failed to give it a warm heart.",
     stats: {
@@ -18341,7 +18341,7 @@ export const fakemons: Fakemon[] = [
     name: "Mew",
     types: ["PSYCHIC"],
     sprite: "/Front/MEW.png",
-    backSprite: "/spritesBack/MEW.png",
+    backSprite: "/Back/MEW.png",
     description:
       "A Mew is said to possess the genes of all Pokémon. It is capable of making itself invisible at will, so it entirely avoids notice even if it approaches people.",
     stats: {
@@ -18728,7 +18728,7 @@ export const fakemons: Fakemon[] = [
     name: "Chikorita",
     types: ["GRASS"],
     sprite: "/Front/CHIKORITA.png",
-    backSprite: "/spritesBack/CHIKORITA.png",
+    backSprite: "/Back/CHIKORITA.png",
     description:
       "It waves its leaf around to keep foes at bay. However, a sweet fragrance also wafts from the leaf, creating a friendly atmosphere that becalms the battlers.",
     stats: {
@@ -18851,7 +18851,7 @@ export const fakemons: Fakemon[] = [
     name: "Bayleef",
     types: ["GRASS"],
     sprite: "/Front/BAYLEEF.png",
-    backSprite: "/spritesBack/BAYLEEF.png",
+    backSprite: "/Back/BAYLEEF.png",
     description:
       "A Bayleef's neck is ringed by curled-up leaves. Inside each leaf is a small tree shoot. The fragrance of this shoot makes people peppy.",
     stats: {
@@ -18966,7 +18966,7 @@ export const fakemons: Fakemon[] = [
     name: "Meganium",
     types: ["GRASS"],
     sprite: "/Front/MEGANIUM.png",
-    backSprite: "/spritesBack/MEGANIUM.png",
+    backSprite: "/Back/MEGANIUM.png",
     description:
       "The fragrance of a Meganium's flower soothes and calms emotions. In battle, it gives off more of its becalming scent to blunt the foe's fighting spirit.",
     stats: {
@@ -19090,7 +19090,7 @@ export const fakemons: Fakemon[] = [
     name: "Cyndaquil",
     types: ["FIRE"],
     sprite: "/Front/CYNDAQUIL.png",
-    backSprite: "/spritesBack/CYNDAQUIL.png",
+    backSprite: "/Back/CYNDAQUIL.png",
     description:
       "It flares flames from its back to protect itself. The fire burns vigorously if the Pokémon is angry. When it is tired, it sputters with incomplete combustion.",
     stats: {
@@ -19210,7 +19210,7 @@ export const fakemons: Fakemon[] = [
     name: "Quilava",
     types: ["FIRE"],
     sprite: "/Front/QUILAVA.png",
-    backSprite: "/spritesBack/QUILAVA.png",
+    backSprite: "/Back/QUILAVA.png",
     description:
       "It intimidates foes with intense gusts of flames and superheated air. Its quick nimbleness lets it dodge attacks even while scorching an enemy.",
     stats: {
@@ -19321,7 +19321,7 @@ export const fakemons: Fakemon[] = [
     name: "Typhlosion",
     types: ["FIRE"],
     sprite: "/Front/TYPHLOSION.png",
-    backSprite: "/spritesBack/TYPHLOSION.png",
+    backSprite: "/Back/TYPHLOSION.png",
     description:
       "It can hide behind a shimmering heat haze that it creates using its intense flames. Typhlosion create blazing explosive blasts that burn everything to cinders.",
     stats: {
@@ -19456,7 +19456,7 @@ export const fakemons: Fakemon[] = [
     name: "Totodile",
     types: ["WATER"],
     sprite: "/Front/TOTODILE.png",
-    backSprite: "/spritesBack/TOTODILE.png",
+    backSprite: "/Back/TOTODILE.png",
     description:
       "Despite its small body, Totodile's jaws are very powerful. While it may think it is just playfully nipping, its bite has enough strength to cause serious injury.",
     stats: {
@@ -19597,7 +19597,7 @@ export const fakemons: Fakemon[] = [
     name: "Croconaw",
     types: ["WATER"],
     sprite: "/Front/CROCONAW.png",
-    backSprite: "/spritesBack/CROCONAW.png",
+    backSprite: "/Back/CROCONAW.png",
     description:
       "Once its jaws clamp down on its foe, it will absolutely not let go. Because the tips of its fangs are forked back like fishhooks, they become irremovably embedded.",
     stats: {
@@ -19730,7 +19730,7 @@ export const fakemons: Fakemon[] = [
     name: "Feraligatr",
     types: ["WATER"],
     sprite: "/Front/FERALIGATR.png",
-    backSprite: "/spritesBack/FERALIGATR.png",
+    backSprite: "/Back/FERALIGATR.png",
     description:
       "It opens its huge mouth to intimidate enemies. In battle, it runs using its thick and powerful hind legs to charge the foe with incredible speed.",
     stats: {
@@ -19875,7 +19875,7 @@ export const fakemons: Fakemon[] = [
     name: "Sentret",
     types: ["NORMAL"],
     sprite: "/Front/SENTRET.png",
-    backSprite: "/spritesBack/SENTRET.png",
+    backSprite: "/Back/SENTRET.png",
     description:
       "They take turns standing guard when it is time to sleep. The sentry awakens the others if it senses danger. If one gets separated, it turns sleepless with fear.",
     stats: {
@@ -20015,7 +20015,7 @@ export const fakemons: Fakemon[] = [
     name: "Furret",
     types: ["NORMAL"],
     sprite: "/Front/FURRET.png",
-    backSprite: "/spritesBack/FURRET.png",
+    backSprite: "/Back/FURRET.png",
     description:
       "A Furret has a very slim build. When under attack, it can squirm through narrow spaces and get away. In spite of its short limbs, it is very nimble and fleet.",
     stats: {
@@ -20147,7 +20147,7 @@ export const fakemons: Fakemon[] = [
     name: "Hoothoot",
     types: ["NORMAL", "FLYING"],
     sprite: "/Front/HOOTHOOT.png",
-    backSprite: "/spritesBack/HOOTHOOT.png",
+    backSprite: "/Back/HOOTHOOT.png",
     description:
       "It has an internal organ that senses the earth's rotation. Using this special organ, a Hoothoot begins hooting at precisely the same time every day.",
     stats: {
@@ -20278,7 +20278,7 @@ export const fakemons: Fakemon[] = [
     name: "Noctowl",
     types: ["NORMAL", "FLYING"],
     sprite: "/Front/NOCTOWL.png",
-    backSprite: "/spritesBack/NOCTOWL.png",
+    backSprite: "/Back/NOCTOWL.png",
     description:
       "It unfailingly catches prey in darkness. Noctowl owe their success to superior vision that allows them to see in minimal light, and to their supple and silent wings.",
     stats: {
@@ -20402,7 +20402,7 @@ export const fakemons: Fakemon[] = [
     name: "Ledyba",
     types: ["BUG", "FLYING"],
     sprite: "/Front/LEDYBA.png",
-    backSprite: "/spritesBack/LEDYBA.png",
+    backSprite: "/Back/LEDYBA.png",
     description:
       "Ledyba communicate using a fluid that they secrete from where the legs join the body. They are said to convey feelings to others by altering the fluid's scent.",
     stats: {
@@ -20517,7 +20517,7 @@ export const fakemons: Fakemon[] = [
     name: "Ledian",
     types: ["BUG", "FLYING"],
     sprite: "/Front/LEDIAN.png",
-    backSprite: "/spritesBack/LEDIAN.png",
+    backSprite: "/Back/LEDIAN.png",
     description:
       "It is said that in lands with clean air, where the stars fill the sky, there live many Ledian. For good reason, they use the light of the stars as energy.",
     stats: {
@@ -20625,7 +20625,7 @@ export const fakemons: Fakemon[] = [
     name: "Spinarak",
     types: ["BUG", "POISON"],
     sprite: "/Front/SPINARAK.png",
-    backSprite: "/spritesBack/SPINARAK.png",
+    backSprite: "/Back/SPINARAK.png",
     description:
       "The web it spins can be considered its second nervous system. It is said that a Spinarak determines its prey by the tiny vibrations it feels through the web.",
     stats: {
@@ -20744,7 +20744,7 @@ export const fakemons: Fakemon[] = [
     name: "Ariados",
     types: ["BUG", "POISON"],
     sprite: "/Front/ARIADOS.png",
-    backSprite: "/spritesBack/ARIADOS.png",
+    backSprite: "/Back/ARIADOS.png",
     description:
       "Its feet are tipped with tiny hooked claws that enable it to scuttle on ceilings and vertical walls. It constricts its foe with thin and strong silk webbing.",
     stats: {
@@ -20857,7 +20857,7 @@ export const fakemons: Fakemon[] = [
     name: "Crobat",
     types: ["POISON", "FLYING"],
     sprite: "/Front/CROBAT.png",
-    backSprite: "/spritesBack/CROBAT.png",
+    backSprite: "/Back/CROBAT.png",
     description:
       "Over the course of evolution, its hind legs turned into wings. By alternately resting its front and rear wings, it can fly all day without having to stop.",
     stats: {
@@ -20971,7 +20971,7 @@ export const fakemons: Fakemon[] = [
     name: "Chinchou",
     types: ["WATER", "ELECTRIC"],
     sprite: "/Front/CHINCHOU.png",
-    backSprite: "/spritesBack/CHINCHOU.png",
+    backSprite: "/Back/CHINCHOU.png",
     description:
       "When it senses danger, it discharges positive and negative electricity from its two antennae. It lives in depths beyond sunlight's reach.",
     stats: {
@@ -21094,7 +21094,7 @@ export const fakemons: Fakemon[] = [
     name: "Lanturn",
     types: ["WATER", "ELECTRIC"],
     sprite: "/Front/LANTURN.png",
-    backSprite: "/spritesBack/LANTURN.png",
+    backSprite: "/Back/LANTURN.png",
     description:
       "The light-emitting orbs on its back are very bright. They are formed from a part of its dorsal fin. This Pokémon illuminates the inky darkness of deep seas.",
     stats: {
@@ -21207,7 +21207,7 @@ export const fakemons: Fakemon[] = [
     name: "Pichu",
     types: ["ELECTRIC"],
     sprite: "/Front/PICHU.png",
-    backSprite: "/spritesBack/PICHU.png",
+    backSprite: "/Back/PICHU.png",
     description:
       "It is still inept at retaining electricity. When it is startled, it discharges power accidentally. It gets better at holding power as it grows older.",
     stats: {
@@ -21317,7 +21317,7 @@ export const fakemons: Fakemon[] = [
     name: "Cleffa",
     types: ["FAIRY"],
     sprite: "/Front/CLEFFA.png",
-    backSprite: "/spritesBack/CLEFFA.png",
+    backSprite: "/Back/CLEFFA.png",
     description:
       "On nights with many shooting stars, Cleffa can be seen dancing in a ring. They dance until daybreak, when they quench their thirst with the morning dew.",
     stats: {
@@ -21456,7 +21456,7 @@ export const fakemons: Fakemon[] = [
     name: "Igglybuff",
     types: ["NORMAL", "FAIRY"],
     sprite: "/Front/IGGLYBUFF.png",
-    backSprite: "/spritesBack/IGGLYBUFF.png",
+    backSprite: "/Back/IGGLYBUFF.png",
     description:
       "Its soft and pliable body is very bouncy. When it sings continuously with all its might, its body steadily turns a deepening pink color.",
     stats: {
@@ -21582,7 +21582,7 @@ export const fakemons: Fakemon[] = [
     name: "Togepi",
     types: ["FAIRY"],
     sprite: "/Front/TOGEPI.png",
-    backSprite: "/spritesBack/TOGEPI.png",
+    backSprite: "/Back/TOGEPI.png",
     description:
       "As its energy, it uses the feelings of compassion and pleasure exuded by people and Pokémon. It stores up happy feelings in its shell, then shares them out.",
     stats: {
@@ -21716,7 +21716,7 @@ export const fakemons: Fakemon[] = [
     name: "Togetic",
     types: ["FAIRY", "FLYING"],
     sprite: "/Front/TOGETIC.png",
-    backSprite: "/spritesBack/TOGETIC.png",
+    backSprite: "/Back/TOGETIC.png",
     description:
       "It is said to be a Pokémon that brings good fortune. When it spots someone who is pure of heart, a Togetic appears and shares its happiness with that person.",
     stats: {
@@ -21869,7 +21869,7 @@ export const fakemons: Fakemon[] = [
     name: "Natu",
     types: ["PSYCHIC", "FLYING"],
     sprite: "/Front/NATU.png",
-    backSprite: "/spritesBack/NATU.png",
+    backSprite: "/Back/NATU.png",
     description:
       "It runs up short trees that grow on the savanna to peck at new shoots. A Natu's eyes look as if they are always observing something.",
     stats: {
@@ -21998,7 +21998,7 @@ export const fakemons: Fakemon[] = [
     name: "Xatu",
     types: ["PSYCHIC", "FLYING"],
     sprite: "/Front/XATU.png",
-    backSprite: "/spritesBack/XATU.png",
+    backSprite: "/Back/XATU.png",
     description:
       "It has the enigmatic power of foreseeing the future. Some people in different lands have long believed that Xatu are emissaries from another world.",
     stats: {
@@ -22119,7 +22119,7 @@ export const fakemons: Fakemon[] = [
     name: "Mareep",
     types: ["ELECTRIC"],
     sprite: "/Front/MAREEP.png",
-    backSprite: "/spritesBack/MAREEP.png",
+    backSprite: "/Back/MAREEP.png",
     description:
       "Its fluffy wool rubs together and builds a static charge. The more energy is charged, the more brightly the lightbulb at the tip of its tail glows.",
     stats: {
@@ -22239,7 +22239,7 @@ export const fakemons: Fakemon[] = [
     name: "Flaaffy",
     types: ["ELECTRIC"],
     sprite: "/Front/FLAAFFY.png",
-    backSprite: "/spritesBack/FLAAFFY.png",
+    backSprite: "/Back/FLAAFFY.png",
     description:
       "Its fleece quality changes to generate strong static electricity with a small amount of wool. The bare, slick parts of its hide are shielded against electricity.",
     stats: {
@@ -22364,7 +22364,7 @@ export const fakemons: Fakemon[] = [
     name: "Ampharos",
     types: ["ELECTRIC"],
     sprite: "/Front/AMPHAROS.png",
-    backSprite: "/spritesBack/AMPHAROS.png",
+    backSprite: "/Back/AMPHAROS.png",
     description:
       "It gives off so much light that it can be seen even from space. People in the old days used its light to send signals back and forth with others far away.",
     stats: {
@@ -22503,7 +22503,7 @@ export const fakemons: Fakemon[] = [
     name: "Bellossom",
     types: ["GRASS"],
     sprite: "/Front/BELLOSSOM.png",
-    backSprite: "/spritesBack/BELLOSSOM.png",
+    backSprite: "/Back/BELLOSSOM.png",
     description:
       "Its flower petals deepen in color through exposure to sunlight. When cloudy weather persists, it does a dance that is thought to be a sun-summoning ritual.",
     stats: {
@@ -22614,7 +22614,7 @@ export const fakemons: Fakemon[] = [
     name: "Marill",
     types: ["WATER", "FAIRY"],
     sprite: "/Front/MARILL.png",
-    backSprite: "/spritesBack/MARILL.png",
+    backSprite: "/Back/MARILL.png",
     description:
       "Its body is covered with water-repellent fur. Because of the fur, it can swim through water at high speed without being slowed by the water's resistance.",
     stats: {
@@ -22750,7 +22750,7 @@ export const fakemons: Fakemon[] = [
     name: "Azumarill",
     types: ["WATER", "FAIRY"],
     sprite: "/Front/AZUMARILL.png",
-    backSprite: "/spritesBack/AZUMARILL.png",
+    backSprite: "/Back/AZUMARILL.png",
     description:
       "It lives in water virtually all day long. Its body color and pattern act as camouflage that makes it tough for enemies to spot in water.",
     stats: {
@@ -22883,7 +22883,7 @@ export const fakemons: Fakemon[] = [
     name: "Sudowoodo",
     types: ["ROCK"],
     sprite: "/Front/SUDOWOODO.png",
-    backSprite: "/spritesBack/SUDOWOODO.png",
+    backSprite: "/Back/SUDOWOODO.png",
     description:
       "It mimics a tree to avoid being attacked by enemies. But since its forelegs remain green throughout the year, it is easily identified as a fake in the winter.",
     stats: {
@@ -23019,7 +23019,7 @@ export const fakemons: Fakemon[] = [
     name: "Politoed",
     types: ["WATER"],
     sprite: "/Front/POLITOED.png",
-    backSprite: "/spritesBack/POLITOED.png",
+    backSprite: "/Back/POLITOED.png",
     description:
       "The curled hair on its head proves its status as a king. It is said that the longer and curlier the hair, the more respect it earns from its peers.",
     stats: {
@@ -23141,7 +23141,7 @@ export const fakemons: Fakemon[] = [
     name: "Hoppip",
     types: ["GRASS", "FLYING"],
     sprite: "/Front/HOPPIP.png",
-    backSprite: "/spritesBack/HOPPIP.png",
+    backSprite: "/Back/HOPPIP.png",
     description:
       "This Pokémon drifts and floats with the wind. If it senses the approach of strong winds, a Hoppip links leaves with others to prepare against being blown away.",
     stats: {
@@ -23267,7 +23267,7 @@ export const fakemons: Fakemon[] = [
     name: "Skiploom",
     types: ["GRASS", "FLYING"],
     sprite: "/Front/SKIPLOOM.png",
-    backSprite: "/spritesBack/SKIPLOOM.png",
+    backSprite: "/Back/SKIPLOOM.png",
     description:
       "It blossoms when the temperature rises above 64 degrees F. Because its flower's blooming changes with the temperature, it is sometimes used as a thermometer.",
     stats: {
@@ -23380,7 +23380,7 @@ export const fakemons: Fakemon[] = [
     name: "Jumpluff",
     types: ["GRASS", "FLYING"],
     sprite: "/Front/JUMPLUFF.png",
-    backSprite: "/spritesBack/JUMPLUFF.png",
+    backSprite: "/Back/JUMPLUFF.png",
     description:
       "Jumpluff ride warm southern winds to cross the sea and fly to foreign lands. This Pokémon lands when it encounters cold air while it is floating.",
     stats: {
@@ -23489,7 +23489,7 @@ export const fakemons: Fakemon[] = [
     name: "Aipom",
     types: ["NORMAL"],
     sprite: "/Front/AIPOM.png",
-    backSprite: "/spritesBack/AIPOM.png",
+    backSprite: "/Back/AIPOM.png",
     description:
       "Its tail ends with a dexterous, handlike appendage. However, because it uses the tail so much, Aipom's real hands have become rather clumsy.",
     stats: {
@@ -23642,7 +23642,7 @@ export const fakemons: Fakemon[] = [
     name: "Sunkern",
     types: ["GRASS"],
     sprite: "/Front/SUNKERN.png",
-    backSprite: "/spritesBack/SUNKERN.png",
+    backSprite: "/Back/SUNKERN.png",
     description:
       "Sunkern try to minimize movement to conserve the nutrients they have stored in their bodies for evolution. They will not eat, subsisting only on morning dew.",
     stats: {
@@ -23749,7 +23749,7 @@ export const fakemons: Fakemon[] = [
     name: "Sunflora",
     types: ["GRASS"],
     sprite: "/Front/SUNFLORA.png",
-    backSprite: "/spritesBack/SUNFLORA.png",
+    backSprite: "/Back/SUNFLORA.png",
     description:
       "Sunflora convert solar energy into nutrition. They are highly active in the warm daytime but suddenly stop moving as soon as the sun sets.",
     stats: {
@@ -23851,7 +23851,7 @@ export const fakemons: Fakemon[] = [
     name: "Yanma",
     types: ["BUG", "FLYING"],
     sprite: "/Front/YANMA.png",
-    backSprite: "/spritesBack/YANMA.png",
+    backSprite: "/Back/YANMA.png",
     description:
       "It can see 360 degrees without moving its eyes. It is a great flier capable of making sudden stops and turning midair to quickly chase down targeted prey.",
     stats: {
@@ -23959,7 +23959,7 @@ export const fakemons: Fakemon[] = [
     name: "Wooper",
     types: ["WATER", "GROUND"],
     sprite: "/Front/WOOPER.png",
-    backSprite: "/spritesBack/WOOPER.png",
+    backSprite: "/Back/WOOPER.png",
     description:
       "Wooper usually live in water but come out onto land seeking food occasionally. On land, they coat their bodies with a gooey, toxic film.",
     stats: {
@@ -24099,7 +24099,7 @@ export const fakemons: Fakemon[] = [
     name: "Quagsire",
     types: ["WATER", "GROUND"],
     sprite: "/Front/QUAGSIRE.png",
-    backSprite: "/spritesBack/QUAGSIRE.png",
+    backSprite: "/Back/QUAGSIRE.png",
     description:
       "A Quagsire hunts by leaving its mouth wide open in water and waiting for its prey to blunder in. Because it doesn't move, it does not get very hungry.",
     stats: {
@@ -24236,7 +24236,7 @@ export const fakemons: Fakemon[] = [
     name: "Espeon",
     types: ["PSYCHIC"],
     sprite: "/Front/ESPEON.png",
-    backSprite: "/spritesBack/ESPEON.png",
+    backSprite: "/Back/ESPEON.png",
     description:
       "An Espeon is extremely loyal to any trainer it considers to be worthy. It is said to have developed precognitive powers to protect its trainer from harm.",
     stats: {
@@ -24376,7 +24376,7 @@ export const fakemons: Fakemon[] = [
     name: "Umbreon",
     types: ["DARK"],
     sprite: "/Front/UMBREON.png",
-    backSprite: "/spritesBack/UMBREON.png",
+    backSprite: "/Back/UMBREON.png",
     description:
       "Umbreon evolved from exposure to the moon's energy pulses. It lurks in darkness and waits for its foes to move. The rings on its body glow when it leaps to attack.",
     stats: {
@@ -24513,7 +24513,7 @@ export const fakemons: Fakemon[] = [
     name: "Murkrow",
     types: ["DARK", "FLYING"],
     sprite: "/Front/MURKROW.png",
-    backSprite: "/spritesBack/MURKROW.png",
+    backSprite: "/Back/MURKROW.png",
     description:
       "Murkrow were feared as the alleged bearers of ill fortune. It shows strong interest in anything that sparkles. It will even try to steal rings from women.",
     stats: {
@@ -24649,7 +24649,7 @@ export const fakemons: Fakemon[] = [
     name: "Slowking",
     types: ["WATER", "PSYCHIC"],
     sprite: "/Front/SLOWKING.png",
-    backSprite: "/spritesBack/SLOWKING.png",
+    backSprite: "/Back/SLOWKING.png",
     description:
       "It undertakes research every day to solve the mysteries of the world. However, it apparently forgets everything if the Shellder on its head comes off.",
     stats: {
@@ -24818,7 +24818,7 @@ export const fakemons: Fakemon[] = [
     name: "Misdreavus",
     types: ["GHOST"],
     sprite: "/Front/MISDREAVUS.png",
-    backSprite: "/spritesBack/MISDREAVUS.png",
+    backSprite: "/Back/MISDREAVUS.png",
     description:
       "A Misdreavus frightens people with a creepy, sobbing cry. It apparently uses its red spheres to absorb the fear of foes as its nutrition.",
     stats: {
@@ -24965,7 +24965,7 @@ export const fakemons: Fakemon[] = [
     name: "Unown",
     types: ["PSYCHIC"],
     sprite: "/Front/UNOWN.png",
-    backSprite: "/spritesBack/UNOWN.png",
+    backSprite: "/Back/UNOWN.png",
     description:
       "This Pokémon is shaped like ancient text characters. Although research is ongoing, it is a mystery as to which came first, the ancient writings or the various Unown.",
     stats: {
@@ -24993,7 +24993,7 @@ export const fakemons: Fakemon[] = [
     name: "Wobbuffet",
     types: ["PSYCHIC"],
     sprite: "/Front/WOBBUFFET.png",
-    backSprite: "/spritesBack/WOBBUFFET.png",
+    backSprite: "/Back/WOBBUFFET.png",
     description:
       "Usually docile, a Wobbuffet strikes back ferociously if its black tail is attacked. It makes its lair in caves where it waits for nightfall.",
     stats: {
@@ -25034,7 +25034,7 @@ export const fakemons: Fakemon[] = [
     name: "Girafarig",
     types: ["NORMAL", "PSYCHIC"],
     sprite: "/Front/GIRAFARIG.png",
-    backSprite: "/spritesBack/GIRAFARIG.png",
+    backSprite: "/Back/GIRAFARIG.png",
     description:
       "A Girafarig is an herbivore--it eats grass and tree shoots. While it is eating, its tail makes chewing and swallowing motions as if it were also eating.",
     stats: {
@@ -25187,7 +25187,7 @@ export const fakemons: Fakemon[] = [
     name: "Pineco",
     types: ["BUG"],
     sprite: "/Front/PINECO.png",
-    backSprite: "/spritesBack/PINECO.png",
+    backSprite: "/Back/PINECO.png",
     description:
       "A Pineco hangs from a tree branch and waits for prey. While eating, if it is disturbed by someone shaking its tree, it falls on the ground and explodes.",
     stats: {
@@ -25313,7 +25313,7 @@ export const fakemons: Fakemon[] = [
     name: "Forretress",
     types: ["BUG", "STEEL"],
     sprite: "/Front/FORRETRESS.png",
-    backSprite: "/spritesBack/FORRETRESS.png",
+    backSprite: "/Back/FORRETRESS.png",
     description:
       "It keeps itself inside its steel shell. The shell is opened when it is catching prey, but it is so quick that the shell's inside cannot be seen.",
     stats: {
@@ -25449,7 +25449,7 @@ export const fakemons: Fakemon[] = [
     name: "Dunsparce",
     types: ["NORMAL"],
     sprite: "/Front/DUNSPARCE.png",
-    backSprite: "/spritesBack/DUNSPARCE.png",
+    backSprite: "/Back/DUNSPARCE.png",
     description:
       "Its drill-tipped tail is used to burrow into the ground backwards. This Pokémon is known to make its nest in complex shapes deep under the ground.",
     stats: {
@@ -25610,7 +25610,7 @@ export const fakemons: Fakemon[] = [
     name: "Gligar",
     types: ["GROUND", "FLYING"],
     sprite: "/Front/GLIGAR.png",
-    backSprite: "/spritesBack/GLIGAR.png",
+    backSprite: "/Back/GLIGAR.png",
     description:
       "It glides without making a single sound. It grasps the face of its foe using its hind and large front claws, then stabs with its poison barb.",
     stats: {
@@ -25762,7 +25762,7 @@ export const fakemons: Fakemon[] = [
     name: "Steelix",
     types: ["STEEL", "GROUND"],
     sprite: "/Front/STEELIX.png",
-    backSprite: "/spritesBack/STEELIX.png",
+    backSprite: "/Back/STEELIX.png",
     description:
       "Steelix live even further underground than Onix. This Pokémon is known to dig toward the earth's core, reaching a depth of over six-tenths of a mile underground.",
     stats: {
@@ -25902,7 +25902,7 @@ export const fakemons: Fakemon[] = [
     name: "Snubbull",
     types: ["FAIRY"],
     sprite: "/Front/SNUBBULL.png",
-    backSprite: "/spritesBack/SNUBBULL.png",
+    backSprite: "/Back/SNUBBULL.png",
     description:
       "By baring its fangs and making a scary face, it sends smaller Pokémon scurrying in terror. The Snubbull does seem a little sad at making its foes flee.",
     stats: {
@@ -26066,7 +26066,7 @@ export const fakemons: Fakemon[] = [
     name: "Granbull",
     types: ["FAIRY"],
     sprite: "/Front/GRANBULL.png",
-    backSprite: "/spritesBack/GRANBULL.png",
+    backSprite: "/Back/GRANBULL.png",
     description:
       "It has a particularly well-developed lower jaw. The huge fangs are heavy, causing it to tilt its head. Unless it is startled, it will not try to bite.",
     stats: {
@@ -26220,7 +26220,7 @@ export const fakemons: Fakemon[] = [
     name: "Qwilfish",
     types: ["WATER", "POISON"],
     sprite: "/Front/QWILFISH.png",
-    backSprite: "/spritesBack/QWILFISH.png",
+    backSprite: "/Back/QWILFISH.png",
     description:
       "A Qwilfish uses the pressure of water it swallows to shoot toxic quills all at once from all over its body. It finds swimming to be somewhat challenging.",
     stats: {
@@ -26358,7 +26358,7 @@ export const fakemons: Fakemon[] = [
     name: "Scizor",
     types: ["BUG", "STEEL"],
     sprite: "/Front/SCIZOR.png",
-    backSprite: "/spritesBack/SCIZOR.png",
+    backSprite: "/Back/SCIZOR.png",
     description:
       "A Scizor has a body with the hardness of steel. It is not easily fazed by ordinary sorts of attacks. It flaps its wings to regulate its body temperature.",
     stats: {
@@ -26488,7 +26488,7 @@ export const fakemons: Fakemon[] = [
     name: "Shuckle",
     types: ["BUG", "ROCK"],
     sprite: "/Front/SHUCKLE.png",
-    backSprite: "/spritesBack/SHUCKLE.png",
+    backSprite: "/Back/SHUCKLE.png",
     description:
       "A Shuckle hides under rocks, keeping its body concealed inside its shell while eating stored berries. The berries mix with its body fluids to become a juice.",
     stats: {
@@ -26613,7 +26613,7 @@ export const fakemons: Fakemon[] = [
     name: "Heracross",
     types: ["BUG", "FIGHTING"],
     sprite: "/Front/HERACROSS.png",
-    backSprite: "/spritesBack/HERACROSS.png",
+    backSprite: "/Back/HERACROSS.png",
     description:
       "They gather in forests seeking the sweet sap of trees. It is completely clad in a steel-hard shell. It is proud of its horn, which it uses to fling foes.",
     stats: {
@@ -26751,7 +26751,7 @@ export const fakemons: Fakemon[] = [
     name: "Sneasel",
     types: ["DARK", "ICE"],
     sprite: "/Front/SNEASEL.png",
-    backSprite: "/spritesBack/SNEASEL.png",
+    backSprite: "/Back/SNEASEL.png",
     description:
       "A Sneasel scales trees by punching its hooked claws into the bark. It seeks out unguarded nests and steals eggs for food while the parents are away.",
     stats: {
@@ -26902,7 +26902,7 @@ export const fakemons: Fakemon[] = [
     name: "Teddiursa",
     types: ["NORMAL"],
     sprite: "/Front/TEDDIURSA.png",
-    backSprite: "/spritesBack/TEDDIURSA.png",
+    backSprite: "/Back/TEDDIURSA.png",
     description:
       "It licks its palms that are sweetened by being soaked in honey. A Teddiursa makes its own honey by blending fruits and pollen collected by Beedrill.",
     stats: {
@@ -27048,7 +27048,7 @@ export const fakemons: Fakemon[] = [
     name: "Ursaring",
     types: ["NORMAL"],
     sprite: "/Front/URSARING.png",
-    backSprite: "/spritesBack/URSARING.png",
+    backSprite: "/Back/URSARING.png",
     description:
       "In forests, it is said that there are many streams and towering trees where an Ursaring gathers food. It walks through its forest collecting food every day.",
     stats: {
@@ -27190,7 +27190,7 @@ export const fakemons: Fakemon[] = [
     name: "Slugma",
     types: ["FIRE"],
     sprite: "/Front/SLUGMA.png",
-    backSprite: "/spritesBack/SLUGMA.png",
+    backSprite: "/Back/SLUGMA.png",
     description:
       "It is a species of Pokémon that lives in volcanic areas. If its body cools, its skin hardens and immobilizes it. To avoid that, it sleeps near magma.",
     stats: {
@@ -27314,7 +27314,7 @@ export const fakemons: Fakemon[] = [
     name: "Magcargo",
     types: ["FIRE", "ROCK"],
     sprite: "/Front/MAGCARGO.png",
-    backSprite: "/spritesBack/MAGCARGO.png",
+    backSprite: "/Back/MAGCARGO.png",
     description:
       "The shell on its back is made of hardened magma. Tens of thousands of years spent living in volcanic craters have turned Magcargo's bodies into magma.",
     stats: {
@@ -27431,7 +27431,7 @@ export const fakemons: Fakemon[] = [
     name: "Swinub",
     types: ["ICE", "GROUND"],
     sprite: "/Front/SWINUB.png",
-    backSprite: "/spritesBack/SWINUB.png",
+    backSprite: "/Back/SWINUB.png",
     description:
       "It roots for food by rubbing its snout against the ground. Its favorite food is a mushroom that grows under dried grass. It occasionally roots out hot springs.",
     stats: {
@@ -27553,7 +27553,7 @@ export const fakemons: Fakemon[] = [
     name: "Piloswine",
     types: ["ICE", "GROUND"],
     sprite: "/Front/PILOSWINE.png",
-    backSprite: "/spritesBack/PILOSWINE.png",
+    backSprite: "/Back/PILOSWINE.png",
     description:
       "A Piloswine is covered by a thick coat of long hair for enduring freezing cold. It uses its tusks to dig up food that has been buried under ice.",
     stats: {
@@ -27669,7 +27669,7 @@ export const fakemons: Fakemon[] = [
     name: "Corsola",
     types: ["WATER", "ROCK"],
     sprite: "/Front/CORSOLA.png",
-    backSprite: "/spritesBack/CORSOLA.png",
+    backSprite: "/Back/CORSOLA.png",
     description:
       "Corsola live in warm southern seas. If the sea becomes polluted, the beautiful coral stalks become discolored and crumble away in tatters.",
     stats: {
@@ -27797,7 +27797,7 @@ export const fakemons: Fakemon[] = [
     name: "Remoraid",
     types: ["WATER"],
     sprite: "/Front/REMORAID.png",
-    backSprite: "/spritesBack/REMORAID.png",
+    backSprite: "/Back/REMORAID.png",
     description:
       "A Remoraid uses its abdominal muscles to forcefully expel swallowed water, then shoot down flying prey. When evolution approaches, it travels down rivers.",
     stats: {
@@ -27917,7 +27917,7 @@ export const fakemons: Fakemon[] = [
     name: "Octillery",
     types: ["WATER"],
     sprite: "/Front/OCTILLERY.png",
-    backSprite: "/spritesBack/OCTILLERY.png",
+    backSprite: "/Back/OCTILLERY.png",
     description:
       "It ensnares its foe with its suction- cupped tentacles before delivering the finishing blow. If the foe turns out to be too strong, it spews ink to escape.",
     stats: {
@@ -28031,7 +28031,7 @@ export const fakemons: Fakemon[] = [
     name: "Delibird",
     types: ["ICE", "FLYING"],
     sprite: "/Front/DELIBIRD.png",
-    backSprite: "/spritesBack/DELIBIRD.png",
+    backSprite: "/Back/DELIBIRD.png",
     description:
       "It carries food bundled up in its tail. There was a famous explorer who managed to scale Mt. Everest thanks to a Delibird sharing its food.",
     stats: {
@@ -28158,7 +28158,7 @@ export const fakemons: Fakemon[] = [
     name: "Mantine",
     types: ["WATER", "FLYING"],
     sprite: "/Front/MANTINE.png",
-    backSprite: "/spritesBack/MANTINE.png",
+    backSprite: "/Back/MANTINE.png",
     description:
       "On sunny days, schools of Mantine can be seen elegantly leaping over the waves. It is not bothered by the Remoraid that hitches rides.",
     stats: {
@@ -28283,7 +28283,7 @@ export const fakemons: Fakemon[] = [
     name: "Skarmory",
     types: ["STEEL", "FLYING"],
     sprite: "/Front/SKARMORY.png",
-    backSprite: "/spritesBack/SKARMORY.png",
+    backSprite: "/Back/SKARMORY.png",
     description:
       "A Pokémon that has a body and wings of steel. People in the past used feathers fallen from Skarmory to make swords and knives.",
     stats: {
@@ -28414,7 +28414,7 @@ export const fakemons: Fakemon[] = [
     name: "Houndour",
     types: ["DARK", "FIRE"],
     sprite: "/Front/HOUNDOUR.png",
-    backSprite: "/spritesBack/HOUNDOUR.png",
+    backSprite: "/Back/HOUNDOUR.png",
     description:
       "Houndour communicate with each other using a variety of cries to corner their prey. This Pokémon's remarkable teamwork is simply unparalleled.",
     stats: {
@@ -28551,7 +28551,7 @@ export const fakemons: Fakemon[] = [
     name: "Houndoom",
     types: ["DARK", "FIRE"],
     sprite: "/Front/HOUNDOOM.png",
-    backSprite: "/spritesBack/HOUNDOOM.png",
+    backSprite: "/Back/HOUNDOOM.png",
     description:
       "In a Houndoom pack, the one with its horns raked sharply back serves a leadership role. They choose their leader by fighting among themselves.",
     stats: {
@@ -28678,7 +28678,7 @@ export const fakemons: Fakemon[] = [
     name: "Kingdra",
     types: ["WATER", "DRAGON"],
     sprite: "/Front/KINGDRA.png",
-    backSprite: "/spritesBack/KINGDRA.png",
+    backSprite: "/Back/KINGDRA.png",
     description:
       "It sleeps quietly, deep on the seafloor. When it comes up to the surface, it creates a huge whirlpool that can swallow even ships.",
     stats: {
@@ -28787,7 +28787,7 @@ export const fakemons: Fakemon[] = [
     name: "Phanpy",
     types: ["GROUND"],
     sprite: "/Front/PHANPY.png",
-    backSprite: "/spritesBack/PHANPY.png",
+    backSprite: "/Back/PHANPY.png",
     description:
       "Phanpy's big ears serve as broad fans. When it becomes hot, it flaps the ears busily to cool down. Even the young are very strong.",
     stats: {
@@ -28915,7 +28915,7 @@ export const fakemons: Fakemon[] = [
     name: "Donphan",
     types: ["GROUND"],
     sprite: "/Front/DONPHAN.png",
-    backSprite: "/spritesBack/DONPHAN.png",
+    backSprite: "/Back/DONPHAN.png",
     description:
       "A Donphan is so strong it can easily haul a dump truck. Its hide has toughened to a rock-hard state. An ordinary sort of attack won't even leave a scratch.",
     stats: {
@@ -29044,7 +29044,7 @@ export const fakemons: Fakemon[] = [
     name: "Porygon2",
     types: ["NORMAL"],
     sprite: "/Front/PORYGON2.png",
-    backSprite: "/spritesBack/PORYGON2.png",
+    backSprite: "/Back/PORYGON2.png",
     description:
       "It was created by humans using the power of science. It has been given artificial intelligence that enables it to learn new gestures and emotions on its own.",
     stats: {
@@ -29159,7 +29159,7 @@ export const fakemons: Fakemon[] = [
     name: "Stantler",
     types: ["NORMAL"],
     sprite: "/Front/STANTLER.png",
-    backSprite: "/spritesBack/STANTLER.png",
+    backSprite: "/Back/STANTLER.png",
     description:
       "Stantler's magnificent antlers were once traded at high prices as works of art. As a result, this Pokémon was hunted close to extinction.",
     stats: {
@@ -29298,7 +29298,7 @@ export const fakemons: Fakemon[] = [
     name: "Smeargle",
     types: ["NORMAL"],
     sprite: "/Front/SMEARGLE.png",
-    backSprite: "/spritesBack/SMEARGLE.png",
+    backSprite: "/Back/SMEARGLE.png",
     description:
       "A Smeargle marks its territory using a fluid that leaks out from the tip of its tail. About 5,000 different marks left by this Pokémon have been found.",
     stats: {
@@ -29326,7 +29326,7 @@ export const fakemons: Fakemon[] = [
     name: "Tyrogue",
     types: ["FIGHTING"],
     sprite: "/Front/TYROGUE.png",
-    backSprite: "/spritesBack/TYROGUE.png",
+    backSprite: "/Back/TYROGUE.png",
     description:
       "Tyrogue become stressed out if they do not get to train every day. When raising this Pokémon, the trainer must establish a regular training schedule.",
     stats: {
@@ -29420,7 +29420,7 @@ export const fakemons: Fakemon[] = [
     name: "Hitmontop",
     types: ["FIGHTING"],
     sprite: "/Front/HITMONTOP.png",
-    backSprite: "/spritesBack/HITMONTOP.png",
+    backSprite: "/Back/HITMONTOP.png",
     description:
       "Its technique of kicking while spinning is a remarkable mix of both offense and defense. Hitmontop travel faster spinning than they do walking.",
     stats: {
@@ -29540,7 +29540,7 @@ export const fakemons: Fakemon[] = [
     name: "Smoochum",
     types: ["ICE", "PSYCHIC"],
     sprite: "/Front/SMOOCHUM.png",
-    backSprite: "/spritesBack/SMOOCHUM.png",
+    backSprite: "/Back/SMOOCHUM.png",
     description:
       "It actively runs about, but also falls often. Whenever it falls, it will check its reflection on a lake's surface to make sure its face hasn't become dirty.",
     stats: {
@@ -29662,7 +29662,7 @@ export const fakemons: Fakemon[] = [
     name: "Elekid",
     types: ["ELECTRIC"],
     sprite: "/Front/ELEKID.png",
-    backSprite: "/spritesBack/ELEKID.png",
+    backSprite: "/Back/ELEKID.png",
     description:
       "If it touches metal and discharges the electricity it has stored in its body, an Elekid begins swinging its arms in circles to recharge itself.",
     stats: {
@@ -29790,7 +29790,7 @@ export const fakemons: Fakemon[] = [
     name: "Magby",
     types: ["FIRE"],
     sprite: "/Front/MAGBY.png",
-    backSprite: "/spritesBack/MAGBY.png",
+    backSprite: "/Back/MAGBY.png",
     description:
       "If a Magby is spouting yellow flames from its mouth, it is in good health. When it is fatigued, black smoke will be mixed in with the flames.",
     stats: {
@@ -29917,7 +29917,7 @@ export const fakemons: Fakemon[] = [
     name: "Miltank",
     types: ["NORMAL"],
     sprite: "/Front/MILTANK.png",
-    backSprite: "/spritesBack/MILTANK.png",
+    backSprite: "/Back/MILTANK.png",
     description:
       "It gives over five gallons of milk daily. Its sweet milk is enjoyed by children and adults alike. People who can't drink milk turn it into yogurt and eat it instead.",
     stats: {
@@ -30053,7 +30053,7 @@ export const fakemons: Fakemon[] = [
     name: "Blissey",
     types: ["NORMAL"],
     sprite: "/Front/BLISSEY.png",
-    backSprite: "/spritesBack/BLISSEY.png",
+    backSprite: "/Back/BLISSEY.png",
     description:
       "If it senses sadness with its fluffy fur, a Blissey will rush over to the sad person, however far away, to share an egg of happiness that brings a smile to any face.",
     stats: {
@@ -30215,7 +30215,7 @@ export const fakemons: Fakemon[] = [
     name: "Raikou",
     types: ["ELECTRIC"],
     sprite: "/Front/RAIKOU.png",
-    backSprite: "/spritesBack/RAIKOU.png",
+    backSprite: "/Back/RAIKOU.png",
     description:
       "Raikou embodies the speed of lightning. Its roars send shock waves shuddering through the air and ground as if lightning bolts were crashing down.",
     stats: {
@@ -30333,7 +30333,7 @@ export const fakemons: Fakemon[] = [
     name: "Entei",
     types: ["FIRE"],
     sprite: "/Front/ENTEI.png",
-    backSprite: "/spritesBack/ENTEI.png",
+    backSprite: "/Back/ENTEI.png",
     description:
       "Entei embodies the passion of magma. It is thought to have been born in the eruption of a volcano. It blasts fire that consumes all that it touches.",
     stats: {
@@ -30446,7 +30446,7 @@ export const fakemons: Fakemon[] = [
     name: "Suicune",
     types: ["WATER"],
     sprite: "/Front/SUICUNE.png",
-    backSprite: "/spritesBack/SUICUNE.png",
+    backSprite: "/Back/SUICUNE.png",
     description:
       "Suicune embodies the compassion of a pure spring of water. It runs across the land with gliding elegance. It has the power to purify dirty water.",
     stats: {
@@ -30559,7 +30559,7 @@ export const fakemons: Fakemon[] = [
     name: "Larvitar",
     types: ["ROCK", "GROUND"],
     sprite: "/Front/LARVITAR.png",
-    backSprite: "/spritesBack/LARVITAR.png",
+    backSprite: "/Back/LARVITAR.png",
     description:
       "A Larvitar is born deep under the ground. It must eat its way through the soil above and reach the surface for it to see its parents' faces.",
     stats: {
@@ -30689,7 +30689,7 @@ export const fakemons: Fakemon[] = [
     name: "Pupitar",
     types: ["ROCK", "GROUND"],
     sprite: "/Front/PUPITAR.png",
-    backSprite: "/spritesBack/PUPITAR.png",
+    backSprite: "/Back/PUPITAR.png",
     description:
       "A Pupitar creates a gas inside its body that it ejects under compression to propel itself like a jet. Its body can withstand a collision with solid steel.",
     stats: {
@@ -30813,7 +30813,7 @@ export const fakemons: Fakemon[] = [
     name: "Tyranitar",
     types: ["ROCK", "DARK"],
     sprite: "/Front/TYRANITAR.png",
-    backSprite: "/spritesBack/TYRANITAR.png",
+    backSprite: "/Back/TYRANITAR.png",
     description:
       "A Tyranitar is so overwhelmingly powerful, it can bring down a whole mountain to make its nest. It roams in mountains seeking new opponents to fight.",
     stats: {
@@ -30986,7 +30986,7 @@ export const fakemons: Fakemon[] = [
     name: "Lugia",
     types: ["PSYCHIC", "FLYING"],
     sprite: "/Front/LUGIA.png",
-    backSprite: "/spritesBack/LUGIA.png",
+    backSprite: "/Back/LUGIA.png",
     description:
       "Lugia is so powerful even a light fluttering of its wings can blow apart houses. As a result, it chooses to live out of sight deep under the sea.",
     stats: {
@@ -31130,7 +31130,7 @@ export const fakemons: Fakemon[] = [
     name: "Ho-Oh",
     types: ["FIRE", "FLYING"],
     sprite: "/Front/HOOH.png",
-    backSprite: "/spritesBack/HOOH.png",
+    backSprite: "/Back/HOOH.png",
     description:
       "Its feathers--which glow in seven colors depending on the angle at which light strikes them--are thought to bring joy. It is said to live at the foot of a rainbow.",
     stats: {
@@ -31259,7 +31259,7 @@ export const fakemons: Fakemon[] = [
     name: "Celebi",
     types: ["PSYCHIC", "GRASS"],
     sprite: "/Front/CELEBI.png",
-    backSprite: "/spritesBack/CELEBI.png",
+    backSprite: "/Back/CELEBI.png",
     description:
       "This Pokémon came from the future by crossing over time. It is thought that so long as Celebi appears, a bright and shining future awaits us.",
     stats: {
@@ -31393,7 +31393,7 @@ export const fakemons: Fakemon[] = [
     name: "Treecko",
     types: ["GRASS"],
     sprite: "/Front/TREECKO.png",
-    backSprite: "/spritesBack/TREECKO.png",
+    backSprite: "/Back/TREECKO.png",
     description:
       "It makes its nest in a giant tree in the forest. It ferociously guards against anything nearing its territory. It is said to be the protector of the trees.",
     stats: {
@@ -31533,7 +31533,7 @@ export const fakemons: Fakemon[] = [
     name: "Grovyle",
     types: ["GRASS"],
     sprite: "/Front/GROVYLE.png",
-    backSprite: "/spritesBack/GROVYLE.png",
+    backSprite: "/Back/GROVYLE.png",
     description:
       "Leaves grow out of this Pokémon's body. They help obscure a Grovyle from the eyes of its enemies while it is in a thickly overgrown forest.",
     stats: {
@@ -31668,7 +31668,7 @@ export const fakemons: Fakemon[] = [
     name: "Sceptile",
     types: ["GRASS"],
     sprite: "/Front/SCEPTILE.png",
-    backSprite: "/spritesBack/SCEPTILE.png",
+    backSprite: "/Back/SCEPTILE.png",
     description:
       "In the jungle, its power is without equal. This Pokémon carefully grows trees and plants. It regulates its body temperature by basking in sunlight.",
     stats: {
@@ -31821,7 +31821,7 @@ export const fakemons: Fakemon[] = [
     name: "Torchic",
     types: ["FIRE"],
     sprite: "/Front/TORCHIC.png",
-    backSprite: "/spritesBack/TORCHIC.png",
+    backSprite: "/Back/TORCHIC.png",
     description:
       "If attacked, it strikes back by spitting balls of fire it forms in its stomach. A Torchic dislikes darkness because it can't see its surroundings.",
     stats: {
@@ -31950,7 +31950,7 @@ export const fakemons: Fakemon[] = [
     name: "Combusken",
     types: ["FIRE", "FIGHTING"],
     sprite: "/Front/COMBUSKEN.png",
-    backSprite: "/spritesBack/COMBUSKEN.png",
+    backSprite: "/Back/COMBUSKEN.png",
     description:
       "It lashes out with 10 kicks per second. Its strong fighting instinct compels it to keep up its offensive until the opponent gives up.",
     stats: {
@@ -32088,7 +32088,7 @@ export const fakemons: Fakemon[] = [
     name: "Blaziken",
     types: ["FIRE", "FIGHTING"],
     sprite: "/Front/BLAZIKEN.png",
-    backSprite: "/spritesBack/BLAZIKEN.png",
+    backSprite: "/Back/BLAZIKEN.png",
     description:
       "It learns martial arts that use punches and kicks. Every several years, its old feathers burn off, and new, supple feathers grow back in their place.",
     stats: {
@@ -32243,7 +32243,7 @@ export const fakemons: Fakemon[] = [
     name: "Mudkip",
     types: ["WATER"],
     sprite: "/Front/MUDKIP.png",
-    backSprite: "/spritesBack/MUDKIP.png",
+    backSprite: "/Back/MUDKIP.png",
     description:
       "On land, it can powerfully lift large boulders by planting its four feet and heaving. It sleeps by burying itself in soil at the water's edge.",
     stats: {
@@ -32371,7 +32371,7 @@ export const fakemons: Fakemon[] = [
     name: "Marshtomp",
     types: ["WATER", "GROUND"],
     sprite: "/Front/MARSHTOMP.png",
-    backSprite: "/spritesBack/MARSHTOMP.png",
+    backSprite: "/Back/MARSHTOMP.png",
     description:
       "Its toughened hind legs enable it to stand upright. Because it weakens if its skin dries out, it replenishes fluids by playing in mud.",
     stats: {
@@ -32501,7 +32501,7 @@ export const fakemons: Fakemon[] = [
     name: "Swampert",
     types: ["WATER", "GROUND"],
     sprite: "/Front/SWAMPERT.png",
-    backSprite: "/spritesBack/SWAMPERT.png",
+    backSprite: "/Back/SWAMPERT.png",
     description:
       "If it senses the approach of a storm and a tidal wave, it protects its seaside nest by piling up boulders. It swims as fast as a jet ski.",
     stats: {
@@ -32647,7 +32647,7 @@ export const fakemons: Fakemon[] = [
     name: "Poochyena",
     types: ["DARK"],
     sprite: "/Front/POOCHYENA.png",
-    backSprite: "/spritesBack/POOCHYENA.png",
+    backSprite: "/Back/POOCHYENA.png",
     description:
       "It savagely threatens foes with bared fangs. It chases after fleeing targets tenaciously. It turns tail and runs, however, if the foe strikes back.",
     stats: {
@@ -32771,7 +32771,7 @@ export const fakemons: Fakemon[] = [
     name: "Mightyena",
     types: ["DARK"],
     sprite: "/Front/MIGHTYENA.png",
-    backSprite: "/spritesBack/MIGHTYENA.png",
+    backSprite: "/Back/MIGHTYENA.png",
     description:
       "In the wild, Mightyena live in a pack. They never defy their leader's orders. They defeat foes with perfectly coordinated teamwork.",
     stats: {
@@ -32889,7 +32889,7 @@ export const fakemons: Fakemon[] = [
     name: "Zigzagoon",
     types: ["NORMAL"],
     sprite: "/Front/ZIGZAGOON.png",
-    backSprite: "/spritesBack/ZIGZAGOON.png",
+    backSprite: "/Back/ZIGZAGOON.png",
     description:
       "Rubbing its nose against the ground, it always wanders about back and forth in search of something. It is distinguished by the zigzag footprints it leaves.",
     stats: {
@@ -33012,7 +33012,7 @@ export const fakemons: Fakemon[] = [
     name: "Linoone",
     types: ["NORMAL"],
     sprite: "/Front/LINOONE.png",
-    backSprite: "/spritesBack/LINOONE.png",
+    backSprite: "/Back/LINOONE.png",
     description:
       "It is exceedingly fast if it only has to run in a straight line. When it spots pond- dwelling prey underwater, it quickly leaps in and catches it with its sharp claws.",
     stats: {
@@ -33133,7 +33133,7 @@ export const fakemons: Fakemon[] = [
     name: "Wurmple",
     types: ["BUG"],
     sprite: "/Front/WURMPLE.png",
-    backSprite: "/spritesBack/WURMPLE.png",
+    backSprite: "/Back/WURMPLE.png",
     description:
       "It sticks to tree branches and eats leaves. The thread it spits from its mouth becomes gooey when it touches air and slows the movement of its foes.",
     stats: {
@@ -33167,7 +33167,7 @@ export const fakemons: Fakemon[] = [
     name: "Silcoon",
     types: ["BUG"],
     sprite: "/Front/SILCOON.png",
-    backSprite: "/spritesBack/SILCOON.png",
+    backSprite: "/Back/SILCOON.png",
     description:
       "It prepares for evolution using the energy it stored while it was a Wurmple. It keeps watch over the surroundings with its two eyes.",
     stats: {
@@ -33201,7 +33201,7 @@ export const fakemons: Fakemon[] = [
     name: "Beautifly",
     types: ["BUG", "FLYING"],
     sprite: "/Front/BEAUTIFLY.png",
-    backSprite: "/spritesBack/BEAUTIFLY.png",
+    backSprite: "/Back/BEAUTIFLY.png",
     description:
       "Its colorfully patterned wings are its most prominent feature. It flies through flower-covered fields collecting pollen. It attacks ferociously when angered.",
     stats: {
@@ -33300,7 +33300,7 @@ export const fakemons: Fakemon[] = [
     name: "Cascoon",
     types: ["BUG"],
     sprite: "/Front/CASCOON.png",
-    backSprite: "/spritesBack/CASCOON.png",
+    backSprite: "/Back/CASCOON.png",
     description:
       "To avoid detection by its enemies, it hides motionlessly beneath large leaves and in the gaps of branches. It also attaches dead leaves to its body for camouflage.",
     stats: {
@@ -33334,7 +33334,7 @@ export const fakemons: Fakemon[] = [
     name: "Dustox",
     types: ["BUG", "POISON"],
     sprite: "/Front/DUSTOX.png",
-    backSprite: "/spritesBack/DUSTOX.png",
+    backSprite: "/Back/DUSTOX.png",
     description:
       "It is a nocturnal Pokémon that flies from fields and mountains to the attraction of streetlights at night. It looses highly toxic powder from its wings.",
     stats: {
@@ -33435,7 +33435,7 @@ export const fakemons: Fakemon[] = [
     name: "Lotad",
     types: ["WATER", "GRASS"],
     sprite: "/Front/LOTAD.png",
-    backSprite: "/spritesBack/LOTAD.png",
+    backSprite: "/Back/LOTAD.png",
     description:
       "This Pokémon lives in ponds with clean water. It is known to ferry small Pokémon across ponds by carrying them on the broad leaf on its head.",
     stats: {
@@ -33548,7 +33548,7 @@ export const fakemons: Fakemon[] = [
     name: "Lombre",
     types: ["WATER", "GRASS"],
     sprite: "/Front/LOMBRE.png",
-    backSprite: "/spritesBack/LOMBRE.png",
+    backSprite: "/Back/LOMBRE.png",
     description:
       "In the evening, it takes great delight in popping out of rivers and startling people. It feeds on aquatic moss that grows on rocks in the riverbed.",
     stats: {
@@ -33676,7 +33676,7 @@ export const fakemons: Fakemon[] = [
     name: "Ludicolo",
     types: ["WATER", "GRASS"],
     sprite: "/Front/LUDICOLO.png",
-    backSprite: "/spritesBack/LUDICOLO.png",
+    backSprite: "/Back/LUDICOLO.png",
     description:
       "When it hears festive music, all the cells in its body become stimulated, and it begins moving in rhythm. It does not quail even when it faces a tough opponent.",
     stats: {
@@ -33808,7 +33808,7 @@ export const fakemons: Fakemon[] = [
     name: "Seedot",
     types: ["GRASS"],
     sprite: "/Front/SEEDOT.png",
-    backSprite: "/spritesBack/SEEDOT.png",
+    backSprite: "/Back/SEEDOT.png",
     description:
       "It hangs off branches and absorbs nutrients. When it finishes eating, its body becomes so heavy that it drops to the ground with a thump.",
     stats: {
@@ -33928,7 +33928,7 @@ export const fakemons: Fakemon[] = [
     name: "Nuzleaf",
     types: ["GRASS", "DARK"],
     sprite: "/Front/NUZLEAF.png",
-    backSprite: "/spritesBack/NUZLEAF.png",
+    backSprite: "/Back/NUZLEAF.png",
     description:
       "A forest-dwelling Pokémon that is skilled at climbing trees. Its long and pointed nose is its weak point. It loses power if the nose is gripped.",
     stats: {
@@ -34071,7 +34071,7 @@ export const fakemons: Fakemon[] = [
     name: "Shiftry",
     types: ["GRASS", "DARK"],
     sprite: "/Front/SHIFTRY.png",
-    backSprite: "/spritesBack/SHIFTRY.png",
+    backSprite: "/Back/SHIFTRY.png",
     description:
       "It is said to arrive on chilly, wintry winds. Feared from long ago as the guardian of forests, this Pokémon lives in a deep forest where people do not venture.",
     stats: {
@@ -34241,7 +34241,7 @@ export const fakemons: Fakemon[] = [
     name: "Taillow",
     types: ["NORMAL", "FLYING"],
     sprite: "/Front/TAILLOW.png",
-    backSprite: "/spritesBack/TAILLOW.png",
+    backSprite: "/Back/TAILLOW.png",
     description:
       "Although it is small, it is very courageous. It will take on a larger Skarmory on an equal footing. However, its will weakens if it becomes hungry.",
     stats: {
@@ -34339,7 +34339,7 @@ export const fakemons: Fakemon[] = [
     name: "Swellow",
     types: ["NORMAL", "FLYING"],
     sprite: "/Front/SWELLOW.png",
-    backSprite: "/spritesBack/SWELLOW.png",
+    backSprite: "/Back/SWELLOW.png",
     description:
       "A Swellow dives upon prey from far above. It never misses its targets. It takes to the skies in search of lands with a warm climate.",
     stats: {
@@ -34432,7 +34432,7 @@ export const fakemons: Fakemon[] = [
     name: "Wingull",
     types: ["WATER", "FLYING"],
     sprite: "/Front/WINGULL.png",
-    backSprite: "/spritesBack/WINGULL.png",
+    backSprite: "/Back/WINGULL.png",
     description:
       "It makes its nest on a sheer cliff at the edge of the sea. It has trouble keeping its wings flapping in flight. Instead, it soars on updrafts.",
     stats: {
@@ -34551,7 +34551,7 @@ export const fakemons: Fakemon[] = [
     name: "Pelipper",
     types: ["WATER", "FLYING"],
     sprite: "/Front/PELIPPER.png",
-    backSprite: "/spritesBack/PELIPPER.png",
+    backSprite: "/Back/PELIPPER.png",
     description:
       "It skims the tops of waves as it flies. When it spots prey, it uses its large beak to scoop up the victim with water. It protects its eggs in its beak.",
     stats: {
@@ -34670,7 +34670,7 @@ export const fakemons: Fakemon[] = [
     name: "Ralts",
     types: ["PSYCHIC", "FAIRY"],
     sprite: "/Front/RALTS.png",
-    backSprite: "/spritesBack/RALTS.png",
+    backSprite: "/Back/RALTS.png",
     description:
       "A Ralts has the power to sense the emotions of people and Pokémon with the horns on its head. It takes cover if it senses any hostility.",
     stats: {
@@ -34818,7 +34818,7 @@ export const fakemons: Fakemon[] = [
     name: "Kirlia",
     types: ["PSYCHIC", "FAIRY"],
     sprite: "/Front/KIRLIA.png",
-    backSprite: "/spritesBack/KIRLIA.png",
+    backSprite: "/Back/KIRLIA.png",
     description:
       "A Kirlia has the psychic power to create a rip in the dimensions and see into the future. It is said to dance with pleasure on sunny mornings.",
     stats: {
@@ -34956,7 +34956,7 @@ export const fakemons: Fakemon[] = [
     name: "Gardevoir",
     types: ["PSYCHIC", "FAIRY"],
     sprite: "/Front/GARDEVOIR.png",
-    backSprite: "/spritesBack/GARDEVOIR.png",
+    backSprite: "/Back/GARDEVOIR.png",
     description:
       "It apparently does not feel the pull of gravity because it supports itself with psychic power. It will give its life to protect its trainer.",
     stats: {
@@ -35108,7 +35108,7 @@ export const fakemons: Fakemon[] = [
     name: "Surskit",
     types: ["BUG", "WATER"],
     sprite: "/Front/SURSKIT.png",
-    backSprite: "/spritesBack/SURSKIT.png",
+    backSprite: "/Back/SURSKIT.png",
     description:
       "They gather on puddles after evening downpours, gliding across the surface of water as if sliding. It secretes honey with a sweet aroma from its head.",
     stats: {
@@ -35220,7 +35220,7 @@ export const fakemons: Fakemon[] = [
     name: "Masquerain",
     types: ["BUG", "FLYING"],
     sprite: "/Front/MASQUERAIN.png",
-    backSprite: "/spritesBack/MASQUERAIN.png",
+    backSprite: "/Back/MASQUERAIN.png",
     description:
       "It intimidates foes with the large eyelike patterns on its antennae. Because it can't fly if its wings get wet, it shelters from rain under large trees and eaves.",
     stats: {
@@ -35338,7 +35338,7 @@ export const fakemons: Fakemon[] = [
     name: "Shroomish",
     types: ["GRASS"],
     sprite: "/Front/SHROOMISH.png",
-    backSprite: "/spritesBack/SHROOMISH.png",
+    backSprite: "/Back/SHROOMISH.png",
     description:
       "It loves to eat damp, composted soil in forests. If you enter a forest after a long rain, you can see many Shroomish feasting on composted soil.",
     stats: {
@@ -35436,7 +35436,7 @@ export const fakemons: Fakemon[] = [
     name: "Breloom",
     types: ["GRASS", "FIGHTING"],
     sprite: "/Front/BRELOOM.png",
-    backSprite: "/spritesBack/BRELOOM.png",
+    backSprite: "/Back/BRELOOM.png",
     description:
       "It scatters spores from holes in the cap on its head. It loves warm and humid climates. It feeds on trees and plants in fields and forests.",
     stats: {
@@ -35573,7 +35573,7 @@ export const fakemons: Fakemon[] = [
     name: "Slakoth",
     types: ["NORMAL"],
     sprite: "/Front/SLAKOTH.png",
-    backSprite: "/spritesBack/SLAKOTH.png",
+    backSprite: "/Back/SLAKOTH.png",
     description:
       "It sleeps virtually all day and night long. It doesn't change its nest its entire life, but it sometimes travels great distances by swimming in rivers.",
     stats: {
@@ -35711,7 +35711,7 @@ export const fakemons: Fakemon[] = [
     name: "Vigoroth",
     types: ["NORMAL"],
     sprite: "/Front/VIGOROTH.png",
-    backSprite: "/spritesBack/VIGOROTH.png",
+    backSprite: "/Back/VIGOROTH.png",
     description:
       "It can't keep still because its blood boils with energy. It runs through the fields and mountains all day to calm itself. If it doesn't, it can't sleep at night.",
     stats: {
@@ -35861,7 +35861,7 @@ export const fakemons: Fakemon[] = [
     name: "Slaking",
     types: ["NORMAL"],
     sprite: "/Front/SLAKING.png",
-    backSprite: "/spritesBack/SLAKING.png",
+    backSprite: "/Back/SLAKING.png",
     description:
       "Hordes of Slaking gather around trees when fruits come into season. They wait around patiently for ripened fruits to fall out of the trees.",
     stats: {
@@ -36019,7 +36019,7 @@ export const fakemons: Fakemon[] = [
     name: "Nincada",
     types: ["BUG", "GROUND"],
     sprite: "/Front/NINCADA.png",
-    backSprite: "/spritesBack/NINCADA.png",
+    backSprite: "/Back/NINCADA.png",
     description:
       "It makes its nest at the roots of a mighty tree. Using its whiskerlike antennae, it probes its surroundings in the pitch-black darkness of soil.",
     stats: {
@@ -36104,7 +36104,7 @@ export const fakemons: Fakemon[] = [
     name: "Ninjask",
     types: ["BUG", "FLYING"],
     sprite: "/Front/NINJASK.png",
-    backSprite: "/spritesBack/NINJASK.png",
+    backSprite: "/Back/NINJASK.png",
     description:
       "Because it darts about vigorously at high speed, it is very difficult to see. Hearing its distinctive cries for too long induces a headache.",
     stats: {
@@ -36212,7 +36212,7 @@ export const fakemons: Fakemon[] = [
     name: "Shedinja",
     types: ["BUG", "GHOST"],
     sprite: "/Front/SHEDINJA.png",
-    backSprite: "/spritesBack/SHEDINJA.png",
+    backSprite: "/Back/SHEDINJA.png",
     description:
       "A peculiar Pokémon that floats in air even though its wings remain completely still. The inside of its body is hollow and utterly dark.",
     stats: {
@@ -36312,7 +36312,7 @@ export const fakemons: Fakemon[] = [
     name: "Whismur",
     types: ["NORMAL"],
     sprite: "/Front/WHISMUR.png",
-    backSprite: "/spritesBack/WHISMUR.png",
+    backSprite: "/Back/WHISMUR.png",
     description:
       "Its cries equal a jet plane in volume. It inhales through its ear canals. Because of this system, it can cry continually without having to catch its breath.",
     stats: {
@@ -36427,7 +36427,7 @@ export const fakemons: Fakemon[] = [
     name: "Loudred",
     types: ["NORMAL"],
     sprite: "/Front/LOUDRED.png",
-    backSprite: "/spritesBack/LOUDRED.png",
+    backSprite: "/Back/LOUDRED.png",
     description:
       "It positions the round speakers on its head to assail foes with ultrasonic waves at massive volume. It builds power by stomping the ground.",
     stats: {
@@ -36546,7 +36546,7 @@ export const fakemons: Fakemon[] = [
     name: "Exploud",
     types: ["NORMAL"],
     sprite: "/Front/EXPLOUD.png",
-    backSprite: "/spritesBack/EXPLOUD.png",
+    backSprite: "/Back/EXPLOUD.png",
     description:
       "It has sound-generating organs all over its body. It communicates with others by adjusting the tone and volume of the cries it emits.",
     stats: {
@@ -36679,7 +36679,7 @@ export const fakemons: Fakemon[] = [
     name: "Makuhita",
     types: ["FIGHTING"],
     sprite: "/Front/MAKUHITA.png",
-    backSprite: "/spritesBack/MAKUHITA.png",
+    backSprite: "/Back/MAKUHITA.png",
     description:
       "It loves to toughen up its body above all else. If you hear quaking rumbles in a cave, it is the sound of Makuhita undertaking strenuous training.",
     stats: {
@@ -36819,7 +36819,7 @@ export const fakemons: Fakemon[] = [
     name: "Hariyama",
     types: ["FIGHTING"],
     sprite: "/Front/HARIYAMA.png",
-    backSprite: "/spritesBack/HARIYAMA.png",
+    backSprite: "/Back/HARIYAMA.png",
     description:
       "It has the habit of challenging others without hesitation to tests of strength. It's been known to stand on train tracks and stop trains using forearm thrusts.",
     stats: {
@@ -36954,7 +36954,7 @@ export const fakemons: Fakemon[] = [
     name: "Azurill",
     types: ["NORMAL", "FAIRY"],
     sprite: "/Front/AZURILL.png",
-    backSprite: "/spritesBack/AZURILL.png",
+    backSprite: "/Back/AZURILL.png",
     description:
       "Its tail, which is packed with nutrition, is very bouncy like a rubber ball. On sunny days they gather at the edge of water and splash about for fun.",
     stats: {
@@ -37053,7 +37053,7 @@ export const fakemons: Fakemon[] = [
     name: "Nosepass",
     types: ["ROCK"],
     sprite: "/Front/NOSEPASS.png",
-    backSprite: "/spritesBack/NOSEPASS.png",
+    backSprite: "/Back/NOSEPASS.png",
     description:
       "Its body emits a powerful magnetism. It feeds on prey that is pulled in by the force. Its magnetism is stronger in cold seasons.",
     stats: {
@@ -37176,7 +37176,7 @@ export const fakemons: Fakemon[] = [
     name: "Skitty",
     types: ["NORMAL"],
     sprite: "/Front/SKITTY.png",
-    backSprite: "/spritesBack/SKITTY.png",
+    backSprite: "/Back/SKITTY.png",
     description:
       "A Skitty's adorably cute behavior makes it highly popular. In battle, it makes its tail puff out. It threatens foes with a sharp growl.",
     stats: {
@@ -37303,7 +37303,7 @@ export const fakemons: Fakemon[] = [
     name: "Delcatty",
     types: ["NORMAL"],
     sprite: "/Front/DELCATTY.png",
-    backSprite: "/spritesBack/DELCATTY.png",
+    backSprite: "/Back/DELCATTY.png",
     description:
       "Rather than keeping a permanent lair, it habitually seeks comfortable spots and sleeps there. It is nocturnal and becomes active at dusk.",
     stats: {
@@ -37417,7 +37417,7 @@ export const fakemons: Fakemon[] = [
     name: "Sableye",
     types: ["DARK", "GHOST"],
     sprite: "/Front/SABLEYE.png",
-    backSprite: "/spritesBack/SABLEYE.png",
+    backSprite: "/Back/SABLEYE.png",
     description:
       "It digs branching holes in caves using its sharp claws in search of food--raw gems. A Sableye lurks in darkness and is seen only rarely.",
     stats: {
@@ -37589,7 +37589,7 @@ export const fakemons: Fakemon[] = [
     name: "Mawile",
     types: ["STEEL", "FAIRY"],
     sprite: "/Front/MAWILE.png",
-    backSprite: "/spritesBack/MAWILE.png",
+    backSprite: "/Back/MAWILE.png",
     description:
       "Its giant jaws are actually steel horns that transformed. It fools foes into complacency with its adorable gestures, then chomps them with its huge jaws.",
     stats: {
@@ -37740,7 +37740,7 @@ export const fakemons: Fakemon[] = [
     name: "Aron",
     types: ["STEEL", "ROCK"],
     sprite: "/Front/ARON.png",
-    backSprite: "/spritesBack/ARON.png",
+    backSprite: "/Back/ARON.png",
     description:
       "A Pokémon that is clad in steel armor. A new suit of armor is made when it evolves. The old, discarded armor is salvaged as metal for making iron products.",
     stats: {
@@ -37866,7 +37866,7 @@ export const fakemons: Fakemon[] = [
     name: "Lairon",
     types: ["STEEL", "ROCK"],
     sprite: "/Front/LAIRON.png",
-    backSprite: "/spritesBack/LAIRON.png",
+    backSprite: "/Back/LAIRON.png",
     description:
       "When two Lairon meet in the wild, they fight for territory by bashing into each other with their steel bodies. The sound of their collision carries for miles.",
     stats: {
@@ -37984,7 +37984,7 @@ export const fakemons: Fakemon[] = [
     name: "Aggron",
     types: ["STEEL", "ROCK"],
     sprite: "/Front/AGGRON.png",
-    backSprite: "/spritesBack/AGGRON.png",
+    backSprite: "/Back/AGGRON.png",
     description:
       "Its iron horns grow longer a little at a time. They are used to determine the Aggron's age. The gouges in its armor are worn with pride as mementos from battles.",
     stats: {
@@ -38144,7 +38144,7 @@ export const fakemons: Fakemon[] = [
     name: "Meditite",
     types: ["FIGHTING", "PSYCHIC"],
     sprite: "/Front/MEDITITE.png",
-    backSprite: "/spritesBack/MEDITITE.png",
+    backSprite: "/Back/MEDITITE.png",
     description:
       "It continually meditates for hours every day. As a result of rigorous and dedicated yoga training, it has tempered its spiritual power so much it can fly.",
     stats: {
@@ -38294,7 +38294,7 @@ export const fakemons: Fakemon[] = [
     name: "Medicham",
     types: ["FIGHTING", "PSYCHIC"],
     sprite: "/Front/MEDICHAM.png",
-    backSprite: "/spritesBack/MEDICHAM.png",
+    backSprite: "/Back/MEDICHAM.png",
     description:
       "Through crushingly harsh yoga training, it gained the power to foretell its foe's actions. It battles with elegant, dance- like movement.",
     stats: {
@@ -38436,7 +38436,7 @@ export const fakemons: Fakemon[] = [
     name: "Electrike",
     types: ["ELECTRIC"],
     sprite: "/Front/ELECTRIKE.png",
-    backSprite: "/spritesBack/ELECTRIKE.png",
+    backSprite: "/Back/ELECTRIKE.png",
     description:
       "It generates electricity using friction from the atmosphere. In seasons with especially arid air, its entire body blazes with violent showers of sparks.",
     stats: {
@@ -38551,7 +38551,7 @@ export const fakemons: Fakemon[] = [
     name: "Manectric",
     types: ["ELECTRIC"],
     sprite: "/Front/MANECTRIC.png",
-    backSprite: "/spritesBack/MANECTRIC.png",
+    backSprite: "/Back/MANECTRIC.png",
     description:
       "Because lightning falls in their vicinities, Manectric were thought to have been born from lightning. In battle, they create thunderclouds.",
     stats: {
@@ -38655,7 +38655,7 @@ export const fakemons: Fakemon[] = [
     name: "Plusle",
     types: ["ELECTRIC"],
     sprite: "/Front/PLUSLE.png",
-    backSprite: "/spritesBack/PLUSLE.png",
+    backSprite: "/Back/PLUSLE.png",
     description:
       "It has the trait of cheering on its fellow Pokémon. By shorting out the electricity it releases from its paws, it creates pom-poms for cheering.",
     stats: {
@@ -38781,7 +38781,7 @@ export const fakemons: Fakemon[] = [
     name: "Minun",
     types: ["ELECTRIC"],
     sprite: "/Front/MINUN.png",
-    backSprite: "/spritesBack/MINUN.png",
+    backSprite: "/Back/MINUN.png",
     description:
       "At a meeting of Pokémon academics, it was announced that simultaneous exposure to electricity from a Plusle and Minun will promote circulation and boost vitality.",
     stats: {
@@ -38905,7 +38905,7 @@ export const fakemons: Fakemon[] = [
     name: "Volbeat",
     types: ["BUG"],
     sprite: "/Front/VOLBEAT.png",
-    backSprite: "/spritesBack/VOLBEAT.png",
+    backSprite: "/Back/VOLBEAT.png",
     description:
       "With their taillights lit, Volbeat fly in a swarm, drawing geometric designs in the night sky. They move their nests if their pond water becomes dirty.",
     stats: {
@@ -39038,7 +39038,7 @@ export const fakemons: Fakemon[] = [
     name: "Illumise",
     types: ["BUG"],
     sprite: "/Front/ILLUMISE.png",
-    backSprite: "/spritesBack/ILLUMISE.png",
+    backSprite: "/Back/ILLUMISE.png",
     description:
       "A nocturnal Pokémon that becomes active upon nightfall. It leads a Volbeat swarm to draw patterns in the night sky. Over 200 different patterns have been seen.",
     stats: {
@@ -39174,7 +39174,7 @@ export const fakemons: Fakemon[] = [
     name: "Roselia",
     types: ["GRASS", "POISON"],
     sprite: "/Front/ROSELIA.png",
-    backSprite: "/spritesBack/ROSELIA.png",
+    backSprite: "/Back/ROSELIA.png",
     description:
       "A Roselia that drinks nutritionally rich springwater blooms with lovely flowers. The fragrance of its flowers has the effect of making its foes careless.",
     stats: {
@@ -39295,7 +39295,7 @@ export const fakemons: Fakemon[] = [
     name: "Gulpin",
     types: ["POISON"],
     sprite: "/Front/GULPIN.png",
-    backSprite: "/spritesBack/GULPIN.png",
+    backSprite: "/Back/GULPIN.png",
     description:
       "This Pokémon's stomach fluid can even digest scrap iron. In one gulp, it can swallow something that is as large as itself.",
     stats: {
@@ -39425,7 +39425,7 @@ export const fakemons: Fakemon[] = [
     name: "Swalot",
     types: ["POISON"],
     sprite: "/Front/SWALOT.png",
-    backSprite: "/spritesBack/SWALOT.png",
+    backSprite: "/Back/SWALOT.png",
     description:
       "Its powerful stomach acid is capable of digesting almost anything. The one thing in the whole world a Swalot can't digest is its own stomach.",
     stats: {
@@ -39549,7 +39549,7 @@ export const fakemons: Fakemon[] = [
     name: "Carvanha",
     types: ["WATER", "DARK"],
     sprite: "/Front/CARVANHA.png",
-    backSprite: "/spritesBack/CARVANHA.png",
+    backSprite: "/Back/CARVANHA.png",
     description:
       "Carvanha attack ships in swarms, making them sink. Although it is said to be a very vicious Pokémon, it timidly flees as soon as it finds itself alone.",
     stats: {
@@ -39666,7 +39666,7 @@ export const fakemons: Fakemon[] = [
     name: "Sharpedo",
     types: ["WATER", "DARK"],
     sprite: "/Front/SHARPEDO.png",
-    backSprite: "/spritesBack/SHARPEDO.png",
+    backSprite: "/Back/SHARPEDO.png",
     description:
       "The vicious and sly gangster of the sea. Its skin is specially textured to minimize drag in water. Its speed tops out at over 75 miles per hour.",
     stats: {
@@ -39782,7 +39782,7 @@ export const fakemons: Fakemon[] = [
     name: "Wailmer",
     types: ["WATER"],
     sprite: "/Front/WAILMER.png",
-    backSprite: "/spritesBack/WAILMER.png",
+    backSprite: "/Back/WAILMER.png",
     description:
       "While this Pokémon usually lives in the sea, it can survive on land, although not too long. It loses vitality if its body becomes dried out.",
     stats: {
@@ -39902,7 +39902,7 @@ export const fakemons: Fakemon[] = [
     name: "Wailord",
     types: ["WATER"],
     sprite: "/Front/WAILORD.png",
-    backSprite: "/spritesBack/WAILORD.png",
+    backSprite: "/Back/WAILORD.png",
     description:
       "It breathes through nostrils that it raises above the sea. By inhaling to its maximum capacity, a Wailord can dive close to 10,000 feet beneath the waves.",
     stats: {
@@ -40009,7 +40009,7 @@ export const fakemons: Fakemon[] = [
     name: "Numel",
     types: ["FIRE", "GROUND"],
     sprite: "/Front/NUMEL.png",
-    backSprite: "/spritesBack/NUMEL.png",
+    backSprite: "/Back/NUMEL.png",
     description:
       "A Numel stores boiling magma in the hump on its back. It is a hardy Pokémon that can transport a 220-pound load. It has served humans at work since long ago.",
     stats: {
@@ -40147,7 +40147,7 @@ export const fakemons: Fakemon[] = [
     name: "Camerupt",
     types: ["FIRE", "GROUND"],
     sprite: "/Front/CAMERUPT.png",
-    backSprite: "/spritesBack/CAMERUPT.png",
+    backSprite: "/Back/CAMERUPT.png",
     description:
       "A Pokémon that lives in the crater of a volcano. Every 10 years, the volcanoes on its back erupt violently. Research is under way on the cause of eruption.",
     stats: {
@@ -40271,7 +40271,7 @@ export const fakemons: Fakemon[] = [
     name: "Torkoal",
     types: ["FIRE"],
     sprite: "/Front/TORKOAL.png",
-    backSprite: "/spritesBack/TORKOAL.png",
+    backSprite: "/Back/TORKOAL.png",
     description:
       "It battles using energy it gets from burning coal. When loosing smoke from its nostrils, it lets off a sound that is similar to a locomotive's horn.",
     stats: {
@@ -40397,7 +40397,7 @@ export const fakemons: Fakemon[] = [
     name: "Spoink",
     types: ["PSYCHIC"],
     sprite: "/Front/SPOINK.png",
-    backSprite: "/spritesBack/SPOINK.png",
+    backSprite: "/Back/SPOINK.png",
     description:
       "A Pokémon that manipulates psychic power at will. It doesn't stop bouncing even when it is asleep. It loves eating mushrooms that grow underground.",
     stats: {
@@ -40536,7 +40536,7 @@ export const fakemons: Fakemon[] = [
     name: "Grumpig",
     types: ["PSYCHIC"],
     sprite: "/Front/GRUMPIG.png",
-    backSprite: "/spritesBack/GRUMPIG.png",
+    backSprite: "/Back/GRUMPIG.png",
     description:
       "It stores power in the black pearls on its forehead. When it uses psychic power, it performs an odd dance step. Its style of dancing became hugely popular overseas.",
     stats: {
@@ -40694,7 +40694,7 @@ export const fakemons: Fakemon[] = [
     name: "Spinda",
     types: ["NORMAL"],
     sprite: "/Front/SPINDA.png",
-    backSprite: "/spritesBack/SPINDA.png",
+    backSprite: "/Back/SPINDA.png",
     description:
       "It is distinguished by a pattern of spots that is always different. Its unsteady, tottering walk has the effect of fouling its foe's aim.",
     stats: {
@@ -40827,7 +40827,7 @@ export const fakemons: Fakemon[] = [
     name: "Trapinch",
     types: ["GROUND"],
     sprite: "/Front/TRAPINCH.png",
-    backSprite: "/spritesBack/TRAPINCH.png",
+    backSprite: "/Back/TRAPINCH.png",
     description:
       "Its big jaws crunch through boulders. Because its head is so big, it has a hard time getting back upright if it tips over onto its back.",
     stats: {
@@ -40935,7 +40935,7 @@ export const fakemons: Fakemon[] = [
     name: "Vibrava",
     types: ["GROUND", "DRAGON"],
     sprite: "/Front/VIBRAVA.png",
-    backSprite: "/spritesBack/VIBRAVA.png",
+    backSprite: "/Back/VIBRAVA.png",
     description:
       "It looses ultrasonic waves by rubbing its wings together. Since a Vibrava's wings are still in the process of growing, it can only fly short distances.",
     stats: {
@@ -41066,7 +41066,7 @@ export const fakemons: Fakemon[] = [
     name: "Flygon",
     types: ["GROUND", "DRAGON"],
     sprite: "/Front/FLYGON.png",
-    backSprite: "/spritesBack/FLYGON.png",
+    backSprite: "/Back/FLYGON.png",
     description:
       "The flapping of its wings sounds like singing. To prevent detection by enemies, it hides itself by flapping up a cloud of desert sand.",
     stats: {
@@ -41217,7 +41217,7 @@ export const fakemons: Fakemon[] = [
     name: "Cacnea",
     types: ["GRASS"],
     sprite: "/Front/CACNEA.png",
-    backSprite: "/spritesBack/CACNEA.png",
+    backSprite: "/Back/CACNEA.png",
     description:
       "Cacnea live in deserts with virtually no rainfall. It battles by swinging its thick, spiked arms. Once a year, a yellow flower blooms.",
     stats: {
@@ -41363,7 +41363,7 @@ export const fakemons: Fakemon[] = [
     name: "Cacturne",
     types: ["GRASS", "DARK"],
     sprite: "/Front/CACTURNE.png",
-    backSprite: "/spritesBack/CACTURNE.png",
+    backSprite: "/Back/CACTURNE.png",
     description:
       "After spending thousands of years in harsh deserts, its blood transformed into the same substances as sand. It is nocturnal, so it hunts at night.",
     stats: {
@@ -41504,7 +41504,7 @@ export const fakemons: Fakemon[] = [
     name: "Swablu",
     types: ["NORMAL", "FLYING"],
     sprite: "/Front/SWABLU.png",
-    backSprite: "/spritesBack/SWABLU.png",
+    backSprite: "/Back/SWABLU.png",
     description:
       "A Pokémon that has wings like cottony clouds. After enduring winter, in which little food is available, Swablu flocks move closer to towns in the spring.",
     stats: {
@@ -41624,7 +41624,7 @@ export const fakemons: Fakemon[] = [
     name: "Altaria",
     types: ["DRAGON", "FLYING"],
     sprite: "/Front/ALTARIA.png",
-    backSprite: "/spritesBack/ALTARIA.png",
+    backSprite: "/Back/ALTARIA.png",
     description:
       "It hums in a beautiful soprano voice. It flies among white clouds in the blue sky. It launches intensely hot fireballs from its mouth.",
     stats: {
@@ -41753,7 +41753,7 @@ export const fakemons: Fakemon[] = [
     name: "Zangoose",
     types: ["NORMAL"],
     sprite: "/Front/ZANGOOSE.png",
-    backSprite: "/spritesBack/ZANGOOSE.png",
+    backSprite: "/Back/ZANGOOSE.png",
     description:
       "When it battles, it stands on its hind legs and attacks with its sharply clawed forelegs. Its fur bristles if it encounters any Seviper.",
     stats: {
@@ -41923,7 +41923,7 @@ export const fakemons: Fakemon[] = [
     name: "Seviper",
     types: ["POISON"],
     sprite: "/Front/SEVIPER.png",
-    backSprite: "/spritesBack/SEVIPER.png",
+    backSprite: "/Back/SEVIPER.png",
     description:
       "Seviper and Zangoose are eternal rivals. It counters a Zangoose's dazzling agility with its swordlike tail, which also oozes a horrible poison.",
     stats: {
@@ -42062,7 +42062,7 @@ export const fakemons: Fakemon[] = [
     name: "Lunatone",
     types: ["ROCK", "PSYCHIC"],
     sprite: "/Front/LUNATONE.png",
-    backSprite: "/spritesBack/LUNATONE.png",
+    backSprite: "/Back/LUNATONE.png",
     description:
       "It becomes very active on the night of a full moon. This Pokémon was first discovered 40 years ago at the site of a meteor strike.",
     stats: {
@@ -42192,7 +42192,7 @@ export const fakemons: Fakemon[] = [
     name: "Solrock",
     types: ["ROCK", "PSYCHIC"],
     sprite: "/Front/SOLROCK.png",
-    backSprite: "/spritesBack/SOLROCK.png",
+    backSprite: "/Back/SOLROCK.png",
     description:
       "Solar energy is the source of this Pokémon's power. On sunny days, groups of Solrock line up facing the sun and absorb its light.",
     stats: {
@@ -42327,7 +42327,7 @@ export const fakemons: Fakemon[] = [
     name: "Barboach",
     types: ["WATER", "GROUND"],
     sprite: "/Front/BARBOACH.png",
-    backSprite: "/spritesBack/BARBOACH.png",
+    backSprite: "/Back/BARBOACH.png",
     description:
       "Its body is covered with a slimy film. The film acts as a barrier to prevent germs in muddy water from entering the Barboach's body.",
     stats: {
@@ -42443,7 +42443,7 @@ export const fakemons: Fakemon[] = [
     name: "Whiscash",
     types: ["WATER", "GROUND"],
     sprite: "/Front/WHISCASH.png",
-    backSprite: "/spritesBack/WHISCASH.png",
+    backSprite: "/Back/WHISCASH.png",
     description:
       "Mysteriously, it can foretell earthquakes. In the daytime, it sleeps in mud at the bottom of a pond. When it awakens, it continually feeds throughout the night.",
     stats: {
@@ -42556,7 +42556,7 @@ export const fakemons: Fakemon[] = [
     name: "Corphish",
     types: ["WATER"],
     sprite: "/Front/CORPHISH.png",
-    backSprite: "/spritesBack/CORPHISH.png",
+    backSprite: "/Back/CORPHISH.png",
     description:
       "Once it grips prey with its large pincers, it will never let go, no matter what. It is a hardy Pokémon that can thrive in any environment.",
     stats: {
@@ -42682,7 +42682,7 @@ export const fakemons: Fakemon[] = [
     name: "Crawdaunt",
     types: ["WATER", "DARK"],
     sprite: "/Front/CRAWDAUNT.png",
-    backSprite: "/spritesBack/CRAWDAUNT.png",
+    backSprite: "/Back/CRAWDAUNT.png",
     description:
       "A brutish Pokémon that loves to battle. A veteran Crawdaunt that has prevailed in hundreds of battles has giant pincers marked with countless scars.",
     stats: {
@@ -42808,7 +42808,7 @@ export const fakemons: Fakemon[] = [
     name: "Baltoy",
     types: ["GROUND", "PSYCHIC"],
     sprite: "/Front/BALTOY.png",
-    backSprite: "/spritesBack/BALTOY.png",
+    backSprite: "/Back/BALTOY.png",
     description:
       "A Baltoy moves by spinning on its single foot. It has been depicted in murals adorning the walls of a once-bustling city in an ancient age.",
     stats: {
@@ -42934,7 +42934,7 @@ export const fakemons: Fakemon[] = [
     name: "Claydol",
     types: ["GROUND", "PSYCHIC"],
     sprite: "/Front/CLAYDOL.png",
-    backSprite: "/spritesBack/CLAYDOL.png",
+    backSprite: "/Back/CLAYDOL.png",
     description:
       "A Claydol sleeps while hovering in midair. Its arms are separate from its body. They are kept floating by the Pokémon's manipulation of psychic power.",
     stats: {
@@ -43066,7 +43066,7 @@ export const fakemons: Fakemon[] = [
     name: "Lileep",
     types: ["ROCK", "GRASS"],
     sprite: "/Front/LILEEP.png",
-    backSprite: "/spritesBack/LILEEP.png",
+    backSprite: "/Back/LILEEP.png",
     description:
       "It disguises itself as seaweed by making its tentacles sway. Unsuspecting prey that come too close are swallowed whole. It became extinct 100 million years ago.",
     stats: {
@@ -43169,7 +43169,7 @@ export const fakemons: Fakemon[] = [
     name: "Cradily",
     types: ["ROCK", "GRASS"],
     sprite: "/Front/CRADILY.png",
-    backSprite: "/spritesBack/CRADILY.png",
+    backSprite: "/Back/CRADILY.png",
     description:
       "It drags its heavy body along the seafloor. It makes its nest in the shallows of warm seas. Cradily can be seen on beaches when the tide goes out.",
     stats: {
@@ -43280,7 +43280,7 @@ export const fakemons: Fakemon[] = [
     name: "Anorith",
     types: ["ROCK", "BUG"],
     sprite: "/Front/ANORITH.png",
-    backSprite: "/spritesBack/ANORITH.png",
+    backSprite: "/Back/ANORITH.png",
     description:
       "It was resurrected from a fossil using the power of science. It swims by undulating the wings at its sides. They were feet that adapted to life in the sea.",
     stats: {
@@ -43393,7 +43393,7 @@ export const fakemons: Fakemon[] = [
     name: "Armaldo",
     types: ["ROCK", "BUG"],
     sprite: "/Front/ARMALDO.png",
-    backSprite: "/spritesBack/ARMALDO.png",
+    backSprite: "/Back/ARMALDO.png",
     description:
       "Armaldo usually lives on land. However, when it hunts for prey, it dives beneath the ocean. It swims around using its two large wings.",
     stats: {
@@ -43507,7 +43507,7 @@ export const fakemons: Fakemon[] = [
     name: "Feebas",
     types: ["WATER"],
     sprite: "/Front/FEEBAS.png",
-    backSprite: "/spritesBack/FEEBAS.png",
+    backSprite: "/Back/FEEBAS.png",
     description:
       "Feebas live in ponds that are heavily infested with weeds. Because of its hopelessly shabby appearance, it seems as if few trainers raise it.",
     stats: {
@@ -43591,7 +43591,7 @@ export const fakemons: Fakemon[] = [
     name: "Milotic",
     types: ["WATER"],
     sprite: "/Front/MILOTIC.png",
-    backSprite: "/spritesBack/MILOTIC.png",
+    backSprite: "/Back/MILOTIC.png",
     description:
       "It is said to live at the bottom of large lakes. Considered to be the most beautiful of all Pokémon, it has been depicted in paintings and statues.",
     stats: {
@@ -43711,7 +43711,7 @@ export const fakemons: Fakemon[] = [
     name: "Castform",
     types: ["NORMAL"],
     sprite: "/Front/CASTFORM.png",
-    backSprite: "/spritesBack/CASTFORM.png",
+    backSprite: "/Back/CASTFORM.png",
     description:
       "It alters its form depending on the weather. Changes in the climate such as the temperature and humidity appear to affect its cellular structure.",
     stats: {
@@ -43815,7 +43815,7 @@ export const fakemons: Fakemon[] = [
     name: "Kecleon",
     types: ["NORMAL"],
     sprite: "/Front/KECLEON.png",
-    backSprite: "/spritesBack/KECLEON.png",
+    backSprite: "/Back/KECLEON.png",
     description:
       "A Pokémon that has the ability to alter its body colors to match its surroundings. A Kecleon reverts to its original colors if it is startled.",
     stats: {
@@ -43964,7 +43964,7 @@ export const fakemons: Fakemon[] = [
     name: "Shuppet",
     types: ["GHOST"],
     sprite: "/Front/SHUPPET.png",
-    backSprite: "/spritesBack/SHUPPET.png",
+    backSprite: "/Back/SHUPPET.png",
     description:
       "This Pokémon roams about deep in the night seeking such negative emotions as grudges and envy. It retreats to its nest when the sun begins to rise.",
     stats: {
@@ -44096,7 +44096,7 @@ export const fakemons: Fakemon[] = [
     name: "Banette",
     types: ["GHOST"],
     sprite: "/Front/BANETTE.png",
-    backSprite: "/spritesBack/BANETTE.png",
+    backSprite: "/Back/BANETTE.png",
     description:
       "An abandoned plush doll became this Pokémon. They are said to live in garbage dumps and wander about in search of the children that threw them away.",
     stats: {
@@ -44223,7 +44223,7 @@ export const fakemons: Fakemon[] = [
     name: "Duskull",
     types: ["GHOST"],
     sprite: "/Front/DUSKULL.png",
-    backSprite: "/spritesBack/DUSKULL.png",
+    backSprite: "/Back/DUSKULL.png",
     description:
       "A glare from its single scarlet eye makes even burly grown-ups freeze in utter fear. It is a nocturnal Pokémon that roams about under the cloak of darkness.",
     stats: {
@@ -44346,7 +44346,7 @@ export const fakemons: Fakemon[] = [
     name: "Dusclops",
     types: ["GHOST"],
     sprite: "/Front/DUSCLOPS.png",
-    backSprite: "/spritesBack/DUSCLOPS.png",
+    backSprite: "/Back/DUSCLOPS.png",
     description:
       "It is thought that its body is hollow with only a spectral ball of fire burning inside. However, no one has been able to confirm this theory as fact.",
     stats: {
@@ -44486,7 +44486,7 @@ export const fakemons: Fakemon[] = [
     name: "Tropius",
     types: ["GRASS", "FLYING"],
     sprite: "/Front/TROPIUS.png",
-    backSprite: "/spritesBack/TROPIUS.png",
+    backSprite: "/Back/TROPIUS.png",
     description:
       "It flies by flapping its broad leaves. The bunch of fruit that grows around its neck is deliciously sweet. In the spring, it scatters pollen from its neck.",
     stats: {
@@ -44621,7 +44621,7 @@ export const fakemons: Fakemon[] = [
     name: "Chimecho",
     types: ["PSYCHIC"],
     sprite: "/Front/CHIMECHO.png",
-    backSprite: "/spritesBack/CHIMECHO.png",
+    backSprite: "/Back/CHIMECHO.png",
     description:
       "They fly about very actively when the hot season arrives. They communicate among themselves using seven different and distinguishing cries.",
     stats: {
@@ -44755,7 +44755,7 @@ export const fakemons: Fakemon[] = [
     name: "Absol",
     types: ["DARK"],
     sprite: "/Front/ABSOL.png",
-    backSprite: "/spritesBack/ABSOL.png",
+    backSprite: "/Back/ABSOL.png",
     description:
       "It sharply senses even subtle changes in the sky and the land to predict natural disasters. It is a long-lived Pokémon that has a life-span of 100 years.",
     stats: {
@@ -44907,7 +44907,7 @@ export const fakemons: Fakemon[] = [
     name: "Wynaut",
     types: ["PSYCHIC"],
     sprite: "/Front/WYNAUT.png",
-    backSprite: "/spritesBack/WYNAUT.png",
+    backSprite: "/Back/WYNAUT.png",
     description:
       "A Wynaut loves to eat sweet fruits. It cleverly picks fruits using its earlike arms. They gather in fruit gardens, drawn by the fragrance.",
     stats: {
@@ -44950,7 +44950,7 @@ export const fakemons: Fakemon[] = [
     name: "Snorunt",
     types: ["ICE"],
     sprite: "/Front/SNORUNT.png",
-    backSprite: "/spritesBack/SNORUNT.png",
+    backSprite: "/Back/SNORUNT.png",
     description:
       "They tend to move about in groups of around five Snorunt. In snowy regions, it is said that when they are seen late at night, snowfall will arrive by morning.",
     stats: {
@@ -45061,7 +45061,7 @@ export const fakemons: Fakemon[] = [
     name: "Glalie",
     types: ["ICE"],
     sprite: "/Front/GLALIE.png",
-    backSprite: "/spritesBack/GLALIE.png",
+    backSprite: "/Back/GLALIE.png",
     description:
       "A Glalie has the power to instantaneously freeze moisture in the atmosphere. A dazzling cloud of diamondlike ice crystals forms around its body.",
     stats: {
@@ -45176,7 +45176,7 @@ export const fakemons: Fakemon[] = [
     name: "Spheal",
     types: ["ICE", "WATER"],
     sprite: "/Front/SPHEAL.png",
-    backSprite: "/spritesBack/SPHEAL.png",
+    backSprite: "/Back/SPHEAL.png",
     description:
       "It is completely covered with plushy fur. As a result, it never feels the cold even when it is rolling about on ice floes or diving in the sea.",
     stats: {
@@ -45289,7 +45289,7 @@ export const fakemons: Fakemon[] = [
     name: "Sealeo",
     types: ["ICE", "WATER"],
     sprite: "/Front/SEALEO.png",
-    backSprite: "/spritesBack/SEALEO.png",
+    backSprite: "/Back/SEALEO.png",
     description:
       "Sealeo live in herds on ice floes. Using its powerful flippers, it shatters ice. It dives into the sea to hunt prey five times a day.",
     stats: {
@@ -45394,7 +45394,7 @@ export const fakemons: Fakemon[] = [
     name: "Walrein",
     types: ["ICE", "WATER"],
     sprite: "/Front/WALREIN.png",
-    backSprite: "/spritesBack/WALREIN.png",
+    backSprite: "/Back/WALREIN.png",
     description:
       "To protect its herd, the leader battles anything that invades its territory, even at the cost of its life. Its tusks may snap off in battle.",
     stats: {
@@ -45509,7 +45509,7 @@ export const fakemons: Fakemon[] = [
     name: "Clamperl",
     types: ["WATER"],
     sprite: "/Front/CLAMPERL.png",
-    backSprite: "/spritesBack/CLAMPERL.png",
+    backSprite: "/Back/CLAMPERL.png",
     description:
       "A Clamperl slams its shell closed on prey to prevent escape. The pearl it creates upon evolution is said to be infused with a mysterious energy.",
     stats: {
@@ -45584,7 +45584,7 @@ export const fakemons: Fakemon[] = [
     name: "Huntail",
     types: ["WATER"],
     sprite: "/Front/HUNTAIL.png",
-    backSprite: "/spritesBack/HUNTAIL.png",
+    backSprite: "/Back/HUNTAIL.png",
     description:
       "To withstand the crushing water pressure deep under the sea, its spine is very thick and sturdy. Its tail, which is shaped like a small fish, has eyes that light up.",
     stats: {
@@ -45677,7 +45677,7 @@ export const fakemons: Fakemon[] = [
     name: "Gorebyss",
     types: ["WATER"],
     sprite: "/Front/GOREBYSS.png",
-    backSprite: "/spritesBack/GOREBYSS.png",
+    backSprite: "/Back/GOREBYSS.png",
     description:
       "A Gorebyss siphons the body fluids of prey through its thin, tubular mouth. Its light pink body color turns vivid when it finishes feeding.",
     stats: {
@@ -45771,7 +45771,7 @@ export const fakemons: Fakemon[] = [
     name: "Relicanth",
     types: ["WATER", "ROCK"],
     sprite: "/Front/RELICANTH.png",
-    backSprite: "/spritesBack/RELICANTH.png",
+    backSprite: "/Back/RELICANTH.png",
     description:
       "A Pokémon that was once believed to be extinct. The species has not changed its form for 100 million years. It walks on the seafloor using its pectoral fins.",
     stats: {
@@ -45889,7 +45889,7 @@ export const fakemons: Fakemon[] = [
     name: "Luvdisc",
     types: ["WATER"],
     sprite: "/Front/LUVDISC.png",
-    backSprite: "/spritesBack/LUVDISC.png",
+    backSprite: "/Back/LUVDISC.png",
     description:
       "Luvdisc make the branches of Corsola their nests. There is a custom from long ago of giving a Luvdisc as a gift to express one's feelings of love.",
     stats: {
@@ -45986,7 +45986,7 @@ export const fakemons: Fakemon[] = [
     name: "Bagon",
     types: ["DRAGON"],
     sprite: "/Front/BAGON.png",
-    backSprite: "/spritesBack/BAGON.png",
+    backSprite: "/Back/BAGON.png",
     description:
       "Although it is small, this Pokémon is very powerful because its body is a bundle of muscles. It launches head-butts with its ironlike skull.",
     stats: {
@@ -46103,7 +46103,7 @@ export const fakemons: Fakemon[] = [
     name: "Shelgon",
     types: ["DRAGON"],
     sprite: "/Front/SHELGON.png",
-    backSprite: "/spritesBack/SHELGON.png",
+    backSprite: "/Back/SHELGON.png",
     description:
       "It hardly eats while it awaits evolution. It becomes hardier by enduring hunger. Its shell peels off the instant it begins to evolve.",
     stats: {
@@ -46216,7 +46216,7 @@ export const fakemons: Fakemon[] = [
     name: "Salamence",
     types: ["DRAGON", "FLYING"],
     sprite: "/Front/SALAMENCE.png",
-    backSprite: "/spritesBack/SALAMENCE.png",
+    backSprite: "/Back/SALAMENCE.png",
     description:
       "After many long years, its cellular structure underwent a sudden mutation to grow wings. When angered, it loses all thought and rampages out of control.",
     stats: {
@@ -46349,7 +46349,7 @@ export const fakemons: Fakemon[] = [
     name: "Beldum",
     types: ["STEEL", "PSYCHIC"],
     sprite: "/Front/BELDUM.png",
-    backSprite: "/spritesBack/BELDUM.png",
+    backSprite: "/Back/BELDUM.png",
     description:
       "When Beldum gather in a swarm, they move in perfect unison as if they were but one Pokémon. They communicate with each other using brain waves.",
     stats: {
@@ -46391,7 +46391,7 @@ export const fakemons: Fakemon[] = [
     name: "Metang",
     types: ["STEEL", "PSYCHIC"],
     sprite: "/Front/METANG.png",
-    backSprite: "/spritesBack/METANG.png",
+    backSprite: "/Back/METANG.png",
     description:
       "The claws tipping its arms pack the destructive power to tear through thick iron sheets as if they were silk. It flies at over 60 miles per hour.",
     stats: {
@@ -46527,7 +46527,7 @@ export const fakemons: Fakemon[] = [
     name: "Metagross",
     types: ["STEEL", "PSYCHIC"],
     sprite: "/Front/METAGROSS.png",
-    backSprite: "/spritesBack/METAGROSS.png",
+    backSprite: "/Back/METAGROSS.png",
     description:
       "Metagross has four brains that are joined by a complex neural network. As a result of integration, this Pokémon is smarter than a supercomputer.",
     stats: {
@@ -46669,7 +46669,7 @@ export const fakemons: Fakemon[] = [
     name: "Regirock",
     types: ["ROCK"],
     sprite: "/Front/REGIROCK.png",
-    backSprite: "/spritesBack/REGIROCK.png",
+    backSprite: "/Back/REGIROCK.png",
     description:
       "A Pokémon that is made entirely of rocks and boulders. If parts of its body chip off in battle, Regirock repairs itself by adding new rocks.",
     stats: {
@@ -46793,7 +46793,7 @@ export const fakemons: Fakemon[] = [
     name: "Regice",
     types: ["ICE"],
     sprite: "/Front/REGICE.png",
-    backSprite: "/spritesBack/REGICE.png",
+    backSprite: "/Back/REGICE.png",
     description:
       "Its entire body is made of Antarctic ice. After extensive studies, researchers believe the ice was formed during an ice age.",
     stats: {
@@ -46913,7 +46913,7 @@ export const fakemons: Fakemon[] = [
     name: "Registeel",
     types: ["STEEL"],
     sprite: "/Front/REGISTEEL.png",
-    backSprite: "/spritesBack/REGISTEEL.png",
+    backSprite: "/Back/REGISTEEL.png",
     description:
       "Its body is harder than any other kind of metal. The body metal is composed of a mysterious substance. Not only is it hard, it shrinks and stretches flexibly.",
     stats: {
@@ -47041,7 +47041,7 @@ export const fakemons: Fakemon[] = [
     name: "Latias",
     types: ["DRAGON", "PSYCHIC"],
     sprite: "/Front/LATIAS.png",
-    backSprite: "/spritesBack/LATIAS.png",
+    backSprite: "/Back/LATIAS.png",
     description:
       "They make a small herd of only several members. They rarely make contact with people or other Pokémon. They disappear if they sense enemies.",
     stats: {
@@ -47194,7 +47194,7 @@ export const fakemons: Fakemon[] = [
     name: "Latios",
     types: ["DRAGON", "PSYCHIC"],
     sprite: "/Front/LATIOS.png",
-    backSprite: "/spritesBack/LATIOS.png",
+    backSprite: "/Back/LATIOS.png",
     description:
       "Even in hiding, it can detect the locations of others and sense their emotions since it has telepathy. Its intelligence allows it to understand human languages.",
     stats: {
@@ -47341,7 +47341,7 @@ export const fakemons: Fakemon[] = [
     name: "Kyogre",
     types: ["WATER"],
     sprite: "/Front/KYOGRE.png",
-    backSprite: "/spritesBack/KYOGRE.png",
+    backSprite: "/Back/KYOGRE.png",
     description:
       "Kyogre has appeared in mythology as the creator of the sea. After long years of feuding with Groudon, it took to sleep at the bottom of the sea.",
     stats: {
@@ -47447,7 +47447,7 @@ export const fakemons: Fakemon[] = [
     name: "Groudon",
     types: ["GROUND"],
     sprite: "/Front/GROUDON.png",
-    backSprite: "/spritesBack/GROUDON.png",
+    backSprite: "/Back/GROUDON.png",
     description:
       "Groudon has appeared in mythology as the creator of the land. It sleeps in magma underground and is said to make volcanoes erupt on awakening.",
     stats: {
@@ -47588,7 +47588,7 @@ export const fakemons: Fakemon[] = [
     name: "Rayquaza",
     types: ["DRAGON", "FLYING"],
     sprite: "/Front/RAYQUAZA.png",
-    backSprite: "/spritesBack/RAYQUAZA.png",
+    backSprite: "/Back/RAYQUAZA.png",
     description:
       "A Pokémon that flies endlessly in the ozone layer. It is said it would descend to the ground if Kyogre and Groudon were to fight.",
     stats: {
@@ -47731,7 +47731,7 @@ export const fakemons: Fakemon[] = [
     name: "Jirachi",
     types: ["STEEL", "PSYCHIC"],
     sprite: "/Front/JIRACHI.png",
-    backSprite: "/spritesBack/JIRACHI.png",
+    backSprite: "/Back/JIRACHI.png",
     description:
       "Jirachi is said to make wishes come true. While it sleeps, a tough crystalline shell envelops the body to protect it from enemies.",
     stats: {
@@ -47872,7 +47872,7 @@ export const fakemons: Fakemon[] = [
     name: "Deoxys",
     types: ["PSYCHIC"],
     sprite: "/Front/DEOXYS.png",
-    backSprite: "/spritesBack/DEOXYS.png",
+    backSprite: "/Back/DEOXYS.png",
     description:
       "A Pokémon that mutated from an extraterrestrial virus exposed to a laser beam. Its body is configured for superior agility and speed.",
     stats: {
@@ -48019,7 +48019,7 @@ export const fakemons: Fakemon[] = [
     name: "Turtwig",
     types: ["GRASS"],
     sprite: "/Front/TURTWIG.png",
-    backSprite: "/spritesBack/TURTWIG.png",
+    backSprite: "/Back/TURTWIG.png",
     description:
       "Made from soil, the shell on its back hardens when it drinks water. It lives along lakes.",
     stats: {
@@ -48152,7 +48152,7 @@ export const fakemons: Fakemon[] = [
     name: "Grotle",
     types: ["GRASS"],
     sprite: "/Front/GROTLE.png",
-    backSprite: "/spritesBack/GROTLE.png",
+    backSprite: "/Back/GROTLE.png",
     description:
       "It lives along water in forests. In the daytime, it leaves the forest to sunbathe its treed shell.",
     stats: {
@@ -48266,7 +48266,7 @@ export const fakemons: Fakemon[] = [
     name: "Torterra",
     types: ["GRASS", "GROUND"],
     sprite: "/Front/TORTERRA.png",
-    backSprite: "/spritesBack/TORTERRA.png",
+    backSprite: "/Back/TORTERRA.png",
     description:
       "Small Pokémon occasionally gather on its unmoving back to begin building their nests.",
     stats: {
@@ -48397,7 +48397,7 @@ export const fakemons: Fakemon[] = [
     name: "Chimchar",
     types: ["FIRE"],
     sprite: "/Front/CHIMCHAR.png",
-    backSprite: "/spritesBack/CHIMCHAR.png",
+    backSprite: "/Back/CHIMCHAR.png",
     description:
       "It agilely scales sheer cliffs to live atop craggy mountains. Its fire is put out when it sleeps.",
     stats: {
@@ -48544,7 +48544,7 @@ export const fakemons: Fakemon[] = [
     name: "Monferno",
     types: ["FIRE", "FIGHTING"],
     sprite: "/Front/MONFERNO.png",
-    backSprite: "/spritesBack/MONFERNO.png",
+    backSprite: "/Back/MONFERNO.png",
     description:
       "To intimidate attackers, it stretches the fire on its tail to make itself appear bigger.",
     stats: {
@@ -48686,7 +48686,7 @@ export const fakemons: Fakemon[] = [
     name: "Infernape",
     types: ["FIRE", "FIGHTING"],
     sprite: "/Front/INFERNAPE.png",
-    backSprite: "/spritesBack/INFERNAPE.png",
+    backSprite: "/Back/INFERNAPE.png",
     description:
       "It uses a special kind of martial arts involving all its limbs. Its fire never goes out.",
     stats: {
@@ -48841,7 +48841,7 @@ export const fakemons: Fakemon[] = [
     name: "Piplup",
     types: ["WATER"],
     sprite: "/Front/PIPLUP.png",
-    backSprite: "/spritesBack/PIPLUP.png",
+    backSprite: "/Back/PIPLUP.png",
     description:
       "Because it is very proud, it hates accepting food from people. Its thick down guards it from cold.",
     stats: {
@@ -48966,7 +48966,7 @@ export const fakemons: Fakemon[] = [
     name: "Prinplup",
     types: ["WATER"],
     sprite: "/Front/PRINPLUP.png",
-    backSprite: "/spritesBack/PRINPLUP.png",
+    backSprite: "/Back/PRINPLUP.png",
     description:
       "It lives alone, away from others. Apparently, every one of them believes it is the most important.",
     stats: {
@@ -49084,7 +49084,7 @@ export const fakemons: Fakemon[] = [
     name: "Empoleon",
     types: ["WATER", "STEEL"],
     sprite: "/Front/EMPOLEON.png",
-    backSprite: "/spritesBack/EMPOLEON.png",
+    backSprite: "/Back/EMPOLEON.png",
     description:
       "The three horns that extend from its beak attest to its power. The leader has the biggest horns.",
     stats: {
@@ -49229,7 +49229,7 @@ export const fakemons: Fakemon[] = [
     name: "Starly",
     types: ["NORMAL", "FLYING"],
     sprite: "/Front/STARLY.png",
-    backSprite: "/spritesBack/STARLY.png",
+    backSprite: "/Back/STARLY.png",
     description:
       "They flock in great numbers. Though small, they flap their wings with great power.",
     stats: {
@@ -49336,7 +49336,7 @@ export const fakemons: Fakemon[] = [
     name: "Staravia",
     types: ["NORMAL", "FLYING"],
     sprite: "/Front/STARAVIA.png",
-    backSprite: "/spritesBack/STARAVIA.png",
+    backSprite: "/Back/STARAVIA.png",
     description:
       "It flies around forests and fields in search of bug Pokémon. It stays within a huge flock.",
     stats: {
@@ -49435,7 +49435,7 @@ export const fakemons: Fakemon[] = [
     name: "Staraptor",
     types: ["NORMAL", "FLYING"],
     sprite: "/Front/STARAPTOR.png",
-    backSprite: "/spritesBack/STARAPTOR.png",
+    backSprite: "/Back/STARAPTOR.png",
     description:
       "It has a savage nature. It will courageously challenge foes that are much larger.",
     stats: {
@@ -49535,7 +49535,7 @@ export const fakemons: Fakemon[] = [
     name: "Bidoof",
     types: ["NORMAL"],
     sprite: "/Front/BIDOOF.png",
-    backSprite: "/spritesBack/BIDOOF.png",
+    backSprite: "/Back/BIDOOF.png",
     description:
       "With nerves of steel, nothing can perturb it. It is more agile and active than it appears.",
     stats: {
@@ -49646,7 +49646,7 @@ export const fakemons: Fakemon[] = [
     name: "Bibarel",
     types: ["NORMAL", "WATER"],
     sprite: "/Front/BIBAREL.png",
-    backSprite: "/spritesBack/BIBAREL.png",
+    backSprite: "/Back/BIBAREL.png",
     description:
       "It makes its nest by damming streams with bark and mud. It is known as an industrious worker.",
     stats: {
@@ -49760,7 +49760,7 @@ export const fakemons: Fakemon[] = [
     name: "Kricketot",
     types: ["BUG"],
     sprite: "/Front/KRICKETOT.png",
-    backSprite: "/spritesBack/KRICKETOT.png",
+    backSprite: "/Back/KRICKETOT.png",
     description:
       "It shakes its head back to front, causing its antennae to hit each other and sound like a xylophone.",
     stats: {
@@ -49803,7 +49803,7 @@ export const fakemons: Fakemon[] = [
     name: "Kricketune",
     types: ["BUG"],
     sprite: "/Front/KRICKETUNE.png",
-    backSprite: "/spritesBack/KRICKETUNE.png",
+    backSprite: "/Back/KRICKETUNE.png",
     description:
       "It crosses its knifelike arms in front of its chest when it cries. It can compose melodies ad lib.",
     stats: {
@@ -49908,7 +49908,7 @@ export const fakemons: Fakemon[] = [
     name: "Shinx",
     types: ["ELECTRIC"],
     sprite: "/Front/SHINX.png",
-    backSprite: "/spritesBack/SHINX.png",
+    backSprite: "/Back/SHINX.png",
     description:
       "All of its fur dazzles if danger is sensed. It flees while the foe is momentarily blinded.",
     stats: {
@@ -50033,7 +50033,7 @@ export const fakemons: Fakemon[] = [
     name: "Luxio",
     types: ["ELECTRIC"],
     sprite: "/Front/LUXIO.png",
-    backSprite: "/spritesBack/LUXIO.png",
+    backSprite: "/Back/LUXIO.png",
     description:
       "Its claws loose electricity with enough amperage to cause fainting. They live in small groups.",
     stats: {
@@ -50143,7 +50143,7 @@ export const fakemons: Fakemon[] = [
     name: "Luxray",
     types: ["ELECTRIC"],
     sprite: "/Front/LUXRAY.png",
-    backSprite: "/spritesBack/LUXRAY.png",
+    backSprite: "/Back/LUXRAY.png",
     description:
       "It has eyes that can see through anything. It spots and captures prey hiding behind objects.",
     stats: {
@@ -50256,7 +50256,7 @@ export const fakemons: Fakemon[] = [
     name: "Budew",
     types: ["GRASS", "POISON"],
     sprite: "/Front/BUDEW.png",
-    backSprite: "/spritesBack/BUDEW.png",
+    backSprite: "/Back/BUDEW.png",
     description:
       "Over the winter, it closes its bud and endures the cold. In spring, the bud opens and releases pollen.",
     stats: {
@@ -50345,7 +50345,7 @@ export const fakemons: Fakemon[] = [
     name: "Roserade",
     types: ["GRASS", "POISON"],
     sprite: "/Front/ROSERADE.png",
-    backSprite: "/spritesBack/ROSERADE.png",
+    backSprite: "/Back/ROSERADE.png",
     description:
       "It attracts prey with a sweet aroma, then downs it with thorny whips hidden in its arms.",
     stats: {
@@ -50454,7 +50454,7 @@ export const fakemons: Fakemon[] = [
     name: "Cranidos",
     types: ["ROCK"],
     sprite: "/Front/CRANIDOS.png",
-    backSprite: "/spritesBack/CRANIDOS.png",
+    backSprite: "/Back/CRANIDOS.png",
     description:
       "It lived in jungles around 100 million years ago. Its skull is as hard as iron.",
     stats: {
@@ -50585,7 +50585,7 @@ export const fakemons: Fakemon[] = [
     name: "Rampardos",
     types: ["ROCK"],
     sprite: "/Front/RAMPARDOS.png",
-    backSprite: "/spritesBack/RAMPARDOS.png",
+    backSprite: "/Back/RAMPARDOS.png",
     description:
       "Its powerful head butt has enough power to shatter even the most durable things upon impact.",
     stats: {
@@ -50716,7 +50716,7 @@ export const fakemons: Fakemon[] = [
     name: "Shieldon",
     types: ["ROCK", "STEEL"],
     sprite: "/Front/SHIELDON.png",
-    backSprite: "/spritesBack/SHIELDON.png",
+    backSprite: "/Back/SHIELDON.png",
     description:
       "A Pokémon that lived in jungles around 100 million years ago. Its facial hide is extremely hard.",
     stats: {
@@ -50846,7 +50846,7 @@ export const fakemons: Fakemon[] = [
     name: "Bastiodon",
     types: ["ROCK", "STEEL"],
     sprite: "/Front/BASTIODON.png",
-    backSprite: "/spritesBack/BASTIODON.png",
+    backSprite: "/Back/BASTIODON.png",
     description:
       "Any frontal attack is repulsed. It is a docile Pokémon that feeds on grass and berries.",
     stats: {
@@ -50970,7 +50970,7 @@ export const fakemons: Fakemon[] = [
     name: "Burmy",
     types: ["BUG"],
     sprite: "/Front/BURMY.png",
-    backSprite: "/spritesBack/BURMY.png",
+    backSprite: "/Back/BURMY.png",
     description:
       "To shelter itself from cold, wintry winds, it covers itself with a cloak made of twigs and leaves.",
     stats: {
@@ -51011,7 +51011,7 @@ export const fakemons: Fakemon[] = [
     name: "Wormadam",
     types: ["BUG", "GRASS"],
     sprite: "/Front/WORMADAM.png",
-    backSprite: "/spritesBack/WORMADAM.png",
+    backSprite: "/Back/WORMADAM.png",
     description:
       "When Burmy evolved, its cloak became a part of this Pokémon's body. The cloak is never shed.",
     stats: {
@@ -51112,7 +51112,7 @@ export const fakemons: Fakemon[] = [
     name: "Mothim",
     types: ["BUG", "FLYING"],
     sprite: "/Front/MOTHIM.png",
-    backSprite: "/spritesBack/MOTHIM.png",
+    backSprite: "/Back/MOTHIM.png",
     description:
       "It loves the honey of flowers and steals honey collected by Combee.",
     stats: {
@@ -51213,7 +51213,7 @@ export const fakemons: Fakemon[] = [
     name: "Combee",
     types: ["BUG", "FLYING"],
     sprite: "/Front/COMBEE.png",
-    backSprite: "/spritesBack/COMBEE.png",
+    backSprite: "/Back/COMBEE.png",
     description:
       "A Pokémon formed by three others. It busily carries sweet floral honey to Vespiquen.",
     stats: {
@@ -51259,7 +51259,7 @@ export const fakemons: Fakemon[] = [
     name: "Vespiquen",
     types: ["BUG", "FLYING"],
     sprite: "/Front/VESPIQUEN.png",
-    backSprite: "/spritesBack/VESPIQUEN.png",
+    backSprite: "/Back/VESPIQUEN.png",
     description:
       "Its abdomen is a honeycomb for grubs. It raises its grubs on honey collected by Combee.",
     stats: {
@@ -51385,7 +51385,7 @@ export const fakemons: Fakemon[] = [
     name: "Pachirisu",
     types: ["ELECTRIC"],
     sprite: "/Front/PACHIRISU.png",
-    backSprite: "/spritesBack/PACHIRISU.png",
+    backSprite: "/Back/PACHIRISU.png",
     description:
       "It makes fur balls that crackle with static electricity. It stores them with berries in tree holes.",
     stats: {
@@ -51514,7 +51514,7 @@ export const fakemons: Fakemon[] = [
     name: "Buizel",
     types: ["WATER"],
     sprite: "/Front/BUIZEL.png",
-    backSprite: "/spritesBack/BUIZEL.png",
+    backSprite: "/Back/BUIZEL.png",
     description:
       "It has a flotation sac that is like an inflatable collar. It floats on water with its head out.",
     stats: {
@@ -51639,7 +51639,7 @@ export const fakemons: Fakemon[] = [
     name: "Floatzel",
     types: ["WATER"],
     sprite: "/Front/FLOATZEL.png",
-    backSprite: "/spritesBack/FLOATZEL.png",
+    backSprite: "/Back/FLOATZEL.png",
     description:
       "It floats using its well-developed flotation sac. It assists in the rescues of drowning people.",
     stats: {
@@ -51758,7 +51758,7 @@ export const fakemons: Fakemon[] = [
     name: "Cherubi",
     types: ["GRASS"],
     sprite: "/Front/CHERUBI.png",
-    backSprite: "/spritesBack/CHERUBI.png",
+    backSprite: "/Back/CHERUBI.png",
     description:
       "The small ball holds the nutrients needed for evolution. Apparently, it is very sweet and tasty.",
     stats: {
@@ -51860,7 +51860,7 @@ export const fakemons: Fakemon[] = [
     name: "Cherrim",
     types: ["GRASS"],
     sprite: "/Front/CHERRIM.png",
-    backSprite: "/spritesBack/CHERRIM.png",
+    backSprite: "/Back/CHERRIM.png",
     description:
       "Its folded petals are pretty tough. Bird Pokémon can peck at them all they want, and Cherrim won't be bothered at all.",
     stats: {
@@ -51950,7 +51950,7 @@ export const fakemons: Fakemon[] = [
     name: "Shellos",
     types: ["WATER"],
     sprite: "/Front/SHELLOS.png",
-    backSprite: "/spritesBack/SHELLOS.png",
+    backSprite: "/Back/SHELLOS.png",
     description:
       "This Pokémon's habitat shapes its physique. According to some theories, life in warm ocean waters causes this variation to develop.",
     stats: {
@@ -52068,7 +52068,7 @@ export const fakemons: Fakemon[] = [
     name: "Gastrodon",
     types: ["WATER", "GROUND"],
     sprite: "/Front/GASTRODON.png",
-    backSprite: "/spritesBack/GASTRODON.png",
+    backSprite: "/Back/GASTRODON.png",
     description:
       "Its search for food sometimes leads it onto land, where it leaves behind a sticky trail of slime as it passes through.",
     stats: {
@@ -52180,7 +52180,7 @@ export const fakemons: Fakemon[] = [
     name: "Ambipom",
     types: ["NORMAL"],
     sprite: "/Front/AMBIPOM.png",
-    backSprite: "/spritesBack/AMBIPOM.png",
+    backSprite: "/Back/AMBIPOM.png",
     description:
       "To eat, it deftly shucks nuts with its two tails. It rarely uses its arms now.",
     stats: {
@@ -52317,7 +52317,7 @@ export const fakemons: Fakemon[] = [
     name: "Drifloon",
     types: ["GHOST", "FLYING"],
     sprite: "/Front/DRIFLOON.png",
-    backSprite: "/spritesBack/DRIFLOON.png",
+    backSprite: "/Back/DRIFLOON.png",
     description:
       "A Pokémon formed by the spirits of people and Pokémon. It loves damp, humid seasons.",
     stats: {
@@ -52456,7 +52456,7 @@ export const fakemons: Fakemon[] = [
     name: "Drifblim",
     types: ["GHOST", "FLYING"],
     sprite: "/Front/DRIFBLIM.png",
-    backSprite: "/spritesBack/DRIFBLIM.png",
+    backSprite: "/Back/DRIFBLIM.png",
     description:
       "It's drowzy in daytime, but flies off in the evening in big groups. No one knows where they go.",
     stats: {
@@ -52585,7 +52585,7 @@ export const fakemons: Fakemon[] = [
     name: "Buneary",
     types: ["NORMAL"],
     sprite: "/Front/BUNEARY.png",
-    backSprite: "/spritesBack/BUNEARY.png",
+    backSprite: "/Back/BUNEARY.png",
     description:
       "It slams foes by sharply uncoiling its rolled ears. It stings enough to make a grown-up cry in pain.",
     stats: {
@@ -52718,7 +52718,7 @@ export const fakemons: Fakemon[] = [
     name: "Lopunny",
     types: ["NORMAL"],
     sprite: "/Front/LOPUNNY.png",
-    backSprite: "/spritesBack/LOPUNNY.png",
+    backSprite: "/Back/LOPUNNY.png",
     description:
       "An extremely cautious Pokémon. It cloaks its body with its fluffy ear fur when it senses danger.",
     stats: {
@@ -52850,7 +52850,7 @@ export const fakemons: Fakemon[] = [
     name: "Mismagius",
     types: ["GHOST"],
     sprite: "/Front/MISMAGIUS.png",
-    backSprite: "/spritesBack/MISMAGIUS.png",
+    backSprite: "/Back/MISMAGIUS.png",
     description:
       "Its cries sound like incantations. Those hearing it are tormented by headaches and hallucinations.",
     stats: {
@@ -52978,7 +52978,7 @@ export const fakemons: Fakemon[] = [
     name: "Honchkrow",
     types: ["DARK", "FLYING"],
     sprite: "/Front/HONCHKROW.png",
-    backSprite: "/spritesBack/HONCHKROW.png",
+    backSprite: "/Back/HONCHKROW.png",
     description:
       "Becoming active at night, it is known to swarm with numerous Murkrow in tow.",
     stats: {
@@ -53099,7 +53099,7 @@ export const fakemons: Fakemon[] = [
     name: "Glameow",
     types: ["NORMAL"],
     sprite: "/Front/GLAMEOW.png",
-    backSprite: "/spritesBack/GLAMEOW.png",
+    backSprite: "/Back/GLAMEOW.png",
     description:
       "It claws if displeased and purrs when affectionate. Its fickleness is very popular among some.",
     stats: {
@@ -53213,7 +53213,7 @@ export const fakemons: Fakemon[] = [
     name: "Purugly",
     types: ["NORMAL"],
     sprite: "/Front/PURUGLY.png",
-    backSprite: "/spritesBack/PURUGLY.png",
+    backSprite: "/Back/PURUGLY.png",
     description:
       "It is a brazen brute that barges its way into another Pokémon's nest and claims it as its own.",
     stats: {
@@ -53323,7 +53323,7 @@ export const fakemons: Fakemon[] = [
     name: "Chingling",
     types: ["PSYCHIC"],
     sprite: "/Front/CHINGLING.png",
-    backSprite: "/spritesBack/CHINGLING.png",
+    backSprite: "/Back/CHINGLING.png",
     description:
       "It emits cries by agitating an orb at the back of its throat. It moves with flouncing hops.",
     stats: {
@@ -53440,7 +53440,7 @@ export const fakemons: Fakemon[] = [
     name: "Stunky",
     types: ["POISON", "DARK"],
     sprite: "/Front/STUNKY.png",
-    backSprite: "/spritesBack/STUNKY.png",
+    backSprite: "/Back/STUNKY.png",
     description:
       "It protects itself by spraying a noxious fluid from its rear. The stench lingers for 24 hours.",
     stats: {
@@ -53580,7 +53580,7 @@ export const fakemons: Fakemon[] = [
     name: "Skuntank",
     types: ["POISON", "DARK"],
     sprite: "/Front/SKUNTANK.png",
-    backSprite: "/spritesBack/SKUNTANK.png",
+    backSprite: "/Back/SKUNTANK.png",
     description:
       "It sprays a vile-smelling fluid from the tip of its tail to attack. Its range is over 160 feet.",
     stats: {
@@ -53710,7 +53710,7 @@ export const fakemons: Fakemon[] = [
     name: "Bronzor",
     types: ["STEEL", "PSYCHIC"],
     sprite: "/Front/BRONZOR.png",
-    backSprite: "/spritesBack/BRONZOR.png",
+    backSprite: "/Back/BRONZOR.png",
     description:
       "Implements shaped like it were discovered in ancient tombs. It is unknown if they are related.",
     stats: {
@@ -53837,7 +53837,7 @@ export const fakemons: Fakemon[] = [
     name: "Bronzong",
     types: ["STEEL", "PSYCHIC"],
     sprite: "/Front/BRONZONG.png",
-    backSprite: "/spritesBack/BRONZONG.png",
+    backSprite: "/Back/BRONZONG.png",
     description:
       "One caused a news sensation when it was dug up at a construction site after a 2,000-year sleep.",
     stats: {
@@ -53975,7 +53975,7 @@ export const fakemons: Fakemon[] = [
     name: "Bonsly",
     types: ["ROCK"],
     sprite: "/Front/BONSLY.png",
-    backSprite: "/spritesBack/BONSLY.png",
+    backSprite: "/Back/BONSLY.png",
     description:
       "It looks as if it is always crying. It is actually adjusting its body's fluid levels by eliminating excess.",
     stats: {
@@ -54096,7 +54096,7 @@ export const fakemons: Fakemon[] = [
     name: "Mime Jr.",
     types: ["PSYCHIC", "FAIRY"],
     sprite: "/Front/MIMEJR.png",
-    backSprite: "/spritesBack/MIMEJR.png",
+    backSprite: "/Back/MIMEJR.png",
     description:
       "It habitually mimics foes. Once mimicked, the foe cannot take its eyes off this Pokémon.",
     stats: {
@@ -54236,7 +54236,7 @@ export const fakemons: Fakemon[] = [
     name: "Happiny",
     types: ["NORMAL"],
     sprite: "/Front/HAPPINY.png",
-    backSprite: "/spritesBack/HAPPINY.png",
+    backSprite: "/Back/HAPPINY.png",
     description:
       "It loves round white things. It carries an egg-shaped rock in imitation of Chansey.",
     stats: {
@@ -54343,7 +54343,7 @@ export const fakemons: Fakemon[] = [
     name: "Chatot",
     types: ["NORMAL", "FLYING"],
     sprite: "/Front/CHATOT.png",
-    backSprite: "/spritesBack/CHATOT.png",
+    backSprite: "/Back/CHATOT.png",
     description:
       "It can learn and speak human words. If they gather, they all learn the same saying.",
     stats: {
@@ -54443,7 +54443,7 @@ export const fakemons: Fakemon[] = [
     name: "Spiritomb",
     types: ["GHOST", "DARK"],
     sprite: "/Front/SPIRITOMB.png",
-    backSprite: "/spritesBack/SPIRITOMB.png",
+    backSprite: "/Back/SPIRITOMB.png",
     description:
       "A Pokémon that was formed by 108 spirits. It is bound to a fissure in an odd keystone.",
     stats: {
@@ -54570,7 +54570,7 @@ export const fakemons: Fakemon[] = [
     name: "Gible",
     types: ["DRAGON", "GROUND"],
     sprite: "/Front/GIBLE.png",
-    backSprite: "/spritesBack/GIBLE.png",
+    backSprite: "/Back/GIBLE.png",
     description:
       "It nests in small, horizontal holes in cave walls. It pounces to catch prey that stray too close.",
     stats: {
@@ -54696,7 +54696,7 @@ export const fakemons: Fakemon[] = [
     name: "Gabite",
     types: ["DRAGON", "GROUND"],
     sprite: "/Front/GABITE.png",
-    backSprite: "/spritesBack/GABITE.png",
+    backSprite: "/Back/GABITE.png",
     description:
       "There is a long-held belief that medicine made from its scales will heal even incurable illnesses.",
     stats: {
@@ -54816,7 +54816,7 @@ export const fakemons: Fakemon[] = [
     name: "Garchomp",
     types: ["DRAGON", "GROUND"],
     sprite: "/Front/GARCHOMP.png",
-    backSprite: "/spritesBack/GARCHOMP.png",
+    backSprite: "/Back/GARCHOMP.png",
     description:
       "When it folds up its body and extends its wings, it looks like a jet plane. It flies at sonic speed.",
     stats: {
@@ -54942,7 +54942,7 @@ export const fakemons: Fakemon[] = [
     name: "Munchlax",
     types: ["NORMAL"],
     sprite: "/Front/MUNCHLAX.png",
-    backSprite: "/spritesBack/MUNCHLAX.png",
+    backSprite: "/Back/MUNCHLAX.png",
     description:
       "It wolfs down its weight in food once a day, swallowing food whole with almost no chewing.",
     stats: {
@@ -55086,7 +55086,7 @@ export const fakemons: Fakemon[] = [
     name: "Riolu",
     types: ["FIGHTING"],
     sprite: "/Front/RIOLU.png",
-    backSprite: "/spritesBack/RIOLU.png",
+    backSprite: "/Back/RIOLU.png",
     description:
       "The aura that emanates from its body intensifies to alert others if it is afraid or sad.",
     stats: {
@@ -55223,7 +55223,7 @@ export const fakemons: Fakemon[] = [
     name: "Lucario",
     types: ["FIGHTING", "STEEL"],
     sprite: "/Front/LUCARIO.png",
-    backSprite: "/spritesBack/LUCARIO.png",
+    backSprite: "/Back/LUCARIO.png",
     description:
       "It has the ability to sense the auras of all things. It understands human speech.",
     stats: {
@@ -55375,7 +55375,7 @@ export const fakemons: Fakemon[] = [
     name: "Hippopotas",
     types: ["GROUND"],
     sprite: "/Front/HIPPOPOTAS.png",
-    backSprite: "/spritesBack/HIPPOPOTAS.png",
+    backSprite: "/Back/HIPPOPOTAS.png",
     description:
       "It lives in arid places. Instead of perspiration, it expels grainy sand from its body.",
     stats: {
@@ -55491,7 +55491,7 @@ export const fakemons: Fakemon[] = [
     name: "Hippowdon",
     types: ["GROUND"],
     sprite: "/Front/HIPPOWDON.png",
-    backSprite: "/spritesBack/HIPPOWDON.png",
+    backSprite: "/Back/HIPPOWDON.png",
     description:
       "It blasts internally stored sand from ports on its body to create a towering twister for attack.",
     stats: {
@@ -55600,7 +55600,7 @@ export const fakemons: Fakemon[] = [
     name: "Skorupi",
     types: ["POISON", "BUG"],
     sprite: "/Front/SKORUPI.png",
-    backSprite: "/spritesBack/SKORUPI.png",
+    backSprite: "/Back/SKORUPI.png",
     description:
       "It grips prey with its tail claws and injects poison. It tenaciously hangs on until the poison takes.",
     stats: {
@@ -55726,7 +55726,7 @@ export const fakemons: Fakemon[] = [
     name: "Drapion",
     types: ["POISON", "DARK"],
     sprite: "/Front/DRAPION.png",
-    backSprite: "/spritesBack/DRAPION.png",
+    backSprite: "/Back/DRAPION.png",
     description:
       "It has the power in its clawed arms to make scrap of a car. The tips of its claws release poison.",
     stats: {
@@ -55860,7 +55860,7 @@ export const fakemons: Fakemon[] = [
     name: "Croagunk",
     types: ["POISON", "FIGHTING"],
     sprite: "/Front/CROAGUNK.png",
-    backSprite: "/spritesBack/CROAGUNK.png",
+    backSprite: "/Back/CROAGUNK.png",
     description:
       "Its cheeks hold poison sacs. It tries to catch foes off guard to jab them with toxic fingers.",
     stats: {
@@ -56012,7 +56012,7 @@ export const fakemons: Fakemon[] = [
     name: "Toxicroak",
     types: ["POISON", "FIGHTING"],
     sprite: "/Front/TOXICROAK.png",
-    backSprite: "/spritesBack/TOXICROAK.png",
+    backSprite: "/Back/TOXICROAK.png",
     description:
       "Its knuckle claws secrete a toxin so vile that even a scratch could prove fatal.",
     stats: {
@@ -56157,7 +56157,7 @@ export const fakemons: Fakemon[] = [
     name: "Carnivine",
     types: ["GRASS"],
     sprite: "/Front/CARNIVINE.png",
-    backSprite: "/spritesBack/CARNIVINE.png",
+    backSprite: "/Back/CARNIVINE.png",
     description:
       "It attracts prey with its sweet-smelling saliva, then chomps down. It takes a whole day to eat prey.",
     stats: {
@@ -56258,7 +56258,7 @@ export const fakemons: Fakemon[] = [
     name: "Finneon",
     types: ["WATER"],
     sprite: "/Front/FINNEON.png",
-    backSprite: "/spritesBack/FINNEON.png",
+    backSprite: "/Back/FINNEON.png",
     description:
       "After long exposure to sunlight, the patterns on its tail fins shine vividly when darkness arrives.",
     stats: {
@@ -56376,7 +56376,7 @@ export const fakemons: Fakemon[] = [
     name: "Lumineon",
     types: ["WATER"],
     sprite: "/Front/LUMINEON.png",
-    backSprite: "/spritesBack/LUMINEON.png",
+    backSprite: "/Back/LUMINEON.png",
     description:
       "It lives on the deep-sea floor. It attracts prey by flashing the patterns on its four tail fins.",
     stats: {
@@ -56481,7 +56481,7 @@ export const fakemons: Fakemon[] = [
     name: "Mantyke",
     types: ["WATER", "FLYING"],
     sprite: "/Front/MANTYKE.png",
-    backSprite: "/spritesBack/MANTYKE.png",
+    backSprite: "/Back/MANTYKE.png",
     description:
       "A friendly Pokémon that captures the subtle flows of seawater using its two antennae.",
     stats: {
@@ -56589,7 +56589,7 @@ export const fakemons: Fakemon[] = [
     name: "Snover",
     types: ["GRASS", "ICE"],
     sprite: "/Front/SNOVER.png",
-    backSprite: "/spritesBack/SNOVER.png",
+    backSprite: "/Back/SNOVER.png",
     description:
       "It lives on snowy mountains. Having had little contact with humans, it is boldly inquisitive.",
     stats: {
@@ -56706,7 +56706,7 @@ export const fakemons: Fakemon[] = [
     name: "Abomasnow",
     types: ["GRASS", "ICE"],
     sprite: "/Front/ABOMASNOW.png",
-    backSprite: "/spritesBack/ABOMASNOW.png",
+    backSprite: "/Back/ABOMASNOW.png",
     description:
       "It whips up blizzards in mountains that are always buried in snow. It is the abominable snowman.",
     stats: {
@@ -56831,7 +56831,7 @@ export const fakemons: Fakemon[] = [
     name: "Weavile",
     types: ["DARK", "ICE"],
     sprite: "/Front/WEAVILE.png",
-    backSprite: "/spritesBack/WEAVILE.png",
+    backSprite: "/Back/WEAVILE.png",
     description:
       "They live in cold regions, forming groups of four or five that hunt prey with impressive coordination.",
     stats: {
@@ -56978,7 +56978,7 @@ export const fakemons: Fakemon[] = [
     name: "Magnezone",
     types: ["ELECTRIC", "STEEL"],
     sprite: "/Front/MAGNEZONE.png",
-    backSprite: "/spritesBack/MAGNEZONE.png",
+    backSprite: "/Back/MAGNEZONE.png",
     description:
       "It evolved from exposure to a special magnetic field. Three units generate magnetism.",
     stats: {
@@ -57094,7 +57094,7 @@ export const fakemons: Fakemon[] = [
     name: "Lickilicky",
     types: ["NORMAL"],
     sprite: "/Front/LICKILICKY.png",
-    backSprite: "/spritesBack/LICKILICKY.png",
+    backSprite: "/Back/LICKILICKY.png",
     description:
       "It wraps things with its extensible tongue. Getting too close to it will leave you soaked with drool.",
     stats: {
@@ -57229,7 +57229,7 @@ export const fakemons: Fakemon[] = [
     name: "Rhyperior",
     types: ["GROUND", "ROCK"],
     sprite: "/Front/RHYPERIOR.png",
-    backSprite: "/spritesBack/RHYPERIOR.png",
+    backSprite: "/Back/RHYPERIOR.png",
     description:
       "It puts rocks in holes in its palms and uses its muscles to shoot them. Geodude are shot at rare times.",
     stats: {
@@ -57391,7 +57391,7 @@ export const fakemons: Fakemon[] = [
     name: "Tangrowth",
     types: ["GRASS"],
     sprite: "/Front/TANGROWTH.png",
-    backSprite: "/spritesBack/TANGROWTH.png",
+    backSprite: "/Back/TANGROWTH.png",
     description:
       "It ensnares prey by extending arms made of vines. Losing arms to predators does not trouble it.",
     stats: {
@@ -57509,7 +57509,7 @@ export const fakemons: Fakemon[] = [
     name: "Electivire",
     types: ["ELECTRIC"],
     sprite: "/Front/ELECTIVIRE.png",
-    backSprite: "/spritesBack/ELECTIVIRE.png",
+    backSprite: "/Back/ELECTIVIRE.png",
     description:
       "It pushes the tips of its two tails against the foe, then lets loose with over 20,000 volts of power.",
     stats: {
@@ -57643,7 +57643,7 @@ export const fakemons: Fakemon[] = [
     name: "Magmortar",
     types: ["FIRE"],
     sprite: "/Front/MAGMORTAR.png",
-    backSprite: "/spritesBack/MAGMORTAR.png",
+    backSprite: "/Back/MAGMORTAR.png",
     description:
       "It blasts fireballs of over 3,600 degrees F from the ends of its arms. It lives in volcanic craters.",
     stats: {
@@ -57775,7 +57775,7 @@ export const fakemons: Fakemon[] = [
     name: "Togekiss",
     types: ["FAIRY", "FLYING"],
     sprite: "/Front/TOGEKISS.png",
-    backSprite: "/spritesBack/TOGEKISS.png",
+    backSprite: "/Back/TOGEKISS.png",
     description:
       "It will never appear where there is strife. Its sightings have become rare recently.",
     stats: {
@@ -57934,7 +57934,7 @@ export const fakemons: Fakemon[] = [
     name: "Yanmega",
     types: ["BUG", "FLYING"],
     sprite: "/Front/YANMEGA.png",
-    backSprite: "/spritesBack/YANMEGA.png",
+    backSprite: "/Back/YANMEGA.png",
     description:
       "By churning its wings, it creates shock waves that inflict critical internal injuries to foes.",
     stats: {
@@ -58043,7 +58043,7 @@ export const fakemons: Fakemon[] = [
     name: "Leafeon",
     types: ["GRASS"],
     sprite: "/Front/LEAFEON.png",
-    backSprite: "/spritesBack/LEAFEON.png",
+    backSprite: "/Back/LEAFEON.png",
     description:
       "Just like a plant, it uses photosynthesis. As a result, it is always enveloped in clear air.",
     stats: {
@@ -58174,7 +58174,7 @@ export const fakemons: Fakemon[] = [
     name: "Glaceon",
     types: ["ICE"],
     sprite: "/Front/GLACEON.png",
-    backSprite: "/spritesBack/GLACEON.png",
+    backSprite: "/Back/GLACEON.png",
     description:
       "As a protective technique, it can completely freeze its fur to make its hairs stand like needles.",
     stats: {
@@ -58301,7 +58301,7 @@ export const fakemons: Fakemon[] = [
     name: "Gliscor",
     types: ["GROUND", "FLYING"],
     sprite: "/Front/GLISCOR.png",
-    backSprite: "/spritesBack/GLISCOR.png",
+    backSprite: "/Back/GLISCOR.png",
     description:
       "It observes prey while hanging inverted from branches. When the chance presents itself, it swoops!",
     stats: {
@@ -58440,7 +58440,7 @@ export const fakemons: Fakemon[] = [
     name: "Mamoswine",
     types: ["ICE", "GROUND"],
     sprite: "/Front/MAMOSWINE.png",
-    backSprite: "/spritesBack/MAMOSWINE.png",
+    backSprite: "/Back/MAMOSWINE.png",
     description:
       "Its impressive tusks are made of ice. The population thinned when it turned warm after the ice age.",
     stats: {
@@ -58561,7 +58561,7 @@ export const fakemons: Fakemon[] = [
     name: "Porygon-Z",
     types: ["NORMAL"],
     sprite: "/Front/PORYGONZ.png",
-    backSprite: "/spritesBack/PORYGONZ.png",
+    backSprite: "/Back/PORYGONZ.png",
     description:
       "Additional software was installed to make it a better Pokémon. It began acting oddly, however.",
     stats: {
@@ -58677,7 +58677,7 @@ export const fakemons: Fakemon[] = [
     name: "Gallade",
     types: ["PSYCHIC", "FIGHTING"],
     sprite: "/Front/GALLADE.png",
-    backSprite: "/spritesBack/GALLADE.png",
+    backSprite: "/Back/GALLADE.png",
     description:
       "A master of courtesy and swordsmanship, it fights using extending swords on its elbows.",
     stats: {
@@ -58872,7 +58872,7 @@ export const fakemons: Fakemon[] = [
     name: "Probopass",
     types: ["ROCK", "STEEL"],
     sprite: "/Front/PROBOPASS.png",
-    backSprite: "/spritesBack/PROBOPASS.png",
+    backSprite: "/Back/PROBOPASS.png",
     description:
       "It exudes strong magnetism from all over. It controls three small units called Mini-Noses.",
     stats: {
@@ -59001,7 +59001,7 @@ export const fakemons: Fakemon[] = [
     name: "Dusknoir",
     types: ["GHOST"],
     sprite: "/Front/DUSKNOIR.png",
-    backSprite: "/spritesBack/DUSKNOIR.png",
+    backSprite: "/Back/DUSKNOIR.png",
     description:
       "The antenna on its head captures radio waves from the world of spirits that command it to take people there.",
     stats: {
@@ -59144,7 +59144,7 @@ export const fakemons: Fakemon[] = [
     name: "Froslass",
     types: ["ICE", "GHOST"],
     sprite: "/Front/FROSLASS.png",
-    backSprite: "/spritesBack/FROSLASS.png",
+    backSprite: "/Back/FROSLASS.png",
     description:
       "It freezes foes with an icy breath nearly -60 degrees F. What seems to be its body is actually hollow.",
     stats: {
@@ -59282,7 +59282,7 @@ export const fakemons: Fakemon[] = [
     name: "Rotom",
     types: ["ELECTRIC", "GHOST"],
     sprite: "/Front/ROTOM.png",
-    backSprite: "/spritesBack/ROTOM.png",
+    backSprite: "/Back/ROTOM.png",
     description:
       "Its body is composed of plasma. It is known to infiltrate electronic devices and wreak havoc.",
     stats: {
@@ -59385,7 +59385,7 @@ export const fakemons: Fakemon[] = [
     name: "Uxie",
     types: ["PSYCHIC"],
     sprite: "/Front/UXIE.png",
-    backSprite: "/spritesBack/UXIE.png",
+    backSprite: "/Back/UXIE.png",
     description:
       'Known as "The Being of Knowledge." It is said that it can wipe out the memory of those who see its eyes.',
     stats: {
@@ -59530,7 +59530,7 @@ export const fakemons: Fakemon[] = [
     name: "Mesprit",
     types: ["PSYCHIC"],
     sprite: "/Front/MESPRIT.png",
-    backSprite: "/spritesBack/MESPRIT.png",
+    backSprite: "/Back/MESPRIT.png",
     description:
       'Known as "The Being of Emotion." It taught humans the nobility of sorrow, pain, and joy.',
     stats: {
@@ -59673,7 +59673,7 @@ export const fakemons: Fakemon[] = [
     name: "Azelf",
     types: ["PSYCHIC"],
     sprite: "/Front/AZELF.png",
-    backSprite: "/spritesBack/AZELF.png",
+    backSprite: "/Back/AZELF.png",
     description:
       'Known as "The Being of Willpower." It sleeps at the bottom of a lake to keep the world in balance.',
     stats: {
@@ -59826,7 +59826,7 @@ export const fakemons: Fakemon[] = [
     name: "Dialga",
     types: ["STEEL", "DRAGON"],
     sprite: "/Front/DIALGA.png",
-    backSprite: "/spritesBack/DIALGA.png",
+    backSprite: "/Back/DIALGA.png",
     description:
       "It has the power to control time. It appears in Sinnoh-region myths as an ancient deity.",
     stats: {
@@ -59954,7 +59954,7 @@ export const fakemons: Fakemon[] = [
     name: "Palkia",
     types: ["WATER", "DRAGON"],
     sprite: "/Front/PALKIA.png",
-    backSprite: "/spritesBack/PALKIA.png",
+    backSprite: "/Back/PALKIA.png",
     description:
       "It has the ability to distort space. It is described as a deity in Sinnoh-region mythology.",
     stats: {
@@ -60087,7 +60087,7 @@ export const fakemons: Fakemon[] = [
     name: "Heatran",
     types: ["FIRE", "STEEL"],
     sprite: "/Front/HEATRAN.png",
-    backSprite: "/spritesBack/HEATRAN.png",
+    backSprite: "/Back/HEATRAN.png",
     description:
       "It dwells in volcanic caves. It digs in with its cross-shaped feet to crawl on ceilings and walls.",
     stats: {
@@ -60209,7 +60209,7 @@ export const fakemons: Fakemon[] = [
     name: "Regigigas",
     types: ["NORMAL"],
     sprite: "/Front/REGIGIGAS.png",
-    backSprite: "/spritesBack/REGIGIGAS.png",
+    backSprite: "/Back/REGIGIGAS.png",
     description:
       "There is an enduring legend that states this Pokémon towed continents with ropes.",
     stats: {
@@ -60328,7 +60328,7 @@ export const fakemons: Fakemon[] = [
     name: "Giratina",
     types: ["GHOST", "DRAGON"],
     sprite: "/Front/GIRATINA.png",
-    backSprite: "/spritesBack/GIRATINA.png",
+    backSprite: "/Back/GIRATINA.png",
     description:
       "A Pokémon that is said to live in a world on the reverse side of ours. It appears in an ancient cemetery.",
     stats: {
@@ -60456,7 +60456,7 @@ export const fakemons: Fakemon[] = [
     name: "Cresselia",
     types: ["PSYCHIC"],
     sprite: "/Front/CRESSELIA.png",
-    backSprite: "/spritesBack/CRESSELIA.png",
+    backSprite: "/Back/CRESSELIA.png",
     description:
       "Shiny particles are released from its wings like a veil. It is said to represent the crescent moon.",
     stats: {
@@ -60572,7 +60572,7 @@ export const fakemons: Fakemon[] = [
     name: "Phione",
     types: ["WATER"],
     sprite: "/Front/PHIONE.png",
-    backSprite: "/spritesBack/PHIONE.png",
+    backSprite: "/Back/PHIONE.png",
     description:
       "A Pokémon that lives in warm seas. It inflates the flotation sac on its head to drift and search for food.",
     stats: {
@@ -60668,7 +60668,7 @@ export const fakemons: Fakemon[] = [
     name: "Manaphy",
     types: ["WATER"],
     sprite: "/Front/MANAPHY.png",
-    backSprite: "/spritesBack/MANAPHY.png",
+    backSprite: "/Back/MANAPHY.png",
     description:
       "Born on a cold seafloor, it will swim great distances to return to its birthplace.",
     stats: {
@@ -60780,7 +60780,7 @@ export const fakemons: Fakemon[] = [
     name: "Darkrai",
     types: ["DARK"],
     sprite: "/Front/DARKRAI.png",
-    backSprite: "/spritesBack/DARKRAI.png",
+    backSprite: "/Back/DARKRAI.png",
     description:
       "It can lull people to sleep and make them dream. It is active during nights of the new moon.",
     stats: {
@@ -60904,7 +60904,7 @@ export const fakemons: Fakemon[] = [
     name: "Shaymin",
     types: ["GRASS"],
     sprite: "/Front/SHAYMIN.png",
-    backSprite: "/spritesBack/SHAYMIN.png",
+    backSprite: "/Back/SHAYMIN.png",
     description:
       "It lives in flower patches and avoids detection by curling up to look like a flowering plant.",
     stats: {
@@ -61004,7 +61004,7 @@ export const fakemons: Fakemon[] = [
     name: "Arceus",
     types: ["NORMAL"],
     sprite: "/Front/ARCEUS.png",
-    backSprite: "/spritesBack/ARCEUS.png",
+    backSprite: "/Back/ARCEUS.png",
     description:
       "It is described in mythology as the Pokémon that shaped the universe with its 1,000 arms.",
     stats: {
@@ -61203,7 +61203,7 @@ export const fakemons: Fakemon[] = [
     name: "Victini",
     types: ["PSYCHIC", "FIRE"],
     sprite: "/Front/VICTINI.png",
-    backSprite: "/spritesBack/VICTINI.png",
+    backSprite: "/Back/VICTINI.png",
     description:
       "This Pokémon brings victory. It is said that Trainers with Victini always win, regardless of the type of encounter.",
     stats: {
@@ -61338,7 +61338,7 @@ export const fakemons: Fakemon[] = [
     name: "Snivy",
     types: ["GRASS"],
     sprite: "/Front/SNIVY.png",
-    backSprite: "/spritesBack/SNIVY.png",
+    backSprite: "/Back/SNIVY.png",
     description:
       "They photosynthesize by bathing their tails in sunlight. When they are not feeling well, their tails droop.",
     stats: {
@@ -61460,7 +61460,7 @@ export const fakemons: Fakemon[] = [
     name: "Servine",
     types: ["GRASS"],
     sprite: "/Front/SERVINE.png",
-    backSprite: "/spritesBack/SERVINE.png",
+    backSprite: "/Back/SERVINE.png",
     description:
       "They avoid attacks by sinking into the shadows of thick foliage. They retaliate with masterful whipping techniques.",
     stats: {
@@ -61569,7 +61569,7 @@ export const fakemons: Fakemon[] = [
     name: "Serperior",
     types: ["GRASS"],
     sprite: "/Front/SERPERIOR.png",
-    backSprite: "/spritesBack/SERPERIOR.png",
+    backSprite: "/Back/SERPERIOR.png",
     description:
       "They raise their heads to intimidate opponents, but only give it their all when fighting a powerful opponent.",
     stats: {
@@ -61685,7 +61685,7 @@ export const fakemons: Fakemon[] = [
     name: "Tepig",
     types: ["FIRE"],
     sprite: "/Front/TEPIG.png",
-    backSprite: "/spritesBack/TEPIG.png",
+    backSprite: "/Back/TEPIG.png",
     description:
       "It blows fire through its nose. When it catches a cold, the fire becomes pitch-black smoke instead.",
     stats: {
@@ -61809,7 +61809,7 @@ export const fakemons: Fakemon[] = [
     name: "Pignite",
     types: ["FIRE", "FIGHTING"],
     sprite: "/Front/PIGNITE.png",
-    backSprite: "/spritesBack/PIGNITE.png",
+    backSprite: "/Back/PIGNITE.png",
     description:
       "Whatever it eats becomes fuel for the flame in its stomach. When it is angered, the intensity of the flame increases.",
     stats: {
@@ -61941,7 +61941,7 @@ export const fakemons: Fakemon[] = [
     name: "Emboar",
     types: ["FIRE", "FIGHTING"],
     sprite: "/Front/EMBOAR.png",
-    backSprite: "/spritesBack/EMBOAR.png",
+    backSprite: "/Back/EMBOAR.png",
     description:
       "It can throw a fire punch by setting its fists on fire with its fiery chin. It cares deeply about its friends.",
     stats: {
@@ -62078,7 +62078,7 @@ export const fakemons: Fakemon[] = [
     name: "Oshawott",
     types: ["WATER"],
     sprite: "/Front/OSHAWOTT.png",
-    backSprite: "/spritesBack/OSHAWOTT.png",
+    backSprite: "/Back/OSHAWOTT.png",
     description:
       "The scalchop on its stomach is made from the same elements as claws. It detaches the scalchop for use as a blade.",
     stats: {
@@ -62200,7 +62200,7 @@ export const fakemons: Fakemon[] = [
     name: "Dewott",
     types: ["WATER"],
     sprite: "/Front/DEWOTT.png",
-    backSprite: "/spritesBack/DEWOTT.png",
+    backSprite: "/Back/DEWOTT.png",
     description:
       "Scalchop techniques differ from one Dewott to another. It never neglects maintaining its scalchops.",
     stats: {
@@ -62312,7 +62312,7 @@ export const fakemons: Fakemon[] = [
     name: "Samurott",
     types: ["WATER"],
     sprite: "/Front/SAMUROTT.png",
-    backSprite: "/spritesBack/SAMUROTT.png",
+    backSprite: "/Back/SAMUROTT.png",
     description:
       "Part of the armor on its anterior legs becomes a giant sword. Its cry alone is enough to intimidate most enemies.",
     stats: {
@@ -62432,7 +62432,7 @@ export const fakemons: Fakemon[] = [
     name: "Patrat",
     types: ["NORMAL"],
     sprite: "/Front/PATRAT.png",
-    backSprite: "/spritesBack/PATRAT.png",
+    backSprite: "/Back/PATRAT.png",
     description:
       "Extremely cautious, they take shifts to maintain a constant watch of their nest. They feel insecure without a lookout.",
     stats: {
@@ -62540,7 +62540,7 @@ export const fakemons: Fakemon[] = [
     name: "Watchog",
     types: ["NORMAL"],
     sprite: "/Front/WATCHOG.png",
-    backSprite: "/spritesBack/WATCHOG.png",
+    backSprite: "/Back/WATCHOG.png",
     description:
       "They make the patterns on their bodies shine in order to threaten predators. Keen eyesight lets them see in the dark.",
     stats: {
@@ -62657,7 +62657,7 @@ export const fakemons: Fakemon[] = [
     name: "Lillipup",
     types: ["NORMAL"],
     sprite: "/Front/LILLIPUP.png",
-    backSprite: "/spritesBack/LILLIPUP.png",
+    backSprite: "/Back/LILLIPUP.png",
     description:
       "The long hair around its face provides an amazing radar that lets it sense subtle changes in its surroundings.",
     stats: {
@@ -62758,7 +62758,7 @@ export const fakemons: Fakemon[] = [
     name: "Herdier",
     types: ["NORMAL"],
     sprite: "/Front/HERDIER.png",
-    backSprite: "/spritesBack/HERDIER.png",
+    backSprite: "/Back/HERDIER.png",
     description:
       "It loyally follows its Trainer's orders. For ages, they have helped Trainers raise Pokémon.",
     stats: {
@@ -62861,7 +62861,7 @@ export const fakemons: Fakemon[] = [
     name: "Stoutland",
     types: ["NORMAL"],
     sprite: "/Front/STOUTLAND.png",
-    backSprite: "/spritesBack/STOUTLAND.png",
+    backSprite: "/Back/STOUTLAND.png",
     description:
       "This extremely wise Pokémon excels at rescuing people stranded at sea or in the mountains.",
     stats: {
@@ -62966,7 +62966,7 @@ export const fakemons: Fakemon[] = [
     name: "Purrloin",
     types: ["DARK"],
     sprite: "/Front/PURRLOIN.png",
-    backSprite: "/spritesBack/PURRLOIN.png",
+    backSprite: "/Back/PURRLOIN.png",
     description:
       "Its cute act is a ruse. When victims let down their guard, they find their items taken. It attacks with sharp claws.",
     stats: {
@@ -63083,7 +63083,7 @@ export const fakemons: Fakemon[] = [
     name: "Liepard",
     types: ["DARK"],
     sprite: "/Front/LIEPARD.png",
-    backSprite: "/spritesBack/LIEPARD.png",
+    backSprite: "/Back/LIEPARD.png",
     description:
       "Stealthily, it sneaks up on its target, striking from behind before its victim has a chance to react.",
     stats: {
@@ -63195,7 +63195,7 @@ export const fakemons: Fakemon[] = [
     name: "Pansage",
     types: ["GRASS"],
     sprite: "/Front/PANSAGE.png",
-    backSprite: "/spritesBack/PANSAGE.png",
+    backSprite: "/Back/PANSAGE.png",
     description:
       "It shares the leaf on its head with weary-looking Pokémon. These leaves are known to relieve stress.",
     stats: {
@@ -63317,7 +63317,7 @@ export const fakemons: Fakemon[] = [
     name: "Simisage",
     types: ["GRASS"],
     sprite: "/Front/SIMISAGE.png",
-    backSprite: "/spritesBack/SIMISAGE.png",
+    backSprite: "/Back/SIMISAGE.png",
     description:
       "Ill tempered, it fights by swinging its barbed tail around wildly. The leaf growing on its head is very bitter.",
     stats: {
@@ -63411,7 +63411,7 @@ export const fakemons: Fakemon[] = [
     name: "Pansear",
     types: ["FIRE"],
     sprite: "/Front/PANSEAR.png",
-    backSprite: "/spritesBack/PANSEAR.png",
+    backSprite: "/Back/PANSEAR.png",
     description:
       "This Pokémon lives in caves in volcanoes. The fire within the tuft on its head can reach 600º F.",
     stats: {
@@ -63535,7 +63535,7 @@ export const fakemons: Fakemon[] = [
     name: "Simisear",
     types: ["FIRE"],
     sprite: "/Front/SIMISEAR.png",
-    backSprite: "/spritesBack/SIMISEAR.png",
+    backSprite: "/Back/SIMISEAR.png",
     description:
       "A flame burns inside its body. It scatters embers from its head and tail to sear its opponents.",
     stats: {
@@ -63630,7 +63630,7 @@ export const fakemons: Fakemon[] = [
     name: "Panpour",
     types: ["WATER"],
     sprite: "/Front/PANPOUR.png",
-    backSprite: "/spritesBack/PANPOUR.png",
+    backSprite: "/Back/PANPOUR.png",
     description:
       "It does not thrive in dry environments. It keeps itself damp by shooting water stored in its head tuft from its tail.",
     stats: {
@@ -63754,7 +63754,7 @@ export const fakemons: Fakemon[] = [
     name: "Simipour",
     types: ["WATER"],
     sprite: "/Front/SIMIPOUR.png",
-    backSprite: "/spritesBack/SIMIPOUR.png",
+    backSprite: "/Back/SIMIPOUR.png",
     description:
       "The high-pressure water expelled from its tail is so powerful, it can destroy a concrete wall.",
     stats: {
@@ -63851,7 +63851,7 @@ export const fakemons: Fakemon[] = [
     name: "Munna",
     types: ["PSYCHIC"],
     sprite: "/Front/MUNNA.png",
-    backSprite: "/spritesBack/MUNNA.png",
+    backSprite: "/Back/MUNNA.png",
     description:
       "It eats the dreams of people and Pokémon. When it eats a pleasant dreams, it expels pink-colored mist.",
     stats: {
@@ -63965,7 +63965,7 @@ export const fakemons: Fakemon[] = [
     name: "Musharna",
     types: ["PSYCHIC"],
     sprite: "/Front/MUSHARNA.png",
-    backSprite: "/spritesBack/MUSHARNA.png",
+    backSprite: "/Back/MUSHARNA.png",
     description:
       "With the mist from its forehead, it can create shapes of things from dreams it has eaten.",
     stats: {
@@ -64078,7 +64078,7 @@ export const fakemons: Fakemon[] = [
     name: "Pidove",
     types: ["NORMAL", "FLYING"],
     sprite: "/Front/PIDOVE.png",
-    backSprite: "/spritesBack/PIDOVE.png",
+    backSprite: "/Back/PIDOVE.png",
     description:
       "These Pokémon live in cities. They are accustomed to people. Flocks often gather in parks and plazas.",
     stats: {
@@ -64168,7 +64168,7 @@ export const fakemons: Fakemon[] = [
     name: "Tranquill",
     types: ["NORMAL", "FLYING"],
     sprite: "/Front/TRANQUILL.png",
-    backSprite: "/spritesBack/TRANQUILL.png",
+    backSprite: "/Back/TRANQUILL.png",
     description:
       "Many people believe that, deep in the forest where Tranquill live, there is a peaceful place where there is no war.",
     stats: {
@@ -64258,7 +64258,7 @@ export const fakemons: Fakemon[] = [
     name: "Unfezant",
     types: ["NORMAL", "FLYING"],
     sprite: "/Front/UNFEZANT.png",
-    backSprite: "/spritesBack/UNFEZANT.png",
+    backSprite: "/Back/UNFEZANT.png",
     description:
       "Males have plumage on their heads. They will never let themselves feel close to anyone other than their Trainers.",
     stats: {
@@ -64347,7 +64347,7 @@ export const fakemons: Fakemon[] = [
     name: "Blitzle",
     types: ["ELECTRIC"],
     sprite: "/Front/BLITZLE.png",
-    backSprite: "/spritesBack/BLITZLE.png",
+    backSprite: "/Back/BLITZLE.png",
     description:
       "When thunderclouds cover the sky, it will appear. It can catch lightning with its mane and store the electricity.",
     stats: {
@@ -64461,7 +64461,7 @@ export const fakemons: Fakemon[] = [
     name: "Zebstrika",
     types: ["ELECTRIC"],
     sprite: "/Front/ZEBSTRIKA.png",
-    backSprite: "/spritesBack/ZEBSTRIKA.png",
+    backSprite: "/Back/ZEBSTRIKA.png",
     description:
       "This ill-tempered Pokémon is dangerous because when it's angry, it shoots lightning from its mane in all directions.",
     stats: {
@@ -64567,7 +64567,7 @@ export const fakemons: Fakemon[] = [
     name: "Roggenrola",
     types: ["ROCK"],
     sprite: "/Front/ROGGENROLA.png",
-    backSprite: "/spritesBack/ROGGENROLA.png",
+    backSprite: "/Back/ROGGENROLA.png",
     description:
       "They were discovered a hundred years ago in an earthquake fissure. Inside each one is an energy core.",
     stats: {
@@ -64659,7 +64659,7 @@ export const fakemons: Fakemon[] = [
     name: "Boldore",
     types: ["ROCK"],
     sprite: "/Front/BOLDORE.png",
-    backSprite: "/spritesBack/BOLDORE.png",
+    backSprite: "/Back/BOLDORE.png",
     description:
       "Because its energy was too great to be contained, the energy leaked and formed orange crystals.",
     stats: {
@@ -64748,7 +64748,7 @@ export const fakemons: Fakemon[] = [
     name: "Gigalith",
     types: ["ROCK"],
     sprite: "/Front/GIGALITH.png",
-    backSprite: "/spritesBack/GIGALITH.png",
+    backSprite: "/Back/GIGALITH.png",
     description:
       "The solar energy absorbed by its body's orange crystals is magnified internally and fired from its mouth.",
     stats: {
@@ -64846,7 +64846,7 @@ export const fakemons: Fakemon[] = [
     name: "Woobat",
     types: ["PSYCHIC", "FLYING"],
     sprite: "/Front/WOOBAT.png",
-    backSprite: "/spritesBack/WOOBAT.png",
+    backSprite: "/Back/WOOBAT.png",
     description:
       "Suction from its nostrils enables it to stick to cave walls during sleep. It leaves a heart-shaped mark behind.",
     stats: {
@@ -64970,7 +64970,7 @@ export const fakemons: Fakemon[] = [
     name: "Swoobat",
     types: ["PSYCHIC", "FLYING"],
     sprite: "/Front/SWOOBAT.png",
-    backSprite: "/spritesBack/SWOOBAT.png",
+    backSprite: "/Back/SWOOBAT.png",
     description:
       "Anyone who comes into contact with the ultrasonic waves emitted by a courting male experiences a positive mood shift.",
     stats: {
@@ -65099,7 +65099,7 @@ export const fakemons: Fakemon[] = [
     name: "Drilbur",
     types: ["GROUND"],
     sprite: "/Front/DRILBUR.png",
-    backSprite: "/spritesBack/DRILBUR.png",
+    backSprite: "/Back/DRILBUR.png",
     description:
       "It makes its way swiftly through the soil by putting both claws together and rotating at high speed.",
     stats: {
@@ -65203,7 +65203,7 @@ export const fakemons: Fakemon[] = [
     name: "Excadrill",
     types: ["GROUND", "STEEL"],
     sprite: "/Front/EXCADRILL.png",
-    backSprite: "/spritesBack/EXCADRILL.png",
+    backSprite: "/Back/EXCADRILL.png",
     description:
       "More than 300 feet below the surface, they build mazelike nests. Their activity can be destructive to subway tunnels.",
     stats: {
@@ -65314,7 +65314,7 @@ export const fakemons: Fakemon[] = [
     name: "Audino",
     types: ["NORMAL"],
     sprite: "/Front/AUDINO.png",
-    backSprite: "/spritesBack/AUDINO.png",
+    backSprite: "/Back/AUDINO.png",
     description:
       "Its auditory sense is astounding. It has a radar-like ability to understand its surrounding through slight sounds.",
     stats: {
@@ -65452,7 +65452,7 @@ export const fakemons: Fakemon[] = [
     name: "Timburr",
     types: ["FIGHTING"],
     sprite: "/Front/TIMBURR.png",
-    backSprite: "/spritesBack/TIMBURR.png",
+    backSprite: "/Back/TIMBURR.png",
     description:
       "These Pokémon appear at building sites and help out with construction. They always carry squared logs.",
     stats: {
@@ -65573,7 +65573,7 @@ export const fakemons: Fakemon[] = [
     name: "Gurdurr",
     types: ["FIGHTING"],
     sprite: "/Front/GURDURR.png",
-    backSprite: "/spritesBack/GURDURR.png",
+    backSprite: "/Back/GURDURR.png",
     description:
       "They strengthen their bodies by carrying steel beams. They show off their big muscles to their friends.",
     stats: {
@@ -65682,7 +65682,7 @@ export const fakemons: Fakemon[] = [
     name: "Conkeldurr",
     types: ["FIGHTING"],
     sprite: "/Front/CONKELDURR.png",
-    backSprite: "/spritesBack/CONKELDURR.png",
+    backSprite: "/Back/CONKELDURR.png",
     description:
       "They use concrete pillars as walking canes. They know moves that enable them to swing the pillars freely in battle.",
     stats: {
@@ -65800,7 +65800,7 @@ export const fakemons: Fakemon[] = [
     name: "Tympole",
     types: ["WATER"],
     sprite: "/Front/TYMPOLE.png",
-    backSprite: "/spritesBack/TYMPOLE.png",
+    backSprite: "/Back/TYMPOLE.png",
     description:
       "By vibrating its cheeks, it emits sound waves imperceptible to humans. It uses the rhythm of these sounds to talk.",
     stats: {
@@ -65892,7 +65892,7 @@ export const fakemons: Fakemon[] = [
     name: "Palpitoad",
     types: ["WATER", "GROUND"],
     sprite: "/Front/PALPITOAD.png",
-    backSprite: "/spritesBack/PALPITOAD.png",
+    backSprite: "/Back/PALPITOAD.png",
     description:
       "It lives in the water and on land. It uses its long, sticky tongue to capture prey.",
     stats: {
@@ -65990,7 +65990,7 @@ export const fakemons: Fakemon[] = [
     name: "Seismitoad",
     types: ["WATER", "GROUND"],
     sprite: "/Front/SEISMITOAD.png",
-    backSprite: "/spritesBack/SEISMITOAD.png",
+    backSprite: "/Back/SEISMITOAD.png",
     description:
       "It increases the power of its punches by vibrating the bumps on its fists. It can turn a boulder to rubble with one punch.",
     stats: {
@@ -66108,7 +66108,7 @@ export const fakemons: Fakemon[] = [
     name: "Throh",
     types: ["FIGHTING"],
     sprite: "/Front/THROH.png",
-    backSprite: "/spritesBack/THROH.png",
+    backSprite: "/Back/THROH.png",
     description:
       "When they encounter foes bigger than themselves, they try to throw them. They always travel in packs of five.",
     stats: {
@@ -66216,7 +66216,7 @@ export const fakemons: Fakemon[] = [
     name: "Sawk",
     types: ["FIGHTING"],
     sprite: "/Front/SAWK.png",
-    backSprite: "/spritesBack/SAWK.png",
+    backSprite: "/Back/SAWK.png",
     description:
       "Tying their belts gets them pumped and makes their punches more destructive. Disturbing their training angers them.",
     stats: {
@@ -66324,7 +66324,7 @@ export const fakemons: Fakemon[] = [
     name: "Sewaddle",
     types: ["BUG", "GRASS"],
     sprite: "/Front/SEWADDLE.png",
-    backSprite: "/spritesBack/SEWADDLE.png",
+    backSprite: "/Back/SEWADDLE.png",
     description:
       "This Pokémon makes clothes for itself. It chews up leaves and sews them with sticky thread extruded from its mouth.",
     stats: {
@@ -66436,7 +66436,7 @@ export const fakemons: Fakemon[] = [
     name: "Swadloon",
     types: ["BUG", "GRASS"],
     sprite: "/Front/SWADLOON.png",
-    backSprite: "/spritesBack/SWADLOON.png",
+    backSprite: "/Back/SWADLOON.png",
     description:
       "It protects itself from the cold by wrapping up in leaves. It stays on the move, eating leaves in forests.",
     stats: {
@@ -66529,7 +66529,7 @@ export const fakemons: Fakemon[] = [
     name: "Leavanny",
     types: ["BUG", "GRASS"],
     sprite: "/Front/LEAVANNY.png",
-    backSprite: "/spritesBack/LEAVANNY.png",
+    backSprite: "/Back/LEAVANNY.png",
     description:
       "It keeps its eggs warm with heat from fermenting leaves. It also uses leaves to make warm wrappings for Sewaddle.",
     stats: {
@@ -66650,7 +66650,7 @@ export const fakemons: Fakemon[] = [
     name: "Venipede",
     types: ["BUG", "POISON"],
     sprite: "/Front/VENIPEDE.png",
-    backSprite: "/spritesBack/VENIPEDE.png",
+    backSprite: "/Back/VENIPEDE.png",
     description:
       "It discovers what is going on around it by using the feelers on its head and tail. It is brutally aggresive.",
     stats: {
@@ -66742,7 +66742,7 @@ export const fakemons: Fakemon[] = [
     name: "Whirlipede",
     types: ["BUG", "POISON"],
     sprite: "/Front/WHIRLIPEDE.png",
-    backSprite: "/spritesBack/WHIRLIPEDE.png",
+    backSprite: "/Back/WHIRLIPEDE.png",
     description:
       "It is usually motionless, but when attacked, it rotates at high speed and then crashes into its opponent.",
     stats: {
@@ -66835,7 +66835,7 @@ export const fakemons: Fakemon[] = [
     name: "Scolipede",
     types: ["BUG", "POISON"],
     sprite: "/Front/SCOLIPEDE.png",
-    backSprite: "/spritesBack/SCOLIPEDE.png",
+    backSprite: "/Back/SCOLIPEDE.png",
     description:
       "Highly aggressive, it uses the claws near its neck to dig into its opponents and poison them.",
     stats: {
@@ -66946,7 +66946,7 @@ export const fakemons: Fakemon[] = [
     name: "Cottonee",
     types: ["GRASS", "FAIRY"],
     sprite: "/Front/COTTONEE.png",
-    backSprite: "/spritesBack/COTTONEE.png",
+    backSprite: "/Back/COTTONEE.png",
     description:
       "They go wherever the wind takes them. On rainy days, their bodies are heavier, so they take shelter beneath big trees.",
     stats: {
@@ -67051,7 +67051,7 @@ export const fakemons: Fakemon[] = [
     name: "Whimsicott",
     types: ["GRASS", "FAIRY"],
     sprite: "/Front/WHIMSICOTT.png",
-    backSprite: "/spritesBack/WHIMSICOTT.png",
+    backSprite: "/Back/WHIMSICOTT.png",
     description:
       "Riding whirlwinds, they appear. These Pokémon sneak through gaps into houses and cause all sorts of mischief.",
     stats: {
@@ -67160,7 +67160,7 @@ export const fakemons: Fakemon[] = [
     name: "Petilil",
     types: ["GRASS"],
     sprite: "/Front/PETILIL.png",
-    backSprite: "/spritesBack/PETILIL.png",
+    backSprite: "/Back/PETILIL.png",
     description:
       "Since they prefer moist, nutrient-rich soil, the areas where Petilil live are known to be good for growing plants.",
     stats: {
@@ -67258,7 +67258,7 @@ export const fakemons: Fakemon[] = [
     name: "Lilligant",
     types: ["GRASS"],
     sprite: "/Front/LILLIGANT.png",
-    backSprite: "/spritesBack/LILLIGANT.png",
+    backSprite: "/Back/LILLIGANT.png",
     description:
       "The fragrance of the garland on its head has a relaxing effect. It withers if a Trainer does not take good care of it.",
     stats: {
@@ -67366,7 +67366,7 @@ export const fakemons: Fakemon[] = [
     name: "Basculin",
     types: ["WATER"],
     sprite: "/Front/BASCULIN.png",
-    backSprite: "/spritesBack/BASCULIN.png",
+    backSprite: "/Back/BASCULIN.png",
     description:
       "Savage, violent Pokémon, red and blue Basculin are always fighting each other over territory.",
     stats: {
@@ -67471,7 +67471,7 @@ export const fakemons: Fakemon[] = [
     name: "Sandile",
     types: ["GROUND", "DARK"],
     sprite: "/Front/SANDILE.png",
-    backSprite: "/spritesBack/SANDILE.png",
+    backSprite: "/Back/SANDILE.png",
     description:
       "It moves along below the sand's surface, except for its nose and eyes. A dark membrane shields its eyes from the sun.",
     stats: {
@@ -67592,7 +67592,7 @@ export const fakemons: Fakemon[] = [
     name: "Krokorok",
     types: ["GROUND", "DARK"],
     sprite: "/Front/KROKOROK.png",
-    backSprite: "/spritesBack/KROKOROK.png",
+    backSprite: "/Back/KROKOROK.png",
     description:
       "The special membrane covering its eyes can sense the heat of objects, so it can see its surroundings, even in darkness.",
     stats: {
@@ -67730,7 +67730,7 @@ export const fakemons: Fakemon[] = [
     name: "Krookodile",
     types: ["GROUND", "DARK"],
     sprite: "/Front/KROOKODILE.png",
-    backSprite: "/spritesBack/KROOKODILE.png",
+    backSprite: "/Back/KROOKODILE.png",
     description:
       "It can expand the focus of its eyes, enabling it to see objects in the far distance as if it were using binoculars.",
     stats: {
@@ -67877,7 +67877,7 @@ export const fakemons: Fakemon[] = [
     name: "Darumaka",
     types: ["FIRE"],
     sprite: "/Front/DARUMAKA.png",
-    backSprite: "/spritesBack/DARUMAKA.png",
+    backSprite: "/Back/DARUMAKA.png",
     description:
       "Darumaka's droppings are hot, so people used to put them in their clothes to keep themselves warm.",
     stats: {
@@ -67992,7 +67992,7 @@ export const fakemons: Fakemon[] = [
     name: "Darmanitan",
     types: ["FIRE"],
     sprite: "/Front/DARMANITAN.png",
-    backSprite: "/spritesBack/DARMANITAN.png",
+    backSprite: "/Back/DARMANITAN.png",
     description:
       "When weakened in battle, it transforms into a stone statue. Then it sharpens its mind and fights on mentally.",
     stats: {
@@ -68120,7 +68120,7 @@ export const fakemons: Fakemon[] = [
     name: "Maractus",
     types: ["GRASS"],
     sprite: "/Front/MARACTUS.png",
-    backSprite: "/spritesBack/MARACTUS.png",
+    backSprite: "/Back/MARACTUS.png",
     description:
       "Arid regions are their habitat. They move rhythmically, making a sound similar to maracas.",
     stats: {
@@ -68221,7 +68221,7 @@ export const fakemons: Fakemon[] = [
     name: "Dwebble",
     types: ["BUG", "ROCK"],
     sprite: "/Front/DWEBBLE.png",
-    backSprite: "/spritesBack/DWEBBLE.png",
+    backSprite: "/Back/DWEBBLE.png",
     description:
       "It makes a hole in a suitable rock. If that rock breaks, the Pokémon remains agitated until it locates a replacement.",
     stats: {
@@ -68328,7 +68328,7 @@ export const fakemons: Fakemon[] = [
     name: "Crustle",
     types: ["BUG", "ROCK"],
     sprite: "/Front/CRUSTLE.png",
-    backSprite: "/spritesBack/CRUSTLE.png",
+    backSprite: "/Back/CRUSTLE.png",
     description:
       "It possesses legs of enormous strength, enabling it to carry heavy slabs for many days, even when crossing arid land.",
     stats: {
@@ -68429,7 +68429,7 @@ export const fakemons: Fakemon[] = [
     name: "Scraggy",
     types: ["DARK", "FIGHTING"],
     sprite: "/Front/SCRAGGY.png",
-    backSprite: "/spritesBack/SCRAGGY.png",
+    backSprite: "/Back/SCRAGGY.png",
     description:
       "It immediately headbutts anyone that makes eye contact with it. Its skull is massively thick.",
     stats: {
@@ -68577,7 +68577,7 @@ export const fakemons: Fakemon[] = [
     name: "Scrafty",
     types: ["DARK", "FIGHTING"],
     sprite: "/Front/SCRAFTY.png",
-    backSprite: "/spritesBack/SCRAFTY.png",
+    backSprite: "/Back/SCRAFTY.png",
     description:
       "It can smash concrete blocks with its kicking attacks. The one with the biggest crest is the group leader.",
     stats: {
@@ -68720,7 +68720,7 @@ export const fakemons: Fakemon[] = [
     name: "Sigilyph",
     types: ["PSYCHIC", "FLYING"],
     sprite: "/Front/SIGILYPH.png",
-    backSprite: "/spritesBack/SIGILYPH.png",
+    backSprite: "/Back/SIGILYPH.png",
     description:
       "The guardians of an ancient city, they use their psychic power to attack enemies that invade their territory.",
     stats: {
@@ -68839,7 +68839,7 @@ export const fakemons: Fakemon[] = [
     name: "Yamask",
     types: ["GHOST"],
     sprite: "/Front/YAMASK.png",
-    backSprite: "/spritesBack/YAMASK.png",
+    backSprite: "/Back/YAMASK.png",
     description:
       "These Pokémon arose from the spirits of people interred in graves in past ages. Each retains memories of its former life.",
     stats: {
@@ -68949,7 +68949,7 @@ export const fakemons: Fakemon[] = [
     name: "Cofagrigus",
     types: ["GHOST"],
     sprite: "/Front/COFAGRIGUS.png",
-    backSprite: "/spritesBack/COFAGRIGUS.png",
+    backSprite: "/Back/COFAGRIGUS.png",
     description:
       "They pretend to be elaborate coffins to teach lessons to grave robbers. Their bodies are covered in pure gold.",
     stats: {
@@ -69065,7 +69065,7 @@ export const fakemons: Fakemon[] = [
     name: "Tirtouga",
     types: ["WATER", "ROCK"],
     sprite: "/Front/TIRTOUGA.png",
-    backSprite: "/spritesBack/TIRTOUGA.png",
+    backSprite: "/Back/TIRTOUGA.png",
     description:
       "About 100 million years ago, these Pokémon swam in oceans. It is thought they also went on land to attack prey.",
     stats: {
@@ -69184,7 +69184,7 @@ export const fakemons: Fakemon[] = [
     name: "Carracosta",
     types: ["WATER", "ROCK"],
     sprite: "/Front/CARRACOSTA.png",
-    backSprite: "/spritesBack/CARRACOSTA.png",
+    backSprite: "/Back/CARRACOSTA.png",
     description:
       "Incredible jaw strength enables them to chew up steel beams and rocks along with their prey.",
     stats: {
@@ -69297,7 +69297,7 @@ export const fakemons: Fakemon[] = [
     name: "Archen",
     types: ["ROCK", "FLYING"],
     sprite: "/Front/ARCHEN.png",
-    backSprite: "/spritesBack/ARCHEN.png",
+    backSprite: "/Back/ARCHEN.png",
     description:
       "Revived from a fossil, this Pokémon is thought to be the ancestor of all bird Pokémon.",
     stats: {
@@ -69424,7 +69424,7 @@ export const fakemons: Fakemon[] = [
     name: "Archeops",
     types: ["ROCK", "FLYING"],
     sprite: "/Front/ARCHEOPS.png",
-    backSprite: "/spritesBack/ARCHEOPS.png",
+    backSprite: "/Back/ARCHEOPS.png",
     description:
       "It runs better than it flies. It catches prey by running at speeds comparable to those of an automobile.",
     stats: {
@@ -69546,7 +69546,7 @@ export const fakemons: Fakemon[] = [
     name: "Trubbish",
     types: ["POISON"],
     sprite: "/Front/TRUBBISH.png",
-    backSprite: "/spritesBack/TRUBBISH.png",
+    backSprite: "/Back/TRUBBISH.png",
     description:
       "The combination of garbage bags and industrial waste caused the chemical reaction that crated this Pokémon.",
     stats: {
@@ -69643,7 +69643,7 @@ export const fakemons: Fakemon[] = [
     name: "Garbodor",
     types: ["POISON"],
     sprite: "/Front/GARBODOR.png",
-    backSprite: "/spritesBack/GARBODOR.png",
+    backSprite: "/Back/GARBODOR.png",
     description:
       "They absorb garbage and make it part of their bodies. They shoot a poisonous liquid from their right-hand fingertips.",
     stats: {
@@ -69750,7 +69750,7 @@ export const fakemons: Fakemon[] = [
     name: "Zorua",
     types: ["DARK"],
     sprite: "/Front/ZORUA.png",
-    backSprite: "/spritesBack/ZORUA.png",
+    backSprite: "/Back/ZORUA.png",
     description:
       "To protect themselves from danger, they hide their true identities by transforming into people and Pokémon.",
     stats: {
@@ -69877,7 +69877,7 @@ export const fakemons: Fakemon[] = [
     name: "Zoroark",
     types: ["DARK"],
     sprite: "/Front/ZOROARK.png",
-    backSprite: "/spritesBack/ZOROARK.png",
+    backSprite: "/Back/ZOROARK.png",
     description:
       "Each has the ability to fool a large group of people simultaneously. They protect their lair with illusory scenery.",
     stats: {
@@ -70009,7 +70009,7 @@ export const fakemons: Fakemon[] = [
     name: "Minccino",
     types: ["NORMAL"],
     sprite: "/Front/MINCCINO.png",
-    backSprite: "/spritesBack/MINCCINO.png",
+    backSprite: "/Back/MINCCINO.png",
     description:
       "These Pokémon prefer a tidy habitat. They are always sweeping and dusting, using their tails as brooms.",
     stats: {
@@ -70122,7 +70122,7 @@ export const fakemons: Fakemon[] = [
     name: "Cinccino",
     types: ["NORMAL"],
     sprite: "/Front/CINCCINO.png",
-    backSprite: "/spritesBack/CINCCINO.png",
+    backSprite: "/Back/CINCCINO.png",
     description:
       "Their white fur feels amazing to touch. Their fur repels dust and prevents static electricity from building up.",
     stats: {
@@ -70240,7 +70240,7 @@ export const fakemons: Fakemon[] = [
     name: "Gothita",
     types: ["PSYCHIC"],
     sprite: "/Front/GOTHITA.png",
-    backSprite: "/spritesBack/GOTHITA.png",
+    backSprite: "/Back/GOTHITA.png",
     description:
       "They intently observe both Trainers and Pokémon. Apparently, they are looking at something that only Gothita can see.",
     stats: {
@@ -70364,7 +70364,7 @@ export const fakemons: Fakemon[] = [
     name: "Gothorita",
     types: ["PSYCHIC"],
     sprite: "/Front/GOTHORITA.png",
-    backSprite: "/spritesBack/GOTHORITA.png",
+    backSprite: "/Back/GOTHORITA.png",
     description:
       "Starlight is the source of their power. At night, they mark star positions by using psychic power to float stones.",
     stats: {
@@ -70488,7 +70488,7 @@ export const fakemons: Fakemon[] = [
     name: "Gothitelle",
     types: ["PSYCHIC"],
     sprite: "/Front/GOTHITELLE.png",
-    backSprite: "/spritesBack/GOTHITELLE.png",
+    backSprite: "/Back/GOTHITELLE.png",
     description:
       "They can predict the future from the placement and movement of the stars. They can see Trainers' life spans.",
     stats: {
@@ -70616,7 +70616,7 @@ export const fakemons: Fakemon[] = [
     name: "Solosis",
     types: ["PSYCHIC"],
     sprite: "/Front/SOLOSIS.png",
-    backSprite: "/spritesBack/SOLOSIS.png",
+    backSprite: "/Back/SOLOSIS.png",
     description:
       "Because their bodies are enveloped in a special liquid, they can survive in any environment.",
     stats: {
@@ -70741,7 +70741,7 @@ export const fakemons: Fakemon[] = [
     name: "Duosion",
     types: ["PSYCHIC"],
     sprite: "/Front/DUOSION.png",
-    backSprite: "/spritesBack/DUOSION.png",
+    backSprite: "/Back/DUOSION.png",
     description:
       "When their brains, now divided in two, are thinking the same thoughts, these Pokémon exhibit their maximum power.",
     stats: {
@@ -70866,7 +70866,7 @@ export const fakemons: Fakemon[] = [
     name: "Reuniclus",
     types: ["PSYCHIC"],
     sprite: "/Front/REUNICLUS.png",
-    backSprite: "/spritesBack/REUNICLUS.png",
+    backSprite: "/Back/REUNICLUS.png",
     description:
       "These remarkably intelligent Pokémon fight by controlling arms that can grip with rock-crushing power.",
     stats: {
@@ -71005,7 +71005,7 @@ export const fakemons: Fakemon[] = [
     name: "Ducklett",
     types: ["WATER", "FLYING"],
     sprite: "/Front/DUCKLETT.png",
-    backSprite: "/spritesBack/DUCKLETT.png",
+    backSprite: "/Back/DUCKLETT.png",
     description:
       "When attacked, it uses its feathers to splash water, escaping under cover of the spray.",
     stats: {
@@ -71114,7 +71114,7 @@ export const fakemons: Fakemon[] = [
     name: "Swanna",
     types: ["WATER", "FLYING"],
     sprite: "/Front/SWANNA.png",
-    backSprite: "/spritesBack/SWANNA.png",
+    backSprite: "/Back/SWANNA.png",
     description:
       "It administers sharp, powerful pecks with its bill. It whips its long neck to deliver forceful repeated strikes.",
     stats: {
@@ -71214,7 +71214,7 @@ export const fakemons: Fakemon[] = [
     name: "Vanillite",
     types: ["ICE"],
     sprite: "/Front/VANILLITE.png",
-    backSprite: "/spritesBack/VANILLITE.png",
+    backSprite: "/Back/VANILLITE.png",
     description:
       "This Pokémon formed from icicles bathed in energy from the morning sun. It sleeps buried in snow.",
     stats: {
@@ -71314,7 +71314,7 @@ export const fakemons: Fakemon[] = [
     name: "Vanillish",
     types: ["ICE"],
     sprite: "/Front/VANILLISH.png",
-    backSprite: "/spritesBack/VANILLISH.png",
+    backSprite: "/Back/VANILLISH.png",
     description:
       "It conceals itself from enemy eyes by creating many small ice particles and hiding among them.",
     stats: {
@@ -71407,7 +71407,7 @@ export const fakemons: Fakemon[] = [
     name: "Vanilluxe",
     types: ["ICE"],
     sprite: "/Front/VANILLUXE.png",
-    backSprite: "/spritesBack/VANILLUXE.png",
+    backSprite: "/Back/VANILLUXE.png",
     description:
       "If both heads get angry simultaneously, this Pokémon expels a blizzard, burying everything in snow.",
     stats: {
@@ -71501,7 +71501,7 @@ export const fakemons: Fakemon[] = [
     name: "Deerling",
     types: ["NORMAL", "GRASS"],
     sprite: "/Front/DEERLING.png",
-    backSprite: "/spritesBack/DEERLING.png",
+    backSprite: "/Back/DEERLING.png",
     description:
       "The turning of the seasons changes the color and scent of this Pokémon's fur. People use it to mark the seasons.",
     stats: {
@@ -71620,7 +71620,7 @@ export const fakemons: Fakemon[] = [
     name: "Sawsbuck",
     types: ["NORMAL", "GRASS"],
     sprite: "/Front/SAWSBUCK.png",
-    backSprite: "/spritesBack/SAWSBUCK.png",
+    backSprite: "/Back/SAWSBUCK.png",
     description:
       "The plants growing on its horns change according to the season. The leaders of the herd possess magnificent horns.",
     stats: {
@@ -71735,7 +71735,7 @@ export const fakemons: Fakemon[] = [
     name: "Emolga",
     types: ["ELECTRIC", "FLYING"],
     sprite: "/Front/EMOLGA.png",
-    backSprite: "/spritesBack/EMOLGA.png",
+    backSprite: "/Back/EMOLGA.png",
     description:
       "They live on treetops and glide using the inside of a cape-like membrane while discharging electricity.",
     stats: {
@@ -71837,7 +71837,7 @@ export const fakemons: Fakemon[] = [
     name: "Karrablast",
     types: ["BUG"],
     sprite: "/Front/KARRABLAST.png",
-    backSprite: "/spritesBack/KARRABLAST.png",
+    backSprite: "/Back/KARRABLAST.png",
     description:
       "When they feel threatened, they spit an acidic liquid to drive attackers away. This Pokémon targets Shelmet.",
     stats: {
@@ -71928,7 +71928,7 @@ export const fakemons: Fakemon[] = [
     name: "Escavalier",
     types: ["BUG", "STEEL"],
     sprite: "/Front/ESCAVALIER.png",
-    backSprite: "/spritesBack/ESCAVALIER.png",
+    backSprite: "/Back/ESCAVALIER.png",
     description:
       "These Pokémon evolve by wearing the shell covering of a Shelmet. The steel armor protects their whole body.",
     stats: {
@@ -72035,7 +72035,7 @@ export const fakemons: Fakemon[] = [
     name: "Foongus",
     types: ["GRASS", "POISON"],
     sprite: "/Front/FOONGUS.png",
-    backSprite: "/spritesBack/FOONGUS.png",
+    backSprite: "/Back/FOONGUS.png",
     description:
       "For some reason, this Pokémon resembles a Poké Ball. They release poison spores to repel those who try to catch them.",
     stats: {
@@ -72129,7 +72129,7 @@ export const fakemons: Fakemon[] = [
     name: "Amoonguss",
     types: ["GRASS", "POISON"],
     sprite: "/Front/AMOONGUSS.png",
-    backSprite: "/spritesBack/AMOONGUSS.png",
+    backSprite: "/Back/AMOONGUSS.png",
     description:
       "They show off their Poké Ball caps to lure prey, but very few Pokémon are fooled by this.",
     stats: {
@@ -72222,7 +72222,7 @@ export const fakemons: Fakemon[] = [
     name: "Frillish",
     types: ["WATER", "GHOST"],
     sprite: "/Front/FRILLISH.png",
-    backSprite: "/spritesBack/FRILLISH.png",
+    backSprite: "/Back/FRILLISH.png",
     description:
       "They paralyze prey with poison, then drag them down to their lairs, five miles below the surface.",
     stats: {
@@ -72336,7 +72336,7 @@ export const fakemons: Fakemon[] = [
     name: "Jellicent",
     types: ["WATER", "GHOST"],
     sprite: "/Front/JELLICENT.png",
-    backSprite: "/spritesBack/JELLICENT.png",
+    backSprite: "/Back/JELLICENT.png",
     description:
       "They propel themselves by expelling absorbed seawater from their bodies. Their favorite food is life energy.",
     stats: {
@@ -72441,7 +72441,7 @@ export const fakemons: Fakemon[] = [
     name: "Alomomola",
     types: ["WATER"],
     sprite: "/Front/ALOMOMOLA.png",
-    backSprite: "/spritesBack/ALOMOMOLA.png",
+    backSprite: "/Back/ALOMOMOLA.png",
     description:
       "Floating in the open sea is how they live. When they find a wounded Pokémon, they embrace it and bring it to shore.",
     stats: {
@@ -72551,7 +72551,7 @@ export const fakemons: Fakemon[] = [
     name: "Joltik",
     types: ["BUG", "ELECTRIC"],
     sprite: "/Front/JOLTIK.png",
-    backSprite: "/spritesBack/JOLTIK.png",
+    backSprite: "/Back/JOLTIK.png",
     description:
       "They attach themselves to large-bodied Pokémon and absorb static electricity, which they store in an electric pouch.",
     stats: {
@@ -72665,7 +72665,7 @@ export const fakemons: Fakemon[] = [
     name: "Galvantula",
     types: ["BUG", "ELECTRIC"],
     sprite: "/Front/GALVANTULA.png",
-    backSprite: "/spritesBack/GALVANTULA.png",
+    backSprite: "/Back/GALVANTULA.png",
     description:
       "They employ an electrically charged web to trap their prey. While it is immobilized by shock, they leisurely consume it.",
     stats: {
@@ -72772,7 +72772,7 @@ export const fakemons: Fakemon[] = [
     name: "Ferroseed",
     types: ["GRASS", "STEEL"],
     sprite: "/Front/FERROSEED.png",
-    backSprite: "/spritesBack/FERROSEED.png",
+    backSprite: "/Back/FERROSEED.png",
     description:
       "They stick their spikes into cave walls and absorb the minerals they find in the rock.",
     stats: {
@@ -72873,7 +72873,7 @@ export const fakemons: Fakemon[] = [
     name: "Ferrothorn",
     types: ["GRASS", "STEEL"],
     sprite: "/Front/FERROTHORN.png",
-    backSprite: "/spritesBack/FERROTHORN.png",
+    backSprite: "/Back/FERROTHORN.png",
     description:
       "They attach themselves to cave ceilings, firing steel spikes at targets passing beneath them.",
     stats: {
@@ -72985,7 +72985,7 @@ export const fakemons: Fakemon[] = [
     name: "Klink",
     types: ["STEEL"],
     sprite: "/Front/KLINK.png",
-    backSprite: "/spritesBack/KLINK.png",
+    backSprite: "/Back/KLINK.png",
     description:
       "Interlocking two bodies and spinning around generates the energy they need to live.",
     stats: {
@@ -73079,7 +73079,7 @@ export const fakemons: Fakemon[] = [
     name: "Klang",
     types: ["STEEL"],
     sprite: "/Front/KLANG.png",
-    backSprite: "/spritesBack/KLANG.png",
+    backSprite: "/Back/KLANG.png",
     description:
       "Spinning minigears are rotated at high speed and repeatedly fired away. It is dangerous if the gears don't return.",
     stats: {
@@ -73174,7 +73174,7 @@ export const fakemons: Fakemon[] = [
     name: "Klinklang",
     types: ["STEEL"],
     sprite: "/Front/KLINKLANG.png",
-    backSprite: "/spritesBack/KLINKLANG.png",
+    backSprite: "/Back/KLINKLANG.png",
     description:
       "The gear with the red core is rotated at high speed for a rapid energy charge.",
     stats: {
@@ -73270,7 +73270,7 @@ export const fakemons: Fakemon[] = [
     name: "Tynamo",
     types: ["ELECTRIC"],
     sprite: "/Front/TYNAMO.png",
-    backSprite: "/spritesBack/TYNAMO.png",
+    backSprite: "/Back/TYNAMO.png",
     description:
       "These Pokémon move in schools. They have an electricity-generating organ, so they discharge electricity if in danger.",
     stats: {
@@ -73311,7 +73311,7 @@ export const fakemons: Fakemon[] = [
     name: "Eelektrik",
     types: ["ELECTRIC"],
     sprite: "/Front/EELEKTRIK.png",
-    backSprite: "/spritesBack/EELEKTRIK.png",
+    backSprite: "/Back/EELEKTRIK.png",
     description:
       "These Pokémon have a big appetite. When they spot their prey, they attack it and paralyze it with electricity.",
     stats: {
@@ -73418,7 +73418,7 @@ export const fakemons: Fakemon[] = [
     name: "Eelektross",
     types: ["ELECTRIC"],
     sprite: "/Front/EELEKTROSS.png",
-    backSprite: "/spritesBack/EELEKTROSS.png",
+    backSprite: "/Back/EELEKTROSS.png",
     description:
       "With their sucker mouths, they suck in prey. Then they use their fangs to shock the prey with electricity.",
     stats: {
@@ -73548,7 +73548,7 @@ export const fakemons: Fakemon[] = [
     name: "Elgyem",
     types: ["PSYCHIC"],
     sprite: "/Front/ELGYEM.png",
-    backSprite: "/spritesBack/ELGYEM.png",
+    backSprite: "/Back/ELGYEM.png",
     description:
       "This Pokémon had never been seen until it appeared from far in the desert 50 years ago.",
     stats: {
@@ -73666,7 +73666,7 @@ export const fakemons: Fakemon[] = [
     name: "Beheeyem",
     types: ["PSYCHIC"],
     sprite: "/Front/BEHEEYEM.png",
-    backSprite: "/spritesBack/BEHEEYEM.png",
+    backSprite: "/Back/BEHEEYEM.png",
     description:
       "It uses psychic power to control an opponent's brain and tamper with its memories.",
     stats: {
@@ -73785,7 +73785,7 @@ export const fakemons: Fakemon[] = [
     name: "Litwick",
     types: ["GHOST", "FIRE"],
     sprite: "/Front/LITWICK.png",
-    backSprite: "/spritesBack/LITWICK.png",
+    backSprite: "/Back/LITWICK.png",
     description:
       "While shining a light and pretending to be a guide, it leeches off the life force of any who follow it.",
     stats: {
@@ -73899,7 +73899,7 @@ export const fakemons: Fakemon[] = [
     name: "Lampent",
     types: ["GHOST", "FIRE"],
     sprite: "/Front/LAMPENT.png",
-    backSprite: "/spritesBack/LAMPENT.png",
+    backSprite: "/Back/LAMPENT.png",
     description:
       "It arrives near the moment of death and steals spirit from the body.",
     stats: {
@@ -74014,7 +74014,7 @@ export const fakemons: Fakemon[] = [
     name: "Chandelure",
     types: ["GHOST", "FIRE"],
     sprite: "/Front/CHANDELURE.png",
-    backSprite: "/spritesBack/CHANDELURE.png",
+    backSprite: "/Back/CHANDELURE.png",
     description:
       "Being consumed in Chandelure's flame burns up the spirit, leaving the body behind.",
     stats: {
@@ -74127,7 +74127,7 @@ export const fakemons: Fakemon[] = [
     name: "Axew",
     types: ["DRAGON"],
     sprite: "/Front/AXEW.png",
-    backSprite: "/spritesBack/AXEW.png",
+    backSprite: "/Back/AXEW.png",
     description:
       "They mark their territory by leaving gashes in trees with their tusks. If a tusk breaks, a new one grows in quickly.",
     stats: {
@@ -74259,7 +74259,7 @@ export const fakemons: Fakemon[] = [
     name: "Fraxure",
     types: ["DRAGON"],
     sprite: "/Front/FRAXURE.png",
-    backSprite: "/spritesBack/FRAXURE.png",
+    backSprite: "/Back/FRAXURE.png",
     description:
       "Their tusks can shatter rocks. Territory battles between Fraxure can be intensely violent.",
     stats: {
@@ -74384,7 +74384,7 @@ export const fakemons: Fakemon[] = [
     name: "Haxorus",
     types: ["DRAGON"],
     sprite: "/Front/HAXORUS.png",
-    backSprite: "/spritesBack/HAXORUS.png",
+    backSprite: "/Back/HAXORUS.png",
     description:
       "Their sturdy tusks will stay sharp even if used to cut steel beams. These Pokémon are covered in hard armor.",
     stats: {
@@ -74514,7 +74514,7 @@ export const fakemons: Fakemon[] = [
     name: "Cubchoo",
     types: ["ICE"],
     sprite: "/Front/CUBCHOO.png",
-    backSprite: "/spritesBack/CUBCHOO.png",
+    backSprite: "/Back/CUBCHOO.png",
     description:
       "Its nose is always running. It sniffs the snot back up because the mucus provides the raw material for its moves.",
     stats: {
@@ -74640,7 +74640,7 @@ export const fakemons: Fakemon[] = [
     name: "Beartic",
     types: ["ICE"],
     sprite: "/Front/BEARTIC.png",
-    backSprite: "/spritesBack/BEARTIC.png",
+    backSprite: "/Back/BEARTIC.png",
     description:
       "It freezes its breath to create fangs and claws of ice to fight with. Cold northern areas are its habitat.",
     stats: {
@@ -74781,7 +74781,7 @@ export const fakemons: Fakemon[] = [
     name: "Cryogonal",
     types: ["ICE"],
     sprite: "/Front/CRYOGONAL.png",
-    backSprite: "/spritesBack/CRYOGONAL.png",
+    backSprite: "/Back/CRYOGONAL.png",
     description:
       "They are born in snow clouds. They use chains made of ice crystals to capture prey.",
     stats: {
@@ -74883,7 +74883,7 @@ export const fakemons: Fakemon[] = [
     name: "Shelmet",
     types: ["BUG"],
     sprite: "/Front/SHELMET.png",
-    backSprite: "/spritesBack/SHELMET.png",
+    backSprite: "/Back/SHELMET.png",
     description:
       "It evolves when bathed in an electric-like energy along with Karrablast. The reason is still unknown.",
     stats: {
@@ -74973,7 +74973,7 @@ export const fakemons: Fakemon[] = [
     name: "Accelgor",
     types: ["BUG"],
     sprite: "/Front/ACCELGOR.png",
-    backSprite: "/spritesBack/ACCELGOR.png",
+    backSprite: "/Back/ACCELGOR.png",
     description:
       "Having removed its heavy shell, it becomes very light and can fight with ninja-like movements.",
     stats: {
@@ -75078,7 +75078,7 @@ export const fakemons: Fakemon[] = [
     name: "Stunfisk",
     types: ["GROUND", "ELECTRIC"],
     sprite: "/Front/STUNFISK.png",
-    backSprite: "/spritesBack/STUNFISK.png",
+    backSprite: "/Back/STUNFISK.png",
     description:
       "It conceals itself in the mud of the seashore. Then it waits. When prey touch it, it delivers a jolt of energy.",
     stats: {
@@ -75189,7 +75189,7 @@ export const fakemons: Fakemon[] = [
     name: "Mienfoo",
     types: ["FIGHTING"],
     sprite: "/Front/MIENFOO.png",
-    backSprite: "/spritesBack/MIENFOO.png",
+    backSprite: "/Back/MIENFOO.png",
     description:
       "They have mastered elegant combos. As they concentrate, their battle moves become swifter and more precise.",
     stats: {
@@ -75307,7 +75307,7 @@ export const fakemons: Fakemon[] = [
     name: "Mienshao",
     types: ["FIGHTING"],
     sprite: "/Front/MIENSHAO.png",
-    backSprite: "/spritesBack/MIENSHAO.png",
+    backSprite: "/Back/MIENSHAO.png",
     description:
       "They use the long fur on their arms as a whip to strike their opponents.",
     stats: {
@@ -75430,7 +75430,7 @@ export const fakemons: Fakemon[] = [
     name: "Druddigon",
     types: ["DRAGON"],
     sprite: "/Front/DRUDDIGON.png",
-    backSprite: "/spritesBack/DRUDDIGON.png",
+    backSprite: "/Back/DRUDDIGON.png",
     description:
       "It races through narrow caves, using its sharp claws to catch prey. Then skin on its face is harder than a rock.",
     stats: {
@@ -75552,7 +75552,7 @@ export const fakemons: Fakemon[] = [
     name: "Golett",
     types: ["GROUND", "GHOST"],
     sprite: "/Front/GOLETT.png",
-    backSprite: "/spritesBack/GOLETT.png",
+    backSprite: "/Back/GOLETT.png",
     description:
       "These Pokémon are thought to have been created by the science of an ancient and mysterious civilization.",
     stats: {
@@ -75686,7 +75686,7 @@ export const fakemons: Fakemon[] = [
     name: "Golurk",
     types: ["GROUND", "GHOST"],
     sprite: "/Front/GOLURK.png",
-    backSprite: "/spritesBack/GOLURK.png",
+    backSprite: "/Back/GOLURK.png",
     description:
       "It is said that Golurk were ordered to protect people and Pokémon by the ancient people who made them.",
     stats: {
@@ -75832,7 +75832,7 @@ export const fakemons: Fakemon[] = [
     name: "Pawniard",
     types: ["DARK", "STEEL"],
     sprite: "/Front/PAWNIARD.png",
-    backSprite: "/spritesBack/PAWNIARD.png",
+    backSprite: "/Back/PAWNIARD.png",
     description:
       "They fight at Bisharp's command. They cling to their prey and inflict damage by sinking their blades into it.",
     stats: {
@@ -75955,7 +75955,7 @@ export const fakemons: Fakemon[] = [
     name: "Bisharp",
     types: ["DARK", "STEEL"],
     sprite: "/Front/BISHARP.png",
-    backSprite: "/spritesBack/BISHARP.png",
+    backSprite: "/Back/BISHARP.png",
     description:
       "Bisharp pursues prey in the company of a large group of Pawniard. Then Bisharp finishes off the prey.",
     stats: {
@@ -76085,7 +76085,7 @@ export const fakemons: Fakemon[] = [
     name: "Bouffalant",
     types: ["NORMAL"],
     sprite: "/Front/BOUFFALANT.png",
-    backSprite: "/spritesBack/BOUFFALANT.png",
+    backSprite: "/Back/BOUFFALANT.png",
     description:
       "They charge wildly and headbutt everything. They headbutts have enough destructive force to derail a train.",
     stats: {
@@ -76197,7 +76197,7 @@ export const fakemons: Fakemon[] = [
     name: "Rufflet",
     types: ["NORMAL", "FLYING"],
     sprite: "/Front/RUFFLET.png",
-    backSprite: "/spritesBack/RUFFLET.png",
+    backSprite: "/Back/RUFFLET.png",
     description:
       "They will challenge anything, even strong opponents, without fear. Their frequent fights help them become stronger.",
     stats: {
@@ -76307,7 +76307,7 @@ export const fakemons: Fakemon[] = [
     name: "Braviary",
     types: ["NORMAL", "FLYING"],
     sprite: "/Front/BRAVIARY.png",
-    backSprite: "/spritesBack/BRAVIARY.png",
+    backSprite: "/Back/BRAVIARY.png",
     description:
       "The more scars they have, the more respect these brave soldiers of the sky get from their peers.",
     stats: {
@@ -76419,7 +76419,7 @@ export const fakemons: Fakemon[] = [
     name: "Vullaby",
     types: ["DARK", "FLYING"],
     sprite: "/Front/VULLABY.png",
-    backSprite: "/spritesBack/VULLABY.png",
+    backSprite: "/Back/VULLABY.png",
     description:
       "They tend to guard their posteriors with suitable bones they have found. They pursue weak Pokémon.",
     stats: {
@@ -76535,7 +76535,7 @@ export const fakemons: Fakemon[] = [
     name: "Mandibuzz",
     types: ["DARK", "FLYING"],
     sprite: "/Front/MANDIBUZZ.png",
-    backSprite: "/spritesBack/MANDIBUZZ.png",
+    backSprite: "/Back/MANDIBUZZ.png",
     description:
       "Watching from the sky, they swoop to strike weakened Pokémon on the ground. They decorate themselves with bones.",
     stats: {
@@ -76655,7 +76655,7 @@ export const fakemons: Fakemon[] = [
     name: "Heatmor",
     types: ["FIRE"],
     sprite: "/Front/HEATMOR.png",
-    backSprite: "/spritesBack/HEATMOR.png",
+    backSprite: "/Back/HEATMOR.png",
     description:
       "Using their very hot, flame-covered tongues, they burn through Durant's steel bodies and consume their insides.",
     stats: {
@@ -76765,7 +76765,7 @@ export const fakemons: Fakemon[] = [
     name: "Durant",
     types: ["BUG", "STEEL"],
     sprite: "/Front/DURANT.png",
-    backSprite: "/spritesBack/DURANT.png",
+    backSprite: "/Back/DURANT.png",
     description:
       "Durant dig nests in mountains. They build their complicated, interconnected tunnels in mazes.",
     stats: {
@@ -76871,7 +76871,7 @@ export const fakemons: Fakemon[] = [
     name: "Deino",
     types: ["DARK", "DRAGON"],
     sprite: "/Front/DEINO.png",
-    backSprite: "/spritesBack/DEINO.png",
+    backSprite: "/Back/DEINO.png",
     description:
       "They cannot see, so they tackle and bite to learn about their surroundings. Their bodies are covered in wounds.",
     stats: {
@@ -76981,7 +76981,7 @@ export const fakemons: Fakemon[] = [
     name: "Zweilous",
     types: ["DARK", "DRAGON"],
     sprite: "/Front/ZWEILOUS.png",
-    backSprite: "/spritesBack/ZWEILOUS.png",
+    backSprite: "/Back/ZWEILOUS.png",
     description:
       "Since their two heads do not get along and compete with each other for food, they always eat too much.",
     stats: {
@@ -77096,7 +77096,7 @@ export const fakemons: Fakemon[] = [
     name: "Hydreigon",
     types: ["DARK", "DRAGON"],
     sprite: "/Front/HYDREIGON.png",
-    backSprite: "/spritesBack/HYDREIGON.png",
+    backSprite: "/Back/HYDREIGON.png",
     description:
       "The heads on their arms do not have brains. They use all three heads to consume and destroy everything.",
     stats: {
@@ -77242,7 +77242,7 @@ export const fakemons: Fakemon[] = [
     name: "Larvesta",
     types: ["BUG", "FIRE"],
     sprite: "/Front/LARVESTA.png",
-    backSprite: "/spritesBack/LARVESTA.png",
+    backSprite: "/Back/LARVESTA.png",
     description:
       "The base of volcanoes is where they make their homes. They shoot fire from their five horns to repel attacking enemies.",
     stats: {
@@ -77346,7 +77346,7 @@ export const fakemons: Fakemon[] = [
     name: "Volcarona",
     types: ["BUG", "FIRE"],
     sprite: "/Front/VOLCARONA.png",
-    backSprite: "/spritesBack/VOLCARONA.png",
+    backSprite: "/Back/VOLCARONA.png",
     description:
       "A sea of fire engulfs the surroundings of their battles, since they use their six wings to scatter their ember scales.",
     stats: {
@@ -77466,7 +77466,7 @@ export const fakemons: Fakemon[] = [
     name: "Cobalion",
     types: ["STEEL", "FIGHTING"],
     sprite: "/Front/COBALION.png",
-    backSprite: "/spritesBack/COBALION.png",
+    backSprite: "/Back/COBALION.png",
     description:
       "It has a body and heart of steel. Its glare is sufficient to make even an unruly Pokémon obey it.",
     stats: {
@@ -77587,7 +77587,7 @@ export const fakemons: Fakemon[] = [
     name: "Terrakion",
     types: ["ROCK", "FIGHTING"],
     sprite: "/Front/TERRAKION.png",
-    backSprite: "/spritesBack/TERRAKION.png",
+    backSprite: "/Back/TERRAKION.png",
     description:
       "Its charge is strong enough to break through a giant castle wall in one blow. This Pokémon is spoken of in legends.",
     stats: {
@@ -77702,7 +77702,7 @@ export const fakemons: Fakemon[] = [
     name: "Virizion",
     types: ["GRASS", "FIGHTING"],
     sprite: "/Front/VIRIZION.png",
-    backSprite: "/spritesBack/VIRIZION.png",
+    backSprite: "/Back/VIRIZION.png",
     description:
       "Its head sprouts horns as sharp as blades. Using whirlwind-like movements, it confounds and swiftly cuts opponents.",
     stats: {
@@ -77824,7 +77824,7 @@ export const fakemons: Fakemon[] = [
     name: "Tornadus",
     types: ["FLYING"],
     sprite: "/Front/TORNADUS.png",
-    backSprite: "/spritesBack/TORNADUS.png",
+    backSprite: "/Back/TORNADUS.png",
     description:
       "Tornadus expels massive energy from its tail, causing severe storms. Its power is great enough to blow houses away.",
     stats: {
@@ -77947,7 +77947,7 @@ export const fakemons: Fakemon[] = [
     name: "Thundurus",
     types: ["ELECTRIC", "FLYING"],
     sprite: "/Front/THUNDURUS.png",
-    backSprite: "/spritesBack/THUNDURUS.png",
+    backSprite: "/Back/THUNDURUS.png",
     description:
       "The spikes on its tail discharge immense bolts of lightning. It flies around the Unova region firing off lightning bolts.",
     stats: {
@@ -78077,7 +78077,7 @@ export const fakemons: Fakemon[] = [
     name: "Reshiram",
     types: ["DRAGON", "FIRE"],
     sprite: "/Front/RESHIRAM.png",
-    backSprite: "/spritesBack/RESHIRAM.png",
+    backSprite: "/Back/RESHIRAM.png",
     description:
       "When Reshiram's tail flares, the heat energy moves the atmosphere and changes the world's weather.",
     stats: {
@@ -78206,7 +78206,7 @@ export const fakemons: Fakemon[] = [
     name: "Zekrom",
     types: ["DRAGON", "ELECTRIC"],
     sprite: "/Front/ZEKROM.png",
-    backSprite: "/spritesBack/ZEKROM.png",
+    backSprite: "/Back/ZEKROM.png",
     description:
       "This Pokémon appears in legends. In its tail, it has a giant generator that creates electricity.",
     stats: {
@@ -78343,7 +78343,7 @@ export const fakemons: Fakemon[] = [
     name: "Landorus",
     types: ["GROUND", "FLYING"],
     sprite: "/Front/LANDORUS.png",
-    backSprite: "/spritesBack/LANDORUS.png",
+    backSprite: "/Back/LANDORUS.png",
     description:
       "The energy that comes pouring from its tail increases the nutrition in the soil, making crops grow to great size.",
     stats: {
@@ -78463,7 +78463,7 @@ export const fakemons: Fakemon[] = [
     name: "Kyurem",
     types: ["DRAGON", "ICE"],
     sprite: "/Front/KYUREM.png",
-    backSprite: "/spritesBack/KYUREM.png",
+    backSprite: "/Back/KYUREM.png",
     description:
       "It generates a powerful, freezing energy inside itself, but its body became frozen when the energy leaked out.",
     stats: {
@@ -78587,7 +78587,7 @@ export const fakemons: Fakemon[] = [
     name: "Keldeo",
     types: ["WATER", "FIGHTING"],
     sprite: "/Front/KELDEO.png",
-    backSprite: "/spritesBack/KELDEO.png",
+    backSprite: "/Back/KELDEO.png",
     description:
       "It crosses the world, running over the surfaces of oceans and rivers. It appears at scenic waterfronts.",
     stats: {
@@ -78705,7 +78705,7 @@ export const fakemons: Fakemon[] = [
     name: "Meloetta",
     types: ["NORMAL", "PSYCHIC"],
     sprite: "/Front/MELOETTA.png",
-    backSprite: "/spritesBack/MELOETTA.png",
+    backSprite: "/Back/MELOETTA.png",
     description:
       "Many famous songs have been inspired by the melodies that Meloetta plays.",
     stats: {
@@ -78848,7 +78848,7 @@ export const fakemons: Fakemon[] = [
     name: "Genesect",
     types: ["BUG", "STEEL"],
     sprite: "/Front/GENESECT.png",
-    backSprite: "/spritesBack/GENESECT.png",
+    backSprite: "/Back/GENESECT.png",
     description:
       "This ancient bug Pokémon was altered by Team Plasma. They upgraded the cannon on its back.",
     stats: {
@@ -78964,7 +78964,7 @@ export const fakemons: Fakemon[] = [
     name: "Chespin",
     types: ["GRASS"],
     sprite: "/Front/CHESPIN.png",
-    backSprite: "/spritesBack/CHESPIN.png",
+    backSprite: "/Back/CHESPIN.png",
     description:
       "The quills on its head are usually soft. When it flexes them, the points become so hard and sharp that they can pierce rock.",
     stats: {
@@ -79100,7 +79100,7 @@ export const fakemons: Fakemon[] = [
     name: "Quilladin",
     types: ["GRASS"],
     sprite: "/Front/QUILLADIN.png",
-    backSprite: "/spritesBack/QUILLADIN.png",
+    backSprite: "/Back/QUILLADIN.png",
     description:
       "They strengthen their lower bodies by running into one another. They are very kind and won't start fights.",
     stats: {
@@ -79233,7 +79233,7 @@ export const fakemons: Fakemon[] = [
     name: "Chesnaught",
     types: ["GRASS", "FIGHTING"],
     sprite: "/Front/CHESNAUGHT.png",
-    backSprite: "/spritesBack/CHESNAUGHT.png",
+    backSprite: "/Back/CHESNAUGHT.png",
     description:
       "Its Tackle is forceful enough to flip a 50-ton tank. It shields its allies from danger with its own body.",
     stats: {
@@ -79384,7 +79384,7 @@ export const fakemons: Fakemon[] = [
     name: "Fennekin",
     types: ["FIRE"],
     sprite: "/Front/FENNEKIN.png",
-    backSprite: "/spritesBack/FENNEKIN.png",
+    backSprite: "/Back/FENNEKIN.png",
     description:
       "As it walks, it munches on a twig in place of a snack. It intimidates opponents by puffing hot air out of its ears.",
     stats: {
@@ -79509,7 +79509,7 @@ export const fakemons: Fakemon[] = [
     name: "Braixen",
     types: ["FIRE"],
     sprite: "/Front/BRAIXEN.png",
-    backSprite: "/spritesBack/BRAIXEN.png",
+    backSprite: "/Back/BRAIXEN.png",
     description:
       "When the twig is plucked from its tail, friction sets the twig alight. The flame is used to send signals to its allies.",
     stats: {
@@ -79638,7 +79638,7 @@ export const fakemons: Fakemon[] = [
     name: "Delphox",
     types: ["FIRE", "PSYCHIC"],
     sprite: "/Front/DELPHOX.png",
-    backSprite: "/spritesBack/DELPHOX.png",
+    backSprite: "/Back/DELPHOX.png",
     description:
       "It gazes into the flame at the tip of its branch to achieve a focused state, which allows it to see into the future.",
     stats: {
@@ -79786,7 +79786,7 @@ export const fakemons: Fakemon[] = [
     name: "Froakie",
     types: ["WATER"],
     sprite: "/Front/FROAKIE.png",
-    backSprite: "/spritesBack/FROAKIE.png",
+    backSprite: "/Back/FROAKIE.png",
     description:
       "It protects its skin by covering its body in delicate bubbles. Beneath its happy-go-lucky air, it keeps a watchful eye on its surroundings.",
     stats: {
@@ -79911,7 +79911,7 @@ export const fakemons: Fakemon[] = [
     name: "Frogadier",
     types: ["WATER"],
     sprite: "/Front/FROGADIER.png",
-    backSprite: "/spritesBack/FROGADIER.png",
+    backSprite: "/Back/FROGADIER.png",
     description:
       "It can throw bubble-covered pebbles with precise control, hitting empty cans up to a hundred feet away.",
     stats: {
@@ -80028,7 +80028,7 @@ export const fakemons: Fakemon[] = [
     name: "Greninja",
     types: ["WATER", "DARK"],
     sprite: "/Front/GRENINJA.png",
-    backSprite: "/spritesBack/GRENINJA.png",
+    backSprite: "/Back/GRENINJA.png",
     description:
       "It appears and vanishes with a ninja's grace. It toys with its enemies using swift movements, while slicing them with throwing stars of sharpest water.",
     stats: {
@@ -80154,7 +80154,7 @@ export const fakemons: Fakemon[] = [
     name: "Bunnelby",
     types: ["NORMAL"],
     sprite: "/Front/BUNNELBY.png",
-    backSprite: "/spritesBack/BUNNELBY.png",
+    backSprite: "/Back/BUNNELBY.png",
     description:
       "It has ears like shovels. Digging holes strengthens its ears so much that they can sever thick roots effortlessly.",
     stats: {
@@ -80261,7 +80261,7 @@ export const fakemons: Fakemon[] = [
     name: "Diggersby",
     types: ["NORMAL", "GROUND"],
     sprite: "/Front/DIGGERSBY.png",
-    backSprite: "/spritesBack/DIGGERSBY.png",
+    backSprite: "/Back/DIGGERSBY.png",
     description:
       "As powerful as an excavator, its ears can reduce dense bedrock to rubble. When it's finished digging, it lounges lazily.",
     stats: {
@@ -80386,7 +80386,7 @@ export const fakemons: Fakemon[] = [
     name: "Fletchling",
     types: ["NORMAL", "FLYING"],
     sprite: "/Front/FLETCHLING.png",
-    backSprite: "/spritesBack/FLETCHLING.png",
+    backSprite: "/Back/FLETCHLING.png",
     description:
       "These friendly Pokémon send signals to one another with beautiful chirps and tail-feather movements.",
     stats: {
@@ -80483,7 +80483,7 @@ export const fakemons: Fakemon[] = [
     name: "Fletchinder",
     types: ["FIRE", "FLYING"],
     sprite: "/Front/FLETCHINDER.png",
-    backSprite: "/spritesBack/FLETCHINDER.png",
+    backSprite: "/Back/FLETCHINDER.png",
     description:
       "From its beak, it expels embers that set the tall grass on fire. Then it pounces on the bewildered prey that pop out of the grass.",
     stats: {
@@ -80588,7 +80588,7 @@ export const fakemons: Fakemon[] = [
     name: "Talonflame",
     types: ["FIRE", "FLYING"],
     sprite: "/Front/TALONFLAME.png",
-    backSprite: "/spritesBack/TALONFLAME.png",
+    backSprite: "/Back/TALONFLAME.png",
     description:
       "In the fever of an exciting battle, it showers embers from the gaps between its feathers and takes to the air.",
     stats: {
@@ -80695,7 +80695,7 @@ export const fakemons: Fakemon[] = [
     name: "Scatterbug",
     types: ["BUG"],
     sprite: "/Front/SCATTERBUG.png",
-    backSprite: "/spritesBack/SCATTERBUG.png",
+    backSprite: "/Back/SCATTERBUG.png",
     description:
       "When under attack from bird Pokémon, it spews a poisonous black powder that causes paralysis on contact.",
     stats: {
@@ -80729,7 +80729,7 @@ export const fakemons: Fakemon[] = [
     name: "Spewpa",
     types: ["BUG"],
     sprite: "/Front/SPEWPA.png",
-    backSprite: "/spritesBack/SPEWPA.png",
+    backSprite: "/Back/SPEWPA.png",
     description:
       "It lives hidden within thicket shadows. When predators attack, it quickly bristles the fur covering its body in an effort to threaten them.",
     stats: {
@@ -80770,7 +80770,7 @@ export const fakemons: Fakemon[] = [
     name: "Vivillon",
     types: ["BUG", "FLYING"],
     sprite: "/Front/VIVILLON.png",
-    backSprite: "/spritesBack/VIVILLON.png",
+    backSprite: "/Back/VIVILLON.png",
     description:
       "Vivillon with many different patterns are found all over the world. These patterns are affected by the climate of their habitat.",
     stats: {
@@ -80869,7 +80869,7 @@ export const fakemons: Fakemon[] = [
     name: "Litleo",
     types: ["FIRE", "NORMAL"],
     sprite: "/Front/LITLEO.png",
-    backSprite: "/spritesBack/LITLEO.png",
+    backSprite: "/Back/LITLEO.png",
     description:
       "They set off on their own from their pride and live by themselves to become stronger. These hot-blooded Pokémon are quick to fight.",
     stats: {
@@ -80981,7 +80981,7 @@ export const fakemons: Fakemon[] = [
     name: "Pyroar",
     types: ["FIRE", "NORMAL"],
     sprite: "/Front/PYROAR.png",
-    backSprite: "/spritesBack/PYROAR.png",
+    backSprite: "/Back/PYROAR.png",
     description:
       "With fiery breath of more than 6,000 degrees Celsius, they viciously threaten any challenger. The females protect the pride's cubs.",
     stats: {
@@ -81094,7 +81094,7 @@ export const fakemons: Fakemon[] = [
     name: "Flabébé",
     types: ["FAIRY"],
     sprite: "/Front/FLABEBE.png",
-    backSprite: "/spritesBack/FLABEBE.png",
+    backSprite: "/Back/FLABEBE.png",
     description:
       "When it finds a flower it likes, it dwells on that flower its whole life long. It floats in the wind's embrace with an untroubled heart.",
     stats: {
@@ -81202,7 +81202,7 @@ export const fakemons: Fakemon[] = [
     name: "Floette",
     types: ["FAIRY"],
     sprite: "/Front/FLOETTE.png",
-    backSprite: "/spritesBack/FLOETTE.png",
+    backSprite: "/Back/FLOETTE.png",
     description:
       "It flutters around fields of flowers and cares for flowers that are starting to wilt. It draws out the power of flowers to battle.",
     stats: {
@@ -81313,7 +81313,7 @@ export const fakemons: Fakemon[] = [
     name: "Florges",
     types: ["FAIRY"],
     sprite: "/Front/FLORGES.png",
-    backSprite: "/spritesBack/FLORGES.png",
+    backSprite: "/Back/FLORGES.png",
     description:
       "It claims exquisite flower gardens as its territory, and it obtains power from basking in the energy emitted by flowering plants.",
     stats: {
@@ -81421,7 +81421,7 @@ export const fakemons: Fakemon[] = [
     name: "Skiddo",
     types: ["GRASS"],
     sprite: "/Front/SKIDDO.png",
-    backSprite: "/spritesBack/SKIDDO.png",
+    backSprite: "/Back/SKIDDO.png",
     description:
       "If it has sunshine and water, it doesn't need to eat, because it can generate energy from the leaves on its back.",
     stats: {
@@ -81532,7 +81532,7 @@ export const fakemons: Fakemon[] = [
     name: "Gogoat",
     types: ["GRASS"],
     sprite: "/Front/GOGOAT.png",
-    backSprite: "/spritesBack/GOGOAT.png",
+    backSprite: "/Back/GOGOAT.png",
     description:
       "It can tell how its trainer is feeling by subtle shifts in the grip on its horns. This empathetic sense lets them run as if one being.",
     stats: {
@@ -81648,7 +81648,7 @@ export const fakemons: Fakemon[] = [
     name: "Pancham",
     types: ["FIGHTING"],
     sprite: "/Front/PANCHAM.png",
-    backSprite: "/spritesBack/PANCHAM.png",
+    backSprite: "/Back/PANCHAM.png",
     description:
       "It does its best to be taken seriously by its enemies, but its glare is not sufficiently intimidating. Chewing on a leaf is its trademark.",
     stats: {
@@ -81774,7 +81774,7 @@ export const fakemons: Fakemon[] = [
     name: "Pangoro",
     types: ["FIGHTING", "DARK"],
     sprite: "/Front/PANGORO.png",
-    backSprite: "/spritesBack/PANGORO.png",
+    backSprite: "/Back/PANGORO.png",
     description:
       "It charges ahead and bashes its opponents like a berserker, uncaring about any hits it might take. Its arms are mighty enough to snap a telephone pole.",
     stats: {
@@ -81921,7 +81921,7 @@ export const fakemons: Fakemon[] = [
     name: "Furfrou",
     types: ["NORMAL"],
     sprite: "/Front/FURFROU.png",
-    backSprite: "/spritesBack/FURFROU.png",
+    backSprite: "/Back/FURFROU.png",
     description:
       "Trimming its fluffy fur not only makes it more elegant but also increases the swiftness of its movements.",
     stats: {
@@ -82010,7 +82010,7 @@ export const fakemons: Fakemon[] = [
     name: "Espurr",
     types: ["PSYCHIC"],
     sprite: "/Front/ESPURR.png",
-    backSprite: "/spritesBack/ESPURR.png",
+    backSprite: "/Back/ESPURR.png",
     description:
       "The organ that emits its intense psychic power is sheltered by its ears to keep power from leaking out.",
     stats: {
@@ -82127,7 +82127,7 @@ export const fakemons: Fakemon[] = [
     name: "Meowstic",
     types: ["PSYCHIC"],
     sprite: "/Front/MEOWSTIC.png",
-    backSprite: "/spritesBack/MEOWSTIC.png",
+    backSprite: "/Back/MEOWSTIC.png",
     description:
       "Revealing the eyelike patterns on the insides of its ears will unleash its psychic powers. It normally keeps the patterns hidden, however.",
     stats: {
@@ -82259,7 +82259,7 @@ export const fakemons: Fakemon[] = [
     name: "Honedge",
     types: ["STEEL", "GHOST"],
     sprite: "/Front/HONEDGE.png",
-    backSprite: "/spritesBack/HONEDGE.png",
+    backSprite: "/Back/HONEDGE.png",
     description:
       "Apparently this Pokémon is born when a departed spirit inhabits a sword. It attaches itself to people and drinks their life force.",
     stats: {
@@ -82356,7 +82356,7 @@ export const fakemons: Fakemon[] = [
     name: "Doublade",
     types: ["STEEL", "GHOST"],
     sprite: "/Front/DOUBLADE.png",
-    backSprite: "/spritesBack/DOUBLADE.png",
+    backSprite: "/Back/DOUBLADE.png",
     description:
       "The complex attack patterns of its two swords are unstoppable, even for an opponent greatly accomplished at swordplay.",
     stats: {
@@ -82453,7 +82453,7 @@ export const fakemons: Fakemon[] = [
     name: "Aegislash",
     types: ["STEEL", "GHOST"],
     sprite: "/Front/AEGISLASH.png",
-    backSprite: "/spritesBack/AEGISLASH.png",
+    backSprite: "/Back/AEGISLASH.png",
     description:
       "In this defensive stance, Aegislash uses its steel body and a force field of spectral power to reduce the damage of any attack.",
     stats: {
@@ -82552,7 +82552,7 @@ export const fakemons: Fakemon[] = [
     name: "Spritzee",
     types: ["FAIRY"],
     sprite: "/Front/SPRITZEE.png",
-    backSprite: "/spritesBack/SPRITZEE.png",
+    backSprite: "/Back/SPRITZEE.png",
     description:
       "It emits a scent that enraptures those who smell it. This fragrance changes depending on what it has eaten.",
     stats: {
@@ -82657,7 +82657,7 @@ export const fakemons: Fakemon[] = [
     name: "Aromatisse",
     types: ["FAIRY"],
     sprite: "/Front/AROMATISSE.png",
-    backSprite: "/spritesBack/AROMATISSE.png",
+    backSprite: "/Back/AROMATISSE.png",
     description:
       "It devises various scents, pleasant and unpleasant, and emits scents that its enemies dislike in order to gain an edge in battle.",
     stats: {
@@ -82765,7 +82765,7 @@ export const fakemons: Fakemon[] = [
     name: "Swirlix",
     types: ["FAIRY"],
     sprite: "/Front/SWIRLIX.png",
-    backSprite: "/spritesBack/SWIRLIX.png",
+    backSprite: "/Back/SWIRLIX.png",
     description:
       "To entangle its opponents in battle, it extrudes white threads as sweet and sticky as cotton candy.",
     stats: {
@@ -82864,7 +82864,7 @@ export const fakemons: Fakemon[] = [
     name: "Slurpuff",
     types: ["FAIRY"],
     sprite: "/Front/SLURPUFF.png",
-    backSprite: "/spritesBack/SLURPUFF.png",
+    backSprite: "/Back/SLURPUFF.png",
     description:
       "It can distinguish the faintest of scents. It puts its sensitive sense of smell to use by helping pastry chefs in their work.",
     stats: {
@@ -82963,7 +82963,7 @@ export const fakemons: Fakemon[] = [
     name: "Inkay",
     types: ["DARK", "PSYCHIC"],
     sprite: "/Front/INKAY.png",
-    backSprite: "/spritesBack/INKAY.png",
+    backSprite: "/Back/INKAY.png",
     description:
       "It flashes the light-emitting spots on its body, which drains its opponent's will to fight. It takes the opportunity to scuttle away and hide.",
     stats: {
@@ -83083,7 +83083,7 @@ export const fakemons: Fakemon[] = [
     name: "Malamar",
     types: ["DARK", "PSYCHIC"],
     sprite: "/Front/MALAMAR.png",
-    backSprite: "/spritesBack/MALAMAR.png",
+    backSprite: "/Back/MALAMAR.png",
     description:
       "It lures prey close with hypnotic motions, then wraps its tentacles around it before finishing it off with digestive fluids.",
     stats: {
@@ -83208,7 +83208,7 @@ export const fakemons: Fakemon[] = [
     name: "Binacle",
     types: ["ROCK", "WATER"],
     sprite: "/Front/BINACLE.png",
-    backSprite: "/spritesBack/BINACLE.png",
+    backSprite: "/Back/BINACLE.png",
     description:
       "They stretch and then contract, yanking their rocks along with them in bold hops. They eat seaweed that washes up on the shoreline.",
     stats: {
@@ -83330,7 +83330,7 @@ export const fakemons: Fakemon[] = [
     name: "Barbaracle",
     types: ["ROCK", "WATER"],
     sprite: "/Front/BARBARACLE.png",
-    backSprite: "/spritesBack/BARBARACLE.png",
+    backSprite: "/Back/BARBARACLE.png",
     description:
       "Barbaracle's legs and hands have minds of their own, and they will move independently. But they usually follow the head's orders.",
     stats: {
@@ -83462,7 +83462,7 @@ export const fakemons: Fakemon[] = [
     name: "Skrelp",
     types: ["POISON", "WATER"],
     sprite: "/Front/SKRELP.png",
-    backSprite: "/spritesBack/SKRELP.png",
+    backSprite: "/Back/SKRELP.png",
     description:
       "Camouflaged as rotten kelp, they spray liquid poison on prey that approaches unawares and then finish it off.",
     stats: {
@@ -83572,7 +83572,7 @@ export const fakemons: Fakemon[] = [
     name: "Dragalge",
     types: ["POISON", "DRAGON"],
     sprite: "/Front/DRAGALGE.png",
-    backSprite: "/spritesBack/DRAGALGE.png",
+    backSprite: "/Back/DRAGALGE.png",
     description:
       "Their poison is strong enough to eat through the hull of a tanker, and they spit it indiscriminately at anything that enters their territory.",
     stats: {
@@ -83682,7 +83682,7 @@ export const fakemons: Fakemon[] = [
     name: "Clauncher",
     types: ["WATER"],
     sprite: "/Front/CLAUNCHER.png",
-    backSprite: "/spritesBack/CLAUNCHER.png",
+    backSprite: "/Back/CLAUNCHER.png",
     description:
       "Through controlled expulsions of internal gas, it can expel water like a pistol shot. At close distances, it can shatter rock.",
     stats: {
@@ -83786,7 +83786,7 @@ export const fakemons: Fakemon[] = [
     name: "Clawitzer",
     types: ["WATER"],
     sprite: "/Front/CLAWITZER.png",
-    backSprite: "/spritesBack/CLAWITZER.png",
+    backSprite: "/Back/CLAWITZER.png",
     description:
       "By expelling water from the nozzle in the back of its claw, it can move at a speed of 60 knots.",
     stats: {
@@ -83895,7 +83895,7 @@ export const fakemons: Fakemon[] = [
     name: "Helioptile",
     types: ["ELECTRIC", "NORMAL"],
     sprite: "/Front/HELIOPTILE.png",
-    backSprite: "/spritesBack/HELIOPTILE.png",
+    backSprite: "/Back/HELIOPTILE.png",
     description:
       "They make their home in deserts. They can generate their energy from basking in the sun, so eating food is not a requirement.",
     stats: {
@@ -83998,7 +83998,7 @@ export const fakemons: Fakemon[] = [
     name: "Heliolisk",
     types: ["ELECTRIC", "NORMAL"],
     sprite: "/Front/HELIOLISK.png",
-    backSprite: "/spritesBack/HELIOLISK.png",
+    backSprite: "/Back/HELIOLISK.png",
     description:
       "They flare their frills and generate energy. A single Heliolisk can generate sufficient electricity to power a skyscraper.",
     stats: {
@@ -84113,7 +84113,7 @@ export const fakemons: Fakemon[] = [
     name: "Tyrunt",
     types: ["ROCK", "DRAGON"],
     sprite: "/Front/TYRUNT.png",
-    backSprite: "/spritesBack/TYRUNT.png",
+    backSprite: "/Back/TYRUNT.png",
     description:
       "Its immense jaws have enough destructive force that it can chew up an automobile. It lived 100 million years ago.",
     stats: {
@@ -84230,7 +84230,7 @@ export const fakemons: Fakemon[] = [
     name: "Tyrantrum",
     types: ["ROCK", "DRAGON"],
     sprite: "/Front/TYRANTRUM.png",
-    backSprite: "/spritesBack/TYRANTRUM.png",
+    backSprite: "/Back/TYRANTRUM.png",
     description:
       "Thanks to its gargantuan jaws, which could shred thick metal plates as if they were paper, it was invincible in the ancient world it once inhabited.",
     stats: {
@@ -84348,7 +84348,7 @@ export const fakemons: Fakemon[] = [
     name: "Amaura",
     types: ["ROCK", "ICE"],
     sprite: "/Front/AMAURA.png",
-    backSprite: "/spritesBack/AMAURA.png",
+    backSprite: "/Back/AMAURA.png",
     description:
       "This ancient Pokémon was restored from part of its body that had been frozen in ice for over 100 million years.",
     stats: {
@@ -84476,7 +84476,7 @@ export const fakemons: Fakemon[] = [
     name: "Aurorus",
     types: ["ROCK", "ICE"],
     sprite: "/Front/AURORUS.png",
-    backSprite: "/spritesBack/AURORUS.png",
+    backSprite: "/Back/AURORUS.png",
     description:
       "Using its diamond-shaped crystals, it can instantly create a wall of ice to block an opponent's attack.",
     stats: {
@@ -84596,7 +84596,7 @@ export const fakemons: Fakemon[] = [
     name: "Sylveon",
     types: ["FAIRY"],
     sprite: "/Front/SYLVEON.png",
-    backSprite: "/spritesBack/SYLVEON.png",
+    backSprite: "/Back/SYLVEON.png",
     description:
       "Its ribbonlike feelers give off an aura that weakens hostility in its prey, causing them to let down their guard. Then it attacks.",
     stats: {
@@ -84722,7 +84722,7 @@ export const fakemons: Fakemon[] = [
     name: "Hawlucha",
     types: ["FIGHTING", "FLYING"],
     sprite: "/Front/HAWLUCHA.png",
-    backSprite: "/spritesBack/HAWLUCHA.png",
+    backSprite: "/Back/HAWLUCHA.png",
     description:
       "With its wings, it controls its position in the air. It likes to attack from above, a maneuver that is difficult to defend against.",
     stats: {
@@ -84870,7 +84870,7 @@ export const fakemons: Fakemon[] = [
     name: "Dedenne",
     types: ["ELECTRIC", "FAIRY"],
     sprite: "/Front/DEDENNE.png",
-    backSprite: "/spritesBack/DEDENNE.png",
+    backSprite: "/Back/DEDENNE.png",
     description:
       "Its whiskers serve as antennas. By sending and receiving electrical waves, it can communicate with others over vast distances.",
     stats: {
@@ -84982,7 +84982,7 @@ export const fakemons: Fakemon[] = [
     name: "Carbink",
     types: ["ROCK", "FAIRY"],
     sprite: "/Front/CARBINK.png",
-    backSprite: "/spritesBack/CARBINK.png",
+    backSprite: "/Back/CARBINK.png",
     description:
       "Born from the high temperatures and pressures deep underground, it defends itself by firing beams from the jewel part of its body.",
     stats: {
@@ -85097,7 +85097,7 @@ export const fakemons: Fakemon[] = [
     name: "Goomy",
     types: ["DRAGON"],
     sprite: "/Front/GOOMY.png",
-    backSprite: "/spritesBack/GOOMY.png",
+    backSprite: "/Back/GOOMY.png",
     description:
       "Its source of protection is its slimy, germ-laden mucous membrane. Anyone who touches it needs some thorough hand-washing.",
     stats: {
@@ -85186,7 +85186,7 @@ export const fakemons: Fakemon[] = [
     name: "Sliggoo",
     types: ["DRAGON"],
     sprite: "/Front/SLIGGOO.png",
-    backSprite: "/spritesBack/SLIGGOO.png",
+    backSprite: "/Back/SLIGGOO.png",
     description:
       "This Pokémon's mucous can dissolve anything. Toothless, it sprays mucous on its prey. Once they're nicely dissolved, it slurps them up.",
     stats: {
@@ -85282,7 +85282,7 @@ export const fakemons: Fakemon[] = [
     name: "Goodra",
     types: ["DRAGON"],
     sprite: "/Front/GOODRA.png",
-    backSprite: "/spritesBack/GOODRA.png",
+    backSprite: "/Back/GOODRA.png",
     description:
       "It gets picked on because it's meek. But then, whoever teased it gets to feel the full force of its horns and a good swatting from its thick tail.",
     stats: {
@@ -85409,7 +85409,7 @@ export const fakemons: Fakemon[] = [
     name: "Klefki",
     types: ["STEEL", "FAIRY"],
     sprite: "/Front/KLEFKI.png",
-    backSprite: "/spritesBack/KLEFKI.png",
+    backSprite: "/Back/KLEFKI.png",
     description:
       "It never lets go of a key that it likes, so people give it the keys to vaults and safes as a way to prevent crime.",
     stats: {
@@ -85511,7 +85511,7 @@ export const fakemons: Fakemon[] = [
     name: "Phantump",
     types: ["GHOST", "GRASS"],
     sprite: "/Front/PHANTUMP.png",
-    backSprite: "/spritesBack/PHANTUMP.png",
+    backSprite: "/Back/PHANTUMP.png",
     description:
       "These Pokémon are stumps possessed by the spirits of children who died in the forest. Their cries sound like eerie screams.",
     stats: {
@@ -85626,7 +85626,7 @@ export const fakemons: Fakemon[] = [
     name: "Trevenant",
     types: ["GHOST", "GRASS"],
     sprite: "/Front/TREVENANT.png",
-    backSprite: "/spritesBack/TREVENANT.png",
+    backSprite: "/Back/TREVENANT.png",
     description:
       "Through its roots, it exerts control over other trees. A deadly curse falls upon anyone cutting down trees in forests where Trevenant dwell.",
     stats: {
@@ -85761,7 +85761,7 @@ export const fakemons: Fakemon[] = [
     name: "Pumpkaboo",
     types: ["GHOST", "GRASS"],
     sprite: "/Front/PUMPKABOO.png",
-    backSprite: "/spritesBack/PUMPKABOO.png",
+    backSprite: "/Back/PUMPKABOO.png",
     description:
       "When taking spirits to the afterlife, small Pumpkaboo prefer the spirits of children to those of adults.",
     stats: {
@@ -85873,7 +85873,7 @@ export const fakemons: Fakemon[] = [
     name: "Gourgeist",
     types: ["GHOST", "GRASS"],
     sprite: "/Front/GOURGEIST.png",
-    backSprite: "/spritesBack/GOURGEIST.png",
+    backSprite: "/Back/GOURGEIST.png",
     description:
       "Small Gourgeist pretend to be children to fool adults. Anyone who falls for the act gets carried away to the hereafter.",
     stats: {
@@ -85995,7 +85995,7 @@ export const fakemons: Fakemon[] = [
     name: "Bergmite",
     types: ["ICE"],
     sprite: "/Front/BERGMITE.png",
-    backSprite: "/spritesBack/BERGMITE.png",
+    backSprite: "/Back/BERGMITE.png",
     description:
       "It blocks opponents' attacks with the ice that shields its body. It uses cold air to repair any cracks with new ice.",
     stats: {
@@ -86096,7 +86096,7 @@ export const fakemons: Fakemon[] = [
     name: "Avalugg",
     types: ["ICE"],
     sprite: "/Front/AVALUGG.png",
-    backSprite: "/spritesBack/AVALUGG.png",
+    backSprite: "/Back/AVALUGG.png",
     description:
       "Its ice-covered body is as hard as steel. Its cumbersome frame crushes anything that stands in its way.",
     stats: {
@@ -86208,7 +86208,7 @@ export const fakemons: Fakemon[] = [
     name: "Noibat",
     types: ["FLYING", "DRAGON"],
     sprite: "/Front/NOIBAT.png",
-    backSprite: "/spritesBack/NOIBAT.png",
+    backSprite: "/Back/NOIBAT.png",
     description:
       "Even a robust wrestler will become dizzy and unable to stand when exposed to its 200,000-hertz ultrasonic waves.",
     stats: {
@@ -86326,7 +86326,7 @@ export const fakemons: Fakemon[] = [
     name: "Noivern",
     types: ["FLYING", "DRAGON"],
     sprite: "/Front/NOIVERN.png",
-    backSprite: "/spritesBack/NOIVERN.png",
+    backSprite: "/Back/NOIVERN.png",
     description:
       "They fly around on moonless nights and attack careless prey. Nothing can beat them in a battle in the dark.",
     stats: {
@@ -86452,7 +86452,7 @@ export const fakemons: Fakemon[] = [
     name: "Xerneas",
     types: ["FAIRY"],
     sprite: "/Front/XERNEAS.png",
-    backSprite: "/spritesBack/XERNEAS.png",
+    backSprite: "/Back/XERNEAS.png",
     description:
       "Legends say it can share eternal life. It slept for a thousand years in the form of a tree before its revival.",
     stats: {
@@ -86562,7 +86562,7 @@ export const fakemons: Fakemon[] = [
     name: "Yveltal",
     types: ["DARK", "FLYING"],
     sprite: "/Front/YVELTAL.png",
-    backSprite: "/spritesBack/YVELTAL.png",
+    backSprite: "/Back/YVELTAL.png",
     description:
       "When its life comes to an end, it absorbs the life energy of every living thing and turns into a cocoon once more.",
     stats: {
@@ -86673,7 +86673,7 @@ export const fakemons: Fakemon[] = [
     name: "Zygarde",
     types: ["DRAGON", "GROUND"],
     sprite: "/Front/ZYGARDE.png",
-    backSprite: "/spritesBack/ZYGARDE.png",
+    backSprite: "/Back/ZYGARDE.png",
     description:
       "It's thought to be monitoring the ecosystem. There are rumors that even greater power lies hidden within it.",
     stats: {
@@ -86782,7 +86782,7 @@ export const fakemons: Fakemon[] = [
     name: "Diancie",
     types: ["ROCK", "FAIRY"],
     sprite: "/Front/DIANCIE.png",
-    backSprite: "/spritesBack/DIANCIE.png",
+    backSprite: "/Back/DIANCIE.png",
     description:
       "A sudden transformation of Carbink, its pink, glimmering body is said to be the loveliest sight in the whole world.",
     stats: {
@@ -86909,7 +86909,7 @@ export const fakemons: Fakemon[] = [
     name: "Hoopa",
     types: ["PSYCHIC", "GHOST"],
     sprite: "/Front/HOOPA.png",
-    backSprite: "/spritesBack/HOOPA.png",
+    backSprite: "/Back/HOOPA.png",
     description:
       "This troublemaker sends anything and everything to faraway places using its loop, which can warp space.",
     stats: {
@@ -87046,7 +87046,7 @@ export const fakemons: Fakemon[] = [
     name: "Volcanion",
     types: ["FIRE", "WATER"],
     sprite: "/Front/VOLCANION.png",
-    backSprite: "/spritesBack/VOLCANION.png",
+    backSprite: "/Back/VOLCANION.png",
     description:
       "It lets out billows of steam and disappears into the dense fog. It's said to live in mountains where humans do not tread.",
     stats: {
@@ -87172,7 +87172,7 @@ export const fakemons: Fakemon[] = [
     name: "Rowlet",
     types: ["GRASS", "FLYING"],
     sprite: "/Front/ROWLET.png",
-    backSprite: "/spritesBack/ROWLET.png",
+    backSprite: "/Back/ROWLET.png",
     description:
       "It sends its feathers, which are as sharp as blades, flying in attack. Its legs are strong, so its kicks are also formidable.",
     stats: {
@@ -87286,7 +87286,7 @@ export const fakemons: Fakemon[] = [
     name: "Dartrix",
     types: ["GRASS", "FLYING"],
     sprite: "/Front/DARTRIX.png",
-    backSprite: "/spritesBack/DARTRIX.png",
+    backSprite: "/Back/DARTRIX.png",
     description:
       "A bit of a dandy, it spends its free time preening its wings. Its preoccupation with any dirt on its plumage can leave it unable to battle.",
     stats: {
@@ -87402,7 +87402,7 @@ export const fakemons: Fakemon[] = [
     name: "Decidueye",
     types: ["GRASS", "GHOST"],
     sprite: "/Front/DECIDUEYE.png",
-    backSprite: "/spritesBack/DECIDUEYE.png",
+    backSprite: "/Back/DECIDUEYE.png",
     description:
       "It fires arrow quills from its wings with such precision, they can pierce a pebble at distances over a hundred yards.",
     stats: {
@@ -87537,7 +87537,7 @@ export const fakemons: Fakemon[] = [
     name: "Litten",
     types: ["FIRE"],
     sprite: "/Front/LITTEN.png",
-    backSprite: "/spritesBack/LITTEN.png",
+    backSprite: "/Back/LITTEN.png",
     description:
       "Its coat regrows twice a year. When the time comes, Litten sets its own body on fire and burns away the old fur.",
     stats: {
@@ -87642,7 +87642,7 @@ export const fakemons: Fakemon[] = [
     name: "Torracat",
     types: ["FIRE"],
     sprite: "/Front/TORRACAT.png",
-    backSprite: "/spritesBack/TORRACAT.png",
+    backSprite: "/Back/TORRACAT.png",
     description:
       "It can act spoiled if it grows close to its Trainer. A powerful Pokémon, its sharp claws can leave its Trainer's whole body covered in scratches.",
     stats: {
@@ -87748,7 +87748,7 @@ export const fakemons: Fakemon[] = [
     name: "Incineroar",
     types: ["FIRE", "DARK"],
     sprite: "/Front/INCINEROAR.png",
-    backSprite: "/spritesBack/INCINEROAR.png",
+    backSprite: "/Back/INCINEROAR.png",
     description:
       "Although it's rough mannered and egotistical, it finds beating down unworthy opponents boring. It gets motivated for stronger opponents.",
     stats: {
@@ -87892,7 +87892,7 @@ export const fakemons: Fakemon[] = [
     name: "Popplio",
     types: ["WATER"],
     sprite: "/Front/POPPLIO.png",
-    backSprite: "/spritesBack/POPPLIO.png",
+    backSprite: "/Back/POPPLIO.png",
     description:
       "This Pokémon snorts body fluids from its nose, blowing balloons to smash into its foes. It's famous for being a hard worker.",
     stats: {
@@ -87996,7 +87996,7 @@ export const fakemons: Fakemon[] = [
     name: "Brionne",
     types: ["WATER"],
     sprite: "/Front/BRIONNE.png",
-    backSprite: "/spritesBack/BRIONNE.png",
+    backSprite: "/Back/BRIONNE.png",
     description:
       "It gets excited when it sees a dance it doesn't know. This hard worker practices diligently until it can learn that dance.",
     stats: {
@@ -88101,7 +88101,7 @@ export const fakemons: Fakemon[] = [
     name: "Primarina",
     types: ["WATER", "FAIRY"],
     sprite: "/Front/PRIMARINA.png",
-    backSprite: "/spritesBack/PRIMARINA.png",
+    backSprite: "/Back/PRIMARINA.png",
     description:
       "It controls its water balloons with song. The melody is learned from others of its kind and is passed down from one generation to the next.",
     stats: {
@@ -88222,7 +88222,7 @@ export const fakemons: Fakemon[] = [
     name: "Pikipek",
     types: ["NORMAL", "FLYING"],
     sprite: "/Front/PIKIPEK.png",
-    backSprite: "/spritesBack/PIKIPEK.png",
+    backSprite: "/Back/PIKIPEK.png",
     description:
       "It pecks at trees with its hard beak. You can get some idea of its mood or condition from the rhythm of its pecking.",
     stats: {
@@ -88330,7 +88330,7 @@ export const fakemons: Fakemon[] = [
     name: "Trumbeak",
     types: ["NORMAL", "FLYING"],
     sprite: "/Front/TRUMBEAK.png",
-    backSprite: "/spritesBack/TRUMBEAK.png",
+    backSprite: "/Back/TRUMBEAK.png",
     description:
       "It eats berries and stores their seeds in its beak. When it encounters enemies or prey, it fires off all the seeds in a burst.",
     stats: {
@@ -88433,7 +88433,7 @@ export const fakemons: Fakemon[] = [
     name: "Toucannon",
     types: ["NORMAL", "FLYING"],
     sprite: "/Front/TOUCANNON.png",
-    backSprite: "/spritesBack/TOUCANNON.png",
+    backSprite: "/Back/TOUCANNON.png",
     description:
       "They smack beaks with others of their kind to communicate. The strength and number of hits tell each other how they feel.",
     stats: {
@@ -88542,7 +88542,7 @@ export const fakemons: Fakemon[] = [
     name: "Yungoos",
     types: ["NORMAL"],
     sprite: "/Front/YUNGOOS.png",
-    backSprite: "/spritesBack/YUNGOOS.png",
+    backSprite: "/Back/YUNGOOS.png",
     description:
       "Its stomach takes up most of its long torso. It's a big eater, so the amount Trainers have to spend on its food is no laughing matter.",
     stats: {
@@ -88655,7 +88655,7 @@ export const fakemons: Fakemon[] = [
     name: "Gumshoos",
     types: ["NORMAL"],
     sprite: "/Front/GUMSHOOS.png",
-    backSprite: "/spritesBack/GUMSHOOS.png",
+    backSprite: "/Back/GUMSHOOS.png",
     description:
       "When it finds a trace of its prey, it patiently stakes out the location... but it's always snoozing by nightfall.",
     stats: {
@@ -88771,7 +88771,7 @@ export const fakemons: Fakemon[] = [
     name: "Grubbin",
     types: ["BUG"],
     sprite: "/Front/GRUBBIN.png",
-    backSprite: "/spritesBack/GRUBBIN.png",
+    backSprite: "/Back/GRUBBIN.png",
     description:
       "It spits a sticky thread to stop opponents in their tracks, and then it grabs them in its sharp, sturdy mandibles to take them down.",
     stats: {
@@ -88864,7 +88864,7 @@ export const fakemons: Fakemon[] = [
     name: "Charjabug",
     types: ["BUG", "ELECTRIC"],
     sprite: "/Front/CHARJABUG.png",
-    backSprite: "/spritesBack/CHARJABUG.png",
+    backSprite: "/Back/CHARJABUG.png",
     description:
       "It buries itself in fallen leaves and barely moves, munching away on humus. If you accidentally step on one, you'll get a shock!",
     stats: {
@@ -88964,7 +88964,7 @@ export const fakemons: Fakemon[] = [
     name: "Vikavolt",
     types: ["BUG", "ELECTRIC"],
     sprite: "/Front/VIKAVOLT.png",
-    backSprite: "/spritesBack/VIKAVOLT.png",
+    backSprite: "/Back/VIKAVOLT.png",
     description:
       "It zips around, on sharp lookout for an opening. It concentrates electrical energy within its large jaws and uses it to zap its enemies.",
     stats: {
@@ -89081,7 +89081,7 @@ export const fakemons: Fakemon[] = [
     name: "Crabrawler",
     types: ["FIGHTING"],
     sprite: "/Front/CRABRAWLER.png",
-    backSprite: "/spritesBack/CRABRAWLER.png",
+    backSprite: "/Back/CRABRAWLER.png",
     description:
       "It punches so much, its pincers often come off from overuse, but they grow back quickly. What little meat they contain is rich and delicious.",
     stats: {
@@ -89192,7 +89192,7 @@ export const fakemons: Fakemon[] = [
     name: "Crabominable",
     types: ["FIGHTING", "ICE"],
     sprite: "/Front/CRABOMINABLE.png",
-    backSprite: "/spritesBack/CRABOMINABLE.png",
+    backSprite: "/Back/CRABOMINABLE.png",
     description:
       "It aimed for the top but got lost and ended up on a snowy mountain. Being forced to endure the cold, this Pokémon evolved and grew fur.",
     stats: {
@@ -89310,7 +89310,7 @@ export const fakemons: Fakemon[] = [
     name: "Oricorio",
     types: ["FIRE", "FLYING"],
     sprite: "/Front/ORICORIO.png",
-    backSprite: "/spritesBack/ORICORIO.png",
+    backSprite: "/Back/ORICORIO.png",
     description:
       "It beats its wings together to create fire. As it moves in the steps of its beautiful dance, it bathes opponents in intense flames.",
     stats: {
@@ -89420,7 +89420,7 @@ export const fakemons: Fakemon[] = [
     name: "Cutiefly",
     types: ["BUG", "FAIRY"],
     sprite: "/Front/CUTIEFLY.png",
-    backSprite: "/spritesBack/CUTIEFLY.png",
+    backSprite: "/Back/CUTIEFLY.png",
     description:
       "It feeds on the nectar and pollen of flowers. Because it's able to sense auras, it can identify which flowers are about to bloom.",
     stats: {
@@ -89533,7 +89533,7 @@ export const fakemons: Fakemon[] = [
     name: "Ribombee",
     types: ["BUG", "FAIRY"],
     sprite: "/Front/RIBOMBEE.png",
-    backSprite: "/spritesBack/RIBOMBEE.png",
+    backSprite: "/Back/RIBOMBEE.png",
     description:
       "Rain makes pollen damp, so Ribombee hates rain. When it sees ominous clouds, it finds a hollow in a tree, where it waits stock-still.",
     stats: {
@@ -89652,7 +89652,7 @@ export const fakemons: Fakemon[] = [
     name: "Rockruff",
     types: ["ROCK"],
     sprite: "/Front/ROCKRUFF.png",
-    backSprite: "/spritesBack/ROCKRUFF.png",
+    backSprite: "/Back/ROCKRUFF.png",
     description:
       "This Pokémon has lived with people since times long ago. It can sense when its Trainer is in the dumps and will stick close by its Trainer's side.",
     stats: {
@@ -89758,7 +89758,7 @@ export const fakemons: Fakemon[] = [
     name: "Lycanroc",
     types: ["ROCK"],
     sprite: "/Front/LYCANROC.png",
-    backSprite: "/spritesBack/LYCANROC.png",
+    backSprite: "/Back/LYCANROC.png",
     description:
       "Its quick movements confuse its enemies. Well equipped with claws and fangs, it also uses the sharp rocks in its mane as weapons.",
     stats: {
@@ -89873,7 +89873,7 @@ export const fakemons: Fakemon[] = [
     name: "Wishiwashi",
     types: ["WATER"],
     sprite: "/Front/WISHIWASHI.png",
-    backSprite: "/spritesBack/WISHIWASHI.png",
+    backSprite: "/Back/WISHIWASHI.png",
     description:
       "It's awfully weak and notably tasty, so everyone is always out to get it. As it happens, anyone trying to bully it receives a painful lesson.",
     stats: {
@@ -89963,7 +89963,7 @@ export const fakemons: Fakemon[] = [
     name: "Mareanie",
     types: ["POISON", "WATER"],
     sprite: "/Front/MAREANIE.png",
-    backSprite: "/spritesBack/MAREANIE.png",
+    backSprite: "/Back/MAREANIE.png",
     description:
       "It plunges the poison spike on its head into its prey. When the prey has weakened, Mareanie deals the finishing blow with its 10 tentacles.",
     stats: {
@@ -90068,7 +90068,7 @@ export const fakemons: Fakemon[] = [
     name: "Toxapex",
     types: ["POISON", "WATER"],
     sprite: "/Front/TOXAPEX.png",
-    backSprite: "/spritesBack/TOXAPEX.png",
+    backSprite: "/Back/TOXAPEX.png",
     description:
       "Those attacked by Toxapex's poison will suffer intense pain for three days and three nights. Post-recovery, there will be some aftereffects.",
     stats: {
@@ -90176,7 +90176,7 @@ export const fakemons: Fakemon[] = [
     name: "Mudbray",
     types: ["GROUND"],
     sprite: "/Front/MUDBRAY.png",
-    backSprite: "/spritesBack/MUDBRAY.png",
+    backSprite: "/Back/MUDBRAY.png",
     description:
       "It loves playing in the mud. If it isn't showered with mud on a daily basis, it gets stressed out and stops listening to its Trainer.",
     stats: {
@@ -90274,7 +90274,7 @@ export const fakemons: Fakemon[] = [
     name: "Mudsdale",
     types: ["GROUND"],
     sprite: "/Front/MUDSDALE.png",
-    backSprite: "/spritesBack/MUDSDALE.png",
+    backSprite: "/Back/MUDSDALE.png",
     description:
       "It remains calm and unmoving no matter the situation. It mixes dirt with the saliva in its mouth to make a special kind of mud.",
     stats: {
@@ -90374,7 +90374,7 @@ export const fakemons: Fakemon[] = [
     name: "Dewpider",
     types: ["WATER", "BUG"],
     sprite: "/Front/DEWPIDER.png",
-    backSprite: "/spritesBack/DEWPIDER.png",
+    backSprite: "/Back/DEWPIDER.png",
     description:
       "When two Dewpider meet, they display their water bubbles to each other. Then the one with the smaller bubble gets out of the other's way.",
     stats: {
@@ -90473,7 +90473,7 @@ export const fakemons: Fakemon[] = [
     name: "Araquanid",
     types: ["WATER", "BUG"],
     sprite: "/Front/ARAQUANID.png",
-    backSprite: "/spritesBack/ARAQUANID.png",
+    backSprite: "/Back/ARAQUANID.png",
     description:
       "It delivers headbutts with the water bubble on its head. Small Pokémon get sucked into the bubble, where they drown.",
     stats: {
@@ -90575,7 +90575,7 @@ export const fakemons: Fakemon[] = [
     name: "Fomantis",
     types: ["GRASS"],
     sprite: "/Front/FOMANTIS.png",
-    backSprite: "/spritesBack/FOMANTIS.png",
+    backSprite: "/Back/FOMANTIS.png",
     description:
       "When the sun rises, Fomantis spreads its four leaves and bathes in the sunlight. The tip of its head has a pleasant aroma.",
     stats: {
@@ -90674,7 +90674,7 @@ export const fakemons: Fakemon[] = [
     name: "Lurantis",
     types: ["GRASS"],
     sprite: "/Front/LURANTIS.png",
-    backSprite: "/spritesBack/LURANTIS.png",
+    backSprite: "/Back/LURANTIS.png",
     description:
       "It requires a lot of effort to maintain Lurantis's vivid coloring, but some collectors enjoy this work and treat it as their hobby.",
     stats: {
@@ -90784,7 +90784,7 @@ export const fakemons: Fakemon[] = [
     name: "Morelull",
     types: ["GRASS", "FAIRY"],
     sprite: "/Front/MORELULL.png",
-    backSprite: "/spritesBack/MORELULL.png",
+    backSprite: "/Back/MORELULL.png",
     description:
       "It scatters its shining spores around itself. Even though they're dangerous, nighttime tours of forests where Morelull live are popular.",
     stats: {
@@ -90877,7 +90877,7 @@ export const fakemons: Fakemon[] = [
     name: "Shiinotic",
     types: ["GRASS", "FAIRY"],
     sprite: "/Front/SHIINOTIC.png",
-    backSprite: "/spritesBack/SHIINOTIC.png",
+    backSprite: "/Back/SHIINOTIC.png",
     description:
       "It puts its prey to sleep and siphons off their vitality through the tip of its arms. If one of its kind is weakened, it helps by sending it vitality.",
     stats: {
@@ -90970,7 +90970,7 @@ export const fakemons: Fakemon[] = [
     name: "Salandit",
     types: ["POISON", "FIRE"],
     sprite: "/Front/SALANDIT.png",
-    backSprite: "/spritesBack/SALANDIT.png",
+    backSprite: "/Back/SALANDIT.png",
     description:
       "It burns its bodily fluids to create a poisonous gas. When its enemies become disoriented from inhaling the gas, it attacks them.",
     stats: {
@@ -91087,7 +91087,7 @@ export const fakemons: Fakemon[] = [
     name: "Salazzle",
     types: ["POISON", "FIRE"],
     sprite: "/Front/SALAZZLE.png",
-    backSprite: "/spritesBack/SALAZZLE.png",
+    backSprite: "/Back/SALAZZLE.png",
     description:
       "Filled with pheromones, its poisonous gas can be diluted to use in the production of luscious perfumes.",
     stats: {
@@ -91219,7 +91219,7 @@ export const fakemons: Fakemon[] = [
     name: "Stufful",
     types: ["NORMAL", "FIGHTING"],
     sprite: "/Front/STUFFUL.png",
-    backSprite: "/spritesBack/STUFFUL.png",
+    backSprite: "/Back/STUFFUL.png",
     description:
       "Despite its adorable appearance, when it gets angry and flails about, its arms and legs could knock a pro wrestler sprawling.",
     stats: {
@@ -91320,7 +91320,7 @@ export const fakemons: Fakemon[] = [
     name: "Bewear",
     types: ["NORMAL", "FIGHTING"],
     sprite: "/Front/BEWEAR.png",
-    backSprite: "/spritesBack/BEWEAR.png",
+    backSprite: "/Back/BEWEAR.png",
     description:
       "It waves its hands wildly in intimidation and warning. Life is over for anyone who doesn't run away as fast as possible.",
     stats: {
@@ -91429,7 +91429,7 @@ export const fakemons: Fakemon[] = [
     name: "Bounsweet",
     types: ["GRASS"],
     sprite: "/Front/BOUNSWEET.png",
-    backSprite: "/spritesBack/BOUNSWEET.png",
+    backSprite: "/Back/BOUNSWEET.png",
     description:
       "Because of its sweet, delicious aroma, bird Pokémon are always after it, but it's not intelligent enough to care.",
     stats: {
@@ -91523,7 +91523,7 @@ export const fakemons: Fakemon[] = [
     name: "Steenee",
     types: ["GRASS"],
     sprite: "/Front/STEENEE.png",
-    backSprite: "/spritesBack/STEENEE.png",
+    backSprite: "/Back/STEENEE.png",
     description:
       "It's protected by its hard sepals, so it plays with bird Pokémon without worry. They peck it relentlessly, but it doesn't care.",
     stats: {
@@ -91624,7 +91624,7 @@ export const fakemons: Fakemon[] = [
     name: "Tsareena",
     types: ["GRASS"],
     sprite: "/Front/TSAREENA.png",
-    backSprite: "/spritesBack/TSAREENA.png",
+    backSprite: "/Back/TSAREENA.png",
     description:
       "A Pokémon with an aggressive personality and a mastery of kicking, it cackles every time it kicks an opponent.",
     stats: {
@@ -91734,7 +91734,7 @@ export const fakemons: Fakemon[] = [
     name: "Comfey",
     types: ["FAIRY"],
     sprite: "/Front/COMFEY.png",
-    backSprite: "/spritesBack/COMFEY.png",
+    backSprite: "/Back/COMFEY.png",
     description:
       "Baths prepared with the flowers from its vine have a relaxing effect, so this Pokémon is a hit with many people.",
     stats: {
@@ -91854,7 +91854,7 @@ export const fakemons: Fakemon[] = [
     name: "Oranguru",
     types: ["NORMAL", "PSYCHIC"],
     sprite: "/Front/ORANGURU.png",
-    backSprite: "/spritesBack/ORANGURU.png",
+    backSprite: "/Back/ORANGURU.png",
     description:
       "It normally spends its time meditating in the treetops. It throws Poké Balls and gives other Pokémon orders as it pleases.",
     stats: {
@@ -91985,7 +91985,7 @@ export const fakemons: Fakemon[] = [
     name: "Passimian",
     types: ["FIGHTING"],
     sprite: "/Front/PASSIMIAN.png",
-    backSprite: "/spritesBack/PASSIMIAN.png",
+    backSprite: "/Back/PASSIMIAN.png",
     description:
       "Berries are its weapons as well as the staple of its diet. The one that can throw a berry the farthest is the boss of the troop.",
     stats: {
@@ -92118,7 +92118,7 @@ export const fakemons: Fakemon[] = [
     name: "Wimpod",
     types: ["BUG", "WATER"],
     sprite: "/Front/WIMPOD.png",
-    backSprite: "/spritesBack/WIMPOD.png",
+    backSprite: "/Back/WIMPOD.png",
     description:
       "This Pokémon is a coward. As it desperately dashes off, the flailing of its many legs leaves a sparkling clean path in its wake.",
     stats: {
@@ -92187,7 +92187,7 @@ export const fakemons: Fakemon[] = [
     name: "Golisopod",
     types: ["BUG", "WATER"],
     sprite: "/Front/GOLISOPOD.png",
-    backSprite: "/spritesBack/GOLISOPOD.png",
+    backSprite: "/Back/GOLISOPOD.png",
     description:
       "It battles skillfully with its six arms, but spends most of its time peacefully meditating in caves deep beneath the sea.",
     stats: {
@@ -92310,7 +92310,7 @@ export const fakemons: Fakemon[] = [
     name: "Sandygast",
     types: ["GHOST", "GROUND"],
     sprite: "/Front/SANDYGAST.png",
-    backSprite: "/spritesBack/SANDYGAST.png",
+    backSprite: "/Back/SANDYGAST.png",
     description:
       "It likes the shovel on its head, so Sandygast will get serious and fight any children who come to take it back.",
     stats: {
@@ -92430,7 +92430,7 @@ export const fakemons: Fakemon[] = [
     name: "Palossand",
     types: ["GHOST", "GROUND"],
     sprite: "/Front/PALOSSAND.png",
-    backSprite: "/spritesBack/PALOSSAND.png",
+    backSprite: "/Back/PALOSSAND.png",
     description:
       "Buried beneath the castle are masses of dried-up bones from those whose vitality it has drained.",
     stats: {
@@ -92543,7 +92543,7 @@ export const fakemons: Fakemon[] = [
     name: "Pyukumuku",
     types: ["WATER"],
     sprite: "/Front/PYUKUMUKU.png",
-    backSprite: "/spritesBack/PYUKUMUKU.png",
+    backSprite: "/Back/PYUKUMUKU.png",
     description:
       "It lives in shallow seas, such as areas near a beach. It can eject its internal organs, which it uses to engulf its prey or battle enemies.",
     stats: {
@@ -92618,7 +92618,7 @@ export const fakemons: Fakemon[] = [
     name: "Type: Null",
     types: ["NORMAL"],
     sprite: "/Front/TYPENULL.png",
-    backSprite: "/spritesBack/TYPENULL.png",
+    backSprite: "/Back/TYPENULL.png",
     description:
       "The heavy control mask it wears suppresses its intrinsic capabilities. This Pokémon has some hidden special power.",
     stats: {
@@ -92709,7 +92709,7 @@ export const fakemons: Fakemon[] = [
     name: "Silvally",
     types: ["NORMAL"],
     sprite: "/Front/SILVALLY.png",
-    backSprite: "/spritesBack/SILVALLY.png",
+    backSprite: "/Back/SILVALLY.png",
     description:
       "Its trust in its partner is what awakens it. This Pokémon is capable of changing its type, a flexibility that is well displayed in battle.",
     stats: {
@@ -92835,7 +92835,7 @@ export const fakemons: Fakemon[] = [
     name: "Minior",
     types: ["ROCK", "FLYING"],
     sprite: "/Front/MINIOR.png",
-    backSprite: "/spritesBack/MINIOR.png",
+    backSprite: "/Back/MINIOR.png",
     description:
       "Originally making its home in the ozone layer, it hurtles to the ground when the shell enclosing its body grows too heavy.",
     stats: {
@@ -92938,7 +92938,7 @@ export const fakemons: Fakemon[] = [
     name: "Komala",
     types: ["NORMAL"],
     sprite: "/Front/KOMALA.png",
-    backSprite: "/spritesBack/KOMALA.png",
+    backSprite: "/Back/KOMALA.png",
     description:
       "It remains asleep from birth to death as a result of the sedative properties of the leaves that form its diet.",
     stats: {
@@ -93043,7 +93043,7 @@ export const fakemons: Fakemon[] = [
     name: "Turtonator",
     types: ["FIRE", "DRAGON"],
     sprite: "/Front/TURTONATOR.png",
-    backSprite: "/spritesBack/TURTONATOR.png",
+    backSprite: "/Back/TURTONATOR.png",
     description:
       "It lives in volcanoes and eats sulfur and other minerals. Materials from the food it eats form the basis of its explosive shell.",
     stats: {
@@ -93161,7 +93161,7 @@ export const fakemons: Fakemon[] = [
     name: "Togedemaru",
     types: ["ELECTRIC", "STEEL"],
     sprite: "/Front/TOGEDEMARU.png",
-    backSprite: "/spritesBack/TOGEDEMARU.png",
+    backSprite: "/Back/TOGEDEMARU.png",
     description:
       "The long hairs on its back act as lightning rods. The bolts of lightning it attracts are stored as energy in its electric sac.",
     stats: {
@@ -93276,7 +93276,7 @@ export const fakemons: Fakemon[] = [
     name: "Mimikyu",
     types: ["GHOST", "FAIRY"],
     sprite: "/Front/MIMIKYU.png",
-    backSprite: "/spritesBack/MIMIKYU.png",
+    backSprite: "/Back/MIMIKYU.png",
     description:
       "A lonely Pokémon, it conceals its terrifying appearance beneath an old rag so it can get closer to people and other Pokémon.",
     stats: {
@@ -93396,7 +93396,7 @@ export const fakemons: Fakemon[] = [
     name: "Bruxish",
     types: ["WATER", "PSYCHIC"],
     sprite: "/Front/BRUXISH.png",
-    backSprite: "/spritesBack/BRUXISH.png",
+    backSprite: "/Back/BRUXISH.png",
     description:
       "When it unleashes its psychic power from the protuberance on its head, the grating sound of grinding teeth echoes through the area.",
     stats: {
@@ -93509,7 +93509,7 @@ export const fakemons: Fakemon[] = [
     name: "Drampa",
     types: ["NORMAL", "DRAGON"],
     sprite: "/Front/DRAMPA.png",
-    backSprite: "/spritesBack/DRAMPA.png",
+    backSprite: "/Back/DRAMPA.png",
     description:
       "This Pokémon is friendly to people and loves children most of all. It comes from deep in the mountains to play with children it likes in town.",
     stats: {
@@ -93633,7 +93633,7 @@ export const fakemons: Fakemon[] = [
     name: "Dhelmise",
     types: ["GHOST", "GRASS"],
     sprite: "/Front/DHELMISE.png",
-    backSprite: "/spritesBack/DHELMISE.png",
+    backSprite: "/Back/DHELMISE.png",
     description:
       "The soul of seaweed adrift in the waves became reborn as this Pokémon. It maintains itself with new infusions of seabed detritus and seaweed.",
     stats: {
@@ -93749,7 +93749,7 @@ export const fakemons: Fakemon[] = [
     name: "Jangmo-o",
     types: ["DRAGON"],
     sprite: "/Front/JANGMOO.png",
-    backSprite: "/spritesBack/JANGMOO.png",
+    backSprite: "/Back/JANGMOO.png",
     description:
       "It expresses its feelings by smacking its scales. Metallic sounds echo through the tall mountains where Jangmo-o lives.",
     stats: {
@@ -93857,7 +93857,7 @@ export const fakemons: Fakemon[] = [
     name: "Hakamo-o",
     types: ["DRAGON", "FIGHTING"],
     sprite: "/Front/HAKAMOO.png",
-    backSprite: "/spritesBack/HAKAMOO.png",
+    backSprite: "/Back/HAKAMOO.png",
     description:
       "It sheds and regrows its scales on a continuous basis. The scales become harder and sharper each time they're regrown.",
     stats: {
@@ -93980,7 +93980,7 @@ export const fakemons: Fakemon[] = [
     name: "Kommo-o",
     types: ["DRAGON", "FIGHTING"],
     sprite: "/Front/KOMMOO.png",
-    backSprite: "/spritesBack/KOMMOO.png",
+    backSprite: "/Back/KOMMOO.png",
     description:
       "Its rigid scales function as offense and defense. In the past, its scales were processed and used to make weapons and other commodities.",
     stats: {
@@ -94123,7 +94123,7 @@ export const fakemons: Fakemon[] = [
     name: "Tapu Koko",
     types: ["ELECTRIC", "FAIRY"],
     sprite: "/Front/TAPUKOKO.png",
-    backSprite: "/spritesBack/TAPUKOKO.png",
+    backSprite: "/Back/TAPUKOKO.png",
     description:
       "Although it's called a guardian deity, if a person or Pokémon puts it in a bad mood, it will become a malevolent deity and attack.",
     stats: {
@@ -94237,7 +94237,7 @@ export const fakemons: Fakemon[] = [
     name: "Tapu Lele",
     types: ["PSYCHIC", "FAIRY"],
     sprite: "/Front/TAPULELE.png",
-    backSprite: "/spritesBack/TAPULELE.png",
+    backSprite: "/Back/TAPULELE.png",
     description:
       "As it flutters about, it scatters its strangely glowing scales. Touching them is said to restore good health on the spot.",
     stats: {
@@ -94344,7 +94344,7 @@ export const fakemons: Fakemon[] = [
     name: "Tapu Bulu",
     types: ["GRASS", "FAIRY"],
     sprite: "/Front/TAPUBULU.png",
-    backSprite: "/spritesBack/TAPUBULU.png",
+    backSprite: "/Back/TAPUBULU.png",
     description:
       "It pulls large trees up by the roots and swings them around. It causes vegetation to grow, and then it absorbs energy from the growth.",
     stats: {
@@ -94461,7 +94461,7 @@ export const fakemons: Fakemon[] = [
     name: "Tapu Fini",
     types: ["WATER", "FAIRY"],
     sprite: "/Front/TAPUFINI.png",
-    backSprite: "/spritesBack/TAPUFINI.png",
+    backSprite: "/Back/TAPUFINI.png",
     description:
       "The dense fog it creates brings the downfall and destruction of its confused enemies. Ocean currents are the source of its energy.",
     stats: {
@@ -94571,7 +94571,7 @@ export const fakemons: Fakemon[] = [
     name: "Cosmog",
     types: ["PSYCHIC"],
     sprite: "/Front/COSMOG.png",
-    backSprite: "/spritesBack/COSMOG.png",
+    backSprite: "/Back/COSMOG.png",
     description:
       "Whether or not it's a Pokémon from this world is a mystery. When it's in a jam, it warps away to a safe place to hide.",
     stats: {
@@ -94605,7 +94605,7 @@ export const fakemons: Fakemon[] = [
     name: "Cosmoem",
     types: ["PSYCHIC"],
     sprite: "/Front/COSMOEM.png",
-    backSprite: "/spritesBack/COSMOEM.png",
+    backSprite: "/Back/COSMOEM.png",
     description:
       "Motionless as if dead, its body is faintly warm to the touch. In the distant past, it was called the cocoon of the stars.",
     stats: {
@@ -94639,7 +94639,7 @@ export const fakemons: Fakemon[] = [
     name: "Solgaleo",
     types: ["PSYCHIC", "STEEL"],
     sprite: "/Front/SOLGALEO.png",
-    backSprite: "/spritesBack/SOLGALEO.png",
+    backSprite: "/Back/SOLGALEO.png",
     description:
       "It is said to live in another world. The intense light it radiates from the surface of its body can make the darkest of nights light up like midday.",
     stats: {
@@ -94767,7 +94767,7 @@ export const fakemons: Fakemon[] = [
     name: "Lunala",
     types: ["PSYCHIC", "GHOST"],
     sprite: "/Front/LUNALA.png",
-    backSprite: "/spritesBack/LUNALA.png",
+    backSprite: "/Back/LUNALA.png",
     description:
       "Said to live in another world, this Pokémon devours light, drawing the moonless dark veil of night over the brightness of day.",
     stats: {
@@ -94890,7 +94890,7 @@ export const fakemons: Fakemon[] = [
     name: "Nihilego",
     types: ["ROCK", "POISON"],
     sprite: "/Front/NIHILEGO.png",
-    backSprite: "/spritesBack/NIHILEGO.png",
+    backSprite: "/Back/NIHILEGO.png",
     description:
       "One of several mysterious Ultra Beasts. People on the street report observing those infested by it suddenly becoming violent.",
     stats: {
@@ -94998,7 +94998,7 @@ export const fakemons: Fakemon[] = [
     name: "Buzzwole",
     types: ["BUG", "FIGHTING"],
     sprite: "/Front/BUZZWOLE.png",
-    backSprite: "/spritesBack/BUZZWOLE.png",
+    backSprite: "/Back/BUZZWOLE.png",
     description:
       "This Ultra Beast appeared from another world. It shows off its body, but whether that display is a boast or a threat remains unclear.",
     stats: {
@@ -95103,7 +95103,7 @@ export const fakemons: Fakemon[] = [
     name: "Pheromosa",
     types: ["BUG", "FIGHTING"],
     sprite: "/Front/PHEROMOSA.png",
-    backSprite: "/spritesBack/PHEROMOSA.png",
+    backSprite: "/Back/PHEROMOSA.png",
     description:
       "One of the Ultra Beasts. It refuses to touch anything, perhaps because it senses some uncleanness in this world.",
     stats: {
@@ -95205,7 +95205,7 @@ export const fakemons: Fakemon[] = [
     name: "Xurkitree",
     types: ["ELECTRIC"],
     sprite: "/Front/XURKITREE.png",
-    backSprite: "/spritesBack/XURKITREE.png",
+    backSprite: "/Back/XURKITREE.png",
     description:
       "One of the mysterious life-forms known as Ultra Beasts. Astonishing electric shocks emanate from its entire body, according to witnesses.",
     stats: {
@@ -95302,7 +95302,7 @@ export const fakemons: Fakemon[] = [
     name: "Celesteela",
     types: ["STEEL", "FLYING"],
     sprite: "/Front/CELESTEELA.png",
-    backSprite: "/spritesBack/CELESTEELA.png",
+    backSprite: "/Back/CELESTEELA.png",
     description:
       "One kind of Ultra Beast. Witnesses have seen it burn down a forest by expelling gas from its two arms.",
     stats: {
@@ -95405,7 +95405,7 @@ export const fakemons: Fakemon[] = [
     name: "Kartana",
     types: ["GRASS", "STEEL"],
     sprite: "/Front/KARTANA.png",
-    backSprite: "/spritesBack/KARTANA.png",
+    backSprite: "/Back/KARTANA.png",
     description:
       "One of the Ultra Beast life-forms, it was observed cutting down a gigantic steel tower with one stroke of its blade.",
     stats: {
@@ -95490,7 +95490,7 @@ export const fakemons: Fakemon[] = [
     name: "Guzzlord",
     types: ["DARK", "DRAGON"],
     sprite: "/Front/GUZZLORD.png",
-    backSprite: "/spritesBack/GUZZLORD.png",
+    backSprite: "/Back/GUZZLORD.png",
     description:
       "A dangerous Ultra Beast, it appears to be eating constantly, but for some reason its droppings have never been found.",
     stats: {
@@ -95604,7 +95604,7 @@ export const fakemons: Fakemon[] = [
     name: "Necrozma",
     types: ["PSYCHIC"],
     sprite: "/Front/NECROZMA.png",
-    backSprite: "/spritesBack/NECROZMA.png",
+    backSprite: "/Back/NECROZMA.png",
     description:
       "Light is apparently the source of its energy. It has an extraordinarily vicious disposition and is constantly firing off laser beams.",
     stats: {
@@ -95730,7 +95730,7 @@ export const fakemons: Fakemon[] = [
     name: "Magearna",
     types: ["STEEL", "FAIRY"],
     sprite: "/Front/MAGEARNA.png",
-    backSprite: "/spritesBack/MAGEARNA.png",
+    backSprite: "/Back/MAGEARNA.png",
     description:
       "This artificial Pokémon, constructed more than 500 years ago, can understand human speech but cannot itself speak.",
     stats: {
@@ -95868,7 +95868,7 @@ export const fakemons: Fakemon[] = [
     name: "Marshadow",
     types: ["FIGHTING", "GHOST"],
     sprite: "/Front/MARSHADOW.png",
-    backSprite: "/spritesBack/MARSHADOW.png",
+    backSprite: "/Back/MARSHADOW.png",
     description:
       "Able to conceal itself in shadows, it never appears before humans, so its very existence was the stuff of myth.",
     stats: {
@@ -95992,7 +95992,7 @@ export const fakemons: Fakemon[] = [
     name: "Poipole",
     types: ["POISON"],
     sprite: "/Front/POIPOLE.png",
-    backSprite: "/spritesBack/POIPOLE.png",
+    backSprite: "/Back/POIPOLE.png",
     description:
       "An Ultra Beast that lives in a different world, it cackles wildly as it sprays its opponents with poison from the needles on its head.",
     stats: {
@@ -96077,7 +96077,7 @@ export const fakemons: Fakemon[] = [
     name: "Naganadel",
     types: ["POISON", "DRAGON"],
     sprite: "/Front/NAGANADEL.png",
-    backSprite: "/spritesBack/NAGANADEL.png",
+    backSprite: "/Back/NAGANADEL.png",
     description:
       "One kind of Ultra Beast, it fires a glowing, venomous liquid from its needles. This liquid is also immensely adhesive.",
     stats: {
@@ -96197,7 +96197,7 @@ export const fakemons: Fakemon[] = [
     name: "Stakataka",
     types: ["ROCK", "STEEL"],
     sprite: "/Front/STAKATAKA.png",
-    backSprite: "/spritesBack/STAKATAKA.png",
+    backSprite: "/Back/STAKATAKA.png",
     description:
       "When stone walls started moving and attacking, the brute's true identity was this mysterious life-form, which brings to mind an Ultra Beast.",
     stats: {
@@ -96303,7 +96303,7 @@ export const fakemons: Fakemon[] = [
     name: "Blacephalon",
     types: ["FIRE", "GHOST"],
     sprite: "/Front/BLACEPHALON.png",
-    backSprite: "/spritesBack/BLACEPHALON.png",
+    backSprite: "/Back/BLACEPHALON.png",
     description:
       "It slithers toward people. Then, without warning, it triggers the explosion of its own head. It's apparently one kind of Ultra Beast.",
     stats: {
@@ -96409,7 +96409,7 @@ export const fakemons: Fakemon[] = [
     name: "Zeraora",
     types: ["ELECTRIC"],
     sprite: "/Front/ZERAORA.png",
-    backSprite: "/spritesBack/ZERAORA.png",
+    backSprite: "/Back/ZERAORA.png",
     description:
       "It approaches its enemies at the speed of lightning, then tears them limb from limb with its sharp claws.",
     stats: {
@@ -96531,7 +96531,7 @@ export const fakemons: Fakemon[] = [
     name: "Meltan",
     types: ["STEEL"],
     sprite: "/Front/MELTAN.png",
-    backSprite: "/spritesBack/MELTAN.png",
+    backSprite: "/Back/MELTAN.png",
     description:
       "It melts particles of iron and other metals found in the subsoil, so it can absorb them into its body of molten steel.",
     stats: {
@@ -96599,7 +96599,7 @@ export const fakemons: Fakemon[] = [
     name: "Melmetal",
     types: ["STEEL"],
     sprite: "/Front/MELMETAL.png",
-    backSprite: "/spritesBack/MELMETAL.png",
+    backSprite: "/Back/MELMETAL.png",
     description:
       "Revered long ago for its capacity to create iron from nothing, for some reason it has come back to life after 3,000 years.",
     stats: {
@@ -96693,7 +96693,7 @@ export const fakemons: Fakemon[] = [
     name: "Grookey",
     types: ["GRASS"],
     sprite: "/Front/GROOKEY.png",
-    backSprite: "/spritesBack/GROOKEY.png",
+    backSprite: "/Back/GROOKEY.png",
     description:
       "When it uses its special stick to strike up a beat, the sound waves produced carry revitalizing energy to the plants and flowers in the area.",
     stats: {
@@ -96803,7 +96803,7 @@ export const fakemons: Fakemon[] = [
     name: "Thwackey",
     types: ["GRASS"],
     sprite: "/Front/THWACKEY.png",
-    backSprite: "/spritesBack/THWACKEY.png",
+    backSprite: "/Back/THWACKEY.png",
     description:
       "When it's drumming out rapid beats in battle, it gets so caught up in the rhythm that it won't even notice that it's already knocked out its opponent.",
     stats: {
@@ -96908,7 +96908,7 @@ export const fakemons: Fakemon[] = [
     name: "Rillaboom",
     types: ["GRASS"],
     sprite: "/Front/RILLABOOM.png",
-    backSprite: "/spritesBack/RILLABOOM.png",
+    backSprite: "/Back/RILLABOOM.png",
     description:
       "By drumming, it taps into the power of its special tree stump. The roots of the stump follow its direction in battle.",
     stats: {
@@ -97031,7 +97031,7 @@ export const fakemons: Fakemon[] = [
     name: "Scorbunny",
     types: ["FIRE"],
     sprite: "/Front/SCORBUNNY.png",
-    backSprite: "/spritesBack/SCORBUNNY.png",
+    backSprite: "/Back/SCORBUNNY.png",
     description:
       "A warm-up of running around gets fire energy coursing through this Pokémon's body. Once that happens, it's ready to fight at full power.",
     stats: {
@@ -97133,7 +97133,7 @@ export const fakemons: Fakemon[] = [
     name: "Raboot",
     types: ["FIRE"],
     sprite: "/Front/RABOOT.png",
-    backSprite: "/spritesBack/RABOOT.png",
+    backSprite: "/Back/RABOOT.png",
     description:
       "It kicks berries right off the branches of trees and then juggles them with its feet, practicing its footwork.",
     stats: {
@@ -97239,7 +97239,7 @@ export const fakemons: Fakemon[] = [
     name: "Cinderace",
     types: ["FIRE"],
     sprite: "/Front/CINDERACE.png",
-    backSprite: "/spritesBack/CINDERACE.png",
+    backSprite: "/Back/CINDERACE.png",
     description:
       "It juggles a pebble with its feet, turning it into a burning soccer ball. Its shots strike opponents hard and leave them scorched.",
     stats: {
@@ -97358,7 +97358,7 @@ export const fakemons: Fakemon[] = [
     name: "Sobble",
     types: ["WATER"],
     sprite: "/Front/SOBBLE.png",
-    backSprite: "/spritesBack/SOBBLE.png",
+    backSprite: "/Back/SOBBLE.png",
     description:
       "When scared, this Pokémon cries. Its tears pack the chemical punch of 100 onions, and attackers won't be able to resist weeping.",
     stats: {
@@ -97455,7 +97455,7 @@ export const fakemons: Fakemon[] = [
     name: "Drizzile",
     types: ["WATER"],
     sprite: "/Front/DRIZZILE.png",
-    backSprite: "/spritesBack/DRIZZILE.png",
+    backSprite: "/Back/DRIZZILE.png",
     description:
       "A clever combatant, this Pokémon battles using water balloons created with moisture secreted from its palms.",
     stats: {
@@ -97546,7 +97546,7 @@ export const fakemons: Fakemon[] = [
     name: "Inteleon",
     types: ["WATER"],
     sprite: "/Front/INTELEON.png",
-    backSprite: "/spritesBack/INTELEON.png",
+    backSprite: "/Back/INTELEON.png",
     description:
       "It has many hidden capabilities, such as fingertips that can shoot water and a membrane on its back that it can use to glide through the air.",
     stats: {
@@ -97660,7 +97660,7 @@ export const fakemons: Fakemon[] = [
     name: "Skwovet",
     types: ["NORMAL"],
     sprite: "/Front/SKWOVET.png",
-    backSprite: "/spritesBack/SKWOVET.png",
+    backSprite: "/Back/SKWOVET.png",
     description:
       "It eats berries nonstop—a habit that has made it more resilient than it looks. It'll show up on farms, searching for yet more berries.",
     stats: {
@@ -97752,7 +97752,7 @@ export const fakemons: Fakemon[] = [
     name: "Greedent",
     types: ["NORMAL"],
     sprite: "/Front/GREEDENT.png",
-    backSprite: "/spritesBack/GREEDENT.png",
+    backSprite: "/Back/GREEDENT.png",
     description:
       "It stashes berries in its tail - so many berries that they fall out constantly. But this Pokémon is a bit slow-witted, so it doesn't notice the loss.",
     stats: {
@@ -97856,7 +97856,7 @@ export const fakemons: Fakemon[] = [
     name: "Rookidee",
     types: ["FLYING"],
     sprite: "/Front/ROOKIDEE.png",
-    backSprite: "/spritesBack/ROOKIDEE.png",
+    backSprite: "/Back/ROOKIDEE.png",
     description:
       "Jumping nimbly about, this small-bodied Pokémon takes advantage of even the slightest opportunity to disorient larger opponents.",
     stats: {
@@ -97955,7 +97955,7 @@ export const fakemons: Fakemon[] = [
     name: "Corvisquire",
     types: ["FLYING"],
     sprite: "/Front/CORVISQUIRE.png",
-    backSprite: "/spritesBack/CORVISQUIRE.png",
+    backSprite: "/Back/CORVISQUIRE.png",
     description:
       "Smart enough to use tools in battle, these Pokémon have been seen picking up rocks and flinging them or using ropes to wrap up enemies.",
     stats: {
@@ -98048,7 +98048,7 @@ export const fakemons: Fakemon[] = [
     name: "Corviknight",
     types: ["FLYING", "STEEL"],
     sprite: "/Front/CORVIKNIGHT.png",
-    backSprite: "/spritesBack/CORVIKNIGHT.png",
+    backSprite: "/Back/CORVIKNIGHT.png",
     description:
       "This Pokémon reigns supreme in the skies. The black luster of its steel body could drive terror into the heart of any foe.",
     stats: {
@@ -98158,7 +98158,7 @@ export const fakemons: Fakemon[] = [
     name: "Blipbug",
     types: ["BUG"],
     sprite: "/Front/BLIPBUG.png",
-    backSprite: "/spritesBack/BLIPBUG.png",
+    backSprite: "/Back/BLIPBUG.png",
     description:
       "Often found in gardens, this Pokémon has hairs on its body that it uses to assess its surroundings.",
     stats: {
@@ -98192,7 +98192,7 @@ export const fakemons: Fakemon[] = [
     name: "Dottler",
     types: ["BUG", "PSYCHIC"],
     sprite: "/Front/DOTTLER.png",
-    backSprite: "/spritesBack/DOTTLER.png",
+    backSprite: "/Back/DOTTLER.png",
     description:
       "It barely moves, but it's still alive. Hiding in its shell without food or water seems to have awakened its psychic powers.",
     stats: {
@@ -98276,7 +98276,7 @@ export const fakemons: Fakemon[] = [
     name: "Orbeetle",
     types: ["BUG", "PSYCHIC"],
     sprite: "/Front/ORBEETLE.png",
-    backSprite: "/spritesBack/ORBEETLE.png",
+    backSprite: "/Back/ORBEETLE.png",
     description:
       "It's famous for its high level of intelligence, and the large size of its brain is proof that it also possesses immense psychic power.",
     stats: {
@@ -98378,7 +98378,7 @@ export const fakemons: Fakemon[] = [
     name: "Nickit",
     types: ["DARK"],
     sprite: "/Front/NICKIT.png",
-    backSprite: "/spritesBack/NICKIT.png",
+    backSprite: "/Back/NICKIT.png",
     description:
       "Aided by the soft pads on its feet, it silently raids the food stores of other Pokémon. It survives off its ill-gotten gains.",
     stats: {
@@ -98462,7 +98462,7 @@ export const fakemons: Fakemon[] = [
     name: "Thievul",
     types: ["DARK"],
     sprite: "/Front/THIEVUL.png",
-    backSprite: "/spritesBack/THIEVUL.png",
+    backSprite: "/Back/THIEVUL.png",
     description:
       "It secretly marks potential targets with a scent. By following the scent, it stalks its targets and steals from them when they least expect it.",
     stats: {
@@ -98556,7 +98556,7 @@ export const fakemons: Fakemon[] = [
     name: "Gossifleur",
     types: ["GRASS"],
     sprite: "/Front/GOSSIFLEUR.png",
-    backSprite: "/spritesBack/GOSSIFLEUR.png",
+    backSprite: "/Back/GOSSIFLEUR.png",
     description:
       "It anchors itself in the ground with its single leg, then basks in the sun. After absorbing enough sunlight, its petals spread as it blooms brilliantly.",
     stats: {
@@ -98645,7 +98645,7 @@ export const fakemons: Fakemon[] = [
     name: "Eldegoss",
     types: ["GRASS"],
     sprite: "/Front/ELDEGOSS.png",
-    backSprite: "/spritesBack/ELDEGOSS.png",
+    backSprite: "/Back/ELDEGOSS.png",
     description:
       "The seeds attached to its cotton fluff are full of nutrients. It spreads them on the wind so that plants and other Pokémon can benefit from them.",
     stats: {
@@ -98727,7 +98727,7 @@ export const fakemons: Fakemon[] = [
     name: "Wooloo",
     types: ["NORMAL"],
     sprite: "/Front/WOOLOO.png",
-    backSprite: "/spritesBack/WOOLOO.png",
+    backSprite: "/Back/WOOLOO.png",
     description:
       "Its curly fleece is such an effective cushion that this Pokémon could fall off a cliff and stand right back up at the bottom, unharmed.",
     stats: {
@@ -98803,7 +98803,7 @@ export const fakemons: Fakemon[] = [
     name: "Dubwool",
     types: ["NORMAL"],
     sprite: "/Front/DUBWOOL.png",
-    backSprite: "/spritesBack/DUBWOOL.png",
+    backSprite: "/Back/DUBWOOL.png",
     description:
       "Its majestic horns are meant only to impress the opposite gender. They never see use in battle.",
     stats: {
@@ -98884,7 +98884,7 @@ export const fakemons: Fakemon[] = [
     name: "Chewtle",
     types: ["WATER"],
     sprite: "/Front/CHEWTLE.png",
-    backSprite: "/spritesBack/CHEWTLE.png",
+    backSprite: "/Back/CHEWTLE.png",
     description:
       "It starts off battles by attacking with its rock-hard horn, but as soon as the opponent flinches, this Pokémon bites down and never lets go.",
     stats: {
@@ -98972,7 +98972,7 @@ export const fakemons: Fakemon[] = [
     name: "Drednaw",
     types: ["WATER", "ROCK"],
     sprite: "/Front/DREDNAW.png",
-    backSprite: "/spritesBack/DREDNAW.png",
+    backSprite: "/Back/DREDNAW.png",
     description:
       "With jaws that can shear through steel rods, this highly aggressive Pokémon chomps down on its unfortunate prey.",
     stats: {
@@ -99089,7 +99089,7 @@ export const fakemons: Fakemon[] = [
     name: "Yamper",
     types: ["ELECTRIC"],
     sprite: "/Front/YAMPER.png",
-    backSprite: "/spritesBack/YAMPER.png",
+    backSprite: "/Back/YAMPER.png",
     description:
       "This gluttonous Pokémon only assists people with their work because it wants treats. As it runs, it crackles with electricity.",
     stats: {
@@ -99173,7 +99173,7 @@ export const fakemons: Fakemon[] = [
     name: "Boltund",
     types: ["ELECTRIC"],
     sprite: "/Front/BOLTUND.png",
-    backSprite: "/spritesBack/BOLTUND.png",
+    backSprite: "/Back/BOLTUND.png",
     description:
       "This Pokémon generates electricity and channels it into its legs to keep them going strong. Boltund can run nonstop for three full days.",
     stats: {
@@ -99262,7 +99262,7 @@ export const fakemons: Fakemon[] = [
     name: "Rolycoly",
     types: ["ROCK"],
     sprite: "/Front/ROLYCOLY.png",
-    backSprite: "/spritesBack/ROLYCOLY.png",
+    backSprite: "/Back/ROLYCOLY.png",
     description:
       "Most of its body has the same composition as coal. Fittingly, this Pokémon was first discovered in coal mines about 400 years ago.",
     stats: {
@@ -99353,7 +99353,7 @@ export const fakemons: Fakemon[] = [
     name: "Carkol",
     types: ["ROCK", "FIRE"],
     sprite: "/Front/CARKOL.png",
-    backSprite: "/spritesBack/CARKOL.png",
+    backSprite: "/Back/CARKOL.png",
     description:
       "By rapidly rolling its legs, it can travel at over 18 mph. The temperature of the flames it breathes exceeds 1,000 degrees Celsius.",
     stats: {
@@ -99458,7 +99458,7 @@ export const fakemons: Fakemon[] = [
     name: "Coalossal",
     types: ["ROCK", "FIRE"],
     sprite: "/Front/COALOSSAL.png",
-    backSprite: "/spritesBack/COALOSSAL.png",
+    backSprite: "/Back/COALOSSAL.png",
     description:
       "While it's engaged in battle, its mountain of coal will burn bright red, sending off sparks that scorch the surrounding area.",
     stats: {
@@ -99567,7 +99567,7 @@ export const fakemons: Fakemon[] = [
     name: "Applin",
     types: ["GRASS", "DRAGON"],
     sprite: "/Front/APPLIN.png",
-    backSprite: "/spritesBack/APPLIN.png",
+    backSprite: "/Back/APPLIN.png",
     description:
       "It spends its entire life inside an apple. It hides from its natural enemies, bird Pokémon, by pretending it's just an apple and nothing more.",
     stats: {
@@ -99601,7 +99601,7 @@ export const fakemons: Fakemon[] = [
     name: "Flapple",
     types: ["GRASS", "DRAGON"],
     sprite: "/Front/FLAPPLE.png",
-    backSprite: "/spritesBack/FLAPPLE.png",
+    backSprite: "/Back/FLAPPLE.png",
     description:
       "It ate a sour apple, and that induced its evolution. In its cheeks, it stores an acid capable of causing chemical burns.",
     stats: {
@@ -99700,7 +99700,7 @@ export const fakemons: Fakemon[] = [
     name: "Appletun",
     types: ["GRASS", "DRAGON"],
     sprite: "/Front/APPLETUN.png",
-    backSprite: "/spritesBack/APPLETUN.png",
+    backSprite: "/Back/APPLETUN.png",
     description:
       "Its body is covered in sweet nectar, and the skin on its back is especially yummy. Children used to have it as a snack.",
     stats: {
@@ -99807,7 +99807,7 @@ export const fakemons: Fakemon[] = [
     name: "Silicobra",
     types: ["GROUND"],
     sprite: "/Front/SILICOBRA.png",
-    backSprite: "/spritesBack/SILICOBRA.png",
+    backSprite: "/Back/SILICOBRA.png",
     description:
       "It spews sand from its nostrils. While the enemy is blinded, it burrows into the ground to hide.",
     stats: {
@@ -99898,7 +99898,7 @@ export const fakemons: Fakemon[] = [
     name: "Sandaconda",
     types: ["GROUND"],
     sprite: "/Front/SANDACONDA.png",
-    backSprite: "/spritesBack/SANDACONDA.png",
+    backSprite: "/Back/SANDACONDA.png",
     description:
       "Its unique style of coiling allows it to blast sand out of its sand sac more efficiently.",
     stats: {
@@ -99995,7 +99995,7 @@ export const fakemons: Fakemon[] = [
     name: "Cramorant",
     types: ["FLYING", "WATER"],
     sprite: "/Front/CRAMORANT.png",
-    backSprite: "/spritesBack/CRAMORANT.png",
+    backSprite: "/Back/CRAMORANT.png",
     description:
       "It's so strong that it can knock out some opponents in a single hit, but it also may forget what it's battling midfight.",
     stats: {
@@ -100101,7 +100101,7 @@ export const fakemons: Fakemon[] = [
     name: "Arrokuda",
     types: ["WATER"],
     sprite: "/Front/ARROKUDA.png",
-    backSprite: "/spritesBack/ARROKUDA.png",
+    backSprite: "/Back/ARROKUDA.png",
     description:
       "If it sees any movement around it, this Pokémon charges for it straightaway, leading with its sharply pointed jaw. It's very proud of that jaw.",
     stats: {
@@ -100192,7 +100192,7 @@ export const fakemons: Fakemon[] = [
     name: "Barraskewda",
     types: ["WATER"],
     sprite: "/Front/BARRASKEWDA.png",
-    backSprite: "/spritesBack/BARRASKEWDA.png",
+    backSprite: "/Back/BARRASKEWDA.png",
     description:
       "This Pokémon has a jaw that's as sharp as a spear and as strong as steel. Apparently Barraskewda's flesh is surprisingly tasty, too.",
     stats: {
@@ -100284,7 +100284,7 @@ export const fakemons: Fakemon[] = [
     name: "Toxel",
     types: ["ELECTRIC", "POISON"],
     sprite: "/Front/TOXEL.png",
-    backSprite: "/spritesBack/TOXEL.png",
+    backSprite: "/Back/TOXEL.png",
     description:
       "It manipulates the chemical makeup of its poison to produce electricity. The voltage is weak, but it can cause a tingling paralysis.",
     stats: {
@@ -100343,7 +100343,7 @@ export const fakemons: Fakemon[] = [
     name: "Toxtricity",
     types: ["ELECTRIC", "POISON"],
     sprite: "/Front/TOXTRICITY.png",
-    backSprite: "/spritesBack/TOXTRICITY.png",
+    backSprite: "/Back/TOXTRICITY.png",
     description:
       "When this Pokémon sounds as if it's strumming a guitar, it's actually clawing at the protrusions on its chest to generate electricity.",
     stats: {
@@ -100470,7 +100470,7 @@ export const fakemons: Fakemon[] = [
     name: "Sizzlipede",
     types: ["FIRE", "BUG"],
     sprite: "/Front/SIZZLIPEDE.png",
-    backSprite: "/spritesBack/SIZZLIPEDE.png",
+    backSprite: "/Back/SIZZLIPEDE.png",
     description:
       "It stores flammable gas in its body and uses it to generate heat. The yellow sections on its belly get particularly hot.",
     stats: {
@@ -100552,7 +100552,7 @@ export const fakemons: Fakemon[] = [
     name: "Centiskorch",
     types: ["FIRE", "BUG"],
     sprite: "/Front/CENTISKORCH.png",
-    backSprite: "/spritesBack/CENTISKORCH.png",
+    backSprite: "/Back/CENTISKORCH.png",
     description:
       "While its burning body is already dangerous on its own, this excessively hostile Pokémon also has large and very sharp fangs.",
     stats: {
@@ -100641,7 +100641,7 @@ export const fakemons: Fakemon[] = [
     name: "Clobbopus",
     types: ["FIGHTING"],
     sprite: "/Front/CLOBBOPUS.png",
-    backSprite: "/spritesBack/CLOBBOPUS.png",
+    backSprite: "/Back/CLOBBOPUS.png",
     description:
       "It's very curious, but its means of investigating things is to try to punch them with its tentacles. The search for food is what brings it onto land.",
     stats: {
@@ -100736,7 +100736,7 @@ export const fakemons: Fakemon[] = [
     name: "Grapploct",
     types: ["FIGHTING"],
     sprite: "/Front/GRAPPLOCT.png",
-    backSprite: "/spritesBack/GRAPPLOCT.png",
+    backSprite: "/Back/GRAPPLOCT.png",
     description:
       "A body made up of nothing but muscle makes the grappling moves this Pokémon performs with its tentacles tremendously powerful.",
     stats: {
@@ -100832,7 +100832,7 @@ export const fakemons: Fakemon[] = [
     name: "Sinistea",
     types: ["GHOST"],
     sprite: "/Front/SINISTEA.png",
-    backSprite: "/spritesBack/SINISTEA.png",
+    backSprite: "/Back/SINISTEA.png",
     description:
       "The teacup in which this Pokémon makes its home is a famous piece of antique tableware. Many forgeries are in circulation.",
     stats: {
@@ -100925,7 +100925,7 @@ export const fakemons: Fakemon[] = [
     name: "Polteageist",
     types: ["GHOST"],
     sprite: "/Front/POLTEAGEIST.png",
-    backSprite: "/spritesBack/POLTEAGEIST.png",
+    backSprite: "/Back/POLTEAGEIST.png",
     description:
       "This species lives in antique teapots. Most pots are forgeries, but on rare occasions, an authentic work is found.",
     stats: {
@@ -101022,7 +101022,7 @@ export const fakemons: Fakemon[] = [
     name: "Hatenna",
     types: ["PSYCHIC"],
     sprite: "/Front/HATENNA.png",
-    backSprite: "/spritesBack/HATENNA.png",
+    backSprite: "/Back/HATENNA.png",
     description:
       "Via the protrusion on its head, it senses other creatures' emotions. If you don't have a calm disposition, it will never warm up to you.",
     stats: {
@@ -101120,7 +101120,7 @@ export const fakemons: Fakemon[] = [
     name: "Hattrem",
     types: ["PSYCHIC"],
     sprite: "/Front/HATTREM.png",
-    backSprite: "/spritesBack/HATTREM.png",
+    backSprite: "/Back/HATTREM.png",
     description:
       "Using the braids on its head, it pummels foes to get them to quiet down. One blow from those braids would knock out a professional boxer.",
     stats: {
@@ -101220,7 +101220,7 @@ export const fakemons: Fakemon[] = [
     name: "Hatterene",
     types: ["PSYCHIC", "FAIRY"],
     sprite: "/Front/HATTERENE.png",
-    backSprite: "/spritesBack/HATTERENE.png",
+    backSprite: "/Back/HATTERENE.png",
     description:
       "It emits psychic power strong enough to cause headaches as a deterrent to the approach of others.",
     stats: {
@@ -101332,7 +101332,7 @@ export const fakemons: Fakemon[] = [
     name: "Impidimp",
     types: ["DARK", "FAIRY"],
     sprite: "/Front/IMPIDIMP.png",
-    backSprite: "/spritesBack/IMPIDIMP.png",
+    backSprite: "/Back/IMPIDIMP.png",
     description:
       "Through its nose, it sucks in the emanations produced by people and Pokémon when they feel annoyed. It thrives off this negative energy.",
     stats: {
@@ -101432,7 +101432,7 @@ export const fakemons: Fakemon[] = [
     name: "Morgrem",
     types: ["DARK", "FAIRY"],
     sprite: "/Front/MORGREM.png",
-    backSprite: "/spritesBack/MORGREM.png",
+    backSprite: "/Back/MORGREM.png",
     description:
       "With sly cunning, it tries to lure people into the woods. Some believe it to have the power to make crops grow.",
     stats: {
@@ -101535,7 +101535,7 @@ export const fakemons: Fakemon[] = [
     name: "Grimmsnarl",
     types: ["DARK", "FAIRY"],
     sprite: "/Front/GRIMMSNARL.png",
-    backSprite: "/spritesBack/GRIMMSNARL.png",
+    backSprite: "/Back/GRIMMSNARL.png",
     description:
       "Its hairs work like muscle fibers. When its hairs unfurl, they latch on to opponents, ensnaring them as tentacles would.",
     stats: {
@@ -101655,7 +101655,7 @@ export const fakemons: Fakemon[] = [
     name: "Obstagoon",
     types: ["DARK", "NORMAL"],
     sprite: "/Front/OBSTAGOON.png",
-    backSprite: "/spritesBack/OBSTAGOON.png",
+    backSprite: "/Back/OBSTAGOON.png",
     description:
       "It evolved after experiencing numerous fights. While crossing its arms, it lets out a shout that would make any opponent flinch.",
     stats: {
@@ -101782,7 +101782,7 @@ export const fakemons: Fakemon[] = [
     name: "Perrserker",
     types: ["STEEL"],
     sprite: "/Front/PERRSERKER.png",
-    backSprite: "/spritesBack/PERRSERKER.png",
+    backSprite: "/Back/PERRSERKER.png",
     description:
       "What appears to be an iron helmet is actually hardened hair. This Pokémon lives for the thrill of battle.",
     stats: {
@@ -101918,7 +101918,7 @@ export const fakemons: Fakemon[] = [
     name: "Cursola",
     types: ["GHOST"],
     sprite: "/Front/CURSOLA.png",
-    backSprite: "/spritesBack/CURSOLA.png",
+    backSprite: "/Back/CURSOLA.png",
     description:
       "Its shell is overflowing with its heightened otherworldly energy. The ectoplasm serves as protection for this Pokémon's core spirit.",
     stats: {
@@ -102037,7 +102037,7 @@ export const fakemons: Fakemon[] = [
     name: "Sirfetch'd",
     types: ["FIGHTING"],
     sprite: "/Front/SIRFETCHD.png",
-    backSprite: "/spritesBack/SIRFETCHD.png",
+    backSprite: "/Back/SIRFETCHD.png",
     description:
       "After deflecting attacks with its hard leaf shield, it strikes back with its sharp leek stalk. The leek stalk is both weapon and food.",
     stats: {
@@ -102140,7 +102140,7 @@ export const fakemons: Fakemon[] = [
     name: "Mr. Rime",
     types: ["ICE", "PSYCHIC"],
     sprite: "/Front/MRRIME.png",
-    backSprite: "/spritesBack/MRRIME.png",
+    backSprite: "/Back/MRRIME.png",
     description:
       "Its amusing movements make it very popular. It releases its psychic power from the pattern on its belly.",
     stats: {
@@ -102299,7 +102299,7 @@ export const fakemons: Fakemon[] = [
     name: "Runerigus",
     types: ["GROUND", "GHOST"],
     sprite: "/Front/RUNERIGUS.png",
-    backSprite: "/spritesBack/RUNERIGUS.png",
+    backSprite: "/Back/RUNERIGUS.png",
     description:
       "A powerful curse was woven into an ancient painting. After absorbing the spirit of a Yamask, the painting began to move.",
     stats: {
@@ -102415,7 +102415,7 @@ export const fakemons: Fakemon[] = [
     name: "Milcery",
     types: ["FAIRY"],
     sprite: "/Front/MILCERY.png",
-    backSprite: "/spritesBack/MILCERY.png",
+    backSprite: "/Back/MILCERY.png",
     description:
       "This Pokémon was born from sweet-smelling particles in the air. Its body is made of cream.",
     stats: {
@@ -102489,7 +102489,7 @@ export const fakemons: Fakemon[] = [
     name: "Alcremie",
     types: ["FAIRY"],
     sprite: "/Front/ALCREMIE.png",
-    backSprite: "/spritesBack/ALCREMIE.png",
+    backSprite: "/Back/ALCREMIE.png",
     description:
       "When Alcremie is content, the cream it secretes from its hands becomes sweeter and richer.",
     stats: {
@@ -102586,7 +102586,7 @@ export const fakemons: Fakemon[] = [
     name: "Falinks",
     types: ["FIGHTING"],
     sprite: "/Front/FALINKS.png",
-    backSprite: "/spritesBack/FALINKS.png",
+    backSprite: "/Back/FALINKS.png",
     description:
       "The six of them work together as one Pokémon. Teamwork is also their battle strategy, and they constantly change their formation as they fight.",
     stats: {
@@ -102690,7 +102690,7 @@ export const fakemons: Fakemon[] = [
     name: "Pincurchin",
     types: ["ELECTRIC"],
     sprite: "/Front/PINCURCHIN.png",
-    backSprite: "/spritesBack/PINCURCHIN.png",
+    backSprite: "/Back/PINCURCHIN.png",
     description:
       "It stores electricity in each spine. Even if one gets broken off, it still continues to emit electricity for at least three hours.",
     stats: {
@@ -102792,7 +102792,7 @@ export const fakemons: Fakemon[] = [
     name: "Snom",
     types: ["ICE", "BUG"],
     sprite: "/Front/SNOM.png",
-    backSprite: "/spritesBack/SNOM.png",
+    backSprite: "/Back/SNOM.png",
     description:
       "It spits out thread imbued with a frigid sort of energy and uses it to tie its body to branches, disguising itself as an icicle while it sleeps.",
     stats: {
@@ -102848,7 +102848,7 @@ export const fakemons: Fakemon[] = [
     name: "Frosmoth",
     types: ["ICE", "BUG"],
     sprite: "/Front/FROSMOTH.png",
-    backSprite: "/spritesBack/FROSMOTH.png",
+    backSprite: "/Back/FROSMOTH.png",
     description:
       "It shows no mercy to any who desecrate fields and mountains. It will fly around on its icy wings, causing a blizzard to chase offenders away.",
     stats: {
@@ -102952,7 +102952,7 @@ export const fakemons: Fakemon[] = [
     name: "Stonjourner",
     types: ["ROCK"],
     sprite: "/Front/STONJOURNER.png",
-    backSprite: "/spritesBack/STONJOURNER.png",
+    backSprite: "/Back/STONJOURNER.png",
     description:
       "Once a year, on a specific date and at a specific time, they gather out of nowhere and form up in a circle.",
     stats: {
@@ -103054,7 +103054,7 @@ export const fakemons: Fakemon[] = [
     name: "Eiscue",
     types: ["ICE"],
     sprite: "/Front/EISCUE.png",
-    backSprite: "/spritesBack/EISCUE.png",
+    backSprite: "/Back/EISCUE.png",
     description:
       "It drifted in on the flow of ocean waters from a frigid place. It keeps its head iced constantly to make sure it stays nice and cold.",
     stats: {
@@ -103157,7 +103157,7 @@ export const fakemons: Fakemon[] = [
     name: "Indeedee",
     types: ["PSYCHIC", "NORMAL"],
     sprite: "/Front/INDEEDEE.png",
-    backSprite: "/spritesBack/INDEEDEE.png",
+    backSprite: "/Back/INDEEDEE.png",
     description:
       "It uses the horns on its head to sense the emotions of others. Males will act as valets for those they serve, looking after their every need.",
     stats: {
@@ -103258,7 +103258,7 @@ export const fakemons: Fakemon[] = [
     name: "Morpeko",
     types: ["ELECTRIC", "DARK"],
     sprite: "/Front/MORPEKO.png",
-    backSprite: "/spritesBack/MORPEKO.png",
+    backSprite: "/Back/MORPEKO.png",
     description:
       "As it eats the seeds stored up in its pocket-like pouches, this Pokémon is not just satisfying its constant hunger. It's also generating electricity.",
     stats: {
@@ -103378,7 +103378,7 @@ export const fakemons: Fakemon[] = [
     name: "Cufant",
     types: ["STEEL"],
     sprite: "/Front/CUFANT.png",
-    backSprite: "/spritesBack/CUFANT.png",
+    backSprite: "/Back/CUFANT.png",
     description:
       "It digs up the ground with its trunk. It's also very strong, being able to carry loads of over five tons without any problem at all.",
     stats: {
@@ -103491,7 +103491,7 @@ export const fakemons: Fakemon[] = [
     name: "Copperajah",
     types: ["STEEL"],
     sprite: "/Front/COPPERAJAH.png",
-    backSprite: "/spritesBack/COPPERAJAH.png",
+    backSprite: "/Back/COPPERAJAH.png",
     description:
       "These Pokémon live in herds. Their trunks have incredible grip strength, strong enough to crush giant rocks into powder.",
     stats: {
@@ -103602,7 +103602,7 @@ export const fakemons: Fakemon[] = [
     name: "Dracozolt",
     types: ["ELECTRIC", "DRAGON"],
     sprite: "/Front/DRACOZOLT.png",
-    backSprite: "/spritesBack/DRACOZOLT.png",
+    backSprite: "/Back/DRACOZOLT.png",
     description:
       "In ancient times, it was unbeatable thanks to its powerful lower body, but it went extinct anyway after it depleted all its plant-based food sources.",
     stats: {
@@ -103701,7 +103701,7 @@ export const fakemons: Fakemon[] = [
     name: "Arctozolt",
     types: ["ELECTRIC", "ICE"],
     sprite: "/Front/ARCTOZOLT.png",
-    backSprite: "/spritesBack/ARCTOZOLT.png",
+    backSprite: "/Back/ARCTOZOLT.png",
     description:
       "The shaking of its freezing upper half is what generates its electricity. It has a hard time walking around.",
     stats: {
@@ -103797,7 +103797,7 @@ export const fakemons: Fakemon[] = [
     name: "Dracovish",
     types: ["WATER", "DRAGON"],
     sprite: "/Front/DRACOVISH.png",
-    backSprite: "/spritesBack/DRACOVISH.png",
+    backSprite: "/Back/DRACOVISH.png",
     description:
       "Powerful legs and jaws made it the apex predator of its time. Its own overhunting of its prey was what drove it to extinction.",
     stats: {
@@ -103891,7 +103891,7 @@ export const fakemons: Fakemon[] = [
     name: "Arctovish",
     types: ["WATER", "ICE"],
     sprite: "/Front/ARCTOVISH.png",
-    backSprite: "/spritesBack/ARCTOVISH.png",
+    backSprite: "/Back/ARCTOVISH.png",
     description:
       "Though it's able to capture prey by freezing its surroundings, it has trouble eating the prey afterward because its mouth is on top of its head.",
     stats: {
@@ -103980,7 +103980,7 @@ export const fakemons: Fakemon[] = [
     name: "Duraludon",
     types: ["STEEL", "DRAGON"],
     sprite: "/Front/DURALUDON.png",
-    backSprite: "/spritesBack/DURALUDON.png",
+    backSprite: "/Back/DURALUDON.png",
     description:
       "Its body resembles polished metal, and it's both lightweight and strong. The only drawback is that it rusts easily.",
     stats: {
@@ -104089,7 +104089,7 @@ export const fakemons: Fakemon[] = [
     name: "Dreepy",
     types: ["DRAGON", "GHOST"],
     sprite: "/Front/DREEPY.png",
-    backSprite: "/spritesBack/DREEPY.png",
+    backSprite: "/Back/DREEPY.png",
     description:
       "After being reborn as a ghost Pokémon, Dreepy wanders the areas it used to inhabit back when it was alive in prehistoric seas.",
     stats: {
@@ -104160,7 +104160,7 @@ export const fakemons: Fakemon[] = [
     name: "Drakloak",
     types: ["DRAGON", "GHOST"],
     sprite: "/Front/DRAKLOAK.png",
-    backSprite: "/spritesBack/DRAKLOAK.png",
+    backSprite: "/Back/DRAKLOAK.png",
     description:
       "It's capable of flying faster than 120 mph. It battles alongside Dreepy and dotes on them until they successfully evolve.",
     stats: {
@@ -104274,7 +104274,7 @@ export const fakemons: Fakemon[] = [
     name: "Dragapult",
     types: ["DRAGON", "GHOST"],
     sprite: "/Front/DRAGAPULT.png",
-    backSprite: "/spritesBack/DRAGAPULT.png",
+    backSprite: "/Back/DRAGAPULT.png",
     description:
       "When it isn't battling, it keeps Dreepy in the holes on its horns. Once a fight starts, it launches the Dreepy like supersonic missiles.",
     stats: {
@@ -104390,7 +104390,7 @@ export const fakemons: Fakemon[] = [
     name: "Zacian",
     types: ["FAIRY"],
     sprite: "/Front/ZACIAN.png",
-    backSprite: "/spritesBack/ZACIAN.png",
+    backSprite: "/Back/ZACIAN.png",
     description:
       "Known as a legendary hero, this Pokémon absorbs metal particles, transforming them into a weapon it uses to battle.",
     stats: {
@@ -104497,7 +104497,7 @@ export const fakemons: Fakemon[] = [
     name: "Zamazenta",
     types: ["FIGHTING"],
     sprite: "/Front/ZAMAZENTA.png",
-    backSprite: "/spritesBack/ZAMAZENTA.png",
+    backSprite: "/Back/ZAMAZENTA.png",
     description:
       "This Pokémon slept for aeons while in the form of a statue. It was asleep for so long, people forgot that it ever existed.",
     stats: {
@@ -104609,7 +104609,7 @@ export const fakemons: Fakemon[] = [
     name: "Eternatus",
     types: ["POISON", "DRAGON"],
     sprite: "/Front/ETERNATUS.png",
-    backSprite: "/spritesBack/ETERNATUS.png",
+    backSprite: "/Back/ETERNATUS.png",
     description:
       "The core on its chest absorbs energy emanating from the lands of the Galar region. This energy is what allows Eternatus to stay active.",
     stats: {
@@ -104713,7 +104713,7 @@ export const fakemons: Fakemon[] = [
     name: "Kubfu",
     types: ["FIGHTING"],
     sprite: "/Front/KUBFU.png",
-    backSprite: "/spritesBack/KUBFU.png",
+    backSprite: "/Back/KUBFU.png",
     description:
       "Kubfu trains hard to perfect its moves. The moves it masters will determine which form it takes when it evolves.",
     stats: {
@@ -104815,7 +104815,7 @@ export const fakemons: Fakemon[] = [
     name: "Urshifu",
     types: ["FIGHTING", "DARK"],
     sprite: "/Front/URSHIFU.png",
-    backSprite: "/spritesBack/URSHIFU.png",
+    backSprite: "/Back/URSHIFU.png",
     description:
       "Inhabiting the mountains of a distant region, this Pokémon races across sheer cliffs, training its legs and refining its moves.",
     stats: {
@@ -104939,7 +104939,7 @@ export const fakemons: Fakemon[] = [
     name: "Zarude",
     types: ["DARK", "GRASS"],
     sprite: "/Front/ZARUDE.png",
-    backSprite: "/spritesBack/ZARUDE.png",
+    backSprite: "/Back/ZARUDE.png",
     description:
       "Once the vines on Zarude's body tear off, they become nutrients in the soil. This helps the plants of the forest grow.",
     stats: {
@@ -105065,7 +105065,7 @@ export const fakemons: Fakemon[] = [
     name: "Regieleki",
     types: ["ELECTRIC"],
     sprite: "/Front/REGIELEKI.png",
-    backSprite: "/spritesBack/REGIELEKI.png",
+    backSprite: "/Back/REGIELEKI.png",
     description:
       "This Pokémon is a cluster of electrical energy. It's said that removing the rings on Regieleki's body will unleash the Pokémon's latent power.",
     stats: {
@@ -105155,7 +105155,7 @@ export const fakemons: Fakemon[] = [
     name: "Regidrago",
     types: ["DRAGON"],
     sprite: "/Front/REGIDRAGO.png",
-    backSprite: "/spritesBack/REGIDRAGO.png",
+    backSprite: "/Back/REGIDRAGO.png",
     description:
       "Its body is composed of crystallized dragon energy. Regidrago is said to have the powers of every dragon Pokémon.",
     stats: {
@@ -105241,7 +105241,7 @@ export const fakemons: Fakemon[] = [
     name: "Glastrier",
     types: ["ICE"],
     sprite: "/Front/GLASTRIER.png",
-    backSprite: "/spritesBack/GLASTRIER.png",
+    backSprite: "/Back/GLASTRIER.png",
     description:
       "Glastrier has tremendous physical strength, and the mask of ice covering its face is 100 times harder than diamond.",
     stats: {
@@ -105339,7 +105339,7 @@ export const fakemons: Fakemon[] = [
     name: "Spectrier",
     types: ["GHOST"],
     sprite: "/Front/SPECTRIER.png",
-    backSprite: "/spritesBack/SPECTRIER.png",
+    backSprite: "/Back/SPECTRIER.png",
     description:
       "As it dashes through the night, Spectrier absorbs the life-force of sleeping creatures. It craves silence and solitude.",
     stats: {
@@ -105435,7 +105435,7 @@ export const fakemons: Fakemon[] = [
     name: "Calyrex",
     types: ["PSYCHIC", "GRASS"],
     sprite: "/Front/CALYREX.png",
-    backSprite: "/spritesBack/CALYREX.png",
+    backSprite: "/Back/CALYREX.png",
     description:
       "Calyrex is a merciful Pokémon, capable of providing healing and blessings. It reigned over the Galar region in times of yore.",
     stats: {
@@ -105551,7 +105551,7 @@ export const fakemons: Fakemon[] = [
     name: "Wyrdeer",
     types: ["NORMAL", "PSYCHIC"],
     sprite: "/Front/WYRDEER.png",
-    backSprite: "/spritesBack/WYRDEER.png",
+    backSprite: "/Back/WYRDEER.png",
     description:
       "The black orbs shine with an uncanny light when the Pokémon is erecting invisible barriers. The fur shed from its beard retains heat well and is a highly useful material for winter clothing",
     stats: {
@@ -105653,7 +105653,7 @@ export const fakemons: Fakemon[] = [
     name: "Kleavor",
     types: ["BUG", "ROCK"],
     sprite: "/Front/KLEAVOR.png",
-    backSprite: "/spritesBack/KLEAVOR.png",
+    backSprite: "/Back/KLEAVOR.png",
     description:
       "This Pokémon is a rough, crude, and violent sort. It swings around its large, heavy stone axes to finish off its prey.",
     stats: {
@@ -105745,7 +105745,7 @@ export const fakemons: Fakemon[] = [
     name: "Ursaluna",
     types: ["GROUND", "NORMAL"],
     sprite: "/Front/URSALUNA.png",
-    backSprite: "/spritesBack/URSALUNA.png",
+    backSprite: "/Back/URSALUNA.png",
     description:
       "The swampy terrain that Ursaluna lives in gave Ursaluna its burly physique and newfound capacity to manipulate peat at will.",
     stats: {
@@ -105854,7 +105854,7 @@ export const fakemons: Fakemon[] = [
     name: "Basculegion",
     types: ["WATER", "GHOST"],
     sprite: "/Front/BASCULEGION.png",
-    backSprite: "/spritesBack/BASCULEGION.png",
+    backSprite: "/Back/BASCULEGION.png",
     description:
       "This Pokémon is cloaked in the souls of its comrades who perished during a punishing journey to the river of their birth.",
     stats: {
@@ -105947,7 +105947,7 @@ export const fakemons: Fakemon[] = [
     name: "Sneasler",
     types: ["FIGHTING", "POISON"],
     sprite: "/Front/SNEASLER.png",
-    backSprite: "/spritesBack/SNEASLER.png",
+    backSprite: "/Back/SNEASLER.png",
     description:
       "Because of Sneasler's virulent poison and daunting physical prowess, no other species could hope to best it on the frozen highlands. Preferring solitude, this species does not form packs.",
     stats: {
@@ -106049,7 +106049,7 @@ export const fakemons: Fakemon[] = [
     name: "Overqwil",
     types: ["DARK", "POISON"],
     sprite: "/Front/OVERQWIL.png",
-    backSprite: "/spritesBack/OVERQWIL.png",
+    backSprite: "/Back/OVERQWIL.png",
     description:
       "Overqwil's poisonous spikes will reflexively react even while Overqwil sleeps, stabbing any moving thing that approaches.",
     stats: {
@@ -106147,7 +106147,7 @@ export const fakemons: Fakemon[] = [
     name: "Enamorus",
     types: ["FAIRY", "FLYING"],
     sprite: "/Front/ENAMORUS.png",
-    backSprite: "/spritesBack/ENAMORUS.png",
+    backSprite: "/Back/ENAMORUS.png",
     description:
       "When it flies to this land from across the sea, the bitter winter comes to an end. According to legend, this Pokémon's love gives rise to the budding of fresh life across Hisui.",
     stats: {
@@ -106234,7 +106234,7 @@ export const fakemons: Fakemon[] = [
     name: "Sprigatito",
     types: ["GRASS"],
     sprite: "/Front/SPRIGATITO.png",
-    backSprite: "/spritesBack/SPRIGATITO.png",
+    backSprite: "/Back/SPRIGATITO.png",
     description:
       "The sweet scent its body gives off mesmerizes those around it. The scent grows stronger when this Pokémon is in the sun.",
     stats: {
@@ -106323,7 +106323,7 @@ export const fakemons: Fakemon[] = [
     name: "Floragato",
     types: ["GRASS"],
     sprite: "/Front/FLORAGATO.png",
-    backSprite: "/spritesBack/FLORAGATO.png",
+    backSprite: "/Back/FLORAGATO.png",
     description:
       "Floragato deftly wields the vine hidden beneath its long fur, slamming the hard flower bud against its opponents.",
     stats: {
@@ -106412,7 +106412,7 @@ export const fakemons: Fakemon[] = [
     name: "Meowscarada",
     types: ["GRASS", "DARK"],
     sprite: "/Front/MEOWSCARADA.png",
-    backSprite: "/spritesBack/MEOWSCARADA.png",
+    backSprite: "/Back/MEOWSCARADA.png",
     description:
       "This Pokémon uses the reflective fur lining in its cape to camouflage the stem of its flower, creating the illusion that the flower is floating.",
     stats: {
@@ -106523,7 +106523,7 @@ export const fakemons: Fakemon[] = [
     name: "Fuecoco",
     types: ["FIRE"],
     sprite: "/Front/FUECOCO.png",
-    backSprite: "/spritesBack/FUECOCO.png",
+    backSprite: "/Back/FUECOCO.png",
     description:
       "Its flame sac is small, so energy is always leaking out. This energy is released from the dent atop Fuecoco's head and flickers to and fro.",
     stats: {
@@ -106607,7 +106607,7 @@ export const fakemons: Fakemon[] = [
     name: "Crocalor",
     types: ["FIRE"],
     sprite: "/Front/CROCALOR.png",
-    backSprite: "/spritesBack/CROCALOR.png",
+    backSprite: "/Back/CROCALOR.png",
     description:
       "The combination of Crocalor's fire energy and overflowing vitality has caused an egg-shaped fireball to appear on the Pokémon's head.",
     stats: {
@@ -106693,7 +106693,7 @@ export const fakemons: Fakemon[] = [
     name: "Skeledirge",
     types: ["FIRE", "GHOST"],
     sprite: "/Front/SKELEDIRGE.png",
-    backSprite: "/spritesBack/SKELEDIRGE.png",
+    backSprite: "/Back/SKELEDIRGE.png",
     description:
       "The fiery bird changes shape when Skeledirge sings. Rumor has it that the bird was born when the fireball on Skeledirge's head gained a soul.",
     stats: {
@@ -106795,7 +106795,7 @@ export const fakemons: Fakemon[] = [
     name: "Quaxly",
     types: ["WATER"],
     sprite: "/Front/QUAXLY.png",
-    backSprite: "/spritesBack/QUAXLY.png",
+    backSprite: "/Back/QUAXLY.png",
     description:
       "Its strong legs let it easily swim around in even fast-flowing rivers. It likes to keep things tidy and is prone to overthinking things.",
     stats: {
@@ -106871,7 +106871,7 @@ export const fakemons: Fakemon[] = [
     name: "Quaxwell",
     types: ["WATER"],
     sprite: "/Front/QUAXWELL.png",
-    backSprite: "/spritesBack/QUAXWELL.png",
+    backSprite: "/Back/QUAXWELL.png",
     description:
       "These Pokémon constantly run through shallow waters to train their legs, then compete with each other to see which of them kicks most gracefully.",
     stats: {
@@ -106955,7 +106955,7 @@ export const fakemons: Fakemon[] = [
     name: "Quaquaval",
     types: ["WATER", "FIGHTING"],
     sprite: "/Front/QUAQUAVAL.png",
-    backSprite: "/spritesBack/QUAQUAVAL.png",
+    backSprite: "/Back/QUAQUAVAL.png",
     description:
       "A single kick from a Quaquaval can send a truck rolling. This Pokémon uses its powerful legs to perform striking dances from far-off lands.",
     stats: {
@@ -107057,7 +107057,7 @@ export const fakemons: Fakemon[] = [
     name: "Lechonk",
     types: ["NORMAL"],
     sprite: "/Front/LECHONK.png",
-    backSprite: "/spritesBack/LECHONK.png",
+    backSprite: "/Back/LECHONK.png",
     description:
       "It searches for food all day. It possesses a keen sense of smell but doesn't use it for anything other than foraging.",
     stats: {
@@ -107137,7 +107137,7 @@ export const fakemons: Fakemon[] = [
     name: "Oinkologne",
     types: ["NORMAL"],
     sprite: "/Front/OINKOLOGNE.png",
-    backSprite: "/spritesBack/OINKOLOGNE.png",
+    backSprite: "/Back/OINKOLOGNE.png",
     description:
       "Oinkologne is proud of its fine, glossy skin. It emits a concentrated scent from the tip of its tail.",
     stats: {
@@ -107221,7 +107221,7 @@ export const fakemons: Fakemon[] = [
     name: "Tarountula",
     types: ["BUG"],
     sprite: "/Front/TAROUNTULA.png",
-    backSprite: "/spritesBack/TAROUNTULA.png",
+    backSprite: "/Back/TAROUNTULA.png",
     description:
       "The thread it secretes from its rear is as strong as wire. The secret behind the thread's strength is the topic of ongoing research.",
     stats: {
@@ -107302,7 +107302,7 @@ export const fakemons: Fakemon[] = [
     name: "Spidops",
     types: ["BUG"],
     sprite: "/Front/SPIDOPS.png",
-    backSprite: "/spritesBack/SPIDOPS.png",
+    backSprite: "/Back/SPIDOPS.png",
     description:
       "It clings to branches and ceilings using its threads and moves without a sound. It takes out its prey before the prey even notices it.",
     stats: {
@@ -107391,7 +107391,7 @@ export const fakemons: Fakemon[] = [
     name: "Nymble",
     types: ["BUG"],
     sprite: "/Front/NYMBLE.png",
-    backSprite: "/spritesBack/NYMBLE.png",
+    backSprite: "/Back/NYMBLE.png",
     description:
       "It has its third set of legs folded up. When it's in a tough spot, this Pokémon jumps over 30 feet using the strength of its legs.",
     stats: {
@@ -107461,7 +107461,7 @@ export const fakemons: Fakemon[] = [
     name: "Lokix",
     types: ["BUG", "DARK"],
     sprite: "/Front/LOKIX.png",
-    backSprite: "/spritesBack/LOKIX.png",
+    backSprite: "/Back/LOKIX.png",
     description:
       "When it decides to fight all out, it stands on its previously folded legs to enter Showdown Mode. It neutralizes its enemies in short order.",
     stats: {
@@ -107548,7 +107548,7 @@ export const fakemons: Fakemon[] = [
     name: "Pawmi",
     types: ["ELECTRIC"],
     sprite: "/Front/PAWMI.png",
-    backSprite: "/spritesBack/PAWMI.png",
+    backSprite: "/Back/PAWMI.png",
     description:
       "It has underdeveloped electric sacs on its cheeks. These sacs can produce electricity only if Pawmi rubs them furiously with the pads on its forepaws.",
     stats: {
@@ -107634,7 +107634,7 @@ export const fakemons: Fakemon[] = [
     name: "Pawmo",
     types: ["ELECTRIC", "FIGHTING"],
     sprite: "/Front/PAWMO.png",
-    backSprite: "/spritesBack/PAWMO.png",
+    backSprite: "/Back/PAWMO.png",
     description:
       "When its group is attacked, Pawmo is the first to leap into battle, defeating enemies with a fighting technique that utilizes electric shocks.",
     stats: {
@@ -107728,7 +107728,7 @@ export const fakemons: Fakemon[] = [
     name: "Pawmot",
     types: ["ELECTRIC", "FIGHTING"],
     sprite: "/Front/PAWMOT.png",
-    backSprite: "/spritesBack/PAWMOT.png",
+    backSprite: "/Back/PAWMOT.png",
     description:
       "This Pokémon normally is slow to react, but once it enters battle, it will strike down its enemies with lightning-fast movements.",
     stats: {
@@ -107835,7 +107835,7 @@ export const fakemons: Fakemon[] = [
     name: "Tandemaus",
     types: ["NORMAL"],
     sprite: "/Front/TANDEMAUS.png",
-    backSprite: "/spritesBack/TANDEMAUS.png",
+    backSprite: "/Back/TANDEMAUS.png",
     description:
       "Exhibiting great teamwork, they use their incisors to cut pieces out of any material that might be useful for a nest, then make off with them.",
     stats: {
@@ -107929,7 +107929,7 @@ export const fakemons: Fakemon[] = [
     name: "Maushold",
     types: ["NORMAL"],
     sprite: "/Front/MAUSHOLD.png",
-    backSprite: "/spritesBack/MAUSHOLD.png",
+    backSprite: "/Back/MAUSHOLD.png",
     description:
       "The two little ones just appeared one day. The group might be a family of related Pokémon, but nobody knows for sure.",
     stats: {
@@ -108016,7 +108016,7 @@ export const fakemons: Fakemon[] = [
     name: "Fidough",
     types: ["FAIRY"],
     sprite: "/Front/FIDOUGH.png",
-    backSprite: "/spritesBack/FIDOUGH.png",
+    backSprite: "/Back/FIDOUGH.png",
     description:
       "This Pokémon is smooth and moist to the touch. Yeast in Fidough's breath induces fermentation in the Pokémon's vicinity.",
     stats: {
@@ -108101,7 +108101,7 @@ export const fakemons: Fakemon[] = [
     name: "Dachsbun",
     types: ["FAIRY"],
     sprite: "/Front/DACHSBUN.png",
-    backSprite: "/spritesBack/DACHSBUN.png",
+    backSprite: "/Back/DACHSBUN.png",
     description:
       "The pleasant aroma that emanates from this Pokémon's body helps wheat grow, so Dachsbun has been treasured by farming villages.",
     stats: {
@@ -108185,7 +108185,7 @@ export const fakemons: Fakemon[] = [
     name: "Smoliv",
     types: ["GRASS", "NORMAL"],
     sprite: "/Front/SMOLIV.png",
-    backSprite: "/spritesBack/SMOLIV.png",
+    backSprite: "/Back/SMOLIV.png",
     description:
       "It protects itself from enemies by emitting oil from the fruit on its head. This oil is bitter and astringent enough to make someone flinch.",
     stats: {
@@ -108258,7 +108258,7 @@ export const fakemons: Fakemon[] = [
     name: "Dolliv",
     types: ["GRASS", "NORMAL"],
     sprite: "/Front/DOLLIV.png",
-    backSprite: "/spritesBack/DOLLIV.png",
+    backSprite: "/Back/DOLLIV.png",
     description:
       "It basks in the sun to its heart's content until the fruits on its head ripen. After that, Dolliv departs from human settlements and goes on a journey.",
     stats: {
@@ -108331,7 +108331,7 @@ export const fakemons: Fakemon[] = [
     name: "Arboliva",
     types: ["GRASS", "NORMAL"],
     sprite: "/Front/ARBOLIVA.png",
-    backSprite: "/spritesBack/ARBOLIVA.png",
+    backSprite: "/Back/ARBOLIVA.png",
     description:
       "This calm Pokémon is very compassionate. It will share its delicious, nutrient-rich oil with weakened Pokémon.",
     stats: {
@@ -108415,7 +108415,7 @@ export const fakemons: Fakemon[] = [
     name: "Squawkabilly",
     types: ["NORMAL", "FLYING"],
     sprite: "/Front/SQUAWKABILLY.png",
-    backSprite: "/spritesBack/SQUAWKABILLY.png",
+    backSprite: "/Back/SQUAWKABILLY.png",
     description:
       "These Pokémon prefer to live in cities. They form flocks based on the color of their feathers, and they fight over territory.",
     stats: {
@@ -108496,7 +108496,7 @@ export const fakemons: Fakemon[] = [
     name: "Nacli",
     types: ["ROCK"],
     sprite: "/Front/NACLI.png",
-    backSprite: "/spritesBack/NACLI.png",
+    backSprite: "/Back/NACLI.png",
     description:
       "The ground scrapes its body as it travels, causing it to leave salt behind. Salt is constantly being created and replenished inside Nacli's body.",
     stats: {
@@ -108577,7 +108577,7 @@ export const fakemons: Fakemon[] = [
     name: "Naclstack",
     types: ["ROCK"],
     sprite: "/Front/NACLSTACK.png",
-    backSprite: "/spritesBack/NACLSTACK.png",
+    backSprite: "/Back/NACLSTACK.png",
     description:
       "This Pokémon dry cures its prey by spraying salt over them. The curing process steals away the water in the prey's body.",
     stats: {
@@ -108663,7 +108663,7 @@ export const fakemons: Fakemon[] = [
     name: "Garganacl",
     types: ["ROCK"],
     sprite: "/Front/GARGANACL.png",
-    backSprite: "/spritesBack/GARGANACL.png",
+    backSprite: "/Back/GARGANACL.png",
     description:
       "Garganacl will rub its fingertips together and sprinkle injured Pokémon with salt. Even severe wounds will promptly heal afterward.",
     stats: {
@@ -108758,7 +108758,7 @@ export const fakemons: Fakemon[] = [
     name: "Charcadet",
     types: ["FIRE"],
     sprite: "/Front/CHARCADET.png",
-    backSprite: "/spritesBack/CHARCADET.png",
+    backSprite: "/Back/CHARCADET.png",
     description:
       "Burnt charcoal came to life and became a Pokémon. Possessing a fiery fighting spirit, Charcadet will battle even tough opponents.",
     stats: {
@@ -108825,7 +108825,7 @@ export const fakemons: Fakemon[] = [
     name: "Armarouge",
     types: ["FIRE", "PSYCHIC"],
     sprite: "/Front/ARMAROUGE.png",
-    backSprite: "/spritesBack/ARMAROUGE.png",
+    backSprite: "/Back/ARMAROUGE.png",
     description:
       "Armarouge evolved through the use of a set of armor that belonged to a distinguished warrior. This Pokémon is incredibly loyal.",
     stats: {
@@ -108921,7 +108921,7 @@ export const fakemons: Fakemon[] = [
     name: "Ceruledge",
     types: ["FIRE", "GHOST"],
     sprite: "/Front/CERULEDGE.png",
-    backSprite: "/spritesBack/CERULEDGE.png",
+    backSprite: "/Back/CERULEDGE.png",
     description:
       "An old set of armor steeped in grudges caused this Pokémon's evolution. Ceruledge cuts its enemies to pieces without mercy.",
     stats: {
@@ -109017,7 +109017,7 @@ export const fakemons: Fakemon[] = [
     name: "Tadbulb",
     types: ["ELECTRIC"],
     sprite: "/Front/TADBULB.png",
-    backSprite: "/spritesBack/TADBULB.png",
+    backSprite: "/Back/TADBULB.png",
     description:
       "It floats using the electricity stored in its body. When thunderclouds are around, Tadbulb will float higher off the ground.",
     stats: {
@@ -109096,7 +109096,7 @@ export const fakemons: Fakemon[] = [
     name: "Bellibolt",
     types: ["ELECTRIC"],
     sprite: "/Front/BELLIBOLT.png",
-    backSprite: "/spritesBack/BELLIBOLT.png",
+    backSprite: "/Back/BELLIBOLT.png",
     description:
       "When this Pokémon expands and contracts its wobbly body, the belly-button dynamo in its stomach produces a huge amount of electricity.",
     stats: {
@@ -109174,7 +109174,7 @@ export const fakemons: Fakemon[] = [
     name: "Wattrel",
     types: ["ELECTRIC", "FLYING"],
     sprite: "/Front/WATTREL.png",
-    backSprite: "/spritesBack/WATTREL.png",
+    backSprite: "/Back/WATTREL.png",
     description:
       "When its wings catch the wind, the bones within produce electricity. This Pokémon dives into the ocean, catching prey by electrocuting them.",
     stats: {
@@ -109264,7 +109264,7 @@ export const fakemons: Fakemon[] = [
     name: "Kilowattrel",
     types: ["ELECTRIC", "FLYING"],
     sprite: "/Front/KILOWATTREL.png",
-    backSprite: "/spritesBack/KILOWATTREL.png",
+    backSprite: "/Back/KILOWATTREL.png",
     description:
       "It uses its throat sac to store electricity generated by its wings. There's hardly any oil in its feathers, so it is a poor swimmer.",
     stats: {
@@ -109347,7 +109347,7 @@ export const fakemons: Fakemon[] = [
     name: "Maschiff",
     types: ["DARK"],
     sprite: "/Front/MASCHIFF.png",
-    backSprite: "/spritesBack/MASCHIFF.png",
+    backSprite: "/Back/MASCHIFF.png",
     description:
       "Its well-developed jaw and fangs are strong enough to crunch through boulders, and its thick fat makes for an excellent defense.",
     stats: {
@@ -109430,7 +109430,7 @@ export const fakemons: Fakemon[] = [
     name: "Mabosstiff",
     types: ["DARK"],
     sprite: "/Front/MABOSSTIFF.png",
-    backSprite: "/spritesBack/MABOSSTIFF.png",
+    backSprite: "/Back/MABOSSTIFF.png",
     description:
       "Mabosstiff loves playing with children. Though usually gentle, it takes on an intimidating look when protecting its family.",
     stats: {
@@ -109517,7 +109517,7 @@ export const fakemons: Fakemon[] = [
     name: "Shroodle",
     types: ["POISON", "NORMAL"],
     sprite: "/Front/SHROODLE.png",
-    backSprite: "/spritesBack/SHROODLE.png",
+    backSprite: "/Back/SHROODLE.png",
     description:
       "Though usually a mellow Pokémon, it will sink its sharp, poison-soaked front teeth into any that anger it, causing paralysis in the object of its ire.",
     stats: {
@@ -109616,7 +109616,7 @@ export const fakemons: Fakemon[] = [
     name: "Grafaiai",
     types: ["POISON", "NORMAL"],
     sprite: "/Front/GRAFAIAI.png",
-    backSprite: "/spritesBack/GRAFAIAI.png",
+    backSprite: "/Back/GRAFAIAI.png",
     description:
       "The color of the poisonous saliva depends on what the Pokémon eats. Grafaiai covers its fingers in its saliva and draws patterns on trees in forests.",
     stats: {
@@ -109709,7 +109709,7 @@ export const fakemons: Fakemon[] = [
     name: "Bramblin",
     types: ["GRASS", "GHOST"],
     sprite: "/Front/BRAMBLIN.png",
-    backSprite: "/spritesBack/BRAMBLIN.png",
+    backSprite: "/Back/BRAMBLIN.png",
     description:
       "A soul unable to move on to the afterlife was blown around by the wind until it got tangled up with dried grass and became a Pokémon.",
     stats: {
@@ -109790,7 +109790,7 @@ export const fakemons: Fakemon[] = [
     name: "Brambleghast",
     types: ["GRASS", "GHOST"],
     sprite: "/Front/BRAMBLEGHAST.png",
-    backSprite: "/spritesBack/BRAMBLEGHAST.png",
+    backSprite: "/Back/BRAMBLEGHAST.png",
     description:
       "It will open the branches of its head to envelop its prey. Once it absorbs all the life energy it needs, it expels the prey and discards it.",
     stats: {
@@ -109868,7 +109868,7 @@ export const fakemons: Fakemon[] = [
     name: "Toedscool",
     types: ["GROUND", "GRASS"],
     sprite: "/Front/TOEDSCOOL.png",
-    backSprite: "/spritesBack/TOEDSCOOL.png",
+    backSprite: "/Back/TOEDSCOOL.png",
     description:
       "Toedscool lives in muggy forests. The flaps that fall from its body are chewy and very delicious.",
     stats: {
@@ -109971,7 +109971,7 @@ export const fakemons: Fakemon[] = [
     name: "Toedscruel",
     types: ["GROUND", "GRASS"],
     sprite: "/Front/TOEDSCRUEL.png",
-    backSprite: "/spritesBack/TOEDSCRUEL.png",
+    backSprite: "/Back/TOEDSCRUEL.png",
     description:
       "These Pokémon gather into groups and form colonies deep within forests. They absolutely hate it when strangers approach.",
     stats: {
@@ -110063,7 +110063,7 @@ export const fakemons: Fakemon[] = [
     name: "Klawf",
     types: ["ROCK"],
     sprite: "/Front/KLAWF.png",
-    backSprite: "/spritesBack/KLAWF.png",
+    backSprite: "/Back/KLAWF.png",
     description:
       "Klawf hangs upside-down from cliffs, waiting for prey. But Klawf can't remain in this position for long because its blood rushes to its head.",
     stats: {
@@ -110154,7 +110154,7 @@ export const fakemons: Fakemon[] = [
     name: "Capsakid",
     types: ["GRASS"],
     sprite: "/Front/CAPSAKID.png",
-    backSprite: "/spritesBack/CAPSAKID.png",
+    backSprite: "/Back/CAPSAKID.png",
     description:
       "The more sunlight this Pokémon bathes in, the more spicy chemicals are produced by its body, and thus the spicier its moves become.",
     stats: {
@@ -110230,7 +110230,7 @@ export const fakemons: Fakemon[] = [
     name: "Scovillain",
     types: ["GRASS", "FIRE"],
     sprite: "/Front/SCOVILLAIN.png",
-    backSprite: "/spritesBack/SCOVILLAIN.png",
+    backSprite: "/Back/SCOVILLAIN.png",
     description:
       "The red head converts spicy chemicals into fire energy and blasts the surrounding area with a super spicy stream of flame.",
     stats: {
@@ -110316,7 +110316,7 @@ export const fakemons: Fakemon[] = [
     name: "Rellor",
     types: ["BUG"],
     sprite: "/Front/RELLOR.png",
-    backSprite: "/spritesBack/RELLOR.png",
+    backSprite: "/Back/RELLOR.png",
     description:
       "This Pokémon creates a mud ball by mixing sand and dirt with psychic energy. It treasures its mud ball more than its own life.",
     stats: {
@@ -110388,7 +110388,7 @@ export const fakemons: Fakemon[] = [
     name: "Rabsca",
     types: ["BUG", "PSYCHIC"],
     sprite: "/Front/RABSCA.png",
-    backSprite: "/spritesBack/RABSCA.png",
+    backSprite: "/Back/RABSCA.png",
     description:
       "The body that supports the ball barely moves. Therefore, it is thought that the true body of this Pokémon is actually inside the ball.",
     stats: {
@@ -110494,7 +110494,7 @@ export const fakemons: Fakemon[] = [
     name: "Flittle",
     types: ["PSYCHIC"],
     sprite: "/Front/FLITTLE.png",
-    backSprite: "/spritesBack/FLITTLE.png",
+    backSprite: "/Back/FLITTLE.png",
     description:
       "Flittle's toes levitate about half an inch above the ground because of the psychic power emitted from the frills on the Pokémon's belly.",
     stats: {
@@ -110576,7 +110576,7 @@ export const fakemons: Fakemon[] = [
     name: "Espathra",
     types: ["PSYCHIC"],
     sprite: "/Front/ESPATHRA.png",
-    backSprite: "/spritesBack/ESPATHRA.png",
+    backSprite: "/Back/ESPATHRA.png",
     description:
       "It immobilizes opponents by bathing them in psychic power from its large eyes. Despite its appearance, it has a vicious temperament.",
     stats: {
@@ -110675,7 +110675,7 @@ export const fakemons: Fakemon[] = [
     name: "Tinkatink",
     types: ["FAIRY", "STEEL"],
     sprite: "/Front/TINKATINK.png",
-    backSprite: "/spritesBack/TINKATINK.png",
+    backSprite: "/Back/TINKATINK.png",
     description:
       "This Pokémon pounds iron scraps together to make a hammer. It will remake the hammer again and again until it's satisfied with the result.",
     stats: {
@@ -110760,7 +110760,7 @@ export const fakemons: Fakemon[] = [
     name: "Tinkatuff",
     types: ["FAIRY", "STEEL"],
     sprite: "/Front/TINKATUFF.png",
-    backSprite: "/spritesBack/TINKATUFF.png",
+    backSprite: "/Back/TINKATUFF.png",
     description:
       "These Pokémon make their homes in piles of scrap metal. They test the strength of each other's hammers by smashing them together.",
     stats: {
@@ -110846,7 +110846,7 @@ export const fakemons: Fakemon[] = [
     name: "Tinkaton",
     types: ["FAIRY", "STEEL"],
     sprite: "/Front/TINKATON.png",
-    backSprite: "/spritesBack/TINKATON.png",
+    backSprite: "/Back/TINKATON.png",
     description:
       "This intelligent Pokémon has a very daring disposition. It knocks rocks into the sky with its hammer, aiming for flying Corviknight.",
     stats: {
@@ -110931,7 +110931,7 @@ export const fakemons: Fakemon[] = [
     name: "Wiglett",
     types: ["WATER"],
     sprite: "/Front/WIGLETT.png",
-    backSprite: "/spritesBack/WIGLETT.png",
+    backSprite: "/Back/WIGLETT.png",
     description:
       "This Pokémon can pick up the scent of a Veluza just over 65 feet away and will hide itself in the sand.",
     stats: {
@@ -111009,7 +111009,7 @@ export const fakemons: Fakemon[] = [
     name: "Wugtrio",
     types: ["WATER"],
     sprite: "/Front/WUGTRIO.png",
-    backSprite: "/spritesBack/WUGTRIO.png",
+    backSprite: "/Back/WUGTRIO.png",
     description:
       "It has a vicious temperament, contrary to what its appearance may suggest. It wraps its long bodies around prey, then drags the prey into its den.",
     stats: {
@@ -111085,7 +111085,7 @@ export const fakemons: Fakemon[] = [
     name: "Bombirdier",
     types: ["FLYING", "DARK"],
     sprite: "/Front/BOMBIRDIER.png",
-    backSprite: "/spritesBack/BOMBIRDIER.png",
+    backSprite: "/Back/BOMBIRDIER.png",
     description:
       "It gathers things up in an apron made from shed feathers added to the Pokémon's chest feathers, then drops those things from high places for fun.",
     stats: {
@@ -111183,7 +111183,7 @@ export const fakemons: Fakemon[] = [
     name: "Finizen",
     types: ["WATER"],
     sprite: "/Front/FINIZEN.png",
-    backSprite: "/spritesBack/FINIZEN.png",
+    backSprite: "/Back/FINIZEN.png",
     description:
       "It likes playing with others of its kind using the water ring on its tail. It uses ultrasonic waves to sense the emotions of other living creatures.",
     stats: {
@@ -111263,7 +111263,7 @@ export const fakemons: Fakemon[] = [
     name: "Palafin",
     types: ["WATER"],
     sprite: "/Front/PALAFIN.png",
-    backSprite: "/spritesBack/PALAFIN.png",
+    backSprite: "/Back/PALAFIN.png",
     description:
       "This Pokémon changes its appearance if it hears its allies calling for help. Palafin will never show anybody its moment of transformation.",
     stats: {
@@ -111361,7 +111361,7 @@ export const fakemons: Fakemon[] = [
     name: "Varoom",
     types: ["STEEL", "POISON"],
     sprite: "/Front/VAROOM.png",
-    backSprite: "/spritesBack/VAROOM.png",
+    backSprite: "/Back/VAROOM.png",
     description:
       "The steel section is Varoom's actual body. This Pokémon clings to rocks and converts the minerals within into energy to fuel its activities.",
     stats: {
@@ -111447,7 +111447,7 @@ export const fakemons: Fakemon[] = [
     name: "Revavroom",
     types: ["STEEL", "POISON"],
     sprite: "/Front/REVAVROOM.png",
-    backSprite: "/spritesBack/REVAVROOM.png",
+    backSprite: "/Back/REVAVROOM.png",
     description:
       "Revavroom viciously threatens others with the sound of its exhaust. It sticks its tongue out from its cylindrical mouth and sprays toxic fluids.",
     stats: {
@@ -111538,7 +111538,7 @@ export const fakemons: Fakemon[] = [
     name: "Cyclizar",
     types: ["DRAGON", "NORMAL"],
     sprite: "/Front/CYCLIZAR.png",
-    backSprite: "/spritesBack/CYCLIZAR.png",
+    backSprite: "/Back/CYCLIZAR.png",
     description:
       "Apparently Cyclizar has been allowing people to ride on its back since ancient times. Depictions of this have been found in 10,000-year-old murals.",
     stats: {
@@ -111627,7 +111627,7 @@ export const fakemons: Fakemon[] = [
     name: "Orthworm",
     types: ["STEEL"],
     sprite: "/Front/ORTHWORM.png",
-    backSprite: "/spritesBack/ORTHWORM.png",
+    backSprite: "/Back/ORTHWORM.png",
     description:
       "This Pokémon lives in arid deserts. It maintains its metal body by consuming iron from the soil.",
     stats: {
@@ -111708,7 +111708,7 @@ export const fakemons: Fakemon[] = [
     name: "Glimmet",
     types: ["ROCK", "POISON"],
     sprite: "/Front/GLIMMET.png",
-    backSprite: "/spritesBack/GLIMMET.png",
+    backSprite: "/Back/GLIMMET.png",
     description:
       "It absorbs nutrients from cave walls. The petals it wears are made of crystallized poison.",
     stats: {
@@ -111791,7 +111791,7 @@ export const fakemons: Fakemon[] = [
     name: "Glimmora",
     types: ["ROCK", "POISON"],
     sprite: "/Front/GLIMMORA.png",
-    backSprite: "/spritesBack/GLIMMORA.png",
+    backSprite: "/Back/GLIMMORA.png",
     description:
       "When this Pokémon detects danger, it will open up its crystalline petals and fire beams from its conical body.",
     stats: {
@@ -111877,7 +111877,7 @@ export const fakemons: Fakemon[] = [
     name: "Greavard",
     types: ["GHOST"],
     sprite: "/Front/GREAVARD.png",
-    backSprite: "/spritesBack/GREAVARD.png",
+    backSprite: "/Back/GREAVARD.png",
     description:
       "This friendly Pokémon doesn't like being alone. Pay it even the slightest bit of attention, and it will follow you forever.",
     stats: {
@@ -111975,7 +111975,7 @@ export const fakemons: Fakemon[] = [
     name: "Houndstone",
     types: ["GHOST"],
     sprite: "/Front/HOUNDSTONE.png",
-    backSprite: "/spritesBack/HOUNDSTONE.png",
+    backSprite: "/Back/HOUNDSTONE.png",
     description:
       "Houndstone spends most of its time sleeping in graveyards. Among all the dog Pokémon, this one is most loyal to its master.",
     stats: {
@@ -112064,7 +112064,7 @@ export const fakemons: Fakemon[] = [
     name: "Flamigo",
     types: ["FLYING", "FIGHTING"],
     sprite: "/Front/FLAMIGO.png",
-    backSprite: "/spritesBack/FLAMIGO.png",
+    backSprite: "/Back/FLAMIGO.png",
     description:
       "This Pokémon apparently ties the base of its neck into a knot so that the energy stored in its belly does not escape from its beak.",
     stats: {
@@ -112149,7 +112149,7 @@ export const fakemons: Fakemon[] = [
     name: "Cetoddle",
     types: ["ICE"],
     sprite: "/Front/CETODDLE.png",
-    backSprite: "/spritesBack/CETODDLE.png",
+    backSprite: "/Back/CETODDLE.png",
     description:
       "It lives in frigid regions in pods of five or so individuals. It loves the minerals found in snow and ice.",
     stats: {
@@ -112237,7 +112237,7 @@ export const fakemons: Fakemon[] = [
     name: "Cetitan",
     types: ["ICE"],
     sprite: "/Front/CETITAN.png",
-    backSprite: "/spritesBack/CETITAN.png",
+    backSprite: "/Back/CETITAN.png",
     description:
       "This Pokémon wanders around snowy, icy areas. It protects its body with powerful muscles and a thick layer of fat under its skin.",
     stats: {
@@ -112322,7 +112322,7 @@ export const fakemons: Fakemon[] = [
     name: "Veluza",
     types: ["WATER", "PSYCHIC"],
     sprite: "/Front/VELUZA.png",
-    backSprite: "/spritesBack/VELUZA.png",
+    backSprite: "/Back/VELUZA.png",
     description:
       "When Veluza discards unnecessary flesh, its mind becomes honed and its psychic power increases. The spare flesh has a mild but delicious flavor.",
     stats: {
@@ -112402,7 +112402,7 @@ export const fakemons: Fakemon[] = [
     name: "Dondozo",
     types: ["WATER"],
     sprite: "/Front/DONDOZO.png",
-    backSprite: "/spritesBack/DONDOZO.png",
+    backSprite: "/Back/DONDOZO.png",
     description:
       "It treats Tatsugiri like its boss and follows it loyally. Though powerful, Dondozo is apparently not very smart.",
     stats: {
@@ -112481,7 +112481,7 @@ export const fakemons: Fakemon[] = [
     name: "Tatsugiri",
     types: ["DRAGON", "WATER"],
     sprite: "/Front/TATSUGIRI.png",
-    backSprite: "/spritesBack/TATSUGIRI.png",
+    backSprite: "/Back/TATSUGIRI.png",
     description:
       "Tatsugiri is an extremely cunning Pokémon. It feigns weakness to lure in prey, then orders its partner to attack.",
     stats: {
@@ -112551,7 +112551,7 @@ export const fakemons: Fakemon[] = [
     name: "Annihilape",
     types: ["FIGHTING", "GHOST"],
     sprite: "/Front/ANNIHILAPE.png",
-    backSprite: "/spritesBack/ANNIHILAPE.png",
+    backSprite: "/Back/ANNIHILAPE.png",
     description:
       "When its anger rose beyond a critical point, this Pokémon gained power that is unfettered by the limits of its physical body.",
     stats: {
@@ -112664,7 +112664,7 @@ export const fakemons: Fakemon[] = [
     name: "Clodsire",
     types: ["POISON", "GROUND"],
     sprite: "/Front/CLODSIRE.png",
-    backSprite: "/spritesBack/CLODSIRE.png",
+    backSprite: "/Back/CLODSIRE.png",
     description:
       "When attacked, this Pokémon will retaliate by sticking thick spines out from its body. It's a risky move that puts everything on the line.",
     stats: {
@@ -112760,7 +112760,7 @@ export const fakemons: Fakemon[] = [
     name: "Farigiraf",
     types: ["NORMAL", "PSYCHIC"],
     sprite: "/Front/FARIGIRAF.png",
-    backSprite: "/spritesBack/FARIGIRAF.png",
+    backSprite: "/Back/FARIGIRAF.png",
     description:
       "The hardened head from the tail protects the head of the main body as Farigiraf whips its long neck around to headbutt enemies.",
     stats: {
@@ -112870,7 +112870,7 @@ export const fakemons: Fakemon[] = [
     name: "Dudunsparce",
     types: ["NORMAL"],
     sprite: "/Front/DUDUNSPARCE.png",
-    backSprite: "/spritesBack/DUDUNSPARCE.png",
+    backSprite: "/Back/DUDUNSPARCE.png",
     description:
       "This Pokémon uses its hard tail to make its nest by boring holes into bedrock deep underground. The nest can reach lengths of over six miles.",
     stats: {
@@ -112991,7 +112991,7 @@ export const fakemons: Fakemon[] = [
     name: "Kingambit",
     types: ["DARK", "STEEL"],
     sprite: "/Front/KINGAMBIT.png",
-    backSprite: "/spritesBack/KINGAMBIT.png",
+    backSprite: "/Back/KINGAMBIT.png",
     description:
       "Though it commands a massive army in battle, it's not skilled at devising complex strategies. It just uses brute strength to keep pushing.",
     stats: {
@@ -113085,7 +113085,7 @@ export const fakemons: Fakemon[] = [
     name: "Great Tusk",
     types: ["GROUND", "FIGHTING"],
     sprite: "/Front/GREATTUSK.png",
-    backSprite: "/spritesBack/GREATTUSK.png",
+    backSprite: "/Back/GREATTUSK.png",
     description:
       "Sightings of this Pokémon have occurred in recent years. The name Great Tusk was taken from a creature listed in a certain book.",
     stats: {
@@ -113183,7 +113183,7 @@ export const fakemons: Fakemon[] = [
     name: "Scream Tail",
     types: ["FAIRY", "PSYCHIC"],
     sprite: "/Front/SCREAMTAIL.png",
-    backSprite: "/spritesBack/SCREAMTAIL.png",
+    backSprite: "/Back/SCREAMTAIL.png",
     description:
       "There has been only one reported sighting of this Pokémon. It resembles a mysterious creature depicted in an old expedition journal.",
     stats: {
@@ -113302,7 +113302,7 @@ export const fakemons: Fakemon[] = [
     name: "Brute Bonnet",
     types: ["GRASS", "DARK"],
     sprite: "/Front/BRUTEBONNET.png",
-    backSprite: "/spritesBack/BRUTEBONNET.png",
+    backSprite: "/Back/BRUTEBONNET.png",
     description:
       "It bears a slight resemblance to a Pokémon described in a dubious magazine as a cross between a dinosaur and a mushroom.",
     stats: {
@@ -113386,7 +113386,7 @@ export const fakemons: Fakemon[] = [
     name: "Flutter Mane",
     types: ["GHOST", "FAIRY"],
     sprite: "/Front/FLUTTERMANE.png",
-    backSprite: "/spritesBack/FLUTTERMANE.png",
+    backSprite: "/Back/FLUTTERMANE.png",
     description:
       "It has similar features to a ghostly pterosaur that was covered in a paranormal magazine, but the two have little else in common.",
     stats: {
@@ -113475,7 +113475,7 @@ export const fakemons: Fakemon[] = [
     name: "Slither Wing",
     types: ["BUG", "FIGHTING"],
     sprite: "/Front/SLITHERWING.png",
-    backSprite: "/spritesBack/SLITHERWING.png",
+    backSprite: "/Back/SLITHERWING.png",
     description:
       "This Pokémon somewhat resembles an ancient form of Volcarona that was introduced in a dubious magazine.",
     stats: {
@@ -113570,7 +113570,7 @@ export const fakemons: Fakemon[] = [
     name: "Sandy Shocks",
     types: ["ELECTRIC", "GROUND"],
     sprite: "/Front/SANDYSHOCKS.png",
-    backSprite: "/spritesBack/SANDYSHOCKS.png",
+    backSprite: "/Back/SANDYSHOCKS.png",
     description:
       "It slightly resembles a Magneton that lived for 10,000 years and was featured in an article in a paranormal magazine.",
     stats: {
@@ -113663,7 +113663,7 @@ export const fakemons: Fakemon[] = [
     name: "Iron Treads",
     types: ["GROUND", "STEEL"],
     sprite: "/Front/IRONTREADS.png",
-    backSprite: "/spritesBack/IRONTREADS.png",
+    backSprite: "/Back/IRONTREADS.png",
     description:
       "This Pokémon closely resembles a scientific weapon that a paranormal magazine claimed was sent to this planet by aliens.",
     stats: {
@@ -113755,7 +113755,7 @@ export const fakemons: Fakemon[] = [
     name: "Iron Bundle",
     types: ["ICE", "WATER"],
     sprite: "/Front/IRONBUNDLE.png",
-    backSprite: "/spritesBack/IRONBUNDLE.png",
+    backSprite: "/Back/IRONBUNDLE.png",
     description:
       "Its shape is similar to a robot featured in a paranormal magazine article. The robot was said to have been created by an ancient civilization.",
     stats: {
@@ -113837,7 +113837,7 @@ export const fakemons: Fakemon[] = [
     name: "Iron Hands",
     types: ["FIGHTING", "ELECTRIC"],
     sprite: "/Front/IRONHANDS.png",
-    backSprite: "/spritesBack/IRONHANDS.png",
+    backSprite: "/Back/IRONHANDS.png",
     description:
       "It is very similar to a cyborg covered exclusively by a paranormal magazine. The cyborg was said to be the modified form of a certain athlete.",
     stats: {
@@ -113930,7 +113930,7 @@ export const fakemons: Fakemon[] = [
     name: "Iron Jugulis",
     types: ["DARK", "FLYING"],
     sprite: "/Front/IRONJUGULIS.png",
-    backSprite: "/spritesBack/IRONJUGULIS.png",
+    backSprite: "/Back/IRONJUGULIS.png",
     description:
       "It resembles a certain Pokémon introduced in a paranormal magazine, described as the offspring of a Hydreigon that fell in love with a robot.",
     stats: {
@@ -114028,7 +114028,7 @@ export const fakemons: Fakemon[] = [
     name: "Iron Moth",
     types: ["FIRE", "POISON"],
     sprite: "/Front/IRONMOTH.png",
-    backSprite: "/spritesBack/IRONMOTH.png",
+    backSprite: "/Back/IRONMOTH.png",
     description:
       "This Pokémon resembles an unknown object described in a paranormal magazine as a UFO sent to observe humanity.",
     stats: {
@@ -114121,7 +114121,7 @@ export const fakemons: Fakemon[] = [
     name: "Iron Thorns",
     types: ["ROCK", "ELECTRIC"],
     sprite: "/Front/IRONTHORNS.png",
-    backSprite: "/spritesBack/IRONTHORNS.png",
+    backSprite: "/Back/IRONTHORNS.png",
     description:
       "It has some similarities to a Pokémon introduced in a dubious magazine as a Tyranitar from one billion years into the future.",
     stats: {
@@ -114241,7 +114241,7 @@ export const fakemons: Fakemon[] = [
     name: "Frigibax",
     types: ["DRAGON", "ICE"],
     sprite: "/Front/FRIGIBAX.png",
-    backSprite: "/spritesBack/FRIGIBAX.png",
+    backSprite: "/Back/FRIGIBAX.png",
     description:
       "This Pokémon lives in forests and craggy areas. Using the power of its dorsal fin, it cools the inside of its nest like a refrigerator.",
     stats: {
@@ -114317,7 +114317,7 @@ export const fakemons: Fakemon[] = [
     name: "Arctibax",
     types: ["DRAGON", "ICE"],
     sprite: "/Front/ARCTIBAX.png",
-    backSprite: "/spritesBack/ARCTIBAX.png",
+    backSprite: "/Back/ARCTIBAX.png",
     description:
       "Arctibax freezes the air around it, protecting its face with an ice mask and turning its dorsal fin into a blade of ice.",
     stats: {
@@ -114396,7 +114396,7 @@ export const fakemons: Fakemon[] = [
     name: "Baxcalibur",
     types: ["DRAGON", "ICE"],
     sprite: "/Front/BAXCALIBUR.png",
-    backSprite: "/spritesBack/BAXCALIBUR.png",
+    backSprite: "/Back/BAXCALIBUR.png",
     description:
       "This Pokémon blasts cryogenic air out from its mouth. This air can instantly freeze even liquid-hot lava.",
     stats: {
@@ -114489,7 +114489,7 @@ export const fakemons: Fakemon[] = [
     name: "Gimmighoul",
     types: ["GHOST"],
     sprite: "/Front/GIMMIGHOUL.png",
-    backSprite: "/spritesBack/GIMMIGHOUL.png",
+    backSprite: "/Back/GIMMIGHOUL.png",
     description:
       "This Pokémon was born inside a treasure chest about 1,500 years ago. It sucks the life-force out of scoundrels who try to steal the treasure.",
     stats: {
@@ -114540,7 +114540,7 @@ export const fakemons: Fakemon[] = [
     name: "Gholdengo",
     types: ["STEEL", "GHOST"],
     sprite: "/Front/GHOLDENGO.png",
-    backSprite: "/spritesBack/GHOLDENGO.png",
+    backSprite: "/Back/GHOLDENGO.png",
     description:
       "Its body seems to be made up of 1,000 coins. This Pokémon gets along well with others and is quick to make friends with anybody.",
     stats: {
@@ -114622,7 +114622,7 @@ export const fakemons: Fakemon[] = [
     name: "Wo-Chien",
     types: ["DARK", "GRASS"],
     sprite: "/Front/WOCHIEN.png",
-    backSprite: "/spritesBack/WOCHIEN.png",
+    backSprite: "/Back/WOCHIEN.png",
     description:
       "It drains the life-force from vegetation, causing nearby forests to instantly wither and fields to turn barren.",
     stats: {
@@ -114711,7 +114711,7 @@ export const fakemons: Fakemon[] = [
     name: "Chien-Pao",
     types: ["DARK", "ICE"],
     sprite: "/Front/CHIENPAO.png",
-    backSprite: "/spritesBack/CHIENPAO.png",
+    backSprite: "/Back/CHIENPAO.png",
     description:
       "This Pokémon can control 100 tons of fallen snow. It plays around innocently by leaping in and out of avalanches it has caused.",
     stats: {
@@ -114794,7 +114794,7 @@ export const fakemons: Fakemon[] = [
     name: "Ting-Lu",
     types: ["DARK", "GROUND"],
     sprite: "/Front/TINGLU.png",
-    backSprite: "/spritesBack/TINGLU.png",
+    backSprite: "/Back/TINGLU.png",
     description:
       "The fear poured into an ancient ritual vessel has clad itself in rocks and dirt to become a Pokémon.",
     stats: {
@@ -114880,7 +114880,7 @@ export const fakemons: Fakemon[] = [
     name: "Chi-Yu",
     types: ["DARK", "FIRE"],
     sprite: "/Front/CHIYU.png",
-    backSprite: "/spritesBack/CHIYU.png",
+    backSprite: "/Back/CHIYU.png",
     description:
       "The envy accumulated within curved beads that sparked multiple conflicts has clad itself in fire and become a Pokémon.",
     stats: {
@@ -114963,7 +114963,7 @@ export const fakemons: Fakemon[] = [
     name: "Roaring Moon",
     types: ["DRAGON", "DARK"],
     sprite: "/Front/ROARINGMOON.png",
-    backSprite: "/spritesBack/ROARINGMOON.png",
+    backSprite: "/Back/ROARINGMOON.png",
     description:
       "It is possible that this is the creature listed as Roaring Moon in an expedition journal that still holds many mysteries.",
     stats: {
@@ -115072,7 +115072,7 @@ export const fakemons: Fakemon[] = [
     name: "Iron Valiant",
     types: ["FAIRY", "FIGHTING"],
     sprite: "/Front/IRONVALIANT.png",
-    backSprite: "/spritesBack/IRONVALIANT.png",
+    backSprite: "/Back/IRONVALIANT.png",
     description:
       "It has some similarities to a mad scientist's invention covered in a paranormal magazine.",
     stats: {
@@ -115187,7 +115187,7 @@ export const fakemons: Fakemon[] = [
     name: "Koraidon",
     types: ["FIGHTING", "DRAGON"],
     sprite: "/Front/KORAIDON.png",
-    backSprite: "/spritesBack/KORAIDON.png",
+    backSprite: "/Back/KORAIDON.png",
     description:
       "This seems to be the Winged King mentioned in an old expedition journal. It was said to have split the land with its bare fists.",
     stats: {
@@ -115300,7 +115300,7 @@ export const fakemons: Fakemon[] = [
     name: "Miraidon",
     types: ["ELECTRIC", "DRAGON"],
     sprite: "/Front/MIRAIDON.png",
-    backSprite: "/spritesBack/MIRAIDON.png",
+    backSprite: "/Back/MIRAIDON.png",
     description:
       "This seems to be the Iron Serpent mentioned in an old book. The Iron Serpent is said to have turned the land to ash with its lightning.",
     stats: {
@@ -115396,7 +115396,7 @@ export const fakemons: Fakemon[] = [
     name: "Walking Wake",
     types: ["WATER", "DRAGON"],
     sprite: "/Front/WALKINGWAKE.png",
-    backSprite: "/spritesBack/WALKINGWAKE.png",
+    backSprite: "/Back/WALKINGWAKE.png",
     description:
       "This ferocious creature is shrouded in mystery. It's named after an aquatic monster mentioned in an old expedition journal.",
     stats: {
@@ -115487,7 +115487,7 @@ export const fakemons: Fakemon[] = [
     name: "Iron Leaves",
     types: ["GRASS", "PSYCHIC"],
     sprite: "/Front/IRONLEAVES.png",
-    backSprite: "/spritesBack/IRONLEAVES.png",
+    backSprite: "/Back/IRONLEAVES.png",
     description:
       "According to the few eyewitness accounts that exist, it used its shining blades to julienne large trees and boulders.",
     stats: {
@@ -115581,7 +115581,7 @@ export const fakemons: Fakemon[] = [
     name: "Dipplin",
     types: ["GRASS", "DRAGON"],
     sprite: "/Front/DIPPLIN.png",
-    backSprite: "/spritesBack/DIPPLIN.png",
+    backSprite: "/Back/DIPPLIN.png",
     description:
       "The head sticking out belongs to the fore-wyrm, while the tail belongs to the core-wyrm. The two share one apple and help each other out.",
     stats: {
@@ -115664,7 +115664,7 @@ export const fakemons: Fakemon[] = [
     name: "Poltchageist",
     types: ["GRASS", "GHOST"],
     sprite: "/Front/POLTCHAGEIST.png",
-    backSprite: "/spritesBack/POLTCHAGEIST.png",
+    backSprite: "/Back/POLTCHAGEIST.png",
     description:
       "Supposedly, the regrets of a tea ceremony master who died before perfecting his craft lingered in some matcha and became a Pokémon.",
     stats: {
@@ -115743,7 +115743,7 @@ export const fakemons: Fakemon[] = [
     name: "Sinistcha",
     types: ["GRASS", "GHOST"],
     sprite: "/Front/SINISTCHA.png",
-    backSprite: "/spritesBack/SINISTCHA.png",
+    backSprite: "/Back/SINISTCHA.png",
     description:
       "It pretends to be tea, trying to fool people into drinking it so it can drain their life-force. Its ruse is generally unsuccessful.",
     stats: {
@@ -115818,7 +115818,7 @@ export const fakemons: Fakemon[] = [
     name: "Okidogi",
     types: ["POISON", "FIGHTING"],
     sprite: "/Front/OKIDOGI.png",
-    backSprite: "/spritesBack/OKIDOGI.png",
+    backSprite: "/Back/OKIDOGI.png",
     description:
       "Okidogi is a ruffian with a short temper. It can pulverize anything by swinging around the chain on its neck.",
     stats: {
@@ -115918,7 +115918,7 @@ export const fakemons: Fakemon[] = [
     name: "Munkidori",
     types: ["POISON", "PSYCHIC"],
     sprite: "/Front/MUNKIDORI.png",
-    backSprite: "/spritesBack/MUNKIDORI.png",
+    backSprite: "/Back/MUNKIDORI.png",
     description:
       "Munkidori keeps itself somewhere safe while it toys with its foes, using psychokinesis to induce intense dizziness.",
     stats: {
@@ -116011,7 +116011,7 @@ export const fakemons: Fakemon[] = [
     name: "Fezandipiti",
     types: ["POISON", "FAIRY"],
     sprite: "/Front/FEZANDIPITI.png",
-    backSprite: "/spritesBack/FEZANDIPITI.png",
+    backSprite: "/Back/FEZANDIPITI.png",
     description:
       "Fezandipiti beats its glossy wings to scatter pheromones that captivate people and Pokémon.",
     stats: {
@@ -116105,7 +116105,7 @@ export const fakemons: Fakemon[] = [
     name: "Ogerpon",
     types: ["GRASS"],
     sprite: "/Front/OGERPON.png",
-    backSprite: "/spritesBack/OGERPON.png",
+    backSprite: "/Back/OGERPON.png",
     description:
       "This mischief-loving Pokémon is full of curiosity. It battles by drawing out the type-based energy contained within its masks.",
     stats: {
@@ -116199,7 +116199,7 @@ export const fakemons: Fakemon[] = [
     name: "Archaludon",
     types: ["STEEL", "DRAGON"],
     sprite: "/Front/ARCHALUDON.png",
-    backSprite: "/spritesBack/ARCHALUDON.png",
+    backSprite: "/Back/ARCHALUDON.png",
     description:
       "It gathers static electricity from its surroundings. The beams it launches when down on all fours are tremendously powerful.",
     stats: {
@@ -116293,7 +116293,7 @@ export const fakemons: Fakemon[] = [
     name: "Hydrapple",
     types: ["GRASS", "DRAGON"],
     sprite: "/Front/HYDRAPPLE.png",
-    backSprite: "/spritesBack/HYDRAPPLE.png",
+    backSprite: "/Back/HYDRAPPLE.png",
     description:
       "These capricious syrpents have banded together. On the rare occasion that their moods align, their true power is unleashed.",
     stats: {
@@ -116385,7 +116385,7 @@ export const fakemons: Fakemon[] = [
     name: "Gouging Fire",
     types: ["FIRE", "DRAGON"],
     sprite: "/Front/GOUGINGFIRE.png",
-    backSprite: "/spritesBack/GOUGINGFIRE.png",
+    backSprite: "/Back/GOUGINGFIRE.png",
     description:
       "There are scant few reports of this creature being sighted. One short video shows it rampaging and spouting pillars of flame.",
     stats: {
@@ -116482,7 +116482,7 @@ export const fakemons: Fakemon[] = [
     name: "Raging Bolt",
     types: ["ELECTRIC", "DRAGON"],
     sprite: "/Front/RAGINGBOLT.png",
-    backSprite: "/spritesBack/RAGINGBOLT.png",
+    backSprite: "/Back/RAGINGBOLT.png",
     description:
       "It's said to incinerate everything around it with lightning launched from its fur. Very little is known about this creature.",
     stats: {
@@ -116575,7 +116575,7 @@ export const fakemons: Fakemon[] = [
     name: "Iron Boulder",
     types: ["ROCK", "PSYCHIC"],
     sprite: "/Front/IRONBOULDER.png",
-    backSprite: "/spritesBack/IRONBOULDER.png",
+    backSprite: "/Back/IRONBOULDER.png",
     description:
       "It resembles a Pokémon described in a dubious magazine as a Terrakion that had been modified by an evil organization.",
     stats: {
@@ -116660,7 +116660,7 @@ export const fakemons: Fakemon[] = [
     name: "Iron Crown",
     types: ["STEEL", "PSYCHIC"],
     sprite: "/Front/IRONCROWN.png",
-    backSprite: "/spritesBack/IRONCROWN.png",
+    backSprite: "/Back/IRONCROWN.png",
     description:
       "There was supposedly an incident in which it launched shining blades to cut everything around it to pieces. Little else is known about it.",
     stats: {
@@ -116748,7 +116748,7 @@ export const fakemons: Fakemon[] = [
     name: "Terapagos",
     types: ["NORMAL"],
     sprite: "/Front/TERAPAGOS.png",
-    backSprite: "/spritesBack/TERAPAGOS.png",
+    backSprite: "/Back/TERAPAGOS.png",
     description:
       "Terapagos protects itself using its power to transform energy into hard crystals. This Pokémon is the source of the Terastal phenomenon.",
     stats: {
@@ -116842,7 +116842,7 @@ export const fakemons: Fakemon[] = [
     name: "Pecharunt",
     types: ["POISON", "GHOST"],
     sprite: "/Front/PECHARUNT.png",
-    backSprite: "/spritesBack/PECHARUNT.png",
+    backSprite: "/Back/PECHARUNT.png",
     description:
       "It feeds others toxic mochi that draw out desires and capabilities. Those who eat the mochi fall under Pecharunt's control, chained to its will.",
     stats: {

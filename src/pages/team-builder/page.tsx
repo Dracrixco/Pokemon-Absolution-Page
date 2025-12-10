@@ -199,7 +199,7 @@ export const TeamBuilder = () => {
             {team.map((teamPokemon, index) => {
               const pokemonData = getPokemonData(
                 teamPokemon.id,
-                teamPokemon.formNumber
+                teamPokemon.formNumber,
               );
               return (
                 <div
@@ -258,7 +258,7 @@ export const TeamBuilder = () => {
                           <span
                             key={type}
                             className={`px-2 py-1 rounded text-white text-xs ${getTypeColor(
-                              type
+                              type,
                             )}`}
                           >
                             {type}

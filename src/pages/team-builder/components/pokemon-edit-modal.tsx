@@ -96,7 +96,7 @@ const DIFFICULTY_LEVELS = ["easy", "normal", "hard", "absolution"] as const;
 
 // Function to get difficulties that should be updated in cascade
 const getDifficultiesToUpdate = (
-  currentDifficulty: DIFFICULTY_LEVELS_TYPE
+  currentDifficulty: DIFFICULTY_LEVELS_TYPE,
 ): DIFFICULTY_LEVELS_TYPE[] => {
   switch (currentDifficulty) {
     case "easy":
@@ -119,7 +119,7 @@ export const PokemonEditorModal: React.FC<PokemonEditorModalProps> = ({
   onSave,
 }) => {
   const [editedPokemon, setEditedPokemon] = useState<FakemonForTeam | null>(
-    null
+    null,
   );
   const [selectedDifficulty, setSelectedDifficulty] =
     useState<DIFFICULTY_LEVELS_TYPE>("easy");
@@ -326,7 +326,7 @@ export const PokemonEditorModal: React.FC<PokemonEditorModalProps> = ({
                   <span
                     key={type}
                     className={`px-2 py-1 rounded text-white text-xs ${getTypeColor(
-                      type
+                      type,
                     )}`}
                   >
                     {type}
@@ -371,7 +371,7 @@ export const PokemonEditorModal: React.FC<PokemonEditorModalProps> = ({
                     "bg-white rounded-lg p-3 border-2 transition-all hover:scale-105",
                     !editedPokemon.formNumber || editedPokemon.formNumber === 0
                       ? "border-purple-500 shadow-lg shadow-purple-300"
-                      : "border-gray-300 hover:border-purple-300"
+                      : "border-gray-300 hover:border-purple-300",
                   )}
                 >
                   <div className="relative">
@@ -404,7 +404,7 @@ export const PokemonEditorModal: React.FC<PokemonEditorModalProps> = ({
                       "bg-white rounded-lg p-3 border-2 transition-all hover:scale-105",
                       editedPokemon.formNumber === form.formNumber
                         ? "border-purple-500 shadow-lg shadow-purple-300"
-                        : "border-gray-300 hover:border-purple-300"
+                        : "border-gray-300 hover:border-purple-300",
                     )}
                   >
                     <div className="relative">
@@ -448,7 +448,7 @@ export const PokemonEditorModal: React.FC<PokemonEditorModalProps> = ({
                     ...editedPokemon,
                     level: Math.max(
                       1,
-                      Math.min(100, parseInt(e.target.value) || 1)
+                      Math.min(100, parseInt(e.target.value) || 1),
                     ),
                   })
                 }
@@ -483,7 +483,7 @@ export const PokemonEditorModal: React.FC<PokemonEditorModalProps> = ({
                 <button
                   onClick={() =>
                     applyNaturePreset(
-                      editedPokemon.nature as keyof typeof NATURE_EFFECTS
+                      editedPokemon.nature as keyof typeof NATURE_EFFECTS,
                     )
                   }
                   className="px-3 py-2 bg-purple-500 text-white rounded-lg hover:bg-purple-600 text-sm"

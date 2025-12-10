@@ -6,7 +6,7 @@ export const pokemonForms: PokemonForm[] = [
     name: "Venusaur",
     types: ["GRASS", "POISON"],
     sprite: "/Front/VENUSAUR_1.png",
-    backSprite: "/spritesBack/VENUSAUR_1.png",
+    backSprite: "/Back/VENUSAUR_1.png",
     description:
       "In order to support its flower, which has grown larger due to Mega Evolution, its back and legs have become stronger.",
     stats: {
@@ -135,7 +135,7 @@ export const pokemonForms: PokemonForm[] = [
     name: "Charizard",
     types: ["FIRE", "DRAGON"],
     sprite: "/Front/CHARIZARD_1.png",
-    backSprite: "/spritesBack/CHARIZARD_1.png",
+    backSprite: "/Back/CHARIZARD_1.png",
     description:
       "The overwhelming power that fills its entire body causes it to turn black and create intense blue flames.",
     stats: {
@@ -284,7 +284,7 @@ export const pokemonForms: PokemonForm[] = [
     name: "Charizard",
     types: ["FIRE", "FLYING"],
     sprite: "/Front/CHARIZARD_2.png",
-    backSprite: "/spritesBack/CHARIZARD_2.png",
+    backSprite: "/Back/CHARIZARD_2.png",
     description:
       "Its bond with its Trainer is the source of its power. It boasts speed and maneuverability greater than that of a jet fighter.",
     stats: {
@@ -433,7 +433,7 @@ export const pokemonForms: PokemonForm[] = [
     name: "Blastoise",
     types: ["WATER"],
     sprite: "/Front/BLASTOISE_1.png",
-    backSprite: "/spritesBack/BLASTOISE_1.png",
+    backSprite: "/Back/BLASTOISE_1.png",
     description:
       "The cannon on its back is as powerful as a tank gun. Its tough legs and back enable it to withstand the recoil from firing the cannon.",
     stats: {
@@ -567,7 +567,7 @@ export const pokemonForms: PokemonForm[] = [
     name: "Beedrill",
     types: ["BUG", "POISON"],
     sprite: "/Front/BEEDRILL_1.png",
-    backSprite: "/spritesBack/BEEDRILL_1.png",
+    backSprite: "/Back/BEEDRILL_1.png",
     description:
       "Its legs have become poison stingers. It stabs its prey repeatedly with the stingers on its limbs, dealing the final blow with the stinger on its rear.",
     stats: {
@@ -677,7 +677,7 @@ export const pokemonForms: PokemonForm[] = [
     name: "Pidgeot",
     types: ["NORMAL", "FLYING"],
     sprite: "/Front/PIDGEOT_1.png",
-    backSprite: "/spritesBack/PIDGEOT_1.png",
+    backSprite: "/Back/PIDGEOT_1.png",
     description:
       "With its muscular strength now greatly increased, it can fly continuously for two weeks without resting.",
     stats: {
@@ -772,7 +772,7 @@ export const pokemonForms: PokemonForm[] = [
     name: "Rattata",
     types: ["DARK", "NORMAL"],
     sprite: "/Front/RATTATA_1.png",
-    backSprite: "/spritesBack/RATTATA_1.png",
+    backSprite: "/Back/RATTATA_1.png",
     description:
       "With its incisors, it gnaws through doors and infiltrates people's homes. Then, with a twitch of its whiskers, it steals whatever food it finds.",
     stats: {
@@ -895,7 +895,7 @@ export const pokemonForms: PokemonForm[] = [
     name: "Raticate",
     types: ["DARK", "NORMAL"],
     sprite: "/Front/RATICATE_1.png",
-    backSprite: "/spritesBack/RATICATE_1.png",
+    backSprite: "/Back/RATICATE_1.png",
     description:
       "It forms a group of Rattata, which it assumes command of. Each group has its own territory, and disputes over food happen often.",
     stats: {
@@ -1015,7 +1015,7 @@ export const pokemonForms: PokemonForm[] = [
     name: "Raichu",
     types: ["ELECTRIC", "PSYCHIC"],
     sprite: "/Front/RAICHU_1.png",
-    backSprite: "/spritesBack/RAICHU_1.png",
+    backSprite: "/Back/RAICHU_1.png",
     description:
       "It uses psychokinesis to control electricity. It hops aboard its own tail, using psychic power to lift the tail and move about while riding it.",
     stats: {
@@ -1166,7 +1166,7 @@ export const pokemonForms: PokemonForm[] = [
     name: "Sandshrew",
     types: ["ICE", "STEEL"],
     sprite: "/Front/SANDSHREW_1.png",
-    backSprite: "/spritesBack/SANDSHREW_1.png",
+    backSprite: "/Back/SANDSHREW_1.png",
     description:
       "The skin on its back is as hard as steel. Predators go after its soft belly, so it clings to the ground desperately.",
     stats: {
@@ -1321,7 +1321,7 @@ export const pokemonForms: PokemonForm[] = [
     name: "Sandslash",
     types: ["ICE", "STEEL"],
     sprite: "/Front/SANDSLASH_1.png",
-    backSprite: "/spritesBack/SANDSLASH_1.png",
+    backSprite: "/Back/SANDSLASH_1.png",
     description:
       "It runs across snow-covered plains at high speeds. It developed thick, sharp claws to plow through the snow.",
     stats: {
@@ -1466,7 +1466,7 @@ export const pokemonForms: PokemonForm[] = [
     name: "Vulpix",
     types: ["ICE"],
     sprite: "/Front/VULPIX_1.png",
-    backSprite: "/spritesBack/VULPIX_1.png",
+    backSprite: "/Back/VULPIX_1.png",
     description:
       "In hot weather, this Pokémon makes ice shards with its six tails and sprays them around to cool itself off.",
     stats: {
@@ -1607,7 +1607,7 @@ export const pokemonForms: PokemonForm[] = [
     name: "Ninetales",
     types: ["ICE", "FAIRY"],
     sprite: "/Front/NINETALES_1.png",
-    backSprite: "/spritesBack/NINETALES_1.png",
+    backSprite: "/Back/NINETALES_1.png",
     description:
       "It lives on mountains perpetually covered in snow and is revered as a deity incarnate. It appears draped in a blizzard.",
     stats: {
@@ -1736,7 +1736,7 @@ export const pokemonForms: PokemonForm[] = [
     name: "Diglett",
     types: ["GROUND", "STEEL"],
     sprite: "/Front/DIGLETT_1.png",
-    backSprite: "/spritesBack/DIGLETT_1.png",
+    backSprite: "/Back/DIGLETT_1.png",
     description:
       "Its head sports an altered form of whiskers made of metal. When in communication with its comrades, its whiskers wobble to and fro.",
     stats: {
@@ -1867,7 +1867,7 @@ export const pokemonForms: PokemonForm[] = [
     name: "Dugtrio",
     types: ["GROUND", "STEEL"],
     sprite: "/Front/DUGTRIO_1.png",
-    backSprite: "/spritesBack/DUGTRIO_1.png",
+    backSprite: "/Back/DUGTRIO_1.png",
     description:
       "Its shining gold hair provides it with protection. It's reputed that keeping any of its fallen hairs will bring bad luck.",
     stats: {
@@ -1991,7 +1991,7 @@ export const pokemonForms: PokemonForm[] = [
     name: "Meowth",
     types: ["DARK"],
     sprite: "/Front/MEOWTH_1.png",
-    backSprite: "/spritesBack/MEOWTH_1.png",
+    backSprite: "/Back/MEOWTH_1.png",
     description:
       "It's impulsive, selfish, and fickle. It's very popular with some Trainers who like giving it the attention it needs.",
     stats: {
@@ -2140,7 +2140,7 @@ export const pokemonForms: PokemonForm[] = [
     name: "Meowth",
     types: ["STEEL"],
     sprite: "/Front/MEOWTH_2.png",
-    backSprite: "/spritesBack/MEOWTH_2.png",
+    backSprite: "/Back/MEOWTH_2.png",
     description:
       "Living with a savage, seafaring people has toughened this Pokémon's body so much that parts of it have turned to iron.",
     stats: {
@@ -2277,7 +2277,7 @@ export const pokemonForms: PokemonForm[] = [
     name: "Persian",
     types: ["DARK"],
     sprite: "/Front/PERSIAN_1.png",
-    backSprite: "/spritesBack/PERSIAN_1.png",
+    backSprite: "/Back/PERSIAN_1.png",
     description:
       "Its round face is a symbol of wealth. Persian that have bigger, plumper faces are considered more beautiful.",
     stats: {
@@ -2417,7 +2417,7 @@ export const pokemonForms: PokemonForm[] = [
     name: "Growlithe",
     types: ["FIRE", "ROCK"],
     sprite: "/Front/GROWLITHE_1.png",
-    backSprite: "/spritesBack/GROWLITHE_1.png",
+    backSprite: "/Back/GROWLITHE_1.png",
     description:
       "They patrol their territory in pairs. The igneous rock components in the fur of this species are the result of volcanic activity in its habitat.",
     stats: {
@@ -2522,7 +2522,7 @@ export const pokemonForms: PokemonForm[] = [
     name: "Arcanine",
     types: ["FIRE", "ROCK"],
     sprite: "/Front/ARCANINE_1.png",
-    backSprite: "/spritesBack/ARCANINE_1.png",
+    backSprite: "/Back/ARCANINE_1.png",
     description:
       "Snaps at its foes with fangs cloaked in blazing flame. Despite its bulk, it deftly feints every which way, leading opponents on a deceptively merry chase as it all but dances around them.",
     stats: {
@@ -2629,7 +2629,7 @@ export const pokemonForms: PokemonForm[] = [
     name: "Alakazam",
     types: ["PSYCHIC"],
     sprite: "/Front/ALAKAZAM_1.png",
-    backSprite: "/spritesBack/ALAKAZAM_1.png",
+    backSprite: "/Back/ALAKAZAM_1.png",
     description:
       "Having traded away its muscles, Alakazam's true power has been unleashed. With its psychic powers, it can foresee all things.",
     stats: {
@@ -2767,7 +2767,7 @@ export const pokemonForms: PokemonForm[] = [
     name: "Geodude",
     types: ["ROCK", "ELECTRIC"],
     sprite: "/Front/GEODUDE_1.png",
-    backSprite: "/spritesBack/GEODUDE_1.png",
+    backSprite: "/Back/GEODUDE_1.png",
     description:
       "Geodude compete against each other with headbutts. The iron sand on their heads will stick to whichever one has stronger magnetism.",
     stats: {
@@ -2913,7 +2913,7 @@ export const pokemonForms: PokemonForm[] = [
     name: "Graveler",
     types: ["ROCK", "ELECTRIC"],
     sprite: "/Front/GRAVELER_1.png",
-    backSprite: "/spritesBack/GRAVELER_1.png",
+    backSprite: "/Back/GRAVELER_1.png",
     description:
       "They eat rocks and often get into a scrap over them. The shock of Graveler smashing together causes a flash of light and a booming noise.",
     stats: {
@@ -3049,7 +3049,7 @@ export const pokemonForms: PokemonForm[] = [
     name: "Golem",
     types: ["ROCK", "ELECTRIC"],
     sprite: "/Front/GOLEM_1.png",
-    backSprite: "/spritesBack/GOLEM_1.png",
+    backSprite: "/Back/GOLEM_1.png",
     description:
       "It fires rocks charged with electricity. Even if the rock isn't fired that accurately, just grazing an opponent will cause numbness and fainting.",
     stats: {
@@ -3194,7 +3194,7 @@ export const pokemonForms: PokemonForm[] = [
     name: "Ponyta",
     types: ["PSYCHIC"],
     sprite: "/Front/PONYTA_1.png",
-    backSprite: "/spritesBack/PONYTA_1.png",
+    backSprite: "/Back/PONYTA_1.png",
     description:
       "Its small horn hides a healing power. With a few rubs from this Pokémon's horn, any slight wound you have will be healed.",
     stats: {
@@ -3299,7 +3299,7 @@ export const pokemonForms: PokemonForm[] = [
     name: "Rapidash",
     types: ["PSYCHIC", "FAIRY"],
     sprite: "/Front/RAPIDASH_1.png",
-    backSprite: "/spritesBack/RAPIDASH_1.png",
+    backSprite: "/Back/RAPIDASH_1.png",
     description:
       "Little can stand up to its psycho cut. Unleashed from this Pokémon's horn, the move will punch a hole right through a thick metal sheet.",
     stats: {
@@ -3404,7 +3404,7 @@ export const pokemonForms: PokemonForm[] = [
     name: "Slowpoke",
     types: ["PSYCHIC"],
     sprite: "/Front/SLOWPOKE_1.png",
-    backSprite: "/spritesBack/SLOWPOKE_1.png",
+    backSprite: "/Back/SLOWPOKE_1.png",
     description:
       "Although this Pokémon is normally zoned out, its expression abruptly sharpens on occasion. The cause for this seems to lie in Slowpoke's diet.",
     stats: {
@@ -3543,7 +3543,7 @@ export const pokemonForms: PokemonForm[] = [
     name: "Slowbro",
     types: ["POISON", "PSYCHIC"],
     sprite: "/Front/SLOWBRO_1.png",
-    backSprite: "/spritesBack/SLOWBRO_1.png",
+    backSprite: "/Back/SLOWBRO_1.png",
     description:
       "If this Pokémon squeezes the tongue of the Shellder biting it, the Shellder will launch a toxic liquid from the tip of its shell.",
     stats: {
@@ -3700,7 +3700,7 @@ export const pokemonForms: PokemonForm[] = [
     name: "Slowbro",
     types: ["WATER", "PSYCHIC"],
     sprite: "/Front/SLOWBRO_2.png",
-    backSprite: "/spritesBack/SLOWBRO_2.png",
+    backSprite: "/Back/SLOWBRO_2.png",
     description:
       "Having been swallowed whole by Shellder, Slowbro now has an iron defense. It's pretty comfortable in there, too.",
     stats: {
@@ -3863,7 +3863,7 @@ export const pokemonForms: PokemonForm[] = [
     name: "Farfetch'd",
     types: ["FIGHTING"],
     sprite: "/Front/FARFETCHD_1.png",
-    backSprite: "/spritesBack/FARFETCHD_1.png",
+    backSprite: "/Back/FARFETCHD_1.png",
     description:
       "The stalks of leeks are thicker and longer in the Galar region. Farfetch'd that adapted to these stalks took on a unique form.",
     stats: {
@@ -3970,7 +3970,7 @@ export const pokemonForms: PokemonForm[] = [
     name: "Grimer",
     types: ["POISON", "DARK"],
     sprite: "/Front/GRIMER_1.png",
-    backSprite: "/spritesBack/GRIMER_1.png",
+    backSprite: "/Back/GRIMER_1.png",
     description:
       "A Grimer, which had been brought in to solve a problem with garbage, developed over time into this form.",
     stats: {
@@ -4124,7 +4124,7 @@ export const pokemonForms: PokemonForm[] = [
     name: "Muk",
     types: ["POISON", "DARK"],
     sprite: "/Front/MUK_1.png",
-    backSprite: "/spritesBack/MUK_1.png",
+    backSprite: "/Back/MUK_1.png",
     description:
       "The garbage it eats causes continuous chemical changes in its body, which produce its exceedingly vivid coloration.",
     stats: {
@@ -4262,7 +4262,7 @@ export const pokemonForms: PokemonForm[] = [
     name: "Gengar",
     types: ["GHOST", "POISON"],
     sprite: "/Front/GENGAR_1.png",
-    backSprite: "/spritesBack/GENGAR_1.png",
+    backSprite: "/Back/GENGAR_1.png",
     description:
       "The energy of Mega Evolution awakened it. It sinks into another dimension, where it keeps a patient watch for its chance to attack.",
     stats: {
@@ -4415,7 +4415,7 @@ export const pokemonForms: PokemonForm[] = [
     name: "Voltorb",
     types: ["ELECTRIC", "GRASS"],
     sprite: "/Front/VOLTORB_1.png",
-    backSprite: "/spritesBack/VOLTORB_1.png",
+    backSprite: "/Back/VOLTORB_1.png",
     description:
       "An enigmatic Pokémon that happens to bear a resemblance to a Poké Ball. When excited, it discharges the electric current it has stored in its belly, then lets out a great, uproarious laugh.",
     stats: {
@@ -4508,7 +4508,7 @@ export const pokemonForms: PokemonForm[] = [
     name: "Electrode",
     types: ["ELECTRIC", "GRASS"],
     sprite: "/Front/ELECTRODE_1.png",
-    backSprite: "/spritesBack/ELECTRODE_1.png",
+    backSprite: "/Back/ELECTRODE_1.png",
     description:
       "The tissue on the surface of its body is curiously similar in composition to an Apricorn. When irritated, this Pokémon lets loose an electric current equal to 20 lightning bolts.",
     stats: {
@@ -4601,7 +4601,7 @@ export const pokemonForms: PokemonForm[] = [
     name: "Exeggutor",
     types: ["GRASS", "DRAGON"],
     sprite: "/Front/EXEGGUTOR_1.png",
-    backSprite: "/spritesBack/EXEGGUTOR_1.png",
+    backSprite: "/Back/EXEGGUTOR_1.png",
     description:
       "As it grew taller and taller, it outgrew its reliance on psychic powers, while within it awakened the power of the sleeping dragon.",
     stats: {
@@ -4747,7 +4747,7 @@ export const pokemonForms: PokemonForm[] = [
     name: "Cubone",
     types: ["GROUND"],
     sprite: "/Front/CUBONE_1.png",
-    backSprite: "/spritesBack/CUBONE_1.png",
+    backSprite: "/Back/CUBONE_1.png",
     description:
       "It pines for the mother it will never see again. Seeing a likeness of its mother in the full moon, it cries. The stains on the skull it wears are from its tears.",
     stats: {
@@ -4885,7 +4885,7 @@ export const pokemonForms: PokemonForm[] = [
     name: "Marowak",
     types: ["FIRE", "GHOST"],
     sprite: "/Front/MAROWAK_1.png",
-    backSprite: "/spritesBack/MAROWAK_1.png",
+    backSprite: "/Back/MAROWAK_1.png",
     description:
       "Its custom is to mourn its lost companions. Mounds of dirt by the side of the road mark the graves of the Marowak.",
     stats: {
@@ -5037,7 +5037,7 @@ export const pokemonForms: PokemonForm[] = [
     name: "Weezing",
     types: ["POISON", "FAIRY"],
     sprite: "/Front/WEEZING_1.png",
-    backSprite: "/spritesBack/WEEZING_1.png",
+    backSprite: "/Back/WEEZING_1.png",
     description:
       "This Pokémon consumes particles that contaminate the air. Instead of leaving droppings, it expels clean air.",
     stats: {
@@ -5164,7 +5164,7 @@ export const pokemonForms: PokemonForm[] = [
     name: "Kangaskhan",
     types: ["NORMAL"],
     sprite: "/Front/KANGASKHAN_1.png",
-    backSprite: "/spritesBack/KANGASKHAN_1.png",
+    backSprite: "/Back/KANGASKHAN_1.png",
     description:
       "The explosive energy the child is bathed in causes temporary growth. The mother is beside herself with worry about it.",
     stats: {
@@ -5316,7 +5316,7 @@ export const pokemonForms: PokemonForm[] = [
     name: "Mr. Mime",
     types: ["ICE", "PSYCHIC"],
     sprite: "/Front/MRMIME_1.png",
-    backSprite: "/spritesBack/MRMIME_1.png",
+    backSprite: "/Back/MRMIME_1.png",
     description:
       "Its talent is tap-dancing. It can also manipulate temperatures to create a floor of ice, which this Pokémon can kick up to use as a barrier.",
     stats: {
@@ -5495,7 +5495,7 @@ export const pokemonForms: PokemonForm[] = [
     name: "Pinsir",
     types: ["BUG", "FLYING"],
     sprite: "/Front/PINSIR_1.png",
-    backSprite: "/spritesBack/PINSIR_1.png",
+    backSprite: "/Back/PINSIR_1.png",
     description:
       "It zips around at blistering speeds, looking for an opening to skewer its opponent on its giant pincers.",
     stats: {
@@ -5617,7 +5617,7 @@ export const pokemonForms: PokemonForm[] = [
     name: "Tauros",
     types: ["FIGHTING"],
     sprite: "/Front/TAUROS_1.png",
-    backSprite: "/spritesBack/TAUROS_1.png",
+    backSprite: "/Back/TAUROS_1.png",
     description:
       "This Pokémon has a muscular body and excels at close-quarters combat. It uses its short horns to strike the opponent's weak spots.",
     stats: {
@@ -5706,7 +5706,7 @@ export const pokemonForms: PokemonForm[] = [
     name: "Tauros",
     types: ["FIGHTING", "FIRE"],
     sprite: "/Front/TAUROS_2.png",
-    backSprite: "/spritesBack/TAUROS_2.png",
+    backSprite: "/Back/TAUROS_2.png",
     description:
       "People call this kind of Tauros the Blaze Breed due to the hot air it snorts from its nostrils. Its three tails are intertwined.",
     stats: {
@@ -5801,7 +5801,7 @@ export const pokemonForms: PokemonForm[] = [
     name: "Tauros",
     types: ["FIGHTING", "WATER"],
     sprite: "/Front/TAUROS_3.png",
-    backSprite: "/spritesBack/TAUROS_3.png",
+    backSprite: "/Back/TAUROS_3.png",
     description:
       "It swims by jetting water from its horns. The most notable characteristic of the Aqua Breed is its high body fat, which allows it to float easily.",
     stats: {
@@ -5893,7 +5893,7 @@ export const pokemonForms: PokemonForm[] = [
     name: "Gyarados",
     types: ["WATER", "DARK"],
     sprite: "/Front/GYARADOS_1.png",
-    backSprite: "/spritesBack/GYARADOS_1.png",
+    backSprite: "/Back/GYARADOS_1.png",
     description:
       "It zooms out of the water at Mach speeds. Even large ships caught in its path are split cleanly in two!",
     stats: {
@@ -6027,7 +6027,7 @@ export const pokemonForms: PokemonForm[] = [
     name: "Aerodactyl",
     types: ["ROCK", "FLYING"],
     sprite: "/Front/AERODACTYL_1.png",
-    backSprite: "/spritesBack/AERODACTYL_1.png",
+    backSprite: "/Back/AERODACTYL_1.png",
     description:
       "When it Mega Evolves, it becomes more vicious than ever before. Some say that's because its excess of power is causing it pain.",
     stats: {
@@ -6163,7 +6163,7 @@ export const pokemonForms: PokemonForm[] = [
     name: "Articuno",
     types: ["PSYCHIC", "FLYING"],
     sprite: "/Front/ARTICUNO_1.png",
-    backSprite: "/spritesBack/ARTICUNO_1.png",
+    backSprite: "/Back/ARTICUNO_1.png",
     description:
       "Its feather-like blades are composed of psychic energy and can shear through thick iron sheets as if they were paper.",
     stats: {
@@ -6270,7 +6270,7 @@ export const pokemonForms: PokemonForm[] = [
     name: "Zapdos",
     types: ["FIGHTING", "FLYING"],
     sprite: "/Front/ZAPDOS_1.png",
-    backSprite: "/spritesBack/ZAPDOS_1.png",
+    backSprite: "/Back/ZAPDOS_1.png",
     description:
       "When its feathers rub together, they produce a crackling sound like the zapping of electricity. That's why this Pokémon is called Zapdos.",
     stats: {
@@ -6382,7 +6382,7 @@ export const pokemonForms: PokemonForm[] = [
     name: "Moltres",
     types: ["DARK", "FLYING"],
     sprite: "/Front/MOLTRES_1.png",
-    backSprite: "/spritesBack/MOLTRES_1.png",
+    backSprite: "/Back/MOLTRES_1.png",
     description:
       "This Pokémon's sinister, flame-like aura will consume the spirit of any creature it hits. Victims become burned-out shadows of themselves.",
     stats: {
@@ -6486,7 +6486,7 @@ export const pokemonForms: PokemonForm[] = [
     name: "Mewtwo",
     types: ["PSYCHIC", "FIGHTING"],
     sprite: "/Front/MEWTWO_1.png",
-    backSprite: "/spritesBack/MEWTWO_1.png",
+    backSprite: "/Back/MEWTWO_1.png",
     description:
       "Psychic power has augmented its muscles. It has a grip strength of one ton and can sprint a hundred meters in two seconds flat!",
     stats: {
@@ -6676,7 +6676,7 @@ export const pokemonForms: PokemonForm[] = [
     name: "Mewtwo",
     types: ["PSYCHIC"],
     sprite: "/Front/MEWTWO_2.png",
-    backSprite: "/spritesBack/MEWTWO_2.png",
+    backSprite: "/Back/MEWTWO_2.png",
     description:
       "Despite its diminished size, its mental power has grown phenomenally. With a mere thought, it can smash a skyscraper to smithereens.",
     stats: {
@@ -6866,7 +6866,7 @@ export const pokemonForms: PokemonForm[] = [
     name: "Typhlosion",
     types: ["FIRE", "GHOST"],
     sprite: "/Front/TYPHLOSION_1.png",
-    backSprite: "/spritesBack/TYPHLOSION_1.png",
+    backSprite: "/Back/TYPHLOSION_1.png",
     description:
       "Said to purify lost, forsaken souls with its flames and guide them to the afterlife. I believe its form has been influenced by the energy of the sacred mountain towering at Hisui's center.",
     stats: {
@@ -6975,7 +6975,7 @@ export const pokemonForms: PokemonForm[] = [
     name: "Pichu",
     types: ["ELECTRIC"],
     sprite: "/Front/PICHU_2.png",
-    backSprite: "/spritesBack/PICHU_2.png",
+    backSprite: "/Back/PICHU_2.png",
     description:
       "It is still inept at retaining electricity. When it is startled, it discharges power accidentally. It gets better at holding power as it grows older.",
     stats: {
@@ -7089,7 +7089,7 @@ export const pokemonForms: PokemonForm[] = [
     name: "Ampharos",
     types: ["ELECTRIC", "DRAGON"],
     sprite: "/Front/AMPHAROS_1.png",
-    backSprite: "/spritesBack/AMPHAROS_1.png",
+    backSprite: "/Back/AMPHAROS_1.png",
     description:
       "Massive amounts of energy intensely stimulated Ampharos's cells, apparently awakening its long-sleeping dragon's blood.",
     stats: {
@@ -7232,7 +7232,7 @@ export const pokemonForms: PokemonForm[] = [
     name: "Wooper",
     types: ["POISON", "GROUND"],
     sprite: "/Front/WOOPER_1.png",
-    backSprite: "/spritesBack/WOOPER_1.png",
+    backSprite: "/Back/WOOPER_1.png",
     description:
       "After losing a territorial struggle, Wooper began living on land. The Pokémon changed over time, developing a poisonous film to protect its body.",
     stats: {
@@ -7343,7 +7343,7 @@ export const pokemonForms: PokemonForm[] = [
     name: "Slowking",
     types: ["POISON", "PSYCHIC"],
     sprite: "/Front/SLOWKING_1.png",
-    backSprite: "/spritesBack/SLOWKING_1.png",
+    backSprite: "/Back/SLOWKING_1.png",
     description:
       "While chanting strange spells, this Pokémon combines its internal toxins with what it's eaten, creating strange potions.",
     stats: {
@@ -7507,7 +7507,7 @@ export const pokemonForms: PokemonForm[] = [
     name: "Unown",
     types: ["PSYCHIC"],
     sprite: "/Front/UNOWN_1.png",
-    backSprite: "/spritesBack/UNOWN_1.png",
+    backSprite: "/Back/UNOWN_1.png",
     description:
       "This Pokémon is shaped like ancient text characters. Although research is ongoing, it is a mystery as to which came first, the ancient writings or the various Unown.",
     stats: {
@@ -7539,7 +7539,7 @@ export const pokemonForms: PokemonForm[] = [
     name: "Unown",
     types: ["PSYCHIC"],
     sprite: "/Front/UNOWN_2.png",
-    backSprite: "/spritesBack/UNOWN_2.png",
+    backSprite: "/Back/UNOWN_2.png",
     description:
       "This Pokémon is shaped like ancient text characters. Although research is ongoing, it is a mystery as to which came first, the ancient writings or the various Unown.",
     stats: {
@@ -7571,7 +7571,7 @@ export const pokemonForms: PokemonForm[] = [
     name: "Unown",
     types: ["PSYCHIC"],
     sprite: "/Front/UNOWN_3.png",
-    backSprite: "/spritesBack/UNOWN_3.png",
+    backSprite: "/Back/UNOWN_3.png",
     description:
       "This Pokémon is shaped like ancient text characters. Although research is ongoing, it is a mystery as to which came first, the ancient writings or the various Unown.",
     stats: {
@@ -7603,7 +7603,7 @@ export const pokemonForms: PokemonForm[] = [
     name: "Unown",
     types: ["PSYCHIC"],
     sprite: "/Front/UNOWN_4.png",
-    backSprite: "/spritesBack/UNOWN_4.png",
+    backSprite: "/Back/UNOWN_4.png",
     description:
       "This Pokémon is shaped like ancient text characters. Although research is ongoing, it is a mystery as to which came first, the ancient writings or the various Unown.",
     stats: {
@@ -7635,7 +7635,7 @@ export const pokemonForms: PokemonForm[] = [
     name: "Unown",
     types: ["PSYCHIC"],
     sprite: "/Front/UNOWN_5.png",
-    backSprite: "/spritesBack/UNOWN_5.png",
+    backSprite: "/Back/UNOWN_5.png",
     description:
       "This Pokémon is shaped like ancient text characters. Although research is ongoing, it is a mystery as to which came first, the ancient writings or the various Unown.",
     stats: {
@@ -7667,7 +7667,7 @@ export const pokemonForms: PokemonForm[] = [
     name: "Unown",
     types: ["PSYCHIC"],
     sprite: "/Front/UNOWN_6.png",
-    backSprite: "/spritesBack/UNOWN_6.png",
+    backSprite: "/Back/UNOWN_6.png",
     description:
       "This Pokémon is shaped like ancient text characters. Although research is ongoing, it is a mystery as to which came first, the ancient writings or the various Unown.",
     stats: {
@@ -7699,7 +7699,7 @@ export const pokemonForms: PokemonForm[] = [
     name: "Unown",
     types: ["PSYCHIC"],
     sprite: "/Front/UNOWN_7.png",
-    backSprite: "/spritesBack/UNOWN_7.png",
+    backSprite: "/Back/UNOWN_7.png",
     description:
       "This Pokémon is shaped like ancient text characters. Although research is ongoing, it is a mystery as to which came first, the ancient writings or the various Unown.",
     stats: {
@@ -7731,7 +7731,7 @@ export const pokemonForms: PokemonForm[] = [
     name: "Unown",
     types: ["PSYCHIC"],
     sprite: "/Front/UNOWN_8.png",
-    backSprite: "/spritesBack/UNOWN_8.png",
+    backSprite: "/Back/UNOWN_8.png",
     description:
       "This Pokémon is shaped like ancient text characters. Although research is ongoing, it is a mystery as to which came first, the ancient writings or the various Unown.",
     stats: {
@@ -7763,7 +7763,7 @@ export const pokemonForms: PokemonForm[] = [
     name: "Unown",
     types: ["PSYCHIC"],
     sprite: "/Front/UNOWN_9.png",
-    backSprite: "/spritesBack/UNOWN_9.png",
+    backSprite: "/Back/UNOWN_9.png",
     description:
       "This Pokémon is shaped like ancient text characters. Although research is ongoing, it is a mystery as to which came first, the ancient writings or the various Unown.",
     stats: {
@@ -7795,7 +7795,7 @@ export const pokemonForms: PokemonForm[] = [
     name: "Unown",
     types: ["PSYCHIC"],
     sprite: "/Front/UNOWN_10.png",
-    backSprite: "/spritesBack/UNOWN_10.png",
+    backSprite: "/Back/UNOWN_10.png",
     description:
       "This Pokémon is shaped like ancient text characters. Although research is ongoing, it is a mystery as to which came first, the ancient writings or the various Unown.",
     stats: {
@@ -7827,7 +7827,7 @@ export const pokemonForms: PokemonForm[] = [
     name: "Unown",
     types: ["PSYCHIC"],
     sprite: "/Front/UNOWN_11.png",
-    backSprite: "/spritesBack/UNOWN_11.png",
+    backSprite: "/Back/UNOWN_11.png",
     description:
       "This Pokémon is shaped like ancient text characters. Although research is ongoing, it is a mystery as to which came first, the ancient writings or the various Unown.",
     stats: {
@@ -7859,7 +7859,7 @@ export const pokemonForms: PokemonForm[] = [
     name: "Unown",
     types: ["PSYCHIC"],
     sprite: "/Front/UNOWN_12.png",
-    backSprite: "/spritesBack/UNOWN_12.png",
+    backSprite: "/Back/UNOWN_12.png",
     description:
       "This Pokémon is shaped like ancient text characters. Although research is ongoing, it is a mystery as to which came first, the ancient writings or the various Unown.",
     stats: {
@@ -7891,7 +7891,7 @@ export const pokemonForms: PokemonForm[] = [
     name: "Unown",
     types: ["PSYCHIC"],
     sprite: "/Front/UNOWN_13.png",
-    backSprite: "/spritesBack/UNOWN_13.png",
+    backSprite: "/Back/UNOWN_13.png",
     description:
       "This Pokémon is shaped like ancient text characters. Although research is ongoing, it is a mystery as to which came first, the ancient writings or the various Unown.",
     stats: {
@@ -7923,7 +7923,7 @@ export const pokemonForms: PokemonForm[] = [
     name: "Unown",
     types: ["PSYCHIC"],
     sprite: "/Front/UNOWN_14.png",
-    backSprite: "/spritesBack/UNOWN_14.png",
+    backSprite: "/Back/UNOWN_14.png",
     description:
       "This Pokémon is shaped like ancient text characters. Although research is ongoing, it is a mystery as to which came first, the ancient writings or the various Unown.",
     stats: {
@@ -7955,7 +7955,7 @@ export const pokemonForms: PokemonForm[] = [
     name: "Unown",
     types: ["PSYCHIC"],
     sprite: "/Front/UNOWN_15.png",
-    backSprite: "/spritesBack/UNOWN_15.png",
+    backSprite: "/Back/UNOWN_15.png",
     description:
       "This Pokémon is shaped like ancient text characters. Although research is ongoing, it is a mystery as to which came first, the ancient writings or the various Unown.",
     stats: {
@@ -7987,7 +7987,7 @@ export const pokemonForms: PokemonForm[] = [
     name: "Unown",
     types: ["PSYCHIC"],
     sprite: "/Front/UNOWN_16.png",
-    backSprite: "/spritesBack/UNOWN_16.png",
+    backSprite: "/Back/UNOWN_16.png",
     description:
       "This Pokémon is shaped like ancient text characters. Although research is ongoing, it is a mystery as to which came first, the ancient writings or the various Unown.",
     stats: {
@@ -8019,7 +8019,7 @@ export const pokemonForms: PokemonForm[] = [
     name: "Unown",
     types: ["PSYCHIC"],
     sprite: "/Front/UNOWN_17.png",
-    backSprite: "/spritesBack/UNOWN_17.png",
+    backSprite: "/Back/UNOWN_17.png",
     description:
       "This Pokémon is shaped like ancient text characters. Although research is ongoing, it is a mystery as to which came first, the ancient writings or the various Unown.",
     stats: {
@@ -8051,7 +8051,7 @@ export const pokemonForms: PokemonForm[] = [
     name: "Unown",
     types: ["PSYCHIC"],
     sprite: "/Front/UNOWN_18.png",
-    backSprite: "/spritesBack/UNOWN_18.png",
+    backSprite: "/Back/UNOWN_18.png",
     description:
       "This Pokémon is shaped like ancient text characters. Although research is ongoing, it is a mystery as to which came first, the ancient writings or the various Unown.",
     stats: {
@@ -8083,7 +8083,7 @@ export const pokemonForms: PokemonForm[] = [
     name: "Unown",
     types: ["PSYCHIC"],
     sprite: "/Front/UNOWN_19.png",
-    backSprite: "/spritesBack/UNOWN_19.png",
+    backSprite: "/Back/UNOWN_19.png",
     description:
       "This Pokémon is shaped like ancient text characters. Although research is ongoing, it is a mystery as to which came first, the ancient writings or the various Unown.",
     stats: {
@@ -8115,7 +8115,7 @@ export const pokemonForms: PokemonForm[] = [
     name: "Unown",
     types: ["PSYCHIC"],
     sprite: "/Front/UNOWN_20.png",
-    backSprite: "/spritesBack/UNOWN_20.png",
+    backSprite: "/Back/UNOWN_20.png",
     description:
       "This Pokémon is shaped like ancient text characters. Although research is ongoing, it is a mystery as to which came first, the ancient writings or the various Unown.",
     stats: {
@@ -8147,7 +8147,7 @@ export const pokemonForms: PokemonForm[] = [
     name: "Unown",
     types: ["PSYCHIC"],
     sprite: "/Front/UNOWN_21.png",
-    backSprite: "/spritesBack/UNOWN_21.png",
+    backSprite: "/Back/UNOWN_21.png",
     description:
       "This Pokémon is shaped like ancient text characters. Although research is ongoing, it is a mystery as to which came first, the ancient writings or the various Unown.",
     stats: {
@@ -8179,7 +8179,7 @@ export const pokemonForms: PokemonForm[] = [
     name: "Unown",
     types: ["PSYCHIC"],
     sprite: "/Front/UNOWN_22.png",
-    backSprite: "/spritesBack/UNOWN_22.png",
+    backSprite: "/Back/UNOWN_22.png",
     description:
       "This Pokémon is shaped like ancient text characters. Although research is ongoing, it is a mystery as to which came first, the ancient writings or the various Unown.",
     stats: {
@@ -8211,7 +8211,7 @@ export const pokemonForms: PokemonForm[] = [
     name: "Unown",
     types: ["PSYCHIC"],
     sprite: "/Front/UNOWN_23.png",
-    backSprite: "/spritesBack/UNOWN_23.png",
+    backSprite: "/Back/UNOWN_23.png",
     description:
       "This Pokémon is shaped like ancient text characters. Although research is ongoing, it is a mystery as to which came first, the ancient writings or the various Unown.",
     stats: {
@@ -8243,7 +8243,7 @@ export const pokemonForms: PokemonForm[] = [
     name: "Unown",
     types: ["PSYCHIC"],
     sprite: "/Front/UNOWN_24.png",
-    backSprite: "/spritesBack/UNOWN_24.png",
+    backSprite: "/Back/UNOWN_24.png",
     description:
       "This Pokémon is shaped like ancient text characters. Although research is ongoing, it is a mystery as to which came first, the ancient writings or the various Unown.",
     stats: {
@@ -8275,7 +8275,7 @@ export const pokemonForms: PokemonForm[] = [
     name: "Unown",
     types: ["PSYCHIC"],
     sprite: "/Front/UNOWN_25.png",
-    backSprite: "/spritesBack/UNOWN_25.png",
+    backSprite: "/Back/UNOWN_25.png",
     description:
       "This Pokémon is shaped like ancient text characters. Although research is ongoing, it is a mystery as to which came first, the ancient writings or the various Unown.",
     stats: {
@@ -8307,7 +8307,7 @@ export const pokemonForms: PokemonForm[] = [
     name: "Unown",
     types: ["PSYCHIC"],
     sprite: "/Front/UNOWN_26.png",
-    backSprite: "/spritesBack/UNOWN_26.png",
+    backSprite: "/Back/UNOWN_26.png",
     description:
       "This Pokémon is shaped like ancient text characters. Although research is ongoing, it is a mystery as to which came first, the ancient writings or the various Unown.",
     stats: {
@@ -8339,7 +8339,7 @@ export const pokemonForms: PokemonForm[] = [
     name: "Unown",
     types: ["PSYCHIC"],
     sprite: "/Front/UNOWN_27.png",
-    backSprite: "/spritesBack/UNOWN_27.png",
+    backSprite: "/Back/UNOWN_27.png",
     description:
       "This Pokémon is shaped like ancient text characters. Although research is ongoing, it is a mystery as to which came first, the ancient writings or the various Unown.",
     stats: {
@@ -8371,7 +8371,7 @@ export const pokemonForms: PokemonForm[] = [
     name: "Steelix",
     types: ["STEEL", "GROUND"],
     sprite: "/Front/STEELIX_1.png",
-    backSprite: "/spritesBack/STEELIX_1.png",
+    backSprite: "/Back/STEELIX_1.png",
     description:
       "Steelix live even further underground than Onix. This Pokémon is known to dig toward the earth's core, reaching a depth of over six-tenths of a mile underground.",
     stats: {
@@ -8515,7 +8515,7 @@ export const pokemonForms: PokemonForm[] = [
     name: "Qwilfish",
     types: ["DARK", "POISON"],
     sprite: "/Front/QWILFISH_1.png",
-    backSprite: "/spritesBack/QWILFISH_1.png",
+    backSprite: "/Back/QWILFISH_1.png",
     description:
       "It absorbs toxins from the food it eats. The distinct purple spikes on its body are evidence of its potent poison.",
     stats: {
@@ -8631,7 +8631,7 @@ export const pokemonForms: PokemonForm[] = [
     name: "Scizor",
     types: ["BUG", "STEEL"],
     sprite: "/Front/SCIZOR_1.png",
-    backSprite: "/spritesBack/SCIZOR_1.png",
+    backSprite: "/Back/SCIZOR_1.png",
     description:
       "It's better at beating things than grasping them. When it battles for a long time, the weight of its pincers becomes too much to bear.",
     stats: {
@@ -8765,7 +8765,7 @@ export const pokemonForms: PokemonForm[] = [
     name: "Heracross",
     types: ["BUG", "FIGHTING"],
     sprite: "/Front/HERACROSS_1.png",
-    backSprite: "/spritesBack/HERACROSS_1.png",
+    backSprite: "/Back/HERACROSS_1.png",
     description:
       "A tremendous influx of energy builds it up, but when Mega Evolution ends, Heracross is bothered by terrible soreness in its muscles.",
     stats: {
@@ -8907,7 +8907,7 @@ export const pokemonForms: PokemonForm[] = [
     name: "Sneasel",
     types: ["FIGHTING", "POISON"],
     sprite: "/Front/SNEASEL_1.png",
-    backSprite: "/spritesBack/SNEASEL_1.png",
+    backSprite: "/Back/SNEASEL_1.png",
     description:
       "Its sturdy, curved claws are ideal for traversing precipitous cliffs. From the tips of these claws drips a venom that infiltrates the nerves of any prey caught in Sneasel's grasp.",
     stats: {
@@ -9018,7 +9018,7 @@ export const pokemonForms: PokemonForm[] = [
     name: "Corsola",
     types: ["GHOST"],
     sprite: "/Front/CORSOLA_1.png",
-    backSprite: "/spritesBack/CORSOLA_1.png",
+    backSprite: "/Back/CORSOLA_1.png",
     description:
       "Sudden climate change wiped out this ancient kind of Corsola. This Pokémon absorbs others' life-force through its branches.",
     stats: {
@@ -9140,7 +9140,7 @@ export const pokemonForms: PokemonForm[] = [
     name: "Houndoom",
     types: ["DARK", "FIRE"],
     sprite: "/Front/HOUNDOOM_1.png",
-    backSprite: "/spritesBack/HOUNDOOM_1.png",
+    backSprite: "/Back/HOUNDOOM_1.png",
     description:
       "Its red claws and the tips of its tail are melting from high internal temperatures that are painful to Houndoom itself.",
     stats: {
@@ -9271,7 +9271,7 @@ export const pokemonForms: PokemonForm[] = [
     name: "Tyranitar",
     types: ["ROCK", "DARK"],
     sprite: "/Front/TYRANITAR_1.png",
-    backSprite: "/spritesBack/TYRANITAR_1.png",
+    backSprite: "/Back/TYRANITAR_1.png",
     description:
       "Due to the colossal power poured into it, this Pokémon's back split right open. Its destructive instincts are the only thing keeping it moving.",
     stats: {
@@ -9448,7 +9448,7 @@ export const pokemonForms: PokemonForm[] = [
     name: "Sceptile",
     types: ["GRASS", "DRAGON"],
     sprite: "/Front/SCEPTILE_1.png",
-    backSprite: "/spritesBack/SCEPTILE_1.png",
+    backSprite: "/Back/SCEPTILE_1.png",
     description:
       "In the jungle, its power is without equal. This Pokémon carefully grows trees and plants. It regulates its body temperature by basking in sunlight.",
     stats: {
@@ -9605,7 +9605,7 @@ export const pokemonForms: PokemonForm[] = [
     name: "Blaziken",
     types: ["FIRE", "FIGHTING"],
     sprite: "/Front/BLAZIKEN_1.png",
-    backSprite: "/spritesBack/BLAZIKEN_1.png",
+    backSprite: "/Back/BLAZIKEN_1.png",
     description:
       "It learns martial arts that use punches and kicks. Every several years, its old feathers burn off, and new, supple feathers grow back in their place.",
     stats: {
@@ -9764,7 +9764,7 @@ export const pokemonForms: PokemonForm[] = [
     name: "Swampert",
     types: ["WATER", "GROUND"],
     sprite: "/Front/SWAMPERT_1.png",
-    backSprite: "/spritesBack/SWAMPERT_1.png",
+    backSprite: "/Back/SWAMPERT_1.png",
     description:
       "If it senses the approach of a storm and a tidal wave, it protects its seaside nest by piling up boulders. It swims as fast as a jet ski.",
     stats: {
@@ -9914,7 +9914,7 @@ export const pokemonForms: PokemonForm[] = [
     name: "Zigzagoon",
     types: ["DARK", "NORMAL"],
     sprite: "/Front/ZIGZAGOON_1.png",
-    backSprite: "/spritesBack/ZIGZAGOON_1.png",
+    backSprite: "/Back/ZIGZAGOON_1.png",
     description:
       "Its restlessness has it constantly running around. If it sees another Pokémon, it will purposely run into them in order to start a fight.",
     stats: {
@@ -10023,7 +10023,7 @@ export const pokemonForms: PokemonForm[] = [
     name: "Linoone",
     types: ["DARK", "NORMAL"],
     sprite: "/Front/LINOONE_1.png",
-    backSprite: "/spritesBack/LINOONE_1.png",
+    backSprite: "/Back/LINOONE_1.png",
     description:
       "It uses its long tongue to taunt opponents. Once the opposition is enraged, this Pokémon hurls itself at the opponent, tackling them forcefully.",
     stats: {
@@ -10142,7 +10142,7 @@ export const pokemonForms: PokemonForm[] = [
     name: "Gardevoir",
     types: ["PSYCHIC", "FAIRY"],
     sprite: "/Front/GARDEVOIR_1.png",
-    backSprite: "/spritesBack/GARDEVOIR_1.png",
+    backSprite: "/Back/GARDEVOIR_1.png",
     description:
       "It apparently does not feel the pull of gravity because it supports itself with psychic power. It will give its life to protect its trainer.",
     stats: {
@@ -10298,7 +10298,7 @@ export const pokemonForms: PokemonForm[] = [
     name: "Sableye",
     types: ["DARK", "GHOST"],
     sprite: "/Front/SABLEYE_1.png",
-    backSprite: "/spritesBack/SABLEYE_1.png",
+    backSprite: "/Back/SABLEYE_1.png",
     description:
       "Supporting a giant heavy jewel, it can't change direction very nimbly and is vulnerable to attack from behind.",
     stats: {
@@ -10474,7 +10474,7 @@ export const pokemonForms: PokemonForm[] = [
     name: "Mawile",
     types: ["STEEL", "FAIRY"],
     sprite: "/Front/MAWILE_1.png",
-    backSprite: "/spritesBack/MAWILE_1.png",
+    backSprite: "/Back/MAWILE_1.png",
     description:
       "Its two sets of jaws thrash about violently as if they each had a will of their own. One gnash from them can turn a boulder to dust.",
     stats: {
@@ -10629,7 +10629,7 @@ export const pokemonForms: PokemonForm[] = [
     name: "Aggron",
     types: ["STEEL"],
     sprite: "/Front/AGGRON_1.png",
-    backSprite: "/spritesBack/AGGRON_1.png",
+    backSprite: "/Back/AGGRON_1.png",
     description:
       "Its iron horns grow longer a little at a time. They are used to determine the Aggron's age. The gouges in its armor are worn with pride as mementos from battles.",
     stats: {
@@ -10793,7 +10793,7 @@ export const pokemonForms: PokemonForm[] = [
     name: "Medicham",
     types: ["FIGHTING", "PSYCHIC"],
     sprite: "/Front/MEDICHAM_1.png",
-    backSprite: "/spritesBack/MEDICHAM_1.png",
+    backSprite: "/Back/MEDICHAM_1.png",
     description:
       "Through crushingly harsh yoga training, it gained the power to foretell its foe's actions. It battles with elegant, dance- like movement.",
     stats: {
@@ -10939,7 +10939,7 @@ export const pokemonForms: PokemonForm[] = [
     name: "Manectric",
     types: ["ELECTRIC"],
     sprite: "/Front/MANECTRIC_1.png",
-    backSprite: "/spritesBack/MANECTRIC_1.png",
+    backSprite: "/Back/MANECTRIC_1.png",
     description:
       "Too much electricity has built up in its body, irritating Manectric. Its explosive speed is equal to that of a lightning bolt.",
     stats: {
@@ -11047,7 +11047,7 @@ export const pokemonForms: PokemonForm[] = [
     name: "Sharpedo",
     types: ["WATER", "DARK"],
     sprite: "/Front/SHARPEDO_1.png",
-    backSprite: "/spritesBack/SHARPEDO_1.png",
+    backSprite: "/Back/SHARPEDO_1.png",
     description:
       "The yellow patterns it bears are old scars. The energy from Mega Evolution runs through them, causing it sharp pain and suffering.",
     stats: {
@@ -11167,7 +11167,7 @@ export const pokemonForms: PokemonForm[] = [
     name: "Camerupt",
     types: ["FIRE", "GROUND"],
     sprite: "/Front/CAMERUPT_1.png",
-    backSprite: "/spritesBack/CAMERUPT_1.png",
+    backSprite: "/Back/CAMERUPT_1.png",
     description:
       "A Pokémon that lives in the crater of a volcano. Every 10 years, the volcanoes on its back erupt violently. Research is under way on the cause of eruption.",
     stats: {
@@ -11295,7 +11295,7 @@ export const pokemonForms: PokemonForm[] = [
     name: "Altaria",
     types: ["DRAGON", "FAIRY"],
     sprite: "/Front/ALTARIA_1.png",
-    backSprite: "/spritesBack/ALTARIA_1.png",
+    backSprite: "/Back/ALTARIA_1.png",
     description:
       "It hums in a beautiful soprano voice. It flies among white clouds in the blue sky. It launches intensely hot fireballs from its mouth.",
     stats: {
@@ -11428,7 +11428,7 @@ export const pokemonForms: PokemonForm[] = [
     name: "Castform",
     types: ["FIRE"],
     sprite: "/Front/CASTFORM_1.png",
-    backSprite: "/spritesBack/CASTFORM_1.png",
+    backSprite: "/Back/CASTFORM_1.png",
     description:
       "This is the form Castform takes on the brightest of days. Its skin is unexpectedly hot to the touch, so approach with care.",
     stats: {
@@ -11536,7 +11536,7 @@ export const pokemonForms: PokemonForm[] = [
     name: "Castform",
     types: ["WATER"],
     sprite: "/Front/CASTFORM_2.png",
-    backSprite: "/spritesBack/CASTFORM_2.png",
+    backSprite: "/Back/CASTFORM_2.png",
     description:
       "This is the form Castform takes when soaked with rain. When its body is compressed, water will seep out as if from a sponge.",
     stats: {
@@ -11644,7 +11644,7 @@ export const pokemonForms: PokemonForm[] = [
     name: "Castform",
     types: ["ICE"],
     sprite: "/Front/CASTFORM_3.png",
-    backSprite: "/spritesBack/CASTFORM_3.png",
+    backSprite: "/Back/CASTFORM_3.png",
     description:
       "This is the form Castform takes when covered in snow. Its body becomes an ice-like material, with a temperature near -5 degrees Celsius.",
     stats: {
@@ -11752,7 +11752,7 @@ export const pokemonForms: PokemonForm[] = [
     name: "Banette",
     types: ["GHOST"],
     sprite: "/Front/BANETTE_1.png",
-    backSprite: "/spritesBack/BANETTE_1.png",
+    backSprite: "/Back/BANETTE_1.png",
     description:
       "Extraordinary energy amplifies its cursing power to such an extent that it can't help but curse its own Trainer.",
     stats: {
@@ -11883,7 +11883,7 @@ export const pokemonForms: PokemonForm[] = [
     name: "Absol",
     types: ["DARK"],
     sprite: "/Front/ABSOL_1.png",
-    backSprite: "/spritesBack/ABSOL_1.png",
+    backSprite: "/Back/ABSOL_1.png",
     description:
       "When this Pokémon whips the winglike fur on its back as though beating its wings, it sends an intimidating aura flying at its opponents.",
     stats: {
@@ -12039,7 +12039,7 @@ export const pokemonForms: PokemonForm[] = [
     name: "Glalie",
     types: ["ICE"],
     sprite: "/Front/GLALIE_1.png",
-    backSprite: "/spritesBack/GLALIE_1.png",
+    backSprite: "/Back/GLALIE_1.png",
     description:
       "It envelops prey in its mouth, freezing them instantly. But its jaw is dislocated, so it's unable to eat them.",
     stats: {
@@ -12158,7 +12158,7 @@ export const pokemonForms: PokemonForm[] = [
     name: "Salamence",
     types: ["DRAGON", "FLYING"],
     sprite: "/Front/SALAMENCE_1.png",
-    backSprite: "/spritesBack/SALAMENCE_1.png",
+    backSprite: "/Back/SALAMENCE_1.png",
     description:
       "It puts its forelegs inside its shell to streamline itself for flight. Salamence flies at high speeds over all kinds of topographical features.",
     stats: {
@@ -12295,7 +12295,7 @@ export const pokemonForms: PokemonForm[] = [
     name: "Metagross",
     types: ["STEEL", "PSYCHIC"],
     sprite: "/Front/METAGROSS_1.png",
-    backSprite: "/spritesBack/METAGROSS_1.png",
+    backSprite: "/Back/METAGROSS_1.png",
     description:
       "Its intellect surpasses its previous level, resulting in battles so cruel, they'll make you want to cover your eyes.",
     stats: {
@@ -12441,7 +12441,7 @@ export const pokemonForms: PokemonForm[] = [
     name: "Latias",
     types: ["DRAGON", "PSYCHIC"],
     sprite: "/Front/LATIAS_1.png",
-    backSprite: "/spritesBack/LATIAS_1.png",
+    backSprite: "/Back/LATIAS_1.png",
     description:
       "They make a small herd of only several members. They rarely make contact with people or other Pokémon. They disappear if they sense enemies.",
     stats: {
@@ -12598,7 +12598,7 @@ export const pokemonForms: PokemonForm[] = [
     name: "Latios",
     types: ["DRAGON", "PSYCHIC"],
     sprite: "/Front/LATIOS_1.png",
-    backSprite: "/spritesBack/LATIOS_1.png",
+    backSprite: "/Back/LATIOS_1.png",
     description:
       "Even in hiding, it can detect the locations of others and sense their emotions since it has telepathy. Its intelligence allows it to understand human languages.",
     stats: {
@@ -12749,7 +12749,7 @@ export const pokemonForms: PokemonForm[] = [
     name: "Kyogre",
     types: ["WATER"],
     sprite: "/Front/KYOGRE_1.png",
-    backSprite: "/spritesBack/KYOGRE_1.png",
+    backSprite: "/Back/KYOGRE_1.png",
     description:
       "Kyogre has appeared in mythology as the creator of the sea. After long years of feuding with Groudon, it took to sleep at the bottom of the sea.",
     stats: {
@@ -12859,7 +12859,7 @@ export const pokemonForms: PokemonForm[] = [
     name: "Groudon",
     types: ["GROUND", "FIRE"],
     sprite: "/Front/GROUDON_1.png",
-    backSprite: "/spritesBack/GROUDON_1.png",
+    backSprite: "/Back/GROUDON_1.png",
     description:
       "Groudon has appeared in mythology as the creator of the land. It sleeps in magma underground and is said to make volcanoes erupt on awakening.",
     stats: {
@@ -13004,7 +13004,7 @@ export const pokemonForms: PokemonForm[] = [
     name: "Rayquaza",
     types: ["DRAGON", "FLYING"],
     sprite: "/Front/RAYQUAZA_1.png",
-    backSprite: "/spritesBack/RAYQUAZA_1.png",
+    backSprite: "/Back/RAYQUAZA_1.png",
     description:
       "A Pokémon that flies endlessly in the ozone layer. It is said it would descend to the ground if Kyogre and Groudon were to fight.",
     stats: {
@@ -13151,7 +13151,7 @@ export const pokemonForms: PokemonForm[] = [
     name: "Deoxys",
     types: ["PSYCHIC"],
     sprite: "/Front/DEOXYS_1.png",
-    backSprite: "/spritesBack/DEOXYS_1.png",
+    backSprite: "/Back/DEOXYS_1.png",
     description:
       "A Pokémon that mutated from an extraterrestrial virus exposed to a laser beam. Its body is configured for superior agility and speed.",
     stats: {
@@ -13305,7 +13305,7 @@ export const pokemonForms: PokemonForm[] = [
     name: "Deoxys",
     types: ["PSYCHIC"],
     sprite: "/Front/DEOXYS_2.png",
-    backSprite: "/spritesBack/DEOXYS_2.png",
+    backSprite: "/Back/DEOXYS_2.png",
     description:
       "A Pokémon that mutated from an extraterrestrial virus exposed to a laser beam. Its body is configured for superior agility and speed.",
     stats: {
@@ -13462,7 +13462,7 @@ export const pokemonForms: PokemonForm[] = [
     name: "Deoxys",
     types: ["PSYCHIC"],
     sprite: "/Front/DEOXYS_3.png",
-    backSprite: "/spritesBack/DEOXYS_3.png",
+    backSprite: "/Back/DEOXYS_3.png",
     description:
       "A Pokémon that mutated from an extraterrestrial virus exposed to a laser beam. Its body is configured for superior agility and speed.",
     stats: {
@@ -13616,7 +13616,7 @@ export const pokemonForms: PokemonForm[] = [
     name: "Burmy",
     types: ["BUG"],
     sprite: "/Front/BURMY_1.png",
-    backSprite: "/spritesBack/BURMY_1.png",
+    backSprite: "/Back/BURMY_1.png",
     description:
       "To shelter itself from cold, wintry winds, it covers itself with a cloak made of twigs and leaves.",
     stats: {
@@ -13661,7 +13661,7 @@ export const pokemonForms: PokemonForm[] = [
     name: "Burmy",
     types: ["BUG"],
     sprite: "/Front/BURMY_2.png",
-    backSprite: "/spritesBack/BURMY_2.png",
+    backSprite: "/Back/BURMY_2.png",
     description:
       "To shelter itself from cold, wintry winds, it covers itself with a cloak made of twigs and leaves.",
     stats: {
@@ -13706,7 +13706,7 @@ export const pokemonForms: PokemonForm[] = [
     name: "Wormadam",
     types: ["BUG", "GROUND"],
     sprite: "/Front/WORMADAM_1.png",
-    backSprite: "/spritesBack/WORMADAM_1.png",
+    backSprite: "/Back/WORMADAM_1.png",
     description:
       "When Burmy evolved, its cloak became a part of this Pokémon's body. The cloak is never shed.",
     stats: {
@@ -13813,7 +13813,7 @@ export const pokemonForms: PokemonForm[] = [
     name: "Wormadam",
     types: ["BUG", "STEEL"],
     sprite: "/Front/WORMADAM_2.png",
-    backSprite: "/spritesBack/WORMADAM_2.png",
+    backSprite: "/Back/WORMADAM_2.png",
     description:
       "When Burmy evolved, its cloak became a part of this Pokémon's body. The cloak is never shed.",
     stats: {
@@ -13921,7 +13921,7 @@ export const pokemonForms: PokemonForm[] = [
     name: "Cherrim",
     types: ["GRASS"],
     sprite: "/Front/CHERRIM_1.png",
-    backSprite: "/spritesBack/CHERRIM_1.png",
+    backSprite: "/Back/CHERRIM_1.png",
     description:
       "After absorbing plenty of sunlight, Cherrim takes this form. It's full of energy while it's like this, and its liveliness will go on until sundown.",
     stats: {
@@ -14015,7 +14015,7 @@ export const pokemonForms: PokemonForm[] = [
     name: "Shellos",
     types: ["WATER"],
     sprite: "/Front/SHELLOS_1.png",
-    backSprite: "/spritesBack/SHELLOS_1.png",
+    backSprite: "/Back/SHELLOS_1.png",
     description:
       "Its appearance changes depending on the environment. One theory suggests that living in cold seas causes Shellos to take on this form.",
     stats: {
@@ -14137,7 +14137,7 @@ export const pokemonForms: PokemonForm[] = [
     name: "Gastrodon",
     types: ["WATER", "GROUND"],
     sprite: "/Front/GASTRODON_1.png",
-    backSprite: "/spritesBack/GASTRODON_1.png",
+    backSprite: "/Back/GASTRODON_1.png",
     description:
       "Its body is covered in a sticky slime. It's very susceptible to dehydration, so it can't spend too much time on land.",
     stats: {
@@ -14253,7 +14253,7 @@ export const pokemonForms: PokemonForm[] = [
     name: "Lopunny",
     types: ["NORMAL", "FIGHTING"],
     sprite: "/Front/LOPUNNY_1.png",
-    backSprite: "/spritesBack/LOPUNNY_1.png",
+    backSprite: "/Back/LOPUNNY_1.png",
     description:
       "It swings its ears like whips and strikes its enemies with them. It has an intensely combative disposition.",
     stats: {
@@ -14389,7 +14389,7 @@ export const pokemonForms: PokemonForm[] = [
     name: "Garchomp",
     types: ["DRAGON", "GROUND"],
     sprite: "/Front/GARCHOMP_1.png",
-    backSprite: "/spritesBack/GARCHOMP_1.png",
+    backSprite: "/Back/GARCHOMP_1.png",
     description:
       "Its vaunted wings become scythes, sending it mad with rage. It swings its scythes wildly and slices the ground to pieces.",
     stats: {
@@ -14519,7 +14519,7 @@ export const pokemonForms: PokemonForm[] = [
     name: "Lucario",
     types: ["FIGHTING", "STEEL"],
     sprite: "/Front/LUCARIO_1.png",
-    backSprite: "/spritesBack/LUCARIO_1.png",
+    backSprite: "/Back/LUCARIO_1.png",
     description:
       "It readies itself to face its enemies by focusing its mental energies. Its fighting style can be summed up in a single word: heartless.",
     stats: {
@@ -14675,7 +14675,7 @@ export const pokemonForms: PokemonForm[] = [
     name: "Abomasnow",
     types: ["GRASS", "ICE"],
     sprite: "/Front/ABOMASNOW_1.png",
-    backSprite: "/spritesBack/ABOMASNOW_1.png",
+    backSprite: "/Back/ABOMASNOW_1.png",
     description:
       "It whips up blizzards in mountains that are always buried in snow. It is the abominable snowman.",
     stats: {
@@ -14804,7 +14804,7 @@ export const pokemonForms: PokemonForm[] = [
     name: "Gallade",
     types: ["PSYCHIC", "FIGHTING"],
     sprite: "/Front/GALLADE_1.png",
-    backSprite: "/spritesBack/GALLADE_1.png",
+    backSprite: "/Back/GALLADE_1.png",
     description:
       "A master of courtesy and swordsmanship, it fights using extending swords on its elbows.",
     stats: {
@@ -15003,7 +15003,7 @@ export const pokemonForms: PokemonForm[] = [
     name: "Rotom",
     types: ["ELECTRIC", "FIRE"],
     sprite: "/Front/ROTOM_1.png",
-    backSprite: "/spritesBack/ROTOM_1.png",
+    backSprite: "/Back/ROTOM_1.png",
     description:
       "This Rotom has possessed a convection microwave oven that uses a special motor. It also has a flair for manipulating flames.",
     stats: {
@@ -15110,7 +15110,7 @@ export const pokemonForms: PokemonForm[] = [
     name: "Rotom",
     types: ["ELECTRIC", "WATER"],
     sprite: "/Front/ROTOM_2.png",
-    backSprite: "/spritesBack/ROTOM_2.png",
+    backSprite: "/Back/ROTOM_2.png",
     description:
       "This form of Rotom enjoys coming up with water-based pranks. Be careful with it if you don't want your room flooded.",
     stats: {
@@ -15217,7 +15217,7 @@ export const pokemonForms: PokemonForm[] = [
     name: "Rotom",
     types: ["ELECTRIC", "ICE"],
     sprite: "/Front/ROTOM_3.png",
-    backSprite: "/spritesBack/ROTOM_3.png",
+    backSprite: "/Back/ROTOM_3.png",
     description:
       "Rotom assumes this form when it takes over a refrigerator powered by a special motor. It battles by spewing cold air.",
     stats: {
@@ -15324,7 +15324,7 @@ export const pokemonForms: PokemonForm[] = [
     name: "Rotom",
     types: ["ELECTRIC", "FLYING"],
     sprite: "/Front/ROTOM_4.png",
-    backSprite: "/spritesBack/ROTOM_4.png",
+    backSprite: "/Back/ROTOM_4.png",
     description:
       "In this form, Rotom applies its new power over wind to its love of pranks. It will happily blow away any important documents it can find.",
     stats: {
@@ -15431,7 +15431,7 @@ export const pokemonForms: PokemonForm[] = [
     name: "Rotom",
     types: ["ELECTRIC", "GRASS"],
     sprite: "/Front/ROTOM_5.png",
-    backSprite: "/spritesBack/ROTOM_5.png",
+    backSprite: "/Back/ROTOM_5.png",
     description:
       "This is Rotom after it's seized control of a lawn mower that has a special motor. As it mows down grass, it scatters the clippings everywhere.",
     stats: {
@@ -15538,7 +15538,7 @@ export const pokemonForms: PokemonForm[] = [
     name: "Dialga",
     types: ["STEEL", "DRAGON"],
     sprite: "/Front/DIALGA_1.png",
-    backSprite: "/spritesBack/DIALGA_1.png",
+    backSprite: "/Back/DIALGA_1.png",
     description:
       "Radiant light caused Dialga to take on a form bearing a striking resemblance to the creator Pokémon. Dialga now wields such colossal strength that one must conclude this is its true form.",
     stats: {
@@ -15670,7 +15670,7 @@ export const pokemonForms: PokemonForm[] = [
     name: "Palkia",
     types: ["WATER", "DRAGON"],
     sprite: "/Front/PALKIA_1.png",
-    backSprite: "/spritesBack/PALKIA_1.png",
+    backSprite: "/Back/PALKIA_1.png",
     description:
       "It soars across the sky in a form that greatly resembles the creator of all things. Perhaps this imitation of appearance is Palkia's strategy for gaining Arceus's powers.",
     stats: {
@@ -15807,7 +15807,7 @@ export const pokemonForms: PokemonForm[] = [
     name: "Giratina",
     types: ["GHOST", "DRAGON"],
     sprite: "/Front/GIRATINA_1.png",
-    backSprite: "/spritesBack/GIRATINA_1.png",
+    backSprite: "/Back/GIRATINA_1.png",
     description:
       "A Pokémon that is said to live in a world on the reverse side of ours. It appears in an ancient cemetery.",
     stats: {
@@ -15940,7 +15940,7 @@ export const pokemonForms: PokemonForm[] = [
     name: "Shaymin",
     types: ["GRASS", "FLYING"],
     sprite: "/Front/SHAYMIN_1.png",
-    backSprite: "/spritesBack/SHAYMIN_1.png",
+    backSprite: "/Back/SHAYMIN_1.png",
     description:
       "It lives in flower patches and avoids detection by curling up to look like a flowering plant.",
     stats: {
@@ -16045,7 +16045,7 @@ export const pokemonForms: PokemonForm[] = [
     name: "Arceus",
     types: ["FIGHTING"],
     sprite: "/Front/ARCEUS_1.png",
-    backSprite: "/spritesBack/ARCEUS_1.png",
+    backSprite: "/Back/ARCEUS_1.png",
     description:
       "It is described in mythology as the Pokémon that shaped the universe with its 1,000 arms.",
     stats: {
@@ -16248,7 +16248,7 @@ export const pokemonForms: PokemonForm[] = [
     name: "Arceus",
     types: ["FLYING"],
     sprite: "/Front/ARCEUS_2.png",
-    backSprite: "/spritesBack/ARCEUS_2.png",
+    backSprite: "/Back/ARCEUS_2.png",
     description:
       "It is described in mythology as the Pokémon that shaped the universe with its 1,000 arms.",
     stats: {
@@ -16451,7 +16451,7 @@ export const pokemonForms: PokemonForm[] = [
     name: "Arceus",
     types: ["POISON"],
     sprite: "/Front/ARCEUS_3.png",
-    backSprite: "/spritesBack/ARCEUS_3.png",
+    backSprite: "/Back/ARCEUS_3.png",
     description:
       "It is described in mythology as the Pokémon that shaped the universe with its 1,000 arms.",
     stats: {
@@ -16654,7 +16654,7 @@ export const pokemonForms: PokemonForm[] = [
     name: "Arceus",
     types: ["GROUND"],
     sprite: "/Front/ARCEUS_4.png",
-    backSprite: "/spritesBack/ARCEUS_4.png",
+    backSprite: "/Back/ARCEUS_4.png",
     description:
       "It is described in mythology as the Pokémon that shaped the universe with its 1,000 arms.",
     stats: {
@@ -16857,7 +16857,7 @@ export const pokemonForms: PokemonForm[] = [
     name: "Arceus",
     types: ["ROCK"],
     sprite: "/Front/ARCEUS_5.png",
-    backSprite: "/spritesBack/ARCEUS_5.png",
+    backSprite: "/Back/ARCEUS_5.png",
     description:
       "It is described in mythology as the Pokémon that shaped the universe with its 1,000 arms.",
     stats: {
@@ -17060,7 +17060,7 @@ export const pokemonForms: PokemonForm[] = [
     name: "Arceus",
     types: ["BUG"],
     sprite: "/Front/ARCEUS_6.png",
-    backSprite: "/spritesBack/ARCEUS_6.png",
+    backSprite: "/Back/ARCEUS_6.png",
     description:
       "It is described in mythology as the Pokémon that shaped the universe with its 1,000 arms.",
     stats: {
@@ -17263,7 +17263,7 @@ export const pokemonForms: PokemonForm[] = [
     name: "Arceus",
     types: ["GHOST"],
     sprite: "/Front/ARCEUS_7.png",
-    backSprite: "/spritesBack/ARCEUS_7.png",
+    backSprite: "/Back/ARCEUS_7.png",
     description:
       "It is described in mythology as the Pokémon that shaped the universe with its 1,000 arms.",
     stats: {
@@ -17466,7 +17466,7 @@ export const pokemonForms: PokemonForm[] = [
     name: "Arceus",
     types: ["STEEL"],
     sprite: "/Front/ARCEUS_8.png",
-    backSprite: "/spritesBack/ARCEUS_8.png",
+    backSprite: "/Back/ARCEUS_8.png",
     description:
       "It is described in mythology as the Pokémon that shaped the universe with its 1,000 arms.",
     stats: {
@@ -17669,7 +17669,7 @@ export const pokemonForms: PokemonForm[] = [
     name: "Arceus",
     types: ["QMARKS"],
     sprite: "/Front/ARCEUS_9.png",
-    backSprite: "/spritesBack/ARCEUS_9.png",
+    backSprite: "/Back/ARCEUS_9.png",
     description:
       "It is described in mythology as the Pokémon that shaped the universe with its 1,000 arms.",
     stats: {
@@ -17872,7 +17872,7 @@ export const pokemonForms: PokemonForm[] = [
     name: "Arceus",
     types: ["FIRE"],
     sprite: "/Front/ARCEUS_10.png",
-    backSprite: "/spritesBack/ARCEUS_10.png",
+    backSprite: "/Back/ARCEUS_10.png",
     description:
       "It is described in mythology as the Pokémon that shaped the universe with its 1,000 arms.",
     stats: {
@@ -18075,7 +18075,7 @@ export const pokemonForms: PokemonForm[] = [
     name: "Arceus",
     types: ["WATER"],
     sprite: "/Front/ARCEUS_11.png",
-    backSprite: "/spritesBack/ARCEUS_11.png",
+    backSprite: "/Back/ARCEUS_11.png",
     description:
       "It is described in mythology as the Pokémon that shaped the universe with its 1,000 arms.",
     stats: {
@@ -18278,7 +18278,7 @@ export const pokemonForms: PokemonForm[] = [
     name: "Arceus",
     types: ["GRASS"],
     sprite: "/Front/ARCEUS_12.png",
-    backSprite: "/spritesBack/ARCEUS_12.png",
+    backSprite: "/Back/ARCEUS_12.png",
     description:
       "It is described in mythology as the Pokémon that shaped the universe with its 1,000 arms.",
     stats: {
@@ -18481,7 +18481,7 @@ export const pokemonForms: PokemonForm[] = [
     name: "Arceus",
     types: ["ELECTRIC"],
     sprite: "/Front/ARCEUS_13.png",
-    backSprite: "/spritesBack/ARCEUS_13.png",
+    backSprite: "/Back/ARCEUS_13.png",
     description:
       "It is described in mythology as the Pokémon that shaped the universe with its 1,000 arms.",
     stats: {
@@ -18684,7 +18684,7 @@ export const pokemonForms: PokemonForm[] = [
     name: "Arceus",
     types: ["PSYCHIC"],
     sprite: "/Front/ARCEUS_14.png",
-    backSprite: "/spritesBack/ARCEUS_14.png",
+    backSprite: "/Back/ARCEUS_14.png",
     description:
       "It is described in mythology as the Pokémon that shaped the universe with its 1,000 arms.",
     stats: {
@@ -18887,7 +18887,7 @@ export const pokemonForms: PokemonForm[] = [
     name: "Arceus",
     types: ["ICE"],
     sprite: "/Front/ARCEUS_15.png",
-    backSprite: "/spritesBack/ARCEUS_15.png",
+    backSprite: "/Back/ARCEUS_15.png",
     description:
       "It is described in mythology as the Pokémon that shaped the universe with its 1,000 arms.",
     stats: {
@@ -19090,7 +19090,7 @@ export const pokemonForms: PokemonForm[] = [
     name: "Arceus",
     types: ["DRAGON"],
     sprite: "/Front/ARCEUS_16.png",
-    backSprite: "/spritesBack/ARCEUS_16.png",
+    backSprite: "/Back/ARCEUS_16.png",
     description:
       "It is described in mythology as the Pokémon that shaped the universe with its 1,000 arms.",
     stats: {
@@ -19293,7 +19293,7 @@ export const pokemonForms: PokemonForm[] = [
     name: "Arceus",
     types: ["DARK"],
     sprite: "/Front/ARCEUS_17.png",
-    backSprite: "/spritesBack/ARCEUS_17.png",
+    backSprite: "/Back/ARCEUS_17.png",
     description:
       "It is described in mythology as the Pokémon that shaped the universe with its 1,000 arms.",
     stats: {
@@ -19496,7 +19496,7 @@ export const pokemonForms: PokemonForm[] = [
     name: "Arceus",
     types: ["FAIRY"],
     sprite: "/Front/ARCEUS_18.png",
-    backSprite: "/spritesBack/ARCEUS_18.png",
+    backSprite: "/Back/ARCEUS_18.png",
     description:
       "It is described in mythology as the Pokémon that shaped the universe with its 1,000 arms.",
     stats: {
@@ -19699,7 +19699,7 @@ export const pokemonForms: PokemonForm[] = [
     name: "Samurott",
     types: ["WATER", "DARK"],
     sprite: "/Front/SAMUROTT_1.png",
-    backSprite: "/spritesBack/SAMUROTT_1.png",
+    backSprite: "/Back/SAMUROTT_1.png",
     description:
       "Hard of heart and deft of blade, this rare form of Samurott is a product of the Pokémon's evolution in the region of Hisui. Its turbulent blows crash into foes like ceaseless pounding waves.",
     stats: {
@@ -19804,7 +19804,7 @@ export const pokemonForms: PokemonForm[] = [
     name: "Audino",
     types: ["NORMAL", "FAIRY"],
     sprite: "/Front/AUDINO_1.png",
-    backSprite: "/spritesBack/AUDINO_1.png",
+    backSprite: "/Back/AUDINO_1.png",
     description:
       "Its auditory sense is astounding. It has a radar-like ability to understand its surrounding through slight sounds.",
     stats: {
@@ -19946,7 +19946,7 @@ export const pokemonForms: PokemonForm[] = [
     name: "Lilligant",
     types: ["GRASS", "FIGHTING"],
     sprite: "/Front/LILLIGANT_1.png",
-    backSprite: "/spritesBack/LILLIGANT_1.png",
+    backSprite: "/Back/LILLIGANT_1.png",
     description:
       "I suspect that its well-developed legs are the result of a life spent on mountains covered in deep snow. The scent it exudes from its flower crown heartens those in proximity.",
     stats: {
@@ -20050,7 +20050,7 @@ export const pokemonForms: PokemonForm[] = [
     name: "Basculin",
     types: ["WATER"],
     sprite: "/Front/BASCULIN_1.png",
-    backSprite: "/spritesBack/BASCULIN_1.png",
+    backSprite: "/Back/BASCULIN_1.png",
     description:
       "Even Basculin, which devours everything it can with its huge jaws, is nothing more than food to organisms stronger than itself.",
     stats: {
@@ -20159,7 +20159,7 @@ export const pokemonForms: PokemonForm[] = [
     name: "Basculin",
     types: ["WATER"],
     sprite: "/Front/BASCULIN_2.png",
-    backSprite: "/spritesBack/BASCULIN_2.png",
+    backSprite: "/Back/BASCULIN_2.png",
     description:
       "They live in frigid seas, forming schools and sharing food among themselves. When the time comes, they return to the river they were born in.",
     stats: {
@@ -20250,7 +20250,7 @@ export const pokemonForms: PokemonForm[] = [
     name: "Basculin",
     types: ["WATER"],
     sprite: "/Front/BASCULIN_3.png",
-    backSprite: "/spritesBack/BASCULIN_3.png",
+    backSprite: "/Back/BASCULIN_3.png",
     description:
       "They live in frigid seas, forming schools and sharing food among themselves. When the time comes, they return to the river they were born in.",
     stats: {
@@ -20341,7 +20341,7 @@ export const pokemonForms: PokemonForm[] = [
     name: "Darumaka",
     types: ["ICE"],
     sprite: "/Front/DARUMAKA_2.png",
-    backSprite: "/spritesBack/DARUMAKA_2.png",
+    backSprite: "/Back/DARUMAKA_2.png",
     description:
       "The colder they get, the more energetic they are. They freeze their breath to make snowballs, using them as ammo for playful snowball fights.",
     stats: {
@@ -20459,7 +20459,7 @@ export const pokemonForms: PokemonForm[] = [
     name: "Darmanitan",
     types: ["FIRE", "PSYCHIC"],
     sprite: "/Front/DARMANITAN_1.png",
-    backSprite: "/spritesBack/DARMANITAN_1.png",
+    backSprite: "/Back/DARMANITAN_1.png",
     description:
       "When wounded, it stops moving. It goes as still as stone to meditate, sharpening its mind and spirit.",
     stats: {
@@ -20591,7 +20591,7 @@ export const pokemonForms: PokemonForm[] = [
     name: "Darmanitan",
     types: ["ICE"],
     sprite: "/Front/DARMANITAN_2.png",
-    backSprite: "/spritesBack/DARMANITAN_2.png",
+    backSprite: "/Back/DARMANITAN_2.png",
     description:
       "On days when blizzards blow through, it comes down to where people live. It stashes food in the snowball on its head, taking it home for later.",
     stats: {
@@ -20711,7 +20711,7 @@ export const pokemonForms: PokemonForm[] = [
     name: "Darmanitan",
     types: ["ICE", "FIRE"],
     sprite: "/Front/DARMANITAN_3.png",
-    backSprite: "/spritesBack/DARMANITAN_3.png",
+    backSprite: "/Back/DARMANITAN_3.png",
     description:
       "Anger has reignited its atrophied flame sac. This Pokémon spews fire everywhere as it rampages indiscriminately.",
     stats: {
@@ -20831,7 +20831,7 @@ export const pokemonForms: PokemonForm[] = [
     name: "Yamask",
     types: ["GROUND", "GHOST"],
     sprite: "/Front/YAMASK_1.png",
-    backSprite: "/spritesBack/YAMASK_1.png",
+    backSprite: "/Back/YAMASK_1.png",
     description:
       "A clay slab with cursed engravings took possession of a Yamask. The slab is said to be absorbing the Yamask's dark power.",
     stats: {
@@ -20937,7 +20937,7 @@ export const pokemonForms: PokemonForm[] = [
     name: "Zorua",
     types: ["NORMAL", "GHOST"],
     sprite: "/Front/ZORUA_1.png",
-    backSprite: "/spritesBack/ZORUA_1.png",
+    backSprite: "/Back/ZORUA_1.png",
     description:
       "A once-departed soul, returned to life in Hisui. Derives power from resentment, which rises as energy atop its head and takes on the forms of foes. In this way, Zorua vents lingering malice.",
     stats: {
@@ -21038,7 +21038,7 @@ export const pokemonForms: PokemonForm[] = [
     name: "Zoroark",
     types: ["NORMAL", "GHOST"],
     sprite: "/Front/ZOROARK_1.png",
-    backSprite: "/spritesBack/ZOROARK_1.png",
+    backSprite: "/Back/ZOROARK_1.png",
     description:
       "With its disheveled white fur, it looks like an embodiment of death. Heedless of its own safety, Zoroark attacks its nemeses with a bitter energy so intense, it lacerates Zoroark's own body.",
     stats: {
@@ -21151,7 +21151,7 @@ export const pokemonForms: PokemonForm[] = [
     name: "Deerling",
     types: ["NORMAL", "GRASS"],
     sprite: "/Front/DEERLING_1.png",
-    backSprite: "/spritesBack/DEERLING_1.png",
+    backSprite: "/Back/DEERLING_1.png",
     description:
       "The turning of the seasons changes the color and scent of this Pokémon's fur. People use it to mark the seasons.",
     stats: {
@@ -21274,7 +21274,7 @@ export const pokemonForms: PokemonForm[] = [
     name: "Deerling",
     types: ["NORMAL", "GRASS"],
     sprite: "/Front/DEERLING_2.png",
-    backSprite: "/spritesBack/DEERLING_2.png",
+    backSprite: "/Back/DEERLING_2.png",
     description:
       "The turning of the seasons changes the color and scent of this Pokémon's fur. People use it to mark the seasons.",
     stats: {
@@ -21397,7 +21397,7 @@ export const pokemonForms: PokemonForm[] = [
     name: "Deerling",
     types: ["NORMAL", "GRASS"],
     sprite: "/Front/DEERLING_3.png",
-    backSprite: "/spritesBack/DEERLING_3.png",
+    backSprite: "/Back/DEERLING_3.png",
     description:
       "The turning of the seasons changes the color and scent of this Pokémon's fur. People use it to mark the seasons.",
     stats: {
@@ -21520,7 +21520,7 @@ export const pokemonForms: PokemonForm[] = [
     name: "Sawsbuck",
     types: ["NORMAL", "GRASS"],
     sprite: "/Front/SAWSBUCK_1.png",
-    backSprite: "/spritesBack/SAWSBUCK_1.png",
+    backSprite: "/Back/SAWSBUCK_1.png",
     description:
       "The plants growing on its horns change according to the season. The leaders of the herd possess magnificent horns.",
     stats: {
@@ -21639,7 +21639,7 @@ export const pokemonForms: PokemonForm[] = [
     name: "Sawsbuck",
     types: ["NORMAL", "GRASS"],
     sprite: "/Front/SAWSBUCK_2.png",
-    backSprite: "/spritesBack/SAWSBUCK_2.png",
+    backSprite: "/Back/SAWSBUCK_2.png",
     description:
       "The plants growing on its horns change according to the season. The leaders of the herd possess magnificent horns.",
     stats: {
@@ -21758,7 +21758,7 @@ export const pokemonForms: PokemonForm[] = [
     name: "Sawsbuck",
     types: ["NORMAL", "GRASS"],
     sprite: "/Front/SAWSBUCK_3.png",
-    backSprite: "/spritesBack/SAWSBUCK_3.png",
+    backSprite: "/Back/SAWSBUCK_3.png",
     description:
       "The plants growing on its horns change according to the season. The leaders of the herd possess magnificent horns.",
     stats: {
@@ -21877,7 +21877,7 @@ export const pokemonForms: PokemonForm[] = [
     name: "Stunfisk",
     types: ["GROUND", "STEEL"],
     sprite: "/Front/STUNFISK_1.png",
-    backSprite: "/spritesBack/STUNFISK_1.png",
+    backSprite: "/Back/STUNFISK_1.png",
     description:
       "Its conspicuous lips lure prey in as it lies in wait in the mud. When prey gets close, Stunfisk clamps its jagged steel fins down on them.",
     stats: {
@@ -21987,7 +21987,7 @@ export const pokemonForms: PokemonForm[] = [
     name: "Braviary",
     types: ["PSYCHIC", "FLYING"],
     sprite: "/Front/BRAVIARY_1.png",
-    backSprite: "/spritesBack/BRAVIARY_1.png",
+    backSprite: "/Back/BRAVIARY_1.png",
     description:
       "Screaming a bloodcurdling battle cry, this huge and ferocious bird Pokémon goes out on the hunt. It blasts lakes with shock waves, then scoops up any prey that float to the water's surface.",
     stats: {
@@ -22094,7 +22094,7 @@ export const pokemonForms: PokemonForm[] = [
     name: "Tornadus",
     types: ["FLYING"],
     sprite: "/Front/TORNADUS_1.png",
-    backSprite: "/spritesBack/TORNADUS_1.png",
+    backSprite: "/Back/TORNADUS_1.png",
     description:
       "Tornadus expels massive energy from its tail, causing severe storms. Its power is great enough to blow houses away.",
     stats: {
@@ -22221,7 +22221,7 @@ export const pokemonForms: PokemonForm[] = [
     name: "Thundurus",
     types: ["ELECTRIC", "FLYING"],
     sprite: "/Front/THUNDURUS_1.png",
-    backSprite: "/spritesBack/THUNDURUS_1.png",
+    backSprite: "/Back/THUNDURUS_1.png",
     description:
       "The spikes on its tail discharge immense bolts of lightning. It flies around the Unova region firing off lightning bolts.",
     stats: {
@@ -22355,7 +22355,7 @@ export const pokemonForms: PokemonForm[] = [
     name: "Landorus",
     types: ["GROUND", "FLYING"],
     sprite: "/Front/LANDORUS_1.png",
-    backSprite: "/spritesBack/LANDORUS_1.png",
+    backSprite: "/Back/LANDORUS_1.png",
     description:
       "The energy that comes pouring from its tail increases the nutrition in the soil, making crops grow to great size.",
     stats: {
@@ -22479,7 +22479,7 @@ export const pokemonForms: PokemonForm[] = [
     name: "Kyurem",
     types: ["DRAGON", "ICE"],
     sprite: "/Front/KYUREM_1.png",
-    backSprite: "/spritesBack/KYUREM_1.png",
+    backSprite: "/Back/KYUREM_1.png",
     description:
       "It has foreseen that a world of truth will arrive for people and Pokémon. It strives to protect that future.",
     stats: {
@@ -22607,7 +22607,7 @@ export const pokemonForms: PokemonForm[] = [
     name: "Kyurem",
     types: ["DRAGON", "ICE"],
     sprite: "/Front/KYUREM_2.png",
-    backSprite: "/spritesBack/KYUREM_2.png",
+    backSprite: "/Back/KYUREM_2.png",
     description:
       "It's said that this Pokémon battles in order to protect the ideal world that will exist in the future for people and Pokémon.",
     stats: {
@@ -22735,7 +22735,7 @@ export const pokemonForms: PokemonForm[] = [
     name: "Kyurem",
     types: ["DRAGON", "ICE"],
     sprite: "/Front/KYUREM_3.png",
-    backSprite: "/spritesBack/KYUREM_3.png",
+    backSprite: "/Back/KYUREM_3.png",
     description:
       "It generates a powerful, freezing energy inside itself, but its body became frozen when the energy leaked out.",
     stats: {
@@ -22863,7 +22863,7 @@ export const pokemonForms: PokemonForm[] = [
     name: "Kyurem",
     types: ["DRAGON", "ICE"],
     sprite: "/Front/KYUREM_4.png",
-    backSprite: "/spritesBack/KYUREM_4.png",
+    backSprite: "/Back/KYUREM_4.png",
     description:
       "It generates a powerful, freezing energy inside itself, but its body became frozen when the energy leaked out.",
     stats: {
@@ -22991,7 +22991,7 @@ export const pokemonForms: PokemonForm[] = [
     name: "Keldeo",
     types: ["WATER", "FIGHTING"],
     sprite: "/Front/KELDEO_1.png",
-    backSprite: "/spritesBack/KELDEO_1.png",
+    backSprite: "/Back/KELDEO_1.png",
     description:
       "The power that lay hidden in its body now covers its horn, turning it into a sword that can slice through anything.",
     stats: {
@@ -23113,7 +23113,7 @@ export const pokemonForms: PokemonForm[] = [
     name: "Meloetta",
     types: ["NORMAL", "FIGHTING"],
     sprite: "/Front/MELOETTA_1.png",
-    backSprite: "/spritesBack/MELOETTA_1.png",
+    backSprite: "/Back/MELOETTA_1.png",
     description:
       "Many famous songs have been inspired by the melodies that Meloetta plays.",
     stats: {
@@ -23260,7 +23260,7 @@ export const pokemonForms: PokemonForm[] = [
     name: "Genesect",
     types: ["BUG", "STEEL"],
     sprite: "/Front/GENESECT_1.png",
-    backSprite: "/spritesBack/GENESECT_1.png",
+    backSprite: "/Back/GENESECT_1.png",
     description:
       "This ancient bug Pokémon was altered by Team Plasma. They upgraded the cannon on its back.",
     stats: {
@@ -23380,7 +23380,7 @@ export const pokemonForms: PokemonForm[] = [
     name: "Genesect",
     types: ["BUG", "STEEL"],
     sprite: "/Front/GENESECT_2.png",
-    backSprite: "/spritesBack/GENESECT_2.png",
+    backSprite: "/Back/GENESECT_2.png",
     description:
       "This ancient bug Pokémon was altered by Team Plasma. They upgraded the cannon on its back.",
     stats: {
@@ -23500,7 +23500,7 @@ export const pokemonForms: PokemonForm[] = [
     name: "Genesect",
     types: ["BUG", "STEEL"],
     sprite: "/Front/GENESECT_3.png",
-    backSprite: "/spritesBack/GENESECT_3.png",
+    backSprite: "/Back/GENESECT_3.png",
     description:
       "This ancient bug Pokémon was altered by Team Plasma. They upgraded the cannon on its back.",
     stats: {
@@ -23620,7 +23620,7 @@ export const pokemonForms: PokemonForm[] = [
     name: "Genesect",
     types: ["BUG", "STEEL"],
     sprite: "/Front/GENESECT_4.png",
-    backSprite: "/spritesBack/GENESECT_4.png",
+    backSprite: "/Back/GENESECT_4.png",
     description:
       "This ancient bug Pokémon was altered by Team Plasma. They upgraded the cannon on its back.",
     stats: {
@@ -23740,7 +23740,7 @@ export const pokemonForms: PokemonForm[] = [
     name: "Greninja",
     types: ["WATER", "DARK"],
     sprite: "/Front/GRENINJA_1.png",
-    backSprite: "/spritesBack/GRENINJA_1.png",
+    backSprite: "/Back/GRENINJA_1.png",
     description:
       "It appears and vanishes with a ninja's grace. It toys with its enemies using swift movements, while slicing them with throwing stars of sharpest water.",
     stats: {
@@ -23870,7 +23870,7 @@ export const pokemonForms: PokemonForm[] = [
     name: "Greninja",
     types: ["WATER", "DARK"],
     sprite: "/Front/GRENINJA_2.png",
-    backSprite: "/spritesBack/GRENINJA_2.png",
+    backSprite: "/Back/GRENINJA_2.png",
     description:
       "It appears and vanishes with a ninja's grace. It toys with its enemies using swift movements, while slicing them with throwing stars of sharpest water.",
     stats: {
@@ -24000,7 +24000,7 @@ export const pokemonForms: PokemonForm[] = [
     name: "Vivillon",
     types: ["BUG", "FLYING"],
     sprite: "/Front/VIVILLON_1.png",
-    backSprite: "/spritesBack/VIVILLON_1.png",
+    backSprite: "/Back/VIVILLON_1.png",
     description:
       "Vivillon with many different patterns are found all over the world. These patterns are affected by the climate of their habitat.",
     stats: {
@@ -24103,7 +24103,7 @@ export const pokemonForms: PokemonForm[] = [
     name: "Vivillon",
     types: ["BUG", "FLYING"],
     sprite: "/Front/VIVILLON_2.png",
-    backSprite: "/spritesBack/VIVILLON_2.png",
+    backSprite: "/Back/VIVILLON_2.png",
     description:
       "Vivillon with many different patterns are found all over the world. These patterns are affected by the climate of their habitat.",
     stats: {
@@ -24206,7 +24206,7 @@ export const pokemonForms: PokemonForm[] = [
     name: "Vivillon",
     types: ["BUG", "FLYING"],
     sprite: "/Front/VIVILLON_3.png",
-    backSprite: "/spritesBack/VIVILLON_3.png",
+    backSprite: "/Back/VIVILLON_3.png",
     description:
       "Vivillon with many different patterns are found all over the world. These patterns are affected by the climate of their habitat.",
     stats: {
@@ -24309,7 +24309,7 @@ export const pokemonForms: PokemonForm[] = [
     name: "Vivillon",
     types: ["BUG", "FLYING"],
     sprite: "/Front/VIVILLON_4.png",
-    backSprite: "/spritesBack/VIVILLON_4.png",
+    backSprite: "/Back/VIVILLON_4.png",
     description:
       "Vivillon with many different patterns are found all over the world. These patterns are affected by the climate of their habitat.",
     stats: {
@@ -24412,7 +24412,7 @@ export const pokemonForms: PokemonForm[] = [
     name: "Vivillon",
     types: ["BUG", "FLYING"],
     sprite: "/Front/VIVILLON_5.png",
-    backSprite: "/spritesBack/VIVILLON_5.png",
+    backSprite: "/Back/VIVILLON_5.png",
     description:
       "Vivillon with many different patterns are found all over the world. These patterns are affected by the climate of their habitat.",
     stats: {
@@ -24515,7 +24515,7 @@ export const pokemonForms: PokemonForm[] = [
     name: "Vivillon",
     types: ["BUG", "FLYING"],
     sprite: "/Front/VIVILLON_6.png",
-    backSprite: "/spritesBack/VIVILLON_6.png",
+    backSprite: "/Back/VIVILLON_6.png",
     description:
       "Vivillon with many different patterns are found all over the world. These patterns are affected by the climate of their habitat.",
     stats: {
@@ -24618,7 +24618,7 @@ export const pokemonForms: PokemonForm[] = [
     name: "Vivillon",
     types: ["BUG", "FLYING"],
     sprite: "/Front/VIVILLON_7.png",
-    backSprite: "/spritesBack/VIVILLON_7.png",
+    backSprite: "/Back/VIVILLON_7.png",
     description:
       "Vivillon with many different patterns are found all over the world. These patterns are affected by the climate of their habitat.",
     stats: {
@@ -24721,7 +24721,7 @@ export const pokemonForms: PokemonForm[] = [
     name: "Vivillon",
     types: ["BUG", "FLYING"],
     sprite: "/Front/VIVILLON_8.png",
-    backSprite: "/spritesBack/VIVILLON_8.png",
+    backSprite: "/Back/VIVILLON_8.png",
     description:
       "Vivillon with many different patterns are found all over the world. These patterns are affected by the climate of their habitat.",
     stats: {
@@ -24824,7 +24824,7 @@ export const pokemonForms: PokemonForm[] = [
     name: "Vivillon",
     types: ["BUG", "FLYING"],
     sprite: "/Front/VIVILLON_9.png",
-    backSprite: "/spritesBack/VIVILLON_9.png",
+    backSprite: "/Back/VIVILLON_9.png",
     description:
       "Vivillon with many different patterns are found all over the world. These patterns are affected by the climate of their habitat.",
     stats: {
@@ -24927,7 +24927,7 @@ export const pokemonForms: PokemonForm[] = [
     name: "Vivillon",
     types: ["BUG", "FLYING"],
     sprite: "/Front/VIVILLON_10.png",
-    backSprite: "/spritesBack/VIVILLON_10.png",
+    backSprite: "/Back/VIVILLON_10.png",
     description:
       "Vivillon with many different patterns are found all over the world. These patterns are affected by the climate of their habitat.",
     stats: {
@@ -25030,7 +25030,7 @@ export const pokemonForms: PokemonForm[] = [
     name: "Vivillon",
     types: ["BUG", "FLYING"],
     sprite: "/Front/VIVILLON_11.png",
-    backSprite: "/spritesBack/VIVILLON_11.png",
+    backSprite: "/Back/VIVILLON_11.png",
     description:
       "Vivillon with many different patterns are found all over the world. These patterns are affected by the climate of their habitat.",
     stats: {
@@ -25133,7 +25133,7 @@ export const pokemonForms: PokemonForm[] = [
     name: "Vivillon",
     types: ["BUG", "FLYING"],
     sprite: "/Front/VIVILLON_12.png",
-    backSprite: "/spritesBack/VIVILLON_12.png",
+    backSprite: "/Back/VIVILLON_12.png",
     description:
       "Vivillon with many different patterns are found all over the world. These patterns are affected by the climate of their habitat.",
     stats: {
@@ -25236,7 +25236,7 @@ export const pokemonForms: PokemonForm[] = [
     name: "Vivillon",
     types: ["BUG", "FLYING"],
     sprite: "/Front/VIVILLON_13.png",
-    backSprite: "/spritesBack/VIVILLON_13.png",
+    backSprite: "/Back/VIVILLON_13.png",
     description:
       "Vivillon with many different patterns are found all over the world. These patterns are affected by the climate of their habitat.",
     stats: {
@@ -25339,7 +25339,7 @@ export const pokemonForms: PokemonForm[] = [
     name: "Vivillon",
     types: ["BUG", "FLYING"],
     sprite: "/Front/VIVILLON_14.png",
-    backSprite: "/spritesBack/VIVILLON_14.png",
+    backSprite: "/Back/VIVILLON_14.png",
     description:
       "Vivillon with many different patterns are found all over the world. These patterns are affected by the climate of their habitat.",
     stats: {
@@ -25442,7 +25442,7 @@ export const pokemonForms: PokemonForm[] = [
     name: "Vivillon",
     types: ["BUG", "FLYING"],
     sprite: "/Front/VIVILLON_15.png",
-    backSprite: "/spritesBack/VIVILLON_15.png",
+    backSprite: "/Back/VIVILLON_15.png",
     description:
       "Vivillon with many different patterns are found all over the world. These patterns are affected by the climate of their habitat.",
     stats: {
@@ -25545,7 +25545,7 @@ export const pokemonForms: PokemonForm[] = [
     name: "Vivillon",
     types: ["BUG", "FLYING"],
     sprite: "/Front/VIVILLON_16.png",
-    backSprite: "/spritesBack/VIVILLON_16.png",
+    backSprite: "/Back/VIVILLON_16.png",
     description:
       "Vivillon with many different patterns are found all over the world. These patterns are affected by the climate of their habitat.",
     stats: {
@@ -25648,7 +25648,7 @@ export const pokemonForms: PokemonForm[] = [
     name: "Vivillon",
     types: ["BUG", "FLYING"],
     sprite: "/Front/VIVILLON_17.png",
-    backSprite: "/spritesBack/VIVILLON_17.png",
+    backSprite: "/Back/VIVILLON_17.png",
     description:
       "Vivillon with many different patterns are found all over the world. These patterns are affected by the climate of their habitat.",
     stats: {
@@ -25751,7 +25751,7 @@ export const pokemonForms: PokemonForm[] = [
     name: "Vivillon",
     types: ["BUG", "FLYING"],
     sprite: "/Front/VIVILLON_18.png",
-    backSprite: "/spritesBack/VIVILLON_18.png",
+    backSprite: "/Back/VIVILLON_18.png",
     description:
       "Vivillon with many different patterns are found all over the world. These patterns are affected by the climate of their habitat.",
     stats: {
@@ -25854,7 +25854,7 @@ export const pokemonForms: PokemonForm[] = [
     name: "Vivillon",
     types: ["BUG", "FLYING"],
     sprite: "/Front/VIVILLON_19.png",
-    backSprite: "/spritesBack/VIVILLON_19.png",
+    backSprite: "/Back/VIVILLON_19.png",
     description:
       "Vivillon with many different patterns are found all over the world. These patterns are affected by the climate of their habitat.",
     stats: {
@@ -25957,7 +25957,7 @@ export const pokemonForms: PokemonForm[] = [
     name: "Flabébé",
     types: ["FAIRY"],
     sprite: "/Front/FLABEBE_1.png",
-    backSprite: "/spritesBack/FLABEBE_1.png",
+    backSprite: "/Back/FLABEBE_1.png",
     description:
       "When it finds a flower it likes, it dwells on that flower its whole life long. It floats in the wind's embrace with an untroubled heart.",
     stats: {
@@ -26069,7 +26069,7 @@ export const pokemonForms: PokemonForm[] = [
     name: "Flabébé",
     types: ["FAIRY"],
     sprite: "/Front/FLABEBE_2.png",
-    backSprite: "/spritesBack/FLABEBE_2.png",
+    backSprite: "/Back/FLABEBE_2.png",
     description:
       "When it finds a flower it likes, it dwells on that flower its whole life long. It floats in the wind's embrace with an untroubled heart.",
     stats: {
@@ -26181,7 +26181,7 @@ export const pokemonForms: PokemonForm[] = [
     name: "Flabébé",
     types: ["FAIRY"],
     sprite: "/Front/FLABEBE_3.png",
-    backSprite: "/spritesBack/FLABEBE_3.png",
+    backSprite: "/Back/FLABEBE_3.png",
     description:
       "When it finds a flower it likes, it dwells on that flower its whole life long. It floats in the wind's embrace with an untroubled heart.",
     stats: {
@@ -26293,7 +26293,7 @@ export const pokemonForms: PokemonForm[] = [
     name: "Flabébé",
     types: ["FAIRY"],
     sprite: "/Front/FLABEBE_4.png",
-    backSprite: "/spritesBack/FLABEBE_4.png",
+    backSprite: "/Back/FLABEBE_4.png",
     description:
       "When it finds a flower it likes, it dwells on that flower its whole life long. It floats in the wind's embrace with an untroubled heart.",
     stats: {
@@ -26405,7 +26405,7 @@ export const pokemonForms: PokemonForm[] = [
     name: "Floette",
     types: ["FAIRY"],
     sprite: "/Front/FLOETTE_1.png",
-    backSprite: "/spritesBack/FLOETTE_1.png",
+    backSprite: "/Back/FLOETTE_1.png",
     description:
       "It flutters around fields of flowers and cares for flowers that are starting to wilt. It draws out the power of flowers to battle.",
     stats: {
@@ -26520,7 +26520,7 @@ export const pokemonForms: PokemonForm[] = [
     name: "Floette",
     types: ["FAIRY"],
     sprite: "/Front/FLOETTE_2.png",
-    backSprite: "/spritesBack/FLOETTE_2.png",
+    backSprite: "/Back/FLOETTE_2.png",
     description:
       "It flutters around fields of flowers and cares for flowers that are starting to wilt. It draws out the power of flowers to battle.",
     stats: {
@@ -26635,7 +26635,7 @@ export const pokemonForms: PokemonForm[] = [
     name: "Floette",
     types: ["FAIRY"],
     sprite: "/Front/FLOETTE_3.png",
-    backSprite: "/spritesBack/FLOETTE_3.png",
+    backSprite: "/Back/FLOETTE_3.png",
     description:
       "It flutters around fields of flowers and cares for flowers that are starting to wilt. It draws out the power of flowers to battle.",
     stats: {
@@ -26750,7 +26750,7 @@ export const pokemonForms: PokemonForm[] = [
     name: "Floette",
     types: ["FAIRY"],
     sprite: "/Front/FLOETTE_4.png",
-    backSprite: "/spritesBack/FLOETTE_4.png",
+    backSprite: "/Back/FLOETTE_4.png",
     description:
       "It flutters around fields of flowers and cares for flowers that are starting to wilt. It draws out the power of flowers to battle.",
     stats: {
@@ -26865,7 +26865,7 @@ export const pokemonForms: PokemonForm[] = [
     name: "Floette",
     types: ["FAIRY"],
     sprite: "/Front/FLOETTE_5.png",
-    backSprite: "/spritesBack/FLOETTE_5.png",
+    backSprite: "/Back/FLOETTE_5.png",
     description:
       "The flower it's holding can no longer be found blooming anywhere. It's also thought to contain terrifying power.",
     stats: {
@@ -26981,7 +26981,7 @@ export const pokemonForms: PokemonForm[] = [
     name: "Florges",
     types: ["FAIRY"],
     sprite: "/Front/FLORGES_1.png",
-    backSprite: "/spritesBack/FLORGES_1.png",
+    backSprite: "/Back/FLORGES_1.png",
     description:
       "It claims exquisite flower gardens as its territory, and it obtains power from basking in the energy emitted by flowering plants.",
     stats: {
@@ -27093,7 +27093,7 @@ export const pokemonForms: PokemonForm[] = [
     name: "Florges",
     types: ["FAIRY"],
     sprite: "/Front/FLORGES_2.png",
-    backSprite: "/spritesBack/FLORGES_2.png",
+    backSprite: "/Back/FLORGES_2.png",
     description:
       "It claims exquisite flower gardens as its territory, and it obtains power from basking in the energy emitted by flowering plants.",
     stats: {
@@ -27205,7 +27205,7 @@ export const pokemonForms: PokemonForm[] = [
     name: "Florges",
     types: ["FAIRY"],
     sprite: "/Front/FLORGES_3.png",
-    backSprite: "/spritesBack/FLORGES_3.png",
+    backSprite: "/Back/FLORGES_3.png",
     description:
       "It claims exquisite flower gardens as its territory, and it obtains power from basking in the energy emitted by flowering plants.",
     stats: {
@@ -27317,7 +27317,7 @@ export const pokemonForms: PokemonForm[] = [
     name: "Florges",
     types: ["FAIRY"],
     sprite: "/Front/FLORGES_4.png",
-    backSprite: "/spritesBack/FLORGES_4.png",
+    backSprite: "/Back/FLORGES_4.png",
     description:
       "It claims exquisite flower gardens as its territory, and it obtains power from basking in the energy emitted by flowering plants.",
     stats: {
@@ -27429,7 +27429,7 @@ export const pokemonForms: PokemonForm[] = [
     name: "Furfrou",
     types: ["NORMAL"],
     sprite: "/Front/FURFROU_1.png",
-    backSprite: "/spritesBack/FURFROU_1.png",
+    backSprite: "/Back/FURFROU_1.png",
     description:
       "Trimming its fluffy fur not only makes it more elegant but also increases the swiftness of its movements.",
     stats: {
@@ -27522,7 +27522,7 @@ export const pokemonForms: PokemonForm[] = [
     name: "Furfrou",
     types: ["NORMAL"],
     sprite: "/Front/FURFROU_2.png",
-    backSprite: "/spritesBack/FURFROU_2.png",
+    backSprite: "/Back/FURFROU_2.png",
     description:
       "Trimming its fluffy fur not only makes it more elegant but also increases the swiftness of its movements.",
     stats: {
@@ -27615,7 +27615,7 @@ export const pokemonForms: PokemonForm[] = [
     name: "Furfrou",
     types: ["NORMAL"],
     sprite: "/Front/FURFROU_3.png",
-    backSprite: "/spritesBack/FURFROU_3.png",
+    backSprite: "/Back/FURFROU_3.png",
     description:
       "Trimming its fluffy fur not only makes it more elegant but also increases the swiftness of its movements.",
     stats: {
@@ -27708,7 +27708,7 @@ export const pokemonForms: PokemonForm[] = [
     name: "Furfrou",
     types: ["NORMAL"],
     sprite: "/Front/FURFROU_4.png",
-    backSprite: "/spritesBack/FURFROU_4.png",
+    backSprite: "/Back/FURFROU_4.png",
     description:
       "Trimming its fluffy fur not only makes it more elegant but also increases the swiftness of its movements.",
     stats: {
@@ -27801,7 +27801,7 @@ export const pokemonForms: PokemonForm[] = [
     name: "Furfrou",
     types: ["NORMAL"],
     sprite: "/Front/FURFROU_5.png",
-    backSprite: "/spritesBack/FURFROU_5.png",
+    backSprite: "/Back/FURFROU_5.png",
     description:
       "Trimming its fluffy fur not only makes it more elegant but also increases the swiftness of its movements.",
     stats: {
@@ -27894,7 +27894,7 @@ export const pokemonForms: PokemonForm[] = [
     name: "Furfrou",
     types: ["NORMAL"],
     sprite: "/Front/FURFROU_6.png",
-    backSprite: "/spritesBack/FURFROU_6.png",
+    backSprite: "/Back/FURFROU_6.png",
     description:
       "Trimming its fluffy fur not only makes it more elegant but also increases the swiftness of its movements.",
     stats: {
@@ -27987,7 +27987,7 @@ export const pokemonForms: PokemonForm[] = [
     name: "Furfrou",
     types: ["NORMAL"],
     sprite: "/Front/FURFROU_7.png",
-    backSprite: "/spritesBack/FURFROU_7.png",
+    backSprite: "/Back/FURFROU_7.png",
     description:
       "Trimming its fluffy fur not only makes it more elegant but also increases the swiftness of its movements.",
     stats: {
@@ -28080,7 +28080,7 @@ export const pokemonForms: PokemonForm[] = [
     name: "Furfrou",
     types: ["NORMAL"],
     sprite: "/Front/FURFROU_8.png",
-    backSprite: "/spritesBack/FURFROU_8.png",
+    backSprite: "/Back/FURFROU_8.png",
     description:
       "Trimming its fluffy fur not only makes it more elegant but also increases the swiftness of its movements.",
     stats: {
@@ -28173,7 +28173,7 @@ export const pokemonForms: PokemonForm[] = [
     name: "Furfrou",
     types: ["NORMAL"],
     sprite: "/Front/FURFROU_9.png",
-    backSprite: "/spritesBack/FURFROU_9.png",
+    backSprite: "/Back/FURFROU_9.png",
     description:
       "Trimming its fluffy fur not only makes it more elegant but also increases the swiftness of its movements.",
     stats: {
@@ -28266,7 +28266,7 @@ export const pokemonForms: PokemonForm[] = [
     name: "Meowstic",
     types: ["PSYCHIC"],
     sprite: "/Front/MEOWSTIC_1.png",
-    backSprite: "/spritesBack/MEOWSTIC_1.png",
+    backSprite: "/Back/MEOWSTIC_1.png",
     description:
       "Females are a bit more selfish and aggressive than males. If they don't get what they want, they will torment you with their psychic abilities.",
     stats: {
@@ -28402,7 +28402,7 @@ export const pokemonForms: PokemonForm[] = [
     name: "Aegislash",
     types: ["STEEL", "GHOST"],
     sprite: "/Front/AEGISLASH_1.png",
-    backSprite: "/spritesBack/AEGISLASH_1.png",
+    backSprite: "/Back/AEGISLASH_1.png",
     description:
       "Once upon a time, a king with an Aegislash reigned over the land. His Pokémon eventually drained him of life, and his kingdom fell with him.",
     stats: {
@@ -28505,7 +28505,7 @@ export const pokemonForms: PokemonForm[] = [
     name: "Sliggoo",
     types: ["STEEL", "DRAGON"],
     sprite: "/Front/SLIGGOO_1.png",
-    backSprite: "/spritesBack/SLIGGOO_1.png",
+    backSprite: "/Back/SLIGGOO_1.png",
     description:
       "A creature given to melancholy. I suspect its metallic shell developed as a result of the mucus on its skin reacting with the iron in Hisui's water.",
     stats: {
@@ -28596,7 +28596,7 @@ export const pokemonForms: PokemonForm[] = [
     name: "Goodra",
     types: ["STEEL", "DRAGON"],
     sprite: "/Front/GOODRA_1.png",
-    backSprite: "/spritesBack/GOODRA_1.png",
+    backSprite: "/Back/GOODRA_1.png",
     description:
       "Able to freely control the hardness of its metallic shell. It loathes solitude and is extremely clingy—it will fume and run riot if those dearest to it ever leave its side.",
     stats: {
@@ -28706,7 +28706,7 @@ export const pokemonForms: PokemonForm[] = [
     name: "Pumpkaboo",
     types: ["GHOST", "GRASS"],
     sprite: "/Front/PUMPKABOO_1.png",
-    backSprite: "/spritesBack/PUMPKABOO_1.png",
+    backSprite: "/Back/PUMPKABOO_1.png",
     description:
       "Spirits that wander this world are placed into Pumpkaboo's body. They're then moved on to the afterlife.",
     stats: {
@@ -28822,7 +28822,7 @@ export const pokemonForms: PokemonForm[] = [
     name: "Pumpkaboo",
     types: ["GHOST", "GRASS"],
     sprite: "/Front/PUMPKABOO_2.png",
-    backSprite: "/spritesBack/PUMPKABOO_2.png",
+    backSprite: "/Back/PUMPKABOO_2.png",
     description:
       "When taking spirits to the afterlife, large Pumpkaboo prefer the spirits of adults to those of children.",
     stats: {
@@ -28938,7 +28938,7 @@ export const pokemonForms: PokemonForm[] = [
     name: "Pumpkaboo",
     types: ["GHOST", "GRASS"],
     sprite: "/Front/PUMPKABOO_3.png",
-    backSprite: "/spritesBack/PUMPKABOO_3.png",
+    backSprite: "/Back/PUMPKABOO_3.png",
     description:
       "Massive Pumpkaboo are said to be the product of areas where a great number of lost souls lingered.",
     stats: {
@@ -29054,7 +29054,7 @@ export const pokemonForms: PokemonForm[] = [
     name: "Gourgeist",
     types: ["GHOST", "GRASS"],
     sprite: "/Front/GOURGEIST_1.png",
-    backSprite: "/spritesBack/GOURGEIST_1.png",
+    backSprite: "/Back/GOURGEIST_1.png",
     description:
       "Eerie cries emanate from its body in the dead of night. The sounds are said to be the wails of spirits who are suffering in the afterlife.",
     stats: {
@@ -29180,7 +29180,7 @@ export const pokemonForms: PokemonForm[] = [
     name: "Gourgeist",
     types: ["GHOST", "GRASS"],
     sprite: "/Front/GOURGEIST_2.png",
-    backSprite: "/spritesBack/GOURGEIST_2.png",
+    backSprite: "/Back/GOURGEIST_2.png",
     description:
       "Large Gourgeist put on the guise of adults, taking the hands of children to lead them to the afterlife.",
     stats: {
@@ -29306,7 +29306,7 @@ export const pokemonForms: PokemonForm[] = [
     name: "Gourgeist",
     types: ["GHOST", "GRASS"],
     sprite: "/Front/GOURGEIST_3.png",
-    backSprite: "/spritesBack/GOURGEIST_3.png",
+    backSprite: "/Back/GOURGEIST_3.png",
     description:
       "Supersized Gourgeist aren't picky. They will forcefully drag anyone off to the afterlife.",
     stats: {
@@ -29432,7 +29432,7 @@ export const pokemonForms: PokemonForm[] = [
     name: "Avalugg",
     types: ["ICE", "ROCK"],
     sprite: "/Front/AVALUGG_1.png",
-    backSprite: "/spritesBack/AVALUGG_1.png",
+    backSprite: "/Back/AVALUGG_1.png",
     description:
       "The armor of ice covering its lower jaw puts steel to shame and can shatter rocks with ease. This Pokémon barrels along steep mountain paths, cleaving through the deep snow.",
     stats: {
@@ -29530,7 +29530,7 @@ export const pokemonForms: PokemonForm[] = [
     name: "Xerneas",
     types: ["FAIRY"],
     sprite: "/Front/XERNEAS_1.png",
-    backSprite: "/spritesBack/XERNEAS_1.png",
+    backSprite: "/Back/XERNEAS_1.png",
     description:
       "Legends say it can share eternal life. It slept for a thousand years in the form of a tree before its revival.",
     stats: {
@@ -29644,7 +29644,7 @@ export const pokemonForms: PokemonForm[] = [
     name: "Zygarde",
     types: ["DRAGON", "GROUND"],
     sprite: "/Front/ZYGARDE_1.png",
-    backSprite: "/spritesBack/ZYGARDE_1.png",
+    backSprite: "/Back/ZYGARDE_1.png",
     description:
       "This is Zygarde when about 10% of its pieces have been assembled. It leaps at its opponent's chest and sinks its sharp fangs into them.",
     stats: {
@@ -29757,7 +29757,7 @@ export const pokemonForms: PokemonForm[] = [
     name: "Zygarde",
     types: ["DRAGON", "GROUND"],
     sprite: "/Front/ZYGARDE_2.png",
-    backSprite: "/spritesBack/ZYGARDE_2.png",
+    backSprite: "/Back/ZYGARDE_2.png",
     description:
       "This is Zygarde's perfected form. From the orifice on its chest, it radiates high-powered energy that eliminates everything.",
     stats: {
@@ -29870,7 +29870,7 @@ export const pokemonForms: PokemonForm[] = [
     name: "Zygarde",
     types: ["DRAGON", "GROUND"],
     sprite: "/Front/ZYGARDE_3.png",
-    backSprite: "/spritesBack/ZYGARDE_3.png",
+    backSprite: "/Back/ZYGARDE_3.png",
     description:
       "It's thought to be monitoring the ecosystem. There are rumors that even greater power lies hidden within it.",
     stats: {
@@ -29983,7 +29983,7 @@ export const pokemonForms: PokemonForm[] = [
     name: "Diancie",
     types: ["ROCK", "FAIRY"],
     sprite: "/Front/DIANCIE_1.png",
-    backSprite: "/spritesBack/DIANCIE_1.png",
+    backSprite: "/Back/DIANCIE_1.png",
     description:
       "A sudden transformation of Carbink, its pink, glimmering body is said to be the loveliest sight in the whole world.",
     stats: {
@@ -30114,7 +30114,7 @@ export const pokemonForms: PokemonForm[] = [
     name: "Hoopa",
     types: ["PSYCHIC", "DARK"],
     sprite: "/Front/HOOPA_1.png",
-    backSprite: "/spritesBack/HOOPA_1.png",
+    backSprite: "/Back/HOOPA_1.png",
     description:
       "This troublemaker sends anything and everything to faraway places using its loop, which can warp space.",
     stats: {
@@ -30253,7 +30253,7 @@ export const pokemonForms: PokemonForm[] = [
     name: "Decidueye",
     types: ["GRASS", "FIGHTING"],
     sprite: "/Front/DECIDUEYE_1.png",
-    backSprite: "/spritesBack/DECIDUEYE_1.png",
+    backSprite: "/Back/DECIDUEYE_1.png",
     description:
       "The air stored inside the rachises of Decidueye's feathers insulates the Pokémon against Hisui's extreme cold. This is firm proof that evolution can be influenced by environment.",
     stats: {
@@ -30363,7 +30363,7 @@ export const pokemonForms: PokemonForm[] = [
     name: "Oricorio",
     types: ["ELECTRIC", "FLYING"],
     sprite: "/Front/ORICORIO_1.png",
-    backSprite: "/spritesBack/ORICORIO_1.png",
+    backSprite: "/Back/ORICORIO_1.png",
     description:
       "It creates an electric charge by rubbing its feathers together. It dances over to its enemies and delivers shocking electrical punches.",
     stats: {
@@ -30477,7 +30477,7 @@ export const pokemonForms: PokemonForm[] = [
     name: "Oricorio",
     types: ["PSYCHIC", "FLYING"],
     sprite: "/Front/ORICORIO_2.png",
-    backSprite: "/spritesBack/ORICORIO_2.png",
+    backSprite: "/Back/ORICORIO_2.png",
     description:
       "This Oricorio relaxes by swaying gently. This increases its psychic energy, which it then fires at its enemies.",
     stats: {
@@ -30591,7 +30591,7 @@ export const pokemonForms: PokemonForm[] = [
     name: "Oricorio",
     types: ["GHOST", "FLYING"],
     sprite: "/Front/ORICORIO_3.png",
-    backSprite: "/spritesBack/ORICORIO_3.png",
+    backSprite: "/Back/ORICORIO_3.png",
     description:
       "It summons the dead with its dreamy dancing. From their malice, it draws power with which to curse its enemies.",
     stats: {
@@ -30705,7 +30705,7 @@ export const pokemonForms: PokemonForm[] = [
     name: "Rockruff",
     types: ["ROCK"],
     sprite: "/Front/ROCKRUFF_2.png",
-    backSprite: "/spritesBack/ROCKRUFF_2.png",
+    backSprite: "/Back/ROCKRUFF_2.png",
     description:
       "This Pokémon has lived with people since times long ago. It can sense when its Trainer is in the dumps and will stick close by its Trainer's side.",
     stats: {
@@ -30815,7 +30815,7 @@ export const pokemonForms: PokemonForm[] = [
     name: "Lycanroc",
     types: ["ROCK"],
     sprite: "/Front/LYCANROC_1.png",
-    backSprite: "/spritesBack/LYCANROC_1.png",
+    backSprite: "/Back/LYCANROC_1.png",
     description:
       "It goads its enemies into attacking, withstands the hits, and in return, delivers a headbutt, crushing their bones with its rocky mane.",
     stats: {
@@ -30948,7 +30948,7 @@ export const pokemonForms: PokemonForm[] = [
     name: "Lycanroc",
     types: ["ROCK"],
     sprite: "/Front/LYCANROC_2.png",
-    backSprite: "/spritesBack/LYCANROC_2.png",
+    backSprite: "/Back/LYCANROC_2.png",
     description:
       "Bathed in the setting sun of evening, Lycanroc has undergone a special kind of evolution. An intense fighting spirit underlies its calmness.",
     stats: {
@@ -31073,7 +31073,7 @@ export const pokemonForms: PokemonForm[] = [
     name: "Wishiwashi",
     types: ["WATER"],
     sprite: "/Front/WISHIWASHI_1.png",
-    backSprite: "/spritesBack/WISHIWASHI_1.png",
+    backSprite: "/Back/WISHIWASHI_1.png",
     description:
       "Weak Wishiwashi school together to concentrate their power. Their united force makes them the demon of the sea, feared near and far.",
     stats: {
@@ -31167,7 +31167,7 @@ export const pokemonForms: PokemonForm[] = [
     name: "Silvally",
     types: ["FIGHTING"],
     sprite: "/Front/SILVALLY_1.png",
-    backSprite: "/spritesBack/SILVALLY_1.png",
+    backSprite: "/Back/SILVALLY_1.png",
     description:
       "Its trust in its partner is what awakens it. This Pokémon is capable of changing its type, a flexibility that is well displayed in battle.",
     stats: {
@@ -31297,7 +31297,7 @@ export const pokemonForms: PokemonForm[] = [
     name: "Silvally",
     types: ["FLYING"],
     sprite: "/Front/SILVALLY_2.png",
-    backSprite: "/spritesBack/SILVALLY_2.png",
+    backSprite: "/Back/SILVALLY_2.png",
     description:
       "Its trust in its partner is what awakens it. This Pokémon is capable of changing its type, a flexibility that is well displayed in battle.",
     stats: {
@@ -31427,7 +31427,7 @@ export const pokemonForms: PokemonForm[] = [
     name: "Silvally",
     types: ["POISON"],
     sprite: "/Front/SILVALLY_3.png",
-    backSprite: "/spritesBack/SILVALLY_3.png",
+    backSprite: "/Back/SILVALLY_3.png",
     description:
       "Its trust in its partner is what awakens it. This Pokémon is capable of changing its type, a flexibility that is well displayed in battle.",
     stats: {
@@ -31557,7 +31557,7 @@ export const pokemonForms: PokemonForm[] = [
     name: "Silvally",
     types: ["GROUND"],
     sprite: "/Front/SILVALLY_4.png",
-    backSprite: "/spritesBack/SILVALLY_4.png",
+    backSprite: "/Back/SILVALLY_4.png",
     description:
       "Its trust in its partner is what awakens it. This Pokémon is capable of changing its type, a flexibility that is well displayed in battle.",
     stats: {
@@ -31687,7 +31687,7 @@ export const pokemonForms: PokemonForm[] = [
     name: "Silvally",
     types: ["ROCK"],
     sprite: "/Front/SILVALLY_5.png",
-    backSprite: "/spritesBack/SILVALLY_5.png",
+    backSprite: "/Back/SILVALLY_5.png",
     description:
       "Its trust in its partner is what awakens it. This Pokémon is capable of changing its type, a flexibility that is well displayed in battle.",
     stats: {
@@ -31817,7 +31817,7 @@ export const pokemonForms: PokemonForm[] = [
     name: "Silvally",
     types: ["BUG"],
     sprite: "/Front/SILVALLY_6.png",
-    backSprite: "/spritesBack/SILVALLY_6.png",
+    backSprite: "/Back/SILVALLY_6.png",
     description:
       "Its trust in its partner is what awakens it. This Pokémon is capable of changing its type, a flexibility that is well displayed in battle.",
     stats: {
@@ -31947,7 +31947,7 @@ export const pokemonForms: PokemonForm[] = [
     name: "Silvally",
     types: ["GHOST"],
     sprite: "/Front/SILVALLY_7.png",
-    backSprite: "/spritesBack/SILVALLY_7.png",
+    backSprite: "/Back/SILVALLY_7.png",
     description:
       "Its trust in its partner is what awakens it. This Pokémon is capable of changing its type, a flexibility that is well displayed in battle.",
     stats: {
@@ -32077,7 +32077,7 @@ export const pokemonForms: PokemonForm[] = [
     name: "Silvally",
     types: ["STEEL"],
     sprite: "/Front/SILVALLY_8.png",
-    backSprite: "/spritesBack/SILVALLY_8.png",
+    backSprite: "/Back/SILVALLY_8.png",
     description:
       "Its trust in its partner is what awakens it. This Pokémon is capable of changing its type, a flexibility that is well displayed in battle.",
     stats: {
@@ -32207,7 +32207,7 @@ export const pokemonForms: PokemonForm[] = [
     name: "Silvally",
     types: ["QMARKS"],
     sprite: "/Front/SILVALLY_9.png",
-    backSprite: "/spritesBack/SILVALLY_9.png",
+    backSprite: "/Back/SILVALLY_9.png",
     description:
       "Its trust in its partner is what awakens it. This Pokémon is capable of changing its type, a flexibility that is well displayed in battle.",
     stats: {
@@ -32337,7 +32337,7 @@ export const pokemonForms: PokemonForm[] = [
     name: "Silvally",
     types: ["FIRE"],
     sprite: "/Front/SILVALLY_10.png",
-    backSprite: "/spritesBack/SILVALLY_10.png",
+    backSprite: "/Back/SILVALLY_10.png",
     description:
       "Its trust in its partner is what awakens it. This Pokémon is capable of changing its type, a flexibility that is well displayed in battle.",
     stats: {
@@ -32467,7 +32467,7 @@ export const pokemonForms: PokemonForm[] = [
     name: "Silvally",
     types: ["WATER"],
     sprite: "/Front/SILVALLY_11.png",
-    backSprite: "/spritesBack/SILVALLY_11.png",
+    backSprite: "/Back/SILVALLY_11.png",
     description:
       "Its trust in its partner is what awakens it. This Pokémon is capable of changing its type, a flexibility that is well displayed in battle.",
     stats: {
@@ -32597,7 +32597,7 @@ export const pokemonForms: PokemonForm[] = [
     name: "Silvally",
     types: ["GRASS"],
     sprite: "/Front/SILVALLY_12.png",
-    backSprite: "/spritesBack/SILVALLY_12.png",
+    backSprite: "/Back/SILVALLY_12.png",
     description:
       "Its trust in its partner is what awakens it. This Pokémon is capable of changing its type, a flexibility that is well displayed in battle.",
     stats: {
@@ -32727,7 +32727,7 @@ export const pokemonForms: PokemonForm[] = [
     name: "Silvally",
     types: ["ELECTRIC"],
     sprite: "/Front/SILVALLY_13.png",
-    backSprite: "/spritesBack/SILVALLY_13.png",
+    backSprite: "/Back/SILVALLY_13.png",
     description:
       "Its trust in its partner is what awakens it. This Pokémon is capable of changing its type, a flexibility that is well displayed in battle.",
     stats: {
@@ -32857,7 +32857,7 @@ export const pokemonForms: PokemonForm[] = [
     name: "Silvally",
     types: ["PSYCHIC"],
     sprite: "/Front/SILVALLY_14.png",
-    backSprite: "/spritesBack/SILVALLY_14.png",
+    backSprite: "/Back/SILVALLY_14.png",
     description:
       "Its trust in its partner is what awakens it. This Pokémon is capable of changing its type, a flexibility that is well displayed in battle.",
     stats: {
@@ -32987,7 +32987,7 @@ export const pokemonForms: PokemonForm[] = [
     name: "Silvally",
     types: ["ICE"],
     sprite: "/Front/SILVALLY_15.png",
-    backSprite: "/spritesBack/SILVALLY_15.png",
+    backSprite: "/Back/SILVALLY_15.png",
     description:
       "Its trust in its partner is what awakens it. This Pokémon is capable of changing its type, a flexibility that is well displayed in battle.",
     stats: {
@@ -33117,7 +33117,7 @@ export const pokemonForms: PokemonForm[] = [
     name: "Silvally",
     types: ["DRAGON"],
     sprite: "/Front/SILVALLY_16.png",
-    backSprite: "/spritesBack/SILVALLY_16.png",
+    backSprite: "/Back/SILVALLY_16.png",
     description:
       "Its trust in its partner is what awakens it. This Pokémon is capable of changing its type, a flexibility that is well displayed in battle.",
     stats: {
@@ -33247,7 +33247,7 @@ export const pokemonForms: PokemonForm[] = [
     name: "Silvally",
     types: ["DARK"],
     sprite: "/Front/SILVALLY_17.png",
-    backSprite: "/spritesBack/SILVALLY_17.png",
+    backSprite: "/Back/SILVALLY_17.png",
     description:
       "Its trust in its partner is what awakens it. This Pokémon is capable of changing its type, a flexibility that is well displayed in battle.",
     stats: {
@@ -33377,7 +33377,7 @@ export const pokemonForms: PokemonForm[] = [
     name: "Silvally",
     types: ["FAIRY"],
     sprite: "/Front/SILVALLY_18.png",
-    backSprite: "/spritesBack/SILVALLY_18.png",
+    backSprite: "/Back/SILVALLY_18.png",
     description:
       "Its trust in its partner is what awakens it. This Pokémon is capable of changing its type, a flexibility that is well displayed in battle.",
     stats: {
@@ -33507,7 +33507,7 @@ export const pokemonForms: PokemonForm[] = [
     name: "Minior",
     types: ["ROCK", "FLYING"],
     sprite: "/Front/MINIOR_7.png",
-    backSprite: "/spritesBack/MINIOR_7.png",
+    backSprite: "/Back/MINIOR_7.png",
     description:
       "If its core stays exposed, it will soon die off. It's possible that it may survive if it's put into a Poké Ball quickly enough.",
     stats: {
@@ -33614,7 +33614,7 @@ export const pokemonForms: PokemonForm[] = [
     name: "Minior",
     types: ["ROCK", "FLYING"],
     sprite: "/Front/MINIOR_8.png",
-    backSprite: "/spritesBack/MINIOR_8.png",
+    backSprite: "/Back/MINIOR_8.png",
     description:
       "If its core stays exposed, it will soon die off. It's possible that it may survive if it's put into a Poké Ball quickly enough.",
     stats: {
@@ -33721,7 +33721,7 @@ export const pokemonForms: PokemonForm[] = [
     name: "Minior",
     types: ["ROCK", "FLYING"],
     sprite: "/Front/MINIOR_9.png",
-    backSprite: "/spritesBack/MINIOR_9.png",
+    backSprite: "/Back/MINIOR_9.png",
     description:
       "If its core stays exposed, it will soon die off. It's possible that it may survive if it's put into a Poké Ball quickly enough.",
     stats: {
@@ -33828,7 +33828,7 @@ export const pokemonForms: PokemonForm[] = [
     name: "Minior",
     types: ["ROCK", "FLYING"],
     sprite: "/Front/MINIOR_10.png",
-    backSprite: "/spritesBack/MINIOR_10.png",
+    backSprite: "/Back/MINIOR_10.png",
     description:
       "If its core stays exposed, it will soon die off. It's possible that it may survive if it's put into a Poké Ball quickly enough.",
     stats: {
@@ -33935,7 +33935,7 @@ export const pokemonForms: PokemonForm[] = [
     name: "Minior",
     types: ["ROCK", "FLYING"],
     sprite: "/Front/MINIOR_11.png",
-    backSprite: "/spritesBack/MINIOR_11.png",
+    backSprite: "/Back/MINIOR_11.png",
     description:
       "If its core stays exposed, it will soon die off. It's possible that it may survive if it's put into a Poké Ball quickly enough.",
     stats: {
@@ -34042,7 +34042,7 @@ export const pokemonForms: PokemonForm[] = [
     name: "Minior",
     types: ["ROCK", "FLYING"],
     sprite: "/Front/MINIOR_12.png",
-    backSprite: "/spritesBack/MINIOR_12.png",
+    backSprite: "/Back/MINIOR_12.png",
     description:
       "If its core stays exposed, it will soon die off. It's possible that it may survive if it's put into a Poké Ball quickly enough.",
     stats: {
@@ -34149,7 +34149,7 @@ export const pokemonForms: PokemonForm[] = [
     name: "Minior",
     types: ["ROCK", "FLYING"],
     sprite: "/Front/MINIOR_13.png",
-    backSprite: "/spritesBack/MINIOR_13.png",
+    backSprite: "/Back/MINIOR_13.png",
     description:
       "If its core stays exposed, it will soon die off. It's possible that it may survive if it's put into a Poké Ball quickly enough.",
     stats: {
@@ -34256,7 +34256,7 @@ export const pokemonForms: PokemonForm[] = [
     name: "Mimikyu",
     types: ["GHOST", "FAIRY"],
     sprite: "/Front/MIMIKYU_1.png",
-    backSprite: "/spritesBack/MIMIKYU_1.png",
+    backSprite: "/Back/MIMIKYU_1.png",
     description:
       "Sad that its true identity may be exposed, Mimikyu will mercilessly seek revenge on any opponent that breaks its neck.",
     stats: {
@@ -34380,7 +34380,7 @@ export const pokemonForms: PokemonForm[] = [
     name: "Necrozma",
     types: ["PSYCHIC", "STEEL"],
     sprite: "/Front/NECROZMA_1.png",
-    backSprite: "/spritesBack/NECROZMA_1.png",
+    backSprite: "/Back/NECROZMA_1.png",
     description:
       "This is Necrozma's form while it's absorbing the power of Solgaleo, making it extremely ferocious and impossible to control.",
     stats: {
@@ -34510,7 +34510,7 @@ export const pokemonForms: PokemonForm[] = [
     name: "Necrozma",
     types: ["PSYCHIC", "GHOST"],
     sprite: "/Front/NECROZMA_2.png",
-    backSprite: "/spritesBack/NECROZMA_2.png",
+    backSprite: "/Back/NECROZMA_2.png",
     description:
       "Lunala no longer has a will of its own. Now under the control of Necrozma, it continuously expels all of its energy.",
     stats: {
@@ -34640,7 +34640,7 @@ export const pokemonForms: PokemonForm[] = [
     name: "Necrozma",
     types: ["PSYCHIC", "DRAGON"],
     sprite: "/Front/NECROZMA_3.png",
-    backSprite: "/spritesBack/NECROZMA_3.png",
+    backSprite: "/Back/NECROZMA_3.png",
     description:
       "The light pouring out from all over its body affects living things and nature, impacting them in various ways.",
     stats: {
@@ -34770,7 +34770,7 @@ export const pokemonForms: PokemonForm[] = [
     name: "Necrozma",
     types: ["PSYCHIC", "DRAGON"],
     sprite: "/Front/NECROZMA_4.png",
-    backSprite: "/spritesBack/NECROZMA_4.png",
+    backSprite: "/Back/NECROZMA_4.png",
     description:
       "Light is apparently the source of its energy. It has an extraordinarily vicious disposition and is constantly firing off laser beams.",
     stats: {
@@ -34900,7 +34900,7 @@ export const pokemonForms: PokemonForm[] = [
     name: "Magearna",
     types: ["STEEL", "FAIRY"],
     sprite: "/Front/MAGEARNA_1.png",
-    backSprite: "/spritesBack/MAGEARNA_1.png",
+    backSprite: "/Back/MAGEARNA_1.png",
     description:
       "This gorgeous Magearna looks as it did at the time of its invention. Its luxurious decoration pleased the king's daughter.",
     stats: {
@@ -35042,7 +35042,7 @@ export const pokemonForms: PokemonForm[] = [
     name: "Cramorant",
     types: ["FLYING", "WATER"],
     sprite: "/Front/CRAMORANT_1.png",
-    backSprite: "/spritesBack/CRAMORANT_1.png",
+    backSprite: "/Back/CRAMORANT_1.png",
     description:
       "Cramorant's gluttony led it to try to swallow an Arrokuda whole, which in turn led to Cramorant getting an Arrokuda stuck in its throat.",
     stats: {
@@ -35152,7 +35152,7 @@ export const pokemonForms: PokemonForm[] = [
     name: "Cramorant",
     types: ["FLYING", "WATER"],
     sprite: "/Front/CRAMORANT_2.png",
-    backSprite: "/spritesBack/CRAMORANT_2.png",
+    backSprite: "/Back/CRAMORANT_2.png",
     description:
       "This Cramorant has accidentally gotten a Pikachu lodged in its gullet. Cramorant is choking a little, but it isn't really bothered.",
     stats: {
@@ -35262,7 +35262,7 @@ export const pokemonForms: PokemonForm[] = [
     name: "Toxtricity",
     types: ["ELECTRIC", "POISON"],
     sprite: "/Front/TOXTRICITY_1.png",
-    backSprite: "/spritesBack/TOXTRICITY_1.png",
+    backSprite: "/Back/TOXTRICITY_1.png",
     description:
       "Capable of generating 15,000 volts of electricity, this Pokémon looks down on all that would challenge it.",
     stats: {
@@ -35373,7 +35373,7 @@ export const pokemonForms: PokemonForm[] = [
     name: "Sinistea",
     types: ["GHOST"],
     sprite: "/Front/SINISTEA_1.png",
-    backSprite: "/spritesBack/SINISTEA_1.png",
+    backSprite: "/Back/SINISTEA_1.png",
     description:
       "The swirl pattern in this Pokémon's body is its weakness. If it gets stirred, the swirl loses its shape, and Sinistea gets dizzy.",
     stats: {
@@ -35470,7 +35470,7 @@ export const pokemonForms: PokemonForm[] = [
     name: "Polteageist",
     types: ["GHOST"],
     sprite: "/Front/POLTEAGEIST_1.png",
-    backSprite: "/spritesBack/POLTEAGEIST_1.png",
+    backSprite: "/Back/POLTEAGEIST_1.png",
     description:
       "Trainers Polteageist trusts will be allowed to experience its distinctive flavor and aroma firsthand by sampling just a tiny bit of its tea.",
     stats: {
@@ -35571,7 +35571,7 @@ export const pokemonForms: PokemonForm[] = [
     name: "Alcremie",
     types: ["FAIRY"],
     sprite: "/Front/ALCREMIE_7.png",
-    backSprite: "/spritesBack/ALCREMIE_7.png",
+    backSprite: "/Back/ALCREMIE_7.png",
     description:
       "The cells that compose its cream fluctuated suddenly during evolution, giving the cream a sweet and tart flavor.",
     stats: {
@@ -35672,7 +35672,7 @@ export const pokemonForms: PokemonForm[] = [
     name: "Alcremie",
     types: ["FAIRY"],
     sprite: "/Front/ALCREMIE_8.png",
-    backSprite: "/spritesBack/ALCREMIE_8.png",
+    backSprite: "/Back/ALCREMIE_8.png",
     description:
       "When Alcremie is content, the cream it secretes from its hands becomes sweeter and richer.",
     stats: {
@@ -35773,7 +35773,7 @@ export const pokemonForms: PokemonForm[] = [
     name: "Alcremie",
     types: ["FAIRY"],
     sprite: "/Front/ALCREMIE_9.png",
-    backSprite: "/spritesBack/ALCREMIE_9.png",
+    backSprite: "/Back/ALCREMIE_9.png",
     description:
       "When Alcremie is content, the cream it secretes from its hands becomes sweeter and richer.",
     stats: {
@@ -35874,7 +35874,7 @@ export const pokemonForms: PokemonForm[] = [
     name: "Alcremie",
     types: ["FAIRY"],
     sprite: "/Front/ALCREMIE_10.png",
-    backSprite: "/spritesBack/ALCREMIE_10.png",
+    backSprite: "/Back/ALCREMIE_10.png",
     description:
       "When Alcremie is content, the cream it secretes from its hands becomes sweeter and richer.",
     stats: {
@@ -35975,7 +35975,7 @@ export const pokemonForms: PokemonForm[] = [
     name: "Alcremie",
     types: ["FAIRY"],
     sprite: "/Front/ALCREMIE_11.png",
-    backSprite: "/spritesBack/ALCREMIE_11.png",
+    backSprite: "/Back/ALCREMIE_11.png",
     description:
       "When Alcremie is content, the cream it secretes from its hands becomes sweeter and richer.",
     stats: {
@@ -36076,7 +36076,7 @@ export const pokemonForms: PokemonForm[] = [
     name: "Alcremie",
     types: ["FAIRY"],
     sprite: "/Front/ALCREMIE_12.png",
-    backSprite: "/spritesBack/ALCREMIE_12.png",
+    backSprite: "/Back/ALCREMIE_12.png",
     description:
       "When Alcremie is content, the cream it secretes from its hands becomes sweeter and richer.",
     stats: {
@@ -36177,7 +36177,7 @@ export const pokemonForms: PokemonForm[] = [
     name: "Alcremie",
     types: ["FAIRY"],
     sprite: "/Front/ALCREMIE_13.png",
-    backSprite: "/spritesBack/ALCREMIE_13.png",
+    backSprite: "/Back/ALCREMIE_13.png",
     description:
       "When Alcremie is content, the cream it secretes from its hands becomes sweeter and richer.",
     stats: {
@@ -36278,7 +36278,7 @@ export const pokemonForms: PokemonForm[] = [
     name: "Alcremie",
     types: ["FAIRY"],
     sprite: "/Front/ALCREMIE_14.png",
-    backSprite: "/spritesBack/ALCREMIE_14.png",
+    backSprite: "/Back/ALCREMIE_14.png",
     description:
       "The cells that compose its cream fluctuated suddenly during evolution, giving the cream an aromatic flavor.",
     stats: {
@@ -36379,7 +36379,7 @@ export const pokemonForms: PokemonForm[] = [
     name: "Alcremie",
     types: ["FAIRY"],
     sprite: "/Front/ALCREMIE_15.png",
-    backSprite: "/spritesBack/ALCREMIE_15.png",
+    backSprite: "/Back/ALCREMIE_15.png",
     description:
       "When Alcremie is content, the cream it secretes from its hands becomes sweeter and richer.",
     stats: {
@@ -36480,7 +36480,7 @@ export const pokemonForms: PokemonForm[] = [
     name: "Alcremie",
     types: ["FAIRY"],
     sprite: "/Front/ALCREMIE_16.png",
-    backSprite: "/spritesBack/ALCREMIE_16.png",
+    backSprite: "/Back/ALCREMIE_16.png",
     description:
       "When Alcremie is content, the cream it secretes from its hands becomes sweeter and richer.",
     stats: {
@@ -36581,7 +36581,7 @@ export const pokemonForms: PokemonForm[] = [
     name: "Alcremie",
     types: ["FAIRY"],
     sprite: "/Front/ALCREMIE_17.png",
-    backSprite: "/spritesBack/ALCREMIE_17.png",
+    backSprite: "/Back/ALCREMIE_17.png",
     description:
       "When Alcremie is content, the cream it secretes from its hands becomes sweeter and richer.",
     stats: {
@@ -36682,7 +36682,7 @@ export const pokemonForms: PokemonForm[] = [
     name: "Alcremie",
     types: ["FAIRY"],
     sprite: "/Front/ALCREMIE_18.png",
-    backSprite: "/spritesBack/ALCREMIE_18.png",
+    backSprite: "/Back/ALCREMIE_18.png",
     description:
       "When Alcremie is content, the cream it secretes from its hands becomes sweeter and richer.",
     stats: {
@@ -36783,7 +36783,7 @@ export const pokemonForms: PokemonForm[] = [
     name: "Alcremie",
     types: ["FAIRY"],
     sprite: "/Front/ALCREMIE_19.png",
-    backSprite: "/spritesBack/ALCREMIE_19.png",
+    backSprite: "/Back/ALCREMIE_19.png",
     description:
       "When Alcremie is content, the cream it secretes from its hands becomes sweeter and richer.",
     stats: {
@@ -36884,7 +36884,7 @@ export const pokemonForms: PokemonForm[] = [
     name: "Alcremie",
     types: ["FAIRY"],
     sprite: "/Front/ALCREMIE_20.png",
-    backSprite: "/spritesBack/ALCREMIE_20.png",
+    backSprite: "/Back/ALCREMIE_20.png",
     description:
       "When Alcremie is content, the cream it secretes from its hands becomes sweeter and richer.",
     stats: {
@@ -36985,7 +36985,7 @@ export const pokemonForms: PokemonForm[] = [
     name: "Alcremie",
     types: ["FAIRY"],
     sprite: "/Front/ALCREMIE_21.png",
-    backSprite: "/spritesBack/ALCREMIE_21.png",
+    backSprite: "/Back/ALCREMIE_21.png",
     description:
       "The cells that compose its cream fluctuated suddenly during evolution, giving the cream a refreshing flavor.",
     stats: {
@@ -37086,7 +37086,7 @@ export const pokemonForms: PokemonForm[] = [
     name: "Alcremie",
     types: ["FAIRY"],
     sprite: "/Front/ALCREMIE_22.png",
-    backSprite: "/spritesBack/ALCREMIE_22.png",
+    backSprite: "/Back/ALCREMIE_22.png",
     description:
       "When Alcremie is content, the cream it secretes from its hands becomes sweeter and richer.",
     stats: {
@@ -37187,7 +37187,7 @@ export const pokemonForms: PokemonForm[] = [
     name: "Alcremie",
     types: ["FAIRY"],
     sprite: "/Front/ALCREMIE_23.png",
-    backSprite: "/spritesBack/ALCREMIE_23.png",
+    backSprite: "/Back/ALCREMIE_23.png",
     description:
       "When Alcremie is content, the cream it secretes from its hands becomes sweeter and richer.",
     stats: {
@@ -37288,7 +37288,7 @@ export const pokemonForms: PokemonForm[] = [
     name: "Alcremie",
     types: ["FAIRY"],
     sprite: "/Front/ALCREMIE_24.png",
-    backSprite: "/spritesBack/ALCREMIE_24.png",
+    backSprite: "/Back/ALCREMIE_24.png",
     description:
       "When Alcremie is content, the cream it secretes from its hands becomes sweeter and richer.",
     stats: {
@@ -37389,7 +37389,7 @@ export const pokemonForms: PokemonForm[] = [
     name: "Alcremie",
     types: ["FAIRY"],
     sprite: "/Front/ALCREMIE_25.png",
-    backSprite: "/spritesBack/ALCREMIE_25.png",
+    backSprite: "/Back/ALCREMIE_25.png",
     description:
       "When Alcremie is content, the cream it secretes from its hands becomes sweeter and richer.",
     stats: {
@@ -37490,7 +37490,7 @@ export const pokemonForms: PokemonForm[] = [
     name: "Alcremie",
     types: ["FAIRY"],
     sprite: "/Front/ALCREMIE_26.png",
-    backSprite: "/spritesBack/ALCREMIE_26.png",
+    backSprite: "/Back/ALCREMIE_26.png",
     description:
       "When Alcremie is content, the cream it secretes from its hands becomes sweeter and richer.",
     stats: {
@@ -37591,7 +37591,7 @@ export const pokemonForms: PokemonForm[] = [
     name: "Alcremie",
     types: ["FAIRY"],
     sprite: "/Front/ALCREMIE_27.png",
-    backSprite: "/spritesBack/ALCREMIE_27.png",
+    backSprite: "/Back/ALCREMIE_27.png",
     description:
       "When Alcremie is content, the cream it secretes from its hands becomes sweeter and richer.",
     stats: {
@@ -37692,7 +37692,7 @@ export const pokemonForms: PokemonForm[] = [
     name: "Alcremie",
     types: ["FAIRY"],
     sprite: "/Front/ALCREMIE_28.png",
-    backSprite: "/spritesBack/ALCREMIE_28.png",
+    backSprite: "/Back/ALCREMIE_28.png",
     description:
       "The cells that compose its cream fluctuated suddenly during evolution, giving the cream a sour flavor.",
     stats: {
@@ -37793,7 +37793,7 @@ export const pokemonForms: PokemonForm[] = [
     name: "Alcremie",
     types: ["FAIRY"],
     sprite: "/Front/ALCREMIE_29.png",
-    backSprite: "/spritesBack/ALCREMIE_29.png",
+    backSprite: "/Back/ALCREMIE_29.png",
     description:
       "When Alcremie is content, the cream it secretes from its hands becomes sweeter and richer.",
     stats: {
@@ -37894,7 +37894,7 @@ export const pokemonForms: PokemonForm[] = [
     name: "Alcremie",
     types: ["FAIRY"],
     sprite: "/Front/ALCREMIE_30.png",
-    backSprite: "/spritesBack/ALCREMIE_30.png",
+    backSprite: "/Back/ALCREMIE_30.png",
     description:
       "When Alcremie is content, the cream it secretes from its hands becomes sweeter and richer.",
     stats: {
@@ -37995,7 +37995,7 @@ export const pokemonForms: PokemonForm[] = [
     name: "Alcremie",
     types: ["FAIRY"],
     sprite: "/Front/ALCREMIE_31.png",
-    backSprite: "/spritesBack/ALCREMIE_31.png",
+    backSprite: "/Back/ALCREMIE_31.png",
     description:
       "When Alcremie is content, the cream it secretes from its hands becomes sweeter and richer.",
     stats: {
@@ -38096,7 +38096,7 @@ export const pokemonForms: PokemonForm[] = [
     name: "Alcremie",
     types: ["FAIRY"],
     sprite: "/Front/ALCREMIE_32.png",
-    backSprite: "/spritesBack/ALCREMIE_32.png",
+    backSprite: "/Back/ALCREMIE_32.png",
     description:
       "When Alcremie is content, the cream it secretes from its hands becomes sweeter and richer.",
     stats: {
@@ -38197,7 +38197,7 @@ export const pokemonForms: PokemonForm[] = [
     name: "Alcremie",
     types: ["FAIRY"],
     sprite: "/Front/ALCREMIE_33.png",
-    backSprite: "/spritesBack/ALCREMIE_33.png",
+    backSprite: "/Back/ALCREMIE_33.png",
     description:
       "When Alcremie is content, the cream it secretes from its hands becomes sweeter and richer.",
     stats: {
@@ -38298,7 +38298,7 @@ export const pokemonForms: PokemonForm[] = [
     name: "Alcremie",
     types: ["FAIRY"],
     sprite: "/Front/ALCREMIE_34.png",
-    backSprite: "/spritesBack/ALCREMIE_34.png",
+    backSprite: "/Back/ALCREMIE_34.png",
     description:
       "When Alcremie is content, the cream it secretes from its hands becomes sweeter and richer.",
     stats: {
@@ -38399,7 +38399,7 @@ export const pokemonForms: PokemonForm[] = [
     name: "Alcremie",
     types: ["FAIRY"],
     sprite: "/Front/ALCREMIE_35.png",
-    backSprite: "/spritesBack/ALCREMIE_35.png",
+    backSprite: "/Back/ALCREMIE_35.png",
     description:
       "The cells that compose its cream fluctuated suddenly during evolution, giving the cream a salty flavor.",
     stats: {
@@ -38500,7 +38500,7 @@ export const pokemonForms: PokemonForm[] = [
     name: "Alcremie",
     types: ["FAIRY"],
     sprite: "/Front/ALCREMIE_36.png",
-    backSprite: "/spritesBack/ALCREMIE_36.png",
+    backSprite: "/Back/ALCREMIE_36.png",
     description:
       "When Alcremie is content, the cream it secretes from its hands becomes sweeter and richer.",
     stats: {
@@ -38601,7 +38601,7 @@ export const pokemonForms: PokemonForm[] = [
     name: "Alcremie",
     types: ["FAIRY"],
     sprite: "/Front/ALCREMIE_37.png",
-    backSprite: "/spritesBack/ALCREMIE_37.png",
+    backSprite: "/Back/ALCREMIE_37.png",
     description:
       "When Alcremie is content, the cream it secretes from its hands becomes sweeter and richer.",
     stats: {
@@ -38702,7 +38702,7 @@ export const pokemonForms: PokemonForm[] = [
     name: "Alcremie",
     types: ["FAIRY"],
     sprite: "/Front/ALCREMIE_38.png",
-    backSprite: "/spritesBack/ALCREMIE_38.png",
+    backSprite: "/Back/ALCREMIE_38.png",
     description:
       "When Alcremie is content, the cream it secretes from its hands becomes sweeter and richer.",
     stats: {
@@ -38803,7 +38803,7 @@ export const pokemonForms: PokemonForm[] = [
     name: "Alcremie",
     types: ["FAIRY"],
     sprite: "/Front/ALCREMIE_39.png",
-    backSprite: "/spritesBack/ALCREMIE_39.png",
+    backSprite: "/Back/ALCREMIE_39.png",
     description:
       "When Alcremie is content, the cream it secretes from its hands becomes sweeter and richer.",
     stats: {
@@ -38904,7 +38904,7 @@ export const pokemonForms: PokemonForm[] = [
     name: "Alcremie",
     types: ["FAIRY"],
     sprite: "/Front/ALCREMIE_40.png",
-    backSprite: "/spritesBack/ALCREMIE_40.png",
+    backSprite: "/Back/ALCREMIE_40.png",
     description:
       "When Alcremie is content, the cream it secretes from its hands becomes sweeter and richer.",
     stats: {
@@ -39005,7 +39005,7 @@ export const pokemonForms: PokemonForm[] = [
     name: "Alcremie",
     types: ["FAIRY"],
     sprite: "/Front/ALCREMIE_41.png",
-    backSprite: "/spritesBack/ALCREMIE_41.png",
+    backSprite: "/Back/ALCREMIE_41.png",
     description:
       "When Alcremie is content, the cream it secretes from its hands becomes sweeter and richer.",
     stats: {
@@ -39106,7 +39106,7 @@ export const pokemonForms: PokemonForm[] = [
     name: "Alcremie",
     types: ["FAIRY"],
     sprite: "/Front/ALCREMIE_42.png",
-    backSprite: "/spritesBack/ALCREMIE_42.png",
+    backSprite: "/Back/ALCREMIE_42.png",
     description:
       "The cells that compose its cream fluctuated suddenly during evolution, giving the cream a mixed flavor.",
     stats: {
@@ -39207,7 +39207,7 @@ export const pokemonForms: PokemonForm[] = [
     name: "Alcremie",
     types: ["FAIRY"],
     sprite: "/Front/ALCREMIE_43.png",
-    backSprite: "/spritesBack/ALCREMIE_43.png",
+    backSprite: "/Back/ALCREMIE_43.png",
     description:
       "When Alcremie is content, the cream it secretes from its hands becomes sweeter and richer.",
     stats: {
@@ -39308,7 +39308,7 @@ export const pokemonForms: PokemonForm[] = [
     name: "Alcremie",
     types: ["FAIRY"],
     sprite: "/Front/ALCREMIE_44.png",
-    backSprite: "/spritesBack/ALCREMIE_44.png",
+    backSprite: "/Back/ALCREMIE_44.png",
     description:
       "When Alcremie is content, the cream it secretes from its hands becomes sweeter and richer.",
     stats: {
@@ -39409,7 +39409,7 @@ export const pokemonForms: PokemonForm[] = [
     name: "Alcremie",
     types: ["FAIRY"],
     sprite: "/Front/ALCREMIE_45.png",
-    backSprite: "/spritesBack/ALCREMIE_45.png",
+    backSprite: "/Back/ALCREMIE_45.png",
     description:
       "When Alcremie is content, the cream it secretes from its hands becomes sweeter and richer.",
     stats: {
@@ -39510,7 +39510,7 @@ export const pokemonForms: PokemonForm[] = [
     name: "Alcremie",
     types: ["FAIRY"],
     sprite: "/Front/ALCREMIE_46.png",
-    backSprite: "/spritesBack/ALCREMIE_46.png",
+    backSprite: "/Back/ALCREMIE_46.png",
     description:
       "When Alcremie is content, the cream it secretes from its hands becomes sweeter and richer.",
     stats: {
@@ -39611,7 +39611,7 @@ export const pokemonForms: PokemonForm[] = [
     name: "Alcremie",
     types: ["FAIRY"],
     sprite: "/Front/ALCREMIE_47.png",
-    backSprite: "/spritesBack/ALCREMIE_47.png",
+    backSprite: "/Back/ALCREMIE_47.png",
     description:
       "When Alcremie is content, the cream it secretes from its hands becomes sweeter and richer.",
     stats: {
@@ -39712,7 +39712,7 @@ export const pokemonForms: PokemonForm[] = [
     name: "Alcremie",
     types: ["FAIRY"],
     sprite: "/Front/ALCREMIE_48.png",
-    backSprite: "/spritesBack/ALCREMIE_48.png",
+    backSprite: "/Back/ALCREMIE_48.png",
     description:
       "When Alcremie is content, the cream it secretes from its hands becomes sweeter and richer.",
     stats: {
@@ -39813,7 +39813,7 @@ export const pokemonForms: PokemonForm[] = [
     name: "Alcremie",
     types: ["FAIRY"],
     sprite: "/Front/ALCREMIE_49.png",
-    backSprite: "/spritesBack/ALCREMIE_49.png",
+    backSprite: "/Back/ALCREMIE_49.png",
     description:
       "The cells that compose its cream fluctuated suddenly during evolution, giving the cream a bitter flavor.",
     stats: {
@@ -39914,7 +39914,7 @@ export const pokemonForms: PokemonForm[] = [
     name: "Alcremie",
     types: ["FAIRY"],
     sprite: "/Front/ALCREMIE_50.png",
-    backSprite: "/spritesBack/ALCREMIE_50.png",
+    backSprite: "/Back/ALCREMIE_50.png",
     description:
       "When Alcremie is content, the cream it secretes from its hands becomes sweeter and richer.",
     stats: {
@@ -40015,7 +40015,7 @@ export const pokemonForms: PokemonForm[] = [
     name: "Alcremie",
     types: ["FAIRY"],
     sprite: "/Front/ALCREMIE_51.png",
-    backSprite: "/spritesBack/ALCREMIE_51.png",
+    backSprite: "/Back/ALCREMIE_51.png",
     description:
       "When Alcremie is content, the cream it secretes from its hands becomes sweeter and richer.",
     stats: {
@@ -40116,7 +40116,7 @@ export const pokemonForms: PokemonForm[] = [
     name: "Alcremie",
     types: ["FAIRY"],
     sprite: "/Front/ALCREMIE_52.png",
-    backSprite: "/spritesBack/ALCREMIE_52.png",
+    backSprite: "/Back/ALCREMIE_52.png",
     description:
       "When Alcremie is content, the cream it secretes from its hands becomes sweeter and richer.",
     stats: {
@@ -40217,7 +40217,7 @@ export const pokemonForms: PokemonForm[] = [
     name: "Alcremie",
     types: ["FAIRY"],
     sprite: "/Front/ALCREMIE_53.png",
-    backSprite: "/spritesBack/ALCREMIE_53.png",
+    backSprite: "/Back/ALCREMIE_53.png",
     description:
       "When Alcremie is content, the cream it secretes from its hands becomes sweeter and richer.",
     stats: {
@@ -40318,7 +40318,7 @@ export const pokemonForms: PokemonForm[] = [
     name: "Alcremie",
     types: ["FAIRY"],
     sprite: "/Front/ALCREMIE_54.png",
-    backSprite: "/spritesBack/ALCREMIE_54.png",
+    backSprite: "/Back/ALCREMIE_54.png",
     description:
       "When Alcremie is content, the cream it secretes from its hands becomes sweeter and richer.",
     stats: {
@@ -40419,7 +40419,7 @@ export const pokemonForms: PokemonForm[] = [
     name: "Alcremie",
     types: ["FAIRY"],
     sprite: "/Front/ALCREMIE_55.png",
-    backSprite: "/spritesBack/ALCREMIE_55.png",
+    backSprite: "/Back/ALCREMIE_55.png",
     description:
       "When Alcremie is content, the cream it secretes from its hands becomes sweeter and richer.",
     stats: {
@@ -40520,7 +40520,7 @@ export const pokemonForms: PokemonForm[] = [
     name: "Alcremie",
     types: ["FAIRY"],
     sprite: "/Front/ALCREMIE_56.png",
-    backSprite: "/spritesBack/ALCREMIE_56.png",
+    backSprite: "/Back/ALCREMIE_56.png",
     description:
       "The cells that compose its cream fluctuated suddenly during evolution, giving the cream a complex flavor.",
     stats: {
@@ -40621,7 +40621,7 @@ export const pokemonForms: PokemonForm[] = [
     name: "Alcremie",
     types: ["FAIRY"],
     sprite: "/Front/ALCREMIE_57.png",
-    backSprite: "/spritesBack/ALCREMIE_57.png",
+    backSprite: "/Back/ALCREMIE_57.png",
     description:
       "When Alcremie is content, the cream it secretes from its hands becomes sweeter and richer.",
     stats: {
@@ -40722,7 +40722,7 @@ export const pokemonForms: PokemonForm[] = [
     name: "Alcremie",
     types: ["FAIRY"],
     sprite: "/Front/ALCREMIE_58.png",
-    backSprite: "/spritesBack/ALCREMIE_58.png",
+    backSprite: "/Back/ALCREMIE_58.png",
     description:
       "When Alcremie is content, the cream it secretes from its hands becomes sweeter and richer.",
     stats: {
@@ -40823,7 +40823,7 @@ export const pokemonForms: PokemonForm[] = [
     name: "Alcremie",
     types: ["FAIRY"],
     sprite: "/Front/ALCREMIE_59.png",
-    backSprite: "/spritesBack/ALCREMIE_59.png",
+    backSprite: "/Back/ALCREMIE_59.png",
     description:
       "When Alcremie is content, the cream it secretes from its hands becomes sweeter and richer.",
     stats: {
@@ -40924,7 +40924,7 @@ export const pokemonForms: PokemonForm[] = [
     name: "Alcremie",
     types: ["FAIRY"],
     sprite: "/Front/ALCREMIE_60.png",
-    backSprite: "/spritesBack/ALCREMIE_60.png",
+    backSprite: "/Back/ALCREMIE_60.png",
     description:
       "When Alcremie is content, the cream it secretes from its hands becomes sweeter and richer.",
     stats: {
@@ -41025,7 +41025,7 @@ export const pokemonForms: PokemonForm[] = [
     name: "Alcremie",
     types: ["FAIRY"],
     sprite: "/Front/ALCREMIE_61.png",
-    backSprite: "/spritesBack/ALCREMIE_61.png",
+    backSprite: "/Back/ALCREMIE_61.png",
     description:
       "When Alcremie is content, the cream it secretes from its hands becomes sweeter and richer.",
     stats: {
@@ -41126,7 +41126,7 @@ export const pokemonForms: PokemonForm[] = [
     name: "Alcremie",
     types: ["FAIRY"],
     sprite: "/Front/ALCREMIE_62.png",
-    backSprite: "/spritesBack/ALCREMIE_62.png",
+    backSprite: "/Back/ALCREMIE_62.png",
     description:
       "When Alcremie is content, the cream it secretes from its hands becomes sweeter and richer.",
     stats: {
@@ -41227,7 +41227,7 @@ export const pokemonForms: PokemonForm[] = [
     name: "Eiscue",
     types: ["ICE"],
     sprite: "/Front/EISCUE_1.png",
-    backSprite: "/spritesBack/EISCUE_1.png",
+    backSprite: "/Back/EISCUE_1.png",
     description:
       "The ice covering this Pokémon's face has shattered, revealing a slightly worried expression that many people are enamored with.",
     stats: {
@@ -41334,7 +41334,7 @@ export const pokemonForms: PokemonForm[] = [
     name: "Indeedee",
     types: ["PSYCHIC", "NORMAL"],
     sprite: "/Front/INDEEDEE_1.png",
-    backSprite: "/spritesBack/INDEEDEE_1.png",
+    backSprite: "/Back/INDEEDEE_1.png",
     description:
       "They diligently serve people and Pokémon so they can gather feelings of gratitude. The females are particularly good at babysitting.",
     stats: {
@@ -41437,7 +41437,7 @@ export const pokemonForms: PokemonForm[] = [
     name: "Morpeko",
     types: ["ELECTRIC", "DARK"],
     sprite: "/Front/MORPEKO_1.png",
-    backSprite: "/spritesBack/MORPEKO_1.png",
+    backSprite: "/Back/MORPEKO_1.png",
     description:
       "Hunger hormones affect its temperament. Until its hunger is appeased, it gets up to all manner of evil deeds.",
     stats: {
@@ -41561,7 +41561,7 @@ export const pokemonForms: PokemonForm[] = [
     name: "Zacian",
     types: ["FAIRY", "STEEL"],
     sprite: "/Front/ZACIAN_1.png",
-    backSprite: "/spritesBack/ZACIAN_1.png",
+    backSprite: "/Back/ZACIAN_1.png",
     description:
       "Able to cut down anything with a single strike, it became known as the Fairy King's Sword, and it inspired awe in friend and foe alike.",
     stats: {
@@ -41672,7 +41672,7 @@ export const pokemonForms: PokemonForm[] = [
     name: "Zamazenta",
     types: ["FIGHTING", "STEEL"],
     sprite: "/Front/ZAMAZENTA_1.png",
-    backSprite: "/spritesBack/ZAMAZENTA_1.png",
+    backSprite: "/Back/ZAMAZENTA_1.png",
     description:
       "Its ability to deflect any attack led to it being known as the Fighting Master's Shield. It was feared and respected by all.",
     stats: {
@@ -41788,7 +41788,7 @@ export const pokemonForms: PokemonForm[] = [
     name: "Urshifu",
     types: ["FIGHTING", "WATER"],
     sprite: "/Front/URSHIFU_1.png",
-    backSprite: "/spritesBack/URSHIFU_1.png",
+    backSprite: "/Back/URSHIFU_1.png",
     description:
       "It's believed that this Pokémon modeled its fighting style on the flow of a river—sometimes rapid, sometimes calm.",
     stats: {
@@ -41913,7 +41913,7 @@ export const pokemonForms: PokemonForm[] = [
     name: "Calyrex",
     types: ["PSYCHIC", "ICE"],
     sprite: "/Front/CALYREX_1.png",
-    backSprite: "/spritesBack/CALYREX_1.png",
+    backSprite: "/Back/CALYREX_1.png",
     description:
       "According to lore, this Pokémon showed no mercy to those who got in its way, yet it would heal its opponents' wounds after battle.",
     stats: {
@@ -42077,7 +42077,7 @@ export const pokemonForms: PokemonForm[] = [
     name: "Calyrex",
     types: ["PSYCHIC", "GHOST"],
     sprite: "/Front/CALYREX_2.png",
-    backSprite: "/spritesBack/CALYREX_2.png",
+    backSprite: "/Back/CALYREX_2.png",
     description:
       "Legend says that by using its power to see all events from past to future, this Pokémon saved the creatures of a forest from a meteorite strike.",
     stats: {
@@ -42233,7 +42233,7 @@ export const pokemonForms: PokemonForm[] = [
     name: "Ursaluna",
     types: ["GROUND", "NORMAL"],
     sprite: "/Front/URSALUNA_1.png",
-    backSprite: "/spritesBack/URSALUNA_1.png",
+    backSprite: "/Back/URSALUNA_1.png",
     description:
       "This special Ursaluna can see in the dark with its left eye and protects itself with mud that is as hard as iron.",
     stats: {
@@ -42339,7 +42339,7 @@ export const pokemonForms: PokemonForm[] = [
     name: "Basculegion",
     types: ["WATER", "GHOST"],
     sprite: "/Front/BASCULEGION_3.png",
-    backSprite: "/spritesBack/BASCULEGION_3.png",
+    backSprite: "/Back/BASCULEGION_3.png",
     description:
       "It can afflict a target with terrifying illusions that are under its control. The deeper the sadness in its friends' souls, the paler Basculegion becomes.",
     stats: {
@@ -42436,7 +42436,7 @@ export const pokemonForms: PokemonForm[] = [
     name: "Enamorus",
     types: ["FAIRY", "FLYING"],
     sprite: "/Front/ENAMORUS_1.png",
-    backSprite: "/spritesBack/ENAMORUS_1.png",
+    backSprite: "/Back/ENAMORUS_1.png",
     description:
       "A different guise from its feminine humanoid form. From the clouds, it descends upon those who treat any form of life with disrespect and metes out wrathful, ruthless punishment.",
     stats: {
@@ -42527,7 +42527,7 @@ export const pokemonForms: PokemonForm[] = [
     name: "Oinkologne",
     types: ["NORMAL"],
     sprite: "/Front/OINKOLOGNE_1.png",
-    backSprite: "/spritesBack/OINKOLOGNE_1.png",
+    backSprite: "/Back/OINKOLOGNE_1.png",
     description:
       "This is a meticulous Pokémon that likes to keep things tidy. It shrouds itself in a floral aroma that soothes the Pokémon around it.",
     stats: {
@@ -42615,7 +42615,7 @@ export const pokemonForms: PokemonForm[] = [
     name: "Maushold",
     types: ["NORMAL"],
     sprite: "/Front/MAUSHOLD_1.png",
-    backSprite: "/spritesBack/MAUSHOLD_1.png",
+    backSprite: "/Back/MAUSHOLD_1.png",
     description:
       "The little one just appeared one day. They all live together like a family, but the relationship between the three is still unclear.",
     stats: {
@@ -42706,7 +42706,7 @@ export const pokemonForms: PokemonForm[] = [
     name: "Squawkabilly",
     types: ["NORMAL", "FLYING"],
     sprite: "/Front/SQUAWKABILLY_1.png",
-    backSprite: "/spritesBack/SQUAWKABILLY_1.png",
+    backSprite: "/Back/SQUAWKABILLY_1.png",
     description:
       "The largest of their flocks can contain more than 50 individuals. They fly around towns and forests, searching for food and making a racket.",
     stats: {
@@ -42791,7 +42791,7 @@ export const pokemonForms: PokemonForm[] = [
     name: "Squawkabilly",
     types: ["NORMAL", "FLYING"],
     sprite: "/Front/SQUAWKABILLY_2.png",
-    backSprite: "/spritesBack/SQUAWKABILLY_2.png",
+    backSprite: "/Back/SQUAWKABILLY_2.png",
     description:
       "The yellow Squawkabilly are especially fierce. They've even been known to drive other bird Pokémon out of town.",
     stats: {
@@ -42876,7 +42876,7 @@ export const pokemonForms: PokemonForm[] = [
     name: "Squawkabilly",
     types: ["NORMAL", "FLYING"],
     sprite: "/Front/SQUAWKABILLY_3.png",
-    backSprite: "/spritesBack/SQUAWKABILLY_3.png",
+    backSprite: "/Back/SQUAWKABILLY_3.png",
     description:
       "This Pokémon dislikes being alone. It has a strong sense of community and survives by cooperating with allies.",
     stats: {
@@ -42961,7 +42961,7 @@ export const pokemonForms: PokemonForm[] = [
     name: "Palafin",
     types: ["WATER"],
     sprite: "/Front/PALAFIN_1.png",
-    backSprite: "/spritesBack/PALAFIN_1.png",
+    backSprite: "/Back/PALAFIN_1.png",
     description:
       "This Pokémon's ancient genes have awakened. It is now so extraordinarily strong that it can easily lift a cruise ship with one fin.",
     stats: {
@@ -43063,7 +43063,7 @@ export const pokemonForms: PokemonForm[] = [
     name: "Tatsugiri",
     types: ["DRAGON", "WATER"],
     sprite: "/Front/TATSUGIRI_1.png",
-    backSprite: "/spritesBack/TATSUGIRI_1.png",
+    backSprite: "/Back/TATSUGIRI_1.png",
     description:
       "This Pokémon tricks its opponents by playing dead. It is small and weak, but it uses its smarts to survive.",
     stats: {
@@ -43137,7 +43137,7 @@ export const pokemonForms: PokemonForm[] = [
     name: "Tatsugiri",
     types: ["DRAGON", "WATER"],
     sprite: "/Front/TATSUGIRI_2.png",
-    backSprite: "/spritesBack/TATSUGIRI_2.png",
+    backSprite: "/Back/TATSUGIRI_2.png",
     description:
       "It's one of the most intelligent dragon Pokémon. It camouflages itself by inflating its throat sac.",
     stats: {
@@ -43211,7 +43211,7 @@ export const pokemonForms: PokemonForm[] = [
     name: "Dudunsparce",
     types: ["NORMAL"],
     sprite: "/Front/DUDUNSPARCE_1.png",
-    backSprite: "/spritesBack/DUDUNSPARCE_1.png",
+    backSprite: "/Back/DUDUNSPARCE_1.png",
     description:
       "The gentle Dudunsparce will put Pokémon that wander into its nest onto its back and carry them to the entrance.",
     stats: {
@@ -43336,7 +43336,7 @@ export const pokemonForms: PokemonForm[] = [
     name: "Gimmighoul",
     types: ["GHOST"],
     sprite: "/Front/GIMMIGHOUL_1.png",
-    backSprite: "/spritesBack/GIMMIGHOUL_1.png",
+    backSprite: "/Back/GIMMIGHOUL_1.png",
     description:
       "It wanders around, carrying an old coin on its back. It survives by draining the life-force from humans who try to pick up its coin.",
     stats: {
@@ -43391,7 +43391,7 @@ export const pokemonForms: PokemonForm[] = [
     name: "Poltchageist",
     types: ["GRASS", "GHOST"],
     sprite: "/Front/POLTCHAGEIST_1.png",
-    backSprite: "/spritesBack/POLTCHAGEIST_1.png",
+    backSprite: "/Back/POLTCHAGEIST_1.png",
     description:
       "It sprinkles some of its powdery body onto food and drains the life-force from those who so much as lick it.",
     stats: {
@@ -43474,7 +43474,7 @@ export const pokemonForms: PokemonForm[] = [
     name: "Sinistcha",
     types: ["GRASS", "GHOST"],
     sprite: "/Front/SINISTCHA_1.png",
-    backSprite: "/spritesBack/SINISTCHA_1.png",
+    backSprite: "/Back/SINISTCHA_1.png",
     description:
       "The more stirring it does with the tea whisk on its head, the more energy it builds up. It does this to prepare for battle.",
     stats: {
@@ -43553,7 +43553,7 @@ export const pokemonForms: PokemonForm[] = [
     name: "Ogerpon",
     types: ["GRASS", "WATER"],
     sprite: "/Front/OGERPON_1.png",
-    backSprite: "/spritesBack/OGERPON_1.png",
+    backSprite: "/Back/OGERPON_1.png",
     description:
       "This form excels in both attack and defense. It ceaselessly unleashes moves like a spring gushes water.",
     stats: {
@@ -43651,7 +43651,7 @@ export const pokemonForms: PokemonForm[] = [
     name: "Ogerpon",
     types: ["GRASS", "FIRE"],
     sprite: "/Front/OGERPON_2.png",
-    backSprite: "/spritesBack/OGERPON_2.png",
+    backSprite: "/Back/OGERPON_2.png",
     description:
       "This form is the most aggressive, bombarding enemies with the intensity of flames blazing within a hearth.",
     stats: {
@@ -43749,7 +43749,7 @@ export const pokemonForms: PokemonForm[] = [
     name: "Ogerpon",
     types: ["GRASS", "ROCK"],
     sprite: "/Front/OGERPON_3.png",
-    backSprite: "/spritesBack/OGERPON_3.png",
+    backSprite: "/Back/OGERPON_3.png",
     description:
       "This form has excellent defenses, absorbing impacts solidly like the cornerstones that support houses.",
     stats: {
@@ -43847,7 +43847,7 @@ export const pokemonForms: PokemonForm[] = [
     name: "Terapagos",
     types: ["NORMAL"],
     sprite: "/Front/TERAPAGOS_1.png",
-    backSprite: "/spritesBack/TERAPAGOS_1.png",
+    backSprite: "/Back/TERAPAGOS_1.png",
     description:
       "Upon sensing danger, it prepares itself for battle by creating a sturdy shell of crystallized Terastal energy.",
     stats: {
@@ -43945,7 +43945,7 @@ export const pokemonForms: PokemonForm[] = [
     name: "Terapagos",
     types: ["NORMAL"],
     sprite: "/Front/TERAPAGOS_2.png",
-    backSprite: "/spritesBack/TERAPAGOS_2.png",
+    backSprite: "/Back/TERAPAGOS_2.png",
     description:
       "In this form, Terapagos resembles the world as the ancients saw it, and its Terastal energy is abnormally amplified.",
     stats: {
@@ -44043,7 +44043,7 @@ export const pokemonForms: PokemonForm[] = [
     name: "Clefable",
     types: ["FAIRY"],
     sprite: "/Front/CLEFABLE_1.png",
-    backSprite: "/spritesBack/CLEFABLE_1.png",
+    backSprite: "/Back/CLEFABLE_1.png",
     description:
       "A Clefable uses its wings to skip lightly as if it were flying. Its bouncy step lets it even walk on water. On quiet, moonlit nights, it strolls on lakes.",
     stats: {
@@ -44225,7 +44225,7 @@ export const pokemonForms: PokemonForm[] = [
     name: "Victreebel",
     types: ["GRASS", "POISON"],
     sprite: "/Front/VICTREEBEL_1.png",
-    backSprite: "/spritesBack/VICTREEBEL_1.png",
+    backSprite: "/Back/VICTREEBEL_1.png",
     description:
       "The long vine extending from its head is waved about as if it were a living thing to attract prey. When an unsuspecting victim approaches, it is swallowed whole.",
     stats: {
@@ -44332,7 +44332,7 @@ export const pokemonForms: PokemonForm[] = [
     name: "Starmie",
     types: ["WATER", "PSYCHIC"],
     sprite: "/Front/STARMIE_1.png",
-    backSprite: "/spritesBack/STARMIE_1.png",
+    backSprite: "/Back/STARMIE_1.png",
     description:
       "People in ancient times imagined that Starmie were transformed from the reflections of stars that twinkled on gentle waves at night.",
     stats: {
@@ -44452,7 +44452,7 @@ export const pokemonForms: PokemonForm[] = [
     name: "Dragonite",
     types: ["DRAGON", "FLYING"],
     sprite: "/Front/DRAGONITE_1.png",
-    backSprite: "/spritesBack/DRAGONITE_1.png",
+    backSprite: "/Back/DRAGONITE_1.png",
     description:
       "It can circle the globe in just 16 hours. It is a kindhearted Pokémon that leads lost and foundering ships in a storm to the safety of land.",
     stats: {
@@ -44617,7 +44617,7 @@ export const pokemonForms: PokemonForm[] = [
     name: "Meganium",
     types: ["GRASS", "FAIRY"],
     sprite: "/Front/MEGANIUM_1.png",
-    backSprite: "/spritesBack/MEGANIUM_1.png",
+    backSprite: "/Back/MEGANIUM_1.png",
     description:
       "The fragrance of a Meganium's flower soothes and calms emotions. In battle, it gives off more of its becalming scent to blunt the foe's fighting spirit.",
     stats: {
@@ -44745,7 +44745,7 @@ export const pokemonForms: PokemonForm[] = [
     name: "Feraligatr",
     types: ["WATER", "DRAGON"],
     sprite: "/Front/FERALIGATR_1.png",
-    backSprite: "/spritesBack/FERALIGATR_1.png",
+    backSprite: "/Back/FERALIGATR_1.png",
     description:
       "It opens its huge mouth to intimidate enemies. In battle, it runs using its thick and powerful hind legs to charge the foe with incredible speed.",
     stats: {
@@ -44894,7 +44894,7 @@ export const pokemonForms: PokemonForm[] = [
     name: "Skarmory",
     types: ["STEEL", "FLYING"],
     sprite: "/Front/SKARMORY_1.png",
-    backSprite: "/spritesBack/SKARMORY_1.png",
+    backSprite: "/Back/SKARMORY_1.png",
     description:
       "A Pokémon that has a body and wings of steel. People in the past used feathers fallen from Skarmory to make swords and knives.",
     stats: {
@@ -45029,7 +45029,7 @@ export const pokemonForms: PokemonForm[] = [
     name: "Froslass",
     types: ["ICE", "GHOST"],
     sprite: "/Front/FROSLASS_1.png",
-    backSprite: "/spritesBack/FROSLASS_1.png",
+    backSprite: "/Back/FROSLASS_1.png",
     description:
       "It freezes foes with an icy breath nearly -60 degrees F. What seems to be its body is actually hollow.",
     stats: {
@@ -45171,7 +45171,7 @@ export const pokemonForms: PokemonForm[] = [
     name: "Emboar",
     types: ["FIRE", "FIGHTING"],
     sprite: "/Front/EMBOAR_1.png",
-    backSprite: "/spritesBack/EMBOAR_1.png",
+    backSprite: "/Back/EMBOAR_1.png",
     description:
       "It can throw a fire punch by setting its fists on fire with its fiery chin. It cares deeply about its friends.",
     stats: {
@@ -45312,7 +45312,7 @@ export const pokemonForms: PokemonForm[] = [
     name: "Excadrill",
     types: ["GROUND", "STEEL"],
     sprite: "/Front/EXCADRILL_1.png",
-    backSprite: "/spritesBack/EXCADRILL_1.png",
+    backSprite: "/Back/EXCADRILL_1.png",
     description:
       "More than 300 feet below the surface, they build mazelike nests. Their activity can be destructive to subway tunnels.",
     stats: {
@@ -45427,7 +45427,7 @@ export const pokemonForms: PokemonForm[] = [
     name: "Scolipede",
     types: ["BUG", "POISON"],
     sprite: "/Front/SCOLIPEDE_1.png",
-    backSprite: "/spritesBack/SCOLIPEDE_1.png",
+    backSprite: "/Back/SCOLIPEDE_1.png",
     description:
       "Highly aggressive, it uses the claws near its neck to dig into its opponents and poison them.",
     stats: {
@@ -45542,7 +45542,7 @@ export const pokemonForms: PokemonForm[] = [
     name: "Scrafty",
     types: ["DARK", "FIGHTING"],
     sprite: "/Front/SCRAFTY_1.png",
-    backSprite: "/spritesBack/SCRAFTY_1.png",
+    backSprite: "/Back/SCRAFTY_1.png",
     description:
       "It can smash concrete blocks with its kicking attacks. The one with the biggest crest is the group leader.",
     stats: {
@@ -45689,7 +45689,7 @@ export const pokemonForms: PokemonForm[] = [
     name: "Eelektross",
     types: ["ELECTRIC"],
     sprite: "/Front/EELEKTROSS_1.png",
-    backSprite: "/spritesBack/EELEKTROSS_1.png",
+    backSprite: "/Back/EELEKTROSS_1.png",
     description:
       "With their sucker mouths, they suck in prey. Then they use their fangs to shock the prey with electricity.",
     stats: {
@@ -45823,7 +45823,7 @@ export const pokemonForms: PokemonForm[] = [
     name: "Chandelure",
     types: ["GHOST", "FIRE"],
     sprite: "/Front/CHANDELURE_1.png",
-    backSprite: "/spritesBack/CHANDELURE_1.png",
+    backSprite: "/Back/CHANDELURE_1.png",
     description:
       "Being consumed in Chandelure's flame burns up the spirit, leaving the body behind.",
     stats: {
@@ -45940,7 +45940,7 @@ export const pokemonForms: PokemonForm[] = [
     name: "Chesnaught",
     types: ["GRASS", "FIGHTING"],
     sprite: "/Front/CHESNAUGHT_1.png",
-    backSprite: "/spritesBack/CHESNAUGHT_1.png",
+    backSprite: "/Back/CHESNAUGHT_1.png",
     description:
       "Its Tackle is forceful enough to flip a 50-ton tank. It shields its allies from danger with its own body.",
     stats: {
@@ -46095,7 +46095,7 @@ export const pokemonForms: PokemonForm[] = [
     name: "Delphox",
     types: ["FIRE", "PSYCHIC"],
     sprite: "/Front/DELPHOX_1.png",
-    backSprite: "/spritesBack/DELPHOX_1.png",
+    backSprite: "/Back/DELPHOX_1.png",
     description:
       "It gazes into the flame at the tip of its branch to achieve a focused state, which allows it to see into the future.",
     stats: {
@@ -46247,7 +46247,7 @@ export const pokemonForms: PokemonForm[] = [
     name: "Greninja",
     types: ["WATER", "DARK"],
     sprite: "/Front/GRENINJA_3.png",
-    backSprite: "/spritesBack/GRENINJA_3.png",
+    backSprite: "/Back/GRENINJA_3.png",
     description:
       "It appears and vanishes with a ninja's grace. It toys with its enemies using swift movements, while slicing them with throwing stars of sharpest water.",
     stats: {
@@ -46377,7 +46377,7 @@ export const pokemonForms: PokemonForm[] = [
     name: "Pyroar",
     types: ["FIRE", "NORMAL"],
     sprite: "/Front/PYROAR_1.png",
-    backSprite: "/spritesBack/PYROAR_1.png",
+    backSprite: "/Back/PYROAR_1.png",
     description:
       "With fiery breath of more than 6,000 degrees Celsius, they viciously threaten any challenger. The females protect the pride's cubs.",
     stats: {
@@ -46494,7 +46494,7 @@ export const pokemonForms: PokemonForm[] = [
     name: "Floette",
     types: ["FAIRY"],
     sprite: "/Front/FLOETTE_6.png",
-    backSprite: "/spritesBack/FLOETTE_6.png",
+    backSprite: "/Back/FLOETTE_6.png",
     description:
       "It flutters around fields of flowers and cares for flowers that are starting to wilt. It draws out the power of flowers to battle.",
     stats: {
@@ -46609,7 +46609,7 @@ export const pokemonForms: PokemonForm[] = [
     name: "Malamar",
     types: ["DARK", "PSYCHIC"],
     sprite: "/Front/MALAMAR_1.png",
-    backSprite: "/spritesBack/MALAMAR_1.png",
+    backSprite: "/Back/MALAMAR_1.png",
     description:
       "It lures prey close with hypnotic motions, then wraps its tentacles around it before finishing it off with digestive fluids.",
     stats: {
@@ -46738,7 +46738,7 @@ export const pokemonForms: PokemonForm[] = [
     name: "Barbaracle",
     types: ["ROCK", "FIGHTING"],
     sprite: "/Front/BARBARACLE_1.png",
-    backSprite: "/spritesBack/BARBARACLE_1.png",
+    backSprite: "/Back/BARBARACLE_1.png",
     description:
       "Barbaracle's legs and hands have minds of their own, and they will move independently. But they usually follow the head's orders.",
     stats: {
@@ -46874,7 +46874,7 @@ export const pokemonForms: PokemonForm[] = [
     name: "Dragalge",
     types: ["POISON", "DRAGON"],
     sprite: "/Front/DRAGALGE_1.png",
-    backSprite: "/spritesBack/DRAGALGE_1.png",
+    backSprite: "/Back/DRAGALGE_1.png",
     description:
       "Their poison is strong enough to eat through the hull of a tanker, and they spit it indiscriminately at anything that enters their territory.",
     stats: {
@@ -46988,7 +46988,7 @@ export const pokemonForms: PokemonForm[] = [
     name: "Hawlucha",
     types: ["FIGHTING", "FLYING"],
     sprite: "/Front/HAWLUCHA_1.png",
-    backSprite: "/spritesBack/HAWLUCHA_1.png",
+    backSprite: "/Back/HAWLUCHA_1.png",
     description:
       "With its wings, it controls its position in the air. It likes to attack from above, a maneuver that is difficult to defend against.",
     stats: {
@@ -47140,7 +47140,7 @@ export const pokemonForms: PokemonForm[] = [
     name: "Zygarde",
     types: ["DRAGON", "GROUND"],
     sprite: "/Front/ZYGARDE_4.png",
-    backSprite: "/spritesBack/ZYGARDE_4.png",
+    backSprite: "/Back/ZYGARDE_4.png",
     description:
       "It's thought to be monitoring the ecosystem. There are rumors that even greater power lies hidden within it.",
     stats: {
@@ -47253,7 +47253,7 @@ export const pokemonForms: PokemonForm[] = [
     name: "Drampa",
     types: ["NORMAL", "DRAGON"],
     sprite: "/Front/DRAMPA_1.png",
-    backSprite: "/spritesBack/DRAMPA_1.png",
+    backSprite: "/Back/DRAMPA_1.png",
     description:
       "This Pokémon is friendly to people and loves children most of all. It comes from deep in the mountains to play with children it likes in town.",
     stats: {
@@ -47381,7 +47381,7 @@ export const pokemonForms: PokemonForm[] = [
     name: "Falinks",
     types: ["FIGHTING"],
     sprite: "/Front/FALINKS_1.png",
-    backSprite: "/spritesBack/FALINKS_1.png",
+    backSprite: "/Back/FALINKS_1.png",
     description:
       "The six of them work together as one Pokémon. Teamwork is also their battle strategy, and they constantly change their formation as they fight.",
     stats: {
@@ -47489,7 +47489,7 @@ export const pokemonForms: PokemonForm[] = [
     name: "Raichu",
     types: ["ELECTRIC"],
     sprite: "/Front/RAICHU_2.png",
-    backSprite: "/spritesBack/RAICHU_2.png",
+    backSprite: "/Back/RAICHU_2.png",
     description:
       "If it stores too much electricity, its behavior turns aggressive. To avoid this, it occasionally discharges excess energy and calms itself down.",
     stats: {
@@ -47630,7 +47630,7 @@ export const pokemonForms: PokemonForm[] = [
     name: "Raichu",
     types: ["ELECTRIC"],
     sprite: "/Front/RAICHU_3.png",
-    backSprite: "/spritesBack/RAICHU_3.png",
+    backSprite: "/Back/RAICHU_3.png",
     description:
       "If it stores too much electricity, its behavior turns aggressive. To avoid this, it occasionally discharges excess energy and calms itself down.",
     stats: {
@@ -47771,7 +47771,7 @@ export const pokemonForms: PokemonForm[] = [
     name: "Baxcalibur",
     types: ["DRAGON", "ICE"],
     sprite: "/Front/BAXCALIBUR_1.png",
-    backSprite: "/spritesBack/BAXCALIBUR_1.png",
+    backSprite: "/Back/BAXCALIBUR_1.png",
     description:
       "This Pokémon blasts cryogenic air out from its mouth. This air can instantly freeze even liquid-hot lava.",
     stats: {
@@ -47868,7 +47868,7 @@ export const pokemonForms: PokemonForm[] = [
     name: "Chimecho",
     types: ["PSYCHIC"],
     sprite: "/Front/CHIMECHO_1.png",
-    backSprite: "/spritesBack/CHIMECHO_1.png",
+    backSprite: "/Back/CHIMECHO_1.png",
     description:
       "They fly about very actively when the hot season arrives. They communicate among themselves using seven different and distinguishing cries.",
     stats: {
@@ -48006,7 +48006,7 @@ export const pokemonForms: PokemonForm[] = [
     name: "Venusaur",
     types: ["GRASS", "POISON"],
     sprite: "/Front/VENUSAUR_2.png",
-    backSprite: "/spritesBack/VENUSAUR_2.png",
+    backSprite: "/Back/VENUSAUR_2.png",
     description:
       "In battle, this Pokémon swings around two thick vines. If these vines slammed into a 10-story building, they could easily topple it.",
     stats: {
@@ -48135,7 +48135,7 @@ export const pokemonForms: PokemonForm[] = [
     name: "Charizard",
     types: ["FIRE", "FLYING"],
     sprite: "/Front/CHARIZARD_3.png",
-    backSprite: "/spritesBack/CHARIZARD_3.png",
+    backSprite: "/Back/CHARIZARD_3.png",
     description:
       "This colossal, flame-winged figure of a Charizard was brought about by Gigantamax energy.",
     stats: {
@@ -48284,7 +48284,7 @@ export const pokemonForms: PokemonForm[] = [
     name: "Blastoise",
     types: ["WATER"],
     sprite: "/Front/BLASTOISE_2.png",
-    backSprite: "/spritesBack/BLASTOISE_2.png",
+    backSprite: "/Back/BLASTOISE_2.png",
     description:
       "Water fired from this Pokémon's central main cannon has enough power to blast a hole into a mountain.",
     stats: {
@@ -48418,7 +48418,7 @@ export const pokemonForms: PokemonForm[] = [
     name: "Butterfree",
     types: ["BUG", "FLYING"],
     sprite: "/Front/BUTTERFREE_1.png",
-    backSprite: "/spritesBack/BUTTERFREE_1.png",
+    backSprite: "/Back/BUTTERFREE_1.png",
     description:
       "Crystallized Gigantamax energy makes up this Pokémon's blindingly bright and highly toxic scales.",
     stats: {
@@ -48531,7 +48531,7 @@ export const pokemonForms: PokemonForm[] = [
     name: "Pikachu",
     types: ["ELECTRIC"],
     sprite: "/Front/PIKACHU_17.png",
-    backSprite: "/spritesBack/PIKACHU_17.png",
+    backSprite: "/Back/PIKACHU_17.png",
     description:
       "Its Gigantamax power expanded, forming its supersized body and towering tail.",
     stats: {
@@ -48672,7 +48672,7 @@ export const pokemonForms: PokemonForm[] = [
     name: "Meowth",
     types: ["NORMAL"],
     sprite: "/Front/MEOWTH_3.png",
-    backSprite: "/spritesBack/MEOWTH_3.png",
+    backSprite: "/Back/MEOWTH_3.png",
     description:
       "Its body has grown incredibly long and the coin on its forehead has grown incredibly large all thanks to Gigantamax power.",
     stats: {
@@ -48816,7 +48816,7 @@ export const pokemonForms: PokemonForm[] = [
     name: "Machamp",
     types: ["FIGHTING"],
     sprite: "/Front/MACHAMP_1.png",
-    backSprite: "/spritesBack/MACHAMP_1.png",
+    backSprite: "/Back/MACHAMP_1.png",
     description:
       "The Gigantamax energy coursing through its arms makes its punches hit as hard as bomb blasts.",
     stats: {
@@ -48950,7 +48950,7 @@ export const pokemonForms: PokemonForm[] = [
     name: "Gengar",
     types: ["GHOST", "POISON"],
     sprite: "/Front/GENGAR_2.png",
-    backSprite: "/spritesBack/GENGAR_2.png",
+    backSprite: "/Back/GENGAR_2.png",
     description:
       "It lays traps, hoping to steal the lives of those it catches. If you stand in front of its mouth, you'll hear your loved ones' voices calling out to you.",
     stats: {
@@ -49103,7 +49103,7 @@ export const pokemonForms: PokemonForm[] = [
     name: "Kingler",
     types: ["WATER"],
     sprite: "/Front/KINGLER_1.png",
-    backSprite: "/spritesBack/KINGLER_1.png",
+    backSprite: "/Back/KINGLER_1.png",
     description:
       "The flow of Gigantamax energy has spurred this Pokémon's left pincer to grow to an enormous size. That claw can pulverize anything.",
     stats: {
@@ -49217,7 +49217,7 @@ export const pokemonForms: PokemonForm[] = [
     name: "Lapras",
     types: ["WATER", "ICE"],
     sprite: "/Front/LAPRAS_1.png",
-    backSprite: "/spritesBack/LAPRAS_1.png",
+    backSprite: "/Back/LAPRAS_1.png",
     description:
       "Over 5,000 people can ride on its shell at once. And it's a very comfortable ride, without the slightest shaking or swaying.",
     stats: {
@@ -49360,7 +49360,7 @@ export const pokemonForms: PokemonForm[] = [
     name: "Eevee",
     types: ["NORMAL"],
     sprite: "/Front/EEVEE_2.png",
-    backSprite: "/spritesBack/EEVEE_2.png",
+    backSprite: "/Back/EEVEE_2.png",
     description:
       "Gigantamax energy upped the fluffiness of the fur around Eevee's neck. The fur will envelop a foe, capturing its body and captivating its mind.",
     stats: {
@@ -49481,7 +49481,7 @@ export const pokemonForms: PokemonForm[] = [
     name: "Snorlax",
     types: ["NORMAL"],
     sprite: "/Front/SNORLAX_1.png",
-    backSprite: "/spritesBack/SNORLAX_1.png",
+    backSprite: "/Back/SNORLAX_1.png",
     description:
       "Gigantamax energy has affected stray seeds and even pebbles that got stuck to Snorlax, making them grow to a huge size.",
     stats: {
@@ -49661,7 +49661,7 @@ export const pokemonForms: PokemonForm[] = [
     name: "Garbodor",
     types: ["POISON"],
     sprite: "/Front/GARBODOR_1.png",
-    backSprite: "/spritesBack/GARBODOR_1.png",
+    backSprite: "/Back/GARBODOR_1.png",
     description:
       "Due to Gigantamax energy, this Pokémon's toxic gas has become much thicker, congealing into masses shaped like discarded toys.",
     stats: {
@@ -49772,7 +49772,7 @@ export const pokemonForms: PokemonForm[] = [
     name: "Melmetal",
     types: ["STEEL"],
     sprite: "/Front/MELMETAL_1.png",
-    backSprite: "/spritesBack/MELMETAL_1.png",
+    backSprite: "/Back/MELMETAL_1.png",
     description:
       "In a distant land, there are legends about a cyclopean giant. In fact, the giant was a Melmetal that was flooded with Gigantamax energy.",
     stats: {
@@ -49870,7 +49870,7 @@ export const pokemonForms: PokemonForm[] = [
     name: "Rillaboom",
     types: ["GRASS"],
     sprite: "/Front/RILLABOOM_1.png",
-    backSprite: "/spritesBack/RILLABOOM_1.png",
+    backSprite: "/Back/RILLABOOM_1.png",
     description:
       "Gigantamax energy has caused Rillaboom's stump to grow into a drum set that resembles a forest.",
     stats: {
@@ -49997,7 +49997,7 @@ export const pokemonForms: PokemonForm[] = [
     name: "Cinderace",
     types: ["FIRE"],
     sprite: "/Front/CINDERACE_1.png",
-    backSprite: "/spritesBack/CINDERACE_1.png",
+    backSprite: "/Back/CINDERACE_1.png",
     description:
       "Gigantamax energy can sometimes cause the diameter of this Pokémon's fireball to exceed 300 feet.",
     stats: {
@@ -50120,7 +50120,7 @@ export const pokemonForms: PokemonForm[] = [
     name: "Inteleon",
     types: ["WATER"],
     sprite: "/Front/INTELEON_1.png",
-    backSprite: "/spritesBack/INTELEON_1.png",
+    backSprite: "/Back/INTELEON_1.png",
     description:
       "Gigantamax Inteleon's Water Gun move fires at Mach 7. As the Pokémon takes aim, it uses the crest on its head to gauge wind and temperature.",
     stats: {
@@ -50238,7 +50238,7 @@ export const pokemonForms: PokemonForm[] = [
     name: "Corviknight",
     types: ["FLYING", "STEEL"],
     sprite: "/Front/CORVIKNIGHT_1.png",
-    backSprite: "/spritesBack/CORVIKNIGHT_1.png",
+    backSprite: "/Back/CORVIKNIGHT_1.png",
     description:
       "Imbued with Gigantamax energy, its wings can whip up winds more forceful than any a hurricane could muster. The gusts blow everything away.",
     stats: {
@@ -50352,7 +50352,7 @@ export const pokemonForms: PokemonForm[] = [
     name: "Orbeetle",
     types: ["BUG", "PSYCHIC"],
     sprite: "/Front/ORBEETLE_1.png",
-    backSprite: "/spritesBack/ORBEETLE_1.png",
+    backSprite: "/Back/ORBEETLE_1.png",
     description:
       "Its brain has grown to a gargantuan size, as has the rest of its body. This Pokémon's intellect and psychic abilities are overpowering.",
     stats: {
@@ -50458,7 +50458,7 @@ export const pokemonForms: PokemonForm[] = [
     name: "Drednaw",
     types: ["WATER", "ROCK"],
     sprite: "/Front/DREDNAW_1.png",
-    backSprite: "/spritesBack/DREDNAW_1.png",
+    backSprite: "/Back/DREDNAW_1.png",
     description:
       "It responded to Gigantamax energy by becoming bipedal. First it comes crashing down on foes, and then it finishes them off with its massive jaws.",
     stats: {
@@ -50579,7 +50579,7 @@ export const pokemonForms: PokemonForm[] = [
     name: "Coalossal",
     types: ["ROCK", "FIRE"],
     sprite: "/Front/COALOSSAL_1.png",
-    backSprite: "/spritesBack/COALOSSAL_1.png",
+    backSprite: "/Back/COALOSSAL_1.png",
     description:
       "Its body is a colossal stove. With Gigantamax energy stoking the fire, this Pokémon's flame burns hotter than 3,600 degrees Fahrenheit.",
     stats: {
@@ -50692,7 +50692,7 @@ export const pokemonForms: PokemonForm[] = [
     name: "Flapple",
     types: ["GRASS", "DRAGON"],
     sprite: "/Front/FLAPPLE_1.png",
-    backSprite: "/spritesBack/FLAPPLE_1.png",
+    backSprite: "/Back/FLAPPLE_1.png",
     description:
       "Under the influence of Gigantamax energy, it produces much more sweet nectar, and its shape has changed to resemble a giant apple.",
     stats: {
@@ -50795,7 +50795,7 @@ export const pokemonForms: PokemonForm[] = [
     name: "Appletun",
     types: ["GRASS", "DRAGON"],
     sprite: "/Front/APPLETUN_1.png",
-    backSprite: "/spritesBack/APPLETUN_1.png",
+    backSprite: "/Back/APPLETUN_1.png",
     description:
       "Due to Gigantamax energy, this Pokémon's nectar has thickened. The increased viscosity lets the nectar absorb more damage than before.",
     stats: {
@@ -50906,7 +50906,7 @@ export const pokemonForms: PokemonForm[] = [
     name: "Sandaconda",
     types: ["GROUND"],
     sprite: "/Front/SANDACONDA_1.png",
-    backSprite: "/spritesBack/SANDACONDA_1.png",
+    backSprite: "/Back/SANDACONDA_1.png",
     description:
       "Sand swirls around its body with such speed and power that it could pulverize a skyscraper.",
     stats: {
@@ -51007,7 +51007,7 @@ export const pokemonForms: PokemonForm[] = [
     name: "Toxtricity",
     types: ["ELECTRIC", "POISON"],
     sprite: "/Front/TOXTRICITY_2.png",
-    backSprite: "/spritesBack/TOXTRICITY_2.png",
+    backSprite: "/Back/TOXTRICITY_2.png",
     description:
       "Out of control after its own poison penetrated its brain, it tears across the land in a rampage, contaminating the earth with toxic sweat.",
     stats: {
@@ -51138,7 +51138,7 @@ export const pokemonForms: PokemonForm[] = [
     name: "Toxtricity",
     types: ["ELECTRIC", "POISON"],
     sprite: "/Front/TOXTRICITY_3.png",
-    backSprite: "/spritesBack/TOXTRICITY_3.png",
+    backSprite: "/Back/TOXTRICITY_3.png",
     description:
       "When this Pokémon sounds as if it's strumming a guitar, it's actually clawing at the protrusions on its chest to generate electricity.",
     stats: {
@@ -51269,7 +51269,7 @@ export const pokemonForms: PokemonForm[] = [
     name: "Centiskorch",
     types: ["FIRE", "BUG"],
     sprite: "/Front/CENTISKORCH_1.png",
-    backSprite: "/spritesBack/CENTISKORCH_1.png",
+    backSprite: "/Back/CENTISKORCH_1.png",
     description:
       "The heat that comes off a Gigantamax Centiskorch may destabilize air currents. Sometimes it can even cause storms.",
     stats: {
@@ -51362,7 +51362,7 @@ export const pokemonForms: PokemonForm[] = [
     name: "Hatterene",
     types: ["PSYCHIC", "FAIRY"],
     sprite: "/Front/HATTERENE_1.png",
-    backSprite: "/spritesBack/HATTERENE_1.png",
+    backSprite: "/Back/HATTERENE_1.png",
     description:
       "Beams like lightning shoot down from its tentacles. It's known to some as the Raging Goddess.",
     stats: {
@@ -51478,7 +51478,7 @@ export const pokemonForms: PokemonForm[] = [
     name: "Grimmsnarl",
     types: ["DARK", "FAIRY"],
     sprite: "/Front/GRIMMSNARL_1.png",
-    backSprite: "/spritesBack/GRIMMSNARL_1.png",
+    backSprite: "/Back/GRIMMSNARL_1.png",
     description:
       "Gigantamax energy has caused more hair to sprout all over its body. With the added strength, it can jump over the world's tallest building.",
     stats: {
@@ -51602,7 +51602,7 @@ export const pokemonForms: PokemonForm[] = [
     name: "Alcremie",
     types: ["FAIRY"],
     sprite: "/Front/ALCREMIE_63.png",
-    backSprite: "/spritesBack/ALCREMIE_63.png",
+    backSprite: "/Back/ALCREMIE_63.png",
     description:
       "It launches swarms of missiles, each made of cream and loaded with 100,000 kilocalories. Get hit by one of these, and your head will swim.",
     stats: {
@@ -51703,7 +51703,7 @@ export const pokemonForms: PokemonForm[] = [
     name: "Copperajah",
     types: ["STEEL"],
     sprite: "/Front/COPPERAJAH_1.png",
-    backSprite: "/spritesBack/COPPERAJAH_1.png",
+    backSprite: "/Back/COPPERAJAH_1.png",
     description:
       "After this Pokémon has Gigantamaxed, its massive nose can utterly demolish large structures with a single smashing blow.",
     stats: {
@@ -51818,7 +51818,7 @@ export const pokemonForms: PokemonForm[] = [
     name: "Duraludon",
     types: ["STEEL", "DRAGON"],
     sprite: "/Front/DURALUDON_1.png",
-    backSprite: "/spritesBack/DURALUDON_1.png",
+    backSprite: "/Back/DURALUDON_1.png",
     description:
       "It's grown to resemble a skyscraper. Parts of its towering body glow due to a profusion of energy.",
     stats: {
@@ -51931,7 +51931,7 @@ export const pokemonForms: PokemonForm[] = [
     name: "Eternatus",
     types: ["POISON", "DRAGON"],
     sprite: "/Front/ETERNATUS_1.png",
-    backSprite: "/spritesBack/ETERNATUS_1.png",
+    backSprite: "/Back/ETERNATUS_1.png",
     description:
       "Infinite amounts of energy pour from this Pokémon's enlarged core, warping the surrounding space-time.",
     stats: {
@@ -52039,7 +52039,7 @@ export const pokemonForms: PokemonForm[] = [
     name: "Urshifu",
     types: ["FIGHTING", "DARK"],
     sprite: "/Front/URSHIFU_2.png",
-    backSprite: "/spritesBack/URSHIFU_2.png",
+    backSprite: "/Back/URSHIFU_2.png",
     description:
       "The energy released by this Pokémon's fists forms shock waves that can blow away Dynamax Pokémon in just one hit.",
     stats: {
@@ -52167,7 +52167,7 @@ export const pokemonForms: PokemonForm[] = [
     name: "Urshifu",
     types: ["FIGHTING", "WATER"],
     sprite: "/Front/URSHIFU_3.png",
-    backSprite: "/spritesBack/URSHIFU_3.png",
+    backSprite: "/Back/URSHIFU_3.png",
     description:
       "As it waits for the right moment to unleash its Gigantamax power, this Pokémon maintains a perfect one-legged stance. It won't even twitch.",
     stats: {

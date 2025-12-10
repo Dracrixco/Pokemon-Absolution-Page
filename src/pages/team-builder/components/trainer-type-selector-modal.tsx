@@ -68,7 +68,7 @@ export const TrainerTypeSelectorModal: React.FC<
                 onChange={(e) => setSearchTerm(e.target.value)}
                 className={cn(
                   "w-full pl-10 pr-3 py-2 border border-gray-300 rounded-lg",
-                  "focus:ring-2 focus:ring-blue-500 focus:border-blue-500"
+                  "focus:ring-2 focus:ring-blue-500 focus:border-blue-500",
                 )}
               />
             </div>
@@ -80,7 +80,7 @@ export const TrainerTypeSelectorModal: React.FC<
                 onChange={(e) => setSelectedGender(e.target.value)}
                 className={cn(
                   "px-3 py-2 border border-gray-300 rounded-lg focus:ring-2",
-                  "focus:ring-blue-500 focus:border-blue-500"
+                  "focus:ring-blue-500 focus:border-blue-500",
                 )}
               >
                 <option value="all">All Genders</option>
