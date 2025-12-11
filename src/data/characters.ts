@@ -3,7 +3,7 @@ import type { Character } from "@/lib/characters";
 export const characters: Character[] = [
   {
     name: "Angela",
-    artwork: "/Character/Angela.png",
+    artwork: "/Characters/Angela.png",
     description:
       "The female Character protagonist for Pokemon Absolution Game.",
     role: "Protagonist",
@@ -12,14 +12,14 @@ export const characters: Character[] = [
 
   {
     name: "Demian",
-    artwork: "/Character/Demian.png",
+    artwork: "/Characters/Demian.png",
     description: "The male Character protagonist for Pokemon Absolution Game.",
     role: "Protagonist",
     favorite: "Pizza",
   },
   {
     name: "Kaoba",
-    artwork: "/Character/Kaoba.png",
+    artwork: "/Characters/Kaoba.png",
     description:
       "Professor Kaoba is a renowned Pokémon Professor, always eager to discover new species and help trainers on their journeys.",
     role: "Pokémon Professor",
@@ -27,7 +27,7 @@ export const characters: Character[] = [
   },
   {
     name: "Ditto",
-    artwork: "/Character/Ditto.png",
+    artwork: "/Characters/Ditto.png",
     description:
       "Ditto is a cunning rival trainer, always adapting to new situations and striving to be the best.",
     role: "Rival Trainer",
@@ -35,7 +35,7 @@ export const characters: Character[] = [
   },
   {
     name: "Cartamo",
-    artwork: "/Character/Cartamo.png",
+    artwork: "/Characters/Cartamo.png",
     description:
       "Cartamo is a friendly rival who values friendship and teamwork above all else, always ready to lend a helping hand.",
     role: "Rival Trainer",
@@ -43,7 +43,7 @@ export const characters: Character[] = [
   },
   {
     name: "Camelia",
-    artwork: "/Character/Camelia.png",
+    artwork: "/Characters/Camelia.png",
     description:
       "Camelia is a passionate rival trainer who loves the thrill of Pokémon battles and is determined to become a Champion.",
     role: "Rival Trainer",
@@ -51,7 +51,7 @@ export const characters: Character[] = [
   },
   // {
   //   name: "Hana",
-  //   artwork: "/Character/Hana.png",
+  //   artwork: "/Characters/Hana.png",
   //   description:
   //     "Hana is a mysterious villain with a sharp mind and a desire for wealth, always plotting her next move.",
   //   role: "Villain",
@@ -59,7 +59,7 @@ export const characters: Character[] = [
   // },
   {
     name: "Rumex",
-    artwork: "/Character/Rumex.png",
+    artwork: "/Characters/Rumex.png",
     description:
       "Rumex is a Gym Leader who draws strength from the forest, teaching trainers about the importance of nature.",
     role: "Gym Leader",
@@ -67,7 +67,7 @@ export const characters: Character[] = [
   },
   // {
   //   name: "Calendula",
-  //   artwork: "/Character/Calendula.png",
+  //   artwork: "/Characters/Calendula.png",
   //   description:
   //     "Calendula is a cheerful Gym Leader with a sweet tooth, known for her kindness and love of candies.",
   //   role: "Gym Leader",
