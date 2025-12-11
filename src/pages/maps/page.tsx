@@ -33,7 +33,7 @@ export const NazanRegionMap: React.FC = () => {
               width={38}
               height={26}
               onSelect={setSelectedTile}
-              backgroundSrc="/Others/mapRegion0.png"
+              backgroundSrc="/Specific/mapRegion0.png"
             />
           </div>
 
