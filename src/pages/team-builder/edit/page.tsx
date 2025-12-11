@@ -1,4 +1,4 @@
-import React, { useState, useEffect, useMemo } from "react";
+import React, { useState, useMemo } from "react";
 import { useParams, useNavigate } from "react-router-dom";
 import {
   ArrowLeft,
@@ -52,19 +52,21 @@ export const PokemonEditPage: React.FC = () => {
   const navigate = useNavigate();
   const { team, updatePokemon } = useTeamBuilder();
   const fakemons = getAllFakemons();
+  const pokemonIndexNum = parseInt(pokemonIndex || "0");
+  const originalPokemon = team[pokemonIndexNum];
 
   const [selectedDifficulty, setSelectedDifficulty] =
     useState<DifficultyLevel>("easy");
   const [activeTab, setActiveTab] = useState<"stats" | "moves" | "items">(
-    "stats",
+    "stats"
   );
   const [editedPokemon, setEditedPokemon] = useState<FakemonForTeam | null>(
-    null,
+    originalPokemon ? { ...originalPokemon } : null
   );
-  const [hasUnsavedChanges, setHasUnsavedChanges] = useState(false);
-
-  const pokemonIndexNum = parseInt(pokemonIndex || "0");
-  const originalPokemon = team[pokemonIndexNum];
+  const hasUnsavedChanges = useMemo(() => {
+    if (!originalPokemon || !editedPokemon) return false;
+    return JSON.stringify(originalPokemon) !== JSON.stringify(editedPokemon);
+  }, [originalPokemon, editedPokemon]);
 
   console.log("=== POKEMON EDIT PAGE DEBUG ===");
   console.log("pokemonIndex from URL:", pokemonIndex);
@@ -76,22 +78,8 @@ export const PokemonEditPage: React.FC = () => {
 
   const pokemonData = useMemo(
     () => fakemons.find((p) => p.id === originalPokemon?.id),
-    [fakemons, originalPokemon?.id],
+    [fakemons, originalPokemon?.id]
   );
-
-  useEffect(() => {
-    if (originalPokemon) {
-      setEditedPokemon({ ...originalPokemon });
-    }
-  }, [originalPokemon]);
-
-  useEffect(() => {
-    if (originalPokemon && editedPokemon) {
-      const hasChanges =
-        JSON.stringify(originalPokemon) !== JSON.stringify(editedPokemon);
-      setHasUnsavedChanges(hasChanges);
-    }
-  }, [originalPokemon, editedPokemon]);
 
   if (!originalPokemon || !editedPokemon || !pokemonData) {
     return (
@@ -115,7 +103,7 @@ export const PokemonEditPage: React.FC = () => {
   const handleSave = () => {
     if (editedPokemon) {
       updatePokemon(pokemonIndexNum, editedPokemon);
-      setHasUnsavedChanges(false);
+      // setHasUnsavedChanges(false);
       navigate("/team-builder");
     }
   };
@@ -123,7 +111,7 @@ export const PokemonEditPage: React.FC = () => {
   const handleReset = () => {
     if (confirm("Are you sure you want to reset all changes?")) {
       setEditedPokemon({ ...originalPokemon });
-      setHasUnsavedChanges(false);
+      // setHasUnsavedChanges(false);
     }
   };
 
@@ -136,7 +124,7 @@ export const PokemonEditPage: React.FC = () => {
   };
 
   const getDifficultiesToUpdate = (
-    currentDifficulty: DifficultyLevel,
+    currentDifficulty: DifficultyLevel
   ): DifficultyLevel[] => {
     switch (currentDifficulty) {
       case "easy":
@@ -282,7 +270,7 @@ export const PokemonEditPage: React.FC = () => {
                       <span
                         key={type}
                         className={`px-2 py-0.5 rounded text-white text-xs ${getTypeColor(
-                          type,
+                          type
                         )}`}
                       >
                         {type}
@@ -422,8 +410,8 @@ export const PokemonEditPage: React.FC = () => {
                         handleLevelChange(
                           Math.max(
                             1,
-                            Math.min(100, parseInt(e.target.value) || 1),
-                          ),
+                            Math.min(100, parseInt(e.target.value) || 1)
+                          )
                         )
                       }
                       className="w-full px-3 py-2 border border-gray-300 rounded-lg focus:ring-2 focus:ring-blue-500 focus:border-blue-500"
@@ -439,7 +427,7 @@ export const PokemonEditPage: React.FC = () => {
                       value={editedPokemon.nature}
                       onChange={(e) =>
                         handleNatureChange(
-                          e.target.value as keyof typeof NATURE_EFFECTS,
+                          e.target.value as keyof typeof NATURE_EFFECTS
                         )
                       }
                       className="w-full px-3 py-2 border border-gray-300 rounded-lg focus:ring-2 focus:ring-blue-500 focus:border-blue-500"
@@ -493,7 +481,7 @@ export const PokemonEditPage: React.FC = () => {
                         ...pokemonData.hiddenAbilities,
                       ].map((abilityId, index) => {
                         const ability = abilities.find(
-                          (a) => a.id === abilityId,
+                          (a) => a.id === abilityId
                         );
                         return (
                           <option key={abilityId} value={index}>

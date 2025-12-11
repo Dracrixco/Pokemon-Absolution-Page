@@ -104,9 +104,6 @@ export const PixelMap: React.FC<PixelMapProps> = ({
                 console.error("Failed to load map image:", backgroundSrc);
                 (e.target as HTMLImageElement).style.display = "none";
               }}
-              onLoad={() => {
-                console.log("Map image loaded successfully:", backgroundSrc);
-              }}
             />
 
             {/* Grid overlay */}
