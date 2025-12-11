@@ -3,11 +3,11 @@ import { characters } from "@/data/characters";
 
 export const CharactersPage = () => {
   return (
-    <div className="min-h-screen bg-gradient-to-br from-purple-900 via-purple-800 to-white">
+    <div className="min-h-screen bg-linear-to-br from-purple-900 via-purple-800 to-white">
       {/* Hero Section */}
       <section className="py-16 px-4">
         <div className="container mx-auto text-center">
-          <h1 className="text-4xl md:text-6xl font-bold text-white mb-4 bg-gradient-to-r from-purple-200 to-purple-400 bg-clip-text">
+          <h1 className="text-4xl md:text-6xl font-bold text-white mb-4 bg-linear-to-r from-purple-200 to-purple-400 bg-clip-text">
             Meet the Characters
           </h1>
           <p className="text-xl text-purple-200 mb-8 max-w-2xl mx-auto">

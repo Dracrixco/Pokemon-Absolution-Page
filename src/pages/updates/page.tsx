@@ -46,7 +46,7 @@ export function UpdatesPage() {
     const updateText = `Version: ${update.version}\nName: ${
       update.name
     }\nDate: ${update.formattedDate}\n\nChanges:\n- ${update.changes.join(
-      "\n- ",
+      "\n- "
     )}`;
     navigator.clipboard.writeText(updateText);
   };
@@ -73,7 +73,7 @@ export function UpdatesPage() {
 
   if (initialLoading) {
     return (
-      <div className="min-h-screen bg-gradient-to-br from-purple-900 via-purple-800 to-indigo-900 flex items-center justify-center">
+      <div className="min-h-screen bg-linear-to-br from-purple-900 via-purple-800 to-indigo-900 flex items-center justify-center">
         <div className="text-center">
           <Loader2 className="h-12 w-12 animate-spin text-purple-400 mx-auto mb-4" />
           <p className="text-purple-200 text-lg">Loading updates...</p>
@@ -84,7 +84,7 @@ export function UpdatesPage() {
 
   if (error && updates.length === 0) {
     return (
-      <div className="min-h-screen bg-gradient-to-br from-purple-900 via-purple-800 to-indigo-900 flex items-center justify-center">
+      <div className="min-h-screen bg-linear-to-br from-purple-900 via-purple-800 to-indigo-900 flex items-center justify-center">
         <div className="text-center">
           <p className="text-red-400 text-lg mb-4">{error}</p>
           <button
@@ -101,11 +101,11 @@ export function UpdatesPage() {
   const latestUpdate = updates[0];
 
   return (
-    <div className="min-h-screen bg-gradient-to-br from-purple-900 via-purple-800 to-indigo-900">
+    <div className="min-h-screen bg-linear-to-br from-purple-900 via-purple-800 to-indigo-900">
       {/* Hero Section */}
       <section className="py-16 px-4">
         <div className="container mx-auto text-center">
-          <h1 className="text-4xl md:text-6xl font-bold mb-4 bg-gradient-to-r from-purple-200 to-purple-400 bg-clip-text text-transparent">
+          <h1 className="text-4xl md:text-6xl font-bold mb-4 bg-linear-to-r from-purple-200 to-purple-400 bg-clip-text text-transparent">
             Game Updates
           </h1>
           <p className="text-xl text-purple-200 mb-8 max-w-2xl mx-auto">
@@ -201,7 +201,7 @@ export function UpdatesPage() {
                         key={changeIndex}
                         className="flex items-start gap-2 text-purple-200 text-sm bg-purple-900/30 rounded-lg p-3"
                       >
-                        <div className="w-2 h-2 bg-purple-400 rounded-full mt-2 flex-shrink-0"></div>
+                        <div className="w-2 h-2 bg-purple-400 rounded-full mt-2 shrink-0"></div>
                         <span>{change}</span>
                       </div>
                     ))}

@@ -63,7 +63,7 @@ export const MoveDetailModal: React.FC<MoveDetailModalProps> = ({
     <div className="fixed inset-0 bg-black bg-opacity-50 flex items-center justify-center z-50 p-4">
       <div className="bg-white rounded-lg max-w-4xl w-full max-h-[90vh] overflow-hidden">
         {/* Header */}
-        <div className="flex justify-between items-center p-6 border-b bg-gradient-to-r from-blue-50 to-purple-50">
+        <div className="flex justify-between items-center p-6 border-b bg-linear-to-r from-blue-50 to-purple-50">
           <div className="flex items-center gap-4">
             <Zap className="text-yellow-500" size={32} />
             <div>
@@ -71,14 +71,14 @@ export const MoveDetailModal: React.FC<MoveDetailModalProps> = ({
               <div className="flex items-center gap-2 mt-1">
                 <span
                   className={`px-3 py-1 rounded-full text-white text-sm font-medium ${getTypeColor(
-                    move.type,
+                    move.type
                   )}`}
                 >
                   {move.type}
                 </span>
                 <span
                   className={`px-3 py-1 rounded-full text-white text-sm font-medium ${getCategoryColor(
-                    move.category,
+                    move.category
                   )}`}
                 >
                   {move.category}
@@ -150,7 +150,7 @@ export const MoveDetailModal: React.FC<MoveDetailModalProps> = ({
                   {stats.byLevel > 0 && (
                     <span
                       className={`px-3 py-1 rounded-full text-sm border ${getLearnMethodColor(
-                        "level",
+                        "level"
                       )}`}
                     >
                       {getLearnMethodIcon("level")} Level: {stats.byLevel}
@@ -159,7 +159,7 @@ export const MoveDetailModal: React.FC<MoveDetailModalProps> = ({
                   {stats.byTutor > 0 && (
                     <span
                       className={`px-3 py-1 rounded-full text-sm border ${getLearnMethodColor(
-                        "tutor",
+                        "tutor"
                       )}`}
                     >
                       {getLearnMethodIcon("tutor")} Tutor: {stats.byTutor}
@@ -168,7 +168,7 @@ export const MoveDetailModal: React.FC<MoveDetailModalProps> = ({
                   {stats.byEgg > 0 && (
                     <span
                       className={`px-3 py-1 rounded-full text-sm border ${getLearnMethodColor(
-                        "egg",
+                        "egg"
                       )}`}
                     >
                       {getLearnMethodIcon("egg")} Egg: {stats.byEgg}
@@ -192,7 +192,7 @@ export const MoveDetailModal: React.FC<MoveDetailModalProps> = ({
                         className="flex items-center justify-between p-3 bg-gray-50 rounded-lg hover:bg-gray-100 transition-colors"
                       >
                         <div className="flex items-center gap-3">
-                          <div className="w-12 h-12 flex-shrink-0">
+                          <div className="w-12 h-12 shrink-0">
                             <PokemonImage fakemon={learner.pokemon} />
                           </div>
                           <div>
@@ -204,7 +204,7 @@ export const MoveDetailModal: React.FC<MoveDetailModalProps> = ({
                                 <span
                                   key={type}
                                   className={`px-2 py-0.5 rounded text-white text-xs ${getTypeColor(
-                                    type,
+                                    type
                                   )}`}
                                 >
                                   {type}
@@ -216,7 +216,7 @@ export const MoveDetailModal: React.FC<MoveDetailModalProps> = ({
                         <div className="text-right">
                           <span
                             className={`px-2 py-1 rounded-full text-xs border ${getLearnMethodColor(
-                              learner.learnMethod,
+                              learner.learnMethod
                             )}`}
                           >
                             {getLearnMethodIcon(learner.learnMethod)}{" "}

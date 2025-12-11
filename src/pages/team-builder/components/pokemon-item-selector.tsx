@@ -92,7 +92,7 @@ export const ItemSelector: React.FC<{
         (item) =>
           // item.pocket === 1 &&
           !item.flags.includes("Repel") &&
-          !item.flags.includes("EvolutionStone"),
+          !item.flags.includes("EvolutionStone")
       ).length;
     }
 
@@ -120,7 +120,7 @@ export const ItemSelector: React.FC<{
               <img
                 src={selectedItem.sprite || "/items/default.png"}
                 alt={selectedItem.name}
-                className="w-6 h-6 flex-shrink-0"
+                className="w-6 h-6 shrink-0"
                 onError={(e) => {
                   e.currentTarget.src =
                     "data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMjQiIGhlaWdodD0iMjQiIHZpZXdCb3g9IjAgMCAyNCAyNCIgZmlsbD0ibm9uZSIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj4KPHJlY3Qgd2lkdGg9IjI0IiBoZWlnaHQ9IjI0IiBmaWxsPSIjRjNGNEY2Ii8+CjxjaXJjbGUgY3g9IjEyIiBjeT0iMTIiIHI9IjgiIGZpbGw9IiNEMUQ1REIiLz4KPHRleHQgeD0iMTIiIHk9IjE2IiBmb250LWZhbWlseT0iQXJpYWwiIGZvbnQtc2l6ZT0iMTAiIGZpbGw9IiM2QjcyODAiIHRleHQtYW5jaG9yPSJtaWRkbGUiPj88L3RleHQ+Cjwvc3ZnPg==";
@@ -134,7 +134,7 @@ export const ItemSelector: React.FC<{
         </div>
         <ChevronDown
           size={16}
-          className={`flex-shrink-0 transition-transform ${
+          className={`shrink-0 transition-transform ${
             isOpen ? "rotate-180" : ""
           }`}
         />
@@ -148,7 +148,7 @@ export const ItemSelector: React.FC<{
             "border border-gray-300",
             "rounded-lg shadow-lg overflow-hidden",
             "top-0 left-0 right-0 bottom-0",
-            "w-screen h-screen",
+            "w-screen h-screen"
           )}
         >
           {/* Header con búsqueda y filtros */}
@@ -187,13 +187,13 @@ export const ItemSelector: React.FC<{
                         "px-3 py-1 rounded-full text-xs font-medium transition-colors",
                         selectedCategory === category
                           ? "bg-blue-500 text-white"
-                          : "bg-gray-100 text-gray-700 hover:bg-gray-200",
+                          : "bg-gray-100 text-gray-700 hover:bg-gray-200"
                       )}
                     >
                       {ITEM_CATEGORIES[category]} ({count})
                     </button>
                   );
-                },
+                }
               )}
             </div>
           </div>
@@ -206,7 +206,7 @@ export const ItemSelector: React.FC<{
               onClick={() => handleSelect("")}
               className="w-full px-3 py-2 text-left hover:bg-gray-100 flex items-center gap-2 border-b"
             >
-              <div className="w-6 h-6 flex-shrink-0 bg-gray-200 rounded flex items-center justify-center">
+              <div className="w-6 h-6 shrink-0 bg-gray-200 rounded flex items-center justify-center">
                 <X size={12} className="text-gray-500" />
               </div>
               <div className="min-w-0">
@@ -263,7 +263,7 @@ const ItemButton = ({
       <img
         src={item.sprite || "/items/default.png"}
         alt={item.name}
-        className="w-6 h-6 flex-shrink-0 mt-0.5"
+        className="w-6 h-6 shrink-0 mt-0.5"
         onError={(e) => {
           e.currentTarget.src =
             "data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMjQiIGhlaWdodD0iMjQiIHZpZXdCb3g9IjAgMCAyNCAyNCIgZmlsbD0ibm9uZSIgeG1zbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj4KPHJlY3Qgd2lkdGg9IjI0IiBoZWlnaHQ9IjI0IiBmaWxsPSIjRjNGNEY2Ii8+CjxjaXJjbGUgY3g9IjEyIiBjeT0iMTIiIHI9IjgiIGZpbGw9IiNEMUQ1REIiLz4KPHRleHQgeD0iMTIiIHk9IjE2IiBmb250LWZhbWlseT0iQXJpYWwiIGZvbnQtc2l6ZT0iMTAiIGZpbGw9IiM2QjcyODAiIHRleHQtYW5jaG9yPSJtaWRkbGUiPj88L3RleHQ+Cjwvc3ZnPg==";

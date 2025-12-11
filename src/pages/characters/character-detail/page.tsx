@@ -14,7 +14,7 @@ export const CharacterDetailPage = () => {
   }
 
   return (
-    <div className="min-h-screen bg-gradient-to-br from-purple-900 via-purple-800 to-indigo-900">
+    <div className="min-h-screen bg-linear-to-br from-purple-900 via-purple-800 to-indigo-900">
       <div className="container mx-auto px-4 py-8">
         {/* Back Button */}
         <Link
@@ -36,7 +36,7 @@ export const CharacterDetailPage = () => {
                   alt={character.name}
                   className="object-cover"
                 />
-                <div className="absolute inset-0 bg-gradient-to-t from-purple-900/60 via-transparent to-transparent" />
+                <div className="absolute inset-0 bg-linear-to-t from-purple-900/60 via-transparent to-transparent" />
               </div>
 
               <div className="text-center">
@@ -46,7 +46,7 @@ export const CharacterDetailPage = () => {
                 <div className="flex justify-center mb-4">
                   <span
                     className={`px-4 py-2 rounded-full text-white font-semibold ${getRoleColor(
-                      character.role,
+                      character.role
                     )}`}
                   >
                     {character.role}

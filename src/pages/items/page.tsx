@@ -141,7 +141,7 @@ export const ItemsPage: React.FC = () => {
 
   const toggleFlag = (flag: string) => {
     setSelectedFlags((prev) =>
-      prev.includes(flag) ? prev.filter((f) => f !== flag) : [...prev, flag],
+      prev.includes(flag) ? prev.filter((f) => f !== flag) : [...prev, flag]
     );
   };
 
@@ -329,7 +329,7 @@ export const ItemsPage: React.FC = () => {
                         setSelectedPocket(
                           e.target.value === "all"
                             ? "all"
-                            : parseInt(e.target.value),
+                            : parseInt(e.target.value)
                         )
                       }
                       className="w-full px-3 py-2 border border-gray-300 rounded-lg focus:ring-2 focus:ring-blue-500"
@@ -472,7 +472,7 @@ export const ItemsPage: React.FC = () => {
                         <div className="flex items-center justify-center gap-1 mb-2">
                           <span
                             className={`px-2 py-1 rounded text-white text-xs ${getPocketColor(
-                              item.pocket,
+                              item.pocket
                             )}`}
                           >
                             {POCKET_NAMES[
@@ -482,7 +482,7 @@ export const ItemsPage: React.FC = () => {
                           {item.suffix && (
                             <span
                               className={`px-2 py-1 rounded text-white text-xs ${getSuffixColor(
-                                item.suffix,
+                                item.suffix
                               )}`}
                             >
                               {formatSuffixName(item.suffix)}
@@ -515,7 +515,7 @@ export const ItemsPage: React.FC = () => {
                       <img
                         src={item.sprite || "/items/default.png"}
                         alt={item.name}
-                        className="w-12 h-12 object-contain flex-shrink-0"
+                        className="w-12 h-12 object-contain shrink-0"
                         onError={(e) => {
                           const target = e.target as HTMLImageElement;
                           target.src =
@@ -528,10 +528,10 @@ export const ItemsPage: React.FC = () => {
                           <h3 className="font-bold text-lg group-hover:text-blue-600 transition-colors">
                             {item.name}
                           </h3>
-                          <div className="flex items-center gap-2 flex-shrink-0">
+                          <div className="flex items-center gap-2 shrink-0">
                             <span
                               className={`px-3 py-1 rounded text-white text-sm ${getPocketColor(
-                                item.pocket,
+                                item.pocket
                               )}`}
                             >
                               {POCKET_NAMES[
@@ -541,7 +541,7 @@ export const ItemsPage: React.FC = () => {
                             {item.suffix && (
                               <span
                                 className={`px-3 py-1 rounded text-white text-sm ${getSuffixColor(
-                                  item.suffix,
+                                  item.suffix
                                 )}`}
                               >
                                 {formatSuffixName(item.suffix)}

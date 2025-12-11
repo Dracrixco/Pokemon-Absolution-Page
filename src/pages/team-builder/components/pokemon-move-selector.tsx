@@ -58,7 +58,7 @@ export const MoveSelector: React.FC<MoveSelectorProps> = ({
     const types = new Set(
       moves
         .filter((move) => availableMoves.includes(move.id))
-        .map((move) => move.type),
+        .map((move) => move.type)
     );
     return Array.from(types).sort();
   }, [availableMoves]);
@@ -108,7 +108,7 @@ export const MoveSelector: React.FC<MoveSelectorProps> = ({
     return moves.filter(
       (move) =>
         availableMoves.includes(move.id) &&
-        move.category.toLowerCase() === category,
+        move.category.toLowerCase() === category
     ).length;
   };
 
@@ -118,7 +118,7 @@ export const MoveSelector: React.FC<MoveSelectorProps> = ({
       return moves.filter((move) => availableMoves.includes(move.id)).length;
     }
     return moves.filter(
-      (move) => availableMoves.includes(move.id) && move.type === type,
+      (move) => availableMoves.includes(move.id) && move.type === type
     ).length;
   };
 
@@ -134,7 +134,7 @@ export const MoveSelector: React.FC<MoveSelectorProps> = ({
             "rounded-lg focus:ring-2",
             "focus:ring-blue-500 bg-white text-left",
             "flex items-center justify-between",
-            "hover:bg-gray-50",
+            "hover:bg-gray-50"
           )}
         >
           <div className="flex items-center gap-2 min-w-0">
@@ -146,7 +146,7 @@ export const MoveSelector: React.FC<MoveSelectorProps> = ({
                   </span>
                   <span
                     className={`px-2 py-1 rounded text-white text-xs ${getTypeColor(
-                      selectedMove.type,
+                      selectedMove.type
                     )}`}
                   >
                     {selectedMove.type}
@@ -167,7 +167,7 @@ export const MoveSelector: React.FC<MoveSelectorProps> = ({
           </div>
           <ChevronDown
             size={16}
-            className={`flex-shrink-0 transition-transform ${
+            className={`shrink-0 transition-transform ${
               isOpen ? "rotate-180" : ""
             }`}
           />
@@ -180,7 +180,7 @@ export const MoveSelector: React.FC<MoveSelectorProps> = ({
               "border border-gray-300",
               "rounded-lg shadow-lg overflow-hidden",
               "top-0 left-0 right-0 bottom-0",
-              "w-screen h-screen",
+              "w-screen h-screen"
             )}
           >
             {/* Header con búsqueda y filtros */}
@@ -224,7 +224,7 @@ export const MoveSelector: React.FC<MoveSelectorProps> = ({
                           "px-3 py-1 rounded-full text-xs font-medium transition-colors flex items-center gap-1",
                           categoryFilter === category
                             ? "bg-blue-500 text-white"
-                            : "bg-gray-100 text-gray-700 hover:bg-gray-200",
+                            : "bg-gray-100 text-gray-700 hover:bg-gray-200"
                         )}
                       >
                         <span>
@@ -259,7 +259,7 @@ export const MoveSelector: React.FC<MoveSelectorProps> = ({
                       "px-3 py-1 rounded-full text-xs font-medium transition-colors",
                       typeFilter === "all"
                         ? "bg-blue-500 text-white"
-                        : "bg-gray-100 text-gray-700 hover:bg-gray-200",
+                        : "bg-gray-100 text-gray-700 hover:bg-gray-200"
                     )}
                   >
                     All Types ({getTypeCount("all")})
@@ -276,7 +276,7 @@ export const MoveSelector: React.FC<MoveSelectorProps> = ({
                           typeFilter === type
                             ? "ring-2 ring-blue-500 ring-offset-2"
                             : "",
-                          getTypeColor(type),
+                          getTypeColor(type)
                         )}
                       >
                         {type} ({count})
@@ -295,7 +295,7 @@ export const MoveSelector: React.FC<MoveSelectorProps> = ({
                 onClick={() => handleSelect("")}
                 className="w-full px-3 py-2 text-left hover:bg-gray-100 flex items-center gap-2 border-b"
               >
-                <div className="w-8 h-8 flex-shrink-0 bg-gray-200 rounded flex items-center justify-center">
+                <div className="w-8 h-8 shrink-0 bg-gray-200 rounded flex items-center justify-center">
                   <X size={12} className="text-gray-500" />
                 </div>
                 <div className="min-w-0">
@@ -349,11 +349,11 @@ const MoveButton = ({
       className="w-full px-3 py-3 text-left hover:bg-gray-100 flex items-start gap-3 border-b last:border-b-0"
     >
       {/* Move Icon and Type */}
-      <div className="flex flex-col items-center gap-1 flex-shrink-0">
+      <div className="flex flex-col items-center gap-1 shrink-0">
         <span className="text-lg">{getCategoryIcon(move.category)}</span>
         <span
           className={`px-2 py-1 rounded text-white text-xs ${getTypeColor(
-            move.type,
+            move.type
           )}`}
         >
           {move.type}
@@ -366,7 +366,7 @@ const MoveButton = ({
           <div className="font-medium text-sm">{move.name}</div>
           <span
             className={`px-2 py-1 rounded text-white text-xs ${getCategoryColor(
-              move.category,
+              move.category
             )}`}
           >
             {move.category}

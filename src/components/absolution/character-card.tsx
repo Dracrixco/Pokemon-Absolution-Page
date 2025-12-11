@@ -35,7 +35,7 @@ export const CharacterCard = ({ character }: CharacterCardProps) => {
               />
 
               {/* Gradiente para mejorar legibilidad */}
-              <div className="absolute inset-0 bg-gradient-to-t from-black/60 via-black/20 to-transparent" />
+              <div className="absolute inset-0 bg-linear-to-t from-black/60 via-black/20 to-transparent" />
 
               {/* Texto encima de la imagen */}
               <div className="absolute bottom-4 left-4 right-4 z-10">
@@ -53,7 +53,7 @@ export const CharacterCard = ({ character }: CharacterCardProps) => {
 
           {/* Back of Card - Name and Description */}
           <div className="absolute inset-0 w-full h-full backface-hidden rotate-y-180">
-            <div className="bg-gradient-to-br from-purple-800 to-purple-900 rounded-xl border-2 border-purple-600 shadow-lg overflow-hidden h-full">
+            <div className="bg-linear-to-br from-purple-800 to-purple-900 rounded-xl border-2 border-purple-600 shadow-lg overflow-hidden h-full">
               {/* Header */}
               <div className="bg-purple-900/80 p-4 border-b border-purple-600">
                 <h3 className="text-white font-bold text-xl text-center mb-2">
@@ -62,7 +62,7 @@ export const CharacterCard = ({ character }: CharacterCardProps) => {
                 <div className="flex justify-center">
                   <span
                     className={`px-3 py-1 rounded-full text-white text-sm font-semibold ${getRoleColor(
-                      character.role,
+                      character.role
                     )}`}
                   >
                     {character.role}

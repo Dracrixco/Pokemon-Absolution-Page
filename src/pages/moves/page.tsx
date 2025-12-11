@@ -11,7 +11,7 @@ export const MovesPage = () => {
   const [selectedType, setSelectedType] = useState<string>("all");
   const [selectedCategory, setSelectedCategory] = useState<string>("all");
   const [sortBy, setSortBy] = useState<"name" | "power" | "accuracy" | "pp">(
-    "name",
+    "name"
   );
 
   const allMoves = getAllMoves();
@@ -62,7 +62,7 @@ export const MovesPage = () => {
   }, [allMoves, searchTerm, selectedType, selectedCategory, sortBy]);
 
   return (
-    <div className="min-h-screen bg-gradient-to-br from-purple-900 via-purple-800 to-indigo-900">
+    <div className="min-h-screen bg-linear-to-br from-purple-900 via-purple-800 to-indigo-900">
       <div className="container mx-auto px-4 py-8">
         {/* Header */}
         <div className="text-center mb-12">
@@ -125,7 +125,7 @@ export const MovesPage = () => {
                 value={sortBy}
                 onChange={(e) =>
                   setSortBy(
-                    e.target.value as "name" | "power" | "accuracy" | "pp",
+                    e.target.value as "name" | "power" | "accuracy" | "pp"
                   )
                 }
                 className="w-full px-4 py-2 bg-purple-700/50 border border-purple-500 rounded-lg text-white focus:outline-none focus:ring-2 focus:ring-purple-400 focus:border-transparent"
@@ -187,14 +187,14 @@ const MoveCard = ({ move }: MoveCardProps) => {
       <div className="flex gap-2 mb-4">
         <span
           className={`px-3 py-1 rounded-full text-xs font-semibold text-white ${getTypeColor(
-            move.type,
+            move.type
           )}`}
         >
           {move.type}
         </span>
         <span
           className={`px-3 py-1 rounded-full text-xs font-semibold text-white ${getCategoryColor(
-            move.category,
+            move.category
           )}`}
         >
           {move.category}

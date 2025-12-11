@@ -33,7 +33,7 @@ export const MapImage = ({
   }
 
   return (
-    <div className="bg-gradient-to-br from-gray-50 to-gray-100 p-4 rounded-xl border-2 border-gray-200">
+    <div className="bg-linear-to-br from-gray-50 to-gray-100 p-4 rounded-xl border-2 border-gray-200">
       <div className="flex items-center justify-between mb-3">
         <h3 className="text-lg font-semibold text-gray-800">Vista previa</h3>
         <Button onClick={() => setShowFullyImage(true)}>Show Fully</Button>

@@ -32,7 +32,7 @@ export const FakemonsList = () => {
 
   // Obtener sufijos únicos disponibles
   const availableSuffixes = Array.from(
-    new Set(allFakemons.map((f) => f.suffix)),
+    new Set(allFakemons.map((f) => f.suffix))
   );
 
   // Funciones de navegación
@@ -92,11 +92,11 @@ export const FakemonsList = () => {
   };
 
   return (
-    <div className="min-h-screen bg-gradient-to-br from-purple-900 via-purple-800 to-indigo-900">
+    <div className="min-h-screen bg-linear-to-br from-purple-900 via-purple-800 to-indigo-900">
       {/* Hero Section */}
       <section className="py-16 px-4">
         <div className="container mx-auto text-center">
-          <h1 className="text-4xl md:text-6xl font-bold text-white mb-4 bg-gradient-to-r from-purple-200 to-purple-400 bg-clip-text">
+          <h1 className="text-4xl md:text-6xl font-bold text-white mb-4 bg-linear-to-r from-purple-200 to-purple-400 bg-clip-text">
             Discover Fakemons
           </h1>
           <p className="text-xl text-purple-200 mb-8 max-w-2xl mx-auto">
@@ -130,7 +130,7 @@ export const FakemonsList = () => {
                 const count = allFakemons.filter(
                   (f) =>
                     f.suffix === suffix &&
-                    (!f.dateToShow || f.dateToShow < new Date()),
+                    (!f.dateToShow || f.dateToShow < new Date())
                 ).length;
                 return (
                   <button

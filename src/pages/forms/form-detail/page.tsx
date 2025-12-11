@@ -19,7 +19,7 @@ export default function FormDetailPage() {
 
   if (!form) {
     return (
-      <div className="min-h-screen bg-gradient-to-br from-purple-900 via-blue-900 to-indigo-900 p-8 flex items-center justify-center">
+      <div className="min-h-screen bg-linear-to-br from-purple-900 via-blue-900 to-indigo-900 p-8 flex items-center justify-center">
         <div className="text-center">
           <h1 className="text-4xl font-bold text-white mb-4">Form Not Found</h1>
           <button
@@ -37,7 +37,7 @@ export default function FormDetailPage() {
   const maxStat = Math.max(...Object.values(form.stats));
 
   return (
-    <div className="min-h-screen bg-gradient-to-br from-purple-900 via-blue-900 to-indigo-900 p-8">
+    <div className="min-h-screen bg-linear-to-br from-purple-900 via-blue-900 to-indigo-900 p-8">
       <div className="max-w-6xl mx-auto">
         {/* Back Button */}
         <button
@@ -106,7 +106,7 @@ export default function FormDetailPage() {
                       key={type}
                       className={cn(
                         "px-4 py-2 rounded-lg text-lg font-bold text-white",
-                        getTypeColor(type),
+                        getTypeColor(type)
                       )}
                     >
                       {type}
@@ -179,7 +179,7 @@ export default function FormDetailPage() {
                             ? "bg-blue-500"
                             : value >= 50
                               ? "bg-yellow-500"
-                              : "bg-red-500",
+                              : "bg-red-500"
                       )}
                       style={{ width: `${percentage}%` }}
                     />

@@ -24,7 +24,7 @@ export const GameImages = () => {
     setCurrentSlide(
       (prev) =>
         (prev - 1 + Math.ceil(gameImages.length / 3)) %
-        Math.ceil(gameImages.length / 3),
+        Math.ceil(gameImages.length / 3)
     );
   };
 
@@ -65,7 +65,7 @@ export const GameImages = () => {
               {Array.from(
                 { length: Math.ceil(gameImages.length / 3) },
                 (_, slideIndex) => (
-                  <div key={slideIndex} className="w-full flex-shrink-0">
+                  <div key={slideIndex} className="w-full shrink-0">
                     <div className="grid grid-cols-1 md:grid-cols-3 gap-6 px-4">
                       {gameImages
                         .slice(slideIndex * 3, slideIndex * 3 + 3)
@@ -84,7 +84,7 @@ export const GameImages = () => {
                                   className="w-full h-48 object-cover"
                                 />
                                 {/* Overlay with description */}
-                                <div className="absolute inset-0 bg-gradient-to-t from-purple-900/90 via-transparent to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300">
+                                <div className="absolute inset-0 bg-linear-to-t from-purple-900/90 via-transparent to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300">
                                   <div className="absolute bottom-4 left-4 right-4">
                                     <p className="text-white text-sm">
                                       {image.alt}
@@ -97,7 +97,7 @@ export const GameImages = () => {
                         ))}
                     </div>
                   </div>
-                ),
+                )
               )}
             </div>
           </div>
@@ -117,7 +117,7 @@ export const GameImages = () => {
                   }`}
                   aria-label={`Go to slide ${index + 1}`}
                 />
-              ),
+              )
             )}
           </div>
 

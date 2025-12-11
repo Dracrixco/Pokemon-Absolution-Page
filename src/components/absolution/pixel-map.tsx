@@ -49,7 +49,7 @@ export const PixelMap: React.FC<PixelMapProps> = ({
   return (
     <div className="bg-white/10 backdrop-blur-sm rounded-xl border border-white/20 overflow-hidden">
       {/* Header with Stats */}
-      <div className="bg-gradient-to-r from-purple-600/20 to-blue-600/20 p-4 border-b border-white/10">
+      <div className="bg-linear-to-r from-purple-600/20 to-blue-600/20 p-4 border-b border-white/10">
         <div className="flex items-center justify-between mb-3">
           <div className="flex items-center space-x-3">
             <div className="w-3 h-3 bg-blue-400 rounded-full animate-pulse shadow-lg"></div>
@@ -129,7 +129,7 @@ export const PixelMap: React.FC<PixelMapProps> = ({
                         isSelected
                           ? "bg-yellow-400/20 border-yellow-300 shadow-lg z-20 scale-105"
                           : "",
-                        tile ? "hover:shadow-md hover:scale-102" : "",
+                        tile ? "hover:shadow-md hover:scale-102" : ""
                       )}
                       onClick={() => {
                         handleTileClick(tile);
@@ -141,7 +141,7 @@ export const PixelMap: React.FC<PixelMapProps> = ({
                       }}
                     />
                   );
-                }),
+                })
               )}
             </div>
 
@@ -170,7 +170,7 @@ export const PixelMap: React.FC<PixelMapProps> = ({
                       "w-full h-full rounded-sm border-2 flex items-center",
                       "justify-center relative overflow-hidden transition-all duration-300",
                       colorClass,
-                      isSelected ? "scale-105 shadow-lg" : "opacity-50",
+                      isSelected ? "scale-105 shadow-lg" : "opacity-50"
                     )}
                   >
                     {/* Pulse effect for single tiles or smaller maps */}
@@ -194,7 +194,7 @@ export const PixelMap: React.FC<PixelMapProps> = ({
         </div>
 
         {DEBUG_MODE && (
-          <div className="mt-6 bg-gradient-to-r from-purple-500/10 to-blue-500/10 backdrop-blur-sm rounded-xl border border-white/20 p-4">
+          <div className="mt-6 bg-linear-to-r from-purple-500/10 to-blue-500/10 backdrop-blur-sm rounded-xl border border-white/20 p-4">
             <div className="flex items-center gap-2 mb-3">
               <div className="w-2 h-2 bg-orange-400 rounded-full animate-pulse"></div>
               <h3 className="text-sm font-semibold text-white/90">
@@ -237,7 +237,7 @@ export const PixelMap: React.FC<PixelMapProps> = ({
                   console.log(text);
                   navigator.clipboard.writeText(text);
                 }}
-                className="px-4 py-2 bg-gradient-to-r from-purple-500 to-blue-500 hover:from-purple-600 hover:to-blue-600 text-white font-medium rounded-lg shadow-lg hover:shadow-xl transition-all duration-200 transform hover:scale-105 focus:outline-none focus:ring-2 focus:ring-purple-400/50"
+                className="px-4 py-2 bg-linear-to-r from-purple-500 to-blue-500 hover:from-purple-600 hover:to-blue-600 text-white font-medium rounded-lg shadow-lg hover:shadow-xl transition-all duration-200 transform hover:scale-105 focus:outline-none focus:ring-2 focus:ring-purple-400/50"
               >
                 Get
               </button>

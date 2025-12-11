@@ -19,7 +19,7 @@ export const ItemEditorAdvanced: React.FC<ItemEditorAdvancedProps> = ({
 
   const selectedItem = useMemo(
     () => items.find((item) => item.id === value),
-    [value],
+    [value]
   );
 
   const filteredItems = useMemo(() => {
@@ -75,7 +75,7 @@ export const ItemEditorAdvanced: React.FC<ItemEditorAdvancedProps> = ({
               <img
                 src={selectedItem.sprite || "/items/default.png"}
                 alt={selectedItem.name}
-                className="w-12 h-12 flex-shrink-0"
+                className="w-12 h-12 shrink-0"
                 onError={(e) => {
                   const target = e.target as HTMLImageElement;
                   target.src =
@@ -87,7 +87,7 @@ export const ItemEditorAdvanced: React.FC<ItemEditorAdvancedProps> = ({
                   <h4 className="font-bold text-lg">{selectedItem.name}</h4>
                   <button
                     onClick={() => onChange("")}
-                    className="text-red-500 hover:text-red-700 flex-shrink-0"
+                    className="text-red-500 hover:text-red-700 shrink-0"
                   >
                     <X size={16} />
                   </button>
@@ -205,7 +205,7 @@ export const ItemEditorAdvanced: React.FC<ItemEditorAdvancedProps> = ({
             }`}
           >
             <div className="flex items-center gap-3">
-              <div className="w-8 h-8 flex-shrink-0 bg-gray-200 rounded flex items-center justify-center">
+              <div className="w-8 h-8 shrink-0 bg-gray-200 rounded flex items-center justify-center">
                 <X size={16} className="text-gray-500" />
               </div>
               <div>
@@ -236,7 +236,7 @@ export const ItemEditorAdvanced: React.FC<ItemEditorAdvancedProps> = ({
                     <img
                       src={item.sprite || "/items/default.png"}
                       alt={item.name}
-                      className="w-8 h-8 flex-shrink-0"
+                      className="w-8 h-8 shrink-0"
                       onError={(e) => {
                         const target = e.target as HTMLImageElement;
                         target.src =

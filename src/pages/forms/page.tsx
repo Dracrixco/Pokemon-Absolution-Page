@@ -31,7 +31,7 @@ export default function PokemonFormsPage() {
         break;
       case "gmax":
         forms = forms.filter((f) =>
-          f.formName.toLowerCase().includes("gigantamax"),
+          f.formName.toLowerCase().includes("gigantamax")
         );
         break;
       case "regional":
@@ -41,7 +41,7 @@ export default function PokemonFormsPage() {
             f.formName.toLowerCase().includes("alolan") ||
             f.formName.toLowerCase().includes("galarian") ||
             f.formName.toLowerCase().includes("hisuian") ||
-            f.formName.toLowerCase().includes("paldean"),
+            f.formName.toLowerCase().includes("paldean")
         );
         break;
       case "normal":
@@ -69,7 +69,7 @@ export default function PokemonFormsPage() {
   }, [filteredForms, groupByBase]);
 
   return (
-    <div className="min-h-screen bg-gradient-to-br from-purple-900 via-blue-900 to-indigo-900 p-8">
+    <div className="min-h-screen bg-linear-to-br from-purple-900 via-blue-900 to-indigo-900 p-8">
       <div className="max-w-7xl mx-auto">
         {/* Header */}
         <div className="mb-8">
@@ -182,7 +182,7 @@ export default function PokemonFormsPage() {
                 "px-4 py-2 rounded-lg font-medium transition-all",
                 groupByBase
                   ? "bg-purple-600 text-white"
-                  : "bg-white/10 text-white/70 hover:bg-white/20",
+                  : "bg-white/10 text-white/70 hover:bg-white/20"
               )}
             >
               {groupByBase ? "Ungroup" : "Group by Base"}
@@ -284,7 +284,7 @@ const FilterButton: React.FC<FilterButtonProps> = ({
       "px-4 py-2 rounded-lg font-medium transition-all flex items-center gap-2",
       active
         ? "bg-purple-600 text-white shadow-lg"
-        : "bg-white/10 text-white/70 hover:bg-white/20",
+        : "bg-white/10 text-white/70 hover:bg-white/20"
     )}
   >
     <span>{icon}</span>
@@ -303,7 +303,7 @@ const FormCard: React.FC<FormCardProps> = ({ form, navigate }) => {
   return (
     <div
       onClick={() => navigate(`/forms/${form.baseId}/${form.formNumber}`)}
-      className="bg-gradient-to-br from-white/10 to-white/5 backdrop-blur-sm rounded-xl p-4 border border-white/20 hover:border-purple-400/50 transition-all hover:scale-105 cursor-pointer"
+      className="bg-linear-to-br from-white/10 to-white/5 backdrop-blur-sm rounded-xl p-4 border border-white/20 hover:border-purple-400/50 transition-all hover:scale-105 cursor-pointer"
     >
       {" "}
       {/* Form Image */}
@@ -346,7 +346,7 @@ const FormCard: React.FC<FormCardProps> = ({ form, navigate }) => {
               key={type}
               className={cn(
                 "px-2 py-1 rounded text-xs font-bold text-white",
-                getTypeColor(type),
+                getTypeColor(type)
               )}
             >
               {type}
@@ -367,7 +367,7 @@ const FormCard: React.FC<FormCardProps> = ({ form, navigate }) => {
               "px-2 py-1 rounded",
               form.suffix === "absolution"
                 ? "bg-indigo-500/30 text-indigo-200"
-                : "bg-gray-500/30 text-gray-200",
+                : "bg-gray-500/30 text-gray-200"
             )}
           >
             {form.suffix}

@@ -51,7 +51,7 @@ export const FakemonDetailPage = () => {
 
   if (!fakemon) {
     return (
-      <div className="min-h-screen flex items-center justify-center bg-gradient-to-br from-purple-900 via-purple-800 to-indigo-900">
+      <div className="min-h-screen flex items-center justify-center bg-linear-to-br from-purple-900 via-purple-800 to-indigo-900">
         <div className="text-center">
           <h1 className="text-3xl font-bold text-white mb-4">
             Fakemon not found
@@ -71,11 +71,11 @@ export const FakemonDetailPage = () => {
   const maxStat = 130; // Math.max(...Object.values(displayData.stats));
   const totalStats = Object.values(displayData.stats).reduce(
     (sum, stat) => sum + stat,
-    0,
+    0
   );
 
   return (
-    <div className="min-h-screen bg-gradient-to-br from-purple-900 via-purple-800 to-indigo-900">
+    <div className="min-h-screen bg-linear-to-br from-purple-900 via-purple-800 to-indigo-900">
       <div className="container mx-auto px-4 py-8">
         {/* Back Button */}
         <Link
@@ -101,7 +101,7 @@ export const FakemonDetailPage = () => {
                   "bg-purple-900/50 rounded-lg p-4 border-2 transition-all hover:scale-105",
                   !selectedForm
                     ? "border-purple-400 shadow-lg shadow-purple-500/50"
-                    : "border-purple-700 hover:border-purple-500",
+                    : "border-purple-700 hover:border-purple-500"
                 )}
               >
                 <div className="relative">
@@ -128,7 +128,7 @@ export const FakemonDetailPage = () => {
                     "bg-purple-900/50 rounded-lg p-4 border-2 transition-all hover:scale-105",
                     selectedForm?.formNumber === form.formNumber
                       ? "border-purple-400 shadow-lg shadow-purple-500/50"
-                      : "border-purple-700 hover:border-purple-500",
+                      : "border-purple-700 hover:border-purple-500"
                   )}
                 >
                   <div className="relative">
@@ -162,7 +162,7 @@ export const FakemonDetailPage = () => {
             <div className="bg-purple-800/50 rounded-xl border border-purple-600 p-8">
               <div className="flex justify-center mb-6">
                 <div
-                  className="relative w-64 h-64 rounded-full bg-gradient-to-br from-purple-400/20 to-purple-600/20 border-2 border-purple-400/30 flex items-center justify-center transition-transform duration-300 hover:scale-105 group"
+                  className="relative w-64 h-64 rounded-full bg-linear-to-br from-purple-400/20 to-purple-600/20 border-2 border-purple-400/30 flex items-center justify-center transition-transform duration-300 hover:scale-105 group"
                   onMouseEnter={() => setIsHovered(true)}
                   onMouseLeave={() => setIsHovered(false)}
                 >
@@ -191,7 +191,7 @@ export const FakemonDetailPage = () => {
                     <span
                       key={type}
                       className={`px-4 py-2 rounded-full text-white font-semibold ${getTypeColor(
-                        type,
+                        type
                       )}`}
                     >
                       {type}
@@ -269,12 +269,12 @@ export const FakemonDetailPage = () => {
                       </div>
                       <div className="w-full bg-purple-900/50 rounded-full h-3 overflow-hidden">
                         <div
-                          className="h-full bg-gradient-to-r from-purple-400 to-purple-500 transition-all duration-1000 ease-out"
+                          className="h-full bg-linear-to-r from-purple-400 to-purple-500 transition-all duration-1000 ease-out"
                           style={{ width: `${(statValue / maxStat) * 100}%` }}
                         />
                       </div>
                     </div>
-                  ),
+                  )
                 )}
 
                 {/* Total */}
@@ -336,14 +336,14 @@ const TinyMoveCard = ({ move }: { move: Move }) => {
     <Link to={`/moves/${move.id}`}>
       <div
         className={`rounded-lg p-4 hover:brightness-110 transition-all cursor-pointer text-white ${getTypeColor(
-          move.type,
+          move.type
         )}`}
       >
         <div className="flex justify-between items-start mb-2">
           <h4 className="font-semibold">{move.name}</h4>
           <span
             className={`px-2 py-1 rounded text-xs font-semibold bg-black/30 ${getCategoryColor(
-              move.category,
+              move.category
             )}`}
           >
             {move.category}

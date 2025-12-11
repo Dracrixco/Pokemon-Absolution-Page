@@ -25,7 +25,7 @@ export const MapViewer: React.FC<MapViewerProps> = ({
       <div
         className={cn(
           "bg-black/20 rounded-lg border border-white/10 p-6",
-          className,
+          className
         )}
       >
         <div className="flex flex-col items-center justify-center text-white/50 min-h-[200px]">
@@ -46,7 +46,7 @@ export const MapViewer: React.FC<MapViewerProps> = ({
       <div
         className={cn(
           "relative bg-black/20 rounded-lg overflow-hidden border border-white/10 h-full",
-          className,
+          className
         )}
       >
         <img
@@ -54,7 +54,7 @@ export const MapViewer: React.FC<MapViewerProps> = ({
           alt={`${tile.mapName} map`}
           className={cn(
             "w-full h-full object-contain bg-gray-900/50",
-            compact && "!h-32",
+            compact && "h-32!"
           )}
           onLoad={handleImageLoad}
         />
@@ -70,7 +70,7 @@ export const MapViewer: React.FC<MapViewerProps> = ({
 
         {/* Map Title for compact mode */}
         {compact && (
-          <div className="absolute bottom-0 left-0 right-0 bg-gradient-to-t from-black/80 to-transparent p-2">
+          <div className="absolute bottom-0 left-0 right-0 bg-linear-to-t from-black/80 to-transparent p-2">
             <div className="text-white text-sm font-medium truncate">
               {tile.mapName}
             </div>
@@ -96,7 +96,7 @@ export const MapViewerSimple: React.FC<MapViewerSimpleProps> = ({
     <div
       className={cn(
         "bg-black/20 rounded-lg border border-white/10 p-4",
-        className,
+        className
       )}
     >
       <div className="text-white/50 text-center">

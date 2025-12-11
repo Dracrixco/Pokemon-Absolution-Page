@@ -27,7 +27,7 @@ export const MoveDetailPage = () => {
   }
 
   return (
-    <div className="min-h-screen bg-gradient-to-br from-purple-900 via-purple-800 to-indigo-900">
+    <div className="min-h-screen bg-linear-to-br from-purple-900 via-purple-800 to-indigo-900">
       <div className="container mx-auto px-4 py-8">
         {/* Back Button */}
         <Link
@@ -48,14 +48,14 @@ export const MoveDetailPage = () => {
               <div className="flex justify-center gap-4 mb-6">
                 <span
                   className={`px-4 py-2 rounded-full text-white font-semibold ${getTypeColor(
-                    move.type,
+                    move.type
                   )}`}
                 >
                   {move.type}
                 </span>
                 <span
                   className={`px-4 py-2 rounded-full text-white font-semibold ${getCategoryColor(
-                    move.category,
+                    move.category
                   )}`}
                 >
                   {move.category}
@@ -115,7 +115,7 @@ export const MoveDetailPage = () => {
                   </span>
                   <span
                     className={`px-3 py-1 rounded-full text-white text-sm font-semibold ${getTargetColor(
-                      move.target,
+                      move.target
                     )}`}
                   >
                     {move.target}
@@ -136,7 +136,7 @@ export const MoveDetailPage = () => {
                   </h4>
                   <span
                     className={`px-3 py-1 rounded-full text-white font-semibold ${getTypeColor(
-                      move.type,
+                      move.type
                     )}`}
                   >
                     {move.type}
@@ -148,7 +148,7 @@ export const MoveDetailPage = () => {
                   </h4>
                   <span
                     className={`px-3 py-1 rounded-full text-white font-semibold ${getCategoryColor(
-                      move.category,
+                      move.category
                     )}`}
                   >
                     {move.category}
@@ -160,7 +160,7 @@ export const MoveDetailPage = () => {
                   </h4>
                   <span
                     className={`px-3 py-1 rounded-full text-white font-semibold ${getTargetColor(
-                      move.target,
+                      move.target
                     )}`}
                   >
                     {move.target}
@@ -179,7 +179,7 @@ export const MoveDetailPage = () => {
               <div className="relative">
                 <div className="w-full bg-purple-900/50 rounded-full h-4 overflow-hidden">
                   <div
-                    className="h-full bg-gradient-to-r from-purple-400 to-purple-500 transition-all duration-1000 ease-out"
+                    className="h-full bg-linear-to-r from-purple-400 to-purple-500 transition-all duration-1000 ease-out"
                     style={{
                       width: `${Math.min((move.power / 150) * 100, 100)}%`,
                     }}
@@ -281,7 +281,7 @@ const PokemonCard = ({ pokemon }: PokemonCardProps) => {
           <span
             key={type}
             className={`px-2 py-1 rounded text-xs font-medium text-white ${getTypeColor(
-              type,
+              type
             )}`}
           >
             {type}

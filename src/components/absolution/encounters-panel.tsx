@@ -47,7 +47,7 @@ export const EncountersPanel: React.FC<EncountersPanelProps> = ({ tile }) => {
             <div
               className={cn(
                 "w-4 h-4 rounded-full border-2 border-white/50",
-                getMapColorClass(tile.color),
+                getMapColorClass(tile.color)
               )}
             />
           </div>
@@ -107,7 +107,7 @@ const EncounterCard: React.FC<EncounterCardProps> = ({ encounter }) => {
   return (
     <Link
       to={`/fakemons/${pokemon.id}`}
-      className="flex-shrink-0 w-40 bg-white/5 rounded-lg p-3 border border-white/10 hover:border-white/30 transition-colors cursor-pointer"
+      className="shrink-0 w-40 bg-white/5 rounded-lg p-3 border border-white/10 hover:border-white/30 transition-colors cursor-pointer"
     >
       <div className="flex flex-col items-center gap-2">
         <div className="w-20 h-20 relative">

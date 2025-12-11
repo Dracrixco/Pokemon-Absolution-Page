@@ -15,7 +15,7 @@ export const TileLayers: React.FC<TileLayersProps> = ({ tile }) => {
 
   if (!tile) {
     return (
-      <div className="mt-8 bg-gradient-to-r from-gray-50 to-gray-100 p-8 rounded-xl border border-gray-200 shadow-sm">
+      <div className="mt-8 bg-linear-to-r from-gray-50 to-gray-100 p-8 rounded-xl border border-gray-200 shadow-sm">
         <div className="text-center">
           <div className="w-16 h-16 bg-gray-200 rounded-full flex items-center justify-center mx-auto mb-4">
             <svg
@@ -82,7 +82,7 @@ export const TileLayers: React.FC<TileLayersProps> = ({ tile }) => {
 
   return (
     <div className="bg-white rounded-xl shadow-lg border border-gray-200 overflow-hidden">
-      <div className="bg-gradient-to-r from-indigo-500 to-purple-600 p-6">
+      <div className="bg-linear-to-r from-indigo-500 to-purple-600 p-6">
         <h2 className="text-2xl font-bold text-white mb-2">{tile.mapName}</h2>
         <p className="text-indigo-100 text-sm">
           ID: {mapIngameID} | Posición: ({tile.x}, {tile.y})
@@ -98,7 +98,7 @@ export const TileLayers: React.FC<TileLayersProps> = ({ tile }) => {
                   "flex items-center space-x-3 p-4 rounded-lg border-2 transition-all duration-200",
                   layer.checked
                     ? `border-${layer.color}-200 bg-${layer.color}-50 shadow-md`
-                    : "border-gray-200 bg-gray-50 hover:border-gray-300",
+                    : "border-gray-200 bg-gray-50 hover:border-gray-300"
                 )}
               >
                 <div className="relative">
@@ -110,7 +110,7 @@ export const TileLayers: React.FC<TileLayersProps> = ({ tile }) => {
                       "w-5 h-5 rounded border-2 transition-all duration-200",
                       layer.checked
                         ? `text-${layer.color}-600 border-${layer.color}-300 focus:ring-${layer.color}-500`
-                        : "border-gray-300 focus:ring-gray-500",
+                        : "border-gray-300 focus:ring-gray-500"
                     )}
                   />
                   {layer.checked && (
@@ -127,7 +127,7 @@ export const TileLayers: React.FC<TileLayersProps> = ({ tile }) => {
                         "font-medium transition-colors duration-200",
                         layer.checked
                           ? `text-${layer.color}-700`
-                          : "text-gray-600",
+                          : "text-gray-600"
                       )}
                     >
                       {layer.label}

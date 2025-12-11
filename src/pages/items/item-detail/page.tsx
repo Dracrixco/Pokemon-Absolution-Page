@@ -95,7 +95,7 @@ export const ItemDetailPage: React.FC = () => {
             {/* Item Overview */}
             <div className="bg-white rounded-lg shadow-lg p-8">
               <div className="flex items-start gap-6">
-                <div className="flex-shrink-0">
+                <div className="shrink-0">
                   <img
                     src={item.sprite || "/items/default.png"}
                     alt={item.name}
@@ -120,7 +120,7 @@ export const ItemDetailPage: React.FC = () => {
                     <div className="flex items-center gap-3">
                       <span
                         className={`px-3 py-2 rounded-lg text-white font-medium ${getPocketColor(
-                          item.pocket,
+                          item.pocket
                         )}`}
                       >
                         {pocketName}
@@ -136,7 +136,7 @@ export const ItemDetailPage: React.FC = () => {
                     <div className="bg-gray-50 rounded-lg p-4">
                       <div className="flex items-start gap-3">
                         <Info
-                          className="text-blue-500 flex-shrink-0 mt-1"
+                          className="text-blue-500 shrink-0 mt-1"
                           size={20}
                         />
                         <p className="text-gray-700 text-lg leading-relaxed">
@@ -162,7 +162,7 @@ export const ItemDetailPage: React.FC = () => {
                       key={index}
                       className="flex items-center gap-2 p-3 bg-blue-50 border border-blue-200 rounded-lg"
                     >
-                      <div className="w-2 h-2 bg-blue-500 rounded-full flex-shrink-0" />
+                      <div className="w-2 h-2 bg-blue-500 rounded-full shrink-0" />
                       <span className="text-blue-800 font-medium">{flag}</span>
                     </div>
                   ))}
@@ -229,7 +229,7 @@ export const ItemDetailPage: React.FC = () => {
                   <span className="text-gray-600">Category:</span>
                   <span
                     className={`px-2 py-1 rounded text-white text-sm ${getPocketColor(
-                      item.pocket,
+                      item.pocket
                     )}`}
                   >
                     {pocketName}
