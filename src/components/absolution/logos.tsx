@@ -3,8 +3,9 @@ interface LogosProps {
 }
 
 export const RandomLogo = ({ size = 50 }: LogosProps) => {
-  const logos = [LogoKiriel, LogoKirial];
-  const LogoComponent = logos[Math.floor(Math.random() * logos.length)];
+  const hour = new Date().getHours();
+  const isNight = hour >= 18 || hour < 6;
+  const LogoComponent = isNight ? LogoKiriel : LogoKirial;
   return <LogoComponent size={size} />;
 };
 
