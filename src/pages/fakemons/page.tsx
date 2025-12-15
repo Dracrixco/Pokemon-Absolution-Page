@@ -32,7 +32,7 @@ export const FakemonsList = () => {
 
   // Obtener sufijos únicos disponibles
   const availableSuffixes = Array.from(
-    new Set(allFakemons.map((f) => f.suffix))
+    new Set(allFakemons.map((f) => f.suffix)),
   );
 
   // Funciones de navegación
@@ -130,7 +130,7 @@ export const FakemonsList = () => {
                 const count = allFakemons.filter(
                   (f) =>
                     f.suffix === suffix &&
-                    (!f.dateToShow || f.dateToShow < new Date())
+                    (!f.dateToShow || f.dateToShow < new Date()),
                 ).length;
                 return (
                   <button

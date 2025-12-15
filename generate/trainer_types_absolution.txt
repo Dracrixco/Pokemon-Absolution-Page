@@ -132,6 +132,16 @@ Name = Bug Catcher Group
 Gender = Unknown
 BaseMoney = 16
 #-------------------------------
+[POKEBALL_ENGINEER_M]
+Name = Pokeball Engineer
+Gender = Male
+BaseMoney = 30
+#-------------------------------
+[POKEBALL_ENGINEER_F]
+Name = Pokeball Engineer
+Gender = Female
+BaseMoney = 30
+#-------------------------------
 [POKEMONTRAINER_PROTA_MULTIPLAYER_M]
 Name = Pokémon Trainer
 Gender = Male
@@ -153,5 +163,12 @@ BattleBGM = Megaman X4 - Split Mushroom Stage
 Name = Pokemon Trainer
 Gender = Male
 BaseMoney = 60
+SkillLevel = 200
+BattleBGM = Megaman X4 - Split Mushroom Stage
+#-------------------------------
+[SPECIAL_TRAINER_UPTIO]
+Name = Pokemon Trainer
+Gender = Male
+BaseMoney = 100
 SkillLevel = 200
 BattleBGM = Megaman X4 - Split Mushroom Stage

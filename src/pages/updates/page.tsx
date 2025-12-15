@@ -46,7 +46,7 @@ export function UpdatesPage() {
     const updateText = `Version: ${update.version}\nName: ${
       update.name
     }\nDate: ${update.formattedDate}\n\nChanges:\n- ${update.changes.join(
-      "\n- "
+      "\n- ",
     )}`;
     navigator.clipboard.writeText(updateText);
   };

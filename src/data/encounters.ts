@@ -199,7 +199,7 @@ export const encountersData: Record<
     Land: [
       {
         rate: 20,
-        species: "SKITTY",
+        species: "SKITTY_1",
         minLevel: 2,
         maxLevel: 3,
       },
@@ -249,13 +249,13 @@ export const encountersData: Record<
       },
       {
         rate: 30,
-        species: "SKITTY",
+        species: "SKITTY_1",
         minLevel: 2,
         maxLevel: 3,
       },
       {
         rate: 20,
-        species: "RATTATA",
+        species: "RATTATA_1",
         minLevel: 2,
         maxLevel: 3,
       },
@@ -309,7 +309,7 @@ export const encountersData: Record<
     Special: [
       {
         rate: 100,
-        species: "SKITTY",
+        species: "SKITTY_1",
         minLevel: 2,
         maxLevel: 4,
       },
@@ -427,7 +427,7 @@ export const encountersData: Record<
       },
       {
         rate: 5,
-        species: "SKITTY",
+        species: "SKITTY_1",
         minLevel: 8,
         maxLevel: 8,
       },
@@ -665,7 +665,7 @@ export const encountersData: Record<
       },
       {
         rate: 10,
-        species: "SKITTY",
+        species: "SKITTY_1",
         minLevel: 20,
         maxLevel: 25,
       },
@@ -1157,7 +1157,7 @@ export const encountersData: Record<
       },
       {
         rate: 25,
-        species: "SKITTY",
+        species: "SKITTY_1",
         minLevel: 8,
         maxLevel: 10,
       },
@@ -1555,7 +1555,7 @@ export const encountersData: Record<
       },
       {
         rate: 30,
-        species: "GEODUDE",
+        species: "GEODUDE_1",
         minLevel: 5,
         maxLevel: 5,
       },
@@ -1591,7 +1591,7 @@ export const encountersData: Record<
       },
       {
         rate: 20,
-        species: "GOLEM",
+        species: "GOLEM_1",
         minLevel: 50,
         maxLevel: 50,
       },
@@ -2433,7 +2433,7 @@ export const encountersData: Record<
       },
       {
         rate: 10,
-        species: "SKITTY",
+        species: "SKITTY_1",
         minLevel: 3,
         maxLevel: 5,
       },
@@ -2517,7 +2517,7 @@ export const encountersData: Record<
       },
       {
         rate: 15,
-        species: "SKITTY",
+        species: "SKITTY_1",
         minLevel: 3,
         maxLevel: 5,
       },
@@ -2567,7 +2567,7 @@ export const encountersData: Record<
     Cave: [
       {
         rate: 20,
-        species: "GEODUDE",
+        species: "GEODUDE_1",
         minLevel: 12,
         maxLevel: 14,
       },
@@ -2591,7 +2591,7 @@ export const encountersData: Record<
       },
       {
         rate: 10,
-        species: "DIGLETT",
+        species: "DIGLETT_1",
         minLevel: 12,
         maxLevel: 14,
       },
@@ -2605,7 +2605,7 @@ export const encountersData: Record<
     RockSmash: [
       {
         rate: 100,
-        species: "GEODUDE",
+        species: "GEODUDE_1",
         minLevel: 12,
         maxLevel: 14,
       },

@@ -2735,7 +2735,7 @@ export const fakemons: Fakemon[] = [
     weight: "6.5",
     abilities: ["SWARM"],
     hiddenAbilities: ["OVERCOAT"],
-    category: "???",
+    category: "Amblypygi",
     moves: [
       "TWINEEDLE",
       "STRINGSHOT",

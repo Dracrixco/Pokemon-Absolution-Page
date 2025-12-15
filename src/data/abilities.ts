@@ -1978,4 +1978,10 @@ export const abilities: Ability[] = [
       "Powers up moves to deal double damage and boosts accuracy against burned foes.",
     suffix: "normal",
   },
+  {
+    id: "ICEFIRE",
+    name: "Ice Fire",
+    description: "Fire-type moves have a chance to freeze the target.",
+    suffix: "normal",
+  },
 ];

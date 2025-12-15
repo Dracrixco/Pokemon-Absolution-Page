@@ -92,7 +92,7 @@ export const ItemSelector: React.FC<{
         (item) =>
           // item.pocket === 1 &&
           !item.flags.includes("Repel") &&
-          !item.flags.includes("EvolutionStone")
+          !item.flags.includes("EvolutionStone"),
       ).length;
     }
 
@@ -148,7 +148,7 @@ export const ItemSelector: React.FC<{
             "border border-gray-300",
             "rounded-lg shadow-lg overflow-hidden",
             "top-0 left-0 right-0 bottom-0",
-            "w-screen h-screen"
+            "w-screen h-screen",
           )}
         >
           {/* Header con búsqueda y filtros */}
@@ -187,13 +187,13 @@ export const ItemSelector: React.FC<{
                         "px-3 py-1 rounded-full text-xs font-medium transition-colors",
                         selectedCategory === category
                           ? "bg-blue-500 text-white"
-                          : "bg-gray-100 text-gray-700 hover:bg-gray-200"
+                          : "bg-gray-100 text-gray-700 hover:bg-gray-200",
                       )}
                     >
                       {ITEM_CATEGORIES[category]} ({count})
                     </button>
                   );
-                }
+                },
               )}
             </div>
           </div>

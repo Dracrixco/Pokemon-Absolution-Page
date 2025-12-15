@@ -48,14 +48,14 @@ export const MoveDetailPage = () => {
               <div className="flex justify-center gap-4 mb-6">
                 <span
                   className={`px-4 py-2 rounded-full text-white font-semibold ${getTypeColor(
-                    move.type
+                    move.type,
                   )}`}
                 >
                   {move.type}
                 </span>
                 <span
                   className={`px-4 py-2 rounded-full text-white font-semibold ${getCategoryColor(
-                    move.category
+                    move.category,
                   )}`}
                 >
                   {move.category}
@@ -115,7 +115,7 @@ export const MoveDetailPage = () => {
                   </span>
                   <span
                     className={`px-3 py-1 rounded-full text-white text-sm font-semibold ${getTargetColor(
-                      move.target
+                      move.target,
                     )}`}
                   >
                     {move.target}
@@ -136,7 +136,7 @@ export const MoveDetailPage = () => {
                   </h4>
                   <span
                     className={`px-3 py-1 rounded-full text-white font-semibold ${getTypeColor(
-                      move.type
+                      move.type,
                     )}`}
                   >
                     {move.type}
@@ -148,7 +148,7 @@ export const MoveDetailPage = () => {
                   </h4>
                   <span
                     className={`px-3 py-1 rounded-full text-white font-semibold ${getCategoryColor(
-                      move.category
+                      move.category,
                     )}`}
                   >
                     {move.category}
@@ -160,7 +160,7 @@ export const MoveDetailPage = () => {
                   </h4>
                   <span
                     className={`px-3 py-1 rounded-full text-white font-semibold ${getTargetColor(
-                      move.target
+                      move.target,
                     )}`}
                   >
                     {move.target}
@@ -281,7 +281,7 @@ const PokemonCard = ({ pokemon }: PokemonCardProps) => {
           <span
             key={type}
             className={`px-2 py-1 rounded text-xs font-medium text-white ${getTypeColor(
-              type
+              type,
             )}`}
           >
             {type}

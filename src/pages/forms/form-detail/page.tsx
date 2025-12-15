@@ -106,7 +106,7 @@ export default function FormDetailPage() {
                       key={type}
                       className={cn(
                         "px-4 py-2 rounded-lg text-lg font-bold text-white",
-                        getTypeColor(type)
+                        getTypeColor(type),
                       )}
                     >
                       {type}
@@ -179,7 +179,7 @@ export default function FormDetailPage() {
                             ? "bg-blue-500"
                             : value >= 50
                               ? "bg-yellow-500"
-                              : "bg-red-500"
+                              : "bg-red-500",
                       )}
                       style={{ width: `${percentage}%` }}
                     />

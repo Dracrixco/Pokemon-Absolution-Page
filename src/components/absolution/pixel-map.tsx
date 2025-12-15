@@ -126,7 +126,7 @@ export const PixelMap: React.FC<PixelMapProps> = ({
                         isSelected
                           ? "bg-yellow-400/20 border-yellow-300 shadow-lg z-20 scale-105"
                           : "",
-                        tile ? "hover:shadow-md hover:scale-102" : ""
+                        tile ? "hover:shadow-md hover:scale-102" : "",
                       )}
                       onClick={() => {
                         handleTileClick(tile);
@@ -138,7 +138,7 @@ export const PixelMap: React.FC<PixelMapProps> = ({
                       }}
                     />
                   );
-                })
+                }),
               )}
             </div>
 
@@ -167,7 +167,7 @@ export const PixelMap: React.FC<PixelMapProps> = ({
                       "w-full h-full rounded-sm border-2 flex items-center",
                       "justify-center relative overflow-hidden transition-all duration-300",
                       colorClass,
-                      isSelected ? "scale-105 shadow-lg" : "opacity-50"
+                      isSelected ? "scale-105 shadow-lg" : "opacity-50",
                     )}
                   >
                     {/* Pulse effect for single tiles or smaller maps */}

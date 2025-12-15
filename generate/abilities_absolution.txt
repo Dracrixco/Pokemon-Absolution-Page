@@ -67,3 +67,7 @@ Description = After using a move, the Pokémon prevents the target from healing 
 [BURNEATER]
 Name = Burn Eater
 Description = Powers up moves to deal double damage and boosts accuracy against burned foes.
+#-------------------------------
+[ICEFIRE]
+Name = Ice Fire
+Description = Fire-type moves have a chance to freeze the target.

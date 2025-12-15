@@ -502,7 +502,8 @@ Name = Route 6
 Outdoor = true
 ShowArea = true
 Bicycle = true
-MapPosition = 0,17,4
+MapPosition = 0,17,3
+MapSize = 1,11
 SnapEdges = true
 BattleBack = City
 Flags = ForWebPage
@@ -526,7 +527,7 @@ Weather = Rain,100
 MapPosition = 0,17,6
 SnapEdges = true
 BattleBack = Swamp
-MapSize = 1,11
+MapSize = 1,111
 Flags = ForWebPage
 #-------------------------------
 [076]   # Right Zone

@@ -41,7 +41,7 @@ SuperRod
 #-------------------------------
 [004] # Route 1
 Land,5
-    20,SKITTY,2,3
+    20,SKITTY_1,2,3
     20,WOOLARVA,2,3
     15,ODDISH,2,3
     15,PAWMI,2,3
@@ -50,8 +50,8 @@ Land,5
     5,SIZZLIPEDE,2
 LandNight,5
     30,CRYOWL,2,3
-    30,SKITTY,2,3
-    20,RATTATA,2,3
+    30,SKITTY_1,2,3
+    20,RATTATA_1,2,3
     15,WOOBAT,2,3
     5,SIZZLIPEDE,2
 Tree
@@ -62,7 +62,7 @@ Tree
 RockSmash,50
     100,SIZZLIPEDE,12,18
 Special,10
-    100,SKITTY,2,4
+    100,SKITTY_1,2,4
 #-------------------------------
 [007] # Sunset City
 Tree
@@ -87,7 +87,7 @@ LandNight,5
     30,POOCHYENA,4,5
     20,NYMBLE,4,5
     10,TRUBBISH,4,5
-    5,SKITTY,8
+    5,SKITTY_1,8
     5,SORROWOOF,4,5
 Tree
     60,CONDLING,2,5
@@ -136,7 +136,7 @@ Land,5
     15,SORROWOOF,20,25
     15,STARAVIA,20,25
     10,HOPPIP,20,25
-    10,SKITTY,20,25
+    10,SKITTY_1,20,25
     5,QUAGSIRE,20,25
 LandNight,5
     30,NICKIT,20,25
@@ -238,7 +238,7 @@ Land,5
     10,WOOLARVA,8,10
 LandNight,5
     25,CRYOWL,8,10
-    25,SKITTY,8,10
+    25,SKITTY_1,8,10
     15,SORROWOOF,8,10
     15,WINGULL,8,10
     10,PIKACHU,8,10
@@ -316,7 +316,7 @@ HeadbuttHigh
     30,FOMANTIS,10,12
 RockSmash,50
     70,DWEBBLE,5
-    30,GEODUDE,5
+    30,GEODUDE_1,5
 Sky
     100,STARLY,10,12
 Special
@@ -324,7 +324,7 @@ Special
 Raid
     20,CHERRIM,50
     20,CRUSTLE,50
-    20,GOLEM,50
+    20,GOLEM_1,50
     20,KILOWATTREL,50
     20,STEELIX,50
 #-------------------------------
@@ -487,7 +487,7 @@ Land,5
     20,YUNTTER,3,5
     10,LOTAD,2,4
     10,SEEDOT,2,4
-    10,SKITTY,3,5
+    10,SKITTY_1,3,5
     5,KRICKETOT,3,5
     5,SIZZLIPEDE,2
     5,STARLY,3,5
@@ -506,7 +506,7 @@ Land,5
     35,CONDLING,3,5
     20,SEEDOT,2,4
     15,SIZZLIPEDE,2
-    15,SKITTY,3,5
+    15,SKITTY_1,3,5
     15,STARLY,3,5
 Tree
     80,STARLY,2,5
@@ -518,14 +518,14 @@ Raid
 #-------------------------------
 [028] # Cave
 Cave,5
-    20,GEODUDE,12,14
+    20,GEODUDE_1,12,14
     20,JOLTIK,12,14
     20,KLINK,12,14
     20,ZUBAT,12,14
-    10,DIGLETT,12,14
+    10,DIGLETT_1,12,14
     10,ONIX,12,14
 RockSmash,50
-    100,GEODUDE,12,14
+    100,GEODUDE_1,12,14
 #-------------------------------
 [034] # Farm
 Land,5

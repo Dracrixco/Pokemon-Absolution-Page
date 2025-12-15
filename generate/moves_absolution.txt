@@ -478,3 +478,44 @@ Target = AllNearOthers
 FunctionCode = ReduceTargetEffectChance30
 Flags = CanProtect,CanMirrorMove,Magic
 Description = Deals damage and lowers the target's chance of triggering extra effects a lot.
+#-------------------------------
+[COLDFLAME]
+Name = Cold Flame
+Type = FIRE
+Category = Special
+Power = 60
+Accuracy = 100
+TotalPP = 30
+Target = NearOther
+FunctionCode = FreezeTarget
+Flags = CanProtect,CanMirrorMove
+EffectChance = 10
+Description = It may also freeze the target solid.
+#-------------------------------
+[FROZENHELL]
+Name = Frozen Hell
+Type = FIRE
+Category = Special
+Power = 100
+Accuracy = 100
+TotalPP = 15
+Target = AllNearOthers
+FunctionCode = FreezeTarget
+Flags = CanProtect,CanMirrorMove
+EffectChance = 20
+Description = It may also freeze the target solid.
+#-------------------------------
+[VOLCANICKISS]
+Name = Volcanic Kiss
+Type = FIRE
+Category = Special
+Power = 80
+Accuracy = 100
+TotalPP = 25
+Target = AllNearOthers
+FunctionCode = AttractAndBurnTarget
+Flags = CanProtect,CanMirrorMove
+EffectChance = 30
+Description = If it is the opposite gender of the user, the target becomes infatuated and less likely to attack. This may also leave the target with a burn.
+
+

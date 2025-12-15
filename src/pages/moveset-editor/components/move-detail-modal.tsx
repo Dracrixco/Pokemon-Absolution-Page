@@ -71,14 +71,14 @@ export const MoveDetailModal: React.FC<MoveDetailModalProps> = ({
               <div className="flex items-center gap-2 mt-1">
                 <span
                   className={`px-3 py-1 rounded-full text-white text-sm font-medium ${getTypeColor(
-                    move.type
+                    move.type,
                   )}`}
                 >
                   {move.type}
                 </span>
                 <span
                   className={`px-3 py-1 rounded-full text-white text-sm font-medium ${getCategoryColor(
-                    move.category
+                    move.category,
                   )}`}
                 >
                   {move.category}
@@ -150,7 +150,7 @@ export const MoveDetailModal: React.FC<MoveDetailModalProps> = ({
                   {stats.byLevel > 0 && (
                     <span
                       className={`px-3 py-1 rounded-full text-sm border ${getLearnMethodColor(
-                        "level"
+                        "level",
                       )}`}
                     >
                       {getLearnMethodIcon("level")} Level: {stats.byLevel}
@@ -159,7 +159,7 @@ export const MoveDetailModal: React.FC<MoveDetailModalProps> = ({
                   {stats.byTutor > 0 && (
                     <span
                       className={`px-3 py-1 rounded-full text-sm border ${getLearnMethodColor(
-                        "tutor"
+                        "tutor",
                       )}`}
                     >
                       {getLearnMethodIcon("tutor")} Tutor: {stats.byTutor}
@@ -168,7 +168,7 @@ export const MoveDetailModal: React.FC<MoveDetailModalProps> = ({
                   {stats.byEgg > 0 && (
                     <span
                       className={`px-3 py-1 rounded-full text-sm border ${getLearnMethodColor(
-                        "egg"
+                        "egg",
                       )}`}
                     >
                       {getLearnMethodIcon("egg")} Egg: {stats.byEgg}
@@ -204,7 +204,7 @@ export const MoveDetailModal: React.FC<MoveDetailModalProps> = ({
                                 <span
                                   key={type}
                                   className={`px-2 py-0.5 rounded text-white text-xs ${getTypeColor(
-                                    type
+                                    type,
                                   )}`}
                                 >
                                   {type}
@@ -216,7 +216,7 @@ export const MoveDetailModal: React.FC<MoveDetailModalProps> = ({
                         <div className="text-right">
                           <span
                             className={`px-2 py-1 rounded-full text-xs border ${getLearnMethodColor(
-                              learner.learnMethod
+                              learner.learnMethod,
                             )}`}
                           >
                             {getLearnMethodIcon(learner.learnMethod)}{" "}
