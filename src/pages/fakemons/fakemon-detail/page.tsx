@@ -1,8 +1,9 @@
 import { getFakemonById } from "@/lib/fakemons";
 import { getCategoryColor } from "@/lib/move-colors";
-import { getMovesByIds } from "@/lib/moves";
+import { getMoveById, getMovesByIds } from "@/lib/moves";
 import { getTypeColor } from "@/lib/type-colors";
 import { getFormsByBaseId } from "@/lib/pokemon-forms";
+import { normalizeLevelUpMoves } from "@/lib/level-up-moves";
 import type { Move } from "@/types/move";
 import type { PokemonForm } from "@/types/pokemonform";
 import type { Fakemon } from "@/types/fakemon";
@@ -45,7 +46,10 @@ export const FakemonDetailPage = () => {
   // Use selected form data or base fakemon data
   const displayData: Fakemon | PokemonForm = selectedForm || fakemon;
 
-  const levelUpMoves = getMovesByIds(displayData.moves || []);
+  const levelUpMoves = normalizeLevelUpMoves(displayData.moves)
+    .map((entry) => ({ level: entry.level, move: getMoveById(entry.move) }))
+    .filter((entry): entry is { level: number; move: Move } => !!entry.move)
+    .sort((a, b) => a.level - b.level);
   const tutorMoves = getMovesByIds(displayData.tutorMoves || []);
   const eggMoves = getMovesByIds(displayData.eggMoves || []);
 
@@ -306,7 +310,7 @@ export const FakemonDetailPage = () => {
         {/* Moves Section */}
         <div className="mt-12 space-y-8">
           {/* Level Up Moves */}
-          <MovesSectionContainer
+          <LevelUpMovesSectionContainer
             title="Level Up Moves"
             Icon={Zap}
             moves={levelUpMoves}
@@ -358,6 +362,42 @@ const TinyMoveCard = ({ move }: { move: Move }) => {
   );
 };
 
+const TinyLevelUpMoveCard = ({
+  entry,
+}: {
+  entry: { level: number; move: Move };
+}) => {
+  return (
+    <Link to={`/moves/${entry.move.id}`}>
+      <div
+        className={`rounded-lg p-4 hover:brightness-110 transition-all cursor-pointer text-white ${getTypeColor(
+          entry.move.type,
+        )}`}
+      >
+        <div className="flex justify-between items-start mb-2">
+          <div className="flex items-center gap-2">
+            <span className="text-xs font-semibold bg-black/30 px-2 py-1 rounded">
+              Lv {entry.level > 0 ? entry.level : "?"}
+            </span>
+            <h4 className="font-semibold">{entry.move.name}</h4>
+          </div>
+          <span
+            className={`px-2 py-1 rounded text-xs font-semibold bg-black/30 ${getCategoryColor(
+              entry.move.category,
+            )}`}
+          >
+            {entry.move.category}
+          </span>
+        </div>
+        <div className="flex justify-between text-sm text-white/90">
+          <span>Power: {entry.move.power ?? "—"}</span>
+          <span>PP: {entry.move.totalPP}</span>
+        </div>
+      </div>
+    </Link>
+  );
+};
+
 const MovesSectionContainer = ({
   title,
   Icon,
@@ -390,6 +430,45 @@ const MovesSectionContainer = ({
         <div className="mt-6 grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4">
           {moves.map((move, idx) => (
             <TinyMoveCard key={idx} move={move} />
+          ))}
+        </div>
+      )}
+    </div>
+  );
+};
+
+const LevelUpMovesSectionContainer = ({
+  title,
+  Icon,
+  moves,
+}: {
+  title: string;
+  Icon: React.ForwardRefExoticComponent<
+    Omit<LucideProps, "ref"> & React.RefAttributes<SVGSVGElement>
+  >;
+  moves: { level: number; move: Move }[];
+}) => {
+  const [open, setOpen] = useState(false);
+
+  if (moves.length === 0) {
+    return null;
+  }
+
+  return (
+    <div className="bg-purple-800/50 rounded-xl border border-purple-600 p-6">
+      <button
+        className="w-full flex items-center gap-2 text-left focus:outline-none"
+        onClick={() => setOpen((prev) => !prev)}
+        aria-expanded={open}
+      >
+        <Icon className="h-6 w-6" />
+        <span className="text-2xl font-bold text-white flex-1">{title}</span>
+        <span className="text-purple-200 text-xl">{open ? "▲" : "▼"}</span>
+      </button>
+      {open && (
+        <div className="mt-6 grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4">
+          {moves.map((entry, idx) => (
+            <TinyLevelUpMoveCard key={idx} entry={entry} />
           ))}
         </div>
       )}

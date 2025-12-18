@@ -8,6 +8,7 @@ interface TrainerData {
   name: string;
   loseText: string;
   startText: string;
+  defaultTeamLevel: number;
 }
 
 interface TrainerEditorProps {
@@ -48,6 +49,18 @@ export const TrainerEditor: React.FC<TrainerEditorProps> = ({
     onUpdate({
       ...trainer,
       loseText,
+    });
+  };
+
+  const handleDefaultTeamLevelChange = (value: string) => {
+    const parsed = Number(value);
+    const defaultTeamLevel = Number.isFinite(parsed)
+      ? Math.max(1, Math.min(100, Math.floor(parsed)))
+      : 1;
+
+    onUpdate({
+      ...trainer,
+      defaultTeamLevel,
     });
   };
 
@@ -101,6 +114,20 @@ export const TrainerEditor: React.FC<TrainerEditorProps> = ({
 
         {/* Trainer Details */}
         <div className="space-y-4">
+          <div>
+            <label className="block text-sm font-medium text-gray-700 mb-2">
+              Default Team Level
+            </label>
+            <input
+              type="number"
+              value={trainer.defaultTeamLevel}
+              min={1}
+              max={100}
+              onChange={(e) => handleDefaultTeamLevelChange(e.target.value)}
+              className="w-full px-3 py-2 border border-gray-300 rounded-lg focus:ring-2 focus:ring-blue-500 focus:border-blue-500"
+            />
+          </div>
+
           <div>
             <label className="block text-sm font-medium text-gray-700 mb-2">
               Trainer Name

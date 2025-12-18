@@ -29,6 +29,27 @@ NOT_ABLE_TO_SHOW_FAKEMONS = %w[
   ANTICORE
   DRANTICORE
 ]
+
+def parse_level_up_moves(value)
+  tokens = value.split(",").map(&:strip).reject(&:empty?)
+  moves = []
+
+  i = 0
+  while i < tokens.length
+    level_str = tokens[i]
+    move_id = tokens[i + 1]
+    break if move_id.nil?
+
+    if level_str.match?(/^\d+$/)
+      moves << { level: level_str.to_i, move: move_id }
+    end
+
+    i += 2
+  end
+
+  moves
+end
+
 def parse_fakemons(lines, suffix)
   fakemons = []
   current = nil
@@ -92,11 +113,7 @@ def parse_fakemons(lines, suffix)
       when "HiddenAbilities"
         current[:hiddenAbilities] = value.split(",")
       when "Moves"
-        # Remove level numbers (odd indices) and keep only move names
-        current[:moves] = value
-          .split(",")
-          .map(&:strip)
-          .reject { |v| v.match(/^\d+$/) }
+        current[:moves] = parse_level_up_moves(value)
       when "TutorMoves"
         current[:tutorMoves] = value.split(",")
       when "EggMoves"
@@ -150,7 +167,7 @@ def parse_forms(lines, suffix, base_pokemons)
         current[:types] = base_pokemon[:types].dup
         current[:abilities] = base_pokemon[:abilities].dup
         current[:hiddenAbilities] = base_pokemon[:hiddenAbilities].dup
-        current[:moves] = base_pokemon[:moves].dup if base_pokemon[:moves]
+        current[:moves] = base_pokemon[:moves].map(&:dup) if base_pokemon[:moves]
         current[:tutorMoves] = base_pokemon[:tutorMoves].dup if base_pokemon[
           :tutorMoves
         ]
@@ -228,10 +245,7 @@ def parse_forms(lines, suffix, base_pokemons)
       when "HiddenAbilities"
         current[:hiddenAbilities] = value.split(",")
       when "Moves"
-        current[:moves] = value
-          .split(",")
-          .map(&:strip)
-          .reject { |v| v.match(/^\d+$/) }
+        current[:moves] = parse_level_up_moves(value)
       when "TutorMoves"
         current[:tutorMoves] = value.split(",")
       when "EggMoves"

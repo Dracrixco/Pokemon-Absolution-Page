@@ -1,4 +1,5 @@
 import { getAllFakemons } from "./fakemons";
+import { normalizeLevelUpMoves } from "./level-up-moves";
 import type { Fakemon } from "@/types/fakemon";
 
 export interface PokemonMoveLearn {
@@ -13,12 +14,14 @@ export const getPokemonThatLearnMove = (moveId: string): PokemonMoveLearn[] => {
 
   allFakemons.forEach((pokemon) => {
     // Check level-up moves
-    if (pokemon.moves && pokemon.moves.includes(moveId)) {
+    const levelMatches = normalizeLevelUpMoves(pokemon.moves).filter(
+      (m) => m.move === moveId,
+    );
+    if (levelMatches.length > 0) {
       results.push({
         pokemon,
         learnMethod: "level",
-        // Note: We don't have level data in the current structure
-        // This would need to be added to the Fakemon type if needed
+        level: Math.min(...levelMatches.map((m) => m.level)),
       });
     }
 

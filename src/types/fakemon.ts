@@ -1,5 +1,12 @@
 import type { GenericPBS } from "./genericPBS";
 
+export interface LevelUpMove {
+  level: number;
+  move: string;
+}
+
+export type LevelUpMoveEntry = string | LevelUpMove;
+
 export interface Fakemon extends GenericPBS {
   name: string;
   types: string[];
@@ -18,7 +25,7 @@ export interface Fakemon extends GenericPBS {
   abilities: string[];
   hiddenAbilities: string[];
   category: string;
-  moves?: string[];
+  moves?: LevelUpMoveEntry[];
   tutorMoves?: string[];
   eggMoves?: string[];
   dateToShow?: Date;

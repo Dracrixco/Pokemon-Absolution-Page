@@ -2,6 +2,7 @@ import React, { useState, useMemo } from "react";
 import { Search, Filter, Star, X, Zap, Target } from "lucide-react";
 import { moves } from "@/data/moves";
 import { getTypeColor } from "@/lib/type-colors";
+import { levelUpMoveIds } from "@/lib/level-up-moves";
 import type { Fakemon } from "@/types/fakemon";
 
 interface MoveEditorAdvancedProps {
@@ -49,8 +50,9 @@ export const MoveEditorAdvanced: React.FC<MoveEditorAdvancedProps> = ({
   const [showFilters, setShowFilters] = useState(false);
 
   const availableMoves = useMemo(() => {
+    const levelUpIds = new Set(levelUpMoveIds(pokemon.moves));
     return moves
-      .filter((move) => pokemon.moves?.includes(move.id))
+      .filter((move) => levelUpIds.has(move.id))
       .filter((move) => {
         if (searchTerm) {
           return (

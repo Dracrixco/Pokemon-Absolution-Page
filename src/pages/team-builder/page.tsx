@@ -17,6 +17,7 @@ import { getTypeColor } from "@/lib/type-colors";
 import type { Fakemon, FakemonForTeam } from "@/types/fakemon";
 import { getPokemonData } from "@/lib/fakemons";
 import { PokemonImage } from "@/components/absolution/pokemon-image";
+import { normalizeLevelUpMoves } from "@/lib/level-up-moves";
 
 export const TeamBuilder = () => {
   const navigate = useNavigate();
@@ -35,26 +36,84 @@ export const TeamBuilder = () => {
     index: number;
   } | null>(null);
 
-  const createDefaultTeamPokemon = (pokemon: Fakemon): FakemonForTeam => ({
-    id: pokemon.id,
-    ivs: [31, 31, 31, 31, 31, 31],
-    evs: [85, 85, 85, 85, 85, 85],
-    level: 50,
-    nature: "Hardy",
-    abilityIndex_easy: 0,
-    abilityIndex_normal: 0,
-    abilityIndex_hard: 1,
-    abilityIndex_absolution: 2,
-    item_easy: "",
-    item_normal: "",
-    item_hard: "ORANBERRY",
-    item_absolution: "SITRUSBERRY",
-    moves_easy: [],
-    moves_normal: [],
-    moves_hard: [],
-    moves_absolution: [],
-    randomId: Math.random().toString(36).substring(2, 15),
-  });
+  const pickDefaultMovesForLevel = (
+    moves: Fakemon["moves"] | undefined,
+    level: number,
+  ) => {
+    const normalized = normalizeLevelUpMoves(moves);
+    if (normalized.length === 0) {
+      return ["", "", "", ""];
+    }
+
+    const clampedLevel = Math.max(1, Math.min(100, Math.floor(level)));
+    const allLevelsUnknown = normalized.every((m) => m.level === 0);
+
+    if (allLevelsUnknown) {
+      const uniqueMoveIds: string[] = [];
+      for (const entry of normalized) {
+        if (!uniqueMoveIds.includes(entry.move)) {
+          uniqueMoveIds.push(entry.move);
+        }
+      }
+
+      if (uniqueMoveIds.length === 0) return ["", "", "", ""];
+
+      const learnedCount = Math.max(
+        1,
+        Math.min(
+          uniqueMoveIds.length,
+          Math.round((clampedLevel / 100) * uniqueMoveIds.length),
+        ),
+      );
+      const learnedMoves = uniqueMoveIds.slice(0, learnedCount);
+      const lastFour = learnedMoves.slice(-4);
+      while (lastFour.length < 4) lastFour.unshift("");
+      return lastFour;
+    }
+
+    const sorted = [...normalized].sort((a, b) => a.level - b.level);
+
+    const learnable = sorted.filter((m) => m.level <= clampedLevel);
+    const chosenPool = learnable.length > 0 ? learnable : sorted;
+
+    const uniqueMoveIds: string[] = [];
+    for (const entry of chosenPool) {
+      if (!uniqueMoveIds.includes(entry.move)) {
+        uniqueMoveIds.push(entry.move);
+      }
+    }
+
+    const lastFour = uniqueMoveIds.slice(-4);
+    while (lastFour.length < 4) lastFour.unshift("");
+    return lastFour;
+  };
+
+  const createDefaultTeamPokemon = (pokemon: Fakemon): FakemonForTeam => {
+    const level = trainer.defaultTeamLevel ?? 50;
+    const pokemonData = getPokemonData(pokemon.id);
+    const defaultMoves = pickDefaultMovesForLevel(pokemonData?.moves, level);
+
+    return {
+      id: pokemon.id,
+      ivs: [31, 31, 31, 31, 31, 31],
+      evs: [85, 85, 85, 85, 85, 85],
+      level,
+      nature: "Hardy",
+      abilityIndex_easy: 0,
+      abilityIndex_normal: 0,
+      abilityIndex_hard: 1,
+      abilityIndex_absolution: 2,
+      item_easy: "",
+      item_normal: "",
+      item_hard: "ORANBERRY",
+      item_absolution: "SITRUSBERRY",
+      moves_easy: defaultMoves,
+      moves_normal: defaultMoves,
+      moves_hard: defaultMoves,
+      moves_absolution: defaultMoves,
+      randomId: Math.random().toString(36).substring(2, 15),
+    };
+  };
 
   const handleAddPokemon = (pokemon: Fakemon) => {
     const teamPokemon = createDefaultTeamPokemon(pokemon);

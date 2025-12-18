@@ -13,6 +13,7 @@ interface TrainerData {
   name: string;
   loseText: string;
   startText: string;
+  defaultTeamLevel: number;
 }
 
 interface TeamBuilderContextType {
@@ -33,12 +34,45 @@ export const TeamBuilderContext = createContext<
 export const TeamBuilderProvider: React.FC<{ children: ReactNode }> = ({
   children,
 }) => {
-  const [team, setTeam] = useState<FakemonForTeam[]>([]);
-  const [trainer, setTrainer] = useState<TrainerData>({
+  const defaultTrainer: TrainerData = {
     trainerID: "YOUNGSTER",
     name: "New Trainer",
     loseText: "I lost!",
     startText: "Let's battle!",
+    defaultTeamLevel: 50,
+  };
+
+  const [team, setTeam] = useState<FakemonForTeam[]>(() => {
+    try {
+      const savedTeam = localStorage.getItem("pokemon-team");
+      if (!savedTeam) return [];
+      const parsedTeam = JSON.parse(savedTeam) as FakemonForTeam[];
+      return Array.isArray(parsedTeam) ? parsedTeam : [];
+    } catch {
+      return [];
+    }
+  });
+
+  const [trainer, setTrainer] = useState<TrainerData>(() => {
+    try {
+      const savedTrainer = localStorage.getItem("pokemon-trainer");
+      if (!savedTrainer) return defaultTrainer;
+
+      const parsedTrainer = JSON.parse(savedTrainer) as Partial<TrainerData>;
+      if (!parsedTrainer || typeof parsedTrainer !== "object")
+        return defaultTrainer;
+
+      return {
+        ...defaultTrainer,
+        ...parsedTrainer,
+        defaultTeamLevel:
+          typeof parsedTrainer.defaultTeamLevel === "number"
+            ? parsedTrainer.defaultTeamLevel
+            : defaultTrainer.defaultTeamLevel,
+      };
+    } catch {
+      return defaultTrainer;
+    }
   });
 
   // Save team to localStorage whenever it changes

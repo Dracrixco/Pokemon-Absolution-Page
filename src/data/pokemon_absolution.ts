@@ -23,17 +23,50 @@ export const fakemons: Fakemon[] = [
     hiddenAbilities: ["JUNGLEPROTECTOR"],
     category: "???",
     moves: [
-      "TACKLE",
-      "BLOCK",
-      "BRANCHPOKE",
-      "SMACKDOWN",
-      "PROTOSHIELD",
-      "MAGNITUDE",
-      "GRASSYGLIDE",
-      "GRASSYTERRAIN",
-      "ANCIENTPOWER",
-      "IRONDEFENSE",
-      "DIG",
+      {
+        level: 1,
+        move: "TACKLE",
+      },
+      {
+        level: 4,
+        move: "BLOCK",
+      },
+      {
+        level: 6,
+        move: "BRANCHPOKE",
+      },
+      {
+        level: 9,
+        move: "SMACKDOWN",
+      },
+      {
+        level: 11,
+        move: "PROTOSHIELD",
+      },
+      {
+        level: 12,
+        move: "MAGNITUDE",
+      },
+      {
+        level: 14,
+        move: "GRASSYGLIDE",
+      },
+      {
+        level: 18,
+        move: "GRASSYTERRAIN",
+      },
+      {
+        level: 20,
+        move: "ANCIENTPOWER",
+      },
+      {
+        level: 23,
+        move: "IRONDEFENSE",
+      },
+      {
+        level: 25,
+        move: "DIG",
+      },
     ],
     tutorMoves: [
       "FLOWERFANG",
@@ -166,25 +199,82 @@ export const fakemons: Fakemon[] = [
     hiddenAbilities: ["JUNGLEPROTECTOR"],
     category: "???",
     moves: [
-      "TACKLE",
-      "BLOCK",
-      "BRANCHPOKE",
-      "SMACKDOWN",
-      "PROTOSHIELD",
-      "MAGNITUDE",
-      "GRASSYGLIDE",
-      "GRASSYTERRAIN",
-      "ANCIENTPOWER",
-      "IRONDEFENSE",
-      "DIG",
-      "HORNLEECH",
-      "INGRAIN",
-      "BELLYDRUM",
-      "WILDPUNCH",
-      "SEEDBOMB",
-      "SPIKES",
-      "EARTHQUAKE",
-      "STOMP",
+      {
+        level: 1,
+        move: "TACKLE",
+      },
+      {
+        level: 4,
+        move: "BLOCK",
+      },
+      {
+        level: 6,
+        move: "BRANCHPOKE",
+      },
+      {
+        level: 9,
+        move: "SMACKDOWN",
+      },
+      {
+        level: 11,
+        move: "PROTOSHIELD",
+      },
+      {
+        level: 12,
+        move: "MAGNITUDE",
+      },
+      {
+        level: 14,
+        move: "GRASSYGLIDE",
+      },
+      {
+        level: 18,
+        move: "GRASSYTERRAIN",
+      },
+      {
+        level: 20,
+        move: "ANCIENTPOWER",
+      },
+      {
+        level: 23,
+        move: "IRONDEFENSE",
+      },
+      {
+        level: 25,
+        move: "DIG",
+      },
+      {
+        level: 27,
+        move: "HORNLEECH",
+      },
+      {
+        level: 29,
+        move: "INGRAIN",
+      },
+      {
+        level: 32,
+        move: "BELLYDRUM",
+      },
+      {
+        level: 34,
+        move: "WILDPUNCH",
+      },
+      {
+        level: 36,
+        move: "SEEDBOMB",
+      },
+      {
+        level: 39,
+        move: "SPIKES",
+      },
+      {
+        level: 41,
+        move: "EARTHQUAKE",
+      },
+      {
+        level: 43,
+        move: "STOMP",
+      },
     ],
     tutorMoves: [
       "FLOWERFANG",
@@ -308,16 +398,46 @@ export const fakemons: Fakemon[] = [
     hiddenAbilities: ["TOTHELIMIT"],
     category: "???",
     moves: [
-      "SCRATCH",
-      "SANDATTACK",
-      "PECK",
-      "EMBER",
-      "TOUCHTHELIMIT",
-      "EXPLOSIVEFEATHER",
-      "FLAMECHARGE",
-      "DOUBLEKICK",
-      "WHIRLWIND",
-      "INCINERATE",
+      {
+        level: 1,
+        move: "SCRATCH",
+      },
+      {
+        level: 2,
+        move: "SANDATTACK",
+      },
+      {
+        level: 8,
+        move: "PECK",
+      },
+      {
+        level: 10,
+        move: "EMBER",
+      },
+      {
+        level: 12,
+        move: "TOUCHTHELIMIT",
+      },
+      {
+        level: 14,
+        move: "EXPLOSIVEFEATHER",
+      },
+      {
+        level: 18,
+        move: "FLAMECHARGE",
+      },
+      {
+        level: 21,
+        move: "DOUBLEKICK",
+      },
+      {
+        level: 24,
+        move: "WHIRLWIND",
+      },
+      {
+        level: 26,
+        move: "INCINERATE",
+      },
     ],
     tutorMoves: [
       "PLUCK",
@@ -456,21 +576,66 @@ export const fakemons: Fakemon[] = [
     hiddenAbilities: ["TOTHELIMIT"],
     category: "???",
     moves: [
-      "SCRATCH",
-      "SANDATTACK",
-      "PECK",
-      "EMBER",
-      "TOUCHTHELIMIT",
-      "EXPLOSIVEFEATHER",
-      "FLAMECHARGE",
-      "DOUBLEKICK",
-      "WHIRLWIND",
-      "INCINERATE",
-      "WINGATTACK",
-      "DETECT",
-      "SCREECH",
-      "BURNTHELIMIT",
-      "FACADE",
+      {
+        level: 1,
+        move: "SCRATCH",
+      },
+      {
+        level: 2,
+        move: "SANDATTACK",
+      },
+      {
+        level: 8,
+        move: "PECK",
+      },
+      {
+        level: 10,
+        move: "EMBER",
+      },
+      {
+        level: 12,
+        move: "TOUCHTHELIMIT",
+      },
+      {
+        level: 14,
+        move: "EXPLOSIVEFEATHER",
+      },
+      {
+        level: 18,
+        move: "FLAMECHARGE",
+      },
+      {
+        level: 21,
+        move: "DOUBLEKICK",
+      },
+      {
+        level: 24,
+        move: "WHIRLWIND",
+      },
+      {
+        level: 26,
+        move: "INCINERATE",
+      },
+      {
+        level: 29,
+        move: "WINGATTACK",
+      },
+      {
+        level: 32,
+        move: "DETECT",
+      },
+      {
+        level: 35,
+        move: "SCREECH",
+      },
+      {
+        level: 37,
+        move: "BURNTHELIMIT",
+      },
+      {
+        level: 40,
+        move: "FACADE",
+      },
     ],
     tutorMoves: [
       "PLUCK",
@@ -620,17 +785,50 @@ export const fakemons: Fakemon[] = [
     hiddenAbilities: ["NEUROTOXIN"],
     category: "???",
     moves: [
-      "POUND",
-      "TAILWHIP",
-      "AQUAJET",
-      "WRAP",
-      "NULLIFYINGSMOKE",
-      "DEBILITATINGTOXIN",
-      "COIL",
-      "AGILITY",
-      "TWISTER",
-      "FLIPTURN",
-      "GASTROACID",
+      {
+        level: 1,
+        move: "POUND",
+      },
+      {
+        level: 4,
+        move: "TAILWHIP",
+      },
+      {
+        level: 6,
+        move: "AQUAJET",
+      },
+      {
+        level: 9,
+        move: "WRAP",
+      },
+      {
+        level: 11,
+        move: "NULLIFYINGSMOKE",
+      },
+      {
+        level: 12,
+        move: "DEBILITATINGTOXIN",
+      },
+      {
+        level: 14,
+        move: "COIL",
+      },
+      {
+        level: 18,
+        move: "AGILITY",
+      },
+      {
+        level: 20,
+        move: "TWISTER",
+      },
+      {
+        level: 23,
+        move: "FLIPTURN",
+      },
+      {
+        level: 25,
+        move: "GASTROACID",
+      },
     ],
     tutorMoves: [
       "AQUATAIL",
@@ -750,24 +948,78 @@ export const fakemons: Fakemon[] = [
     hiddenAbilities: ["NEUROTOXIN"],
     category: "???",
     moves: [
-      "POUND",
-      "TAILWHIP",
-      "AQUAJET",
-      "WRAP",
-      "NULLIFYINGSMOKE",
-      "DEBILITATINGTOXIN",
-      "COIL",
-      "AGILITY",
-      "TWISTER",
-      "FLIPTURN",
-      "GASTROACID",
-      "ICICLESPEAR",
-      "AQUACUTTER",
-      "ABYSSALBITE",
-      "THUNDERFANG",
-      "AQUARING",
-      "DRAGONBREATH",
-      "CROSSPOISON",
+      {
+        level: 1,
+        move: "POUND",
+      },
+      {
+        level: 4,
+        move: "TAILWHIP",
+      },
+      {
+        level: 6,
+        move: "AQUAJET",
+      },
+      {
+        level: 9,
+        move: "WRAP",
+      },
+      {
+        level: 11,
+        move: "NULLIFYINGSMOKE",
+      },
+      {
+        level: 12,
+        move: "DEBILITATINGTOXIN",
+      },
+      {
+        level: 14,
+        move: "COIL",
+      },
+      {
+        level: 18,
+        move: "AGILITY",
+      },
+      {
+        level: 20,
+        move: "TWISTER",
+      },
+      {
+        level: 23,
+        move: "FLIPTURN",
+      },
+      {
+        level: 25,
+        move: "GASTROACID",
+      },
+      {
+        level: 27,
+        move: "ICICLESPEAR",
+      },
+      {
+        level: 29,
+        move: "AQUACUTTER",
+      },
+      {
+        level: 32,
+        move: "ABYSSALBITE",
+      },
+      {
+        level: 34,
+        move: "THUNDERFANG",
+      },
+      {
+        level: 36,
+        move: "AQUARING",
+      },
+      {
+        level: 39,
+        move: "DRAGONBREATH",
+      },
+      {
+        level: 41,
+        move: "CROSSPOISON",
+      },
     ],
     tutorMoves: [
       "AQUATAIL",
@@ -879,32 +1131,110 @@ export const fakemons: Fakemon[] = [
     hiddenAbilities: ["VAMP"],
     category: "Cat",
     moves: [
-      "TACKLE",
-      "ATTRACT",
-      "FURYATTACK",
-      "LICK",
-      "SEDUCTION",
-      "ECHOEDVOICE",
-      "FAKEOUT",
-      "SHADOWSNEAK",
-      "DISARMINGVOICE",
-      "PAYBACK",
-      "LUCKYCHANT",
-      "BITE",
-      "AGILITY",
-      "FEINTATTACK",
-      "LOCKON",
-      "HEX",
-      "KNOCKOFF",
-      "LOVEBREAKUP",
-      "SLASH",
-      "SHADOWCLAW",
-      "NIGHTSLASH",
-      "LASHOUT",
-      "EXTREMESPEED",
-      "CRUNCH",
-      "DESTINYBOND",
-      "HYPERVOICE",
+      {
+        level: 1,
+        move: "TACKLE",
+      },
+      {
+        level: 4,
+        move: "ATTRACT",
+      },
+      {
+        level: 6,
+        move: "FURYATTACK",
+      },
+      {
+        level: 9,
+        move: "LICK",
+      },
+      {
+        level: 11,
+        move: "SEDUCTION",
+      },
+      {
+        level: 13,
+        move: "ECHOEDVOICE",
+      },
+      {
+        level: 16,
+        move: "FAKEOUT",
+      },
+      {
+        level: 18,
+        move: "SHADOWSNEAK",
+      },
+      {
+        level: 20,
+        move: "DISARMINGVOICE",
+      },
+      {
+        level: 23,
+        move: "PAYBACK",
+      },
+      {
+        level: 25,
+        move: "LUCKYCHANT",
+      },
+      {
+        level: 27,
+        move: "BITE",
+      },
+      {
+        level: 29,
+        move: "AGILITY",
+      },
+      {
+        level: 32,
+        move: "FEINTATTACK",
+      },
+      {
+        level: 34,
+        move: "LOCKON",
+      },
+      {
+        level: 36,
+        move: "HEX",
+      },
+      {
+        level: 39,
+        move: "KNOCKOFF",
+      },
+      {
+        level: 41,
+        move: "LOVEBREAKUP",
+      },
+      {
+        level: 43,
+        move: "SLASH",
+      },
+      {
+        level: 46,
+        move: "SHADOWCLAW",
+      },
+      {
+        level: 48,
+        move: "NIGHTSLASH",
+      },
+      {
+        level: 50,
+        move: "LASHOUT",
+      },
+      {
+        level: 53,
+        move: "EXTREMESPEED",
+      },
+      {
+        level: 55,
+        move: "CRUNCH",
+      },
+      {
+        level: 57,
+        move: "DESTINYBOND",
+      },
+      {
+        level: 59,
+        move: "HYPERVOICE",
+      },
     ],
     tutorMoves: [
       "FLOWERFANG",
@@ -981,32 +1311,110 @@ export const fakemons: Fakemon[] = [
     hiddenAbilities: ["TAILWINDBLESS"],
     category: "Bald Bird",
     moves: [
-      "GROWL",
-      "PECK",
-      "GUST",
-      "FAIRYWIND",
-      "CURSE",
-      "PURSUIT",
-      "AERIALACE",
-      "MOONLIGHT",
-      "SHAMANBLESSING",
-      "BEATUP",
-      "REFLECT",
-      "CRUSHCLAW",
-      "METALSOUND",
-      "TAILWIND",
-      "MEDITATE",
-      "SLASH",
-      "DAZZLINGGLEAM",
-      "DRAGONCLAW",
-      "ROOST",
-      "PLAYROUGH",
-      "AEROBLAST",
-      "DRAGONSLAYER",
-      "DRAGONRUSH",
-      "PERISHSONG",
-      "PUNISHMENT",
-      "MIRRORMOVE",
+      {
+        level: 1,
+        move: "GROWL",
+      },
+      {
+        level: 5,
+        move: "PECK",
+      },
+      {
+        level: 7,
+        move: "GUST",
+      },
+      {
+        level: 9,
+        move: "FAIRYWIND",
+      },
+      {
+        level: 11,
+        move: "CURSE",
+      },
+      {
+        level: 13,
+        move: "PURSUIT",
+      },
+      {
+        level: 16,
+        move: "AERIALACE",
+      },
+      {
+        level: 18,
+        move: "MOONLIGHT",
+      },
+      {
+        level: 20,
+        move: "SHAMANBLESSING",
+      },
+      {
+        level: 23,
+        move: "BEATUP",
+      },
+      {
+        level: 25,
+        move: "REFLECT",
+      },
+      {
+        level: 27,
+        move: "CRUSHCLAW",
+      },
+      {
+        level: 29,
+        move: "METALSOUND",
+      },
+      {
+        level: 32,
+        move: "TAILWIND",
+      },
+      {
+        level: 34,
+        move: "MEDITATE",
+      },
+      {
+        level: 36,
+        move: "SLASH",
+      },
+      {
+        level: 39,
+        move: "DAZZLINGGLEAM",
+      },
+      {
+        level: 41,
+        move: "DRAGONCLAW",
+      },
+      {
+        level: 43,
+        move: "ROOST",
+      },
+      {
+        level: 46,
+        move: "PLAYROUGH",
+      },
+      {
+        level: 48,
+        move: "AEROBLAST",
+      },
+      {
+        level: 50,
+        move: "DRAGONSLAYER",
+      },
+      {
+        level: 52,
+        move: "DRAGONRUSH",
+      },
+      {
+        level: 55,
+        move: "PERISHSONG",
+      },
+      {
+        level: 57,
+        move: "PUNISHMENT",
+      },
+      {
+        level: 59,
+        move: "MIRRORMOVE",
+      },
     ],
     tutorMoves: [
       "AERIALACE",
@@ -1083,32 +1491,110 @@ export const fakemons: Fakemon[] = [
     hiddenAbilities: ["TAILWINDBLESS"],
     category: "Shaman",
     moves: [
-      "PECK",
-      "GROWL",
-      "GUST",
-      "FAIRYWIND",
-      "CURSE",
-      "PURSUIT",
-      "MOONLIGHT",
-      "SHAMANBLESSING",
-      "AERIALACE",
-      "BEATUP",
-      "REFLECT",
-      "CRUSHCLAW",
-      "METALSOUND",
-      "TAILWIND",
-      "MEDITATE",
-      "SLASH",
-      "DAZZLINGGLEAM",
-      "DRAGONCLAW",
-      "ROOST",
-      "PLAYROUGH",
-      "AEROBLAST",
-      "DRAGONSLAYER",
-      "DRAGONRUSH",
-      "PERISHSONG",
-      "PUNISHMENT",
-      "MIRRORMOVE",
+      {
+        level: 1,
+        move: "PECK",
+      },
+      {
+        level: 4,
+        move: "GROWL",
+      },
+      {
+        level: 6,
+        move: "GUST",
+      },
+      {
+        level: 9,
+        move: "FAIRYWIND",
+      },
+      {
+        level: 11,
+        move: "CURSE",
+      },
+      {
+        level: 13,
+        move: "PURSUIT",
+      },
+      {
+        level: 16,
+        move: "MOONLIGHT",
+      },
+      {
+        level: 18,
+        move: "SHAMANBLESSING",
+      },
+      {
+        level: 20,
+        move: "AERIALACE",
+      },
+      {
+        level: 23,
+        move: "BEATUP",
+      },
+      {
+        level: 25,
+        move: "REFLECT",
+      },
+      {
+        level: 27,
+        move: "CRUSHCLAW",
+      },
+      {
+        level: 29,
+        move: "METALSOUND",
+      },
+      {
+        level: 32,
+        move: "TAILWIND",
+      },
+      {
+        level: 34,
+        move: "MEDITATE",
+      },
+      {
+        level: 36,
+        move: "SLASH",
+      },
+      {
+        level: 39,
+        move: "DAZZLINGGLEAM",
+      },
+      {
+        level: 41,
+        move: "DRAGONCLAW",
+      },
+      {
+        level: 43,
+        move: "ROOST",
+      },
+      {
+        level: 46,
+        move: "PLAYROUGH",
+      },
+      {
+        level: 48,
+        move: "AEROBLAST",
+      },
+      {
+        level: 50,
+        move: "DRAGONSLAYER",
+      },
+      {
+        level: 52,
+        move: "DRAGONRUSH",
+      },
+      {
+        level: 55,
+        move: "PERISHSONG",
+      },
+      {
+        level: 57,
+        move: "PUNISHMENT",
+      },
+      {
+        level: 59,
+        move: "MIRRORMOVE",
+      },
     ],
     tutorMoves: [
       "AERIALACE",
@@ -1185,32 +1671,110 @@ export const fakemons: Fakemon[] = [
     hiddenAbilities: ["TAILWINDBLESS"],
     category: "Shaman",
     moves: [
-      "PECK",
-      "GROWL",
-      "GUST",
-      "FAIRYWIND",
-      "CURSE",
-      "PURSUIT",
-      "MOONLIGHT",
-      "SHAMANBLESSING",
-      "AERIALACE",
-      "BEATUP",
-      "REFLECT",
-      "CRUSHCLAW",
-      "METALSOUND",
-      "TAILWIND",
-      "MEDITATE",
-      "SLASH",
-      "DAZZLINGGLEAM",
-      "DRAGONCLAW",
-      "ROOST",
-      "PLAYROUGH",
-      "AEROBLAST",
-      "DRAGONSLAYER",
-      "DRAGONRUSH",
-      "PERISHSONG",
-      "PUNISHMENT",
-      "MIRRORMOVE",
+      {
+        level: 1,
+        move: "PECK",
+      },
+      {
+        level: 4,
+        move: "GROWL",
+      },
+      {
+        level: 6,
+        move: "GUST",
+      },
+      {
+        level: 9,
+        move: "FAIRYWIND",
+      },
+      {
+        level: 11,
+        move: "CURSE",
+      },
+      {
+        level: 13,
+        move: "PURSUIT",
+      },
+      {
+        level: 16,
+        move: "MOONLIGHT",
+      },
+      {
+        level: 18,
+        move: "SHAMANBLESSING",
+      },
+      {
+        level: 20,
+        move: "AERIALACE",
+      },
+      {
+        level: 23,
+        move: "BEATUP",
+      },
+      {
+        level: 25,
+        move: "REFLECT",
+      },
+      {
+        level: 27,
+        move: "CRUSHCLAW",
+      },
+      {
+        level: 29,
+        move: "METALSOUND",
+      },
+      {
+        level: 32,
+        move: "TAILWIND",
+      },
+      {
+        level: 34,
+        move: "MEDITATE",
+      },
+      {
+        level: 36,
+        move: "SLASH",
+      },
+      {
+        level: 39,
+        move: "DAZZLINGGLEAM",
+      },
+      {
+        level: 41,
+        move: "DRAGONCLAW",
+      },
+      {
+        level: 43,
+        move: "ROOST",
+      },
+      {
+        level: 46,
+        move: "PLAYROUGH",
+      },
+      {
+        level: 48,
+        move: "AEROBLAST",
+      },
+      {
+        level: 50,
+        move: "DRAGONSLAYER",
+      },
+      {
+        level: 52,
+        move: "DRAGONRUSH",
+      },
+      {
+        level: 55,
+        move: "PERISHSONG",
+      },
+      {
+        level: 57,
+        move: "PUNISHMENT",
+      },
+      {
+        level: 59,
+        move: "MIRRORMOVE",
+      },
     ],
     tutorMoves: [
       "AERIALACE",
@@ -1281,24 +1845,78 @@ export const fakemons: Fakemon[] = [
     hiddenAbilities: [],
     category: "???",
     moves: [
-      "TACKLE",
-      "STRINGSHOT",
-      "SLEEPPOWDER",
-      "ABSORB",
-      "BUGBITE",
-      "FAIRYWIND",
-      "STICKYWEB",
-      "SILKBOMB",
-      "SILVERWIND",
-      "SYRUPBOMB",
-      "SILKYCOCOON",
-      "TAUNT",
-      "GIGADRAIN",
-      "DEFENDORDER",
-      "ECHOEDVOICE",
-      "POLLENPUFF",
-      "SUPERSONIC",
-      "QUIVERDANCE",
+      {
+        level: 1,
+        move: "TACKLE",
+      },
+      {
+        level: 6,
+        move: "STRINGSHOT",
+      },
+      {
+        level: 10,
+        move: "SLEEPPOWDER",
+      },
+      {
+        level: 13,
+        move: "ABSORB",
+      },
+      {
+        level: 16,
+        move: "BUGBITE",
+      },
+      {
+        level: 20,
+        move: "FAIRYWIND",
+      },
+      {
+        level: 23,
+        move: "STICKYWEB",
+      },
+      {
+        level: 26,
+        move: "SILKBOMB",
+      },
+      {
+        level: 30,
+        move: "SILVERWIND",
+      },
+      {
+        level: 33,
+        move: "SYRUPBOMB",
+      },
+      {
+        level: 36,
+        move: "SILKYCOCOON",
+      },
+      {
+        level: 40,
+        move: "TAUNT",
+      },
+      {
+        level: 43,
+        move: "GIGADRAIN",
+      },
+      {
+        level: 46,
+        move: "DEFENDORDER",
+      },
+      {
+        level: 50,
+        move: "ECHOEDVOICE",
+      },
+      {
+        level: 53,
+        move: "POLLENPUFF",
+      },
+      {
+        level: 56,
+        move: "SUPERSONIC",
+      },
+      {
+        level: 60,
+        move: "QUIVERDANCE",
+      },
     ],
     tutorMoves: [
       "AERIALACE",
@@ -1387,24 +2005,78 @@ export const fakemons: Fakemon[] = [
     hiddenAbilities: [],
     category: "???",
     moves: [
-      "TACKLE",
-      "STRINGSHOT",
-      "SLEEPPOWDER",
-      "ABSORB",
-      "BUGBITE",
-      "FAIRYWIND",
-      "STICKYWEB",
-      "SILKBOMB",
-      "SILVERWIND",
-      "SYRUPBOMB",
-      "SILKYCOCOON",
-      "TAUNT",
-      "GIGADRAIN",
-      "DEFENDORDER",
-      "ECHOEDVOICE",
-      "POLLENPUFF",
-      "SUPERSONIC",
-      "QUIVERDANCE",
+      {
+        level: 1,
+        move: "TACKLE",
+      },
+      {
+        level: 6,
+        move: "STRINGSHOT",
+      },
+      {
+        level: 10,
+        move: "SLEEPPOWDER",
+      },
+      {
+        level: 13,
+        move: "ABSORB",
+      },
+      {
+        level: 16,
+        move: "BUGBITE",
+      },
+      {
+        level: 20,
+        move: "FAIRYWIND",
+      },
+      {
+        level: 23,
+        move: "STICKYWEB",
+      },
+      {
+        level: 26,
+        move: "SILKBOMB",
+      },
+      {
+        level: 30,
+        move: "SILVERWIND",
+      },
+      {
+        level: 33,
+        move: "SYRUPBOMB",
+      },
+      {
+        level: 36,
+        move: "SILKYCOCOON",
+      },
+      {
+        level: 40,
+        move: "TAUNT",
+      },
+      {
+        level: 43,
+        move: "GIGADRAIN",
+      },
+      {
+        level: 46,
+        move: "DEFENDORDER",
+      },
+      {
+        level: 50,
+        move: "ECHOEDVOICE",
+      },
+      {
+        level: 53,
+        move: "POLLENPUFF",
+      },
+      {
+        level: 56,
+        move: "SUPERSONIC",
+      },
+      {
+        level: 60,
+        move: "QUIVERDANCE",
+      },
     ],
     tutorMoves: [
       "AERIALACE",
@@ -1493,32 +2165,110 @@ export const fakemons: Fakemon[] = [
     hiddenAbilities: [],
     category: "???",
     moves: [
-      "TACKLE",
-      "STRINGSHOT",
-      "SLEEPPOWDER",
-      "ABSORB",
-      "BUGBITE",
-      "FAIRYWIND",
-      "STICKYWEB",
-      "SILKBOMB",
-      "SILVERWIND",
-      "SYRUPBOMB",
-      "SILKYCOCOON",
-      "TAUNT",
-      "DAZZLINGGLEAM",
-      "GIGADRAIN",
-      "DEFENDORDER",
-      "MISTYTERRAIN",
-      "ECHOEDVOICE",
-      "POLLENPUFF",
-      "MOONLIGHT",
-      "SUPERSONIC",
-      "QUIVERDANCE",
-      "MOONBLAST",
-      "TAILWIND",
-      "ROOST",
-      "OMINOUSWIND",
-      "AURORAVEIL",
+      {
+        level: 1,
+        move: "TACKLE",
+      },
+      {
+        level: 4,
+        move: "STRINGSHOT",
+      },
+      {
+        level: 6,
+        move: "SLEEPPOWDER",
+      },
+      {
+        level: 9,
+        move: "ABSORB",
+      },
+      {
+        level: 11,
+        move: "BUGBITE",
+      },
+      {
+        level: 13,
+        move: "FAIRYWIND",
+      },
+      {
+        level: 16,
+        move: "STICKYWEB",
+      },
+      {
+        level: 18,
+        move: "SILKBOMB",
+      },
+      {
+        level: 20,
+        move: "SILVERWIND",
+      },
+      {
+        level: 23,
+        move: "SYRUPBOMB",
+      },
+      {
+        level: 25,
+        move: "SILKYCOCOON",
+      },
+      {
+        level: 27,
+        move: "TAUNT",
+      },
+      {
+        level: 29,
+        move: "DAZZLINGGLEAM",
+      },
+      {
+        level: 32,
+        move: "GIGADRAIN",
+      },
+      {
+        level: 34,
+        move: "DEFENDORDER",
+      },
+      {
+        level: 36,
+        move: "MISTYTERRAIN",
+      },
+      {
+        level: 39,
+        move: "ECHOEDVOICE",
+      },
+      {
+        level: 41,
+        move: "POLLENPUFF",
+      },
+      {
+        level: 43,
+        move: "MOONLIGHT",
+      },
+      {
+        level: 46,
+        move: "SUPERSONIC",
+      },
+      {
+        level: 48,
+        move: "QUIVERDANCE",
+      },
+      {
+        level: 50,
+        move: "MOONBLAST",
+      },
+      {
+        level: 53,
+        move: "TAILWIND",
+      },
+      {
+        level: 55,
+        move: "ROOST",
+      },
+      {
+        level: 57,
+        move: "OMINOUSWIND",
+      },
+      {
+        level: 59,
+        move: "AURORAVEIL",
+      },
     ],
     tutorMoves: [
       "AERIALACE",
@@ -1601,32 +2351,110 @@ export const fakemons: Fakemon[] = [
     hiddenAbilities: ["STAMINA"],
     category: "Puppy",
     moves: [
-      "TACKLE",
-      "FAKETEARS",
-      "PURSUIT",
-      "DETECT",
-      "TOUCHTHELIMIT",
-      "MARTIALFANG",
-      "SUPPLICATION",
-      "WORKUP",
-      "REVENGE",
-      "AGILITY",
-      "SUCKERPUNCH",
-      "SUBSTITUTE",
-      "BEATUP",
-      "CIRCLETHROW",
-      "CRUNCH",
-      "MACHPUNCH",
-      "TORMENT",
-      "SUBMISSION",
-      "DARKESTLARIAT",
-      "SCREECH",
-      "TAUNT",
-      "DYNAMICPUNCH",
-      "ROAR",
-      "PAINSPLIT",
-      "PLAYROUGH",
-      "CLOSECOMBAT",
+      {
+        level: 1,
+        move: "TACKLE",
+      },
+      {
+        level: 4,
+        move: "FAKETEARS",
+      },
+      {
+        level: 6,
+        move: "PURSUIT",
+      },
+      {
+        level: 9,
+        move: "DETECT",
+      },
+      {
+        level: 11,
+        move: "TOUCHTHELIMIT",
+      },
+      {
+        level: 13,
+        move: "MARTIALFANG",
+      },
+      {
+        level: 16,
+        move: "SUPPLICATION",
+      },
+      {
+        level: 18,
+        move: "WORKUP",
+      },
+      {
+        level: 20,
+        move: "REVENGE",
+      },
+      {
+        level: 23,
+        move: "AGILITY",
+      },
+      {
+        level: 25,
+        move: "SUCKERPUNCH",
+      },
+      {
+        level: 27,
+        move: "SUBSTITUTE",
+      },
+      {
+        level: 29,
+        move: "BEATUP",
+      },
+      {
+        level: 32,
+        move: "CIRCLETHROW",
+      },
+      {
+        level: 34,
+        move: "CRUNCH",
+      },
+      {
+        level: 36,
+        move: "MACHPUNCH",
+      },
+      {
+        level: 39,
+        move: "TORMENT",
+      },
+      {
+        level: 41,
+        move: "SUBMISSION",
+      },
+      {
+        level: 43,
+        move: "DARKESTLARIAT",
+      },
+      {
+        level: 46,
+        move: "SCREECH",
+      },
+      {
+        level: 48,
+        move: "TAUNT",
+      },
+      {
+        level: 50,
+        move: "DYNAMICPUNCH",
+      },
+      {
+        level: 53,
+        move: "ROAR",
+      },
+      {
+        level: 55,
+        move: "PAINSPLIT",
+      },
+      {
+        level: 57,
+        move: "PLAYROUGH",
+      },
+      {
+        level: 59,
+        move: "CLOSECOMBAT",
+      },
     ],
     tutorMoves: [
       "FLOWERFANG",
@@ -1726,33 +2554,114 @@ export const fakemons: Fakemon[] = [
     hiddenAbilities: ["IRONFIST"],
     category: "Puppy",
     moves: [
-      "HAYMAKER",
-      "TACKLE",
-      "FAKETEARS",
-      "PURSUIT",
-      "DETECT",
-      "TOUCHTHELIMIT",
-      "MARTIALFANG",
-      "SUPPLICATION",
-      "WORKUP",
-      "CROSSCHOP",
-      "AGILITY",
-      "SUCKERPUNCH",
-      "SUBSTITUTE",
-      "BEATUP",
-      "CIRCLETHROW",
-      "CRUNCH",
-      "MACHPUNCH",
-      "TORMENT",
-      "SUBMISSION",
-      "DARKESTLARIAT",
-      "SCREECH",
-      "TAUNT",
-      "DYNAMICPUNCH",
-      "ROAR",
-      "PAINSPLIT",
-      "PLAYROUGH",
-      "CLOSECOMBAT",
+      {
+        level: 0,
+        move: "HAYMAKER",
+      },
+      {
+        level: 1,
+        move: "TACKLE",
+      },
+      {
+        level: 4,
+        move: "FAKETEARS",
+      },
+      {
+        level: 6,
+        move: "PURSUIT",
+      },
+      {
+        level: 9,
+        move: "DETECT",
+      },
+      {
+        level: 11,
+        move: "TOUCHTHELIMIT",
+      },
+      {
+        level: 13,
+        move: "MARTIALFANG",
+      },
+      {
+        level: 16,
+        move: "SUPPLICATION",
+      },
+      {
+        level: 18,
+        move: "WORKUP",
+      },
+      {
+        level: 20,
+        move: "CROSSCHOP",
+      },
+      {
+        level: 23,
+        move: "AGILITY",
+      },
+      {
+        level: 25,
+        move: "SUCKERPUNCH",
+      },
+      {
+        level: 27,
+        move: "SUBSTITUTE",
+      },
+      {
+        level: 29,
+        move: "BEATUP",
+      },
+      {
+        level: 32,
+        move: "CIRCLETHROW",
+      },
+      {
+        level: 34,
+        move: "CRUNCH",
+      },
+      {
+        level: 36,
+        move: "MACHPUNCH",
+      },
+      {
+        level: 39,
+        move: "TORMENT",
+      },
+      {
+        level: 41,
+        move: "SUBMISSION",
+      },
+      {
+        level: 43,
+        move: "DARKESTLARIAT",
+      },
+      {
+        level: 46,
+        move: "SCREECH",
+      },
+      {
+        level: 48,
+        move: "TAUNT",
+      },
+      {
+        level: 50,
+        move: "DYNAMICPUNCH",
+      },
+      {
+        level: 53,
+        move: "ROAR",
+      },
+      {
+        level: 55,
+        move: "PAINSPLIT",
+      },
+      {
+        level: 57,
+        move: "PLAYROUGH",
+      },
+      {
+        level: 59,
+        move: "CLOSECOMBAT",
+      },
     ],
     tutorMoves: [
       "FLOWERFANG",
@@ -1855,32 +2764,110 @@ export const fakemons: Fakemon[] = [
     hiddenAbilities: ["SNIPER"],
     category: "Otter",
     moves: [
-      "PURSUIT",
-      "MUDSLAP",
-      "WATERGUN",
-      "MUDSPORT",
-      "FEINTATTACK",
-      "CONFUSERAY",
-      "INTHESPOTLIGHT",
-      "AQUAJET",
-      "SWIFT",
-      "MUDBOMB",
-      "WATERPULSE",
-      "WATERSPORT",
-      "BULLETPUNCH",
-      "AQUARING",
-      "FLATTER",
-      "RAZORSHELL",
-      "BRICKBREAK",
-      "CRUNCH",
-      "EARTHPOWER",
-      "NASTYPLOT",
-      "MUDDYWATER",
-      "METALSOUND",
-      "SHERIFFSHOT",
-      "DRILLRUN",
-      "FLASHCANNON",
-      "HYDROPUMP",
+      {
+        level: 1,
+        move: "PURSUIT",
+      },
+      {
+        level: 4,
+        move: "MUDSLAP",
+      },
+      {
+        level: 6,
+        move: "WATERGUN",
+      },
+      {
+        level: 9,
+        move: "MUDSPORT",
+      },
+      {
+        level: 11,
+        move: "FEINTATTACK",
+      },
+      {
+        level: 13,
+        move: "CONFUSERAY",
+      },
+      {
+        level: 16,
+        move: "INTHESPOTLIGHT",
+      },
+      {
+        level: 18,
+        move: "AQUAJET",
+      },
+      {
+        level: 20,
+        move: "SWIFT",
+      },
+      {
+        level: 23,
+        move: "MUDBOMB",
+      },
+      {
+        level: 25,
+        move: "WATERPULSE",
+      },
+      {
+        level: 27,
+        move: "WATERSPORT",
+      },
+      {
+        level: 29,
+        move: "BULLETPUNCH",
+      },
+      {
+        level: 32,
+        move: "AQUARING",
+      },
+      {
+        level: 34,
+        move: "FLATTER",
+      },
+      {
+        level: 36,
+        move: "RAZORSHELL",
+      },
+      {
+        level: 39,
+        move: "BRICKBREAK",
+      },
+      {
+        level: 41,
+        move: "CRUNCH",
+      },
+      {
+        level: 43,
+        move: "EARTHPOWER",
+      },
+      {
+        level: 46,
+        move: "NASTYPLOT",
+      },
+      {
+        level: 48,
+        move: "MUDDYWATER",
+      },
+      {
+        level: 50,
+        move: "METALSOUND",
+      },
+      {
+        level: 53,
+        move: "SHERIFFSHOT",
+      },
+      {
+        level: 55,
+        move: "DRILLRUN",
+      },
+      {
+        level: 57,
+        move: "FLASHCANNON",
+      },
+      {
+        level: 59,
+        move: "HYDROPUMP",
+      },
     ],
     tutorMoves: [
       "AGILITY",
@@ -1979,32 +2966,110 @@ export const fakemons: Fakemon[] = [
     hiddenAbilities: ["SNIPER"],
     category: "Big Otter",
     moves: [
-      "PURSUIT",
-      "MUDSLAP",
-      "WATERGUN",
-      "MUDSPORT",
-      "FEINTATTACK",
-      "CONFUSERAY",
-      "INTHESPOTLIGHT",
-      "AQUAJET",
-      "SWIFT",
-      "MUDBOMB",
-      "WATERPULSE",
-      "WATERSPORT",
-      "BULLETPUNCH",
-      "AQUARING",
-      "FLATTER",
-      "RAZORSHELL",
-      "BRICKBREAK",
-      "CRUNCH",
-      "EARTHPOWER",
-      "NASTYPLOT",
-      "MUDDYWATER",
-      "METALSOUND",
-      "SHERIFFSHOT",
-      "DRILLRUN",
-      "FLASHCANNON",
-      "HYDROPUMP",
+      {
+        level: 1,
+        move: "PURSUIT",
+      },
+      {
+        level: 4,
+        move: "MUDSLAP",
+      },
+      {
+        level: 6,
+        move: "WATERGUN",
+      },
+      {
+        level: 9,
+        move: "MUDSPORT",
+      },
+      {
+        level: 11,
+        move: "FEINTATTACK",
+      },
+      {
+        level: 13,
+        move: "CONFUSERAY",
+      },
+      {
+        level: 16,
+        move: "INTHESPOTLIGHT",
+      },
+      {
+        level: 18,
+        move: "AQUAJET",
+      },
+      {
+        level: 20,
+        move: "SWIFT",
+      },
+      {
+        level: 23,
+        move: "MUDBOMB",
+      },
+      {
+        level: 25,
+        move: "WATERPULSE",
+      },
+      {
+        level: 27,
+        move: "WATERSPORT",
+      },
+      {
+        level: 29,
+        move: "BULLETPUNCH",
+      },
+      {
+        level: 32,
+        move: "AQUARING",
+      },
+      {
+        level: 34,
+        move: "FLATTER",
+      },
+      {
+        level: 36,
+        move: "RAZORSHELL",
+      },
+      {
+        level: 39,
+        move: "BRICKBREAK",
+      },
+      {
+        level: 41,
+        move: "CRUNCH",
+      },
+      {
+        level: 43,
+        move: "EARTHPOWER",
+      },
+      {
+        level: 46,
+        move: "NASTYPLOT",
+      },
+      {
+        level: 48,
+        move: "MUDDYWATER",
+      },
+      {
+        level: 50,
+        move: "METALSOUND",
+      },
+      {
+        level: 53,
+        move: "SHERIFFSHOT",
+      },
+      {
+        level: 55,
+        move: "DRILLRUN",
+      },
+      {
+        level: 57,
+        move: "FLASHCANNON",
+      },
+      {
+        level: 59,
+        move: "HYDROPUMP",
+      },
     ],
     tutorMoves: [
       "AGILITY",
@@ -2097,21 +3162,66 @@ export const fakemons: Fakemon[] = [
     hiddenAbilities: ["ROCKHEAD", "RAINCUTTER"],
     category: "Fish",
     moves: [
-      "SPLASH",
-      "TACKLE",
-      "LEER",
-      "CUT",
-      "BITE",
-      "BUBBLE",
-      "BUBBLEBEAM",
-      "WHIRLPOOL",
-      "METALCLAW",
-      "METALCLAW",
-      "METALCLAW",
-      "METALCLAW",
-      "BRINE",
-      "SCARYFACE",
-      "WATERFALL",
+      {
+        level: 1,
+        move: "SPLASH",
+      },
+      {
+        level: 1,
+        move: "TACKLE",
+      },
+      {
+        level: 7,
+        move: "LEER",
+      },
+      {
+        level: 11,
+        move: "CUT",
+      },
+      {
+        level: 13,
+        move: "BITE",
+      },
+      {
+        level: 13,
+        move: "BUBBLE",
+      },
+      {
+        level: 18,
+        move: "BUBBLEBEAM",
+      },
+      {
+        level: 23,
+        move: "WHIRLPOOL",
+      },
+      {
+        level: 26,
+        move: "METALCLAW",
+      },
+      {
+        level: 27,
+        move: "METALCLAW",
+      },
+      {
+        level: 28,
+        move: "METALCLAW",
+      },
+      {
+        level: 29,
+        move: "METALCLAW",
+      },
+      {
+        level: 30,
+        move: "BRINE",
+      },
+      {
+        level: 33,
+        move: "SCARYFACE",
+      },
+      {
+        level: 36,
+        move: "WATERFALL",
+      },
     ],
     tutorMoves: ["BOUNCE"],
     eggMoves: [],
@@ -2147,28 +3257,94 @@ export const fakemons: Fakemon[] = [
     hiddenAbilities: ["MOXIE", "RAINCUTTER"],
     category: "Atrocious",
     moves: [
-      "SPLASH",
-      "TACKLE",
-      "LEER",
-      "CUT",
-      "BITE",
-      "BUBBLE",
-      "BUBBLEBEAM",
-      "WHIRLPOOL",
-      "ICEFANG",
-      "BRINE",
-      "SCARYFACE",
-      "WATERFALL",
-      "CRUNCH",
-      "RAINDANCE",
-      "STONEAXE",
-      "AQUATAIL",
-      "DRAGONDANCE",
-      "AQUAAXE",
-      "IRONHEAD",
-      "THRASH",
-      "HYPERBEAM",
-      "IRONTAIL",
+      {
+        level: 1,
+        move: "SPLASH",
+      },
+      {
+        level: 1,
+        move: "TACKLE",
+      },
+      {
+        level: 7,
+        move: "LEER",
+      },
+      {
+        level: 11,
+        move: "CUT",
+      },
+      {
+        level: 13,
+        move: "BITE",
+      },
+      {
+        level: 13,
+        move: "BUBBLE",
+      },
+      {
+        level: 18,
+        move: "BUBBLEBEAM",
+      },
+      {
+        level: 23,
+        move: "WHIRLPOOL",
+      },
+      {
+        level: 26,
+        move: "ICEFANG",
+      },
+      {
+        level: 30,
+        move: "BRINE",
+      },
+      {
+        level: 33,
+        move: "SCARYFACE",
+      },
+      {
+        level: 36,
+        move: "WATERFALL",
+      },
+      {
+        level: 40,
+        move: "CRUNCH",
+      },
+      {
+        level: 43,
+        move: "RAINDANCE",
+      },
+      {
+        level: 46,
+        move: "STONEAXE",
+      },
+      {
+        level: 50,
+        move: "AQUATAIL",
+      },
+      {
+        level: 53,
+        move: "DRAGONDANCE",
+      },
+      {
+        level: 56,
+        move: "AQUAAXE",
+      },
+      {
+        level: 60,
+        move: "IRONHEAD",
+      },
+      {
+        level: 63,
+        move: "THRASH",
+      },
+      {
+        level: 66,
+        move: "HYPERBEAM",
+      },
+      {
+        level: 70,
+        move: "IRONTAIL",
+      },
     ],
     tutorMoves: [
       "AQUATAIL",
@@ -2280,32 +3456,110 @@ export const fakemons: Fakemon[] = [
     hiddenAbilities: ["JUSTIFIED"],
     category: "Puppy",
     moves: [
-      "QUICKATTACK",
-      "GROWL",
-      "MUDSHOT",
-      "RAGE",
-      "TRIFORCE",
-      "MARTIALFANG",
-      "METALCLAW",
-      "PAYBACK",
-      "BULKUP",
-      "MIRRORSHOT",
-      "BITE",
-      "TRIPLEKICK",
-      "ROAR",
-      "NORETREAT",
-      "STOMP",
-      "METALSOUND",
-      "NIGHTSLASH",
-      "SLASH",
-      "IRONTAIL",
-      "TRIATTACK",
-      "CRUNCH",
-      "EXTREMESPEED",
-      "EARTHQUAKE",
-      "TWILIGHTCUT",
-      "NIGHTFALL",
-      "CLOSECOMBAT",
+      {
+        level: 1,
+        move: "QUICKATTACK",
+      },
+      {
+        level: 4,
+        move: "GROWL",
+      },
+      {
+        level: 6,
+        move: "MUDSHOT",
+      },
+      {
+        level: 9,
+        move: "RAGE",
+      },
+      {
+        level: 11,
+        move: "TRIFORCE",
+      },
+      {
+        level: 13,
+        move: "MARTIALFANG",
+      },
+      {
+        level: 16,
+        move: "METALCLAW",
+      },
+      {
+        level: 18,
+        move: "PAYBACK",
+      },
+      {
+        level: 20,
+        move: "BULKUP",
+      },
+      {
+        level: 23,
+        move: "MIRRORSHOT",
+      },
+      {
+        level: 25,
+        move: "BITE",
+      },
+      {
+        level: 27,
+        move: "TRIPLEKICK",
+      },
+      {
+        level: 29,
+        move: "ROAR",
+      },
+      {
+        level: 32,
+        move: "NORETREAT",
+      },
+      {
+        level: 34,
+        move: "STOMP",
+      },
+      {
+        level: 36,
+        move: "METALSOUND",
+      },
+      {
+        level: 39,
+        move: "NIGHTSLASH",
+      },
+      {
+        level: 41,
+        move: "SLASH",
+      },
+      {
+        level: 43,
+        move: "IRONTAIL",
+      },
+      {
+        level: 46,
+        move: "TRIATTACK",
+      },
+      {
+        level: 48,
+        move: "CRUNCH",
+      },
+      {
+        level: 50,
+        move: "EXTREMESPEED",
+      },
+      {
+        level: 53,
+        move: "EARTHQUAKE",
+      },
+      {
+        level: 55,
+        move: "TWILIGHTCUT",
+      },
+      {
+        level: 57,
+        move: "NIGHTFALL",
+      },
+      {
+        level: 59,
+        move: "CLOSECOMBAT",
+      },
     ],
     tutorMoves: [
       "FLOWERFANG",
@@ -2405,32 +3659,110 @@ export const fakemons: Fakemon[] = [
     hiddenAbilities: ["JUSTIFIED"],
     category: "Hero",
     moves: [
-      "QUICKATTACK",
-      "GROWL",
-      "MUDSHOT",
-      "RAGE",
-      "TRIFORCE",
-      "MARTIALFANG",
-      "METALCLAW",
-      "PAYBACK",
-      "BULKUP",
-      "MIRRORSHOT",
-      "BITE",
-      "TRIPLEKICK",
-      "ROAR",
-      "NORETREAT",
-      "STOMP",
-      "METALSOUND",
-      "NIGHTSLASH",
-      "SLASH",
-      "IRONTAIL",
-      "TRIATTACK",
-      "CRUNCH",
-      "EXTREMESPEED",
-      "EARTHQUAKE",
-      "TWILIGHTCUT",
-      "NIGHTFALL",
-      "CLOSECOMBAT",
+      {
+        level: 1,
+        move: "QUICKATTACK",
+      },
+      {
+        level: 4,
+        move: "GROWL",
+      },
+      {
+        level: 6,
+        move: "MUDSHOT",
+      },
+      {
+        level: 9,
+        move: "RAGE",
+      },
+      {
+        level: 11,
+        move: "TRIFORCE",
+      },
+      {
+        level: 13,
+        move: "MARTIALFANG",
+      },
+      {
+        level: 16,
+        move: "METALCLAW",
+      },
+      {
+        level: 18,
+        move: "PAYBACK",
+      },
+      {
+        level: 20,
+        move: "BULKUP",
+      },
+      {
+        level: 23,
+        move: "MIRRORSHOT",
+      },
+      {
+        level: 25,
+        move: "BITE",
+      },
+      {
+        level: 27,
+        move: "TRIPLEKICK",
+      },
+      {
+        level: 29,
+        move: "ROAR",
+      },
+      {
+        level: 32,
+        move: "NORETREAT",
+      },
+      {
+        level: 34,
+        move: "STOMP",
+      },
+      {
+        level: 36,
+        move: "METALSOUND",
+      },
+      {
+        level: 39,
+        move: "NIGHTSLASH",
+      },
+      {
+        level: 41,
+        move: "SLASH",
+      },
+      {
+        level: 43,
+        move: "IRONTAIL",
+      },
+      {
+        level: 46,
+        move: "TRIATTACK",
+      },
+      {
+        level: 48,
+        move: "CRUNCH",
+      },
+      {
+        level: 50,
+        move: "EXTREMESPEED",
+      },
+      {
+        level: 53,
+        move: "EARTHQUAKE",
+      },
+      {
+        level: 55,
+        move: "TWILIGHTCUT",
+      },
+      {
+        level: 57,
+        move: "NIGHTFALL",
+      },
+      {
+        level: 59,
+        move: "CLOSECOMBAT",
+      },
     ],
     tutorMoves: [
       "FLOWERFANG",
@@ -2524,23 +3856,74 @@ export const fakemons: Fakemon[] = [
     hiddenAbilities: ["ICEKING"],
     category: "Owl",
     moves: [
-      "PECK",
-      "GROWL",
-      "TACKLE",
-      "POWDERSNOW",
-      "REFLECT",
-      "ICESHARD",
-      "DEFOG",
-      "AIRSLASH",
-      "AURORABEAM",
-      "TAKEDOWN",
-      "MOONBLAST",
-      "CRYOSWITCH",
-      "ROOST",
-      "CRYOSPEED",
-      "AURORAVEIL",
-      "ARCTICMALTREATMENT",
-      "DRILLPECK",
+      {
+        level: 1,
+        move: "PECK",
+      },
+      {
+        level: 1,
+        move: "GROWL",
+      },
+      {
+        level: 3,
+        move: "TACKLE",
+      },
+      {
+        level: 6,
+        move: "POWDERSNOW",
+      },
+      {
+        level: 9,
+        move: "REFLECT",
+      },
+      {
+        level: 12,
+        move: "ICESHARD",
+      },
+      {
+        level: 15,
+        move: "DEFOG",
+      },
+      {
+        level: 18,
+        move: "AIRSLASH",
+      },
+      {
+        level: 21,
+        move: "AURORABEAM",
+      },
+      {
+        level: 24,
+        move: "TAKEDOWN",
+      },
+      {
+        level: 27,
+        move: "MOONBLAST",
+      },
+      {
+        level: 33,
+        move: "CRYOSWITCH",
+      },
+      {
+        level: 36,
+        move: "ROOST",
+      },
+      {
+        level: 39,
+        move: "CRYOSPEED",
+      },
+      {
+        level: 42,
+        move: "AURORAVEIL",
+      },
+      {
+        level: 46,
+        move: "ARCTICMALTREATMENT",
+      },
+      {
+        level: 51,
+        move: "DRILLPECK",
+      },
     ],
     tutorMoves: [
       "PLUCK",
@@ -2639,23 +4022,74 @@ export const fakemons: Fakemon[] = [
     hiddenAbilities: ["ICEKING"],
     category: "Owl",
     moves: [
-      "PECK",
-      "GROWL",
-      "TACKLE",
-      "POWDERSNOW",
-      "REFLECT",
-      "ICESHARD",
-      "DEFOG",
-      "AIRSLASH",
-      "AURORABEAM",
-      "TAKEDOWN",
-      "MOONBLAST",
-      "CRYOSWITCH",
-      "ROOST",
-      "CRYOSPEED",
-      "AURORAVEIL",
-      "ARCTICMALTREATMENT",
-      "DRILLPECK",
+      {
+        level: 1,
+        move: "PECK",
+      },
+      {
+        level: 1,
+        move: "GROWL",
+      },
+      {
+        level: 3,
+        move: "TACKLE",
+      },
+      {
+        level: 6,
+        move: "POWDERSNOW",
+      },
+      {
+        level: 9,
+        move: "REFLECT",
+      },
+      {
+        level: 12,
+        move: "ICESHARD",
+      },
+      {
+        level: 15,
+        move: "DEFOG",
+      },
+      {
+        level: 18,
+        move: "AIRSLASH",
+      },
+      {
+        level: 21,
+        move: "AURORABEAM",
+      },
+      {
+        level: 24,
+        move: "TAKEDOWN",
+      },
+      {
+        level: 27,
+        move: "MOONBLAST",
+      },
+      {
+        level: 33,
+        move: "CRYOSWITCH",
+      },
+      {
+        level: 36,
+        move: "ROOST",
+      },
+      {
+        level: 39,
+        move: "CRYOSPEED",
+      },
+      {
+        level: 42,
+        move: "AURORAVEIL",
+      },
+      {
+        level: 46,
+        move: "ARCTICMALTREATMENT",
+      },
+      {
+        level: 51,
+        move: "DRILLPECK",
+      },
     ],
     tutorMoves: [
       "PLUCK",
@@ -2737,31 +4171,106 @@ export const fakemons: Fakemon[] = [
     hiddenAbilities: ["OVERCOAT"],
     category: "Amblypygi",
     moves: [
-      "TWINEEDLE",
-      "STRINGSHOT",
-      "POISONSTING",
-      "PURSUIT",
-      "STICKYWEB",
-      "FURYCUTTER",
-      "MUDSHOT",
-      "INFESTATION",
-      "KNOCKOFF",
-      "SPIDERWEB",
-      "STEALTHROCK",
-      "SHADOWCLAW",
-      "TORTUROUSGRAB",
-      "TAUNT",
-      "CRUNCH",
-      "SPIKES",
-      "DETECT",
-      "SILKTRAP",
-      "BEATUP",
-      "SUBSTITUTE",
-      "XSCISSOR",
-      "REFLECT",
-      "TRICKROOM",
-      "TORMENT",
-      "SCREECH",
+      {
+        level: 1,
+        move: "TWINEEDLE",
+      },
+      {
+        level: 5,
+        move: "STRINGSHOT",
+      },
+      {
+        level: 8,
+        move: "POISONSTING",
+      },
+      {
+        level: 10,
+        move: "PURSUIT",
+      },
+      {
+        level: 13,
+        move: "STICKYWEB",
+      },
+      {
+        level: 18,
+        move: "FURYCUTTER",
+      },
+      {
+        level: 21,
+        move: "MUDSHOT",
+      },
+      {
+        level: 24,
+        move: "INFESTATION",
+      },
+      {
+        level: 26,
+        move: "KNOCKOFF",
+      },
+      {
+        level: 29,
+        move: "SPIDERWEB",
+      },
+      {
+        level: 32,
+        move: "STEALTHROCK",
+      },
+      {
+        level: 35,
+        move: "SHADOWCLAW",
+      },
+      {
+        level: 37,
+        move: "TORTUROUSGRAB",
+      },
+      {
+        level: 40,
+        move: "TAUNT",
+      },
+      {
+        level: 43,
+        move: "CRUNCH",
+      },
+      {
+        level: 45,
+        move: "SPIKES",
+      },
+      {
+        level: 48,
+        move: "DETECT",
+      },
+      {
+        level: 51,
+        move: "SILKTRAP",
+      },
+      {
+        level: 53,
+        move: "BEATUP",
+      },
+      {
+        level: 56,
+        move: "SUBSTITUTE",
+      },
+      {
+        level: 59,
+        move: "XSCISSOR",
+      },
+      {
+        level: 61,
+        move: "REFLECT",
+      },
+      {
+        level: 64,
+        move: "TRICKROOM",
+      },
+      {
+        level: 67,
+        move: "TORMENT",
+      },
+      {
+        level: 70,
+        move: "SCREECH",
+      },
     ],
     tutorMoves: [
       "ACIDSPRAY",
@@ -2861,35 +4370,122 @@ export const fakemons: Fakemon[] = [
     hiddenAbilities: ["BURNEATER"],
     category: "Snake",
     moves: [
-      "CONSTRICT",
-      "DEFENSECURL",
-      "EMBER",
-      "FURYATTACK",
-      "GASTROACID",
-      "QUICKATTACK",
-      "WILLOWISP",
-      "FLAMECHARGE",
-      "PURSUIT",
-      "SCALESHOT",
-      "DETECT",
-      "DRAGONTAIL",
-      "BITE",
-      "COIL",
-      "DRAGONBREATH",
-      "EMBARGO",
-      "INTHESPOTLIGHT",
-      "FEINTATTACK",
-      "FLAMEWHEEL",
-      "FIREFANG",
-      "AGILITY",
-      "KNOCKOFF",
-      "FLAMEBURST",
-      "CRUNCH",
-      "DRAGONDANCE",
-      "HYPERFANG",
-      "DRAGONPULSE",
-      "DRAGONRUSH",
-      "OUTRAGE",
+      {
+        level: 1,
+        move: "CONSTRICT",
+      },
+      {
+        level: 5,
+        move: "DEFENSECURL",
+      },
+      {
+        level: 6,
+        move: "EMBER",
+      },
+      {
+        level: 7,
+        move: "FURYATTACK",
+      },
+      {
+        level: 9,
+        move: "GASTROACID",
+      },
+      {
+        level: 11,
+        move: "QUICKATTACK",
+      },
+      {
+        level: 13,
+        move: "WILLOWISP",
+      },
+      {
+        level: 16,
+        move: "FLAMECHARGE",
+      },
+      {
+        level: 18,
+        move: "PURSUIT",
+      },
+      {
+        level: 21,
+        move: "SCALESHOT",
+      },
+      {
+        level: 25,
+        move: "DETECT",
+      },
+      {
+        level: 26,
+        move: "DRAGONTAIL",
+      },
+      {
+        level: 28,
+        move: "BITE",
+      },
+      {
+        level: 29,
+        move: "COIL",
+      },
+      {
+        level: 29,
+        move: "DRAGONBREATH",
+      },
+      {
+        level: 33,
+        move: "EMBARGO",
+      },
+      {
+        level: 33,
+        move: "INTHESPOTLIGHT",
+      },
+      {
+        level: 35,
+        move: "FEINTATTACK",
+      },
+      {
+        level: 36,
+        move: "FLAMEWHEEL",
+      },
+      {
+        level: 38,
+        move: "FIREFANG",
+      },
+      {
+        level: 40,
+        move: "AGILITY",
+      },
+      {
+        level: 40,
+        move: "KNOCKOFF",
+      },
+      {
+        level: 42,
+        move: "FLAMEBURST",
+      },
+      {
+        level: 43,
+        move: "CRUNCH",
+      },
+      {
+        level: 44,
+        move: "DRAGONDANCE",
+      },
+      {
+        level: 45,
+        move: "HYPERFANG",
+      },
+      {
+        level: 47,
+        move: "DRAGONPULSE",
+      },
+      {
+        level: 48,
+        move: "DRAGONRUSH",
+      },
+      {
+        level: 50,
+        move: "OUTRAGE",
+      },
     ],
     tutorMoves: [
       "ACIDARMOR",
@@ -2984,35 +4580,122 @@ export const fakemons: Fakemon[] = [
     hiddenAbilities: ["BURNEATER"],
     category: "Snake",
     moves: [
-      "CONSTRICT",
-      "DEFENSECURL",
-      "EMBER",
-      "FURYATTACK",
-      "GASTROACID",
-      "QUICKATTACK",
-      "WILLOWISP",
-      "FLAMECHARGE",
-      "PURSUIT",
-      "SCALESHOT",
-      "DETECT",
-      "DRAGONTAIL",
-      "BITE",
-      "COIL",
-      "DRAGONBREATH",
-      "EMBARGO",
-      "INTHESPOTLIGHT",
-      "FEINTATTACK",
-      "FLAMEWHEEL",
-      "FIREFANG",
-      "AGILITY",
-      "KNOCKOFF",
-      "FLAMEBURST",
-      "CRUNCH",
-      "DRAGONDANCE",
-      "HYPERFANG",
-      "DRAGONPULSE",
-      "DRAGONRUSH",
-      "OUTRAGE",
+      {
+        level: 1,
+        move: "CONSTRICT",
+      },
+      {
+        level: 5,
+        move: "DEFENSECURL",
+      },
+      {
+        level: 6,
+        move: "EMBER",
+      },
+      {
+        level: 7,
+        move: "FURYATTACK",
+      },
+      {
+        level: 9,
+        move: "GASTROACID",
+      },
+      {
+        level: 11,
+        move: "QUICKATTACK",
+      },
+      {
+        level: 13,
+        move: "WILLOWISP",
+      },
+      {
+        level: 16,
+        move: "FLAMECHARGE",
+      },
+      {
+        level: 18,
+        move: "PURSUIT",
+      },
+      {
+        level: 21,
+        move: "SCALESHOT",
+      },
+      {
+        level: 25,
+        move: "DETECT",
+      },
+      {
+        level: 26,
+        move: "DRAGONTAIL",
+      },
+      {
+        level: 28,
+        move: "BITE",
+      },
+      {
+        level: 29,
+        move: "COIL",
+      },
+      {
+        level: 29,
+        move: "DRAGONBREATH",
+      },
+      {
+        level: 33,
+        move: "EMBARGO",
+      },
+      {
+        level: 33,
+        move: "INTHESPOTLIGHT",
+      },
+      {
+        level: 35,
+        move: "FEINTATTACK",
+      },
+      {
+        level: 36,
+        move: "FLAMEWHEEL",
+      },
+      {
+        level: 38,
+        move: "FIREFANG",
+      },
+      {
+        level: 40,
+        move: "AGILITY",
+      },
+      {
+        level: 40,
+        move: "KNOCKOFF",
+      },
+      {
+        level: 42,
+        move: "FLAMEBURST",
+      },
+      {
+        level: 43,
+        move: "CRUNCH",
+      },
+      {
+        level: 44,
+        move: "DRAGONDANCE",
+      },
+      {
+        level: 45,
+        move: "HYPERFANG",
+      },
+      {
+        level: 47,
+        move: "DRAGONPULSE",
+      },
+      {
+        level: 48,
+        move: "DRAGONRUSH",
+      },
+      {
+        level: 50,
+        move: "OUTRAGE",
+      },
     ],
     tutorMoves: [
       "ACIDARMOR",
@@ -3107,35 +4790,122 @@ export const fakemons: Fakemon[] = [
     hiddenAbilities: ["BURNEATER"],
     category: "Snake",
     moves: [
-      "CONSTRICT",
-      "DEFENSECURL",
-      "EMBER",
-      "FURYATTACK",
-      "GASTROACID",
-      "QUICKATTACK",
-      "WILLOWISP",
-      "FLAMECHARGE",
-      "PURSUIT",
-      "SCALESHOT",
-      "DETECT",
-      "DRAGONTAIL",
-      "BITE",
-      "COIL",
-      "DRAGONBREATH",
-      "EMBARGO",
-      "INTHESPOTLIGHT",
-      "FEINTATTACK",
-      "FLAMEWHEEL",
-      "FIREFANG",
-      "AGILITY",
-      "KNOCKOFF",
-      "FLAMEBURST",
-      "CRUNCH",
-      "DRAGONDANCE",
-      "HYPERFANG",
-      "DRAGONPULSE",
-      "DRAGONRUSH",
-      "OUTRAGE",
+      {
+        level: 1,
+        move: "CONSTRICT",
+      },
+      {
+        level: 5,
+        move: "DEFENSECURL",
+      },
+      {
+        level: 6,
+        move: "EMBER",
+      },
+      {
+        level: 7,
+        move: "FURYATTACK",
+      },
+      {
+        level: 9,
+        move: "GASTROACID",
+      },
+      {
+        level: 11,
+        move: "QUICKATTACK",
+      },
+      {
+        level: 13,
+        move: "WILLOWISP",
+      },
+      {
+        level: 16,
+        move: "FLAMECHARGE",
+      },
+      {
+        level: 18,
+        move: "PURSUIT",
+      },
+      {
+        level: 21,
+        move: "SCALESHOT",
+      },
+      {
+        level: 25,
+        move: "DETECT",
+      },
+      {
+        level: 26,
+        move: "DRAGONTAIL",
+      },
+      {
+        level: 28,
+        move: "BITE",
+      },
+      {
+        level: 29,
+        move: "COIL",
+      },
+      {
+        level: 29,
+        move: "DRAGONBREATH",
+      },
+      {
+        level: 33,
+        move: "EMBARGO",
+      },
+      {
+        level: 33,
+        move: "INTHESPOTLIGHT",
+      },
+      {
+        level: 35,
+        move: "FEINTATTACK",
+      },
+      {
+        level: 36,
+        move: "FLAMEWHEEL",
+      },
+      {
+        level: 38,
+        move: "FIREFANG",
+      },
+      {
+        level: 40,
+        move: "AGILITY",
+      },
+      {
+        level: 40,
+        move: "KNOCKOFF",
+      },
+      {
+        level: 42,
+        move: "FLAMEBURST",
+      },
+      {
+        level: 43,
+        move: "CRUNCH",
+      },
+      {
+        level: 44,
+        move: "DRAGONDANCE",
+      },
+      {
+        level: 45,
+        move: "HYPERFANG",
+      },
+      {
+        level: 47,
+        move: "DRAGONPULSE",
+      },
+      {
+        level: 48,
+        move: "DRAGONRUSH",
+      },
+      {
+        level: 50,
+        move: "OUTRAGE",
+      },
     ],
     tutorMoves: [
       "ACIDARMOR",
@@ -3224,19 +4994,58 @@ export const fakemons: Fakemon[] = [
     hiddenAbilities: ["PREDATORTRACKING", "ETERNALHUNGER"],
     category: "Quimera",
     moves: [
-      "TACKLE",
-      "HOWL",
-      "PURSUIT",
-      "LEAFAGE",
-      "MUDSPORT",
-      "QUICKATTACK",
-      "RAZORLEAF",
-      "CONFUSERAY",
-      "POISONFANG",
-      "DIG",
-      "BITE",
-      "FLOWERFANG",
-      "PREDATORYGAME",
+      {
+        level: 1,
+        move: "TACKLE",
+      },
+      {
+        level: 2,
+        move: "HOWL",
+      },
+      {
+        level: 6,
+        move: "PURSUIT",
+      },
+      {
+        level: 9,
+        move: "LEAFAGE",
+      },
+      {
+        level: 11,
+        move: "MUDSPORT",
+      },
+      {
+        level: 13,
+        move: "QUICKATTACK",
+      },
+      {
+        level: 16,
+        move: "RAZORLEAF",
+      },
+      {
+        level: 18,
+        move: "CONFUSERAY",
+      },
+      {
+        level: 20,
+        move: "POISONFANG",
+      },
+      {
+        level: 23,
+        move: "DIG",
+      },
+      {
+        level: 25,
+        move: "BITE",
+      },
+      {
+        level: 27,
+        move: "FLOWERFANG",
+      },
+      {
+        level: 35,
+        move: "PREDATORYGAME",
+      },
     ],
     tutorMoves: [
       "ACIDSPRAY",

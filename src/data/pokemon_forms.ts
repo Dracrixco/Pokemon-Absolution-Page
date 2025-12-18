@@ -23,23 +23,74 @@ export const pokemonForms: PokemonForm[] = [
     hiddenAbilities: ["THICKFAT"],
     category: "Seed",
     moves: [
-      "PETALBLIZZARD",
-      "PETALDANCE",
-      "TACKLE",
-      "GROWL",
-      "VINEWHIP",
-      "GROWTH",
-      "LEECHSEED",
-      "RAZORLEAF",
-      "POISONPOWDER",
-      "SLEEPPOWDER",
-      "SEEDBOMB",
-      "TAKEDOWN",
-      "SWEETSCENT",
-      "SYNTHESIS",
-      "WORRYSEED",
-      "POWERWHIP",
-      "SOLARBEAM",
+      {
+        level: 0,
+        move: "PETALBLIZZARD",
+      },
+      {
+        level: 1,
+        move: "PETALDANCE",
+      },
+      {
+        level: 1,
+        move: "TACKLE",
+      },
+      {
+        level: 1,
+        move: "GROWL",
+      },
+      {
+        level: 1,
+        move: "VINEWHIP",
+      },
+      {
+        level: 1,
+        move: "GROWTH",
+      },
+      {
+        level: 9,
+        move: "LEECHSEED",
+      },
+      {
+        level: 12,
+        move: "RAZORLEAF",
+      },
+      {
+        level: 15,
+        move: "POISONPOWDER",
+      },
+      {
+        level: 15,
+        move: "SLEEPPOWDER",
+      },
+      {
+        level: 20,
+        move: "SEEDBOMB",
+      },
+      {
+        level: 25,
+        move: "TAKEDOWN",
+      },
+      {
+        level: 30,
+        move: "SWEETSCENT",
+      },
+      {
+        level: 37,
+        move: "SYNTHESIS",
+      },
+      {
+        level: 44,
+        move: "WORRYSEED",
+      },
+      {
+        level: 51,
+        move: "POWERWHIP",
+      },
+      {
+        level: 58,
+        move: "SOLARBEAM",
+      },
     ],
     tutorMoves: [
       "ACIDSPRAY",
@@ -152,21 +203,66 @@ export const pokemonForms: PokemonForm[] = [
     hiddenAbilities: ["TOUGHCLAWS"],
     category: "Flame",
     moves: [
-      "AIRSLASH",
-      "DRAGONCLAW",
-      "HEATWAVE",
-      "SCRATCH",
-      "GROWL",
-      "EMBER",
-      "SMOKESCREEN",
-      "DRAGONBREATH",
-      "FIREFANG",
-      "SLASH",
-      "FLAMETHROWER",
-      "SCARYFACE",
-      "FIRESPIN",
-      "INFERNO",
-      "FLAREBLITZ",
+      {
+        level: 0,
+        move: "AIRSLASH",
+      },
+      {
+        level: 1,
+        move: "DRAGONCLAW",
+      },
+      {
+        level: 1,
+        move: "HEATWAVE",
+      },
+      {
+        level: 1,
+        move: "SCRATCH",
+      },
+      {
+        level: 1,
+        move: "GROWL",
+      },
+      {
+        level: 1,
+        move: "EMBER",
+      },
+      {
+        level: 1,
+        move: "SMOKESCREEN",
+      },
+      {
+        level: 12,
+        move: "DRAGONBREATH",
+      },
+      {
+        level: 19,
+        move: "FIREFANG",
+      },
+      {
+        level: 24,
+        move: "SLASH",
+      },
+      {
+        level: 30,
+        move: "FLAMETHROWER",
+      },
+      {
+        level: 39,
+        move: "SCARYFACE",
+      },
+      {
+        level: 46,
+        move: "FIRESPIN",
+      },
+      {
+        level: 54,
+        move: "INFERNO",
+      },
+      {
+        level: 62,
+        move: "FLAREBLITZ",
+      },
     ],
     tutorMoves: [
       "ACROBATICS",
@@ -301,21 +397,66 @@ export const pokemonForms: PokemonForm[] = [
     hiddenAbilities: ["DROUGHT"],
     category: "Flame",
     moves: [
-      "AIRSLASH",
-      "DRAGONCLAW",
-      "HEATWAVE",
-      "SCRATCH",
-      "GROWL",
-      "EMBER",
-      "SMOKESCREEN",
-      "DRAGONBREATH",
-      "FIREFANG",
-      "SLASH",
-      "FLAMETHROWER",
-      "SCARYFACE",
-      "FIRESPIN",
-      "INFERNO",
-      "FLAREBLITZ",
+      {
+        level: 0,
+        move: "AIRSLASH",
+      },
+      {
+        level: 1,
+        move: "DRAGONCLAW",
+      },
+      {
+        level: 1,
+        move: "HEATWAVE",
+      },
+      {
+        level: 1,
+        move: "SCRATCH",
+      },
+      {
+        level: 1,
+        move: "GROWL",
+      },
+      {
+        level: 1,
+        move: "EMBER",
+      },
+      {
+        level: 1,
+        move: "SMOKESCREEN",
+      },
+      {
+        level: 12,
+        move: "DRAGONBREATH",
+      },
+      {
+        level: 19,
+        move: "FIREFANG",
+      },
+      {
+        level: 24,
+        move: "SLASH",
+      },
+      {
+        level: 30,
+        move: "FLAMETHROWER",
+      },
+      {
+        level: 39,
+        move: "SCARYFACE",
+      },
+      {
+        level: 46,
+        move: "FIRESPIN",
+      },
+      {
+        level: 54,
+        move: "INFERNO",
+      },
+      {
+        level: 62,
+        move: "FLAREBLITZ",
+      },
     ],
     tutorMoves: [
       "ACROBATICS",
@@ -450,21 +591,66 @@ export const pokemonForms: PokemonForm[] = [
     hiddenAbilities: ["MEGALAUNCHER"],
     category: "Shellfish",
     moves: [
-      "FLASHCANNON",
-      "TACKLE",
-      "TAILWHIP",
-      "WATERGUN",
-      "WITHDRAW",
-      "RAPIDSPIN",
-      "BITE",
-      "WATERPULSE",
-      "PROTECT",
-      "RAINDANCE",
-      "AQUATAIL",
-      "SHELLSMASH",
-      "IRONDEFENSE",
-      "HYDROPUMP",
-      "WAVECRASH",
+      {
+        level: 0,
+        move: "FLASHCANNON",
+      },
+      {
+        level: 1,
+        move: "TACKLE",
+      },
+      {
+        level: 1,
+        move: "TAILWHIP",
+      },
+      {
+        level: 1,
+        move: "WATERGUN",
+      },
+      {
+        level: 1,
+        move: "WITHDRAW",
+      },
+      {
+        level: 9,
+        move: "RAPIDSPIN",
+      },
+      {
+        level: 12,
+        move: "BITE",
+      },
+      {
+        level: 15,
+        move: "WATERPULSE",
+      },
+      {
+        level: 20,
+        move: "PROTECT",
+      },
+      {
+        level: 25,
+        move: "RAINDANCE",
+      },
+      {
+        level: 30,
+        move: "AQUATAIL",
+      },
+      {
+        level: 35,
+        move: "SHELLSMASH",
+      },
+      {
+        level: 42,
+        move: "IRONDEFENSE",
+      },
+      {
+        level: 49,
+        move: "HYDROPUMP",
+      },
+      {
+        level: 56,
+        move: "WAVECRASH",
+      },
     ],
     tutorMoves: [
       "AQUATAIL",
@@ -584,23 +770,74 @@ export const pokemonForms: PokemonForm[] = [
     hiddenAbilities: ["ADAPTABILITY"],
     category: "Poison Bee",
     moves: [
-      "FURYATTACK",
-      "HARDEN",
-      "POISONSTING",
-      "STRINGSHOT",
-      "BUGBITE",
-      "FURYCUTTER",
-      "LASERFOCUS",
-      "POISONSTING",
-      "FOCUSENERGY",
-      "VENOSHOCK",
-      "ASSURANCE",
-      "TOXICSPIKES",
-      "PINMISSILE",
-      "POISONJAB",
-      "AGILITY",
-      "ENDEAVOR",
-      "FELLSTINGER",
+      {
+        level: 0,
+        move: "FURYATTACK",
+      },
+      {
+        level: 1,
+        move: "HARDEN",
+      },
+      {
+        level: 1,
+        move: "POISONSTING",
+      },
+      {
+        level: 1,
+        move: "STRINGSHOT",
+      },
+      {
+        level: 1,
+        move: "BUGBITE",
+      },
+      {
+        level: 11,
+        move: "FURYCUTTER",
+      },
+      {
+        level: 14,
+        move: "LASERFOCUS",
+      },
+      {
+        level: 17,
+        move: "POISONSTING",
+      },
+      {
+        level: 20,
+        move: "FOCUSENERGY",
+      },
+      {
+        level: 23,
+        move: "VENOSHOCK",
+      },
+      {
+        level: 26,
+        move: "ASSURANCE",
+      },
+      {
+        level: 29,
+        move: "TOXICSPIKES",
+      },
+      {
+        level: 32,
+        move: "PINMISSILE",
+      },
+      {
+        level: 35,
+        move: "POISONJAB",
+      },
+      {
+        level: 38,
+        move: "AGILITY",
+      },
+      {
+        level: 41,
+        move: "ENDEAVOR",
+      },
+      {
+        level: 44,
+        move: "FELLSTINGER",
+      },
     ],
     tutorMoves: [
       "ACROBATICS",
@@ -694,24 +931,78 @@ export const pokemonForms: PokemonForm[] = [
     hiddenAbilities: ["NOGUARD"],
     category: "Bird",
     moves: [
-      "HURRICANE",
-      "TACKLE",
-      "SANDATTACK",
-      "GUST",
-      "QUICKATTACK",
-      "SANDATTACK",
-      "GUST",
-      "QUICKATTACK",
-      "WHIRLWIND",
-      "TWISTER",
-      "FEATHERDANCE",
-      "AGILITY",
-      "WINGATTACK",
-      "ROOST",
-      "TAILWIND",
-      "AERIALACE",
-      "AIRSLASH",
-      "HURRICANE",
+      {
+        level: 1,
+        move: "HURRICANE",
+      },
+      {
+        level: 1,
+        move: "TACKLE",
+      },
+      {
+        level: 1,
+        move: "SANDATTACK",
+      },
+      {
+        level: 1,
+        move: "GUST",
+      },
+      {
+        level: 1,
+        move: "QUICKATTACK",
+      },
+      {
+        level: 5,
+        move: "SANDATTACK",
+      },
+      {
+        level: 9,
+        move: "GUST",
+      },
+      {
+        level: 13,
+        move: "QUICKATTACK",
+      },
+      {
+        level: 17,
+        move: "WHIRLWIND",
+      },
+      {
+        level: 22,
+        move: "TWISTER",
+      },
+      {
+        level: 27,
+        move: "FEATHERDANCE",
+      },
+      {
+        level: 32,
+        move: "AGILITY",
+      },
+      {
+        level: 38,
+        move: "WINGATTACK",
+      },
+      {
+        level: 44,
+        move: "ROOST",
+      },
+      {
+        level: 50,
+        move: "TAILWIND",
+      },
+      {
+        level: 56,
+        move: "AERIALACE",
+      },
+      {
+        level: 62,
+        move: "AIRSLASH",
+      },
+      {
+        level: 68,
+        move: "HURRICANE",
+      },
     ],
     tutorMoves: [
       "AERIALACE",
@@ -789,19 +1080,58 @@ export const pokemonForms: PokemonForm[] = [
     hiddenAbilities: ["THICKFAT"],
     category: "Mouse",
     moves: [
-      "TACKLE",
-      "TAILWHIP",
-      "QUICKATTACK",
-      "FOCUSENERGY",
-      "BITE",
-      "LASERFOCUS",
-      "TAKEDOWN",
-      "ASSURANCE",
-      "CRUNCH",
-      "SUCKERPUNCH",
-      "SUPERFANG",
-      "DOUBLEEDGE",
-      "ENDEAVOR",
+      {
+        level: 1,
+        move: "TACKLE",
+      },
+      {
+        level: 1,
+        move: "TAILWHIP",
+      },
+      {
+        level: 4,
+        move: "QUICKATTACK",
+      },
+      {
+        level: 7,
+        move: "FOCUSENERGY",
+      },
+      {
+        level: 10,
+        move: "BITE",
+      },
+      {
+        level: 13,
+        move: "LASERFOCUS",
+      },
+      {
+        level: 16,
+        move: "TAKEDOWN",
+      },
+      {
+        level: 19,
+        move: "ASSURANCE",
+      },
+      {
+        level: 22,
+        move: "CRUNCH",
+      },
+      {
+        level: 25,
+        move: "SUCKERPUNCH",
+      },
+      {
+        level: 28,
+        move: "SUPERFANG",
+      },
+      {
+        level: 31,
+        move: "DOUBLEEDGE",
+      },
+      {
+        level: 34,
+        move: "ENDEAVOR",
+      },
     ],
     tutorMoves: [
       "ATTRACT",
@@ -912,23 +1242,74 @@ export const pokemonForms: PokemonForm[] = [
     hiddenAbilities: ["THICKFAT"],
     category: "Mouse",
     moves: [
-      "SCARYFACE",
-      "SWORDSDANCE",
-      "TACKLE",
-      "TAILWHIP",
-      "QUICKATTACK",
-      "FOCUSENERGY",
-      "QUICKATTACK",
-      "FOCUSENERGY",
-      "BITE",
-      "LASERFOCUS",
-      "TAKEDOWN",
-      "ASSURANCE",
-      "CRUNCH",
-      "SUCKERPUNCH",
-      "SUPERFANG",
-      "DOUBLEEDGE",
-      "ENDEAVOR",
+      {
+        level: 0,
+        move: "SCARYFACE",
+      },
+      {
+        level: 1,
+        move: "SWORDSDANCE",
+      },
+      {
+        level: 1,
+        move: "TACKLE",
+      },
+      {
+        level: 1,
+        move: "TAILWHIP",
+      },
+      {
+        level: 1,
+        move: "QUICKATTACK",
+      },
+      {
+        level: 1,
+        move: "FOCUSENERGY",
+      },
+      {
+        level: 4,
+        move: "QUICKATTACK",
+      },
+      {
+        level: 7,
+        move: "FOCUSENERGY",
+      },
+      {
+        level: 10,
+        move: "BITE",
+      },
+      {
+        level: 13,
+        move: "LASERFOCUS",
+      },
+      {
+        level: 16,
+        move: "TAKEDOWN",
+      },
+      {
+        level: 19,
+        move: "ASSURANCE",
+      },
+      {
+        level: 24,
+        move: "CRUNCH",
+      },
+      {
+        level: 29,
+        move: "SUCKERPUNCH",
+      },
+      {
+        level: 34,
+        move: "SUPERFANG",
+      },
+      {
+        level: 39,
+        move: "DOUBLEEDGE",
+      },
+      {
+        level: 44,
+        move: "ENDEAVOR",
+      },
     ],
     tutorMoves: [
       "ATTRACT",
@@ -1032,26 +1413,86 @@ export const pokemonForms: PokemonForm[] = [
     hiddenAbilities: ["SURGESURFER"],
     category: "Mouse",
     moves: [
-      "PSYCHIC",
-      "PLAYNICE",
-      "NUZZLE",
-      "NASTYPLOT",
-      "CHARM",
-      "THUNDERWAVE",
-      "DOUBLETEAM",
-      "ELECTROBALL",
-      "FEINT",
-      "SPARK",
-      "AGILITY",
-      "IRONTAIL",
-      "DISCHARGE",
-      "LIGHTSCREEN",
-      "THUNDER",
-      "THUNDERSHOCK",
-      "TAILWHIP",
-      "GROWL",
-      "QUICKATTACK",
-      "THUNDERBOLT",
+      {
+        level: 0,
+        move: "PSYCHIC",
+      },
+      {
+        level: 1,
+        move: "PLAYNICE",
+      },
+      {
+        level: 1,
+        move: "NUZZLE",
+      },
+      {
+        level: 1,
+        move: "NASTYPLOT",
+      },
+      {
+        level: 1,
+        move: "CHARM",
+      },
+      {
+        level: 1,
+        move: "THUNDERWAVE",
+      },
+      {
+        level: 1,
+        move: "DOUBLETEAM",
+      },
+      {
+        level: 1,
+        move: "ELECTROBALL",
+      },
+      {
+        level: 1,
+        move: "FEINT",
+      },
+      {
+        level: 1,
+        move: "SPARK",
+      },
+      {
+        level: 1,
+        move: "AGILITY",
+      },
+      {
+        level: 1,
+        move: "IRONTAIL",
+      },
+      {
+        level: 1,
+        move: "DISCHARGE",
+      },
+      {
+        level: 1,
+        move: "LIGHTSCREEN",
+      },
+      {
+        level: 1,
+        move: "THUNDER",
+      },
+      {
+        level: 1,
+        move: "THUNDERSHOCK",
+      },
+      {
+        level: 1,
+        move: "TAILWHIP",
+      },
+      {
+        level: 1,
+        move: "GROWL",
+      },
+      {
+        level: 1,
+        move: "QUICKATTACK",
+      },
+      {
+        level: 5,
+        move: "THUNDERBOLT",
+      },
     ],
     tutorMoves: [
       "AGILITY",
@@ -1183,23 +1624,74 @@ export const pokemonForms: PokemonForm[] = [
     hiddenAbilities: ["SLUSHRUSH"],
     category: "Mouse",
     moves: [
-      "SCRATCH",
-      "DEFENSECURL",
-      "MIST",
-      "POWDERSNOW",
-      "ROLLOUT",
-      "FURYCUTTER",
-      "RAPIDSPIN",
-      "METALCLAW",
-      "SWIFT",
-      "FURYSWIPES",
-      "IRONDEFENSE",
-      "SLASH",
-      "IRONHEAD",
-      "GYROBALL",
-      "SWORDSDANCE",
-      "SNOWSCAPE",
-      "BLIZZARD",
+      {
+        level: 1,
+        move: "SCRATCH",
+      },
+      {
+        level: 1,
+        move: "DEFENSECURL",
+      },
+      {
+        level: 3,
+        move: "MIST",
+      },
+      {
+        level: 6,
+        move: "POWDERSNOW",
+      },
+      {
+        level: 9,
+        move: "ROLLOUT",
+      },
+      {
+        level: 12,
+        move: "FURYCUTTER",
+      },
+      {
+        level: 15,
+        move: "RAPIDSPIN",
+      },
+      {
+        level: 18,
+        move: "METALCLAW",
+      },
+      {
+        level: 21,
+        move: "SWIFT",
+      },
+      {
+        level: 24,
+        move: "FURYSWIPES",
+      },
+      {
+        level: 27,
+        move: "IRONDEFENSE",
+      },
+      {
+        level: 30,
+        move: "SLASH",
+      },
+      {
+        level: 33,
+        move: "IRONHEAD",
+      },
+      {
+        level: 36,
+        move: "GYROBALL",
+      },
+      {
+        level: 39,
+        move: "SWORDSDANCE",
+      },
+      {
+        level: 42,
+        move: "SNOWSCAPE",
+      },
+      {
+        level: 45,
+        move: "BLIZZARD",
+      },
     ],
     tutorMoves: [
       "AERIALACE",
@@ -1338,26 +1830,86 @@ export const pokemonForms: PokemonForm[] = [
     hiddenAbilities: ["SLUSHRUSH"],
     category: "Mouse",
     moves: [
-      "ICICLESPEAR",
-      "SCRATCH",
-      "MIST",
-      "BLIZZARD",
-      "DEFENSECURL",
-      "SWIFT",
-      "FURYSWIPES",
-      "POWDERSNOW",
-      "ROLLOUT",
-      "FURYCUTTER",
-      "RAPIDSPIN",
-      "IRONDEFENSE",
-      "GYROBALL",
-      "METALBURST",
-      "IRONHEAD",
-      "SNOWSCAPE",
-      "ICICLECRASH",
-      "METALCLAW",
-      "SLASH",
-      "SWORDSDANCE",
+      {
+        level: 0,
+        move: "ICICLESPEAR",
+      },
+      {
+        level: 1,
+        move: "SCRATCH",
+      },
+      {
+        level: 1,
+        move: "MIST",
+      },
+      {
+        level: 1,
+        move: "BLIZZARD",
+      },
+      {
+        level: 1,
+        move: "DEFENSECURL",
+      },
+      {
+        level: 1,
+        move: "SWIFT",
+      },
+      {
+        level: 1,
+        move: "FURYSWIPES",
+      },
+      {
+        level: 1,
+        move: "POWDERSNOW",
+      },
+      {
+        level: 1,
+        move: "ROLLOUT",
+      },
+      {
+        level: 1,
+        move: "FURYCUTTER",
+      },
+      {
+        level: 1,
+        move: "RAPIDSPIN",
+      },
+      {
+        level: 1,
+        move: "IRONDEFENSE",
+      },
+      {
+        level: 1,
+        move: "GYROBALL",
+      },
+      {
+        level: 1,
+        move: "METALBURST",
+      },
+      {
+        level: 1,
+        move: "IRONHEAD",
+      },
+      {
+        level: 1,
+        move: "SNOWSCAPE",
+      },
+      {
+        level: 1,
+        move: "ICICLECRASH",
+      },
+      {
+        level: 1,
+        move: "METALCLAW",
+      },
+      {
+        level: 1,
+        move: "SLASH",
+      },
+      {
+        level: 1,
+        move: "SWORDSDANCE",
+      },
     ],
     tutorMoves: [
       "AERIALACE",
@@ -1483,21 +2035,66 @@ export const pokemonForms: PokemonForm[] = [
     hiddenAbilities: ["SNOWWARNING"],
     category: "Fox",
     moves: [
-      "POWDERSNOW",
-      "TAILWHIP",
-      "DISABLE",
-      "ICESHARD",
-      "SPITE",
-      "ICYWIND",
-      "CONFUSERAY",
-      "AURORABEAM",
-      "EXTRASENSORY",
-      "ICEBEAM",
-      "IMPRISON",
-      "MIST",
-      "AURORAVEIL",
-      "FREEZEDRY",
-      "BLIZZARD",
+      {
+        level: 1,
+        move: "POWDERSNOW",
+      },
+      {
+        level: 1,
+        move: "TAILWHIP",
+      },
+      {
+        level: 4,
+        move: "DISABLE",
+      },
+      {
+        level: 8,
+        move: "ICESHARD",
+      },
+      {
+        level: 12,
+        move: "SPITE",
+      },
+      {
+        level: 16,
+        move: "ICYWIND",
+      },
+      {
+        level: 20,
+        move: "CONFUSERAY",
+      },
+      {
+        level: 24,
+        move: "AURORABEAM",
+      },
+      {
+        level: 28,
+        move: "EXTRASENSORY",
+      },
+      {
+        level: 32,
+        move: "ICEBEAM",
+      },
+      {
+        level: 36,
+        move: "IMPRISON",
+      },
+      {
+        level: 40,
+        move: "MIST",
+      },
+      {
+        level: 44,
+        move: "AURORAVEIL",
+      },
+      {
+        level: 48,
+        move: "FREEZEDRY",
+      },
+      {
+        level: 52,
+        move: "BLIZZARD",
+      },
     ],
     tutorMoves: [
       "AGILITY",
@@ -1624,23 +2221,74 @@ export const pokemonForms: PokemonForm[] = [
     hiddenAbilities: ["SNOWWARNING"],
     category: "Fox",
     moves: [
-      "DAZZLINGGLEAM",
-      "DISABLE",
-      "MIST",
-      "ICEBEAM",
-      "AURORABEAM",
-      "CONFUSERAY",
-      "SPITE",
-      "POWDERSNOW",
-      "EXTRASENSORY",
-      "NASTYPLOT",
-      "ICESHARD",
-      "FREEZEDRY",
-      "AURORAVEIL",
-      "ICYWIND",
-      "IMPRISON",
-      "BLIZZARD",
-      "TAILWHIP",
+      {
+        level: 0,
+        move: "DAZZLINGGLEAM",
+      },
+      {
+        level: 1,
+        move: "DISABLE",
+      },
+      {
+        level: 1,
+        move: "MIST",
+      },
+      {
+        level: 1,
+        move: "ICEBEAM",
+      },
+      {
+        level: 1,
+        move: "AURORABEAM",
+      },
+      {
+        level: 1,
+        move: "CONFUSERAY",
+      },
+      {
+        level: 1,
+        move: "SPITE",
+      },
+      {
+        level: 1,
+        move: "POWDERSNOW",
+      },
+      {
+        level: 1,
+        move: "EXTRASENSORY",
+      },
+      {
+        level: 1,
+        move: "NASTYPLOT",
+      },
+      {
+        level: 1,
+        move: "ICESHARD",
+      },
+      {
+        level: 1,
+        move: "FREEZEDRY",
+      },
+      {
+        level: 1,
+        move: "AURORAVEIL",
+      },
+      {
+        level: 1,
+        move: "ICYWIND",
+      },
+      {
+        level: 1,
+        move: "IMPRISON",
+      },
+      {
+        level: 1,
+        move: "BLIZZARD",
+      },
+      {
+        level: 1,
+        move: "TAILWHIP",
+      },
     ],
     tutorMoves: [
       "AGILITY",
@@ -1753,19 +2401,58 @@ export const pokemonForms: PokemonForm[] = [
     hiddenAbilities: ["SANDFORCE"],
     category: "Mole",
     moves: [
-      "SANDATTACK",
-      "METALCLAW",
-      "GROWL",
-      "ASTONISH",
-      "MUDSLAP",
-      "BULLDOZE",
-      "SUCKERPUNCH",
-      "IRONHEAD",
-      "SANDSTORM",
-      "DIG",
-      "EARTHPOWER",
-      "EARTHQUAKE",
-      "FISSURE",
+      {
+        level: 1,
+        move: "SANDATTACK",
+      },
+      {
+        level: 1,
+        move: "METALCLAW",
+      },
+      {
+        level: 4,
+        move: "GROWL",
+      },
+      {
+        level: 8,
+        move: "ASTONISH",
+      },
+      {
+        level: 12,
+        move: "MUDSLAP",
+      },
+      {
+        level: 16,
+        move: "BULLDOZE",
+      },
+      {
+        level: 20,
+        move: "SUCKERPUNCH",
+      },
+      {
+        level: 24,
+        move: "IRONHEAD",
+      },
+      {
+        level: 28,
+        move: "SANDSTORM",
+      },
+      {
+        level: 32,
+        move: "DIG",
+      },
+      {
+        level: 36,
+        move: "EARTHPOWER",
+      },
+      {
+        level: 40,
+        move: "EARTHQUAKE",
+      },
+      {
+        level: 44,
+        move: "FISSURE",
+      },
     ],
     tutorMoves: [
       "AGILITY",
@@ -1884,22 +2571,70 @@ export const pokemonForms: PokemonForm[] = [
     hiddenAbilities: ["SANDFORCE"],
     category: "Mole",
     moves: [
-      "SANDTOMB",
-      "NIGHTSLASH",
-      "TRIATTACK",
-      "SANDATTACK",
-      "METALCLAW",
-      "GROWL",
-      "ASTONISH",
-      "MUDSLAP",
-      "BULLDOZE",
-      "SUCKERPUNCH",
-      "IRONHEAD",
-      "SANDSTORM",
-      "DIG",
-      "EARTHPOWER",
-      "EARTHQUAKE",
-      "FISSURE",
+      {
+        level: 0,
+        move: "SANDTOMB",
+      },
+      {
+        level: 1,
+        move: "NIGHTSLASH",
+      },
+      {
+        level: 1,
+        move: "TRIATTACK",
+      },
+      {
+        level: 1,
+        move: "SANDATTACK",
+      },
+      {
+        level: 1,
+        move: "METALCLAW",
+      },
+      {
+        level: 1,
+        move: "GROWL",
+      },
+      {
+        level: 1,
+        move: "ASTONISH",
+      },
+      {
+        level: 12,
+        move: "MUDSLAP",
+      },
+      {
+        level: 16,
+        move: "BULLDOZE",
+      },
+      {
+        level: 20,
+        move: "SUCKERPUNCH",
+      },
+      {
+        level: 24,
+        move: "IRONHEAD",
+      },
+      {
+        level: 30,
+        move: "SANDSTORM",
+      },
+      {
+        level: 36,
+        move: "DIG",
+      },
+      {
+        level: 42,
+        move: "EARTHPOWER",
+      },
+      {
+        level: 48,
+        move: "EARTHQUAKE",
+      },
+      {
+        level: 54,
+        move: "FISSURE",
+      },
     ],
     tutorMoves: [
       "AGILITY",
@@ -2008,19 +2743,58 @@ export const pokemonForms: PokemonForm[] = [
     hiddenAbilities: ["RATTLED"],
     category: "Scratch Cat",
     moves: [
-      "FAKEOUT",
-      "GROWL",
-      "FEINT",
-      "SCRATCH",
-      "PAYDAY",
-      "BITE",
-      "TAUNT",
-      "ASSURANCE",
-      "FURYSWIPES",
-      "SCREECH",
-      "NIGHTSLASH",
-      "NASTYPLOT",
-      "PLAYROUGH",
+      {
+        level: 1,
+        move: "FAKEOUT",
+      },
+      {
+        level: 1,
+        move: "GROWL",
+      },
+      {
+        level: 4,
+        move: "FEINT",
+      },
+      {
+        level: 8,
+        move: "SCRATCH",
+      },
+      {
+        level: 12,
+        move: "PAYDAY",
+      },
+      {
+        level: 16,
+        move: "BITE",
+      },
+      {
+        level: 20,
+        move: "TAUNT",
+      },
+      {
+        level: 24,
+        move: "ASSURANCE",
+      },
+      {
+        level: 29,
+        move: "FURYSWIPES",
+      },
+      {
+        level: 32,
+        move: "SCREECH",
+      },
+      {
+        level: 36,
+        move: "NIGHTSLASH",
+      },
+      {
+        level: 40,
+        move: "NASTYPLOT",
+      },
+      {
+        level: 44,
+        move: "PLAYROUGH",
+      },
     ],
     tutorMoves: [
       "AERIALACE",
@@ -2157,19 +2931,58 @@ export const pokemonForms: PokemonForm[] = [
     hiddenAbilities: ["UNNERVE"],
     category: "Scratch Cat",
     moves: [
-      "FAKEOUT",
-      "GROWL",
-      "HONECLAWS",
-      "SCRATCH",
-      "PAYDAY",
-      "METALCLAW",
-      "TAUNT",
-      "SWAGGER",
-      "FURYSWIPES",
-      "SCREECH",
-      "SLASH",
-      "METALSOUND",
-      "THRASH",
+      {
+        level: 1,
+        move: "FAKEOUT",
+      },
+      {
+        level: 1,
+        move: "GROWL",
+      },
+      {
+        level: 4,
+        move: "HONECLAWS",
+      },
+      {
+        level: 8,
+        move: "SCRATCH",
+      },
+      {
+        level: 12,
+        move: "PAYDAY",
+      },
+      {
+        level: 16,
+        move: "METALCLAW",
+      },
+      {
+        level: 20,
+        move: "TAUNT",
+      },
+      {
+        level: 24,
+        move: "SWAGGER",
+      },
+      {
+        level: 29,
+        move: "FURYSWIPES",
+      },
+      {
+        level: 32,
+        move: "SCREECH",
+      },
+      {
+        level: 36,
+        move: "SLASH",
+      },
+      {
+        level: 40,
+        move: "METALSOUND",
+      },
+      {
+        level: 44,
+        move: "THRASH",
+      },
     ],
     tutorMoves: [
       "AERIALACE",
@@ -2294,22 +3107,70 @@ export const pokemonForms: PokemonForm[] = [
     hiddenAbilities: ["RATTLED"],
     category: "Classy Cat",
     moves: [
-      "POWERGEM",
-      "QUASH",
-      "SWITCHEROO",
-      "FAKEOUT",
-      "GROWL",
-      "FEINT",
-      "SCRATCH",
-      "PAYDAY",
-      "BITE",
-      "TAUNT",
-      "ASSURANCE",
-      "FURYSWIPES",
-      "SCREECH",
-      "NIGHTSLASH",
-      "NASTYPLOT",
-      "PLAYROUGH",
+      {
+        level: 0,
+        move: "POWERGEM",
+      },
+      {
+        level: 1,
+        move: "QUASH",
+      },
+      {
+        level: 1,
+        move: "SWITCHEROO",
+      },
+      {
+        level: 1,
+        move: "FAKEOUT",
+      },
+      {
+        level: 1,
+        move: "GROWL",
+      },
+      {
+        level: 1,
+        move: "FEINT",
+      },
+      {
+        level: 1,
+        move: "SCRATCH",
+      },
+      {
+        level: 12,
+        move: "PAYDAY",
+      },
+      {
+        level: 16,
+        move: "BITE",
+      },
+      {
+        level: 20,
+        move: "TAUNT",
+      },
+      {
+        level: 24,
+        move: "ASSURANCE",
+      },
+      {
+        level: 31,
+        move: "FURYSWIPES",
+      },
+      {
+        level: 36,
+        move: "SCREECH",
+      },
+      {
+        level: 42,
+        move: "NIGHTSLASH",
+      },
+      {
+        level: 48,
+        move: "NASTYPLOT",
+      },
+      {
+        level: 54,
+        move: "PLAYROUGH",
+      },
     ],
     tutorMoves: [
       "AERIALACE",
@@ -2434,21 +3295,66 @@ export const pokemonForms: PokemonForm[] = [
     hiddenAbilities: ["ROCKHEAD"],
     category: "Scout",
     moves: [
-      "EMBER",
-      "LEER",
-      "HOWL",
-      "BITE",
-      "FLAMEWHEEL",
-      "HELPINGHAND",
-      "FIREFANG",
-      "RETALIATE",
-      "CRUNCH",
-      "TAKEDOWN",
-      "FLAMETHROWER",
-      "ROAR",
-      "ROCKSLIDE",
-      "REVERSAL",
-      "FLAREBLITZ",
+      {
+        level: 1,
+        move: "EMBER",
+      },
+      {
+        level: 1,
+        move: "LEER",
+      },
+      {
+        level: 4,
+        move: "HOWL",
+      },
+      {
+        level: 8,
+        move: "BITE",
+      },
+      {
+        level: 12,
+        move: "FLAMEWHEEL",
+      },
+      {
+        level: 16,
+        move: "HELPINGHAND",
+      },
+      {
+        level: 24,
+        move: "FIREFANG",
+      },
+      {
+        level: 28,
+        move: "RETALIATE",
+      },
+      {
+        level: 32,
+        move: "CRUNCH",
+      },
+      {
+        level: 36,
+        move: "TAKEDOWN",
+      },
+      {
+        level: 40,
+        move: "FLAMETHROWER",
+      },
+      {
+        level: 44,
+        move: "ROAR",
+      },
+      {
+        level: 48,
+        move: "ROCKSLIDE",
+      },
+      {
+        level: 52,
+        move: "REVERSAL",
+      },
+      {
+        level: 56,
+        move: "FLAREBLITZ",
+      },
     ],
     tutorMoves: [
       "AGILITY",
@@ -2539,25 +3445,82 @@ export const pokemonForms: PokemonForm[] = [
     hiddenAbilities: ["ROCKHEAD"],
     category: "Legendary",
     moves: [
-      "EXTREMESPEED",
-      "FLAMEWHEEL",
-      "HELPINGHAND",
-      "AGILITY",
-      "FIREFANG",
-      "RETALIATE",
-      "CRUNCH",
-      "TAKEDOWN",
-      "ROAR",
-      "ROCKSLIDE",
-      "REVERSAL",
-      "FLAREBLITZ",
-      "ROCKTHROW",
-      "EMBER",
-      "LEER",
-      "HOWL",
-      "BITE",
-      "FLAMETHROWER",
-      "RAGINGFURY",
+      {
+        level: 0,
+        move: "EXTREMESPEED",
+      },
+      {
+        level: 1,
+        move: "FLAMEWHEEL",
+      },
+      {
+        level: 1,
+        move: "HELPINGHAND",
+      },
+      {
+        level: 1,
+        move: "AGILITY",
+      },
+      {
+        level: 1,
+        move: "FIREFANG",
+      },
+      {
+        level: 1,
+        move: "RETALIATE",
+      },
+      {
+        level: 1,
+        move: "CRUNCH",
+      },
+      {
+        level: 1,
+        move: "TAKEDOWN",
+      },
+      {
+        level: 1,
+        move: "ROAR",
+      },
+      {
+        level: 1,
+        move: "ROCKSLIDE",
+      },
+      {
+        level: 1,
+        move: "REVERSAL",
+      },
+      {
+        level: 1,
+        move: "FLAREBLITZ",
+      },
+      {
+        level: 1,
+        move: "ROCKTHROW",
+      },
+      {
+        level: 1,
+        move: "EMBER",
+      },
+      {
+        level: 1,
+        move: "LEER",
+      },
+      {
+        level: 1,
+        move: "HOWL",
+      },
+      {
+        level: 1,
+        move: "BITE",
+      },
+      {
+        level: 5,
+        move: "FLAMETHROWER",
+      },
+      {
+        level: 64,
+        move: "RAGINGFURY",
+      },
     ],
     tutorMoves: [
       "AERIALACE",
@@ -2646,20 +3609,62 @@ export const pokemonForms: PokemonForm[] = [
     hiddenAbilities: ["TRACE"],
     category: "Psi",
     moves: [
-      "CONFUSION",
-      "KINESIS",
-      "DISABLE",
-      "TELEPORT",
-      "PSYBEAM",
-      "REFLECT",
-      "ALLYSWITCH",
-      "PSYCHOCUT",
-      "RECOVER",
-      "PSYSHOCK",
-      "PSYCHIC",
-      "ROLEPLAY",
-      "FUTURESIGHT",
-      "CALMMIND",
+      {
+        level: 1,
+        move: "CONFUSION",
+      },
+      {
+        level: 1,
+        move: "KINESIS",
+      },
+      {
+        level: 1,
+        move: "DISABLE",
+      },
+      {
+        level: 1,
+        move: "TELEPORT",
+      },
+      {
+        level: 5,
+        move: "PSYBEAM",
+      },
+      {
+        level: 10,
+        move: "REFLECT",
+      },
+      {
+        level: 15,
+        move: "ALLYSWITCH",
+      },
+      {
+        level: 20,
+        move: "PSYCHOCUT",
+      },
+      {
+        level: 25,
+        move: "RECOVER",
+      },
+      {
+        level: 30,
+        move: "PSYSHOCK",
+      },
+      {
+        level: 35,
+        move: "PSYCHIC",
+      },
+      {
+        level: 40,
+        move: "ROLEPLAY",
+      },
+      {
+        level: 45,
+        move: "FUTURESIGHT",
+      },
+      {
+        level: 50,
+        move: "CALMMIND",
+      },
     ],
     tutorMoves: [
       "ALLYSWITCH",
@@ -2784,22 +3789,70 @@ export const pokemonForms: PokemonForm[] = [
     hiddenAbilities: ["GALVANIZE"],
     category: "Rock",
     moves: [
-      "TACKLE",
-      "DEFENSECURL",
-      "CHARGE",
-      "ROCKPOLISH",
-      "ROLLOUT",
-      "SPARK",
-      "ROCKTHROW",
-      "SMACKDOWN",
-      "THUNDERPUNCH",
-      "SELFDESTRUCT",
-      "STEALTHROCK",
-      "ROCKBLAST",
-      "DISCHARGE",
-      "EXPLOSION",
-      "DOUBLEEDGE",
-      "STONEEDGE",
+      {
+        level: 1,
+        move: "TACKLE",
+      },
+      {
+        level: 1,
+        move: "DEFENSECURL",
+      },
+      {
+        level: 4,
+        move: "CHARGE",
+      },
+      {
+        level: 6,
+        move: "ROCKPOLISH",
+      },
+      {
+        level: 10,
+        move: "ROLLOUT",
+      },
+      {
+        level: 12,
+        move: "SPARK",
+      },
+      {
+        level: 16,
+        move: "ROCKTHROW",
+      },
+      {
+        level: 18,
+        move: "SMACKDOWN",
+      },
+      {
+        level: 22,
+        move: "THUNDERPUNCH",
+      },
+      {
+        level: 24,
+        move: "SELFDESTRUCT",
+      },
+      {
+        level: 28,
+        move: "STEALTHROCK",
+      },
+      {
+        level: 30,
+        move: "ROCKBLAST",
+      },
+      {
+        level: 34,
+        move: "DISCHARGE",
+      },
+      {
+        level: 36,
+        move: "EXPLOSION",
+      },
+      {
+        level: 40,
+        move: "DOUBLEEDGE",
+      },
+      {
+        level: 42,
+        move: "STONEEDGE",
+      },
     ],
     tutorMoves: [
       "ANCIENTPOWER",
@@ -2930,22 +3983,70 @@ export const pokemonForms: PokemonForm[] = [
     hiddenAbilities: ["GALVANIZE"],
     category: "Rock",
     moves: [
-      "TACKLE",
-      "DEFENSECURL",
-      "CHARGE",
-      "ROCKPOLISH",
-      "ROLLOUT",
-      "SPARK",
-      "ROCKTHROW",
-      "SMACKDOWN",
-      "THUNDERPUNCH",
-      "SELFDESTRUCT",
-      "STEALTHROCK",
-      "ROCKBLAST",
-      "DISCHARGE",
-      "EXPLOSION",
-      "DOUBLEEDGE",
-      "STONEEDGE",
+      {
+        level: 1,
+        move: "TACKLE",
+      },
+      {
+        level: 1,
+        move: "DEFENSECURL",
+      },
+      {
+        level: 1,
+        move: "CHARGE",
+      },
+      {
+        level: 1,
+        move: "ROCKPOLISH",
+      },
+      {
+        level: 10,
+        move: "ROLLOUT",
+      },
+      {
+        level: 12,
+        move: "SPARK",
+      },
+      {
+        level: 16,
+        move: "ROCKTHROW",
+      },
+      {
+        level: 18,
+        move: "SMACKDOWN",
+      },
+      {
+        level: 22,
+        move: "THUNDERPUNCH",
+      },
+      {
+        level: 24,
+        move: "SELFDESTRUCT",
+      },
+      {
+        level: 30,
+        move: "STEALTHROCK",
+      },
+      {
+        level: 34,
+        move: "ROCKBLAST",
+      },
+      {
+        level: 40,
+        move: "DISCHARGE",
+      },
+      {
+        level: 44,
+        move: "EXPLOSION",
+      },
+      {
+        level: 50,
+        move: "DOUBLEEDGE",
+      },
+      {
+        level: 54,
+        move: "STONEEDGE",
+      },
     ],
     tutorMoves: [
       "ALLYSWITCH",
@@ -3066,22 +4167,70 @@ export const pokemonForms: PokemonForm[] = [
     hiddenAbilities: ["GALVANIZE"],
     category: "Megaton",
     moves: [
-      "HEAVYSLAM",
-      "TACKLE",
-      "DEFENSECURL",
-      "CHARGE",
-      "ROCKPOLISH",
-      "SPARK",
-      "ROCKTHROW",
-      "SMACKDOWN",
-      "THUNDERPUNCH",
-      "SELFDESTRUCT",
-      "STEALTHROCK",
-      "ROCKBLAST",
-      "DISCHARGE",
-      "EXPLOSION",
-      "DOUBLEEDGE",
-      "STONEEDGE",
+      {
+        level: 1,
+        move: "HEAVYSLAM",
+      },
+      {
+        level: 1,
+        move: "TACKLE",
+      },
+      {
+        level: 1,
+        move: "DEFENSECURL",
+      },
+      {
+        level: 1,
+        move: "CHARGE",
+      },
+      {
+        level: 1,
+        move: "ROCKPOLISH",
+      },
+      {
+        level: 12,
+        move: "SPARK",
+      },
+      {
+        level: 16,
+        move: "ROCKTHROW",
+      },
+      {
+        level: 18,
+        move: "SMACKDOWN",
+      },
+      {
+        level: 22,
+        move: "THUNDERPUNCH",
+      },
+      {
+        level: 24,
+        move: "SELFDESTRUCT",
+      },
+      {
+        level: 30,
+        move: "STEALTHROCK",
+      },
+      {
+        level: 34,
+        move: "ROCKBLAST",
+      },
+      {
+        level: 40,
+        move: "DISCHARGE",
+      },
+      {
+        level: 44,
+        move: "EXPLOSION",
+      },
+      {
+        level: 50,
+        move: "DOUBLEEDGE",
+      },
+      {
+        level: 54,
+        move: "STONEEDGE",
+      },
     ],
     tutorMoves: [
       "ALLYSWITCH",
@@ -3211,19 +4360,58 @@ export const pokemonForms: PokemonForm[] = [
     hiddenAbilities: ["ANTICIPATION"],
     category: "Unique Horn",
     moves: [
-      "TACKLE",
-      "GROWL",
-      "TAILWHIP",
-      "CONFUSION",
-      "FAIRYWIND",
-      "AGILITY",
-      "PSYBEAM",
-      "STOMP",
-      "HEALPULSE",
-      "TAKEDOWN",
-      "DAZZLINGGLEAM",
-      "PSYCHIC",
-      "HEALINGWISH",
+      {
+        level: 1,
+        move: "TACKLE",
+      },
+      {
+        level: 1,
+        move: "GROWL",
+      },
+      {
+        level: 5,
+        move: "TAILWHIP",
+      },
+      {
+        level: 10,
+        move: "CONFUSION",
+      },
+      {
+        level: 15,
+        move: "FAIRYWIND",
+      },
+      {
+        level: 20,
+        move: "AGILITY",
+      },
+      {
+        level: 25,
+        move: "PSYBEAM",
+      },
+      {
+        level: 30,
+        move: "STOMP",
+      },
+      {
+        level: 35,
+        move: "HEALPULSE",
+      },
+      {
+        level: 41,
+        move: "TAKEDOWN",
+      },
+      {
+        level: 45,
+        move: "DAZZLINGGLEAM",
+      },
+      {
+        level: 50,
+        move: "PSYCHIC",
+      },
+      {
+        level: 55,
+        move: "HEALINGWISH",
+      },
     ],
     tutorMoves: [
       "AGILITY",
@@ -3316,22 +4504,70 @@ export const pokemonForms: PokemonForm[] = [
     hiddenAbilities: ["ANTICIPATION"],
     category: "Unique Horn",
     moves: [
-      "PSYCHOCUT",
-      "MEGAHORN",
-      "TACKLE",
-      "QUICKATTACK",
-      "GROWL",
-      "TAILWHIP",
-      "CONFUSION",
-      "FAIRYWIND",
-      "AGILITY",
-      "PSYBEAM",
-      "STOMP",
-      "HEALPULSE",
-      "TAKEDOWN",
-      "DAZZLINGGLEAM",
-      "PSYCHIC",
-      "HEALINGWISH",
+      {
+        level: 0,
+        move: "PSYCHOCUT",
+      },
+      {
+        level: 1,
+        move: "MEGAHORN",
+      },
+      {
+        level: 1,
+        move: "TACKLE",
+      },
+      {
+        level: 1,
+        move: "QUICKATTACK",
+      },
+      {
+        level: 1,
+        move: "GROWL",
+      },
+      {
+        level: 1,
+        move: "TAILWHIP",
+      },
+      {
+        level: 1,
+        move: "CONFUSION",
+      },
+      {
+        level: 15,
+        move: "FAIRYWIND",
+      },
+      {
+        level: 20,
+        move: "AGILITY",
+      },
+      {
+        level: 25,
+        move: "PSYBEAM",
+      },
+      {
+        level: 30,
+        move: "STOMP",
+      },
+      {
+        level: 35,
+        move: "HEALPULSE",
+      },
+      {
+        level: 43,
+        move: "TAKEDOWN",
+      },
+      {
+        level: 49,
+        move: "DAZZLINGGLEAM",
+      },
+      {
+        level: 56,
+        move: "PSYCHIC",
+      },
+      {
+        level: 63,
+        move: "HEALINGWISH",
+      },
     ],
     tutorMoves: [
       "AGILITY",
@@ -3421,23 +4657,74 @@ export const pokemonForms: PokemonForm[] = [
     hiddenAbilities: ["REGENERATOR"],
     category: "Dopey",
     moves: [
-      "TACKLE",
-      "CURSE",
-      "GROWL",
-      "ACID",
-      "YAWN",
-      "CONFUSION",
-      "DISABLE",
-      "WATERPULSE",
-      "HEADBUTT",
-      "ZENHEADBUTT",
-      "AMNESIA",
-      "SURF",
-      "SLACKOFF",
-      "PSYCHIC",
-      "PSYCHUP",
-      "RAINDANCE",
-      "HEALPULSE",
+      {
+        level: 1,
+        move: "TACKLE",
+      },
+      {
+        level: 1,
+        move: "CURSE",
+      },
+      {
+        level: 3,
+        move: "GROWL",
+      },
+      {
+        level: 6,
+        move: "ACID",
+      },
+      {
+        level: 9,
+        move: "YAWN",
+      },
+      {
+        level: 12,
+        move: "CONFUSION",
+      },
+      {
+        level: 15,
+        move: "DISABLE",
+      },
+      {
+        level: 18,
+        move: "WATERPULSE",
+      },
+      {
+        level: 21,
+        move: "HEADBUTT",
+      },
+      {
+        level: 24,
+        move: "ZENHEADBUTT",
+      },
+      {
+        level: 27,
+        move: "AMNESIA",
+      },
+      {
+        level: 30,
+        move: "SURF",
+      },
+      {
+        level: 33,
+        move: "SLACKOFF",
+      },
+      {
+        level: 36,
+        move: "PSYCHIC",
+      },
+      {
+        level: 39,
+        move: "PSYCHUP",
+      },
+      {
+        level: 42,
+        move: "RAINDANCE",
+      },
+      {
+        level: 45,
+        move: "HEALPULSE",
+      },
     ],
     tutorMoves: [
       "AMNESIA",
@@ -3560,25 +4847,82 @@ export const pokemonForms: PokemonForm[] = [
     hiddenAbilities: ["REGENERATOR"],
     category: "Hermit Crab",
     moves: [
-      "SHELLSIDEARM",
-      "WITHDRAW",
-      "TACKLE",
-      "CURSE",
-      "GROWL",
-      "ACID",
-      "YAWN",
-      "CONFUSION",
-      "DISABLE",
-      "WATERPULSE",
-      "HEADBUTT",
-      "ZENHEADBUTT",
-      "AMNESIA",
-      "SURF",
-      "SLACKOFF",
-      "PSYCHIC",
-      "PSYCHUP",
-      "RAINDANCE",
-      "HEALPULSE",
+      {
+        level: 0,
+        move: "SHELLSIDEARM",
+      },
+      {
+        level: 1,
+        move: "WITHDRAW",
+      },
+      {
+        level: 1,
+        move: "TACKLE",
+      },
+      {
+        level: 1,
+        move: "CURSE",
+      },
+      {
+        level: 1,
+        move: "GROWL",
+      },
+      {
+        level: 1,
+        move: "ACID",
+      },
+      {
+        level: 9,
+        move: "YAWN",
+      },
+      {
+        level: 12,
+        move: "CONFUSION",
+      },
+      {
+        level: 15,
+        move: "DISABLE",
+      },
+      {
+        level: 18,
+        move: "WATERPULSE",
+      },
+      {
+        level: 21,
+        move: "HEADBUTT",
+      },
+      {
+        level: 24,
+        move: "ZENHEADBUTT",
+      },
+      {
+        level: 27,
+        move: "AMNESIA",
+      },
+      {
+        level: 30,
+        move: "SURF",
+      },
+      {
+        level: 33,
+        move: "SLACKOFF",
+      },
+      {
+        level: 36,
+        move: "PSYCHIC",
+      },
+      {
+        level: 39,
+        move: "PSYCHUP",
+      },
+      {
+        level: 42,
+        move: "RAINDANCE",
+      },
+      {
+        level: 45,
+        move: "HEALPULSE",
+      },
     ],
     tutorMoves: [
       "ACIDSPRAY",
@@ -3717,25 +5061,82 @@ export const pokemonForms: PokemonForm[] = [
     hiddenAbilities: ["SHELLARMOR"],
     category: "Hermit Crab",
     moves: [
-      "FUTURESIGHT",
-      "WITHDRAW",
-      "TACKLE",
-      "CURSE",
-      "GROWL",
-      "WATERGUN",
-      "YAWN",
-      "CONFUSION",
-      "DISABLE",
-      "WATERPULSE",
-      "HEADBUTT",
-      "ZENHEADBUTT",
-      "AMNESIA",
-      "SURF",
-      "SLACKOFF",
-      "PSYCHIC",
-      "PSYCHUP",
-      "RAINDANCE",
-      "HEALPULSE",
+      {
+        level: 1,
+        move: "FUTURESIGHT",
+      },
+      {
+        level: 1,
+        move: "WITHDRAW",
+      },
+      {
+        level: 1,
+        move: "TACKLE",
+      },
+      {
+        level: 1,
+        move: "CURSE",
+      },
+      {
+        level: 1,
+        move: "GROWL",
+      },
+      {
+        level: 1,
+        move: "WATERGUN",
+      },
+      {
+        level: 9,
+        move: "YAWN",
+      },
+      {
+        level: 12,
+        move: "CONFUSION",
+      },
+      {
+        level: 15,
+        move: "DISABLE",
+      },
+      {
+        level: 18,
+        move: "WATERPULSE",
+      },
+      {
+        level: 21,
+        move: "HEADBUTT",
+      },
+      {
+        level: 24,
+        move: "ZENHEADBUTT",
+      },
+      {
+        level: 27,
+        move: "AMNESIA",
+      },
+      {
+        level: 30,
+        move: "SURF",
+      },
+      {
+        level: 33,
+        move: "SLACKOFF",
+      },
+      {
+        level: 36,
+        move: "PSYCHIC",
+      },
+      {
+        level: 41,
+        move: "PSYCHUP",
+      },
+      {
+        level: 46,
+        move: "RAINDANCE",
+      },
+      {
+        level: 51,
+        move: "HEALPULSE",
+      },
     ],
     tutorMoves: [
       "AFTERYOU",
@@ -3880,21 +5281,66 @@ export const pokemonForms: PokemonForm[] = [
     hiddenAbilities: ["SCRAPPY"],
     category: "Wild Duck",
     moves: [
-      "PECK",
-      "SANDATTACK",
-      "LEER",
-      "FURYCUTTER",
-      "ROCKSMASH",
-      "BRUTALSWING",
-      "DETECT",
-      "KNOCKOFF",
-      "DEFOG",
-      "BRICKBREAK",
-      "SWORDSDANCE",
-      "SLAM",
-      "LEAFBLADE",
-      "FINALGAMBIT",
-      "BRAVEBIRD",
+      {
+        level: 1,
+        move: "PECK",
+      },
+      {
+        level: 1,
+        move: "SANDATTACK",
+      },
+      {
+        level: 5,
+        move: "LEER",
+      },
+      {
+        level: 10,
+        move: "FURYCUTTER",
+      },
+      {
+        level: 15,
+        move: "ROCKSMASH",
+      },
+      {
+        level: 20,
+        move: "BRUTALSWING",
+      },
+      {
+        level: 25,
+        move: "DETECT",
+      },
+      {
+        level: 30,
+        move: "KNOCKOFF",
+      },
+      {
+        level: 35,
+        move: "DEFOG",
+      },
+      {
+        level: 40,
+        move: "BRICKBREAK",
+      },
+      {
+        level: 45,
+        move: "SWORDSDANCE",
+      },
+      {
+        level: 50,
+        move: "SLAM",
+      },
+      {
+        level: 55,
+        move: "LEAFBLADE",
+      },
+      {
+        level: 60,
+        move: "FINALGAMBIT",
+      },
+      {
+        level: 65,
+        move: "BRAVEBIRD",
+      },
     ],
     tutorMoves: [
       "ASSURANCE",
@@ -3987,22 +5433,70 @@ export const pokemonForms: PokemonForm[] = [
     hiddenAbilities: ["POWEROFALCHEMY"],
     category: "Sludge",
     moves: [
-      "POUND",
-      "POISONGAS",
-      "HARDEN",
-      "BITE",
-      "DISABLE",
-      "ACIDSPRAY",
-      "POISONFANG",
-      "MINIMIZE",
-      "TOXIC",
-      "KNOCKOFF",
-      "CRUNCH",
-      "SCREECH",
-      "GUNKSHOT",
-      "ACIDARMOR",
-      "BELCH",
-      "MEMENTO",
+      {
+        level: 1,
+        move: "POUND",
+      },
+      {
+        level: 1,
+        move: "POISONGAS",
+      },
+      {
+        level: 4,
+        move: "HARDEN",
+      },
+      {
+        level: 7,
+        move: "BITE",
+      },
+      {
+        level: 12,
+        move: "DISABLE",
+      },
+      {
+        level: 15,
+        move: "ACIDSPRAY",
+      },
+      {
+        level: 18,
+        move: "POISONFANG",
+      },
+      {
+        level: 21,
+        move: "MINIMIZE",
+      },
+      {
+        level: 26,
+        move: "TOXIC",
+      },
+      {
+        level: 29,
+        move: "KNOCKOFF",
+      },
+      {
+        level: 32,
+        move: "CRUNCH",
+      },
+      {
+        level: 37,
+        move: "SCREECH",
+      },
+      {
+        level: 40,
+        move: "GUNKSHOT",
+      },
+      {
+        level: 43,
+        move: "ACIDARMOR",
+      },
+      {
+        level: 46,
+        move: "BELCH",
+      },
+      {
+        level: 48,
+        move: "MEMENTO",
+      },
     ],
     tutorMoves: [
       "ACIDSPRAY",
@@ -4141,21 +5635,66 @@ export const pokemonForms: PokemonForm[] = [
     hiddenAbilities: ["POWEROFALCHEMY"],
     category: "Sludge",
     moves: [
-      "POUND",
-      "POISONGAS",
-      "HARDEN",
-      "DISABLE",
-      "ACIDSPRAY",
-      "POISONFANG",
-      "MINIMIZE",
-      "TOXIC",
-      "KNOCKOFF",
-      "CRUNCH",
-      "SCREECH",
-      "GUNKSHOT",
-      "ACIDARMOR",
-      "BELCH",
-      "MEMENTO",
+      {
+        level: 1,
+        move: "POUND",
+      },
+      {
+        level: 1,
+        move: "POISONGAS",
+      },
+      {
+        level: 1,
+        move: "HARDEN",
+      },
+      {
+        level: 12,
+        move: "DISABLE",
+      },
+      {
+        level: 15,
+        move: "ACIDSPRAY",
+      },
+      {
+        level: 18,
+        move: "POISONFANG",
+      },
+      {
+        level: 21,
+        move: "MINIMIZE",
+      },
+      {
+        level: 26,
+        move: "TOXIC",
+      },
+      {
+        level: 29,
+        move: "KNOCKOFF",
+      },
+      {
+        level: 32,
+        move: "CRUNCH",
+      },
+      {
+        level: 37,
+        move: "SCREECH",
+      },
+      {
+        level: 40,
+        move: "GUNKSHOT",
+      },
+      {
+        level: 46,
+        move: "ACIDARMOR",
+      },
+      {
+        level: 52,
+        move: "BELCH",
+      },
+      {
+        level: 57,
+        move: "MEMENTO",
+      },
     ],
     tutorMoves: [
       "ACIDSPRAY",
@@ -4279,23 +5818,74 @@ export const pokemonForms: PokemonForm[] = [
     hiddenAbilities: ["SHADOWTAG"],
     category: "Shadow",
     moves: [
-      "SHADOWPUNCH",
-      "PERISHSONG",
-      "REFLECTTYPE",
-      "LICK",
-      "CONFUSERAY",
-      "HYPNOSIS",
-      "MEANLOOK",
-      "PAYBACK",
-      "SPITE",
-      "CURSE",
-      "HEX",
-      "NIGHTSHADE",
-      "SUCKERPUNCH",
-      "DARKPULSE",
-      "SHADOWBALL",
-      "DESTINYBOND",
-      "DREAMEATER",
+      {
+        level: 1,
+        move: "SHADOWPUNCH",
+      },
+      {
+        level: 1,
+        move: "PERISHSONG",
+      },
+      {
+        level: 1,
+        move: "REFLECTTYPE",
+      },
+      {
+        level: 1,
+        move: "LICK",
+      },
+      {
+        level: 1,
+        move: "CONFUSERAY",
+      },
+      {
+        level: 1,
+        move: "HYPNOSIS",
+      },
+      {
+        level: 1,
+        move: "MEANLOOK",
+      },
+      {
+        level: 12,
+        move: "PAYBACK",
+      },
+      {
+        level: 16,
+        move: "SPITE",
+      },
+      {
+        level: 20,
+        move: "CURSE",
+      },
+      {
+        level: 24,
+        move: "HEX",
+      },
+      {
+        level: 30,
+        move: "NIGHTSHADE",
+      },
+      {
+        level: 36,
+        move: "SUCKERPUNCH",
+      },
+      {
+        level: 42,
+        move: "DARKPULSE",
+      },
+      {
+        level: 48,
+        move: "SHADOWBALL",
+      },
+      {
+        level: 54,
+        move: "DESTINYBOND",
+      },
+      {
+        level: 60,
+        move: "DREAMEATER",
+      },
     ],
     tutorMoves: [
       "ACIDSPRAY",
@@ -4432,23 +6022,74 @@ export const pokemonForms: PokemonForm[] = [
     hiddenAbilities: ["AFTERMATH"],
     category: "Sphere",
     moves: [
-      "CHARGE",
-      "TACKLE",
-      "THUNDERSHOCK",
-      "STUNSPORE",
-      "BULLETSEED",
-      "ROLLOUT",
-      "SCREECH",
-      "CHARGEBEAM",
-      "SWIFT",
-      "ELECTROBALL",
-      "SELFDESTRUCT",
-      "ENERGYBALL",
-      "SEEDBOMB",
-      "DISCHARGE",
-      "EXPLOSION",
-      "GYROBALL",
-      "GRASSYTERRAIN",
+      {
+        level: 1,
+        move: "CHARGE",
+      },
+      {
+        level: 1,
+        move: "TACKLE",
+      },
+      {
+        level: 4,
+        move: "THUNDERSHOCK",
+      },
+      {
+        level: 6,
+        move: "STUNSPORE",
+      },
+      {
+        level: 9,
+        move: "BULLETSEED",
+      },
+      {
+        level: 11,
+        move: "ROLLOUT",
+      },
+      {
+        level: 13,
+        move: "SCREECH",
+      },
+      {
+        level: 16,
+        move: "CHARGEBEAM",
+      },
+      {
+        level: 20,
+        move: "SWIFT",
+      },
+      {
+        level: 22,
+        move: "ELECTROBALL",
+      },
+      {
+        level: 26,
+        move: "SELFDESTRUCT",
+      },
+      {
+        level: 29,
+        move: "ENERGYBALL",
+      },
+      {
+        level: 34,
+        move: "SEEDBOMB",
+      },
+      {
+        level: 34,
+        move: "DISCHARGE",
+      },
+      {
+        level: 41,
+        move: "EXPLOSION",
+      },
+      {
+        level: 46,
+        move: "GYROBALL",
+      },
+      {
+        level: 50,
+        move: "GRASSYTERRAIN",
+      },
     ],
     tutorMoves: [
       "AGILITY",
@@ -4525,24 +6166,78 @@ export const pokemonForms: PokemonForm[] = [
     hiddenAbilities: ["AFTERMATH"],
     category: "Sphere",
     moves: [
-      "CHLOROBLAST",
-      "CHARGE",
-      "TACKLE",
-      "THUNDERSHOCK",
-      "STUNSPORE",
-      "BULLETSEED",
-      "ROLLOUT",
-      "SCREECH",
-      "CHARGEBEAM",
-      "SWIFT",
-      "ELECTROBALL",
-      "SELFDESTRUCT",
-      "ENERGYBALL",
-      "SEEDBOMB",
-      "DISCHARGE",
-      "EXPLOSION",
-      "GYROBALL",
-      "GRASSYTERRAIN",
+      {
+        level: 0,
+        move: "CHLOROBLAST",
+      },
+      {
+        level: 1,
+        move: "CHARGE",
+      },
+      {
+        level: 1,
+        move: "TACKLE",
+      },
+      {
+        level: 4,
+        move: "THUNDERSHOCK",
+      },
+      {
+        level: 6,
+        move: "STUNSPORE",
+      },
+      {
+        level: 9,
+        move: "BULLETSEED",
+      },
+      {
+        level: 11,
+        move: "ROLLOUT",
+      },
+      {
+        level: 13,
+        move: "SCREECH",
+      },
+      {
+        level: 16,
+        move: "CHARGEBEAM",
+      },
+      {
+        level: 20,
+        move: "SWIFT",
+      },
+      {
+        level: 22,
+        move: "ELECTROBALL",
+      },
+      {
+        level: 26,
+        move: "SELFDESTRUCT",
+      },
+      {
+        level: 29,
+        move: "ENERGYBALL",
+      },
+      {
+        level: 34,
+        move: "SEEDBOMB",
+      },
+      {
+        level: 34,
+        move: "DISCHARGE",
+      },
+      {
+        level: 41,
+        move: "EXPLOSION",
+      },
+      {
+        level: 46,
+        move: "GYROBALL",
+      },
+      {
+        level: 50,
+        move: "GRASSYTERRAIN",
+      },
     ],
     tutorMoves: [
       "AGILITY",
@@ -4618,25 +6313,82 @@ export const pokemonForms: PokemonForm[] = [
     hiddenAbilities: ["HARVEST"],
     category: "Coconut",
     moves: [
-      "DRAGONHAMMER",
-      "GROWTH",
-      "SEEDBOMB",
-      "PSYSHOCK",
-      "WOODHAMMER",
-      "LEAFSTORM",
-      "MEGADRAIN",
-      "CONFUSION",
-      "SYNTHESIS",
-      "BULLETSEED",
-      "GIGADRAIN",
-      "EXTRASENSORY",
-      "UPROAR",
-      "WORRYSEED",
-      "SOLARBEAM",
-      "ABSORB",
-      "HYPNOSIS",
-      "REFLECT",
-      "LEECHSEED",
+      {
+        level: 0,
+        move: "DRAGONHAMMER",
+      },
+      {
+        level: 1,
+        move: "GROWTH",
+      },
+      {
+        level: 1,
+        move: "SEEDBOMB",
+      },
+      {
+        level: 1,
+        move: "PSYSHOCK",
+      },
+      {
+        level: 1,
+        move: "WOODHAMMER",
+      },
+      {
+        level: 1,
+        move: "LEAFSTORM",
+      },
+      {
+        level: 1,
+        move: "MEGADRAIN",
+      },
+      {
+        level: 1,
+        move: "CONFUSION",
+      },
+      {
+        level: 1,
+        move: "SYNTHESIS",
+      },
+      {
+        level: 1,
+        move: "BULLETSEED",
+      },
+      {
+        level: 1,
+        move: "GIGADRAIN",
+      },
+      {
+        level: 1,
+        move: "EXTRASENSORY",
+      },
+      {
+        level: 1,
+        move: "UPROAR",
+      },
+      {
+        level: 1,
+        move: "WORRYSEED",
+      },
+      {
+        level: 1,
+        move: "SOLARBEAM",
+      },
+      {
+        level: 1,
+        move: "ABSORB",
+      },
+      {
+        level: 1,
+        move: "HYPNOSIS",
+      },
+      {
+        level: 1,
+        move: "REFLECT",
+      },
+      {
+        level: 1,
+        move: "LEECHSEED",
+      },
     ],
     tutorMoves: [
       "ANCIENTPOWER",
@@ -4764,20 +6516,62 @@ export const pokemonForms: PokemonForm[] = [
     hiddenAbilities: ["BATTLEARMOR"],
     category: "Lonely",
     moves: [
-      "MUDSLAP",
-      "GROWL",
-      "TAILWHIP",
-      "FALSESWIPE",
-      "HEADBUTT",
-      "RETALIATE",
-      "FLING",
-      "STOMPINGTANTRUM",
-      "BONERUSH",
-      "FOCUSENERGY",
-      "ENDEAVOR",
-      "BONEMERANG",
-      "THRASH",
-      "DOUBLEEDGE",
+      {
+        level: 1,
+        move: "MUDSLAP",
+      },
+      {
+        level: 1,
+        move: "GROWL",
+      },
+      {
+        level: 4,
+        move: "TAILWHIP",
+      },
+      {
+        level: 8,
+        move: "FALSESWIPE",
+      },
+      {
+        level: 12,
+        move: "HEADBUTT",
+      },
+      {
+        level: 16,
+        move: "RETALIATE",
+      },
+      {
+        level: 20,
+        move: "FLING",
+      },
+      {
+        level: 24,
+        move: "STOMPINGTANTRUM",
+      },
+      {
+        level: 29,
+        move: "BONERUSH",
+      },
+      {
+        level: 32,
+        move: "FOCUSENERGY",
+      },
+      {
+        level: 36,
+        move: "ENDEAVOR",
+      },
+      {
+        level: 40,
+        move: "BONEMERANG",
+      },
+      {
+        level: 44,
+        move: "THRASH",
+      },
+      {
+        level: 48,
+        move: "DOUBLEEDGE",
+      },
     ],
     tutorMoves: [
       "AERIALACE",
@@ -4902,26 +6696,86 @@ export const pokemonForms: PokemonForm[] = [
     hiddenAbilities: ["ROCKHEAD"],
     category: "Bone Keeper",
     moves: [
-      "SHADOWBONE",
-      "FALSESWIPE",
-      "HEADBUTT",
-      "RETALIATE",
-      "FOCUSENERGY",
-      "DOUBLEEDGE",
-      "MUDSLAP",
-      "GROWL",
-      "TAILWHIP",
-      "FIRESPIN",
-      "FLAMEWHEEL",
-      "HEX",
-      "FLING",
-      "STOMPINGTANTRUM",
-      "BONERUSH",
-      "WILLOWISP",
-      "ENDEAVOR",
-      "BONEMERANG",
-      "THRASH",
-      "FLAREBLITZ",
+      {
+        level: 1,
+        move: "SHADOWBONE",
+      },
+      {
+        level: 1,
+        move: "FALSESWIPE",
+      },
+      {
+        level: 1,
+        move: "HEADBUTT",
+      },
+      {
+        level: 1,
+        move: "RETALIATE",
+      },
+      {
+        level: 1,
+        move: "FOCUSENERGY",
+      },
+      {
+        level: 1,
+        move: "DOUBLEEDGE",
+      },
+      {
+        level: 1,
+        move: "MUDSLAP",
+      },
+      {
+        level: 1,
+        move: "GROWL",
+      },
+      {
+        level: 1,
+        move: "TAILWHIP",
+      },
+      {
+        level: 1,
+        move: "FIRESPIN",
+      },
+      {
+        level: 12,
+        move: "FLAMEWHEEL",
+      },
+      {
+        level: 16,
+        move: "HEX",
+      },
+      {
+        level: 20,
+        move: "FLING",
+      },
+      {
+        level: 24,
+        move: "STOMPINGTANTRUM",
+      },
+      {
+        level: 31,
+        move: "BONERUSH",
+      },
+      {
+        level: 36,
+        move: "WILLOWISP",
+      },
+      {
+        level: 42,
+        move: "ENDEAVOR",
+      },
+      {
+        level: 48,
+        move: "BONEMERANG",
+      },
+      {
+        level: 54,
+        move: "THRASH",
+      },
+      {
+        level: 60,
+        move: "FLAREBLITZ",
+      },
     ],
     tutorMoves: [
       "AERIALACE",
@@ -5054,28 +6908,94 @@ export const pokemonForms: PokemonForm[] = [
     hiddenAbilities: ["MISTYSURGE"],
     category: "Poison Gas",
     moves: [
-      "DOUBLEHIT",
-      "STRANGESTEAM",
-      "DEFOG",
-      "HEATWAVE",
-      "SMOKESCREEN",
-      "HAZE",
-      "POISONGAS",
-      "TACKLE",
-      "SMOG",
-      "AROMATICMIST",
-      "CLEARSMOG",
-      "ASSURANCE",
-      "SLUDGE",
-      "FAIRYWIND",
-      "SELFDESTRUCT",
-      "SLUDGEBOMB",
-      "TOXIC",
-      "BELCH",
-      "EXPLOSION",
-      "MEMENTO",
-      "DESTINYBOND",
-      "MISTYTERRAIN",
+      {
+        level: 0,
+        move: "DOUBLEHIT",
+      },
+      {
+        level: 1,
+        move: "STRANGESTEAM",
+      },
+      {
+        level: 1,
+        move: "DEFOG",
+      },
+      {
+        level: 1,
+        move: "HEATWAVE",
+      },
+      {
+        level: 1,
+        move: "SMOKESCREEN",
+      },
+      {
+        level: 1,
+        move: "HAZE",
+      },
+      {
+        level: 1,
+        move: "POISONGAS",
+      },
+      {
+        level: 1,
+        move: "TACKLE",
+      },
+      {
+        level: 1,
+        move: "SMOG",
+      },
+      {
+        level: 1,
+        move: "AROMATICMIST",
+      },
+      {
+        level: 12,
+        move: "CLEARSMOG",
+      },
+      {
+        level: 16,
+        move: "ASSURANCE",
+      },
+      {
+        level: 20,
+        move: "SLUDGE",
+      },
+      {
+        level: 24,
+        move: "FAIRYWIND",
+      },
+      {
+        level: 28,
+        move: "SELFDESTRUCT",
+      },
+      {
+        level: 32,
+        move: "SLUDGEBOMB",
+      },
+      {
+        level: 38,
+        move: "TOXIC",
+      },
+      {
+        level: 44,
+        move: "BELCH",
+      },
+      {
+        level: 50,
+        move: "EXPLOSION",
+      },
+      {
+        level: 56,
+        move: "MEMENTO",
+      },
+      {
+        level: 62,
+        move: "DESTINYBOND",
+      },
+      {
+        level: 68,
+        move: "MISTYTERRAIN",
+      },
     ],
     tutorMoves: [
       "ACIDSPRAY",
@@ -5181,21 +7101,66 @@ export const pokemonForms: PokemonForm[] = [
     hiddenAbilities: ["PARENTALBOND"],
     category: "Parent",
     moves: [
-      "POUND",
-      "TAILWHIP",
-      "GROWL",
-      "FAKEOUT",
-      "BITE",
-      "STOMP",
-      "FOCUSENERGY",
-      "HEADBUTT",
-      "SUCKERPUNCH",
-      "DOUBLEHIT",
-      "CRUNCH",
-      "ENDURE",
-      "REVERSAL",
-      "OUTRAGE",
-      "LASTRESORT",
+      {
+        level: 1,
+        move: "POUND",
+      },
+      {
+        level: 1,
+        move: "TAILWHIP",
+      },
+      {
+        level: 4,
+        move: "GROWL",
+      },
+      {
+        level: 8,
+        move: "FAKEOUT",
+      },
+      {
+        level: 12,
+        move: "BITE",
+      },
+      {
+        level: 16,
+        move: "STOMP",
+      },
+      {
+        level: 20,
+        move: "FOCUSENERGY",
+      },
+      {
+        level: 24,
+        move: "HEADBUTT",
+      },
+      {
+        level: 28,
+        move: "SUCKERPUNCH",
+      },
+      {
+        level: 32,
+        move: "DOUBLEHIT",
+      },
+      {
+        level: 36,
+        move: "CRUNCH",
+      },
+      {
+        level: 40,
+        move: "ENDURE",
+      },
+      {
+        level: 44,
+        move: "REVERSAL",
+      },
+      {
+        level: 48,
+        move: "OUTRAGE",
+      },
+      {
+        level: 52,
+        move: "LASTRESORT",
+      },
     ],
     tutorMoves: [
       "AERIALACE",
@@ -5333,32 +7298,110 @@ export const pokemonForms: PokemonForm[] = [
     hiddenAbilities: ["ICEBODY"],
     category: "Dancing",
     moves: [
-      "COPYCAT",
-      "ENCORE",
-      "ROLEPLAY",
-      "PROTECT",
-      "RECYCLE",
-      "MIMIC",
-      "LIGHTSCREEN",
-      "REFLECT",
-      "SAFEGUARD",
-      "DAZZLINGGLEAM",
-      "MISTYTERRAIN",
-      "POUND",
-      "RAPIDSPIN",
-      "BATONPASS",
-      "ICESHARD",
-      "CONFUSION",
-      "ALLYSWITCH",
-      "ICYWIND",
-      "DOUBLEKICK",
-      "PSYBEAM",
-      "HYPNOSIS",
-      "MIRRORCOAT",
-      "SUCKERPUNCH",
-      "FREEZEDRY",
-      "PSYCHIC",
-      "TEETERDANCE",
+      {
+        level: 1,
+        move: "COPYCAT",
+      },
+      {
+        level: 1,
+        move: "ENCORE",
+      },
+      {
+        level: 1,
+        move: "ROLEPLAY",
+      },
+      {
+        level: 1,
+        move: "PROTECT",
+      },
+      {
+        level: 1,
+        move: "RECYCLE",
+      },
+      {
+        level: 1,
+        move: "MIMIC",
+      },
+      {
+        level: 1,
+        move: "LIGHTSCREEN",
+      },
+      {
+        level: 1,
+        move: "REFLECT",
+      },
+      {
+        level: 1,
+        move: "SAFEGUARD",
+      },
+      {
+        level: 1,
+        move: "DAZZLINGGLEAM",
+      },
+      {
+        level: 1,
+        move: "MISTYTERRAIN",
+      },
+      {
+        level: 1,
+        move: "POUND",
+      },
+      {
+        level: 1,
+        move: "RAPIDSPIN",
+      },
+      {
+        level: 1,
+        move: "BATONPASS",
+      },
+      {
+        level: 1,
+        move: "ICESHARD",
+      },
+      {
+        level: 12,
+        move: "CONFUSION",
+      },
+      {
+        level: 16,
+        move: "ALLYSWITCH",
+      },
+      {
+        level: 20,
+        move: "ICYWIND",
+      },
+      {
+        level: 24,
+        move: "DOUBLEKICK",
+      },
+      {
+        level: 28,
+        move: "PSYBEAM",
+      },
+      {
+        level: 32,
+        move: "HYPNOSIS",
+      },
+      {
+        level: 36,
+        move: "MIRRORCOAT",
+      },
+      {
+        level: 40,
+        move: "SUCKERPUNCH",
+      },
+      {
+        level: 44,
+        move: "FREEZEDRY",
+      },
+      {
+        level: 48,
+        move: "PSYCHIC",
+      },
+      {
+        level: 52,
+        move: "TEETERDANCE",
+      },
     ],
     tutorMoves: [
       "ALLYSWITCH",
@@ -5512,21 +7555,66 @@ export const pokemonForms: PokemonForm[] = [
     hiddenAbilities: ["AERILATE"],
     category: "Stag Beetle",
     moves: [
-      "VISEGRIP",
-      "HARDEN",
-      "FOCUSENERGY",
-      "BIND",
-      "SEISMICTOSS",
-      "BUGBITE",
-      "STORMTHROW",
-      "DOUBLEHIT",
-      "VITALTHROW",
-      "XSCISSOR",
-      "STRENGTH",
-      "SWORDSDANCE",
-      "SUBMISSION",
-      "GUILLOTINE",
-      "SUPERPOWER",
+      {
+        level: 1,
+        move: "VISEGRIP",
+      },
+      {
+        level: 1,
+        move: "HARDEN",
+      },
+      {
+        level: 4,
+        move: "FOCUSENERGY",
+      },
+      {
+        level: 8,
+        move: "BIND",
+      },
+      {
+        level: 12,
+        move: "SEISMICTOSS",
+      },
+      {
+        level: 16,
+        move: "BUGBITE",
+      },
+      {
+        level: 20,
+        move: "STORMTHROW",
+      },
+      {
+        level: 24,
+        move: "DOUBLEHIT",
+      },
+      {
+        level: 28,
+        move: "VITALTHROW",
+      },
+      {
+        level: 32,
+        move: "XSCISSOR",
+      },
+      {
+        level: 36,
+        move: "STRENGTH",
+      },
+      {
+        level: 40,
+        move: "SWORDSDANCE",
+      },
+      {
+        level: 44,
+        move: "SUBMISSION",
+      },
+      {
+        level: 48,
+        move: "GUILLOTINE",
+      },
+      {
+        level: 52,
+        move: "SUPERPOWER",
+      },
     ],
     tutorMoves: [
       "ATTRACT",
@@ -5634,20 +7722,62 @@ export const pokemonForms: PokemonForm[] = [
     hiddenAbilities: ["CUDCHEW"],
     category: "Wild Bull",
     moves: [
-      "TACKLE",
-      "TAILWHIP",
-      "WORKUP",
-      "DOUBLEKICK",
-      "ASSURANCE",
-      "HEADBUTT",
-      "SCARYFACE",
-      "ZENHEADBUTT",
-      "RAGINGBULL",
-      "REST",
-      "SWAGGER",
-      "THRASH",
-      "DOUBLEEDGE",
-      "CLOSECOMBAT",
+      {
+        level: 1,
+        move: "TACKLE",
+      },
+      {
+        level: 1,
+        move: "TAILWHIP",
+      },
+      {
+        level: 5,
+        move: "WORKUP",
+      },
+      {
+        level: 10,
+        move: "DOUBLEKICK",
+      },
+      {
+        level: 15,
+        move: "ASSURANCE",
+      },
+      {
+        level: 20,
+        move: "HEADBUTT",
+      },
+      {
+        level: 25,
+        move: "SCARYFACE",
+      },
+      {
+        level: 30,
+        move: "ZENHEADBUTT",
+      },
+      {
+        level: 35,
+        move: "RAGINGBULL",
+      },
+      {
+        level: 40,
+        move: "REST",
+      },
+      {
+        level: 45,
+        move: "SWAGGER",
+      },
+      {
+        level: 50,
+        move: "THRASH",
+      },
+      {
+        level: 55,
+        move: "DOUBLEEDGE",
+      },
+      {
+        level: 60,
+        move: "CLOSECOMBAT",
+      },
     ],
     tutorMoves: [
       "BODYPRESS",
@@ -5723,20 +7853,62 @@ export const pokemonForms: PokemonForm[] = [
     hiddenAbilities: ["CUDCHEW"],
     category: "Wild Bull",
     moves: [
-      "TACKLE",
-      "TAILWHIP",
-      "WORKUP",
-      "DOUBLEKICK",
-      "FLAMECHARGE",
-      "HEADBUTT",
-      "SCARYFACE",
-      "ZENHEADBUTT",
-      "RAGINGBULL",
-      "REST",
-      "SWAGGER",
-      "THRASH",
-      "FLAREBLITZ",
-      "CLOSECOMBAT",
+      {
+        level: 1,
+        move: "TACKLE",
+      },
+      {
+        level: 1,
+        move: "TAILWHIP",
+      },
+      {
+        level: 5,
+        move: "WORKUP",
+      },
+      {
+        level: 10,
+        move: "DOUBLEKICK",
+      },
+      {
+        level: 15,
+        move: "FLAMECHARGE",
+      },
+      {
+        level: 20,
+        move: "HEADBUTT",
+      },
+      {
+        level: 25,
+        move: "SCARYFACE",
+      },
+      {
+        level: 30,
+        move: "ZENHEADBUTT",
+      },
+      {
+        level: 35,
+        move: "RAGINGBULL",
+      },
+      {
+        level: 40,
+        move: "REST",
+      },
+      {
+        level: 45,
+        move: "SWAGGER",
+      },
+      {
+        level: 50,
+        move: "THRASH",
+      },
+      {
+        level: 55,
+        move: "FLAREBLITZ",
+      },
+      {
+        level: 60,
+        move: "CLOSECOMBAT",
+      },
     ],
     tutorMoves: [
       "BODYPRESS",
@@ -5818,20 +7990,62 @@ export const pokemonForms: PokemonForm[] = [
     hiddenAbilities: ["CUDCHEW"],
     category: "Wild Bull",
     moves: [
-      "TACKLE",
-      "TAILWHIP",
-      "WORKUP",
-      "DOUBLEKICK",
-      "AQUAJET",
-      "HEADBUTT",
-      "SCARYFACE",
-      "ZENHEADBUTT",
-      "RAGINGBULL",
-      "REST",
-      "SWAGGER",
-      "THRASH",
-      "WAVECRASH",
-      "CLOSECOMBAT",
+      {
+        level: 1,
+        move: "TACKLE",
+      },
+      {
+        level: 1,
+        move: "TAILWHIP",
+      },
+      {
+        level: 5,
+        move: "WORKUP",
+      },
+      {
+        level: 10,
+        move: "DOUBLEKICK",
+      },
+      {
+        level: 15,
+        move: "AQUAJET",
+      },
+      {
+        level: 20,
+        move: "HEADBUTT",
+      },
+      {
+        level: 25,
+        move: "SCARYFACE",
+      },
+      {
+        level: 30,
+        move: "ZENHEADBUTT",
+      },
+      {
+        level: 35,
+        move: "RAGINGBULL",
+      },
+      {
+        level: 40,
+        move: "REST",
+      },
+      {
+        level: 45,
+        move: "SWAGGER",
+      },
+      {
+        level: 50,
+        move: "THRASH",
+      },
+      {
+        level: 55,
+        move: "WAVECRASH",
+      },
+      {
+        level: 60,
+        move: "CLOSECOMBAT",
+      },
     ],
     tutorMoves: [
       "BODYPRESS",
@@ -5910,25 +8124,82 @@ export const pokemonForms: PokemonForm[] = [
     hiddenAbilities: ["MOLDBREAKER"],
     category: "Atrocious",
     moves: [
-      "BITE",
-      "FLAIL",
-      "SPLASH",
-      "TACKLE",
-      "LEER",
-      "TWISTER",
-      "WHIRLPOOL",
-      "ICEFANG",
-      "BRINE",
-      "SCARYFACE",
-      "WATERFALL",
-      "CRUNCH",
-      "RAINDANCE",
-      "AQUATAIL",
-      "DRAGONDANCE",
-      "HYDROPUMP",
-      "HURRICANE",
-      "THRASH",
-      "HYPERBEAM",
+      {
+        level: 0,
+        move: "BITE",
+      },
+      {
+        level: 1,
+        move: "FLAIL",
+      },
+      {
+        level: 1,
+        move: "SPLASH",
+      },
+      {
+        level: 1,
+        move: "TACKLE",
+      },
+      {
+        level: 1,
+        move: "LEER",
+      },
+      {
+        level: 1,
+        move: "TWISTER",
+      },
+      {
+        level: 4,
+        move: "WHIRLPOOL",
+      },
+      {
+        level: 8,
+        move: "ICEFANG",
+      },
+      {
+        level: 12,
+        move: "BRINE",
+      },
+      {
+        level: 16,
+        move: "SCARYFACE",
+      },
+      {
+        level: 21,
+        move: "WATERFALL",
+      },
+      {
+        level: 24,
+        move: "CRUNCH",
+      },
+      {
+        level: 28,
+        move: "RAINDANCE",
+      },
+      {
+        level: 32,
+        move: "AQUATAIL",
+      },
+      {
+        level: 36,
+        move: "DRAGONDANCE",
+      },
+      {
+        level: 40,
+        move: "HYDROPUMP",
+      },
+      {
+        level: 44,
+        move: "HURRICANE",
+      },
+      {
+        level: 48,
+        move: "THRASH",
+      },
+      {
+        level: 52,
+        move: "HYPERBEAM",
+      },
     ],
     tutorMoves: [
       "AQUATAIL",
@@ -6044,20 +8315,62 @@ export const pokemonForms: PokemonForm[] = [
     hiddenAbilities: ["TOUGHCLAWS"],
     category: "Fossil",
     moves: [
-      "BITE",
-      "ANCIENTPOWER",
-      "SUPERSONIC",
-      "WINGATTACK",
-      "SCARYFACE",
-      "ROCKSLIDE",
-      "ROAR",
-      "CRUNCH",
-      "IRONHEAD",
-      "TAKEDOWN",
-      "STONEEDGE",
-      "AGILITY",
-      "HYPERBEAM",
-      "GIGAIMPACT",
+      {
+        level: 1,
+        move: "BITE",
+      },
+      {
+        level: 1,
+        move: "ANCIENTPOWER",
+      },
+      {
+        level: 5,
+        move: "SUPERSONIC",
+      },
+      {
+        level: 10,
+        move: "WINGATTACK",
+      },
+      {
+        level: 15,
+        move: "SCARYFACE",
+      },
+      {
+        level: 20,
+        move: "ROCKSLIDE",
+      },
+      {
+        level: 25,
+        move: "ROAR",
+      },
+      {
+        level: 30,
+        move: "CRUNCH",
+      },
+      {
+        level: 35,
+        move: "IRONHEAD",
+      },
+      {
+        level: 40,
+        move: "TAKEDOWN",
+      },
+      {
+        level: 45,
+        move: "STONEEDGE",
+      },
+      {
+        level: 50,
+        move: "AGILITY",
+      },
+      {
+        level: 55,
+        move: "HYPERBEAM",
+      },
+      {
+        level: 60,
+        move: "GIGAIMPACT",
+      },
     ],
     tutorMoves: [
       "AERIALACE",
@@ -6180,21 +8493,66 @@ export const pokemonForms: PokemonForm[] = [
     hiddenAbilities: ["COMPETITIVE"],
     category: "Cruel",
     moves: [
-      "GUST",
-      "CONFUSION",
-      "REFLECT",
-      "HYPNOSIS",
-      "AGILITY",
-      "ANCIENTPOWER",
-      "TAILWIND",
-      "PSYCHOCUT",
-      "RECOVER",
-      "FREEZINGGLARE",
-      "DREAMEATER",
-      "HURRICANE",
-      "DOUBLETEAM",
-      "FUTURESIGHT",
-      "TRICKROOM",
+      {
+        level: 1,
+        move: "GUST",
+      },
+      {
+        level: 5,
+        move: "CONFUSION",
+      },
+      {
+        level: 10,
+        move: "REFLECT",
+      },
+      {
+        level: 15,
+        move: "HYPNOSIS",
+      },
+      {
+        level: 20,
+        move: "AGILITY",
+      },
+      {
+        level: 25,
+        move: "ANCIENTPOWER",
+      },
+      {
+        level: 30,
+        move: "TAILWIND",
+      },
+      {
+        level: 35,
+        move: "PSYCHOCUT",
+      },
+      {
+        level: 40,
+        move: "RECOVER",
+      },
+      {
+        level: 45,
+        move: "FREEZINGGLARE",
+      },
+      {
+        level: 50,
+        move: "DREAMEATER",
+      },
+      {
+        level: 55,
+        move: "HURRICANE",
+      },
+      {
+        level: 60,
+        move: "DOUBLETEAM",
+      },
+      {
+        level: 65,
+        move: "FUTURESIGHT",
+      },
+      {
+        level: 70,
+        move: "TRICKROOM",
+      },
     ],
     tutorMoves: [
       "AGILITY",
@@ -6287,22 +8645,70 @@ export const pokemonForms: PokemonForm[] = [
     hiddenAbilities: ["DEFIANT"],
     category: "Strong Legs",
     moves: [
-      "PECK",
-      "FOCUSENERGY",
-      "ROCKSMASH",
-      "LIGHTSCREEN",
-      "PLUCK",
-      "AGILITY",
-      "ANCIENTPOWER",
-      "BRICKBREAK",
-      "DRILLPECK",
-      "QUICKGUARD",
-      "THUNDEROUSKICK",
-      "BULKUP",
-      "COUNTER",
-      "DETECT",
-      "CLOSECOMBAT",
-      "REVERSAL",
+      {
+        level: 1,
+        move: "PECK",
+      },
+      {
+        level: 1,
+        move: "FOCUSENERGY",
+      },
+      {
+        level: 5,
+        move: "ROCKSMASH",
+      },
+      {
+        level: 10,
+        move: "LIGHTSCREEN",
+      },
+      {
+        level: 15,
+        move: "PLUCK",
+      },
+      {
+        level: 20,
+        move: "AGILITY",
+      },
+      {
+        level: 25,
+        move: "ANCIENTPOWER",
+      },
+      {
+        level: 30,
+        move: "BRICKBREAK",
+      },
+      {
+        level: 35,
+        move: "DRILLPECK",
+      },
+      {
+        level: 40,
+        move: "QUICKGUARD",
+      },
+      {
+        level: 45,
+        move: "THUNDEROUSKICK",
+      },
+      {
+        level: 50,
+        move: "BULKUP",
+      },
+      {
+        level: 55,
+        move: "COUNTER",
+      },
+      {
+        level: 60,
+        move: "DETECT",
+      },
+      {
+        level: 65,
+        move: "CLOSECOMBAT",
+      },
+      {
+        level: 70,
+        move: "REVERSAL",
+      },
     ],
     tutorMoves: [
       "ACROBATICS",
@@ -6399,22 +8805,70 @@ export const pokemonForms: PokemonForm[] = [
     hiddenAbilities: ["BERSERK"],
     category: "Malevolent",
     moves: [
-      "GUST",
-      "LEER",
-      "PAYBACK",
-      "SAFEGUARD",
-      "WINGATTACK",
-      "AGILITY",
-      "ANCIENTPOWER",
-      "SUCKERPUNCH",
-      "AIRSLASH",
-      "AFTERYOU",
-      "FIERYWRATH",
-      "NASTYPLOT",
-      "HURRICANE",
-      "ENDURE",
-      "MEMENTO",
-      "SKYATTACK",
+      {
+        level: 1,
+        move: "GUST",
+      },
+      {
+        level: 1,
+        move: "LEER",
+      },
+      {
+        level: 5,
+        move: "PAYBACK",
+      },
+      {
+        level: 10,
+        move: "SAFEGUARD",
+      },
+      {
+        level: 15,
+        move: "WINGATTACK",
+      },
+      {
+        level: 20,
+        move: "AGILITY",
+      },
+      {
+        level: 25,
+        move: "ANCIENTPOWER",
+      },
+      {
+        level: 30,
+        move: "SUCKERPUNCH",
+      },
+      {
+        level: 35,
+        move: "AIRSLASH",
+      },
+      {
+        level: 40,
+        move: "AFTERYOU",
+      },
+      {
+        level: 45,
+        move: "FIERYWRATH",
+      },
+      {
+        level: 50,
+        move: "NASTYPLOT",
+      },
+      {
+        level: 55,
+        move: "HURRICANE",
+      },
+      {
+        level: 60,
+        move: "ENDURE",
+      },
+      {
+        level: 65,
+        move: "MEMENTO",
+      },
+      {
+        level: 70,
+        move: "SKYATTACK",
+      },
     ],
     tutorMoves: [
       "ACROBATICS",
@@ -6503,22 +8957,70 @@ export const pokemonForms: PokemonForm[] = [
     hiddenAbilities: ["STEADFAST"],
     category: "Genetic",
     moves: [
-      "LIFEDEW",
-      "DISABLE",
-      "CONFUSION",
-      "SWIFT",
-      "ANCIENTPOWER",
-      "PSYCHOCUT",
-      "SAFEGUARD",
-      "AMNESIA",
-      "AURASPHERE",
-      "PSYCHIC",
-      "POWERSWAP",
-      "GUARDSWAP",
-      "MIST",
-      "PSYSTRIKE",
-      "RECOVER",
-      "FUTURESIGHT",
+      {
+        level: 1,
+        move: "LIFEDEW",
+      },
+      {
+        level: 1,
+        move: "DISABLE",
+      },
+      {
+        level: 1,
+        move: "CONFUSION",
+      },
+      {
+        level: 1,
+        move: "SWIFT",
+      },
+      {
+        level: 8,
+        move: "ANCIENTPOWER",
+      },
+      {
+        level: 16,
+        move: "PSYCHOCUT",
+      },
+      {
+        level: 24,
+        move: "SAFEGUARD",
+      },
+      {
+        level: 32,
+        move: "AMNESIA",
+      },
+      {
+        level: 40,
+        move: "AURASPHERE",
+      },
+      {
+        level: 48,
+        move: "PSYCHIC",
+      },
+      {
+        level: 56,
+        move: "POWERSWAP",
+      },
+      {
+        level: 56,
+        move: "GUARDSWAP",
+      },
+      {
+        level: 64,
+        move: "MIST",
+      },
+      {
+        level: 72,
+        move: "PSYSTRIKE",
+      },
+      {
+        level: 80,
+        move: "RECOVER",
+      },
+      {
+        level: 88,
+        move: "FUTURESIGHT",
+      },
     ],
     tutorMoves: [
       "AGILITY",
@@ -6693,22 +9195,70 @@ export const pokemonForms: PokemonForm[] = [
     hiddenAbilities: ["INSOMNIA"],
     category: "Genetic",
     moves: [
-      "LIFEDEW",
-      "DISABLE",
-      "CONFUSION",
-      "SWIFT",
-      "ANCIENTPOWER",
-      "PSYCHOCUT",
-      "SAFEGUARD",
-      "AMNESIA",
-      "AURASPHERE",
-      "PSYCHIC",
-      "POWERSWAP",
-      "GUARDSWAP",
-      "MIST",
-      "PSYSTRIKE",
-      "RECOVER",
-      "FUTURESIGHT",
+      {
+        level: 1,
+        move: "LIFEDEW",
+      },
+      {
+        level: 1,
+        move: "DISABLE",
+      },
+      {
+        level: 1,
+        move: "CONFUSION",
+      },
+      {
+        level: 1,
+        move: "SWIFT",
+      },
+      {
+        level: 8,
+        move: "ANCIENTPOWER",
+      },
+      {
+        level: 16,
+        move: "PSYCHOCUT",
+      },
+      {
+        level: 24,
+        move: "SAFEGUARD",
+      },
+      {
+        level: 32,
+        move: "AMNESIA",
+      },
+      {
+        level: 40,
+        move: "AURASPHERE",
+      },
+      {
+        level: 48,
+        move: "PSYCHIC",
+      },
+      {
+        level: 56,
+        move: "POWERSWAP",
+      },
+      {
+        level: 56,
+        move: "GUARDSWAP",
+      },
+      {
+        level: 64,
+        move: "MIST",
+      },
+      {
+        level: 72,
+        move: "PSYSTRIKE",
+      },
+      {
+        level: 80,
+        move: "RECOVER",
+      },
+      {
+        level: 88,
+        move: "FUTURESIGHT",
+      },
     ],
     tutorMoves: [
       "AGILITY",
@@ -6883,24 +9433,78 @@ export const pokemonForms: PokemonForm[] = [
     hiddenAbilities: ["FRISK"],
     category: "Ghost Flame",
     moves: [
-      "INFERNALPARADE",
-      "ERUPTION",
-      "DOUBLEEDGE",
-      "GYROBALL",
-      "TACKLE",
-      "LEER",
-      "SMOKESCREEN",
-      "EMBER",
-      "QUICKATTACK",
-      "FLAMEWHEEL",
-      "DEFENSECURL",
-      "SWIFT",
-      "FLAMECHARGE",
-      "LAVAPLUME",
-      "FLAMETHROWER",
-      "INFERNO",
-      "ROLLOUT",
-      "OVERHEAT",
+      {
+        level: 0,
+        move: "INFERNALPARADE",
+      },
+      {
+        level: 1,
+        move: "ERUPTION",
+      },
+      {
+        level: 1,
+        move: "DOUBLEEDGE",
+      },
+      {
+        level: 1,
+        move: "GYROBALL",
+      },
+      {
+        level: 1,
+        move: "TACKLE",
+      },
+      {
+        level: 1,
+        move: "LEER",
+      },
+      {
+        level: 1,
+        move: "SMOKESCREEN",
+      },
+      {
+        level: 1,
+        move: "EMBER",
+      },
+      {
+        level: 13,
+        move: "QUICKATTACK",
+      },
+      {
+        level: 20,
+        move: "FLAMEWHEEL",
+      },
+      {
+        level: 24,
+        move: "DEFENSECURL",
+      },
+      {
+        level: 31,
+        move: "SWIFT",
+      },
+      {
+        level: 35,
+        move: "FLAMECHARGE",
+      },
+      {
+        level: 43,
+        move: "LAVAPLUME",
+      },
+      {
+        level: 48,
+        move: "FLAMETHROWER",
+      },
+      {
+        level: 56,
+        move: "INFERNO",
+      },
+      {
+        level: 61,
+        move: "ROLLOUT",
+      },
+      {
+        level: 74,
+        move: "OVERHEAT",
+      },
     ],
     tutorMoves: [
       "AERIALACE",
@@ -6992,13 +9596,34 @@ export const pokemonForms: PokemonForm[] = [
     hiddenAbilities: ["LIGHTNINGROD"],
     category: "Tiny Mouse",
     moves: [
-      "THUNDERSHOCK",
-      "TAILWHIP",
-      "PLAYNICE",
-      "SWEETKISS",
-      "NUZZLE",
-      "NASTYPLOT",
-      "CHARM",
+      {
+        level: 1,
+        move: "THUNDERSHOCK",
+      },
+      {
+        level: 1,
+        move: "TAILWHIP",
+      },
+      {
+        level: 4,
+        move: "PLAYNICE",
+      },
+      {
+        level: 8,
+        move: "SWEETKISS",
+      },
+      {
+        level: 12,
+        move: "NUZZLE",
+      },
+      {
+        level: 16,
+        move: "NASTYPLOT",
+      },
+      {
+        level: 20,
+        move: "CHARM",
+      },
     ],
     tutorMoves: [
       "ATTRACT",
@@ -7106,26 +9731,86 @@ export const pokemonForms: PokemonForm[] = [
     hiddenAbilities: ["MOLDBREAKER"],
     category: "Light",
     moves: [
-      "THUNDERPUNCH",
-      "ZAPCANNON",
-      "MAGNETICFLUX",
-      "DRAGONPULSE",
-      "FIREPUNCH",
-      "TACKLE",
-      "GROWL",
-      "THUNDERWAVE",
-      "THUNDERSHOCK",
-      "COTTONSPORE",
-      "CHARGE",
-      "TAKEDOWN",
-      "ELECTROBALL",
-      "CONFUSERAY",
-      "POWERGEM",
-      "DISCHARGE",
-      "COTTONGUARD",
-      "DAZZLINGGLEAM",
-      "LIGHTSCREEN",
-      "THUNDER",
+      {
+        level: 0,
+        move: "THUNDERPUNCH",
+      },
+      {
+        level: 1,
+        move: "ZAPCANNON",
+      },
+      {
+        level: 1,
+        move: "MAGNETICFLUX",
+      },
+      {
+        level: 1,
+        move: "DRAGONPULSE",
+      },
+      {
+        level: 1,
+        move: "FIREPUNCH",
+      },
+      {
+        level: 1,
+        move: "TACKLE",
+      },
+      {
+        level: 1,
+        move: "GROWL",
+      },
+      {
+        level: 1,
+        move: "THUNDERWAVE",
+      },
+      {
+        level: 1,
+        move: "THUNDERSHOCK",
+      },
+      {
+        level: 11,
+        move: "COTTONSPORE",
+      },
+      {
+        level: 16,
+        move: "CHARGE",
+      },
+      {
+        level: 20,
+        move: "TAKEDOWN",
+      },
+      {
+        level: 25,
+        move: "ELECTROBALL",
+      },
+      {
+        level: 29,
+        move: "CONFUSERAY",
+      },
+      {
+        level: 35,
+        move: "POWERGEM",
+      },
+      {
+        level: 40,
+        move: "DISCHARGE",
+      },
+      {
+        level: 46,
+        move: "COTTONGUARD",
+      },
+      {
+        level: 51,
+        move: "DAZZLINGGLEAM",
+      },
+      {
+        level: 57,
+        move: "LIGHTSCREEN",
+      },
+      {
+        level: 62,
+        move: "THUNDER",
+      },
     ],
     tutorMoves: [
       "AFTERYOU",
@@ -7249,18 +9934,54 @@ export const pokemonForms: PokemonForm[] = [
     hiddenAbilities: ["UNAWARE"],
     category: "Poison Fish",
     moves: [
-      "MUDSHOT",
-      "TAILWHIP",
-      "TACKLE",
-      "POISONTAIL",
-      "TOXICSPIKES",
-      "SLAM",
-      "YAWN",
-      "POISONJAB",
-      "SLUDGEWAVE",
-      "AMNESIA",
-      "TOXIC",
-      "EARTHQUAKE",
+      {
+        level: 1,
+        move: "MUDSHOT",
+      },
+      {
+        level: 1,
+        move: "TAILWHIP",
+      },
+      {
+        level: 4,
+        move: "TACKLE",
+      },
+      {
+        level: 8,
+        move: "POISONTAIL",
+      },
+      {
+        level: 12,
+        move: "TOXICSPIKES",
+      },
+      {
+        level: 16,
+        move: "SLAM",
+      },
+      {
+        level: 21,
+        move: "YAWN",
+      },
+      {
+        level: 24,
+        move: "POISONJAB",
+      },
+      {
+        level: 28,
+        move: "SLUDGEWAVE",
+      },
+      {
+        level: 32,
+        move: "AMNESIA",
+      },
+      {
+        level: 36,
+        move: "TOXIC",
+      },
+      {
+        level: 40,
+        move: "EARTHQUAKE",
+      },
     ],
     tutorMoves: [
       "ACIDSPRAY",
@@ -7360,30 +10081,102 @@ export const pokemonForms: PokemonForm[] = [
     hiddenAbilities: ["REGENERATOR"],
     category: "Hexpert",
     moves: [
-      "EERIESPELL",
-      "TOXIC",
-      "FUTURESIGHT",
-      "CHILLYRECEPTION",
-      "POWERGEM",
-      "NASTYPLOT",
-      "SWAGGER",
-      "TACKLE",
-      "CURSE",
-      "GROWL",
-      "ACID",
-      "YAWN",
-      "CONFUSION",
-      "DISABLE",
-      "WATERPULSE",
-      "HEADBUTT",
-      "ZENHEADBUTT",
-      "AMNESIA",
-      "SURF",
-      "SLACKOFF",
-      "PSYCHIC",
-      "PSYCHUP",
-      "RAINDANCE",
-      "HEALPULSE",
+      {
+        level: 0,
+        move: "EERIESPELL",
+      },
+      {
+        level: 1,
+        move: "TOXIC",
+      },
+      {
+        level: 1,
+        move: "FUTURESIGHT",
+      },
+      {
+        level: 1,
+        move: "CHILLYRECEPTION",
+      },
+      {
+        level: 1,
+        move: "POWERGEM",
+      },
+      {
+        level: 1,
+        move: "NASTYPLOT",
+      },
+      {
+        level: 1,
+        move: "SWAGGER",
+      },
+      {
+        level: 1,
+        move: "TACKLE",
+      },
+      {
+        level: 1,
+        move: "CURSE",
+      },
+      {
+        level: 1,
+        move: "GROWL",
+      },
+      {
+        level: 1,
+        move: "ACID",
+      },
+      {
+        level: 9,
+        move: "YAWN",
+      },
+      {
+        level: 12,
+        move: "CONFUSION",
+      },
+      {
+        level: 15,
+        move: "DISABLE",
+      },
+      {
+        level: 18,
+        move: "WATERPULSE",
+      },
+      {
+        level: 21,
+        move: "HEADBUTT",
+      },
+      {
+        level: 24,
+        move: "ZENHEADBUTT",
+      },
+      {
+        level: 27,
+        move: "AMNESIA",
+      },
+      {
+        level: 30,
+        move: "SURF",
+      },
+      {
+        level: 33,
+        move: "SLACKOFF",
+      },
+      {
+        level: 36,
+        move: "PSYCHIC",
+      },
+      {
+        level: 39,
+        move: "PSYCHUP",
+      },
+      {
+        level: 42,
+        move: "RAINDANCE",
+      },
+      {
+        level: 45,
+        move: "HEALPULSE",
+      },
     ],
     tutorMoves: [
       "ACIDSPRAY",
@@ -7523,7 +10316,12 @@ export const pokemonForms: PokemonForm[] = [
     abilities: ["LEVITATE"],
     hiddenAbilities: [],
     category: "Symbol",
-    moves: ["HIDDENPOWER"],
+    moves: [
+      {
+        level: 1,
+        move: "HIDDENPOWER",
+      },
+    ],
     tutorMoves: ["HIDDENPOWER"],
     eggMoves: [],
     suffix: "normal",
@@ -7555,7 +10353,12 @@ export const pokemonForms: PokemonForm[] = [
     abilities: ["LEVITATE"],
     hiddenAbilities: [],
     category: "Symbol",
-    moves: ["HIDDENPOWER"],
+    moves: [
+      {
+        level: 1,
+        move: "HIDDENPOWER",
+      },
+    ],
     tutorMoves: ["HIDDENPOWER"],
     eggMoves: [],
     suffix: "normal",
@@ -7587,7 +10390,12 @@ export const pokemonForms: PokemonForm[] = [
     abilities: ["LEVITATE"],
     hiddenAbilities: [],
     category: "Symbol",
-    moves: ["HIDDENPOWER"],
+    moves: [
+      {
+        level: 1,
+        move: "HIDDENPOWER",
+      },
+    ],
     tutorMoves: ["HIDDENPOWER"],
     eggMoves: [],
     suffix: "normal",
@@ -7619,7 +10427,12 @@ export const pokemonForms: PokemonForm[] = [
     abilities: ["LEVITATE"],
     hiddenAbilities: [],
     category: "Symbol",
-    moves: ["HIDDENPOWER"],
+    moves: [
+      {
+        level: 1,
+        move: "HIDDENPOWER",
+      },
+    ],
     tutorMoves: ["HIDDENPOWER"],
     eggMoves: [],
     suffix: "normal",
@@ -7651,7 +10464,12 @@ export const pokemonForms: PokemonForm[] = [
     abilities: ["LEVITATE"],
     hiddenAbilities: [],
     category: "Symbol",
-    moves: ["HIDDENPOWER"],
+    moves: [
+      {
+        level: 1,
+        move: "HIDDENPOWER",
+      },
+    ],
     tutorMoves: ["HIDDENPOWER"],
     eggMoves: [],
     suffix: "normal",
@@ -7683,7 +10501,12 @@ export const pokemonForms: PokemonForm[] = [
     abilities: ["LEVITATE"],
     hiddenAbilities: [],
     category: "Symbol",
-    moves: ["HIDDENPOWER"],
+    moves: [
+      {
+        level: 1,
+        move: "HIDDENPOWER",
+      },
+    ],
     tutorMoves: ["HIDDENPOWER"],
     eggMoves: [],
     suffix: "normal",
@@ -7715,7 +10538,12 @@ export const pokemonForms: PokemonForm[] = [
     abilities: ["LEVITATE"],
     hiddenAbilities: [],
     category: "Symbol",
-    moves: ["HIDDENPOWER"],
+    moves: [
+      {
+        level: 1,
+        move: "HIDDENPOWER",
+      },
+    ],
     tutorMoves: ["HIDDENPOWER"],
     eggMoves: [],
     suffix: "normal",
@@ -7747,7 +10575,12 @@ export const pokemonForms: PokemonForm[] = [
     abilities: ["LEVITATE"],
     hiddenAbilities: [],
     category: "Symbol",
-    moves: ["HIDDENPOWER"],
+    moves: [
+      {
+        level: 1,
+        move: "HIDDENPOWER",
+      },
+    ],
     tutorMoves: ["HIDDENPOWER"],
     eggMoves: [],
     suffix: "normal",
@@ -7779,7 +10612,12 @@ export const pokemonForms: PokemonForm[] = [
     abilities: ["LEVITATE"],
     hiddenAbilities: [],
     category: "Symbol",
-    moves: ["HIDDENPOWER"],
+    moves: [
+      {
+        level: 1,
+        move: "HIDDENPOWER",
+      },
+    ],
     tutorMoves: ["HIDDENPOWER"],
     eggMoves: [],
     suffix: "normal",
@@ -7811,7 +10649,12 @@ export const pokemonForms: PokemonForm[] = [
     abilities: ["LEVITATE"],
     hiddenAbilities: [],
     category: "Symbol",
-    moves: ["HIDDENPOWER"],
+    moves: [
+      {
+        level: 1,
+        move: "HIDDENPOWER",
+      },
+    ],
     tutorMoves: ["HIDDENPOWER"],
     eggMoves: [],
     suffix: "normal",
@@ -7843,7 +10686,12 @@ export const pokemonForms: PokemonForm[] = [
     abilities: ["LEVITATE"],
     hiddenAbilities: [],
     category: "Symbol",
-    moves: ["HIDDENPOWER"],
+    moves: [
+      {
+        level: 1,
+        move: "HIDDENPOWER",
+      },
+    ],
     tutorMoves: ["HIDDENPOWER"],
     eggMoves: [],
     suffix: "normal",
@@ -7875,7 +10723,12 @@ export const pokemonForms: PokemonForm[] = [
     abilities: ["LEVITATE"],
     hiddenAbilities: [],
     category: "Symbol",
-    moves: ["HIDDENPOWER"],
+    moves: [
+      {
+        level: 1,
+        move: "HIDDENPOWER",
+      },
+    ],
     tutorMoves: ["HIDDENPOWER"],
     eggMoves: [],
     suffix: "normal",
@@ -7907,7 +10760,12 @@ export const pokemonForms: PokemonForm[] = [
     abilities: ["LEVITATE"],
     hiddenAbilities: [],
     category: "Symbol",
-    moves: ["HIDDENPOWER"],
+    moves: [
+      {
+        level: 1,
+        move: "HIDDENPOWER",
+      },
+    ],
     tutorMoves: ["HIDDENPOWER"],
     eggMoves: [],
     suffix: "normal",
@@ -7939,7 +10797,12 @@ export const pokemonForms: PokemonForm[] = [
     abilities: ["LEVITATE"],
     hiddenAbilities: [],
     category: "Symbol",
-    moves: ["HIDDENPOWER"],
+    moves: [
+      {
+        level: 1,
+        move: "HIDDENPOWER",
+      },
+    ],
     tutorMoves: ["HIDDENPOWER"],
     eggMoves: [],
     suffix: "normal",
@@ -7971,7 +10834,12 @@ export const pokemonForms: PokemonForm[] = [
     abilities: ["LEVITATE"],
     hiddenAbilities: [],
     category: "Symbol",
-    moves: ["HIDDENPOWER"],
+    moves: [
+      {
+        level: 1,
+        move: "HIDDENPOWER",
+      },
+    ],
     tutorMoves: ["HIDDENPOWER"],
     eggMoves: [],
     suffix: "normal",
@@ -8003,7 +10871,12 @@ export const pokemonForms: PokemonForm[] = [
     abilities: ["LEVITATE"],
     hiddenAbilities: [],
     category: "Symbol",
-    moves: ["HIDDENPOWER"],
+    moves: [
+      {
+        level: 1,
+        move: "HIDDENPOWER",
+      },
+    ],
     tutorMoves: ["HIDDENPOWER"],
     eggMoves: [],
     suffix: "normal",
@@ -8035,7 +10908,12 @@ export const pokemonForms: PokemonForm[] = [
     abilities: ["LEVITATE"],
     hiddenAbilities: [],
     category: "Symbol",
-    moves: ["HIDDENPOWER"],
+    moves: [
+      {
+        level: 1,
+        move: "HIDDENPOWER",
+      },
+    ],
     tutorMoves: ["HIDDENPOWER"],
     eggMoves: [],
     suffix: "normal",
@@ -8067,7 +10945,12 @@ export const pokemonForms: PokemonForm[] = [
     abilities: ["LEVITATE"],
     hiddenAbilities: [],
     category: "Symbol",
-    moves: ["HIDDENPOWER"],
+    moves: [
+      {
+        level: 1,
+        move: "HIDDENPOWER",
+      },
+    ],
     tutorMoves: ["HIDDENPOWER"],
     eggMoves: [],
     suffix: "normal",
@@ -8099,7 +10982,12 @@ export const pokemonForms: PokemonForm[] = [
     abilities: ["LEVITATE"],
     hiddenAbilities: [],
     category: "Symbol",
-    moves: ["HIDDENPOWER"],
+    moves: [
+      {
+        level: 1,
+        move: "HIDDENPOWER",
+      },
+    ],
     tutorMoves: ["HIDDENPOWER"],
     eggMoves: [],
     suffix: "normal",
@@ -8131,7 +11019,12 @@ export const pokemonForms: PokemonForm[] = [
     abilities: ["LEVITATE"],
     hiddenAbilities: [],
     category: "Symbol",
-    moves: ["HIDDENPOWER"],
+    moves: [
+      {
+        level: 1,
+        move: "HIDDENPOWER",
+      },
+    ],
     tutorMoves: ["HIDDENPOWER"],
     eggMoves: [],
     suffix: "normal",
@@ -8163,7 +11056,12 @@ export const pokemonForms: PokemonForm[] = [
     abilities: ["LEVITATE"],
     hiddenAbilities: [],
     category: "Symbol",
-    moves: ["HIDDENPOWER"],
+    moves: [
+      {
+        level: 1,
+        move: "HIDDENPOWER",
+      },
+    ],
     tutorMoves: ["HIDDENPOWER"],
     eggMoves: [],
     suffix: "normal",
@@ -8195,7 +11093,12 @@ export const pokemonForms: PokemonForm[] = [
     abilities: ["LEVITATE"],
     hiddenAbilities: [],
     category: "Symbol",
-    moves: ["HIDDENPOWER"],
+    moves: [
+      {
+        level: 1,
+        move: "HIDDENPOWER",
+      },
+    ],
     tutorMoves: ["HIDDENPOWER"],
     eggMoves: [],
     suffix: "normal",
@@ -8227,7 +11130,12 @@ export const pokemonForms: PokemonForm[] = [
     abilities: ["LEVITATE"],
     hiddenAbilities: [],
     category: "Symbol",
-    moves: ["HIDDENPOWER"],
+    moves: [
+      {
+        level: 1,
+        move: "HIDDENPOWER",
+      },
+    ],
     tutorMoves: ["HIDDENPOWER"],
     eggMoves: [],
     suffix: "normal",
@@ -8259,7 +11167,12 @@ export const pokemonForms: PokemonForm[] = [
     abilities: ["LEVITATE"],
     hiddenAbilities: [],
     category: "Symbol",
-    moves: ["HIDDENPOWER"],
+    moves: [
+      {
+        level: 1,
+        move: "HIDDENPOWER",
+      },
+    ],
     tutorMoves: ["HIDDENPOWER"],
     eggMoves: [],
     suffix: "normal",
@@ -8291,7 +11204,12 @@ export const pokemonForms: PokemonForm[] = [
     abilities: ["LEVITATE"],
     hiddenAbilities: [],
     category: "Symbol",
-    moves: ["HIDDENPOWER"],
+    moves: [
+      {
+        level: 1,
+        move: "HIDDENPOWER",
+      },
+    ],
     tutorMoves: ["HIDDENPOWER"],
     eggMoves: [],
     suffix: "normal",
@@ -8323,7 +11241,12 @@ export const pokemonForms: PokemonForm[] = [
     abilities: ["LEVITATE"],
     hiddenAbilities: [],
     category: "Symbol",
-    moves: ["HIDDENPOWER"],
+    moves: [
+      {
+        level: 1,
+        move: "HIDDENPOWER",
+      },
+    ],
     tutorMoves: ["HIDDENPOWER"],
     eggMoves: [],
     suffix: "normal",
@@ -8355,7 +11278,12 @@ export const pokemonForms: PokemonForm[] = [
     abilities: ["LEVITATE"],
     hiddenAbilities: [],
     category: "Symbol",
-    moves: ["HIDDENPOWER"],
+    moves: [
+      {
+        level: 1,
+        move: "HIDDENPOWER",
+      },
+    ],
     tutorMoves: ["HIDDENPOWER"],
     eggMoves: [],
     suffix: "normal",
@@ -8388,30 +11316,102 @@ export const pokemonForms: PokemonForm[] = [
     hiddenAbilities: ["SANDFORCE"],
     category: "Iron Snake",
     moves: [
-      "CRUNCH",
-      "THUNDERFANG",
-      "ICEFANG",
-      "FIREFANG",
-      "ROCKPOLISH",
-      "TACKLE",
-      "HARDEN",
-      "BIND",
-      "ROCKTHROW",
-      "SMACKDOWN",
-      "AUTOTOMIZE",
-      "DRAGONBREATH",
-      "CURSE",
-      "ROCKSLIDE",
-      "SCREECH",
-      "SANDTOMB",
-      "STEALTHROCK",
-      "SLAM",
-      "SANDSTORM",
-      "DIG",
-      "IRONTAIL",
-      "STONEEDGE",
-      "DOUBLEEDGE",
-      "MAGNETRISE",
+      {
+        level: 1,
+        move: "CRUNCH",
+      },
+      {
+        level: 1,
+        move: "THUNDERFANG",
+      },
+      {
+        level: 1,
+        move: "ICEFANG",
+      },
+      {
+        level: 1,
+        move: "FIREFANG",
+      },
+      {
+        level: 1,
+        move: "ROCKPOLISH",
+      },
+      {
+        level: 1,
+        move: "TACKLE",
+      },
+      {
+        level: 1,
+        move: "HARDEN",
+      },
+      {
+        level: 1,
+        move: "BIND",
+      },
+      {
+        level: 1,
+        move: "ROCKTHROW",
+      },
+      {
+        level: 4,
+        move: "SMACKDOWN",
+      },
+      {
+        level: 8,
+        move: "AUTOTOMIZE",
+      },
+      {
+        level: 12,
+        move: "DRAGONBREATH",
+      },
+      {
+        level: 16,
+        move: "CURSE",
+      },
+      {
+        level: 20,
+        move: "ROCKSLIDE",
+      },
+      {
+        level: 24,
+        move: "SCREECH",
+      },
+      {
+        level: 28,
+        move: "SANDTOMB",
+      },
+      {
+        level: 32,
+        move: "STEALTHROCK",
+      },
+      {
+        level: 36,
+        move: "SLAM",
+      },
+      {
+        level: 40,
+        move: "SANDSTORM",
+      },
+      {
+        level: 44,
+        move: "DIG",
+      },
+      {
+        level: 48,
+        move: "IRONTAIL",
+      },
+      {
+        level: 52,
+        move: "STONEEDGE",
+      },
+      {
+        level: 56,
+        move: "DOUBLEEDGE",
+      },
+      {
+        level: 60,
+        move: "MAGNETRISE",
+      },
     ],
     tutorMoves: [
       "ANCIENTPOWER",
@@ -8532,23 +11532,74 @@ export const pokemonForms: PokemonForm[] = [
     hiddenAbilities: ["INTIMIDATE"],
     category: "Balloon",
     moves: [
-      "POISONSTING",
-      "TACKLE",
-      "HARDEN",
-      "BITE",
-      "FELLSTINGER",
-      "MINIMIZE",
-      "SPIKES",
-      "BRINE",
-      "BARBBARRAGE",
-      "PINMISSILE",
-      "TOXICSPIKES",
-      "STOCKPILE",
-      "SPITUP",
-      "TOXIC",
-      "CRUNCH",
-      "ACUPRESSURE",
-      "DESTINYBOND",
+      {
+        level: 1,
+        move: "POISONSTING",
+      },
+      {
+        level: 1,
+        move: "TACKLE",
+      },
+      {
+        level: 4,
+        move: "HARDEN",
+      },
+      {
+        level: 8,
+        move: "BITE",
+      },
+      {
+        level: 12,
+        move: "FELLSTINGER",
+      },
+      {
+        level: 16,
+        move: "MINIMIZE",
+      },
+      {
+        level: 20,
+        move: "SPIKES",
+      },
+      {
+        level: 24,
+        move: "BRINE",
+      },
+      {
+        level: 28,
+        move: "BARBBARRAGE",
+      },
+      {
+        level: 32,
+        move: "PINMISSILE",
+      },
+      {
+        level: 36,
+        move: "TOXICSPIKES",
+      },
+      {
+        level: 40,
+        move: "STOCKPILE",
+      },
+      {
+        level: 40,
+        move: "SPITUP",
+      },
+      {
+        level: 44,
+        move: "TOXIC",
+      },
+      {
+        level: 48,
+        move: "CRUNCH",
+      },
+      {
+        level: 52,
+        move: "ACUPRESSURE",
+      },
+      {
+        level: 56,
+        move: "DESTINYBOND",
+      },
     ],
     tutorMoves: [
       "ACIDSPRAY",
@@ -8648,23 +11699,74 @@ export const pokemonForms: PokemonForm[] = [
     hiddenAbilities: ["TECHNICIAN"],
     category: "Pincer",
     moves: [
-      "BULLETPUNCH",
-      "WINGATTACK",
-      "AGILITY",
-      "AIRSLASH",
-      "QUICKATTACK",
-      "LEER",
-      "FURYCUTTER",
-      "FALSESWIPE",
-      "METALCLAW",
-      "DOUBLETEAM",
-      "DOUBLEHIT",
-      "SLASH",
-      "FOCUSENERGY",
-      "IRONDEFENSE",
-      "IRONHEAD",
-      "XSCISSOR",
-      "SWORDSDANCE",
+      {
+        level: 0,
+        move: "BULLETPUNCH",
+      },
+      {
+        level: 1,
+        move: "WINGATTACK",
+      },
+      {
+        level: 1,
+        move: "AGILITY",
+      },
+      {
+        level: 1,
+        move: "AIRSLASH",
+      },
+      {
+        level: 1,
+        move: "QUICKATTACK",
+      },
+      {
+        level: 1,
+        move: "LEER",
+      },
+      {
+        level: 1,
+        move: "FURYCUTTER",
+      },
+      {
+        level: 1,
+        move: "FALSESWIPE",
+      },
+      {
+        level: 12,
+        move: "METALCLAW",
+      },
+      {
+        level: 16,
+        move: "DOUBLETEAM",
+      },
+      {
+        level: 20,
+        move: "DOUBLEHIT",
+      },
+      {
+        level: 24,
+        move: "SLASH",
+      },
+      {
+        level: 28,
+        move: "FOCUSENERGY",
+      },
+      {
+        level: 32,
+        move: "IRONDEFENSE",
+      },
+      {
+        level: 36,
+        move: "IRONHEAD",
+      },
+      {
+        level: 40,
+        move: "XSCISSOR",
+      },
+      {
+        level: 44,
+        move: "SWORDSDANCE",
+      },
     ],
     tutorMoves: [
       "ACROBATICS",
@@ -8782,21 +11884,66 @@ export const pokemonForms: PokemonForm[] = [
     hiddenAbilities: ["SKILLLINK"],
     category: "Single Horn",
     moves: [
-      "ARMTHRUST",
-      "TACKLE",
-      "LEER",
-      "FURYATTACK",
-      "ENDURE",
-      "AERIALACE",
-      "HORNATTACK",
-      "COUNTER",
-      "BRICKBREAK",
-      "PINMISSILE",
-      "THROATCHOP",
-      "THRASH",
-      "SWORDSDANCE",
-      "MEGAHORN",
-      "CLOSECOMBAT",
+      {
+        level: 1,
+        move: "ARMTHRUST",
+      },
+      {
+        level: 1,
+        move: "TACKLE",
+      },
+      {
+        level: 1,
+        move: "LEER",
+      },
+      {
+        level: 5,
+        move: "FURYATTACK",
+      },
+      {
+        level: 10,
+        move: "ENDURE",
+      },
+      {
+        level: 15,
+        move: "AERIALACE",
+      },
+      {
+        level: 20,
+        move: "HORNATTACK",
+      },
+      {
+        level: 25,
+        move: "COUNTER",
+      },
+      {
+        level: 30,
+        move: "BRICKBREAK",
+      },
+      {
+        level: 35,
+        move: "PINMISSILE",
+      },
+      {
+        level: 40,
+        move: "THROATCHOP",
+      },
+      {
+        level: 45,
+        move: "THRASH",
+      },
+      {
+        level: 50,
+        move: "SWORDSDANCE",
+      },
+      {
+        level: 55,
+        move: "MEGAHORN",
+      },
+      {
+        level: 60,
+        move: "CLOSECOMBAT",
+      },
     ],
     tutorMoves: [
       "AERIALACE",
@@ -8924,19 +12071,58 @@ export const pokemonForms: PokemonForm[] = [
     hiddenAbilities: ["PICKPOCKET"],
     category: "Sharp Claw",
     moves: [
-      "SCRATCH",
-      "LEER",
-      "ROCKSMASH",
-      "TAUNT",
-      "QUICKATTACK",
-      "METALCLAW",
-      "POISONJAB",
-      "BRICKBREAK",
-      "HONECLAWS",
-      "SLASH",
-      "AGILITY",
-      "SCREECH",
-      "CLOSECOMBAT",
+      {
+        level: 1,
+        move: "SCRATCH",
+      },
+      {
+        level: 1,
+        move: "LEER",
+      },
+      {
+        level: 1,
+        move: "ROCKSMASH",
+      },
+      {
+        level: 6,
+        move: "TAUNT",
+      },
+      {
+        level: 12,
+        move: "QUICKATTACK",
+      },
+      {
+        level: 18,
+        move: "METALCLAW",
+      },
+      {
+        level: 24,
+        move: "POISONJAB",
+      },
+      {
+        level: 30,
+        move: "BRICKBREAK",
+      },
+      {
+        level: 36,
+        move: "HONECLAWS",
+      },
+      {
+        level: 42,
+        move: "SLASH",
+      },
+      {
+        level: 48,
+        move: "AGILITY",
+      },
+      {
+        level: 54,
+        move: "SCREECH",
+      },
+      {
+        level: 60,
+        move: "CLOSECOMBAT",
+      },
     ],
     tutorMoves: [
       "ACIDSPRAY",
@@ -9035,19 +12221,58 @@ export const pokemonForms: PokemonForm[] = [
     hiddenAbilities: ["CURSEDBODY"],
     category: "Coral",
     moves: [
-      "TACKLE",
-      "HARDEN",
-      "ASTONISH",
-      "DISABLE",
-      "SPITE",
-      "ANCIENTPOWER",
-      "HEX",
-      "CURSE",
-      "STRENGTHSAP",
-      "POWERGEM",
-      "NIGHTSHADE",
-      "GRUDGE",
-      "MIRRORCOAT",
+      {
+        level: 1,
+        move: "TACKLE",
+      },
+      {
+        level: 1,
+        move: "HARDEN",
+      },
+      {
+        level: 5,
+        move: "ASTONISH",
+      },
+      {
+        level: 10,
+        move: "DISABLE",
+      },
+      {
+        level: 15,
+        move: "SPITE",
+      },
+      {
+        level: 20,
+        move: "ANCIENTPOWER",
+      },
+      {
+        level: 25,
+        move: "HEX",
+      },
+      {
+        level: 30,
+        move: "CURSE",
+      },
+      {
+        level: 35,
+        move: "STRENGTHSAP",
+      },
+      {
+        level: 40,
+        move: "POWERGEM",
+      },
+      {
+        level: 45,
+        move: "NIGHTSHADE",
+      },
+      {
+        level: 50,
+        move: "GRUDGE",
+      },
+      {
+        level: 55,
+        move: "MIRRORCOAT",
+      },
     ],
     tutorMoves: [
       "AMNESIA",
@@ -9157,23 +12382,74 @@ export const pokemonForms: PokemonForm[] = [
     hiddenAbilities: ["SOLARPOWER"],
     category: "Dark",
     moves: [
-      "NASTYPLOT",
-      "THUNDERFANG",
-      "LEER",
-      "EMBER",
-      "HOWL",
-      "SMOG",
-      "ROAR",
-      "BITE",
-      "INCINERATE",
-      "BEATUP",
-      "FIREFANG",
-      "TORMENT",
-      "COMEUPPANCE",
-      "FOULPLAY",
-      "FLAMETHROWER",
-      "CRUNCH",
-      "INFERNO",
+      {
+        level: 1,
+        move: "NASTYPLOT",
+      },
+      {
+        level: 1,
+        move: "THUNDERFANG",
+      },
+      {
+        level: 1,
+        move: "LEER",
+      },
+      {
+        level: 1,
+        move: "EMBER",
+      },
+      {
+        level: 1,
+        move: "HOWL",
+      },
+      {
+        level: 1,
+        move: "SMOG",
+      },
+      {
+        level: 13,
+        move: "ROAR",
+      },
+      {
+        level: 16,
+        move: "BITE",
+      },
+      {
+        level: 20,
+        move: "INCINERATE",
+      },
+      {
+        level: 26,
+        move: "BEATUP",
+      },
+      {
+        level: 30,
+        move: "FIREFANG",
+      },
+      {
+        level: 35,
+        move: "TORMENT",
+      },
+      {
+        level: 41,
+        move: "COMEUPPANCE",
+      },
+      {
+        level: 45,
+        move: "FOULPLAY",
+      },
+      {
+        level: 50,
+        move: "FLAMETHROWER",
+      },
+      {
+        level: 56,
+        move: "CRUNCH",
+      },
+      {
+        level: 62,
+        move: "INFERNO",
+      },
     ],
     tutorMoves: [
       "ATTRACT",
@@ -9288,28 +12564,94 @@ export const pokemonForms: PokemonForm[] = [
     hiddenAbilities: ["SANDSTREAM"],
     category: "Armor",
     moves: [
-      "IRONDEFENSE",
-      "DARKPULSE",
-      "THUNDERFANG",
-      "ICEFANG",
-      "FIREFANG",
-      "TACKLE",
-      "LEER",
-      "ROCKTHROW",
-      "PAYBACK",
-      "BITE",
-      "SCARYFACE",
-      "ROCKSLIDE",
-      "STOMPINGTANTRUM",
-      "SCREECH",
-      "SMACKDOWN",
-      "CRUNCH",
-      "EARTHQUAKE",
-      "STONEEDGE",
-      "THRASH",
-      "SANDSTORM",
-      "HYPERBEAM",
-      "GIGAIMPACT",
+      {
+        level: 1,
+        move: "IRONDEFENSE",
+      },
+      {
+        level: 1,
+        move: "DARKPULSE",
+      },
+      {
+        level: 1,
+        move: "THUNDERFANG",
+      },
+      {
+        level: 1,
+        move: "ICEFANG",
+      },
+      {
+        level: 1,
+        move: "FIREFANG",
+      },
+      {
+        level: 1,
+        move: "TACKLE",
+      },
+      {
+        level: 1,
+        move: "LEER",
+      },
+      {
+        level: 1,
+        move: "ROCKTHROW",
+      },
+      {
+        level: 1,
+        move: "PAYBACK",
+      },
+      {
+        level: 9,
+        move: "BITE",
+      },
+      {
+        level: 12,
+        move: "SCARYFACE",
+      },
+      {
+        level: 15,
+        move: "ROCKSLIDE",
+      },
+      {
+        level: 18,
+        move: "STOMPINGTANTRUM",
+      },
+      {
+        level: 21,
+        move: "SCREECH",
+      },
+      {
+        level: 24,
+        move: "SMACKDOWN",
+      },
+      {
+        level: 27,
+        move: "CRUNCH",
+      },
+      {
+        level: 33,
+        move: "EARTHQUAKE",
+      },
+      {
+        level: 37,
+        move: "STONEEDGE",
+      },
+      {
+        level: 42,
+        move: "THRASH",
+      },
+      {
+        level: 47,
+        move: "SANDSTORM",
+      },
+      {
+        level: 52,
+        move: "HYPERBEAM",
+      },
+      {
+        level: 59,
+        move: "GIGAIMPACT",
+      },
     ],
     tutorMoves: [
       "AERIALACE",
@@ -9465,26 +12807,86 @@ export const pokemonForms: PokemonForm[] = [
     hiddenAbilities: ["LIGHTNINGROD"],
     category: "Forest",
     moves: [
-      "LEAFBLADE",
-      "FALSESWIPE",
-      "FURYCUTTER",
-      "XSCISSOR",
-      "ENERGYBALL",
-      "SHEDTAIL",
-      "POUND",
-      "LEER",
-      "LEAFAGE",
-      "QUICKATTACK",
-      "MEGADRAIN",
-      "DETECT",
-      "QUICKGUARD",
-      "ASSURANCE",
-      "GIGADRAIN",
-      "SLAM",
-      "DOUBLETEAM",
-      "SCREECH",
-      "ENDEAVOR",
-      "LEAFSTORM",
+      {
+        level: 0,
+        move: "LEAFBLADE",
+      },
+      {
+        level: 1,
+        move: "FALSESWIPE",
+      },
+      {
+        level: 1,
+        move: "FURYCUTTER",
+      },
+      {
+        level: 1,
+        move: "XSCISSOR",
+      },
+      {
+        level: 1,
+        move: "ENERGYBALL",
+      },
+      {
+        level: 1,
+        move: "SHEDTAIL",
+      },
+      {
+        level: 1,
+        move: "POUND",
+      },
+      {
+        level: 1,
+        move: "LEER",
+      },
+      {
+        level: 1,
+        move: "LEAFAGE",
+      },
+      {
+        level: 1,
+        move: "QUICKATTACK",
+      },
+      {
+        level: 5,
+        move: "MEGADRAIN",
+      },
+      {
+        level: 12,
+        move: "DETECT",
+      },
+      {
+        level: 15,
+        move: "QUICKGUARD",
+      },
+      {
+        level: 20,
+        move: "ASSURANCE",
+      },
+      {
+        level: 25,
+        move: "GIGADRAIN",
+      },
+      {
+        level: 30,
+        move: "SLAM",
+      },
+      {
+        level: 35,
+        move: "DOUBLETEAM",
+      },
+      {
+        level: 42,
+        move: "SCREECH",
+      },
+      {
+        level: 49,
+        move: "ENDEAVOR",
+      },
+      {
+        level: 56,
+        move: "LEAFSTORM",
+      },
     ],
     tutorMoves: [
       "ACROBATICS",
@@ -9622,26 +13024,86 @@ export const pokemonForms: PokemonForm[] = [
     hiddenAbilities: ["SPEEDBOOST"],
     category: "Blaze",
     moves: [
-      "BLAZEKICK",
-      "FIREPUNCH",
-      "EMBER",
-      "FLAMETHROWER",
-      "FEATHERDANCE",
-      "DOUBLEKICK",
-      "SCRATCH",
-      "GROWL",
-      "QUICKATTACK",
-      "FLAMECHARGE",
-      "DETECT",
-      "SANDATTACK",
-      "AERIALACE",
-      "SLASH",
-      "BOUNCE",
-      "FOCUSENERGY",
-      "BULKUP",
-      "REVERSAL",
-      "FLAREBLITZ",
-      "BRAVEBIRD",
+      {
+        level: 0,
+        move: "BLAZEKICK",
+      },
+      {
+        level: 1,
+        move: "FIREPUNCH",
+      },
+      {
+        level: 1,
+        move: "EMBER",
+      },
+      {
+        level: 1,
+        move: "FLAMETHROWER",
+      },
+      {
+        level: 1,
+        move: "FEATHERDANCE",
+      },
+      {
+        level: 1,
+        move: "DOUBLEKICK",
+      },
+      {
+        level: 1,
+        move: "SCRATCH",
+      },
+      {
+        level: 1,
+        move: "GROWL",
+      },
+      {
+        level: 1,
+        move: "QUICKATTACK",
+      },
+      {
+        level: 9,
+        move: "FLAMECHARGE",
+      },
+      {
+        level: 12,
+        move: "DETECT",
+      },
+      {
+        level: 15,
+        move: "SANDATTACK",
+      },
+      {
+        level: 20,
+        move: "AERIALACE",
+      },
+      {
+        level: 25,
+        move: "SLASH",
+      },
+      {
+        level: 30,
+        move: "BOUNCE",
+      },
+      {
+        level: 35,
+        move: "FOCUSENERGY",
+      },
+      {
+        level: 42,
+        move: "BULKUP",
+      },
+      {
+        level: 49,
+        move: "REVERSAL",
+      },
+      {
+        level: 56,
+        move: "FLAREBLITZ",
+      },
+      {
+        level: 63,
+        move: "BRAVEBIRD",
+      },
     ],
     tutorMoves: [
       "ACROBATICS",
@@ -9781,25 +13243,82 @@ export const pokemonForms: PokemonForm[] = [
     hiddenAbilities: ["SWIFTSWIM"],
     category: "Mud Fish",
     moves: [
-      "SURF",
-      "EARTHQUAKE",
-      "ROCKSMASH",
-      "HAMMERARM",
-      "MUDSHOT",
-      "TACKLE",
-      "GROWL",
-      "WATERGUN",
-      "ROCKTHROW",
-      "PROTECT",
-      "SUPERSONIC",
-      "WATERPULSE",
-      "ROCKSLIDE",
-      "TAKEDOWN",
-      "AMNESIA",
-      "MUDDYWATER",
-      "SCREECH",
-      "ENDEAVOR",
-      "HYDROPUMP",
+      {
+        level: 1,
+        move: "SURF",
+      },
+      {
+        level: 1,
+        move: "EARTHQUAKE",
+      },
+      {
+        level: 1,
+        move: "ROCKSMASH",
+      },
+      {
+        level: 1,
+        move: "HAMMERARM",
+      },
+      {
+        level: 1,
+        move: "MUDSHOT",
+      },
+      {
+        level: 1,
+        move: "TACKLE",
+      },
+      {
+        level: 1,
+        move: "GROWL",
+      },
+      {
+        level: 1,
+        move: "WATERGUN",
+      },
+      {
+        level: 9,
+        move: "ROCKTHROW",
+      },
+      {
+        level: 12,
+        move: "PROTECT",
+      },
+      {
+        level: 15,
+        move: "SUPERSONIC",
+      },
+      {
+        level: 20,
+        move: "WATERPULSE",
+      },
+      {
+        level: 25,
+        move: "ROCKSLIDE",
+      },
+      {
+        level: 30,
+        move: "TAKEDOWN",
+      },
+      {
+        level: 35,
+        move: "AMNESIA",
+      },
+      {
+        level: 42,
+        move: "MUDDYWATER",
+      },
+      {
+        level: 49,
+        move: "SCREECH",
+      },
+      {
+        level: 56,
+        move: "ENDEAVOR",
+      },
+      {
+        level: 63,
+        move: "HYDROPUMP",
+      },
     ],
     tutorMoves: [
       "AMNESIA",
@@ -9931,20 +13450,62 @@ export const pokemonForms: PokemonForm[] = [
     hiddenAbilities: ["QUICKFEET"],
     category: "Tiny Raccoon",
     moves: [
-      "TACKLE",
-      "LEER",
-      "SANDATTACK",
-      "LICK",
-      "SNARL",
-      "HEADBUTT",
-      "BABYDOLLEYES",
-      "PINMISSILE",
-      "REST",
-      "TAKEDOWN",
-      "SCARYFACE",
-      "COUNTER",
-      "TAUNT",
-      "DOUBLEEDGE",
+      {
+        level: 1,
+        move: "TACKLE",
+      },
+      {
+        level: 1,
+        move: "LEER",
+      },
+      {
+        level: 3,
+        move: "SANDATTACK",
+      },
+      {
+        level: 6,
+        move: "LICK",
+      },
+      {
+        level: 9,
+        move: "SNARL",
+      },
+      {
+        level: 12,
+        move: "HEADBUTT",
+      },
+      {
+        level: 15,
+        move: "BABYDOLLEYES",
+      },
+      {
+        level: 18,
+        move: "PINMISSILE",
+      },
+      {
+        level: 21,
+        move: "REST",
+      },
+      {
+        level: 24,
+        move: "TAKEDOWN",
+      },
+      {
+        level: 27,
+        move: "SCARYFACE",
+      },
+      {
+        level: 30,
+        move: "COUNTER",
+      },
+      {
+        level: 33,
+        move: "TAUNT",
+      },
+      {
+        level: 36,
+        move: "DOUBLEEDGE",
+      },
     ],
     tutorMoves: [
       "ASSURANCE",
@@ -10040,24 +13601,78 @@ export const pokemonForms: PokemonForm[] = [
     hiddenAbilities: ["QUICKFEET"],
     category: "Rushing",
     moves: [
-      "NIGHTSLASH",
-      "SWITCHEROO",
-      "PINMISSILE",
-      "BABYDOLLEYES",
-      "TACKLE",
-      "LEER",
-      "SANDATTACK",
-      "LICK",
-      "SNARL",
-      "HEADBUTT",
-      "HONECLAWS",
-      "FURYSWIPES",
-      "REST",
-      "TAKEDOWN",
-      "SCARYFACE",
-      "COUNTER",
-      "TAUNT",
-      "DOUBLEEDGE",
+      {
+        level: 0,
+        move: "NIGHTSLASH",
+      },
+      {
+        level: 1,
+        move: "SWITCHEROO",
+      },
+      {
+        level: 1,
+        move: "PINMISSILE",
+      },
+      {
+        level: 1,
+        move: "BABYDOLLEYES",
+      },
+      {
+        level: 1,
+        move: "TACKLE",
+      },
+      {
+        level: 1,
+        move: "LEER",
+      },
+      {
+        level: 1,
+        move: "SANDATTACK",
+      },
+      {
+        level: 1,
+        move: "LICK",
+      },
+      {
+        level: 9,
+        move: "SNARL",
+      },
+      {
+        level: 12,
+        move: "HEADBUTT",
+      },
+      {
+        level: 15,
+        move: "HONECLAWS",
+      },
+      {
+        level: 18,
+        move: "FURYSWIPES",
+      },
+      {
+        level: 23,
+        move: "REST",
+      },
+      {
+        level: 28,
+        move: "TAKEDOWN",
+      },
+      {
+        level: 33,
+        move: "SCARYFACE",
+      },
+      {
+        level: 38,
+        move: "COUNTER",
+      },
+      {
+        level: 43,
+        move: "TAUNT",
+      },
+      {
+        level: 48,
+        move: "DOUBLEEDGE",
+      },
     ],
     tutorMoves: [
       "ASSURANCE",
@@ -10159,27 +13774,90 @@ export const pokemonForms: PokemonForm[] = [
     hiddenAbilities: ["PIXILATE"],
     category: "Embrace",
     moves: [
-      "DAZZLINGGLEAM",
-      "MISTYTERRAIN",
-      "HEALINGWISH",
-      "CHARM",
-      "MYSTICALFIRE",
-      "HEALPULSE",
-      "GROWL",
-      "DISARMINGVOICE",
-      "DOUBLETEAM",
-      "CONFUSION",
-      "HYPNOSIS",
-      "DRAININGKISS",
-      "TELEPORT",
-      "PSYBEAM",
-      "LIFEDEW",
-      "WISH",
-      "CALMMIND",
-      "PSYCHIC",
-      "MOONBLAST",
-      "DREAMEATER",
-      "FUTURESIGHT",
+      {
+        level: 0,
+        move: "DAZZLINGGLEAM",
+      },
+      {
+        level: 1,
+        move: "MISTYTERRAIN",
+      },
+      {
+        level: 1,
+        move: "HEALINGWISH",
+      },
+      {
+        level: 1,
+        move: "CHARM",
+      },
+      {
+        level: 1,
+        move: "MYSTICALFIRE",
+      },
+      {
+        level: 1,
+        move: "HEALPULSE",
+      },
+      {
+        level: 1,
+        move: "GROWL",
+      },
+      {
+        level: 1,
+        move: "DISARMINGVOICE",
+      },
+      {
+        level: 1,
+        move: "DOUBLETEAM",
+      },
+      {
+        level: 1,
+        move: "CONFUSION",
+      },
+      {
+        level: 9,
+        move: "HYPNOSIS",
+      },
+      {
+        level: 12,
+        move: "DRAININGKISS",
+      },
+      {
+        level: 15,
+        move: "TELEPORT",
+      },
+      {
+        level: 18,
+        move: "PSYBEAM",
+      },
+      {
+        level: 23,
+        move: "LIFEDEW",
+      },
+      {
+        level: 28,
+        move: "WISH",
+      },
+      {
+        level: 35,
+        move: "CALMMIND",
+      },
+      {
+        level: 42,
+        move: "PSYCHIC",
+      },
+      {
+        level: 49,
+        move: "MOONBLAST",
+      },
+      {
+        level: 56,
+        move: "DREAMEATER",
+      },
+      {
+        level: 63,
+        move: "FUTURESIGHT",
+      },
     ],
     tutorMoves: [
       "ALLURINGVOICE",
@@ -10315,23 +13993,74 @@ export const pokemonForms: PokemonForm[] = [
     hiddenAbilities: ["MAGICBOUNCE"],
     category: "Darkness",
     moves: [
-      "LEER",
-      "SCRATCH",
-      "ASTONISH",
-      "SHADOWSNEAK",
-      "FAKEOUT",
-      "DISABLE",
-      "DETECT",
-      "NIGHTSHADE",
-      "FURYSWIPES",
-      "KNOCKOFF",
-      "QUASH",
-      "SHADOWCLAW",
-      "MEANLOOK",
-      "POWERGEM",
-      "ZENHEADBUTT",
-      "SHADOWBALL",
-      "FOULPLAY",
+      {
+        level: 1,
+        move: "LEER",
+      },
+      {
+        level: 1,
+        move: "SCRATCH",
+      },
+      {
+        level: 3,
+        move: "ASTONISH",
+      },
+      {
+        level: 9,
+        move: "SHADOWSNEAK",
+      },
+      {
+        level: 12,
+        move: "FAKEOUT",
+      },
+      {
+        level: 15,
+        move: "DISABLE",
+      },
+      {
+        level: 18,
+        move: "DETECT",
+      },
+      {
+        level: 21,
+        move: "NIGHTSHADE",
+      },
+      {
+        level: 24,
+        move: "FURYSWIPES",
+      },
+      {
+        level: 27,
+        move: "KNOCKOFF",
+      },
+      {
+        level: 30,
+        move: "QUASH",
+      },
+      {
+        level: 33,
+        move: "SHADOWCLAW",
+      },
+      {
+        level: 36,
+        move: "MEANLOOK",
+      },
+      {
+        level: 39,
+        move: "POWERGEM",
+      },
+      {
+        level: 42,
+        move: "ZENHEADBUTT",
+      },
+      {
+        level: 45,
+        move: "SHADOWBALL",
+      },
+      {
+        level: 48,
+        move: "FOULPLAY",
+      },
     ],
     tutorMoves: [
       "AERIALACE",
@@ -10491,22 +14220,70 @@ export const pokemonForms: PokemonForm[] = [
     hiddenAbilities: ["HUGEPOWER"],
     category: "Deceiver",
     moves: [
-      "ASTONISH",
-      "GROWL",
-      "FAIRYWIND",
-      "BATONPASS",
-      "BITE",
-      "STOCKPILE",
-      "SWALLOW",
-      "SPITUP",
-      "SUCKERPUNCH",
-      "IRONDEFENSE",
-      "CRUNCH",
-      "SWEETSCENT",
-      "IRONHEAD",
-      "TAUNT",
-      "FAKETEARS",
-      "PLAYROUGH",
+      {
+        level: 1,
+        move: "ASTONISH",
+      },
+      {
+        level: 1,
+        move: "GROWL",
+      },
+      {
+        level: 4,
+        move: "FAIRYWIND",
+      },
+      {
+        level: 8,
+        move: "BATONPASS",
+      },
+      {
+        level: 12,
+        move: "BITE",
+      },
+      {
+        level: 16,
+        move: "STOCKPILE",
+      },
+      {
+        level: 16,
+        move: "SWALLOW",
+      },
+      {
+        level: 16,
+        move: "SPITUP",
+      },
+      {
+        level: 20,
+        move: "SUCKERPUNCH",
+      },
+      {
+        level: 24,
+        move: "IRONDEFENSE",
+      },
+      {
+        level: 28,
+        move: "CRUNCH",
+      },
+      {
+        level: 32,
+        move: "SWEETSCENT",
+      },
+      {
+        level: 36,
+        move: "IRONHEAD",
+      },
+      {
+        level: 40,
+        move: "TAUNT",
+      },
+      {
+        level: 44,
+        move: "FAKETEARS",
+      },
+      {
+        level: 48,
+        move: "PLAYROUGH",
+      },
     ],
     tutorMoves: [
       "ANCIENTPOWER",
@@ -10646,23 +14423,74 @@ export const pokemonForms: PokemonForm[] = [
     hiddenAbilities: ["FILTER"],
     category: "Iron Armor",
     moves: [
-      "TACKLE",
-      "HARDEN",
-      "METALCLAW",
-      "ROCKTOMB",
-      "ROAR",
-      "HEADBUTT",
-      "PROTECT",
-      "ROCKSLIDE",
-      "IRONHEAD",
-      "METALSOUND",
-      "TAKEDOWN",
-      "AUTOTOMIZE",
-      "IRONTAIL",
-      "IRONDEFENSE",
-      "HEAVYSLAM",
-      "DOUBLEEDGE",
-      "METALBURST",
+      {
+        level: 1,
+        move: "TACKLE",
+      },
+      {
+        level: 1,
+        move: "HARDEN",
+      },
+      {
+        level: 1,
+        move: "METALCLAW",
+      },
+      {
+        level: 1,
+        move: "ROCKTOMB",
+      },
+      {
+        level: 12,
+        move: "ROAR",
+      },
+      {
+        level: 16,
+        move: "HEADBUTT",
+      },
+      {
+        level: 20,
+        move: "PROTECT",
+      },
+      {
+        level: 24,
+        move: "ROCKSLIDE",
+      },
+      {
+        level: 28,
+        move: "IRONHEAD",
+      },
+      {
+        level: 35,
+        move: "METALSOUND",
+      },
+      {
+        level: 40,
+        move: "TAKEDOWN",
+      },
+      {
+        level: 48,
+        move: "AUTOTOMIZE",
+      },
+      {
+        level: 56,
+        move: "IRONTAIL",
+      },
+      {
+        level: 64,
+        move: "IRONDEFENSE",
+      },
+      {
+        level: 72,
+        move: "HEAVYSLAM",
+      },
+      {
+        level: 80,
+        move: "DOUBLEEDGE",
+      },
+      {
+        level: 88,
+        move: "METALBURST",
+      },
     ],
     tutorMoves: [
       "AERIALACE",
@@ -10810,25 +14638,82 @@ export const pokemonForms: PokemonForm[] = [
     hiddenAbilities: ["PUREPOWER"],
     category: "Meditate",
     moves: [
-      "FIREPUNCH",
-      "THUNDERPUNCH",
-      "ICEPUNCH",
-      "CONFUSION",
-      "WORKUP",
-      "DETECT",
-      "ENDURE",
-      "FEINT",
-      "FORCEPALM",
-      "PSYBEAM",
-      "CALMMIND",
-      "ZENHEADBUTT",
-      "HIGHJUMPKICK",
-      "PSYCHUP",
-      "ACUPRESSURE",
-      "POWERTRICK",
-      "RECOVER",
-      "COUNTER",
-      "AXEKICK",
+      {
+        level: 1,
+        move: "FIREPUNCH",
+      },
+      {
+        level: 1,
+        move: "THUNDERPUNCH",
+      },
+      {
+        level: 1,
+        move: "ICEPUNCH",
+      },
+      {
+        level: 1,
+        move: "CONFUSION",
+      },
+      {
+        level: 1,
+        move: "WORKUP",
+      },
+      {
+        level: 1,
+        move: "DETECT",
+      },
+      {
+        level: 12,
+        move: "ENDURE",
+      },
+      {
+        level: 15,
+        move: "FEINT",
+      },
+      {
+        level: 17,
+        move: "FORCEPALM",
+      },
+      {
+        level: 20,
+        move: "PSYBEAM",
+      },
+      {
+        level: 23,
+        move: "CALMMIND",
+      },
+      {
+        level: 25,
+        move: "ZENHEADBUTT",
+      },
+      {
+        level: 28,
+        move: "HIGHJUMPKICK",
+      },
+      {
+        level: 31,
+        move: "PSYCHUP",
+      },
+      {
+        level: 33,
+        move: "ACUPRESSURE",
+      },
+      {
+        level: 36,
+        move: "POWERTRICK",
+      },
+      {
+        level: 47,
+        move: "RECOVER",
+      },
+      {
+        level: 53,
+        move: "COUNTER",
+      },
+      {
+        level: 53,
+        move: "AXEKICK",
+      },
     ],
     tutorMoves: [
       "AERIALACE",
@@ -10956,21 +14841,66 @@ export const pokemonForms: PokemonForm[] = [
     hiddenAbilities: ["INTIMIDATE"],
     category: "Discharge",
     moves: [
-      "FIREFANG",
-      "TACKLE",
-      "THUNDERWAVE",
-      "LEER",
-      "HOWL",
-      "QUICKATTACK",
-      "SHOCKWAVE",
-      "BITE",
-      "THUNDERFANG",
-      "ROAR",
-      "DISCHARGE",
-      "CHARGE",
-      "WILDCHARGE",
-      "THUNDER",
-      "ELECTRICTERRAIN",
+      {
+        level: 1,
+        move: "FIREFANG",
+      },
+      {
+        level: 1,
+        move: "TACKLE",
+      },
+      {
+        level: 1,
+        move: "THUNDERWAVE",
+      },
+      {
+        level: 1,
+        move: "LEER",
+      },
+      {
+        level: 1,
+        move: "HOWL",
+      },
+      {
+        level: 12,
+        move: "QUICKATTACK",
+      },
+      {
+        level: 16,
+        move: "SHOCKWAVE",
+      },
+      {
+        level: 20,
+        move: "BITE",
+      },
+      {
+        level: 24,
+        move: "THUNDERFANG",
+      },
+      {
+        level: 30,
+        move: "ROAR",
+      },
+      {
+        level: 36,
+        move: "DISCHARGE",
+      },
+      {
+        level: 42,
+        move: "CHARGE",
+      },
+      {
+        level: 48,
+        move: "WILDCHARGE",
+      },
+      {
+        level: 54,
+        move: "THUNDER",
+      },
+      {
+        level: 60,
+        move: "ELECTRICTERRAIN",
+      },
     ],
     tutorMoves: [
       "AGILITY",
@@ -11064,21 +14994,66 @@ export const pokemonForms: PokemonForm[] = [
     hiddenAbilities: ["STRONGJAW"],
     category: "Brutal",
     moves: [
-      "SLASH",
-      "NIGHTSLASH",
-      "AQUAJET",
-      "LEER",
-      "POISONFANG",
-      "FOCUSENERGY",
-      "SCARYFACE",
-      "BITE",
-      "ICEFANG",
-      "SCREECH",
-      "SWAGGER",
-      "CRUNCH",
-      "AGILITY",
-      "LIQUIDATION",
-      "TAKEDOWN",
+      {
+        level: 0,
+        move: "SLASH",
+      },
+      {
+        level: 1,
+        move: "NIGHTSLASH",
+      },
+      {
+        level: 1,
+        move: "AQUAJET",
+      },
+      {
+        level: 1,
+        move: "LEER",
+      },
+      {
+        level: 1,
+        move: "POISONFANG",
+      },
+      {
+        level: 1,
+        move: "FOCUSENERGY",
+      },
+      {
+        level: 12,
+        move: "SCARYFACE",
+      },
+      {
+        level: 16,
+        move: "BITE",
+      },
+      {
+        level: 20,
+        move: "ICEFANG",
+      },
+      {
+        level: 24,
+        move: "SCREECH",
+      },
+      {
+        level: 28,
+        move: "SWAGGER",
+      },
+      {
+        level: 34,
+        move: "CRUNCH",
+      },
+      {
+        level: 40,
+        move: "AGILITY",
+      },
+      {
+        level: 46,
+        move: "LIQUIDATION",
+      },
+      {
+        level: 52,
+        move: "TAKEDOWN",
+      },
     ],
     tutorMoves: [
       "AGILITY",
@@ -11184,22 +15159,70 @@ export const pokemonForms: PokemonForm[] = [
     hiddenAbilities: ["SHEERFORCE"],
     category: "Eruption",
     moves: [
-      "ROCKSLIDE",
-      "FISSURE",
-      "ERUPTION",
-      "GROWL",
-      "TACKLE",
-      "EMBER",
-      "FOCUSENERGY",
-      "BULLDOZE",
-      "INCINERATE",
-      "AMNESIA",
-      "LAVAPLUME",
-      "EARTHPOWER",
-      "CURSE",
-      "TAKEDOWN",
-      "YAWN",
-      "EARTHQUAKE",
+      {
+        level: 0,
+        move: "ROCKSLIDE",
+      },
+      {
+        level: 1,
+        move: "FISSURE",
+      },
+      {
+        level: 1,
+        move: "ERUPTION",
+      },
+      {
+        level: 1,
+        move: "GROWL",
+      },
+      {
+        level: 1,
+        move: "TACKLE",
+      },
+      {
+        level: 1,
+        move: "EMBER",
+      },
+      {
+        level: 1,
+        move: "FOCUSENERGY",
+      },
+      {
+        level: 12,
+        move: "BULLDOZE",
+      },
+      {
+        level: 15,
+        move: "INCINERATE",
+      },
+      {
+        level: 19,
+        move: "AMNESIA",
+      },
+      {
+        level: 22,
+        move: "LAVAPLUME",
+      },
+      {
+        level: 26,
+        move: "EARTHPOWER",
+      },
+      {
+        level: 29,
+        move: "CURSE",
+      },
+      {
+        level: 31,
+        move: "TAKEDOWN",
+      },
+      {
+        level: 39,
+        move: "YAWN",
+      },
+      {
+        level: 46,
+        move: "EARTHQUAKE",
+      },
     ],
     tutorMoves: [
       "AFTERYOU",
@@ -11312,22 +15335,70 @@ export const pokemonForms: PokemonForm[] = [
     hiddenAbilities: ["PIXILATE"],
     category: "Humming",
     moves: [
-      "DRAGONPULSE",
-      "PLUCK",
-      "PECK",
-      "GROWL",
-      "DISARMINGVOICE",
-      "MIST",
-      "FURYATTACK",
-      "ROUND",
-      "DRAGONBREATH",
-      "SAFEGUARD",
-      "SING",
-      "COTTONGUARD",
-      "TAKEDOWN",
-      "MOONBLAST",
-      "PERISHSONG",
-      "SKYATTACK",
+      {
+        level: 0,
+        move: "DRAGONPULSE",
+      },
+      {
+        level: 1,
+        move: "PLUCK",
+      },
+      {
+        level: 1,
+        move: "PECK",
+      },
+      {
+        level: 1,
+        move: "GROWL",
+      },
+      {
+        level: 1,
+        move: "DISARMINGVOICE",
+      },
+      {
+        level: 1,
+        move: "MIST",
+      },
+      {
+        level: 12,
+        move: "FURYATTACK",
+      },
+      {
+        level: 16,
+        move: "ROUND",
+      },
+      {
+        level: 20,
+        move: "DRAGONBREATH",
+      },
+      {
+        level: 24,
+        move: "SAFEGUARD",
+      },
+      {
+        level: 28,
+        move: "SING",
+      },
+      {
+        level: 32,
+        move: "COTTONGUARD",
+      },
+      {
+        level: 38,
+        move: "TAKEDOWN",
+      },
+      {
+        level: 44,
+        move: "MOONBLAST",
+      },
+      {
+        level: 50,
+        move: "PERISHSONG",
+      },
+      {
+        level: 56,
+        move: "SKYATTACK",
+      },
     ],
     tutorMoves: [
       "ACROBATICS",
@@ -11445,19 +15516,58 @@ export const pokemonForms: PokemonForm[] = [
     hiddenAbilities: [],
     category: "Weather",
     moves: [
-      "TACKLE",
-      "WATERGUN",
-      "EMBER",
-      "POWDERSNOW",
-      "HEADBUTT",
-      "RAINDANCE",
-      "SUNNYDAY",
-      "SNOWSCAPE",
-      "WEATHERBALL",
-      "HYDROPUMP",
-      "FIREBLAST",
-      "BLIZZARD",
-      "HURRICANE",
+      {
+        level: 1,
+        move: "TACKLE",
+      },
+      {
+        level: 10,
+        move: "WATERGUN",
+      },
+      {
+        level: 10,
+        move: "EMBER",
+      },
+      {
+        level: 10,
+        move: "POWDERSNOW",
+      },
+      {
+        level: 15,
+        move: "HEADBUTT",
+      },
+      {
+        level: 20,
+        move: "RAINDANCE",
+      },
+      {
+        level: 20,
+        move: "SUNNYDAY",
+      },
+      {
+        level: 20,
+        move: "SNOWSCAPE",
+      },
+      {
+        level: 25,
+        move: "WEATHERBALL",
+      },
+      {
+        level: 35,
+        move: "HYDROPUMP",
+      },
+      {
+        level: 35,
+        move: "FIREBLAST",
+      },
+      {
+        level: 35,
+        move: "BLIZZARD",
+      },
+      {
+        level: 45,
+        move: "HURRICANE",
+      },
     ],
     tutorMoves: [
       "ATTRACT",
@@ -11553,19 +15663,58 @@ export const pokemonForms: PokemonForm[] = [
     hiddenAbilities: [],
     category: "Weather",
     moves: [
-      "TACKLE",
-      "WATERGUN",
-      "EMBER",
-      "POWDERSNOW",
-      "HEADBUTT",
-      "RAINDANCE",
-      "SUNNYDAY",
-      "SNOWSCAPE",
-      "WEATHERBALL",
-      "HYDROPUMP",
-      "FIREBLAST",
-      "BLIZZARD",
-      "HURRICANE",
+      {
+        level: 1,
+        move: "TACKLE",
+      },
+      {
+        level: 10,
+        move: "WATERGUN",
+      },
+      {
+        level: 10,
+        move: "EMBER",
+      },
+      {
+        level: 10,
+        move: "POWDERSNOW",
+      },
+      {
+        level: 15,
+        move: "HEADBUTT",
+      },
+      {
+        level: 20,
+        move: "RAINDANCE",
+      },
+      {
+        level: 20,
+        move: "SUNNYDAY",
+      },
+      {
+        level: 20,
+        move: "SNOWSCAPE",
+      },
+      {
+        level: 25,
+        move: "WEATHERBALL",
+      },
+      {
+        level: 35,
+        move: "HYDROPUMP",
+      },
+      {
+        level: 35,
+        move: "FIREBLAST",
+      },
+      {
+        level: 35,
+        move: "BLIZZARD",
+      },
+      {
+        level: 45,
+        move: "HURRICANE",
+      },
     ],
     tutorMoves: [
       "ATTRACT",
@@ -11661,19 +15810,58 @@ export const pokemonForms: PokemonForm[] = [
     hiddenAbilities: [],
     category: "Weather",
     moves: [
-      "TACKLE",
-      "WATERGUN",
-      "EMBER",
-      "POWDERSNOW",
-      "HEADBUTT",
-      "RAINDANCE",
-      "SUNNYDAY",
-      "SNOWSCAPE",
-      "WEATHERBALL",
-      "HYDROPUMP",
-      "FIREBLAST",
-      "BLIZZARD",
-      "HURRICANE",
+      {
+        level: 1,
+        move: "TACKLE",
+      },
+      {
+        level: 10,
+        move: "WATERGUN",
+      },
+      {
+        level: 10,
+        move: "EMBER",
+      },
+      {
+        level: 10,
+        move: "POWDERSNOW",
+      },
+      {
+        level: 15,
+        move: "HEADBUTT",
+      },
+      {
+        level: 20,
+        move: "RAINDANCE",
+      },
+      {
+        level: 20,
+        move: "SUNNYDAY",
+      },
+      {
+        level: 20,
+        move: "SNOWSCAPE",
+      },
+      {
+        level: 25,
+        move: "WEATHERBALL",
+      },
+      {
+        level: 35,
+        move: "HYDROPUMP",
+      },
+      {
+        level: 35,
+        move: "FIREBLAST",
+      },
+      {
+        level: 35,
+        move: "BLIZZARD",
+      },
+      {
+        level: 45,
+        move: "HURRICANE",
+      },
     ],
     tutorMoves: [
       "ATTRACT",
@@ -11769,19 +15957,58 @@ export const pokemonForms: PokemonForm[] = [
     hiddenAbilities: ["PRANKSTER"],
     category: "Marionette",
     moves: [
-      "KNOCKOFF",
-      "SCREECH",
-      "NIGHTSHADE",
-      "SPITE",
-      "WILLOWISP",
-      "SHADOWSNEAK",
-      "HEX",
-      "CURSE",
-      "SHADOWBALL",
-      "ROLEPLAY",
-      "SUCKERPUNCH",
-      "TRICK",
-      "PHANTOMFORCE",
+      {
+        level: 0,
+        move: "KNOCKOFF",
+      },
+      {
+        level: 1,
+        move: "SCREECH",
+      },
+      {
+        level: 1,
+        move: "NIGHTSHADE",
+      },
+      {
+        level: 1,
+        move: "SPITE",
+      },
+      {
+        level: 16,
+        move: "WILLOWISP",
+      },
+      {
+        level: 19,
+        move: "SHADOWSNEAK",
+      },
+      {
+        level: 22,
+        move: "HEX",
+      },
+      {
+        level: 26,
+        move: "CURSE",
+      },
+      {
+        level: 30,
+        move: "SHADOWBALL",
+      },
+      {
+        level: 34,
+        move: "ROLEPLAY",
+      },
+      {
+        level: 40,
+        move: "SUCKERPUNCH",
+      },
+      {
+        level: 46,
+        move: "TRICK",
+      },
+      {
+        level: 53,
+        move: "PHANTOMFORCE",
+      },
     ],
     tutorMoves: [
       "ALLYSWITCH",
@@ -11900,19 +16127,58 @@ export const pokemonForms: PokemonForm[] = [
     hiddenAbilities: ["MAGICBOUNCE"],
     category: "Disaster",
     moves: [
-      "QUICKATTACK",
-      "LEER",
-      "DOUBLETEAM",
-      "KNOCKOFF",
-      "DETECT",
-      "TAUNT",
-      "SLASH",
-      "NIGHTSLASH",
-      "FOCUSENERGY",
-      "SUCKERPUNCH",
-      "SWORDSDANCE",
-      "FUTURESIGHT",
-      "PERISHSONG",
+      {
+        level: 1,
+        move: "QUICKATTACK",
+      },
+      {
+        level: 1,
+        move: "LEER",
+      },
+      {
+        level: 5,
+        move: "DOUBLETEAM",
+      },
+      {
+        level: 10,
+        move: "KNOCKOFF",
+      },
+      {
+        level: 15,
+        move: "DETECT",
+      },
+      {
+        level: 20,
+        move: "TAUNT",
+      },
+      {
+        level: 25,
+        move: "SLASH",
+      },
+      {
+        level: 30,
+        move: "NIGHTSLASH",
+      },
+      {
+        level: 35,
+        move: "FOCUSENERGY",
+      },
+      {
+        level: 40,
+        move: "SUCKERPUNCH",
+      },
+      {
+        level: 45,
+        move: "SWORDSDANCE",
+      },
+      {
+        level: 50,
+        move: "FUTURESIGHT",
+      },
+      {
+        level: 55,
+        move: "PERISHSONG",
+      },
     ],
     tutorMoves: [
       "AERIALACE",
@@ -12056,23 +16322,74 @@ export const pokemonForms: PokemonForm[] = [
     hiddenAbilities: ["REFRIGERATE"],
     category: "Face",
     moves: [
-      "FREEZEDRY",
-      "SHEERCOLD",
-      "POWDERSNOW",
-      "ASTONISH",
-      "HEADBUTT",
-      "LEER",
-      "DOUBLETEAM",
-      "ICESHARD",
-      "PROTECT",
-      "ICYWIND",
-      "FROSTBREATH",
-      "BITE",
-      "ICEFANG",
-      "SNOWSCAPE",
-      "WEATHERBALL",
-      "CRUNCH",
-      "BLIZZARD",
+      {
+        level: 0,
+        move: "FREEZEDRY",
+      },
+      {
+        level: 1,
+        move: "SHEERCOLD",
+      },
+      {
+        level: 1,
+        move: "POWDERSNOW",
+      },
+      {
+        level: 1,
+        move: "ASTONISH",
+      },
+      {
+        level: 1,
+        move: "HEADBUTT",
+      },
+      {
+        level: 1,
+        move: "LEER",
+      },
+      {
+        level: 1,
+        move: "DOUBLETEAM",
+      },
+      {
+        level: 15,
+        move: "ICESHARD",
+      },
+      {
+        level: 20,
+        move: "PROTECT",
+      },
+      {
+        level: 25,
+        move: "ICYWIND",
+      },
+      {
+        level: 30,
+        move: "FROSTBREATH",
+      },
+      {
+        level: 35,
+        move: "BITE",
+      },
+      {
+        level: 40,
+        move: "ICEFANG",
+      },
+      {
+        level: 47,
+        move: "SNOWSCAPE",
+      },
+      {
+        level: 54,
+        move: "WEATHERBALL",
+      },
+      {
+        level: 61,
+        move: "CRUNCH",
+      },
+      {
+        level: 68,
+        move: "BLIZZARD",
+      },
     ],
     tutorMoves: [
       "ATTRACT",
@@ -12175,23 +16492,74 @@ export const pokemonForms: PokemonForm[] = [
     hiddenAbilities: ["AERILATE"],
     category: "Dragon",
     moves: [
-      "FLY",
-      "PROTECT",
-      "DRAGONTAIL",
-      "DUALWINGBEAT",
-      "ROOST",
-      "EMBER",
-      "LEER",
-      "BITE",
-      "DRAGONBREATH",
-      "HEADBUTT",
-      "SCARYFACE",
-      "CRUNCH",
-      "DRAGONCLAW",
-      "ZENHEADBUTT",
-      "FOCUSENERGY",
-      "FLAMETHROWER",
-      "DOUBLEEDGE",
+      {
+        level: 0,
+        move: "FLY",
+      },
+      {
+        level: 1,
+        move: "PROTECT",
+      },
+      {
+        level: 1,
+        move: "DRAGONTAIL",
+      },
+      {
+        level: 1,
+        move: "DUALWINGBEAT",
+      },
+      {
+        level: 1,
+        move: "ROOST",
+      },
+      {
+        level: 1,
+        move: "EMBER",
+      },
+      {
+        level: 1,
+        move: "LEER",
+      },
+      {
+        level: 1,
+        move: "BITE",
+      },
+      {
+        level: 1,
+        move: "DRAGONBREATH",
+      },
+      {
+        level: 15,
+        move: "HEADBUTT",
+      },
+      {
+        level: 20,
+        move: "SCARYFACE",
+      },
+      {
+        level: 25,
+        move: "CRUNCH",
+      },
+      {
+        level: 33,
+        move: "DRAGONCLAW",
+      },
+      {
+        level: 39,
+        move: "ZENHEADBUTT",
+      },
+      {
+        level: 46,
+        move: "FOCUSENERGY",
+      },
+      {
+        level: 55,
+        move: "FLAMETHROWER",
+      },
+      {
+        level: 73,
+        move: "DOUBLEEDGE",
+      },
     ],
     tutorMoves: [
       "AERIALACE",
@@ -12312,23 +16680,74 @@ export const pokemonForms: PokemonForm[] = [
     hiddenAbilities: ["TOUGHCLAWS"],
     category: "Iron Leg",
     moves: [
-      "HAMMERARM",
-      "EXPLOSION",
-      "HONECLAWS",
-      "CONFUSION",
-      "METALCLAW",
-      "BULLETPUNCH",
-      "TACKLE",
-      "ZENHEADBUTT",
-      "MAGNETRISE",
-      "FLASHCANNON",
-      "TAKEDOWN",
-      "PSYCHIC",
-      "SCARYFACE",
-      "METEORMASH",
-      "IRONDEFENSE",
-      "AGILITY",
-      "HYPERBEAM",
+      {
+        level: 0,
+        move: "HAMMERARM",
+      },
+      {
+        level: 1,
+        move: "EXPLOSION",
+      },
+      {
+        level: 1,
+        move: "HONECLAWS",
+      },
+      {
+        level: 1,
+        move: "CONFUSION",
+      },
+      {
+        level: 1,
+        move: "METALCLAW",
+      },
+      {
+        level: 1,
+        move: "BULLETPUNCH",
+      },
+      {
+        level: 1,
+        move: "TACKLE",
+      },
+      {
+        level: 6,
+        move: "ZENHEADBUTT",
+      },
+      {
+        level: 12,
+        move: "MAGNETRISE",
+      },
+      {
+        level: 16,
+        move: "FLASHCANNON",
+      },
+      {
+        level: 26,
+        move: "TAKEDOWN",
+      },
+      {
+        level: 34,
+        move: "PSYCHIC",
+      },
+      {
+        level: 42,
+        move: "SCARYFACE",
+      },
+      {
+        level: 52,
+        move: "METEORMASH",
+      },
+      {
+        level: 62,
+        move: "IRONDEFENSE",
+      },
+      {
+        level: 72,
+        move: "AGILITY",
+      },
+      {
+        level: 82,
+        move: "HYPERBEAM",
+      },
     ],
     tutorMoves: [
       "AERIALACE",
@@ -12458,22 +16877,70 @@ export const pokemonForms: PokemonForm[] = [
     hiddenAbilities: [],
     category: "Eon",
     moves: [
-      "STOREDPOWER",
-      "CHARM",
-      "HELPINGHAND",
-      "RECOVER",
-      "CONFUSION",
-      "TAILWIND",
-      "DRAGONBREATH",
-      "WISH",
-      "MISTBALL",
-      "ZENHEADBUTT",
-      "DRAGONPULSE",
-      "HEALPULSE",
-      "REFLECTTYPE",
-      "PSYCHIC",
-      "GUARDSPLIT",
-      "HEALINGWISH",
+      {
+        level: 1,
+        move: "STOREDPOWER",
+      },
+      {
+        level: 1,
+        move: "CHARM",
+      },
+      {
+        level: 5,
+        move: "HELPINGHAND",
+      },
+      {
+        level: 10,
+        move: "RECOVER",
+      },
+      {
+        level: 15,
+        move: "CONFUSION",
+      },
+      {
+        level: 20,
+        move: "TAILWIND",
+      },
+      {
+        level: 25,
+        move: "DRAGONBREATH",
+      },
+      {
+        level: 30,
+        move: "WISH",
+      },
+      {
+        level: 35,
+        move: "MISTBALL",
+      },
+      {
+        level: 40,
+        move: "ZENHEADBUTT",
+      },
+      {
+        level: 45,
+        move: "DRAGONPULSE",
+      },
+      {
+        level: 50,
+        move: "HEALPULSE",
+      },
+      {
+        level: 55,
+        move: "REFLECTTYPE",
+      },
+      {
+        level: 60,
+        move: "PSYCHIC",
+      },
+      {
+        level: 65,
+        move: "GUARDSPLIT",
+      },
+      {
+        level: 70,
+        move: "HEALINGWISH",
+      },
     ],
     tutorMoves: [
       "AERIALACE",
@@ -12615,22 +17082,70 @@ export const pokemonForms: PokemonForm[] = [
     hiddenAbilities: [],
     category: "Eon",
     moves: [
-      "STOREDPOWER",
-      "DRAGONDANCE",
-      "HELPINGHAND",
-      "RECOVER",
-      "CONFUSION",
-      "TAILWIND",
-      "DRAGONBREATH",
-      "ALLYSWITCH",
-      "LUSTERPURGE",
-      "ZENHEADBUTT",
-      "DRAGONPULSE",
-      "HEALPULSE",
-      "SIMPLEBEAM",
-      "PSYCHIC",
-      "POWERSPLIT",
-      "MEMENTO",
+      {
+        level: 1,
+        move: "STOREDPOWER",
+      },
+      {
+        level: 1,
+        move: "DRAGONDANCE",
+      },
+      {
+        level: 5,
+        move: "HELPINGHAND",
+      },
+      {
+        level: 10,
+        move: "RECOVER",
+      },
+      {
+        level: 15,
+        move: "CONFUSION",
+      },
+      {
+        level: 20,
+        move: "TAILWIND",
+      },
+      {
+        level: 25,
+        move: "DRAGONBREATH",
+      },
+      {
+        level: 30,
+        move: "ALLYSWITCH",
+      },
+      {
+        level: 35,
+        move: "LUSTERPURGE",
+      },
+      {
+        level: 40,
+        move: "ZENHEADBUTT",
+      },
+      {
+        level: 45,
+        move: "DRAGONPULSE",
+      },
+      {
+        level: 50,
+        move: "HEALPULSE",
+      },
+      {
+        level: 55,
+        move: "SIMPLEBEAM",
+      },
+      {
+        level: 60,
+        move: "PSYCHIC",
+      },
+      {
+        level: 65,
+        move: "POWERSPLIT",
+      },
+      {
+        level: 70,
+        move: "MEMENTO",
+      },
     ],
     tutorMoves: [
       "AERIALACE",
@@ -12766,20 +17281,62 @@ export const pokemonForms: PokemonForm[] = [
     hiddenAbilities: [],
     category: "Sea Basin",
     moves: [
-      "ORIGINPULSE",
-      "WATERPULSE",
-      "ANCIENTPOWER",
-      "BODYSLAM",
-      "SCARYFACE",
-      "AQUATAIL",
-      "CALMMIND",
-      "MUDDYWATER",
-      "ICEBEAM",
-      "SHEERCOLD",
-      "AQUARING",
-      "HYDROPUMP",
-      "DOUBLEEDGE",
-      "WATERSPOUT",
+      {
+        level: 1,
+        move: "ORIGINPULSE",
+      },
+      {
+        level: 1,
+        move: "WATERPULSE",
+      },
+      {
+        level: 1,
+        move: "ANCIENTPOWER",
+      },
+      {
+        level: 1,
+        move: "BODYSLAM",
+      },
+      {
+        level: 1,
+        move: "SCARYFACE",
+      },
+      {
+        level: 9,
+        move: "AQUATAIL",
+      },
+      {
+        level: 18,
+        move: "CALMMIND",
+      },
+      {
+        level: 27,
+        move: "MUDDYWATER",
+      },
+      {
+        level: 36,
+        move: "ICEBEAM",
+      },
+      {
+        level: 45,
+        move: "SHEERCOLD",
+      },
+      {
+        level: 54,
+        move: "AQUARING",
+      },
+      {
+        level: 72,
+        move: "HYDROPUMP",
+      },
+      {
+        level: 81,
+        move: "DOUBLEEDGE",
+      },
+      {
+        level: 90,
+        move: "WATERSPOUT",
+      },
     ],
     tutorMoves: [
       "ANCIENTPOWER",
@@ -12876,20 +17433,62 @@ export const pokemonForms: PokemonForm[] = [
     hiddenAbilities: [],
     category: "Continent",
     moves: [
-      "PRECIPICEBLADES",
-      "MUDSHOT",
-      "ANCIENTPOWER",
-      "LAVAPLUME",
-      "SCARYFACE",
-      "EARTHPOWER",
-      "BULKUP",
-      "EARTHQUAKE",
-      "HAMMERARM",
-      "FISSURE",
-      "REST",
-      "FIREBLAST",
-      "SOLARBEAM",
-      "ERUPTION",
+      {
+        level: 1,
+        move: "PRECIPICEBLADES",
+      },
+      {
+        level: 1,
+        move: "MUDSHOT",
+      },
+      {
+        level: 1,
+        move: "ANCIENTPOWER",
+      },
+      {
+        level: 1,
+        move: "LAVAPLUME",
+      },
+      {
+        level: 1,
+        move: "SCARYFACE",
+      },
+      {
+        level: 9,
+        move: "EARTHPOWER",
+      },
+      {
+        level: 18,
+        move: "BULKUP",
+      },
+      {
+        level: 27,
+        move: "EARTHQUAKE",
+      },
+      {
+        level: 36,
+        move: "HAMMERARM",
+      },
+      {
+        level: 45,
+        move: "FISSURE",
+      },
+      {
+        level: 54,
+        move: "REST",
+      },
+      {
+        level: 72,
+        move: "FIREBLAST",
+      },
+      {
+        level: 81,
+        move: "SOLARBEAM",
+      },
+      {
+        level: 90,
+        move: "ERUPTION",
+      },
     ],
     tutorMoves: [
       "AERIALACE",
@@ -13021,21 +17620,66 @@ export const pokemonForms: PokemonForm[] = [
     hiddenAbilities: ["DELTASTREAM"],
     category: "Sky High",
     moves: [
-      "DRAGONASCENT",
-      "TWISTER",
-      "ANCIENTPOWER",
-      "AIRSLASH",
-      "SCARYFACE",
-      "CRUNCH",
-      "DRAGONDANCE",
-      "EXTREMESPEED",
-      "DRAGONPULSE",
-      "HYPERVOICE",
-      "REST",
-      "FLY",
-      "HURRICANE",
-      "OUTRAGE",
-      "HYPERBEAM",
+      {
+        level: 1,
+        move: "DRAGONASCENT",
+      },
+      {
+        level: 1,
+        move: "TWISTER",
+      },
+      {
+        level: 1,
+        move: "ANCIENTPOWER",
+      },
+      {
+        level: 1,
+        move: "AIRSLASH",
+      },
+      {
+        level: 1,
+        move: "SCARYFACE",
+      },
+      {
+        level: 9,
+        move: "CRUNCH",
+      },
+      {
+        level: 18,
+        move: "DRAGONDANCE",
+      },
+      {
+        level: 27,
+        move: "EXTREMESPEED",
+      },
+      {
+        level: 36,
+        move: "DRAGONPULSE",
+      },
+      {
+        level: 45,
+        move: "HYPERVOICE",
+      },
+      {
+        level: 54,
+        move: "REST",
+      },
+      {
+        level: 63,
+        move: "FLY",
+      },
+      {
+        level: 72,
+        move: "HURRICANE",
+      },
+      {
+        level: 81,
+        move: "OUTRAGE",
+      },
+      {
+        level: 90,
+        move: "HYPERBEAM",
+      },
     ],
     tutorMoves: [
       "AERIALACE",
@@ -13168,20 +17812,62 @@ export const pokemonForms: PokemonForm[] = [
     hiddenAbilities: [],
     category: "DNA",
     moves: [
-      "LEER",
-      "WRAP",
-      "NIGHTSHADE",
-      "TELEPORT",
-      "TAUNT",
-      "PSYSHOCK",
-      "PSYCHIC",
-      "SUPERPOWER",
-      "SKILLSWAP",
-      "ZENHEADBUTT",
-      "COSMICPOWER",
-      "ZAPCANNON",
-      "PSYCHOBOOST",
-      "HYPERBEAM",
+      {
+        level: 1,
+        move: "LEER",
+      },
+      {
+        level: 1,
+        move: "WRAP",
+      },
+      {
+        level: 7,
+        move: "NIGHTSHADE",
+      },
+      {
+        level: 13,
+        move: "TELEPORT",
+      },
+      {
+        level: 19,
+        move: "TAUNT",
+      },
+      {
+        level: 25,
+        move: "PSYSHOCK",
+      },
+      {
+        level: 31,
+        move: "PSYCHIC",
+      },
+      {
+        level: 37,
+        move: "SUPERPOWER",
+      },
+      {
+        level: 43,
+        move: "SKILLSWAP",
+      },
+      {
+        level: 49,
+        move: "ZENHEADBUTT",
+      },
+      {
+        level: 55,
+        move: "COSMICPOWER",
+      },
+      {
+        level: 61,
+        move: "ZAPCANNON",
+      },
+      {
+        level: 67,
+        move: "PSYCHOBOOST",
+      },
+      {
+        level: 73,
+        move: "HYPERBEAM",
+      },
     ],
     tutorMoves: [
       "AERIALACE",
@@ -13322,22 +18008,70 @@ export const pokemonForms: PokemonForm[] = [
     hiddenAbilities: [],
     category: "DNA",
     moves: [
-      "LEER",
-      "WRAP",
-      "NIGHTSHADE",
-      "TELEPORT",
-      "KNOCKOFF",
-      "SPIKES",
-      "PSYCHIC",
-      "PROTECT",
-      "SKILLSWAP",
-      "ZENHEADBUTT",
-      "IRONDEFENSE",
-      "AMNESIA",
-      "RECOVER",
-      "PSYCHOBOOST",
-      "COUNTER",
-      "MIRRORCOAT",
+      {
+        level: 1,
+        move: "LEER",
+      },
+      {
+        level: 1,
+        move: "WRAP",
+      },
+      {
+        level: 7,
+        move: "NIGHTSHADE",
+      },
+      {
+        level: 13,
+        move: "TELEPORT",
+      },
+      {
+        level: 19,
+        move: "KNOCKOFF",
+      },
+      {
+        level: 25,
+        move: "SPIKES",
+      },
+      {
+        level: 31,
+        move: "PSYCHIC",
+      },
+      {
+        level: 37,
+        move: "PROTECT",
+      },
+      {
+        level: 43,
+        move: "SKILLSWAP",
+      },
+      {
+        level: 49,
+        move: "ZENHEADBUTT",
+      },
+      {
+        level: 55,
+        move: "IRONDEFENSE",
+      },
+      {
+        level: 55,
+        move: "AMNESIA",
+      },
+      {
+        level: 61,
+        move: "RECOVER",
+      },
+      {
+        level: 67,
+        move: "PSYCHOBOOST",
+      },
+      {
+        level: 73,
+        move: "COUNTER",
+      },
+      {
+        level: 73,
+        move: "MIRRORCOAT",
+      },
     ],
     tutorMoves: [
       "AERIALACE",
@@ -13479,20 +18213,62 @@ export const pokemonForms: PokemonForm[] = [
     hiddenAbilities: [],
     category: "DNA",
     moves: [
-      "LEER",
-      "WRAP",
-      "NIGHTSHADE",
-      "DOUBLETEAM",
-      "KNOCKOFF",
-      "PSYSHOCK",
-      "PSYCHIC",
-      "SWIFT",
-      "SKILLSWAP",
-      "ZENHEADBUTT",
-      "AGILITY",
-      "RECOVER",
-      "PSYCHOBOOST",
-      "EXTREMESPEED",
+      {
+        level: 1,
+        move: "LEER",
+      },
+      {
+        level: 1,
+        move: "WRAP",
+      },
+      {
+        level: 7,
+        move: "NIGHTSHADE",
+      },
+      {
+        level: 13,
+        move: "DOUBLETEAM",
+      },
+      {
+        level: 19,
+        move: "KNOCKOFF",
+      },
+      {
+        level: 25,
+        move: "PSYSHOCK",
+      },
+      {
+        level: 31,
+        move: "PSYCHIC",
+      },
+      {
+        level: 37,
+        move: "SWIFT",
+      },
+      {
+        level: 43,
+        move: "SKILLSWAP",
+      },
+      {
+        level: 49,
+        move: "ZENHEADBUTT",
+      },
+      {
+        level: 55,
+        move: "AGILITY",
+      },
+      {
+        level: 61,
+        move: "RECOVER",
+      },
+      {
+        level: 67,
+        move: "PSYCHOBOOST",
+      },
+      {
+        level: 73,
+        move: "EXTREMESPEED",
+      },
     ],
     tutorMoves: [
       "AERIALACE",
@@ -13632,7 +18408,24 @@ export const pokemonForms: PokemonForm[] = [
     abilities: ["SHEDSKIN"],
     hiddenAbilities: ["OVERCOAT"],
     category: "Bagworm",
-    moves: ["PROTECT", "TACKLE", "BUGBITE", "STRINGSHOT"],
+    moves: [
+      {
+        level: 1,
+        move: "PROTECT",
+      },
+      {
+        level: 10,
+        move: "TACKLE",
+      },
+      {
+        level: 15,
+        move: "BUGBITE",
+      },
+      {
+        level: 20,
+        move: "STRINGSHOT",
+      },
+    ],
     tutorMoves: [
       "BUGBITE",
       "ELECTROWEB",
@@ -13677,7 +18470,24 @@ export const pokemonForms: PokemonForm[] = [
     abilities: ["SHEDSKIN"],
     hiddenAbilities: ["OVERCOAT"],
     category: "Bagworm",
-    moves: ["PROTECT", "TACKLE", "BUGBITE", "STRINGSHOT"],
+    moves: [
+      {
+        level: 1,
+        move: "PROTECT",
+      },
+      {
+        level: 10,
+        move: "TACKLE",
+      },
+      {
+        level: 15,
+        move: "BUGBITE",
+      },
+      {
+        level: 20,
+        move: "STRINGSHOT",
+      },
+    ],
     tutorMoves: [
       "BUGBITE",
       "ELECTROWEB",
@@ -13723,24 +18533,78 @@ export const pokemonForms: PokemonForm[] = [
     hiddenAbilities: ["OVERCOAT"],
     category: "Bagworm",
     moves: [
-      "QUIVERDANCE",
-      "SUCKERPUNCH",
-      "TACKLE",
-      "PROTECT",
-      "BUGBITE",
-      "PROTECT",
-      "BUGBITE",
-      "STRINGSHOT",
-      "CONFUSION",
-      "ROCKBLAST",
-      "HARDEN",
-      "PSYBEAM",
-      "INFESTATION",
-      "FLAIL",
-      "ATTRACT",
-      "PSYCHIC",
-      "FISSURE",
-      "BUGBUZZ",
+      {
+        level: 0,
+        move: "QUIVERDANCE",
+      },
+      {
+        level: 1,
+        move: "SUCKERPUNCH",
+      },
+      {
+        level: 1,
+        move: "TACKLE",
+      },
+      {
+        level: 1,
+        move: "PROTECT",
+      },
+      {
+        level: 1,
+        move: "BUGBITE",
+      },
+      {
+        level: 10,
+        move: "PROTECT",
+      },
+      {
+        level: 15,
+        move: "BUGBITE",
+      },
+      {
+        level: 20,
+        move: "STRINGSHOT",
+      },
+      {
+        level: 23,
+        move: "CONFUSION",
+      },
+      {
+        level: 26,
+        move: "ROCKBLAST",
+      },
+      {
+        level: 29,
+        move: "HARDEN",
+      },
+      {
+        level: 32,
+        move: "PSYBEAM",
+      },
+      {
+        level: 35,
+        move: "INFESTATION",
+      },
+      {
+        level: 38,
+        move: "FLAIL",
+      },
+      {
+        level: 41,
+        move: "ATTRACT",
+      },
+      {
+        level: 44,
+        move: "PSYCHIC",
+      },
+      {
+        level: 47,
+        move: "FISSURE",
+      },
+      {
+        level: 50,
+        move: "BUGBUZZ",
+      },
     ],
     tutorMoves: [
       "ALLYSWITCH",
@@ -13830,25 +18694,82 @@ export const pokemonForms: PokemonForm[] = [
     hiddenAbilities: ["OVERCOAT"],
     category: "Bagworm",
     moves: [
-      "QUIVERDANCE",
-      "METALBURST",
-      "SUCKERPUNCH",
-      "TACKLE",
-      "PROTECT",
-      "BUGBITE",
-      "PROTECT",
-      "BUGBITE",
-      "STRINGSHOT",
-      "CONFUSION",
-      "METALBURST",
-      "METALSOUND",
-      "PSYBEAM",
-      "INFESTATION",
-      "FLAIL",
-      "ATTRACT",
-      "PSYCHIC",
-      "IRONHEAD",
-      "BUGBUZZ",
+      {
+        level: 0,
+        move: "QUIVERDANCE",
+      },
+      {
+        level: 1,
+        move: "METALBURST",
+      },
+      {
+        level: 1,
+        move: "SUCKERPUNCH",
+      },
+      {
+        level: 1,
+        move: "TACKLE",
+      },
+      {
+        level: 1,
+        move: "PROTECT",
+      },
+      {
+        level: 1,
+        move: "BUGBITE",
+      },
+      {
+        level: 10,
+        move: "PROTECT",
+      },
+      {
+        level: 15,
+        move: "BUGBITE",
+      },
+      {
+        level: 20,
+        move: "STRINGSHOT",
+      },
+      {
+        level: 23,
+        move: "CONFUSION",
+      },
+      {
+        level: 26,
+        move: "METALBURST",
+      },
+      {
+        level: 29,
+        move: "METALSOUND",
+      },
+      {
+        level: 32,
+        move: "PSYBEAM",
+      },
+      {
+        level: 35,
+        move: "INFESTATION",
+      },
+      {
+        level: 38,
+        move: "FLAIL",
+      },
+      {
+        level: 41,
+        move: "ATTRACT",
+      },
+      {
+        level: 44,
+        move: "PSYCHIC",
+      },
+      {
+        level: 47,
+        move: "IRONHEAD",
+      },
+      {
+        level: 50,
+        move: "BUGBUZZ",
+      },
     ],
     tutorMoves: [
       "ALLYSWITCH",
@@ -13938,20 +18859,62 @@ export const pokemonForms: PokemonForm[] = [
     hiddenAbilities: [],
     category: "Blossom",
     moves: [
-      "SUNNYDAY",
-      "FLOWERSHIELD",
-      "MORNINGSUN",
-      "TACKLE",
-      "LEAFAGE",
-      "GROWTH",
-      "HELPINGHAND",
-      "MAGICALLEAF",
-      "LEECHSEED",
-      "TAKEDOWN",
-      "PETALBLIZZARD",
-      "WORRYSEED",
-      "SOLARBEAM",
-      "PETALDANCE",
+      {
+        level: 0,
+        move: "SUNNYDAY",
+      },
+      {
+        level: 1,
+        move: "FLOWERSHIELD",
+      },
+      {
+        level: 1,
+        move: "MORNINGSUN",
+      },
+      {
+        level: 1,
+        move: "TACKLE",
+      },
+      {
+        level: 1,
+        move: "LEAFAGE",
+      },
+      {
+        level: 1,
+        move: "GROWTH",
+      },
+      {
+        level: 15,
+        move: "HELPINGHAND",
+      },
+      {
+        level: 20,
+        move: "MAGICALLEAF",
+      },
+      {
+        level: 28,
+        move: "LEECHSEED",
+      },
+      {
+        level: 34,
+        move: "TAKEDOWN",
+      },
+      {
+        level: 41,
+        move: "PETALBLIZZARD",
+      },
+      {
+        level: 48,
+        move: "WORRYSEED",
+      },
+      {
+        level: 55,
+        move: "SOLARBEAM",
+      },
+      {
+        level: 62,
+        move: "PETALDANCE",
+      },
     ],
     tutorMoves: [
       "ATTRACT",
@@ -14032,17 +18995,50 @@ export const pokemonForms: PokemonForm[] = [
     hiddenAbilities: ["SANDFORCE"],
     category: "Sea Slug",
     moves: [
-      "WATERGUN",
-      "MUDSLAP",
-      "HARDEN",
-      "RECOVER",
-      "WATERPULSE",
-      "ANCIENTPOWER",
-      "BODYSLAM",
-      "MUDDYWATER",
-      "EARTHPOWER",
-      "RAINDANCE",
-      "MEMENTO",
+      {
+        level: 1,
+        move: "WATERGUN",
+      },
+      {
+        level: 1,
+        move: "MUDSLAP",
+      },
+      {
+        level: 5,
+        move: "HARDEN",
+      },
+      {
+        level: 10,
+        move: "RECOVER",
+      },
+      {
+        level: 15,
+        move: "WATERPULSE",
+      },
+      {
+        level: 20,
+        move: "ANCIENTPOWER",
+      },
+      {
+        level: 25,
+        move: "BODYSLAM",
+      },
+      {
+        level: 31,
+        move: "MUDDYWATER",
+      },
+      {
+        level: 35,
+        move: "EARTHPOWER",
+      },
+      {
+        level: 40,
+        move: "RAINDANCE",
+      },
+      {
+        level: 45,
+        move: "MEMENTO",
+      },
     ],
     tutorMoves: [
       "AMNESIA",
@@ -14154,17 +19150,50 @@ export const pokemonForms: PokemonForm[] = [
     hiddenAbilities: ["SANDFORCE"],
     category: "Sea Slug",
     moves: [
-      "WATERGUN",
-      "MUDSLAP",
-      "HARDEN",
-      "RECOVER",
-      "WATERPULSE",
-      "ANCIENTPOWER",
-      "BODYSLAM",
-      "MUDDYWATER",
-      "EARTHPOWER",
-      "RAINDANCE",
-      "MEMENTO",
+      {
+        level: 1,
+        move: "WATERGUN",
+      },
+      {
+        level: 1,
+        move: "MUDSLAP",
+      },
+      {
+        level: 1,
+        move: "HARDEN",
+      },
+      {
+        level: 1,
+        move: "RECOVER",
+      },
+      {
+        level: 15,
+        move: "WATERPULSE",
+      },
+      {
+        level: 20,
+        move: "ANCIENTPOWER",
+      },
+      {
+        level: 25,
+        move: "BODYSLAM",
+      },
+      {
+        level: 33,
+        move: "MUDDYWATER",
+      },
+      {
+        level: 39,
+        move: "EARTHPOWER",
+      },
+      {
+        level: 46,
+        move: "RAINDANCE",
+      },
+      {
+        level: 53,
+        move: "MEMENTO",
+      },
     ],
     tutorMoves: [
       "AMNESIA",
@@ -14270,24 +19299,78 @@ export const pokemonForms: PokemonForm[] = [
     hiddenAbilities: ["SCRAPPY"],
     category: "Rabbit",
     moves: [
-      "MIRRORCOAT",
-      "MAGICCOAT",
-      "SPLASH",
-      "POUND",
-      "DEFENSECURL",
-      "BABYDOLLEYES",
-      "AFTERYOU",
-      "QUICKATTACK",
-      "DOUBLEKICK",
-      "CHARM",
-      "BATONPASS",
-      "HEADBUTT",
-      "AGILITY",
-      "ENTRAINMENT",
-      "FLATTER",
-      "BOUNCE",
-      "HEALINGWISH",
-      "HIGHJUMPKICK",
+      {
+        level: 1,
+        move: "MIRRORCOAT",
+      },
+      {
+        level: 1,
+        move: "MAGICCOAT",
+      },
+      {
+        level: 1,
+        move: "SPLASH",
+      },
+      {
+        level: 1,
+        move: "POUND",
+      },
+      {
+        level: 1,
+        move: "DEFENSECURL",
+      },
+      {
+        level: 1,
+        move: "BABYDOLLEYES",
+      },
+      {
+        level: 12,
+        move: "AFTERYOU",
+      },
+      {
+        level: 16,
+        move: "QUICKATTACK",
+      },
+      {
+        level: 20,
+        move: "DOUBLEKICK",
+      },
+      {
+        level: 24,
+        move: "CHARM",
+      },
+      {
+        level: 28,
+        move: "BATONPASS",
+      },
+      {
+        level: 32,
+        move: "HEADBUTT",
+      },
+      {
+        level: 36,
+        move: "AGILITY",
+      },
+      {
+        level: 40,
+        move: "ENTRAINMENT",
+      },
+      {
+        level: 44,
+        move: "FLATTER",
+      },
+      {
+        level: 48,
+        move: "BOUNCE",
+      },
+      {
+        level: 52,
+        move: "HEALINGWISH",
+      },
+      {
+        level: 56,
+        move: "HIGHJUMPKICK",
+      },
     ],
     tutorMoves: [
       "ACROBATICS",
@@ -14406,19 +19489,58 @@ export const pokemonForms: PokemonForm[] = [
     hiddenAbilities: ["SANDFORCE"],
     category: "Mach",
     moves: [
-      "CRUNCH",
-      "SANDTOMB",
-      "TACKLE",
-      "SANDATTACK",
-      "DRAGONBREATH",
-      "BULLDOZE",
-      "BITE",
-      "SLASH",
-      "DRAGONCLAW",
-      "DIG",
-      "SANDSTORM",
-      "TAKEDOWN",
-      "DRAGONRUSH",
+      {
+        level: 0,
+        move: "CRUNCH",
+      },
+      {
+        level: 1,
+        move: "SANDTOMB",
+      },
+      {
+        level: 1,
+        move: "TACKLE",
+      },
+      {
+        level: 1,
+        move: "SANDATTACK",
+      },
+      {
+        level: 1,
+        move: "DRAGONBREATH",
+      },
+      {
+        level: 18,
+        move: "BULLDOZE",
+      },
+      {
+        level: 27,
+        move: "BITE",
+      },
+      {
+        level: 34,
+        move: "SLASH",
+      },
+      {
+        level: 42,
+        move: "DRAGONCLAW",
+      },
+      {
+        level: 52,
+        move: "DIG",
+      },
+      {
+        level: 62,
+        move: "SANDSTORM",
+      },
+      {
+        level: 72,
+        move: "TAKEDOWN",
+      },
+      {
+        level: 82,
+        move: "DRAGONRUSH",
+      },
     ],
     tutorMoves: [
       "AERIALACE",
@@ -14536,32 +19658,110 @@ export const pokemonForms: PokemonForm[] = [
     hiddenAbilities: ["ADAPTABILITY"],
     category: "Aura",
     moves: [
-      "AURASPHERE",
-      "LIFEDEW",
-      "ROCKSMASH",
-      "VACUUMWAVE",
-      "SCREECH",
-      "HELPINGHAND",
-      "COPYCAT",
-      "FINALGAMBIT",
-      "REVERSAL",
-      "QUICKATTACK",
-      "DETECT",
-      "FEINT",
-      "METALCLAW",
-      "COUNTER",
-      "WORKUP",
-      "FORCEPALM",
-      "CALMMIND",
-      "METALSOUND",
-      "QUICKGUARD",
-      "BONERUSH",
-      "SWORDSDANCE",
-      "HEALPULSE",
-      "METEORMASH",
-      "DRAGONPULSE",
-      "EXTREMESPEED",
-      "CLOSECOMBAT",
+      {
+        level: 0,
+        move: "AURASPHERE",
+      },
+      {
+        level: 1,
+        move: "LIFEDEW",
+      },
+      {
+        level: 1,
+        move: "ROCKSMASH",
+      },
+      {
+        level: 1,
+        move: "VACUUMWAVE",
+      },
+      {
+        level: 1,
+        move: "SCREECH",
+      },
+      {
+        level: 1,
+        move: "HELPINGHAND",
+      },
+      {
+        level: 1,
+        move: "COPYCAT",
+      },
+      {
+        level: 1,
+        move: "FINALGAMBIT",
+      },
+      {
+        level: 1,
+        move: "REVERSAL",
+      },
+      {
+        level: 1,
+        move: "QUICKATTACK",
+      },
+      {
+        level: 1,
+        move: "DETECT",
+      },
+      {
+        level: 1,
+        move: "FEINT",
+      },
+      {
+        level: 1,
+        move: "METALCLAW",
+      },
+      {
+        level: 12,
+        move: "COUNTER",
+      },
+      {
+        level: 16,
+        move: "WORKUP",
+      },
+      {
+        level: 20,
+        move: "FORCEPALM",
+      },
+      {
+        level: 24,
+        move: "CALMMIND",
+      },
+      {
+        level: 28,
+        move: "METALSOUND",
+      },
+      {
+        level: 32,
+        move: "QUICKGUARD",
+      },
+      {
+        level: 36,
+        move: "BONERUSH",
+      },
+      {
+        level: 40,
+        move: "SWORDSDANCE",
+      },
+      {
+        level: 44,
+        move: "HEALPULSE",
+      },
+      {
+        level: 48,
+        move: "METEORMASH",
+      },
+      {
+        level: 52,
+        move: "DRAGONPULSE",
+      },
+      {
+        level: 56,
+        move: "EXTREMESPEED",
+      },
+      {
+        level: 60,
+        move: "CLOSECOMBAT",
+      },
     ],
     tutorMoves: [
       "AERIALACE",
@@ -14692,20 +19892,62 @@ export const pokemonForms: PokemonForm[] = [
     hiddenAbilities: ["SNOWWARNING"],
     category: "Frost Tree",
     moves: [
-      "ICEPUNCH",
-      "AURORAVEIL",
-      "POWDERSNOW",
-      "LEER",
-      "LEAFAGE",
-      "MIST",
-      "ICESHARD",
-      "RAZORLEAF",
-      "ICYWIND",
-      "SWAGGER",
-      "INGRAIN",
-      "WOODHAMMER",
-      "BLIZZARD",
-      "SHEERCOLD",
+      {
+        level: 0,
+        move: "ICEPUNCH",
+      },
+      {
+        level: 1,
+        move: "AURORAVEIL",
+      },
+      {
+        level: 1,
+        move: "POWDERSNOW",
+      },
+      {
+        level: 1,
+        move: "LEER",
+      },
+      {
+        level: 1,
+        move: "LEAFAGE",
+      },
+      {
+        level: 1,
+        move: "MIST",
+      },
+      {
+        level: 15,
+        move: "ICESHARD",
+      },
+      {
+        level: 20,
+        move: "RAZORLEAF",
+      },
+      {
+        level: 25,
+        move: "ICYWIND",
+      },
+      {
+        level: 30,
+        move: "SWAGGER",
+      },
+      {
+        level: 35,
+        move: "INGRAIN",
+      },
+      {
+        level: 43,
+        move: "WOODHAMMER",
+      },
+      {
+        level: 49,
+        move: "BLIZZARD",
+      },
+      {
+        level: 56,
+        move: "SHEERCOLD",
+      },
     ],
     tutorMoves: [
       "ATTRACT",
@@ -14821,39 +20063,138 @@ export const pokemonForms: PokemonForm[] = [
     hiddenAbilities: ["INNERFOCUS"],
     category: "Blade",
     moves: [
-      "SLASH",
-      "NIGHTSLASH",
-      "AQUACUTTER",
-      "SACREDSWORD",
-      "LEAFBLADE",
-      "GROWL",
-      "DISARMINGVOICE",
-      "HYPNOSIS",
-      "DRAININGKISS",
-      "IMPRISON",
-      "PSYBEAM",
-      "LIFEDEW",
-      "CHARM",
-      "CALMMIND",
-      "PSYCHIC",
-      "DREAMEATER",
-      "FUTURESIGHT",
-      "LEER",
-      "FURYCUTTER",
-      "DOUBLETEAM",
-      "CONFUSION",
-      "HELPINGHAND",
-      "FEINT",
-      "TELEPORT",
-      "AERIALACE",
-      "FALSESWIPE",
-      "PROTECT",
-      "SWORDSDANCE",
-      "PSYCHOCUT",
-      "HEALPULSE",
-      "WIDEGUARD",
-      "QUICKGUARD",
-      "CLOSECOMBAT",
+      {
+        level: 0,
+        move: "SLASH",
+      },
+      {
+        level: 1,
+        move: "NIGHTSLASH",
+      },
+      {
+        level: 1,
+        move: "AQUACUTTER",
+      },
+      {
+        level: 1,
+        move: "SACREDSWORD",
+      },
+      {
+        level: 1,
+        move: "LEAFBLADE",
+      },
+      {
+        level: 1,
+        move: "GROWL",
+      },
+      {
+        level: 1,
+        move: "DISARMINGVOICE",
+      },
+      {
+        level: 1,
+        move: "HYPNOSIS",
+      },
+      {
+        level: 1,
+        move: "DRAININGKISS",
+      },
+      {
+        level: 1,
+        move: "IMPRISON",
+      },
+      {
+        level: 1,
+        move: "PSYBEAM",
+      },
+      {
+        level: 1,
+        move: "LIFEDEW",
+      },
+      {
+        level: 1,
+        move: "CHARM",
+      },
+      {
+        level: 1,
+        move: "CALMMIND",
+      },
+      {
+        level: 1,
+        move: "PSYCHIC",
+      },
+      {
+        level: 1,
+        move: "DREAMEATER",
+      },
+      {
+        level: 1,
+        move: "FUTURESIGHT",
+      },
+      {
+        level: 1,
+        move: "LEER",
+      },
+      {
+        level: 1,
+        move: "FURYCUTTER",
+      },
+      {
+        level: 1,
+        move: "DOUBLETEAM",
+      },
+      {
+        level: 1,
+        move: "CONFUSION",
+      },
+      {
+        level: 9,
+        move: "HELPINGHAND",
+      },
+      {
+        level: 12,
+        move: "FEINT",
+      },
+      {
+        level: 15,
+        move: "TELEPORT",
+      },
+      {
+        level: 18,
+        move: "AERIALACE",
+      },
+      {
+        level: 23,
+        move: "FALSESWIPE",
+      },
+      {
+        level: 28,
+        move: "PROTECT",
+      },
+      {
+        level: 35,
+        move: "SWORDSDANCE",
+      },
+      {
+        level: 42,
+        move: "PSYCHOCUT",
+      },
+      {
+        level: 49,
+        move: "HEALPULSE",
+      },
+      {
+        level: 56,
+        move: "WIDEGUARD",
+      },
+      {
+        level: 56,
+        move: "QUICKGUARD",
+      },
+      {
+        level: 63,
+        move: "CLOSECOMBAT",
+      },
     ],
     tutorMoves: [
       "AERIALACE",
@@ -15020,19 +20361,58 @@ export const pokemonForms: PokemonForm[] = [
     hiddenAbilities: [],
     category: "Plasma",
     moves: [
-      "ASTONISH",
-      "DOUBLETEAM",
-      "THUNDERSHOCK",
-      "CONFUSERAY",
-      "CHARGE",
-      "ELECTROBALL",
-      "THUNDERWAVE",
-      "SHOCKWAVE",
-      "HEX",
-      "SUBSTITUTE",
-      "TRICK",
-      "DISCHARGE",
-      "UPROAR",
+      {
+        level: 1,
+        move: "ASTONISH",
+      },
+      {
+        level: 1,
+        move: "DOUBLETEAM",
+      },
+      {
+        level: 5,
+        move: "THUNDERSHOCK",
+      },
+      {
+        level: 10,
+        move: "CONFUSERAY",
+      },
+      {
+        level: 15,
+        move: "CHARGE",
+      },
+      {
+        level: 20,
+        move: "ELECTROBALL",
+      },
+      {
+        level: 25,
+        move: "THUNDERWAVE",
+      },
+      {
+        level: 30,
+        move: "SHOCKWAVE",
+      },
+      {
+        level: 35,
+        move: "HEX",
+      },
+      {
+        level: 40,
+        move: "SUBSTITUTE",
+      },
+      {
+        level: 45,
+        move: "TRICK",
+      },
+      {
+        level: 50,
+        move: "DISCHARGE",
+      },
+      {
+        level: 55,
+        move: "UPROAR",
+      },
     ],
     tutorMoves: [
       "ALLYSWITCH",
@@ -15127,19 +20507,58 @@ export const pokemonForms: PokemonForm[] = [
     hiddenAbilities: [],
     category: "Plasma",
     moves: [
-      "ASTONISH",
-      "DOUBLETEAM",
-      "THUNDERSHOCK",
-      "CONFUSERAY",
-      "CHARGE",
-      "ELECTROBALL",
-      "THUNDERWAVE",
-      "SHOCKWAVE",
-      "HEX",
-      "SUBSTITUTE",
-      "TRICK",
-      "DISCHARGE",
-      "UPROAR",
+      {
+        level: 1,
+        move: "ASTONISH",
+      },
+      {
+        level: 1,
+        move: "DOUBLETEAM",
+      },
+      {
+        level: 5,
+        move: "THUNDERSHOCK",
+      },
+      {
+        level: 10,
+        move: "CONFUSERAY",
+      },
+      {
+        level: 15,
+        move: "CHARGE",
+      },
+      {
+        level: 20,
+        move: "ELECTROBALL",
+      },
+      {
+        level: 25,
+        move: "THUNDERWAVE",
+      },
+      {
+        level: 30,
+        move: "SHOCKWAVE",
+      },
+      {
+        level: 35,
+        move: "HEX",
+      },
+      {
+        level: 40,
+        move: "SUBSTITUTE",
+      },
+      {
+        level: 45,
+        move: "TRICK",
+      },
+      {
+        level: 50,
+        move: "DISCHARGE",
+      },
+      {
+        level: 55,
+        move: "UPROAR",
+      },
     ],
     tutorMoves: [
       "ALLYSWITCH",
@@ -15234,19 +20653,58 @@ export const pokemonForms: PokemonForm[] = [
     hiddenAbilities: [],
     category: "Plasma",
     moves: [
-      "ASTONISH",
-      "DOUBLETEAM",
-      "THUNDERSHOCK",
-      "CONFUSERAY",
-      "CHARGE",
-      "ELECTROBALL",
-      "THUNDERWAVE",
-      "SHOCKWAVE",
-      "HEX",
-      "SUBSTITUTE",
-      "TRICK",
-      "DISCHARGE",
-      "UPROAR",
+      {
+        level: 1,
+        move: "ASTONISH",
+      },
+      {
+        level: 1,
+        move: "DOUBLETEAM",
+      },
+      {
+        level: 5,
+        move: "THUNDERSHOCK",
+      },
+      {
+        level: 10,
+        move: "CONFUSERAY",
+      },
+      {
+        level: 15,
+        move: "CHARGE",
+      },
+      {
+        level: 20,
+        move: "ELECTROBALL",
+      },
+      {
+        level: 25,
+        move: "THUNDERWAVE",
+      },
+      {
+        level: 30,
+        move: "SHOCKWAVE",
+      },
+      {
+        level: 35,
+        move: "HEX",
+      },
+      {
+        level: 40,
+        move: "SUBSTITUTE",
+      },
+      {
+        level: 45,
+        move: "TRICK",
+      },
+      {
+        level: 50,
+        move: "DISCHARGE",
+      },
+      {
+        level: 55,
+        move: "UPROAR",
+      },
     ],
     tutorMoves: [
       "ALLYSWITCH",
@@ -15341,19 +20799,58 @@ export const pokemonForms: PokemonForm[] = [
     hiddenAbilities: [],
     category: "Plasma",
     moves: [
-      "ASTONISH",
-      "DOUBLETEAM",
-      "THUNDERSHOCK",
-      "CONFUSERAY",
-      "CHARGE",
-      "ELECTROBALL",
-      "THUNDERWAVE",
-      "SHOCKWAVE",
-      "HEX",
-      "SUBSTITUTE",
-      "TRICK",
-      "DISCHARGE",
-      "UPROAR",
+      {
+        level: 1,
+        move: "ASTONISH",
+      },
+      {
+        level: 1,
+        move: "DOUBLETEAM",
+      },
+      {
+        level: 5,
+        move: "THUNDERSHOCK",
+      },
+      {
+        level: 10,
+        move: "CONFUSERAY",
+      },
+      {
+        level: 15,
+        move: "CHARGE",
+      },
+      {
+        level: 20,
+        move: "ELECTROBALL",
+      },
+      {
+        level: 25,
+        move: "THUNDERWAVE",
+      },
+      {
+        level: 30,
+        move: "SHOCKWAVE",
+      },
+      {
+        level: 35,
+        move: "HEX",
+      },
+      {
+        level: 40,
+        move: "SUBSTITUTE",
+      },
+      {
+        level: 45,
+        move: "TRICK",
+      },
+      {
+        level: 50,
+        move: "DISCHARGE",
+      },
+      {
+        level: 55,
+        move: "UPROAR",
+      },
     ],
     tutorMoves: [
       "ALLYSWITCH",
@@ -15448,19 +20945,58 @@ export const pokemonForms: PokemonForm[] = [
     hiddenAbilities: [],
     category: "Plasma",
     moves: [
-      "ASTONISH",
-      "DOUBLETEAM",
-      "THUNDERSHOCK",
-      "CONFUSERAY",
-      "CHARGE",
-      "ELECTROBALL",
-      "THUNDERWAVE",
-      "SHOCKWAVE",
-      "HEX",
-      "SUBSTITUTE",
-      "TRICK",
-      "DISCHARGE",
-      "UPROAR",
+      {
+        level: 1,
+        move: "ASTONISH",
+      },
+      {
+        level: 1,
+        move: "DOUBLETEAM",
+      },
+      {
+        level: 5,
+        move: "THUNDERSHOCK",
+      },
+      {
+        level: 10,
+        move: "CONFUSERAY",
+      },
+      {
+        level: 15,
+        move: "CHARGE",
+      },
+      {
+        level: 20,
+        move: "ELECTROBALL",
+      },
+      {
+        level: 25,
+        move: "THUNDERWAVE",
+      },
+      {
+        level: 30,
+        move: "SHOCKWAVE",
+      },
+      {
+        level: 35,
+        move: "HEX",
+      },
+      {
+        level: 40,
+        move: "SUBSTITUTE",
+      },
+      {
+        level: 45,
+        move: "TRICK",
+      },
+      {
+        level: 50,
+        move: "DISCHARGE",
+      },
+      {
+        level: 55,
+        move: "UPROAR",
+      },
     ],
     tutorMoves: [
       "ALLYSWITCH",
@@ -15555,19 +21091,58 @@ export const pokemonForms: PokemonForm[] = [
     hiddenAbilities: ["TELEPATHY"],
     category: "Temporal",
     moves: [
-      "SCARYFACE",
-      "METALCLAW",
-      "DRAGONBREATH",
-      "ANCIENTPOWER",
-      "SLASH",
-      "FLASHCANNON",
-      "DRAGONCLAW",
-      "AURASPHERE",
-      "POWERGEM",
-      "METALBURST",
-      "EARTHPOWER",
-      "IRONTAIL",
-      "ROAROFTIME",
+      {
+        level: 1,
+        move: "SCARYFACE",
+      },
+      {
+        level: 1,
+        move: "METALCLAW",
+      },
+      {
+        level: 8,
+        move: "DRAGONBREATH",
+      },
+      {
+        level: 16,
+        move: "ANCIENTPOWER",
+      },
+      {
+        level: 24,
+        move: "SLASH",
+      },
+      {
+        level: 32,
+        move: "FLASHCANNON",
+      },
+      {
+        level: 40,
+        move: "DRAGONCLAW",
+      },
+      {
+        level: 48,
+        move: "AURASPHERE",
+      },
+      {
+        level: 56,
+        move: "POWERGEM",
+      },
+      {
+        level: 64,
+        move: "METALBURST",
+      },
+      {
+        level: 72,
+        move: "EARTHPOWER",
+      },
+      {
+        level: 80,
+        move: "IRONTAIL",
+      },
+      {
+        level: 88,
+        move: "ROAROFTIME",
+      },
     ],
     tutorMoves: [
       "ANCIENTPOWER",
@@ -15687,18 +21262,54 @@ export const pokemonForms: PokemonForm[] = [
     hiddenAbilities: ["TELEPATHY"],
     category: "Spatial",
     moves: [
-      "SCARYFACE",
-      "WATERPULSE",
-      "DRAGONBREATH",
-      "ANCIENTPOWER",
-      "SLASH",
-      "AQUARING",
-      "AURASPHERE",
-      "POWERGEM",
-      "AQUATAIL",
-      "EARTHPOWER",
-      "SPACIALREND",
-      "HYDROPUMP",
+      {
+        level: 1,
+        move: "SCARYFACE",
+      },
+      {
+        level: 1,
+        move: "WATERPULSE",
+      },
+      {
+        level: 8,
+        move: "DRAGONBREATH",
+      },
+      {
+        level: 16,
+        move: "ANCIENTPOWER",
+      },
+      {
+        level: 24,
+        move: "SLASH",
+      },
+      {
+        level: 32,
+        move: "AQUARING",
+      },
+      {
+        level: 48,
+        move: "AURASPHERE",
+      },
+      {
+        level: 56,
+        move: "POWERGEM",
+      },
+      {
+        level: 64,
+        move: "AQUATAIL",
+      },
+      {
+        level: 72,
+        move: "EARTHPOWER",
+      },
+      {
+        level: 80,
+        move: "SPACIALREND",
+      },
+      {
+        level: 88,
+        move: "HYDROPUMP",
+      },
     ],
     tutorMoves: [
       "AERIALACE",
@@ -15824,20 +21435,62 @@ export const pokemonForms: PokemonForm[] = [
     hiddenAbilities: ["LEVITATE"],
     category: "Renegade",
     moves: [
-      "SHADOWSNEAK",
-      "DEFOG",
-      "DRAGONBREATH",
-      "ANCIENTPOWER",
-      "HEX",
-      "SLASH",
-      "SCARYFACE",
-      "SHADOWCLAW",
-      "PAINSPLIT",
-      "AURASPHERE",
-      "DRAGONCLAW",
-      "EARTHPOWER",
-      "SHADOWFORCE",
-      "DESTINYBOND",
+      {
+        level: 1,
+        move: "SHADOWSNEAK",
+      },
+      {
+        level: 1,
+        move: "DEFOG",
+      },
+      {
+        level: 7,
+        move: "DRAGONBREATH",
+      },
+      {
+        level: 14,
+        move: "ANCIENTPOWER",
+      },
+      {
+        level: 21,
+        move: "HEX",
+      },
+      {
+        level: 28,
+        move: "SLASH",
+      },
+      {
+        level: 35,
+        move: "SCARYFACE",
+      },
+      {
+        level: 42,
+        move: "SHADOWCLAW",
+      },
+      {
+        level: 49,
+        move: "PAINSPLIT",
+      },
+      {
+        level: 56,
+        move: "AURASPHERE",
+      },
+      {
+        level: 63,
+        move: "DRAGONCLAW",
+      },
+      {
+        level: 70,
+        move: "EARTHPOWER",
+      },
+      {
+        level: 77,
+        move: "SHADOWFORCE",
+      },
+      {
+        level: 84,
+        move: "DESTINYBOND",
+      },
     ],
     tutorMoves: [
       "ANCIENTPOWER",
@@ -15957,18 +21610,54 @@ export const pokemonForms: PokemonForm[] = [
     hiddenAbilities: [],
     category: "Gratitude",
     moves: [
-      "GROWTH",
-      "MAGICALLEAF",
-      "LEECHSEED",
-      "QUICKATTACK",
-      "SWEETSCENT",
-      "PLAYROUGH",
-      "WORRYSEED",
-      "AIRSLASH",
-      "ENERGYBALL",
-      "SWEETKISS",
-      "LEAFSTORM",
-      "SEEDFLARE",
+      {
+        level: 1,
+        move: "GROWTH",
+      },
+      {
+        level: 10,
+        move: "MAGICALLEAF",
+      },
+      {
+        level: 19,
+        move: "LEECHSEED",
+      },
+      {
+        level: 28,
+        move: "QUICKATTACK",
+      },
+      {
+        level: 37,
+        move: "SWEETSCENT",
+      },
+      {
+        level: 46,
+        move: "PLAYROUGH",
+      },
+      {
+        level: 55,
+        move: "WORRYSEED",
+      },
+      {
+        level: 64,
+        move: "AIRSLASH",
+      },
+      {
+        level: 73,
+        move: "ENERGYBALL",
+      },
+      {
+        level: 82,
+        move: "SWEETKISS",
+      },
+      {
+        level: 91,
+        move: "LEAFSTORM",
+      },
+      {
+        level: 100,
+        move: "SEEDFLARE",
+      },
     ],
     tutorMoves: [
       "AIRCUTTER",
@@ -16062,18 +21751,54 @@ export const pokemonForms: PokemonForm[] = [
     hiddenAbilities: [],
     category: "Alpha",
     moves: [
-      "SEISMICTOSS",
-      "COSMICPOWER",
-      "GRAVITY",
-      "EARTHPOWER",
-      "HYPERVOICE",
-      "EXTREMESPEED",
-      "HEALINGWISH",
-      "FUTURESIGHT",
-      "RECOVER",
-      "HYPERBEAM",
-      "PERISHSONG",
-      "JUDGMENT",
+      {
+        level: 1,
+        move: "SEISMICTOSS",
+      },
+      {
+        level: 1,
+        move: "COSMICPOWER",
+      },
+      {
+        level: 10,
+        move: "GRAVITY",
+      },
+      {
+        level: 20,
+        move: "EARTHPOWER",
+      },
+      {
+        level: 30,
+        move: "HYPERVOICE",
+      },
+      {
+        level: 40,
+        move: "EXTREMESPEED",
+      },
+      {
+        level: 50,
+        move: "HEALINGWISH",
+      },
+      {
+        level: 60,
+        move: "FUTURESIGHT",
+      },
+      {
+        level: 70,
+        move: "RECOVER",
+      },
+      {
+        level: 80,
+        move: "HYPERBEAM",
+      },
+      {
+        level: 90,
+        move: "PERISHSONG",
+      },
+      {
+        level: 100,
+        move: "JUDGMENT",
+      },
     ],
     tutorMoves: [
       "ACIDSPRAY",
@@ -16265,18 +21990,54 @@ export const pokemonForms: PokemonForm[] = [
     hiddenAbilities: [],
     category: "Alpha",
     moves: [
-      "SEISMICTOSS",
-      "COSMICPOWER",
-      "GRAVITY",
-      "EARTHPOWER",
-      "HYPERVOICE",
-      "EXTREMESPEED",
-      "HEALINGWISH",
-      "FUTURESIGHT",
-      "RECOVER",
-      "HYPERBEAM",
-      "PERISHSONG",
-      "JUDGMENT",
+      {
+        level: 1,
+        move: "SEISMICTOSS",
+      },
+      {
+        level: 1,
+        move: "COSMICPOWER",
+      },
+      {
+        level: 10,
+        move: "GRAVITY",
+      },
+      {
+        level: 20,
+        move: "EARTHPOWER",
+      },
+      {
+        level: 30,
+        move: "HYPERVOICE",
+      },
+      {
+        level: 40,
+        move: "EXTREMESPEED",
+      },
+      {
+        level: 50,
+        move: "HEALINGWISH",
+      },
+      {
+        level: 60,
+        move: "FUTURESIGHT",
+      },
+      {
+        level: 70,
+        move: "RECOVER",
+      },
+      {
+        level: 80,
+        move: "HYPERBEAM",
+      },
+      {
+        level: 90,
+        move: "PERISHSONG",
+      },
+      {
+        level: 100,
+        move: "JUDGMENT",
+      },
     ],
     tutorMoves: [
       "ACIDSPRAY",
@@ -16468,18 +22229,54 @@ export const pokemonForms: PokemonForm[] = [
     hiddenAbilities: [],
     category: "Alpha",
     moves: [
-      "SEISMICTOSS",
-      "COSMICPOWER",
-      "GRAVITY",
-      "EARTHPOWER",
-      "HYPERVOICE",
-      "EXTREMESPEED",
-      "HEALINGWISH",
-      "FUTURESIGHT",
-      "RECOVER",
-      "HYPERBEAM",
-      "PERISHSONG",
-      "JUDGMENT",
+      {
+        level: 1,
+        move: "SEISMICTOSS",
+      },
+      {
+        level: 1,
+        move: "COSMICPOWER",
+      },
+      {
+        level: 10,
+        move: "GRAVITY",
+      },
+      {
+        level: 20,
+        move: "EARTHPOWER",
+      },
+      {
+        level: 30,
+        move: "HYPERVOICE",
+      },
+      {
+        level: 40,
+        move: "EXTREMESPEED",
+      },
+      {
+        level: 50,
+        move: "HEALINGWISH",
+      },
+      {
+        level: 60,
+        move: "FUTURESIGHT",
+      },
+      {
+        level: 70,
+        move: "RECOVER",
+      },
+      {
+        level: 80,
+        move: "HYPERBEAM",
+      },
+      {
+        level: 90,
+        move: "PERISHSONG",
+      },
+      {
+        level: 100,
+        move: "JUDGMENT",
+      },
     ],
     tutorMoves: [
       "ACIDSPRAY",
@@ -16671,18 +22468,54 @@ export const pokemonForms: PokemonForm[] = [
     hiddenAbilities: [],
     category: "Alpha",
     moves: [
-      "SEISMICTOSS",
-      "COSMICPOWER",
-      "GRAVITY",
-      "EARTHPOWER",
-      "HYPERVOICE",
-      "EXTREMESPEED",
-      "HEALINGWISH",
-      "FUTURESIGHT",
-      "RECOVER",
-      "HYPERBEAM",
-      "PERISHSONG",
-      "JUDGMENT",
+      {
+        level: 1,
+        move: "SEISMICTOSS",
+      },
+      {
+        level: 1,
+        move: "COSMICPOWER",
+      },
+      {
+        level: 10,
+        move: "GRAVITY",
+      },
+      {
+        level: 20,
+        move: "EARTHPOWER",
+      },
+      {
+        level: 30,
+        move: "HYPERVOICE",
+      },
+      {
+        level: 40,
+        move: "EXTREMESPEED",
+      },
+      {
+        level: 50,
+        move: "HEALINGWISH",
+      },
+      {
+        level: 60,
+        move: "FUTURESIGHT",
+      },
+      {
+        level: 70,
+        move: "RECOVER",
+      },
+      {
+        level: 80,
+        move: "HYPERBEAM",
+      },
+      {
+        level: 90,
+        move: "PERISHSONG",
+      },
+      {
+        level: 100,
+        move: "JUDGMENT",
+      },
     ],
     tutorMoves: [
       "ACIDSPRAY",
@@ -16874,18 +22707,54 @@ export const pokemonForms: PokemonForm[] = [
     hiddenAbilities: [],
     category: "Alpha",
     moves: [
-      "SEISMICTOSS",
-      "COSMICPOWER",
-      "GRAVITY",
-      "EARTHPOWER",
-      "HYPERVOICE",
-      "EXTREMESPEED",
-      "HEALINGWISH",
-      "FUTURESIGHT",
-      "RECOVER",
-      "HYPERBEAM",
-      "PERISHSONG",
-      "JUDGMENT",
+      {
+        level: 1,
+        move: "SEISMICTOSS",
+      },
+      {
+        level: 1,
+        move: "COSMICPOWER",
+      },
+      {
+        level: 10,
+        move: "GRAVITY",
+      },
+      {
+        level: 20,
+        move: "EARTHPOWER",
+      },
+      {
+        level: 30,
+        move: "HYPERVOICE",
+      },
+      {
+        level: 40,
+        move: "EXTREMESPEED",
+      },
+      {
+        level: 50,
+        move: "HEALINGWISH",
+      },
+      {
+        level: 60,
+        move: "FUTURESIGHT",
+      },
+      {
+        level: 70,
+        move: "RECOVER",
+      },
+      {
+        level: 80,
+        move: "HYPERBEAM",
+      },
+      {
+        level: 90,
+        move: "PERISHSONG",
+      },
+      {
+        level: 100,
+        move: "JUDGMENT",
+      },
     ],
     tutorMoves: [
       "ACIDSPRAY",
@@ -17077,18 +22946,54 @@ export const pokemonForms: PokemonForm[] = [
     hiddenAbilities: [],
     category: "Alpha",
     moves: [
-      "SEISMICTOSS",
-      "COSMICPOWER",
-      "GRAVITY",
-      "EARTHPOWER",
-      "HYPERVOICE",
-      "EXTREMESPEED",
-      "HEALINGWISH",
-      "FUTURESIGHT",
-      "RECOVER",
-      "HYPERBEAM",
-      "PERISHSONG",
-      "JUDGMENT",
+      {
+        level: 1,
+        move: "SEISMICTOSS",
+      },
+      {
+        level: 1,
+        move: "COSMICPOWER",
+      },
+      {
+        level: 10,
+        move: "GRAVITY",
+      },
+      {
+        level: 20,
+        move: "EARTHPOWER",
+      },
+      {
+        level: 30,
+        move: "HYPERVOICE",
+      },
+      {
+        level: 40,
+        move: "EXTREMESPEED",
+      },
+      {
+        level: 50,
+        move: "HEALINGWISH",
+      },
+      {
+        level: 60,
+        move: "FUTURESIGHT",
+      },
+      {
+        level: 70,
+        move: "RECOVER",
+      },
+      {
+        level: 80,
+        move: "HYPERBEAM",
+      },
+      {
+        level: 90,
+        move: "PERISHSONG",
+      },
+      {
+        level: 100,
+        move: "JUDGMENT",
+      },
     ],
     tutorMoves: [
       "ACIDSPRAY",
@@ -17280,18 +23185,54 @@ export const pokemonForms: PokemonForm[] = [
     hiddenAbilities: [],
     category: "Alpha",
     moves: [
-      "SEISMICTOSS",
-      "COSMICPOWER",
-      "GRAVITY",
-      "EARTHPOWER",
-      "HYPERVOICE",
-      "EXTREMESPEED",
-      "HEALINGWISH",
-      "FUTURESIGHT",
-      "RECOVER",
-      "HYPERBEAM",
-      "PERISHSONG",
-      "JUDGMENT",
+      {
+        level: 1,
+        move: "SEISMICTOSS",
+      },
+      {
+        level: 1,
+        move: "COSMICPOWER",
+      },
+      {
+        level: 10,
+        move: "GRAVITY",
+      },
+      {
+        level: 20,
+        move: "EARTHPOWER",
+      },
+      {
+        level: 30,
+        move: "HYPERVOICE",
+      },
+      {
+        level: 40,
+        move: "EXTREMESPEED",
+      },
+      {
+        level: 50,
+        move: "HEALINGWISH",
+      },
+      {
+        level: 60,
+        move: "FUTURESIGHT",
+      },
+      {
+        level: 70,
+        move: "RECOVER",
+      },
+      {
+        level: 80,
+        move: "HYPERBEAM",
+      },
+      {
+        level: 90,
+        move: "PERISHSONG",
+      },
+      {
+        level: 100,
+        move: "JUDGMENT",
+      },
     ],
     tutorMoves: [
       "ACIDSPRAY",
@@ -17483,18 +23424,54 @@ export const pokemonForms: PokemonForm[] = [
     hiddenAbilities: [],
     category: "Alpha",
     moves: [
-      "SEISMICTOSS",
-      "COSMICPOWER",
-      "GRAVITY",
-      "EARTHPOWER",
-      "HYPERVOICE",
-      "EXTREMESPEED",
-      "HEALINGWISH",
-      "FUTURESIGHT",
-      "RECOVER",
-      "HYPERBEAM",
-      "PERISHSONG",
-      "JUDGMENT",
+      {
+        level: 1,
+        move: "SEISMICTOSS",
+      },
+      {
+        level: 1,
+        move: "COSMICPOWER",
+      },
+      {
+        level: 10,
+        move: "GRAVITY",
+      },
+      {
+        level: 20,
+        move: "EARTHPOWER",
+      },
+      {
+        level: 30,
+        move: "HYPERVOICE",
+      },
+      {
+        level: 40,
+        move: "EXTREMESPEED",
+      },
+      {
+        level: 50,
+        move: "HEALINGWISH",
+      },
+      {
+        level: 60,
+        move: "FUTURESIGHT",
+      },
+      {
+        level: 70,
+        move: "RECOVER",
+      },
+      {
+        level: 80,
+        move: "HYPERBEAM",
+      },
+      {
+        level: 90,
+        move: "PERISHSONG",
+      },
+      {
+        level: 100,
+        move: "JUDGMENT",
+      },
     ],
     tutorMoves: [
       "ACIDSPRAY",
@@ -17686,18 +23663,54 @@ export const pokemonForms: PokemonForm[] = [
     hiddenAbilities: [],
     category: "Alpha",
     moves: [
-      "SEISMICTOSS",
-      "COSMICPOWER",
-      "GRAVITY",
-      "EARTHPOWER",
-      "HYPERVOICE",
-      "EXTREMESPEED",
-      "HEALINGWISH",
-      "FUTURESIGHT",
-      "RECOVER",
-      "HYPERBEAM",
-      "PERISHSONG",
-      "JUDGMENT",
+      {
+        level: 1,
+        move: "SEISMICTOSS",
+      },
+      {
+        level: 1,
+        move: "COSMICPOWER",
+      },
+      {
+        level: 10,
+        move: "GRAVITY",
+      },
+      {
+        level: 20,
+        move: "EARTHPOWER",
+      },
+      {
+        level: 30,
+        move: "HYPERVOICE",
+      },
+      {
+        level: 40,
+        move: "EXTREMESPEED",
+      },
+      {
+        level: 50,
+        move: "HEALINGWISH",
+      },
+      {
+        level: 60,
+        move: "FUTURESIGHT",
+      },
+      {
+        level: 70,
+        move: "RECOVER",
+      },
+      {
+        level: 80,
+        move: "HYPERBEAM",
+      },
+      {
+        level: 90,
+        move: "PERISHSONG",
+      },
+      {
+        level: 100,
+        move: "JUDGMENT",
+      },
     ],
     tutorMoves: [
       "ACIDSPRAY",
@@ -17889,18 +23902,54 @@ export const pokemonForms: PokemonForm[] = [
     hiddenAbilities: [],
     category: "Alpha",
     moves: [
-      "SEISMICTOSS",
-      "COSMICPOWER",
-      "GRAVITY",
-      "EARTHPOWER",
-      "HYPERVOICE",
-      "EXTREMESPEED",
-      "HEALINGWISH",
-      "FUTURESIGHT",
-      "RECOVER",
-      "HYPERBEAM",
-      "PERISHSONG",
-      "JUDGMENT",
+      {
+        level: 1,
+        move: "SEISMICTOSS",
+      },
+      {
+        level: 1,
+        move: "COSMICPOWER",
+      },
+      {
+        level: 10,
+        move: "GRAVITY",
+      },
+      {
+        level: 20,
+        move: "EARTHPOWER",
+      },
+      {
+        level: 30,
+        move: "HYPERVOICE",
+      },
+      {
+        level: 40,
+        move: "EXTREMESPEED",
+      },
+      {
+        level: 50,
+        move: "HEALINGWISH",
+      },
+      {
+        level: 60,
+        move: "FUTURESIGHT",
+      },
+      {
+        level: 70,
+        move: "RECOVER",
+      },
+      {
+        level: 80,
+        move: "HYPERBEAM",
+      },
+      {
+        level: 90,
+        move: "PERISHSONG",
+      },
+      {
+        level: 100,
+        move: "JUDGMENT",
+      },
     ],
     tutorMoves: [
       "ACIDSPRAY",
@@ -18092,18 +24141,54 @@ export const pokemonForms: PokemonForm[] = [
     hiddenAbilities: [],
     category: "Alpha",
     moves: [
-      "SEISMICTOSS",
-      "COSMICPOWER",
-      "GRAVITY",
-      "EARTHPOWER",
-      "HYPERVOICE",
-      "EXTREMESPEED",
-      "HEALINGWISH",
-      "FUTURESIGHT",
-      "RECOVER",
-      "HYPERBEAM",
-      "PERISHSONG",
-      "JUDGMENT",
+      {
+        level: 1,
+        move: "SEISMICTOSS",
+      },
+      {
+        level: 1,
+        move: "COSMICPOWER",
+      },
+      {
+        level: 10,
+        move: "GRAVITY",
+      },
+      {
+        level: 20,
+        move: "EARTHPOWER",
+      },
+      {
+        level: 30,
+        move: "HYPERVOICE",
+      },
+      {
+        level: 40,
+        move: "EXTREMESPEED",
+      },
+      {
+        level: 50,
+        move: "HEALINGWISH",
+      },
+      {
+        level: 60,
+        move: "FUTURESIGHT",
+      },
+      {
+        level: 70,
+        move: "RECOVER",
+      },
+      {
+        level: 80,
+        move: "HYPERBEAM",
+      },
+      {
+        level: 90,
+        move: "PERISHSONG",
+      },
+      {
+        level: 100,
+        move: "JUDGMENT",
+      },
     ],
     tutorMoves: [
       "ACIDSPRAY",
@@ -18295,18 +24380,54 @@ export const pokemonForms: PokemonForm[] = [
     hiddenAbilities: [],
     category: "Alpha",
     moves: [
-      "SEISMICTOSS",
-      "COSMICPOWER",
-      "GRAVITY",
-      "EARTHPOWER",
-      "HYPERVOICE",
-      "EXTREMESPEED",
-      "HEALINGWISH",
-      "FUTURESIGHT",
-      "RECOVER",
-      "HYPERBEAM",
-      "PERISHSONG",
-      "JUDGMENT",
+      {
+        level: 1,
+        move: "SEISMICTOSS",
+      },
+      {
+        level: 1,
+        move: "COSMICPOWER",
+      },
+      {
+        level: 10,
+        move: "GRAVITY",
+      },
+      {
+        level: 20,
+        move: "EARTHPOWER",
+      },
+      {
+        level: 30,
+        move: "HYPERVOICE",
+      },
+      {
+        level: 40,
+        move: "EXTREMESPEED",
+      },
+      {
+        level: 50,
+        move: "HEALINGWISH",
+      },
+      {
+        level: 60,
+        move: "FUTURESIGHT",
+      },
+      {
+        level: 70,
+        move: "RECOVER",
+      },
+      {
+        level: 80,
+        move: "HYPERBEAM",
+      },
+      {
+        level: 90,
+        move: "PERISHSONG",
+      },
+      {
+        level: 100,
+        move: "JUDGMENT",
+      },
     ],
     tutorMoves: [
       "ACIDSPRAY",
@@ -18498,18 +24619,54 @@ export const pokemonForms: PokemonForm[] = [
     hiddenAbilities: [],
     category: "Alpha",
     moves: [
-      "SEISMICTOSS",
-      "COSMICPOWER",
-      "GRAVITY",
-      "EARTHPOWER",
-      "HYPERVOICE",
-      "EXTREMESPEED",
-      "HEALINGWISH",
-      "FUTURESIGHT",
-      "RECOVER",
-      "HYPERBEAM",
-      "PERISHSONG",
-      "JUDGMENT",
+      {
+        level: 1,
+        move: "SEISMICTOSS",
+      },
+      {
+        level: 1,
+        move: "COSMICPOWER",
+      },
+      {
+        level: 10,
+        move: "GRAVITY",
+      },
+      {
+        level: 20,
+        move: "EARTHPOWER",
+      },
+      {
+        level: 30,
+        move: "HYPERVOICE",
+      },
+      {
+        level: 40,
+        move: "EXTREMESPEED",
+      },
+      {
+        level: 50,
+        move: "HEALINGWISH",
+      },
+      {
+        level: 60,
+        move: "FUTURESIGHT",
+      },
+      {
+        level: 70,
+        move: "RECOVER",
+      },
+      {
+        level: 80,
+        move: "HYPERBEAM",
+      },
+      {
+        level: 90,
+        move: "PERISHSONG",
+      },
+      {
+        level: 100,
+        move: "JUDGMENT",
+      },
     ],
     tutorMoves: [
       "ACIDSPRAY",
@@ -18701,18 +24858,54 @@ export const pokemonForms: PokemonForm[] = [
     hiddenAbilities: [],
     category: "Alpha",
     moves: [
-      "SEISMICTOSS",
-      "COSMICPOWER",
-      "GRAVITY",
-      "EARTHPOWER",
-      "HYPERVOICE",
-      "EXTREMESPEED",
-      "HEALINGWISH",
-      "FUTURESIGHT",
-      "RECOVER",
-      "HYPERBEAM",
-      "PERISHSONG",
-      "JUDGMENT",
+      {
+        level: 1,
+        move: "SEISMICTOSS",
+      },
+      {
+        level: 1,
+        move: "COSMICPOWER",
+      },
+      {
+        level: 10,
+        move: "GRAVITY",
+      },
+      {
+        level: 20,
+        move: "EARTHPOWER",
+      },
+      {
+        level: 30,
+        move: "HYPERVOICE",
+      },
+      {
+        level: 40,
+        move: "EXTREMESPEED",
+      },
+      {
+        level: 50,
+        move: "HEALINGWISH",
+      },
+      {
+        level: 60,
+        move: "FUTURESIGHT",
+      },
+      {
+        level: 70,
+        move: "RECOVER",
+      },
+      {
+        level: 80,
+        move: "HYPERBEAM",
+      },
+      {
+        level: 90,
+        move: "PERISHSONG",
+      },
+      {
+        level: 100,
+        move: "JUDGMENT",
+      },
     ],
     tutorMoves: [
       "ACIDSPRAY",
@@ -18904,18 +25097,54 @@ export const pokemonForms: PokemonForm[] = [
     hiddenAbilities: [],
     category: "Alpha",
     moves: [
-      "SEISMICTOSS",
-      "COSMICPOWER",
-      "GRAVITY",
-      "EARTHPOWER",
-      "HYPERVOICE",
-      "EXTREMESPEED",
-      "HEALINGWISH",
-      "FUTURESIGHT",
-      "RECOVER",
-      "HYPERBEAM",
-      "PERISHSONG",
-      "JUDGMENT",
+      {
+        level: 1,
+        move: "SEISMICTOSS",
+      },
+      {
+        level: 1,
+        move: "COSMICPOWER",
+      },
+      {
+        level: 10,
+        move: "GRAVITY",
+      },
+      {
+        level: 20,
+        move: "EARTHPOWER",
+      },
+      {
+        level: 30,
+        move: "HYPERVOICE",
+      },
+      {
+        level: 40,
+        move: "EXTREMESPEED",
+      },
+      {
+        level: 50,
+        move: "HEALINGWISH",
+      },
+      {
+        level: 60,
+        move: "FUTURESIGHT",
+      },
+      {
+        level: 70,
+        move: "RECOVER",
+      },
+      {
+        level: 80,
+        move: "HYPERBEAM",
+      },
+      {
+        level: 90,
+        move: "PERISHSONG",
+      },
+      {
+        level: 100,
+        move: "JUDGMENT",
+      },
     ],
     tutorMoves: [
       "ACIDSPRAY",
@@ -19107,18 +25336,54 @@ export const pokemonForms: PokemonForm[] = [
     hiddenAbilities: [],
     category: "Alpha",
     moves: [
-      "SEISMICTOSS",
-      "COSMICPOWER",
-      "GRAVITY",
-      "EARTHPOWER",
-      "HYPERVOICE",
-      "EXTREMESPEED",
-      "HEALINGWISH",
-      "FUTURESIGHT",
-      "RECOVER",
-      "HYPERBEAM",
-      "PERISHSONG",
-      "JUDGMENT",
+      {
+        level: 1,
+        move: "SEISMICTOSS",
+      },
+      {
+        level: 1,
+        move: "COSMICPOWER",
+      },
+      {
+        level: 10,
+        move: "GRAVITY",
+      },
+      {
+        level: 20,
+        move: "EARTHPOWER",
+      },
+      {
+        level: 30,
+        move: "HYPERVOICE",
+      },
+      {
+        level: 40,
+        move: "EXTREMESPEED",
+      },
+      {
+        level: 50,
+        move: "HEALINGWISH",
+      },
+      {
+        level: 60,
+        move: "FUTURESIGHT",
+      },
+      {
+        level: 70,
+        move: "RECOVER",
+      },
+      {
+        level: 80,
+        move: "HYPERBEAM",
+      },
+      {
+        level: 90,
+        move: "PERISHSONG",
+      },
+      {
+        level: 100,
+        move: "JUDGMENT",
+      },
     ],
     tutorMoves: [
       "ACIDSPRAY",
@@ -19310,18 +25575,54 @@ export const pokemonForms: PokemonForm[] = [
     hiddenAbilities: [],
     category: "Alpha",
     moves: [
-      "SEISMICTOSS",
-      "COSMICPOWER",
-      "GRAVITY",
-      "EARTHPOWER",
-      "HYPERVOICE",
-      "EXTREMESPEED",
-      "HEALINGWISH",
-      "FUTURESIGHT",
-      "RECOVER",
-      "HYPERBEAM",
-      "PERISHSONG",
-      "JUDGMENT",
+      {
+        level: 1,
+        move: "SEISMICTOSS",
+      },
+      {
+        level: 1,
+        move: "COSMICPOWER",
+      },
+      {
+        level: 10,
+        move: "GRAVITY",
+      },
+      {
+        level: 20,
+        move: "EARTHPOWER",
+      },
+      {
+        level: 30,
+        move: "HYPERVOICE",
+      },
+      {
+        level: 40,
+        move: "EXTREMESPEED",
+      },
+      {
+        level: 50,
+        move: "HEALINGWISH",
+      },
+      {
+        level: 60,
+        move: "FUTURESIGHT",
+      },
+      {
+        level: 70,
+        move: "RECOVER",
+      },
+      {
+        level: 80,
+        move: "HYPERBEAM",
+      },
+      {
+        level: 90,
+        move: "PERISHSONG",
+      },
+      {
+        level: 100,
+        move: "JUDGMENT",
+      },
     ],
     tutorMoves: [
       "ACIDSPRAY",
@@ -19513,18 +25814,54 @@ export const pokemonForms: PokemonForm[] = [
     hiddenAbilities: [],
     category: "Alpha",
     moves: [
-      "SEISMICTOSS",
-      "COSMICPOWER",
-      "GRAVITY",
-      "EARTHPOWER",
-      "HYPERVOICE",
-      "EXTREMESPEED",
-      "HEALINGWISH",
-      "FUTURESIGHT",
-      "RECOVER",
-      "HYPERBEAM",
-      "PERISHSONG",
-      "JUDGMENT",
+      {
+        level: 1,
+        move: "SEISMICTOSS",
+      },
+      {
+        level: 1,
+        move: "COSMICPOWER",
+      },
+      {
+        level: 10,
+        move: "GRAVITY",
+      },
+      {
+        level: 20,
+        move: "EARTHPOWER",
+      },
+      {
+        level: 30,
+        move: "HYPERVOICE",
+      },
+      {
+        level: 40,
+        move: "EXTREMESPEED",
+      },
+      {
+        level: 50,
+        move: "HEALINGWISH",
+      },
+      {
+        level: 60,
+        move: "FUTURESIGHT",
+      },
+      {
+        level: 70,
+        move: "RECOVER",
+      },
+      {
+        level: 80,
+        move: "HYPERBEAM",
+      },
+      {
+        level: 90,
+        move: "PERISHSONG",
+      },
+      {
+        level: 100,
+        move: "JUDGMENT",
+      },
     ],
     tutorMoves: [
       "ACIDSPRAY",
@@ -19716,24 +26053,78 @@ export const pokemonForms: PokemonForm[] = [
     hiddenAbilities: ["SHARPNESS"],
     category: "Formidable",
     moves: [
-      "CEASELESSEDGE",
-      "SUCKERPUNCH",
-      "SLASH",
-      "MEGAHORN",
-      "TACKLE",
-      "TAILWHIP",
-      "WATERGUN",
-      "FOCUSENERGY",
-      "RAZORSHELL",
-      "FURYCUTTER",
-      "WATERPULSE",
-      "AERIALACE",
-      "AQUAJET",
-      "ENCORE",
-      "AQUATAIL",
-      "RETALIATE",
-      "SWORDSDANCE",
-      "HYDROPUMP",
+      {
+        level: 0,
+        move: "CEASELESSEDGE",
+      },
+      {
+        level: 1,
+        move: "SUCKERPUNCH",
+      },
+      {
+        level: 1,
+        move: "SLASH",
+      },
+      {
+        level: 1,
+        move: "MEGAHORN",
+      },
+      {
+        level: 1,
+        move: "TACKLE",
+      },
+      {
+        level: 1,
+        move: "TAILWHIP",
+      },
+      {
+        level: 1,
+        move: "WATERGUN",
+      },
+      {
+        level: 13,
+        move: "FOCUSENERGY",
+      },
+      {
+        level: 18,
+        move: "RAZORSHELL",
+      },
+      {
+        level: 21,
+        move: "FURYCUTTER",
+      },
+      {
+        level: 25,
+        move: "WATERPULSE",
+      },
+      {
+        level: 29,
+        move: "AERIALACE",
+      },
+      {
+        level: 34,
+        move: "AQUAJET",
+      },
+      {
+        level: 39,
+        move: "ENCORE",
+      },
+      {
+        level: 46,
+        move: "AQUATAIL",
+      },
+      {
+        level: 51,
+        move: "RETALIATE",
+      },
+      {
+        level: 58,
+        move: "SWORDSDANCE",
+      },
+      {
+        level: 63,
+        move: "HYDROPUMP",
+      },
     ],
     tutorMoves: [
       "AERIALACE",
@@ -19821,23 +26212,74 @@ export const pokemonForms: PokemonForm[] = [
     hiddenAbilities: ["HEALER"],
     category: "Hearing",
     moves: [
-      "POUND",
-      "PLAYNICE",
-      "DISARMINGVOICE",
-      "BABYDOLLEYES",
-      "HELPINGHAND",
-      "GROWL",
-      "ZENHEADBUTT",
-      "LIFEDEW",
-      "AFTERYOU",
-      "TAKEDOWN",
-      "SIMPLEBEAM",
-      "HYPERVOICE",
-      "HEALPULSE",
-      "DOUBLEEDGE",
-      "ENTRAINMENT",
-      "MISTYTERRAIN",
-      "LASTRESORT",
+      {
+        level: 1,
+        move: "POUND",
+      },
+      {
+        level: 1,
+        move: "PLAYNICE",
+      },
+      {
+        level: 4,
+        move: "DISARMINGVOICE",
+      },
+      {
+        level: 9,
+        move: "BABYDOLLEYES",
+      },
+      {
+        level: 12,
+        move: "HELPINGHAND",
+      },
+      {
+        level: 16,
+        move: "GROWL",
+      },
+      {
+        level: 20,
+        move: "ZENHEADBUTT",
+      },
+      {
+        level: 24,
+        move: "LIFEDEW",
+      },
+      {
+        level: 28,
+        move: "AFTERYOU",
+      },
+      {
+        level: 32,
+        move: "TAKEDOWN",
+      },
+      {
+        level: 36,
+        move: "SIMPLEBEAM",
+      },
+      {
+        level: 40,
+        move: "HYPERVOICE",
+      },
+      {
+        level: 44,
+        move: "HEALPULSE",
+      },
+      {
+        level: 48,
+        move: "DOUBLEEDGE",
+      },
+      {
+        level: 52,
+        move: "ENTRAINMENT",
+      },
+      {
+        level: 56,
+        move: "MISTYTERRAIN",
+      },
+      {
+        level: 60,
+        move: "LASTRESORT",
+      },
     ],
     tutorMoves: [
       "AFTERYOU",
@@ -19963,29 +26405,98 @@ export const pokemonForms: PokemonForm[] = [
     hiddenAbilities: ["LEAFGUARD"],
     category: "Spinning",
     moves: [
-      "VICTORYDANCE",
-      "PETALBLIZZARD",
-      "TEETERDANCE",
-      "DEFOG",
-      "LEAFBLADE",
-      "MEGAKICK",
-      "SOLARBLADE",
-      "MEGADRAIN",
-      "MAGICALLEAF",
-      "SLEEPPOWDER",
-      "GIGADRAIN",
-      "LEECHSEED",
-      "AFTERYOU",
-      "ENERGYBALL",
-      "SYNTHESIS",
-      "SUNNYDAY",
-      "ENTRAINMENT",
-      "LEAFSTORM",
-      "ABSORB",
-      "GROWTH",
-      "HELPINGHAND",
-      "STUNSPORE",
-      "AXEKICK",
+      {
+        level: 0,
+        move: "VICTORYDANCE",
+      },
+      {
+        level: 1,
+        move: "PETALBLIZZARD",
+      },
+      {
+        level: 1,
+        move: "TEETERDANCE",
+      },
+      {
+        level: 1,
+        move: "DEFOG",
+      },
+      {
+        level: 1,
+        move: "LEAFBLADE",
+      },
+      {
+        level: 1,
+        move: "MEGAKICK",
+      },
+      {
+        level: 1,
+        move: "SOLARBLADE",
+      },
+      {
+        level: 1,
+        move: "MEGADRAIN",
+      },
+      {
+        level: 1,
+        move: "MAGICALLEAF",
+      },
+      {
+        level: 1,
+        move: "SLEEPPOWDER",
+      },
+      {
+        level: 1,
+        move: "GIGADRAIN",
+      },
+      {
+        level: 1,
+        move: "LEECHSEED",
+      },
+      {
+        level: 1,
+        move: "AFTERYOU",
+      },
+      {
+        level: 1,
+        move: "ENERGYBALL",
+      },
+      {
+        level: 1,
+        move: "SYNTHESIS",
+      },
+      {
+        level: 1,
+        move: "SUNNYDAY",
+      },
+      {
+        level: 1,
+        move: "ENTRAINMENT",
+      },
+      {
+        level: 1,
+        move: "LEAFSTORM",
+      },
+      {
+        level: 1,
+        move: "ABSORB",
+      },
+      {
+        level: 1,
+        move: "GROWTH",
+      },
+      {
+        level: 1,
+        move: "HELPINGHAND",
+      },
+      {
+        level: 1,
+        move: "STUNSPORE",
+      },
+      {
+        level: 5,
+        move: "AXEKICK",
+      },
     ],
     tutorMoves: [
       "ACROBATICS",
@@ -20067,22 +26578,70 @@ export const pokemonForms: PokemonForm[] = [
     hiddenAbilities: ["MOLDBREAKER"],
     category: "Hostile",
     moves: [
-      "WATERGUN",
-      "TAILWHIP",
-      "TACKLE",
-      "FLAIL",
-      "AQUAJET",
-      "BITE",
-      "SCARYFACE",
-      "HEADBUTT",
-      "SOAK",
-      "CRUNCH",
-      "TAKEDOWN",
-      "FINALGAMBIT",
-      "WAVECRASH",
-      "THRASH",
-      "DOUBLEEDGE",
-      "HEADSMASH",
+      {
+        level: 1,
+        move: "WATERGUN",
+      },
+      {
+        level: 1,
+        move: "TAILWHIP",
+      },
+      {
+        level: 4,
+        move: "TACKLE",
+      },
+      {
+        level: 8,
+        move: "FLAIL",
+      },
+      {
+        level: 12,
+        move: "AQUAJET",
+      },
+      {
+        level: 16,
+        move: "BITE",
+      },
+      {
+        level: 20,
+        move: "SCARYFACE",
+      },
+      {
+        level: 24,
+        move: "HEADBUTT",
+      },
+      {
+        level: 28,
+        move: "SOAK",
+      },
+      {
+        level: 32,
+        move: "CRUNCH",
+      },
+      {
+        level: 36,
+        move: "TAKEDOWN",
+      },
+      {
+        level: 40,
+        move: "FINALGAMBIT",
+      },
+      {
+        level: 44,
+        move: "WAVECRASH",
+      },
+      {
+        level: 48,
+        move: "THRASH",
+      },
+      {
+        level: 52,
+        move: "DOUBLEEDGE",
+      },
+      {
+        level: 56,
+        move: "HEADSMASH",
+      },
     ],
     tutorMoves: [
       "AGILITY",
@@ -20176,22 +26735,70 @@ export const pokemonForms: PokemonForm[] = [
     hiddenAbilities: ["MOLDBREAKER"],
     category: "Mellow",
     moves: [
-      "WATERGUN",
-      "TAILWHIP",
-      "TACKLE",
-      "FLAIL",
-      "AQUAJET",
-      "BITE",
-      "SCARYFACE",
-      "HEADBUTT",
-      "SOAK",
-      "CRUNCH",
-      "TAKEDOWN",
-      "UPROAR",
-      "WAVECRASH",
-      "THRASH",
-      "DOUBLEEDGE",
-      "HEADSMASH",
+      {
+        level: 1,
+        move: "WATERGUN",
+      },
+      {
+        level: 1,
+        move: "TAILWHIP",
+      },
+      {
+        level: 4,
+        move: "TACKLE",
+      },
+      {
+        level: 8,
+        move: "FLAIL",
+      },
+      {
+        level: 12,
+        move: "AQUAJET",
+      },
+      {
+        level: 16,
+        move: "BITE",
+      },
+      {
+        level: 20,
+        move: "SCARYFACE",
+      },
+      {
+        level: 24,
+        move: "HEADBUTT",
+      },
+      {
+        level: 28,
+        move: "SOAK",
+      },
+      {
+        level: 32,
+        move: "CRUNCH",
+      },
+      {
+        level: 36,
+        move: "TAKEDOWN",
+      },
+      {
+        level: 40,
+        move: "UPROAR",
+      },
+      {
+        level: 44,
+        move: "WAVECRASH",
+      },
+      {
+        level: 48,
+        move: "THRASH",
+      },
+      {
+        level: 52,
+        move: "DOUBLEEDGE",
+      },
+      {
+        level: 56,
+        move: "HEADSMASH",
+      },
     ],
     tutorMoves: [
       "AGILITY",
@@ -20267,22 +26874,70 @@ export const pokemonForms: PokemonForm[] = [
     hiddenAbilities: ["MOLDBREAKER"],
     category: "Mellow",
     moves: [
-      "WATERGUN",
-      "TAILWHIP",
-      "TACKLE",
-      "FLAIL",
-      "AQUAJET",
-      "BITE",
-      "SCARYFACE",
-      "HEADBUTT",
-      "SOAK",
-      "CRUNCH",
-      "TAKEDOWN",
-      "UPROAR",
-      "WAVECRASH",
-      "THRASH",
-      "DOUBLEEDGE",
-      "HEADSMASH",
+      {
+        level: 1,
+        move: "WATERGUN",
+      },
+      {
+        level: 1,
+        move: "TAILWHIP",
+      },
+      {
+        level: 4,
+        move: "TACKLE",
+      },
+      {
+        level: 8,
+        move: "FLAIL",
+      },
+      {
+        level: 12,
+        move: "AQUAJET",
+      },
+      {
+        level: 16,
+        move: "BITE",
+      },
+      {
+        level: 20,
+        move: "SCARYFACE",
+      },
+      {
+        level: 24,
+        move: "HEADBUTT",
+      },
+      {
+        level: 28,
+        move: "SOAK",
+      },
+      {
+        level: 32,
+        move: "CRUNCH",
+      },
+      {
+        level: 36,
+        move: "TAKEDOWN",
+      },
+      {
+        level: 40,
+        move: "UPROAR",
+      },
+      {
+        level: 44,
+        move: "WAVECRASH",
+      },
+      {
+        level: 48,
+        move: "THRASH",
+      },
+      {
+        level: 52,
+        move: "DOUBLEEDGE",
+      },
+      {
+        level: 56,
+        move: "HEADSMASH",
+      },
     ],
     tutorMoves: [
       "AGILITY",
@@ -20358,20 +27013,62 @@ export const pokemonForms: PokemonForm[] = [
     hiddenAbilities: ["INNERFOCUS"],
     category: "Zen Charm",
     moves: [
-      "POWDERSNOW",
-      "TACKLE",
-      "TAUNT",
-      "BITE",
-      "AVALANCHE",
-      "WORKUP",
-      "ICEFANG",
-      "HEADBUTT",
-      "ICEPUNCH",
-      "UPROAR",
-      "BELLYDRUM",
-      "BLIZZARD",
-      "THRASH",
-      "SUPERPOWER",
+      {
+        level: 1,
+        move: "POWDERSNOW",
+      },
+      {
+        level: 1,
+        move: "TACKLE",
+      },
+      {
+        level: 4,
+        move: "TAUNT",
+      },
+      {
+        level: 8,
+        move: "BITE",
+      },
+      {
+        level: 12,
+        move: "AVALANCHE",
+      },
+      {
+        level: 16,
+        move: "WORKUP",
+      },
+      {
+        level: 20,
+        move: "ICEFANG",
+      },
+      {
+        level: 24,
+        move: "HEADBUTT",
+      },
+      {
+        level: 28,
+        move: "ICEPUNCH",
+      },
+      {
+        level: 32,
+        move: "UPROAR",
+      },
+      {
+        level: 36,
+        move: "BELLYDRUM",
+      },
+      {
+        level: 40,
+        move: "BLIZZARD",
+      },
+      {
+        level: 44,
+        move: "THRASH",
+      },
+      {
+        level: 48,
+        move: "SUPERPOWER",
+      },
     ],
     tutorMoves: [
       "ATTRACT",
@@ -20476,21 +27173,66 @@ export const pokemonForms: PokemonForm[] = [
     hiddenAbilities: ["ZENMODE"],
     category: "Blazing",
     moves: [
-      "HAMMERARM",
-      "EMBER",
-      "TACKLE",
-      "TAUNT",
-      "BITE",
-      "INCINERATE",
-      "WORKUP",
-      "FIREFANG",
-      "HEADBUTT",
-      "FIREPUNCH",
-      "UPROAR",
-      "BELLYDRUM",
-      "FLAREBLITZ",
-      "THRASH",
-      "SUPERPOWER",
+      {
+        level: 0,
+        move: "HAMMERARM",
+      },
+      {
+        level: 1,
+        move: "EMBER",
+      },
+      {
+        level: 1,
+        move: "TACKLE",
+      },
+      {
+        level: 1,
+        move: "TAUNT",
+      },
+      {
+        level: 1,
+        move: "BITE",
+      },
+      {
+        level: 12,
+        move: "INCINERATE",
+      },
+      {
+        level: 16,
+        move: "WORKUP",
+      },
+      {
+        level: 20,
+        move: "FIREFANG",
+      },
+      {
+        level: 24,
+        move: "HEADBUTT",
+      },
+      {
+        level: 28,
+        move: "FIREPUNCH",
+      },
+      {
+        level: 32,
+        move: "UPROAR",
+      },
+      {
+        level: 38,
+        move: "BELLYDRUM",
+      },
+      {
+        level: 44,
+        move: "FLAREBLITZ",
+      },
+      {
+        level: 50,
+        move: "THRASH",
+      },
+      {
+        level: 56,
+        move: "SUPERPOWER",
+      },
     ],
     tutorMoves: [
       "ATTRACT",
@@ -20608,21 +27350,66 @@ export const pokemonForms: PokemonForm[] = [
     hiddenAbilities: ["ZENMODE"],
     category: "Zen Charm",
     moves: [
-      "ICICLECRASH",
-      "POWDERSNOW",
-      "TACKLE",
-      "TAUNT",
-      "BITE",
-      "AVALANCHE",
-      "WORKUP",
-      "ICEFANG",
-      "HEADBUTT",
-      "ICEPUNCH",
-      "UPROAR",
-      "BELLYDRUM",
-      "BLIZZARD",
-      "THRASH",
-      "SUPERPOWER",
+      {
+        level: 0,
+        move: "ICICLECRASH",
+      },
+      {
+        level: 1,
+        move: "POWDERSNOW",
+      },
+      {
+        level: 1,
+        move: "TACKLE",
+      },
+      {
+        level: 1,
+        move: "TAUNT",
+      },
+      {
+        level: 1,
+        move: "BITE",
+      },
+      {
+        level: 12,
+        move: "AVALANCHE",
+      },
+      {
+        level: 16,
+        move: "WORKUP",
+      },
+      {
+        level: 20,
+        move: "ICEFANG",
+      },
+      {
+        level: 24,
+        move: "HEADBUTT",
+      },
+      {
+        level: 28,
+        move: "ICEPUNCH",
+      },
+      {
+        level: 32,
+        move: "UPROAR",
+      },
+      {
+        level: 38,
+        move: "BELLYDRUM",
+      },
+      {
+        level: 44,
+        move: "BLIZZARD",
+      },
+      {
+        level: 50,
+        move: "THRASH",
+      },
+      {
+        level: 56,
+        move: "SUPERPOWER",
+      },
     ],
     tutorMoves: [
       "ATTRACT",
@@ -20728,21 +27515,66 @@ export const pokemonForms: PokemonForm[] = [
     hiddenAbilities: ["ZENMODE"],
     category: "Zen Charm",
     moves: [
-      "ICICLECRASH",
-      "POWDERSNOW",
-      "TACKLE",
-      "TAUNT",
-      "BITE",
-      "AVALANCHE",
-      "WORKUP",
-      "ICEFANG",
-      "HEADBUTT",
-      "ICEPUNCH",
-      "UPROAR",
-      "BELLYDRUM",
-      "BLIZZARD",
-      "THRASH",
-      "SUPERPOWER",
+      {
+        level: 0,
+        move: "ICICLECRASH",
+      },
+      {
+        level: 1,
+        move: "POWDERSNOW",
+      },
+      {
+        level: 1,
+        move: "TACKLE",
+      },
+      {
+        level: 1,
+        move: "TAUNT",
+      },
+      {
+        level: 1,
+        move: "BITE",
+      },
+      {
+        level: 12,
+        move: "AVALANCHE",
+      },
+      {
+        level: 16,
+        move: "WORKUP",
+      },
+      {
+        level: 20,
+        move: "ICEFANG",
+      },
+      {
+        level: 24,
+        move: "HEADBUTT",
+      },
+      {
+        level: 28,
+        move: "ICEPUNCH",
+      },
+      {
+        level: 32,
+        move: "UPROAR",
+      },
+      {
+        level: 38,
+        move: "BELLYDRUM",
+      },
+      {
+        level: 44,
+        move: "BLIZZARD",
+      },
+      {
+        level: 50,
+        move: "THRASH",
+      },
+      {
+        level: 56,
+        move: "SUPERPOWER",
+      },
     ],
     tutorMoves: [
       "ATTRACT",
@@ -20848,22 +27680,70 @@ export const pokemonForms: PokemonForm[] = [
     hiddenAbilities: [],
     category: "Spirit",
     moves: [
-      "ASTONISH",
-      "PROTECT",
-      "HAZE",
-      "NIGHTSHADE",
-      "DISABLE",
-      "BRUTALSWING",
-      "CRAFTYSHIELD",
-      "HEX",
-      "MEANLOOK",
-      "SLAM",
-      "CURSE",
-      "SHADOWBALL",
-      "EARTHQUAKE",
-      "POWERSPLIT",
-      "GUARDSPLIT",
-      "DESTINYBOND",
+      {
+        level: 1,
+        move: "ASTONISH",
+      },
+      {
+        level: 1,
+        move: "PROTECT",
+      },
+      {
+        level: 4,
+        move: "HAZE",
+      },
+      {
+        level: 8,
+        move: "NIGHTSHADE",
+      },
+      {
+        level: 12,
+        move: "DISABLE",
+      },
+      {
+        level: 16,
+        move: "BRUTALSWING",
+      },
+      {
+        level: 20,
+        move: "CRAFTYSHIELD",
+      },
+      {
+        level: 24,
+        move: "HEX",
+      },
+      {
+        level: 28,
+        move: "MEANLOOK",
+      },
+      {
+        level: 32,
+        move: "SLAM",
+      },
+      {
+        level: 36,
+        move: "CURSE",
+      },
+      {
+        level: 40,
+        move: "SHADOWBALL",
+      },
+      {
+        level: 44,
+        move: "EARTHQUAKE",
+      },
+      {
+        level: 48,
+        move: "POWERSPLIT",
+      },
+      {
+        level: 48,
+        move: "GUARDSPLIT",
+      },
+      {
+        level: 52,
+        move: "DESTINYBOND",
+      },
     ],
     tutorMoves: [
       "ALLYSWITCH",
@@ -20954,20 +27834,62 @@ export const pokemonForms: PokemonForm[] = [
     hiddenAbilities: [],
     category: "Spiteful Fox",
     moves: [
-      "SCRATCH",
-      "LEER",
-      "TORMENT",
-      "HONECLAWS",
-      "SHADOWSNEAK",
-      "CURSE",
-      "TAUNT",
-      "KNOCKOFF",
-      "SPITE",
-      "AGILITY",
-      "SHADOWBALL",
-      "BITTERMALICE",
-      "NASTYPLOT",
-      "FOULPLAY",
+      {
+        level: 1,
+        move: "SCRATCH",
+      },
+      {
+        level: 1,
+        move: "LEER",
+      },
+      {
+        level: 4,
+        move: "TORMENT",
+      },
+      {
+        level: 8,
+        move: "HONECLAWS",
+      },
+      {
+        level: 12,
+        move: "SHADOWSNEAK",
+      },
+      {
+        level: 16,
+        move: "CURSE",
+      },
+      {
+        level: 20,
+        move: "TAUNT",
+      },
+      {
+        level: 24,
+        move: "KNOCKOFF",
+      },
+      {
+        level: 28,
+        move: "SPITE",
+      },
+      {
+        level: 32,
+        move: "AGILITY",
+      },
+      {
+        level: 36,
+        move: "SHADOWBALL",
+      },
+      {
+        level: 40,
+        move: "BITTERMALICE",
+      },
+      {
+        level: 44,
+        move: "NASTYPLOT",
+      },
+      {
+        level: 48,
+        move: "FOULPLAY",
+      },
     ],
     tutorMoves: [
       "AGILITY",
@@ -21055,22 +27977,70 @@ export const pokemonForms: PokemonForm[] = [
     hiddenAbilities: [],
     category: "Baneful Fox",
     moves: [
-      "SHADOWCLAW",
-      "UTURN",
-      "SCRATCH",
-      "LEER",
-      "TORMENT",
-      "HONECLAWS",
-      "SHADOWSNEAK",
-      "CURSE",
-      "TAUNT",
-      "KNOCKOFF",
-      "SPITE",
-      "AGILITY",
-      "SHADOWBALL",
-      "BITTERMALICE",
-      "NASTYPLOT",
-      "FOULPLAY",
+      {
+        level: 0,
+        move: "SHADOWCLAW",
+      },
+      {
+        level: 1,
+        move: "UTURN",
+      },
+      {
+        level: 1,
+        move: "SCRATCH",
+      },
+      {
+        level: 1,
+        move: "LEER",
+      },
+      {
+        level: 1,
+        move: "TORMENT",
+      },
+      {
+        level: 1,
+        move: "HONECLAWS",
+      },
+      {
+        level: 12,
+        move: "SHADOWSNEAK",
+      },
+      {
+        level: 16,
+        move: "CURSE",
+      },
+      {
+        level: 20,
+        move: "TAUNT",
+      },
+      {
+        level: 24,
+        move: "KNOCKOFF",
+      },
+      {
+        level: 28,
+        move: "SPITE",
+      },
+      {
+        level: 34,
+        move: "AGILITY",
+      },
+      {
+        level: 40,
+        move: "SHADOWBALL",
+      },
+      {
+        level: 46,
+        move: "BITTERMALICE",
+      },
+      {
+        level: 52,
+        move: "NASTYPLOT",
+      },
+      {
+        level: 58,
+        move: "FOULPLAY",
+      },
     ],
     tutorMoves: [
       "AERIALACE",
@@ -21168,18 +28138,54 @@ export const pokemonForms: PokemonForm[] = [
     hiddenAbilities: ["SERENEGRACE"],
     category: "Season",
     moves: [
-      "TACKLE",
-      "GROWL",
-      "SANDATTACK",
-      "DOUBLEKICK",
-      "LEECHSEED",
-      "BULLETSEED",
-      "TAKEDOWN",
-      "ZENHEADBUTT",
-      "ENERGYBALL",
-      "CHARM",
-      "DOUBLEEDGE",
-      "SOLARBEAM",
+      {
+        level: 1,
+        move: "TACKLE",
+      },
+      {
+        level: 4,
+        move: "GROWL",
+      },
+      {
+        level: 7,
+        move: "SANDATTACK",
+      },
+      {
+        level: 10,
+        move: "DOUBLEKICK",
+      },
+      {
+        level: 13,
+        move: "LEECHSEED",
+      },
+      {
+        level: 16,
+        move: "BULLETSEED",
+      },
+      {
+        level: 20,
+        move: "TAKEDOWN",
+      },
+      {
+        level: 24,
+        move: "ZENHEADBUTT",
+      },
+      {
+        level: 28,
+        move: "ENERGYBALL",
+      },
+      {
+        level: 32,
+        move: "CHARM",
+      },
+      {
+        level: 37,
+        move: "DOUBLEEDGE",
+      },
+      {
+        level: 42,
+        move: "SOLARBEAM",
+      },
     ],
     tutorMoves: [
       "AGILITY",
@@ -21291,18 +28297,54 @@ export const pokemonForms: PokemonForm[] = [
     hiddenAbilities: ["SERENEGRACE"],
     category: "Season",
     moves: [
-      "TACKLE",
-      "GROWL",
-      "SANDATTACK",
-      "DOUBLEKICK",
-      "LEECHSEED",
-      "BULLETSEED",
-      "TAKEDOWN",
-      "ZENHEADBUTT",
-      "ENERGYBALL",
-      "CHARM",
-      "DOUBLEEDGE",
-      "SOLARBEAM",
+      {
+        level: 1,
+        move: "TACKLE",
+      },
+      {
+        level: 4,
+        move: "GROWL",
+      },
+      {
+        level: 7,
+        move: "SANDATTACK",
+      },
+      {
+        level: 10,
+        move: "DOUBLEKICK",
+      },
+      {
+        level: 13,
+        move: "LEECHSEED",
+      },
+      {
+        level: 16,
+        move: "BULLETSEED",
+      },
+      {
+        level: 20,
+        move: "TAKEDOWN",
+      },
+      {
+        level: 24,
+        move: "ZENHEADBUTT",
+      },
+      {
+        level: 28,
+        move: "ENERGYBALL",
+      },
+      {
+        level: 32,
+        move: "CHARM",
+      },
+      {
+        level: 37,
+        move: "DOUBLEEDGE",
+      },
+      {
+        level: 42,
+        move: "SOLARBEAM",
+      },
     ],
     tutorMoves: [
       "AGILITY",
@@ -21414,18 +28456,54 @@ export const pokemonForms: PokemonForm[] = [
     hiddenAbilities: ["SERENEGRACE"],
     category: "Season",
     moves: [
-      "TACKLE",
-      "GROWL",
-      "SANDATTACK",
-      "DOUBLEKICK",
-      "LEECHSEED",
-      "BULLETSEED",
-      "TAKEDOWN",
-      "ZENHEADBUTT",
-      "ENERGYBALL",
-      "CHARM",
-      "DOUBLEEDGE",
-      "SOLARBEAM",
+      {
+        level: 1,
+        move: "TACKLE",
+      },
+      {
+        level: 4,
+        move: "GROWL",
+      },
+      {
+        level: 7,
+        move: "SANDATTACK",
+      },
+      {
+        level: 10,
+        move: "DOUBLEKICK",
+      },
+      {
+        level: 13,
+        move: "LEECHSEED",
+      },
+      {
+        level: 16,
+        move: "BULLETSEED",
+      },
+      {
+        level: 20,
+        move: "TAKEDOWN",
+      },
+      {
+        level: 24,
+        move: "ZENHEADBUTT",
+      },
+      {
+        level: 28,
+        move: "ENERGYBALL",
+      },
+      {
+        level: 32,
+        move: "CHARM",
+      },
+      {
+        level: 37,
+        move: "DOUBLEEDGE",
+      },
+      {
+        level: 42,
+        move: "SOLARBEAM",
+      },
     ],
     tutorMoves: [
       "AGILITY",
@@ -21537,20 +28615,62 @@ export const pokemonForms: PokemonForm[] = [
     hiddenAbilities: ["SERENEGRACE"],
     category: "Season",
     moves: [
-      "HORNLEECH",
-      "MEGAHORN",
-      "TACKLE",
-      "GROWL",
-      "SANDATTACK",
-      "DOUBLEKICK",
-      "LEECHSEED",
-      "BULLETSEED",
-      "TAKEDOWN",
-      "ZENHEADBUTT",
-      "ENERGYBALL",
-      "CHARM",
-      "DOUBLEEDGE",
-      "SOLARBEAM",
+      {
+        level: 0,
+        move: "HORNLEECH",
+      },
+      {
+        level: 1,
+        move: "MEGAHORN",
+      },
+      {
+        level: 1,
+        move: "TACKLE",
+      },
+      {
+        level: 1,
+        move: "GROWL",
+      },
+      {
+        level: 1,
+        move: "SANDATTACK",
+      },
+      {
+        level: 10,
+        move: "DOUBLEKICK",
+      },
+      {
+        level: 13,
+        move: "LEECHSEED",
+      },
+      {
+        level: 16,
+        move: "BULLETSEED",
+      },
+      {
+        level: 20,
+        move: "TAKEDOWN",
+      },
+      {
+        level: 24,
+        move: "ZENHEADBUTT",
+      },
+      {
+        level: 28,
+        move: "ENERGYBALL",
+      },
+      {
+        level: 36,
+        move: "CHARM",
+      },
+      {
+        level: 44,
+        move: "DOUBLEEDGE",
+      },
+      {
+        level: 52,
+        move: "SOLARBEAM",
+      },
     ],
     tutorMoves: [
       "AGILITY",
@@ -21656,20 +28776,62 @@ export const pokemonForms: PokemonForm[] = [
     hiddenAbilities: ["SERENEGRACE"],
     category: "Season",
     moves: [
-      "HORNLEECH",
-      "MEGAHORN",
-      "TACKLE",
-      "GROWL",
-      "SANDATTACK",
-      "DOUBLEKICK",
-      "LEECHSEED",
-      "BULLETSEED",
-      "TAKEDOWN",
-      "ZENHEADBUTT",
-      "ENERGYBALL",
-      "CHARM",
-      "DOUBLEEDGE",
-      "SOLARBEAM",
+      {
+        level: 0,
+        move: "HORNLEECH",
+      },
+      {
+        level: 1,
+        move: "MEGAHORN",
+      },
+      {
+        level: 1,
+        move: "TACKLE",
+      },
+      {
+        level: 1,
+        move: "GROWL",
+      },
+      {
+        level: 1,
+        move: "SANDATTACK",
+      },
+      {
+        level: 10,
+        move: "DOUBLEKICK",
+      },
+      {
+        level: 13,
+        move: "LEECHSEED",
+      },
+      {
+        level: 16,
+        move: "BULLETSEED",
+      },
+      {
+        level: 20,
+        move: "TAKEDOWN",
+      },
+      {
+        level: 24,
+        move: "ZENHEADBUTT",
+      },
+      {
+        level: 28,
+        move: "ENERGYBALL",
+      },
+      {
+        level: 36,
+        move: "CHARM",
+      },
+      {
+        level: 44,
+        move: "DOUBLEEDGE",
+      },
+      {
+        level: 52,
+        move: "SOLARBEAM",
+      },
     ],
     tutorMoves: [
       "AGILITY",
@@ -21775,20 +28937,62 @@ export const pokemonForms: PokemonForm[] = [
     hiddenAbilities: ["SERENEGRACE"],
     category: "Season",
     moves: [
-      "HORNLEECH",
-      "MEGAHORN",
-      "TACKLE",
-      "GROWL",
-      "SANDATTACK",
-      "DOUBLEKICK",
-      "LEECHSEED",
-      "BULLETSEED",
-      "TAKEDOWN",
-      "ZENHEADBUTT",
-      "ENERGYBALL",
-      "CHARM",
-      "DOUBLEEDGE",
-      "SOLARBEAM",
+      {
+        level: 0,
+        move: "HORNLEECH",
+      },
+      {
+        level: 1,
+        move: "MEGAHORN",
+      },
+      {
+        level: 1,
+        move: "TACKLE",
+      },
+      {
+        level: 1,
+        move: "GROWL",
+      },
+      {
+        level: 1,
+        move: "SANDATTACK",
+      },
+      {
+        level: 10,
+        move: "DOUBLEKICK",
+      },
+      {
+        level: 13,
+        move: "LEECHSEED",
+      },
+      {
+        level: 16,
+        move: "BULLETSEED",
+      },
+      {
+        level: 20,
+        move: "TAKEDOWN",
+      },
+      {
+        level: 24,
+        move: "ZENHEADBUTT",
+      },
+      {
+        level: 28,
+        move: "ENERGYBALL",
+      },
+      {
+        level: 36,
+        move: "CHARM",
+      },
+      {
+        level: 44,
+        move: "DOUBLEEDGE",
+      },
+      {
+        level: 52,
+        move: "SOLARBEAM",
+      },
     ],
     tutorMoves: [
       "AGILITY",
@@ -21894,21 +29098,66 @@ export const pokemonForms: PokemonForm[] = [
     hiddenAbilities: ["MIMICRY"],
     category: "Trap",
     moves: [
-      "MUDSLAP",
-      "TACKLE",
-      "WATERGUN",
-      "METALCLAW",
-      "ENDURE",
-      "MUDSHOT",
-      "REVENGE",
-      "METALSOUND",
-      "SUCKERPUNCH",
-      "IRONDEFENSE",
-      "BOUNCE",
-      "MUDDYWATER",
-      "SNAPTRAP",
-      "FLAIL",
-      "FISSURE",
+      {
+        level: 1,
+        move: "MUDSLAP",
+      },
+      {
+        level: 1,
+        move: "TACKLE",
+      },
+      {
+        level: 1,
+        move: "WATERGUN",
+      },
+      {
+        level: 1,
+        move: "METALCLAW",
+      },
+      {
+        level: 5,
+        move: "ENDURE",
+      },
+      {
+        level: 10,
+        move: "MUDSHOT",
+      },
+      {
+        level: 15,
+        move: "REVENGE",
+      },
+      {
+        level: 20,
+        move: "METALSOUND",
+      },
+      {
+        level: 25,
+        move: "SUCKERPUNCH",
+      },
+      {
+        level: 30,
+        move: "IRONDEFENSE",
+      },
+      {
+        level: 35,
+        move: "BOUNCE",
+      },
+      {
+        level: 40,
+        move: "MUDDYWATER",
+      },
+      {
+        level: 45,
+        move: "SNAPTRAP",
+      },
+      {
+        level: 50,
+        move: "FLAIL",
+      },
+      {
+        level: 55,
+        move: "FISSURE",
+      },
     ],
     tutorMoves: [
       "ATTRACT",
@@ -22004,23 +29253,74 @@ export const pokemonForms: PokemonForm[] = [
     hiddenAbilities: ["TINTEDLENS"],
     category: "Battle Cry",
     moves: [
-      "ESPERWING",
-      "SUPERPOWER",
-      "SKYATTACK",
-      "PECK",
-      "LEER",
-      "HONECLAWS",
-      "WINGATTACK",
-      "TAILWIND",
-      "SCARYFACE",
-      "AERIALACE",
-      "SLASH",
-      "WHIRLWIND",
-      "CRUSHCLAW",
-      "AIRSLASH",
-      "DEFOG",
-      "THRASH",
-      "HURRICANE",
+      {
+        level: 0,
+        move: "ESPERWING",
+      },
+      {
+        level: 1,
+        move: "SUPERPOWER",
+      },
+      {
+        level: 1,
+        move: "SKYATTACK",
+      },
+      {
+        level: 1,
+        move: "PECK",
+      },
+      {
+        level: 1,
+        move: "LEER",
+      },
+      {
+        level: 1,
+        move: "HONECLAWS",
+      },
+      {
+        level: 1,
+        move: "WINGATTACK",
+      },
+      {
+        level: 18,
+        move: "TAILWIND",
+      },
+      {
+        level: 24,
+        move: "SCARYFACE",
+      },
+      {
+        level: 30,
+        move: "AERIALACE",
+      },
+      {
+        level: 36,
+        move: "SLASH",
+      },
+      {
+        level: 42,
+        move: "WHIRLWIND",
+      },
+      {
+        level: 48,
+        move: "CRUSHCLAW",
+      },
+      {
+        level: 57,
+        move: "AIRSLASH",
+      },
+      {
+        level: 64,
+        move: "DEFOG",
+      },
+      {
+        level: 72,
+        move: "THRASH",
+      },
+      {
+        level: 80,
+        move: "HURRICANE",
+      },
     ],
     tutorMoves: [
       "ACROBATICS",
@@ -22111,23 +29411,74 @@ export const pokemonForms: PokemonForm[] = [
     hiddenAbilities: ["REGENERATOR"],
     category: "Cyclone",
     moves: [
-      "ASTONISH",
-      "GUST",
-      "LEER",
-      "SWAGGER",
-      "BITE",
-      "AIRCUTTER",
-      "AGILITY",
-      "TAILWIND",
-      "AIRSLASH",
-      "CRUNCH",
-      "EXTRASENSORY",
-      "UPROAR",
-      "HAMMERARM",
-      "RAINDANCE",
-      "HURRICANE",
-      "THRASH",
-      "BLEAKWINDSTORM",
+      {
+        level: 1,
+        move: "ASTONISH",
+      },
+      {
+        level: 1,
+        move: "GUST",
+      },
+      {
+        level: 5,
+        move: "LEER",
+      },
+      {
+        level: 10,
+        move: "SWAGGER",
+      },
+      {
+        level: 15,
+        move: "BITE",
+      },
+      {
+        level: 20,
+        move: "AIRCUTTER",
+      },
+      {
+        level: 25,
+        move: "AGILITY",
+      },
+      {
+        level: 30,
+        move: "TAILWIND",
+      },
+      {
+        level: 35,
+        move: "AIRSLASH",
+      },
+      {
+        level: 40,
+        move: "CRUNCH",
+      },
+      {
+        level: 45,
+        move: "EXTRASENSORY",
+      },
+      {
+        level: 50,
+        move: "UPROAR",
+      },
+      {
+        level: 55,
+        move: "HAMMERARM",
+      },
+      {
+        level: 60,
+        move: "RAINDANCE",
+      },
+      {
+        level: 65,
+        move: "HURRICANE",
+      },
+      {
+        level: 70,
+        move: "THRASH",
+      },
+      {
+        level: 77,
+        move: "BLEAKWINDSTORM",
+      },
     ],
     tutorMoves: [
       "ACROBATICS",
@@ -22238,23 +29589,74 @@ export const pokemonForms: PokemonForm[] = [
     hiddenAbilities: ["VOLTABSORB"],
     category: "Bolt Strike",
     moves: [
-      "ASTONISH",
-      "THUNDERSHOCK",
-      "LEER",
-      "SWAGGER",
-      "BITE",
-      "SHOCKWAVE",
-      "AGILITY",
-      "CHARGE",
-      "VOLTSWITCH",
-      "CRUNCH",
-      "DISCHARGE",
-      "UPROAR",
-      "HAMMERARM",
-      "RAINDANCE",
-      "THUNDER",
-      "THRASH",
-      "WILDBOLTSTORM",
+      {
+        level: 1,
+        move: "ASTONISH",
+      },
+      {
+        level: 1,
+        move: "THUNDERSHOCK",
+      },
+      {
+        level: 5,
+        move: "LEER",
+      },
+      {
+        level: 10,
+        move: "SWAGGER",
+      },
+      {
+        level: 15,
+        move: "BITE",
+      },
+      {
+        level: 20,
+        move: "SHOCKWAVE",
+      },
+      {
+        level: 25,
+        move: "AGILITY",
+      },
+      {
+        level: 30,
+        move: "CHARGE",
+      },
+      {
+        level: 35,
+        move: "VOLTSWITCH",
+      },
+      {
+        level: 40,
+        move: "CRUNCH",
+      },
+      {
+        level: 45,
+        move: "DISCHARGE",
+      },
+      {
+        level: 50,
+        move: "UPROAR",
+      },
+      {
+        level: 55,
+        move: "HAMMERARM",
+      },
+      {
+        level: 60,
+        move: "RAINDANCE",
+      },
+      {
+        level: 65,
+        move: "THUNDER",
+      },
+      {
+        level: 70,
+        move: "THRASH",
+      },
+      {
+        level: 75,
+        move: "WILDBOLTSTORM",
+      },
     ],
     tutorMoves: [
       "ACROBATICS",
@@ -22372,23 +29774,74 @@ export const pokemonForms: PokemonForm[] = [
     hiddenAbilities: ["INTIMIDATE"],
     category: "Abundance",
     moves: [
-      "SANDTOMB",
-      "SMACKDOWN",
-      "LEER",
-      "BLOCK",
-      "BULLDOZE",
-      "ROCKTOMB",
-      "IMPRISON",
-      "ROCKSLIDE",
-      "EARTHPOWER",
-      "EXTRASENSORY",
-      "STONEEDGE",
-      "HAMMERARM",
-      "SANDSTORM",
-      "EARTHQUAKE",
-      "OUTRAGE",
-      "FISSURE",
-      "SANDSEARSTORM",
+      {
+        level: 1,
+        move: "SANDTOMB",
+      },
+      {
+        level: 1,
+        move: "SMACKDOWN",
+      },
+      {
+        level: 5,
+        move: "LEER",
+      },
+      {
+        level: 10,
+        move: "BLOCK",
+      },
+      {
+        level: 15,
+        move: "BULLDOZE",
+      },
+      {
+        level: 20,
+        move: "ROCKTOMB",
+      },
+      {
+        level: 30,
+        move: "IMPRISON",
+      },
+      {
+        level: 35,
+        move: "ROCKSLIDE",
+      },
+      {
+        level: 40,
+        move: "EARTHPOWER",
+      },
+      {
+        level: 45,
+        move: "EXTRASENSORY",
+      },
+      {
+        level: 50,
+        move: "STONEEDGE",
+      },
+      {
+        level: 55,
+        move: "HAMMERARM",
+      },
+      {
+        level: 60,
+        move: "SANDSTORM",
+      },
+      {
+        level: 65,
+        move: "EARTHQUAKE",
+      },
+      {
+        level: 70,
+        move: "OUTRAGE",
+      },
+      {
+        level: 75,
+        move: "FISSURE",
+      },
+      {
+        level: 80,
+        move: "SANDSEARSTORM",
+      },
     ],
     tutorMoves: [
       "ATTRACT",
@@ -22496,21 +29949,66 @@ export const pokemonForms: PokemonForm[] = [
     hiddenAbilities: [],
     category: "Boundary",
     moves: [
-      "DRAGONBREATH",
-      "NOBLEROAR",
-      "ANCIENTPOWER",
-      "FREEZEDRY",
-      "SLASH",
-      "ENDEAVOR",
-      "DRAGONPULSE",
-      "ICEBEAM",
-      "HYPERVOICE",
-      "FUSIONFLARE",
-      "BLIZZARD",
-      "IMPRISON",
-      "OUTRAGE",
-      "ICEBURN",
-      "SHEERCOLD",
+      {
+        level: 1,
+        move: "DRAGONBREATH",
+      },
+      {
+        level: 1,
+        move: "NOBLEROAR",
+      },
+      {
+        level: 1,
+        move: "ANCIENTPOWER",
+      },
+      {
+        level: 1,
+        move: "FREEZEDRY",
+      },
+      {
+        level: 8,
+        move: "SLASH",
+      },
+      {
+        level: 16,
+        move: "ENDEAVOR",
+      },
+      {
+        level: 24,
+        move: "DRAGONPULSE",
+      },
+      {
+        level: 32,
+        move: "ICEBEAM",
+      },
+      {
+        level: 40,
+        move: "HYPERVOICE",
+      },
+      {
+        level: 48,
+        move: "FUSIONFLARE",
+      },
+      {
+        level: 56,
+        move: "BLIZZARD",
+      },
+      {
+        level: 64,
+        move: "IMPRISON",
+      },
+      {
+        level: 72,
+        move: "OUTRAGE",
+      },
+      {
+        level: 80,
+        move: "ICEBURN",
+      },
+      {
+        level: 88,
+        move: "SHEERCOLD",
+      },
     ],
     tutorMoves: [
       "AERIALACE",
@@ -22624,21 +30122,66 @@ export const pokemonForms: PokemonForm[] = [
     hiddenAbilities: [],
     category: "Boundary",
     moves: [
-      "DRAGONBREATH",
-      "NOBLEROAR",
-      "ANCIENTPOWER",
-      "FREEZEDRY",
-      "SLASH",
-      "ENDEAVOR",
-      "DRAGONPULSE",
-      "ICEBEAM",
-      "HYPERVOICE",
-      "FUSIONBOLT",
-      "BLIZZARD",
-      "IMPRISON",
-      "OUTRAGE",
-      "FREEZESHOCK",
-      "SHEERCOLD",
+      {
+        level: 1,
+        move: "DRAGONBREATH",
+      },
+      {
+        level: 1,
+        move: "NOBLEROAR",
+      },
+      {
+        level: 1,
+        move: "ANCIENTPOWER",
+      },
+      {
+        level: 1,
+        move: "FREEZEDRY",
+      },
+      {
+        level: 8,
+        move: "SLASH",
+      },
+      {
+        level: 16,
+        move: "ENDEAVOR",
+      },
+      {
+        level: 24,
+        move: "DRAGONPULSE",
+      },
+      {
+        level: 32,
+        move: "ICEBEAM",
+      },
+      {
+        level: 40,
+        move: "HYPERVOICE",
+      },
+      {
+        level: 48,
+        move: "FUSIONBOLT",
+      },
+      {
+        level: 56,
+        move: "BLIZZARD",
+      },
+      {
+        level: 64,
+        move: "IMPRISON",
+      },
+      {
+        level: 72,
+        move: "OUTRAGE",
+      },
+      {
+        level: 80,
+        move: "FREEZESHOCK",
+      },
+      {
+        level: 88,
+        move: "SHEERCOLD",
+      },
     ],
     tutorMoves: [
       "AERIALACE",
@@ -22752,21 +30295,66 @@ export const pokemonForms: PokemonForm[] = [
     hiddenAbilities: [],
     category: "Boundary",
     moves: [
-      "DRAGONBREATH",
-      "NOBLEROAR",
-      "ANCIENTPOWER",
-      "FREEZEDRY",
-      "SLASH",
-      "ENDEAVOR",
-      "DRAGONPULSE",
-      "ICEBEAM",
-      "HYPERVOICE",
-      "FUSIONFLARE",
-      "BLIZZARD",
-      "IMPRISON",
-      "OUTRAGE",
-      "ICEBURN",
-      "SHEERCOLD",
+      {
+        level: 1,
+        move: "DRAGONBREATH",
+      },
+      {
+        level: 1,
+        move: "NOBLEROAR",
+      },
+      {
+        level: 1,
+        move: "ANCIENTPOWER",
+      },
+      {
+        level: 1,
+        move: "FREEZEDRY",
+      },
+      {
+        level: 8,
+        move: "SLASH",
+      },
+      {
+        level: 16,
+        move: "ENDEAVOR",
+      },
+      {
+        level: 24,
+        move: "DRAGONPULSE",
+      },
+      {
+        level: 32,
+        move: "ICEBEAM",
+      },
+      {
+        level: 40,
+        move: "HYPERVOICE",
+      },
+      {
+        level: 48,
+        move: "FUSIONFLARE",
+      },
+      {
+        level: 56,
+        move: "BLIZZARD",
+      },
+      {
+        level: 64,
+        move: "IMPRISON",
+      },
+      {
+        level: 72,
+        move: "OUTRAGE",
+      },
+      {
+        level: 80,
+        move: "ICEBURN",
+      },
+      {
+        level: 88,
+        move: "SHEERCOLD",
+      },
     ],
     tutorMoves: [
       "AERIALACE",
@@ -22880,21 +30468,66 @@ export const pokemonForms: PokemonForm[] = [
     hiddenAbilities: [],
     category: "Boundary",
     moves: [
-      "DRAGONBREATH",
-      "NOBLEROAR",
-      "ANCIENTPOWER",
-      "FREEZEDRY",
-      "SLASH",
-      "ENDEAVOR",
-      "DRAGONPULSE",
-      "ICEBEAM",
-      "HYPERVOICE",
-      "FUSIONBOLT",
-      "BLIZZARD",
-      "IMPRISON",
-      "OUTRAGE",
-      "FREEZESHOCK",
-      "SHEERCOLD",
+      {
+        level: 1,
+        move: "DRAGONBREATH",
+      },
+      {
+        level: 1,
+        move: "NOBLEROAR",
+      },
+      {
+        level: 1,
+        move: "ANCIENTPOWER",
+      },
+      {
+        level: 1,
+        move: "FREEZEDRY",
+      },
+      {
+        level: 8,
+        move: "SLASH",
+      },
+      {
+        level: 16,
+        move: "ENDEAVOR",
+      },
+      {
+        level: 24,
+        move: "DRAGONPULSE",
+      },
+      {
+        level: 32,
+        move: "ICEBEAM",
+      },
+      {
+        level: 40,
+        move: "HYPERVOICE",
+      },
+      {
+        level: 48,
+        move: "FUSIONBOLT",
+      },
+      {
+        level: 56,
+        move: "BLIZZARD",
+      },
+      {
+        level: 64,
+        move: "IMPRISON",
+      },
+      {
+        level: 72,
+        move: "OUTRAGE",
+      },
+      {
+        level: 80,
+        move: "FREEZESHOCK",
+      },
+      {
+        level: 88,
+        move: "SHEERCOLD",
+      },
     ],
     tutorMoves: [
       "AERIALACE",
@@ -23008,21 +30641,66 @@ export const pokemonForms: PokemonForm[] = [
     hiddenAbilities: [],
     category: "Colt",
     moves: [
-      "AQUAJET",
-      "LEER",
-      "HELPINGHAND",
-      "WORKUP",
-      "SECRETSWORD",
-      "BUBBLEBEAM",
-      "QUICKGUARD",
-      "DOUBLEKICK",
-      "RETALIATE",
-      "AQUATAIL",
-      "TAKEDOWN",
-      "SACREDSWORD",
-      "SWORDSDANCE",
-      "HYDROPUMP",
-      "CLOSECOMBAT",
+      {
+        level: 1,
+        move: "AQUAJET",
+      },
+      {
+        level: 1,
+        move: "LEER",
+      },
+      {
+        level: 1,
+        move: "HELPINGHAND",
+      },
+      {
+        level: 1,
+        move: "WORKUP",
+      },
+      {
+        level: 1,
+        move: "SECRETSWORD",
+      },
+      {
+        level: 7,
+        move: "BUBBLEBEAM",
+      },
+      {
+        level: 14,
+        move: "QUICKGUARD",
+      },
+      {
+        level: 21,
+        move: "DOUBLEKICK",
+      },
+      {
+        level: 28,
+        move: "RETALIATE",
+      },
+      {
+        level: 35,
+        move: "AQUATAIL",
+      },
+      {
+        level: 42,
+        move: "TAKEDOWN",
+      },
+      {
+        level: 49,
+        move: "SACREDSWORD",
+      },
+      {
+        level: 56,
+        move: "SWORDSDANCE",
+      },
+      {
+        level: 63,
+        move: "HYDROPUMP",
+      },
+      {
+        level: 70,
+        move: "CLOSECOMBAT",
+      },
     ],
     tutorMoves: [
       "AERIALACE",
@@ -23130,21 +30808,66 @@ export const pokemonForms: PokemonForm[] = [
     hiddenAbilities: [],
     category: "Melody",
     moves: [
-      "ROUND",
-      "QUICKATTACK",
-      "CONFUSION",
-      "SING",
-      "TEETERDANCE",
-      "ACROBATICS",
-      "PSYBEAM",
-      "ECHOEDVOICE",
-      "UTURN",
-      "RELICSONG",
-      "PSYCHIC",
-      "HYPERVOICE",
-      "ROLEPLAY",
-      "CLOSECOMBAT",
-      "PERISHSONG",
+      {
+        level: 1,
+        move: "ROUND",
+      },
+      {
+        level: 1,
+        move: "QUICKATTACK",
+      },
+      {
+        level: 1,
+        move: "CONFUSION",
+      },
+      {
+        level: 1,
+        move: "SING",
+      },
+      {
+        level: 21,
+        move: "TEETERDANCE",
+      },
+      {
+        level: 26,
+        move: "ACROBATICS",
+      },
+      {
+        level: 31,
+        move: "PSYBEAM",
+      },
+      {
+        level: 36,
+        move: "ECHOEDVOICE",
+      },
+      {
+        level: 43,
+        move: "UTURN",
+      },
+      {
+        level: 50,
+        move: "RELICSONG",
+      },
+      {
+        level: 57,
+        move: "PSYCHIC",
+      },
+      {
+        level: 64,
+        move: "HYPERVOICE",
+      },
+      {
+        level: 71,
+        move: "ROLEPLAY",
+      },
+      {
+        level: 78,
+        move: "CLOSECOMBAT",
+      },
+      {
+        level: 85,
+        move: "PERISHSONG",
+      },
     ],
     tutorMoves: [
       "ACROBATICS",
@@ -23277,21 +31000,66 @@ export const pokemonForms: PokemonForm[] = [
     hiddenAbilities: [],
     category: "Paleozoic",
     moves: [
-      "FURYCUTTER",
-      "QUICKATTACK",
-      "SCREECH",
-      "METALCLAW",
-      "FELLSTINGER",
-      "FLAMECHARGE",
-      "METALSOUND",
-      "XSCISSOR",
-      "MAGNETRISE",
-      "BUGBUZZ",
-      "SIMPLEBEAM",
-      "ZAPCANNON",
-      "LOCKON",
-      "TECHNOBLAST",
-      "SELFDESTRUCT",
+      {
+        level: 1,
+        move: "FURYCUTTER",
+      },
+      {
+        level: 1,
+        move: "QUICKATTACK",
+      },
+      {
+        level: 7,
+        move: "SCREECH",
+      },
+      {
+        level: 14,
+        move: "METALCLAW",
+      },
+      {
+        level: 21,
+        move: "FELLSTINGER",
+      },
+      {
+        level: 28,
+        move: "FLAMECHARGE",
+      },
+      {
+        level: 35,
+        move: "METALSOUND",
+      },
+      {
+        level: 42,
+        move: "XSCISSOR",
+      },
+      {
+        level: 49,
+        move: "MAGNETRISE",
+      },
+      {
+        level: 56,
+        move: "BUGBUZZ",
+      },
+      {
+        level: 63,
+        move: "SIMPLEBEAM",
+      },
+      {
+        level: 70,
+        move: "ZAPCANNON",
+      },
+      {
+        level: 77,
+        move: "LOCKON",
+      },
+      {
+        level: 84,
+        move: "TECHNOBLAST",
+      },
+      {
+        level: 91,
+        move: "SELFDESTRUCT",
+      },
     ],
     tutorMoves: [
       "AERIALACE",
@@ -23397,21 +31165,66 @@ export const pokemonForms: PokemonForm[] = [
     hiddenAbilities: [],
     category: "Paleozoic",
     moves: [
-      "FURYCUTTER",
-      "QUICKATTACK",
-      "SCREECH",
-      "METALCLAW",
-      "FELLSTINGER",
-      "FLAMECHARGE",
-      "METALSOUND",
-      "XSCISSOR",
-      "MAGNETRISE",
-      "BUGBUZZ",
-      "SIMPLEBEAM",
-      "ZAPCANNON",
-      "LOCKON",
-      "TECHNOBLAST",
-      "SELFDESTRUCT",
+      {
+        level: 1,
+        move: "FURYCUTTER",
+      },
+      {
+        level: 1,
+        move: "QUICKATTACK",
+      },
+      {
+        level: 7,
+        move: "SCREECH",
+      },
+      {
+        level: 14,
+        move: "METALCLAW",
+      },
+      {
+        level: 21,
+        move: "FELLSTINGER",
+      },
+      {
+        level: 28,
+        move: "FLAMECHARGE",
+      },
+      {
+        level: 35,
+        move: "METALSOUND",
+      },
+      {
+        level: 42,
+        move: "XSCISSOR",
+      },
+      {
+        level: 49,
+        move: "MAGNETRISE",
+      },
+      {
+        level: 56,
+        move: "BUGBUZZ",
+      },
+      {
+        level: 63,
+        move: "SIMPLEBEAM",
+      },
+      {
+        level: 70,
+        move: "ZAPCANNON",
+      },
+      {
+        level: 77,
+        move: "LOCKON",
+      },
+      {
+        level: 84,
+        move: "TECHNOBLAST",
+      },
+      {
+        level: 91,
+        move: "SELFDESTRUCT",
+      },
     ],
     tutorMoves: [
       "AERIALACE",
@@ -23517,21 +31330,66 @@ export const pokemonForms: PokemonForm[] = [
     hiddenAbilities: [],
     category: "Paleozoic",
     moves: [
-      "FURYCUTTER",
-      "QUICKATTACK",
-      "SCREECH",
-      "METALCLAW",
-      "FELLSTINGER",
-      "FLAMECHARGE",
-      "METALSOUND",
-      "XSCISSOR",
-      "MAGNETRISE",
-      "BUGBUZZ",
-      "SIMPLEBEAM",
-      "ZAPCANNON",
-      "LOCKON",
-      "TECHNOBLAST",
-      "SELFDESTRUCT",
+      {
+        level: 1,
+        move: "FURYCUTTER",
+      },
+      {
+        level: 1,
+        move: "QUICKATTACK",
+      },
+      {
+        level: 7,
+        move: "SCREECH",
+      },
+      {
+        level: 14,
+        move: "METALCLAW",
+      },
+      {
+        level: 21,
+        move: "FELLSTINGER",
+      },
+      {
+        level: 28,
+        move: "FLAMECHARGE",
+      },
+      {
+        level: 35,
+        move: "METALSOUND",
+      },
+      {
+        level: 42,
+        move: "XSCISSOR",
+      },
+      {
+        level: 49,
+        move: "MAGNETRISE",
+      },
+      {
+        level: 56,
+        move: "BUGBUZZ",
+      },
+      {
+        level: 63,
+        move: "SIMPLEBEAM",
+      },
+      {
+        level: 70,
+        move: "ZAPCANNON",
+      },
+      {
+        level: 77,
+        move: "LOCKON",
+      },
+      {
+        level: 84,
+        move: "TECHNOBLAST",
+      },
+      {
+        level: 91,
+        move: "SELFDESTRUCT",
+      },
     ],
     tutorMoves: [
       "AERIALACE",
@@ -23637,21 +31495,66 @@ export const pokemonForms: PokemonForm[] = [
     hiddenAbilities: [],
     category: "Paleozoic",
     moves: [
-      "FURYCUTTER",
-      "QUICKATTACK",
-      "SCREECH",
-      "METALCLAW",
-      "FELLSTINGER",
-      "FLAMECHARGE",
-      "METALSOUND",
-      "XSCISSOR",
-      "MAGNETRISE",
-      "BUGBUZZ",
-      "SIMPLEBEAM",
-      "ZAPCANNON",
-      "LOCKON",
-      "TECHNOBLAST",
-      "SELFDESTRUCT",
+      {
+        level: 1,
+        move: "FURYCUTTER",
+      },
+      {
+        level: 1,
+        move: "QUICKATTACK",
+      },
+      {
+        level: 7,
+        move: "SCREECH",
+      },
+      {
+        level: 14,
+        move: "METALCLAW",
+      },
+      {
+        level: 21,
+        move: "FELLSTINGER",
+      },
+      {
+        level: 28,
+        move: "FLAMECHARGE",
+      },
+      {
+        level: 35,
+        move: "METALSOUND",
+      },
+      {
+        level: 42,
+        move: "XSCISSOR",
+      },
+      {
+        level: 49,
+        move: "MAGNETRISE",
+      },
+      {
+        level: 56,
+        move: "BUGBUZZ",
+      },
+      {
+        level: 63,
+        move: "SIMPLEBEAM",
+      },
+      {
+        level: 70,
+        move: "ZAPCANNON",
+      },
+      {
+        level: 77,
+        move: "LOCKON",
+      },
+      {
+        level: 84,
+        move: "TECHNOBLAST",
+      },
+      {
+        level: 91,
+        move: "SELFDESTRUCT",
+      },
     ],
     tutorMoves: [
       "AERIALACE",
@@ -23757,24 +31660,78 @@ export const pokemonForms: PokemonForm[] = [
     hiddenAbilities: ["BATTLEBOND"],
     category: "Ninja",
     moves: [
-      "WATERSHURIKEN",
-      "NIGHTSLASH",
-      "HAZE",
-      "ROLEPLAY",
-      "POUND",
-      "GROWL",
-      "WATERGUN",
-      "QUICKATTACK",
-      "LICK",
-      "WATERPULSE",
-      "SMOKESCREEN",
-      "SHADOWSNEAK",
-      "SPIKES",
-      "AERIALACE",
-      "SUBSTITUTE",
-      "EXTRASENSORY",
-      "DOUBLETEAM",
-      "HYDROPUMP",
+      {
+        level: 0,
+        move: "WATERSHURIKEN",
+      },
+      {
+        level: 1,
+        move: "NIGHTSLASH",
+      },
+      {
+        level: 1,
+        move: "HAZE",
+      },
+      {
+        level: 1,
+        move: "ROLEPLAY",
+      },
+      {
+        level: 1,
+        move: "POUND",
+      },
+      {
+        level: 1,
+        move: "GROWL",
+      },
+      {
+        level: 1,
+        move: "WATERGUN",
+      },
+      {
+        level: 1,
+        move: "QUICKATTACK",
+      },
+      {
+        level: 10,
+        move: "LICK",
+      },
+      {
+        level: 14,
+        move: "WATERPULSE",
+      },
+      {
+        level: 19,
+        move: "SMOKESCREEN",
+      },
+      {
+        level: 23,
+        move: "SHADOWSNEAK",
+      },
+      {
+        level: 28,
+        move: "SPIKES",
+      },
+      {
+        level: 33,
+        move: "AERIALACE",
+      },
+      {
+        level: 42,
+        move: "SUBSTITUTE",
+      },
+      {
+        level: 49,
+        move: "EXTRASENSORY",
+      },
+      {
+        level: 56,
+        move: "DOUBLETEAM",
+      },
+      {
+        level: 68,
+        move: "HYDROPUMP",
+      },
     ],
     tutorMoves: [
       "ACROBATICS",
@@ -23887,24 +31844,78 @@ export const pokemonForms: PokemonForm[] = [
     hiddenAbilities: ["BATTLEBOND"],
     category: "Ninja",
     moves: [
-      "WATERSHURIKEN",
-      "NIGHTSLASH",
-      "HAZE",
-      "ROLEPLAY",
-      "POUND",
-      "GROWL",
-      "WATERGUN",
-      "QUICKATTACK",
-      "LICK",
-      "WATERPULSE",
-      "SMOKESCREEN",
-      "SHADOWSNEAK",
-      "SPIKES",
-      "AERIALACE",
-      "SUBSTITUTE",
-      "EXTRASENSORY",
-      "DOUBLETEAM",
-      "HYDROPUMP",
+      {
+        level: 0,
+        move: "WATERSHURIKEN",
+      },
+      {
+        level: 1,
+        move: "NIGHTSLASH",
+      },
+      {
+        level: 1,
+        move: "HAZE",
+      },
+      {
+        level: 1,
+        move: "ROLEPLAY",
+      },
+      {
+        level: 1,
+        move: "POUND",
+      },
+      {
+        level: 1,
+        move: "GROWL",
+      },
+      {
+        level: 1,
+        move: "WATERGUN",
+      },
+      {
+        level: 1,
+        move: "QUICKATTACK",
+      },
+      {
+        level: 10,
+        move: "LICK",
+      },
+      {
+        level: 14,
+        move: "WATERPULSE",
+      },
+      {
+        level: 19,
+        move: "SMOKESCREEN",
+      },
+      {
+        level: 23,
+        move: "SHADOWSNEAK",
+      },
+      {
+        level: 28,
+        move: "SPIKES",
+      },
+      {
+        level: 33,
+        move: "AERIALACE",
+      },
+      {
+        level: 42,
+        move: "SUBSTITUTE",
+      },
+      {
+        level: 49,
+        move: "EXTRASENSORY",
+      },
+      {
+        level: 56,
+        move: "DOUBLETEAM",
+      },
+      {
+        level: 68,
+        move: "HYDROPUMP",
+      },
     ],
     tutorMoves: [
       "ACROBATICS",
@@ -24017,19 +32028,58 @@ export const pokemonForms: PokemonForm[] = [
     hiddenAbilities: ["FRIENDGUARD"],
     category: "Scale",
     moves: [
-      "GUST",
-      "SLEEPPOWDER",
-      "POISONPOWDER",
-      "STUNSPORE",
-      "STRUGGLEBUG",
-      "LIGHTSCREEN",
-      "PSYBEAM",
-      "SUPERSONIC",
-      "DRAININGKISS",
-      "SAFEGUARD",
-      "BUGBUZZ",
-      "QUIVERDANCE",
-      "HURRICANE",
+      {
+        level: 0,
+        move: "GUST",
+      },
+      {
+        level: 1,
+        move: "SLEEPPOWDER",
+      },
+      {
+        level: 1,
+        move: "POISONPOWDER",
+      },
+      {
+        level: 1,
+        move: "STUNSPORE",
+      },
+      {
+        level: 1,
+        move: "STRUGGLEBUG",
+      },
+      {
+        level: 12,
+        move: "LIGHTSCREEN",
+      },
+      {
+        level: 17,
+        move: "PSYBEAM",
+      },
+      {
+        level: 21,
+        move: "SUPERSONIC",
+      },
+      {
+        level: 25,
+        move: "DRAININGKISS",
+      },
+      {
+        level: 31,
+        move: "SAFEGUARD",
+      },
+      {
+        level: 35,
+        move: "BUGBUZZ",
+      },
+      {
+        level: 45,
+        move: "QUIVERDANCE",
+      },
+      {
+        level: 50,
+        move: "HURRICANE",
+      },
     ],
     tutorMoves: [
       "ACROBATICS",
@@ -24120,19 +32170,58 @@ export const pokemonForms: PokemonForm[] = [
     hiddenAbilities: ["FRIENDGUARD"],
     category: "Scale",
     moves: [
-      "GUST",
-      "SLEEPPOWDER",
-      "POISONPOWDER",
-      "STUNSPORE",
-      "STRUGGLEBUG",
-      "LIGHTSCREEN",
-      "PSYBEAM",
-      "SUPERSONIC",
-      "DRAININGKISS",
-      "SAFEGUARD",
-      "BUGBUZZ",
-      "QUIVERDANCE",
-      "HURRICANE",
+      {
+        level: 0,
+        move: "GUST",
+      },
+      {
+        level: 1,
+        move: "SLEEPPOWDER",
+      },
+      {
+        level: 1,
+        move: "POISONPOWDER",
+      },
+      {
+        level: 1,
+        move: "STUNSPORE",
+      },
+      {
+        level: 1,
+        move: "STRUGGLEBUG",
+      },
+      {
+        level: 12,
+        move: "LIGHTSCREEN",
+      },
+      {
+        level: 17,
+        move: "PSYBEAM",
+      },
+      {
+        level: 21,
+        move: "SUPERSONIC",
+      },
+      {
+        level: 25,
+        move: "DRAININGKISS",
+      },
+      {
+        level: 31,
+        move: "SAFEGUARD",
+      },
+      {
+        level: 35,
+        move: "BUGBUZZ",
+      },
+      {
+        level: 45,
+        move: "QUIVERDANCE",
+      },
+      {
+        level: 50,
+        move: "HURRICANE",
+      },
     ],
     tutorMoves: [
       "ACROBATICS",
@@ -24223,19 +32312,58 @@ export const pokemonForms: PokemonForm[] = [
     hiddenAbilities: ["FRIENDGUARD"],
     category: "Scale",
     moves: [
-      "GUST",
-      "SLEEPPOWDER",
-      "POISONPOWDER",
-      "STUNSPORE",
-      "STRUGGLEBUG",
-      "LIGHTSCREEN",
-      "PSYBEAM",
-      "SUPERSONIC",
-      "DRAININGKISS",
-      "SAFEGUARD",
-      "BUGBUZZ",
-      "QUIVERDANCE",
-      "HURRICANE",
+      {
+        level: 0,
+        move: "GUST",
+      },
+      {
+        level: 1,
+        move: "SLEEPPOWDER",
+      },
+      {
+        level: 1,
+        move: "POISONPOWDER",
+      },
+      {
+        level: 1,
+        move: "STUNSPORE",
+      },
+      {
+        level: 1,
+        move: "STRUGGLEBUG",
+      },
+      {
+        level: 12,
+        move: "LIGHTSCREEN",
+      },
+      {
+        level: 17,
+        move: "PSYBEAM",
+      },
+      {
+        level: 21,
+        move: "SUPERSONIC",
+      },
+      {
+        level: 25,
+        move: "DRAININGKISS",
+      },
+      {
+        level: 31,
+        move: "SAFEGUARD",
+      },
+      {
+        level: 35,
+        move: "BUGBUZZ",
+      },
+      {
+        level: 45,
+        move: "QUIVERDANCE",
+      },
+      {
+        level: 50,
+        move: "HURRICANE",
+      },
     ],
     tutorMoves: [
       "ACROBATICS",
@@ -24326,19 +32454,58 @@ export const pokemonForms: PokemonForm[] = [
     hiddenAbilities: ["FRIENDGUARD"],
     category: "Scale",
     moves: [
-      "GUST",
-      "SLEEPPOWDER",
-      "POISONPOWDER",
-      "STUNSPORE",
-      "STRUGGLEBUG",
-      "LIGHTSCREEN",
-      "PSYBEAM",
-      "SUPERSONIC",
-      "DRAININGKISS",
-      "SAFEGUARD",
-      "BUGBUZZ",
-      "QUIVERDANCE",
-      "HURRICANE",
+      {
+        level: 0,
+        move: "GUST",
+      },
+      {
+        level: 1,
+        move: "SLEEPPOWDER",
+      },
+      {
+        level: 1,
+        move: "POISONPOWDER",
+      },
+      {
+        level: 1,
+        move: "STUNSPORE",
+      },
+      {
+        level: 1,
+        move: "STRUGGLEBUG",
+      },
+      {
+        level: 12,
+        move: "LIGHTSCREEN",
+      },
+      {
+        level: 17,
+        move: "PSYBEAM",
+      },
+      {
+        level: 21,
+        move: "SUPERSONIC",
+      },
+      {
+        level: 25,
+        move: "DRAININGKISS",
+      },
+      {
+        level: 31,
+        move: "SAFEGUARD",
+      },
+      {
+        level: 35,
+        move: "BUGBUZZ",
+      },
+      {
+        level: 45,
+        move: "QUIVERDANCE",
+      },
+      {
+        level: 50,
+        move: "HURRICANE",
+      },
     ],
     tutorMoves: [
       "ACROBATICS",
@@ -24429,19 +32596,58 @@ export const pokemonForms: PokemonForm[] = [
     hiddenAbilities: ["FRIENDGUARD"],
     category: "Scale",
     moves: [
-      "GUST",
-      "SLEEPPOWDER",
-      "POISONPOWDER",
-      "STUNSPORE",
-      "STRUGGLEBUG",
-      "LIGHTSCREEN",
-      "PSYBEAM",
-      "SUPERSONIC",
-      "DRAININGKISS",
-      "SAFEGUARD",
-      "BUGBUZZ",
-      "QUIVERDANCE",
-      "HURRICANE",
+      {
+        level: 0,
+        move: "GUST",
+      },
+      {
+        level: 1,
+        move: "SLEEPPOWDER",
+      },
+      {
+        level: 1,
+        move: "POISONPOWDER",
+      },
+      {
+        level: 1,
+        move: "STUNSPORE",
+      },
+      {
+        level: 1,
+        move: "STRUGGLEBUG",
+      },
+      {
+        level: 12,
+        move: "LIGHTSCREEN",
+      },
+      {
+        level: 17,
+        move: "PSYBEAM",
+      },
+      {
+        level: 21,
+        move: "SUPERSONIC",
+      },
+      {
+        level: 25,
+        move: "DRAININGKISS",
+      },
+      {
+        level: 31,
+        move: "SAFEGUARD",
+      },
+      {
+        level: 35,
+        move: "BUGBUZZ",
+      },
+      {
+        level: 45,
+        move: "QUIVERDANCE",
+      },
+      {
+        level: 50,
+        move: "HURRICANE",
+      },
     ],
     tutorMoves: [
       "ACROBATICS",
@@ -24532,19 +32738,58 @@ export const pokemonForms: PokemonForm[] = [
     hiddenAbilities: ["FRIENDGUARD"],
     category: "Scale",
     moves: [
-      "GUST",
-      "SLEEPPOWDER",
-      "POISONPOWDER",
-      "STUNSPORE",
-      "STRUGGLEBUG",
-      "LIGHTSCREEN",
-      "PSYBEAM",
-      "SUPERSONIC",
-      "DRAININGKISS",
-      "SAFEGUARD",
-      "BUGBUZZ",
-      "QUIVERDANCE",
-      "HURRICANE",
+      {
+        level: 0,
+        move: "GUST",
+      },
+      {
+        level: 1,
+        move: "SLEEPPOWDER",
+      },
+      {
+        level: 1,
+        move: "POISONPOWDER",
+      },
+      {
+        level: 1,
+        move: "STUNSPORE",
+      },
+      {
+        level: 1,
+        move: "STRUGGLEBUG",
+      },
+      {
+        level: 12,
+        move: "LIGHTSCREEN",
+      },
+      {
+        level: 17,
+        move: "PSYBEAM",
+      },
+      {
+        level: 21,
+        move: "SUPERSONIC",
+      },
+      {
+        level: 25,
+        move: "DRAININGKISS",
+      },
+      {
+        level: 31,
+        move: "SAFEGUARD",
+      },
+      {
+        level: 35,
+        move: "BUGBUZZ",
+      },
+      {
+        level: 45,
+        move: "QUIVERDANCE",
+      },
+      {
+        level: 50,
+        move: "HURRICANE",
+      },
     ],
     tutorMoves: [
       "ACROBATICS",
@@ -24635,19 +32880,58 @@ export const pokemonForms: PokemonForm[] = [
     hiddenAbilities: ["FRIENDGUARD"],
     category: "Scale",
     moves: [
-      "GUST",
-      "SLEEPPOWDER",
-      "POISONPOWDER",
-      "STUNSPORE",
-      "STRUGGLEBUG",
-      "LIGHTSCREEN",
-      "PSYBEAM",
-      "SUPERSONIC",
-      "DRAININGKISS",
-      "SAFEGUARD",
-      "BUGBUZZ",
-      "QUIVERDANCE",
-      "HURRICANE",
+      {
+        level: 0,
+        move: "GUST",
+      },
+      {
+        level: 1,
+        move: "SLEEPPOWDER",
+      },
+      {
+        level: 1,
+        move: "POISONPOWDER",
+      },
+      {
+        level: 1,
+        move: "STUNSPORE",
+      },
+      {
+        level: 1,
+        move: "STRUGGLEBUG",
+      },
+      {
+        level: 12,
+        move: "LIGHTSCREEN",
+      },
+      {
+        level: 17,
+        move: "PSYBEAM",
+      },
+      {
+        level: 21,
+        move: "SUPERSONIC",
+      },
+      {
+        level: 25,
+        move: "DRAININGKISS",
+      },
+      {
+        level: 31,
+        move: "SAFEGUARD",
+      },
+      {
+        level: 35,
+        move: "BUGBUZZ",
+      },
+      {
+        level: 45,
+        move: "QUIVERDANCE",
+      },
+      {
+        level: 50,
+        move: "HURRICANE",
+      },
     ],
     tutorMoves: [
       "ACROBATICS",
@@ -24738,19 +33022,58 @@ export const pokemonForms: PokemonForm[] = [
     hiddenAbilities: ["FRIENDGUARD"],
     category: "Scale",
     moves: [
-      "GUST",
-      "SLEEPPOWDER",
-      "POISONPOWDER",
-      "STUNSPORE",
-      "STRUGGLEBUG",
-      "LIGHTSCREEN",
-      "PSYBEAM",
-      "SUPERSONIC",
-      "DRAININGKISS",
-      "SAFEGUARD",
-      "BUGBUZZ",
-      "QUIVERDANCE",
-      "HURRICANE",
+      {
+        level: 0,
+        move: "GUST",
+      },
+      {
+        level: 1,
+        move: "SLEEPPOWDER",
+      },
+      {
+        level: 1,
+        move: "POISONPOWDER",
+      },
+      {
+        level: 1,
+        move: "STUNSPORE",
+      },
+      {
+        level: 1,
+        move: "STRUGGLEBUG",
+      },
+      {
+        level: 12,
+        move: "LIGHTSCREEN",
+      },
+      {
+        level: 17,
+        move: "PSYBEAM",
+      },
+      {
+        level: 21,
+        move: "SUPERSONIC",
+      },
+      {
+        level: 25,
+        move: "DRAININGKISS",
+      },
+      {
+        level: 31,
+        move: "SAFEGUARD",
+      },
+      {
+        level: 35,
+        move: "BUGBUZZ",
+      },
+      {
+        level: 45,
+        move: "QUIVERDANCE",
+      },
+      {
+        level: 50,
+        move: "HURRICANE",
+      },
     ],
     tutorMoves: [
       "ACROBATICS",
@@ -24841,19 +33164,58 @@ export const pokemonForms: PokemonForm[] = [
     hiddenAbilities: ["FRIENDGUARD"],
     category: "Scale",
     moves: [
-      "GUST",
-      "SLEEPPOWDER",
-      "POISONPOWDER",
-      "STUNSPORE",
-      "STRUGGLEBUG",
-      "LIGHTSCREEN",
-      "PSYBEAM",
-      "SUPERSONIC",
-      "DRAININGKISS",
-      "SAFEGUARD",
-      "BUGBUZZ",
-      "QUIVERDANCE",
-      "HURRICANE",
+      {
+        level: 0,
+        move: "GUST",
+      },
+      {
+        level: 1,
+        move: "SLEEPPOWDER",
+      },
+      {
+        level: 1,
+        move: "POISONPOWDER",
+      },
+      {
+        level: 1,
+        move: "STUNSPORE",
+      },
+      {
+        level: 1,
+        move: "STRUGGLEBUG",
+      },
+      {
+        level: 12,
+        move: "LIGHTSCREEN",
+      },
+      {
+        level: 17,
+        move: "PSYBEAM",
+      },
+      {
+        level: 21,
+        move: "SUPERSONIC",
+      },
+      {
+        level: 25,
+        move: "DRAININGKISS",
+      },
+      {
+        level: 31,
+        move: "SAFEGUARD",
+      },
+      {
+        level: 35,
+        move: "BUGBUZZ",
+      },
+      {
+        level: 45,
+        move: "QUIVERDANCE",
+      },
+      {
+        level: 50,
+        move: "HURRICANE",
+      },
     ],
     tutorMoves: [
       "ACROBATICS",
@@ -24944,19 +33306,58 @@ export const pokemonForms: PokemonForm[] = [
     hiddenAbilities: ["FRIENDGUARD"],
     category: "Scale",
     moves: [
-      "GUST",
-      "SLEEPPOWDER",
-      "POISONPOWDER",
-      "STUNSPORE",
-      "STRUGGLEBUG",
-      "LIGHTSCREEN",
-      "PSYBEAM",
-      "SUPERSONIC",
-      "DRAININGKISS",
-      "SAFEGUARD",
-      "BUGBUZZ",
-      "QUIVERDANCE",
-      "HURRICANE",
+      {
+        level: 0,
+        move: "GUST",
+      },
+      {
+        level: 1,
+        move: "SLEEPPOWDER",
+      },
+      {
+        level: 1,
+        move: "POISONPOWDER",
+      },
+      {
+        level: 1,
+        move: "STUNSPORE",
+      },
+      {
+        level: 1,
+        move: "STRUGGLEBUG",
+      },
+      {
+        level: 12,
+        move: "LIGHTSCREEN",
+      },
+      {
+        level: 17,
+        move: "PSYBEAM",
+      },
+      {
+        level: 21,
+        move: "SUPERSONIC",
+      },
+      {
+        level: 25,
+        move: "DRAININGKISS",
+      },
+      {
+        level: 31,
+        move: "SAFEGUARD",
+      },
+      {
+        level: 35,
+        move: "BUGBUZZ",
+      },
+      {
+        level: 45,
+        move: "QUIVERDANCE",
+      },
+      {
+        level: 50,
+        move: "HURRICANE",
+      },
     ],
     tutorMoves: [
       "ACROBATICS",
@@ -25047,19 +33448,58 @@ export const pokemonForms: PokemonForm[] = [
     hiddenAbilities: ["FRIENDGUARD"],
     category: "Scale",
     moves: [
-      "GUST",
-      "SLEEPPOWDER",
-      "POISONPOWDER",
-      "STUNSPORE",
-      "STRUGGLEBUG",
-      "LIGHTSCREEN",
-      "PSYBEAM",
-      "SUPERSONIC",
-      "DRAININGKISS",
-      "SAFEGUARD",
-      "BUGBUZZ",
-      "QUIVERDANCE",
-      "HURRICANE",
+      {
+        level: 0,
+        move: "GUST",
+      },
+      {
+        level: 1,
+        move: "SLEEPPOWDER",
+      },
+      {
+        level: 1,
+        move: "POISONPOWDER",
+      },
+      {
+        level: 1,
+        move: "STUNSPORE",
+      },
+      {
+        level: 1,
+        move: "STRUGGLEBUG",
+      },
+      {
+        level: 12,
+        move: "LIGHTSCREEN",
+      },
+      {
+        level: 17,
+        move: "PSYBEAM",
+      },
+      {
+        level: 21,
+        move: "SUPERSONIC",
+      },
+      {
+        level: 25,
+        move: "DRAININGKISS",
+      },
+      {
+        level: 31,
+        move: "SAFEGUARD",
+      },
+      {
+        level: 35,
+        move: "BUGBUZZ",
+      },
+      {
+        level: 45,
+        move: "QUIVERDANCE",
+      },
+      {
+        level: 50,
+        move: "HURRICANE",
+      },
     ],
     tutorMoves: [
       "ACROBATICS",
@@ -25150,19 +33590,58 @@ export const pokemonForms: PokemonForm[] = [
     hiddenAbilities: ["FRIENDGUARD"],
     category: "Scale",
     moves: [
-      "GUST",
-      "SLEEPPOWDER",
-      "POISONPOWDER",
-      "STUNSPORE",
-      "STRUGGLEBUG",
-      "LIGHTSCREEN",
-      "PSYBEAM",
-      "SUPERSONIC",
-      "DRAININGKISS",
-      "SAFEGUARD",
-      "BUGBUZZ",
-      "QUIVERDANCE",
-      "HURRICANE",
+      {
+        level: 0,
+        move: "GUST",
+      },
+      {
+        level: 1,
+        move: "SLEEPPOWDER",
+      },
+      {
+        level: 1,
+        move: "POISONPOWDER",
+      },
+      {
+        level: 1,
+        move: "STUNSPORE",
+      },
+      {
+        level: 1,
+        move: "STRUGGLEBUG",
+      },
+      {
+        level: 12,
+        move: "LIGHTSCREEN",
+      },
+      {
+        level: 17,
+        move: "PSYBEAM",
+      },
+      {
+        level: 21,
+        move: "SUPERSONIC",
+      },
+      {
+        level: 25,
+        move: "DRAININGKISS",
+      },
+      {
+        level: 31,
+        move: "SAFEGUARD",
+      },
+      {
+        level: 35,
+        move: "BUGBUZZ",
+      },
+      {
+        level: 45,
+        move: "QUIVERDANCE",
+      },
+      {
+        level: 50,
+        move: "HURRICANE",
+      },
     ],
     tutorMoves: [
       "ACROBATICS",
@@ -25253,19 +33732,58 @@ export const pokemonForms: PokemonForm[] = [
     hiddenAbilities: ["FRIENDGUARD"],
     category: "Scale",
     moves: [
-      "GUST",
-      "SLEEPPOWDER",
-      "POISONPOWDER",
-      "STUNSPORE",
-      "STRUGGLEBUG",
-      "LIGHTSCREEN",
-      "PSYBEAM",
-      "SUPERSONIC",
-      "DRAININGKISS",
-      "SAFEGUARD",
-      "BUGBUZZ",
-      "QUIVERDANCE",
-      "HURRICANE",
+      {
+        level: 0,
+        move: "GUST",
+      },
+      {
+        level: 1,
+        move: "SLEEPPOWDER",
+      },
+      {
+        level: 1,
+        move: "POISONPOWDER",
+      },
+      {
+        level: 1,
+        move: "STUNSPORE",
+      },
+      {
+        level: 1,
+        move: "STRUGGLEBUG",
+      },
+      {
+        level: 12,
+        move: "LIGHTSCREEN",
+      },
+      {
+        level: 17,
+        move: "PSYBEAM",
+      },
+      {
+        level: 21,
+        move: "SUPERSONIC",
+      },
+      {
+        level: 25,
+        move: "DRAININGKISS",
+      },
+      {
+        level: 31,
+        move: "SAFEGUARD",
+      },
+      {
+        level: 35,
+        move: "BUGBUZZ",
+      },
+      {
+        level: 45,
+        move: "QUIVERDANCE",
+      },
+      {
+        level: 50,
+        move: "HURRICANE",
+      },
     ],
     tutorMoves: [
       "ACROBATICS",
@@ -25356,19 +33874,58 @@ export const pokemonForms: PokemonForm[] = [
     hiddenAbilities: ["FRIENDGUARD"],
     category: "Scale",
     moves: [
-      "GUST",
-      "SLEEPPOWDER",
-      "POISONPOWDER",
-      "STUNSPORE",
-      "STRUGGLEBUG",
-      "LIGHTSCREEN",
-      "PSYBEAM",
-      "SUPERSONIC",
-      "DRAININGKISS",
-      "SAFEGUARD",
-      "BUGBUZZ",
-      "QUIVERDANCE",
-      "HURRICANE",
+      {
+        level: 0,
+        move: "GUST",
+      },
+      {
+        level: 1,
+        move: "SLEEPPOWDER",
+      },
+      {
+        level: 1,
+        move: "POISONPOWDER",
+      },
+      {
+        level: 1,
+        move: "STUNSPORE",
+      },
+      {
+        level: 1,
+        move: "STRUGGLEBUG",
+      },
+      {
+        level: 12,
+        move: "LIGHTSCREEN",
+      },
+      {
+        level: 17,
+        move: "PSYBEAM",
+      },
+      {
+        level: 21,
+        move: "SUPERSONIC",
+      },
+      {
+        level: 25,
+        move: "DRAININGKISS",
+      },
+      {
+        level: 31,
+        move: "SAFEGUARD",
+      },
+      {
+        level: 35,
+        move: "BUGBUZZ",
+      },
+      {
+        level: 45,
+        move: "QUIVERDANCE",
+      },
+      {
+        level: 50,
+        move: "HURRICANE",
+      },
     ],
     tutorMoves: [
       "ACROBATICS",
@@ -25459,19 +34016,58 @@ export const pokemonForms: PokemonForm[] = [
     hiddenAbilities: ["FRIENDGUARD"],
     category: "Scale",
     moves: [
-      "GUST",
-      "SLEEPPOWDER",
-      "POISONPOWDER",
-      "STUNSPORE",
-      "STRUGGLEBUG",
-      "LIGHTSCREEN",
-      "PSYBEAM",
-      "SUPERSONIC",
-      "DRAININGKISS",
-      "SAFEGUARD",
-      "BUGBUZZ",
-      "QUIVERDANCE",
-      "HURRICANE",
+      {
+        level: 0,
+        move: "GUST",
+      },
+      {
+        level: 1,
+        move: "SLEEPPOWDER",
+      },
+      {
+        level: 1,
+        move: "POISONPOWDER",
+      },
+      {
+        level: 1,
+        move: "STUNSPORE",
+      },
+      {
+        level: 1,
+        move: "STRUGGLEBUG",
+      },
+      {
+        level: 12,
+        move: "LIGHTSCREEN",
+      },
+      {
+        level: 17,
+        move: "PSYBEAM",
+      },
+      {
+        level: 21,
+        move: "SUPERSONIC",
+      },
+      {
+        level: 25,
+        move: "DRAININGKISS",
+      },
+      {
+        level: 31,
+        move: "SAFEGUARD",
+      },
+      {
+        level: 35,
+        move: "BUGBUZZ",
+      },
+      {
+        level: 45,
+        move: "QUIVERDANCE",
+      },
+      {
+        level: 50,
+        move: "HURRICANE",
+      },
     ],
     tutorMoves: [
       "ACROBATICS",
@@ -25562,19 +34158,58 @@ export const pokemonForms: PokemonForm[] = [
     hiddenAbilities: ["FRIENDGUARD"],
     category: "Scale",
     moves: [
-      "GUST",
-      "SLEEPPOWDER",
-      "POISONPOWDER",
-      "STUNSPORE",
-      "STRUGGLEBUG",
-      "LIGHTSCREEN",
-      "PSYBEAM",
-      "SUPERSONIC",
-      "DRAININGKISS",
-      "SAFEGUARD",
-      "BUGBUZZ",
-      "QUIVERDANCE",
-      "HURRICANE",
+      {
+        level: 0,
+        move: "GUST",
+      },
+      {
+        level: 1,
+        move: "SLEEPPOWDER",
+      },
+      {
+        level: 1,
+        move: "POISONPOWDER",
+      },
+      {
+        level: 1,
+        move: "STUNSPORE",
+      },
+      {
+        level: 1,
+        move: "STRUGGLEBUG",
+      },
+      {
+        level: 12,
+        move: "LIGHTSCREEN",
+      },
+      {
+        level: 17,
+        move: "PSYBEAM",
+      },
+      {
+        level: 21,
+        move: "SUPERSONIC",
+      },
+      {
+        level: 25,
+        move: "DRAININGKISS",
+      },
+      {
+        level: 31,
+        move: "SAFEGUARD",
+      },
+      {
+        level: 35,
+        move: "BUGBUZZ",
+      },
+      {
+        level: 45,
+        move: "QUIVERDANCE",
+      },
+      {
+        level: 50,
+        move: "HURRICANE",
+      },
     ],
     tutorMoves: [
       "ACROBATICS",
@@ -25665,19 +34300,58 @@ export const pokemonForms: PokemonForm[] = [
     hiddenAbilities: ["FRIENDGUARD"],
     category: "Scale",
     moves: [
-      "GUST",
-      "SLEEPPOWDER",
-      "POISONPOWDER",
-      "STUNSPORE",
-      "STRUGGLEBUG",
-      "LIGHTSCREEN",
-      "PSYBEAM",
-      "SUPERSONIC",
-      "DRAININGKISS",
-      "SAFEGUARD",
-      "BUGBUZZ",
-      "QUIVERDANCE",
-      "HURRICANE",
+      {
+        level: 0,
+        move: "GUST",
+      },
+      {
+        level: 1,
+        move: "SLEEPPOWDER",
+      },
+      {
+        level: 1,
+        move: "POISONPOWDER",
+      },
+      {
+        level: 1,
+        move: "STUNSPORE",
+      },
+      {
+        level: 1,
+        move: "STRUGGLEBUG",
+      },
+      {
+        level: 12,
+        move: "LIGHTSCREEN",
+      },
+      {
+        level: 17,
+        move: "PSYBEAM",
+      },
+      {
+        level: 21,
+        move: "SUPERSONIC",
+      },
+      {
+        level: 25,
+        move: "DRAININGKISS",
+      },
+      {
+        level: 31,
+        move: "SAFEGUARD",
+      },
+      {
+        level: 35,
+        move: "BUGBUZZ",
+      },
+      {
+        level: 45,
+        move: "QUIVERDANCE",
+      },
+      {
+        level: 50,
+        move: "HURRICANE",
+      },
     ],
     tutorMoves: [
       "ACROBATICS",
@@ -25768,19 +34442,58 @@ export const pokemonForms: PokemonForm[] = [
     hiddenAbilities: ["FRIENDGUARD"],
     category: "Scale",
     moves: [
-      "GUST",
-      "SLEEPPOWDER",
-      "POISONPOWDER",
-      "STUNSPORE",
-      "STRUGGLEBUG",
-      "LIGHTSCREEN",
-      "PSYBEAM",
-      "SUPERSONIC",
-      "DRAININGKISS",
-      "SAFEGUARD",
-      "BUGBUZZ",
-      "QUIVERDANCE",
-      "HURRICANE",
+      {
+        level: 0,
+        move: "GUST",
+      },
+      {
+        level: 1,
+        move: "SLEEPPOWDER",
+      },
+      {
+        level: 1,
+        move: "POISONPOWDER",
+      },
+      {
+        level: 1,
+        move: "STUNSPORE",
+      },
+      {
+        level: 1,
+        move: "STRUGGLEBUG",
+      },
+      {
+        level: 12,
+        move: "LIGHTSCREEN",
+      },
+      {
+        level: 17,
+        move: "PSYBEAM",
+      },
+      {
+        level: 21,
+        move: "SUPERSONIC",
+      },
+      {
+        level: 25,
+        move: "DRAININGKISS",
+      },
+      {
+        level: 31,
+        move: "SAFEGUARD",
+      },
+      {
+        level: 35,
+        move: "BUGBUZZ",
+      },
+      {
+        level: 45,
+        move: "QUIVERDANCE",
+      },
+      {
+        level: 50,
+        move: "HURRICANE",
+      },
     ],
     tutorMoves: [
       "ACROBATICS",
@@ -25871,19 +34584,58 @@ export const pokemonForms: PokemonForm[] = [
     hiddenAbilities: ["FRIENDGUARD"],
     category: "Scale",
     moves: [
-      "GUST",
-      "SLEEPPOWDER",
-      "POISONPOWDER",
-      "STUNSPORE",
-      "STRUGGLEBUG",
-      "LIGHTSCREEN",
-      "PSYBEAM",
-      "SUPERSONIC",
-      "DRAININGKISS",
-      "SAFEGUARD",
-      "BUGBUZZ",
-      "QUIVERDANCE",
-      "HURRICANE",
+      {
+        level: 0,
+        move: "GUST",
+      },
+      {
+        level: 1,
+        move: "SLEEPPOWDER",
+      },
+      {
+        level: 1,
+        move: "POISONPOWDER",
+      },
+      {
+        level: 1,
+        move: "STUNSPORE",
+      },
+      {
+        level: 1,
+        move: "STRUGGLEBUG",
+      },
+      {
+        level: 12,
+        move: "LIGHTSCREEN",
+      },
+      {
+        level: 17,
+        move: "PSYBEAM",
+      },
+      {
+        level: 21,
+        move: "SUPERSONIC",
+      },
+      {
+        level: 25,
+        move: "DRAININGKISS",
+      },
+      {
+        level: 31,
+        move: "SAFEGUARD",
+      },
+      {
+        level: 35,
+        move: "BUGBUZZ",
+      },
+      {
+        level: 45,
+        move: "QUIVERDANCE",
+      },
+      {
+        level: 50,
+        move: "HURRICANE",
+      },
     ],
     tutorMoves: [
       "ACROBATICS",
@@ -25974,20 +34726,62 @@ export const pokemonForms: PokemonForm[] = [
     hiddenAbilities: ["SYMBIOSIS"],
     category: "Single Bloom",
     moves: [
-      "TACKLE",
-      "VINEWHIP",
-      "FAIRYWIND",
-      "SAFEGUARD",
-      "RAZORLEAF",
-      "WISH",
-      "MAGICALLEAF",
-      "GRASSYTERRAIN",
-      "PETALBLIZZARD",
-      "SYNTHESIS",
-      "MISTYTERRAIN",
-      "MOONBLAST",
-      "PETALDANCE",
-      "SOLARBEAM",
+      {
+        level: 1,
+        move: "TACKLE",
+      },
+      {
+        level: 1,
+        move: "VINEWHIP",
+      },
+      {
+        level: 6,
+        move: "FAIRYWIND",
+      },
+      {
+        level: 10,
+        move: "SAFEGUARD",
+      },
+      {
+        level: 15,
+        move: "RAZORLEAF",
+      },
+      {
+        level: 20,
+        move: "WISH",
+      },
+      {
+        level: 22,
+        move: "MAGICALLEAF",
+      },
+      {
+        level: 24,
+        move: "GRASSYTERRAIN",
+      },
+      {
+        level: 28,
+        move: "PETALBLIZZARD",
+      },
+      {
+        level: 33,
+        move: "SYNTHESIS",
+      },
+      {
+        level: 37,
+        move: "MISTYTERRAIN",
+      },
+      {
+        level: 41,
+        move: "MOONBLAST",
+      },
+      {
+        level: 45,
+        move: "PETALDANCE",
+      },
+      {
+        level: 48,
+        move: "SOLARBEAM",
+      },
     ],
     tutorMoves: [
       "AFTERYOU",
@@ -26086,20 +34880,62 @@ export const pokemonForms: PokemonForm[] = [
     hiddenAbilities: ["SYMBIOSIS"],
     category: "Single Bloom",
     moves: [
-      "TACKLE",
-      "VINEWHIP",
-      "FAIRYWIND",
-      "SAFEGUARD",
-      "RAZORLEAF",
-      "WISH",
-      "MAGICALLEAF",
-      "GRASSYTERRAIN",
-      "PETALBLIZZARD",
-      "SYNTHESIS",
-      "MISTYTERRAIN",
-      "MOONBLAST",
-      "PETALDANCE",
-      "SOLARBEAM",
+      {
+        level: 1,
+        move: "TACKLE",
+      },
+      {
+        level: 1,
+        move: "VINEWHIP",
+      },
+      {
+        level: 6,
+        move: "FAIRYWIND",
+      },
+      {
+        level: 10,
+        move: "SAFEGUARD",
+      },
+      {
+        level: 15,
+        move: "RAZORLEAF",
+      },
+      {
+        level: 20,
+        move: "WISH",
+      },
+      {
+        level: 22,
+        move: "MAGICALLEAF",
+      },
+      {
+        level: 24,
+        move: "GRASSYTERRAIN",
+      },
+      {
+        level: 28,
+        move: "PETALBLIZZARD",
+      },
+      {
+        level: 33,
+        move: "SYNTHESIS",
+      },
+      {
+        level: 37,
+        move: "MISTYTERRAIN",
+      },
+      {
+        level: 41,
+        move: "MOONBLAST",
+      },
+      {
+        level: 45,
+        move: "PETALDANCE",
+      },
+      {
+        level: 48,
+        move: "SOLARBEAM",
+      },
     ],
     tutorMoves: [
       "AFTERYOU",
@@ -26198,20 +35034,62 @@ export const pokemonForms: PokemonForm[] = [
     hiddenAbilities: ["SYMBIOSIS"],
     category: "Single Bloom",
     moves: [
-      "TACKLE",
-      "VINEWHIP",
-      "FAIRYWIND",
-      "SAFEGUARD",
-      "RAZORLEAF",
-      "WISH",
-      "MAGICALLEAF",
-      "GRASSYTERRAIN",
-      "PETALBLIZZARD",
-      "SYNTHESIS",
-      "MISTYTERRAIN",
-      "MOONBLAST",
-      "PETALDANCE",
-      "SOLARBEAM",
+      {
+        level: 1,
+        move: "TACKLE",
+      },
+      {
+        level: 1,
+        move: "VINEWHIP",
+      },
+      {
+        level: 6,
+        move: "FAIRYWIND",
+      },
+      {
+        level: 10,
+        move: "SAFEGUARD",
+      },
+      {
+        level: 15,
+        move: "RAZORLEAF",
+      },
+      {
+        level: 20,
+        move: "WISH",
+      },
+      {
+        level: 22,
+        move: "MAGICALLEAF",
+      },
+      {
+        level: 24,
+        move: "GRASSYTERRAIN",
+      },
+      {
+        level: 28,
+        move: "PETALBLIZZARD",
+      },
+      {
+        level: 33,
+        move: "SYNTHESIS",
+      },
+      {
+        level: 37,
+        move: "MISTYTERRAIN",
+      },
+      {
+        level: 41,
+        move: "MOONBLAST",
+      },
+      {
+        level: 45,
+        move: "PETALDANCE",
+      },
+      {
+        level: 48,
+        move: "SOLARBEAM",
+      },
     ],
     tutorMoves: [
       "AFTERYOU",
@@ -26310,20 +35188,62 @@ export const pokemonForms: PokemonForm[] = [
     hiddenAbilities: ["SYMBIOSIS"],
     category: "Single Bloom",
     moves: [
-      "TACKLE",
-      "VINEWHIP",
-      "FAIRYWIND",
-      "SAFEGUARD",
-      "RAZORLEAF",
-      "WISH",
-      "MAGICALLEAF",
-      "GRASSYTERRAIN",
-      "PETALBLIZZARD",
-      "SYNTHESIS",
-      "MISTYTERRAIN",
-      "MOONBLAST",
-      "PETALDANCE",
-      "SOLARBEAM",
+      {
+        level: 1,
+        move: "TACKLE",
+      },
+      {
+        level: 1,
+        move: "VINEWHIP",
+      },
+      {
+        level: 6,
+        move: "FAIRYWIND",
+      },
+      {
+        level: 10,
+        move: "SAFEGUARD",
+      },
+      {
+        level: 15,
+        move: "RAZORLEAF",
+      },
+      {
+        level: 20,
+        move: "WISH",
+      },
+      {
+        level: 22,
+        move: "MAGICALLEAF",
+      },
+      {
+        level: 24,
+        move: "GRASSYTERRAIN",
+      },
+      {
+        level: 28,
+        move: "PETALBLIZZARD",
+      },
+      {
+        level: 33,
+        move: "SYNTHESIS",
+      },
+      {
+        level: 37,
+        move: "MISTYTERRAIN",
+      },
+      {
+        level: 41,
+        move: "MOONBLAST",
+      },
+      {
+        level: 45,
+        move: "PETALDANCE",
+      },
+      {
+        level: 48,
+        move: "SOLARBEAM",
+      },
     ],
     tutorMoves: [
       "AFTERYOU",
@@ -26422,20 +35342,62 @@ export const pokemonForms: PokemonForm[] = [
     hiddenAbilities: ["SYMBIOSIS"],
     category: "Single Bloom",
     moves: [
-      "TACKLE",
-      "VINEWHIP",
-      "FAIRYWIND",
-      "SAFEGUARD",
-      "RAZORLEAF",
-      "WISH",
-      "MAGICALLEAF",
-      "GRASSYTERRAIN",
-      "PETALBLIZZARD",
-      "SYNTHESIS",
-      "MISTYTERRAIN",
-      "MOONBLAST",
-      "PETALDANCE",
-      "SOLARBEAM",
+      {
+        level: 1,
+        move: "TACKLE",
+      },
+      {
+        level: 1,
+        move: "VINEWHIP",
+      },
+      {
+        level: 1,
+        move: "FAIRYWIND",
+      },
+      {
+        level: 10,
+        move: "SAFEGUARD",
+      },
+      {
+        level: 15,
+        move: "RAZORLEAF",
+      },
+      {
+        level: 20,
+        move: "WISH",
+      },
+      {
+        level: 25,
+        move: "MAGICALLEAF",
+      },
+      {
+        level: 27,
+        move: "GRASSYTERRAIN",
+      },
+      {
+        level: 33,
+        move: "PETALBLIZZARD",
+      },
+      {
+        level: 38,
+        move: "SYNTHESIS",
+      },
+      {
+        level: 43,
+        move: "MISTYTERRAIN",
+      },
+      {
+        level: 46,
+        move: "MOONBLAST",
+      },
+      {
+        level: 51,
+        move: "PETALDANCE",
+      },
+      {
+        level: 58,
+        move: "SOLARBEAM",
+      },
     ],
     tutorMoves: [
       "AFTERYOU",
@@ -26537,20 +35499,62 @@ export const pokemonForms: PokemonForm[] = [
     hiddenAbilities: ["SYMBIOSIS"],
     category: "Single Bloom",
     moves: [
-      "TACKLE",
-      "VINEWHIP",
-      "FAIRYWIND",
-      "SAFEGUARD",
-      "RAZORLEAF",
-      "WISH",
-      "MAGICALLEAF",
-      "GRASSYTERRAIN",
-      "PETALBLIZZARD",
-      "SYNTHESIS",
-      "MISTYTERRAIN",
-      "MOONBLAST",
-      "PETALDANCE",
-      "SOLARBEAM",
+      {
+        level: 1,
+        move: "TACKLE",
+      },
+      {
+        level: 1,
+        move: "VINEWHIP",
+      },
+      {
+        level: 1,
+        move: "FAIRYWIND",
+      },
+      {
+        level: 10,
+        move: "SAFEGUARD",
+      },
+      {
+        level: 15,
+        move: "RAZORLEAF",
+      },
+      {
+        level: 20,
+        move: "WISH",
+      },
+      {
+        level: 25,
+        move: "MAGICALLEAF",
+      },
+      {
+        level: 27,
+        move: "GRASSYTERRAIN",
+      },
+      {
+        level: 33,
+        move: "PETALBLIZZARD",
+      },
+      {
+        level: 38,
+        move: "SYNTHESIS",
+      },
+      {
+        level: 43,
+        move: "MISTYTERRAIN",
+      },
+      {
+        level: 46,
+        move: "MOONBLAST",
+      },
+      {
+        level: 51,
+        move: "PETALDANCE",
+      },
+      {
+        level: 58,
+        move: "SOLARBEAM",
+      },
     ],
     tutorMoves: [
       "AFTERYOU",
@@ -26652,20 +35656,62 @@ export const pokemonForms: PokemonForm[] = [
     hiddenAbilities: ["SYMBIOSIS"],
     category: "Single Bloom",
     moves: [
-      "TACKLE",
-      "VINEWHIP",
-      "FAIRYWIND",
-      "SAFEGUARD",
-      "RAZORLEAF",
-      "WISH",
-      "MAGICALLEAF",
-      "GRASSYTERRAIN",
-      "PETALBLIZZARD",
-      "SYNTHESIS",
-      "MISTYTERRAIN",
-      "MOONBLAST",
-      "PETALDANCE",
-      "SOLARBEAM",
+      {
+        level: 1,
+        move: "TACKLE",
+      },
+      {
+        level: 1,
+        move: "VINEWHIP",
+      },
+      {
+        level: 1,
+        move: "FAIRYWIND",
+      },
+      {
+        level: 10,
+        move: "SAFEGUARD",
+      },
+      {
+        level: 15,
+        move: "RAZORLEAF",
+      },
+      {
+        level: 20,
+        move: "WISH",
+      },
+      {
+        level: 25,
+        move: "MAGICALLEAF",
+      },
+      {
+        level: 27,
+        move: "GRASSYTERRAIN",
+      },
+      {
+        level: 33,
+        move: "PETALBLIZZARD",
+      },
+      {
+        level: 38,
+        move: "SYNTHESIS",
+      },
+      {
+        level: 43,
+        move: "MISTYTERRAIN",
+      },
+      {
+        level: 46,
+        move: "MOONBLAST",
+      },
+      {
+        level: 51,
+        move: "PETALDANCE",
+      },
+      {
+        level: 58,
+        move: "SOLARBEAM",
+      },
     ],
     tutorMoves: [
       "AFTERYOU",
@@ -26767,20 +35813,62 @@ export const pokemonForms: PokemonForm[] = [
     hiddenAbilities: ["SYMBIOSIS"],
     category: "Single Bloom",
     moves: [
-      "TACKLE",
-      "VINEWHIP",
-      "FAIRYWIND",
-      "SAFEGUARD",
-      "RAZORLEAF",
-      "WISH",
-      "MAGICALLEAF",
-      "GRASSYTERRAIN",
-      "PETALBLIZZARD",
-      "SYNTHESIS",
-      "MISTYTERRAIN",
-      "MOONBLAST",
-      "PETALDANCE",
-      "SOLARBEAM",
+      {
+        level: 1,
+        move: "TACKLE",
+      },
+      {
+        level: 1,
+        move: "VINEWHIP",
+      },
+      {
+        level: 1,
+        move: "FAIRYWIND",
+      },
+      {
+        level: 10,
+        move: "SAFEGUARD",
+      },
+      {
+        level: 15,
+        move: "RAZORLEAF",
+      },
+      {
+        level: 20,
+        move: "WISH",
+      },
+      {
+        level: 25,
+        move: "MAGICALLEAF",
+      },
+      {
+        level: 27,
+        move: "GRASSYTERRAIN",
+      },
+      {
+        level: 33,
+        move: "PETALBLIZZARD",
+      },
+      {
+        level: 38,
+        move: "SYNTHESIS",
+      },
+      {
+        level: 43,
+        move: "MISTYTERRAIN",
+      },
+      {
+        level: 46,
+        move: "MOONBLAST",
+      },
+      {
+        level: 51,
+        move: "PETALDANCE",
+      },
+      {
+        level: 58,
+        move: "SOLARBEAM",
+      },
     ],
     tutorMoves: [
       "AFTERYOU",
@@ -26882,21 +35970,66 @@ export const pokemonForms: PokemonForm[] = [
     hiddenAbilities: ["SYMBIOSIS"],
     category: "Single Bloom",
     moves: [
-      "TACKLE",
-      "VINEWHIP",
-      "FAIRYWIND",
-      "SAFEGUARD",
-      "RAZORLEAF",
-      "WISH",
-      "MAGICALLEAF",
-      "GRASSYTERRAIN",
-      "PETALBLIZZARD",
-      "SYNTHESIS",
-      "MISTYTERRAIN",
-      "MOONBLAST",
-      "LIGHTOFRUIN",
-      "PETALDANCE",
-      "SOLARBEAM",
+      {
+        level: 1,
+        move: "TACKLE",
+      },
+      {
+        level: 1,
+        move: "VINEWHIP",
+      },
+      {
+        level: 1,
+        move: "FAIRYWIND",
+      },
+      {
+        level: 10,
+        move: "SAFEGUARD",
+      },
+      {
+        level: 15,
+        move: "RAZORLEAF",
+      },
+      {
+        level: 20,
+        move: "WISH",
+      },
+      {
+        level: 25,
+        move: "MAGICALLEAF",
+      },
+      {
+        level: 27,
+        move: "GRASSYTERRAIN",
+      },
+      {
+        level: 33,
+        move: "PETALBLIZZARD",
+      },
+      {
+        level: 38,
+        move: "SYNTHESIS",
+      },
+      {
+        level: 43,
+        move: "MISTYTERRAIN",
+      },
+      {
+        level: 46,
+        move: "MOONBLAST",
+      },
+      {
+        level: 50,
+        move: "LIGHTOFRUIN",
+      },
+      {
+        level: 51,
+        move: "PETALDANCE",
+      },
+      {
+        level: 58,
+        move: "SOLARBEAM",
+      },
     ],
     tutorMoves: [
       "AFTERYOU",
@@ -26998,18 +36131,54 @@ export const pokemonForms: PokemonForm[] = [
     hiddenAbilities: ["SYMBIOSIS"],
     category: "Garden",
     moves: [
-      "DISARMINGVOICE",
-      "SAFEGUARD",
-      "WISH",
-      "MAGICALLEAF",
-      "GRASSKNOT",
-      "GRASSYTERRAIN",
-      "PETALBLIZZARD",
-      "MISTYTERRAIN",
-      "PETALDANCE",
-      "SOLARBEAM",
-      "SYNTHESIS",
-      "MOONBLAST",
+      {
+        level: 1,
+        move: "DISARMINGVOICE",
+      },
+      {
+        level: 1,
+        move: "SAFEGUARD",
+      },
+      {
+        level: 1,
+        move: "WISH",
+      },
+      {
+        level: 1,
+        move: "MAGICALLEAF",
+      },
+      {
+        level: 1,
+        move: "GRASSKNOT",
+      },
+      {
+        level: 1,
+        move: "GRASSYTERRAIN",
+      },
+      {
+        level: 1,
+        move: "PETALBLIZZARD",
+      },
+      {
+        level: 1,
+        move: "MISTYTERRAIN",
+      },
+      {
+        level: 1,
+        move: "PETALDANCE",
+      },
+      {
+        level: 1,
+        move: "SOLARBEAM",
+      },
+      {
+        level: 1,
+        move: "SYNTHESIS",
+      },
+      {
+        level: 5,
+        move: "MOONBLAST",
+      },
     ],
     tutorMoves: [
       "AFTERYOU",
@@ -27110,18 +36279,54 @@ export const pokemonForms: PokemonForm[] = [
     hiddenAbilities: ["SYMBIOSIS"],
     category: "Garden",
     moves: [
-      "DISARMINGVOICE",
-      "SAFEGUARD",
-      "WISH",
-      "MAGICALLEAF",
-      "GRASSKNOT",
-      "GRASSYTERRAIN",
-      "PETALBLIZZARD",
-      "MISTYTERRAIN",
-      "PETALDANCE",
-      "SOLARBEAM",
-      "SYNTHESIS",
-      "MOONBLAST",
+      {
+        level: 1,
+        move: "DISARMINGVOICE",
+      },
+      {
+        level: 1,
+        move: "SAFEGUARD",
+      },
+      {
+        level: 1,
+        move: "WISH",
+      },
+      {
+        level: 1,
+        move: "MAGICALLEAF",
+      },
+      {
+        level: 1,
+        move: "GRASSKNOT",
+      },
+      {
+        level: 1,
+        move: "GRASSYTERRAIN",
+      },
+      {
+        level: 1,
+        move: "PETALBLIZZARD",
+      },
+      {
+        level: 1,
+        move: "MISTYTERRAIN",
+      },
+      {
+        level: 1,
+        move: "PETALDANCE",
+      },
+      {
+        level: 1,
+        move: "SOLARBEAM",
+      },
+      {
+        level: 1,
+        move: "SYNTHESIS",
+      },
+      {
+        level: 5,
+        move: "MOONBLAST",
+      },
     ],
     tutorMoves: [
       "AFTERYOU",
@@ -27222,18 +36427,54 @@ export const pokemonForms: PokemonForm[] = [
     hiddenAbilities: ["SYMBIOSIS"],
     category: "Garden",
     moves: [
-      "DISARMINGVOICE",
-      "SAFEGUARD",
-      "WISH",
-      "MAGICALLEAF",
-      "GRASSKNOT",
-      "GRASSYTERRAIN",
-      "PETALBLIZZARD",
-      "MISTYTERRAIN",
-      "PETALDANCE",
-      "SOLARBEAM",
-      "SYNTHESIS",
-      "MOONBLAST",
+      {
+        level: 1,
+        move: "DISARMINGVOICE",
+      },
+      {
+        level: 1,
+        move: "SAFEGUARD",
+      },
+      {
+        level: 1,
+        move: "WISH",
+      },
+      {
+        level: 1,
+        move: "MAGICALLEAF",
+      },
+      {
+        level: 1,
+        move: "GRASSKNOT",
+      },
+      {
+        level: 1,
+        move: "GRASSYTERRAIN",
+      },
+      {
+        level: 1,
+        move: "PETALBLIZZARD",
+      },
+      {
+        level: 1,
+        move: "MISTYTERRAIN",
+      },
+      {
+        level: 1,
+        move: "PETALDANCE",
+      },
+      {
+        level: 1,
+        move: "SOLARBEAM",
+      },
+      {
+        level: 1,
+        move: "SYNTHESIS",
+      },
+      {
+        level: 5,
+        move: "MOONBLAST",
+      },
     ],
     tutorMoves: [
       "AFTERYOU",
@@ -27334,18 +36575,54 @@ export const pokemonForms: PokemonForm[] = [
     hiddenAbilities: ["SYMBIOSIS"],
     category: "Garden",
     moves: [
-      "DISARMINGVOICE",
-      "SAFEGUARD",
-      "WISH",
-      "MAGICALLEAF",
-      "GRASSKNOT",
-      "GRASSYTERRAIN",
-      "PETALBLIZZARD",
-      "MISTYTERRAIN",
-      "PETALDANCE",
-      "SOLARBEAM",
-      "SYNTHESIS",
-      "MOONBLAST",
+      {
+        level: 1,
+        move: "DISARMINGVOICE",
+      },
+      {
+        level: 1,
+        move: "SAFEGUARD",
+      },
+      {
+        level: 1,
+        move: "WISH",
+      },
+      {
+        level: 1,
+        move: "MAGICALLEAF",
+      },
+      {
+        level: 1,
+        move: "GRASSKNOT",
+      },
+      {
+        level: 1,
+        move: "GRASSYTERRAIN",
+      },
+      {
+        level: 1,
+        move: "PETALBLIZZARD",
+      },
+      {
+        level: 1,
+        move: "MISTYTERRAIN",
+      },
+      {
+        level: 1,
+        move: "PETALDANCE",
+      },
+      {
+        level: 1,
+        move: "SOLARBEAM",
+      },
+      {
+        level: 1,
+        move: "SYNTHESIS",
+      },
+      {
+        level: 5,
+        move: "MOONBLAST",
+      },
     ],
     tutorMoves: [
       "AFTERYOU",
@@ -27446,19 +36723,58 @@ export const pokemonForms: PokemonForm[] = [
     hiddenAbilities: [],
     category: "Poodle",
     moves: [
-      "TACKLE",
-      "GROWL",
-      "SANDATTACK",
-      "BABYDOLLEYES",
-      "HEADBUTT",
-      "TAILWHIP",
-      "BITE",
-      "ODORSLEUTH",
-      "RETALIATE",
-      "TAKEDOWN",
-      "CHARM",
-      "SUCKERPUNCH",
-      "COTTONGUARD",
+      {
+        level: 1,
+        move: "TACKLE",
+      },
+      {
+        level: 1,
+        move: "GROWL",
+      },
+      {
+        level: 5,
+        move: "SANDATTACK",
+      },
+      {
+        level: 9,
+        move: "BABYDOLLEYES",
+      },
+      {
+        level: 12,
+        move: "HEADBUTT",
+      },
+      {
+        level: 15,
+        move: "TAILWHIP",
+      },
+      {
+        level: 22,
+        move: "BITE",
+      },
+      {
+        level: 27,
+        move: "ODORSLEUTH",
+      },
+      {
+        level: 33,
+        move: "RETALIATE",
+      },
+      {
+        level: 35,
+        move: "TAKEDOWN",
+      },
+      {
+        level: 38,
+        move: "CHARM",
+      },
+      {
+        level: 42,
+        move: "SUCKERPUNCH",
+      },
+      {
+        level: 48,
+        move: "COTTONGUARD",
+      },
     ],
     tutorMoves: [
       "ATTRACT",
@@ -27539,19 +36855,58 @@ export const pokemonForms: PokemonForm[] = [
     hiddenAbilities: [],
     category: "Poodle",
     moves: [
-      "TACKLE",
-      "GROWL",
-      "SANDATTACK",
-      "BABYDOLLEYES",
-      "HEADBUTT",
-      "TAILWHIP",
-      "BITE",
-      "ODORSLEUTH",
-      "RETALIATE",
-      "TAKEDOWN",
-      "CHARM",
-      "SUCKERPUNCH",
-      "COTTONGUARD",
+      {
+        level: 1,
+        move: "TACKLE",
+      },
+      {
+        level: 1,
+        move: "GROWL",
+      },
+      {
+        level: 5,
+        move: "SANDATTACK",
+      },
+      {
+        level: 9,
+        move: "BABYDOLLEYES",
+      },
+      {
+        level: 12,
+        move: "HEADBUTT",
+      },
+      {
+        level: 15,
+        move: "TAILWHIP",
+      },
+      {
+        level: 22,
+        move: "BITE",
+      },
+      {
+        level: 27,
+        move: "ODORSLEUTH",
+      },
+      {
+        level: 33,
+        move: "RETALIATE",
+      },
+      {
+        level: 35,
+        move: "TAKEDOWN",
+      },
+      {
+        level: 38,
+        move: "CHARM",
+      },
+      {
+        level: 42,
+        move: "SUCKERPUNCH",
+      },
+      {
+        level: 48,
+        move: "COTTONGUARD",
+      },
     ],
     tutorMoves: [
       "ATTRACT",
@@ -27632,19 +36987,58 @@ export const pokemonForms: PokemonForm[] = [
     hiddenAbilities: [],
     category: "Poodle",
     moves: [
-      "TACKLE",
-      "GROWL",
-      "SANDATTACK",
-      "BABYDOLLEYES",
-      "HEADBUTT",
-      "TAILWHIP",
-      "BITE",
-      "ODORSLEUTH",
-      "RETALIATE",
-      "TAKEDOWN",
-      "CHARM",
-      "SUCKERPUNCH",
-      "COTTONGUARD",
+      {
+        level: 1,
+        move: "TACKLE",
+      },
+      {
+        level: 1,
+        move: "GROWL",
+      },
+      {
+        level: 5,
+        move: "SANDATTACK",
+      },
+      {
+        level: 9,
+        move: "BABYDOLLEYES",
+      },
+      {
+        level: 12,
+        move: "HEADBUTT",
+      },
+      {
+        level: 15,
+        move: "TAILWHIP",
+      },
+      {
+        level: 22,
+        move: "BITE",
+      },
+      {
+        level: 27,
+        move: "ODORSLEUTH",
+      },
+      {
+        level: 33,
+        move: "RETALIATE",
+      },
+      {
+        level: 35,
+        move: "TAKEDOWN",
+      },
+      {
+        level: 38,
+        move: "CHARM",
+      },
+      {
+        level: 42,
+        move: "SUCKERPUNCH",
+      },
+      {
+        level: 48,
+        move: "COTTONGUARD",
+      },
     ],
     tutorMoves: [
       "ATTRACT",
@@ -27725,19 +37119,58 @@ export const pokemonForms: PokemonForm[] = [
     hiddenAbilities: [],
     category: "Poodle",
     moves: [
-      "TACKLE",
-      "GROWL",
-      "SANDATTACK",
-      "BABYDOLLEYES",
-      "HEADBUTT",
-      "TAILWHIP",
-      "BITE",
-      "ODORSLEUTH",
-      "RETALIATE",
-      "TAKEDOWN",
-      "CHARM",
-      "SUCKERPUNCH",
-      "COTTONGUARD",
+      {
+        level: 1,
+        move: "TACKLE",
+      },
+      {
+        level: 1,
+        move: "GROWL",
+      },
+      {
+        level: 5,
+        move: "SANDATTACK",
+      },
+      {
+        level: 9,
+        move: "BABYDOLLEYES",
+      },
+      {
+        level: 12,
+        move: "HEADBUTT",
+      },
+      {
+        level: 15,
+        move: "TAILWHIP",
+      },
+      {
+        level: 22,
+        move: "BITE",
+      },
+      {
+        level: 27,
+        move: "ODORSLEUTH",
+      },
+      {
+        level: 33,
+        move: "RETALIATE",
+      },
+      {
+        level: 35,
+        move: "TAKEDOWN",
+      },
+      {
+        level: 38,
+        move: "CHARM",
+      },
+      {
+        level: 42,
+        move: "SUCKERPUNCH",
+      },
+      {
+        level: 48,
+        move: "COTTONGUARD",
+      },
     ],
     tutorMoves: [
       "ATTRACT",
@@ -27818,19 +37251,58 @@ export const pokemonForms: PokemonForm[] = [
     hiddenAbilities: [],
     category: "Poodle",
     moves: [
-      "TACKLE",
-      "GROWL",
-      "SANDATTACK",
-      "BABYDOLLEYES",
-      "HEADBUTT",
-      "TAILWHIP",
-      "BITE",
-      "ODORSLEUTH",
-      "RETALIATE",
-      "TAKEDOWN",
-      "CHARM",
-      "SUCKERPUNCH",
-      "COTTONGUARD",
+      {
+        level: 1,
+        move: "TACKLE",
+      },
+      {
+        level: 1,
+        move: "GROWL",
+      },
+      {
+        level: 5,
+        move: "SANDATTACK",
+      },
+      {
+        level: 9,
+        move: "BABYDOLLEYES",
+      },
+      {
+        level: 12,
+        move: "HEADBUTT",
+      },
+      {
+        level: 15,
+        move: "TAILWHIP",
+      },
+      {
+        level: 22,
+        move: "BITE",
+      },
+      {
+        level: 27,
+        move: "ODORSLEUTH",
+      },
+      {
+        level: 33,
+        move: "RETALIATE",
+      },
+      {
+        level: 35,
+        move: "TAKEDOWN",
+      },
+      {
+        level: 38,
+        move: "CHARM",
+      },
+      {
+        level: 42,
+        move: "SUCKERPUNCH",
+      },
+      {
+        level: 48,
+        move: "COTTONGUARD",
+      },
     ],
     tutorMoves: [
       "ATTRACT",
@@ -27911,19 +37383,58 @@ export const pokemonForms: PokemonForm[] = [
     hiddenAbilities: [],
     category: "Poodle",
     moves: [
-      "TACKLE",
-      "GROWL",
-      "SANDATTACK",
-      "BABYDOLLEYES",
-      "HEADBUTT",
-      "TAILWHIP",
-      "BITE",
-      "ODORSLEUTH",
-      "RETALIATE",
-      "TAKEDOWN",
-      "CHARM",
-      "SUCKERPUNCH",
-      "COTTONGUARD",
+      {
+        level: 1,
+        move: "TACKLE",
+      },
+      {
+        level: 1,
+        move: "GROWL",
+      },
+      {
+        level: 5,
+        move: "SANDATTACK",
+      },
+      {
+        level: 9,
+        move: "BABYDOLLEYES",
+      },
+      {
+        level: 12,
+        move: "HEADBUTT",
+      },
+      {
+        level: 15,
+        move: "TAILWHIP",
+      },
+      {
+        level: 22,
+        move: "BITE",
+      },
+      {
+        level: 27,
+        move: "ODORSLEUTH",
+      },
+      {
+        level: 33,
+        move: "RETALIATE",
+      },
+      {
+        level: 35,
+        move: "TAKEDOWN",
+      },
+      {
+        level: 38,
+        move: "CHARM",
+      },
+      {
+        level: 42,
+        move: "SUCKERPUNCH",
+      },
+      {
+        level: 48,
+        move: "COTTONGUARD",
+      },
     ],
     tutorMoves: [
       "ATTRACT",
@@ -28004,19 +37515,58 @@ export const pokemonForms: PokemonForm[] = [
     hiddenAbilities: [],
     category: "Poodle",
     moves: [
-      "TACKLE",
-      "GROWL",
-      "SANDATTACK",
-      "BABYDOLLEYES",
-      "HEADBUTT",
-      "TAILWHIP",
-      "BITE",
-      "ODORSLEUTH",
-      "RETALIATE",
-      "TAKEDOWN",
-      "CHARM",
-      "SUCKERPUNCH",
-      "COTTONGUARD",
+      {
+        level: 1,
+        move: "TACKLE",
+      },
+      {
+        level: 1,
+        move: "GROWL",
+      },
+      {
+        level: 5,
+        move: "SANDATTACK",
+      },
+      {
+        level: 9,
+        move: "BABYDOLLEYES",
+      },
+      {
+        level: 12,
+        move: "HEADBUTT",
+      },
+      {
+        level: 15,
+        move: "TAILWHIP",
+      },
+      {
+        level: 22,
+        move: "BITE",
+      },
+      {
+        level: 27,
+        move: "ODORSLEUTH",
+      },
+      {
+        level: 33,
+        move: "RETALIATE",
+      },
+      {
+        level: 35,
+        move: "TAKEDOWN",
+      },
+      {
+        level: 38,
+        move: "CHARM",
+      },
+      {
+        level: 42,
+        move: "SUCKERPUNCH",
+      },
+      {
+        level: 48,
+        move: "COTTONGUARD",
+      },
     ],
     tutorMoves: [
       "ATTRACT",
@@ -28097,19 +37647,58 @@ export const pokemonForms: PokemonForm[] = [
     hiddenAbilities: [],
     category: "Poodle",
     moves: [
-      "TACKLE",
-      "GROWL",
-      "SANDATTACK",
-      "BABYDOLLEYES",
-      "HEADBUTT",
-      "TAILWHIP",
-      "BITE",
-      "ODORSLEUTH",
-      "RETALIATE",
-      "TAKEDOWN",
-      "CHARM",
-      "SUCKERPUNCH",
-      "COTTONGUARD",
+      {
+        level: 1,
+        move: "TACKLE",
+      },
+      {
+        level: 1,
+        move: "GROWL",
+      },
+      {
+        level: 5,
+        move: "SANDATTACK",
+      },
+      {
+        level: 9,
+        move: "BABYDOLLEYES",
+      },
+      {
+        level: 12,
+        move: "HEADBUTT",
+      },
+      {
+        level: 15,
+        move: "TAILWHIP",
+      },
+      {
+        level: 22,
+        move: "BITE",
+      },
+      {
+        level: 27,
+        move: "ODORSLEUTH",
+      },
+      {
+        level: 33,
+        move: "RETALIATE",
+      },
+      {
+        level: 35,
+        move: "TAKEDOWN",
+      },
+      {
+        level: 38,
+        move: "CHARM",
+      },
+      {
+        level: 42,
+        move: "SUCKERPUNCH",
+      },
+      {
+        level: 48,
+        move: "COTTONGUARD",
+      },
     ],
     tutorMoves: [
       "ATTRACT",
@@ -28190,19 +37779,58 @@ export const pokemonForms: PokemonForm[] = [
     hiddenAbilities: [],
     category: "Poodle",
     moves: [
-      "TACKLE",
-      "GROWL",
-      "SANDATTACK",
-      "BABYDOLLEYES",
-      "HEADBUTT",
-      "TAILWHIP",
-      "BITE",
-      "ODORSLEUTH",
-      "RETALIATE",
-      "TAKEDOWN",
-      "CHARM",
-      "SUCKERPUNCH",
-      "COTTONGUARD",
+      {
+        level: 1,
+        move: "TACKLE",
+      },
+      {
+        level: 1,
+        move: "GROWL",
+      },
+      {
+        level: 5,
+        move: "SANDATTACK",
+      },
+      {
+        level: 9,
+        move: "BABYDOLLEYES",
+      },
+      {
+        level: 12,
+        move: "HEADBUTT",
+      },
+      {
+        level: 15,
+        move: "TAILWHIP",
+      },
+      {
+        level: 22,
+        move: "BITE",
+      },
+      {
+        level: 27,
+        move: "ODORSLEUTH",
+      },
+      {
+        level: 33,
+        move: "RETALIATE",
+      },
+      {
+        level: 35,
+        move: "TAKEDOWN",
+      },
+      {
+        level: 38,
+        move: "CHARM",
+      },
+      {
+        level: 42,
+        move: "SUCKERPUNCH",
+      },
+      {
+        level: 48,
+        move: "COTTONGUARD",
+      },
     ],
     tutorMoves: [
       "ATTRACT",
@@ -28283,25 +37911,82 @@ export const pokemonForms: PokemonForm[] = [
     hiddenAbilities: ["COMPETITIVE"],
     category: "Constraint",
     moves: [
-      "MAGICALLEAF",
-      "SCRATCH",
-      "LEER",
-      "FAKEOUT",
-      "DISARMINGVOICE",
-      "CONFUSION",
-      "STOREDPOWER",
-      "CHARGEBEAM",
-      "COVET",
-      "PSYBEAM",
-      "SUCKERPUNCH",
-      "ROLEPLAY",
-      "LIGHTSCREEN",
-      "REFLECT",
-      "PSYSHOCK",
-      "EXTRASENSORY",
-      "SHADOWBALL",
-      "PSYCHIC",
-      "FUTURESIGHT",
+      {
+        level: 1,
+        move: "MAGICALLEAF",
+      },
+      {
+        level: 1,
+        move: "SCRATCH",
+      },
+      {
+        level: 1,
+        move: "LEER",
+      },
+      {
+        level: 1,
+        move: "FAKEOUT",
+      },
+      {
+        level: 1,
+        move: "DISARMINGVOICE",
+      },
+      {
+        level: 9,
+        move: "CONFUSION",
+      },
+      {
+        level: 12,
+        move: "STOREDPOWER",
+      },
+      {
+        level: 15,
+        move: "CHARGEBEAM",
+      },
+      {
+        level: 18,
+        move: "COVET",
+      },
+      {
+        level: 21,
+        move: "PSYBEAM",
+      },
+      {
+        level: 24,
+        move: "SUCKERPUNCH",
+      },
+      {
+        level: 29,
+        move: "ROLEPLAY",
+      },
+      {
+        level: 34,
+        move: "LIGHTSCREEN",
+      },
+      {
+        level: 34,
+        move: "REFLECT",
+      },
+      {
+        level: 39,
+        move: "PSYSHOCK",
+      },
+      {
+        level: 44,
+        move: "EXTRASENSORY",
+      },
+      {
+        level: 49,
+        move: "SHADOWBALL",
+      },
+      {
+        level: 54,
+        move: "PSYCHIC",
+      },
+      {
+        level: 59,
+        move: "FUTURESIGHT",
+      },
     ],
     tutorMoves: [
       "ALLURINGVOICE",
@@ -28419,22 +38104,70 @@ export const pokemonForms: PokemonForm[] = [
     hiddenAbilities: [],
     category: "Royal Sword",
     moves: [
-      "KINGSSHIELD",
-      "HEADSMASH",
-      "AERIALACE",
-      "METALSOUND",
-      "SLASH",
-      "NIGHTSLASH",
-      "RETALIATE",
-      "IRONDEFENSE",
-      "IRONHEAD",
-      "POWERTRICK",
-      "SWORDSDANCE",
-      "SACREDSWORD",
-      "TACKLE",
-      "FURYCUTTER",
-      "SHADOWSNEAK",
-      "AUTOTOMIZE",
+      {
+        level: 0,
+        move: "KINGSSHIELD",
+      },
+      {
+        level: 1,
+        move: "HEADSMASH",
+      },
+      {
+        level: 1,
+        move: "AERIALACE",
+      },
+      {
+        level: 1,
+        move: "METALSOUND",
+      },
+      {
+        level: 1,
+        move: "SLASH",
+      },
+      {
+        level: 1,
+        move: "NIGHTSLASH",
+      },
+      {
+        level: 1,
+        move: "RETALIATE",
+      },
+      {
+        level: 1,
+        move: "IRONDEFENSE",
+      },
+      {
+        level: 1,
+        move: "IRONHEAD",
+      },
+      {
+        level: 1,
+        move: "POWERTRICK",
+      },
+      {
+        level: 1,
+        move: "SWORDSDANCE",
+      },
+      {
+        level: 1,
+        move: "SACREDSWORD",
+      },
+      {
+        level: 1,
+        move: "TACKLE",
+      },
+      {
+        level: 1,
+        move: "FURYCUTTER",
+      },
+      {
+        level: 1,
+        move: "SHADOWSNEAK",
+      },
+      {
+        level: 1,
+        move: "AUTOTOMIZE",
+      },
     ],
     tutorMoves: [
       "AERIALACE",
@@ -28522,20 +38255,62 @@ export const pokemonForms: PokemonForm[] = [
     hiddenAbilities: ["GOOEY"],
     category: "Snail",
     moves: [
-      "SHELTER",
-      "ACIDARMOR",
-      "ABSORB",
-      "TACKLE",
-      "WATERGUN",
-      "DRAGONBREATH",
-      "PROTECT",
-      "FLAIL",
-      "WATERPULSE",
-      "RAINDANCE",
-      "DRAGONPULSE",
-      "CURSE",
-      "IRONHEAD",
-      "MUDDYWATER",
+      {
+        level: 0,
+        move: "SHELTER",
+      },
+      {
+        level: 1,
+        move: "ACIDARMOR",
+      },
+      {
+        level: 1,
+        move: "ABSORB",
+      },
+      {
+        level: 1,
+        move: "TACKLE",
+      },
+      {
+        level: 1,
+        move: "WATERGUN",
+      },
+      {
+        level: 1,
+        move: "DRAGONBREATH",
+      },
+      {
+        level: 15,
+        move: "PROTECT",
+      },
+      {
+        level: 20,
+        move: "FLAIL",
+      },
+      {
+        level: 25,
+        move: "WATERPULSE",
+      },
+      {
+        level: 30,
+        move: "RAINDANCE",
+      },
+      {
+        level: 35,
+        move: "DRAGONPULSE",
+      },
+      {
+        level: 43,
+        move: "CURSE",
+      },
+      {
+        level: 49,
+        move: "IRONHEAD",
+      },
+      {
+        level: 56,
+        move: "MUDDYWATER",
+      },
     ],
     tutorMoves: [
       "ACIDSPRAY",
@@ -28613,25 +38388,82 @@ export const pokemonForms: PokemonForm[] = [
     hiddenAbilities: ["GOOEY"],
     category: "Shell Bunker",
     moves: [
-      "IRONTAIL",
-      "SHELTER",
-      "ACIDSPRAY",
-      "TEARFULLOOK",
-      "FEINT",
-      "ABSORB",
-      "TACKLE",
-      "WATERGUN",
-      "DRAGONBREATH",
-      "PROTECT",
-      "FLAIL",
-      "WATERPULSE",
-      "RAINDANCE",
-      "DRAGONPULSE",
-      "CURSE",
-      "IRONHEAD",
-      "BODYSLAM",
-      "MUDDYWATER",
-      "HEAVYSLAM",
+      {
+        level: 0,
+        move: "IRONTAIL",
+      },
+      {
+        level: 1,
+        move: "SHELTER",
+      },
+      {
+        level: 1,
+        move: "ACIDSPRAY",
+      },
+      {
+        level: 1,
+        move: "TEARFULLOOK",
+      },
+      {
+        level: 1,
+        move: "FEINT",
+      },
+      {
+        level: 1,
+        move: "ABSORB",
+      },
+      {
+        level: 1,
+        move: "TACKLE",
+      },
+      {
+        level: 1,
+        move: "WATERGUN",
+      },
+      {
+        level: 1,
+        move: "DRAGONBREATH",
+      },
+      {
+        level: 15,
+        move: "PROTECT",
+      },
+      {
+        level: 20,
+        move: "FLAIL",
+      },
+      {
+        level: 25,
+        move: "WATERPULSE",
+      },
+      {
+        level: 30,
+        move: "RAINDANCE",
+      },
+      {
+        level: 35,
+        move: "DRAGONPULSE",
+      },
+      {
+        level: 43,
+        move: "CURSE",
+      },
+      {
+        level: 49,
+        move: "IRONHEAD",
+      },
+      {
+        level: 49,
+        move: "BODYSLAM",
+      },
+      {
+        level: 58,
+        move: "MUDDYWATER",
+      },
+      {
+        level: 67,
+        move: "HEAVYSLAM",
+      },
     ],
     tutorMoves: [
       "ACIDSPRAY",
@@ -28723,22 +38555,70 @@ export const pokemonForms: PokemonForm[] = [
     hiddenAbilities: ["INSOMNIA"],
     category: "Pumpkin",
     moves: [
-      "TRICKORTREAT",
-      "ASTONISH",
-      "SHADOWSNEAK",
-      "CONFUSERAY",
-      "TRICKORTREAT",
-      "RAZORLEAF",
-      "LEECHSEED",
-      "BULLETSEED",
-      "TRICKORTREAT",
-      "SCARYFACE",
-      "WORRYSEED",
-      "SEEDBOMB",
-      "TRICKORTREAT",
-      "SHADOWBALL",
-      "TRICK",
-      "PAINSPLIT",
+      {
+        level: 1,
+        move: "TRICKORTREAT",
+      },
+      {
+        level: 1,
+        move: "ASTONISH",
+      },
+      {
+        level: 4,
+        move: "SHADOWSNEAK",
+      },
+      {
+        level: 8,
+        move: "CONFUSERAY",
+      },
+      {
+        level: 12,
+        move: "TRICKORTREAT",
+      },
+      {
+        level: 12,
+        move: "RAZORLEAF",
+      },
+      {
+        level: 16,
+        move: "LEECHSEED",
+      },
+      {
+        level: 20,
+        move: "BULLETSEED",
+      },
+      {
+        level: 24,
+        move: "TRICKORTREAT",
+      },
+      {
+        level: 24,
+        move: "SCARYFACE",
+      },
+      {
+        level: 28,
+        move: "WORRYSEED",
+      },
+      {
+        level: 32,
+        move: "SEEDBOMB",
+      },
+      {
+        level: 36,
+        move: "TRICKORTREAT",
+      },
+      {
+        level: 36,
+        move: "SHADOWBALL",
+      },
+      {
+        level: 40,
+        move: "TRICK",
+      },
+      {
+        level: 44,
+        move: "PAINSPLIT",
+      },
     ],
     tutorMoves: [
       "ALLYSWITCH",
@@ -28839,22 +38719,70 @@ export const pokemonForms: PokemonForm[] = [
     hiddenAbilities: [],
     category: "Pumpkin",
     moves: [
-      "TRICKORTREAT",
-      "ASTONISH",
-      "SHADOWSNEAK",
-      "CONFUSERAY",
-      "TRICKORTREAT",
-      "RAZORLEAF",
-      "LEECHSEED",
-      "BULLETSEED",
-      "TRICKORTREAT",
-      "SCARYFACE",
-      "WORRYSEED",
-      "SEEDBOMB",
-      "TRICKORTREAT",
-      "SHADOWBALL",
-      "TRICK",
-      "PAINSPLIT",
+      {
+        level: 1,
+        move: "TRICKORTREAT",
+      },
+      {
+        level: 1,
+        move: "ASTONISH",
+      },
+      {
+        level: 4,
+        move: "SHADOWSNEAK",
+      },
+      {
+        level: 8,
+        move: "CONFUSERAY",
+      },
+      {
+        level: 12,
+        move: "TRICKORTREAT",
+      },
+      {
+        level: 12,
+        move: "RAZORLEAF",
+      },
+      {
+        level: 16,
+        move: "LEECHSEED",
+      },
+      {
+        level: 20,
+        move: "BULLETSEED",
+      },
+      {
+        level: 24,
+        move: "TRICKORTREAT",
+      },
+      {
+        level: 24,
+        move: "SCARYFACE",
+      },
+      {
+        level: 28,
+        move: "WORRYSEED",
+      },
+      {
+        level: 32,
+        move: "SEEDBOMB",
+      },
+      {
+        level: 36,
+        move: "TRICKORTREAT",
+      },
+      {
+        level: 36,
+        move: "SHADOWBALL",
+      },
+      {
+        level: 40,
+        move: "TRICK",
+      },
+      {
+        level: 44,
+        move: "PAINSPLIT",
+      },
     ],
     tutorMoves: [
       "ALLYSWITCH",
@@ -28955,22 +38883,70 @@ export const pokemonForms: PokemonForm[] = [
     hiddenAbilities: ["INSOMNIA"],
     category: "Pumpkin",
     moves: [
-      "TRICKORTREAT",
-      "ASTONISH",
-      "SHADOWSNEAK",
-      "CONFUSERAY",
-      "TRICKORTREAT",
-      "RAZORLEAF",
-      "LEECHSEED",
-      "BULLETSEED",
-      "TRICKORTREAT",
-      "SCARYFACE",
-      "WORRYSEED",
-      "SEEDBOMB",
-      "TRICKORTREAT",
-      "SHADOWBALL",
-      "TRICK",
-      "PAINSPLIT",
+      {
+        level: 1,
+        move: "TRICKORTREAT",
+      },
+      {
+        level: 1,
+        move: "ASTONISH",
+      },
+      {
+        level: 4,
+        move: "SHADOWSNEAK",
+      },
+      {
+        level: 8,
+        move: "CONFUSERAY",
+      },
+      {
+        level: 12,
+        move: "TRICKORTREAT",
+      },
+      {
+        level: 12,
+        move: "RAZORLEAF",
+      },
+      {
+        level: 16,
+        move: "LEECHSEED",
+      },
+      {
+        level: 20,
+        move: "BULLETSEED",
+      },
+      {
+        level: 24,
+        move: "TRICKORTREAT",
+      },
+      {
+        level: 24,
+        move: "SCARYFACE",
+      },
+      {
+        level: 28,
+        move: "WORRYSEED",
+      },
+      {
+        level: 32,
+        move: "SEEDBOMB",
+      },
+      {
+        level: 36,
+        move: "TRICKORTREAT",
+      },
+      {
+        level: 36,
+        move: "SHADOWBALL",
+      },
+      {
+        level: 40,
+        move: "TRICK",
+      },
+      {
+        level: 44,
+        move: "PAINSPLIT",
+      },
     ],
     tutorMoves: [
       "ALLYSWITCH",
@@ -29071,25 +39047,82 @@ export const pokemonForms: PokemonForm[] = [
     hiddenAbilities: ["INSOMNIA"],
     category: "Pumpkin",
     moves: [
-      "EXPLOSION",
-      "MOONBLAST",
-      "TRICKORTREAT",
-      "ASTONISH",
-      "SHADOWSNEAK",
-      "CONFUSERAY",
-      "TRICKORTREAT",
-      "RAZORLEAF",
-      "LEECHSEED",
-      "BULLETSEED",
-      "TRICKORTREAT",
-      "SCARYFACE",
-      "WORRYSEED",
-      "SEEDBOMB",
-      "TRICKORTREAT",
-      "SHADOWBALL",
-      "TRICK",
-      "PAINSPLIT",
-      "PHANTOMFORCE",
+      {
+        level: 1,
+        move: "EXPLOSION",
+      },
+      {
+        level: 1,
+        move: "MOONBLAST",
+      },
+      {
+        level: 1,
+        move: "TRICKORTREAT",
+      },
+      {
+        level: 1,
+        move: "ASTONISH",
+      },
+      {
+        level: 1,
+        move: "SHADOWSNEAK",
+      },
+      {
+        level: 1,
+        move: "CONFUSERAY",
+      },
+      {
+        level: 12,
+        move: "TRICKORTREAT",
+      },
+      {
+        level: 12,
+        move: "RAZORLEAF",
+      },
+      {
+        level: 16,
+        move: "LEECHSEED",
+      },
+      {
+        level: 20,
+        move: "BULLETSEED",
+      },
+      {
+        level: 24,
+        move: "TRICKORTREAT",
+      },
+      {
+        level: 24,
+        move: "SCARYFACE",
+      },
+      {
+        level: 28,
+        move: "WORRYSEED",
+      },
+      {
+        level: 32,
+        move: "SEEDBOMB",
+      },
+      {
+        level: 36,
+        move: "TRICKORTREAT",
+      },
+      {
+        level: 36,
+        move: "SHADOWBALL",
+      },
+      {
+        level: 40,
+        move: "TRICK",
+      },
+      {
+        level: 44,
+        move: "PAINSPLIT",
+      },
+      {
+        level: 48,
+        move: "PHANTOMFORCE",
+      },
     ],
     tutorMoves: [
       "ALLYSWITCH",
@@ -29197,25 +39230,82 @@ export const pokemonForms: PokemonForm[] = [
     hiddenAbilities: [],
     category: "Pumpkin",
     moves: [
-      "EXPLOSION",
-      "MOONBLAST",
-      "TRICKORTREAT",
-      "ASTONISH",
-      "SHADOWSNEAK",
-      "CONFUSERAY",
-      "TRICKORTREAT",
-      "RAZORLEAF",
-      "LEECHSEED",
-      "BULLETSEED",
-      "TRICKORTREAT",
-      "SCARYFACE",
-      "WORRYSEED",
-      "SEEDBOMB",
-      "TRICKORTREAT",
-      "SHADOWBALL",
-      "TRICK",
-      "PAINSPLIT",
-      "PHANTOMFORCE",
+      {
+        level: 1,
+        move: "EXPLOSION",
+      },
+      {
+        level: 1,
+        move: "MOONBLAST",
+      },
+      {
+        level: 1,
+        move: "TRICKORTREAT",
+      },
+      {
+        level: 1,
+        move: "ASTONISH",
+      },
+      {
+        level: 1,
+        move: "SHADOWSNEAK",
+      },
+      {
+        level: 1,
+        move: "CONFUSERAY",
+      },
+      {
+        level: 12,
+        move: "TRICKORTREAT",
+      },
+      {
+        level: 12,
+        move: "RAZORLEAF",
+      },
+      {
+        level: 16,
+        move: "LEECHSEED",
+      },
+      {
+        level: 20,
+        move: "BULLETSEED",
+      },
+      {
+        level: 24,
+        move: "TRICKORTREAT",
+      },
+      {
+        level: 24,
+        move: "SCARYFACE",
+      },
+      {
+        level: 28,
+        move: "WORRYSEED",
+      },
+      {
+        level: 32,
+        move: "SEEDBOMB",
+      },
+      {
+        level: 36,
+        move: "TRICKORTREAT",
+      },
+      {
+        level: 36,
+        move: "SHADOWBALL",
+      },
+      {
+        level: 40,
+        move: "TRICK",
+      },
+      {
+        level: 44,
+        move: "PAINSPLIT",
+      },
+      {
+        level: 48,
+        move: "PHANTOMFORCE",
+      },
     ],
     tutorMoves: [
       "ALLYSWITCH",
@@ -29323,25 +39413,82 @@ export const pokemonForms: PokemonForm[] = [
     hiddenAbilities: ["INSOMNIA"],
     category: "Pumpkin",
     moves: [
-      "EXPLOSION",
-      "MOONBLAST",
-      "TRICKORTREAT",
-      "ASTONISH",
-      "SHADOWSNEAK",
-      "CONFUSERAY",
-      "TRICKORTREAT",
-      "RAZORLEAF",
-      "LEECHSEED",
-      "BULLETSEED",
-      "TRICKORTREAT",
-      "SCARYFACE",
-      "WORRYSEED",
-      "SEEDBOMB",
-      "TRICKORTREAT",
-      "SHADOWBALL",
-      "TRICK",
-      "PAINSPLIT",
-      "PHANTOMFORCE",
+      {
+        level: 1,
+        move: "EXPLOSION",
+      },
+      {
+        level: 1,
+        move: "MOONBLAST",
+      },
+      {
+        level: 1,
+        move: "TRICKORTREAT",
+      },
+      {
+        level: 1,
+        move: "ASTONISH",
+      },
+      {
+        level: 1,
+        move: "SHADOWSNEAK",
+      },
+      {
+        level: 1,
+        move: "CONFUSERAY",
+      },
+      {
+        level: 12,
+        move: "TRICKORTREAT",
+      },
+      {
+        level: 12,
+        move: "RAZORLEAF",
+      },
+      {
+        level: 16,
+        move: "LEECHSEED",
+      },
+      {
+        level: 20,
+        move: "BULLETSEED",
+      },
+      {
+        level: 24,
+        move: "TRICKORTREAT",
+      },
+      {
+        level: 24,
+        move: "SCARYFACE",
+      },
+      {
+        level: 28,
+        move: "WORRYSEED",
+      },
+      {
+        level: 32,
+        move: "SEEDBOMB",
+      },
+      {
+        level: 36,
+        move: "TRICKORTREAT",
+      },
+      {
+        level: 36,
+        move: "SHADOWBALL",
+      },
+      {
+        level: 40,
+        move: "TRICK",
+      },
+      {
+        level: 44,
+        move: "PAINSPLIT",
+      },
+      {
+        level: 48,
+        move: "PHANTOMFORCE",
+      },
     ],
     tutorMoves: [
       "ALLYSWITCH",
@@ -29449,26 +39596,86 @@ export const pokemonForms: PokemonForm[] = [
     hiddenAbilities: ["STURDY"],
     category: "Iceberg",
     moves: [
-      "ROCKSLIDE",
-      "WIDEGUARD",
-      "RAPIDSPIN",
-      "HARDEN",
-      "TACKLE",
-      "POWDERSNOW",
-      "CURSE",
-      "ICYWIND",
-      "PROTECT",
-      "AVALANCHE",
-      "BITE",
-      "ICEFANG",
-      "IRONDEFENSE",
-      "RECOVER",
-      "CRUNCH",
-      "TAKEDOWN",
-      "BLIZZARD",
-      "DOUBLEEDGE",
-      "STONEEDGE",
-      "MOUNTAINGALE",
+      {
+        level: 0,
+        move: "ROCKSLIDE",
+      },
+      {
+        level: 1,
+        move: "WIDEGUARD",
+      },
+      {
+        level: 1,
+        move: "RAPIDSPIN",
+      },
+      {
+        level: 1,
+        move: "HARDEN",
+      },
+      {
+        level: 1,
+        move: "TACKLE",
+      },
+      {
+        level: 1,
+        move: "POWDERSNOW",
+      },
+      {
+        level: 9,
+        move: "CURSE",
+      },
+      {
+        level: 12,
+        move: "ICYWIND",
+      },
+      {
+        level: 15,
+        move: "PROTECT",
+      },
+      {
+        level: 18,
+        move: "AVALANCHE",
+      },
+      {
+        level: 21,
+        move: "BITE",
+      },
+      {
+        level: 24,
+        move: "ICEFANG",
+      },
+      {
+        level: 27,
+        move: "IRONDEFENSE",
+      },
+      {
+        level: 30,
+        move: "RECOVER",
+      },
+      {
+        level: 33,
+        move: "CRUNCH",
+      },
+      {
+        level: 36,
+        move: "TAKEDOWN",
+      },
+      {
+        level: 41,
+        move: "BLIZZARD",
+      },
+      {
+        level: 46,
+        move: "DOUBLEEDGE",
+      },
+      {
+        level: 51,
+        move: "STONEEDGE",
+      },
+      {
+        level: 61,
+        move: "MOUNTAINGALE",
+      },
     ],
     tutorMoves: [
       "AVALANCHE",
@@ -29547,25 +39754,82 @@ export const pokemonForms: PokemonForm[] = [
     hiddenAbilities: [],
     category: "Life",
     moves: [
-      "TACKLE",
-      "GRAVITY",
-      "LIGHTSCREEN",
-      "AURORABEAM",
-      "NATUREPOWER",
-      "NIGHTSLASH",
-      "AROMATHERAPY",
-      "PSYCHUP",
-      "HORNLEECH",
-      "MISTYTERRAIN",
-      "INGRAIN",
-      "TAKEDOWN",
-      "GEOMANCY",
-      "MOONBLAST",
-      "HEALPULSE",
-      "MEGAHORN",
-      "CLOSECOMBAT",
-      "OUTRAGE",
-      "GIGAIMPACT",
+      {
+        level: 1,
+        move: "TACKLE",
+      },
+      {
+        level: 1,
+        move: "GRAVITY",
+      },
+      {
+        level: 5,
+        move: "LIGHTSCREEN",
+      },
+      {
+        level: 10,
+        move: "AURORABEAM",
+      },
+      {
+        level: 15,
+        move: "NATUREPOWER",
+      },
+      {
+        level: 20,
+        move: "NIGHTSLASH",
+      },
+      {
+        level: 25,
+        move: "AROMATHERAPY",
+      },
+      {
+        level: 30,
+        move: "PSYCHUP",
+      },
+      {
+        level: 35,
+        move: "HORNLEECH",
+      },
+      {
+        level: 40,
+        move: "MISTYTERRAIN",
+      },
+      {
+        level: 45,
+        move: "INGRAIN",
+      },
+      {
+        level: 50,
+        move: "TAKEDOWN",
+      },
+      {
+        level: 55,
+        move: "GEOMANCY",
+      },
+      {
+        level: 60,
+        move: "MOONBLAST",
+      },
+      {
+        level: 65,
+        move: "HEALPULSE",
+      },
+      {
+        level: 70,
+        move: "MEGAHORN",
+      },
+      {
+        level: 75,
+        move: "CLOSECOMBAT",
+      },
+      {
+        level: 80,
+        move: "OUTRAGE",
+      },
+      {
+        level: 85,
+        move: "GIGAIMPACT",
+      },
     ],
     tutorMoves: [
       "BLOCK",
@@ -29661,24 +39925,78 @@ export const pokemonForms: PokemonForm[] = [
     hiddenAbilities: [],
     category: "Order",
     moves: [
-      "THOUSANDARROWS",
-      "THOUSANDWAVES",
-      "COREENFORCER",
-      "BIND",
-      "BULLDOZE",
-      "DRAGONBREATH",
-      "BITE",
-      "HAZE",
-      "DIG",
-      "SAFEGUARD",
-      "CRUNCH",
-      "DRAGONPULSE",
-      "LANDSWRATH",
-      "GLARE",
-      "SANDSTORM",
-      "COIL",
-      "EARTHQUAKE",
-      "OUTRAGE",
+      {
+        level: 1,
+        move: "THOUSANDARROWS",
+      },
+      {
+        level: 1,
+        move: "THOUSANDWAVES",
+      },
+      {
+        level: 1,
+        move: "COREENFORCER",
+      },
+      {
+        level: 1,
+        move: "BIND",
+      },
+      {
+        level: 1,
+        move: "BULLDOZE",
+      },
+      {
+        level: 1,
+        move: "DRAGONBREATH",
+      },
+      {
+        level: 1,
+        move: "BITE",
+      },
+      {
+        level: 8,
+        move: "HAZE",
+      },
+      {
+        level: 16,
+        move: "DIG",
+      },
+      {
+        level: 24,
+        move: "SAFEGUARD",
+      },
+      {
+        level: 32,
+        move: "CRUNCH",
+      },
+      {
+        level: 40,
+        move: "DRAGONPULSE",
+      },
+      {
+        level: 48,
+        move: "LANDSWRATH",
+      },
+      {
+        level: 56,
+        move: "GLARE",
+      },
+      {
+        level: 64,
+        move: "SANDSTORM",
+      },
+      {
+        level: 72,
+        move: "COIL",
+      },
+      {
+        level: 80,
+        move: "EARTHQUAKE",
+      },
+      {
+        level: 88,
+        move: "OUTRAGE",
+      },
     ],
     tutorMoves: [
       "BIND",
@@ -29774,24 +40092,78 @@ export const pokemonForms: PokemonForm[] = [
     hiddenAbilities: ["POWERCONSTRUCT"],
     category: "Order",
     moves: [
-      "THOUSANDARROWS",
-      "THOUSANDWAVES",
-      "COREENFORCER",
-      "BIND",
-      "BULLDOZE",
-      "DRAGONBREATH",
-      "BITE",
-      "HAZE",
-      "DIG",
-      "SAFEGUARD",
-      "CRUNCH",
-      "DRAGONPULSE",
-      "LANDSWRATH",
-      "GLARE",
-      "SANDSTORM",
-      "COIL",
-      "EARTHQUAKE",
-      "OUTRAGE",
+      {
+        level: 1,
+        move: "THOUSANDARROWS",
+      },
+      {
+        level: 1,
+        move: "THOUSANDWAVES",
+      },
+      {
+        level: 1,
+        move: "COREENFORCER",
+      },
+      {
+        level: 1,
+        move: "BIND",
+      },
+      {
+        level: 1,
+        move: "BULLDOZE",
+      },
+      {
+        level: 1,
+        move: "DRAGONBREATH",
+      },
+      {
+        level: 1,
+        move: "BITE",
+      },
+      {
+        level: 8,
+        move: "HAZE",
+      },
+      {
+        level: 16,
+        move: "DIG",
+      },
+      {
+        level: 24,
+        move: "SAFEGUARD",
+      },
+      {
+        level: 32,
+        move: "CRUNCH",
+      },
+      {
+        level: 40,
+        move: "DRAGONPULSE",
+      },
+      {
+        level: 48,
+        move: "LANDSWRATH",
+      },
+      {
+        level: 56,
+        move: "GLARE",
+      },
+      {
+        level: 64,
+        move: "SANDSTORM",
+      },
+      {
+        level: 72,
+        move: "COIL",
+      },
+      {
+        level: 80,
+        move: "EARTHQUAKE",
+      },
+      {
+        level: 88,
+        move: "OUTRAGE",
+      },
     ],
     tutorMoves: [
       "BIND",
@@ -29887,24 +40259,78 @@ export const pokemonForms: PokemonForm[] = [
     hiddenAbilities: ["POWERCONSTRUCT"],
     category: "Order",
     moves: [
-      "THOUSANDARROWS",
-      "THOUSANDWAVES",
-      "COREENFORCER",
-      "BIND",
-      "BULLDOZE",
-      "DRAGONBREATH",
-      "BITE",
-      "HAZE",
-      "DIG",
-      "SAFEGUARD",
-      "CRUNCH",
-      "DRAGONPULSE",
-      "LANDSWRATH",
-      "GLARE",
-      "SANDSTORM",
-      "COIL",
-      "EARTHQUAKE",
-      "OUTRAGE",
+      {
+        level: 1,
+        move: "THOUSANDARROWS",
+      },
+      {
+        level: 1,
+        move: "THOUSANDWAVES",
+      },
+      {
+        level: 1,
+        move: "COREENFORCER",
+      },
+      {
+        level: 1,
+        move: "BIND",
+      },
+      {
+        level: 1,
+        move: "BULLDOZE",
+      },
+      {
+        level: 1,
+        move: "DRAGONBREATH",
+      },
+      {
+        level: 1,
+        move: "BITE",
+      },
+      {
+        level: 8,
+        move: "HAZE",
+      },
+      {
+        level: 16,
+        move: "DIG",
+      },
+      {
+        level: 24,
+        move: "SAFEGUARD",
+      },
+      {
+        level: 32,
+        move: "CRUNCH",
+      },
+      {
+        level: 40,
+        move: "DRAGONPULSE",
+      },
+      {
+        level: 48,
+        move: "LANDSWRATH",
+      },
+      {
+        level: 56,
+        move: "GLARE",
+      },
+      {
+        level: 64,
+        move: "SANDSTORM",
+      },
+      {
+        level: 72,
+        move: "COIL",
+      },
+      {
+        level: 80,
+        move: "EARTHQUAKE",
+      },
+      {
+        level: 88,
+        move: "OUTRAGE",
+      },
     ],
     tutorMoves: [
       "BIND",
@@ -30000,21 +40426,66 @@ export const pokemonForms: PokemonForm[] = [
     hiddenAbilities: ["MAGICBOUNCE"],
     category: "Jewel",
     moves: [
-      "DIAMONDSTORM",
-      "TACKLE",
-      "HARDEN",
-      "GUARDSPLIT",
-      "SMACKDOWN",
-      "FLAIL",
-      "ANCIENTPOWER",
-      "ROCKPOLISH",
-      "LIGHTSCREEN",
-      "ROCKSLIDE",
-      "SKILLSWAP",
-      "POWERGEM",
-      "STEALTHROCK",
-      "MOONBLAST",
-      "STONEEDGE",
+      {
+        level: 1,
+        move: "DIAMONDSTORM",
+      },
+      {
+        level: 1,
+        move: "TACKLE",
+      },
+      {
+        level: 1,
+        move: "HARDEN",
+      },
+      {
+        level: 7,
+        move: "GUARDSPLIT",
+      },
+      {
+        level: 14,
+        move: "SMACKDOWN",
+      },
+      {
+        level: 21,
+        move: "FLAIL",
+      },
+      {
+        level: 28,
+        move: "ANCIENTPOWER",
+      },
+      {
+        level: 35,
+        move: "ROCKPOLISH",
+      },
+      {
+        level: 42,
+        move: "LIGHTSCREEN",
+      },
+      {
+        level: 49,
+        move: "ROCKSLIDE",
+      },
+      {
+        level: 56,
+        move: "SKILLSWAP",
+      },
+      {
+        level: 63,
+        move: "POWERGEM",
+      },
+      {
+        level: 70,
+        move: "STEALTHROCK",
+      },
+      {
+        level: 77,
+        move: "MOONBLAST",
+      },
+      {
+        level: 84,
+        move: "STONEEDGE",
+      },
     ],
     tutorMoves: [
       "AFTERYOU",
@@ -30131,22 +40602,70 @@ export const pokemonForms: PokemonForm[] = [
     hiddenAbilities: [],
     category: "Mischief",
     moves: [
-      "DESTINYBOND",
-      "ALLYSWITCH",
-      "CONFUSION",
-      "ASTONISH",
-      "TRICK",
-      "LIGHTSCREEN",
-      "PSYBEAM",
-      "SKILLSWAP",
-      "POWERSPLIT",
-      "GUARDSPLIT",
-      "KNOCKOFF",
-      "TRICKROOM",
-      "WONDERROOM",
-      "DARKPULSE",
-      "PSYCHIC",
-      "HYPERSPACEFURY",
+      {
+        level: 1,
+        move: "DESTINYBOND",
+      },
+      {
+        level: 1,
+        move: "ALLYSWITCH",
+      },
+      {
+        level: 1,
+        move: "CONFUSION",
+      },
+      {
+        level: 6,
+        move: "ASTONISH",
+      },
+      {
+        level: 10,
+        move: "TRICK",
+      },
+      {
+        level: 15,
+        move: "LIGHTSCREEN",
+      },
+      {
+        level: 19,
+        move: "PSYBEAM",
+      },
+      {
+        level: 25,
+        move: "SKILLSWAP",
+      },
+      {
+        level: 29,
+        move: "POWERSPLIT",
+      },
+      {
+        level: 29,
+        move: "GUARDSPLIT",
+      },
+      {
+        level: 46,
+        move: "KNOCKOFF",
+      },
+      {
+        level: 50,
+        move: "TRICKROOM",
+      },
+      {
+        level: 50,
+        move: "WONDERROOM",
+      },
+      {
+        level: 55,
+        move: "DARKPULSE",
+      },
+      {
+        level: 75,
+        move: "PSYCHIC",
+      },
+      {
+        level: 85,
+        move: "HYPERSPACEFURY",
+      },
     ],
     tutorMoves: [
       "ALLYSWITCH",
@@ -30270,22 +40789,70 @@ export const pokemonForms: PokemonForm[] = [
     hiddenAbilities: ["SCRAPPY"],
     category: "Arrow Quill",
     moves: [
-      "TRIPLEARROWS",
-      "LEAFSTORM",
-      "UTURN",
-      "TACKLE",
-      "GROWL",
-      "LEAFAGE",
-      "PECK",
-      "SHADOWSNEAK",
-      "RAZORLEAF",
-      "SYNTHESIS",
-      "PLUCK",
-      "BULKUP",
-      "SUCKERPUNCH",
-      "LEAFBLADE",
-      "FEATHERDANCE",
-      "BRAVEBIRD",
+      {
+        level: 0,
+        move: "TRIPLEARROWS",
+      },
+      {
+        level: 1,
+        move: "LEAFSTORM",
+      },
+      {
+        level: 1,
+        move: "UTURN",
+      },
+      {
+        level: 1,
+        move: "TACKLE",
+      },
+      {
+        level: 1,
+        move: "GROWL",
+      },
+      {
+        level: 1,
+        move: "LEAFAGE",
+      },
+      {
+        level: 9,
+        move: "PECK",
+      },
+      {
+        level: 12,
+        move: "SHADOWSNEAK",
+      },
+      {
+        level: 15,
+        move: "RAZORLEAF",
+      },
+      {
+        level: 20,
+        move: "SYNTHESIS",
+      },
+      {
+        level: 25,
+        move: "PLUCK",
+      },
+      {
+        level: 30,
+        move: "BULKUP",
+      },
+      {
+        level: 37,
+        move: "SUCKERPUNCH",
+      },
+      {
+        level: 44,
+        move: "LEAFBLADE",
+      },
+      {
+        level: 51,
+        move: "FEATHERDANCE",
+      },
+      {
+        level: 58,
+        move: "BRAVEBIRD",
+      },
     ],
     tutorMoves: [
       "AERIALACE",
@@ -30380,21 +40947,66 @@ export const pokemonForms: PokemonForm[] = [
     hiddenAbilities: [],
     category: "Dancing",
     moves: [
-      "POUND",
-      "GROWL",
-      "PECK",
-      "HELPINGHAND",
-      "AIRCUTTER",
-      "BATONPASS",
-      "FEATHERDANCE",
-      "ACROBATICS",
-      "TEETERDANCE",
-      "ROOST",
-      "FLATTER",
-      "AIRSLASH",
-      "REVELATIONDANCE",
-      "AGILITY",
-      "HURRICANE",
+      {
+        level: 1,
+        move: "POUND",
+      },
+      {
+        level: 4,
+        move: "GROWL",
+      },
+      {
+        level: 6,
+        move: "PECK",
+      },
+      {
+        level: 10,
+        move: "HELPINGHAND",
+      },
+      {
+        level: 13,
+        move: "AIRCUTTER",
+      },
+      {
+        level: 16,
+        move: "BATONPASS",
+      },
+      {
+        level: 20,
+        move: "FEATHERDANCE",
+      },
+      {
+        level: 23,
+        move: "ACROBATICS",
+      },
+      {
+        level: 26,
+        move: "TEETERDANCE",
+      },
+      {
+        level: 30,
+        move: "ROOST",
+      },
+      {
+        level: 33,
+        move: "FLATTER",
+      },
+      {
+        level: 36,
+        move: "AIRSLASH",
+      },
+      {
+        level: 40,
+        move: "REVELATIONDANCE",
+      },
+      {
+        level: 43,
+        move: "AGILITY",
+      },
+      {
+        level: 47,
+        move: "HURRICANE",
+      },
     ],
     tutorMoves: [
       "ACROBATICS",
@@ -30494,21 +41106,66 @@ export const pokemonForms: PokemonForm[] = [
     hiddenAbilities: [],
     category: "Dancing",
     moves: [
-      "POUND",
-      "GROWL",
-      "PECK",
-      "HELPINGHAND",
-      "AIRCUTTER",
-      "BATONPASS",
-      "FEATHERDANCE",
-      "ACROBATICS",
-      "TEETERDANCE",
-      "ROOST",
-      "FLATTER",
-      "AIRSLASH",
-      "REVELATIONDANCE",
-      "AGILITY",
-      "HURRICANE",
+      {
+        level: 1,
+        move: "POUND",
+      },
+      {
+        level: 4,
+        move: "GROWL",
+      },
+      {
+        level: 6,
+        move: "PECK",
+      },
+      {
+        level: 10,
+        move: "HELPINGHAND",
+      },
+      {
+        level: 13,
+        move: "AIRCUTTER",
+      },
+      {
+        level: 16,
+        move: "BATONPASS",
+      },
+      {
+        level: 20,
+        move: "FEATHERDANCE",
+      },
+      {
+        level: 23,
+        move: "ACROBATICS",
+      },
+      {
+        level: 26,
+        move: "TEETERDANCE",
+      },
+      {
+        level: 30,
+        move: "ROOST",
+      },
+      {
+        level: 33,
+        move: "FLATTER",
+      },
+      {
+        level: 36,
+        move: "AIRSLASH",
+      },
+      {
+        level: 40,
+        move: "REVELATIONDANCE",
+      },
+      {
+        level: 43,
+        move: "AGILITY",
+      },
+      {
+        level: 47,
+        move: "HURRICANE",
+      },
     ],
     tutorMoves: [
       "ACROBATICS",
@@ -30608,21 +41265,66 @@ export const pokemonForms: PokemonForm[] = [
     hiddenAbilities: [],
     category: "Dancing",
     moves: [
-      "POUND",
-      "GROWL",
-      "PECK",
-      "HELPINGHAND",
-      "AIRCUTTER",
-      "BATONPASS",
-      "FEATHERDANCE",
-      "ACROBATICS",
-      "TEETERDANCE",
-      "ROOST",
-      "FLATTER",
-      "AIRSLASH",
-      "REVELATIONDANCE",
-      "AGILITY",
-      "HURRICANE",
+      {
+        level: 1,
+        move: "POUND",
+      },
+      {
+        level: 4,
+        move: "GROWL",
+      },
+      {
+        level: 6,
+        move: "PECK",
+      },
+      {
+        level: 10,
+        move: "HELPINGHAND",
+      },
+      {
+        level: 13,
+        move: "AIRCUTTER",
+      },
+      {
+        level: 16,
+        move: "BATONPASS",
+      },
+      {
+        level: 20,
+        move: "FEATHERDANCE",
+      },
+      {
+        level: 23,
+        move: "ACROBATICS",
+      },
+      {
+        level: 26,
+        move: "TEETERDANCE",
+      },
+      {
+        level: 30,
+        move: "ROOST",
+      },
+      {
+        level: 33,
+        move: "FLATTER",
+      },
+      {
+        level: 36,
+        move: "AIRSLASH",
+      },
+      {
+        level: 40,
+        move: "REVELATIONDANCE",
+      },
+      {
+        level: 43,
+        move: "AGILITY",
+      },
+      {
+        level: 47,
+        move: "HURRICANE",
+      },
     ],
     tutorMoves: [
       "ACROBATICS",
@@ -30722,20 +41424,62 @@ export const pokemonForms: PokemonForm[] = [
     hiddenAbilities: ["OWNTEMPO"],
     category: "Puppy",
     moves: [
-      "TACKLE",
-      "LEER",
-      "SANDATTACK",
-      "DOUBLETEAM",
-      "ROCKTHROW",
-      "HOWL",
-      "BITE",
-      "ROCKTOMB",
-      "ROAR",
-      "ROCKSLIDE",
-      "CRUNCH",
-      "SCARYFACE",
-      "STEALTHROCK",
-      "STONEEDGE",
+      {
+        level: 1,
+        move: "TACKLE",
+      },
+      {
+        level: 1,
+        move: "LEER",
+      },
+      {
+        level: 4,
+        move: "SANDATTACK",
+      },
+      {
+        level: 8,
+        move: "DOUBLETEAM",
+      },
+      {
+        level: 12,
+        move: "ROCKTHROW",
+      },
+      {
+        level: 16,
+        move: "HOWL",
+      },
+      {
+        level: 20,
+        move: "BITE",
+      },
+      {
+        level: 24,
+        move: "ROCKTOMB",
+      },
+      {
+        level: 28,
+        move: "ROAR",
+      },
+      {
+        level: 32,
+        move: "ROCKSLIDE",
+      },
+      {
+        level: 36,
+        move: "CRUNCH",
+      },
+      {
+        level: 40,
+        move: "SCARYFACE",
+      },
+      {
+        level: 44,
+        move: "STEALTHROCK",
+      },
+      {
+        level: 48,
+        move: "STONEEDGE",
+      },
     ],
     tutorMoves: [
       "ATTRACT",
@@ -30832,24 +41576,78 @@ export const pokemonForms: PokemonForm[] = [
     hiddenAbilities: ["NOGUARD"],
     category: "Wolf",
     moves: [
-      "COUNTER",
-      "ENDURE",
-      "REVERSAL",
-      "TAUNT",
-      "TACKLE",
-      "LEER",
-      "SANDATTACK",
-      "DOUBLETEAM",
-      "ROCKTHROW",
-      "HOWL",
-      "BITE",
-      "ROCKTOMB",
-      "ROAR",
-      "ROCKSLIDE",
-      "CRUNCH",
-      "SCARYFACE",
-      "STEALTHROCK",
-      "STONEEDGE",
+      {
+        level: 0,
+        move: "COUNTER",
+      },
+      {
+        level: 1,
+        move: "ENDURE",
+      },
+      {
+        level: 1,
+        move: "REVERSAL",
+      },
+      {
+        level: 1,
+        move: "TAUNT",
+      },
+      {
+        level: 1,
+        move: "TACKLE",
+      },
+      {
+        level: 1,
+        move: "LEER",
+      },
+      {
+        level: 1,
+        move: "SANDATTACK",
+      },
+      {
+        level: 1,
+        move: "DOUBLETEAM",
+      },
+      {
+        level: 12,
+        move: "ROCKTHROW",
+      },
+      {
+        level: 16,
+        move: "HOWL",
+      },
+      {
+        level: 20,
+        move: "BITE",
+      },
+      {
+        level: 24,
+        move: "ROCKTOMB",
+      },
+      {
+        level: 30,
+        move: "ROAR",
+      },
+      {
+        level: 36,
+        move: "ROCKSLIDE",
+      },
+      {
+        level: 42,
+        move: "CRUNCH",
+      },
+      {
+        level: 48,
+        move: "SCARYFACE",
+      },
+      {
+        level: 54,
+        move: "STEALTHROCK",
+      },
+      {
+        level: 60,
+        move: "STONEEDGE",
+      },
     ],
     tutorMoves: [
       "ATTRACT",
@@ -30965,29 +41763,98 @@ export const pokemonForms: PokemonForm[] = [
     hiddenAbilities: ["TOUGHCLAWS"],
     category: "Wolf",
     moves: [
-      "CRUSHCLAW",
-      "SUCKERPUNCH",
-      "ACCELEROCK",
-      "QUICKGUARD",
-      "QUICKATTACK",
-      "COUNTER",
-      "ENDURE",
-      "REVERSAL",
-      "TAUNT",
-      "TACKLE",
-      "LEER",
-      "SANDATTACK",
-      "DOUBLETEAM",
-      "ROCKTHROW",
-      "HOWL",
-      "BITE",
-      "ROCKTOMB",
-      "ROAR",
-      "ROCKSLIDE",
-      "CRUNCH",
-      "SCARYFACE",
-      "STEALTHROCK",
-      "STONEEDGE",
+      {
+        level: 0,
+        move: "CRUSHCLAW",
+      },
+      {
+        level: 1,
+        move: "SUCKERPUNCH",
+      },
+      {
+        level: 1,
+        move: "ACCELEROCK",
+      },
+      {
+        level: 1,
+        move: "QUICKGUARD",
+      },
+      {
+        level: 1,
+        move: "QUICKATTACK",
+      },
+      {
+        level: 1,
+        move: "COUNTER",
+      },
+      {
+        level: 1,
+        move: "ENDURE",
+      },
+      {
+        level: 1,
+        move: "REVERSAL",
+      },
+      {
+        level: 1,
+        move: "TAUNT",
+      },
+      {
+        level: 1,
+        move: "TACKLE",
+      },
+      {
+        level: 1,
+        move: "LEER",
+      },
+      {
+        level: 1,
+        move: "SANDATTACK",
+      },
+      {
+        level: 1,
+        move: "DOUBLETEAM",
+      },
+      {
+        level: 12,
+        move: "ROCKTHROW",
+      },
+      {
+        level: 16,
+        move: "HOWL",
+      },
+      {
+        level: 20,
+        move: "BITE",
+      },
+      {
+        level: 24,
+        move: "ROCKTOMB",
+      },
+      {
+        level: 30,
+        move: "ROAR",
+      },
+      {
+        level: 36,
+        move: "ROCKSLIDE",
+      },
+      {
+        level: 42,
+        move: "CRUNCH",
+      },
+      {
+        level: 48,
+        move: "SCARYFACE",
+      },
+      {
+        level: 54,
+        move: "STEALTHROCK",
+      },
+      {
+        level: 60,
+        move: "STONEEDGE",
+      },
     ],
     tutorMoves: [
       "ATTRACT",
@@ -31090,20 +41957,62 @@ export const pokemonForms: PokemonForm[] = [
     hiddenAbilities: [],
     category: "Small Fry",
     moves: [
-      "WATERGUN",
-      "GROWL",
-      "HELPINGHAND",
-      "BEATUP",
-      "BRINE",
-      "TEARFULLOOK",
-      "DIVE",
-      "SOAK",
-      "UPROAR",
-      "AQUATAIL",
-      "AQUARING",
-      "ENDEAVOR",
-      "HYDROPUMP",
-      "DOUBLEEDGE",
+      {
+        level: 1,
+        move: "WATERGUN",
+      },
+      {
+        level: 1,
+        move: "GROWL",
+      },
+      {
+        level: 4,
+        move: "HELPINGHAND",
+      },
+      {
+        level: 8,
+        move: "BEATUP",
+      },
+      {
+        level: 12,
+        move: "BRINE",
+      },
+      {
+        level: 16,
+        move: "TEARFULLOOK",
+      },
+      {
+        level: 20,
+        move: "DIVE",
+      },
+      {
+        level: 24,
+        move: "SOAK",
+      },
+      {
+        level: 28,
+        move: "UPROAR",
+      },
+      {
+        level: 32,
+        move: "AQUATAIL",
+      },
+      {
+        level: 36,
+        move: "AQUARING",
+      },
+      {
+        level: 40,
+        move: "ENDEAVOR",
+      },
+      {
+        level: 44,
+        move: "HYDROPUMP",
+      },
+      {
+        level: 48,
+        move: "DOUBLEEDGE",
+      },
     ],
     tutorMoves: [
       "AQUATAIL",
@@ -31184,28 +42093,94 @@ export const pokemonForms: PokemonForm[] = [
     hiddenAbilities: [],
     category: "Synthetic",
     moves: [
-      "MULTIATTACK",
-      "EXPLOSION",
-      "THUNDERFANG",
-      "ICEFANG",
-      "FIREFANG",
-      "POISONFANG",
-      "IMPRISON",
-      "IRONHEAD",
-      "TACKLE",
-      "BITE",
-      "AERIALACE",
-      "SCARYFACE",
-      "DOUBLEHIT",
-      "METALSOUND",
-      "CRUSHCLAW",
-      "AIRSLASH",
-      "TRIATTACK",
-      "XSCISSOR",
-      "CRUNCH",
-      "TAKEDOWN",
-      "DOUBLEEDGE",
-      "PARTINGSHOT",
+      {
+        level: 0,
+        move: "MULTIATTACK",
+      },
+      {
+        level: 1,
+        move: "EXPLOSION",
+      },
+      {
+        level: 1,
+        move: "THUNDERFANG",
+      },
+      {
+        level: 1,
+        move: "ICEFANG",
+      },
+      {
+        level: 1,
+        move: "FIREFANG",
+      },
+      {
+        level: 1,
+        move: "POISONFANG",
+      },
+      {
+        level: 1,
+        move: "IMPRISON",
+      },
+      {
+        level: 1,
+        move: "IRONHEAD",
+      },
+      {
+        level: 1,
+        move: "TACKLE",
+      },
+      {
+        level: 1,
+        move: "BITE",
+      },
+      {
+        level: 1,
+        move: "AERIALACE",
+      },
+      {
+        level: 1,
+        move: "SCARYFACE",
+      },
+      {
+        level: 15,
+        move: "DOUBLEHIT",
+      },
+      {
+        level: 20,
+        move: "METALSOUND",
+      },
+      {
+        level: 25,
+        move: "CRUSHCLAW",
+      },
+      {
+        level: 30,
+        move: "AIRSLASH",
+      },
+      {
+        level: 35,
+        move: "TRIATTACK",
+      },
+      {
+        level: 40,
+        move: "XSCISSOR",
+      },
+      {
+        level: 45,
+        move: "CRUNCH",
+      },
+      {
+        level: 50,
+        move: "TAKEDOWN",
+      },
+      {
+        level: 55,
+        move: "DOUBLEEDGE",
+      },
+      {
+        level: 60,
+        move: "PARTINGSHOT",
+      },
     ],
     tutorMoves: [
       "AERIALACE",
@@ -31314,28 +42289,94 @@ export const pokemonForms: PokemonForm[] = [
     hiddenAbilities: [],
     category: "Synthetic",
     moves: [
-      "MULTIATTACK",
-      "EXPLOSION",
-      "THUNDERFANG",
-      "ICEFANG",
-      "FIREFANG",
-      "POISONFANG",
-      "IMPRISON",
-      "IRONHEAD",
-      "TACKLE",
-      "BITE",
-      "AERIALACE",
-      "SCARYFACE",
-      "DOUBLEHIT",
-      "METALSOUND",
-      "CRUSHCLAW",
-      "AIRSLASH",
-      "TRIATTACK",
-      "XSCISSOR",
-      "CRUNCH",
-      "TAKEDOWN",
-      "DOUBLEEDGE",
-      "PARTINGSHOT",
+      {
+        level: 0,
+        move: "MULTIATTACK",
+      },
+      {
+        level: 1,
+        move: "EXPLOSION",
+      },
+      {
+        level: 1,
+        move: "THUNDERFANG",
+      },
+      {
+        level: 1,
+        move: "ICEFANG",
+      },
+      {
+        level: 1,
+        move: "FIREFANG",
+      },
+      {
+        level: 1,
+        move: "POISONFANG",
+      },
+      {
+        level: 1,
+        move: "IMPRISON",
+      },
+      {
+        level: 1,
+        move: "IRONHEAD",
+      },
+      {
+        level: 1,
+        move: "TACKLE",
+      },
+      {
+        level: 1,
+        move: "BITE",
+      },
+      {
+        level: 1,
+        move: "AERIALACE",
+      },
+      {
+        level: 1,
+        move: "SCARYFACE",
+      },
+      {
+        level: 15,
+        move: "DOUBLEHIT",
+      },
+      {
+        level: 20,
+        move: "METALSOUND",
+      },
+      {
+        level: 25,
+        move: "CRUSHCLAW",
+      },
+      {
+        level: 30,
+        move: "AIRSLASH",
+      },
+      {
+        level: 35,
+        move: "TRIATTACK",
+      },
+      {
+        level: 40,
+        move: "XSCISSOR",
+      },
+      {
+        level: 45,
+        move: "CRUNCH",
+      },
+      {
+        level: 50,
+        move: "TAKEDOWN",
+      },
+      {
+        level: 55,
+        move: "DOUBLEEDGE",
+      },
+      {
+        level: 60,
+        move: "PARTINGSHOT",
+      },
     ],
     tutorMoves: [
       "AERIALACE",
@@ -31444,28 +42485,94 @@ export const pokemonForms: PokemonForm[] = [
     hiddenAbilities: [],
     category: "Synthetic",
     moves: [
-      "MULTIATTACK",
-      "EXPLOSION",
-      "THUNDERFANG",
-      "ICEFANG",
-      "FIREFANG",
-      "POISONFANG",
-      "IMPRISON",
-      "IRONHEAD",
-      "TACKLE",
-      "BITE",
-      "AERIALACE",
-      "SCARYFACE",
-      "DOUBLEHIT",
-      "METALSOUND",
-      "CRUSHCLAW",
-      "AIRSLASH",
-      "TRIATTACK",
-      "XSCISSOR",
-      "CRUNCH",
-      "TAKEDOWN",
-      "DOUBLEEDGE",
-      "PARTINGSHOT",
+      {
+        level: 0,
+        move: "MULTIATTACK",
+      },
+      {
+        level: 1,
+        move: "EXPLOSION",
+      },
+      {
+        level: 1,
+        move: "THUNDERFANG",
+      },
+      {
+        level: 1,
+        move: "ICEFANG",
+      },
+      {
+        level: 1,
+        move: "FIREFANG",
+      },
+      {
+        level: 1,
+        move: "POISONFANG",
+      },
+      {
+        level: 1,
+        move: "IMPRISON",
+      },
+      {
+        level: 1,
+        move: "IRONHEAD",
+      },
+      {
+        level: 1,
+        move: "TACKLE",
+      },
+      {
+        level: 1,
+        move: "BITE",
+      },
+      {
+        level: 1,
+        move: "AERIALACE",
+      },
+      {
+        level: 1,
+        move: "SCARYFACE",
+      },
+      {
+        level: 15,
+        move: "DOUBLEHIT",
+      },
+      {
+        level: 20,
+        move: "METALSOUND",
+      },
+      {
+        level: 25,
+        move: "CRUSHCLAW",
+      },
+      {
+        level: 30,
+        move: "AIRSLASH",
+      },
+      {
+        level: 35,
+        move: "TRIATTACK",
+      },
+      {
+        level: 40,
+        move: "XSCISSOR",
+      },
+      {
+        level: 45,
+        move: "CRUNCH",
+      },
+      {
+        level: 50,
+        move: "TAKEDOWN",
+      },
+      {
+        level: 55,
+        move: "DOUBLEEDGE",
+      },
+      {
+        level: 60,
+        move: "PARTINGSHOT",
+      },
     ],
     tutorMoves: [
       "AERIALACE",
@@ -31574,28 +42681,94 @@ export const pokemonForms: PokemonForm[] = [
     hiddenAbilities: [],
     category: "Synthetic",
     moves: [
-      "MULTIATTACK",
-      "EXPLOSION",
-      "THUNDERFANG",
-      "ICEFANG",
-      "FIREFANG",
-      "POISONFANG",
-      "IMPRISON",
-      "IRONHEAD",
-      "TACKLE",
-      "BITE",
-      "AERIALACE",
-      "SCARYFACE",
-      "DOUBLEHIT",
-      "METALSOUND",
-      "CRUSHCLAW",
-      "AIRSLASH",
-      "TRIATTACK",
-      "XSCISSOR",
-      "CRUNCH",
-      "TAKEDOWN",
-      "DOUBLEEDGE",
-      "PARTINGSHOT",
+      {
+        level: 0,
+        move: "MULTIATTACK",
+      },
+      {
+        level: 1,
+        move: "EXPLOSION",
+      },
+      {
+        level: 1,
+        move: "THUNDERFANG",
+      },
+      {
+        level: 1,
+        move: "ICEFANG",
+      },
+      {
+        level: 1,
+        move: "FIREFANG",
+      },
+      {
+        level: 1,
+        move: "POISONFANG",
+      },
+      {
+        level: 1,
+        move: "IMPRISON",
+      },
+      {
+        level: 1,
+        move: "IRONHEAD",
+      },
+      {
+        level: 1,
+        move: "TACKLE",
+      },
+      {
+        level: 1,
+        move: "BITE",
+      },
+      {
+        level: 1,
+        move: "AERIALACE",
+      },
+      {
+        level: 1,
+        move: "SCARYFACE",
+      },
+      {
+        level: 15,
+        move: "DOUBLEHIT",
+      },
+      {
+        level: 20,
+        move: "METALSOUND",
+      },
+      {
+        level: 25,
+        move: "CRUSHCLAW",
+      },
+      {
+        level: 30,
+        move: "AIRSLASH",
+      },
+      {
+        level: 35,
+        move: "TRIATTACK",
+      },
+      {
+        level: 40,
+        move: "XSCISSOR",
+      },
+      {
+        level: 45,
+        move: "CRUNCH",
+      },
+      {
+        level: 50,
+        move: "TAKEDOWN",
+      },
+      {
+        level: 55,
+        move: "DOUBLEEDGE",
+      },
+      {
+        level: 60,
+        move: "PARTINGSHOT",
+      },
     ],
     tutorMoves: [
       "AERIALACE",
@@ -31704,28 +42877,94 @@ export const pokemonForms: PokemonForm[] = [
     hiddenAbilities: [],
     category: "Synthetic",
     moves: [
-      "MULTIATTACK",
-      "EXPLOSION",
-      "THUNDERFANG",
-      "ICEFANG",
-      "FIREFANG",
-      "POISONFANG",
-      "IMPRISON",
-      "IRONHEAD",
-      "TACKLE",
-      "BITE",
-      "AERIALACE",
-      "SCARYFACE",
-      "DOUBLEHIT",
-      "METALSOUND",
-      "CRUSHCLAW",
-      "AIRSLASH",
-      "TRIATTACK",
-      "XSCISSOR",
-      "CRUNCH",
-      "TAKEDOWN",
-      "DOUBLEEDGE",
-      "PARTINGSHOT",
+      {
+        level: 0,
+        move: "MULTIATTACK",
+      },
+      {
+        level: 1,
+        move: "EXPLOSION",
+      },
+      {
+        level: 1,
+        move: "THUNDERFANG",
+      },
+      {
+        level: 1,
+        move: "ICEFANG",
+      },
+      {
+        level: 1,
+        move: "FIREFANG",
+      },
+      {
+        level: 1,
+        move: "POISONFANG",
+      },
+      {
+        level: 1,
+        move: "IMPRISON",
+      },
+      {
+        level: 1,
+        move: "IRONHEAD",
+      },
+      {
+        level: 1,
+        move: "TACKLE",
+      },
+      {
+        level: 1,
+        move: "BITE",
+      },
+      {
+        level: 1,
+        move: "AERIALACE",
+      },
+      {
+        level: 1,
+        move: "SCARYFACE",
+      },
+      {
+        level: 15,
+        move: "DOUBLEHIT",
+      },
+      {
+        level: 20,
+        move: "METALSOUND",
+      },
+      {
+        level: 25,
+        move: "CRUSHCLAW",
+      },
+      {
+        level: 30,
+        move: "AIRSLASH",
+      },
+      {
+        level: 35,
+        move: "TRIATTACK",
+      },
+      {
+        level: 40,
+        move: "XSCISSOR",
+      },
+      {
+        level: 45,
+        move: "CRUNCH",
+      },
+      {
+        level: 50,
+        move: "TAKEDOWN",
+      },
+      {
+        level: 55,
+        move: "DOUBLEEDGE",
+      },
+      {
+        level: 60,
+        move: "PARTINGSHOT",
+      },
     ],
     tutorMoves: [
       "AERIALACE",
@@ -31834,28 +43073,94 @@ export const pokemonForms: PokemonForm[] = [
     hiddenAbilities: [],
     category: "Synthetic",
     moves: [
-      "MULTIATTACK",
-      "EXPLOSION",
-      "THUNDERFANG",
-      "ICEFANG",
-      "FIREFANG",
-      "POISONFANG",
-      "IMPRISON",
-      "IRONHEAD",
-      "TACKLE",
-      "BITE",
-      "AERIALACE",
-      "SCARYFACE",
-      "DOUBLEHIT",
-      "METALSOUND",
-      "CRUSHCLAW",
-      "AIRSLASH",
-      "TRIATTACK",
-      "XSCISSOR",
-      "CRUNCH",
-      "TAKEDOWN",
-      "DOUBLEEDGE",
-      "PARTINGSHOT",
+      {
+        level: 0,
+        move: "MULTIATTACK",
+      },
+      {
+        level: 1,
+        move: "EXPLOSION",
+      },
+      {
+        level: 1,
+        move: "THUNDERFANG",
+      },
+      {
+        level: 1,
+        move: "ICEFANG",
+      },
+      {
+        level: 1,
+        move: "FIREFANG",
+      },
+      {
+        level: 1,
+        move: "POISONFANG",
+      },
+      {
+        level: 1,
+        move: "IMPRISON",
+      },
+      {
+        level: 1,
+        move: "IRONHEAD",
+      },
+      {
+        level: 1,
+        move: "TACKLE",
+      },
+      {
+        level: 1,
+        move: "BITE",
+      },
+      {
+        level: 1,
+        move: "AERIALACE",
+      },
+      {
+        level: 1,
+        move: "SCARYFACE",
+      },
+      {
+        level: 15,
+        move: "DOUBLEHIT",
+      },
+      {
+        level: 20,
+        move: "METALSOUND",
+      },
+      {
+        level: 25,
+        move: "CRUSHCLAW",
+      },
+      {
+        level: 30,
+        move: "AIRSLASH",
+      },
+      {
+        level: 35,
+        move: "TRIATTACK",
+      },
+      {
+        level: 40,
+        move: "XSCISSOR",
+      },
+      {
+        level: 45,
+        move: "CRUNCH",
+      },
+      {
+        level: 50,
+        move: "TAKEDOWN",
+      },
+      {
+        level: 55,
+        move: "DOUBLEEDGE",
+      },
+      {
+        level: 60,
+        move: "PARTINGSHOT",
+      },
     ],
     tutorMoves: [
       "AERIALACE",
@@ -31964,28 +43269,94 @@ export const pokemonForms: PokemonForm[] = [
     hiddenAbilities: [],
     category: "Synthetic",
     moves: [
-      "MULTIATTACK",
-      "EXPLOSION",
-      "THUNDERFANG",
-      "ICEFANG",
-      "FIREFANG",
-      "POISONFANG",
-      "IMPRISON",
-      "IRONHEAD",
-      "TACKLE",
-      "BITE",
-      "AERIALACE",
-      "SCARYFACE",
-      "DOUBLEHIT",
-      "METALSOUND",
-      "CRUSHCLAW",
-      "AIRSLASH",
-      "TRIATTACK",
-      "XSCISSOR",
-      "CRUNCH",
-      "TAKEDOWN",
-      "DOUBLEEDGE",
-      "PARTINGSHOT",
+      {
+        level: 0,
+        move: "MULTIATTACK",
+      },
+      {
+        level: 1,
+        move: "EXPLOSION",
+      },
+      {
+        level: 1,
+        move: "THUNDERFANG",
+      },
+      {
+        level: 1,
+        move: "ICEFANG",
+      },
+      {
+        level: 1,
+        move: "FIREFANG",
+      },
+      {
+        level: 1,
+        move: "POISONFANG",
+      },
+      {
+        level: 1,
+        move: "IMPRISON",
+      },
+      {
+        level: 1,
+        move: "IRONHEAD",
+      },
+      {
+        level: 1,
+        move: "TACKLE",
+      },
+      {
+        level: 1,
+        move: "BITE",
+      },
+      {
+        level: 1,
+        move: "AERIALACE",
+      },
+      {
+        level: 1,
+        move: "SCARYFACE",
+      },
+      {
+        level: 15,
+        move: "DOUBLEHIT",
+      },
+      {
+        level: 20,
+        move: "METALSOUND",
+      },
+      {
+        level: 25,
+        move: "CRUSHCLAW",
+      },
+      {
+        level: 30,
+        move: "AIRSLASH",
+      },
+      {
+        level: 35,
+        move: "TRIATTACK",
+      },
+      {
+        level: 40,
+        move: "XSCISSOR",
+      },
+      {
+        level: 45,
+        move: "CRUNCH",
+      },
+      {
+        level: 50,
+        move: "TAKEDOWN",
+      },
+      {
+        level: 55,
+        move: "DOUBLEEDGE",
+      },
+      {
+        level: 60,
+        move: "PARTINGSHOT",
+      },
     ],
     tutorMoves: [
       "AERIALACE",
@@ -32094,28 +43465,94 @@ export const pokemonForms: PokemonForm[] = [
     hiddenAbilities: [],
     category: "Synthetic",
     moves: [
-      "MULTIATTACK",
-      "EXPLOSION",
-      "THUNDERFANG",
-      "ICEFANG",
-      "FIREFANG",
-      "POISONFANG",
-      "IMPRISON",
-      "IRONHEAD",
-      "TACKLE",
-      "BITE",
-      "AERIALACE",
-      "SCARYFACE",
-      "DOUBLEHIT",
-      "METALSOUND",
-      "CRUSHCLAW",
-      "AIRSLASH",
-      "TRIATTACK",
-      "XSCISSOR",
-      "CRUNCH",
-      "TAKEDOWN",
-      "DOUBLEEDGE",
-      "PARTINGSHOT",
+      {
+        level: 0,
+        move: "MULTIATTACK",
+      },
+      {
+        level: 1,
+        move: "EXPLOSION",
+      },
+      {
+        level: 1,
+        move: "THUNDERFANG",
+      },
+      {
+        level: 1,
+        move: "ICEFANG",
+      },
+      {
+        level: 1,
+        move: "FIREFANG",
+      },
+      {
+        level: 1,
+        move: "POISONFANG",
+      },
+      {
+        level: 1,
+        move: "IMPRISON",
+      },
+      {
+        level: 1,
+        move: "IRONHEAD",
+      },
+      {
+        level: 1,
+        move: "TACKLE",
+      },
+      {
+        level: 1,
+        move: "BITE",
+      },
+      {
+        level: 1,
+        move: "AERIALACE",
+      },
+      {
+        level: 1,
+        move: "SCARYFACE",
+      },
+      {
+        level: 15,
+        move: "DOUBLEHIT",
+      },
+      {
+        level: 20,
+        move: "METALSOUND",
+      },
+      {
+        level: 25,
+        move: "CRUSHCLAW",
+      },
+      {
+        level: 30,
+        move: "AIRSLASH",
+      },
+      {
+        level: 35,
+        move: "TRIATTACK",
+      },
+      {
+        level: 40,
+        move: "XSCISSOR",
+      },
+      {
+        level: 45,
+        move: "CRUNCH",
+      },
+      {
+        level: 50,
+        move: "TAKEDOWN",
+      },
+      {
+        level: 55,
+        move: "DOUBLEEDGE",
+      },
+      {
+        level: 60,
+        move: "PARTINGSHOT",
+      },
     ],
     tutorMoves: [
       "AERIALACE",
@@ -32224,28 +43661,94 @@ export const pokemonForms: PokemonForm[] = [
     hiddenAbilities: [],
     category: "Synthetic",
     moves: [
-      "MULTIATTACK",
-      "EXPLOSION",
-      "THUNDERFANG",
-      "ICEFANG",
-      "FIREFANG",
-      "POISONFANG",
-      "IMPRISON",
-      "IRONHEAD",
-      "TACKLE",
-      "BITE",
-      "AERIALACE",
-      "SCARYFACE",
-      "DOUBLEHIT",
-      "METALSOUND",
-      "CRUSHCLAW",
-      "AIRSLASH",
-      "TRIATTACK",
-      "XSCISSOR",
-      "CRUNCH",
-      "TAKEDOWN",
-      "DOUBLEEDGE",
-      "PARTINGSHOT",
+      {
+        level: 0,
+        move: "MULTIATTACK",
+      },
+      {
+        level: 1,
+        move: "EXPLOSION",
+      },
+      {
+        level: 1,
+        move: "THUNDERFANG",
+      },
+      {
+        level: 1,
+        move: "ICEFANG",
+      },
+      {
+        level: 1,
+        move: "FIREFANG",
+      },
+      {
+        level: 1,
+        move: "POISONFANG",
+      },
+      {
+        level: 1,
+        move: "IMPRISON",
+      },
+      {
+        level: 1,
+        move: "IRONHEAD",
+      },
+      {
+        level: 1,
+        move: "TACKLE",
+      },
+      {
+        level: 1,
+        move: "BITE",
+      },
+      {
+        level: 1,
+        move: "AERIALACE",
+      },
+      {
+        level: 1,
+        move: "SCARYFACE",
+      },
+      {
+        level: 15,
+        move: "DOUBLEHIT",
+      },
+      {
+        level: 20,
+        move: "METALSOUND",
+      },
+      {
+        level: 25,
+        move: "CRUSHCLAW",
+      },
+      {
+        level: 30,
+        move: "AIRSLASH",
+      },
+      {
+        level: 35,
+        move: "TRIATTACK",
+      },
+      {
+        level: 40,
+        move: "XSCISSOR",
+      },
+      {
+        level: 45,
+        move: "CRUNCH",
+      },
+      {
+        level: 50,
+        move: "TAKEDOWN",
+      },
+      {
+        level: 55,
+        move: "DOUBLEEDGE",
+      },
+      {
+        level: 60,
+        move: "PARTINGSHOT",
+      },
     ],
     tutorMoves: [
       "AERIALACE",
@@ -32354,28 +43857,94 @@ export const pokemonForms: PokemonForm[] = [
     hiddenAbilities: [],
     category: "Synthetic",
     moves: [
-      "MULTIATTACK",
-      "EXPLOSION",
-      "THUNDERFANG",
-      "ICEFANG",
-      "FIREFANG",
-      "POISONFANG",
-      "IMPRISON",
-      "IRONHEAD",
-      "TACKLE",
-      "BITE",
-      "AERIALACE",
-      "SCARYFACE",
-      "DOUBLEHIT",
-      "METALSOUND",
-      "CRUSHCLAW",
-      "AIRSLASH",
-      "TRIATTACK",
-      "XSCISSOR",
-      "CRUNCH",
-      "TAKEDOWN",
-      "DOUBLEEDGE",
-      "PARTINGSHOT",
+      {
+        level: 0,
+        move: "MULTIATTACK",
+      },
+      {
+        level: 1,
+        move: "EXPLOSION",
+      },
+      {
+        level: 1,
+        move: "THUNDERFANG",
+      },
+      {
+        level: 1,
+        move: "ICEFANG",
+      },
+      {
+        level: 1,
+        move: "FIREFANG",
+      },
+      {
+        level: 1,
+        move: "POISONFANG",
+      },
+      {
+        level: 1,
+        move: "IMPRISON",
+      },
+      {
+        level: 1,
+        move: "IRONHEAD",
+      },
+      {
+        level: 1,
+        move: "TACKLE",
+      },
+      {
+        level: 1,
+        move: "BITE",
+      },
+      {
+        level: 1,
+        move: "AERIALACE",
+      },
+      {
+        level: 1,
+        move: "SCARYFACE",
+      },
+      {
+        level: 15,
+        move: "DOUBLEHIT",
+      },
+      {
+        level: 20,
+        move: "METALSOUND",
+      },
+      {
+        level: 25,
+        move: "CRUSHCLAW",
+      },
+      {
+        level: 30,
+        move: "AIRSLASH",
+      },
+      {
+        level: 35,
+        move: "TRIATTACK",
+      },
+      {
+        level: 40,
+        move: "XSCISSOR",
+      },
+      {
+        level: 45,
+        move: "CRUNCH",
+      },
+      {
+        level: 50,
+        move: "TAKEDOWN",
+      },
+      {
+        level: 55,
+        move: "DOUBLEEDGE",
+      },
+      {
+        level: 60,
+        move: "PARTINGSHOT",
+      },
     ],
     tutorMoves: [
       "AERIALACE",
@@ -32484,28 +44053,94 @@ export const pokemonForms: PokemonForm[] = [
     hiddenAbilities: [],
     category: "Synthetic",
     moves: [
-      "MULTIATTACK",
-      "EXPLOSION",
-      "THUNDERFANG",
-      "ICEFANG",
-      "FIREFANG",
-      "POISONFANG",
-      "IMPRISON",
-      "IRONHEAD",
-      "TACKLE",
-      "BITE",
-      "AERIALACE",
-      "SCARYFACE",
-      "DOUBLEHIT",
-      "METALSOUND",
-      "CRUSHCLAW",
-      "AIRSLASH",
-      "TRIATTACK",
-      "XSCISSOR",
-      "CRUNCH",
-      "TAKEDOWN",
-      "DOUBLEEDGE",
-      "PARTINGSHOT",
+      {
+        level: 0,
+        move: "MULTIATTACK",
+      },
+      {
+        level: 1,
+        move: "EXPLOSION",
+      },
+      {
+        level: 1,
+        move: "THUNDERFANG",
+      },
+      {
+        level: 1,
+        move: "ICEFANG",
+      },
+      {
+        level: 1,
+        move: "FIREFANG",
+      },
+      {
+        level: 1,
+        move: "POISONFANG",
+      },
+      {
+        level: 1,
+        move: "IMPRISON",
+      },
+      {
+        level: 1,
+        move: "IRONHEAD",
+      },
+      {
+        level: 1,
+        move: "TACKLE",
+      },
+      {
+        level: 1,
+        move: "BITE",
+      },
+      {
+        level: 1,
+        move: "AERIALACE",
+      },
+      {
+        level: 1,
+        move: "SCARYFACE",
+      },
+      {
+        level: 15,
+        move: "DOUBLEHIT",
+      },
+      {
+        level: 20,
+        move: "METALSOUND",
+      },
+      {
+        level: 25,
+        move: "CRUSHCLAW",
+      },
+      {
+        level: 30,
+        move: "AIRSLASH",
+      },
+      {
+        level: 35,
+        move: "TRIATTACK",
+      },
+      {
+        level: 40,
+        move: "XSCISSOR",
+      },
+      {
+        level: 45,
+        move: "CRUNCH",
+      },
+      {
+        level: 50,
+        move: "TAKEDOWN",
+      },
+      {
+        level: 55,
+        move: "DOUBLEEDGE",
+      },
+      {
+        level: 60,
+        move: "PARTINGSHOT",
+      },
     ],
     tutorMoves: [
       "AERIALACE",
@@ -32614,28 +44249,94 @@ export const pokemonForms: PokemonForm[] = [
     hiddenAbilities: [],
     category: "Synthetic",
     moves: [
-      "MULTIATTACK",
-      "EXPLOSION",
-      "THUNDERFANG",
-      "ICEFANG",
-      "FIREFANG",
-      "POISONFANG",
-      "IMPRISON",
-      "IRONHEAD",
-      "TACKLE",
-      "BITE",
-      "AERIALACE",
-      "SCARYFACE",
-      "DOUBLEHIT",
-      "METALSOUND",
-      "CRUSHCLAW",
-      "AIRSLASH",
-      "TRIATTACK",
-      "XSCISSOR",
-      "CRUNCH",
-      "TAKEDOWN",
-      "DOUBLEEDGE",
-      "PARTINGSHOT",
+      {
+        level: 0,
+        move: "MULTIATTACK",
+      },
+      {
+        level: 1,
+        move: "EXPLOSION",
+      },
+      {
+        level: 1,
+        move: "THUNDERFANG",
+      },
+      {
+        level: 1,
+        move: "ICEFANG",
+      },
+      {
+        level: 1,
+        move: "FIREFANG",
+      },
+      {
+        level: 1,
+        move: "POISONFANG",
+      },
+      {
+        level: 1,
+        move: "IMPRISON",
+      },
+      {
+        level: 1,
+        move: "IRONHEAD",
+      },
+      {
+        level: 1,
+        move: "TACKLE",
+      },
+      {
+        level: 1,
+        move: "BITE",
+      },
+      {
+        level: 1,
+        move: "AERIALACE",
+      },
+      {
+        level: 1,
+        move: "SCARYFACE",
+      },
+      {
+        level: 15,
+        move: "DOUBLEHIT",
+      },
+      {
+        level: 20,
+        move: "METALSOUND",
+      },
+      {
+        level: 25,
+        move: "CRUSHCLAW",
+      },
+      {
+        level: 30,
+        move: "AIRSLASH",
+      },
+      {
+        level: 35,
+        move: "TRIATTACK",
+      },
+      {
+        level: 40,
+        move: "XSCISSOR",
+      },
+      {
+        level: 45,
+        move: "CRUNCH",
+      },
+      {
+        level: 50,
+        move: "TAKEDOWN",
+      },
+      {
+        level: 55,
+        move: "DOUBLEEDGE",
+      },
+      {
+        level: 60,
+        move: "PARTINGSHOT",
+      },
     ],
     tutorMoves: [
       "AERIALACE",
@@ -32744,28 +44445,94 @@ export const pokemonForms: PokemonForm[] = [
     hiddenAbilities: [],
     category: "Synthetic",
     moves: [
-      "MULTIATTACK",
-      "EXPLOSION",
-      "THUNDERFANG",
-      "ICEFANG",
-      "FIREFANG",
-      "POISONFANG",
-      "IMPRISON",
-      "IRONHEAD",
-      "TACKLE",
-      "BITE",
-      "AERIALACE",
-      "SCARYFACE",
-      "DOUBLEHIT",
-      "METALSOUND",
-      "CRUSHCLAW",
-      "AIRSLASH",
-      "TRIATTACK",
-      "XSCISSOR",
-      "CRUNCH",
-      "TAKEDOWN",
-      "DOUBLEEDGE",
-      "PARTINGSHOT",
+      {
+        level: 0,
+        move: "MULTIATTACK",
+      },
+      {
+        level: 1,
+        move: "EXPLOSION",
+      },
+      {
+        level: 1,
+        move: "THUNDERFANG",
+      },
+      {
+        level: 1,
+        move: "ICEFANG",
+      },
+      {
+        level: 1,
+        move: "FIREFANG",
+      },
+      {
+        level: 1,
+        move: "POISONFANG",
+      },
+      {
+        level: 1,
+        move: "IMPRISON",
+      },
+      {
+        level: 1,
+        move: "IRONHEAD",
+      },
+      {
+        level: 1,
+        move: "TACKLE",
+      },
+      {
+        level: 1,
+        move: "BITE",
+      },
+      {
+        level: 1,
+        move: "AERIALACE",
+      },
+      {
+        level: 1,
+        move: "SCARYFACE",
+      },
+      {
+        level: 15,
+        move: "DOUBLEHIT",
+      },
+      {
+        level: 20,
+        move: "METALSOUND",
+      },
+      {
+        level: 25,
+        move: "CRUSHCLAW",
+      },
+      {
+        level: 30,
+        move: "AIRSLASH",
+      },
+      {
+        level: 35,
+        move: "TRIATTACK",
+      },
+      {
+        level: 40,
+        move: "XSCISSOR",
+      },
+      {
+        level: 45,
+        move: "CRUNCH",
+      },
+      {
+        level: 50,
+        move: "TAKEDOWN",
+      },
+      {
+        level: 55,
+        move: "DOUBLEEDGE",
+      },
+      {
+        level: 60,
+        move: "PARTINGSHOT",
+      },
     ],
     tutorMoves: [
       "AERIALACE",
@@ -32874,28 +44641,94 @@ export const pokemonForms: PokemonForm[] = [
     hiddenAbilities: [],
     category: "Synthetic",
     moves: [
-      "MULTIATTACK",
-      "EXPLOSION",
-      "THUNDERFANG",
-      "ICEFANG",
-      "FIREFANG",
-      "POISONFANG",
-      "IMPRISON",
-      "IRONHEAD",
-      "TACKLE",
-      "BITE",
-      "AERIALACE",
-      "SCARYFACE",
-      "DOUBLEHIT",
-      "METALSOUND",
-      "CRUSHCLAW",
-      "AIRSLASH",
-      "TRIATTACK",
-      "XSCISSOR",
-      "CRUNCH",
-      "TAKEDOWN",
-      "DOUBLEEDGE",
-      "PARTINGSHOT",
+      {
+        level: 0,
+        move: "MULTIATTACK",
+      },
+      {
+        level: 1,
+        move: "EXPLOSION",
+      },
+      {
+        level: 1,
+        move: "THUNDERFANG",
+      },
+      {
+        level: 1,
+        move: "ICEFANG",
+      },
+      {
+        level: 1,
+        move: "FIREFANG",
+      },
+      {
+        level: 1,
+        move: "POISONFANG",
+      },
+      {
+        level: 1,
+        move: "IMPRISON",
+      },
+      {
+        level: 1,
+        move: "IRONHEAD",
+      },
+      {
+        level: 1,
+        move: "TACKLE",
+      },
+      {
+        level: 1,
+        move: "BITE",
+      },
+      {
+        level: 1,
+        move: "AERIALACE",
+      },
+      {
+        level: 1,
+        move: "SCARYFACE",
+      },
+      {
+        level: 15,
+        move: "DOUBLEHIT",
+      },
+      {
+        level: 20,
+        move: "METALSOUND",
+      },
+      {
+        level: 25,
+        move: "CRUSHCLAW",
+      },
+      {
+        level: 30,
+        move: "AIRSLASH",
+      },
+      {
+        level: 35,
+        move: "TRIATTACK",
+      },
+      {
+        level: 40,
+        move: "XSCISSOR",
+      },
+      {
+        level: 45,
+        move: "CRUNCH",
+      },
+      {
+        level: 50,
+        move: "TAKEDOWN",
+      },
+      {
+        level: 55,
+        move: "DOUBLEEDGE",
+      },
+      {
+        level: 60,
+        move: "PARTINGSHOT",
+      },
     ],
     tutorMoves: [
       "AERIALACE",
@@ -33004,28 +44837,94 @@ export const pokemonForms: PokemonForm[] = [
     hiddenAbilities: [],
     category: "Synthetic",
     moves: [
-      "MULTIATTACK",
-      "EXPLOSION",
-      "THUNDERFANG",
-      "ICEFANG",
-      "FIREFANG",
-      "POISONFANG",
-      "IMPRISON",
-      "IRONHEAD",
-      "TACKLE",
-      "BITE",
-      "AERIALACE",
-      "SCARYFACE",
-      "DOUBLEHIT",
-      "METALSOUND",
-      "CRUSHCLAW",
-      "AIRSLASH",
-      "TRIATTACK",
-      "XSCISSOR",
-      "CRUNCH",
-      "TAKEDOWN",
-      "DOUBLEEDGE",
-      "PARTINGSHOT",
+      {
+        level: 0,
+        move: "MULTIATTACK",
+      },
+      {
+        level: 1,
+        move: "EXPLOSION",
+      },
+      {
+        level: 1,
+        move: "THUNDERFANG",
+      },
+      {
+        level: 1,
+        move: "ICEFANG",
+      },
+      {
+        level: 1,
+        move: "FIREFANG",
+      },
+      {
+        level: 1,
+        move: "POISONFANG",
+      },
+      {
+        level: 1,
+        move: "IMPRISON",
+      },
+      {
+        level: 1,
+        move: "IRONHEAD",
+      },
+      {
+        level: 1,
+        move: "TACKLE",
+      },
+      {
+        level: 1,
+        move: "BITE",
+      },
+      {
+        level: 1,
+        move: "AERIALACE",
+      },
+      {
+        level: 1,
+        move: "SCARYFACE",
+      },
+      {
+        level: 15,
+        move: "DOUBLEHIT",
+      },
+      {
+        level: 20,
+        move: "METALSOUND",
+      },
+      {
+        level: 25,
+        move: "CRUSHCLAW",
+      },
+      {
+        level: 30,
+        move: "AIRSLASH",
+      },
+      {
+        level: 35,
+        move: "TRIATTACK",
+      },
+      {
+        level: 40,
+        move: "XSCISSOR",
+      },
+      {
+        level: 45,
+        move: "CRUNCH",
+      },
+      {
+        level: 50,
+        move: "TAKEDOWN",
+      },
+      {
+        level: 55,
+        move: "DOUBLEEDGE",
+      },
+      {
+        level: 60,
+        move: "PARTINGSHOT",
+      },
     ],
     tutorMoves: [
       "AERIALACE",
@@ -33134,28 +45033,94 @@ export const pokemonForms: PokemonForm[] = [
     hiddenAbilities: [],
     category: "Synthetic",
     moves: [
-      "MULTIATTACK",
-      "EXPLOSION",
-      "THUNDERFANG",
-      "ICEFANG",
-      "FIREFANG",
-      "POISONFANG",
-      "IMPRISON",
-      "IRONHEAD",
-      "TACKLE",
-      "BITE",
-      "AERIALACE",
-      "SCARYFACE",
-      "DOUBLEHIT",
-      "METALSOUND",
-      "CRUSHCLAW",
-      "AIRSLASH",
-      "TRIATTACK",
-      "XSCISSOR",
-      "CRUNCH",
-      "TAKEDOWN",
-      "DOUBLEEDGE",
-      "PARTINGSHOT",
+      {
+        level: 0,
+        move: "MULTIATTACK",
+      },
+      {
+        level: 1,
+        move: "EXPLOSION",
+      },
+      {
+        level: 1,
+        move: "THUNDERFANG",
+      },
+      {
+        level: 1,
+        move: "ICEFANG",
+      },
+      {
+        level: 1,
+        move: "FIREFANG",
+      },
+      {
+        level: 1,
+        move: "POISONFANG",
+      },
+      {
+        level: 1,
+        move: "IMPRISON",
+      },
+      {
+        level: 1,
+        move: "IRONHEAD",
+      },
+      {
+        level: 1,
+        move: "TACKLE",
+      },
+      {
+        level: 1,
+        move: "BITE",
+      },
+      {
+        level: 1,
+        move: "AERIALACE",
+      },
+      {
+        level: 1,
+        move: "SCARYFACE",
+      },
+      {
+        level: 15,
+        move: "DOUBLEHIT",
+      },
+      {
+        level: 20,
+        move: "METALSOUND",
+      },
+      {
+        level: 25,
+        move: "CRUSHCLAW",
+      },
+      {
+        level: 30,
+        move: "AIRSLASH",
+      },
+      {
+        level: 35,
+        move: "TRIATTACK",
+      },
+      {
+        level: 40,
+        move: "XSCISSOR",
+      },
+      {
+        level: 45,
+        move: "CRUNCH",
+      },
+      {
+        level: 50,
+        move: "TAKEDOWN",
+      },
+      {
+        level: 55,
+        move: "DOUBLEEDGE",
+      },
+      {
+        level: 60,
+        move: "PARTINGSHOT",
+      },
     ],
     tutorMoves: [
       "AERIALACE",
@@ -33264,28 +45229,94 @@ export const pokemonForms: PokemonForm[] = [
     hiddenAbilities: [],
     category: "Synthetic",
     moves: [
-      "MULTIATTACK",
-      "EXPLOSION",
-      "THUNDERFANG",
-      "ICEFANG",
-      "FIREFANG",
-      "POISONFANG",
-      "IMPRISON",
-      "IRONHEAD",
-      "TACKLE",
-      "BITE",
-      "AERIALACE",
-      "SCARYFACE",
-      "DOUBLEHIT",
-      "METALSOUND",
-      "CRUSHCLAW",
-      "AIRSLASH",
-      "TRIATTACK",
-      "XSCISSOR",
-      "CRUNCH",
-      "TAKEDOWN",
-      "DOUBLEEDGE",
-      "PARTINGSHOT",
+      {
+        level: 0,
+        move: "MULTIATTACK",
+      },
+      {
+        level: 1,
+        move: "EXPLOSION",
+      },
+      {
+        level: 1,
+        move: "THUNDERFANG",
+      },
+      {
+        level: 1,
+        move: "ICEFANG",
+      },
+      {
+        level: 1,
+        move: "FIREFANG",
+      },
+      {
+        level: 1,
+        move: "POISONFANG",
+      },
+      {
+        level: 1,
+        move: "IMPRISON",
+      },
+      {
+        level: 1,
+        move: "IRONHEAD",
+      },
+      {
+        level: 1,
+        move: "TACKLE",
+      },
+      {
+        level: 1,
+        move: "BITE",
+      },
+      {
+        level: 1,
+        move: "AERIALACE",
+      },
+      {
+        level: 1,
+        move: "SCARYFACE",
+      },
+      {
+        level: 15,
+        move: "DOUBLEHIT",
+      },
+      {
+        level: 20,
+        move: "METALSOUND",
+      },
+      {
+        level: 25,
+        move: "CRUSHCLAW",
+      },
+      {
+        level: 30,
+        move: "AIRSLASH",
+      },
+      {
+        level: 35,
+        move: "TRIATTACK",
+      },
+      {
+        level: 40,
+        move: "XSCISSOR",
+      },
+      {
+        level: 45,
+        move: "CRUNCH",
+      },
+      {
+        level: 50,
+        move: "TAKEDOWN",
+      },
+      {
+        level: 55,
+        move: "DOUBLEEDGE",
+      },
+      {
+        level: 60,
+        move: "PARTINGSHOT",
+      },
     ],
     tutorMoves: [
       "AERIALACE",
@@ -33394,28 +45425,94 @@ export const pokemonForms: PokemonForm[] = [
     hiddenAbilities: [],
     category: "Synthetic",
     moves: [
-      "MULTIATTACK",
-      "EXPLOSION",
-      "THUNDERFANG",
-      "ICEFANG",
-      "FIREFANG",
-      "POISONFANG",
-      "IMPRISON",
-      "IRONHEAD",
-      "TACKLE",
-      "BITE",
-      "AERIALACE",
-      "SCARYFACE",
-      "DOUBLEHIT",
-      "METALSOUND",
-      "CRUSHCLAW",
-      "AIRSLASH",
-      "TRIATTACK",
-      "XSCISSOR",
-      "CRUNCH",
-      "TAKEDOWN",
-      "DOUBLEEDGE",
-      "PARTINGSHOT",
+      {
+        level: 0,
+        move: "MULTIATTACK",
+      },
+      {
+        level: 1,
+        move: "EXPLOSION",
+      },
+      {
+        level: 1,
+        move: "THUNDERFANG",
+      },
+      {
+        level: 1,
+        move: "ICEFANG",
+      },
+      {
+        level: 1,
+        move: "FIREFANG",
+      },
+      {
+        level: 1,
+        move: "POISONFANG",
+      },
+      {
+        level: 1,
+        move: "IMPRISON",
+      },
+      {
+        level: 1,
+        move: "IRONHEAD",
+      },
+      {
+        level: 1,
+        move: "TACKLE",
+      },
+      {
+        level: 1,
+        move: "BITE",
+      },
+      {
+        level: 1,
+        move: "AERIALACE",
+      },
+      {
+        level: 1,
+        move: "SCARYFACE",
+      },
+      {
+        level: 15,
+        move: "DOUBLEHIT",
+      },
+      {
+        level: 20,
+        move: "METALSOUND",
+      },
+      {
+        level: 25,
+        move: "CRUSHCLAW",
+      },
+      {
+        level: 30,
+        move: "AIRSLASH",
+      },
+      {
+        level: 35,
+        move: "TRIATTACK",
+      },
+      {
+        level: 40,
+        move: "XSCISSOR",
+      },
+      {
+        level: 45,
+        move: "CRUNCH",
+      },
+      {
+        level: 50,
+        move: "TAKEDOWN",
+      },
+      {
+        level: 55,
+        move: "DOUBLEEDGE",
+      },
+      {
+        level: 60,
+        move: "PARTINGSHOT",
+      },
     ],
     tutorMoves: [
       "AERIALACE",
@@ -33524,21 +45621,66 @@ export const pokemonForms: PokemonForm[] = [
     hiddenAbilities: [],
     category: "Meteor",
     moves: [
-      "TACKLE",
-      "DEFENSECURL",
-      "ROLLOUT",
-      "CONFUSERAY",
-      "SWIFT",
-      "ANCIENTPOWER",
-      "SELFDESTRUCT",
-      "STEALTHROCK",
-      "TAKEDOWN",
-      "ROCKPOLISH",
-      "COSMICPOWER",
-      "POWERGEM",
-      "DOUBLEEDGE",
-      "SHELLSMASH",
-      "EXPLOSION",
+      {
+        level: 1,
+        move: "TACKLE",
+      },
+      {
+        level: 3,
+        move: "DEFENSECURL",
+      },
+      {
+        level: 8,
+        move: "ROLLOUT",
+      },
+      {
+        level: 10,
+        move: "CONFUSERAY",
+      },
+      {
+        level: 15,
+        move: "SWIFT",
+      },
+      {
+        level: 17,
+        move: "ANCIENTPOWER",
+      },
+      {
+        level: 22,
+        move: "SELFDESTRUCT",
+      },
+      {
+        level: 24,
+        move: "STEALTHROCK",
+      },
+      {
+        level: 29,
+        move: "TAKEDOWN",
+      },
+      {
+        level: 31,
+        move: "ROCKPOLISH",
+      },
+      {
+        level: 36,
+        move: "COSMICPOWER",
+      },
+      {
+        level: 38,
+        move: "POWERGEM",
+      },
+      {
+        level: 43,
+        move: "DOUBLEEDGE",
+      },
+      {
+        level: 45,
+        move: "SHELLSMASH",
+      },
+      {
+        level: 50,
+        move: "EXPLOSION",
+      },
     ],
     tutorMoves: [
       "ACROBATICS",
@@ -33631,21 +45773,66 @@ export const pokemonForms: PokemonForm[] = [
     hiddenAbilities: [],
     category: "Meteor",
     moves: [
-      "TACKLE",
-      "DEFENSECURL",
-      "ROLLOUT",
-      "CONFUSERAY",
-      "SWIFT",
-      "ANCIENTPOWER",
-      "SELFDESTRUCT",
-      "STEALTHROCK",
-      "TAKEDOWN",
-      "ROCKPOLISH",
-      "COSMICPOWER",
-      "POWERGEM",
-      "DOUBLEEDGE",
-      "SHELLSMASH",
-      "EXPLOSION",
+      {
+        level: 1,
+        move: "TACKLE",
+      },
+      {
+        level: 3,
+        move: "DEFENSECURL",
+      },
+      {
+        level: 8,
+        move: "ROLLOUT",
+      },
+      {
+        level: 10,
+        move: "CONFUSERAY",
+      },
+      {
+        level: 15,
+        move: "SWIFT",
+      },
+      {
+        level: 17,
+        move: "ANCIENTPOWER",
+      },
+      {
+        level: 22,
+        move: "SELFDESTRUCT",
+      },
+      {
+        level: 24,
+        move: "STEALTHROCK",
+      },
+      {
+        level: 29,
+        move: "TAKEDOWN",
+      },
+      {
+        level: 31,
+        move: "ROCKPOLISH",
+      },
+      {
+        level: 36,
+        move: "COSMICPOWER",
+      },
+      {
+        level: 38,
+        move: "POWERGEM",
+      },
+      {
+        level: 43,
+        move: "DOUBLEEDGE",
+      },
+      {
+        level: 45,
+        move: "SHELLSMASH",
+      },
+      {
+        level: 50,
+        move: "EXPLOSION",
+      },
     ],
     tutorMoves: [
       "ACROBATICS",
@@ -33738,21 +45925,66 @@ export const pokemonForms: PokemonForm[] = [
     hiddenAbilities: [],
     category: "Meteor",
     moves: [
-      "TACKLE",
-      "DEFENSECURL",
-      "ROLLOUT",
-      "CONFUSERAY",
-      "SWIFT",
-      "ANCIENTPOWER",
-      "SELFDESTRUCT",
-      "STEALTHROCK",
-      "TAKEDOWN",
-      "ROCKPOLISH",
-      "COSMICPOWER",
-      "POWERGEM",
-      "DOUBLEEDGE",
-      "SHELLSMASH",
-      "EXPLOSION",
+      {
+        level: 1,
+        move: "TACKLE",
+      },
+      {
+        level: 3,
+        move: "DEFENSECURL",
+      },
+      {
+        level: 8,
+        move: "ROLLOUT",
+      },
+      {
+        level: 10,
+        move: "CONFUSERAY",
+      },
+      {
+        level: 15,
+        move: "SWIFT",
+      },
+      {
+        level: 17,
+        move: "ANCIENTPOWER",
+      },
+      {
+        level: 22,
+        move: "SELFDESTRUCT",
+      },
+      {
+        level: 24,
+        move: "STEALTHROCK",
+      },
+      {
+        level: 29,
+        move: "TAKEDOWN",
+      },
+      {
+        level: 31,
+        move: "ROCKPOLISH",
+      },
+      {
+        level: 36,
+        move: "COSMICPOWER",
+      },
+      {
+        level: 38,
+        move: "POWERGEM",
+      },
+      {
+        level: 43,
+        move: "DOUBLEEDGE",
+      },
+      {
+        level: 45,
+        move: "SHELLSMASH",
+      },
+      {
+        level: 50,
+        move: "EXPLOSION",
+      },
     ],
     tutorMoves: [
       "ACROBATICS",
@@ -33845,21 +46077,66 @@ export const pokemonForms: PokemonForm[] = [
     hiddenAbilities: [],
     category: "Meteor",
     moves: [
-      "TACKLE",
-      "DEFENSECURL",
-      "ROLLOUT",
-      "CONFUSERAY",
-      "SWIFT",
-      "ANCIENTPOWER",
-      "SELFDESTRUCT",
-      "STEALTHROCK",
-      "TAKEDOWN",
-      "ROCKPOLISH",
-      "COSMICPOWER",
-      "POWERGEM",
-      "DOUBLEEDGE",
-      "SHELLSMASH",
-      "EXPLOSION",
+      {
+        level: 1,
+        move: "TACKLE",
+      },
+      {
+        level: 3,
+        move: "DEFENSECURL",
+      },
+      {
+        level: 8,
+        move: "ROLLOUT",
+      },
+      {
+        level: 10,
+        move: "CONFUSERAY",
+      },
+      {
+        level: 15,
+        move: "SWIFT",
+      },
+      {
+        level: 17,
+        move: "ANCIENTPOWER",
+      },
+      {
+        level: 22,
+        move: "SELFDESTRUCT",
+      },
+      {
+        level: 24,
+        move: "STEALTHROCK",
+      },
+      {
+        level: 29,
+        move: "TAKEDOWN",
+      },
+      {
+        level: 31,
+        move: "ROCKPOLISH",
+      },
+      {
+        level: 36,
+        move: "COSMICPOWER",
+      },
+      {
+        level: 38,
+        move: "POWERGEM",
+      },
+      {
+        level: 43,
+        move: "DOUBLEEDGE",
+      },
+      {
+        level: 45,
+        move: "SHELLSMASH",
+      },
+      {
+        level: 50,
+        move: "EXPLOSION",
+      },
     ],
     tutorMoves: [
       "ACROBATICS",
@@ -33952,21 +46229,66 @@ export const pokemonForms: PokemonForm[] = [
     hiddenAbilities: [],
     category: "Meteor",
     moves: [
-      "TACKLE",
-      "DEFENSECURL",
-      "ROLLOUT",
-      "CONFUSERAY",
-      "SWIFT",
-      "ANCIENTPOWER",
-      "SELFDESTRUCT",
-      "STEALTHROCK",
-      "TAKEDOWN",
-      "ROCKPOLISH",
-      "COSMICPOWER",
-      "POWERGEM",
-      "DOUBLEEDGE",
-      "SHELLSMASH",
-      "EXPLOSION",
+      {
+        level: 1,
+        move: "TACKLE",
+      },
+      {
+        level: 3,
+        move: "DEFENSECURL",
+      },
+      {
+        level: 8,
+        move: "ROLLOUT",
+      },
+      {
+        level: 10,
+        move: "CONFUSERAY",
+      },
+      {
+        level: 15,
+        move: "SWIFT",
+      },
+      {
+        level: 17,
+        move: "ANCIENTPOWER",
+      },
+      {
+        level: 22,
+        move: "SELFDESTRUCT",
+      },
+      {
+        level: 24,
+        move: "STEALTHROCK",
+      },
+      {
+        level: 29,
+        move: "TAKEDOWN",
+      },
+      {
+        level: 31,
+        move: "ROCKPOLISH",
+      },
+      {
+        level: 36,
+        move: "COSMICPOWER",
+      },
+      {
+        level: 38,
+        move: "POWERGEM",
+      },
+      {
+        level: 43,
+        move: "DOUBLEEDGE",
+      },
+      {
+        level: 45,
+        move: "SHELLSMASH",
+      },
+      {
+        level: 50,
+        move: "EXPLOSION",
+      },
     ],
     tutorMoves: [
       "ACROBATICS",
@@ -34059,21 +46381,66 @@ export const pokemonForms: PokemonForm[] = [
     hiddenAbilities: [],
     category: "Meteor",
     moves: [
-      "TACKLE",
-      "DEFENSECURL",
-      "ROLLOUT",
-      "CONFUSERAY",
-      "SWIFT",
-      "ANCIENTPOWER",
-      "SELFDESTRUCT",
-      "STEALTHROCK",
-      "TAKEDOWN",
-      "ROCKPOLISH",
-      "COSMICPOWER",
-      "POWERGEM",
-      "DOUBLEEDGE",
-      "SHELLSMASH",
-      "EXPLOSION",
+      {
+        level: 1,
+        move: "TACKLE",
+      },
+      {
+        level: 3,
+        move: "DEFENSECURL",
+      },
+      {
+        level: 8,
+        move: "ROLLOUT",
+      },
+      {
+        level: 10,
+        move: "CONFUSERAY",
+      },
+      {
+        level: 15,
+        move: "SWIFT",
+      },
+      {
+        level: 17,
+        move: "ANCIENTPOWER",
+      },
+      {
+        level: 22,
+        move: "SELFDESTRUCT",
+      },
+      {
+        level: 24,
+        move: "STEALTHROCK",
+      },
+      {
+        level: 29,
+        move: "TAKEDOWN",
+      },
+      {
+        level: 31,
+        move: "ROCKPOLISH",
+      },
+      {
+        level: 36,
+        move: "COSMICPOWER",
+      },
+      {
+        level: 38,
+        move: "POWERGEM",
+      },
+      {
+        level: 43,
+        move: "DOUBLEEDGE",
+      },
+      {
+        level: 45,
+        move: "SHELLSMASH",
+      },
+      {
+        level: 50,
+        move: "EXPLOSION",
+      },
     ],
     tutorMoves: [
       "ACROBATICS",
@@ -34166,21 +46533,66 @@ export const pokemonForms: PokemonForm[] = [
     hiddenAbilities: [],
     category: "Meteor",
     moves: [
-      "TACKLE",
-      "DEFENSECURL",
-      "ROLLOUT",
-      "CONFUSERAY",
-      "SWIFT",
-      "ANCIENTPOWER",
-      "SELFDESTRUCT",
-      "STEALTHROCK",
-      "TAKEDOWN",
-      "ROCKPOLISH",
-      "COSMICPOWER",
-      "POWERGEM",
-      "DOUBLEEDGE",
-      "SHELLSMASH",
-      "EXPLOSION",
+      {
+        level: 1,
+        move: "TACKLE",
+      },
+      {
+        level: 3,
+        move: "DEFENSECURL",
+      },
+      {
+        level: 8,
+        move: "ROLLOUT",
+      },
+      {
+        level: 10,
+        move: "CONFUSERAY",
+      },
+      {
+        level: 15,
+        move: "SWIFT",
+      },
+      {
+        level: 17,
+        move: "ANCIENTPOWER",
+      },
+      {
+        level: 22,
+        move: "SELFDESTRUCT",
+      },
+      {
+        level: 24,
+        move: "STEALTHROCK",
+      },
+      {
+        level: 29,
+        move: "TAKEDOWN",
+      },
+      {
+        level: 31,
+        move: "ROCKPOLISH",
+      },
+      {
+        level: 36,
+        move: "COSMICPOWER",
+      },
+      {
+        level: 38,
+        move: "POWERGEM",
+      },
+      {
+        level: 43,
+        move: "DOUBLEEDGE",
+      },
+      {
+        level: 45,
+        move: "SHELLSMASH",
+      },
+      {
+        level: 50,
+        move: "EXPLOSION",
+      },
     ],
     tutorMoves: [
       "ACROBATICS",
@@ -34273,21 +46685,66 @@ export const pokemonForms: PokemonForm[] = [
     hiddenAbilities: [],
     category: "Disguise",
     moves: [
-      "SPLASH",
-      "SCRATCH",
-      "ASTONISH",
-      "COPYCAT",
-      "WOODHAMMER",
-      "SHADOWSNEAK",
-      "DOUBLETEAM",
-      "BABYDOLLEYES",
-      "MIMIC",
-      "HONECLAWS",
-      "SLASH",
-      "SHADOWCLAW",
-      "CHARM",
-      "PLAYROUGH",
-      "PAINSPLIT",
+      {
+        level: 1,
+        move: "SPLASH",
+      },
+      {
+        level: 1,
+        move: "SCRATCH",
+      },
+      {
+        level: 1,
+        move: "ASTONISH",
+      },
+      {
+        level: 1,
+        move: "COPYCAT",
+      },
+      {
+        level: 1,
+        move: "WOODHAMMER",
+      },
+      {
+        level: 6,
+        move: "SHADOWSNEAK",
+      },
+      {
+        level: 12,
+        move: "DOUBLETEAM",
+      },
+      {
+        level: 18,
+        move: "BABYDOLLEYES",
+      },
+      {
+        level: 24,
+        move: "MIMIC",
+      },
+      {
+        level: 30,
+        move: "HONECLAWS",
+      },
+      {
+        level: 36,
+        move: "SLASH",
+      },
+      {
+        level: 42,
+        move: "SHADOWCLAW",
+      },
+      {
+        level: 48,
+        move: "CHARM",
+      },
+      {
+        level: 54,
+        move: "PLAYROUGH",
+      },
+      {
+        level: 60,
+        move: "PAINSPLIT",
+      },
     ],
     tutorMoves: [
       "AFTERYOU",
@@ -34397,22 +46854,70 @@ export const pokemonForms: PokemonForm[] = [
     hiddenAbilities: [],
     category: "Prism",
     moves: [
-      "MOONLIGHT",
-      "MORNINGSUN",
-      "CHARGEBEAM",
-      "METALCLAW",
-      "CONFUSION",
-      "STEALTHROCK",
-      "SLASH",
-      "NIGHTSLASH",
-      "PSYCHOCUT",
-      "STOREDPOWER",
-      "ROCKBLAST",
-      "IRONDEFENSE",
-      "POWERGEM",
-      "PHOTONGEYSER",
-      "GRAVITY",
-      "PRISMATICLASER",
+      {
+        level: 1,
+        move: "MOONLIGHT",
+      },
+      {
+        level: 1,
+        move: "MORNINGSUN",
+      },
+      {
+        level: 1,
+        move: "CHARGEBEAM",
+      },
+      {
+        level: 1,
+        move: "METALCLAW",
+      },
+      {
+        level: 1,
+        move: "CONFUSION",
+      },
+      {
+        level: 8,
+        move: "STEALTHROCK",
+      },
+      {
+        level: 16,
+        move: "SLASH",
+      },
+      {
+        level: 24,
+        move: "NIGHTSLASH",
+      },
+      {
+        level: 32,
+        move: "PSYCHOCUT",
+      },
+      {
+        level: 40,
+        move: "STOREDPOWER",
+      },
+      {
+        level: 48,
+        move: "ROCKBLAST",
+      },
+      {
+        level: 56,
+        move: "IRONDEFENSE",
+      },
+      {
+        level: 64,
+        move: "POWERGEM",
+      },
+      {
+        level: 72,
+        move: "PHOTONGEYSER",
+      },
+      {
+        level: 80,
+        move: "GRAVITY",
+      },
+      {
+        level: 88,
+        move: "PRISMATICLASER",
+      },
     ],
     tutorMoves: [
       "AERIALACE",
@@ -34527,22 +47032,70 @@ export const pokemonForms: PokemonForm[] = [
     hiddenAbilities: [],
     category: "Prism",
     moves: [
-      "MOONLIGHT",
-      "MORNINGSUN",
-      "CHARGEBEAM",
-      "METALCLAW",
-      "CONFUSION",
-      "STEALTHROCK",
-      "SLASH",
-      "NIGHTSLASH",
-      "PSYCHOCUT",
-      "STOREDPOWER",
-      "ROCKBLAST",
-      "IRONDEFENSE",
-      "POWERGEM",
-      "PHOTONGEYSER",
-      "GRAVITY",
-      "PRISMATICLASER",
+      {
+        level: 1,
+        move: "MOONLIGHT",
+      },
+      {
+        level: 1,
+        move: "MORNINGSUN",
+      },
+      {
+        level: 1,
+        move: "CHARGEBEAM",
+      },
+      {
+        level: 1,
+        move: "METALCLAW",
+      },
+      {
+        level: 1,
+        move: "CONFUSION",
+      },
+      {
+        level: 8,
+        move: "STEALTHROCK",
+      },
+      {
+        level: 16,
+        move: "SLASH",
+      },
+      {
+        level: 24,
+        move: "NIGHTSLASH",
+      },
+      {
+        level: 32,
+        move: "PSYCHOCUT",
+      },
+      {
+        level: 40,
+        move: "STOREDPOWER",
+      },
+      {
+        level: 48,
+        move: "ROCKBLAST",
+      },
+      {
+        level: 56,
+        move: "IRONDEFENSE",
+      },
+      {
+        level: 64,
+        move: "POWERGEM",
+      },
+      {
+        level: 72,
+        move: "PHOTONGEYSER",
+      },
+      {
+        level: 80,
+        move: "GRAVITY",
+      },
+      {
+        level: 88,
+        move: "PRISMATICLASER",
+      },
     ],
     tutorMoves: [
       "AERIALACE",
@@ -34657,22 +47210,70 @@ export const pokemonForms: PokemonForm[] = [
     hiddenAbilities: [],
     category: "Prism",
     moves: [
-      "MOONLIGHT",
-      "MORNINGSUN",
-      "CHARGEBEAM",
-      "METALCLAW",
-      "CONFUSION",
-      "STEALTHROCK",
-      "SLASH",
-      "NIGHTSLASH",
-      "PSYCHOCUT",
-      "STOREDPOWER",
-      "ROCKBLAST",
-      "IRONDEFENSE",
-      "POWERGEM",
-      "PHOTONGEYSER",
-      "GRAVITY",
-      "PRISMATICLASER",
+      {
+        level: 1,
+        move: "MOONLIGHT",
+      },
+      {
+        level: 1,
+        move: "MORNINGSUN",
+      },
+      {
+        level: 1,
+        move: "CHARGEBEAM",
+      },
+      {
+        level: 1,
+        move: "METALCLAW",
+      },
+      {
+        level: 1,
+        move: "CONFUSION",
+      },
+      {
+        level: 8,
+        move: "STEALTHROCK",
+      },
+      {
+        level: 16,
+        move: "SLASH",
+      },
+      {
+        level: 24,
+        move: "NIGHTSLASH",
+      },
+      {
+        level: 32,
+        move: "PSYCHOCUT",
+      },
+      {
+        level: 40,
+        move: "STOREDPOWER",
+      },
+      {
+        level: 48,
+        move: "ROCKBLAST",
+      },
+      {
+        level: 56,
+        move: "IRONDEFENSE",
+      },
+      {
+        level: 64,
+        move: "POWERGEM",
+      },
+      {
+        level: 72,
+        move: "PHOTONGEYSER",
+      },
+      {
+        level: 80,
+        move: "GRAVITY",
+      },
+      {
+        level: 88,
+        move: "PRISMATICLASER",
+      },
     ],
     tutorMoves: [
       "AERIALACE",
@@ -34787,22 +47388,70 @@ export const pokemonForms: PokemonForm[] = [
     hiddenAbilities: [],
     category: "Prism",
     moves: [
-      "MOONLIGHT",
-      "MORNINGSUN",
-      "CHARGEBEAM",
-      "METALCLAW",
-      "CONFUSION",
-      "STEALTHROCK",
-      "SLASH",
-      "NIGHTSLASH",
-      "PSYCHOCUT",
-      "STOREDPOWER",
-      "ROCKBLAST",
-      "IRONDEFENSE",
-      "POWERGEM",
-      "PHOTONGEYSER",
-      "GRAVITY",
-      "PRISMATICLASER",
+      {
+        level: 1,
+        move: "MOONLIGHT",
+      },
+      {
+        level: 1,
+        move: "MORNINGSUN",
+      },
+      {
+        level: 1,
+        move: "CHARGEBEAM",
+      },
+      {
+        level: 1,
+        move: "METALCLAW",
+      },
+      {
+        level: 1,
+        move: "CONFUSION",
+      },
+      {
+        level: 8,
+        move: "STEALTHROCK",
+      },
+      {
+        level: 16,
+        move: "SLASH",
+      },
+      {
+        level: 24,
+        move: "NIGHTSLASH",
+      },
+      {
+        level: 32,
+        move: "PSYCHOCUT",
+      },
+      {
+        level: 40,
+        move: "STOREDPOWER",
+      },
+      {
+        level: 48,
+        move: "ROCKBLAST",
+      },
+      {
+        level: 56,
+        move: "IRONDEFENSE",
+      },
+      {
+        level: 64,
+        move: "POWERGEM",
+      },
+      {
+        level: 72,
+        move: "PHOTONGEYSER",
+      },
+      {
+        level: 80,
+        move: "GRAVITY",
+      },
+      {
+        level: 88,
+        move: "PRISMATICLASER",
+      },
     ],
     tutorMoves: [
       "AERIALACE",
@@ -34917,23 +47566,74 @@ export const pokemonForms: PokemonForm[] = [
     hiddenAbilities: [],
     category: "Artificial",
     moves: [
-      "GYROBALL",
-      "HELPINGHAND",
-      "DEFENSECURL",
-      "ROLLOUT",
-      "IRONDEFENSE",
-      "MAGNETICFLUX",
-      "PSYBEAM",
-      "AURORABEAM",
-      "LOCKON",
-      "SHIFTGEAR",
-      "TRICK",
-      "IRONHEAD",
-      "AURASPHERE",
-      "FLASHCANNON",
-      "PAINSPLIT",
-      "ZAPCANNON",
-      "FLEURCANNON",
+      {
+        level: 1,
+        move: "GYROBALL",
+      },
+      {
+        level: 1,
+        move: "HELPINGHAND",
+      },
+      {
+        level: 6,
+        move: "DEFENSECURL",
+      },
+      {
+        level: 12,
+        move: "ROLLOUT",
+      },
+      {
+        level: 18,
+        move: "IRONDEFENSE",
+      },
+      {
+        level: 24,
+        move: "MAGNETICFLUX",
+      },
+      {
+        level: 30,
+        move: "PSYBEAM",
+      },
+      {
+        level: 36,
+        move: "AURORABEAM",
+      },
+      {
+        level: 42,
+        move: "LOCKON",
+      },
+      {
+        level: 48,
+        move: "SHIFTGEAR",
+      },
+      {
+        level: 54,
+        move: "TRICK",
+      },
+      {
+        level: 60,
+        move: "IRONHEAD",
+      },
+      {
+        level: 66,
+        move: "AURASPHERE",
+      },
+      {
+        level: 72,
+        move: "FLASHCANNON",
+      },
+      {
+        level: 78,
+        move: "PAINSPLIT",
+      },
+      {
+        level: 84,
+        move: "ZAPCANNON",
+      },
+      {
+        level: 90,
+        move: "FLEURCANNON",
+      },
     ],
     tutorMoves: [
       "AFTERYOU",
@@ -35059,19 +47759,58 @@ export const pokemonForms: PokemonForm[] = [
     hiddenAbilities: [],
     category: "Gulp",
     moves: [
-      "BELCH",
-      "PECK",
-      "STOCKPILE",
-      "SPITUP",
-      "SWALLOW",
-      "WATERGUN",
-      "FURYATTACK",
-      "PLUCK",
-      "DIVE",
-      "DRILLPECK",
-      "AMNESIA",
-      "THRASH",
-      "HYDROPUMP",
+      {
+        level: 1,
+        move: "BELCH",
+      },
+      {
+        level: 1,
+        move: "PECK",
+      },
+      {
+        level: 1,
+        move: "STOCKPILE",
+      },
+      {
+        level: 1,
+        move: "SPITUP",
+      },
+      {
+        level: 1,
+        move: "SWALLOW",
+      },
+      {
+        level: 7,
+        move: "WATERGUN",
+      },
+      {
+        level: 14,
+        move: "FURYATTACK",
+      },
+      {
+        level: 21,
+        move: "PLUCK",
+      },
+      {
+        level: 28,
+        move: "DIVE",
+      },
+      {
+        level: 35,
+        move: "DRILLPECK",
+      },
+      {
+        level: 42,
+        move: "AMNESIA",
+      },
+      {
+        level: 49,
+        move: "THRASH",
+      },
+      {
+        level: 56,
+        move: "HYDROPUMP",
+      },
     ],
     tutorMoves: [
       "ACROBATICS",
@@ -35169,19 +47908,58 @@ export const pokemonForms: PokemonForm[] = [
     hiddenAbilities: [],
     category: "Gulp",
     moves: [
-      "BELCH",
-      "PECK",
-      "STOCKPILE",
-      "SPITUP",
-      "SWALLOW",
-      "WATERGUN",
-      "FURYATTACK",
-      "PLUCK",
-      "DIVE",
-      "DRILLPECK",
-      "AMNESIA",
-      "THRASH",
-      "HYDROPUMP",
+      {
+        level: 1,
+        move: "BELCH",
+      },
+      {
+        level: 1,
+        move: "PECK",
+      },
+      {
+        level: 1,
+        move: "STOCKPILE",
+      },
+      {
+        level: 1,
+        move: "SPITUP",
+      },
+      {
+        level: 1,
+        move: "SWALLOW",
+      },
+      {
+        level: 7,
+        move: "WATERGUN",
+      },
+      {
+        level: 14,
+        move: "FURYATTACK",
+      },
+      {
+        level: 21,
+        move: "PLUCK",
+      },
+      {
+        level: 28,
+        move: "DIVE",
+      },
+      {
+        level: 35,
+        move: "DRILLPECK",
+      },
+      {
+        level: 42,
+        move: "AMNESIA",
+      },
+      {
+        level: 49,
+        move: "THRASH",
+      },
+      {
+        level: 56,
+        move: "HYDROPUMP",
+      },
     ],
     tutorMoves: [
       "ACROBATICS",
@@ -35279,29 +48057,98 @@ export const pokemonForms: PokemonForm[] = [
     hiddenAbilities: ["TECHNICIAN"],
     category: "Punk",
     moves: [
-      "SPARK",
-      "BELCH",
-      "TEARFULLOOK",
-      "NUZZLE",
-      "GROWL",
-      "FLAIL",
-      "ACID",
-      "THUNDERSHOCK",
-      "ACIDSPRAY",
-      "LEER",
-      "NOBLEROAR",
-      "CHARGE",
-      "SHOCKWAVE",
-      "SCARYFACE",
-      "TAUNT",
-      "SCREECH",
-      "SWAGGER",
-      "TOXIC",
-      "DISCHARGE",
-      "POISONJAB",
-      "OVERDRIVE",
-      "BOOMBURST",
-      "MAGNETICFLUX",
+      {
+        level: 0,
+        move: "SPARK",
+      },
+      {
+        level: 1,
+        move: "BELCH",
+      },
+      {
+        level: 1,
+        move: "TEARFULLOOK",
+      },
+      {
+        level: 1,
+        move: "NUZZLE",
+      },
+      {
+        level: 1,
+        move: "GROWL",
+      },
+      {
+        level: 1,
+        move: "FLAIL",
+      },
+      {
+        level: 1,
+        move: "ACID",
+      },
+      {
+        level: 1,
+        move: "THUNDERSHOCK",
+      },
+      {
+        level: 1,
+        move: "ACIDSPRAY",
+      },
+      {
+        level: 1,
+        move: "LEER",
+      },
+      {
+        level: 1,
+        move: "NOBLEROAR",
+      },
+      {
+        level: 4,
+        move: "CHARGE",
+      },
+      {
+        level: 8,
+        move: "SHOCKWAVE",
+      },
+      {
+        level: 12,
+        move: "SCARYFACE",
+      },
+      {
+        level: 16,
+        move: "TAUNT",
+      },
+      {
+        level: 24,
+        move: "SCREECH",
+      },
+      {
+        level: 28,
+        move: "SWAGGER",
+      },
+      {
+        level: 32,
+        move: "TOXIC",
+      },
+      {
+        level: 36,
+        move: "DISCHARGE",
+      },
+      {
+        level: 40,
+        move: "POISONJAB",
+      },
+      {
+        level: 44,
+        move: "OVERDRIVE",
+      },
+      {
+        level: 48,
+        move: "BOOMBURST",
+      },
+      {
+        level: 52,
+        move: "MAGNETICFLUX",
+      },
     ],
     tutorMoves: [
       "ATTRACT",
@@ -35390,17 +48237,50 @@ export const pokemonForms: PokemonForm[] = [
     hiddenAbilities: ["CURSEDBODY"],
     category: "Black Tea",
     moves: [
-      "ASTONISH",
-      "WITHDRAW",
-      "AROMATICMIST",
-      "MEGADRAIN",
-      "SUCKERPUNCH",
-      "SWEETSCENT",
-      "GIGADRAIN",
-      "NASTYPLOT",
-      "SHADOWBALL",
-      "MEMENTO",
-      "SHELLSMASH",
+      {
+        level: 1,
+        move: "ASTONISH",
+      },
+      {
+        level: 1,
+        move: "WITHDRAW",
+      },
+      {
+        level: 6,
+        move: "AROMATICMIST",
+      },
+      {
+        level: 12,
+        move: "MEGADRAIN",
+      },
+      {
+        level: 24,
+        move: "SUCKERPUNCH",
+      },
+      {
+        level: 30,
+        move: "SWEETSCENT",
+      },
+      {
+        level: 36,
+        move: "GIGADRAIN",
+      },
+      {
+        level: 42,
+        move: "NASTYPLOT",
+      },
+      {
+        level: 48,
+        move: "SHADOWBALL",
+      },
+      {
+        level: 54,
+        move: "MEMENTO",
+      },
+      {
+        level: 60,
+        move: "SHELLSMASH",
+      },
     ],
     tutorMoves: [
       "ALLYSWITCH",
@@ -35487,21 +48367,66 @@ export const pokemonForms: PokemonForm[] = [
     hiddenAbilities: ["CURSEDBODY"],
     category: "Black Tea",
     moves: [
-      "TEATIME",
-      "STRENGTHSAP",
-      "ASTONISH",
-      "WITHDRAW",
-      "AROMATICMIST",
-      "MEGADRAIN",
-      "PROTECT",
-      "SUCKERPUNCH",
-      "SWEETSCENT",
-      "GIGADRAIN",
-      "NASTYPLOT",
-      "SHADOWBALL",
-      "MEMENTO",
-      "SHELLSMASH",
-      "CURSE",
+      {
+        level: 0,
+        move: "TEATIME",
+      },
+      {
+        level: 1,
+        move: "STRENGTHSAP",
+      },
+      {
+        level: 1,
+        move: "ASTONISH",
+      },
+      {
+        level: 1,
+        move: "WITHDRAW",
+      },
+      {
+        level: 1,
+        move: "AROMATICMIST",
+      },
+      {
+        level: 1,
+        move: "MEGADRAIN",
+      },
+      {
+        level: 18,
+        move: "PROTECT",
+      },
+      {
+        level: 24,
+        move: "SUCKERPUNCH",
+      },
+      {
+        level: 30,
+        move: "SWEETSCENT",
+      },
+      {
+        level: 36,
+        move: "GIGADRAIN",
+      },
+      {
+        level: 42,
+        move: "NASTYPLOT",
+      },
+      {
+        level: 48,
+        move: "SHADOWBALL",
+      },
+      {
+        level: 54,
+        move: "MEMENTO",
+      },
+      {
+        level: 60,
+        move: "SHELLSMASH",
+      },
+      {
+        level: 66,
+        move: "CURSE",
+      },
     ],
     tutorMoves: [
       "ALLYSWITCH",
@@ -35588,19 +48513,58 @@ export const pokemonForms: PokemonForm[] = [
     hiddenAbilities: ["AROMAVEIL"],
     category: "Cream",
     moves: [
-      "DECORATE",
-      "TACKLE",
-      "AROMATICMIST",
-      "SWEETKISS",
-      "SWEETSCENT",
-      "DRAININGKISS",
-      "CHARM",
-      "ATTRACT",
-      "ACIDARMOR",
-      "DAZZLINGGLEAM",
-      "RECOVER",
-      "MISTYTERRAIN",
-      "ENTRAINMENT",
+      {
+        level: 0,
+        move: "DECORATE",
+      },
+      {
+        level: 1,
+        move: "TACKLE",
+      },
+      {
+        level: 1,
+        move: "AROMATICMIST",
+      },
+      {
+        level: 1,
+        move: "SWEETKISS",
+      },
+      {
+        level: 1,
+        move: "SWEETSCENT",
+      },
+      {
+        level: 15,
+        move: "DRAININGKISS",
+      },
+      {
+        level: 20,
+        move: "CHARM",
+      },
+      {
+        level: 25,
+        move: "ATTRACT",
+      },
+      {
+        level: 30,
+        move: "ACIDARMOR",
+      },
+      {
+        level: 35,
+        move: "DAZZLINGGLEAM",
+      },
+      {
+        level: 40,
+        move: "RECOVER",
+      },
+      {
+        level: 45,
+        move: "MISTYTERRAIN",
+      },
+      {
+        level: 50,
+        move: "ENTRAINMENT",
+      },
     ],
     tutorMoves: [
       "ALLURINGVOICE",
@@ -35689,19 +48653,58 @@ export const pokemonForms: PokemonForm[] = [
     hiddenAbilities: ["AROMAVEIL"],
     category: "Cream",
     moves: [
-      "DECORATE",
-      "TACKLE",
-      "AROMATICMIST",
-      "SWEETKISS",
-      "SWEETSCENT",
-      "DRAININGKISS",
-      "CHARM",
-      "ATTRACT",
-      "ACIDARMOR",
-      "DAZZLINGGLEAM",
-      "RECOVER",
-      "MISTYTERRAIN",
-      "ENTRAINMENT",
+      {
+        level: 0,
+        move: "DECORATE",
+      },
+      {
+        level: 1,
+        move: "TACKLE",
+      },
+      {
+        level: 1,
+        move: "AROMATICMIST",
+      },
+      {
+        level: 1,
+        move: "SWEETKISS",
+      },
+      {
+        level: 1,
+        move: "SWEETSCENT",
+      },
+      {
+        level: 15,
+        move: "DRAININGKISS",
+      },
+      {
+        level: 20,
+        move: "CHARM",
+      },
+      {
+        level: 25,
+        move: "ATTRACT",
+      },
+      {
+        level: 30,
+        move: "ACIDARMOR",
+      },
+      {
+        level: 35,
+        move: "DAZZLINGGLEAM",
+      },
+      {
+        level: 40,
+        move: "RECOVER",
+      },
+      {
+        level: 45,
+        move: "MISTYTERRAIN",
+      },
+      {
+        level: 50,
+        move: "ENTRAINMENT",
+      },
     ],
     tutorMoves: [
       "ALLURINGVOICE",
@@ -35790,19 +48793,58 @@ export const pokemonForms: PokemonForm[] = [
     hiddenAbilities: ["AROMAVEIL"],
     category: "Cream",
     moves: [
-      "DECORATE",
-      "TACKLE",
-      "AROMATICMIST",
-      "SWEETKISS",
-      "SWEETSCENT",
-      "DRAININGKISS",
-      "CHARM",
-      "ATTRACT",
-      "ACIDARMOR",
-      "DAZZLINGGLEAM",
-      "RECOVER",
-      "MISTYTERRAIN",
-      "ENTRAINMENT",
+      {
+        level: 0,
+        move: "DECORATE",
+      },
+      {
+        level: 1,
+        move: "TACKLE",
+      },
+      {
+        level: 1,
+        move: "AROMATICMIST",
+      },
+      {
+        level: 1,
+        move: "SWEETKISS",
+      },
+      {
+        level: 1,
+        move: "SWEETSCENT",
+      },
+      {
+        level: 15,
+        move: "DRAININGKISS",
+      },
+      {
+        level: 20,
+        move: "CHARM",
+      },
+      {
+        level: 25,
+        move: "ATTRACT",
+      },
+      {
+        level: 30,
+        move: "ACIDARMOR",
+      },
+      {
+        level: 35,
+        move: "DAZZLINGGLEAM",
+      },
+      {
+        level: 40,
+        move: "RECOVER",
+      },
+      {
+        level: 45,
+        move: "MISTYTERRAIN",
+      },
+      {
+        level: 50,
+        move: "ENTRAINMENT",
+      },
     ],
     tutorMoves: [
       "ALLURINGVOICE",
@@ -35891,19 +48933,58 @@ export const pokemonForms: PokemonForm[] = [
     hiddenAbilities: ["AROMAVEIL"],
     category: "Cream",
     moves: [
-      "DECORATE",
-      "TACKLE",
-      "AROMATICMIST",
-      "SWEETKISS",
-      "SWEETSCENT",
-      "DRAININGKISS",
-      "CHARM",
-      "ATTRACT",
-      "ACIDARMOR",
-      "DAZZLINGGLEAM",
-      "RECOVER",
-      "MISTYTERRAIN",
-      "ENTRAINMENT",
+      {
+        level: 0,
+        move: "DECORATE",
+      },
+      {
+        level: 1,
+        move: "TACKLE",
+      },
+      {
+        level: 1,
+        move: "AROMATICMIST",
+      },
+      {
+        level: 1,
+        move: "SWEETKISS",
+      },
+      {
+        level: 1,
+        move: "SWEETSCENT",
+      },
+      {
+        level: 15,
+        move: "DRAININGKISS",
+      },
+      {
+        level: 20,
+        move: "CHARM",
+      },
+      {
+        level: 25,
+        move: "ATTRACT",
+      },
+      {
+        level: 30,
+        move: "ACIDARMOR",
+      },
+      {
+        level: 35,
+        move: "DAZZLINGGLEAM",
+      },
+      {
+        level: 40,
+        move: "RECOVER",
+      },
+      {
+        level: 45,
+        move: "MISTYTERRAIN",
+      },
+      {
+        level: 50,
+        move: "ENTRAINMENT",
+      },
     ],
     tutorMoves: [
       "ALLURINGVOICE",
@@ -35992,19 +49073,58 @@ export const pokemonForms: PokemonForm[] = [
     hiddenAbilities: ["AROMAVEIL"],
     category: "Cream",
     moves: [
-      "DECORATE",
-      "TACKLE",
-      "AROMATICMIST",
-      "SWEETKISS",
-      "SWEETSCENT",
-      "DRAININGKISS",
-      "CHARM",
-      "ATTRACT",
-      "ACIDARMOR",
-      "DAZZLINGGLEAM",
-      "RECOVER",
-      "MISTYTERRAIN",
-      "ENTRAINMENT",
+      {
+        level: 0,
+        move: "DECORATE",
+      },
+      {
+        level: 1,
+        move: "TACKLE",
+      },
+      {
+        level: 1,
+        move: "AROMATICMIST",
+      },
+      {
+        level: 1,
+        move: "SWEETKISS",
+      },
+      {
+        level: 1,
+        move: "SWEETSCENT",
+      },
+      {
+        level: 15,
+        move: "DRAININGKISS",
+      },
+      {
+        level: 20,
+        move: "CHARM",
+      },
+      {
+        level: 25,
+        move: "ATTRACT",
+      },
+      {
+        level: 30,
+        move: "ACIDARMOR",
+      },
+      {
+        level: 35,
+        move: "DAZZLINGGLEAM",
+      },
+      {
+        level: 40,
+        move: "RECOVER",
+      },
+      {
+        level: 45,
+        move: "MISTYTERRAIN",
+      },
+      {
+        level: 50,
+        move: "ENTRAINMENT",
+      },
     ],
     tutorMoves: [
       "ALLURINGVOICE",
@@ -36093,19 +49213,58 @@ export const pokemonForms: PokemonForm[] = [
     hiddenAbilities: ["AROMAVEIL"],
     category: "Cream",
     moves: [
-      "DECORATE",
-      "TACKLE",
-      "AROMATICMIST",
-      "SWEETKISS",
-      "SWEETSCENT",
-      "DRAININGKISS",
-      "CHARM",
-      "ATTRACT",
-      "ACIDARMOR",
-      "DAZZLINGGLEAM",
-      "RECOVER",
-      "MISTYTERRAIN",
-      "ENTRAINMENT",
+      {
+        level: 0,
+        move: "DECORATE",
+      },
+      {
+        level: 1,
+        move: "TACKLE",
+      },
+      {
+        level: 1,
+        move: "AROMATICMIST",
+      },
+      {
+        level: 1,
+        move: "SWEETKISS",
+      },
+      {
+        level: 1,
+        move: "SWEETSCENT",
+      },
+      {
+        level: 15,
+        move: "DRAININGKISS",
+      },
+      {
+        level: 20,
+        move: "CHARM",
+      },
+      {
+        level: 25,
+        move: "ATTRACT",
+      },
+      {
+        level: 30,
+        move: "ACIDARMOR",
+      },
+      {
+        level: 35,
+        move: "DAZZLINGGLEAM",
+      },
+      {
+        level: 40,
+        move: "RECOVER",
+      },
+      {
+        level: 45,
+        move: "MISTYTERRAIN",
+      },
+      {
+        level: 50,
+        move: "ENTRAINMENT",
+      },
     ],
     tutorMoves: [
       "ALLURINGVOICE",
@@ -36194,19 +49353,58 @@ export const pokemonForms: PokemonForm[] = [
     hiddenAbilities: ["AROMAVEIL"],
     category: "Cream",
     moves: [
-      "DECORATE",
-      "TACKLE",
-      "AROMATICMIST",
-      "SWEETKISS",
-      "SWEETSCENT",
-      "DRAININGKISS",
-      "CHARM",
-      "ATTRACT",
-      "ACIDARMOR",
-      "DAZZLINGGLEAM",
-      "RECOVER",
-      "MISTYTERRAIN",
-      "ENTRAINMENT",
+      {
+        level: 0,
+        move: "DECORATE",
+      },
+      {
+        level: 1,
+        move: "TACKLE",
+      },
+      {
+        level: 1,
+        move: "AROMATICMIST",
+      },
+      {
+        level: 1,
+        move: "SWEETKISS",
+      },
+      {
+        level: 1,
+        move: "SWEETSCENT",
+      },
+      {
+        level: 15,
+        move: "DRAININGKISS",
+      },
+      {
+        level: 20,
+        move: "CHARM",
+      },
+      {
+        level: 25,
+        move: "ATTRACT",
+      },
+      {
+        level: 30,
+        move: "ACIDARMOR",
+      },
+      {
+        level: 35,
+        move: "DAZZLINGGLEAM",
+      },
+      {
+        level: 40,
+        move: "RECOVER",
+      },
+      {
+        level: 45,
+        move: "MISTYTERRAIN",
+      },
+      {
+        level: 50,
+        move: "ENTRAINMENT",
+      },
     ],
     tutorMoves: [
       "ALLURINGVOICE",
@@ -36295,19 +49493,58 @@ export const pokemonForms: PokemonForm[] = [
     hiddenAbilities: ["AROMAVEIL"],
     category: "Cream",
     moves: [
-      "DECORATE",
-      "TACKLE",
-      "AROMATICMIST",
-      "SWEETKISS",
-      "SWEETSCENT",
-      "DRAININGKISS",
-      "CHARM",
-      "ATTRACT",
-      "ACIDARMOR",
-      "DAZZLINGGLEAM",
-      "RECOVER",
-      "MISTYTERRAIN",
-      "ENTRAINMENT",
+      {
+        level: 0,
+        move: "DECORATE",
+      },
+      {
+        level: 1,
+        move: "TACKLE",
+      },
+      {
+        level: 1,
+        move: "AROMATICMIST",
+      },
+      {
+        level: 1,
+        move: "SWEETKISS",
+      },
+      {
+        level: 1,
+        move: "SWEETSCENT",
+      },
+      {
+        level: 15,
+        move: "DRAININGKISS",
+      },
+      {
+        level: 20,
+        move: "CHARM",
+      },
+      {
+        level: 25,
+        move: "ATTRACT",
+      },
+      {
+        level: 30,
+        move: "ACIDARMOR",
+      },
+      {
+        level: 35,
+        move: "DAZZLINGGLEAM",
+      },
+      {
+        level: 40,
+        move: "RECOVER",
+      },
+      {
+        level: 45,
+        move: "MISTYTERRAIN",
+      },
+      {
+        level: 50,
+        move: "ENTRAINMENT",
+      },
     ],
     tutorMoves: [
       "ALLURINGVOICE",
@@ -36396,19 +49633,58 @@ export const pokemonForms: PokemonForm[] = [
     hiddenAbilities: ["AROMAVEIL"],
     category: "Cream",
     moves: [
-      "DECORATE",
-      "TACKLE",
-      "AROMATICMIST",
-      "SWEETKISS",
-      "SWEETSCENT",
-      "DRAININGKISS",
-      "CHARM",
-      "ATTRACT",
-      "ACIDARMOR",
-      "DAZZLINGGLEAM",
-      "RECOVER",
-      "MISTYTERRAIN",
-      "ENTRAINMENT",
+      {
+        level: 0,
+        move: "DECORATE",
+      },
+      {
+        level: 1,
+        move: "TACKLE",
+      },
+      {
+        level: 1,
+        move: "AROMATICMIST",
+      },
+      {
+        level: 1,
+        move: "SWEETKISS",
+      },
+      {
+        level: 1,
+        move: "SWEETSCENT",
+      },
+      {
+        level: 15,
+        move: "DRAININGKISS",
+      },
+      {
+        level: 20,
+        move: "CHARM",
+      },
+      {
+        level: 25,
+        move: "ATTRACT",
+      },
+      {
+        level: 30,
+        move: "ACIDARMOR",
+      },
+      {
+        level: 35,
+        move: "DAZZLINGGLEAM",
+      },
+      {
+        level: 40,
+        move: "RECOVER",
+      },
+      {
+        level: 45,
+        move: "MISTYTERRAIN",
+      },
+      {
+        level: 50,
+        move: "ENTRAINMENT",
+      },
     ],
     tutorMoves: [
       "ALLURINGVOICE",
@@ -36497,19 +49773,58 @@ export const pokemonForms: PokemonForm[] = [
     hiddenAbilities: ["AROMAVEIL"],
     category: "Cream",
     moves: [
-      "DECORATE",
-      "TACKLE",
-      "AROMATICMIST",
-      "SWEETKISS",
-      "SWEETSCENT",
-      "DRAININGKISS",
-      "CHARM",
-      "ATTRACT",
-      "ACIDARMOR",
-      "DAZZLINGGLEAM",
-      "RECOVER",
-      "MISTYTERRAIN",
-      "ENTRAINMENT",
+      {
+        level: 0,
+        move: "DECORATE",
+      },
+      {
+        level: 1,
+        move: "TACKLE",
+      },
+      {
+        level: 1,
+        move: "AROMATICMIST",
+      },
+      {
+        level: 1,
+        move: "SWEETKISS",
+      },
+      {
+        level: 1,
+        move: "SWEETSCENT",
+      },
+      {
+        level: 15,
+        move: "DRAININGKISS",
+      },
+      {
+        level: 20,
+        move: "CHARM",
+      },
+      {
+        level: 25,
+        move: "ATTRACT",
+      },
+      {
+        level: 30,
+        move: "ACIDARMOR",
+      },
+      {
+        level: 35,
+        move: "DAZZLINGGLEAM",
+      },
+      {
+        level: 40,
+        move: "RECOVER",
+      },
+      {
+        level: 45,
+        move: "MISTYTERRAIN",
+      },
+      {
+        level: 50,
+        move: "ENTRAINMENT",
+      },
     ],
     tutorMoves: [
       "ALLURINGVOICE",
@@ -36598,19 +49913,58 @@ export const pokemonForms: PokemonForm[] = [
     hiddenAbilities: ["AROMAVEIL"],
     category: "Cream",
     moves: [
-      "DECORATE",
-      "TACKLE",
-      "AROMATICMIST",
-      "SWEETKISS",
-      "SWEETSCENT",
-      "DRAININGKISS",
-      "CHARM",
-      "ATTRACT",
-      "ACIDARMOR",
-      "DAZZLINGGLEAM",
-      "RECOVER",
-      "MISTYTERRAIN",
-      "ENTRAINMENT",
+      {
+        level: 0,
+        move: "DECORATE",
+      },
+      {
+        level: 1,
+        move: "TACKLE",
+      },
+      {
+        level: 1,
+        move: "AROMATICMIST",
+      },
+      {
+        level: 1,
+        move: "SWEETKISS",
+      },
+      {
+        level: 1,
+        move: "SWEETSCENT",
+      },
+      {
+        level: 15,
+        move: "DRAININGKISS",
+      },
+      {
+        level: 20,
+        move: "CHARM",
+      },
+      {
+        level: 25,
+        move: "ATTRACT",
+      },
+      {
+        level: 30,
+        move: "ACIDARMOR",
+      },
+      {
+        level: 35,
+        move: "DAZZLINGGLEAM",
+      },
+      {
+        level: 40,
+        move: "RECOVER",
+      },
+      {
+        level: 45,
+        move: "MISTYTERRAIN",
+      },
+      {
+        level: 50,
+        move: "ENTRAINMENT",
+      },
     ],
     tutorMoves: [
       "ALLURINGVOICE",
@@ -36699,19 +50053,58 @@ export const pokemonForms: PokemonForm[] = [
     hiddenAbilities: ["AROMAVEIL"],
     category: "Cream",
     moves: [
-      "DECORATE",
-      "TACKLE",
-      "AROMATICMIST",
-      "SWEETKISS",
-      "SWEETSCENT",
-      "DRAININGKISS",
-      "CHARM",
-      "ATTRACT",
-      "ACIDARMOR",
-      "DAZZLINGGLEAM",
-      "RECOVER",
-      "MISTYTERRAIN",
-      "ENTRAINMENT",
+      {
+        level: 0,
+        move: "DECORATE",
+      },
+      {
+        level: 1,
+        move: "TACKLE",
+      },
+      {
+        level: 1,
+        move: "AROMATICMIST",
+      },
+      {
+        level: 1,
+        move: "SWEETKISS",
+      },
+      {
+        level: 1,
+        move: "SWEETSCENT",
+      },
+      {
+        level: 15,
+        move: "DRAININGKISS",
+      },
+      {
+        level: 20,
+        move: "CHARM",
+      },
+      {
+        level: 25,
+        move: "ATTRACT",
+      },
+      {
+        level: 30,
+        move: "ACIDARMOR",
+      },
+      {
+        level: 35,
+        move: "DAZZLINGGLEAM",
+      },
+      {
+        level: 40,
+        move: "RECOVER",
+      },
+      {
+        level: 45,
+        move: "MISTYTERRAIN",
+      },
+      {
+        level: 50,
+        move: "ENTRAINMENT",
+      },
     ],
     tutorMoves: [
       "ALLURINGVOICE",
@@ -36800,19 +50193,58 @@ export const pokemonForms: PokemonForm[] = [
     hiddenAbilities: ["AROMAVEIL"],
     category: "Cream",
     moves: [
-      "DECORATE",
-      "TACKLE",
-      "AROMATICMIST",
-      "SWEETKISS",
-      "SWEETSCENT",
-      "DRAININGKISS",
-      "CHARM",
-      "ATTRACT",
-      "ACIDARMOR",
-      "DAZZLINGGLEAM",
-      "RECOVER",
-      "MISTYTERRAIN",
-      "ENTRAINMENT",
+      {
+        level: 0,
+        move: "DECORATE",
+      },
+      {
+        level: 1,
+        move: "TACKLE",
+      },
+      {
+        level: 1,
+        move: "AROMATICMIST",
+      },
+      {
+        level: 1,
+        move: "SWEETKISS",
+      },
+      {
+        level: 1,
+        move: "SWEETSCENT",
+      },
+      {
+        level: 15,
+        move: "DRAININGKISS",
+      },
+      {
+        level: 20,
+        move: "CHARM",
+      },
+      {
+        level: 25,
+        move: "ATTRACT",
+      },
+      {
+        level: 30,
+        move: "ACIDARMOR",
+      },
+      {
+        level: 35,
+        move: "DAZZLINGGLEAM",
+      },
+      {
+        level: 40,
+        move: "RECOVER",
+      },
+      {
+        level: 45,
+        move: "MISTYTERRAIN",
+      },
+      {
+        level: 50,
+        move: "ENTRAINMENT",
+      },
     ],
     tutorMoves: [
       "ALLURINGVOICE",
@@ -36901,19 +50333,58 @@ export const pokemonForms: PokemonForm[] = [
     hiddenAbilities: ["AROMAVEIL"],
     category: "Cream",
     moves: [
-      "DECORATE",
-      "TACKLE",
-      "AROMATICMIST",
-      "SWEETKISS",
-      "SWEETSCENT",
-      "DRAININGKISS",
-      "CHARM",
-      "ATTRACT",
-      "ACIDARMOR",
-      "DAZZLINGGLEAM",
-      "RECOVER",
-      "MISTYTERRAIN",
-      "ENTRAINMENT",
+      {
+        level: 0,
+        move: "DECORATE",
+      },
+      {
+        level: 1,
+        move: "TACKLE",
+      },
+      {
+        level: 1,
+        move: "AROMATICMIST",
+      },
+      {
+        level: 1,
+        move: "SWEETKISS",
+      },
+      {
+        level: 1,
+        move: "SWEETSCENT",
+      },
+      {
+        level: 15,
+        move: "DRAININGKISS",
+      },
+      {
+        level: 20,
+        move: "CHARM",
+      },
+      {
+        level: 25,
+        move: "ATTRACT",
+      },
+      {
+        level: 30,
+        move: "ACIDARMOR",
+      },
+      {
+        level: 35,
+        move: "DAZZLINGGLEAM",
+      },
+      {
+        level: 40,
+        move: "RECOVER",
+      },
+      {
+        level: 45,
+        move: "MISTYTERRAIN",
+      },
+      {
+        level: 50,
+        move: "ENTRAINMENT",
+      },
     ],
     tutorMoves: [
       "ALLURINGVOICE",
@@ -37002,19 +50473,58 @@ export const pokemonForms: PokemonForm[] = [
     hiddenAbilities: ["AROMAVEIL"],
     category: "Cream",
     moves: [
-      "DECORATE",
-      "TACKLE",
-      "AROMATICMIST",
-      "SWEETKISS",
-      "SWEETSCENT",
-      "DRAININGKISS",
-      "CHARM",
-      "ATTRACT",
-      "ACIDARMOR",
-      "DAZZLINGGLEAM",
-      "RECOVER",
-      "MISTYTERRAIN",
-      "ENTRAINMENT",
+      {
+        level: 0,
+        move: "DECORATE",
+      },
+      {
+        level: 1,
+        move: "TACKLE",
+      },
+      {
+        level: 1,
+        move: "AROMATICMIST",
+      },
+      {
+        level: 1,
+        move: "SWEETKISS",
+      },
+      {
+        level: 1,
+        move: "SWEETSCENT",
+      },
+      {
+        level: 15,
+        move: "DRAININGKISS",
+      },
+      {
+        level: 20,
+        move: "CHARM",
+      },
+      {
+        level: 25,
+        move: "ATTRACT",
+      },
+      {
+        level: 30,
+        move: "ACIDARMOR",
+      },
+      {
+        level: 35,
+        move: "DAZZLINGGLEAM",
+      },
+      {
+        level: 40,
+        move: "RECOVER",
+      },
+      {
+        level: 45,
+        move: "MISTYTERRAIN",
+      },
+      {
+        level: 50,
+        move: "ENTRAINMENT",
+      },
     ],
     tutorMoves: [
       "ALLURINGVOICE",
@@ -37103,19 +50613,58 @@ export const pokemonForms: PokemonForm[] = [
     hiddenAbilities: ["AROMAVEIL"],
     category: "Cream",
     moves: [
-      "DECORATE",
-      "TACKLE",
-      "AROMATICMIST",
-      "SWEETKISS",
-      "SWEETSCENT",
-      "DRAININGKISS",
-      "CHARM",
-      "ATTRACT",
-      "ACIDARMOR",
-      "DAZZLINGGLEAM",
-      "RECOVER",
-      "MISTYTERRAIN",
-      "ENTRAINMENT",
+      {
+        level: 0,
+        move: "DECORATE",
+      },
+      {
+        level: 1,
+        move: "TACKLE",
+      },
+      {
+        level: 1,
+        move: "AROMATICMIST",
+      },
+      {
+        level: 1,
+        move: "SWEETKISS",
+      },
+      {
+        level: 1,
+        move: "SWEETSCENT",
+      },
+      {
+        level: 15,
+        move: "DRAININGKISS",
+      },
+      {
+        level: 20,
+        move: "CHARM",
+      },
+      {
+        level: 25,
+        move: "ATTRACT",
+      },
+      {
+        level: 30,
+        move: "ACIDARMOR",
+      },
+      {
+        level: 35,
+        move: "DAZZLINGGLEAM",
+      },
+      {
+        level: 40,
+        move: "RECOVER",
+      },
+      {
+        level: 45,
+        move: "MISTYTERRAIN",
+      },
+      {
+        level: 50,
+        move: "ENTRAINMENT",
+      },
     ],
     tutorMoves: [
       "ALLURINGVOICE",
@@ -37204,19 +50753,58 @@ export const pokemonForms: PokemonForm[] = [
     hiddenAbilities: ["AROMAVEIL"],
     category: "Cream",
     moves: [
-      "DECORATE",
-      "TACKLE",
-      "AROMATICMIST",
-      "SWEETKISS",
-      "SWEETSCENT",
-      "DRAININGKISS",
-      "CHARM",
-      "ATTRACT",
-      "ACIDARMOR",
-      "DAZZLINGGLEAM",
-      "RECOVER",
-      "MISTYTERRAIN",
-      "ENTRAINMENT",
+      {
+        level: 0,
+        move: "DECORATE",
+      },
+      {
+        level: 1,
+        move: "TACKLE",
+      },
+      {
+        level: 1,
+        move: "AROMATICMIST",
+      },
+      {
+        level: 1,
+        move: "SWEETKISS",
+      },
+      {
+        level: 1,
+        move: "SWEETSCENT",
+      },
+      {
+        level: 15,
+        move: "DRAININGKISS",
+      },
+      {
+        level: 20,
+        move: "CHARM",
+      },
+      {
+        level: 25,
+        move: "ATTRACT",
+      },
+      {
+        level: 30,
+        move: "ACIDARMOR",
+      },
+      {
+        level: 35,
+        move: "DAZZLINGGLEAM",
+      },
+      {
+        level: 40,
+        move: "RECOVER",
+      },
+      {
+        level: 45,
+        move: "MISTYTERRAIN",
+      },
+      {
+        level: 50,
+        move: "ENTRAINMENT",
+      },
     ],
     tutorMoves: [
       "ALLURINGVOICE",
@@ -37305,19 +50893,58 @@ export const pokemonForms: PokemonForm[] = [
     hiddenAbilities: ["AROMAVEIL"],
     category: "Cream",
     moves: [
-      "DECORATE",
-      "TACKLE",
-      "AROMATICMIST",
-      "SWEETKISS",
-      "SWEETSCENT",
-      "DRAININGKISS",
-      "CHARM",
-      "ATTRACT",
-      "ACIDARMOR",
-      "DAZZLINGGLEAM",
-      "RECOVER",
-      "MISTYTERRAIN",
-      "ENTRAINMENT",
+      {
+        level: 0,
+        move: "DECORATE",
+      },
+      {
+        level: 1,
+        move: "TACKLE",
+      },
+      {
+        level: 1,
+        move: "AROMATICMIST",
+      },
+      {
+        level: 1,
+        move: "SWEETKISS",
+      },
+      {
+        level: 1,
+        move: "SWEETSCENT",
+      },
+      {
+        level: 15,
+        move: "DRAININGKISS",
+      },
+      {
+        level: 20,
+        move: "CHARM",
+      },
+      {
+        level: 25,
+        move: "ATTRACT",
+      },
+      {
+        level: 30,
+        move: "ACIDARMOR",
+      },
+      {
+        level: 35,
+        move: "DAZZLINGGLEAM",
+      },
+      {
+        level: 40,
+        move: "RECOVER",
+      },
+      {
+        level: 45,
+        move: "MISTYTERRAIN",
+      },
+      {
+        level: 50,
+        move: "ENTRAINMENT",
+      },
     ],
     tutorMoves: [
       "ALLURINGVOICE",
@@ -37406,19 +51033,58 @@ export const pokemonForms: PokemonForm[] = [
     hiddenAbilities: ["AROMAVEIL"],
     category: "Cream",
     moves: [
-      "DECORATE",
-      "TACKLE",
-      "AROMATICMIST",
-      "SWEETKISS",
-      "SWEETSCENT",
-      "DRAININGKISS",
-      "CHARM",
-      "ATTRACT",
-      "ACIDARMOR",
-      "DAZZLINGGLEAM",
-      "RECOVER",
-      "MISTYTERRAIN",
-      "ENTRAINMENT",
+      {
+        level: 0,
+        move: "DECORATE",
+      },
+      {
+        level: 1,
+        move: "TACKLE",
+      },
+      {
+        level: 1,
+        move: "AROMATICMIST",
+      },
+      {
+        level: 1,
+        move: "SWEETKISS",
+      },
+      {
+        level: 1,
+        move: "SWEETSCENT",
+      },
+      {
+        level: 15,
+        move: "DRAININGKISS",
+      },
+      {
+        level: 20,
+        move: "CHARM",
+      },
+      {
+        level: 25,
+        move: "ATTRACT",
+      },
+      {
+        level: 30,
+        move: "ACIDARMOR",
+      },
+      {
+        level: 35,
+        move: "DAZZLINGGLEAM",
+      },
+      {
+        level: 40,
+        move: "RECOVER",
+      },
+      {
+        level: 45,
+        move: "MISTYTERRAIN",
+      },
+      {
+        level: 50,
+        move: "ENTRAINMENT",
+      },
     ],
     tutorMoves: [
       "ALLURINGVOICE",
@@ -37507,19 +51173,58 @@ export const pokemonForms: PokemonForm[] = [
     hiddenAbilities: ["AROMAVEIL"],
     category: "Cream",
     moves: [
-      "DECORATE",
-      "TACKLE",
-      "AROMATICMIST",
-      "SWEETKISS",
-      "SWEETSCENT",
-      "DRAININGKISS",
-      "CHARM",
-      "ATTRACT",
-      "ACIDARMOR",
-      "DAZZLINGGLEAM",
-      "RECOVER",
-      "MISTYTERRAIN",
-      "ENTRAINMENT",
+      {
+        level: 0,
+        move: "DECORATE",
+      },
+      {
+        level: 1,
+        move: "TACKLE",
+      },
+      {
+        level: 1,
+        move: "AROMATICMIST",
+      },
+      {
+        level: 1,
+        move: "SWEETKISS",
+      },
+      {
+        level: 1,
+        move: "SWEETSCENT",
+      },
+      {
+        level: 15,
+        move: "DRAININGKISS",
+      },
+      {
+        level: 20,
+        move: "CHARM",
+      },
+      {
+        level: 25,
+        move: "ATTRACT",
+      },
+      {
+        level: 30,
+        move: "ACIDARMOR",
+      },
+      {
+        level: 35,
+        move: "DAZZLINGGLEAM",
+      },
+      {
+        level: 40,
+        move: "RECOVER",
+      },
+      {
+        level: 45,
+        move: "MISTYTERRAIN",
+      },
+      {
+        level: 50,
+        move: "ENTRAINMENT",
+      },
     ],
     tutorMoves: [
       "ALLURINGVOICE",
@@ -37608,19 +51313,58 @@ export const pokemonForms: PokemonForm[] = [
     hiddenAbilities: ["AROMAVEIL"],
     category: "Cream",
     moves: [
-      "DECORATE",
-      "TACKLE",
-      "AROMATICMIST",
-      "SWEETKISS",
-      "SWEETSCENT",
-      "DRAININGKISS",
-      "CHARM",
-      "ATTRACT",
-      "ACIDARMOR",
-      "DAZZLINGGLEAM",
-      "RECOVER",
-      "MISTYTERRAIN",
-      "ENTRAINMENT",
+      {
+        level: 0,
+        move: "DECORATE",
+      },
+      {
+        level: 1,
+        move: "TACKLE",
+      },
+      {
+        level: 1,
+        move: "AROMATICMIST",
+      },
+      {
+        level: 1,
+        move: "SWEETKISS",
+      },
+      {
+        level: 1,
+        move: "SWEETSCENT",
+      },
+      {
+        level: 15,
+        move: "DRAININGKISS",
+      },
+      {
+        level: 20,
+        move: "CHARM",
+      },
+      {
+        level: 25,
+        move: "ATTRACT",
+      },
+      {
+        level: 30,
+        move: "ACIDARMOR",
+      },
+      {
+        level: 35,
+        move: "DAZZLINGGLEAM",
+      },
+      {
+        level: 40,
+        move: "RECOVER",
+      },
+      {
+        level: 45,
+        move: "MISTYTERRAIN",
+      },
+      {
+        level: 50,
+        move: "ENTRAINMENT",
+      },
     ],
     tutorMoves: [
       "ALLURINGVOICE",
@@ -37709,19 +51453,58 @@ export const pokemonForms: PokemonForm[] = [
     hiddenAbilities: ["AROMAVEIL"],
     category: "Cream",
     moves: [
-      "DECORATE",
-      "TACKLE",
-      "AROMATICMIST",
-      "SWEETKISS",
-      "SWEETSCENT",
-      "DRAININGKISS",
-      "CHARM",
-      "ATTRACT",
-      "ACIDARMOR",
-      "DAZZLINGGLEAM",
-      "RECOVER",
-      "MISTYTERRAIN",
-      "ENTRAINMENT",
+      {
+        level: 0,
+        move: "DECORATE",
+      },
+      {
+        level: 1,
+        move: "TACKLE",
+      },
+      {
+        level: 1,
+        move: "AROMATICMIST",
+      },
+      {
+        level: 1,
+        move: "SWEETKISS",
+      },
+      {
+        level: 1,
+        move: "SWEETSCENT",
+      },
+      {
+        level: 15,
+        move: "DRAININGKISS",
+      },
+      {
+        level: 20,
+        move: "CHARM",
+      },
+      {
+        level: 25,
+        move: "ATTRACT",
+      },
+      {
+        level: 30,
+        move: "ACIDARMOR",
+      },
+      {
+        level: 35,
+        move: "DAZZLINGGLEAM",
+      },
+      {
+        level: 40,
+        move: "RECOVER",
+      },
+      {
+        level: 45,
+        move: "MISTYTERRAIN",
+      },
+      {
+        level: 50,
+        move: "ENTRAINMENT",
+      },
     ],
     tutorMoves: [
       "ALLURINGVOICE",
@@ -37810,19 +51593,58 @@ export const pokemonForms: PokemonForm[] = [
     hiddenAbilities: ["AROMAVEIL"],
     category: "Cream",
     moves: [
-      "DECORATE",
-      "TACKLE",
-      "AROMATICMIST",
-      "SWEETKISS",
-      "SWEETSCENT",
-      "DRAININGKISS",
-      "CHARM",
-      "ATTRACT",
-      "ACIDARMOR",
-      "DAZZLINGGLEAM",
-      "RECOVER",
-      "MISTYTERRAIN",
-      "ENTRAINMENT",
+      {
+        level: 0,
+        move: "DECORATE",
+      },
+      {
+        level: 1,
+        move: "TACKLE",
+      },
+      {
+        level: 1,
+        move: "AROMATICMIST",
+      },
+      {
+        level: 1,
+        move: "SWEETKISS",
+      },
+      {
+        level: 1,
+        move: "SWEETSCENT",
+      },
+      {
+        level: 15,
+        move: "DRAININGKISS",
+      },
+      {
+        level: 20,
+        move: "CHARM",
+      },
+      {
+        level: 25,
+        move: "ATTRACT",
+      },
+      {
+        level: 30,
+        move: "ACIDARMOR",
+      },
+      {
+        level: 35,
+        move: "DAZZLINGGLEAM",
+      },
+      {
+        level: 40,
+        move: "RECOVER",
+      },
+      {
+        level: 45,
+        move: "MISTYTERRAIN",
+      },
+      {
+        level: 50,
+        move: "ENTRAINMENT",
+      },
     ],
     tutorMoves: [
       "ALLURINGVOICE",
@@ -37911,19 +51733,58 @@ export const pokemonForms: PokemonForm[] = [
     hiddenAbilities: ["AROMAVEIL"],
     category: "Cream",
     moves: [
-      "DECORATE",
-      "TACKLE",
-      "AROMATICMIST",
-      "SWEETKISS",
-      "SWEETSCENT",
-      "DRAININGKISS",
-      "CHARM",
-      "ATTRACT",
-      "ACIDARMOR",
-      "DAZZLINGGLEAM",
-      "RECOVER",
-      "MISTYTERRAIN",
-      "ENTRAINMENT",
+      {
+        level: 0,
+        move: "DECORATE",
+      },
+      {
+        level: 1,
+        move: "TACKLE",
+      },
+      {
+        level: 1,
+        move: "AROMATICMIST",
+      },
+      {
+        level: 1,
+        move: "SWEETKISS",
+      },
+      {
+        level: 1,
+        move: "SWEETSCENT",
+      },
+      {
+        level: 15,
+        move: "DRAININGKISS",
+      },
+      {
+        level: 20,
+        move: "CHARM",
+      },
+      {
+        level: 25,
+        move: "ATTRACT",
+      },
+      {
+        level: 30,
+        move: "ACIDARMOR",
+      },
+      {
+        level: 35,
+        move: "DAZZLINGGLEAM",
+      },
+      {
+        level: 40,
+        move: "RECOVER",
+      },
+      {
+        level: 45,
+        move: "MISTYTERRAIN",
+      },
+      {
+        level: 50,
+        move: "ENTRAINMENT",
+      },
     ],
     tutorMoves: [
       "ALLURINGVOICE",
@@ -38012,19 +51873,58 @@ export const pokemonForms: PokemonForm[] = [
     hiddenAbilities: ["AROMAVEIL"],
     category: "Cream",
     moves: [
-      "DECORATE",
-      "TACKLE",
-      "AROMATICMIST",
-      "SWEETKISS",
-      "SWEETSCENT",
-      "DRAININGKISS",
-      "CHARM",
-      "ATTRACT",
-      "ACIDARMOR",
-      "DAZZLINGGLEAM",
-      "RECOVER",
-      "MISTYTERRAIN",
-      "ENTRAINMENT",
+      {
+        level: 0,
+        move: "DECORATE",
+      },
+      {
+        level: 1,
+        move: "TACKLE",
+      },
+      {
+        level: 1,
+        move: "AROMATICMIST",
+      },
+      {
+        level: 1,
+        move: "SWEETKISS",
+      },
+      {
+        level: 1,
+        move: "SWEETSCENT",
+      },
+      {
+        level: 15,
+        move: "DRAININGKISS",
+      },
+      {
+        level: 20,
+        move: "CHARM",
+      },
+      {
+        level: 25,
+        move: "ATTRACT",
+      },
+      {
+        level: 30,
+        move: "ACIDARMOR",
+      },
+      {
+        level: 35,
+        move: "DAZZLINGGLEAM",
+      },
+      {
+        level: 40,
+        move: "RECOVER",
+      },
+      {
+        level: 45,
+        move: "MISTYTERRAIN",
+      },
+      {
+        level: 50,
+        move: "ENTRAINMENT",
+      },
     ],
     tutorMoves: [
       "ALLURINGVOICE",
@@ -38113,19 +52013,58 @@ export const pokemonForms: PokemonForm[] = [
     hiddenAbilities: ["AROMAVEIL"],
     category: "Cream",
     moves: [
-      "DECORATE",
-      "TACKLE",
-      "AROMATICMIST",
-      "SWEETKISS",
-      "SWEETSCENT",
-      "DRAININGKISS",
-      "CHARM",
-      "ATTRACT",
-      "ACIDARMOR",
-      "DAZZLINGGLEAM",
-      "RECOVER",
-      "MISTYTERRAIN",
-      "ENTRAINMENT",
+      {
+        level: 0,
+        move: "DECORATE",
+      },
+      {
+        level: 1,
+        move: "TACKLE",
+      },
+      {
+        level: 1,
+        move: "AROMATICMIST",
+      },
+      {
+        level: 1,
+        move: "SWEETKISS",
+      },
+      {
+        level: 1,
+        move: "SWEETSCENT",
+      },
+      {
+        level: 15,
+        move: "DRAININGKISS",
+      },
+      {
+        level: 20,
+        move: "CHARM",
+      },
+      {
+        level: 25,
+        move: "ATTRACT",
+      },
+      {
+        level: 30,
+        move: "ACIDARMOR",
+      },
+      {
+        level: 35,
+        move: "DAZZLINGGLEAM",
+      },
+      {
+        level: 40,
+        move: "RECOVER",
+      },
+      {
+        level: 45,
+        move: "MISTYTERRAIN",
+      },
+      {
+        level: 50,
+        move: "ENTRAINMENT",
+      },
     ],
     tutorMoves: [
       "ALLURINGVOICE",
@@ -38214,19 +52153,58 @@ export const pokemonForms: PokemonForm[] = [
     hiddenAbilities: ["AROMAVEIL"],
     category: "Cream",
     moves: [
-      "DECORATE",
-      "TACKLE",
-      "AROMATICMIST",
-      "SWEETKISS",
-      "SWEETSCENT",
-      "DRAININGKISS",
-      "CHARM",
-      "ATTRACT",
-      "ACIDARMOR",
-      "DAZZLINGGLEAM",
-      "RECOVER",
-      "MISTYTERRAIN",
-      "ENTRAINMENT",
+      {
+        level: 0,
+        move: "DECORATE",
+      },
+      {
+        level: 1,
+        move: "TACKLE",
+      },
+      {
+        level: 1,
+        move: "AROMATICMIST",
+      },
+      {
+        level: 1,
+        move: "SWEETKISS",
+      },
+      {
+        level: 1,
+        move: "SWEETSCENT",
+      },
+      {
+        level: 15,
+        move: "DRAININGKISS",
+      },
+      {
+        level: 20,
+        move: "CHARM",
+      },
+      {
+        level: 25,
+        move: "ATTRACT",
+      },
+      {
+        level: 30,
+        move: "ACIDARMOR",
+      },
+      {
+        level: 35,
+        move: "DAZZLINGGLEAM",
+      },
+      {
+        level: 40,
+        move: "RECOVER",
+      },
+      {
+        level: 45,
+        move: "MISTYTERRAIN",
+      },
+      {
+        level: 50,
+        move: "ENTRAINMENT",
+      },
     ],
     tutorMoves: [
       "ALLURINGVOICE",
@@ -38315,19 +52293,58 @@ export const pokemonForms: PokemonForm[] = [
     hiddenAbilities: ["AROMAVEIL"],
     category: "Cream",
     moves: [
-      "DECORATE",
-      "TACKLE",
-      "AROMATICMIST",
-      "SWEETKISS",
-      "SWEETSCENT",
-      "DRAININGKISS",
-      "CHARM",
-      "ATTRACT",
-      "ACIDARMOR",
-      "DAZZLINGGLEAM",
-      "RECOVER",
-      "MISTYTERRAIN",
-      "ENTRAINMENT",
+      {
+        level: 0,
+        move: "DECORATE",
+      },
+      {
+        level: 1,
+        move: "TACKLE",
+      },
+      {
+        level: 1,
+        move: "AROMATICMIST",
+      },
+      {
+        level: 1,
+        move: "SWEETKISS",
+      },
+      {
+        level: 1,
+        move: "SWEETSCENT",
+      },
+      {
+        level: 15,
+        move: "DRAININGKISS",
+      },
+      {
+        level: 20,
+        move: "CHARM",
+      },
+      {
+        level: 25,
+        move: "ATTRACT",
+      },
+      {
+        level: 30,
+        move: "ACIDARMOR",
+      },
+      {
+        level: 35,
+        move: "DAZZLINGGLEAM",
+      },
+      {
+        level: 40,
+        move: "RECOVER",
+      },
+      {
+        level: 45,
+        move: "MISTYTERRAIN",
+      },
+      {
+        level: 50,
+        move: "ENTRAINMENT",
+      },
     ],
     tutorMoves: [
       "ALLURINGVOICE",
@@ -38416,19 +52433,58 @@ export const pokemonForms: PokemonForm[] = [
     hiddenAbilities: ["AROMAVEIL"],
     category: "Cream",
     moves: [
-      "DECORATE",
-      "TACKLE",
-      "AROMATICMIST",
-      "SWEETKISS",
-      "SWEETSCENT",
-      "DRAININGKISS",
-      "CHARM",
-      "ATTRACT",
-      "ACIDARMOR",
-      "DAZZLINGGLEAM",
-      "RECOVER",
-      "MISTYTERRAIN",
-      "ENTRAINMENT",
+      {
+        level: 0,
+        move: "DECORATE",
+      },
+      {
+        level: 1,
+        move: "TACKLE",
+      },
+      {
+        level: 1,
+        move: "AROMATICMIST",
+      },
+      {
+        level: 1,
+        move: "SWEETKISS",
+      },
+      {
+        level: 1,
+        move: "SWEETSCENT",
+      },
+      {
+        level: 15,
+        move: "DRAININGKISS",
+      },
+      {
+        level: 20,
+        move: "CHARM",
+      },
+      {
+        level: 25,
+        move: "ATTRACT",
+      },
+      {
+        level: 30,
+        move: "ACIDARMOR",
+      },
+      {
+        level: 35,
+        move: "DAZZLINGGLEAM",
+      },
+      {
+        level: 40,
+        move: "RECOVER",
+      },
+      {
+        level: 45,
+        move: "MISTYTERRAIN",
+      },
+      {
+        level: 50,
+        move: "ENTRAINMENT",
+      },
     ],
     tutorMoves: [
       "ALLURINGVOICE",
@@ -38517,19 +52573,58 @@ export const pokemonForms: PokemonForm[] = [
     hiddenAbilities: ["AROMAVEIL"],
     category: "Cream",
     moves: [
-      "DECORATE",
-      "TACKLE",
-      "AROMATICMIST",
-      "SWEETKISS",
-      "SWEETSCENT",
-      "DRAININGKISS",
-      "CHARM",
-      "ATTRACT",
-      "ACIDARMOR",
-      "DAZZLINGGLEAM",
-      "RECOVER",
-      "MISTYTERRAIN",
-      "ENTRAINMENT",
+      {
+        level: 0,
+        move: "DECORATE",
+      },
+      {
+        level: 1,
+        move: "TACKLE",
+      },
+      {
+        level: 1,
+        move: "AROMATICMIST",
+      },
+      {
+        level: 1,
+        move: "SWEETKISS",
+      },
+      {
+        level: 1,
+        move: "SWEETSCENT",
+      },
+      {
+        level: 15,
+        move: "DRAININGKISS",
+      },
+      {
+        level: 20,
+        move: "CHARM",
+      },
+      {
+        level: 25,
+        move: "ATTRACT",
+      },
+      {
+        level: 30,
+        move: "ACIDARMOR",
+      },
+      {
+        level: 35,
+        move: "DAZZLINGGLEAM",
+      },
+      {
+        level: 40,
+        move: "RECOVER",
+      },
+      {
+        level: 45,
+        move: "MISTYTERRAIN",
+      },
+      {
+        level: 50,
+        move: "ENTRAINMENT",
+      },
     ],
     tutorMoves: [
       "ALLURINGVOICE",
@@ -38618,19 +52713,58 @@ export const pokemonForms: PokemonForm[] = [
     hiddenAbilities: ["AROMAVEIL"],
     category: "Cream",
     moves: [
-      "DECORATE",
-      "TACKLE",
-      "AROMATICMIST",
-      "SWEETKISS",
-      "SWEETSCENT",
-      "DRAININGKISS",
-      "CHARM",
-      "ATTRACT",
-      "ACIDARMOR",
-      "DAZZLINGGLEAM",
-      "RECOVER",
-      "MISTYTERRAIN",
-      "ENTRAINMENT",
+      {
+        level: 0,
+        move: "DECORATE",
+      },
+      {
+        level: 1,
+        move: "TACKLE",
+      },
+      {
+        level: 1,
+        move: "AROMATICMIST",
+      },
+      {
+        level: 1,
+        move: "SWEETKISS",
+      },
+      {
+        level: 1,
+        move: "SWEETSCENT",
+      },
+      {
+        level: 15,
+        move: "DRAININGKISS",
+      },
+      {
+        level: 20,
+        move: "CHARM",
+      },
+      {
+        level: 25,
+        move: "ATTRACT",
+      },
+      {
+        level: 30,
+        move: "ACIDARMOR",
+      },
+      {
+        level: 35,
+        move: "DAZZLINGGLEAM",
+      },
+      {
+        level: 40,
+        move: "RECOVER",
+      },
+      {
+        level: 45,
+        move: "MISTYTERRAIN",
+      },
+      {
+        level: 50,
+        move: "ENTRAINMENT",
+      },
     ],
     tutorMoves: [
       "ALLURINGVOICE",
@@ -38719,19 +52853,58 @@ export const pokemonForms: PokemonForm[] = [
     hiddenAbilities: ["AROMAVEIL"],
     category: "Cream",
     moves: [
-      "DECORATE",
-      "TACKLE",
-      "AROMATICMIST",
-      "SWEETKISS",
-      "SWEETSCENT",
-      "DRAININGKISS",
-      "CHARM",
-      "ATTRACT",
-      "ACIDARMOR",
-      "DAZZLINGGLEAM",
-      "RECOVER",
-      "MISTYTERRAIN",
-      "ENTRAINMENT",
+      {
+        level: 0,
+        move: "DECORATE",
+      },
+      {
+        level: 1,
+        move: "TACKLE",
+      },
+      {
+        level: 1,
+        move: "AROMATICMIST",
+      },
+      {
+        level: 1,
+        move: "SWEETKISS",
+      },
+      {
+        level: 1,
+        move: "SWEETSCENT",
+      },
+      {
+        level: 15,
+        move: "DRAININGKISS",
+      },
+      {
+        level: 20,
+        move: "CHARM",
+      },
+      {
+        level: 25,
+        move: "ATTRACT",
+      },
+      {
+        level: 30,
+        move: "ACIDARMOR",
+      },
+      {
+        level: 35,
+        move: "DAZZLINGGLEAM",
+      },
+      {
+        level: 40,
+        move: "RECOVER",
+      },
+      {
+        level: 45,
+        move: "MISTYTERRAIN",
+      },
+      {
+        level: 50,
+        move: "ENTRAINMENT",
+      },
     ],
     tutorMoves: [
       "ALLURINGVOICE",
@@ -38820,19 +52993,58 @@ export const pokemonForms: PokemonForm[] = [
     hiddenAbilities: ["AROMAVEIL"],
     category: "Cream",
     moves: [
-      "DECORATE",
-      "TACKLE",
-      "AROMATICMIST",
-      "SWEETKISS",
-      "SWEETSCENT",
-      "DRAININGKISS",
-      "CHARM",
-      "ATTRACT",
-      "ACIDARMOR",
-      "DAZZLINGGLEAM",
-      "RECOVER",
-      "MISTYTERRAIN",
-      "ENTRAINMENT",
+      {
+        level: 0,
+        move: "DECORATE",
+      },
+      {
+        level: 1,
+        move: "TACKLE",
+      },
+      {
+        level: 1,
+        move: "AROMATICMIST",
+      },
+      {
+        level: 1,
+        move: "SWEETKISS",
+      },
+      {
+        level: 1,
+        move: "SWEETSCENT",
+      },
+      {
+        level: 15,
+        move: "DRAININGKISS",
+      },
+      {
+        level: 20,
+        move: "CHARM",
+      },
+      {
+        level: 25,
+        move: "ATTRACT",
+      },
+      {
+        level: 30,
+        move: "ACIDARMOR",
+      },
+      {
+        level: 35,
+        move: "DAZZLINGGLEAM",
+      },
+      {
+        level: 40,
+        move: "RECOVER",
+      },
+      {
+        level: 45,
+        move: "MISTYTERRAIN",
+      },
+      {
+        level: 50,
+        move: "ENTRAINMENT",
+      },
     ],
     tutorMoves: [
       "ALLURINGVOICE",
@@ -38921,19 +53133,58 @@ export const pokemonForms: PokemonForm[] = [
     hiddenAbilities: ["AROMAVEIL"],
     category: "Cream",
     moves: [
-      "DECORATE",
-      "TACKLE",
-      "AROMATICMIST",
-      "SWEETKISS",
-      "SWEETSCENT",
-      "DRAININGKISS",
-      "CHARM",
-      "ATTRACT",
-      "ACIDARMOR",
-      "DAZZLINGGLEAM",
-      "RECOVER",
-      "MISTYTERRAIN",
-      "ENTRAINMENT",
+      {
+        level: 0,
+        move: "DECORATE",
+      },
+      {
+        level: 1,
+        move: "TACKLE",
+      },
+      {
+        level: 1,
+        move: "AROMATICMIST",
+      },
+      {
+        level: 1,
+        move: "SWEETKISS",
+      },
+      {
+        level: 1,
+        move: "SWEETSCENT",
+      },
+      {
+        level: 15,
+        move: "DRAININGKISS",
+      },
+      {
+        level: 20,
+        move: "CHARM",
+      },
+      {
+        level: 25,
+        move: "ATTRACT",
+      },
+      {
+        level: 30,
+        move: "ACIDARMOR",
+      },
+      {
+        level: 35,
+        move: "DAZZLINGGLEAM",
+      },
+      {
+        level: 40,
+        move: "RECOVER",
+      },
+      {
+        level: 45,
+        move: "MISTYTERRAIN",
+      },
+      {
+        level: 50,
+        move: "ENTRAINMENT",
+      },
     ],
     tutorMoves: [
       "ALLURINGVOICE",
@@ -39022,19 +53273,58 @@ export const pokemonForms: PokemonForm[] = [
     hiddenAbilities: ["AROMAVEIL"],
     category: "Cream",
     moves: [
-      "DECORATE",
-      "TACKLE",
-      "AROMATICMIST",
-      "SWEETKISS",
-      "SWEETSCENT",
-      "DRAININGKISS",
-      "CHARM",
-      "ATTRACT",
-      "ACIDARMOR",
-      "DAZZLINGGLEAM",
-      "RECOVER",
-      "MISTYTERRAIN",
-      "ENTRAINMENT",
+      {
+        level: 0,
+        move: "DECORATE",
+      },
+      {
+        level: 1,
+        move: "TACKLE",
+      },
+      {
+        level: 1,
+        move: "AROMATICMIST",
+      },
+      {
+        level: 1,
+        move: "SWEETKISS",
+      },
+      {
+        level: 1,
+        move: "SWEETSCENT",
+      },
+      {
+        level: 15,
+        move: "DRAININGKISS",
+      },
+      {
+        level: 20,
+        move: "CHARM",
+      },
+      {
+        level: 25,
+        move: "ATTRACT",
+      },
+      {
+        level: 30,
+        move: "ACIDARMOR",
+      },
+      {
+        level: 35,
+        move: "DAZZLINGGLEAM",
+      },
+      {
+        level: 40,
+        move: "RECOVER",
+      },
+      {
+        level: 45,
+        move: "MISTYTERRAIN",
+      },
+      {
+        level: 50,
+        move: "ENTRAINMENT",
+      },
     ],
     tutorMoves: [
       "ALLURINGVOICE",
@@ -39123,19 +53413,58 @@ export const pokemonForms: PokemonForm[] = [
     hiddenAbilities: ["AROMAVEIL"],
     category: "Cream",
     moves: [
-      "DECORATE",
-      "TACKLE",
-      "AROMATICMIST",
-      "SWEETKISS",
-      "SWEETSCENT",
-      "DRAININGKISS",
-      "CHARM",
-      "ATTRACT",
-      "ACIDARMOR",
-      "DAZZLINGGLEAM",
-      "RECOVER",
-      "MISTYTERRAIN",
-      "ENTRAINMENT",
+      {
+        level: 0,
+        move: "DECORATE",
+      },
+      {
+        level: 1,
+        move: "TACKLE",
+      },
+      {
+        level: 1,
+        move: "AROMATICMIST",
+      },
+      {
+        level: 1,
+        move: "SWEETKISS",
+      },
+      {
+        level: 1,
+        move: "SWEETSCENT",
+      },
+      {
+        level: 15,
+        move: "DRAININGKISS",
+      },
+      {
+        level: 20,
+        move: "CHARM",
+      },
+      {
+        level: 25,
+        move: "ATTRACT",
+      },
+      {
+        level: 30,
+        move: "ACIDARMOR",
+      },
+      {
+        level: 35,
+        move: "DAZZLINGGLEAM",
+      },
+      {
+        level: 40,
+        move: "RECOVER",
+      },
+      {
+        level: 45,
+        move: "MISTYTERRAIN",
+      },
+      {
+        level: 50,
+        move: "ENTRAINMENT",
+      },
     ],
     tutorMoves: [
       "ALLURINGVOICE",
@@ -39224,19 +53553,58 @@ export const pokemonForms: PokemonForm[] = [
     hiddenAbilities: ["AROMAVEIL"],
     category: "Cream",
     moves: [
-      "DECORATE",
-      "TACKLE",
-      "AROMATICMIST",
-      "SWEETKISS",
-      "SWEETSCENT",
-      "DRAININGKISS",
-      "CHARM",
-      "ATTRACT",
-      "ACIDARMOR",
-      "DAZZLINGGLEAM",
-      "RECOVER",
-      "MISTYTERRAIN",
-      "ENTRAINMENT",
+      {
+        level: 0,
+        move: "DECORATE",
+      },
+      {
+        level: 1,
+        move: "TACKLE",
+      },
+      {
+        level: 1,
+        move: "AROMATICMIST",
+      },
+      {
+        level: 1,
+        move: "SWEETKISS",
+      },
+      {
+        level: 1,
+        move: "SWEETSCENT",
+      },
+      {
+        level: 15,
+        move: "DRAININGKISS",
+      },
+      {
+        level: 20,
+        move: "CHARM",
+      },
+      {
+        level: 25,
+        move: "ATTRACT",
+      },
+      {
+        level: 30,
+        move: "ACIDARMOR",
+      },
+      {
+        level: 35,
+        move: "DAZZLINGGLEAM",
+      },
+      {
+        level: 40,
+        move: "RECOVER",
+      },
+      {
+        level: 45,
+        move: "MISTYTERRAIN",
+      },
+      {
+        level: 50,
+        move: "ENTRAINMENT",
+      },
     ],
     tutorMoves: [
       "ALLURINGVOICE",
@@ -39325,19 +53693,58 @@ export const pokemonForms: PokemonForm[] = [
     hiddenAbilities: ["AROMAVEIL"],
     category: "Cream",
     moves: [
-      "DECORATE",
-      "TACKLE",
-      "AROMATICMIST",
-      "SWEETKISS",
-      "SWEETSCENT",
-      "DRAININGKISS",
-      "CHARM",
-      "ATTRACT",
-      "ACIDARMOR",
-      "DAZZLINGGLEAM",
-      "RECOVER",
-      "MISTYTERRAIN",
-      "ENTRAINMENT",
+      {
+        level: 0,
+        move: "DECORATE",
+      },
+      {
+        level: 1,
+        move: "TACKLE",
+      },
+      {
+        level: 1,
+        move: "AROMATICMIST",
+      },
+      {
+        level: 1,
+        move: "SWEETKISS",
+      },
+      {
+        level: 1,
+        move: "SWEETSCENT",
+      },
+      {
+        level: 15,
+        move: "DRAININGKISS",
+      },
+      {
+        level: 20,
+        move: "CHARM",
+      },
+      {
+        level: 25,
+        move: "ATTRACT",
+      },
+      {
+        level: 30,
+        move: "ACIDARMOR",
+      },
+      {
+        level: 35,
+        move: "DAZZLINGGLEAM",
+      },
+      {
+        level: 40,
+        move: "RECOVER",
+      },
+      {
+        level: 45,
+        move: "MISTYTERRAIN",
+      },
+      {
+        level: 50,
+        move: "ENTRAINMENT",
+      },
     ],
     tutorMoves: [
       "ALLURINGVOICE",
@@ -39426,19 +53833,58 @@ export const pokemonForms: PokemonForm[] = [
     hiddenAbilities: ["AROMAVEIL"],
     category: "Cream",
     moves: [
-      "DECORATE",
-      "TACKLE",
-      "AROMATICMIST",
-      "SWEETKISS",
-      "SWEETSCENT",
-      "DRAININGKISS",
-      "CHARM",
-      "ATTRACT",
-      "ACIDARMOR",
-      "DAZZLINGGLEAM",
-      "RECOVER",
-      "MISTYTERRAIN",
-      "ENTRAINMENT",
+      {
+        level: 0,
+        move: "DECORATE",
+      },
+      {
+        level: 1,
+        move: "TACKLE",
+      },
+      {
+        level: 1,
+        move: "AROMATICMIST",
+      },
+      {
+        level: 1,
+        move: "SWEETKISS",
+      },
+      {
+        level: 1,
+        move: "SWEETSCENT",
+      },
+      {
+        level: 15,
+        move: "DRAININGKISS",
+      },
+      {
+        level: 20,
+        move: "CHARM",
+      },
+      {
+        level: 25,
+        move: "ATTRACT",
+      },
+      {
+        level: 30,
+        move: "ACIDARMOR",
+      },
+      {
+        level: 35,
+        move: "DAZZLINGGLEAM",
+      },
+      {
+        level: 40,
+        move: "RECOVER",
+      },
+      {
+        level: 45,
+        move: "MISTYTERRAIN",
+      },
+      {
+        level: 50,
+        move: "ENTRAINMENT",
+      },
     ],
     tutorMoves: [
       "ALLURINGVOICE",
@@ -39527,19 +53973,58 @@ export const pokemonForms: PokemonForm[] = [
     hiddenAbilities: ["AROMAVEIL"],
     category: "Cream",
     moves: [
-      "DECORATE",
-      "TACKLE",
-      "AROMATICMIST",
-      "SWEETKISS",
-      "SWEETSCENT",
-      "DRAININGKISS",
-      "CHARM",
-      "ATTRACT",
-      "ACIDARMOR",
-      "DAZZLINGGLEAM",
-      "RECOVER",
-      "MISTYTERRAIN",
-      "ENTRAINMENT",
+      {
+        level: 0,
+        move: "DECORATE",
+      },
+      {
+        level: 1,
+        move: "TACKLE",
+      },
+      {
+        level: 1,
+        move: "AROMATICMIST",
+      },
+      {
+        level: 1,
+        move: "SWEETKISS",
+      },
+      {
+        level: 1,
+        move: "SWEETSCENT",
+      },
+      {
+        level: 15,
+        move: "DRAININGKISS",
+      },
+      {
+        level: 20,
+        move: "CHARM",
+      },
+      {
+        level: 25,
+        move: "ATTRACT",
+      },
+      {
+        level: 30,
+        move: "ACIDARMOR",
+      },
+      {
+        level: 35,
+        move: "DAZZLINGGLEAM",
+      },
+      {
+        level: 40,
+        move: "RECOVER",
+      },
+      {
+        level: 45,
+        move: "MISTYTERRAIN",
+      },
+      {
+        level: 50,
+        move: "ENTRAINMENT",
+      },
     ],
     tutorMoves: [
       "ALLURINGVOICE",
@@ -39628,19 +54113,58 @@ export const pokemonForms: PokemonForm[] = [
     hiddenAbilities: ["AROMAVEIL"],
     category: "Cream",
     moves: [
-      "DECORATE",
-      "TACKLE",
-      "AROMATICMIST",
-      "SWEETKISS",
-      "SWEETSCENT",
-      "DRAININGKISS",
-      "CHARM",
-      "ATTRACT",
-      "ACIDARMOR",
-      "DAZZLINGGLEAM",
-      "RECOVER",
-      "MISTYTERRAIN",
-      "ENTRAINMENT",
+      {
+        level: 0,
+        move: "DECORATE",
+      },
+      {
+        level: 1,
+        move: "TACKLE",
+      },
+      {
+        level: 1,
+        move: "AROMATICMIST",
+      },
+      {
+        level: 1,
+        move: "SWEETKISS",
+      },
+      {
+        level: 1,
+        move: "SWEETSCENT",
+      },
+      {
+        level: 15,
+        move: "DRAININGKISS",
+      },
+      {
+        level: 20,
+        move: "CHARM",
+      },
+      {
+        level: 25,
+        move: "ATTRACT",
+      },
+      {
+        level: 30,
+        move: "ACIDARMOR",
+      },
+      {
+        level: 35,
+        move: "DAZZLINGGLEAM",
+      },
+      {
+        level: 40,
+        move: "RECOVER",
+      },
+      {
+        level: 45,
+        move: "MISTYTERRAIN",
+      },
+      {
+        level: 50,
+        move: "ENTRAINMENT",
+      },
     ],
     tutorMoves: [
       "ALLURINGVOICE",
@@ -39729,19 +54253,58 @@ export const pokemonForms: PokemonForm[] = [
     hiddenAbilities: ["AROMAVEIL"],
     category: "Cream",
     moves: [
-      "DECORATE",
-      "TACKLE",
-      "AROMATICMIST",
-      "SWEETKISS",
-      "SWEETSCENT",
-      "DRAININGKISS",
-      "CHARM",
-      "ATTRACT",
-      "ACIDARMOR",
-      "DAZZLINGGLEAM",
-      "RECOVER",
-      "MISTYTERRAIN",
-      "ENTRAINMENT",
+      {
+        level: 0,
+        move: "DECORATE",
+      },
+      {
+        level: 1,
+        move: "TACKLE",
+      },
+      {
+        level: 1,
+        move: "AROMATICMIST",
+      },
+      {
+        level: 1,
+        move: "SWEETKISS",
+      },
+      {
+        level: 1,
+        move: "SWEETSCENT",
+      },
+      {
+        level: 15,
+        move: "DRAININGKISS",
+      },
+      {
+        level: 20,
+        move: "CHARM",
+      },
+      {
+        level: 25,
+        move: "ATTRACT",
+      },
+      {
+        level: 30,
+        move: "ACIDARMOR",
+      },
+      {
+        level: 35,
+        move: "DAZZLINGGLEAM",
+      },
+      {
+        level: 40,
+        move: "RECOVER",
+      },
+      {
+        level: 45,
+        move: "MISTYTERRAIN",
+      },
+      {
+        level: 50,
+        move: "ENTRAINMENT",
+      },
     ],
     tutorMoves: [
       "ALLURINGVOICE",
@@ -39830,19 +54393,58 @@ export const pokemonForms: PokemonForm[] = [
     hiddenAbilities: ["AROMAVEIL"],
     category: "Cream",
     moves: [
-      "DECORATE",
-      "TACKLE",
-      "AROMATICMIST",
-      "SWEETKISS",
-      "SWEETSCENT",
-      "DRAININGKISS",
-      "CHARM",
-      "ATTRACT",
-      "ACIDARMOR",
-      "DAZZLINGGLEAM",
-      "RECOVER",
-      "MISTYTERRAIN",
-      "ENTRAINMENT",
+      {
+        level: 0,
+        move: "DECORATE",
+      },
+      {
+        level: 1,
+        move: "TACKLE",
+      },
+      {
+        level: 1,
+        move: "AROMATICMIST",
+      },
+      {
+        level: 1,
+        move: "SWEETKISS",
+      },
+      {
+        level: 1,
+        move: "SWEETSCENT",
+      },
+      {
+        level: 15,
+        move: "DRAININGKISS",
+      },
+      {
+        level: 20,
+        move: "CHARM",
+      },
+      {
+        level: 25,
+        move: "ATTRACT",
+      },
+      {
+        level: 30,
+        move: "ACIDARMOR",
+      },
+      {
+        level: 35,
+        move: "DAZZLINGGLEAM",
+      },
+      {
+        level: 40,
+        move: "RECOVER",
+      },
+      {
+        level: 45,
+        move: "MISTYTERRAIN",
+      },
+      {
+        level: 50,
+        move: "ENTRAINMENT",
+      },
     ],
     tutorMoves: [
       "ALLURINGVOICE",
@@ -39931,19 +54533,58 @@ export const pokemonForms: PokemonForm[] = [
     hiddenAbilities: ["AROMAVEIL"],
     category: "Cream",
     moves: [
-      "DECORATE",
-      "TACKLE",
-      "AROMATICMIST",
-      "SWEETKISS",
-      "SWEETSCENT",
-      "DRAININGKISS",
-      "CHARM",
-      "ATTRACT",
-      "ACIDARMOR",
-      "DAZZLINGGLEAM",
-      "RECOVER",
-      "MISTYTERRAIN",
-      "ENTRAINMENT",
+      {
+        level: 0,
+        move: "DECORATE",
+      },
+      {
+        level: 1,
+        move: "TACKLE",
+      },
+      {
+        level: 1,
+        move: "AROMATICMIST",
+      },
+      {
+        level: 1,
+        move: "SWEETKISS",
+      },
+      {
+        level: 1,
+        move: "SWEETSCENT",
+      },
+      {
+        level: 15,
+        move: "DRAININGKISS",
+      },
+      {
+        level: 20,
+        move: "CHARM",
+      },
+      {
+        level: 25,
+        move: "ATTRACT",
+      },
+      {
+        level: 30,
+        move: "ACIDARMOR",
+      },
+      {
+        level: 35,
+        move: "DAZZLINGGLEAM",
+      },
+      {
+        level: 40,
+        move: "RECOVER",
+      },
+      {
+        level: 45,
+        move: "MISTYTERRAIN",
+      },
+      {
+        level: 50,
+        move: "ENTRAINMENT",
+      },
     ],
     tutorMoves: [
       "ALLURINGVOICE",
@@ -40032,19 +54673,58 @@ export const pokemonForms: PokemonForm[] = [
     hiddenAbilities: ["AROMAVEIL"],
     category: "Cream",
     moves: [
-      "DECORATE",
-      "TACKLE",
-      "AROMATICMIST",
-      "SWEETKISS",
-      "SWEETSCENT",
-      "DRAININGKISS",
-      "CHARM",
-      "ATTRACT",
-      "ACIDARMOR",
-      "DAZZLINGGLEAM",
-      "RECOVER",
-      "MISTYTERRAIN",
-      "ENTRAINMENT",
+      {
+        level: 0,
+        move: "DECORATE",
+      },
+      {
+        level: 1,
+        move: "TACKLE",
+      },
+      {
+        level: 1,
+        move: "AROMATICMIST",
+      },
+      {
+        level: 1,
+        move: "SWEETKISS",
+      },
+      {
+        level: 1,
+        move: "SWEETSCENT",
+      },
+      {
+        level: 15,
+        move: "DRAININGKISS",
+      },
+      {
+        level: 20,
+        move: "CHARM",
+      },
+      {
+        level: 25,
+        move: "ATTRACT",
+      },
+      {
+        level: 30,
+        move: "ACIDARMOR",
+      },
+      {
+        level: 35,
+        move: "DAZZLINGGLEAM",
+      },
+      {
+        level: 40,
+        move: "RECOVER",
+      },
+      {
+        level: 45,
+        move: "MISTYTERRAIN",
+      },
+      {
+        level: 50,
+        move: "ENTRAINMENT",
+      },
     ],
     tutorMoves: [
       "ALLURINGVOICE",
@@ -40133,19 +54813,58 @@ export const pokemonForms: PokemonForm[] = [
     hiddenAbilities: ["AROMAVEIL"],
     category: "Cream",
     moves: [
-      "DECORATE",
-      "TACKLE",
-      "AROMATICMIST",
-      "SWEETKISS",
-      "SWEETSCENT",
-      "DRAININGKISS",
-      "CHARM",
-      "ATTRACT",
-      "ACIDARMOR",
-      "DAZZLINGGLEAM",
-      "RECOVER",
-      "MISTYTERRAIN",
-      "ENTRAINMENT",
+      {
+        level: 0,
+        move: "DECORATE",
+      },
+      {
+        level: 1,
+        move: "TACKLE",
+      },
+      {
+        level: 1,
+        move: "AROMATICMIST",
+      },
+      {
+        level: 1,
+        move: "SWEETKISS",
+      },
+      {
+        level: 1,
+        move: "SWEETSCENT",
+      },
+      {
+        level: 15,
+        move: "DRAININGKISS",
+      },
+      {
+        level: 20,
+        move: "CHARM",
+      },
+      {
+        level: 25,
+        move: "ATTRACT",
+      },
+      {
+        level: 30,
+        move: "ACIDARMOR",
+      },
+      {
+        level: 35,
+        move: "DAZZLINGGLEAM",
+      },
+      {
+        level: 40,
+        move: "RECOVER",
+      },
+      {
+        level: 45,
+        move: "MISTYTERRAIN",
+      },
+      {
+        level: 50,
+        move: "ENTRAINMENT",
+      },
     ],
     tutorMoves: [
       "ALLURINGVOICE",
@@ -40234,19 +54953,58 @@ export const pokemonForms: PokemonForm[] = [
     hiddenAbilities: ["AROMAVEIL"],
     category: "Cream",
     moves: [
-      "DECORATE",
-      "TACKLE",
-      "AROMATICMIST",
-      "SWEETKISS",
-      "SWEETSCENT",
-      "DRAININGKISS",
-      "CHARM",
-      "ATTRACT",
-      "ACIDARMOR",
-      "DAZZLINGGLEAM",
-      "RECOVER",
-      "MISTYTERRAIN",
-      "ENTRAINMENT",
+      {
+        level: 0,
+        move: "DECORATE",
+      },
+      {
+        level: 1,
+        move: "TACKLE",
+      },
+      {
+        level: 1,
+        move: "AROMATICMIST",
+      },
+      {
+        level: 1,
+        move: "SWEETKISS",
+      },
+      {
+        level: 1,
+        move: "SWEETSCENT",
+      },
+      {
+        level: 15,
+        move: "DRAININGKISS",
+      },
+      {
+        level: 20,
+        move: "CHARM",
+      },
+      {
+        level: 25,
+        move: "ATTRACT",
+      },
+      {
+        level: 30,
+        move: "ACIDARMOR",
+      },
+      {
+        level: 35,
+        move: "DAZZLINGGLEAM",
+      },
+      {
+        level: 40,
+        move: "RECOVER",
+      },
+      {
+        level: 45,
+        move: "MISTYTERRAIN",
+      },
+      {
+        level: 50,
+        move: "ENTRAINMENT",
+      },
     ],
     tutorMoves: [
       "ALLURINGVOICE",
@@ -40335,19 +55093,58 @@ export const pokemonForms: PokemonForm[] = [
     hiddenAbilities: ["AROMAVEIL"],
     category: "Cream",
     moves: [
-      "DECORATE",
-      "TACKLE",
-      "AROMATICMIST",
-      "SWEETKISS",
-      "SWEETSCENT",
-      "DRAININGKISS",
-      "CHARM",
-      "ATTRACT",
-      "ACIDARMOR",
-      "DAZZLINGGLEAM",
-      "RECOVER",
-      "MISTYTERRAIN",
-      "ENTRAINMENT",
+      {
+        level: 0,
+        move: "DECORATE",
+      },
+      {
+        level: 1,
+        move: "TACKLE",
+      },
+      {
+        level: 1,
+        move: "AROMATICMIST",
+      },
+      {
+        level: 1,
+        move: "SWEETKISS",
+      },
+      {
+        level: 1,
+        move: "SWEETSCENT",
+      },
+      {
+        level: 15,
+        move: "DRAININGKISS",
+      },
+      {
+        level: 20,
+        move: "CHARM",
+      },
+      {
+        level: 25,
+        move: "ATTRACT",
+      },
+      {
+        level: 30,
+        move: "ACIDARMOR",
+      },
+      {
+        level: 35,
+        move: "DAZZLINGGLEAM",
+      },
+      {
+        level: 40,
+        move: "RECOVER",
+      },
+      {
+        level: 45,
+        move: "MISTYTERRAIN",
+      },
+      {
+        level: 50,
+        move: "ENTRAINMENT",
+      },
     ],
     tutorMoves: [
       "ALLURINGVOICE",
@@ -40436,19 +55233,58 @@ export const pokemonForms: PokemonForm[] = [
     hiddenAbilities: ["AROMAVEIL"],
     category: "Cream",
     moves: [
-      "DECORATE",
-      "TACKLE",
-      "AROMATICMIST",
-      "SWEETKISS",
-      "SWEETSCENT",
-      "DRAININGKISS",
-      "CHARM",
-      "ATTRACT",
-      "ACIDARMOR",
-      "DAZZLINGGLEAM",
-      "RECOVER",
-      "MISTYTERRAIN",
-      "ENTRAINMENT",
+      {
+        level: 0,
+        move: "DECORATE",
+      },
+      {
+        level: 1,
+        move: "TACKLE",
+      },
+      {
+        level: 1,
+        move: "AROMATICMIST",
+      },
+      {
+        level: 1,
+        move: "SWEETKISS",
+      },
+      {
+        level: 1,
+        move: "SWEETSCENT",
+      },
+      {
+        level: 15,
+        move: "DRAININGKISS",
+      },
+      {
+        level: 20,
+        move: "CHARM",
+      },
+      {
+        level: 25,
+        move: "ATTRACT",
+      },
+      {
+        level: 30,
+        move: "ACIDARMOR",
+      },
+      {
+        level: 35,
+        move: "DAZZLINGGLEAM",
+      },
+      {
+        level: 40,
+        move: "RECOVER",
+      },
+      {
+        level: 45,
+        move: "MISTYTERRAIN",
+      },
+      {
+        level: 50,
+        move: "ENTRAINMENT",
+      },
     ],
     tutorMoves: [
       "ALLURINGVOICE",
@@ -40537,19 +55373,58 @@ export const pokemonForms: PokemonForm[] = [
     hiddenAbilities: ["AROMAVEIL"],
     category: "Cream",
     moves: [
-      "DECORATE",
-      "TACKLE",
-      "AROMATICMIST",
-      "SWEETKISS",
-      "SWEETSCENT",
-      "DRAININGKISS",
-      "CHARM",
-      "ATTRACT",
-      "ACIDARMOR",
-      "DAZZLINGGLEAM",
-      "RECOVER",
-      "MISTYTERRAIN",
-      "ENTRAINMENT",
+      {
+        level: 0,
+        move: "DECORATE",
+      },
+      {
+        level: 1,
+        move: "TACKLE",
+      },
+      {
+        level: 1,
+        move: "AROMATICMIST",
+      },
+      {
+        level: 1,
+        move: "SWEETKISS",
+      },
+      {
+        level: 1,
+        move: "SWEETSCENT",
+      },
+      {
+        level: 15,
+        move: "DRAININGKISS",
+      },
+      {
+        level: 20,
+        move: "CHARM",
+      },
+      {
+        level: 25,
+        move: "ATTRACT",
+      },
+      {
+        level: 30,
+        move: "ACIDARMOR",
+      },
+      {
+        level: 35,
+        move: "DAZZLINGGLEAM",
+      },
+      {
+        level: 40,
+        move: "RECOVER",
+      },
+      {
+        level: 45,
+        move: "MISTYTERRAIN",
+      },
+      {
+        level: 50,
+        move: "ENTRAINMENT",
+      },
     ],
     tutorMoves: [
       "ALLURINGVOICE",
@@ -40638,19 +55513,58 @@ export const pokemonForms: PokemonForm[] = [
     hiddenAbilities: ["AROMAVEIL"],
     category: "Cream",
     moves: [
-      "DECORATE",
-      "TACKLE",
-      "AROMATICMIST",
-      "SWEETKISS",
-      "SWEETSCENT",
-      "DRAININGKISS",
-      "CHARM",
-      "ATTRACT",
-      "ACIDARMOR",
-      "DAZZLINGGLEAM",
-      "RECOVER",
-      "MISTYTERRAIN",
-      "ENTRAINMENT",
+      {
+        level: 0,
+        move: "DECORATE",
+      },
+      {
+        level: 1,
+        move: "TACKLE",
+      },
+      {
+        level: 1,
+        move: "AROMATICMIST",
+      },
+      {
+        level: 1,
+        move: "SWEETKISS",
+      },
+      {
+        level: 1,
+        move: "SWEETSCENT",
+      },
+      {
+        level: 15,
+        move: "DRAININGKISS",
+      },
+      {
+        level: 20,
+        move: "CHARM",
+      },
+      {
+        level: 25,
+        move: "ATTRACT",
+      },
+      {
+        level: 30,
+        move: "ACIDARMOR",
+      },
+      {
+        level: 35,
+        move: "DAZZLINGGLEAM",
+      },
+      {
+        level: 40,
+        move: "RECOVER",
+      },
+      {
+        level: 45,
+        move: "MISTYTERRAIN",
+      },
+      {
+        level: 50,
+        move: "ENTRAINMENT",
+      },
     ],
     tutorMoves: [
       "ALLURINGVOICE",
@@ -40739,19 +55653,58 @@ export const pokemonForms: PokemonForm[] = [
     hiddenAbilities: ["AROMAVEIL"],
     category: "Cream",
     moves: [
-      "DECORATE",
-      "TACKLE",
-      "AROMATICMIST",
-      "SWEETKISS",
-      "SWEETSCENT",
-      "DRAININGKISS",
-      "CHARM",
-      "ATTRACT",
-      "ACIDARMOR",
-      "DAZZLINGGLEAM",
-      "RECOVER",
-      "MISTYTERRAIN",
-      "ENTRAINMENT",
+      {
+        level: 0,
+        move: "DECORATE",
+      },
+      {
+        level: 1,
+        move: "TACKLE",
+      },
+      {
+        level: 1,
+        move: "AROMATICMIST",
+      },
+      {
+        level: 1,
+        move: "SWEETKISS",
+      },
+      {
+        level: 1,
+        move: "SWEETSCENT",
+      },
+      {
+        level: 15,
+        move: "DRAININGKISS",
+      },
+      {
+        level: 20,
+        move: "CHARM",
+      },
+      {
+        level: 25,
+        move: "ATTRACT",
+      },
+      {
+        level: 30,
+        move: "ACIDARMOR",
+      },
+      {
+        level: 35,
+        move: "DAZZLINGGLEAM",
+      },
+      {
+        level: 40,
+        move: "RECOVER",
+      },
+      {
+        level: 45,
+        move: "MISTYTERRAIN",
+      },
+      {
+        level: 50,
+        move: "ENTRAINMENT",
+      },
     ],
     tutorMoves: [
       "ALLURINGVOICE",
@@ -40840,19 +55793,58 @@ export const pokemonForms: PokemonForm[] = [
     hiddenAbilities: ["AROMAVEIL"],
     category: "Cream",
     moves: [
-      "DECORATE",
-      "TACKLE",
-      "AROMATICMIST",
-      "SWEETKISS",
-      "SWEETSCENT",
-      "DRAININGKISS",
-      "CHARM",
-      "ATTRACT",
-      "ACIDARMOR",
-      "DAZZLINGGLEAM",
-      "RECOVER",
-      "MISTYTERRAIN",
-      "ENTRAINMENT",
+      {
+        level: 0,
+        move: "DECORATE",
+      },
+      {
+        level: 1,
+        move: "TACKLE",
+      },
+      {
+        level: 1,
+        move: "AROMATICMIST",
+      },
+      {
+        level: 1,
+        move: "SWEETKISS",
+      },
+      {
+        level: 1,
+        move: "SWEETSCENT",
+      },
+      {
+        level: 15,
+        move: "DRAININGKISS",
+      },
+      {
+        level: 20,
+        move: "CHARM",
+      },
+      {
+        level: 25,
+        move: "ATTRACT",
+      },
+      {
+        level: 30,
+        move: "ACIDARMOR",
+      },
+      {
+        level: 35,
+        move: "DAZZLINGGLEAM",
+      },
+      {
+        level: 40,
+        move: "RECOVER",
+      },
+      {
+        level: 45,
+        move: "MISTYTERRAIN",
+      },
+      {
+        level: 50,
+        move: "ENTRAINMENT",
+      },
     ],
     tutorMoves: [
       "ALLURINGVOICE",
@@ -40941,19 +55933,58 @@ export const pokemonForms: PokemonForm[] = [
     hiddenAbilities: ["AROMAVEIL"],
     category: "Cream",
     moves: [
-      "DECORATE",
-      "TACKLE",
-      "AROMATICMIST",
-      "SWEETKISS",
-      "SWEETSCENT",
-      "DRAININGKISS",
-      "CHARM",
-      "ATTRACT",
-      "ACIDARMOR",
-      "DAZZLINGGLEAM",
-      "RECOVER",
-      "MISTYTERRAIN",
-      "ENTRAINMENT",
+      {
+        level: 0,
+        move: "DECORATE",
+      },
+      {
+        level: 1,
+        move: "TACKLE",
+      },
+      {
+        level: 1,
+        move: "AROMATICMIST",
+      },
+      {
+        level: 1,
+        move: "SWEETKISS",
+      },
+      {
+        level: 1,
+        move: "SWEETSCENT",
+      },
+      {
+        level: 15,
+        move: "DRAININGKISS",
+      },
+      {
+        level: 20,
+        move: "CHARM",
+      },
+      {
+        level: 25,
+        move: "ATTRACT",
+      },
+      {
+        level: 30,
+        move: "ACIDARMOR",
+      },
+      {
+        level: 35,
+        move: "DAZZLINGGLEAM",
+      },
+      {
+        level: 40,
+        move: "RECOVER",
+      },
+      {
+        level: 45,
+        move: "MISTYTERRAIN",
+      },
+      {
+        level: 50,
+        move: "ENTRAINMENT",
+      },
     ],
     tutorMoves: [
       "ALLURINGVOICE",
@@ -41042,19 +56073,58 @@ export const pokemonForms: PokemonForm[] = [
     hiddenAbilities: ["AROMAVEIL"],
     category: "Cream",
     moves: [
-      "DECORATE",
-      "TACKLE",
-      "AROMATICMIST",
-      "SWEETKISS",
-      "SWEETSCENT",
-      "DRAININGKISS",
-      "CHARM",
-      "ATTRACT",
-      "ACIDARMOR",
-      "DAZZLINGGLEAM",
-      "RECOVER",
-      "MISTYTERRAIN",
-      "ENTRAINMENT",
+      {
+        level: 0,
+        move: "DECORATE",
+      },
+      {
+        level: 1,
+        move: "TACKLE",
+      },
+      {
+        level: 1,
+        move: "AROMATICMIST",
+      },
+      {
+        level: 1,
+        move: "SWEETKISS",
+      },
+      {
+        level: 1,
+        move: "SWEETSCENT",
+      },
+      {
+        level: 15,
+        move: "DRAININGKISS",
+      },
+      {
+        level: 20,
+        move: "CHARM",
+      },
+      {
+        level: 25,
+        move: "ATTRACT",
+      },
+      {
+        level: 30,
+        move: "ACIDARMOR",
+      },
+      {
+        level: 35,
+        move: "DAZZLINGGLEAM",
+      },
+      {
+        level: 40,
+        move: "RECOVER",
+      },
+      {
+        level: 45,
+        move: "MISTYTERRAIN",
+      },
+      {
+        level: 50,
+        move: "ENTRAINMENT",
+      },
     ],
     tutorMoves: [
       "ALLURINGVOICE",
@@ -41143,19 +56213,58 @@ export const pokemonForms: PokemonForm[] = [
     hiddenAbilities: ["AROMAVEIL"],
     category: "Cream",
     moves: [
-      "DECORATE",
-      "TACKLE",
-      "AROMATICMIST",
-      "SWEETKISS",
-      "SWEETSCENT",
-      "DRAININGKISS",
-      "CHARM",
-      "ATTRACT",
-      "ACIDARMOR",
-      "DAZZLINGGLEAM",
-      "RECOVER",
-      "MISTYTERRAIN",
-      "ENTRAINMENT",
+      {
+        level: 0,
+        move: "DECORATE",
+      },
+      {
+        level: 1,
+        move: "TACKLE",
+      },
+      {
+        level: 1,
+        move: "AROMATICMIST",
+      },
+      {
+        level: 1,
+        move: "SWEETKISS",
+      },
+      {
+        level: 1,
+        move: "SWEETSCENT",
+      },
+      {
+        level: 15,
+        move: "DRAININGKISS",
+      },
+      {
+        level: 20,
+        move: "CHARM",
+      },
+      {
+        level: 25,
+        move: "ATTRACT",
+      },
+      {
+        level: 30,
+        move: "ACIDARMOR",
+      },
+      {
+        level: 35,
+        move: "DAZZLINGGLEAM",
+      },
+      {
+        level: 40,
+        move: "RECOVER",
+      },
+      {
+        level: 45,
+        move: "MISTYTERRAIN",
+      },
+      {
+        level: 50,
+        move: "ENTRAINMENT",
+      },
     ],
     tutorMoves: [
       "ALLURINGVOICE",
@@ -41244,18 +56353,54 @@ export const pokemonForms: PokemonForm[] = [
     hiddenAbilities: [],
     category: "Penguin",
     moves: [
-      "POWDERSNOW",
-      "TACKLE",
-      "MIST",
-      "WEATHERBALL",
-      "ICYWIND",
-      "HEADBUTT",
-      "AMNESIA",
-      "FREEZEDRY",
-      "SNOWSCAPE",
-      "AURORAVEIL",
-      "SURF",
-      "BLIZZARD",
+      {
+        level: 1,
+        move: "POWDERSNOW",
+      },
+      {
+        level: 1,
+        move: "TACKLE",
+      },
+      {
+        level: 6,
+        move: "MIST",
+      },
+      {
+        level: 12,
+        move: "WEATHERBALL",
+      },
+      {
+        level: 18,
+        move: "ICYWIND",
+      },
+      {
+        level: 24,
+        move: "HEADBUTT",
+      },
+      {
+        level: 30,
+        move: "AMNESIA",
+      },
+      {
+        level: 36,
+        move: "FREEZEDRY",
+      },
+      {
+        level: 42,
+        move: "SNOWSCAPE",
+      },
+      {
+        level: 48,
+        move: "AURORAVEIL",
+      },
+      {
+        level: 54,
+        move: "SURF",
+      },
+      {
+        level: 60,
+        move: "BLIZZARD",
+      },
     ],
     tutorMoves: [
       "AGILITY",
@@ -41351,18 +56496,54 @@ export const pokemonForms: PokemonForm[] = [
     hiddenAbilities: ["PSYCHICSURGE"],
     category: "Emotion",
     moves: [
-      "STOREDPOWER",
-      "PLAYNICE",
-      "BATONPASS",
-      "DISARMINGVOICE",
-      "PSYBEAM",
-      "HELPINGHAND",
-      "FOLLOWME",
-      "HEALINGWISH",
-      "PSYCHIC",
-      "CALMMIND",
-      "GUARDSPLIT",
-      "PSYCHICTERRAIN",
+      {
+        level: 1,
+        move: "STOREDPOWER",
+      },
+      {
+        level: 1,
+        move: "PLAYNICE",
+      },
+      {
+        level: 5,
+        move: "BATONPASS",
+      },
+      {
+        level: 10,
+        move: "DISARMINGVOICE",
+      },
+      {
+        level: 15,
+        move: "PSYBEAM",
+      },
+      {
+        level: 20,
+        move: "HELPINGHAND",
+      },
+      {
+        level: 25,
+        move: "FOLLOWME",
+      },
+      {
+        level: 30,
+        move: "HEALINGWISH",
+      },
+      {
+        level: 35,
+        move: "PSYCHIC",
+      },
+      {
+        level: 40,
+        move: "CALMMIND",
+      },
+      {
+        level: 45,
+        move: "GUARDSPLIT",
+      },
+      {
+        level: 50,
+        move: "PSYCHICTERRAIN",
+      },
     ],
     tutorMoves: [
       "ALLURINGVOICE",
@@ -41454,20 +56635,62 @@ export const pokemonForms: PokemonForm[] = [
     hiddenAbilities: [],
     category: "Two-Sided",
     moves: [
-      "THUNDERSHOCK",
-      "TAILWHIP",
-      "LEER",
-      "POWERTRIP",
-      "QUICKATTACK",
-      "FLATTER",
-      "BITE",
-      "SPARK",
-      "TORMENT",
-      "AGILITY",
-      "BULLETSEED",
-      "CRUNCH",
-      "AURAWHEEL",
-      "THRASH",
+      {
+        level: 1,
+        move: "THUNDERSHOCK",
+      },
+      {
+        level: 1,
+        move: "TAILWHIP",
+      },
+      {
+        level: 5,
+        move: "LEER",
+      },
+      {
+        level: 10,
+        move: "POWERTRIP",
+      },
+      {
+        level: 15,
+        move: "QUICKATTACK",
+      },
+      {
+        level: 20,
+        move: "FLATTER",
+      },
+      {
+        level: 25,
+        move: "BITE",
+      },
+      {
+        level: 30,
+        move: "SPARK",
+      },
+      {
+        level: 35,
+        move: "TORMENT",
+      },
+      {
+        level: 40,
+        move: "AGILITY",
+      },
+      {
+        level: 45,
+        move: "BULLETSEED",
+      },
+      {
+        level: 50,
+        move: "CRUNCH",
+      },
+      {
+        level: 55,
+        move: "AURAWHEEL",
+      },
+      {
+        level: 60,
+        move: "THRASH",
+      },
     ],
     tutorMoves: [
       "AGILITY",
@@ -41578,20 +56801,62 @@ export const pokemonForms: PokemonForm[] = [
     hiddenAbilities: [],
     category: "Warrior",
     moves: [
-      "SACREDSWORD",
-      "QUICKGUARD",
-      "METALCLAW",
-      "HOWL",
-      "QUICKATTACK",
-      "BITE",
-      "SLASH",
-      "SWORDSDANCE",
-      "IRONHEAD",
-      "NOBLEROAR",
-      "CRUNCH",
-      "MOONBLAST",
-      "CLOSECOMBAT",
-      "GIGAIMPACT",
+      {
+        level: 1,
+        move: "SACREDSWORD",
+      },
+      {
+        level: 1,
+        move: "QUICKGUARD",
+      },
+      {
+        level: 1,
+        move: "METALCLAW",
+      },
+      {
+        level: 1,
+        move: "HOWL",
+      },
+      {
+        level: 1,
+        move: "QUICKATTACK",
+      },
+      {
+        level: 1,
+        move: "BITE",
+      },
+      {
+        level: 11,
+        move: "SLASH",
+      },
+      {
+        level: 22,
+        move: "SWORDSDANCE",
+      },
+      {
+        level: 33,
+        move: "IRONHEAD",
+      },
+      {
+        level: 44,
+        move: "NOBLEROAR",
+      },
+      {
+        level: 55,
+        move: "CRUNCH",
+      },
+      {
+        level: 66,
+        move: "MOONBLAST",
+      },
+      {
+        level: 77,
+        move: "CLOSECOMBAT",
+      },
+      {
+        level: 88,
+        move: "GIGAIMPACT",
+      },
     ],
     tutorMoves: [
       "AGILITY",
@@ -41689,19 +56954,58 @@ export const pokemonForms: PokemonForm[] = [
     hiddenAbilities: [],
     category: "Warrior",
     moves: [
-      "WIDEGUARD",
-      "METALCLAW",
-      "HOWL",
-      "QUICKATTACK",
-      "BITE",
-      "SLASH",
-      "IRONDEFENSE",
-      "IRONHEAD",
-      "METALBURST",
-      "CRUNCH",
-      "MOONBLAST",
-      "CLOSECOMBAT",
-      "GIGAIMPACT",
+      {
+        level: 1,
+        move: "WIDEGUARD",
+      },
+      {
+        level: 1,
+        move: "METALCLAW",
+      },
+      {
+        level: 1,
+        move: "HOWL",
+      },
+      {
+        level: 1,
+        move: "QUICKATTACK",
+      },
+      {
+        level: 1,
+        move: "BITE",
+      },
+      {
+        level: 11,
+        move: "SLASH",
+      },
+      {
+        level: 22,
+        move: "IRONDEFENSE",
+      },
+      {
+        level: 33,
+        move: "IRONHEAD",
+      },
+      {
+        level: 44,
+        move: "METALBURST",
+      },
+      {
+        level: 55,
+        move: "CRUNCH",
+      },
+      {
+        level: 66,
+        move: "MOONBLAST",
+      },
+      {
+        level: 77,
+        move: "CLOSECOMBAT",
+      },
+      {
+        level: 88,
+        move: "GIGAIMPACT",
+      },
     ],
     tutorMoves: [
       "AGILITY",
@@ -41805,23 +57109,74 @@ export const pokemonForms: PokemonForm[] = [
     hiddenAbilities: [],
     category: "Wushu",
     moves: [
-      "SURGINGSTRIKES",
-      "AQUAJET",
-      "ROCKSMASH",
-      "LEER",
-      "ENDURE",
-      "FOCUSENERGY",
-      "AERIALACE",
-      "SCARYFACE",
-      "HEADBUTT",
-      "BRICKBREAK",
-      "DETECT",
-      "BULKUP",
-      "IRONHEAD",
-      "DYNAMICPUNCH",
-      "COUNTER",
-      "CLOSECOMBAT",
-      "FOCUSPUNCH",
+      {
+        level: 0,
+        move: "SURGINGSTRIKES",
+      },
+      {
+        level: 1,
+        move: "AQUAJET",
+      },
+      {
+        level: 1,
+        move: "ROCKSMASH",
+      },
+      {
+        level: 1,
+        move: "LEER",
+      },
+      {
+        level: 1,
+        move: "ENDURE",
+      },
+      {
+        level: 1,
+        move: "FOCUSENERGY",
+      },
+      {
+        level: 12,
+        move: "AERIALACE",
+      },
+      {
+        level: 16,
+        move: "SCARYFACE",
+      },
+      {
+        level: 20,
+        move: "HEADBUTT",
+      },
+      {
+        level: 24,
+        move: "BRICKBREAK",
+      },
+      {
+        level: 28,
+        move: "DETECT",
+      },
+      {
+        level: 32,
+        move: "BULKUP",
+      },
+      {
+        level: 36,
+        move: "IRONHEAD",
+      },
+      {
+        level: 40,
+        move: "DYNAMICPUNCH",
+      },
+      {
+        level: 44,
+        move: "COUNTER",
+      },
+      {
+        level: 48,
+        move: "CLOSECOMBAT",
+      },
+      {
+        level: 52,
+        move: "FOCUSPUNCH",
+      },
     ],
     tutorMoves: [
       "ACROBATICS",
@@ -41930,37 +57285,130 @@ export const pokemonForms: PokemonForm[] = [
     hiddenAbilities: [],
     category: "High King",
     moves: [
-      "GLACIALLANCE",
-      "TACKLE",
-      "TAILWHIP",
-      "DOUBLEKICK",
-      "AVALANCHE",
-      "STOMP",
-      "TORMENT",
-      "MIST",
-      "ICICLECRASH",
-      "TAKEDOWN",
-      "IRONDEFENSE",
-      "THRASH",
-      "TAUNT",
-      "DOUBLEEDGE",
-      "SWORDSDANCE",
-      "POUND",
-      "MEGADRAIN",
-      "CONFUSION",
-      "GROWTH",
-      "LIFEDEW",
-      "GIGADRAIN",
-      "PSYSHOCK",
-      "HELPINGHAND",
-      "GRASSYTERRAIN",
-      "PSYCHICTERRAIN",
-      "ENERGYBALL",
-      "PSYCHIC",
-      "LEECHSEED",
-      "HEALPULSE",
-      "SOLARBEAM",
-      "FUTURESIGHT",
+      {
+        level: 1,
+        move: "GLACIALLANCE",
+      },
+      {
+        level: 1,
+        move: "TACKLE",
+      },
+      {
+        level: 1,
+        move: "TAILWHIP",
+      },
+      {
+        level: 1,
+        move: "DOUBLEKICK",
+      },
+      {
+        level: 1,
+        move: "AVALANCHE",
+      },
+      {
+        level: 1,
+        move: "STOMP",
+      },
+      {
+        level: 1,
+        move: "TORMENT",
+      },
+      {
+        level: 1,
+        move: "MIST",
+      },
+      {
+        level: 1,
+        move: "ICICLECRASH",
+      },
+      {
+        level: 1,
+        move: "TAKEDOWN",
+      },
+      {
+        level: 1,
+        move: "IRONDEFENSE",
+      },
+      {
+        level: 1,
+        move: "THRASH",
+      },
+      {
+        level: 1,
+        move: "TAUNT",
+      },
+      {
+        level: 1,
+        move: "DOUBLEEDGE",
+      },
+      {
+        level: 1,
+        move: "SWORDSDANCE",
+      },
+      {
+        level: 1,
+        move: "POUND",
+      },
+      {
+        level: 1,
+        move: "MEGADRAIN",
+      },
+      {
+        level: 1,
+        move: "CONFUSION",
+      },
+      {
+        level: 1,
+        move: "GROWTH",
+      },
+      {
+        level: 8,
+        move: "LIFEDEW",
+      },
+      {
+        level: 16,
+        move: "GIGADRAIN",
+      },
+      {
+        level: 24,
+        move: "PSYSHOCK",
+      },
+      {
+        level: 32,
+        move: "HELPINGHAND",
+      },
+      {
+        level: 40,
+        move: "GRASSYTERRAIN",
+      },
+      {
+        level: 40,
+        move: "PSYCHICTERRAIN",
+      },
+      {
+        level: 48,
+        move: "ENERGYBALL",
+      },
+      {
+        level: 56,
+        move: "PSYCHIC",
+      },
+      {
+        level: 64,
+        move: "LEECHSEED",
+      },
+      {
+        level: 72,
+        move: "HEALPULSE",
+      },
+      {
+        level: 80,
+        move: "SOLARBEAM",
+      },
+      {
+        level: 88,
+        move: "FUTURESIGHT",
+      },
     ],
     tutorMoves: [
       "AGILITY",
@@ -42094,37 +57542,130 @@ export const pokemonForms: PokemonForm[] = [
     hiddenAbilities: [],
     category: "High King",
     moves: [
-      "ASTRALBARRAGE",
-      "TACKLE",
-      "TAILWHIP",
-      "DOUBLEKICK",
-      "HEX",
-      "STOMP",
-      "CONFUSERAY",
-      "HAZE",
-      "SHADOWBALL",
-      "TAKEDOWN",
-      "AGILITY",
-      "THRASH",
-      "DISABLE",
-      "DOUBLEEDGE",
-      "NASTYPLOT",
-      "POUND",
-      "MEGADRAIN",
-      "CONFUSION",
-      "GROWTH",
-      "LIFEDEW",
-      "GIGADRAIN",
-      "PSYSHOCK",
-      "HELPINGHAND",
-      "GRASSYTERRAIN",
-      "PSYCHICTERRAIN",
-      "ENERGYBALL",
-      "PSYCHIC",
-      "LEECHSEED",
-      "HEALPULSE",
-      "SOLARBEAM",
-      "FUTURESIGHT",
+      {
+        level: 1,
+        move: "ASTRALBARRAGE",
+      },
+      {
+        level: 1,
+        move: "TACKLE",
+      },
+      {
+        level: 1,
+        move: "TAILWHIP",
+      },
+      {
+        level: 1,
+        move: "DOUBLEKICK",
+      },
+      {
+        level: 1,
+        move: "HEX",
+      },
+      {
+        level: 1,
+        move: "STOMP",
+      },
+      {
+        level: 1,
+        move: "CONFUSERAY",
+      },
+      {
+        level: 1,
+        move: "HAZE",
+      },
+      {
+        level: 1,
+        move: "SHADOWBALL",
+      },
+      {
+        level: 1,
+        move: "TAKEDOWN",
+      },
+      {
+        level: 1,
+        move: "AGILITY",
+      },
+      {
+        level: 1,
+        move: "THRASH",
+      },
+      {
+        level: 1,
+        move: "DISABLE",
+      },
+      {
+        level: 1,
+        move: "DOUBLEEDGE",
+      },
+      {
+        level: 1,
+        move: "NASTYPLOT",
+      },
+      {
+        level: 1,
+        move: "POUND",
+      },
+      {
+        level: 1,
+        move: "MEGADRAIN",
+      },
+      {
+        level: 1,
+        move: "CONFUSION",
+      },
+      {
+        level: 1,
+        move: "GROWTH",
+      },
+      {
+        level: 8,
+        move: "LIFEDEW",
+      },
+      {
+        level: 16,
+        move: "GIGADRAIN",
+      },
+      {
+        level: 24,
+        move: "PSYSHOCK",
+      },
+      {
+        level: 32,
+        move: "HELPINGHAND",
+      },
+      {
+        level: 40,
+        move: "GRASSYTERRAIN",
+      },
+      {
+        level: 40,
+        move: "PSYCHICTERRAIN",
+      },
+      {
+        level: 48,
+        move: "ENERGYBALL",
+      },
+      {
+        level: 56,
+        move: "PSYCHIC",
+      },
+      {
+        level: 64,
+        move: "LEECHSEED",
+      },
+      {
+        level: 72,
+        move: "HEALPULSE",
+      },
+      {
+        level: 80,
+        move: "SOLARBEAM",
+      },
+      {
+        level: 88,
+        move: "FUTURESIGHT",
+      },
     ],
     tutorMoves: [
       "AGILITY",
@@ -42250,23 +57791,74 @@ export const pokemonForms: PokemonForm[] = [
     hiddenAbilities: ["MINDSEYE"],
     category: "Peat",
     moves: [
-      "MOONLIGHT",
-      "HEADLONGRUSH",
-      "SCRATCH",
-      "LEER",
-      "LICK",
-      "FURYSWIPES",
-      "PAYBACK",
-      "HARDEN",
-      "SLASH",
-      "PLAYNICE",
-      "SCARYFACE",
-      "REST",
-      "SNORE",
-      "EARTHPOWER",
-      "MOONBLAST",
-      "HAMMERARM",
-      "BLOODMOON",
+      {
+        level: 1,
+        move: "MOONLIGHT",
+      },
+      {
+        level: 1,
+        move: "HEADLONGRUSH",
+      },
+      {
+        level: 1,
+        move: "SCRATCH",
+      },
+      {
+        level: 1,
+        move: "LEER",
+      },
+      {
+        level: 1,
+        move: "LICK",
+      },
+      {
+        level: 8,
+        move: "FURYSWIPES",
+      },
+      {
+        level: 13,
+        move: "PAYBACK",
+      },
+      {
+        level: 17,
+        move: "HARDEN",
+      },
+      {
+        level: 22,
+        move: "SLASH",
+      },
+      {
+        level: 25,
+        move: "PLAYNICE",
+      },
+      {
+        level: 35,
+        move: "SCARYFACE",
+      },
+      {
+        level: 41,
+        move: "REST",
+      },
+      {
+        level: 41,
+        move: "SNORE",
+      },
+      {
+        level: 48,
+        move: "EARTHPOWER",
+      },
+      {
+        level: 56,
+        move: "MOONBLAST",
+      },
+      {
+        level: 64,
+        move: "HAMMERARM",
+      },
+      {
+        level: 70,
+        move: "BLOODMOON",
+      },
     ],
     tutorMoves: [
       "AVALANCHE",
@@ -42356,24 +57948,78 @@ export const pokemonForms: PokemonForm[] = [
     hiddenAbilities: ["MOLDBREAKER"],
     category: "Big Fish",
     moves: [
-      "SHADOWBALL",
-      "PHANTOMFORCE",
-      "WATERGUN",
-      "TAILWHIP",
-      "TACKLE",
-      "FLAIL",
-      "AQUAJET",
-      "BITE",
-      "SCARYFACE",
-      "HEADBUTT",
-      "SOAK",
-      "CRUNCH",
-      "TAKEDOWN",
-      "UPROAR",
-      "WAVECRASH",
-      "THRASH",
-      "DOUBLEEDGE",
-      "HEADSMASH",
+      {
+        level: 1,
+        move: "SHADOWBALL",
+      },
+      {
+        level: 1,
+        move: "PHANTOMFORCE",
+      },
+      {
+        level: 1,
+        move: "WATERGUN",
+      },
+      {
+        level: 1,
+        move: "TAILWHIP",
+      },
+      {
+        level: 4,
+        move: "TACKLE",
+      },
+      {
+        level: 8,
+        move: "FLAIL",
+      },
+      {
+        level: 12,
+        move: "AQUAJET",
+      },
+      {
+        level: 16,
+        move: "BITE",
+      },
+      {
+        level: 20,
+        move: "SCARYFACE",
+      },
+      {
+        level: 24,
+        move: "HEADBUTT",
+      },
+      {
+        level: 28,
+        move: "SOAK",
+      },
+      {
+        level: 32,
+        move: "CRUNCH",
+      },
+      {
+        level: 36,
+        move: "TAKEDOWN",
+      },
+      {
+        level: 40,
+        move: "UPROAR",
+      },
+      {
+        level: 44,
+        move: "WAVECRASH",
+      },
+      {
+        level: 48,
+        move: "THRASH",
+      },
+      {
+        level: 52,
+        move: "DOUBLEEDGE",
+      },
+      {
+        level: 56,
+        move: "HEADSMASH",
+      },
     ],
     tutorMoves: [
       "AGILITY",
@@ -42453,23 +58099,74 @@ export const pokemonForms: PokemonForm[] = [
     hiddenAbilities: ["OVERCOAT"],
     category: "Love-Hate",
     moves: [
-      "ASTONISH",
-      "FAIRYWIND",
-      "TORMENT",
-      "FLATTER",
-      "TWISTER",
-      "DRAININGKISS",
-      "IRONDEFENSE",
-      "IMPRISON",
-      "MYSTICALFIRE",
-      "DAZZLINGGLEAM",
-      "EXTRASENSORY",
-      "UPROAR",
-      "SUPERPOWER",
-      "HEALINGWISH",
-      "MOONBLAST",
-      "OUTRAGE",
-      "SPRINGTIDESTORM",
+      {
+        level: 1,
+        move: "ASTONISH",
+      },
+      {
+        level: 1,
+        move: "FAIRYWIND",
+      },
+      {
+        level: 5,
+        move: "TORMENT",
+      },
+      {
+        level: 10,
+        move: "FLATTER",
+      },
+      {
+        level: 15,
+        move: "TWISTER",
+      },
+      {
+        level: 20,
+        move: "DRAININGKISS",
+      },
+      {
+        level: 25,
+        move: "IRONDEFENSE",
+      },
+      {
+        level: 30,
+        move: "IMPRISON",
+      },
+      {
+        level: 35,
+        move: "MYSTICALFIRE",
+      },
+      {
+        level: 40,
+        move: "DAZZLINGGLEAM",
+      },
+      {
+        level: 45,
+        move: "EXTRASENSORY",
+      },
+      {
+        level: 50,
+        move: "UPROAR",
+      },
+      {
+        level: 55,
+        move: "SUPERPOWER",
+      },
+      {
+        level: 60,
+        move: "HEALINGWISH",
+      },
+      {
+        level: 65,
+        move: "MOONBLAST",
+      },
+      {
+        level: 70,
+        move: "OUTRAGE",
+      },
+      {
+        level: 75,
+        move: "SPRINGTIDESTORM",
+      },
     ],
     tutorMoves: [
       "AGILITY",
@@ -42544,21 +58241,66 @@ export const pokemonForms: PokemonForm[] = [
     hiddenAbilities: ["THICKFAT"],
     category: "Hog",
     moves: [
-      "TACKLE",
-      "TAILWHIP",
-      "DISARMINGVOICE",
-      "ECHOEDVOICE",
-      "MUDSHOT",
-      "COVET",
-      "DIG",
-      "HEADBUTT",
-      "YAWN",
-      "TAKEDOWN",
-      "WORKUP",
-      "UPROAR",
-      "DOUBLEEDGE",
-      "EARTHPOWER",
-      "BELCH",
+      {
+        level: 1,
+        move: "TACKLE",
+      },
+      {
+        level: 1,
+        move: "TAILWHIP",
+      },
+      {
+        level: 3,
+        move: "DISARMINGVOICE",
+      },
+      {
+        level: 6,
+        move: "ECHOEDVOICE",
+      },
+      {
+        level: 9,
+        move: "MUDSHOT",
+      },
+      {
+        level: 12,
+        move: "COVET",
+      },
+      {
+        level: 15,
+        move: "DIG",
+      },
+      {
+        level: 17,
+        move: "HEADBUTT",
+      },
+      {
+        level: 23,
+        move: "YAWN",
+      },
+      {
+        level: 28,
+        move: "TAKEDOWN",
+      },
+      {
+        level: 30,
+        move: "WORKUP",
+      },
+      {
+        level: 34,
+        move: "UPROAR",
+      },
+      {
+        level: 39,
+        move: "DOUBLEEDGE",
+      },
+      {
+        level: 45,
+        move: "EARTHPOWER",
+      },
+      {
+        level: 51,
+        move: "BELCH",
+      },
     ],
     tutorMoves: [
       "BODYPRESS",
@@ -42632,22 +58374,70 @@ export const pokemonForms: PokemonForm[] = [
     hiddenAbilities: ["TECHNICIAN"],
     category: "Family",
     moves: [
-      "FOLLOWME",
-      "TIDYUP",
-      "POUND",
-      "BABYDOLLEYES",
-      "ECHOEDVOICE",
-      "HELPINGHAND",
-      "SUPERFANG",
-      "DOUBLEHIT",
-      "BULLETSEED",
-      "ENCORE",
-      "PLAYROUGH",
-      "HYPERVOICE",
-      "CHARM",
-      "BEATUP",
-      "COPYCAT",
-      "POPULATIONBOMB",
+      {
+        level: 1,
+        move: "FOLLOWME",
+      },
+      {
+        level: 1,
+        move: "TIDYUP",
+      },
+      {
+        level: 1,
+        move: "POUND",
+      },
+      {
+        level: 1,
+        move: "BABYDOLLEYES",
+      },
+      {
+        level: 5,
+        move: "ECHOEDVOICE",
+      },
+      {
+        level: 8,
+        move: "HELPINGHAND",
+      },
+      {
+        level: 11,
+        move: "SUPERFANG",
+      },
+      {
+        level: 14,
+        move: "DOUBLEHIT",
+      },
+      {
+        level: 18,
+        move: "BULLETSEED",
+      },
+      {
+        level: 22,
+        move: "ENCORE",
+      },
+      {
+        level: 29,
+        move: "PLAYROUGH",
+      },
+      {
+        level: 33,
+        move: "HYPERVOICE",
+      },
+      {
+        level: 37,
+        move: "CHARM",
+      },
+      {
+        level: 41,
+        move: "BEATUP",
+      },
+      {
+        level: 46,
+        move: "COPYCAT",
+      },
+      {
+        level: 53,
+        move: "POPULATIONBOMB",
+      },
     ],
     tutorMoves: [
       "AERIALACE",
@@ -42723,22 +58513,70 @@ export const pokemonForms: PokemonForm[] = [
     hiddenAbilities: ["GUTS"],
     category: "Parrot",
     moves: [
-      "GROWL",
-      "PECK",
-      "MIMIC",
-      "QUICKATTACK",
-      "TORMENT",
-      "AERIALACE",
-      "FURYATTACK",
-      "TAUNT",
-      "UPROAR",
-      "COPYCAT",
-      "FLY",
-      "FACADE",
-      "SWAGGER",
-      "BRAVEBIRD",
-      "ROOST",
-      "REVERSAL",
+      {
+        level: 1,
+        move: "GROWL",
+      },
+      {
+        level: 1,
+        move: "PECK",
+      },
+      {
+        level: 1,
+        move: "MIMIC",
+      },
+      {
+        level: 6,
+        move: "QUICKATTACK",
+      },
+      {
+        level: 10,
+        move: "TORMENT",
+      },
+      {
+        level: 13,
+        move: "AERIALACE",
+      },
+      {
+        level: 17,
+        move: "FURYATTACK",
+      },
+      {
+        level: 20,
+        move: "TAUNT",
+      },
+      {
+        level: 24,
+        move: "UPROAR",
+      },
+      {
+        level: 27,
+        move: "COPYCAT",
+      },
+      {
+        level: 30,
+        move: "FLY",
+      },
+      {
+        level: 34,
+        move: "FACADE",
+      },
+      {
+        level: 38,
+        move: "SWAGGER",
+      },
+      {
+        level: 42,
+        move: "BRAVEBIRD",
+      },
+      {
+        level: 47,
+        move: "ROOST",
+      },
+      {
+        level: 52,
+        move: "REVERSAL",
+      },
     ],
     tutorMoves: [
       "AERIALACE",
@@ -42808,22 +58646,70 @@ export const pokemonForms: PokemonForm[] = [
     hiddenAbilities: ["SHEERFORCE"],
     category: "Parrot",
     moves: [
-      "GROWL",
-      "PECK",
-      "MIMIC",
-      "QUICKATTACK",
-      "TORMENT",
-      "AERIALACE",
-      "FURYATTACK",
-      "TAUNT",
-      "UPROAR",
-      "COPYCAT",
-      "FLY",
-      "FACADE",
-      "SWAGGER",
-      "BRAVEBIRD",
-      "ROOST",
-      "REVERSAL",
+      {
+        level: 1,
+        move: "GROWL",
+      },
+      {
+        level: 1,
+        move: "PECK",
+      },
+      {
+        level: 1,
+        move: "MIMIC",
+      },
+      {
+        level: 6,
+        move: "QUICKATTACK",
+      },
+      {
+        level: 10,
+        move: "TORMENT",
+      },
+      {
+        level: 13,
+        move: "AERIALACE",
+      },
+      {
+        level: 17,
+        move: "FURYATTACK",
+      },
+      {
+        level: 20,
+        move: "TAUNT",
+      },
+      {
+        level: 24,
+        move: "UPROAR",
+      },
+      {
+        level: 27,
+        move: "COPYCAT",
+      },
+      {
+        level: 30,
+        move: "FLY",
+      },
+      {
+        level: 34,
+        move: "FACADE",
+      },
+      {
+        level: 38,
+        move: "SWAGGER",
+      },
+      {
+        level: 42,
+        move: "BRAVEBIRD",
+      },
+      {
+        level: 47,
+        move: "ROOST",
+      },
+      {
+        level: 52,
+        move: "REVERSAL",
+      },
     ],
     tutorMoves: [
       "AERIALACE",
@@ -42893,22 +58779,70 @@ export const pokemonForms: PokemonForm[] = [
     hiddenAbilities: ["SHEERFORCE"],
     category: "Parrot",
     moves: [
-      "GROWL",
-      "PECK",
-      "MIMIC",
-      "QUICKATTACK",
-      "TORMENT",
-      "AERIALACE",
-      "FURYATTACK",
-      "TAUNT",
-      "UPROAR",
-      "COPYCAT",
-      "FLY",
-      "FACADE",
-      "SWAGGER",
-      "BRAVEBIRD",
-      "ROOST",
-      "REVERSAL",
+      {
+        level: 1,
+        move: "GROWL",
+      },
+      {
+        level: 1,
+        move: "PECK",
+      },
+      {
+        level: 1,
+        move: "MIMIC",
+      },
+      {
+        level: 6,
+        move: "QUICKATTACK",
+      },
+      {
+        level: 10,
+        move: "TORMENT",
+      },
+      {
+        level: 13,
+        move: "AERIALACE",
+      },
+      {
+        level: 17,
+        move: "FURYATTACK",
+      },
+      {
+        level: 20,
+        move: "TAUNT",
+      },
+      {
+        level: 24,
+        move: "UPROAR",
+      },
+      {
+        level: 27,
+        move: "COPYCAT",
+      },
+      {
+        level: 30,
+        move: "FLY",
+      },
+      {
+        level: 34,
+        move: "FACADE",
+      },
+      {
+        level: 38,
+        move: "SWAGGER",
+      },
+      {
+        level: 42,
+        move: "BRAVEBIRD",
+      },
+      {
+        level: 47,
+        move: "ROOST",
+      },
+      {
+        level: 52,
+        move: "REVERSAL",
+      },
     ],
     tutorMoves: [
       "AERIALACE",
@@ -42978,23 +58912,74 @@ export const pokemonForms: PokemonForm[] = [
     hiddenAbilities: [],
     category: "Hero",
     moves: [
-      "FLIPTURN",
-      "JETPUNCH",
-      "WATERGUN",
-      "SUPERSONIC",
-      "ASTONISH",
-      "FOCUSENERGY",
-      "AQUAJET",
-      "DOUBLEHIT",
-      "DIVE",
-      "CHARM",
-      "ACROBATICS",
-      "ENCORE",
-      "AQUATAIL",
-      "MIST",
-      "HYDROPUMP",
-      "FOCUSPUNCH",
-      "WAVECRASH",
+      {
+        level: 0,
+        move: "FLIPTURN",
+      },
+      {
+        level: 1,
+        move: "JETPUNCH",
+      },
+      {
+        level: 1,
+        move: "WATERGUN",
+      },
+      {
+        level: 1,
+        move: "SUPERSONIC",
+      },
+      {
+        level: 7,
+        move: "ASTONISH",
+      },
+      {
+        level: 10,
+        move: "FOCUSENERGY",
+      },
+      {
+        level: 13,
+        move: "AQUAJET",
+      },
+      {
+        level: 17,
+        move: "DOUBLEHIT",
+      },
+      {
+        level: 21,
+        move: "DIVE",
+      },
+      {
+        level: 25,
+        move: "CHARM",
+      },
+      {
+        level: 29,
+        move: "ACROBATICS",
+      },
+      {
+        level: 34,
+        move: "ENCORE",
+      },
+      {
+        level: 39,
+        move: "AQUATAIL",
+      },
+      {
+        level: 44,
+        move: "MIST",
+      },
+      {
+        level: 50,
+        move: "HYDROPUMP",
+      },
+      {
+        level: 55,
+        move: "FOCUSPUNCH",
+      },
+      {
+        level: 61,
+        move: "WAVECRASH",
+      },
     ],
     tutorMoves: [
       "ACROBATICS",
@@ -43080,18 +59065,54 @@ export const pokemonForms: PokemonForm[] = [
     hiddenAbilities: ["STORMDRAIN"],
     category: "Mimicry",
     moves: [
-      "WATERGUN",
-      "SPLASH",
-      "HARDEN",
-      "HELPINGHAND",
-      "WATERPULSE",
-      "SOAK",
-      "TAUNT",
-      "MEMENTO",
-      "MUDDYWATER",
-      "NASTYPLOT",
-      "MIRRORCOAT",
-      "DRAGONPULSE",
+      {
+        level: 1,
+        move: "WATERGUN",
+      },
+      {
+        level: 1,
+        move: "SPLASH",
+      },
+      {
+        level: 6,
+        move: "HARDEN",
+      },
+      {
+        level: 12,
+        move: "HELPINGHAND",
+      },
+      {
+        level: 17,
+        move: "WATERPULSE",
+      },
+      {
+        level: 23,
+        move: "SOAK",
+      },
+      {
+        level: 28,
+        move: "TAUNT",
+      },
+      {
+        level: 34,
+        move: "MEMENTO",
+      },
+      {
+        level: 39,
+        move: "MUDDYWATER",
+      },
+      {
+        level: 43,
+        move: "NASTYPLOT",
+      },
+      {
+        level: 47,
+        move: "MIRRORCOAT",
+      },
+      {
+        level: 52,
+        move: "DRAGONPULSE",
+      },
     ],
     tutorMoves: [
       "BATONPASS",
@@ -43154,18 +59175,54 @@ export const pokemonForms: PokemonForm[] = [
     hiddenAbilities: ["STORMDRAIN"],
     category: "Mimicry",
     moves: [
-      "WATERGUN",
-      "SPLASH",
-      "HARDEN",
-      "HELPINGHAND",
-      "WATERPULSE",
-      "SOAK",
-      "TAUNT",
-      "MEMENTO",
-      "MUDDYWATER",
-      "NASTYPLOT",
-      "MIRRORCOAT",
-      "DRAGONPULSE",
+      {
+        level: 1,
+        move: "WATERGUN",
+      },
+      {
+        level: 1,
+        move: "SPLASH",
+      },
+      {
+        level: 6,
+        move: "HARDEN",
+      },
+      {
+        level: 12,
+        move: "HELPINGHAND",
+      },
+      {
+        level: 17,
+        move: "WATERPULSE",
+      },
+      {
+        level: 23,
+        move: "SOAK",
+      },
+      {
+        level: 28,
+        move: "TAUNT",
+      },
+      {
+        level: 34,
+        move: "MEMENTO",
+      },
+      {
+        level: 39,
+        move: "MUDDYWATER",
+      },
+      {
+        level: 43,
+        move: "NASTYPLOT",
+      },
+      {
+        level: 47,
+        move: "MIRRORCOAT",
+      },
+      {
+        level: 52,
+        move: "DRAGONPULSE",
+      },
     ],
     tutorMoves: [
       "BATONPASS",
@@ -43228,23 +59285,74 @@ export const pokemonForms: PokemonForm[] = [
     hiddenAbilities: ["RATTLED"],
     category: "Land Snake",
     moves: [
-      "FLAIL",
-      "DEFENSECURL",
-      "MUDSLAP",
-      "ROLLOUT",
-      "GLARE",
-      "SCREECH",
-      "ANCIENTPOWER",
-      "DRILLRUN",
-      "YAWN",
-      "HYPERDRILL",
-      "ROOST",
-      "DRAGONRUSH",
-      "COIL",
-      "DOUBLEEDGE",
-      "ENDEAVOR",
-      "HURRICANE",
-      "BOOMBURST",
+      {
+        level: 1,
+        move: "FLAIL",
+      },
+      {
+        level: 1,
+        move: "DEFENSECURL",
+      },
+      {
+        level: 4,
+        move: "MUDSLAP",
+      },
+      {
+        level: 8,
+        move: "ROLLOUT",
+      },
+      {
+        level: 12,
+        move: "GLARE",
+      },
+      {
+        level: 16,
+        move: "SCREECH",
+      },
+      {
+        level: 20,
+        move: "ANCIENTPOWER",
+      },
+      {
+        level: 24,
+        move: "DRILLRUN",
+      },
+      {
+        level: 28,
+        move: "YAWN",
+      },
+      {
+        level: 32,
+        move: "HYPERDRILL",
+      },
+      {
+        level: 36,
+        move: "ROOST",
+      },
+      {
+        level: 40,
+        move: "DRAGONRUSH",
+      },
+      {
+        level: 44,
+        move: "COIL",
+      },
+      {
+        level: 48,
+        move: "DOUBLEEDGE",
+      },
+      {
+        level: 52,
+        move: "ENDEAVOR",
+      },
+      {
+        level: 56,
+        move: "HURRICANE",
+      },
+      {
+        level: 62,
+        move: "BOOMBURST",
+      },
     ],
     tutorMoves: [
       "AGILITY",
@@ -43352,7 +59460,16 @@ export const pokemonForms: PokemonForm[] = [
     abilities: ["RUNAWAY"],
     hiddenAbilities: [],
     category: "Coin Hunter",
-    moves: ["ASTONISH", "TACKLE"],
+    moves: [
+      {
+        level: 1,
+        move: "ASTONISH",
+      },
+      {
+        level: 1,
+        move: "TACKLE",
+      },
+    ],
     tutorMoves: [
       "CONFUSERAY",
       "ENDURE",
@@ -43408,19 +59525,58 @@ export const pokemonForms: PokemonForm[] = [
     hiddenAbilities: ["HEATPROOF"],
     category: "Matcha",
     moves: [
-      "ASTONISH",
-      "WITHDRAW",
-      "STUNSPORE",
-      "ABSORB",
-      "LIFEDEW",
-      "FOULPLAY",
-      "MEGADRAIN",
-      "HEX",
-      "RAGEPOWDER",
-      "GIGADRAIN",
-      "SHADOWBALL",
-      "MEMENTO",
-      "LEAFSTORM",
+      {
+        level: 1,
+        move: "ASTONISH",
+      },
+      {
+        level: 1,
+        move: "WITHDRAW",
+      },
+      {
+        level: 1,
+        move: "STUNSPORE",
+      },
+      {
+        level: 6,
+        move: "ABSORB",
+      },
+      {
+        level: 12,
+        move: "LIFEDEW",
+      },
+      {
+        level: 18,
+        move: "FOULPLAY",
+      },
+      {
+        level: 24,
+        move: "MEGADRAIN",
+      },
+      {
+        level: 30,
+        move: "HEX",
+      },
+      {
+        level: 36,
+        move: "RAGEPOWDER",
+      },
+      {
+        level: 42,
+        move: "GIGADRAIN",
+      },
+      {
+        level: 48,
+        move: "SHADOWBALL",
+      },
+      {
+        level: 54,
+        move: "MEMENTO",
+      },
+      {
+        level: 60,
+        move: "LEAFSTORM",
+      },
     ],
     tutorMoves: [
       "CALMMIND",
@@ -43491,20 +59647,62 @@ export const pokemonForms: PokemonForm[] = [
     hiddenAbilities: ["HEATPROOF"],
     category: "Matcha",
     moves: [
-      "MATCHAGOTCHA",
-      "ASTONISH",
-      "WITHDRAW",
-      "STUNSPORE",
-      "ABSORB",
-      "LIFEDEW",
-      "FOULPLAY",
-      "MEGADRAIN",
-      "HEX",
-      "RAGEPOWDER",
-      "STRENGTHSAP",
-      "SHADOWBALL",
-      "MEMENTO",
-      "LEAFSTORM",
+      {
+        level: 0,
+        move: "MATCHAGOTCHA",
+      },
+      {
+        level: 1,
+        move: "ASTONISH",
+      },
+      {
+        level: 1,
+        move: "WITHDRAW",
+      },
+      {
+        level: 1,
+        move: "STUNSPORE",
+      },
+      {
+        level: 6,
+        move: "ABSORB",
+      },
+      {
+        level: 12,
+        move: "LIFEDEW",
+      },
+      {
+        level: 18,
+        move: "FOULPLAY",
+      },
+      {
+        level: 24,
+        move: "MEGADRAIN",
+      },
+      {
+        level: 30,
+        move: "HEX",
+      },
+      {
+        level: 36,
+        move: "RAGEPOWDER",
+      },
+      {
+        level: 42,
+        move: "STRENGTHSAP",
+      },
+      {
+        level: 48,
+        move: "SHADOWBALL",
+      },
+      {
+        level: 54,
+        move: "MEMENTO",
+      },
+      {
+        level: 60,
+        move: "LEAFSTORM",
+      },
     ],
     tutorMoves: [
       "CALMMIND",
@@ -43570,25 +59768,82 @@ export const pokemonForms: PokemonForm[] = [
     hiddenAbilities: [],
     category: "Mask",
     moves: [
-      "DOUBLEKICK",
-      "COUNTER",
-      "RETALIATE",
-      "HORNLEECH",
-      "VINEWHIP",
-      "LEECHSEED",
-      "QUICKATTACK",
-      "FOLLOWME",
-      "FOCUSENERGY",
-      "GROWTH",
-      "SLAM",
-      "LOWSWEEP",
-      "IVYCUDGEL",
-      "THROATCHOP",
-      "SYNTHESIS",
-      "SPIKYSHIELD",
-      "POWERWHIP",
-      "SUPERPOWER",
-      "WOODHAMMER",
+      {
+        level: 1,
+        move: "DOUBLEKICK",
+      },
+      {
+        level: 1,
+        move: "COUNTER",
+      },
+      {
+        level: 1,
+        move: "RETALIATE",
+      },
+      {
+        level: 1,
+        move: "HORNLEECH",
+      },
+      {
+        level: 1,
+        move: "VINEWHIP",
+      },
+      {
+        level: 1,
+        move: "LEECHSEED",
+      },
+      {
+        level: 1,
+        move: "QUICKATTACK",
+      },
+      {
+        level: 1,
+        move: "FOLLOWME",
+      },
+      {
+        level: 6,
+        move: "FOCUSENERGY",
+      },
+      {
+        level: 12,
+        move: "GROWTH",
+      },
+      {
+        level: 18,
+        move: "SLAM",
+      },
+      {
+        level: 24,
+        move: "LOWSWEEP",
+      },
+      {
+        level: 30,
+        move: "IVYCUDGEL",
+      },
+      {
+        level: 36,
+        move: "THROATCHOP",
+      },
+      {
+        level: 42,
+        move: "SYNTHESIS",
+      },
+      {
+        level: 48,
+        move: "SPIKYSHIELD",
+      },
+      {
+        level: 54,
+        move: "POWERWHIP",
+      },
+      {
+        level: 60,
+        move: "SUPERPOWER",
+      },
+      {
+        level: 66,
+        move: "WOODHAMMER",
+      },
     ],
     tutorMoves: [
       "BRICKBREAK",
@@ -43668,25 +59923,82 @@ export const pokemonForms: PokemonForm[] = [
     hiddenAbilities: [],
     category: "Mask",
     moves: [
-      "DOUBLEKICK",
-      "COUNTER",
-      "RETALIATE",
-      "HORNLEECH",
-      "VINEWHIP",
-      "LEECHSEED",
-      "QUICKATTACK",
-      "FOLLOWME",
-      "FOCUSENERGY",
-      "GROWTH",
-      "SLAM",
-      "LOWSWEEP",
-      "IVYCUDGEL",
-      "THROATCHOP",
-      "SYNTHESIS",
-      "SPIKYSHIELD",
-      "POWERWHIP",
-      "SUPERPOWER",
-      "WOODHAMMER",
+      {
+        level: 1,
+        move: "DOUBLEKICK",
+      },
+      {
+        level: 1,
+        move: "COUNTER",
+      },
+      {
+        level: 1,
+        move: "RETALIATE",
+      },
+      {
+        level: 1,
+        move: "HORNLEECH",
+      },
+      {
+        level: 1,
+        move: "VINEWHIP",
+      },
+      {
+        level: 1,
+        move: "LEECHSEED",
+      },
+      {
+        level: 1,
+        move: "QUICKATTACK",
+      },
+      {
+        level: 1,
+        move: "FOLLOWME",
+      },
+      {
+        level: 6,
+        move: "FOCUSENERGY",
+      },
+      {
+        level: 12,
+        move: "GROWTH",
+      },
+      {
+        level: 18,
+        move: "SLAM",
+      },
+      {
+        level: 24,
+        move: "LOWSWEEP",
+      },
+      {
+        level: 30,
+        move: "IVYCUDGEL",
+      },
+      {
+        level: 36,
+        move: "THROATCHOP",
+      },
+      {
+        level: 42,
+        move: "SYNTHESIS",
+      },
+      {
+        level: 48,
+        move: "SPIKYSHIELD",
+      },
+      {
+        level: 54,
+        move: "POWERWHIP",
+      },
+      {
+        level: 60,
+        move: "SUPERPOWER",
+      },
+      {
+        level: 66,
+        move: "WOODHAMMER",
+      },
     ],
     tutorMoves: [
       "BRICKBREAK",
@@ -43766,25 +60078,82 @@ export const pokemonForms: PokemonForm[] = [
     hiddenAbilities: [],
     category: "Mask",
     moves: [
-      "DOUBLEKICK",
-      "COUNTER",
-      "RETALIATE",
-      "HORNLEECH",
-      "VINEWHIP",
-      "LEECHSEED",
-      "QUICKATTACK",
-      "FOLLOWME",
-      "FOCUSENERGY",
-      "GROWTH",
-      "SLAM",
-      "LOWSWEEP",
-      "IVYCUDGEL",
-      "THROATCHOP",
-      "SYNTHESIS",
-      "SPIKYSHIELD",
-      "POWERWHIP",
-      "SUPERPOWER",
-      "WOODHAMMER",
+      {
+        level: 1,
+        move: "DOUBLEKICK",
+      },
+      {
+        level: 1,
+        move: "COUNTER",
+      },
+      {
+        level: 1,
+        move: "RETALIATE",
+      },
+      {
+        level: 1,
+        move: "HORNLEECH",
+      },
+      {
+        level: 1,
+        move: "VINEWHIP",
+      },
+      {
+        level: 1,
+        move: "LEECHSEED",
+      },
+      {
+        level: 1,
+        move: "QUICKATTACK",
+      },
+      {
+        level: 1,
+        move: "FOLLOWME",
+      },
+      {
+        level: 6,
+        move: "FOCUSENERGY",
+      },
+      {
+        level: 12,
+        move: "GROWTH",
+      },
+      {
+        level: 18,
+        move: "SLAM",
+      },
+      {
+        level: 24,
+        move: "LOWSWEEP",
+      },
+      {
+        level: 30,
+        move: "IVYCUDGEL",
+      },
+      {
+        level: 36,
+        move: "THROATCHOP",
+      },
+      {
+        level: 42,
+        move: "SYNTHESIS",
+      },
+      {
+        level: 48,
+        move: "SPIKYSHIELD",
+      },
+      {
+        level: 54,
+        move: "POWERWHIP",
+      },
+      {
+        level: 60,
+        move: "SUPERPOWER",
+      },
+      {
+        level: 66,
+        move: "WOODHAMMER",
+      },
     ],
     tutorMoves: [
       "BRICKBREAK",
@@ -43864,18 +60233,54 @@ export const pokemonForms: PokemonForm[] = [
     hiddenAbilities: [],
     category: "Tera",
     moves: [
-      "WITHDRAW",
-      "TRIATTACK",
-      "RAPIDSPIN",
-      "ANCIENTPOWER",
-      "HEADBUTT",
-      "PROTECT",
-      "EARTHPOWER",
-      "HEAVYSLAM",
-      "TERASTARSTORM",
-      "DOUBLEEDGE",
-      "ROCKPOLISH",
-      "GYROBALL",
+      {
+        level: 1,
+        move: "WITHDRAW",
+      },
+      {
+        level: 1,
+        move: "TRIATTACK",
+      },
+      {
+        level: 1,
+        move: "RAPIDSPIN",
+      },
+      {
+        level: 10,
+        move: "ANCIENTPOWER",
+      },
+      {
+        level: 20,
+        move: "HEADBUTT",
+      },
+      {
+        level: 30,
+        move: "PROTECT",
+      },
+      {
+        level: 40,
+        move: "EARTHPOWER",
+      },
+      {
+        level: 50,
+        move: "HEAVYSLAM",
+      },
+      {
+        level: 60,
+        move: "TERASTARSTORM",
+      },
+      {
+        level: 70,
+        move: "DOUBLEEDGE",
+      },
+      {
+        level: 80,
+        move: "ROCKPOLISH",
+      },
+      {
+        level: 90,
+        move: "GYROBALL",
+      },
     ],
     tutorMoves: [
       "AURASPHERE",
@@ -43962,18 +60367,54 @@ export const pokemonForms: PokemonForm[] = [
     hiddenAbilities: [],
     category: "Tera",
     moves: [
-      "WITHDRAW",
-      "TRIATTACK",
-      "RAPIDSPIN",
-      "ANCIENTPOWER",
-      "HEADBUTT",
-      "PROTECT",
-      "EARTHPOWER",
-      "HEAVYSLAM",
-      "TERASTARSTORM",
-      "DOUBLEEDGE",
-      "ROCKPOLISH",
-      "GYROBALL",
+      {
+        level: 1,
+        move: "WITHDRAW",
+      },
+      {
+        level: 1,
+        move: "TRIATTACK",
+      },
+      {
+        level: 1,
+        move: "RAPIDSPIN",
+      },
+      {
+        level: 10,
+        move: "ANCIENTPOWER",
+      },
+      {
+        level: 20,
+        move: "HEADBUTT",
+      },
+      {
+        level: 30,
+        move: "PROTECT",
+      },
+      {
+        level: 40,
+        move: "EARTHPOWER",
+      },
+      {
+        level: 50,
+        move: "HEAVYSLAM",
+      },
+      {
+        level: 60,
+        move: "TERASTARSTORM",
+      },
+      {
+        level: 70,
+        move: "DOUBLEEDGE",
+      },
+      {
+        level: 80,
+        move: "ROCKPOLISH",
+      },
+      {
+        level: 90,
+        move: "GYROBALL",
+      },
     ],
     tutorMoves: [
       "AURASPHERE",
@@ -44060,27 +60501,90 @@ export const pokemonForms: PokemonForm[] = [
     hiddenAbilities: ["UNAWARE"],
     category: "Fairy",
     moves: [
-      "SING",
-      "SWEETKISS",
-      "DISARMINGVOICE",
-      "CHARM",
-      "SPLASH",
-      "POUND",
-      "COPYCAT",
-      "GROWL",
-      "DEFENSECURL",
-      "STOREDPOWER",
-      "ENCORE",
-      "AFTERYOU",
-      "MOONLIGHT",
-      "GRAVITY",
-      "FOLLOWME",
-      "COSMICPOWER",
-      "HEALINGWISH",
-      "METRONOME",
-      "METEORMASH",
-      "MOONBLAST",
-      "LIFEDEW",
+      {
+        level: 1,
+        move: "SING",
+      },
+      {
+        level: 1,
+        move: "SWEETKISS",
+      },
+      {
+        level: 1,
+        move: "DISARMINGVOICE",
+      },
+      {
+        level: 1,
+        move: "CHARM",
+      },
+      {
+        level: 1,
+        move: "SPLASH",
+      },
+      {
+        level: 1,
+        move: "POUND",
+      },
+      {
+        level: 1,
+        move: "COPYCAT",
+      },
+      {
+        level: 1,
+        move: "GROWL",
+      },
+      {
+        level: 1,
+        move: "DEFENSECURL",
+      },
+      {
+        level: 1,
+        move: "STOREDPOWER",
+      },
+      {
+        level: 1,
+        move: "ENCORE",
+      },
+      {
+        level: 1,
+        move: "AFTERYOU",
+      },
+      {
+        level: 1,
+        move: "MOONLIGHT",
+      },
+      {
+        level: 1,
+        move: "GRAVITY",
+      },
+      {
+        level: 1,
+        move: "FOLLOWME",
+      },
+      {
+        level: 1,
+        move: "COSMICPOWER",
+      },
+      {
+        level: 1,
+        move: "HEALINGWISH",
+      },
+      {
+        level: 1,
+        move: "METRONOME",
+      },
+      {
+        level: 1,
+        move: "METEORMASH",
+      },
+      {
+        level: 1,
+        move: "MOONBLAST",
+      },
+      {
+        level: 1,
+        move: "LIFEDEW",
+      },
     ],
     tutorMoves: [
       "AFTERYOU",
@@ -44242,17 +60746,50 @@ export const pokemonForms: PokemonForm[] = [
     hiddenAbilities: ["GLUTTONY"],
     category: "Flycatcher",
     moves: [
-      "LEAFSTORM",
-      "STOCKPILE",
-      "SWALLOW",
-      "SPITUP",
-      "GASTROACID",
-      "POWERWHIP",
-      "VINEWHIP",
-      "SLEEPPOWDER",
-      "SWEETSCENT",
-      "RAZORLEAF",
-      "LEAFBLADE",
+      {
+        level: 0,
+        move: "LEAFSTORM",
+      },
+      {
+        level: 1,
+        move: "STOCKPILE",
+      },
+      {
+        level: 1,
+        move: "SWALLOW",
+      },
+      {
+        level: 1,
+        move: "SPITUP",
+      },
+      {
+        level: 1,
+        move: "GASTROACID",
+      },
+      {
+        level: 1,
+        move: "POWERWHIP",
+      },
+      {
+        level: 1,
+        move: "VINEWHIP",
+      },
+      {
+        level: 1,
+        move: "SLEEPPOWDER",
+      },
+      {
+        level: 1,
+        move: "SWEETSCENT",
+      },
+      {
+        level: 1,
+        move: "RAZORLEAF",
+      },
+      {
+        level: 44,
+        move: "LEAFBLADE",
+      },
     ],
     tutorMoves: [
       "ACIDSPRAY",
@@ -44349,22 +60886,70 @@ export const pokemonForms: PokemonForm[] = [
     hiddenAbilities: ["ANALYTIC"],
     category: "Mysterious",
     moves: [
-      "RAPIDSPIN",
-      "MINIMIZE",
-      "SWIFT",
-      "PSYBEAM",
-      "BRINE",
-      "LIGHTSCREEN",
-      "POWERGEM",
-      "PSYCHIC",
-      "SURF",
-      "RECOVER",
-      "COSMICPOWER",
-      "HYDROPUMP",
-      "TACKLE",
-      "HARDEN",
-      "WATERGUN",
-      "CONFUSERAY",
+      {
+        level: 1,
+        move: "RAPIDSPIN",
+      },
+      {
+        level: 1,
+        move: "MINIMIZE",
+      },
+      {
+        level: 1,
+        move: "SWIFT",
+      },
+      {
+        level: 1,
+        move: "PSYBEAM",
+      },
+      {
+        level: 1,
+        move: "BRINE",
+      },
+      {
+        level: 1,
+        move: "LIGHTSCREEN",
+      },
+      {
+        level: 1,
+        move: "POWERGEM",
+      },
+      {
+        level: 1,
+        move: "PSYCHIC",
+      },
+      {
+        level: 1,
+        move: "SURF",
+      },
+      {
+        level: 1,
+        move: "RECOVER",
+      },
+      {
+        level: 1,
+        move: "COSMICPOWER",
+      },
+      {
+        level: 1,
+        move: "HYDROPUMP",
+      },
+      {
+        level: 1,
+        move: "TACKLE",
+      },
+      {
+        level: 1,
+        move: "HARDEN",
+      },
+      {
+        level: 1,
+        move: "WATERGUN",
+      },
+      {
+        level: 1,
+        move: "CONFUSERAY",
+      },
     ],
     tutorMoves: [
       "AGILITY",
@@ -44469,26 +61054,86 @@ export const pokemonForms: PokemonForm[] = [
     hiddenAbilities: ["MULTISCALE"],
     category: "Dragon",
     moves: [
-      "HURRICANE",
-      "WINGATTACK",
-      "EXTREMESPEED",
-      "ROOST",
-      "FIREPUNCH",
-      "THUNDERPUNCH",
-      "WRAP",
-      "LEER",
-      "TWISTER",
-      "THUNDERWAVE",
-      "DRAGONTAIL",
-      "AGILITY",
-      "SLAM",
-      "AQUATAIL",
-      "DRAGONRUSH",
-      "OUTRAGE",
-      "SAFEGUARD",
-      "RAINDANCE",
-      "DRAGONDANCE",
-      "HYPERBEAM",
+      {
+        level: 0,
+        move: "HURRICANE",
+      },
+      {
+        level: 1,
+        move: "WINGATTACK",
+      },
+      {
+        level: 1,
+        move: "EXTREMESPEED",
+      },
+      {
+        level: 1,
+        move: "ROOST",
+      },
+      {
+        level: 1,
+        move: "FIREPUNCH",
+      },
+      {
+        level: 1,
+        move: "THUNDERPUNCH",
+      },
+      {
+        level: 1,
+        move: "WRAP",
+      },
+      {
+        level: 1,
+        move: "LEER",
+      },
+      {
+        level: 1,
+        move: "TWISTER",
+      },
+      {
+        level: 1,
+        move: "THUNDERWAVE",
+      },
+      {
+        level: 15,
+        move: "DRAGONTAIL",
+      },
+      {
+        level: 20,
+        move: "AGILITY",
+      },
+      {
+        level: 25,
+        move: "SLAM",
+      },
+      {
+        level: 33,
+        move: "AQUATAIL",
+      },
+      {
+        level: 39,
+        move: "DRAGONRUSH",
+      },
+      {
+        level: 41,
+        move: "OUTRAGE",
+      },
+      {
+        level: 46,
+        move: "SAFEGUARD",
+      },
+      {
+        level: 53,
+        move: "RAINDANCE",
+      },
+      {
+        level: 62,
+        move: "DRAGONDANCE",
+      },
+      {
+        level: 80,
+        move: "HYPERBEAM",
+      },
     ],
     tutorMoves: [
       "AERIALACE",
@@ -44634,22 +61279,70 @@ export const pokemonForms: PokemonForm[] = [
     hiddenAbilities: ["LEAFGUARD"],
     category: "Herb",
     moves: [
-      "PETALDANCE",
-      "PETALBLIZZARD",
-      "TACKLE",
-      "GROWL",
-      "RAZORLEAF",
-      "POISONPOWDER",
-      "SYNTHESIS",
-      "REFLECT",
-      "MAGICALLEAF",
-      "LEECHSEED",
-      "SWEETSCENT",
-      "LIGHTSCREEN",
-      "BODYSLAM",
-      "SAFEGUARD",
-      "GIGADRAIN",
-      "SOLARBEAM",
+      {
+        level: 0,
+        move: "PETALDANCE",
+      },
+      {
+        level: 1,
+        move: "PETALBLIZZARD",
+      },
+      {
+        level: 1,
+        move: "TACKLE",
+      },
+      {
+        level: 1,
+        move: "GROWL",
+      },
+      {
+        level: 1,
+        move: "RAZORLEAF",
+      },
+      {
+        level: 1,
+        move: "POISONPOWDER",
+      },
+      {
+        level: 12,
+        move: "SYNTHESIS",
+      },
+      {
+        level: 18,
+        move: "REFLECT",
+      },
+      {
+        level: 22,
+        move: "MAGICALLEAF",
+      },
+      {
+        level: 26,
+        move: "LEECHSEED",
+      },
+      {
+        level: 34,
+        move: "SWEETSCENT",
+      },
+      {
+        level: 40,
+        move: "LIGHTSCREEN",
+      },
+      {
+        level: 46,
+        move: "BODYSLAM",
+      },
+      {
+        level: 54,
+        move: "SAFEGUARD",
+      },
+      {
+        level: 60,
+        move: "GIGADRAIN",
+      },
+      {
+        level: 65,
+        move: "SOLARBEAM",
+      },
     ],
     tutorMoves: [
       "ANCIENTPOWER",
@@ -44762,21 +61455,66 @@ export const pokemonForms: PokemonForm[] = [
     hiddenAbilities: ["SHEERFORCE"],
     category: "Big Jaw",
     moves: [
-      "AGILITY",
-      "SCRATCH",
-      "LEER",
-      "WATERGUN",
-      "BITE",
-      "SCARYFACE",
-      "ICEFANG",
-      "FLAIL",
-      "CRUNCH",
-      "SLASH",
-      "SCREECH",
-      "THRASH",
-      "AQUATAIL",
-      "SUPERPOWER",
-      "HYDROPUMP",
+      {
+        level: 1,
+        move: "AGILITY",
+      },
+      {
+        level: 1,
+        move: "SCRATCH",
+      },
+      {
+        level: 1,
+        move: "LEER",
+      },
+      {
+        level: 1,
+        move: "WATERGUN",
+      },
+      {
+        level: 13,
+        move: "BITE",
+      },
+      {
+        level: 15,
+        move: "SCARYFACE",
+      },
+      {
+        level: 21,
+        move: "ICEFANG",
+      },
+      {
+        level: 24,
+        move: "FLAIL",
+      },
+      {
+        level: 32,
+        move: "CRUNCH",
+      },
+      {
+        level: 37,
+        move: "SLASH",
+      },
+      {
+        level: 44,
+        move: "SCREECH",
+      },
+      {
+        level: 51,
+        move: "THRASH",
+      },
+      {
+        level: 59,
+        move: "AQUATAIL",
+      },
+      {
+        level: 65,
+        move: "SUPERPOWER",
+      },
+      {
+        level: 70,
+        move: "HYDROPUMP",
+      },
     ],
     tutorMoves: [
       "AERIALACE",
@@ -44911,21 +61649,66 @@ export const pokemonForms: PokemonForm[] = [
     hiddenAbilities: ["WEAKARMOR"],
     category: "Armor Bird",
     moves: [
-      "PECK",
-      "LEER",
-      "SANDATTACK",
-      "FURYATTACK",
-      "METALCLAW",
-      "AGILITY",
-      "WINGATTACK",
-      "SLASH",
-      "STEELWING",
-      "PAYBACK",
-      "DRILLPECK",
-      "METALSOUND",
-      "SPIKES",
-      "IRONDEFENSE",
-      "BRAVEBIRD",
+      {
+        level: 1,
+        move: "PECK",
+      },
+      {
+        level: 1,
+        move: "LEER",
+      },
+      {
+        level: 4,
+        move: "SANDATTACK",
+      },
+      {
+        level: 8,
+        move: "FURYATTACK",
+      },
+      {
+        level: 12,
+        move: "METALCLAW",
+      },
+      {
+        level: 16,
+        move: "AGILITY",
+      },
+      {
+        level: 20,
+        move: "WINGATTACK",
+      },
+      {
+        level: 24,
+        move: "SLASH",
+      },
+      {
+        level: 28,
+        move: "STEELWING",
+      },
+      {
+        level: 32,
+        move: "PAYBACK",
+      },
+      {
+        level: 36,
+        move: "DRILLPECK",
+      },
+      {
+        level: 40,
+        move: "METALSOUND",
+      },
+      {
+        level: 44,
+        move: "SPIKES",
+      },
+      {
+        level: 48,
+        move: "IRONDEFENSE",
+      },
+      {
+        level: 52,
+        move: "BRAVEBIRD",
+      },
     ],
     tutorMoves: [
       "AERIALACE",
@@ -45046,27 +61829,90 @@ export const pokemonForms: PokemonForm[] = [
     hiddenAbilities: ["CURSEDBODY"],
     category: "Snow Land",
     moves: [
-      "HEX",
-      "DESTINYBOND",
-      "PROTECT",
-      "BITE",
-      "ICEFANG",
-      "CRUNCH",
-      "ASTONISH",
-      "POWDERSNOW",
-      "HEADBUTT",
-      "LEER",
-      "DOUBLETEAM",
-      "ICESHARD",
-      "DRAININGKISS",
-      "ICYWIND",
-      "FROSTBREATH",
-      "CONFUSERAY",
-      "SNOWSCAPE",
-      "WILLOWISP",
-      "AURORAVEIL",
-      "SHADOWBALL",
-      "BLIZZARD",
+      {
+        level: 0,
+        move: "HEX",
+      },
+      {
+        level: 1,
+        move: "DESTINYBOND",
+      },
+      {
+        level: 1,
+        move: "PROTECT",
+      },
+      {
+        level: 1,
+        move: "BITE",
+      },
+      {
+        level: 1,
+        move: "ICEFANG",
+      },
+      {
+        level: 1,
+        move: "CRUNCH",
+      },
+      {
+        level: 1,
+        move: "ASTONISH",
+      },
+      {
+        level: 1,
+        move: "POWDERSNOW",
+      },
+      {
+        level: 1,
+        move: "HEADBUTT",
+      },
+      {
+        level: 1,
+        move: "LEER",
+      },
+      {
+        level: 1,
+        move: "DOUBLETEAM",
+      },
+      {
+        level: 15,
+        move: "ICESHARD",
+      },
+      {
+        level: 20,
+        move: "DRAININGKISS",
+      },
+      {
+        level: 25,
+        move: "ICYWIND",
+      },
+      {
+        level: 30,
+        move: "FROSTBREATH",
+      },
+      {
+        level: 35,
+        move: "CONFUSERAY",
+      },
+      {
+        level: 40,
+        move: "SNOWSCAPE",
+      },
+      {
+        level: 47,
+        move: "WILLOWISP",
+      },
+      {
+        level: 54,
+        move: "AURORAVEIL",
+      },
+      {
+        level: 61,
+        move: "SHADOWBALL",
+      },
+      {
+        level: 68,
+        move: "BLIZZARD",
+      },
     ],
     tutorMoves: [
       "ALLYSWITCH",
@@ -45188,23 +62034,74 @@ export const pokemonForms: PokemonForm[] = [
     hiddenAbilities: ["RECKLESS"],
     category: "Mega Fire Pig",
     moves: [
-      "ENDURE",
-      "HAMMERARM",
-      "ARMTHRUST",
-      "TACKLE",
-      "TAILWHIP",
-      "EMBER",
-      "DEFENSECURL",
-      "FLAMECHARGE",
-      "SMOG",
-      "ROLLOUT",
-      "TAKEDOWN",
-      "HEATCRASH",
-      "ASSURANCE",
-      "FLAMETHROWER",
-      "HEADSMASH",
-      "ROAR",
-      "FLAREBLITZ",
+      {
+        level: 1,
+        move: "ENDURE",
+      },
+      {
+        level: 1,
+        move: "HAMMERARM",
+      },
+      {
+        level: 1,
+        move: "ARMTHRUST",
+      },
+      {
+        level: 1,
+        move: "TACKLE",
+      },
+      {
+        level: 1,
+        move: "TAILWHIP",
+      },
+      {
+        level: 1,
+        move: "EMBER",
+      },
+      {
+        level: 13,
+        move: "DEFENSECURL",
+      },
+      {
+        level: 15,
+        move: "FLAMECHARGE",
+      },
+      {
+        level: 20,
+        move: "SMOG",
+      },
+      {
+        level: 23,
+        move: "ROLLOUT",
+      },
+      {
+        level: 28,
+        move: "TAKEDOWN",
+      },
+      {
+        level: 31,
+        move: "HEATCRASH",
+      },
+      {
+        level: 38,
+        move: "ASSURANCE",
+      },
+      {
+        level: 43,
+        move: "FLAMETHROWER",
+      },
+      {
+        level: 50,
+        move: "HEADSMASH",
+      },
+      {
+        level: 55,
+        move: "ROAR",
+      },
+      {
+        level: 62,
+        move: "FLAREBLITZ",
+      },
     ],
     tutorMoves: [
       "ATTRACT",
@@ -45329,21 +62226,66 @@ export const pokemonForms: PokemonForm[] = [
     hiddenAbilities: ["MOLDBREAKER"],
     category: "Subterrene",
     moves: [
-      "HORNDRILL",
-      "MUDSLAP",
-      "RAPIDSPIN",
-      "SCRATCH",
-      "HONECLAWS",
-      "FURYSWIPES",
-      "METALCLAW",
-      "SANDSTORM",
-      "CRUSHCLAW",
-      "ROCKSLIDE",
-      "DIG",
-      "SWORDSDANCE",
-      "DRILLRUN",
-      "EARTHQUAKE",
-      "FISSURE",
+      {
+        level: 0,
+        move: "HORNDRILL",
+      },
+      {
+        level: 1,
+        move: "MUDSLAP",
+      },
+      {
+        level: 1,
+        move: "RAPIDSPIN",
+      },
+      {
+        level: 1,
+        move: "SCRATCH",
+      },
+      {
+        level: 1,
+        move: "HONECLAWS",
+      },
+      {
+        level: 12,
+        move: "FURYSWIPES",
+      },
+      {
+        level: 16,
+        move: "METALCLAW",
+      },
+      {
+        level: 20,
+        move: "SANDSTORM",
+      },
+      {
+        level: 24,
+        move: "CRUSHCLAW",
+      },
+      {
+        level: 28,
+        move: "ROCKSLIDE",
+      },
+      {
+        level: 34,
+        move: "DIG",
+      },
+      {
+        level: 40,
+        move: "SWORDSDANCE",
+      },
+      {
+        level: 46,
+        move: "DRILLRUN",
+      },
+      {
+        level: 52,
+        move: "EARTHQUAKE",
+      },
+      {
+        level: 58,
+        move: "FISSURE",
+      },
     ],
     tutorMoves: [
       "AERIALACE",
@@ -45444,22 +62386,70 @@ export const pokemonForms: PokemonForm[] = [
     hiddenAbilities: ["SPEEDBOOST"],
     category: "Megapede",
     moves: [
-      "IRONDEFENSE",
-      "BATONPASS",
-      "POISONSTING",
-      "DEFENSECURL",
-      "ROLLOUT",
-      "PROTECT",
-      "POISONTAIL",
-      "SCREECH",
-      "BUGBITE",
-      "VENOSHOCK",
-      "TAKEDOWN",
-      "AGILITY",
-      "TOXIC",
-      "VENOMDRENCH",
-      "DOUBLEEDGE",
-      "MEGAHORN",
+      {
+        level: 1,
+        move: "IRONDEFENSE",
+      },
+      {
+        level: 1,
+        move: "BATONPASS",
+      },
+      {
+        level: 1,
+        move: "POISONSTING",
+      },
+      {
+        level: 1,
+        move: "DEFENSECURL",
+      },
+      {
+        level: 1,
+        move: "ROLLOUT",
+      },
+      {
+        level: 1,
+        move: "PROTECT",
+      },
+      {
+        level: 12,
+        move: "POISONTAIL",
+      },
+      {
+        level: 16,
+        move: "SCREECH",
+      },
+      {
+        level: 20,
+        move: "BUGBITE",
+      },
+      {
+        level: 26,
+        move: "VENOSHOCK",
+      },
+      {
+        level: 34,
+        move: "TAKEDOWN",
+      },
+      {
+        level: 42,
+        move: "AGILITY",
+      },
+      {
+        level: 50,
+        move: "TOXIC",
+      },
+      {
+        level: 58,
+        move: "VENOMDRENCH",
+      },
+      {
+        level: 66,
+        move: "DOUBLEEDGE",
+      },
+      {
+        level: 74,
+        move: "MEGAHORN",
+      },
     ],
     tutorMoves: [
       "AGILITY",
@@ -45559,21 +62549,66 @@ export const pokemonForms: PokemonForm[] = [
     hiddenAbilities: ["INTIMIDATE"],
     category: "Hoodlum",
     moves: [
-      "LOWKICK",
-      "LEER",
-      "PAYBACK",
-      "HEADBUTT",
-      "SANDATTACK",
-      "FACADE",
-      "TORMENT",
-      "BEATUP",
-      "SCARYFACE",
-      "BRICKBREAK",
-      "SWAGGER",
-      "CRUNCH",
-      "HIGHJUMPKICK",
-      "FOCUSPUNCH",
-      "HEADSMASH",
+      {
+        level: 1,
+        move: "LOWKICK",
+      },
+      {
+        level: 1,
+        move: "LEER",
+      },
+      {
+        level: 1,
+        move: "PAYBACK",
+      },
+      {
+        level: 1,
+        move: "HEADBUTT",
+      },
+      {
+        level: 12,
+        move: "SANDATTACK",
+      },
+      {
+        level: 16,
+        move: "FACADE",
+      },
+      {
+        level: 20,
+        move: "TORMENT",
+      },
+      {
+        level: 24,
+        move: "BEATUP",
+      },
+      {
+        level: 28,
+        move: "SCARYFACE",
+      },
+      {
+        level: 32,
+        move: "BRICKBREAK",
+      },
+      {
+        level: 36,
+        move: "SWAGGER",
+      },
+      {
+        level: 42,
+        move: "CRUNCH",
+      },
+      {
+        level: 48,
+        move: "HIGHJUMPKICK",
+      },
+      {
+        level: 54,
+        move: "FOCUSPUNCH",
+      },
+      {
+        level: 60,
+        move: "HEADSMASH",
+      },
     ],
     tutorMoves: [
       "ACIDSPRAY",
@@ -45706,16 +62741,46 @@ export const pokemonForms: PokemonForm[] = [
     hiddenAbilities: [],
     category: "EleFish",
     moves: [
-      "CRUNCH",
-      "THRASH",
-      "ZAPCANNON",
-      "GASTROACID",
-      "COIL",
-      "CRUSHCLAW",
-      "HEADBUTT",
-      "ACID",
-      "DISCHARGE",
-      "WILDCHARGE",
+      {
+        level: 1,
+        move: "CRUNCH",
+      },
+      {
+        level: 1,
+        move: "THRASH",
+      },
+      {
+        level: 1,
+        move: "ZAPCANNON",
+      },
+      {
+        level: 1,
+        move: "GASTROACID",
+      },
+      {
+        level: 1,
+        move: "COIL",
+      },
+      {
+        level: 1,
+        move: "CRUSHCLAW",
+      },
+      {
+        level: 1,
+        move: "HEADBUTT",
+      },
+      {
+        level: 1,
+        move: "ACID",
+      },
+      {
+        level: 1,
+        move: "DISCHARGE",
+      },
+      {
+        level: 5,
+        move: "WILDCHARGE",
+      },
     ],
     tutorMoves: [
       "ACIDSPRAY",
@@ -45840,22 +62905,70 @@ export const pokemonForms: PokemonForm[] = [
     hiddenAbilities: ["INFILTRATOR"],
     category: "Luring",
     moves: [
-      "CONFUSERAY",
-      "HEX",
-      "WILLOWISP",
-      "FIRESPIN",
-      "NIGHTSHADE",
-      "CURSE",
-      "SHADOWBALL",
-      "INFERNO",
-      "IMPRISON",
-      "PAINSPLIT",
-      "OVERHEAT",
-      "MEMENTO",
-      "ASTONISH",
-      "SMOG",
-      "EMBER",
-      "MINIMIZE",
+      {
+        level: 1,
+        move: "CONFUSERAY",
+      },
+      {
+        level: 1,
+        move: "HEX",
+      },
+      {
+        level: 1,
+        move: "WILLOWISP",
+      },
+      {
+        level: 1,
+        move: "FIRESPIN",
+      },
+      {
+        level: 1,
+        move: "NIGHTSHADE",
+      },
+      {
+        level: 1,
+        move: "CURSE",
+      },
+      {
+        level: 1,
+        move: "SHADOWBALL",
+      },
+      {
+        level: 1,
+        move: "INFERNO",
+      },
+      {
+        level: 1,
+        move: "IMPRISON",
+      },
+      {
+        level: 1,
+        move: "PAINSPLIT",
+      },
+      {
+        level: 1,
+        move: "OVERHEAT",
+      },
+      {
+        level: 1,
+        move: "MEMENTO",
+      },
+      {
+        level: 1,
+        move: "ASTONISH",
+      },
+      {
+        level: 1,
+        move: "SMOG",
+      },
+      {
+        level: 1,
+        move: "EMBER",
+      },
+      {
+        level: 1,
+        move: "MINIMIZE",
+      },
     ],
     tutorMoves: [
       "ALLYSWITCH",
@@ -45957,24 +63070,78 @@ export const pokemonForms: PokemonForm[] = [
     hiddenAbilities: ["BULLETPROOF"],
     category: "Spiny Armor",
     moves: [
-      "SPIKYSHIELD",
-      "HAMMERARM",
-      "FEINT",
-      "TACKLE",
-      "GROWL",
-      "VINEWHIP",
-      "ROLLOUT",
-      "BITE",
-      "LEECHSEED",
-      "PINMISSILE",
-      "TAKEDOWN",
-      "SEEDBOMB",
-      "MUDSHOT",
-      "BULKUP",
-      "BODYSLAM",
-      "PAINSPLIT",
-      "WOODHAMMER",
-      "GIGAIMPACT",
+      {
+        level: 0,
+        move: "SPIKYSHIELD",
+      },
+      {
+        level: 1,
+        move: "HAMMERARM",
+      },
+      {
+        level: 1,
+        move: "FEINT",
+      },
+      {
+        level: 1,
+        move: "TACKLE",
+      },
+      {
+        level: 1,
+        move: "GROWL",
+      },
+      {
+        level: 1,
+        move: "VINEWHIP",
+      },
+      {
+        level: 1,
+        move: "ROLLOUT",
+      },
+      {
+        level: 11,
+        move: "BITE",
+      },
+      {
+        level: 15,
+        move: "LEECHSEED",
+      },
+      {
+        level: 19,
+        move: "PINMISSILE",
+      },
+      {
+        level: 29,
+        move: "TAKEDOWN",
+      },
+      {
+        level: 35,
+        move: "SEEDBOMB",
+      },
+      {
+        level: 41,
+        move: "MUDSHOT",
+      },
+      {
+        level: 48,
+        move: "BULKUP",
+      },
+      {
+        level: 54,
+        move: "BODYSLAM",
+      },
+      {
+        level: 60,
+        move: "PAINSPLIT",
+      },
+      {
+        level: 66,
+        move: "WOODHAMMER",
+      },
+      {
+        level: 78,
+        move: "GIGAIMPACT",
+      },
     ],
     tutorMoves: [
       "AERIALACE",
@@ -46112,26 +63279,86 @@ export const pokemonForms: PokemonForm[] = [
     hiddenAbilities: ["MAGICIAN"],
     category: "Fox",
     moves: [
-      "MYSTICALFIRE",
-      "FUTURESIGHT",
-      "ROLEPLAY",
-      "SWITCHEROO",
-      "SHADOWBALL",
-      "SCRATCH",
-      "TAILWHIP",
-      "EMBER",
-      "HOWL",
-      "FLAMECHARGE",
-      "PSYBEAM",
-      "FIRESPIN",
-      "LIGHTSCREEN",
-      "PSYSHOCK",
-      "FLAMETHROWER",
-      "WILLOWISP",
-      "PSYCHIC",
-      "SUNNYDAY",
-      "MAGICROOM",
-      "FIREBLAST",
+      {
+        level: 0,
+        move: "MYSTICALFIRE",
+      },
+      {
+        level: 1,
+        move: "FUTURESIGHT",
+      },
+      {
+        level: 1,
+        move: "ROLEPLAY",
+      },
+      {
+        level: 1,
+        move: "SWITCHEROO",
+      },
+      {
+        level: 1,
+        move: "SHADOWBALL",
+      },
+      {
+        level: 1,
+        move: "SCRATCH",
+      },
+      {
+        level: 1,
+        move: "TAILWHIP",
+      },
+      {
+        level: 1,
+        move: "EMBER",
+      },
+      {
+        level: 1,
+        move: "HOWL",
+      },
+      {
+        level: 14,
+        move: "FLAMECHARGE",
+      },
+      {
+        level: 18,
+        move: "PSYBEAM",
+      },
+      {
+        level: 22,
+        move: "FIRESPIN",
+      },
+      {
+        level: 28,
+        move: "LIGHTSCREEN",
+      },
+      {
+        level: 38,
+        move: "PSYSHOCK",
+      },
+      {
+        level: 45,
+        move: "FLAMETHROWER",
+      },
+      {
+        level: 51,
+        move: "WILLOWISP",
+      },
+      {
+        level: 57,
+        move: "PSYCHIC",
+      },
+      {
+        level: 62,
+        move: "SUNNYDAY",
+      },
+      {
+        level: 68,
+        move: "MAGICROOM",
+      },
+      {
+        level: 74,
+        move: "FIREBLAST",
+      },
     ],
     tutorMoves: [
       "AGILITY",
@@ -46264,24 +63491,78 @@ export const pokemonForms: PokemonForm[] = [
     hiddenAbilities: ["PROTEAN"],
     category: "Ninja",
     moves: [
-      "WATERSHURIKEN",
-      "NIGHTSLASH",
-      "HAZE",
-      "ROLEPLAY",
-      "POUND",
-      "GROWL",
-      "WATERGUN",
-      "QUICKATTACK",
-      "LICK",
-      "WATERPULSE",
-      "SMOKESCREEN",
-      "SHADOWSNEAK",
-      "SPIKES",
-      "AERIALACE",
-      "SUBSTITUTE",
-      "EXTRASENSORY",
-      "DOUBLETEAM",
-      "HYDROPUMP",
+      {
+        level: 0,
+        move: "WATERSHURIKEN",
+      },
+      {
+        level: 1,
+        move: "NIGHTSLASH",
+      },
+      {
+        level: 1,
+        move: "HAZE",
+      },
+      {
+        level: 1,
+        move: "ROLEPLAY",
+      },
+      {
+        level: 1,
+        move: "POUND",
+      },
+      {
+        level: 1,
+        move: "GROWL",
+      },
+      {
+        level: 1,
+        move: "WATERGUN",
+      },
+      {
+        level: 1,
+        move: "QUICKATTACK",
+      },
+      {
+        level: 10,
+        move: "LICK",
+      },
+      {
+        level: 14,
+        move: "WATERPULSE",
+      },
+      {
+        level: 19,
+        move: "SMOKESCREEN",
+      },
+      {
+        level: 23,
+        move: "SHADOWSNEAK",
+      },
+      {
+        level: 28,
+        move: "SPIKES",
+      },
+      {
+        level: 33,
+        move: "AERIALACE",
+      },
+      {
+        level: 42,
+        move: "SUBSTITUTE",
+      },
+      {
+        level: 49,
+        move: "EXTRASENSORY",
+      },
+      {
+        level: 56,
+        move: "DOUBLETEAM",
+      },
+      {
+        level: 68,
+        move: "HYDROPUMP",
+      },
     ],
     tutorMoves: [
       "ACROBATICS",
@@ -46394,22 +63675,70 @@ export const pokemonForms: PokemonForm[] = [
     hiddenAbilities: ["MOXIE"],
     category: "Royal",
     moves: [
-      "HYPERBEAM",
-      "TACKLE",
-      "LEER",
-      "EMBER",
-      "WORKUP",
-      "HEADBUTT",
-      "NOBLEROAR",
-      "TAKEDOWN",
-      "FIREFANG",
-      "ENDEAVOR",
-      "ECHOEDVOICE",
-      "FLAMETHROWER",
-      "CRUNCH",
-      "HYPERVOICE",
-      "INCINERATE",
-      "OVERHEAT",
+      {
+        level: 1,
+        move: "HYPERBEAM",
+      },
+      {
+        level: 1,
+        move: "TACKLE",
+      },
+      {
+        level: 1,
+        move: "LEER",
+      },
+      {
+        level: 1,
+        move: "EMBER",
+      },
+      {
+        level: 1,
+        move: "WORKUP",
+      },
+      {
+        level: 11,
+        move: "HEADBUTT",
+      },
+      {
+        level: 15,
+        move: "NOBLEROAR",
+      },
+      {
+        level: 20,
+        move: "TAKEDOWN",
+      },
+      {
+        level: 23,
+        move: "FIREFANG",
+      },
+      {
+        level: 28,
+        move: "ENDEAVOR",
+      },
+      {
+        level: 33,
+        move: "ECHOEDVOICE",
+      },
+      {
+        level: 38,
+        move: "FLAMETHROWER",
+      },
+      {
+        level: 42,
+        move: "CRUNCH",
+      },
+      {
+        level: 48,
+        move: "HYPERVOICE",
+      },
+      {
+        level: 51,
+        move: "INCINERATE",
+      },
+      {
+        level: 57,
+        move: "OVERHEAT",
+      },
     ],
     tutorMoves: [
       "ACROBATICS",
@@ -46511,20 +63840,62 @@ export const pokemonForms: PokemonForm[] = [
     hiddenAbilities: ["SYMBIOSIS"],
     category: "Single Bloom",
     moves: [
-      "TACKLE",
-      "VINEWHIP",
-      "FAIRYWIND",
-      "SAFEGUARD",
-      "RAZORLEAF",
-      "WISH",
-      "MAGICALLEAF",
-      "GRASSYTERRAIN",
-      "PETALBLIZZARD",
-      "SYNTHESIS",
-      "MISTYTERRAIN",
-      "MOONBLAST",
-      "PETALDANCE",
-      "SOLARBEAM",
+      {
+        level: 1,
+        move: "TACKLE",
+      },
+      {
+        level: 1,
+        move: "VINEWHIP",
+      },
+      {
+        level: 1,
+        move: "FAIRYWIND",
+      },
+      {
+        level: 10,
+        move: "SAFEGUARD",
+      },
+      {
+        level: 15,
+        move: "RAZORLEAF",
+      },
+      {
+        level: 20,
+        move: "WISH",
+      },
+      {
+        level: 25,
+        move: "MAGICALLEAF",
+      },
+      {
+        level: 27,
+        move: "GRASSYTERRAIN",
+      },
+      {
+        level: 33,
+        move: "PETALBLIZZARD",
+      },
+      {
+        level: 38,
+        move: "SYNTHESIS",
+      },
+      {
+        level: 43,
+        move: "MISTYTERRAIN",
+      },
+      {
+        level: 46,
+        move: "MOONBLAST",
+      },
+      {
+        level: 51,
+        move: "PETALDANCE",
+      },
+      {
+        level: 58,
+        move: "SOLARBEAM",
+      },
     ],
     tutorMoves: [
       "AFTERYOU",
@@ -46626,22 +63997,70 @@ export const pokemonForms: PokemonForm[] = [
     hiddenAbilities: ["INFILTRATOR"],
     category: "Overturning",
     moves: [
-      "REVERSAL",
-      "PECK",
-      "TACKLE",
-      "HYPNOSIS",
-      "WRAP",
-      "PAYBACK",
-      "PLUCK",
-      "PSYBEAM",
-      "SWAGGER",
-      "SLASH",
-      "NIGHTSLASH",
-      "PSYCHOCUT",
-      "SWITCHEROO",
-      "FOULPLAY",
-      "TOPSYTURVY",
-      "SUPERPOWER",
+      {
+        level: 1,
+        move: "REVERSAL",
+      },
+      {
+        level: 1,
+        move: "PECK",
+      },
+      {
+        level: 1,
+        move: "TACKLE",
+      },
+      {
+        level: 1,
+        move: "HYPNOSIS",
+      },
+      {
+        level: 1,
+        move: "WRAP",
+      },
+      {
+        level: 9,
+        move: "PAYBACK",
+      },
+      {
+        level: 12,
+        move: "PLUCK",
+      },
+      {
+        level: 15,
+        move: "PSYBEAM",
+      },
+      {
+        level: 18,
+        move: "SWAGGER",
+      },
+      {
+        level: 21,
+        move: "SLASH",
+      },
+      {
+        level: 24,
+        move: "NIGHTSLASH",
+      },
+      {
+        level: 27,
+        move: "PSYCHOCUT",
+      },
+      {
+        level: 33,
+        move: "SWITCHEROO",
+      },
+      {
+        level: 37,
+        move: "FOULPLAY",
+      },
+      {
+        level: 42,
+        move: "TOPSYTURVY",
+      },
+      {
+        level: 47,
+        move: "SUPERPOWER",
+      },
     ],
     tutorMoves: [
       "AERIALACE",
@@ -46755,21 +64174,66 @@ export const pokemonForms: PokemonForm[] = [
     hiddenAbilities: ["PICKPOCKET"],
     category: "Collective",
     moves: [
-      "SKULLBASH",
-      "SCRATCH",
-      "MUDSLAP",
-      "WITHDRAW",
-      "WATERGUN",
-      "FURYCUTTER",
-      "FURYSWIPES",
-      "ANCIENTPOWER",
-      "ROCKPOLISH",
-      "SLASH",
-      "HONECLAWS",
-      "RAZORSHELL",
-      "SHELLSMASH",
-      "CROSSCHOP",
-      "STONEEDGE",
+      {
+        level: 1,
+        move: "SKULLBASH",
+      },
+      {
+        level: 1,
+        move: "SCRATCH",
+      },
+      {
+        level: 1,
+        move: "MUDSLAP",
+      },
+      {
+        level: 1,
+        move: "WITHDRAW",
+      },
+      {
+        level: 1,
+        move: "WATERGUN",
+      },
+      {
+        level: 12,
+        move: "FURYCUTTER",
+      },
+      {
+        level: 16,
+        move: "FURYSWIPES",
+      },
+      {
+        level: 20,
+        move: "ANCIENTPOWER",
+      },
+      {
+        level: 24,
+        move: "ROCKPOLISH",
+      },
+      {
+        level: 28,
+        move: "SLASH",
+      },
+      {
+        level: 32,
+        move: "HONECLAWS",
+      },
+      {
+        level: 36,
+        move: "RAZORSHELL",
+      },
+      {
+        level: 42,
+        move: "SHELLSMASH",
+      },
+      {
+        level: 48,
+        move: "CROSSCHOP",
+      },
+      {
+        level: 54,
+        move: "STONEEDGE",
+      },
     ],
     tutorMoves: [
       "AERIALACE",
@@ -46891,20 +64355,62 @@ export const pokemonForms: PokemonForm[] = [
     hiddenAbilities: ["ADAPTABILITY"],
     category: "Mock Kelp",
     moves: [
-      "TACKLE",
-      "SMOKESCREEN",
-      "ACID",
-      "WATERGUN",
-      "TAILWHIP",
-      "DOUBLETEAM",
-      "POISONTAIL",
-      "WATERPULSE",
-      "TOXIC",
-      "DRAGONPULSE",
-      "AQUATAIL",
-      "SLUDGEBOMB",
-      "HYDROPUMP",
-      "OUTRAGE",
+      {
+        level: 1,
+        move: "TACKLE",
+      },
+      {
+        level: 1,
+        move: "SMOKESCREEN",
+      },
+      {
+        level: 1,
+        move: "ACID",
+      },
+      {
+        level: 1,
+        move: "WATERGUN",
+      },
+      {
+        level: 15,
+        move: "TAILWHIP",
+      },
+      {
+        level: 20,
+        move: "DOUBLETEAM",
+      },
+      {
+        level: 25,
+        move: "POISONTAIL",
+      },
+      {
+        level: 30,
+        move: "WATERPULSE",
+      },
+      {
+        level: 35,
+        move: "TOXIC",
+      },
+      {
+        level: 40,
+        move: "DRAGONPULSE",
+      },
+      {
+        level: 45,
+        move: "AQUATAIL",
+      },
+      {
+        level: 52,
+        move: "SLUDGEBOMB",
+      },
+      {
+        level: 59,
+        move: "HYDROPUMP",
+      },
+      {
+        level: 66,
+        move: "OUTRAGE",
+      },
     ],
     tutorMoves: [
       "ACIDSPRAY",
@@ -47005,22 +64511,70 @@ export const pokemonForms: PokemonForm[] = [
     hiddenAbilities: ["MOLDBREAKER"],
     category: "Wrestling",
     moves: [
-      "TACKLE",
-      "HONECLAWS",
-      "WINGATTACK",
-      "DETECT",
-      "AERIALACE",
-      "ENCORE",
-      "FEATHERDANCE",
-      "BRICKBREAK",
-      "BOUNCE",
-      "TAUNT",
-      "ROOST",
-      "SWORDSDANCE",
-      "FLYINGPRESS",
-      "HIGHJUMPKICK",
-      "ENDEAVOR",
-      "SKYATTACK",
+      {
+        level: 1,
+        move: "TACKLE",
+      },
+      {
+        level: 1,
+        move: "HONECLAWS",
+      },
+      {
+        level: 4,
+        move: "WINGATTACK",
+      },
+      {
+        level: 8,
+        move: "DETECT",
+      },
+      {
+        level: 12,
+        move: "AERIALACE",
+      },
+      {
+        level: 16,
+        move: "ENCORE",
+      },
+      {
+        level: 20,
+        move: "FEATHERDANCE",
+      },
+      {
+        level: 24,
+        move: "BRICKBREAK",
+      },
+      {
+        level: 28,
+        move: "BOUNCE",
+      },
+      {
+        level: 32,
+        move: "TAUNT",
+      },
+      {
+        level: 36,
+        move: "ROOST",
+      },
+      {
+        level: 40,
+        move: "SWORDSDANCE",
+      },
+      {
+        level: 44,
+        move: "FLYINGPRESS",
+      },
+      {
+        level: 48,
+        move: "HIGHJUMPKICK",
+      },
+      {
+        level: 52,
+        move: "ENDEAVOR",
+      },
+      {
+        level: 56,
+        move: "SKYATTACK",
+      },
     ],
     tutorMoves: [
       "ACROBATICS",
@@ -47157,24 +64711,78 @@ export const pokemonForms: PokemonForm[] = [
     hiddenAbilities: [],
     category: "Order",
     moves: [
-      "THOUSANDARROWS",
-      "THOUSANDWAVES",
-      "COREENFORCER",
-      "BIND",
-      "BULLDOZE",
-      "DRAGONBREATH",
-      "BITE",
-      "HAZE",
-      "DIG",
-      "SAFEGUARD",
-      "CRUNCH",
-      "DRAGONPULSE",
-      "LANDSWRATH",
-      "GLARE",
-      "SANDSTORM",
-      "COIL",
-      "EARTHQUAKE",
-      "OUTRAGE",
+      {
+        level: 1,
+        move: "THOUSANDARROWS",
+      },
+      {
+        level: 1,
+        move: "THOUSANDWAVES",
+      },
+      {
+        level: 1,
+        move: "COREENFORCER",
+      },
+      {
+        level: 1,
+        move: "BIND",
+      },
+      {
+        level: 1,
+        move: "BULLDOZE",
+      },
+      {
+        level: 1,
+        move: "DRAGONBREATH",
+      },
+      {
+        level: 1,
+        move: "BITE",
+      },
+      {
+        level: 8,
+        move: "HAZE",
+      },
+      {
+        level: 16,
+        move: "DIG",
+      },
+      {
+        level: 24,
+        move: "SAFEGUARD",
+      },
+      {
+        level: 32,
+        move: "CRUNCH",
+      },
+      {
+        level: 40,
+        move: "DRAGONPULSE",
+      },
+      {
+        level: 48,
+        move: "LANDSWRATH",
+      },
+      {
+        level: 56,
+        move: "GLARE",
+      },
+      {
+        level: 64,
+        move: "SANDSTORM",
+      },
+      {
+        level: 72,
+        move: "COIL",
+      },
+      {
+        level: 80,
+        move: "EARTHQUAKE",
+      },
+      {
+        level: 88,
+        move: "OUTRAGE",
+      },
     ],
     tutorMoves: [
       "BIND",
@@ -47270,19 +64878,58 @@ export const pokemonForms: PokemonForm[] = [
     hiddenAbilities: ["CLOUDNINE"],
     category: "Placid",
     moves: [
-      "PLAYNICE",
-      "ECHOEDVOICE",
-      "TWISTER",
-      "PROTECT",
-      "GLARE",
-      "SAFEGUARD",
-      "DRAGONBREATH",
-      "EXTRASENSORY",
-      "DRAGONPULSE",
-      "LIGHTSCREEN",
-      "FLY",
-      "HYPERVOICE",
-      "OUTRAGE",
+      {
+        level: 1,
+        move: "PLAYNICE",
+      },
+      {
+        level: 1,
+        move: "ECHOEDVOICE",
+      },
+      {
+        level: 5,
+        move: "TWISTER",
+      },
+      {
+        level: 10,
+        move: "PROTECT",
+      },
+      {
+        level: 15,
+        move: "GLARE",
+      },
+      {
+        level: 20,
+        move: "SAFEGUARD",
+      },
+      {
+        level: 25,
+        move: "DRAGONBREATH",
+      },
+      {
+        level: 30,
+        move: "EXTRASENSORY",
+      },
+      {
+        level: 35,
+        move: "DRAGONPULSE",
+      },
+      {
+        level: 40,
+        move: "LIGHTSCREEN",
+      },
+      {
+        level: 45,
+        move: "FLY",
+      },
+      {
+        level: 50,
+        move: "HYPERVOICE",
+      },
+      {
+        level: 55,
+        move: "OUTRAGE",
+      },
     ],
     tutorMoves: [
       "AMNESIA",
@@ -47398,20 +65045,62 @@ export const pokemonForms: PokemonForm[] = [
     hiddenAbilities: ["DEFIANT"],
     category: "Formation",
     moves: [
-      "TACKLE",
-      "PROTECT",
-      "ROCKSMASH",
-      "FOCUSENERGY",
-      "HEADBUTT",
-      "BULKUP",
-      "ENDURE",
-      "REVERSAL",
-      "FIRSTIMPRESSION",
-      "NORETREAT",
-      "IRONDEFENSE",
-      "CLOSECOMBAT",
-      "MEGAHORN",
-      "COUNTER",
+      {
+        level: 1,
+        move: "TACKLE",
+      },
+      {
+        level: 1,
+        move: "PROTECT",
+      },
+      {
+        level: 5,
+        move: "ROCKSMASH",
+      },
+      {
+        level: 10,
+        move: "FOCUSENERGY",
+      },
+      {
+        level: 15,
+        move: "HEADBUTT",
+      },
+      {
+        level: 20,
+        move: "BULKUP",
+      },
+      {
+        level: 25,
+        move: "ENDURE",
+      },
+      {
+        level: 30,
+        move: "REVERSAL",
+      },
+      {
+        level: 35,
+        move: "FIRSTIMPRESSION",
+      },
+      {
+        level: 40,
+        move: "NORETREAT",
+      },
+      {
+        level: 45,
+        move: "IRONDEFENSE",
+      },
+      {
+        level: 50,
+        move: "CLOSECOMBAT",
+      },
+      {
+        level: 55,
+        move: "MEGAHORN",
+      },
+      {
+        level: 60,
+        move: "COUNTER",
+      },
     ],
     tutorMoves: [
       "AGILITY",
@@ -47506,27 +65195,90 @@ export const pokemonForms: PokemonForm[] = [
     hiddenAbilities: ["LIGHTNINGROD"],
     category: "Mouse",
     moves: [
-      "THUNDERPUNCH",
-      "PLAYNICE",
-      "SWEETKISS",
-      "NUZZLE",
-      "NASTYPLOT",
-      "CHARM",
-      "THUNDERWAVE",
-      "DOUBLETEAM",
-      "ELECTROBALL",
-      "FEINT",
-      "SPARK",
-      "AGILITY",
-      "IRONTAIL",
-      "DISCHARGE",
-      "LIGHTSCREEN",
-      "THUNDER",
-      "THUNDERSHOCK",
-      "TAILWHIP",
-      "GROWL",
-      "QUICKATTACK",
-      "THUNDERBOLT",
+      {
+        level: 0,
+        move: "THUNDERPUNCH",
+      },
+      {
+        level: 1,
+        move: "PLAYNICE",
+      },
+      {
+        level: 1,
+        move: "SWEETKISS",
+      },
+      {
+        level: 1,
+        move: "NUZZLE",
+      },
+      {
+        level: 1,
+        move: "NASTYPLOT",
+      },
+      {
+        level: 1,
+        move: "CHARM",
+      },
+      {
+        level: 1,
+        move: "THUNDERWAVE",
+      },
+      {
+        level: 1,
+        move: "DOUBLETEAM",
+      },
+      {
+        level: 1,
+        move: "ELECTROBALL",
+      },
+      {
+        level: 1,
+        move: "FEINT",
+      },
+      {
+        level: 1,
+        move: "SPARK",
+      },
+      {
+        level: 1,
+        move: "AGILITY",
+      },
+      {
+        level: 1,
+        move: "IRONTAIL",
+      },
+      {
+        level: 1,
+        move: "DISCHARGE",
+      },
+      {
+        level: 1,
+        move: "LIGHTSCREEN",
+      },
+      {
+        level: 1,
+        move: "THUNDER",
+      },
+      {
+        level: 1,
+        move: "THUNDERSHOCK",
+      },
+      {
+        level: 1,
+        move: "TAILWHIP",
+      },
+      {
+        level: 1,
+        move: "GROWL",
+      },
+      {
+        level: 1,
+        move: "QUICKATTACK",
+      },
+      {
+        level: 5,
+        move: "THUNDERBOLT",
+      },
     ],
     tutorMoves: [
       "AGILITY",
@@ -47647,27 +65399,90 @@ export const pokemonForms: PokemonForm[] = [
     hiddenAbilities: ["LIGHTNINGROD"],
     category: "Mouse",
     moves: [
-      "THUNDERPUNCH",
-      "PLAYNICE",
-      "SWEETKISS",
-      "NUZZLE",
-      "NASTYPLOT",
-      "CHARM",
-      "THUNDERWAVE",
-      "DOUBLETEAM",
-      "ELECTROBALL",
-      "FEINT",
-      "SPARK",
-      "AGILITY",
-      "IRONTAIL",
-      "DISCHARGE",
-      "LIGHTSCREEN",
-      "THUNDER",
-      "THUNDERSHOCK",
-      "TAILWHIP",
-      "GROWL",
-      "QUICKATTACK",
-      "THUNDERBOLT",
+      {
+        level: 0,
+        move: "THUNDERPUNCH",
+      },
+      {
+        level: 1,
+        move: "PLAYNICE",
+      },
+      {
+        level: 1,
+        move: "SWEETKISS",
+      },
+      {
+        level: 1,
+        move: "NUZZLE",
+      },
+      {
+        level: 1,
+        move: "NASTYPLOT",
+      },
+      {
+        level: 1,
+        move: "CHARM",
+      },
+      {
+        level: 1,
+        move: "THUNDERWAVE",
+      },
+      {
+        level: 1,
+        move: "DOUBLETEAM",
+      },
+      {
+        level: 1,
+        move: "ELECTROBALL",
+      },
+      {
+        level: 1,
+        move: "FEINT",
+      },
+      {
+        level: 1,
+        move: "SPARK",
+      },
+      {
+        level: 1,
+        move: "AGILITY",
+      },
+      {
+        level: 1,
+        move: "IRONTAIL",
+      },
+      {
+        level: 1,
+        move: "DISCHARGE",
+      },
+      {
+        level: 1,
+        move: "LIGHTSCREEN",
+      },
+      {
+        level: 1,
+        move: "THUNDER",
+      },
+      {
+        level: 1,
+        move: "THUNDERSHOCK",
+      },
+      {
+        level: 1,
+        move: "TAILWHIP",
+      },
+      {
+        level: 1,
+        move: "GROWL",
+      },
+      {
+        level: 1,
+        move: "QUICKATTACK",
+      },
+      {
+        level: 5,
+        move: "THUNDERBOLT",
+      },
     ],
     tutorMoves: [
       "AGILITY",
@@ -47788,23 +65603,74 @@ export const pokemonForms: PokemonForm[] = [
     hiddenAbilities: ["ICEBODY"],
     category: "Ice Dragon",
     moves: [
-      "GLAIVERUSH",
-      "SNOWSCAPE",
-      "BREAKINGSWIPE",
-      "ICESHARD",
-      "TACKLE",
-      "LEER",
-      "DRAGONTAIL",
-      "ICYWIND",
-      "DRAGONBREATH",
-      "FOCUSENERGY",
-      "BITE",
-      "ICEFANG",
-      "DRAGONCLAW",
-      "TAKEDOWN",
-      "ICEBEAM",
-      "CRUNCH",
-      "ICICLECRASH",
+      {
+        level: 0,
+        move: "GLAIVERUSH",
+      },
+      {
+        level: 1,
+        move: "SNOWSCAPE",
+      },
+      {
+        level: 1,
+        move: "BREAKINGSWIPE",
+      },
+      {
+        level: 1,
+        move: "ICESHARD",
+      },
+      {
+        level: 1,
+        move: "TACKLE",
+      },
+      {
+        level: 1,
+        move: "LEER",
+      },
+      {
+        level: 1,
+        move: "DRAGONTAIL",
+      },
+      {
+        level: 6,
+        move: "ICYWIND",
+      },
+      {
+        level: 12,
+        move: "DRAGONBREATH",
+      },
+      {
+        level: 18,
+        move: "FOCUSENERGY",
+      },
+      {
+        level: 24,
+        move: "BITE",
+      },
+      {
+        level: 29,
+        move: "ICEFANG",
+      },
+      {
+        level: 35,
+        move: "DRAGONCLAW",
+      },
+      {
+        level: 42,
+        move: "TAKEDOWN",
+      },
+      {
+        level: 48,
+        move: "ICEBEAM",
+      },
+      {
+        level: 55,
+        move: "CRUNCH",
+      },
+      {
+        level: 62,
+        move: "ICICLECRASH",
+      },
     ],
     tutorMoves: [
       "AERIALACE",
@@ -47885,20 +65751,62 @@ export const pokemonForms: PokemonForm[] = [
     hiddenAbilities: [],
     category: "Wind Chime",
     moves: [
-      "HEALINGWISH",
-      "WRAP",
-      "GROWL",
-      "ASTONISH",
-      "CONFUSION",
-      "YAWN",
-      "STOREDPOWER",
-      "TAKEDOWN",
-      "EXTRASENSORY",
-      "HEALBELL",
-      "UPROAR",
-      "SAFEGUARD",
-      "DOUBLEEDGE",
-      "HEALPULSE",
+      {
+        level: 1,
+        move: "HEALINGWISH",
+      },
+      {
+        level: 1,
+        move: "WRAP",
+      },
+      {
+        level: 1,
+        move: "GROWL",
+      },
+      {
+        level: 1,
+        move: "ASTONISH",
+      },
+      {
+        level: 1,
+        move: "CONFUSION",
+      },
+      {
+        level: 13,
+        move: "YAWN",
+      },
+      {
+        level: 16,
+        move: "STOREDPOWER",
+      },
+      {
+        level: 19,
+        move: "TAKEDOWN",
+      },
+      {
+        level: 22,
+        move: "EXTRASENSORY",
+      },
+      {
+        level: 27,
+        move: "HEALBELL",
+      },
+      {
+        level: 32,
+        move: "UPROAR",
+      },
+      {
+        level: 37,
+        move: "SAFEGUARD",
+      },
+      {
+        level: 42,
+        move: "DOUBLEEDGE",
+      },
+      {
+        level: 47,
+        move: "HEALPULSE",
+      },
     ],
     tutorMoves: [
       "ALLYSWITCH",
@@ -48023,23 +65931,74 @@ export const pokemonForms: PokemonForm[] = [
     hiddenAbilities: ["CHLOROPHYLL"],
     category: "Seed",
     moves: [
-      "PETALBLIZZARD",
-      "PETALDANCE",
-      "TACKLE",
-      "GROWL",
-      "VINEWHIP",
-      "GROWTH",
-      "LEECHSEED",
-      "RAZORLEAF",
-      "POISONPOWDER",
-      "SLEEPPOWDER",
-      "SEEDBOMB",
-      "TAKEDOWN",
-      "SWEETSCENT",
-      "SYNTHESIS",
-      "WORRYSEED",
-      "POWERWHIP",
-      "SOLARBEAM",
+      {
+        level: 0,
+        move: "PETALBLIZZARD",
+      },
+      {
+        level: 1,
+        move: "PETALDANCE",
+      },
+      {
+        level: 1,
+        move: "TACKLE",
+      },
+      {
+        level: 1,
+        move: "GROWL",
+      },
+      {
+        level: 1,
+        move: "VINEWHIP",
+      },
+      {
+        level: 1,
+        move: "GROWTH",
+      },
+      {
+        level: 9,
+        move: "LEECHSEED",
+      },
+      {
+        level: 12,
+        move: "RAZORLEAF",
+      },
+      {
+        level: 15,
+        move: "POISONPOWDER",
+      },
+      {
+        level: 15,
+        move: "SLEEPPOWDER",
+      },
+      {
+        level: 20,
+        move: "SEEDBOMB",
+      },
+      {
+        level: 25,
+        move: "TAKEDOWN",
+      },
+      {
+        level: 30,
+        move: "SWEETSCENT",
+      },
+      {
+        level: 37,
+        move: "SYNTHESIS",
+      },
+      {
+        level: 44,
+        move: "WORRYSEED",
+      },
+      {
+        level: 51,
+        move: "POWERWHIP",
+      },
+      {
+        level: 58,
+        move: "SOLARBEAM",
+      },
     ],
     tutorMoves: [
       "ACIDSPRAY",
@@ -48152,21 +66111,66 @@ export const pokemonForms: PokemonForm[] = [
     hiddenAbilities: ["SOLARPOWER"],
     category: "Flame",
     moves: [
-      "AIRSLASH",
-      "DRAGONCLAW",
-      "HEATWAVE",
-      "SCRATCH",
-      "GROWL",
-      "EMBER",
-      "SMOKESCREEN",
-      "DRAGONBREATH",
-      "FIREFANG",
-      "SLASH",
-      "FLAMETHROWER",
-      "SCARYFACE",
-      "FIRESPIN",
-      "INFERNO",
-      "FLAREBLITZ",
+      {
+        level: 0,
+        move: "AIRSLASH",
+      },
+      {
+        level: 1,
+        move: "DRAGONCLAW",
+      },
+      {
+        level: 1,
+        move: "HEATWAVE",
+      },
+      {
+        level: 1,
+        move: "SCRATCH",
+      },
+      {
+        level: 1,
+        move: "GROWL",
+      },
+      {
+        level: 1,
+        move: "EMBER",
+      },
+      {
+        level: 1,
+        move: "SMOKESCREEN",
+      },
+      {
+        level: 12,
+        move: "DRAGONBREATH",
+      },
+      {
+        level: 19,
+        move: "FIREFANG",
+      },
+      {
+        level: 24,
+        move: "SLASH",
+      },
+      {
+        level: 30,
+        move: "FLAMETHROWER",
+      },
+      {
+        level: 39,
+        move: "SCARYFACE",
+      },
+      {
+        level: 46,
+        move: "FIRESPIN",
+      },
+      {
+        level: 54,
+        move: "INFERNO",
+      },
+      {
+        level: 62,
+        move: "FLAREBLITZ",
+      },
     ],
     tutorMoves: [
       "ACROBATICS",
@@ -48301,21 +66305,66 @@ export const pokemonForms: PokemonForm[] = [
     hiddenAbilities: ["RAINDISH"],
     category: "Shellfish",
     moves: [
-      "FLASHCANNON",
-      "TACKLE",
-      "TAILWHIP",
-      "WATERGUN",
-      "WITHDRAW",
-      "RAPIDSPIN",
-      "BITE",
-      "WATERPULSE",
-      "PROTECT",
-      "RAINDANCE",
-      "AQUATAIL",
-      "SHELLSMASH",
-      "IRONDEFENSE",
-      "HYDROPUMP",
-      "WAVECRASH",
+      {
+        level: 0,
+        move: "FLASHCANNON",
+      },
+      {
+        level: 1,
+        move: "TACKLE",
+      },
+      {
+        level: 1,
+        move: "TAILWHIP",
+      },
+      {
+        level: 1,
+        move: "WATERGUN",
+      },
+      {
+        level: 1,
+        move: "WITHDRAW",
+      },
+      {
+        level: 9,
+        move: "RAPIDSPIN",
+      },
+      {
+        level: 12,
+        move: "BITE",
+      },
+      {
+        level: 15,
+        move: "WATERPULSE",
+      },
+      {
+        level: 20,
+        move: "PROTECT",
+      },
+      {
+        level: 25,
+        move: "RAINDANCE",
+      },
+      {
+        level: 30,
+        move: "AQUATAIL",
+      },
+      {
+        level: 35,
+        move: "SHELLSMASH",
+      },
+      {
+        level: 42,
+        move: "IRONDEFENSE",
+      },
+      {
+        level: 49,
+        move: "HYDROPUMP",
+      },
+      {
+        level: 56,
+        move: "WAVECRASH",
+      },
     ],
     tutorMoves: [
       "AQUATAIL",
@@ -48435,24 +66484,78 @@ export const pokemonForms: PokemonForm[] = [
     hiddenAbilities: ["TINTEDLENS"],
     category: "Butterfly",
     moves: [
-      "GUST",
-      "HARDEN",
-      "TACKLE",
-      "STRINGSHOT",
-      "BUGBITE",
-      "SUPERSONIC",
-      "CONFUSION",
-      "POISONPOWDER",
-      "STUNSPORE",
-      "SLEEPPOWDER",
-      "PSYBEAM",
-      "WHIRLWIND",
-      "AIRSLASH",
-      "SAFEGUARD",
-      "BUGBUZZ",
-      "TAILWIND",
-      "RAGEPOWDER",
-      "QUIVERDANCE",
+      {
+        level: 0,
+        move: "GUST",
+      },
+      {
+        level: 1,
+        move: "HARDEN",
+      },
+      {
+        level: 1,
+        move: "TACKLE",
+      },
+      {
+        level: 1,
+        move: "STRINGSHOT",
+      },
+      {
+        level: 1,
+        move: "BUGBITE",
+      },
+      {
+        level: 4,
+        move: "SUPERSONIC",
+      },
+      {
+        level: 8,
+        move: "CONFUSION",
+      },
+      {
+        level: 12,
+        move: "POISONPOWDER",
+      },
+      {
+        level: 12,
+        move: "STUNSPORE",
+      },
+      {
+        level: 12,
+        move: "SLEEPPOWDER",
+      },
+      {
+        level: 16,
+        move: "PSYBEAM",
+      },
+      {
+        level: 20,
+        move: "WHIRLWIND",
+      },
+      {
+        level: 24,
+        move: "AIRSLASH",
+      },
+      {
+        level: 28,
+        move: "SAFEGUARD",
+      },
+      {
+        level: 32,
+        move: "BUGBUZZ",
+      },
+      {
+        level: 36,
+        move: "TAILWIND",
+      },
+      {
+        level: 40,
+        move: "RAGEPOWDER",
+      },
+      {
+        level: 44,
+        move: "QUIVERDANCE",
+      },
     ],
     tutorMoves: [
       "ACROBATICS",
@@ -48548,26 +66651,86 @@ export const pokemonForms: PokemonForm[] = [
     hiddenAbilities: ["LIGHTNINGROD"],
     category: "Mouse",
     moves: [
-      "PLAYNICE",
-      "SWEETKISS",
-      "NUZZLE",
-      "NASTYPLOT",
-      "CHARM",
-      "THUNDERSHOCK",
-      "TAILWHIP",
-      "GROWL",
-      "QUICKATTACK",
-      "THUNDERWAVE",
-      "DOUBLETEAM",
-      "ELECTROBALL",
-      "FEINT",
-      "SPARK",
-      "AGILITY",
-      "IRONTAIL",
-      "DISCHARGE",
-      "THUNDERBOLT",
-      "LIGHTSCREEN",
-      "THUNDER",
+      {
+        level: 1,
+        move: "PLAYNICE",
+      },
+      {
+        level: 1,
+        move: "SWEETKISS",
+      },
+      {
+        level: 1,
+        move: "NUZZLE",
+      },
+      {
+        level: 1,
+        move: "NASTYPLOT",
+      },
+      {
+        level: 1,
+        move: "CHARM",
+      },
+      {
+        level: 1,
+        move: "THUNDERSHOCK",
+      },
+      {
+        level: 1,
+        move: "TAILWHIP",
+      },
+      {
+        level: 1,
+        move: "GROWL",
+      },
+      {
+        level: 1,
+        move: "QUICKATTACK",
+      },
+      {
+        level: 4,
+        move: "THUNDERWAVE",
+      },
+      {
+        level: 8,
+        move: "DOUBLETEAM",
+      },
+      {
+        level: 12,
+        move: "ELECTROBALL",
+      },
+      {
+        level: 16,
+        move: "FEINT",
+      },
+      {
+        level: 20,
+        move: "SPARK",
+      },
+      {
+        level: 24,
+        move: "AGILITY",
+      },
+      {
+        level: 28,
+        move: "IRONTAIL",
+      },
+      {
+        level: 32,
+        move: "DISCHARGE",
+      },
+      {
+        level: 36,
+        move: "THUNDERBOLT",
+      },
+      {
+        level: 40,
+        move: "LIGHTSCREEN",
+      },
+      {
+        level: 44,
+        move: "THUNDER",
+      },
     ],
     tutorMoves: [
       "AGILITY",
@@ -48689,19 +66852,58 @@ export const pokemonForms: PokemonForm[] = [
     hiddenAbilities: ["UNNERVE"],
     category: "Scratch Cat",
     moves: [
-      "FAKEOUT",
-      "GROWL",
-      "FEINT",
-      "SCRATCH",
-      "PAYDAY",
-      "BITE",
-      "TAUNT",
-      "ASSURANCE",
-      "FURYSWIPES",
-      "SCREECH",
-      "SLASH",
-      "NASTYPLOT",
-      "PLAYROUGH",
+      {
+        level: 1,
+        move: "FAKEOUT",
+      },
+      {
+        level: 1,
+        move: "GROWL",
+      },
+      {
+        level: 4,
+        move: "FEINT",
+      },
+      {
+        level: 8,
+        move: "SCRATCH",
+      },
+      {
+        level: 12,
+        move: "PAYDAY",
+      },
+      {
+        level: 16,
+        move: "BITE",
+      },
+      {
+        level: 20,
+        move: "TAUNT",
+      },
+      {
+        level: 24,
+        move: "ASSURANCE",
+      },
+      {
+        level: 29,
+        move: "FURYSWIPES",
+      },
+      {
+        level: 32,
+        move: "SCREECH",
+      },
+      {
+        level: 36,
+        move: "SLASH",
+      },
+      {
+        level: 40,
+        move: "NASTYPLOT",
+      },
+      {
+        level: 44,
+        move: "PLAYROUGH",
+      },
     ],
     tutorMoves: [
       "AERIALACE",
@@ -48833,22 +67035,70 @@ export const pokemonForms: PokemonForm[] = [
     hiddenAbilities: ["STEADFAST"],
     category: "Superpower",
     moves: [
-      "WIDEGUARD",
-      "LOWKICK",
-      "LEER",
-      "FOCUSENERGY",
-      "REVENGE",
-      "LOWSWEEP",
-      "KNOCKOFF",
-      "SCARYFACE",
-      "VITALTHROW",
-      "STRENGTH",
-      "DUALCHOP",
-      "BULKUP",
-      "SEISMICTOSS",
-      "DYNAMICPUNCH",
-      "CROSSCHOP",
-      "DOUBLEEDGE",
+      {
+        level: 1,
+        move: "WIDEGUARD",
+      },
+      {
+        level: 1,
+        move: "LOWKICK",
+      },
+      {
+        level: 1,
+        move: "LEER",
+      },
+      {
+        level: 1,
+        move: "FOCUSENERGY",
+      },
+      {
+        level: 1,
+        move: "REVENGE",
+      },
+      {
+        level: 12,
+        move: "LOWSWEEP",
+      },
+      {
+        level: 16,
+        move: "KNOCKOFF",
+      },
+      {
+        level: 20,
+        move: "SCARYFACE",
+      },
+      {
+        level: 24,
+        move: "VITALTHROW",
+      },
+      {
+        level: 31,
+        move: "STRENGTH",
+      },
+      {
+        level: 36,
+        move: "DUALCHOP",
+      },
+      {
+        level: 42,
+        move: "BULKUP",
+      },
+      {
+        level: 48,
+        move: "SEISMICTOSS",
+      },
+      {
+        level: 54,
+        move: "DYNAMICPUNCH",
+      },
+      {
+        level: 60,
+        move: "CROSSCHOP",
+      },
+      {
+        level: 66,
+        move: "DOUBLEEDGE",
+      },
     ],
     tutorMoves: [
       "ASSURANCE",
@@ -48967,23 +67217,74 @@ export const pokemonForms: PokemonForm[] = [
     hiddenAbilities: [],
     category: "Shadow",
     moves: [
-      "SHADOWPUNCH",
-      "PERISHSONG",
-      "REFLECTTYPE",
-      "LICK",
-      "CONFUSERAY",
-      "HYPNOSIS",
-      "MEANLOOK",
-      "PAYBACK",
-      "SPITE",
-      "CURSE",
-      "HEX",
-      "NIGHTSHADE",
-      "SUCKERPUNCH",
-      "DARKPULSE",
-      "SHADOWBALL",
-      "DESTINYBOND",
-      "DREAMEATER",
+      {
+        level: 1,
+        move: "SHADOWPUNCH",
+      },
+      {
+        level: 1,
+        move: "PERISHSONG",
+      },
+      {
+        level: 1,
+        move: "REFLECTTYPE",
+      },
+      {
+        level: 1,
+        move: "LICK",
+      },
+      {
+        level: 1,
+        move: "CONFUSERAY",
+      },
+      {
+        level: 1,
+        move: "HYPNOSIS",
+      },
+      {
+        level: 1,
+        move: "MEANLOOK",
+      },
+      {
+        level: 12,
+        move: "PAYBACK",
+      },
+      {
+        level: 16,
+        move: "SPITE",
+      },
+      {
+        level: 20,
+        move: "CURSE",
+      },
+      {
+        level: 24,
+        move: "HEX",
+      },
+      {
+        level: 30,
+        move: "NIGHTSHADE",
+      },
+      {
+        level: 36,
+        move: "SUCKERPUNCH",
+      },
+      {
+        level: 42,
+        move: "DARKPULSE",
+      },
+      {
+        level: 48,
+        move: "SHADOWBALL",
+      },
+      {
+        level: 54,
+        move: "DESTINYBOND",
+      },
+      {
+        level: 60,
+        move: "DREAMEATER",
+      },
     ],
     tutorMoves: [
       "ACIDSPRAY",
@@ -49120,22 +67421,70 @@ export const pokemonForms: PokemonForm[] = [
     hiddenAbilities: ["SHEERFORCE"],
     category: "Pincer",
     moves: [
-      "WIDEGUARD",
-      "HAMMERARM",
-      "WATERGUN",
-      "LEER",
-      "HARDEN",
-      "METALCLAW",
-      "MUDSHOT",
-      "PROTECT",
-      "BUBBLEBEAM",
-      "STOMP",
-      "FLAIL",
-      "RAZORSHELL",
-      "SLAM",
-      "SWORDSDANCE",
-      "CRABHAMMER",
-      "GUILLOTINE",
+      {
+        level: 1,
+        move: "WIDEGUARD",
+      },
+      {
+        level: 1,
+        move: "HAMMERARM",
+      },
+      {
+        level: 1,
+        move: "WATERGUN",
+      },
+      {
+        level: 1,
+        move: "LEER",
+      },
+      {
+        level: 1,
+        move: "HARDEN",
+      },
+      {
+        level: 1,
+        move: "METALCLAW",
+      },
+      {
+        level: 12,
+        move: "MUDSHOT",
+      },
+      {
+        level: 16,
+        move: "PROTECT",
+      },
+      {
+        level: 20,
+        move: "BUBBLEBEAM",
+      },
+      {
+        level: 24,
+        move: "STOMP",
+      },
+      {
+        level: 31,
+        move: "FLAIL",
+      },
+      {
+        level: 36,
+        move: "RAZORSHELL",
+      },
+      {
+        level: 42,
+        move: "SLAM",
+      },
+      {
+        level: 48,
+        move: "SWORDSDANCE",
+      },
+      {
+        level: 54,
+        move: "CRABHAMMER",
+      },
+      {
+        level: 60,
+        move: "GUILLOTINE",
+      },
     ],
     tutorMoves: [
       "AGILITY",
@@ -49234,21 +67583,66 @@ export const pokemonForms: PokemonForm[] = [
     hiddenAbilities: ["HYDRATION"],
     category: "Transport",
     moves: [
-      "GROWL",
-      "WATERGUN",
-      "SING",
-      "MIST",
-      "LIFEDEW",
-      "ICESHARD",
-      "CONFUSERAY",
-      "WATERPULSE",
-      "BRINE",
-      "BODYSLAM",
-      "ICEBEAM",
-      "RAINDANCE",
-      "HYDROPUMP",
-      "PERISHSONG",
-      "SHEERCOLD",
+      {
+        level: 1,
+        move: "GROWL",
+      },
+      {
+        level: 1,
+        move: "WATERGUN",
+      },
+      {
+        level: 5,
+        move: "SING",
+      },
+      {
+        level: 10,
+        move: "MIST",
+      },
+      {
+        level: 15,
+        move: "LIFEDEW",
+      },
+      {
+        level: 20,
+        move: "ICESHARD",
+      },
+      {
+        level: 25,
+        move: "CONFUSERAY",
+      },
+      {
+        level: 30,
+        move: "WATERPULSE",
+      },
+      {
+        level: 35,
+        move: "BRINE",
+      },
+      {
+        level: 40,
+        move: "BODYSLAM",
+      },
+      {
+        level: 45,
+        move: "ICEBEAM",
+      },
+      {
+        level: 50,
+        move: "RAINDANCE",
+      },
+      {
+        level: 55,
+        move: "HYDROPUMP",
+      },
+      {
+        level: 60,
+        move: "PERISHSONG",
+      },
+      {
+        level: 65,
+        move: "SHEERCOLD",
+      },
     ],
     tutorMoves: [
       "ALLURINGVOICE",
@@ -49377,22 +67771,70 @@ export const pokemonForms: PokemonForm[] = [
     hiddenAbilities: ["ANTICIPATION"],
     category: "Evolution",
     moves: [
-      "COVET",
-      "HELPINGHAND",
-      "TACKLE",
-      "GROWL",
-      "TAILWHIP",
-      "SANDATTACK",
-      "QUICKATTACK",
-      "BABYDOLLEYES",
-      "SWIFT",
-      "BITE",
-      "COPYCAT",
-      "BATONPASS",
-      "TAKEDOWN",
-      "CHARM",
-      "DOUBLEEDGE",
-      "LASTRESORT",
+      {
+        level: 1,
+        move: "COVET",
+      },
+      {
+        level: 1,
+        move: "HELPINGHAND",
+      },
+      {
+        level: 1,
+        move: "TACKLE",
+      },
+      {
+        level: 1,
+        move: "GROWL",
+      },
+      {
+        level: 1,
+        move: "TAILWHIP",
+      },
+      {
+        level: 5,
+        move: "SANDATTACK",
+      },
+      {
+        level: 10,
+        move: "QUICKATTACK",
+      },
+      {
+        level: 15,
+        move: "BABYDOLLEYES",
+      },
+      {
+        level: 20,
+        move: "SWIFT",
+      },
+      {
+        level: 25,
+        move: "BITE",
+      },
+      {
+        level: 30,
+        move: "COPYCAT",
+      },
+      {
+        level: 35,
+        move: "BATONPASS",
+      },
+      {
+        level: 40,
+        move: "TAKEDOWN",
+      },
+      {
+        level: 45,
+        move: "CHARM",
+      },
+      {
+        level: 50,
+        move: "DOUBLEEDGE",
+      },
+      {
+        level: 55,
+        move: "LASTRESORT",
+      },
     ],
     tutorMoves: [
       "ALLURINGVOICE",
@@ -49498,33 +67940,114 @@ export const pokemonForms: PokemonForm[] = [
     hiddenAbilities: ["GLUTTONY"],
     category: "Sleeping",
     moves: [
-      "RECYCLE",
-      "COVET",
-      "STOCKPILE",
-      "SWALLOW",
-      "SCREECH",
-      "FLING",
-      "METRONOME",
-      "FLAIL",
-      "LASTRESORT",
-      "LICK",
-      "TACKLE",
-      "DEFENSECURL",
-      "BLOCK",
-      "YAWN",
-      "BITE",
-      "REST",
-      "SNORE",
-      "SLEEPTALK",
-      "CRUNCH",
-      "BODYSLAM",
-      "HEAVYSLAM",
-      "AMNESIA",
-      "HIGHHORSEPOWER",
-      "HAMMERARM",
-      "BELLYDRUM",
-      "BELCH",
-      "GIGAIMPACT",
+      {
+        level: 1,
+        move: "RECYCLE",
+      },
+      {
+        level: 1,
+        move: "COVET",
+      },
+      {
+        level: 1,
+        move: "STOCKPILE",
+      },
+      {
+        level: 1,
+        move: "SWALLOW",
+      },
+      {
+        level: 1,
+        move: "SCREECH",
+      },
+      {
+        level: 1,
+        move: "FLING",
+      },
+      {
+        level: 1,
+        move: "METRONOME",
+      },
+      {
+        level: 1,
+        move: "FLAIL",
+      },
+      {
+        level: 1,
+        move: "LASTRESORT",
+      },
+      {
+        level: 1,
+        move: "LICK",
+      },
+      {
+        level: 1,
+        move: "TACKLE",
+      },
+      {
+        level: 1,
+        move: "DEFENSECURL",
+      },
+      {
+        level: 1,
+        move: "BLOCK",
+      },
+      {
+        level: 12,
+        move: "YAWN",
+      },
+      {
+        level: 16,
+        move: "BITE",
+      },
+      {
+        level: 20,
+        move: "REST",
+      },
+      {
+        level: 20,
+        move: "SNORE",
+      },
+      {
+        level: 20,
+        move: "SLEEPTALK",
+      },
+      {
+        level: 24,
+        move: "CRUNCH",
+      },
+      {
+        level: 28,
+        move: "BODYSLAM",
+      },
+      {
+        level: 32,
+        move: "HEAVYSLAM",
+      },
+      {
+        level: 36,
+        move: "AMNESIA",
+      },
+      {
+        level: 40,
+        move: "HIGHHORSEPOWER",
+      },
+      {
+        level: 44,
+        move: "HAMMERARM",
+      },
+      {
+        level: 48,
+        move: "BELLYDRUM",
+      },
+      {
+        level: 52,
+        move: "BELCH",
+      },
+      {
+        level: 56,
+        move: "GIGAIMPACT",
+      },
     ],
     tutorMoves: [
       "AFTERYOU",
@@ -49678,25 +68201,82 @@ export const pokemonForms: PokemonForm[] = [
     hiddenAbilities: ["AFTERMATH"],
     category: "Trash Heap",
     moves: [
-      "TAKEDOWN",
-      "METALCLAW",
-      "POUND",
-      "POISONGAS",
-      "RECYCLE",
-      "ACIDSPRAY",
-      "AMNESIA",
-      "CLEARSMOG",
-      "TOXICSPIKES",
-      "SLUDGE",
-      "STOCKPILE",
-      "SWALLOW",
-      "BODYSLAM",
-      "SLUDGEBOMB",
-      "TOXIC",
-      "BELCH",
-      "PAINSPLIT",
-      "GUNKSHOT",
-      "EXPLOSION",
+      {
+        level: 1,
+        move: "TAKEDOWN",
+      },
+      {
+        level: 1,
+        move: "METALCLAW",
+      },
+      {
+        level: 1,
+        move: "POUND",
+      },
+      {
+        level: 1,
+        move: "POISONGAS",
+      },
+      {
+        level: 1,
+        move: "RECYCLE",
+      },
+      {
+        level: 1,
+        move: "ACIDSPRAY",
+      },
+      {
+        level: 9,
+        move: "AMNESIA",
+      },
+      {
+        level: 12,
+        move: "CLEARSMOG",
+      },
+      {
+        level: 15,
+        move: "TOXICSPIKES",
+      },
+      {
+        level: 18,
+        move: "SLUDGE",
+      },
+      {
+        level: 21,
+        move: "STOCKPILE",
+      },
+      {
+        level: 21,
+        move: "SWALLOW",
+      },
+      {
+        level: 24,
+        move: "BODYSLAM",
+      },
+      {
+        level: 27,
+        move: "SLUDGEBOMB",
+      },
+      {
+        level: 30,
+        move: "TOXIC",
+      },
+      {
+        level: 33,
+        move: "BELCH",
+      },
+      {
+        level: 39,
+        move: "PAINSPLIT",
+      },
+      {
+        level: 43,
+        move: "GUNKSHOT",
+      },
+      {
+        level: 48,
+        move: "EXPLOSION",
+      },
     ],
     tutorMoves: [
       "AMNESIA",
@@ -49789,21 +68369,66 @@ export const pokemonForms: PokemonForm[] = [
     hiddenAbilities: [],
     category: "Hex Nut",
     moves: [
-      "THUNDERPUNCH",
-      "THUNDERSHOCK",
-      "HARDEN",
-      "TAILWHIP",
-      "HEADBUTT",
-      "THUNDERWAVE",
-      "ACIDARMOR",
-      "FLASHCANNON",
-      "MEGAPUNCH",
-      "PROTECT",
-      "DISCHARGE",
-      "DYNAMICPUNCH",
-      "SUPERPOWER",
-      "DOUBLEIRONBASH",
-      "HYPERBEAM",
+      {
+        level: 0,
+        move: "THUNDERPUNCH",
+      },
+      {
+        level: 1,
+        move: "THUNDERSHOCK",
+      },
+      {
+        level: 1,
+        move: "HARDEN",
+      },
+      {
+        level: 1,
+        move: "TAILWHIP",
+      },
+      {
+        level: 1,
+        move: "HEADBUTT",
+      },
+      {
+        level: 24,
+        move: "THUNDERWAVE",
+      },
+      {
+        level: 32,
+        move: "ACIDARMOR",
+      },
+      {
+        level: 40,
+        move: "FLASHCANNON",
+      },
+      {
+        level: 48,
+        move: "MEGAPUNCH",
+      },
+      {
+        level: 56,
+        move: "PROTECT",
+      },
+      {
+        level: 64,
+        move: "DISCHARGE",
+      },
+      {
+        level: 72,
+        move: "DYNAMICPUNCH",
+      },
+      {
+        level: 80,
+        move: "SUPERPOWER",
+      },
+      {
+        level: 88,
+        move: "DOUBLEIRONBASH",
+      },
+      {
+        level: 96,
+        move: "HYPERBEAM",
+      },
     ],
     tutorMoves: [
       "BODYPRESS",
@@ -49887,22 +68512,70 @@ export const pokemonForms: PokemonForm[] = [
     hiddenAbilities: ["GRASSYSURGE"],
     category: "Drummer",
     moves: [
-      "DRUMBEATING",
-      "DOUBLEHIT",
-      "GRASSYTERRAIN",
-      "NOBLEROAR",
-      "SCRATCH",
-      "GROWL",
-      "BRANCHPOKE",
-      "TAUNT",
-      "RAZORLEAF",
-      "SCREECH",
-      "KNOCKOFF",
-      "SLAM",
-      "UPROAR",
-      "WOODHAMMER",
-      "ENDEAVOR",
-      "BOOMBURST",
+      {
+        level: 0,
+        move: "DRUMBEATING",
+      },
+      {
+        level: 1,
+        move: "DOUBLEHIT",
+      },
+      {
+        level: 1,
+        move: "GRASSYTERRAIN",
+      },
+      {
+        level: 1,
+        move: "NOBLEROAR",
+      },
+      {
+        level: 1,
+        move: "SCRATCH",
+      },
+      {
+        level: 1,
+        move: "GROWL",
+      },
+      {
+        level: 1,
+        move: "BRANCHPOKE",
+      },
+      {
+        level: 1,
+        move: "TAUNT",
+      },
+      {
+        level: 12,
+        move: "RAZORLEAF",
+      },
+      {
+        level: 19,
+        move: "SCREECH",
+      },
+      {
+        level: 24,
+        move: "KNOCKOFF",
+      },
+      {
+        level: 30,
+        move: "SLAM",
+      },
+      {
+        level: 38,
+        move: "UPROAR",
+      },
+      {
+        level: 46,
+        move: "WOODHAMMER",
+      },
+      {
+        level: 54,
+        move: "ENDEAVOR",
+      },
+      {
+        level: 62,
+        move: "BOOMBURST",
+      },
     ],
     tutorMoves: [
       "ACROBATICS",
@@ -50014,20 +68687,62 @@ export const pokemonForms: PokemonForm[] = [
     hiddenAbilities: ["LIBERO"],
     category: "Striker",
     moves: [
-      "PYROBALL",
-      "FEINT",
-      "TACKLE",
-      "GROWL",
-      "EMBER",
-      "QUICKATTACK",
-      "DOUBLEKICK",
-      "FLAMECHARGE",
-      "AGILITY",
-      "HEADBUTT",
-      "COUNTER",
-      "BOUNCE",
-      "DOUBLEEDGE",
-      "COURTCHANGE",
+      {
+        level: 0,
+        move: "PYROBALL",
+      },
+      {
+        level: 1,
+        move: "FEINT",
+      },
+      {
+        level: 1,
+        move: "TACKLE",
+      },
+      {
+        level: 1,
+        move: "GROWL",
+      },
+      {
+        level: 1,
+        move: "EMBER",
+      },
+      {
+        level: 1,
+        move: "QUICKATTACK",
+      },
+      {
+        level: 12,
+        move: "DOUBLEKICK",
+      },
+      {
+        level: 19,
+        move: "FLAMECHARGE",
+      },
+      {
+        level: 24,
+        move: "AGILITY",
+      },
+      {
+        level: 30,
+        move: "HEADBUTT",
+      },
+      {
+        level: 38,
+        move: "COUNTER",
+      },
+      {
+        level: 46,
+        move: "BOUNCE",
+      },
+      {
+        level: 54,
+        move: "DOUBLEEDGE",
+      },
+      {
+        level: 62,
+        move: "COURTCHANGE",
+      },
     ],
     tutorMoves: [
       "ACROBATICS",
@@ -50137,20 +68852,62 @@ export const pokemonForms: PokemonForm[] = [
     hiddenAbilities: ["SNIPER"],
     category: "Secret Agent",
     moves: [
-      "SNIPESHOT",
-      "ACROBATICS",
-      "POUND",
-      "GROWL",
-      "WATERGUN",
-      "BIND",
-      "WATERPULSE",
-      "TEARFULLOOK",
-      "SUCKERPUNCH",
-      "UTURN",
-      "LIQUIDATION",
-      "SOAK",
-      "RAINDANCE",
-      "HYDROPUMP",
+      {
+        level: 0,
+        move: "SNIPESHOT",
+      },
+      {
+        level: 1,
+        move: "ACROBATICS",
+      },
+      {
+        level: 1,
+        move: "POUND",
+      },
+      {
+        level: 1,
+        move: "GROWL",
+      },
+      {
+        level: 1,
+        move: "WATERGUN",
+      },
+      {
+        level: 1,
+        move: "BIND",
+      },
+      {
+        level: 12,
+        move: "WATERPULSE",
+      },
+      {
+        level: 19,
+        move: "TEARFULLOOK",
+      },
+      {
+        level: 24,
+        move: "SUCKERPUNCH",
+      },
+      {
+        level: 30,
+        move: "UTURN",
+      },
+      {
+        level: 38,
+        move: "LIQUIDATION",
+      },
+      {
+        level: 46,
+        move: "SOAK",
+      },
+      {
+        level: 54,
+        move: "RAINDANCE",
+      },
+      {
+        level: 62,
+        move: "HYDROPUMP",
+      },
     ],
     tutorMoves: [
       "ACROBATICS",
@@ -50255,21 +69012,66 @@ export const pokemonForms: PokemonForm[] = [
     hiddenAbilities: ["MIRRORARMOR"],
     category: "Raven",
     moves: [
-      "STEELWING",
-      "SCREECH",
-      "IRONDEFENSE",
-      "METALSOUND",
-      "PECK",
-      "LEER",
-      "POWERTRIP",
-      "HONECLAWS",
-      "FURYATTACK",
-      "PLUCK",
-      "TAUNT",
-      "SCARYFACE",
-      "DRILLPECK",
-      "SWAGGER",
-      "BRAVEBIRD",
+      {
+        level: 0,
+        move: "STEELWING",
+      },
+      {
+        level: 1,
+        move: "SCREECH",
+      },
+      {
+        level: 1,
+        move: "IRONDEFENSE",
+      },
+      {
+        level: 1,
+        move: "METALSOUND",
+      },
+      {
+        level: 1,
+        move: "PECK",
+      },
+      {
+        level: 1,
+        move: "LEER",
+      },
+      {
+        level: 1,
+        move: "POWERTRIP",
+      },
+      {
+        level: 1,
+        move: "HONECLAWS",
+      },
+      {
+        level: 12,
+        move: "FURYATTACK",
+      },
+      {
+        level: 16,
+        move: "PLUCK",
+      },
+      {
+        level: 22,
+        move: "TAUNT",
+      },
+      {
+        level: 28,
+        move: "SCARYFACE",
+      },
+      {
+        level: 34,
+        move: "DRILLPECK",
+      },
+      {
+        level: 42,
+        move: "SWAGGER",
+      },
+      {
+        level: 50,
+        move: "BRAVEBIRD",
+      },
     ],
     tutorMoves: [
       "AERIALACE",
@@ -50369,22 +69171,70 @@ export const pokemonForms: PokemonForm[] = [
     hiddenAbilities: ["TELEPATHY"],
     category: "Seven Spot",
     moves: [
-      "REFLECT",
-      "LIGHTSCREEN",
-      "CONFUSION",
-      "STRUGGLEBUG",
-      "CONFUSERAY",
-      "MAGICCOAT",
-      "AGILITY",
-      "PSYBEAM",
-      "HYPNOSIS",
-      "ALLYSWITCH",
-      "BUGBUZZ",
-      "MIRRORCOAT",
-      "PSYCHIC",
-      "AFTERYOU",
-      "CALMMIND",
-      "PSYCHICTERRAIN",
+      {
+        level: 1,
+        move: "REFLECT",
+      },
+      {
+        level: 1,
+        move: "LIGHTSCREEN",
+      },
+      {
+        level: 1,
+        move: "CONFUSION",
+      },
+      {
+        level: 1,
+        move: "STRUGGLEBUG",
+      },
+      {
+        level: 4,
+        move: "CONFUSERAY",
+      },
+      {
+        level: 8,
+        move: "MAGICCOAT",
+      },
+      {
+        level: 12,
+        move: "AGILITY",
+      },
+      {
+        level: 16,
+        move: "PSYBEAM",
+      },
+      {
+        level: 20,
+        move: "HYPNOSIS",
+      },
+      {
+        level: 24,
+        move: "ALLYSWITCH",
+      },
+      {
+        level: 28,
+        move: "BUGBUZZ",
+      },
+      {
+        level: 32,
+        move: "MIRRORCOAT",
+      },
+      {
+        level: 36,
+        move: "PSYCHIC",
+      },
+      {
+        level: 40,
+        move: "AFTERYOU",
+      },
+      {
+        level: 44,
+        move: "CALMMIND",
+      },
+      {
+        level: 48,
+        move: "PSYCHICTERRAIN",
+      },
     ],
     tutorMoves: [
       "AGILITY",
@@ -50475,20 +69325,62 @@ export const pokemonForms: PokemonForm[] = [
     hiddenAbilities: ["SWIFTSWIM"],
     category: "Bite",
     moves: [
-      "ROCKTOMB",
-      "RAZORSHELL",
-      "CRUNCH",
-      "ROCKPOLISH",
-      "TACKLE",
-      "WATERGUN",
-      "BITE",
-      "PROTECT",
-      "HEADBUTT",
-      "COUNTER",
-      "JAWLOCK",
-      "LIQUIDATION",
-      "BODYSLAM",
-      "HEADSMASH",
+      {
+        level: 0,
+        move: "ROCKTOMB",
+      },
+      {
+        level: 1,
+        move: "RAZORSHELL",
+      },
+      {
+        level: 1,
+        move: "CRUNCH",
+      },
+      {
+        level: 1,
+        move: "ROCKPOLISH",
+      },
+      {
+        level: 1,
+        move: "TACKLE",
+      },
+      {
+        level: 1,
+        move: "WATERGUN",
+      },
+      {
+        level: 1,
+        move: "BITE",
+      },
+      {
+        level: 1,
+        move: "PROTECT",
+      },
+      {
+        level: 21,
+        move: "HEADBUTT",
+      },
+      {
+        level: 30,
+        move: "COUNTER",
+      },
+      {
+        level: 39,
+        move: "JAWLOCK",
+      },
+      {
+        level: 48,
+        move: "LIQUIDATION",
+      },
+      {
+        level: 57,
+        move: "BODYSLAM",
+      },
+      {
+        level: 66,
+        move: "HEADSMASH",
+      },
     ],
     tutorMoves: [
       "ASSURANCE",
@@ -50596,19 +69488,58 @@ export const pokemonForms: PokemonForm[] = [
     hiddenAbilities: ["FLASHFIRE"],
     category: "Coal",
     moves: [
-      "TARSHOT",
-      "FLAMECHARGE",
-      "TACKLE",
-      "SMOKESCREEN",
-      "RAPIDSPIN",
-      "SMACKDOWN",
-      "ROCKPOLISH",
-      "ANCIENTPOWER",
-      "INCINERATE",
-      "STEALTHROCK",
-      "HEATCRASH",
-      "ROCKBLAST",
-      "STONEEDGE",
+      {
+        level: 0,
+        move: "TARSHOT",
+      },
+      {
+        level: 1,
+        move: "FLAMECHARGE",
+      },
+      {
+        level: 1,
+        move: "TACKLE",
+      },
+      {
+        level: 1,
+        move: "SMOKESCREEN",
+      },
+      {
+        level: 1,
+        move: "RAPIDSPIN",
+      },
+      {
+        level: 1,
+        move: "SMACKDOWN",
+      },
+      {
+        level: 15,
+        move: "ROCKPOLISH",
+      },
+      {
+        level: 20,
+        move: "ANCIENTPOWER",
+      },
+      {
+        level: 27,
+        move: "INCINERATE",
+      },
+      {
+        level: 37,
+        move: "STEALTHROCK",
+      },
+      {
+        level: 45,
+        move: "HEATCRASH",
+      },
+      {
+        level: 54,
+        move: "ROCKBLAST",
+      },
+      {
+        level: 63,
+        move: "STONEEDGE",
+      },
     ],
     tutorMoves: [
       "ATTRACT",
@@ -50709,23 +69640,74 @@ export const pokemonForms: PokemonForm[] = [
     hiddenAbilities: ["HUSTLE"],
     category: "Apple Wing",
     moves: [
-      "WINGATTACK",
-      "RECYCLE",
-      "WITHDRAW",
-      "ASTONISH",
-      "GROWTH",
-      "TWISTER",
-      "ACIDSPRAY",
-      "ACROBATICS",
-      "LEECHSEED",
-      "PROTECT",
-      "DRAGONBREATH",
-      "DRAGONDANCE",
-      "DRAGONPULSE",
-      "GRAVAPPLE",
-      "IRONDEFENSE",
-      "FLY",
-      "DRAGONRUSH",
+      {
+        level: 0,
+        move: "WINGATTACK",
+      },
+      {
+        level: 1,
+        move: "RECYCLE",
+      },
+      {
+        level: 1,
+        move: "WITHDRAW",
+      },
+      {
+        level: 1,
+        move: "ASTONISH",
+      },
+      {
+        level: 1,
+        move: "GROWTH",
+      },
+      {
+        level: 1,
+        move: "TWISTER",
+      },
+      {
+        level: 4,
+        move: "ACIDSPRAY",
+      },
+      {
+        level: 8,
+        move: "ACROBATICS",
+      },
+      {
+        level: 12,
+        move: "LEECHSEED",
+      },
+      {
+        level: 16,
+        move: "PROTECT",
+      },
+      {
+        level: 20,
+        move: "DRAGONBREATH",
+      },
+      {
+        level: 24,
+        move: "DRAGONDANCE",
+      },
+      {
+        level: 28,
+        move: "DRAGONPULSE",
+      },
+      {
+        level: 32,
+        move: "GRAVAPPLE",
+      },
+      {
+        level: 36,
+        move: "IRONDEFENSE",
+      },
+      {
+        level: 40,
+        move: "FLY",
+      },
+      {
+        level: 44,
+        move: "DRAGONRUSH",
+      },
     ],
     tutorMoves: [
       "ACIDSPRAY",
@@ -50812,23 +69794,74 @@ export const pokemonForms: PokemonForm[] = [
     hiddenAbilities: ["THICKFAT"],
     category: "Apple Nectar",
     moves: [
-      "HEADBUTT",
-      "RECYCLE",
-      "WITHDRAW",
-      "ASTONISH",
-      "GROWTH",
-      "SWEETSCENT",
-      "CURSE",
-      "STOMP",
-      "LEECHSEED",
-      "PROTECT",
-      "BULLETSEED",
-      "RECOVER",
-      "APPLEACID",
-      "BODYSLAM",
-      "IRONDEFENSE",
-      "DRAGONPULSE",
-      "ENERGYBALL",
+      {
+        level: 0,
+        move: "HEADBUTT",
+      },
+      {
+        level: 1,
+        move: "RECYCLE",
+      },
+      {
+        level: 1,
+        move: "WITHDRAW",
+      },
+      {
+        level: 1,
+        move: "ASTONISH",
+      },
+      {
+        level: 1,
+        move: "GROWTH",
+      },
+      {
+        level: 1,
+        move: "SWEETSCENT",
+      },
+      {
+        level: 4,
+        move: "CURSE",
+      },
+      {
+        level: 8,
+        move: "STOMP",
+      },
+      {
+        level: 12,
+        move: "LEECHSEED",
+      },
+      {
+        level: 16,
+        move: "PROTECT",
+      },
+      {
+        level: 20,
+        move: "BULLETSEED",
+      },
+      {
+        level: 24,
+        move: "RECOVER",
+      },
+      {
+        level: 28,
+        move: "APPLEACID",
+      },
+      {
+        level: 32,
+        move: "BODYSLAM",
+      },
+      {
+        level: 36,
+        move: "IRONDEFENSE",
+      },
+      {
+        level: 40,
+        move: "DRAGONPULSE",
+      },
+      {
+        level: 44,
+        move: "ENERGYBALL",
+      },
     ],
     tutorMoves: [
       "AMNESIA",
@@ -50923,18 +69956,54 @@ export const pokemonForms: PokemonForm[] = [
     hiddenAbilities: ["SANDVEIL"],
     category: "Sand Snake",
     moves: [
-      "WRAP",
-      "SANDATTACK",
-      "MINIMIZE",
-      "BRUTALSWING",
-      "BULLDOZE",
-      "HEADBUTT",
-      "GLARE",
-      "DIG",
-      "SANDSTORM",
-      "SLAM",
-      "COIL",
-      "SANDTOMB",
+      {
+        level: 1,
+        move: "WRAP",
+      },
+      {
+        level: 1,
+        move: "SANDATTACK",
+      },
+      {
+        level: 1,
+        move: "MINIMIZE",
+      },
+      {
+        level: 1,
+        move: "BRUTALSWING",
+      },
+      {
+        level: 15,
+        move: "BULLDOZE",
+      },
+      {
+        level: 20,
+        move: "HEADBUTT",
+      },
+      {
+        level: 25,
+        move: "GLARE",
+      },
+      {
+        level: 30,
+        move: "DIG",
+      },
+      {
+        level: 35,
+        move: "SANDSTORM",
+      },
+      {
+        level: 42,
+        move: "SLAM",
+      },
+      {
+        level: 49,
+        move: "COIL",
+      },
+      {
+        level: 51,
+        move: "SANDTOMB",
+      },
     ],
     tutorMoves: [
       "ATTRACT",
@@ -51024,29 +70093,98 @@ export const pokemonForms: PokemonForm[] = [
     hiddenAbilities: ["TECHNICIAN"],
     category: "Punk",
     moves: [
-      "SPARK",
-      "BELCH",
-      "TEARFULLOOK",
-      "NUZZLE",
-      "GROWL",
-      "FLAIL",
-      "ACID",
-      "THUNDERSHOCK",
-      "ACIDSPRAY",
-      "LEER",
-      "NOBLEROAR",
-      "CHARGE",
-      "SHOCKWAVE",
-      "SCARYFACE",
-      "TAUNT",
-      "SCREECH",
-      "SWAGGER",
-      "TOXIC",
-      "DISCHARGE",
-      "POISONJAB",
-      "OVERDRIVE",
-      "BOOMBURST",
-      "SHIFTGEAR",
+      {
+        level: 0,
+        move: "SPARK",
+      },
+      {
+        level: 1,
+        move: "BELCH",
+      },
+      {
+        level: 1,
+        move: "TEARFULLOOK",
+      },
+      {
+        level: 1,
+        move: "NUZZLE",
+      },
+      {
+        level: 1,
+        move: "GROWL",
+      },
+      {
+        level: 1,
+        move: "FLAIL",
+      },
+      {
+        level: 1,
+        move: "ACID",
+      },
+      {
+        level: 1,
+        move: "THUNDERSHOCK",
+      },
+      {
+        level: 1,
+        move: "ACIDSPRAY",
+      },
+      {
+        level: 1,
+        move: "LEER",
+      },
+      {
+        level: 1,
+        move: "NOBLEROAR",
+      },
+      {
+        level: 4,
+        move: "CHARGE",
+      },
+      {
+        level: 8,
+        move: "SHOCKWAVE",
+      },
+      {
+        level: 12,
+        move: "SCARYFACE",
+      },
+      {
+        level: 16,
+        move: "TAUNT",
+      },
+      {
+        level: 24,
+        move: "SCREECH",
+      },
+      {
+        level: 28,
+        move: "SWAGGER",
+      },
+      {
+        level: 32,
+        move: "TOXIC",
+      },
+      {
+        level: 36,
+        move: "DISCHARGE",
+      },
+      {
+        level: 40,
+        move: "POISONJAB",
+      },
+      {
+        level: 44,
+        move: "OVERDRIVE",
+      },
+      {
+        level: 48,
+        move: "BOOMBURST",
+      },
+      {
+        level: 52,
+        move: "SHIFTGEAR",
+      },
     ],
     tutorMoves: [
       "ACIDSPRAY",
@@ -51155,29 +70293,98 @@ export const pokemonForms: PokemonForm[] = [
     hiddenAbilities: ["TECHNICIAN"],
     category: "Punk",
     moves: [
-      "SPARK",
-      "LEER",
-      "GROWL",
-      "ACID",
-      "THUNDERSHOCK",
-      "FLAIL",
-      "ACIDSPRAY",
-      "BELCH",
-      "NOBLEROAR",
-      "NUZZLE",
-      "TEARFULLOOK",
-      "CHARGE",
-      "SHOCKWAVE",
-      "SCARYFACE",
-      "TAUNT",
-      "SCREECH",
-      "SWAGGER",
-      "TOXIC",
-      "DISCHARGE",
-      "POISONJAB",
-      "OVERDRIVE",
-      "BOOMBURST",
-      "MAGNETICFLUX",
+      {
+        level: 0,
+        move: "SPARK",
+      },
+      {
+        level: 1,
+        move: "LEER",
+      },
+      {
+        level: 1,
+        move: "GROWL",
+      },
+      {
+        level: 1,
+        move: "ACID",
+      },
+      {
+        level: 1,
+        move: "THUNDERSHOCK",
+      },
+      {
+        level: 1,
+        move: "FLAIL",
+      },
+      {
+        level: 1,
+        move: "ACIDSPRAY",
+      },
+      {
+        level: 1,
+        move: "BELCH",
+      },
+      {
+        level: 1,
+        move: "NOBLEROAR",
+      },
+      {
+        level: 1,
+        move: "NUZZLE",
+      },
+      {
+        level: 1,
+        move: "TEARFULLOOK",
+      },
+      {
+        level: 4,
+        move: "CHARGE",
+      },
+      {
+        level: 8,
+        move: "SHOCKWAVE",
+      },
+      {
+        level: 12,
+        move: "SCARYFACE",
+      },
+      {
+        level: 16,
+        move: "TAUNT",
+      },
+      {
+        level: 24,
+        move: "SCREECH",
+      },
+      {
+        level: 28,
+        move: "SWAGGER",
+      },
+      {
+        level: 32,
+        move: "TOXIC",
+      },
+      {
+        level: 36,
+        move: "DISCHARGE",
+      },
+      {
+        level: 40,
+        move: "POISONJAB",
+      },
+      {
+        level: 44,
+        move: "OVERDRIVE",
+      },
+      {
+        level: 48,
+        move: "BOOMBURST",
+      },
+      {
+        level: 52,
+        move: "MAGNETICFLUX",
+      },
     ],
     tutorMoves: [
       "ACIDSPRAY",
@@ -51286,20 +70493,62 @@ export const pokemonForms: PokemonForm[] = [
     hiddenAbilities: ["FLAMEBODY"],
     category: "Radiator",
     moves: [
-      "INFERNO",
-      "EMBER",
-      "SMOKESCREEN",
-      "WRAP",
-      "BITE",
-      "FLAMEWHEEL",
-      "BUGBITE",
-      "COIL",
-      "SLAM",
-      "FIRESPIN",
-      "CRUNCH",
-      "FIRELASH",
-      "LUNGE",
-      "BURNUP",
+      {
+        level: 1,
+        move: "INFERNO",
+      },
+      {
+        level: 1,
+        move: "EMBER",
+      },
+      {
+        level: 1,
+        move: "SMOKESCREEN",
+      },
+      {
+        level: 1,
+        move: "WRAP",
+      },
+      {
+        level: 1,
+        move: "BITE",
+      },
+      {
+        level: 15,
+        move: "FLAMEWHEEL",
+      },
+      {
+        level: 20,
+        move: "BUGBITE",
+      },
+      {
+        level: 25,
+        move: "COIL",
+      },
+      {
+        level: 32,
+        move: "SLAM",
+      },
+      {
+        level: 39,
+        move: "FIRESPIN",
+      },
+      {
+        level: 46,
+        move: "CRUNCH",
+      },
+      {
+        level: 53,
+        move: "FIRELASH",
+      },
+      {
+        level: 60,
+        move: "LUNGE",
+      },
+      {
+        level: 67,
+        move: "BURNUP",
+      },
     ],
     tutorMoves: [
       "ATTRACT",
@@ -51379,20 +70628,62 @@ export const pokemonForms: PokemonForm[] = [
     hiddenAbilities: ["MAGICBOUNCE"],
     category: "Silent",
     moves: [
-      "PSYCHOCUT",
-      "BRUTALSWING",
-      "CONFUSION",
-      "PLAYNICE",
-      "LIFEDEW",
-      "DISARMINGVOICE",
-      "AROMATICMIST",
-      "PSYBEAM",
-      "HEALPULSE",
-      "DAZZLINGGLEAM",
-      "CALMMIND",
-      "PSYCHIC",
-      "HEALINGWISH",
-      "MAGICPOWDER",
+      {
+        level: 0,
+        move: "PSYCHOCUT",
+      },
+      {
+        level: 1,
+        move: "BRUTALSWING",
+      },
+      {
+        level: 1,
+        move: "CONFUSION",
+      },
+      {
+        level: 1,
+        move: "PLAYNICE",
+      },
+      {
+        level: 1,
+        move: "LIFEDEW",
+      },
+      {
+        level: 1,
+        move: "DISARMINGVOICE",
+      },
+      {
+        level: 15,
+        move: "AROMATICMIST",
+      },
+      {
+        level: 20,
+        move: "PSYBEAM",
+      },
+      {
+        level: 25,
+        move: "HEALPULSE",
+      },
+      {
+        level: 30,
+        move: "DAZZLINGGLEAM",
+      },
+      {
+        level: 37,
+        move: "CALMMIND",
+      },
+      {
+        level: 46,
+        move: "PSYCHIC",
+      },
+      {
+        level: 55,
+        move: "HEALINGWISH",
+      },
+      {
+        level: 64,
+        move: "MAGICPOWDER",
+      },
     ],
     tutorMoves: [
       "AGILITY",
@@ -51495,23 +70786,74 @@ export const pokemonForms: PokemonForm[] = [
     hiddenAbilities: ["PICKPOCKET"],
     category: "Bulk Up",
     moves: [
-      "SPIRITBREAK",
-      "FALSESURRENDER",
-      "BULKUP",
-      "FAKEOUT",
-      "CONFIDE",
-      "BITE",
-      "FLATTER",
-      "FAKETEARS",
-      "ASSURANCE",
-      "SWAGGER",
-      "SUCKERPUNCH",
-      "TORMENT",
-      "DARKPULSE",
-      "NASTYPLOT",
-      "PLAYROUGH",
-      "FOULPLAY",
-      "HAMMERARM",
+      {
+        level: 0,
+        move: "SPIRITBREAK",
+      },
+      {
+        level: 1,
+        move: "FALSESURRENDER",
+      },
+      {
+        level: 1,
+        move: "BULKUP",
+      },
+      {
+        level: 1,
+        move: "FAKEOUT",
+      },
+      {
+        level: 1,
+        move: "CONFIDE",
+      },
+      {
+        level: 1,
+        move: "BITE",
+      },
+      {
+        level: 1,
+        move: "FLATTER",
+      },
+      {
+        level: 12,
+        move: "FAKETEARS",
+      },
+      {
+        level: 16,
+        move: "ASSURANCE",
+      },
+      {
+        level: 20,
+        move: "SWAGGER",
+      },
+      {
+        level: 24,
+        move: "SUCKERPUNCH",
+      },
+      {
+        level: 28,
+        move: "TORMENT",
+      },
+      {
+        level: 35,
+        move: "DARKPULSE",
+      },
+      {
+        level: 40,
+        move: "NASTYPLOT",
+      },
+      {
+        level: 48,
+        move: "PLAYROUGH",
+      },
+      {
+        level: 56,
+        move: "FOULPLAY",
+      },
+      {
+        level: 64,
+        move: "HAMMERARM",
+      },
     ],
     tutorMoves: [
       "ASSURANCE",
@@ -51619,19 +70961,58 @@ export const pokemonForms: PokemonForm[] = [
     hiddenAbilities: ["AROMAVEIL"],
     category: "Cream",
     moves: [
-      "DECORATE",
-      "TACKLE",
-      "AROMATICMIST",
-      "SWEETKISS",
-      "SWEETSCENT",
-      "DRAININGKISS",
-      "CHARM",
-      "ATTRACT",
-      "ACIDARMOR",
-      "DAZZLINGGLEAM",
-      "RECOVER",
-      "MISTYTERRAIN",
-      "ENTRAINMENT",
+      {
+        level: 0,
+        move: "DECORATE",
+      },
+      {
+        level: 1,
+        move: "TACKLE",
+      },
+      {
+        level: 1,
+        move: "AROMATICMIST",
+      },
+      {
+        level: 1,
+        move: "SWEETKISS",
+      },
+      {
+        level: 1,
+        move: "SWEETSCENT",
+      },
+      {
+        level: 15,
+        move: "DRAININGKISS",
+      },
+      {
+        level: 20,
+        move: "CHARM",
+      },
+      {
+        level: 25,
+        move: "ATTRACT",
+      },
+      {
+        level: 30,
+        move: "ACIDARMOR",
+      },
+      {
+        level: 35,
+        move: "DAZZLINGGLEAM",
+      },
+      {
+        level: 40,
+        move: "RECOVER",
+      },
+      {
+        level: 45,
+        move: "MISTYTERRAIN",
+      },
+      {
+        level: 50,
+        move: "ENTRAINMENT",
+      },
     ],
     tutorMoves: [
       "ALLURINGVOICE",
@@ -51720,20 +71101,62 @@ export const pokemonForms: PokemonForm[] = [
     hiddenAbilities: ["HEAVYMETAL"],
     category: "Copperderm",
     moves: [
-      "HEAVYSLAM",
-      "TACKLE",
-      "GROWL",
-      "ROLLOUT",
-      "ROCKSMASH",
-      "BULLDOZE",
-      "STOMP",
-      "IRONDEFENSE",
-      "DIG",
-      "STRENGTH",
-      "IRONHEAD",
-      "PLAYROUGH",
-      "HIGHHORSEPOWER",
-      "SUPERPOWER",
+      {
+        level: 0,
+        move: "HEAVYSLAM",
+      },
+      {
+        level: 1,
+        move: "TACKLE",
+      },
+      {
+        level: 1,
+        move: "GROWL",
+      },
+      {
+        level: 1,
+        move: "ROLLOUT",
+      },
+      {
+        level: 1,
+        move: "ROCKSMASH",
+      },
+      {
+        level: 15,
+        move: "BULLDOZE",
+      },
+      {
+        level: 20,
+        move: "STOMP",
+      },
+      {
+        level: 25,
+        move: "IRONDEFENSE",
+      },
+      {
+        level: 30,
+        move: "DIG",
+      },
+      {
+        level: 37,
+        move: "STRENGTH",
+      },
+      {
+        level: 44,
+        move: "IRONHEAD",
+      },
+      {
+        level: 51,
+        move: "PLAYROUGH",
+      },
+      {
+        level: 58,
+        move: "HIGHHORSEPOWER",
+      },
+      {
+        level: 65,
+        move: "SUPERPOWER",
+      },
     ],
     tutorMoves: [
       "ATTRACT",
@@ -51835,19 +71258,58 @@ export const pokemonForms: PokemonForm[] = [
     hiddenAbilities: ["STALWART"],
     category: "Alloy",
     moves: [
-      "LEER",
-      "METALCLAW",
-      "ROCKSMASH",
-      "HONECLAWS",
-      "METALSOUND",
-      "BREAKINGSWIPE",
-      "DRAGONTAIL",
-      "IRONDEFENSE",
-      "FOCUSENERGY",
-      "DRAGONCLAW",
-      "FLASHCANNON",
-      "METALBURST",
-      "HYPERBEAM",
+      {
+        level: 1,
+        move: "LEER",
+      },
+      {
+        level: 1,
+        move: "METALCLAW",
+      },
+      {
+        level: 6,
+        move: "ROCKSMASH",
+      },
+      {
+        level: 12,
+        move: "HONECLAWS",
+      },
+      {
+        level: 18,
+        move: "METALSOUND",
+      },
+      {
+        level: 24,
+        move: "BREAKINGSWIPE",
+      },
+      {
+        level: 30,
+        move: "DRAGONTAIL",
+      },
+      {
+        level: 36,
+        move: "IRONDEFENSE",
+      },
+      {
+        level: 42,
+        move: "FOCUSENERGY",
+      },
+      {
+        level: 48,
+        move: "DRAGONCLAW",
+      },
+      {
+        level: 54,
+        move: "FLASHCANNON",
+      },
+      {
+        level: 60,
+        move: "METALBURST",
+      },
+      {
+        level: 66,
+        move: "HYPERBEAM",
+      },
     ],
     tutorMoves: [
       "ATTRACT",
@@ -51948,21 +71410,66 @@ export const pokemonForms: PokemonForm[] = [
     hiddenAbilities: [],
     category: "Gigantic",
     moves: [
-      "POISONTAIL",
-      "CONFUSERAY",
-      "DRAGONTAIL",
-      "AGILITY",
-      "TOXIC",
-      "VENOSHOCK",
-      "DRAGONDANCE",
-      "CROSSPOISON",
-      "DRAGONPULSE",
-      "FLAMETHROWER",
-      "DYNAMAXCANNON",
-      "COSMICPOWER",
-      "RECOVER",
-      "HYPERBEAM",
-      "OUTRAGE",
+      {
+        level: 1,
+        move: "POISONTAIL",
+      },
+      {
+        level: 1,
+        move: "CONFUSERAY",
+      },
+      {
+        level: 1,
+        move: "DRAGONTAIL",
+      },
+      {
+        level: 1,
+        move: "AGILITY",
+      },
+      {
+        level: 8,
+        move: "TOXIC",
+      },
+      {
+        level: 16,
+        move: "VENOSHOCK",
+      },
+      {
+        level: 24,
+        move: "DRAGONDANCE",
+      },
+      {
+        level: 32,
+        move: "CROSSPOISON",
+      },
+      {
+        level: 40,
+        move: "DRAGONPULSE",
+      },
+      {
+        level: 48,
+        move: "FLAMETHROWER",
+      },
+      {
+        level: 56,
+        move: "DYNAMAXCANNON",
+      },
+      {
+        level: 64,
+        move: "COSMICPOWER",
+      },
+      {
+        level: 72,
+        move: "RECOVER",
+      },
+      {
+        level: 80,
+        move: "HYPERBEAM",
+      },
+      {
+        level: 88,
+        move: "OUTRAGE",
+      },
     ],
     tutorMoves: [
       "AGILITY",
@@ -52056,23 +71563,74 @@ export const pokemonForms: PokemonForm[] = [
     hiddenAbilities: [],
     category: "Wushu",
     moves: [
-      "WICKEDBLOW",
-      "SUCKERPUNCH",
-      "ROCKSMASH",
-      "LEER",
-      "ENDURE",
-      "FOCUSENERGY",
-      "AERIALACE",
-      "SCARYFACE",
-      "HEADBUTT",
-      "BRICKBREAK",
-      "DETECT",
-      "BULKUP",
-      "IRONHEAD",
-      "DYNAMICPUNCH",
-      "COUNTER",
-      "CLOSECOMBAT",
-      "FOCUSPUNCH",
+      {
+        level: 0,
+        move: "WICKEDBLOW",
+      },
+      {
+        level: 1,
+        move: "SUCKERPUNCH",
+      },
+      {
+        level: 1,
+        move: "ROCKSMASH",
+      },
+      {
+        level: 1,
+        move: "LEER",
+      },
+      {
+        level: 1,
+        move: "ENDURE",
+      },
+      {
+        level: 1,
+        move: "FOCUSENERGY",
+      },
+      {
+        level: 12,
+        move: "AERIALACE",
+      },
+      {
+        level: 16,
+        move: "SCARYFACE",
+      },
+      {
+        level: 20,
+        move: "HEADBUTT",
+      },
+      {
+        level: 24,
+        move: "BRICKBREAK",
+      },
+      {
+        level: 28,
+        move: "DETECT",
+      },
+      {
+        level: 32,
+        move: "BULKUP",
+      },
+      {
+        level: 36,
+        move: "IRONHEAD",
+      },
+      {
+        level: 40,
+        move: "DYNAMICPUNCH",
+      },
+      {
+        level: 44,
+        move: "COUNTER",
+      },
+      {
+        level: 48,
+        move: "CLOSECOMBAT",
+      },
+      {
+        level: 52,
+        move: "FOCUSPUNCH",
+      },
     ],
     tutorMoves: [
       "ACROBATICS",
@@ -52184,23 +71742,74 @@ export const pokemonForms: PokemonForm[] = [
     hiddenAbilities: [],
     category: "Wushu",
     moves: [
-      "SURGINGSTRIKES",
-      "FOCUSENERGY",
-      "ENDURE",
-      "ROCKSMASH",
-      "AQUAJET",
-      "LEER",
-      "AERIALACE",
-      "SCARYFACE",
-      "HEADBUTT",
-      "BRICKBREAK",
-      "DETECT",
-      "BULKUP",
-      "IRONHEAD",
-      "DYNAMICPUNCH",
-      "COUNTER",
-      "CLOSECOMBAT",
-      "FOCUSPUNCH",
+      {
+        level: 0,
+        move: "SURGINGSTRIKES",
+      },
+      {
+        level: 1,
+        move: "FOCUSENERGY",
+      },
+      {
+        level: 1,
+        move: "ENDURE",
+      },
+      {
+        level: 1,
+        move: "ROCKSMASH",
+      },
+      {
+        level: 1,
+        move: "AQUAJET",
+      },
+      {
+        level: 1,
+        move: "LEER",
+      },
+      {
+        level: 12,
+        move: "AERIALACE",
+      },
+      {
+        level: 16,
+        move: "SCARYFACE",
+      },
+      {
+        level: 20,
+        move: "HEADBUTT",
+      },
+      {
+        level: 24,
+        move: "BRICKBREAK",
+      },
+      {
+        level: 28,
+        move: "DETECT",
+      },
+      {
+        level: 32,
+        move: "BULKUP",
+      },
+      {
+        level: 36,
+        move: "IRONHEAD",
+      },
+      {
+        level: 40,
+        move: "DYNAMICPUNCH",
+      },
+      {
+        level: 44,
+        move: "COUNTER",
+      },
+      {
+        level: 48,
+        move: "CLOSECOMBAT",
+      },
+      {
+        level: 52,
+        move: "FOCUSPUNCH",
+      },
     ],
     tutorMoves: [
       "ACROBATICS",
