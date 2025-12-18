@@ -1073,7 +1073,7 @@ export const pokemonForms: PokemonForm[] = [
   {
     id: "DURANT",
     name: "Durant",
-    types: ["BUG", "STEEL"],
+    types: ["BUG", "FIRE"],
     sprite: "/Front/DURANT_1.png",
     backSprite: "/Back/DURANT_1.png",
     description:

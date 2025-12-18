@@ -503,9 +503,9 @@ Outdoor = true
 ShowArea = true
 Bicycle = true
 MapPosition = 0,17,3
-MapSize = 1,11
 SnapEdges = true
 BattleBack = City
+MapSize = 1,11
 Flags = ForWebPage
 #-------------------------------
 [074]   # Volcan

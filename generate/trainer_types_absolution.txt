@@ -127,6 +127,14 @@ SkillLevel = 200
 Flags = ReserveLastPokemon
 BattleBGM = GYM1-Atlas-Scourge of the Night (Bakuryu)
 #-------------------------------
+[GYM_LEADER_FIRE_RIGHT_HAD]
+Name = Right Hand Of The Leader
+Gender = Male
+BaseMoney = 60
+SkillLevel = 200
+Flags = ReserveLastPokemon
+BattleBGM = GYM1-Atlas-Scourge of the Night (Bakuryu)
+#-------------------------------
 [BUGCATCHER_GROUP]
 Name = Bug Catcher Group
 Gender = Unknown

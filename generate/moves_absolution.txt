@@ -517,5 +517,3 @@ FunctionCode = AttractAndBurnTarget
 Flags = CanProtect,CanMirrorMove
 EffectChance = 30
 Description = If it is the opposite gender of the user, the target becomes infatuated and less likely to attack. This may also leave the target with a burn.
-
-

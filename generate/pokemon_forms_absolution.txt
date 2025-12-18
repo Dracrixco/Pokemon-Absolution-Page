@@ -73,40 +73,41 @@ FormName = Female
 Pokedex = They love to give and receive affection, especially with their trainers, their feathers become quite soft to the touch during mating season.
 #-------------------------------
 [DURANT,1]
+Types = BUG,FIRE
 #-------------------------------
 [GOTHITA,1]
 FormName = Nazanian
-Abilities = UNNERVE,VAMP
-HiddenAbilities = ICEFIRE
-Color = White
-Habitat = Urban
 Types = FIRE
 BaseStats = 44,38,46,58,58,46
-Pokedex = They are boastful by nature; when they don't get what they want, it can cause a fire of cold flames.
+Abilities = UNNERVE,VAMP
+HiddenAbilities = ICEFIRE
 Moves = 1,TACKLE,3,FIRESPIN,7,EMBER,10,AGILITY,12,CHARM,14,POWDERSNOW,16,INCINERATE,18,BABYDOLLEYES,19,PURSUIT,21,DISARMINGVOICE,23,WILLOWISP,25,FAIRYWIND,25,SNORE,27,DRAININGKISS,30,SWIFT,32,AURORABEAM,34,KNOCKOFF,36,COLDFLAME,38,FIREPLEDGE
 TutorMoves = AMNESIA,ATTRACT,AURORAVEIL,BARRIER,BATONPASS,BIND,BITE,BLAZEKICK,BLOCK,BODYSLAM,BURNTHELIMIT,BURNUP,CALMMIND,CRYOSPEED,DARKPULSE,DISABLE,DOUBLEEDGE,DOUBLETEAM,DREAMEATER,FAKEOUT,FAKETEARS,FALSESWIPE,FIREBLAST,FIRELASH,FIREPUNCH,FLAMECHARGE
 EggMoves = ERUPTION,EXPLOSION,FREEZESHOCK,GIGAIMPACT,SELFDESTRUCT
+Color = White
+Habitat = Urban
+Pokedex = They are boastful by nature; when they don't get what they want, it can cause a fire of cold flames.
 #-------------------------------
 [GOTHORITA,1]
 FormName = Nazanian
-Color = White
-Habitat = Urban
 Types = FIRE,ICE
+BaseStats = 59,51,62,78,78,62
 Abilities = UNNERVE,VAMP
 HiddenAbilities = ICEFIRE
-BaseStats = 59,51,62,78,78,62
-Pokedex = They always compare themselves to other Pokemon, especially members of their own species; they are very proud and boastful, and they unleash large amounts of icy fire to show off their power.
 Moves = 1,TACKLE,3,FIRESPIN,7,EMBER,10,AGILITY,12,CHARM,14,POWDERSNOW,16,INCINERATE,18,BABYDOLLEYES,19,PURSUIT,21,DISARMINGVOICE,23,WILLOWISP,25,FAIRYWIND,25,SNORE,27,DRAININGKISS,30,SWIFT,32,AURORABEAM,34,KNOCKOFF,36,COLDFLAME,38,VOLCANICKISS,40,ICEBEAM,43,FLAMETHROWER,47,PLAYROUGH,58,BLIZZARD
 TutorMoves = AMNESIA,ATTRACT,AURORAVEIL,BARRIER,BATONPASS,BIND,BITE,BLAZEKICK,BLOCK,BODYSLAM,BURNTHELIMIT,BURNUP,CALMMIND,CRYOSPEED,DARKPULSE,DISABLE,DOUBLEEDGE,DOUBLETEAM,DREAMEATER,FAKEOUT,FAKETEARS,FALSESWIPE,FIREBLAST,FIRELASH,FIREPUNCH,FLAMECHARGE,FLAMEWHEEL,FOULPLAY,GLACIATE,GRAVITY,HAIL,HEALBLOCK,HEALINGWISH,HEALPULSE
+Color = White
+Habitat = Urban
+Pokedex = They always compare themselves to other Pokemon, especially members of their own species; they are very proud and boastful, and they unleash large amounts of icy fire to show off their power.
 #-------------------------------
 [GOTHITELLE,1]
 FormName = Nazanian
-Color = White
-Habitat = Urban
-Abilities = ICEKING,VAMP
-HiddenAbilities = ICEFIRE
 Types = FIRE,ICE
 BaseStats = 74,64,78,98,98,78
-Pokedex = They are very egocentric and narcissistic, they do not allow themselves to be captured by any trainer they do not consider worthy of their power, it is said that they have the power to create a "frozen hell", but they usually avoid conflicts, so there are not many records of their power.
+Abilities = ICEKING,VAMP
+HiddenAbilities = ICEFIRE
 Moves = 1,TACKLE,3,FIRESPIN,7,EMBER,10,AGILITY,12,CHARM,14,POWDERSNOW,16,INCINERATE,18,BABYDOLLEYES,19,PURSUIT,21,DISARMINGVOICE,23,WILLOWISP,25,FAIRYWIND,25,SNORE,27,DRAININGKISS,30,SWIFT,32,AURORABEAM,34,KNOCKOFF,36,COLDFLAME,38,FIREPLEDGE,40,ICEBEAM,43,FLAMETHROWER,47,PLAYROUGH,51,INFERNO,53,FROZENHELL,56,LOVEBREAKUP,58,BLIZZARD
 TutorMoves = AMNESIA,ATTRACT,AURORAVEIL,BARRIER,BATONPASS,BIND,BITE,BLAZEKICK,BLOCK,BODYSLAM,BURNTHELIMIT,BURNUP,CALMMIND,CRYOSPEED,DARKPULSE,DISABLE,DOUBLEEDGE,DOUBLETEAM,DREAMEATER,FAKEOUT,FAKETEARS,FALSESWIPE,FIREBLAST,FIRELASH,FIREPUNCH,FLAMECHARGE,FLAMEWHEEL,FOULPLAY,GLACIATE,GRAVITY,HAIL,HEALBLOCK,HEALINGWISH,HEALPULSE,HYPERVOICE,HYPNOSIS,ICEPUNCH,ICICLECRASH,INTHESPOTLIGHT,LIGHTSCREEN,LOVEHURTS,LUNARDANCE,MAGICALEXPLOSION,MIST,MISTYTERRAIN,MOONBLAST,MOONLIGHT,NASTYPLOT,NULLIFYINGSMOKE,PAYBACK,PSYCHICTERRAIN,RECOVER,REFLECT,REST,ROLEPLAY,SCARYFACE,SCREECH,SEDUCTION,SLASH,STOMP,SUNNYDAY,SWEETKISS,TELEPORT,THIEF,TRICK,TRICKROOM,UPROAR
+Color = White
+Habitat = Urban
+Pokedex = They are very egocentric and narcissistic, they do not allow themselves to be captured by any trainer they do not consider worthy of their power, it is said that they have the power to create a "frozen hell", but they usually avoid conflicts, so there are not many records of their power.

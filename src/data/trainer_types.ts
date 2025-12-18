@@ -1784,6 +1784,15 @@ export const trainerTypes: TrainerType[] = [
     description: "",
   },
   {
+    id: "GYM_LEADER_FIRE_RIGHT_HAD",
+    name: "Right Hand Of The Leader",
+    gender: "Male",
+    baseMoney: 60,
+    suffix: "normal",
+    sprite: "/Trainers/GYM_LEADER_FIRE_RIGHT_HAD.png",
+    description: "",
+  },
+  {
     id: "BUGCATCHER_GROUP",
     name: "Bug Catcher Group",
     gender: "Unknown",
