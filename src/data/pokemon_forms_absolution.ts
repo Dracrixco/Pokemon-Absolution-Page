@@ -1,132 +1,140 @@
 import type { PokemonForm } from "@/types/pokemonform";
 
-export const pokemonForms: PokemonForm[] = [
+export const pokemonForms: PokemonForm[] = 
+[
   {
     id: "SKITTY",
     name: "Skitty",
-    types: ["NORMAL", "DARK"],
+    types: [
+      "NORMAL",
+      "DARK"
+    ],
     sprite: "/Front/SKITTY_1.png",
     backSprite: "/Back/SKITTY_1.png",
-    description:
-      "They often obtain food and valuables by using their tenderness, and many people who have encountered this Pokémon have admitted to being susceptible to wanting to give it everything.",
+    description: "They often obtain food and valuables by using their tenderness, and many people who have encountered this Pokémon have admitted to being susceptible to wanting to give it everything.",
     stats: {
       hp: 41,
       attack: 54,
       defense: 45,
       spAttack: 29,
       spDefense: 32,
-      speed: 59,
+      speed: 59
     },
     height: "0.6",
     weight: "11.0",
-    abilities: ["RUNAWAY", "PICKUP"],
-    hiddenAbilities: ["CUTECHARM"],
+    abilities: [
+      "RUNAWAY",
+      "PICKUP"
+    ],
+    hiddenAbilities: [
+      "CUTECHARM"
+    ],
     category: "Kitten",
     moves: [
       {
         level: 1,
-        move: "TACKLE",
+        move: "TACKLE"
       },
       {
         level: 5,
-        move: "ATTRACT",
+        move: "ATTRACT"
       },
       {
         level: 6,
-        move: "FURYATTACK",
+        move: "FURYATTACK"
       },
       {
         level: 9,
-        move: "LICK",
+        move: "LICK"
       },
       {
         level: 11,
-        move: "SEDUCTION",
+        move: "SEDUCTION"
       },
       {
         level: 13,
-        move: "BITE",
+        move: "BITE"
       },
       {
         level: 16,
-        move: "FAKEOUT",
+        move: "FAKEOUT"
       },
       {
         level: 18,
-        move: "SHADOWSNEAK",
+        move: "SHADOWSNEAK"
       },
       {
         level: 20,
-        move: "DISARMINGVOICE",
+        move: "DISARMINGVOICE"
       },
       {
         level: 23,
-        move: "PAYBACK",
+        move: "PAYBACK"
       },
       {
         level: 25,
-        move: "LUCKYCHANT",
+        move: "LUCKYCHANT"
       },
       {
         level: 27,
-        move: "BITE",
+        move: "BITE"
       },
       {
         level: 29,
-        move: "AGILITY",
+        move: "AGILITY"
       },
       {
         level: 32,
-        move: "FEINTATTACK",
+        move: "FEINTATTACK"
       },
       {
         level: 34,
-        move: "LOCKON",
+        move: "LOCKON"
       },
       {
         level: 36,
-        move: "HEX",
+        move: "HEX"
       },
       {
         level: 39,
-        move: "KNOCKOFF",
+        move: "KNOCKOFF"
       },
       {
         level: 41,
-        move: "LOVEBREAKUP",
+        move: "LOVEBREAKUP"
       },
       {
         level: 43,
-        move: "SLASH",
+        move: "SLASH"
       },
       {
         level: 46,
-        move: "SHADOWCLAW",
+        move: "SHADOWCLAW"
       },
       {
         level: 48,
-        move: "NIGHTSLASH",
+        move: "NIGHTSLASH"
       },
       {
         level: 50,
-        move: "LASHOUT",
+        move: "LASHOUT"
       },
       {
         level: 53,
-        move: "EXTREMESPEED",
+        move: "EXTREMESPEED"
       },
       {
         level: 55,
-        move: "CRUNCH",
+        move: "CRUNCH"
       },
       {
         level: 57,
-        move: "DESTINYBOND",
+        move: "DESTINYBOND"
       },
       {
         level: 59,
-        move: "HYPERVOICE",
-      },
+        move: "HYPERVOICE"
+      }
     ],
     tutorMoves: [
       "FLOWERFANG",
@@ -174,7 +182,7 @@ export const pokemonForms: PokemonForm[] = [
       "SWIFT",
       "UPROAR",
       "WORKUP",
-      "ZENHEADBUTT",
+      "ZENHEADBUTT"
     ],
     eggMoves: [
       "BATONPASS",
@@ -188,148 +196,155 @@ export const pokemonForms: PokemonForm[] = [
       "TICKLE",
       "UPROAR",
       "WISH",
-      "ZENHEADBUTT",
+      "ZENHEADBUTT"
     ],
     suffix: "absolution",
     evolution: [
       {
         to: "DELCATTY",
         method: "Level",
-        value: "22",
-      },
+        value: "22"
+      }
     ],
     color: "Pink",
     formNumber: 1,
     formName: "Nazanian",
     baseId: "SKITTY",
-    megaStone: null,
+    megaStone: null
   },
   {
     id: "DELCATTY",
     name: "Delcatty",
-    types: ["DARK", "NORMAL"],
+    types: [
+      "DARK",
+      "NORMAL"
+    ],
     sprite: "/Front/DELCATTY_1.png",
     backSprite: "/Back/DELCATTY_1.png",
-    description:
-      "It uses its charms on multiple Pokémon to get everything it wants, they are quite agile and stealthy, if you feel like you've lost an item of value after running into Delcatty it's likely to steal it without realising it.",
+    description: "It uses its charms on multiple Pokémon to get everything it wants, they are quite agile and stealthy, if you feel like you've lost an item of value after running into Delcatty it's likely to steal it without realising it.",
     stats: {
       hp: 62,
       attack: 84,
       defense: 69,
       spAttack: 44,
       spDefense: 49,
-      speed: 92,
+      speed: 92
     },
     height: "1.1",
     weight: "32.6",
-    abilities: ["RUNAWAY", "CUTECHARM"],
-    hiddenAbilities: ["VAMP"],
+    abilities: [
+      "RUNAWAY",
+      "CUTECHARM"
+    ],
+    hiddenAbilities: [
+      "VAMP"
+    ],
     category: "Prim",
     moves: [
       {
         level: 1,
-        move: "TACKLE",
+        move: "TACKLE"
       },
       {
         level: 4,
-        move: "ATTRACT",
+        move: "ATTRACT"
       },
       {
         level: 6,
-        move: "FURYATTACK",
+        move: "FURYATTACK"
       },
       {
         level: 9,
-        move: "LICK",
+        move: "LICK"
       },
       {
         level: 11,
-        move: "SEDUCTION",
+        move: "SEDUCTION"
       },
       {
         level: 13,
-        move: "BITE",
+        move: "BITE"
       },
       {
         level: 16,
-        move: "FAKEOUT",
+        move: "FAKEOUT"
       },
       {
         level: 18,
-        move: "SHADOWSNEAK",
+        move: "SHADOWSNEAK"
       },
       {
         level: 20,
-        move: "DISARMINGVOICE",
+        move: "DISARMINGVOICE"
       },
       {
         level: 23,
-        move: "PAYBACK",
+        move: "PAYBACK"
       },
       {
         level: 25,
-        move: "LUCKYCHANT",
+        move: "LUCKYCHANT"
       },
       {
         level: 27,
-        move: "BITE",
+        move: "BITE"
       },
       {
         level: 29,
-        move: "AGILITY",
+        move: "AGILITY"
       },
       {
         level: 32,
-        move: "FEINTATTACK",
+        move: "FEINTATTACK"
       },
       {
         level: 34,
-        move: "LOCKON",
+        move: "LOCKON"
       },
       {
         level: 36,
-        move: "HEX",
+        move: "HEX"
       },
       {
         level: 39,
-        move: "KNOCKOFF",
+        move: "KNOCKOFF"
       },
       {
         level: 41,
-        move: "LOVEBREAKUP",
+        move: "LOVEBREAKUP"
       },
       {
         level: 43,
-        move: "SLASH",
+        move: "SLASH"
       },
       {
         level: 46,
-        move: "SHADOWCLAW",
+        move: "SHADOWCLAW"
       },
       {
         level: 48,
-        move: "NIGHTSLASH",
+        move: "NIGHTSLASH"
       },
       {
         level: 50,
-        move: "LASHOUT",
+        move: "LASHOUT"
       },
       {
         level: 53,
-        move: "EXTREMESPEED",
+        move: "EXTREMESPEED"
       },
       {
         level: 55,
-        move: "CRUNCH",
+        move: "CRUNCH"
       },
       {
         level: 57,
-        move: "DESTINYBOND",
+        move: "DESTINYBOND"
       },
       {
         level: 59,
-        move: "HYPERVOICE",
-      },
+        move: "HYPERVOICE"
+      }
     ],
     tutorMoves: [
       "FLOWERFANG",
@@ -377,7 +392,7 @@ export const pokemonForms: PokemonForm[] = [
       "SWIFT",
       "UPROAR",
       "WORKUP",
-      "ZENHEADBUTT",
+      "ZENHEADBUTT"
     ],
     eggMoves: [
       "BATONPASS",
@@ -391,148 +406,155 @@ export const pokemonForms: PokemonForm[] = [
       "TICKLE",
       "UPROAR",
       "WISH",
-      "ZENHEADBUTT",
+      "ZENHEADBUTT"
     ],
     suffix: "absolution",
     evolution: [
       {
         to: "FATALTTY",
         method: "LevelFemale",
-        value: "35",
-      },
+        value: "35"
+      }
     ],
     color: "Black",
     formNumber: 1,
     formName: "Nazanian",
     baseId: "DELCATTY",
-    megaStone: null,
+    megaStone: null
   },
   {
     id: "TWYLICAN",
     name: "Twylican",
-    types: ["FIGHTING", "STEEL"],
+    types: [
+      "FIGHTING",
+      "STEEL"
+    ],
     sprite: "/Front/TWYLICAN_1.png",
     backSprite: "/Back/TWYLICAN_1.png",
-    description:
-      "It has a strong sense of justice and is often seen roaming the forest, searching for Trainers and Pokémon in need of help. Twylican will not hesitate to step in and protect the weak, earning the respect of those who witness its bravery.",
+    description: "It has a strong sense of justice and is often seen roaming the forest, searching for Trainers and Pokémon in need of help. Twylican will not hesitate to step in and protect the weak, earning the respect of those who witness its bravery.",
     stats: {
       hp: 95,
       attack: 115,
       defense: 75,
       spAttack: 105,
       spDefense: 95,
-      speed: 115,
+      speed: 115
     },
     height: "0.7",
     weight: "20.0",
-    abilities: ["INTIMIDATE", "INNERFOCUS"],
-    hiddenAbilities: ["JUSTIFIED"],
+    abilities: [
+      "INTIMIDATE",
+      "INNERFOCUS"
+    ],
+    hiddenAbilities: [
+      "JUSTIFIED"
+    ],
     category: "Hero",
     moves: [
       {
         level: 1,
-        move: "QUICKATTACK",
+        move: "QUICKATTACK"
       },
       {
         level: 4,
-        move: "GROWL",
+        move: "GROWL"
       },
       {
         level: 6,
-        move: "MUDSHOT",
+        move: "MUDSHOT"
       },
       {
         level: 9,
-        move: "RAGE",
+        move: "RAGE"
       },
       {
         level: 11,
-        move: "TRIFORCE",
+        move: "TRIFORCE"
       },
       {
         level: 13,
-        move: "MARTIALFANG",
+        move: "MARTIALFANG"
       },
       {
         level: 16,
-        move: "METALCLAW",
+        move: "METALCLAW"
       },
       {
         level: 18,
-        move: "PAYBACK",
+        move: "PAYBACK"
       },
       {
         level: 20,
-        move: "BULKUP",
+        move: "BULKUP"
       },
       {
         level: 23,
-        move: "MIRRORSHOT",
+        move: "MIRRORSHOT"
       },
       {
         level: 25,
-        move: "BITE",
+        move: "BITE"
       },
       {
         level: 27,
-        move: "TRIPLEKICK",
+        move: "TRIPLEKICK"
       },
       {
         level: 29,
-        move: "ROAR",
+        move: "ROAR"
       },
       {
         level: 32,
-        move: "NORETREAT",
+        move: "NORETREAT"
       },
       {
         level: 34,
-        move: "STOMP",
+        move: "STOMP"
       },
       {
         level: 36,
-        move: "METALSOUND",
+        move: "METALSOUND"
       },
       {
         level: 39,
-        move: "NIGHTSLASH",
+        move: "NIGHTSLASH"
       },
       {
         level: 41,
-        move: "SLASH",
+        move: "SLASH"
       },
       {
         level: 43,
-        move: "IRONTAIL",
+        move: "IRONTAIL"
       },
       {
         level: 46,
-        move: "TRIATTACK",
+        move: "TRIATTACK"
       },
       {
         level: 48,
-        move: "CRUNCH",
+        move: "CRUNCH"
       },
       {
         level: 50,
-        move: "EXTREMESPEED",
+        move: "EXTREMESPEED"
       },
       {
         level: 53,
-        move: "EARTHQUAKE",
+        move: "EARTHQUAKE"
       },
       {
         level: 55,
-        move: "TWILIGHTCUT",
+        move: "TWILIGHTCUT"
       },
       {
         level: 57,
-        move: "NIGHTFALL",
+        move: "NIGHTFALL"
       },
       {
         level: 59,
-        move: "CLOSECOMBAT",
-      },
+        move: "CLOSECOMBAT"
+      }
     ],
     tutorMoves: [
       "FLOWERFANG",
@@ -597,91 +619,103 @@ export const pokemonForms: PokemonForm[] = [
       "THUNDERFANG",
       "TORMENT",
       "TRAILBLAZE",
-      "UPROAR",
+      "UPROAR"
     ],
-    eggMoves: [],
+    eggMoves: [
+
+    ],
     suffix: "absolution",
-    evolution: [],
+    evolution: [
+
+    ],
     color: "Green",
     formNumber: 1,
     formName: "Hero",
     baseId: "TWYLICAN",
-    megaStone: null,
+    megaStone: null
   },
   {
     id: "PUPROUT",
     name: "Puprout",
-    types: ["GRASS", "DARK"],
+    types: [
+      "GRASS",
+      "DARK"
+    ],
     sprite: "/Front/PUPROUT_1.png",
     backSprite: "/Back/PUPROUT_1.png",
-    description:
-      "It displays many behaviors commonly seen in other Grass-type Pokémon. Its DNA suggests it may share multiple ancestors with various species.",
+    description: "It displays many behaviors commonly seen in other Grass-type Pokémon. Its DNA suggests it may share multiple ancestors with various species.",
     stats: {
       hp: 46,
       attack: 63,
       defense: 62,
       spAttack: 46,
       spDefense: 34,
-      speed: 67,
+      speed: 67
     },
     height: "0.7",
     weight: "19.0",
-    abilities: ["RUNAWAY", "INTIMIDATE"],
-    hiddenAbilities: ["PREDATORTRACKING", "ETERNALHUNGER"],
+    abilities: [
+      "RUNAWAY",
+      "INTIMIDATE"
+    ],
+    hiddenAbilities: [
+      "PREDATORTRACKING",
+      "ETERNALHUNGER"
+    ],
     category: "Quimera",
     moves: [
       {
         level: 1,
-        move: "TACKLE",
+        move: "TACKLE"
       },
       {
         level: 2,
-        move: "HOWL",
+        move: "HOWL"
       },
       {
         level: 6,
-        move: "PURSUIT",
+        move: "PURSUIT"
       },
       {
         level: 9,
-        move: "LEAFAGE",
+        move: "LEAFAGE"
       },
       {
         level: 11,
-        move: "MUDSPORT",
+        move: "MUDSPORT"
       },
       {
         level: 13,
-        move: "QUICKATTACK",
+        move: "QUICKATTACK"
       },
       {
         level: 16,
-        move: "RAZORLEAF",
+        move: "RAZORLEAF"
       },
       {
         level: 18,
-        move: "CONFUSERAY",
+        move: "CONFUSERAY"
       },
       {
         level: 20,
-        move: "POISONFANG",
+        move: "POISONFANG"
       },
       {
         level: 23,
-        move: "DIG",
+        move: "DIG"
       },
       {
         level: 25,
-        move: "BITE",
+        move: "BITE"
       },
       {
         level: 27,
-        move: "FLOWERFANG",
+        move: "FLOWERFANG"
       },
       {
         level: 35,
-        move: "PREDATORYGAME",
-      },
+        move: "PREDATORYGAME"
+      }
     ],
     tutorMoves: [
       "ACIDSPRAY",
@@ -761,7 +795,7 @@ export const pokemonForms: PokemonForm[] = [
       "VENOSHOCK",
       "WEATHERBALL",
       "WORKUP",
-      "WORRYSEED",
+      "WORRYSEED"
     ],
     eggMoves: [
       "SYNTHESIS",
@@ -777,26 +811,28 @@ export const pokemonForms: PokemonForm[] = [
       "PREDATORYGAME",
       "TAUNT",
       "POWERWHIP",
-      "GIGAIMPACT",
+      "GIGAIMPACT"
     ],
     suffix: "absolution",
     evolution: [
       {
         to: "BUSHIERA",
         method: "Level",
-        value: "20",
-      },
+        value: "20"
+      }
     ],
     color: "White",
     formNumber: 1,
     formName: "Beta Form",
     baseId: "PUPROUT",
-    megaStone: null,
+    megaStone: null
   },
   {
     id: "BUSHIERA",
     name: "",
-    types: [],
+    types: [
+
+    ],
     sprite: "/Front/BUSHIERA_1.png",
     backSprite: "/Back/BUSHIERA_1.png",
     description: "",
@@ -806,28 +842,42 @@ export const pokemonForms: PokemonForm[] = [
       defense: 0,
       spAttack: 0,
       spDefense: 0,
-      speed: 0,
+      speed: 0
     },
     height: "",
     weight: "",
-    abilities: [],
-    hiddenAbilities: [],
+    abilities: [
+
+    ],
+    hiddenAbilities: [
+
+    ],
     category: "",
-    moves: [],
-    tutorMoves: [],
-    eggMoves: [],
-    evolution: [],
+    moves: [
+
+    ],
+    tutorMoves: [
+
+    ],
+    eggMoves: [
+
+    ],
+    evolution: [
+
+    ],
     color: "",
     formNumber: 1,
     formName: "Beta Form",
     baseId: "BUSHIERA",
     suffix: "absolution",
-    megaStone: null,
+    megaStone: null
   },
   {
     id: "WEREWOODS",
     name: "",
-    types: [],
+    types: [
+
+    ],
     sprite: "/Front/WEREWOODS_1.png",
     backSprite: "/Back/WEREWOODS_1.png",
     description: "",
@@ -837,106 +887,125 @@ export const pokemonForms: PokemonForm[] = [
       defense: 0,
       spAttack: 0,
       spDefense: 0,
-      speed: 0,
+      speed: 0
     },
     height: "",
     weight: "",
-    abilities: [],
-    hiddenAbilities: [],
+    abilities: [
+
+    ],
+    hiddenAbilities: [
+
+    ],
     category: "",
-    moves: [],
-    tutorMoves: [],
-    eggMoves: [],
-    evolution: [],
+    moves: [
+
+    ],
+    tutorMoves: [
+
+    ],
+    eggMoves: [
+
+    ],
+    evolution: [
+
+    ],
     color: "",
     formNumber: 1,
     formName: "Beta Form",
     baseId: "WEREWOODS",
     suffix: "absolution",
-    megaStone: null,
+    megaStone: null
   },
   {
     id: "PIDOVE",
     name: "Pidove",
-    types: ["FAIRY", "FLYING"],
+    types: [
+      "FAIRY",
+      "FLYING"
+    ],
     sprite: "/Front/PIDOVE_1.png",
     backSprite: "/Back/PIDOVE_1.png",
-    description:
-      "They are pacifists by nature, they are very affectionate with humans and Pokemon.",
+    description: "They are pacifists by nature, they are very affectionate with humans and Pokemon.",
     stats: {
       hp: 50,
       attack: 43,
       defense: 36,
       spAttack: 50,
       spDefense: 30,
-      speed: 55,
+      speed: 55
     },
     height: "0.3",
     weight: "2.1",
-    abilities: ["CUTECHARM", "SUPERLUCK"],
-    hiddenAbilities: ["VAMP"],
+    abilities: [
+      "CUTECHARM",
+      "SUPERLUCK"
+    ],
+    hiddenAbilities: [
+      "VAMP"
+    ],
     category: "Love Pigeon",
     moves: [
       {
         level: 1,
-        move: "QUICKATTACK",
+        move: "QUICKATTACK"
       },
       {
         level: 1,
-        move: "ATTRACT",
+        move: "ATTRACT"
       },
       {
         level: 4,
-        move: "LEER",
+        move: "LEER"
       },
       {
         level: 8,
-        move: "GUST",
+        move: "GUST"
       },
       {
         level: 12,
-        move: "FAIRYWIND",
+        move: "FAIRYWIND"
       },
       {
         level: 16,
-        move: "AIRCUTTER",
+        move: "AIRCUTTER"
       },
       {
         level: 20,
-        move: "DAZZLINGGLEAM",
+        move: "DAZZLINGGLEAM"
       },
       {
         level: 24,
-        move: "FEATHERDANCE",
+        move: "FEATHERDANCE"
       },
       {
         level: 28,
-        move: "SEDUCTION",
+        move: "SEDUCTION"
       },
       {
         level: 32,
-        move: "ASSIST",
+        move: "ASSIST"
       },
       {
         level: 36,
-        move: "ROOST",
+        move: "ROOST"
       },
       {
         level: 40,
-        move: "TAILWIND",
+        move: "TAILWIND"
       },
       {
         level: 44,
-        move: "SKYATTACK",
+        move: "SKYATTACK"
       },
       {
         level: 48,
-        move: "LOVEHURTS",
+        move: "LOVEHURTS"
       },
       {
         level: 52,
-        move: "BATONPASS",
-      },
+        move: "BATONPASS"
+      }
     ],
     tutorMoves: [
       "MAGICALBLESSING",
@@ -1021,141 +1090,167 @@ export const pokemonForms: PokemonForm[] = [
       "TOXIC",
       "UPROAR",
       "UTURN",
-      "WORKUP",
+      "WORKUP"
     ],
-    eggMoves: ["DEFOG", "HYPNOSIS", "MORNINGSUN", "NIGHTSLASH", "WISH"],
+    eggMoves: [
+      "DEFOG",
+      "HYPNOSIS",
+      "MORNINGSUN",
+      "NIGHTSLASH",
+      "WISH"
+    ],
     suffix: "absolution",
     evolution: [
       {
         to: "DOLOVE",
         method: "Level",
-        value: "40",
-      },
+        value: "40"
+      }
     ],
     color: "White",
     formNumber: 1,
     formName: "Nazanian",
     baseId: "PIDOVE",
-    megaStone: null,
+    megaStone: null
   },
   {
     id: "SERENOVE",
     name: "",
-    types: [],
+    types: [
+
+    ],
     sprite: "/Front/SERENOVE_1.png",
     backSprite: "/Back/SERENOVE_1.png",
-    description:
-      "They love to give and receive affection, especially with their trainers, their feathers become quite soft to the touch during mating season.",
+    description: "They love to give and receive affection, especially with their trainers, their feathers become quite soft to the touch during mating season.",
     stats: {
       hp: 0,
       attack: 0,
       defense: 0,
       spAttack: 0,
       spDefense: 0,
-      speed: 0,
+      speed: 0
     },
     height: "",
     weight: "",
-    abilities: [],
-    hiddenAbilities: [],
+    abilities: [
+
+    ],
+    hiddenAbilities: [
+
+    ],
     category: "",
-    moves: [],
-    tutorMoves: [],
-    eggMoves: [],
-    evolution: [],
+    moves: [
+
+    ],
+    tutorMoves: [
+
+    ],
+    eggMoves: [
+
+    ],
+    evolution: [
+
+    ],
     color: "",
     formNumber: 1,
     formName: "Female",
     baseId: "SERENOVE",
     suffix: "absolution",
-    megaStone: null,
+    megaStone: null
   },
   {
     id: "DURANT",
     name: "Durant",
-    types: ["BUG", "FIRE"],
+    types: [
+      "BUG",
+      "FIRE"
+    ],
     sprite: "/Front/DURANT_1.png",
     backSprite: "/Back/DURANT_1.png",
-    description:
-      "Durant dig nests in mountains. They build their complicated, interconnected tunnels in mazes.",
+    description: "Durant dig nests in mountains. They build their complicated, interconnected tunnels in mazes.",
     stats: {
       hp: 58,
       attack: 109,
       defense: 112,
       spAttack: 48,
       spDefense: 48,
-      speed: 109,
+      speed: 109
     },
     height: "0.3",
     weight: "33.0",
-    abilities: ["SWARM", "HUSTLE"],
-    hiddenAbilities: ["TRUANT"],
+    abilities: [
+      "SWARM",
+      "HUSTLE"
+    ],
+    hiddenAbilities: [
+      "TRUANT"
+    ],
     category: "Iron Ant",
     moves: [
       {
         level: 1,
-        move: "FURYCUTTER",
+        move: "FURYCUTTER"
       },
       {
         level: 1,
-        move: "SANDATTACK",
+        move: "SANDATTACK"
       },
       {
         level: 4,
-        move: "VISEGRIP",
+        move: "VISEGRIP"
       },
       {
         level: 8,
-        move: "METALCLAW",
+        move: "METALCLAW"
       },
       {
         level: 12,
-        move: "BEATUP",
+        move: "BEATUP"
       },
       {
         level: 16,
-        move: "BUGBITE",
+        move: "BUGBITE"
       },
       {
         level: 20,
-        move: "BITE",
+        move: "BITE"
       },
       {
         level: 24,
-        move: "AGILITY",
+        move: "AGILITY"
       },
       {
         level: 28,
-        move: "DIG",
+        move: "DIG"
       },
       {
         level: 32,
-        move: "XSCISSOR",
+        move: "XSCISSOR"
       },
       {
         level: 36,
-        move: "CRUNCH",
+        move: "CRUNCH"
       },
       {
         level: 40,
-        move: "METALSOUND",
+        move: "METALSOUND"
       },
       {
         level: 44,
-        move: "IRONHEAD",
+        move: "IRONHEAD"
       },
       {
         level: 48,
-        move: "ENTRAINMENT",
+        move: "ENTRAINMENT"
       },
       {
         level: 52,
-        move: "IRONDEFENSE",
+        move: "IRONDEFENSE"
       },
       {
         level: 56,
-        move: "GUILLOTINE",
-      },
+        move: "GUILLOTINE"
+      }
     ],
     tutorMoves: [
       "AERIALACE",
@@ -1211,121 +1306,129 @@ export const pokemonForms: PokemonForm[] = [
       "THUNDERFANG",
       "THUNDERWAVE",
       "TOXIC",
-      "XSCISSOR",
+      "XSCISSOR"
     ],
     eggMoves: [
       "FIRSTIMPRESSION",
       "FLAIL",
       "INFESTATION",
       "METALBURST",
-      "STRUGGLEBUG",
+      "STRUGGLEBUG"
     ],
     suffix: "absolution",
-    evolution: [],
+    evolution: [
+
+    ],
     color: "Gray",
     formNumber: 1,
     formName: "",
     baseId: "DURANT",
-    megaStone: null,
+    megaStone: null
   },
   {
     id: "GOTHITA",
     name: "Gothita",
-    types: ["FIRE"],
+    types: [
+      "FIRE"
+    ],
     sprite: "/Front/GOTHITA_1.png",
     backSprite: "/Back/GOTHITA_1.png",
-    description:
-      "They are boastful by nature; when they don't get what they want, it can cause a fire of cold flames.",
+    description: "They are boastful by nature; when they don't get what they want, it can cause a fire of cold flames.",
     stats: {
       hp: 44,
       attack: 38,
       defense: 46,
       spAttack: 58,
       spDefense: 46,
-      speed: 58,
+      speed: 58
     },
     height: "0.4",
     weight: "5.8",
-    abilities: ["UNNERVE", "VAMP"],
-    hiddenAbilities: ["ICEFIRE"],
+    abilities: [
+      "UNNERVE",
+      "VAMP"
+    ],
+    hiddenAbilities: [
+      "ICEFIRE"
+    ],
     category: "Fixation",
     moves: [
       {
         level: 1,
-        move: "TACKLE",
+        move: "TACKLE"
       },
       {
         level: 3,
-        move: "FIRESPIN",
+        move: "FIRESPIN"
       },
       {
         level: 7,
-        move: "EMBER",
+        move: "EMBER"
       },
       {
         level: 10,
-        move: "AGILITY",
+        move: "AGILITY"
       },
       {
         level: 12,
-        move: "CHARM",
+        move: "CHARM"
       },
       {
         level: 14,
-        move: "POWDERSNOW",
+        move: "POWDERSNOW"
       },
       {
         level: 16,
-        move: "INCINERATE",
+        move: "INCINERATE"
       },
       {
         level: 18,
-        move: "BABYDOLLEYES",
+        move: "BABYDOLLEYES"
       },
       {
         level: 19,
-        move: "PURSUIT",
+        move: "PURSUIT"
       },
       {
         level: 21,
-        move: "DISARMINGVOICE",
+        move: "DISARMINGVOICE"
       },
       {
         level: 23,
-        move: "WILLOWISP",
+        move: "WILLOWISP"
       },
       {
         level: 25,
-        move: "FAIRYWIND",
+        move: "FAIRYWIND"
       },
       {
         level: 25,
-        move: "SNORE",
+        move: "SNORE"
       },
       {
         level: 27,
-        move: "DRAININGKISS",
+        move: "DRAININGKISS"
       },
       {
         level: 30,
-        move: "SWIFT",
+        move: "SWIFT"
       },
       {
         level: 32,
-        move: "AURORABEAM",
+        move: "AURORABEAM"
       },
       {
         level: 34,
-        move: "KNOCKOFF",
+        move: "KNOCKOFF"
       },
       {
         level: 36,
-        move: "COLDFLAME",
+        move: "COLDFLAME"
       },
       {
         level: 38,
-        move: "FIREPLEDGE",
-      },
+        move: "FIREPLEDGE"
+      }
     ],
     tutorMoves: [
       "AMNESIA",
@@ -1353,143 +1456,150 @@ export const pokemonForms: PokemonForm[] = [
       "FIREBLAST",
       "FIRELASH",
       "FIREPUNCH",
-      "FLAMECHARGE",
+      "FLAMECHARGE"
     ],
     eggMoves: [
       "ERUPTION",
       "EXPLOSION",
       "FREEZESHOCK",
       "GIGAIMPACT",
-      "SELFDESTRUCT",
+      "SELFDESTRUCT"
     ],
     suffix: "absolution",
     evolution: [
       {
         to: "GOTHORITA",
         method: "Level",
-        value: "32",
-      },
+        value: "32"
+      }
     ],
     color: "White",
     formNumber: 1,
     formName: "Nazanian",
     baseId: "GOTHITA",
-    megaStone: null,
+    megaStone: null
   },
   {
     id: "GOTHORITA",
     name: "Gothorita",
-    types: ["FIRE", "ICE"],
+    types: [
+      "FIRE",
+      "ICE"
+    ],
     sprite: "/Front/GOTHORITA_1.png",
     backSprite: "/Back/GOTHORITA_1.png",
-    description:
-      "They always compare themselves to other Pokemon, especially members of their own species; they are very proud and boastful, and they unleash large amounts of icy fire to show off their power.",
+    description: "They always compare themselves to other Pokemon, especially members of their own species; they are very proud and boastful, and they unleash large amounts of icy fire to show off their power.",
     stats: {
       hp: 59,
       attack: 51,
       defense: 62,
       spAttack: 78,
       spDefense: 62,
-      speed: 78,
+      speed: 78
     },
     height: "0.7",
     weight: "18.0",
-    abilities: ["UNNERVE", "VAMP"],
-    hiddenAbilities: ["ICEFIRE"],
+    abilities: [
+      "UNNERVE",
+      "VAMP"
+    ],
+    hiddenAbilities: [
+      "ICEFIRE"
+    ],
     category: "Manipulate",
     moves: [
       {
         level: 1,
-        move: "TACKLE",
+        move: "TACKLE"
       },
       {
         level: 3,
-        move: "FIRESPIN",
+        move: "FIRESPIN"
       },
       {
         level: 7,
-        move: "EMBER",
+        move: "EMBER"
       },
       {
         level: 10,
-        move: "AGILITY",
+        move: "AGILITY"
       },
       {
         level: 12,
-        move: "CHARM",
+        move: "CHARM"
       },
       {
         level: 14,
-        move: "POWDERSNOW",
+        move: "POWDERSNOW"
       },
       {
         level: 16,
-        move: "INCINERATE",
+        move: "INCINERATE"
       },
       {
         level: 18,
-        move: "BABYDOLLEYES",
+        move: "BABYDOLLEYES"
       },
       {
         level: 19,
-        move: "PURSUIT",
+        move: "PURSUIT"
       },
       {
         level: 21,
-        move: "DISARMINGVOICE",
+        move: "DISARMINGVOICE"
       },
       {
         level: 23,
-        move: "WILLOWISP",
+        move: "WILLOWISP"
       },
       {
         level: 25,
-        move: "FAIRYWIND",
+        move: "FAIRYWIND"
       },
       {
         level: 25,
-        move: "SNORE",
+        move: "SNORE"
       },
       {
         level: 27,
-        move: "DRAININGKISS",
+        move: "DRAININGKISS"
       },
       {
         level: 30,
-        move: "SWIFT",
+        move: "SWIFT"
       },
       {
         level: 32,
-        move: "AURORABEAM",
+        move: "AURORABEAM"
       },
       {
         level: 34,
-        move: "KNOCKOFF",
+        move: "KNOCKOFF"
       },
       {
         level: 36,
-        move: "COLDFLAME",
+        move: "COLDFLAME"
       },
       {
         level: 38,
-        move: "VOLCANICKISS",
+        move: "VOLCANICKISS"
       },
       {
         level: 40,
-        move: "ICEBEAM",
+        move: "ICEBEAM"
       },
       {
         level: 43,
-        move: "FLAMETHROWER",
+        move: "FLAMETHROWER"
       },
       {
         level: 47,
-        move: "PLAYROUGH",
+        move: "PLAYROUGH"
       },
       {
         level: 58,
-        move: "BLIZZARD",
-      },
+        move: "BLIZZARD"
+      }
     ],
     tutorMoves: [
       "AMNESIA",
@@ -1525,149 +1635,158 @@ export const pokemonForms: PokemonForm[] = [
       "HAIL",
       "HEALBLOCK",
       "HEALINGWISH",
-      "HEALPULSE",
+      "HEALPULSE"
     ],
-    eggMoves: [],
+    eggMoves: [
+
+    ],
     suffix: "absolution",
     evolution: [
       {
         to: "GOTHITELLE",
         method: "Level",
-        value: "41",
-      },
+        value: "41"
+      }
     ],
     color: "White",
     formNumber: 1,
     formName: "Nazanian",
     baseId: "GOTHORITA",
-    megaStone: null,
+    megaStone: null
   },
   {
     id: "GOTHITELLE",
     name: "Gothitelle",
-    types: ["FIRE", "ICE"],
+    types: [
+      "FIRE",
+      "ICE"
+    ],
     sprite: "/Front/GOTHITELLE_1.png",
     backSprite: "/Back/GOTHITELLE_1.png",
-    description:
-      'They are very egocentric and narcissistic, they do not allow themselves to be captured by any trainer they do not consider worthy of their power, it is said that they have the power to create a "frozen hell", but they usually avoid conflicts, so there are not many records of their power.',
+    description: "They are very egocentric and narcissistic, they do not allow themselves to be captured by any trainer they do not consider worthy of their power, it is said that they have the power to create a \"frozen hell\", but they usually avoid conflicts, so there are not many records of their power.",
     stats: {
       hp: 74,
       attack: 64,
       defense: 78,
       spAttack: 98,
       spDefense: 78,
-      speed: 98,
+      speed: 98
     },
     height: "1.5",
     weight: "44.0",
-    abilities: ["ICEKING", "VAMP"],
-    hiddenAbilities: ["ICEFIRE"],
+    abilities: [
+      "ICEKING",
+      "VAMP"
+    ],
+    hiddenAbilities: [
+      "ICEFIRE"
+    ],
     category: "Astral Body",
     moves: [
       {
         level: 1,
-        move: "TACKLE",
+        move: "TACKLE"
       },
       {
         level: 3,
-        move: "FIRESPIN",
+        move: "FIRESPIN"
       },
       {
         level: 7,
-        move: "EMBER",
+        move: "EMBER"
       },
       {
         level: 10,
-        move: "AGILITY",
+        move: "AGILITY"
       },
       {
         level: 12,
-        move: "CHARM",
+        move: "CHARM"
       },
       {
         level: 14,
-        move: "POWDERSNOW",
+        move: "POWDERSNOW"
       },
       {
         level: 16,
-        move: "INCINERATE",
+        move: "INCINERATE"
       },
       {
         level: 18,
-        move: "BABYDOLLEYES",
+        move: "BABYDOLLEYES"
       },
       {
         level: 19,
-        move: "PURSUIT",
+        move: "PURSUIT"
       },
       {
         level: 21,
-        move: "DISARMINGVOICE",
+        move: "DISARMINGVOICE"
       },
       {
         level: 23,
-        move: "WILLOWISP",
+        move: "WILLOWISP"
       },
       {
         level: 25,
-        move: "FAIRYWIND",
+        move: "FAIRYWIND"
       },
       {
         level: 25,
-        move: "SNORE",
+        move: "SNORE"
       },
       {
         level: 27,
-        move: "DRAININGKISS",
+        move: "DRAININGKISS"
       },
       {
         level: 30,
-        move: "SWIFT",
+        move: "SWIFT"
       },
       {
         level: 32,
-        move: "AURORABEAM",
+        move: "AURORABEAM"
       },
       {
         level: 34,
-        move: "KNOCKOFF",
+        move: "KNOCKOFF"
       },
       {
         level: 36,
-        move: "COLDFLAME",
+        move: "COLDFLAME"
       },
       {
         level: 38,
-        move: "FIREPLEDGE",
+        move: "FIREPLEDGE"
       },
       {
         level: 40,
-        move: "ICEBEAM",
+        move: "ICEBEAM"
       },
       {
         level: 43,
-        move: "FLAMETHROWER",
+        move: "FLAMETHROWER"
       },
       {
         level: 47,
-        move: "PLAYROUGH",
+        move: "PLAYROUGH"
       },
       {
         level: 51,
-        move: "INFERNO",
+        move: "INFERNO"
       },
       {
         level: 53,
-        move: "FROZENHELL",
+        move: "FROZENHELL"
       },
       {
         level: 56,
-        move: "LOVEBREAKUP",
+        move: "LOVEBREAKUP"
       },
       {
         level: 58,
-        move: "BLIZZARD",
-      },
+        move: "BLIZZARD"
+      }
     ],
     tutorMoves: [
       "AMNESIA",
@@ -1736,15 +1855,389 @@ export const pokemonForms: PokemonForm[] = [
       "THIEF",
       "TRICK",
       "TRICKROOM",
-      "UPROAR",
+      "UPROAR"
     ],
-    eggMoves: [],
+    eggMoves: [
+
+    ],
     suffix: "absolution",
-    evolution: [],
+    evolution: [
+
+    ],
     color: "White",
     formNumber: 1,
     formName: "Nazanian",
     baseId: "GOTHITELLE",
-    megaStone: null,
+    megaStone: null
   },
-];
+  {
+    id: "ARON",
+    name: "Aron",
+    types: [
+      "FIRE",
+      "ROCK"
+    ],
+    sprite: "/Front/ARON_1.png",
+    backSprite: "/Back/ARON_1.png",
+    description: "A Pokémon that is clad in steel armor. A new suit of armor is made when it evolves. The old, discarded armor is salvaged as metal for making iron products.",
+    stats: {
+      hp: 50,
+      attack: 70,
+      defense: 30,
+      spAttack: 40,
+      spDefense: 40,
+      speed: 100
+    },
+    height: "0.4",
+    weight: "60.0",
+    abilities: [
+      "STURDY",
+      "ROCKHEAD"
+    ],
+    hiddenAbilities: [
+      "HEAVYMETAL"
+    ],
+    category: "Iron Armor",
+    moves: [
+      {
+        level: 1,
+        move: "TACKLE"
+      },
+      {
+        level: 1,
+        move: "HARDEN"
+      },
+      {
+        level: 4,
+        move: "METALCLAW"
+      },
+      {
+        level: 8,
+        move: "ROCKTOMB"
+      },
+      {
+        level: 12,
+        move: "ROAR"
+      },
+      {
+        level: 16,
+        move: "HEADBUTT"
+      },
+      {
+        level: 20,
+        move: "PROTECT"
+      },
+      {
+        level: 24,
+        move: "ROCKSLIDE"
+      },
+      {
+        level: 28,
+        move: "IRONHEAD"
+      },
+      {
+        level: 33,
+        move: "METALSOUND"
+      },
+      {
+        level: 36,
+        move: "TAKEDOWN"
+      },
+      {
+        level: 40,
+        move: "AUTOTOMIZE"
+      },
+      {
+        level: 44,
+        move: "IRONTAIL"
+      },
+      {
+        level: 48,
+        move: "IRONDEFENSE"
+      },
+      {
+        level: 52,
+        move: "HEAVYSLAM"
+      },
+      {
+        level: 56,
+        move: "DOUBLEEDGE"
+      },
+      {
+        level: 60,
+        move: "METALBURST"
+      }
+    ],
+    tutorMoves: [
+      "AERIALACE",
+      "ANCIENTPOWER",
+      "ATTRACT",
+      "BODYPRESS",
+      "BODYSLAM",
+      "BULLDOZE",
+      "CAPTIVATE",
+      "CONFIDE",
+      "CUT",
+      "DEFENSECURL",
+      "DIG",
+      "DOUBLEEDGE",
+      "DOUBLETEAM",
+      "EARTHPOWER",
+      "EARTHQUAKE",
+      "ENDEAVOR",
+      "ENDURE",
+      "FACADE",
+      "FRUSTRATION",
+      "FURYCUTTER",
+      "HEADBUTT",
+      "HEAVYSLAM",
+      "HIDDENPOWER",
+      "HONECLAWS",
+      "IRONDEFENSE",
+      "IRONHEAD",
+      "IRONTAIL",
+      "MAGNETRISE",
+      "MIMIC",
+      "MUDSLAP",
+      "NATURALGIFT",
+      "PROTECT",
+      "RAINDANCE",
+      "REST",
+      "RETURN",
+      "REVERSAL",
+      "ROAR",
+      "ROCKPOLISH",
+      "ROCKSLIDE",
+      "ROCKSMASH",
+      "ROCKTOMB",
+      "ROLLOUT",
+      "ROUND",
+      "SANDSTORM",
+      "SCREECH",
+      "SECRETPOWER",
+      "SHADOWCLAW",
+      "SHOCKWAVE",
+      "SLEEPTALK",
+      "SNORE",
+      "SPITE",
+      "STEALTHROCK",
+      "STEELBEAM",
+      "STEELROLLER",
+      "STRENGTH",
+      "SUBSTITUTE",
+      "SUNNYDAY",
+      "SUPERPOWER",
+      "SWAGGER",
+      "UPROAR",
+      "WATERPULSE"
+    ],
+    eggMoves: [
+      "BODYSLAM",
+      "CURSE",
+      "DRAGONRUSH",
+      "ENDEAVOR",
+      "HEADSMASH",
+      "IRONHEAD",
+      "MUDSLAP",
+      "REVERSAL",
+      "SCREECH",
+      "STOMP",
+      "SUPERPOWER"
+    ],
+    suffix: "absolution",
+    evolution: [
+      {
+        to: "LAIRON",
+        method: "Level",
+        value: "32"
+      }
+    ],
+    color: "Gray",
+    formNumber: 1,
+    formName: "Nazanian",
+    baseId: "ARON",
+    megaStone: null
+  },
+  {
+    id: "LAIRON",
+    name: "Lairon",
+    types: [
+      "FIRE",
+      "STEEL"
+    ],
+    sprite: "/Front/LAIRON_1.png",
+    backSprite: "/Back/LAIRON_1.png",
+    description: "When two Lairon meet in the wild, they fight for territory by bashing into each other with their steel bodies. The sound of their collision carries for miles.",
+    stats: {
+      hp: 80,
+      attack: 112,
+      defense: 48,
+      spAttack: 100,
+      spDefense: 64,
+      speed: 110
+    },
+    height: "0.9",
+    weight: "120.0",
+    abilities: [
+      "STURDY",
+      "ROCKHEAD"
+    ],
+    hiddenAbilities: [
+      "HEAVYMETAL"
+    ],
+    category: "Iron Armor",
+    moves: [
+      {
+        level: 1,
+        move: "TACKLE"
+      },
+      {
+        level: 1,
+        move: "HARDEN"
+      },
+      {
+        level: 1,
+        move: "METALCLAW"
+      },
+      {
+        level: 1,
+        move: "ROCKTOMB"
+      },
+      {
+        level: 12,
+        move: "ROAR"
+      },
+      {
+        level: 16,
+        move: "HEADBUTT"
+      },
+      {
+        level: 20,
+        move: "PROTECT"
+      },
+      {
+        level: 24,
+        move: "ROCKSLIDE"
+      },
+      {
+        level: 28,
+        move: "IRONHEAD"
+      },
+      {
+        level: 35,
+        move: "METALSOUND"
+      },
+      {
+        level: 40,
+        move: "TAKEDOWN"
+      },
+      {
+        level: 46,
+        move: "AUTOTOMIZE"
+      },
+      {
+        level: 52,
+        move: "IRONTAIL"
+      },
+      {
+        level: 58,
+        move: "IRONDEFENSE"
+      },
+      {
+        level: 64,
+        move: "HEAVYSLAM"
+      },
+      {
+        level: 70,
+        move: "DOUBLEEDGE"
+      },
+      {
+        level: 76,
+        move: "METALBURST"
+      }
+    ],
+    tutorMoves: [
+      "AERIALACE",
+      "ANCIENTPOWER",
+      "ATTRACT",
+      "BODYPRESS",
+      "BODYSLAM",
+      "BULLDOZE",
+      "CAPTIVATE",
+      "CONFIDE",
+      "CUT",
+      "DEFENSECURL",
+      "DIG",
+      "DOUBLEEDGE",
+      "DOUBLETEAM",
+      "EARTHPOWER",
+      "EARTHQUAKE",
+      "ENDEAVOR",
+      "ENDURE",
+      "FACADE",
+      "FRUSTRATION",
+      "FURYCUTTER",
+      "HEADBUTT",
+      "HEAVYSLAM",
+      "HIDDENPOWER",
+      "HONECLAWS",
+      "IRONDEFENSE",
+      "IRONHEAD",
+      "IRONTAIL",
+      "MAGNETRISE",
+      "MIMIC",
+      "MUDSLAP",
+      "NATURALGIFT",
+      "PROTECT",
+      "RAINDANCE",
+      "REST",
+      "RETURN",
+      "REVERSAL",
+      "ROAR",
+      "ROCKBLAST",
+      "ROCKPOLISH",
+      "ROCKSLIDE",
+      "ROCKSMASH",
+      "ROCKTOMB",
+      "ROLLOUT",
+      "ROUND",
+      "SANDSTORM",
+      "SANDTOMB",
+      "SCREECH",
+      "SECRETPOWER",
+      "SHADOWCLAW",
+      "SHOCKWAVE",
+      "SLEEPTALK",
+      "SNORE",
+      "SPITE",
+      "STEALTHROCK",
+      "STEELBEAM",
+      "STEELROLLER",
+      "STOMPINGTANTRUM",
+      "STONEEDGE",
+      "STRENGTH",
+      "SUBSTITUTE",
+      "SUNNYDAY",
+      "SUPERPOWER",
+      "SWAGGER",
+      "UPROAR",
+      "WATERPULSE"
+    ],
+    eggMoves: [
+
+    ],
+    suffix: "absolution",
+    evolution: [
+      {
+        to: "MAGMON",
+        method: "Level",
+        value: "42"
+      }
+    ],
+    color: "Gray",
+    formNumber: 1,
+    formName: "Nazanian",
+    baseId: "LAIRON",
+    megaStone: null
+  }
+]

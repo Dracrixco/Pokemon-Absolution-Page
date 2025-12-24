@@ -1,6 +1,7 @@
 import type { TileData } from "@/lib/map";
 
-export const tilesData: Record<string, TileData> = {
+export const tilesData: Record<string, TileData> = 
+{
   "0-0": {
     id: "002",
     mapIngameID: 2,
@@ -13,7 +14,10 @@ export const tilesData: Record<string, TileData> = {
     outdoor: true,
     showArea: true,
     bicycle: true,
-    flags: ["ForWebPage", "PowerSpot"],
+    flags: [
+      "ForWebPage",
+      "PowerSpot"
+    ]
   },
   "5-10": {
     id: "003",
@@ -27,7 +31,9 @@ export const tilesData: Record<string, TileData> = {
     outdoor: true,
     showArea: true,
     bicycle: true,
-    flags: ["ForWebPage"],
+    flags: [
+      "ForWebPage"
+    ]
   },
   "5-7": {
     id: "004",
@@ -41,7 +47,9 @@ export const tilesData: Record<string, TileData> = {
     outdoor: true,
     showArea: true,
     bicycle: true,
-    flags: ["ForWebPage"],
+    flags: [
+      "ForWebPage"
+    ]
   },
   "5-6": {
     id: "007",
@@ -55,7 +63,9 @@ export const tilesData: Record<string, TileData> = {
     outdoor: true,
     showArea: true,
     bicycle: true,
-    flags: ["ForWebPage"],
+    flags: [
+      "ForWebPage"
+    ]
   },
   "6-10": {
     id: "008",
@@ -69,7 +79,9 @@ export const tilesData: Record<string, TileData> = {
     outdoor: true,
     showArea: true,
     bicycle: true,
-    flags: ["ForWebPage"],
+    flags: [
+      "ForWebPage"
+    ]
   },
   "11-10": {
     id: "011",
@@ -83,7 +95,9 @@ export const tilesData: Record<string, TileData> = {
     outdoor: true,
     showArea: true,
     bicycle: true,
-    flags: ["ForWebPage"],
+    flags: [
+      "ForWebPage"
+    ]
   },
   "8-8": {
     id: "012",
@@ -97,7 +111,9 @@ export const tilesData: Record<string, TileData> = {
     outdoor: true,
     showArea: true,
     bicycle: false,
-    flags: ["ForWebPage"],
+    flags: [
+      "ForWebPage"
+    ]
   },
   "13-10": {
     id: "014",
@@ -111,7 +127,9 @@ export const tilesData: Record<string, TileData> = {
     outdoor: true,
     showArea: true,
     bicycle: true,
-    flags: ["ForWebPage"],
+    flags: [
+      "ForWebPage"
+    ]
   },
   "14-10": {
     id: "015",
@@ -125,7 +143,9 @@ export const tilesData: Record<string, TileData> = {
     outdoor: false,
     showArea: true,
     bicycle: false,
-    flags: ["ForWebPage"],
+    flags: [
+      "ForWebPage"
+    ]
   },
   "14-9": {
     id: "016",
@@ -139,7 +159,9 @@ export const tilesData: Record<string, TileData> = {
     outdoor: false,
     showArea: false,
     bicycle: false,
-    flags: ["ForWebPage"],
+    flags: [
+      "ForWebPage"
+    ]
   },
   "11-11": {
     id: "017",
@@ -153,7 +175,9 @@ export const tilesData: Record<string, TileData> = {
     outdoor: true,
     showArea: true,
     bicycle: true,
-    flags: ["ForWebPage"],
+    flags: [
+      "ForWebPage"
+    ]
   },
   "11-7": {
     id: "018",
@@ -167,7 +191,9 @@ export const tilesData: Record<string, TileData> = {
     outdoor: true,
     showArea: true,
     bicycle: true,
-    flags: ["ForWebPage"],
+    flags: [
+      "ForWebPage"
+    ]
   },
   "11-5": {
     id: "019",
@@ -181,7 +207,9 @@ export const tilesData: Record<string, TileData> = {
     outdoor: true,
     showArea: true,
     bicycle: true,
-    flags: ["ForWebPage"],
+    flags: [
+      "ForWebPage"
+    ]
   },
   "10-5": {
     id: "020",
@@ -195,7 +223,9 @@ export const tilesData: Record<string, TileData> = {
     outdoor: true,
     showArea: true,
     bicycle: false,
-    flags: ["ForWebPage"],
+    flags: [
+      "ForWebPage"
+    ]
   },
   "11-4": {
     id: "021",
@@ -209,7 +239,9 @@ export const tilesData: Record<string, TileData> = {
     outdoor: true,
     showArea: true,
     bicycle: true,
-    flags: ["ForWebPage"],
+    flags: [
+      "ForWebPage"
+    ]
   },
   "4-6": {
     id: "022",
@@ -223,7 +255,9 @@ export const tilesData: Record<string, TileData> = {
     outdoor: true,
     showArea: true,
     bicycle: true,
-    flags: ["ForWebPage"],
+    flags: [
+      "ForWebPage"
+    ]
   },
   "5-5": {
     id: "023",
@@ -237,7 +271,9 @@ export const tilesData: Record<string, TileData> = {
     outdoor: true,
     showArea: true,
     bicycle: true,
-    flags: ["ForWebPage"],
+    flags: [
+      "ForWebPage"
+    ]
   },
   "13-9": {
     id: "034",
@@ -251,7 +287,9 @@ export const tilesData: Record<string, TileData> = {
     outdoor: false,
     showArea: true,
     bicycle: false,
-    flags: ["ForWebPage"],
+    flags: [
+      "ForWebPage"
+    ]
   },
   "12-5": {
     id: "043",
@@ -265,7 +303,9 @@ export const tilesData: Record<string, TileData> = {
     outdoor: true,
     showArea: true,
     bicycle: true,
-    flags: ["ForWebPage"],
+    flags: [
+      "ForWebPage"
+    ]
   },
   "12-6": {
     id: "045",
@@ -279,7 +319,9 @@ export const tilesData: Record<string, TileData> = {
     outdoor: true,
     showArea: true,
     bicycle: true,
-    flags: ["ForWebPage"],
+    flags: [
+      "ForWebPage"
+    ]
   },
   "10-4": {
     id: "060",
@@ -293,7 +335,9 @@ export const tilesData: Record<string, TileData> = {
     outdoor: true,
     showArea: true,
     bicycle: true,
-    flags: ["ForWebPage"],
+    flags: [
+      "ForWebPage"
+    ]
   },
   "9-4": {
     id: "062",
@@ -307,7 +351,9 @@ export const tilesData: Record<string, TileData> = {
     outdoor: true,
     showArea: true,
     bicycle: true,
-    flags: ["ForWebPage"],
+    flags: [
+      "ForWebPage"
+    ]
   },
   "9-3": {
     id: "064",
@@ -321,7 +367,10 @@ export const tilesData: Record<string, TileData> = {
     outdoor: true,
     showArea: true,
     bicycle: true,
-    flags: ["ForWebPage", "PowerSpot"],
+    flags: [
+      "ForWebPage",
+      "PowerSpot"
+    ]
   },
   "12-4": {
     id: "065",
@@ -335,7 +384,9 @@ export const tilesData: Record<string, TileData> = {
     outdoor: true,
     showArea: true,
     bicycle: true,
-    flags: ["ForWebPage"],
+    flags: [
+      "ForWebPage"
+    ]
   },
   "13-3": {
     id: "068",
@@ -349,7 +400,10 @@ export const tilesData: Record<string, TileData> = {
     outdoor: true,
     showArea: true,
     bicycle: true,
-    flags: ["ForWebPage", "PowerSpot"],
+    flags: [
+      "ForWebPage",
+      "PowerSpot"
+    ]
   },
   "13-2": {
     id: "069",
@@ -363,7 +417,9 @@ export const tilesData: Record<string, TileData> = {
     outdoor: true,
     showArea: true,
     bicycle: true,
-    flags: ["ForWebPage"],
+    flags: [
+      "ForWebPage"
+    ]
   },
   "17-4": {
     id: "070",
@@ -377,7 +433,9 @@ export const tilesData: Record<string, TileData> = {
     outdoor: true,
     showArea: true,
     bicycle: true,
-    flags: ["ForWebPage"],
+    flags: [
+      "ForWebPage"
+    ]
   },
   "17-2": {
     id: "074",
@@ -391,7 +449,9 @@ export const tilesData: Record<string, TileData> = {
     outdoor: false,
     showArea: true,
     bicycle: true,
-    flags: ["ForWebPage"],
+    flags: [
+      "ForWebPage"
+    ]
   },
   "17-5": {
     id: "075",
@@ -405,7 +465,9 @@ export const tilesData: Record<string, TileData> = {
     outdoor: true,
     showArea: true,
     bicycle: true,
-    flags: ["ForWebPage"],
+    flags: [
+      "ForWebPage"
+    ]
   },
   "18-1": {
     id: "076",
@@ -419,7 +481,9 @@ export const tilesData: Record<string, TileData> = {
     outdoor: false,
     showArea: true,
     bicycle: true,
-    flags: ["ForWebPage"],
+    flags: [
+      "ForWebPage"
+    ]
   },
   "17-1": {
     id: "089",
@@ -433,6 +497,8 @@ export const tilesData: Record<string, TileData> = {
     outdoor: false,
     showArea: true,
     bicycle: true,
-    flags: ["ForWebPage"],
-  },
-};
+    flags: [
+      "ForWebPage"
+    ]
+  }
+}

@@ -25,6 +25,7 @@ NOT_ABLE_TO_SHOW_FAKEMONS = %w[
   SERENOVE
   ANTICORE
   DRANTICORE
+  MAGMON
 ]
 
 def parse_level_up_moves(value)

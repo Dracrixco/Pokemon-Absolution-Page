@@ -8403,6 +8403,7 @@ Pokedex = When two Lairon meet in the wild, they fight for territory by bashing 
 Generation = 3
 WildItemUncommon = HARDSTONE
 Evolution = AGGRON,Level,42
+Evolution = MAGMON,None
 CallRateSOS = 6
 #-------------------------------
 [AGGRON]
