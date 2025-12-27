@@ -13,6 +13,7 @@ import { useTeamBuilder } from "./components/team-builder-context";
 import { PokemonSelectorModal } from "./components/pokemon-selector-modal";
 import { PokemonEditorModal } from "./components/pokemon-edit-modal";
 import { TrainerEditor } from "./components/trainer-editor";
+import { PokemonImportTextModal } from "./components/pokemon-import-text-modal";
 import { getTypeColor } from "@/lib/type-colors";
 import type { Fakemon, FakemonForTeam } from "@/types/fakemon";
 import { getPokemonData } from "@/lib/fakemons";
@@ -31,6 +32,7 @@ export const TeamBuilder = () => {
     clearTeam,
   } = useTeamBuilder();
   const [showPokemonSelector, setShowPokemonSelector] = useState(false);
+  const [showPokemonImport, setShowPokemonImport] = useState(false);
   const [editingPokemon, setEditingPokemon] = useState<{
     pokemon: FakemonForTeam;
     index: number;
@@ -101,6 +103,7 @@ export const TeamBuilder = () => {
       exportText += `    Gender = male\n`;
       exportText += `    IV = ${pokemon.ivs.join(",")}\n`;
       exportText += `    EV = ${pokemon.evs.join(",")}\n`;
+      exportText += `    Ball = POKEBALL`;
       // exportText += `    Ball = ULTRABALL\n`;
       [
         pokemon.moves_easy,
@@ -171,7 +174,7 @@ export const TeamBuilder = () => {
             </h2>
             <div className="flex gap-2">
               <button
-                onClick={() => setShowPokemonSelector(true)}
+                onClick={() => setShowPokemonImport(true)}
                 disabled={team.length >= 6}
                 className="flex items-center gap-2 px-4 py-2 bg-blue-500 text-white rounded-lg hover:bg-blue-600 disabled:bg-gray-400 disabled:cursor-not-allowed"
               >
@@ -206,7 +209,7 @@ export const TeamBuilder = () => {
             {team.map((teamPokemon, index) => {
               const pokemonData = getPokemonData(
                 teamPokemon.id,
-                teamPokemon.formNumber,
+                teamPokemon.formNumber
               );
               return (
                 <div
@@ -265,7 +268,7 @@ export const TeamBuilder = () => {
                           <span
                             key={type}
                             className={`px-2 py-1 rounded text-white text-xs ${getTypeColor(
-                              type,
+                              type
                             )}`}
                           >
                             {type}
@@ -305,6 +308,15 @@ export const TeamBuilder = () => {
           isOpen={showPokemonSelector}
           onClose={() => setShowPokemonSelector(false)}
           onSelectPokemon={handleAddPokemon}
+        />
+
+        {/* Pokemon Import (text) Modal */}
+        <PokemonImportTextModal
+          isOpen={showPokemonImport}
+          onClose={() => setShowPokemonImport(false)}
+          disabled={team.length >= 6}
+          createDefaultTeamPokemon={createDefaultTeamPokemon}
+          onAddPokemon={addPokemon}
         />
 
         {/* Pokemon Editor Modal */}
