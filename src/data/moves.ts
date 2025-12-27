@@ -10474,5 +10474,29 @@ export const moves: Move[] =
     target: "AllNearOthers",
     description: "If it is the opposite gender of the user, the target becomes infatuated and less likely to attack. This may also leave the target with a burn.",
     suffix: "normal"
+  },
+  {
+    id: "PYROCUT",
+    name: "Pyro Cut",
+    type: "FIRE",
+    category: "Physical",
+    power: 60,
+    accuracy: 100,
+    totalPP: 25,
+    target: "NearOther",
+    description: "???",
+    suffix: "normal"
+  },
+  {
+    id: "MAGMASLASH",
+    name: "Magma Slash",
+    type: "FIRE",
+    category: "Physical",
+    power: 90,
+    accuracy: 100,
+    totalPP: 15,
+    target: "NearOther",
+    description: "???",
+    suffix: "normal"
   }
 ]

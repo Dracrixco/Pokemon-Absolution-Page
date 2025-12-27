@@ -109,7 +109,7 @@ Gender = Female
 BaseMoney = 60
 SkillLevel = 200
 Flags = ReserveLastPokemon
-BattleBGM = GYM1-Battle (Gym Leader - Kanto)
+BattleBGM = Mega Man X6 OST  - Blaze Heatnix Stage Magma Area
 #-------------------------------
 [GYM_LEADER_WATER]
 Name = Gym Leader

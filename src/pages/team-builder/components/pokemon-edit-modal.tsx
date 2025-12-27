@@ -10,6 +10,7 @@ import { ItemSelector } from "./pokemon-item-selector";
 import { MoveSelector } from "./pokemon-move-selector";
 import { PokemonImage } from "@/components/absolution/pokemon-image";
 import { cn } from "@/lib/utils";
+import { pickDefaultMovesForLevel } from "@/lib/pick-default-moves";
 
 interface PokemonEditorModalProps {
   isOpen: boolean;
@@ -127,6 +128,7 @@ export const PokemonEditorModal: React.FC<PokemonEditorModalProps> = ({
 
   useEffect(() => {
     if (pokemon) {
+      // eslint-disable-next-line react-hooks/set-state-in-effect
       setEditedPokemon({ ...pokemon });
     }
   }, [pokemon]);
@@ -138,7 +140,6 @@ export const PokemonEditorModal: React.FC<PokemonEditorModalProps> = ({
 
   // Get pokemon data considering the selected form
   const pokemonData = getPokemonData(pokemon.id, editedPokemon.formNumber);
-
   if (!pokemonData) return null;
 
   const handleSave = () => {
@@ -340,6 +341,25 @@ export const PokemonEditorModal: React.FC<PokemonEditorModalProps> = ({
           </div>
           <div className="flex gap-2">
             <button
+              onClick={() => {
+                const moves = pickDefaultMovesForLevel(
+                  pokemonData.moves,
+                  editedPokemon.level,
+                );
+                setEditedPokemon({
+                  ...editedPokemon,
+                  moves_easy: moves,
+                  moves_normal: moves,
+                  moves_hard: moves,
+                  moves_absolution: moves,
+                });
+              }}
+              className="flex items-center gap-2 px-4 py-2 bg-yellow-500 text-white rounded-lg hover:bg-yellow-600"
+            >
+              <Save size={20} />
+              SetUp Default Moves
+            </button>
+            <button
               onClick={handleSave}
               className="flex items-center gap-2 px-4 py-2 bg-green-500 text-white rounded-lg hover:bg-green-600"
             >
@@ -367,9 +387,12 @@ export const PokemonEditorModal: React.FC<PokemonEditorModalProps> = ({
                 {/* Base Form */}
                 <button
                   type="button"
-                  onClick={() =>
-                    setEditedPokemon({ ...editedPokemon, formNumber: 0 })
-                  }
+                  onClick={() => {
+                    setEditedPokemon({
+                      ...editedPokemon,
+                      formNumber: 0,
+                    });
+                  }}
                   className={cn(
                     "bg-white rounded-lg p-3 border-2 transition-all hover:scale-105",
                     !editedPokemon.formNumber || editedPokemon.formNumber === 0
@@ -397,12 +420,12 @@ export const PokemonEditorModal: React.FC<PokemonEditorModalProps> = ({
                   <button
                     key={`${form.baseId}-${form.formNumber}`}
                     type="button"
-                    onClick={() =>
+                    onClick={() => {
                       setEditedPokemon({
                         ...editedPokemon,
                         formNumber: form.formNumber,
-                      })
-                    }
+                      });
+                    }}
                     className={cn(
                       "bg-white rounded-lg p-3 border-2 transition-all hover:scale-105",
                       editedPokemon.formNumber === form.formNumber

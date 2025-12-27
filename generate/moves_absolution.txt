@@ -517,3 +517,31 @@ FunctionCode = AttractAndBurnTarget
 Flags = CanProtect,CanMirrorMove
 EffectChance = 30
 Description = If it is the opposite gender of the user, the target becomes infatuated and less likely to attack. This may also leave the target with a burn.
+#-------------------------------
+[PYROCUT]
+Name = Pyro Cut
+Type = FIRE
+Category = Physical
+Power = 60
+Accuracy = 100
+TotalPP = 25
+Target = None
+FunctionCode = BurnTarget
+Flags = CanProtect,CanMirrorMove,Slicing
+EffectChance = 30
+Description = ???
+Target = NearOther
+#-------------------------------
+[MAGMASLASH]
+Name = Magma Slash
+Type = FIRE
+Category = Physical
+Power = 90
+Accuracy = 100
+TotalPP = 15
+Target = None
+FunctionCode = BurnTarget
+Flags = CanProtect,CanMirrorMove,Slicing
+EffectChance = 50
+Description = ???
+Target = NearOther
