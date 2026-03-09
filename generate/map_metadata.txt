@@ -12,7 +12,7 @@ Bicycle = true
 MapPosition = 0,0,1
 SnapEdges = true
 BattleBack = GrassLand
-Flags = ForWebPage,PowerSpot
+Flags = ForWebPage
 #-------------------------------
 [003]   # Sunrise City
 Name = Sunrise City
@@ -79,7 +79,6 @@ BattleBack = Indoor
 Name = Kaoba House
 SnapEdges = true
 BattleBack = Indoor
-Flags = PowerSpot
 #-------------------------------
 [011]   # Parhelion City
 Name = Parhelion City
@@ -286,7 +285,7 @@ Flags = ForWebPage
 Name = Gym - Level 2
 SnapEdges = true
 BattleBack = GrassLand
-Flags = ForWebPage,PowerSpot
+Flags = ForWebPage
 #-------------------------------
 [038]   # Gym - Caves
 Name = Gym - Caves
@@ -392,7 +391,6 @@ SnapEdges = true
 Name = Dungeon
 ShowArea = true
 SnapEdges = true
-Flags = PowerSpot
 #-------------------------------
 [057]   # Profesor Intro
 Name = Profesor Intro
@@ -435,7 +433,7 @@ Bicycle = true
 MapPosition = 0,9,4
 SnapEdges = true
 BattleBack = Forest
-Flags = ForWebPage,PowerSpot
+Flags = ForWebPage
 #-------------------------------
 [065]   # Route 5
 Name = Route 5
@@ -468,7 +466,7 @@ MapPosition = 0,13,4
 SnapEdges = true
 BattleBack = GrassLand
 Environment = Grass
-Flags = ForWebPage,PowerSpot
+Flags = ForWebPage
 #-------------------------------
 [069]   # Mansion
 Name = Mansion
@@ -512,7 +510,7 @@ Flags = ForWebPage
 Name = Volcan
 ShowArea = true
 Bicycle = true
-MapPosition = 0,17,3
+MapPosition = 0,17,2
 SnapEdges = true
 BattleBack = Volcan
 MapSize = 2,11
@@ -534,7 +532,7 @@ Flags = ForWebPage
 Name = Right Zone
 ShowArea = true
 Bicycle = true
-MapPosition = 0,18,2
+MapPosition = 0,18,1
 SnapEdges = true
 BattleBack = Volcan
 Flags = ForWebPage
@@ -569,11 +567,15 @@ MapPosition = 0,17,5
 SnapEdges = true
 BattleBack = Indoor
 #-------------------------------
+[083]   # Main Section
+Name = Mansion
+SnapEdges = true
+#-------------------------------
 [089]   # Left Zone
 Name = Volcan - Left
 ShowArea = true
 Bicycle = true
-MapPosition = 0,17,2
+MapPosition = 0,17,1
 SnapEdges = true
 BattleBack = Volcan
 Flags = ForWebPage
@@ -588,3 +590,67 @@ Name = Cupcake Cafe
 MapPosition = 0,17,5
 SnapEdges = true
 BattleBack = Indoor
+#-------------------------------
+[093]   # Gym - Entrace
+Name = Gym - Entrace
+MapPosition = 0,17,5
+SnapEdges = true
+BattleBack = Gym2
+#-------------------------------
+[094]   # Gym - Main
+Name = Gym - Main
+MapPosition = 0,17,5
+SnapEdges = true
+BattleBack = Gym2
+#-------------------------------
+[097]   # Gym - Leader
+Name = Gym - Leader
+MapPosition = 0,17,5
+SnapEdges = true
+BattleBack = Gym2
+#-------------------------------
+[100]   # City Swamp
+Name = Cite Swamp
+Outdoor = true
+ShowArea = true
+Bicycle = true
+Weather = Rain,100
+MapPosition = 0,17,9
+SnapEdges = true
+BattleBack = Swamp
+MapSize = 1,1
+Flags = ForWebPage
+#-------------------------------
+[106]   # Thorny Area
+Name = Thorny Area
+Outdoor = true
+ShowArea = true
+Bicycle = true
+Weather = Rain,100
+MapPosition = 0,15,9
+SnapEdges = true
+BattleBack = Swamp
+MapSize = 2,11
+Flags = ForWebPage
+#-------------------------------
+[107]   # Route 8
+Name = Route 8
+Outdoor = true
+ShowArea = true
+Bicycle = true
+MapPosition = 0,18,9
+SnapEdges = true
+BattleBack = Swamp
+MapSize = 1,1111
+Flags = ForWebPage
+#-------------------------------
+[108]   # Route 8
+Name = Route 8
+Outdoor = true
+ShowArea = true
+Bicycle = true
+MapPosition = 0,19,9
+SnapEdges = true
+BattleBack = Swamp
+MapSize = 5,1111
+Flags = ForWebPage

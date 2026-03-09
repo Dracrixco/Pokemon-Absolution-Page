@@ -1740,6 +1740,15 @@ export const trainerTypes: TrainerType[] =
     description: ""
   },
   {
+    id: "CORRUPT_ADMIN_TAXUS",
+    name: "Corrupt Team",
+    gender: "Male",
+    baseMoney: 100,
+    suffix: "normal",
+    sprite: "/Trainers/CORRUPT_ADMIN_TAXUS.png",
+    description: ""
+  },
+  {
     id: "AGRONOMIST_SYLVIA",
     name: "Agronomist",
     gender: "Female",

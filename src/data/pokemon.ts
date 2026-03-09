@@ -1646,7 +1646,8 @@ export const fakemons: Fakemon[] =
     tutorMoves: [
       "BUGBITE",
       "ELECTROWEB",
-      "STRINGSHOT"
+      "STRINGSHOT",
+      "TERABLAST"
     ],
     eggMoves: [
 
@@ -1697,7 +1698,8 @@ export const fakemons: Fakemon[] =
       "BUGBITE",
       "ELECTROWEB",
       "IRONDEFENSE",
-      "STRINGSHOT"
+      "STRINGSHOT",
+      "TERABLAST"
     ],
     eggMoves: [
 
@@ -1874,7 +1876,8 @@ export const fakemons: Fakemon[] =
       "THIEF",
       "TWISTER",
       "UTURN",
-      "VENOSHOCK"
+      "VENOSHOCK",
+      "TERABLAST"
     ],
     eggMoves: [
 
@@ -1929,7 +1932,8 @@ export const fakemons: Fakemon[] =
     tutorMoves: [
       "BUGBITE",
       "ELECTROWEB",
-      "STRINGSHOT"
+      "STRINGSHOT",
+      "TERABLAST"
     ],
     eggMoves: [
 
@@ -1981,7 +1985,8 @@ export const fakemons: Fakemon[] =
       "BUGBITE",
       "ELECTROWEB",
       "IRONDEFENSE",
-      "STRINGSHOT"
+      "STRINGSHOT",
+      "TERABLAST"
     ],
     eggMoves: [
 
@@ -2152,7 +2157,8 @@ export const fakemons: Fakemon[] =
       "THROATCHOP",
       "UTURN",
       "VENOSHOCK",
-      "XSCISSOR"
+      "XSCISSOR",
+      "TERABLAST"
     ],
     eggMoves: [
 
@@ -2289,7 +2295,8 @@ export const fakemons: Fakemon[] =
       "TWISTER",
       "UPROAR",
       "UTURN",
-      "WORKUP"
+      "WORKUP",
+      "TERABLAST"
     ],
     eggMoves: [
       "AIRCUTTER",
@@ -2441,7 +2448,8 @@ export const fakemons: Fakemon[] =
       "TWISTER",
       "UPROAR",
       "UTURN",
-      "WORKUP"
+      "WORKUP",
+      "TERABLAST"
     ],
     eggMoves: [
 
@@ -2601,7 +2609,8 @@ export const fakemons: Fakemon[] =
       "TWISTER",
       "UPROAR",
       "UTURN",
-      "WORKUP"
+      "WORKUP",
+      "TERABLAST"
     ],
     eggMoves: [
 
@@ -2750,7 +2759,8 @@ export const fakemons: Fakemon[] =
       "UTURN",
       "WILDCHARGE",
       "WORKUP",
-      "ZENHEADBUTT"
+      "ZENHEADBUTT",
+      "TERABLAST"
     ],
     eggMoves: [
       "BITE",
@@ -2934,7 +2944,8 @@ export const fakemons: Fakemon[] =
       "UPROAR",
       "WILDCHARGE",
       "WORKUP",
-      "ZENHEADBUTT"
+      "ZENHEADBUTT",
+      "TERABLAST"
     ],
     eggMoves: [
 
@@ -3065,7 +3076,8 @@ export const fakemons: Fakemon[] =
       "TWISTER",
       "UPROAR",
       "UTURN",
-      "WORKUP"
+      "WORKUP",
+      "TERABLAST"
     ],
     eggMoves: [
       "ASTONISH",
@@ -3227,7 +3239,8 @@ export const fakemons: Fakemon[] =
       "TWISTER",
       "UPROAR",
       "UTURN",
-      "WORKUP"
+      "WORKUP",
+      "TERABLAST"
     ],
     eggMoves: [
 
@@ -4573,7 +4586,8 @@ export const fakemons: Fakemon[] =
       "TOXICSPIKES",
       "VENOMDRENCH",
       "VENOSHOCK",
-      "WATERPULSE"
+      "WATERPULSE",
+      "TERABLAST"
     ],
     eggMoves: [
       "BEATUP",
@@ -4736,7 +4750,8 @@ export const fakemons: Fakemon[] =
       "TOXICSPIKES",
       "VENOMDRENCH",
       "VENOSHOCK",
-      "WATERPULSE"
+      "WATERPULSE",
+      "TERABLAST"
     ],
     eggMoves: [
 
@@ -4951,7 +4966,8 @@ export const fakemons: Fakemon[] =
       "VENOMDRENCH",
       "VENOSHOCK",
       "WATERPULSE",
-      "WHIRLPOOL"
+      "WHIRLPOOL",
+      "TERABLAST"
     ],
     eggMoves: [
 
@@ -5100,7 +5116,8 @@ export const fakemons: Fakemon[] =
       "TOXICSPIKES",
       "VENOMDRENCH",
       "VENOSHOCK",
-      "WATERPULSE"
+      "WATERPULSE",
+      "TERABLAST"
     ],
     eggMoves: [
       "AMNESIA",
@@ -5266,7 +5283,8 @@ export const fakemons: Fakemon[] =
       "TOXICSPIKES",
       "VENOMDRENCH",
       "VENOSHOCK",
-      "WATERPULSE"
+      "WATERPULSE",
+      "TERABLAST"
     ],
     eggMoves: [
 
@@ -5482,7 +5500,8 @@ export const fakemons: Fakemon[] =
       "VENOMDRENCH",
       "VENOSHOCK",
       "WATERPULSE",
-      "WHIRLPOOL"
+      "WHIRLPOOL",
+      "TERABLAST"
     ],
     eggMoves: [
 
@@ -6994,7 +7013,8 @@ export const fakemons: Fakemon[] =
       "UTURN",
       "VENOMDRENCH",
       "VENOSHOCK",
-      "ZENHEADBUTT"
+      "ZENHEADBUTT",
+      "TERABLAST"
     ],
     eggMoves: [
       "BRAVEBIRD",
@@ -7163,7 +7183,8 @@ export const fakemons: Fakemon[] =
       "UTURN",
       "VENOMDRENCH",
       "VENOSHOCK",
-      "ZENHEADBUTT"
+      "ZENHEADBUTT",
+      "TERABLAST"
     ],
     eggMoves: [
 
@@ -7769,7 +7790,8 @@ export const fakemons: Fakemon[] =
       "THIEF",
       "VENOSHOCK",
       "WORRYSEED",
-      "XSCISSOR"
+      "XSCISSOR",
+      "TERABLAST"
     ],
     eggMoves: [
       "AGILITY",
@@ -7946,7 +7968,8 @@ export const fakemons: Fakemon[] =
       "THROATCHOP",
       "VENOSHOCK",
       "WORRYSEED",
-      "XSCISSOR"
+      "XSCISSOR",
+      "TERABLAST"
     ],
     eggMoves: [
 
@@ -10766,7 +10789,8 @@ export const fakemons: Fakemon[] =
       "TRICK",
       "TRICKROOM",
       "WONDERROOM",
-      "ZENHEADBUTT"
+      "ZENHEADBUTT",
+      "TERABLAST"
     ],
     eggMoves: [
       "ALLYSWITCH",
@@ -10960,7 +10984,8 @@ export const fakemons: Fakemon[] =
       "TRICK",
       "TRICKROOM",
       "WONDERROOM",
-      "ZENHEADBUTT"
+      "ZENHEADBUTT",
+      "TERABLAST"
     ],
     eggMoves: [
 
@@ -11146,7 +11171,8 @@ export const fakemons: Fakemon[] =
       "TRICK",
       "TRICKROOM",
       "WONDERROOM",
-      "ZENHEADBUTT"
+      "ZENHEADBUTT",
+      "TERABLAST"
     ],
     eggMoves: [
 
@@ -11320,7 +11346,8 @@ export const fakemons: Fakemon[] =
       "THIEF",
       "THUNDERPUNCH",
       "VACUUMWAVE",
-      "WORKUP"
+      "WORKUP",
+      "TERABLAST"
     ],
     eggMoves: [
       "BULLETPUNCH",
@@ -11511,7 +11538,8 @@ export const fakemons: Fakemon[] =
       "THIEF",
       "THUNDERPUNCH",
       "VACUUMWAVE",
-      "WORKUP"
+      "WORKUP",
+      "TERABLAST"
     ],
     eggMoves: [
 
@@ -11699,7 +11727,8 @@ export const fakemons: Fakemon[] =
       "THROATCHOP",
       "THUNDERPUNCH",
       "VACUUMWAVE",
-      "WORKUP"
+      "WORKUP",
+      "TERABLAST"
     ],
     eggMoves: [
 
@@ -13194,7 +13223,8 @@ export const fakemons: Fakemon[] =
       "SWAGGER",
       "SWIFT",
       "WILDCHARGE",
-      "WILLOWISP"
+      "WILLOWISP",
+      "TERABLAST"
     ],
     eggMoves: [
       "ALLYSWITCH",
@@ -13374,7 +13404,8 @@ export const fakemons: Fakemon[] =
       "SWORDSDANCE",
       "THROATCHOP",
       "WILDCHARGE",
-      "WILLOWISP"
+      "WILLOWISP",
+      "TERABLAST"
     ],
     eggMoves: [
 
@@ -14308,7 +14339,8 @@ export const fakemons: Fakemon[] =
       "TWISTER",
       "UPROAR",
       "UTURN",
-      "WORKUP"
+      "WORKUP",
+      "TERABLAST"
     ],
     eggMoves: [
       "COVET",
@@ -16473,7 +16505,8 @@ export const fakemons: Fakemon[] =
       "SWAGGER",
       "TAUNT",
       "TORMENT",
-      "TWISTER"
+      "TWISTER",
+      "TERABLAST"
     ],
     eggMoves: [
       "BLOCK",
@@ -17034,7 +17067,8 @@ export const fakemons: Fakemon[] =
       "THIEF",
       "WATERPULSE",
       "WHIRLPOOL",
-      "XSCISSOR"
+      "XSCISSOR",
+      "TERABLAST"
     ],
     eggMoves: [
       "AGILITY",
@@ -17217,7 +17251,8 @@ export const fakemons: Fakemon[] =
       "THIEF",
       "WATERPULSE",
       "WHIRLPOOL",
-      "XSCISSOR"
+      "XSCISSOR",
+      "TERABLAST"
     ],
     eggMoves: [
 
@@ -18086,7 +18121,8 @@ export const fakemons: Fakemon[] =
       "SWORDSDANCE",
       "THIEF",
       "THUNDERPUNCH",
-      "UPROAR"
+      "UPROAR",
+      "TERABLAST"
     ],
     eggMoves: [
       "ANCIENTPOWER",
@@ -18275,7 +18311,8 @@ export const fakemons: Fakemon[] =
       "THIEF",
       "THROATCHOP",
       "THUNDERPUNCH",
-      "UPROAR"
+      "UPROAR",
+      "TERABLAST"
     ],
     eggMoves: [
 
@@ -18841,7 +18878,8 @@ export const fakemons: Fakemon[] =
       "WATERPULSE",
       "WHIRLPOOL",
       "WORKUP",
-      "ZENHEADBUTT"
+      "ZENHEADBUTT",
+      "TERABLAST"
     ],
     eggMoves: [
       "AMNESIA",
@@ -20003,7 +20041,8 @@ export const fakemons: Fakemon[] =
       "SWORDSDANCE",
       "SYNTHESIS",
       "THIEF",
-      "WORRYSEED"
+      "WORRYSEED",
+      "TERABLAST"
     ],
     eggMoves: [
       "AMNESIA",
@@ -20208,7 +20247,8 @@ export const fakemons: Fakemon[] =
       "UPROAR",
       "WATERPULSE",
       "WHIRLPOOL",
-      "WORKUP"
+      "WORKUP",
+      "TERABLAST"
     ],
     eggMoves: [
       "CIRCLETHROW",
@@ -20659,7 +20699,8 @@ export const fakemons: Fakemon[] =
       "THROATCHOP",
       "WATERFALL",
       "WATERPULSE",
-      "WHIRLPOOL"
+      "WHIRLPOOL",
+      "TERABLAST"
     ],
     eggMoves: [
       "ACUPRESSURE",
@@ -20812,7 +20853,8 @@ export const fakemons: Fakemon[] =
       "THROATCHOP",
       "WATERFALL",
       "WATERPULSE",
-      "WHIRLPOOL"
+      "WHIRLPOOL",
+      "TERABLAST"
     ],
     eggMoves: [
 
@@ -20970,7 +21012,8 @@ export const fakemons: Fakemon[] =
       "TWISTER",
       "WATERFALL",
       "WATERPULSE",
-      "WHIRLPOOL"
+      "WHIRLPOOL",
+      "TERABLAST"
     ],
     eggMoves: [
 
@@ -21149,7 +21192,8 @@ export const fakemons: Fakemon[] =
       "WATERFALL",
       "WATERPULSE",
       "WHIRLPOOL",
-      "WONDERROOM"
+      "WONDERROOM",
+      "TERABLAST"
     ],
     eggMoves: [
 
@@ -21372,7 +21416,8 @@ export const fakemons: Fakemon[] =
       "TRICKROOM",
       "UPROAR",
       "WONDERROOM",
-      "ZENHEADBUTT"
+      "ZENHEADBUTT",
+      "TERABLAST"
     ],
     eggMoves: [
       "CHARM",
@@ -21750,7 +21795,8 @@ export const fakemons: Fakemon[] =
       "UPROAR",
       "WATERPULSE",
       "WONDERROOM",
-      "ZENHEADBUTT"
+      "ZENHEADBUTT",
+      "TERABLAST"
     ],
     eggMoves: [
 
@@ -22274,7 +22320,8 @@ export const fakemons: Fakemon[] =
       "SWORDSDANCE",
       "THIEF",
       "THROATCHOP",
-      "XSCISSOR"
+      "XSCISSOR",
+      "TERABLAST"
     ],
     eggMoves: [
       "BUGBITE",
@@ -24055,7 +24102,8 @@ export const fakemons: Fakemon[] =
       "TOXICSPIKES",
       "WATERFALL",
       "WATERPULSE",
-      "WHIRLPOOL"
+      "WHIRLPOOL",
+      "TERABLAST"
     ],
     eggMoves: [
       "AURORABEAM",
@@ -24237,7 +24285,8 @@ export const fakemons: Fakemon[] =
       "TOXICSPIKES",
       "WATERFALL",
       "WATERPULSE",
-      "WHIRLPOOL"
+      "WHIRLPOOL",
+      "TERABLAST"
     ],
     eggMoves: [
 
@@ -24392,7 +24441,8 @@ export const fakemons: Fakemon[] =
       "THIEF",
       "WATERFALL",
       "WATERPULSE",
-      "WHIRLPOOL"
+      "WHIRLPOOL",
+      "TERABLAST"
     ],
     eggMoves: [
       "AURORABEAM",
@@ -24593,7 +24643,8 @@ export const fakemons: Fakemon[] =
       "WATERFALL",
       "WATERPULSE",
       "WHIRLPOOL",
-      "XSCISSOR"
+      "XSCISSOR",
+      "TERABLAST"
     ],
     eggMoves: [
 
@@ -24770,7 +24821,8 @@ export const fakemons: Fakemon[] =
       "THIEF",
       "THUNDERFANG",
       "TORMENT",
-      "TWISTER"
+      "TWISTER",
+      "TERABLAST"
     ],
     eggMoves: [
       "ASSURANCE",
@@ -29301,7 +29353,8 @@ export const fakemons: Fakemon[] =
       "THIEF",
       "THUNDERPUNCH",
       "UPROAR",
-      "UTURN"
+      "UTURN",
+      "TERABLAST"
     ],
     eggMoves: [
       "BUGBITE",
@@ -29478,7 +29531,8 @@ export const fakemons: Fakemon[] =
       "THIEF",
       "THUNDERPUNCH",
       "UPROAR",
-      "UTURN"
+      "UTURN",
+      "TERABLAST"
     ],
     eggMoves: [
 
@@ -30011,7 +30065,8 @@ export const fakemons: Fakemon[] =
       "VENOMDRENCH",
       "VENOSHOCK",
       "XSCISSOR",
-      "ZENHEADBUTT"
+      "ZENHEADBUTT",
+      "TERABLAST"
     ],
     eggMoves: [
 
@@ -31003,7 +31058,8 @@ export const fakemons: Fakemon[] =
       "UPROAR",
       "WATERPULSE",
       "WORKUP",
-      "ZENHEADBUTT"
+      "ZENHEADBUTT",
+      "TERABLAST"
     ],
     eggMoves: [
       "AERIALACE",
@@ -31216,7 +31272,8 @@ export const fakemons: Fakemon[] =
       "UPROAR",
       "WATERPULSE",
       "WORKUP",
-      "ZENHEADBUTT"
+      "ZENHEADBUTT",
+      "TERABLAST"
     ],
     eggMoves: [
 
@@ -31380,7 +31437,8 @@ export const fakemons: Fakemon[] =
       "TRICKROOM",
       "TWISTER",
       "UTURN",
-      "ZENHEADBUTT"
+      "ZENHEADBUTT",
+      "TERABLAST"
     ],
     eggMoves: [
       "ALLYSWITCH",
@@ -31566,7 +31624,8 @@ export const fakemons: Fakemon[] =
       "TRICKROOM",
       "TWISTER",
       "UTURN",
-      "ZENHEADBUTT"
+      "ZENHEADBUTT",
+      "TERABLAST"
     ],
     eggMoves: [
 
@@ -37050,7 +37109,8 @@ export const fakemons: Fakemon[] =
       "TAUNT",
       "THUNDERFANG",
       "TORMENT",
-      "TWISTER"
+      "TWISTER",
+      "TERABLAST"
     ],
     eggMoves: [
 
@@ -38043,7 +38103,8 @@ export const fakemons: Fakemon[] =
       "SUNNYDAY",
       "SWAGGER",
       "TOXIC",
-      "VENOSHOCK"
+      "VENOSHOCK",
+      "TERABLAST"
     ],
     eggMoves: [
       "ACID",
@@ -39690,7 +39751,8 @@ export const fakemons: Fakemon[] =
       "SWAGGER",
       "THROATCHOP",
       "WATERPULSE",
-      "WHIRLPOOL"
+      "WHIRLPOOL",
+      "TERABLAST"
     ],
     eggMoves: [
       "AMNESIA",
@@ -39850,7 +39912,8 @@ export const fakemons: Fakemon[] =
       "THUNDERWAVE",
       "WATERFALL",
       "WATERPULSE",
-      "WHIRLPOOL"
+      "WHIRLPOOL",
+      "TERABLAST"
     ],
     eggMoves: [
       "ACIDSPRAY",
@@ -40041,7 +40104,8 @@ export const fakemons: Fakemon[] =
       "THUNDERWAVE",
       "WATERFALL",
       "WATERPULSE",
-      "WHIRLPOOL"
+      "WHIRLPOOL",
+      "TERABLAST"
     ],
     eggMoves: [
 
@@ -40362,7 +40426,8 @@ export const fakemons: Fakemon[] =
       "TAILWIND",
       "WATERFALL",
       "WATERPULSE",
-      "WHIRLPOOL"
+      "WHIRLPOOL",
+      "TERABLAST"
     ],
     eggMoves: [
       "AMNESIA",
@@ -42327,7 +42392,8 @@ export const fakemons: Fakemon[] =
       "UPROAR",
       "WATERPULSE",
       "WONDERROOM",
-      "ZENHEADBUTT"
+      "ZENHEADBUTT",
+      "TERABLAST"
     ],
     eggMoves: [
       "FAKEOUT",
@@ -42858,7 +42924,8 @@ export const fakemons: Fakemon[] =
       "WATERPULSE",
       "WHIRLPOOL",
       "WORKUP",
-      "ZENHEADBUTT"
+      "ZENHEADBUTT",
+      "TERABLAST"
     ],
     eggMoves: [
       "BELCH",
@@ -44816,7 +44883,8 @@ export const fakemons: Fakemon[] =
       "WEATHERBALL",
       "WONDERROOM",
       "WORRYSEED",
-      "ZENHEADBUTT"
+      "ZENHEADBUTT",
+      "TERABLAST"
     ],
     eggMoves: [
 
@@ -47132,7 +47200,8 @@ export const fakemons: Fakemon[] =
       "TRICK",
       "WATERPULSE",
       "WHIRLPOOL",
-      "WORKUP"
+      "WORKUP",
+      "TERABLAST"
     ],
     eggMoves: [
       "CHARM",
@@ -47327,7 +47396,8 @@ export const fakemons: Fakemon[] =
       "TRICK",
       "WATERPULSE",
       "WHIRLPOOL",
-      "WORKUP"
+      "WORKUP",
+      "TERABLAST"
     ],
     eggMoves: [
 
@@ -47386,7 +47456,8 @@ export const fakemons: Fakemon[] =
       "BUGBITE",
       "ELECTROWEB",
       "SNORE",
-      "STRINGSHOT"
+      "STRINGSHOT",
+      "TERABLAST"
     ],
     eggMoves: [
 
@@ -47437,7 +47508,8 @@ export const fakemons: Fakemon[] =
       "BUGBITE",
       "ELECTROWEB",
       "IRONDEFENSE",
-      "STRINGSHOT"
+      "STRINGSHOT",
+      "TERABLAST"
     ],
     eggMoves: [
 
@@ -47604,7 +47676,8 @@ export const fakemons: Fakemon[] =
       "THIEF",
       "TWISTER",
       "UTURN",
-      "VENOSHOCK"
+      "VENOSHOCK",
+      "TERABLAST"
     ],
     eggMoves: [
 
@@ -47651,7 +47724,8 @@ export const fakemons: Fakemon[] =
       "BUGBITE",
       "ELECTROWEB",
       "IRONDEFENSE",
-      "STRINGSHOT"
+      "STRINGSHOT",
+      "TERABLAST"
     ],
     eggMoves: [
 
@@ -47820,7 +47894,8 @@ export const fakemons: Fakemon[] =
       "TOXIC",
       "TWISTER",
       "UTURN",
-      "VENOSHOCK"
+      "VENOSHOCK",
+      "TERABLAST"
     ],
     eggMoves: [
 
@@ -49113,7 +49188,8 @@ export const fakemons: Fakemon[] =
       "THIEF",
       "TWISTER",
       "UTURN",
-      "WORKUP"
+      "WORKUP",
+      "TERABLAST"
     ],
     eggMoves: [
       "BOOMBURST",
@@ -49279,7 +49355,8 @@ export const fakemons: Fakemon[] =
       "THIEF",
       "TWISTER",
       "UTURN",
-      "WORKUP"
+      "WORKUP",
+      "TERABLAST"
     ],
     eggMoves: [
 
@@ -51600,7 +51677,8 @@ export const fakemons: Fakemon[] =
       "SUBSTITUTE",
       "SUNNYDAY",
       "SWAGGER",
-      "XSCISSOR"
+      "XSCISSOR",
+      "TERABLAST"
     ],
     eggMoves: [
       "BUGBITE",
@@ -51786,7 +51864,8 @@ export const fakemons: Fakemon[] =
       "THIEF",
       "UPROAR",
       "UTURN",
-      "XSCISSOR"
+      "XSCISSOR",
+      "TERABLAST"
     ],
     eggMoves: [
 
@@ -51947,7 +52026,8 @@ export const fakemons: Fakemon[] =
       "THIEF",
       "TRICK",
       "WILLOWISP",
-      "XSCISSOR"
+      "XSCISSOR",
+      "TERABLAST"
     ],
     eggMoves: [
 
@@ -52090,7 +52170,8 @@ export const fakemons: Fakemon[] =
       "UPROAR",
       "WATERPULSE",
       "WORKUP",
-      "ZENHEADBUTT"
+      "ZENHEADBUTT",
+      "TERABLAST"
     ],
     eggMoves: [
       "CIRCLETHROW",
@@ -52264,7 +52345,8 @@ export const fakemons: Fakemon[] =
       "UPROAR",
       "WATERPULSE",
       "WORKUP",
-      "ZENHEADBUTT"
+      "ZENHEADBUTT",
+      "TERABLAST"
     ],
     eggMoves: [
 
@@ -52467,7 +52549,8 @@ export const fakemons: Fakemon[] =
       "WATERPULSE",
       "WHIRLPOOL",
       "WORKUP",
-      "ZENHEADBUTT"
+      "ZENHEADBUTT",
+      "TERABLAST"
     ],
     eggMoves: [
 
@@ -53350,7 +53433,8 @@ export const fakemons: Fakemon[] =
       "WATERPULSE",
       "WILDCHARGE",
       "WORKUP",
-      "ZENHEADBUTT"
+      "ZENHEADBUTT",
+      "TERABLAST"
     ],
     eggMoves: [
       "BATONPASS",
@@ -53540,7 +53624,8 @@ export const fakemons: Fakemon[] =
       "WATERPULSE",
       "WILDCHARGE",
       "WORKUP",
-      "ZENHEADBUTT"
+      "ZENHEADBUTT",
+      "TERABLAST"
     ],
     eggMoves: [
 
@@ -53968,7 +54053,8 @@ export const fakemons: Fakemon[] =
       "TAUNT",
       "THUNDERFANG",
       "THUNDERPUNCH",
-      "TORMENT"
+      "TORMENT",
+      "TERABLAST"
     ],
     eggMoves: [
       "ANCIENTPOWER",
@@ -54150,7 +54236,8 @@ export const fakemons: Fakemon[] =
       "SUPERPOWER",
       "SWAGGER",
       "UPROAR",
-      "WATERPULSE"
+      "WATERPULSE",
+      "TERABLAST"
     ],
     eggMoves: [
       "BODYSLAM",
@@ -54338,7 +54425,8 @@ export const fakemons: Fakemon[] =
       "SUPERPOWER",
       "SWAGGER",
       "UPROAR",
-      "WATERPULSE"
+      "WATERPULSE",
+      "TERABLAST"
     ],
     eggMoves: [
 
@@ -54564,7 +54652,8 @@ export const fakemons: Fakemon[] =
       "THUNDERWAVE",
       "UPROAR",
       "WATERPULSE",
-      "WHIRLPOOL"
+      "WHIRLPOOL",
+      "TERABLAST"
     ],
     eggMoves: [
 
@@ -55121,7 +55210,8 @@ export const fakemons: Fakemon[] =
       "THUNDERWAVE",
       "UPROAR",
       "VOLTSWITCH",
-      "WILDCHARGE"
+      "WILDCHARGE",
+      "TERABLAST"
     ],
     eggMoves: [
       "CRUNCH",
@@ -55296,7 +55386,8 @@ export const fakemons: Fakemon[] =
       "THUNDERWAVE",
       "UPROAR",
       "VOLTSWITCH",
-      "WILDCHARGE"
+      "WILDCHARGE",
+      "TERABLAST"
     ],
     eggMoves: [
 
@@ -56216,7 +56307,8 @@ export const fakemons: Fakemon[] =
       "UPROAR",
       "VENOSHOCK",
       "WEATHERBALL",
-      "WORRYSEED"
+      "WORRYSEED",
+      "TERABLAST"
     ],
     eggMoves: [
       "COTTONSPORE",
@@ -56749,7 +56841,8 @@ export const fakemons: Fakemon[] =
       "WATERFALL",
       "WATERPULSE",
       "WHIRLPOOL",
-      "ZENHEADBUTT"
+      "ZENHEADBUTT",
+      "TERABLAST"
     ],
     eggMoves: [
       "ANCIENTPOWER",
@@ -56930,7 +57023,8 @@ export const fakemons: Fakemon[] =
       "WATERFALL",
       "WATERPULSE",
       "WHIRLPOOL",
-      "ZENHEADBUTT"
+      "ZENHEADBUTT",
+      "TERABLAST"
     ],
     eggMoves: [
 
@@ -57088,7 +57182,8 @@ export const fakemons: Fakemon[] =
       "WATERPULSE",
       "WEATHERBALL",
       "WHIRLPOOL",
-      "ZENHEADBUTT"
+      "ZENHEADBUTT",
+      "TERABLAST"
     ],
     eggMoves: [
       "AQUARING",
@@ -57275,7 +57370,8 @@ export const fakemons: Fakemon[] =
       "WATERPULSE",
       "WEATHERBALL",
       "WHIRLPOOL",
-      "ZENHEADBUTT"
+      "ZENHEADBUTT",
+      "TERABLAST"
     ],
     eggMoves: [
 
@@ -58398,7 +58494,8 @@ export const fakemons: Fakemon[] =
       "WATERPULSE",
       "WILDCHARGE",
       "WORKUP",
-      "ZENHEADBUTT"
+      "ZENHEADBUTT",
+      "TERABLAST"
     ],
     eggMoves: [
       "BATONPASS",
@@ -60403,7 +60500,8 @@ export const fakemons: Fakemon[] =
       "TELEKINESIS",
       "TRICKROOM",
       "WEATHERBALL",
-      "ZENHEADBUTT"
+      "ZENHEADBUTT",
+      "TERABLAST"
     ],
     eggMoves: [
 
@@ -60596,7 +60694,8 @@ export const fakemons: Fakemon[] =
       "WEATHERBALL",
       "WILLOWISP",
       "WONDERROOM",
-      "ZENHEADBUTT"
+      "ZENHEADBUTT",
+      "TERABLAST"
     ],
     eggMoves: [
 
@@ -61464,7 +61563,8 @@ export const fakemons: Fakemon[] =
       "TRICK",
       "TRICKROOM",
       "WONDERROOM",
-      "ZENHEADBUTT"
+      "ZENHEADBUTT",
+      "TERABLAST"
     ],
     eggMoves: [
 
@@ -61667,7 +61767,8 @@ export const fakemons: Fakemon[] =
       "TRICK",
       "TRICKROOM",
       "WONDERROOM",
-      "ZENHEADBUTT"
+      "ZENHEADBUTT",
+      "TERABLAST"
     ],
     eggMoves: [
 
@@ -61819,7 +61920,8 @@ export const fakemons: Fakemon[] =
       "SWAGGER",
       "SWORDSDANCE",
       "SYNTHESIS",
-      "WORRYSEED"
+      "WORRYSEED",
+      "TERABLAST"
     ],
     eggMoves: [
       "BIND",
@@ -61997,7 +62099,8 @@ export const fakemons: Fakemon[] =
       "SWAGGER",
       "SWORDSDANCE",
       "SYNTHESIS",
-      "WORRYSEED"
+      "WORRYSEED",
+      "TERABLAST"
     ],
     eggMoves: [
 
@@ -62143,7 +62246,8 @@ export const fakemons: Fakemon[] =
       "SWAGGER",
       "SWORDSDANCE",
       "WATERPULSE",
-      "XSCISSOR"
+      "XSCISSOR",
+      "TERABLAST"
     ],
     eggMoves: [
       "AQUAJET",
@@ -62318,7 +62422,8 @@ export const fakemons: Fakemon[] =
       "SWAGGER",
       "SWORDSDANCE",
       "WATERPULSE",
-      "XSCISSOR"
+      "XSCISSOR",
+      "TERABLAST"
     ],
     eggMoves: [
 
@@ -62751,7 +62856,8 @@ export const fakemons: Fakemon[] =
       "THUNDERBOLT",
       "THUNDERWAVE",
       "WATERPULSE",
-      "WORKUP"
+      "WORKUP",
+      "TERABLAST"
     ],
     eggMoves: [
       "AMNESIA",
@@ -62965,7 +63071,8 @@ export const fakemons: Fakemon[] =
       "TRICKROOM",
       "WATERPULSE",
       "WONDERROOM",
-      "WORKUP"
+      "WORKUP",
+      "TERABLAST"
     ],
     eggMoves: [
       "DISABLE",
@@ -64253,7 +64360,8 @@ export const fakemons: Fakemon[] =
       "WATERPULSE",
       "WILLOWISP",
       "XSCISSOR",
-      "ZENHEADBUTT"
+      "ZENHEADBUTT",
+      "TERABLAST"
     ],
     eggMoves: [
       "ASSURANCE",
@@ -64835,7 +64943,8 @@ export const fakemons: Fakemon[] =
       "SWAGGER",
       "WATERFALL",
       "WATERPULSE",
-      "WHIRLPOOL"
+      "WHIRLPOOL",
+      "TERABLAST"
     ],
     eggMoves: [
       "AQUARING",
@@ -65006,7 +65115,8 @@ export const fakemons: Fakemon[] =
       "SWAGGER",
       "WATERFALL",
       "WATERPULSE",
-      "WHIRLPOOL"
+      "WHIRLPOOL",
+      "TERABLAST"
     ],
     eggMoves: [
 
@@ -65190,7 +65300,8 @@ export const fakemons: Fakemon[] =
       "SWORDSDANCE",
       "WATERFALL",
       "WATERPULSE",
-      "WHIRLPOOL"
+      "WHIRLPOOL",
+      "TERABLAST"
     ],
     eggMoves: [
 
@@ -65279,7 +65390,8 @@ export const fakemons: Fakemon[] =
       "SWAGGER",
       "WATERFALL",
       "WATERPULSE",
-      "WHIRLPOOL"
+      "WHIRLPOOL",
+      "TERABLAST"
     ],
     eggMoves: [
       "AQUARING",
@@ -65443,7 +65555,8 @@ export const fakemons: Fakemon[] =
       "SWIFT",
       "WATERFALL",
       "WATERPULSE",
-      "WHIRLPOOL"
+      "WHIRLPOOL",
+      "TERABLAST"
     ],
     eggMoves: [
 
@@ -65600,7 +65713,8 @@ export const fakemons: Fakemon[] =
       "SWIFT",
       "WATERFALL",
       "WATERPULSE",
-      "WHIRLPOOL"
+      "WHIRLPOOL",
+      "TERABLAST"
     ],
     eggMoves: [
 
@@ -65759,7 +65873,8 @@ export const fakemons: Fakemon[] =
       "WATERFALL",
       "WATERPULSE",
       "WHIRLPOOL",
-      "ZENHEADBUTT"
+      "ZENHEADBUTT",
+      "TERABLAST"
     ],
     eggMoves: [
       "AMNESIA",
@@ -71018,7 +71133,8 @@ export const fakemons: Fakemon[] =
       "THUNDER",
       "THUNDERBOLT",
       "THUNDERWAVE",
-      "WORKUP"
+      "WORKUP",
+      "TERABLAST"
     ],
     eggMoves: [
       "AQUATAIL",
@@ -71201,7 +71317,8 @@ export const fakemons: Fakemon[] =
       "WATERFALL",
       "WATERPULSE",
       "WHIRLPOOL",
-      "WORKUP"
+      "WORKUP",
+      "TERABLAST"
     ],
     eggMoves: [
 
@@ -72032,7 +72149,8 @@ export const fakemons: Fakemon[] =
       "UPROAR",
       "VENOSHOCK",
       "WEATHERBALL",
-      "WORRYSEED"
+      "WORRYSEED",
+      "TERABLAST"
     ],
     eggMoves: [
       "COTTONSPORE",
@@ -72220,7 +72338,8 @@ export const fakemons: Fakemon[] =
       "VENOMDRENCH",
       "VENOSHOCK",
       "WEATHERBALL",
-      "WORRYSEED"
+      "WORRYSEED",
+      "TERABLAST"
     ],
     eggMoves: [
 
@@ -72980,7 +73099,8 @@ export const fakemons: Fakemon[] =
       "HIDDENPOWER",
       "PROTECT",
       "SNORE",
-      "STRINGSHOT"
+      "STRINGSHOT",
+      "TERABLAST"
     ],
     eggMoves: [
 
@@ -73149,7 +73269,8 @@ export const fakemons: Fakemon[] =
       "THIEF",
       "UPROAR",
       "VENOSHOCK",
-      "WORRYSEED"
+      "WORRYSEED",
+      "TERABLAST"
     ],
     eggMoves: [
 
@@ -73311,7 +73432,8 @@ export const fakemons: Fakemon[] =
       "THIEF",
       "TWISTER",
       "UTURN",
-      "VENOSHOCK"
+      "VENOSHOCK",
+      "TERABLAST"
     ],
     eggMoves: [
 
@@ -74232,7 +74354,8 @@ export const fakemons: Fakemon[] =
       "SWORDSDANCE",
       "SYNTHESIS",
       "WEATHERBALL",
-      "WORRYSEED"
+      "WORRYSEED",
+      "TERABLAST"
     ],
     eggMoves: [
       "AROMATHERAPY",
@@ -74389,7 +74512,8 @@ export const fakemons: Fakemon[] =
       "SWORDSDANCE",
       "SYNTHESIS",
       "WEATHERBALL",
-      "WORRYSEED"
+      "WORRYSEED",
+      "TERABLAST"
     ],
     eggMoves: [
 
@@ -75443,7 +75567,8 @@ export const fakemons: Fakemon[] =
       "TRIPLEAXEL",
       "UPROAR",
       "WATERPULSE",
-      "WORKUP"
+      "WORKUP",
+      "TERABLAST"
     ],
     eggMoves: [
       "CIRCLETHROW",
@@ -75655,7 +75780,8 @@ export const fakemons: Fakemon[] =
       "UPROAR",
       "UTURN",
       "WATERPULSE",
-      "WORKUP"
+      "WORKUP",
+      "TERABLAST"
     ],
     eggMoves: [
 
@@ -76129,7 +76255,8 @@ export const fakemons: Fakemon[] =
       "TORMENT",
       "UTURN",
       "WATERPULSE",
-      "WORKUP"
+      "WORKUP",
+      "TERABLAST"
     ],
     eggMoves: [
       "ASSURANCE",
@@ -76314,7 +76441,8 @@ export const fakemons: Fakemon[] =
       "TORMENT",
       "UTURN",
       "WATERPULSE",
-      "WORKUP"
+      "WORKUP",
+      "TERABLAST"
     ],
     eggMoves: [
 
@@ -77570,7 +77698,8 @@ export const fakemons: Fakemon[] =
       "TRICK",
       "TRICKROOM",
       "UPROAR",
-      "WONDERROOM"
+      "WONDERROOM",
+      "TERABLAST"
     ],
     eggMoves: [
       "CHARM",
@@ -77878,7 +78007,8 @@ export const fakemons: Fakemon[] =
       "TWISTER",
       "UPROAR",
       "UTURN",
-      "WORKUP"
+      "WORKUP",
+      "TERABLAST"
     ],
     eggMoves: [
       "AGILITY",
@@ -79715,7 +79845,8 @@ export const fakemons: Fakemon[] =
       "TOXIC",
       "TOXICSPIKES",
       "VENOSHOCK",
-      "XSCISSOR"
+      "XSCISSOR",
+      "TERABLAST"
     ],
     eggMoves: [
       "AGILITY",
@@ -79934,7 +80065,8 @@ export const fakemons: Fakemon[] =
       "TOXICSPIKES",
       "VENOMDRENCH",
       "VENOSHOCK",
-      "XSCISSOR"
+      "XSCISSOR",
+      "TERABLAST"
     ],
     eggMoves: [
 
@@ -80474,7 +80606,8 @@ export const fakemons: Fakemon[] =
       "SYNTHESIS",
       "THIEF",
       "THROATCHOP",
-      "WORRYSEED"
+      "WORRYSEED",
+      "TERABLAST"
     ],
     eggMoves: [
       "ACIDSPRAY",
@@ -80944,7 +81077,8 @@ export const fakemons: Fakemon[] =
       "TAILWIND",
       "WATERFALL",
       "WATERPULSE",
-      "WHIRLPOOL"
+      "WHIRLPOOL",
+      "TERABLAST"
     ],
     eggMoves: [
       "AMNESIA",
@@ -81869,7 +82003,8 @@ export const fakemons: Fakemon[] =
       "WATERPULSE",
       "WHIRLPOOL",
       "WORKUP",
-      "ZENHEADBUTT"
+      "ZENHEADBUTT",
+      "TERABLAST"
     ],
     eggMoves: [
 
@@ -82269,7 +82404,8 @@ export const fakemons: Fakemon[] =
       "SWORDSDANCE",
       "SYNTHESIS",
       "THIEF",
-      "WORRYSEED"
+      "WORRYSEED",
+      "TERABLAST"
     ],
     eggMoves: [
 
@@ -82876,7 +83012,8 @@ export const fakemons: Fakemon[] =
       "UPROAR",
       "WATERPULSE",
       "WORKUP",
-      "ZENHEADBUTT"
+      "ZENHEADBUTT",
+      "TERABLAST"
     ],
     eggMoves: [
 
@@ -87897,7 +88034,8 @@ export const fakemons: Fakemon[] =
       "WILDCHARGE",
       "WILLOWISP",
       "WORKUP",
-      "ZENHEADBUTT"
+      "ZENHEADBUTT",
+      "TERABLAST"
     ],
     eggMoves: [
 
@@ -89620,7 +89758,8 @@ export const fakemons: Fakemon[] =
       "THUNDERBOLT",
       "TOXIC",
       "WORKUP",
-      "ZENHEADBUTT"
+      "ZENHEADBUTT",
+      "TERABLAST"
     ],
     eggMoves: [
       "ASSURANCE",
@@ -89825,7 +89964,8 @@ export const fakemons: Fakemon[] =
       "THUNDERWAVE",
       "TOXIC",
       "WORKUP",
-      "ZENHEADBUTT"
+      "ZENHEADBUTT",
+      "TERABLAST"
     ],
     eggMoves: [
 
@@ -89972,7 +90112,8 @@ export const fakemons: Fakemon[] =
       "TOXIC",
       "UPROAR",
       "WILDCHARGE",
-      "WORKUP"
+      "WORKUP",
+      "TERABLAST"
     ],
     eggMoves: [
       "AFTERYOU",
@@ -90130,7 +90271,8 @@ export const fakemons: Fakemon[] =
       "TOXIC",
       "UPROAR",
       "WILDCHARGE",
-      "WORKUP"
+      "WORKUP",
+      "TERABLAST"
     ],
     eggMoves: [
 
@@ -90300,7 +90442,8 @@ export const fakemons: Fakemon[] =
       "TOXIC",
       "UPROAR",
       "WILDCHARGE",
-      "WORKUP"
+      "WORKUP",
+      "TERABLAST"
     ],
     eggMoves: [
 
@@ -90450,7 +90593,8 @@ export const fakemons: Fakemon[] =
       "TORMENT",
       "TOXIC",
       "TRICK",
-      "UTURN"
+      "UTURN",
+      "TERABLAST"
     ],
     eggMoves: [
       "COPYCAT",
@@ -90617,7 +90761,8 @@ export const fakemons: Fakemon[] =
       "TORMENT",
       "TOXIC",
       "TRICK",
-      "UTURN"
+      "UTURN",
+      "TERABLAST"
     ],
     eggMoves: [
 
@@ -90777,7 +90922,8 @@ export const fakemons: Fakemon[] =
       "TOXIC",
       "UPROAR",
       "WORKUP",
-      "WORRYSEED"
+      "WORRYSEED",
+      "TERABLAST"
     ],
     eggMoves: [
       "ASTONISH",
@@ -90912,7 +91058,8 @@ export const fakemons: Fakemon[] =
       "TOXIC",
       "UPROAR",
       "WORKUP",
-      "WORRYSEED"
+      "WORRYSEED",
+      "TERABLAST"
     ],
     eggMoves: [
 
@@ -91073,7 +91220,8 @@ export const fakemons: Fakemon[] =
       "TOXIC",
       "UPROAR",
       "WILLOWISP",
-      "WORKUP"
+      "WORKUP",
+      "TERABLAST"
     ],
     eggMoves: [
       "ASTONISH",
@@ -91210,7 +91358,8 @@ export const fakemons: Fakemon[] =
       "TOXIC",
       "UPROAR",
       "WILLOWISP",
-      "WORKUP"
+      "WORKUP",
+      "TERABLAST"
     ],
     eggMoves: [
 
@@ -91373,7 +91522,8 @@ export const fakemons: Fakemon[] =
       "WATERFALL",
       "WATERPLEDGE",
       "WATERPULSE",
-      "WORKUP"
+      "WORKUP",
+      "TERABLAST"
     ],
     eggMoves: [
       "AQUARING",
@@ -91510,7 +91660,8 @@ export const fakemons: Fakemon[] =
       "WATERFALL",
       "WATERPLEDGE",
       "WATERPULSE",
-      "WORKUP"
+      "WORKUP",
+      "TERABLAST"
     ],
     eggMoves: [
 
@@ -91673,7 +91824,8 @@ export const fakemons: Fakemon[] =
       "TRICKROOM",
       "WONDERROOM",
       "WORRYSEED",
-      "ZENHEADBUTT"
+      "ZENHEADBUTT",
+      "TERABLAST"
     ],
     eggMoves: [
       "CURSE",
@@ -91849,7 +92001,8 @@ export const fakemons: Fakemon[] =
       "TRICKROOM",
       "WONDERROOM",
       "WORRYSEED",
-      "ZENHEADBUTT"
+      "ZENHEADBUTT",
+      "TERABLAST"
     ],
     eggMoves: [
 
@@ -91983,7 +92136,8 @@ export const fakemons: Fakemon[] =
       "TOXIC",
       "UPROAR",
       "UTURN",
-      "WORKUP"
+      "WORKUP",
+      "TERABLAST"
     ],
     eggMoves: [
       "DEFOG",
@@ -92125,7 +92279,8 @@ export const fakemons: Fakemon[] =
       "TOXIC",
       "UPROAR",
       "UTURN",
-      "WORKUP"
+      "WORKUP",
+      "TERABLAST"
     ],
     eggMoves: [
 
@@ -92268,7 +92423,8 @@ export const fakemons: Fakemon[] =
       "TOXIC",
       "UPROAR",
       "UTURN",
-      "WORKUP"
+      "WORKUP",
+      "TERABLAST"
     ],
     eggMoves: [
 
@@ -92711,7 +92867,8 @@ export const fakemons: Fakemon[] =
       "STRENGTH",
       "SUBSTITUTE",
       "SWAGGER",
-      "TOXIC"
+      "TOXIC",
+      "TERABLAST"
     ],
     eggMoves: [
       "AUTOTOMIZE",
@@ -92860,7 +93017,8 @@ export const fakemons: Fakemon[] =
       "STRENGTH",
       "SUBSTITUTE",
       "SWAGGER",
-      "TOXIC"
+      "TOXIC",
+      "TERABLAST"
     ],
     eggMoves: [
 
@@ -93010,7 +93168,8 @@ export const fakemons: Fakemon[] =
       "SWAGGER",
       "THROATCHOP",
       "TOXIC",
-      "WEATHERBALL"
+      "WEATHERBALL",
+      "TERABLAST"
     ],
     eggMoves: [
 
@@ -93184,7 +93343,8 @@ export const fakemons: Fakemon[] =
       "UPROAR",
       "UTURN",
       "VENOMDRENCH",
-      "ZENHEADBUTT"
+      "ZENHEADBUTT",
+      "TERABLAST"
     ],
     eggMoves: [
       "FLATTER",
@@ -93367,7 +93527,8 @@ export const fakemons: Fakemon[] =
       "UPROAR",
       "UTURN",
       "VENOMDRENCH",
-      "ZENHEADBUTT"
+      "ZENHEADBUTT",
+      "TERABLAST"
     ],
     eggMoves: [
 
@@ -93889,7 +94050,8 @@ export const fakemons: Fakemon[] =
       "UPROAR",
       "WILDCHARGE",
       "WORKUP",
-      "ZENHEADBUTT"
+      "ZENHEADBUTT",
+      "TERABLAST"
     ],
     eggMoves: [
       "HEALINGWISH",
@@ -94530,7 +94692,8 @@ export const fakemons: Fakemon[] =
       "UPROAR",
       "VENOMDRENCH",
       "WATERPULSE",
-      "WEATHERBALL"
+      "WEATHERBALL",
+      "TERABLAST"
     ],
     eggMoves: [
       "MIST",
@@ -94682,7 +94845,8 @@ export const fakemons: Fakemon[] =
       "UPROAR",
       "VENOMDRENCH",
       "WATERPULSE",
-      "WEATHERBALL"
+      "WEATHERBALL",
+      "TERABLAST"
     ],
     eggMoves: [
 
@@ -94863,7 +95027,8 @@ export const fakemons: Fakemon[] =
       "VENOMDRENCH",
       "VENOSHOCK",
       "WATERPULSE",
-      "WEATHERBALL"
+      "WEATHERBALL",
+      "TERABLAST"
     ],
     eggMoves: [
 
@@ -95020,7 +95185,8 @@ export const fakemons: Fakemon[] =
       "THUNDERPUNCH",
       "TOXIC",
       "WORKUP",
-      "ZENHEADBUTT"
+      "ZENHEADBUTT",
+      "TERABLAST"
     ],
     eggMoves: [
 
@@ -95177,7 +95343,8 @@ export const fakemons: Fakemon[] =
       "THUNDERPUNCH",
       "TOXIC",
       "WORKUP",
-      "ZENHEADBUTT"
+      "ZENHEADBUTT",
+      "TERABLAST"
     ],
     eggMoves: [
 
@@ -95767,7 +95934,8 @@ export const fakemons: Fakemon[] =
       "TOXIC",
       "TOXICSPIKES",
       "VENOMDRENCH",
-      "VENOSHOCK"
+      "VENOSHOCK",
+      "TERABLAST"
     ],
     eggMoves: [
       "BITE",
@@ -95912,7 +96080,8 @@ export const fakemons: Fakemon[] =
       "TOXIC",
       "TOXICSPIKES",
       "VENOMDRENCH",
-      "VENOSHOCK"
+      "VENOSHOCK",
+      "TERABLAST"
     ],
     eggMoves: [
 
@@ -96086,7 +96255,8 @@ export const fakemons: Fakemon[] =
       "TOXICSPIKES",
       "VENOMDRENCH",
       "VENOSHOCK",
-      "XSCISSOR"
+      "XSCISSOR",
+      "TERABLAST"
     ],
     eggMoves: [
 
@@ -97663,7 +97833,8 @@ export const fakemons: Fakemon[] =
       "UTURN",
       "WILLOWISP",
       "WORKUP",
-      "ZENHEADBUTT"
+      "ZENHEADBUTT",
+      "TERABLAST"
     ],
     eggMoves: [
       "EXTRASENSORY",
@@ -97854,7 +98025,8 @@ export const fakemons: Fakemon[] =
       "UTURN",
       "WILLOWISP",
       "WORKUP",
-      "ZENHEADBUTT"
+      "ZENHEADBUTT",
+      "TERABLAST"
     ],
     eggMoves: [
 
@@ -98025,7 +98197,8 @@ export const fakemons: Fakemon[] =
       "TOXIC",
       "UPROAR",
       "WEATHERBALL",
-      "WORRYSEED"
+      "WORRYSEED",
+      "TERABLAST"
     ],
     eggMoves: [
       "WOODHAMMER",
@@ -98173,7 +98346,8 @@ export const fakemons: Fakemon[] =
       "SWAGGER",
       "SWORDSDANCE",
       "TOXIC",
-      "XSCISSOR"
+      "XSCISSOR",
+      "TERABLAST"
     ],
     eggMoves: [
       "BLOCK",
@@ -98336,7 +98510,8 @@ export const fakemons: Fakemon[] =
       "SWAGGER",
       "SWORDSDANCE",
       "TOXIC",
-      "XSCISSOR"
+      "XSCISSOR",
+      "TERABLAST"
     ],
     eggMoves: [
 
@@ -98910,7 +99085,8 @@ export const fakemons: Fakemon[] =
       "TOXIC",
       "TRICK",
       "TRICKROOM",
-      "ZENHEADBUTT"
+      "ZENHEADBUTT",
+      "TERABLAST"
     ],
     eggMoves: [
       "ANCIENTPOWER",
@@ -99073,7 +99249,8 @@ export const fakemons: Fakemon[] =
       "TRICKROOM",
       "WILLOWISP",
       "WONDERROOM",
-      "ZENHEADBUTT"
+      "ZENHEADBUTT",
+      "TERABLAST"
     ],
     eggMoves: [
       "MEMENTO"
@@ -99256,7 +99433,8 @@ export const fakemons: Fakemon[] =
       "TRICKROOM",
       "WILLOWISP",
       "WONDERROOM",
-      "ZENHEADBUTT"
+      "ZENHEADBUTT",
+      "TERABLAST"
     ],
     eggMoves: [
 
@@ -99424,7 +99602,8 @@ export const fakemons: Fakemon[] =
       "WATERFALL",
       "WATERPULSE",
       "WHIRLPOOL",
-      "ZENHEADBUTT"
+      "ZENHEADBUTT",
+      "TERABLAST"
     ],
     eggMoves: [
       "BLOCK",
@@ -99608,7 +99787,8 @@ export const fakemons: Fakemon[] =
       "WATERFALL",
       "WATERPULSE",
       "WHIRLPOOL",
-      "ZENHEADBUTT"
+      "ZENHEADBUTT",
+      "TERABLAST"
     ],
     eggMoves: [
 
@@ -99783,7 +99963,8 @@ export const fakemons: Fakemon[] =
       "TOXIC",
       "UPROAR",
       "UTURN",
-      "ZENHEADBUTT"
+      "ZENHEADBUTT",
+      "TERABLAST"
     ],
     eggMoves: [
       "BITE",
@@ -99975,7 +100156,8 @@ export const fakemons: Fakemon[] =
       "TOXIC",
       "UPROAR",
       "UTURN",
-      "ZENHEADBUTT"
+      "ZENHEADBUTT",
+      "TERABLAST"
     ],
     eggMoves: [
 
@@ -100127,7 +100309,8 @@ export const fakemons: Fakemon[] =
       "TOXIC",
       "TOXICSPIKES",
       "VENOMDRENCH",
-      "VENOSHOCK"
+      "VENOSHOCK",
+      "TERABLAST"
     ],
     eggMoves: [
       "AUTOTOMIZE",
@@ -100309,7 +100492,8 @@ export const fakemons: Fakemon[] =
       "TOXIC",
       "TOXICSPIKES",
       "VENOMDRENCH",
-      "VENOSHOCK"
+      "VENOSHOCK",
+      "TERABLAST"
     ],
     eggMoves: [
 
@@ -102546,7 +102730,8 @@ export const fakemons: Fakemon[] =
       "TAUNT",
       "TOXIC",
       "UPROAR",
-      "WATERPULSE"
+      "WATERPULSE",
+      "TERABLAST"
     ],
     eggMoves: [
       "AURORAVEIL",
@@ -102694,7 +102879,8 @@ export const fakemons: Fakemon[] =
       "TAUNT",
       "TOXIC",
       "UPROAR",
-      "WATERPULSE"
+      "WATERPULSE",
+      "TERABLAST"
     ],
     eggMoves: [
 
@@ -102853,7 +103039,8 @@ export const fakemons: Fakemon[] =
       "TOXIC",
       "UPROAR",
       "WATERPULSE",
-      "WEATHERBALL"
+      "WEATHERBALL",
+      "TERABLAST"
     ],
     eggMoves: [
 
@@ -103334,7 +103521,8 @@ export const fakemons: Fakemon[] =
       "TOXIC",
       "UTURN",
       "VOLTSWITCH",
-      "WILDCHARGE"
+      "WILDCHARGE",
+      "TERABLAST"
     ],
     eggMoves: [
       "ASTONISH",
@@ -103476,7 +103664,8 @@ export const fakemons: Fakemon[] =
       "SWAGGER",
       "SWORDSDANCE",
       "TOXIC",
-      "XSCISSOR"
+      "XSCISSOR",
+      "TERABLAST"
     ],
     eggMoves: [
       "BUGBITE",
@@ -103665,7 +103854,8 @@ export const fakemons: Fakemon[] =
       "SWORDSDANCE",
       "TAUNT",
       "TOXIC",
-      "XSCISSOR"
+      "XSCISSOR",
+      "TERABLAST"
     ],
     eggMoves: [
 
@@ -104111,7 +104301,8 @@ export const fakemons: Fakemon[] =
       "WATERFALL",
       "WATERPULSE",
       "WHIRLPOOL",
-      "WILLOWISP"
+      "WILLOWISP",
+      "TERABLAST"
     ],
     eggMoves: [
       "ACIDARMOR",
@@ -104281,7 +104472,8 @@ export const fakemons: Fakemon[] =
       "WATERFALL",
       "WATERPULSE",
       "WHIRLPOOL",
-      "WILLOWISP"
+      "WILLOWISP",
+      "TERABLAST"
     ],
     eggMoves: [
 
@@ -104911,7 +105103,8 @@ export const fakemons: Fakemon[] =
       "THUNDERBOLT",
       "THUNDERWAVE",
       "TOXIC",
-      "WORRYSEED"
+      "WORRYSEED",
+      "TERABLAST"
     ],
     eggMoves: [
       "ACIDSPRAY",
@@ -105080,7 +105273,8 @@ export const fakemons: Fakemon[] =
       "THUNDERBOLT",
       "THUNDERWAVE",
       "TOXIC",
-      "WORRYSEED"
+      "WORRYSEED",
+      "TERABLAST"
     ],
     eggMoves: [
 
@@ -105220,7 +105414,8 @@ export const fakemons: Fakemon[] =
       "TOXIC",
       "UPROAR",
       "VOLTSWITCH",
-      "WILDCHARGE"
+      "WILDCHARGE",
+      "TERABLAST"
     ],
     eggMoves: [
 
@@ -105365,7 +105560,8 @@ export const fakemons: Fakemon[] =
       "TOXIC",
       "UPROAR",
       "VOLTSWITCH",
-      "WILDCHARGE"
+      "WILDCHARGE",
+      "TERABLAST"
     ],
     eggMoves: [
 
@@ -105526,7 +105722,8 @@ export const fakemons: Fakemon[] =
       "TRICKROOM",
       "UPROAR",
       "VOLTSWITCH",
-      "WILDCHARGE"
+      "WILDCHARGE",
+      "TERABLAST"
     ],
     eggMoves: [
 
@@ -106080,7 +106277,8 @@ export const fakemons: Fakemon[] =
       "TRICKROOM",
       "UPROAR",
       "WONDERROOM",
-      "ZENHEADBUTT"
+      "ZENHEADBUTT",
+      "TERABLAST"
     ],
     eggMoves: [
       "ASTONISH",
@@ -106258,7 +106456,8 @@ export const fakemons: Fakemon[] =
       "TRICKROOM",
       "UPROAR",
       "WONDERROOM",
-      "ZENHEADBUTT"
+      "ZENHEADBUTT",
+      "TERABLAST"
     ],
     eggMoves: [
 
@@ -108050,7 +108249,8 @@ export const fakemons: Fakemon[] =
       "SWAGGER",
       "TOXIC",
       "TOXICSPIKES",
-      "VENOSHOCK"
+      "VENOSHOCK",
+      "TERABLAST"
     ],
     eggMoves: [
       "DOUBLEEDGE",
@@ -108238,7 +108438,8 @@ export const fakemons: Fakemon[] =
       "TOXICSPIKES",
       "UTURN",
       "VENOMDRENCH",
-      "VENOSHOCK"
+      "VENOSHOCK",
+      "TERABLAST"
     ],
     eggMoves: [
 
@@ -108397,7 +108598,8 @@ export const fakemons: Fakemon[] =
       "THUNDERWAVE",
       "TOXIC",
       "UPROAR",
-      "WATERPULSE"
+      "WATERPULSE",
+      "TERABLAST"
     ],
     eggMoves: [
       "ASTONISH",
@@ -108923,7 +109125,8 @@ export const fakemons: Fakemon[] =
       "THUNDERFANG",
       "THUNDERPUNCH",
       "TORMENT",
-      "TOXIC"
+      "TOXIC",
+      "TERABLAST"
     ],
     eggMoves: [
       "GLARE",
@@ -109848,7 +110051,8 @@ export const fakemons: Fakemon[] =
       "UPROAR",
       "WILDCHARGE",
       "WORKUP",
-      "ZENHEADBUTT"
+      "ZENHEADBUTT",
+      "TERABLAST"
     ],
     eggMoves: [
       "BELCH",
@@ -110703,7 +110907,8 @@ export const fakemons: Fakemon[] =
       "THROATCHOP",
       "THUNDERPUNCH",
       "TOXIC",
-      "WILLOWISP"
+      "WILLOWISP",
+      "TERABLAST"
     ],
     eggMoves: [
       "BELCH",
@@ -110866,7 +111071,8 @@ export const fakemons: Fakemon[] =
       "THUNDERFANG",
       "THUNDERWAVE",
       "TOXIC",
-      "XSCISSOR"
+      "XSCISSOR",
+      "TERABLAST"
     ],
     eggMoves: [
       "FIRSTIMPRESSION",
@@ -113954,7 +114160,8 @@ export const fakemons: Fakemon[] =
       "TRIATTACK",
       "UTURN",
       "XSCISSOR",
-      "ZENHEADBUTT"
+      "ZENHEADBUTT",
+      "TERABLAST"
     ],
     eggMoves: [
 
@@ -115780,7 +115987,8 @@ export const fakemons: Fakemon[] =
       "TOXIC",
       "UTURN",
       "WILDCHARGE",
-      "WORKUP"
+      "WORKUP",
+      "TERABLAST"
     ],
     eggMoves: [
       "DEFENSECURL",
@@ -115969,7 +116177,8 @@ export const fakemons: Fakemon[] =
       "UPROAR",
       "UTURN",
       "WILDCHARGE",
-      "WORKUP"
+      "WORKUP",
+      "TERABLAST"
     ],
     eggMoves: [
 
@@ -118034,7 +118243,8 @@ export const fakemons: Fakemon[] =
       "TOXIC",
       "UPROAR",
       "WORKUP",
-      "ZENHEADBUTT"
+      "ZENHEADBUTT",
+      "TERABLAST"
     ],
     eggMoves: [
       "POWERTRIP",
@@ -118248,7 +118458,8 @@ export const fakemons: Fakemon[] =
       "UPROAR",
       "WORKUP",
       "XSCISSOR",
-      "ZENHEADBUTT"
+      "ZENHEADBUTT",
+      "TERABLAST"
     ],
     eggMoves: [
 
@@ -118385,7 +118596,8 @@ export const fakemons: Fakemon[] =
       "UTURN",
       "WILDCHARGE",
       "WORKUP",
-      "ZENHEADBUTT"
+      "ZENHEADBUTT",
+      "TERABLAST"
     ],
     eggMoves: [
       "CAPTIVATE",
@@ -118887,7 +119099,8 @@ export const fakemons: Fakemon[] =
       "SUBSTITUTE",
       "SWAGGER",
       "SWORDSDANCE",
-      "TOXIC"
+      "TOXIC",
+      "TERABLAST"
     ],
     eggMoves: [
       "BLOCK",
@@ -119036,7 +119249,8 @@ export const fakemons: Fakemon[] =
       "SUBSTITUTE",
       "SWAGGER",
       "SWORDSDANCE",
-      "TOXIC"
+      "TOXIC",
+      "TERABLAST"
     ],
     eggMoves: [
 
@@ -119197,7 +119411,8 @@ export const fakemons: Fakemon[] =
       "SUNNYDAY",
       "SWAGGER",
       "SWORDSDANCE",
-      "TOXIC"
+      "TOXIC",
+      "TERABLAST"
     ],
     eggMoves: [
 
@@ -119350,7 +119565,8 @@ export const fakemons: Fakemon[] =
       "THUNDERBOLT",
       "TORMENT",
       "TOXIC",
-      "TRICKROOM"
+      "TRICKROOM",
+      "TERABLAST"
     ],
     eggMoves: [
       "AFTERYOU",
@@ -119527,7 +119743,8 @@ export const fakemons: Fakemon[] =
       "THUNDERBOLT",
       "TORMENT",
       "TOXIC",
-      "TRICKROOM"
+      "TRICKROOM",
+      "TERABLAST"
     ],
     eggMoves: [
 
@@ -119674,7 +119891,8 @@ export const fakemons: Fakemon[] =
       "SWAGGER",
       "THIEF",
       "THUNDERBOLT",
-      "TOXIC"
+      "TOXIC",
+      "TERABLAST"
     ],
     eggMoves: [
       "AFTERYOU",
@@ -119837,7 +120055,8 @@ export const fakemons: Fakemon[] =
       "THIEF",
       "THUNDER",
       "THUNDERBOLT",
-      "TOXIC"
+      "TOXIC",
+      "TERABLAST"
     ],
     eggMoves: [
 
@@ -120363,7 +120582,8 @@ export const fakemons: Fakemon[] =
       "TOXIC",
       "UPROAR",
       "WATERPULSE",
-      "XSCISSOR"
+      "XSCISSOR",
+      "TERABLAST"
     ],
     eggMoves: [
       "NIGHTSLASH",
@@ -120557,7 +120777,8 @@ export const fakemons: Fakemon[] =
       "UPROAR",
       "WATERPULSE",
       "WHIRLPOOL",
-      "XSCISSOR"
+      "XSCISSOR",
+      "TERABLAST"
     ],
     eggMoves: [
 
@@ -121346,7 +121567,8 @@ export const fakemons: Fakemon[] =
       "TOXIC",
       "UTURN",
       "VOLTSWITCH",
-      "WILDCHARGE"
+      "WILDCHARGE",
+      "TERABLAST"
     ],
     eggMoves: [
       "DRAGONRUSH",
@@ -121523,7 +121745,8 @@ export const fakemons: Fakemon[] =
       "UTURN",
       "VOLTSWITCH",
       "WEATHERBALL",
-      "WILDCHARGE"
+      "WILDCHARGE",
+      "TERABLAST"
     ],
     eggMoves: [
 
@@ -121686,7 +121909,8 @@ export const fakemons: Fakemon[] =
       "SWAGGER",
       "THUNDERFANG",
       "TOXIC",
-      "ZENHEADBUTT"
+      "ZENHEADBUTT",
+      "TERABLAST"
     ],
     eggMoves: [
       "CURSE",
@@ -121869,7 +122093,8 @@ export const fakemons: Fakemon[] =
       "SWAGGER",
       "THUNDERFANG",
       "TOXIC",
-      "ZENHEADBUTT"
+      "ZENHEADBUTT",
+      "TERABLAST"
     ],
     eggMoves: [
 
@@ -122042,7 +122267,8 @@ export const fakemons: Fakemon[] =
       "TOXIC",
       "WATERPULSE",
       "WEATHERBALL",
-      "ZENHEADBUTT"
+      "ZENHEADBUTT",
+      "TERABLAST"
     ],
     eggMoves: [
       "AURORAVEIL",
@@ -122229,7 +122455,8 @@ export const fakemons: Fakemon[] =
       "TOXIC",
       "WATERPULSE",
       "WEATHERBALL",
-      "ZENHEADBUTT"
+      "ZENHEADBUTT",
+      "TERABLAST"
     ],
     eggMoves: [
 
@@ -124140,7 +124367,8 @@ export const fakemons: Fakemon[] =
       "TRICK",
       "TRICKROOM",
       "WILLOWISP",
-      "WORRYSEED"
+      "WORRYSEED",
+      "TERABLAST"
     ],
     eggMoves: [
       "CURSE",
@@ -124332,7 +124560,8 @@ export const fakemons: Fakemon[] =
       "TRICK",
       "TRICKROOM",
       "WILLOWISP",
-      "WORRYSEED"
+      "WORRYSEED",
+      "TERABLAST"
     ],
     eggMoves: [
 
@@ -125211,7 +125440,8 @@ export const fakemons: Fakemon[] =
       "THUNDERWAVE",
       "TOXIC",
       "WONDERROOM",
-      "ZENHEADBUTT"
+      "ZENHEADBUTT",
+      "TERABLAST"
     ],
     eggMoves: [
 
@@ -125389,7 +125619,8 @@ export const fakemons: Fakemon[] =
       "TORMENT",
       "TOXIC",
       "UTURN",
-      "ZENHEADBUTT"
+      "ZENHEADBUTT",
+      "TERABLAST"
     ],
     eggMoves: [
 
@@ -125563,7 +125794,8 @@ export const fakemons: Fakemon[] =
       "SWAGGER",
       "SWIFT",
       "TOXIC",
-      "ZENHEADBUTT"
+      "ZENHEADBUTT",
+      "TERABLAST"
     ],
     eggMoves: [
 
@@ -130234,7 +130466,8 @@ export const fakemons: Fakemon[] =
       "UTURN",
       "WATERFALL",
       "WATERPULSE",
-      "WHIRLPOOL"
+      "WHIRLPOOL",
+      "TERABLAST"
     ],
     eggMoves: [
       "MIST",
@@ -131601,7 +131834,8 @@ export const fakemons: Fakemon[] =
       "THUNDERWAVE",
       "TOXIC",
       "WONDERROOM",
-      "WORRYSEED"
+      "WORRYSEED",
+      "TERABLAST"
     ],
     eggMoves: [
       "GROWTH",
@@ -131751,7 +131985,8 @@ export const fakemons: Fakemon[] =
       "TOXIC",
       "WEATHERBALL",
       "WONDERROOM",
-      "WORRYSEED"
+      "WORRYSEED",
+      "TERABLAST"
     ],
     eggMoves: [
 
@@ -132268,7 +132503,8 @@ export const fakemons: Fakemon[] =
       "THUNDERPUNCH",
       "TOXIC",
       "WORKUP",
-      "ZENHEADBUTT"
+      "ZENHEADBUTT",
+      "TERABLAST"
     ],
     eggMoves: [
       "DEFENSECURL",
@@ -132440,7 +132676,8 @@ export const fakemons: Fakemon[] =
       "THUNDERPUNCH",
       "TOXIC",
       "WORKUP",
-      "ZENHEADBUTT"
+      "ZENHEADBUTT",
+      "TERABLAST"
     ],
     eggMoves: [
 
@@ -133519,7 +133756,8 @@ export const fakemons: Fakemon[] =
       "SWIFT",
       "TAUNT",
       "TOXIC",
-      "WATERFALL"
+      "WATERFALL",
+      "TERABLAST"
     ],
     eggMoves: [
       "AQUAJET",
@@ -133708,7 +133946,8 @@ export const fakemons: Fakemon[] =
       "VENOSHOCK",
       "WATERFALL",
       "WATERPULSE",
-      "XSCISSOR"
+      "XSCISSOR",
+      "TERABLAST"
     ],
     eggMoves: [
 
@@ -134167,7 +134406,8 @@ export const fakemons: Fakemon[] =
       "SWAGGER",
       "TAUNT",
       "TOXIC",
-      "VENOMDRENCH"
+      "VENOMDRENCH",
+      "TERABLAST"
     ],
     eggMoves: [
       "MIRRORCOAT",
@@ -134309,7 +134549,8 @@ export const fakemons: Fakemon[] =
       "TRIATTACK",
       "UTURN",
       "WORKUP",
-      "XSCISSOR"
+      "XSCISSOR",
+      "TERABLAST"
     ],
     eggMoves: [
 
@@ -134510,7 +134751,8 @@ export const fakemons: Fakemon[] =
       "UTURN",
       "WORKUP",
       "XSCISSOR",
-      "ZENHEADBUTT"
+      "ZENHEADBUTT",
+      "TERABLAST"
     ],
     eggMoves: [
 
@@ -134998,7 +135240,8 @@ export const fakemons: Fakemon[] =
       "UPROAR",
       "VENOSHOCK",
       "WILLOWISP",
-      "WORKUP"
+      "WORKUP",
+      "TERABLAST"
     ],
     eggMoves: [
       "CURSE",
@@ -135162,7 +135405,8 @@ export const fakemons: Fakemon[] =
       "VOLTSWITCH",
       "WILDCHARGE",
       "WORKUP",
-      "ZENHEADBUTT"
+      "ZENHEADBUTT",
+      "TERABLAST"
     ],
     eggMoves: [
       "DISARMINGVOICE",
@@ -135682,7 +135926,8 @@ export const fakemons: Fakemon[] =
       "TOXIC",
       "UPROAR",
       "WATERPULSE",
-      "WORKUP"
+      "WORKUP",
+      "TERABLAST"
     ],
     eggMoves: [
       "DRAGONRUSH",
@@ -135864,7 +136109,8 @@ export const fakemons: Fakemon[] =
       "TELEKINESIS",
       "THIEF",
       "TOXIC",
-      "WHIRLPOOL"
+      "WHIRLPOOL",
+      "TERABLAST"
     ],
     eggMoves: [
 
@@ -136578,7 +136824,8 @@ export const fakemons: Fakemon[] =
       "UTURN",
       "VOLTSWITCH",
       "WILDCHARGE",
-      "WORKUP"
+      "WORKUP",
+      "TERABLAST"
     ],
     eggMoves: [
 
@@ -136746,7 +136993,8 @@ export const fakemons: Fakemon[] =
       "THUNDERBOLT",
       "TORMENT",
       "TOXIC",
-      "WONDERROOM"
+      "WONDERROOM",
+      "TERABLAST"
     ],
     eggMoves: [
 
@@ -136924,7 +137172,8 @@ export const fakemons: Fakemon[] =
       "TOXIC",
       "WORKUP",
       "WORRYSEED",
-      "ZENHEADBUTT"
+      "ZENHEADBUTT",
+      "TERABLAST"
     ],
     eggMoves: [
 
@@ -137098,7 +137347,8 @@ export const fakemons: Fakemon[] =
       "WATERFALL",
       "WATERPULSE",
       "WHIRLPOOL",
-      "WONDERROOM"
+      "WONDERROOM",
+      "TERABLAST"
     ],
     eggMoves: [
 
@@ -137146,7 +137396,7 @@ export const fakemons: Fakemon[] =
       }
     ],
     tutorMoves: [
-
+      "TERABLAST"
     ],
     eggMoves: [
 
@@ -137198,7 +137448,8 @@ export const fakemons: Fakemon[] =
       }
     ],
     tutorMoves: [
-      "COSMICPOWER"
+      "COSMICPOWER",
+      "TERABLAST"
     ],
     eggMoves: [
 
@@ -137741,7 +137992,8 @@ export const fakemons: Fakemon[] =
       "VENOSHOCK",
       "WONDERROOM",
       "WORRYSEED",
-      "ZENHEADBUTT"
+      "ZENHEADBUTT",
+      "TERABLAST"
     ],
     eggMoves: [
 
@@ -137904,7 +138156,8 @@ export const fakemons: Fakemon[] =
       "TAUNT",
       "THUNDERPUNCH",
       "TOXIC",
-      "WORKUP"
+      "WORKUP",
+      "TERABLAST"
     ],
     eggMoves: [
 
@@ -138064,7 +138317,8 @@ export const fakemons: Fakemon[] =
       "TORMENT",
       "TOXIC",
       "TRIPLEAXEL",
-      "UTURN"
+      "UTURN",
+      "TERABLAST"
     ],
     eggMoves: [
 
@@ -138218,7 +138472,8 @@ export const fakemons: Fakemon[] =
       "THUNDERWAVE",
       "TOXIC",
       "VOLTSWITCH",
-      "WILDCHARGE"
+      "WILDCHARGE",
+      "TERABLAST"
     ],
     eggMoves: [
 
@@ -138379,7 +138634,8 @@ export const fakemons: Fakemon[] =
       "SUPERPOWER",
       "SWAGGER",
       "TOXIC",
-      "ZENHEADBUTT"
+      "ZENHEADBUTT",
+      "TERABLAST"
     ],
     eggMoves: [
 
@@ -138522,7 +138778,8 @@ export const fakemons: Fakemon[] =
       "SYNTHESIS",
       "TAILWIND",
       "TOXIC",
-      "XSCISSOR"
+      "XSCISSOR",
+      "TERABLAST"
     ],
     eggMoves: [
 
@@ -138697,7 +138954,8 @@ export const fakemons: Fakemon[] =
       "STONEEDGE",
       "SUBSTITUTE",
       "THIEF",
-      "TOXIC"
+      "TOXIC",
+      "TERABLAST"
     ],
     eggMoves: [
 
@@ -139267,7 +139525,8 @@ export const fakemons: Fakemon[] =
       "TOXIC",
       "WILLOWISP",
       "WORKUP",
-      "ZENHEADBUTT"
+      "ZENHEADBUTT",
+      "TERABLAST"
     ],
     eggMoves: [
 
@@ -139397,7 +139656,8 @@ export const fakemons: Fakemon[] =
       "TOXICSPIKES",
       "UPROAR",
       "VENOMDRENCH",
-      "VENOSHOCK"
+      "VENOSHOCK",
+      "TERABLAST"
     ],
     eggMoves: [
 
@@ -139582,7 +139842,8 @@ export const fakemons: Fakemon[] =
       "UTURN",
       "VENOMDRENCH",
       "VENOSHOCK",
-      "XSCISSOR"
+      "XSCISSOR",
+      "TERABLAST"
     ],
     eggMoves: [
 
@@ -139746,7 +140007,8 @@ export const fakemons: Fakemon[] =
       "TOXIC",
       "TRICKROOM",
       "WONDERROOM",
-      "ZENHEADBUTT"
+      "ZENHEADBUTT",
+      "TERABLAST"
     ],
     eggMoves: [
 
@@ -139910,7 +140172,8 @@ export const fakemons: Fakemon[] =
       "TRICK",
       "UPROAR",
       "WILLOWISP",
-      "ZENHEADBUTT"
+      "ZENHEADBUTT",
+      "TERABLAST"
     ],
     eggMoves: [
 
@@ -140095,7 +140358,8 @@ export const fakemons: Fakemon[] =
       "TOXIC",
       "VOLTSWITCH",
       "WILDCHARGE",
-      "WORKUP"
+      "WORKUP",
+      "TERABLAST"
     ],
     eggMoves: [
 
@@ -140187,7 +140451,8 @@ export const fakemons: Fakemon[] =
       "SWAGGER",
       "THUNDERBOLT",
       "THUNDERWAVE",
-      "TOXIC"
+      "TOXIC",
+      "TERABLAST"
     ],
     eggMoves: [
 
@@ -140339,7 +140604,8 @@ export const fakemons: Fakemon[] =
       "THUNDERBOLT",
       "THUNDERPUNCH",
       "THUNDERWAVE",
-      "TOXIC"
+      "TOXIC",
+      "TERABLAST"
     ],
     eggMoves: [
 
@@ -142486,7 +142752,7 @@ export const fakemons: Fakemon[] =
       }
     ],
     tutorMoves: [
-
+      "TERABLAST"
     ],
     eggMoves: [
       "INFESTATION",
@@ -142599,7 +142865,8 @@ export const fakemons: Fakemon[] =
       "TRICK",
       "TRICKROOM",
       "WONDERROOM",
-      "ZENHEADBUTT"
+      "ZENHEADBUTT",
+      "TERABLAST"
     ],
     eggMoves: [
 
@@ -142764,7 +143031,8 @@ export const fakemons: Fakemon[] =
       "TRICKROOM",
       "UTURN",
       "WONDERROOM",
-      "ZENHEADBUTT"
+      "ZENHEADBUTT",
+      "TERABLAST"
     ],
     eggMoves: [
 
@@ -142885,7 +143153,8 @@ export const fakemons: Fakemon[] =
       "TAILSLAP",
       "TAUNT",
       "THIEF",
-      "TOXIC"
+      "TOXIC",
+      "TERABLAST"
     ],
     eggMoves: [
       "HOWL",
@@ -143035,7 +143304,8 @@ export const fakemons: Fakemon[] =
       "THIEF",
       "THUNDERFANG",
       "TOXIC",
-      "UTURN"
+      "UTURN",
+      "TERABLAST"
     ],
     eggMoves: [
 
@@ -143154,7 +143424,8 @@ export const fakemons: Fakemon[] =
       "SUBSTITUTE",
       "SUNNYDAY",
       "SWAGGER",
-      "TOXIC"
+      "TOXIC",
+      "TERABLAST"
     ],
     eggMoves: [
       "GROWTH",
@@ -143294,7 +143565,8 @@ export const fakemons: Fakemon[] =
       "SUNNYDAY",
       "SWAGGER",
       "TOXIC",
-      "WEATHERBALL"
+      "WEATHERBALL",
+      "TERABLAST"
     ],
     eggMoves: [
 
@@ -143410,7 +143682,8 @@ export const fakemons: Fakemon[] =
       "SWAGGER",
       "THUNDERWAVE",
       "TOXIC",
-      "WILDCHARGE"
+      "WILDCHARGE",
+      "TERABLAST"
     ],
     eggMoves: [
       "COUNTER",
@@ -143546,7 +143819,8 @@ export const fakemons: Fakemon[] =
       "THUNDERWAVE",
       "TOXIC",
       "WILDCHARGE",
-      "ZENHEADBUTT"
+      "ZENHEADBUTT",
+      "TERABLAST"
     ],
     eggMoves: [
 
@@ -143962,7 +144236,8 @@ export const fakemons: Fakemon[] =
       "TOXIC",
       "UPROAR",
       "VOLTSWITCH",
-      "WILDCHARGE"
+      "WILDCHARGE",
+      "TERABLAST"
     ],
     eggMoves: [
       "DISCHARGE",
@@ -144107,7 +144382,8 @@ export const fakemons: Fakemon[] =
       "TOXIC",
       "UPROAR",
       "VOLTSWITCH",
-      "WILDCHARGE"
+      "WILDCHARGE",
+      "TERABLAST"
     ],
     eggMoves: [
 
@@ -146064,7 +146340,8 @@ export const fakemons: Fakemon[] =
       "SUNNYDAY",
       "SWAGGER",
       "TOXIC",
-      "VENOSHOCK"
+      "VENOSHOCK",
+      "TERABLAST"
     ],
     eggMoves: [
       "DEFENSECURL",
@@ -146213,7 +146490,8 @@ export const fakemons: Fakemon[] =
       "TOXIC",
       "VENOSHOCK",
       "WILLOWISP",
-      "XSCISSOR"
+      "XSCISSOR",
+      "TERABLAST"
     ],
     eggMoves: [
 
@@ -146337,7 +146615,8 @@ export const fakemons: Fakemon[] =
       "TAUNT",
       "TOXIC",
       "WATERFALL",
-      "WORKUP"
+      "WORKUP",
+      "TERABLAST"
     ],
     eggMoves: [
       "CIRCLETHROW",
@@ -146493,7 +146772,8 @@ export const fakemons: Fakemon[] =
       "TOXIC",
       "WATERFALL",
       "WHIRLPOOL",
-      "WORKUP"
+      "WORKUP",
+      "TERABLAST"
     ],
     eggMoves: [
 
@@ -147914,7 +148194,8 @@ export const fakemons: Fakemon[] =
       "TRICK",
       "WHIRLPOOL",
       "WORKUP",
-      "XSCISSOR"
+      "XSCISSOR",
+      "TERABLAST"
     ],
     eggMoves: [
       "KNOCKOFF",
@@ -148278,7 +148559,8 @@ export const fakemons: Fakemon[] =
       "SWAGGER",
       "THROATCHOP",
       "WHIRLPOOL",
-      "WILLOWISP"
+      "WILLOWISP",
+      "TERABLAST"
     ],
     eggMoves: [
       "CONFUSERAY",
@@ -148437,7 +148719,8 @@ export const fakemons: Fakemon[] =
       "SWAGGER",
       "SWORDSDANCE",
       "THROATCHOP",
-      "WORKUP"
+      "WORKUP",
+      "TERABLAST"
     ],
     eggMoves: [
       "COUNTER",
@@ -148707,7 +148990,8 @@ export const fakemons: Fakemon[] =
       "TRIPLEAXEL",
       "UPROAR",
       "WONDERROOM",
-      "ZENHEADBUTT"
+      "ZENHEADBUTT",
+      "TERABLAST"
     ],
     eggMoves: [
       "CONFUSERAY",
@@ -148890,7 +149174,8 @@ export const fakemons: Fakemon[] =
       "TRICKROOM",
       "WILLOWISP",
       "WONDERROOM",
-      "ZENHEADBUTT"
+      "ZENHEADBUTT",
+      "TERABLAST"
     ],
     eggMoves: [
       "MEMENTO"
@@ -150795,7 +151080,8 @@ export const fakemons: Fakemon[] =
       "THUNDERPUNCH",
       "THUNDERWAVE",
       "TOXIC",
-      "WILDCHARGE"
+      "WILDCHARGE",
+      "TERABLAST"
     ],
     eggMoves: [
 
@@ -150941,7 +151227,8 @@ export const fakemons: Fakemon[] =
       "THUNDERPUNCH",
       "THUNDERWAVE",
       "TOXIC",
-      "WILDCHARGE"
+      "WILDCHARGE",
+      "TERABLAST"
     ],
     eggMoves: [
 
@@ -151085,7 +151372,8 @@ export const fakemons: Fakemon[] =
       "TOXIC",
       "WATERFALL",
       "WHIRLPOOL",
-      "ZENHEADBUTT"
+      "ZENHEADBUTT",
+      "TERABLAST"
     ],
     eggMoves: [
 
@@ -151224,7 +151512,8 @@ export const fakemons: Fakemon[] =
       "TOXIC",
       "WATERFALL",
       "WHIRLPOOL",
-      "ZENHEADBUTT"
+      "ZENHEADBUTT",
+      "TERABLAST"
     ],
     eggMoves: [
 
@@ -172018,7 +172307,8 @@ export const fakemons: Fakemon[] =
       "WATERPULSE",
       "WEATHERBALL",
       "WILDCHARGE",
-      "ZENHEADBUTT"
+      "ZENHEADBUTT",
+      "TERABLAST"
     ],
     eggMoves: [
 

@@ -5,6 +5,7 @@ import { getAllItems } from "@/lib/items";
 import { getAllMoves } from "@/lib/moves";
 import { abilities } from "@/data/abilities";
 import type { Fakemon, FakemonForTeam } from "@/types/fakemon";
+import { getFormByNumber } from "@/lib/pokemon-forms";
 
 interface PokemonImportTextModalProps {
   isOpen: boolean;
@@ -20,6 +21,7 @@ type ParsedImport = {
   abilityName?: string;
   level?: number;
   nature?: string;
+  formNumber?: number;
   evs?: Partial<Record<"hp" | "atk" | "def" | "spa" | "spd" | "spe", number>>;
   moves?: string[];
 };
@@ -33,7 +35,7 @@ const normalizeKey = (value: string) =>
     .replace(/[^a-z0-9\s\-'.()]/g, "");
 
 const toStatKey = (
-  token: string
+  token: string,
 ): ParsedImport["evs"] extends infer T ? keyof NonNullable<T> : never => {
   const t = token.trim().toLowerCase();
   if (t === "hp") return "hp";
@@ -86,7 +88,20 @@ const parseShowdownLikeSet = (text: string): ParsedImport | null => {
 
   const speciesCandidate = left;
   const parenMatch = speciesCandidate.match(/\(([^)]+)\)/);
-  parsed.speciesName = (parenMatch?.[1] || speciesCandidate).trim();
+  if (parenMatch) {
+    const inner = parenMatch[1].trim();
+    const before = speciesCandidate.replace(/\([^)]+\)\s*$/, "").trim();
+    if (/^\d+$/.test(inner) && before.length > 0) {
+      // Pattern like "Gastrodon (1)" → species = Gastrodon, formNumber = 1
+      parsed.speciesName = before;
+      parsed.formNumber = parseInt(inner, 10);
+    } else {
+      // Pattern like "Nickname (Species)" → species = inner
+      parsed.speciesName = inner;
+    }
+  } else {
+    parsed.speciesName = speciesCandidate.trim();
+  }
 
   if (right) parsed.itemName = right.trim();
 
@@ -107,6 +122,13 @@ const parseShowdownLikeSet = (text: string): ParsedImport | null => {
     }
     if (/^evs\s*:/i.test(line)) {
       parsed.evs = parseEVsLine(line);
+      continue;
+    }
+    // Optional explicit form line: "Form: 1" or "Form = 1"
+    if (/^form\s*[:=]\s*/i.test(line)) {
+      const raw = line.split(/[:=]/).slice(1).join(":").trim();
+      const n = parseInt(raw, 10);
+      if (Number.isFinite(n)) parsed.formNumber = n;
       continue;
     }
     if (/nature\s*$/i.test(line)) {
@@ -165,9 +187,25 @@ export const PokemonImportTextModal: React.FC<PokemonImportTextModalProps> = ({
       return;
     }
 
-    const pokemonData = getPokemonData(fakemon.id);
-
     const teamPokemon = createDefaultTeamPokemon(fakemon);
+    const pokemonData = getPokemonData(
+      fakemon.id,
+      typeof parsed.formNumber === "number" ? parsed.formNumber : undefined,
+    );
+    // Form number (validate availability)
+    if (
+      typeof parsed.formNumber === "number" &&
+      Number.isFinite(parsed.formNumber)
+    ) {
+      const form = getFormByNumber(fakemon.id, parsed.formNumber);
+      if (!form) {
+        missing.push(
+          `Form ${parsed.formNumber} isn't available for ${fakemon.name}`,
+        );
+      } else {
+        teamPokemon.formNumber = parsed.formNumber;
+      }
+    }
 
     if (typeof parsed.level === "number" && Number.isFinite(parsed.level)) {
       teamPokemon.level = parsed.level;
@@ -206,7 +244,7 @@ export const PokemonImportTextModal: React.FC<PokemonImportTextModalProps> = ({
     if (parsed.abilityName && pokemonData) {
       const abilityKey = normalizeKey(parsed.abilityName);
       const ability = abilities.find(
-        (a) => normalizeKey(a.name) === abilityKey
+        (a) => normalizeKey(a.name) === abilityKey,
       );
 
       if (!ability) {
@@ -219,7 +257,7 @@ export const PokemonImportTextModal: React.FC<PokemonImportTextModalProps> = ({
         const index = availableAbilityIds.findIndex((id) => id === ability.id);
         if (index < 0) {
           missing.push(
-            `Ability '${parsed.abilityName}' isn't available for ${pokemonData.name}`
+            `Ability '${parsed.abilityName}' isn't available for ${pokemonData.name}`,
           );
         } else {
           teamPokemon.abilityIndex_hard = index;

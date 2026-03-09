@@ -798,3 +798,11 @@ Pocket = 8
 Price = 5000
 FieldUse = Direct
 Description = Is a strange key finded in the abandoned mansion of the route 5.
+#-------------------------------
+[THERMALRESEARCHBOOTS]
+Name = Thermal Research Boots
+NamePlural = Thermal Research Boots
+Pocket = 8
+Price = 15000
+Flags = Fling_30
+Description = Specialized protective boots used by volcanic researchers. Built to withstand high temperatures and unstable ground during active field studies.

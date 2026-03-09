@@ -28,7 +28,7 @@ export const MapViewer: React.FC<MapViewerProps> = ({
           className,
         )}
       >
-        <div className="flex flex-col items-center justify-center text-white/50 min-h-[200px]">
+        <div className="flex flex-col items-center justify-center text-white/50 min-h-50">
           <div className="text-4xl mb-3">🗺️</div>
           <div className="text-lg font-medium mb-1">{tile.mapName}</div>
           <div className="text-sm">Map image not available</div>

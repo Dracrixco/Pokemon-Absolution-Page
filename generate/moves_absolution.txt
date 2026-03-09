@@ -525,12 +525,11 @@ Category = Physical
 Power = 60
 Accuracy = 100
 TotalPP = 25
-Target = None
+Target = NearOther
 FunctionCode = BurnTarget
 Flags = CanProtect,CanMirrorMove,Slicing
 EffectChance = 30
 Description = ???
-Target = NearOther
 #-------------------------------
 [MAGMASLASH]
 Name = Magma Slash
@@ -539,9 +538,8 @@ Category = Physical
 Power = 90
 Accuracy = 100
 TotalPP = 15
-Target = None
+Target = NearOther
 FunctionCode = BurnTarget
 Flags = CanProtect,CanMirrorMove,Slicing
 EffectChance = 50
 Description = ???
-Target = NearOther

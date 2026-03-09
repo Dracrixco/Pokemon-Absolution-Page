@@ -80,9 +80,16 @@ Name = Corrupt Team
 Gender = Female
 BaseMoney = 100
 SkillLevel = 120
-BattleBGM = Megaman X4 - Split Mushroom Stage
+BattleBGM = Megaman X6 - Gates Laboratory Stage
 #-------------------------------
 [CORRUPT_ADMIN_HEMLOCK]
+Name = Corrupt Team
+Gender = Male
+BaseMoney = 100
+SkillLevel = 120
+BattleBGM = Megaman X4 - Split Mushroom Stage
+#-------------------------------
+[CORRUPT_ADMIN_TAXUS]
 Name = Corrupt Team
 Gender = Male
 BaseMoney = 100

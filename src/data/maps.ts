@@ -2,12 +2,12 @@ import type { TileData } from "@/lib/map";
 
 export const tilesData: Record<string, TileData> = 
 {
-  "0-0": {
+  "0-1": {
     id: "002",
     mapIngameID: 2,
     mapName: "Mapa de Pruebas",
     x: 0,
-    y: 0,
+    y: 1,
     mapWidth: 1,
     mapHeight: 1,
     color: "purple",
@@ -15,16 +15,15 @@ export const tilesData: Record<string, TileData> =
     showArea: true,
     bicycle: true,
     flags: [
-      "ForWebPage",
-      "PowerSpot"
+      "ForWebPage"
     ]
   },
-  "5-10": {
+  "5-11": {
     id: "003",
     mapIngameID: 3,
     mapName: "Sunrise City",
     x: 5,
-    y: 10,
+    y: 11,
     mapWidth: 1,
     mapHeight: 1,
     color: "blue",
@@ -35,12 +34,12 @@ export const tilesData: Record<string, TileData> =
       "ForWebPage"
     ]
   },
-  "5-7": {
+  "5-8": {
     id: "004",
     mapIngameID: 4,
     mapName: "Route 1",
     x: 5,
-    y: 7,
+    y: 8,
     mapWidth: 1,
     mapHeight: 3,
     color: "green",
@@ -51,12 +50,12 @@ export const tilesData: Record<string, TileData> =
       "ForWebPage"
     ]
   },
-  "5-6": {
+  "5-7": {
     id: "007",
     mapIngameID: 7,
     mapName: "Sunset City",
     x: 5,
-    y: 6,
+    y: 7,
     mapWidth: 1,
     mapHeight: 1,
     color: "blue",
@@ -67,12 +66,12 @@ export const tilesData: Record<string, TileData> =
       "ForWebPage"
     ]
   },
-  "6-10": {
+  "6-11": {
     id: "008",
     mapIngameID: 8,
     mapName: "Route 2",
     x: 6,
-    y: 10,
+    y: 11,
     mapWidth: 5,
     mapHeight: 1,
     color: "green",
@@ -83,12 +82,12 @@ export const tilesData: Record<string, TileData> =
       "ForWebPage"
     ]
   },
-  "11-10": {
+  "11-11": {
     id: "011",
     mapIngameID: 11,
     mapName: "Parhelion City",
     x: 11,
-    y: 10,
+    y: 11,
     mapWidth: 2,
     mapHeight: 1,
     color: "blue",
@@ -99,12 +98,12 @@ export const tilesData: Record<string, TileData> =
       "ForWebPage"
     ]
   },
-  "8-8": {
+  "8-9": {
     id: "012",
     mapIngameID: 12,
     mapName: "Big Zone 1",
     x: 8,
-    y: 8,
+    y: 9,
     mapWidth: 2,
     mapHeight: 2,
     color: "purple",
@@ -115,12 +114,12 @@ export const tilesData: Record<string, TileData> =
       "ForWebPage"
     ]
   },
-  "13-10": {
+  "13-11": {
     id: "014",
     mapIngameID: 14,
     mapName: "Route 3",
     x: 13,
-    y: 10,
+    y: 11,
     mapWidth: 1,
     mapHeight: 1,
     color: "green",
@@ -131,12 +130,12 @@ export const tilesData: Record<string, TileData> =
       "ForWebPage"
     ]
   },
-  "14-10": {
+  "14-11": {
     id: "015",
     mapIngameID: 15,
     mapName: "Cave",
     x: 14,
-    y: 10,
+    y: 11,
     mapWidth: 2,
     mapHeight: 1,
     color: "gray",
@@ -147,12 +146,12 @@ export const tilesData: Record<string, TileData> =
       "ForWebPage"
     ]
   },
-  "14-9": {
+  "14-10": {
     id: "016",
     mapIngameID: 16,
     mapName: "Cave",
     x: 14,
-    y: 9,
+    y: 10,
     mapWidth: 2,
     mapHeight: 1,
     color: "gray",
@@ -163,12 +162,12 @@ export const tilesData: Record<string, TileData> =
       "ForWebPage"
     ]
   },
-  "11-11": {
+  "11-12": {
     id: "017",
     mapIngameID: 17,
     mapName: "Beach",
     x: 11,
-    y: 11,
+    y: 12,
     mapWidth: 1,
     mapHeight: 2,
     color: "yellow",
@@ -179,12 +178,12 @@ export const tilesData: Record<string, TileData> =
       "ForWebPage"
     ]
   },
-  "11-7": {
+  "11-8": {
     id: "018",
     mapIngameID: 18,
     mapName: "Route 4",
     x: 11,
-    y: 7,
+    y: 8,
     mapWidth: 1,
     mapHeight: 3,
     color: "green",
@@ -195,12 +194,12 @@ export const tilesData: Record<string, TileData> =
       "ForWebPage"
     ]
   },
-  "11-5": {
+  "11-6": {
     id: "019",
     mapIngameID: 19,
     mapName: "Nightfall Forest",
     x: 11,
-    y: 5,
+    y: 6,
     mapWidth: 1,
     mapHeight: 2,
     color: "emerald",
@@ -211,12 +210,12 @@ export const tilesData: Record<string, TileData> =
       "ForWebPage"
     ]
   },
-  "10-5": {
+  "10-6": {
     id: "020",
     mapIngameID: 20,
     mapName: "Forest - History",
     x: 10,
-    y: 5,
+    y: 6,
     mapWidth: 1,
     mapHeight: 2,
     color: "emerald",
@@ -227,12 +226,12 @@ export const tilesData: Record<string, TileData> =
       "ForWebPage"
     ]
   },
-  "11-4": {
+  "11-5": {
     id: "021",
     mapIngameID: 21,
     mapName: "Twilight City",
     x: 11,
-    y: 4,
+    y: 5,
     mapWidth: 1,
     mapHeight: 1,
     color: "blue",
@@ -243,11 +242,27 @@ export const tilesData: Record<string, TileData> =
       "ForWebPage"
     ]
   },
-  "4-6": {
+  "4-7": {
     id: "022",
     mapIngameID: 22,
     mapName: "Risco",
     x: 4,
+    y: 7,
+    mapWidth: 1,
+    mapHeight: 1,
+    color: "purple",
+    outdoor: true,
+    showArea: true,
+    bicycle: true,
+    flags: [
+      "ForWebPage"
+    ]
+  },
+  "5-6": {
+    id: "023",
+    mapIngameID: 23,
+    mapName: "East",
+    x: 5,
     y: 6,
     mapWidth: 1,
     mapHeight: 1,
@@ -259,28 +274,12 @@ export const tilesData: Record<string, TileData> =
       "ForWebPage"
     ]
   },
-  "5-5": {
-    id: "023",
-    mapIngameID: 23,
-    mapName: "East",
-    x: 5,
-    y: 5,
-    mapWidth: 1,
-    mapHeight: 1,
-    color: "purple",
-    outdoor: true,
-    showArea: true,
-    bicycle: true,
-    flags: [
-      "ForWebPage"
-    ]
-  },
-  "13-9": {
+  "13-10": {
     id: "034",
     mapIngameID: 34,
     mapName: "Farm",
     x: 13,
-    y: 9,
+    y: 10,
     mapWidth: 1,
     mapHeight: 1,
     color: "purple",
@@ -291,11 +290,43 @@ export const tilesData: Record<string, TileData> =
       "ForWebPage"
     ]
   },
-  "12-5": {
+  "12-6": {
     id: "043",
     mapIngameID: 43,
     mapName: "Forest - Water Zone",
     x: 12,
+    y: 6,
+    mapWidth: 1,
+    mapHeight: 1,
+    color: "emerald",
+    outdoor: true,
+    showArea: true,
+    bicycle: true,
+    flags: [
+      "ForWebPage"
+    ]
+  },
+  "12-7": {
+    id: "045",
+    mapIngameID: 45,
+    mapName: "Fores - Spider Zone",
+    x: 12,
+    y: 7,
+    mapWidth: 1,
+    mapHeight: 1,
+    color: "purple",
+    outdoor: true,
+    showArea: true,
+    bicycle: true,
+    flags: [
+      "ForWebPage"
+    ]
+  },
+  "10-5": {
+    id: "060",
+    mapIngameID: 60,
+    mapName: "Twilight Forest",
+    x: 10,
     y: 5,
     mapWidth: 1,
     mapHeight: 1,
@@ -307,28 +338,12 @@ export const tilesData: Record<string, TileData> =
       "ForWebPage"
     ]
   },
-  "12-6": {
-    id: "045",
-    mapIngameID: 45,
-    mapName: "Fores - Spider Zone",
-    x: 12,
-    y: 6,
-    mapWidth: 1,
-    mapHeight: 1,
-    color: "purple",
-    outdoor: true,
-    showArea: true,
-    bicycle: true,
-    flags: [
-      "ForWebPage"
-    ]
-  },
-  "10-4": {
-    id: "060",
-    mapIngameID: 60,
-    mapName: "Twilight Forest",
-    x: 10,
-    y: 4,
+  "9-5": {
+    id: "062",
+    mapIngameID: 62,
+    mapName: "Twilight Forest - Boss Zone",
+    x: 9,
+    y: 5,
     mapWidth: 1,
     mapHeight: 1,
     color: "emerald",
@@ -340,9 +355,9 @@ export const tilesData: Record<string, TileData> =
     ]
   },
   "9-4": {
-    id: "062",
-    mapIngameID: 62,
-    mapName: "Twilight Forest - Boss Zone",
+    id: "064",
+    mapIngameID: 64,
+    mapName: "Twilight Forest",
     x: 9,
     y: 4,
     mapWidth: 1,
@@ -355,29 +370,12 @@ export const tilesData: Record<string, TileData> =
       "ForWebPage"
     ]
   },
-  "9-3": {
-    id: "064",
-    mapIngameID: 64,
-    mapName: "Twilight Forest",
-    x: 9,
-    y: 3,
-    mapWidth: 1,
-    mapHeight: 1,
-    color: "emerald",
-    outdoor: true,
-    showArea: true,
-    bicycle: true,
-    flags: [
-      "ForWebPage",
-      "PowerSpot"
-    ]
-  },
-  "12-4": {
+  "12-5": {
     id: "065",
     mapIngameID: 65,
     mapName: "Route 5",
     x: 12,
-    y: 4,
+    y: 5,
     mapWidth: 5,
     mapHeight: 1,
     color: "green",
@@ -388,12 +386,12 @@ export const tilesData: Record<string, TileData> =
       "ForWebPage"
     ]
   },
-  "13-3": {
+  "13-4": {
     id: "068",
     mapIngameID: 68,
     mapName: "Route 5 -Mansion (Connection)",
     x: 13,
-    y: 3,
+    y: 4,
     mapWidth: 1,
     mapHeight: 1,
     color: "green",
@@ -401,16 +399,15 @@ export const tilesData: Record<string, TileData> =
     showArea: true,
     bicycle: true,
     flags: [
-      "ForWebPage",
-      "PowerSpot"
+      "ForWebPage"
     ]
   },
-  "13-2": {
+  "13-3": {
     id: "069",
     mapIngameID: 69,
     mapName: "Mansion",
     x: 13,
-    y: 2,
+    y: 3,
     mapWidth: 1,
     mapHeight: 1,
     color: "purple",
@@ -421,15 +418,31 @@ export const tilesData: Record<string, TileData> =
       "ForWebPage"
     ]
   },
-  "17-4": {
+  "17-5": {
     id: "070",
     mapIngameID: 70,
     mapName: "Scattering City",
     x: 17,
-    y: 4,
+    y: 5,
     mapWidth: 2,
     mapHeight: 1,
     color: "blue",
+    outdoor: true,
+    showArea: true,
+    bicycle: true,
+    flags: [
+      "ForWebPage"
+    ]
+  },
+  "17-3": {
+    id: "073",
+    mapIngameID: 73,
+    mapName: "Route 6",
+    x: 17,
+    y: 3,
+    mapWidth: 1,
+    mapHeight: 2,
+    color: "green",
     outdoor: true,
     showArea: true,
     bicycle: true,
@@ -453,12 +466,12 @@ export const tilesData: Record<string, TileData> =
       "ForWebPage"
     ]
   },
-  "17-5": {
+  "17-6": {
     id: "075",
     mapIngameID: 75,
     mapName: "Route 7",
     x: 17,
-    y: 5,
+    y: 6,
     mapWidth: 1,
     mapHeight: 3,
     color: "green",
@@ -495,6 +508,54 @@ export const tilesData: Record<string, TileData> =
     mapHeight: 1,
     color: "purple",
     outdoor: false,
+    showArea: true,
+    bicycle: true,
+    flags: [
+      "ForWebPage"
+    ]
+  },
+  "17-9": {
+    id: "100",
+    mapIngameID: 100,
+    mapName: "Cite Swamp",
+    x: 17,
+    y: 9,
+    mapWidth: 1,
+    mapHeight: 1,
+    color: "purple",
+    outdoor: true,
+    showArea: true,
+    bicycle: true,
+    flags: [
+      "ForWebPage"
+    ]
+  },
+  "15-9": {
+    id: "106",
+    mapIngameID: 106,
+    mapName: "Thorny Area",
+    x: 15,
+    y: 9,
+    mapWidth: 2,
+    mapHeight: 1,
+    color: "purple",
+    outdoor: true,
+    showArea: true,
+    bicycle: true,
+    flags: [
+      "ForWebPage"
+    ]
+  },
+  "18-9": {
+    id: "107",
+    mapIngameID: 107,
+    mapName: "Route 8",
+    x: 18,
+    y: 9,
+    mapWidth: 1,
+    mapHeight: 4,
+    color: "green",
+    outdoor: true,
     showArea: true,
     bicycle: true,
     flags: [

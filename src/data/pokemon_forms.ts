@@ -944,7 +944,8 @@ export const pokemonForms: PokemonForm[] =
       "THROATCHOP",
       "UTURN",
       "VENOSHOCK",
-      "XSCISSOR"
+      "XSCISSOR",
+      "TERABLAST"
     ],
     eggMoves: [
 
@@ -1103,7 +1104,8 @@ export const pokemonForms: PokemonForm[] =
       "TWISTER",
       "UPROAR",
       "UTURN",
-      "WORKUP"
+      "WORKUP",
+      "TERABLAST"
     ],
     eggMoves: [
 
@@ -1258,7 +1260,8 @@ export const pokemonForms: PokemonForm[] =
       "TORMENT",
       "UPROAR",
       "UTURN",
-      "ZENHEADBUTT"
+      "ZENHEADBUTT",
+      "TERABLAST"
     ],
     eggMoves: [
       "COUNTER",
@@ -1454,7 +1457,8 @@ export const pokemonForms: PokemonForm[] =
       "UPROAR",
       "UTURN",
       "VENOSHOCK",
-      "ZENHEADBUTT"
+      "ZENHEADBUTT",
+      "TERABLAST"
     ],
     eggMoves: [
 
@@ -3945,7 +3949,8 @@ export const pokemonForms: PokemonForm[] =
       "TRICK",
       "TRICKROOM",
       "WONDERROOM",
-      "ZENHEADBUTT"
+      "ZENHEADBUTT",
+      "TERABLAST"
     ],
     eggMoves: [
 
@@ -4681,7 +4686,8 @@ export const pokemonForms: PokemonForm[] =
       "SWAGGER",
       "SWIFT",
       "WILDCHARGE",
-      "ZENHEADBUTT"
+      "ZENHEADBUTT",
+      "TERABLAST"
     ],
     eggMoves: [
       "ALLYSWITCH",
@@ -4859,7 +4865,8 @@ export const pokemonForms: PokemonForm[] =
       "TRICKROOM",
       "WILDCHARGE",
       "WONDERROOM",
-      "ZENHEADBUTT"
+      "ZENHEADBUTT",
+      "TERABLAST"
     ],
     eggMoves: [
 
@@ -5653,7 +5660,8 @@ export const pokemonForms: PokemonForm[] =
       "SWAGGER",
       "SWORDSDANCE",
       "THROATCHOP",
-      "WORKUP"
+      "WORKUP",
+      "TERABLAST"
     ],
     eggMoves: [
       "COUNTER",
@@ -6983,7 +6991,8 @@ export const pokemonForms: PokemonForm[] =
       "SWORDSDANCE",
       "THIEF",
       "THUNDERPUNCH",
-      "UPROAR"
+      "UPROAR",
+      "TERABLAST"
     ],
     eggMoves: [
       "ANCIENTPOWER",
@@ -7219,7 +7228,8 @@ export const pokemonForms: PokemonForm[] =
       "THUNDERBOLT",
       "THUNDERPUNCH",
       "UPROAR",
-      "WILLOWISP"
+      "WILLOWISP",
+      "TERABLAST"
     ],
     eggMoves: [
 
@@ -7618,7 +7628,8 @@ export const pokemonForms: PokemonForm[] =
       "UPROAR",
       "WATERPULSE",
       "WHIRLPOOL",
-      "WORKUP"
+      "WORKUP",
+      "TERABLAST"
     ],
     eggMoves: [
       "CIRCLETHROW",
@@ -7875,7 +7886,8 @@ export const pokemonForms: PokemonForm[] =
       "TRIPLEAXEL",
       "UPROAR",
       "WONDERROOM",
-      "ZENHEADBUTT"
+      "ZENHEADBUTT",
+      "TERABLAST"
     ],
     eggMoves: [
       "CHARM",
@@ -8059,7 +8071,8 @@ export const pokemonForms: PokemonForm[] =
       "SWORDSDANCE",
       "THIEF",
       "THROATCHOP",
-      "XSCISSOR"
+      "XSCISSOR",
+      "TERABLAST"
     ],
     eggMoves: [
       "BUGBITE",
@@ -8884,7 +8897,8 @@ export const pokemonForms: PokemonForm[] =
       "THIEF",
       "THUNDERFANG",
       "TORMENT",
-      "TWISTER"
+      "TWISTER",
+      "TERABLAST"
     ],
     eggMoves: [
       "ASSURANCE",
@@ -12330,7 +12344,8 @@ export const pokemonForms: PokemonForm[] =
       "TAUNT",
       "THUNDERFANG",
       "TORMENT",
-      "TWISTER"
+      "TWISTER",
+      "TERABLAST"
     ],
     eggMoves: [
 
@@ -13208,7 +13223,8 @@ export const pokemonForms: PokemonForm[] =
       "SWAGGER",
       "THROATCHOP",
       "WHIRLPOOL",
-      "WILLOWISP"
+      "WILLOWISP",
+      "TERABLAST"
     ],
     eggMoves: [
       "CONFUSERAY",
@@ -14491,7 +14507,8 @@ export const pokemonForms: PokemonForm[] =
       "THUNDERWAVE",
       "TRICK",
       "WHIRLPOOL",
-      "WORKUP"
+      "WORKUP",
+      "TERABLAST"
     ],
     eggMoves: [
       "KNOCKOFF",
@@ -14675,7 +14692,8 @@ export const pokemonForms: PokemonForm[] =
       "THUNDERWAVE",
       "TRICK",
       "WHIRLPOOL",
-      "WORKUP"
+      "WORKUP",
+      "TERABLAST"
     ],
     eggMoves: [
 
@@ -15342,7 +15360,8 @@ export const pokemonForms: PokemonForm[] =
       "TAUNT",
       "THUNDERFANG",
       "THUNDERPUNCH",
-      "TORMENT"
+      "TORMENT",
+      "TERABLAST"
     ],
     eggMoves: [
       "ANCIENTPOWER",
@@ -15578,7 +15597,8 @@ export const pokemonForms: PokemonForm[] =
       "THUNDERWAVE",
       "UPROAR",
       "WATERPULSE",
-      "WHIRLPOOL"
+      "WHIRLPOOL",
+      "TERABLAST"
     ],
     eggMoves: [
 
@@ -15953,7 +15973,8 @@ export const pokemonForms: PokemonForm[] =
       "THUNDERWAVE",
       "UPROAR",
       "VOLTSWITCH",
-      "WILDCHARGE"
+      "WILDCHARGE",
+      "TERABLAST"
     ],
     eggMoves: [
 
@@ -16128,7 +16149,8 @@ export const pokemonForms: PokemonForm[] =
       "WATERFALL",
       "WATERPULSE",
       "WHIRLPOOL",
-      "ZENHEADBUTT"
+      "ZENHEADBUTT",
+      "TERABLAST"
     ],
     eggMoves: [
 
@@ -16652,7 +16674,8 @@ export const pokemonForms: PokemonForm[] =
       "THUNDERBOLT",
       "THUNDERWAVE",
       "WATERPULSE",
-      "WORKUP"
+      "WORKUP",
+      "TERABLAST"
     ],
     eggMoves: [
       "AMNESIA",
@@ -16806,7 +16829,8 @@ export const pokemonForms: PokemonForm[] =
       "THUNDERBOLT",
       "THUNDERWAVE",
       "WATERPULSE",
-      "WORKUP"
+      "WORKUP",
+      "TERABLAST"
     ],
     eggMoves: [
       "AMNESIA",
@@ -16960,7 +16984,8 @@ export const pokemonForms: PokemonForm[] =
       "THUNDERBOLT",
       "THUNDERWAVE",
       "WATERPULSE",
-      "WORKUP"
+      "WORKUP",
+      "TERABLAST"
     ],
     eggMoves: [
       "AMNESIA",
@@ -17335,7 +17360,8 @@ export const pokemonForms: PokemonForm[] =
       "WATERPULSE",
       "WILLOWISP",
       "XSCISSOR",
-      "ZENHEADBUTT"
+      "ZENHEADBUTT",
+      "TERABLAST"
     ],
     eggMoves: [
       "ASSURANCE",
@@ -19605,7 +19631,8 @@ export const pokemonForms: PokemonForm[] =
       "HIDDENPOWER",
       "PROTECT",
       "SNORE",
-      "STRINGSHOT"
+      "STRINGSHOT",
+      "TERABLAST"
     ],
     eggMoves: [
 
@@ -19674,7 +19701,8 @@ export const pokemonForms: PokemonForm[] =
       "HIDDENPOWER",
       "PROTECT",
       "SNORE",
-      "STRINGSHOT"
+      "STRINGSHOT",
+      "TERABLAST"
     ],
     eggMoves: [
 
@@ -19849,7 +19877,8 @@ export const pokemonForms: PokemonForm[] =
       "TELEKINESIS",
       "THIEF",
       "UPROAR",
-      "VENOSHOCK"
+      "VENOSHOCK",
+      "TERABLAST"
     ],
     eggMoves: [
 
@@ -20024,7 +20053,8 @@ export const pokemonForms: PokemonForm[] =
       "TELEKINESIS",
       "THIEF",
       "UPROAR",
-      "VENOSHOCK"
+      "VENOSHOCK",
+      "TERABLAST"
     ],
     eggMoves: [
 
@@ -20169,7 +20199,8 @@ export const pokemonForms: PokemonForm[] =
       "SWORDSDANCE",
       "SYNTHESIS",
       "WEATHERBALL",
-      "WORRYSEED"
+      "WORRYSEED",
+      "TERABLAST"
     ],
     eggMoves: [
 
@@ -20690,7 +20721,8 @@ export const pokemonForms: PokemonForm[] =
       "UPROAR",
       "UTURN",
       "WATERPULSE",
-      "WORKUP"
+      "WORKUP",
+      "TERABLAST"
     ],
     eggMoves: [
 
@@ -27918,7 +27950,8 @@ export const pokemonForms: PokemonForm[] =
       "UPROAR",
       "WILDCHARGE",
       "WORKUP",
-      "ZENHEADBUTT"
+      "ZENHEADBUTT",
+      "TERABLAST"
     ],
     eggMoves: [
       "HEALINGWISH",
@@ -28723,7 +28756,8 @@ export const pokemonForms: PokemonForm[] =
       "UTURN",
       "WILLOWISP",
       "WORKUP",
-      "ZENHEADBUTT"
+      "ZENHEADBUTT",
+      "TERABLAST"
     ],
     eggMoves: [
       "FLAMEWHEEL",
@@ -28921,7 +28955,8 @@ export const pokemonForms: PokemonForm[] =
       "UTURN",
       "WILLOWISP",
       "WORKUP",
-      "ZENHEADBUTT"
+      "ZENHEADBUTT",
+      "TERABLAST"
     ],
     eggMoves: [
 
@@ -29095,7 +29130,8 @@ export const pokemonForms: PokemonForm[] =
       "UTURN",
       "WILLOWISP",
       "WORKUP",
-      "ZENHEADBUTT"
+      "ZENHEADBUTT",
+      "TERABLAST"
     ],
     eggMoves: [
 
@@ -29270,7 +29306,8 @@ export const pokemonForms: PokemonForm[] =
       "UTURN",
       "WILLOWISP",
       "WORKUP",
-      "ZENHEADBUTT"
+      "ZENHEADBUTT",
+      "TERABLAST"
     ],
     eggMoves: [
 
@@ -29428,7 +29465,8 @@ export const pokemonForms: PokemonForm[] =
       "TRICKROOM",
       "WILLOWISP",
       "WONDERROOM",
-      "ZENHEADBUTT"
+      "ZENHEADBUTT",
+      "TERABLAST"
     ],
     eggMoves: [
       "MEMENTO"
@@ -30927,7 +30965,8 @@ export const pokemonForms: PokemonForm[] =
       "TERRAINPULSE",
       "THUNDERWAVE",
       "TOXIC",
-      "UPROAR"
+      "UPROAR",
+      "TERABLAST"
     ],
     eggMoves: [
       "ASTONISH",
@@ -32956,7 +32995,8 @@ export const pokemonForms: PokemonForm[] =
       "TRIATTACK",
       "UTURN",
       "XSCISSOR",
-      "ZENHEADBUTT"
+      "ZENHEADBUTT",
+      "TERABLAST"
     ],
     eggMoves: [
 
@@ -33131,7 +33171,8 @@ export const pokemonForms: PokemonForm[] =
       "TRIATTACK",
       "UTURN",
       "XSCISSOR",
-      "ZENHEADBUTT"
+      "ZENHEADBUTT",
+      "TERABLAST"
     ],
     eggMoves: [
 
@@ -33306,7 +33347,8 @@ export const pokemonForms: PokemonForm[] =
       "TRIATTACK",
       "UTURN",
       "XSCISSOR",
-      "ZENHEADBUTT"
+      "ZENHEADBUTT",
+      "TERABLAST"
     ],
     eggMoves: [
 
@@ -33481,7 +33523,8 @@ export const pokemonForms: PokemonForm[] =
       "TRIATTACK",
       "UTURN",
       "XSCISSOR",
-      "ZENHEADBUTT"
+      "ZENHEADBUTT",
+      "TERABLAST"
     ],
     eggMoves: [
 
@@ -39029,7 +39072,8 @@ export const pokemonForms: PokemonForm[] =
       "UTURN",
       "WILDCHARGE",
       "WORKUP",
-      "ZENHEADBUTT"
+      "ZENHEADBUTT",
+      "TERABLAST"
     ],
     eggMoves: [
       "CAPTIVATE",
@@ -39174,7 +39218,8 @@ export const pokemonForms: PokemonForm[] =
       "UTURN",
       "WILDCHARGE",
       "WORKUP",
-      "ZENHEADBUTT"
+      "ZENHEADBUTT",
+      "TERABLAST"
     ],
     eggMoves: [
       "CAPTIVATE",
@@ -39319,7 +39364,8 @@ export const pokemonForms: PokemonForm[] =
       "UTURN",
       "WILDCHARGE",
       "WORKUP",
-      "ZENHEADBUTT"
+      "ZENHEADBUTT",
+      "TERABLAST"
     ],
     eggMoves: [
       "CAPTIVATE",
@@ -39464,7 +39510,8 @@ export const pokemonForms: PokemonForm[] =
       "UTURN",
       "WILDCHARGE",
       "WORKUP",
-      "ZENHEADBUTT"
+      "ZENHEADBUTT",
+      "TERABLAST"
     ],
     eggMoves: [
       "CAPTIVATE",
@@ -39609,7 +39656,8 @@ export const pokemonForms: PokemonForm[] =
       "UTURN",
       "WILDCHARGE",
       "WORKUP",
-      "ZENHEADBUTT"
+      "ZENHEADBUTT",
+      "TERABLAST"
     ],
     eggMoves: [
       "CAPTIVATE",
@@ -39754,7 +39802,8 @@ export const pokemonForms: PokemonForm[] =
       "UTURN",
       "WILDCHARGE",
       "WORKUP",
-      "ZENHEADBUTT"
+      "ZENHEADBUTT",
+      "TERABLAST"
     ],
     eggMoves: [
       "CAPTIVATE",
@@ -39899,7 +39948,8 @@ export const pokemonForms: PokemonForm[] =
       "UTURN",
       "WILDCHARGE",
       "WORKUP",
-      "ZENHEADBUTT"
+      "ZENHEADBUTT",
+      "TERABLAST"
     ],
     eggMoves: [
       "CAPTIVATE",
@@ -40044,7 +40094,8 @@ export const pokemonForms: PokemonForm[] =
       "UTURN",
       "WILDCHARGE",
       "WORKUP",
-      "ZENHEADBUTT"
+      "ZENHEADBUTT",
+      "TERABLAST"
     ],
     eggMoves: [
       "CAPTIVATE",
@@ -40189,7 +40240,8 @@ export const pokemonForms: PokemonForm[] =
       "UTURN",
       "WILDCHARGE",
       "WORKUP",
-      "ZENHEADBUTT"
+      "ZENHEADBUTT",
+      "TERABLAST"
     ],
     eggMoves: [
       "CAPTIVATE",
@@ -40557,7 +40609,8 @@ export const pokemonForms: PokemonForm[] =
       "SUNNYDAY",
       "SWAGGER",
       "SWORDSDANCE",
-      "TOXIC"
+      "TOXIC",
+      "TERABLAST"
     ],
     eggMoves: [
 
@@ -41052,7 +41105,8 @@ export const pokemonForms: PokemonForm[] =
       "TRICK",
       "TRICKROOM",
       "WILLOWISP",
-      "WORRYSEED"
+      "WORRYSEED",
+      "TERABLAST"
     ],
     eggMoves: [
       "CURSE",
@@ -41229,7 +41283,8 @@ export const pokemonForms: PokemonForm[] =
       "TRICK",
       "TRICKROOM",
       "WILLOWISP",
-      "WORRYSEED"
+      "WORRYSEED",
+      "TERABLAST"
     ],
     eggMoves: [
       "CURSE",
@@ -41406,7 +41461,8 @@ export const pokemonForms: PokemonForm[] =
       "TRICK",
       "TRICKROOM",
       "WILLOWISP",
-      "WORRYSEED"
+      "WORRYSEED",
+      "TERABLAST"
     ],
     eggMoves: [
       "CURSE",
@@ -41602,7 +41658,8 @@ export const pokemonForms: PokemonForm[] =
       "TRICK",
       "TRICKROOM",
       "WILLOWISP",
-      "WORRYSEED"
+      "WORRYSEED",
+      "TERABLAST"
     ],
     eggMoves: [
 
@@ -41796,7 +41853,8 @@ export const pokemonForms: PokemonForm[] =
       "TRICK",
       "TRICKROOM",
       "WILLOWISP",
-      "WORRYSEED"
+      "WORRYSEED",
+      "TERABLAST"
     ],
     eggMoves: [
 
@@ -41990,7 +42048,8 @@ export const pokemonForms: PokemonForm[] =
       "TRICK",
       "TRICKROOM",
       "WILLOWISP",
-      "WORRYSEED"
+      "WORRYSEED",
+      "TERABLAST"
     ],
     eggMoves: [
 
@@ -42339,7 +42398,8 @@ export const pokemonForms: PokemonForm[] =
       "THUNDERWAVE",
       "TOXIC",
       "WONDERROOM",
-      "ZENHEADBUTT"
+      "ZENHEADBUTT",
+      "TERABLAST"
     ],
     eggMoves: [
 
@@ -42517,7 +42577,8 @@ export const pokemonForms: PokemonForm[] =
       "SWAGGER",
       "SWIFT",
       "TOXIC",
-      "ZENHEADBUTT"
+      "ZENHEADBUTT",
+      "TERABLAST"
     ],
     eggMoves: [
 
@@ -42694,7 +42755,8 @@ export const pokemonForms: PokemonForm[] =
       "SWAGGER",
       "SWIFT",
       "TOXIC",
-      "ZENHEADBUTT"
+      "ZENHEADBUTT",
+      "TERABLAST"
     ],
     eggMoves: [
 
@@ -42871,7 +42933,8 @@ export const pokemonForms: PokemonForm[] =
       "SWAGGER",
       "SWIFT",
       "TOXIC",
-      "ZENHEADBUTT"
+      "ZENHEADBUTT",
+      "TERABLAST"
     ],
     eggMoves: [
 
@@ -44629,7 +44692,8 @@ export const pokemonForms: PokemonForm[] =
       "UTURN",
       "WATERFALL",
       "WATERPULSE",
-      "WHIRLPOOL"
+      "WHIRLPOOL",
+      "TERABLAST"
     ],
     eggMoves: [
       "MIST",
@@ -44836,7 +44900,8 @@ export const pokemonForms: PokemonForm[] =
       "UTURN",
       "WORKUP",
       "XSCISSOR",
-      "ZENHEADBUTT"
+      "ZENHEADBUTT",
+      "TERABLAST"
     ],
     eggMoves: [
 
@@ -45041,7 +45106,8 @@ export const pokemonForms: PokemonForm[] =
       "UTURN",
       "WORKUP",
       "XSCISSOR",
-      "ZENHEADBUTT"
+      "ZENHEADBUTT",
+      "TERABLAST"
     ],
     eggMoves: [
 
@@ -45246,7 +45312,8 @@ export const pokemonForms: PokemonForm[] =
       "UTURN",
       "WORKUP",
       "XSCISSOR",
-      "ZENHEADBUTT"
+      "ZENHEADBUTT",
+      "TERABLAST"
     ],
     eggMoves: [
 
@@ -45451,7 +45518,8 @@ export const pokemonForms: PokemonForm[] =
       "UTURN",
       "WORKUP",
       "XSCISSOR",
-      "ZENHEADBUTT"
+      "ZENHEADBUTT",
+      "TERABLAST"
     ],
     eggMoves: [
 
@@ -45656,7 +45724,8 @@ export const pokemonForms: PokemonForm[] =
       "UTURN",
       "WORKUP",
       "XSCISSOR",
-      "ZENHEADBUTT"
+      "ZENHEADBUTT",
+      "TERABLAST"
     ],
     eggMoves: [
 
@@ -45861,7 +45930,8 @@ export const pokemonForms: PokemonForm[] =
       "UTURN",
       "WORKUP",
       "XSCISSOR",
-      "ZENHEADBUTT"
+      "ZENHEADBUTT",
+      "TERABLAST"
     ],
     eggMoves: [
 
@@ -46066,7 +46136,8 @@ export const pokemonForms: PokemonForm[] =
       "UTURN",
       "WORKUP",
       "XSCISSOR",
-      "ZENHEADBUTT"
+      "ZENHEADBUTT",
+      "TERABLAST"
     ],
     eggMoves: [
 
@@ -46271,7 +46342,8 @@ export const pokemonForms: PokemonForm[] =
       "UTURN",
       "WORKUP",
       "XSCISSOR",
-      "ZENHEADBUTT"
+      "ZENHEADBUTT",
+      "TERABLAST"
     ],
     eggMoves: [
 
@@ -46476,7 +46548,8 @@ export const pokemonForms: PokemonForm[] =
       "UTURN",
       "WORKUP",
       "XSCISSOR",
-      "ZENHEADBUTT"
+      "ZENHEADBUTT",
+      "TERABLAST"
     ],
     eggMoves: [
 
@@ -46681,7 +46754,8 @@ export const pokemonForms: PokemonForm[] =
       "UTURN",
       "WORKUP",
       "XSCISSOR",
-      "ZENHEADBUTT"
+      "ZENHEADBUTT",
+      "TERABLAST"
     ],
     eggMoves: [
 
@@ -46886,7 +46960,8 @@ export const pokemonForms: PokemonForm[] =
       "UTURN",
       "WORKUP",
       "XSCISSOR",
-      "ZENHEADBUTT"
+      "ZENHEADBUTT",
+      "TERABLAST"
     ],
     eggMoves: [
 
@@ -47091,7 +47166,8 @@ export const pokemonForms: PokemonForm[] =
       "UTURN",
       "WORKUP",
       "XSCISSOR",
-      "ZENHEADBUTT"
+      "ZENHEADBUTT",
+      "TERABLAST"
     ],
     eggMoves: [
 
@@ -47296,7 +47372,8 @@ export const pokemonForms: PokemonForm[] =
       "UTURN",
       "WORKUP",
       "XSCISSOR",
-      "ZENHEADBUTT"
+      "ZENHEADBUTT",
+      "TERABLAST"
     ],
     eggMoves: [
 
@@ -47501,7 +47578,8 @@ export const pokemonForms: PokemonForm[] =
       "UTURN",
       "WORKUP",
       "XSCISSOR",
-      "ZENHEADBUTT"
+      "ZENHEADBUTT",
+      "TERABLAST"
     ],
     eggMoves: [
 
@@ -47706,7 +47784,8 @@ export const pokemonForms: PokemonForm[] =
       "UTURN",
       "WORKUP",
       "XSCISSOR",
-      "ZENHEADBUTT"
+      "ZENHEADBUTT",
+      "TERABLAST"
     ],
     eggMoves: [
 
@@ -47911,7 +47990,8 @@ export const pokemonForms: PokemonForm[] =
       "UTURN",
       "WORKUP",
       "XSCISSOR",
-      "ZENHEADBUTT"
+      "ZENHEADBUTT",
+      "TERABLAST"
     ],
     eggMoves: [
 
@@ -48116,7 +48196,8 @@ export const pokemonForms: PokemonForm[] =
       "UTURN",
       "WORKUP",
       "XSCISSOR",
-      "ZENHEADBUTT"
+      "ZENHEADBUTT",
+      "TERABLAST"
     ],
     eggMoves: [
 
@@ -48321,7 +48402,8 @@ export const pokemonForms: PokemonForm[] =
       "UTURN",
       "WORKUP",
       "XSCISSOR",
-      "ZENHEADBUTT"
+      "ZENHEADBUTT",
+      "TERABLAST"
     ],
     eggMoves: [
 
@@ -51096,7 +51178,8 @@ export const pokemonForms: PokemonForm[] =
       "UPROAR",
       "VENOMDRENCH",
       "VOLTSWITCH",
-      "WILDCHARGE"
+      "WILDCHARGE",
+      "TERABLAST"
     ],
     eggMoves: [
 
@@ -64025,7 +64108,8 @@ export const pokemonForms: PokemonForm[] =
       "WATERPULSE",
       "WEATHERBALL",
       "WILDCHARGE",
-      "ZENHEADBUTT"
+      "ZENHEADBUTT",
+      "TERABLAST"
     ],
     eggMoves: [
 
@@ -64168,7 +64252,8 @@ export const pokemonForms: PokemonForm[] =
       "WATERPULSE",
       "WEATHERBALL",
       "WILDCHARGE",
-      "ZENHEADBUTT"
+      "ZENHEADBUTT",
+      "TERABLAST"
     ],
     eggMoves: [
 
@@ -64182,6 +64267,4958 @@ export const pokemonForms: PokemonForm[] =
     formName: "Stellar Form",
     baseId: "TERAPAGOS",
     megaStone: null
+  },
+  {
+    id: "CLEFABLE",
+    name: "Clefable",
+    types: [
+      "FAIRY",
+      "FLYING"
+    ],
+    sprite: "/Front/CLEFABLE_1.png",
+    backSprite: "/Back/CLEFABLE_1.png",
+    description: "A Clefable uses its wings to skip lightly as if it were flying. Its bouncy step lets it even walk on water. On quiet, moonlit nights, it strolls on lakes.",
+    stats: {
+      hp: 95,
+      attack: 80,
+      defense: 93,
+      spAttack: 135,
+      spDefense: 110,
+      speed: 70
+    },
+    height: "1.7",
+    weight: "42.3",
+    abilities: [
+      "AERILATE"
+    ],
+    hiddenAbilities: [
+      "AERILATE"
+    ],
+    category: "Fairy",
+    moves: [
+      {
+        level: 1,
+        move: "SING"
+      },
+      {
+        level: 1,
+        move: "SWEETKISS"
+      },
+      {
+        level: 1,
+        move: "DISARMINGVOICE"
+      },
+      {
+        level: 1,
+        move: "CHARM"
+      },
+      {
+        level: 1,
+        move: "SPLASH"
+      },
+      {
+        level: 1,
+        move: "POUND"
+      },
+      {
+        level: 1,
+        move: "COPYCAT"
+      },
+      {
+        level: 1,
+        move: "GROWL"
+      },
+      {
+        level: 1,
+        move: "DEFENSECURL"
+      },
+      {
+        level: 1,
+        move: "STOREDPOWER"
+      },
+      {
+        level: 1,
+        move: "ENCORE"
+      },
+      {
+        level: 1,
+        move: "AFTERYOU"
+      },
+      {
+        level: 1,
+        move: "MOONLIGHT"
+      },
+      {
+        level: 1,
+        move: "GRAVITY"
+      },
+      {
+        level: 1,
+        move: "FOLLOWME"
+      },
+      {
+        level: 1,
+        move: "COSMICPOWER"
+      },
+      {
+        level: 1,
+        move: "HEALINGWISH"
+      },
+      {
+        level: 1,
+        move: "METRONOME"
+      },
+      {
+        level: 1,
+        move: "METEORMASH"
+      },
+      {
+        level: 1,
+        move: "MOONBLAST"
+      },
+      {
+        level: 1,
+        move: "LIFEDEW"
+      }
+    ],
+    tutorMoves: [
+      "AFTERYOU",
+      "ALLURINGVOICE",
+      "ALLYSWITCH",
+      "AMNESIA",
+      "ATTRACT",
+      "BATONPASS",
+      "BLIZZARD",
+      "BODYSLAM",
+      "BOUNCE",
+      "BRICKBREAK",
+      "CALMMIND",
+      "CAPTIVATE",
+      "CHARGEBEAM",
+      "CHARM",
+      "CHILLINGWATER",
+      "CONFIDE",
+      "COSMICPOWER",
+      "COUNTER",
+      "COVET",
+      "DAZZLINGGLEAM",
+      "DEFENSECURL",
+      "DIG",
+      "DISARMINGVOICE",
+      "DOUBLEEDGE",
+      "DOUBLETEAM",
+      "DRAININGKISS",
+      "DRAINPUNCH",
+      "DREAMEATER",
+      "DUALWINGBEAT",
+      "DYNAMICPUNCH",
+      "ECHOEDVOICE",
+      "ENCORE",
+      "ENDEAVOR",
+      "ENDURE",
+      "FACADE",
+      "FAKETEARS",
+      "FIREBLAST",
+      "FIREPUNCH",
+      "FLAMETHROWER",
+      "FLASH",
+      "FLING",
+      "FOCUSBLAST",
+      "FOCUSPUNCH",
+      "FRUSTRATION",
+      "FUTURESIGHT",
+      "GIGAIMPACT",
+      "GRASSKNOT",
+      "GRAVITY",
+      "HEADBUTT",
+      "HEALBELL",
+      "HELPINGHAND",
+      "HIDDENPOWER",
+      "HYPERBEAM",
+      "HYPERVOICE",
+      "ICEBEAM",
+      "ICEPUNCH",
+      "ICYWIND",
+      "IMPRISON",
+      "INCINERATE",
+      "IRONTAIL",
+      "KNOCKOFF",
+      "LASERFOCUS",
+      "LASTRESORT",
+      "LIGHTSCREEN",
+      "MAGICALLEAF",
+      "MAGICCOAT",
+      "MEGAKICK",
+      "MEGAPUNCH",
+      "METEORBEAM",
+      "METRONOME",
+      "MIMIC",
+      "MISTYEXPLOSION",
+      "MISTYTERRAIN",
+      "MYSTICALFIRE",
+      "NATURALGIFT",
+      "NIGHTSHADE",
+      "PLAYROUGH",
+      "POWERUPPUNCH",
+      "PROTECT",
+      "PSYBEAM",
+      "PSYCHIC",
+      "PSYCHUP",
+      "PSYSHOCK",
+      "RAINDANCE",
+      "RECYCLE",
+      "REFLECT",
+      "REST",
+      "RETALIATE",
+      "RETURN",
+      "ROCKSMASH",
+      "ROLEPLAY",
+      "ROLLOUT",
+      "ROUND",
+      "SAFEGUARD",
+      "SECRETPOWER",
+      "SEISMICTOSS",
+      "SHADOWBALL",
+      "SHOCKWAVE",
+      "SIGNALBEAM",
+      "SKILLSWAP",
+      "SLEEPTALK",
+      "SNATCH",
+      "SNORE",
+      "SOFTBOILED",
+      "SOLARBEAM",
+      "STEALTHROCK",
+      "STOREDPOWER",
+      "STRENGTH",
+      "SUBSTITUTE",
+      "SUNNYDAY",
+      "SWAGGER",
+      "SWIFT",
+      "TAKEDOWN",
+      "TELEKINESIS",
+      "TERABLAST",
+      "THIEF",
+      "THUNDER",
+      "THUNDERBOLT",
+      "THUNDERPUNCH",
+      "THUNDERWAVE",
+      "TRIATTACK",
+      "TRICK",
+      "UPROAR",
+      "WATERPULSE",
+      "WONDERROOM",
+      "WORKUP",
+      "ZENHEADBUTT"
+    ],
+    eggMoves: [
+
+    ],
+    suffix: "normal",
+    evolution: [
+
+    ],
+    color: "Pink",
+    formNumber: 1,
+    formName: "Mega Clefable",
+    baseId: "CLEFABLE",
+    megaStone: "CLEFABLITE"
+  },
+  {
+    id: "STARMIE",
+    name: "Starmie",
+    types: [
+      "WATER",
+      "PSYCHIC"
+    ],
+    sprite: "/Front/STARMIE_1.png",
+    backSprite: "/Back/STARMIE_1.png",
+    description: "People in ancient times imagined that Starmie were transformed from the reflections of stars that twinkled on gentle waves at night.",
+    stats: {
+      hp: 60,
+      attack: 100,
+      defense: 105,
+      spAttack: 130,
+      spDefense: 105,
+      speed: 120
+    },
+    height: "2.3",
+    weight: "80.0",
+    abilities: [
+      "HUGEPOWER"
+    ],
+    hiddenAbilities: [
+      "HUGEPOWER"
+    ],
+    category: "Mysterious",
+    moves: [
+      {
+        level: 1,
+        move: "RAPIDSPIN"
+      },
+      {
+        level: 1,
+        move: "MINIMIZE"
+      },
+      {
+        level: 1,
+        move: "SWIFT"
+      },
+      {
+        level: 1,
+        move: "PSYBEAM"
+      },
+      {
+        level: 1,
+        move: "BRINE"
+      },
+      {
+        level: 1,
+        move: "LIGHTSCREEN"
+      },
+      {
+        level: 1,
+        move: "POWERGEM"
+      },
+      {
+        level: 1,
+        move: "PSYCHIC"
+      },
+      {
+        level: 1,
+        move: "SURF"
+      },
+      {
+        level: 1,
+        move: "RECOVER"
+      },
+      {
+        level: 1,
+        move: "COSMICPOWER"
+      },
+      {
+        level: 1,
+        move: "HYDROPUMP"
+      },
+      {
+        level: 1,
+        move: "TACKLE"
+      },
+      {
+        level: 1,
+        move: "HARDEN"
+      },
+      {
+        level: 1,
+        move: "WATERGUN"
+      },
+      {
+        level: 1,
+        move: "CONFUSERAY"
+      }
+    ],
+    tutorMoves: [
+      "AGILITY",
+      "ALLYSWITCH",
+      "AVALANCHE",
+      "BLIZZARD",
+      "BRINE",
+      "CONFIDE",
+      "COSMICPOWER",
+      "DAZZLINGGLEAM",
+      "DIVE",
+      "DOUBLEEDGE",
+      "DOUBLETEAM",
+      "DREAMEATER",
+      "ENDURE",
+      "EXPANDINGFORCE",
+      "FACADE",
+      "FLASH",
+      "FLASHCANNON",
+      "FLIPTURN",
+      "FRUSTRATION",
+      "GIGAIMPACT",
+      "GRASSKNOT",
+      "GRAVITY",
+      "GYROBALL",
+      "HAIL",
+      "HIDDENPOWER",
+      "HYDROPUMP",
+      "HYPERBEAM",
+      "ICEBEAM",
+      "ICYWIND",
+      "LIGHTSCREEN",
+      "MAGICCOAT",
+      "METEORBEAM",
+      "MIMIC",
+      "NATURALGIFT",
+      "PAINSPLIT",
+      "POWERGEM",
+      "PROTECT",
+      "PSYCHIC",
+      "PSYCHOCUT",
+      "PSYCHUP",
+      "PSYSHOCK",
+      "RAINDANCE",
+      "RECYCLE",
+      "REFLECT",
+      "REST",
+      "RETURN",
+      "ROLLOUT",
+      "ROUND",
+      "SCALD",
+      "SECRETPOWER",
+      "SIGNALBEAM",
+      "SKILLSWAP",
+      "SLEEPTALK",
+      "SNORE",
+      "SUBSTITUTE",
+      "SURF",
+      "SWAGGER",
+      "SWIFT",
+      "TELEKINESIS",
+      "THUNDER",
+      "THUNDERBOLT",
+      "THUNDERWAVE",
+      "TRIATTACK",
+      "TRICK",
+      "TRICKROOM",
+      "TWISTER",
+      "WATERFALL",
+      "WATERPULSE",
+      "WHIRLPOOL",
+      "WONDERROOM",
+      "TERABLAST"
+    ],
+    eggMoves: [
+
+    ],
+    suffix: "normal",
+    evolution: [
+
+    ],
+    color: "Purple",
+    formNumber: 1,
+    formName: "Mega Starmie",
+    baseId: "STARMIE",
+    megaStone: "STARMINITE"
+  },
+  {
+    id: "VICTREEBEL",
+    name: "Victreebel",
+    types: [
+      "GRASS",
+      "POISON"
+    ],
+    sprite: "/Front/VICTREEBEL_1.png",
+    backSprite: "/Back/VICTREEBEL_1.png",
+    description: "The long vine extending from its head is waved about as if it were a living thing to attract prey. When an unsuspecting victim approaches, it is swallowed whole.",
+    stats: {
+      hp: 80,
+      attack: 125,
+      defense: 85,
+      spAttack: 135,
+      spDefense: 95,
+      speed: 70
+    },
+    height: "4.5",
+    weight: "125.5",
+    abilities: [
+      "CORROSION"
+    ],
+    hiddenAbilities: [
+      "CORROSION"
+    ],
+    category: "Flycatcher",
+    moves: [
+      {
+        level: 0,
+        move: "LEAFSTORM"
+      },
+      {
+        level: 1,
+        move: "STOCKPILE"
+      },
+      {
+        level: 1,
+        move: "SWALLOW"
+      },
+      {
+        level: 1,
+        move: "SPITUP"
+      },
+      {
+        level: 1,
+        move: "GASTROACID"
+      },
+      {
+        level: 1,
+        move: "POWERWHIP"
+      },
+      {
+        level: 1,
+        move: "VINEWHIP"
+      },
+      {
+        level: 1,
+        move: "SLEEPPOWDER"
+      },
+      {
+        level: 1,
+        move: "SWEETSCENT"
+      },
+      {
+        level: 1,
+        move: "RAZORLEAF"
+      },
+      {
+        level: 44,
+        move: "LEAFBLADE"
+      }
+    ],
+    tutorMoves: [
+      "ACIDSPRAY",
+      "ATTRACT",
+      "BIND",
+      "BODYSLAM",
+      "BUGBITE",
+      "BULLETSEED",
+      "CAPTIVATE",
+      "CONFIDE",
+      "CUT",
+      "DOUBLETEAM",
+      "ENCORE",
+      "ENDURE",
+      "ENERGYBALL",
+      "FACADE",
+      "FLASH",
+      "FRUSTRATION",
+      "GASTROACID",
+      "GIGADRAIN",
+      "GIGAIMPACT",
+      "GRASSKNOT",
+      "GRASSYGLIDE",
+      "GRASSYTERRAIN",
+      "HIDDENPOWER",
+      "HYPERBEAM",
+      "INFESTATION",
+      "KNOCKOFF",
+      "LEAFSTORM",
+      "LEECHLIFE",
+      "LUNGE",
+      "MAGICALLEAF",
+      "MIMIC",
+      "NATURALGIFT",
+      "NATUREPOWER",
+      "POISONJAB",
+      "POUNCE",
+      "PROTECT",
+      "REFLECT",
+      "REST",
+      "RETURN",
+      "ROUND",
+      "SCARYFACE",
+      "SECRETPOWER",
+      "SEEDBOMB",
+      "SLEEPTALK",
+      "SLUDGEBOMB",
+      "SLUDGEWAVE",
+      "SNORE",
+      "SOLARBEAM",
+      "SUBSTITUTE",
+      "SUCKERPUNCH",
+      "SUNNYDAY",
+      "SWAGGER",
+      "SWIFT",
+      "SWORDSDANCE",
+      "SYNTHESIS",
+      "TERABLAST",
+      "THIEF",
+      "TOXIC",
+      "TRAILBLAZE",
+      "VENOSHOCK",
+      "WEATHERBALL",
+      "WORRYSEED"
+    ],
+    eggMoves: [
+
+    ],
+    suffix: "normal",
+    evolution: [
+
+    ],
+    color: "Green",
+    formNumber: 1,
+    formName: "Mega Victreebel",
+    baseId: "VICTREEBEL",
+    megaStone: "VICTREEBELITE"
+  },
+  {
+    id: "DRAGONITE",
+    name: "Dragonite",
+    types: [
+      "DRAGON",
+      "FLYING"
+    ],
+    sprite: "/Front/DRAGONITE_1.png",
+    backSprite: "/Back/DRAGONITE_1.png",
+    description: "It can circle the globe in just 16 hours. It is a kindhearted Pokémon that leads lost and foundering ships in a storm to the safety of land.",
+    stats: {
+      hp: 91,
+      attack: 124,
+      defense: 115,
+      spAttack: 145,
+      spDefense: 125,
+      speed: 100
+    },
+    height: "2.2",
+    weight: "290.0",
+    abilities: [
+      "MULTISCALE"
+    ],
+    hiddenAbilities: [
+      "MULTISCALE"
+    ],
+    category: "Dragon",
+    moves: [
+      {
+        level: 0,
+        move: "HURRICANE"
+      },
+      {
+        level: 1,
+        move: "WINGATTACK"
+      },
+      {
+        level: 1,
+        move: "EXTREMESPEED"
+      },
+      {
+        level: 1,
+        move: "ROOST"
+      },
+      {
+        level: 1,
+        move: "FIREPUNCH"
+      },
+      {
+        level: 1,
+        move: "THUNDERPUNCH"
+      },
+      {
+        level: 1,
+        move: "WRAP"
+      },
+      {
+        level: 1,
+        move: "LEER"
+      },
+      {
+        level: 1,
+        move: "TWISTER"
+      },
+      {
+        level: 1,
+        move: "THUNDERWAVE"
+      },
+      {
+        level: 15,
+        move: "DRAGONTAIL"
+      },
+      {
+        level: 20,
+        move: "AGILITY"
+      },
+      {
+        level: 25,
+        move: "SLAM"
+      },
+      {
+        level: 33,
+        move: "AQUATAIL"
+      },
+      {
+        level: 39,
+        move: "DRAGONRUSH"
+      },
+      {
+        level: 41,
+        move: "OUTRAGE"
+      },
+      {
+        level: 46,
+        move: "SAFEGUARD"
+      },
+      {
+        level: 53,
+        move: "RAINDANCE"
+      },
+      {
+        level: 62,
+        move: "DRAGONDANCE"
+      },
+      {
+        level: 80,
+        move: "HYPERBEAM"
+      }
+    ],
+    tutorMoves: [
+      "AERIALACE",
+      "AGILITY",
+      "AIRCUTTER",
+      "AIRSLASH",
+      "AQUATAIL",
+      "ATTRACT",
+      "BIND",
+      "BLIZZARD",
+      "BODYPRESS",
+      "BODYSLAM",
+      "BREAKINGSWIPE",
+      "BRICKBREAK",
+      "BRUTALSWING",
+      "BULLDOZE",
+      "CAPTIVATE",
+      "CHILLINGWATER",
+      "CONFIDE",
+      "CUT",
+      "DEFOG",
+      "DIVE",
+      "DOUBLETEAM",
+      "DRACOMETEOR",
+      "DRAGONCHEER",
+      "DRAGONCLAW",
+      "DRAGONDANCE",
+      "DRAGONPULSE",
+      "DRAGONTAIL",
+      "DYNAMICPUNCH",
+      "EARTHQUAKE",
+      "ENCORE",
+      "ENDURE",
+      "FACADE",
+      "FIREBLAST",
+      "FIREPUNCH",
+      "FIRESPIN",
+      "FLAMETHROWER",
+      "FLING",
+      "FLY",
+      "FOCUSBLAST",
+      "FOCUSPUNCH",
+      "FRUSTRATION",
+      "FURYCUTTER",
+      "GIGAIMPACT",
+      "HAIL",
+      "HAZE",
+      "HEADBUTT",
+      "HEATWAVE",
+      "HELPINGHAND",
+      "HIDDENPOWER",
+      "HONECLAWS",
+      "HURRICANE",
+      "HYDROPUMP",
+      "HYPERBEAM",
+      "ICEBEAM",
+      "ICEPUNCH",
+      "ICESPINNER",
+      "ICYWIND",
+      "INCINERATE",
+      "IRONHEAD",
+      "IRONTAIL",
+      "LIGHTSCREEN",
+      "LOWKICK",
+      "MEGAKICK",
+      "MEGAPUNCH",
+      "METRONOME",
+      "MIMIC",
+      "NATURALGIFT",
+      "OMINOUSWIND",
+      "OUTRAGE",
+      "POWERUPPUNCH",
+      "PROTECT",
+      "RAINDANCE",
+      "REST",
+      "RETURN",
+      "ROAR",
+      "ROCKSLIDE",
+      "ROCKSMASH",
+      "ROCKTOMB",
+      "ROOST",
+      "ROUND",
+      "SAFEGUARD",
+      "SANDSTORM",
+      "SCALESHOT",
+      "SCARYFACE",
+      "SECRETPOWER",
+      "SHOCKWAVE",
+      "SKYDROP",
+      "SLEEPTALK",
+      "SNORE",
+      "SNOWSCAPE",
+      "STEELWING",
+      "STOMPINGTANTRUM",
+      "STONEEDGE",
+      "STRENGTH",
+      "SUBSTITUTE",
+      "SUNNYDAY",
+      "SUPERPOWER",
+      "SURF",
+      "SWAGGER",
+      "SWIFT",
+      "TAILWIND",
+      "TAKEDOWN",
+      "TERABLAST",
+      "THUNDER",
+      "THUNDERBOLT",
+      "THUNDERPUNCH",
+      "THUNDERWAVE",
+      "TWISTER",
+      "WATERFALL",
+      "WATERPULSE",
+      "WEATHERBALL"
+    ],
+    eggMoves: [
+
+    ],
+    suffix: "normal",
+    evolution: [
+
+    ],
+    color: "Brown",
+    formNumber: 1,
+    formName: "Mega Dragonite",
+    baseId: "DRAGONITE",
+    megaStone: "DRAGONINITE"
+  },
+  {
+    id: "MEGANIUM",
+    name: "Meganium",
+    types: [
+      "GRASS",
+      "FAIRY"
+    ],
+    sprite: "/Front/MEGANIUM_1.png",
+    backSprite: "/Back/MEGANIUM_1.png",
+    description: "The fragrance of a Meganium's flower soothes and calms emotions. In battle, it gives off more of its becalming scent to blunt the foe's fighting spirit.",
+    stats: {
+      hp: 80,
+      attack: 92,
+      defense: 115,
+      spAttack: 143,
+      spDefense: 115,
+      speed: 80
+    },
+    height: "2.4",
+    weight: "201.0",
+    abilities: [
+      "FILTER"
+    ],
+    hiddenAbilities: [
+      "FILTER"
+    ],
+    category: "Herb",
+    moves: [
+      {
+        level: 0,
+        move: "PETALDANCE"
+      },
+      {
+        level: 1,
+        move: "PETALBLIZZARD"
+      },
+      {
+        level: 1,
+        move: "TACKLE"
+      },
+      {
+        level: 1,
+        move: "GROWL"
+      },
+      {
+        level: 1,
+        move: "RAZORLEAF"
+      },
+      {
+        level: 1,
+        move: "POISONPOWDER"
+      },
+      {
+        level: 12,
+        move: "SYNTHESIS"
+      },
+      {
+        level: 18,
+        move: "REFLECT"
+      },
+      {
+        level: 22,
+        move: "MAGICALLEAF"
+      },
+      {
+        level: 26,
+        move: "LEECHSEED"
+      },
+      {
+        level: 34,
+        move: "SWEETSCENT"
+      },
+      {
+        level: 40,
+        move: "LIGHTSCREEN"
+      },
+      {
+        level: 46,
+        move: "BODYSLAM"
+      },
+      {
+        level: 54,
+        move: "SAFEGUARD"
+      },
+      {
+        level: 60,
+        move: "GIGADRAIN"
+      },
+      {
+        level: 65,
+        move: "SOLARBEAM"
+      }
+    ],
+    tutorMoves: [
+      "ANCIENTPOWER",
+      "ATTRACT",
+      "BODYPRESS",
+      "BODYSLAM",
+      "BULLDOZE",
+      "BULLETSEED",
+      "CAPTIVATE",
+      "CHARM",
+      "CONFIDE",
+      "COUNTER",
+      "CURSE",
+      "CUT",
+      "DOUBLEEDGE",
+      "DOUBLETEAM",
+      "DRAGONTAIL",
+      "EARTHQUAKE",
+      "ECHOEDVOICE",
+      "ENCORE",
+      "ENDEAVOR",
+      "ENDURE",
+      "ENERGYBALL",
+      "FACADE",
+      "FAKETEARS",
+      "FLASH",
+      "FRENZYPLANT",
+      "FRUSTRATION",
+      "FURYCUTTER",
+      "GIGADRAIN",
+      "GIGAIMPACT",
+      "GRASSKNOT",
+      "GRASSPLEDGE",
+      "GRASSYGLIDE",
+      "GRASSYTERRAIN",
+      "HEADBUTT",
+      "HELPINGHAND",
+      "HIDDENPOWER",
+      "HYPERBEAM",
+      "IRONTAIL",
+      "KNOCKOFF",
+      "LASERFOCUS",
+      "LEAFSTORM",
+      "LIGHTSCREEN",
+      "MAGICALLEAF",
+      "MAGICCOAT",
+      "MIMIC",
+      "MUDSLAP",
+      "NATURALGIFT",
+      "NATUREPOWER",
+      "OUTRAGE",
+      "PETALBLIZZARD",
+      "PROTECT",
+      "REFLECT",
+      "REST",
+      "RETURN",
+      "ROCKCLIMB",
+      "ROCKSMASH",
+      "ROUND",
+      "SAFEGUARD",
+      "SECRETPOWER",
+      "SEEDBOMB",
+      "SLEEPTALK",
+      "SNORE",
+      "SOLARBEAM",
+      "SOLARBLADE",
+      "STOMPINGTANTRUM",
+      "STRENGTH",
+      "SUBSTITUTE",
+      "SUNNYDAY",
+      "SWAGGER",
+      "SWORDSDANCE",
+      "SYNTHESIS",
+      "TAKEDOWN",
+      "TERABLAST",
+      "TRAILBLAZE",
+      "WEATHERBALL",
+      "WORKUP",
+      "WORRYSEED",
+      "ZENHEADBUTT"
+    ],
+    eggMoves: [
+
+    ],
+    suffix: "normal",
+    evolution: [
+
+    ],
+    color: "Green",
+    formNumber: 1,
+    formName: "Mega Meganium",
+    baseId: "MEGANIUM",
+    megaStone: "MEGANIUMITE"
+  },
+  {
+    id: "FERALIGATR",
+    name: "Feraligatr",
+    types: [
+      "WATER",
+      "DRAGON"
+    ],
+    sprite: "/Front/FERALIGATR_1.png",
+    backSprite: "/Back/FERALIGATR_1.png",
+    description: "It opens its huge mouth to intimidate enemies. In battle, it runs using its thick and powerful hind legs to charge the foe with incredible speed.",
+    stats: {
+      hp: 85,
+      attack: 160,
+      defense: 125,
+      spAttack: 89,
+      spDefense: 93,
+      speed: 78
+    },
+    height: "2.3",
+    weight: "108.8",
+    abilities: [
+      "SHEERFORCE"
+    ],
+    hiddenAbilities: [
+      "SHEERFORCE"
+    ],
+    category: "Bifauces",
+    moves: [
+      {
+        level: 1,
+        move: "AGILITY"
+      },
+      {
+        level: 1,
+        move: "SCRATCH"
+      },
+      {
+        level: 1,
+        move: "LEER"
+      },
+      {
+        level: 1,
+        move: "WATERGUN"
+      },
+      {
+        level: 13,
+        move: "BITE"
+      },
+      {
+        level: 15,
+        move: "SCARYFACE"
+      },
+      {
+        level: 21,
+        move: "ICEFANG"
+      },
+      {
+        level: 24,
+        move: "FLAIL"
+      },
+      {
+        level: 32,
+        move: "CRUNCH"
+      },
+      {
+        level: 37,
+        move: "SLASH"
+      },
+      {
+        level: 44,
+        move: "SCREECH"
+      },
+      {
+        level: 51,
+        move: "THRASH"
+      },
+      {
+        level: 59,
+        move: "AQUATAIL"
+      },
+      {
+        level: 65,
+        move: "SUPERPOWER"
+      },
+      {
+        level: 70,
+        move: "HYDROPUMP"
+      }
+    ],
+    tutorMoves: [
+      "AERIALACE",
+      "AGILITY",
+      "ANCIENTPOWER",
+      "AQUATAIL",
+      "ATTRACT",
+      "AVALANCHE",
+      "BLIZZARD",
+      "BLOCK",
+      "BODYSLAM",
+      "BREAKINGSWIPE",
+      "BRICKBREAK",
+      "BULLDOZE",
+      "CAPTIVATE",
+      "CHILLINGWATER",
+      "CONFIDE",
+      "COUNTER",
+      "CRUNCH",
+      "CURSE",
+      "CUT",
+      "DIG",
+      "DIVE",
+      "DOUBLEEDGE",
+      "DOUBLETEAM",
+      "DRAGONCLAW",
+      "DRAGONDANCE",
+      "DRAGONTAIL",
+      "DYNAMICPUNCH",
+      "EARTHQUAKE",
+      "ENDEAVOR",
+      "ENDURE",
+      "FACADE",
+      "FAKETEARS",
+      "FLING",
+      "FLIPTURN",
+      "FOCUSBLAST",
+      "FOCUSPUNCH",
+      "FRUSTRATION",
+      "FURYCUTTER",
+      "GIGAIMPACT",
+      "HEADBUTT",
+      "HELPINGHAND",
+      "HIDDENPOWER",
+      "HONECLAWS",
+      "HYDROCANNON",
+      "HYDROPUMP",
+      "HYPERBEAM",
+      "ICEBEAM",
+      "ICEFANG",
+      "ICEPUNCH",
+      "ICYWIND",
+      "IRONTAIL",
+      "LASHOUT",
+      "LIQUIDATION",
+      "LOWKICK",
+      "MEGAKICK",
+      "MEGAPUNCH",
+      "METALCLAW",
+      "MIMIC",
+      "MUDDYWATER",
+      "MUDSLAP",
+      "NATURALGIFT",
+      "OUTRAGE",
+      "POWERUPPUNCH",
+      "PROTECT",
+      "PSYCHICFANGS",
+      "RAINDANCE",
+      "REST",
+      "RETURN",
+      "ROAR",
+      "ROCKCLIMB",
+      "ROCKSLIDE",
+      "ROCKSMASH",
+      "ROCKTOMB",
+      "ROUND",
+      "SCALESHOT",
+      "SCARYFACE",
+      "SECRETPOWER",
+      "SEISMICTOSS",
+      "SHADOWCLAW",
+      "SLEEPTALK",
+      "SNARL",
+      "SNORE",
+      "SPITE",
+      "STOMPINGTANTRUM",
+      "STRENGTH",
+      "SUBSTITUTE",
+      "SUPERPOWER",
+      "SURF",
+      "SWAGGER",
+      "SWORDSDANCE",
+      "TAKEDOWN",
+      "TERABLAST",
+      "THIEF",
+      "TRAILBLAZE",
+      "UPROAR",
+      "WATERFALL",
+      "WATERPLEDGE",
+      "WATERPULSE",
+      "WHIRLPOOL",
+      "WORKUP"
+    ],
+    eggMoves: [
+
+    ],
+    suffix: "normal",
+    evolution: [
+
+    ],
+    color: "Blue",
+    formNumber: 1,
+    formName: "Mega Feraligatr",
+    baseId: "FERALIGATR",
+    megaStone: "FERALIGITE"
+  },
+  {
+    id: "SKARMORY",
+    name: "Skarmory",
+    types: [
+      "STEEL",
+      "FLYING"
+    ],
+    sprite: "/Front/SKARMORY_1.png",
+    backSprite: "/Back/SKARMORY_1.png",
+    description: "A Pokémon that has a body and wings of steel. People in the past used feathers fallen from Skarmory to make swords and knives.",
+    stats: {
+      hp: 65,
+      attack: 140,
+      defense: 110,
+      spAttack: 40,
+      spDefense: 100,
+      speed: 110
+    },
+    height: "1.7",
+    weight: "40.4",
+    abilities: [
+      "TOUGHCLAWS"
+    ],
+    hiddenAbilities: [
+      "TOUGHCLAWS"
+    ],
+    category: "Armor Bird",
+    moves: [
+      {
+        level: 1,
+        move: "PECK"
+      },
+      {
+        level: 1,
+        move: "LEER"
+      },
+      {
+        level: 4,
+        move: "SANDATTACK"
+      },
+      {
+        level: 8,
+        move: "FURYATTACK"
+      },
+      {
+        level: 12,
+        move: "METALCLAW"
+      },
+      {
+        level: 16,
+        move: "AGILITY"
+      },
+      {
+        level: 20,
+        move: "WINGATTACK"
+      },
+      {
+        level: 24,
+        move: "SLASH"
+      },
+      {
+        level: 28,
+        move: "STEELWING"
+      },
+      {
+        level: 32,
+        move: "PAYBACK"
+      },
+      {
+        level: 36,
+        move: "DRILLPECK"
+      },
+      {
+        level: 40,
+        move: "METALSOUND"
+      },
+      {
+        level: 44,
+        move: "SPIKES"
+      },
+      {
+        level: 48,
+        move: "IRONDEFENSE"
+      },
+      {
+        level: 52,
+        move: "BRAVEBIRD"
+      }
+    ],
+    tutorMoves: [
+      "AERIALACE",
+      "AGILITY",
+      "AIRCUTTER",
+      "AIRSLASH",
+      "ASSURANCE",
+      "ATTRACT",
+      "BODYPRESS",
+      "BRAVEBIRD",
+      "CAPTIVATE",
+      "CONFIDE",
+      "COUNTER",
+      "CURSE",
+      "CUT",
+      "DARKPULSE",
+      "DEFOG",
+      "DOUBLETEAM",
+      "DRILLRUN",
+      "DUALWINGBEAT",
+      "ENDURE",
+      "FACADE",
+      "FLASH",
+      "FLASHCANNON",
+      "FLY",
+      "FRUSTRATION",
+      "FURYCUTTER",
+      "GIGAIMPACT",
+      "GUARDSWAP",
+      "HIDDENPOWER",
+      "HURRICANE",
+      "HYPERBEAM",
+      "ICYWIND",
+      "IRONDEFENSE",
+      "IRONHEAD",
+      "METALCLAW",
+      "METALSOUND",
+      "MIMIC",
+      "NATURALGIFT",
+      "OMINOUSWIND",
+      "PAYBACK",
+      "PLUCK",
+      "PROTECT",
+      "REST",
+      "RETURN",
+      "REVERSAL",
+      "ROAR",
+      "ROCKSLIDE",
+      "ROCKSMASH",
+      "ROCKTOMB",
+      "ROOST",
+      "ROUND",
+      "SANDSTORM",
+      "SANDTOMB",
+      "SECRETPOWER",
+      "SKYATTACK",
+      "SKYDROP",
+      "SLEEPTALK",
+      "SNORE",
+      "SPIKES",
+      "STEALTHROCK",
+      "STEELBEAM",
+      "STEELWING",
+      "SUBSTITUTE",
+      "SUNNYDAY",
+      "SWAGGER",
+      "SWIFT",
+      "SWORDSDANCE",
+      "TAILWIND",
+      "TAKEDOWN",
+      "TAUNT",
+      "TERABLAST",
+      "THIEF",
+      "TORMENT",
+      "TWISTER",
+      "XSCISSOR"
+    ],
+    eggMoves: [
+      "AIRCUTTER",
+      "ASSURANCE",
+      "BRAVEBIRD",
+      "CURSE",
+      "DRILLPECK",
+      "FEINT",
+      "GUARDSWAP",
+      "NIGHTSLASH",
+      "ROOST",
+      "SKYATTACK",
+      "WHIRLWIND"
+    ],
+    suffix: "normal",
+    evolution: [
+
+    ],
+    color: "Gray",
+    formNumber: 1,
+    formName: "Mega Skarmory",
+    baseId: "SKARMORY",
+    megaStone: "SKARMORITE"
+  },
+  {
+    id: "FROSLASS",
+    name: "Froslass",
+    types: [
+      "ICE",
+      "GHOST"
+    ],
+    sprite: "/Front/FROSLASS_1.png",
+    backSprite: "/Back/FROSLASS_1.png",
+    description: "It freezes foes with an icy breath nearly -60 degrees F. What seems to be its body is actually hollow.",
+    stats: {
+      hp: 70,
+      attack: 80,
+      defense: 70,
+      spAttack: 140,
+      spDefense: 100,
+      speed: 120
+    },
+    height: "2.6",
+    weight: "29.6",
+    abilities: [
+      "SNOWWARNING"
+    ],
+    hiddenAbilities: [
+      "SNOWWARNING"
+    ],
+    category: "Snow Land",
+    moves: [
+      {
+        level: 0,
+        move: "HEX"
+      },
+      {
+        level: 1,
+        move: "DESTINYBOND"
+      },
+      {
+        level: 1,
+        move: "PROTECT"
+      },
+      {
+        level: 1,
+        move: "BITE"
+      },
+      {
+        level: 1,
+        move: "ICEFANG"
+      },
+      {
+        level: 1,
+        move: "CRUNCH"
+      },
+      {
+        level: 1,
+        move: "ASTONISH"
+      },
+      {
+        level: 1,
+        move: "POWDERSNOW"
+      },
+      {
+        level: 1,
+        move: "HEADBUTT"
+      },
+      {
+        level: 1,
+        move: "LEER"
+      },
+      {
+        level: 1,
+        move: "DOUBLETEAM"
+      },
+      {
+        level: 15,
+        move: "ICESHARD"
+      },
+      {
+        level: 20,
+        move: "DRAININGKISS"
+      },
+      {
+        level: 25,
+        move: "ICYWIND"
+      },
+      {
+        level: 30,
+        move: "FROSTBREATH"
+      },
+      {
+        level: 35,
+        move: "CONFUSERAY"
+      },
+      {
+        level: 40,
+        move: "SNOWSCAPE"
+      },
+      {
+        level: 47,
+        move: "WILLOWISP"
+      },
+      {
+        level: 54,
+        move: "AURORAVEIL"
+      },
+      {
+        level: 61,
+        move: "SHADOWBALL"
+      },
+      {
+        level: 68,
+        move: "BLIZZARD"
+      }
+    ],
+    tutorMoves: [
+      "ALLYSWITCH",
+      "ATTRACT",
+      "AURORAVEIL",
+      "AVALANCHE",
+      "BLIZZARD",
+      "BLOCK",
+      "BODYSLAM",
+      "CAPTIVATE",
+      "CHARM",
+      "CHILLINGWATER",
+      "CONFIDE",
+      "CONFUSERAY",
+      "CRUNCH",
+      "CURSE",
+      "DOUBLETEAM",
+      "DRAININGKISS",
+      "DREAMEATER",
+      "EMBARGO",
+      "ENDURE",
+      "FACADE",
+      "FAKETEARS",
+      "FLASH",
+      "FLING",
+      "FROSTBREATH",
+      "FRUSTRATION",
+      "GIGAIMPACT",
+      "HAIL",
+      "HAZE",
+      "HEADBUTT",
+      "HELPINGHAND",
+      "HEX",
+      "HIDDENPOWER",
+      "HYPERBEAM",
+      "ICEBEAM",
+      "ICEFANG",
+      "ICEPUNCH",
+      "ICESPINNER",
+      "ICICLESPEAR",
+      "ICYWIND",
+      "IMPRISON",
+      "LASERFOCUS",
+      "LIGHTSCREEN",
+      "MIMIC",
+      "NATURALGIFT",
+      "NIGHTSHADE",
+      "OMINOUSWIND",
+      "PAINSPLIT",
+      "PAYBACK",
+      "POLTERGEIST",
+      "PROTECT",
+      "PSYCHIC",
+      "PSYCHUP",
+      "RAINDANCE",
+      "REFLECT",
+      "REST",
+      "RETURN",
+      "ROLLOUT",
+      "ROUND",
+      "SAFEGUARD",
+      "SCARYFACE",
+      "SECRETPOWER",
+      "SHADOWBALL",
+      "SHOCKWAVE",
+      "SIGNALBEAM",
+      "SLEEPTALK",
+      "SNATCH",
+      "SNORE",
+      "SNOWSCAPE",
+      "SPIKES",
+      "SPITE",
+      "SUBSTITUTE",
+      "SUCKERPUNCH",
+      "SWAGGER",
+      "TAKEDOWN",
+      "TAUNT",
+      "TELEKINESIS",
+      "TERABLAST",
+      "THUNDER",
+      "THUNDERBOLT",
+      "THUNDERWAVE",
+      "TORMENT",
+      "TRAILBLAZE",
+      "TRICK",
+      "TRIPLEAXEL",
+      "WATERPULSE",
+      "WEATHERBALL",
+      "WILLOWISP"
+    ],
+    eggMoves: [
+
+    ],
+    suffix: "normal",
+    evolution: [
+
+    ],
+    color: "White",
+    formNumber: 1,
+    formName: "Mega Froslass",
+    baseId: "FROSLASS",
+    megaStone: "FROSLASSITE"
+  },
+  {
+    id: "EMBOAR",
+    name: "Emboar",
+    types: [
+      "FIRE",
+      "FIGHTING"
+    ],
+    sprite: "/Front/EMBOAR_1.png",
+    backSprite: "/Back/EMBOAR_1.png",
+    description: "It can throw a fire punch by setting its fists on fire with its fiery chin. It cares deeply about its friends.",
+    stats: {
+      hp: 110,
+      attack: 148,
+      defense: 75,
+      spAttack: 110,
+      spDefense: 110,
+      speed: 75
+    },
+    height: "1.8",
+    weight: "180.3",
+    abilities: [
+      "RECKLESS"
+    ],
+    hiddenAbilities: [
+      "RECKLESS"
+    ],
+    category: "Mega Fire Pig",
+    moves: [
+      {
+        level: 1,
+        move: "ENDURE"
+      },
+      {
+        level: 1,
+        move: "HAMMERARM"
+      },
+      {
+        level: 1,
+        move: "ARMTHRUST"
+      },
+      {
+        level: 1,
+        move: "TACKLE"
+      },
+      {
+        level: 1,
+        move: "TAILWHIP"
+      },
+      {
+        level: 1,
+        move: "EMBER"
+      },
+      {
+        level: 13,
+        move: "DEFENSECURL"
+      },
+      {
+        level: 15,
+        move: "FLAMECHARGE"
+      },
+      {
+        level: 20,
+        move: "SMOG"
+      },
+      {
+        level: 23,
+        move: "ROLLOUT"
+      },
+      {
+        level: 28,
+        move: "TAKEDOWN"
+      },
+      {
+        level: 31,
+        move: "HEATCRASH"
+      },
+      {
+        level: 38,
+        move: "ASSURANCE"
+      },
+      {
+        level: 43,
+        move: "FLAMETHROWER"
+      },
+      {
+        level: 50,
+        move: "HEADSMASH"
+      },
+      {
+        level: 55,
+        move: "ROAR"
+      },
+      {
+        level: 62,
+        move: "FLAREBLITZ"
+      }
+    ],
+    tutorMoves: [
+      "ATTRACT",
+      "BLASTBURN",
+      "BLOCK",
+      "BODYPRESS",
+      "BODYSLAM",
+      "BRICKBREAK",
+      "BULKUP",
+      "BULLDOZE",
+      "CAPTIVATE",
+      "CLOSECOMBAT",
+      "COACHING",
+      "CONFIDE",
+      "COVET",
+      "CURSE",
+      "DIG",
+      "DOUBLEEDGE",
+      "DOUBLETEAM",
+      "DRAINPUNCH",
+      "EARTHQUAKE",
+      "ECHOEDVOICE",
+      "ENDEAVOR",
+      "ENDURE",
+      "FACADE",
+      "FIREBLAST",
+      "FIREPLEDGE",
+      "FIREPUNCH",
+      "FIRESPIN",
+      "FLAMECHARGE",
+      "FLAMETHROWER",
+      "FLAREBLITZ",
+      "FLING",
+      "FOCUSBLAST",
+      "FOCUSPUNCH",
+      "FRUSTRATION",
+      "GIGAIMPACT",
+      "GRASSKNOT",
+      "GYROBALL",
+      "HARDPRESS",
+      "HEATCRASH",
+      "HEATWAVE",
+      "HEAVYSLAM",
+      "HELPINGHAND",
+      "HIDDENPOWER",
+      "HIGHHORSEPOWER",
+      "HYPERBEAM",
+      "INCINERATE",
+      "IRONHEAD",
+      "IRONTAIL",
+      "KNOCKOFF",
+      "LOWKICK",
+      "LOWSWEEP",
+      "MIMIC",
+      "MUDSLAP",
+      "NATURALGIFT",
+      "OVERHEAT",
+      "POISONJAB",
+      "POWERUPPUNCH",
+      "PROTECT",
+      "REST",
+      "RETURN",
+      "REVERSAL",
+      "ROAR",
+      "ROCKSLIDE",
+      "ROCKSMASH",
+      "ROCKTOMB",
+      "ROUND",
+      "SCALD",
+      "SCARYFACE",
+      "SECRETPOWER",
+      "SLEEPTALK",
+      "SMACKDOWN",
+      "SNORE",
+      "SOLARBEAM",
+      "STOMPINGTANTRUM",
+      "STONEEDGE",
+      "STRENGTH",
+      "SUBSTITUTE",
+      "SUNNYDAY",
+      "SUPERPOWER",
+      "SWAGGER",
+      "TAKEDOWN",
+      "TAUNT",
+      "TEMPERFLARE",
+      "TERABLAST",
+      "THUNDERPUNCH",
+      "TRAILBLAZE",
+      "WILDCHARGE",
+      "WILLOWISP",
+      "WORKUP",
+      "ZENHEADBUTT"
+    ],
+    eggMoves: [
+
+    ],
+    suffix: "normal",
+    evolution: [
+
+    ],
+    color: "Red",
+    formNumber: 1,
+    formName: "Mega Emboar",
+    baseId: "EMBOAR",
+    megaStone: "EMBOARITE"
+  },
+  {
+    id: "EXCADRILL",
+    name: "Excadrill",
+    types: [
+      "GROUND",
+      "STEEL"
+    ],
+    sprite: "/Front/EXCADRILL_1.png",
+    backSprite: "/Back/EXCADRILL_1.png",
+    description: "More than 300 feet below the surface, they build mazelike nests. Their activity can be destructive to subway tunnels.",
+    stats: {
+      hp: 110,
+      attack: 165,
+      defense: 100,
+      spAttack: 65,
+      spDefense: 65,
+      speed: 103
+    },
+    height: "3.2",
+    weight: "230.3",
+    abilities: [
+      "MOLDBREAKER"
+    ],
+    hiddenAbilities: [
+      "MOLDBREAKER"
+    ],
+    category: "Subterrene",
+    moves: [
+      {
+        level: 0,
+        move: "HORNDRILL"
+      },
+      {
+        level: 1,
+        move: "MUDSLAP"
+      },
+      {
+        level: 1,
+        move: "RAPIDSPIN"
+      },
+      {
+        level: 1,
+        move: "SCRATCH"
+      },
+      {
+        level: 1,
+        move: "HONECLAWS"
+      },
+      {
+        level: 12,
+        move: "FURYSWIPES"
+      },
+      {
+        level: 16,
+        move: "METALCLAW"
+      },
+      {
+        level: 20,
+        move: "SANDSTORM"
+      },
+      {
+        level: 24,
+        move: "CRUSHCLAW"
+      },
+      {
+        level: 28,
+        move: "ROCKSLIDE"
+      },
+      {
+        level: 34,
+        move: "DIG"
+      },
+      {
+        level: 40,
+        move: "SWORDSDANCE"
+      },
+      {
+        level: 46,
+        move: "DRILLRUN"
+      },
+      {
+        level: 52,
+        move: "EARTHQUAKE"
+      },
+      {
+        level: 58,
+        move: "FISSURE"
+      }
+    ],
+    tutorMoves: [
+      "AERIALACE",
+      "ATTRACT",
+      "BODYSLAM",
+      "BRICKBREAK",
+      "BRUTALSWING",
+      "BULLDOZE",
+      "CAPTIVATE",
+      "CONFIDE",
+      "CURSE",
+      "CUT",
+      "DIG",
+      "DOUBLEEDGE",
+      "DOUBLETEAM",
+      "DRILLRUN",
+      "EARTHPOWER",
+      "EARTHQUAKE",
+      "ENDURE",
+      "FACADE",
+      "FLING",
+      "FOCUSBLAST",
+      "FRUSTRATION",
+      "GIGAIMPACT",
+      "HELPINGHAND",
+      "HIDDENPOWER",
+      "HIGHHORSEPOWER",
+      "HONECLAWS",
+      "HYPERBEAM",
+      "IRONDEFENSE",
+      "IRONHEAD",
+      "MAGNETRISE",
+      "METALCLAW",
+      "METALSOUND",
+      "MIMIC",
+      "MUDSHOT",
+      "MUDSLAP",
+      "NATURALGIFT",
+      "POISONJAB",
+      "PROTECT",
+      "REST",
+      "RETURN",
+      "ROCKBLAST",
+      "ROCKSLIDE",
+      "ROCKSMASH",
+      "ROCKTOMB",
+      "ROUND",
+      "SANDSTORM",
+      "SANDTOMB",
+      "SCARYFACE",
+      "SCORCHINGSANDS",
+      "SECRETPOWER",
+      "SHADOWCLAW",
+      "SLEEPTALK",
+      "SMARTSTRIKE",
+      "SNORE",
+      "STEALTHROCK",
+      "STEELBEAM",
+      "STOMPINGTANTRUM",
+      "STRENGTH",
+      "SUBSTITUTE",
+      "SUNNYDAY",
+      "SWAGGER",
+      "SWORDSDANCE",
+      "TAKEDOWN",
+      "TERABLAST",
+      "THROATCHOP",
+      "XSCISSOR"
+    ],
+    eggMoves: [
+
+    ],
+    suffix: "normal",
+    evolution: [
+
+    ],
+    color: "Gray",
+    formNumber: 1,
+    formName: "Mega Excadrill",
+    baseId: "EXCADRILL",
+    megaStone: "EXCADRITE"
+  },
+  {
+    id: "SCOLIPEDE",
+    name: "Scolipede",
+    types: [
+      "BUG",
+      "POISON"
+    ],
+    sprite: "/Front/SCOLIPEDE_1.png",
+    backSprite: "/Back/SCOLIPEDE_1.png",
+    description: "Highly aggressive, it uses the claws near its neck to dig into its opponents and poison them.",
+    stats: {
+      hp: 69,
+      attack: 140,
+      defense: 149,
+      spAttack: 75,
+      spDefense: 99,
+      speed: 62
+    },
+    height: "3.2",
+    weight: "230.5",
+    abilities: [
+      "BATTLEARMOR"
+    ],
+    hiddenAbilities: [
+      "BATTLEARMOR"
+    ],
+    category: "Megapede",
+    moves: [
+      {
+        level: 1,
+        move: "IRONDEFENSE"
+      },
+      {
+        level: 1,
+        move: "BATONPASS"
+      },
+      {
+        level: 1,
+        move: "POISONSTING"
+      },
+      {
+        level: 1,
+        move: "DEFENSECURL"
+      },
+      {
+        level: 1,
+        move: "ROLLOUT"
+      },
+      {
+        level: 1,
+        move: "PROTECT"
+      },
+      {
+        level: 12,
+        move: "POISONTAIL"
+      },
+      {
+        level: 16,
+        move: "SCREECH"
+      },
+      {
+        level: 20,
+        move: "BUGBITE"
+      },
+      {
+        level: 26,
+        move: "VENOSHOCK"
+      },
+      {
+        level: 34,
+        move: "TAKEDOWN"
+      },
+      {
+        level: 42,
+        move: "AGILITY"
+      },
+      {
+        level: 50,
+        move: "TOXIC"
+      },
+      {
+        level: 58,
+        move: "VENOMDRENCH"
+      },
+      {
+        level: 66,
+        move: "DOUBLEEDGE"
+      },
+      {
+        level: 74,
+        move: "MEGAHORN"
+      }
+    ],
+    tutorMoves: [
+      "AGILITY",
+      "AQUATAIL",
+      "ASSURANCE",
+      "ATTRACT",
+      "BATONPASS",
+      "BUGBITE",
+      "BULLDOZE",
+      "CAPTIVATE",
+      "CONFIDE",
+      "CROSSPOISON",
+      "CUT",
+      "DIG",
+      "DOUBLETEAM",
+      "EARTHQUAKE",
+      "ENDEAVOR",
+      "ENDURE",
+      "FACADE",
+      "FRUSTRATION",
+      "GIGAIMPACT",
+      "GYROBALL",
+      "HEX",
+      "HIDDENPOWER",
+      "HYPERBEAM",
+      "INFESTATION",
+      "IRONDEFENSE",
+      "IRONTAIL",
+      "MEGAHORN",
+      "MIMIC",
+      "NATURALGIFT",
+      "PAYBACK",
+      "PINMISSILE",
+      "POISONJAB",
+      "PROTECT",
+      "REST",
+      "RETURN",
+      "ROCKSLIDE",
+      "ROCKSMASH",
+      "ROCKTOMB",
+      "ROUND",
+      "SCREECH",
+      "SECRETPOWER",
+      "SIGNALBEAM",
+      "SKITTERSMACK",
+      "SLEEPTALK",
+      "SLUDGEBOMB",
+      "SMARTSTRIKE",
+      "SNATCH",
+      "SNORE",
+      "SOLARBEAM",
+      "SPIKES",
+      "STEELROLLER",
+      "STOMPINGTANTRUM",
+      "STRENGTH",
+      "STRUGGLEBUG",
+      "SUBSTITUTE",
+      "SUNNYDAY",
+      "SUPERPOWER",
+      "SWAGGER",
+      "SWORDSDANCE",
+      "THROATCHOP",
+      "TOXIC",
+      "TOXICSPIKES",
+      "VENOMDRENCH",
+      "VENOSHOCK",
+      "XSCISSOR",
+      "TERABLAST"
+    ],
+    eggMoves: [
+
+    ],
+    suffix: "normal",
+    evolution: [
+
+    ],
+    color: "Red",
+    formNumber: 1,
+    formName: "Mega Scolipede",
+    baseId: "SCOLIPEDE",
+    megaStone: "SCOLIPITE"
+  },
+  {
+    id: "SCRAFTY",
+    name: "Scrafty",
+    types: [
+      "DARK",
+      "FIGHTING"
+    ],
+    sprite: "/Front/SCRAFTY_1.png",
+    backSprite: "/Back/SCRAFTY_1.png",
+    description: "It can smash concrete blocks with its kicking attacks. The one with the biggest crest is the group leader.",
+    stats: {
+      hp: 65,
+      attack: 130,
+      defense: 135,
+      spAttack: 55,
+      spDefense: 135,
+      speed: 68
+    },
+    height: "1.1",
+    weight: "31.0",
+    abilities: [
+      "MOXIE"
+    ],
+    hiddenAbilities: [
+      "MOXIE"
+    ],
+    category: "Hoodlum",
+    moves: [
+      {
+        level: 1,
+        move: "LOWKICK"
+      },
+      {
+        level: 1,
+        move: "LEER"
+      },
+      {
+        level: 1,
+        move: "PAYBACK"
+      },
+      {
+        level: 1,
+        move: "HEADBUTT"
+      },
+      {
+        level: 12,
+        move: "SANDATTACK"
+      },
+      {
+        level: 16,
+        move: "FACADE"
+      },
+      {
+        level: 20,
+        move: "TORMENT"
+      },
+      {
+        level: 24,
+        move: "BEATUP"
+      },
+      {
+        level: 28,
+        move: "SCARYFACE"
+      },
+      {
+        level: 32,
+        move: "BRICKBREAK"
+      },
+      {
+        level: 36,
+        move: "SWAGGER"
+      },
+      {
+        level: 42,
+        move: "CRUNCH"
+      },
+      {
+        level: 48,
+        move: "HIGHJUMPKICK"
+      },
+      {
+        level: 54,
+        move: "FOCUSPUNCH"
+      },
+      {
+        level: 60,
+        move: "HEADSMASH"
+      }
+    ],
+    tutorMoves: [
+      "ACIDSPRAY",
+      "AMNESIA",
+      "ASSURANCE",
+      "ATTRACT",
+      "BEATUP",
+      "BODYSLAM",
+      "BRICKBREAK",
+      "BULKUP",
+      "CAPTIVATE",
+      "CLOSECOMBAT",
+      "COACHING",
+      "CONFIDE",
+      "CRUNCH",
+      "CURSE",
+      "DARKPULSE",
+      "DIG",
+      "DOUBLEEDGE",
+      "DOUBLETEAM",
+      "DRAGONCLAW",
+      "DRAGONDANCE",
+      "DRAGONPULSE",
+      "DRAGONTAIL",
+      "DRAINPUNCH",
+      "DUALCHOP",
+      "ENCORE",
+      "ENDEAVOR",
+      "ENDURE",
+      "FACADE",
+      "FAKETEARS",
+      "FIREPUNCH",
+      "FLING",
+      "FOCUSBLAST",
+      "FOCUSPUNCH",
+      "FOULPLAY",
+      "FRUSTRATION",
+      "GIGAIMPACT",
+      "GRASSKNOT",
+      "HELPINGHAND",
+      "HIDDENPOWER",
+      "HYPERBEAM",
+      "ICEPUNCH",
+      "INCINERATE",
+      "IRONDEFENSE",
+      "IRONHEAD",
+      "IRONTAIL",
+      "KNOCKOFF",
+      "LASHOUT",
+      "LOWKICK",
+      "LOWSWEEP",
+      "MEGAKICK",
+      "MEGAPUNCH",
+      "METRONOME",
+      "MIMIC",
+      "NATURALGIFT",
+      "OUTRAGE",
+      "PAYBACK",
+      "POISONJAB",
+      "POWERUPPUNCH",
+      "PROTECT",
+      "RAINDANCE",
+      "REST",
+      "RETALIATE",
+      "RETURN",
+      "REVENGE",
+      "REVERSAL",
+      "ROAR",
+      "ROCKSLIDE",
+      "ROCKSMASH",
+      "ROCKTOMB",
+      "ROUND",
+      "SCARYFACE",
+      "SECRETPOWER",
+      "SLEEPTALK",
+      "SLUDGEBOMB",
+      "SMACKDOWN",
+      "SNARL",
+      "SNATCH",
+      "SNORE",
+      "SPITE",
+      "STONEEDGE",
+      "STRENGTH",
+      "SUBSTITUTE",
+      "SUNNYDAY",
+      "SUPERFANG",
+      "SWAGGER",
+      "SWORDSDANCE",
+      "TAKEDOWN",
+      "TAUNT",
+      "TERABLAST",
+      "THIEF",
+      "THROATCHOP",
+      "THUNDERPUNCH",
+      "TORMENT",
+      "TRAILBLAZE",
+      "UPPERHAND",
+      "UPROAR",
+      "WORKUP",
+      "ZENHEADBUTT"
+    ],
+    eggMoves: [
+
+    ],
+    suffix: "normal",
+    evolution: [
+
+    ],
+    color: "Red",
+    formNumber: 1,
+    formName: "Mega Scrafty",
+    baseId: "SCRAFTY",
+    megaStone: "SCRAFTINITE"
+  },
+  {
+    id: "EELEKTROSS",
+    name: "Eelektross",
+    types: [
+      "ELECTRIC"
+    ],
+    sprite: "/Front/EELEKTROSS_1.png",
+    backSprite: "/Back/EELEKTROSS_1.png",
+    description: "With their sucker mouths, they suck in prey. Then they use their fangs to shock the prey with electricity.",
+    stats: {
+      hp: 85,
+      attack: 145,
+      defense: 80,
+      spAttack: 135,
+      spDefense: 90,
+      speed: 80
+    },
+    height: "3.0",
+    weight: "180.0",
+    abilities: [
+      "SPEEDBOOST"
+    ],
+    hiddenAbilities: [
+      "SPEEDBOOST"
+    ],
+    category: "EleFish",
+    moves: [
+      {
+        level: 1,
+        move: "CRUNCH"
+      },
+      {
+        level: 1,
+        move: "THRASH"
+      },
+      {
+        level: 1,
+        move: "ZAPCANNON"
+      },
+      {
+        level: 1,
+        move: "GASTROACID"
+      },
+      {
+        level: 1,
+        move: "COIL"
+      },
+      {
+        level: 1,
+        move: "CRUSHCLAW"
+      },
+      {
+        level: 1,
+        move: "HEADBUTT"
+      },
+      {
+        level: 1,
+        move: "ACID"
+      },
+      {
+        level: 1,
+        move: "DISCHARGE"
+      },
+      {
+        level: 5,
+        move: "WILDCHARGE"
+      }
+    ],
+    tutorMoves: [
+      "ACIDSPRAY",
+      "ACROBATICS",
+      "AQUATAIL",
+      "ATTRACT",
+      "BIND",
+      "BODYPRESS",
+      "BODYSLAM",
+      "BOUNCE",
+      "BRICKBREAK",
+      "BULKUP",
+      "BULLDOZE",
+      "CAPTIVATE",
+      "CHARGE",
+      "CHARGEBEAM",
+      "CLOSECOMBAT",
+      "CONFIDE",
+      "CONFUSERAY",
+      "CRUNCH",
+      "CUT",
+      "DOUBLETEAM",
+      "DRAGONCLAW",
+      "DRAGONPULSE",
+      "DRAGONTAIL",
+      "DRAINPUNCH",
+      "EERIEIMPULSE",
+      "ELECTRICTERRAIN",
+      "ELECTROBALL",
+      "ELECTROWEB",
+      "ENDURE",
+      "FACADE",
+      "FIREPUNCH",
+      "FLAMETHROWER",
+      "FLASH",
+      "FLASHCANNON",
+      "FOCUSPUNCH",
+      "FRUSTRATION",
+      "GASTROACID",
+      "GIGADRAIN",
+      "GIGAIMPACT",
+      "GRASSKNOT",
+      "HEAVYSLAM",
+      "HEX",
+      "HIDDENPOWER",
+      "HONECLAWS",
+      "HYPERBEAM",
+      "IRONTAIL",
+      "KNOCKOFF",
+      "LIGHTSCREEN",
+      "LIQUIDATION",
+      "LUNGE",
+      "MAGNETRISE",
+      "MIMIC",
+      "NATURALGIFT",
+      "OUTRAGE",
+      "POWERUPPUNCH",
+      "PROTECT",
+      "RAINDANCE",
+      "REST",
+      "RETURN",
+      "ROCKSLIDE",
+      "ROCKSMASH",
+      "ROCKTOMB",
+      "ROUND",
+      "SCARYFACE",
+      "SECRETPOWER",
+      "SHOCKWAVE",
+      "SIGNALBEAM",
+      "SLEEPTALK",
+      "SNORE",
+      "STOMPINGTANTRUM",
+      "STRENGTH",
+      "SUBSTITUTE",
+      "SUNNYDAY",
+      "SUPERCELLSLAM",
+      "SUPERFANG",
+      "SUPERPOWER",
+      "SWAGGER",
+      "SWIFT",
+      "TAKEDOWN",
+      "TERABLAST",
+      "THROATCHOP",
+      "THUNDER",
+      "THUNDERBOLT",
+      "THUNDERFANG",
+      "THUNDERPUNCH",
+      "THUNDERWAVE",
+      "UTURN",
+      "VOLTSWITCH",
+      "WILDCHARGE",
+      "ZENHEADBUTT"
+    ],
+    eggMoves: [
+
+    ],
+    suffix: "normal",
+    evolution: [
+
+    ],
+    color: "Blue",
+    formNumber: 1,
+    formName: "Mega Eelektross",
+    baseId: "EELEKTROSS",
+    megaStone: "EELEKTROSSITE"
+  },
+  {
+    id: "CHANDELURE",
+    name: "Chandelure",
+    types: [
+      "GHOST",
+      "FIRE"
+    ],
+    sprite: "/Front/CHANDELURE_1.png",
+    backSprite: "/Back/CHANDELURE_1.png",
+    description: "Being consumed in Chandelure's flame burns up the spirit, leaving the body behind.",
+    stats: {
+      hp: 60,
+      attack: 75,
+      defense: 110,
+      spAttack: 175,
+      spDefense: 110,
+      speed: 90
+    },
+    height: "2.5",
+    weight: "69.6",
+    abilities: [
+      "ILLUMINATE"
+    ],
+    hiddenAbilities: [
+      "ILLUMINATE"
+    ],
+    category: "Luring",
+    moves: [
+      {
+        level: 1,
+        move: "CONFUSERAY"
+      },
+      {
+        level: 1,
+        move: "HEX"
+      },
+      {
+        level: 1,
+        move: "WILLOWISP"
+      },
+      {
+        level: 1,
+        move: "FIRESPIN"
+      },
+      {
+        level: 1,
+        move: "NIGHTSHADE"
+      },
+      {
+        level: 1,
+        move: "CURSE"
+      },
+      {
+        level: 1,
+        move: "SHADOWBALL"
+      },
+      {
+        level: 1,
+        move: "INFERNO"
+      },
+      {
+        level: 1,
+        move: "IMPRISON"
+      },
+      {
+        level: 1,
+        move: "PAINSPLIT"
+      },
+      {
+        level: 1,
+        move: "OVERHEAT"
+      },
+      {
+        level: 1,
+        move: "MEMENTO"
+      },
+      {
+        level: 1,
+        move: "ASTONISH"
+      },
+      {
+        level: 1,
+        move: "SMOG"
+      },
+      {
+        level: 1,
+        move: "EMBER"
+      },
+      {
+        level: 1,
+        move: "MINIMIZE"
+      }
+    ],
+    tutorMoves: [
+      "ALLYSWITCH",
+      "ATTRACT",
+      "BURNINGJEALOUSY",
+      "CALMMIND",
+      "CAPTIVATE",
+      "CONFIDE",
+      "CONFUSERAY",
+      "CURSE",
+      "DARKPULSE",
+      "DOUBLETEAM",
+      "DREAMEATER",
+      "EMBARGO",
+      "ENDURE",
+      "ENERGYBALL",
+      "FACADE",
+      "FIREBLAST",
+      "FIRESPIN",
+      "FLAMECHARGE",
+      "FLAMETHROWER",
+      "FLAREBLITZ",
+      "FLASH",
+      "FRUSTRATION",
+      "GIGAIMPACT",
+      "HAZE",
+      "HEATWAVE",
+      "HEX",
+      "HIDDENPOWER",
+      "HYPERBEAM",
+      "IMPRISON",
+      "INCINERATE",
+      "LASERFOCUS",
+      "LASHOUT",
+      "MIMIC",
+      "MYSTICALFIRE",
+      "NATURALGIFT",
+      "NIGHTSHADE",
+      "OVERHEAT",
+      "PAINSPLIT",
+      "PAYBACK",
+      "POLTERGEIST",
+      "PROTECT",
+      "PSYCHIC",
+      "PSYCHUP",
+      "REST",
+      "RETURN",
+      "ROUND",
+      "SAFEGUARD",
+      "SECRETPOWER",
+      "SHADOWBALL",
+      "SHOCKWAVE",
+      "SKITTERSMACK",
+      "SLEEPTALK",
+      "SNORE",
+      "SOLARBEAM",
+      "SPITE",
+      "SUBSTITUTE",
+      "SUNNYDAY",
+      "SWAGGER",
+      "TAUNT",
+      "TELEKINESIS",
+      "TEMPERFLARE",
+      "TERABLAST",
+      "THIEF",
+      "TRAILBLAZE",
+      "TRICK",
+      "TRICKROOM",
+      "WILLOWISP"
+    ],
+    eggMoves: [
+
+    ],
+    suffix: "normal",
+    evolution: [
+
+    ],
+    color: "Black",
+    formNumber: 1,
+    formName: "Mega Chandelure",
+    baseId: "CHANDELURE",
+    megaStone: "CHANDELURITE"
+  },
+  {
+    id: "CHESNAUGHT",
+    name: "Chesnaught",
+    types: [
+      "GRASS",
+      "FIGHTING"
+    ],
+    sprite: "/Front/CHESNAUGHT_1.png",
+    backSprite: "/Back/CHESNAUGHT_1.png",
+    description: "Its Tackle is forceful enough to flip a 50-ton tank. It shields its allies from danger with its own body.",
+    stats: {
+      hp: 88,
+      attack: 137,
+      defense: 172,
+      spAttack: 74,
+      spDefense: 115,
+      speed: 44
+    },
+    height: "1.6",
+    weight: "90.0",
+    abilities: [
+      "QUEENLYMAJESTY"
+    ],
+    hiddenAbilities: [
+      "QUEENLYMAJESTY"
+    ],
+    category: "Spiny Armor",
+    moves: [
+      {
+        level: 0,
+        move: "SPIKYSHIELD"
+      },
+      {
+        level: 1,
+        move: "HAMMERARM"
+      },
+      {
+        level: 1,
+        move: "FEINT"
+      },
+      {
+        level: 1,
+        move: "TACKLE"
+      },
+      {
+        level: 1,
+        move: "GROWL"
+      },
+      {
+        level: 1,
+        move: "VINEWHIP"
+      },
+      {
+        level: 1,
+        move: "ROLLOUT"
+      },
+      {
+        level: 11,
+        move: "BITE"
+      },
+      {
+        level: 15,
+        move: "LEECHSEED"
+      },
+      {
+        level: 19,
+        move: "PINMISSILE"
+      },
+      {
+        level: 29,
+        move: "TAKEDOWN"
+      },
+      {
+        level: 35,
+        move: "SEEDBOMB"
+      },
+      {
+        level: 41,
+        move: "MUDSHOT"
+      },
+      {
+        level: 48,
+        move: "BULKUP"
+      },
+      {
+        level: 54,
+        move: "BODYSLAM"
+      },
+      {
+        level: 60,
+        move: "PAINSPLIT"
+      },
+      {
+        level: 66,
+        move: "WOODHAMMER"
+      },
+      {
+        level: 78,
+        move: "GIGAIMPACT"
+      }
+    ],
+    tutorMoves: [
+      "AERIALACE",
+      "ATTRACT",
+      "BLOCK",
+      "BODYPRESS",
+      "BODYSLAM",
+      "BRICKBREAK",
+      "BULKUP",
+      "BULLDOZE",
+      "BULLETSEED",
+      "CAPTIVATE",
+      "CLOSECOMBAT",
+      "COACHING",
+      "CONFIDE",
+      "CRUNCH",
+      "CURSE",
+      "CUT",
+      "DIG",
+      "DOUBLEEDGE",
+      "DOUBLETEAM",
+      "DRAGONCLAW",
+      "DRAINPUNCH",
+      "DUALCHOP",
+      "EARTHQUAKE",
+      "ENDEAVOR",
+      "ENDURE",
+      "ENERGYBALL",
+      "FACADE",
+      "FLASH",
+      "FLING",
+      "FOCUSBLAST",
+      "FOCUSPUNCH",
+      "FRENZYPLANT",
+      "FRUSTRATION",
+      "GIGADRAIN",
+      "GIGAIMPACT",
+      "GRASSKNOT",
+      "GRASSPLEDGE",
+      "GRASSYGLIDE",
+      "GRASSYTERRAIN",
+      "GYROBALL",
+      "HELPINGHAND",
+      "HIDDENPOWER",
+      "HIGHHORSEPOWER",
+      "HONECLAWS",
+      "HYPERBEAM",
+      "IRONDEFENSE",
+      "IRONHEAD",
+      "IRONTAIL",
+      "KNOCKOFF",
+      "LEAFSTORM",
+      "LOWKICK",
+      "LOWSWEEP",
+      "MAGICALLEAF",
+      "METALCLAW",
+      "MIMIC",
+      "MUDSHOT",
+      "MUDSLAP",
+      "NATURALGIFT",
+      "NATUREPOWER",
+      "PAINSPLIT",
+      "PAYBACK",
+      "POISONJAB",
+      "POWERUPPUNCH",
+      "PROTECT",
+      "RAINDANCE",
+      "REFLECT",
+      "REST",
+      "RETALIATE",
+      "RETURN",
+      "REVERSAL",
+      "ROAR",
+      "ROCKSLIDE",
+      "ROCKSMASH",
+      "ROCKTOMB",
+      "ROUND",
+      "SCARYFACE",
+      "SECRETPOWER",
+      "SEEDBOMB",
+      "SHADOWCLAW",
+      "SLEEPTALK",
+      "SMACKDOWN",
+      "SNORE",
+      "SOLARBEAM",
+      "SPIKES",
+      "STOMPINGTANTRUM",
+      "STONEEDGE",
+      "STRENGTH",
+      "SUBSTITUTE",
+      "SUNNYDAY",
+      "SUPERFANG",
+      "SUPERPOWER",
+      "SWAGGER",
+      "SWIFT",
+      "SWORDSDANCE",
+      "SYNTHESIS",
+      "TAKEDOWN",
+      "TAUNT",
+      "TERABLAST",
+      "THUNDERPUNCH",
+      "TRAILBLAZE",
+      "WORKUP",
+      "WORRYSEED",
+      "ZENHEADBUTT"
+    ],
+    eggMoves: [
+
+    ],
+    suffix: "normal",
+    evolution: [
+
+    ],
+    color: "Green",
+    formNumber: 1,
+    formName: "Mega Chesnaught",
+    baseId: "CHESNAUGHT",
+    megaStone: "CHESNAUGHTITE"
+  },
+  {
+    id: "DELPHOX",
+    name: "Delphox",
+    types: [
+      "FIRE",
+      "PSYCHIC"
+    ],
+    sprite: "/Front/DELPHOX_1.png",
+    backSprite: "/Back/DELPHOX_1.png",
+    description: "It gazes into the flame at the tip of its branch to achieve a focused state, which allows it to see into the future.",
+    stats: {
+      hp: 75,
+      attack: 69,
+      defense: 72,
+      spAttack: 159,
+      spDefense: 125,
+      speed: 134
+    },
+    height: "1.5",
+    weight: "39.0",
+    abilities: [
+      "LEVITATE"
+    ],
+    hiddenAbilities: [
+      "LEVITATE"
+    ],
+    category: "Fox",
+    moves: [
+      {
+        level: 0,
+        move: "MYSTICALFIRE"
+      },
+      {
+        level: 1,
+        move: "FUTURESIGHT"
+      },
+      {
+        level: 1,
+        move: "ROLEPLAY"
+      },
+      {
+        level: 1,
+        move: "SWITCHEROO"
+      },
+      {
+        level: 1,
+        move: "SHADOWBALL"
+      },
+      {
+        level: 1,
+        move: "SCRATCH"
+      },
+      {
+        level: 1,
+        move: "TAILWHIP"
+      },
+      {
+        level: 1,
+        move: "EMBER"
+      },
+      {
+        level: 1,
+        move: "HOWL"
+      },
+      {
+        level: 14,
+        move: "FLAMECHARGE"
+      },
+      {
+        level: 18,
+        move: "PSYBEAM"
+      },
+      {
+        level: 22,
+        move: "FIRESPIN"
+      },
+      {
+        level: 28,
+        move: "LIGHTSCREEN"
+      },
+      {
+        level: 38,
+        move: "PSYSHOCK"
+      },
+      {
+        level: 45,
+        move: "FLAMETHROWER"
+      },
+      {
+        level: 51,
+        move: "WILLOWISP"
+      },
+      {
+        level: 57,
+        move: "PSYCHIC"
+      },
+      {
+        level: 62,
+        move: "SUNNYDAY"
+      },
+      {
+        level: 68,
+        move: "MAGICROOM"
+      },
+      {
+        level: 74,
+        move: "FIREBLAST"
+      }
+    ],
+    tutorMoves: [
+      "AGILITY",
+      "ALLYSWITCH",
+      "ATTRACT",
+      "BLASTBURN",
+      "BURNINGJEALOUSY",
+      "CALMMIND",
+      "CAPTIVATE",
+      "CHARM",
+      "CONFIDE",
+      "CONFUSERAY",
+      "COVET",
+      "CUT",
+      "DAZZLINGGLEAM",
+      "DOUBLETEAM",
+      "DREAMEATER",
+      "ECHOEDVOICE",
+      "EMBARGO",
+      "ENCORE",
+      "ENDURE",
+      "EXPANDINGFORCE",
+      "FACADE",
+      "FIREBLAST",
+      "FIREPLEDGE",
+      "FIREPUNCH",
+      "FIRESPIN",
+      "FLAMECHARGE",
+      "FLAMETHROWER",
+      "FLAREBLITZ",
+      "FOCUSBLAST",
+      "FOULPLAY",
+      "FRUSTRATION",
+      "FUTURESIGHT",
+      "GIGAIMPACT",
+      "GRASSKNOT",
+      "HEATWAVE",
+      "HELPINGHAND",
+      "HEX",
+      "HIDDENPOWER",
+      "HYPERBEAM",
+      "HYPERVOICE",
+      "IMPRISON",
+      "INCINERATE",
+      "IRONTAIL",
+      "LASERFOCUS",
+      "LIGHTSCREEN",
+      "LOWKICK",
+      "MAGICCOAT",
+      "MAGICROOM",
+      "METRONOME",
+      "MIMIC",
+      "MUDSHOT",
+      "MUDSLAP",
+      "NASTYPLOT",
+      "NATURALGIFT",
+      "NIGHTSHADE",
+      "OVERHEAT",
+      "POWERUPPUNCH",
+      "PROTECT",
+      "PSYBEAM",
+      "PSYCHIC",
+      "PSYCHICNOISE",
+      "PSYCHICTERRAIN",
+      "PSYCHUP",
+      "PSYSHOCK",
+      "RAINDANCE",
+      "RECYCLE",
+      "REFLECT",
+      "REST",
+      "RETURN",
+      "ROLEPLAY",
+      "ROUND",
+      "SAFEGUARD",
+      "SCORCHINGSANDS",
+      "SECRETPOWER",
+      "SHADOWBALL",
+      "SHOCKWAVE",
+      "SIGNALBEAM",
+      "SKILLSWAP",
+      "SLEEPTALK",
+      "SNATCH",
+      "SNORE",
+      "SOLARBEAM",
+      "STOREDPOWER",
+      "SUBSTITUTE",
+      "SUNNYDAY",
+      "SWAGGER",
+      "SWIFT",
+      "TAKEDOWN",
+      "TELEKINESIS",
+      "TERABLAST",
+      "THIEF",
+      "THUNDERPUNCH",
+      "TRICK",
+      "TRICKROOM",
+      "WILLOWISP",
+      "WONDERROOM",
+      "WORKUP",
+      "ZENHEADBUTT"
+    ],
+    eggMoves: [
+
+    ],
+    suffix: "normal",
+    evolution: [
+
+    ],
+    color: "Red",
+    formNumber: 1,
+    formName: "Mega Delphox",
+    baseId: "DELPHOX",
+    megaStone: "DELPHOXITE"
+  },
+  {
+    id: "GRENINJA",
+    name: "Greninja",
+    types: [
+      "WATER",
+      "DARK"
+    ],
+    sprite: "/Front/GRENINJA_3.png",
+    backSprite: "/Back/GRENINJA_3.png",
+    description: "It appears and vanishes with a ninja's grace. It toys with its enemies using swift movements, while slicing them with throwing stars of sharpest water.",
+    stats: {
+      hp: 72,
+      attack: 125,
+      defense: 77,
+      spAttack: 133,
+      spDefense: 81,
+      speed: 142
+    },
+    height: "1.5",
+    weight: "40.0",
+    abilities: [
+      "SKILLLINK"
+    ],
+    hiddenAbilities: [
+      "SKILLLINK"
+    ],
+    category: "Ninja",
+    moves: [
+      {
+        level: 0,
+        move: "WATERSHURIKEN"
+      },
+      {
+        level: 1,
+        move: "NIGHTSLASH"
+      },
+      {
+        level: 1,
+        move: "HAZE"
+      },
+      {
+        level: 1,
+        move: "ROLEPLAY"
+      },
+      {
+        level: 1,
+        move: "POUND"
+      },
+      {
+        level: 1,
+        move: "GROWL"
+      },
+      {
+        level: 1,
+        move: "WATERGUN"
+      },
+      {
+        level: 1,
+        move: "QUICKATTACK"
+      },
+      {
+        level: 10,
+        move: "LICK"
+      },
+      {
+        level: 14,
+        move: "WATERPULSE"
+      },
+      {
+        level: 19,
+        move: "SMOKESCREEN"
+      },
+      {
+        level: 23,
+        move: "SHADOWSNEAK"
+      },
+      {
+        level: 28,
+        move: "SPIKES"
+      },
+      {
+        level: 33,
+        move: "AERIALACE"
+      },
+      {
+        level: 42,
+        move: "SUBSTITUTE"
+      },
+      {
+        level: 49,
+        move: "EXTRASENSORY"
+      },
+      {
+        level: 56,
+        move: "DOUBLETEAM"
+      },
+      {
+        level: 68,
+        move: "HYDROPUMP"
+      }
+    ],
+    tutorMoves: [
+      "ACROBATICS",
+      "AERIALACE",
+      "ATTRACT",
+      "BLIZZARD",
+      "BOUNCE",
+      "BRICKBREAK",
+      "BRUTALSWING",
+      "CAPTIVATE",
+      "CHILLINGWATER",
+      "CONFIDE",
+      "CUT",
+      "DARKPULSE",
+      "DIG",
+      "DIVE",
+      "DOUBLETEAM",
+      "ECHOEDVOICE",
+      "ENDURE",
+      "FACADE",
+      "FALSESWIPE",
+      "FLING",
+      "FRUSTRATION",
+      "GIGAIMPACT",
+      "GRASSKNOT",
+      "GUNKSHOT",
+      "HAIL",
+      "HAZE",
+      "HELPINGHAND",
+      "HIDDENPOWER",
+      "HYDROCANNON",
+      "HYDROPUMP",
+      "HYPERBEAM",
+      "ICEBEAM",
+      "ICEPUNCH",
+      "ICYWIND",
+      "LIQUIDATION",
+      "LOWKICK",
+      "LOWSWEEP",
+      "MIMIC",
+      "MUDSHOT",
+      "MUDSLAP",
+      "NATURALGIFT",
+      "POWERUPPUNCH",
+      "PROTECT",
+      "RAINDANCE",
+      "REST",
+      "RETURN",
+      "ROCKSLIDE",
+      "ROCKSMASH",
+      "ROCKTOMB",
+      "ROLEPLAY",
+      "ROUND",
+      "SECRETPOWER",
+      "SLEEPTALK",
+      "SLUDGEWAVE",
+      "SMACKDOWN",
+      "SNATCH",
+      "SNORE",
+      "SNOWSCAPE",
+      "SPIKES",
+      "STRENGTH",
+      "SUBSTITUTE",
+      "SURF",
+      "SWAGGER",
+      "SWIFT",
+      "SWORDSDANCE",
+      "TAKEDOWN",
+      "TAUNT",
+      "TERABLAST",
+      "THIEF",
+      "TOXICSPIKES",
+      "TRAILBLAZE",
+      "UPPERHAND",
+      "UTURN",
+      "WATERFALL",
+      "WATERPLEDGE",
+      "WATERPULSE",
+      "WEATHERBALL",
+      "WORKUP"
+    ],
+    eggMoves: [
+
+    ],
+    suffix: "normal",
+    evolution: [
+
+    ],
+    color: "Blue",
+    formNumber: 3,
+    formName: "Mega Greninja",
+    baseId: "GRENINJA",
+    megaStone: "GRENINJITE"
+  },
+  {
+    id: "PYROAR",
+    name: "Pyroar",
+    types: [
+      "FIRE",
+      "NORMAL"
+    ],
+    sprite: "/Front/PYROAR_1.png",
+    backSprite: "/Back/PYROAR_1.png",
+    description: "With fiery breath of more than 6,000 degrees Celsius, they viciously threaten any challenger. The females protect the pride's cubs.",
+    stats: {
+      hp: 86,
+      attack: 88,
+      defense: 92,
+      spAttack: 129,
+      spDefense: 86,
+      speed: 126
+    },
+    height: "1.5",
+    weight: "93.3",
+    abilities: [
+      "ADAPTABILITY"
+    ],
+    hiddenAbilities: [
+      "ADAPTABILITY"
+    ],
+    category: "Royal",
+    moves: [
+      {
+        level: 1,
+        move: "HYPERBEAM"
+      },
+      {
+        level: 1,
+        move: "TACKLE"
+      },
+      {
+        level: 1,
+        move: "LEER"
+      },
+      {
+        level: 1,
+        move: "EMBER"
+      },
+      {
+        level: 1,
+        move: "WORKUP"
+      },
+      {
+        level: 11,
+        move: "HEADBUTT"
+      },
+      {
+        level: 15,
+        move: "NOBLEROAR"
+      },
+      {
+        level: 20,
+        move: "TAKEDOWN"
+      },
+      {
+        level: 23,
+        move: "FIREFANG"
+      },
+      {
+        level: 28,
+        move: "ENDEAVOR"
+      },
+      {
+        level: 33,
+        move: "ECHOEDVOICE"
+      },
+      {
+        level: 38,
+        move: "FLAMETHROWER"
+      },
+      {
+        level: 42,
+        move: "CRUNCH"
+      },
+      {
+        level: 48,
+        move: "HYPERVOICE"
+      },
+      {
+        level: 51,
+        move: "INCINERATE"
+      },
+      {
+        level: 57,
+        move: "OVERHEAT"
+      }
+    ],
+    tutorMoves: [
+      "ACROBATICS",
+      "ATTRACT",
+      "BODYSLAM",
+      "BOUNCE",
+      "BULLDOZE",
+      "BURNINGJEALOUSY",
+      "CAPTIVATE",
+      "CONFIDE",
+      "CRUNCH",
+      "DARKPULSE",
+      "DIG",
+      "DOUBLEEDGE",
+      "DOUBLETEAM",
+      "ECHOEDVOICE",
+      "ENDEAVOR",
+      "ENDURE",
+      "FACADE",
+      "FIREBLAST",
+      "FIREFANG",
+      "FIRESPIN",
+      "FLAMECHARGE",
+      "FLAMETHROWER",
+      "FLAREBLITZ",
+      "FRUSTRATION",
+      "GIGAIMPACT",
+      "HEATWAVE",
+      "HELPINGHAND",
+      "HIDDENPOWER",
+      "HYPERBEAM",
+      "HYPERVOICE",
+      "INCINERATE",
+      "IRONTAIL",
+      "MIMIC",
+      "MUDSLAP",
+      "NATURALGIFT",
+      "OVERHEAT",
+      "PAYBACK",
+      "PROTECT",
+      "PSYCHICFANGS",
+      "RAINDANCE",
+      "REST",
+      "RETALIATE",
+      "RETURN",
+      "ROAR",
+      "ROCKSMASH",
+      "ROUND",
+      "SECRETPOWER",
+      "SLEEPTALK",
+      "SNARL",
+      "SNATCH",
+      "SNORE",
+      "SOLARBEAM",
+      "STRENGTH",
+      "SUBSTITUTE",
+      "SUNNYDAY",
+      "SWAGGER",
+      "SWIFT",
+      "TAKEDOWN",
+      "TAUNT",
+      "TEMPERFLARE",
+      "TERABLAST",
+      "THIEF",
+      "THUNDERFANG",
+      "TRAILBLAZE",
+      "WILDCHARGE",
+      "WILLOWISP",
+      "WORKUP"
+    ],
+    eggMoves: [
+
+    ],
+    suffix: "normal",
+    evolution: [
+
+    ],
+    color: "Brown",
+    formNumber: 1,
+    formName: "Mega Pyroar",
+    baseId: "PYROAR",
+    megaStone: "PYROARITE"
+  },
+  {
+    id: "MALAMAR",
+    name: "Malamar",
+    types: [
+      "DARK",
+      "PSYCHIC"
+    ],
+    sprite: "/Front/MALAMAR_1.png",
+    backSprite: "/Back/MALAMAR_1.png",
+    description: "It lures prey close with hypnotic motions, then wraps its tentacles around it before finishing it off with digestive fluids.",
+    stats: {
+      hp: 86,
+      attack: 102,
+      defense: 88,
+      spAttack: 98,
+      spDefense: 120,
+      speed: 88
+    },
+    height: "2.9",
+    weight: "69.8",
+    abilities: [
+      "NEUROFORCE"
+    ],
+    hiddenAbilities: [
+      "NEUROFORCE"
+    ],
+    category: "Overturning",
+    moves: [
+      {
+        level: 1,
+        move: "REVERSAL"
+      },
+      {
+        level: 1,
+        move: "PECK"
+      },
+      {
+        level: 1,
+        move: "TACKLE"
+      },
+      {
+        level: 1,
+        move: "HYPNOSIS"
+      },
+      {
+        level: 1,
+        move: "WRAP"
+      },
+      {
+        level: 9,
+        move: "PAYBACK"
+      },
+      {
+        level: 12,
+        move: "PLUCK"
+      },
+      {
+        level: 15,
+        move: "PSYBEAM"
+      },
+      {
+        level: 18,
+        move: "SWAGGER"
+      },
+      {
+        level: 21,
+        move: "SLASH"
+      },
+      {
+        level: 24,
+        move: "NIGHTSLASH"
+      },
+      {
+        level: 27,
+        move: "PSYCHOCUT"
+      },
+      {
+        level: 33,
+        move: "SWITCHEROO"
+      },
+      {
+        level: 37,
+        move: "FOULPLAY"
+      },
+      {
+        level: 42,
+        move: "TOPSYTURVY"
+      },
+      {
+        level: 47,
+        move: "SUPERPOWER"
+      }
+    ],
+    tutorMoves: [
+      "AERIALACE",
+      "ALLYSWITCH",
+      "ATTRACT",
+      "BATONPASS",
+      "BIND",
+      "BLOCK",
+      "BRUTALSWING",
+      "CALMMIND",
+      "CAPTIVATE",
+      "CONFIDE",
+      "CUT",
+      "DARKPULSE",
+      "DOUBLETEAM",
+      "EMBARGO",
+      "ENDURE",
+      "EXPANDINGFORCE",
+      "FACADE",
+      "FAKETEARS",
+      "FLAMETHROWER",
+      "FLASH",
+      "FLING",
+      "FOULPLAY",
+      "FRUSTRATION",
+      "FUTURESIGHT",
+      "GIGAIMPACT",
+      "GRAVITY",
+      "GUARDSWAP",
+      "HELPINGHAND",
+      "HIDDENPOWER",
+      "HYPERBEAM",
+      "KNOCKOFF",
+      "LASHOUT",
+      "LIGHTSCREEN",
+      "LIQUIDATION",
+      "LUNGE",
+      "MIMIC",
+      "NASTYPLOT",
+      "NATURALGIFT",
+      "PAYBACK",
+      "PROTECT",
+      "PSYBEAM",
+      "PSYCHIC",
+      "PSYCHICNOISE",
+      "PSYCHOCUT",
+      "PSYCHUP",
+      "PSYSHOCK",
+      "RAINDANCE",
+      "REFLECT",
+      "REST",
+      "RETALIATE",
+      "RETURN",
+      "REVERSAL",
+      "ROCKSLIDE",
+      "ROLEPLAY",
+      "ROUND",
+      "SCARYFACE",
+      "SECRETPOWER",
+      "SIGNALBEAM",
+      "SKILLSWAP",
+      "SLEEPTALK",
+      "SNATCH",
+      "SNORE",
+      "SPITE",
+      "STOREDPOWER",
+      "SUBSTITUTE",
+      "SUNNYDAY",
+      "SUPERPOWER",
+      "SWAGGER",
+      "SWIFT",
+      "TAUNT",
+      "TELEKINESIS",
+      "TERABLAST",
+      "THIEF",
+      "THROATCHOP",
+      "THUNDERBOLT",
+      "TORMENT",
+      "TRAILBLAZE",
+      "TRICK",
+      "TRICKROOM"
+    ],
+    eggMoves: [
+
+    ],
+    suffix: "normal",
+    evolution: [
+
+    ],
+    color: "Blue",
+    formNumber: 1,
+    formName: "Mega Malamar",
+    baseId: "MALAMAR",
+    megaStone: "MALAMARITE"
+  },
+  {
+    id: "BARBARACLE",
+    name: "Barbaracle",
+    types: [
+      "ROCK",
+      "FIGHTING"
+    ],
+    sprite: "/Front/BARBARACLE_1.png",
+    backSprite: "/Back/BARBARACLE_1.png",
+    description: "Barbaracle's legs and hands have minds of their own, and they will move independently. But they usually follow the head's orders.",
+    stats: {
+      hp: 72,
+      attack: 140,
+      defense: 130,
+      spAttack: 64,
+      spDefense: 106,
+      speed: 88
+    },
+    height: "2.2",
+    weight: "100.0",
+    abilities: [
+      "TOUGHCLAWS"
+    ],
+    hiddenAbilities: [
+      "TOUGHCLAWS"
+    ],
+    category: "Collective",
+    moves: [
+      {
+        level: 1,
+        move: "SKULLBASH"
+      },
+      {
+        level: 1,
+        move: "SCRATCH"
+      },
+      {
+        level: 1,
+        move: "MUDSLAP"
+      },
+      {
+        level: 1,
+        move: "WITHDRAW"
+      },
+      {
+        level: 1,
+        move: "WATERGUN"
+      },
+      {
+        level: 12,
+        move: "FURYCUTTER"
+      },
+      {
+        level: 16,
+        move: "FURYSWIPES"
+      },
+      {
+        level: 20,
+        move: "ANCIENTPOWER"
+      },
+      {
+        level: 24,
+        move: "ROCKPOLISH"
+      },
+      {
+        level: 28,
+        move: "SLASH"
+      },
+      {
+        level: 32,
+        move: "HONECLAWS"
+      },
+      {
+        level: 36,
+        move: "RAZORSHELL"
+      },
+      {
+        level: 42,
+        move: "SHELLSMASH"
+      },
+      {
+        level: 48,
+        move: "CROSSCHOP"
+      },
+      {
+        level: 54,
+        move: "STONEEDGE"
+      }
+    ],
+    tutorMoves: [
+      "AERIALACE",
+      "ASSURANCE",
+      "ATTRACT",
+      "BEATUP",
+      "BLIZZARD",
+      "BRICKBREAK",
+      "BRUTALSWING",
+      "BULKUP",
+      "BULLDOZE",
+      "CAPTIVATE",
+      "CONFIDE",
+      "CUT",
+      "DIG",
+      "DIVE",
+      "DOUBLETEAM",
+      "DRAGONCLAW",
+      "DUALCHOP",
+      "EARTHPOWER",
+      "EARTHQUAKE",
+      "EMBARGO",
+      "ENDEAVOR",
+      "ENDURE",
+      "FACADE",
+      "FALSESWIPE",
+      "FLING",
+      "FOCUSBLAST",
+      "FRUSTRATION",
+      "GIGAIMPACT",
+      "GRASSKNOT",
+      "HELPINGHAND",
+      "HIDDENPOWER",
+      "HONECLAWS",
+      "HYPERBEAM",
+      "ICEBEAM",
+      "ICYWIND",
+      "INFESTATION",
+      "IRONDEFENSE",
+      "LASERFOCUS",
+      "LIQUIDATION",
+      "LOWKICK",
+      "METEORBEAM",
+      "MIMIC",
+      "MUDDYWATER",
+      "MUDSHOT",
+      "NATURALGIFT",
+      "NATUREPOWER",
+      "PAYBACK",
+      "POISONJAB",
+      "POWERUPPUNCH",
+      "PROTECT",
+      "RAINDANCE",
+      "RAZORSHELL",
+      "REST",
+      "RETURN",
+      "ROCKBLAST",
+      "ROCKPOLISH",
+      "ROCKSLIDE",
+      "ROCKSMASH",
+      "ROCKTOMB",
+      "ROUND",
+      "SAFEGUARD",
+      "SANDSTORM",
+      "SCALD",
+      "SCREECH",
+      "SECRETPOWER",
+      "SHADOWCLAW",
+      "SLEEPTALK",
+      "SLUDGEBOMB",
+      "SLUDGEWAVE",
+      "SMACKDOWN",
+      "SNORE",
+      "STEALTHROCK",
+      "STONEEDGE",
+      "STRENGTH",
+      "SUBSTITUTE",
+      "SUPERPOWER",
+      "SURF",
+      "SWAGGER",
+      "SWORDSDANCE",
+      "TAUNT",
+      "THIEF",
+      "TORMENT",
+      "TOXIC",
+      "UPROAR",
+      "WATERPULSE",
+      "WHIRLPOOL",
+      "XSCISSOR",
+      "TERABLAST"
+    ],
+    eggMoves: [
+
+    ],
+    suffix: "normal",
+    evolution: [
+
+    ],
+    color: "Brown",
+    formNumber: 1,
+    formName: "Mega Barbaracle",
+    baseId: "BARBARACLE",
+    megaStone: "BARBARACITE"
+  },
+  {
+    id: "DRAGALGE",
+    name: "Dragalge",
+    types: [
+      "POISON",
+      "DRAGON"
+    ],
+    sprite: "/Front/DRAGALGE_1.png",
+    backSprite: "/Back/DRAGALGE_1.png",
+    description: "Their poison is strong enough to eat through the hull of a tanker, and they spit it indiscriminately at anything that enters their territory.",
+    stats: {
+      hp: 65,
+      attack: 85,
+      defense: 105,
+      spAttack: 132,
+      spDefense: 163,
+      speed: 44
+    },
+    height: "2.1",
+    weight: "100.3",
+    abilities: [
+      "ADAPTABILITY"
+    ],
+    hiddenAbilities: [
+      "ADAPTABILITY"
+    ],
+    category: "Mock Kelp",
+    moves: [
+      {
+        level: 1,
+        move: "TACKLE"
+      },
+      {
+        level: 1,
+        move: "SMOKESCREEN"
+      },
+      {
+        level: 1,
+        move: "ACID"
+      },
+      {
+        level: 1,
+        move: "WATERGUN"
+      },
+      {
+        level: 15,
+        move: "TAILWHIP"
+      },
+      {
+        level: 20,
+        move: "DOUBLETEAM"
+      },
+      {
+        level: 25,
+        move: "POISONTAIL"
+      },
+      {
+        level: 30,
+        move: "WATERPULSE"
+      },
+      {
+        level: 35,
+        move: "TOXIC"
+      },
+      {
+        level: 40,
+        move: "DRAGONPULSE"
+      },
+      {
+        level: 45,
+        move: "AQUATAIL"
+      },
+      {
+        level: 52,
+        move: "SLUDGEBOMB"
+      },
+      {
+        level: 59,
+        move: "HYDROPUMP"
+      },
+      {
+        level: 66,
+        move: "OUTRAGE"
+      }
+    ],
+    tutorMoves: [
+      "ACIDSPRAY",
+      "AQUATAIL",
+      "ATTRACT",
+      "BOUNCE",
+      "CAPTIVATE",
+      "CHILLINGWATER",
+      "CONFIDE",
+      "DIVE",
+      "DOUBLETEAM",
+      "DRACOMETEOR",
+      "DRAGONPULSE",
+      "ENDURE",
+      "FACADE",
+      "FLIPTURN",
+      "FOCUSBLAST",
+      "FRUSTRATION",
+      "GIGAIMPACT",
+      "GUNKSHOT",
+      "HAIL",
+      "HAZE",
+      "HIDDENPOWER",
+      "HYDROPUMP",
+      "HYPERBEAM",
+      "ICYWIND",
+      "IRONTAIL",
+      "LIQUIDATION",
+      "MIMIC",
+      "MUDDYWATER",
+      "MUDSHOT",
+      "MUDSLAP",
+      "NATURALGIFT",
+      "OUTRAGE",
+      "PLAYROUGH",
+      "POISONTAIL",
+      "PROTECT",
+      "RAINDANCE",
+      "REST",
+      "RETURN",
+      "ROUND",
+      "SCALD",
+      "SCALESHOT",
+      "SCARYFACE",
+      "SECRETPOWER",
+      "SHADOWBALL",
+      "SHOCKWAVE",
+      "SLEEPTALK",
+      "SLUDGEBOMB",
+      "SLUDGEWAVE",
+      "SNORE",
+      "SNOWSCAPE",
+      "SPITE",
+      "SUBSTITUTE",
+      "SURF",
+      "SWAGGER",
+      "TAKEDOWN",
+      "TERABLAST",
+      "THIEF",
+      "THUNDER",
+      "THUNDERBOLT",
+      "TOXIC",
+      "TOXICSPIKES",
+      "VENOMDRENCH",
+      "VENOSHOCK",
+      "WATERFALL",
+      "WATERPULSE",
+      "WHIRLPOOL"
+    ],
+    eggMoves: [
+
+    ],
+    suffix: "normal",
+    evolution: [
+
+    ],
+    color: "Brown",
+    formNumber: 1,
+    formName: "Mega Dragalge",
+    baseId: "DRAGALGE",
+    megaStone: "DRAGALGITE"
+  },
+  {
+    id: "HAWLUCHA",
+    name: "Hawlucha",
+    types: [
+      "FIGHTING",
+      "FLYING"
+    ],
+    sprite: "/Front/HAWLUCHA_1.png",
+    backSprite: "/Back/HAWLUCHA_1.png",
+    description: "With its wings, it controls its position in the air. It likes to attack from above, a maneuver that is difficult to defend against.",
+    stats: {
+      hp: 78,
+      attack: 137,
+      defense: 100,
+      spAttack: 74,
+      spDefense: 93,
+      speed: 118
+    },
+    height: "1.0",
+    weight: "25.0",
+    abilities: [
+      "RECKLESS"
+    ],
+    hiddenAbilities: [
+      "RECKLESS"
+    ],
+    category: "Wrestling",
+    moves: [
+      {
+        level: 1,
+        move: "TACKLE"
+      },
+      {
+        level: 1,
+        move: "HONECLAWS"
+      },
+      {
+        level: 4,
+        move: "WINGATTACK"
+      },
+      {
+        level: 8,
+        move: "DETECT"
+      },
+      {
+        level: 12,
+        move: "AERIALACE"
+      },
+      {
+        level: 16,
+        move: "ENCORE"
+      },
+      {
+        level: 20,
+        move: "FEATHERDANCE"
+      },
+      {
+        level: 24,
+        move: "BRICKBREAK"
+      },
+      {
+        level: 28,
+        move: "BOUNCE"
+      },
+      {
+        level: 32,
+        move: "TAUNT"
+      },
+      {
+        level: 36,
+        move: "ROOST"
+      },
+      {
+        level: 40,
+        move: "SWORDSDANCE"
+      },
+      {
+        level: 44,
+        move: "FLYINGPRESS"
+      },
+      {
+        level: 48,
+        move: "HIGHJUMPKICK"
+      },
+      {
+        level: 52,
+        move: "ENDEAVOR"
+      },
+      {
+        level: 56,
+        move: "SKYATTACK"
+      }
+    ],
+    tutorMoves: [
+      "ACROBATICS",
+      "AERIALACE",
+      "AGILITY",
+      "ALLYSWITCH",
+      "ASSURANCE",
+      "ATTRACT",
+      "BATONPASS",
+      "BODYPRESS",
+      "BODYSLAM",
+      "BOUNCE",
+      "BRAVEBIRD",
+      "BRICKBREAK",
+      "BULKUP",
+      "CAPTIVATE",
+      "CLOSECOMBAT",
+      "COACHING",
+      "CONFIDE",
+      "CUT",
+      "DEFOG",
+      "DIG",
+      "DOUBLETEAM",
+      "DRAINPUNCH",
+      "DUALCHOP",
+      "DUALWINGBEAT",
+      "ENCORE",
+      "ENDEAVOR",
+      "ENDURE",
+      "FACADE",
+      "FALSESWIPE",
+      "FEATHERDANCE",
+      "FIREPUNCH",
+      "FLING",
+      "FLY",
+      "FOCUSBLAST",
+      "FOCUSPUNCH",
+      "FRUSTRATION",
+      "GIGAIMPACT",
+      "GRASSKNOT",
+      "HELPINGHAND",
+      "HIDDENPOWER",
+      "HONECLAWS",
+      "HYPERBEAM",
+      "IRONHEAD",
+      "LASERFOCUS",
+      "LASTRESORT",
+      "LOWKICK",
+      "LOWSWEEP",
+      "LUNGE",
+      "MEGAKICK",
+      "MEGAPUNCH",
+      "MIMIC",
+      "NATURALGIFT",
+      "PAYBACK",
+      "POISONJAB",
+      "POWERUPPUNCH",
+      "PROTECT",
+      "RAINDANCE",
+      "REST",
+      "RETALIATE",
+      "RETURN",
+      "REVENGE",
+      "REVERSAL",
+      "ROCKSLIDE",
+      "ROCKSMASH",
+      "ROCKTOMB",
+      "ROOST",
+      "ROUND",
+      "SECRETPOWER",
+      "SKYATTACK",
+      "SKYDROP",
+      "SLEEPTALK",
+      "SNORE",
+      "STEELWING",
+      "STONEEDGE",
+      "STRENGTH",
+      "SUBSTITUTE",
+      "SUNNYDAY",
+      "SUPERPOWER",
+      "SWAGGER",
+      "SWIFT",
+      "SWORDSDANCE",
+      "TAKEDOWN",
+      "TAUNT",
+      "TERABLAST",
+      "THIEF",
+      "THROATCHOP",
+      "THUNDERPUNCH",
+      "TORMENT",
+      "TRAILBLAZE",
+      "UPPERHAND",
+      "UPROAR",
+      "UTURN",
+      "WORKUP",
+      "XSCISSOR",
+      "ZENHEADBUTT"
+    ],
+    eggMoves: [
+      "CROSSCHOP",
+      "DEFOG",
+      "ENTRAINMENT",
+      "FEINT",
+      "MEANLOOK",
+      "QUICKGUARD"
+    ],
+    suffix: "normal",
+    evolution: [
+
+    ],
+    color: "Green",
+    formNumber: 1,
+    formName: "Mega Hawlucha",
+    baseId: "HAWLUCHA",
+    megaStone: "HAWLUCHANITE"
+  },
+  {
+    id: "DRAMPA",
+    name: "Drampa",
+    types: [
+      "NORMAL",
+      "DRAGON"
+    ],
+    sprite: "/Front/DRAMPA_1.png",
+    backSprite: "/Back/DRAMPA_1.png",
+    description: "This Pokémon is friendly to people and loves children most of all. It comes from deep in the mountains to play with children it likes in town.",
+    stats: {
+      hp: 78,
+      attack: 85,
+      defense: 110,
+      spAttack: 160,
+      spDefense: 116,
+      speed: 36
+    },
+    height: "3.0",
+    weight: "240.5",
+    abilities: [
+      "BERSERK"
+    ],
+    hiddenAbilities: [
+      "BERSERK"
+    ],
+    category: "Placid",
+    moves: [
+      {
+        level: 1,
+        move: "PLAYNICE"
+      },
+      {
+        level: 1,
+        move: "ECHOEDVOICE"
+      },
+      {
+        level: 5,
+        move: "TWISTER"
+      },
+      {
+        level: 10,
+        move: "PROTECT"
+      },
+      {
+        level: 15,
+        move: "GLARE"
+      },
+      {
+        level: 20,
+        move: "SAFEGUARD"
+      },
+      {
+        level: 25,
+        move: "DRAGONBREATH"
+      },
+      {
+        level: 30,
+        move: "EXTRASENSORY"
+      },
+      {
+        level: 35,
+        move: "DRAGONPULSE"
+      },
+      {
+        level: 40,
+        move: "LIGHTSCREEN"
+      },
+      {
+        level: 45,
+        move: "FLY"
+      },
+      {
+        level: 50,
+        move: "HYPERVOICE"
+      },
+      {
+        level: 55,
+        move: "OUTRAGE"
+      }
+    ],
+    tutorMoves: [
+      "AMNESIA",
+      "ATTRACT",
+      "BLIZZARD",
+      "BLOCK",
+      "BREAKINGSWIPE",
+      "BULLDOZE",
+      "CALMMIND",
+      "CAPTIVATE",
+      "CONFIDE",
+      "DEFOG",
+      "DOUBLETEAM",
+      "DRACOMETEOR",
+      "DRAGONCLAW",
+      "DRAGONDANCE",
+      "DRAGONPULSE",
+      "DRAGONTAIL",
+      "EARTHQUAKE",
+      "ECHOEDVOICE",
+      "ENDEAVOR",
+      "ENDURE",
+      "ENERGYBALL",
+      "FACADE",
+      "FIREBLAST",
+      "FLAMETHROWER",
+      "FLING",
+      "FLY",
+      "FOCUSBLAST",
+      "FRUSTRATION",
+      "GIGAIMPACT",
+      "GRASSKNOT",
+      "HEATWAVE",
+      "HELPINGHAND",
+      "HIDDENPOWER",
+      "HURRICANE",
+      "HYDROPUMP",
+      "HYPERBEAM",
+      "HYPERVOICE",
+      "ICEBEAM",
+      "ICYWIND",
+      "LASHOUT",
+      "LIGHTSCREEN",
+      "MIMIC",
+      "NATURALGIFT",
+      "NATUREPOWER",
+      "OUTRAGE",
+      "PLAYROUGH",
+      "PROTECT",
+      "PSYCHUP",
+      "RAINDANCE",
+      "REST",
+      "RETURN",
+      "ROAR",
+      "ROCKSLIDE",
+      "ROOST",
+      "ROUND",
+      "SAFEGUARD",
+      "SCALESHOT",
+      "SECRETPOWER",
+      "SHADOWBALL",
+      "SHADOWCLAW",
+      "SHOCKWAVE",
+      "SIGNALBEAM",
+      "SLEEPTALK",
+      "SNARL",
+      "SNORE",
+      "SOLARBEAM",
+      "STEELWING",
+      "STOMPINGTANTRUM",
+      "SUBSTITUTE",
+      "SUNNYDAY",
+      "SUPERPOWER",
+      "SURF",
+      "SWIFT",
+      "TAILWIND",
+      "THUNDER",
+      "THUNDERBOLT",
+      "THUNDERWAVE",
+      "TOXIC",
+      "UPROAR",
+      "WATERPULSE",
+      "WORKUP",
+      "TERABLAST"
+    ],
+    eggMoves: [
+      "DRAGONRUSH",
+      "MIST",
+      "TICKLE"
+    ],
+    suffix: "normal",
+    evolution: [
+
+    ],
+    color: "White",
+    formNumber: 1,
+    formName: "Mega Drampa",
+    baseId: "DRAMPA",
+    megaStone: "DRAMPANITE"
+  },
+  {
+    id: "FALINKS",
+    name: "Falinks",
+    types: [
+      "FIGHTING"
+    ],
+    sprite: "/Front/FALINKS_1.png",
+    backSprite: "/Back/FALINKS_1.png",
+    description: "The six of them work together as one Pokémon. Teamwork is also their battle strategy, and they constantly change their formation as they fight.",
+    stats: {
+      hp: 65,
+      attack: 135,
+      defense: 135,
+      spAttack: 70,
+      spDefense: 65,
+      speed: 100
+    },
+    height: "1.6",
+    weight: "99.0",
+    abilities: [
+      "ADAPTABILITY"
+    ],
+    hiddenAbilities: [
+      "ADAPTABILITY"
+    ],
+    category: "Formation",
+    moves: [
+      {
+        level: 1,
+        move: "TACKLE"
+      },
+      {
+        level: 1,
+        move: "PROTECT"
+      },
+      {
+        level: 5,
+        move: "ROCKSMASH"
+      },
+      {
+        level: 10,
+        move: "FOCUSENERGY"
+      },
+      {
+        level: 15,
+        move: "HEADBUTT"
+      },
+      {
+        level: 20,
+        move: "BULKUP"
+      },
+      {
+        level: 25,
+        move: "ENDURE"
+      },
+      {
+        level: 30,
+        move: "REVERSAL"
+      },
+      {
+        level: 35,
+        move: "FIRSTIMPRESSION"
+      },
+      {
+        level: 40,
+        move: "NORETREAT"
+      },
+      {
+        level: 45,
+        move: "IRONDEFENSE"
+      },
+      {
+        level: 50,
+        move: "CLOSECOMBAT"
+      },
+      {
+        level: 55,
+        move: "MEGAHORN"
+      },
+      {
+        level: 60,
+        move: "COUNTER"
+      }
+    ],
+    tutorMoves: [
+      "AGILITY",
+      "ASSURANCE",
+      "BEATUP",
+      "BODYPRESS",
+      "BODYSLAM",
+      "BRICKBREAK",
+      "BULKUP",
+      "CLOSECOMBAT",
+      "COACHING",
+      "CONFIDE",
+      "DOUBLETEAM",
+      "ENDEAVOR",
+      "ENDURE",
+      "FACADE",
+      "FALSESWIPE",
+      "FOCUSBLAST",
+      "FOCUSENERGY",
+      "FRUSTRATION",
+      "GIGAIMPACT",
+      "HELPINGHAND",
+      "HIDDENPOWER",
+      "HIGHHORSEPOWER",
+      "HYPERBEAM",
+      "IRONDEFENSE",
+      "IRONHEAD",
+      "KNOCKOFF",
+      "LUNGE",
+      "MEGAHORN",
+      "MIMIC",
+      "NATURALGIFT",
+      "PAYBACK",
+      "POISONJAB",
+      "PROTECT",
+      "PSYCHUP",
+      "RAINDANCE",
+      "REST",
+      "RETALIATE",
+      "RETURN",
+      "REVENGE",
+      "REVERSAL",
+      "ROCKSLIDE",
+      "ROCKTOMB",
+      "ROUND",
+      "SCREECH",
+      "SECRETPOWER",
+      "SLEEPTALK",
+      "SMARTSTRIKE",
+      "SNORE",
+      "SUBSTITUTE",
+      "SUNNYDAY",
+      "SUPERPOWER",
+      "SWAGGER",
+      "SWORDSDANCE",
+      "TAKEDOWN",
+      "TERABLAST",
+      "THROATCHOP",
+      "TRAILBLAZE",
+      "UPPERHAND",
+      "UPROAR",
+      "ZENHEADBUTT"
+    ],
+    eggMoves: [
+
+    ],
+    suffix: "normal",
+    evolution: [
+
+    ],
+    color: "Yellow",
+    formNumber: 1,
+    formName: "Mega Falinks",
+    baseId: "FALINKS",
+    megaStone: "FALINKSITE"
+  },
+  {
+    id: "FLOETTE",
+    name: "Floette",
+    types: [
+      "FAIRY"
+    ],
+    sprite: "/Front/FLOETTE_6.png",
+    backSprite: "/Back/FLOETTE_6.png",
+    description: "It flutters around fields of flowers and cares for flowers that are starting to wilt. It draws out the power of flowers to battle.",
+    stats: {
+      hp: 74,
+      attack: 65,
+      defense: 67,
+      spAttack: 125,
+      spDefense: 128,
+      speed: 92
+    },
+    height: "0.2",
+    weight: "100.8",
+    abilities: [
+      "MEGALAUNCHER"
+    ],
+    hiddenAbilities: [
+      "MEGALAUNCHER"
+    ],
+    category: "Single Bloom",
+    moves: [
+      {
+        level: 1,
+        move: "TACKLE"
+      },
+      {
+        level: 1,
+        move: "VINEWHIP"
+      },
+      {
+        level: 1,
+        move: "FAIRYWIND"
+      },
+      {
+        level: 10,
+        move: "SAFEGUARD"
+      },
+      {
+        level: 15,
+        move: "RAZORLEAF"
+      },
+      {
+        level: 20,
+        move: "WISH"
+      },
+      {
+        level: 25,
+        move: "MAGICALLEAF"
+      },
+      {
+        level: 27,
+        move: "GRASSYTERRAIN"
+      },
+      {
+        level: 33,
+        move: "PETALBLIZZARD"
+      },
+      {
+        level: 38,
+        move: "SYNTHESIS"
+      },
+      {
+        level: 43,
+        move: "MISTYTERRAIN"
+      },
+      {
+        level: 46,
+        move: "MOONBLAST"
+      },
+      {
+        level: 51,
+        move: "PETALDANCE"
+      },
+      {
+        level: 58,
+        move: "SOLARBEAM"
+      }
+    ],
+    tutorMoves: [
+      "AFTERYOU",
+      "ALLURINGVOICE",
+      "ALLYSWITCH",
+      "ATTRACT",
+      "BATONPASS",
+      "CALMMIND",
+      "CAPTIVATE",
+      "CHARM",
+      "CHILLINGWATER",
+      "CONFIDE",
+      "COVET",
+      "DAZZLINGGLEAM",
+      "DISARMINGVOICE",
+      "DOUBLETEAM",
+      "DRAININGKISS",
+      "ECHOEDVOICE",
+      "ENDEAVOR",
+      "ENDURE",
+      "ENERGYBALL",
+      "FACADE",
+      "FLASH",
+      "FRUSTRATION",
+      "GIGADRAIN",
+      "GRASSKNOT",
+      "GRASSYTERRAIN",
+      "HEALBELL",
+      "HELPINGHAND",
+      "HIDDENPOWER",
+      "LIGHTSCREEN",
+      "MAGICALLEAF",
+      "MAGICCOAT",
+      "METRONOME",
+      "MIMIC",
+      "MISTYTERRAIN",
+      "NATURALGIFT",
+      "NATUREPOWER",
+      "PETALBLIZZARD",
+      "POLLENPUFF",
+      "PROTECT",
+      "PSYCHIC",
+      "RAINDANCE",
+      "REST",
+      "RETURN",
+      "ROUND",
+      "SAFEGUARD",
+      "SECRETPOWER",
+      "SEEDBOMB",
+      "SKILLSWAP",
+      "SLEEPTALK",
+      "SNORE",
+      "SOLARBEAM",
+      "STOREDPOWER",
+      "SUBSTITUTE",
+      "SUNNYDAY",
+      "SWAGGER",
+      "SWIFT",
+      "SYNTHESIS",
+      "TERABLAST",
+      "TRAILBLAZE",
+      "TRICK",
+      "WORRYSEED"
+    ],
+    eggMoves: [
+
+    ],
+    suffix: "normal",
+    evolution: [
+      {
+        to: "FLORGES",
+        method: "Item",
+        value: "SHINYSTONE"
+      }
+    ],
+    color: "White",
+    formNumber: 6,
+    formName: "Mega Floette",
+    baseId: "FLOETTE",
+    megaStone: "FLOETTITE"
+  },
+  {
+    id: "ZYGARDE",
+    name: "Zygarde",
+    types: [
+      "DRAGON",
+      "GROUND"
+    ],
+    sprite: "/Front/ZYGARDE_4.png",
+    backSprite: "/Back/ZYGARDE_4.png",
+    description: "It's thought to be monitoring the ecosystem. There are rumors that even greater power lies hidden within it.",
+    stats: {
+      hp: 74,
+      attack: 65,
+      defense: 67,
+      spAttack: 125,
+      spDefense: 128,
+      speed: 92
+    },
+    height: "7.7",
+    weight: "610.0",
+    abilities: [
+      "POWERCONSTRUCT"
+    ],
+    hiddenAbilities: [
+      "POWERCONSTRUCT"
+    ],
+    category: "Order",
+    moves: [
+      {
+        level: 1,
+        move: "THOUSANDARROWS"
+      },
+      {
+        level: 1,
+        move: "THOUSANDWAVES"
+      },
+      {
+        level: 1,
+        move: "COREENFORCER"
+      },
+      {
+        level: 1,
+        move: "BIND"
+      },
+      {
+        level: 1,
+        move: "BULLDOZE"
+      },
+      {
+        level: 1,
+        move: "DRAGONBREATH"
+      },
+      {
+        level: 1,
+        move: "BITE"
+      },
+      {
+        level: 8,
+        move: "HAZE"
+      },
+      {
+        level: 16,
+        move: "DIG"
+      },
+      {
+        level: 24,
+        move: "SAFEGUARD"
+      },
+      {
+        level: 32,
+        move: "CRUNCH"
+      },
+      {
+        level: 40,
+        move: "DRAGONPULSE"
+      },
+      {
+        level: 48,
+        move: "LANDSWRATH"
+      },
+      {
+        level: 56,
+        move: "GLARE"
+      },
+      {
+        level: 64,
+        move: "SANDSTORM"
+      },
+      {
+        level: 72,
+        move: "COIL"
+      },
+      {
+        level: 80,
+        move: "EARTHQUAKE"
+      },
+      {
+        level: 88,
+        move: "OUTRAGE"
+      }
+    ],
+    tutorMoves: [
+      "BIND",
+      "BLOCK",
+      "BODYSLAM",
+      "BREAKINGSWIPE",
+      "BRICKBREAK",
+      "BULLDOZE",
+      "CONFIDE",
+      "CRUNCH",
+      "DIG",
+      "DOUBLETEAM",
+      "DRACOMETEOR",
+      "DRAGONDANCE",
+      "DRAGONPULSE",
+      "DRAGONTAIL",
+      "EARTHPOWER",
+      "EARTHQUAKE",
+      "ENDURE",
+      "FACADE",
+      "FOCUSBLAST",
+      "FRUSTRATION",
+      "GIGAIMPACT",
+      "GRASSKNOT",
+      "HIDDENPOWER",
+      "HIGHHORSEPOWER",
+      "HYPERBEAM",
+      "HYPERVOICE",
+      "IRONTAIL",
+      "MIMIC",
+      "NATURALGIFT",
+      "OUTRAGE",
+      "PAINSPLIT",
+      "PAYBACK",
+      "PROTECT",
+      "REST",
+      "RETALIATE",
+      "RETURN",
+      "REVERSAL",
+      "ROCKSLIDE",
+      "ROCKSMASH",
+      "ROUND",
+      "SAFEGUARD",
+      "SANDSTORM",
+      "SCALESHOT",
+      "SCORCHINGSANDS",
+      "SECRETPOWER",
+      "SHOCKWAVE",
+      "SKITTERSMACK",
+      "SLEEPTALK",
+      "SLUDGEWAVE",
+      "SNORE",
+      "SPITE",
+      "STOMPINGTANTRUM",
+      "STONEEDGE",
+      "STRENGTH",
+      "SUBSTITUTE",
+      "SUNNYDAY",
+      "SUPERPOWER",
+      "SWAGGER",
+      "SWIFT",
+      "TOXIC",
+      "ZENHEADBUTT",
+      "TERABLAST"
+    ],
+    eggMoves: [
+
+    ],
+    suffix: "normal",
+    evolution: [
+
+    ],
+    color: "Green",
+    formNumber: 4,
+    formName: "Mega Zygarde",
+    baseId: "ZYGARDE",
+    megaStone: "ZYGARDITE"
   },
   {
     id: "CLEFABLE",
@@ -64752,7 +69789,8 @@ export const pokemonForms: PokemonForm[] =
       "WATERFALL",
       "WATERPULSE",
       "WHIRLPOOL",
-      "WONDERROOM"
+      "WONDERROOM",
+      "TERABLAST"
     ],
     eggMoves: [
 
@@ -66328,7 +71366,8 @@ export const pokemonForms: PokemonForm[] =
       "TOXICSPIKES",
       "VENOMDRENCH",
       "VENOSHOCK",
-      "XSCISSOR"
+      "XSCISSOR",
+      "TERABLAST"
     ],
     eggMoves: [
 
@@ -68235,7 +73274,8 @@ export const pokemonForms: PokemonForm[] =
       "UPROAR",
       "WATERPULSE",
       "WHIRLPOOL",
-      "XSCISSOR"
+      "XSCISSOR",
+      "TERABLAST"
     ],
     eggMoves: [
 
@@ -68789,7 +73829,8 @@ export const pokemonForms: PokemonForm[] =
       "SWAGGER",
       "SWIFT",
       "TOXIC",
-      "ZENHEADBUTT"
+      "ZENHEADBUTT",
+      "TERABLAST"
     ],
     eggMoves: [
 
@@ -68967,7 +74008,8 @@ export const pokemonForms: PokemonForm[] =
       "TOXIC",
       "UPROAR",
       "WATERPULSE",
-      "WORKUP"
+      "WORKUP",
+      "TERABLAST"
     ],
     eggMoves: [
       "DRAGONRUSH",
@@ -70658,7 +75700,8 @@ export const pokemonForms: PokemonForm[] =
       "THIEF",
       "TWISTER",
       "UTURN",
-      "VENOSHOCK"
+      "VENOSHOCK",
+      "TERABLAST"
     ],
     eggMoves: [
 
@@ -71247,7 +76290,8 @@ export const pokemonForms: PokemonForm[] =
       "THROATCHOP",
       "THUNDERPUNCH",
       "VACUUMWAVE",
-      "WORKUP"
+      "WORKUP",
+      "TERABLAST"
     ],
     eggMoves: [
 
@@ -71633,7 +76677,8 @@ export const pokemonForms: PokemonForm[] =
       "THIEF",
       "WATERPULSE",
       "WHIRLPOOL",
-      "XSCISSOR"
+      "XSCISSOR",
+      "TERABLAST"
     ],
     eggMoves: [
 
@@ -72452,7 +77497,8 @@ export const pokemonForms: PokemonForm[] =
       "TOXIC",
       "TOXICSPIKES",
       "VENOMDRENCH",
-      "VENOSHOCK"
+      "VENOSHOCK",
+      "TERABLAST"
     ],
     eggMoves: [
 
@@ -72604,7 +77650,8 @@ export const pokemonForms: PokemonForm[] =
       "THUNDERBOLT",
       "THUNDERPUNCH",
       "THUNDERWAVE",
-      "TOXIC"
+      "TOXIC",
+      "TERABLAST"
     ],
     eggMoves: [
 
@@ -73466,7 +78513,8 @@ export const pokemonForms: PokemonForm[] =
       "TRICKROOM",
       "UTURN",
       "WONDERROOM",
-      "ZENHEADBUTT"
+      "ZENHEADBUTT",
+      "TERABLAST"
     ],
     eggMoves: [
 
@@ -74856,7 +79904,8 @@ export const pokemonForms: PokemonForm[] =
       "TOXIC",
       "VENOSHOCK",
       "WILLOWISP",
-      "XSCISSOR"
+      "XSCISSOR",
+      "TERABLAST"
     ],
     eggMoves: [
 

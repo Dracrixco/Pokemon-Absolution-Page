@@ -1068,5 +1068,16 @@ export const items: Item[] =
     description: "Is a strange key finded in the abandoned mansion of the route 5.",
     sprite: "/Items/MANSION_KEY_ROUTE_5.png",
     suffix: "absolution"
+  },
+  {
+    id: "THERMALRESEARCHBOOTS",
+    name: "Thermal Research Boots",
+    namePlural: "Thermal Research Boots",
+    pocket: 8,
+    price: 15000,
+    flags: "Fling_30",
+    description: "Specialized protective boots used by volcanic researchers. Built to withstand high temperatures and unstable ground during active field studies.",
+    sprite: "/Items/THERMALRESEARCHBOOTS.png",
+    suffix: "absolution"
   }
 ]

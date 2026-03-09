@@ -182,7 +182,8 @@ export const pokemonForms: PokemonForm[] =
       "SWIFT",
       "UPROAR",
       "WORKUP",
-      "ZENHEADBUTT"
+      "ZENHEADBUTT",
+      "TERABLAST"
     ],
     eggMoves: [
       "BATONPASS",
@@ -392,7 +393,8 @@ export const pokemonForms: PokemonForm[] =
       "SWIFT",
       "UPROAR",
       "WORKUP",
-      "ZENHEADBUTT"
+      "ZENHEADBUTT",
+      "TERABLAST"
     ],
     eggMoves: [
       "BATONPASS",
@@ -829,462 +831,92 @@ export const pokemonForms: PokemonForm[] =
   },
   {
     id: "BUSHIERA",
-    name: "Bushiera",
+    name: "",
     types: [
-      "GRASS",
-      "DARK"
+
     ],
     sprite: "/Front/BUSHIERA_1.png",
     backSprite: "/Back/BUSHIERA_1.png",
-    description: "It has tangled DNA, and its appearance resembles multiple Pokémon. Trainers who encounter this Pokémon often say it feels familiar to them.",
+    description: "",
     stats: {
-      hp: 58,
-      attack: 80,
-      defense: 79,
-      spAttack: 81,
-      spDefense: 79,
-      speed: 86
+      hp: 0,
+      attack: 0,
+      defense: 0,
+      spAttack: 0,
+      spDefense: 0,
+      speed: 0
     },
-    height: "1.9",
-    weight: "120.0",
+    height: "",
+    weight: "",
     abilities: [
-      "RUNAWAY",
-      "INTIMIDATE"
+
     ],
     hiddenAbilities: [
-      "PREDATORTRACKING",
-      "ETERNALHUNGER"
+
     ],
-    category: "Quimera",
+    category: "",
     moves: [
-      {
-        level: 1,
-        move: "TACKLE"
-      },
-      {
-        level: 2,
-        move: "HOWL"
-      },
-      {
-        level: 6,
-        move: "PURSUIT"
-      },
-      {
-        level: 9,
-        move: "LEAFAGE"
-      },
-      {
-        level: 11,
-        move: "MUDSPORT"
-      },
-      {
-        level: 13,
-        move: "QUICKATTACK"
-      },
-      {
-        level: 16,
-        move: "RAZORLEAF"
-      },
-      {
-        level: 18,
-        move: "CONFUSERAY"
-      },
-      {
-        level: 20,
-        move: "POISONFANG"
-      },
-      {
-        level: 23,
-        move: "DIG"
-      },
-      {
-        level: 25,
-        move: "BITE"
-      },
-      {
-        level: 27,
-        move: "FLOWERFANG"
-      },
-      {
-        level: 29,
-        move: "SYNTHESIS"
-      },
-      {
-        level: 32,
-        move: "HONECLAWS"
-      },
-      {
-        level: 34,
-        move: "NEEDLEARM"
-      },
-      {
-        level: 36,
-        move: "SLASH"
-      },
-      {
-        level: 39,
-        move: "EMBARGO"
-      },
-      {
-        level: 41,
-        move: "BRICKBREAK"
-      },
-      {
-        level: 43,
-        move: "CRUNCH"
-      },
-      {
-        level: 46,
-        move: "TAKEDOWN"
-      },
-      {
-        level: 48,
-        move: "LEAFBLADE"
-      },
-      {
-        level: 50,
-        move: "DETECT"
-      },
-      {
-        level: 53,
-        move: "PREDATORYGAME"
-      },
-      {
-        level: 55,
-        move: "TAUNT"
-      },
-      {
-        level: 57,
-        move: "POWERWHIP"
-      },
-      {
-        level: 59,
-        move: "GIGAIMPACT"
-      }
+
     ],
     tutorMoves: [
-      "ACIDSPRAY",
-      "AMNESIA",
-      "ATTRACT",
-      "BIND",
-      "BLOCK",
-      "BODYSLAM",
-      "BULLDOZE",
-      "BULLETSEED",
-      "CAPTIVATE",
-      "CHARM",
-      "CONFIDE",
-      "CURSE",
-      "CUT",
-      "DEFENSECURL",
-      "DOUBLEEDGE",
-      "DOUBLETEAM",
-      "EARTHPOWER",
-      "EARTHQUAKE",
-      "ECHOEDVOICE",
-      "ENDURE",
-      "ENERGYBALL",
-      "FACADE",
-      "FALSESWIPE",
-      "FLASH",
-      "FRENZYPLANT",
-      "FRUSTRATION",
-      "FURYCUTTER",
-      "GIGADRAIN",
-      "GIGAIMPACT",
-      "GRASSKNOT",
-      "GRASSPLEDGE",
-      "GRASSYGLIDE",
-      "GRASSYTERRAIN",
-      "HEADBUTT",
-      "HELPINGHAND",
-      "HIDDENPOWER",
-      "HYPERBEAM",
-      "KNOCKOFF",
-      "LEAFSTORM",
-      "MAGICALLEAF",
-      "MIMIC",
-      "NATURALGIFT",
-      "NATUREPOWER",
-      "PETALBLIZZARD",
-      "POISONJAB",
-      "POWERWHIP",
-      "PROTECT",
-      "REST",
-      "RETURN",
-      "ROAR",
-      "ROCKCLIMB",
-      "ROCKSMASH",
-      "ROUND",
-      "SAFEGUARD",
-      "SCARYFACE",
-      "SECRETPOWER",
-      "SEEDBOMB",
-      "SLEEPTALK",
-      "SLUDGEBOMB",
-      "SNORE",
-      "SOLARBEAM",
-      "STOMPINGTANTRUM",
-      "STRENGTH",
-      "STRINGSHOT",
-      "SUBSTITUTE",
-      "SUNNYDAY",
-      "SWAGGER",
-      "SWORDSDANCE",
-      "SYNTHESIS",
-      "TAKEDOWN",
-      "TERABLAST",
-      "TERRAINPULSE",
-      "TOXIC",
-      "TRAILBLAZE",
-      "VENOSHOCK",
-      "WEATHERBALL",
-      "WORKUP",
-      "WORRYSEED"
+
     ],
     eggMoves: [
 
     ],
-    suffix: "absolution",
     evolution: [
-      {
-        to: "WEREWOODS",
-        method: "Level",
-        value: "40"
-      }
+
     ],
-    color: "White",
+    color: "",
     formNumber: 1,
     formName: "Beta Form",
     baseId: "BUSHIERA",
+    suffix: "absolution",
     megaStone: null
   },
   {
     id: "WEREWOODS",
-    name: "Werewoods",
+    name: "",
     types: [
-      "GRASS",
-      "DARK"
+
     ],
     sprite: "/Front/WEREWOODS_1.png",
     backSprite: "/Back/WEREWOODS_1.png",
-    description: "It has a high capacity for adaptation and shows great affinity with other Grass-type Pokémon.",
+    description: "",
     stats: {
-      hp: 80,
-      attack: 96,
-      defense: 94,
-      spAttack: 91,
-      spDefense: 91,
-      speed: 103
+      hp: 0,
+      attack: 0,
+      defense: 0,
+      spAttack: 0,
+      spDefense: 0,
+      speed: 0
     },
-    height: "2.2",
-    weight: "217.0",
+    height: "",
+    weight: "",
     abilities: [
-      "RUNAWAY",
-      "INTIMIDATE"
+
     ],
     hiddenAbilities: [
-      "PREDATORTRACKING",
-      "ETERNALHUNGER"
+
     ],
-    category: "Quimera",
+    category: "",
     moves: [
-      {
-        level: 1,
-        move: "TACKLE"
-      },
-      {
-        level: 2,
-        move: "HOWL"
-      },
-      {
-        level: 6,
-        move: "PURSUIT"
-      },
-      {
-        level: 9,
-        move: "LEAFAGE"
-      },
-      {
-        level: 11,
-        move: "MUDSPORT"
-      },
-      {
-        level: 13,
-        move: "QUICKATTACK"
-      },
-      {
-        level: 16,
-        move: "RAZORLEAF"
-      },
-      {
-        level: 18,
-        move: "CONFUSERAY"
-      },
-      {
-        level: 20,
-        move: "POISONFANG"
-      },
-      {
-        level: 23,
-        move: "DIG"
-      },
-      {
-        level: 25,
-        move: "BITE"
-      },
-      {
-        level: 27,
-        move: "FLOWERFANG"
-      },
-      {
-        level: 29,
-        move: "SYNTHESIS"
-      },
-      {
-        level: 32,
-        move: "HONECLAWS"
-      },
-      {
-        level: 34,
-        move: "NEEDLEARM"
-      },
-      {
-        level: 36,
-        move: "SLASH"
-      },
-      {
-        level: 39,
-        move: "EMBARGO"
-      },
-      {
-        level: 41,
-        move: "BRICKBREAK"
-      },
-      {
-        level: 43,
-        move: "CRUNCH"
-      },
-      {
-        level: 46,
-        move: "TAKEDOWN"
-      },
-      {
-        level: 48,
-        move: "LEAFBLADE"
-      },
-      {
-        level: 50,
-        move: "DETECT"
-      },
-      {
-        level: 53,
-        move: "PREDATORYGAME"
-      },
-      {
-        level: 55,
-        move: "TAUNT"
-      },
-      {
-        level: 57,
-        move: "POWERWHIP"
-      },
-      {
-        level: 59,
-        move: "GIGAIMPACT"
-      }
+
     ],
     tutorMoves: [
-      "ACIDSPRAY",
-      "AMNESIA",
-      "ATTRACT",
-      "BIND",
-      "BLOCK",
-      "BODYSLAM",
-      "BULLDOZE",
-      "BULLETSEED",
-      "CAPTIVATE",
-      "CHARM",
-      "CONFIDE",
-      "CURSE",
-      "CUT",
-      "DEFENSECURL",
-      "DOUBLEEDGE",
-      "DOUBLETEAM",
-      "EARTHPOWER",
-      "EARTHQUAKE",
-      "ECHOEDVOICE",
-      "ENDURE",
-      "ENERGYBALL",
-      "FACADE",
-      "FALSESWIPE",
-      "FLASH",
-      "FRENZYPLANT",
-      "FRUSTRATION",
-      "FURYCUTTER",
-      "GIGADRAIN",
-      "GIGAIMPACT",
-      "GRASSKNOT",
-      "GRASSPLEDGE",
-      "GRASSYGLIDE",
-      "GRASSYTERRAIN",
-      "HEADBUTT",
-      "HELPINGHAND",
-      "HIDDENPOWER",
-      "HYPERBEAM",
-      "KNOCKOFF",
-      "LEAFSTORM",
-      "MAGICALLEAF",
-      "MIMIC",
-      "NATURALGIFT",
-      "NATUREPOWER",
-      "PETALBLIZZARD",
-      "POISONJAB",
-      "POWERWHIP",
-      "PROTECT",
-      "REST",
-      "RETURN",
-      "ROAR",
-      "ROCKCLIMB",
-      "ROCKSMASH",
-      "ROUND",
-      "SAFEGUARD",
-      "SCARYFACE",
-      "SECRETPOWER",
-      "SEEDBOMB",
-      "SLEEPTALK",
-      "SLUDGEBOMB",
-      "SNORE",
-      "SOLARBEAM",
-      "STOMPINGTANTRUM",
-      "STRENGTH",
-      "STRINGSHOT",
-      "SUBSTITUTE",
-      "SUNNYDAY",
-      "SWAGGER",
-      "SWORDSDANCE",
-      "SYNTHESIS",
-      "TAKEDOWN",
-      "TERABLAST",
-      "TERRAINPULSE",
-      "TOXIC",
-      "TRAILBLAZE",
-      "VENOSHOCK",
-      "WEATHERBALL",
-      "WORKUP",
-      "WORRYSEED"
+
     ],
     eggMoves: [
 
     ],
-    suffix: "absolution",
     evolution: [
 
     ],
-    color: "White",
+    color: "",
     formNumber: 1,
     formName: "Beta Form",
     baseId: "WEREWOODS",
+    suffix: "absolution",
     megaStone: null
   },
   {
@@ -1460,7 +1092,8 @@ export const pokemonForms: PokemonForm[] =
       "TOXIC",
       "UPROAR",
       "UTURN",
-      "WORKUP"
+      "WORKUP",
+      "TERABLAST"
     ],
     eggMoves: [
       "DEFOG",
@@ -1485,194 +1118,47 @@ export const pokemonForms: PokemonForm[] =
   },
   {
     id: "SERENOVE",
-    name: "Serenove",
+    name: "",
     types: [
-      "FAIRY",
-      "FLYING"
+
     ],
     sprite: "/Front/SERENOVE_1.png",
     backSprite: "/Back/SERENOVE_1.png",
     description: "They love to give and receive affection, especially with their trainers, their feathers become quite soft to the touch during mating season.",
     stats: {
-      hp: 108,
-      attack: 91,
-      defense: 78,
-      spAttack: 108,
-      spDefense: 63,
-      speed: 118
+      hp: 0,
+      attack: 0,
+      defense: 0,
+      spAttack: 0,
+      spDefense: 0,
+      speed: 0
     },
-    height: "1.5",
-    weight: "35.0",
+    height: "",
+    weight: "",
     abilities: [
-      "CUTECHARM",
-      "VAMP"
+
     ],
     hiddenAbilities: [
-      "LOVEANDPEACE"
+
     ],
-    category: "Love Pigeon",
+    category: "",
     moves: [
-      {
-        level: 1,
-        move: "QUICKATTACK"
-      },
-      {
-        level: 1,
-        move: "ATTRACT"
-      },
-      {
-        level: 4,
-        move: "LEER"
-      },
-      {
-        level: 8,
-        move: "GUST"
-      },
-      {
-        level: 12,
-        move: "FAIRYWIND"
-      },
-      {
-        level: 16,
-        move: "AIRCUTTER"
-      },
-      {
-        level: 20,
-        move: "SEDUCTION"
-      },
-      {
-        level: 24,
-        move: "FEATHERDANCE"
-      },
-      {
-        level: 28,
-        move: "DAZZLINGGLEAM"
-      },
-      {
-        level: 32,
-        move: "ASSIST"
-      },
-      {
-        level: 36,
-        move: "ROOST"
-      },
-      {
-        level: 40,
-        move: "TAILWIND"
-      },
-      {
-        level: 44,
-        move: "SKYATTACK"
-      },
-      {
-        level: 48,
-        move: "LOVEHURTS"
-      },
-      {
-        level: 52,
-        move: "BATONPASS"
-      }
+
     ],
     tutorMoves: [
-      "MAGICALBLESSING",
-      "AERIALACE",
-      "AGILITY",
-      "AIRSLASH",
-      "ATTRACT",
-      "CAPTIVATE",
-      "CONFIDE",
-      "DEFOG",
-      "DOUBLETEAM",
-      "DUALWINGBEAT",
-      "ECHOEDVOICE",
-      "ENDURE",
-      "FACADE",
-      "FLY",
-      "FOCUSENERGY",
-      "FRUSTRATION",
-      "HEATWAVE",
-      "HIDDENPOWER",
-      "MIMIC",
-      "NATURALGIFT",
-      "PLUCK",
-      "PROTECT",
-      "RAINDANCE",
-      "REST",
-      "RETURN",
-      "ROOST",
-      "ROUND",
-      "SECRETPOWER",
-      "SKYATTACK",
-      "SLEEPTALK",
-      "SNORE",
-      "STEELWING",
-      "SUBSTITUTE",
-      "SUNNYDAY",
-      "SWAGGER",
-      "SWIFT",
-      "TAILWIND",
-      "TAUNT",
-      "TOXIC",
-      "UPROAR",
-      "UTURN",
-      "WORKUP",
-      "AERIALACE",
-      "AGILITY",
-      "AIRSLASH",
-      "ATTRACT",
-      "CAPTIVATE",
-      "CONFIDE",
-      "DEFOG",
-      "DOUBLETEAM",
-      "DUALWINGBEAT",
-      "ECHOEDVOICE",
-      "ENDURE",
-      "FACADE",
-      "FLY",
-      "FOCUSENERGY",
-      "FRUSTRATION",
-      "HEATWAVE",
-      "HIDDENPOWER",
-      "MIMIC",
-      "NATURALGIFT",
-      "PLUCK",
-      "PROTECT",
-      "RAINDANCE",
-      "REST",
-      "RETURN",
-      "ROOST",
-      "ROUND",
-      "SECRETPOWER",
-      "SKYATTACK",
-      "SLEEPTALK",
-      "SNORE",
-      "STEELWING",
-      "SUBSTITUTE",
-      "SUNNYDAY",
-      "SWAGGER",
-      "SWIFT",
-      "TAILWIND",
-      "TAUNT",
-      "TOXIC",
-      "UPROAR",
-      "UTURN",
-      "WORKUP"
+
     ],
     eggMoves: [
-      "DEFOG",
-      "HYPNOSIS",
-      "MORNINGSUN",
-      "NIGHTSLASH",
-      "WISH"
+
     ],
-    suffix: "absolution",
     evolution: [
 
     ],
-    color: "White",
+    color: "",
     formNumber: 1,
     formName: "Female",
     baseId: "SERENOVE",
+    suffix: "absolution",
     megaStone: null
   },
   {
@@ -1823,7 +1309,8 @@ export const pokemonForms: PokemonForm[] =
       "THUNDERFANG",
       "THUNDERWAVE",
       "TOXIC",
-      "XSCISSOR"
+      "XSCISSOR",
+      "TERABLAST"
     ],
     eggMoves: [
       "FIRSTIMPRESSION",
@@ -1973,7 +1460,8 @@ export const pokemonForms: PokemonForm[] =
       "FIREBLAST",
       "FIRELASH",
       "FIREPUNCH",
-      "FLAMECHARGE"
+      "FLAMECHARGE",
+      "TERABLAST"
     ],
     eggMoves: [
       "ERUPTION",
@@ -2152,7 +1640,8 @@ export const pokemonForms: PokemonForm[] =
       "HAIL",
       "HEALBLOCK",
       "HEALINGWISH",
-      "HEALPULSE"
+      "HEALPULSE",
+      "TERABLAST"
     ],
     eggMoves: [
 
@@ -2372,7 +1861,8 @@ export const pokemonForms: PokemonForm[] =
       "THIEF",
       "TRICK",
       "TRICKROOM",
-      "UPROAR"
+      "UPROAR",
+      "TERABLAST"
     ],
     eggMoves: [
 
@@ -2631,7 +2121,8 @@ export const pokemonForms: PokemonForm[] =
       "THUNDERWAVE",
       "UPROAR",
       "WATERPULSE",
-      "WHIRLPOOL"
+      "WHIRLPOOL",
+      "TERABLAST"
     ],
     eggMoves: [
       "BODYSLAM",
@@ -2904,7 +2395,8 @@ export const pokemonForms: PokemonForm[] =
       "THUNDERWAVE",
       "UPROAR",
       "WATERPULSE",
-      "WHIRLPOOL"
+      "WHIRLPOOL",
+      "TERABLAST"
     ],
     eggMoves: [
 

@@ -103,7 +103,7 @@ export const TeamBuilder = () => {
       exportText += `    Gender = male\n`;
       exportText += `    IV = ${pokemon.ivs.join(",")}\n`;
       exportText += `    EV = ${pokemon.evs.join(",")}\n`;
-      exportText += `    Ball = POKEBALL`;
+      exportText += `    Ball = POKEBALL\n`;
       // exportText += `    Ball = ULTRABALL\n`;
       [
         pokemon.moves_easy,
@@ -209,7 +209,7 @@ export const TeamBuilder = () => {
             {team.map((teamPokemon, index) => {
               const pokemonData = getPokemonData(
                 teamPokemon.id,
-                teamPokemon.formNumber
+                teamPokemon.formNumber,
               );
               return (
                 <div
@@ -268,7 +268,7 @@ export const TeamBuilder = () => {
                           <span
                             key={type}
                             className={`px-2 py-1 rounded text-white text-xs ${getTypeColor(
-                              type
+                              type,
                             )}`}
                           >
                             {type}

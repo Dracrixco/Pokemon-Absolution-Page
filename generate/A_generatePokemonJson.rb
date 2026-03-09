@@ -497,7 +497,7 @@ def parse_map_metadata(lines)
         pos_parts = value.split(",").map(&:to_i)
         if pos_parts.size >= 3
           current[:x] = pos_parts[1]
-          current[:y] = pos_parts[2]-1
+          current[:y] = pos_parts[2]
         end
       when "MapSize"
         size_parts = value.split(",")
