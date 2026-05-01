@@ -516,18 +516,6 @@ BattleBack = Volcan
 MapSize = 2,11
 Flags = ForWebPage
 #-------------------------------
-[075]   # Route 7
-Name = Route 7
-Outdoor = true
-ShowArea = true
-Bicycle = true
-Weather = Rain,100
-MapPosition = 0,17,6
-SnapEdges = true
-BattleBack = Swamp
-MapSize = 1,111
-Flags = ForWebPage
-#-------------------------------
 [076]   # Right Zone
 Name = Right Zone
 ShowArea = true
@@ -609,48 +597,3 @@ MapPosition = 0,17,5
 SnapEdges = true
 BattleBack = Gym2
 #-------------------------------
-[100]   # City Swamp
-Name = Cite Swamp
-Outdoor = true
-ShowArea = true
-Bicycle = true
-Weather = Rain,100
-MapPosition = 0,17,9
-SnapEdges = true
-BattleBack = Swamp
-MapSize = 1,1
-Flags = ForWebPage
-#-------------------------------
-[106]   # Thorny Area
-Name = Thorny Area
-Outdoor = true
-ShowArea = true
-Bicycle = true
-Weather = Rain,100
-MapPosition = 0,15,9
-SnapEdges = true
-BattleBack = Swamp
-MapSize = 2,11
-Flags = ForWebPage
-#-------------------------------
-[107]   # Route 8
-Name = Route 8
-Outdoor = true
-ShowArea = true
-Bicycle = true
-MapPosition = 0,18,9
-SnapEdges = true
-BattleBack = Swamp
-MapSize = 1,1111
-Flags = ForWebPage
-#-------------------------------
-[108]   # Route 8
-Name = Route 8
-Outdoor = true
-ShowArea = true
-Bicycle = true
-MapPosition = 0,19,9
-SnapEdges = true
-BattleBack = Swamp
-MapSize = 5,1111
-Flags = ForWebPage

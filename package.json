@@ -10,7 +10,7 @@
     "start": "vite preview --port 4173",
     "preview": "vite preview",
     "check-types": "tsc --noEmit",
-    "prettier": "prettier --write ."
+    "prettier": "prettier --write . --ignore-path .prettierignore"
   },
   "dependencies": {
     "@radix-ui/react-slot": "^1.2.4",

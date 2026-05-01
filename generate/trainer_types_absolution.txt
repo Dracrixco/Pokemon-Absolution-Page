@@ -118,6 +118,13 @@ SkillLevel = 200
 Flags = ReserveLastPokemon
 BattleBGM = Mega Man X6 OST  - Blaze Heatnix Stage Magma Area
 #-------------------------------
+[GYM_LEADER_POISON]
+Name = Gym Leader
+Gender = Female
+BaseMoney = 70
+SkillLevel = 210
+Flags = ReserveLastPokemon
+#-------------------------------
 [GYM_LEADER_WATER]
 Name = Gym Leader
 Gender = Female
@@ -141,6 +148,13 @@ BaseMoney = 60
 SkillLevel = 200
 Flags = ReserveLastPokemon
 BattleBGM = GYM1-Atlas-Scourge of the Night (Bakuryu)
+#-------------------------------
+[GYM_LEADER_POISON_RIGHT_HAD]
+Name = Right Hand Of The Leader
+Gender = Female
+BaseMoney = 60
+SkillLevel = 200
+Flags = ReserveLastPokemon
 #-------------------------------
 [BUGCATCHER_GROUP]
 Name = Bug Catcher Group

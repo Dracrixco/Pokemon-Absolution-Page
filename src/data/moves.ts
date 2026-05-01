@@ -10498,5 +10498,113 @@ export const moves: Move[] =
     target: "NearOther",
     description: "???",
     suffix: "normal"
+  },
+  {
+    id: "PETRIFIEDSHIELD",
+    name: "Petrified Shield",
+    type: "ROCK",
+    category: "Status",
+    power: null,
+    accuracy: null,
+    totalPP: 10,
+    target: "User",
+    description: "The user gain a tiny protoshield and a resistence. If the user is Rock type, the protoshield obtaine is bigger.",
+    suffix: "normal"
+  },
+  {
+    id: "ROLLUP",
+    name: "Roll Up",
+    type: "NORMAL",
+    category: "Physical",
+    power: 1,
+    accuracy: 100,
+    totalPP: 20,
+    target: "NearOther",
+    description: "The user slams into the foe with its heavy body. The heavier the user, the greater the damage.",
+    suffix: "normal"
+  },
+  {
+    id: "ELECTRICTAIL",
+    name: "Electric Tail",
+    type: "ELECTRIC",
+    category: "Physical",
+    power: 70,
+    accuracy: 95,
+    totalPP: 15,
+    target: "NearOther",
+    description: "The target is slammed with a electric-charged tail. It may also leave the target with paralysis.",
+    suffix: "normal"
+  },
+  {
+    id: "THUNDERLOCK",
+    name: "Thunderlock",
+    type: "ELECTRIC",
+    category: "Special",
+    power: 90,
+    accuracy: 95,
+    totalPP: 15,
+    target: "NearOther",
+    description: "The user unleashes a powerful electrical discharge, limiting the target's maximum hp to its current hp.",
+    suffix: "normal"
+  },
+  {
+    id: "AROMATICTORNADO",
+    name: "Aromatic Tornado",
+    type: "GRASS",
+    category: "Special",
+    power: 60,
+    accuracy: 100,
+    totalPP: 20,
+    target: "NearOther",
+    description: "Attacks the target with a powerful burst, reducing their evasion by one level.",
+    suffix: "normal"
+  },
+  {
+    id: "AROMATICCYCLONE",
+    name: "Aromatic Cyclone",
+    type: "GRASS",
+    category: "Special",
+    power: 120,
+    accuracy: 100,
+    totalPP: 10,
+    target: "AllNearFoes",
+    description: "Attacks the targets with a very powerful burst, reducing their evasion by two level.",
+    suffix: "normal"
+  },
+  {
+    id: "AROMATICBITE",
+    name: "Aromatic Bite",
+    type: "GRASS",
+    category: "Physical",
+    power: 60,
+    accuracy: 100,
+    totalPP: 20,
+    target: "NearOther",
+    description: "It bites the target with aromatic jaws. The lower the target's evasion, the more damage the move causes.",
+    suffix: "normal"
+  },
+  {
+    id: "PSYCHEDELICEXPLOSION",
+    name: "Psychedelic Explosion",
+    type: "PSYCHIC",
+    category: "Special",
+    power: 90,
+    accuracy: 100,
+    totalPP: 20,
+    target: "AllNearFoes",
+    description: "It generates psychedelic explosions that reduce the extra effect chance of the target.",
+    suffix: "normal"
+  },
+  {
+    id: "BUBBLEPRISON",
+    name: "Bubble Prison",
+    type: "WATER",
+    category: "Special",
+    power: 80,
+    accuracy: 100,
+    totalPP: 30,
+    target: "NearOther",
+    description: "???",
+    suffix: "normal"
   }
 ]

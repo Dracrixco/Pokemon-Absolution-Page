@@ -543,3 +543,116 @@ FunctionCode = BurnTarget
 Flags = CanProtect,CanMirrorMove,Slicing
 EffectChance = 50
 Description = ???
+#-------------------------------
+[PETRIFIEDSHIELD]
+Name = Petrified Shield
+Type = ROCK
+Category = Status
+Accuracy = 0
+TotalPP = 10
+Target = User
+FunctionCode = ProtoShieldAndResistence_MoroProtoShielRock
+Description = The user gain a tiny protoshield and a resistence. If the user is Rock type, the protoshield obtaine is bigger.
+#-------------------------------
+[ROLLUP]
+Name = Roll Up
+Type = NORMAL
+Category = Physical
+Power = 1
+Accuracy = 100
+TotalPP = 20
+Target = NearOther
+FunctionCode = PowerHigherWithUserHeavierThanTarget
+Flags = CanProtect,CanMirrorMove,Slicing,Contact
+Description = The user slams into the foe with its heavy body. The heavier the user, the greater the damage.
+#-------------------------------
+[ELECTRICTAIL]
+Name = Electric Tail
+Type = ELECTRIC
+Category = Physical
+Power = 70
+Accuracy = 95
+TotalPP = 15
+Target = NearOther
+FunctionCode = ParalyzeTarget
+Flags = Contact,CanProtect,CanMirrorMove
+EffectChance = 50
+Description = The target is slammed with a electric-charged tail. It may also leave the target with paralysis.
+#-------------------------------
+[THUNDERLOCK]
+Name = Thunderlock
+Type = ELECTRIC
+Category = Special
+Power = 90
+Accuracy = 95
+TotalPP = 15
+Target = NearOther
+FunctionCode = LimitTargetHpToActualTargetHp
+Flags = Contact,CanProtect,CanMirrorMove,HpLimitReleated
+EffectChance = 100
+Description = The user unleashes a powerful electrical discharge, limiting the target's maximum hp to its current hp.
+#-------------------------------
+[AROMATICTORNADO]
+Name = Aromatic Tornado
+Type = GRASS
+Category = Special
+Power = 60
+Accuracy = 100
+TotalPP = 20
+Target = NearOther
+FunctionCode = LowerTargetEvasion1
+Flags = CanProtect,CanMirrorMove,ZPower_ACCURACY_1,Wind
+EffectChance = 100
+Description = Attacks the target with a powerful burst, reducing their evasion by one level.
+#-------------------------------
+[AROMATICCYCLONE]
+Name = Aromatic Cyclone
+Type = GRASS
+Category = Special
+Power = 120
+Accuracy = 100
+TotalPP = 10
+Target = AllNearFoes
+FunctionCode = LowerTargetEvasion2
+Flags = CanProtect,CanMirrorMove,ZPower_ACCURACY_1,Wind
+EffectChance = 100
+Description = Attacks the targets with a very powerful burst, reducing their evasion by two level.
+#-------------------------------
+[AROMATICBITE]
+Name = Aromatic Bite
+Type = GRASS
+Category = Physical
+Power = 60
+Accuracy = 100
+TotalPP = 20
+Target = NearOther
+FunctionCode = None
+Flags = CanProtect,CanMirrorMove,ZPower_ACCURACY_1,Wind
+EffectChance = 100
+Description = It bites the target with aromatic jaws. The lower the target's evasion, the more damage the move causes.
+#-------------------------------
+[PSYCHEDELICEXPLOSION]
+Name = Psychedelic Explosion
+Type = PSYCHIC
+Category = Special
+Power = 90
+Accuracy = 100
+TotalPP = 20
+Target = AllNearFoes
+FunctionCode = None
+Flags = CanProtect,CanMirrorMove,ZPower_ACCURACY_1,Magic
+EffectChance = 100
+Description = It generates psychedelic explosions that reduce the extra effect chance of the target.
+#-------------------------------
+[BUBBLEPRISON]
+Name = Bubble Prison
+Type = WATER
+Category = Special
+Power = 80
+Accuracy = 100
+TotalPP = 30
+Target = NearOther
+FunctionCode = None
+Flags = CanProtect,CanMirrorMove,ZPower_ACCURACY_1
+EffectChance = 100
+Description = ???

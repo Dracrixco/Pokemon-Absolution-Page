@@ -466,22 +466,6 @@ export const tilesData: Record<string, TileData> =
       "ForWebPage"
     ]
   },
-  "17-6": {
-    id: "075",
-    mapIngameID: 75,
-    mapName: "Route 7",
-    x: 17,
-    y: 6,
-    mapWidth: 1,
-    mapHeight: 3,
-    color: "green",
-    outdoor: true,
-    showArea: true,
-    bicycle: true,
-    flags: [
-      "ForWebPage"
-    ]
-  },
   "18-1": {
     id: "076",
     mapIngameID: 76,
@@ -508,54 +492,6 @@ export const tilesData: Record<string, TileData> =
     mapHeight: 1,
     color: "purple",
     outdoor: false,
-    showArea: true,
-    bicycle: true,
-    flags: [
-      "ForWebPage"
-    ]
-  },
-  "17-9": {
-    id: "100",
-    mapIngameID: 100,
-    mapName: "Cite Swamp",
-    x: 17,
-    y: 9,
-    mapWidth: 1,
-    mapHeight: 1,
-    color: "purple",
-    outdoor: true,
-    showArea: true,
-    bicycle: true,
-    flags: [
-      "ForWebPage"
-    ]
-  },
-  "15-9": {
-    id: "106",
-    mapIngameID: 106,
-    mapName: "Thorny Area",
-    x: 15,
-    y: 9,
-    mapWidth: 2,
-    mapHeight: 1,
-    color: "purple",
-    outdoor: true,
-    showArea: true,
-    bicycle: true,
-    flags: [
-      "ForWebPage"
-    ]
-  },
-  "18-9": {
-    id: "107",
-    mapIngameID: 107,
-    mapName: "Route 8",
-    x: 18,
-    y: 9,
-    mapWidth: 1,
-    mapHeight: 4,
-    color: "green",
-    outdoor: true,
     showArea: true,
     bicycle: true,
     flags: [

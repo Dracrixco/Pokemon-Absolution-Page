@@ -3920,7 +3920,13 @@ export const encountersData: Record<string, Record<string, EncounterEntry[]>> =
         maxLevel: 25
       },
       {
-        rate: 10,
+        rate: 5,
+        species: "BELLSPROUT",
+        minLevel: 23,
+        maxLevel: 25
+      },
+      {
+        rate: 5,
         species: "YANMA",
         minLevel: 23,
         maxLevel: 25
@@ -3952,7 +3958,13 @@ export const encountersData: Record<string, Record<string, EncounterEntry[]>> =
         maxLevel: 25
       },
       {
-        rate: 20,
+        rate: 10,
+        species: "SHROODLE",
+        minLevel: 23,
+        maxLevel: 25
+      },
+      {
+        rate: 10,
         species: "YANMA",
         minLevel: 23,
         maxLevel: 25
@@ -4105,13 +4117,13 @@ export const encountersData: Record<string, Record<string, EncounterEntry[]>> =
       },
       {
         rate: 10,
-        species: "MAGBY",
+        species: "CARKOL",
         minLevel: 22,
         maxLevel: 23
       },
       {
         rate: 10,
-        species: "ROLYCOLY",
+        species: "MAGBY",
         minLevel: 22,
         maxLevel: 23
       }
@@ -4171,13 +4183,13 @@ export const encountersData: Record<string, Record<string, EncounterEntry[]>> =
       },
       {
         rate: 10,
-        species: "MAGBY",
+        species: "CARKOL",
         minLevel: 22,
         maxLevel: 23
       },
       {
         rate: 10,
-        species: "ROLYCOLY",
+        species: "MAGBY",
         minLevel: 22,
         maxLevel: 23
       }
@@ -4194,6 +4206,898 @@ export const encountersData: Record<string, Record<string, EncounterEntry[]>> =
         species: "TORKOAL",
         minLevel: 22,
         maxLevel: 23
+      }
+    ]
+  },
+  106: {
+    Land: [
+      {
+        rate: 10,
+        species: "FOONGUS",
+        minLevel: 25,
+        maxLevel: 27
+      },
+      {
+        rate: 10,
+        species: "GULPIN",
+        minLevel: 25,
+        maxLevel: 27
+      },
+      {
+        rate: 10,
+        species: "QUAGSIRE",
+        minLevel: 25,
+        maxLevel: 27
+      },
+      {
+        rate: 10,
+        species: "STUNKY",
+        minLevel: 25,
+        maxLevel: 27
+      },
+      {
+        rate: 10,
+        species: "TOEDSCOOL",
+        minLevel: 25,
+        maxLevel: 27
+      },
+      {
+        rate: 10,
+        species: "VENOMOTH",
+        minLevel: 25,
+        maxLevel: 27
+      },
+      {
+        rate: 10,
+        species: "WOOPER",
+        minLevel: 25,
+        maxLevel: 27
+      },
+      {
+        rate: 10,
+        species: "YANMA",
+        minLevel: 25,
+        maxLevel: 27
+      }
+    ],
+    Tree: [
+      {
+        rate: 20,
+        species: "ARIADOS",
+        minLevel: 25,
+        maxLevel: 27
+      },
+      {
+        rate: 20,
+        species: "GRAFAIAI",
+        minLevel: 25,
+        maxLevel: 27
+      },
+      {
+        rate: 20,
+        species: "MORELULL",
+        minLevel: 25,
+        maxLevel: 27
+      },
+      {
+        rate: 20,
+        species: "WHIRLIPEDE",
+        minLevel: 25,
+        maxLevel: 27
+      },
+      {
+        rate: 20,
+        species: "YANMA",
+        minLevel: 25,
+        maxLevel: 27
+      }
+    ],
+    Water: [
+      {
+        rate: 40,
+        species: "CARVANHA",
+        minLevel: 25,
+        maxLevel: 27
+      },
+      {
+        rate: 40,
+        species: "LOMBRE",
+        minLevel: 25,
+        maxLevel: 27
+      },
+      {
+        rate: 20,
+        species: "SHELLOS",
+        minLevel: 25,
+        maxLevel: 27
+      }
+    ],
+    OldRod: [
+      {
+        rate: 40,
+        species: "CARVANHA",
+        minLevel: 25,
+        maxLevel: 27
+      },
+      {
+        rate: 40,
+        species: "JAXEWS",
+        minLevel: 25,
+        maxLevel: 27
+      },
+      {
+        rate: 20,
+        species: "SHELLOS",
+        minLevel: 25,
+        maxLevel: 27
+      }
+    ],
+    GoodRod: [
+      {
+        rate: 40,
+        species: "CARVANHA",
+        minLevel: 25,
+        maxLevel: 27
+      },
+      {
+        rate: 40,
+        species: "JAXEWS",
+        minLevel: 25,
+        maxLevel: 27
+      },
+      {
+        rate: 20,
+        species: "SHELLOS",
+        minLevel: 25,
+        maxLevel: 27
+      }
+    ],
+    SuperRod: [
+      {
+        rate: 40,
+        species: "CARVANHA",
+        minLevel: 25,
+        maxLevel: 27
+      },
+      {
+        rate: 40,
+        species: "JAXEWS",
+        minLevel: 25,
+        maxLevel: 27
+      },
+      {
+        rate: 20,
+        species: "SHELLOS",
+        minLevel: 25,
+        maxLevel: 27
+      }
+    ],
+    Raid: [
+      {
+        rate: 30,
+        species: "QUAGSIRE",
+        minLevel: 30,
+        maxLevel: 32
+      },
+      {
+        rate: 30,
+        species: "VENOMOTH",
+        minLevel: 30,
+        maxLevel: 32
+      },
+      {
+        rate: 30,
+        species: "YANMEGA",
+        minLevel: 30,
+        maxLevel: 30
+      },
+      {
+        rate: 10,
+        species: "AMOONGUSS",
+        minLevel: 30,
+        maxLevel: 32
+      }
+    ]
+  },
+  107: {
+    Land: [
+      {
+        rate: 15,
+        species: "CHERRIM",
+        minLevel: 28,
+        maxLevel: 30
+      },
+      {
+        rate: 15,
+        species: "FLOETTE",
+        minLevel: 28,
+        maxLevel: 30
+      },
+      {
+        rate: 15,
+        species: "LOMBRE",
+        minLevel: 28,
+        maxLevel: 30
+      },
+      {
+        rate: 15,
+        species: "STEENEE",
+        minLevel: 28,
+        maxLevel: 30
+      },
+      {
+        rate: 15,
+        species: "SUNFLORA",
+        minLevel: 28,
+        maxLevel: 30
+      },
+      {
+        rate: 10,
+        species: "PONYTA",
+        minLevel: 28,
+        maxLevel: 30
+      },
+      {
+        rate: 5,
+        species: "FLOVERN",
+        minLevel: 28,
+        maxLevel: 30
+      },
+      {
+        rate: 5,
+        species: "FURFROU",
+        minLevel: 28,
+        maxLevel: 30
+      },
+      {
+        rate: 5,
+        species: "SCRAGGY",
+        minLevel: 28,
+        maxLevel: 30
+      }
+    ],
+    LandDay: [
+      {
+        rate: 15,
+        species: "DRIFLOON",
+        minLevel: 28,
+        maxLevel: 30
+      },
+      {
+        rate: 15,
+        species: "FURFROU",
+        minLevel: 28,
+        maxLevel: 30
+      },
+      {
+        rate: 15,
+        species: "NINJASK",
+        minLevel: 28,
+        maxLevel: 30
+      },
+      {
+        rate: 15,
+        species: "NUZLEAF",
+        minLevel: 28,
+        maxLevel: 30
+      },
+      {
+        rate: 15,
+        species: "PONYTA",
+        minLevel: 28,
+        maxLevel: 30
+      },
+      {
+        rate: 15,
+        species: "SHEDINJA",
+        minLevel: 28,
+        maxLevel: 30
+      },
+      {
+        rate: 10,
+        species: "NINCADA",
+        minLevel: 28,
+        maxLevel: 30
+      }
+    ],
+    LandNight: [
+      {
+        rate: 15,
+        species: "DRIFLOON",
+        minLevel: 28,
+        maxLevel: 30
+      },
+      {
+        rate: 15,
+        species: "FURFROU",
+        minLevel: 28,
+        maxLevel: 30
+      },
+      {
+        rate: 15,
+        species: "NUZLEAF",
+        minLevel: 28,
+        maxLevel: 30
+      },
+      {
+        rate: 15,
+        species: "PERSIAN",
+        minLevel: 28,
+        maxLevel: 30
+      },
+      {
+        rate: 15,
+        species: "RATICATE",
+        minLevel: 28,
+        maxLevel: 30
+      },
+      {
+        rate: 15,
+        species: "SHUPPET",
+        minLevel: 28,
+        maxLevel: 30
+      },
+      {
+        rate: 10,
+        species: "PONYTA",
+        minLevel: 28,
+        maxLevel: 30
+      }
+    ],
+    Water: [
+      {
+        rate: 40,
+        species: "PELIPPER",
+        minLevel: 28,
+        maxLevel: 30
+      },
+      {
+        rate: 30,
+        species: "SWANNA",
+        minLevel: 28,
+        maxLevel: 30
+      },
+      {
+        rate: 20,
+        species: "JAXEWS",
+        minLevel: 28,
+        maxLevel: 30
+      },
+      {
+        rate: 10,
+        species: "DUCKLETT",
+        minLevel: 28,
+        maxLevel: 30
+      }
+    ],
+    OldRod: [
+      {
+        rate: 40,
+        species: "DEWPIDER",
+        minLevel: 28,
+        maxLevel: 30
+      },
+      {
+        rate: 30,
+        species: "JAXEWS",
+        minLevel: 28,
+        maxLevel: 30
+      },
+      {
+        rate: 30,
+        species: "SEAKING",
+        minLevel: 28,
+        maxLevel: 30
+      }
+    ],
+    GoodRod: [
+      {
+        rate: 40,
+        species: "ARAQUANID",
+        minLevel: 28,
+        maxLevel: 30
+      },
+      {
+        rate: 30,
+        species: "JAXEWS",
+        minLevel: 28,
+        maxLevel: 30
+      },
+      {
+        rate: 30,
+        species: "SEAKING",
+        minLevel: 28,
+        maxLevel: 30
+      }
+    ],
+    SuperRod: [
+      {
+        rate: 40,
+        species: "ARAQUANID",
+        minLevel: 28,
+        maxLevel: 30
+      },
+      {
+        rate: 30,
+        species: "JAXEWS",
+        minLevel: 28,
+        maxLevel: 30
+      },
+      {
+        rate: 30,
+        species: "SEAKING",
+        minLevel: 28,
+        maxLevel: 30
+      }
+    ],
+    Tree: [
+      {
+        rate: 20,
+        species: "BEAUTIFLY",
+        minLevel: 28,
+        maxLevel: 30
+      },
+      {
+        rate: 20,
+        species: "BONEVEIL",
+        minLevel: 28,
+        maxLevel: 30
+      },
+      {
+        rate: 20,
+        species: "DUSTOX",
+        minLevel: 28,
+        maxLevel: 30
+      },
+      {
+        rate: 20,
+        species: "HERACROSS",
+        minLevel: 28,
+        maxLevel: 30
+      },
+      {
+        rate: 20,
+        species: "PINSIR",
+        minLevel: 28,
+        maxLevel: 30
+      }
+    ],
+    Raid: [
+      {
+        rate: 25,
+        species: "HERACROSS",
+        minLevel: 28,
+        maxLevel: 30
+      },
+      {
+        rate: 25,
+        species: "JAXEWS",
+        minLevel: 28,
+        maxLevel: 30
+      },
+      {
+        rate: 25,
+        species: "PINSIR",
+        minLevel: 28,
+        maxLevel: 30
+      },
+      {
+        rate: 25,
+        species: "TSAREENA",
+        minLevel: 28,
+        maxLevel: 30
+      }
+    ]
+  },
+  117: {
+    Land: [
+      {
+        rate: 13,
+        species: "NIDORINA",
+        minLevel: 30,
+        maxLevel: 35
+      },
+      {
+        rate: 13,
+        species: "NIDORINO",
+        minLevel: 30,
+        maxLevel: 35
+      },
+      {
+        rate: 13,
+        species: "PSYDUCK",
+        minLevel: 30,
+        maxLevel: 35
+      },
+      {
+        rate: 13,
+        species: "SWELLOW",
+        minLevel: 30,
+        maxLevel: 35
+      },
+      {
+        rate: 12,
+        species: "BUNLUCK",
+        minLevel: 30,
+        maxLevel: 35
+      },
+      {
+        rate: 12,
+        species: "OTTRICK",
+        minLevel: 30,
+        maxLevel: 35
+      },
+      {
+        rate: 12,
+        species: "TINKATINK",
+        minLevel: 30,
+        maxLevel: 35
+      },
+      {
+        rate: 12,
+        species: "TINKATUFF",
+        minLevel: 30,
+        maxLevel: 35
+      }
+    ],
+    Water: [
+      {
+        rate: 25,
+        species: "OTTRICK",
+        minLevel: 30,
+        maxLevel: 35
+      },
+      {
+        rate: 25,
+        species: "SEADRA",
+        minLevel: 30,
+        maxLevel: 35
+      },
+      {
+        rate: 25,
+        species: "SLOWPOKE",
+        minLevel: 30,
+        maxLevel: 35
+      },
+      {
+        rate: 25,
+        species: "YUNTTER",
+        minLevel: 30,
+        maxLevel: 35
+      }
+    ],
+    OldRod: [
+      {
+        rate: 34,
+        species: "MAGIKARP",
+        minLevel: 30,
+        maxLevel: 35
+      },
+      {
+        rate: 33,
+        species: "CORPHISH",
+        minLevel: 30,
+        maxLevel: 35
+      },
+      {
+        rate: 33,
+        species: "FEEBAS",
+        minLevel: 30,
+        maxLevel: 35
+      }
+    ],
+    GoodRod: [
+      {
+        rate: 34,
+        species: "GYARADOS",
+        minLevel: 30,
+        maxLevel: 35
+      },
+      {
+        rate: 33,
+        species: "CRAWDAUNT",
+        minLevel: 30,
+        maxLevel: 35
+      },
+      {
+        rate: 33,
+        species: "FEEBAS",
+        minLevel: 30,
+        maxLevel: 35
+      }
+    ],
+    SuperRod: [
+      {
+        rate: 34,
+        species: "GYARADOS",
+        minLevel: 30,
+        maxLevel: 35
+      },
+      {
+        rate: 33,
+        species: "CRAWDAUNT",
+        minLevel: 30,
+        maxLevel: 35
+      },
+      {
+        rate: 33,
+        species: "MILOTIC",
+        minLevel: 30,
+        maxLevel: 35
+      }
+    ],
+    LandNight: [
+      {
+        rate: 17,
+        species: "MURKROW",
+        minLevel: 30,
+        maxLevel: 35
+      },
+      {
+        rate: 17,
+        species: "NIDORINA",
+        minLevel: 30,
+        maxLevel: 35
+      },
+      {
+        rate: 17,
+        species: "NIDORINO",
+        minLevel: 30,
+        maxLevel: 35
+      },
+      {
+        rate: 17,
+        species: "PSYDUCK",
+        minLevel: 30,
+        maxLevel: 35
+      },
+      {
+        rate: 16,
+        species: "MISDREAVUS",
+        minLevel: 30,
+        maxLevel: 35
+      },
+      {
+        rate: 16,
+        species: "OTTRICK",
+        minLevel: 30,
+        maxLevel: 35
+      }
+    ],
+    Raid: [
+      {
+        rate: 17,
+        species: "FORTUNELLE",
+        minLevel: 30,
+        maxLevel: 35
+      },
+      {
+        rate: 17,
+        species: "GYARADOS",
+        minLevel: 30,
+        maxLevel: 35
+      },
+      {
+        rate: 17,
+        species: "NIDOQUEEN",
+        minLevel: 30,
+        maxLevel: 35
+      },
+      {
+        rate: 17,
+        species: "SLOWKING",
+        minLevel: 30,
+        maxLevel: 35
+      },
+      {
+        rate: 16,
+        species: "MAJOTTER",
+        minLevel: 30,
+        maxLevel: 35
+      },
+      {
+        rate: 16,
+        species: "NIDOKING",
+        minLevel: 30,
+        maxLevel: 35
+      }
+    ]
+  },
+  118: {
+    Land: [
+      {
+        rate: 13,
+        species: "BONEVEIL",
+        minLevel: 32,
+        maxLevel: 35
+      },
+      {
+        rate: 13,
+        species: "GRAVELER",
+        minLevel: 32,
+        maxLevel: 35
+      },
+      {
+        rate: 13,
+        species: "NOSEPASS",
+        minLevel: 32,
+        maxLevel: 35
+      },
+      {
+        rate: 13,
+        species: "RUFFLET",
+        minLevel: 32,
+        maxLevel: 35
+      },
+      {
+        rate: 12,
+        species: "BRAVIARY",
+        minLevel: 32,
+        maxLevel: 35
+      },
+      {
+        rate: 12,
+        species: "MAROWAK",
+        minLevel: 32,
+        maxLevel: 35
+      },
+      {
+        rate: 12,
+        species: "PROBOPASS",
+        minLevel: 32,
+        maxLevel: 35
+      },
+      {
+        rate: 12,
+        species: "SKARMORY",
+        minLevel: 32,
+        maxLevel: 35
+      }
+    ],
+    LandDay: [
+      {
+        rate: 17,
+        species: "ARMALITO",
+        minLevel: 32,
+        maxLevel: 35
+      },
+      {
+        rate: 17,
+        species: "BONEVEIL",
+        minLevel: 32,
+        maxLevel: 35
+      },
+      {
+        rate: 17,
+        species: "NOSEPASS",
+        minLevel: 32,
+        maxLevel: 35
+      },
+      {
+        rate: 17,
+        species: "SKIDDO",
+        minLevel: 32,
+        maxLevel: 35
+      },
+      {
+        rate: 16,
+        species: "GOGOAT",
+        minLevel: 32,
+        maxLevel: 35
+      },
+      {
+        rate: 16,
+        species: "PROBOPASS",
+        minLevel: 32,
+        maxLevel: 35
+      }
+    ],
+    LandNight: [
+      {
+        rate: 22,
+        species: "NOSEPASS",
+        minLevel: 32,
+        maxLevel: 35
+      },
+      {
+        rate: 19,
+        species: "VULLABY",
+        minLevel: 32,
+        maxLevel: 35
+      },
+      {
+        rate: 17,
+        species: "HONCHKROW",
+        minLevel: 32,
+        maxLevel: 35
+      },
+      {
+        rate: 14,
+        species: "GRAVELER",
+        minLevel: 32,
+        maxLevel: 35
+      },
+      {
+        rate: 11,
+        species: "PROBOPASS",
+        minLevel: 32,
+        maxLevel: 35
+      },
+      {
+        rate: 8,
+        species: "MAROWAK",
+        minLevel: 32,
+        maxLevel: 35
+      },
+      {
+        rate: 6,
+        species: "SKARMORY",
+        minLevel: 32,
+        maxLevel: 35
+      },
+      {
+        rate: 3,
+        species: "MANDIBUZZ",
+        minLevel: 32,
+        maxLevel: 35
+      }
+    ],
+    RockSmash: [
+      {
+        rate: 40,
+        species: "GRAVELER",
+        minLevel: 32,
+        maxLevel: 35
+      },
+      {
+        rate: 30,
+        species: "ROCKAROLL",
+        minLevel: 32,
+        maxLevel: 35
+      },
+      {
+        rate: 20,
+        species: "ARMALITO",
+        minLevel: 32,
+        maxLevel: 35
+      },
+      {
+        rate: 10,
+        species: "GOLEM",
+        minLevel: 32,
+        maxLevel: 35
+      }
+    ],
+    Raid: [
+      {
+        rate: 33,
+        species: "BRAVIARY",
+        minLevel: 32,
+        maxLevel: 35
+      },
+      {
+        rate: 27,
+        species: "CONDEMNA",
+        minLevel: 32,
+        maxLevel: 35
+      },
+      {
+        rate: 20,
+        species: "GOLEM",
+        minLevel: 32,
+        maxLevel: 35
+      },
+      {
+        rate: 13,
+        species: "HONCHKROW",
+        minLevel: 32,
+        maxLevel: 35
+      },
+      {
+        rate: 7,
+        species: "MANDIBUZZ",
+        minLevel: 32,
+        maxLevel: 35
       }
     ]
   }

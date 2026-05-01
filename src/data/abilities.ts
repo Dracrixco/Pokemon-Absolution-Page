@@ -1969,5 +1969,11 @@ export const abilities: Ability[] =
     name: "Ice Fire",
     description: "Fire-type moves have a chance to freeze the target.",
     suffix: "normal"
+  },
+  {
+    id: "ROLLUPFORSAFETY",
+    name: "Roll Up For Safety",
+    description: "the user get a big Proto Shield when its HP becomes half or less.",
+    suffix: "normal"
   }
 ]

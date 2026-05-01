@@ -1776,6 +1776,15 @@ export const trainerTypes: TrainerType[] =
     description: ""
   },
   {
+    id: "GYM_LEADER_POISON",
+    name: "Gym Leader",
+    gender: "Female",
+    baseMoney: 70,
+    suffix: "normal",
+    sprite: "/Trainers/GYM_LEADER_POISON.png",
+    description: ""
+  },
+  {
     id: "GYM_LEADER_WATER",
     name: "Gym Leader",
     gender: "Female",
@@ -1800,6 +1809,15 @@ export const trainerTypes: TrainerType[] =
     baseMoney: 60,
     suffix: "normal",
     sprite: "/Trainers/GYM_LEADER_FIRE_RIGHT_HAD.png",
+    description: ""
+  },
+  {
+    id: "GYM_LEADER_POISON_RIGHT_HAD",
+    name: "Right Hand Of The Leader",
+    gender: "Female",
+    baseMoney: 60,
+    suffix: "normal",
+    sprite: "/Trainers/GYM_LEADER_POISON_RIGHT_HAD.png",
     description: ""
   },
   {

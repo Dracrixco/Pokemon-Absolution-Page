@@ -71,3 +71,7 @@ Description = Powers up moves to deal double damage and boosts accuracy against 
 [ICEFIRE]
 Name = Ice Fire
 Description = Fire-type moves have a chance to freeze the target.
+#-------------------------------
+[ROLLUPFORSAFETY]
+Name = Roll Up For Safety
+Description = the user get a big Proto Shield when its HP becomes half or less.

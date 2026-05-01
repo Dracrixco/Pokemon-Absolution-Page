@@ -80940,7 +80940,11 @@ export const fakemons: Fakemon[] =
     ],
     suffix: "normal",
     evolution: [
-
+      {
+        to: "LUMINEON",
+        method: "Level",
+        value: "42"
+      }
     ],
     color: "Blue"
   },
