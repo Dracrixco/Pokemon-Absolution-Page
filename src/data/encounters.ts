@@ -5,73 +5,75 @@ export interface EncounterEntry {
   maxLevel: number;
 }
 
-export const encountersData: Record<string, Record<string, EncounterEntry[]>> = 
-{
+export const encountersData: Record<
+  string,
+  Record<string, EncounterEntry[]>
+> = {
   2: {
     Land: [
       {
         rate: 20,
         species: "AZURILL",
         minLevel: 12,
-        maxLevel: 12
+        maxLevel: 12,
       },
       {
         rate: 20,
         species: "BUDEW",
         minLevel: 12,
-        maxLevel: 12
+        maxLevel: 12,
       },
       {
         rate: 20,
         species: "CLEFFA",
         minLevel: 12,
-        maxLevel: 12
+        maxLevel: 12,
       },
       {
         rate: 20,
         species: "HAPPINY",
         minLevel: 12,
-        maxLevel: 12
+        maxLevel: 12,
       },
       {
         rate: 20,
         species: "PICHU",
         minLevel: 12,
-        maxLevel: 12
-      }
+        maxLevel: 12,
+      },
     ],
     Raid: [
       {
         rate: 20,
         species: "AZURILL",
         minLevel: 12,
-        maxLevel: 12
+        maxLevel: 12,
       },
       {
         rate: 20,
         species: "BUDEW",
         minLevel: 12,
-        maxLevel: 12
+        maxLevel: 12,
       },
       {
         rate: 20,
         species: "CLEFFA",
         minLevel: 12,
-        maxLevel: 12
+        maxLevel: 12,
       },
       {
         rate: 20,
         species: "HAPPINY",
         minLevel: 12,
-        maxLevel: 12
+        maxLevel: 12,
       },
       {
         rate: 20,
         species: "PICHU",
         minLevel: 12,
-        maxLevel: 12
-      }
-    ]
+        maxLevel: 12,
+      },
+    ],
   },
   3: {
     Tree: [
@@ -79,119 +81,119 @@ export const encountersData: Record<string, Record<string, EncounterEntry[]>> =
         rate: 80,
         species: "STARLY",
         minLevel: 2,
-        maxLevel: 5
+        maxLevel: 5,
       },
       {
         rate: 20,
         species: "SKWOVET",
         minLevel: 2,
-        maxLevel: 5
-      }
+        maxLevel: 5,
+      },
     ],
     Water: [
       {
         rate: 20,
         species: "GOLDEEN",
         minLevel: 3,
-        maxLevel: 6
+        maxLevel: 6,
       },
       {
         rate: 20,
         species: "LOTAD",
         minLevel: 3,
-        maxLevel: 6
+        maxLevel: 6,
       },
       {
         rate: 20,
         species: "POLIWAG",
         minLevel: 3,
-        maxLevel: 6
+        maxLevel: 6,
       },
       {
         rate: 20,
         species: "WOOPER",
         minLevel: 3,
-        maxLevel: 6
+        maxLevel: 6,
       },
       {
         rate: 10,
         species: "BARBOACH",
         minLevel: 3,
-        maxLevel: 6
+        maxLevel: 6,
       },
       {
         rate: 10,
         species: "SEAKING",
         minLevel: 3,
-        maxLevel: 6
-      }
+        maxLevel: 6,
+      },
     ],
     OldRod: [
       {
         rate: 40,
         species: "AXISH",
         minLevel: 3,
-        maxLevel: 6
+        maxLevel: 6,
       },
       {
         rate: 30,
         species: "GOLDEEN",
         minLevel: 3,
-        maxLevel: 6
+        maxLevel: 6,
       },
       {
         rate: 30,
         species: "MAGIKARP",
         minLevel: 3,
-        maxLevel: 6
-      }
+        maxLevel: 6,
+      },
     ],
     GoodRod: [
       {
         rate: 40,
         species: "AXISH",
         minLevel: 3,
-        maxLevel: 6
+        maxLevel: 6,
       },
       {
         rate: 30,
         species: "GOLDEEN",
         minLevel: 3,
-        maxLevel: 6
+        maxLevel: 6,
       },
       {
         rate: 30,
         species: "MAGIKARP",
         minLevel: 3,
-        maxLevel: 6
-      }
+        maxLevel: 6,
+      },
     ],
     SuperRod: [
       {
         rate: 30,
         species: "AXISH",
         minLevel: 3,
-        maxLevel: 6
+        maxLevel: 6,
       },
       {
         rate: 30,
         species: "GOLDEEN",
         minLevel: 3,
-        maxLevel: 6
+        maxLevel: 6,
       },
       {
         rate: 30,
         species: "MAGIKARP",
         minLevel: 3,
-        maxLevel: 6
+        maxLevel: 6,
       },
       {
         rate: 10,
         species: "POLIWAG",
         minLevel: 3,
-        maxLevel: 6
-      }
-    ]
+        maxLevel: 6,
+      },
+    ],
   },
   4: {
     Land: [
@@ -199,119 +201,119 @@ export const encountersData: Record<string, Record<string, EncounterEntry[]>> =
         rate: 20,
         species: "SKITTY_1",
         minLevel: 2,
-        maxLevel: 3
+        maxLevel: 3,
       },
       {
         rate: 20,
         species: "WOOLARVA",
         minLevel: 2,
-        maxLevel: 3
+        maxLevel: 3,
       },
       {
         rate: 15,
         species: "ODDISH",
         minLevel: 2,
-        maxLevel: 3
+        maxLevel: 3,
       },
       {
         rate: 15,
         species: "PAWMI",
         minLevel: 2,
-        maxLevel: 3
+        maxLevel: 3,
       },
       {
         rate: 15,
         species: "SEEDOT",
         minLevel: 2,
-        maxLevel: 3
+        maxLevel: 3,
       },
       {
         rate: 10,
         species: "SENTRET",
         minLevel: 2,
-        maxLevel: 2
+        maxLevel: 2,
       },
       {
         rate: 5,
         species: "SIZZLIPEDE",
         minLevel: 2,
-        maxLevel: 2
-      }
+        maxLevel: 2,
+      },
     ],
     LandNight: [
       {
         rate: 30,
         species: "CRYOWL",
         minLevel: 2,
-        maxLevel: 3
+        maxLevel: 3,
       },
       {
         rate: 30,
         species: "SKITTY_1",
         minLevel: 2,
-        maxLevel: 3
+        maxLevel: 3,
       },
       {
         rate: 20,
         species: "RATTATA_1",
         minLevel: 2,
-        maxLevel: 3
+        maxLevel: 3,
       },
       {
         rate: 15,
         species: "WOOBAT",
         minLevel: 2,
-        maxLevel: 3
+        maxLevel: 3,
       },
       {
         rate: 5,
         species: "SIZZLIPEDE",
         minLevel: 2,
-        maxLevel: 2
-      }
+        maxLevel: 2,
+      },
     ],
     Tree: [
       {
         rate: 40,
         species: "STARLY",
         minLevel: 2,
-        maxLevel: 5
+        maxLevel: 5,
       },
       {
         rate: 20,
         species: "CONDLING",
         minLevel: 2,
-        maxLevel: 5
+        maxLevel: 5,
       },
       {
         rate: 20,
         species: "SKWOVET",
         minLevel: 2,
-        maxLevel: 5
+        maxLevel: 5,
       },
       {
         rate: 20,
         species: "WOOLARVA",
         minLevel: 2,
-        maxLevel: 5
-      }
+        maxLevel: 5,
+      },
     ],
     RockSmash: [
       {
         rate: 100,
         species: "SIZZLIPEDE",
         minLevel: 12,
-        maxLevel: 18
-      }
+        maxLevel: 18,
+      },
     ],
     Special: [
       {
         rate: 100,
         species: "SKITTY_1",
         minLevel: 2,
-        maxLevel: 4
-      }
-    ]
+        maxLevel: 4,
+      },
+    ],
   },
   7: {
     Tree: [
@@ -319,27 +321,27 @@ export const encountersData: Record<string, Record<string, EncounterEntry[]>> =
         rate: 40,
         species: "STARLY",
         minLevel: 2,
-        maxLevel: 5
+        maxLevel: 5,
       },
       {
         rate: 20,
         species: "CONDLING",
         minLevel: 2,
-        maxLevel: 5
+        maxLevel: 5,
       },
       {
         rate: 20,
         species: "SKWOVET",
         minLevel: 2,
-        maxLevel: 5
+        maxLevel: 5,
       },
       {
         rate: 20,
         species: "WOOLARVA",
         minLevel: 2,
-        maxLevel: 5
-      }
-    ]
+        maxLevel: 5,
+      },
+    ],
   },
   8: {
     Land: [
@@ -347,265 +349,265 @@ export const encountersData: Record<string, Record<string, EncounterEntry[]>> =
         rate: 15,
         species: "MINCCINO",
         minLevel: 4,
-        maxLevel: 5
+        maxLevel: 5,
       },
       {
         rate: 15,
         species: "RALTS",
         minLevel: 4,
-        maxLevel: 5
+        maxLevel: 5,
       },
       {
         rate: 10,
         species: "BUDEW",
         minLevel: 4,
-        maxLevel: 5
+        maxLevel: 5,
       },
       {
         rate: 10,
         species: "BUNEARY",
         minLevel: 4,
-        maxLevel: 5
+        maxLevel: 5,
       },
       {
         rate: 10,
         species: "BUNNELBY",
         minLevel: 4,
-        maxLevel: 5
+        maxLevel: 5,
       },
       {
         rate: 10,
         species: "SORROWOOF",
         minLevel: 4,
-        maxLevel: 5
+        maxLevel: 5,
       },
       {
         rate: 10,
         species: "STARLY",
         minLevel: 4,
-        maxLevel: 5
+        maxLevel: 5,
       },
       {
         rate: 10,
         species: "TRUBBISH",
         minLevel: 4,
-        maxLevel: 5
+        maxLevel: 5,
       },
       {
         rate: 10,
         species: "WOOPER",
         minLevel: 4,
-        maxLevel: 5
-      }
+        maxLevel: 5,
+      },
     ],
     LandNight: [
       {
         rate: 30,
         species: "CLEFAIRY",
         minLevel: 4,
-        maxLevel: 5
+        maxLevel: 5,
       },
       {
         rate: 30,
         species: "POOCHYENA",
         minLevel: 4,
-        maxLevel: 5
+        maxLevel: 5,
       },
       {
         rate: 20,
         species: "NYMBLE",
         minLevel: 4,
-        maxLevel: 5
+        maxLevel: 5,
       },
       {
         rate: 10,
         species: "TRUBBISH",
         minLevel: 4,
-        maxLevel: 5
+        maxLevel: 5,
       },
       {
         rate: 5,
         species: "SKITTY_1",
         minLevel: 8,
-        maxLevel: 8
+        maxLevel: 8,
       },
       {
         rate: 5,
         species: "SORROWOOF",
         minLevel: 4,
-        maxLevel: 5
-      }
+        maxLevel: 5,
+      },
     ],
     Tree: [
       {
         rate: 60,
         species: "CONDLING",
         minLevel: 2,
-        maxLevel: 5
+        maxLevel: 5,
       },
       {
         rate: 20,
         species: "LEDYBA",
         minLevel: 2,
-        maxLevel: 5
+        maxLevel: 5,
       },
       {
         rate: 20,
         species: "WOOLARVA",
         minLevel: 2,
-        maxLevel: 5
-      }
+        maxLevel: 5,
+      },
     ],
     Water: [
       {
         rate: 50,
         species: "GOLDEEN",
         minLevel: 2,
-        maxLevel: 5
+        maxLevel: 5,
       },
       {
         rate: 50,
         species: "WOOPER",
         minLevel: 2,
-        maxLevel: 5
+        maxLevel: 5,
       },
       {
         rate: 25,
         species: "AXISH",
         minLevel: 2,
-        maxLevel: 5
-      }
+        maxLevel: 5,
+      },
     ],
     OldRod: [
       {
         rate: 20,
         species: "AXISH",
         minLevel: 2,
-        maxLevel: 5
+        maxLevel: 5,
       },
       {
         rate: 20,
         species: "GOLDEEN",
         minLevel: 2,
-        maxLevel: 5
+        maxLevel: 5,
       },
       {
         rate: 20,
         species: "MAGIKARP",
         minLevel: 2,
-        maxLevel: 5
+        maxLevel: 5,
       },
       {
         rate: 20,
         species: "POLIWAG",
         minLevel: 2,
-        maxLevel: 5
+        maxLevel: 5,
       },
       {
         rate: 20,
         species: "WOOPER",
         minLevel: 2,
-        maxLevel: 5
-      }
+        maxLevel: 5,
+      },
     ],
     GoodRod: [
       {
         rate: 20,
         species: "AXISH",
         minLevel: 2,
-        maxLevel: 5
+        maxLevel: 5,
       },
       {
         rate: 20,
         species: "GOLDEEN",
         minLevel: 2,
-        maxLevel: 5
+        maxLevel: 5,
       },
       {
         rate: 20,
         species: "MAGIKARP",
         minLevel: 2,
-        maxLevel: 5
+        maxLevel: 5,
       },
       {
         rate: 20,
         species: "POLIWAG",
         minLevel: 2,
-        maxLevel: 5
+        maxLevel: 5,
       },
       {
         rate: 20,
         species: "WOOPER",
         minLevel: 2,
-        maxLevel: 5
-      }
+        maxLevel: 5,
+      },
     ],
     SuperRod: [
       {
         rate: 20,
         species: "AXISH",
         minLevel: 2,
-        maxLevel: 5
+        maxLevel: 5,
       },
       {
         rate: 20,
         species: "GOLDEEN",
         minLevel: 2,
-        maxLevel: 5
+        maxLevel: 5,
       },
       {
         rate: 20,
         species: "MAGIKARP",
         minLevel: 2,
-        maxLevel: 5
+        maxLevel: 5,
       },
       {
         rate: 20,
         species: "POLIWAG",
         minLevel: 2,
-        maxLevel: 5
+        maxLevel: 5,
       },
       {
         rate: 20,
         species: "WOOPER",
         minLevel: 2,
-        maxLevel: 5
-      }
+        maxLevel: 5,
+      },
     ],
     Special: [
       {
         rate: 100,
         species: "SORROWOOF",
         minLevel: 5,
-        maxLevel: 7
-      }
+        maxLevel: 7,
+      },
     ],
     Raid: [
       {
         rate: 25,
         species: "CENTISKORCH",
         minLevel: 30,
-        maxLevel: 30
+        maxLevel: 30,
       },
       {
         rate: 25,
         species: "CRYOCROWN",
         minLevel: 30,
-        maxLevel: 30
+        maxLevel: 30,
       },
       {
         rate: 25,
         species: "DELCATTY",
         minLevel: 30,
-        maxLevel: 30
+        maxLevel: 30,
       },
       {
         rate: 25,
         species: "VILEPLUME",
         minLevel: 30,
-        maxLevel: 30
-      }
-    ]
+        maxLevel: 30,
+      },
+    ],
   },
   11: {
     Tree: [
@@ -613,21 +615,21 @@ export const encountersData: Record<string, Record<string, EncounterEntry[]>> =
         rate: 60,
         species: "STARLY",
         minLevel: 6,
-        maxLevel: 10
+        maxLevel: 10,
       },
       {
         rate: 20,
         species: "SPINARAK",
         minLevel: 6,
-        maxLevel: 10
+        maxLevel: 10,
       },
       {
         rate: 20,
         species: "WOOLARVA",
         minLevel: 6,
-        maxLevel: 10
-      }
-    ]
+        maxLevel: 10,
+      },
+    ],
   },
   12: {
     Land: [
@@ -635,209 +637,209 @@ export const encountersData: Record<string, Record<string, EncounterEntry[]>> =
         rate: 30,
         species: "PAWMO",
         minLevel: 20,
-        maxLevel: 25
+        maxLevel: 25,
       },
       {
         rate: 15,
         species: "COMBEE",
         minLevel: 20,
-        maxLevel: 25
+        maxLevel: 25,
       },
       {
         rate: 15,
         species: "SORROWOOF",
         minLevel: 20,
-        maxLevel: 25
+        maxLevel: 25,
       },
       {
         rate: 15,
         species: "STARAVIA",
         minLevel: 20,
-        maxLevel: 25
+        maxLevel: 25,
       },
       {
         rate: 10,
         species: "HOPPIP",
         minLevel: 20,
-        maxLevel: 25
+        maxLevel: 25,
       },
       {
         rate: 10,
         species: "SKITTY_1",
         minLevel: 20,
-        maxLevel: 25
+        maxLevel: 25,
       },
       {
         rate: 5,
         species: "QUAGSIRE",
         minLevel: 20,
-        maxLevel: 25
-      }
+        maxLevel: 25,
+      },
     ],
     LandNight: [
       {
         rate: 30,
         species: "NICKIT",
         minLevel: 20,
-        maxLevel: 25
+        maxLevel: 25,
       },
       {
         rate: 30,
         species: "SPINARAK",
         minLevel: 20,
-        maxLevel: 25
+        maxLevel: 25,
       },
       {
         rate: 20,
         species: "NYMBLE",
         minLevel: 20,
-        maxLevel: 25
+        maxLevel: 25,
       },
       {
         rate: 15,
         species: "LOKIX",
         minLevel: 20,
-        maxLevel: 25
+        maxLevel: 25,
       },
       {
         rate: 5,
         species: "SORROWOOF",
         minLevel: 20,
-        maxLevel: 25
-      }
+        maxLevel: 25,
+      },
     ],
     Tree: [
       {
         rate: 80,
         species: "STARLY",
         minLevel: 20,
-        maxLevel: 25
+        maxLevel: 25,
       },
       {
         rate: 20,
         species: "SPINARAK",
         minLevel: 20,
-        maxLevel: 25
-      }
+        maxLevel: 25,
+      },
     ],
     Water: [
       {
         rate: 45,
         species: "QUAGSIRE",
         minLevel: 20,
-        maxLevel: 25
+        maxLevel: 25,
       },
       {
         rate: 45,
         species: "WINGULL",
         minLevel: 20,
-        maxLevel: 25
+        maxLevel: 25,
       },
       {
         rate: 10,
         species: "PELIPPER",
         minLevel: 25,
-        maxLevel: 25
-      }
+        maxLevel: 25,
+      },
     ],
     OldRod: [
       {
         rate: 30,
         species: "GOLDEEN",
         minLevel: 22,
-        maxLevel: 25
+        maxLevel: 25,
       },
       {
         rate: 30,
         species: "MAGIKARP",
         minLevel: 22,
-        maxLevel: 25
+        maxLevel: 25,
       },
       {
         rate: 20,
         species: "AXISH",
         minLevel: 22,
-        maxLevel: 25
+        maxLevel: 25,
       },
       {
         rate: 20,
         species: "WOOPER",
         minLevel: 22,
-        maxLevel: 25
-      }
+        maxLevel: 25,
+      },
     ],
     GoodRod: [
       {
         rate: 30,
         species: "GOLDEEN",
         minLevel: 22,
-        maxLevel: 25
+        maxLevel: 25,
       },
       {
         rate: 30,
         species: "MAGIKARP",
         minLevel: 22,
-        maxLevel: 25
+        maxLevel: 25,
       },
       {
         rate: 20,
         species: "AXISH",
         minLevel: 22,
-        maxLevel: 25
+        maxLevel: 25,
       },
       {
         rate: 20,
         species: "WOOPER",
         minLevel: 22,
-        maxLevel: 25
-      }
+        maxLevel: 25,
+      },
     ],
     SuperRod: [
       {
         rate: 40,
         species: "QUAGSIRE",
         minLevel: 22,
-        maxLevel: 25
+        maxLevel: 25,
       },
       {
         rate: 30,
         species: "GOLDEEN",
         minLevel: 22,
-        maxLevel: 25
+        maxLevel: 25,
       },
       {
         rate: 30,
         species: "GYARADOS",
         minLevel: 22,
-        maxLevel: 25
-      }
+        maxLevel: 25,
+      },
     ],
     Raid: [
       {
         rate: 25,
         species: "ARIADOS",
         minLevel: 30,
-        maxLevel: 30
+        maxLevel: 30,
       },
       {
         rate: 25,
         species: "LOKIX",
         minLevel: 30,
-        maxLevel: 30
+        maxLevel: 30,
       },
       {
         rate: 25,
         species: "PAWMOT",
         minLevel: 30,
-        maxLevel: 30
+        maxLevel: 30,
       },
       {
         rate: 25,
         species: "WOOFIGHTER",
         minLevel: 30,
-        maxLevel: 30
-      }
-    ]
+        maxLevel: 30,
+      },
+    ],
   },
   14: {
     Land: [
@@ -845,141 +847,141 @@ export const encountersData: Record<string, Record<string, EncounterEntry[]>> =
         rate: 20,
         species: "MACHOP",
         minLevel: 7,
-        maxLevel: 9
+        maxLevel: 9,
       },
       {
         rate: 15,
         species: "ROCKRUFF",
         minLevel: 7,
-        maxLevel: 9
+        maxLevel: 9,
       },
       {
         rate: 15,
         species: "WOOLOO",
         minLevel: 7,
-        maxLevel: 9
+        maxLevel: 9,
       },
       {
         rate: 10,
         species: "BUDEW",
         minLevel: 7,
-        maxLevel: 9
+        maxLevel: 9,
       },
       {
         rate: 10,
         species: "EKANS",
         minLevel: 7,
-        maxLevel: 9
+        maxLevel: 9,
       },
       {
         rate: 10,
         species: "STARLY",
         minLevel: 7,
-        maxLevel: 9
+        maxLevel: 9,
       },
       {
         rate: 10,
         species: "VULPIX",
         minLevel: 7,
-        maxLevel: 9
+        maxLevel: 9,
       },
       {
         rate: 10,
         species: "WOOPER",
         minLevel: 3,
-        maxLevel: 5
+        maxLevel: 5,
       },
       {
         rate: 5,
         species: "GROWRAGE",
         minLevel: 7,
-        maxLevel: 9
+        maxLevel: 9,
       },
       {
         rate: 5,
         species: "NICKIT",
         minLevel: 7,
-        maxLevel: 9
-      }
+        maxLevel: 9,
+      },
     ],
     LandNight: [
       {
         rate: 30,
         species: "CLEFAIRY",
         minLevel: 7,
-        maxLevel: 9
+        maxLevel: 9,
       },
       {
         rate: 30,
         species: "EKANS",
         minLevel: 7,
-        maxLevel: 9
+        maxLevel: 9,
       },
       {
         rate: 20,
         species: "NYMBLE",
         minLevel: 7,
-        maxLevel: 9
+        maxLevel: 9,
       },
       {
         rate: 15,
         species: "WOOBAT",
         minLevel: 7,
-        maxLevel: 9
+        maxLevel: 9,
       },
       {
         rate: 5,
         species: "DUSKULL",
         minLevel: 7,
-        maxLevel: 9
-      }
+        maxLevel: 9,
+      },
     ],
     Tree: [
       {
         rate: 60,
         species: "STARLY",
         minLevel: 7,
-        maxLevel: 9
+        maxLevel: 9,
       },
       {
         rate: 30,
         species: "SPINARAK",
         minLevel: 7,
-        maxLevel: 9
+        maxLevel: 9,
       },
       {
         rate: 10,
         species: "CONDLING",
         minLevel: 7,
-        maxLevel: 9
-      }
+        maxLevel: 9,
+      },
     ],
     Raid: [
       {
         rate: 46,
         species: "LYCANROC",
         minLevel: 30,
-        maxLevel: 30
+        maxLevel: 30,
       },
       {
         rate: 23,
         species: "ARBOK",
         minLevel: 30,
-        maxLevel: 30
+        maxLevel: 30,
       },
       {
         rate: 23,
         species: "STARAPTOR",
         minLevel: 30,
-        maxLevel: 30
+        maxLevel: 30,
       },
       {
         rate: 8,
         species: "LYCANROC_2",
         minLevel: 30,
-        maxLevel: 30
-      }
-    ]
+        maxLevel: 30,
+      },
+    ],
   },
   15: {
     Cave: [
@@ -987,75 +989,75 @@ export const encountersData: Record<string, Record<string, EncounterEntry[]>> =
         rate: 30,
         species: "DRILBUR",
         minLevel: 10,
-        maxLevel: 11
+        maxLevel: 11,
       },
       {
         rate: 30,
         species: "ROGGENROLA",
         minLevel: 10,
-        maxLevel: 11
+        maxLevel: 11,
       },
       {
         rate: 25,
         species: "ABRA",
         minLevel: 10,
-        maxLevel: 11
+        maxLevel: 11,
       },
       {
         rate: 25,
         species: "ZUBAT",
         minLevel: 10,
-        maxLevel: 11
+        maxLevel: 11,
       },
       {
         rate: 20,
         species: "CUBONE",
         minLevel: 10,
-        maxLevel: 11
+        maxLevel: 11,
       },
       {
         rate: 15,
         species: "MAKUHITA",
         minLevel: 10,
-        maxLevel: 11
+        maxLevel: 11,
       },
       {
         rate: 5,
         species: "SPIBBY",
         minLevel: 10,
-        maxLevel: 11
-      }
+        maxLevel: 11,
+      },
     ],
     RockSmash: [
       {
         rate: 100,
         species: "SPIBBY",
         minLevel: 10,
-        maxLevel: 11
-      }
+        maxLevel: 11,
+      },
     ],
     Special: [
       {
         rate: 100,
         species: "SPIBBY",
         minLevel: 10,
-        maxLevel: 11
-      }
+        maxLevel: 11,
+      },
     ],
     Raid: [
       {
         rate: 50,
         species: "CROBAT",
         minLevel: 40,
-        maxLevel: 40
+        maxLevel: 40,
       },
       {
         rate: 50,
         species: "MAROWAK",
         minLevel: 40,
-        maxLevel: 40
-      }
-    ]
+        maxLevel: 40,
+      },
+    ],
   },
   16: {
     Cave: [
@@ -1063,49 +1065,49 @@ export const encountersData: Record<string, Record<string, EncounterEntry[]>> =
         rate: 40,
         species: "SPIBBY",
         minLevel: 10,
-        maxLevel: 12
+        maxLevel: 12,
       },
       {
         rate: 20,
         species: "CUBONE",
         minLevel: 10,
-        maxLevel: 12
+        maxLevel: 12,
       },
       {
         rate: 15,
         species: "ROGGENROLA",
         minLevel: 10,
-        maxLevel: 12
+        maxLevel: 12,
       },
       {
         rate: 15,
         species: "ZUBAT",
         minLevel: 10,
-        maxLevel: 12
+        maxLevel: 12,
       },
       {
         rate: 10,
         species: "DRILBUR",
         minLevel: 10,
-        maxLevel: 12
-      }
+        maxLevel: 12,
+      },
     ],
     RockSmash: [
       {
         rate: 100,
         species: "SPIBBY",
         minLevel: 10,
-        maxLevel: 12
-      }
+        maxLevel: 12,
+      },
     ],
     Special: [
       {
         rate: 100,
         species: "SPIBBY",
         minLevel: 11,
-        maxLevel: 13
-      }
-    ]
+        maxLevel: 13,
+      },
+    ],
   },
   17: {
     Land: [
@@ -1113,177 +1115,177 @@ export const encountersData: Record<string, Record<string, EncounterEntry[]>> =
         rate: 25,
         species: "SHINX",
         minLevel: 8,
-        maxLevel: 10
+        maxLevel: 10,
       },
       {
         rate: 25,
         species: "STARLY",
         minLevel: 8,
-        maxLevel: 10
+        maxLevel: 10,
       },
       {
         rate: 15,
         species: "SENTRET",
         minLevel: 8,
-        maxLevel: 10
+        maxLevel: 10,
       },
       {
         rate: 15,
         species: "WINGULL",
         minLevel: 8,
-        maxLevel: 10
+        maxLevel: 10,
       },
       {
         rate: 10,
         species: "PIKACHU",
         minLevel: 8,
-        maxLevel: 10
+        maxLevel: 10,
       },
       {
         rate: 10,
         species: "WOOLARVA",
         minLevel: 8,
-        maxLevel: 10
-      }
+        maxLevel: 10,
+      },
     ],
     LandNight: [
       {
         rate: 25,
         species: "CRYOWL",
         minLevel: 8,
-        maxLevel: 10
+        maxLevel: 10,
       },
       {
         rate: 25,
         species: "SKITTY_1",
         minLevel: 8,
-        maxLevel: 10
+        maxLevel: 10,
       },
       {
         rate: 15,
         species: "SORROWOOF",
         minLevel: 8,
-        maxLevel: 10
+        maxLevel: 10,
       },
       {
         rate: 15,
         species: "WINGULL",
         minLevel: 8,
-        maxLevel: 10
+        maxLevel: 10,
       },
       {
         rate: 10,
         species: "PIKACHU",
         minLevel: 8,
-        maxLevel: 10
+        maxLevel: 10,
       },
       {
         rate: 10,
         species: "WOOLARVA",
         minLevel: 8,
-        maxLevel: 10
-      }
+        maxLevel: 10,
+      },
     ],
     Tree: [
       {
         rate: 50,
         species: "CRABRAWLER",
         minLevel: 10,
-        maxLevel: 10
+        maxLevel: 10,
       },
       {
         rate: 50,
         species: "WOOLARVA",
         minLevel: 10,
-        maxLevel: 10
-      }
+        maxLevel: 10,
+      },
     ],
     Water: [
       {
         rate: 30,
         species: "AXISH",
         minLevel: 20,
-        maxLevel: 25
+        maxLevel: 25,
       },
       {
         rate: 30,
         species: "MAGIKARP",
         minLevel: 20,
-        maxLevel: 25
+        maxLevel: 25,
       },
       {
         rate: 30,
         species: "WINGULL",
         minLevel: 20,
-        maxLevel: 25
+        maxLevel: 25,
       },
       {
         rate: 10,
         species: "PELIPPER",
         minLevel: 25,
-        maxLevel: 25
-      }
+        maxLevel: 25,
+      },
     ],
     OldRod: [
       {
         rate: 50,
         species: "GOLDEEN",
         minLevel: 11,
-        maxLevel: 14
+        maxLevel: 14,
       },
       {
         rate: 25,
         species: "AXISH",
         minLevel: 11,
-        maxLevel: 14
+        maxLevel: 14,
       },
       {
         rate: 25,
         species: "MAGIKARP",
         minLevel: 11,
-        maxLevel: 14
-      }
+        maxLevel: 14,
+      },
     ],
     GoodRod: [
       {
         rate: 50,
         species: "MAGIKARP",
         minLevel: 12,
-        maxLevel: 16
+        maxLevel: 16,
       },
       {
         rate: 25,
         species: "AXISH",
         minLevel: 12,
-        maxLevel: 16
+        maxLevel: 16,
       },
       {
         rate: 25,
         species: "GOLDEEN",
         minLevel: 12,
-        maxLevel: 16
-      }
+        maxLevel: 16,
+      },
     ],
     SuperRod: [
       {
         rate: 50,
         species: "MAGIKARP",
         minLevel: 13,
-        maxLevel: 18
+        maxLevel: 18,
       },
       {
         rate: 25,
         species: "AXISH",
         minLevel: 13,
-        maxLevel: 18
+        maxLevel: 18,
       },
       {
         rate: 25,
         species: "GOLDEEN",
         minLevel: 13,
-        maxLevel: 18
-      }
-    ]
+        maxLevel: 18,
+      },
+    ],
   },
   18: {
     Land: [
@@ -1291,321 +1293,321 @@ export const encountersData: Record<string, Record<string, EncounterEntry[]>> =
         rate: 20,
         species: "BIDOOF",
         minLevel: 10,
-        maxLevel: 12
+        maxLevel: 12,
       },
       {
         rate: 20,
         species: "WATTREL",
         minLevel: 10,
-        maxLevel: 12
+        maxLevel: 12,
       },
       {
         rate: 20,
         species: "YUNTTER",
         minLevel: 10,
-        maxLevel: 12
+        maxLevel: 12,
       },
       {
         rate: 10,
         species: "LILLIPUP",
         minLevel: 10,
-        maxLevel: 12
+        maxLevel: 12,
       },
       {
         rate: 10,
         species: "LOTAD",
         minLevel: 10,
-        maxLevel: 12
+        maxLevel: 12,
       },
       {
         rate: 10,
         species: "STARLY",
         minLevel: 10,
-        maxLevel: 12
+        maxLevel: 12,
       },
       {
         rate: 5,
         species: "ONIX",
         minLevel: 12,
-        maxLevel: 12
+        maxLevel: 12,
       },
       {
         rate: 5,
         species: "YANMA",
         minLevel: 12,
-        maxLevel: 12
-      }
+        maxLevel: 12,
+      },
     ],
     LandNight: [
       {
         rate: 20,
         species: "BIDOOF",
         minLevel: 10,
-        maxLevel: 12
+        maxLevel: 12,
       },
       {
         rate: 20,
         species: "SPINARAK",
         minLevel: 10,
-        maxLevel: 12
+        maxLevel: 12,
       },
       {
         rate: 20,
         species: "YUNTTER",
         minLevel: 10,
-        maxLevel: 12
+        maxLevel: 12,
       },
       {
         rate: 10,
         species: "CRYOWL",
         minLevel: 10,
-        maxLevel: 12
+        maxLevel: 12,
       },
       {
         rate: 10,
         species: "NICKIT",
         minLevel: 10,
-        maxLevel: 12
+        maxLevel: 12,
       },
       {
         rate: 10,
         species: "POOCHYENA",
         minLevel: 10,
-        maxLevel: 12
+        maxLevel: 12,
       },
       {
         rate: 10,
         species: "YANMA",
         minLevel: 12,
-        maxLevel: 12
-      }
+        maxLevel: 12,
+      },
     ],
     OldRod: [
       {
         rate: 30,
         species: "AXISH",
         minLevel: 15,
-        maxLevel: 15
+        maxLevel: 15,
       },
       {
         rate: 20,
         species: "GOLDEEN",
         minLevel: 15,
-        maxLevel: 15
+        maxLevel: 15,
       },
       {
         rate: 20,
         species: "MAGIKARP",
         minLevel: 15,
-        maxLevel: 15
+        maxLevel: 15,
       },
       {
         rate: 20,
         species: "YUNTTER",
         minLevel: 15,
-        maxLevel: 15
+        maxLevel: 15,
       },
       {
         rate: 10,
         species: "CARVANHA",
         minLevel: 15,
-        maxLevel: 15
-      }
+        maxLevel: 15,
+      },
     ],
     GoodRod: [
       {
         rate: 30,
         species: "AXISH",
         minLevel: 15,
-        maxLevel: 15
+        maxLevel: 15,
       },
       {
         rate: 20,
         species: "GOLDEEN",
         minLevel: 15,
-        maxLevel: 15
+        maxLevel: 15,
       },
       {
         rate: 20,
         species: "MAGIKARP",
         minLevel: 15,
-        maxLevel: 15
+        maxLevel: 15,
       },
       {
         rate: 20,
         species: "YUNTTER",
         minLevel: 15,
-        maxLevel: 15
+        maxLevel: 15,
       },
       {
         rate: 10,
         species: "CARVANHA",
         minLevel: 15,
-        maxLevel: 15
-      }
+        maxLevel: 15,
+      },
     ],
     SuperRod: [
       {
         rate: 30,
         species: "GOLDEEN",
         minLevel: 15,
-        maxLevel: 15
+        maxLevel: 15,
       },
       {
         rate: 30,
         species: "MAGIKARP",
         minLevel: 15,
-        maxLevel: 15
+        maxLevel: 15,
       },
       {
         rate: 30,
         species: "YUNTTER",
         minLevel: 15,
-        maxLevel: 15
+        maxLevel: 15,
       },
       {
         rate: 10,
         species: "CARVANHA",
         minLevel: 15,
-        maxLevel: 15
-      }
+        maxLevel: 15,
+      },
     ],
     Water: [
       {
         rate: 40,
         species: "MARILL",
         minLevel: 20,
-        maxLevel: 30
+        maxLevel: 30,
       },
       {
         rate: 30,
         species: "CARVANHA",
         minLevel: 20,
-        maxLevel: 30
+        maxLevel: 30,
       },
       {
         rate: 30,
         species: "LOTAD",
         minLevel: 20,
-        maxLevel: 30
-      }
+        maxLevel: 30,
+      },
     ],
     WaterNight: [
       {
         rate: 80,
         species: "CARVANHA",
         minLevel: 20,
-        maxLevel: 30
+        maxLevel: 30,
       },
       {
         rate: 20,
         species: "DEWPIDER",
         minLevel: 20,
-        maxLevel: 30
-      }
+        maxLevel: 30,
+      },
     ],
     Tree: [
       {
         rate: 60,
         species: "SPINARAK",
         minLevel: 10,
-        maxLevel: 12
+        maxLevel: 12,
       },
       {
         rate: 20,
         species: "STARLY",
         minLevel: 10,
-        maxLevel: 12
+        maxLevel: 12,
       },
       {
         rate: 20,
         species: "WATTREL",
         minLevel: 10,
-        maxLevel: 12
-      }
+        maxLevel: 12,
+      },
     ],
     HeadbuttHigh: [
       {
         rate: 40,
         species: "SPINARAK",
         minLevel: 10,
-        maxLevel: 12
+        maxLevel: 12,
       },
       {
         rate: 30,
         species: "CHERUBI",
         minLevel: 10,
-        maxLevel: 12
+        maxLevel: 12,
       },
       {
         rate: 30,
         species: "FOMANTIS",
         minLevel: 10,
-        maxLevel: 12
-      }
+        maxLevel: 12,
+      },
     ],
     RockSmash: [
       {
         rate: 70,
         species: "DWEBBLE",
         minLevel: 5,
-        maxLevel: 5
+        maxLevel: 5,
       },
       {
         rate: 30,
         species: "GEODUDE_1",
         minLevel: 5,
-        maxLevel: 5
-      }
+        maxLevel: 5,
+      },
     ],
     Sky: [
       {
         rate: 100,
         species: "STARLY",
         minLevel: 10,
-        maxLevel: 12
-      }
+        maxLevel: 12,
+      },
     ],
     Special: [
       {
         rate: 100,
         species: "YUNTTER",
         minLevel: 12,
-        maxLevel: 14
-      }
+        maxLevel: 14,
+      },
     ],
     Raid: [
       {
         rate: 20,
         species: "CHERRIM",
         minLevel: 50,
-        maxLevel: 50
+        maxLevel: 50,
       },
       {
         rate: 20,
         species: "CRUSTLE",
         minLevel: 50,
-        maxLevel: 50
+        maxLevel: 50,
       },
       {
         rate: 20,
         species: "GOLEM_1",
         minLevel: 50,
-        maxLevel: 50
+        maxLevel: 50,
       },
       {
         rate: 20,
         species: "KILOWATTREL",
         minLevel: 50,
-        maxLevel: 50
+        maxLevel: 50,
       },
       {
         rate: 20,
         species: "STEELIX",
         minLevel: 50,
-        maxLevel: 50
-      }
-    ]
+        maxLevel: 50,
+      },
+    ],
   },
   19: {
     Land: [
@@ -1613,375 +1615,375 @@ export const encountersData: Record<string, Record<string, EncounterEntry[]>> =
         rate: 20,
         species: "WOOLARVA",
         minLevel: 13,
-        maxLevel: 15
+        maxLevel: 15,
       },
       {
         rate: 10,
         species: "BUIZEL",
         minLevel: 13,
-        maxLevel: 15
+        maxLevel: 15,
       },
       {
         rate: 10,
         species: "SEWADDLE",
         minLevel: 13,
-        maxLevel: 15
+        maxLevel: 15,
       },
       {
         rate: 10,
         species: "STARLY",
         minLevel: 13,
-        maxLevel: 15
+        maxLevel: 15,
       },
       {
         rate: 10,
         species: "VENIPEDE",
         minLevel: 13,
-        maxLevel: 15
+        maxLevel: 15,
       },
       {
         rate: 10,
         species: "WURMPLE",
         minLevel: 13,
-        maxLevel: 15
+        maxLevel: 15,
       },
       {
         rate: 5,
         species: "CASCOON",
         minLevel: 13,
-        maxLevel: 15
+        maxLevel: 15,
       },
       {
         rate: 5,
         species: "PACHIRISU",
         minLevel: 13,
-        maxLevel: 15
+        maxLevel: 15,
       },
       {
         rate: 5,
         species: "SILCOON",
         minLevel: 13,
-        maxLevel: 15
+        maxLevel: 15,
       },
       {
         rate: 5,
         species: "SLAKOTH",
         minLevel: 13,
-        maxLevel: 15
-      }
+        maxLevel: 15,
+      },
     ],
     Tree: [
       {
         rate: 25,
         species: "MANKEY",
         minLevel: 13,
-        maxLevel: 15
+        maxLevel: 15,
       },
       {
         rate: 25,
         species: "SLAKOTH",
         minLevel: 13,
-        maxLevel: 15
+        maxLevel: 15,
       },
       {
         rate: 25,
         species: "STARLY",
         minLevel: 13,
-        maxLevel: 15
+        maxLevel: 15,
       },
       {
         rate: 25,
         species: "WOOLARVA",
         minLevel: 13,
-        maxLevel: 15
-      }
+        maxLevel: 15,
+      },
     ],
     LandDay: [
       {
         rate: 20,
         species: "SEWADDLE",
         minLevel: 13,
-        maxLevel: 15
+        maxLevel: 15,
       },
       {
         rate: 20,
         species: "WOOLARVA",
         minLevel: 13,
-        maxLevel: 15
+        maxLevel: 15,
       },
       {
         rate: 10,
         species: "BUIZEL",
         minLevel: 13,
-        maxLevel: 15
+        maxLevel: 15,
       },
       {
         rate: 10,
         species: "SILCOON",
         minLevel: 13,
-        maxLevel: 15
+        maxLevel: 15,
       },
       {
         rate: 10,
         species: "STARLY",
         minLevel: 13,
-        maxLevel: 15
+        maxLevel: 15,
       },
       {
         rate: 10,
         species: "WURMPLE",
         minLevel: 13,
-        maxLevel: 15
+        maxLevel: 15,
       },
       {
         rate: 5,
         species: "PACHIRISU",
         minLevel: 13,
-        maxLevel: 15
+        maxLevel: 15,
       },
       {
         rate: 5,
         species: "SLAKOTH",
         minLevel: 13,
-        maxLevel: 15
-      }
+        maxLevel: 15,
+      },
     ],
     LandNight: [
       {
         rate: 20,
         species: "VENIPEDE",
         minLevel: 13,
-        maxLevel: 15
+        maxLevel: 15,
       },
       {
         rate: 15,
         species: "BUIZEL",
         minLevel: 13,
-        maxLevel: 15
+        maxLevel: 15,
       },
       {
         rate: 15,
         species: "STARLY",
         minLevel: 13,
-        maxLevel: 15
+        maxLevel: 15,
       },
       {
         rate: 15,
         species: "WURMPLE",
         minLevel: 13,
-        maxLevel: 15
+        maxLevel: 15,
       },
       {
         rate: 10,
         species: "CASCOON",
         minLevel: 13,
-        maxLevel: 15
+        maxLevel: 15,
       },
       {
         rate: 5,
         species: "PACHIRISU",
         minLevel: 13,
-        maxLevel: 15
+        maxLevel: 15,
       },
       {
         rate: 5,
         species: "SLAKOTH",
         minLevel: 13,
-        maxLevel: 15
+        maxLevel: 15,
       },
       {
         rate: 5,
         species: "WOOLARVA",
         minLevel: 13,
-        maxLevel: 15
-      }
+        maxLevel: 15,
+      },
     ],
     LandMorning: [
       {
         rate: 15,
         species: "STARLY",
         minLevel: 13,
-        maxLevel: 15
+        maxLevel: 15,
       },
       {
         rate: 15,
         species: "WOOPER",
         minLevel: 13,
-        maxLevel: 15
+        maxLevel: 15,
       },
       {
         rate: 15,
         species: "WURMPLE",
         minLevel: 13,
-        maxLevel: 15
+        maxLevel: 15,
       },
       {
         rate: 10,
         species: "ODDISH",
         minLevel: 13,
-        maxLevel: 15
+        maxLevel: 15,
       },
       {
         rate: 10,
         species: "SILCOON",
         minLevel: 13,
-        maxLevel: 15
+        maxLevel: 15,
       },
       {
         rate: 10,
         species: "WOOLARVA",
         minLevel: 13,
-        maxLevel: 15
+        maxLevel: 15,
       },
       {
         rate: 5,
         species: "CATERPIE",
         minLevel: 13,
-        maxLevel: 15
+        maxLevel: 15,
       },
       {
         rate: 5,
         species: "SLAKOTH",
         minLevel: 13,
-        maxLevel: 15
+        maxLevel: 15,
       },
       {
         rate: 5,
         species: "WEEDLE",
         minLevel: 13,
-        maxLevel: 15
-      }
+        maxLevel: 15,
+      },
     ],
     Water: [
       {
         rate: 40,
         species: "AXISH",
         minLevel: 10,
-        maxLevel: 15
+        maxLevel: 15,
       },
       {
         rate: 30,
         species: "BUIZEL",
         minLevel: 13,
-        maxLevel: 15
+        maxLevel: 15,
       },
       {
         rate: 30,
         species: "WOOPER",
         minLevel: 13,
-        maxLevel: 15
-      }
+        maxLevel: 15,
+      },
     ],
     OldRod: [
       {
         rate: 40,
         species: "CARVANHA",
         minLevel: 10,
-        maxLevel: 15
+        maxLevel: 15,
       },
       {
         rate: 30,
         species: "GOLDEEN",
         minLevel: 10,
-        maxLevel: 15
+        maxLevel: 15,
       },
       {
         rate: 30,
         species: "MAGIKARP",
         minLevel: 10,
-        maxLevel: 15
-      }
+        maxLevel: 15,
+      },
     ],
     GoodRod: [
       {
         rate: 40,
         species: "CARVANHA",
         minLevel: 10,
-        maxLevel: 15
+        maxLevel: 15,
       },
       {
         rate: 30,
         species: "GOLDEEN",
         minLevel: 10,
-        maxLevel: 15
+        maxLevel: 15,
       },
       {
         rate: 30,
         species: "MAGIKARP",
         minLevel: 10,
-        maxLevel: 15
-      }
+        maxLevel: 15,
+      },
     ],
     SuperRod: [
       {
         rate: 40,
         species: "CARVANHA",
         minLevel: 10,
-        maxLevel: 15
+        maxLevel: 15,
       },
       {
         rate: 30,
         species: "GOLDEEN",
         minLevel: 10,
-        maxLevel: 15
+        maxLevel: 15,
       },
       {
         rate: 30,
         species: "MAGIKARP",
         minLevel: 10,
-        maxLevel: 15
-      }
+        maxLevel: 15,
+      },
     ],
     Raid: [
       {
         rate: 15,
         species: "BEEDRILL",
         minLevel: 25,
-        maxLevel: 25
+        maxLevel: 25,
       },
       {
         rate: 15,
         species: "BUTTERFREE",
         minLevel: 25,
-        maxLevel: 25
+        maxLevel: 25,
       },
       {
         rate: 15,
         species: "PACHIRISU",
         minLevel: 25,
-        maxLevel: 25
+        maxLevel: 25,
       },
       {
         rate: 15,
         species: "QUAGSIRE",
         minLevel: 25,
-        maxLevel: 25
+        maxLevel: 25,
       },
       {
         rate: 15,
         species: "STARAVIA",
         minLevel: 25,
-        maxLevel: 25
+        maxLevel: 25,
       },
       {
         rate: 10,
         species: "PRIMEAPE",
         minLevel: 25,
-        maxLevel: 25
+        maxLevel: 25,
       },
       {
         rate: 10,
         species: "VILEPLUME",
         minLevel: 25,
-        maxLevel: 25
+        maxLevel: 25,
       },
       {
         rate: 5,
         species: "CARNIVINE",
         minLevel: 25,
-        maxLevel: 25
-      }
-    ]
+        maxLevel: 25,
+      },
+    ],
   },
   20: {
     Land: [
@@ -1989,319 +1991,319 @@ export const encountersData: Record<string, Record<string, EncounterEntry[]>> =
         rate: 10,
         species: "CASCOON",
         minLevel: 14,
-        maxLevel: 16
+        maxLevel: 16,
       },
       {
         rate: 10,
         species: "MANKEY",
         minLevel: 14,
-        maxLevel: 16
+        maxLevel: 16,
       },
       {
         rate: 10,
         species: "PARAS",
         minLevel: 14,
-        maxLevel: 16
+        maxLevel: 16,
       },
       {
         rate: 10,
         species: "PETILIL",
         minLevel: 14,
-        maxLevel: 16
+        maxLevel: 16,
       },
       {
         rate: 10,
         species: "SEWADDLE",
         minLevel: 14,
-        maxLevel: 16
+        maxLevel: 16,
       },
       {
         rate: 10,
         species: "SILCOON",
         minLevel: 14,
-        maxLevel: 16
+        maxLevel: 16,
       },
       {
         rate: 10,
         species: "VENIPEDE",
         minLevel: 14,
-        maxLevel: 16
+        maxLevel: 16,
       },
       {
         rate: 10,
         species: "VENONAT",
         minLevel: 14,
-        maxLevel: 16
+        maxLevel: 16,
       },
       {
         rate: 10,
         species: "WOOLARVA",
         minLevel: 14,
-        maxLevel: 16
-      }
+        maxLevel: 16,
+      },
     ],
     LandDay: [
       {
         rate: 20,
         species: "SEWADDLE",
         minLevel: 14,
-        maxLevel: 16
+        maxLevel: 16,
       },
       {
         rate: 20,
         species: "WOOLARVA",
         minLevel: 14,
-        maxLevel: 16
+        maxLevel: 16,
       },
       {
         rate: 10,
         species: "BUIZEL",
         minLevel: 14,
-        maxLevel: 16
+        maxLevel: 16,
       },
       {
         rate: 10,
         species: "SILCOON",
         minLevel: 14,
-        maxLevel: 16
+        maxLevel: 16,
       },
       {
         rate: 10,
         species: "STARLY",
         minLevel: 14,
-        maxLevel: 16
+        maxLevel: 16,
       },
       {
         rate: 10,
         species: "WURMPLE",
         minLevel: 14,
-        maxLevel: 16
+        maxLevel: 16,
       },
       {
         rate: 5,
         species: "PACHIRISU",
         minLevel: 14,
-        maxLevel: 16
+        maxLevel: 16,
       },
       {
         rate: 5,
         species: "SLAKOTH",
         minLevel: 14,
-        maxLevel: 16
-      }
+        maxLevel: 16,
+      },
     ],
     LandNight: [
       {
         rate: 20,
         species: "VENIPEDE",
         minLevel: 14,
-        maxLevel: 16
+        maxLevel: 16,
       },
       {
         rate: 15,
         species: "BUIZEL",
         minLevel: 14,
-        maxLevel: 16
+        maxLevel: 16,
       },
       {
         rate: 15,
         species: "STARLY",
         minLevel: 14,
-        maxLevel: 16
+        maxLevel: 16,
       },
       {
         rate: 15,
         species: "WURMPLE",
         minLevel: 14,
-        maxLevel: 16
+        maxLevel: 16,
       },
       {
         rate: 10,
         species: "CASCOON",
         minLevel: 14,
-        maxLevel: 16
+        maxLevel: 16,
       },
       {
         rate: 5,
         species: "PACHIRISU",
         minLevel: 14,
-        maxLevel: 16
+        maxLevel: 16,
       },
       {
         rate: 5,
         species: "SLAKOTH",
         minLevel: 14,
-        maxLevel: 16
+        maxLevel: 16,
       },
       {
         rate: 5,
         species: "WOOLARVA",
         minLevel: 14,
-        maxLevel: 16
-      }
+        maxLevel: 16,
+      },
     ],
     LandMorning: [
       {
         rate: 20,
         species: "ODDISH",
         minLevel: 14,
-        maxLevel: 16
+        maxLevel: 16,
       },
       {
         rate: 15,
         species: "STARLY",
         minLevel: 14,
-        maxLevel: 16
+        maxLevel: 16,
       },
       {
         rate: 15,
         species: "WOOPER",
         minLevel: 14,
-        maxLevel: 16
+        maxLevel: 16,
       },
       {
         rate: 15,
         species: "WURMPLE",
         minLevel: 14,
-        maxLevel: 16
+        maxLevel: 16,
       },
       {
         rate: 10,
         species: "SILCOON",
         minLevel: 14,
-        maxLevel: 16
+        maxLevel: 16,
       },
       {
         rate: 10,
         species: "WOOLARVA",
         minLevel: 14,
-        maxLevel: 16
+        maxLevel: 16,
       },
       {
         rate: 5,
         species: "SLAKOTH",
         minLevel: 14,
-        maxLevel: 16
-      }
+        maxLevel: 16,
+      },
     ],
     Water: [
       {
         rate: 30,
         species: "AXISH",
         minLevel: 10,
-        maxLevel: 15
+        maxLevel: 15,
       },
       {
         rate: 30,
         species: "BUIZEL",
         minLevel: 14,
-        maxLevel: 16
+        maxLevel: 16,
       },
       {
         rate: 20,
         species: "CARVANHA",
         minLevel: 10,
-        maxLevel: 15
+        maxLevel: 15,
       },
       {
         rate: 20,
         species: "WOOPER",
         minLevel: 14,
-        maxLevel: 16
-      }
+        maxLevel: 16,
+      },
     ],
     OldRod: [
       {
         rate: 30,
         species: "GOLDEEN",
         minLevel: 10,
-        maxLevel: 15
+        maxLevel: 15,
       },
       {
         rate: 30,
         species: "MAGIKARP",
         minLevel: 10,
-        maxLevel: 15
+        maxLevel: 15,
       },
       {
         rate: 20,
         species: "AXISH",
         minLevel: 10,
-        maxLevel: 15
+        maxLevel: 15,
       },
       {
         rate: 20,
         species: "CARVANHA",
         minLevel: 10,
-        maxLevel: 15
-      }
+        maxLevel: 15,
+      },
     ],
     GoodRod: [
       {
         rate: 40,
         species: "CARVANHA",
         minLevel: 10,
-        maxLevel: 15
+        maxLevel: 15,
       },
       {
         rate: 30,
         species: "GOLDEEN",
         minLevel: 10,
-        maxLevel: 15
+        maxLevel: 15,
       },
       {
         rate: 30,
         species: "MAGIKARP",
         minLevel: 10,
-        maxLevel: 15
-      }
+        maxLevel: 15,
+      },
     ],
     SuperRod: [
       {
         rate: 40,
         species: "AXISH",
         minLevel: 10,
-        maxLevel: 15
+        maxLevel: 15,
       },
       {
         rate: 30,
         species: "GOLDEEN",
         minLevel: 10,
-        maxLevel: 15
+        maxLevel: 15,
       },
       {
         rate: 30,
         species: "MAGIKARP",
         minLevel: 10,
-        maxLevel: 15
-      }
+        maxLevel: 15,
+      },
     ],
     Tree: [
       {
         rate: 25,
         species: "MANKEY",
         minLevel: 10,
-        maxLevel: 13
+        maxLevel: 13,
       },
       {
         rate: 25,
         species: "SLAKOTH",
         minLevel: 10,
-        maxLevel: 13
+        maxLevel: 13,
       },
       {
         rate: 25,
         species: "STARLY",
         minLevel: 10,
-        maxLevel: 13
+        maxLevel: 13,
       },
       {
         rate: 25,
         species: "WOOLARVA",
         minLevel: 10,
-        maxLevel: 13
-      }
-    ]
+        maxLevel: 13,
+      },
+    ],
   },
   21: {
     Water: [
@@ -2309,99 +2311,99 @@ export const encountersData: Record<string, Record<string, EncounterEntry[]>> =
         rate: 40,
         species: "CARVANHA",
         minLevel: 22,
-        maxLevel: 25
+        maxLevel: 25,
       },
       {
         rate: 30,
         species: "BUIZEL",
         minLevel: 22,
-        maxLevel: 25
+        maxLevel: 25,
       },
       {
         rate: 30,
         species: "WOOPER",
         minLevel: 22,
-        maxLevel: 25
-      }
+        maxLevel: 25,
+      },
     ],
     OldRod: [
       {
         rate: 30,
         species: "CARVANHA",
         minLevel: 22,
-        maxLevel: 25
+        maxLevel: 25,
       },
       {
         rate: 30,
         species: "GOLDEEN",
         minLevel: 22,
-        maxLevel: 25
+        maxLevel: 25,
       },
       {
         rate: 20,
         species: "BARBOACH",
         minLevel: 22,
-        maxLevel: 25
+        maxLevel: 25,
       },
       {
         rate: 20,
         species: "MAGIKARP",
         minLevel: 22,
-        maxLevel: 25
-      }
+        maxLevel: 25,
+      },
     ],
     GoodRod: [
       {
         rate: 30,
         species: "CARVANHA",
         minLevel: 22,
-        maxLevel: 25
+        maxLevel: 25,
       },
       {
         rate: 30,
         species: "GOLDEEN",
         minLevel: 22,
-        maxLevel: 25
+        maxLevel: 25,
       },
       {
         rate: 20,
         species: "BARBOACH",
         minLevel: 22,
-        maxLevel: 25
+        maxLevel: 25,
       },
       {
         rate: 20,
         species: "MAGIKARP",
         minLevel: 22,
-        maxLevel: 25
-      }
+        maxLevel: 25,
+      },
     ],
     SuperRod: [
       {
         rate: 30,
         species: "GOLDEEN",
         minLevel: 30,
-        maxLevel: 30
+        maxLevel: 30,
       },
       {
         rate: 30,
         species: "SHARPEDO",
         minLevel: 30,
-        maxLevel: 30
+        maxLevel: 30,
       },
       {
         rate: 20,
         species: "GYARADOS",
         minLevel: 30,
-        maxLevel: 30
+        maxLevel: 30,
       },
       {
         rate: 20,
         species: "WHISCASH",
         minLevel: 30,
-        maxLevel: 30
-      }
-    ]
+        maxLevel: 30,
+      },
+    ],
   },
   22: {
     Land: [
@@ -2409,89 +2411,89 @@ export const encountersData: Record<string, Record<string, EncounterEntry[]>> =
         rate: 35,
         species: "CONDLING",
         minLevel: 3,
-        maxLevel: 5
+        maxLevel: 5,
       },
       {
         rate: 20,
         species: "YUNTTER",
         minLevel: 3,
-        maxLevel: 5
+        maxLevel: 5,
       },
       {
         rate: 10,
         species: "LOTAD",
         minLevel: 2,
-        maxLevel: 4
+        maxLevel: 4,
       },
       {
         rate: 10,
         species: "SEEDOT",
         minLevel: 2,
-        maxLevel: 4
+        maxLevel: 4,
       },
       {
         rate: 10,
         species: "SKITTY_1",
         minLevel: 3,
-        maxLevel: 5
+        maxLevel: 5,
       },
       {
         rate: 5,
         species: "KRICKETOT",
         minLevel: 3,
-        maxLevel: 5
+        maxLevel: 5,
       },
       {
         rate: 5,
         species: "SIZZLIPEDE",
         minLevel: 2,
-        maxLevel: 2
+        maxLevel: 2,
       },
       {
         rate: 5,
         species: "STARLY",
         minLevel: 3,
-        maxLevel: 5
-      }
+        maxLevel: 5,
+      },
     ],
     Sky: [
       {
         rate: 50,
         species: "CONDLING",
         minLevel: 5,
-        maxLevel: 5
+        maxLevel: 5,
       },
       {
         rate: 50,
         species: "STARLY",
         minLevel: 5,
-        maxLevel: 5
-      }
+        maxLevel: 5,
+      },
     ],
     OldRod: [
       {
         rate: 100,
         species: "MAGIKARP",
         minLevel: 5,
-        maxLevel: 6
-      }
+        maxLevel: 6,
+      },
     ],
     GoodRod: [
       {
         rate: 100,
         species: "MAGIKARP",
         minLevel: 5,
-        maxLevel: 6
-      }
+        maxLevel: 6,
+      },
     ],
     SuperRod: [
       {
         rate: 100,
         species: "MAGIKARP",
         minLevel: 5,
-        maxLevel: 6
-      }
-    ]
+        maxLevel: 6,
+      },
+    ],
   },
   23: {
     Land: [
@@ -2499,67 +2501,67 @@ export const encountersData: Record<string, Record<string, EncounterEntry[]>> =
         rate: 35,
         species: "CONDLING",
         minLevel: 3,
-        maxLevel: 5
+        maxLevel: 5,
       },
       {
         rate: 20,
         species: "SEEDOT",
         minLevel: 2,
-        maxLevel: 4
+        maxLevel: 4,
       },
       {
         rate: 15,
         species: "SIZZLIPEDE",
         minLevel: 2,
-        maxLevel: 2
+        maxLevel: 2,
       },
       {
         rate: 15,
         species: "SKITTY_1",
         minLevel: 3,
-        maxLevel: 5
+        maxLevel: 5,
       },
       {
         rate: 15,
         species: "STARLY",
         minLevel: 3,
-        maxLevel: 5
-      }
+        maxLevel: 5,
+      },
     ],
     Tree: [
       {
         rate: 80,
         species: "STARLY",
         minLevel: 2,
-        maxLevel: 5
+        maxLevel: 5,
       },
       {
         rate: 20,
         species: "SKWOVET",
         minLevel: 2,
-        maxLevel: 5
-      }
+        maxLevel: 5,
+      },
     ],
     Raid: [
       {
         rate: 45,
         species: "CONDEMNA",
         minLevel: 50,
-        maxLevel: 50
+        maxLevel: 50,
       },
       {
         rate: 45,
         species: "STARAVIA",
         minLevel: 50,
-        maxLevel: 50
+        maxLevel: 50,
       },
       {
         rate: 10,
         species: "SKARMORY",
         minLevel: 50,
-        maxLevel: 50
-      }
-    ]
+        maxLevel: 50,
+      },
+    ],
   },
   28: {
     Cave: [
@@ -2567,47 +2569,47 @@ export const encountersData: Record<string, Record<string, EncounterEntry[]>> =
         rate: 20,
         species: "GEODUDE_1",
         minLevel: 12,
-        maxLevel: 14
+        maxLevel: 14,
       },
       {
         rate: 20,
         species: "JOLTIK",
         minLevel: 12,
-        maxLevel: 14
+        maxLevel: 14,
       },
       {
         rate: 20,
         species: "KLINK",
         minLevel: 12,
-        maxLevel: 14
+        maxLevel: 14,
       },
       {
         rate: 20,
         species: "ZUBAT",
         minLevel: 12,
-        maxLevel: 14
+        maxLevel: 14,
       },
       {
         rate: 10,
         species: "DIGLETT_1",
         minLevel: 12,
-        maxLevel: 14
+        maxLevel: 14,
       },
       {
         rate: 10,
         species: "ONIX",
         minLevel: 12,
-        maxLevel: 14
-      }
+        maxLevel: 14,
+      },
     ],
     RockSmash: [
       {
         rate: 100,
         species: "GEODUDE_1",
         minLevel: 12,
-        maxLevel: 14
-      }
-    ]
+        maxLevel: 14,
+      },
+    ],
   },
   34: {
     Land: [
@@ -2615,51 +2617,51 @@ export const encountersData: Record<string, Record<string, EncounterEntry[]>> =
         rate: 15,
         species: "GROWRAGE",
         minLevel: 8,
-        maxLevel: 10
+        maxLevel: 10,
       },
       {
         rate: 15,
         species: "LECHONK",
         minLevel: 8,
-        maxLevel: 10
+        maxLevel: 10,
       },
       {
         rate: 15,
         species: "MACHOP",
         minLevel: 9,
-        maxLevel: 12
+        maxLevel: 12,
       },
       {
         rate: 15,
         species: "MAREEP",
         minLevel: 8,
-        maxLevel: 10
+        maxLevel: 10,
       },
       {
         rate: 15,
         species: "WOOLOO",
         minLevel: 8,
-        maxLevel: 10
+        maxLevel: 10,
       },
       {
         rate: 10,
         species: "MUDBRAY",
         minLevel: 10,
-        maxLevel: 10
+        maxLevel: 10,
       },
       {
         rate: 10,
         species: "PONYTA",
         minLevel: 8,
-        maxLevel: 10
+        maxLevel: 10,
       },
       {
         rate: 5,
         species: "SKWOVET",
         minLevel: 8,
-        maxLevel: 10
-      }
-    ]
+        maxLevel: 10,
+      },
+    ],
   },
   43: {
     Land: [
@@ -2667,169 +2669,169 @@ export const encountersData: Record<string, Record<string, EncounterEntry[]>> =
         rate: 20,
         species: "WOOLARVA",
         minLevel: 13,
-        maxLevel: 15
+        maxLevel: 15,
       },
       {
         rate: 10,
         species: "STARLY",
         minLevel: 13,
-        maxLevel: 15
+        maxLevel: 15,
       },
       {
         rate: 10,
         species: "SURSKIT",
         minLevel: 13,
-        maxLevel: 15
+        maxLevel: 15,
       },
       {
         rate: 10,
         species: "VENIPEDE",
         minLevel: 13,
-        maxLevel: 15
+        maxLevel: 15,
       },
       {
         rate: 10,
         species: "WURMPLE",
         minLevel: 13,
-        maxLevel: 15
+        maxLevel: 15,
       },
       {
         rate: 10,
         species: "YANMA",
         minLevel: 13,
-        maxLevel: 15
+        maxLevel: 15,
       },
       {
         rate: 5,
         species: "CASCOON",
         minLevel: 13,
-        maxLevel: 15
+        maxLevel: 15,
       },
       {
         rate: 5,
         species: "PACHIRISU",
         minLevel: 13,
-        maxLevel: 15
+        maxLevel: 15,
       },
       {
         rate: 5,
         species: "SILCOON",
         minLevel: 13,
-        maxLevel: 15
+        maxLevel: 15,
       },
       {
         rate: 5,
         species: "SLAKOTH",
         minLevel: 13,
-        maxLevel: 15
-      }
+        maxLevel: 15,
+      },
     ],
     OldRod: [
       {
         rate: 40,
         species: "DEWPIDER",
         minLevel: 10,
-        maxLevel: 15
+        maxLevel: 15,
       },
       {
         rate: 30,
         species: "AXISH",
         minLevel: 10,
-        maxLevel: 15
+        maxLevel: 15,
       },
       {
         rate: 30,
         species: "MAGIKARP",
         minLevel: 10,
-        maxLevel: 15
-      }
+        maxLevel: 15,
+      },
     ],
     GoodRod: [
       {
         rate: 40,
         species: "DEWPIDER",
         minLevel: 10,
-        maxLevel: 15
+        maxLevel: 15,
       },
       {
         rate: 30,
         species: "AXISH",
         minLevel: 10,
-        maxLevel: 15
+        maxLevel: 15,
       },
       {
         rate: 30,
         species: "MAGIKARP",
         minLevel: 10,
-        maxLevel: 15
-      }
+        maxLevel: 15,
+      },
     ],
     SuperRod: [
       {
         rate: 40,
         species: "DEWPIDER",
         minLevel: 10,
-        maxLevel: 15
+        maxLevel: 15,
       },
       {
         rate: 30,
         species: "AXISH",
         minLevel: 10,
-        maxLevel: 15
+        maxLevel: 15,
       },
       {
         rate: 30,
         species: "MAGIKARP",
         minLevel: 10,
-        maxLevel: 15
-      }
+        maxLevel: 15,
+      },
     ],
     Tree: [
       {
         rate: 25,
         species: "MANKEY",
         minLevel: 10,
-        maxLevel: 13
+        maxLevel: 13,
       },
       {
         rate: 25,
         species: "SLAKOTH",
         minLevel: 10,
-        maxLevel: 13
+        maxLevel: 13,
       },
       {
         rate: 25,
         species: "STARLY",
         minLevel: 10,
-        maxLevel: 13
+        maxLevel: 13,
       },
       {
         rate: 25,
         species: "WOOLARVA",
         minLevel: 10,
-        maxLevel: 13
-      }
+        maxLevel: 13,
+      },
     ],
     Water: [
       {
         rate: 65,
         species: "DEWPIDER",
         minLevel: 10,
-        maxLevel: 15
+        maxLevel: 15,
       },
       {
         rate: 30,
         species: "SURSKIT",
         minLevel: 10,
-        maxLevel: 13
+        maxLevel: 13,
       },
       {
         rate: 5,
         species: "ARAQUANID",
         minLevel: 22,
-        maxLevel: 22
-      }
-    ]
+        maxLevel: 22,
+      },
+    ],
   },
   45: {
     Land: [
@@ -2837,47 +2839,47 @@ export const encountersData: Record<string, Record<string, EncounterEntry[]>> =
         rate: 20,
         species: "ARIADOS",
         minLevel: 20,
-        maxLevel: 22
+        maxLevel: 22,
       },
       {
         rate: 20,
         species: "KINGDER",
         minLevel: 20,
-        maxLevel: 22
+        maxLevel: 22,
       },
       {
         rate: 20,
         species: "NUZLEAF",
         minLevel: 20,
-        maxLevel: 22
+        maxLevel: 22,
       },
       {
         rate: 20,
         species: "SCYTHER",
         minLevel: 20,
-        maxLevel: 22
+        maxLevel: 22,
       },
       {
         rate: 10,
         species: "STARAVIA",
         minLevel: 20,
-        maxLevel: 22
+        maxLevel: 22,
       },
       {
         rate: 10,
         species: "YANMEGA",
         minLevel: 20,
-        maxLevel: 22
-      }
+        maxLevel: 22,
+      },
     ],
     Special: [
       {
         rate: 100,
         species: "SPIBBY",
         minLevel: 10,
-        maxLevel: 11
-      }
-    ]
+        maxLevel: 11,
+      },
+    ],
   },
   60: {
     Land: [
@@ -2885,257 +2887,257 @@ export const encountersData: Record<string, Record<string, EncounterEntry[]>> =
         rate: 20,
         species: "TWIXIE",
         minLevel: 22,
-        maxLevel: 24
+        maxLevel: 24,
       },
       {
         rate: 20,
         species: "TWYLICAN",
         minLevel: 25,
-        maxLevel: 25
+        maxLevel: 25,
       },
       {
         rate: 10,
         species: "DRIFLOON",
         minLevel: 22,
-        maxLevel: 24
+        maxLevel: 24,
       },
       {
         rate: 10,
         species: "MURKROW",
         minLevel: 22,
-        maxLevel: 24
+        maxLevel: 24,
       },
       {
         rate: 10,
         species: "PHANTUMP",
         minLevel: 22,
-        maxLevel: 24
+        maxLevel: 24,
       },
       {
         rate: 10,
         species: "PUMPKABOO",
         minLevel: 22,
-        maxLevel: 24
+        maxLevel: 24,
       },
       {
         rate: 10,
         species: "SHROOMISH",
         minLevel: 22,
-        maxLevel: 24
+        maxLevel: 24,
       },
       {
         rate: 10,
         species: "THIEVUL",
         minLevel: 22,
-        maxLevel: 24
-      }
+        maxLevel: 24,
+      },
     ],
     LandDay: [
       {
         rate: 20,
         species: "TWIXIE",
         minLevel: 22,
-        maxLevel: 24
+        maxLevel: 24,
       },
       {
         rate: 10,
         species: "BONEVEIL",
         minLevel: 22,
-        maxLevel: 24
+        maxLevel: 24,
       },
       {
         rate: 10,
         species: "KADABRA",
         minLevel: 22,
-        maxLevel: 24
+        maxLevel: 24,
       },
       {
         rate: 10,
         species: "LEDIAN",
         minLevel: 22,
-        maxLevel: 24
+        maxLevel: 24,
       },
       {
         rate: 10,
         species: "MURKROW",
         minLevel: 22,
-        maxLevel: 24
+        maxLevel: 24,
       },
       {
         rate: 10,
         species: "PUMPKABOO",
         minLevel: 22,
-        maxLevel: 24
+        maxLevel: 24,
       },
       {
         rate: 10,
         species: "SHROOMISH",
         minLevel: 22,
-        maxLevel: 24
+        maxLevel: 24,
       },
       {
         rate: 10,
         species: "VENOMOTH",
         minLevel: 22,
-        maxLevel: 24
+        maxLevel: 24,
       },
       {
         rate: 10,
         species: "WOOBACOON",
         minLevel: 22,
-        maxLevel: 24
-      }
+        maxLevel: 24,
+      },
     ],
     Tree: [
       {
         rate: 25,
         species: "CORVISQUIRE",
         minLevel: 22,
-        maxLevel: 24
+        maxLevel: 24,
       },
       {
         rate: 25,
         species: "MANKEY",
         minLevel: 22,
-        maxLevel: 24
+        maxLevel: 24,
       },
       {
         rate: 25,
         species: "VIGOROTH",
         minLevel: 22,
-        maxLevel: 24
+        maxLevel: 24,
       },
       {
         rate: 25,
         species: "WOOBACOON",
         minLevel: 22,
-        maxLevel: 24
-      }
+        maxLevel: 24,
+      },
     ],
     Water: [
       {
         rate: 40,
         species: "CARVANHA",
         minLevel: 22,
-        maxLevel: 24
+        maxLevel: 24,
       },
       {
         rate: 30,
         species: "AXISH",
         minLevel: 22,
-        maxLevel: 24
+        maxLevel: 24,
       },
       {
         rate: 30,
         species: "WOOPER",
         minLevel: 22,
-        maxLevel: 24
-      }
+        maxLevel: 24,
+      },
     ],
     OldRod: [
       {
         rate: 40,
         species: "CARVANHA",
         minLevel: 22,
-        maxLevel: 24
+        maxLevel: 24,
       },
       {
         rate: 30,
         species: "AXISH",
         minLevel: 22,
-        maxLevel: 24
+        maxLevel: 24,
       },
       {
         rate: 30,
         species: "MAGIKARP",
         minLevel: 22,
-        maxLevel: 24
-      }
+        maxLevel: 24,
+      },
     ],
     GoodRod: [
       {
         rate: 40,
         species: "CARVANHA",
         minLevel: 28,
-        maxLevel: 30
+        maxLevel: 30,
       },
       {
         rate: 30,
         species: "AXISH",
         minLevel: 28,
-        maxLevel: 30
+        maxLevel: 30,
       },
       {
         rate: 30,
         species: "MAGIKARP",
         minLevel: 28,
-        maxLevel: 30
-      }
+        maxLevel: 30,
+      },
     ],
     SuperRod: [
       {
         rate: 40,
         species: "CARVANHA",
         minLevel: 30,
-        maxLevel: 32
+        maxLevel: 32,
       },
       {
         rate: 30,
         species: "GYARADOS",
         minLevel: 30,
-        maxLevel: 32
+        maxLevel: 32,
       },
       {
         rate: 30,
         species: "JAXEWS",
         minLevel: 30,
-        maxLevel: 32
-      }
+        maxLevel: 32,
+      },
     ],
     Raid: [
       {
         rate: 15,
         species: "BRELOOM",
         minLevel: 34,
-        maxLevel: 34
+        maxLevel: 34,
       },
       {
         rate: 15,
         species: "BUTTERFREE",
         minLevel: 34,
-        maxLevel: 34
+        maxLevel: 34,
       },
       {
         rate: 15,
         species: "CORVIKNIGHT",
         minLevel: 34,
-        maxLevel: 34
+        maxLevel: 34,
       },
       {
         rate: 15,
         species: "MORPEKO",
         minLevel: 34,
-        maxLevel: 34
+        maxLevel: 34,
       },
       {
         rate: 15,
         species: "TWINCESS",
         minLevel: 34,
-        maxLevel: 34
+        maxLevel: 34,
       },
       {
         rate: 15,
         species: "VILEPLUME",
         minLevel: 34,
-        maxLevel: 34
+        maxLevel: 34,
       },
       {
         rate: 10,
         species: "TREVENANT",
         minLevel: 34,
-        maxLevel: 34
-      }
-    ]
+        maxLevel: 34,
+      },
+    ],
   },
   62: {
     Land: [
@@ -3143,151 +3145,151 @@ export const encountersData: Record<string, Record<string, EncounterEntry[]>> =
         rate: 10,
         species: "CORVISQUIRE",
         minLevel: 23,
-        maxLevel: 25
+        maxLevel: 25,
       },
       {
         rate: 10,
         species: "DRIFLOON",
         minLevel: 23,
-        maxLevel: 25
+        maxLevel: 25,
       },
       {
         rate: 10,
         species: "MURKROW",
         minLevel: 23,
-        maxLevel: 25
+        maxLevel: 25,
       },
       {
         rate: 10,
         species: "PHANTUMP",
         minLevel: 23,
-        maxLevel: 25
+        maxLevel: 25,
       },
       {
         rate: 10,
         species: "PUMPKABOO",
         minLevel: 23,
-        maxLevel: 25
+        maxLevel: 25,
       },
       {
         rate: 10,
         species: "SHROOMISH",
         minLevel: 23,
-        maxLevel: 25
+        maxLevel: 25,
       },
       {
         rate: 10,
         species: "THIEVUL",
         minLevel: 23,
-        maxLevel: 25
+        maxLevel: 25,
       },
       {
         rate: 10,
         species: "TWIXIE",
         minLevel: 23,
-        maxLevel: 25
+        maxLevel: 25,
       },
       {
         rate: 10,
         species: "VENOMOTH",
         minLevel: 23,
-        maxLevel: 25
+        maxLevel: 25,
       },
       {
         rate: 10,
         species: "WOOBACOON",
         minLevel: 23,
-        maxLevel: 25
-      }
+        maxLevel: 25,
+      },
     ],
     LandDay: [
       {
         rate: 10,
         species: "BONEVEIL",
         minLevel: 23,
-        maxLevel: 25
+        maxLevel: 25,
       },
       {
         rate: 10,
         species: "DROWZEE",
         minLevel: 23,
-        maxLevel: 25
+        maxLevel: 25,
       },
       {
         rate: 10,
         species: "GLOOM",
         minLevel: 23,
-        maxLevel: 25
+        maxLevel: 25,
       },
       {
         rate: 10,
         species: "KADABRA",
         minLevel: 23,
-        maxLevel: 25
+        maxLevel: 25,
       },
       {
         rate: 10,
         species: "LEDIAN",
         minLevel: 23,
-        maxLevel: 25
+        maxLevel: 25,
       },
       {
         rate: 10,
         species: "MURKROW",
         minLevel: 23,
-        maxLevel: 25
+        maxLevel: 25,
       },
       {
         rate: 10,
         species: "PUMPKABOO",
         minLevel: 23,
-        maxLevel: 25
+        maxLevel: 25,
       },
       {
         rate: 10,
         species: "SHROOMISH",
         minLevel: 23,
-        maxLevel: 25
+        maxLevel: 25,
       },
       {
         rate: 10,
         species: "VENOMOTH",
         minLevel: 23,
-        maxLevel: 25
+        maxLevel: 25,
       },
       {
         rate: 10,
         species: "WOOBACOON",
         minLevel: 23,
-        maxLevel: 25
-      }
+        maxLevel: 25,
+      },
     ],
     Tree: [
       {
         rate: 25,
         species: "CORVISQUIRE",
         minLevel: 23,
-        maxLevel: 25
+        maxLevel: 25,
       },
       {
         rate: 25,
         species: "MANKEY",
         minLevel: 23,
-        maxLevel: 25
+        maxLevel: 25,
       },
       {
         rate: 25,
         species: "VIGOROTH",
         minLevel: 23,
-        maxLevel: 25
+        maxLevel: 25,
       },
       {
         rate: 25,
         species: "WOOBACOON",
         minLevel: 23,
-        maxLevel: 25
-      }
-    ]
+        maxLevel: 25,
+      },
+    ],
   },
   64: {
     Tree: [
@@ -3295,27 +3297,27 @@ export const encountersData: Record<string, Record<string, EncounterEntry[]>> =
         rate: 25,
         species: "CORVISQUIRE",
         minLevel: 23,
-        maxLevel: 25
+        maxLevel: 25,
       },
       {
         rate: 25,
         species: "MANKEY",
         minLevel: 23,
-        maxLevel: 25
+        maxLevel: 25,
       },
       {
         rate: 25,
         species: "VIGOROTH",
         minLevel: 23,
-        maxLevel: 25
+        maxLevel: 25,
       },
       {
         rate: 25,
         species: "WOOBACOON",
         minLevel: 23,
-        maxLevel: 25
-      }
-    ]
+        maxLevel: 25,
+      },
+    ],
   },
   65: {
     Land: [
@@ -3323,189 +3325,189 @@ export const encountersData: Record<string, Record<string, EncounterEntry[]>> =
         rate: 15,
         species: "ELECTRIKE",
         minLevel: 23,
-        maxLevel: 25
+        maxLevel: 25,
       },
       {
         rate: 15,
         species: "LOMBRE",
         minLevel: 23,
-        maxLevel: 25
+        maxLevel: 25,
       },
       {
         rate: 10,
         species: "DUCKLETT",
         minLevel: 23,
-        maxLevel: 25
+        maxLevel: 25,
       },
       {
         rate: 10,
         species: "FIDOUGH",
         minLevel: 23,
-        maxLevel: 25
+        maxLevel: 25,
       },
       {
         rate: 10,
         species: "MABBIT",
         minLevel: 23,
-        maxLevel: 25
+        maxLevel: 25,
       },
       {
         rate: 10,
         species: "PIDOVE",
         minLevel: 23,
-        maxLevel: 25
+        maxLevel: 25,
       },
       {
         rate: 10,
         species: "ROSELIA",
         minLevel: 23,
-        maxLevel: 25
+        maxLevel: 25,
       },
       {
         rate: 10,
         species: "STUFFUL",
         minLevel: 23,
-        maxLevel: 25
+        maxLevel: 25,
       },
       {
         rate: 10,
         species: "SWABLU",
         minLevel: 23,
-        maxLevel: 25
-      }
+        maxLevel: 25,
+      },
     ],
     Tree: [
       {
         rate: 25,
         species: "PIDOVE",
         minLevel: 23,
-        maxLevel: 25
+        maxLevel: 25,
       },
       {
         rate: 25,
         species: "SWABLU",
         minLevel: 23,
-        maxLevel: 25
+        maxLevel: 25,
       },
       {
         rate: 25,
         species: "TAROUNTULA",
         minLevel: 23,
-        maxLevel: 25
+        maxLevel: 25,
       },
       {
         rate: 25,
         species: "WOOBACOON",
         minLevel: 23,
-        maxLevel: 25
-      }
+        maxLevel: 25,
+      },
     ],
     Water: [
       {
         rate: 40,
         species: "AXISH",
         minLevel: 23,
-        maxLevel: 25
+        maxLevel: 25,
       },
       {
         rate: 40,
         species: "LOMBRE",
         minLevel: 23,
-        maxLevel: 25
+        maxLevel: 25,
       },
       {
         rate: 20,
         species: "DUCKLETT",
         minLevel: 23,
-        maxLevel: 25
-      }
+        maxLevel: 25,
+      },
     ],
     OldRod: [
       {
         rate: 40,
         species: "POLIWAG",
         minLevel: 23,
-        maxLevel: 25
+        maxLevel: 25,
       },
       {
         rate: 30,
         species: "AXISH",
         minLevel: 23,
-        maxLevel: 25
+        maxLevel: 25,
       },
       {
         rate: 30,
         species: "MAGIKARP",
         minLevel: 23,
-        maxLevel: 25
-      }
+        maxLevel: 25,
+      },
     ],
     GoodRod: [
       {
         rate: 40,
         species: "POLIWHIRL",
         minLevel: 28,
-        maxLevel: 30
+        maxLevel: 30,
       },
       {
         rate: 30,
         species: "AXISH",
         minLevel: 28,
-        maxLevel: 30
+        maxLevel: 30,
       },
       {
         rate: 30,
         species: "MAGIKARP",
         minLevel: 28,
-        maxLevel: 30
-      }
+        maxLevel: 30,
+      },
     ],
     SuperRod: [
       {
         rate: 40,
         species: "POLIWRATH",
         minLevel: 30,
-        maxLevel: 32
+        maxLevel: 32,
       },
       {
         rate: 30,
         species: "GYARADOS",
         minLevel: 30,
-        maxLevel: 32
+        maxLevel: 32,
       },
       {
         rate: 30,
         species: "JAXEWS",
         minLevel: 30,
-        maxLevel: 32
-      }
+        maxLevel: 32,
+      },
     ],
     Raid: [
       {
         rate: 30,
         species: "DACHSBUN",
         minLevel: 30,
-        maxLevel: 32
+        maxLevel: 32,
       },
       {
         rate: 30,
         species: "LUDICOLO",
         minLevel: 30,
-        maxLevel: 30
+        maxLevel: 30,
       },
       {
         rate: 30,
         species: "MANECTRIC",
         minLevel: 30,
-        maxLevel: 32
+        maxLevel: 32,
       },
       {
         rate: 10,
         species: "FORTUNELLE",
         minLevel: 30,
-        maxLevel: 32
-      }
-    ]
+        maxLevel: 32,
+      },
+    ],
   },
   66: {
     Land: [
@@ -3513,39 +3515,39 @@ export const encountersData: Record<string, Record<string, EncounterEntry[]>> =
         rate: 20,
         species: "DRIFLOON",
         minLevel: 23,
-        maxLevel: 25
+        maxLevel: 25,
       },
       {
         rate: 20,
         species: "PIDOVE",
         minLevel: 23,
-        maxLevel: 25
+        maxLevel: 25,
       },
       {
         rate: 20,
         species: "SKIPLOOM",
         minLevel: 23,
-        maxLevel: 25
+        maxLevel: 25,
       },
       {
         rate: 15,
         species: "BONEVEIL",
         minLevel: 23,
-        maxLevel: 25
+        maxLevel: 25,
       },
       {
         rate: 15,
         species: "SWABLU",
         minLevel: 23,
-        maxLevel: 25
+        maxLevel: 25,
       },
       {
         rate: 10,
         species: "DUCKLETT",
         minLevel: 23,
-        maxLevel: 25
-      }
-    ]
+        maxLevel: 25,
+      },
+    ],
   },
   68: {
     Land: [
@@ -3553,71 +3555,71 @@ export const encountersData: Record<string, Record<string, EncounterEntry[]>> =
         rate: 15,
         species: "ESPURR",
         minLevel: 23,
-        maxLevel: 25
+        maxLevel: 25,
       },
       {
         rate: 15,
         species: "GULPIN",
         minLevel: 23,
-        maxLevel: 25
+        maxLevel: 25,
       },
       {
         rate: 15,
         species: "SHUPPET",
         minLevel: 23,
-        maxLevel: 25
+        maxLevel: 25,
       },
       {
         rate: 15,
         species: "ZORUA",
         minLevel: 23,
-        maxLevel: 25
+        maxLevel: 25,
       },
       {
         rate: 10,
         species: "MABBIT",
         minLevel: 23,
-        maxLevel: 25
+        maxLevel: 25,
       },
       {
         rate: 10,
         species: "PHANTUMP",
         minLevel: 23,
-        maxLevel: 25
+        maxLevel: 25,
       },
       {
         rate: 10,
         species: "ROSELIA",
         minLevel: 23,
-        maxLevel: 25
+        maxLevel: 25,
       },
       {
         rate: 10,
         species: "STUFFUL",
         minLevel: 23,
-        maxLevel: 25
-      }
+        maxLevel: 25,
+      },
     ],
     Tree: [
       {
         rate: 40,
         species: "TAROUNTULA",
         minLevel: 23,
-        maxLevel: 25
+        maxLevel: 25,
       },
       {
         rate: 35,
         species: "WOOBACOON",
         minLevel: 23,
-        maxLevel: 25
+        maxLevel: 25,
       },
       {
         rate: 25,
         species: "SWABLU",
         minLevel: 23,
-        maxLevel: 25
-      }
-    ]
+        maxLevel: 25,
+      },
+    ],
   },
   69: {
     Land: [
@@ -3625,59 +3627,59 @@ export const encountersData: Record<string, Record<string, EncounterEntry[]>> =
         rate: 15,
         species: "DELCATTY",
         minLevel: 23,
-        maxLevel: 25
+        maxLevel: 25,
       },
       {
         rate: 15,
         species: "DOLORN",
         minLevel: 23,
-        maxLevel: 25
+        maxLevel: 25,
       },
       {
         rate: 15,
         species: "ESPURR",
         minLevel: 23,
-        maxLevel: 25
+        maxLevel: 25,
       },
       {
         rate: 15,
         species: "SHUPPET",
         minLevel: 23,
-        maxLevel: 25
+        maxLevel: 25,
       },
       {
         rate: 15,
         species: "THIEVUL",
         minLevel: 23,
-        maxLevel: 25
+        maxLevel: 25,
       },
       {
         rate: 15,
         species: "ZORUA",
         minLevel: 23,
-        maxLevel: 25
+        maxLevel: 25,
       },
       {
         rate: 10,
         species: "PHANTUMP",
         minLevel: 23,
-        maxLevel: 25
-      }
+        maxLevel: 25,
+      },
     ],
     Tree: [
       {
         rate: 50,
         species: "SPIDOPS",
         minLevel: 23,
-        maxLevel: 25
+        maxLevel: 25,
       },
       {
         rate: 50,
         species: "WOOBACOON",
         minLevel: 23,
-        maxLevel: 25
-      }
-    ]
+        maxLevel: 25,
+      },
+    ],
   },
   73: {
     Land: [
@@ -3685,129 +3687,129 @@ export const encountersData: Record<string, Record<string, EncounterEntry[]>> =
         rate: 15,
         species: "ASHCOIL",
         minLevel: 23,
-        maxLevel: 25
+        maxLevel: 25,
       },
       {
         rate: 15,
         species: "GOTHITA",
         minLevel: 23,
-        maxLevel: 25
+        maxLevel: 25,
       },
       {
         rate: 10,
         species: "CHARCADET",
         minLevel: 23,
-        maxLevel: 25
+        maxLevel: 25,
       },
       {
         rate: 10,
         species: "GOLETT",
         minLevel: 23,
-        maxLevel: 25
+        maxLevel: 25,
       },
       {
         rate: 10,
         species: "HOUNDOUR",
         minLevel: 23,
-        maxLevel: 25
+        maxLevel: 25,
       },
       {
         rate: 10,
         species: "SALANDIT",
         minLevel: 23,
-        maxLevel: 25
+        maxLevel: 25,
       },
       {
         rate: 10,
         species: "STUNKY",
         minLevel: 23,
-        maxLevel: 25
+        maxLevel: 25,
       },
       {
         rate: 10,
         species: "VULPIX",
         minLevel: 23,
-        maxLevel: 25
-      }
+        maxLevel: 25,
+      },
     ],
     Tree: [
       {
         rate: 25,
         species: "FLETCHLING",
         minLevel: 23,
-        maxLevel: 25
+        maxLevel: 25,
       },
       {
         rate: 25,
         species: "NINJASK",
         minLevel: 23,
-        maxLevel: 25
+        maxLevel: 25,
       },
       {
         rate: 25,
         species: "SHEDINJA",
         minLevel: 23,
-        maxLevel: 25
+        maxLevel: 25,
       },
       {
         rate: 25,
         species: "SKARMORY",
         minLevel: 23,
-        maxLevel: 25
-      }
+        maxLevel: 25,
+      },
     ],
     Raid: [
       {
         rate: 30,
         species: "HOUNDOOM",
         minLevel: 30,
-        maxLevel: 30
+        maxLevel: 30,
       },
       {
         rate: 30,
         species: "INFERNOIL",
         minLevel: 30,
-        maxLevel: 32
+        maxLevel: 32,
       },
       {
         rate: 30,
         species: "SKARMORY",
         minLevel: 30,
-        maxLevel: 32
+        maxLevel: 32,
       },
       {
         rate: 10,
         species: "GOTHITELLE",
         minLevel: 30,
-        maxLevel: 32
-      }
+        maxLevel: 32,
+      },
     ],
     RockSmash: [
       {
         rate: 25,
         species: "DUGTRIO",
         minLevel: 23,
-        maxLevel: 25
+        maxLevel: 25,
       },
       {
         rate: 25,
         species: "DWEBBLE",
         minLevel: 23,
-        maxLevel: 25
+        maxLevel: 25,
       },
       {
         rate: 25,
         species: "ROLYCOLY",
         minLevel: 23,
-        maxLevel: 25
+        maxLevel: 25,
       },
       {
         rate: 25,
         species: "SIZZLIPEDE",
         minLevel: 23,
-        maxLevel: 25
-      }
-    ]
+        maxLevel: 25,
+      },
+    ],
   },
   74: {
     Cave: [
@@ -3815,65 +3817,65 @@ export const encountersData: Record<string, Record<string, EncounterEntry[]>> =
         rate: 25,
         species: "LUNATONE",
         minLevel: 22,
-        maxLevel: 23
+        maxLevel: 23,
       },
       {
         rate: 25,
         species: "SALANDIT",
         minLevel: 22,
-        maxLevel: 23
+        maxLevel: 23,
       },
       {
         rate: 25,
         species: "SLUGMA",
         minLevel: 22,
-        maxLevel: 23
+        maxLevel: 23,
       },
       {
         rate: 25,
         species: "SOLROCK",
         minLevel: 22,
-        maxLevel: 23
+        maxLevel: 23,
       },
       {
         rate: 25,
         species: "TORKOAL",
         minLevel: 22,
-        maxLevel: 23
+        maxLevel: 23,
       },
       {
         rate: 15,
         species: "ARON",
         minLevel: 22,
-        maxLevel: 23
+        maxLevel: 23,
       },
       {
         rate: 10,
         species: "MAGBY",
         minLevel: 22,
-        maxLevel: 23
+        maxLevel: 23,
       },
       {
         rate: 10,
         species: "ROLYCOLY",
         minLevel: 22,
-        maxLevel: 23
-      }
+        maxLevel: 23,
+      },
     ],
     RockSmash: [
       {
         rate: 50,
         species: "SLUGMA",
         minLevel: 22,
-        maxLevel: 23
+        maxLevel: 23,
       },
       {
         rate: 50,
         species: "TORKOAL",
         minLevel: 22,
-        maxLevel: 23
-      }
-    ]
+        maxLevel: 23,
+      },
+    ],
   },
   75: {
     Land: [
@@ -3881,201 +3883,201 @@ export const encountersData: Record<string, Record<string, EncounterEntry[]>> =
         rate: 10,
         species: "BRELOOM",
         minLevel: 23,
-        maxLevel: 25
+        maxLevel: 25,
       },
       {
         rate: 10,
         species: "GRIMER",
         minLevel: 23,
-        maxLevel: 25
+        maxLevel: 25,
       },
       {
         rate: 10,
         species: "HOOTHOOT",
         minLevel: 23,
-        maxLevel: 25
+        maxLevel: 25,
       },
       {
         rate: 10,
         species: "KOFFING",
         minLevel: 23,
-        maxLevel: 25
+        maxLevel: 25,
       },
       {
         rate: 10,
         species: "STUNKY",
         minLevel: 23,
-        maxLevel: 25
+        maxLevel: 25,
       },
       {
         rate: 10,
         species: "TOEDSCOOL",
         minLevel: 23,
-        maxLevel: 25
+        maxLevel: 25,
       },
       {
         rate: 10,
         species: "WEEPINBELL",
         minLevel: 23,
-        maxLevel: 25
+        maxLevel: 25,
       },
       {
         rate: 5,
         species: "BELLSPROUT",
         minLevel: 23,
-        maxLevel: 25
+        maxLevel: 25,
       },
       {
         rate: 5,
         species: "YANMA",
         minLevel: 23,
-        maxLevel: 25
-      }
+        maxLevel: 25,
+      },
     ],
     Tree: [
       {
         rate: 20,
         species: "ARIADOS",
         minLevel: 23,
-        maxLevel: 25
+        maxLevel: 25,
       },
       {
         rate: 20,
         species: "GRAFAIAI",
         minLevel: 23,
-        maxLevel: 25
+        maxLevel: 25,
       },
       {
         rate: 20,
         species: "MORELULL",
         minLevel: 23,
-        maxLevel: 25
+        maxLevel: 25,
       },
       {
         rate: 20,
         species: "WHIRLIPEDE",
         minLevel: 23,
-        maxLevel: 25
+        maxLevel: 25,
       },
       {
         rate: 10,
         species: "SHROODLE",
         minLevel: 23,
-        maxLevel: 25
+        maxLevel: 25,
       },
       {
         rate: 10,
         species: "YANMA",
         minLevel: 23,
-        maxLevel: 25
-      }
+        maxLevel: 25,
+      },
     ],
     Water: [
       {
         rate: 40,
         species: "CARVANHA",
         minLevel: 23,
-        maxLevel: 25
+        maxLevel: 25,
       },
       {
         rate: 40,
         species: "LOMBRE",
         minLevel: 23,
-        maxLevel: 25
+        maxLevel: 25,
       },
       {
         rate: 20,
         species: "SHELLOS",
         minLevel: 23,
-        maxLevel: 25
-      }
+        maxLevel: 25,
+      },
     ],
     OldRod: [
       {
         rate: 40,
         species: "CARVANHA",
         minLevel: 23,
-        maxLevel: 25
+        maxLevel: 25,
       },
       {
         rate: 40,
         species: "JAXEWS",
         minLevel: 23,
-        maxLevel: 25
+        maxLevel: 25,
       },
       {
         rate: 20,
         species: "SHELLOS",
         minLevel: 23,
-        maxLevel: 25
-      }
+        maxLevel: 25,
+      },
     ],
     GoodRod: [
       {
         rate: 40,
         species: "CARVANHA",
         minLevel: 23,
-        maxLevel: 25
+        maxLevel: 25,
       },
       {
         rate: 40,
         species: "JAXEWS",
         minLevel: 23,
-        maxLevel: 25
+        maxLevel: 25,
       },
       {
         rate: 20,
         species: "SHELLOS",
         minLevel: 23,
-        maxLevel: 25
-      }
+        maxLevel: 25,
+      },
     ],
     SuperRod: [
       {
         rate: 40,
         species: "CARVANHA",
         minLevel: 23,
-        maxLevel: 25
+        maxLevel: 25,
       },
       {
         rate: 40,
         species: "JAXEWS",
         minLevel: 23,
-        maxLevel: 25
+        maxLevel: 25,
       },
       {
         rate: 20,
         species: "SHELLOS",
         minLevel: 23,
-        maxLevel: 25
-      }
+        maxLevel: 25,
+      },
     ],
     Raid: [
       {
         rate: 30,
         species: "BRELOOM",
         minLevel: 30,
-        maxLevel: 32
+        maxLevel: 32,
       },
       {
         rate: 30,
         species: "VICTREEBEL",
         minLevel: 30,
-        maxLevel: 32
+        maxLevel: 32,
       },
       {
         rate: 30,
         species: "YANMEGA",
         minLevel: 30,
-        maxLevel: 30
+        maxLevel: 30,
       },
       {
         rate: 10,
         species: "TOEDSCRUEL",
         minLevel: 30,
-        maxLevel: 32
-      }
-    ]
+        maxLevel: 32,
+      },
+    ],
   },
   76: {
     Cave: [
@@ -4083,65 +4085,65 @@ export const encountersData: Record<string, Record<string, EncounterEntry[]>> =
         rate: 25,
         species: "LUNATONE",
         minLevel: 22,
-        maxLevel: 23
+        maxLevel: 23,
       },
       {
         rate: 25,
         species: "SALANDIT",
         minLevel: 22,
-        maxLevel: 23
+        maxLevel: 23,
       },
       {
         rate: 25,
         species: "SLUGMA",
         minLevel: 22,
-        maxLevel: 23
+        maxLevel: 23,
       },
       {
         rate: 25,
         species: "SOLROCK",
         minLevel: 22,
-        maxLevel: 23
+        maxLevel: 23,
       },
       {
         rate: 25,
         species: "TORKOAL",
         minLevel: 22,
-        maxLevel: 23
+        maxLevel: 23,
       },
       {
         rate: 15,
         species: "ARON",
         minLevel: 22,
-        maxLevel: 23
+        maxLevel: 23,
       },
       {
         rate: 10,
         species: "CARKOL",
         minLevel: 22,
-        maxLevel: 23
+        maxLevel: 23,
       },
       {
         rate: 10,
         species: "MAGBY",
         minLevel: 22,
-        maxLevel: 23
-      }
+        maxLevel: 23,
+      },
     ],
     RockSmash: [
       {
         rate: 50,
         species: "SLUGMA",
         minLevel: 22,
-        maxLevel: 23
+        maxLevel: 23,
       },
       {
         rate: 50,
         species: "TORKOAL",
         minLevel: 22,
-        maxLevel: 23
-      }
-    ]
+        maxLevel: 23,
+      },
+    ],
   },
   89: {
     Cave: [
@@ -4149,65 +4151,65 @@ export const encountersData: Record<string, Record<string, EncounterEntry[]>> =
         rate: 25,
         species: "LUNATONE",
         minLevel: 22,
-        maxLevel: 23
+        maxLevel: 23,
       },
       {
         rate: 25,
         species: "SALANDIT",
         minLevel: 22,
-        maxLevel: 23
+        maxLevel: 23,
       },
       {
         rate: 25,
         species: "SLUGMA",
         minLevel: 22,
-        maxLevel: 23
+        maxLevel: 23,
       },
       {
         rate: 25,
         species: "SOLROCK",
         minLevel: 22,
-        maxLevel: 23
+        maxLevel: 23,
       },
       {
         rate: 25,
         species: "TORKOAL",
         minLevel: 22,
-        maxLevel: 23
+        maxLevel: 23,
       },
       {
         rate: 15,
         species: "ARON",
         minLevel: 22,
-        maxLevel: 23
+        maxLevel: 23,
       },
       {
         rate: 10,
         species: "CARKOL",
         minLevel: 22,
-        maxLevel: 23
+        maxLevel: 23,
       },
       {
         rate: 10,
         species: "MAGBY",
         minLevel: 22,
-        maxLevel: 23
-      }
+        maxLevel: 23,
+      },
     ],
     RockSmash: [
       {
         rate: 50,
         species: "SLUGMA",
         minLevel: 22,
-        maxLevel: 23
+        maxLevel: 23,
       },
       {
         rate: 50,
         species: "TORKOAL",
         minLevel: 22,
-        maxLevel: 23
-      }
-    ]
+        maxLevel: 23,
+      },
+    ],
   },
   106: {
     Land: [
@@ -4215,189 +4217,189 @@ export const encountersData: Record<string, Record<string, EncounterEntry[]>> =
         rate: 10,
         species: "FOONGUS",
         minLevel: 25,
-        maxLevel: 27
+        maxLevel: 27,
       },
       {
         rate: 10,
         species: "GULPIN",
         minLevel: 25,
-        maxLevel: 27
+        maxLevel: 27,
       },
       {
         rate: 10,
         species: "QUAGSIRE",
         minLevel: 25,
-        maxLevel: 27
+        maxLevel: 27,
       },
       {
         rate: 10,
         species: "STUNKY",
         minLevel: 25,
-        maxLevel: 27
+        maxLevel: 27,
       },
       {
         rate: 10,
         species: "TOEDSCOOL",
         minLevel: 25,
-        maxLevel: 27
+        maxLevel: 27,
       },
       {
         rate: 10,
         species: "VENOMOTH",
         minLevel: 25,
-        maxLevel: 27
+        maxLevel: 27,
       },
       {
         rate: 10,
         species: "WOOPER",
         minLevel: 25,
-        maxLevel: 27
+        maxLevel: 27,
       },
       {
         rate: 10,
         species: "YANMA",
         minLevel: 25,
-        maxLevel: 27
-      }
+        maxLevel: 27,
+      },
     ],
     Tree: [
       {
         rate: 20,
         species: "ARIADOS",
         minLevel: 25,
-        maxLevel: 27
+        maxLevel: 27,
       },
       {
         rate: 20,
         species: "GRAFAIAI",
         minLevel: 25,
-        maxLevel: 27
+        maxLevel: 27,
       },
       {
         rate: 20,
         species: "MORELULL",
         minLevel: 25,
-        maxLevel: 27
+        maxLevel: 27,
       },
       {
         rate: 20,
         species: "WHIRLIPEDE",
         minLevel: 25,
-        maxLevel: 27
+        maxLevel: 27,
       },
       {
         rate: 20,
         species: "YANMA",
         minLevel: 25,
-        maxLevel: 27
-      }
+        maxLevel: 27,
+      },
     ],
     Water: [
       {
         rate: 40,
         species: "CARVANHA",
         minLevel: 25,
-        maxLevel: 27
+        maxLevel: 27,
       },
       {
         rate: 40,
         species: "LOMBRE",
         minLevel: 25,
-        maxLevel: 27
+        maxLevel: 27,
       },
       {
         rate: 20,
         species: "SHELLOS",
         minLevel: 25,
-        maxLevel: 27
-      }
+        maxLevel: 27,
+      },
     ],
     OldRod: [
       {
         rate: 40,
         species: "CARVANHA",
         minLevel: 25,
-        maxLevel: 27
+        maxLevel: 27,
       },
       {
         rate: 40,
         species: "JAXEWS",
         minLevel: 25,
-        maxLevel: 27
+        maxLevel: 27,
       },
       {
         rate: 20,
         species: "SHELLOS",
         minLevel: 25,
-        maxLevel: 27
-      }
+        maxLevel: 27,
+      },
     ],
     GoodRod: [
       {
         rate: 40,
         species: "CARVANHA",
         minLevel: 25,
-        maxLevel: 27
+        maxLevel: 27,
       },
       {
         rate: 40,
         species: "JAXEWS",
         minLevel: 25,
-        maxLevel: 27
+        maxLevel: 27,
       },
       {
         rate: 20,
         species: "SHELLOS",
         minLevel: 25,
-        maxLevel: 27
-      }
+        maxLevel: 27,
+      },
     ],
     SuperRod: [
       {
         rate: 40,
         species: "CARVANHA",
         minLevel: 25,
-        maxLevel: 27
+        maxLevel: 27,
       },
       {
         rate: 40,
         species: "JAXEWS",
         minLevel: 25,
-        maxLevel: 27
+        maxLevel: 27,
       },
       {
         rate: 20,
         species: "SHELLOS",
         minLevel: 25,
-        maxLevel: 27
-      }
+        maxLevel: 27,
+      },
     ],
     Raid: [
       {
         rate: 30,
         species: "QUAGSIRE",
         minLevel: 30,
-        maxLevel: 32
+        maxLevel: 32,
       },
       {
         rate: 30,
         species: "VENOMOTH",
         minLevel: 30,
-        maxLevel: 32
+        maxLevel: 32,
       },
       {
         rate: 30,
         species: "YANMEGA",
         minLevel: 30,
-        maxLevel: 30
+        maxLevel: 30,
       },
       {
         rate: 10,
         species: "AMOONGUSS",
         minLevel: 30,
-        maxLevel: 32
-      }
-    ]
+        maxLevel: 32,
+      },
+    ],
   },
   107: {
     Land: [
@@ -4405,289 +4407,289 @@ export const encountersData: Record<string, Record<string, EncounterEntry[]>> =
         rate: 15,
         species: "CHERRIM",
         minLevel: 28,
-        maxLevel: 30
+        maxLevel: 30,
       },
       {
         rate: 15,
         species: "FLOETTE",
         minLevel: 28,
-        maxLevel: 30
+        maxLevel: 30,
       },
       {
         rate: 15,
         species: "LOMBRE",
         minLevel: 28,
-        maxLevel: 30
+        maxLevel: 30,
       },
       {
         rate: 15,
         species: "STEENEE",
         minLevel: 28,
-        maxLevel: 30
+        maxLevel: 30,
       },
       {
         rate: 15,
         species: "SUNFLORA",
         minLevel: 28,
-        maxLevel: 30
+        maxLevel: 30,
       },
       {
         rate: 10,
         species: "PONYTA",
         minLevel: 28,
-        maxLevel: 30
+        maxLevel: 30,
       },
       {
         rate: 5,
         species: "FLOVERN",
         minLevel: 28,
-        maxLevel: 30
+        maxLevel: 30,
       },
       {
         rate: 5,
         species: "FURFROU",
         minLevel: 28,
-        maxLevel: 30
+        maxLevel: 30,
       },
       {
         rate: 5,
         species: "SCRAGGY",
         minLevel: 28,
-        maxLevel: 30
-      }
+        maxLevel: 30,
+      },
     ],
     LandDay: [
       {
         rate: 15,
         species: "DRIFLOON",
         minLevel: 28,
-        maxLevel: 30
+        maxLevel: 30,
       },
       {
         rate: 15,
         species: "FURFROU",
         minLevel: 28,
-        maxLevel: 30
+        maxLevel: 30,
       },
       {
         rate: 15,
         species: "NINJASK",
         minLevel: 28,
-        maxLevel: 30
+        maxLevel: 30,
       },
       {
         rate: 15,
         species: "NUZLEAF",
         minLevel: 28,
-        maxLevel: 30
+        maxLevel: 30,
       },
       {
         rate: 15,
         species: "PONYTA",
         minLevel: 28,
-        maxLevel: 30
+        maxLevel: 30,
       },
       {
         rate: 15,
         species: "SHEDINJA",
         minLevel: 28,
-        maxLevel: 30
+        maxLevel: 30,
       },
       {
         rate: 10,
         species: "NINCADA",
         minLevel: 28,
-        maxLevel: 30
-      }
+        maxLevel: 30,
+      },
     ],
     LandNight: [
       {
         rate: 15,
         species: "DRIFLOON",
         minLevel: 28,
-        maxLevel: 30
+        maxLevel: 30,
       },
       {
         rate: 15,
         species: "FURFROU",
         minLevel: 28,
-        maxLevel: 30
+        maxLevel: 30,
       },
       {
         rate: 15,
         species: "NUZLEAF",
         minLevel: 28,
-        maxLevel: 30
+        maxLevel: 30,
       },
       {
         rate: 15,
         species: "PERSIAN",
         minLevel: 28,
-        maxLevel: 30
+        maxLevel: 30,
       },
       {
         rate: 15,
         species: "RATICATE",
         minLevel: 28,
-        maxLevel: 30
+        maxLevel: 30,
       },
       {
         rate: 15,
         species: "SHUPPET",
         minLevel: 28,
-        maxLevel: 30
+        maxLevel: 30,
       },
       {
         rate: 10,
         species: "PONYTA",
         minLevel: 28,
-        maxLevel: 30
-      }
+        maxLevel: 30,
+      },
     ],
     Water: [
       {
         rate: 40,
         species: "PELIPPER",
         minLevel: 28,
-        maxLevel: 30
+        maxLevel: 30,
       },
       {
         rate: 30,
         species: "SWANNA",
         minLevel: 28,
-        maxLevel: 30
+        maxLevel: 30,
       },
       {
         rate: 20,
         species: "JAXEWS",
         minLevel: 28,
-        maxLevel: 30
+        maxLevel: 30,
       },
       {
         rate: 10,
         species: "DUCKLETT",
         minLevel: 28,
-        maxLevel: 30
-      }
+        maxLevel: 30,
+      },
     ],
     OldRod: [
       {
         rate: 40,
         species: "DEWPIDER",
         minLevel: 28,
-        maxLevel: 30
+        maxLevel: 30,
       },
       {
         rate: 30,
         species: "JAXEWS",
         minLevel: 28,
-        maxLevel: 30
+        maxLevel: 30,
       },
       {
         rate: 30,
         species: "SEAKING",
         minLevel: 28,
-        maxLevel: 30
-      }
+        maxLevel: 30,
+      },
     ],
     GoodRod: [
       {
         rate: 40,
         species: "ARAQUANID",
         minLevel: 28,
-        maxLevel: 30
+        maxLevel: 30,
       },
       {
         rate: 30,
         species: "JAXEWS",
         minLevel: 28,
-        maxLevel: 30
+        maxLevel: 30,
       },
       {
         rate: 30,
         species: "SEAKING",
         minLevel: 28,
-        maxLevel: 30
-      }
+        maxLevel: 30,
+      },
     ],
     SuperRod: [
       {
         rate: 40,
         species: "ARAQUANID",
         minLevel: 28,
-        maxLevel: 30
+        maxLevel: 30,
       },
       {
         rate: 30,
         species: "JAXEWS",
         minLevel: 28,
-        maxLevel: 30
+        maxLevel: 30,
       },
       {
         rate: 30,
         species: "SEAKING",
         minLevel: 28,
-        maxLevel: 30
-      }
+        maxLevel: 30,
+      },
     ],
     Tree: [
       {
         rate: 20,
         species: "BEAUTIFLY",
         minLevel: 28,
-        maxLevel: 30
+        maxLevel: 30,
       },
       {
         rate: 20,
         species: "BONEVEIL",
         minLevel: 28,
-        maxLevel: 30
+        maxLevel: 30,
       },
       {
         rate: 20,
         species: "DUSTOX",
         minLevel: 28,
-        maxLevel: 30
+        maxLevel: 30,
       },
       {
         rate: 20,
         species: "HERACROSS",
         minLevel: 28,
-        maxLevel: 30
+        maxLevel: 30,
       },
       {
         rate: 20,
         species: "PINSIR",
         minLevel: 28,
-        maxLevel: 30
-      }
+        maxLevel: 30,
+      },
     ],
     Raid: [
       {
         rate: 25,
         species: "HERACROSS",
         minLevel: 28,
-        maxLevel: 30
+        maxLevel: 30,
       },
       {
         rate: 25,
         species: "JAXEWS",
         minLevel: 28,
-        maxLevel: 30
+        maxLevel: 30,
       },
       {
         rate: 25,
         species: "PINSIR",
         minLevel: 28,
-        maxLevel: 30
+        maxLevel: 30,
       },
       {
         rate: 25,
         species: "TSAREENA",
         minLevel: 28,
-        maxLevel: 30
-      }
-    ]
+        maxLevel: 30,
+      },
+    ],
   },
   117: {
     Land: [
@@ -4695,213 +4697,213 @@ export const encountersData: Record<string, Record<string, EncounterEntry[]>> =
         rate: 13,
         species: "NIDORINA",
         minLevel: 30,
-        maxLevel: 35
+        maxLevel: 35,
       },
       {
         rate: 13,
         species: "NIDORINO",
         minLevel: 30,
-        maxLevel: 35
+        maxLevel: 35,
       },
       {
         rate: 13,
         species: "PSYDUCK",
         minLevel: 30,
-        maxLevel: 35
+        maxLevel: 35,
       },
       {
         rate: 13,
         species: "SWELLOW",
         minLevel: 30,
-        maxLevel: 35
+        maxLevel: 35,
       },
       {
         rate: 12,
         species: "BUNLUCK",
         minLevel: 30,
-        maxLevel: 35
+        maxLevel: 35,
       },
       {
         rate: 12,
         species: "OTTRICK",
         minLevel: 30,
-        maxLevel: 35
+        maxLevel: 35,
       },
       {
         rate: 12,
         species: "TINKATINK",
         minLevel: 30,
-        maxLevel: 35
+        maxLevel: 35,
       },
       {
         rate: 12,
         species: "TINKATUFF",
         minLevel: 30,
-        maxLevel: 35
-      }
+        maxLevel: 35,
+      },
     ],
     Water: [
       {
         rate: 25,
         species: "OTTRICK",
         minLevel: 30,
-        maxLevel: 35
+        maxLevel: 35,
       },
       {
         rate: 25,
         species: "SEADRA",
         minLevel: 30,
-        maxLevel: 35
+        maxLevel: 35,
       },
       {
         rate: 25,
         species: "SLOWPOKE",
         minLevel: 30,
-        maxLevel: 35
+        maxLevel: 35,
       },
       {
         rate: 25,
         species: "YUNTTER",
         minLevel: 30,
-        maxLevel: 35
-      }
+        maxLevel: 35,
+      },
     ],
     OldRod: [
       {
         rate: 34,
         species: "MAGIKARP",
         minLevel: 30,
-        maxLevel: 35
+        maxLevel: 35,
       },
       {
         rate: 33,
         species: "CORPHISH",
         minLevel: 30,
-        maxLevel: 35
+        maxLevel: 35,
       },
       {
         rate: 33,
         species: "FEEBAS",
         minLevel: 30,
-        maxLevel: 35
-      }
+        maxLevel: 35,
+      },
     ],
     GoodRod: [
       {
         rate: 34,
         species: "GYARADOS",
         minLevel: 30,
-        maxLevel: 35
+        maxLevel: 35,
       },
       {
         rate: 33,
         species: "CRAWDAUNT",
         minLevel: 30,
-        maxLevel: 35
+        maxLevel: 35,
       },
       {
         rate: 33,
         species: "FEEBAS",
         minLevel: 30,
-        maxLevel: 35
-      }
+        maxLevel: 35,
+      },
     ],
     SuperRod: [
       {
         rate: 34,
         species: "GYARADOS",
         minLevel: 30,
-        maxLevel: 35
+        maxLevel: 35,
       },
       {
         rate: 33,
         species: "CRAWDAUNT",
         minLevel: 30,
-        maxLevel: 35
+        maxLevel: 35,
       },
       {
         rate: 33,
         species: "MILOTIC",
         minLevel: 30,
-        maxLevel: 35
-      }
+        maxLevel: 35,
+      },
     ],
     LandNight: [
       {
         rate: 17,
         species: "MURKROW",
         minLevel: 30,
-        maxLevel: 35
+        maxLevel: 35,
       },
       {
         rate: 17,
         species: "NIDORINA",
         minLevel: 30,
-        maxLevel: 35
+        maxLevel: 35,
       },
       {
         rate: 17,
         species: "NIDORINO",
         minLevel: 30,
-        maxLevel: 35
+        maxLevel: 35,
       },
       {
         rate: 17,
         species: "PSYDUCK",
         minLevel: 30,
-        maxLevel: 35
+        maxLevel: 35,
       },
       {
         rate: 16,
         species: "MISDREAVUS",
         minLevel: 30,
-        maxLevel: 35
+        maxLevel: 35,
       },
       {
         rate: 16,
         species: "OTTRICK",
         minLevel: 30,
-        maxLevel: 35
-      }
+        maxLevel: 35,
+      },
     ],
     Raid: [
       {
         rate: 17,
         species: "FORTUNELLE",
         minLevel: 30,
-        maxLevel: 35
+        maxLevel: 35,
       },
       {
         rate: 17,
         species: "GYARADOS",
         minLevel: 30,
-        maxLevel: 35
+        maxLevel: 35,
       },
       {
         rate: 17,
         species: "NIDOQUEEN",
         minLevel: 30,
-        maxLevel: 35
+        maxLevel: 35,
       },
       {
         rate: 17,
         species: "SLOWKING",
         minLevel: 30,
-        maxLevel: 35
+        maxLevel: 35,
       },
       {
         rate: 16,
         species: "MAJOTTER",
         minLevel: 30,
-        maxLevel: 35
+        maxLevel: 35,
       },
       {
         rate: 16,
         species: "NIDOKING",
         minLevel: 30,
-        maxLevel: 35
-      }
-    ]
+        maxLevel: 35,
+      },
+    ],
   },
   118: {
     Land: [
@@ -4909,196 +4911,196 @@ export const encountersData: Record<string, Record<string, EncounterEntry[]>> =
         rate: 13,
         species: "BONEVEIL",
         minLevel: 32,
-        maxLevel: 35
+        maxLevel: 35,
       },
       {
         rate: 13,
         species: "GRAVELER",
         minLevel: 32,
-        maxLevel: 35
+        maxLevel: 35,
       },
       {
         rate: 13,
         species: "NOSEPASS",
         minLevel: 32,
-        maxLevel: 35
+        maxLevel: 35,
       },
       {
         rate: 13,
         species: "RUFFLET",
         minLevel: 32,
-        maxLevel: 35
+        maxLevel: 35,
       },
       {
         rate: 12,
         species: "BRAVIARY",
         minLevel: 32,
-        maxLevel: 35
+        maxLevel: 35,
       },
       {
         rate: 12,
         species: "MAROWAK",
         minLevel: 32,
-        maxLevel: 35
+        maxLevel: 35,
       },
       {
         rate: 12,
         species: "PROBOPASS",
         minLevel: 32,
-        maxLevel: 35
+        maxLevel: 35,
       },
       {
         rate: 12,
         species: "SKARMORY",
         minLevel: 32,
-        maxLevel: 35
-      }
+        maxLevel: 35,
+      },
     ],
     LandDay: [
       {
         rate: 17,
         species: "ARMALITO",
         minLevel: 32,
-        maxLevel: 35
+        maxLevel: 35,
       },
       {
         rate: 17,
         species: "BONEVEIL",
         minLevel: 32,
-        maxLevel: 35
+        maxLevel: 35,
       },
       {
         rate: 17,
         species: "NOSEPASS",
         minLevel: 32,
-        maxLevel: 35
+        maxLevel: 35,
       },
       {
         rate: 17,
         species: "SKIDDO",
         minLevel: 32,
-        maxLevel: 35
+        maxLevel: 35,
       },
       {
         rate: 16,
         species: "GOGOAT",
         minLevel: 32,
-        maxLevel: 35
+        maxLevel: 35,
       },
       {
         rate: 16,
         species: "PROBOPASS",
         minLevel: 32,
-        maxLevel: 35
-      }
+        maxLevel: 35,
+      },
     ],
     LandNight: [
       {
         rate: 22,
         species: "NOSEPASS",
         minLevel: 32,
-        maxLevel: 35
+        maxLevel: 35,
       },
       {
         rate: 19,
         species: "VULLABY",
         minLevel: 32,
-        maxLevel: 35
+        maxLevel: 35,
       },
       {
         rate: 17,
         species: "HONCHKROW",
         minLevel: 32,
-        maxLevel: 35
+        maxLevel: 35,
       },
       {
         rate: 14,
         species: "GRAVELER",
         minLevel: 32,
-        maxLevel: 35
+        maxLevel: 35,
       },
       {
         rate: 11,
         species: "PROBOPASS",
         minLevel: 32,
-        maxLevel: 35
+        maxLevel: 35,
       },
       {
         rate: 8,
         species: "MAROWAK",
         minLevel: 32,
-        maxLevel: 35
+        maxLevel: 35,
       },
       {
         rate: 6,
         species: "SKARMORY",
         minLevel: 32,
-        maxLevel: 35
+        maxLevel: 35,
       },
       {
         rate: 3,
         species: "MANDIBUZZ",
         minLevel: 32,
-        maxLevel: 35
-      }
+        maxLevel: 35,
+      },
     ],
     RockSmash: [
       {
         rate: 40,
         species: "GRAVELER",
         minLevel: 32,
-        maxLevel: 35
+        maxLevel: 35,
       },
       {
         rate: 30,
         species: "ROCKAROLL",
         minLevel: 32,
-        maxLevel: 35
+        maxLevel: 35,
       },
       {
         rate: 20,
         species: "ARMALITO",
         minLevel: 32,
-        maxLevel: 35
+        maxLevel: 35,
       },
       {
         rate: 10,
         species: "GOLEM",
         minLevel: 32,
-        maxLevel: 35
-      }
+        maxLevel: 35,
+      },
     ],
     Raid: [
       {
         rate: 33,
         species: "BRAVIARY",
         minLevel: 32,
-        maxLevel: 35
+        maxLevel: 35,
       },
       {
         rate: 27,
         species: "CONDEMNA",
         minLevel: 32,
-        maxLevel: 35
+        maxLevel: 35,
       },
       {
         rate: 20,
         species: "GOLEM",
         minLevel: 32,
-        maxLevel: 35
+        maxLevel: 35,
       },
       {
         rate: 13,
         species: "HONCHKROW",
         minLevel: 32,
-        maxLevel: 35
+        maxLevel: 35,
       },
       {
         rate: 7,
         species: "MANDIBUZZ",
         minLevel: 32,
-        maxLevel: 35
-      }
-    ]
-  }
-}
+        maxLevel: 35,
+      },
+    ],
+  },
+};
