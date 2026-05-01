@@ -1,3 +1,3 @@
 @echo off
-npm run dev
+pnpm dev
 pause

@@ -1,13 +1,14 @@
 FROM node:22-alpine AS build
 WORKDIR /app
-COPY package*.json ./
-RUN npm install
+RUN corepack enable
+COPY package.json pnpm-lock.yaml* ./
+RUN pnpm install --frozen-lockfile
 COPY . .
-RUN npm run build
+RUN pnpm build
 
 FROM node:22-alpine
 WORKDIR /app
-RUN npm install -g serve
+RUN corepack enable && pnpm add -g serve
 COPY --from=build /app/dist ./dist
 EXPOSE 4173
 CMD ["serve", "-s", "dist", "-l", "4173"]
