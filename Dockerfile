@@ -8,7 +8,7 @@ RUN pnpm build
 
 FROM node:22-alpine
 WORKDIR /app
-RUN corepack enable && pnpm add -g serve
+RUN npm install -g serve
 COPY --from=build /app/dist ./dist
 EXPOSE 4173
 CMD ["serve", "-s", "dist", "-l", "4173"]
