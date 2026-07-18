@@ -1,0 +1,114 @@
+﻿# See the documentation on the wiki to learn how to edit this file.
+#-------------------------------
+[RIVAL_DITTO,Ditto]
+LoseText = ...
+StartText = Get ready for a generic fight!
+Pokemon = PUPROUT,5
+    Gender = male
+    IV = 31,31,31,31,31,31
+    EV = 0,252,0,0,0,252
+    Ball = ULTRABALL
+    Moves_easy = HOWL
+    Moves_normal = TACKLE,HOWL
+    Moves_hard = QUICKATTACK,HOWL,LEAFAGE
+    Moves_absolution = QUICKATTACK,HONECLAWS,NEEDLEARM
+    Item_hard = ORANBERRY
+    Item_absolution = SITRUSBERRY
+    AbilityIndex_easy = 0
+    AbilityIndex_normal = 0
+    AbilityIndex_hard = 1
+    AbilityIndex_absolution = 1
+#-------------------------------
+[LASS3,Chana]
+LoseText = I will never take my brother's place again!
+StartText = My brother got sick so I will take his place today.
+Pokemon = SKITTY,5
+    Form = 1
+    IV = 31,31,31,31,31,31
+    EV = 0,252,0,0,0,252
+    Moves_easy = TACKLE,TAILWHIP
+    Moves_normal = TACKLE,TAILWHIP
+    Moves_hard = TACKLE,TAILWHIP,SING,ATTRACT
+    Moves_absolution = FURYSWIPES,DISARMINGVOICE,SING,ATTRACT
+    Item_hard = ORANBERRY
+    Item_absolution = SITRUSBERRY
+    AbilityIndex_easy = 1
+    AbilityIndex_normal = 0
+    AbilityIndex_hard = 2
+    AbilityIndex_absolution = 2
+#-------------------------------
+[YOUNGSTER3,Juan]
+LoseText = I won't show you my Pokemon again.
+StartText = Want to see a real Pokemon?
+Pokemon = SKWOVET,5
+    IV = 31,31,31,31,31,31
+    EV = 0,252,0,0,0,252
+    Moves_easy = TACKLE,TAILWHIP
+    Moves_normal = TACKLE,TAILWHIP
+    Moves_hard = TACKLE,TAILWHIP,BITE
+    Moves_absolution = BODYSLAM,TAILWHIP,CRUNCH,SUPERFANG
+    Item_hard = FOCUSSASH
+    Item_absolution = FOCUSSASH
+    AbilityIndex_easy = 0
+    AbilityIndex_normal = 0
+    AbilityIndex_hard = 1
+#-------------------------------
+[SCHOOLKID_F2,Susy]
+LoseText = Looks like I didn't learn enough.
+StartText = Have you ever wondered what happens if you break all the leaf piles on the site?
+Pokemon = PAWMI,3
+    IV = 31,31,31,31,31,31
+    EV = 0,0,0,252,0,252
+    Moves_easy = SCRATCH,GROWL
+    Moves_normal = SCRATCH,GROWL
+    Moves_hard = SCRATCH,GROWL,THUNDERSHOCK
+    Moves_absolution = BITE,GROWL,DISCHARGE,AGILITY
+    Item_hard = ORANBERRY
+    Item_absolution = MAGNET
+    AbilityIndex_easy = 0
+    AbilityIndex_normal = 0
+    AbilityIndex_hard = 0
+Pokemon = CONDLING,3
+    IV = 31,31,31,31,31,31
+    EV = 0,252,0,0,0,252
+    Item_hard = FLYINGGEM
+    Item_absolution = FLYINGGEM
+#-------------------------------
+[YOUNGSTER2,Chano]
+LoseText = Did I really lose?
+StartText = I'll show you what I learned today!
+Pokemon = PAWMI,6
+    Item = SILKSCARF
+    IV = 31,31,31,31,31,31
+    EV = 0,0,0,252,0,252
+    Moves_easy = SCRATCH,GROWL
+    Moves_normal = SCRATCH,GROWL
+    Moves_hard = SCRATCH,GROWL,THUNDERSHOCK
+    Moves_absolution = CRUNCH,FACADE,DISCHARGE,AGILITY
+    AbilityIndex_easy = 0
+    AbilityIndex_normal = 0
+    AbilityIndex_hard = 0
+Pokemon = SKWOVET,7
+    Item = SILKSCARF
+    IV = 31,31,31,31,31,31
+    EV = 0,252,0,0,0,252
+    Moves_easy = TACKLE,TAILWHIP
+    Moves_normal = TACKLE,TAILWHIP
+    Moves_hard = TACKLE,TAILWHIP,BITE
+    Moves_absolution = BODYSLAM,TAILWHIP,FACADE,SUPERFANG
+    AbilityIndex_easy = 0
+    AbilityIndex_normal = 0
+    AbilityIndex_hard = 1
+Pokemon = SKITTY,7
+    Form = 1
+    Item = SILKSCARF
+    IV = 31,31,31,31,31,31
+    EV = 0,252,0,0,0,252
+    Moves_easy = TACKLE,TAILWHIP
+    Moves_normal = TACKLE,TAILWHIP
+    Moves_hard = TACKLE,TAILWHIP,SING,ATTRACT
+    Moves_absolution = FURYSWIPES,DOUBLEEDGE,SING,ATTRACT
+    AbilityIndex_easy = 1
+    AbilityIndex_normal = 0
+    AbilityIndex_hard = 2
+

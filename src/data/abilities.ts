@@ -1988,7 +1988,63 @@ export const abilities: Ability[] = [
     id: "ROLLUPFORSAFETY",
     name: "Roll Up For Safety",
     description:
-      "the user get a big Proto Shield when its HP becomes half or less.",
+      "The user get a big Proto Shield when its HP becomes half or less.",
+    suffix: "normal",
+  },
+  {
+    id: "FORTUNEFLOW",
+    name: "Fortune Flow",
+    description:
+      "The Pokémon's attacks grow stronger as its extra effect chance rises.",
+    suffix: "normal",
+  },
+  {
+    id: "GHOSTLYREST",
+    name: "Ghostly Rest",
+    description:
+      "When HP drops to half or less, the user becomes intangible and regenerates HP for 3 turns. Activates once per battle.",
+    suffix: "normal",
+  },
+  {
+    id: "STEELREAPER",
+    name: "Steel Reaper",
+    description:
+      "The Pokemon's Steel-type moves deal much more damage to Grass-type targets.",
+    suffix: "normal",
+  },
+  {
+    id: "POISONOUSWINDS",
+    name: "Poisonous Winds",
+    description:
+      "Wind-category moves used by this Pokémon can poison the target.",
+    suffix: "normal",
+  },
+  {
+    id: "LOOTERINSTINCT",
+    name: "Looter Instinct",
+    description:
+      "The Pokemon deals more damage to targets holding items and may knock those items away.",
+    suffix: "normal",
+  },
+  {
+    id: "SCORCHINGCURRENT",
+    name: "Scorching Current",
+    description:
+      "Electric-type damaging moves used by this Pokemon may burn the target.",
+    suffix: "normal",
+  },
+  {
+    id: "STORMLORD",
+    name: "Storm Lord",
+    description:
+      "Contact may paralyze. Under snow or rain, physical moves also generate a proto-shield.",
+    suffix: "normal",
+  },
+  {
+    id: "FROZENFLOOR",
+    name: "Frozen Floor",
+    description:
+      "In hail or snowstorm, this Pokémon may inflict Frozen Feet on one random non-Ice battler every turn.",
     suffix: "normal",
   },
 ];

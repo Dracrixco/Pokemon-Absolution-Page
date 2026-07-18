@@ -259,6 +259,17 @@ export const items: Item[] = [
     suffix: "absolution",
   },
   {
+    id: "POISONWITCH_OUTFIT",
+    name: "Poison Witch Outfit",
+    namePlural: "Poison Witch Outfits",
+    pocket: 10,
+    price: 3000,
+    flags: "KeyItem,Outfit",
+    description: "---",
+    sprite: "/Items/POISONWITCH_OUTFIT.png",
+    suffix: "absolution",
+  },
+  {
     id: "PAJAMA_OUTFIT_MALE",
     name: "Pajama Outfit Male",
     namePlural: "Pajama Outfits Male",
@@ -1123,6 +1134,54 @@ export const items: Item[] = [
     description:
       "Specialized protective boots used by volcanic researchers. Built to withstand high temperatures and unstable ground during active field studies.",
     sprite: "/Items/THERMALRESEARCHBOOTS.png",
+    suffix: "absolution",
+  },
+  {
+    id: "TANGIBLETALISMAN",
+    name: "Tangible Talisman",
+    namePlural: "Tangible Talismans",
+    pocket: 1,
+    price: 15000,
+    flags: "Fling_30",
+    description:
+      "Allows the user to hit Pokémon with the intangible effect. Deals more damage to the target if it has the intangible effect.",
+    sprite: "/Items/TANGIBLETALISMAN.png",
+    suffix: "absolution",
+  },
+  {
+    id: "DREAMMUSHROOM",
+    name: "Dream Mushroom",
+    namePlural: "Dream Mushrooms",
+    pocket: 1,
+    price: 500,
+    flags: "Fling_30",
+    description:
+      "A fungus with a rather peculiar coloring relaxes certain species of Pokemon.",
+    sprite: "/Items/DREAMMUSHROOM.png",
+    suffix: "absolution",
+  },
+  {
+    id: "STRANGEFEATHER",
+    name: "Strange Feather",
+    namePlural: "Strange Feathers",
+    pocket: 1,
+    price: 500,
+    flags: "Fling_30",
+    description:
+      "A feather with a rather peculiar texture relaxes certain species of Pokemon.",
+    sprite: "/Items/STRANGEFEATHER.png",
+    suffix: "absolution",
+  },
+  {
+    id: "CORRUPTSTONE",
+    name: "Corrupt Stone",
+    namePlural: "Corrupt Stones",
+    pocket: 1,
+    price: 3000,
+    flags: "EvolutionStone,Fling_30",
+    description:
+      "A peculiar stone that makes certain species of Pokémon evolve. It emanates a malevolent energy.",
+    sprite: "/Items/CORRUPTSTONE.png",
     suffix: "absolution",
   },
 ];

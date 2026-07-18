@@ -1748,6 +1748,15 @@ export const trainerTypes: TrainerType[] = [
     description: "",
   },
   {
+    id: "LEADER_UPTIO",
+    name: "Pokemon Trainer",
+    gender: "Male",
+    baseMoney: 100,
+    suffix: "normal",
+    sprite: "/Trainers/LEADER_UPTIO.png",
+    description: "",
+  },
+  {
     id: "AGRONOMIST_SYLVIA",
     name: "Agronomist",
     gender: "Female",
@@ -1880,15 +1889,6 @@ export const trainerTypes: TrainerType[] = [
     baseMoney: 60,
     suffix: "normal",
     sprite: "/Trainers/SPECIAL_TRAINER_DARREN.png",
-    description: "",
-  },
-  {
-    id: "SPECIAL_TRAINER_UPTIO",
-    name: "Pokemon Trainer",
-    gender: "Male",
-    baseMoney: 100,
-    suffix: "normal",
-    sprite: "/Trainers/SPECIAL_TRAINER_UPTIO.png",
     description: "",
   },
 ];

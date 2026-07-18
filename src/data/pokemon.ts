@@ -22043,9 +22043,9 @@ export const fakemons: Fakemon[] = [
     suffix: "normal",
     evolution: [
       {
-        to: "SYLVEON",
-        method: "HappinessMoveType",
-        value: "FAIRY",
+        to: "CORRUPTEON",
+        method: "Item",
+        value: "CORRUPTSTONE",
       },
     ],
     color: "Brown",

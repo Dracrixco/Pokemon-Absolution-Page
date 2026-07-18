@@ -74,4 +74,36 @@ Description = Fire-type moves have a chance to freeze the target.
 #-------------------------------
 [ROLLUPFORSAFETY]
 Name = Roll Up For Safety
-Description = the user get a big Proto Shield when its HP becomes half or less.
+Description = The user get a big Proto Shield when its HP becomes half or less.
+#-------------------------------
+[FORTUNEFLOW]
+Name = Fortune Flow
+Description = The Pokémon's attacks grow stronger as its extra effect chance rises.
+#-------------------------------
+[GHOSTLYREST]
+Name = Ghostly Rest
+Description = When HP drops to half or less, the user becomes intangible and regenerates HP for 3 turns. Activates once per battle.
+#-------------------------------
+[STEELREAPER]
+Name = Steel Reaper
+Description = The Pokemon's Steel-type moves deal much more damage to Grass-type targets.
+#-------------------------------
+[POISONOUSWINDS]
+Name = Poisonous Winds
+Description = Wind-category moves used by this Pokémon can poison the target.
+#-------------------------------
+[LOOTERINSTINCT]
+Name = Looter Instinct
+Description = The Pokemon deals more damage to targets holding items and may knock those items away.
+#-------------------------------
+[SCORCHINGCURRENT]
+Name = Scorching Current
+Description = Electric-type damaging moves used by this Pokemon may burn the target.
+#-------------------------------
+[STORMLORD]
+Name = Storm Lord
+Description = Contact may paralyze. Under snow or rain, physical moves also generate a proto-shield.
+#-------------------------------
+[FROZENFLOOR]
+Name = Frozen Floor
+Description = In hail or snowstorm, this Pokémon may inflict Frozen Feet on one random non-Ice battler every turn.

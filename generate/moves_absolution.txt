@@ -66,7 +66,7 @@ TotalPP = 30
 Target = AllFoes
 FunctionCode = MarkingTerritory
 Description = Boosts both defenses and prevents the user from switching out.
-PasiveDescription = If the Pokémon can't escape or switch, it generates a proto-shield each turn.
+PasiveDescription = If the Pokemon can't escape or switch, it generates a proto-shield each turn.
 #-------------------------------
 [WILDPUNCH]
 Name = Wild Punch
@@ -135,8 +135,8 @@ TotalPP = 15
 Target = NearOther
 FunctionCode = DragonSlayer
 Flags = Contact,CanProtect,CanMirrorMove
-Description = Deals double damage to Dragon-type Pokémon.
-PasiveDescription = Boosts the user's Attack after defeating a Dragon-type Pokémon.
+Description = Deals double damage to Dragon-type Pokemon.
+PasiveDescription = Boosts the user's Attack after defeating a Dragon-type Pokemon.
 #-------------------------------
 [FLOWERFANG]
 Name = Flower Fang
@@ -170,7 +170,7 @@ Accuracy = 100
 TotalPP = 15
 Target = AllNearOthers
 FunctionCode = AttractTargetAndRedirectMovesToUser
-Flags = CanProtect,CanMirrorMove,LoveReleated
+Flags = CanProtect,CanMirrorMove,LoveRelated
 Description = Charms all foes, making them infatuated and forcing them to target the user.
 #-------------------------------
 [LOVEBREAKUP]
@@ -182,7 +182,7 @@ Accuracy = 100
 TotalPP = 20
 Target = NearOther
 FunctionCode = DamageOnLoveObjectivesAndRemoveLove
-Flags = CanProtect,CanMirrorMove,LoveReleated,Contact
+Flags = CanProtect,CanMirrorMove,LoveRelated,Contact
 Description = Deals massive damage and cures infatuation. Fails if the target isn't in love with the user.
 #-------------------------------
 [SUPPLICATION]
@@ -322,7 +322,7 @@ TotalPP = 20
 Target = NearOther
 FunctionCode = SwitchOutUserDamagingMove
 Flags = CanProtect,CanMirrorMove
-Description = After attacking, the user switches out for a waiting party Pokémon.
+Description = After attacking, the user switches out for a waiting party Pokemon.
 #-------------------------------
 [CRYOSPEED]
 Name = Cryo Speed
@@ -656,3 +656,169 @@ FunctionCode = None
 Flags = CanProtect,CanMirrorMove,ZPower_ACCURACY_1
 EffectChance = 100
 Description = ???
+#-------------------------------
+[LUCKYBLESS]
+Name = Lucky Bless
+Type = GRASS
+Category = Status
+Accuracy = 0
+TotalPP = 20
+Target = User
+FunctionCode = IncreaseExtraEffectChanceDoubleOnGrassType
+Description = The user increases it's extra effect chance a little bit. The increases duplicate if the user is grass type.
+#-------------------------------
+[ASTROKEOFLUCK]
+Name = A Stroke Of Luck
+Type = FIGHTING
+Category = Physical
+Power = 70
+Accuracy = 100
+TotalPP = 15
+Target = NearOther
+FunctionCode = IncreaseEffectChanceAndMayIncreaseAttack
+Flags = Contact,CanProtect,CanMirrorMove,Punching
+EffectChance = 30
+Description = The user throws a lucky punch that boosts its extra effect chance. It may also raise the user's Attack.
+#-------------------------------
+[GHOSTDISSOLUTION]
+Name = Ghost Dissolution
+Type = GHOST
+Category = Status
+Accuracy = 0
+TotalPP = 10
+Target = User
+FunctionCode = GhostDebilityEvasionAndSpread
+Description = The user gains Ghost debility and sharply raises evasion. Fails if the user already has a debility.
+PasiveDescription = After using a move, if the user has Ghost debility, it has a tiny chance to pass it to the target.
+#-------------------------------
+[FROSTREQUIEM]
+Name = Frost Requiem
+Type = ICE
+Category = Status
+Accuracy = 100
+TotalPP = 5
+Target = NearOther
+FunctionCode = SacrificeToFreezeAndPerishTrappedTarget
+Flags = CanProtect,CanMirrorMove
+Description = The user faints to freeze the target, trap it, and apply a 5-turn perish count.
+#-------------------------------
+[CHAINSAWCUT]
+Name = Chainsaw Cut
+Type = STEEL
+Category = Physical
+Power = 100
+Accuracy = 100
+TotalPP = 10
+Target = NearOther
+FunctionCode = SuperEffectiveAgainstGrass
+Flags = Contact,CanProtect,CanMirrorMove,Slicing
+Description = The user tears through one target with a chainsaw-like slash. This Steel move is super effective against Grass types.
+#-------------------------------
+[DRACONICROAR]
+Name = Draconic Roar
+Type = DRAGON
+Category = Status
+Accuracy = 100
+TotalPP = 15
+Target = AllNearOthers
+FunctionCode = ApplyDragonDebilityAndLowerSpecialDefense
+Flags = Sound,CanProtect,CanMirrorMove
+Description = The user roars and applies Dragon debility to nearby foes while lowering their Special Defense.
+PasiveDescription = At the end of each turn, if any opposing Dragon-type remains, the user gains +1 accuracy.
+#-------------------------------
+[PARALYZINGECHO]
+Name = Paralyzing Echo
+Type = NORMAL
+Category = Status
+Accuracy = 100
+TotalPP = 15
+Target = NearOther
+FunctionCode = ParalyzeAndLowerTargetEvasion1
+Flags = Sound,CanProtect,CanMirrorMove
+Description = The user throws a big echo that paralyzes the target and lowers its evasion.
+#-------------------------------
+[POISONCICLONE]
+Name = Poison Ciclone
+Type = FLYING
+Category = Special
+Power = 80
+Accuracy = 100
+TotalPP = 15
+Target = AllNearFoes
+FunctionCode = PoisonTarget
+Flags = Wind,CanProtect,CanMirrorMove
+EffectChance = 30
+Description = The user whips up poisonous winds that hit all nearby foes and may poison them.
+#-------------------------------
+[LIMITBOUNDSTRIKE]
+Name = Limit Bound Strike
+Type = FIGHTING
+Category = Physical
+Power = 1
+Accuracy = 100
+TotalPP = 15
+Target = NearOther
+FunctionCode = DamageBasedOnUserHpLimitAndClampLimitToCurrentHp
+Flags = Contact,CanProtect,CanMirrorMove,HpLimitReleated,Punching
+Description = The user strikes one target. This move's base power scales with the user's HP limit, from 60 to 120.
+PasiveDescription = At the end of each turn, the user's HP limit is adjusted to match its current HP.
+#-------------------------------
+[FROSTTHEFT]
+Name = Frost Theft
+Type = ICE
+Category = Physical
+Power = 65
+Accuracy = 100
+TotalPP = 20
+Target = NearOther
+FunctionCode = RemoveTargetItem
+Flags = Contact,CanProtect,CanMirrorMove
+Description = The user tears at the target with freezing claws and removes its held item.
+#-------------------------------
+[CHARGESHIELD]
+Name = Charge Shield
+Type = ELECTRIC
+Category = Status
+Accuracy = 0
+TotalPP = 20
+Target = User
+FunctionCode = GainChargeAndTinyProtoShield
+Description = The user begins charging power and creates a tiny proto-shield.
+#-------------------------------
+[SKYSPLITTER]
+Name = Sky Splitter
+Type = ELECTRIC
+Category = Physical
+Power = 100
+Accuracy = 100
+TotalPP = 10
+Target = NearOther
+FunctionCode = LowerTargetSpeed1RaiseUserDef1InWeather
+Flags = CanProtect,CanMirrorMove
+Description = The user summons a bolt from the heavens. This lowers the target's Speed and the user's gain a tiny protoshield in snow or rain.
+#-------------------------------
+[TARDRIZZLE]
+Name = Tar Drizzle
+Type = POISON
+Category = Special
+Power = 60
+Accuracy = 100
+TotalPP = 20
+Target = NearOther
+FunctionCode = ApplyPoisonousTarToTarget
+Flags = CanProtect,CanMirrorMove
+EffectChance = 30
+Description = The user rains poisonous tar drops on one target. It may apply Poisonous Tar.
+#-------------------------------
+[TARDELUGE]
+Name = Tar Deluge
+Type = POISON
+Category = Special
+Power = 100
+Accuracy = 100
+TotalPP = 10
+Target = AllNearFoes
+FunctionCode = ApplyPoisonousTarToTarget
+Flags = CanProtect,CanMirrorMove
+EffectChance = 60
+Description = The user unleashes a heavy rain of poisonous tar on nearby foes. It has a high chance to apply Poisonous Tar.

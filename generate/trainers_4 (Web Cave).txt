@@ -1,0 +1,56 @@
+#-------------------------------
+[MINER_ABSOLUTION,Hector]
+LoseText = I am still lost and lost.
+StartText = I got lost, maybe a battle will help me to get my bearings.
+Pokemon = ARON,13
+    AbilityIndex = 0
+    IV = 31,31,31,31,31,31
+    EV = 0,252,0,0,0,252
+    Happiness = 255
+    Ball = SAFARIBALL
+    Moves_hard = METALCLAW,ROCKTOMB,DIG,METALSOUND
+    Moves_absolution = METALCLAW,ROCKTOMB,DIG,METALSOUND
+    Item_hard = ROCKYHELMET
+    Item_absolution = ROCKYHELMET
+    AbilityIndex_easy = 0
+    AbilityIndex_normal = 0
+    AbilityIndex_hard = 0
+Pokemon = GEODUDE,13
+    AbilityIndex = 0
+    IV = 31,31,31,31,31,31
+    EV = 0,252,0,0,0,252
+    Happiness = 255
+    Ball = SAFARIBALL
+    Moves_hard = ROCKPOLISH,ROLLOUT,BODYSLAM,BRICKBREAK
+    Moves_absolution = DOUBLEEDGE,SELFDESTRUCT,EARTHQUAKE,DYNAMICPUNCH
+    Item_absolution = HARDSTONE
+    AbilityIndex_easy = 0
+    AbilityIndex_normal = 0
+    AbilityIndex_hard = 1
+#-------------------------------
+[MINER_ABSOLUTION,Alturo]
+LoseText = I'd better stay as a miner.
+StartText = I will get to the top of the mountain faster if I go inside.
+Pokemon = CUBONE,13
+    IV = 31,31,31,31,31,31
+    EV = 0,252,0,0,0,252
+    Happiness = 255
+    Ball = POKEBALL
+    Moves_hard = MUDSLAP,BONEMERANG,HEADBUTT,BRICKBREAK
+    Moves_absolution = DOUBLEKICK,BONEMERANG,EARTHQUAKE,THRASH
+    Item_hard = SOFTSAND
+    Item_absolution = SOFTSAND
+    AbilityIndex_hard = 2
+Pokemon = DIGLETT,14
+    AbilityIndex = 0
+    IV = 31,31,31,31,31,31
+    EV = 0,252,0,0,0,252
+    Happiness = 255
+    Ball = SAFARIBALL
+    Moves_hard = SLASH,DIG,AGILITY
+    Moves_absolution = SLASH,DIG,AGILITY
+    Item_hard = SOFTSAND
+    Item_absolution = SOFTSAND
+    AbilityIndex_easy = 0
+    AbilityIndex_normal = 0
+    AbilityIndex_hard = 0

@@ -572,7 +572,7 @@ Water,2
     30,SURSKIT,10,13
     5,ARAQUANID,22
 #-------------------------------
-[045] # Fores - Spider Zone
+[045] # Fores - Ariados Zone
 Land,5
     20,ARIADOS,20,22
     20,KINGDER,20,22

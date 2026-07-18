@@ -169,6 +169,14 @@ Price = 3000
 Flags = KeyItem,Outfit
 Description = A noble outfit inspired by Saber, the legendary Servant from the Fate series. Perfect for wielding the holy sword Excalibur and embarking on quests!
 #-------------------------------
+[POISONWITCH_OUTFIT]
+Name = Poison Witch Outfit
+NamePlural = Poison Witch Outfits
+Pocket = 10
+Price = 3000
+Flags = KeyItem,Outfit
+Description = ---
+#-------------------------------
 [PAJAMA_OUTFIT_MALE]
 Name = Pajama Outfit Male
 NamePlural = Pajama Outfits Male
@@ -806,3 +814,37 @@ Pocket = 8
 Price = 15000
 Flags = Fling_30
 Description = Specialized protective boots used by volcanic researchers. Built to withstand high temperatures and unstable ground during active field studies.
+#-------------------------------
+[TANGIBLETALISMAN]
+Name = Tangible Talisman
+NamePlural = Tangible Talismans
+Pocket = 1
+Price = 15000
+Flags = Fling_30
+Description = Allows the user to hit Pokémon with the intangible effect. Deals more damage to the target if it has the intangible effect.
+#-------------------------------
+[DREAMMUSHROOM]
+Name = Dream Mushroom
+NamePlural = Dream Mushrooms
+Pocket = 1
+Price = 500
+Flags = Fling_30
+Description = A fungus with a rather peculiar coloring relaxes certain species of Pokemon.
+#-------------------------------
+[STRANGEFEATHER]
+Name = Strange Feather
+NamePlural = Strange Feathers
+Pocket = 1
+Price = 500
+Flags = Fling_30
+Description = A feather with a rather peculiar texture relaxes certain species of Pokemon.
+#-------------------------------
+[CORRUPTSTONE]
+Name = Corrupt Stone
+NamePlural = Corrupt Stones
+Pocket = 1
+Price = 3000
+BPPrice = 5
+FieldUse = OnPokemon
+Flags = EvolutionStone,Fling_30
+Description = A peculiar stone that makes certain species of Pokémon evolve. It emanates a malevolent energy.

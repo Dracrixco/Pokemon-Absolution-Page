@@ -72699,9 +72699,9 @@ export const pokemonForms: PokemonForm[] = [
     suffix: "normal",
     evolution: [
       {
-        to: "SYLVEON",
-        method: "HappinessMoveType",
-        value: "FAIRY",
+        to: "CORRUPTEON",
+        method: "Item",
+        value: "CORRUPTSTONE",
       },
     ],
     color: "Brown",

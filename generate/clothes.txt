@@ -320,3 +320,23 @@ ClotheName = Saber Pupils
 ClothePart = pupils
 ItemCondition = SABER_OUTFIT
 #------------------------------
+[PoisonWitch_head]
+ClotheName = PoisonWitch Hair
+ClothePart = head
+ItemCondition = POISONWITCH_OUTFIT
+#------------------------------
+[PoisonWitch_top]
+ClotheName = PoisonWitch Top
+ClothePart = top
+ItemCondition = POISONWITCH_OUTFIT
+#------------------------------
+[PoisonWitch_bottom]
+ClotheName = PoisonWitch Pants
+ClothePart = bottom
+ItemCondition = POISONWITCH_OUTFIT
+#------------------------------
+[PoisonWitch_pupils]
+ClotheName = PoisonWitch Pupils
+ClothePart = pupils
+ItemCondition = POISONWITCH_OUTFIT
+#------------------------------

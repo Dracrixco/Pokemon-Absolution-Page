@@ -40,12 +40,12 @@ Flags = ForWebPage
 [005]   # Poke Center
 Name = Poke Center
 HealingSpot = 21,5,22
-SnapEdges = true
+SnapEdges = false
 BattleBack = Indoor
 #-------------------------------
 [006]   # House
 Name = \PN House
-SnapEdges = true
+SnapEdges = false
 BattleBack = Indoor
 #-------------------------------
 [007]   # Sunset City
@@ -72,12 +72,12 @@ Flags = ForWebPage
 #-------------------------------
 [009]   # House
 Name = House
-SnapEdges = true
+SnapEdges = false
 BattleBack = Indoor
 #-------------------------------
 [010]   # Kaoba House
 Name = Kaoba House
-SnapEdges = true
+SnapEdges = false
 BattleBack = Indoor
 #-------------------------------
 [011]   # Parhelion City
@@ -103,7 +103,7 @@ Flags = ForWebPage
 #-------------------------------
 [013]   # \PN penthouse
 Name = \PN penthouse
-SnapEdges = true
+SnapEdges = false
 BattleBack = Indoor
 #-------------------------------
 [014]   # Route 3
@@ -209,22 +209,22 @@ Flags = ForWebPage
 #-------------------------------
 [024]   # House 1
 Name = House
-SnapEdges = true
+SnapEdges = false
 BattleBack = Indoor
 #-------------------------------
 [025]   # House 2
 Name = House
-SnapEdges = true
+SnapEdges = false
 BattleBack = Indoor
 #-------------------------------
 [026]   # Poke Center
 Name = Poke Center
-SnapEdges = true
+SnapEdges = false
 BattleBack = Indoor
 #-------------------------------
 [027]   # School
 Name = School
-SnapEdges = true
+SnapEdges = false
 BattleBack = Indoor
 #-------------------------------
 [028]   # Cave
@@ -236,22 +236,22 @@ BattleBack = Cave
 [029]   # Poke Center
 Name = Poke Center
 HealingSpot = 11,8,10
-SnapEdges = true
+SnapEdges = false
 BattleBack = Indoor
 #-------------------------------
 [030]   # House 1
 Name = House
-SnapEdges = true
+SnapEdges = false
 BattleBack = Indoor
 #-------------------------------
 [031]   # House 2
 Name = House
-SnapEdges = true
+SnapEdges = false
 BattleBack = Indoor
 #-------------------------------
 [032]   # Boutique
 Name = Boutique
-SnapEdges = true
+SnapEdges = false
 BattleBack = Indoor
 #-------------------------------
 [033]   # Profesor Intro
@@ -265,13 +265,13 @@ Flags = ForWebPage
 Name = Farm
 ShowArea = true
 MapPosition = 0,13,10
-SnapEdges = true
+SnapEdges = false
 BattleBack = Indoor
 Flags = ForWebPage
 #-------------------------------
 [035]   # Gym - Entrace
 Name = Gym - Entrace
-SnapEdges = true
+SnapEdges = false
 BattleBack = Indoor
 Flags = ForWebPage
 #-------------------------------
@@ -301,15 +301,15 @@ Flags = ForWebPage
 #-------------------------------
 [040]   # House 1
 Name = House
-SnapEdges = true
+SnapEdges = false
 BattleBack = Indoor
 #-------------------------------
 [041]   # House 2
 Name = House
-SnapEdges = true
+SnapEdges = false
 BattleBack = Indoor
 #-------------------------------
-[042]   # Bug Contest
+[042]   # Secret
 Name = Bug Contest
 SnapEdges = true
 #-------------------------------
@@ -325,10 +325,10 @@ Flags = ForWebPage
 #-------------------------------
 [044]   # House 3
 Name = House
-SnapEdges = true
+SnapEdges = false
 BattleBack = Indoor
 #-------------------------------
-[045]   # Fores - Spider Zone
+[045]   # Fores - Ariados Zone
 Name = Fores - Spider Zone
 Outdoor = true
 ShowArea = true
@@ -345,17 +345,17 @@ BattleBack = Forest
 #-------------------------------
 [047]   # House
 Name = House
-SnapEdges = true
+SnapEdges = false
 BattleBack = Indoor
 #-------------------------------
 [048]   # Connection
 Name = Connection
-SnapEdges = true
+SnapEdges = false
 BattleBack = Indoor
 #-------------------------------
 [049]   # Connection
 Name = Connection
-SnapEdges = true
+SnapEdges = false
 BattleBack = Indoor
 #-------------------------------
 [050]   # Connection
@@ -364,17 +364,17 @@ SnapEdges = true
 #-------------------------------
 [051]   # House
 Name = House
-SnapEdges = true
+SnapEdges = false
 BattleBack = Indoor
 #-------------------------------
 [052]   # Class 1
 Name = Class 1
-SnapEdges = true
+SnapEdges = false
 BattleBack = Indoor
 #-------------------------------
 [053]   # Class 2
 Name = Class 2
-SnapEdges = true
+SnapEdges = false
 BattleBack = Indoor
 #-------------------------------
 [054]   # Web Cave - Evade
@@ -452,8 +452,10 @@ Name = Sky
 Outdoor = true
 ShowArea = true
 Bicycle = true
+MapPosition = 0,12,5
 SnapEdges = true
 BattleBack = Sky
+MapSize = 5,11111
 Environment = Grass
 Flags = ForWebPage
 #-------------------------------
@@ -492,7 +494,7 @@ Flags = ForWebPage
 [072]   # Connection
 Name = Connection
 MapPosition = 0,17,5
-SnapEdges = true
+SnapEdges = false
 BattleBack = Indoor
 #-------------------------------
 [073]   # Route 6
@@ -516,6 +518,18 @@ BattleBack = Volcan
 MapSize = 2,11
 Flags = ForWebPage
 #-------------------------------
+[075]   # Route 7
+Name = Route 7
+Outdoor = true
+ShowArea = true
+Bicycle = true
+Weather = Rain,100
+MapPosition = 0,17,6
+SnapEdges = true
+BattleBack = Swamp
+MapSize = 1,111
+Flags = ForWebPage
+#-------------------------------
 [076]   # Right Zone
 Name = Right Zone
 ShowArea = true
@@ -528,31 +542,31 @@ Flags = ForWebPage
 [077]   # Poke Center
 Name = Poke Center
 MapPosition = 0,17,5
-SnapEdges = true
+SnapEdges = false
 BattleBack = Indoor
 #-------------------------------
 [079]   # House 2
 Name = House 2
 MapPosition = 0,17,5
-SnapEdges = true
+SnapEdges = false
 BattleBack = Indoor
 #-------------------------------
 [080]   # Big House 1
 Name = Big House 1
 MapPosition = 0,17,5
-SnapEdges = true
+SnapEdges = false
 BattleBack = Indoor
 #-------------------------------
 [081]   # House 3 - Calendula
 Name = House 3 - Calendula
 MapPosition = 0,17,5
-SnapEdges = true
+SnapEdges = false
 BattleBack = Indoor
 #-------------------------------
 [082]   # Boutique
 Name = Boutique
 MapPosition = 0,17,5
-SnapEdges = true
+SnapEdges = false
 BattleBack = Indoor
 #-------------------------------
 [083]   # Main Section
@@ -576,7 +590,7 @@ SnapEdges = true
 [092]   # Cupcake Cafe
 Name = Cupcake Cafe
 MapPosition = 0,17,5
-SnapEdges = true
+SnapEdges = false
 BattleBack = Indoor
 #-------------------------------
 [093]   # Gym - Entrace
@@ -597,3 +611,136 @@ MapPosition = 0,17,5
 SnapEdges = true
 BattleBack = Gym2
 #-------------------------------
+[100]   # City Swamp
+Name = Cite Swamp
+Outdoor = true
+ShowArea = true
+Bicycle = true
+Weather = Rain,100
+MapPosition = 0,17,9
+SnapEdges = true
+BattleBack = Swamp
+MapSize = 1,1
+Flags = ForWebPage
+#-------------------------------
+[106]   # Interlude Swamp
+Name = Thorny Area
+Outdoor = true
+ShowArea = true
+Bicycle = true
+Weather = Rain,100
+MapPosition = 0,15,9
+SnapEdges = true
+BattleBack = Swamp
+MapSize = 2,11
+Flags = ForWebPage
+#-------------------------------
+[107]   # Route 8
+Name = Route 8
+Outdoor = true
+ShowArea = true
+Bicycle = true
+MapPosition = 0,18,9
+SnapEdges = true
+BattleBack = Swamp
+MapSize = 1,1111
+Flags = ForWebPage
+#-------------------------------
+[108]   # Gloaming City
+Name = City X
+Outdoor = true
+ShowArea = true
+Bicycle = true
+MapPosition = 0,18,11
+SnapEdges = true
+Flags = ForWebPage
+#-------------------------------
+[117]   # Route 9
+Name = Route 9
+Outdoor = true
+ShowArea = true
+Bicycle = true
+MapPosition = 0,16,13
+SnapEdges = true
+MapSize = 2,11
+Flags = ForWebPage
+#-------------------------------
+[118]   # Route 10
+Name = Route 10
+Outdoor = true
+ShowArea = true
+Bicycle = true
+MapPosition = 0,18,15
+SnapEdges = true
+MapSize = 1,111
+Flags = ForWebPage
+#-------------------------------
+[119]   # Moonrise Beach
+Name = Moonrise Beach
+Outdoor = true
+ShowArea = true
+Bicycle = true
+SnapEdges = true
+Flags = ForWebPage
+#-------------------------------
+[120]   # Soltice City
+Name = Solstice City
+Outdoor = true
+ShowArea = true
+Bicycle = true
+SnapEdges = true
+Flags = ForWebPage
+#-------------------------------
+[121]   # Laboratory
+Name = Laboratory
+MapPosition = 0,15,9
+SnapEdges = true
+BattleBack = Swamp
+#-------------------------------
+[126]   # Route 11
+Name = Route 11
+Outdoor = true
+ShowArea = true
+Bicycle = true
+SnapEdges = true
+Flags = ForWebPage
+#-------------------------------
+[127]   # Aurora City
+Name = Aurora City
+Outdoor = true
+ShowArea = true
+Bicycle = true
+SnapEdges = true
+Flags = ForWebPage
+#-------------------------------
+[128]   # Beach - Bottom
+Name = Afterglow Cave
+Outdoor = true
+ShowArea = true
+Bicycle = true
+SnapEdges = true
+Flags = ForWebPage
+#-------------------------------
+[129]   # Afterglow Mountain
+Name = Afterglow Mountain
+Outdoor = true
+ShowArea = true
+Bicycle = true
+SnapEdges = true
+Flags = ForWebPage
+#-------------------------------
+[131]   # Beach - Right
+Name = Beach
+Outdoor = true
+ShowArea = true
+Bicycle = true
+SnapEdges = true
+Flags = ForWebPage
+#-------------------------------
+[132]   # Hidden Ice Zone
+Name = Hidden Ice Zone
+Outdoor = true
+ShowArea = true
+Bicycle = true
+SnapEdges = true
+Flags = ForWebPage

@@ -1,0 +1,64 @@
+#-------------------------------
+[CLERK_F,Sofia]
+LoseText = Well... Back to work...
+StartText = I came across this little friend after throwing a berry in the rubbish!
+Pokemon = SORROWOOF,6
+    AbilityIndex = 0
+    Nature = ADAMANT
+    EV = 0,252,0,0,0,252
+    Happiness = 255
+    Ball = POKEBALL
+    Moves_hard = THUNDERFANG,FIREFANG
+    Moves_absolution = THUNDERFANG,PSYCHICFANGS,ICEFANG,FIREFANG
+    Item_absolution = FIERCETEETH
+    AbilityIndex_easy = 0
+    AbilityIndex_normal = 0
+    AbilityIndex_hard = 1
+    AbilityIndex_absolution = 1
+Pokemon = RALTS,7
+    AbilityIndex = 0
+    EV = 0,0,0,252,0,252
+    Happiness = 255
+    Ball = POKEBALL
+    Moves_hard = CONFUSION,DRAININGKISS,CHARGEBEAM,MAGICALLEAF
+    Moves_absolution = DRAININGKISS,MAGICALLEAF,PSYSHOCK,SHADOWBALL
+    Item_hard = LEFTOVERS
+    Item_absolution = LEFTOVERS
+    AbilityIndex_easy = 0
+    AbilityIndex_normal = 0
+    AbilityIndex_hard = 1
+    AbilityIndex_absolution = 1
+#-------------------------------
+[CYCLIST_F2,Maria]
+LoseText = I'd better stick to my bike.
+StartText = A thousand apologies for that! Anyway, let's battle.
+Pokemon = PIDOVE,6
+    IV = 31,31,31,31,31,31
+    EV = 0,252,0,0,0,252
+Pokemon = BUNNELBY,7
+    IV = 31,31,31,31,31,31
+    EV = 0,252,0,0,0,252
+#-------------------------------
+[BUGCATCHER,Alturo]
+LoseText = Someday I'll show you what the bug guys are capable of!
+StartText = Don't underestimate me for being a bug hunter!
+Pokemon = LEDYBA,7
+    IV = 31,31,31,31,31,31
+    EV = 0,252,0,0,0,252
+Pokemon = WOOLARVA,7
+    IV = 31,31,31,31,31,31
+    EV = 0,252,0,0,0,252
+Pokemon = BLIPBUG,8
+    AbilityIndex = 0
+    Nature = MODEST
+    EV = 0,0,0,252,0,252
+    Happiness = 255
+    Ball = POKEBALL
+    Moves_hard = STRUGGLEBUG,INFESTATION,STICKYWEB,SUPERSONIC
+    Moves_absolution = STRUGGLEBUG,INFESTATION,STICKYWEB,SUPERSONIC
+    Item_hard = WISEGLASSES
+    Item_absolution = WISEGLASSES
+    AbilityIndex_easy = 0
+    AbilityIndex_normal = 0
+    AbilityIndex_hard = 2
+    AbilityIndex_absolution = 2
