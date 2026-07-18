@@ -48,6 +48,9 @@ NOT_ABLE_TO_SHOW_FAKEMONS = %w[
   ABYSSALIGATR
   TANATOISE
   FAGOCICLUS
+  CAPILLEAF
+  XYLEMON
+  MABBIT
 ]
 
 def parse_level_up_moves(value)
