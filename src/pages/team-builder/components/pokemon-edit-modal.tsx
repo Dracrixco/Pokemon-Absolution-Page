@@ -182,10 +182,7 @@ export const PokemonEditorModal: React.FC<PokemonEditorModalProps> = ({
       // Aplicar cambio a todas las dificultades en cascada
       difficultiesToUpdate.forEach((difficulty) => {
         const difficultyKey = `moves_${difficulty}` as
-          | "moves_easy"
-          | "moves_normal"
-          | "moves_hard"
-          | "moves_absolution";
+          "moves_easy" | "moves_normal" | "moves_hard" | "moves_absolution";
         const currentMoves = [...(updated[difficultyKey] as string[])];
 
         // Asegurar que siempre tengamos 4 slots
@@ -245,10 +242,7 @@ export const PokemonEditorModal: React.FC<PokemonEditorModalProps> = ({
       // Aplicar cambio a todas las dificultades en cascada
       difficultiesToUpdate.forEach((difficulty) => {
         const itemKey = `item_${difficulty}` as
-          | "item_easy"
-          | "item_normal"
-          | "item_hard"
-          | "item_absolution";
+          "item_easy" | "item_normal" | "item_hard" | "item_absolution";
         updated[itemKey] = item;
       });
 
