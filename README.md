@@ -90,13 +90,23 @@ Tests cover PBS parsing, inherited forms, every excluded species, final map/enco
 
 ## Deployment
 
-The root `Dockerfile` builds and serves `apps/web/dist` on port 4173:
+`apps/web/Dockerfile` builds and serves `apps/web/dist` on port 4173. Build from the monorepo root:
 
 ```sh
-docker build --build-arg VITE_BACKEND_URL=https://your-api.example/api -t absolution-web .
+docker build -f apps/web/Dockerfile --build-arg VITE_BACKEND_URL=https://your-api.example/api -t absolution-web .
 ```
 
 Without a build argument, `/api` is used; configure your reverse proxy to forward it to the API. The static container itself does not proxy API requests.
+
+For Dokploy, create separate website and API applications pointing to this repository. Select the Dockerfile build type and keep the source build path at the repository root for both:
+
+| Setting | Website | API |
+| ------- | ------- | --- |
+| Dockerfile path | `apps/web/Dockerfile` | `apps/server/Dockerfile` |
+| Docker context path | `.` | `.` |
+| Domain container port | `4173` | `4000` |
+
+Both Dockerfiles need the repository root as their build context to access the workspace manifests and shared packages. Set the website's `VITE_BACKEND_URL` build argument to your public API URL including `/api`, or configure reverse-proxy routing for `/api`. Mount a persistent volume at `/data` for the API.
 
 Build the API **from the monorepo root**:
 
