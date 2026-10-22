@@ -21,8 +21,8 @@ export const ItemDetailPage: React.FC = () => {
 
   if (!item) {
     return (
-      <div className="min-h-screen bg-gray-100 flex items-center justify-center">
-        <div className="text-center">
+      <div className="flex-1 flex items-center justify-center">
+        <div className="text-center rounded-xl bg-white p-8">
           <Package className="mx-auto mb-4 text-gray-300" size={64} />
           <h1 className="text-2xl font-bold text-gray-800 mb-4">
             Item not found
@@ -74,7 +74,7 @@ export const ItemDetailPage: React.FC = () => {
     .slice(0, 8);
 
   return (
-    <div className="min-h-screen bg-gray-100">
+    <div className="flex-1">
       {/* Header */}
       <div className="bg-white shadow-sm border-b">
         <div className="max-w-7xl mx-auto px-4 py-4">

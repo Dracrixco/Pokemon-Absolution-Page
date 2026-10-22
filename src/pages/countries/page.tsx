@@ -143,7 +143,7 @@ export const CountryDownloads = () => {
 
   if (loading) {
     return (
-      <div className="p-4">
+      <div className="m-4 rounded-xl bg-white p-4">
         <h2 className="text-2xl font-bold mb-4">📊 Downloads by Country</h2>
         <div className="flex flex-col items-center justify-center py-12">
           <div className="animate-spin rounded-full h-12 w-12 border-b-2 border-blue-500 mb-4"></div>
@@ -155,7 +155,7 @@ export const CountryDownloads = () => {
 
   if (error || !data) {
     return (
-      <div className="p-4">
+      <div className="m-4 rounded-xl bg-white p-4">
         <h2 className="text-2xl font-bold mb-4">📊 Downloads by Country</h2>
         <div className="flex flex-col items-center justify-center py-12">
           <div className="text-red-500 text-4xl mb-4">⚠️</div>
@@ -172,7 +172,7 @@ export const CountryDownloads = () => {
   const total = sorted.reduce((acc, [, value]) => acc + value, 0);
 
   return (
-    <div className="overflow-x-auto p-4">
+    <div className="m-4 overflow-x-auto rounded-xl bg-white p-4">
       <h2 className="text-2xl font-bold mb-4">📊 Downloads by Country</h2>
       <table className="min-w-full border border-gray-300 rounded-md">
         <thead className="bg-gray-100">

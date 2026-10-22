@@ -55,7 +55,7 @@ export const FakemonDetailPage = () => {
 
   if (!fakemon) {
     return (
-      <div className="min-h-screen flex items-center justify-center bg-linear-to-br from-purple-900 via-purple-800 to-indigo-900">
+      <div className="flex-1 flex items-center justify-center">
         <div className="text-center">
           <h1 className="text-3xl font-bold text-white mb-4">
             Fakemon not found
@@ -79,7 +79,7 @@ export const FakemonDetailPage = () => {
   );
 
   return (
-    <div className="min-h-screen bg-linear-to-br from-purple-900 via-purple-800 to-indigo-900">
+    <div className="flex-1">
       <div className="container mx-auto px-4 py-8">
         {/* Back Button */}
         <Link

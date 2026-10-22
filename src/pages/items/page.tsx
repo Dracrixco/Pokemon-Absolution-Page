@@ -195,14 +195,14 @@ export const ItemsPage: React.FC = () => {
   };
 
   return (
-    <div className="min-h-screen bg-gray-100 p-4">
+    <div className="flex-1 p-4">
       <div className="max-w-7xl mx-auto">
         {/* Header */}
         <div className="mb-8 text-center">
-          <h1 className="text-4xl font-bold text-gray-800 mb-4">
+          <h1 className="text-4xl font-bold text-white mb-4">
             Items Database
           </h1>
-          <p className="text-lg text-gray-600">
+          <p className="text-lg text-purple-200">
             Explore all {items.length} items available in Pokémon Absolution
             {(selectedPocket !== "all" ||
               selectedSuffix !== "all" ||

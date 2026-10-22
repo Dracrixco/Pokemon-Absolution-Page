@@ -92,7 +92,7 @@ export const FakemonsList = () => {
   };
 
   return (
-    <div className="min-h-screen bg-linear-to-br from-purple-900 via-purple-800 to-indigo-900">
+    <div className="flex-1">
       {/* Hero Section */}
       <section className="py-16 px-4">
         <div className="container mx-auto text-center">

@@ -73,7 +73,7 @@ export function UpdatesPage() {
 
   if (initialLoading) {
     return (
-      <div className="min-h-screen bg-linear-to-br from-purple-900 via-purple-800 to-indigo-900 flex items-center justify-center">
+      <div className="flex-1 flex items-center justify-center">
         <div className="text-center">
           <Loader2 className="h-12 w-12 animate-spin text-purple-400 mx-auto mb-4" />
           <p className="text-purple-200 text-lg">Loading updates...</p>
@@ -84,7 +84,7 @@ export function UpdatesPage() {
 
   if (error && updates.length === 0) {
     return (
-      <div className="min-h-screen bg-linear-to-br from-purple-900 via-purple-800 to-indigo-900 flex items-center justify-center">
+      <div className="flex-1 flex items-center justify-center">
         <div className="text-center">
           <p className="text-red-400 text-lg mb-4">{error}</p>
           <button
@@ -101,7 +101,7 @@ export function UpdatesPage() {
   const latestUpdate = updates[0];
 
   return (
-    <div className="min-h-screen bg-linear-to-br from-purple-900 via-purple-800 to-indigo-900">
+    <div className="flex-1">
       {/* Hero Section */}
       <section className="py-16 px-4">
         <div className="container mx-auto text-center">

@@ -19,7 +19,7 @@ export default function FormDetailPage() {
 
   if (!form) {
     return (
-      <div className="min-h-screen bg-linear-to-br from-purple-900 via-blue-900 to-indigo-900 p-8 flex items-center justify-center">
+      <div className="flex-1 p-8 flex items-center justify-center">
         <div className="text-center">
           <h1 className="text-4xl font-bold text-white mb-4">Form Not Found</h1>
           <button
@@ -37,7 +37,7 @@ export default function FormDetailPage() {
   const maxStat = Math.max(...Object.values(form.stats));
 
   return (
-    <div className="min-h-screen bg-linear-to-br from-purple-900 via-blue-900 to-indigo-900 p-8">
+    <div className="flex-1 p-8">
       <div className="max-w-6xl mx-auto">
         {/* Back Button */}
         <button

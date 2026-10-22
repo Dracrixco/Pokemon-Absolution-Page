@@ -160,9 +160,9 @@ export const TeamBuilder = () => {
   };
 
   return (
-    <div className="min-h-screen bg-gray-100 p-4">
+    <div className="flex-1 p-4">
       <div className="max-w-7xl mx-auto">
-        <h1 className="text-4xl font-bold text-center mb-8 text-gray-800">
+        <h1 className="text-4xl font-bold text-center mb-8 text-white">
           Team Builder - Fakemon
         </h1>
 

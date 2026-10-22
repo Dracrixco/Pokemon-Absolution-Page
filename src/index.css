@@ -47,6 +47,20 @@
 /* Smooth scrolling */
 html {
   scroll-behavior: smooth;
+  scrollbar-gutter: stable;
+  background-color: var(--color-purple-900);
+}
+
+body {
+  min-height: 100dvh;
+  background-color: var(--color-purple-900);
+  background-image: linear-gradient(
+    to bottom right,
+    var(--color-purple-900),
+    var(--color-purple-800),
+    var(--color-indigo-900)
+  );
+  background-attachment: fixed;
 }
 
 /* Custom gradient text animation */
