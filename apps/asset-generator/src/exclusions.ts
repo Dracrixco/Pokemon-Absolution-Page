@@ -41,6 +41,8 @@ export const NOT_ABLE_TO_SHOW_FAKEMONS = [
   "ABYSSALIGATR",
   "TANATOISE",
   "FAGOCICLUS",
+  "FLAMOUR",
+  "FLAMOURE",
 ] as const;
 
 const hidden = new Set<string>(NOT_ABLE_TO_SHOW_FAKEMONS);

@@ -260,6 +260,85 @@ test("complete project export writes data/assets, removes only managed stale ass
   }
 });
 
+test("data-only export needs only PBS and preserves existing images and their manifest", async () => {
+  const temporary = await fs.mkdtemp(
+    path.join(os.tmpdir(), "absolution-export-"),
+  );
+  try {
+    const sourcePath = path.join(temporary, "game");
+    const outputPath = path.join(temporary, "web");
+    await fs.mkdir(path.join(sourcePath, "PBS"), { recursive: true });
+    await fs.mkdir(outputPath);
+    for (const [name, content] of Object.entries({
+      "pokemon.txt": "[PIKACHU]\nName = Pikachu",
+      "moves.txt": "[TACKLE]\nCategory = Physical",
+      "items.txt": "[POTION]\nName = Potion",
+      "abilities.txt": "[STATIC]\nName = Static",
+    }))
+      await fs.writeFile(path.join(sourcePath, "PBS", name), content);
+    await fs.writeFile(
+      path.join(outputPath, "package.json"),
+      JSON.stringify({ name: "@absolution/web" }),
+    );
+    const source = new DiskDirectory(sourcePath).handle();
+    const output = new DiskDirectory(outputPath).handle();
+    await assert.rejects(inspectProject(source), /Missing folders/);
+    const plan = await inspectProject(source, "data-only");
+    assert.deepEqual(plan.assets, []);
+    const messages: string[] = [];
+    await exportProject(plan, output, (message) => messages.push(message));
+    assert.deepEqual((await fs.readdir(outputPath)).sort(), [
+      "package.json",
+      "src",
+    ]);
+    for (const [file, content] of Object.entries(plan.files))
+      assert.equal(
+        await fs.readFile(path.join(outputPath, file), "utf8"),
+        content,
+      );
+    assert.match(messages.at(-1)!, /10 data files/);
+
+    const imageFolder = path.join(outputPath, "public/Pokemon/Front");
+    await fs.mkdir(imageFolder, { recursive: true });
+    // Include a stale managed image and a hidden sprite: data-only must not
+    // sync, delete, or rewrite either one.
+    for (const name of ["OLD.png", "BUSHIERA.png"])
+      await fs.writeFile(path.join(imageFolder, name), "existing image");
+    const manifest = JSON.stringify({
+      assets: ["public/Pokemon/Front/OLD.png"],
+    });
+    await fs.writeFile(path.join(outputPath, ".asset-studio.json"), manifest);
+    await fs.writeFile(
+      path.join(outputPath, "src/data/pokemon.ts"),
+      "old data",
+    );
+    await exportProject(plan, output, () => {});
+    for (const name of ["OLD.png", "BUSHIERA.png"])
+      assert.equal(
+        await fs.readFile(path.join(imageFolder, name), "utf8"),
+        "existing image",
+      );
+    assert.equal(
+      await fs.readFile(path.join(outputPath, ".asset-studio.json"), "utf8"),
+      manifest,
+    );
+    assert.equal(
+      await fs.readFile(path.join(outputPath, "src/data/pokemon.ts"), "utf8"),
+      plan.files["src/data/pokemon.ts"],
+    );
+    assert.deepEqual(await fs.readdir(path.join(outputPath, "public")), [
+      "Pokemon",
+    ]);
+  } finally {
+    assert.equal(
+      path.dirname(path.resolve(temporary)),
+      path.resolve(os.tmpdir()),
+    );
+    assert.ok(path.basename(temporary).startsWith("absolution-export-"));
+    await fs.rm(temporary, { recursive: true, force: true });
+  }
+});
+
 test("clean output needs only the website package and rejects unrelated folders without writing", async () => {
   const temporary = await fs.mkdtemp(
     path.join(os.tmpdir(), "absolution-export-"),

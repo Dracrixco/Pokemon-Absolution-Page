@@ -199,9 +199,7 @@ export const ItemsPage: React.FC = () => {
       <div className="max-w-7xl mx-auto">
         {/* Header */}
         <div className="mb-8 text-center">
-          <h1 className="text-4xl font-bold text-white mb-4">
-            Items Database
-          </h1>
+          <h1 className="text-4xl font-bold text-white mb-4">Items Database</h1>
           <p className="text-lg text-purple-200">
             Explore all {items.length} items available in Pokémon Absolution
             {(selectedPocket !== "all" ||

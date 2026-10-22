@@ -3,6 +3,7 @@ import type { GeneratedData } from "./generate.ts";
 import { isHiddenSprite } from "./exclusions.ts";
 
 export type Directory = FileSystemDirectoryHandle;
+export type GenerationMode = "all" | "data-only";
 export const REQUIRED_FOLDERS = [
   "PBS",
   "Graphics/Pokemon/Front",
@@ -11,6 +12,9 @@ export const REQUIRED_FOLDERS = [
   "Graphics/Trainers",
   "Exported Maps",
 ] as const;
+
+export const requiredFolders = (mode: GenerationMode) =>
+  mode === "data-only" ? ["PBS"] : REQUIRED_FOLDERS;
 
 export const OUTPUT_FOLDERS = [
   "src/data",
@@ -54,6 +58,7 @@ export interface Asset {
   source: FileSystemFileHandle;
 }
 export interface Plan extends GeneratedData {
+  mode: GenerationMode;
   assets: Asset[];
   source: Directory;
 }
@@ -79,10 +84,13 @@ export function mapDestinations(path: string): string[] {
   ];
 }
 
-export async function inspectProject(source: Directory): Promise<Plan> {
+export async function inspectProject(
+  source: Directory,
+  mode: GenerationMode = "all",
+): Promise<Plan> {
   const folders: Directory[] = [];
   const missing: string[] = [];
-  for (const path of REQUIRED_FOLDERS) {
+  for (const path of requiredFolders(mode)) {
     try {
       folders.push(await directory(source, path));
     } catch (error) {
@@ -102,6 +110,7 @@ export async function inspectProject(source: Directory): Promise<Plan> {
     }
   }
   const data = generateData(pbs);
+  if (mode === "data-only") return { ...data, assets: [], source, mode };
   const assets = new Map<string, Asset>();
   for (const [index, output] of [
     "Pokemon/Front",
@@ -126,7 +135,7 @@ export async function inspectProject(source: Directory): Promise<Plan> {
       }
     }
   }
-  return { ...data, assets: [...assets.values()], source };
+  return { ...data, assets: [...assets.values()], source, mode };
 }
 
 export async function validateOutput(output: Directory, source?: Directory) {
@@ -198,6 +207,16 @@ export async function exportProject(
   progress: (message: string) => void,
 ) {
   await validateOutput(output, plan.source);
+  if (plan.mode === "data-only") {
+    const total = Object.keys(plan.files).length;
+    let done = 0;
+    for (const [path, content] of Object.entries(plan.files)) {
+      await write(output, path, content);
+      progress(`Writing ${++done} / ${total} · ${path}`);
+    }
+    progress(`Complete · ${total} data files generated in ${output.name}`);
+    return;
+  }
   let previous: string[] = [];
   try {
     const json: unknown = JSON.parse(

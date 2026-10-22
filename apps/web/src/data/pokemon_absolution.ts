@@ -3,78 +3,73 @@ import type { Fakemon } from "@absolution/shared-types";
 
 export const fakemons: Fakemon[] = [
   {
-    "id": "BEHBIDAR",
-    "name": "Behbidar",
-    "types": [
-      "GRASS"
-    ],
-    "sprite": "/Pokemon/Front/BEHBIDAR.png",
-    "backSprite": "/Pokemon/Back/BEHBIDAR.png",
-    "description": "It tends to try to look intimidating to keep Pokemon away, but the truth is that it is a super calm Pokemon that tends to avoid conflict.",
-    "stats": {
-      "hp": 50,
-      "attack": 58,
-      "defense": 60,
-      "speed": 33,
-      "spAttack": 44,
-      "spDefense": 62
+    id: "BEHBIDAR",
+    name: "Behbidar",
+    types: ["GRASS"],
+    sprite: "/Pokemon/Front/BEHBIDAR.png",
+    backSprite: "/Pokemon/Back/BEHBIDAR.png",
+    description:
+      "It tends to try to look intimidating to keep Pokemon away, but the truth is that it is a super calm Pokemon that tends to avoid conflict.",
+    stats: {
+      hp: 50,
+      attack: 58,
+      defense: 60,
+      speed: 33,
+      spAttack: 44,
+      spDefense: 62,
     },
-    "height": "0.4",
-    "weight": "50.0",
-    "abilities": [
-      "OVERGROW"
+    height: "0.4",
+    weight: "50.0",
+    abilities: ["OVERGROW"],
+    hiddenAbilities: ["JUNGLEPROTECTOR"],
+    category: "Mountain Reptile",
+    moves: [
+      {
+        level: 1,
+        move: "TACKLE",
+      },
+      {
+        level: 4,
+        move: "BLOCK",
+      },
+      {
+        level: 6,
+        move: "BRANCHPOKE",
+      },
+      {
+        level: 9,
+        move: "SMACKDOWN",
+      },
+      {
+        level: 11,
+        move: "PROTOSHIELD",
+      },
+      {
+        level: 12,
+        move: "MAGNITUDE",
+      },
+      {
+        level: 14,
+        move: "GRASSYGLIDE",
+      },
+      {
+        level: 18,
+        move: "GRASSYTERRAIN",
+      },
+      {
+        level: 20,
+        move: "ANCIENTPOWER",
+      },
+      {
+        level: 23,
+        move: "IRONDEFENSE",
+      },
+      {
+        level: 25,
+        move: "DIG",
+      },
     ],
-    "hiddenAbilities": [
-      "JUNGLEPROTECTOR"
-    ],
-    "category": "Mountain Reptile",
-    "moves": [
-      {
-        "level": 1,
-        "move": "TACKLE"
-      },
-      {
-        "level": 4,
-        "move": "BLOCK"
-      },
-      {
-        "level": 6,
-        "move": "BRANCHPOKE"
-      },
-      {
-        "level": 9,
-        "move": "SMACKDOWN"
-      },
-      {
-        "level": 11,
-        "move": "PROTOSHIELD"
-      },
-      {
-        "level": 12,
-        "move": "MAGNITUDE"
-      },
-      {
-        "level": 14,
-        "move": "GRASSYGLIDE"
-      },
-      {
-        "level": 18,
-        "move": "GRASSYTERRAIN"
-      },
-      {
-        "level": 20,
-        "move": "ANCIENTPOWER"
-      },
-      {
-        "level": 23,
-        "move": "IRONDEFENSE"
-      },
-      {
-        "level": 25,
-        "move": "DIG"
-      }
-    ],
-    "tutorMoves": [
+    tutorMoves: [
       "FLOWERFANG",
       "ACIDSPRAY",
       "ATTRACT",
@@ -141,9 +136,9 @@ export const fakemons: Fakemon[] = [
       "WORKUP",
       "WORRYSEED",
       "ROCKTOMB",
-      "FALSESWIPE"
+      "FALSESWIPE",
     ],
-    "eggMoves": [
+    eggMoves: [
       "AMNESIA",
       "CHARM",
       "CURSE",
@@ -171,123 +166,118 @@ export const fakemons: Fakemon[] = [
       "STONEEDGE",
       "HAMMERARM",
       "ROCKPOLISH",
-      "STEALTHROCK"
+      "STEALTHROCK",
     ],
-    "suffix": "absolution",
-    "evolution": [
+    suffix: "absolution",
+    evolution: [
       {
-        "to": "BEHCEDRO",
-        "method": "Level",
-        "value": "16"
-      }
+        to: "BEHCEDRO",
+        method: "Level",
+        value: "16",
+      },
     ],
-    "color": "Red"
+    color: "Red",
   },
   {
-    "id": "BEHCEDRO",
-    "name": "Behcedro",
-    "types": [
-      "GRASS"
-    ],
-    "sprite": "/Pokemon/Front/BEHCEDRO.png",
-    "backSprite": "/Pokemon/Back/BEHCEDRO.png",
-    "description": "They tend to avoid groups with other Pokemon that are not of the same species, they avoid any type of conflict but will not hesitate to defend themselves.",
-    "stats": {
-      "hp": 68,
-      "attack": 77,
-      "defense": 78,
-      "speed": 52,
-      "spAttack": 58,
-      "spDefense": 81
+    id: "BEHCEDRO",
+    name: "Behcedro",
+    types: ["GRASS"],
+    sprite: "/Pokemon/Front/BEHCEDRO.png",
+    backSprite: "/Pokemon/Back/BEHCEDRO.png",
+    description:
+      "They tend to avoid groups with other Pokemon that are not of the same species, they avoid any type of conflict but will not hesitate to defend themselves.",
+    stats: {
+      hp: 68,
+      attack: 77,
+      defense: 78,
+      speed: 52,
+      spAttack: 58,
+      spDefense: 81,
     },
-    "height": "2.1",
-    "weight": "200.0",
-    "abilities": [
-      "OVERGROW"
+    height: "2.1",
+    weight: "200.0",
+    abilities: ["OVERGROW"],
+    hiddenAbilities: ["JUNGLEPROTECTOR"],
+    category: "Mountain Lizard",
+    moves: [
+      {
+        level: 1,
+        move: "TACKLE",
+      },
+      {
+        level: 4,
+        move: "BLOCK",
+      },
+      {
+        level: 6,
+        move: "BRANCHPOKE",
+      },
+      {
+        level: 9,
+        move: "SMACKDOWN",
+      },
+      {
+        level: 11,
+        move: "PROTOSHIELD",
+      },
+      {
+        level: 12,
+        move: "MAGNITUDE",
+      },
+      {
+        level: 14,
+        move: "GRASSYGLIDE",
+      },
+      {
+        level: 18,
+        move: "GRASSYTERRAIN",
+      },
+      {
+        level: 20,
+        move: "ANCIENTPOWER",
+      },
+      {
+        level: 23,
+        move: "IRONDEFENSE",
+      },
+      {
+        level: 25,
+        move: "DIG",
+      },
+      {
+        level: 27,
+        move: "HORNLEECH",
+      },
+      {
+        level: 29,
+        move: "INGRAIN",
+      },
+      {
+        level: 32,
+        move: "BELLYDRUM",
+      },
+      {
+        level: 34,
+        move: "WILDPUNCH",
+      },
+      {
+        level: 36,
+        move: "SEEDBOMB",
+      },
+      {
+        level: 39,
+        move: "SPIKES",
+      },
+      {
+        level: 41,
+        move: "EARTHQUAKE",
+      },
+      {
+        level: 43,
+        move: "STOMP",
+      },
     ],
-    "hiddenAbilities": [
-      "JUNGLEPROTECTOR"
-    ],
-    "category": "Mountain Lizard",
-    "moves": [
-      {
-        "level": 1,
-        "move": "TACKLE"
-      },
-      {
-        "level": 4,
-        "move": "BLOCK"
-      },
-      {
-        "level": 6,
-        "move": "BRANCHPOKE"
-      },
-      {
-        "level": 9,
-        "move": "SMACKDOWN"
-      },
-      {
-        "level": 11,
-        "move": "PROTOSHIELD"
-      },
-      {
-        "level": 12,
-        "move": "MAGNITUDE"
-      },
-      {
-        "level": 14,
-        "move": "GRASSYGLIDE"
-      },
-      {
-        "level": 18,
-        "move": "GRASSYTERRAIN"
-      },
-      {
-        "level": 20,
-        "move": "ANCIENTPOWER"
-      },
-      {
-        "level": 23,
-        "move": "IRONDEFENSE"
-      },
-      {
-        "level": 25,
-        "move": "DIG"
-      },
-      {
-        "level": 27,
-        "move": "HORNLEECH"
-      },
-      {
-        "level": 29,
-        "move": "INGRAIN"
-      },
-      {
-        "level": 32,
-        "move": "BELLYDRUM"
-      },
-      {
-        "level": 34,
-        "move": "WILDPUNCH"
-      },
-      {
-        "level": 36,
-        "move": "SEEDBOMB"
-      },
-      {
-        "level": 39,
-        "move": "SPIKES"
-      },
-      {
-        "level": 41,
-        "move": "EARTHQUAKE"
-      },
-      {
-        "level": 43,
-        "move": "STOMP"
-      }
-    ],
-    "tutorMoves": [
+    tutorMoves: [
       "FLOWERFANG",
       "ACIDSPRAY",
       "ATTRACT",
@@ -374,153 +364,147 @@ export const fakemons: Fakemon[] = [
       "STONEEDGE",
       "HAMMERARM",
       "ROCKPOLISH",
-      "STEALTHROCK"
+      "STEALTHROCK",
     ],
-    "eggMoves": [],
-    "suffix": "absolution",
-    "evolution": [
+    eggMoves: [],
+    suffix: "absolution",
+    evolution: [
       {
-        "to": "BEHDAREX",
-        "method": "Level",
-        "value": "36"
-      }
+        to: "BEHDAREX",
+        method: "Level",
+        value: "36",
+      },
     ],
-    "color": "Red"
+    color: "Red",
   },
   {
-    "id": "BEHDAREX",
-    "name": "Behdarex",
-    "types": [
-      "GRASS",
-      "GROUND"
-    ],
-    "sprite": "/Pokemon/Front/BEHDAREX.png",
-    "backSprite": "/Pokemon/Back/BEHDAREX.png",
-    "description": "It takes advantage of its enormous size and appearance to scare away Pokemon, despite this, it is usually a very quiet Pokemon.",
-    "stats": {
-      "hp": 89,
-      "attack": 101,
-      "defense": 102,
-      "speed": 68,
-      "spAttack": 75,
-      "spDefense": 106
+    id: "BEHDAREX",
+    name: "Behdarex",
+    types: ["GRASS", "GROUND"],
+    sprite: "/Pokemon/Front/BEHDAREX.png",
+    backSprite: "/Pokemon/Back/BEHDAREX.png",
+    description:
+      "It takes advantage of its enormous size and appearance to scare away Pokemon, despite this, it is usually a very quiet Pokemon.",
+    stats: {
+      hp: 89,
+      attack: 101,
+      defense: 102,
+      speed: 68,
+      spAttack: 75,
+      spDefense: 106,
     },
-    "height": "5.0",
-    "weight": "300.0",
-    "abilities": [
-      "OVERGROW"
+    height: "5.0",
+    weight: "300.0",
+    abilities: ["OVERGROW"],
+    hiddenAbilities: ["JUNGLEPROTECTOR"],
+    category: "Big Mountain Lizard",
+    moves: [
+      {
+        level: 1,
+        move: "TACKLE",
+      },
+      {
+        level: 4,
+        move: "BLOCK",
+      },
+      {
+        level: 6,
+        move: "BRANCHPOKE",
+      },
+      {
+        level: 9,
+        move: "SMACKDOWN",
+      },
+      {
+        level: 11,
+        move: "PROTOSHIELD",
+      },
+      {
+        level: 12,
+        move: "MAGNITUDE",
+      },
+      {
+        level: 14,
+        move: "GRASSYGLIDE",
+      },
+      {
+        level: 18,
+        move: "GRASSYTERRAIN",
+      },
+      {
+        level: 20,
+        move: "ANCIENTPOWER",
+      },
+      {
+        level: 23,
+        move: "IRONDEFENSE",
+      },
+      {
+        level: 25,
+        move: "DIG",
+      },
+      {
+        level: 27,
+        move: "HORNLEECH",
+      },
+      {
+        level: 29,
+        move: "INGRAIN",
+      },
+      {
+        level: 32,
+        move: "BELLYDRUM",
+      },
+      {
+        level: 34,
+        move: "WILDPUNCH",
+      },
+      {
+        level: 36,
+        move: "SEEDBOMB",
+      },
+      {
+        level: 39,
+        move: "SPIKES",
+      },
+      {
+        level: 41,
+        move: "EARTHQUAKE",
+      },
+      {
+        level: 43,
+        move: "STOMP",
+      },
+      {
+        level: 46,
+        move: "WOODHAMMER",
+      },
+      {
+        level: 48,
+        move: "LEECHSEED",
+      },
+      {
+        level: 50,
+        move: "DOUBLEEDGE",
+      },
+      {
+        level: 53,
+        move: "STONEEDGE",
+      },
+      {
+        level: 55,
+        move: "HAMMERARM",
+      },
+      {
+        level: 57,
+        move: "ROCKPOLISH",
+      },
+      {
+        level: 59,
+        move: "STEALTHROCK",
+      },
     ],
-    "hiddenAbilities": [
-      "JUNGLEPROTECTOR"
-    ],
-    "category": "Big Mountain Lizard",
-    "moves": [
-      {
-        "level": 1,
-        "move": "TACKLE"
-      },
-      {
-        "level": 4,
-        "move": "BLOCK"
-      },
-      {
-        "level": 6,
-        "move": "BRANCHPOKE"
-      },
-      {
-        "level": 9,
-        "move": "SMACKDOWN"
-      },
-      {
-        "level": 11,
-        "move": "PROTOSHIELD"
-      },
-      {
-        "level": 12,
-        "move": "MAGNITUDE"
-      },
-      {
-        "level": 14,
-        "move": "GRASSYGLIDE"
-      },
-      {
-        "level": 18,
-        "move": "GRASSYTERRAIN"
-      },
-      {
-        "level": 20,
-        "move": "ANCIENTPOWER"
-      },
-      {
-        "level": 23,
-        "move": "IRONDEFENSE"
-      },
-      {
-        "level": 25,
-        "move": "DIG"
-      },
-      {
-        "level": 27,
-        "move": "HORNLEECH"
-      },
-      {
-        "level": 29,
-        "move": "INGRAIN"
-      },
-      {
-        "level": 32,
-        "move": "BELLYDRUM"
-      },
-      {
-        "level": 34,
-        "move": "WILDPUNCH"
-      },
-      {
-        "level": 36,
-        "move": "SEEDBOMB"
-      },
-      {
-        "level": 39,
-        "move": "SPIKES"
-      },
-      {
-        "level": 41,
-        "move": "EARTHQUAKE"
-      },
-      {
-        "level": 43,
-        "move": "STOMP"
-      },
-      {
-        "level": 46,
-        "move": "WOODHAMMER"
-      },
-      {
-        "level": 48,
-        "move": "LEECHSEED"
-      },
-      {
-        "level": 50,
-        "move": "DOUBLEEDGE"
-      },
-      {
-        "level": 53,
-        "move": "STONEEDGE"
-      },
-      {
-        "level": 55,
-        "move": "HAMMERARM"
-      },
-      {
-        "level": 57,
-        "move": "ROCKPOLISH"
-      },
-      {
-        "level": 59,
-        "move": "STEALTHROCK"
-      }
-    ],
-    "tutorMoves": [
+    tutorMoves: [
       "FLOWERFANG",
       "ACIDSPRAY",
       "ATTRACT",
@@ -600,82 +584,77 @@ export const fakemons: Fakemon[] = [
       "POWERWHIP",
       "SKULLBASH",
       "SLUDGE",
-      "TOXIC"
+      "TOXIC",
     ],
-    "eggMoves": [],
-    "suffix": "absolution",
-    "evolution": [],
-    "color": "Red"
+    eggMoves: [],
+    suffix: "absolution",
+    evolution: [],
+    color: "Red",
   },
   {
-    "id": "ZISINGE",
-    "name": "Zisinge",
-    "types": [
-      "FIRE"
-    ],
-    "sprite": "/Pokemon/Front/ZISINGE.png",
-    "backSprite": "/Pokemon/Back/ZISINGE.png",
-    "description": "They usually practice all day long to control their flames, and can throw their explosive feathers to defend themselves.",
-    "stats": {
-      "hp": 39,
-      "attack": 48,
-      "defense": 51,
-      "speed": 61,
-      "spAttack": 59,
-      "spDefense": 52
+    id: "ZISINGE",
+    name: "Zisinge",
+    types: ["FIRE"],
+    sprite: "/Pokemon/Front/ZISINGE.png",
+    backSprite: "/Pokemon/Back/ZISINGE.png",
+    description:
+      "They usually practice all day long to control their flames, and can throw their explosive feathers to defend themselves.",
+    stats: {
+      hp: 39,
+      attack: 48,
+      defense: 51,
+      speed: 61,
+      spAttack: 59,
+      spDefense: 52,
     },
-    "height": "0.4",
-    "weight": "2.5",
-    "abilities": [
-      "BLAZE"
+    height: "0.4",
+    weight: "2.5",
+    abilities: ["BLAZE"],
+    hiddenAbilities: ["TOTHELIMIT"],
+    category: "Fire Chick",
+    moves: [
+      {
+        level: 1,
+        move: "SCRATCH",
+      },
+      {
+        level: 2,
+        move: "SANDATTACK",
+      },
+      {
+        level: 8,
+        move: "PECK",
+      },
+      {
+        level: 10,
+        move: "EMBER",
+      },
+      {
+        level: 12,
+        move: "TOUCHTHELIMIT",
+      },
+      {
+        level: 14,
+        move: "EXPLOSIVEFEATHER",
+      },
+      {
+        level: 18,
+        move: "FLAMECHARGE",
+      },
+      {
+        level: 21,
+        move: "DOUBLEKICK",
+      },
+      {
+        level: 24,
+        move: "WHIRLWIND",
+      },
+      {
+        level: 26,
+        move: "INCINERATE",
+      },
     ],
-    "hiddenAbilities": [
-      "TOTHELIMIT"
-    ],
-    "category": "Fire Chick",
-    "moves": [
-      {
-        "level": 1,
-        "move": "SCRATCH"
-      },
-      {
-        "level": 2,
-        "move": "SANDATTACK"
-      },
-      {
-        "level": 8,
-        "move": "PECK"
-      },
-      {
-        "level": 10,
-        "move": "EMBER"
-      },
-      {
-        "level": 12,
-        "move": "TOUCHTHELIMIT"
-      },
-      {
-        "level": 14,
-        "move": "EXPLOSIVEFEATHER"
-      },
-      {
-        "level": 18,
-        "move": "FLAMECHARGE"
-      },
-      {
-        "level": 21,
-        "move": "DOUBLEKICK"
-      },
-      {
-        "level": 24,
-        "move": "WHIRLWIND"
-      },
-      {
-        "level": 26,
-        "move": "INCINERATE"
-      }
-    ],
-    "tutorMoves": [
+    tutorMoves: [
       "PLUCK",
       "ACROBATICS",
       "AERIALACE",
@@ -777,108 +756,103 @@ export const fakemons: Fakemon[] = [
       "WEATHERBALL",
       "WILLOWISP",
       "WORKUP",
-      "FALSESWIPE"
+      "FALSESWIPE",
     ],
-    "eggMoves": [],
-    "suffix": "absolution",
-    "evolution": [
+    eggMoves: [],
+    suffix: "absolution",
+    evolution: [
       {
-        "to": "ZISSUN",
-        "method": "Level",
-        "value": "16"
-      }
+        to: "ZISSUN",
+        method: "Level",
+        value: "16",
+      },
     ],
-    "color": "Red"
+    color: "Red",
   },
   {
-    "id": "ZISSUN",
-    "name": "Zissun",
-    "types": [
-      "FIRE"
-    ],
-    "sprite": "/Pokemon/Front/ZISSUN.png",
-    "backSprite": "/Pokemon/Back/ZISSUN.png",
-    "description": "They face any Pokemon they come across, they have a great control over their explosive feathers, managing to launch them at a high speed.",
-    "stats": {
-      "hp": 55,
-      "attack": 63,
-      "defense": 67,
-      "speed": 82,
-      "spAttack": 79,
-      "spDefense": 68
+    id: "ZISSUN",
+    name: "Zissun",
+    types: ["FIRE"],
+    sprite: "/Pokemon/Front/ZISSUN.png",
+    backSprite: "/Pokemon/Back/ZISSUN.png",
+    description:
+      "They face any Pokemon they come across, they have a great control over their explosive feathers, managing to launch them at a high speed.",
+    stats: {
+      hp: 55,
+      attack: 63,
+      defense: 67,
+      speed: 82,
+      spAttack: 79,
+      spDefense: 68,
     },
-    "height": "1.2",
-    "weight": "100.0",
-    "abilities": [
-      "BLAZE"
+    height: "1.2",
+    weight: "100.0",
+    abilities: ["BLAZE"],
+    hiddenAbilities: ["TOTHELIMIT"],
+    category: "Flaming Bird",
+    moves: [
+      {
+        level: 1,
+        move: "SCRATCH",
+      },
+      {
+        level: 2,
+        move: "SANDATTACK",
+      },
+      {
+        level: 8,
+        move: "PECK",
+      },
+      {
+        level: 10,
+        move: "EMBER",
+      },
+      {
+        level: 12,
+        move: "TOUCHTHELIMIT",
+      },
+      {
+        level: 14,
+        move: "EXPLOSIVEFEATHER",
+      },
+      {
+        level: 18,
+        move: "FLAMECHARGE",
+      },
+      {
+        level: 21,
+        move: "DOUBLEKICK",
+      },
+      {
+        level: 24,
+        move: "WHIRLWIND",
+      },
+      {
+        level: 26,
+        move: "INCINERATE",
+      },
+      {
+        level: 29,
+        move: "WINGATTACK",
+      },
+      {
+        level: 32,
+        move: "DETECT",
+      },
+      {
+        level: 35,
+        move: "SCREECH",
+      },
+      {
+        level: 37,
+        move: "BURNTHELIMIT",
+      },
+      {
+        level: 40,
+        move: "FACADE",
+      },
     ],
-    "hiddenAbilities": [
-      "TOTHELIMIT"
-    ],
-    "category": "Flaming Bird",
-    "moves": [
-      {
-        "level": 1,
-        "move": "SCRATCH"
-      },
-      {
-        "level": 2,
-        "move": "SANDATTACK"
-      },
-      {
-        "level": 8,
-        "move": "PECK"
-      },
-      {
-        "level": 10,
-        "move": "EMBER"
-      },
-      {
-        "level": 12,
-        "move": "TOUCHTHELIMIT"
-      },
-      {
-        "level": 14,
-        "move": "EXPLOSIVEFEATHER"
-      },
-      {
-        "level": 18,
-        "move": "FLAMECHARGE"
-      },
-      {
-        "level": 21,
-        "move": "DOUBLEKICK"
-      },
-      {
-        "level": 24,
-        "move": "WHIRLWIND"
-      },
-      {
-        "level": 26,
-        "move": "INCINERATE"
-      },
-      {
-        "level": 29,
-        "move": "WINGATTACK"
-      },
-      {
-        "level": 32,
-        "move": "DETECT"
-      },
-      {
-        "level": 35,
-        "move": "SCREECH"
-      },
-      {
-        "level": 37,
-        "move": "BURNTHELIMIT"
-      },
-      {
-        "level": 40,
-        "move": "FACADE"
-      }
-    ],
-    "tutorMoves": [
+    tutorMoves: [
       "PLUCK",
       "ACROBATICS",
       "AERIALACE",
@@ -991,153 +965,147 @@ export const fakemons: Fakemon[] = [
       "DOUBLEEDGE",
       "TAILWIND",
       "BRAVEBIRD",
-      "FLAREBLITZ"
+      "FLAREBLITZ",
     ],
-    "eggMoves": [],
-    "suffix": "absolution",
-    "evolution": [
+    eggMoves: [],
+    suffix: "absolution",
+    evolution: [
       {
-        "to": "ZIZZENIT",
-        "method": "Level",
-        "value": "36"
-      }
+        to: "ZIZZENIT",
+        method: "Level",
+        value: "36",
+      },
     ],
-    "color": "Red"
+    color: "Red",
   },
   {
-    "id": "ZIZZENIT",
-    "name": "Zizzenit",
-    "types": [
-      "FIRE",
-      "FLYING"
-    ],
-    "sprite": "/Pokemon/Front/ZIZZENIT.png",
-    "backSprite": "/Pokemon/Back/ZIZZENIT.png",
-    "description": "It flies high in the air looking for Pokemon to face, its fiery flames simulating the sun when it flies.",
-    "stats": {
-      "hp": 70,
-      "attack": 78,
-      "defense": 77,
-      "speed": 119,
-      "spAttack": 123,
-      "spDefense": 75
+    id: "ZIZZENIT",
+    name: "Zizzenit",
+    types: ["FIRE", "FLYING"],
+    sprite: "/Pokemon/Front/ZIZZENIT.png",
+    backSprite: "/Pokemon/Back/ZIZZENIT.png",
+    description:
+      "It flies high in the air looking for Pokemon to face, its fiery flames simulating the sun when it flies.",
+    stats: {
+      hp: 70,
+      attack: 78,
+      defense: 77,
+      speed: 119,
+      spAttack: 123,
+      spDefense: 75,
     },
-    "height": "3.0",
-    "weight": "155.0",
-    "abilities": [
-      "BLAZE"
+    height: "3.0",
+    weight: "155.0",
+    abilities: ["BLAZE"],
+    hiddenAbilities: ["TOTHELIMIT"],
+    category: "Solar Bird",
+    moves: [
+      {
+        level: 1,
+        move: "SCRATCH",
+      },
+      {
+        level: 2,
+        move: "SANDATTACK",
+      },
+      {
+        level: 8,
+        move: "PECK",
+      },
+      {
+        level: 10,
+        move: "EMBER",
+      },
+      {
+        level: 12,
+        move: "TOUCHTHELIMIT",
+      },
+      {
+        level: 14,
+        move: "EXPLOSIVEFEATHER",
+      },
+      {
+        level: 18,
+        move: "FLAMECHARGE",
+      },
+      {
+        level: 21,
+        move: "DOUBLEKICK",
+      },
+      {
+        level: 24,
+        move: "WHIRLWIND",
+      },
+      {
+        level: 26,
+        move: "INCINERATE",
+      },
+      {
+        level: 29,
+        move: "WINGATTACK",
+      },
+      {
+        level: 32,
+        move: "DETECT",
+      },
+      {
+        level: 35,
+        move: "SCREECH",
+      },
+      {
+        level: 37,
+        move: "BURNTHELIMIT",
+      },
+      {
+        level: 40,
+        move: "FACADE",
+      },
+      {
+        level: 43,
+        move: "AIRSLASH",
+      },
+      {
+        level: 45,
+        move: "BLAZEKICK",
+      },
+      {
+        level: 48,
+        move: "FEATHERDANCE",
+      },
+      {
+        level: 51,
+        move: "FLAMETHROWER",
+      },
+      {
+        level: 53,
+        move: "SUPERSONIC",
+      },
+      {
+        level: 56,
+        move: "ROOST",
+      },
+      {
+        level: 59,
+        move: "FIREBLAST",
+      },
+      {
+        level: 61,
+        move: "DOUBLEEDGE",
+      },
+      {
+        level: 64,
+        move: "TAILWIND",
+      },
+      {
+        level: 67,
+        move: "BRAVEBIRD",
+      },
+      {
+        level: 70,
+        move: "FLAREBLITZ",
+      },
     ],
-    "hiddenAbilities": [
-      "TOTHELIMIT"
-    ],
-    "category": "Solar Bird",
-    "moves": [
-      {
-        "level": 1,
-        "move": "SCRATCH"
-      },
-      {
-        "level": 2,
-        "move": "SANDATTACK"
-      },
-      {
-        "level": 8,
-        "move": "PECK"
-      },
-      {
-        "level": 10,
-        "move": "EMBER"
-      },
-      {
-        "level": 12,
-        "move": "TOUCHTHELIMIT"
-      },
-      {
-        "level": 14,
-        "move": "EXPLOSIVEFEATHER"
-      },
-      {
-        "level": 18,
-        "move": "FLAMECHARGE"
-      },
-      {
-        "level": 21,
-        "move": "DOUBLEKICK"
-      },
-      {
-        "level": 24,
-        "move": "WHIRLWIND"
-      },
-      {
-        "level": 26,
-        "move": "INCINERATE"
-      },
-      {
-        "level": 29,
-        "move": "WINGATTACK"
-      },
-      {
-        "level": 32,
-        "move": "DETECT"
-      },
-      {
-        "level": 35,
-        "move": "SCREECH"
-      },
-      {
-        "level": 37,
-        "move": "BURNTHELIMIT"
-      },
-      {
-        "level": 40,
-        "move": "FACADE"
-      },
-      {
-        "level": 43,
-        "move": "AIRSLASH"
-      },
-      {
-        "level": 45,
-        "move": "BLAZEKICK"
-      },
-      {
-        "level": 48,
-        "move": "FEATHERDANCE"
-      },
-      {
-        "level": 51,
-        "move": "FLAMETHROWER"
-      },
-      {
-        "level": 53,
-        "move": "SUPERSONIC"
-      },
-      {
-        "level": 56,
-        "move": "ROOST"
-      },
-      {
-        "level": 59,
-        "move": "FIREBLAST"
-      },
-      {
-        "level": 61,
-        "move": "DOUBLEEDGE"
-      },
-      {
-        "level": 64,
-        "move": "TAILWIND"
-      },
-      {
-        "level": 67,
-        "move": "BRAVEBIRD"
-      },
-      {
-        "level": 70,
-        "move": "FLAREBLITZ"
-      }
-    ],
-    "tutorMoves": [
+    tutorMoves: [
       "PLUCK",
       "ACROBATICS",
       "AERIALACE",
@@ -1239,86 +1207,81 @@ export const fakemons: Fakemon[] = [
       "WEATHERBALL",
       "WILLOWISP",
       "WORKUP",
-      "FALSESWIPE"
+      "FALSESWIPE",
     ],
-    "eggMoves": [],
-    "suffix": "absolution",
-    "evolution": [],
-    "color": "Red"
+    eggMoves: [],
+    suffix: "absolution",
+    evolution: [],
+    color: "Red",
   },
   {
-    "id": "LEVIATINY",
-    "name": "Leviatiny",
-    "types": [
-      "WATER"
-    ],
-    "sprite": "/Pokemon/Front/LEVIATINY.png",
-    "backSprite": "/Pokemon/Back/LEVIATINY.png",
-    "description": "It generates a thick and toxic foam on contact, it is not immune to its own poison...",
-    "stats": {
-      "hp": 49,
-      "attack": 53,
-      "defense": 52,
-      "speed": 51,
-      "spAttack": 59,
-      "spDefense": 50
+    id: "LEVIATINY",
+    name: "Leviatiny",
+    types: ["WATER"],
+    sprite: "/Pokemon/Front/LEVIATINY.png",
+    backSprite: "/Pokemon/Back/LEVIATINY.png",
+    description:
+      "It generates a thick and toxic foam on contact, it is not immune to its own poison...",
+    stats: {
+      hp: 49,
+      attack: 53,
+      defense: 52,
+      speed: 51,
+      spAttack: 59,
+      spDefense: 50,
     },
-    "height": "0.5",
-    "weight": "20.0",
-    "abilities": [
-      "TORRENT"
+    height: "0.5",
+    weight: "20.0",
+    abilities: ["TORRENT"],
+    hiddenAbilities: ["NEUROTOXIN"],
+    category: "???",
+    moves: [
+      {
+        level: 1,
+        move: "POUND",
+      },
+      {
+        level: 4,
+        move: "TAILWHIP",
+      },
+      {
+        level: 6,
+        move: "AQUAJET",
+      },
+      {
+        level: 9,
+        move: "WRAP",
+      },
+      {
+        level: 11,
+        move: "NULLIFYINGSMOKE",
+      },
+      {
+        level: 12,
+        move: "DEBILITATINGTOXIN",
+      },
+      {
+        level: 14,
+        move: "COIL",
+      },
+      {
+        level: 18,
+        move: "AGILITY",
+      },
+      {
+        level: 20,
+        move: "TWISTER",
+      },
+      {
+        level: 23,
+        move: "FLIPTURN",
+      },
+      {
+        level: 25,
+        move: "GASTROACID",
+      },
     ],
-    "hiddenAbilities": [
-      "NEUROTOXIN"
-    ],
-    "category": "???",
-    "moves": [
-      {
-        "level": 1,
-        "move": "POUND"
-      },
-      {
-        "level": 4,
-        "move": "TAILWHIP"
-      },
-      {
-        "level": 6,
-        "move": "AQUAJET"
-      },
-      {
-        "level": 9,
-        "move": "WRAP"
-      },
-      {
-        "level": 11,
-        "move": "NULLIFYINGSMOKE"
-      },
-      {
-        "level": 12,
-        "move": "DEBILITATINGTOXIN"
-      },
-      {
-        "level": 14,
-        "move": "COIL"
-      },
-      {
-        "level": 18,
-        "move": "AGILITY"
-      },
-      {
-        "level": 20,
-        "move": "TWISTER"
-      },
-      {
-        "level": 23,
-        "move": "FLIPTURN"
-      },
-      {
-        "level": 25,
-        "move": "GASTROACID"
-      }
-    ],
-    "tutorMoves": [
+    tutorMoves: [
       "AQUATAIL",
       "ATTRACT",
       "BLIZZARD",
@@ -1385,9 +1348,9 @@ export const fakemons: Fakemon[] = [
       "WORKUP",
       "ZENHEADBUTT",
       "POWDERSNOW",
-      "FALSESWIPE"
+      "FALSESWIPE",
     ],
-    "eggMoves": [
+    eggMoves: [
       "ICICLESPEAR",
       "AQUACUTTER",
       "ABYSSALBITE",
@@ -1402,119 +1365,114 @@ export const fakemons: Fakemon[] = [
       "HYDROPUMP",
       "GUNKSHOT",
       "BLIZZARD",
-      "WAVECRASH"
+      "WAVECRASH",
     ],
-    "suffix": "absolution",
-    "evolution": [
+    suffix: "absolution",
+    evolution: [
       {
-        "to": "LEVIATEEN",
-        "method": "Level",
-        "value": "16"
-      }
+        to: "LEVIATEEN",
+        method: "Level",
+        value: "16",
+      },
     ],
-    "color": "Red"
+    color: "Red",
   },
   {
-    "id": "LEVIATEEN",
-    "name": "Leviateen",
-    "types": [
-      "WATER"
-    ],
-    "sprite": "/Pokemon/Front/LEVIATEEN.png",
-    "backSprite": "/Pokemon/Back/LEVIATEEN.png",
-    "description": "Its dense foam is used for antidotes and cedants, if it feels in danger it can expel industrial quantities of this poison.",
-    "stats": {
-      "hp": 64,
-      "attack": 79,
-      "defense": 69,
-      "speed": 67,
-      "spAttack": 70,
-      "spDefense": 66
+    id: "LEVIATEEN",
+    name: "Leviateen",
+    types: ["WATER"],
+    sprite: "/Pokemon/Front/LEVIATEEN.png",
+    backSprite: "/Pokemon/Back/LEVIATEEN.png",
+    description:
+      "Its dense foam is used for antidotes and cedants, if it feels in danger it can expel industrial quantities of this poison.",
+    stats: {
+      hp: 64,
+      attack: 79,
+      defense: 69,
+      speed: 67,
+      spAttack: 70,
+      spDefense: 66,
     },
-    "height": "1.5",
-    "weight": "78.0",
-    "abilities": [
-      "TORRENT"
+    height: "1.5",
+    weight: "78.0",
+    abilities: ["TORRENT"],
+    hiddenAbilities: ["NEUROTOXIN"],
+    category: "???",
+    moves: [
+      {
+        level: 1,
+        move: "POUND",
+      },
+      {
+        level: 4,
+        move: "TAILWHIP",
+      },
+      {
+        level: 6,
+        move: "AQUAJET",
+      },
+      {
+        level: 9,
+        move: "WRAP",
+      },
+      {
+        level: 11,
+        move: "NULLIFYINGSMOKE",
+      },
+      {
+        level: 12,
+        move: "DEBILITATINGTOXIN",
+      },
+      {
+        level: 14,
+        move: "COIL",
+      },
+      {
+        level: 18,
+        move: "AGILITY",
+      },
+      {
+        level: 20,
+        move: "TWISTER",
+      },
+      {
+        level: 23,
+        move: "FLIPTURN",
+      },
+      {
+        level: 25,
+        move: "GASTROACID",
+      },
+      {
+        level: 27,
+        move: "ICICLESPEAR",
+      },
+      {
+        level: 29,
+        move: "AQUACUTTER",
+      },
+      {
+        level: 32,
+        move: "ABYSSALBITE",
+      },
+      {
+        level: 34,
+        move: "THUNDERFANG",
+      },
+      {
+        level: 36,
+        move: "AQUARING",
+      },
+      {
+        level: 39,
+        move: "DRAGONBREATH",
+      },
+      {
+        level: 41,
+        move: "CROSSPOISON",
+      },
     ],
-    "hiddenAbilities": [
-      "NEUROTOXIN"
-    ],
-    "category": "???",
-    "moves": [
-      {
-        "level": 1,
-        "move": "POUND"
-      },
-      {
-        "level": 4,
-        "move": "TAILWHIP"
-      },
-      {
-        "level": 6,
-        "move": "AQUAJET"
-      },
-      {
-        "level": 9,
-        "move": "WRAP"
-      },
-      {
-        "level": 11,
-        "move": "NULLIFYINGSMOKE"
-      },
-      {
-        "level": 12,
-        "move": "DEBILITATINGTOXIN"
-      },
-      {
-        "level": 14,
-        "move": "COIL"
-      },
-      {
-        "level": 18,
-        "move": "AGILITY"
-      },
-      {
-        "level": 20,
-        "move": "TWISTER"
-      },
-      {
-        "level": 23,
-        "move": "FLIPTURN"
-      },
-      {
-        "level": 25,
-        "move": "GASTROACID"
-      },
-      {
-        "level": 27,
-        "move": "ICICLESPEAR"
-      },
-      {
-        "level": 29,
-        "move": "AQUACUTTER"
-      },
-      {
-        "level": 32,
-        "move": "ABYSSALBITE"
-      },
-      {
-        "level": 34,
-        "move": "THUNDERFANG"
-      },
-      {
-        "level": 36,
-        "move": "AQUARING"
-      },
-      {
-        "level": 39,
-        "move": "DRAGONBREATH"
-      },
-      {
-        "level": 41,
-        "move": "CROSSPOISON"
-      }
-    ],
-    "tutorMoves": [
+    tutorMoves: [
       "AQUATAIL",
       "ATTRACT",
       "BLIZZARD",
@@ -1589,153 +1547,147 @@ export const fakemons: Fakemon[] = [
       "HYDROPUMP",
       "GUNKSHOT",
       "BLIZZARD",
-      "WAVECRASH"
+      "WAVECRASH",
     ],
-    "eggMoves": [],
-    "suffix": "absolution",
-    "evolution": [
+    eggMoves: [],
+    suffix: "absolution",
+    evolution: [
       {
-        "to": "LEVIATITAN",
-        "method": "Level",
-        "value": "36"
-      }
+        to: "LEVIATITAN",
+        method: "Level",
+        value: "36",
+      },
     ],
-    "color": "Red"
+    color: "Red",
   },
   {
-    "id": "LEVIATITAN",
-    "name": "Leviatitan",
-    "types": [
-      "WATER",
-      "POISON"
-    ],
-    "sprite": "/Pokemon/Front/LEVIATITAN.png",
-    "backSprite": "/Pokemon/Back/LEVIATITAN.png",
-    "description": "It hunts large Pokemon to feed, uses their venom to immobilize and weaken them, and if the hunt gets complicated, it floods its target with large quantities of toxic foam.",
-    "stats": {
-      "hp": 83,
-      "attack": 98,
-      "defense": 85,
-      "speed": 99,
-      "spAttack": 86,
-      "spDefense": 81
+    id: "LEVIATITAN",
+    name: "Leviatitan",
+    types: ["WATER", "POISON"],
+    sprite: "/Pokemon/Front/LEVIATITAN.png",
+    backSprite: "/Pokemon/Back/LEVIATITAN.png",
+    description:
+      "It hunts large Pokemon to feed, uses their venom to immobilize and weaken them, and if the hunt gets complicated, it floods its target with large quantities of toxic foam.",
+    stats: {
+      hp: 83,
+      attack: 98,
+      defense: 85,
+      speed: 99,
+      spAttack: 86,
+      spDefense: 81,
     },
-    "height": "3.0",
-    "weight": "123.0",
-    "abilities": [
-      "TORRENT"
+    height: "3.0",
+    weight: "123.0",
+    abilities: ["TORRENT"],
+    hiddenAbilities: ["NEUROTOXIN"],
+    category: "???",
+    moves: [
+      {
+        level: 1,
+        move: "POUND",
+      },
+      {
+        level: 4,
+        move: "TAILWHIP",
+      },
+      {
+        level: 6,
+        move: "AQUAJET",
+      },
+      {
+        level: 9,
+        move: "WRAP",
+      },
+      {
+        level: 11,
+        move: "NULLIFYINGSMOKE",
+      },
+      {
+        level: 12,
+        move: "DEBILITATINGTOXIN",
+      },
+      {
+        level: 14,
+        move: "COIL",
+      },
+      {
+        level: 18,
+        move: "AGILITY",
+      },
+      {
+        level: 20,
+        move: "TWISTER",
+      },
+      {
+        level: 23,
+        move: "FLIPTURN",
+      },
+      {
+        level: 25,
+        move: "GASTROACID",
+      },
+      {
+        level: 27,
+        move: "ICICLESPEAR",
+      },
+      {
+        level: 29,
+        move: "AQUACUTTER",
+      },
+      {
+        level: 32,
+        move: "ABYSSALBITE",
+      },
+      {
+        level: 34,
+        move: "THUNDERFANG",
+      },
+      {
+        level: 36,
+        move: "AQUARING",
+      },
+      {
+        level: 39,
+        move: "DRAGONBREATH",
+      },
+      {
+        level: 41,
+        move: "CROSSPOISON",
+      },
+      {
+        level: 43,
+        move: "ICEBEAM",
+      },
+      {
+        level: 46,
+        move: "THUNDERBOLT",
+      },
+      {
+        level: 48,
+        move: "SLUDGEWAVE",
+      },
+      {
+        level: 50,
+        move: "DRAGONDANCE",
+      },
+      {
+        level: 53,
+        move: "HYDROPUMP",
+      },
+      {
+        level: 55,
+        move: "GUNKSHOT",
+      },
+      {
+        level: 57,
+        move: "BLIZZARD",
+      },
+      {
+        level: 59,
+        move: "WAVECRASH",
+      },
     ],
-    "hiddenAbilities": [
-      "NEUROTOXIN"
-    ],
-    "category": "???",
-    "moves": [
-      {
-        "level": 1,
-        "move": "POUND"
-      },
-      {
-        "level": 4,
-        "move": "TAILWHIP"
-      },
-      {
-        "level": 6,
-        "move": "AQUAJET"
-      },
-      {
-        "level": 9,
-        "move": "WRAP"
-      },
-      {
-        "level": 11,
-        "move": "NULLIFYINGSMOKE"
-      },
-      {
-        "level": 12,
-        "move": "DEBILITATINGTOXIN"
-      },
-      {
-        "level": 14,
-        "move": "COIL"
-      },
-      {
-        "level": 18,
-        "move": "AGILITY"
-      },
-      {
-        "level": 20,
-        "move": "TWISTER"
-      },
-      {
-        "level": 23,
-        "move": "FLIPTURN"
-      },
-      {
-        "level": 25,
-        "move": "GASTROACID"
-      },
-      {
-        "level": 27,
-        "move": "ICICLESPEAR"
-      },
-      {
-        "level": 29,
-        "move": "AQUACUTTER"
-      },
-      {
-        "level": 32,
-        "move": "ABYSSALBITE"
-      },
-      {
-        "level": 34,
-        "move": "THUNDERFANG"
-      },
-      {
-        "level": 36,
-        "move": "AQUARING"
-      },
-      {
-        "level": 39,
-        "move": "DRAGONBREATH"
-      },
-      {
-        "level": 41,
-        "move": "CROSSPOISON"
-      },
-      {
-        "level": 43,
-        "move": "ICEBEAM"
-      },
-      {
-        "level": 46,
-        "move": "THUNDERBOLT"
-      },
-      {
-        "level": 48,
-        "move": "SLUDGEWAVE"
-      },
-      {
-        "level": 50,
-        "move": "DRAGONDANCE"
-      },
-      {
-        "level": 53,
-        "move": "HYDROPUMP"
-      },
-      {
-        "level": 55,
-        "move": "GUNKSHOT"
-      },
-      {
-        "level": 57,
-        "move": "BLIZZARD"
-      },
-      {
-        "level": 59,
-        "move": "WAVECRASH"
-      }
-    ],
-    "tutorMoves": [
+    tutorMoves: [
       "AQUATAIL",
       "ATTRACT",
       "BLIZZARD",
@@ -1810,147 +1762,141 @@ export const fakemons: Fakemon[] = [
       "HYDROPUMP",
       "GUNKSHOT",
       "BLIZZARD",
-      "WAVECRASH"
+      "WAVECRASH",
     ],
-    "eggMoves": [],
-    "suffix": "absolution",
-    "evolution": [],
-    "color": "Red"
+    eggMoves: [],
+    suffix: "absolution",
+    evolution: [],
+    color: "Red",
   },
   {
-    "id": "FATALTTY",
-    "name": "Fataltty",
-    "types": [
-      "DARK",
-      "GHOST"
-    ],
-    "sprite": "/Pokemon/Front/FATALTTY.png",
-    "backSprite": "/Pokemon/Back/FATALTTY.png",
-    "description": "Many Pokémon tend to be quite attracted to this Pokémon, which it uses to its advantage to control them and get food, although it does not enjoy this.",
-    "stats": {
-      "hp": 81,
-      "attack": 111,
-      "defense": 90,
-      "speed": 122,
-      "spAttack": 57,
-      "spDefense": 63
+    id: "FATALTTY",
+    name: "Fataltty",
+    types: ["DARK", "GHOST"],
+    sprite: "/Pokemon/Front/FATALTTY.png",
+    backSprite: "/Pokemon/Back/FATALTTY.png",
+    description:
+      "Many Pokémon tend to be quite attracted to this Pokémon, which it uses to its advantage to control them and get food, although it does not enjoy this.",
+    stats: {
+      hp: 81,
+      attack: 111,
+      defense: 90,
+      speed: 122,
+      spAttack: 57,
+      spDefense: 63,
     },
-    "height": "1.8",
-    "weight": "6.9",
-    "abilities": [
-      "CUTECHARM"
+    height: "1.8",
+    weight: "6.9",
+    abilities: ["CUTECHARM"],
+    hiddenAbilities: ["VAMP"],
+    category: "Cat",
+    moves: [
+      {
+        level: 1,
+        move: "TACKLE",
+      },
+      {
+        level: 4,
+        move: "ATTRACT",
+      },
+      {
+        level: 6,
+        move: "FURYATTACK",
+      },
+      {
+        level: 9,
+        move: "LICK",
+      },
+      {
+        level: 11,
+        move: "SEDUCTION",
+      },
+      {
+        level: 13,
+        move: "ECHOEDVOICE",
+      },
+      {
+        level: 16,
+        move: "FAKEOUT",
+      },
+      {
+        level: 18,
+        move: "SHADOWSNEAK",
+      },
+      {
+        level: 20,
+        move: "DISARMINGVOICE",
+      },
+      {
+        level: 23,
+        move: "PAYBACK",
+      },
+      {
+        level: 25,
+        move: "LUCKYCHANT",
+      },
+      {
+        level: 27,
+        move: "BITE",
+      },
+      {
+        level: 29,
+        move: "AGILITY",
+      },
+      {
+        level: 32,
+        move: "FEINTATTACK",
+      },
+      {
+        level: 34,
+        move: "LOCKON",
+      },
+      {
+        level: 36,
+        move: "HEX",
+      },
+      {
+        level: 39,
+        move: "KNOCKOFF",
+      },
+      {
+        level: 41,
+        move: "LOVEBREAKUP",
+      },
+      {
+        level: 43,
+        move: "SLASH",
+      },
+      {
+        level: 46,
+        move: "SHADOWCLAW",
+      },
+      {
+        level: 48,
+        move: "NIGHTSLASH",
+      },
+      {
+        level: 50,
+        move: "LASHOUT",
+      },
+      {
+        level: 53,
+        move: "EXTREMESPEED",
+      },
+      {
+        level: 55,
+        move: "CRUNCH",
+      },
+      {
+        level: 57,
+        move: "DESTINYBOND",
+      },
+      {
+        level: 59,
+        move: "HYPERVOICE",
+      },
     ],
-    "hiddenAbilities": [
-      "VAMP"
-    ],
-    "category": "Cat",
-    "moves": [
-      {
-        "level": 1,
-        "move": "TACKLE"
-      },
-      {
-        "level": 4,
-        "move": "ATTRACT"
-      },
-      {
-        "level": 6,
-        "move": "FURYATTACK"
-      },
-      {
-        "level": 9,
-        "move": "LICK"
-      },
-      {
-        "level": 11,
-        "move": "SEDUCTION"
-      },
-      {
-        "level": 13,
-        "move": "ECHOEDVOICE"
-      },
-      {
-        "level": 16,
-        "move": "FAKEOUT"
-      },
-      {
-        "level": 18,
-        "move": "SHADOWSNEAK"
-      },
-      {
-        "level": 20,
-        "move": "DISARMINGVOICE"
-      },
-      {
-        "level": 23,
-        "move": "PAYBACK"
-      },
-      {
-        "level": 25,
-        "move": "LUCKYCHANT"
-      },
-      {
-        "level": 27,
-        "move": "BITE"
-      },
-      {
-        "level": 29,
-        "move": "AGILITY"
-      },
-      {
-        "level": 32,
-        "move": "FEINTATTACK"
-      },
-      {
-        "level": 34,
-        "move": "LOCKON"
-      },
-      {
-        "level": 36,
-        "move": "HEX"
-      },
-      {
-        "level": 39,
-        "move": "KNOCKOFF"
-      },
-      {
-        "level": 41,
-        "move": "LOVEBREAKUP"
-      },
-      {
-        "level": 43,
-        "move": "SLASH"
-      },
-      {
-        "level": 46,
-        "move": "SHADOWCLAW"
-      },
-      {
-        "level": 48,
-        "move": "NIGHTSLASH"
-      },
-      {
-        "level": 50,
-        "move": "LASHOUT"
-      },
-      {
-        "level": 53,
-        "move": "EXTREMESPEED"
-      },
-      {
-        "level": 55,
-        "move": "CRUNCH"
-      },
-      {
-        "level": 57,
-        "move": "DESTINYBOND"
-      },
-      {
-        "level": 59,
-        "move": "HYPERVOICE"
-      }
-    ],
-    "tutorMoves": [
+    tutorMoves: [
       "FLOWERFANG",
       "MARTIALFANG",
       "ATTRACT",
@@ -1997,149 +1943,141 @@ export const fakemons: Fakemon[] = [
       "UPROAR",
       "WORKUP",
       "ZENHEADBUTT",
-      "TERABLAST"
+      "TERABLAST",
     ],
-    "eggMoves": [
-      "CHARM"
-    ],
-    "suffix": "absolution",
-    "evolution": [],
-    "color": "Black"
+    eggMoves: ["CHARM"],
+    suffix: "absolution",
+    evolution: [],
+    color: "Black",
   },
   {
-    "id": "CONDLING",
-    "name": "Condling",
-    "types": [
-      "FLYING"
-    ],
-    "sprite": "/Pokemon/Front/CONDLING.png",
-    "backSprite": "/Pokemon/Back/CONDLING.png",
-    "description": "They are often seen collecting bones of Dragon-type Pokemon, despite not possessing feathers, they are believed to be able to fly.",
-    "stats": {
-      "hp": 35,
-      "attack": 40,
-      "defense": 56,
-      "speed": 31,
-      "spAttack": 25,
-      "spDefense": 54
+    id: "CONDLING",
+    name: "Condling",
+    types: ["FLYING"],
+    sprite: "/Pokemon/Front/CONDLING.png",
+    backSprite: "/Pokemon/Back/CONDLING.png",
+    description:
+      "They are often seen collecting bones of Dragon-type Pokemon, despite not possessing feathers, they are believed to be able to fly.",
+    stats: {
+      hp: 35,
+      attack: 40,
+      defense: 56,
+      speed: 31,
+      spAttack: 25,
+      spDefense: 54,
     },
-    "height": "0.2",
-    "weight": "1.0",
-    "abilities": [
-      "KEENEYE",
-      "BIGPECKS"
+    height: "0.2",
+    weight: "1.0",
+    abilities: ["KEENEYE", "BIGPECKS"],
+    hiddenAbilities: ["TAILWINDBLESS"],
+    category: "Bald Bird",
+    moves: [
+      {
+        level: 1,
+        move: "GROWL",
+      },
+      {
+        level: 5,
+        move: "PECK",
+      },
+      {
+        level: 7,
+        move: "GUST",
+      },
+      {
+        level: 9,
+        move: "FAIRYWIND",
+      },
+      {
+        level: 11,
+        move: "CURSE",
+      },
+      {
+        level: 13,
+        move: "PURSUIT",
+      },
+      {
+        level: 16,
+        move: "AERIALACE",
+      },
+      {
+        level: 18,
+        move: "MOONLIGHT",
+      },
+      {
+        level: 20,
+        move: "SHAMANBLESSING",
+      },
+      {
+        level: 23,
+        move: "BEATUP",
+      },
+      {
+        level: 25,
+        move: "REFLECT",
+      },
+      {
+        level: 27,
+        move: "CRUSHCLAW",
+      },
+      {
+        level: 29,
+        move: "METALSOUND",
+      },
+      {
+        level: 32,
+        move: "TAILWIND",
+      },
+      {
+        level: 34,
+        move: "MEDITATE",
+      },
+      {
+        level: 36,
+        move: "SLASH",
+      },
+      {
+        level: 39,
+        move: "DAZZLINGGLEAM",
+      },
+      {
+        level: 41,
+        move: "DRAGONCLAW",
+      },
+      {
+        level: 43,
+        move: "ROOST",
+      },
+      {
+        level: 46,
+        move: "PLAYROUGH",
+      },
+      {
+        level: 48,
+        move: "AEROBLAST",
+      },
+      {
+        level: 50,
+        move: "DRAGONSLAYER",
+      },
+      {
+        level: 52,
+        move: "DRAGONRUSH",
+      },
+      {
+        level: 55,
+        move: "PERISHSONG",
+      },
+      {
+        level: 57,
+        move: "PUNISHMENT",
+      },
+      {
+        level: 59,
+        move: "MIRRORMOVE",
+      },
     ],
-    "hiddenAbilities": [
-      "TAILWINDBLESS"
-    ],
-    "category": "Bald Bird",
-    "moves": [
-      {
-        "level": 1,
-        "move": "GROWL"
-      },
-      {
-        "level": 5,
-        "move": "PECK"
-      },
-      {
-        "level": 7,
-        "move": "GUST"
-      },
-      {
-        "level": 9,
-        "move": "FAIRYWIND"
-      },
-      {
-        "level": 11,
-        "move": "CURSE"
-      },
-      {
-        "level": 13,
-        "move": "PURSUIT"
-      },
-      {
-        "level": 16,
-        "move": "AERIALACE"
-      },
-      {
-        "level": 18,
-        "move": "MOONLIGHT"
-      },
-      {
-        "level": 20,
-        "move": "SHAMANBLESSING"
-      },
-      {
-        "level": 23,
-        "move": "BEATUP"
-      },
-      {
-        "level": 25,
-        "move": "REFLECT"
-      },
-      {
-        "level": 27,
-        "move": "CRUSHCLAW"
-      },
-      {
-        "level": 29,
-        "move": "METALSOUND"
-      },
-      {
-        "level": 32,
-        "move": "TAILWIND"
-      },
-      {
-        "level": 34,
-        "move": "MEDITATE"
-      },
-      {
-        "level": 36,
-        "move": "SLASH"
-      },
-      {
-        "level": 39,
-        "move": "DAZZLINGGLEAM"
-      },
-      {
-        "level": 41,
-        "move": "DRAGONCLAW"
-      },
-      {
-        "level": 43,
-        "move": "ROOST"
-      },
-      {
-        "level": 46,
-        "move": "PLAYROUGH"
-      },
-      {
-        "level": 48,
-        "move": "AEROBLAST"
-      },
-      {
-        "level": 50,
-        "move": "DRAGONSLAYER"
-      },
-      {
-        "level": 52,
-        "move": "DRAGONRUSH"
-      },
-      {
-        "level": 55,
-        "move": "PERISHSONG"
-      },
-      {
-        "level": 57,
-        "move": "PUNISHMENT"
-      },
-      {
-        "level": 59,
-        "move": "MIRRORMOVE"
-      }
-    ],
-    "tutorMoves": [
+    tutorMoves: [
       "AERIALACE",
       "AIRCUTTER",
       "ATTRACT",
@@ -2180,159 +2118,147 @@ export const fakemons: Fakemon[] = [
       "UPROAR",
       "UTURN",
       "WORKUP",
-      "TERABLAST"
+      "TERABLAST",
     ],
-    "eggMoves": [
-      "AIRCUTTER",
-      "AIRSLASH",
-      "BRAVEBIRD",
-      "UPROAR"
-    ],
-    "suffix": "absolution",
-    "evolution": [
+    eggMoves: ["AIRCUTTER", "AIRSLASH", "BRAVEBIRD", "UPROAR"],
+    suffix: "absolution",
+    evolution: [
       {
-        "to": "BONEVEIL",
-        "method": "Level",
-        "value": "16"
-      }
+        to: "BONEVEIL",
+        method: "Level",
+        value: "16",
+      },
     ],
-    "color": "Purple"
+    color: "Purple",
   },
   {
-    "id": "BONEVEIL",
-    "name": "Boneveil",
-    "types": [
-      "FLYING",
-      "FAIRY"
-    ],
-    "sprite": "/Pokemon/Front/BONEVEIL.png",
-    "backSprite": "/Pokemon/Back/BONEVEIL.png",
-    "description": "It lives high in the mountains, humans and Pokemon come to this Pokemon to cure curses and minor illnesses.",
-    "stats": {
-      "hp": 63,
-      "attack": 46,
-      "defense": 73,
-      "speed": 58,
-      "spAttack": 41,
-      "spDefense": 69
+    id: "BONEVEIL",
+    name: "Boneveil",
+    types: ["FLYING", "FAIRY"],
+    sprite: "/Pokemon/Front/BONEVEIL.png",
+    backSprite: "/Pokemon/Back/BONEVEIL.png",
+    description:
+      "It lives high in the mountains, humans and Pokemon come to this Pokemon to cure curses and minor illnesses.",
+    stats: {
+      hp: 63,
+      attack: 46,
+      defense: 73,
+      speed: 58,
+      spAttack: 41,
+      spDefense: 69,
     },
-    "height": "1.1",
-    "weight": "50.0",
-    "abilities": [
-      "KEENEYE",
-      "BIGPECKS"
+    height: "1.1",
+    weight: "50.0",
+    abilities: ["KEENEYE", "BIGPECKS"],
+    hiddenAbilities: ["TAILWINDBLESS"],
+    category: "Shaman",
+    moves: [
+      {
+        level: 1,
+        move: "PECK",
+      },
+      {
+        level: 4,
+        move: "GROWL",
+      },
+      {
+        level: 6,
+        move: "GUST",
+      },
+      {
+        level: 9,
+        move: "FAIRYWIND",
+      },
+      {
+        level: 11,
+        move: "CURSE",
+      },
+      {
+        level: 13,
+        move: "PURSUIT",
+      },
+      {
+        level: 16,
+        move: "MOONLIGHT",
+      },
+      {
+        level: 18,
+        move: "SHAMANBLESSING",
+      },
+      {
+        level: 20,
+        move: "AERIALACE",
+      },
+      {
+        level: 23,
+        move: "BEATUP",
+      },
+      {
+        level: 25,
+        move: "REFLECT",
+      },
+      {
+        level: 27,
+        move: "CRUSHCLAW",
+      },
+      {
+        level: 29,
+        move: "METALSOUND",
+      },
+      {
+        level: 32,
+        move: "TAILWIND",
+      },
+      {
+        level: 34,
+        move: "MEDITATE",
+      },
+      {
+        level: 36,
+        move: "SLASH",
+      },
+      {
+        level: 39,
+        move: "DAZZLINGGLEAM",
+      },
+      {
+        level: 41,
+        move: "DRAGONCLAW",
+      },
+      {
+        level: 43,
+        move: "ROOST",
+      },
+      {
+        level: 46,
+        move: "PLAYROUGH",
+      },
+      {
+        level: 48,
+        move: "AEROBLAST",
+      },
+      {
+        level: 50,
+        move: "DRAGONSLAYER",
+      },
+      {
+        level: 52,
+        move: "DRAGONRUSH",
+      },
+      {
+        level: 55,
+        move: "PERISHSONG",
+      },
+      {
+        level: 57,
+        move: "PUNISHMENT",
+      },
+      {
+        level: 59,
+        move: "MIRRORMOVE",
+      },
     ],
-    "hiddenAbilities": [
-      "TAILWINDBLESS"
-    ],
-    "category": "Shaman",
-    "moves": [
-      {
-        "level": 1,
-        "move": "PECK"
-      },
-      {
-        "level": 4,
-        "move": "GROWL"
-      },
-      {
-        "level": 6,
-        "move": "GUST"
-      },
-      {
-        "level": 9,
-        "move": "FAIRYWIND"
-      },
-      {
-        "level": 11,
-        "move": "CURSE"
-      },
-      {
-        "level": 13,
-        "move": "PURSUIT"
-      },
-      {
-        "level": 16,
-        "move": "MOONLIGHT"
-      },
-      {
-        "level": 18,
-        "move": "SHAMANBLESSING"
-      },
-      {
-        "level": 20,
-        "move": "AERIALACE"
-      },
-      {
-        "level": 23,
-        "move": "BEATUP"
-      },
-      {
-        "level": 25,
-        "move": "REFLECT"
-      },
-      {
-        "level": 27,
-        "move": "CRUSHCLAW"
-      },
-      {
-        "level": 29,
-        "move": "METALSOUND"
-      },
-      {
-        "level": 32,
-        "move": "TAILWIND"
-      },
-      {
-        "level": 34,
-        "move": "MEDITATE"
-      },
-      {
-        "level": 36,
-        "move": "SLASH"
-      },
-      {
-        "level": 39,
-        "move": "DAZZLINGGLEAM"
-      },
-      {
-        "level": 41,
-        "move": "DRAGONCLAW"
-      },
-      {
-        "level": 43,
-        "move": "ROOST"
-      },
-      {
-        "level": 46,
-        "move": "PLAYROUGH"
-      },
-      {
-        "level": 48,
-        "move": "AEROBLAST"
-      },
-      {
-        "level": 50,
-        "move": "DRAGONSLAYER"
-      },
-      {
-        "level": 52,
-        "move": "DRAGONRUSH"
-      },
-      {
-        "level": 55,
-        "move": "PERISHSONG"
-      },
-      {
-        "level": 57,
-        "move": "PUNISHMENT"
-      },
-      {
-        "level": 59,
-        "move": "MIRRORMOVE"
-      }
-    ],
-    "tutorMoves": [
+    tutorMoves: [
       "AERIALACE",
       "AIRCUTTER",
       "ATTRACT",
@@ -2373,153 +2299,141 @@ export const fakemons: Fakemon[] = [
       "UPROAR",
       "UTURN",
       "WORKUP",
-      "TERABLAST"
+      "TERABLAST",
     ],
-    "eggMoves": [
-      "AIRCUTTER",
-      "AIRSLASH",
-      "BRAVEBIRD",
-      "UPROAR"
-    ],
-    "suffix": "absolution",
-    "evolution": [],
-    "color": "Purple"
+    eggMoves: ["AIRCUTTER", "AIRSLASH", "BRAVEBIRD", "UPROAR"],
+    suffix: "absolution",
+    evolution: [],
+    color: "Purple",
   },
   {
-    "id": "CONDEMNA",
-    "name": "Condemna",
-    "types": [
-      "FLYING",
-      "FAIRY"
-    ],
-    "sprite": "/Pokemon/Front/CONDEMNA.png",
-    "backSprite": "/Pokemon/Back/CONDEMNA.png",
-    "description": "They have an inner hatred of dragon-type Pokemon, and are often very aggressive towards them. Their feathers are said to have enormous healing effects.",
-    "stats": {
-      "hp": 92,
-      "attack": 85,
-      "defense": 111,
-      "speed": 75,
-      "spAttack": 82,
-      "spDefense": 104
+    id: "CONDEMNA",
+    name: "Condemna",
+    types: ["FLYING", "FAIRY"],
+    sprite: "/Pokemon/Front/CONDEMNA.png",
+    backSprite: "/Pokemon/Back/CONDEMNA.png",
+    description:
+      "They have an inner hatred of dragon-type Pokemon, and are often very aggressive towards them. Their feathers are said to have enormous healing effects.",
+    stats: {
+      hp: 92,
+      attack: 85,
+      defense: 111,
+      speed: 75,
+      spAttack: 82,
+      spDefense: 104,
     },
-    "height": "2.0",
-    "weight": "125.5",
-    "abilities": [
-      "KEENEYE",
-      "BIGPECKS"
+    height: "2.0",
+    weight: "125.5",
+    abilities: ["KEENEYE", "BIGPECKS"],
+    hiddenAbilities: ["TAILWINDBLESS"],
+    category: "Shaman",
+    moves: [
+      {
+        level: 1,
+        move: "PECK",
+      },
+      {
+        level: 4,
+        move: "GROWL",
+      },
+      {
+        level: 6,
+        move: "GUST",
+      },
+      {
+        level: 9,
+        move: "FAIRYWIND",
+      },
+      {
+        level: 11,
+        move: "CURSE",
+      },
+      {
+        level: 13,
+        move: "PURSUIT",
+      },
+      {
+        level: 16,
+        move: "MOONLIGHT",
+      },
+      {
+        level: 18,
+        move: "SHAMANBLESSING",
+      },
+      {
+        level: 20,
+        move: "AERIALACE",
+      },
+      {
+        level: 23,
+        move: "BEATUP",
+      },
+      {
+        level: 25,
+        move: "REFLECT",
+      },
+      {
+        level: 27,
+        move: "CRUSHCLAW",
+      },
+      {
+        level: 29,
+        move: "METALSOUND",
+      },
+      {
+        level: 32,
+        move: "TAILWIND",
+      },
+      {
+        level: 34,
+        move: "MEDITATE",
+      },
+      {
+        level: 36,
+        move: "SLASH",
+      },
+      {
+        level: 39,
+        move: "DAZZLINGGLEAM",
+      },
+      {
+        level: 41,
+        move: "DRAGONCLAW",
+      },
+      {
+        level: 43,
+        move: "ROOST",
+      },
+      {
+        level: 46,
+        move: "PLAYROUGH",
+      },
+      {
+        level: 48,
+        move: "AEROBLAST",
+      },
+      {
+        level: 50,
+        move: "DRAGONSLAYER",
+      },
+      {
+        level: 52,
+        move: "DRAGONRUSH",
+      },
+      {
+        level: 55,
+        move: "PERISHSONG",
+      },
+      {
+        level: 57,
+        move: "PUNISHMENT",
+      },
+      {
+        level: 59,
+        move: "MIRRORMOVE",
+      },
     ],
-    "hiddenAbilities": [
-      "TAILWINDBLESS"
-    ],
-    "category": "Shaman",
-    "moves": [
-      {
-        "level": 1,
-        "move": "PECK"
-      },
-      {
-        "level": 4,
-        "move": "GROWL"
-      },
-      {
-        "level": 6,
-        "move": "GUST"
-      },
-      {
-        "level": 9,
-        "move": "FAIRYWIND"
-      },
-      {
-        "level": 11,
-        "move": "CURSE"
-      },
-      {
-        "level": 13,
-        "move": "PURSUIT"
-      },
-      {
-        "level": 16,
-        "move": "MOONLIGHT"
-      },
-      {
-        "level": 18,
-        "move": "SHAMANBLESSING"
-      },
-      {
-        "level": 20,
-        "move": "AERIALACE"
-      },
-      {
-        "level": 23,
-        "move": "BEATUP"
-      },
-      {
-        "level": 25,
-        "move": "REFLECT"
-      },
-      {
-        "level": 27,
-        "move": "CRUSHCLAW"
-      },
-      {
-        "level": 29,
-        "move": "METALSOUND"
-      },
-      {
-        "level": 32,
-        "move": "TAILWIND"
-      },
-      {
-        "level": 34,
-        "move": "MEDITATE"
-      },
-      {
-        "level": 36,
-        "move": "SLASH"
-      },
-      {
-        "level": 39,
-        "move": "DAZZLINGGLEAM"
-      },
-      {
-        "level": 41,
-        "move": "DRAGONCLAW"
-      },
-      {
-        "level": 43,
-        "move": "ROOST"
-      },
-      {
-        "level": 46,
-        "move": "PLAYROUGH"
-      },
-      {
-        "level": 48,
-        "move": "AEROBLAST"
-      },
-      {
-        "level": 50,
-        "move": "DRAGONSLAYER"
-      },
-      {
-        "level": 52,
-        "move": "DRAGONRUSH"
-      },
-      {
-        "level": 55,
-        "move": "PERISHSONG"
-      },
-      {
-        "level": 57,
-        "move": "PUNISHMENT"
-      },
-      {
-        "level": 59,
-        "move": "MIRRORMOVE"
-      }
-    ],
-    "tutorMoves": [
+    tutorMoves: [
       "AERIALACE",
       "AIRCUTTER",
       "ATTRACT",
@@ -2560,118 +2474,109 @@ export const fakemons: Fakemon[] = [
       "UPROAR",
       "UTURN",
       "WORKUP",
-      "TERABLAST"
+      "TERABLAST",
     ],
-    "eggMoves": [
-      "AIRCUTTER",
-      "AIRSLASH",
-      "BRAVEBIRD",
-      "UPROAR"
-    ],
-    "suffix": "absolution",
-    "evolution": [],
-    "color": "Purple"
+    eggMoves: ["AIRCUTTER", "AIRSLASH", "BRAVEBIRD", "UPROAR"],
+    suffix: "absolution",
+    evolution: [],
+    color: "Purple",
   },
   {
-    "id": "WOOLARVA",
-    "name": "Woolarva",
-    "types": [
-      "BUG"
-    ],
-    "sprite": "/Pokemon/Front/WOOLARVA.png",
-    "backSprite": "/Pokemon/Back/WOOLARVA.png",
-    "description": "Its silk is very resistant, so it is often used for various garments.",
-    "stats": {
-      "hp": 45,
-      "attack": 30,
-      "defense": 25,
-      "speed": 70,
-      "spAttack": 20,
-      "spDefense": 20
+    id: "WOOLARVA",
+    name: "Woolarva",
+    types: ["BUG"],
+    sprite: "/Pokemon/Front/WOOLARVA.png",
+    backSprite: "/Pokemon/Back/WOOLARVA.png",
+    description:
+      "Its silk is very resistant, so it is often used for various garments.",
+    stats: {
+      hp: 45,
+      attack: 30,
+      defense: 25,
+      speed: 70,
+      spAttack: 20,
+      spDefense: 20,
     },
-    "height": "0.1",
-    "weight": "0.1",
-    "abilities": [
-      "SHIELDDUST",
-      "LIKESILK"
+    height: "0.1",
+    weight: "0.1",
+    abilities: ["SHIELDDUST", "LIKESILK"],
+    hiddenAbilities: [],
+    category: "Silkworm Larva",
+    moves: [
+      {
+        level: 1,
+        move: "TACKLE",
+      },
+      {
+        level: 6,
+        move: "STRINGSHOT",
+      },
+      {
+        level: 10,
+        move: "SLEEPPOWDER",
+      },
+      {
+        level: 13,
+        move: "ABSORB",
+      },
+      {
+        level: 16,
+        move: "BUGBITE",
+      },
+      {
+        level: 20,
+        move: "FAIRYWIND",
+      },
+      {
+        level: 23,
+        move: "STICKYWEB",
+      },
+      {
+        level: 26,
+        move: "SILKBOMB",
+      },
+      {
+        level: 30,
+        move: "SILVERWIND",
+      },
+      {
+        level: 33,
+        move: "SYRUPBOMB",
+      },
+      {
+        level: 36,
+        move: "SILKYCOCOON",
+      },
+      {
+        level: 40,
+        move: "TAUNT",
+      },
+      {
+        level: 43,
+        move: "GIGADRAIN",
+      },
+      {
+        level: 46,
+        move: "DEFENDORDER",
+      },
+      {
+        level: 50,
+        move: "ECHOEDVOICE",
+      },
+      {
+        level: 53,
+        move: "POLLENPUFF",
+      },
+      {
+        level: 56,
+        move: "SUPERSONIC",
+      },
+      {
+        level: 60,
+        move: "QUIVERDANCE",
+      },
     ],
-    "hiddenAbilities": [],
-    "category": "Silkworm Larva",
-    "moves": [
-      {
-        "level": 1,
-        "move": "TACKLE"
-      },
-      {
-        "level": 6,
-        "move": "STRINGSHOT"
-      },
-      {
-        "level": 10,
-        "move": "SLEEPPOWDER"
-      },
-      {
-        "level": 13,
-        "move": "ABSORB"
-      },
-      {
-        "level": 16,
-        "move": "BUGBITE"
-      },
-      {
-        "level": 20,
-        "move": "FAIRYWIND"
-      },
-      {
-        "level": 23,
-        "move": "STICKYWEB"
-      },
-      {
-        "level": 26,
-        "move": "SILKBOMB"
-      },
-      {
-        "level": 30,
-        "move": "SILVERWIND"
-      },
-      {
-        "level": 33,
-        "move": "SYRUPBOMB"
-      },
-      {
-        "level": 36,
-        "move": "SILKYCOCOON"
-      },
-      {
-        "level": 40,
-        "move": "TAUNT"
-      },
-      {
-        "level": 43,
-        "move": "GIGADRAIN"
-      },
-      {
-        "level": 46,
-        "move": "DEFENDORDER"
-      },
-      {
-        "level": 50,
-        "move": "ECHOEDVOICE"
-      },
-      {
-        "level": 53,
-        "move": "POLLENPUFF"
-      },
-      {
-        "level": 56,
-        "move": "SUPERSONIC"
-      },
-      {
-        "level": 60,
-        "move": "QUIVERDANCE"
-      }
-    ],
-    "tutorMoves": [
+    tutorMoves: [
       "AERIALACE",
       "AFTERYOU",
       "ATTRACT",
@@ -2724,119 +2629,115 @@ export const fakemons: Fakemon[] = [
       "VENOSHOCK",
       "WORRYSEED",
       "XSCISSOR",
-      "TERABLAST"
+      "TERABLAST",
     ],
-    "eggMoves": [],
-    "suffix": "absolution",
-    "evolution": [
+    eggMoves: [],
+    suffix: "absolution",
+    evolution: [
       {
-        "to": "WOOBACOON",
-        "method": "Level",
-        "value": "10"
-      }
+        to: "WOOBACOON",
+        method: "Level",
+        value: "10",
+      },
     ],
-    "color": "Red"
+    color: "Red",
   },
   {
-    "id": "WOOBACOON",
-    "name": "Woobacoon",
-    "types": [
-      "BUG"
-    ],
-    "sprite": "/Pokemon/Front/WOOBACOON.png",
-    "backSprite": "/Pokemon/Back/WOOBACOON.png",
-    "description": "It does not usually move much, it uses its silk to defend itself from predators.",
-    "stats": {
-      "hp": 80,
-      "attack": 48,
-      "defense": 77,
-      "speed": 75,
-      "spAttack": 40,
-      "spDefense": 80
+    id: "WOOBACOON",
+    name: "Woobacoon",
+    types: ["BUG"],
+    sprite: "/Pokemon/Front/WOOBACOON.png",
+    backSprite: "/Pokemon/Back/WOOBACOON.png",
+    description:
+      "It does not usually move much, it uses its silk to defend itself from predators.",
+    stats: {
+      hp: 80,
+      attack: 48,
+      defense: 77,
+      speed: 75,
+      spAttack: 40,
+      spDefense: 80,
     },
-    "height": "0.3",
-    "weight": "10.7",
-    "abilities": [
-      "SHIELDDUST",
-      "LIKESILK"
+    height: "0.3",
+    weight: "10.7",
+    abilities: ["SHIELDDUST", "LIKESILK"],
+    hiddenAbilities: [],
+    category: "Silkworm Cocoon",
+    moves: [
+      {
+        level: 1,
+        move: "TACKLE",
+      },
+      {
+        level: 6,
+        move: "STRINGSHOT",
+      },
+      {
+        level: 10,
+        move: "SLEEPPOWDER",
+      },
+      {
+        level: 13,
+        move: "ABSORB",
+      },
+      {
+        level: 16,
+        move: "BUGBITE",
+      },
+      {
+        level: 20,
+        move: "FAIRYWIND",
+      },
+      {
+        level: 23,
+        move: "STICKYWEB",
+      },
+      {
+        level: 26,
+        move: "SILKBOMB",
+      },
+      {
+        level: 30,
+        move: "SILVERWIND",
+      },
+      {
+        level: 33,
+        move: "SYRUPBOMB",
+      },
+      {
+        level: 36,
+        move: "SILKYCOCOON",
+      },
+      {
+        level: 40,
+        move: "TAUNT",
+      },
+      {
+        level: 43,
+        move: "GIGADRAIN",
+      },
+      {
+        level: 46,
+        move: "DEFENDORDER",
+      },
+      {
+        level: 50,
+        move: "ECHOEDVOICE",
+      },
+      {
+        level: 53,
+        move: "POLLENPUFF",
+      },
+      {
+        level: 56,
+        move: "SUPERSONIC",
+      },
+      {
+        level: 60,
+        move: "QUIVERDANCE",
+      },
     ],
-    "hiddenAbilities": [],
-    "category": "Silkworm Cocoon",
-    "moves": [
-      {
-        "level": 1,
-        "move": "TACKLE"
-      },
-      {
-        "level": 6,
-        "move": "STRINGSHOT"
-      },
-      {
-        "level": 10,
-        "move": "SLEEPPOWDER"
-      },
-      {
-        "level": 13,
-        "move": "ABSORB"
-      },
-      {
-        "level": 16,
-        "move": "BUGBITE"
-      },
-      {
-        "level": 20,
-        "move": "FAIRYWIND"
-      },
-      {
-        "level": 23,
-        "move": "STICKYWEB"
-      },
-      {
-        "level": 26,
-        "move": "SILKBOMB"
-      },
-      {
-        "level": 30,
-        "move": "SILVERWIND"
-      },
-      {
-        "level": 33,
-        "move": "SYRUPBOMB"
-      },
-      {
-        "level": 36,
-        "move": "SILKYCOCOON"
-      },
-      {
-        "level": 40,
-        "move": "TAUNT"
-      },
-      {
-        "level": 43,
-        "move": "GIGADRAIN"
-      },
-      {
-        "level": 46,
-        "move": "DEFENDORDER"
-      },
-      {
-        "level": 50,
-        "move": "ECHOEDVOICE"
-      },
-      {
-        "level": 53,
-        "move": "POLLENPUFF"
-      },
-      {
-        "level": 56,
-        "move": "SUPERSONIC"
-      },
-      {
-        "level": 60,
-        "move": "QUIVERDANCE"
-      }
-    ],
-    "tutorMoves": [
+    tutorMoves: [
       "AERIALACE",
       "AFTERYOU",
       "ATTRACT",
@@ -2889,146 +2790,141 @@ export const fakemons: Fakemon[] = [
       "VENOSHOCK",
       "WORRYSEED",
       "XSCISSOR",
-      "TERABLAST"
+      "TERABLAST",
     ],
-    "eggMoves": [],
-    "suffix": "absolution",
-    "evolution": [],
-    "color": "Red"
+    eggMoves: [],
+    suffix: "absolution",
+    evolution: [],
+    color: "Red",
   },
   {
-    "id": "WEAMOTH",
-    "name": "Weamoth",
-    "types": [
-      "BUG",
-      "FAIRY"
-    ],
-    "sprite": "/Pokemon/Front/WEAMOTH.png",
-    "backSprite": "/Pokemon/Back/WEAMOTH.png",
-    "description": "Its beautiful silk is used to create high-quality garments, making it a very attractive Pokemon for designers and stylists.",
-    "stats": {
-      "hp": 114,
-      "attack": 53,
-      "defense": 117,
-      "speed": 76,
-      "spAttack": 75,
-      "spDefense": 128
+    id: "WEAMOTH",
+    name: "Weamoth",
+    types: ["BUG", "FAIRY"],
+    sprite: "/Pokemon/Front/WEAMOTH.png",
+    backSprite: "/Pokemon/Back/WEAMOTH.png",
+    description:
+      "Its beautiful silk is used to create high-quality garments, making it a very attractive Pokemon for designers and stylists.",
+    stats: {
+      hp: 114,
+      attack: 53,
+      defense: 117,
+      speed: 76,
+      spAttack: 75,
+      spDefense: 128,
     },
-    "height": "1.0",
-    "weight": "30.7",
-    "abilities": [
-      "SHIELDDUST",
-      "LIKESILK"
+    height: "1.0",
+    weight: "30.7",
+    abilities: ["SHIELDDUST", "LIKESILK"],
+    hiddenAbilities: [],
+    category: "Silkworm Fairy",
+    moves: [
+      {
+        level: 1,
+        move: "TACKLE",
+      },
+      {
+        level: 4,
+        move: "STRINGSHOT",
+      },
+      {
+        level: 6,
+        move: "SLEEPPOWDER",
+      },
+      {
+        level: 9,
+        move: "ABSORB",
+      },
+      {
+        level: 11,
+        move: "BUGBITE",
+      },
+      {
+        level: 13,
+        move: "FAIRYWIND",
+      },
+      {
+        level: 16,
+        move: "STICKYWEB",
+      },
+      {
+        level: 18,
+        move: "SILKBOMB",
+      },
+      {
+        level: 20,
+        move: "SILVERWIND",
+      },
+      {
+        level: 23,
+        move: "SYRUPBOMB",
+      },
+      {
+        level: 25,
+        move: "SILKYCOCOON",
+      },
+      {
+        level: 27,
+        move: "TAUNT",
+      },
+      {
+        level: 29,
+        move: "DAZZLINGGLEAM",
+      },
+      {
+        level: 32,
+        move: "GIGADRAIN",
+      },
+      {
+        level: 34,
+        move: "DEFENDORDER",
+      },
+      {
+        level: 36,
+        move: "MISTYTERRAIN",
+      },
+      {
+        level: 39,
+        move: "ECHOEDVOICE",
+      },
+      {
+        level: 41,
+        move: "POLLENPUFF",
+      },
+      {
+        level: 43,
+        move: "MOONLIGHT",
+      },
+      {
+        level: 46,
+        move: "SUPERSONIC",
+      },
+      {
+        level: 48,
+        move: "QUIVERDANCE",
+      },
+      {
+        level: 50,
+        move: "MOONBLAST",
+      },
+      {
+        level: 53,
+        move: "TAILWIND",
+      },
+      {
+        level: 55,
+        move: "ROOST",
+      },
+      {
+        level: 57,
+        move: "OMINOUSWIND",
+      },
+      {
+        level: 59,
+        move: "AURORAVEIL",
+      },
     ],
-    "hiddenAbilities": [],
-    "category": "Silkworm Fairy",
-    "moves": [
-      {
-        "level": 1,
-        "move": "TACKLE"
-      },
-      {
-        "level": 4,
-        "move": "STRINGSHOT"
-      },
-      {
-        "level": 6,
-        "move": "SLEEPPOWDER"
-      },
-      {
-        "level": 9,
-        "move": "ABSORB"
-      },
-      {
-        "level": 11,
-        "move": "BUGBITE"
-      },
-      {
-        "level": 13,
-        "move": "FAIRYWIND"
-      },
-      {
-        "level": 16,
-        "move": "STICKYWEB"
-      },
-      {
-        "level": 18,
-        "move": "SILKBOMB"
-      },
-      {
-        "level": 20,
-        "move": "SILVERWIND"
-      },
-      {
-        "level": 23,
-        "move": "SYRUPBOMB"
-      },
-      {
-        "level": 25,
-        "move": "SILKYCOCOON"
-      },
-      {
-        "level": 27,
-        "move": "TAUNT"
-      },
-      {
-        "level": 29,
-        "move": "DAZZLINGGLEAM"
-      },
-      {
-        "level": 32,
-        "move": "GIGADRAIN"
-      },
-      {
-        "level": 34,
-        "move": "DEFENDORDER"
-      },
-      {
-        "level": 36,
-        "move": "MISTYTERRAIN"
-      },
-      {
-        "level": 39,
-        "move": "ECHOEDVOICE"
-      },
-      {
-        "level": 41,
-        "move": "POLLENPUFF"
-      },
-      {
-        "level": 43,
-        "move": "MOONLIGHT"
-      },
-      {
-        "level": 46,
-        "move": "SUPERSONIC"
-      },
-      {
-        "level": 48,
-        "move": "QUIVERDANCE"
-      },
-      {
-        "level": 50,
-        "move": "MOONBLAST"
-      },
-      {
-        "level": 53,
-        "move": "TAILWIND"
-      },
-      {
-        "level": 55,
-        "move": "ROOST"
-      },
-      {
-        "level": 57,
-        "move": "OMINOUSWIND"
-      },
-      {
-        "level": 59,
-        "move": "AURORAVEIL"
-      }
-    ],
-    "tutorMoves": [
+    tutorMoves: [
       "AERIALACE",
       "AFTERYOU",
       "ATTRACT",
@@ -3081,147 +2977,141 @@ export const fakemons: Fakemon[] = [
       "VENOSHOCK",
       "WORRYSEED",
       "XSCISSOR",
-      "TERABLAST"
+      "TERABLAST",
     ],
-    "eggMoves": [],
-    "suffix": "absolution",
-    "evolution": [],
-    "color": "Red"
+    eggMoves: [],
+    suffix: "absolution",
+    evolution: [],
+    color: "Red",
   },
   {
-    "id": "SORROWOOF",
-    "name": "Sorrowoof",
-    "types": [
-      "NORMAL"
-    ],
-    "sprite": "/Pokemon/Front/SORROWOOF.png",
-    "backSprite": "/Pokemon/Back/SORROWOOF.png",
-    "description": "They tend to forage in dumpsters, are quite fearful and tend to avoid unnecessary conflict at all costs, which makes them victims of abusive Pokémon.",
-    "stats": {
-      "hp": 65,
-      "attack": 43,
-      "defense": 42,
-      "speed": 43,
-      "spAttack": 38,
-      "spDefense": 38
+    id: "SORROWOOF",
+    name: "Sorrowoof",
+    types: ["NORMAL"],
+    sprite: "/Pokemon/Front/SORROWOOF.png",
+    backSprite: "/Pokemon/Back/SORROWOOF.png",
+    description:
+      "They tend to forage in dumpsters, are quite fearful and tend to avoid unnecessary conflict at all costs, which makes them victims of abusive Pokémon.",
+    stats: {
+      hp: 65,
+      attack: 43,
+      defense: 42,
+      speed: 43,
+      spAttack: 38,
+      spDefense: 38,
     },
-    "height": "0.5",
-    "weight": "13.6",
-    "abilities": [
-      "RUNAWAY",
-      "INTIMIDATE"
+    height: "0.5",
+    weight: "13.6",
+    abilities: ["RUNAWAY", "INTIMIDATE"],
+    hiddenAbilities: ["STAMINA"],
+    category: "Puppy",
+    moves: [
+      {
+        level: 1,
+        move: "TACKLE",
+      },
+      {
+        level: 4,
+        move: "FAKETEARS",
+      },
+      {
+        level: 6,
+        move: "PURSUIT",
+      },
+      {
+        level: 9,
+        move: "DETECT",
+      },
+      {
+        level: 11,
+        move: "TOUCHTHELIMIT",
+      },
+      {
+        level: 13,
+        move: "MARTIALFANG",
+      },
+      {
+        level: 16,
+        move: "SUPPLICATION",
+      },
+      {
+        level: 18,
+        move: "WORKUP",
+      },
+      {
+        level: 20,
+        move: "REVENGE",
+      },
+      {
+        level: 23,
+        move: "AGILITY",
+      },
+      {
+        level: 25,
+        move: "SUCKERPUNCH",
+      },
+      {
+        level: 27,
+        move: "SUBSTITUTE",
+      },
+      {
+        level: 29,
+        move: "BEATUP",
+      },
+      {
+        level: 32,
+        move: "CIRCLETHROW",
+      },
+      {
+        level: 34,
+        move: "CRUNCH",
+      },
+      {
+        level: 36,
+        move: "MACHPUNCH",
+      },
+      {
+        level: 39,
+        move: "TORMENT",
+      },
+      {
+        level: 41,
+        move: "SUBMISSION",
+      },
+      {
+        level: 43,
+        move: "DARKESTLARIAT",
+      },
+      {
+        level: 46,
+        move: "SCREECH",
+      },
+      {
+        level: 48,
+        move: "TAUNT",
+      },
+      {
+        level: 50,
+        move: "DYNAMICPUNCH",
+      },
+      {
+        level: 53,
+        move: "ROAR",
+      },
+      {
+        level: 55,
+        move: "PAINSPLIT",
+      },
+      {
+        level: 57,
+        move: "PLAYROUGH",
+      },
+      {
+        level: 59,
+        move: "CLOSECOMBAT",
+      },
     ],
-    "hiddenAbilities": [
-      "STAMINA"
-    ],
-    "category": "Puppy",
-    "moves": [
-      {
-        "level": 1,
-        "move": "TACKLE"
-      },
-      {
-        "level": 4,
-        "move": "FAKETEARS"
-      },
-      {
-        "level": 6,
-        "move": "PURSUIT"
-      },
-      {
-        "level": 9,
-        "move": "DETECT"
-      },
-      {
-        "level": 11,
-        "move": "TOUCHTHELIMIT"
-      },
-      {
-        "level": 13,
-        "move": "MARTIALFANG"
-      },
-      {
-        "level": 16,
-        "move": "SUPPLICATION"
-      },
-      {
-        "level": 18,
-        "move": "WORKUP"
-      },
-      {
-        "level": 20,
-        "move": "REVENGE"
-      },
-      {
-        "level": 23,
-        "move": "AGILITY"
-      },
-      {
-        "level": 25,
-        "move": "SUCKERPUNCH"
-      },
-      {
-        "level": 27,
-        "move": "SUBSTITUTE"
-      },
-      {
-        "level": 29,
-        "move": "BEATUP"
-      },
-      {
-        "level": 32,
-        "move": "CIRCLETHROW"
-      },
-      {
-        "level": 34,
-        "move": "CRUNCH"
-      },
-      {
-        "level": 36,
-        "move": "MACHPUNCH"
-      },
-      {
-        "level": 39,
-        "move": "TORMENT"
-      },
-      {
-        "level": 41,
-        "move": "SUBMISSION"
-      },
-      {
-        "level": 43,
-        "move": "DARKESTLARIAT"
-      },
-      {
-        "level": 46,
-        "move": "SCREECH"
-      },
-      {
-        "level": 48,
-        "move": "TAUNT"
-      },
-      {
-        "level": 50,
-        "move": "DYNAMICPUNCH"
-      },
-      {
-        "level": 53,
-        "move": "ROAR"
-      },
-      {
-        "level": 55,
-        "move": "PAINSPLIT"
-      },
-      {
-        "level": 57,
-        "move": "PLAYROUGH"
-      },
-      {
-        "level": 59,
-        "move": "CLOSECOMBAT"
-      }
-    ],
-    "tutorMoves": [
+    tutorMoves: [
       "FLOWERFANG",
       "ATTRACT",
       "CAPTIVATE",
@@ -3284,160 +3174,151 @@ export const fakemons: Fakemon[] = [
       "THUNDERFANG",
       "TORMENT",
       "TRAILBLAZE",
-      "UPROAR"
+      "UPROAR",
     ],
-    "eggMoves": [
-      "CHARM"
-    ],
-    "suffix": "absolution",
-    "evolution": [
+    eggMoves: ["CHARM"],
+    suffix: "absolution",
+    evolution: [
       {
-        "to": "WOOFIGHTER",
-        "method": "Level",
-        "value": "22"
-      }
+        to: "WOOFIGHTER",
+        method: "Level",
+        value: "22",
+      },
     ],
-    "color": "Brown"
+    color: "Brown",
   },
   {
-    "id": "WOOFIGHTER",
-    "name": "Woofighter",
-    "types": [
-      "NORMAL",
-      "FIGHTING"
-    ],
-    "sprite": "/Pokemon/Front/WOOFIGHTER.png",
-    "backSprite": "/Pokemon/Back/WOOFIGHTER.png",
-    "description": "They tend to avoid combat, but when it comes to defending their trainer, they won't hesitate for a second to fight and defeat anything that comes their way.",
-    "stats": {
-      "hp": 85,
-      "attack": 97,
-      "defense": 95,
-      "speed": 80,
-      "spAttack": 70,
-      "spDefense": 83
+    id: "WOOFIGHTER",
+    name: "Woofighter",
+    types: ["NORMAL", "FIGHTING"],
+    sprite: "/Pokemon/Front/WOOFIGHTER.png",
+    backSprite: "/Pokemon/Back/WOOFIGHTER.png",
+    description:
+      "They tend to avoid combat, but when it comes to defending their trainer, they won't hesitate for a second to fight and defeat anything that comes their way.",
+    stats: {
+      hp: 85,
+      attack: 97,
+      defense: 95,
+      speed: 80,
+      spAttack: 70,
+      spDefense: 83,
     },
-    "height": "2.0",
-    "weight": "70.0",
-    "abilities": [
-      "INTIMIDATE",
-      "MOXIE"
+    height: "2.0",
+    weight: "70.0",
+    abilities: ["INTIMIDATE", "MOXIE"],
+    hiddenAbilities: ["IRONFIST"],
+    category: "Puppy",
+    moves: [
+      {
+        level: 0,
+        move: "HAYMAKER",
+      },
+      {
+        level: 1,
+        move: "TACKLE",
+      },
+      {
+        level: 4,
+        move: "FAKETEARS",
+      },
+      {
+        level: 6,
+        move: "PURSUIT",
+      },
+      {
+        level: 9,
+        move: "DETECT",
+      },
+      {
+        level: 11,
+        move: "TOUCHTHELIMIT",
+      },
+      {
+        level: 13,
+        move: "MARTIALFANG",
+      },
+      {
+        level: 16,
+        move: "SUPPLICATION",
+      },
+      {
+        level: 18,
+        move: "WORKUP",
+      },
+      {
+        level: 20,
+        move: "CROSSCHOP",
+      },
+      {
+        level: 23,
+        move: "AGILITY",
+      },
+      {
+        level: 25,
+        move: "SUCKERPUNCH",
+      },
+      {
+        level: 27,
+        move: "SUBSTITUTE",
+      },
+      {
+        level: 29,
+        move: "BEATUP",
+      },
+      {
+        level: 32,
+        move: "CIRCLETHROW",
+      },
+      {
+        level: 34,
+        move: "CRUNCH",
+      },
+      {
+        level: 36,
+        move: "MACHPUNCH",
+      },
+      {
+        level: 39,
+        move: "TORMENT",
+      },
+      {
+        level: 41,
+        move: "SUBMISSION",
+      },
+      {
+        level: 43,
+        move: "DARKESTLARIAT",
+      },
+      {
+        level: 46,
+        move: "SCREECH",
+      },
+      {
+        level: 48,
+        move: "TAUNT",
+      },
+      {
+        level: 50,
+        move: "DYNAMICPUNCH",
+      },
+      {
+        level: 53,
+        move: "ROAR",
+      },
+      {
+        level: 55,
+        move: "PAINSPLIT",
+      },
+      {
+        level: 57,
+        move: "PLAYROUGH",
+      },
+      {
+        level: 59,
+        move: "CLOSECOMBAT",
+      },
     ],
-    "hiddenAbilities": [
-      "IRONFIST"
-    ],
-    "category": "Puppy",
-    "moves": [
-      {
-        "level": 0,
-        "move": "HAYMAKER"
-      },
-      {
-        "level": 1,
-        "move": "TACKLE"
-      },
-      {
-        "level": 4,
-        "move": "FAKETEARS"
-      },
-      {
-        "level": 6,
-        "move": "PURSUIT"
-      },
-      {
-        "level": 9,
-        "move": "DETECT"
-      },
-      {
-        "level": 11,
-        "move": "TOUCHTHELIMIT"
-      },
-      {
-        "level": 13,
-        "move": "MARTIALFANG"
-      },
-      {
-        "level": 16,
-        "move": "SUPPLICATION"
-      },
-      {
-        "level": 18,
-        "move": "WORKUP"
-      },
-      {
-        "level": 20,
-        "move": "CROSSCHOP"
-      },
-      {
-        "level": 23,
-        "move": "AGILITY"
-      },
-      {
-        "level": 25,
-        "move": "SUCKERPUNCH"
-      },
-      {
-        "level": 27,
-        "move": "SUBSTITUTE"
-      },
-      {
-        "level": 29,
-        "move": "BEATUP"
-      },
-      {
-        "level": 32,
-        "move": "CIRCLETHROW"
-      },
-      {
-        "level": 34,
-        "move": "CRUNCH"
-      },
-      {
-        "level": 36,
-        "move": "MACHPUNCH"
-      },
-      {
-        "level": 39,
-        "move": "TORMENT"
-      },
-      {
-        "level": 41,
-        "move": "SUBMISSION"
-      },
-      {
-        "level": 43,
-        "move": "DARKESTLARIAT"
-      },
-      {
-        "level": 46,
-        "move": "SCREECH"
-      },
-      {
-        "level": 48,
-        "move": "TAUNT"
-      },
-      {
-        "level": 50,
-        "move": "DYNAMICPUNCH"
-      },
-      {
-        "level": 53,
-        "move": "ROAR"
-      },
-      {
-        "level": 55,
-        "move": "PAINSPLIT"
-      },
-      {
-        "level": 57,
-        "move": "PLAYROUGH"
-      },
-      {
-        "level": 59,
-        "move": "CLOSECOMBAT"
-      }
-    ],
-    "tutorMoves": [
+    tutorMoves: [
       "FLOWERFANG",
       "ATTRACT",
       "CAPTIVATE",
@@ -3509,148 +3390,141 @@ export const fakemons: Fakemon[] = [
       "ICEPUNCH",
       "DYNAMICPUNCH",
       "FOCUSPUNCH",
-      "BRICKBREAK"
+      "BRICKBREAK",
     ],
-    "eggMoves": [
-      "CHARM"
-    ],
-    "suffix": "absolution",
-    "evolution": [],
-    "color": "Brown"
+    eggMoves: ["CHARM"],
+    suffix: "absolution",
+    evolution: [],
+    color: "Brown",
   },
   {
-    "id": "YUNTTER",
-    "name": "Yuntter",
-    "types": [
-      "WATER"
-    ],
-    "sprite": "/Pokemon/Front/YUNTTER.png",
-    "backSprite": "/Pokemon/Back/YUNTTER.png",
-    "description": "It is always seen with a rock and is known to be very territorial, not tolerating visits from unfamiliar Trainers or Pokémon. However, if you prove yourself to be an honorable Trainer, you will have no trouble.",
-    "stats": {
-      "hp": 38,
-      "attack": 35,
-      "defense": 25,
-      "speed": 100,
-      "spAttack": 30,
-      "spDefense": 25
+    id: "YUNTTER",
+    name: "Yuntter",
+    types: ["WATER"],
+    sprite: "/Pokemon/Front/YUNTTER.png",
+    backSprite: "/Pokemon/Back/YUNTTER.png",
+    description:
+      "It is always seen with a rock and is known to be very territorial, not tolerating visits from unfamiliar Trainers or Pokémon. However, if you prove yourself to be an honorable Trainer, you will have no trouble.",
+    stats: {
+      hp: 38,
+      attack: 35,
+      defense: 25,
+      speed: 100,
+      spAttack: 30,
+      spDefense: 25,
     },
-    "height": "0.4",
-    "weight": "6.0",
-    "abilities": [
-      "TORRENT"
+    height: "0.4",
+    weight: "6.0",
+    abilities: ["TORRENT"],
+    hiddenAbilities: ["SNIPER"],
+    category: "Otter",
+    moves: [
+      {
+        level: 1,
+        move: "PURSUIT",
+      },
+      {
+        level: 4,
+        move: "MUDSLAP",
+      },
+      {
+        level: 6,
+        move: "WATERGUN",
+      },
+      {
+        level: 9,
+        move: "MUDSPORT",
+      },
+      {
+        level: 11,
+        move: "FEINTATTACK",
+      },
+      {
+        level: 13,
+        move: "CONFUSERAY",
+      },
+      {
+        level: 16,
+        move: "INTHESPOTLIGHT",
+      },
+      {
+        level: 18,
+        move: "AQUAJET",
+      },
+      {
+        level: 20,
+        move: "SWIFT",
+      },
+      {
+        level: 23,
+        move: "MUDBOMB",
+      },
+      {
+        level: 25,
+        move: "WATERPULSE",
+      },
+      {
+        level: 27,
+        move: "WATERSPORT",
+      },
+      {
+        level: 29,
+        move: "BULLETPUNCH",
+      },
+      {
+        level: 32,
+        move: "AQUARING",
+      },
+      {
+        level: 34,
+        move: "FLATTER",
+      },
+      {
+        level: 36,
+        move: "RAZORSHELL",
+      },
+      {
+        level: 39,
+        move: "BRICKBREAK",
+      },
+      {
+        level: 41,
+        move: "CRUNCH",
+      },
+      {
+        level: 43,
+        move: "EARTHPOWER",
+      },
+      {
+        level: 46,
+        move: "NASTYPLOT",
+      },
+      {
+        level: 48,
+        move: "MUDDYWATER",
+      },
+      {
+        level: 50,
+        move: "METALSOUND",
+      },
+      {
+        level: 53,
+        move: "SHERIFFSHOT",
+      },
+      {
+        level: 55,
+        move: "DRILLRUN",
+      },
+      {
+        level: 57,
+        move: "FLASHCANNON",
+      },
+      {
+        level: 59,
+        move: "HYDROPUMP",
+      },
     ],
-    "hiddenAbilities": [
-      "SNIPER"
-    ],
-    "category": "Otter",
-    "moves": [
-      {
-        "level": 1,
-        "move": "PURSUIT"
-      },
-      {
-        "level": 4,
-        "move": "MUDSLAP"
-      },
-      {
-        "level": 6,
-        "move": "WATERGUN"
-      },
-      {
-        "level": 9,
-        "move": "MUDSPORT"
-      },
-      {
-        "level": 11,
-        "move": "FEINTATTACK"
-      },
-      {
-        "level": 13,
-        "move": "CONFUSERAY"
-      },
-      {
-        "level": 16,
-        "move": "INTHESPOTLIGHT"
-      },
-      {
-        "level": 18,
-        "move": "AQUAJET"
-      },
-      {
-        "level": 20,
-        "move": "SWIFT"
-      },
-      {
-        "level": 23,
-        "move": "MUDBOMB"
-      },
-      {
-        "level": 25,
-        "move": "WATERPULSE"
-      },
-      {
-        "level": 27,
-        "move": "WATERSPORT"
-      },
-      {
-        "level": 29,
-        "move": "BULLETPUNCH"
-      },
-      {
-        "level": 32,
-        "move": "AQUARING"
-      },
-      {
-        "level": 34,
-        "move": "FLATTER"
-      },
-      {
-        "level": 36,
-        "move": "RAZORSHELL"
-      },
-      {
-        "level": 39,
-        "move": "BRICKBREAK"
-      },
-      {
-        "level": 41,
-        "move": "CRUNCH"
-      },
-      {
-        "level": 43,
-        "move": "EARTHPOWER"
-      },
-      {
-        "level": 46,
-        "move": "NASTYPLOT"
-      },
-      {
-        "level": 48,
-        "move": "MUDDYWATER"
-      },
-      {
-        "level": 50,
-        "move": "METALSOUND"
-      },
-      {
-        "level": 53,
-        "move": "SHERIFFSHOT"
-      },
-      {
-        "level": 55,
-        "move": "DRILLRUN"
-      },
-      {
-        "level": 57,
-        "move": "FLASHCANNON"
-      },
-      {
-        "level": 59,
-        "move": "HYDROPUMP"
-      }
-    ],
-    "tutorMoves": [
+    tutorMoves: [
       "AGILITY",
       "AQUATAIL",
       "ATTRACT",
@@ -3712,153 +3586,147 @@ export const fakemons: Fakemon[] = [
       "THIEF",
       "WATERFALL",
       "WATERPULSE",
-      "WHIRLPOOL"
+      "WHIRLPOOL",
     ],
-    "eggMoves": [],
-    "suffix": "absolution",
-    "evolution": [
+    eggMoves: [],
+    suffix: "absolution",
+    evolution: [
       {
-        "to": "GUMSTTER",
-        "method": "Level",
-        "value": "20"
-      }
+        to: "GUMSTTER",
+        method: "Level",
+        value: "20",
+      },
     ],
-    "color": "Brown"
+    color: "Brown",
   },
   {
-    "id": "GUMSTTER",
-    "name": "Gumstter",
-    "types": [
-      "WATER",
-      "GROUND"
-    ],
-    "sprite": "/Pokemon/Front/GUMSTTER.png",
-    "backSprite": "/Pokemon/Back/GUMSTTER.png",
-    "description": "It protects its own with great ferocity and has remarkable aim. It is said to be able to hit a target from a kilometer away.",
-    "stats": {
-      "hp": 63,
-      "attack": 48,
-      "defense": 52,
-      "speed": 107,
-      "spAttack": 102,
-      "spDefense": 46
+    id: "GUMSTTER",
+    name: "Gumstter",
+    types: ["WATER", "GROUND"],
+    sprite: "/Pokemon/Front/GUMSTTER.png",
+    backSprite: "/Pokemon/Back/GUMSTTER.png",
+    description:
+      "It protects its own with great ferocity and has remarkable aim. It is said to be able to hit a target from a kilometer away.",
+    stats: {
+      hp: 63,
+      attack: 48,
+      defense: 52,
+      speed: 107,
+      spAttack: 102,
+      spDefense: 46,
     },
-    "height": "90.0",
-    "weight": "1.6",
-    "abilities": [
-      "TORRENT"
+    height: "90.0",
+    weight: "1.6",
+    abilities: ["TORRENT"],
+    hiddenAbilities: ["SNIPER"],
+    category: "Big Otter",
+    moves: [
+      {
+        level: 1,
+        move: "PURSUIT",
+      },
+      {
+        level: 4,
+        move: "MUDSLAP",
+      },
+      {
+        level: 6,
+        move: "WATERGUN",
+      },
+      {
+        level: 9,
+        move: "MUDSPORT",
+      },
+      {
+        level: 11,
+        move: "FEINTATTACK",
+      },
+      {
+        level: 13,
+        move: "CONFUSERAY",
+      },
+      {
+        level: 16,
+        move: "INTHESPOTLIGHT",
+      },
+      {
+        level: 18,
+        move: "AQUAJET",
+      },
+      {
+        level: 20,
+        move: "SWIFT",
+      },
+      {
+        level: 23,
+        move: "MUDBOMB",
+      },
+      {
+        level: 25,
+        move: "WATERPULSE",
+      },
+      {
+        level: 27,
+        move: "WATERSPORT",
+      },
+      {
+        level: 29,
+        move: "BULLETPUNCH",
+      },
+      {
+        level: 32,
+        move: "AQUARING",
+      },
+      {
+        level: 34,
+        move: "FLATTER",
+      },
+      {
+        level: 36,
+        move: "RAZORSHELL",
+      },
+      {
+        level: 39,
+        move: "BRICKBREAK",
+      },
+      {
+        level: 41,
+        move: "CRUNCH",
+      },
+      {
+        level: 43,
+        move: "EARTHPOWER",
+      },
+      {
+        level: 46,
+        move: "NASTYPLOT",
+      },
+      {
+        level: 48,
+        move: "MUDDYWATER",
+      },
+      {
+        level: 50,
+        move: "METALSOUND",
+      },
+      {
+        level: 53,
+        move: "SHERIFFSHOT",
+      },
+      {
+        level: 55,
+        move: "DRILLRUN",
+      },
+      {
+        level: 57,
+        move: "FLASHCANNON",
+      },
+      {
+        level: 59,
+        move: "HYDROPUMP",
+      },
     ],
-    "hiddenAbilities": [
-      "SNIPER"
-    ],
-    "category": "Big Otter",
-    "moves": [
-      {
-        "level": 1,
-        "move": "PURSUIT"
-      },
-      {
-        "level": 4,
-        "move": "MUDSLAP"
-      },
-      {
-        "level": 6,
-        "move": "WATERGUN"
-      },
-      {
-        "level": 9,
-        "move": "MUDSPORT"
-      },
-      {
-        "level": 11,
-        "move": "FEINTATTACK"
-      },
-      {
-        "level": 13,
-        "move": "CONFUSERAY"
-      },
-      {
-        "level": 16,
-        "move": "INTHESPOTLIGHT"
-      },
-      {
-        "level": 18,
-        "move": "AQUAJET"
-      },
-      {
-        "level": 20,
-        "move": "SWIFT"
-      },
-      {
-        "level": 23,
-        "move": "MUDBOMB"
-      },
-      {
-        "level": 25,
-        "move": "WATERPULSE"
-      },
-      {
-        "level": 27,
-        "move": "WATERSPORT"
-      },
-      {
-        "level": 29,
-        "move": "BULLETPUNCH"
-      },
-      {
-        "level": 32,
-        "move": "AQUARING"
-      },
-      {
-        "level": 34,
-        "move": "FLATTER"
-      },
-      {
-        "level": 36,
-        "move": "RAZORSHELL"
-      },
-      {
-        "level": 39,
-        "move": "BRICKBREAK"
-      },
-      {
-        "level": 41,
-        "move": "CRUNCH"
-      },
-      {
-        "level": 43,
-        "move": "EARTHPOWER"
-      },
-      {
-        "level": 46,
-        "move": "NASTYPLOT"
-      },
-      {
-        "level": 48,
-        "move": "MUDDYWATER"
-      },
-      {
-        "level": 50,
-        "move": "METALSOUND"
-      },
-      {
-        "level": 53,
-        "move": "SHERIFFSHOT"
-      },
-      {
-        "level": 55,
-        "move": "DRILLRUN"
-      },
-      {
-        "level": 57,
-        "move": "FLASHCANNON"
-      },
-      {
-        "level": 59,
-        "move": "HYDROPUMP"
-      }
-    ],
-    "tutorMoves": [
+    tutorMoves: [
       "AGILITY",
       "AQUATAIL",
       "ATTRACT",
@@ -3920,237 +3788,220 @@ export const fakemons: Fakemon[] = [
       "THIEF",
       "WATERFALL",
       "WATERPULSE",
-      "WHIRLPOOL"
+      "WHIRLPOOL",
     ],
-    "eggMoves": [],
-    "suffix": "absolution",
-    "evolution": [],
-    "color": "Brown"
+    eggMoves: [],
+    suffix: "absolution",
+    evolution: [],
+    color: "Brown",
   },
   {
-    "id": "AXISH",
-    "name": "Axish",
-    "types": [
-      "WATER",
-      "ROCK"
-    ],
-    "sprite": "/Pokemon/Front/AXISH.png",
-    "backSprite": "/Pokemon/Back/AXISH.png",
-    "description": "Despite its appearance and clumsy swimming style, it is an excellent predator. It uses the sharp edge of its axe-like fin to inflict multiple cuts on its prey, and once the target is weakened, it proceeds to devour it.",
-    "stats": {
-      "hp": 65,
-      "attack": 72,
-      "defense": 64,
-      "speed": 18,
-      "spAttack": 32,
-      "spDefense": 64
+    id: "AXISH",
+    name: "Axish",
+    types: ["WATER", "ROCK"],
+    sprite: "/Pokemon/Front/AXISH.png",
+    backSprite: "/Pokemon/Back/AXISH.png",
+    description:
+      "Despite its appearance and clumsy swimming style, it is an excellent predator. It uses the sharp edge of its axe-like fin to inflict multiple cuts on its prey, and once the target is weakened, it proceeds to devour it.",
+    stats: {
+      hp: 65,
+      attack: 72,
+      defense: 64,
+      speed: 18,
+      spAttack: 32,
+      spDefense: 64,
     },
-    "height": "0.6",
-    "weight": "10.0",
-    "abilities": [
-      "SWIFTSWIM"
+    height: "0.6",
+    weight: "10.0",
+    abilities: ["SWIFTSWIM"],
+    hiddenAbilities: ["ROCKHEAD", "RAINCUTTER"],
+    category: "Fish",
+    moves: [
+      {
+        level: 1,
+        move: "SPLASH",
+      },
+      {
+        level: 1,
+        move: "TACKLE",
+      },
+      {
+        level: 7,
+        move: "LEER",
+      },
+      {
+        level: 11,
+        move: "CUT",
+      },
+      {
+        level: 13,
+        move: "BITE",
+      },
+      {
+        level: 13,
+        move: "BUBBLE",
+      },
+      {
+        level: 18,
+        move: "BUBBLEBEAM",
+      },
+      {
+        level: 23,
+        move: "WHIRLPOOL",
+      },
+      {
+        level: 26,
+        move: "METALCLAW",
+      },
+      {
+        level: 27,
+        move: "METALCLAW",
+      },
+      {
+        level: 28,
+        move: "METALCLAW",
+      },
+      {
+        level: 29,
+        move: "METALCLAW",
+      },
+      {
+        level: 30,
+        move: "BRINE",
+      },
+      {
+        level: 33,
+        move: "SCARYFACE",
+      },
+      {
+        level: 36,
+        move: "WATERFALL",
+      },
     ],
-    "hiddenAbilities": [
-      "ROCKHEAD",
-      "RAINCUTTER"
+    tutorMoves: ["BOUNCE", "TERABLAST"],
+    eggMoves: [],
+    suffix: "absolution",
+    evolution: [
+      {
+        to: "JAXEWS",
+        method: "HasMoveType",
+        value: "STEEL",
+      },
     ],
-    "category": "Fish",
-    "moves": [
-      {
-        "level": 1,
-        "move": "SPLASH"
-      },
-      {
-        "level": 1,
-        "move": "TACKLE"
-      },
-      {
-        "level": 7,
-        "move": "LEER"
-      },
-      {
-        "level": 11,
-        "move": "CUT"
-      },
-      {
-        "level": 13,
-        "move": "BITE"
-      },
-      {
-        "level": 13,
-        "move": "BUBBLE"
-      },
-      {
-        "level": 18,
-        "move": "BUBBLEBEAM"
-      },
-      {
-        "level": 23,
-        "move": "WHIRLPOOL"
-      },
-      {
-        "level": 26,
-        "move": "METALCLAW"
-      },
-      {
-        "level": 27,
-        "move": "METALCLAW"
-      },
-      {
-        "level": 28,
-        "move": "METALCLAW"
-      },
-      {
-        "level": 29,
-        "move": "METALCLAW"
-      },
-      {
-        "level": 30,
-        "move": "BRINE"
-      },
-      {
-        "level": 33,
-        "move": "SCARYFACE"
-      },
-      {
-        "level": 36,
-        "move": "WATERFALL"
-      }
-    ],
-    "tutorMoves": [
-      "BOUNCE",
-      "TERABLAST"
-    ],
-    "eggMoves": [],
-    "suffix": "absolution",
-    "evolution": [
-      {
-        "to": "JAXEWS",
-        "method": "HasMoveType",
-        "value": "STEEL"
-      }
-    ],
-    "color": "Blue"
+    color: "Blue",
   },
   {
-    "id": "JAXEWS",
-    "name": "Jaxews",
-    "types": [
-      "WATER",
-      "STEEL"
-    ],
-    "sprite": "/Pokemon/Front/JAXEWS.png",
-    "backSprite": "/Pokemon/Back/JAXEWS.png",
-    "description": "They are fully aware of their massive size and avoid unnecessary conflicts, only attacking when feeding. The metal composing their axe is highly valuable, making them attractive targets for fishermen. However, very few people are willing to deal with this formidable Pokemon.",
-    "stats": {
-      "hp": 109,
-      "attack": 120,
-      "defense": 107,
-      "speed": 34,
-      "spAttack": 56,
-      "spDefense": 107
+    id: "JAXEWS",
+    name: "Jaxews",
+    types: ["WATER", "STEEL"],
+    sprite: "/Pokemon/Front/JAXEWS.png",
+    backSprite: "/Pokemon/Back/JAXEWS.png",
+    description:
+      "They are fully aware of their massive size and avoid unnecessary conflicts, only attacking when feeding. The metal composing their axe is highly valuable, making them attractive targets for fishermen. However, very few people are willing to deal with this formidable Pokemon.",
+    stats: {
+      hp: 109,
+      attack: 120,
+      defense: 107,
+      speed: 34,
+      spAttack: 56,
+      spDefense: 107,
     },
-    "height": "6.5",
-    "weight": "520.0",
-    "abilities": [
-      "INTIMIDATE"
+    height: "6.5",
+    weight: "520.0",
+    abilities: ["INTIMIDATE"],
+    hiddenAbilities: ["MOXIE", "RAINCUTTER"],
+    category: "Atrocious",
+    moves: [
+      {
+        level: 1,
+        move: "SPLASH",
+      },
+      {
+        level: 1,
+        move: "TACKLE",
+      },
+      {
+        level: 7,
+        move: "LEER",
+      },
+      {
+        level: 11,
+        move: "CUT",
+      },
+      {
+        level: 13,
+        move: "BITE",
+      },
+      {
+        level: 13,
+        move: "BUBBLE",
+      },
+      {
+        level: 18,
+        move: "BUBBLEBEAM",
+      },
+      {
+        level: 23,
+        move: "WHIRLPOOL",
+      },
+      {
+        level: 26,
+        move: "ICEFANG",
+      },
+      {
+        level: 30,
+        move: "BRINE",
+      },
+      {
+        level: 33,
+        move: "SCARYFACE",
+      },
+      {
+        level: 36,
+        move: "WATERFALL",
+      },
+      {
+        level: 40,
+        move: "CRUNCH",
+      },
+      {
+        level: 43,
+        move: "RAINDANCE",
+      },
+      {
+        level: 46,
+        move: "STONEAXE",
+      },
+      {
+        level: 50,
+        move: "AQUATAIL",
+      },
+      {
+        level: 53,
+        move: "DRAGONDANCE",
+      },
+      {
+        level: 56,
+        move: "AQUAAXE",
+      },
+      {
+        level: 60,
+        move: "IRONHEAD",
+      },
+      {
+        level: 63,
+        move: "THRASH",
+      },
+      {
+        level: 66,
+        move: "HYPERBEAM",
+      },
+      {
+        level: 70,
+        move: "IRONTAIL",
+      },
     ],
-    "hiddenAbilities": [
-      "MOXIE",
-      "RAINCUTTER"
-    ],
-    "category": "Atrocious",
-    "moves": [
-      {
-        "level": 1,
-        "move": "SPLASH"
-      },
-      {
-        "level": 1,
-        "move": "TACKLE"
-      },
-      {
-        "level": 7,
-        "move": "LEER"
-      },
-      {
-        "level": 11,
-        "move": "CUT"
-      },
-      {
-        "level": 13,
-        "move": "BITE"
-      },
-      {
-        "level": 13,
-        "move": "BUBBLE"
-      },
-      {
-        "level": 18,
-        "move": "BUBBLEBEAM"
-      },
-      {
-        "level": 23,
-        "move": "WHIRLPOOL"
-      },
-      {
-        "level": 26,
-        "move": "ICEFANG"
-      },
-      {
-        "level": 30,
-        "move": "BRINE"
-      },
-      {
-        "level": 33,
-        "move": "SCARYFACE"
-      },
-      {
-        "level": 36,
-        "move": "WATERFALL"
-      },
-      {
-        "level": 40,
-        "move": "CRUNCH"
-      },
-      {
-        "level": 43,
-        "move": "RAINDANCE"
-      },
-      {
-        "level": 46,
-        "move": "STONEAXE"
-      },
-      {
-        "level": 50,
-        "move": "AQUATAIL"
-      },
-      {
-        "level": 53,
-        "move": "DRAGONDANCE"
-      },
-      {
-        "level": 56,
-        "move": "AQUAAXE"
-      },
-      {
-        "level": 60,
-        "move": "IRONHEAD"
-      },
-      {
-        "level": 63,
-        "move": "THRASH"
-      },
-      {
-        "level": 66,
-        "move": "HYPERBEAM"
-      },
-      {
-        "level": 70,
-        "move": "IRONTAIL"
-      }
-    ],
-    "tutorMoves": [
+    tutorMoves: [
       "AQUATAIL",
       "ATTRACT",
       "AVALANCHE",
@@ -4231,147 +4082,141 @@ export const fakemons: Fakemon[] = [
       "TWISTER",
       "WATERFALL",
       "WATERPULSE",
-      "WHIRLPOOL"
+      "WHIRLPOOL",
     ],
-    "eggMoves": [],
-    "suffix": "absolution",
-    "evolution": [],
-    "color": "Blue"
+    eggMoves: [],
+    suffix: "absolution",
+    evolution: [],
+    color: "Blue",
   },
   {
-    "id": "GROWRAGE",
-    "name": "Growrage",
-    "types": [
-      "NORMAL"
-    ],
-    "sprite": "/Pokemon/Front/GROWRAGE.png",
-    "backSprite": "/Pokemon/Back/GROWRAGE.png",
-    "description": "It is a heroic Pokémon, often seen helping and protecting other Pokémon.",
-    "stats": {
-      "hp": 60,
-      "attack": 60,
-      "defense": 55,
-      "speed": 60,
-      "spAttack": 60,
-      "spDefense": 55
+    id: "GROWRAGE",
+    name: "Growrage",
+    types: ["NORMAL"],
+    sprite: "/Pokemon/Front/GROWRAGE.png",
+    backSprite: "/Pokemon/Back/GROWRAGE.png",
+    description:
+      "It is a heroic Pokémon, often seen helping and protecting other Pokémon.",
+    stats: {
+      hp: 60,
+      attack: 60,
+      defense: 55,
+      speed: 60,
+      spAttack: 60,
+      spDefense: 55,
     },
-    "height": "0.7",
-    "weight": "19.0",
-    "abilities": [
-      "INTIMIDATE",
-      "INNERFOCUS"
+    height: "0.7",
+    weight: "19.0",
+    abilities: ["INTIMIDATE", "INNERFOCUS"],
+    hiddenAbilities: ["JUSTIFIED"],
+    category: "Puppy",
+    moves: [
+      {
+        level: 1,
+        move: "QUICKATTACK",
+      },
+      {
+        level: 4,
+        move: "GROWL",
+      },
+      {
+        level: 6,
+        move: "MUDSHOT",
+      },
+      {
+        level: 9,
+        move: "RAGE",
+      },
+      {
+        level: 11,
+        move: "TRIFORCE",
+      },
+      {
+        level: 13,
+        move: "MARTIALFANG",
+      },
+      {
+        level: 16,
+        move: "METALCLAW",
+      },
+      {
+        level: 18,
+        move: "PAYBACK",
+      },
+      {
+        level: 20,
+        move: "BULKUP",
+      },
+      {
+        level: 23,
+        move: "MIRRORSHOT",
+      },
+      {
+        level: 25,
+        move: "BITE",
+      },
+      {
+        level: 27,
+        move: "TRIPLEKICK",
+      },
+      {
+        level: 29,
+        move: "ROAR",
+      },
+      {
+        level: 32,
+        move: "NORETREAT",
+      },
+      {
+        level: 34,
+        move: "STOMP",
+      },
+      {
+        level: 36,
+        move: "METALSOUND",
+      },
+      {
+        level: 39,
+        move: "NIGHTSLASH",
+      },
+      {
+        level: 41,
+        move: "SLASH",
+      },
+      {
+        level: 43,
+        move: "IRONTAIL",
+      },
+      {
+        level: 46,
+        move: "TRIATTACK",
+      },
+      {
+        level: 48,
+        move: "CRUNCH",
+      },
+      {
+        level: 50,
+        move: "EXTREMESPEED",
+      },
+      {
+        level: 53,
+        move: "EARTHQUAKE",
+      },
+      {
+        level: 55,
+        move: "TWILIGHTCUT",
+      },
+      {
+        level: 57,
+        move: "NIGHTFALL",
+      },
+      {
+        level: 59,
+        move: "CLOSECOMBAT",
+      },
     ],
-    "hiddenAbilities": [
-      "JUSTIFIED"
-    ],
-    "category": "Puppy",
-    "moves": [
-      {
-        "level": 1,
-        "move": "QUICKATTACK"
-      },
-      {
-        "level": 4,
-        "move": "GROWL"
-      },
-      {
-        "level": 6,
-        "move": "MUDSHOT"
-      },
-      {
-        "level": 9,
-        "move": "RAGE"
-      },
-      {
-        "level": 11,
-        "move": "TRIFORCE"
-      },
-      {
-        "level": 13,
-        "move": "MARTIALFANG"
-      },
-      {
-        "level": 16,
-        "move": "METALCLAW"
-      },
-      {
-        "level": 18,
-        "move": "PAYBACK"
-      },
-      {
-        "level": 20,
-        "move": "BULKUP"
-      },
-      {
-        "level": 23,
-        "move": "MIRRORSHOT"
-      },
-      {
-        "level": 25,
-        "move": "BITE"
-      },
-      {
-        "level": 27,
-        "move": "TRIPLEKICK"
-      },
-      {
-        "level": 29,
-        "move": "ROAR"
-      },
-      {
-        "level": 32,
-        "move": "NORETREAT"
-      },
-      {
-        "level": 34,
-        "move": "STOMP"
-      },
-      {
-        "level": 36,
-        "move": "METALSOUND"
-      },
-      {
-        "level": 39,
-        "move": "NIGHTSLASH"
-      },
-      {
-        "level": 41,
-        "move": "SLASH"
-      },
-      {
-        "level": 43,
-        "move": "IRONTAIL"
-      },
-      {
-        "level": 46,
-        "move": "TRIATTACK"
-      },
-      {
-        "level": 48,
-        "move": "CRUNCH"
-      },
-      {
-        "level": 50,
-        "move": "EXTREMESPEED"
-      },
-      {
-        "level": 53,
-        "move": "EARTHQUAKE"
-      },
-      {
-        "level": 55,
-        "move": "TWILIGHTCUT"
-      },
-      {
-        "level": 57,
-        "move": "NIGHTFALL"
-      },
-      {
-        "level": 59,
-        "move": "CLOSECOMBAT"
-      }
-    ],
-    "tutorMoves": [
+    tutorMoves: [
       "FLOWERFANG",
       "ATTRACT",
       "CAPTIVATE",
@@ -4434,154 +4279,147 @@ export const fakemons: Fakemon[] = [
       "THUNDERFANG",
       "TORMENT",
       "TRAILBLAZE",
-      "UPROAR"
+      "UPROAR",
     ],
-    "eggMoves": [],
-    "suffix": "absolution",
-    "evolution": [
+    eggMoves: [],
+    suffix: "absolution",
+    evolution: [
       {
-        "to": "TWYLICAN",
-        "method": "LevelTwincessInParty",
-        "value": "25"
-      }
+        to: "TWYLICAN",
+        method: "LevelTwincessInParty",
+        value: "25",
+      },
     ],
-    "color": "Yellow"
+    color: "Yellow",
   },
   {
-    "id": "TWYLICAN",
-    "name": "Twylican",
-    "types": [
-      "FIGHTING",
-      "STEEL"
-    ],
-    "sprite": "/Pokemon/Front/TWYLICAN.png",
-    "backSprite": "/Pokemon/Back/TWYLICAN.png",
-    "description": "It has a strong sense of justice and is often seen roaming the forest, searching for Trainers and Pokémon in need of help. Twylican will not hesitate to step in and protect the weak, earning the respect of those who witness its bravery.",
-    "stats": {
-      "hp": 90,
-      "attack": 110,
-      "defense": 70,
-      "speed": 110,
-      "spAttack": 100,
-      "spDefense": 75
+    id: "TWYLICAN",
+    name: "Twylican",
+    types: ["FIGHTING", "STEEL"],
+    sprite: "/Pokemon/Front/TWYLICAN.png",
+    backSprite: "/Pokemon/Back/TWYLICAN.png",
+    description:
+      "It has a strong sense of justice and is often seen roaming the forest, searching for Trainers and Pokémon in need of help. Twylican will not hesitate to step in and protect the weak, earning the respect of those who witness its bravery.",
+    stats: {
+      hp: 90,
+      attack: 110,
+      defense: 70,
+      speed: 110,
+      spAttack: 100,
+      spDefense: 75,
     },
-    "height": "0.7",
-    "weight": "19.0",
-    "abilities": [
-      "INTIMIDATE",
-      "INNERFOCUS"
+    height: "0.7",
+    weight: "19.0",
+    abilities: ["INTIMIDATE", "INNERFOCUS"],
+    hiddenAbilities: ["JUSTIFIED"],
+    category: "Hero",
+    moves: [
+      {
+        level: 1,
+        move: "QUICKATTACK",
+      },
+      {
+        level: 4,
+        move: "GROWL",
+      },
+      {
+        level: 6,
+        move: "MUDSHOT",
+      },
+      {
+        level: 9,
+        move: "RAGE",
+      },
+      {
+        level: 11,
+        move: "TRIFORCE",
+      },
+      {
+        level: 13,
+        move: "MARTIALFANG",
+      },
+      {
+        level: 16,
+        move: "METALCLAW",
+      },
+      {
+        level: 18,
+        move: "PAYBACK",
+      },
+      {
+        level: 20,
+        move: "BULKUP",
+      },
+      {
+        level: 23,
+        move: "MIRRORSHOT",
+      },
+      {
+        level: 25,
+        move: "BITE",
+      },
+      {
+        level: 27,
+        move: "TRIPLEKICK",
+      },
+      {
+        level: 29,
+        move: "ROAR",
+      },
+      {
+        level: 32,
+        move: "NORETREAT",
+      },
+      {
+        level: 34,
+        move: "STOMP",
+      },
+      {
+        level: 36,
+        move: "METALSOUND",
+      },
+      {
+        level: 39,
+        move: "NIGHTSLASH",
+      },
+      {
+        level: 41,
+        move: "SLASH",
+      },
+      {
+        level: 43,
+        move: "IRONTAIL",
+      },
+      {
+        level: 46,
+        move: "TRIATTACK",
+      },
+      {
+        level: 48,
+        move: "CRUNCH",
+      },
+      {
+        level: 50,
+        move: "EXTREMESPEED",
+      },
+      {
+        level: 53,
+        move: "EARTHQUAKE",
+      },
+      {
+        level: 55,
+        move: "TWILIGHTCUT",
+      },
+      {
+        level: 57,
+        move: "NIGHTFALL",
+      },
+      {
+        level: 59,
+        move: "CLOSECOMBAT",
+      },
     ],
-    "hiddenAbilities": [
-      "JUSTIFIED"
-    ],
-    "category": "Hero",
-    "moves": [
-      {
-        "level": 1,
-        "move": "QUICKATTACK"
-      },
-      {
-        "level": 4,
-        "move": "GROWL"
-      },
-      {
-        "level": 6,
-        "move": "MUDSHOT"
-      },
-      {
-        "level": 9,
-        "move": "RAGE"
-      },
-      {
-        "level": 11,
-        "move": "TRIFORCE"
-      },
-      {
-        "level": 13,
-        "move": "MARTIALFANG"
-      },
-      {
-        "level": 16,
-        "move": "METALCLAW"
-      },
-      {
-        "level": 18,
-        "move": "PAYBACK"
-      },
-      {
-        "level": 20,
-        "move": "BULKUP"
-      },
-      {
-        "level": 23,
-        "move": "MIRRORSHOT"
-      },
-      {
-        "level": 25,
-        "move": "BITE"
-      },
-      {
-        "level": 27,
-        "move": "TRIPLEKICK"
-      },
-      {
-        "level": 29,
-        "move": "ROAR"
-      },
-      {
-        "level": 32,
-        "move": "NORETREAT"
-      },
-      {
-        "level": 34,
-        "move": "STOMP"
-      },
-      {
-        "level": 36,
-        "move": "METALSOUND"
-      },
-      {
-        "level": 39,
-        "move": "NIGHTSLASH"
-      },
-      {
-        "level": 41,
-        "move": "SLASH"
-      },
-      {
-        "level": 43,
-        "move": "IRONTAIL"
-      },
-      {
-        "level": 46,
-        "move": "TRIATTACK"
-      },
-      {
-        "level": 48,
-        "move": "CRUNCH"
-      },
-      {
-        "level": 50,
-        "move": "EXTREMESPEED"
-      },
-      {
-        "level": 53,
-        "move": "EARTHQUAKE"
-      },
-      {
-        "level": 55,
-        "move": "TWILIGHTCUT"
-      },
-      {
-        "level": 57,
-        "move": "NIGHTFALL"
-      },
-      {
-        "level": 59,
-        "move": "CLOSECOMBAT"
-      }
-    ],
-    "tutorMoves": [
+    tutorMoves: [
       "FLOWERFANG",
       "ATTRACT",
       "CAPTIVATE",
@@ -4644,111 +4482,105 @@ export const fakemons: Fakemon[] = [
       "THUNDERFANG",
       "TORMENT",
       "TRAILBLAZE",
-      "UPROAR"
+      "UPROAR",
     ],
-    "eggMoves": [],
-    "suffix": "absolution",
-    "evolution": [],
-    "color": "Green"
+    eggMoves: [],
+    suffix: "absolution",
+    evolution: [],
+    color: "Green",
   },
   {
-    "id": "CRYOWL",
-    "name": "Cryowl",
-    "types": [
-      "ICE",
-      "FLYING"
-    ],
-    "sprite": "/Pokemon/Front/CRYOWL.png",
-    "backSprite": "/Pokemon/Back/CRYOWL.png",
-    "description": "It can hunt easily thanks to its ability to fly without being heard and its excellent eyesight. Despite its bright white color, it manages to hide very well in the darkness.",
-    "stats": {
-      "hp": 60,
-      "attack": 62,
-      "defense": 30,
-      "speed": 50,
-      "spAttack": 36,
-      "spDefense": 30
+    id: "CRYOWL",
+    name: "Cryowl",
+    types: ["ICE", "FLYING"],
+    sprite: "/Pokemon/Front/CRYOWL.png",
+    backSprite: "/Pokemon/Back/CRYOWL.png",
+    description:
+      "It can hunt easily thanks to its ability to fly without being heard and its excellent eyesight. Despite its bright white color, it manages to hide very well in the darkness.",
+    stats: {
+      hp: 60,
+      attack: 62,
+      defense: 30,
+      speed: 50,
+      spAttack: 36,
+      spDefense: 30,
     },
-    "height": "0.5",
-    "weight": "21.2",
-    "abilities": [
-      "REFRIGERATE"
+    height: "0.5",
+    weight: "21.2",
+    abilities: ["REFRIGERATE"],
+    hiddenAbilities: ["ICEKING"],
+    category: "Owl",
+    moves: [
+      {
+        level: 1,
+        move: "PECK",
+      },
+      {
+        level: 1,
+        move: "GROWL",
+      },
+      {
+        level: 3,
+        move: "TACKLE",
+      },
+      {
+        level: 6,
+        move: "POWDERSNOW",
+      },
+      {
+        level: 9,
+        move: "REFLECT",
+      },
+      {
+        level: 12,
+        move: "ICESHARD",
+      },
+      {
+        level: 15,
+        move: "DEFOG",
+      },
+      {
+        level: 18,
+        move: "AIRSLASH",
+      },
+      {
+        level: 21,
+        move: "AURORABEAM",
+      },
+      {
+        level: 24,
+        move: "TAKEDOWN",
+      },
+      {
+        level: 27,
+        move: "MOONBLAST",
+      },
+      {
+        level: 33,
+        move: "CRYOSWITCH",
+      },
+      {
+        level: 36,
+        move: "ROOST",
+      },
+      {
+        level: 39,
+        move: "CRYOSPEED",
+      },
+      {
+        level: 42,
+        move: "AURORAVEIL",
+      },
+      {
+        level: 46,
+        move: "ARCTICMALTREATMENT",
+      },
+      {
+        level: 51,
+        move: "DRILLPECK",
+      },
     ],
-    "hiddenAbilities": [
-      "ICEKING"
-    ],
-    "category": "Owl",
-    "moves": [
-      {
-        "level": 1,
-        "move": "PECK"
-      },
-      {
-        "level": 1,
-        "move": "GROWL"
-      },
-      {
-        "level": 3,
-        "move": "TACKLE"
-      },
-      {
-        "level": 6,
-        "move": "POWDERSNOW"
-      },
-      {
-        "level": 9,
-        "move": "REFLECT"
-      },
-      {
-        "level": 12,
-        "move": "ICESHARD"
-      },
-      {
-        "level": 15,
-        "move": "DEFOG"
-      },
-      {
-        "level": 18,
-        "move": "AIRSLASH"
-      },
-      {
-        "level": 21,
-        "move": "AURORABEAM"
-      },
-      {
-        "level": 24,
-        "move": "TAKEDOWN"
-      },
-      {
-        "level": 27,
-        "move": "MOONBLAST"
-      },
-      {
-        "level": 33,
-        "move": "CRYOSWITCH"
-      },
-      {
-        "level": 36,
-        "move": "ROOST"
-      },
-      {
-        "level": 39,
-        "move": "CRYOSPEED"
-      },
-      {
-        "level": 42,
-        "move": "AURORAVEIL"
-      },
-      {
-        "level": 46,
-        "move": "ARCTICMALTREATMENT"
-      },
-      {
-        "level": 51,
-        "move": "DRILLPECK"
-      }
-    ],
-    "tutorMoves": [
+    tutorMoves: [
       "PLUCK",
       "ACROBATICS",
       "AERIALACE",
@@ -4799,9 +4631,9 @@ export const fakemons: Fakemon[] = [
       "THIEF",
       "TWISTER",
       "UPROAR",
-      "WORKUP"
+      "WORKUP",
     ],
-    "eggMoves": [
+    eggMoves: [
       "AGILITY",
       "DEFOG",
       "FEATHERDANCE",
@@ -4811,111 +4643,104 @@ export const fakemons: Fakemon[] = [
       "SKYATTACK",
       "SUPERSONIC",
       "WHIRLWIND",
-      "WINGATTACK"
+      "WINGATTACK",
     ],
-    "suffix": "absolution",
-    "evolution": [],
-    "color": "White"
+    suffix: "absolution",
+    evolution: [],
+    color: "White",
   },
   {
-    "id": "CRYOCROWN",
-    "name": "Cryocrown",
-    "types": [
-      "ICE",
-      "FLYING"
-    ],
-    "sprite": "/Pokemon/Front/CRYOCROWN.png",
-    "backSprite": "/Pokemon/Back/CRYOCROWN.png",
-    "description": "It is said that the larger the crown of this species, the stronger and faster it is. It has an incredible ability to move silently when hunting, but most of the time it will be showing off its crown.",
-    "stats": {
-      "hp": 101,
-      "attack": 116,
-      "defense": 58,
-      "speed": 100,
-      "spAttack": 66,
-      "spDefense": 58
+    id: "CRYOCROWN",
+    name: "Cryocrown",
+    types: ["ICE", "FLYING"],
+    sprite: "/Pokemon/Front/CRYOCROWN.png",
+    backSprite: "/Pokemon/Back/CRYOCROWN.png",
+    description:
+      "It is said that the larger the crown of this species, the stronger and faster it is. It has an incredible ability to move silently when hunting, but most of the time it will be showing off its crown.",
+    stats: {
+      hp: 101,
+      attack: 116,
+      defense: 58,
+      speed: 100,
+      spAttack: 66,
+      spDefense: 58,
     },
-    "height": "1.5",
-    "weight": "50.7",
-    "abilities": [
-      "INSOMNIA",
-      "SNOWWARNING"
+    height: "1.5",
+    weight: "50.7",
+    abilities: ["INSOMNIA", "SNOWWARNING"],
+    hiddenAbilities: ["ICEKING"],
+    category: "Owl",
+    moves: [
+      {
+        level: 1,
+        move: "PECK",
+      },
+      {
+        level: 1,
+        move: "GROWL",
+      },
+      {
+        level: 3,
+        move: "TACKLE",
+      },
+      {
+        level: 6,
+        move: "POWDERSNOW",
+      },
+      {
+        level: 9,
+        move: "REFLECT",
+      },
+      {
+        level: 12,
+        move: "ICESHARD",
+      },
+      {
+        level: 15,
+        move: "DEFOG",
+      },
+      {
+        level: 18,
+        move: "AIRSLASH",
+      },
+      {
+        level: 21,
+        move: "AURORABEAM",
+      },
+      {
+        level: 24,
+        move: "TAKEDOWN",
+      },
+      {
+        level: 27,
+        move: "MOONBLAST",
+      },
+      {
+        level: 33,
+        move: "CRYOSWITCH",
+      },
+      {
+        level: 36,
+        move: "ROOST",
+      },
+      {
+        level: 39,
+        move: "CRYOSPEED",
+      },
+      {
+        level: 42,
+        move: "AURORAVEIL",
+      },
+      {
+        level: 46,
+        move: "ARCTICMALTREATMENT",
+      },
+      {
+        level: 51,
+        move: "DRILLPECK",
+      },
     ],
-    "hiddenAbilities": [
-      "ICEKING"
-    ],
-    "category": "Owl",
-    "moves": [
-      {
-        "level": 1,
-        "move": "PECK"
-      },
-      {
-        "level": 1,
-        "move": "GROWL"
-      },
-      {
-        "level": 3,
-        "move": "TACKLE"
-      },
-      {
-        "level": 6,
-        "move": "POWDERSNOW"
-      },
-      {
-        "level": 9,
-        "move": "REFLECT"
-      },
-      {
-        "level": 12,
-        "move": "ICESHARD"
-      },
-      {
-        "level": 15,
-        "move": "DEFOG"
-      },
-      {
-        "level": 18,
-        "move": "AIRSLASH"
-      },
-      {
-        "level": 21,
-        "move": "AURORABEAM"
-      },
-      {
-        "level": 24,
-        "move": "TAKEDOWN"
-      },
-      {
-        "level": 27,
-        "move": "MOONBLAST"
-      },
-      {
-        "level": 33,
-        "move": "CRYOSWITCH"
-      },
-      {
-        "level": 36,
-        "move": "ROOST"
-      },
-      {
-        "level": 39,
-        "move": "CRYOSPEED"
-      },
-      {
-        "level": 42,
-        "move": "AURORAVEIL"
-      },
-      {
-        "level": 46,
-        "move": "ARCTICMALTREATMENT"
-      },
-      {
-        "level": 51,
-        "move": "DRILLPECK"
-      }
-    ],
-    "tutorMoves": [
+    tutorMoves: [
       "PLUCK",
       "ACROBATICS",
       "AERIALACE",
@@ -4966,143 +4791,137 @@ export const fakemons: Fakemon[] = [
       "THIEF",
       "TWISTER",
       "UPROAR",
-      "WORKUP"
+      "WORKUP",
     ],
-    "eggMoves": [],
-    "suffix": "absolution",
-    "evolution": [],
-    "color": "White"
+    eggMoves: [],
+    suffix: "absolution",
+    evolution: [],
+    color: "White",
   },
   {
-    "id": "SPIBBY",
-    "name": "Spibby",
-    "types": [
-      "BUG",
-      "DARK"
-    ],
-    "sprite": "/Pokemon/Front/SPIBBY.png",
-    "backSprite": "/Pokemon/Back/SPIBBY.png",
-    "description": "It is very timid, so it tends to attack in groups using rather underhanded and unfair tactics.",
-    "stats": {
-      "hp": 35,
-      "attack": 48,
-      "defense": 90,
-      "speed": 40,
-      "spAttack": 35,
-      "spDefense": 77
+    id: "SPIBBY",
+    name: "Spibby",
+    types: ["BUG", "DARK"],
+    sprite: "/Pokemon/Front/SPIBBY.png",
+    backSprite: "/Pokemon/Back/SPIBBY.png",
+    description:
+      "It is very timid, so it tends to attack in groups using rather underhanded and unfair tactics.",
+    stats: {
+      hp: 35,
+      attack: 48,
+      defense: 90,
+      speed: 40,
+      spAttack: 35,
+      spDefense: 77,
     },
-    "height": "0.4",
-    "weight": "6.5",
-    "abilities": [
-      "SWARM"
+    height: "0.4",
+    weight: "6.5",
+    abilities: ["SWARM"],
+    hiddenAbilities: ["OVERCOAT"],
+    category: "Amblypygi",
+    moves: [
+      {
+        level: 1,
+        move: "TWINEEDLE",
+      },
+      {
+        level: 5,
+        move: "STRINGSHOT",
+      },
+      {
+        level: 8,
+        move: "POISONSTING",
+      },
+      {
+        level: 10,
+        move: "PURSUIT",
+      },
+      {
+        level: 13,
+        move: "STICKYWEB",
+      },
+      {
+        level: 18,
+        move: "FURYCUTTER",
+      },
+      {
+        level: 21,
+        move: "MUDSHOT",
+      },
+      {
+        level: 24,
+        move: "INFESTATION",
+      },
+      {
+        level: 26,
+        move: "KNOCKOFF",
+      },
+      {
+        level: 29,
+        move: "SPIDERWEB",
+      },
+      {
+        level: 32,
+        move: "STEALTHROCK",
+      },
+      {
+        level: 35,
+        move: "SHADOWCLAW",
+      },
+      {
+        level: 37,
+        move: "TORTUROUSGRAB",
+      },
+      {
+        level: 40,
+        move: "TAUNT",
+      },
+      {
+        level: 43,
+        move: "CRUNCH",
+      },
+      {
+        level: 45,
+        move: "SPIKES",
+      },
+      {
+        level: 48,
+        move: "DETECT",
+      },
+      {
+        level: 51,
+        move: "SILKTRAP",
+      },
+      {
+        level: 53,
+        move: "BEATUP",
+      },
+      {
+        level: 56,
+        move: "SUBSTITUTE",
+      },
+      {
+        level: 59,
+        move: "XSCISSOR",
+      },
+      {
+        level: 61,
+        move: "REFLECT",
+      },
+      {
+        level: 64,
+        move: "TRICKROOM",
+      },
+      {
+        level: 67,
+        move: "TORMENT",
+      },
+      {
+        level: 70,
+        move: "SCREECH",
+      },
     ],
-    "hiddenAbilities": [
-      "OVERCOAT"
-    ],
-    "category": "Amblypygi",
-    "moves": [
-      {
-        "level": 1,
-        "move": "TWINEEDLE"
-      },
-      {
-        "level": 5,
-        "move": "STRINGSHOT"
-      },
-      {
-        "level": 8,
-        "move": "POISONSTING"
-      },
-      {
-        "level": 10,
-        "move": "PURSUIT"
-      },
-      {
-        "level": 13,
-        "move": "STICKYWEB"
-      },
-      {
-        "level": 18,
-        "move": "FURYCUTTER"
-      },
-      {
-        "level": 21,
-        "move": "MUDSHOT"
-      },
-      {
-        "level": 24,
-        "move": "INFESTATION"
-      },
-      {
-        "level": 26,
-        "move": "KNOCKOFF"
-      },
-      {
-        "level": 29,
-        "move": "SPIDERWEB"
-      },
-      {
-        "level": 32,
-        "move": "STEALTHROCK"
-      },
-      {
-        "level": 35,
-        "move": "SHADOWCLAW"
-      },
-      {
-        "level": 37,
-        "move": "TORTUROUSGRAB"
-      },
-      {
-        "level": 40,
-        "move": "TAUNT"
-      },
-      {
-        "level": 43,
-        "move": "CRUNCH"
-      },
-      {
-        "level": 45,
-        "move": "SPIKES"
-      },
-      {
-        "level": 48,
-        "move": "DETECT"
-      },
-      {
-        "level": 51,
-        "move": "SILKTRAP"
-      },
-      {
-        "level": 53,
-        "move": "BEATUP"
-      },
-      {
-        "level": 56,
-        "move": "SUBSTITUTE"
-      },
-      {
-        "level": 59,
-        "move": "XSCISSOR"
-      },
-      {
-        "level": 61,
-        "move": "REFLECT"
-      },
-      {
-        "level": 64,
-        "move": "TRICKROOM"
-      },
-      {
-        "level": 67,
-        "move": "TORMENT"
-      },
-      {
-        "level": 70,
-        "move": "SCREECH"
-      }
-    ],
-    "tutorMoves": [
+    tutorMoves: [
       "ACIDSPRAY",
       "AGILITY",
       "ATTRACT",
@@ -5165,154 +4984,147 @@ export const fakemons: Fakemon[] = [
       "TOXICSPIKES",
       "TRAILBLAZE",
       "VENOSHOCK",
-      "XSCISSOR"
+      "XSCISSOR",
     ],
-    "eggMoves": [],
-    "suffix": "absolution",
-    "evolution": [
+    eggMoves: [],
+    suffix: "absolution",
+    evolution: [
       {
-        "to": "KINGDER",
-        "method": "Level",
-        "value": "28"
-      }
+        to: "KINGDER",
+        method: "Level",
+        value: "28",
+      },
     ],
-    "color": "Black"
+    color: "Black",
   },
   {
-    "id": "KINGDER",
-    "name": "Kingder",
-    "types": [
-      "BUG",
-      "DARK"
-    ],
-    "sprite": "/Pokemon/Front/KINGDER.png",
-    "backSprite": "/Pokemon/Back/KINGDER.png",
-    "description": "It often commands a large group to capture other Pokémon and then devour them. Many Trainers have been caught while trying to catch one.",
-    "stats": {
-      "hp": 70,
-      "attack": 75,
-      "defense": 115,
-      "speed": 58,
-      "spAttack": 48,
-      "spDefense": 109
+    id: "KINGDER",
+    name: "Kingder",
+    types: ["BUG", "DARK"],
+    sprite: "/Pokemon/Front/KINGDER.png",
+    backSprite: "/Pokemon/Back/KINGDER.png",
+    description:
+      "It often commands a large group to capture other Pokémon and then devour them. Many Trainers have been caught while trying to catch one.",
+    stats: {
+      hp: 70,
+      attack: 75,
+      defense: 115,
+      speed: 58,
+      spAttack: 48,
+      spDefense: 109,
     },
-    "height": "1.3",
-    "weight": "60.0",
-    "abilities": [
-      "SWARM",
-      "TYRANNY"
+    height: "1.3",
+    weight: "60.0",
+    abilities: ["SWARM", "TYRANNY"],
+    hiddenAbilities: ["OVERCOAT"],
+    category: "Amblypygi",
+    moves: [
+      {
+        level: 1,
+        move: "TWINEEDLE",
+      },
+      {
+        level: 5,
+        move: "STRINGSHOT",
+      },
+      {
+        level: 8,
+        move: "POISONSTING",
+      },
+      {
+        level: 10,
+        move: "PURSUIT",
+      },
+      {
+        level: 13,
+        move: "STICKYWEB",
+      },
+      {
+        level: 16,
+        move: "TELATRAPO",
+      },
+      {
+        level: 18,
+        move: "FURYCUTTER",
+      },
+      {
+        level: 21,
+        move: "MUDSHOT",
+      },
+      {
+        level: 24,
+        move: "INFESTATION",
+      },
+      {
+        level: 26,
+        move: "KNOCKOFF",
+      },
+      {
+        level: 29,
+        move: "SPIDERWEB",
+      },
+      {
+        level: 32,
+        move: "STEALTHROCK",
+      },
+      {
+        level: 35,
+        move: "SHADOWCLAW",
+      },
+      {
+        level: 37,
+        move: "TORTUROUSGRAB",
+      },
+      {
+        level: 40,
+        move: "TAUNT",
+      },
+      {
+        level: 43,
+        move: "CRUNCH",
+      },
+      {
+        level: 45,
+        move: "SPIKES",
+      },
+      {
+        level: 48,
+        move: "DETECT",
+      },
+      {
+        level: 51,
+        move: "SILKTRAP",
+      },
+      {
+        level: 53,
+        move: "BEATUP",
+      },
+      {
+        level: 56,
+        move: "SUBSTITUTE",
+      },
+      {
+        level: 59,
+        move: "XSCISSOR",
+      },
+      {
+        level: 61,
+        move: "REFLECT",
+      },
+      {
+        level: 64,
+        move: "TRICKROOM",
+      },
+      {
+        level: 67,
+        move: "TORMENT",
+      },
+      {
+        level: 70,
+        move: "SCREECH",
+      },
     ],
-    "hiddenAbilities": [
-      "OVERCOAT"
-    ],
-    "category": "Amblypygi",
-    "moves": [
-      {
-        "level": 1,
-        "move": "TWINEEDLE"
-      },
-      {
-        "level": 5,
-        "move": "STRINGSHOT"
-      },
-      {
-        "level": 8,
-        "move": "POISONSTING"
-      },
-      {
-        "level": 10,
-        "move": "PURSUIT"
-      },
-      {
-        "level": 13,
-        "move": "STICKYWEB"
-      },
-      {
-        "level": 16,
-        "move": "TELATRAPO"
-      },
-      {
-        "level": 18,
-        "move": "FURYCUTTER"
-      },
-      {
-        "level": 21,
-        "move": "MUDSHOT"
-      },
-      {
-        "level": 24,
-        "move": "INFESTATION"
-      },
-      {
-        "level": 26,
-        "move": "KNOCKOFF"
-      },
-      {
-        "level": 29,
-        "move": "SPIDERWEB"
-      },
-      {
-        "level": 32,
-        "move": "STEALTHROCK"
-      },
-      {
-        "level": 35,
-        "move": "SHADOWCLAW"
-      },
-      {
-        "level": 37,
-        "move": "TORTUROUSGRAB"
-      },
-      {
-        "level": 40,
-        "move": "TAUNT"
-      },
-      {
-        "level": 43,
-        "move": "CRUNCH"
-      },
-      {
-        "level": 45,
-        "move": "SPIKES"
-      },
-      {
-        "level": 48,
-        "move": "DETECT"
-      },
-      {
-        "level": 51,
-        "move": "SILKTRAP"
-      },
-      {
-        "level": 53,
-        "move": "BEATUP"
-      },
-      {
-        "level": 56,
-        "move": "SUBSTITUTE"
-      },
-      {
-        "level": 59,
-        "move": "XSCISSOR"
-      },
-      {
-        "level": 61,
-        "move": "REFLECT"
-      },
-      {
-        "level": 64,
-        "move": "TRICKROOM"
-      },
-      {
-        "level": 67,
-        "move": "TORMENT"
-      },
-      {
-        "level": 70,
-        "move": "SCREECH"
-      }
-    ],
-    "tutorMoves": [
+    tutorMoves: [
       "ACIDSPRAY",
       "AGILITY",
       "ATTRACT",
@@ -5375,83 +5187,77 @@ export const fakemons: Fakemon[] = [
       "TOXICSPIKES",
       "TRAILBLAZE",
       "VENOSHOCK",
-      "XSCISSOR"
+      "XSCISSOR",
     ],
-    "eggMoves": [],
-    "suffix": "absolution",
-    "evolution": [],
-    "color": "Black"
+    eggMoves: [],
+    suffix: "absolution",
+    evolution: [],
+    color: "Black",
   },
   {
-    "id": "TWIXIE",
-    "name": "Twixie",
-    "types": [
-      "FAIRY"
-    ],
-    "sprite": "/Pokemon/Front/TWIXIE.png",
-    "backSprite": "/Pokemon/Back/TWIXIE.png",
-    "description": "It exhibits a high level of intelligence and a preference for dimly lit environments. Researchers believe its behavior is influenced by exposure to interdimensional energy, which may explain its affinity for mischief and shadow manipulation.",
-    "stats": {
-      "hp": 74,
-      "attack": 80,
-      "defense": 70,
-      "speed": 30,
-      "spAttack": 72,
-      "spDefense": 82
+    id: "TWIXIE",
+    name: "Twixie",
+    types: ["FAIRY"],
+    sprite: "/Pokemon/Front/TWIXIE.png",
+    backSprite: "/Pokemon/Back/TWIXIE.png",
+    description:
+      "It exhibits a high level of intelligence and a preference for dimly lit environments. Researchers believe its behavior is influenced by exposure to interdimensional energy, which may explain its affinity for mischief and shadow manipulation.",
+    stats: {
+      hp: 74,
+      attack: 80,
+      defense: 70,
+      speed: 30,
+      spAttack: 72,
+      spDefense: 82,
     },
-    "height": "0.4",
-    "weight": "10.6",
-    "abilities": [
-      "HEALER",
-      "ANTICIPATION"
+    height: "0.4",
+    weight: "10.6",
+    abilities: ["HEALER", "ANTICIPATION"],
+    hiddenAbilities: ["MAGICBOUNCE"],
+    category: "Twili",
+    moves: [
+      {
+        level: 1,
+        move: "CONFUSION",
+      },
+      {
+        level: 1,
+        move: "PLAYNICE",
+      },
+      {
+        level: 5,
+        move: "LIFEDEW",
+      },
+      {
+        level: 10,
+        move: "DISARMINGVOICE",
+      },
+      {
+        level: 15,
+        move: "AROMATICMIST",
+      },
+      {
+        level: 20,
+        move: "PSYBEAM",
+      },
+      {
+        level: 25,
+        move: "ACCELBURST",
+      },
+      {
+        level: 30,
+        move: "DAZZLINGGLEAM",
+      },
+      {
+        level: 37,
+        move: "CALMMIND",
+      },
+      {
+        level: 46,
+        move: "WEIRDPUNCH",
+      },
     ],
-    "hiddenAbilities": [
-      "MAGICBOUNCE"
-    ],
-    "category": "Twili",
-    "moves": [
-      {
-        "level": 1,
-        "move": "CONFUSION"
-      },
-      {
-        "level": 1,
-        "move": "PLAYNICE"
-      },
-      {
-        "level": 5,
-        "move": "LIFEDEW"
-      },
-      {
-        "level": 10,
-        "move": "DISARMINGVOICE"
-      },
-      {
-        "level": 15,
-        "move": "AROMATICMIST"
-      },
-      {
-        "level": 20,
-        "move": "PSYBEAM"
-      },
-      {
-        "level": 25,
-        "move": "ACCELBURST"
-      },
-      {
-        "level": 30,
-        "move": "DAZZLINGGLEAM"
-      },
-      {
-        "level": 37,
-        "move": "CALMMIND"
-      },
-      {
-        "level": 46,
-        "move": "WEIRDPUNCH"
-      }
-    ],
-    "tutorMoves": [
+    tutorMoves: [
       "ATTRACT",
       "BATONPASS",
       "CALMMIND",
@@ -5502,112 +5308,99 @@ export const fakemons: Fakemon[] = [
       "TERABLAST",
       "THUNDERWAVE",
       "TRICK",
-      "TRICKROOM"
+      "TRICKROOM",
     ],
-    "eggMoves": [
-      "AFTERYOU",
-      "AROMATICMIST",
-      "MYSTICALFIRE",
-      "NUZZLE",
-      "QUASH"
-    ],
-    "suffix": "absolution",
-    "evolution": [
+    eggMoves: ["AFTERYOU", "AROMATICMIST", "MYSTICALFIRE", "NUZZLE", "QUASH"],
+    suffix: "absolution",
+    evolution: [
       {
-        "to": "TWINCESS",
-        "method": "Item",
-        "value": "MOONSTONE"
-      }
+        to: "TWINCESS",
+        method: "Item",
+        value: "MOONSTONE",
+      },
     ],
-    "color": "Black"
+    color: "Black",
   },
   {
-    "id": "TWINCESS",
-    "name": "Twincess",
-    "types": [
-      "FAIRY",
-      "DARK"
-    ],
-    "sprite": "/Pokemon/Front/TWINCESS.png",
-    "backSprite": "/Pokemon/Back/TWINCESS.png",
-    "description": "Studies suggest it originated from a parallel plane where light and shadow coexist in balance. Upon full maturation, its physiological changes include the development of a crown-like structure and a marked increase in psychic and spectral emissions.",
-    "stats": {
-      "hp": 95,
-      "attack": 104,
-      "defense": 91,
-      "speed": 40,
-      "spAttack": 93,
-      "spDefense": 106
+    id: "TWINCESS",
+    name: "Twincess",
+    types: ["FAIRY", "DARK"],
+    sprite: "/Pokemon/Front/TWINCESS.png",
+    backSprite: "/Pokemon/Back/TWINCESS.png",
+    description:
+      "Studies suggest it originated from a parallel plane where light and shadow coexist in balance. Upon full maturation, its physiological changes include the development of a crown-like structure and a marked increase in psychic and spectral emissions.",
+    stats: {
+      hp: 95,
+      attack: 104,
+      defense: 91,
+      speed: 40,
+      spAttack: 93,
+      spDefense: 106,
     },
-    "height": "1.6",
-    "weight": "20.4",
-    "abilities": [
-      "HEALER",
-      "ANTICIPATION"
+    height: "1.6",
+    weight: "20.4",
+    abilities: ["HEALER", "ANTICIPATION"],
+    hiddenAbilities: ["MAGICBOUNCE"],
+    category: "Twili",
+    moves: [
+      {
+        level: 0,
+        move: "PSYCHOCUT",
+      },
+      {
+        level: 1,
+        move: "BRUTALSWING",
+      },
+      {
+        level: 1,
+        move: "CONFUSION",
+      },
+      {
+        level: 1,
+        move: "PLAYNICE",
+      },
+      {
+        level: 1,
+        move: "LIFEDEW",
+      },
+      {
+        level: 1,
+        move: "DISARMINGVOICE",
+      },
+      {
+        level: 15,
+        move: "AROMATICMIST",
+      },
+      {
+        level: 20,
+        move: "PSYBEAM",
+      },
+      {
+        level: 25,
+        move: "ACCELBURST",
+      },
+      {
+        level: 30,
+        move: "DAZZLINGGLEAM",
+      },
+      {
+        level: 37,
+        move: "CALMMIND",
+      },
+      {
+        level: 46,
+        move: "WEIRDPUNCH",
+      },
+      {
+        level: 55,
+        move: "HEALINGWISH",
+      },
+      {
+        level: 64,
+        move: "MAGICPOWDER",
+      },
     ],
-    "hiddenAbilities": [
-      "MAGICBOUNCE"
-    ],
-    "category": "Twili",
-    "moves": [
-      {
-        "level": 0,
-        "move": "PSYCHOCUT"
-      },
-      {
-        "level": 1,
-        "move": "BRUTALSWING"
-      },
-      {
-        "level": 1,
-        "move": "CONFUSION"
-      },
-      {
-        "level": 1,
-        "move": "PLAYNICE"
-      },
-      {
-        "level": 1,
-        "move": "LIFEDEW"
-      },
-      {
-        "level": 1,
-        "move": "DISARMINGVOICE"
-      },
-      {
-        "level": 15,
-        "move": "AROMATICMIST"
-      },
-      {
-        "level": 20,
-        "move": "PSYBEAM"
-      },
-      {
-        "level": 25,
-        "move": "ACCELBURST"
-      },
-      {
-        "level": 30,
-        "move": "DAZZLINGGLEAM"
-      },
-      {
-        "level": 37,
-        "move": "CALMMIND"
-      },
-      {
-        "level": 46,
-        "move": "WEIRDPUNCH"
-      },
-      {
-        "level": 55,
-        "move": "HEALINGWISH"
-      },
-      {
-        "level": 64,
-        "move": "MAGICPOWDER"
-      }
-    ],
-    "tutorMoves": [
+    tutorMoves: [
       "AGILITY",
       "ATTRACT",
       "BATONPASS",
@@ -5675,159 +5468,153 @@ export const fakemons: Fakemon[] = [
       "THUNDERWAVE",
       "TRICK",
       "TRICKROOM",
-      "WONDERROOM"
+      "WONDERROOM",
     ],
-    "eggMoves": [],
-    "suffix": "absolution",
-    "evolution": [],
-    "color": "Black"
+    eggMoves: [],
+    suffix: "absolution",
+    evolution: [],
+    color: "Black",
   },
   {
-    "id": "ASHCOIL",
-    "name": "Ashcoil",
-    "types": [
-      "FIRE"
-    ],
-    "sprite": "/Pokemon/Front/ASHCOIL.png",
-    "backSprite": "/Pokemon/Back/ASHCOIL.png",
-    "description": "From an early age, they emit intense heat. Their bite causes a dangerous spike in their prey's body temperature, often causing victims to collapse from hyperthermia before they can escape.",
-    "stats": {
-      "hp": 56,
-      "attack": 63,
-      "defense": 42,
-      "speed": 66,
-      "spAttack": 50,
-      "spDefense": 50
+    id: "ASHCOIL",
+    name: "Ashcoil",
+    types: ["FIRE"],
+    sprite: "/Pokemon/Front/ASHCOIL.png",
+    backSprite: "/Pokemon/Back/ASHCOIL.png",
+    description:
+      "From an early age, they emit intense heat. Their bite causes a dangerous spike in their prey's body temperature, often causing victims to collapse from hyperthermia before they can escape.",
+    stats: {
+      hp: 56,
+      attack: 63,
+      defense: 42,
+      speed: 66,
+      spAttack: 50,
+      spDefense: 50,
     },
-    "height": "1.0",
-    "weight": "3.2",
-    "abilities": [
-      "BLAZE",
-      "SHEDSKIN"
+    height: "1.0",
+    weight: "3.2",
+    abilities: ["BLAZE", "SHEDSKIN"],
+    hiddenAbilities: ["BURNEATER"],
+    category: "Snake",
+    moves: [
+      {
+        level: 1,
+        move: "CONSTRICT",
+      },
+      {
+        level: 5,
+        move: "DEFENSECURL",
+      },
+      {
+        level: 6,
+        move: "EMBER",
+      },
+      {
+        level: 7,
+        move: "FURYATTACK",
+      },
+      {
+        level: 9,
+        move: "GASTROACID",
+      },
+      {
+        level: 11,
+        move: "QUICKATTACK",
+      },
+      {
+        level: 13,
+        move: "WILLOWISP",
+      },
+      {
+        level: 16,
+        move: "FLAMECHARGE",
+      },
+      {
+        level: 18,
+        move: "PURSUIT",
+      },
+      {
+        level: 21,
+        move: "SCALESHOT",
+      },
+      {
+        level: 25,
+        move: "DETECT",
+      },
+      {
+        level: 26,
+        move: "DRAGONTAIL",
+      },
+      {
+        level: 28,
+        move: "BITE",
+      },
+      {
+        level: 29,
+        move: "COIL",
+      },
+      {
+        level: 29,
+        move: "DRAGONBREATH",
+      },
+      {
+        level: 33,
+        move: "EMBARGO",
+      },
+      {
+        level: 33,
+        move: "INTHESPOTLIGHT",
+      },
+      {
+        level: 35,
+        move: "FEINTATTACK",
+      },
+      {
+        level: 36,
+        move: "FLAMEWHEEL",
+      },
+      {
+        level: 38,
+        move: "FIREFANG",
+      },
+      {
+        level: 40,
+        move: "AGILITY",
+      },
+      {
+        level: 40,
+        move: "KNOCKOFF",
+      },
+      {
+        level: 42,
+        move: "FLAMEBURST",
+      },
+      {
+        level: 43,
+        move: "CRUNCH",
+      },
+      {
+        level: 44,
+        move: "DRAGONDANCE",
+      },
+      {
+        level: 45,
+        move: "HYPERFANG",
+      },
+      {
+        level: 47,
+        move: "DRAGONPULSE",
+      },
+      {
+        level: 48,
+        move: "DRAGONRUSH",
+      },
+      {
+        level: 50,
+        move: "OUTRAGE",
+      },
     ],
-    "hiddenAbilities": [
-      "BURNEATER"
-    ],
-    "category": "Snake",
-    "moves": [
-      {
-        "level": 1,
-        "move": "CONSTRICT"
-      },
-      {
-        "level": 5,
-        "move": "DEFENSECURL"
-      },
-      {
-        "level": 6,
-        "move": "EMBER"
-      },
-      {
-        "level": 7,
-        "move": "FURYATTACK"
-      },
-      {
-        "level": 9,
-        "move": "GASTROACID"
-      },
-      {
-        "level": 11,
-        "move": "QUICKATTACK"
-      },
-      {
-        "level": 13,
-        "move": "WILLOWISP"
-      },
-      {
-        "level": 16,
-        "move": "FLAMECHARGE"
-      },
-      {
-        "level": 18,
-        "move": "PURSUIT"
-      },
-      {
-        "level": 21,
-        "move": "SCALESHOT"
-      },
-      {
-        "level": 25,
-        "move": "DETECT"
-      },
-      {
-        "level": 26,
-        "move": "DRAGONTAIL"
-      },
-      {
-        "level": 28,
-        "move": "BITE"
-      },
-      {
-        "level": 29,
-        "move": "COIL"
-      },
-      {
-        "level": 29,
-        "move": "DRAGONBREATH"
-      },
-      {
-        "level": 33,
-        "move": "EMBARGO"
-      },
-      {
-        "level": 33,
-        "move": "INTHESPOTLIGHT"
-      },
-      {
-        "level": 35,
-        "move": "FEINTATTACK"
-      },
-      {
-        "level": 36,
-        "move": "FLAMEWHEEL"
-      },
-      {
-        "level": 38,
-        "move": "FIREFANG"
-      },
-      {
-        "level": 40,
-        "move": "AGILITY"
-      },
-      {
-        "level": 40,
-        "move": "KNOCKOFF"
-      },
-      {
-        "level": 42,
-        "move": "FLAMEBURST"
-      },
-      {
-        "level": 43,
-        "move": "CRUNCH"
-      },
-      {
-        "level": 44,
-        "move": "DRAGONDANCE"
-      },
-      {
-        "level": 45,
-        "move": "HYPERFANG"
-      },
-      {
-        "level": 47,
-        "move": "DRAGONPULSE"
-      },
-      {
-        "level": 48,
-        "move": "DRAGONRUSH"
-      },
-      {
-        "level": 50,
-        "move": "OUTRAGE"
-      }
-    ],
-    "tutorMoves": [
+    tutorMoves: [
       "ACIDARMOR",
       "ACROBATICS",
       "AERIALACE",
@@ -5871,9 +5658,9 @@ export const fakemons: Fakemon[] = [
       "THUNDERFANG",
       "TOXIC",
       "TOXICSPIKES",
-      "TERABLAST"
+      "TERABLAST",
     ],
-    "eggMoves": [
+    eggMoves: [
       "ABYSSALBITE",
       "BABYDOLLEYES",
       "BEATUP",
@@ -5887,164 +5674,158 @@ export const fakemons: Fakemon[] = [
       "FAIRYWIND",
       "FOULPLAY",
       "SNARL",
-      "TWISTER"
+      "TWISTER",
     ],
-    "suffix": "absolution",
-    "evolution": [
+    suffix: "absolution",
+    evolution: [
       {
-        "to": "BLAZECOIL",
-        "method": "Level",
-        "value": "25"
-      }
+        to: "BLAZECOIL",
+        method: "Level",
+        value: "25",
+      },
     ],
-    "color": "Yellow"
+    color: "Yellow",
   },
   {
-    "id": "BLAZECOIL",
-    "name": "Blazecoil",
-    "types": [
-      "FIRE"
-    ],
-    "sprite": "/Pokemon/Front/BLAZECOIL.png",
-    "backSprite": "/Pokemon/Back/BLAZECOIL.png",
-    "description": "They tend to constrict their prey and incinerate them with their body heat. Despite having a powerful bite, they usually avoid biting their prey - recent studies indicate they do this out of pride.",
-    "stats": {
-      "hp": 76,
-      "attack": 95,
-      "defense": 60,
-      "speed": 100,
-      "spAttack": 67,
-      "spDefense": 72
+    id: "BLAZECOIL",
+    name: "Blazecoil",
+    types: ["FIRE"],
+    sprite: "/Pokemon/Front/BLAZECOIL.png",
+    backSprite: "/Pokemon/Back/BLAZECOIL.png",
+    description:
+      "They tend to constrict their prey and incinerate them with their body heat. Despite having a powerful bite, they usually avoid biting their prey - recent studies indicate they do this out of pride.",
+    stats: {
+      hp: 76,
+      attack: 95,
+      defense: 60,
+      speed: 100,
+      spAttack: 67,
+      spDefense: 72,
     },
-    "height": "2.5",
-    "weight": "6.9",
-    "abilities": [
-      "BLAZE",
-      "SHEDSKIN"
+    height: "2.5",
+    weight: "6.9",
+    abilities: ["BLAZE", "SHEDSKIN"],
+    hiddenAbilities: ["BURNEATER"],
+    category: "Snake",
+    moves: [
+      {
+        level: 1,
+        move: "CONSTRICT",
+      },
+      {
+        level: 5,
+        move: "DEFENSECURL",
+      },
+      {
+        level: 6,
+        move: "EMBER",
+      },
+      {
+        level: 7,
+        move: "FURYATTACK",
+      },
+      {
+        level: 9,
+        move: "GASTROACID",
+      },
+      {
+        level: 11,
+        move: "QUICKATTACK",
+      },
+      {
+        level: 13,
+        move: "WILLOWISP",
+      },
+      {
+        level: 16,
+        move: "FLAMECHARGE",
+      },
+      {
+        level: 18,
+        move: "PURSUIT",
+      },
+      {
+        level: 21,
+        move: "SCALESHOT",
+      },
+      {
+        level: 25,
+        move: "DETECT",
+      },
+      {
+        level: 26,
+        move: "DRAGONTAIL",
+      },
+      {
+        level: 28,
+        move: "BITE",
+      },
+      {
+        level: 29,
+        move: "COIL",
+      },
+      {
+        level: 29,
+        move: "DRAGONBREATH",
+      },
+      {
+        level: 33,
+        move: "EMBARGO",
+      },
+      {
+        level: 33,
+        move: "INTHESPOTLIGHT",
+      },
+      {
+        level: 35,
+        move: "FEINTATTACK",
+      },
+      {
+        level: 36,
+        move: "FLAMEWHEEL",
+      },
+      {
+        level: 38,
+        move: "FIREFANG",
+      },
+      {
+        level: 40,
+        move: "AGILITY",
+      },
+      {
+        level: 40,
+        move: "KNOCKOFF",
+      },
+      {
+        level: 42,
+        move: "FLAMEBURST",
+      },
+      {
+        level: 43,
+        move: "CRUNCH",
+      },
+      {
+        level: 44,
+        move: "DRAGONDANCE",
+      },
+      {
+        level: 45,
+        move: "HYPERFANG",
+      },
+      {
+        level: 47,
+        move: "DRAGONPULSE",
+      },
+      {
+        level: 48,
+        move: "DRAGONRUSH",
+      },
+      {
+        level: 50,
+        move: "OUTRAGE",
+      },
     ],
-    "hiddenAbilities": [
-      "BURNEATER"
-    ],
-    "category": "Snake",
-    "moves": [
-      {
-        "level": 1,
-        "move": "CONSTRICT"
-      },
-      {
-        "level": 5,
-        "move": "DEFENSECURL"
-      },
-      {
-        "level": 6,
-        "move": "EMBER"
-      },
-      {
-        "level": 7,
-        "move": "FURYATTACK"
-      },
-      {
-        "level": 9,
-        "move": "GASTROACID"
-      },
-      {
-        "level": 11,
-        "move": "QUICKATTACK"
-      },
-      {
-        "level": 13,
-        "move": "WILLOWISP"
-      },
-      {
-        "level": 16,
-        "move": "FLAMECHARGE"
-      },
-      {
-        "level": 18,
-        "move": "PURSUIT"
-      },
-      {
-        "level": 21,
-        "move": "SCALESHOT"
-      },
-      {
-        "level": 25,
-        "move": "DETECT"
-      },
-      {
-        "level": 26,
-        "move": "DRAGONTAIL"
-      },
-      {
-        "level": 28,
-        "move": "BITE"
-      },
-      {
-        "level": 29,
-        "move": "COIL"
-      },
-      {
-        "level": 29,
-        "move": "DRAGONBREATH"
-      },
-      {
-        "level": 33,
-        "move": "EMBARGO"
-      },
-      {
-        "level": 33,
-        "move": "INTHESPOTLIGHT"
-      },
-      {
-        "level": 35,
-        "move": "FEINTATTACK"
-      },
-      {
-        "level": 36,
-        "move": "FLAMEWHEEL"
-      },
-      {
-        "level": 38,
-        "move": "FIREFANG"
-      },
-      {
-        "level": 40,
-        "move": "AGILITY"
-      },
-      {
-        "level": 40,
-        "move": "KNOCKOFF"
-      },
-      {
-        "level": 42,
-        "move": "FLAMEBURST"
-      },
-      {
-        "level": 43,
-        "move": "CRUNCH"
-      },
-      {
-        "level": 44,
-        "move": "DRAGONDANCE"
-      },
-      {
-        "level": 45,
-        "move": "HYPERFANG"
-      },
-      {
-        "level": 47,
-        "move": "DRAGONPULSE"
-      },
-      {
-        "level": 48,
-        "move": "DRAGONRUSH"
-      },
-      {
-        "level": 50,
-        "move": "OUTRAGE"
-      }
-    ],
-    "tutorMoves": [
+    tutorMoves: [
       "ACIDARMOR",
       "ACROBATICS",
       "AERIALACE",
@@ -6088,9 +5869,9 @@ export const fakemons: Fakemon[] = [
       "THUNDERFANG",
       "TOXIC",
       "TOXICSPIKES",
-      "TERABLAST"
+      "TERABLAST",
     ],
-    "eggMoves": [
+    eggMoves: [
       "ABYSSALBITE",
       "BABYDOLLEYES",
       "BEATUP",
@@ -6104,165 +5885,158 @@ export const fakemons: Fakemon[] = [
       "FAIRYWIND",
       "FOULPLAY",
       "SNARL",
-      "TWISTER"
+      "TWISTER",
     ],
-    "suffix": "absolution",
-    "evolution": [
+    suffix: "absolution",
+    evolution: [
       {
-        "to": "INFERNOIL",
-        "method": "Level",
-        "value": "35"
-      }
+        to: "INFERNOIL",
+        method: "Level",
+        value: "35",
+      },
     ],
-    "color": "Red"
+    color: "Red",
   },
   {
-    "id": "INFERNOIL",
-    "name": "Infernoil",
-    "types": [
-      "FIRE",
-      "DRAGON"
-    ],
-    "sprite": "/Pokemon/Front/INFERNOIL.png",
-    "backSprite": "/Pokemon/Back/INFERNOIL.png",
-    "description": "They ascend to the highest mountain peaks before launching themselves downward at tremendous speed. Witnesses who have observed this phenomenon describe it as \"a miniature meteor.\" They can control the heat of their flames at will.",
-    "stats": {
-      "hp": 69,
-      "attack": 110,
-      "defense": 85,
-      "speed": 115,
-      "spAttack": 80,
-      "spDefense": 87
+    id: "INFERNOIL",
+    name: "Infernoil",
+    types: ["FIRE", "DRAGON"],
+    sprite: "/Pokemon/Front/INFERNOIL.png",
+    backSprite: "/Pokemon/Back/INFERNOIL.png",
+    description:
+      'They ascend to the highest mountain peaks before launching themselves downward at tremendous speed. Witnesses who have observed this phenomenon describe it as "a miniature meteor." They can control the heat of their flames at will.',
+    stats: {
+      hp: 69,
+      attack: 110,
+      defense: 85,
+      speed: 115,
+      spAttack: 80,
+      spDefense: 87,
     },
-    "height": "6.5",
-    "weight": "123.0",
-    "abilities": [
-      "BLAZE",
-      "SHEDSKIN"
+    height: "6.5",
+    weight: "123.0",
+    abilities: ["BLAZE", "SHEDSKIN"],
+    hiddenAbilities: ["BURNEATER"],
+    category: "Snake",
+    moves: [
+      {
+        level: 1,
+        move: "CONSTRICT",
+      },
+      {
+        level: 5,
+        move: "DEFENSECURL",
+      },
+      {
+        level: 6,
+        move: "EMBER",
+      },
+      {
+        level: 7,
+        move: "FURYATTACK",
+      },
+      {
+        level: 9,
+        move: "GASTROACID",
+      },
+      {
+        level: 11,
+        move: "QUICKATTACK",
+      },
+      {
+        level: 13,
+        move: "WILLOWISP",
+      },
+      {
+        level: 16,
+        move: "FLAMECHARGE",
+      },
+      {
+        level: 18,
+        move: "PURSUIT",
+      },
+      {
+        level: 21,
+        move: "SCALESHOT",
+      },
+      {
+        level: 25,
+        move: "DETECT",
+      },
+      {
+        level: 26,
+        move: "DRAGONTAIL",
+      },
+      {
+        level: 28,
+        move: "BITE",
+      },
+      {
+        level: 29,
+        move: "COIL",
+      },
+      {
+        level: 29,
+        move: "DRAGONBREATH",
+      },
+      {
+        level: 33,
+        move: "EMBARGO",
+      },
+      {
+        level: 33,
+        move: "INTHESPOTLIGHT",
+      },
+      {
+        level: 35,
+        move: "FEINTATTACK",
+      },
+      {
+        level: 36,
+        move: "FLAMEWHEEL",
+      },
+      {
+        level: 38,
+        move: "FIREFANG",
+      },
+      {
+        level: 40,
+        move: "AGILITY",
+      },
+      {
+        level: 40,
+        move: "KNOCKOFF",
+      },
+      {
+        level: 42,
+        move: "FLAMEBURST",
+      },
+      {
+        level: 43,
+        move: "CRUNCH",
+      },
+      {
+        level: 44,
+        move: "DRAGONDANCE",
+      },
+      {
+        level: 45,
+        move: "HYPERFANG",
+      },
+      {
+        level: 47,
+        move: "DRAGONPULSE",
+      },
+      {
+        level: 48,
+        move: "DRAGONRUSH",
+      },
+      {
+        level: 50,
+        move: "OUTRAGE",
+      },
     ],
-    "hiddenAbilities": [
-      "BURNEATER"
-    ],
-    "category": "Snake",
-    "moves": [
-      {
-        "level": 1,
-        "move": "CONSTRICT"
-      },
-      {
-        "level": 5,
-        "move": "DEFENSECURL"
-      },
-      {
-        "level": 6,
-        "move": "EMBER"
-      },
-      {
-        "level": 7,
-        "move": "FURYATTACK"
-      },
-      {
-        "level": 9,
-        "move": "GASTROACID"
-      },
-      {
-        "level": 11,
-        "move": "QUICKATTACK"
-      },
-      {
-        "level": 13,
-        "move": "WILLOWISP"
-      },
-      {
-        "level": 16,
-        "move": "FLAMECHARGE"
-      },
-      {
-        "level": 18,
-        "move": "PURSUIT"
-      },
-      {
-        "level": 21,
-        "move": "SCALESHOT"
-      },
-      {
-        "level": 25,
-        "move": "DETECT"
-      },
-      {
-        "level": 26,
-        "move": "DRAGONTAIL"
-      },
-      {
-        "level": 28,
-        "move": "BITE"
-      },
-      {
-        "level": 29,
-        "move": "COIL"
-      },
-      {
-        "level": 29,
-        "move": "DRAGONBREATH"
-      },
-      {
-        "level": 33,
-        "move": "EMBARGO"
-      },
-      {
-        "level": 33,
-        "move": "INTHESPOTLIGHT"
-      },
-      {
-        "level": 35,
-        "move": "FEINTATTACK"
-      },
-      {
-        "level": 36,
-        "move": "FLAMEWHEEL"
-      },
-      {
-        "level": 38,
-        "move": "FIREFANG"
-      },
-      {
-        "level": 40,
-        "move": "AGILITY"
-      },
-      {
-        "level": 40,
-        "move": "KNOCKOFF"
-      },
-      {
-        "level": 42,
-        "move": "FLAMEBURST"
-      },
-      {
-        "level": 43,
-        "move": "CRUNCH"
-      },
-      {
-        "level": 44,
-        "move": "DRAGONDANCE"
-      },
-      {
-        "level": 45,
-        "move": "HYPERFANG"
-      },
-      {
-        "level": 47,
-        "move": "DRAGONPULSE"
-      },
-      {
-        "level": 48,
-        "move": "DRAGONRUSH"
-      },
-      {
-        "level": 50,
-        "move": "OUTRAGE"
-      }
-    ],
-    "tutorMoves": [
+    tutorMoves: [
       "ACIDARMOR",
       "ACROBATICS",
       "AERIALACE",
@@ -6306,9 +6080,9 @@ export const fakemons: Fakemon[] = [
       "THUNDERFANG",
       "TOXIC",
       "TOXICSPIKES",
-      "TERABLAST"
+      "TERABLAST",
     ],
-    "eggMoves": [
+    eggMoves: [
       "ABYSSALBITE",
       "BABYDOLLEYES",
       "BEATUP",
@@ -6322,109 +6096,104 @@ export const fakemons: Fakemon[] = [
       "FAIRYWIND",
       "FOULPLAY",
       "SNARL",
-      "TWISTER"
+      "TWISTER",
     ],
-    "suffix": "absolution",
-    "evolution": [],
-    "color": "Red"
+    suffix: "absolution",
+    evolution: [],
+    color: "Red",
   },
   {
-    "id": "MABBIT",
-    "name": "Mabbit",
-    "types": [
-      "NORMAL"
-    ],
-    "sprite": "/Pokemon/Front/MABBIT.png",
-    "backSprite": "/Pokemon/Back/MABBIT.png",
-    "description": "It has a rather clumsy way of walking, which makes it easy to think it's an easy prey for many Pokémon. However, this Pokémon easily manages to escape from its predators.",
-    "stats": {
-      "hp": 56,
-      "attack": 56,
-      "defense": 56,
-      "speed": 80,
-      "spAttack": 80,
-      "spDefense": 56
+    id: "MABBIT",
+    name: "Mabbit",
+    types: ["NORMAL"],
+    sprite: "/Pokemon/Front/MABBIT.png",
+    backSprite: "/Pokemon/Back/MABBIT.png",
+    description:
+      "It has a rather clumsy way of walking, which makes it easy to think it's an easy prey for many Pokémon. However, this Pokémon easily manages to escape from its predators.",
+    stats: {
+      hp: 56,
+      attack: 56,
+      defense: 56,
+      speed: 80,
+      spAttack: 80,
+      spDefense: 56,
     },
-    "height": "0.3",
-    "weight": "5.0",
-    "abilities": [
-      "RUNAWAY"
+    height: "0.3",
+    weight: "5.0",
+    abilities: ["RUNAWAY"],
+    hiddenAbilities: ["MAGICALSTART"],
+    category: "Magic Bunny",
+    moves: [
+      {
+        level: 1,
+        move: "TAILSLAP",
+      },
+      {
+        level: 2,
+        move: "BABYDOLLEYES",
+      },
+      {
+        level: 5,
+        move: "DOUBLESLAP",
+      },
+      {
+        level: 8,
+        move: "QUICKATTACK",
+      },
+      {
+        level: 11,
+        move: "FAKEOUT",
+      },
+      {
+        level: 14,
+        move: "DISARMINGVOICE",
+      },
+      {
+        level: 16,
+        move: "CHARM",
+      },
+      {
+        level: 18,
+        move: "SCREECH",
+      },
+      {
+        level: 21,
+        move: "SING",
+      },
+      {
+        level: 24,
+        move: "DRAININGKISS",
+      },
+      {
+        level: 26,
+        move: "MAGICALBLESSING",
+      },
+      {
+        level: 27,
+        move: "SEDUCTION",
+      },
+      {
+        level: 29,
+        move: "ROUND",
+      },
+      {
+        level: 30,
+        move: "RETURN",
+      },
+      {
+        level: 32,
+        move: "CALMMIND",
+      },
+      {
+        level: 34,
+        move: "AGILITY",
+      },
+      {
+        level: 36,
+        move: "DAZZLINGGLEAM",
+      },
     ],
-    "hiddenAbilities": [
-      "MAGICALSTART"
-    ],
-    "category": "Magic Bunny",
-    "moves": [
-      {
-        "level": 1,
-        "move": "TAILSLAP"
-      },
-      {
-        "level": 2,
-        "move": "BABYDOLLEYES"
-      },
-      {
-        "level": 5,
-        "move": "DOUBLESLAP"
-      },
-      {
-        "level": 8,
-        "move": "QUICKATTACK"
-      },
-      {
-        "level": 11,
-        "move": "FAKEOUT"
-      },
-      {
-        "level": 14,
-        "move": "DISARMINGVOICE"
-      },
-      {
-        "level": 16,
-        "move": "CHARM"
-      },
-      {
-        "level": 18,
-        "move": "SCREECH"
-      },
-      {
-        "level": 21,
-        "move": "SING"
-      },
-      {
-        "level": 24,
-        "move": "DRAININGKISS"
-      },
-      {
-        "level": 26,
-        "move": "MAGICALBLESSING"
-      },
-      {
-        "level": 27,
-        "move": "SEDUCTION"
-      },
-      {
-        "level": 29,
-        "move": "ROUND"
-      },
-      {
-        "level": 30,
-        "move": "RETURN"
-      },
-      {
-        "level": 32,
-        "move": "CALMMIND"
-      },
-      {
-        "level": 34,
-        "move": "AGILITY"
-      },
-      {
-        "level": 36,
-        "move": "DAZZLINGGLEAM"
-      }
-    ],
-    "tutorMoves": [
+    tutorMoves: [
       "BATONPASS",
       "BLIZZARD",
       "BLOCK",
@@ -6460,9 +6229,9 @@ export const fakemons: Fakemon[] = [
       "SWIFT",
       "TRICKROOM",
       "WONDERROOM",
-      "TERABLAST"
+      "TERABLAST",
     ],
-    "eggMoves": [
+    eggMoves: [
       "AQUARING",
       "AURORAVEIL",
       "BLOODMOON",
@@ -6477,124 +6246,118 @@ export const fakemons: Fakemon[] = [
       "PSYBEAM",
       "PSYCHICFANGS",
       "SHAMANBLESSING",
-      "SURF"
+      "SURF",
     ],
-    "suffix": "absolution",
-    "evolution": [
+    suffix: "absolution",
+    evolution: [
       {
-        "to": "BUNLUCK",
-        "method": "Item",
-        "value": "DAWNSTONE"
-      }
+        to: "BUNLUCK",
+        method: "Item",
+        value: "DAWNSTONE",
+      },
     ],
-    "color": "White"
+    color: "White",
   },
   {
-    "id": "BUNLUCK",
-    "name": "Bunluck",
-    "types": [
-      "NORMAL",
-      "FAIRY"
-    ],
-    "sprite": "/Pokemon/Front/BUNLUCK.png",
-    "backSprite": "/Pokemon/Back/BUNLUCK.png",
-    "description": "This Pokémon is incredibly lucky, and science has yet to explain how this species manages to escape from such complex situations. It uses magic tricks to confuse nearby Pokémon, seemingly doing so for fun.",
-    "stats": {
-      "hp": 79,
-      "attack": 70,
-      "defense": 70,
-      "speed": 100,
-      "spAttack": 100,
-      "spDefense": 70
+    id: "BUNLUCK",
+    name: "Bunluck",
+    types: ["NORMAL", "FAIRY"],
+    sprite: "/Pokemon/Front/BUNLUCK.png",
+    backSprite: "/Pokemon/Back/BUNLUCK.png",
+    description:
+      "This Pokémon is incredibly lucky, and science has yet to explain how this species manages to escape from such complex situations. It uses magic tricks to confuse nearby Pokémon, seemingly doing so for fun.",
+    stats: {
+      hp: 79,
+      attack: 70,
+      defense: 70,
+      speed: 100,
+      spAttack: 100,
+      spDefense: 70,
     },
-    "height": "0.6",
-    "weight": "10.0",
-    "abilities": [
-      "CUTECHARM"
+    height: "0.6",
+    weight: "10.0",
+    abilities: ["CUTECHARM"],
+    hiddenAbilities: ["MAGICALSTART"],
+    category: "Magic Bunny",
+    moves: [
+      {
+        level: 1,
+        move: "TAILSLAP",
+      },
+      {
+        level: 2,
+        move: "BABYDOLLEYES",
+      },
+      {
+        level: 5,
+        move: "DOUBLESLAP",
+      },
+      {
+        level: 8,
+        move: "QUICKATTACK",
+      },
+      {
+        level: 11,
+        move: "FAKEOUT",
+      },
+      {
+        level: 14,
+        move: "DISARMINGVOICE",
+      },
+      {
+        level: 16,
+        move: "CHARM",
+      },
+      {
+        level: 18,
+        move: "SCREECH",
+      },
+      {
+        level: 21,
+        move: "SING",
+      },
+      {
+        level: 24,
+        move: "DRAININGKISS",
+      },
+      {
+        level: 26,
+        move: "MAGICALBLESSING",
+      },
+      {
+        level: 27,
+        move: "SEDUCTION",
+      },
+      {
+        level: 29,
+        move: "ROUND",
+      },
+      {
+        level: 30,
+        move: "RETURN",
+      },
+      {
+        level: 32,
+        move: "SWEETKISS",
+      },
+      {
+        level: 34,
+        move: "DAZZLINGGLEAM",
+      },
+      {
+        level: 36,
+        move: "AGILITY",
+      },
+      {
+        level: 39,
+        move: "CALMMIND",
+      },
+      {
+        level: 40,
+        move: "EXTRASENSORY",
+      },
     ],
-    "hiddenAbilities": [
-      "MAGICALSTART"
-    ],
-    "category": "Magic Bunny",
-    "moves": [
-      {
-        "level": 1,
-        "move": "TAILSLAP"
-      },
-      {
-        "level": 2,
-        "move": "BABYDOLLEYES"
-      },
-      {
-        "level": 5,
-        "move": "DOUBLESLAP"
-      },
-      {
-        "level": 8,
-        "move": "QUICKATTACK"
-      },
-      {
-        "level": 11,
-        "move": "FAKEOUT"
-      },
-      {
-        "level": 14,
-        "move": "DISARMINGVOICE"
-      },
-      {
-        "level": 16,
-        "move": "CHARM"
-      },
-      {
-        "level": 18,
-        "move": "SCREECH"
-      },
-      {
-        "level": 21,
-        "move": "SING"
-      },
-      {
-        "level": 24,
-        "move": "DRAININGKISS"
-      },
-      {
-        "level": 26,
-        "move": "MAGICALBLESSING"
-      },
-      {
-        "level": 27,
-        "move": "SEDUCTION"
-      },
-      {
-        "level": 29,
-        "move": "ROUND"
-      },
-      {
-        "level": 30,
-        "move": "RETURN"
-      },
-      {
-        "level": 32,
-        "move": "SWEETKISS"
-      },
-      {
-        "level": 34,
-        "move": "DAZZLINGGLEAM"
-      },
-      {
-        "level": 36,
-        "move": "AGILITY"
-      },
-      {
-        "level": 39,
-        "move": "CALMMIND"
-      },
-      {
-        "level": 40,
-        "move": "EXTRASENSORY"
-      }
-    ],
-    "tutorMoves": [
+    tutorMoves: [
       "BATONPASS",
       "BLIZZARD",
       "BLOCK",
@@ -6630,9 +6393,9 @@ export const fakemons: Fakemon[] = [
       "SWIFT",
       "TRICKROOM",
       "WONDERROOM",
-      "TERABLAST"
+      "TERABLAST",
     ],
-    "eggMoves": [
+    eggMoves: [
       "AQUARING",
       "AURORAVEIL",
       "BLOODMOON",
@@ -6647,145 +6410,138 @@ export const fakemons: Fakemon[] = [
       "PSYBEAM",
       "PSYCHICFANGS",
       "SHAMANBLESSING",
-      "SURF"
+      "SURF",
     ],
-    "suffix": "absolution",
-    "evolution": [
+    suffix: "absolution",
+    evolution: [
       {
-        "to": "FORTUNELLE",
-        "method": "HasMoveType",
-        "value": "PSYCHIC"
-      }
+        to: "FORTUNELLE",
+        method: "HasMoveType",
+        value: "PSYCHIC",
+      },
     ],
-    "color": "White"
+    color: "White",
   },
   {
-    "id": "FORTUNELLE",
-    "name": "Fortunelle",
-    "types": [
-      "PSYCHIC",
-      "FAIRY"
-    ],
-    "sprite": "/Pokemon/Front/FORTUNELLE.png",
-    "backSprite": "/Pokemon/Back/FORTUNELLE.png",
-    "description": "It can perform incredible magic tricks that are hard to explain. It seeks out sad humans and Pokémon to try to brighten their day with its magic tricks.",
-    "stats": {
-      "hp": 88,
-      "attack": 77,
-      "defense": 77,
-      "speed": 112,
-      "spAttack": 112,
-      "spDefense": 77
+    id: "FORTUNELLE",
+    name: "Fortunelle",
+    types: ["PSYCHIC", "FAIRY"],
+    sprite: "/Pokemon/Front/FORTUNELLE.png",
+    backSprite: "/Pokemon/Back/FORTUNELLE.png",
+    description:
+      "It can perform incredible magic tricks that are hard to explain. It seeks out sad humans and Pokémon to try to brighten their day with its magic tricks.",
+    stats: {
+      hp: 88,
+      attack: 77,
+      defense: 77,
+      speed: 112,
+      spAttack: 112,
+      spDefense: 77,
     },
-    "height": "1.3",
-    "weight": "42.4",
-    "abilities": [
-      "CUTECHARM",
-      "MAGICGUARD"
+    height: "1.3",
+    weight: "42.4",
+    abilities: ["CUTECHARM", "MAGICGUARD"],
+    hiddenAbilities: ["MAGICALSTART"],
+    category: "Magic Bunny",
+    moves: [
+      {
+        level: 1,
+        move: "TAILSLAP",
+      },
+      {
+        level: 2,
+        move: "BABYDOLLEYES",
+      },
+      {
+        level: 5,
+        move: "DOUBLESLAP",
+      },
+      {
+        level: 8,
+        move: "QUICKATTACK",
+      },
+      {
+        level: 11,
+        move: "FAKEOUT",
+      },
+      {
+        level: 14,
+        move: "DISARMINGVOICE",
+      },
+      {
+        level: 16,
+        move: "CHARM",
+      },
+      {
+        level: 18,
+        move: "SCREECH",
+      },
+      {
+        level: 21,
+        move: "SING",
+      },
+      {
+        level: 24,
+        move: "DRAININGKISS",
+      },
+      {
+        level: 26,
+        move: "MAGICALBLESSING",
+      },
+      {
+        level: 27,
+        move: "SEDUCTION",
+      },
+      {
+        level: 29,
+        move: "ROUND",
+      },
+      {
+        level: 30,
+        move: "RETURN",
+      },
+      {
+        level: 32,
+        move: "CALMMIND",
+      },
+      {
+        level: 34,
+        move: "AGILITY",
+      },
+      {
+        level: 36,
+        move: "DAZZLINGGLEAM",
+      },
+      {
+        level: 39,
+        move: "SWEETKISS",
+      },
+      {
+        level: 40,
+        move: "EXTRASENSORY",
+      },
+      {
+        level: 42,
+        move: "WISH",
+      },
+      {
+        level: 44,
+        move: "PLAYROUGH",
+      },
+      {
+        level: 46,
+        move: "MAGICALEXPLOSION",
+      },
+      {
+        level: 49,
+        move: "PSYCHIC",
+      },
+      {
+        level: 50,
+        move: "MOONBLAST",
+      },
     ],
-    "hiddenAbilities": [
-      "MAGICALSTART"
-    ],
-    "category": "Magic Bunny",
-    "moves": [
-      {
-        "level": 1,
-        "move": "TAILSLAP"
-      },
-      {
-        "level": 2,
-        "move": "BABYDOLLEYES"
-      },
-      {
-        "level": 5,
-        "move": "DOUBLESLAP"
-      },
-      {
-        "level": 8,
-        "move": "QUICKATTACK"
-      },
-      {
-        "level": 11,
-        "move": "FAKEOUT"
-      },
-      {
-        "level": 14,
-        "move": "DISARMINGVOICE"
-      },
-      {
-        "level": 16,
-        "move": "CHARM"
-      },
-      {
-        "level": 18,
-        "move": "SCREECH"
-      },
-      {
-        "level": 21,
-        "move": "SING"
-      },
-      {
-        "level": 24,
-        "move": "DRAININGKISS"
-      },
-      {
-        "level": 26,
-        "move": "MAGICALBLESSING"
-      },
-      {
-        "level": 27,
-        "move": "SEDUCTION"
-      },
-      {
-        "level": 29,
-        "move": "ROUND"
-      },
-      {
-        "level": 30,
-        "move": "RETURN"
-      },
-      {
-        "level": 32,
-        "move": "CALMMIND"
-      },
-      {
-        "level": 34,
-        "move": "AGILITY"
-      },
-      {
-        "level": 36,
-        "move": "DAZZLINGGLEAM"
-      },
-      {
-        "level": 39,
-        "move": "SWEETKISS"
-      },
-      {
-        "level": 40,
-        "move": "EXTRASENSORY"
-      },
-      {
-        "level": 42,
-        "move": "WISH"
-      },
-      {
-        "level": 44,
-        "move": "PLAYROUGH"
-      },
-      {
-        "level": 46,
-        "move": "MAGICALEXPLOSION"
-      },
-      {
-        "level": 49,
-        "move": "PSYCHIC"
-      },
-      {
-        "level": 50,
-        "move": "MOONBLAST"
-      }
-    ],
-    "tutorMoves": [
+    tutorMoves: [
       "BATONPASS",
       "BLIZZARD",
       "BLOCK",
@@ -6821,9 +6577,9 @@ export const fakemons: Fakemon[] = [
       "SWIFT",
       "TRICKROOM",
       "WONDERROOM",
-      "TERABLAST"
+      "TERABLAST",
     ],
-    "eggMoves": [
+    eggMoves: [
       "AQUARING",
       "AURORAVEIL",
       "BLOODMOON",
@@ -6838,96 +6594,88 @@ export const fakemons: Fakemon[] = [
       "PSYBEAM",
       "PSYCHICFANGS",
       "SHAMANBLESSING",
-      "SURF"
+      "SURF",
     ],
-    "suffix": "absolution",
-    "evolution": [],
-    "color": "White"
+    suffix: "absolution",
+    evolution: [],
+    color: "White",
   },
   {
-    "id": "PUPROUT",
-    "name": "Puprout",
-    "types": [
-      "GRASS",
-      "DARK"
-    ],
-    "sprite": "/Pokemon/Front/PUPROUT.png",
-    "backSprite": "/Pokemon/Back/PUPROUT.png",
-    "description": "It displays many behaviors commonly seen in other Grass-type Pokémon. Its DNA suggests it may share multiple ancestors with various species.",
-    "stats": {
-      "hp": 46,
-      "attack": 63,
-      "defense": 62,
-      "speed": 67,
-      "spAttack": 46,
-      "spDefense": 34
+    id: "PUPROUT",
+    name: "Puprout",
+    types: ["GRASS", "DARK"],
+    sprite: "/Pokemon/Front/PUPROUT.png",
+    backSprite: "/Pokemon/Back/PUPROUT.png",
+    description:
+      "It displays many behaviors commonly seen in other Grass-type Pokémon. Its DNA suggests it may share multiple ancestors with various species.",
+    stats: {
+      hp: 46,
+      attack: 63,
+      defense: 62,
+      speed: 67,
+      spAttack: 46,
+      spDefense: 34,
     },
-    "height": "0.7",
-    "weight": "19.0",
-    "abilities": [
-      "RUNAWAY",
-      "INTIMIDATE"
+    height: "0.7",
+    weight: "19.0",
+    abilities: ["RUNAWAY", "INTIMIDATE"],
+    hiddenAbilities: ["PREDATORTRACKING", "ETERNALHUNGER"],
+    category: "Quimera",
+    moves: [
+      {
+        level: 1,
+        move: "TACKLE",
+      },
+      {
+        level: 2,
+        move: "HOWL",
+      },
+      {
+        level: 6,
+        move: "PURSUIT",
+      },
+      {
+        level: 9,
+        move: "LEAFAGE",
+      },
+      {
+        level: 11,
+        move: "MUDSPORT",
+      },
+      {
+        level: 13,
+        move: "QUICKATTACK",
+      },
+      {
+        level: 16,
+        move: "RAZORLEAF",
+      },
+      {
+        level: 18,
+        move: "CONFUSERAY",
+      },
+      {
+        level: 20,
+        move: "POISONFANG",
+      },
+      {
+        level: 23,
+        move: "DIG",
+      },
+      {
+        level: 25,
+        move: "BITE",
+      },
+      {
+        level: 27,
+        move: "FLOWERFANG",
+      },
+      {
+        level: 35,
+        move: "PREDATORYGAME",
+      },
     ],
-    "hiddenAbilities": [
-      "PREDATORTRACKING",
-      "ETERNALHUNGER"
-    ],
-    "category": "Quimera",
-    "moves": [
-      {
-        "level": 1,
-        "move": "TACKLE"
-      },
-      {
-        "level": 2,
-        "move": "HOWL"
-      },
-      {
-        "level": 6,
-        "move": "PURSUIT"
-      },
-      {
-        "level": 9,
-        "move": "LEAFAGE"
-      },
-      {
-        "level": 11,
-        "move": "MUDSPORT"
-      },
-      {
-        "level": 13,
-        "move": "QUICKATTACK"
-      },
-      {
-        "level": 16,
-        "move": "RAZORLEAF"
-      },
-      {
-        "level": 18,
-        "move": "CONFUSERAY"
-      },
-      {
-        "level": 20,
-        "move": "POISONFANG"
-      },
-      {
-        "level": 23,
-        "move": "DIG"
-      },
-      {
-        "level": 25,
-        "move": "BITE"
-      },
-      {
-        "level": 27,
-        "move": "FLOWERFANG"
-      },
-      {
-        "level": 35,
-        "move": "PREDATORYGAME"
-      }
-    ],
-    "tutorMoves": [
+    tutorMoves: [
       "ACIDSPRAY",
       "AMNESIA",
       "ATTRACT",
@@ -7005,9 +6753,9 @@ export const fakemons: Fakemon[] = [
       "VENOSHOCK",
       "WEATHERBALL",
       "WORKUP",
-      "WORRYSEED"
+      "WORRYSEED",
     ],
-    "eggMoves": [
+    eggMoves: [
       "SYNTHESIS",
       "HONECLAWS",
       "NEEDLEARM",
@@ -7021,141 +6769,136 @@ export const fakemons: Fakemon[] = [
       "PREDATORYGAME",
       "TAUNT",
       "POWERWHIP",
-      "GIGAIMPACT"
+      "GIGAIMPACT",
     ],
-    "suffix": "absolution",
-    "evolution": [],
-    "color": "White"
+    suffix: "absolution",
+    evolution: [],
+    color: "White",
   },
   {
-    "id": "CAPILLEAF",
-    "name": "Capilleaf",
-    "types": [
-      "GRASS"
-    ],
-    "sprite": "/Pokemon/Front/CAPILLEAF.png",
-    "backSprite": "/Pokemon/Back/CAPILLEAF.png",
-    "description": "People claim to have an increase in their luck after encountering one; they are very elusive and avoid human contact.",
-    "stats": {
-      "hp": 48,
-      "attack": 75,
-      "defense": 48,
-      "speed": 75,
-      "spAttack": 48,
-      "spDefense": 48
+    id: "CAPILLEAF",
+    name: "Capilleaf",
+    types: ["GRASS"],
+    sprite: "/Pokemon/Front/CAPILLEAF.png",
+    backSprite: "/Pokemon/Back/CAPILLEAF.png",
+    description:
+      "People claim to have an increase in their luck after encountering one; they are very elusive and avoid human contact.",
+    stats: {
+      hp: 48,
+      attack: 75,
+      defense: 48,
+      speed: 75,
+      spAttack: 48,
+      spDefense: 48,
     },
-    "height": "0.7",
-    "weight": "10.0",
-    "abilities": [
-      "OVERGROW"
+    height: "0.7",
+    weight: "10.0",
+    abilities: ["OVERGROW"],
+    hiddenAbilities: ["FORTUNEFLOW"],
+    category: "Leaf Vein Lizard",
+    moves: [
+      {
+        level: 1,
+        move: "LEER",
+      },
+      {
+        level: 1,
+        move: "SCRATCH",
+      },
+      {
+        level: 3,
+        move: "FAIRYWIND",
+      },
+      {
+        level: 5,
+        move: "LEAFAGE",
+      },
+      {
+        level: 6,
+        move: "FALSESWIPE",
+      },
+      {
+        level: 8,
+        move: "QUICKATTACK",
+      },
+      {
+        level: 10,
+        move: "MEGADRAIN",
+      },
+      {
+        level: 13,
+        move: "TAUNT",
+      },
+      {
+        level: 15,
+        move: "QUICKGUARD",
+      },
+      {
+        level: 17,
+        move: "SLASH",
+      },
+      {
+        level: 20,
+        move: "LOWSWEEP",
+      },
+      {
+        level: 22,
+        move: "GIGADRAIN",
+      },
+      {
+        level: 24,
+        move: "CRUNCH",
+      },
+      {
+        level: 25,
+        move: "LUCKYBLESS",
+      },
+      {
+        level: 27,
+        move: "DETECT",
+      },
+      {
+        level: 30,
+        move: "BODYPRESS",
+      },
+      {
+        level: 32,
+        move: "ENERGYBALL",
+      },
+      {
+        level: 33,
+        move: "FOCUSENERGY",
+      },
+      {
+        level: 35,
+        move: "SCREECH",
+      },
+      {
+        level: 36,
+        move: "CLOSECOMBAT",
+      },
+      {
+        level: 39,
+        move: "LEAFSTORM",
+      },
+      {
+        level: 42,
+        move: "OUTRAGE",
+      },
+      {
+        level: 45,
+        move: "GUILLOTINE",
+      },
+      {
+        level: 48,
+        move: "GIGAIMPACT",
+      },
+      {
+        level: 52,
+        move: "PLAYROUGH",
+      },
     ],
-    "hiddenAbilities": [
-      "FORTUNEFLOW"
-    ],
-    "category": "Leaf Vein Lizard",
-    "moves": [
-      {
-        "level": 1,
-        "move": "LEER"
-      },
-      {
-        "level": 1,
-        "move": "SCRATCH"
-      },
-      {
-        "level": 3,
-        "move": "FAIRYWIND"
-      },
-      {
-        "level": 5,
-        "move": "LEAFAGE"
-      },
-      {
-        "level": 6,
-        "move": "FALSESWIPE"
-      },
-      {
-        "level": 8,
-        "move": "QUICKATTACK"
-      },
-      {
-        "level": 10,
-        "move": "MEGADRAIN"
-      },
-      {
-        "level": 13,
-        "move": "TAUNT"
-      },
-      {
-        "level": 15,
-        "move": "QUICKGUARD"
-      },
-      {
-        "level": 17,
-        "move": "SLASH"
-      },
-      {
-        "level": 20,
-        "move": "LOWSWEEP"
-      },
-      {
-        "level": 22,
-        "move": "GIGADRAIN"
-      },
-      {
-        "level": 24,
-        "move": "CRUNCH"
-      },
-      {
-        "level": 25,
-        "move": "LUCKYBLESS"
-      },
-      {
-        "level": 27,
-        "move": "DETECT"
-      },
-      {
-        "level": 30,
-        "move": "BODYPRESS"
-      },
-      {
-        "level": 32,
-        "move": "ENERGYBALL"
-      },
-      {
-        "level": 33,
-        "move": "FOCUSENERGY"
-      },
-      {
-        "level": 35,
-        "move": "SCREECH"
-      },
-      {
-        "level": 36,
-        "move": "CLOSECOMBAT"
-      },
-      {
-        "level": 39,
-        "move": "LEAFSTORM"
-      },
-      {
-        "level": 42,
-        "move": "OUTRAGE"
-      },
-      {
-        "level": 45,
-        "move": "GUILLOTINE"
-      },
-      {
-        "level": 48,
-        "move": "GIGAIMPACT"
-      },
-      {
-        "level": 52,
-        "move": "PLAYROUGH"
-      }
-    ],
-    "tutorMoves": [
+    tutorMoves: [
       "ACROBATICS",
       "AERIALACE",
       "AGILITY",
@@ -7244,9 +6987,9 @@ export const fakemons: Fakemon[] = [
       "MOONBLAST",
       "DRAININGKISS",
       "FLORALHEALING",
-      "MISTYEXPLOSION"
+      "MISTYEXPLOSION",
     ],
-    "eggMoves": [
+    eggMoves: [
       "ABSORB",
       "CRUSHCLAW",
       "DOUBLEKICK",
@@ -7254,156 +6997,150 @@ export const fakemons: Fakemon[] = [
       "LEECHSEED",
       "NIGHTSLASH",
       "FIRSTIMPRESSION",
-      "HARDEN"
+      "HARDEN",
     ],
-    "suffix": "absolution",
-    "evolution": [
+    suffix: "absolution",
+    evolution: [
       {
-        "to": "XYLEMON",
-        "method": "Level",
-        "value": "40"
-      }
+        to: "XYLEMON",
+        method: "Level",
+        value: "40",
+      },
     ],
-    "color": "Green"
+    color: "Green",
   },
   {
-    "id": "XYLEMON",
-    "name": "Xylemon",
-    "types": [
-      "GRASS",
-      "FIGHTING"
-    ],
-    "sprite": "/Pokemon/Front/XYLEMON.png",
-    "backSprite": "/Pokemon/Back/XYLEMON.png",
-    "description": "There are many legends and stories about this Pokemon related to luck; it is a favorite of many superstitious people.",
-    "stats": {
-      "hp": 70,
-      "attack": 109,
-      "defense": 70,
-      "speed": 109,
-      "spAttack": 70,
-      "spDefense": 70
+    id: "XYLEMON",
+    name: "Xylemon",
+    types: ["GRASS", "FIGHTING"],
+    sprite: "/Pokemon/Front/XYLEMON.png",
+    backSprite: "/Pokemon/Back/XYLEMON.png",
+    description:
+      "There are many legends and stories about this Pokemon related to luck; it is a favorite of many superstitious people.",
+    stats: {
+      hp: 70,
+      attack: 109,
+      defense: 70,
+      speed: 109,
+      spAttack: 70,
+      spDefense: 70,
     },
-    "height": "1.2",
-    "weight": "72.2",
-    "abilities": [
-      "MAGICALSTART"
+    height: "1.2",
+    weight: "72.2",
+    abilities: ["MAGICALSTART"],
+    hiddenAbilities: ["FORTUNEFLOW"],
+    category: "Leaf Vein Lizard",
+    moves: [
+      {
+        level: 0,
+        move: "ASTROKEOFLUCK",
+      },
+      {
+        level: 1,
+        move: "LEER",
+      },
+      {
+        level: 1,
+        move: "SCRATCH",
+      },
+      {
+        level: 3,
+        move: "FAIRYWIND",
+      },
+      {
+        level: 5,
+        move: "LEAFAGE",
+      },
+      {
+        level: 6,
+        move: "FALSESWIPE",
+      },
+      {
+        level: 8,
+        move: "QUICKATTACK",
+      },
+      {
+        level: 10,
+        move: "MEGADRAIN",
+      },
+      {
+        level: 13,
+        move: "TAUNT",
+      },
+      {
+        level: 15,
+        move: "QUICKGUARD",
+      },
+      {
+        level: 17,
+        move: "SLASH",
+      },
+      {
+        level: 20,
+        move: "LOWSWEEP",
+      },
+      {
+        level: 22,
+        move: "GIGADRAIN",
+      },
+      {
+        level: 24,
+        move: "CRUNCH",
+      },
+      {
+        level: 25,
+        move: "LUCKYBLESS",
+      },
+      {
+        level: 27,
+        move: "DETECT",
+      },
+      {
+        level: 30,
+        move: "BODYPRESS",
+      },
+      {
+        level: 32,
+        move: "ENERGYBALL",
+      },
+      {
+        level: 33,
+        move: "FOCUSENERGY",
+      },
+      {
+        level: 35,
+        move: "SCREECH",
+      },
+      {
+        level: 36,
+        move: "CLOSECOMBAT",
+      },
+      {
+        level: 39,
+        move: "LEAFSTORM",
+      },
+      {
+        level: 42,
+        move: "OUTRAGE",
+      },
+      {
+        level: 45,
+        move: "GUILLOTINE",
+      },
+      {
+        level: 48,
+        move: "GIGAIMPACT",
+      },
+      {
+        level: 52,
+        move: "PLAYROUGH",
+      },
+      {
+        level: 55,
+        move: "ASTROKEOFLUCK",
+      },
     ],
-    "hiddenAbilities": [
-      "FORTUNEFLOW"
-    ],
-    "category": "Leaf Vein Lizard",
-    "moves": [
-      {
-        "level": 0,
-        "move": "ASTROKEOFLUCK"
-      },
-      {
-        "level": 1,
-        "move": "LEER"
-      },
-      {
-        "level": 1,
-        "move": "SCRATCH"
-      },
-      {
-        "level": 3,
-        "move": "FAIRYWIND"
-      },
-      {
-        "level": 5,
-        "move": "LEAFAGE"
-      },
-      {
-        "level": 6,
-        "move": "FALSESWIPE"
-      },
-      {
-        "level": 8,
-        "move": "QUICKATTACK"
-      },
-      {
-        "level": 10,
-        "move": "MEGADRAIN"
-      },
-      {
-        "level": 13,
-        "move": "TAUNT"
-      },
-      {
-        "level": 15,
-        "move": "QUICKGUARD"
-      },
-      {
-        "level": 17,
-        "move": "SLASH"
-      },
-      {
-        "level": 20,
-        "move": "LOWSWEEP"
-      },
-      {
-        "level": 22,
-        "move": "GIGADRAIN"
-      },
-      {
-        "level": 24,
-        "move": "CRUNCH"
-      },
-      {
-        "level": 25,
-        "move": "LUCKYBLESS"
-      },
-      {
-        "level": 27,
-        "move": "DETECT"
-      },
-      {
-        "level": 30,
-        "move": "BODYPRESS"
-      },
-      {
-        "level": 32,
-        "move": "ENERGYBALL"
-      },
-      {
-        "level": 33,
-        "move": "FOCUSENERGY"
-      },
-      {
-        "level": 35,
-        "move": "SCREECH"
-      },
-      {
-        "level": 36,
-        "move": "CLOSECOMBAT"
-      },
-      {
-        "level": 39,
-        "move": "LEAFSTORM"
-      },
-      {
-        "level": 42,
-        "move": "OUTRAGE"
-      },
-      {
-        "level": 45,
-        "move": "GUILLOTINE"
-      },
-      {
-        "level": 48,
-        "move": "GIGAIMPACT"
-      },
-      {
-        "level": 52,
-        "move": "PLAYROUGH"
-      },
-      {
-        "level": 55,
-        "move": "ASTROKEOFLUCK"
-      }
-    ],
-    "tutorMoves": [
+    tutorMoves: [
       "ACROBATICS",
       "AERIALACE",
       "AGILITY",
@@ -7492,9 +7229,9 @@ export const fakemons: Fakemon[] = [
       "MOONBLAST",
       "DRAININGKISS",
       "FLORALHEALING",
-      "MISTYEXPLOSION"
+      "MISTYEXPLOSION",
     ],
-    "eggMoves": [
+    eggMoves: [
       "ABSORB",
       "CRUSHCLAW",
       "DOUBLEKICK",
@@ -7502,73 +7239,10 @@ export const fakemons: Fakemon[] = [
       "LEECHSEED",
       "NIGHTSLASH",
       "FIRSTIMPRESSION",
-      "HARDEN"
+      "HARDEN",
     ],
-    "suffix": "absolution",
-    "evolution": [],
-    "color": "Green"
+    suffix: "absolution",
+    evolution: [],
+    color: "Green",
   },
-  {
-    "id": "FLAMOUR",
-    "name": "Flamour",
-    "types": [
-      "FLYING"
-    ],
-    "sprite": "/Pokemon/Front/FLAMOUR.png",
-    "backSprite": "/Pokemon/Back/FLAMOUR.png",
-    "description": "???",
-    "stats": {
-      "hp": 1,
-      "attack": 1,
-      "defense": 1,
-      "speed": 1,
-      "spAttack": 1,
-      "spDefense": 1
-    },
-    "height": "0.1",
-    "weight": "0.1",
-    "abilities": [],
-    "hiddenAbilities": [],
-    "category": "???",
-    "moves": [],
-    "tutorMoves": [
-      "TERABLAST"
-    ],
-    "eggMoves": [],
-    "suffix": "absolution",
-    "evolution": [],
-    "color": "Red"
-  },
-  {
-    "id": "FLAMOURE",
-    "name": "Flamouré",
-    "types": [
-      "FLYING",
-      "POISON"
-    ],
-    "sprite": "/Pokemon/Front/FLAMOURE.png",
-    "backSprite": "/Pokemon/Back/FLAMOURE.png",
-    "description": "???",
-    "stats": {
-      "hp": 1,
-      "attack": 1,
-      "defense": 1,
-      "speed": 1,
-      "spAttack": 1,
-      "spDefense": 1
-    },
-    "height": "0.1",
-    "weight": "0.1",
-    "abilities": [],
-    "hiddenAbilities": [],
-    "category": "???",
-    "moves": [],
-    "tutorMoves": [
-      "TERABLAST"
-    ],
-    "eggMoves": [],
-    "suffix": "absolution",
-    "evolution": [],
-    "color": "Red"
-  }
 ];

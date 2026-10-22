@@ -12,12 +12,12 @@ import {
   LoaderCircle,
 } from "lucide-react";
 import {
-  REQUIRED_FOLDERS,
+  requiredFolders,
   inspectProject,
   validateOutput,
   exportProject,
 } from "./filesystem.ts";
-import type { Directory, Plan } from "./filesystem.ts";
+import type { Directory, GenerationMode, Plan } from "./filesystem.ts";
 import { NOT_ABLE_TO_SHOW_FAKEMONS } from "./exclusions.ts";
 import "./style.css";
 
@@ -31,6 +31,7 @@ declare global {
 }
 
 function App() {
+  const [mode, setMode] = useState<GenerationMode>("all");
   const [plan, setPlan] = useState<Plan>();
   const [output, setOutput] = useState<Directory>();
   const [busy, setBusy] = useState(false);
@@ -50,7 +51,7 @@ function App() {
       setComplete(false);
       setStatus("Reading project and preparing assets…");
       setBusy(true);
-      const next = await inspectProject(source);
+      const next = await inspectProject(source, mode);
       setPlan(next);
       if (output) await validateOutput(output, source);
       setStatus("");
@@ -60,6 +61,26 @@ function App() {
         setStatus("");
       }
     } finally {
+      setBusy(false);
+    }
+  }
+
+  async function changeMode(nextMode: GenerationMode) {
+    setMode(nextMode);
+    setComplete(false);
+    setError("");
+    setStatus("");
+    if (!plan) return;
+    const source = plan.source;
+    setPlan(undefined);
+    setBusy(true);
+    setStatus("Reading project for the selected mode…");
+    try {
+      setPlan(await inspectProject(source, nextMode));
+    } catch (err) {
+      setError(err instanceof Error ? err.message : String(err));
+    } finally {
+      setStatus("");
       setBusy(false);
     }
   }
@@ -153,6 +174,32 @@ function App() {
               localhost or HTTPS to select local folders.
             </div>
           )}
+          <fieldset className="generation-mode" disabled={busy}>
+            <legend>Generate</legend>
+            <label>
+              <input
+                type="radio"
+                name="generation-mode"
+                checked={mode === "all"}
+                onChange={() => changeMode("all")}
+              />
+              Data and images
+            </label>
+            <label>
+              <input
+                type="radio"
+                name="generation-mode"
+                checked={mode === "data-only"}
+                onChange={() => changeMode("data-only")}
+              />
+              Data only
+            </label>
+            <p>
+              {mode === "data-only"
+                ? "Generate data from PBS. Existing images are kept as they are."
+                : "Generate data and sync sprites, icons, trainers, and map images."}
+            </p>
+          </fieldset>
           <div className="steps">
             <section className={`panel ${plan ? "selected" : ""}`}>
               <div className="panel-heading">
@@ -163,8 +210,9 @@ function App() {
               <FolderOpen className="folder-icon" size={36} strokeWidth={1.4} />
               <h2>{plan?.source.name || "Choose your game project"}</h2>
               <p>
-                Select the root folder containing your PBS and Graphics
-                directories.
+                {mode === "data-only"
+                  ? "Select the root folder containing your PBS directory."
+                  : "Select the root folder containing your PBS and Graphics directories."}
               </p>
               <button
                 className="secondary"
@@ -175,7 +223,7 @@ function App() {
                 {plan ? "Change project" : "Select project folder"}
               </button>
               <div className="folder-list">
-                {REQUIRED_FOLDERS.map((path) => (
+                {requiredFolders(mode).map((path) => (
                   <div key={path}>
                     <span className={plan ? "success" : "muted"}>
                       {plan ? (
@@ -218,18 +266,24 @@ function App() {
                 <code>
                   <span>src/data/</span> Pokémon, moves, items & maps
                 </code>
-                <code>
-                  <span>public/Pokemon/</span> Front & back sprites
-                </code>
-                <code>
-                  <span>public/Items/ & public/Trainers/</span> Icons & trainers
-                </code>
-                <code>
-                  <span>public/Exported Maps/</span> Maps & layers
-                </code>
+                {mode === "all" && (
+                  <>
+                    <code>
+                      <span>public/Pokemon/</span> Front & back sprites
+                    </code>
+                    <code>
+                      <span>public/Items/ & public/Trainers/</span> Icons &
+                      trainers
+                    </code>
+                    <code>
+                      <span>public/Exported Maps/</span> Maps & layers
+                    </code>
+                  </>
+                )}
                 <p>
-                  Existing generated files are replaced. Assets from previous
-                  exports are kept in sync.
+                  {mode === "data-only"
+                    ? "Existing generated data files are replaced. Images are left unchanged."
+                    : "Existing generated files are replaced. Assets from previous exports are kept in sync."}
                 </p>
               </div>
             </section>
@@ -243,7 +297,8 @@ function App() {
               <p>
                 <code>NOT_ABLE_TO_SHOW_FAKEMONS</code> is preserved.{" "}
                 {NOT_ABLE_TO_SHOW_FAKEMONS.length} species are excluded from
-                Pokémon, forms, encounters, evolution links, and sprites.
+                Pokémon, forms, encounters, evolution links
+                {mode === "all" ? ", and sprites." : "."}
               </p>
             </div>
             <span className="protected-badge">PROTECTED</span>
@@ -253,8 +308,10 @@ function App() {
               <div className="summary-heading">
                 <h2>Ready to generate</h2>
                 <span>
-                  {Object.keys(plan.files).length} data files ·{" "}
-                  {plan.assets.length.toLocaleString()} asset files
+                  {Object.keys(plan.files).length} data files
+                  {mode === "all" && (
+                    <> · {plan.assets.length.toLocaleString()} asset files</>
+                  )}
                 </span>
               </div>
               <div className="stats">
@@ -282,7 +339,9 @@ function App() {
             <div>
               <strong>
                 {complete
-                  ? "Your website assets are ready"
+                  ? mode === "data-only"
+                    ? "Your website data is ready"
+                    : "Your website assets are ready"
                   : "A fresh export, in a few clicks"}
               </strong>
               <p>
@@ -307,7 +366,9 @@ function App() {
                 ? "Working…"
                 : complete
                   ? "Generate again"
-                  : "Generate assets"}
+                  : mode === "data-only"
+                    ? "Generate data only"
+                    : "Generate assets"}
               {!busy && <ArrowRight size={17} />}
             </button>
           </section>
