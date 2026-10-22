@@ -415,43 +415,6 @@ def parse_items(lines, suffix)
   items
 end
 
-def parse_trainer_types(lines, suffix)
-  trainer_types = []
-  current = nil
-
-  lines.each do |line|
-    line.strip!
-    next if line.empty? || line.start_with?("#")
-
-    if line.match(/^\[(.+)\]$/)
-      trainer_types << current if current
-      current = {
-        id: $1,
-        name: "",
-        gender: "",
-        baseMoney: 0,
-        suffix: suffix,
-        sprite: "/Trainers/#{$1.upcase}.png",
-        description: ""
-      }
-    elsif current
-      key, value = line.split("=", 2).map(&:strip)
-
-      case key
-      when "Name"
-        current[:name] = value
-      when "Gender"
-        current[:gender] = value
-      when "BaseMoney"
-        current[:baseMoney] = value.to_i
-      end
-    end
-  end
-
-  trainer_types << current if current
-  trainer_types
-end
-
 def parse_map_metadata(lines)
   maps = {}
   current = nil
@@ -748,26 +711,6 @@ abilities_configs.each do |config|
     parse_abilities(read_combined_lines(config[:inputs]), config[:suffix])
   write_ts(config[:output], "Ability", "abilities", abilities)
   puts "✅ Habilidades generadas en #{config[:output]}"
-end
-
-# ========================================================== #
-# Procesar Trainer Types
-# ========================================================== #
-trainer_types_configs = [
-  {
-    output: File.join(__dir__, "../src/data/trainer_types.ts"),
-    inputs: [
-      File.join(__dir__, "./trainer_types.txt"),
-      File.join(__dir__, "./trainer_types_absolution.txt")
-    ],
-    suffix: "normal"
-  }
-]
-trainer_types_configs.each do |config|
-  trainer_types =
-    parse_trainer_types(read_combined_lines(config[:inputs]), config[:suffix])
-  write_ts(config[:output], "TrainerType", "trainerTypes", trainer_types)
-  puts "✅ Trainer Types generados en #{config[:output]}"
 end
 
 # ========================================================== #

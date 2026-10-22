@@ -14,9 +14,3 @@ export function normalizeLevelUpMoves(
     })
     .filter((m) => !!m.move && Number.isFinite(m.level));
 }
-
-export function levelUpMoveIds(moves: Fakemon["moves"] | undefined): string[] {
-  return normalizeLevelUpMoves(moves)
-    .map((m) => m.move)
-    .filter(Boolean);
-}

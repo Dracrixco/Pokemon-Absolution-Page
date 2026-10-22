@@ -89,22 +89,6 @@ const Navigation = ({ className = "" }: { className: string }) => {
       >
         Updates
       </Link>
-      {import.meta.env.VITE_ENABLE_DEBUG_LINKS == "true" && (
-        <>
-          <Link
-            to="/team-builder"
-            className="text-purple-200 hover:text-white transition-colors"
-          >
-            Team Builder
-          </Link>
-          <Link
-            to="/moveset-editor"
-            className="text-purple-200 hover:text-white transition-colors"
-          >
-            Moveset Editor
-          </Link>
-        </>
-      )}
     </nav>
   );
 };
