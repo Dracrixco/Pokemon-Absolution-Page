@@ -12,6 +12,18 @@ export const REQUIRED_FOLDERS = [
   "Exported Maps",
 ] as const;
 
+export const OUTPUT_FOLDERS = [
+  "src/data",
+  "public/Pokemon/Front",
+  "public/Pokemon/Back",
+  "public/Items",
+  "public/Trainers",
+  "public/Exported Maps/base",
+  "public/Exported Maps/trainers",
+  "public/Exported Maps/items",
+  "public/Exported Maps/pokemon",
+] as const;
+
 export async function directory(
   root: FileSystemDirectoryHandle,
   path: string,
@@ -50,15 +62,21 @@ export function mapDestinations(path: string): string[] {
   const parts = path.split("/");
   const name = parts.pop()!;
   const match = name.match(/^(?:map[_ -]?|exported map)(\d+)\.png$/i);
-  if (!match) return [`public/IngameMaps/${path}`];
+  if (!match) return [`public/Exported Maps/${path}`];
   const normalized = `map_${Number(match[1])}.png`;
   const layer = parts.at(-1)?.toLowerCase();
   if (["base", "trainers", "items", "pokemon"].includes(layer || "")) {
     return layer === "base"
-      ? [`public/maps/base/${normalized}`, `public/IngameMaps/${normalized}`]
-      : [`public/maps/${layer}/${normalized}`];
+      ? [
+          `public/Exported Maps/base/${normalized}`,
+          `public/Exported Maps/${normalized}`,
+        ]
+      : [`public/Exported Maps/${layer}/${normalized}`];
   }
-  return [`public/IngameMaps/${normalized}`, `public/maps/base/${normalized}`];
+  return [
+    `public/Exported Maps/${normalized}`,
+    `public/Exported Maps/base/${normalized}`,
+  ];
 }
 
 export async function inspectProject(source: Directory): Promise<Plan> {
@@ -86,11 +104,11 @@ export async function inspectProject(source: Directory): Promise<Plan> {
   const data = generateData(pbs);
   const assets = new Map<string, Asset>();
   for (const [index, output] of [
-    "Front",
-    "Back",
+    "Pokemon/Front",
+    "Pokemon/Back",
     "Items",
     "Trainers",
-    "IngameMaps",
+    "Exported Maps",
   ].entries()) {
     for await (const entry of walk(folders[index + 1])) {
       if (!/\.(png|gif|webp|jpe?g)$/i.test(entry.path)) continue;
@@ -120,9 +138,16 @@ export async function validateOutput(output: Directory, source?: Directory) {
   ) {
     throw new Error("Choose a website folder separate from the game project.");
   }
-  await directory(output, "src/data");
-  await directory(output, "public");
-  const pkg = await (await output.getFileHandle("package.json")).getFile();
+  let pkg: File;
+  try {
+    pkg = await (await output.getFileHandle("package.json")).getFile();
+  } catch (error) {
+    if (error instanceof DOMException && error.name === "NotFoundError")
+      throw new Error(
+        "Select apps/web from this monorepo as the output folder (package.json is missing).",
+      );
+    throw error;
+  }
   const json = JSON.parse(await pkg.text());
   if (json.name !== "@absolution/web")
     throw new Error("Select apps/web from this monorepo as the output folder.");
@@ -147,7 +172,7 @@ async function write(output: Directory, path: string, content: string | File) {
 const MANIFEST = ".asset-studio.json";
 // Only delete files previously owned by the generator, under its asset folders.
 export const isManagedAsset = (path: string) =>
-  /^public\/(Front|Back|Items|Trainers|IngameMaps|maps)\/.+\.(png|gif|webp|jpe?g)$/i.test(
+  /^public\/(Pokemon\/(Front|Back)|Exported Maps|Front|Back|Items|Trainers|IngameMaps|maps)\/.+\.(png|gif|webp|jpe?g)$/i.test(
     path,
   ) &&
   !path
@@ -206,6 +231,7 @@ export async function exportProject(
   await saveManifest([
     ...new Set([...previous, ...plan.assets.map((a) => a.path)]),
   ]);
+  for (const path of OUTPUT_FOLDERS) await directory(output, path, true);
   for (const [path, content] of Object.entries(plan.files)) {
     await write(output, path, content);
     progress(`Writing ${++done} / ${total} · ${path}`);
@@ -218,7 +244,7 @@ export async function exportProject(
   for (const path of previous)
     if (!current.has(path)) await remove(output, path);
   // Remove unrevealed sprites already present before the first managed export.
-  for (const name of ["Front", "Back"]) {
+  for (const name of ["Pokemon/Front", "Pokemon/Back", "Front", "Back"]) {
     let folder: Directory;
     try {
       folder = await directory(output, `public/${name}`);

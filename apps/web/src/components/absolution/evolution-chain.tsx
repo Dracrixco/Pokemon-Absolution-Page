@@ -196,7 +196,7 @@ const EvolutionTreeNode: React.FC<EvolutionTreeNodeProps> = ({
             alt={displayName}
             className="w-24 h-24 object-contain mb-2"
             onError={(e) => {
-              e.currentTarget.src = "/Front/MISSINGNO.png";
+              e.currentTarget.src = "/Pokemon/Front/MISSINGNO.png";
             }}
           />
           <span className="text-white font-medium text-sm text-center">

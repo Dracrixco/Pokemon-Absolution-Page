@@ -48,25 +48,29 @@ Open `http://localhost:5174` in Chrome or Edge. Folder access requires localhost
 3. Review the counts and any warnings, then click **Generate assets**.
 4. Review the generated changes and run `pnpm build`.
 
+Missing output directories (including `src/data` and `public`) are recreated during generation. You can delete generated images and folders to start clean; keep `apps/web/package.json` so the generator can identify the website. Select both folders again if a selected directory itself was deleted and recreated.
+
 The app reads the game project directly. No PBS copying, Ruby runtime, server upload, or `generate/` folder is needed. Select the project again to refresh the preview after changing game files.
 
 The required PBS inputs are `pokemon.txt`, `moves.txt`, `items.txt`, and `abilities.txt`. Optional inputs include `pokemon_absolution.txt`, `pokemon_forms*.txt`, `moves_*.txt`, `items_*.txt`, `abilities_*.txt`, `encounters.txt`, and `map_metadata.txt`. The Absolution Pokémon, forms, and items have separate output modules. Missing optional datasets generate empty output to clear old entries. Maps require the `ForWebPage` flag and a `MapPosition`.
 
 Generated data uses `@absolution/shared-types` and retains the filenames and export names consumed by the website. The generator writes ten modules in `src/data`, leaving manually maintained data such as characters, natures, and types alone.
 
-| Game assets              | Website output                        |
-| ------------------------ | ------------------------------------- |
-| `Graphics/Pokemon/Front` | `public/Front`                        |
-| `Graphics/Pokemon/Back`  | `public/Back`                         |
-| `Graphics/Items`         | `public/Items`                        |
-| `Graphics/Trainers`      | `public/Trainers`                     |
-| `Exported Maps`          | `public/IngameMaps` and `public/maps` |
+| Game assets              | Website output         |
+| ------------------------ | ---------------------- |
+| `Graphics/Pokemon/Front` | `public/Pokemon/Front` |
+| `Graphics/Pokemon/Back`  | `public/Pokemon/Back`  |
+| `Graphics/Items`         | `public/Items`         |
+| `Graphics/Trainers`      | `public/Trainers`      |
+| `Exported Maps`          | `public/Exported Maps` |
 
-Map filenames such as `map_12.png`, `Map012.png`, and `exported map12.png` are normalized to `map_12.png`. Flat maps are exported to both `IngameMaps` and `maps/base` for the two existing viewers. Nested `base`, `trainers`, `items`, and `pokemon` folders populate their corresponding map layers. Other images retain their relative path under `IngameMaps`. Conflicting normalized asset paths are reported before writing.
+Map filenames such as `map_12.png`, `Map012.png`, and `exported map12.png` are normalized to `map_12.png`. Flat maps are exported to both `Exported Maps` and `Exported Maps/base` for the two existing viewers. Nested `base`, `trainers`, `items`, and `pokemon` folders populate their corresponding map layers. Other images retain their relative path under `Exported Maps`. Conflicting normalized asset paths are reported before writing.
 
 The full **`NOT_ABLE_TO_SHOW_FAKEMONS`** list lives in `apps/asset-generator/src/exclusions.ts`. It filters species, forms, encounters, evolution targets, and front/back sprites. An export also removes matching hidden sprites already present in the output. The game source is read only.
 
 The output's `.asset-studio.json` records generated asset ownership. On later exports, assets from the previous export that are no longer present are removed; unrelated manually maintained assets remain. On the first export, existing public assets are retained except excluded Pokémon sprites. Writes replace generated data and images directly, so review them with Git. If a run is interrupted, reselect the folders and retry. Commit the manifest with generated assets to retain ownership across checkouts.
+
+Older manifests with `public/Front`, `public/Back`, `public/IngameMaps`, or `public/maps` paths remain supported: the next export writes the new paths and removes the previously managed files at the old paths.
 
 ## Shared types
 

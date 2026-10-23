@@ -37,7 +37,7 @@ test("PBS parsing preserves stat order, move levels, values with equals and form
     base,
   );
   assert.equal(forms[0].name, "Pikachu");
-  assert.equal(forms[0].sprite, "/Front/PIKACHU_1.png");
+  assert.equal(forms[0].sprite, "/Pokemon/Front/PIKACHU_1.png");
   assert.deepEqual(forms[0].types, ["WATER"]);
   assert.deepEqual(base[0].types, ["ELECTRIC"]);
   assert.deepEqual(parseLevelUpMoves("1,TACKLE,bad,GROWL,8,QUICKATTACK,9"), [
@@ -108,20 +108,20 @@ test("export contracts include all ten datasets and clear missing expansions", (
 
 test("map exports match both website map viewers and respect layers", () => {
   assert.deepEqual(mapDestinations("Map001.png"), [
-    "public/IngameMaps/map_1.png",
-    "public/maps/base/map_1.png",
+    "public/Exported Maps/map_1.png",
+    "public/Exported Maps/base/map_1.png",
   ]);
   assert.deepEqual(mapDestinations("trainers/map_002.png"), [
-    "public/maps/trainers/map_2.png",
+    "public/Exported Maps/trainers/map_2.png",
   ]);
   assert.deepEqual(mapDestinations("base/map_2.png"), [
-    "public/maps/base/map_2.png",
-    "public/IngameMaps/map_2.png",
+    "public/Exported Maps/base/map_2.png",
+    "public/Exported Maps/map_2.png",
   ]);
-  assert.equal(isManagedAsset("public/Front/PIKACHU.png"), true);
+  assert.equal(isManagedAsset("public/Pokemon/Front/PIKACHU.png"), true);
   for (const path of [
-    "public/Front/../../secret.png",
-    "public/Front/..\\secret.png",
+    "public/Pokemon/Front/../../secret.png",
+    "public/Pokemon/Front/..\\secret.png",
     "src/data/pokemon.ts",
     "public/Characters/Hero.png",
   ])

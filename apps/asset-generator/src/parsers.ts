@@ -60,8 +60,8 @@ function pokemon(section: Section, suffix: string, base?: Fakemon): Fakemon {
         id,
         name: "",
         types: [],
-        sprite: `/Front/${id.toUpperCase()}.png`,
-        backSprite: `/Back/${id.toUpperCase()}.png`,
+        sprite: `/Pokemon/Front/${id.toUpperCase()}.png`,
+        backSprite: `/Pokemon/Back/${id.toUpperCase()}.png`,
         description: "",
         stats: {
           hp: 0,
@@ -158,8 +158,8 @@ export function parseForms(
         formNumber,
         formName: s.fields.FormName || "",
         megaStone: s.fields.MegaStone || null,
-        sprite: `/Front/${baseId.toUpperCase()}_${formNumber}.png`,
-        backSprite: `/Back/${baseId.toUpperCase()}_${formNumber}.png`,
+        sprite: `/Pokemon/Front/${baseId.toUpperCase()}_${formNumber}.png`,
+        backSprite: `/Pokemon/Back/${baseId.toUpperCase()}_${formNumber}.png`,
       };
     });
 }

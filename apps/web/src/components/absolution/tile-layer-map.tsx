@@ -52,7 +52,7 @@ export const MapImage = ({
       >
         {showMap && (
           <img
-            src={"/maps/base/map_" + mapIngameID + ".png"}
+            src={"/Exported Maps/base/map_" + mapIngameID + ".png"}
             alt="Map"
             className={cn([
               "absolute top-0 left-0 transition-opacity duration-300",
@@ -63,7 +63,7 @@ export const MapImage = ({
         )}
         {showTrainers && (
           <img
-            src={"/maps/trainers/map_" + mapIngameID + ".png"}
+            src={"/Exported Maps/trainers/map_" + mapIngameID + ".png"}
             alt="Trainers"
             className={cn([
               "absolute top-0 left-0 transition-opacity duration-300",
@@ -74,7 +74,7 @@ export const MapImage = ({
         )}
         {showObjects && (
           <img
-            src={"/maps/items/map_" + mapIngameID + ".png"}
+            src={"/Exported Maps/items/map_" + mapIngameID + ".png"}
             alt="Items"
             className={cn([
               "absolute top-0 left-0 transition-opacity duration-300",
@@ -85,7 +85,7 @@ export const MapImage = ({
         )}
         {showPokemon && (
           <img
-            src={"/maps/pokemon/map_" + mapIngameID + ".png"}
+            src={"/Exported Maps/pokemon/map_" + mapIngameID + ".png"}
             alt="Items"
             className={cn([
               "absolute top-0 left-0 transition-opacity duration-300",
@@ -147,7 +147,7 @@ const MapImageFullyMode = ({
       <div className="relative w-full h-full flex items-center justify-center">
         {showMap && (
           <img
-            src={"/maps/base/map_" + mapIngameID + ".png"}
+            src={"/Exported Maps/base/map_" + mapIngameID + ".png"}
             alt="Map"
             className="absolute top-0 left-0 z-0 w-full h-full object-contain transition-opacity duration-300"
             style={{ opacity: showMap ? 1 : 0 }}
@@ -155,7 +155,7 @@ const MapImageFullyMode = ({
         )}
         {showTrainers && (
           <img
-            src={"/maps/trainers/map_" + mapIngameID + ".png"}
+            src={"/Exported Maps/trainers/map_" + mapIngameID + ".png"}
             alt="Trainers"
             className="absolute top-0 left-0 z-10 w-full h-full object-contain transition-opacity duration-300"
             style={{ opacity: showTrainers ? 1 : 0 }}
@@ -163,7 +163,7 @@ const MapImageFullyMode = ({
         )}
         {showObjects && (
           <img
-            src={"/maps/items/map_" + mapIngameID + ".png"}
+            src={"/Exported Maps/items/map_" + mapIngameID + ".png"}
             alt="Items"
             className="absolute top-0 left-0 z-20 w-full h-full object-contain transition-opacity duration-300"
             style={{ opacity: showObjects ? 1 : 0 }}
@@ -171,7 +171,7 @@ const MapImageFullyMode = ({
         )}
         {showPokemon && (
           <img
-            src={"/maps/pokemon/map_" + mapIngameID + ".png"}
+            src={"/Exported Maps/pokemon/map_" + mapIngameID + ".png"}
             alt="Pokemon"
             className="absolute top-0 left-0 z-30 w-full h-full object-contain transition-opacity duration-300"
             style={{ opacity: showPokemon ? 1 : 0 }}

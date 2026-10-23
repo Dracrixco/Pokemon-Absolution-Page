@@ -14,7 +14,7 @@ export const MapViewer: React.FC<MapViewerProps> = ({
   className = "",
 }) => {
   const [imageLoaded, setImageLoaded] = useState(false);
-  const imageSrc = `/IngameMaps/map_${tile.mapIngameID}.png`;
+  const imageSrc = `/Exported Maps/map_${tile.mapIngameID}.png`;
 
   const handleImageLoad = () => {
     setImageLoaded(true);

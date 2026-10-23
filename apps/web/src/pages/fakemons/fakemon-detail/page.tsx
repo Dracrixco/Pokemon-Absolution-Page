@@ -114,7 +114,7 @@ export const FakemonDetailPage = () => {
                     alt={fakemon.name}
                     className="w-full h-24 object-contain mb-2"
                     onError={(e) => {
-                      e.currentTarget.src = "/Front/MISSINGNO.png";
+                      e.currentTarget.src = "/Pokemon/Front/MISSINGNO.png";
                     }}
                   />
                 </div>
@@ -141,7 +141,7 @@ export const FakemonDetailPage = () => {
                       alt={form.formName}
                       className="w-full h-24 object-contain mb-2"
                       onError={(e) => {
-                        e.currentTarget.src = "/Front/MISSINGNO.png";
+                        e.currentTarget.src = "/Pokemon/Front/MISSINGNO.png";
                       }}
                     />
                     {form.megaStone && (

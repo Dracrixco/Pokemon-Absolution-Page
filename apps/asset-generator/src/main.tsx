@@ -76,11 +76,7 @@ function App() {
       setComplete(false);
     } catch (err) {
       if (!(err instanceof DOMException && err.name === "AbortError"))
-        setError(
-          err instanceof Error
-            ? `Choose apps/web from the monorepo. ${err.message}`
-            : String(err),
-        );
+        setError(err instanceof Error ? err.message : String(err));
     }
   }
 
@@ -206,7 +202,8 @@ function App() {
               <h2>{output?.name || "Choose the website folder"}</h2>
               <p>
                 Select <code>apps/web</code> in your monorepo. Generated files
-                will be written here.
+                will be written here. Missing output folders are created when
+                you generate.
               </p>
               <button
                 className="secondary"
@@ -222,7 +219,13 @@ function App() {
                   <span>src/data/</span> Pokémon, moves, items & maps
                 </code>
                 <code>
-                  <span>public/</span> Sprites, trainers & map images
+                  <span>public/Pokemon/</span> Front & back sprites
+                </code>
+                <code>
+                  <span>public/Items/ & public/Trainers/</span> Icons & trainers
+                </code>
+                <code>
+                  <span>public/Exported Maps/</span> Maps & layers
                 </code>
                 <p>
                   Existing generated files are replaced. Assets from previous
