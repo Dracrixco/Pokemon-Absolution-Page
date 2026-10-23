@@ -1,0 +1,10 @@
+export type * from "./ability";
+export type * from "./fakemon";
+export type * from "./genericPBS";
+export type * from "./item";
+export type * from "./move";
+export type * from "./pokemonform";
+export type * from "./type";
+export type * from "./api";
+export type * from "./map";
+export type * from "./character";

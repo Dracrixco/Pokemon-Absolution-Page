@@ -1,54 +1,110 @@
-# React + TypeScript + Vite
+﻿# Pokémon Absolution monorepo
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+This pnpm workspace contains the public website, its API, a local asset generator, and shared TypeScript contracts.
 
-Currently, two official plugins are available:
-
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
-
-## Expanding the ESLint configuration
-
-If you are developing a production application, we recommend updating the configuration to enable type-aware lint rules:
-
-```js
-export default tseslint.config({
-  extends: [
-    // Remove ...tseslint.configs.recommended and replace with this
-    ...tseslint.configs.recommendedTypeChecked,
-    // Alternatively, use this for stricter rules
-    ...tseslint.configs.strictTypeChecked,
-    // Optionally, add this for stylistic rules
-    ...tseslint.configs.stylisticTypeChecked,
-  ],
-  languageOptions: {
-    // other options...
-    parserOptions: {
-      project: ["./tsconfig.node.json", "./tsconfig.app.json"],
-      tsconfigRootDir: import.meta.dirname,
-    },
-  },
-});
+```text
+apps/
+  web/               React + Vite public website
+  server/            Express API (downloads, game info, updates, countries)
+  asset-generator/   Browser app for generating website data and assets
+packages/
+  shared-types/      Game data and API types used across the workspace
 ```
 
-You can also install [eslint-plugin-react-x](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-x) and [eslint-plugin-react-dom](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-dom) for React-specific lint rules:
+## Development
 
-```js
-// eslint.config.js
-import reactX from "eslint-plugin-react-x";
-import reactDom from "eslint-plugin-react-dom";
+Use Node.js 24.x and the pnpm version pinned in `package.json`. All workspace packages require Node.js 24.x.
 
-export default tseslint.config({
-  plugins: {
-    // Add the react-x and react-dom plugins
-    "react-x": reactX,
-    "react-dom": reactDom,
-  },
-  rules: {
-    // other rules...
-    // Enable its recommended typescript rules
-    ...reactX.configs["recommended-typescript"].rules,
-    ...reactDom.configs.recommended.rules,
-  },
-});
+```sh
+corepack enable
+pnpm install
+pnpm dev
 ```
+
+`pnpm dev` runs the website on `http://localhost:5173` and API on port 4000. The website development server proxies `/api` to the API. Run apps separately with `pnpm dev:web`, `pnpm dev:server`, or `pnpm dev:generator`.
+
+The website defaults to `/api`. For another backend URL, copy `apps/web/.env.example` to `apps/web/.env` and set `VITE_BACKEND_URL`, including the `/api` suffix. The pre-migration local `.env` was moved into `apps/web`; its existing URL still takes precedence. Use `VITE_BACKEND_URL=/api` to work against the local API.
+
+## Generate website assets
+
+```sh
+pnpm dev:generator
+```
+
+Open `http://localhost:5174` in Chrome or Edge. Folder access requires localhost or HTTPS and browser support for `showDirectoryPicker`.
+
+1. Select the **game project root**, which must contain:
+
+   ```text
+   PBS/
+   Graphics/Pokemon/Front/
+   Graphics/Pokemon/Back/
+   Graphics/Items/
+   Graphics/Trainers/
+   Exported Maps/
+   ```
+
+2. Select this monorepo's **`apps/web`** folder as the output.
+3. Review the counts and any warnings, then click **Generate assets**.
+4. Review the generated changes and run `pnpm build`.
+
+The app reads the game project directly. No PBS copying, Ruby runtime, server upload, or `generate/` folder is needed. Select the project again to refresh the preview after changing game files.
+
+The required PBS inputs are `pokemon.txt`, `moves.txt`, `items.txt`, and `abilities.txt`. Optional inputs include `pokemon_absolution.txt`, `pokemon_forms*.txt`, `moves_*.txt`, `items_*.txt`, `abilities_*.txt`, `encounters.txt`, and `map_metadata.txt`. The Absolution Pokémon, forms, and items have separate output modules. Missing optional datasets generate empty output to clear old entries. Maps require the `ForWebPage` flag and a `MapPosition`.
+
+Generated data uses `@absolution/shared-types` and retains the filenames and export names consumed by the website. The generator writes ten modules in `src/data`, leaving manually maintained data such as characters, natures, and types alone.
+
+| Game assets              | Website output                        |
+| ------------------------ | ------------------------------------- |
+| `Graphics/Pokemon/Front` | `public/Front`                        |
+| `Graphics/Pokemon/Back`  | `public/Back`                         |
+| `Graphics/Items`         | `public/Items`                        |
+| `Graphics/Trainers`      | `public/Trainers`                     |
+| `Exported Maps`          | `public/IngameMaps` and `public/maps` |
+
+Map filenames such as `map_12.png`, `Map012.png`, and `exported map12.png` are normalized to `map_12.png`. Flat maps are exported to both `IngameMaps` and `maps/base` for the two existing viewers. Nested `base`, `trainers`, `items`, and `pokemon` folders populate their corresponding map layers. Other images retain their relative path under `IngameMaps`. Conflicting normalized asset paths are reported before writing.
+
+The full **`NOT_ABLE_TO_SHOW_FAKEMONS`** list lives in `apps/asset-generator/src/exclusions.ts`. It filters species, forms, encounters, evolution targets, and front/back sprites. An export also removes matching hidden sprites already present in the output. The game source is read only.
+
+The output's `.asset-studio.json` records generated asset ownership. On later exports, assets from the previous export that are no longer present are removed; unrelated manually maintained assets remain. On the first export, existing public assets are retained except excluded Pokémon sprites. Writes replace generated data and images directly, so review them with Git. If a run is interrupted, reselect the folders and retry. Commit the manifest with generated assets to retain ownership across checkouts.
+
+## Shared types
+
+Import contracts from `@absolution/shared-types` in both browser apps. The JavaScript API uses checked JSDoc imports from the same package. Existing website `src/types/*` paths re-export the shared contracts for compatibility.
+
+The package contains only types and has no runtime build dependency. Its `build` and `check-types` scripts verify the source with TypeScript.
+
+## Validation
+
+```sh
+pnpm build
+pnpm check-types
+pnpm test
+```
+
+Tests cover PBS parsing, inherited forms, every excluded species, final map/encounter sections, a full disk-backed generation flow, stale asset cleanup, source preservation, and the server's public API contracts.
+
+## Deployment
+
+The root `Dockerfile` builds and serves `apps/web/dist` on port 4173:
+
+```sh
+docker build --build-arg VITE_BACKEND_URL=https://your-api.example/api -t absolution-web .
+```
+
+Without a build argument, `/api` is used; configure your reverse proxy to forward it to the API. The static container itself does not proxy API requests.
+
+Build the API **from the monorepo root**:
+
+```sh
+docker build -f apps/server/Dockerfile -t absolution-server .
+docker run -p 4000:4000 -v absolution-downloads:/data absolution-server
+```
+
+The API supports `PORT` (default 4000) and `DATA_DIR` (default `apps/server`). Download history is stored in `downloads.json`, which is ignored by Git and Docker. Existing local history was copied into `apps/server` during migration; copy it into the `/data` volume when migrating production. `updates.json` remains part of the server source. The original sibling server folder was left unchanged.
+
+The generator is a separate static Vite app: `pnpm --filter @absolution/asset-generator build` produces `apps/asset-generator/dist`. Keep it separate from the public website. It does not need an API server.
+
+## Migration notes
+
+The former `generate/` directory, including its original PBS files and Ruby script, is preserved locally at `.local/legacy-pbs/` and is ignored by Git. It is no longer used by any build or generation command. Website source, public assets, config, and the local environment file now live under `apps/web`. CI and hosting setups should use workspace commands from the root and the new output path `apps/web/dist`.
